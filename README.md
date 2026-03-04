@@ -1,6 +1,6 @@
-# The Covenant Rendering — Genesis
+# The Covenant Rendering
 
-A modern English rendering of the Book of Genesis, translated directly from the Westminster Leningrad Codex (WLC) Hebrew source text.
+A modern English rendering of the Bible, translated directly from the Westminster Leningrad Codex (WLC) Hebrew source text. Open source. Fully documented. Free for everyone.
 
 ## What This Is
 
@@ -31,9 +31,13 @@ Each chapter is a standalone JSON file:
 ```
 genesis/
 ├── chapter-01.json
-├── chapter-02.json
 ├── ...
 └── chapter-50.json
+
+exodus/
+├── chapter-01.json
+├── ...
+└── chapter-40.json (in progress)
 ```
 
 ### Example: Genesis 1:1
@@ -60,13 +64,17 @@ genesis/
 }
 ```
 
-## Statistics
+## Current Progress
 
-- **50 chapters** — the complete Book of Genesis
-- **1,534 verses** — every verse rendered with notes
+| Book | Chapters | Verses | Status |
+|------|----------|--------|--------|
+| Genesis | 50/50 | 1,534 | Complete |
+| Exodus | 40/40 | 1,213 | Complete |
+
 - **Source text:** Westminster Leningrad Codex (WLC)
-- **Reading level:** 9th–10th grade (comparable to ESV)
+- **Reading level:** 9th-10th grade (comparable to ESV)
 - **Translation approach:** Formal equivalence with clarity
+- **Full project details:** See [TCR_source_of_truth.md](TCR_source_of_truth.md)
 
 ## Translation Philosophy
 
@@ -120,6 +128,10 @@ The JSON structure is designed to be developer-friendly. You can use these files
 - Build concordances or cross-reference databases
 
 If you build something with The Covenant Rendering, I'd love to hear about it.
+
+## Project Documentation
+
+For the full project vision, methodology, architecture, quality standards, and progress tracking, see [TCR_source_of_truth.md](TCR_source_of_truth.md).
 
 ## Contact
 
