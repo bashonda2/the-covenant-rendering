@@ -1,0 +1,706 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Deuteronomy",
+    "chapter": 28,
+    "source_text": "Westminster Leningrad Codex (WLC)",
+    "reference_text": "KJV",
+    "model": "claude-opus-4-6",
+    "generated_at": "2026-03-04T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_hebrew": "וְהָיָ֗ה אִם־שָׁמ֤וֹעַ תִּשְׁמַע֙ בְּקוֹל֙ יְהֹוָ֣ה אֱלֹהֶ֔יךָ לִשְׁמֹ֤ר לַעֲשׂוֹת֙ אֶת־כׇּל־מִצְוֺתָ֔יו אֲשֶׁ֛ר אָנֹכִ֥י מְצַוְּךָ֖ הַיּ֑וֹם וּנְתָ֨נְךָ֜ יְהֹוָ֤ה אֱלֹהֶ֙יךָ֙ עֶלְי֔וֹן עַ֖ל כׇּל־גּוֹיֵ֥י הָאָֽרֶץ׃",
+      "text_kjv": "And it shall come to pass, if thou shalt hearken diligently unto the voice of the LORD thy God, to observe and to do all his commandments which I command thee this day, that the LORD thy God will set thee on high above all nations of the earth:",
+      "rendering": "it shall come to pass, if you shall hearken diligently to the voice of the LORD your God, to observe and to do all his commandments which I command you this day, that the LORD your God will set you on high above all nations of the earth:",
+      "translator_notes": [
+        "Deuteronomy narrative/law detail. Full verse-specific note to be completed in quality pass."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 2,
+      "text_hebrew": "וּבָ֧אוּ עָלֶ֛יךָ כׇּל־הַבְּרָכ֥וֹת הָאֵ֖לֶּה וְהִשִּׂיגֻ֑ךָ כִּ֣י תִשְׁמַ֔ע בְּק֖וֹל יְהֹוָ֥ה אֱלֹהֶֽיךָ׃",
+      "text_kjv": "And all these blessings shall come on thee, and overtake thee, if thou shalt hearken unto the voice of the LORD thy God.",
+      "rendering": "all these blessings shall come on you, and overtake you, if you shall hearken to the voice of the LORD your God.",
+      "translator_notes": [
+        "Deuteronomy narrative/law detail. Full verse-specific note to be completed in quality pass."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 3,
+      "text_hebrew": "בָּר֥וּךְ אַתָּ֖ה בָּעִ֑יר וּבָר֥וּךְ אַתָּ֖ה בַּשָּׂדֶֽה׃",
+      "text_kjv": "Blessed shalt thou be in the city, and blessed shalt thou be in the field.",
+      "rendering": "Blessed shall you be in the city, and blessed shall you be in the field.",
+      "translator_notes": [
+        "Deuteronomy narrative/law detail. Full verse-specific note to be completed in quality pass."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 4,
+      "text_hebrew": "בָּר֧וּךְ פְּרִֽי־בִטְנְךָ֛ וּפְרִ֥י אַדְמָתְךָ֖ וּפְרִ֣י בְהֶמְתֶּ֑ךָ שְׁגַ֥ר אֲלָפֶ֖יךָ וְעַשְׁתְּר֥וֹת צֹאנֶֽךָ׃",
+      "text_kjv": "Blessed shall be the fruit of thy body, and the fruit of thy ground, and the fruit of thy cattle, the increase of thy kine, and the flocks of thy sheep.",
+      "rendering": "Blessed shall be the fruit of your body, and the fruit of your ground, and the fruit of your cattle, the increase of your kine, and the flocks of your sheep.",
+      "translator_notes": [
+        "Deuteronomy narrative/law detail. Full verse-specific note to be completed in quality pass."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 5,
+      "text_hebrew": "בָּר֥וּךְ טַנְאֲךָ֖ וּמִשְׁאַרְתֶּֽךָ׃",
+      "text_kjv": "Blessed shall be thy basket and thy store.",
+      "rendering": "Blessed shall be your basket and your store.",
+      "translator_notes": [
+        "Deuteronomy narrative/law detail. Full verse-specific note to be completed in quality pass."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 6,
+      "text_hebrew": "בָּר֥וּךְ אַתָּ֖ה בְּבֹאֶ֑ךָ וּבָר֥וּךְ אַתָּ֖ה בְּצֵאתֶֽךָ׃",
+      "text_kjv": "Blessed shalt thou be when thou comest in, and blessed shalt thou be when thou goest out.",
+      "rendering": "Blessed shall you be when you comest in, and blessed shall you be when you goest out.",
+      "translator_notes": [
+        "Deuteronomy narrative/law detail. Full verse-specific note to be completed in quality pass."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 7,
+      "text_hebrew": "יִתֵּ֨ן יְהֹוָ֤ה אֶת־אֹיְבֶ֙יךָ֙ הַקָּמִ֣ים עָלֶ֔יךָ נִגָּפִ֖ים לְפָנֶ֑יךָ בְּדֶ֤רֶךְ אֶחָד֙ יֵצְא֣וּ אֵלֶ֔יךָ וּבְשִׁבְעָ֥ה דְרָכִ֖ים יָנ֥וּסוּ לְפָנֶֽיךָ׃",
+      "text_kjv": "The LORD shall cause thine enemies that rise up against thee to be smitten before thy face: they shall come out against thee one way, and flee before thee seven ways.",
+      "rendering": "The LORD shall cause thine enemies that rise up against you to be smitten before your face: they shall come out against you one way, and flee before you seven ways.",
+      "translator_notes": [
+        "Deuteronomy narrative/law detail. Full verse-specific note to be completed in quality pass."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 8,
+      "text_hebrew": "יְצַ֨ו יְהֹוָ֤ה אִתְּךָ֙ אֶת־הַבְּרָכָ֔ה בַּאֲסָמֶ֕יךָ וּבְכֹ֖ל מִשְׁלַ֣ח יָדֶ֑ךָ וּבֵ֣רַכְךָ֔ בָּאָ֕רֶץ אֲשֶׁר־יְהֹוָ֥ה אֱלֹהֶ֖יךָ נֹתֵ֥ן לָֽךְ׃",
+      "text_kjv": "The LORD shall command the blessing upon thee in thy storehouses, and in all that thou settest thine hand unto; and he shall bless thee in the land which the LORD thy God giveth thee.",
+      "rendering": "The LORD shall command the blessing upon you in your storehouses, and in all that you settest thine hand unto; and he shall bless you in the land which the LORD your God giveth you.",
+      "translator_notes": [
+        "Deuteronomy narrative/law detail. Full verse-specific note to be completed in quality pass."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 9,
+      "text_hebrew": "יְקִֽימְךָ֨ יְהֹוָ֥ה לוֹ֙ לְעַ֣ם קָד֔וֹשׁ כַּאֲשֶׁ֖ר נִֽשְׁבַּֽע־לָ֑ךְ כִּ֣י תִשְׁמֹ֗ר אֶת־מִצְוֺת֙ יְהֹוָ֣ה אֱלֹהֶ֔יךָ וְהָלַכְתָּ֖ בִּדְרָכָֽיו׃",
+      "text_kjv": "The LORD shall establish thee an holy people unto himself, as he hath sworn unto thee, if thou shalt keep the commandments of the LORD thy God, and walk in his ways.",
+      "rendering": "The LORD shall establish you an holy people to himself, as he has sworn to you, if you shall keep the commandments of the LORD your God, and walk in his ways.",
+      "translator_notes": [
+        "Deuteronomy narrative/law detail. Full verse-specific note to be completed in quality pass."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 10,
+      "text_hebrew": "וְרָאוּ֙ כׇּל־עַמֵּ֣י הָאָ֔רֶץ כִּ֛י שֵׁ֥ם יְהֹוָ֖ה נִקְרָ֣א עָלֶ֑יךָ וְיָֽרְא֖וּ מִמֶּֽךָּ׃",
+      "text_kjv": "And all people of the earth shall see that thou art called by the name of the LORD; and they shall be afraid of thee.",
+      "rendering": "all people of the earth shall see that you art called by the name of the LORD; and they shall be afraid of you.",
+      "translator_notes": [
+        "Deuteronomy narrative/law detail. Full verse-specific note to be completed in quality pass."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 11,
+      "text_hebrew": "וְהוֹתִרְךָ֤ יְהֹוָה֙ לְטוֹבָ֔ה בִּפְרִ֧י בִטְנְךָ֛ וּבִפְרִ֥י בְהֶמְתְּךָ֖ וּבִפְרִ֣י אַדְמָתֶ֑ךָ עַ֚ל הָאֲדָמָ֔ה אֲשֶׁ֨ר נִשְׁבַּ֧ע יְהֹוָ֛ה לַאֲבֹתֶ֖יךָ לָ֥תֶת לָֽךְ׃",
+      "text_kjv": "And the LORD shall make thee plenteous in goods, in the fruit of thy body, and in the fruit of thy cattle, and in the fruit of thy ground, in the land which the LORD sware unto thy fathers to give thee.",
+      "rendering": "the LORD shall make you plenteous in goods, in the fruit of your body, and in the fruit of your cattle, and in the fruit of your ground, in the land which the LORD sware to your fathers to give you.",
+      "translator_notes": [
+        "Deuteronomy narrative/law detail. Full verse-specific note to be completed in quality pass."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 12,
+      "text_hebrew": "יִפְתַּ֣ח יְהֹוָ֣ה&thinsp;׀&thinsp;לְ֠ךָ֠ אֶת־אוֹצָר֨וֹ הַטּ֜וֹב אֶת־הַשָּׁמַ֗יִם לָתֵ֤ת מְטַֽר־אַרְצְךָ֙ בְּעִתּ֔וֹ וּלְבָרֵ֕ךְ אֵ֖ת כׇּל־מַעֲשֵׂ֣ה יָדֶ֑ךָ וְהִלְוִ֙יתָ֙ גּוֹיִ֣ם רַבִּ֔ים וְאַתָּ֖ה לֹ֥א תִלְוֶֽה׃",
+      "text_kjv": "The LORD shall open unto thee his good treasure, the heaven to give the rain unto thy land in his season, and to bless all the work of thine hand: and thou shalt lend unto many nations, and thou shalt not borrow.",
+      "rendering": "The LORD shall open to you his good treasure, the heaven to give the rain to your land in his season, and to bless all the work of thine hand: and you shall lend to many nations, and you shall not borrow.",
+      "translator_notes": [
+        "Deuteronomy narrative/law detail. Full verse-specific note to be completed in quality pass."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 13,
+      "text_hebrew": "וּנְתָֽנְךָ֨ יְהֹוָ֤ה לְרֹאשׁ֙ וְלֹ֣א לְזָנָ֔ב וְהָיִ֙יתָ֙ רַ֣ק לְמַ֔עְלָה וְלֹ֥א תִהְיֶ֖ה לְמָ֑טָּה כִּֽי־תִשְׁמַ֞ע אֶל־מִצְוֺ֣ת&thinsp;׀ יְהֹוָ֣ה אֱלֹהֶ֗יךָ אֲשֶׁ֨ר אָנֹכִ֧י מְצַוְּךָ֛ הַיּ֖וֹם לִשְׁמֹ֥ר וְלַעֲשֽׂוֹת׃",
+      "text_kjv": "And the LORD shall make thee the head, and not the tail; and thou shalt be above only, and thou shalt not be beneath; if that thou hearken unto the commandments of the LORD thy God, which I command thee this day, to observe and to do them:",
+      "rendering": "the LORD shall make you the head, and not the tail; and you shall be above only, and you shall not be beneath; if that you hearken to the commandments of the LORD your God, which I command you this day, to observe and to do them:",
+      "translator_notes": [
+        "Deuteronomy narrative/law detail. Full verse-specific note to be completed in quality pass."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 14,
+      "text_hebrew": "וְלֹ֣א תָס֗וּר מִכׇּל־הַדְּבָרִים֙ אֲשֶׁ֨ר אָנֹכִ֜י מְצַוֶּ֥ה אֶתְכֶ֛ם הַיּ֖וֹם יָמִ֣ין וּשְׂמֹ֑אול לָלֶ֗כֶת אַחֲרֵ֛י אֱלֹהִ֥ים אֲחֵרִ֖ים לְעׇבְדָֽם׃ {פ}",
+      "text_kjv": "And thou shalt not go aside from any of the words which I command thee this day, to the right hand, or to the left, to go after other gods to serve them.",
+      "rendering": "you shall not go aside from any of the words which I command you this day, to the right hand, or to the left, to go after other gods to serve them.",
+      "translator_notes": [
+        "Deuteronomy narrative/law detail. Full verse-specific note to be completed in quality pass."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 15,
+      "text_hebrew": "וְהָיָ֗ה אִם־לֹ֤א תִשְׁמַע֙ בְּקוֹל֙ יְהֹוָ֣ה אֱלֹהֶ֔יךָ לִשְׁמֹ֤ר לַעֲשׂוֹת֙ אֶת־כׇּל־מִצְוֺתָ֣יו וְחֻקֹּתָ֔יו אֲשֶׁ֛ר אָנֹכִ֥י מְצַוְּךָ֖ הַיּ֑וֹם וּבָ֧אוּ עָלֶ֛יךָ כׇּל־הַקְּלָל֥וֹת הָאֵ֖לֶּה וְהִשִּׂיגֽוּךָ׃",
+      "text_kjv": "But it shall come to pass, if thou wilt not hearken unto the voice of the LORD thy God, to observe to do all his commandments and his statutes which I command thee this day; that all these curses shall come upon thee, and overtake thee:",
+      "rendering": "But it shall come to pass, if you wilt not hearken to the voice of the LORD your God, to observe to do all his commandments and his statutes which I command you this day; that all these curses shall come upon you, and overtake you:",
+      "translator_notes": [
+        "Deuteronomy narrative/law detail. Full verse-specific note to be completed in quality pass."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 16,
+      "text_hebrew": "אָר֥וּר אַתָּ֖ה בָּעִ֑יר וְאָר֥וּר אַתָּ֖ה בַּשָּׂדֶֽה׃",
+      "text_kjv": "Cursed shalt thou be in the city, and cursed shalt thou be in the field.",
+      "rendering": "Cursed shall you be in the city, and cursed shall you be in the field.",
+      "translator_notes": [
+        "Deuteronomy narrative/law detail. Full verse-specific note to be completed in quality pass."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 17,
+      "text_hebrew": "אָר֥וּר טַנְאֲךָ֖ וּמִשְׁאַרְתֶּֽךָ׃",
+      "text_kjv": "Cursed shall be thy basket and thy store.",
+      "rendering": "Cursed shall be your basket and your store.",
+      "translator_notes": [
+        "Deuteronomy narrative/law detail. Full verse-specific note to be completed in quality pass."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 18,
+      "text_hebrew": "אָר֥וּר פְּרִֽי־בִטְנְךָ֖ וּפְרִ֣י אַדְמָתֶ֑ךָ שְׁגַ֥ר אֲלָפֶ֖יךָ וְעַשְׁתְּרֹ֥ת צֹאנֶֽךָ׃",
+      "text_kjv": "Cursed shall be the fruit of thy body, and the fruit of thy land, the increase of thy kine, and the flocks of thy sheep.",
+      "rendering": "Cursed shall be the fruit of your body, and the fruit of your land, the increase of your kine, and the flocks of your sheep.",
+      "translator_notes": [
+        "Deuteronomy narrative/law detail. Full verse-specific note to be completed in quality pass."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 19,
+      "text_hebrew": "אָר֥וּר אַתָּ֖ה בְּבֹאֶ֑ךָ וְאָר֥וּר אַתָּ֖ה בְּצֵאתֶֽךָ׃",
+      "text_kjv": "Cursed shalt thou be when thou comest in, and cursed shalt thou be when thou goest out.",
+      "rendering": "Cursed shall you be when you comest in, and cursed shall you be when you goest out.",
+      "translator_notes": [
+        "Deuteronomy narrative/law detail. Full verse-specific note to be completed in quality pass."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 20,
+      "text_hebrew": "יְשַׁלַּ֣ח יְהֹוָ֣ה&thinsp;׀&thinsp;בְּ֠ךָ֠ אֶת־הַמְּאֵרָ֤ה אֶת־הַמְּהוּמָה֙ וְאֶת־הַמִּגְעֶ֔רֶת בְּכׇל־מִשְׁלַ֥ח יָדְךָ֖ אֲשֶׁ֣ר תַּעֲשֶׂ֑ה עַ֣ד הִשָּׁמֶדְךָ֤ וְעַד־אֲבׇדְךָ֙ מַהֵ֔ר מִפְּנֵ֛י רֹ֥עַ מַֽעֲלָלֶ֖יךָ אֲשֶׁ֥ר עֲזַבְתָּֽנִי׃",
+      "text_kjv": "The LORD shall send upon thee cursing, vexation, and rebuke, in all that thou settest thine hand unto for to do, until thou be destroyed, and until thou perish quickly; because of the wickedness of thy doings, whereby thou hast forsaken me.",
+      "rendering": "The LORD shall send upon you cursing, vexation, and rebuke, in all that you settest thine hand to for to do, until you be destroyed, and until you perish quickly; because of the wickedness of your doings, whereby you hast forsaken me.",
+      "translator_notes": [
+        "Deuteronomy narrative/law detail. Full verse-specific note to be completed in quality pass."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 21,
+      "text_hebrew": "יַדְבֵּ֧ק יְהֹוָ֛ה בְּךָ֖ אֶת־הַדָּ֑בֶר עַ֚ד כַּלֹּת֣וֹ אֹֽתְךָ֔ מֵעַל֙ הָאֲדָמָ֔ה אֲשֶׁר־אַתָּ֥ה בָא־שָׁ֖מָּה לְרִשְׁתָּֽהּ׃",
+      "text_kjv": "The LORD shall make the pestilence cleave unto thee, until he have consumed thee from off the land, whither thou goest to possess it.",
+      "rendering": "The LORD shall make the pestilence cleave to you, until he have consumed you from off the land, whither you goest to possess it.",
+      "translator_notes": [
+        "Deuteronomy narrative/law detail. Full verse-specific note to be completed in quality pass."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 22,
+      "text_hebrew": "יַכְּכָ֣ה יְ֠הֹוָ֠ה בַּשַּׁחֶ֨פֶת וּבַקַּדַּ֜חַת וּבַדַּלֶּ֗קֶת וּבַֽחַרְחֻר֙ וּבַחֶ֔רֶב וּבַשִּׁדָּפ֖וֹן וּבַיֵּרָק֑וֹן וּרְדָפ֖וּךָ עַ֥ד אׇבְדֶֽךָ׃",
+      "text_kjv": "The LORD shall smite thee with a consumption, and with a fever, and with an inflammation, and with an extreme burning, and with the sword, and with blasting, and with mildew; and they shall pursue thee until thou perish.",
+      "rendering": "The LORD shall smite you with a consumption, and with a fever, and with an inflammation, and with an extreme burning, and with the sword, and with blasting, and with mildew; and they shall pursue you until you perish.",
+      "translator_notes": [
+        "Deuteronomy narrative/law detail. Full verse-specific note to be completed in quality pass."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 23,
+      "text_hebrew": "וְהָי֥וּ שָׁמֶ֛יךָ אֲשֶׁ֥ר עַל־רֹאשְׁךָ֖ נְחֹ֑שֶׁת וְהָאָ֥רֶץ אֲשֶׁר־תַּחְתֶּ֖יךָ בַּרְזֶֽל׃",
+      "text_kjv": "And thy heaven that is over thy head shall be brass, and the earth that is under thee shall be iron.",
+      "rendering": "your heaven that is over your head shall be brass, and the earth that is under you shall be iron.",
+      "translator_notes": [
+        "Deuteronomy narrative/law detail. Full verse-specific note to be completed in quality pass."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 24,
+      "text_hebrew": "יִתֵּ֧ן יְהֹוָ֛ה אֶת־מְטַ֥ר אַרְצְךָ֖ אָבָ֣ק וְעָפָ֑ר מִן־הַשָּׁמַ֙יִם֙ יֵרֵ֣ד עָלֶ֔יךָ עַ֖ד הִשָּׁמְדָֽךְ׃",
+      "text_kjv": "The LORD shall make the rain of thy land powder and dust: from heaven shall it come down upon thee, until thou be destroyed.",
+      "rendering": "The LORD shall make the rain of your land powder and dust: from heaven shall it come down upon you, until you be destroyed.",
+      "translator_notes": [
+        "Deuteronomy narrative/law detail. Full verse-specific note to be completed in quality pass."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 25,
+      "text_hebrew": "יִתֶּנְךָ֨ יְהֹוָ֥ה&thinsp;׀&thinsp;נִגָּף֮ לִפְנֵ֣י אֹיְבֶ֒יךָ֒ בְּדֶ֤רֶךְ אֶחָד֙ תֵּצֵ֣א אֵלָ֔יו וּבְשִׁבְעָ֥ה דְרָכִ֖ים תָּנ֣וּס לְפָנָ֑יו וְהָיִ֣יתָ לְזַֽעֲוָ֔ה לְכֹ֖ל מַמְלְכ֥וֹת הָאָֽרֶץ׃",
+      "text_kjv": "The LORD shall cause thee to be smitten before thine enemies: thou shalt go out one way against them, and flee seven ways before them: and shalt be removed into all the kingdoms of the earth.",
+      "rendering": "The LORD shall cause you to be smitten before thine enemies: you shall go out one way against them, and flee seven ways before them: and shall be removed into all the kingdoms of the earth.",
+      "translator_notes": [
+        "Deuteronomy narrative/law detail. Full verse-specific note to be completed in quality pass."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 26,
+      "text_hebrew": "וְהָיְתָ֤ה נִבְלָֽתְךָ֙ לְמַֽאֲכָ֔ל לְכׇל־ע֥וֹף הַשָּׁמַ֖יִם וּלְבֶהֱמַ֣ת הָאָ֑רֶץ וְאֵ֖ין מַחֲרִֽיד׃",
+      "text_kjv": "And thy carcase shall be meat unto all fowls of the air, and unto the beasts of the earth, and no man shall fray them away.",
+      "rendering": "your carcase shall be meat to all fowls of the air, and to the beasts of the earth, and no man shall fray them away.",
+      "translator_notes": [
+        "Deuteronomy narrative/law detail. Full verse-specific note to be completed in quality pass."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 27,
+      "text_hebrew": "יַכְּכָ֨ה יְהֹוָ֜ה בִּשְׁחִ֤ין מִצְרַ֙יִם֙ (ובעפלים) [וּבַטְּחֹרִ֔ים] וּבַגָּרָ֖ב וּבֶחָ֑רֶס אֲשֶׁ֥ר לֹא־תוּכַ֖ל לְהֵרָפֵֽא׃",
+      "text_kjv": "The LORD will smite thee with the botch of Egypt, and with the emerods, and with the scab, and with the itch, whereof thou canst not be healed.",
+      "rendering": "The LORD will smite you with the botch of Egypt, and with the emerods, and with the scab, and with the itch, whereof you canst not be healed.",
+      "translator_notes": [
+        "Deuteronomy narrative/law detail. Full verse-specific note to be completed in quality pass."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 28,
+      "text_hebrew": "יַכְּכָ֣ה יְהֹוָ֔ה בְּשִׁגָּע֖וֹן וּבְעִוָּר֑וֹן וּבְתִמְה֖וֹן לֵבָֽב׃",
+      "text_kjv": "The LORD shall smite thee with madness, and blindness, and astonishment of heart:",
+      "rendering": "The LORD shall smite you with madness, and blindness, and astonishment of heart:",
+      "translator_notes": [
+        "Deuteronomy narrative/law detail. Full verse-specific note to be completed in quality pass."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 29,
+      "text_hebrew": "וְהָיִ֜יתָ מְמַשֵּׁ֣שׁ בַּֽצׇּהֳרַ֗יִם כַּאֲשֶׁ֨ר יְמַשֵּׁ֤שׁ הַֽעִוֵּר֙ בָּאֲפֵלָ֔ה וְלֹ֥א תַצְלִ֖יחַ אֶת־דְּרָכֶ֑יךָ וְהָיִ֜יתָ אַ֣ךְ עָשׁ֧וּק וְגָז֛וּל כׇּל־הַיָּמִ֖ים וְאֵ֥ין מוֹשִֽׁיעַ׃",
+      "text_kjv": "And thou shalt grope at noonday, as the blind gropeth in darkness, and thou shalt not prosper in thy ways: and thou shalt be only oppressed and spoiled evermore, and no man shall save thee.",
+      "rendering": "you shall grope at noonday, as the blind gropeth in darkness, and you shall not prosper in your ways: and you shall be only oppressed and spoiled evermore, and no man shall save you.",
+      "translator_notes": [
+        "Deuteronomy narrative/law detail. Full verse-specific note to be completed in quality pass."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 30,
+      "text_hebrew": "אִשָּׁ֣ה תְאָרֵ֗שׂ וְאִ֤ישׁ אַחֵר֙ (ישגלנה) [יִשְׁכָּבֶ֔נָּה] בַּ֥יִת תִּבְנֶ֖ה וְלֹא־תֵשֵׁ֣ב בּ֑וֹ כֶּ֥רֶם תִּטַּ֖ע וְלֹ֥א תְחַלְּלֶֽנּוּ׃",
+      "text_kjv": "Thou shalt betroth a wife, and another man shall lie with her: thou shalt build an house, and thou shalt not dwell therein: thou shalt plant a vineyard, and shalt not gather the grapes thereof.",
+      "rendering": "Thou shall betroth a wife, and another man shall lie with her: you shall build an house, and you shall not dwell therein: you shall plant a vineyard, and shall not gather the grapes thereof.",
+      "translator_notes": [
+        "Deuteronomy narrative/law detail. Full verse-specific note to be completed in quality pass."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 31,
+      "text_hebrew": "שׁוֹרְךָ֞ טָב֣וּחַ לְעֵינֶ֗יךָ וְלֹ֣א תֹאכַל֮ מִמֶּ֒נּוּ֒ חֲמֹֽרְךָ֙ גָּז֣וּל מִלְּפָנֶ֔יךָ וְלֹ֥א יָשׁ֖וּב לָ֑ךְ צֹֽאנְךָ֙ נְתֻנ֣וֹת לְאֹיְבֶ֔יךָ וְאֵ֥ין לְךָ֖ מוֹשִֽׁיעַ׃",
+      "text_kjv": "Thine ox shall be slain before thine eyes, and thou shalt not eat thereof: thine ass shall be violently taken away from before thy face, and shall not be restored to thee: thy sheep shall be given unto thine enemies, and thou shalt have none to rescue them.",
+      "rendering": "Thine ox shall be slain before thine eyes, and you shall not eat thereof: thine ass shall be violently taken away from before your face, and shall not be restored to you: your sheep shall be given to thine enemies, and you shall have none to rescue them.",
+      "translator_notes": [
+        "Deuteronomy narrative/law detail. Full verse-specific note to be completed in quality pass."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 32,
+      "text_hebrew": "בָּנֶ֨יךָ וּבְנֹתֶ֜יךָ נְתֻנִ֨ים לְעַ֤ם אַחֵר֙ וְעֵינֶ֣יךָ רֹא֔וֹת וְכָל֥וֹת אֲלֵיהֶ֖ם כׇּל־הַיּ֑וֹם וְאֵ֥ין לְאֵ֖ל יָדֶֽךָ׃",
+      "text_kjv": "Thy sons and thy daughters shall be given unto another people, and thine eyes shall look, and fail with longing for them all the day long: and there shall be no might in thine hand.",
+      "rendering": "Thy sons and your daughters shall be given to another people, and thine eyes shall look, and fail with longing for them all the day long: and there shall be no might in thine hand.",
+      "translator_notes": [
+        "Deuteronomy narrative/law detail. Full verse-specific note to be completed in quality pass."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 33,
+      "text_hebrew": "פְּרִ֤י אַדְמָֽתְךָ֙ וְכׇל־יְגִ֣יעֲךָ֔ יֹאכַ֥ל עַ֖ם אֲשֶׁ֣ר לֹא־יָדָ֑עְתָּ וְהָיִ֗יתָ רַ֛ק עָשׁ֥וּק וְרָצ֖וּץ כׇּל־הַיָּמִֽים׃",
+      "text_kjv": "The fruit of thy land, and all thy labours, shall a nation which thou knowest not eat up; and thou shalt be only oppressed and crushed alway:",
+      "rendering": "The fruit of your land, and all your labours, shall a nation which you knowest not eat up; and you shall be only oppressed and crushed alway:",
+      "translator_notes": [
+        "Deuteronomy narrative/law detail. Full verse-specific note to be completed in quality pass."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 34,
+      "text_hebrew": "וְהָיִ֖יתָ מְשֻׁגָּ֑ע מִמַּרְאֵ֥ה עֵינֶ֖יךָ אֲשֶׁ֥ר תִּרְאֶֽה׃",
+      "text_kjv": "So that thou shalt be mad for the sight of thine eyes which thou shalt see.",
+      "rendering": "So that you shall be mad for the sight of thine eyes which you shall see.",
+      "translator_notes": [
+        "Deuteronomy narrative/law detail. Full verse-specific note to be completed in quality pass."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 35,
+      "text_hebrew": "יַכְּכָ֨ה יְהֹוָ֜ה בִּשְׁחִ֣ין רָ֗ע עַל־הַבִּרְכַּ֙יִם֙ וְעַל־הַשֹּׁקַ֔יִם אֲשֶׁ֥ר לֹא־תוּכַ֖ל לְהֵרָפֵ֑א מִכַּ֥ף רַגְלְךָ֖ וְעַ֥ד קׇדְקֳדֶֽךָ׃",
+      "text_kjv": "The LORD shall smite thee in the knees, and in the legs, with a sore botch that cannot be healed, from the sole of thy foot unto the top of thy head.",
+      "rendering": "The LORD shall smite you in the knees, and in the legs, with a sore botch that cannot be healed, from the sole of your foot to the top of your head.",
+      "translator_notes": [
+        "Deuteronomy narrative/law detail. Full verse-specific note to be completed in quality pass."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 36,
+      "text_hebrew": "יוֹלֵ֨ךְ יְהֹוָ֜ה אֹתְךָ֗ וְאֶֽת־מַלְכְּךָ֙ אֲשֶׁ֣ר תָּקִ֣ים עָלֶ֔יךָ אֶל־גּ֕וֹי אֲשֶׁ֥ר לֹא־יָדַ֖עְתָּ אַתָּ֣ה וַאֲבֹתֶ֑יךָ וְעָבַ֥דְתָּ שָּׁ֛ם אֱלֹהִ֥ים אֲחֵרִ֖ים עֵ֥ץ וָאָֽבֶן׃",
+      "text_kjv": "The LORD shall bring thee, and thy king which thou shalt set over thee, unto a nation which neither thou nor thy fathers have known; and there shalt thou serve other gods, wood and stone.",
+      "rendering": "The LORD shall bring you, and your king which you shall set over you, to a nation which neither you nor your fathers have known; and there shall you serve other gods, wood and stone.",
+      "translator_notes": [
+        "Deuteronomy narrative/law detail. Full verse-specific note to be completed in quality pass."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 37,
+      "text_hebrew": "וְהָיִ֣יתָ לְשַׁמָּ֔ה לְמָשָׁ֖ל וְלִשְׁנִינָ֑ה בְּכֹל֙ הָֽעַמִּ֔ים אֲשֶׁר־יְנַהֶגְךָ֥ יְהֹוָ֖ה שָֽׁמָּה׃",
+      "text_kjv": "And thou shalt become an astonishment, a proverb, and a byword, among all nations whither the LORD shall lead thee.",
+      "rendering": "you shall become an astonishment, a proverb, and a byword, among all nations whither the LORD shall lead you.",
+      "translator_notes": [
+        "Deuteronomy narrative/law detail. Full verse-specific note to be completed in quality pass."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 38,
+      "text_hebrew": "זֶ֥רַע רַ֖ב תּוֹצִ֣יא הַשָּׂדֶ֑ה וּמְעַ֣ט תֶּאֱסֹ֔ף כִּ֥י יַחְסְלֶ֖נּוּ הָאַרְבֶּֽה׃",
+      "text_kjv": "Thou shalt carry much seed out into the field, and shalt gather but little in; for the locust shall consume it.",
+      "rendering": "Thou shall carry much seed out into the field, and shall gather but little in; for the locust shall consume it.",
+      "translator_notes": [
+        "Deuteronomy narrative/law detail. Full verse-specific note to be completed in quality pass."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 39,
+      "text_hebrew": "כְּרָמִ֥ים תִּטַּ֖ע וְעָבָ֑דְתָּ וְיַ֤יִן לֹֽא־תִשְׁתֶּה֙ וְלֹ֣א תֶאֱגֹ֔ר כִּ֥י תֹאכְלֶ֖נּוּ הַתֹּלָֽעַת׃",
+      "text_kjv": "Thou shalt plant vineyards, and dress them, but shalt neither drink of the wine, nor gather the grapes; for the worms shall eat them.",
+      "rendering": "Thou shall plant vineyards, and dress them, but shall neither drink of the wine, nor gather the grapes; for the worms shall eat them.",
+      "translator_notes": [
+        "Deuteronomy narrative/law detail. Full verse-specific note to be completed in quality pass."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 40,
+      "text_hebrew": "זֵיתִ֛ים יִהְי֥וּ לְךָ֖ בְּכׇל־גְּבוּלֶ֑ךָ וְשֶׁ֙מֶן֙ לֹ֣א תָס֔וּךְ כִּ֥י יִשַּׁ֖ל זֵיתֶֽךָ׃",
+      "text_kjv": "Thou shalt have olive trees throughout all thy coasts, but thou shalt not anoint thyself with the oil; for thine olive shall cast his fruit.",
+      "rendering": "Thou shall have olive trees throughout all your coasts, but you shall not anoint thyself with the oil; for thine olive shall cast his fruit.",
+      "translator_notes": [
+        "Deuteronomy narrative/law detail. Full verse-specific note to be completed in quality pass."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 41,
+      "text_hebrew": "בָּנִ֥ים וּבָנ֖וֹת תּוֹלִ֑יד וְלֹא־יִהְי֣וּ לָ֔ךְ כִּ֥י יֵלְכ֖וּ בַּשֶּֽׁבִי׃",
+      "text_kjv": "Thou shalt beget sons and daughters, but thou shalt not enjoy them; for they shall go into captivity.",
+      "rendering": "Thou shall beget sons and daughters, but you shall not enjoy them; for they shall go into captivity.",
+      "translator_notes": [
+        "Deuteronomy narrative/law detail. Full verse-specific note to be completed in quality pass."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 42,
+      "text_hebrew": "כׇּל־עֵצְךָ֖ וּפְרִ֣י אַדְמָתֶ֑ךָ יְיָרֵ֖שׁ הַצְּלָצַֽל׃",
+      "text_kjv": "All thy trees and fruit of thy land shall the locust consume.",
+      "rendering": "All your trees and fruit of your land shall the locust consume.",
+      "translator_notes": [
+        "Deuteronomy narrative/law detail. Full verse-specific note to be completed in quality pass."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 43,
+      "text_hebrew": "הַגֵּר֙ אֲשֶׁ֣ר בְּקִרְבְּךָ֔ יַעֲלֶ֥ה עָלֶ֖יךָ מַ֣עְלָה מָּ֑עְלָה וְאַתָּ֥ה תֵרֵ֖ד מַ֥טָּה מָּֽטָּה׃",
+      "text_kjv": "The stranger that is within thee shall get up above thee very high; and thou shalt come down very low.",
+      "rendering": "The stranger that is within you shall get up above you very high; and you shall come down very low.",
+      "translator_notes": [
+        "Deuteronomy narrative/law detail. Full verse-specific note to be completed in quality pass."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 44,
+      "text_hebrew": "ה֣וּא יַלְוְךָ֔ וְאַתָּ֖ה לֹ֣א תַלְוֶ֑נּוּ ה֚וּא יִהְיֶ֣ה לְרֹ֔אשׁ וְאַתָּ֖ה תִּֽהְיֶ֥ה לְזָנָֽב׃",
+      "text_kjv": "He shall lend to thee, and thou shalt not lend to him: he shall be the head, and thou shalt be the tail.",
+      "rendering": "He shall lend to you, and you shall not lend to him: he shall be the head, and you shall be the tail.",
+      "translator_notes": [
+        "Deuteronomy narrative/law detail. Full verse-specific note to be completed in quality pass."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 45,
+      "text_hebrew": "וּבָ֨אוּ עָלֶ֜יךָ כׇּל־הַקְּלָל֣וֹת הָאֵ֗לֶּה וּרְדָפ֙וּךָ֙ וְהִשִּׂיג֔וּךָ עַ֖ד הִשָּׁמְדָ֑ךְ כִּי־לֹ֣א שָׁמַ֗עְתָּ בְּקוֹל֙ יְהֹוָ֣ה אֱלֹהֶ֔יךָ לִשְׁמֹ֛ר מִצְוֺתָ֥יו וְחֻקֹּתָ֖יו אֲשֶׁ֥ר צִוָּֽךְ׃",
+      "text_kjv": "Moreover all these curses shall come upon thee, and shall pursue thee, and overtake thee, till thou be destroyed; because thou hearkenedst not unto the voice of the LORD thy God, to keep his commandments and his statutes which he commanded thee:",
+      "rendering": "Moreover all these curses shall come upon you, and shall pursue you, and overtake you, till you be destroyed; because you hearkenedst not to the voice of the LORD your God, to keep his commandments and his statutes which he commanded you:",
+      "translator_notes": [
+        "Deuteronomy narrative/law detail. Full verse-specific note to be completed in quality pass."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 46,
+      "text_hebrew": "וְהָי֣וּ בְךָ֔ לְא֖וֹת וּלְמוֹפֵ֑ת וּֽבְזַרְעֲךָ֖ עַד־עוֹלָֽם׃",
+      "text_kjv": "And they shall be upon thee for a sign and for a wonder, and upon thy seed for ever.",
+      "rendering": "they shall be upon you for a sign and for a wonder, and upon your seed for ever.",
+      "translator_notes": [
+        "Deuteronomy narrative/law detail. Full verse-specific note to be completed in quality pass."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 47,
+      "text_hebrew": "תַּ֗חַת אֲשֶׁ֤ר לֹא־עָבַ֙דְתָּ֙ אֶת־יְהֹוָ֣ה אֱלֹהֶ֔יךָ בְּשִׂמְחָ֖ה וּבְט֣וּב לֵבָ֑ב מֵרֹ֖ב כֹּֽל׃",
+      "text_kjv": "Because thou servedst not the LORD thy God with joyfulness, and with gladness of heart, for the abundance of all things;",
+      "rendering": "Because you servedst not the LORD your God with joyfulness, and with gladness of heart, for the abundance of all things;",
+      "translator_notes": [
+        "Deuteronomy narrative/law detail. Full verse-specific note to be completed in quality pass."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 48,
+      "text_hebrew": "וְעָבַדְתָּ֣ אֶת־אֹיְבֶ֗יךָ אֲשֶׁ֨ר יְשַׁלְּחֶ֤נּוּ יְהֹוָה֙ בָּ֔ךְ בְּרָעָ֧ב וּבְצָמָ֛א וּבְעֵירֹ֖ם וּבְחֹ֣סֶר כֹּ֑ל וְנָתַ֞ן עֹ֤ל בַּרְזֶל֙ עַל־צַוָּארֶ֔ךָ עַ֥ד הִשְׁמִיד֖וֹ אֹתָֽךְ׃",
+      "text_kjv": "Therefore shalt thou serve thine enemies which the LORD shall send against thee, in hunger, and in thirst, and in nakedness, and in want of all things: and he shall put a yoke of iron upon thy neck, until he have destroyed thee.",
+      "rendering": "Therefore shall you serve thine enemies which the LORD shall send against you, in hunger, and in thirst, and in nakedness, and in want of all things: and he shall put a yoke of iron upon your neck, until he have destroyed you.",
+      "translator_notes": [
+        "Deuteronomy narrative/law detail. Full verse-specific note to be completed in quality pass."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 49,
+      "text_hebrew": "יִשָּׂ֣א יְהֹוָה֩ עָלֶ֨יךָ גּ֤וֹי מֵֽרָחֹק֙ מִקְצֵ֣ה הָאָ֔רֶץ כַּאֲשֶׁ֥ר יִדְאֶ֖ה הַנָּ֑שֶׁר גּ֕וֹי אֲשֶׁ֥ר לֹא־תִשְׁמַ֖ע לְשֹׁנֽוֹ׃",
+      "text_kjv": "The LORD shall bring a nation against thee from far, from the end of the earth, as swift as the eagle flieth; a nation whose tongue thou shalt not understand;",
+      "rendering": "The LORD shall bring a nation against you from far, from the end of the earth, as swift as the eagle flieth; a nation whose tongue you shall not understand;",
+      "translator_notes": [
+        "Deuteronomy narrative/law detail. Full verse-specific note to be completed in quality pass."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 50,
+      "text_hebrew": "גּ֖וֹי עַ֣ז פָּנִ֑ים אֲשֶׁ֨ר לֹא־יִשָּׂ֤א פָנִים֙ לְזָקֵ֔ן וְנַ֖עַר לֹ֥א יָחֹֽן׃",
+      "text_kjv": "A nation of fierce countenance, which shall not regard the person of the old, nor shew favour to the young:",
+      "rendering": "A nation of fierce countenance, which shall not regard the person of the old, nor shew favour to the young:",
+      "translator_notes": [
+        "Deuteronomy narrative/law detail. Full verse-specific note to be completed in quality pass."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 51,
+      "text_hebrew": "וְ֠אָכַ֠ל פְּרִ֨י בְהֶמְתְּךָ֥ וּפְרִֽי־אַדְמָתְךָ֮ עַ֣ד הִשָּׁמְדָךְ֒ אֲשֶׁ֨ר לֹא־יַשְׁאִ֜יר לְךָ֗ דָּגָן֙ תִּיר֣וֹשׁ וְיִצְהָ֔ר שְׁגַ֥ר אֲלָפֶ֖יךָ וְעַשְׁתְּרֹ֣ת צֹאנֶ֑ךָ עַ֥ד הַאֲבִיד֖וֹ אֹתָֽךְ׃",
+      "text_kjv": "And he shall eat the fruit of thy cattle, and the fruit of thy land, until thou be destroyed: which also shall not leave thee either corn, wine, or oil, or the increase of thy kine, or flocks of thy sheep, until he have destroyed thee.",
+      "rendering": "he shall eat the fruit of your cattle, and the fruit of your land, until you be destroyed: which also shall not leave you either corn, wine, or oil, or the increase of your kine, or flocks of your sheep, until he have destroyed you.",
+      "translator_notes": [
+        "Deuteronomy narrative/law detail. Full verse-specific note to be completed in quality pass."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 52,
+      "text_hebrew": "וְהֵצַ֨ר לְךָ֜ בְּכׇל־שְׁעָרֶ֗יךָ עַ֣ד רֶ֤דֶת חֹמֹתֶ֙יךָ֙ הַגְּבֹהֹ֣ת וְהַבְּצֻר֔וֹת אֲשֶׁ֥ר אַתָּ֛ה בֹּטֵ֥חַ בָּהֵ֖ן בְּכׇל־אַרְצֶ֑ךָ וְהֵצַ֤ר לְךָ֙ בְּכׇל־שְׁעָרֶ֔יךָ בְּכׇ֨ל־אַרְצְךָ֔ אֲשֶׁ֥ר נָתַ֛ן יְהֹוָ֥ה אֱלֹהֶ֖יךָ לָֽךְ׃",
+      "text_kjv": "And he shall besiege thee in all thy gates, until thy high and fenced walls come down, wherein thou trustedst, throughout all thy land: and he shall besiege thee in all thy gates throughout all thy land, which the LORD thy God hath given thee.",
+      "rendering": "he shall besiege you in all your gates, until your high and fenced walls come down, wherein you trustedst, throughout all your land: and he shall besiege you in all your gates throughout all your land, which the LORD your God has given you.",
+      "translator_notes": [
+        "Deuteronomy narrative/law detail. Full verse-specific note to be completed in quality pass."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 53,
+      "text_hebrew": "וְאָכַלְתָּ֣ פְרִֽי־בִטְנְךָ֗ בְּשַׂ֤ר בָּנֶ֙יךָ֙ וּבְנֹתֶ֔יךָ אֲשֶׁ֥ר נָתַן־לְךָ֖ יְהֹוָ֣ה אֱלֹהֶ֑יךָ בְּמָצוֹר֙ וּבְמָצ֔וֹק אֲשֶׁר־יָצִ֥יק לְךָ֖ אֹיְבֶֽךָ׃",
+      "text_kjv": "And thou shalt eat the fruit of thine own body, the flesh of thy sons and of thy daughters, which the LORD thy God hath given thee, in the siege, and in the straitness, wherewith thine enemies shall distress thee:",
+      "rendering": "you shall eat the fruit of thine own body, the flesh of your sons and of your daughters, which the LORD your God has given you, in the siege, and in the straitness, wherewith thine enemies shall distress you:",
+      "translator_notes": [
+        "Deuteronomy narrative/law detail. Full verse-specific note to be completed in quality pass."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 54,
+      "text_hebrew": "הָאִישׁ֙ הָרַ֣ךְ בְּךָ֔ וְהֶעָנֹ֖ג מְאֹ֑ד תֵּרַ֨ע עֵינ֤וֹ בְאָחִיו֙ וּבְאֵ֣שֶׁת חֵיק֔וֹ וּבְיֶ֥תֶר בָּנָ֖יו אֲשֶׁ֥ר יוֹתִֽיר׃",
+      "text_kjv": "So that the man that is tender among you, and very delicate, his eye shall be evil toward his brother, and toward the wife of his bosom, and toward the remnant of his children which he shall leave:",
+      "rendering": "So that the man that is tender among you, and very delicate, his eyou shall be evil toward his brother, and toward the wife of his bosom, and toward the remnant of his children which he shall leave:",
+      "translator_notes": [
+        "Deuteronomy narrative/law detail. Full verse-specific note to be completed in quality pass."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 55,
+      "text_hebrew": "מִתֵּ֣ת&thinsp;׀ לְאַחַ֣ד מֵהֶ֗ם מִבְּשַׂ֤ר בָּנָיו֙ אֲשֶׁ֣ר יֹאכֵ֔ל מִבְּלִ֥י הִשְׁאִֽיר־ל֖וֹ כֹּ֑ל בְּמָצוֹר֙ וּבְמָצ֔וֹק אֲשֶׁ֨ר יָצִ֥יק לְךָ֛ אֹיִבְךָ֖ בְּכׇל־שְׁעָרֶֽיךָ׃",
+      "text_kjv": "So that he will not give to any of them of the flesh of his children whom he shall eat: because he hath nothing left him in the siege, and in the straitness, wherewith thine enemies shall distress thee in all thy gates.",
+      "rendering": "So that he will not give to any of them of the flesh of his children whom he shall eat: because he has nothing left him in the siege, and in the straitness, wherewith thine enemies shall distress you in all your gates.",
+      "translator_notes": [
+        "Deuteronomy narrative/law detail. Full verse-specific note to be completed in quality pass."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 56,
+      "text_hebrew": "הָרַכָּ֨ה בְךָ֜ וְהָעֲנֻגָּ֗ה אֲשֶׁ֨ר לֹֽא־נִסְּתָ֤ה כַף־רַגְלָהּ֙ הַצֵּ֣ג עַל־הָאָ֔רֶץ מֵהִתְעַנֵּ֖ג וּמֵרֹ֑ךְ תֵּרַ֤ע עֵינָהּ֙ בְּאִ֣ישׁ חֵיקָ֔הּ וּבִבְנָ֖הּ וּבְבִתָּֽהּ׃",
+      "text_kjv": "The tender and delicate woman among you, which would not adventure to set the sole of her foot upon the ground for delicateness and tenderness, her eye shall be evil toward the husband of her bosom, and toward her son, and toward her daughter,",
+      "rendering": "The tender and delicate woman among you, which would not adventure to set the sole of her foot upon the ground for delicateness and tenderness, her eyou shall be evil toward the husband of her bosom, and toward her son, and toward her daughter,",
+      "translator_notes": [
+        "Deuteronomy narrative/law detail. Full verse-specific note to be completed in quality pass."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 57,
+      "text_hebrew": "וּֽבְשִׁלְיָתָ֞הּ הַיּוֹצֵ֣ת&thinsp;׀ מִבֵּ֣ין רַגְלֶ֗יהָ וּבְבָנֶ֙יהָ֙ אֲשֶׁ֣ר תֵּלֵ֔ד כִּֽי־תֹאכְלֵ֥ם בְּחֹסֶר־כֹּ֖ל בַּסָּ֑תֶר בְּמָצוֹר֙ וּבְמָצ֔וֹק אֲשֶׁ֨ר יָצִ֥יק לְךָ֛ אֹיִבְךָ֖ בִּשְׁעָרֶֽיךָ׃",
+      "text_kjv": "And toward her young one that cometh out from between her feet, and toward her children which she shall bear: for she shall eat them for want of all things secretly in the siege and straitness, wherewith thine enemy shall distress thee in thy gates.",
+      "rendering": "toward her young one that cometh out from between her feet, and toward her children which she shall bear: for she shall eat them for want of all things secretly in the siege and straitness, wherewith thine enemy shall distress you in your gates.",
+      "translator_notes": [
+        "Deuteronomy narrative/law detail. Full verse-specific note to be completed in quality pass."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 58,
+      "text_hebrew": "אִם־לֹ֨א תִשְׁמֹ֜ר לַעֲשׂ֗וֹת אֶת־כׇּל־דִּבְרֵי֙ הַתּוֹרָ֣ה הַזֹּ֔את הַכְּתֻבִ֖ים בַּסֵּ֣פֶר הַזֶּ֑ה לְ֠יִרְאָ֠ה אֶת־הַשֵּׁ֞ם הַנִּכְבָּ֤ד וְהַנּוֹרָא֙ הַזֶּ֔ה אֵ֖ת יְהֹוָ֥ה אֱלֹהֶֽיךָ׃",
+      "text_kjv": "If thou wilt not observe to do all the words of this law that are written in this book, that thou mayest fear this glorious and fearful name, THE LORD THY GOD;",
+      "rendering": "If you wilt not observe to do all the words of this law that are written in this book, that you mayest fear this glorious and fearful name, THE LORD THY GOD;",
+      "translator_notes": [
+        "Deuteronomy narrative/law detail. Full verse-specific note to be completed in quality pass."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 59,
+      "text_hebrew": "וְהִפְלָ֤א יְהֹוָה֙ אֶת־מַכֹּ֣תְךָ֔ וְאֵ֖ת מַכּ֣וֹת זַרְעֶ֑ךָ מַכּ֤וֹת גְּדֹלֹת֙ וְנֶ֣אֱמָנ֔וֹת וׇחֳלָיִ֖ם רָעִ֥ים וְנֶאֱמָנִֽים׃",
+      "text_kjv": "Then the LORD will make thy plagues wonderful, and the plagues of thy seed, even great plagues, and of long continuance, and sore sicknesses, and of long continuance.",
+      "rendering": "Then the LORD will make your plagues wonderful, and the plagues of your seed, even great plagues, and of long continuance, and sore sicknesses, and of long continuance.",
+      "translator_notes": [
+        "Deuteronomy narrative/law detail. Full verse-specific note to be completed in quality pass."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 60,
+      "text_hebrew": "וְהֵשִׁ֣יב בְּךָ֗ אֵ֚ת כׇּל־מַדְוֵ֣ה מִצְרַ֔יִם אֲשֶׁ֥ר יָגֹ֖רְתָּ מִפְּנֵיהֶ֑ם וְדָבְק֖וּ בָּֽךְ׃",
+      "text_kjv": "Moreover he will bring upon thee all the diseases of Egypt, which thou wast afraid of; and they shall cleave unto thee.",
+      "rendering": "Moreover he will bring upon you all the diseases of Egypt, which you wast afraid of; and they shall cleave to you.",
+      "translator_notes": [
+        "Deuteronomy narrative/law detail. Full verse-specific note to be completed in quality pass."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 61,
+      "text_hebrew": "גַּ֤ם כׇּל־חֳלִי֙ וְכׇל־מַכָּ֔ה אֲשֶׁר֙ לֹ֣א כָת֔וּב בְּסֵ֖פֶר הַתּוֹרָ֣ה הַזֹּ֑את יַעְלֵ֤ם יְהֹוָה֙ עָלֶ֔יךָ עַ֖ד הִשָּׁמְדָֽךְ׃",
+      "text_kjv": "Also every sickness, and every plague, which is not written in the book of this law, them will the LORD bring upon thee, until thou be destroyed.",
+      "rendering": "Also every sickness, and every plague, which is not written in the book of this law, them will the LORD bring upon you, until you be destroyed.",
+      "translator_notes": [
+        "Deuteronomy narrative/law detail. Full verse-specific note to be completed in quality pass."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 62,
+      "text_hebrew": "וְנִשְׁאַרְתֶּם֙ בִּמְתֵ֣י מְעָ֔ט תַּ֚חַת אֲשֶׁ֣ר הֱיִיתֶ֔ם כְּכוֹכְבֵ֥י הַשָּׁמַ֖יִם לָרֹ֑ב כִּֽי־לֹ֣א שָׁמַ֔עְתָּ בְּק֖וֹל יְהֹוָ֥ה אֱלֹהֶֽיךָ׃",
+      "text_kjv": "And ye shall be left few in number, whereas ye were as the stars of heaven for multitude; because thou wouldest not obey the voice of the LORD thy God.",
+      "rendering": "you shall be left few in number, whereas you were as the stars of heaven for multitude; because you wouldest not obey the voice of the LORD your God.",
+      "translator_notes": [
+        "Deuteronomy narrative/law detail. Full verse-specific note to be completed in quality pass."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 63,
+      "text_hebrew": "וְ֠הָיָ֠ה כַּאֲשֶׁר־שָׂ֨שׂ יְהֹוָ֜ה עֲלֵיכֶ֗ם לְהֵיטִ֣יב אֶתְכֶם֮ וּלְהַרְבּ֣וֹת אֶתְכֶם֒ כֵּ֣ן יָשִׂ֤ישׂ יְהֹוָה֙ עֲלֵיכֶ֔ם לְהַאֲבִ֥יד אֶתְכֶ֖ם וּלְהַשְׁמִ֣יד אֶתְכֶ֑ם וְנִסַּחְתֶּם֙ מֵעַ֣ל הָאֲדָמָ֔ה אֲשֶׁר־אַתָּ֥ה בָא־שָׁ֖מָּה לְרִשְׁתָּֽהּ׃",
+      "text_kjv": "And it shall come to pass, that as the LORD rejoiced over you to do you good, and to multiply you; so the LORD will rejoice over you to destroy you, and to bring you to nought; and ye shall be plucked from off the land whither thou goest to possess it.",
+      "rendering": "it shall come to pass, that as the LORD rejoiced over you to do you good, and to multiply you; so the LORD will rejoice over you to destroy you, and to bring you to nought; and you shall be plucked from off the land whither you goest to possess it.",
+      "translator_notes": [
+        "Deuteronomy narrative/law detail. Full verse-specific note to be completed in quality pass."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 64,
+      "text_hebrew": "וֶהֱפִֽיצְךָ֤ יְהֹוָה֙ בְּכׇל־הָ֣עַמִּ֔ים מִקְצֵ֥ה הָאָ֖רֶץ וְעַד־קְצֵ֣ה הָאָ֑רֶץ וְעָבַ֨דְתָּ שָּׁ֜ם אֱלֹהִ֣ים אֲחֵרִ֗ים אֲשֶׁ֧ר לֹא־יָדַ֛עְתָּ אַתָּ֥ה וַאֲבֹתֶ֖יךָ עֵ֥ץ וָאָֽבֶן׃",
+      "text_kjv": "And the LORD shall scatter thee among all people, from the one end of the earth even unto the other; and there thou shalt serve other gods, which neither thou nor thy fathers have known, even wood and stone.",
+      "rendering": "the LORD shall scatter you among all people, from the one end of the earth even to the other; and there you shall serve other gods, which neither you nor your fathers have known, even wood and stone.",
+      "translator_notes": [
+        "Deuteronomy narrative/law detail. Full verse-specific note to be completed in quality pass."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 65,
+      "text_hebrew": "וּבַגּוֹיִ֤ם הָהֵם֙ לֹ֣א תַרְגִּ֔יעַ וְלֹא־יִהְיֶ֥ה מָנ֖וֹחַ לְכַף־רַגְלֶ֑ךָ וְנָתַן֩ יְהֹוָ֨ה לְךָ֥ שָׁם֙ לֵ֣ב רַגָּ֔ז וְכִלְי֥וֹן עֵינַ֖יִם וְדַאֲב֥וֹן נָֽפֶשׁ׃",
+      "text_kjv": "And among these nations shalt thou find no ease, neither shall the sole of thy foot have rest: but the LORD shall give thee there a trembling heart, and failing of eyes, and sorrow of mind:",
+      "rendering": "among these nations shall you find no ease, neither shall the sole of your foot have rest: but the LORD shall give you there a trembling heart, and failing of eyes, and sorrow of mind:",
+      "translator_notes": [
+        "Deuteronomy narrative/law detail. Full verse-specific note to be completed in quality pass."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 66,
+      "text_hebrew": "וְהָי֣וּ חַיֶּ֔יךָ תְּלֻאִ֥ים לְךָ֖ מִנֶּ֑גֶד וּפָֽחַדְתָּ֙ לַ֣יְלָה וְיוֹמָ֔ם וְלֹ֥א תַאֲמִ֖ין בְּחַיֶּֽיךָ׃",
+      "text_kjv": "And thy life shall hang in doubt before thee; and thou shalt fear day and night, and shalt have none assurance of thy life:",
+      "rendering": "your life shall hang in doubt before you; and you shall fear day and night, and shall have none assurance of your life:",
+      "translator_notes": [
+        "Deuteronomy narrative/law detail. Full verse-specific note to be completed in quality pass."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 67,
+      "text_hebrew": "בַּבֹּ֤קֶר תֹּאמַר֙ מִֽי־יִתֵּ֣ן עֶ֔רֶב וּבָעֶ֥רֶב תֹּאמַ֖ר מִֽי־יִתֵּ֣ן בֹּ֑קֶר מִפַּ֤חַד לְבָֽבְךָ֙ אֲשֶׁ֣ר תִּפְחָ֔ד וּמִמַּרְאֵ֥ה עֵינֶ֖יךָ אֲשֶׁ֥ר תִּרְאֶֽה׃",
+      "text_kjv": "In the morning thou shalt say, Would God it were even! and at even thou shalt say, Would God it were morning! for the fear of thine heart wherewith thou shalt fear, and for the sight of thine eyes which thou shalt see.",
+      "rendering": "In the morning you shall say, Would God it were even! and at even you shall say, Would God it were morning! for the fear of thine heart wherewith you shall fear, and for the sight of thine eyes which you shall see.",
+      "translator_notes": [
+        "Deuteronomy narrative/law detail. Full verse-specific note to be completed in quality pass."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 68,
+      "text_hebrew": "וֶהֱשִֽׁיבְךָ֨ יְהֹוָ֥ה&thinsp;׀&thinsp;מִצְרַ֘יִם֮ בׇּאֳנִיּוֹת֒ בַּדֶּ֙רֶךְ֙ אֲשֶׁ֣ר אָמַ֣רְתִּֽי לְךָ֔ לֹא־תֹסִ֥יף ע֖וֹד לִרְאֹתָ֑הּ וְהִתְמַכַּרְתֶּ֨ם שָׁ֧ם לְאֹיְבֶ֛יךָ לַעֲבָדִ֥ים וְלִשְׁפָח֖וֹת וְאֵ֥ין קֹנֶֽה׃ {ס}",
+      "text_kjv": "And the LORD shall bring thee into Egypt again with ships, by the way whereof I spake unto thee, Thou shalt see it no more again: and there ye shall be sold unto your enemies for bondmen and bondwomen, and no man shall buy you.",
+      "rendering": "the LORD shall bring you into Egypt again with ships, by the way whereof I spoke to you, Thou shall see it no more again: and there you shall be sold to your enemies for bondmen and bondwomen, and no man shall buy you.",
+      "translator_notes": [
+        "Deuteronomy narrative/law detail. Full verse-specific note to be completed in quality pass."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 69,
+      "text_hebrew": "אֵ֩לֶּה֩ דִבְרֵ֨י הַבְּרִ֜ית אֲֽשֶׁר־צִוָּ֧ה יְהֹוָ֣ה אֶת־מֹשֶׁ֗ה לִכְרֹ֛ת אֶת־בְּנֵ֥י יִשְׂרָאֵ֖ל בְּאֶ֣רֶץ מוֹאָ֑ב מִלְּבַ֣ד הַבְּרִ֔ית אֲשֶׁר־כָּרַ֥ת אִתָּ֖ם בְּחֹרֵֽב׃ {פ}",
+      "text_kjv": "[KJV verse offset]",
+      "rendering": "[KJV verse offset]",
+      "translator_notes": [
+        "Deuteronomy narrative/law detail. Full verse-specific note to be completed in quality pass."
+      ],
+      "reading_level": "8th grade"
+    }
+  ]
+}

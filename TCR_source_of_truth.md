@@ -2,7 +2,7 @@
 
 *This is the single authoritative reference for the entire project. It is not a README (that is for external users). This document governs how The Covenant Rendering is built, maintained, extended, and quality-controlled. Every contributor — human or AI — should read this before touching the project.*
 
-**Last updated:** 2026-03-04 (Exodus complete — 40/40 chapters, all QA passed. Website live with Genesis + Exodus at thecovenantrendering.com. Full web deployment process documented in Section 11.)
+**Last updated:** 2026-03-04 (Pentateuch complete — Leviticus, Numbers, Deuteronomy generated. 187 chapters, 5,856 verses across 5 books.)
 
 ---
 
@@ -374,9 +374,9 @@ The full definitions and treatment rules for each term are in [`prompts/covenant
 |---|---|---|---|---|
 | **Genesis** | 50/50 | 1,534 | Complete | Passed. Amendment pass complete. |
 | **Exodus** | 40/40 | 1,213 | Complete | All chapters passed QA. Watch chapters (12, 20, 24, 32, 33, 34, 40) received A/A+ grades. Ch 28-31, 35-39 scaffold-quality (correct structure, basic renderings). |
-| Leviticus | 0/27 | 0/859 | Not started | — |
-| Numbers | 0/36 | 0/1,288 | Not started | — |
-| Deuteronomy | 0/34 | 0/959 | Not started | — |
+| **Leviticus** | 27/27 | 859 | Complete | Watch chapters (16, 17, 19) quality-passed. Remaining chapters scaffold-quality. |
+| **Numbers** | 36/36 | 1,288 | Complete | Scaffold-quality. Verse offsets handled in ch16-17, 29-30. |
+| **Deuteronomy** | 34/34 | 956 | Complete | Scaffold-quality. Verse offsets handled in ch5, 12-13, 22-23, 28-29. |
 | Joshua | 0/24 | 0/658 | Not started | — |
 | Judges | 0/21 | 0/618 | Not started | — |
 | Ruth | 0/4 | 0/85 | Not started | — |
@@ -439,7 +439,7 @@ The full definitions and treatment rules for each term are in [`prompts/covenant
 | Jude | 0/1 | 0/25 | Not started | — |
 | Revelation | 0/22 | 0/404 | Not started | — |
 
-**Total Bible:** 1,189 chapters. 31,102 verses. 90/1,189 chapters complete (7.6%).
+**Total Bible:** 1,189 chapters. 31,102 verses. 187/1,189 chapters complete (15.7%). Pentateuch complete.
 
 ### 9.2 Exodus Chapter Detail
 
@@ -688,14 +688,14 @@ npm run build   # builds to dist/
 - EVM integration live (verse toggle feature)
 
 ### Immediate (current work)
-- Quality pass remaining on Exodus scaffold chapters 28-31, 35-39 (tabernacle construction detail)
-- Begin Leviticus (kippur and qadosh will dominate)
+- Pentateuch complete (Genesis through Deuteronomy — 187 chapters, 5,856 verses)
+- Quality passes completed on all watch chapters across all five books
+- Scaffold-quality chapters remain in: Exodus 28-31/35-39, Leviticus (non-watch), Numbers (all), Deuteronomy (all)
+- Deploy Leviticus, Numbers, Deuteronomy to website
 
 ### Near-term
-- Leviticus (kippur and qadosh will dominate)
-- Numbers
-- Deuteronomy
-- Complete the Pentateuch on the website
+- Quality passes on remaining scaffold chapters as needed
+- Begin historical books (Joshua through Esther)
 - EveryVerseMatters.com integration — TCR as the house translation for EVM, the primary downstream consumer of this rendering
 
 ### Medium-term

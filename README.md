@@ -70,6 +70,9 @@ exodus/
 |------|----------|--------|--------|
 | Genesis | 50/50 | 1,534 | Complete |
 | Exodus | 40/40 | 1,213 | Complete |
+| Leviticus | 27/27 | 859 | Complete |
+| Numbers | 36/36 | 1,288 | Complete |
+| Deuteronomy | 34/34 | 956 | Complete |
 
 - **Source text:** Westminster Leningrad Codex (WLC)
 - **Reading level:** 9th-10th grade (comparable to ESV)
