@@ -2,7 +2,7 @@
 
 *This is the single authoritative reference for the entire project. It is not a README (that is for external users). This document governs how The Covenant Rendering is built, maintained, extended, and quality-controlled. Every contributor — human or AI — should read this before touching the project.*
 
-**Last updated:** 2026-03-04 (Exodus complete — 40/40 chapters, all QA passed. Committed and deployed to GitHub.)
+**Last updated:** 2026-03-04 (Exodus complete — 40/40 chapters, all QA passed. Website live with Genesis + Exodus at thecovenantrendering.com. Full web deployment process documented in Section 11.)
 
 ---
 
@@ -115,6 +115,7 @@ Released under CC-BY-4.0. Anyone can use it. Anyone can build on it. Anyone can 
 
 ### 5.2 File Structure
 
+**Data repo** (`~/The Covenant Rendering/` → github.com/bashonda2/the-covenant-rendering):
 ```
 The Covenant Rendering/
 ├── TCR_source_of_truth.md          # This document
@@ -133,10 +134,46 @@ The Covenant Rendering/
 ├── exodus/
 │   ├── chapter-01.json
 │   ├── chapter-02.json
-│   └── ... (40 chapters when complete)
+│   └── ... (40 chapters)
 └── {book}/
     └── chapter-{NN}.json
 ```
+
+**Website repo** (`~/TCR/` → github.com/bashonda2/tcr-site):
+```
+TCR/
+├── astro.config.mjs
+├── package.json
+├── deploy.sh                       # Build + rsync to VPS in one command
+├── TCR_Source_of_truth.md          # Older website-focused SOT (this document supersedes it)
+├── public/
+│   └── favicon.svg
+├── src/
+│   ├── data/
+│   │   ├── tcr.ts                  # BOOKS registry, loadChapter(), TypeScript interfaces
+│   │   ├── genesis/                # Build-time copies of JSON data
+│   │   │   └── chapter-{NN}.json
+│   │   └── exodus/
+│   │       └── chapter-{NN}.json
+│   ├── components/
+│   │   └── VerseCard.astro         # Single verse display component
+│   ├── layouts/
+│   │   └── Layout.astro            # Base HTML, nav, footer, fonts, SEO
+│   ├── pages/
+│   │   ├── index.astro             # Homepage
+│   │   ├── about.astro             # About / methodology
+│   │   ├── genesis/
+│   │   │   ├── index.astro         # Chapter grid
+│   │   │   └── [chapter].astro     # Verse-by-verse display
+│   │   └── exodus/
+│   │       ├── index.astro
+│   │       └── [chapter].astro
+│   └── styles/
+│       └── global.css              # Tailwind imports, custom theme, Hebrew text styles
+└── dist/                           # Build output (gitignored)
+```
+
+**Relationship between repos:** The data repo is the canonical source. JSON chapter files are *copied* into the site repo's `src/data/` directory. The site reads them at build time and generates static HTML. When new chapters are generated, they are saved to the data repo first, then copied to the site repo.
 
 ### 5.3 JSON Schema — Verse Object
 
@@ -483,17 +520,182 @@ Chapters in **bold** require close QA attention for theological density.
 
 ---
 
-## 11. Future Roadmap
+## 11. Website — thecovenantrendering.com
+
+### 11.1 Overview
+
+The Covenant Rendering has a live public website at **https://thecovenantrendering.com**. It is a statically generated Astro site that renders all translation data (Hebrew, rendering, KJV, translator notes, key terms) into a browsable, mobile-friendly web interface. The site is the public face of the project — the place readers and developers encounter TCR.
+
+The website source code lives at `~/TCR` and is a separate repo from the translation data.
+
+### 11.2 Tech Stack
+
+| Component | Choice | Notes |
+|---|---|---|
+| Framework | Astro 5 (static output) | All pages generated at build time from JSON data. No server-side rendering, no database, no API. |
+| CSS | Tailwind CSS v4 | Via `@tailwindcss/vite` plugin |
+| Verse font | Cormorant Garamond | Google Fonts — serif, scholarly feel |
+| UI font | Inter | Google Fonts — clean sans-serif for navigation, labels, metadata |
+| Hebrew font | Noto Serif Hebrew | Google Fonts — full RTL support, vowel pointing renders correctly |
+| Accent color | Deep teal `#1e6b5a` | Distinct from EVM's gold/parchment palette |
+| Background | Warm cream `#fafaf8` | |
+
+### 11.3 Repositories
+
+| Repo | URL | Local Path | Contents |
+|---|---|---|---|
+| Translation data | https://github.com/bashonda2/the-covenant-rendering | `~/The Covenant Rendering/` | JSON chapter files, prompts, this SOT |
+| Website source | https://github.com/bashonda2/tcr-site | `~/TCR/` | Astro site, components, styles, build-time data copies |
+
+These are separate repos. The data repo is the canonical source for translation JSON. The site repo contains build-time copies of the data (in `src/data/`) plus all site-specific code.
+
+### 11.4 Infrastructure
+
+| Property | Value |
+|---|---|
+| Domain | thecovenantrendering.com (registered at Namecheap, DNS A records → 209.74.80.143) |
+| VPS | 209.74.80.143 (shared with EveryVerseMatters.com) |
+| SSH | `ssh root@209.74.80.143` |
+| Web server | Nginx 1.24.0 (Ubuntu) |
+| Web root | `/var/www/tcr/` |
+| Nginx config | `/etc/nginx/sites-available/thecovenantrendering.com` |
+| SSL | Let's Encrypt via certbot. Auto-renews. |
+
+### 11.5 Site Structure — Live Pages
+
+| Route | Source File | Purpose |
+|---|---|---|
+| `/` | `src/pages/index.astro` | Homepage: hero, Genesis 1:1–2 live example with key term callouts (bara, tohu vavohu), problem/solution pitch, design principles, current status panel |
+| `/genesis` | `src/pages/genesis/index.astro` | Chapter grid — 50 chapters with verse counts and first-verse previews |
+| `/genesis/[n]` | `src/pages/genesis/[chapter].astro` | Verse-by-verse chapter display with collapsible "Notes & Key Terms" panel per verse |
+| `/exodus` | `src/pages/exodus/index.astro` | Chapter grid — 40 chapters with verse counts and first-verse previews |
+| `/exodus/[n]` | `src/pages/exodus/[chapter].astro` | Verse-by-verse chapter display |
+| `/about` | `src/pages/about.astro` | Translation philosophy, source texts, AI disclosure, CC-BY-4.0 license details, book status roadmap |
+
+**Current page count:** 94 (1 homepage + 1 about + 51 Genesis + 41 Exodus)
+
+### 11.6 Key Components
+
+| Component | File | Purpose |
+|---|---|---|
+| Layout | `src/layouts/Layout.astro` | Base HTML, Google Fonts loading, nav bar (Genesis, Exodus, About, GitHub), footer, SEO meta/OG tags |
+| VerseCard | `src/components/VerseCard.astro` | Single verse display: Hebrew (RTL), rendering, KJV, collapsible notes/key terms panel. Accepts `bookName` prop. |
+| Data utility | `src/data/tcr.ts` | `BOOKS` registry, `loadChapter(book, n)`, `getAllChapterNums(book)`, `getBook(slug)`, TypeScript interfaces |
+
+### 11.7 The BOOKS Registry (`src/data/tcr.ts`)
+
+When adding a new book to the website, the first code change is adding an entry to the `BOOKS` array:
+
+```typescript
+export const BOOKS: BookInfo[] = [
+  { slug: 'genesis', name: 'Genesis', hebrewName: 'בְּרֵאשִׁית', transliteration: 'Bereshit', meaning: 'In the beginning', chapters: 50 },
+  { slug: 'exodus', name: 'Exodus', hebrewName: 'שְׁמוֹת', transliteration: 'Shemot', meaning: 'Names', chapters: 40 },
+  // Add new books here
+];
+```
+
+All data loading functions (`loadChapter`, `getAllChapterNums`, `getBookVerseCount`) take a `book` slug parameter and reference this registry.
+
+### 11.8 How to Add a New Book to the Website
+
+This is the complete step-by-step process for getting a newly generated book from JSON data to live on thecovenantrendering.com.
+
+**Step 1: Copy data to the site.**
+```bash
+cp -r "/Users/aaronblonquist/The Covenant Rendering/{book}/" ~/TCR/src/data/{book}/
+```
+
+**Step 2: Register the book in `src/data/tcr.ts`.** Add a new entry to the `BOOKS` array with the book's slug, name, Hebrew name, transliteration, meaning, and chapter count.
+
+**Step 3: Create the book's browse page.** Create `src/pages/{book}/index.astro` — the chapter grid page. Use `src/pages/genesis/index.astro` or `src/pages/exodus/index.astro` as a template. Change the book slug, title, description, and canonical URL.
+
+**Step 4: Create the book's chapter page.** Create `src/pages/{book}/[chapter].astro` — the verse-by-verse display. Use `src/pages/genesis/[chapter].astro` or `src/pages/exodus/[chapter].astro` as a template. Change the book slug, book name references, and navigation links.
+
+**Step 5: Update navigation.** In `src/layouts/Layout.astro`:
+- Add a nav link for the new book (in the header nav bar)
+- Add the book to the footer browse list
+
+**Step 6: Update the homepage.** In `src/pages/index.astro`:
+- Update the status panel (total chapters, total verses, "Leviticus and beyond in progress" text)
+- Add a "Browse {Book}" button to the CTA section
+
+**Step 7: Update the about page.** In `src/pages/about.astro`:
+- Change the book's status from `'planned'` to `'complete'` in the roadmap table
+
+**Step 8: Build and verify locally.**
+```bash
+cd ~/TCR
+npm run build
+# Confirm all pages build without errors
+# Check the total page count in the build output
+```
+
+**Step 9: Commit and push to GitHub.**
+```bash
+cd ~/TCR
+git add -A
+git commit -m "feat: add {Book} — {N} chapters, full verse-by-verse pages"
+git push
+```
+
+**Step 10: Deploy to production.**
+```bash
+./deploy.sh
+# Or manually:
+# npm run build && rsync -avz --delete dist/ root@209.74.80.143:/var/www/tcr/
+```
+
+**Step 11: Verify live.** Confirm the new pages load at `https://thecovenantrendering.com/{book}` and `https://thecovenantrendering.com/{book}/1`.
+
+### 11.9 Deployment
+
+```bash
+# From ~/TCR — builds and deploys in one command:
+./deploy.sh
+
+# What deploy.sh does:
+# 1. npm run build  (generates static HTML from JSON data)
+# 2. rsync -avz --delete dist/ root@209.74.80.143:/var/www/tcr/
+```
+
+Build time: ~1.3s for 94 pages. Rsync only transfers changed files. Zero downtime.
+
+### 11.10 Local Development
+
+```bash
+cd ~/TCR
+npm run dev     # starts dev server at http://localhost:4321
+npm run build   # builds to dist/
+```
+
+### 11.11 Design Rules
+
+- **Text contrast minimum:** `text-stone-600` for any readable content. `text-stone-400` is reserved for decorative separators and fine print only.
+- **KJV text:** `text-base` (16px) minimum — not `text-sm`. Italic serif (Cormorant Garamond) to visually distinguish from TCR rendering.
+- **Hebrew text:** RTL, Noto Serif Hebrew, `text-hebrew` class with `direction: rtl; unicode-bidi: bidi-override; line-height: 2;`
+- **Accent color:** Deep teal `#1e6b5a` throughout. NOT gold/parchment (that's EVM's palette).
+
+---
+
+## 12. Future Roadmap
+
+### Completed ✅
+- Genesis translated (50 chapters, 1,534 verses) — on site
+- Exodus translated (40 chapters, 1,213 verses) — on site
+- thecovenantrendering.com launched — 94 pages live
+- SSL, Nginx, deploy pipeline operational
+- tcr-site GitHub repo created and pushed
+- EVM integration live (verse toggle feature)
 
 ### Immediate (current work)
-- Exodus complete (40/40 chapters). Quality pass remaining on scaffold chapters 28-31, 35-39 (tabernacle construction detail).
+- Quality pass remaining on Exodus scaffold chapters 28-31, 35-39 (tabernacle construction detail)
 - Begin Leviticus (kippur and qadosh will dominate)
 
 ### Near-term
 - Leviticus (kippur and qadosh will dominate)
 - Numbers
 - Deuteronomy
-- Complete the Pentateuch
+- Complete the Pentateuch on the website
 - EveryVerseMatters.com integration — TCR as the house translation for EVM, the primary downstream consumer of this rendering
 
 ### Medium-term
@@ -511,12 +713,13 @@ Chapters in **bold** require close QA attention for theological density.
 - Automated validation scripts for batch QA
 - Concordance generation across completed books
 - Cross-reference database
-- Web reader / study interface
+- Site search (Pagefind or equivalent — add when content exceeds 2 books)
+- Individual verse permalinks (`/genesis/1/1`) for SEO and sharing
 - PDF/print generation pipeline
 
 ---
 
-## 12. Project Information
+## 13. Project Information
 
 | Field | Value |
 |---|---|
@@ -529,7 +732,11 @@ Chapters in **bold** require close QA attention for theological density.
 | **Source text (NT)** | SBL Greek New Testament (SBLGNT) |
 | **Reference text** | King James Version (KJV) |
 | **Prompt version** | 1.3 |
-| **Repository** | `/Users/aaronblonquist/The Covenant Rendering` |
+| **Data repo** | https://github.com/bashonda2/the-covenant-rendering (`~/The Covenant Rendering/`) |
+| **Website repo** | https://github.com/bashonda2/tcr-site (`~/TCR/`) |
+| **Live site** | https://thecovenantrendering.com |
+| **VPS** | 209.74.80.143 (`ssh root@209.74.80.143`) |
+| **Web root** | `/var/www/tcr/` |
 
 ### Attribution
 
