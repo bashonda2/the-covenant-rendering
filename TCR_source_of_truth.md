@@ -2,7 +2,7 @@
 
 *This is the single authoritative reference for the entire project. It is not a README (that is for external users). This document governs how The Covenant Rendering is built, maintained, extended, and quality-controlled. Every contributor — human or AI — should read this before touching the project.*
 
-**Last updated:** 2026-03-15 (103 scaffold chapters identified; 77 remediated. 26 remaining (Exodus 5, Deuteronomy 27). Leviticus and Numbers fully remediated. Contact email live: contact@thecovenantrendering.com.)
+**Last updated:** 2026-03-15 (All 103 scaffold chapters remediated. Full Pentateuch passes automated QA: 187/187 chapters, 0 failures. All five books at full quality. Contact email live: contact@thecovenantrendering.com.)
 
 ---
 
@@ -309,11 +309,11 @@ Current scaffold remediation status:
 
 | Book | Scaffold Chapters | Remediated | Remaining |
 |---|---|---|---|
-| Exodus | 9 (ch 28-31, 35-39) | 4 (ch 28, 29, 30, 31) | 5 |
+| Exodus | 9 (ch 28-31, 35-39) | **9 (all — complete)** | **0** |
 | Leviticus | 24 (ch 1-15, 18, 20-27) | **24 (all — complete)** | **0** |
 | Numbers | 36 (all) | **36 (all — complete)** | **0** |
-| Deuteronomy | 34 (all) | 7 (ch 5, 6, 18, 28, 30, 32, 34) | 27 |
-| **Total** | **103** | **71** | **32** |
+| Deuteronomy | 34 (all) | **34 (all — complete)** | **0** |
+| **Total** | **103** | **103** | **0** |
 
 **Remediation priority order:**
 
