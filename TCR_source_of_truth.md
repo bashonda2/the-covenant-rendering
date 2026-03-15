@@ -2,7 +2,7 @@
 
 *This is the single authoritative reference for the entire project. It is not a README (that is for external users). This document governs how The Covenant Rendering is built, maintained, extended, and quality-controlled. Every contributor — human or AI — should read this before touching the project.*
 
-**Last updated:** 2026-03-15 (QA pipeline established. 103 scaffold chapters identified across Exodus, Leviticus, Numbers, Deuteronomy. Remediation in progress.)
+**Last updated:** 2026-03-15 (QA pipeline established. 103 scaffold chapters identified; 5 remediated via two-agent pipeline. 98 remaining.)
 
 ---
 
@@ -308,10 +308,10 @@ Current scaffold remediation status:
 | Book | Scaffold Chapters | Remediated | Remaining |
 |---|---|---|---|
 | Exodus | 9 (ch 28-31, 35-39) | 0 | 9 |
-| Leviticus | 24 (ch 1-15, 18, 20-27) | 0 | 24 |
+| Leviticus | 24 (ch 1-15, 18, 20-27) | 1 (ch 1) | 23 |
 | Numbers | 36 (all) | 1 (ch 6) | 35 |
-| Deuteronomy | 34 (all) | 2 (ch 6, 34) | 32 |
-| **Total** | **103** | **3** | **100** |
+| Deuteronomy | 34 (all) | 3 (ch 5, 6, 34) | 31 |
+| **Total** | **103** | **5** | **98** |
 
 **Remediation priority order:**
 
