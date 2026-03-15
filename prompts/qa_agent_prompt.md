@@ -141,7 +141,8 @@ Return your verdict in this exact format:
    - If **PASS**: The chapter may be committed and pushed to the repository.
    - If **CONDITIONAL PASS**: Apply the specific fixes listed, then re-run QA. Do not commit until the QA agent returns PASS.
    - If **FAIL**: Regenerate the chapter from scratch with the generation agent. Do not attempt to patch a failed chapter — regenerate it.
-5. **Update the SOT** progress tracker and expanded_rendering placement log after each successful publish.
+5. **Commit AND push to GitHub.** Every `git commit` must be immediately followed by `git push`. Local-only commits are not considered published. Always push to `origin main`.
+6. **Update the SOT** progress tracker and expanded_rendering placement log after each successful publish.
 
 ### 3.2 Batch Processing
 
