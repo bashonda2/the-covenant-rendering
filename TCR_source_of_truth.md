@@ -2,7 +2,7 @@
 
 *This is the single authoritative reference for the entire project. It is not a README (that is for external users). This document governs how The Covenant Rendering is built, maintained, extended, and quality-controlled. Every contributor — human or AI — should read this before touching the project.*
 
-**Last updated:** 2026-03-04 (Pentateuch complete — Leviticus, Numbers, Deuteronomy generated. 187 chapters, 5,856 verses across 5 books.)
+**Last updated:** 2026-03-15 (QA pipeline established. 103 scaffold chapters identified across Exodus, Leviticus, Numbers, Deuteronomy. Remediation in progress.)
 
 ---
 
@@ -125,6 +125,8 @@ The Covenant Rendering/
 │   ├── covenant_rendering_prompt.md        # Master generation prompt
 │   ├── covenant_rendering_addendum_v1.2.md # Theologically Rich Terms Register
 │   ├── quality-correction-addendum-v1.3.md # Quality rules: no KJV copying, no boilerplate, modern English
+│   ├── qa_agent_prompt.md                  # QA validation rules, two-agent pipeline enforcement
+│   ├── leviticus-briefing-addendum.md      # Leviticus-specific vocabulary, offerings, purity, watch chapters
 │   ├── addendum_v1.1.md                    # Previous addendum version (archived)
 │   └── rendering_prompt.md                 # Earlier prompt version (archived)
 ├── genesis/
@@ -286,6 +288,41 @@ These rules were established during the Exodus generation process after QA ident
 - `expanded_rendering` is present on all targeted register-term verses
 - `key_terms` entries have all required sub-fields (`hebrew`, `transliteration`, `rendered_as`, `semantic_range`, `note`)
 - `meta.book` and `meta.chapter` match the filename
+
+### 7.4 Two-Agent Pipeline
+
+All chapter generation follows a two-agent pipeline. No chapter may be committed, pushed, or marked as complete unless it has passed both stages:
+
+1. **Generation Agent** produces the chapter JSON from Hebrew source text using the full prompt stack (master prompt + addendum v1.2 + correction v1.3 + book-specific briefing if available).
+2. **QA Agent** validates the chapter against all automated and quality checks defined in `prompts/qa_agent_prompt.md`. The QA Agent must be a separate AI context from the generation agent — it cannot QA its own output.
+3. **Only chapters that receive a PASS verdict from the QA Agent may be committed to the repository.**
+
+Scaffold chapters (placeholder notes, KJV-copied renderings, missing key_terms) are **never acceptable as committed output**. If the generation agent produces scaffold, the QA agent will reject it and the chapter must be regenerated.
+
+### 7.5 Scaffold Policy
+
+Scaffold chapters are never acceptable as committed output. Any scaffold chapter already in the repository must be remediated through the two-agent pipeline before the book is considered complete.
+
+Current scaffold remediation status:
+
+| Book | Scaffold Chapters | Remediated | Remaining |
+|---|---|---|---|
+| Exodus | 9 (ch 28-31, 35-39) | 0 | 9 |
+| Leviticus | 24 (ch 1-15, 18, 20-27) | 0 | 24 |
+| Numbers | 36 (all) | 1 (ch 6) | 35 |
+| Deuteronomy | 34 (all) | 2 (ch 6, 34) | 32 |
+| **Total** | **103** | **3** | **100** |
+
+**Remediation priority order:**
+
+**Tier 1 — Watch chapters (regenerate first):**
+- Exodus: 28, 29, 30, 31
+- Leviticus: 1, 2, 3, 4, 5, 6, 7, 10, 11, 13, 14, 23, 25, 26
+- Numbers: 6, 14, 22, 23, 24, 27
+- Deuteronomy: 5, 6, 18, 28, 30, 32, 34
+
+**Tier 2 — Remaining scaffold chapters (regenerate after Tier 1 complete):**
+All other scaffold chapters in book order.
 
 ---
 
@@ -753,6 +790,8 @@ When using The Covenant Rendering, credit:
 | Master Generation Prompt | [`prompts/covenant_rendering_prompt.md`](prompts/covenant_rendering_prompt.md) | Translation philosophy, output format, consistency rules, quality standards |
 | Addendum v1.2 | [`prompts/covenant_rendering_addendum_v1.2.md`](prompts/covenant_rendering_addendum_v1.2.md) | Theologically Rich Terms Register, expanded_rendering rules, term definitions |
 | Quality Correction Addendum v1.3 | [`prompts/quality-correction-addendum-v1.3.md`](prompts/quality-correction-addendum-v1.3.md) | Three non-negotiable quality rules: no KJV pass-through, no boilerplate notes, consistent modernization. Active in all generation from Exodus ch2 onward. |
+| QA Agent Prompt | [`prompts/qa_agent_prompt.md`](prompts/qa_agent_prompt.md) | QA validation rules, verdict format, two-agent pipeline enforcement. All chapters must pass QA before commit. |
+| Leviticus Briefing | [`prompts/leviticus-briefing-addendum.md`](prompts/leviticus-briefing-addendum.md) | Leviticus-specific vocabulary (five offerings, purity system, holiness spectrum), register term frequency, watch chapters, tone guidance. |
 | Addendum v1.1 | [`prompts/addendum_v1.1.md`](prompts/addendum_v1.1.md) | Previous addendum version (archived, superseded by v1.2) |
 
 ---
