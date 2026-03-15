@@ -2,7 +2,7 @@
 
 *This is the single authoritative reference for the entire project. It is not a README (that is for external users). This document governs how The Covenant Rendering is built, maintained, extended, and quality-controlled. Every contributor — human or AI — should read this before touching the project.*
 
-**Last updated:** 2026-03-15 (QA pipeline established. 103 scaffold chapters identified; 20 remediated via two-agent pipeline. 83 remaining. Contact email live: contact@thecovenantrendering.com.)
+**Last updated:** 2026-03-15 (QA pipeline established. 103 scaffold chapters identified; 24 remediated via two-agent pipeline. 79 remaining. Contact email live: contact@thecovenantrendering.com.)
 
 ---
 
