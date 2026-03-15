@@ -138,7 +138,7 @@ For the full project vision, methodology, architecture, quality standards, and p
 
 ## Contact
 
-Aaron Blonquist — aaronblonquist@gmail.com
+Aaron Blonquist — contact@thecovenantrendering.com
 
 ---
 

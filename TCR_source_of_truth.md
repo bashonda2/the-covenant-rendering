@@ -2,7 +2,7 @@
 
 *This is the single authoritative reference for the entire project. It is not a README (that is for external users). This document governs how The Covenant Rendering is built, maintained, extended, and quality-controlled. Every contributor — human or AI — should read this before touching the project.*
 
-**Last updated:** 2026-03-15 (QA pipeline established. 103 scaffold chapters identified; 7 remediated via two-agent pipeline. 96 remaining.)
+**Last updated:** 2026-03-15 (QA pipeline established. 103 scaffold chapters identified; 20 remediated via two-agent pipeline. 83 remaining. Contact email live: contact@thecovenantrendering.com.)
 
 ---
 
@@ -597,6 +597,11 @@ These are separate repos. The data repo is the canonical source for translation 
 | Web root | `/var/www/tcr/` |
 | Nginx config | `/etc/nginx/sites-available/thecovenantrendering.com` |
 | SSL | Let's Encrypt via certbot. Auto-renews. |
+| Contact email | contact@thecovenantrendering.com → forwards to aaronblonquist@hotmail.com |
+| Email forwarding | Namecheap built-in email forwarding (MX records point to Namecheap forwarding servers) |
+| DNS management | Namecheap |
+
+**Email separation from EVM:** TCR uses `contact@thecovenantrendering.com` (Namecheap forwarding → Hotmail). EVM uses `contact@everyversematters.com` (ImprovMX → Gmail). Separate domain emails and separate inboxes preserve TCR's scholarly/interfaith positioning — visitors to TCR do not see an LDS-specific connection through shared contact info.
 
 ### 11.5 Site Structure — Live Pages
 
@@ -762,7 +767,8 @@ npm run build   # builds to dist/
 |---|---|
 | **Project name** | The Covenant Rendering |
 | **Creator** | Aaron Blonquist |
-| **Contact** | aaronblonquist@gmail.com |
+| **Contact (public)** | contact@thecovenantrendering.com |
+| **Contact (personal)** | aaronblonquist@gmail.com |
 | **License** | CC-BY-4.0 |
 | **AI model** | Claude (Anthropic) |
 | **Source text (OT)** | Westminster Leningrad Codex (WLC) |
