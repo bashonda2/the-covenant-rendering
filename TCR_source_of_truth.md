@@ -614,19 +614,17 @@ These are separate repos. The data repo is the canonical source for translation 
 | Route | Source File | Purpose |
 |---|---|---|
 | `/` | `src/pages/index.astro` | Homepage: hero, Genesis 1:1–2 live example with key term callouts (bara, tohu vavohu), problem/solution pitch, design principles, current status panel |
-| `/genesis` | `src/pages/genesis/index.astro` | Chapter grid — 50 chapters with verse counts and first-verse previews |
-| `/genesis/[n]` | `src/pages/genesis/[chapter].astro` | Verse-by-verse chapter display with collapsible "Notes & Key Terms" panel per verse |
-| `/exodus` | `src/pages/exodus/index.astro` | Chapter grid — 40 chapters with verse counts and first-verse previews |
-| `/exodus/[n]` | `src/pages/exodus/[chapter].astro` | Verse-by-verse chapter display |
+| `/{book}` | `src/pages/[book]/index.astro` | Chapter grid — dynamic route serves all books (Genesis, Exodus, Leviticus, Numbers, Deuteronomy) with verse counts and first-verse previews |
+| `/{book}/[n]` | `src/pages/[book]/[chapter].astro` | Verse-by-verse chapter display with collapsible "Notes & Key Terms" panel per verse — dynamic route serves all book/chapter combinations |
 | `/about` | `src/pages/about.astro` | Translation philosophy, source texts, AI disclosure, CC-BY-4.0 license details, book status roadmap |
 
-**Current page count:** 94 (1 homepage + 1 about + 51 Genesis + 41 Exodus)
+**Current page count:** 194 (1 homepage + 1 about + 5 book indexes + 187 chapter pages)
 
 ### 11.6 Key Components
 
 | Component | File | Purpose |
 |---|---|---|
-| Layout | `src/layouts/Layout.astro` | Base HTML, Google Fonts loading, nav bar (Genesis, Exodus, About, GitHub), footer, SEO meta/OG tags |
+| Layout | `src/layouts/Layout.astro` | Base HTML, Google Fonts loading, nav bar with Books dropdown (all 5 Pentateuch books) + mobile hamburger, dynamic footer, SEO meta/OG tags |
 | VerseCard | `src/components/VerseCard.astro` | Single verse display: Hebrew (RTL), rendering, KJV, collapsible notes/key terms panel. Accepts `bookName` prop. |
 | Data utility | `src/data/tcr.ts` | `BOOKS` registry, `loadChapter(book, n)`, `getAllChapterNums(book)`, `getBook(slug)`, TypeScript interfaces |
 
@@ -638,7 +636,9 @@ When adding a new book to the website, the first code change is adding an entry 
 export const BOOKS: BookInfo[] = [
   { slug: 'genesis', name: 'Genesis', hebrewName: 'בְּרֵאשִׁית', transliteration: 'Bereshit', meaning: 'In the beginning', chapters: 50 },
   { slug: 'exodus', name: 'Exodus', hebrewName: 'שְׁמוֹת', transliteration: 'Shemot', meaning: 'Names', chapters: 40 },
-  // Add new books here
+  { slug: 'leviticus', name: 'Leviticus', hebrewName: 'וַיִּקְרָא', transliteration: 'Vayiqra', meaning: 'And He called', chapters: 27 },
+  { slug: 'numbers', name: 'Numbers', hebrewName: 'בְּמִדְבַּר', transliteration: 'Bemidbar', meaning: 'In the wilderness', chapters: 36 },
+  { slug: 'deuteronomy', name: 'Deuteronomy', hebrewName: 'דְּבָרִים', transliteration: 'Devarim', meaning: 'Words', chapters: 34 },
 ];
 ```
 
@@ -646,54 +646,26 @@ All data loading functions (`loadChapter`, `getAllChapterNums`, `getBookVerseCou
 
 ### 11.8 How to Add a New Book to the Website
 
-This is the complete step-by-step process for getting a newly generated book from JSON data to live on thecovenantrendering.com.
+The site uses dynamic routes (`src/pages/[book]/`) that automatically generate pages for any book registered in the `BOOKS` array. Adding a new book requires only **two code changes** — no new page files, no navigation updates, no footer changes.
 
 **Step 1: Copy data to the site.**
 ```bash
 cp -r "/Users/aaronblonquist/The Covenant Rendering/{book}/" ~/TCR/src/data/{book}/
 ```
 
-**Step 2: Register the book in `src/data/tcr.ts`.** Add a new entry to the `BOOKS` array with the book's slug, name, Hebrew name, transliteration, meaning, and chapter count.
+**Step 2: Register the book in `src/data/tcr.ts`.** Add a new entry to the `BOOKS` array with the book's slug, name, Hebrew name, transliteration, meaning, and chapter count. The dynamic routes, nav dropdown, footer, and homepage status panel all render from this array — no other file changes needed for the book to appear.
 
-**Step 3: Create the book's browse page.** Create `src/pages/{book}/index.astro` — the chapter grid page. Use `src/pages/genesis/index.astro` or `src/pages/exodus/index.astro` as a template. Change the book slug, title, description, and canonical URL.
+**Step 3 (optional): Update the about page.** In `src/pages/about.astro`, change the book's status from `'planned'` to `'complete'` in the roadmap table if applicable.
 
-**Step 4: Create the book's chapter page.** Create `src/pages/{book}/[chapter].astro` — the verse-by-verse display. Use `src/pages/genesis/[chapter].astro` or `src/pages/exodus/[chapter].astro` as a template. Change the book slug, book name references, and navigation links.
-
-**Step 5: Update navigation.** In `src/layouts/Layout.astro`:
-- Add a nav link for the new book (in the header nav bar)
-- Add the book to the footer browse list
-
-**Step 6: Update the homepage.** In `src/pages/index.astro`:
-- Update the status panel (total chapters, total verses, "Leviticus and beyond in progress" text)
-- Add a "Browse {Book}" button to the CTA section
-
-**Step 7: Update the about page.** In `src/pages/about.astro`:
-- Change the book's status from `'planned'` to `'complete'` in the roadmap table
-
-**Step 8: Build and verify locally.**
+**Step 4: Build, commit, deploy.**
 ```bash
 cd ~/TCR
-npm run build
-# Confirm all pages build without errors
-# Check the total page count in the build output
+npm run build          # Verify all pages generate
+git add -A && git commit -m "feat: add {Book}" && git push
+./deploy.sh            # Build + rsync to VPS
 ```
 
-**Step 9: Commit and push to GitHub.**
-```bash
-cd ~/TCR
-git add -A
-git commit -m "feat: add {Book} — {N} chapters, full verse-by-verse pages"
-git push
-```
-
-**Step 10: Deploy to production.**
-```bash
-./deploy.sh
-# Or manually:
-# npm run build && rsync -avz --delete dist/ root@209.74.80.143:/var/www/tcr/
-```
-
-**Step 11: Verify live.** Confirm the new pages load at `https://thecovenantrendering.com/{book}` and `https://thecovenantrendering.com/{book}/1`.
+**Step 5: Verify live.** Confirm the new pages load at `https://thecovenantrendering.com/{book}` and `https://thecovenantrendering.com/{book}/1`.
 
 ### 11.9 Deployment
 
@@ -706,7 +678,7 @@ git push
 # 2. rsync -avz --delete dist/ root@209.74.80.143:/var/www/tcr/
 ```
 
-Build time: ~1.3s for 94 pages. Rsync only transfers changed files. Zero downtime.
+Build time: ~0.8s for 194 pages. Rsync only transfers changed files. Zero downtime.
 
 ### 11.10 Local Development
 
@@ -730,19 +702,18 @@ npm run build   # builds to dist/
 ### Completed ✅
 - Genesis translated (50 chapters, 1,534 verses) — on site
 - Exodus translated (40 chapters, 1,213 verses) — on site
-- thecovenantrendering.com launched — 94 pages live
+- Leviticus translated (27 chapters, 859 verses) — on site
+- Numbers translated (36 chapters, 1,288 verses) — on site
+- Deuteronomy translated (34 chapters, 956 verses) — on site
+- **Full Pentateuch complete** — 187 chapters, 5,850 verses, all passing automated QA
+- All 103 scaffold chapters remediated via two-agent pipeline
+- thecovenantrendering.com launched — 194 pages live
 - SSL, Nginx, deploy pipeline operational
 - tcr-site GitHub repo created and pushed
 - EVM integration live (verse toggle feature)
-
-### Immediate (current work)
-- Pentateuch complete (Genesis through Deuteronomy — 187 chapters, 5,856 verses)
-- Quality passes completed on all watch chapters across all five books
-- Scaffold-quality chapters remain in: Exodus 28-31/35-39, Leviticus (non-watch), Numbers (all), Deuteronomy (all)
-- Deploy Leviticus, Numbers, Deuteronomy to website
+- Site redesigned with dynamic routes and Books dropdown navigation
 
 ### Near-term
-- Quality passes on remaining scaffold chapters as needed
 - Begin historical books (Joshua through Esther)
 - EveryVerseMatters.com integration — TCR as the house translation for EVM, the primary downstream consumer of this rendering
 
@@ -761,7 +732,7 @@ npm run build   # builds to dist/
 - Automated validation scripts for batch QA
 - Concordance generation across completed books
 - Cross-reference database
-- Site search (Pagefind or equivalent — add when content exceeds 2 books)
+- Site search (Pagefind or equivalent — now warranted with 5 books / 194 pages)
 - Individual verse permalinks (`/genesis/1/1`) for SEO and sharing
 - PDF/print generation pipeline
 
