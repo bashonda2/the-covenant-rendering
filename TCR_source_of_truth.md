@@ -309,9 +309,9 @@ Current scaffold remediation status:
 |---|---|---|---|
 | Exodus | 9 (ch 28-31, 35-39) | 1 (ch 31) | 8 |
 | Leviticus | 24 (ch 1-15, 18, 20-27) | 8 (ch 1-7, 10) | 16 |
-| Numbers | 36 (all) | 3 (ch 6, 24, 27) | 33 |
+| Numbers | 36 (all) | 4 (ch 6, 23, 24, 27) | 32 |
 | Deuteronomy | 34 (all) | 5 (ch 5, 6, 18, 30, 34) | 29 |
-| **Total** | **103** | **17** | **86** |
+| **Total** | **103** | **18** | **85** |
 
 **Remediation priority order:**
 
