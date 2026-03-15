@@ -80,6 +80,7 @@ If automated checks pass, evaluate these. Use your judgment — these require un
 15. **Poetry rendered as poetry.** If the chapter contains poetry (blessings, songs, oracles, prophetic speech), verify that the rendering preserves line breaks and parallelism. Poetry must not be flattened into prose.
 16. **Sacrificial vocabulary consistent** (Leviticus/Numbers). If the chapter discusses offerings, verify consistent use of: olah (burnt offering), minchah (grain offering), shelamim (peace offering), chata't (sin offering), asham (guilt offering).
 17. **Purity vocabulary correct** (Leviticus). If the chapter discusses clean/unclean, verify tamei/tahor language is rendered correctly and notes explain ritual fitness, not hygiene.
+18. **Qere/Ketiv notation correct.** If `text_hebrew` contains a qere/ketiv variant (where the written manuscript text differs from the traditional reading), verify the notation follows WLC convention: **Ketiv (written text) in parentheses `(...)`**, **Qere (read text) in square brackets `[...]`**. The Ketiv (parentheses) should appear first, followed by the Qere (square brackets). Reversed notation misrepresents which variant is the manuscript reading and which is the traditional reading.
 
 #### VERDICT FORMAT
 
@@ -112,6 +113,7 @@ Return your verdict in this exact format:
 - [ ] Poetry as poetry: PASS/FAIL or N/A
 - [ ] Sacrificial vocab: PASS/FAIL or N/A
 - [ ] Purity vocab: PASS/FAIL or N/A
+- [ ] Qere/Ketiv notation: PASS/FAIL or N/A
 
 ### Issues Found
 [List specific issues with verse numbers]

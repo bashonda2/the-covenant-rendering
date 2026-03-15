@@ -289,6 +289,7 @@ These rules were established during the Exodus generation process after QA ident
 - `expanded_rendering` is present on all targeted register-term verses
 - `key_terms` entries have all required sub-fields (`hebrew`, `transliteration`, `rendered_as`, `semantic_range`, `note`)
 - `meta.book` and `meta.chapter` match the filename
+- Qere/Ketiv notation in `text_hebrew` follows WLC convention: Ketiv in parentheses `(...)`, Qere in square brackets `[...]`, Ketiv appearing first
 
 ### 7.4 Two-Agent Pipeline
 
@@ -541,10 +542,13 @@ Chapters in **bold** require close QA attention for theological density.
 | 2026-03-04 | Exodus ch7-8: Hebrew/KJV verse-number offset | Hebrew versification (WLC) used as primary, with explicit KJV alignment mapping applied during generation. Chapter files follow Hebrew chapter structure. |
 | 2026-03-04 | Exodus ch7: missing `expanded_rendering` for hardening (7:3) | Added: expanded_rendering explaining chazaq/qasheh as judicial confirmation of Pharaoh's existing rebellion. |
 | 2026-03-04 | Exodus ch9: missing `expanded_rendering` for sovereignty (9:16) | Added: expanded_rendering explaining he'emadtikha as God positioning Pharaoh within divine purpose. |
+| 2026-03-15 | Deuteronomy 28:30: qere/ketiv notation reversed in `text_hebrew` | Square brackets and parentheses were swapped for yishkavenah/yishgalenah. Fixed to match WLC convention: Ketiv (written) in parentheses `(ישגלנה)`, Qere (read) in square brackets `[יִשְׁכָּבֶ֔נָּה]`. QA Agent prompt updated with new check (#18) for qere/ketiv notation in all future chapters. |
 
 ### 10.2 Lessons Learned
 
 **Exodus ch2-10 regeneration (2026-03-04).** Early Exodus chapters revealed that without explicit anti-KJV-copying rules, the generation model defaults to KJV diction when producing renderings. Nearly half the verses in some chapters were verbatim KJV pass-through. The same generation run produced boilerplate translator notes (a single generic sentence reused across dozens of verses) and inconsistent modernization (archaic forms like "thou goest" appearing alongside modern English). The Quality Correction Addendum v1.3 was created to prevent these issues permanently. All nine affected chapters were regenerated from scratch with full verse-specific renderings and notes. The lesson: quality rules must be explicit in the prompt context, not merely implied by the translation philosophy. If a failure mode is possible, it must be explicitly prohibited.
+
+**Deuteronomy 28:30 qere/ketiv reversal (2026-03-15).** During remediation of Deuteronomy 28, the `text_hebrew` field for verse 30 contained a qere/ketiv notation with brackets and parentheses reversed: `[יִשְׁכָּבֶ֔נָּה] (ישגלנה)` instead of the correct `(ישגלנה) [יִשְׁכָּבֶ֔נָּה]`. In WLC convention, the Ketiv (written manuscript text) appears in parentheses and the Qere (traditional reading) appears in square brackets. Reversing these misrepresents which variant is the manuscript text and which is the traditional reading — a scholarly accuracy issue. This was caught by post-commit review and fixed. A new QA check (#18) has been added to the QA Agent prompt to verify qere/ketiv notation in all future generation. The lesson: Hebrew text accuracy checks must go beyond content and include formatting conventions. Any verse with a qere/ketiv variant needs its notation verified against WLC convention.
 
 ### 10.3 Standing Decisions
 
@@ -555,6 +559,7 @@ Chapters in **bold** require close QA attention for theological density.
 | One `translator_notes` entry minimum per verse | Ensures no verse is left without contextual documentation. |
 | `key_terms` only where theologically significant | Not every verse needs key_terms. Over-annotation dilutes the value of entries that appear. |
 | Reading level targets 8th-10th grade | Comparable to ESV. Accessible but not simplified. |
+| Qere/Ketiv notation: Ketiv `(...)` then Qere `[...]` | Follows WLC convention. Ketiv (written manuscript text) in parentheses appears first; Qere (traditional reading) in square brackets appears second. Reversed notation misrepresents which variant is manuscript and which is traditional. |
 
 ---
 
