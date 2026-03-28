@@ -2,7 +2,7 @@
 
 *This is the single authoritative reference for the entire project. It is not a README (that is for external users). This document governs how The Covenant Rendering is built, maintained, extended, and quality-controlled. Every contributor — human or AI — should read this before touching the project.*
 
-**Last updated:** 2026-03-15 (All 103 scaffold chapters remediated. Full Pentateuch passes automated QA: 187/187 chapters, 0 failures. All five books at full quality. Contact email live: contact@thecovenantrendering.com.)
+**Last updated:** 2026-03-28 (Qere/Ketiv bracket convention corrected to match WLC/BHS standard across SOT, QA prompt, and Deut 28:30. All 103 scaffold chapters remediated. Full Pentateuch passes automated QA: 187/187 chapters, 0 failures. All five books at full quality. Contact email live: contact@thecovenantrendering.com.)
 
 ---
 
@@ -289,7 +289,7 @@ These rules were established during the Exodus generation process after QA ident
 - `expanded_rendering` is present on all targeted register-term verses
 - `key_terms` entries have all required sub-fields (`hebrew`, `transliteration`, `rendered_as`, `semantic_range`, `note`)
 - `meta.book` and `meta.chapter` match the filename
-- Qere/Ketiv notation in `text_hebrew` follows WLC convention: Ketiv in parentheses `(...)`, Qere in square brackets `[...]`, Ketiv appearing first
+- Qere/Ketiv notation in `text_hebrew` follows WLC convention: Ketiv in square brackets `[...]`, Qere in parentheses `(...)`, Ketiv appearing first
 
 ### 7.4 Two-Agent Pipeline
 
@@ -542,13 +542,13 @@ Chapters in **bold** require close QA attention for theological density.
 | 2026-03-04 | Exodus ch7-8: Hebrew/KJV verse-number offset | Hebrew versification (WLC) used as primary, with explicit KJV alignment mapping applied during generation. Chapter files follow Hebrew chapter structure. |
 | 2026-03-04 | Exodus ch7: missing `expanded_rendering` for hardening (7:3) | Added: expanded_rendering explaining chazaq/qasheh as judicial confirmation of Pharaoh's existing rebellion. |
 | 2026-03-04 | Exodus ch9: missing `expanded_rendering` for sovereignty (9:16) | Added: expanded_rendering explaining he'emadtikha as God positioning Pharaoh within divine purpose. |
-| 2026-03-15 | Deuteronomy 28:30: qere/ketiv notation reversed in `text_hebrew` | Square brackets and parentheses were swapped for yishkavenah/yishgalenah. Fixed to match WLC convention: Ketiv (written) in parentheses `(ישגלנה)`, Qere (read) in square brackets `[יִשְׁכָּבֶ֔נָּה]`. QA Agent prompt updated with new check (#18) for qere/ketiv notation in all future chapters. |
+| 2026-03-15 | Deuteronomy 28:30: qere/ketiv bracket convention incorrect in `text_hebrew` | Original fix on 2026-03-15 reversed bracket/parenthesis assignments from WLC standard. Corrected 2026-03-28 after verification against BibleHub WLC, BHS digital editions, and tanach.us. WLC convention is: Ketiv (written) in square brackets `[ישגלנה]`, Qere (read) in parentheses `(יִשְׁכָּבֶ֔נָּה)`, Ketiv first. QA Agent prompt check #18 also corrected to match. |
 
 ### 10.2 Lessons Learned
 
 **Exodus ch2-10 regeneration (2026-03-04).** Early Exodus chapters revealed that without explicit anti-KJV-copying rules, the generation model defaults to KJV diction when producing renderings. Nearly half the verses in some chapters were verbatim KJV pass-through. The same generation run produced boilerplate translator notes (a single generic sentence reused across dozens of verses) and inconsistent modernization (archaic forms like "thou goest" appearing alongside modern English). The Quality Correction Addendum v1.3 was created to prevent these issues permanently. All nine affected chapters were regenerated from scratch with full verse-specific renderings and notes. The lesson: quality rules must be explicit in the prompt context, not merely implied by the translation philosophy. If a failure mode is possible, it must be explicitly prohibited.
 
-**Deuteronomy 28:30 qere/ketiv reversal (2026-03-15).** During remediation of Deuteronomy 28, the `text_hebrew` field for verse 30 contained a qere/ketiv notation with brackets and parentheses reversed: `[יִשְׁכָּבֶ֔נָּה] (ישגלנה)` instead of the correct `(ישגלנה) [יִשְׁכָּבֶ֔נָּה]`. In WLC convention, the Ketiv (written manuscript text) appears in parentheses and the Qere (traditional reading) appears in square brackets. Reversing these misrepresents which variant is the manuscript text and which is the traditional reading — a scholarly accuracy issue. This was caught by post-commit review and fixed. A new QA check (#18) has been added to the QA Agent prompt to verify qere/ketiv notation in all future generation. The lesson: Hebrew text accuracy checks must go beyond content and include formatting conventions. Any verse with a qere/ketiv variant needs its notation verified against WLC convention.
+**Deuteronomy 28:30 qere/ketiv bracket convention (2026-03-15, corrected 2026-03-28).** During remediation of Deuteronomy 28, the `text_hebrew` field for verse 30 had its qere/ketiv notation fixed — but the bracket/parenthesis assignments were themselves backwards from the actual WLC standard. The original fix (2026-03-15) documented the convention as "Ketiv in parentheses, Qere in brackets," which is the reverse of how BHS/WLC digital editions actually encode it. Verification against BibleHub's WLC display, tanach.us, and the BHS digital text for Deut 28:30 confirmed the correct WLC convention: **Ketiv (written manuscript text) in square brackets `[...]`, Qere (traditional reading) in parentheses `(...)`**, Ketiv first — i.e., `[ישגלנה] (יִשְׁכָּבֶ֔נָּה)`. All SOT references and QA check #18 corrected on 2026-03-28. The lesson: formatting conventions must be verified against the actual source text editions, not assumed. When documenting a convention, cite the specific source (BHS page, WLC digital edition) rather than relying on memory or secondary descriptions.
 
 ### 10.3 Standing Decisions
 
@@ -559,7 +559,7 @@ Chapters in **bold** require close QA attention for theological density.
 | One `translator_notes` entry minimum per verse | Ensures no verse is left without contextual documentation. |
 | `key_terms` only where theologically significant | Not every verse needs key_terms. Over-annotation dilutes the value of entries that appear. |
 | Reading level targets 8th-10th grade | Comparable to ESV. Accessible but not simplified. |
-| Qere/Ketiv notation: Ketiv `(...)` then Qere `[...]` | Follows WLC convention. Ketiv (written manuscript text) in parentheses appears first; Qere (traditional reading) in square brackets appears second. Reversed notation misrepresents which variant is manuscript and which is traditional. |
+| Qere/Ketiv notation: Ketiv `[...]` then Qere `(...)` | Follows WLC/BHS convention (verified against BibleHub WLC, tanach.us, BHS digital editions). Ketiv (written manuscript text) in square brackets appears first; Qere (traditional reading) in parentheses appears second. Example: `[ישגלנה] (יִשְׁכָּבֶ֔נָּה)` in Deut 28:30. |
 
 ---
 
