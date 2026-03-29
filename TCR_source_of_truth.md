@@ -5,7 +5,7 @@
 **Owner:** Aaron Blonquist
 **Created:** 2026-02-27
 **Last updated:** 2026-03-29
-**Version:** 2.5
+**Version:** 2.6
 
 ---
 
@@ -38,7 +38,7 @@
 ## Current State
 
 - **Status:** Pentateuch + Joshua + Judges complete — 232/1,189 chapters (19.5%), 7,126 verses, all passing automated QA.
-- **Quality:** All 103 scaffold chapters remediated via two-agent pipeline. Judges 21/21 chapters passed QA with 64 key_terms entries, 13 expanded_renderings. Song of Deborah (ch 5) rendered as full poetry. 0 QA failures across all books.
+- **Quality:** All 103 scaffold chapters remediated via two-agent pipeline. Judges 21/21 chapters passed QA with 64 key_terms entries, 13 expanded_renderings. Song of Deborah (ch 5) rendered as full poetry. Post-generation QA identified and fixed 26 schema violations across 8 Judges chapters (bare-string key_terms, wrong field names, object-format expanded_rendering). QA validation script enhanced with structural type checking to prevent recurrence.
 - **Website:** thecovenantrendering.com live — 242 pages across 7 books (Pentateuch + Joshua + Judges). Full Bible architecture deployed: 86 books registered (66 standard + 20 Extended Library), section-grouped mega-menu, `/books` Library page, data-driven home/about pages. Multi-source manuscript comparison model (`alternateEditions`) in place for future scholarly stacking feature.
 - **Documentation:** SOT restructured to 4-document architecture (2026-03-28).
 - **Repos:** Data repo and site repo current, both pushed.
@@ -103,7 +103,7 @@ The full translation philosophy is documented in [`prompts/covenant_rendering_pr
 | **Numbers** | 36/36 | 1,288 | Complete | All chapters remediated. Verse offsets handled in ch16-17, 29-30. |
 | **Deuteronomy** | 34/34 | 956 | Complete | All chapters remediated. Verse offsets handled in ch5, 12-13, 22-23, 28-29. |
 | **Joshua** | 24/24 | 658 | Complete | All chapters passed QA. Watch chapters (1, 2, 5, 6, 7, 10, 13-21, 23, 24) received detailed attention. |
-| **Judges** | 21/21 | 618 | Complete | All chapters passed QA. Watch chapters (1, 2, 3, 4-5, 6-8, 9, 11, 13-16, 19, 20-21) received detailed attention. 64 key_terms, 13 expanded_renderings. Song of Deborah rendered as poetry. |
+| **Judges** | 21/21 | 618 | Complete | All chapters passed QA. Watch chapters (1, 2, 3, 4-5, 6-8, 9, 11, 13-16, 19, 20-21) received detailed attention. 64 key_terms, 13 expanded_renderings. Song of Deborah rendered as poetry. Post-QA: 26 schema violations fixed across 8 chapters (ch 9-10: bare-string key_terms; ch 13-16: wrong field names; ch 17, 21: object-format expanded_rendering). |
 | Ruth | 0/4 | 0/85 | Not started | — |
 | 1 Samuel | 0/31 | 0/810 | Not started | — |
 | 2 Samuel | 0/24 | 0/695 | Not started | — |
@@ -249,7 +249,7 @@ Every chapter receives a translator's introduction with four sections: summary, 
 Infrastructure is in place: `Preamble` type in data model, optional `preamble` field on `Chapter` interface, collapsible UI on chapter pages.
 
 ### Tooling (as needed)
-- Automated validation scripts for batch QA
+- Automated validation script (`scripts/qa_validate.py`) — 10 checks including JSON integrity, verse numbering, required fields, KJV pass-through detection, boilerplate detection, archaism detection, meta validation, key_terms schema validation (type checking, field name validation, required field presence), expanded_rendering type validation, and field placement
 - Concordance generation across completed books
 - Cross-reference database
 - Site search (Pagefind or equivalent — warranted with 6 books / 220 pages)
@@ -291,6 +291,7 @@ When using The Covenant Rendering, credit:
 
 | Date | Changes |
 |---|---|
+| 2026-03-29 | **Judges schema remediation & QA hardening:** Post-generation QA identified 26 schema violations across 8 Judges chapters in 3 patterns: bare-string key_terms (ch 9-10), wrong field names `register_translation`/`gloss` (ch 13-16), object-format expanded_rendering (ch 17, 21). All fixed and verified. QA script (`scripts/qa_validate.py`) enhanced with structural type checking: key_terms must be a list of dicts, each entry validated for correct field names, expanded_rendering must be a string. These checks now prevent all three violation patterns at generation time. |
 | 2026-03-29 | **Extended Library direction established:** Multi-tradition stacking strategy with 3 tiers (manuscript traditions, pre-Nicaea canon, interpretive traditions). 7-priority implementation order (DSS Isaiah → 1 Enoch → LXX → JST → Samaritan → Jubilees → Targumim). Expanded `AlternateEdition` data model with tier, date, scope, license, pre-Nicaea flag. JST copyright research flagged as blocking for Priority 4. Pre-Nicaea framing language added to project vision. |
 | 2026-03-29 | **Judges complete:** 21/21 chapters, 618 verses, all passing automated QA. Second historical book. Watch chapters (1, 2, 3, 4-5, 6-8, 9, 11, 13-16, 19, 20-21) received detailed attention. 64 key_terms, 13 expanded_renderings. Song of Deborah rendered as poetry. Deployed to site. |
 | 2026-03-29 | **Full Bible architecture deployed:** Expanded BookInfo data model (86 books registered: 66 standard + 20 Extended Library). Section-grouped mega-menu navigation. New `/books` Library page with progress bar. Home page and about page now data-driven from BOOKS registry. Joshua deployed to site (24 chapters, 220 total pages). Multi-source `alternateEditions` model in place for future scholarly stacking. Site committed and pushed to GitHub. |
@@ -307,4 +308,4 @@ When using The Covenant Rendering, credit:
 
 ---
 
-*Version 2.5 — 2026-03-29*
+*Version 2.6 — 2026-03-29*

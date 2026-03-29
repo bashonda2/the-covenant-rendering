@@ -207,39 +207,57 @@ def validate_chapter(filepath: str) -> dict:
     else:
         results['checks']['meta_fields'] = 'PASS'
 
-    # Check 9: key_terms sub-fields complete
-    kt_required = ['hebrew', 'transliteration', 'rendered_as', 'semantic_range', 'note']
+    # Check 9: key_terms structure and schema
+    kt_required = {'hebrew', 'transliteration', 'rendered_as', 'semantic_range', 'note'}
+    kt_wrong_names = {'register_translation': 'rendered_as', 'gloss': 'semantic_range'}
     kt_issues = []
     for v in verses:
-        for kt in v.get('key_terms', []):
+        vnum = v.get('verse', '?')
+        kts = v.get('key_terms', [])
+        if not isinstance(kts, list):
+            kt_issues.append(f'v{vnum}: key_terms is {type(kts).__name__}, must be list')
+            continue
+        for i, kt in enumerate(kts):
+            if not isinstance(kt, dict):
+                kt_issues.append(f'v{vnum}: key_terms[{i}] is {type(kt).__name__}, must be object')
+                continue
+            for wrong, correct in kt_wrong_names.items():
+                if wrong in kt:
+                    kt_issues.append(f'v{vnum}: key_terms[{i}] uses "{wrong}" instead of "{correct}"')
             for field in kt_required:
                 if field not in kt or not kt[field]:
-                    kt_issues.append(f'v{v.get("verse", "?")}: key_term missing {field}')
+                    kt_issues.append(f'v{vnum}: key_terms[{i}] missing "{field}"')
     if kt_issues:
-        results['checks']['key_terms_complete'] = f'FAIL ({len(kt_issues)} issues)'
-        results['issues'].extend(kt_issues[:10])
+        results['checks']['key_terms_schema'] = f'FAIL ({len(kt_issues)} issues)'
+        results['issues'].extend(kt_issues[:20])
         results['passed'] = False
     else:
-        results['checks']['key_terms_complete'] = 'PASS'
+        results['checks']['key_terms_schema'] = 'PASS'
 
-    # Check 10: expanded_rendering placement
+    # Check 10: expanded_rendering type and placement
     er_issues = []
     for v in verses:
         if 'expanded_rendering' in v:
+            vnum = v.get('verse', '?')
+            er = v['expanded_rendering']
+            if not isinstance(er, str):
+                er_issues.append(f'v{vnum}: expanded_rendering is {type(er).__name__}, must be string')
+            elif not er.strip():
+                er_issues.append(f'v{vnum}: expanded_rendering is empty')
             keys = list(v.keys())
             r_idx = keys.index('rendering') if 'rendering' in keys else -1
             er_idx = keys.index('expanded_rendering')
             tn_idx = keys.index('translator_notes') if 'translator_notes' in keys else len(keys)
             if r_idx >= 0 and er_idx < r_idx:
-                er_issues.append(f'v{v.get("verse", "?")}: expanded_rendering before rendering')
+                er_issues.append(f'v{vnum}: expanded_rendering before rendering')
             if er_idx > tn_idx:
-                er_issues.append(f'v{v.get("verse", "?")}: expanded_rendering after translator_notes')
+                er_issues.append(f'v{vnum}: expanded_rendering after translator_notes')
     if er_issues:
-        results['checks']['er_placement'] = f'FAIL ({len(er_issues)} issues)'
+        results['checks']['er_schema'] = f'FAIL ({len(er_issues)} issues)'
         results['issues'].extend(er_issues)
         results['passed'] = False
     else:
-        results['checks']['er_placement'] = 'PASS'
+        results['checks']['er_schema'] = 'PASS'
 
     # Summary stats
     kt_count = sum(len(v.get('key_terms', [])) for v in verses)
