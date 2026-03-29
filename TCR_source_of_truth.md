@@ -5,7 +5,7 @@
 **Owner:** Aaron Blonquist
 **Created:** 2026-02-27
 **Last updated:** 2026-03-28
-**Version:** 2.0
+**Version:** 2.3
 
 ---
 
@@ -35,10 +35,10 @@
 
 - **Status:** Pentateuch + Joshua complete — 211/1,189 chapters (17.7%), 6,508 verses, all passing automated QA.
 - **Quality:** All 103 scaffold chapters remediated via two-agent pipeline. Joshua 24/24 chapters passed QA (zero KJV pass-through, zero boilerplate, zero archaisms, key_terms schema validated). 0 QA failures across all books.
-- **Website:** thecovenantrendering.com live — 194 pages, all 5 Pentateuch books. Joshua pending site deployment.
+- **Website:** thecovenantrendering.com live — 220 pages across 6 books (Pentateuch + Joshua). Full Bible architecture deployed: 86 books registered (66 standard + 20 Extended Library), section-grouped mega-menu, `/books` Library page, data-driven home/about pages. Multi-source manuscript comparison model (`alternateEditions`) in place for future scholarly stacking feature.
 - **Documentation:** SOT restructured to 4-document architecture (2026-03-28).
-- **Repos:** Data repo current. Site repo pending Joshua pages.
-- **Next:** Deploy Joshua to site. Begin Judges (21 chapters, 618 verses).
+- **Repos:** Data repo and site repo current, both pushed.
+- **Next:** Begin Judges (21 chapters, 618 verses).
 
 ---
 
@@ -172,17 +172,17 @@ The full translation philosophy is documented in [`prompts/covenant_rendering_pr
 - Numbers translated (36 chapters, 1,288 verses) — on site
 - Deuteronomy translated (34 chapters, 956 verses) — on site
 - **Full Pentateuch complete** — 187 chapters, 5,850 verses, all passing automated QA
-- **Joshua complete** — 24 chapters, 658 verses, all passing automated QA (first historical book)
+- **Joshua complete** — 24 chapters, 658 verses, all passing automated QA (first historical book) — on site
 - All 103 scaffold chapters remediated via two-agent pipeline
-- thecovenantrendering.com launched — 194 pages live
+- thecovenantrendering.com launched — 220 pages live (6 books)
+- **Full Bible architecture deployed** — 86 books registered (66 standard + 20 Extended Library), expanded `BookInfo` data model with testament/section/tier/order/canons/sourceText/status/alternateEditions, section-grouped mega-menu navigation, `/books` Library page with progress tracking, data-driven home and about pages
+- **Multi-source manuscript comparison model** — `alternateEditions` field on key books (Genesis, Isaiah, Psalms, Daniel, Esther, Jeremiah) ready for scholarly stacking feature
 - SSL, Nginx, deploy pipeline operational
 - tcr-site GitHub repo created and pushed
 - EVM integration live (verse toggle feature)
-- Site redesigned with dynamic routes and Books dropdown navigation
 - SOT restructured to 4-document architecture (2026-03-28)
 
 ### Near-term
-- Deploy Joshua to thecovenantrendering.com
 - **Judges** (21 chapters, 618 verses) — second historical book
 - Continue historical books (Ruth through Esther)
 - EveryVerseMatters.com integration — TCR as the house translation for EVM, the primary downstream consumer of this rendering
@@ -196,15 +196,20 @@ The full translation philosophy is documented in [`prompts/covenant_rendering_pr
 ### Long-term
 - New Testament (source text shifts from WLC to SBLGNT)
 - Greek Theologically Rich Terms Register (parallel to Hebrew register)
-- Complete Bible
+- Complete standard Bible (66 books)
+- Extended Library: Deuterocanonical/Apocrypha, Orthodox additions, Ethiopian canon, Dead Sea Scrolls
+- Multi-source version tabs on chapter pages (scholarly stacking UI)
+- Canon filter UI on `/books` page (Protestant / Catholic / Orthodox / Ethiopian / All)
+- DSS fragment viewer for partial-chapter rendering
 
 ### Tooling (as needed)
 - Automated validation scripts for batch QA
 - Concordance generation across completed books
 - Cross-reference database
-- Site search (Pagefind or equivalent — now warranted with 5 books / 194 pages)
+- Site search (Pagefind or equivalent — warranted with 6 books / 220 pages)
 - Individual verse permalinks (`/genesis/1/1`) for SEO and sharing
 - PDF/print generation pipeline
+- Search across all texts
 
 ---
 
@@ -240,6 +245,7 @@ When using The Covenant Rendering, credit:
 
 | Date | Changes |
 |---|---|
+| 2026-03-29 | **Full Bible architecture deployed:** Expanded BookInfo data model (86 books registered: 66 standard + 20 Extended Library). Section-grouped mega-menu navigation. New `/books` Library page with progress bar. Home page and about page now data-driven from BOOKS registry. Joshua deployed to site (24 chapters, 220 total pages). Multi-source `alternateEditions` model in place for future scholarly stacking. Site committed and pushed to GitHub. |
 | 2026-03-28 | **Joshua complete:** 24/24 chapters, 658 verses, all passing automated QA. First historical book. Watch chapters (1, 2, 5, 6, 7, 10, 13-21, 23, 24) received detailed attention. key_terms schema validated across all chapters. SOT and README updated. |
 | 2026-03-28 | Joshua kickoff: briefing addendum created (`prompts/joshua-briefing-addendum.md`), `joshua/` directory created, SOT updated. First historical book. |
 | 2026-03-28 | SOT restructured from 1 document (783 lines) to 4-document architecture per SOT Style Guide best practices. Qere/Ketiv bracket convention corrected to match WLC/BHS standard in Deut 28:30, QA prompt, and all SOT references. |
@@ -253,4 +259,4 @@ When using The Covenant Rendering, credit:
 
 ---
 
-*Version 2.2 — 2026-03-28*
+*Version 2.3 — 2026-03-29*
