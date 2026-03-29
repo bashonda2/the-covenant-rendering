@@ -38,12 +38,12 @@
 
 ## Current State
 
-- **Status:** Pentateuch + Historical through 1 Chronicles complete — 367/1,189 chapters (30.9%), 11,193 verses, all passing automated QA.
-- **Quality:** 1 Chronicles 29/29 passed QA. Genealogy KJV-proximity issues fixed (name lists naturally match). ER density appropriate (low in genealogies, higher in narrative/prayer chapters).
-- **Website:** thecovenantrendering.com live — 379 pages across 13 books.
+- **Status:** All Historical Books complete — 403/1,189 chapters (33.9%), 12,015 verses, all passing automated QA. Genesis through 2 Chronicles done.
+- **Quality:** 2 Chronicles 36/36 passed QA. 17 KJV-proximate regnal/formulaic verses rewritten. ER density within target.
+- **Website:** thecovenantrendering.com live — 415 pages across 14 books.
 - **Documentation:** SOT v3.2.
 - **Repos:** Data repo and site repo current, both pushed.
-- **Next:** 2 Chronicles (36 chapters, 822 verses).
+- **Next:** Ezra (10 chapters, 280 verses).
 
 ---
 
@@ -111,7 +111,7 @@ The full translation philosophy is documented in [`prompts/covenant_rendering_pr
 | **1 Kings** | 22/22 | 816 | Complete | All chapters passed QA. Temple construction and dedication (ch 5-8), Solomon's wisdom and fall (ch 3, 10-11), kingdom divided (ch 12), Elijah cycle (ch 17-19), Mount Carmel (ch 18), still small voice (ch 19), Naboth's vineyard (ch 21). 14 KJV-proximate regnal formulas rewritten. Post-audit remediation: regnal death formula standardized to "slept with his fathers" (was "rested with his ancestors" in ch 11, "lay down with his ancestors" in ch 2), succession formula standardized to "reigned in his place" (was "became king" in ch 11, 22), qodesh ha-qodashim standardized to "Holy of Holies" (was "Most Holy Place" in ch 7, 8). |
 | **2 Kings** | 25/25 | 719 | Complete | All chapters passed QA. Elijah ascension (ch 2), Naaman (ch 5), Jehu's revolution (ch 9-10), Fall of Samaria with theological explanation (ch 17), Hezekiah-Sennacherib crisis (ch 18-19), Josiah's reforms and Passover (ch 22-23), Fall of Jerusalem (ch 25). End of Deuteronomistic History. Regnal formulas consistent. |
 | **1 Chronicles** | 29/29 | 942 | Complete | All chapters passed QA. Genealogies (ch 1-9) with Prayer of Jabez (4:10). Chronicler's David narrative (ch 10-22). Davidic covenant (ch 17, ha-satan in ch 21). Temple personnel (ch 23-27). David's prayer and Solomon's anointing (ch 28-29). |
-| 2 Chronicles | 0/36 | 0/822 | Not started | — |
+| **2 Chronicles** | 36/36 | 822 | Complete | All chapters passed QA. Temple dedication and 7:14 (ch 5-7), kingdom from Judah's perspective (ch 10-28), Hezekiah's revival (ch 29-32), Manasseh's repentance unique to Chronicles (ch 33), Josiah's Passover (ch 35), Cyrus decree — last words of the Hebrew Bible (ch 36). |
 | Ezra | 0/10 | 0/280 | Not started | — |
 | Nehemiah | 0/13 | 0/406 | Not started | — |
 | Esther | 0/10 | 0/167 | Not started | — |
@@ -293,6 +293,7 @@ When using The Covenant Rendering, credit:
 
 | Date | Changes |
 |---|---|
+| 2026-03-29 | **2 Chronicles complete:** 36/36 chapters, 822 verses, all passing automated QA. 14th complete book. Temple dedication with 7:14 (ch 7), Manasseh's repentance unique to Chronicles (ch 33), Cyrus decree closing the Hebrew Bible (ch 36). 17 KJV-proximate verses rewritten. Deployed to site (415 pages). All Historical Books now complete. |
 | 2026-03-29 | **1 Chronicles complete:** 29/29 chapters, 942 verses, all passing automated QA. 13th complete book. Genealogies (ch 1-9), Chronicler's David narrative (ch 10-22), Temple personnel (ch 23-27), David's final prayer (ch 29). Deployed to site (379 pages). |
 | 2026-03-29 | **2 Kings audit & remediation:** Post-generation audit found same formula inconsistencies as 1 Kings from parallel agents. Regnal death formula: 6 instances of "rested with his ancestors" (ch 8, 10, 16, 20, 21, 24) standardized to "slept with his fathers." Succession formula: 21 instances of "became king in his place" standardized to "reigned in his place" across 12 chapters. 1 instance of "succeeded him as king" (ch 1) also standardized. `model` field removed from meta in all 25 chapters (and retroactively from all 313 chapter files project-wide per Option B AI-attribution removal). 2 translator_notes/preamble formula references updated. All 25 chapters pass automated QA. ER density healthy at 5.8%, all term-focused. |
 | 2026-03-29 | **AI attribution removed from reader-facing materials (Option B).** Removed "AI-generated" and "Claude (Anthropic)" references from README, SOT project description, SOT info table, generation prompts, and preamble specification tone guidance. Removed `model` field from meta in all 313 chapter JSON files project-wide. Internal process docs (QA agent prompt, quality contract, operational playbook) retain methodology references. The rendering speaks for itself; tooling provenance stays in the repo for transparency. |
