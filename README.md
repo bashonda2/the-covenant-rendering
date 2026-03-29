@@ -90,6 +90,7 @@ judges/
 | Ruth | 4/4 | 85 | Complete |
 | 1 Samuel | 31/31 | 810 | Complete |
 | 2 Samuel | 24/24 | 695 | Complete |
+| 1 Kings | 22/22 | 816 | Complete |
 
 - **Source text:** Westminster Leningrad Codex (WLC)
 - **Reading level:** 9th-10th grade (comparable to ESV)
