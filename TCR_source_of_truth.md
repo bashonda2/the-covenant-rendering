@@ -17,6 +17,7 @@
 | Data Reference | `TCR_data_reference.md` | What data exists? What are the schemas and terms? |
 | Quality Contract | `TCR_quality_contract.md` | What must be true for output to be correct? |
 | Operational Playbook | `TCR_operational_playbook.md` | How do we generate, deploy, and operate? |
+| Full Roadmap | `TCR_roadmap.md` | What's the plan from now to project completion? |
 
 ### Governing Prompt Documents
 
