@@ -45,6 +45,11 @@ joshua/
 ├── chapter-01.json
 ├── ...
 └── chapter-24.json
+
+judges/
+├── chapter-01.json
+├── ...
+└── chapter-21.json
 ```
 
 ### Example: Genesis 1:1
@@ -81,6 +86,7 @@ joshua/
 | Numbers | 36/36 | 1,288 | Complete |
 | Deuteronomy | 34/34 | 956 | Complete |
 | Joshua | 24/24 | 658 | Complete |
+| Judges | 21/21 | 618 | Complete |
 
 - **Source text:** Westminster Leningrad Codex (WLC)
 - **Reading level:** 9th-10th grade (comparable to ESV)

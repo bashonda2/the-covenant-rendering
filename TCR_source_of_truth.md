@@ -4,8 +4,8 @@
 
 **Owner:** Aaron Blonquist
 **Created:** 2026-02-27
-**Last updated:** 2026-03-28
-**Version:** 2.3
+**Last updated:** 2026-03-29
+**Version:** 2.4
 
 ---
 
@@ -28,17 +28,18 @@
 | QA Agent Prompt | [`prompts/qa_agent_prompt.md`](prompts/qa_agent_prompt.md) | QA validation rules, verdict format, two-agent pipeline enforcement |
 | Leviticus Briefing | [`prompts/leviticus-briefing-addendum.md`](prompts/leviticus-briefing-addendum.md) | Leviticus-specific vocabulary, offerings, purity, watch chapters, tone guidance |
 | Joshua Briefing | [`prompts/joshua-briefing-addendum.md`](prompts/joshua-briefing-addendum.md) | Joshua-specific vocabulary, conquest/cherem, land allotment, watch chapters, tone guidance |
+| Judges Briefing | [`prompts/judges-briefing-addendum.md`](prompts/judges-briefing-addendum.md) | Judges-specific vocabulary, shofet/moshia, cyclical pattern, Song of Deborah, Samson, epilogue, tone guidance |
 
 ---
 
 ## Current State
 
-- **Status:** Pentateuch + Joshua complete — 211/1,189 chapters (17.7%), 6,508 verses, all passing automated QA.
-- **Quality:** All 103 scaffold chapters remediated via two-agent pipeline. Joshua 24/24 chapters passed QA (zero KJV pass-through, zero boilerplate, zero archaisms, key_terms schema validated). 0 QA failures across all books.
-- **Website:** thecovenantrendering.com live — 220 pages across 6 books (Pentateuch + Joshua). Full Bible architecture deployed: 86 books registered (66 standard + 20 Extended Library), section-grouped mega-menu, `/books` Library page, data-driven home/about pages. Multi-source manuscript comparison model (`alternateEditions`) in place for future scholarly stacking feature.
+- **Status:** Pentateuch + Joshua + Judges complete — 232/1,189 chapters (19.5%), 7,126 verses, all passing automated QA.
+- **Quality:** All 103 scaffold chapters remediated via two-agent pipeline. Judges 21/21 chapters passed QA with 64 key_terms entries, 13 expanded_renderings. Song of Deborah (ch 5) rendered as full poetry. 0 QA failures across all books.
+- **Website:** thecovenantrendering.com live — 242 pages across 7 books (Pentateuch + Joshua + Judges). Full Bible architecture deployed: 86 books registered (66 standard + 20 Extended Library), section-grouped mega-menu, `/books` Library page, data-driven home/about pages. Multi-source manuscript comparison model (`alternateEditions`) in place for future scholarly stacking feature.
 - **Documentation:** SOT restructured to 4-document architecture (2026-03-28).
 - **Repos:** Data repo and site repo current, both pushed.
-- **Next:** Begin Judges (21 chapters, 618 verses).
+- **Next:** Ruth (4 chapters, 85 verses) — quick win, go'el theology.
 
 ---
 
@@ -97,7 +98,7 @@ The full translation philosophy is documented in [`prompts/covenant_rendering_pr
 | **Numbers** | 36/36 | 1,288 | Complete | All chapters remediated. Verse offsets handled in ch16-17, 29-30. |
 | **Deuteronomy** | 34/34 | 956 | Complete | All chapters remediated. Verse offsets handled in ch5, 12-13, 22-23, 28-29. |
 | **Joshua** | 24/24 | 658 | Complete | All chapters passed QA. Watch chapters (1, 2, 5, 6, 7, 10, 13-21, 23, 24) received detailed attention. |
-| Judges | 0/21 | 0/618 | Not started | — |
+| **Judges** | 21/21 | 618 | Complete | All chapters passed QA. Watch chapters (1, 2, 3, 4-5, 6-8, 9, 11, 13-16, 19, 20-21) received detailed attention. 64 key_terms, 13 expanded_renderings. Song of Deborah rendered as poetry. |
 | Ruth | 0/4 | 0/85 | Not started | — |
 | 1 Samuel | 0/31 | 0/810 | Not started | — |
 | 2 Samuel | 0/24 | 0/695 | Not started | — |
@@ -158,7 +159,7 @@ The full translation philosophy is documented in [`prompts/covenant_rendering_pr
 | Jude | 0/1 | 0/25 | Not started | — |
 | Revelation | 0/22 | 0/404 | Not started | — |
 
-**Total Bible:** 1,189 chapters. 31,102 verses. 211/1,189 chapters complete (17.7%). Pentateuch + Joshua complete.
+**Total Bible:** 1,189 chapters. 31,102 verses. 232/1,189 chapters complete (19.5%). Pentateuch + Joshua + Judges complete.
 
 ---
 
