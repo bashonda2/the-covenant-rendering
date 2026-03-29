@@ -94,6 +94,9 @@ judges/
 | 2 Kings | 25/25 | 719 | Complete |
 | 1 Chronicles | 29/29 | 942 | Complete |
 | 2 Chronicles | 36/36 | 822 | Complete |
+| Ezra | 10/10 | 280 | Complete |
+| Nehemiah | 13/13 | 406 | Complete |
+| Esther | 10/10 | 167 | Complete |
 
 - **Source text:** Westminster Leningrad Codex (WLC)
 - **Reading level:** 9th-10th grade (comparable to ESV)

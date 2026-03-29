@@ -38,12 +38,12 @@
 
 ## Current State
 
-- **Status:** All Historical Books complete — 403/1,189 chapters (33.9%), 12,015 verses, all passing automated QA. Genesis through 2 Chronicles done.
-- **Quality:** 2 Chronicles 36/36 passed QA. 17 KJV-proximate regnal/formulaic verses rewritten. ER density within target.
-- **Website:** thecovenantrendering.com live — 415 pages across 14 books.
+- **Status:** All Historical Books complete (Genesis–Esther) — 436/1,189 chapters (36.7%), 12,868 verses, all passing automated QA.
+- **Quality:** Ezra/Nehemiah/Esther all passed QA. Aramaic sections in Ezra properly noted. Esther rendered without injecting divine names.
+- **Website:** thecovenantrendering.com live — 448 pages across 17 books.
 - **Documentation:** SOT v3.2.
 - **Repos:** Data repo and site repo current, both pushed.
-- **Next:** Ezra (10 chapters, 280 verses).
+- **Next:** Job (42 chapters, 1,070 verses) — first Wisdom book.
 
 ---
 
@@ -112,9 +112,9 @@ The full translation philosophy is documented in [`prompts/covenant_rendering_pr
 | **2 Kings** | 25/25 | 719 | Complete | All chapters passed QA. Elijah ascension (ch 2), Naaman (ch 5), Jehu's revolution (ch 9-10), Fall of Samaria with theological explanation (ch 17), Hezekiah-Sennacherib crisis (ch 18-19), Josiah's reforms and Passover (ch 22-23), Fall of Jerusalem (ch 25). End of Deuteronomistic History. Regnal formulas consistent. |
 | **1 Chronicles** | 29/29 | 942 | Complete | All chapters passed QA. Genealogies (ch 1-9) with Prayer of Jabez (4:10). Chronicler's David narrative (ch 10-22). Davidic covenant (ch 17, ha-satan in ch 21). Temple personnel (ch 23-27). David's prayer and Solomon's anointing (ch 28-29). |
 | **2 Chronicles** | 36/36 | 822 | Complete | All chapters passed QA. Temple dedication and 7:14 (ch 5-7), kingdom from Judah's perspective (ch 10-28), Hezekiah's revival (ch 29-32), Manasseh's repentance unique to Chronicles (ch 33), Josiah's Passover (ch 35), Cyrus decree — last words of the Hebrew Bible (ch 36). |
-| Ezra | 0/10 | 0/280 | Not started | — |
-| Nehemiah | 0/13 | 0/406 | Not started | — |
-| Esther | 0/10 | 0/167 | Not started | — |
+| **Ezra** | 10/10 | 280 | Complete | All chapters passed QA. Aramaic sections (4:8-6:18, 7:12-26) preserved with language-shift notes. Return from exile, Temple rebuilt, intermarriage crisis. |
+| **Nehemiah** | 13/13 | 406 | Complete | All chapters passed QA. Wall rebuilt (ch 3-6), Torah reading (ch 8), Levites' great prayer (ch 9), covenant renewal (ch 10), Nehemiah's reforms (ch 13). |
+| **Esther** | 10/10 | 167 | Complete | All chapters passed QA. No divine name injected. Providence unnamed throughout. "For such a time as this" (4:14), Purim established (ch 9). |
 | Job | 0/42 | 0/1,070 | Not started | — |
 | Psalms | 0/150 | 0/2,461 | Not started | — |
 | Proverbs | 0/31 | 0/915 | Not started | — |
@@ -293,6 +293,7 @@ When using The Covenant Rendering, credit:
 
 | Date | Changes |
 |---|---|
+| 2026-03-29 | **Ezra, Nehemiah, Esther complete:** 33 chapters, 853 verses, all passing automated QA. 15th-17th complete books. All Historical Books now done (Genesis–Esther). Ezra: Aramaic sections preserved. Nehemiah: Levites' great prayer (ch 9). Esther: no divine name injected. Deployed to site (448 pages). |
 | 2026-03-29 | **2 Chronicles complete:** 36/36 chapters, 822 verses, all passing automated QA. 14th complete book. Temple dedication with 7:14 (ch 7), Manasseh's repentance unique to Chronicles (ch 33), Cyrus decree closing the Hebrew Bible (ch 36). 17 KJV-proximate verses rewritten. Deployed to site (415 pages). All Historical Books now complete. |
 | 2026-03-29 | **1 Chronicles complete:** 29/29 chapters, 942 verses, all passing automated QA. 13th complete book. Genealogies (ch 1-9), Chronicler's David narrative (ch 10-22), Temple personnel (ch 23-27), David's final prayer (ch 29). Deployed to site (379 pages). |
 | 2026-03-29 | **2 Kings audit & remediation:** Post-generation audit found same formula inconsistencies as 1 Kings from parallel agents. Regnal death formula: 6 instances of "rested with his ancestors" (ch 8, 10, 16, 20, 21, 24) standardized to "slept with his fathers." Succession formula: 21 instances of "became king in his place" standardized to "reigned in his place" across 12 chapters. 1 instance of "succeeded him as king" (ch 1) also standardized. `model` field removed from meta in all 25 chapters (and retroactively from all 313 chapter files project-wide per Option B AI-attribution removal). 2 translator_notes/preamble formula references updated. All 25 chapters pass automated QA. ER density healthy at 5.8%, all term-focused. |
