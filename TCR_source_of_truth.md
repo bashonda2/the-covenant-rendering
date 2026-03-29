@@ -33,12 +33,12 @@
 
 ## Current State
 
-- **Status:** Pentateuch complete — 187/1,189 chapters (15.7%), 5,850 verses, all passing automated QA. Joshua in progress.
-- **Quality:** All 103 scaffold chapters remediated via two-agent pipeline. 0 QA failures.
-- **Website:** thecovenantrendering.com live — 194 pages, all 5 Pentateuch books.
+- **Status:** Pentateuch + Joshua complete — 211/1,189 chapters (17.7%), 6,508 verses, all passing automated QA.
+- **Quality:** All 103 scaffold chapters remediated via two-agent pipeline. Joshua 24/24 chapters passed QA (zero KJV pass-through, zero boilerplate, zero archaisms, key_terms schema validated). 0 QA failures across all books.
+- **Website:** thecovenantrendering.com live — 194 pages, all 5 Pentateuch books. Joshua pending site deployment.
 - **Documentation:** SOT restructured to 4-document architecture (2026-03-28).
-- **Repos:** Data repo and site repo both current on `origin/main`.
-- **Next:** Generate Joshua chapters (24 chapters, 658 verses).
+- **Repos:** Data repo current. Site repo pending Joshua pages.
+- **Next:** Deploy Joshua to site. Begin Judges (21 chapters, 618 verses).
 
 ---
 
@@ -96,7 +96,7 @@ The full translation philosophy is documented in [`prompts/covenant_rendering_pr
 | **Leviticus** | 27/27 | 859 | Complete | Watch chapters (16, 17, 19) quality-passed. All chapters remediated. |
 | **Numbers** | 36/36 | 1,288 | Complete | All chapters remediated. Verse offsets handled in ch16-17, 29-30. |
 | **Deuteronomy** | 34/34 | 956 | Complete | All chapters remediated. Verse offsets handled in ch5, 12-13, 22-23, 28-29. |
-| Joshua | 0/24 | 0/658 | In progress | Briefing addendum created. Generation pipeline ready. |
+| **Joshua** | 24/24 | 658 | Complete | All chapters passed QA. Watch chapters (1, 2, 5, 6, 7, 10, 13-21, 23, 24) received detailed attention. |
 | Judges | 0/21 | 0/618 | Not started | — |
 | Ruth | 0/4 | 0/85 | Not started | — |
 | 1 Samuel | 0/31 | 0/810 | Not started | — |
@@ -158,7 +158,7 @@ The full translation philosophy is documented in [`prompts/covenant_rendering_pr
 | Jude | 0/1 | 0/25 | Not started | — |
 | Revelation | 0/22 | 0/404 | Not started | — |
 
-**Total Bible:** 1,189 chapters. 31,102 verses. 187/1,189 chapters complete (15.7%). Pentateuch complete.
+**Total Bible:** 1,189 chapters. 31,102 verses. 211/1,189 chapters complete (17.7%). Pentateuch + Joshua complete.
 
 ---
 
@@ -172,6 +172,7 @@ The full translation philosophy is documented in [`prompts/covenant_rendering_pr
 - Numbers translated (36 chapters, 1,288 verses) — on site
 - Deuteronomy translated (34 chapters, 956 verses) — on site
 - **Full Pentateuch complete** — 187 chapters, 5,850 verses, all passing automated QA
+- **Joshua complete** — 24 chapters, 658 verses, all passing automated QA (first historical book)
 - All 103 scaffold chapters remediated via two-agent pipeline
 - thecovenantrendering.com launched — 194 pages live
 - SSL, Nginx, deploy pipeline operational
@@ -181,12 +182,13 @@ The full translation philosophy is documented in [`prompts/covenant_rendering_pr
 - SOT restructured to 4-document architecture (2026-03-28)
 
 ### Near-term
-- **Joshua generation in progress** (24 chapters, 658 verses) — first historical book
-- Continue historical books (Judges through Esther)
+- Deploy Joshua to thecovenantrendering.com
+- **Judges** (21 chapters, 618 verses) — second historical book
+- Continue historical books (Ruth through Esther)
 - EveryVerseMatters.com integration — TCR as the house translation for EVM, the primary downstream consumer of this rendering
 
 ### Medium-term
-- Historical books (Joshua through Esther)
+- Historical books (Judges through Esther)
 - Psalms (major poetry — parallelism handling is critical)
 - Wisdom literature (Job, Proverbs, Ecclesiastes, Song of Solomon)
 - Prophets (chesed, teshuvah, shalom, kavod territory)
@@ -238,6 +240,7 @@ When using The Covenant Rendering, credit:
 
 | Date | Changes |
 |---|---|
+| 2026-03-28 | **Joshua complete:** 24/24 chapters, 658 verses, all passing automated QA. First historical book. Watch chapters (1, 2, 5, 6, 7, 10, 13-21, 23, 24) received detailed attention. key_terms schema validated across all chapters. SOT and README updated. |
 | 2026-03-28 | Joshua kickoff: briefing addendum created (`prompts/joshua-briefing-addendum.md`), `joshua/` directory created, SOT updated. First historical book. |
 | 2026-03-28 | SOT restructured from 1 document (783 lines) to 4-document architecture per SOT Style Guide best practices. Qere/Ketiv bracket convention corrected to match WLC/BHS standard in Deut 28:30, QA prompt, and all SOT references. |
 | 2026-03-15 | All 103 scaffold chapters remediated. Full Pentateuch passes automated QA: 187/187 chapters. Website updated with dynamic routes and Books dropdown nav. |
@@ -250,4 +253,4 @@ When using The Covenant Rendering, credit:
 
 ---
 
-*Version 2.1 — 2026-03-28*
+*Version 2.2 — 2026-03-28*
