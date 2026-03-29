@@ -30,6 +30,7 @@
 | Joshua Briefing | [`prompts/joshua-briefing-addendum.md`](prompts/joshua-briefing-addendum.md) | Joshua-specific vocabulary, conquest/cherem, land allotment, watch chapters, tone guidance |
 | Judges Briefing | [`prompts/judges-briefing-addendum.md`](prompts/judges-briefing-addendum.md) | Judges-specific vocabulary, shofet/moshia, cyclical pattern, Song of Deborah, Samson, epilogue, tone guidance |
 | Extended Library Direction | [`prompts/extended-library-direction.md`](prompts/extended-library-direction.md) | Multi-tradition stacking strategy, tier structure (manuscript/pre-Nicaea/interpretive), priority order, data model expansion, JST copyright research |
+| Chapter Preamble Spec | [`prompts/chapter-preamble-specification.md`](prompts/chapter-preamble-specification.md) | Preamble format (summary, remarkable, friction, connections), tone, placement, generation instructions |
 
 ---
 
@@ -232,6 +233,17 @@ Full strategy: [`prompts/extended-library-direction.md`](prompts/extended-librar
 - Multi-source version tabs on chapter pages (scholarly stacking UI)
 - Canon filter UI on `/books` page (Protestant / Catholic / Orthodox / Ethiopian / All)
 - DSS fragment viewer for partial-chapter rendering
+
+### Chapter Preambles (after stacking is complete)
+
+Full specification: [`prompts/chapter-preamble-specification.md`](prompts/chapter-preamble-specification.md)
+
+Every chapter will receive a translator's introduction with four sections: summary, what makes it remarkable, translation friction (where the Hebrew resisted English), and connections to other Scripture. Preambles are deferred until after the base Bible and stacking are substantially complete so that:
+- Cross-references can link to books that actually exist in the rendering
+- Translation friction sections can reference actual variant readings from stacked traditions
+- The full terminology baseline enables precise, verified connections across the canon
+
+Infrastructure is in place: `Preamble` type in data model, optional `preamble` field on `Chapter` interface, collapsible UI on chapter pages. Generation begins after Phase 4 (manuscript stacking).
 
 ### Tooling (as needed)
 - Automated validation scripts for batch QA
