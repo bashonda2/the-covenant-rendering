@@ -88,6 +88,7 @@ judges/
 | Joshua | 24/24 | 658 | Complete |
 | Judges | 21/21 | 618 | Complete |
 | Ruth | 4/4 | 85 | Complete |
+| 1 Samuel | 31/31 | 810 | Complete |
 
 - **Source text:** Westminster Leningrad Codex (WLC)
 - **Reading level:** 9th-10th grade (comparable to ESV)
