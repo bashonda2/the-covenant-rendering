@@ -5,7 +5,7 @@
 **Owner:** Aaron Blonquist
 **Created:** 2026-02-27
 **Last updated:** 2026-03-29
-**Version:** 2.4
+**Version:** 2.5
 
 ---
 
@@ -29,6 +29,7 @@
 | Leviticus Briefing | [`prompts/leviticus-briefing-addendum.md`](prompts/leviticus-briefing-addendum.md) | Leviticus-specific vocabulary, offerings, purity, watch chapters, tone guidance |
 | Joshua Briefing | [`prompts/joshua-briefing-addendum.md`](prompts/joshua-briefing-addendum.md) | Joshua-specific vocabulary, conquest/cherem, land allotment, watch chapters, tone guidance |
 | Judges Briefing | [`prompts/judges-briefing-addendum.md`](prompts/judges-briefing-addendum.md) | Judges-specific vocabulary, shofet/moshia, cyclical pattern, Song of Deborah, Samson, epilogue, tone guidance |
+| Extended Library Direction | [`prompts/extended-library-direction.md`](prompts/extended-library-direction.md) | Multi-tradition stacking strategy, tier structure (manuscript/pre-Nicaea/interpretive), priority order, data model expansion, JST copyright research |
 
 ---
 
@@ -46,6 +47,8 @@
 ## 1. Vision and Core Commitments
 
 The Covenant Rendering is a complete, modern English rendering of the Bible — Old Testament and New Testament — translated directly from the original Hebrew and Greek source texts. It is the first AI-generated Bible rendering with fully documented translation decisions at every verse, released as open-source structured data.
+
+Beyond the standard Bible, TCR will surface how communities across 2,300 years have read the same passages — from the Dead Sea caves to the Restoration — side by side, for free, with documented translation decisions at every verse. The organizing question for every tradition included is: **"How does this tradition read this passage?"** This is not about declaring which text is "right." It is about trusting the reader with the full conversation that the biblical text has generated across centuries, languages, and faith communities.
 
 ### Three audiences, served equally
 
@@ -174,22 +177,24 @@ The full translation philosophy is documented in [`prompts/covenant_rendering_pr
 - Deuteronomy translated (34 chapters, 956 verses) — on site
 - **Full Pentateuch complete** — 187 chapters, 5,850 verses, all passing automated QA
 - **Joshua complete** — 24 chapters, 658 verses, all passing automated QA (first historical book) — on site
+- **Judges complete** — 21 chapters, 618 verses, all passing automated QA (second historical book) — on site
 - All 103 scaffold chapters remediated via two-agent pipeline
-- thecovenantrendering.com launched — 220 pages live (6 books)
+- thecovenantrendering.com launched — 242 pages live (7 books)
 - **Full Bible architecture deployed** — 86 books registered (66 standard + 20 Extended Library), expanded `BookInfo` data model with testament/section/tier/order/canons/sourceText/status/alternateEditions, section-grouped mega-menu navigation, `/books` Library page with progress tracking, data-driven home and about pages
 - **Multi-source manuscript comparison model** — `alternateEditions` field on key books (Genesis, Isaiah, Psalms, Daniel, Esther, Jeremiah) ready for scholarly stacking feature
+- **Extended Library direction established** — Multi-tradition stacking strategy with 3 tiers (manuscript traditions, pre-Nicaea canon, interpretive traditions), 7-priority implementation order, expanded `AlternateEdition` data model
 - SSL, Nginx, deploy pipeline operational
 - tcr-site GitHub repo created and pushed
 - EVM integration live (verse toggle feature)
 - SOT restructured to 4-document architecture (2026-03-28)
 
 ### Near-term
-- **Judges** (21 chapters, 618 verses) — second historical book
-- Continue historical books (Ruth through Esther)
+- **Ruth** (4 chapters, 85 verses) — quick win, go'el (kinsman-redeemer) theology
+- Continue historical books (1-2 Samuel through Esther)
 - EveryVerseMatters.com integration — TCR as the house translation for EVM, the primary downstream consumer of this rendering
 
 ### Medium-term
-- Historical books (Judges through Esther)
+- Historical books (1-2 Samuel through Esther)
 - Psalms (major poetry — parallelism handling is critical)
 - Wisdom literature (Job, Proverbs, Ecclesiastes, Song of Solomon)
 - Prophets (chesed, teshuvah, shalom, kavod territory)
@@ -198,7 +203,32 @@ The full translation philosophy is documented in [`prompts/covenant_rendering_pr
 - New Testament (source text shifts from WLC to SBLGNT)
 - Greek Theologically Rich Terms Register (parallel to Hebrew register)
 - Complete standard Bible (66 books)
-- Extended Library: Deuterocanonical/Apocrypha, Orthodox additions, Ethiopian canon, Dead Sea Scrolls
+
+### Extended Library & Multi-Tradition Stacking (after base Bible substantially complete)
+
+Full strategy: [`prompts/extended-library-direction.md`](prompts/extended-library-direction.md)
+
+**Tradition tiers:**
+
+| Tier | UI Label | Traditions | Pre-Nicaea? |
+|---|---|---|---|
+| Primary | "From the Hebrew" | TCR (WLC) — always present, always default | N/A |
+| Manuscript Traditions | "Other manuscript traditions" | Dead Sea Scrolls, Septuagint (LXX), Samaritan Pentateuch | Yes (all pre-325 CE) |
+| Pre-Nicaea Canon | "Books read before the councils" | 1 Enoch, Jubilees | Yes |
+| Interpretive Traditions | "How traditions read this passage" | Targumim, Joseph Smith Translation (JST) | Partial |
+
+**Implementation priority:**
+
+| Priority | Tradition | Why First | Blocking? |
+|---|---|---|---|
+| 1 | Dead Sea Scrolls (Isaiah) | Highest academic impact. 1QIsaiah-a covers all 66 chapters. | — |
+| 2 | 1 Enoch | Quoted in NT. Pre-Nicaea. No one else offers this comparatively. | — |
+| 3 | Septuagint | The early church's Bible. Essential for NT cross-references. | — |
+| 4 | JST | Core audience value. Fits in interpretive tier. | **JST copyright research required.** Verify Intellectual Reserve status on Pearl of Great Price text and JST footnotes/appendix before implementation. Do NOT use Community of Christ "Inspired Version." |
+| 5 | Samaritan Pentateuch | Oldest independent Pentateuch witness. | — |
+| 6 | Jubilees | Completes Pre-Nicaea pair with 1 Enoch. DSS attestation. | — |
+| 7 | Targumim | Rounds out interpretive tier. Aramaic reading tradition. | — |
+
 - Multi-source version tabs on chapter pages (scholarly stacking UI)
 - Canon filter UI on `/books` page (Protestant / Catholic / Orthodox / Ethiopian / All)
 - DSS fragment viewer for partial-chapter rendering
@@ -246,6 +276,8 @@ When using The Covenant Rendering, credit:
 
 | Date | Changes |
 |---|---|
+| 2026-03-29 | **Extended Library direction established:** Multi-tradition stacking strategy with 3 tiers (manuscript traditions, pre-Nicaea canon, interpretive traditions). 7-priority implementation order (DSS Isaiah → 1 Enoch → LXX → JST → Samaritan → Jubilees → Targumim). Expanded `AlternateEdition` data model with tier, date, scope, license, pre-Nicaea flag. JST copyright research flagged as blocking for Priority 4. Pre-Nicaea framing language added to project vision. |
+| 2026-03-29 | **Judges complete:** 21/21 chapters, 618 verses, all passing automated QA. Second historical book. Watch chapters (1, 2, 3, 4-5, 6-8, 9, 11, 13-16, 19, 20-21) received detailed attention. 64 key_terms, 13 expanded_renderings. Song of Deborah rendered as poetry. Deployed to site. |
 | 2026-03-29 | **Full Bible architecture deployed:** Expanded BookInfo data model (86 books registered: 66 standard + 20 Extended Library). Section-grouped mega-menu navigation. New `/books` Library page with progress bar. Home page and about page now data-driven from BOOKS registry. Joshua deployed to site (24 chapters, 220 total pages). Multi-source `alternateEditions` model in place for future scholarly stacking. Site committed and pushed to GitHub. |
 | 2026-03-28 | **Joshua complete:** 24/24 chapters, 658 verses, all passing automated QA. First historical book. Watch chapters (1, 2, 5, 6, 7, 10, 13-21, 23, 24) received detailed attention. key_terms schema validated across all chapters. SOT and README updated. |
 | 2026-03-28 | Joshua kickoff: briefing addendum created (`prompts/joshua-briefing-addendum.md`), `joshua/` directory created, SOT updated. First historical book. |
@@ -260,4 +292,4 @@ When using The Covenant Rendering, credit:
 
 ---
 
-*Version 2.3 — 2026-03-29*
+*Version 2.5 — 2026-03-29*
