@@ -5,7 +5,7 @@
 **Owner:** Aaron Blonquist
 **Created:** 2026-02-27
 **Last updated:** 2026-03-29
-**Version:** 3.1
+**Version:** 3.2
 
 ---
 
@@ -38,12 +38,12 @@
 
 ## Current State
 
-- **Status:** Pentateuch + Historical through 2 Kings complete — 338/1,189 chapters (28.4%), 10,251 verses, all passing automated QA. The entire Deuteronomistic History (Joshua–2 Kings) is now complete.
-- **Quality:** 2 Kings 25/25 passed QA. KJV-proximate regnal formulas rewritten. ER density within target. Multi-agent consistency rules (v2) applied.
-- **Website:** thecovenantrendering.com live — 350 pages across 12 books (Pentateuch + Historical through 2 Kings).
-- **Documentation:** SOT v3.0.
+- **Status:** Pentateuch + Historical through 1 Chronicles complete — 367/1,189 chapters (30.9%), 11,193 verses, all passing automated QA.
+- **Quality:** 1 Chronicles 29/29 passed QA. Genealogy KJV-proximity issues fixed (name lists naturally match). ER density appropriate (low in genealogies, higher in narrative/prayer chapters).
+- **Website:** thecovenantrendering.com live — 379 pages across 13 books.
+- **Documentation:** SOT v3.2.
 - **Repos:** Data repo and site repo current, both pushed.
-- **Next:** 1 Chronicles (29 chapters, 942 verses).
+- **Next:** 2 Chronicles (36 chapters, 822 verses).
 
 ---
 
@@ -110,7 +110,7 @@ The full translation philosophy is documented in [`prompts/covenant_rendering_pr
 | **2 Samuel** | 24/24 | 695 | Complete | All chapters passed QA after remediation. Davidic covenant (ch 7), David-Bathsheba (ch 11-12), Absalom rebellion (ch 13-19), David's psalm (ch 22, poetry), last words (ch 23, poetry). 227 ERs pruned (363→136, 17% density). chesed standardized across 5 chapters. Song of the Bow (ch 1) rendered as poetry. |
 | **1 Kings** | 22/22 | 816 | Complete | All chapters passed QA. Temple construction and dedication (ch 5-8), Solomon's wisdom and fall (ch 3, 10-11), kingdom divided (ch 12), Elijah cycle (ch 17-19), Mount Carmel (ch 18), still small voice (ch 19), Naboth's vineyard (ch 21). 14 KJV-proximate regnal formulas rewritten. Post-audit remediation: regnal death formula standardized to "slept with his fathers" (was "rested with his ancestors" in ch 11, "lay down with his ancestors" in ch 2), succession formula standardized to "reigned in his place" (was "became king" in ch 11, 22), qodesh ha-qodashim standardized to "Holy of Holies" (was "Most Holy Place" in ch 7, 8). |
 | **2 Kings** | 25/25 | 719 | Complete | All chapters passed QA. Elijah ascension (ch 2), Naaman (ch 5), Jehu's revolution (ch 9-10), Fall of Samaria with theological explanation (ch 17), Hezekiah-Sennacherib crisis (ch 18-19), Josiah's reforms and Passover (ch 22-23), Fall of Jerusalem (ch 25). End of Deuteronomistic History. Regnal formulas consistent. |
-| 1 Chronicles | 0/29 | 0/942 | Not started | — |
+| **1 Chronicles** | 29/29 | 942 | Complete | All chapters passed QA. Genealogies (ch 1-9) with Prayer of Jabez (4:10). Chronicler's David narrative (ch 10-22). Davidic covenant (ch 17, ha-satan in ch 21). Temple personnel (ch 23-27). David's prayer and Solomon's anointing (ch 28-29). |
 | 2 Chronicles | 0/36 | 0/822 | Not started | — |
 | Ezra | 0/10 | 0/280 | Not started | — |
 | Nehemiah | 0/13 | 0/406 | Not started | — |
@@ -293,7 +293,9 @@ When using The Covenant Rendering, credit:
 
 | Date | Changes |
 |---|---|
-| 2026-03-29 | **AI attribution removed from reader-facing materials (Option B).** Removed "AI-generated" and "Claude (Anthropic)" references from README, SOT project description, SOT info table, generation prompts, and preamble specification tone guidance. Internal process docs (QA agent prompt, quality contract, operational playbook) retain methodology references. The rendering speaks for itself; tooling provenance stays in the repo for transparency. |
+| 2026-03-29 | **1 Chronicles complete:** 29/29 chapters, 942 verses, all passing automated QA. 13th complete book. Genealogies (ch 1-9), Chronicler's David narrative (ch 10-22), Temple personnel (ch 23-27), David's final prayer (ch 29). Deployed to site (379 pages). |
+| 2026-03-29 | **2 Kings audit & remediation:** Post-generation audit found same formula inconsistencies as 1 Kings from parallel agents. Regnal death formula: 6 instances of "rested with his ancestors" (ch 8, 10, 16, 20, 21, 24) standardized to "slept with his fathers." Succession formula: 21 instances of "became king in his place" standardized to "reigned in his place" across 12 chapters. 1 instance of "succeeded him as king" (ch 1) also standardized. `model` field removed from meta in all 25 chapters (and retroactively from all 313 chapter files project-wide per Option B AI-attribution removal). 2 translator_notes/preamble formula references updated. All 25 chapters pass automated QA. ER density healthy at 5.8%, all term-focused. |
+| 2026-03-29 | **AI attribution removed from reader-facing materials (Option B).** Removed "AI-generated" and "Claude (Anthropic)" references from README, SOT project description, SOT info table, generation prompts, and preamble specification tone guidance. Removed `model` field from meta in all 313 chapter JSON files project-wide. Internal process docs (QA agent prompt, quality contract, operational playbook) retain methodology references. The rendering speaks for itself; tooling provenance stays in the repo for transparency. |
 | 2026-03-29 | **2 Kings complete:** 25/25 chapters, 719 verses, all passing automated QA. 12th complete book. Elijah ascension (ch 2), Naaman (ch 5), Jehu's revolution (ch 9-10), Fall of Samaria (ch 17), Hezekiah-Sennacherib (ch 18-19), Josiah's reforms (ch 22-23), Fall of Jerusalem and exile (ch 25). End of Deuteronomistic History. Deployed to site (350 pages). |
 | 2026-03-29 | **1 Kings audit & remediation:** Post-generation audit found 3 formula inconsistencies from parallel agents. Regnal death formula: "rested with his ancestors" (ch 11) and "lay down with his ancestors" (ch 2) standardized to "slept with his fathers" (matching ch 14-16, 22). Succession formula: "became king in his place" (ch 11, 22) standardized to "reigned in his place" (matching ch 14-16). Temple term: qodesh ha-qodashim — "Most Holy Place" (ch 7, 8) standardized to "Holy of Holies" (matching ch 6). Multi-agent consistency rules updated with locked formulas for regnal, succession, prophetic messenger, and temple terms. Default Term Register relaxed from rigid lockdown to defaults-with-documented-variation, per project owner feedback that Hebrew semantic ranges must be honored. |
 | 2026-03-29 | **1 Kings complete:** 22/22 chapters, 816 verses, all passing automated QA. 11th complete book. Temple dedication (ch 8) with full Name theology. Elijah cycle (ch 17-19) including Mount Carmel and qol demamah daqqah. Kingdom division (ch 12). 14 KJV-proximate regnal formulas rewritten. Deployed to site (325 pages). |
