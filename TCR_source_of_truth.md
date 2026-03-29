@@ -217,7 +217,7 @@ Full strategy: [`prompts/extended-library-direction.md`](prompts/extended-librar
 | Primary | "From the Hebrew" | TCR (WLC) — always present, always default | N/A |
 | Manuscript Traditions | "Other manuscript traditions" | Dead Sea Scrolls, Septuagint (LXX), Samaritan Pentateuch | Yes (all pre-325 CE) |
 | Pre-Nicaea Canon | "Books read before the councils" | 1 Enoch, Jubilees | Yes |
-| Interpretive Traditions | "How traditions read this passage" | Targumim, Joseph Smith Translation (JST) | Partial |
+| Interpretive Traditions | "How traditions read this passage" | Targumim, Joseph Smith Translation (JST), Latin Vulgate | Partial |
 
 **Implementation priority:**
 
@@ -230,21 +230,23 @@ Full strategy: [`prompts/extended-library-direction.md`](prompts/extended-librar
 | 5 | Samaritan Pentateuch | Oldest independent Pentateuch witness. | — |
 | 6 | Jubilees | Completes Pre-Nicaea pair with 1 Enoch. DSS attestation. | — |
 | 7 | Targumim | Rounds out interpretive tier. Aramaic reading tradition. | — |
+| 8 | Latin Vulgate | The Bible of Western Christianity for 1,000+ years. Jerome translated OT from Hebrew. | Introduces Latin as new source language. |
 
 - Multi-source version tabs on chapter pages (scholarly stacking UI)
 - Canon filter UI on `/books` page (Protestant / Catholic / Orthodox / Ethiopian / All)
 - DSS fragment viewer for partial-chapter rendering
 
-### Chapter Preambles (after stacking is complete)
+### Chapter Preambles (two-pass approach)
 
 Full specification: [`prompts/chapter-preamble-specification.md`](prompts/chapter-preamble-specification.md)
 
-Every chapter will receive a translator's introduction with four sections: summary, what makes it remarkable, translation friction (where the Hebrew resisted English), and connections to other Scripture. Preambles are deferred until after the base Bible and stacking are substantially complete so that:
-- Cross-references can link to books that actually exist in the rendering
-- Translation friction sections can reference actual variant readings from stacked traditions
-- The full terminology baseline enables precise, verified connections across the canon
+Every chapter receives a translator's introduction with four sections: summary, what makes it remarkable, translation friction, and connections to other Scripture. Generated in two passes:
 
-Infrastructure is in place: `Preamble` type in data model, optional `preamble` field on `Chapter` interface, collapsible UI on chapter pages. Generation begins after Phase 4 (manuscript stacking).
+**First pass:** Generated as part of the per-book workflow immediately after chapters pass QA. Uses available translator notes, key terms, and connections to books that exist at that time.
+
+**Second pass (after Phase 4):** Enrichment sweep updating friction and connections sections with specific references to variant readings from stacked traditions and cross-references to later books.
+
+Infrastructure is in place: `Preamble` type in data model, optional `preamble` field on `Chapter` interface, collapsible UI on chapter pages.
 
 ### Tooling (as needed)
 - Automated validation scripts for batch QA

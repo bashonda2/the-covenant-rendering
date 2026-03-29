@@ -19,8 +19,8 @@
 | **Judges** | 21 chapters, 618 verses. Complete. On site. |
 | Website architecture | 86 books registered, mega-menu, `/books` Library page, data-driven pages |
 | Data model | `BookInfo` with testament/section/tier/order/canons/sourceText/status/alternateEditions |
-| Extended Library data model | `AlternateEdition` expanded with tier/date/scope/preNicaea/description/license. `EditionTier` type. New source texts (targum, jst). Sections for pre-nicaea-canon and interpretive-traditions. |
-| Preamble infrastructure | `Preamble` type, optional field on `Chapter`, collapsible UI on chapter pages. No content yet (deferred). |
+| Extended Library data model | `AlternateEdition` expanded with tier/date/scope/preNicaea/description/license. `EditionTier` type. Source texts: targum, jst, vulgate, peshitta. Sections: pre-nicaea-canon, interpretive-traditions. `text_aramaic` on Verse interface. |
+| Preamble infrastructure | `Preamble` type, optional `preamble` field on `Chapter`, collapsible UI on chapter pages. First-pass preambles generated per-book starting with Ruth. |
 | Quality pipeline | Master prompt, quality addendum v1.3, QA agent prompt, automated QA script, two-agent pipeline |
 | Briefing addenda | Leviticus, Joshua, Judges |
 | Governing documents | SOT (4-doc architecture), Extended Library Direction, Chapter Preamble Spec |
@@ -30,10 +30,28 @@
 
 ---
 
+## IMMEDIATE NEXT STEP
+
+**Ruth** — 4 chapters, 85 verses. Per-book workflow:
+
+1. Create `prompts/ruth-briefing-addendum.md` — go'el (kinsman-redeemer) theology, chesed, threshing floor scene, Moabite identity, genealogy as theology
+2. Generate chapters 1-4 with full verse content
+3. Run automated QA script
+4. Two-agent pipeline review (all 4 chapters are watch chapters — the book is short and dense)
+5. Cross-book consistency check (go'el against Leviticus 25, chesed against existing usage in Pentateuch/Judges)
+6. Generate first-pass preambles for all 4 chapters
+7. Copy to site repo, update `tcr.ts` status to `'complete'`, rebuild, deploy
+8. Update SOT progress tracker
+9. Commit and push both repos
+
+**After Ruth:** 1 Samuel (31 chapters, 810 verses) — monarchy transition, Samuel/Saul/David.
+
+---
+
 ## Phase 1: Complete the Old Testament
 
 **Goal:** Finish all 39 OT books from the WLC.
-**Remaining:** 33 books, 697 chapters, ~17,850 verses.
+**Remaining:** 33 books, 697 chapters, ~16,017 verses.
 **Source text:** Westminster Leningrad Codex (WLC) — same as current books.
 
 ### Per-book workflow (unchanged from current process)
@@ -41,9 +59,27 @@
 2. Generate chapters with full verse content (Hebrew, KJV, rendering, translator_notes, key_terms, expanded_rendering)
 3. Run automated QA script — zero tolerance for KJV pass-through, boilerplate notes, archaisms
 4. Two-agent pipeline review on watch chapters
-5. Copy to site repo, update `tcr.ts` status to `'complete'`, rebuild, deploy
-6. Update SOT progress tracker
-7. Commit and push both repos
+5. **Cross-book consistency check** — verify register term renderings match across all completed books in the same testament (see Quality Gates)
+6. **Generate first-pass preambles** for all chapters in the book (see Phase 5)
+7. Copy to site repo, update `tcr.ts` status to `'complete'`, rebuild, deploy
+8. Update SOT progress tracker
+9. Commit and push both repos
+
+### EVM alignment
+
+TCR generation priority within Phase 1 should stay at or ahead of EVM's (EveryVerseMatters.com) Come Follow Me study calendar. EVM is the primary downstream consumer of this rendering — TCR is the house translation. **If EVM reaches a book that TCR hasn't rendered, that book jumps to the front of the queue.** Canonical order naturally aligns with EVM's pace — the Pentateuch is complete, and EVM won't reach the historical books until mid-2026 at the earliest.
+
+### Aramaic handling decision
+
+Ezra (4:8–6:18, 7:12–26) and Daniel (2:4b–7:28) contain Aramaic text, not Hebrew. The Aramaic uses the same block script as Hebrew, but the field name must be honest about the source language.
+
+**Decision:** Add an optional `text_aramaic` field to the `Verse` interface. For Aramaic verses:
+- `text_aramaic` is populated with the Aramaic source text
+- `text_hebrew` is omitted (empty string or absent)
+- The chapter `meta.source_text` notes "Westminster Leningrad Codex (WLC) — Aramaic section"
+- Translator notes acknowledge the language transition
+
+This applies to ~67 verses in Ezra and ~200 verses in Daniel. The site template conditionally displays whichever source text field is present.
 
 ### 1A. Historical Books (10 books, 204 chapters)
 
@@ -123,11 +159,11 @@
 
 | Section | Books | Chapters | Verses |
 |---|---|---|---|
-| Historical | 10 | 204 | ~4,742 |
-| Wisdom & Poetry | 5 | 243 | ~4,785 |
-| Major Prophets | 5 | 183 | ~4,440 |
-| Minor Prophets | 12 | 67 | ~1,050 |
-| **Phase 1 total** | **33** | **697** | **~15,017** |
+| Historical | 10 | 204 | 5,742 |
+| Wisdom & Poetry | 5 | 243 | 4,785 |
+| Major Prophets | 5 | 183 | 4,440 |
+| Minor Prophets | 12 | 67 | 1,050 |
+| **Phase 1 total** | **33** | **697** | **16,017** |
 
 **After Phase 1:** 929/1,189 chapters (78.1%). Full Old Testament complete. 39 books on site.
 
@@ -330,7 +366,20 @@
 | Targum Onkelos | Torah (Genesis–Deuteronomy) | Closest to literal; standard synagogue Aramaic |
 | Targum Jonathan | Prophets (Joshua–Malachi) | More interpretive; messianic expansions |
 
-### 4F. Stacking UI Build
+### 4F. Latin Vulgate (Priority 8 — future consideration)
+
+| Item | Detail |
+|---|---|
+| Source | Jerome's Latin translation (~400 CE), critical editions (Stuttgart Vulgate) |
+| Scope | Full Bible (OT translated from Hebrew, not LXX — making Jerome's choices independently significant) |
+| Tier | Interpretive Traditions ("How traditions read this passage") |
+| Significance | The Bible of Western Christianity for 1,000+ years. Council of Trent declared it authentic. Still the official Latin Bible of the Catholic Church. |
+| Pre-Nicaea? | No (Jerome died 420 CE) — but earlier than any other interpretive tradition in the list except earliest Targum layers |
+| New source language | Latin — requires Latin competency in generation prompt |
+
+**Note:** The Peshitta (Syriac, 2nd–5th century CE) is a future consideration beyond Priority 8. Used by Eastern Christian traditions, it represents an independent early translation witness.
+
+### 4G. Stacking UI Build
 
 | Feature | Description |
 |---|---|
@@ -342,17 +391,28 @@
 
 ---
 
-## Phase 5: Chapter Preambles
+## Phase 5: Chapter Preambles (two-pass approach)
 
 **Goal:** Add translator introductions to every chapter across all completed content.
 **Governing doc:** [`prompts/chapter-preamble-specification.md`](prompts/chapter-preamble-specification.md)
 **Volume:** Every chapter in the project (1,189+ standard Bible chapters plus Extended Library).
 
-### Why deferred to here
-- Cross-references can link to books that actually exist
-- Translation friction sections can reference actual variant readings from stacked traditions
-- The full terminology baseline enables precise, verified connections across the canon
-- Preambles synthesize what the detailed verse-level work discovered — the work must exist first
+### Two-pass strategy
+
+Preambles are generated in two passes to balance timeliness with depth:
+
+**First pass (during Phases 1–3):** Generated as part of the per-book workflow immediately after a book's chapters pass QA. Covers all four preamble sections using what's available at the time:
+- **Summary** — always complete (requires only the chapter itself)
+- **Remarkable** — always complete (requires only the chapter itself)
+- **Friction** — covers Hebrew/Greek resistance based on translator notes and key terms already in the chapter data. References variant readings only if stacked traditions exist at the time of writing.
+- **Connections** — links to other Scripture that exists in the rendering at the time. Forward references to unrendered books use general biblical knowledge but cannot cite specific TCR renderings.
+
+**Second pass (after Phase 4):** Enrichment sweep across all preambles once stacking is substantially complete. Updates:
+- **Friction** sections gain specific references to variant readings ("The DSS reads this differently — see the comparison view")
+- **Connections** sections gain precise cross-references to later books that now exist in the rendering
+- Forward references from Phase 1 books to Prophets/NT are verified and sharpened
+
+This means the site has preambles from the moment Ruth goes live, and they get richer as stacking content arrives.
 
 ### Per-chapter preamble structure (150-300 words total)
 
@@ -399,12 +459,14 @@ These can be built incrementally as the content base grows. No strict ordering r
    - No archaic English (thee/thou/hast/doth/etc.)
    - `key_terms` schema validated (hebrew, transliteration, rendered_as, semantic_range, note)
 4. Two-agent pipeline review on watch chapters (judgment-based quality checks)
-5. Poetry rendered as poetry (parallelism, line breaks preserved)
-6. `expanded_rendering` on theologically rich terms
-7. Site builds successfully with new content
-8. Deployed and live on thecovenantrendering.com
-9. SOT progress tracker updated
-10. Both repos committed and pushed
+5. **Cross-book terminology consistency check** — verify register term renderings match across all completed books in the same testament. Reference: Theologically Rich Terms Register (addendum v1.2 for OT; Greek Terms Register for NT). Key terms to verify include but are not limited to: ruach YHWH, berit, chesed, mashiach, navi, go'el, kaphar, shalom, kavod, teshuvah (OT); logos, pistis, charis, agape, dikaiosyne, soteria, ekklesia, parakletos (NT).
+6. Poetry rendered as poetry (parallelism, line breaks preserved)
+7. `expanded_rendering` on theologically rich terms
+8. First-pass preambles generated for all chapters in the book
+9. Site builds successfully with new content
+10. Deployed and live on thecovenantrendering.com
+11. SOT progress tracker updated
+12. Both repos committed and pushed
 
 ### Per-phase quality gate
 - Data model consistent across all books in the phase
@@ -432,8 +494,12 @@ These can be built incrementally as the content base grows. No strict ordering r
 | **JST implementation** | **Copyright research on Intellectual Reserve status** | **Phase 4C — BLOCKED until resolved** |
 | Samaritan stacking | Pentateuch complete (done) + variant verse schema | Phase 4D |
 | Targumim stacking | Torah + Prophets complete + variant verse schema | Phase 4E |
-| Stacking UI | At least one stacked tradition ready | Phase 4F |
-| Chapter preambles | Base Bible + stacking substantially complete | Phase 5 |
+| Vulgate stacking | Relevant base books complete + Latin generation prompt | Phase 4F |
+| Stacking UI | At least one stacked tradition ready | Phase 4G |
+| Aramaic verse handling | `text_aramaic` field on Verse interface | Ezra, Daniel generation |
+| First-pass preambles | Book's chapters pass QA | Per-book (Phases 1–3) |
+| Preamble enrichment (second pass) | Stacking substantially complete | Phase 5 |
+| Cross-book consistency | Theologically Rich Terms Register (OT) / Greek Terms Register (NT) | Every book after the first in each testament |
 
 ---
 
@@ -442,11 +508,11 @@ These can be built incrementally as the content base grows. No strict ordering r
 | Phase | Books | Chapters | Verses (approx) | New Infrastructure |
 |---|---|---|---|---|
 | Done | 7 | 232 | 7,126 | Website, data model, QA pipeline, deploy pipeline |
-| **1: OT Completion** | 33 | 697 | ~15,017 | Aramaic handling (Ezra, Daniel) |
-| **2: NT** | 27 | 260 | ~7,718 | Greek terms register, NT prompt, text_greek field |
-| **3: Extended Library** | 20 | ~504 | TBD | Per-tradition generation prompts |
-| **4: Manuscript Stacking** | — | — | — | Variant verse schema, stacking UI, canon filter |
-| **5: Chapter Preambles** | — | ~1,700+ | — | Content only (infrastructure done) |
+| **1: OT Completion** | 33 | 697 | 16,017 | Aramaic handling (Ezra, Daniel), first-pass preambles |
+| **2: NT** | 27 | 260 | ~7,718 | Greek terms register, NT prompt, text_greek field, first-pass preambles |
+| **3: Extended Library** | 20 | ~504 | TBD | Per-tradition generation prompts, first-pass preambles |
+| **4: Manuscript Stacking** | — | — | — | Variant verse schema, stacking UI, canon filter, Vulgate (P8) |
+| **5: Preamble Enrichment** | — | — | — | Second-pass update to friction/connections with variant readings |
 | **6: Tooling** | — | — | — | Search, permalinks, concordance, PDF, API |
 
 ---
@@ -458,20 +524,22 @@ Use this checklist to validate completeness:
 - [ ] Are all 39 OT books accounted for in Phase 1?
 - [ ] Are all 27 NT books accounted for in Phase 2?
 - [ ] Are all Extended Library books in the data model accounted for in Phase 3?
-- [ ] Is the Aramaic handling for Ezra and Daniel called out?
+- [ ] Is the Aramaic handling for Ezra and Daniel called out with a specific data model decision (`text_aramaic` field)?
 - [ ] Is the Greek source text transition documented with prerequisites?
 - [ ] Are Synoptic parallel consistency requirements documented?
 - [ ] Are Chronicles/Samuel-Kings parallel consistency requirements documented?
 - [ ] Is the JST copyright blocker flagged?
-- [ ] Are all 7 tradition priorities from the Extended Library Direction included?
+- [ ] Are all 7+ tradition priorities from the Extended Library Direction included (DSS, 1 Enoch, LXX, JST, Samaritan, Jubilees, Targumim, Vulgate)?
 - [ ] Is the variant verse schema specified for Phase 4?
-- [ ] Are preambles correctly sequenced after stacking?
-- [ ] Is every per-book quality gate step listed?
+- [ ] Are preambles two-pass (first pass per-book, second pass after stacking)?
+- [ ] Is every per-book quality gate step listed, including cross-book consistency?
 - [ ] Are the governing documents all referenced?
-- [ ] Are EVM integration needs considered? (TCR stays ahead of EVM's study pace)
+- [ ] Is EVM alignment explicitly stated (TCR stays ahead of EVM's Come Follow Me study calendar)?
 - [ ] Is the poetry rendering requirement called out for Psalms, Job, Song of Solomon, Lamentations, and prophetic poetry?
 - [ ] Are textual variant hotspots flagged? (Mark 16:9-20, John 7:53-8:11, 1 John 5:7-8, etc.)
 - [ ] Is the `expanded_rendering` requirement carried forward for all phases?
+- [ ] Is the Vulgate listed as a future consideration (Priority 8)?
+- [ ] Is the Peshitta noted as a beyond-roadmap possibility?
 
 ---
 
