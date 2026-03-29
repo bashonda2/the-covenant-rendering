@@ -5,7 +5,7 @@
 **Owner:** Aaron Blonquist
 **Created:** 2026-02-27
 **Last updated:** 2026-03-29
-**Version:** 2.9
+**Version:** 3.1
 
 ---
 
@@ -38,18 +38,18 @@
 
 ## Current State
 
-- **Status:** Pentateuch + Historical through 1 Kings complete — 313/1,189 chapters (26.3%), 9,532 verses, all passing automated QA.
-- **Quality:** 1 Kings 22/22 chapters passed QA (14 KJV-proximate verses rewritten, mostly regnal formulas). ER density within 5-20% target from generation. Multi-agent consistency rules (v2) applied throughout.
-- **Website:** thecovenantrendering.com live — 325 pages across 11 books (Pentateuch + Historical through 1 Kings).
-- **Documentation:** SOT restructured to 4-document architecture (2026-03-28).
+- **Status:** Pentateuch + Historical through 2 Kings complete — 338/1,189 chapters (28.4%), 10,251 verses, all passing automated QA. The entire Deuteronomistic History (Joshua–2 Kings) is now complete.
+- **Quality:** 2 Kings 25/25 passed QA. KJV-proximate regnal formulas rewritten. ER density within target. Multi-agent consistency rules (v2) applied.
+- **Website:** thecovenantrendering.com live — 350 pages across 12 books (Pentateuch + Historical through 2 Kings).
+- **Documentation:** SOT v3.0.
 - **Repos:** Data repo and site repo current, both pushed.
-- **Next:** 2 Kings (25 chapters, 719 verses).
+- **Next:** 1 Chronicles (29 chapters, 942 verses).
 
 ---
 
 ## 1. Vision and Core Commitments
 
-The Covenant Rendering is a complete, modern English rendering of the Bible — Old Testament and New Testament — translated directly from the original Hebrew and Greek source texts. It is the first AI-generated Bible rendering with fully documented translation decisions at every verse, released as open-source structured data.
+The Covenant Rendering is a complete, modern English rendering of the Bible — Old Testament and New Testament — translated directly from the original Hebrew and Greek source texts, with fully documented translation decisions at every verse, released as open-source structured data.
 
 Beyond the standard Bible, TCR will surface how communities across 2,300 years have read the same passages — from the Dead Sea caves to the Restoration — side by side, for free, with documented translation decisions at every verse. The organizing question for every tradition included is: **"How does this tradition read this passage?"** This is not about declaring which text is "right." It is about trusting the reader with the full conversation that the biblical text has generated across centuries, languages, and faith communities.
 
@@ -64,7 +64,7 @@ Beyond the standard Bible, TCR will surface how communities across 2,300 years h
 - **Ecumenical.** Not affiliated with any denomination, church, or religious organization.
 - **Transparent.** Every translation decision is documented. Nothing is hidden.
 - **Open source.** CC-BY-4.0. Anyone can use, share, adapt, and build upon it.
-- **AI-generated with full disclosure.** Produced by Claude (Anthropic). Generation prompts included in the repository.
+- **Reproducible.** Generation prompts and methodology included in the repository.
 
 ### Two-Layer Architecture
 
@@ -108,8 +108,8 @@ The full translation philosophy is documented in [`prompts/covenant_rendering_pr
 | **Ruth** | 4/4 | 85 | Complete | All chapters passed QA. 23 key_terms, 10 expanded_renderings. Full preambles. Go'el theology (ch 2-4), chesed (ch 1, 2, 3), davaq (ch 1). Genealogy to David (ch 4). |
 | **1 Samuel** | 31/31 | 812 | Complete | All chapters passed QA. Hannah's Song rendered as poetry (ch 2). Key theological coverage: mashiach/anointing (ch 10, 16), cherem (ch 15), mashiach YHWH (ch 24, 26), Endor necromancy (ch 28). Post-QA remediation: nagid standardized to "leader" (was prince/ruler/leader across 4 verses), chesed standardized to "faithful love" (was loyal kindness/faithful love across 3 verses), sarnei standardized to "tyrants" (was rulers in ch 5). 151 narrative-commentary expanded_renderings pruned (336→185, density 41%→23%). |
 | **2 Samuel** | 24/24 | 695 | Complete | All chapters passed QA after remediation. Davidic covenant (ch 7), David-Bathsheba (ch 11-12), Absalom rebellion (ch 13-19), David's psalm (ch 22, poetry), last words (ch 23, poetry). 227 ERs pruned (363→136, 17% density). chesed standardized across 5 chapters. Song of the Bow (ch 1) rendered as poetry. |
-| **1 Kings** | 22/22 | 816 | Complete | All chapters passed QA. Temple construction and dedication (ch 5-8), Solomon's wisdom and fall (ch 3, 10-11), kingdom divided (ch 12), Elijah cycle (ch 17-19), Mount Carmel (ch 18), still small voice (ch 19), Naboth's vineyard (ch 21). 14 KJV-proximate regnal formulas rewritten. Regnal formula consistency maintained. |
-| 2 Kings | 0/25 | 0/719 | Not started | — |
+| **1 Kings** | 22/22 | 816 | Complete | All chapters passed QA. Temple construction and dedication (ch 5-8), Solomon's wisdom and fall (ch 3, 10-11), kingdom divided (ch 12), Elijah cycle (ch 17-19), Mount Carmel (ch 18), still small voice (ch 19), Naboth's vineyard (ch 21). 14 KJV-proximate regnal formulas rewritten. Post-audit remediation: regnal death formula standardized to "slept with his fathers" (was "rested with his ancestors" in ch 11, "lay down with his ancestors" in ch 2), succession formula standardized to "reigned in his place" (was "became king" in ch 11, 22), qodesh ha-qodashim standardized to "Holy of Holies" (was "Most Holy Place" in ch 7, 8). |
+| **2 Kings** | 25/25 | 719 | Complete | All chapters passed QA. Elijah ascension (ch 2), Naaman (ch 5), Jehu's revolution (ch 9-10), Fall of Samaria with theological explanation (ch 17), Hezekiah-Sennacherib crisis (ch 18-19), Josiah's reforms and Passover (ch 22-23), Fall of Jerusalem (ch 25). End of Deuteronomistic History. Regnal formulas consistent. |
 | 1 Chronicles | 0/29 | 0/942 | Not started | — |
 | 2 Chronicles | 0/36 | 0/822 | Not started | — |
 | Ezra | 0/10 | 0/280 | Not started | — |
@@ -270,7 +270,7 @@ Infrastructure is in place: `Preamble` type in data model, optional `preamble` f
 | **Contact (public)** | contact@thecovenantrendering.com |
 | **Contact (personal)** | aaronblonquist@gmail.com |
 | **License** | CC-BY-4.0 |
-| **AI model** | Claude (Anthropic) |
+| **Methodology** | Prompts and generation workflow in `prompts/` directory |
 | **Source text (OT)** | Westminster Leningrad Codex (WLC) |
 | **Source text (NT)** | SBL Greek New Testament (SBLGNT) |
 | **Reference text** | King James Version (KJV) |
@@ -293,12 +293,15 @@ When using The Covenant Rendering, credit:
 
 | Date | Changes |
 |---|---|
-| 2026-03-29 | **1 Kings complete:** 22/22 chapters, 816 verses, all passing automated QA. 11th complete book. Temple dedication (ch 8) with full Name theology. Elijah cycle (ch 17-19) including Mount Carmel and qol demamah daqqah. Kingdom division (ch 12). 14 KJV-proximate regnal formulas rewritten. Generated by Claude Code (Opus 4.6). Deployed to site (325 pages). |
-| 2026-03-29 | **2 Samuel complete:** 24/24 chapters, 695 verses, all passing automated QA. 10th complete book. Davidic covenant (ch 7), David-Bathsheba (ch 11-12), Absalom rebellion (ch 13-19). Post-generation remediation: 227 ERs pruned (363→136, 17% density), chesed standardized across 5 chapters, nagid→"leader" in ch 5, 3 KJV-proximate verses rewritten. Generated by Claude Code (Opus 4.6). Deployed to site (303 pages). |
+| 2026-03-29 | **AI attribution removed from reader-facing materials (Option B).** Removed "AI-generated" and "Claude (Anthropic)" references from README, SOT project description, SOT info table, generation prompts, and preamble specification tone guidance. Internal process docs (QA agent prompt, quality contract, operational playbook) retain methodology references. The rendering speaks for itself; tooling provenance stays in the repo for transparency. |
+| 2026-03-29 | **2 Kings complete:** 25/25 chapters, 719 verses, all passing automated QA. 12th complete book. Elijah ascension (ch 2), Naaman (ch 5), Jehu's revolution (ch 9-10), Fall of Samaria (ch 17), Hezekiah-Sennacherib (ch 18-19), Josiah's reforms (ch 22-23), Fall of Jerusalem and exile (ch 25). End of Deuteronomistic History. Deployed to site (350 pages). |
+| 2026-03-29 | **1 Kings audit & remediation:** Post-generation audit found 3 formula inconsistencies from parallel agents. Regnal death formula: "rested with his ancestors" (ch 11) and "lay down with his ancestors" (ch 2) standardized to "slept with his fathers" (matching ch 14-16, 22). Succession formula: "became king in his place" (ch 11, 22) standardized to "reigned in his place" (matching ch 14-16). Temple term: qodesh ha-qodashim — "Most Holy Place" (ch 7, 8) standardized to "Holy of Holies" (matching ch 6). Multi-agent consistency rules updated with locked formulas for regnal, succession, prophetic messenger, and temple terms. Default Term Register relaxed from rigid lockdown to defaults-with-documented-variation, per project owner feedback that Hebrew semantic ranges must be honored. |
+| 2026-03-29 | **1 Kings complete:** 22/22 chapters, 816 verses, all passing automated QA. 11th complete book. Temple dedication (ch 8) with full Name theology. Elijah cycle (ch 17-19) including Mount Carmel and qol demamah daqqah. Kingdom division (ch 12). 14 KJV-proximate regnal formulas rewritten. Deployed to site (325 pages). |
+| 2026-03-29 | **2 Samuel complete:** 24/24 chapters, 695 verses, all passing automated QA. 10th complete book. Davidic covenant (ch 7), David-Bathsheba (ch 11-12), Absalom rebellion (ch 13-19). Post-generation remediation: 227 ERs pruned (363→136, 17% density), chesed standardized across 5 chapters, nagid→"leader" in ch 5, 3 KJV-proximate verses rewritten. Deployed to site (303 pages). |
 | 2026-03-29 | **Multi-Agent Consistency Rules created & 1 Samuel/Ruth remediation:** Created `prompts/multi-agent-consistency-rules.md` — Locked Term Register (18 Hebrew terms with single authorized rendering), expanded_rendering density rules (5-20% target), key_terms schema enforcement, cross-chapter consistency protocol. Addresses root cause: parallel agents making independent rendering choices. Ruth: go'el standardized to "kinsman-redeemer" in ch 2-3 notes/ER. 1 Samuel: nagid→"leader" (4 verses), chesed→"faithful love" (3 verses), sarnei→"tyrants" (1 verse). 151 narrative-commentary ERs pruned from 1 Samuel (336→185, density 41%→23%) using `scripts/prune_ers.py`. ER pruning script added to tooling for future use. |
 | 2026-03-29 | **Judges schema remediation & QA hardening:** Post-generation QA identified 26 schema violations across 8 Judges chapters in 3 patterns: bare-string key_terms (ch 9-10), wrong field names `register_translation`/`gloss` (ch 13-16), object-format expanded_rendering (ch 17, 21). All fixed and verified. QA script (`scripts/qa_validate.py`) enhanced with structural type checking: key_terms must be a list of dicts, each entry validated for correct field names, expanded_rendering must be a string. These checks now prevent all three violation patterns at generation time. |
-| 2026-03-29 | **1 Samuel complete:** 31/31 chapters, 810 verses, all passing automated QA. 9th complete book. Hannah's Song rendered as poetry (ch 2). Full Saul-David narrative arc with theological depth on anointing, kingship, covenant loyalty, and divine rejection. Generated by Claude Code (Opus 4.6) in parallel batches. Deployed to site (278 pages). |
-| 2026-03-29 | **Ruth complete:** 4/4 chapters, 85 verses, all passing automated QA. 8th complete book. 23 key_terms, 10 expanded_renderings, full preambles on all chapters. Key theological coverage: chesed (1:8, 2:20, 3:10), go'el/kinsman-redeemer (2:20, 3:9-13, 4:1-14), davaq (1:14). Genealogy to David rendered with full theological notes. Deployed to site (247 pages). Generated by Claude Code (Opus 4.6). |
+| 2026-03-29 | **1 Samuel complete:** 31/31 chapters, 810 verses, all passing automated QA. 9th complete book. Hannah's Song rendered as poetry (ch 2). Full Saul-David narrative arc with theological depth on anointing, kingship, covenant loyalty, and divine rejection. Deployed to site (278 pages). |
+| 2026-03-29 | **Ruth complete:** 4/4 chapters, 85 verses, all passing automated QA. 8th complete book. 23 key_terms, 10 expanded_renderings, full preambles on all chapters. Key theological coverage: chesed (1:8, 2:20, 3:10), go'el/kinsman-redeemer (2:20, 3:9-13, 4:1-14), davaq (1:14). Genealogy to David rendered with full theological notes. Deployed to site (247 pages). |
 | 2026-03-29 | **Extended Library direction established:** Multi-tradition stacking strategy with 3 tiers (manuscript traditions, pre-Nicaea canon, interpretive traditions). 7-priority implementation order (DSS Isaiah → 1 Enoch → LXX → JST → Samaritan → Jubilees → Targumim). Expanded `AlternateEdition` data model with tier, date, scope, license, pre-Nicaea flag. JST copyright research flagged as blocking for Priority 4. Pre-Nicaea framing language added to project vision. |
 | 2026-03-29 | **Judges complete:** 21/21 chapters, 618 verses, all passing automated QA. Second historical book. Watch chapters (1, 2, 3, 4-5, 6-8, 9, 11, 13-16, 19, 20-21) received detailed attention. 64 key_terms, 13 expanded_renderings. Song of Deborah rendered as poetry. Deployed to site. |
 | 2026-03-29 | **Full Bible architecture deployed:** Expanded BookInfo data model (86 books registered: 66 standard + 20 Extended Library). Section-grouped mega-menu navigation. New `/books` Library page with progress bar. Home page and about page now data-driven from BOOKS registry. Joshua deployed to site (24 chapters, 220 total pages). Multi-source `alternateEditions` model in place for future scholarly stacking. Site committed and pushed to GitHub. |
