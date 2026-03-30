@@ -38,12 +38,12 @@
 
 ## Current State
 
-- **Status:** All Historical Books complete (Genesis–Esther) — 436/1,189 chapters (36.7%), 12,868 verses, all passing automated QA.
-- **Quality:** Ezra/Nehemiah/Esther all passed QA. Aramaic sections in Ezra properly noted. Esther rendered without injecting divine names.
-- **Website:** thecovenantrendering.com live — 448 pages across 17 books.
+- **Status:** Historical + Job complete — 478/1,189 chapters (40.2%), 13,938 verses, all passing automated QA. Crossed 40%.
+- **Quality:** Job 42/42 passed QA. All poetry rendered with line breaks. First Wisdom book complete.
+- **Website:** thecovenantrendering.com live — 490 pages across 18 books.
 - **Documentation:** SOT v3.2.
 - **Repos:** Data repo and site repo current, both pushed.
-- **Next:** Job (42 chapters, 1,070 verses) — first Wisdom book.
+- **Next:** Psalms (150 chapters, 2,461 verses) — the largest book in the Bible.
 
 ---
 
@@ -115,7 +115,7 @@ The full translation philosophy is documented in [`prompts/covenant_rendering_pr
 | **Ezra** | 10/10 | 280 | Complete | All chapters passed QA. Aramaic sections (4:8-6:18, 7:12-26) preserved with language-shift notes. Return from exile, Temple rebuilt, intermarriage crisis. |
 | **Nehemiah** | 13/13 | 406 | Complete | All chapters passed QA. Wall rebuilt (ch 3-6), Torah reading (ch 8), Levites' great prayer (ch 9), covenant renewal (ch 10), Nehemiah's reforms (ch 13). |
 | **Esther** | 10/10 | 167 | Complete | All chapters passed QA. No divine name injected. Providence unnamed throughout. "For such a time as this" (4:14), Purim established (ch 9). |
-| Job | 0/42 | 0/1,070 | Not started | — |
+| **Job** | 42/42 | 1,070 | Complete | All chapters passed QA. Prose prologue/epilogue (ch 1-2, 42:7-17), poetry throughout. Ha-satan as role not name (ch 1-2). Wisdom Poem (ch 28). "I know my Redeemer lives" (19:25-27). God from the whirlwind (ch 38-41). Behemoth and Leviathan. nacham translation problem in 42:6 addressed. |
 | Psalms | 0/150 | 0/2,461 | Not started | — |
 | Proverbs | 0/31 | 0/915 | Not started | — |
 | Ecclesiastes | 0/12 | 0/222 | Not started | — |
@@ -293,6 +293,7 @@ When using The Covenant Rendering, credit:
 
 | Date | Changes |
 |---|---|
+| 2026-03-29 | **Job complete:** 42/42 chapters, 1,070 verses, all passing automated QA. 18th complete book. First Wisdom book. Prose prologue/epilogue, poetry speeches throughout. Wisdom Poem (ch 28), God from the whirlwind (ch 38-41), nacham crux in 42:6. Deployed to site (490 pages). |
 | 2026-03-29 | **Ezra, Nehemiah, Esther complete:** 33 chapters, 853 verses, all passing automated QA. 15th-17th complete books. All Historical Books now done (Genesis–Esther). Ezra: Aramaic sections preserved. Nehemiah: Levites' great prayer (ch 9). Esther: no divine name injected. Deployed to site (448 pages). |
 | 2026-03-29 | **2 Chronicles complete:** 36/36 chapters, 822 verses, all passing automated QA. 14th complete book. Temple dedication with 7:14 (ch 7), Manasseh's repentance unique to Chronicles (ch 33), Cyrus decree closing the Hebrew Bible (ch 36). 17 KJV-proximate verses rewritten. Deployed to site (415 pages). All Historical Books now complete. |
 | 2026-03-29 | **1 Chronicles complete:** 29/29 chapters, 942 verses, all passing automated QA. 13th complete book. Genealogies (ch 1-9), Chronicler's David narrative (ch 10-22), Temple personnel (ch 23-27), David's final prayer (ch 29). Deployed to site (379 pages). |

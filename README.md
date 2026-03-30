@@ -97,6 +97,7 @@ judges/
 | Ezra | 10/10 | 280 | Complete |
 | Nehemiah | 13/13 | 406 | Complete |
 | Esther | 10/10 | 167 | Complete |
+| Job | 42/42 | 1,070 | Complete |
 
 - **Source text:** Westminster Leningrad Codex (WLC)
 - **Reading level:** 9th-10th grade (comparable to ESV)
