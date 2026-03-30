@@ -38,12 +38,12 @@
 
 ## Current State
 
-- **Status:** Historical + Job + Psalms complete — 628/1,189 chapters (52.8%), 16,399 verses, all passing automated QA. Crossed 50%.
-- **Quality:** All 628 chapters across 19 books pass QA (628/628). Cross-project remediation complete: Joshua/Judges pre-existing failures fixed (ER ordering, KJV proximity), Ezra ERs regenerated (23 term-focused), torah convention standardized project-wide ("the Law" / "instruction", never "Torah" in renderings).
-- **Website:** thecovenantrendering.com live — 640 pages across 19 books.
+- **Status:** All Wisdom literature complete — 679/1,189 chapters (57.1%), 17,593 verses, all passing automated QA. Crossed 57%.
+- **Quality:** All 679 chapters across 22 books pass QA. Proverbs (31/31), Ecclesiastes (12/12), Song of Songs (8/8) all passed. hevel rendered as "vapor" in Ecclesiastes. torah convention maintained.
+- **Website:** thecovenantrendering.com live — 691 pages across 22 books.
 - **Documentation:** SOT v3.3.
 - **Repos:** Data repo and site repo current, both pushed.
-- **Next:** Proverbs (31 chapters), Ecclesiastes (12 chapters), Song of Songs (8 chapters) — remaining Wisdom books.
+- **Next:** Prophets — Isaiah (66), Jeremiah (52), Lamentations (5), Ezekiel (48), Daniel (12), plus 12 Minor Prophets (67 chapters). 250 chapters to complete the Old Testament.
 
 ---
 
@@ -117,9 +117,9 @@ The full translation philosophy is documented in [`prompts/covenant_rendering_pr
 | **Esther** | 10/10 | 167 | Complete | All chapters passed QA. No divine name injected. Providence unnamed throughout. "For such a time as this" (4:14), Purim established (ch 9). |
 | **Job** | 42/42 | 1,070 | Complete | All chapters passed QA. Prose prologue/epilogue (ch 1-2, 42:7-17), poetry throughout. Ha-satan as role not name (ch 1-2). Wisdom Poem (ch 28). "I know my Redeemer lives" (19:25-27). God from the whirlwind (ch 38-41). Behemoth and Leviathan. nacham translation problem in 42:6 addressed. |
 | **Psalms** | 150/150 | 2,461 | Complete | All chapters passed QA. Five books (I-V). All poetry with line breaks. Psalm 119 (176v acrostic, 8 torah-words). Key psalms: 1 (Torah), 2 (Messianic), 22 (Forsaken), 23 (Shepherd), 51 (Penitential), 89 (Davidic covenant), 110 (Melchizedek), 119 (Torah meditation), 136 (Great Hallel), 150 (Final Halleluyah). |
-| Proverbs | 0/31 | 0/915 | Not started | — |
-| Ecclesiastes | 0/12 | 0/222 | Not started | — |
-| Song of Solomon | 0/8 | 0/117 | Not started | — |
+| **Proverbs** | 31/31 | 915 | Complete | All chapters passed QA. Woman Wisdom (ch 1, 8-9), Solomonic collections (ch 10-22, 25-29), Words of the Wise (ch 22-24), Agur (ch 30), eshet chayil acrostic (ch 31:10-31). |
+| **Ecclesiastes** | 12/12 | 222 | Complete | All chapters passed QA. hevel rendered as "vapor" throughout (not "vanity"). Time poem (3:1-8), aging allegory (12:1-7). qohelet retained as Hebrew title. |
+| **Song of Solomon** | 8/8 | 117 | Complete | All chapters passed QA. Love poetry rendered without allegorizing. Three wasf descriptions. "Love is as strong as death" (8:6-7) with shalhevet-yah. Hebrew versification for ch 7. |
 | Isaiah | 0/66 | 0/1,292 | Not started | — |
 | Jeremiah | 0/52 | 0/1,364 | Not started | — |
 | Lamentations | 0/5 | 0/154 | Not started | — |
@@ -293,6 +293,7 @@ When using The Covenant Rendering, credit:
 
 | Date | Changes |
 |---|---|
+| 2026-03-30 | **Proverbs, Ecclesiastes, Song of Songs complete:** 51 chapters, 1,254 verses, all passing automated QA. 20th-22nd complete books. All Wisdom literature now done. Proverbs: Woman Wisdom speeches, eshet chayil acrostic. Ecclesiastes: hevel as "vapor", time poem, aging allegory. Song of Songs: love poetry preserved, shalhevet-yah in 8:6. Deployed to site (691 pages). |
 | 2026-03-29 | **Cross-project remediation:** Joshua 16 pre-existing QA failures fixed (ER field ordering + KJV proximity in king list). Judges 11 pre-existing failures fixed. All 628 chapters now pass QA (628/628). Ezra ERs regenerated: 23 term-focused ERs added (8.2% density) after paraphrase purge. torah convention standardized project-wide: 33 instances of "Torah" transliteration replaced with "the Law" / "instruction" in rendering fields. Convention: torat Mosheh → "the Law of Moses", general torah → "instruction", sefer ha-torah → "the Book of the Law". |
 | 2026-03-29 | **Psalms complete:** 150/150 chapters, 2,461 verses, all passing automated QA. 19th complete book. Largest book in the Bible. Five books (I-V), all poetry. Psalm 119 (176-verse acrostic). Deployed to site (640 pages). Crossed 50% of the Bible. |
 | 2026-03-29 | **Full QA audit — all 19 books (Genesis through Psalms).** Automated QA: 583 PASS across 17 books; Joshua (5 FAIL) and Judges (11 FAIL) are pre-existing. Formula fixes applied: 1 succession (1 Chr 19:1), 3 prophetic messenger "Thus says" → "This is what the LORD says" (2 Chr 34:23-26), 1 "most holy place" → "Holy of Holies" (1 Chr 6:49), 1 grammar error (2 Chr 33:20). Ezra ERs purged: all 146 expanded_renderings were paraphrases, not term-focused — deleted entirely (52% → 0%). Psalms ERs pruned: 208 narrative-commentary ERs removed (934 → 726, 37% → 29%). Psalms density remains above 20% ceiling but all remaining ERs are genuinely term-focused Hebrew analysis. 2 Chr 33:20 KJV-proximity resolved by passive voice rewording. No model fields or AI attribution found in any new books. |

@@ -99,6 +99,9 @@ judges/
 | Esther | 10/10 | 167 | Complete |
 | Job | 42/42 | 1,070 | Complete |
 | Psalms | 150/150 | 2,461 | Complete |
+| Proverbs | 31/31 | 915 | Complete |
+| Ecclesiastes | 12/12 | 222 | Complete |
+| Song of Solomon | 8/8 | 117 | Complete |
 
 - **Source text:** Westminster Leningrad Codex (WLC)
 - **Reading level:** 9th-10th grade (comparable to ESV)
