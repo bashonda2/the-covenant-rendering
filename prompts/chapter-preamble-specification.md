@@ -28,7 +28,7 @@ Where does this chapter link to other parts of the Bible in ways the reader migh
 
 ## Tone
 
-- **First person plural** ("we rendered," "our translation choice") when discussing translation decisions — this acknowledges the collaborative process (human direction + AI generation).
+- **First person plural** ("we rendered," "our translation choice") when discussing translation decisions.
 - **Direct address** ("notice how," "watch for," "the reader will see") when guiding the reader's attention.
 - **Honest about difficulty** ("the Hebrew here is genuinely uncertain," "scholars disagree," "no English word captures this"). Never pretend a hard choice was easy.
 - **Warm but not devotional.** The preamble respects the text's sacred status without preaching. The goal is illumination, not exhortation.

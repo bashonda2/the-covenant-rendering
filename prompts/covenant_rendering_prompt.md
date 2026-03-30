@@ -20,7 +20,7 @@ The Covenant Rendering is a plain modern English rendering of the Bible designed
 - **Ecumenical** — not affiliated with any denomination. Useful to all Christians and anyone studying the Bible.
 - **Transparent** — every translation decision is documented in translator notes. Nothing is hidden.
 - **Open source** — released under CC-BY-4.0. Anyone can use, share, and build upon it.
-- **AI-generated** — produced by Claude (Anthropic) from original language source texts, with full disclosure of methodology.
+- **Reproducible** — generation prompts and methodology included in the repository.
 
 ### What This Is NOT
 

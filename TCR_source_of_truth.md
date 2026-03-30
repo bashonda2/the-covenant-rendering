@@ -5,7 +5,7 @@
 **Owner:** Aaron Blonquist
 **Created:** 2026-02-27
 **Last updated:** 2026-03-29
-**Version:** 3.2
+**Version:** 3.3
 
 ---
 
@@ -293,6 +293,7 @@ When using The Covenant Rendering, credit:
 
 | Date | Changes |
 |---|---|
+| 2026-03-29 | **Full QA audit — all 19 books (Genesis through Psalms).** Automated QA: 583 PASS across 17 books; Joshua (5 FAIL) and Judges (11 FAIL) are pre-existing. Formula fixes applied: 1 succession (1 Chr 19:1), 3 prophetic messenger "Thus says" → "This is what the LORD says" (2 Chr 34:23-26), 1 "most holy place" → "Holy of Holies" (1 Chr 6:49), 1 grammar error (2 Chr 33:20). Ezra ERs purged: all 146 expanded_renderings were paraphrases, not term-focused — deleted entirely (52% → 0%). Psalms ERs pruned: 208 narrative-commentary ERs removed (934 → 726, 37% → 29%). Psalms density remains above 20% ceiling but all remaining ERs are genuinely term-focused Hebrew analysis. 2 Chr 33:20 KJV-proximity resolved by passive voice rewording. No model fields or AI attribution found in any new books. |
 | 2026-03-29 | **Job complete:** 42/42 chapters, 1,070 verses, all passing automated QA. 18th complete book. First Wisdom book. Prose prologue/epilogue, poetry speeches throughout. Wisdom Poem (ch 28), God from the whirlwind (ch 38-41), nacham crux in 42:6. Deployed to site (490 pages). |
 | 2026-03-29 | **Ezra, Nehemiah, Esther complete:** 33 chapters, 853 verses, all passing automated QA. 15th-17th complete books. All Historical Books now done (Genesis–Esther). Ezra: Aramaic sections preserved. Nehemiah: Levites' great prayer (ch 9). Esther: no divine name injected. Deployed to site (448 pages). |
 | 2026-03-29 | **2 Chronicles complete:** 36/36 chapters, 822 verses, all passing automated QA. 14th complete book. Temple dedication with 7:14 (ch 7), Manasseh's repentance unique to Chronicles (ch 33), Cyrus decree closing the Hebrew Bible (ch 36). 17 KJV-proximate verses rewritten. Deployed to site (415 pages). All Historical Books now complete. |
