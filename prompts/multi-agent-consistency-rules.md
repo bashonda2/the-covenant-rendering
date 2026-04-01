@@ -125,6 +125,10 @@ Every entry in the `key_terms` array MUST be an object with exactly these 5 fiel
 }
 ```
 
+### Self-contained fields — no cross-references
+
+Every key_terms entry must have a self-contained `rendered_as` value (the actual English word used in the rendering) and a self-contained `note` (2-4 sentences explaining the term in this specific verse context). Never use cross-references like "see rendering," "see translator notes," "see note," or "see hebrew" in any key_terms field. Every field must stand on its own — a reader looking at the key_terms entry should understand the term without needing to look elsewhere.
+
 ### Violations that WILL be caught by automated QA
 
 | Violation | Example | Fix |
@@ -133,6 +137,8 @@ Every entry in the `key_terms` array MUST be an object with exactly these 5 fiel
 | Wrong field names | `"register_translation"`, `"gloss"` | Use `"rendered_as"`, `"semantic_range"` |
 | Missing fields | Object without `"note"` | Include all 5 fields |
 | key_terms as dict instead of array | `"key_terms": {"chesed": "..."}` | Use an array `[{...}]` |
+| Placeholder values | `"rendered_as": "see rendering"` | Use the actual English word from the verse |
+| Cross-reference notes | `"note": "See translator notes"` | Write a self-contained 2-4 sentence explanation |
 
 ### expanded_rendering must be a string
 
