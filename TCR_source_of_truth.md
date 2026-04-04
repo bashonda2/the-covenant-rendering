@@ -4,8 +4,8 @@
 
 **Owner:** Aaron Blonquist
 **Created:** 2026-02-27
-**Last updated:** 2026-04-01
-**Version:** 3.5
+**Last updated:** 2026-04-04
+**Version:** 4.0
 
 ---
 
@@ -35,17 +35,18 @@
 | Multi-Agent Consistency Rules | [`prompts/multi-agent-consistency-rules.md`](prompts/multi-agent-consistency-rules.md) | Locked Term Register (18 terms with single authorized renderings), expanded_rendering density rules (5-20%), key_terms schema enforcement, cross-chapter consistency checks. Addresses multi-agent generation drift. |
 | Isaiah Briefing | [`prompts/isaiah-briefing-addendum.md`](prompts/isaiah-briefing-addendum.md) | Isaiah-specific vocabulary (Qedosh Yisra'el, eved YHWH, go'el as Redeemer, netser/choter/shoresh), structural guide (First/Second/Third Isaiah), sensitive-passage handling (almah 7:14, Suffering Servant 52:13-53:12, Cyrus as mashiach 45:1), prophetic formulas, poetry rendering rules |
 | Jeremiah Briefing | [`prompts/jeremiah-briefing-addendum.md`](prompts/jeremiah-briefing-addendum.md) | Jeremiah-specific vocabulary (shuv dual meaning, berit chadashah, navi sheqer, shalom shalom), mixed genre handling (poetry/prose), emotional intensity preservation, New Covenant (31:31-34) sensitive-passage protocol, pittitani (20:7) confrontational rendering requirement, prophetic formulas, watch chapters |
+| Ezekiel Briefing | [`prompts/ezekiel-briefing-addendum.md`](prompts/ezekiel-briefing-addendum.md) | Ezekiel-specific vocabulary (kavod YHWH, merkavah, chayot, ofannim, ben adam, Adonai YHWH), visionary language preservation, "This is what the Lord GOD says" formula (distinct from other prophets), sensitive passages (ch 16/23 unsanitized, ch 37 dual reading, 44:9 foreigners tension), Temple measurement conventions, generation plan |
 
 ---
 
 ## Current State
 
-- **Status:** Jeremiah complete — 797/1,189 chapters (67.0%), 20,249 verses across 24 books, all passing automated QA. Second prophetic book done. Crossed 67%.
-- **Quality:** All 797 chapters pass QA. Jeremiah generated with briefing addendum, all 52 chapters passing automated QA. 1,364 verses, 1.9 MB structured data. Key passages: New Covenant (31:31-34), pittitani (20:7), call narrative (1:5), Temple Sermon (7:4), letter to exiles (29:11), fall of Jerusalem (39, 52).
-- **Website:** thecovenantrendering.com live — 691 pages across 22 books. Isaiah and Jeremiah not yet deployed.
-- **Documentation:** SOT v3.5.
-- **Repos:** Data repo and site repo current.
-- **Next:** Remaining Prophets — Lamentations (5), Ezekiel (48), Daniel (12), plus 12 Minor Prophets (67 chapters). 132 chapters to complete the Old Testament.
+- **Status:** OLD TESTAMENT COMPLETE — 929/1,189 chapters (78.1%), 23,083 verses across 39 books, all passing automated QA. All Prophets done. The entire Old Testament is rendered.
+- **Quality:** All 929 chapters pass QA. Lamentations (5 ch, acrostic poetry), Ezekiel (48 ch, briefing addendum, throne-chariot vision, dry bones, new Temple), Daniel (12 ch, bilingual Hebrew/Aramaic), and all 12 Minor Prophets (67 ch) generated and passing QA.
+- **Website:** thecovenantrendering.com live — deploying remaining Prophets now.
+- **Documentation:** SOT v4.0.
+- **Repos:** Data repo current. Site repo updating.
+- **Next:** New Testament — 260 chapters across 27 books. Source text shifts from WLC to SBLGNT. Greek Theologically Rich Terms Register needed.
 
 ---
 
@@ -124,21 +125,21 @@ The full translation philosophy is documented in [`prompts/covenant_rendering_pr
 | **Song of Solomon** | 8/8 | 117 | Complete | All chapters passed QA. Love poetry rendered without allegorizing. Three wasf descriptions. "Love is as strong as death" (8:6-7) with shalhevet-yah. Hebrew versification for ch 7. |
 | **Isaiah** | 66/66 | 1,292 | Complete | All chapters passed QA. Briefing addendum created. Three sections: First Isaiah (1-39, Assyrian crisis), Second Isaiah (40-55, exile comfort), Third Isaiah (56-66, restoration). almah as "young woman" (7:14) with full tradition notes. Four Servant Songs (42:1-4, 49:1-6, 50:4-9, 52:13-53:12) — both Jewish and Christian readings presented without privilege. Cyrus as mashiach (45:1). "the Holy One of Israel" always in full. go'el as "Redeemer" (capitalized) for God throughout. 95% poetry with line breaks. |
 | **Jeremiah** | 52/52 | 1,364 | Complete | All chapters passed QA. Briefing addendum created. Call narrative (ch 1), Temple Sermon (ch 7), confessions (11-12, 15, 17-18, 20), potter and clay (ch 18), Righteous Branch (ch 23), letter to exiles with 29:11 (ch 29), NEW COVENANT berit chadashah (31:31-34) with both Jewish and Christian readings presented, field purchase during siege (ch 32), scroll burned (ch 36), cistern rescue (ch 38), fall of Jerusalem (ch 39, 52). pittitani (20:7) rendered as "You deceived me" without softening. Oracles against nations (ch 46-51). Historical appendix (ch 52). shuv rendered context-dependently for return/apostasy. All prophetic formulas locked. |
-| Lamentations | 0/5 | 0/154 | Not started | — |
-| Ezekiel | 0/48 | 0/1,273 | Not started | — |
-| Daniel | 0/12 | 0/357 | Not started | — |
-| Hosea | 0/14 | 0/197 | Not started | — |
-| Joel | 0/3 | 0/73 | Not started | — |
-| Amos | 0/9 | 0/146 | Not started | — |
-| Obadiah | 0/1 | 0/21 | Not started | — |
-| Jonah | 0/4 | 0/48 | Not started | — |
-| Micah | 0/7 | 0/105 | Not started | — |
-| Nahum | 0/3 | 0/47 | Not started | — |
-| Habakkuk | 0/3 | 0/56 | Not started | — |
-| Zephaniah | 0/3 | 0/53 | Not started | — |
-| Haggai | 0/2 | 0/38 | Not started | — |
-| Zechariah | 0/14 | 0/211 | Not started | — |
-| Malachi | 0/4 | 0/55 | Not started | — |
+| **Lamentations** | 5/5 | 154 | Complete | All chapters passed QA. Acrostic poetry (ch 1-4), triple acrostic (ch 3). Eikhah opening. chesed/emunah hope passage (3:22-23). Unresolved ending (5:22) preserved. Jewish liturgical re-reading tradition documented. |
+| **Ezekiel** | 48/48 | 1,273 | Complete | All chapters passed QA. Briefing addendum created. Throne-chariot merkavah vision (ch 1), Temple abominations and glory departure (ch 8-11), unfaithful wife allegory unsanitized (ch 16, 63 verses), Oholah/Oholibah unsanitized (ch 23), individual responsibility (ch 18), God as shepherd (ch 34), valley of dry bones (ch 37), Gog/Magog (ch 38-39), new Temple vision (ch 40-48), river from Temple (ch 47), YHWH Shammah (48:35). "This is what the Lord GOD says" formula (Adonai YHWH). |
+| **Daniel** | 12/12 | 357 | Complete | All chapters passed QA. Bilingual: Hebrew (ch 1:1-2:4a, 8-12), Aramaic (ch 2:4b-7:28). Language transitions documented. Statue dream (ch 2), fiery furnace (ch 3), lions' den (ch 6), four beasts and Son of Man/bar enash (ch 7), 70 weeks/shavu'im (ch 9), resurrection (12:2). |
+| **Hosea** | 14/14 | 197 | Complete | All chapters passed QA. Marriage metaphor. chesed not sacrifice (6:6). "When Israel was a child" (11:1). shuv as key verb throughout. |
+| **Joel** | 3/3 | 73 | Complete | All chapters passed QA. Locust plague, Spirit on all flesh (2:28-29), Valley of Decision. English versification with Hebrew noted. |
+| **Amos** | 9/9 | 146 | Complete | All chapters passed QA. Social justice. "For three... and for four" pattern. "Let justice roll down" (5:24). qayits/qets wordplay (8:1-2). Booth of David (9:11). |
+| **Obadiah** | 1/1 | 21 | Complete | Passed QA. Shortest OT book. Oracle against Edom. |
+| **Jonah** | 4/4 | 48 | Complete | All chapters passed QA. Narrative prose. Fish prayer as poetry (ch 2). God's compassion beyond Israel. |
+| **Micah** | 7/7 | 105 | Complete | All chapters passed QA. "Act justly, love faithful love, walk humbly" (6:8). Bethlehem prophecy (5:2). mi-kha-El wordplay (7:18). |
+| **Nahum** | 3/3 | 47 | Complete | All chapters passed QA. Fall of Nineveh. War poetry. Partial acrostic (ch 1). |
+| **Habakkuk** | 3/3 | 56 | Complete | All chapters passed QA. "The righteous shall live by his emunah" (2:4). Theophany psalm (ch 3). "Though the fig tree does not bud" (3:17-18). |
+| **Zephaniah** | 3/3 | 53 | Complete | All chapters passed QA. Dies irae tradition (1:14-18). "He will exult over you with singing" (3:17). |
+| **Haggai** | 2/2 | 38 | Complete | All chapters passed QA. Rebuild the Temple. "Glory of the latter house" (2:9). Zerubbabel as signet ring (2:23). |
+| **Zechariah** | 14/14 | 211 | Complete | All chapters passed QA. Eight night visions (ch 1-6). "Not by might nor by power" (4:6). King on a donkey (9:9). "They will look on me, the one they have pierced" (12:10). Living waters (14:8). Hebrew/English versification fixed for ch 1-2. |
+| **Malachi** | 4/4 | 55 | Complete | All chapters passed QA. Last prophetic voice. Disputation style. Tithes (3:10). Sun of righteousness (4:2). Elijah before the great day (4:5). Hebrew versification noted. |
 | Matthew | 0/28 | 0/1,071 | Not started | — |
 | Mark | 0/16 | 0/678 | Not started | — |
 | Luke | 0/24 | 0/1,151 | Not started | — |
@@ -167,7 +168,7 @@ The full translation philosophy is documented in [`prompts/covenant_rendering_pr
 | Jude | 0/1 | 0/25 | Not started | — |
 | Revelation | 0/22 | 0/404 | Not started | — |
 
-**Total Bible:** 1,189 chapters. 31,102 verses. 797/1,189 chapters complete (67.0%). Pentateuch, Historical Books, Wisdom Literature, Isaiah, and Jeremiah complete.
+**Total Bible:** 1,189 chapters. 31,102 verses. 929/1,189 chapters complete (78.1%). **Old Testament complete.** Pentateuch, Historical Books, Wisdom Literature, and all Prophets done.
 
 ---
 
@@ -295,6 +296,7 @@ When using The Covenant Rendering, credit:
 
 | Date | Changes |
 |---|---|
+| 2026-04-04 | **OLD TESTAMENT COMPLETE.** Lamentations (5 ch, 154 v), Ezekiel (48 ch, 1,273 v), Daniel (12 ch, 357 v), and all 12 Minor Prophets (67 ch, 1,050 v) generated and passing QA. 132 chapters in a single session. Ezekiel briefing addendum created. Sensitive passages (Ezek 16, 23) rendered without sanitizing. Daniel's Hebrew/Aramaic bilingual structure documented. Zechariah versification corrected to English convention. 39 OT books, 929 chapters, 23,083 verses — all complete, all passing automated QA. SOT v4.0. |
 | 2026-04-01 | **Jeremiah complete:** 52/52 chapters, 1,364 verses, all passing automated QA. 24th complete book. Second prophetic book. Briefing addendum created with vocabulary register (shuv, berit chadashah, navi sheqer, shalom shalom), mixed-genre handling, and sensitive-passage protocols. Key passages: call narrative with shaqed/shoqed wordplay (1:11-12), Temple Sermon with threefold mockery (7:4), confessions of Jeremiah (11:18-12:6, 15:10-21, 17:14-18, 18:18-23, 20:7-18), potter and clay (18:1-12), pittitani "You deceived me" rendered without softening (20:7), Righteous Branch tsemach tsaddiq (23:5-6), letter to exiles "plans for welfare and not disaster" (29:11), NEW COVENANT berit chadashah (31:31-34) — the only occurrence in the Hebrew Bible — with both Jewish (Torah renewed) and Christian (Hebrews 8:8-12) readings presented without privilege, field purchase during siege (32:6-15), scroll burned by Jehoiakim (36), cistern rescue by Ebed-Melech (38), fall of Jerusalem (39, 52), oracles against nations (46-51), Babylon oracle with scroll-sinking sign-act (51:59-64). Historical appendix (52) paralleling 2 Kings 25 with unique deportation numbers. 1.9 MB structured data. |
 | 2026-03-31 | **Isaiah complete:** 66/66 chapters, 1,292 verses, all passing automated QA. 23rd complete book. First prophetic book. Largest prophetic book in the Bible. Briefing addendum created with term decisions, structural guide, and sensitive-passage handling. Three sections rendered: First Isaiah (1-39, Assyrian crisis), Second Isaiah (40-55, exile comfort with Servant Songs), Third Isaiah (56-66, restoration and new creation). Key passages: trisagion (6:3), almah as "young woman" (7:14) with full LXX/NT/tradition notes, four throne names (9:6), shoot from Jesse (11:1), death swallowed (25:8), resurrection (26:19), "comfort, comfort" (40:1), First Servant Song (42:1-4), Cyrus as mashiach (45:1), Fourth Servant Song (52:13-53:12) with both Jewish and Christian traditions presented, "come all who thirst" (55:1), "Spirit of the Lord upon me" (61:1), new heavens and earth (65:17). |
 | 2026-03-31 | **Deep QA audit — all 22 books (679 chapters).** Term register consistency verified across all books: 1 locked-term violation fixed (sarnei "rulers" → "tyrants" in Judges 3:3), 7 legacy chesed renderings standardized ("steadfast love" → "faithful love"), 3 nagid renderings fixed ("ruler" → "leader" in 1 Chronicles), go'el capitalization corrected (Ps 19:15). 3 evil evaluation formula deviations corrected (1 Kgs 11:6, 2 Kgs 8:18, 8:27). 21 formal departure documentation notes added for contextual term variations. 232 preambles generated for Genesis through Judges (all pre-preamble books). AI attribution audit clean. ER density accepted as-is — Hebrew guides, not metrics. |
@@ -332,4 +334,4 @@ When using The Covenant Rendering, credit:
 
 ---
 
-*Version 3.5 — 2026-04-01*
+*Version 4.0 — 2026-04-04*
