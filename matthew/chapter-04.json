@@ -1,0 +1,325 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Matthew",
+    "chapter": 4,
+    "source_text": "SBL Greek New Testament (SBLGNT)",
+    "reference_text": "KJV",
+    "generated_at": "2026-04-04T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Matthew 4 opens with Jesus being led by the Spirit into the wilderness to be tested by the devil. Three temptations probe whether Jesus will misuse his identity as God's Son — for personal comfort, for spectacle, or for political power. Jesus responds to each with quotations from Deuteronomy, reliving Israel's wilderness testing and succeeding where Israel failed. After the temptation, Jesus withdraws to Galilee, settles in Capernaum, and begins his public ministry with the proclamation: 'Repent, for the kingdom of heaven has come near.' He calls his first four disciples — Simon Peter, Andrew, James, and John — from their fishing nets, and begins a widespread ministry of teaching, proclaiming, and healing throughout Galilee.",
+    "remarkable": "The three temptations form a literary triptych, each answered with a quotation from Deuteronomy 6-8 — the section where Moses recounts Israel's wilderness failures. Jesus is presented as the true Israel who passes the test that the nation failed. The move to Capernaum fulfills Isaiah 9:1-2, connecting Jesus's ministry to the territories of Zebulun and Naphtali — the first regions lost to Assyrian conquest, now the first to see messianic light. The phrase 'kingdom of heaven' (basileia ton ouranon) is unique to Matthew among the Gospels; the other Synoptics use 'kingdom of God.' Matthew's Jewish audience would have understood 'heaven' as a reverential circumlocution for the divine name.",
+    "friction": "The nature of the temptation narrative — whether visionary, literal, or theological — is debated. We render the Greek text as given without imposing a framework. The phrase 'the devil' (ho diabolos) translates a Greek term meaning 'slanderer' or 'accuser,' corresponding to the Hebrew satan ('adversary'). The quotation from Isaiah 9:1-2 in verses 15-16 follows the Septuagint rather than the Masoretic Text in some details.",
+    "connections": "The temptation narrative connects to Israel's wilderness testing (Deuteronomy 6-8), the baptism of chapter 3, and the Sermon on the Mount that follows in chapters 5-7. The calling of the first disciples echoes prophetic call narratives (1 Kings 19:19-21, Elijah calling Elisha). The summary of Jesus's ministry in verse 23 sets up the Sermon on the Mount by establishing his authority as teacher and healer.\n\n**Tradition comparisons:** The Latin Vulgate shaped Western theology here: The same rendering as Matt 3:2, now on the lips of Jesus himself. Luther's argument was sharpened by the fact that Jesus's first public word was rendered as 'do penance' rather than 'repent' — making... See the [Vulgate Matthew](/vulgate/matthew). JST footnote at Matthew 4:1: Purpose of wilderness visit changed: Jesus goes to commune with God, not primarily to be tempted See the [JST notes](/jst/matthew)."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_greek": "Τότε ὁ Ἰησοῦς ἀνήχθη εἰς τὴν ἔρημον ὑπὸ τοῦ πνεύματος πειρασθῆναι ὑπὸ τοῦ διαβόλου.",
+      "text_kjv": "Then was Jesus led up of the Spirit into the wilderness to be tempted of the devil.",
+      "rendering": "Then Jesus was led up by the Spirit into the wilderness to be tested by the devil.",
+      "translator_notes": [
+        "The Greek peirasthēnai can mean 'to test' or 'to tempt.' We render it 'tested' because the initiative comes from God's Spirit — this is a divine proving, not merely a satanic enticement. The passive anēchthē ('was led up') indicates Jesus did not go on his own initiative but was directed by the Spirit, connecting this directly to the Spirit's descent at his baptism (3:16).",
+        "The Greek diabolos ('slanderer, accuser') corresponds to the Hebrew satan. Matthew uses diabolos rather than satanas here, though both terms appear in the New Testament."
+      ],
+      "key_terms": [
+        {
+          "greek": "πειράζω",
+          "transliteration": "peirazō",
+          "rendered_as": "tested",
+          "semantic_range": "to test, to try, to tempt, to prove, to put to the test",
+          "note": "The same verb family is used in the Septuagint for God's testing of Abraham (Genesis 22:1) and Israel's testing of God in the wilderness (Exodus 17:2). Context determines whether the nuance is probative (testing to prove genuine) or seductive (tempting to cause failure)."
+        },
+        {
+          "greek": "διάβολος",
+          "transliteration": "diabolos",
+          "rendered_as": "devil",
+          "semantic_range": "slanderer, accuser, adversary, devil",
+          "note": "From dia ('across') + ballō ('to throw') — one who throws accusations. The Septuagint uses diabolos to translate the Hebrew satan in Job 1-2 and Zechariah 3:1."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 2,
+      "text_greek": "καὶ νηστεύσας ἡμέρας τεσσεράκοντα καὶ νύκτας τεσσεράκοντα ὕστερον ἐπείνασεν.",
+      "text_kjv": "And when he had fasted forty days and forty nights, he was afterward an hungred.",
+      "rendering": "After fasting forty days and forty nights, he was hungry.",
+      "translator_notes": [
+        "The 'forty days and forty nights' echoes Moses on Sinai (Exodus 34:28) and Elijah's journey to Horeb (1 Kings 19:8). The number forty is a standard biblical period of testing and preparation — Israel wandered forty years, the flood lasted forty days. The Greek epeinasen is simply 'he was hungry,' a masterful understatement after forty days without food.",
+        "[TCR Cross-Reference] Draws on Exodus 34:28. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices.",
+        "[TCR Cross-Reference] Draws on 1 Kings 19:8. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 3,
+      "text_greek": "καὶ προσελθὼν ὁ πειράζων εἶπεν αὐτῷ· Εἰ υἱὸς εἶ τοῦ θεοῦ, εἰπὲ ἵνα οἱ λίθοι οὗτοι ἄρτοι γένωνται.",
+      "text_kjv": "And when the tempter came to him, he said, If thou be the Son of God, command that these stones be made bread.",
+      "rendering": "The tempter came and said to him, \"If you are the Son of God, command these stones to become bread.\"",
+      "translator_notes": [
+        "The Greek ei ('if') with the indicative does not express doubt but assumes the condition is true: 'Since you are the Son of God' or 'Given that you are.' The temptation is not about proving identity but about misusing it. The tempter attacks at the point of legitimate physical need — hunger after forty days of fasting."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 4,
+      "text_greek": "ὁ δὲ ἀποκριθεὶς εἶπεν· Γέγραπται· Οὐκ ἐπ' ἄρτῳ μόνῳ ζήσεται ὁ ἄνθρωπος, ἀλλ' ἐπὶ παντὶ ῥήματι ἐκπορευομένῳ διὰ στόματος θεοῦ.",
+      "text_kjv": "But he answered and said, It is written, Man shall not live by bread alone, but by every word that proceedeth out of the mouth of God.",
+      "rendering": "But he answered, \"It is written: 'A person does not live on bread alone, but on every word that comes from the mouth of God.'\"",
+      "translator_notes": [
+        "Jesus quotes Deuteronomy 8:3, which recounts how God fed Israel with manna to teach them dependence on his word. The Greek anthrōpos ('person, human being') is gender-neutral; 'person' captures this better than the KJV's 'man.' The phrase gegraptai ('it is written,' perfect tense) indicates permanent, authoritative force — what was written remains in effect.",
+        "[TCR Cross-Reference] Echoes Deuteronomy 8:3. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 5,
+      "text_greek": "Τότε παραλαμβάνει αὐτὸν ὁ διάβολος εἰς τὴν ἁγίαν πόλιν καὶ ἔστησεν αὐτὸν ἐπὶ τὸ πτερύγιον τοῦ ἱεροῦ",
+      "text_kjv": "Then the devil taketh him up into the holy city, and setteth him on a pinnacle of the temple,",
+      "rendering": "Then the devil took him to the holy city and set him on the highest point of the temple,",
+      "translator_notes": [
+        "The Greek pterygion ('little wing') refers to the highest point or parapet of the temple complex. Josephus describes the southeastern corner of the temple platform as having a dizzying drop into the Kidron Valley. 'The holy city' (tēn hagian polin) is Jerusalem, identified by its theological title rather than its name."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 6,
+      "text_greek": "καὶ λέγει αὐτῷ· Εἰ υἱὸς εἶ τοῦ θεοῦ, βάλε σεαυτὸν κάτω· γέγραπται γὰρ ὅτι Τοῖς ἀγγέλοις αὐτοῦ ἐντελεῖται περὶ σοῦ καὶ ἐπὶ χειρῶν ἀροῦσίν σε, μήποτε προσκόψῃς πρὸς λίθον τὸν πόδα σου.",
+      "text_kjv": "And saith unto him, If thou be the Son of God, cast thyself down: for it is written, He shall give his angels charge concerning thee: and in their hands they shall bear thee up, lest at any time thou dash thy foot against a stone.",
+      "rendering": "Says to him, If you be the Son of God, cast thyself down — for it is written, He will give his angels charge concerning you: and in their hands they will bear you up, lest at any time you dash your foot against a stone.",
+      "translator_notes": [
+        "The devil now quotes Scripture — Psalm 91:11-12 — but omits the phrase 'to guard you in all your ways,' subtly distorting the promise from general providential care to a demand for spectacular intervention. The temptation is to force God's hand through presumptuous action rather than trusting his timing.",
+        "[TCR Cross-Reference] Quotes Psalm 91:11-12. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 7,
+      "text_greek": "ἔφη αὐτῷ ὁ Ἰησοῦς· Πάλιν γέγραπται· Οὐκ ἐκπειράσεις κύριον τὸν θεόν σου.",
+      "text_kjv": "Jesus said unto him, It is written again, Thou shalt not tempt the Lord thy God.",
+      "rendering": "Jesus said to him, \"Again it is written: 'You must not put the Lord your God to the test.'\"",
+      "translator_notes": [
+        "Jesus quotes Deuteronomy 6:16, which references Israel's testing of God at Massah (Exodus 17:1-7). The verb ekpeiraseis ('put to the test') is an intensified form of peirazō — it means to test in a demanding, presumptuous way. The word palin ('again') indicates Jesus is not countering Scripture with Scripture but completing its meaning — both passages stand together.",
+        "[TCR Cross-Reference] Draws on Deuteronomy 6:16. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices.",
+        "[TCR Cross-Reference] Draws on Exodus 17:1-7. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 8,
+      "text_greek": "Πάλιν παραλαμβάνει αὐτὸν ὁ διάβολος εἰς ὄρος ὑψηλὸν λίαν καὶ δείκνυσιν αὐτῷ πάσας τὰς βασιλείας τοῦ κόσμου καὶ τὴν δόξαν αὐτῶν",
+      "text_kjv": "Again, the devil taketh him up into an exceeding high mountain, and sheweth him all the kingdoms of the world, and the glory of them;",
+      "rendering": "Again, the devil took him to a very high mountain and showed him all the kingdoms of the world and their splendor,",
+      "translator_notes": [
+        "The Greek doxan ('glory, splendor') here refers to the visible magnificence of earthly power — wealth, armies, architecture. The offer of 'all the kingdoms' is the most audacious temptation: political power without the cross. No literal mountain provides a vantage point to see all earthly kingdoms; the scene is visionary or symbolic."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 9,
+      "text_greek": "καὶ εἶπεν αὐτῷ· Ταῦτά σοι πάντα δώσω, ἐὰν πεσὼν προσκυνήσῃς μοι.",
+      "text_kjv": "And saith unto him, All these things will I give thee, if thou wilt fall down and worship me.",
+      "rendering": "Says to him, All these things will I give you, if you will fall down and worship me.",
+      "translator_notes": [
+        "The Greek proskynesēs ('worship, bow down before') implies full prostration — the posture of total submission reserved for deity. The temptation strips away all pretense: the devil offers a shortcut to universal dominion that bypasses suffering and the cross, but the price is idolatry. The conditional ean ('if') with the subjunctive presents this as a genuine offer."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 10,
+      "text_greek": "τότε λέγει αὐτῷ ὁ Ἰησοῦς· Ὕπαγε, Σατανᾶ· γέγραπται γάρ· Κύριον τὸν θεόν σου προσκυνήσεις καὶ αὐτῷ μόνῳ λατρεύσεις.",
+      "text_kjv": "Then saith Jesus unto him, Get thee hence, Satan: for it is written, Thou shalt worship the Lord thy God, and him only shalt thou serve.",
+      "rendering": "Then Jesus said to him, \"Go away, Satan! For it is written: 'You shall worship the Lord your God, and serve him only.'\"",
+      "translator_notes": [
+        "Jesus quotes Deuteronomy 6:13. The word Satana is the Greek transliteration of the Hebrew satan ('adversary') — Jesus uses the name directly for the first time, dropping the circumlocution 'tempter' and 'devil.' The verb latreuō ('serve, render religious service') denotes devoted worship-service, not mere obedience. The command hypage ('go away') is sharp and authoritative.",
+        "[TCR Cross-Reference] This verse quotes Deuteronomy 6:13 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 11,
+      "text_greek": "Τότε ἀφίησιν αὐτὸν ὁ διάβολος, καὶ ἰδοὺ ἄγγελοι προσῆλθον καὶ διηκόνουν αὐτῷ.",
+      "text_kjv": "Then the devil leaveth him, and, behold, angels came and ministered unto him.",
+      "rendering": "Then the devil left him, and angels came and attended to him.",
+      "translator_notes": [
+        "The Greek diēkonoun ('ministered, served, attended') is the imperfect tense, indicating ongoing service — the angels continued to care for him. This verb is the root of 'deacon' (diakonos). The angelic ministry recalls Elijah being fed by an angel after his own wilderness ordeal (1 Kings 19:5-8). The irony is deliberate: the provision Jesus refused to seize by miracle is now given to him by the Father.",
+        "[TCR Cross-Reference] Quotes 1 Kings 19:5-8. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 12,
+      "text_greek": "Ἀκούσας δὲ ὅτι Ἰωάννης παρεδόθη ἀνεχώρησεν εἰς τὴν Γαλιλαίαν.",
+      "text_kjv": "Now when Jesus had heard that John was cast into prison, he departed into Galilee;",
+      "rendering": "When Jesus heard that John had been arrested, he withdrew to Galilee.",
+      "translator_notes": [
+        "The Greek paredothē ('was handed over, delivered up') is the same verb later used for Jesus's own betrayal and arrest (10:4, 17:22, 26:2). Matthew's use of this word for John foreshadows Jesus's fate — the forerunner's path prefigures the Messiah's. 'Withdrew' (anechōrēsen) suggests a deliberate strategic move, not flight."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 13,
+      "text_greek": "καὶ καταλιπὼν τὴν Ναζαρὰ ἐλθὼν κατῴκησεν εἰς Καφαρναοὺμ τὴν παραθαλασσίαν ἐν ὁρίοις Ζαβουλὼν καὶ Νεφθαλίμ·",
+      "text_kjv": "And leaving Nazareth, he came and dwelt in Capernaum, which is upon the sea coast, in the borders of Zabulon and Nephthalim:",
+      "rendering": "He left Nazareth and went to live in Capernaum by the sea, in the region of Zebulun and Naphtali,",
+      "translator_notes": [
+        "Capernaum (Kfar Nachum, 'village of Nahum') on the northwest shore of the Sea of Galilee becomes Jesus's base of operations. The Greek parathalassian ('by the sea') identifies the town's lakeside location. Matthew specifies the tribal territories of Zebulun and Naphtali to set up the Isaiah quotation that follows."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 14,
+      "text_greek": "ἵνα πληρωθῇ τὸ ῥηθὲν διὰ Ἠσαΐου τοῦ προφήτου λέγοντος·",
+      "text_kjv": "That it might be fulfilled which was spoken by Esaias the prophet, saying,",
+      "rendering": "That it might be fulfilled which was spoken by Esaias the prophet and stated,.",
+      "translator_notes": [
+        "This is Matthew's second fulfillment formula (cf. 1:22). The move to Capernaum is presented not as a retreat from danger but as a prophetic fulfillment — geography itself serves God's redemptive plan."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 15,
+      "text_greek": "Γῆ Ζαβουλὼν καὶ γῆ Νεφθαλίμ, ὁδὸν θαλάσσης, πέραν τοῦ Ἰορδάνου, Γαλιλαία τῶν ἐθνῶν,",
+      "text_kjv": "The land of Zabulon, and the land of Nephthalim, by the way of the sea, beyond Jordan, Galilee of the Gentiles;",
+      "rendering": "\"Land of Zebulun and land of Naphtali, the way to the sea, beyond the Jordan, Galilee of the nations —",
+      "translator_notes": [
+        "Matthew quotes Isaiah 9:1-2 (8:23-9:1 in the Hebrew numbering). 'Galilee of the nations' (Galilaia tōn ethnōn) reflects the mixed Jewish-Gentile population of the northern region. The phrase hints at the universal scope of Jesus's mission — he begins not in Jerusalem but in a border region where Jew and Gentile mingle. 'The way of the sea' (hodon thalassēs) refers to the ancient trade route Via Maris.",
+        "[TCR Cross-Reference] This verse quotes Isaiah 9:1-2 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 16,
+      "text_greek": "ὁ λαὸς ὁ καθήμενος ἐν σκότει φῶς εἶδεν μέγα, καὶ τοῖς καθημένοις ἐν χώρᾳ καὶ σκιᾷ θανάτου φῶς ἀνέτειλεν αὐτοῖς.",
+      "text_kjv": "The people which sat in darkness saw great light; and to them which sat in the region and shadow of death light is sprung up.",
+      "rendering": "The those present which sat in darkness noticed remarkable light. And to them which sat in the region and shadow of death light is sprung up.",
+      "translator_notes": [
+        "The Greek kathēmenois can mean 'sitting' or 'dwelling, living' — the sense is of a settled condition, not a momentary posture. 'Shadow of death' (skia thanatou) echoes the Hebrew tsalmaveth of Psalm 23:4 and Isaiah 9:2. The verb aneteilen ('has risen, dawned') is used of sunrise — the light that breaks upon Galilee is described in the language of a new dawn.",
+        "[TCR Cross-Reference] Quotes Isaiah 9:1-2. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it.",
+        "[TCR Cross-Reference] Quotes Psalm 23:4. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 17,
+      "text_greek": "Ἀπὸ τότε ἤρξατο ὁ Ἰησοῦς κηρύσσειν καὶ λέγειν· Μετανοεῖτε· ἤγγικεν γὰρ ἡ βασιλεία τῶν οὐρανῶν.",
+      "text_kjv": "From that time Jesus began to preach, and to say, Repent: for the kingdom of heaven is at hand.",
+      "rendering": "From that time Jesus began to proclaim, \"Repent, for the kingdom of heaven has come near.\"",
+      "translator_notes": [
+        "Jesus's opening proclamation is identical to John the Baptist's in 3:2, establishing continuity between the forerunner and the Messiah. The Greek metanoeite ('repent') means a fundamental change of mind and direction — not merely feeling sorry but reorienting one's entire life. The perfect tense ēngiken ('has come near, has drawn close') indicates that the kingdom has already begun to arrive, not merely that it will come someday.",
+        "Matthew's 'kingdom of heaven' (basileia tōn ouranōn) is equivalent to Mark's and Luke's 'kingdom of God.' Matthew uses 'heaven' as a reverential circumlocution for God's name, following Jewish convention."
+      ],
+      "key_terms": [
+        {
+          "greek": "μετανοέω",
+          "transliteration": "metanoeō",
+          "rendered_as": "repent",
+          "semantic_range": "to change one's mind, to repent, to turn around, to think differently afterward",
+          "note": "From meta ('after, change') + noeō ('to think'). The Greek emphasizes a cognitive transformation, while the Hebrew concept teshuvah emphasizes return. Together they paint a full picture: turning the mind and turning one's steps back toward God."
+        },
+        {
+          "greek": "βασιλεία τῶν οὐρανῶν",
+          "transliteration": "basileia tōn ouranōn",
+          "rendered_as": "kingdom of heaven",
+          "semantic_range": "kingdom, reign, royal rule, sovereignty; of heaven/the heavens",
+          "note": "Not a place but a reign — God's active sovereign rule breaking into the present age. 'Heaven' is Matthew's reverential substitute for God's name. The kingdom is both present ('has come near') and still coming in fullness."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 18,
+      "text_greek": "Περιπατῶν δὲ παρὰ τὴν θάλασσαν τῆς Γαλιλαίας εἶδεν δύο ἀδελφούς, Σίμωνα τὸν λεγόμενον Πέτρον καὶ Ἀνδρέαν τὸν ἀδελφὸν αὐτοῦ, βάλλοντας ἀμφίβληστρον εἰς τὴν θάλασσαν· ἦσαν γὰρ ἁλιεῖς.",
+      "text_kjv": "And Jesus, walking by the sea of Galilee, saw two brethren, Simon called Peter, and Andrew his brother, casting a net into the sea: for they were fishers.",
+      "rendering": "As he was walking along the Sea of Galilee, he saw two brothers — Simon, who is called Peter, and his brother Andrew — casting a net into the sea, for they were fishermen.",
+      "translator_notes": [
+        "The Greek amphiblēstron refers to a circular casting net thrown from shore or from a shallow-water position, distinct from the dragnet (sagēnē) of 13:47. The parenthetical 'who is called Peter' (ton legomenon Petron) introduces the name by which readers will know him. The Sea of Galilee is technically a freshwater lake (approximately 13 miles long by 8 miles wide), but the Greek thalassa ('sea') follows the Hebrew convention of calling any large body of water yam."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 19,
+      "text_greek": "καὶ λέγει αὐτοῖς· Δεῦτε ὀπίσω μου, καὶ ποιήσω ὑμᾶς ἁλιεῖς ἀνθρώπων.",
+      "text_kjv": "And he saith unto them, Follow me, and I will make you fishers of men.",
+      "rendering": "He said to them, \"Follow me, and I will make you fishers of people.\"",
+      "translator_notes": [
+        "The call deute opisō mou ('come after me') uses the language of rabbinic discipleship — following a teacher physically implied intellectual and moral formation. 'Fishers of people' (halieis anthrōpōn) is a metaphor drawn from their actual trade. The Greek anthrōpōn is gender-inclusive ('people'), not restricted to males."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 20,
+      "text_greek": "οἱ δὲ εὐθέως ἀφέντες τὰ δίκτυα ἠκολούθησαν αὐτῷ.",
+      "text_kjv": "And they straightway left their nets, and followed him.",
+      "rendering": "Immediately they left their nets and followed him.",
+      "translator_notes": [
+        "The adverb eutheōs ('immediately, at once') emphasizes the radical, unhesitating nature of their response. The Greek diktya ('nets') represents their entire livelihood. Matthew narrates the call with dramatic compression — there is no negotiation, no request for time, no farewell."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 21,
+      "text_greek": "Καὶ προβὰς ἐκεῖθεν εἶδεν ἄλλους δύο ἀδελφούς, Ἰάκωβον τὸν τοῦ Ζεβεδαίου καὶ Ἰωάννην τὸν ἀδελφὸν αὐτοῦ, ἐν τῷ πλοίῳ μετὰ Ζεβεδαίου τοῦ πατρὸς αὐτῶν καταρτίζοντας τὰ δίκτυα αὐτῶν, καὶ ἐκάλεσεν αὐτούς.",
+      "text_kjv": "And going on from thence, he saw other two brethren, James the son of Zebedee, and John his brother, in a ship with Zebedee their father, mending their nets; and he called them.",
+      "rendering": "Going on from there, he saw two other brothers — James the son of Zebedee and his brother John — in a boat with their father Zebedee, mending their nets. He called them,",
+      "translator_notes": [
+        "The Greek katartizontas ('mending, preparing, putting in order') suggests the brothers were repairing nets after a fishing expedition. The detail that they are with their father Zebedee heightens the cost of their response — they leave not only their trade but their family. The Greek ploion is a fishing boat, not a large vessel."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 22,
+      "text_greek": "οἱ δὲ εὐθέως ἀφέντες τὸ πλοῖον καὶ τὸν πατέρα αὐτῶν ἠκολούθησαν αὐτῷ.",
+      "text_kjv": "And they immediately left the ship and their father, and followed him.",
+      "rendering": "They immediately departed the ship and their Father, and followed him.",
+      "translator_notes": [
+        "The cost escalates from the first calling: Simon and Andrew left nets (equipment), but James and John leave both the boat (a more substantial capital asset) and their father (family obligation). Matthew highlights what discipleship requires — not merely adding Jesus to one's life but reordering all other loyalties."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 23,
+      "text_greek": "Καὶ περιῆγεν ἐν ὅλῃ τῇ Γαλιλαίᾳ διδάσκων ἐν ταῖς συναγωγαῖς αὐτῶν καὶ κηρύσσων τὸ εὐαγγέλιον τῆς βασιλείας καὶ θεραπεύων πᾶσαν νόσον καὶ πᾶσαν μαλακίαν ἐν τῷ λαῷ.",
+      "text_kjv": "And Jesus went about all Galilee, teaching in their synagogues, and preaching the gospel of the kingdom, and healing all manner of sickness and all manner of disease among the people.",
+      "rendering": "Jesus traveled throughout all of Galilee, teaching in their synagogues, proclaiming the good news of the kingdom, and healing every disease and every sickness among the people.",
+      "translator_notes": [
+        "This summary verse presents Jesus's ministry in a threefold pattern: teaching (didaskōn), proclaiming (kēryssōn), and healing (therapeuōn). This triad recurs in 9:35, forming an inclusio around the Sermon on the Mount and the miracle collection. The 'good news of the kingdom' (to euangelion tēs basileias) is Matthew's phrase for the content of Jesus's preaching — the announcement that God's reign is arriving. The Greek malakian refers to weakness or infirmity as distinct from nosos (disease)."
+      ],
+      "key_terms": [
+        {
+          "greek": "εὐαγγέλιον",
+          "transliteration": "euangelion",
+          "rendered_as": "good news",
+          "semantic_range": "good news, glad tidings, gospel",
+          "note": "In the Roman world, euangelion announced imperial victories and the accession of a new emperor. The early Christians adopted this loaded political term for the announcement of God's kingdom — a deliberate counter-imperial claim."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 24,
+      "text_greek": "καὶ ἀπῆλθεν ἡ ἀκοὴ αὐτοῦ εἰς ὅλην τὴν Συρίαν· καὶ προσήνεγκαν αὐτῷ πάντας τοὺς κακῶς ἔχοντας ποικίλαις νόσοις καὶ βασάνοις συνεχομένους καὶ δαιμονιζομένους καὶ σεληνιαζομένους καὶ παραλυτικούς, καὶ ἐθεράπευσεν αὐτούς.",
+      "text_kjv": "And his fame went throughout all Syria: and they brought unto him all sick people that were taken with divers diseases and torments, and those which were possessed with devils, and those which were lunatick, and those that had the palsy; and he healed them.",
+      "rendering": "News about him spread throughout all of Syria, and people brought to him all who were afflicted with various diseases and pains, the demon-possessed, epileptics, and the paralyzed, and he healed them.",
+      "translator_notes": [
+        "The Greek selēniazomenous (literally 'moon-struck') refers to those suffering from what was associated with lunar cycles — likely epilepsy. The KJV's 'lunatick' comes from the same etymology but is no longer a medical term. The list moves from general ('various diseases and pains') to specific conditions, demonstrating the comprehensive scope of Jesus's healing power. Syria (the Roman province encompassing the region north of Galilee) indicates that Jesus's reputation extended beyond Jewish territory."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 25,
+      "text_greek": "καὶ ἠκολούθησαν αὐτῷ ὄχλοι πολλοὶ ἀπὸ τῆς Γαλιλαίας καὶ Δεκαπόλεως καὶ Ἱεροσολύμων καὶ Ἰουδαίας καὶ πέραν τοῦ Ἰορδάνου.",
+      "text_kjv": "And there followed him great multitudes of people from Galilee, and from Decapolis, and from Jerusalem, and from Judaea, and from beyond Jordan.",
+      "rendering": "Large crowds followed him from Galilee, the Decapolis, Jerusalem, Judea, and from beyond the Jordan.",
+      "translator_notes": [
+        "The five regions listed encompass a wide geographic sweep — from Galilee in the north, through the Decapolis (a league of ten Greco-Roman cities east of the Jordan), to Jerusalem and Judea in the south, and the Transjordan region. This crowd becomes the audience for the Sermon on the Mount in chapters 5-7. The inclusion of the Decapolis (heavily Gentile) again hints at the universal scope of Jesus's ministry."
+      ],
+      "reading_level": "8th grade"
+    }
+  ]
+}

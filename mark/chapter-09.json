@@ -1,0 +1,596 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Mark",
+    "chapter": 9,
+    "source_text": "SBL Greek New Testament (SBLGNT)",
+    "reference_text": "KJV",
+    "generated_at": "2026-04-04T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Mark 9 moves from the Transfiguration on the mountain — where Jesus is revealed in divine glory alongside Moses and Elijah — to the valley below, where a desperate father brings his demon-possessed son to disciples who cannot heal him. Jesus delivers the boy and offers the second passion prediction. The chapter continues with teachings on true greatness (the least is the greatest), radical inclusion ('whoever is not against us is for us'), and radical self-discipline (the 'cutting off' sayings about sin). The chapter's arc moves from heavenly glory to earthly failure to ethical demand.",
+    "remarkable": "The Transfiguration is the only episode in Mark where Jesus's divine identity is openly displayed before the resurrection. The voice from the cloud — 'This is my beloved Son; listen to him' — repeats the baptismal declaration (1:11) but now addresses the disciples directly. The failed exorcism below the mountain (vv. 14-29) creates a dramatic contrast between the glory above and the struggle below. The father's cry — 'I believe; help my unbelief!' (v. 24) — is one of the most honest prayers in Scripture.",
+    "friction": "The saying 'this kind cannot come out except by prayer' (v. 29) raises questions about exorcism methodology. Some manuscripts add 'and fasting,' but the SBLGNT omits it. The 'salt' sayings at the end of the chapter (vv. 49-50) are notoriously difficult to interpret, and their connection to the preceding material is unclear. We render the Greek as given and address the interpretive challenges in the notes.",
+    "connections": "The Transfiguration echoes Moses on Sinai (Exodus 24, 34) — the mountain, the cloud, the voice, the shining appearance, the six days. Elijah's presence connects to Malachi 4:5-6 and the expected return of Elijah before the Day of the Lord. The second passion prediction (v. 31) advances the trajectory toward Jerusalem. The teaching on greatness (vv. 33-37) inverts all conventional honor systems and anticipates Jesus's own self-offering.\n\n**Tradition comparisons:** JST footnote at Mark 9:44: Hell-fire warnings (worm dies not / fire not quenched) revised See the [JST notes](/jst/mark)."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_greek": "Καὶ ἔλεγεν αὐτοῖς· Ἀμὴν λέγω ὑμῖν ὅτι εἰσίν τινες τῶν ὧδε ἑστηκότων οἵτινες οὐ μὴ γεύσωνται θανάτου ἕως ἂν ἴδωσιν τὴν βασιλείαν τοῦ θεοῦ ἐληλυθυῖαν ἐν δυνάμει.",
+      "text_kjv": "And he said unto them, Verily I say unto you, That there be some of them that stand here, which shall not taste of death, till they have seen the kingdom of God come with power.",
+      "rendering": "And he said to them, \"Truly I say to you, there are some standing here who will not taste death until they see the kingdom of God having come in power.\"",
+      "translator_notes": [
+        "This saying is linked to 8:38 and serves as a transition to the Transfiguration. The phrase 'taste death' (geusōntai thanatou) is a Semitic idiom meaning 'experience death.' The perfect participle elēlythuian ('having come') indicates a completed arrival, not a gradual process. The referent — what 'seeing the kingdom come in power' means — is debated: the Transfiguration, the resurrection, Pentecost, or the destruction of Jerusalem have all been proposed."
+      ],
+      "key_terms": [
+        {
+          "greek": "βασιλεία τοῦ θεοῦ",
+          "transliteration": "basileia tou theou",
+          "rendered_as": "kingdom of God",
+          "semantic_range": "kingdom, reign, rule, royal power of God",
+          "note": "Mark's characteristic phrase for God's sovereign rule breaking into the present age. Unlike Matthew's 'kingdom of heaven,' Mark uses 'kingdom of God' directly."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 2,
+      "text_greek": "Καὶ μετὰ ἡμέρας ἓξ παραλαμβάνει ὁ Ἰησοῦς τὸν Πέτρον καὶ τὸν Ἰάκωβον καὶ τὸν Ἰωάννην, καὶ ἀναφέρει αὐτοὺς εἰς ὄρος ὑψηλὸν κατ' ἰδίαν μόνους. καὶ μετεμορφώθη ἔμπροσθεν αὐτῶν,",
+      "text_kjv": "And after six days Jesus taketh with him Peter, and James, and John, and leadeth them up into an high mountain apart by themselves: and he was transfigured before them.",
+      "rendering": "After six days Jesus took Peter, James, and John and led them up a high mountain by themselves, alone. And he was transfigured before them,",
+      "translator_notes": [
+        "The 'six days' may echo Exodus 24:16, where the cloud covered Sinai for six days before God spoke to Moses on the seventh. Peter, James, and John form Jesus's inner circle (cf. 5:37, 14:33). The verb metemorphōthē ('was transfigured, was transformed') indicates a change of form (morphē), not merely appearance — the same root Paul uses in Romans 12:2 and 2 Corinthians 3:18.",
+        "[TCR Cross-Reference] Draws on Exodus 24:16. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "key_terms": [
+        {
+          "greek": "μεταμορφόω",
+          "transliteration": "metamorphoō",
+          "rendered_as": "transfigured",
+          "semantic_range": "to transform, to change form, to transfigure",
+          "note": "A change of essential form, not a disguise. The passive voice indicates divine agency — Jesus did not transfigure himself but was transfigured, revealed in his true nature."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 3,
+      "text_greek": "καὶ τὰ ἱμάτια αὐτοῦ ἐγένετο στίλβοντα λευκὰ λίαν, οἷα γναφεὺς ἐπὶ τῆς γῆς οὐ δύναται οὕτως λευκᾶναι.",
+      "text_kjv": "And his raiment became shining, exceeding white as snow; so as no fuller on earth can white them.",
+      "rendering": "His raiment became gleaming, exceeding brilliant as snow. So as no fuller on earth can white them.",
+      "translator_notes": [
+        "Mark's description is earthy and vivid — he compares the supernatural brilliance to a launderer's best work and declares it surpassed. The word gnapheus ('fuller, launderer, cloth-bleacher') is a working-class trade term. The whiteness signals heavenly origin (cf. Daniel 7:9, where the Ancient of Days wears white garments).",
+        "[TCR Cross-Reference] References Daniel 7:9 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 4,
+      "text_greek": "καὶ ὤφθη αὐτοῖς Ἠλίας σὺν Μωϋσεῖ καὶ ἦσαν συλλαλοῦντες τῷ Ἰησοῦ.",
+      "text_kjv": "And there appeared unto them Elias with Moses: and they were talking with Jesus.",
+      "rendering": "And Elijah appeared to them along with Moses, and they were talking with Jesus.",
+      "translator_notes": [
+        "Mark names Elijah first (Matthew and Luke name Moses first), perhaps reflecting Mark's sustained interest in the Elijah-John the Baptist connection. Moses represents the Law, Elijah the Prophets — the entire Old Testament bears witness to Jesus. The content of their conversation is not recorded in Mark (Luke 9:31 says they discussed Jesus's 'departure' in Jerusalem)."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 5,
+      "text_greek": "καὶ ἀποκριθεὶς ὁ Πέτρος λέγει τῷ Ἰησοῦ· Ῥαββί, καλόν ἐστιν ἡμᾶς ὧδε εἶναι, καὶ ποιήσωμεν τρεῖς σκηνάς, σοὶ μίαν καὶ Μωϋσεῖ μίαν καὶ Ἠλίᾳ μίαν.",
+      "text_kjv": "And Peter answered and said to Jesus, Master, it is good for us to be here: and let us make three tabernacles; one for thee, and one for Moses, and one for Elias.",
+      "rendering": "Then Peter said to Jesus, \"Rabbi, it is good for us to be here. Let us make three shelters — one for you, one for Moses, and one for Elijah.\"",
+      "translator_notes": [
+        "Peter addresses Jesus as 'Rabbi' (teacher) — a title that seems inadequate given what he is witnessing. The proposal to build three skēnas ('tents, shelters, tabernacles') may reflect the Feast of Tabernacles, when Israel dwelt in booths commemorating the wilderness wandering. Peter's impulse is to prolong the mountaintop experience and to place Jesus on an equal footing with Moses and Elijah — both errors the divine voice will correct."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 6,
+      "text_greek": "οὐ γὰρ ᾔδει τί ἀποκριθῇ, ἔκφοβοι γὰρ ἐγένοντο.",
+      "text_kjv": "For he wist not what to say; for they were sore afraid.",
+      "rendering": "For he did not know what to say, because they were terrified.",
+      "translator_notes": [
+        "Mark's candid editorial comment explains Peter's remark: he spoke from terror (ekphoboi, 'terrified, struck with fear'), not from understanding. This is a theophanic response — the fear that grips humans in the presence of the divine (cf. Exodus 3:6, Isaiah 6:5).",
+        "[TCR Cross-Reference] Quotes Exodus 3:6. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it.",
+        "[TCR Cross-Reference] Quotes Isaiah 6:5. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 7,
+      "text_greek": "καὶ ἐγένετο νεφέλη ἐπισκιάζουσα αὐτοῖς, καὶ ἐγένετο φωνὴ ἐκ τῆς νεφέλης· Οὗτός ἐστιν ὁ υἱός μου ὁ ἀγαπητός, ἀκούετε αὐτοῦ.",
+      "text_kjv": "And there was a cloud that overshadowed them: and a voice came out of the cloud, saying, This is my beloved Son: hear him.",
+      "rendering": "Then a cloud came, overshadowing them, and a voice came from the cloud: \"This is my beloved Son — listen to him.\"",
+      "translator_notes": [
+        "The cloud (nephelē) is the shekinah — the glory-cloud of God's presence that filled the tabernacle (Exodus 40:34-35) and the temple (1 Kings 8:10-11). The voice from the cloud repeats the baptismal declaration (1:11) with a crucial change: 'This is my Son' (third person, addressed to the disciples) replaces 'You are my Son' (second person, addressed to Jesus). The command 'listen to him' (akouete autou) echoes Deuteronomy 18:15, where Moses promises a prophet like himself whom the people must obey.",
+        "[TCR Cross-Reference] Draws on Exodus 40:34-35. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices.",
+        "[TCR Cross-Reference] Draws on 1 Kings 8:10-11. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices.",
+        "[TCR Cross-Reference] Draws on Deuteronomy 18:15. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "key_terms": [
+        {
+          "greek": "ὁ υἱός μου ὁ ἀγαπητός",
+          "transliteration": "ho huios mou ho agapētos",
+          "rendered_as": "my beloved Son",
+          "semantic_range": "my son, the beloved; my only, dear son",
+          "note": "The phrase echoes Genesis 22:2 (Isaac as Abraham's 'beloved son') and Psalm 2:7 (the royal son of God). The combination 'beloved Son' carries both sacrificial and royal overtones."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 8,
+      "text_greek": "καὶ ἐξάπινα περιβλεψάμενοι οὐκέτι οὐδένα εἶδον ἀλλὰ τὸν Ἰησοῦν μόνον μεθ' ἑαυτῶν.",
+      "text_kjv": "And suddenly, when they had looked round about, they saw no man any more, save Jesus only with themselves.",
+      "rendering": "Suddenly, looking around, they no longer saw anyone with them but Jesus alone.",
+      "translator_notes": [
+        "The vision ends abruptly. Moses and Elijah have vanished; only Jesus remains. The theological point is clear: the Law and the Prophets have given way to Jesus. He alone is the one to whom they must listen."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 9,
+      "text_greek": "Καὶ καταβαινόντων αὐτῶν ἐκ τοῦ ὄρους διεστείλατο αὐτοῖς ἵνα μηδενὶ ἃ εἶδον διηγήσωνται, εἰ μὴ ὅταν ὁ υἱὸς τοῦ ἀνθρώπου ἐκ νεκρῶν ἀναστῇ.",
+      "text_kjv": "And as they came down from the mountain, he charged them that they should tell no man what things they had seen, till the Son of man were risen from the dead.",
+      "rendering": "As they were coming down the mountain, he ordered them to tell no one what they had seen until the Son of Man had risen from the dead.",
+      "translator_notes": [
+        "The messianic secret here has an explicit time limit: silence until the resurrection. This is the clearest indication that the secrecy is temporary and pedagogical — the Transfiguration cannot be properly understood until after the cross and resurrection provide the interpretive framework."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 10,
+      "text_greek": "καὶ τὸν λόγον ἐκράτησαν πρὸς ἑαυτοὺς συζητοῦντες τί ἐστιν τὸ ἐκ νεκρῶν ἀναστῆναι.",
+      "text_kjv": "And they kept that saying with themselves, questioning one with another what the rising from the dead should mean.",
+      "rendering": "They kept the matter to themselves, questioning what this \"rising from the dead\" meant.",
+      "translator_notes": [
+        "The disciples obeyed the command to silence but were puzzled by the phrase 'rising from the dead.' While Jews believed in a general resurrection at the end of the age (cf. Daniel 12:2), the idea of a single individual rising before the general resurrection was unprecedented.",
+        "[TCR Cross-Reference] This verse quotes Daniel 12:2 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 11,
+      "text_greek": "καὶ ἐπηρώτων αὐτὸν λέγοντες· Ὅτι λέγουσιν οἱ γραμματεῖς ὅτι Ἠλίαν δεῖ ἐλθεῖν πρῶτον;",
+      "text_kjv": "And they asked him, saying, Why say the scribes that Elias must first come?",
+      "rendering": "And they asked him, \"Why do the scribes say that Elijah must come first?\"",
+      "translator_notes": [
+        "The appearance of Elijah on the mountain prompted the question. The scribal teaching was based on Malachi 4:5-6: 'I will send you Elijah the prophet before the great and terrible day of the LORD.' If Elijah must come first to restore all things, why is the Son of Man speaking of suffering?",
+        "[TCR Cross-Reference] Quotes Malachi 4:5-6:. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 12,
+      "text_greek": "ὁ δὲ ἔφη αὐτοῖς· Ἠλίας μὲν ἐλθὼν πρῶτον ἀποκαθιστάνει πάντα· καὶ πῶς γέγραπται ἐπὶ τὸν υἱὸν τοῦ ἀνθρώπου ἵνα πολλὰ πάθῃ καὶ ἐξουδενηθῇ;",
+      "text_kjv": "And he answered and told them, Elias verily cometh first, and restoreth all things; and how it is written of the Son of man, that he must suffer many things, and be set at nought.",
+      "rendering": "He said to them, \"Elijah does come first and restores all things. And how is it written of the Son of Man that he should suffer many things and be treated with contempt?",
+      "translator_notes": [
+        "Jesus affirms the Elijah tradition but adds a counter-question: if Scripture speaks of Elijah's restoration, it also speaks of the Son of Man's suffering. The verb exoudenēthē ('treated with contempt, despised, counted as nothing') echoes Isaiah 53:3 and Psalm 22:6.",
+        "[TCR Cross-Reference] Draws on Isaiah 53:3. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices.",
+        "[TCR Cross-Reference] Draws on Psalm 22:6. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 13,
+      "text_greek": "ἀλλὰ λέγω ὑμῖν ὅτι καὶ Ἠλίας ἐλήλυθεν, καὶ ἐποίησαν αὐτῷ ὅσα ἤθελον, καθὼς γέγραπται ἐπ' αὐτόν.",
+      "text_kjv": "But I say unto you, That Elias is indeed come, and they have done unto him whatsoever they listed, as it is written of him.",
+      "rendering": "But I tell you that Elijah has come, and they did to him whatever they wished, just as it is written about him.\"",
+      "translator_notes": [
+        "The reference is to John the Baptist, whose execution by Herod was narrated in 6:14-29. The pattern Jesus establishes is clear: Elijah came and was mistreated; the Son of Man will come and be mistreated. The phrase 'as it is written about him' is difficult — no Old Testament text explicitly describes Elijah being mistreated, though 1 Kings 19:2 and 19:10 recount threats against his life.",
+        "[TCR Cross-Reference] References 1 Kings 19:2 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 14,
+      "text_greek": "Καὶ ἐλθόντες πρὸς τοὺς μαθητὰς εἶδον ὄχλον πολὺν περὶ αὐτοὺς καὶ γραμματεῖς συζητοῦντας πρὸς αὐτούς.",
+      "text_kjv": "And when he came to his disciples, he saw a great multitude about them, and the scribes questioning with them.",
+      "rendering": "When they came to the other disciples, they saw a great crowd around them and scribes arguing with them.",
+      "translator_notes": [
+        "The descent from the mountain of glory to a scene of confusion and controversy mirrors Moses's descent from Sinai to find Israel's golden calf apostasy (Exodus 32). The nine disciples left behind are overwhelmed.",
+        "[TCR Cross-Reference] Echoes Exodus 32. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 15,
+      "text_greek": "καὶ εὐθὺς πᾶς ὁ ὄχλος ἰδόντες αὐτὸν ἐξεθαμβήθησαν καὶ προστρέχοντες ἠσπάζοντο αὐτόν.",
+      "text_kjv": "And straightway all the people, when they beheld him, were greatly amazed, and running to him saluted him.",
+      "rendering": "Immediately the whole crowd, when they saw him, were greatly amazed and ran to greet him.",
+      "translator_notes": [
+        "The crowd's amazement (exethambēthēsan) at seeing Jesus may suggest that some residual glory from the Transfiguration lingered on his face, as with Moses in Exodus 34:29-30, though Mark does not make this explicit.",
+        "[TCR Cross-Reference] This verse quotes Exodus 34:29-30 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 16,
+      "text_greek": "καὶ ἐπηρώτησεν αὐτούς· Τί συζητεῖτε πρὸς αὐτούς;",
+      "text_kjv": "And he asked the scribes, What question ye with them?",
+      "rendering": "He asked them, \"What are you arguing about with them?\"",
+      "translator_notes": [
+        "Jesus addresses either the crowd or the scribes (the pronoun is ambiguous), asking about the dispute with the disciples."
+      ],
+      "reading_level": "5th grade"
+    },
+    {
+      "verse": 17,
+      "text_greek": "καὶ ἀπεκρίθη αὐτῷ εἷς ἐκ τοῦ ὄχλου· Διδάσκαλε, ἤνεγκα τὸν υἱόν μου πρὸς σέ, ἔχοντα πνεῦμα ἄλαλον·",
+      "text_kjv": "And one of the multitude answered and said, Master, I have brought unto thee my son, which hath a dumb spirit;",
+      "rendering": "Someone from the crowd answered him, \"Teacher, I brought my son to you, for he has a spirit that makes him mute.",
+      "translator_notes": [
+        "The father addresses Jesus as 'Teacher' (Didaskale). The spirit is called alalon ('mute, speechless') — it has robbed the boy of speech. The description that follows (v. 18) also suggests seizure activity, leading many to identify epilepsy as the physical manifestation of the spiritual affliction."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 18,
+      "text_greek": "καὶ ὅπου ἐὰν αὐτὸν καταλάβῃ ῥήσσει αὐτόν, καὶ ἀφρίζει καὶ τρίζει τοὺς ὀδόντας καὶ ξηραίνεται· καὶ εἶπα τοῖς μαθηταῖς σου ἵνα αὐτὸ ἐκβάλωσιν, καὶ οὐκ ἴσχυσαν.",
+      "text_kjv": "And wheresoever he taketh him, he teareth him: and he foameth, and gnasheth with his teeth, and pineth away: and I spake to thy disciples that they should cast him out; and they could not.",
+      "rendering": "Whenever it seizes him, it throws him down, and he foams at the mouth and grinds his teeth and becomes rigid. I asked your disciples to cast it out, but they could not.\"",
+      "translator_notes": [
+        "The symptoms described — seizures, foaming, teeth-grinding, rigidity (xērainetai, literally 'dries up, withers, becomes stiff') — are consistent with severe epileptic episodes. The disciples' inability to cast out this spirit sets up the teaching in verse 29 about prayer."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 19,
+      "text_greek": "ὁ δὲ ἀποκριθεὶς αὐτοῖς λέγει· Ὦ γενεὰ ἄπιστος, ἕως πότε πρὸς ὑμᾶς ἔσομαι; ἕως πότε ἀνέξομαι ὑμῶν; φέρετε αὐτὸν πρός με.",
+      "text_kjv": "He answereth him, and saith, O faithless generation, how long shall I be with you? how long shall I suffer you? bring him unto me.",
+      "rendering": "He answered them, \"O faithless generation, how long am I to be with you? How long am I to bear with you? Bring him to me.\"",
+      "translator_notes": [
+        "Jesus's exasperation echoes Moses's frustration with Israel in the wilderness (Numbers 14:27, Deuteronomy 32:5, 20). The address 'faithless generation' (genea apistos) encompasses not just the disciples but the entire unbelieving context. The double question — 'how long... how long...' — expresses both impatience and poignant awareness of limited time.",
+        "[TCR Cross-Reference] Echoes Numbers 14:27. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale.",
+        "[TCR Cross-Reference] Echoes Deuteronomy 32:5. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 20,
+      "text_greek": "καὶ ἤνεγκαν αὐτὸν πρὸς αὐτόν. καὶ ἰδὼν αὐτὸν τὸ πνεῦμα εὐθὺς συνεσπάραξεν αὐτόν, καὶ πεσὼν ἐπὶ τῆς γῆς ἐκυλίετο ἀφρίζων.",
+      "text_kjv": "And they brought him unto him: and when he saw him, straightway the spirit tare him; and he fell on the ground, and wallowed foaming.",
+      "rendering": "They brought the boy to him. When the spirit saw Jesus, it immediately threw the boy into convulsions, and he fell on the ground and rolled around, foaming at the mouth.",
+      "translator_notes": [
+        "The spirit reacts violently to Jesus's presence — a pattern in Mark's exorcism accounts (1:26, 5:6-7). The verb synesparaxen ('convulsed violently, tore') describes the physical violence of the seizure. The scene is raw and distressing."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 21,
+      "text_greek": "καὶ ἐπηρώτησεν τὸν πατέρα αὐτοῦ· Πόσος χρόνος ἐστὶν ὡς τοῦτο γέγονεν αὐτῷ; ὁ δὲ εἶπεν· Ἐκ παιδιόθεν·",
+      "text_kjv": "And he asked his father, How long is it ago since this came unto him? And he said, Of a child.",
+      "rendering": "Jesus asked his father, \"How long has this been happening to him?\" He said, \"From childhood.",
+      "translator_notes": [
+        "Jesus's question is not for information-gathering (as if he needed it) but to draw out the father's faith and to reveal the depth of the suffering. The answer 'from childhood' (ek paidiothen) indicates years of torment."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 22,
+      "text_greek": "καὶ πολλάκις καὶ εἰς πῦρ αὐτὸν ἔβαλεν καὶ εἰς ὕδατα ἵνα ἀπολέσῃ αὐτόν· ἀλλ' εἴ τι δύνῃ, βοήθησον ἡμῖν σπλαγχνισθεὶς ἐφ' ἡμᾶς.",
+      "text_kjv": "And ofttimes it hath cast him into the fire, and into the waters, to destroy him: but if thou canst do any thing, have compassion on us, and help us.",
+      "rendering": "It has often thrown him into fire and into water to destroy him. But if you can do anything, have compassion on us and help us.\"",
+      "translator_notes": [
+        "The spirit is actively trying to kill the boy — the fires and waters are not accidental but purposeful attempts at destruction. The father's 'if you can' (ei ti dynē) reveals honest doubt after the disciples' failure. His plea is for 'us' (hēmas), not just the boy — the whole family suffers."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 23,
+      "text_greek": "ὁ δὲ Ἰησοῦς εἶπεν αὐτῷ· Τὸ Εἰ δύνῃ, πάντα δυνατὰ τῷ πιστεύοντι.",
+      "text_kjv": "Jesus said unto him, If thou canst believe, all things are possible to him that believeth.",
+      "rendering": "Jesus said to him, \"'If you can'! All things are possible for the one who believes.\"",
+      "translator_notes": [
+        "Jesus throws the father's words back at him with the quotation 'If you can!' (to Ei dynē) — the issue is not Jesus's ability but the father's faith. The declaration 'all things are possible for the one who believes' (panta dynata tō pisteuonti) locates the power in faith's connection to God, not in faith as a psychological force."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 24,
+      "text_greek": "εὐθὺς κράξας ὁ πατὴρ τοῦ παιδίου ἔλεγεν· Πιστεύω· βοήθει μου τῇ ἀπιστίᾳ.",
+      "text_kjv": "And straightway the father of the child cried out, and said with tears, Lord, I believe; help thou mine unbelief.",
+      "rendering": "Immediately the father of the child cried out, \"I believe — help my unbelief!\"",
+      "translator_notes": [
+        "This is one of the most psychologically honest prayers in Scripture. The father simultaneously affirms faith and confesses its inadequacy. He does not pretend to more faith than he has, nor does he surrender to doubt. The paradox — believing and unbelieving at once — captures the human condition before God. The SBLGNT does not include 'with tears' (meta dakryōn), found in some manuscripts."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 25,
+      "text_greek": "ἰδὼν δὲ ὁ Ἰησοῦς ὅτι ἐπισυντρέχει ὄχλος ἐπετίμησεν τῷ πνεύματι τῷ ἀκαθάρτῳ λέγων αὐτῷ· Τὸ ἄλαλον καὶ κωφὸν πνεῦμα, ἐγὼ ἐπιτάσσω σοι, ἔξελθε ἐξ αὐτοῦ καὶ μηκέτι εἰσέλθῃς εἰς αὐτόν.",
+      "text_kjv": "When Jesus saw that the people came running together, he rebuked the foul spirit, saying unto him, Thou dumb and deaf spirit, I charge thee, come out of him, and enter no more into him.",
+      "rendering": "When Jesus saw that a crowd was rapidly gathering, he rebuked the unclean spirit, saying to it, \"You mute and deaf spirit, I command you, come out of him and never enter him again.\"",
+      "translator_notes": [
+        "Jesus acts quickly before the crowd grows larger — consistent with his pattern of avoiding public spectacle. The emphatic pronoun egō ('I myself') asserts personal authority over the spirit. The command 'never enter him again' (mēketi eiselthēs eis auton) goes beyond exorcism to permanent prohibition, ensuring the boy's lasting freedom."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 26,
+      "text_greek": "καὶ κράξας καὶ πολλὰ σπαράξας ἐξῆλθεν· καὶ ἐγένετο ὡσεὶ νεκρὸς ὥστε τοὺς πολλοὺς λέγειν ὅτι ἀπέθανεν.",
+      "text_kjv": "And the spirit cried, and rent him sore, and came out of him: and he was as one dead; insomuch that many said, He is dead.",
+      "rendering": "After crying out and convulsing him violently, it came out. The boy became like a corpse, so that most of them said, \"He is dead.\"",
+      "translator_notes": [
+        "The departure of the spirit is violent — a final act of destruction on the way out. The boy's apparent death creates a narrative of resurrection: he appears dead, then Jesus raises him. This prefigures Jesus's own death and resurrection."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 27,
+      "text_greek": "ὁ δὲ Ἰησοῦς κρατήσας τῆς χειρὸς αὐτοῦ ἤγειρεν αὐτόν, καὶ ἀνέστη.",
+      "text_kjv": "But Jesus took him by the hand, and lifted him up; and he arose.",
+      "rendering": "But Jesus took him by the hand and raised him up, and he stood.",
+      "translator_notes": [
+        "The verb egeiren ('raised up') is the same word used for resurrection throughout the New Testament. The boy's raising prefigures the ultimate raising that Jesus has been predicting. The physical touch — taking the hand — echoes the raising of Jairus's daughter (5:41)."
+      ],
+      "reading_level": "5th grade"
+    },
+    {
+      "verse": 28,
+      "text_greek": "καὶ εἰσελθόντος αὐτοῦ εἰς οἶκον οἱ μαθηταὶ αὐτοῦ κατ' ἰδίαν ἐπηρώτων αὐτόν· Ὅτι ἡμεῖς οὐκ ἠδυνήθημεν ἐκβαλεῖν αὐτό;",
+      "text_kjv": "And when he was come into the house, his disciples asked him privately, Why could not we cast him out?",
+      "rendering": "After he had gone indoors, his disciples asked him privately, \"Why could we not cast it out?\"",
+      "translator_notes": [
+        "The private setting (kat' idian, 'privately') continues Mark's pattern of public ministry followed by private instruction. The disciples' question reveals their awareness of having received authority over unclean spirits (6:7) and their confusion at its failure."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 29,
+      "text_greek": "καὶ εἶπεν αὐτοῖς· Τοῦτο τὸ γένος ἐν οὐδενὶ δύναται ἐξελθεῖν εἰ μὴ ἐν προσευχῇ.",
+      "text_kjv": "And he said unto them, This kind can come forth by nothing, but by prayer and fasting.",
+      "rendering": "He said to them, \"This kind cannot come out by anything except prayer.\"",
+      "translator_notes": [
+        "The SBLGNT reads only 'prayer' (proseuchē) without 'and fasting' (kai nēsteia), which appears in later manuscripts. The point is that the disciples relied on their delegated authority as a technique rather than maintaining dependence on God through prayer. The word genos ('kind, type, class') suggests categories of spiritual opposition with varying degrees of resistance."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 30,
+      "text_greek": "Κἀκεῖθεν ἐξελθόντες παρεπορεύοντο διὰ τῆς Γαλιλαίας, καὶ οὐκ ἤθελεν ἵνα τις γνοῖ·",
+      "text_kjv": "And they departed thence, and passed through Galilee; and he would not that any man should know it.",
+      "rendering": "They went out from there and passed through Galilee. He did not want anyone to know,",
+      "translator_notes": [
+        "The desire for secrecy here serves the need for focused teaching: Jesus is preparing the disciples for what lies ahead in Jerusalem, and public ministry would be a distraction."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 31,
+      "text_greek": "ἐδίδασκεν γὰρ τοὺς μαθητὰς αὐτοῦ καὶ ἔλεγεν αὐτοῖς ὅτι Ὁ υἱὸς τοῦ ἀνθρώπου παραδίδοται εἰς χεῖρας ἀνθρώπων, καὶ ἀποκτενοῦσιν αὐτόν, καὶ ἀποκτανθεὶς μετὰ τρεῖς ἡμέρας ἀναστήσεται.",
+      "text_kjv": "For he taught his disciples, and said unto them, The Son of man is delivered into the hands of men, and they shall kill him; and after that he is killed, he shall rise the third day.",
+      "rendering": "Since he taught his followers, and stated to them, the Son of Man is delivered into the hands of men, then they will kill him. And following that he is killed, he will rise the third day.",
+      "translator_notes": [
+        "The second passion prediction is more concise than the first (8:31) but adds the detail of being 'delivered into the hands of men' (paradidotai eis cheiras anthrōpōn). The present tense paradidotai ('is being delivered') suggests the betrayal is already in process. The wordplay between 'Son of Man' (huios tou anthrōpou) and 'hands of men' (cheiras anthrōpōn) is deliberate — the Human One is handed over to humans."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 32,
+      "text_greek": "οἱ δὲ ἠγνόουν τὸ ῥῆμα, καὶ ἐφοβοῦντο αὐτὸν ἐπερωτῆσαι.",
+      "text_kjv": "But they understood not that saying, and were afraid to ask him.",
+      "rendering": "But they did not understand the saying, and they were afraid to ask him.",
+      "translator_notes": [
+        "After Peter's rebuke in 8:33, the disciples are now afraid to question Jesus about his passion predictions. The verb ēgnooun ('they did not understand') is the imperfect of agnoeō ('to be ignorant, to not comprehend') — their incomprehension was ongoing."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 33,
+      "text_greek": "Καὶ ἦλθον εἰς Καφαρναούμ. Καὶ ἐν τῇ οἰκίᾳ γενόμενος ἐπηρώτα αὐτούς· Τί ἐν τῇ ὁδῷ διελογίζεσθε;",
+      "text_kjv": "And he came to Capernaum: and being in the house he asked them, What was it that ye disputed among yourselves by the way?",
+      "rendering": "They came to Capernaum. When he was in the house, he asked them, \"What were you discussing on the way?\"",
+      "translator_notes": [
+        "Capernaum was Jesus's base of operations in Galilee (cf. 1:21, 2:1). 'The house' (tē oikia) likely refers to Peter's house, used as a regular meeting place. Jesus's question draws out a confession the disciples are embarrassed to make."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 34,
+      "text_greek": "οἱ δὲ ἐσιώπων· πρὸς ἀλλήλους γὰρ διελέχθησαν ἐν τῇ ὁδῷ τίς μείζων.",
+      "text_kjv": "But they held their peace: for by the way they had disputed among themselves, who should be the greatest.",
+      "rendering": "But they were silent, for on the way they had argued with one another about who was the greatest.",
+      "translator_notes": [
+        "Their silence reveals their shame. The irony is brutal: Jesus has just predicted his death, and the disciples are competing for rank. The question 'who is greatest' (tis meizōn) exposes the distance between Jesus's understanding of messiahship and theirs."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 35,
+      "text_greek": "καὶ καθίσας ἐφώνησεν τοὺς δώδεκα καὶ λέγει αὐτοῖς· Εἴ τις θέλει πρῶτος εἶναι, ἔσται πάντων ἔσχατος καὶ πάντων διάκονος.",
+      "text_kjv": "And he sat down, and called the twelve, and saith unto them, If any man desire to be first, the same shall be last of all, and servant of all.",
+      "rendering": "He sat down, called the twelve, and said to them, \"If anyone wants to be first, he must be last of all and servant of all.\"",
+      "translator_notes": [
+        "Sitting down (kathisas) is the posture of an authoritative teacher. The reversal is total: the one who wants to be first (prōtos) must become last (eschatos) and servant (diakonos). The word diakonos ('servant, one who serves at table') is not the word for slave (doulos) but for voluntary service — though Jesus will use doulos in 10:44."
+      ],
+      "key_terms": [
+        {
+          "greek": "διάκονος",
+          "transliteration": "diakonos",
+          "rendered_as": "servant",
+          "semantic_range": "servant, minister, attendant, one who waits on tables",
+          "note": "The root of 'deacon.' In Jesus's teaching, it describes the essential posture of leadership in the kingdom of God — not authority over others but service to them."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 36,
+      "text_greek": "καὶ λαβὼν παιδίον ἔστησεν αὐτὸ ἐν μέσῳ αὐτῶν καὶ ἐναγκαλισάμενος αὐτὸ εἶπεν αὐτοῖς·",
+      "text_kjv": "And he took a child, and set him in the midst of them: and when he had taken him in his arms, he said unto them,",
+      "rendering": "Taking a child, he set him in the middle of them. Then taking him in his arms, he said to them,",
+      "translator_notes": [
+        "The physical gesture — embracing the child (enagkalisamenos, 'having taken in his arms') — is tender and deliberate. In the ancient world, children had no social standing and were valued primarily as future adults. Jesus places a person of zero social status at the center of the community."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 37,
+      "text_greek": "Ὃς ἂν ἓν τῶν τοιούτων παιδίων δέξηται ἐπὶ τῷ ὀνόματί μου, ἐμὲ δέχεται· καὶ ὃς ἂν ἐμὲ δέχηται, οὐκ ἐμὲ δέχεται ἀλλὰ τὸν ἀποστείλαντά με.",
+      "text_kjv": "Whosoever shall receive one of such children in my name, receiveth me; and whosoever shall receive me, receiveth not me, but him that sent me.",
+      "rendering": "\"Whoever receives one such child in my name receives me, and whoever receives me receives not me but the one who sent me.\"",
+      "translator_notes": [
+        "The chain of identification — child to Jesus to God — inverts the honor scale. To receive (dexētai, 'welcome, accept') the lowest is to receive the highest. The phrase 'in my name' (epi tō onomati mou) means 'for my sake, as my representative, on the basis of my authority.'"
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 38,
+      "text_greek": "Ἔφη αὐτῷ ὁ Ἰωάννης· Διδάσκαλε, εἴδομέν τινα ἐν τῷ ὀνόματί σου ἐκβάλλοντα δαιμόνια καὶ ἐκωλύομεν αὐτόν, ὅτι οὐκ ἠκολούθει ἡμῖν.",
+      "text_kjv": "And John answered him, saying, Master, we saw one casting out devils in thy name, and he followeth not us: and we forbad him, because he followeth not us.",
+      "rendering": "John said to him, \"Teacher, we saw someone casting out demons in your name, and we tried to stop him because he was not following us.\"",
+      "translator_notes": [
+        "John's report introduces a question about boundaries: who has the right to act in Jesus's name? The disciples assumed that only those in their group had authority. The imperfect ekōlyomen ('we were trying to stop him') suggests repeated attempts."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 39,
+      "text_greek": "ὁ δὲ Ἰησοῦς εἶπεν· Μὴ κωλύετε αὐτόν· οὐδεὶς γάρ ἐστιν ὃς ποιήσει δύναμιν ἐπὶ τῷ ὀνόματί μου καὶ δυνήσεται ταχὺ κακολογῆσαί με·",
+      "text_kjv": "But Jesus said, Forbid him not: for there is no man which shall do a miracle in my name, that can lightly speak evil of me.",
+      "rendering": "But Jesus said, \"Do not stop him, for no one who does a mighty work in my name will be able soon afterward to speak evil of me.",
+      "translator_notes": [
+        "Jesus's response is strikingly generous: effective use of his name is self-authenticating. The word dynamin ('mighty work, miracle, act of power') refers to the exorcism. The logic is practical: someone who experiences divine power through Jesus's name is unlikely to turn against him."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 40,
+      "text_greek": "ὃς γὰρ οὐκ ἔστιν καθ' ἡμῶν, ὑπὲρ ἡμῶν ἐστιν.",
+      "text_kjv": "For he that is not against us is on our part.",
+      "rendering": "For whoever is not against us is for us.",
+      "translator_notes": [
+        "This principle of inclusion contrasts with the exclusionary version in Matthew 12:30 ('whoever is not with me is against me'). The two sayings address different situations: Matthew 12:30 confronts neutrality in the face of spiritual warfare; Mark 9:40 addresses overzealous boundary-drawing by the disciples."
+      ],
+      "reading_level": "5th grade"
+    },
+    {
+      "verse": 41,
+      "text_greek": "Ὃς γὰρ ἂν ποτίσῃ ὑμᾶς ποτήριον ὕδατος ἐν ὀνόματι ὅτι Χριστοῦ ἐστε, ἀμὴν λέγω ὑμῖν ὅτι οὐ μὴ ἀπολέσῃ τὸν μισθὸν αὐτοῦ.",
+      "text_kjv": "For whosoever shall give you a cup of water to drink in my name, because ye belong to Christ, verily I say unto you, he shall not lose his reward.",
+      "rendering": "For truly I say to you, whoever gives you a cup of water to drink because you belong to Christ will by no means lose his reward.",
+      "translator_notes": [
+        "The example descends to the smallest possible act of kindness — a cup of water. Even this minimal gesture, if motivated by allegiance to Christ, carries eternal significance. The phrase 'because you belong to Christ' (hoti Christou este) uses the genitive of possession."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 42,
+      "text_greek": "Καὶ ὃς ἂν σκανδαλίσῃ ἕνα τῶν μικρῶν τούτων τῶν πιστευόντων εἰς ἐμέ, καλόν ἐστιν αὐτῷ μᾶλλον εἰ περίκειται μύλος ὀνικὸς περὶ τὸν τράχηλον αὐτοῦ καὶ βέβληται εἰς τὴν θάλασσαν.",
+      "text_kjv": "And whosoever shall offend one of these little ones that believe in me, it is better for him that a millstone were hanged about his neck, and he were cast into the sea.",
+      "rendering": "\"Whoever causes one of these little ones who believe in me to stumble, it would be better for him if a great millstone were hung around his neck and he were thrown into the sea.",
+      "translator_notes": [
+        "The verb skandalisē ('cause to stumble, cause to fall into sin') gives us the English 'scandalize.' The 'little ones' (mikrōn) extends beyond children to include all vulnerable believers. The mylos onikos ('donkey-millstone') is the large upper millstone turned by a donkey, as opposed to the small hand-mill — a weight ensuring drowning. The image is deliberately extreme to convey the severity of leading others astray."
+      ],
+      "key_terms": [
+        {
+          "greek": "σκανδαλίζω",
+          "transliteration": "skandalizō",
+          "rendered_as": "cause to stumble",
+          "semantic_range": "to cause to stumble, to offend, to lead into sin, to entrap",
+          "note": "From skandalon ('trap-stick, stumbling block'). The word carries the sense of causing someone to fall away from faith or into sin."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 43,
+      "text_greek": "Καὶ ἐὰν σκανδαλίζῃ σε ἡ χείρ σου, ἀπόκοψον αὐτήν· καλόν ἐστίν σε κυλλὸν εἰσελθεῖν εἰς τὴν ζωὴν ἢ τὰς δύο χεῖρας ἔχοντα ἀπελθεῖν εἰς τὴν γέενναν, εἰς τὸ πῦρ τὸ ἄσβεστον.",
+      "text_kjv": "And if thy hand offend thee, cut it off: it is better for thee to enter into life maimed, than having two hands to go into hell, into the fire that never shall be quenched:",
+      "rendering": "If your hand causes you to stumble, cut it off. It is better for you to enter life crippled than with two hands to go into Gehenna, into the unquenchable fire.",
+      "translator_notes": [
+        "The hyperbolic language demands radical action against sin, not literal self-mutilation. 'Gehenna' (geenna) refers to the Valley of Hinnom south of Jerusalem, where child sacrifices were once offered (2 Kings 23:10) and which became a symbol of divine judgment. 'Unquenchable fire' (to pyr to asbeston) draws on Isaiah 66:24.",
+        "[TCR Cross-Reference] References 2 Kings 23:10 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved.",
+        "[TCR Cross-Reference] References Isaiah 66:24 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "key_terms": [
+        {
+          "greek": "γέεννα",
+          "transliteration": "geenna",
+          "rendered_as": "Gehenna",
+          "semantic_range": "Gehenna, hell, the Valley of Hinnom, place of final punishment",
+          "note": "From the Hebrew ge-hinnom ('Valley of Hinnom'). A concrete geographical reference that became a metaphor for eschatological judgment. We transliterate rather than translate as 'hell' to preserve the original reference."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 44,
+      "text_greek": "",
+      "text_kjv": "Where their worm dieth not, and the fire is not quenched.",
+      "rendering": "",
+      "translator_notes": [
+        "Verse 44 is absent from the earliest and best manuscripts of Mark and is not included in the SBLGNT critical text. It duplicates verse 48 and was likely added by scribes for symmetry. We follow the SBLGNT in omitting it while retaining the verse number for reference."
+      ],
+      "reading_level": "N/A"
+    },
+    {
+      "verse": 45,
+      "text_greek": "καὶ ἐὰν ὁ πούς σου σκανδαλίζῃ σε, ἀπόκοψον αὐτόν· καλόν ἐστίν σε εἰσελθεῖν εἰς τὴν ζωὴν χωλὸν ἢ τοὺς δύο πόδας ἔχοντα βληθῆναι εἰς τὴν γέενναν.",
+      "text_kjv": "And if thy foot offend thee, cut it off: it is better for thee to enter halt into life, than having two feet to be cast into hell, into the fire that never shall be quenched:",
+      "rendering": "And if your foot causes you to stumble, cut it off. It is better for you to enter life lame than with two feet to be thrown into Gehenna.",
+      "translator_notes": [
+        "The pattern continues: hand, foot, eye — each body part represents a different avenue of sin (actions, paths taken, desires). The contrast between entering 'life' (zōē, eternal life with God) and being thrown into 'Gehenna' (judgment) frames existence as a binary choice."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 46,
+      "text_greek": "",
+      "text_kjv": "Where their worm dieth not, and the fire is not quenched.",
+      "rendering": "",
+      "translator_notes": [
+        "Verse 46, like verse 44, is absent from the SBLGNT critical text and was likely added by scribes to create a refrain after each body-part saying. We follow the critical text in omitting it."
+      ],
+      "reading_level": "N/A"
+    },
+    {
+      "verse": 47,
+      "text_greek": "καὶ ἐὰν ὁ ὀφθαλμός σου σκανδαλίζῃ σε, ἔκβαλε αὐτόν· καλόν σέ ἐστιν μονόφθαλμον εἰσελθεῖν εἰς τὴν βασιλείαν τοῦ θεοῦ ἢ δύο ὀφθαλμοὺς ἔχοντα βληθῆναι εἰς τὴν γέενναν,",
+      "text_kjv": "And if thine eye offend thee, pluck it out: it is better for thee to enter into the kingdom of God with one eye, than having two eyes to be cast into hell fire:",
+      "rendering": "And if your eye causes you to stumble, tear it out. It is better for you to enter the kingdom of God with one eye than with two eyes to be thrown into Gehenna,",
+      "translator_notes": [
+        "The final member of the triad uses 'kingdom of God' (basileia tou theou) where the previous two used 'life' (zōē), confirming that the two expressions are synonymous in this context. The eye represents desire and covetousness (cf. 7:22, 'evil eye')."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 48,
+      "text_greek": "ὅπου ὁ σκώληξ αὐτῶν οὐ τελευτᾷ καὶ τὸ πῦρ οὐ σβέννυται.",
+      "text_kjv": "Where their worm dieth not, and the fire is not quenched.",
+      "rendering": "Where their decay dieth not, and the fire is not put out.",
+      "translator_notes": [
+        "Jesus quotes Isaiah 66:24, the final verse of Isaiah, which describes the fate of those who rebelled against God. The 'worm' (skōlēx) and 'fire' represent ongoing destruction. Whether this imagery describes eternal conscious torment or complete destruction has been debated throughout Christian history; the Greek text states the permanence of the agents of destruction.",
+        "[TCR Cross-Reference] References Isaiah 66:24 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 49,
+      "text_greek": "πᾶς γὰρ πυρὶ ἁλισθήσεται.",
+      "text_kjv": "For every one shall be salted with fire.",
+      "rendering": "For every one will be refined by fire.",
+      "translator_notes": [
+        "This is one of the most cryptic sayings in the Gospels. The connection between salt and fire may relate to the purifying function of both (Leviticus 2:13 required salt on every grain offering; fire tests and refines, cf. Malachi 3:2-3). The saying may mean that all disciples will undergo the refining fire of persecution and testing.",
+        "[TCR Cross-Reference] Echoes Leviticus 2:13. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale.",
+        "[TCR Cross-Reference] Echoes Malachi 3:2-3. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 50,
+      "text_greek": "Καλὸν τὸ ἅλας· ἐὰν δὲ τὸ ἅλας ἄναλον γένηται, ἐν τίνι αὐτὸ ἀρτύσετε; ἔχετε ἐν ἑαυτοῖς ἅλα καὶ εἰρηνεύετε ἐν ἀλλήλοις.",
+      "text_kjv": "Salt is good: but if the salt have lost his saltness, wherewith will ye season it? Have salt in yourselves, and have peace one with another.",
+      "rendering": "Salt is good, but if the salt loses its saltiness, how will you make it salty again? Have salt in yourselves, and be at peace with one another.\"",
+      "translator_notes": [
+        "The chapter ends with a proverbial cluster around salt. Salt that becomes analon ('unsalty, tasteless') is worthless — a metaphor for discipleship that loses its distinctive character. The final command — 'be at peace with one another' (eirēneuete en allēlois) — returns to the dispute about greatness that opened this section (v. 34). The salt sayings bind together purification (v. 49), distinctiveness, and communal harmony."
+      ],
+      "reading_level": "7th grade"
+    }
+  ]
+}

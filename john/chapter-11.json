@@ -1,0 +1,615 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "John",
+    "chapter": 11,
+    "source_text": "SBL Greek New Testament (SBLGNT)",
+    "reference_text": "KJV",
+    "generated_at": "2026-04-04T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "John 11 narrates the raising of Lazarus from the dead — the climactic seventh sign in John's Gospel. When Jesus receives word that his friend Lazarus is ill, he deliberately delays two days before traveling to Bethany, where he finds Lazarus already four days dead. Martha meets Jesus with a statement of faith and grievance: 'Lord, if you had been here, my brother would not have died.' Jesus declares 'I am the resurrection and the life' and asks if she believes. At the tomb, Jesus weeps, then commands the stone removed and calls Lazarus out of the grave. The raising triggers two opposite responses: many believe, but the Sanhedrin convenes to plot Jesus's death. Caiaphas unwittingly prophesies that Jesus will die for the nation. The chapter closes with Jesus withdrawing to Ephraim as the authorities issue orders for his arrest.",
+    "remarkable": "This is the longest sustained narrative in John's Gospel and the most theologically dense sign. The raising of Lazarus functions simultaneously as a historical event, a demonstration of Jesus's power over death, a prophetic sign of the general resurrection, and a catalyst for the crucifixion — the one who raises from death is sentenced to death precisely because he raises from death. The 'I am the resurrection and the life' declaration (v. 25) is the fifth 'I am' with predicate and arguably the most sweeping. Jesus's weeping at the tomb (v. 35, the shortest verse in the Bible) reveals the fully human emotional life of the one who has just claimed divine authority over death. Caiaphas's unwitting prophecy (vv. 49-52) is one of John's most brilliant ironies.",
+    "friction": "The four-day delay is crucial — Jewish tradition held that the soul lingered near the body for three days, meaning by the fourth day decomposition confirmed death was irreversible. Jesus's emotional response involves two Greek words: dakryō ('shed tears,' v. 35) and embrimaomai ('deeply moved/indignant,' vv. 33, 38). The latter may indicate anger — at death itself, at the grief it causes, or at unbelief — rather than mere sadness. Lazarus's raising is not mentioned in the Synoptic Gospels, a significant omission that has generated extensive scholarly discussion.",
+    "connections": "The raising connects to Jesus's earlier claims about giving life (5:21, 25-29), the bread of life discourse (6:39-40, 54), and the good shepherd who lays down his life (10:11-18). Martha's confession (v. 27) parallels Peter's confession in the Synoptics (Matthew 16:16). The unwinding of grave cloths (v. 44) anticipates the resurrection narrative (20:6-7). Caiaphas's prophecy connects to Isaiah 53 (the servant dying for the people) and to John's understanding of the cross as gathering (cf. 12:32)."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_greek": "Ἦν δέ τις ἀσθενῶν, Λάζαρος ἀπὸ Βηθανίας, ἐκ τῆς κώμης Μαρίας καὶ Μάρθας τῆς ἀδελφῆς αὐτῆς.",
+      "text_kjv": "Now a certain man was sick, named Lazarus, of Bethany, the town of Mary and her sister Martha.",
+      "rendering": "Now a man named Lazarus was ill. He was from Bethany, the village of Mary and her sister Martha.",
+      "translator_notes": [
+        "Lazarus (Greek Lazaros from Hebrew Eleazar, 'God has helped') is introduced by his illness, his hometown, and his sisters. Bethany was a village about two miles east of Jerusalem on the slopes of the Mount of Olives (cf. v. 18). John identifies the village by its residents rather than its geography, suggesting the sisters were well known to his audience."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 2,
+      "text_greek": "ἦν δὲ Μαριὰμ ἡ ἀλείψασα τὸν κύριον μύρῳ καὶ ἐκμάξασα τοὺς πόδας αὐτοῦ ταῖς θριξὶν αὐτῆς, ἧς ὁ ἀδελφὸς Λάζαρος ἠσθένει.",
+      "text_kjv": "It was that Mary which anointed the Lord with ointment, and wiped his feet with her hair, whose brother Lazarus was sick.",
+      "rendering": "Mary was the one who anointed the Lord with perfume and wiped his feet with her hair; it was her brother Lazarus who was ill.",
+      "translator_notes": [
+        "John identifies Mary by an event he has not yet narrated (the anointing occurs in 12:1-8), suggesting his readers already knew the story. The detail 'wiped his feet with her hair' distinguishes this Mary from other anointing accounts in the Synoptics. The parenthetical identification reinforces the family connection: Lazarus is defined in relation to his sisters."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 3,
+      "text_greek": "ἀπέστειλαν οὖν αἱ ἀδελφαὶ πρὸς αὐτὸν λέγουσαι· Κύριε, ἴδε ὃν φιλεῖς ἀσθενεῖ.",
+      "text_kjv": "Therefore his sisters sent unto him, saying, Lord, behold, he whom thou lovest is sick.",
+      "rendering": "So the sisters sent word to him, saying, \"Lord, the one you love is ill.\"",
+      "translator_notes": [
+        "The message is restrained — no explicit request, only a statement of fact that assumes Jesus will act. The verb phileis ('you love,' from phileō) indicates personal affection and friendship. The sisters trust that the information alone will be sufficient to move Jesus to come."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 4,
+      "text_greek": "ἀκούσας δὲ ὁ Ἰησοῦς εἶπεν· Αὕτη ἡ ἀσθένεια οὐκ ἔστιν πρὸς θάνατον ἀλλ᾽ ὑπὲρ τῆς δόξης τοῦ θεοῦ, ἵνα δοξασθῇ ὁ υἱὸς τοῦ θεοῦ δι᾽ αὐτῆς.",
+      "text_kjv": "When Jesus heard that, he said, This sickness is not unto death, but for the glory of God, that the Son of God might be glorified thereby.",
+      "rendering": "When Jesus heard this, he said, \"This illness does not lead to death. It is for the glory of God, so that the Son of God may be glorified through it.\"",
+      "translator_notes": [
+        "Jesus's statement is true at a deeper level than it appears: Lazarus will die, but his death is not the final destination — it serves the glory (doxa) of God. The purpose clause hina doxasthē ('so that he may be glorified') connects the sign to its ultimate meaning. The phrase 'the Son of God' (ho huios tou theou) appears rarely in John as a self-designation and carries full Christological weight here."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 5,
+      "text_greek": "ἠγάπα δὲ ὁ Ἰησοῦς τὴν Μάρθαν καὶ τὴν ἀδελφὴν αὐτῆς καὶ τὸν Λάζαρον.",
+      "text_kjv": "Now Jesus loved Martha, and her sister, and Lazarus.",
+      "rendering": "And lazarus, now Jesus loved Martha, and her sister.",
+      "translator_notes": [
+        "The verb ēgapa (from agapaō) is used here rather than phileō (v. 3). John uses both verbs for Jesus's love without a clear semantic distinction in this passage. The sentence is placed before the delay, emphasizing that Jesus's decision to wait is not a failure of love but operates within it."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 6,
+      "text_greek": "ὡς οὖν ἤκουσεν ὅτι ἀσθενεῖ, τότε μὲν ἔμεινεν ἐν ᾧ ἦν τόπῳ δύο ἡμέρας·",
+      "text_kjv": "When he had heard therefore that he was sick, he abode two days still in the same place where he was.",
+      "rendering": "So when he heard that Lazarus was ill, he stayed where he was for two more days.",
+      "translator_notes": [
+        "The conjunction oun ('so, therefore') is startling — 'therefore he stayed.' The delay is deliberate, not accidental. Combined with one day's travel each way, the two-day delay ensures Lazarus will have been dead four days when Jesus arrives. The delay serves the sign: a four-day-dead man is beyond any natural recovery, making the miracle unmistakable."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 7,
+      "text_greek": "ἔπειτα μετὰ τοῦτο λέγει τοῖς μαθηταῖς· Ἄγωμεν εἰς τὴν Ἰουδαίαν πάλιν.",
+      "text_kjv": "Then after that saith he to his disciples, Let us go into Judaea again.",
+      "rendering": "Then after this he said to the disciples, \"Let us go to Judea again.\"",
+      "translator_notes": [
+        "The verb agōmen ('let us go') is a hortatory subjunctive, inviting the disciples to join him. The adverb palin ('again') recalls the danger — they had just fled Judea after the stoning attempt (10:31, 39). The return to Judea is a return to danger."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 8,
+      "text_greek": "λέγουσιν αὐτῷ οἱ μαθηταί· Ῥαββί, νῦν ἐζήτουν σε λιθάσαι οἱ Ἰουδαῖοι, καὶ πάλιν ὑπάγεις ἐκεῖ;",
+      "text_kjv": "His disciples say unto him, Master, the Jews of late sought to stone thee; and goest thou thither again?",
+      "rendering": "The disciples said to him, \"Rabbi, the Jewish leaders were just now trying to stone you, and you are going there again?\"",
+      "translator_notes": [
+        "The adverb nyn ('just now, recently') emphasizes the immediacy of the danger — the stoning attempt was not ancient history but recent experience. The disciples' question reveals understandable fear mixed with incredulity."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 9,
+      "text_greek": "ἀπεκρίθη Ἰησοῦς· Οὐχὶ δώδεκα ὧραί εἰσιν τῆς ἡμέρας; ἐάν τις περιπατῇ ἐν τῇ ἡμέρᾳ, οὐ προσκόπτει, ὅτι τὸ φῶς τοῦ κόσμου τούτου βλέπει·",
+      "text_kjv": "Jesus answered, Are there not twelve hours in the day? If any man walk in the day, he stumbleth not, because he seeth the light of this world.",
+      "rendering": "Jesus answered, \"Are there not twelve hours in a day? If anyone walks during the day, he does not stumble, because he sees the light of this world.",
+      "translator_notes": [
+        "The question is rhetorical: daylight hours are appointed and sufficient. The metaphor means Jesus has an appointed time for his work, and while that time lasts, he cannot be stopped. 'The light of this world' (to phōs tou kosmou toutou) here refers to the sun, but John's readers would hear the echo of 8:12 and 9:5 where Jesus is the light of the world."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 10,
+      "text_greek": "ἐὰν δέ τις περιπατῇ ἐν τῇ νυκτί, προσκόπτει, ὅτι τὸ φῶς οὐκ ἔστιν ἐν αὐτῷ.",
+      "text_kjv": "But if a man walk in the night, he stumbleth, because there is no light in him.",
+      "rendering": "But if anyone walks at night, he stumbles, because the light is not in him.\"",
+      "translator_notes": [
+        "The shift from 'sees the light of this world' (external light, v. 9) to 'the light is not in him' (internal light, v. 10) is significant. The one who walks in darkness stumbles not merely because it is dark outside but because there is no light within. This connects to the Johannine theme of internal illumination through faith."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 11,
+      "text_greek": "ταῦτα εἶπεν, καὶ μετὰ τοῦτο λέγει αὐτοῖς· Λάζαρος ὁ φίλος ἡμῶν κεκοίμηται· ἀλλὰ πορεύομαι ἵνα ἐξυπνίσω αὐτόν.",
+      "text_kjv": "These things said he: and after that he saith unto them, Our friend Lazarus sleepeth; but I go, that I may awake him out of sleep.",
+      "rendering": "After saying this, he told them, \"Our friend Lazarus has fallen asleep, but I am going to wake him up.\"",
+      "translator_notes": [
+        "Jesus uses the metaphor of sleep (kekoimētai, perfect of koimaō, 'has fallen asleep') for death — a common biblical euphemism (cf. 1 Thessalonians 4:13-14, Daniel 12:2) that takes on literal force when spoken by the one who can reverse death. The perfect tense indicates a completed state: Lazarus is currently in the state of having fallen asleep. The verb exypnisō ('wake up') shows Jesus views death as a temporary condition he can reverse.",
+        "[TCR Cross-Reference] Quotes Daniel 12:2. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 12,
+      "text_greek": "εἶπαν οὖν οἱ μαθηταὶ αὐτῷ· Κύριε, εἰ κεκοίμηται σωθήσεται.",
+      "text_kjv": "Then said his disciples, Lord, if he sleep, he shall do well.",
+      "rendering": "The disciples said to him, \"Lord, if he has fallen asleep, he will recover.\"",
+      "translator_notes": [
+        "The disciples understand Jesus literally: if Lazarus is sleeping, sleep is healing, and he will get better (sōthēsetai, 'he will be saved/healed'). The misunderstanding is typically Johannine — the audience takes Jesus's words at face value while the deeper meaning escapes them."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 13,
+      "text_greek": "εἰρήκει δὲ ὁ Ἰησοῦς περὶ τοῦ θανάτου αὐτοῦ· ἐκεῖνοι δὲ ἔδοξαν ὅτι περὶ τῆς κοιμήσεως τοῦ ὕπνου λέγει.",
+      "text_kjv": "Howbeit Jesus spake of his death: but they thought that he had spoken of taking of rest in sleep.",
+      "rendering": "Jesus had spoken about his death, but they thought he was talking about ordinary sleep.",
+      "translator_notes": [
+        "John provides the narrator's clarification, as he often does after misunderstandings (cf. 2:21, 6:71, 7:39, 12:33). The phrase koimēseōs tou hypnou ('the rest of sleep') is emphatic — literal, physical sleep, not the metaphorical sleep of death."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 14,
+      "text_greek": "τότε οὖν εἶπεν αὐτοῖς ὁ Ἰησοῦς παρρησίᾳ· Λάζαρος ἀπέθανεν,",
+      "text_kjv": "Then said Jesus unto them plainly, Lazarus is dead.",
+      "rendering": "So then Jesus told them plainly, \"Lazarus has died.",
+      "translator_notes": [
+        "The adverb parrēsia ('plainly, openly') contrasts with the figurative language of verse 11. The blunt statement Lazaros apethanen ('Lazarus died') uses the aorist — a completed event. Jesus knows Lazarus is dead without having been told, demonstrating the supernatural knowledge that characterizes John's portrayal of Jesus."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 15,
+      "text_greek": "καὶ χαίρω δι᾽ ὑμᾶς ἵνα πιστεύσητε, ὅτι οὐκ ἤμην ἐκεῖ· ἀλλ᾽ ἄγωμεν πρὸς αὐτόν.",
+      "text_kjv": "And I am glad for your sakes that I was not there, to the intent ye may believe; nevertheless let us go unto him.",
+      "rendering": "And for your sake I am glad that I was not there, so that you may believe. But let us go to him.\"",
+      "translator_notes": [
+        "Jesus's gladness (chairō) is not callousness about Lazarus's death but satisfaction that the disciples will witness a sign that deepens their faith. His absence was deliberate (cf. v. 6): had he been present, he would have healed Lazarus, and the disciples would have seen another healing. Instead, they will see a resurrection — a sign of a completely different order."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 16,
+      "text_greek": "εἶπεν οὖν Θωμᾶς ὁ λεγόμενος Δίδυμος τοῖς συμμαθηταῖς· Ἄγωμεν καὶ ἡμεῖς ἵνα ἀποθάνωμεν μετ᾽ αὐτοῦ.",
+      "text_kjv": "Then said Thomas, which is called Didymus, unto his fellowdisciples, Let us also go, that we may die with him.",
+      "rendering": "So Thomas, called the Twin, said to his fellow disciples, \"Let us also go, so that we may die with him.\"",
+      "translator_notes": [
+        "Thomas (Aramaic for 'twin,' translated by the Greek Didymos) appears here with characteristic blunt pessimism (cf. 14:5, 20:25). His statement is darkly loyal: he expects the trip to Judea to result in death but is willing to share it. The 'him' (autou) is ambiguous — it could mean 'die with Jesus' or 'die with Lazarus.' Most naturally it refers to Jesus, since the danger is in Judea."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 17,
+      "text_greek": "Ἐλθὼν οὖν ὁ Ἰησοῦς εὗρεν αὐτὸν τέσσαρας ἤδη ἡμέρας ἔχοντα ἐν τῷ μνημείῳ.",
+      "text_kjv": "Then when Jesus came, he found that he had lain in the grave four days already.",
+      "rendering": "When Jesus arrived, he found that Lazarus had already been in the tomb for four days.",
+      "translator_notes": [
+        "The four days (tessaras hēmeras) is theologically significant: Jewish tradition held that the soul departed the body definitively after three days, when decomposition set in (cf. v. 39). By the fourth day, death was considered irreversible. Jesus arrives when human hope has been exhausted."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 18,
+      "text_greek": "ἦν δὲ ἡ Βηθανία ἐγγὺς τῶν Ἱεροσολύμων ὡς ἀπὸ σταδίων δεκαπέντε,",
+      "text_kjv": "Now Bethany was nigh unto Jerusalem, about fifteen furlongs off:",
+      "rendering": "Bethany was near Jerusalem, about two miles away,",
+      "translator_notes": [
+        "The Greek stadiōn dekapente ('fifteen stadia') equals approximately 1.7 miles (2.8 km). We render with the approximate modern equivalent for clarity. The proximity to Jerusalem explains both the presence of many mourners from the city (v. 19) and the rapid report of the miracle to the authorities (v. 46)."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 19,
+      "text_greek": "πολλοὶ δὲ ἐκ τῶν Ἰουδαίων ἐληλύθεισαν πρὸς τὴν Μάρθαν καὶ Μαριὰμ ἵνα παραμυθήσωνται αὐτὰς περὶ τοῦ ἀδελφοῦ.",
+      "text_kjv": "And many of the Jews came to Martha and Mary, to comfort them concerning their brother.",
+      "rendering": "Numerous of the Jews arrived to Martha and Mary, to comfort them concerning their brother.",
+      "translator_notes": [
+        "The verb paramythēsōntai ('console, comfort, encourage') describes the formal Jewish mourning practice of visiting the bereaved. Here hoi Ioudaioi refers to Jewish people from Jerusalem generally (neighbors and acquaintances), not the hostile authorities. The pluperfect elēlytheisan ('had come') indicates they were already present when Jesus arrived."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 20,
+      "text_greek": "ἡ οὖν Μάρθα ὡς ἤκουσεν ὅτι Ἰησοῦς ἔρχεται ὑπήντησεν αὐτῷ· Μαριὰμ δὲ ἐν τῷ οἴκῳ ἐκαθέζετο.",
+      "text_kjv": "Then Martha, as soon as she heard that Jesus was coming, went and met him: but Mary sat still in the house.",
+      "rendering": "When Martha heard that Jesus was coming, she went to meet him, but Mary stayed seated in the house.",
+      "translator_notes": [
+        "The sisters' responses are consistent with their characterizations in Luke 10:38-42: Martha is active and initiative-taking; Mary remains seated. The verb ekathezeto ('was sitting, remained seated') may indicate mourning posture — mourners traditionally sat on low seats or the ground during the shiva period."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 21,
+      "text_greek": "εἶπεν οὖν ἡ Μάρθα πρὸς τὸν Ἰησοῦν· Κύριε, εἰ ἦς ὧδε οὐκ ἂν ἀπέθανεν ὁ ἀδελφός μου·",
+      "text_kjv": "Then said Martha unto Jesus, Lord, if thou hadst been here, my brother had not died.",
+      "rendering": "Martha said to Jesus, \"Lord, if you had been here, my brother would not have died.",
+      "translator_notes": [
+        "The conditional ei ēs hōde ('if you had been here') is a contrary-to-fact condition expressing both grief and implicit trust — she believes Jesus could have prevented the death. Mary will say the identical words in verse 32, suggesting the sisters had spoken these words to each other during the waiting period. The address Kyrie ('Lord') carries genuine reverence."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 22,
+      "text_greek": "ἀλλὰ καὶ νῦν οἶδα ὅτι ὅσα ἂν αἰτήσῃ τὸν θεὸν δώσει σοι ὁ θεός.",
+      "text_kjv": "But I know, that even now, whatsoever thou wilt ask of God, God will give it thee.",
+      "rendering": "But even now I know that whatever you ask from God, God will give you.\"",
+      "translator_notes": [
+        "The phrase alla kai nyn ('but even now') pushes beyond grief to tentative hope. Martha does not explicitly ask for resurrection, but her words leave the door open. The verb aitēsē ('ask, request') and the confident oida ('I know') express a faith that does not fully grasp what is about to happen but trusts in Jesus's relationship with God."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 23,
+      "text_greek": "λέγει αὐτῇ ὁ Ἰησοῦς· Ἀναστήσεται ὁ ἀδελφός σου.",
+      "text_kjv": "Jesus saith unto her, Thy brother shall rise again.",
+      "rendering": "Jesus said to her, \"Your brother will rise again.\"",
+      "translator_notes": [
+        "The verb anastēsetai ('will rise') is deliberately ambiguous — it could refer to the general resurrection at the last day (as Martha takes it in v. 24) or to an imminent, present-tense rising. Jesus's statements in John frequently operate on multiple levels simultaneously."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 24,
+      "text_greek": "λέγει αὐτῷ ἡ Μάρθα· Οἶδα ὅτι ἀναστήσεται ἐν τῇ ἀναστάσει ἐν τῇ ἐσχάτῃ ἡμέρᾳ.",
+      "text_kjv": "Martha saith unto him, I know that he shall rise again in the resurrection at the last day.",
+      "rendering": "Martha said to him, \"I know that he will rise again in the resurrection on the last day.\"",
+      "translator_notes": [
+        "Martha's response is orthodox Pharisaic theology — belief in bodily resurrection at the eschaton (cf. Daniel 12:2, 2 Maccabees 7:9). Her oida ('I know') is theologically correct but inadequate to the moment: she knows about future resurrection but does not yet grasp that the resurrection stands before her in person. Jesus will redirect her from eschatological hope to present encounter.",
+        "[TCR Cross-Reference] Echoes Daniel 12:2. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 25,
+      "text_greek": "εἶπεν αὐτῇ ὁ Ἰησοῦς· Ἐγώ εἰμι ἡ ἀνάστασις καὶ ἡ ζωή· ὁ πιστεύων εἰς ἐμὲ κἂν ἀποθάνῃ ζήσεται,",
+      "text_kjv": "Jesus said unto her, I am the resurrection, and the life: he that believeth in me, though he were dead, yet shall he live:",
+      "rendering": "Jesus said to her, \"I am the resurrection and the life. The one who believes in me, even if he dies, will live,",
+      "expanded_rendering": "Jesus does not say 'I will cause the resurrection' or 'I know about the resurrection' but 'I AM the resurrection' — the resurrection is not merely an event at the end of time but a person standing before Martha. The claim absorbs eschatology into Christology: the future hope is not an impersonal divine act scheduled for the last day but a present reality embodied in Jesus himself. Wherever he is, resurrection is. This transforms the question from 'When will the dead rise?' to 'Do you know the one in whom resurrection lives?'",
+      "translator_notes": [
+        "The fifth 'I am' statement with predicate. By identifying himself as both hē anastasis ('the resurrection') and hē zōē ('the life'), Jesus claims to be the source and embodiment of both. The sequence 'even if he dies, will live' addresses physical death: faith in Jesus does not prevent physical death but renders it temporary."
+      ],
+      "key_terms": [
+        {
+          "greek": "ἀνάστασις",
+          "transliteration": "anastasis",
+          "rendered_as": "resurrection",
+          "semantic_range": "rising up, resurrection, raising from the dead",
+          "note": "From ana ('up') and histēmi ('to stand') — literally 'standing up again.' Martha understood this as a future event; Jesus redefines it as a present person. The claim is that resurrection power is not merely something Jesus possesses but something he is."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 26,
+      "text_greek": "καὶ πᾶς ὁ ζῶν καὶ πιστεύων εἰς ἐμὲ οὐ μὴ ἀποθάνῃ εἰς τὸν αἰῶνα. πιστεύεις τοῦτο;",
+      "text_kjv": "And whosoever liveth and believeth in me shall never die. Believest thou this?",
+      "rendering": "Whosoever liveth and believes in me will never die. Believest you this?",
+      "translator_notes": [
+        "The second clause addresses the living: those who believe in Jesus will never experience the ultimate death (ou mē apothanē eis ton aiōna, 'will absolutely never die into the age'). Verse 25 addresses those who have already died; verse 26 addresses those now living. Together they cover all cases. The direct question 'Do you believe this?' (pisteueis touto) shifts from theological declaration to personal challenge — Martha must respond."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 27,
+      "text_greek": "λέγει αὐτῷ· Ναί, κύριε· ἐγὼ πεπίστευκα ὅτι σὺ εἶ ὁ Χριστὸς ὁ υἱὸς τοῦ θεοῦ ὁ εἰς τὸν κόσμον ἐρχόμενος.",
+      "text_kjv": "She saith unto him, Yea, Lord: I believe that thou art the Christ, the Son of God, which should come into the world.",
+      "rendering": "She said to him, \"Yes, Lord. I believe that you are the Christ, the Son of God, the one coming into the world.\"",
+      "translator_notes": [
+        "Martha's confession is one of the most complete in the Gospels, paralleling Peter's confession in Matthew 16:16. Three titles: ho Christos ('the Christ/Messiah'), ho huios tou theou ('the Son of God'), and ho eis ton kosmon erchomenos ('the one coming into the world'). The perfect tense pepisteuka ('I have believed and continue to believe') indicates settled, enduring faith. This is the confession the Fourth Gospel aims to produce in its readers (cf. 20:31)."
+      ],
+      "key_terms": [
+        {
+          "greek": "Χριστός",
+          "transliteration": "Christos",
+          "rendered_as": "Christ",
+          "semantic_range": "anointed one, Messiah, Christ",
+          "note": "Martha confesses the full messianic identity in three overlapping titles. The third — 'the one coming into the world' — echoes the Jewish expectation of a coming prophet (cf. 6:14) and the Johannine theme of Jesus as the one 'sent into the world.'"
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 28,
+      "text_greek": "καὶ τοῦτο εἰποῦσα ἀπῆλθεν καὶ ἐφώνησεν Μαριὰμ τὴν ἀδελφὴν αὐτῆς λάθρᾳ εἰποῦσα· Ὁ διδάσκαλος πάρεστιν καὶ φωνεῖ σε.",
+      "text_kjv": "And when she had so said, she went her way, and called Mary her sister secretly, saying, The Master is come, and calleth for thee.",
+      "rendering": "After saying this, she went and called her sister Mary, saying quietly, \"The Teacher is here and is asking for you.\"",
+      "translator_notes": [
+        "Martha calls Jesus ho didaskalos ('the Teacher') — a title of respect and intimacy. The adverb lathra ('secretly, quietly') suggests discretion: Martha does not want the mourners to follow and create a commotion before Mary and Jesus can meet privately. The verb phonei ('calls, summons') indicates a specific request from Jesus to see Mary."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 29,
+      "text_greek": "ἐκείνη δὲ ὡς ἤκουσεν ἠγέρθη ταχὺ καὶ ἤρχετο πρὸς αὐτόν·",
+      "text_kjv": "As soon as she heard that, she arose quickly, and came unto him.",
+      "rendering": "When she heard this, she got up quickly and went to him.",
+      "translator_notes": [
+        "The adverb tachy ('quickly') shows Mary's eager response — she does not hesitate. The passive ēgerthē ('was raised, got up') uses the same verb root (egeirō) that describes resurrection, a coincidence John may intend: Mary rises from mourning at the Teacher's call."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 30,
+      "text_greek": "οὔπω δὲ ἐληλύθει ὁ Ἰησοῦς εἰς τὴν κώμην, ἀλλ᾽ ἦν ἔτι ἐν τῷ τόπῳ ὅπου ὑπήντησεν αὐτῷ ἡ Μάρθα.",
+      "text_kjv": "Now Jesus was not yet come into the town, but was in that place where Martha met him.",
+      "rendering": "Jesus had not yet come into the village but was still at the place where Martha had met him.",
+      "translator_notes": [
+        "This geographical note explains why Mary must go out to Jesus rather than Jesus coming to her. He remained outside the village, perhaps deliberately — the encounter will eventually move to the tomb, which was also outside the village."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 31,
+      "text_greek": "οἱ οὖν Ἰουδαῖοι οἱ ὄντες μετ᾽ αὐτῆς ἐν τῇ οἰκίᾳ καὶ παραμυθούμενοι αὐτήν, ἰδόντες τὴν Μαριὰμ ὅτι ταχέως ἀνέστη καὶ ἐξῆλθεν, ἠκολούθησαν αὐτῇ, δόξαντες ὅτι ὑπάγει εἰς τὸ μνημεῖον ἵνα κλαύσῃ ἐκεῖ.",
+      "text_kjv": "The Jews then which were with her in the house, and comforted her, when they saw Mary, that she rose up hastily and went out, followed her, saying, She goeth unto the grave to weep there.",
+      "rendering": "When the Jewish people who were with her in the house consoling her saw Mary get up quickly and go out, they followed her, assuming she was going to the tomb to weep there.",
+      "translator_notes": [
+        "The mourners' assumption (doxantes, 'supposing, assuming') is wrong but natural — a bereaved sister rushing out would typically be going to the tomb to grieve. Their following creates an audience for the miracle, fulfilling the narrative requirement that many witnesses be present (cf. vv. 45-46)."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 32,
+      "text_greek": "ἡ οὖν Μαριὰμ ὡς ἦλθεν ὅπου ἦν Ἰησοῦς ἰδοῦσα αὐτὸν ἔπεσεν αὐτοῦ πρὸς τοὺς πόδας λέγουσα αὐτῷ· Κύριε, εἰ ἦς ὧδε οὐκ ἂν μου ἀπέθανεν ὁ ἀδελφός.",
+      "text_kjv": "Then when Mary was come where Jesus was, and saw him, she fell down at his feet, saying unto him, Lord, if thou hadst been here, my brother had not died.",
+      "rendering": "When Mary came to where Jesus was and saw him, she fell at his feet and said to him, \"Lord, if you had been here, my brother would not have died.\"",
+      "translator_notes": [
+        "Mary's words are identical to Martha's in verse 21, but her posture differs — she falls at Jesus's feet (epesen autou pros tous podas), a gesture of both reverence and grief. Unlike Martha, Mary does not add any expression of continued hope (cf. Martha's v. 22). Her grief is raw and unqualified. This is the same posture she will take in 12:3 when she anoints Jesus's feet."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 33,
+      "text_greek": "Ἰησοῦς οὖν ὡς εἶδεν αὐτὴν κλαίουσαν καὶ τοὺς συνελθόντας αὐτῇ Ἰουδαίους κλαίοντας, ἐνεβριμήσατο τῷ πνεύματι καὶ ἐτάραξεν ἑαυτόν,",
+      "text_kjv": "When Jesus therefore saw her weeping, and the Jews also weeping which came with her, he groaned in the spirit, and was troubled,",
+      "rendering": "When Jesus saw her weeping, and the Jewish people who had come with her also weeping, he was deeply moved in his spirit and troubled.",
+      "translator_notes": [
+        "The verb enebrimēsato (from embrimaomai) is difficult to translate: it denotes a deep, forceful emotion — sometimes anger, indignation, or a snorting like a horse. The most likely sense here is a combination of grief at the devastation death causes and anger at death itself as an enemy. The reflexive etaraxen heauton ('troubled himself') indicates this was not involuntary emotion but something Jesus allowed himself to feel fully. The same verb (tarassō) appears at 12:27 and 13:21."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 34,
+      "text_greek": "καὶ εἶπεν· Ποῦ τεθείκατε αὐτόν; λέγουσιν αὐτῷ· Κύριε, ἔρχου καὶ ἴδε.",
+      "text_kjv": "And said, Where have ye laid him? They said unto him, Lord, come and see.",
+      "rendering": "He said, \"Where have you laid him?\" They said to him, \"Lord, come and see.\"",
+      "translator_notes": [
+        "Jesus's question 'Where have you laid him?' does not indicate ignorance (he already knew of Lazarus's death in v. 14) but draws the mourners into active participation in what is about to happen. The invitation 'come and see' (erchou kai ide) echoes the invitation in 1:39 and 1:46 — words that in John lead to revelation."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 35,
+      "text_greek": "ἐδάκρυσεν ὁ Ἰησοῦς.",
+      "text_kjv": "Jesus wept.",
+      "rendering": "Indeed, jesus wept.",
+      "translator_notes": [
+        "The shortest verse in the Bible, but among the most theologically significant. The verb edakrysen (from dakryō, 'to shed tears') is distinct from the loud wailing (klaiō) used of Mary and the mourners. Jesus's tears are quiet and controlled but genuine. The one who has just claimed to be the resurrection and the life weeps at the tomb of his friend — the fully divine one is fully human. The rendering matches the KJV because the Greek is so simple and direct that there is no meaningfully different modern rendering."
+      ],
+      "reading_level": "4th grade"
+    },
+    {
+      "verse": 36,
+      "text_greek": "ἔλεγον οὖν οἱ Ἰουδαῖοι· Ἴδε πῶς ἐφίλει αὐτόν.",
+      "text_kjv": "Then said the Jews, Behold, how he loved him!",
+      "rendering": "So the Jewish people said, \"See how he loved him!\"",
+      "translator_notes": [
+        "The mourners' observation is genuine and correct — ephilei ('he loved,' imperfect of phileō) indicates ongoing personal affection. The imperfect tense captures habitual, characteristic love. Even Jesus's opponents recognize the depth of his friendship with Lazarus."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 37,
+      "text_greek": "τινὲς δὲ ἐξ αὐτῶν εἶπαν· Οὐκ ἐδύνατο οὗτος ὁ ἀνοίξας τοὺς ὀφθαλμοὺς τοῦ τυφλοῦ ποιῆσαι ἵνα καὶ οὗτος μὴ ἀποθάνῃ;",
+      "text_kjv": "And some of them said, Could not this man, which opened the eyes of the blind, have caused that even this man should not have died?",
+      "rendering": "But some of them said, \"Could not this man, who opened the eyes of the blind man, have kept Lazarus from dying?\"",
+      "translator_notes": [
+        "The reference to opening blind eyes connects directly to chapter 9. The question is logical: if Jesus can heal congenital blindness, why not prevent death? The implied criticism is that Jesus's power (or willingness) has limits. The answer will come in the next few verses — Jesus's power exceeds their imagination."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 38,
+      "text_greek": "Ἰησοῦς οὖν πάλιν ἐμβριμώμενος ἐν ἑαυτῷ ἔρχεται εἰς τὸ μνημεῖον· ἦν δὲ σπήλαιον, καὶ λίθος ἐπέκειτο ἐπ᾽ αὐτῷ.",
+      "text_kjv": "Jesus therefore again groaning in himself cometh to the grave. It was a cave, and a stone lay upon it.",
+      "rendering": "Then Jesus, deeply moved again within himself, came to the tomb. It was a cave, and a stone was lying against it.",
+      "translator_notes": [
+        "The second occurrence of embrimaomai (cf. v. 33) underscores the intensity of Jesus's emotional engagement. The tomb is described as a spēlaion ('cave') with a stone placed against (epekeito, 'was lying upon/against') the entrance — a typical first-century Jewish rock-cut tomb sealed with a rolling stone or blocking stone."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 39,
+      "text_greek": "λέγει ὁ Ἰησοῦς· Ἄρατε τὸν λίθον. λέγει αὐτῷ ἡ ἀδελφὴ τοῦ τετελευτηκότος Μάρθα· Κύριε, ἤδη ὄζει, τεταρταῖος γάρ ἐστιν.",
+      "text_kjv": "Jesus said, Take ye away the stone. Martha, the sister of him that was dead, saith unto him, Lord, by this time he stinketh: for he hath been dead four days.",
+      "rendering": "Jesus said, \"Remove the stone.\" Martha, the sister of the dead man, said to him, \"Lord, by now there will be a stench, for he has been dead four days.\"",
+      "translator_notes": [
+        "Martha's objection is practical and visceral: ozei ('it stinks, there is an odor') refers to the decomposition of a four-day-old corpse. The term tetartaios ('fourth-day,' an adjective meaning 'of the fourth day') confirms what the narrative has established — Lazarus is unambiguously dead and decomposing. Martha's faith (v. 27) does not yet encompass the immediate possibility of resurrection."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 40,
+      "text_greek": "λέγει αὐτῇ ὁ Ἰησοῦς· Οὐκ εἶπόν σοι ὅτι ἐὰν πιστεύσῃς ὄψῃ τὴν δόξαν τοῦ θεοῦ;",
+      "text_kjv": "Jesus saith unto her, Said I not unto thee, that, if thou wouldest believe, thou shouldest see the glory of God?",
+      "rendering": "Jesus said to her, \"Did I not tell you that if you believe, you will see the glory of God?\"",
+      "translator_notes": [
+        "Jesus refers back to verse 4 (the illness is for God's glory) and verse 25 (the resurrection claim), though neither statement was made directly to Martha in those exact words — the reference may encompass the message sent through the sisters (v. 4) and the conversation of vv. 25-26. The conditional ean pisteusēs ('if you believe') makes sight dependent on faith, not faith on sight."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 41,
+      "text_greek": "ἦραν οὖν τὸν λίθον. ὁ δὲ Ἰησοῦς ἦρεν τοὺς ὀφθαλμοὺς ἄνω καὶ εἶπεν· Πάτερ, εὐχαριστῶ σοι ὅτι ἤκουσάς μου.",
+      "text_kjv": "Then they took away the stone from the place where the dead was laid. And Jesus lifted up his eyes, and said, Father, I thank thee that thou hast heard me.",
+      "rendering": "So they removed the stone. Jesus looked upward and said, \"Father, I thank you that you have heard me.",
+      "translator_notes": [
+        "The prayer begins with eucharistō ('I thank, I give thanks') — not petition but thanksgiving, as if the outcome is already settled. The aorist ēkousas ('you heard') treats the hearing as a completed event. Jesus's prayer is not a request but an acknowledgment that the Father has already answered."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 42,
+      "text_greek": "ἐγὼ δὲ ᾔδειν ὅτι πάντοτέ μου ἀκούεις· ἀλλὰ διὰ τὸν ὄχλον τὸν περιεστῶτα εἶπον, ἵνα πιστεύσωσιν ὅτι σύ με ἀπέστειλας.",
+      "text_kjv": "And I knew that thou hearest me always: but because of the people which stand by I said it, that they may believe that thou hast sent me.",
+      "rendering": "I knew that you always hear me, but I said this for the sake of the crowd standing here, so that they may believe that you sent me.\"",
+      "translator_notes": [
+        "Jesus explains that the audible prayer is pedagogical — the crowd needs to hear it so they understand the miracle's source. The phrase pantote mou akoueis ('you always hear me') asserts a permanent, unbroken communion between Father and Son. The purpose clause hina pisteusōsin ('so that they may believe') reveals that the entire event — including the delay, the grief, and the miracle — serves the mission of bringing people to faith."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 43,
+      "text_greek": "καὶ ταῦτα εἰπὼν φωνῇ μεγάλῃ ἐκραύγασεν· Λάζαρε, δεῦρο ἔξω.",
+      "text_kjv": "And when he thus had spoken, he cried with a loud voice, Lazarus, come forth.",
+      "rendering": "After saying this, he cried out with a loud voice, \"Lazarus, come out!\"",
+      "translator_notes": [
+        "The verb ekraugasen ('cried out, shouted') with phōnē megalē ('a great/loud voice') describes a commanding shout — not a whisper or a prayer but a sovereign summons to the dead. The command deuro exō ('come out here') is simple, direct, and imperative. Augustine famously noted that Jesus specified 'Lazarus' by name because, had he simply said 'come out,' all the dead would have risen."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 44,
+      "text_greek": "ἐξῆλθεν ὁ τεθνηκὼς δεδεμένος τοὺς πόδας καὶ τὰς χεῖρας κειρίαις, καὶ ἡ ὄψις αὐτοῦ σουδαρίῳ περιεδέδετο. λέγει αὐτοῖς ὁ Ἰησοῦς· Λύσατε αὐτὸν καὶ ἄφετε αὐτὸν ὑπάγειν.",
+      "text_kjv": "And he that was dead came forth, bound hand and foot with graveclothes: and his face was bound about with a napkin. Jesus saith unto them, Loose him, and let him go.",
+      "rendering": "The dead man came out, his hands and feet bound with linen strips, and his face wrapped with a cloth. Jesus said to them, \"Unbind him, and let him go.\"",
+      "translator_notes": [
+        "John describes Lazarus as ho tethnēkōs ('the one having died, the dead man') — even in the act of emerging, the narrative emphasizes he was genuinely dead. The keiriai ('linen strips, burial wrappings') bound hands and feet according to Jewish burial custom. The soudarion ('face cloth, sweat cloth') is the same word used in 20:7 for the cloth found in Jesus's empty tomb — but at Jesus's resurrection, the cloths are left behind neatly, not unwound by human hands. The command 'unbind him and let him go' (lysate auton kai aphete auton hypagein) involves the community in the miracle's completion."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 45,
+      "text_greek": "Πολλοὶ οὖν ἐκ τῶν Ἰουδαίων, οἱ ἐλθόντες πρὸς τὴν Μαριὰμ καὶ θεασάμενοι ἃ ἐποίησεν, ἐπίστευσαν εἰς αὐτόν·",
+      "text_kjv": "Then many of the Jews which came to Mary, and had seen the things which Jesus did, believed on him.",
+      "rendering": "Many of the Jewish people who had come to Mary and had seen what he did believed in him.",
+      "translator_notes": [
+        "The expected response: eyewitnesses of the raising believe (episteusan, aorist — they came to faith). The sign fulfills its purpose (cf. v. 42). These are the same mourners from verse 19 who had come to console the sisters."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 46,
+      "text_greek": "τινὲς δὲ ἐξ αὐτῶν ἀπῆλθον πρὸς τοὺς Φαρισαίους καὶ εἶπαν αὐτοῖς ἃ ἐποίησεν Ἰησοῦς.",
+      "text_kjv": "But some of them went their ways to the Pharisees, and told them what things Jesus had done.",
+      "rendering": "But some of them went to the Pharisees and told them what Jesus had done.",
+      "translator_notes": [
+        "The tines ('some') who report to the Pharisees may be hostile informants or may simply be reporting a remarkable event — John does not specify their motive. Either way, the report triggers the fateful council meeting in the next verse. The proximity of Bethany to Jerusalem (v. 18) makes the rapid communication plausible."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 47,
+      "text_greek": "συνήγαγον οὖν οἱ ἀρχιερεῖς καὶ οἱ Φαρισαῖοι συνέδριον καὶ ἔλεγον· Τί ποιοῦμεν, ὅτι οὗτος ὁ ἄνθρωπος πολλὰ ποιεῖ σημεῖα;",
+      "text_kjv": "Then gathered the chief priests and the Pharisees a council, and said, What do we? for this man doeth many miracles.",
+      "rendering": "So the chief priests and the Pharisees gathered a council meeting and said, \"What are we going to do? For this man is performing many signs.",
+      "translator_notes": [
+        "The synedrion ('council, Sanhedrin') indicates a formal session of the ruling body. The question ti poioumen ('what are we doing?' or 'what should we do?') reveals panic and paralysis. They do not dispute the signs (sēmeia) — the reality of the miracles is conceded. Their concern is entirely political and practical, not theological."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 48,
+      "text_greek": "ἐὰν ἀφῶμεν αὐτὸν οὕτως, πάντες πιστεύσουσιν εἰς αὐτόν, καὶ ἐλεύσονται οἱ Ῥωμαῖοι καὶ ἀροῦσιν ἡμῶν καὶ τὸν τόπον καὶ τὸ ἔθνος.",
+      "text_kjv": "If we let him thus alone, all men will believe on him: and the Romans shall come and take away both our place and nation.",
+      "rendering": "If we let him go on like this, everyone will believe in him, and the Romans will come and take away both our place and our nation.\"",
+      "translator_notes": [
+        "The fear is political: a popular messianic movement will provoke Roman intervention. The 'place' (topon) likely refers to the temple, and the 'nation' (ethnos) to Jewish national autonomy. John's readers, writing after 70 AD, would recognize the bitter irony: the Romans did come and destroy both the temple and the nation — the very outcome the council hoped to prevent by killing Jesus."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 49,
+      "text_greek": "εἷς δέ τις ἐξ αὐτῶν Καϊάφας, ἀρχιερεὺς ὢν τοῦ ἐνιαυτοῦ ἐκείνου, εἶπεν αὐτοῖς· Ὑμεῖς οὐκ οἴδατε οὐδέν,",
+      "text_kjv": "And one of them, named Caiaphas, being the high priest that same year, said unto them, Ye know nothing at all,",
+      "rendering": "But one of them, Caiaphas, who was high priest that year, said to them, \"You know nothing at all.",
+      "translator_notes": [
+        "The phrase archiereus ōn tou eniautou ekeinou ('being high priest that year') does not mean the office rotated annually — Caiaphas served as high priest from about 18-36 AD. John specifies the year to connect the high priesthood to the specific year of Jesus's death. Caiaphas's opening dismissal (hymeis ouk oidate ouden, 'you know nothing') is contemptuous and politically shrewd."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 50,
+      "text_greek": "οὐδὲ λογίζεσθε ὅτι συμφέρει ὑμῖν ἵνα εἷς ἄνθρωπος ἀποθάνῃ ὑπὲρ τοῦ λαοῦ καὶ μὴ ὅλον τὸ ἔθνος ἀπόληται.",
+      "text_kjv": "Nor consider that it is expedient for us, that one man should die for the people, and that the whole nation perish not.",
+      "rendering": "You do not consider that it is better for you that one man die for the people than that the whole nation perish.\"",
+      "translator_notes": [
+        "Caiaphas's political calculus — sacrifice one to save many — is straightforward realpolitik. The verb sympherei ('it is advantageous, it is better') is coldly pragmatic. But John will immediately reinterpret these words as unwitting prophecy (vv. 51-52). The phrase heis anthrōpos apothanē hyper tou laou ('one man die for the people') uses the same preposition (hyper, 'for, on behalf of') that Jesus used of the good shepherd laying down his life (10:11, 15)."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 51,
+      "text_greek": "τοῦτο δὲ ἀφ᾽ ἑαυτοῦ οὐκ εἶπεν, ἀλλὰ ἀρχιερεὺς ὢν τοῦ ἐνιαυτοῦ ἐκείνου ἐπροφήτευσεν ὅτι ἔμελλεν Ἰησοῦς ἀποθνῄσκειν ὑπὲρ τοῦ ἔθνους,",
+      "text_kjv": "And this spake he not of himself: but being high priest that year, he prophesied that Jesus should die for that nation;",
+      "rendering": "He did not say this on his own, but being high priest that year, he prophesied that Jesus was going to die for the nation,",
+      "translator_notes": [
+        "John's editorial comment transforms Caiaphas's political statement into prophetic oracle. The phrase aph' heautou ouk eipen ('he did not say this on his own') indicates that a power beyond Caiaphas was speaking through him — the high priestly office carried prophetic capacity that operated independently of the priest's own intentions. The verb eprophēteusen ('he prophesied') is the narrator's authoritative interpretation."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 52,
+      "text_greek": "καὶ οὐχ ὑπὲρ τοῦ ἔθνους μόνον, ἀλλ᾽ ἵνα καὶ τὰ τέκνα τοῦ θεοῦ τὰ διεσκορπισμένα συναγάγῃ εἰς ἕν.",
+      "text_kjv": "And not for that nation only, but that also he should gather together in one the children of God that were scattered abroad.",
+      "rendering": "Not for that nation sole, but that as well he should gather as one in one the God's children that were scattered abroad.",
+      "translator_notes": [
+        "John expands the prophecy beyond Caiaphas's intent: Jesus dies not only for the Jewish nation but to gather (synagagē, from synagō — the verb root of 'synagogue') all God's scattered children into one community. The phrase ta tekna tou theou ta dieskorpismena ('the scattered children of God') echoes the 'other sheep' of 10:16 and connects to the prophetic vision of Israel's regathering (Isaiah 11:12, 43:5-6, Ezekiel 37:21) now extended to include Gentiles.",
+        "[TCR Cross-Reference] Draws on Isaiah 11:12. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices.",
+        "[TCR Cross-Reference] Draws on Ezekiel 37:21. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 53,
+      "text_greek": "ἀπ᾽ ἐκείνης οὖν τῆς ἡμέρας ἐβουλεύσαντο ἵνα ἀποκτείνωσιν αὐτόν.",
+      "text_kjv": "Then from that day forth they took counsel together for to put him to death.",
+      "rendering": "So from that day on they plotted to put him to death.",
+      "translator_notes": [
+        "The verb ebouleusanto ('they deliberated, resolved, plotted') marks the formal decision to kill Jesus. The raising of Lazarus — Jesus's greatest sign of life — becomes the direct cause of the decision to end his life. This is John's supreme irony: the one who gives life is condemned to death for giving life."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 54,
+      "text_greek": "Ὁ οὖν Ἰησοῦς οὐκέτι παρρησίᾳ περιεπάτει ἐν τοῖς Ἰουδαίοις, ἀλλὰ ἀπῆλθεν ἐκεῖθεν εἰς τὴν χώραν ἐγγὺς τῆς ἐρήμου, εἰς Ἐφραὶμ λεγομένην πόλιν, κἀκεῖ ἔμεινεν μετὰ τῶν μαθητῶν.",
+      "text_kjv": "Jesus therefore walked no more openly among the Jews; but went thence unto a country near to the wilderness, into a city called Ephraim, and there continued with his disciples.",
+      "rendering": "Therefore Jesus no longer walked openly among the Jewish leaders but went from there to the region near the wilderness, to a town called Ephraim, and he stayed there with his disciples.",
+      "translator_notes": [
+        "Ephraim is likely the modern village of et-Taiyibeh, about fifteen miles northeast of Jerusalem on the edge of the Judean wilderness. The withdrawal is temporary — Jesus will return for Passover (v. 55). The verb emeinen ('stayed, remained') uses menō, and he remains with his disciples (meta tōn mathētōn), withdrawing from public ministry to the community of faith."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 55,
+      "text_greek": "Ἦν δὲ ἐγγὺς τὸ πάσχα τῶν Ἰουδαίων, καὶ ἀνέβησαν πολλοὶ εἰς Ἱεροσόλυμα ἐκ τῆς χώρας πρὸ τοῦ πάσχα ἵνα ἁγνίσωσιν ἑαυτούς.",
+      "text_kjv": "And the Jews' passover was nigh at hand: and many went out of the country up to Jerusalem before the passover, to purify themselves.",
+      "rendering": "Now the Passover of the Jewish people was near, and many went up to Jerusalem from the countryside before the Passover to purify themselves.",
+      "translator_notes": [
+        "This is the third and final Passover in John's Gospel (cf. 2:13, 6:4). The purification (hagnisōsin heautous) refers to ritual cleansing required before participating in the Passover — those who had contracted uncleanness through contact with a corpse or other sources needed to purify themselves in advance (cf. Numbers 9:6-12). The irony: they purify themselves for Passover while the true Passover Lamb is about to be slaughtered.",
+        "[TCR Cross-Reference] This verse quotes Numbers 9:6-12 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 56,
+      "text_greek": "ἐζήτουν οὖν τὸν Ἰησοῦν καὶ ἔλεγον μετ᾽ ἀλλήλων ἐν τῷ ἱερῷ ἑστηκότες· Τί δοκεῖ ὑμῖν; ὅτι οὐ μὴ ἔλθῃ εἰς τὴν ἑορτήν;",
+      "text_kjv": "Then sought they for Jesus, and spake among themselves, as they stood in the temple, What think ye, that he will not come to the feast?",
+      "rendering": "They were looking for Jesus and asking one another as they stood in the temple, \"What do you think? Surely he will not come to the feast?\"",
+      "translator_notes": [
+        "The crowd's speculation builds suspense: will Jesus come to this Passover, knowing the authorities want him dead? The ou mē ('surely not') with the subjunctive ēlthē expects a negative answer — they doubt he will risk it. But the readers know Jesus has already indicated he will lay down his life voluntarily (10:17-18)."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 57,
+      "text_greek": "δεδώκεισαν δὲ οἱ ἀρχιερεῖς καὶ οἱ Φαρισαῖοι ἐντολὰς ἵνα ἐάν τις γνῷ ποῦ ἐστιν μηνύσῃ, ὅπως πιάσωσιν αὐτόν.",
+      "text_kjv": "Now both the chief priests and the Pharisees had given a commandment, that, if any man knew where he were, he should shew it, that they might take him.",
+      "rendering": "Now the chief priests and the Pharisees had given orders that anyone who knew where he was should report it, so that they could arrest him.",
+      "translator_notes": [
+        "The pluperfect dedōkeisan ('had given') indicates the orders preceded the crowd's speculation — the authorities had already set the trap. The verb mēnysē ('report, inform, disclose') makes the public complicit in the arrest — everyone becomes a potential informant. The chapter ends with the net closing around Jesus, setting the stage for the events of chapters 12-19."
+      ],
+      "reading_level": "8th grade"
+    }
+  ]
+}

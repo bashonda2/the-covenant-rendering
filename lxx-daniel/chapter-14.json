@@ -1,0 +1,497 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Daniel (Addition: Bel and the Dragon)",
+    "source_text": "Rahlfs' Septuaginta (Theodotion text)",
+    "reference_text": "NRSV with Apocrypha",
+    "generated_at": "2026-04-05T00:00:00Z",
+    "prompt_version": "1.0",
+    "license": "CC-BY-4.0",
+    "chapter": 14
+  },
+  "preamble": {
+    "summary": "Bel and the Dragon contains two linked stories of Daniel exposing false worship. In the first (vv. 1-22), Daniel proves that the idol Bel does not eat the offerings left for it — the priests and their families consume the food through a hidden passage, which Daniel exposes by scattering ash on the temple floor. In the second (vv. 23-42), Daniel kills a dragon worshiped by the Babylonians by feeding it indigestible cakes, then survives a second lions' den ordeal with supernatural provision brought by the prophet Habakkuk.",
+    "remarkable": "The ash-on-the-floor forensic test is a remarkably modern detective technique embedded in ancient narrative. The Habakkuk cameo (vv. 33-39) is one of the most creative intertextual moments in Jewish literature — a canonical prophet supernaturally transported from Judea to Babylon to deliver lunch. The two-part structure (idol fraud + living creature worship) addresses both manufactured and natural objects of false worship.",
+    "friction": "This addition has no MT counterpart and is considered deuterocanonical by Catholics and Orthodox, apocryphal by Protestants, and non-canonical by Jews. The historical setting is vague (Cyrus? Astyages?), and the Habakkuk episode is legendary in character. The destruction of Bel's temple and the killing of the dragon represent a more aggressive anti-idolatry stance than the MT Daniel stories.",
+    "connections": "Daniel 6 (lions' den); Isaiah 44:9-20 (idol satire); Jeremiah 10:1-16 (idols cannot act); Habakkuk 1-3 (the canonical prophet); Ezekiel 8:3 (supernatural transport by hair); 2 Kings 23 (destruction of idolatrous shrines)."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_source": "Greek (Th): Καὶ ὁ βασιλεὺς Ἀστυάγης προσετέθη πρὸς τοὺς πατέρας αὐτοῦ",
+      "text_reference": "When King Astyages was laid to rest with his ancestors, Cyrus the Persian succeeded to his kingdom.",
+      "rendering": "When King Astyages was gathered to his fathers, Cyrus the Persian received his kingdom.",
+      "translator_notes": [
+        "The OG opens differently — it places the story in the reign of Cyrus directly. Theodotion mentions Astyages. The historical setting connects to Daniel 6:28."
+      ],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 2,
+      "text_source": "Greek (Th): καὶ Δανιηλ ἦν συμβιωτὴς τοῦ βασιλέως",
+      "text_reference": "Daniel was a companion of the king, and was the most honored of all his Friends.",
+      "rendering": "Now Daniel was a companion of the king, and the most honored of all his friends.",
+      "translator_notes": [],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 3,
+      "text_source": "Greek (Th): καὶ ἦν εἴδωλον τοῖς Βαβυλωνίοις ᾧ ὄνομα Βηλ",
+      "text_reference": "Now the Babylonians had an idol called Bel, and every day they provided for it twelve bushels of fine flour and forty sheep and six vessels of wine.",
+      "rendering": "Now the Babylonians had an idol called Bel, and every day they provided for it twelve bushels of choice flour, forty sheep, and six measures of wine.",
+      "translator_notes": [
+        "Bel (Bēl) is the Akkadian title meaning 'Lord,' equivalent to the Canaanite Baal. The deity is Marduk, chief god of Babylon. The daily offerings described are enormous — this is a well-funded cult.",
+        {
+          "term": "Bel",
+          "note": "Akkadian Bēl ('Lord'), the title of Marduk, chief deity of Babylon. The same root as Hebrew ba'al."
+        }
+      ],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 4,
+      "text_source": "Greek (Th): καὶ ὁ βασιλεὺς ἐσέβετο αὐτόν",
+      "text_reference": "The king revered it and went every day to worship it. But Daniel worshiped his own God.",
+      "rendering": "The king revered Bel and went every day to worship it. But Daniel worshiped his own God.",
+      "translator_notes": [],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 5,
+      "text_source": "Greek (Th): καὶ εἶπεν αὐτῷ ὁ βασιλεύς",
+      "text_reference": "So the king said to him, 'Why do you not worship Bel?' He answered, 'Because I do not revere idols made with hands.'",
+      "rendering": "And the king said to him, 'Why do you not worship Bel?' Daniel answered, 'Because I do not revere idols made by human hands,",
+      "translator_notes": [],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 6,
+      "text_source": "Greek (Th): ἀλλὰ τὸν ζῶντα θεόν",
+      "text_reference": "'but the living God, who created heaven and earth and has dominion over all living things.'",
+      "rendering": "but the living God, who created heaven and earth and has dominion over all that lives.'",
+      "translator_notes": [],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 7,
+      "text_source": "Greek (Th): καὶ εἶπεν αὐτῷ ὁ βασιλεύς",
+      "text_reference": "The king said to him, 'Do you not think that Bel is a living god? Do you not see how much he eats and drinks every day?'",
+      "rendering": "The king said to him, 'Do you not consider Bel to be a living god? Do you not see how much he eats and drinks every day?'",
+      "translator_notes": [
+        "The king's logic is straightforward: the food disappears, therefore the idol is alive. Daniel will expose the mechanism behind this 'miracle.'"
+      ],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 8,
+      "text_source": "Greek (Th): καὶ εἶπεν Δανιηλ γελάσας",
+      "text_reference": "Then Daniel laughed, and said, 'Do not be deceived, O king, for this thing is only clay inside and bronze outside, and it never ate or drank anything.'",
+      "rendering": "Then Daniel laughed and said, 'Do not be deceived, O king. This is merely clay on the inside and bronze on the outside. It has never eaten or drunk anything.'",
+      "translator_notes": [
+        "Daniel's laughter is notable — it reflects the mockery tradition of idol satire found in Isaiah 44:9-20 and Jeremiah 10:1-16."
+      ],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 9,
+      "text_source": "Greek (Th): θυμωθεὶς δὲ ὁ βασιλεύς",
+      "text_reference": "Then the king was angry and called the priests of Bel and said to them, 'If you do not tell me who is eating these provisions, you shall die.'",
+      "rendering": "Then the king was furious and summoned the priests of Bel and said to them, 'If you do not tell me who is consuming these provisions, you will die.",
+      "translator_notes": [],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 10,
+      "text_source": "Greek (Th): ἐὰν δὲ δείξητε",
+      "text_reference": "'But if you can show that Bel is eating them, Daniel shall die, because he has spoken blasphemy against Bel.'",
+      "rendering": "But if you can prove that Bel is the one eating them, then Daniel will die, because he has blasphemed Bel.'",
+      "translator_notes": [],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 11,
+      "text_source": "Greek (Th): καὶ εἶπεν Δανιηλ τῷ βασιλεῖ Γινέσθω κατὰ τὸ ῥῆμά σου",
+      "text_reference": "Daniel said to the king, 'Let it be done as you have said.' Now there were seventy priests of Bel, besides their wives and children.",
+      "rendering": "Daniel said to the king, 'Let it be as you have said.' Now there were seventy priests of Bel, besides their wives and children.",
+      "translator_notes": [],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 12,
+      "text_source": "Greek (Th): καὶ ἦλθεν ὁ βασιλεὺς μετὰ Δανιηλ εἰς τὸν οἶκον τοῦ Βηλ",
+      "text_reference": "The king went with Daniel into the temple of Bel.",
+      "rendering": "So the king went with Daniel into the temple of Bel.",
+      "translator_notes": [],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 13,
+      "text_source": "Greek (Th): καὶ εἶπαν οἱ ἱερεῖς τοῦ Βηλ",
+      "text_reference": "The priests of Bel said, 'See, we are going outside; you yourself, O king, set out the food and prepare the wine and shut the door and seal it with your own signet.'",
+      "rendering": "The priests of Bel said, 'Look — we are going outside. You yourself, O king, set out the food and mix the wine and shut the door and seal it with your signet ring.'",
+      "translator_notes": [],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 14,
+      "text_source": "Greek (Th): ἐλθὼν δὲ πρωὶ εὑρήσεις",
+      "text_reference": "'When you return in the morning, if you do not find that Bel has eaten it all, we will suffer death.'",
+      "rendering": "'When you return in the morning, if you do not find that Bel has consumed everything, we will die.'",
+      "translator_notes": [],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 15,
+      "text_source": "Greek (Th): καὶ κατεφρόνουν ὅτι ἐπεποίηκεισαν κρυπτὴν εἴσοδον",
+      "text_reference": "They were unconcerned, for beneath the table they had made a hidden entrance, through which they used to go in regularly and consume the provisions.",
+      "rendering": "They were unconcerned, for under the table they had made a hidden entrance through which they regularly went in and consumed the provisions.",
+      "translator_notes": [
+        "The hidden passage under the altar is the narrative's punchline. The priestly fraud is systematic — not occasional deception but institutionalized theft."
+      ],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 16,
+      "text_source": "Greek (Th): ὡς δὲ ἐξῆλθον ἐκεῖνοι",
+      "text_reference": "After they had gone out, the king set out the food for Bel. Then Daniel ordered his servants to bring ashes, and they scattered them throughout the whole temple.",
+      "rendering": "After they had gone out, the king set out the food for Bel. Then Daniel ordered his servants to bring ashes, and they scattered them throughout the entire temple",
+      "translator_notes": [
+        "The ash-on-the-floor test is a brilliantly simple forensic technique. Footprints in ash are irrefutable evidence — an ancient 'crime scene investigation.'"
+      ],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 17,
+      "text_source": "Greek (Th): καὶ ἐξῆλθαν κλείσαντες τὴν θύραν",
+      "text_reference": "in the presence of the king alone. Then they went out, shut the door, and sealed it with the king's signet, and so departed.",
+      "rendering": "in the presence of the king alone. Then they went out, shut the door, sealed it with the king's signet, and departed.",
+      "translator_notes": [],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 18,
+      "text_source": "Greek (Th): οἱ δὲ ἱερεῖς ἦλθον τὴν νύκτα",
+      "text_reference": "During the night the priests came with their wives and children, as they were accustomed to do, and ate and drank everything.",
+      "rendering": "During the night the priests came as usual, with their wives and children, and they ate and drank everything.",
+      "translator_notes": [],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 19,
+      "text_source": "Greek (Th): ὤρθρισεν δὲ ὁ βασιλεὺς τὸ πρωΐ",
+      "text_reference": "Early in the morning the king rose and came, and Daniel with him.",
+      "rendering": "Early in the morning the king rose and came to the temple, and Daniel was with him.",
+      "translator_notes": [],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 20,
+      "text_source": "Greek (Th): καὶ εἶπεν Δανιηλ σῶαί εἰσιν αἱ σφραγῖδες",
+      "text_reference": "The king said, 'Are the seals intact, Daniel?' He answered, 'They are intact, O king.'",
+      "rendering": "The king said, 'Daniel, are the seals unbroken?' He answered, 'They are unbroken, O king.'",
+      "translator_notes": [],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 21,
+      "text_source": "Greek (Th): ἅμα δὲ τῷ ἀνοῖξαι τὰς θύρας",
+      "text_reference": "As soon as the doors were opened, the king looked at the table, and shouted in a loud voice, 'You are great, O Bel, and in you there is no deceit at all!'",
+      "rendering": "And as soon as the doors were opened, the king looked at the table and shouted in a loud voice, 'You are great, O Bel! In you there is no deceit whatsoever!'",
+      "translator_notes": [],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 22,
+      "text_source": "Greek (Th): Δανιηλ δὲ γελάσας κατέσχεν τὸν βασιλέα",
+      "text_reference": "But Daniel laughed, and restrained the king from going in. 'Look at the floor,' he said, 'and notice whose footprints these are.'",
+      "rendering": "But Daniel laughed, and he held the king back from entering and said, 'Look at the floor, and observe whose footprints these are.'",
+      "translator_notes": [],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 23,
+      "text_source": "Greek (Th): καὶ εἶπεν ὁ βασιλεύς",
+      "text_reference": "The king said, 'I see the footprints of men and women and children.'",
+      "rendering": "And the king said, 'I see the footprints of men and women and children!'",
+      "translator_notes": [],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 24,
+      "text_source": "Greek (Th): θυμωθεὶς δὲ ὁ βασιλεύς",
+      "text_reference": "Then the king was enraged, and he arrested the priests and their wives and children.",
+      "rendering": "Then the king was enraged, and he seized the priests along with their wives and children.",
+      "translator_notes": [],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 25,
+      "text_source": "Greek (Th): καὶ ἔδειξαν αὐτῷ τὰς κρυπτὰς θύρας",
+      "text_reference": "They showed him the secret doors through which they used to enter and consume what was on the table.",
+      "rendering": "And they showed him the hidden doors through which they would enter and consume what was on the table.",
+      "translator_notes": [],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 26,
+      "text_source": "Greek (Th): καὶ ἀπέκτεινεν αὐτοὺς ὁ βασιλεύς",
+      "text_reference": "Therefore the king put them to death, and gave Bel over to Daniel, who destroyed it and its temple.",
+      "rendering": "And the king put them to death, and he gave Bel over to Daniel, who destroyed it along with its temple.",
+      "translator_notes": [
+        "The destruction of the idol and its temple marks the triumph of the living God over manufactured religion. The narrative echoes Josiah's destruction of idolatrous shrines in 2 Kings 23."
+      ],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 27,
+      "text_source": "Greek (Th): Καὶ ἦν δράκων μέγας",
+      "text_reference": "Now there was also a great dragon, which the Babylonians revered.",
+      "rendering": "Now there was also a great dragon, which the Babylonians worshiped.",
+      "translator_notes": [
+        "The 'dragon' (drakōn) may refer to a large snake kept in a temple as a cult object. Snake worship is attested in Mesopotamian and Mediterranean religions.",
+        {
+          "term": "dragon",
+          "note": "Greek drakōn — likely a large serpent kept in a Babylonian temple. The word carries mythological associations with chaos-monsters (cf. Isaiah 27:1, Revelation 12:9)."
+        }
+      ],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 28,
+      "text_source": "Greek (Th): καὶ εἶπεν ὁ βασιλεὺς τῷ Δανιηλ",
+      "text_reference": "The king said to Daniel, 'You cannot deny that this is a living god; so worship him.'",
+      "rendering": "The king said to Daniel, 'You cannot say that this one is not a living god. So worship him.'",
+      "translator_notes": [],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 29,
+      "text_source": "Greek (Th): καὶ εἶπεν Δανιηλ",
+      "text_reference": "Daniel said, 'I worship the Lord my God, for he is the living God.'",
+      "rendering": "Daniel said, 'I worship the Lord my God, for he is the living God.'",
+      "translator_notes": [],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 30,
+      "text_source": "Greek (Th): σὺ δέ μοι δὸς ἐξουσίαν κύριε βασιλεῦ",
+      "text_reference": "'But give me permission, O king, and I will kill the dragon without sword or club.' The king said, 'I give you permission.'",
+      "rendering": "'But give me permission, O king, and I will slay the dragon without sword or club.' The king said, 'I give you permission.'",
+      "translator_notes": [],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 31,
+      "text_source": "Greek (Th): καὶ ἔλαβεν Δανιηλ πίσσαν καὶ στέαρ καὶ τρίχας",
+      "text_reference": "Then Daniel took pitch, fat, and hair, and boiled them together and made cakes, which he fed to the dragon.",
+      "rendering": "Then Daniel took pitch, fat, and hair, and boiled them together and made cakes, and he fed them to the dragon.",
+      "translator_notes": [
+        "The pitch-fat-hair mixture is designed to be indigestible — it would cause fatal intestinal blockage. Daniel's method is deliberately non-violent toward God's creation; he uses the animal's own appetite against it."
+      ],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 32,
+      "text_source": "Greek (Th): καὶ ἐφαγεν ὁ δράκων καὶ ἐρράγη",
+      "text_reference": "The dragon ate them, and burst open. Then Daniel said, 'See what you have been worshiping!'",
+      "rendering": "And the dragon ate them and burst apart. Then Daniel said, 'See what you have been worshiping!'",
+      "translator_notes": [],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 33,
+      "text_source": "Greek (Th): ὡς δὲ ἤκουσαν οἱ Βαβυλώνιοι ἠγανάκτησαν σφόδρα",
+      "text_reference": "When the Babylonians heard about it, they were very indignant and conspired against the king, saying, 'The king has become a Jew!'",
+      "rendering": "When the Babylonians heard about this, they were furious and conspired against the king, saying, 'The king has become a Jew!",
+      "translator_notes": [
+        "The accusation 'the king has become a Jew' reveals that the conflict is framed as cultural and religious, not merely personal. The Babylonians perceive Daniel's influence as a threat to their civilization."
+      ],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 34,
+      "text_source": "Greek (Th): κατέσπασεν τὸν Βηλ καὶ ἀπέκτεινεν τὸν δράκοντα",
+      "text_reference": "'He has destroyed Bel, and killed the dragon, and slaughtered the priests.'",
+      "rendering": "He has destroyed Bel and killed the dragon and slaughtered the priests!'",
+      "translator_notes": [],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 35,
+      "text_source": "Greek (Th): καὶ ἐλθόντες πρὸς τὸν βασιλέα εἶπαν",
+      "text_reference": "Going to the king, they said, 'Hand Daniel over to us, or else we will kill you and your household.'",
+      "rendering": "Coming to the king, they said, 'Hand Daniel over to us, or we will kill you and your household.'",
+      "translator_notes": [],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 36,
+      "text_source": "Greek (Th): καὶ εἶδεν ὁ βασιλεὺς ὅτι ἐπέκειντο αὐτῷ σφόδρα",
+      "text_reference": "The king saw that they were pressing him hard, and under compulsion he handed Daniel over to them.",
+      "rendering": "And the king saw that they were pressing him severely, and under compulsion he handed Daniel over to them.",
+      "translator_notes": [],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 37,
+      "text_source": "Greek (Th): οἱ δὲ ἔβαλον αὐτὸν εἰς τὸν λάκκον τῶν λεόντων",
+      "text_reference": "They threw Daniel into the lions' den, and he was there for six days.",
+      "rendering": "They threw Daniel into the lions' den, and he was there for six days.",
+      "translator_notes": [
+        "This is a second lions' den episode, distinct from Daniel 6. Here Daniel remains for six days (not one night), and the den contains seven lions."
+      ],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 38,
+      "text_source": "Greek (Th): καὶ ἦσαν ἐν τῷ λάκκῳ ἑπτὰ λέοντες",
+      "text_reference": "There were seven lions in the den, and every day they had been given two human bodies and two sheep; but now they were given nothing, so that they would devour Daniel.",
+      "rendering": "There were seven lions in the den, and every day they had been given two human bodies and two sheep. But now they were given nothing, so that they would devour Daniel.",
+      "translator_notes": [
+        "Seven lions — the number of completeness. The deprivation of food for six days makes the miracle of Daniel's survival all the more remarkable."
+      ],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 39,
+      "text_source": "Greek (Th): καὶ ἦν Αμβακουμ ὁ προφήτης ἐν τῇ Ιουδαίᾳ",
+      "text_reference": "Now the prophet Habakkuk was in Judea; he had made a stew and had broken bread into a bowl, and was going into the field to take it to the reapers.",
+      "rendering": "Now the prophet Habakkuk was in Judea. He had prepared a stew and broken bread into a bowl, and he was going into the field to bring it to the reapers.",
+      "translator_notes": [
+        "The sudden introduction of Habakkuk is one of the most remarkable elements of the story. The prophet is transported supernaturally from Judea to Babylon — a motif that connects to Ezekiel's own supernatural transport (Ezekiel 8:3).",
+        {
+          "term": "Habakkuk",
+          "note": "The canonical prophet, here placed in a legendary narrative. His name (Hebrew chavaquq) may mean 'embrace.' His cameo appearance links the prophetic tradition to the Daniel cycle."
+        }
+      ],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 40,
+      "text_source": "Greek (Th): καὶ εἶπεν ἄγγελος κυρίου τῷ Αμβακουμ",
+      "text_reference": "But the angel of the Lord said to Habakkuk, 'Take the food that you have to Babylon, to Daniel in the lions' den.'",
+      "rendering": "But the angel of the Lord said to Habakkuk, 'Take the meal that you have to Babylon, to Daniel, in the lions' den.'",
+      "translator_notes": [],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 41,
+      "text_source": "Greek (Th): καὶ εἶπεν Αμβακουμ",
+      "text_reference": "Habakkuk said, 'Sir, I have never seen Babylon, and I know nothing about the den.'",
+      "rendering": "Habakkuk said, 'Lord, I have never seen Babylon, and I know nothing about the den.'",
+      "translator_notes": [],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 42,
+      "text_source": "Greek (Th): καὶ ἐπελάβετο ὁ ἄγγελος κυρίου τῆς κορυφῆς αὐτοῦ",
+      "text_reference": "Then the angel of the Lord took him by the crown of his head and carried him by his hair; with the speed of the wind he set him down in Babylon, right over the den.",
+      "rendering": "Then the angel of the Lord seized him by the crown of his head and carried him by his hair, and with the rushing of the wind he set him down in Babylon, right above the den.",
+      "translator_notes": [
+        "Transport by the hair echoes Ezekiel 8:3 where the prophet is lifted by a lock of hair and carried to Jerusalem in a vision. The supernatural travel motif emphasizes divine sovereignty over space."
+      ],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 43,
+      "text_source": "Greek (Th) [note: some editions number to v.42]",
+      "text_reference": "Then Habakkuk shouted, 'Daniel, Daniel! Take the food that God has sent you.'",
+      "rendering": "Then Habakkuk cried out, 'Daniel! Daniel! Take the meal that God has sent you!'",
+      "translator_notes": [],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 44,
+      "text_source": "Greek (Th): καὶ εἶπεν Δανιηλ",
+      "text_reference": "Daniel said, 'You have remembered me, O God, and have not forsaken those who love you.'",
+      "rendering": "And Daniel said, 'You have remembered me, O God! You have not forsaken those who love you.'",
+      "translator_notes": [],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 45,
+      "text_source": "Greek (Th): καὶ ἀναστὰς Δανιηλ ἔφαγεν",
+      "text_reference": "So Daniel got up and ate. And the angel of God immediately returned Habakkuk to his own place.",
+      "rendering": "Then Daniel rose and ate. And the angel of God immediately returned Habakkuk to his own place.",
+      "translator_notes": [],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 46,
+      "text_source": "Greek (Th): ὁ δὲ βασιλεὺς ἦλθεν τῇ ἡμέρᾳ τῇ ἑβδόμῃ",
+      "text_reference": "On the seventh day the king came to mourn for Daniel. When he came to the den he looked in, and there sat Daniel!",
+      "rendering": "On the seventh day the king came to mourn for Daniel. When he came to the den and looked in — there was Daniel, sitting!",
+      "translator_notes": [],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 47,
+      "text_source": "Greek (Th): καὶ ἐβόησεν φωνῇ μεγάλῃ",
+      "text_reference": "The king shouted with a loud voice, 'You are great, O Lord, the God of Daniel, and there is no other besides you!'",
+      "rendering": "And the king cried out with a loud voice, 'You are great, O Lord, the God of Daniel, and there is no other besides you!'",
+      "translator_notes": [
+        "The king's confession echoes Deuteronomy 4:35 and Isaiah 45:5 — there is no God besides the LORD. Each Daniel story ends with a pagan king confessing Israel's God."
+      ],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 48,
+      "text_source": "Greek (Th): καὶ ἀνέσπασεν αὐτόν",
+      "text_reference": "Then he pulled Daniel out, and threw into the den those who had attempted his destruction, and they were instantly devoured before his eyes.",
+      "rendering": "Then he pulled Daniel out of the den, and threw in those who had attempted his destruction, and they were devoured instantly before his eyes.",
+      "translator_notes": [
+        "The reversal motif — the accusers suffer the fate they intended for Daniel — parallels both Daniel 6:24 and the book of Esther (Haman on his own gallows)."
+      ],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    }
+  ]
+}

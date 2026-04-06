@@ -1,0 +1,143 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Esther",
+    "chapter": 3,
+    "tradition": "lxx-esther",
+    "tradition_label": "Septuagint (LXX)",
+    "source_text": "Rahlfs' Septuaginta",
+    "base_text": "Westminster Leningrad Codex (WLC)",
+    "date": "2nd–1st c. BCE",
+    "generated_at": "2026-04-05T00:00:00Z",
+    "prompt_version": "1.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Haman's rise and the decree against the Jews. The LXX follows the MT's narrative closely but adds theological motivation for Mordecai's refusal to bow: he will not give to a human the honor due to God. The LXX also expands the description of the decree. Addition B (the text of the decree itself) follows 3:13 in the LXX.",
+    "notable_variants": "The most significant LXX addition is Mordecai's prayer-like explanation for refusing to bow to Haman, stating that he would gladly kiss Haman's feet for Israel's sake but will not give to a mortal the honor that belongs to God. This transforms a political act into a theological one. Addition B (7 verses) inserts the full text of the anti-Jewish decree after 3:13.",
+    "structural_notes": "Both versions have 15 verses. Addition B follows v. 13 in the LXX."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "has_variant": false,
+      "variant_notes": [
+        "No significant variant between the LXX and the MT for this verse."
+      ]
+    },
+    {
+      "verse": 2,
+      "has_variant": false,
+      "variant_notes": [
+        "No significant variant between the LXX and the MT for this verse."
+      ]
+    },
+    {
+      "verse": 3,
+      "has_variant": false,
+      "variant_notes": [
+        "No significant variant between the LXX and the MT for this verse."
+      ]
+    },
+    {
+      "verse": 4,
+      "has_variant": true,
+      "significance": "theological",
+      "mt_reading": "כִּי־הִגִּיד לָהֶם אֲשֶׁר־הוּא יְהוּדִי",
+      "lxx_reading": "LXX: Μαρδοχαῖος γὰρ ἐδήλωσεν αὐτοῖς ὅτι Ιουδαῖός ἐστιν... [expanded]",
+      "variant_rendering": "LXX: 'For Mordecai had told them that he was a Jew [and would not bow because he would not give to a mortal the honor due to God]'",
+      "mt_rendering": "for he had told them that he was a Jew",
+      "variant_notes": [
+        "The LXX dramatically expands this verse. In the MT, Mordecai simply reveals he is Jewish. In the LXX, Mordecai explains his theological reasoning: he refuses to bow because he will not give to a human being the glory (doxa) that belongs to God alone. This makes Mordecai's act an expression of monotheistic piety."
+      ]
+    },
+    {
+      "verse": 5,
+      "has_variant": false,
+      "variant_notes": [
+        "No significant variant between the LXX and the MT for this verse."
+      ]
+    },
+    {
+      "verse": 6,
+      "has_variant": false,
+      "variant_notes": [
+        "No significant variant between the LXX and the MT for this verse."
+      ]
+    },
+    {
+      "verse": 7,
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "בַּחֹדֶשׁ הָרִאשׁוֹן... הִפִּיל פּוּר הוּא הַגּוֹרָל",
+      "lxx_reading": "ἐν τῷ μηνὶ τῷ πρώτῳ... ἔβαλεν κλήρους",
+      "variant_rendering": "he cast lots",
+      "mt_rendering": "he cast Pur — that is, the lot",
+      "variant_notes": [
+        "The MT provides both the Persian word Pur and its Hebrew gloss 'the lot.' The LXX uses only klērous (lots), omitting the Persian term. The LXX also specifies the purpose: 'to destroy the race of Mordecai in one day.' Some LXX manuscripts add specific dates."
+      ]
+    },
+    {
+      "verse": 8,
+      "has_variant": false,
+      "variant_notes": [
+        "No significant variant between the LXX and the MT for this verse."
+      ]
+    },
+    {
+      "verse": 9,
+      "has_variant": false,
+      "variant_notes": [
+        "No significant variant between the LXX and the MT for this verse."
+      ]
+    },
+    {
+      "verse": 10,
+      "has_variant": false,
+      "variant_notes": [
+        "No significant variant between the LXX and the MT for this verse."
+      ]
+    },
+    {
+      "verse": 11,
+      "has_variant": false,
+      "variant_notes": [
+        "No significant variant between the LXX and the MT for this verse."
+      ]
+    },
+    {
+      "verse": 12,
+      "has_variant": false,
+      "variant_notes": [
+        "No significant variant between the LXX and the MT for this verse."
+      ]
+    },
+    {
+      "verse": 13,
+      "has_variant": true,
+      "significance": "moderate",
+      "mt_reading": "לְהַשְׁמִיד לַהֲרֹג וּלְאַבֵּד",
+      "lxx_reading": "ἀπολέσαι... καὶ τὰ ὑπάρχοντα αὐτῶν προνομεῦσαι",
+      "variant_rendering": "to destroy... and to plunder their possessions",
+      "mt_rendering": "to destroy, to kill, and to annihilate",
+      "variant_notes": [
+        "Both versions describe total destruction. The LXX adds plundering explicitly. After this verse, the LXX inserts Addition B — the full text of the king's decree in seven verses. See addition-B.json."
+      ]
+    },
+    {
+      "verse": 14,
+      "has_variant": false,
+      "variant_notes": [
+        "No significant variant between the LXX and the MT for this verse."
+      ]
+    },
+    {
+      "verse": 15,
+      "has_variant": false,
+      "variant_notes": [
+        "No significant variant between the LXX and the MT for this verse."
+      ]
+    }
+  ]
+}

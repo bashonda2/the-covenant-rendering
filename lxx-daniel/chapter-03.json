@@ -1,0 +1,289 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Daniel",
+    "chapter": 3,
+    "tradition": "lxx-daniel",
+    "tradition_label": "Septuagint (LXX/Theodotion)",
+    "source_text": "Rahlfs' Septuaginta / Theodotion",
+    "base_text": "Westminster Leningrad Codex (WLC)",
+    "date": "2nd c. BCE",
+    "generated_at": "2026-04-05T00:00:00Z",
+    "prompt_version": "1.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "The fiery furnace narrative. Theodotion follows the MT closely for the 30 MT verses. The LXX tradition inserts the Prayer of Azariah and Song of the Three Young Men between 3:23 and 3:24 (treated separately in chapter-03-additions.json). The OG has differences in the dimensions of the statue and in the list of officials.",
+    "notable_variants": "The OG gives the image's height as 60 cubits but omits or varies some of the officials' titles. The Prayer of Azariah and Song of the Three Young Men (68 verses) are present in both OG and Theodotion but absent from the MT. Theodotion's verse 25 uses 'son of gods' (bar elahin) where the OG has 'angel of God.'",
+    "structural_notes": "MT has 30 verses. The LXX/Theodotion insert 68 additional verses between 3:23 and 3:24 (the Additions). These are provided in chapter-03-additions.json."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "שִׁתִּין אַמִּין",
+      "lxx_reading": "πηχῶν ἑξήκοντα",
+      "variant_rendering": "sixty cubits",
+      "mt_rendering": "sixty cubits",
+      "variant_notes": [
+        "All three versions agree on the dimensions (60 cubits high, 6 cubits wide). The proportions are unusual — 10:1 rather than the normal human proportion of roughly 5:1."
+      ]
+    },
+    {
+      "verse": 2,
+      "has_variant": true,
+      "significance": "moderate",
+      "mt_reading": "אֲחַשְׁדַּרְפְּנַיָּא סִגְנַיָּא וּפַחֲוָתָא",
+      "lxx_reading": "τοὺς ὑπάτους καὶ τοὺς στρατηγοὺς καὶ τοὺς τοπάρχας",
+      "variant_rendering": "the consuls, generals, and regional governors",
+      "mt_rendering": "the satraps, the prefects, and the governors",
+      "variant_notes": [
+        "The list of officials differs between OG and Theodotion. The OG uses Roman-era Greek titles (hypatous, stratēgous), while Theodotion uses terms closer to the Aramaic originals."
+      ]
+    },
+    {
+      "verse": 3,
+      "has_variant": false,
+      "variant_notes": [
+        "No significant variant between the LXX/Theodotion and the MT for this verse."
+      ]
+    },
+    {
+      "verse": 4,
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "כָּרוֹזָא קָרֵא בְחָיִל",
+      "lxx_reading": "ὁ κῆρυξ ἐβόα",
+      "variant_rendering": "the herald cried out",
+      "mt_rendering": "the herald called with force",
+      "variant_notes": [
+        "OG shortens this; Theodotion preserves the Aramaic b'chayil (with force/loudly)."
+      ]
+    },
+    {
+      "verse": 5,
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "קַרְנָא מַשְׁרוֹקִיתָא קַתְרוֹס שַׂבְּכָא פְּסַנְתֵּרִין",
+      "lxx_reading": "σάλπιγγος, σύριγγος, κιθάρας, σαμβύκης, ψαλτηρίου",
+      "variant_rendering": "trumpet, pipe, lyre, sambuca, psaltery",
+      "mt_rendering": "horn, flute, zither, trigon, harp",
+      "variant_notes": [
+        "The instrument list is rendered differently in OG vs. Theodotion. Some Aramaic instrument names are Persian loanwords whose exact identification is uncertain."
+      ]
+    },
+    {
+      "verse": 6,
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "אַתּוּן נוּרָא יָקִדְתָּא",
+      "lxx_reading": "εἰς τὴν κάμινον τοῦ πυρὸς τὴν καιομένην",
+      "variant_rendering": "into the furnace of fire, the burning one",
+      "mt_rendering": "the burning fiery furnace",
+      "variant_notes": [
+        "Both Greek versions render the Aramaic literally. The phrase becomes significant in the NT (Matthew 13:42, 50)."
+      ]
+    },
+    {
+      "verse": 7,
+      "has_variant": false,
+      "variant_notes": [
+        "No significant variant between the LXX/Theodotion and the MT for this verse."
+      ]
+    },
+    {
+      "verse": 8,
+      "has_variant": false,
+      "variant_notes": [
+        "No significant variant between the LXX/Theodotion and the MT for this verse."
+      ]
+    },
+    {
+      "verse": 9,
+      "has_variant": false,
+      "variant_notes": [
+        "No significant variant between the LXX/Theodotion and the MT for this verse."
+      ]
+    },
+    {
+      "verse": 10,
+      "has_variant": false,
+      "variant_notes": [
+        "No significant variant between the LXX/Theodotion and the MT for this verse."
+      ]
+    },
+    {
+      "verse": 11,
+      "has_variant": false,
+      "variant_notes": [
+        "No significant variant between the LXX/Theodotion and the MT for this verse."
+      ]
+    },
+    {
+      "verse": 12,
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "לָא שָׂמוּ עֲלָיִךְ טְעֵם",
+      "lxx_reading": "οὐχ ὑπήκουσαν τῷ δόγματί σου",
+      "variant_rendering": "they did not obey your decree",
+      "mt_rendering": "they pay no attention to you",
+      "variant_notes": [
+        "OG uses dogma (decree) where the Aramaic has the idiom 'set regard upon you.' Theodotion follows the Aramaic more closely."
+      ]
+    },
+    {
+      "verse": 13,
+      "has_variant": false,
+      "variant_notes": [
+        "No significant variant between the LXX/Theodotion and the MT for this verse."
+      ]
+    },
+    {
+      "verse": 14,
+      "has_variant": false,
+      "variant_notes": [
+        "No significant variant between the LXX/Theodotion and the MT for this verse."
+      ]
+    },
+    {
+      "verse": 15,
+      "has_variant": false,
+      "variant_notes": [
+        "No significant variant between the LXX/Theodotion and the MT for this verse."
+      ]
+    },
+    {
+      "verse": 16,
+      "has_variant": false,
+      "variant_notes": [
+        "No significant variant between the LXX/Theodotion and the MT for this verse."
+      ]
+    },
+    {
+      "verse": 17,
+      "has_variant": false,
+      "variant_notes": [
+        "No significant variant between the LXX/Theodotion and the MT for this verse."
+      ]
+    },
+    {
+      "verse": 18,
+      "has_variant": false,
+      "variant_notes": [
+        "No significant variant between the LXX/Theodotion and the MT for this verse."
+      ]
+    },
+    {
+      "verse": 19,
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "שִׁבְעָא חַד",
+      "lxx_reading": "ἑπταπλασίως (heptaplasiōs)",
+      "variant_rendering": "seven times over",
+      "mt_rendering": "seven times more",
+      "variant_notes": [
+        "Greek uses the multiplicative adverb. Both OG and Theodotion agree."
+      ]
+    },
+    {
+      "verse": 20,
+      "has_variant": false,
+      "variant_notes": [
+        "No significant variant between the LXX/Theodotion and the MT for this verse."
+      ]
+    },
+    {
+      "verse": 21,
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "סַרְבָּלֵיהוֹן פַּטְּשֵׁיהוֹן",
+      "lxx_reading": "σὺν τοῖς σαραβάροις αὐτῶν καὶ ταῖς τιάραις",
+      "variant_rendering": "with their trousers and their turbans",
+      "mt_rendering": "their robes, their trousers",
+      "variant_notes": [
+        "The exact garment terms are debated. The Aramaic sarbālēhōn and pattshēhōn are Persian loanwords. Greek versions translate differently."
+      ]
+    },
+    {
+      "verse": 22,
+      "has_variant": false,
+      "variant_notes": [
+        "No significant variant between the LXX/Theodotion and the MT for this verse."
+      ]
+    },
+    {
+      "verse": 23,
+      "has_variant": true,
+      "significance": "moderate",
+      "variant_notes": [
+        "After this verse, the LXX/Theodotion insert the Prayer of Azariah (67 verses) and the Song of the Three Young Men, totaling 68 additional verses. These are absent from the MT and are treated in chapter-03-additions.json."
+      ]
+    },
+    {
+      "verse": 24,
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "נְבוּכַדְנֶצַּר תְּוַהּ",
+      "lxx_reading": "Ναβουχοδονοσορ ἐθαύμασεν",
+      "variant_rendering": "Nebuchadnezzar was astonished",
+      "mt_rendering": "Nebuchadnezzar was astounded",
+      "variant_notes": [
+        "In the LXX numbering, this verse comes after the 68-verse insertion. Both Greek versions note the king's amazement."
+      ]
+    },
+    {
+      "verse": 25,
+      "has_variant": true,
+      "significance": "theological",
+      "mt_reading": "בַר־אֱלָהִין",
+      "lxx_reading": "OG: ἄγγελος θεοῦ / Th: υἱῷ θεοῦ",
+      "variant_rendering": "OG: 'angel of God' / Th: 'son of God'",
+      "mt_rendering": "a son of the gods",
+      "variant_notes": [
+        "Major theological variant. Theodotion preserves the Aramaic bar elahin (son of gods/divine being). The OG interprets this as angelos theou (angel of God), a theological clarification. The church fathers debated whether this was a pre-incarnate Christophany."
+      ]
+    },
+    {
+      "verse": 26,
+      "has_variant": false,
+      "variant_notes": [
+        "No significant variant between the LXX/Theodotion and the MT for this verse."
+      ]
+    },
+    {
+      "verse": 27,
+      "has_variant": false,
+      "variant_notes": [
+        "No significant variant between the LXX/Theodotion and the MT for this verse."
+      ]
+    },
+    {
+      "verse": 28,
+      "has_variant": false,
+      "variant_notes": [
+        "No significant variant between the LXX/Theodotion and the MT for this verse."
+      ]
+    },
+    {
+      "verse": 29,
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "יִתְעַבֵּד הַדָּמִין",
+      "lxx_reading": "μελισθήσεται (melisthēsetai)",
+      "variant_rendering": "will be dismembered",
+      "mt_rendering": "will be cut in pieces",
+      "variant_notes": [
+        "Both Greek versions agree on this violent punishment idiom."
+      ]
+    },
+    {
+      "verse": 30,
+      "has_variant": false,
+      "variant_notes": [
+        "No significant variant between the LXX/Theodotion and the MT for this verse."
+      ]
+    }
+  ]
+}

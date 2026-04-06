@@ -1,0 +1,650 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "1 Corinthians",
+    "chapter": 15,
+    "source_text": "SBL Greek New Testament (SBLGNT)",
+    "reference_text": "KJV",
+    "generated_at": "2026-04-04T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "1 Corinthians 15 is Paul's most extensive treatment of resurrection. He begins by reciting the earliest Christian creed (vv. 3-8), grounding the resurrection in eyewitness testimony. He then argues that denying the future resurrection of believers logically entails denying Christ's resurrection, which would unravel the entire gospel (vv. 12-19). The chapter traces the cosmic scope of resurrection: Christ as firstfruits, then believers at his coming, culminating in the defeat of death itself and the Son's handing over the kingdom to the Father (vv. 20-28). Paul addresses the nature of the resurrection body — not a resuscitated corpse but a transformed, imperishable body suited for the age to come (vv. 35-49). The chapter climaxes with the mystery of final transformation and a triumphant declaration that death has been swallowed up in victory (vv. 50-57).",
+    "remarkable": "Verses 3-7 constitute the earliest surviving Christian creed, likely formulated within five years of the crucifixion. The appearance list includes over five hundred witnesses, most of whom Paul says are still alive and could be consulted. The Adam-Christ typology (vv. 21-22, 45-49) establishes a framework that Paul develops further in Romans 5. The phrase 'if Christ has not been raised, your faith is futile' (v. 17) is the most direct statement in Scripture that Christianity stands or falls with the bodily resurrection. The 'mystery' of verse 51 — that not all will die but all will be changed — introduces an eschatological surprise not found in prior Jewish expectation.",
+    "friction": "The phrase 'baptized on behalf of the dead' (v. 29) remains one of the most obscure statements in Paul's letters; over forty interpretations have been proposed. We render the Greek literally and note the difficulty. The meaning of 'he handed over the kingdom' (v. 24) and the Son's subjection to the Father (v. 28) raises complex Trinitarian questions we do not attempt to resolve. The 'spiritual body' (soma pneumatikon) of verse 44 is frequently misunderstood as 'immaterial body,' but Paul means a body animated and governed by the Spirit.",
+    "connections": "The creed of vv. 3-5 connects to the Gospel passion and resurrection narratives. The Adam-Christ typology links to Genesis 2-3 and Romans 5:12-21. The 'firstfruits' language echoes Leviticus 23:10-11. The defeat of death draws on Isaiah 25:8 and Hosea 13:14. The transformation imagery anticipates Philippians 3:20-21 and 2 Corinthians 5:1-5.\n\n**Tradition comparisons:** The Joseph Smith Translation includes a significant revision for this chapter: Degrees of glory passage The JST revises 1 Corinthians 15:40, expanding the brief reference to 'celestial bodies' and 'terrestrial bodies' to make explicit that there are three distinct degrees of glory in the resurrection: c... JST footnote at 1 Corinthians 15:40: Celestial and terrestrial bodies — three degrees of glory language introduced or expanded See the [JST notes](/jst/1-corinthians)."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_greek": "Γνωρίζω δὲ ὑμῖν, ἀδελφοί, τὸ εὐαγγέλιον ὃ εὐηγγελισάμην ὑμῖν, ὃ καὶ παρελάβετε, ἐν ᾧ καὶ ἑστήκατε,",
+      "text_kjv": "Moreover, brethren, I declare unto you the gospel which I preached unto you, which also ye have received, and wherein ye stand;",
+      "rendering": "Now I make known to you, brothers and sisters, the gospel that I proclaimed to you, which you also received, in which you also stand,",
+      "translator_notes": [
+        "Paul reintroduces the gospel he originally preached to Corinth. The three verbs trace the gospel's trajectory: proclaimed (euengelisamen), received (parelabete), and now stand firm in (hestekate). The perfect tense of hestekate indicates a settled, ongoing stance."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 2,
+      "text_greek": "δι' οὗ καὶ σῴζεσθε, τίνι λόγῳ εὐηγγελισάμην ὑμῖν εἰ κατέχετε, ἐκτὸς εἰ μὴ εἰκῇ ἐπιστεύσατε.",
+      "text_kjv": "By which also ye are saved, if ye keep in memory what I preached unto you, unless ye have believed in vain.",
+      "rendering": "Indeed, by which also you are saved, if you keep in memory what I preached to you, unless you have believed in vain.",
+      "translator_notes": [
+        "The present tense sozesthe ('you are being saved') presents salvation as an ongoing process, not merely a past event. The conditional 'if you hold fast' (ei katechete) introduces a note of warning that prepares for the chapter's argument against resurrection deniers."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 3,
+      "text_greek": "παρέδωκα γὰρ ὑμῖν ἐν πρώτοις, ὃ καὶ παρέλαβον, ὅτι Χριστὸς ἀπέθανεν ὑπὲρ τῶν ἁμαρτιῶν ἡμῶν κατὰ τὰς γραφάς,",
+      "text_kjv": "For I delivered unto you first of all that which I also received, how that Christ died for our sins according to the scriptures;",
+      "rendering": "For I delivered to you as of first importance what I also received: that Christ died for our sins in accordance with the Scriptures,",
+      "translator_notes": [
+        "The transmission language (paredoka/parelabon) matches 11:23 — Paul is passing on authoritative tradition, not inventing doctrine. The phrase en protois ('among the first things, as of first importance') indicates priority of content, not merely chronology. The creed that follows (vv. 3b-5) is widely recognized as pre-Pauline, likely dating to the early 30s AD."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 4,
+      "text_greek": "καὶ ὅτι ἐτάφη, καὶ ὅτι ἐγήγερται τῇ ἡμέρᾳ τῇ τρίτῃ κατὰ τὰς γραφάς,",
+      "text_kjv": "And that he was buried, and that he rose again the third day according to the scriptures:",
+      "rendering": "That he was buried, and that he rose again the third day in keeping with to the scriptures:.",
+      "translator_notes": [
+        "Four clauses form the creed: died, buried, raised, appeared. The burial confirms the reality of death; the appearances confirm the reality of resurrection. The perfect tense egegertai ('has been raised') indicates a past event with continuing effects — Christ was raised and remains risen. 'According to the Scriptures' likely refers to Hosea 6:2 and/or Jonah 1:17 (cf. Matthew 12:40), though no single Old Testament text explicitly predicts a third-day resurrection.",
+        "[TCR Cross-Reference] Echoes Hosea 6:2. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale.",
+        "[TCR Cross-Reference] Echoes Jonah 1:17. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 5,
+      "text_greek": "καὶ ὅτι ὤφθη Κηφᾷ, εἶτα τοῖς δώδεκα·",
+      "text_kjv": "And that he was seen of Cephas, then of the twelve:",
+      "rendering": "He appeared to Peter, and then to the twelve apostles.",
+      "translator_notes": [
+        "The verb ophthe ('appeared, was seen') is a divine appearance term in the Septuagint (cf. Genesis 12:7, Exodus 3:2). Cephas is the Aramaic name for Peter — Paul uses the Aramaic form, suggesting this creed originated in the Aramaic-speaking Jerusalem church. 'The Twelve' functions as a title for the apostolic group even after Judas's departure.",
+        "[TCR Cross-Reference] This verse quotes Genesis 12:7 — see the TCR rendering of that passage for the Hebrew source text and translation decisions.",
+        "[TCR Cross-Reference] This verse quotes Exodus 3:2 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 6,
+      "text_greek": "ἔπειτα ὤφθη ἐπάνω πεντακοσίοις ἀδελφοῖς ἐφάπαξ, ἐξ ὧν οἱ πλείονες μένουσιν ἕως ἄρτι, τινὲς δὲ ἐκοιμήθησαν·",
+      "text_kjv": "After that, he was seen of above five hundred brethren at once; of whom the greater part remain unto this present, but some are fallen asleep.",
+      "rendering": "Then he appeared to more than five hundred brothers and sisters at one time, most of whom are still alive, though some have fallen asleep.",
+      "translator_notes": [
+        "Paul's note that most of the five hundred are still alive functions as an implicit challenge: these witnesses can be consulted. This is the earliest form of historical evidence appeal in Christian literature. The appearance to five hundred simultaneously is not recorded in the Gospels."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 7,
+      "text_greek": "ἔπειτα ὤφθη Ἰακώβῳ, εἶτα τοῖς ἀποστόλοις πᾶσιν·",
+      "text_kjv": "After that, he was seen of James; then of all the apostles.",
+      "rendering": "Then he appeared to James, then to all the apostles.",
+      "translator_notes": [
+        "This James is almost certainly James the brother of Jesus (cf. Galatians 1:19), who became the leader of the Jerusalem church. He was apparently not a follower during Jesus's ministry (cf. John 7:5), making the resurrection appearance a conversion experience. 'All the apostles' appears to be a broader group than 'the Twelve' of verse 5."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 8,
+      "text_greek": "ἔσχατον δὲ πάντων ὡσπερεὶ τῷ ἐκτρώματι ὤφθη κἀμοί.",
+      "text_kjv": "And last of all he was seen of me also, as of one born out of due time.",
+      "rendering": "Last of all, as to one untimely born, he appeared also to me.",
+      "translator_notes": [
+        "The word ektroma ('miscarriage, abortion, untimely birth') is shockingly self-deprecating. Paul sees his apostleship as abnormal — born violently and prematurely through the Damascus road encounter rather than through the normal process of following the earthly Jesus. The phrase 'last of all' (eschaton panton) may indicate Paul believes his was the final resurrection appearance."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 9,
+      "text_greek": "ἐγὼ γάρ εἰμι ὁ ἐλάχιστος τῶν ἀποστόλων, ὃς οὐκ εἰμὶ ἱκανὸς καλεῖσθαι ἀπόστολος, διότι ἐδίωξα τὴν ἐκκλησίαν τοῦ θεοῦ·",
+      "text_kjv": "For I am the least of the apostles, that am not meet to be called an apostle, because I persecuted the church of God.",
+      "rendering": "Because i persecuted the church of god, for I am the least of the apostles, that am not meet to be called an apostle.",
+      "translator_notes": [
+        "Paul's self-assessment is not false humility — he genuinely regards his persecution of the church as disqualifying. The phrase ten ekklesian tou theou ('the church of God') uses the most elevated designation for the community, heightening the gravity of his offense."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 10,
+      "text_greek": "χάριτι δὲ θεοῦ εἰμι ὅ εἰμι, καὶ ἡ χάρις αὐτοῦ ἡ εἰς ἐμὲ οὐ κενὴ ἐγενήθη, ἀλλὰ περισσότερον αὐτῶν πάντων ἐκοπίασα, οὐκ ἐγὼ δὲ ἀλλὰ ἡ χάρις τοῦ θεοῦ ἡ σὺν ἐμοί.",
+      "text_kjv": "But by the grace of God I am what I am: and his grace which was bestowed upon me was not in vain; but I laboured more abundantly than they all: yet not I, but the grace of God which was with me.",
+      "rendering": "But by the grace of God I am what I am, and his grace toward me was not in vain. On the contrary, I worked harder than all of them — yet not I, but the grace of God that was with me.",
+      "translator_notes": [
+        "The phrase chariti theou eimi ho eimi ('by the grace of God I am what I am') is one of Paul's most concentrated theological statements. The self-correction 'not I, but the grace of God' prevents boasting while still claiming the reality of his labor. Grace does not eliminate human effort but transforms and empowers it."
+      ],
+      "key_terms": [
+        {
+          "greek": "χάρις",
+          "transliteration": "charis",
+          "rendered_as": "grace",
+          "semantic_range": "grace, favor, gift, kindness, gratitude",
+          "note": "Grace here is not merely divine attitude but active divine power — it worked through Paul. The threefold repetition of charis in this verse emphasizes that everything Paul has become is attributed to God's initiative."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 11,
+      "text_greek": "εἴτε οὖν ἐγὼ εἴτε ἐκεῖνοι, οὕτως κηρύσσομεν καὶ οὕτως ἐπιστεύσατε.",
+      "text_kjv": "Therefore whether it were I or they, so we preach, and so ye believed.",
+      "rendering": "Whether then it was I or they, so we proclaim and so you believed.",
+      "translator_notes": [
+        "Paul closes the credal section by emphasizing apostolic unity: regardless of which apostle preached, the message was the same — Christ died, was buried, was raised. This common proclamation is the foundation for the argument that follows."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 12,
+      "text_greek": "Εἰ δὲ Χριστὸς κηρύσσεται ὅτι ἐκ νεκρῶν ἐγήγερται, πῶς λέγουσιν ἐν ὑμῖν τινες ὅτι ἀνάστασις νεκρῶν οὐκ ἔστιν;",
+      "text_kjv": "Now if Christ be preached that he rose from the dead, how say some among you that there is no resurrection of the dead?",
+      "rendering": "Now if Christ is proclaimed as raised from the dead, how can some of you say that there is no resurrection of the dead?",
+      "translator_notes": [
+        "Paul reveals the problem: some Corinthians deny the resurrection of the dead. They likely accepted Christ's resurrection as a unique divine act but denied that ordinary believers would be bodily raised. This may reflect Greek philosophical contempt for the body (cf. Acts 17:32). Paul will show that the two resurrections stand or fall together."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 13,
+      "text_greek": "εἰ δὲ ἀνάστασις νεκρῶν οὐκ ἔστιν, οὐδὲ Χριστὸς ἐγήγερται·",
+      "text_kjv": "But if there be no resurrection of the dead, then is Christ not risen:",
+      "rendering": "But if there is no resurrection of the dead, then not even Christ has been raised.",
+      "translator_notes": [
+        "The logic is tight: if resurrection is categorically impossible, then Christ's resurrection is also impossible. Paul refuses to make Christ's resurrection an exception to a general rule — it is instead the first instance of a general resurrection."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 14,
+      "text_greek": "εἰ δὲ Χριστὸς οὐκ ἐγήγερται, κενὸν ἄρα καὶ τὸ κήρυγμα ἡμῶν, κενὴ καὶ ἡ πίστις ὑμῶν·",
+      "text_kjv": "And if Christ be not risen, then is our preaching vain, and your faith is also vain.",
+      "rendering": "And if Christ has not been raised, then our proclamation is empty and your faith is empty.",
+      "translator_notes": [
+        "The word kenon ('empty, hollow, without content') is devastating: without resurrection, the entire Christian message collapses into an empty shell. Both the apostolic proclamation and the Corinthian response to it become meaningless."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 15,
+      "text_greek": "εὑρισκόμεθα δὲ καὶ ψευδομάρτυρες τοῦ θεοῦ, ὅτι ἐμαρτυρήσαμεν κατὰ τοῦ θεοῦ ὅτι ἤγειρεν τὸν Χριστόν, ὃν οὐκ ἤγειρεν εἴπερ ἄρα νεκροὶ οὐκ ἐγείρονται.",
+      "text_kjv": "Yea, and we are found false witnesses of God; because we have testified of God that he raised up Christ: whom he raised not up, if so be that the dead rise not.",
+      "rendering": "We are even found to be false witnesses about God, because we testified about God that he raised Christ — whom he did not raise if in fact the dead are not raised.",
+      "translator_notes": [
+        "The phrase pseudomartyres tou theou ('false witnesses of God') is a serious charge — the apostles would not merely be mistaken but guilty of bearing false testimony about God's actions. The preposition kata ('against') suggests testifying against God by attributing to him an act he did not perform."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 16,
+      "text_greek": "εἰ γὰρ νεκροὶ οὐκ ἐγείρονται, οὐδὲ Χριστὸς ἐγήγερται·",
+      "text_kjv": "For if the dead rise not, then is not Christ raised:",
+      "rendering": "For if the dead are not raised, not even Christ has been raised.",
+      "translator_notes": [
+        "Paul restates the premise of verse 13 for emphasis before drawing the most devastating consequence in verse 17."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 17,
+      "text_greek": "εἰ δὲ Χριστὸς οὐκ ἐγήγερται, ματαία ἡ πίστις ὑμῶν, ἔτι ἐστὲ ἐν ταῖς ἁμαρτίαις ὑμῶν.",
+      "text_kjv": "And if Christ be not raised, your faith is vain; ye are yet in your sins.",
+      "rendering": "And if Christ has not been raised, your faith is futile and you are still in your sins.",
+      "translator_notes": [
+        "The word mataia ('futile, useless, pointless') is stronger than kenon in verse 14 — not merely empty but worthless. The consequence 'still in your sins' means that without resurrection, Christ's death accomplished nothing. Atonement and resurrection are inseparable in Paul's theology."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 18,
+      "text_greek": "ἄρα καὶ οἱ κοιμηθέντες ἐν Χριστῷ ἀπώλοντο.",
+      "text_kjv": "Then they also which are fallen asleep in Christ are perished.",
+      "rendering": "Then those also who have fallen asleep in Christ have perished.",
+      "translator_notes": [
+        "The word apolonto ('have perished, are destroyed') stands in brutal contrast to 'fallen asleep in Christ.' If there is no resurrection, the euphemism of sleep is a cruel lie — the dead are simply gone."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 19,
+      "text_greek": "εἰ ἐν τῇ ζωῇ ταύτῃ ἐν Χριστῷ ἠλπικότες ἐσμὲν μόνον, ἐλεεινότεροι πάντων ἀνθρώπων ἐσμέν.",
+      "text_kjv": "If in this life only we have hope in Christ, we are of all men most miserable.",
+      "rendering": "If in this life only we have hoped in Christ, we are of all people most to be pitied.",
+      "translator_notes": [
+        "The superlative eleenoteroi ('most pitiable, most to be pitied') is the climax of the reductio ad absurdum. Christians who have suffered persecution, social ostracism, and material loss for a false hope would be the most deluded people on earth. Paul's argument assumes that following Christ involves real worldly cost."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 20,
+      "text_greek": "Νυνὶ δὲ Χριστὸς ἐγήγερται ἐκ νεκρῶν, ἀπαρχὴ τῶν κεκοιμημένων.",
+      "text_kjv": "But now is Christ risen from the dead, and become the firstfruits of them that slept.",
+      "rendering": "But in fact Christ has been raised from the dead, the firstfruits of those who have fallen asleep.",
+      "translator_notes": [
+        "The emphatic nyni de ('but now, but in fact') signals the dramatic reversal from the hypothetical despair of vv. 12-19 to the triumphant reality. The word aparche ('firstfruits') is a Levitical term (Leviticus 23:10) — the first sheaf of the harvest, offered to God as a guarantee that the full harvest will follow. Christ's resurrection guarantees the resurrection of all who belong to him.",
+        "[TCR Cross-Reference] This verse quotes Leviticus 23:10 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "key_terms": [
+        {
+          "greek": "ἀπαρχή",
+          "transliteration": "aparche",
+          "rendered_as": "firstfruits",
+          "semantic_range": "firstfruits, first portion, beginning of harvest",
+          "note": "The firstfruits offering was not separate from the harvest but the initial installment of it. Christ's resurrection is the same resurrection believers will experience — the first portion of the eschatological harvest."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 21,
+      "text_greek": "ἐπειδὴ γὰρ δι' ἀνθρώπου θάνατος, καὶ δι' ἀνθρώπου ἀνάστασις νεκρῶν.",
+      "text_kjv": "For since by man came death, by man came also the resurrection of the dead.",
+      "rendering": "For since death came through a man, the resurrection of the dead also comes through a man.",
+      "translator_notes": [
+        "The Adam-Christ typology is introduced: the same channel through which death entered (a human being) is the channel through which resurrection comes. The parallelism demands a real, bodily human — not an angel or divine being acting apart from humanity."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 22,
+      "text_greek": "ὥσπερ γὰρ ἐν τῷ Ἀδὰμ πάντες ἀποθνῄσκουσιν, οὕτως καὶ ἐν τῷ Χριστῷ πάντες ζῳοποιηθήσονται.",
+      "text_kjv": "For as in Adam all die, even so in Christ shall all be made alive.",
+      "rendering": "For just as in Adam all die, so also in Christ all will be made alive.",
+      "translator_notes": [
+        "The two 'all' (pantes) statements are symmetrical but not necessarily identical in scope. 'In Adam all die' is universal — physical death touches every human. Whether 'in Christ all will be made alive' is equally universal (all humanity) or limited to 'all who are in Christ' is debated. The context of verses 23-24 suggests the latter, as Paul specifies 'those who belong to Christ.'"
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 23,
+      "text_greek": "ἕκαστος δὲ ἐν τῷ ἰδίῳ τάγματι· ἀπαρχὴ Χριστός, ἔπειτα οἱ τοῦ Χριστοῦ ἐν τῇ παρουσίᾳ αὐτοῦ·",
+      "text_kjv": "But every man in his own order: Christ the firstfruits; afterward they that are Christ's at his coming.",
+      "rendering": "But each in his own order: Christ the firstfruits, then at his coming those who belong to Christ.",
+      "translator_notes": [
+        "The word tagma ('order, rank, division') is a military term for a unit in formation. The resurrection occurs in stages, not all at once: Christ first, then believers at the parousia ('coming, arrival, presence'). The parousia is the expected return of Christ."
+      ],
+      "key_terms": [
+        {
+          "greek": "παρουσία",
+          "transliteration": "parousia",
+          "rendered_as": "coming",
+          "semantic_range": "coming, arrival, presence, royal visit",
+          "note": "In secular Greek, parousia was used for the official visit of a ruler to a city. Paul uses it for Christ's return, carrying connotations of royal authority and public recognition."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 24,
+      "text_greek": "εἶτα τὸ τέλος, ὅταν παραδιδῷ τὴν βασιλείαν τῷ θεῷ καὶ πατρί, ὅταν καταργήσῃ πᾶσαν ἀρχὴν καὶ πᾶσαν ἐξουσίαν καὶ δύναμιν.",
+      "text_kjv": "Then cometh the end, when he shall have delivered up the kingdom to God, even the Father; when he shall have put down all rule and all authority and power.",
+      "rendering": "Then comes the end, when he delivers the kingdom to God the Father after he has destroyed every ruler and every authority and power.",
+      "translator_notes": [
+        "The 'end' (to telos) is the consummation of all things. Christ's mediatorial reign ends when all hostile powers are defeated and the kingdom is handed over to the Father. The three terms — arche, exousia, dynamis ('ruler, authority, power') — encompass all forms of opposition to God, whether spiritual or political."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 25,
+      "text_greek": "δεῖ γὰρ αὐτὸν βασιλεύειν ἄχρι οὗ θῇ πάντας τοὺς ἐχθροὺς ὑπὸ τοὺς πόδας αὐτοῦ.",
+      "text_kjv": "For he must reign, till he hath put all enemies under his feet.",
+      "rendering": "For he must reign until he has put all his enemies under his feet.",
+      "translator_notes": [
+        "Paul alludes to Psalm 110:1, the most frequently quoted Old Testament text in the New Testament. The divine necessity (dei, 'it is necessary, he must') indicates this is God's predetermined plan. The reign is not yet complete — enemies remain — but the outcome is certain.",
+        "[TCR Cross-Reference] This verse quotes Psalm 110:1 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 26,
+      "text_greek": "ἔσχατος ἐχθρὸς καταργεῖται ὁ θάνατος·",
+      "text_kjv": "The last enemy that shall be destroyed is death.",
+      "rendering": "The last enemy to be destroyed is death.",
+      "translator_notes": [
+        "Death is personified as an enemy — the final enemy. The passive katargeitai ('is being destroyed, is abolished') may be a prophetic present, treating the future event as already underway because Christ's resurrection has already begun death's defeat. Death is not merely an unfortunate reality but a hostile power that will be defeated."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 27,
+      "text_greek": "πάντα γὰρ ὑπέταξεν ὑπὸ τοὺς πόδας αὐτοῦ. ὅταν δὲ εἴπῃ ὅτι πάντα ὑποτέτακται, δῆλον ὅτι ἐκτὸς τοῦ ὑποτάξαντος αὐτῷ τὰ πάντα.",
+      "text_kjv": "For he hath put all things under his feet. But when he saith all things are put under him, it is manifest that he is excepted, which did put all things under him.",
+      "rendering": "For \"God has put all things in subjection under his feet.\" But when it says \"all things are put in subjection,\" it is clear that the one who subjected all things to him is excepted.",
+      "translator_notes": [
+        "Paul quotes Psalm 8:6 and adds a logical clarification: when the psalm says 'all things,' the Father who does the subjecting is obviously not included. This prevents the absurd conclusion that the Father is subject to the Son.",
+        "[TCR Cross-Reference] Draws on Psalms 8:6. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 28,
+      "text_greek": "ὅταν δὲ ὑποταγῇ αὐτῷ τὰ πάντα, τότε καὶ αὐτὸς ὁ υἱὸς ὑποταγήσεται τῷ ὑποτάξαντι αὐτῷ τὰ πάντα, ἵνα ᾖ ὁ θεὸς τὰ πάντα ἐν πᾶσιν.",
+      "text_kjv": "And when all things shall be subdued unto him, then shall the Son also himself be subject unto him that put all things under him, that God may be all in all.",
+      "rendering": "When all things are subjected to him, then the Son himself will also be subjected to the one who subjected all things to him, so that God may be all in all.",
+      "translator_notes": [
+        "The Son's voluntary subjection to the Father is the final cosmic act. The phrase 'God may be all in all' (ho theos ta panta en pasin) envisions a reality where God's presence and authority are fully realized in every dimension of existence. This is the telos of the entire biblical narrative — God's unmediated presence filling all things."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 29,
+      "text_greek": "Ἐπεὶ τί ποιήσουσιν οἱ βαπτιζόμενοι ὑπὲρ τῶν νεκρῶν; εἰ ὅλως νεκροὶ οὐκ ἐγείρονται, τί καὶ βαπτίζονται ὑπὲρ αὐτῶν;",
+      "text_kjv": "Else what shall they do which are baptized for the dead, if the dead rise not at all? why are they then baptized for the dead?",
+      "rendering": "Otherwise, what will those do who are baptized on behalf of the dead? If the dead are not raised at all, why are people baptized on behalf of them?",
+      "translator_notes": [
+        "This is one of the most obscure verses in the Pauline corpus. The phrase baptizomenoi hyper ton nekron ('being baptized on behalf of the dead') has generated over forty scholarly interpretations. The most straightforward reading is that some Corinthians practiced vicarious baptism for deceased persons — Paul neither endorses nor condemns the practice but uses it as an argument: their own behavior presupposes resurrection. We render the Greek literally without resolving the interpretive question."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 30,
+      "text_greek": "τί καὶ ἡμεῖς κινδυνεύομεν πᾶσαν ὥραν;",
+      "text_kjv": "And why stand we in jeopardy every hour?",
+      "rendering": "Why are we in danger every hour?",
+      "translator_notes": [
+        "Paul shifts from the Corinthians' practice (v. 29) to his own experience. If there is no resurrection, the constant danger of apostolic ministry is pointless. The phrase pasan horan ('every hour') emphasizes the unrelenting nature of the risk."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 31,
+      "text_greek": "καθ' ἡμέραν ἀποθνῄσκω, νὴ τὴν ὑμετέραν καύχησιν, ἀδελφοί, ἣν ἔχω ἐν Χριστῷ Ἰησοῦ τῷ κυρίῳ ἡμῶν.",
+      "text_kjv": "I protest by your rejoicing which I have in Christ Jesus our Lord, I die daily.",
+      "rendering": "I die every day! I swear it by my boasting in you, brothers and sisters, which I have in Christ Jesus our Lord.",
+      "translator_notes": [
+        "The oath formula ne ('I swear by') is rare in Paul and indicates the intensity of his claim. 'I die every day' (kath' hemeran apothnesko) describes the constant mortal danger of his apostolic work. Paul's daily dying is meaningless without the hope of resurrection."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 32,
+      "text_greek": "εἰ κατὰ ἄνθρωπον ἐθηριομάχησα ἐν Ἐφέσῳ, τί μοι τὸ ὄφελος; εἰ νεκροὶ οὐκ ἐγείρονται, Φάγωμεν καὶ πίωμεν, αὔριον γὰρ ἀποθνῄσκομεν.",
+      "text_kjv": "If after the manner of men I have fought with beasts at Ephesus, what advantageth it me, if the dead rise not? let us eat and drink; for to morrow we die.",
+      "rendering": "If merely from a human perspective I fought with wild beasts at Ephesus, what does it profit me? If the dead are not raised, \"Let us eat and drink, for tomorrow we die.\"",
+      "translator_notes": [
+        "Whether Paul literally fought animals in the Ephesian arena or speaks metaphorically of fierce human opposition is debated. The quotation 'Let us eat and drink, for tomorrow we die' comes from Isaiah 22:13, where it describes fatalistic hedonism in the face of judgment. Without resurrection, this becomes the only rational philosophy.",
+        "[TCR Cross-Reference] Draws on Isaiah 22:13. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 33,
+      "text_greek": "μὴ πλανᾶσθε· Φθείρουσιν ἤθη χρηστὰ ὁμιλίαι κακαί.",
+      "text_kjv": "Be not deceived: evil communications corrupt good manners.",
+      "rendering": "Do not be deceived: \"Bad company corrupts good character.\"",
+      "translator_notes": [
+        "Paul quotes a line attributed to the Greek poet Menander (Thais, fragment 218). The Greek ethē chresta ('good character/morals') and homiliai kakai ('bad company/associations') form a proverbial warning. Paul's use of a pagan poet to make a moral point parallels his quotation of Aratus in Acts 17:28."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 34,
+      "text_greek": "ἐκνήψατε δικαίως καὶ μὴ ἁμαρτάνετε· ἀγνωσίαν γὰρ θεοῦ τινες ἔχουσιν· πρὸς ἐντροπὴν ὑμῖν λαλῶ.",
+      "text_kjv": "Awake to righteousness, and sin not; for some have not the knowledge of God: I speak this to your shame.",
+      "rendering": "Come to your senses as you should and stop sinning, for some have no knowledge of God. I say this to your shame.",
+      "translator_notes": [
+        "The verb eknepsate ('sober up, come to your senses') suggests the Corinthians have been drunk on their own theological confusion. The phrase agnosian theou ('ignorance of God') is a stinging rebuke — despite their intellectual pride, some Corinthians lack basic knowledge of God's character and purposes."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 35,
+      "text_greek": "Ἀλλὰ ἐρεῖ τις· Πῶς ἐγείρονται οἱ νεκροί; ποίῳ δὲ σώματι ἔρχονται;",
+      "text_kjv": "But some man will say, How are the dead raised up? and with what body do they come?",
+      "rendering": "But someone will ask, \"How are the dead raised? With what kind of body do they come?\"",
+      "translator_notes": [
+        "Paul now addresses the 'how' question. The objection assumes that resurrection means resuscitation of the same physical body — an idea many found absurd. Paul will show that the resurrection body is real but transformed."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 36,
+      "text_greek": "ἄφρων, σὺ ὃ σπείρεις οὐ ζῳοποιεῖται ἐὰν μὴ ἀποθάνῃ·",
+      "text_kjv": "Thou fool, that which thou sowest is not quickened, except it die:",
+      "rendering": "Foolish one! What you sow does not come to life unless it dies.",
+      "translator_notes": [
+        "The sharp address aphron ('fool, senseless one') echoes Jesus's parable of the rich fool (Luke 12:20). The seed analogy answers the 'how' question: just as a seed must die to produce a plant, the mortal body must die to produce the resurrection body. Continuity and transformation coexist."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 37,
+      "text_greek": "καὶ ὃ σπείρεις, οὐ τὸ σῶμα τὸ γενησόμενον σπείρεις ἀλλὰ γυμνὸν κόκκον εἰ τύχοι σίτου ἤ τινος τῶν λοιπῶν·",
+      "text_kjv": "And that which thou sowest, thou sowest not that body that shall be, but bare grain, it may chance of wheat, or of some other grain:",
+      "rendering": "And what you sow — you do not sow the body that will be, but a bare seed, perhaps of wheat or of some other grain.",
+      "translator_notes": [
+        "The point is crucial: the seed and the plant are continuous (it is the same organism) but radically different in form. No one mistakes a wheat kernel for a stalk of wheat. Likewise, the resurrection body will be continuous with but transformed from the present body."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 38,
+      "text_greek": "ὁ δὲ θεὸς δίδωσιν αὐτῷ σῶμα καθὼς ἠθέλησεν, καὶ ἑκάστῳ τῶν σπερμάτων ἴδιον σῶμα.",
+      "text_kjv": "But God giveth it a body as it hath pleased him, and to every seed his own body.",
+      "rendering": "But God gives it a body as he has chosen, and to each kind of seed its own body.",
+      "translator_notes": [
+        "The resurrection body is God's gift and God's design — not a natural process but a divine creative act. The phrase 'as he has chosen' (kathos ethelesen) emphasizes divine sovereignty over the form of the resurrection body."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 39,
+      "text_greek": "οὐ πᾶσα σὰρξ ἡ αὐτὴ σάρξ, ἀλλὰ ἄλλη μὲν ἀνθρώπων, ἄλλη δὲ σὰρξ κτηνῶν, ἄλλη δὲ σὰρξ πτηνῶν, ἄλλη δὲ ἰχθύων.",
+      "text_kjv": "All flesh is not the same flesh: but there is one kind of flesh of men, another flesh of beasts, another of fishes, and another of birds.",
+      "rendering": "Not all flesh is the same flesh; rather, there is one kind for humans, another for animals, another for birds, and another for fish.",
+      "translator_notes": [
+        "Paul expands the analogy: God already creates diverse kinds of bodies in the natural world. The diversity of earthly bodies demonstrates God's creative capacity to produce bodies suited for different environments — including the environment of the age to come."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 40,
+      "text_greek": "καὶ σώματα ἐπουράνια, καὶ σώματα ἐπίγεια· ἀλλὰ ἑτέρα μὲν ἡ τῶν ἐπουρανίων δόξα, ἑτέρα δὲ ἡ τῶν ἐπιγείων.",
+      "text_kjv": "There are also celestial bodies, and bodies terrestrial: but the glory of the celestial is one, and the glory of the terrestrial is another.",
+      "rendering": "There are heavenly bodies and earthly bodies, but the glory of the heavenly is of one kind, and the glory of the earthly is of another kind.",
+      "translator_notes": [
+        "The word doxa ('glory, radiance, splendor') refers to the visible splendor appropriate to each type of body. Heavenly bodies (sun, moon, stars) have a different kind of glory than earthly bodies — both are real, but they differ in mode of existence and splendor."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 41,
+      "text_greek": "ἄλλη δόξα ἡλίου, καὶ ἄλλη δόξα σελήνης, καὶ ἄλλη δόξα ἀστέρων· ἀστὴρ γὰρ ἀστέρος διαφέρει ἐν δόξῃ.",
+      "text_kjv": "There is one glory of the sun, and another glory of the moon, and another glory of the stars: for one star differeth from another star in glory.",
+      "rendering": "There is one glory of the sun, another glory of the moon, and another glory of the stars; for star differs from star in glory.",
+      "translator_notes": [
+        "Even within the category of heavenly bodies, diversity of glory exists. The point is cumulative: God's creation already displays an enormous range of bodily forms and degrees of glory. The resurrection body will be yet another form — different from anything now known but no less real."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 42,
+      "text_greek": "οὕτως καὶ ἡ ἀνάστασις τῶν νεκρῶν. σπείρεται ἐν φθορᾷ, ἐγείρεται ἐν ἀφθαρσίᾳ·",
+      "text_kjv": "So also is the resurrection of the dead. It is sown in corruption; it is raised in incorruption:",
+      "rendering": "So also is the resurrection of the dead. What is sown is perishable; what is raised is imperishable.",
+      "translator_notes": [
+        "Paul now applies the analogies. Four contrasts follow (vv. 42-44), each using the sown/raised pattern. The first: phthora ('decay, perishability') versus aphtharsia ('imperishability, incorruption'). The mortal body decays; the resurrection body cannot."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 43,
+      "text_greek": "σπείρεται ἐν ἀτιμίᾳ, ἐγείρεται ἐν δόξῃ· σπείρεται ἐν ἀσθενείᾳ, ἐγείρεται ἐν δυνάμει·",
+      "text_kjv": "It is sown in dishonour; it is raised in glory: it is sown in weakness; it is raised in power:",
+      "rendering": "It is sown in dishonour. It is raised in glory — it is sown in weakness. It is raised in authority:.",
+      "translator_notes": [
+        "Two more contrasts: dishonor versus glory, weakness versus power. The burial of a corpse is an act involving shame and frailty; the resurrection body possesses divine radiance and supernatural vitality. Each pair moves from the negative experience of death to the positive reality of resurrection."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 44,
+      "text_greek": "σπείρεται σῶμα ψυχικόν, ἐγείρεται σῶμα πνευματικόν. εἰ ἔστιν σῶμα ψυχικόν, ἔστιν καὶ πνευματικόν.",
+      "text_kjv": "It is sown a natural body; it is raised a spiritual body. There is a natural body, and there is a spiritual body.",
+      "rendering": "It is sown a natural body. It is raised a spiritual body. And there is a spiritual body, and there is a natural body.",
+      "translator_notes": [
+        "The crucial fourth contrast: soma psychikon ('natural/soul-ish body') versus soma pneumatikon ('spiritual body'). The 'spiritual body' is not immaterial — it is still a soma ('body'). The adjective pneumatikon means 'animated by/oriented to the Spirit,' just as psychikon means 'animated by/oriented to the soul.' The resurrection body is a real, physical body fully governed by the Holy Spirit."
+      ],
+      "key_terms": [
+        {
+          "greek": "σῶμα πνευματικόν",
+          "transliteration": "soma pneumatikon",
+          "rendered_as": "spiritual body",
+          "semantic_range": "Spirit-animated body, Spirit-governed body",
+          "note": "Not an oxymoron but a description of a body whose animating principle is the Holy Spirit rather than the natural soul (psyche). The resurrection body is material but transformed — adapted for the new creation."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 45,
+      "text_greek": "οὕτως καὶ γέγραπται· Ἐγένετο ὁ πρῶτος ἄνθρωπος Ἀδὰμ εἰς ψυχὴν ζῶσαν· ὁ ἔσχατος Ἀδὰμ εἰς πνεῦμα ζῳοποιοῦν.",
+      "text_kjv": "And so it is written, The first man Adam was made a living soul; the last Adam was made a quickening spirit.",
+      "rendering": "So also it is written, \"The first man Adam became a living being\"; the last Adam became a life-giving spirit.",
+      "translator_notes": [
+        "Paul quotes Genesis 2:7 for the first Adam and adds his own christological counterpart. The first Adam received life (psychen zosan, 'a living soul/being'); the last Adam gives life (pneuma zoopoioun, 'a life-giving spirit'). Christ is not merely alive but the source of resurrection life for all who belong to him.",
+        "[TCR Cross-Reference] This verse quotes Genesis 2:7 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 46,
+      "text_greek": "ἀλλ' οὐ πρῶτον τὸ πνευματικὸν ἀλλὰ τὸ ψυχικόν, ἔπειτα τὸ πνευματικόν.",
+      "text_kjv": "Howbeit that was not first which is spiritual, but that which is natural; and afterward that which is spiritual.",
+      "rendering": "But the spiritual does not come first; rather, the natural comes first, then the spiritual.",
+      "translator_notes": [
+        "Paul insists on the sequence: natural before spiritual, Adam before Christ. This may counter a Corinthian belief that they had already attained the spiritual state and had no need of future bodily resurrection."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 47,
+      "text_greek": "ὁ πρῶτος ἄνθρωπος ἐκ γῆς χοϊκός, ὁ δεύτερος ἄνθρωπος ἐξ οὐρανοῦ.",
+      "text_kjv": "The first man is of the earth, earthy: the second man is the Lord from heaven.",
+      "rendering": "The first man was from the earth, made of dust; the second man is from heaven.",
+      "translator_notes": [
+        "The adjective choikos ('dusty, earthy, made of soil') echoes Genesis 2:7, where God forms Adam from the dust of the ground. The second man — Christ — is 'from heaven' (ex ouranou), indicating his heavenly origin. The SBLGNT omits 'the Lord' after 'second man,' which appears in some manuscripts.",
+        "[TCR Cross-Reference] Draws on Genesis 2:7. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 48,
+      "text_greek": "οἷος ὁ χοϊκός, τοιοῦτοι καὶ οἱ χοϊκοί, καὶ οἷος ὁ ἐπουράνιος, τοιοῦτοι καὶ οἱ ἐπουράνιοι·",
+      "text_kjv": "As is the earthy, such are they also that are earthy: and as is the heavenly, such are they also that are heavenly.",
+      "rendering": "As was the man of dust, so also are those who are of the dust, and as is the man of heaven, so also are those who are of heaven.",
+      "translator_notes": [
+        "The representative principle: we share the nature of our representative head. Those united to Adam share his dusty, mortal nature; those united to Christ will share his heavenly, imperishable nature."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 49,
+      "text_greek": "καὶ καθὼς ἐφορέσαμεν τὴν εἰκόνα τοῦ χοϊκοῦ, φορέσωμεν καὶ τὴν εἰκόνα τοῦ ἐπουρανίου.",
+      "text_kjv": "And as we have borne the image of the earthy, we shall also bear the image of the heavenly.",
+      "rendering": "And just as we have borne the image of the man of dust, we will also bear the image of the man of heaven.",
+      "translator_notes": [
+        "The SBLGNT reads the subjunctive phoresomen ('let us bear'), but many manuscripts read the future phoresomen ('we will bear'). The meaning is similar: just as our present bodies reflect Adam's dust-nature, our resurrection bodies will reflect Christ's heavenly nature. The word eikon ('image') connects to Genesis 1:26-27 — the image of God, marred in Adam, will be fully restored in the resurrection.",
+        "[TCR Cross-Reference] Echoes Genesis 1:26-27. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 50,
+      "text_greek": "Τοῦτο δέ φημι, ἀδελφοί, ὅτι σὰρξ καὶ αἷμα βασιλείαν θεοῦ κληρονομῆσαι οὐ δύναται, οὐδὲ ἡ φθορὰ τὴν ἀφθαρσίαν κληρονομεῖ.",
+      "text_kjv": "Now this I say, brethren, that flesh and blood cannot inherit the kingdom of God; neither doth corruption inherit incorruption.",
+      "rendering": "Now I say this, brothers and sisters: flesh and blood cannot inherit the kingdom of God, nor does the perishable inherit the imperishable.",
+      "translator_notes": [
+        "The phrase 'flesh and blood' (sarx kai haima) refers to the present mortal human condition, not to physicality as such. The resurrection body will be physical but not 'flesh and blood' in this mortal sense. Transformation is necessary — the present body cannot enter the kingdom as-is."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 51,
+      "text_greek": "ἰδοὺ μυστήριον ὑμῖν λέγω· πάντες οὐ κοιμηθησόμεθα, πάντες δὲ ἀλλαγησόμεθα,",
+      "text_kjv": "Behold, I shew you a mystery; We shall not all sleep, but we shall all be changed,",
+      "rendering": "Listen, I tell you a mystery: we will not all fall asleep, but we will all be changed,",
+      "translator_notes": [
+        "The word mysterion ('mystery') in Paul means a truth previously hidden but now revealed by God. The 'mystery' is that not all believers will die before Christ returns — some will be alive at the parousia. But all, whether dead or living, must be transformed. This addresses a question left open by the preceding argument."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 52,
+      "text_greek": "ἐν ἀτόμῳ, ἐν ῥιπῇ ὀφθαλμοῦ, ἐν τῇ ἐσχάτῃ σάλπιγγι· σαλπίσει γάρ, καὶ οἱ νεκροὶ ἐγερθήσονται ἄφθαρτοι, καὶ ἡμεῖς ἀλλαγησόμεθα.",
+      "text_kjv": "In a moment, in the twinkling of an eye, at the last trump: for the trumpet shall sound, and the dead shall be raised incorruptible, and we shall be changed.",
+      "rendering": "Indeed, in a moment, in the twinkling of an eye, at the last trump — for the trumpet will sound, and the dead will be raised incorruptible, and we will be changed.",
+      "translator_notes": [
+        "The Greek atomō ('indivisible instant') is the word from which 'atom' derives — the smallest possible unit of time. The 'last trumpet' (eschate salpingi) echoes the shofar traditions of Jewish apocalyptic expectation (cf. 1 Thessalonians 4:16, Matthew 24:31). The transformation is instantaneous and universal."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 53,
+      "text_greek": "δεῖ γὰρ τὸ φθαρτὸν τοῦτο ἐνδύσασθαι ἀφθαρσίαν καὶ τὸ θνητὸν τοῦτο ἐνδύσασθαι ἀθανασίαν.",
+      "text_kjv": "For this corruptible must put on incorruption, and this mortal must put on immortality.",
+      "rendering": "For this perishable body must put on imperishability, and this mortal body must put on immortality.",
+      "translator_notes": [
+        "The clothing metaphor (endysasthai, 'to put on, to clothe oneself with') suggests that the resurrection is not the discarding of the body but its being clothed with new qualities. The mortal puts on immortality as a garment — transformation, not replacement. The divine necessity (dei, 'must') indicates this is God's determined plan."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 54,
+      "text_greek": "ὅταν δὲ τὸ φθαρτὸν τοῦτο ἐνδύσηται ἀφθαρσίαν καὶ τὸ θνητὸν τοῦτο ἐνδύσηται ἀθανασίαν, τότε γενήσεται ὁ λόγος ὁ γεγραμμένος· Κατεπόθη ὁ θάνατος εἰς νῖκος.",
+      "text_kjv": "So when this corruptible shall have put on incorruption, and this mortal shall have put on immortality, then shall be brought to pass the saying that is written, Death is swallowed up in victory.",
+      "rendering": "When this perishable body puts on imperishability and this mortal body puts on immortality, then the saying that is written will come true: \"Death has been swallowed up in victory.\"",
+      "translator_notes": [
+        "Paul quotes Isaiah 25:8 ('he will swallow up death forever'), adapting it to read 'Death has been swallowed up in victory' (eis nikos). The prophetic promise will be fulfilled at the moment of resurrection transformation. The passive 'has been swallowed' indicates that death is not merely defeated but consumed — it ceases to exist.",
+        "[TCR Cross-Reference] Echoes Isaiah 25:8. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 55,
+      "text_greek": "ποῦ σου, θάνατε, τὸ νῖκος; ποῦ σου, θάνατε, τὸ κέντρον;",
+      "text_kjv": "O death, where is thy sting? O grave, where is thy victory?",
+      "rendering": "\"Where, O death, is your victory? Where, O death, is your sting?\"",
+      "translator_notes": [
+        "Paul taunts death with a loose quotation of Hosea 13:14. The SBLGNT reads 'death' (thanate) in both lines rather than the KJV's 'grave' (hades) in the second. The word kentron ('sting, goad') evokes a scorpion's or bee's sting — death's weapon. In the resurrection, death is disarmed and mocked.",
+        "[TCR Cross-Reference] This verse quotes Hosea 13:14 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 56,
+      "text_greek": "τὸ δὲ κέντρον τοῦ θανάτου ἡ ἁμαρτία, ἡ δὲ δύναμις τῆς ἁμαρτίας ὁ νόμος·",
+      "text_kjv": "The sting of death is sin; and the strength of sin is the law.",
+      "rendering": "The sting of death is sin, and the power of sin is the law.",
+      "translator_notes": [
+        "Paul inserts a compressed theological explanation: death's weapon is sin (without sin, death would have no power), and sin's power comes through the law (which defines transgression and pronounces the curse). This compressed argument anticipates the fuller treatment in Romans 5-7."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 57,
+      "text_greek": "τῷ δὲ θεῷ χάρις τῷ διδόντι ἡμῖν τὸ νῖκος διὰ τοῦ κυρίου ἡμῶν Ἰησοῦ Χριστοῦ.",
+      "text_kjv": "But thanks be to God, which giveth us the victory through our Lord Jesus Christ.",
+      "rendering": "But thanks be to God, which gives us the victory by way of our Lord Jesus Christ.",
+      "translator_notes": [
+        "The present tense didonti ('who gives, who is giving') presents the victory as an ongoing gift, not merely a future event. The victory over death is secured by Christ's resurrection and appropriated by believers through union with him. The chapter's argument culminates in doxology."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 58,
+      "text_greek": "Ὥστε, ἀδελφοί μου ἀγαπητοί, ἑδραῖοι γίνεσθε, ἀμετακίνητοι, περισσεύοντες ἐν τῷ ἔργῳ τοῦ κυρίου πάντοτε, εἰδότες ὅτι ὁ κόπος ὑμῶν οὐκ ἔστιν κενὸς ἐν κυρίῳ.",
+      "text_kjv": "Therefore, my beloved brethren, be ye stedfast, unmoveable, always abounding in the work of the Lord, forasmuch as ye know that your labour is not in vain in the Lord.",
+      "rendering": "Therefore, my beloved brothers and sisters, be steadfast, immovable, always abounding in the work of the Lord, knowing that your labor in the Lord is not in vain.",
+      "translator_notes": [
+        "The chapter ends not with speculation but with exhortation to faithful action. The adjectives hedraioi ('steadfast, firmly seated') and ametakinetoi ('immovable, not to be shifted') contrast with the instability of those who deny the resurrection. The final word kenos ('empty, vain') echoes verses 10, 14, and 17 — unlike a faithless gospel, labor done 'in the Lord' is never empty."
+      ],
+      "reading_level": "7th grade"
+    }
+  ]
+}

@@ -1,0 +1,434 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Luke",
+    "chapter": 17,
+    "source_text": "SBL Greek New Testament (SBLGNT)",
+    "reference_text": "KJV",
+    "generated_at": "2026-04-04T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Luke 17 contains a collection of Jesus's teachings on stumbling blocks, forgiveness, faith, and duty, followed by the healing of ten lepers (only the Samaritan returns to give thanks), and a discourse on the coming of the kingdom of God. Jesus teaches that the kingdom does not come with observable signs but is 'in your midst,' then warns of the sudden, visible nature of the Son of Man's coming, comparing it to the days of Noah and Lot.",
+    "remarkable": "The healing of the ten lepers is unique to Luke and highlights his recurring theme of Samaritan faithfulness contrasted with Jewish ingratitude. The phrase 'the kingdom of God is among you' (entos hymōn) is one of the most debated sayings in the Gospels — does it mean 'within you' (interior/spiritual) or 'in your midst' (present in Jesus's person)? The discourse on the Son of Man's coming blends language from Daniel 7 with flood and fire imagery from Genesis, creating an eschatological tapestry that resists neat systematization.",
+    "friction": "Verse 21's entos hymōn is genuinely ambiguous — 'within you' and 'in your midst' are both linguistically defensible. We render 'in your midst' as the more contextually appropriate reading (Jesus is addressing Pharisees, to whom 'within you' seems unlikely), but note the alternative. The servant parable in verses 7-10 uses the language of slavery, which we render transparently.",
+    "connections": "The ten lepers narrative connects to 2 Kings 5 (Naaman the Syrian leper) — another foreigner healed when Israelites were not. The Noah and Lot comparisons draw from Genesis 6-7 and 19. The 'days of the Son of Man' language echoes Daniel 7:13-14. The faith-as-mustard-seed saying appears also in Matthew 17:20, though in a different context.\n\n**Tradition comparisons:** JST footnote at Luke 17:36: Two men in the field — one taken, one left — eschatological context clarified See the [JST notes](/jst/luke)."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_greek": "Εἶπεν δὲ πρὸς τοὺς μαθητὰς αὐτοῦ· Ἀνένδεκτόν ἐστιν τοῦ τὰ σκάνδαλα μὴ ἐλθεῖν, πλὴν οὐαὶ δι' οὗ ἔρχεται·",
+      "text_kjv": "Then said he unto the disciples, It is impossible but that offences will come: but woe unto him, through whom they come!",
+      "rendering": "He said to his disciples, \"It is inevitable that causes of stumbling will come, but woe to the one through whom they come.",
+      "translator_notes": [
+        "The Greek anendekton ('impossible not to happen, inevitable') is stronger than a mere prediction — it acknowledges the fallen reality of the world. The word skandala ('stumbling blocks, snares') refers to anything that causes someone to fall away from faith, not merely 'offenses' in the modern sense."
+      ],
+      "key_terms": [
+        {
+          "greek": "σκάνδαλα",
+          "transliteration": "skandala",
+          "rendered_as": "causes of stumbling",
+          "semantic_range": "stumbling block, snare, trap, cause of sin, offense",
+          "note": "Originally referred to the trigger of a trap. In the New Testament, it denotes anything that causes someone to sin or fall away. The English word 'scandal' derives from this Greek term but has shifted in meaning."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 2,
+      "text_greek": "λυσιτελεῖ αὐτῷ εἰ λίθος μυλικὸς περίκειται περὶ τὸν τράχηλον αὐτοῦ καὶ ἔρριπται εἰς τὴν θάλασσαν, ἢ ἵνα σκανδαλίσῃ τῶν μικρῶν τούτων ἕνα.",
+      "text_kjv": "It were better for him that a millstone were hanged about his neck, and he cast into the sea, than that he should offend one of these little ones.",
+      "rendering": "It would be better for him if a millstone were hung around his neck and he were thrown into the sea than for him to cause one of these little ones to stumble.",
+      "translator_notes": [
+        "The lithos mylikos ('millstone') refers to the large upper stone of a donkey-driven mill — heavy enough to guarantee drowning. The 'little ones' (mikrōn) likely refers to new or vulnerable believers, not only children. The hyperbolic comparison — drowning is preferable to leading others astray — underscores the gravity of spiritual harm."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 3,
+      "text_greek": "προσέχετε ἑαυτοῖς. ἐὰν ἁμάρτῃ ὁ ἀδελφός σου ἐπιτίμησον αὐτῷ, καὶ ἐὰν μετανοήσῃ ἄφες αὐτῷ.",
+      "text_kjv": "Take heed to yourselves: If thy brother trespass against thee, rebuke him; and if he repent, forgive him.",
+      "rendering": "Watch yourselves. If your brother sins, rebuke him, and if he repents, forgive him.",
+      "translator_notes": [
+        "The Greek prosechete heautois ('watch yourselves, be on guard') shifts the focus from the one who causes stumbling to the disciples' own responsibility. The verb epitimēson ('rebuke') carries the sense of a corrective confrontation, not mere criticism. The sequence — rebuke, repentance, forgiveness — presents reconciliation as a structured process, not an automatic response."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 4,
+      "text_greek": "καὶ ἐὰν ἑπτάκις τῆς ἡμέρας ἁμαρτήσῃ εἰς σὲ καὶ ἑπτάκις ἐπιστρέψῃ πρὸς σὲ λέγων· Μετανοῶ, ἀφήσεις αὐτῷ.",
+      "text_kjv": "And if he trespass against thee seven times in a day, and seven times in a day turn again to thee, saying, I repent; thou shalt forgive him.",
+      "rendering": "Even if he sins against you seven times in a day, and seven times turns back to you saying, 'I repent,' you must forgive him.\"",
+      "translator_notes": [
+        "The number 'seven' (heptakis) represents completeness and fullness in biblical numerology — the point is not a literal count but an unlimited willingness to forgive. The verb epistrepsē ('turns back') carries the same turning/returning imagery as the Hebrew teshuvah. The command aphēseis ('you will forgive') is a future indicative used as an imperative, making forgiveness not optional but obligatory."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 5,
+      "text_greek": "Καὶ εἶπαν οἱ ἀπόστολοι τῷ κυρίῳ· Πρόσθες ἡμῖν πίστιν.",
+      "text_kjv": "And the apostles said unto the Lord, Increase our faith.",
+      "rendering": "The apostles said to the Lord, \"Increase our faith!\"",
+      "translator_notes": [
+        "This is one of only six times Luke uses the term apostoloi ('apostles') rather than mathētai ('disciples') during the ministry narrative. Their request reveals that they recognize the demands of verses 3-4 as exceeding their current capacity. The verb prosthes ('add to, increase') suggests they view faith as something quantifiable — a misunderstanding Jesus corrects in the next verse."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 6,
+      "text_greek": "εἶπεν δὲ ὁ κύριος· Εἰ ἔχετε πίστιν ὡς κόκκον σινάπεως, ἐλέγετε ἂν τῇ συκαμίνῳ ταύτῃ· Ἐκριζώθητι καὶ φυτεύθητι ἐν τῇ θαλάσσῃ· καὶ ὑπήκουσεν ἂν ὑμῖν.",
+      "text_kjv": "And the Lord said, If ye had faith as a grain of mustard seed, ye might say unto this sycamine tree, Be thou plucked up by the root, and be thou planted in the sea; and it should obey you.",
+      "rendering": "The Lord said, \"If you had faith like a mustard seed, you could say to this mulberry tree, 'Be uprooted and planted in the sea,' and it would obey you.",
+      "translator_notes": [
+        "The sykaminō ('mulberry tree') is distinct from the sykomorea ('sycamore-fig') of 19:4. Luke's version uses a mulberry tree rather than Matthew's mountain (17:20), but the point is identical: the issue is not the quantity of faith but its genuine presence. A mustard seed (kokkon sinapeōs) was proverbially the smallest seed known in Palestine. The conditional ei echete ('if you had') is a contrary-to-fact condition, implying they do not yet possess even this minimal faith."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 7,
+      "text_greek": "Τίς δὲ ἐξ ὑμῶν δοῦλον ἔχων ἀροτριῶντα ἢ ποιμαίνοντα, ὃς εἰσελθόντι ἐκ τοῦ ἀγροῦ ἐρεῖ αὐτῷ· Εὐθέως παρελθὼν ἀνάπεσε,",
+      "text_kjv": "But which of you, having a servant plowing or feeding cattle, will say unto him by and by, when he is come from the field, Go and sit down to meat;",
+      "rendering": "\"Which of you, having a slave who is plowing or tending sheep, would say to him when he comes in from the field, 'Come at once and recline at the table'?",
+      "translator_notes": [
+        "The Greek doulos means 'slave,' not merely 'servant' — the parable depends on the absolute obligation of a slave to his master. The verb anapese ('recline') refers to the Greco-Roman dining posture of reclining on a couch, the standard position for meals in Jesus's context."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 8,
+      "text_greek": "ἀλλ' οὐχὶ ἐρεῖ αὐτῷ· Ἑτοίμασον τί δειπνήσω, καὶ περιζωσάμενος διακόνει μοι ἕως φάγω καὶ πίω, καὶ μετὰ ταῦτα φάγεσαι καὶ πίεσαι σύ;",
+      "text_kjv": "And will not rather say unto him, Make ready wherewith I may sup, and gird thyself, and serve me, till I have eaten and drunken; and afterward thou shalt eat and drink?",
+      "rendering": "Instead, would he not say to him, 'Prepare something for me to eat, and dress yourself for service and wait on me while I eat and drink; after that, you may eat and drink'?",
+      "translator_notes": [
+        "The verb perizōsamenos ('having girded yourself') refers to tucking up the outer garment into a belt for active work — a practical preparation for serving. The sequence is clear: the master's needs come first, the slave's needs second. This is not an endorsement of slavery but a parable using a familiar social structure to make a theological point about duty."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 9,
+      "text_greek": "μὴ ἔχει χάριν τῷ δούλῳ ὅτι ἐποίησεν τὰ διαταχθέντα;",
+      "text_kjv": "Doth he thank that servant because he did the things that were commanded him? I trow not.",
+      "rendering": "Does he thank the slave because he did what was commanded?",
+      "translator_notes": [
+        "The expected answer is 'no.' The Greek charin echei ('have gratitude toward') implies that obedience to clear commands does not earn special recognition. The KJV's 'I trow not' is an addition — the Greek simply asks the rhetorical question and moves on."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 10,
+      "text_greek": "οὕτως καὶ ὑμεῖς, ὅταν ποιήσητε πάντα τὰ διαταχθέντα ὑμῖν, λέγετε ὅτι Δοῦλοι ἀχρεῖοί ἐσμεν, ὃ ὠφείλομεν ποιῆσαι πεποιήκαμεν.",
+      "text_kjv": "So likewise ye, when ye shall have done all those things which are commanded you, say, We are unprofitable servants: we have done that which was our duty to do.",
+      "rendering": "So you also, when you have done everything you were commanded, say, 'We are unworthy slaves; we have only done what was our duty.'\"",
+      "translator_notes": [
+        "The word achreioi ('unworthy, useless, unprofitable') is striking — Jesus instructs his followers to consider themselves 'useless' even after full obedience. This counters any theology of merit: complete obedience is the baseline, not an achievement deserving reward. The verb ōpheilomen ('we were obligated') frames service as debt, not generosity."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 11,
+      "text_greek": "Καὶ ἐγένετο ἐν τῷ πορεύεσθαι εἰς Ἰερουσαλὴμ καὶ αὐτὸς διήρχετο διὰ μέσον Σαμαρείας καὶ Γαλιλαίας.",
+      "text_kjv": "And it came to pass, as he went to Jerusalem, that he passed through the midst of Samaria and Galilee.",
+      "rendering": "While traveling to Jerusalem, Jesus passed along the border between Samaria and Galilee.",
+      "translator_notes": [
+        "The phrase dia meson Samareias kai Galilaias ('through the middle of Samaria and Galilee') is geographically unusual — traveling south to Jerusalem, one would pass through Galilee first, then Samaria. 'Along the border between' captures the sense that Jesus was traveling the boundary region where the two territories met, which is the most coherent geographical reading."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 12,
+      "text_greek": "καὶ εἰσερχομένου αὐτοῦ εἴς τινα κώμην ἀπήντησαν αὐτῷ δέκα λεπροὶ ἄνδρες, οἳ ἔστησαν πόρρωθεν,",
+      "text_kjv": "And as he entered into a certain village, there met him ten men that were lepers, which stood afar off:",
+      "rendering": "As he entered a village, ten men with a skin disease met him. They stood at a distance",
+      "translator_notes": [
+        "The Greek leproi ('lepers') covers a range of skin conditions beyond what modern medicine calls leprosy (Hansen's disease). Levitical law (Leviticus 13-14) required those with such conditions to remain isolated. Their standing 'at a distance' (porrōthen) reflects the social and ritual separation required by the Torah.",
+        "[TCR Cross-Reference] Draws on Leviticus 13-14. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 13,
+      "text_greek": "καὶ αὐτοὶ ἦραν φωνὴν λέγοντες· Ἰησοῦ ἐπιστάτα, ἐλέησον ἡμᾶς.",
+      "text_kjv": "And they lifted up their voices, and said, Jesus, Master, have mercy on us.",
+      "rendering": "They raised up their voices, and stated, Jesus, Master, have mercy on us.",
+      "translator_notes": [
+        "The title epistata ('master, commander') is used exclusively in Luke among the Gospels and always by disciples or those seeking help — it implies recognized authority. Their loud cry from a distance reflects both their desperation and the physical separation their condition imposed."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 14,
+      "text_greek": "καὶ ἰδὼν εἶπεν αὐτοῖς· Πορευθέντες ἐπιδείξατε ἑαυτοὺς τοῖς ἱερεῦσιν. καὶ ἐγένετο ἐν τῷ ὑπάγειν αὐτοὺς ἐκαθαρίσθησαν.",
+      "text_kjv": "And when he saw them, he said unto them, Go shew yourselves unto the priests. And it came to pass, that, as they went, they were cleansed.",
+      "rendering": "When he saw them, he said, \"Go and show yourselves to the priests.\" And as they went, they were cleansed.",
+      "translator_notes": [
+        "The command to show themselves to the priests follows the Levitical procedure for certifying a healed skin condition (Leviticus 14:1-32). The healing occurs en route — 'as they went' (en tō hypagein) — requiring them to act in faith before seeing results. This is the only mass healing of lepers recorded in the Gospels.",
+        "[TCR Cross-Reference] Echoes Leviticus 14:1-32. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 15,
+      "text_greek": "εἷς δὲ ἐξ αὐτῶν, ἰδὼν ὅτι ἰάθη, ὑπέστρεψεν μετὰ φωνῆς μεγάλης δοξάζων τὸν θεόν,",
+      "text_kjv": "And one of them, when he saw that he was healed, turned back, and with a loud voice glorified God,",
+      "rendering": "One of them, when he saw that he was healed, turned back, praising God in a loud voice.",
+      "translator_notes": [
+        "The verb hypestrepsen ('turned back, returned') contrasts with the obedient departure of the nine — this one interrupts his journey to the priest in order to give thanks. His loud praise (phōnēs megalēs, 'great voice') echoes the loud cry of verse 13, transforming a plea for mercy into a shout of gratitude."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 16,
+      "text_greek": "καὶ ἔπεσεν ἐπὶ πρόσωπον παρὰ τοὺς πόδας αὐτοῦ εὐχαριστῶν αὐτῷ· καὶ αὐτὸς ἦν Σαμαρίτης.",
+      "text_kjv": "And fell down on his face at his feet, giving him thanks: and he was a Samaritan.",
+      "rendering": "He fell facedown at Jesus's feet, thanking him — and he was a Samaritan.",
+      "translator_notes": [
+        "Luke delays the revelation that the man is a Samaritēs ('Samaritan') until the end of the verse for dramatic effect. The Samaritans were despised by Jews as religious and ethnic outsiders (cf. John 4:9). The posture — falling on his face at Jesus's feet — is the posture of worship. The verb eucharistōn ('giving thanks') is the root of 'Eucharist,' linking gratitude to the deepest form of worship."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 17,
+      "text_greek": "ἀποκριθεὶς δὲ ὁ Ἰησοῦς εἶπεν· Οὐχὶ οἱ δέκα ἐκαθαρίσθησαν; οἱ δὲ ἐννέα ποῦ;",
+      "text_kjv": "And Jesus answering said, Were there not ten cleansed? but where are the nine?",
+      "rendering": "Jesus responded, \"Were not all ten cleansed? Where are the other nine?",
+      "translator_notes": [
+        "Jesus's two rhetorical questions expose the ingratitude of the nine — they received healing but did not return to give glory to God. The verb ekatharisthēsan ('were cleansed') recalls the Levitical language of ritual purification, connecting physical healing with spiritual restoration."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 18,
+      "text_greek": "οὐχ εὑρέθησαν ὑποστρέψαντες δοῦναι δόξαν τῷ θεῷ εἰ μὴ ὁ ἀλλογενὴς οὗτος;",
+      "text_kjv": "There are not found that returned to give glory to God, save this stranger.",
+      "rendering": "Was no one found to return and give glory to God except this foreigner?\"",
+      "translator_notes": [
+        "The word allogenēs ('foreigner, one of another race') is a loaded term — it was inscribed on the warning stones in the Jerusalem temple prohibiting non-Jews from entering the inner courts. Jesus uses it to highlight the irony: the one deemed unfit for God's temple is the only one who returns to glorify God."
+      ],
+      "key_terms": [
+        {
+          "greek": "ἀλλογενής",
+          "transliteration": "allogenēs",
+          "rendered_as": "foreigner",
+          "semantic_range": "foreigner, alien, one of another race",
+          "note": "This term appears only here in the New Testament. It was used on the temple barrier inscription warning Gentiles not to enter, making Jesus's use of it deeply ironic — the 'foreigner' excluded from the temple is the one who truly worships."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 19,
+      "text_greek": "καὶ εἶπεν αὐτῷ· Ἀναστὰς πορεύου· ἡ πίστις σου σέσωκέν σε.",
+      "text_kjv": "And he said unto him, Arise, go thy way: thy faith hath made thee whole.",
+      "rendering": "Then he said to him, \"Get up and go on your way. Your faith has saved you.\"",
+      "translator_notes": [
+        "The phrase hē pistis sou sesōken se ('your faith has saved you') uses sōzō, which means both 'to heal' and 'to save.' All ten were cleansed (katharizō, v. 14), but only this one is 'saved' (sōzō). Luke distinguishes between physical healing (which all ten received) and the deeper salvation that comes through faith and gratitude. This same phrase appears in 7:50 (the sinful woman) and 8:48 (the hemorrhaging woman)."
+      ],
+      "key_terms": [
+        {
+          "greek": "σέσωκεν",
+          "transliteration": "sesōken",
+          "rendered_as": "has saved",
+          "semantic_range": "to save, to rescue, to heal, to make whole, to preserve",
+          "note": "The perfect tense indicates a completed action with ongoing results. The deliberate use of sōzō rather than katharizō ('cleanse') or iaomai ('heal') signals that the Samaritan received something beyond physical restoration."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 20,
+      "text_greek": "Ἐπερωτηθεὶς δὲ ὑπὸ τῶν Φαρισαίων πότε ἔρχεται ἡ βασιλεία τοῦ θεοῦ ἀπεκρίθη αὐτοῖς καὶ εἶπεν· Οὐκ ἔρχεται ἡ βασιλεία τοῦ θεοῦ μετὰ παρατηρήσεως,",
+      "text_kjv": "And when he was demanded of the Pharisees, when the kingdom of God should come, he answered them and said, The kingdom of God cometh not with observation:",
+      "rendering": "When asked by the Pharisees when the kingdom of God would come, Jesus answered them, \"The kingdom of God does not come with signs to be observed.",
+      "translator_notes": [
+        "The word paratērēseōs ('observation, watching') suggests watching for visible, datable signs — the kind of apocalyptic timetable the Pharisees were seeking. Jesus rejects the premise: the kingdom cannot be tracked like a military campaign or astronomical event."
+      ],
+      "key_terms": [
+        {
+          "greek": "βασιλεία τοῦ θεοῦ",
+          "transliteration": "basileia tou theou",
+          "rendered_as": "kingdom of God",
+          "semantic_range": "kingdom, reign, rule, sovereign activity of God",
+          "note": "The central concept of Jesus's preaching. In Greek, basileia emphasizes God's active reign rather than a geographical territory."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 21,
+      "text_greek": "οὐδὲ ἐροῦσιν· Ἰδοὺ ὧδε· ἤ· Ἐκεῖ· ἰδοὺ γὰρ ἡ βασιλεία τοῦ θεοῦ ἐντὸς ὑμῶν ἐστιν.",
+      "text_kjv": "Neither shall they say, Lo here! or, lo there! for, behold, the kingdom of God is within you.",
+      "rendering": "Nor will people say, 'Look, here it is!' or 'There it is!' For the kingdom of God is in your midst.\"",
+      "translator_notes": [
+        "The phrase entos hymōn estin is one of the most debated in the Gospels. Entos can mean 'within' (interior, spiritual) or 'among/in the midst of' (present in the community). Since Jesus is addressing Pharisees hostile to his message, 'within you' seems unlikely as a commendation of their spiritual state. 'In your midst' better captures the idea that the kingdom is present in Jesus's own person and activity, standing right before them whether they recognize it or not. The alternative reading 'within you' is noted for completeness."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 22,
+      "text_greek": "εἶπεν δὲ πρὸς τοὺς μαθητάς· Ἐλεύσονται ἡμέραι ὅτε ἐπιθυμήσετε μίαν τῶν ἡμερῶν τοῦ υἱοῦ τοῦ ἀνθρώπου ἰδεῖν καὶ οὐκ ὄψεσθε.",
+      "text_kjv": "And he said unto the disciples, The days will come, when ye shall desire to see one of the days of the Son of man, and ye shall not see it.",
+      "rendering": "Then he said to the disciples, \"The days are coming when you will long to see one of the days of the Son of Man, and you will not see it.",
+      "translator_notes": [
+        "Jesus shifts from addressing the Pharisees to the disciples. The phrase 'one of the days of the Son of Man' is unusual — it may mean 'even a single day' of the messianic age, suggesting a period of absence or suffering during which the disciples will yearn for his visible presence. The title 'Son of Man' (huios tou anthrōpou) draws from Daniel 7:13.",
+        "[TCR Cross-Reference] Draws on Daniel 7:13. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 23,
+      "text_greek": "καὶ ἐροῦσιν ὑμῖν· Ἰδοὺ ἐκεῖ· ἤ· Ἰδοὺ ὧδε· μὴ ἀπέλθητε μηδὲ διώξητε.",
+      "text_kjv": "And they shall say to you, See here; or, see there: go not after them, nor follow them.",
+      "rendering": "People will say to you, 'Look, there!' or 'Look, here!' Do not go out or chase after them.",
+      "translator_notes": [
+        "The warning against following false messianic claims echoes the Pharisees' question in verse 20. The verbs apelthēte ('go out') and diōxēte ('pursue, chase') suggest an active and potentially dangerous quest that Jesus forbids."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 24,
+      "text_greek": "ὥσπερ γὰρ ἡ ἀστραπὴ ἀστράπτουσα ἐκ τῆς ὑπὸ τὸν οὐρανὸν εἰς τὴν ὑπ' οὐρανὸν λάμπει, οὕτως ἔσται ὁ υἱὸς τοῦ ἀνθρώπου ἐν τῇ ἡμέρᾳ αὐτοῦ.",
+      "text_kjv": "For as the lightning, that lighteneth out of the one part under heaven, shineth unto the other part under heaven; so shall also the Son of man be in his day.",
+      "rendering": "For just as lightning flashes and lights up the sky from one end to the other, so will the Son of Man be in his day.",
+      "translator_notes": [
+        "The simile of lightning (astrapē) makes two points: the Son of Man's coming will be sudden (no time to prepare) and universally visible (no need to search for it). This directly answers both the Pharisees' question about timing and the warning against localized messianic claims. Some manuscripts omit 'in his day' (en tē hēmera autou), but the SBLGNT retains it."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 25,
+      "text_greek": "πρῶτον δὲ δεῖ αὐτὸν πολλὰ παθεῖν καὶ ἀποδοκιμασθῆναι ἀπὸ τῆς γενεᾶς ταύτης.",
+      "text_kjv": "But first must he suffer many things, and be rejected of this generation.",
+      "rendering": "And be rejected of this generation, and but first must he suffer many things.",
+      "translator_notes": [
+        "The word dei ('it is necessary, must') indicates divine necessity — the suffering is not accidental but part of God's plan. The verb apodokimasthēnai ('to be rejected after examination') implies a deliberate evaluation and verdict: this generation examines Jesus and officially declares him unfit. This passion prediction interrupts the eschatological discourse to anchor future glory in present suffering."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 26,
+      "text_greek": "καὶ καθὼς ἐγένετο ἐν ταῖς ἡμέραις Νῶε, οὕτως ἔσται καὶ ἐν ταῖς ἡμέραις τοῦ υἱοῦ τοῦ ἀνθρώπου·",
+      "text_kjv": "And as it was in the days of Noe, so shall it be also in the days of the Son of man.",
+      "rendering": "Just as it was in the days of Noah, so it will be in the days of the Son of Man.",
+      "translator_notes": [
+        "The comparison to Noah's days (Genesis 6-7) emphasizes not the wickedness of that generation but their obliviousness — they were living normally, unaware of impending judgment. The Greek Nōe is the Septuagint spelling of the Hebrew Noach.",
+        "[TCR Cross-Reference] Quotes Genesis 6-7. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 27,
+      "text_greek": "ἤσθιον, ἔπινον, ἐγάμουν, ἐγαμίζοντο, ἄχρι ἧς ἡμέρας εἰσῆλθεν Νῶε εἰς τὴν κιβωτόν, καὶ ἦλθεν ὁ κατακλυσμὸς καὶ ἀπώλεσεν πάντας.",
+      "text_kjv": "They did eat, they drank, they married wives, they were given in marriage, until the day that Noe entered into the ark, and the flood came, and destroyed them all.",
+      "rendering": "They were eating, drinking, marrying, and being given in marriage, up to the day Noah entered the ark. Then the flood came and destroyed them all.",
+      "translator_notes": [
+        "The four imperfect verbs (ēsthion, epinon, egamoun, egamizonto) describe ongoing, routine activities — the emphasis is on normalcy, not depravity. The shift to the aorist 'came' (ēlthen) and 'destroyed' (apōlesen) marks the sudden, decisive interruption of judgment. The kibōton ('ark, chest') is the same word used for the ark of the covenant in the Septuagint."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 28,
+      "text_greek": "ὁμοίως καθὼς ἐγένετο ἐν ταῖς ἡμέραις Λώτ· ἤσθιον, ἔπινον, ἠγόραζον, ἐπώλουν, ἐφύτευον, ᾠκοδόμουν·",
+      "text_kjv": "Likewise also as it was in the days of Lot; they did eat, they drank, they bought, they sold, they planted, they builded;",
+      "rendering": "It was the same in the days of Lot: they were eating, drinking, buying, selling, planting, and building.",
+      "translator_notes": [
+        "The Lot comparison (unique to Luke's version) adds commercial and agricultural activities to the list — buying, selling, planting, building. These are not sinful activities but routine preoccupations that blinded people to coming judgment. Six imperfect verbs create a rhythm of uninterrupted normalcy."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 29,
+      "text_greek": "ᾗ δὲ ἡμέρᾳ ἐξῆλθεν Λὼτ ἀπὸ Σοδόμων, ἔβρεξεν πῦρ καὶ θεῖον ἀπ' οὐρανοῦ καὶ ἀπώλεσεν πάντας.",
+      "text_kjv": "But the same day that Lot went out of Sodom it rained fire and brimstone from heaven, and destroyed them all.",
+      "rendering": "But on the day Lot left Sodom, fire and sulfur rained from heaven and destroyed them all.",
+      "translator_notes": [
+        "The reference is to Genesis 19:24-25. The Greek theion ('sulfur, brimstone') combined with fire from heaven represents total divine judgment. As with Noah, the transition from imperfect (routine activity) to aorist (sudden destruction) is abrupt and decisive.",
+        "[TCR Cross-Reference] Echoes Genesis 19:24-25. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 30,
+      "text_greek": "κατὰ τὰ αὐτὰ ἔσται ᾗ ἡμέρᾳ ὁ υἱὸς τοῦ ἀνθρώπου ἀποκαλύπτεται.",
+      "text_kjv": "Even thus shall it be in the day when the Son of man is revealed.",
+      "rendering": "It will be just like this on the day the Son of Man is revealed.",
+      "translator_notes": [
+        "The verb apokalyptetai ('is revealed') is a present tense used for future certainty. The passive voice implies that God is the one doing the revealing — the Son of Man does not simply appear but is unveiled by divine action. This is the theological climax of the Noah-Lot comparison."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 31,
+      "text_greek": "ἐν ἐκείνῃ τῇ ἡμέρᾳ ὃς ἔσται ἐπὶ τοῦ δώματος καὶ τὰ σκεύη αὐτοῦ ἐν τῇ οἰκίᾳ, μὴ καταβάτω ἆραι αὐτά, καὶ ὁ ἐν ἀγρῷ ὁμοίως μὴ ἐπιστρεψάτω εἰς τὰ ὀπίσω.",
+      "text_kjv": "In that day, he which shall be upon the housetop, and his stuff in the house, let him not come down to take it away: and he that is in the field, let him likewise not return back.",
+      "rendering": "On that day, the one who is on the housetop with his belongings in the house must not go down to get them. Likewise, the one who is in the field must not turn back.",
+      "translator_notes": [
+        "The flat rooftops of Palestinian houses were used as living and working spaces, accessed by an external staircase. The instruction not to go back inside emphasizes the urgency and suddenness of the coming judgment. The parallel with Lot's escape (Genesis 19:17, 'Do not look back') is explicit.",
+        "[TCR Cross-Reference] Quotes Genesis 19:17. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 32,
+      "text_greek": "μνημονεύετε τῆς γυναικὸς Λώτ.",
+      "text_kjv": "Remember Lot's wife.",
+      "rendering": "Remember what happened to Lot's wife.",
+      "translator_notes": [
+        "The shortest verse in this discourse — three words in Greek (mnēmoneuete tēs gynaikos Lōt). Lot's wife looked back at Sodom and became a pillar of salt (Genesis 19:26). She serves as the paradigmatic example of attachment to what is being left behind. The imperative 'remember' (mnēmoneuete) is plural, addressed to all disciples.",
+        "[TCR Cross-Reference] Draws on Genesis 19:26. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "5th grade"
+    },
+    {
+      "verse": 33,
+      "text_greek": "ὃς ἐὰν ζητήσῃ τὴν ψυχὴν αὐτοῦ περιποιήσασθαι ἀπολέσει αὐτήν, ὃς δ' ἂν ἀπολέσῃ ζῳογονήσει αὐτήν.",
+      "text_kjv": "Whosoever shall seek to save his life shall lose it; and whosoever shall lose his life shall preserve it.",
+      "rendering": "Whoever seeks to preserve his life will lose it, and whoever loses his life will keep it alive.",
+      "translator_notes": [
+        "The Greek psychē means both 'life' and 'soul,' creating a deliberate double meaning. The verb peripoiēsasthai ('to preserve, to acquire for oneself') suggests self-protective hoarding. The contrasting verb zōogonēsei ('will give life to, will keep alive') is vivid — it means to generate life, to bring to life. The paradox: grasping at life kills it; releasing it generates it."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 34,
+      "text_greek": "λέγω ὑμῖν, ταύτῃ τῇ νυκτὶ ἔσονται δύο ἐπὶ κλίνης μιᾶς, ὁ εἷς παραλημφθήσεται καὶ ὁ ἕτερος ἀφεθήσεται·",
+      "text_kjv": "I tell you, in that night there shall be two men in one bed; the one shall be taken, and the other shall be left.",
+      "rendering": "I tell you, on that night two will be in one bed; one will be taken and the other left.",
+      "translator_notes": [
+        "The Greek does not specify 'men' — the masculine form is generic, and the reference to sharing a bed could apply to any two people in a household. The verbs paralēmphthēsetai ('will be taken') and aphethēsetai ('will be left') are both passive — the agent of separation is not specified, leaving the meaning deliberately open: taken in judgment or taken in rescue? The text does not resolve this."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 35,
+      "text_greek": "ἔσονται δύο ἀλήθουσαι ἐπὶ τὸ αὐτό, ἡ μία παραλημφθήσεται ἡ δὲ ἑτέρα ἀφεθήσεται.",
+      "text_kjv": "Two women shall be grinding together; the one shall be taken, and the other left.",
+      "rendering": "Two women will be grinding grain together; one will be taken and the other left.",
+      "translator_notes": [
+        "The participle alēthousai ('grinding') is feminine, so 'women' is explicit in the Greek here. Grinding grain with a hand mill was a daily domestic task typically done by women. The imagery pairs with the previous verse: whether in rest (bed) or work (grinding), the separation is sudden and total."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 36,
+      "text_greek": "δύο ἐν τῷ ἀγρῷ, ὁ εἷς παραλημφθήσεται καὶ ὁ ἕτερος ἀφεθήσεται.",
+      "text_kjv": "Two men shall be in the field; the one shall be taken, and the other left.",
+      "rendering": "Two will be in the field; one will be taken and the other left.\"",
+      "translator_notes": [
+        "This verse is absent from many early manuscripts and is likely assimilated from Matthew 24:40. The SBLGNT includes it in brackets. We include it here following the SBLGNT text but note its disputed status. The pattern of three pairs (bed, mill, field) creates a comprehensive picture: judgment reaches into every sphere of life."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 37,
+      "text_greek": "καὶ ἀποκριθέντες λέγουσιν αὐτῷ· Ποῦ, κύριε; ὁ δὲ εἶπεν αὐτοῖς· Ὅπου τὸ σῶμα, ἐκεῖ καὶ οἱ ἀετοὶ ἐπισυναχθήσονται.",
+      "text_kjv": "And they answered and said unto him, Where, Lord? And he said unto them, Wheresoever the body is, thither will the eagles be gathered together.",
+      "rendering": "They asked him, \"Where, Lord?\" He said to them, \"Where the body is, there the vultures will gather.\"",
+      "translator_notes": [
+        "The Greek aetoi can mean either 'eagles' or 'vultures.' Since eagles do not typically feed on carrion while vultures do, and the saying describes gathering around a corpse (sōma, 'body'), 'vultures' is the more accurate zoological rendering. The proverb is enigmatic — it may mean that judgment, like vultures, finds its target inevitably, or that the signs of the end will be as unmistakable as vultures circling over death. Jesus answers the 'where' question with a riddle rather than a map coordinate."
+      ],
+      "reading_level": "8th grade"
+    }
+  ]
+}

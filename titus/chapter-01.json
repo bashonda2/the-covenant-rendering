@@ -1,0 +1,191 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Titus",
+    "chapter": 1,
+    "source_text": "SBL Greek New Testament (SBLGNT)",
+    "reference_text": "KJV",
+    "generated_at": "2026-04-04T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Paul opens his letter to Titus with a dense theological greeting that grounds apostolic authority in God's promise of eternal life 'before the ages began.' He then addresses the reason Titus was left in Crete: to appoint elders in every town. Paul provides qualifications for these leaders — blameless character, faithful family, and sound doctrine — before turning to the specific problem on Crete: insubordinate people, especially from the circumcision party, who are disrupting whole households for dishonest gain. Paul quotes a Cretan prophet (Epimenides) — 'Cretans are always liars, evil beasts, lazy gluttons' — and affirms the assessment, urging Titus to rebuke them sharply so they may be sound in the faith.",
+    "remarkable": "The opening sentence (vv. 1-4) is one of the longest and most theologically compressed in the Pauline corpus, containing Paul's self-designation, God's pre-temporal promise, the revelation of the word through preaching, and the address to Titus — all in a single Greek sentence. The quotation of Epimenides (v. 12) is extraordinary: Paul cites a pagan poet-prophet and calls him a 'prophet of their own' (idios autōn prophētēs), granting a measure of truthful authority to a non-Israelite voice. This creates the famous 'liar paradox' — if a Cretan says all Cretans are liars, is the statement itself a lie?",
+    "friction": "The elder/overseer terminology (presbyteros/episkopos) appears interchangeable in this passage, which has implications for church governance debates. Paul begins with 'elder' (v. 5) and shifts to 'overseer' (v. 7) without distinction. The Epimenides quotation raises questions about Paul's use of pagan literature and cultural stereotyping — he applies a broad ethnic generalization to a specific theological problem. We render the text as given without softening or qualifying Paul's argument.",
+    "connections": "The elder qualifications parallel 1 Timothy 3:1-7 closely but are adapted for the Cretan context. The 'circumcision party' (v. 10) connects to the controversy in Galatians 2:12 and Acts 15. The pre-temporal promise (v. 2) echoes Romans 16:25-26 and Ephesians 1:4. The Epimenides quotation is one of three pagan citations in Paul (cf. Acts 17:28, 1 Cor 15:33)."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_greek": "Παῦλος δοῦλος θεοῦ, ἀπόστολος δὲ Ἰησοῦ Χριστοῦ κατὰ πίστιν ἐκλεκτῶν θεοῦ καὶ ἐπίγνωσιν ἀληθείας τῆς κατ' εὐσέβειαν",
+      "text_kjv": "Paul, a servant of God, and an apostle of Jesus Christ, according to the faith of God's elect, and the acknowledging of the truth which is after godliness;",
+      "rendering": "Paul, a servant of God and an apostle of Jesus Christ, for the sake of the faith of God's elect and their knowledge of the truth that accords with godliness,",
+      "translator_notes": [
+        "Paul identifies himself as both 'servant of God' (doulos theou) — a designation shared with Moses, David, and the prophets — and 'apostle of Jesus Christ.' The dual title grounds his authority in both the Old Testament heritage and the new apostolic commission. The phrase kat' eusebeian ('according to godliness') links knowledge of truth inseparably to reverent living."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 2,
+      "text_greek": "ἐπ' ἐλπίδι ζωῆς αἰωνίου, ἣν ἐπηγγείλατο ὁ ἀψευδὴς θεὸς πρὸ χρόνων αἰωνίων,",
+      "text_kjv": "In hope of eternal life, which God, that cannot lie, promised before the world began;",
+      "rendering": "In hope of eternal life, which God, that cannot lie, promised before the present age began;.",
+      "translator_notes": [
+        "The Greek apseudēs ('without falsehood, who never lies') is a hapax legomenon in the New Testament, applied to God as the one whose character makes deception impossible. The phrase pro chronōn aiōniōn ('before eternal times') places God's promise in eternity past — before creation, before history, the plan of salvation was already determined."
+      ],
+      "key_terms": [
+        {
+          "greek": "ἀψευδής",
+          "transliteration": "apseudēs",
+          "rendered_as": "who never lies",
+          "semantic_range": "truthful, free from falsehood, who cannot lie",
+          "note": "Found only here in the New Testament. The attribute directly counters the Cretan reputation for lying that Paul will cite in verse 12 — God's truthfulness stands against human falsehood."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 3,
+      "text_greek": "ἐφανέρωσεν δὲ καιροῖς ἰδίοις τὸν λόγον αὐτοῦ ἐν κηρύγματι ὃ ἐπιστεύθην ἐγὼ κατ' ἐπιταγὴν τοῦ σωτῆρος ἡμῶν θεοῦ,",
+      "text_kjv": "But hath in due times manifested his word through preaching, which is committed unto me according to the commandment of God our Saviour;",
+      "rendering": "However, has in due times manifested his word through preaching, which is committed to me in keeping with to the commandment of God our Saviour;.",
+      "translator_notes": [
+        "The shift from eternal promise (v. 2) to historical manifestation (v. 3) spans the entire sweep of redemptive history: what God purposed before time, he revealed in time. The title 'God our Savior' (tou sōtēros hēmōn theou) is distinctive to the Pastoral Epistles and applies 'Savior' directly to God the Father, not only to Christ — a pattern that alternates throughout Titus."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 4,
+      "text_greek": "Τίτῳ γνησίῳ τέκνῳ κατὰ κοινὴν πίστιν· χάρις καὶ εἰρήνη ἀπὸ θεοῦ πατρὸς καὶ Χριστοῦ Ἰησοῦ τοῦ σωτῆρος ἡμῶν.",
+      "text_kjv": "To Titus, mine own son after the common faith: Grace, mercy, and peace, from God the Father and the Lord Jesus Christ our Saviour.",
+      "rendering": "Indeed, to Titus, mine own son following the common faith — Grace, mercy, and peace, from God the Father and the Lord Jesus Christ our Saviour.",
+      "translator_notes": [
+        "The Greek gnēsiō teknō ('true, legitimate child') indicates that Paul was instrumental in Titus's conversion. The phrase kata koinēn pistin ('according to a shared faith') emphasizes that their bond is not ethnic or biological but rooted in the same gospel. The SBLGNT reads 'grace and peace' without 'mercy' (eleos), which appears in some manuscripts. Now 'Savior' (sōtēros) is applied to Christ Jesus — the alternation with 'God our Savior' (v. 3) is deliberate throughout Titus."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 5,
+      "text_greek": "Τούτου χάριν ἀπέλιπόν σε ἐν Κρήτῃ, ἵνα τὰ λείποντα ἐπιδιορθώσῃ καὶ καταστήσῃς κατὰ πόλιν πρεσβυτέρους, ὡς ἐγώ σοι διεταξάμην,",
+      "text_kjv": "For this cause left I thee in Crete, that thou shouldest set in order the things that are wanting, and ordain elders in every city, as I had appointed thee:",
+      "rendering": "This is why I left you in Crete, so that you might put what remained into order, and appoint elders in every town as I directed you —",
+      "translator_notes": [
+        "Paul's departure from Crete is not recorded in Acts, suggesting this letter was written during a period of ministry not covered by Acts (possibly after a release from the first Roman imprisonment). The verb epidiorthōsē ('set right, put in order') implies that the church organization on Crete was incomplete. The instruction to appoint elders (presbyterous) 'in every town' (kata polin) indicates multiple congregations across the island."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 6,
+      "text_greek": "εἴ τίς ἐστιν ἀνέγκλητος, μιᾶς γυναικὸς ἀνήρ, τέκνα ἔχων πιστά, μὴ ἐν κατηγορίᾳ ἀσωτίας ἢ ἀνυπότακτα.",
+      "text_kjv": "If any be blameless, the husband of one wife, having faithful children not accused of riot or unruly.",
+      "rendering": "An elder must be above reproach, faithful to his wife, and his children must be believers who are not wild or disobedient.",
+      "translator_notes": [
+        "The qualification 'above reproach' (anengklētos, 'not able to be called to account') sets the baseline. 'Husband of one wife' (mias gynaikos anēr) is debated — it may prohibit polygamy, remarriage after divorce, or remarriage after a spouse's death, or it may more broadly require marital faithfulness. The children must be pista ('faithful, believing') — the expectation is that an elder's household reflects his leadership capacity."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 7,
+      "text_greek": "δεῖ γὰρ τὸν ἐπίσκοπον ἀνέγκλητον εἶναι ὡς θεοῦ οἰκονόμον, μὴ αὐθάδη, μὴ ὀργίλον, μὴ πάροινον, μὴ πλήκτην, μὴ αἰσχροκερδῆ,",
+      "text_kjv": "For a bishop must be blameless, as the steward of God; not selfwilled, not soon angry, not given to wine, no striker, not given to filthy lucre;",
+      "rendering": "For an overseer, as God's steward, must be above reproach. He must not be arrogant or quick-tempered or a drunkard or violent or greedy for gain,",
+      "translator_notes": [
+        "The shift from 'elder' (presbyteros, v. 5) to 'overseer' (episkopos, v. 7) without distinction indicates that these are the same office described from different angles — presbyteros emphasizing seniority and episkopos emphasizing function. The five negatives (not arrogant, not quick-tempered, not a drunkard, not violent, not greedy) describe the vices an overseer must not have, paralleling the positive qualities that follow."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 8,
+      "text_greek": "ἀλλὰ φιλόξενον, φιλάγαθον, σώφρονα, δίκαιον, ὅσιον, ἐγκρατῆ,",
+      "text_kjv": "But a lover of hospitality, a lover of good men, sober, just, holy, temperate;",
+      "rendering": "However, a lover of hospitality, a lover of good men, sober, just, holy, temperate.",
+      "translator_notes": [
+        "Six positive virtues replace the five negatives: hospitable (philoxenon, 'loving strangers'), lover of good (philagathon), self-controlled (sōphrona), upright (dikaion), holy (hosion), and disciplined (enkratē). The pairing of phil- compounds (philoxenon, philagathon) echoes the vice catalogue in 2 Timothy 3:2-4 where disordered phil- words describe the wicked."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 9,
+      "text_greek": "ἀντεχόμενον τοῦ κατὰ τὴν διδαχὴν πιστοῦ λόγου, ἵνα δυνατὸς ᾖ καὶ παρακαλεῖν ἐν τῇ διδασκαλίᾳ τῇ ὑγιαινούσῃ καὶ τοὺς ἀντιλέγοντας ἐλέγχειν.",
+      "text_kjv": "Holding fast the faithful word as he hath been taught, that he may be able by sound doctrine both to exhort and to convince the gainsayers.",
+      "rendering": "He must hold firm to the trustworthy word as taught, so that he may be able both to give instruction in sound doctrine and also to rebuke those who contradict it.",
+      "translator_notes": [
+        "The capstone qualification is doctrinal: the elder must hold firm (antechomenon, 'cling to') the faithful word. This has a dual purpose: positive instruction (parakalein, 'exhort, encourage') and negative correction (elegchein, 'rebuke, convict'). The phrase didaskalia hygiainousa ('sound/healthy doctrine') is the medical metaphor characteristic of the Pastoral Epistles."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 10,
+      "text_greek": "Εἰσὶν γὰρ πολλοὶ ἀνυπότακτοι, ματαιολόγοι καὶ φρεναπάται, μάλιστα οἱ ἐκ τῆς περιτομῆς,",
+      "text_kjv": "For there are many unruly and vain talkers and deceivers, specially they of the circumcision:",
+      "rendering": "For there are many who are insubordinate, empty talkers and deceivers, especially those of the circumcision party.",
+      "translator_notes": [
+        "The 'circumcision party' (hoi ek tēs peritomēs) refers to Jewish Christians who insisted on Torah observance (including circumcision) as necessary for Gentile believers — the same faction opposed in Galatians and Acts 15. The three descriptors — insubordinate (anypotaktoi), empty talkers (mataiologoi), and deceivers (phrenapitai, 'mind-deceivers') — escalate from disobedience to delusion."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 11,
+      "text_greek": "οὓς δεῖ ἐπιστομίζειν, οἵτινες ὅλους οἴκους ἀνατρέπουσιν διδάσκοντες ἃ μὴ δεῖ αἰσχροῦ κέρδους χάριν.",
+      "text_kjv": "Whose mouths must be stopped, who subvert whole houses, teaching things which they ought not, for filthy lucre's sake.",
+      "rendering": "They must be silenced, since they are upsetting whole households by teaching for shameful gain what they ought not to teach.",
+      "translator_notes": [
+        "The Greek epistomizein ('to stop the mouth, to muzzle, to silence') is vivid — these teachers must be gagged. The damage is domestic: 'whole households' (holous oikous) are being overturned (anatrepousin). The motive is financial — aischrou kerdous charin ('for the sake of shameful gain'). The combination of theological error and financial exploitation characterizes the false teachers throughout the Pastoral Epistles."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 12,
+      "text_greek": "εἶπέν τις ἐξ αὐτῶν ἴδιος αὐτῶν προφήτης· Κρῆτες ἀεὶ ψεῦσται, κακὰ θηρία, γαστέρες ἀργαί.",
+      "text_kjv": "One of themselves, even a prophet of their own, said, The Cretians are alway liars, evil beasts, slow bellies.",
+      "rendering": "One of the Cretans, a prophet of their own, said, \"Cretans are always liars, evil beasts, lazy gluttons.\"",
+      "translator_notes": [
+        "The quotation is attributed to Epimenides of Knossos (c. 6th century BC), a semi-legendary Cretan poet-prophet. Paul calls him 'a prophet of their own' (idios autōn prophētēs), granting a degree of prophetic authority to a pagan voice — similar to his citation of Aratus in Acts 17:28. The three charges — liars (pseustai), evil beasts (kaka thēria), and lazy gluttons (gasteres argai, literally 'idle bellies') — are harsh by modern standards but serve Paul's rhetorical purpose."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 13,
+      "text_greek": "ἡ μαρτυρία αὕτη ἐστὶν ἀληθής. δι' ἣν αἰτίαν ἔλεγχε αὐτοὺς ἀποτόμως, ἵνα ὑγιαίνωσιν ἐν τῇ πίστει,",
+      "text_kjv": "This witness is true. Wherefore rebuke them sharply, that they may be sound in the faith;",
+      "rendering": "This witness is true. For this reason rebuke them sharply, that they may be sound in the faith;.",
+      "translator_notes": [
+        "Paul's endorsement — 'this testimony is true' (hē martyria hautē estin alēthēs) — has troubled commentators. Paul is not making a universal ethnic claim but using the Cretan poet's words to describe the specific false teachers at work in the Cretan churches. The adverb apotomōs ('sharply, severely') is from a root meaning 'to cut' — the rebuke must be surgical, aimed at restoring health (hygiainōsin, 'may be healthy/sound')."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 14,
+      "text_greek": "μὴ προσέχοντες Ἰουδαϊκοῖς μύθοις καὶ ἐντολαῖς ἀνθρώπων ἀποστρεφομένων τὴν ἀλήθειαν.",
+      "text_kjv": "Not giving heed to Jewish fables, and commandments of men, that turn from the truth.",
+      "rendering": "Not giving heed to Jewish fables, and commandments of people, that redirect from the what is genuine.",
+      "translator_notes": [
+        "The 'Jewish myths' (Ioudaikois mythois) likely refer to speculative elaborations on Old Testament genealogies and narratives (cf. 1 Tim 1:4, 4:7). The 'commands of people' (entolais anthrōpōn) echoes Isaiah 29:13 (cited by Jesus in Mark 7:7) — human religious regulations that replace divine truth.",
+        "[TCR Cross-Reference] Echoes Isaiah 29:13. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 15,
+      "text_greek": "πάντα καθαρὰ τοῖς καθαροῖς· τοῖς δὲ μεμιαμμένοις καὶ ἀπίστοις οὐδὲν καθαρόν, ἀλλὰ μεμίανται αὐτῶν καὶ ὁ νοῦς καὶ ἡ συνείδησις.",
+      "text_kjv": "Unto the pure all things are pure: but unto them that are defiled and unbelieving is nothing pure; but even their mind and conscience is defiled.",
+      "rendering": "To the pure, all things are pure, but to the defiled and unbelieving, nothing is pure; both their minds and their consciences are defiled.",
+      "translator_notes": [
+        "This proverbial statement (panta kathara tois katharois) addresses the food laws and purity regulations the circumcision party was imposing. It echoes Jesus' teaching in Mark 7:15-19 and Paul's argument in Romans 14:14, 20. The principle is that purity is a matter of internal disposition, not external regulation. For the defiled (memiammenois), the corruption is total — both mind (nous) and conscience (syneidēsis) are contaminated."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 16,
+      "text_greek": "θεὸν ὁμολογοῦσιν εἰδέναι, τοῖς δὲ ἔργοις ἀρνοῦνται, βδελυκτοὶ ὄντες καὶ ἀπειθεῖς καὶ πρὸς πᾶν ἔργον ἀγαθὸν ἀδόκιμοι.",
+      "text_kjv": "They profess that they know God; but in works they deny him, being abominable, and disobedient, and unto every good work reprobate.",
+      "rendering": "They profess to know God, but they deny him by their works. They are detestable, disobedient, unfit for any good work.",
+      "translator_notes": [
+        "The chapter ends with a devastating verdict: verbal profession of God (homologousin eidenai) is contradicted by behavioral denial (tois ergois arnountai). The three final adjectives — detestable (bdelyktoi, a term for ritual abomination), disobedient (apeitheis), and disqualified (adokimoi, 'failing the test') — are especially ironic for people who claim special knowledge of God's requirements. The term adokimoi echoes 2 Timothy 3:8 and directly opposes the 'approved' (dokimos) worker of 2 Timothy 2:15."
+      ],
+      "reading_level": "8th grade"
+    }
+  ]
+}

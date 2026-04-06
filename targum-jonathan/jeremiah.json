@@ -1,0 +1,211 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Jeremiah",
+    "tradition": "targum-jonathan",
+    "tradition_label": "Targum Jonathan",
+    "source_text": "Targum Jonathan (standard printed edition)",
+    "base_text": "Westminster Leningrad Codex (WLC)",
+    "date": "2nd-5th c. CE (earliest layers 1st c. BCE)",
+    "generated_at": "2026-04-05T00:00:00Z",
+    "prompt_version": "1.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Targum Jonathan on Jeremiah navigates the tension between divine judgment and covenant faithfulness. The new covenant prophecy (31:31-34) is rendered with striking literalism. Anti-anthropomorphism governs descriptions of God's emotional response to Israel's unfaithfulness (anger, grief, jealousy). The Messianic 'Branch' passages (23:5, 33:15) receive explicit identification. The Memra functions as the agent of both judgment and future restoration.",
+    "notable_renderings": "The call narrative (ch. 1) uses standard anti-anthropomorphic language. The new covenant (31:31-34) is remarkably literal. The Messianic Branch (23:5) is rendered as the righteous Messiah. The Temple sermons use Shekinah language. The confessions of Jeremiah receive minimal theological adjustment, preserving the prophet's raw emotion.",
+    "theological_themes": "The Memra as agent of prophetic commissioning and covenant renewal; Shekinah departure and return as the theological framework for exile and restoration; Messianic Branch theology; the new covenant as Torah internalization; anti-anthropomorphism in divine pathos."
+  },
+  "renderings": [
+    {
+      "reference": "Jeremiah 1:5",
+      "hebrew_text": "בְּטֶרֶם אֶצָּרְךָ בַבֶּטֶן יְדַעְתִּיךָ",
+      "targum_text": "ad la tzayartakh bemeiayya yeda'atakh",
+      "targum_rendering": "Before I formed you in the womb I knew you.",
+      "mt_rendering": "Before I formed you in the womb I knew you.",
+      "category": "literal",
+      "notes": ["Jeremiah's calling is rendered literally. Divine foreknowledge is not an anthropomorphism requiring adjustment — it is an attribute of God's eternal knowledge."]
+    },
+    {
+      "reference": "Jeremiah 1:9",
+      "hebrew_text": "וַיִּשְׁלַח יְהוָה אֶת־יָדוֹ וַיַּגַּע עַל־פִּי",
+      "targum_text": "ushedar Adonai yat pitgam nvu'ateih visamkha al pumi",
+      "targum_rendering": "And the LORD sent forth the word of his prophecy and placed it upon my mouth.",
+      "mt_rendering": "Then the LORD put out his hand and touched my mouth.",
+      "category": "anti-anthropomorphism",
+      "notes": ["God's hand reaching out and touching Jeremiah's mouth becomes 'the word of his prophecy' being placed upon Jeremiah's mouth. The physical gesture is replaced with verbal prophetic commissioning — the Word, not the hand, empowers the prophet."]
+    },
+    {
+      "reference": "Jeremiah 1:19",
+      "hebrew_text": "כִּי אִתְּךָ אֲנִי נְאֻם יְהוָה לְהַצִּילֶךָ",
+      "targum_text": "arei Memri besiyyakhah amar Adonai leshezavutakh",
+      "targum_rendering": "For my Memra is in your help, says the LORD, to deliver you.",
+      "mt_rendering": "For I am with you, declares the LORD, to deliver you.",
+      "category": "memra",
+      "notes": ["The promise of divine presence to the prophet follows the standard Memra formula. Jeremiah's prophetic ministry is sustained by the Memra's accompaniment."]
+    },
+    {
+      "reference": "Jeremiah 3:17",
+      "hebrew_text": "בָּעֵת הַהִיא יִקְרְאוּ לִירוּשָׁלַיִם כִּסֵּא יְהוָה",
+      "targum_text": "be'iddana hahi yitqerun liYerushalem kurseih diyeqara daAdonai",
+      "targum_rendering": "At that time they shall call Jerusalem the throne of the glory of the LORD.",
+      "mt_rendering": "At that time Jerusalem shall be called the throne of the LORD.",
+      "category": "anti-anthropomorphism",
+      "notes": ["Jerusalem is not the LORD's throne directly but the throne of his glory (yeqar). The eschatological transformation of Jerusalem is mediated through glory-theology."]
+    },
+    {
+      "reference": "Jeremiah 7:4",
+      "hebrew_text": "הֵיכַל יְהוָה הֵיכַל יְהוָה הֵיכַל יְהוָה הֵמָּה",
+      "targum_text": "heikhela daAdonai heikhela daAdonai heikhela daAdonai innun",
+      "targum_rendering": "The Temple of the LORD, the Temple of the LORD, the Temple of the LORD are these.",
+      "mt_rendering": "The temple of the LORD, the temple of the LORD, the temple of the LORD are these.",
+      "category": "literal",
+      "notes": ["The deceptive refrain is rendered literally — Jonathan preserves the irony of false confidence in the Temple's inviolability."]
+    },
+    {
+      "reference": "Jeremiah 7:12",
+      "hebrew_text": "כִּי לְכוּ נָא אֶל מְקוֹמִי אֲשֶׁר בְּשִׁילוֹ אֲשֶׁר שִׁכַּנְתִּי שְׁמִי שָׁם",
+      "targum_text": "arei izelu ke'an le'atri diveShiloh di ashrei Shekhineti tamman",
+      "targum_rendering": "For go now to my place which was in Shiloh, where I caused my Shekinah to dwell there.",
+      "mt_rendering": "Go now to my place that was in Shiloh, where I made my name dwell at first.",
+      "category": "shekinah",
+      "notes": ["God's 'name dwelling' at Shiloh is rendered as 'Shekinah dwelling' at Shiloh. The destruction of Shiloh is a precedent for Shekinah departure — the Shekinah can leave a sanctuary it once inhabited."]
+    },
+    {
+      "reference": "Jeremiah 10:10",
+      "hebrew_text": "וַיהוָה אֱלֹהִים אֱמֶת הוּא אֱלֹהִים חַיִּים וּמֶלֶךְ עוֹלָם",
+      "targum_text": "vaAdonai Elohim hu Elah qeshot hu Elah chayyin umalka de'alma",
+      "targum_rendering": "But the LORD God — he is the true God, he is the living God and the eternal King.",
+      "mt_rendering": "But the LORD is the true God; he is the living God and the everlasting King.",
+      "category": "literal",
+      "notes": ["The confession of God's uniqueness amid idol polemic is rendered literally. Attributes like 'true,' 'living,' and 'eternal king' are non-anthropomorphic and require no adjustment."]
+    },
+    {
+      "reference": "Jeremiah 17:12",
+      "hebrew_text": "כִּסֵּא כָבוֹד מָרוֹם מֵרִאשׁוֹן מְקוֹם מִקְדָּשֵׁנוּ",
+      "targum_text": "kursei yeqara de'illaya min qadmai atar beit maqdashana",
+      "targum_rendering": "The throne of glory on high from the beginning is the place of our Temple.",
+      "mt_rendering": "A glorious throne set on high from the beginning is the place of our sanctuary.",
+      "category": "shekinah",
+      "notes": ["The heavenly throne of glory corresponds to the earthly Temple. Jonathan establishes the two-tiered cosmology: the heavenly throne and the earthly sanctuary mirror each other."]
+    },
+    {
+      "reference": "Jeremiah 23:5",
+      "hebrew_text": "הִנֵּה יָמִים בָּאִים נְאֻם יְהוָה וַהֲקִמֹתִי לְדָוִד צֶמַח צַדִּיק",
+      "targum_text": "ha yomayya atyin amar Adonai va'aqim leDavid Meshicha zakkaya",
+      "targum_rendering": "Behold, the days are coming, says the LORD, when I will raise up for David a righteous Messiah.",
+      "mt_rendering": "Behold, the days are coming, declares the LORD, when I will raise up for David a righteous Branch.",
+      "category": "messianic",
+      "notes": ["The 'righteous Branch' (tsemach tsaddiq) is rendered 'righteous Messiah' (Meshicha zakkaya). Jonathan explicitly decodes the botanical metaphor as Messianic prophecy, consistent with his treatment of Isaiah 11:1. The Branch is the Messiah."]
+    },
+    {
+      "reference": "Jeremiah 23:6",
+      "hebrew_text": "וְזֶה שְּׁמוֹ אֲשֶׁר יִקְרְאוֹ יְהוָה צִדְקֵנוּ",
+      "targum_text": "veden shemeih di yiqreinnei Adonai tzidqana",
+      "targum_rendering": "And this is the name by which he shall be called: the LORD is our righteousness.",
+      "mt_rendering": "And this is the name by which he will be called: 'The LORD is our righteousness.'",
+      "category": "messianic",
+      "notes": ["The Messiah's throne name 'YHWH-Tsidqenu' is preserved literally. Jonathan does not shy away from a name that applies YHWH to the Messianic king, though it can be read as a statement about God rather than an identification of the Messiah with God."]
+    },
+    {
+      "reference": "Jeremiah 25:30",
+      "hebrew_text": "יְהוָה מִמָּרוֹם יִשְׁאָג",
+      "targum_text": "Adonai min merom beit Shekhinteih yigbirah qaleih",
+      "targum_rendering": "The LORD from the height of the house of his Shekinah shall raise his voice.",
+      "mt_rendering": "The LORD will roar from on high.",
+      "category": "shekinah",
+      "notes": ["'On high' becomes 'the height of the house of his Shekinah,' localizing the heavenly source of judgment in Shekinah cosmology. God does not 'roar' (an animal metaphor) but 'raises his voice.'"]
+    },
+    {
+      "reference": "Jeremiah 29:11",
+      "hebrew_text": "כִּי אָנֹכִי יָדַעְתִּי אֶת־הַמַּחֲשָׁבֹת אֲשֶׁר אָנֹכִי חֹשֵׁב עֲלֵיכֶם... מַחְשְׁבוֹת שָׁלוֹם",
+      "targum_text": "arei ana yeda'na yat chushebanayya de'ana chashiv aleikhon... chushebanei shelam",
+      "targum_rendering": "For I know the thoughts which I think concerning you... thoughts of peace.",
+      "mt_rendering": "For I know the plans I have for you... plans for welfare.",
+      "category": "literal",
+      "notes": ["God's knowledge of his own plans is rendered literally. Divine planning is an attribute of wisdom, not an anthropomorphism. The promise of peace/welfare is directed to the exiles."]
+    },
+    {
+      "reference": "Jeremiah 30:9",
+      "hebrew_text": "וְעָבְדוּ אֵת יְהוָה אֱלֹהֵיהֶם וְאֵת דָּוִד מַלְכָּם אֲשֶׁר אָקִים לָהֶם",
+      "targum_text": "viyiphlchun qodam Adonai Elahehon viyishttam'un leMeshicha bar David malkhon di aqim lehon",
+      "targum_rendering": "And they shall serve before the LORD their God, and they shall obey the Messiah son of David, their king, whom I will raise up for them.",
+      "mt_rendering": "And they shall serve the LORD their God and David their king, whom I will raise up for them.",
+      "category": "messianic",
+      "notes": ["'David their king' is interpreted as 'the Messiah son of David, their king.' Jonathan makes the Messianic identification explicit: the future David is not the historical David resurrected but the Messiah who descends from David's line."]
+    },
+    {
+      "reference": "Jeremiah 30:21",
+      "hebrew_text": "וְהָיָה אַדִּירוֹ מִמֶּנּוּ וּמֹשְׁלוֹ מִקִּרְבּוֹ יֵצֵא",
+      "targum_text": "vihavei rabrehon minnehon uMeshikhon mibeinehon yitgeli",
+      "targum_rendering": "And their great one shall be from among them, and their Messiah shall be revealed from their midst.",
+      "mt_rendering": "Their prince shall be from themselves; their ruler shall come from their midst.",
+      "category": "messianic",
+      "notes": ["The ruler 'coming from their midst' becomes the Messiah 'revealed from their midst' (yitgeli). The Messiah does not merely appear — he is revealed, using the same theology of divine disclosure applied throughout Jonathan."]
+    },
+    {
+      "reference": "Jeremiah 31:9",
+      "hebrew_text": "כִּי הָיִיתִי לְיִשְׂרָאֵל לְאָב",
+      "targum_text": "arei Memri havat leYisrael le'abba",
+      "targum_rendering": "For my Memra has been a father to Israel.",
+      "mt_rendering": "For I am a father to Israel.",
+      "category": "memra",
+      "notes": ["God's fatherhood of Israel is mediated through the Memra. Even the most intimate relational metaphor is expressed through the Word, maintaining the Memra as the mode of all divine-human relationship."]
+    },
+    {
+      "reference": "Jeremiah 31:31",
+      "hebrew_text": "הִנֵּה יָמִים בָּאִים נְאֻם יְהוָה וְכָרַתִּי אֶת בֵּית יִשְׂרָאֵל... בְּרִית חֲדָשָׁה",
+      "targum_text": "ha yomayya atyin amar Adonai ve'agzar im beit Yisrael... keyam chadatt",
+      "targum_rendering": "Behold, the days are coming, says the LORD, when I will make with the house of Israel... a new covenant.",
+      "mt_rendering": "Behold, the days are coming, declares the LORD, when I will make a new covenant with the house of Israel.",
+      "category": "theological",
+      "notes": ["The new covenant prophecy is rendered with striking literalism. Jonathan does not qualify, restrict, or reinterpret 'new covenant' (keyam chadatt). This is the verse cited in Hebrews 8:8-12 as fulfilled in Christ. The targum's literalism here is remarkable given its tendency to interpret elsewhere."]
+    },
+    {
+      "reference": "Jeremiah 31:33",
+      "hebrew_text": "נָתַתִּי אֶת תּוֹרָתִי בְּקִרְבָּם וְעַל לִבָּם אֶכְתְּבֶנָּה",
+      "targum_text": "eittein yat oraiti begevvehon ve'al libbehon ikhtevinnah",
+      "targum_rendering": "I will put my Torah in their inward parts, and upon their heart I will write it.",
+      "mt_rendering": "I will put my law within them, and I will write it on their hearts.",
+      "category": "theological",
+      "notes": ["The Torah internalization is rendered literally. The new covenant does not replace Torah but internalizes it. Jonathan's treatment suggests the new covenant is Torah-centered renewal, not Torah abolition."]
+    },
+    {
+      "reference": "Jeremiah 31:34",
+      "hebrew_text": "כִּי אֶסְלַח לַעֲוֺנָם וּלְחַטָּאתָם לֹא אֶזְכָּר עוֹד",
+      "targum_text": "arei ashbiq lechovehon ulechotehon la edkar tub",
+      "targum_rendering": "For I will forgive their iniquity, and their sin I will remember no more.",
+      "mt_rendering": "For I will forgive their iniquity, and I will remember their sin no more.",
+      "category": "theological",
+      "notes": ["The climax of the new covenant: divine forgiveness and the end of sin-remembrance. Jonathan renders this literally, preserving the unconditional promise of forgiveness that defines the new covenant."]
+    },
+    {
+      "reference": "Jeremiah 33:15",
+      "hebrew_text": "בַּיָּמִים הָהֵם וּבָעֵת הַהִיא אַצְמִיחַ לְדָוִד צֶמַח צְדָקָה",
+      "targum_text": "beyomayya ha'innun uve'iddana hahi atzammach leDavid Meshicha detzidqa",
+      "targum_rendering": "In those days and at that time I will cause to sprout for David a Messiah of righteousness.",
+      "mt_rendering": "In those days and at that time I will cause a righteous Branch to spring up for David.",
+      "category": "messianic",
+      "notes": ["The second Branch prophecy in Jeremiah is also rendered as 'Messiah of righteousness' (Meshicha detzidqa). The agricultural metaphor of sprouting is preserved alongside the Messianic identification."]
+    },
+    {
+      "reference": "Jeremiah 33:16",
+      "hebrew_text": "וְזֶה אֲשֶׁר יִקְרָא לָהּ יְהוָה צִדְקֵנוּ",
+      "targum_text": "veden di yitqerun lah min qodam Adonai bidqayin yitaseyan lana",
+      "targum_rendering": "And this is the name by which she [Jerusalem] will be called: 'Before the LORD our righteousness will be accomplished for us.'",
+      "mt_rendering": "And this is the name by which it will be called: 'The LORD is our righteousness.'",
+      "category": "messianic",
+      "notes": ["While 23:6 applied the name to the Messianic king, 33:16 applies it to Jerusalem. Jonathan renders the city's name as a theological statement: before the LORD, righteousness is accomplished. The name YHWH-Tsidqenu has both personal (Messianic) and civic (Jerusalem) applications."]
+    },
+    {
+      "reference": "Jeremiah 46:28",
+      "hebrew_text": "כִּי אִתְּךָ אָנִי נְאֻם יְהוָה לְהוֹשִׁעֶךָ",
+      "targum_text": "arei Memri besiyyakhah amar Adonai leshezavutakh",
+      "targum_rendering": "For my Memra is in your help, says the LORD, to save you.",
+      "mt_rendering": "For I am with you, declares the LORD, to save you.",
+      "category": "memra",
+      "notes": ["The concluding promise to Jacob/Israel uses the standard Memra-help formula. Even amid oracles against the nations, God's relationship with Israel is Memra-mediated."]
+    }
+  ]
+}

@@ -1,0 +1,376 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "1 John",
+    "chapter": 2,
+    "source_text": "SBL Greek New Testament (SBLGNT)",
+    "reference_text": "KJV",
+    "generated_at": "2026-04-04T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "First John 2 develops the letter's central themes of fellowship with God, obedience, and love. John begins by describing Jesus as the advocate (parakletos) and atoning sacrifice for the world's sins, then establishes that knowing God is demonstrated by keeping his commandments — particularly the command to love. The chapter introduces the famous triad of worldly temptations (the desire of the flesh, the desire of the eyes, and the pride of life) and warns that the world is passing away. John then addresses the appearance of 'antichrists' — those who have left the community and deny that Jesus is the Christ — and reassures believers that they possess an anointing (chrisma) from the Holy One that guards them in truth.",
+    "remarkable": "The term parakletos ('advocate, one called alongside') connects Jesus's ongoing heavenly ministry to the same word used for the Holy Spirit in John's Gospel (John 14:16, 26; 15:26; 16:7). John's 'antichrist' language appears here for the first time in the New Testament — not as an apocalyptic beast figure but as a present theological reality: anyone who denies the Father and the Son. The concept of chrisma ('anointing') given to all believers democratizes what was once reserved for kings and priests, echoing the promise of Jeremiah 31:34 that all would know the LORD directly.",
+    "friction": "The 'new commandment that is also old' (vv. 7-8) presents an apparent paradox that John resolves by locating the newness in its realization through Christ. The identity of the 'antichrists' likely refers to a specific secession from the Johannine community (v. 19: 'they went out from us'), not a future eschatological figure. The three-stage address to 'children,' 'fathers,' and 'young men' (vv. 12-14) may reflect age groups, spiritual maturity levels, or rhetorical variation — the text does not resolve this clearly.",
+    "connections": "The advocacy of Christ before the Father (v. 1) connects to the high-priestly intercession theme of Hebrews 7:25 and Romans 8:34. The 'new commandment' echoes John 13:34. The 'antichrist' concept draws on Daniel 7-8 and the Olivet Discourse (Mark 13:22). The warning about worldly desires parallels James 4:4 and the temptation narrative of Genesis 3 (the tree was good for food, a delight to the eyes, and desired to make one wise)."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_greek": "Τεκνία μου, ταῦτα γράφω ὑμῖν ἵνα μὴ ἁμάρτητε. καὶ ἐάν τις ἁμάρτῃ, παράκλητον ἔχομεν πρὸς τὸν πατέρα Ἰησοῦν Χριστὸν δίκαιον·",
+      "text_kjv": "My little children, these things write I unto you, that ye sin not. And if any man sin, we have an advocate with the Father, Jesus Christ the righteous:",
+      "rendering": "My little children, I am writing these things to you so that you may not sin. But if anyone does sin, we have an advocate with the Father — Jesus Christ, the righteous one.",
+      "translator_notes": [
+        "The Greek teknia ('little children') is a term of intimate affection, not condescension, reflecting the elder's pastoral relationship with the community. The word parakletos ('advocate, helper, one called alongside') is the same term Jesus uses for the Holy Spirit in John 14:16. Here it describes Christ's ongoing intercessory role before the Father. The adjective dikaion ('righteous') qualifies Christ as the perfect advocate — his righteousness is the ground of his intercession."
+      ],
+      "key_terms": [
+        {
+          "greek": "παράκλητος",
+          "transliteration": "parakletos",
+          "rendered_as": "advocate",
+          "semantic_range": "advocate, helper, intercessor, comforter, one called alongside",
+          "note": "In the Gospel of John, this term describes the Holy Spirit. Here it is applied to the risen Christ in his heavenly ministry of intercession. The legal connotation — one who speaks in defense before a judge — is primary in this context."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 2,
+      "text_greek": "καὶ αὐτὸς ἱλασμός ἐστιν περὶ τῶν ἁμαρτιῶν ἡμῶν, οὐ περὶ τῶν ἡμετέρων δὲ μόνον ἀλλὰ καὶ περὶ ὅλου τοῦ κόσμου.",
+      "text_kjv": "And he is the propitiation for our sins: and not for ours only, but also for the sins of the whole world.",
+      "rendering": "He himself is the atoning sacrifice for our sins, and not for ours only, but also for the sins of the whole world.",
+      "translator_notes": [
+        "The Greek hilasmos ('atoning sacrifice, propitiation, expiation') carries both the sense of turning away wrath (propitiation) and covering sin (expiation). The word echoes the Hebrew kapporet (mercy seat) and the Day of Atonement ritual of Leviticus 16. The scope — 'the whole world' (holou tou kosmou) — extends the atonement beyond the believing community, a remarkable universalizing statement.",
+        "[TCR Cross-Reference] Draws on Leviticus 16. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "key_terms": [
+        {
+          "greek": "ἱλασμός",
+          "transliteration": "hilasmos",
+          "rendered_as": "atoning sacrifice",
+          "semantic_range": "propitiation, expiation, atoning sacrifice, means of atonement",
+          "note": "The term appears only here and in 4:10 in the New Testament. It encompasses both the removal of sin (expiation) and the satisfaction of divine justice (propitiation). We render it 'atoning sacrifice' to capture the sacrificial background without importing a single theological system."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 3,
+      "text_greek": "Καὶ ἐν τούτῳ γινώσκομεν ὅτι ἐγνώκαμεν αὐτόν, ἐὰν τὰς ἐντολὰς αὐτοῦ τηρῶμεν.",
+      "text_kjv": "And hereby we do know that we know him, if we keep his commandments.",
+      "rendering": "And by this we know that we have come to know him: if we keep his commandments.",
+      "translator_notes": [
+        "John uses two different tenses of ginoskein ('to know'): the present ginoskomen ('we know' — ongoing awareness) and the perfect egnokamen ('we have come to know' — completed action with present results). True knowledge of God is not abstract or mystical but is verified by obedience. This epistemological test recurs throughout the letter."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 4,
+      "text_greek": "ὁ λέγων ὅτι Ἔγνωκα αὐτὸν καὶ τὰς ἐντολὰς αὐτοῦ μὴ τηρῶν ψεύστης ἐστίν, καὶ ἐν τούτῳ ἡ ἀλήθεια οὐκ ἔστιν·",
+      "text_kjv": "He that saith, I know him, and keepeth not his commandments, is a liar, and the truth is not in him.",
+      "rendering": "Whoever says \"I have come to know him\" but does not keep his commandments is a liar, and the truth is not in that person.",
+      "translator_notes": [
+        "John's blunt designation — pseustes ('liar') — is characteristic of the letter's stark moral categories. The claim to know God while disobeying him is not merely mistaken but constitutes a lie. 'The truth is not in him' treats truth as an indwelling reality, not merely a correct proposition."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 5,
+      "text_greek": "ὃς δ' ἂν τηρῇ αὐτοῦ τὸν λόγον, ἀληθῶς ἐν τούτῳ ἡ ἀγάπη τοῦ θεοῦ τετελείωται. ἐν τούτῳ γινώσκομεν ὅτι ἐν αὐτῷ ἐσμεν·",
+      "text_kjv": "But whoso keepeth his word, in him verily is the love of God perfected: hereby know we that we are in him.",
+      "rendering": "But whoever keeps his word, in that person the love of God has truly been made complete. By this we know that we are in him.",
+      "translator_notes": [
+        "The phrase 'the love of God' (he agape tou theou) is ambiguous in Greek — it could mean God's love for us, our love for God, or the kind of love that comes from God. The context suggests all three dimensions. The verb teteleiōtai ('has been made complete, perfected') is a perfect passive, indicating a divine work brought to completion in the obedient believer."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 6,
+      "text_greek": "ὁ λέγων ἐν αὐτῷ μένειν ὀφείλει καθὼς ἐκεῖνος περιεπάτησεν καὶ αὐτὸς οὕτως περιπατεῖν.",
+      "text_kjv": "He that saith he abideth in him ought himself also so to walk, even as he walked.",
+      "rendering": "Whoever claims to remain in him ought to walk in the same way that he walked.",
+      "translator_notes": [
+        "The Greek peripatein ('to walk') is the standard metaphor for conducting one's life, corresponding to the Hebrew halak. 'As he walked' (kathōs ekeinos periepatēsen) refers to Jesus's earthly life as the model for Christian conduct. The verb opheilei ('ought, is obligated') expresses moral necessity, not mere suggestion."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 7,
+      "text_greek": "Ἀγαπητοί, οὐκ ἐντολὴν καινὴν γράφω ὑμῖν ἀλλ' ἐντολὴν παλαιὰν ἣν εἴχετε ἀπ' ἀρχῆς· ἡ ἐντολὴ ἡ παλαιά ἐστιν ὁ λόγος ὃν ἠκούσατε.",
+      "text_kjv": "Brethren, I write no new commandment unto you, but an old commandment which ye had from the beginning. The old commandment is the word which ye have heard from the beginning.",
+      "rendering": "Beloved, I am not writing a new commandment to you, but an old commandment that you have had from the beginning. The old commandment is the word that you heard.",
+      "translator_notes": [
+        "The SBLGNT reads agapetoi ('beloved') rather than the KJV's 'brethren.' The 'old commandment from the beginning' likely refers to the love command that the community received when they first heard the gospel (cf. John 13:34). The paradox of old and new is resolved in the next verse."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 8,
+      "text_greek": "πάλιν ἐντολὴν καινὴν γράφω ὑμῖν, ὅ ἐστιν ἀληθὲς ἐν αὐτῷ καὶ ἐν ὑμῖν, ὅτι ἡ σκοτία παράγεται καὶ τὸ φῶς τὸ ἀληθινὸν ἤδη φαίνει.",
+      "text_kjv": "Again, a new commandment I write unto you, which thing is true in him and in you: because the darkness is past, and the true light now shineth.",
+      "rendering": "Yet I am writing a new commandment to you, which is true in him and in you, because the darkness is passing away and the true light is already shining.",
+      "translator_notes": [
+        "The commandment is both old (rooted in the Torah's love command, Leviticus 19:18) and new (realized in Christ and the believing community). The present tense paragetai ('is passing away') and phainei ('is shining') indicate an eschatological transition already underway — the new age has begun but the old has not yet fully departed. This 'already but not yet' tension characterizes Johannine eschatology.",
+        "[TCR Cross-Reference] References Leviticus 19:18 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 9,
+      "text_greek": "ὁ λέγων ἐν τῷ φωτὶ εἶναι καὶ τὸν ἀδελφὸν αὐτοῦ μισῶν ἐν τῇ σκοτίᾳ ἐστὶν ἕως ἄρτι.",
+      "text_kjv": "He that saith he is in the light, and hateth his brother, is in darkness even until now.",
+      "rendering": "Whoever says he is in the light yet hates his brother is still in the darkness even now.",
+      "translator_notes": [
+        "The test is relational: hatred of a fellow believer (adelphon, 'brother') invalidates any claim to spiritual enlightenment. The phrase heōs arti ('even now, until this moment') suggests someone who has never actually moved from darkness to light, despite their claim."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 10,
+      "text_greek": "ὁ ἀγαπῶν τὸν ἀδελφὸν αὐτοῦ ἐν τῷ φωτὶ μένει, καὶ σκάνδαλον ἐν αὐτῷ οὐκ ἔστιν·",
+      "text_kjv": "He that loveth his brother abideth in the light, and there is none occasion of stumbling in him.",
+      "rendering": "Whoever loves his brother remains in the light, and there is no cause for stumbling in him.",
+      "translator_notes": [
+        "The Greek skandalon ('cause of stumbling, trap, offense') could mean either that the loving person does not stumble, or that the loving person does not cause others to stumble. Both senses may be intended — love both secures the believer and removes obstacles for others."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 11,
+      "text_greek": "ὁ δὲ μισῶν τὸν ἀδελφὸν αὐτοῦ ἐν τῇ σκοτίᾳ ἐστὶν καὶ ἐν τῇ σκοτίᾳ περιπατεῖ, καὶ οὐκ οἶδεν ποῦ ὑπάγει, ὅτι ἡ σκοτία ἐτύφλωσεν τοὺς ὀφθαλμοὺς αὐτοῦ.",
+      "text_kjv": "But he that hateth his brother is in darkness, and walketh in darkness, and knoweth not whither he goeth, because that darkness hath blinded his eyes.",
+      "rendering": "But whoever hates his brother is in the darkness and walks in the darkness, and does not know where he is going, because the darkness has blinded his eyes.",
+      "translator_notes": [
+        "The threefold description — being in darkness, walking in darkness, not knowing one's direction — forms a devastating portrait of spiritual blindness. The verb etyflōsen ('has blinded') is aorist, suggesting a decisive event: hatred did not merely dim but extinguished sight. The imagery echoes John 12:35."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 12,
+      "text_greek": "Γράφω ὑμῖν, τεκνία, ὅτι ἀφέωνται ὑμῖν αἱ ἁμαρτίαι διὰ τὸ ὄνομα αὐτοῦ.",
+      "text_kjv": "I write unto you, little children, because your sins are forgiven you for his name's sake.",
+      "rendering": "I am writing to you, little children, because your sins have been forgiven on account of his name.",
+      "translator_notes": [
+        "The address teknia ('little children') encompasses the whole community. The perfect passive apheōntai ('have been forgiven') indicates a completed and enduring reality. Forgiveness comes 'on account of his name' — that is, through the person and work of Christ, not through the community's merit."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 13,
+      "text_greek": "γράφω ὑμῖν, πατέρες, ὅτι ἐγνώκατε τὸν ἀπ' ἀρχῆς. γράφω ὑμῖν, νεανίσκοι, ὅτι νενικήκατε τὸν πονηρόν.",
+      "text_kjv": "I write unto you, fathers, because ye have known him that is from the beginning. I write unto you, young men, because ye have overcome the wicked one.",
+      "rendering": "I am writing to you, fathers, because you have known him who is from the beginning. I am writing to you, young men, because you have overcome the evil one.",
+      "translator_notes": [
+        "The 'fathers' (pateres) are characterized by deep, mature knowledge of Christ, 'him who is from the beginning.' The 'young men' (neaniskoi) are characterized by victory over 'the evil one' (ton poneron) — likely Satan. The perfect tenses (egnōkate, nenikēkate) indicate accomplished realities that continue in force."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 14,
+      "text_greek": "ἔγραψα ὑμῖν, παιδία, ὅτι ἐγνώκατε τὸν πατέρα. ἔγραψα ὑμῖν, πατέρες, ὅτι ἐγνώκατε τὸν ἀπ' ἀρχῆς. ἔγραψα ὑμῖν, νεανίσκοι, ὅτι ἰσχυροί ἐστε καὶ ὁ λόγος τοῦ θεοῦ ἐν ὑμῖν μένει καὶ νενικήκατε τὸν πονηρόν.",
+      "text_kjv": "I have written unto you, fathers, because ye have known him that is from the beginning. I have written unto you, young men, because ye are strong, and the word of God abideth in you, and ye have overcome the wicked one.",
+      "rendering": "I have written to you, children, because you have known the Father. I have written to you, fathers, because you have known him who is from the beginning. I have written to you, young men, because you are strong, and the word of God remains in you, and you have overcome the evil one.",
+      "translator_notes": [
+        "The shift from graphō ('I am writing') to egrapsa ('I have written') may indicate a second pass through the same groups, or an epistolary aorist referring to the letter itself. The SBLGNT reads paidia ('children') for the first address here, a slightly different word than teknia in v. 12 but with similar meaning. The young men's strength is grounded in two realities: the indwelling word of God and their victory over the evil one."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 15,
+      "text_greek": "Μὴ ἀγαπᾶτε τὸν κόσμον μηδὲ τὰ ἐν τῷ κόσμῳ. ἐάν τις ἀγαπᾷ τὸν κόσμον, οὐκ ἔστιν ἡ ἀγάπη τοῦ πατρὸς ἐν αὐτῷ·",
+      "text_kjv": "Love not the world, neither the things that are in the world. If any man love the world, the love of the Father is not in him.",
+      "rendering": "Do not love the world or the things in the world. If anyone loves the world, the love of the Father is not in that person.",
+      "translator_notes": [
+        "The Greek kosmos ('world') here does not mean the created order (which God loves, John 3:16) but the world-system organized in opposition to God — the values, priorities, and allegiances that compete with devotion to the Father. The prohibition is a present imperative with mē, forbidding an ongoing disposition."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 16,
+      "text_greek": "ὅτι πᾶν τὸ ἐν τῷ κόσμῳ, ἡ ἐπιθυμία τῆς σαρκός καὶ ἡ ἐπιθυμία τῶν ὀφθαλμῶν καὶ ἡ ἀλαζονεία τοῦ βίου, οὐκ ἔστιν ἐκ τοῦ πατρὸς ἀλλ' ἐκ τοῦ κόσμου ἐστίν·",
+      "text_kjv": "For all that is in the world, the lust of the flesh, and the lust of the eyes, and the pride of life, is not of the Father, but is of the world.",
+      "rendering": "For everything in the world — the desire of the flesh, the desire of the eyes, and the arrogance of life — is not from the Father but is from the world.",
+      "translator_notes": [
+        "The triad of worldly temptations has often been compared to the threefold temptation in Genesis 3:6 (good for food, a delight to the eyes, desired to make one wise) and the temptation of Jesus (Matthew 4:1-11). The Greek epithymia ('desire, craving') is morally neutral in itself but here denotes disordered desire directed at flesh-gratification and visual acquisitiveness. The word alazoneia ('arrogance, boastfulness, pretension') refers to the vain confidence that comes from material security (bios here meaning 'livelihood, possessions' rather than mere 'life').",
+        "[TCR Cross-Reference] Quotes Genesis 3:6. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it."
+      ],
+      "key_terms": [
+        {
+          "greek": "ἐπιθυμία",
+          "transliteration": "epithymia",
+          "rendered_as": "desire",
+          "semantic_range": "desire, longing, craving, lust",
+          "note": "The word itself is neutral (it can describe positive desire, as in Luke 22:15). Here the objects — 'of the flesh' and 'of the eyes' — mark these as disordered cravings oriented away from God."
+        },
+        {
+          "greek": "ἀλαζονεία",
+          "transliteration": "alazoneia",
+          "rendered_as": "arrogance",
+          "semantic_range": "arrogance, boastfulness, pretension, vainglory",
+          "note": "The term denotes the swagger that comes from worldly resources and status. The genitive tou biou ('of life/livelihood') specifies that this arrogance is rooted in material prosperity."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 17,
+      "text_greek": "καὶ ὁ κόσμος παράγεται καὶ ἡ ἐπιθυμία αὐτοῦ, ὁ δὲ ποιῶν τὸ θέλημα τοῦ θεοῦ μένει εἰς τὸν αἰῶνα.",
+      "text_kjv": "And the world passeth away, and the lust thereof: but he that doeth the will of God abideth for ever.",
+      "rendering": "And the world is passing away along with its desires, but whoever does the will of God remains forever.",
+      "translator_notes": [
+        "The present tense paragetai ('is passing away') conveys the world's transience as an ongoing reality, not merely a future event. The contrast between the passing world and the one who 'remains forever' (menei eis ton aiōna) echoes the Johannine theme of abiding. Doing the will of God is not legalistic compliance but alignment with God's eternal purposes."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 18,
+      "text_greek": "Παιδία, ἐσχάτη ὥρα ἐστίν, καὶ καθὼς ἠκούσατε ὅτι ἀντίχριστος ἔρχεται, καὶ νῦν ἀντίχριστοι πολλοὶ γεγόνασιν· ὅθεν γινώσκομεν ὅτι ἐσχάτη ὥρα ἐστίν.",
+      "text_kjv": "Little children, it is the last time: and as ye have heard that antichrist shall come, even now are there many antichrists; whereby we know that it is the last time.",
+      "rendering": "Children, it is the last hour, and just as you heard that the antichrist is coming, even now many antichrists have appeared. From this we know that it is the last hour.",
+      "translator_notes": [
+        "The phrase eschatē hōra ('last hour') without the article suggests a qualitative description of the present era rather than a precise chronological claim. John's innovation is to pluralize 'antichrist' (antichristoi polloi) — the expected single eschatological opponent has multiplied into many present figures. The word antichristos appears only in the Johannine Epistles (here, 2:22, 4:3, and 2 John 7) in the entire New Testament."
+      ],
+      "key_terms": [
+        {
+          "greek": "ἀντίχριστος",
+          "transliteration": "antichristos",
+          "rendered_as": "antichrist",
+          "semantic_range": "one opposed to Christ, anti-messiah, false Christ",
+          "note": "The prefix anti- can mean either 'against' or 'in place of.' Both senses apply: these figures oppose Christ and offer a substitute message. John's usage is not primarily apocalyptic but ecclesiological — these are former community members who departed with false doctrine."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 19,
+      "text_greek": "ἐξ ἡμῶν ἐξῆλθαν ἀλλ' οὐκ ἦσαν ἐξ ἡμῶν· εἰ γὰρ ἐξ ἡμῶν ἦσαν, μεμενήκεισαν ἂν μεθ' ἡμῶν· ἀλλ' ἵνα φανερωθῶσιν ὅτι οὐκ εἰσὶν πάντες ἐξ ἡμῶν.",
+      "text_kjv": "They went out from us, but they were not of us; for if they had been of us, they would no doubt have continued with us: but they went out, that they might be made manifest that they were not all of us.",
+      "rendering": "They went out from us, but they were not of us; for if they had been of us, they would have remained with us. But they went out so that it would be made clear that none of them were of us.",
+      "translator_notes": [
+        "This verse reveals the concrete historical situation behind the letter: a group has seceded from the community. John interprets their departure theologically — it was not a loss but a revealing. The contrary-to-fact conditional (ei ... ēsan ... memenēkeisan an) asserts that genuine belonging would have produced perseverance. Their leaving exposed what was always true."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 20,
+      "text_greek": "καὶ ὑμεῖς χρῖσμα ἔχετε ἀπὸ τοῦ ἁγίου, καὶ οἴδατε πάντες.",
+      "text_kjv": "But ye have an unction from the Holy One, and ye know all things.",
+      "rendering": "But you have an anointing from the Holy One, and you all have knowledge.",
+      "translator_notes": [
+        "The Greek chrisma ('anointing') is etymologically related to Christos ('anointed one'). In the Old Testament, anointing was reserved for kings, priests, and occasionally prophets. John declares that all believers possess this anointing. The SBLGNT reading oidate pantes ('you all know') rather than oidate panta ('you know all things') emphasizes that every believer — not just leaders — has been given knowledge through the Spirit."
+      ],
+      "key_terms": [
+        {
+          "greek": "χρῖσμα",
+          "transliteration": "chrisma",
+          "rendered_as": "anointing",
+          "semantic_range": "anointing, unction, anointing oil",
+          "note": "Appears only here and in v. 27 in the New Testament. The connection to Christos is deliberate: believers share in the anointing of the Christ. This likely refers to the Holy Spirit, echoing the promises of John 14-16."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 21,
+      "text_greek": "οὐκ ἔγραψα ὑμῖν ὅτι οὐκ οἴδατε τὴν ἀλήθειαν ἀλλ' ὅτι οἴδατε αὐτήν, καὶ ὅτι πᾶν ψεῦδος ἐκ τῆς ἀληθείας οὐκ ἔστιν.",
+      "text_kjv": "I have not written unto you because ye know not the truth, but because ye know it, and that no lie is of the truth.",
+      "rendering": "I have not written to you because you do not know the truth, but because you do know it, and because no lie comes from the truth.",
+      "translator_notes": [
+        "John writes not to inform but to confirm — the community already possesses the truth through their anointing. The final clause establishes an absolute separation between truth and falsehood that will undergird his identification of the secessionists' teaching as lies."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 22,
+      "text_greek": "Τίς ἐστιν ὁ ψεύστης εἰ μὴ ὁ ἀρνούμενος ὅτι Ἰησοῦς οὐκ ἔστιν ὁ Χριστός; οὗτός ἐστιν ὁ ἀντίχριστος, ὁ ἀρνούμενος τὸν πατέρα καὶ τὸν υἱόν.",
+      "text_kjv": "Who is a liar but he that denieth that Jesus is the Christ? He is antichrist, that denieth the Father and the Son.",
+      "rendering": "Who is the liar, if not the one who denies that Jesus is the Christ? This is the antichrist — the one who denies the Father and the Son.",
+      "translator_notes": [
+        "The definite article (ho pseustēs, 'the liar') elevates this beyond a general statement — this is the liar par excellence. The specific denial — that Jesus is the Christ — likely reflects a proto-Gnostic or Cerinthian position that separated the human Jesus from the divine Christ. John insists that denying the Son necessarily entails denying the Father, because the two are inseparable in the Johannine theological framework."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 23,
+      "text_greek": "πᾶς ὁ ἀρνούμενος τὸν υἱὸν οὐδὲ τὸν πατέρα ἔχει· ὁ ὁμολογῶν τὸν υἱὸν καὶ τὸν πατέρα ἔχει.",
+      "text_kjv": "Whosoever denieth the Son, the same hath not the Father: (but) he that acknowledgeth the Son hath the Father also.",
+      "rendering": "Everyone who denies the Son does not have the Father either. Whoever confesses the Son has the Father also.",
+      "translator_notes": [
+        "The verb homologeōn ('confessing, acknowledging') is the counterpart to arnoumenos ('denying'). The relationship with the Father is mediated entirely through the Son — there is no access to the Father apart from the Son. This echoes Jesus's words in John 14:6-9. Some manuscripts omit the second clause; the SBLGNT includes it."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 24,
+      "text_greek": "ὑμεῖς ὃ ἠκούσατε ἀπ' ἀρχῆς, ἐν ὑμῖν μενέτω· ἐὰν ἐν ὑμῖν μείνῃ ὃ ἀπ' ἀρχῆς ἠκούσατε, καὶ ὑμεῖς ἐν τῷ υἱῷ καὶ ἐν τῷ πατρὶ μενεῖτε.",
+      "text_kjv": "Let that therefore abide in you, which ye have heard from the beginning. If that which ye have heard from the beginning shall remain in you, ye also shall continue in the Son, and in the Father.",
+      "rendering": "As for you, let what you heard from the beginning remain in you. If what you heard from the beginning remains in you, then you also will remain in the Son and in the Father.",
+      "translator_notes": [
+        "The emphatic hymeis ('you') at the beginning contrasts the faithful community with the secessionists. 'From the beginning' (ap' archēs) refers to the original apostolic message they received. The logic is reciprocal: if the message remains in them, they remain in the Son and the Father. Abiding in the truth and abiding in God are inseparable."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 25,
+      "text_greek": "καὶ αὕτη ἐστὶν ἡ ἐπαγγελία ἣν αὐτὸς ἐπηγγείλατο ἡμῖν, τὴν ζωὴν τὴν αἰώνιον.",
+      "text_kjv": "And this is the promise that he hath promised us, even eternal life.",
+      "rendering": "And this is the promise that he himself promised us: eternal life.",
+      "translator_notes": [
+        "The promise (epangelia) of eternal life (tēn zōēn tēn aiōnion) is the content of remaining in the Father and Son. In Johannine theology, eternal life is not merely future but a present reality that begins with knowing God (John 17:3). The emphatic autos ('he himself') likely refers to Christ."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 26,
+      "text_greek": "Ταῦτα ἔγραψα ὑμῖν περὶ τῶν πλανώντων ὑμᾶς.",
+      "text_kjv": "These things have I written unto you concerning them that seduce you.",
+      "rendering": "I have written these things to you about those who are trying to deceive you.",
+      "translator_notes": [
+        "The participle planōntōn ('those deceiving, leading astray') is present tense, indicating ongoing activity. The secessionists are not merely gone — they are actively attempting to draw the remaining community after them. The verb planein ('to lead astray, deceive') is the root of the English 'planet' (a wandering star) and captures the sense of being led off course."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 27,
+      "text_greek": "καὶ ὑμεῖς τὸ χρῖσμα ὃ ἐλάβετε ἀπ' αὐτοῦ, μένει ἐν ὑμῖν καὶ οὐ χρείαν ἔχετε ἵνα τις διδάσκῃ ὑμᾶς, ἀλλ' ὡς τὸ αὐτοῦ χρῖσμα διδάσκει ὑμᾶς περὶ πάντων, καὶ ἀληθές ἐστιν καὶ οὐκ ἔστιν ψεῦδος, καὶ καθὼς ἐδίδαξεν ὑμᾶς, μένετε ἐν αὐτῷ.",
+      "text_kjv": "But the anointing which ye have received of him abideth in you, and ye need not that any man teach you: but as the same anointing teacheth you of all things, and is truth, and is no lie, and even as it hath taught you, ye shall abide in him.",
+      "rendering": "As for you, the anointing that you received from him remains in you, and you have no need for anyone to teach you. But as his anointing teaches you about all things — and is true and is not a lie — just as it has taught you, remain in him.",
+      "translator_notes": [
+        "The statement that believers 'have no need for anyone to teach you' does not reject all teaching (John's letter is itself teaching) but asserts that the community possesses an internal criterion — the Spirit's anointing — by which to evaluate external claims. This echoes Jeremiah 31:34 ('they shall all know me') and Jesus's promise of the Spirit of truth in John 16:13. The final menete ('remain') is an imperative: continue abiding in him.",
+        "[TCR Cross-Reference] Draws on Jeremiah 31:34. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 28,
+      "text_greek": "Καὶ νῦν, τεκνία, μένετε ἐν αὐτῷ, ἵνα ἐὰν φανερωθῇ σχῶμεν παρρησίαν καὶ μὴ αἰσχυνθῶμεν ἀπ' αὐτοῦ ἐν τῇ παρουσίᾳ αὐτοῦ.",
+      "text_kjv": "And now, little children, abide in him; that, when he shall appear, we may have confidence, and not be ashamed before him at his coming.",
+      "rendering": "And now, little children, remain in him, so that when he appears we may have confidence and not shrink back from him in shame at his coming.",
+      "translator_notes": [
+        "The term parrēsian ('confidence, boldness, freedom of speech') was a civic virtue in Greek culture — the right to speak openly before authority. Here it describes the believer's posture before Christ at his return. The word parousia ('coming, presence, arrival') is the standard early Christian term for the second coming of Christ. John shifts to the first person plural ('we may have') — he includes himself among those who will face this moment."
+      ],
+      "key_terms": [
+        {
+          "greek": "παρουσία",
+          "transliteration": "parousia",
+          "rendered_as": "coming",
+          "semantic_range": "coming, arrival, presence, advent",
+          "note": "The standard eschatological term for Christ's return. This is its only occurrence in the Johannine Epistles, showing that despite John's emphasis on present realities, he maintains the expectation of a future appearing."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 29,
+      "text_greek": "ἐὰν εἰδῆτε ὅτι δίκαιός ἐστιν, γινώσκετε ὅτι καὶ πᾶς ὁ ποιῶν τὴν δικαιοσύνην ἐξ αὐτοῦ γεγέννηται.",
+      "text_kjv": "If ye know that he is righteous, ye know that every one that doeth righteousness is born of him.",
+      "rendering": "If you know that he is righteous, you know that everyone who practices righteousness has been born of him.",
+      "translator_notes": [
+        "The verb gegennētai ('has been born') is a perfect passive, indicating a divine act with enduring consequences — being born of God is not a human achievement but a divine begetting. The logic runs from God's character to the believer's conduct: because he is righteous, those born of him will practice righteousness. This sets up the major theme of chapter 3."
+      ],
+      "reading_level": "8th grade"
+    }
+  ]
+}

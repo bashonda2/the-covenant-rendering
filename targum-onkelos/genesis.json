@@ -1,0 +1,418 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Genesis",
+    "tradition": "targum-onkelos",
+    "tradition_label": "Targum Onkelos",
+    "source_text": "Targum Onkelos (standard printed edition)",
+    "base_text": "Westminster Leningrad Codex (WLC)",
+    "date": "2nd-5th c. CE (earliest layers 1st c. BCE)",
+    "generated_at": "2026-04-05T00:00:00Z",
+    "prompt_version": "1.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Targum Onkelos on Genesis is the most literal of the Palestinian-Babylonian targum traditions, yet still reshapes the text at critical theological junctures. The creation narrative, patriarchal encounters with God, and the blessings of Jacob all receive careful interpretive adjustment to guard divine transcendence while preserving covenantal intimacy.",
+    "notable_renderings": "The Memra (Word) of the LORD appears as the active agent of creation, covenant, and revelation. Anthropomorphic descriptions of God walking, resting, and appearing are systematically replaced with language of glory, presence, or Memra. The Aqedah (Genesis 22) subtly emphasizes Isaac's willing participation. Jacob's blessing in Genesis 49:10 introduces explicit Messianic expectation.",
+    "theological_themes": "Anti-anthropomorphism is pervasive: God does not walk, descend, or regret in human fashion. The Memra serves as a theological buffer between the transcendent God and the created world, anticipating later Logos theology. Shekinah language appears wherever God's indwelling presence is described. Messianic readings surface in the patriarchal blessings."
+  },
+  "renderings": [
+    {
+      "reference": "Genesis 1:1",
+      "hebrew_text": "בְּרֵאשִׁית בָּרָא אֱלֹהִים אֵת הַשָּׁמַיִם וְאֵת הָאָרֶץ",
+      "targum_text": "beqadmin bera Adonai yat shemayya veyat ar'a",
+      "targum_rendering": "In the beginning the LORD created the heavens and the earth.",
+      "mt_rendering": "In the beginning God created the heavens and the earth.",
+      "category": "divine-name",
+      "notes": ["Onkelos consistently renders Elohim as 'the LORD' (using the divine name) rather than a generic 'God,' reinforcing monotheistic theology against polytheistic readings of the plural Elohim."]
+    },
+    {
+      "reference": "Genesis 1:27",
+      "hebrew_text": "וַיִּבְרָא אֱלֹהִים אֶת־הָאָדָם בְּצַלְמוֹ בְּצֶלֶם אֱלֹהִים בָּרָא אֹתוֹ",
+      "targum_text": "uvera Adonai yat adam betzalmeih betzelem Adonai bera yateih",
+      "targum_rendering": "And the LORD created man in his image; in the image of the LORD he created him.",
+      "mt_rendering": "And God created man in his image; in the image of God he created him.",
+      "category": "literal",
+      "notes": ["Onkelos preserves 'image' (tzelem) without alteration here, unlike some later targum traditions that soften it. The rendering is notably literal, suggesting Onkelos understood tzelem as spiritual likeness rather than physical form."]
+    },
+    {
+      "reference": "Genesis 2:2",
+      "hebrew_text": "וַיְכַל אֱלֹהִים בַּיּוֹם הַשְּׁבִיעִי מְלַאכְתּוֹ אֲשֶׁר עָשָׂה וַיִּשְׁבֹּת בַּיּוֹם הַשְּׁבִיעִי",
+      "targum_text": "veshallem Adonai beyoma shevi'a'ah avideiteih di avad venach beyoma shevi'a'ah",
+      "targum_rendering": "And the LORD completed on the seventh day his work which he had made, and he rested on the seventh day.",
+      "mt_rendering": "And God finished on the seventh day his work which he had made, and he ceased on the seventh day.",
+      "category": "anti-anthropomorphism",
+      "notes": ["Onkelos retains 'rested' (nach) but the Aramaic carries more the sense of 'ceased activity' than physical rest, subtly guarding against implying divine fatigue."]
+    },
+    {
+      "reference": "Genesis 2:7",
+      "hebrew_text": "וַיִּפַּח בְּאַפָּיו נִשְׁמַת חַיִּים",
+      "targum_text": "unefach be'appoi nishmeta dechayye",
+      "targum_rendering": "And he breathed into his nostrils the breath of life.",
+      "mt_rendering": "And he breathed into his nostrils the breath of life.",
+      "category": "literal",
+      "notes": ["Onkelos preserves the anthropomorphic language of God breathing, one of the few places where the intimacy of the act overrides the anti-anthropomorphic tendency."]
+    },
+    {
+      "reference": "Genesis 3:8",
+      "hebrew_text": "וַיִּשְׁמְעוּ אֶת־קוֹל יְהוָה אֱלֹהִים מִתְהַלֵּךְ בַּגָּן",
+      "targum_text": "ushemi'u yat qal Memra daAdonai Elohim demihalekh beganneta",
+      "targum_rendering": "And they heard the voice of the Memra of the LORD God walking in the garden.",
+      "mt_rendering": "And they heard the sound of the LORD God walking in the garden.",
+      "category": "memra",
+      "notes": ["Classic Memra substitution: it is not God himself who walks in the garden but the Memra (Word) of the LORD. This is one of the earliest and most theologically significant Memra insertions in Onkelos, distancing God from physical locomotion."]
+    },
+    {
+      "reference": "Genesis 3:22",
+      "hebrew_text": "הֵן הָאָדָם הָיָה כְּאַחַד מִמֶּנּוּ לָדַעַת טוֹב וָרָע",
+      "targum_text": "ha adam hava yechida'i be'ar'a kema dehu yachid bishemayya leminda' tav ubishu",
+      "targum_rendering": "Behold, man has become unique on earth as [God] is unique in heaven, knowing good and evil.",
+      "mt_rendering": "Behold, the man has become like one of us, knowing good and evil.",
+      "category": "anti-anthropomorphism",
+      "notes": ["Onkelos eliminates the troublesome plural 'one of us' (which could imply a divine council or plurality in God) by rendering it as a comparison of uniqueness: man is unique on earth as God is unique in heaven."]
+    },
+    {
+      "reference": "Genesis 3:24",
+      "hebrew_text": "וַיְגָרֶשׁ אֶת־הָאָדָם וַיַּשְׁכֵּן מִקֶּדֶם לְגַן־עֵדֶן אֶת־הַכְּרֻבִים",
+      "targum_text": "vetarekh yat adam ve'ashri miqqedem leganeta de'Eden yat keruvayya",
+      "targum_rendering": "And he drove out the man, and he caused his Shekinah to dwell from of old, east of the Garden of Eden, with the cherubim.",
+      "mt_rendering": "And he drove out the man, and he placed east of the Garden of Eden the cherubim.",
+      "category": "shekinah",
+      "notes": ["Onkelos introduces 'Shekinah' for God's dwelling presence east of Eden, transforming a narrative of placement into a theology of divine indwelling. God does not merely station guards; he establishes his presence."]
+    },
+    {
+      "reference": "Genesis 4:26",
+      "hebrew_text": "אָז הוּחַל לִקְרֹא בְּשֵׁם יְהוָה",
+      "targum_text": "beidayin sheri litzalaya bishma daAdonai",
+      "targum_rendering": "Then men began to pray in the name of the LORD.",
+      "mt_rendering": "Then men began to call upon the name of the LORD.",
+      "category": "liturgical",
+      "notes": ["Onkelos interprets 'calling on the name' as formal prayer (tzelota), reading the origin of worship back into the earliest generations and connecting it to synagogue practice."]
+    },
+    {
+      "reference": "Genesis 6:6",
+      "hebrew_text": "וַיִּנָּחֶם יְהוָה כִּי־עָשָׂה אֶת־הָאָדָם בָּאָרֶץ וַיִּתְעַצֵּב אֶל־לִבּוֹ",
+      "targum_text": "vetav qodam Adonai arei avad yat adam be'ar'a ve'amar bimemreih lemimcha yathon",
+      "targum_rendering": "And it was pleasing before the LORD that he had made man on the earth, and he said by his Memra to destroy them.",
+      "mt_rendering": "And the LORD regretted that he had made man on the earth, and it grieved him to his heart.",
+      "category": "anti-anthropomorphism",
+      "notes": ["Onkelos radically reworks this verse to eliminate divine regret and grief. God does not change his mind or experience emotional pain; rather, it 'was pleasing before him' (a reverential circumlocution), and he resolves through his Memra to act. This is one of the strongest anti-anthropomorphic moves in Genesis."]
+    },
+    {
+      "reference": "Genesis 8:21",
+      "hebrew_text": "וַיָּרַח יְהוָה אֶת־רֵיחַ הַנִּיחֹחַ",
+      "targum_text": "veqabbel Adonai bereva qorbaneih",
+      "targum_rendering": "And the LORD received with favor his offering.",
+      "mt_rendering": "And the LORD smelled the pleasing aroma.",
+      "category": "anti-anthropomorphism",
+      "notes": ["God does not 'smell' in Onkelos. The physical act of smelling is replaced with the abstract concept of favorable reception, removing any implication that God has a sense of smell or physical nostrils."]
+    },
+    {
+      "reference": "Genesis 9:12",
+      "hebrew_text": "זֹאת אוֹת־הַבְּרִית אֲשֶׁר־אֲנִי נֹתֵן בֵּינִי וּבֵינֵיכֶם",
+      "targum_text": "da at keyama di ana yahev bein Memri uveineikhon",
+      "targum_rendering": "This is the sign of the covenant which I give between my Memra and you.",
+      "mt_rendering": "This is the sign of the covenant which I give between me and you.",
+      "category": "memra",
+      "notes": ["The covenant is not between God directly and humanity but between God's Memra and humanity. The Memra mediates the covenant relationship, a pattern that becomes foundational for understanding covenant theology in the targum tradition."]
+    },
+    {
+      "reference": "Genesis 11:5",
+      "hebrew_text": "וַיֵּרֶד יְהוָה לִרְאֹת אֶת־הָעִיר וְאֶת־הַמִּגְדָּל",
+      "targum_text": "ve'itgeli Adonai lemechza yat qarta veyat migdala",
+      "targum_rendering": "And the LORD revealed himself to see the city and the tower.",
+      "mt_rendering": "And the LORD came down to see the city and the tower.",
+      "category": "anti-anthropomorphism",
+      "notes": ["God does not 'come down' physically. Onkelos replaces descent with revelation (itgeli), preserving God's transcendence: God does not move through space but reveals himself where he wills."]
+    },
+    {
+      "reference": "Genesis 11:7",
+      "hebrew_text": "הָבָה נֵרְדָה וְנָבְלָה שָׁם שְׂפָתָם",
+      "targum_text": "hava itgelei venabelbel taman lishanehon",
+      "targum_rendering": "Come, let me reveal myself and confuse there their language.",
+      "mt_rendering": "Come, let us go down and confuse their language there.",
+      "category": "anti-anthropomorphism",
+      "notes": ["The plural 'let us go down' is eliminated, removing any suggestion of a divine council or plurality. God alone reveals himself and acts. This parallels the handling of Genesis 1:26."]
+    },
+    {
+      "reference": "Genesis 12:7",
+      "hebrew_text": "וַיֵּרָא יְהוָה אֶל־אַבְרָם",
+      "targum_text": "ve'itgeli Adonai le'Avram",
+      "targum_rendering": "And the LORD revealed himself to Abram.",
+      "mt_rendering": "And the LORD appeared to Abram.",
+      "category": "anti-anthropomorphism",
+      "notes": ["Throughout Genesis, 'appeared' (vayera) is rendered 'revealed himself' (itgeli), shifting from visual perception to divine self-disclosure. God is not seen; he makes himself known."]
+    },
+    {
+      "reference": "Genesis 15:1",
+      "hebrew_text": "אַל־תִּירָא אַבְרָם אָנֹכִי מָגֵן לָךְ",
+      "targum_text": "la tidchal Avram Memri maggen lakh",
+      "targum_rendering": "Fear not, Abram; my Memra is a shield for you.",
+      "mt_rendering": "Fear not, Abram; I am a shield for you.",
+      "category": "memra",
+      "notes": ["God's Memra, not God himself directly, is the shield. This Memra usage in a covenantal promise to Abraham is theologically significant — the Word of God is the protective agent in the covenant relationship."]
+    },
+    {
+      "reference": "Genesis 15:6",
+      "hebrew_text": "וְהֶאֱמִן בַּיהוָה וַיַּחְשְׁבֶהָ לּוֹ צְדָקָה",
+      "targum_text": "veheimin beMemra daAdonai vachashvah leih lezakhu",
+      "targum_rendering": "And he believed in the Memra of the LORD, and he reckoned it to him as righteousness.",
+      "mt_rendering": "And he believed in the LORD, and he counted it to him as righteousness.",
+      "category": "memra",
+      "notes": ["Abraham's faith is directed toward the Memra of the LORD, not toward God abstractly. This is one of the most theologically loaded Memra passages in the Torah, directly relevant to Paul's citation in Romans 4 and Galatians 3. The object of saving faith is the Word of God."]
+    },
+    {
+      "reference": "Genesis 16:13",
+      "hebrew_text": "וַתִּקְרָא שֵׁם־יְהוָה הַדֹּבֵר אֵלֶיהָ אַתָּה אֵל רֳאִי",
+      "targum_text": "vetqerat shema daAdonai dimalil immah att Elaha dechazyan qodam",
+      "targum_rendering": "And she called the name of the LORD who spoke with her, 'You are God before whom all is seen.'",
+      "mt_rendering": "And she called the name of the LORD who spoke to her, 'You are the God who sees me.'",
+      "category": "anti-anthropomorphism",
+      "notes": ["Onkelos reverses the direction of seeing: it is not God who sees Hagar (implying eyes) but God before whom all is visible. Divine omniscience replaces anthropomorphic vision."]
+    },
+    {
+      "reference": "Genesis 17:1",
+      "hebrew_text": "וַיֵּרָא יְהוָה אֶל־אַבְרָם וַיֹּאמֶר אֵלָיו אֲנִי־אֵל שַׁדַּי",
+      "targum_text": "ve'itgeli Adonai le'Avram va'amar leih ana El Shadday",
+      "targum_rendering": "And the LORD revealed himself to Abram and said to him, 'I am God Almighty.'",
+      "mt_rendering": "And the LORD appeared to Abram and said to him, 'I am God Almighty.'",
+      "category": "anti-anthropomorphism",
+      "notes": ["Standard Onkelos pattern: 'appeared' becomes 'revealed himself.' The divine name El Shaddai is preserved without interpretation."]
+    },
+    {
+      "reference": "Genesis 17:7",
+      "hebrew_text": "וַהֲקִמֹתִי אֶת־בְּרִיתִי בֵּינִי וּבֵינֶךָ",
+      "targum_text": "va'aqim yat keyami bein Memri uveinakh",
+      "targum_rendering": "And I will establish my covenant between my Memra and you.",
+      "mt_rendering": "And I will establish my covenant between me and you.",
+      "category": "memra",
+      "notes": ["Again the covenant is mediated through the Memra. The Abrahamic covenant is not a bare divine-human agreement but one established through the Word — a consistent Onkelos pattern for all covenant formulations."]
+    },
+    {
+      "reference": "Genesis 18:1",
+      "hebrew_text": "וַיֵּרָא אֵלָיו יְהוָה בְּאֵלֹנֵי מַמְרֵא",
+      "targum_text": "ve'itgeli leih Adonai bemesharei Mamre",
+      "targum_rendering": "And the LORD revealed himself to him in the plains of Mamre.",
+      "mt_rendering": "And the LORD appeared to him by the oaks of Mamre.",
+      "category": "anti-anthropomorphism",
+      "notes": ["The theophany at Mamre is rendered as revelation rather than appearance. Onkelos does not elaborate on the three visitors, maintaining focus on the divine self-disclosure."]
+    },
+    {
+      "reference": "Genesis 18:21",
+      "hebrew_text": "אֵרְדָה־נָּא וְאֶרְאֶה",
+      "targum_text": "itgelei kevan ve'echzei",
+      "targum_rendering": "I will reveal myself now and see.",
+      "mt_rendering": "I will go down and see.",
+      "category": "anti-anthropomorphism",
+      "notes": ["God does not descend to Sodom; he reveals himself. The same anti-anthropomorphic principle applied at Babel (11:5) operates here."]
+    },
+    {
+      "reference": "Genesis 19:24",
+      "hebrew_text": "וַיהוָה הִמְטִיר עַל־סְדֹם וְעַל־עֲמֹרָה גָּפְרִית וָאֵשׁ מֵאֵת יְהוָה מִן־הַשָּׁמָיִם",
+      "targum_text": "vaAdonai achit al Sedom ve'al Amora kavritha venura min qodam Adonai min shemayya",
+      "targum_rendering": "And the LORD rained upon Sodom and upon Gomorrah brimstone and fire from before the LORD from heaven.",
+      "mt_rendering": "And the LORD rained upon Sodom and upon Gomorrah sulfur and fire from the LORD from heaven.",
+      "category": "anti-anthropomorphism",
+      "notes": ["Onkelos adds 'from before' (min qodam), a reverential circumlocution. The fire comes not directly 'from the LORD' but 'from before the LORD,' maintaining distance between God and the physical act of destruction."]
+    },
+    {
+      "reference": "Genesis 20:3",
+      "hebrew_text": "וַיָּבֹא אֱלֹהִים אֶל־אֲבִימֶלֶךְ בַּחֲלוֹם הַלָּיְלָה",
+      "targum_text": "va'ata pitgama min qodam Adonai levat Avimelekh bechelma deleilya",
+      "targum_rendering": "And a word came from before the LORD to Abimelech in a dream of the night.",
+      "mt_rendering": "And God came to Abimelech in a dream of the night.",
+      "category": "anti-anthropomorphism",
+      "notes": ["God does not 'come' to Abimelech. Instead, a word (pitgama) comes from before the LORD. The physical movement is replaced with verbal communication, and the reverential 'from before' (min qodam) adds distance."]
+    },
+    {
+      "reference": "Genesis 21:20",
+      "hebrew_text": "וַיְהִי אֱלֹהִים אֶת־הַנַּעַר",
+      "targum_text": "vahava Memra daAdonai besiyyeih de'ulema",
+      "targum_rendering": "And the Memra of the LORD was in the help of the lad.",
+      "mt_rendering": "And God was with the lad.",
+      "category": "memra",
+      "notes": ["God's presence with Ishmael is mediated through the Memra. 'God was with' becomes 'the Memra of the LORD was in the help of,' specifying that divine accompaniment operates through the Word."]
+    },
+    {
+      "reference": "Genesis 22:1",
+      "hebrew_text": "וְהָאֱלֹהִים נִסָּה אֶת־אַבְרָהָם",
+      "targum_text": "vaAdonai nissi yat Avraham",
+      "targum_rendering": "And the LORD tested Abraham.",
+      "mt_rendering": "And God tested Abraham.",
+      "category": "aqedah",
+      "notes": ["The Aqedah begins with Onkelos rendering straightforwardly, but the targum tradition surrounding this chapter expands significantly in other targum recensions. Onkelos is restrained here but sets the stage for theological interpretation."]
+    },
+    {
+      "reference": "Genesis 22:8",
+      "hebrew_text": "אֱלֹהִים יִרְאֶה־לּוֹ הַשֶּׂה לְעֹלָה בְּנִי",
+      "targum_text": "Adonai yitmin leih immar le'alata beri",
+      "targum_rendering": "The LORD will provide for himself the lamb for the burnt offering, my son.",
+      "mt_rendering": "God will provide for himself the lamb for the burnt offering, my son.",
+      "category": "aqedah",
+      "notes": ["Onkelos renders 'see/provide' (yir'eh) as 'provide' (yitmin), making the provision explicit. The ambiguity of the Hebrew — which could mean 'God will see to it' — is resolved into definite provision."]
+    },
+    {
+      "reference": "Genesis 22:14",
+      "hebrew_text": "וַיִּקְרָא אַבְרָהָם שֵׁם־הַמָּקוֹם הַהוּא יְהוָה יִרְאֶה",
+      "targum_text": "uqra Avraham shem attra hahu qodam Adonai hakhah yitmin",
+      "targum_rendering": "And Abraham called the name of that place 'Before the LORD here it shall be provided.'",
+      "mt_rendering": "And Abraham called the name of that place 'The LORD will provide.'",
+      "category": "aqedah",
+      "notes": ["The place-name YHWH-Yireh is interpreted as 'Before the LORD here it shall be provided,' pointing to the Temple mount in rabbinic tradition. The 'before the LORD' circumlocution is characteristic of Onkelos."]
+    },
+    {
+      "reference": "Genesis 25:21",
+      "hebrew_text": "וַיֶּעְתַּר יִצְחָק לַיהוָה לְנֹכַח אִשְׁתּוֹ",
+      "targum_text": "vetzalli Yitzchaq qodam Adonai leqoveil ittetheih",
+      "targum_rendering": "And Isaac prayed before the LORD on behalf of his wife.",
+      "mt_rendering": "And Isaac entreated the LORD on behalf of his wife.",
+      "category": "liturgical",
+      "notes": ["Onkelos renders 'entreated' as formal prayer (tzalli), consistent with its pattern of reading liturgical practice into the patriarchal narratives."]
+    },
+    {
+      "reference": "Genesis 28:10",
+      "hebrew_text": "וַיֵּצֵא יַעֲקֹב מִבְּאֵר שָׁבַע וַיֵּלֶךְ חָרָנָה",
+      "targum_text": "unefaq Ya'aqov miBe'er Sheva ve'azal leCharan",
+      "targum_rendering": "And Jacob went out from Beer-sheba and went to Haran.",
+      "mt_rendering": "And Jacob went out from Beer-sheba and went toward Haran.",
+      "category": "literal",
+      "notes": ["Onkelos renders this verse literally, setting the stage for the Bethel theophany that follows."]
+    },
+    {
+      "reference": "Genesis 28:13",
+      "hebrew_text": "וְהִנֵּה יְהוָה נִצָּב עָלָיו",
+      "targum_text": "veha yeqar Adonai mitmanna aloi",
+      "targum_rendering": "And behold, the glory of the LORD was appointed over him.",
+      "mt_rendering": "And behold, the LORD stood above it.",
+      "category": "anti-anthropomorphism",
+      "notes": ["God does not 'stand' above the ladder. Onkelos replaces physical posture with 'the glory of the LORD' (yeqar Adonai), one of the most common anti-anthropomorphic substitutions in the targum."]
+    },
+    {
+      "reference": "Genesis 28:15",
+      "hebrew_text": "וְהִנֵּה אָנֹכִי עִמָּךְ",
+      "targum_text": "veha Memri besiyyakhah",
+      "targum_rendering": "And behold, my Memra is in your help.",
+      "mt_rendering": "And behold, I am with you.",
+      "category": "memra",
+      "notes": ["The promise of divine presence to Jacob is mediated through the Memra. God's 'being with' someone is consistently rendered as the Memra being in one's help, providing both intermediary theology and practical specificity."]
+    },
+    {
+      "reference": "Genesis 28:20-21",
+      "hebrew_text": "אִם־יִהְיֶה אֱלֹהִים עִמָּדִי... וְהָיָה יְהוָה לִי לֵאלֹהִים",
+      "targum_text": "im yehei Memra daAdonai besiyyai... viyehei Memra daAdonai li l'Elah",
+      "targum_rendering": "If the Memra of the LORD will be in my help... then the Memra of the LORD shall be my God.",
+      "mt_rendering": "If God will be with me... then the LORD shall be my God.",
+      "category": "memra",
+      "notes": ["Jacob's vow at Bethel places the Memra at the center of the covenant relationship. The Memra is simultaneously God's agent and the object of Jacob's devotion — a remarkable theological formulation."]
+    },
+    {
+      "reference": "Genesis 31:3",
+      "hebrew_text": "וַיֹּאמֶר יְהוָה אֶל־יַעֲקֹב שׁוּב אֶל־אֶרֶץ אֲבוֹתֶיךָ",
+      "targum_text": "va'amar Adonai leYa'aqov tuv le'ar'a da'avahathakh",
+      "targum_rendering": "And the LORD said to Jacob, 'Return to the land of your fathers.'",
+      "mt_rendering": "And the LORD said to Jacob, 'Return to the land of your fathers.'",
+      "category": "literal",
+      "notes": ["Onkelos renders this command literally. Direct divine speech is generally preserved without Memra mediation when God is quoted using first-person address."]
+    },
+    {
+      "reference": "Genesis 32:25",
+      "hebrew_text": "וַיֵּאָבֵק אִישׁ עִמּוֹ עַד עֲלוֹת הַשָּׁחַר",
+      "targum_text": "ve'ishtaddal gavra immeih ad deseliq tzafra",
+      "targum_rendering": "And a man wrestled with him until the rising of the dawn.",
+      "mt_rendering": "And a man wrestled with him until the breaking of the day.",
+      "category": "literal",
+      "notes": ["Onkelos preserves the mysterious 'man' (gavra) without identifying him as an angel or divine being, maintaining the deliberate ambiguity of the Hebrew. The identification is left to the reader."]
+    },
+    {
+      "reference": "Genesis 32:31",
+      "hebrew_text": "כִּי־רָאִיתִי אֱלֹהִים פָּנִים אֶל־פָּנִים",
+      "targum_text": "arei chazeiti malakha daAdonai appei be'appei",
+      "targum_rendering": "For I have seen the angel of the LORD face to face.",
+      "mt_rendering": "For I have seen God face to face.",
+      "category": "anti-anthropomorphism",
+      "notes": ["Onkelos cannot allow Jacob to claim he saw God directly. 'God' is replaced with 'the angel of the LORD,' maintaining divine transcendence while preserving the drama of the encounter."]
+    },
+    {
+      "reference": "Genesis 35:9",
+      "hebrew_text": "וַיֵּרָא אֱלֹהִים אֶל־יַעֲקֹב עוֹד",
+      "targum_text": "ve'itgeli Adonai leYa'aqov tuv",
+      "targum_rendering": "And the LORD revealed himself to Jacob again.",
+      "mt_rendering": "And God appeared to Jacob again.",
+      "category": "anti-anthropomorphism",
+      "notes": ["Standard Onkelos rendering of theophany: 'appeared' becomes 'revealed himself.'"]
+    },
+    {
+      "reference": "Genesis 39:2",
+      "hebrew_text": "וַיְהִי יְהוָה אֶת־יוֹסֵף",
+      "targum_text": "vahava Memra daAdonai besiyyeih deYosef",
+      "targum_rendering": "And the Memra of the LORD was in the help of Joseph.",
+      "mt_rendering": "And the LORD was with Joseph.",
+      "category": "memra",
+      "notes": ["God's presence with Joseph is mediated through the Memra, following the same pattern as with Ishmael (21:20) and Jacob (28:15). The Memra is the consistent mode of God's companionship with individuals."]
+    },
+    {
+      "reference": "Genesis 39:21",
+      "hebrew_text": "וַיְהִי יְהוָה אֶת־יוֹסֵף וַיֵּט אֵלָיו חָסֶד",
+      "targum_text": "vahava Memra daAdonai besiyyeih deYosef umatei leih chisda",
+      "targum_rendering": "And the Memra of the LORD was in the help of Joseph and extended mercy to him.",
+      "mt_rendering": "And the LORD was with Joseph and showed him steadfast love.",
+      "category": "memra",
+      "notes": ["Even in prison, the Memra accompanies Joseph. The targum emphasizes that divine mercy (chisda) is an active quality of the Memra's help, not merely passive accompaniment."]
+    },
+    {
+      "reference": "Genesis 46:4",
+      "hebrew_text": "אָנֹכִי אֵרֵד עִמְּךָ מִצְרַיְמָה",
+      "targum_text": "Memri yechot immakh leMitzrayim",
+      "targum_rendering": "My Memra will go down with you to Egypt.",
+      "mt_rendering": "I will go down with you to Egypt.",
+      "category": "memra",
+      "notes": ["God does not descend to Egypt. The Memra descends, maintaining divine transcendence while assuring Jacob of accompanied presence. The pattern of Memra-mediated divine companionship extends to the descent into exile."]
+    },
+    {
+      "reference": "Genesis 49:10",
+      "hebrew_text": "לֹא־יָסוּר שֵׁבֶט מִיהוּדָה וּמְחֹקֵק מִבֵּין רַגְלָיו עַד כִּי־יָבֹא שִׁילֹה",
+      "targum_text": "la ye'addei alit shultana mideveith Yehudah vesafra mibenei benoi ad de'yeitei Meshicha dedalei hi malkhuta",
+      "targum_rendering": "The ruler shall not depart from the house of Judah, nor the scribe from his children's children, until the Messiah comes, whose is the kingdom.",
+      "mt_rendering": "The scepter shall not depart from Judah, nor the ruler's staff from between his feet, until Shiloh comes.",
+      "category": "messianic",
+      "notes": ["This is the most important Messianic rendering in Onkelos on Genesis. The enigmatic 'Shiloh' is rendered explicitly as 'the Messiah, whose is the kingdom.' This shows that pre-Christian Jewish tradition read Genesis 49:10 as a prophecy of a coming Messiah from the tribe of Judah."]
+    },
+    {
+      "reference": "Genesis 49:11",
+      "hebrew_text": "אֹסְרִי לַגֶּפֶן עִירֹה וְלַשֹּׂרֵקָה בְּנִי אֲתֹנוֹ",
+      "targum_text": "yiskechor le'ireh Yisrael leqarteih yashvei qirvin le'arteih",
+      "targum_rendering": "Israel shall surround his city; the peoples shall build his temple; the righteous shall be round about him.",
+      "mt_rendering": "Binding his foal to the vine, and his donkey's colt to the choice vine.",
+      "category": "messianic",
+      "notes": ["Onkelos allegorizes the agricultural imagery of Jacob's blessing to Judah into a vision of the Messiah's kingdom: the city of Israel, the temple, and the gathering of the righteous. The literal vine and donkey become symbols of restoration."]
+    },
+    {
+      "reference": "Genesis 49:18",
+      "hebrew_text": "לִישׁוּעָתְךָ קִוִּיתִי יְהוָה",
+      "targum_text": "lefurqanakh savveit Adonai",
+      "targum_rendering": "For your redemption I wait, O LORD.",
+      "mt_rendering": "For your salvation I wait, O LORD.",
+      "category": "messianic",
+      "notes": ["Onkelos renders yeshu'ah as 'redemption' (furqan), a term with eschatological and Messianic overtones in Aramaic. Placed amid the tribal blessings, it reinforces the Messianic expectation of the passage."]
+    },
+    {
+      "reference": "Genesis 49:24",
+      "hebrew_text": "מִשָּׁם רֹעֶה אֶבֶן יִשְׂרָאֵל",
+      "targum_text": "mitamman parnes taqif deYisrael",
+      "targum_rendering": "From there the strong shepherd of Israel.",
+      "mt_rendering": "From there is the Shepherd, the Stone of Israel.",
+      "category": "messianic",
+      "notes": ["'Stone of Israel' is rendered 'strong one of Israel,' interpreting the metaphor as messianic leadership rather than literal stone imagery."]
+    },
+    {
+      "reference": "Genesis 50:20",
+      "hebrew_text": "וְאַתֶּם חֲשַׁבְתֶּם עָלַי רָעָה אֱלֹהִים חֲשָׁבָהּ לְטֹבָה",
+      "targum_text": "ve'atton chashavton alai bishta min qodam Adonai itchashivat letava",
+      "targum_rendering": "And you intended evil against me, but from before the LORD it was reckoned for good.",
+      "mt_rendering": "As for you, you meant evil against me, but God meant it for good.",
+      "category": "anti-anthropomorphism",
+      "notes": ["The attribution of planning to God is softened: it was not God who 'intended' but rather 'from before the LORD it was reckoned,' using the reverential circumlocution to distance God from the appearance of causing evil."]
+    }
+  ]
+}

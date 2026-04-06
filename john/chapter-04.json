@@ -1,0 +1,595 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "John",
+    "chapter": 4,
+    "source_text": "SBL Greek New Testament (SBLGNT)",
+    "reference_text": "KJV",
+    "generated_at": "2026-04-04T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "John 4 narrates Jesus's encounter with a Samaritan woman at Jacob's well near Sychar. The conversation moves from physical water to 'living water,' from the woman's marital history to the nature of true worship, and culminates in Jesus's self-identification as the Messiah. The woman becomes the first evangelist in John's Gospel, bringing her town to Jesus. The chapter then transitions to a discourse on spiritual harvest with the disciples, and concludes with the healing of a royal official's son in Cana — the second sign in John's narrative.",
+    "remarkable": "This is the longest recorded conversation between Jesus and any individual in the Gospels. Jesus crosses three boundaries that a first-century Jewish teacher would normally observe: ethnic (Jew-Samaritan), gender (man-woman alone), and moral (righteous-sinful). The woman's progressive recognition of Jesus mirrors Nicodemus's failure to understand — she moves from 'a Jew' (v. 9) to 'sir' (v. 11) to 'prophet' (v. 19) to 'the Christ' (v. 29). The Messiah terminology in verse 25 is notable — the Samaritans awaited a Taheb ('restorer'), not a Davidic king, making this conversation cross-cultural at every level.",
+    "friction": "The phrase 'living water' (hydor zon) carries a double meaning — it means 'running water' (as opposed to still cistern water) in ordinary usage, but Jesus uses it to mean the water that gives spiritual life. The woman's marital situation (five husbands and a current partner) has been read allegorically (representing the five foreign gods of 2 Kings 17:24-34) and literally. We render the text without imposing either reading. The worship discussion (vv. 20-24) addresses the Samaritan-Jewish dispute over the proper place of worship — Gerizim versus Jerusalem.",
+    "connections": "Jacob's well connects to the patriarch Jacob (Genesis 33:18-20). The 'living water' theme connects to Jeremiah 2:13 (God as the fountain of living water), Zechariah 14:8, and Ezekiel 47:1-12 (the river from the temple). The harvest imagery (vv. 35-38) connects to Joel 3:13 and Amos 9:13. The healing of the official's son parallels the Synoptic centurion's servant narrative (Matthew 8:5-13, Luke 7:1-10) but is likely a distinct event.\n\n**Tradition comparisons:** JST footnote at John 4:24: 'God is a Spirit' revised to 'God is a spirit' or reframed regarding divine embodiment See the [JST notes](/jst/john)."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_greek": "Ὡς οὖν ἔγνω ὁ Ἰησοῦς ὅτι ἤκουσαν οἱ Φαρισαῖοι ὅτι Ἰησοῦς πλείονας μαθητὰς ποιεῖ καὶ βαπτίζει ἢ Ἰωάννης —",
+      "text_kjv": "When therefore the Lord knew how the Pharisees had heard that Jesus made and baptized more disciples than John,",
+      "rendering": "Now when Jesus learned that the Pharisees had heard he was making and baptizing more disciples than John —",
+      "translator_notes": [
+        "The SBLGNT reads 'Jesus' (Iesous) rather than 'the Lord' (ho kyrios) found in some manuscripts. The Pharisees' attention to Jesus's growing movement creates the narrative motivation for his withdrawal northward through Samaria. The comparison with John frames the situation as a potential political complication."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 2,
+      "text_greek": "καίτοιγε Ἰησοῦς αὐτὸς οὐκ ἐβάπτιζεν ἀλλ' οἱ μαθηταὶ αὐτοῦ —",
+      "text_kjv": "(Though Jesus himself baptized not, but his disciples,)",
+      "rendering": "(Though Jesus himself baptized not, but his followers,).",
+      "translator_notes": [
+        "This parenthetical correction qualifies 3:22 and 4:1. The narrator clarifies that Jesus directed the baptizing ministry but did not personally perform the rite. The distinction may reflect a theological concern about the relative authority of baptisms, or simply a factual correction."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 3,
+      "text_greek": "ἀφῆκεν τὴν Ἰουδαίαν καὶ ἀπῆλθεν πάλιν εἰς τὴν Γαλιλαίαν.",
+      "text_kjv": "He left Judaea, and departed again into Galilee.",
+      "rendering": "He departed Judaea, and departed again into Galilee.",
+      "translator_notes": [
+        "Jesus withdraws from Judea to avoid premature confrontation with the Pharisees — his 'hour' has not yet come (cf. 2:4, 7:6, 7:30). The verb apheken ('left, departed from') suggests a deliberate decision, not flight."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 4,
+      "text_greek": "ἔδει δὲ αὐτὸν διέρχεσθαι διὰ τῆς Σαμαρείας.",
+      "text_kjv": "And he must needs go through Samaria.",
+      "rendering": "Now he had to pass through Samaria.",
+      "translator_notes": [
+        "The verb edei ('it was necessary') suggests more than geographical necessity — many Jews deliberately avoided Samaria by taking a longer route through Perea east of the Jordan. The 'necessity' may be divine — Jesus must pass through Samaria because there is a woman at a well whom the Father intends him to meet. The word carries the same divine compulsion as in 3:7, 3:14, 3:30."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 5,
+      "text_greek": "ἔρχεται οὖν εἰς πόλιν τῆς Σαμαρείας λεγομένην Συχὰρ πλησίον τοῦ χωρίου ὃ ἔδωκεν Ἰακὼβ τῷ Ἰωσὴφ τῷ υἱῷ αὐτοῦ·",
+      "text_kjv": "Then cometh he to a city of Samaria, which is called Sychar, near to the parcel of ground that Jacob gave to his son Joseph:",
+      "rendering": "So he came to a Samaritan town called Sychar, near the plot of land that Jacob had given to his son Joseph.",
+      "translator_notes": [
+        "Sychar is likely modern Askar, near ancient Shechem. The reference to Jacob's gift of land to Joseph connects to Genesis 33:19 and 48:22, and Joshua 24:32, where Joseph's bones were buried. The detail grounds the narrative in patriarchal history and establishes why this well is called 'Jacob's well' in the next verse.",
+        "[TCR Cross-Reference] This verse quotes Genesis 33:19 — see the TCR rendering of that passage for the Hebrew source text and translation decisions.",
+        "[TCR Cross-Reference] This verse quotes Joshua 24:32 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 6,
+      "text_greek": "ἦν δὲ ἐκεῖ πηγὴ τοῦ Ἰακώβ. ὁ οὖν Ἰησοῦς κεκοπιακὼς ἐκ τῆς ὁδοιπορίας ἐκαθέζετο οὕτως ἐπὶ τῇ πηγῇ· ὥρα ἦν ὡς ἕκτη.",
+      "text_kjv": "Now Jacob's well was there. Jesus therefore, being wearied with his journey, sat thus on the well: and it was about the sixth hour.",
+      "rendering": "Jacob's well was there, and Jesus, tired from the journey, sat down beside the well. It was about noon.",
+      "translator_notes": [
+        "The word pege ('spring, well, fountain') suggests a natural spring-fed well, though the site today is a deep cistern. The detail that Jesus was kekopiakos ('weary, exhausted') from the journey is a vivid human touch — the Word who became flesh (1:14) experiences genuine physical fatigue. The 'sixth hour' is noon by either Jewish or Roman reckoning, the hottest part of the day — an unusual time for a woman to come to draw water, suggesting she may have been avoiding the other women of the town."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 7,
+      "text_greek": "ἔρχεται γυνὴ ἐκ τῆς Σαμαρείας ἀντλῆσαι ὕδωρ. λέγει αὐτῇ ὁ Ἰησοῦς· δός μοι πεῖν.",
+      "text_kjv": "There cometh a woman of Samaria to draw water: Jesus saith unto her, Give me to drink.",
+      "rendering": "A Samaritan woman came to draw water. Jesus said to her, \"Give me a drink.\"",
+      "translator_notes": [
+        "Jesus initiates the conversation — a striking social reversal. A Jewish rabbi would not normally address an unknown woman in public, much less a Samaritan woman. The request 'Give me a drink' (dos moi pein) places Jesus in a position of need, creating an opening for dialogue. The verb antlesai ('to draw') is the same used at the Cana wedding (2:8), creating a subtle verbal link between the two water-related narratives."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 8,
+      "text_greek": "οἱ γὰρ μαθηταὶ αὐτοῦ ἀπεληλύθεισαν εἰς τὴν πόλιν ἵνα τροφὰς ἀγοράσωσιν.",
+      "text_kjv": "For his disciples were gone away unto the city to buy meat.",
+      "rendering": "For his disciples had gone into the town to buy food.",
+      "translator_notes": [
+        "The narrator explains why Jesus is alone — the disciples are away buying provisions. The detail that they purchase food in a Samaritan town implies a less rigid attitude toward Samaritan uncleanness than some Pharisaic standards would permit. The absence of the disciples allows the private conversation that follows."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 9,
+      "text_greek": "λέγει οὖν αὐτῷ ἡ γυνὴ ἡ Σαμαρῖτις· πῶς σὺ Ἰουδαῖος ὢν παρ' ἐμοῦ πεῖν αἰτεῖς γυναικὸς Σαμαρίτιδος οὔσης; οὐ γὰρ συγχρῶνται Ἰουδαῖοι Σαμαρίταις.",
+      "text_kjv": "Then saith the woman of Samaria unto him, How is it that thou, being a Jew, askest drink of me, which am a woman of Samaria? for the Jews have no dealings with the Samaritans.",
+      "rendering": "The Samaritan woman said to him, \"How is it that you, a Jew, ask for a drink from me, a Samaritan woman?\" (For Jews do not share vessels with Samaritans.)",
+      "translator_notes": [
+        "The woman immediately identifies the social boundary Jesus has crossed. The parenthetical explanation ou gar sunchrōntai Ioudaioi Samaritais has been debated — synchromai may mean 'use together with' (share utensils) rather than 'have dealings with.' The issue is ritual purity: drinking from a Samaritan's vessel would render a Jew ceremonially unclean. The hostility between Jews and Samaritans dated to the Assyrian resettlement (2 Kings 17) and the destruction of the Samaritan temple on Mount Gerizim in 128 BC.",
+        "[TCR Cross-Reference] Echoes 2 Kings 17. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 10,
+      "text_greek": "ἀπεκρίθη Ἰησοῦς καὶ εἶπεν αὐτῇ· εἰ ᾔδεις τὴν δωρεὰν τοῦ θεοῦ καὶ τίς ἐστιν ὁ λέγων σοι· δός μοι πεῖν, σὺ ἂν ᾔτησας αὐτὸν καὶ ἔδωκεν ἄν σοι ὕδωρ ζῶν.",
+      "text_kjv": "Jesus answered and said unto her, If thou knewest the gift of God, and who it is that saith to thee, Give me to drink; thou wouldest have asked of him, and he would have given thee living water.",
+      "rendering": "Jesus answered her, \"If you knew the gift of God, and who it is that is saying to you, 'Give me a drink,' you would have asked him, and he would have given you living water.\"",
+      "translator_notes": [
+        "Jesus reverses the dynamic — the one asking for water is actually the one who has water to give. The phrase dorean tou theou ('gift of God') is deliberately ambiguous: it could refer to the living water itself, to the Holy Spirit (cf. Acts 2:38), or to Jesus himself. The term hydor zon ('living water') means 'running/flowing water' in ordinary usage (as opposed to stagnant cistern water) but carries a deeper meaning that Jesus will develop. The conditional construction (if you knew... you would have asked) implies the woman does not yet know, but could."
+      ],
+      "key_terms": [
+        {
+          "greek": "ὕδωρ ζῶν",
+          "transliteration": "hydor zon",
+          "rendered_as": "living water",
+          "semantic_range": "flowing water, spring water, running water; metaphorically: life-giving water, water of eternal life",
+          "note": "In ordinary Greek, 'living water' means fresh, flowing water from a spring (as opposed to stagnant water). Jesus transforms the common term into a metaphor for the Spirit's life-giving work (cf. 7:37-39). The Old Testament background includes Jeremiah 2:13, where God calls himself 'the fountain of living water,' and Ezekiel 47:1-12, where life-giving water flows from the temple."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 11,
+      "text_greek": "λέγει αὐτῷ ἡ γυνή· κύριε, οὔτε ἄντλημα ἔχεις καὶ τὸ φρέαρ ἐστὶν βαθύ· πόθεν οὖν ἔχεις τὸ ὕδωρ τὸ ζῶν;",
+      "text_kjv": "The woman saith unto him, Sir, thou hast nothing to draw with, and the well is deep: from whence then hast thou that living water?",
+      "rendering": "The woman said to him, \"Sir, you have no bucket and the well is deep. Where then do you get this living water?",
+      "translator_notes": [
+        "The woman hears 'living water' at the physical level — running water from a deep well requires equipment. Her address kyrie ('sir, lord') marks a step up from 'Jew' (v. 9) but remains at the level of polite address. The question pothen ('from where') is one of John's theological keywords — the question of Jesus's origin runs through the Gospel (cf. 2:9, 7:27-28, 8:14, 9:29-30, 19:9)."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 12,
+      "text_greek": "μὴ σὺ μείζων εἶ τοῦ πατρὸς ἡμῶν Ἰακώβ, ὃς ἔδωκεν ἡμῖν τὸ φρέαρ καὶ αὐτὸς ἐξ αὐτοῦ ἔπιεν καὶ οἱ υἱοὶ αὐτοῦ καὶ τὰ θρέμματα αὐτοῦ;",
+      "text_kjv": "Art thou greater than our father Jacob, which gave us the well, and drank thereof himself, and his children, and his cattle?",
+      "rendering": "You are not greater than our father Jacob, are you? He gave us this well and drank from it himself, as did his sons and his livestock.\"",
+      "translator_notes": [
+        "The Greek particle me introduces a question expecting a negative answer: 'You're not greater than Jacob, are you?' The irony is that the reader knows Jesus is indeed greater than Jacob. The woman claims Jacob as 'our father' — the Samaritans traced their lineage to the northern tribes and regarded the patriarchs as their ancestors. The mention of Jacob drinking from the well authenticates it by ancestral use."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 13,
+      "text_greek": "ἀπεκρίθη Ἰησοῦς καὶ εἶπεν αὐτῇ· πᾶς ὁ πίνων ἐκ τοῦ ὕδατος τούτου διψήσει πάλιν·",
+      "text_kjv": "Jesus answered and said unto her, Whosoever drinketh of this water shall thirst again:",
+      "rendering": "Jesus answered her, \"Everyone who drinks from this water will be thirsty again,",
+      "translator_notes": [
+        "Jesus now contrasts the water from Jacob's well — which satisfies temporarily — with the living water he offers. The future tense dipsesei ('will thirst') states an inevitable limitation: physical water cannot permanently satisfy. The 'this water' (tou hydatos toutou) refers specifically to the well water, creating a bridge to the contrast in the next verse."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 14,
+      "text_greek": "ὃς δ' ἂν πίῃ ἐκ τοῦ ὕδατος οὗ ἐγὼ δώσω αὐτῷ, οὐ μὴ διψήσει εἰς τὸν αἰῶνα, ἀλλὰ τὸ ὕδωρ ὃ δώσω αὐτῷ γενήσεται ἐν αὐτῷ πηγὴ ὕδατος ἁλλομένου εἰς ζωὴν αἰώνιον.",
+      "text_kjv": "But whosoever drinketh of the water that I shall give him shall never thirst; but the water that I shall give him shall be in him a well of water springing up into everlasting life.",
+      "rendering": "However, whosoever drinketh of the water that I will give him will never thirst. But the water that I will give him will be in him a well of water springing up into everlasting life.",
+      "translator_notes": [
+        "The double negative ou me dipsesei ('will never, ever be thirsty') is the strongest possible negation in Greek. The water Jesus gives does not merely satisfy — it transforms the recipient into a source: it becomes 'a spring' (pege) within them. The verb hallomenou ('springing up, leaping, bubbling') conveys dynamic, self-renewing energy. The destination is 'eternal life' (zoen aionion), the quality of divine life that is John's central theme. The image anticipates 7:37-39, where Jesus explicitly connects living water to the Holy Spirit."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 15,
+      "text_greek": "λέγει πρὸς αὐτὸν ἡ γυνή· κύριε, δός μοι τοῦτο τὸ ὕδωρ, ἵνα μὴ διψῶ μηδὲ διέρχωμαι ἐνθάδε ἀντλεῖν.",
+      "text_kjv": "The woman saith unto him, Sir, give me this water, that I thirst not, neither come hither to draw.",
+      "rendering": "The woman said to him, \"Sir, give me this water so that I will not be thirsty and will not have to keep coming here to draw water.\"",
+      "translator_notes": [
+        "Like Nicodemus (3:4), the woman remains at the literal level — she wants water that eliminates the daily chore of coming to the well. Yet her request 'give me this water' (dos moi touto to hydor) echoes the language of genuine petition. John's irony operates on multiple levels: the woman asks for more than she understands, and what she is about to receive will far exceed what she requested."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 16,
+      "text_greek": "λέγει αὐτῇ· ὕπαγε φώνησον τὸν ἄνδρα σου καὶ ἐλθὲ ἐνθάδε.",
+      "text_kjv": "Jesus saith unto her, Go, call thy husband, and come hither.",
+      "rendering": "He said to her, \"Go, call your husband, and come back here.\"",
+      "translator_notes": [
+        "The abrupt shift in topic is a deliberate pastoral strategy — Jesus moves from theological discussion to personal reality. The request to bring her husband will expose the woman's life situation and demonstrate Jesus's supernatural knowledge, paralleling the Nathanael encounter (1:47-48). The verb phoneson ('call, summon') indicates Jesus intends the husband to be present for what follows."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 17,
+      "text_greek": "ἀπεκρίθη ἡ γυνὴ καὶ εἶπεν αὐτῷ· οὐκ ἔχω ἄνδρα. λέγει αὐτῇ ὁ Ἰησοῦς· καλῶς εἶπας ὅτι ἄνδρα οὐκ ἔχω·",
+      "text_kjv": "The woman answered and said, I have no husband. Jesus said unto her, Thou hast well said, I have no husband:",
+      "rendering": "The woman answered, \"I have no husband.\" Jesus said to her, \"You are right to say, 'I have no husband,'",
+      "translator_notes": [
+        "The woman's reply is technically true but evasive — she has no husband, but the full story is more complex. Jesus affirms her statement with kalos eipas ('you have spoken well/correctly') before revealing the deeper truth. The affirmation before the exposure demonstrates pastoral sensitivity."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 18,
+      "text_greek": "πέντε γὰρ ἄνδρας ἔσχες καὶ νῦν ὃν ἔχεις οὐκ ἔστιν σου ἀνήρ· τοῦτο ἀληθὲς εἴρηκας.",
+      "text_kjv": "For thou hast had five husbands; and he whom thou now hast is not thy husband: in that saidst thou truly.",
+      "rendering": "For you have had five husbands. Then he whom you now hast is not your husband — in that saidst you truly.",
+      "translator_notes": [
+        "Jesus reveals knowledge he could not have obtained naturally, demonstrating the same supernatural perception shown with Nathanael (1:47-48) and anticipated in 2:25. The five previous marriages could reflect widowhood, divorce, or a combination — the text does not moralize or explain. The current relationship is distinguished from marriage ('is not your husband'). Some scholars read the five husbands allegorically as the five foreign nations settled in Samaria (2 Kings 17:24), but the narrative functions powerfully at the literal level.",
+        "[TCR Cross-Reference] References 2 Kings 17:24 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 19,
+      "text_greek": "λέγει αὐτῷ ἡ γυνή· κύριε, θεωρῶ ὅτι προφήτης εἶ σύ.",
+      "text_kjv": "The woman saith unto him, Sir, I perceive that thou art a prophet.",
+      "rendering": "The woman said to him, \"Sir, I can see that you are a prophet.",
+      "translator_notes": [
+        "The woman's identification of Jesus advances from 'Jew' (v. 9) to 'sir' (v. 11) to 'prophet' (v. 19). Her recognition is based on Jesus's supernatural knowledge of her personal history. The Samaritans expected a prophetic figure — the Taheb ('restorer') modeled on Moses (Deuteronomy 18:15-18). Calling Jesus a prophet places him within this expectation.",
+        "[TCR Cross-Reference] Echoes Deuteronomy 18:15-18. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 20,
+      "text_greek": "οἱ πατέρες ἡμῶν ἐν τῷ ὄρει τούτῳ προσεκύνησαν· καὶ ὑμεῖς λέγετε ὅτι ἐν Ἱεροσολύμοις ἐστὶν ὁ τόπος ὅπου προσκυνεῖν δεῖ.",
+      "text_kjv": "Our fathers worshipped in this mountain; and ye say, that in Jerusalem is the place where men ought to worship.",
+      "rendering": "Our fathers worshiped on this mountain, but you say that Jerusalem is the place where people must worship.\"",
+      "translator_notes": [
+        "'This mountain' is Mount Gerizim, visible from Jacob's well, where the Samaritans had built their temple (destroyed by John Hyrcanus in 128 BC but still sacred). The Samaritan-Jewish dispute over the proper location of worship was one of the deepest divisions between the two communities. The woman may be testing the prophet with the central theological question of her tradition, or she may be deflecting from the personal topic Jesus has raised."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 21,
+      "text_greek": "λέγει αὐτῇ ὁ Ἰησοῦς· πίστευέ μοι, γύναι, ὅτι ἔρχεται ὥρα ὅτε οὔτε ἐν τῷ ὄρει τούτῳ οὔτε ἐν Ἱεροσολύμοις προσκυνήσετε τῷ πατρί.",
+      "text_kjv": "Jesus saith unto her, Woman, believe me, the hour cometh, when ye shall neither in this mountain, nor yet at Jerusalem, worship the Father.",
+      "rendering": "Jesus said to her, \"Believe me, woman, the hour is coming when you will worship the Father neither on this mountain nor in Jerusalem.",
+      "translator_notes": [
+        "Jesus transcends the either/or framework of the woman's question. The coming 'hour' (hora) connects to the theological hour motif that runs through the Gospel (2:4, 7:30, 12:23) — the death and resurrection of Jesus will render both worship locations obsolete. The address 'woman' (gynai) is respectful, as in 2:4. The reference to 'the Father' (to patri) introduces a new dimension — worship is relational, directed to a Father, not merely performed at a location."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 22,
+      "text_greek": "ὑμεῖς προσκυνεῖτε ὃ οὐκ οἴδατε· ἡμεῖς προσκυνοῦμεν ὃ οἴδαμεν, ὅτι ἡ σωτηρία ἐκ τῶν Ἰουδαίων ἐστίν.",
+      "text_kjv": "Ye worship ye know not what: we know what we worship: for salvation is of the Jews.",
+      "rendering": "You worship what you do not know; we worship what we know, because salvation is from the Jews.",
+      "translator_notes": [
+        "Jesus does not treat both traditions as equally valid — while transcending the location debate, he affirms the Jewish tradition's superiority in theological knowledge. The Samaritans accepted only the Torah (the five books of Moses) and rejected the Prophets and Writings, limiting their understanding of God. 'Salvation is from the Jews' (he soteria ek ton Ioudaion estin) is a remarkable statement given the Gospel's frequent criticism of 'the Jews' (religious leaders). Jesus identifies himself with Israel's heritage even as he transcends it."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 23,
+      "text_greek": "ἀλλ' ἔρχεται ὥρα καὶ νῦν ἐστιν, ὅτε οἱ ἀληθινοὶ προσκυνηταὶ προσκυνήσουσιν τῷ πατρὶ ἐν πνεύματι καὶ ἀληθείᾳ· καὶ γὰρ ὁ πατὴρ τοιούτους ζητεῖ τοὺς προσκυνοῦντας αὐτόν.",
+      "text_kjv": "But the hour cometh, and now is, when the true worshippers shall worship the Father in spirit and in truth: for the Father seeketh such to worship him.",
+      "rendering": "But the hour is coming, and is now here, when the true worshipers will worship the Father in spirit and truth, for the Father is seeking such people to worship him.",
+      "translator_notes": [
+        "The phrase 'is coming and is now here' (erchetai hora kai nyn estin) collapses future and present — the new age of worship is both imminent and already inaugurated in Jesus's ministry. 'In spirit and truth' (en pneumati kai aletheia) does not mean 'sincerely' or 'from the heart' in a vague sense — pneuma likely refers to the Holy Spirit, and aletheia to the truth revealed in Jesus (14:6). True worship is Spirit-empowered and Christ-centered. The astonishing statement that 'the Father is seeking' (ho pater zetei) such worshipers portrays God as the active pursuer, not merely the recipient of worship."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 24,
+      "text_greek": "πνεῦμα ὁ θεός, καὶ τοὺς προσκυνοῦντας αὐτὸν ἐν πνεύματι καὶ ἀληθείᾳ δεῖ προσκυνεῖν.",
+      "text_kjv": "God is a Spirit: and they that worship him must worship him in spirit and in truth.",
+      "rendering": "God is spirit, and those who worship him must worship in spirit and truth.\"",
+      "translator_notes": [
+        "The statement pneuma ho theos ('God is spirit') is not a philosophical definition of God's essence but a statement about the nature of genuine encounter with God. Because God is spirit (not confined to physical locations), worship must be correspondingly spiritual — empowered by the Spirit, oriented toward truth. The verb dei ('must') expresses divine necessity: this is not one option among many but the only authentic mode of worship."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 25,
+      "text_greek": "λέγει αὐτῷ ἡ γυνή· οἶδα ὅτι Μεσσίας ἔρχεται ὁ λεγόμενος χριστός· ὅταν ἔλθῃ ἐκεῖνος, ἀναγγελεῖ ἡμῖν ἅπαντα.",
+      "text_kjv": "The woman saith unto him, I know that Messias cometh, which is called Christ: when he is come, he will tell us all things.",
+      "rendering": "The woman said to him, \"I know that the Messiah is coming\" (the one called Christ). \"When he comes, he will explain everything to us.\"",
+      "translator_notes": [
+        "This is the second of only two uses of the Aramaic 'Messiah' in the New Testament (cf. 1:41). The Samaritan expectation was for the Taheb ('restorer'), a prophet-like-Moses who would restore true worship and reveal all things. The woman's statement 'he will explain everything to us' (anangelei hemin hapanta) reflects this expectation of a revealer figure. John translates 'Messiah' as Christos for his Greek audience."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 26,
+      "text_greek": "λέγει αὐτῇ ὁ Ἰησοῦς· ἐγώ εἰμι, ὁ λαλῶν σοι.",
+      "text_kjv": "Jesus saith unto her, I that speak unto thee am he.",
+      "rendering": "Jesus said to her, \"I am he — the one speaking to you.\"",
+      "translator_notes": [
+        "The Greek ego eimi ('I am') is the first explicit 'I am' statement in the Gospel. On the surface, it means 'I am [the Messiah]' — a direct answer to the woman's expectation. But ego eimi also echoes the divine name revealed to Moses (Exodus 3:14, 'I AM WHO I AM') and will become Jesus's most characteristic self-identification in John (6:20, 8:24, 8:28, 8:58, 13:19, 18:5-6). This is the most explicit messianic self-declaration in any Gospel conversation — and it is given not to a Jewish leader but to a Samaritan woman.",
+        "[TCR Cross-Reference] Quotes Exodus 3:14. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it."
+      ],
+      "key_terms": [
+        {
+          "greek": "ἐγώ εἰμι",
+          "transliteration": "ego eimi",
+          "rendered_as": "I am he",
+          "semantic_range": "I am, I am he, I exist, it is I",
+          "note": "The phrase operates on two levels throughout John's Gospel: as a simple identification ('I am [the one you're looking for]') and as an echo of the divine name ('I AM'). Here the messianic identification is primary, but the deeper resonance is present for readers who have encountered the Prologue's theology of the divine Word."
+        }
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 27,
+      "text_greek": "Καὶ ἐπὶ τούτῳ ἦλθαν οἱ μαθηταὶ αὐτοῦ καὶ ἐθαύμαζον ὅτι μετὰ γυναικὸς ἐλάλει· οὐδεὶς μέντοι εἶπεν· τί ζητεῖς; ἤ· τί λαλεῖς μετ' αὐτῆς;",
+      "text_kjv": "And upon this came his disciples, and marvelled that he talked with the woman: yet no man said, What seekest thou? or, Why talkest thou with her?",
+      "rendering": "Just then his disciples returned. They were astonished that he was speaking with a woman, but no one said, \"What are you looking for?\" or \"Why are you speaking with her?\"",
+      "translator_notes": [
+        "The disciples' astonishment (ethaumazon) is at the gender boundary being crossed — rabbinic teaching discouraged extended conversation with women (Pirke Avot 1:5: 'Do not talk much with a woman'). The fact that she is also Samaritan compounds the surprise. Their silence — not asking 'what do you want?' or 'why are you talking to her?' — suggests a combination of respect and bewilderment."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 28,
+      "text_greek": "ἀφῆκεν οὖν τὴν ὑδρίαν αὐτῆς ἡ γυνὴ καὶ ἀπῆλθεν εἰς τὴν πόλιν καὶ λέγει τοῖς ἀνθρώποις·",
+      "text_kjv": "The woman then left her waterpot, and went her way into the city, and saith to the men of the city,",
+      "rendering": "So the woman left her water jar and went back into the town and said to the people,",
+      "translator_notes": [
+        "The detail that she 'left her water jar' (apheken ten hydrian) is vivid and significant — the original errand is forgotten in the urgency of her discovery. She came for physical water and leaves without it, having found something greater. The abandoned jar also ensures she will return (and perhaps serves as a pledge to Jesus that she will come back). She goes to tois anthropois ('the people'), not just the men — she evangelizes the entire town."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 29,
+      "text_greek": "δεῦτε ἴδετε ἄνθρωπον ὃς εἶπέν μοι πάντα ὅσα ἐποίησα· μήτι οὗτός ἐστιν ὁ χριστός;",
+      "text_kjv": "Come, see a man, which told me all things that ever I did: is not this the Christ?",
+      "rendering": "\"Come, see a man who told me everything I have ever done! Could this be the Christ?\"",
+      "translator_notes": [
+        "Her invitation 'Come, see' (deute idete) echoes the invitation chain of chapter 1 (1:39, 1:46). The hyperbolic 'everything I have ever done' (panta hosa epoiesa) reflects the overwhelming impression of Jesus's supernatural knowledge. The question meti houtos estin ho christos ('Could this be the Christ?') uses the particle meti, which expects an uncertain or negative answer — she frames her testimony as a question, inviting investigation rather than demanding belief. This is remarkably effective evangelism."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 30,
+      "text_greek": "ἐξῆλθον ἐκ τῆς πόλεως καὶ ἤρχοντο πρὸς αὐτόν.",
+      "text_kjv": "Then they went out of the city, and came unto him.",
+      "rendering": "They left the town and were coming to him.",
+      "translator_notes": [
+        "The imperfect erchonto ('were coming') describes the townspeople in process — they are on their way, creating a narrative pause during which Jesus will speak to his disciples about the harvest (vv. 31-38). The woman's testimony has set an entire town in motion toward Jesus."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 31,
+      "text_greek": "Ἐν τῷ μεταξὺ ἠρώτων αὐτὸν οἱ μαθηταὶ λέγοντες· ῥαββί, φάγε.",
+      "text_kjv": "In the mean while his disciples prayed him, saying, Master, eat.",
+      "rendering": "Meanwhile the disciples were urging him, \"Rabbi, eat something.\"",
+      "translator_notes": [
+        "The imperfect eroton ('were urging, kept asking') suggests repeated requests. The disciples have returned with the food they purchased (v. 8) and are concerned about Jesus's physical needs. The conversation about food that follows will parallel the water conversation with the Samaritan woman — physical need becomes a springboard for spiritual teaching."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 32,
+      "text_greek": "ὁ δὲ εἶπεν αὐτοῖς· ἐγὼ βρῶσιν ἔχω φαγεῖν ἣν ὑμεῖς οὐκ οἴδατε.",
+      "text_kjv": "But he said unto them, I have meat to eat that ye know not of.",
+      "rendering": "But he said to them, \"I have food to eat that you do not know about.\"",
+      "translator_notes": [
+        "As with the woman and water, Jesus transforms a physical topic (food) into a spiritual teaching. The word brosin ('food, nourishment') will be defined in verse 34. The disciples' ignorance ('that you do not know about') parallels the woman's incomprehension about living water."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 33,
+      "text_greek": "ἔλεγον οὖν οἱ μαθηταὶ πρὸς ἀλλήλους· μή τις ἤνεγκεν αὐτῷ φαγεῖν;",
+      "text_kjv": "Therefore said the disciples one to another, Hath any man brought him ought to eat?",
+      "rendering": "So the disciples said to one another, \"No one brought him anything to eat, did they?\"",
+      "translator_notes": [
+        "Like Nicodemus (3:4) and the Samaritan woman (4:11, 15), the disciples misunderstand by taking Jesus's words at the literal, physical level. The particle me expects a negative answer — they are fairly sure no one brought food but are puzzled. This triple pattern of misunderstanding reinforces John's theme that spiritual truth requires more than natural comprehension."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 34,
+      "text_greek": "λέγει αὐτοῖς ὁ Ἰησοῦς· ἐμὸν βρῶμά ἐστιν ἵνα ποιήσω τὸ θέλημα τοῦ πέμψαντός με καὶ τελειώσω αὐτοῦ τὸ ἔργον.",
+      "text_kjv": "Jesus saith unto them, My meat is to do the will of him that sent me, and to finish his work.",
+      "rendering": "Jesus said to them, \"My food is to do the will of the one who sent me and to complete his work.",
+      "translator_notes": [
+        "Jesus defines his 'food' as obedience to the Father's mission. The verb teleioso ('to complete, to bring to perfection') anticipates Jesus's dying word tetelestai ('it is finished,' 19:30). The phrase 'the one who sent me' (tou pempsantos me) is a characteristic Johannine description of the Father, emphasizing Jesus's role as the authorized emissary. Doing God's will is not merely a duty but sustenance — it nourishes Jesus in the way food sustains the body."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 35,
+      "text_greek": "οὐχ ὑμεῖς λέγετε ὅτι ἔτι τετράμηνός ἐστιν καὶ ὁ θερισμὸς ἔρχεται; ἰδοὺ λέγω ὑμῖν, ἐπάρατε τοὺς ὀφθαλμοὺς ὑμῶν καὶ θεάσασθε τὰς χώρας ὅτι λευκαί εἰσιν πρὸς θερισμόν.",
+      "text_kjv": "Say not ye, There are yet four months, and then cometh harvest? behold, I say unto you, Lift up your eyes, and look on the fields; for they are white already to harvest.",
+      "rendering": "Do you not say, 'There are still four months and then comes the harvest'? Look, I tell you, lift up your eyes and see the fields — they are already white for harvest.",
+      "translator_notes": [
+        "The 'four months until harvest' may be a common proverb or a literal time marker (placing this scene in December/January, four months before the April/May barley harvest). Jesus contrasts agricultural patience with spiritual urgency — the spiritual harvest is ready now. 'Lift up your eyes and see' may gesture toward the Samaritans walking toward them from the town (v. 30). The 'white fields' could refer to the white garments of approaching Samaritans or is simply harvest imagery."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 36,
+      "text_greek": "ἤδη ὁ θερίζων μισθὸν λαμβάνει καὶ συνάγει καρπὸν εἰς ζωὴν αἰώνιον, ἵνα ὁ σπείρων ὁμοῦ χαίρῃ καὶ ὁ θερίζων.",
+      "text_kjv": "And he that reapeth receiveth wages, and gathereth fruit unto life eternal: that both he that soweth and he that reapeth may rejoice together.",
+      "rendering": "Already the reaper is receiving wages and gathering fruit for eternal life, so that the sower and the reaper may rejoice together.",
+      "translator_notes": [
+        "In normal agriculture, sowing and reaping are separated by months; in the spiritual harvest, they overlap. The 'fruit' (karpon) gathered is people brought to faith — the harvest goal is 'eternal life' (zoen aionion). The shared rejoicing of sower and reaper transcends the proverb of verse 37, where they are separate. This may envision Old Testament prophets (sowers) and Jesus/his disciples (reapers) celebrating together."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 37,
+      "text_greek": "ἐν γὰρ τούτῳ ὁ λόγος ἐστὶν ἀληθινὸς ὅτι ἄλλος ἐστὶν ὁ σπείρων καὶ ἄλλος ὁ θερίζων.",
+      "text_kjv": "And herein is that saying true, One soweth, and another reapeth.",
+      "rendering": "For in this case the saying is true: 'One sows and another reaps.'",
+      "translator_notes": [
+        "Jesus quotes what appears to be a common proverb, usually carrying a negative sense (one person labors and another benefits). Jesus reframes it positively: the division of labor in God's harvest is by design, not injustice. The sower's work is essential to the reaper's harvest."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 38,
+      "text_greek": "ἐγὼ ἀπέστειλα ὑμᾶς θερίζειν ὃ οὐχ ὑμεῖς κεκοπιάκατε· ἄλλοι κεκοπιάκασιν καὶ ὑμεῖς εἰς τὸν κόπον αὐτῶν εἰσεληλύθατε.",
+      "text_kjv": "I sent you to reap that whereon ye bestowed no labour: other men laboured, and ye are entered into their labours.",
+      "rendering": "I sent you to reap what you did not labor for. Others have labored, and you have entered into their labor.\"",
+      "translator_notes": [
+        "Jesus explicitly assigns the disciples the role of reapers. The 'others' (alloi) who labored before them likely include the Old Testament prophets, John the Baptist, and possibly Jesus himself. The verb kekopiakate ('have labored') uses the same root as the word describing Jesus's weariness at the well (v. 6, kekopiakos) — there is real toil in sowing, and the reapers inherit its fruit."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 39,
+      "text_greek": "Ἐκ δὲ τῆς πόλεως ἐκείνης πολλοὶ ἐπίστευσαν εἰς αὐτὸν τῶν Σαμαριτῶν διὰ τὸν λόγον τῆς γυναικὸς μαρτυρούσης ὅτι εἶπέν μοι πάντα ἃ ἐποίησα.",
+      "text_kjv": "And many of the Samaritans of that city believed on him for the saying of the woman, which testified, He told me all that ever I did.",
+      "rendering": "Many Samaritans from that town believed in him because of the woman's testimony: \"He told me everything I have ever done.\"",
+      "translator_notes": [
+        "The woman's testimony (martyrouses, from martyreo) uses the same vocabulary applied to John the Baptist's witness (1:7, 15, 32, 34). A Samaritan woman becomes a credible witness whose word leads to faith — a remarkable statement in a culture where women's testimony was often discounted. Her simple report of personal experience ('He told me everything') proves more effective than theological argument."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 40,
+      "text_greek": "ὡς οὖν ἦλθον πρὸς αὐτὸν οἱ Σαμαρῖται, ἠρώτων αὐτὸν μεῖναι παρ' αὐτοῖς· καὶ ἔμεινεν ἐκεῖ δύο ἡμέρας.",
+      "text_kjv": "So when the Samaritans were come unto him, they besought him that he would tarry with them: and he abode there two days.",
+      "rendering": "So when the Samaritans came to him, they asked him to stay with them, and he stayed there two days.",
+      "translator_notes": [
+        "The Samaritans' invitation to 'stay' (meinai) and Jesus's response of 'staying' (emeinen) use the theologically loaded Johannine verb meno ('abide, remain'). A Jewish teacher staying in a Samaritan town for two days would have been scandalous to many. The hospitality extended and accepted across ethnic lines anticipates the Gospel's universal scope."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 41,
+      "text_greek": "καὶ πολλῷ πλείους ἐπίστευσαν διὰ τὸν λόγον αὐτοῦ,",
+      "text_kjv": "And many more believed because of his own word;",
+      "rendering": "Numerous more believed because of his own word;.",
+      "translator_notes": [
+        "The progression is from believing through the woman's testimony (v. 39) to believing through Jesus's own word (ton logon autou). The growth from 'many' to 'many more' shows the expanding impact of direct encounter with Jesus. John presents a model of evangelism: personal testimony brings people to Jesus, and Jesus's own word deepens and confirms their faith."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 42,
+      "text_greek": "τῇ τε γυναικὶ ἔλεγον ὅτι οὐκέτι διὰ τὴν σὴν λαλιὰν πιστεύομεν· αὐτοὶ γὰρ ἀκηκόαμεν καὶ οἴδαμεν ὅτι οὗτός ἐστιν ἀληθῶς ὁ σωτὴρ τοῦ κόσμου.",
+      "text_kjv": "And said unto the woman, Now we believe, not because of thy saying: for we have heard him ourselves, and know that this is indeed the Christ, the Saviour of the world.",
+      "rendering": "Stated to the woman, Now we trust, not because of your declaring — since we have listened to him ourselves, and know that this is indeed the Christ, the Saviour of the world.",
+      "translator_notes": [
+        "The title 'Savior of the world' (ho soter tou kosmou) is the climactic confession of the chapter. Remarkably, it comes from Samaritans — not from Jewish disciples or leaders. 'Savior' (soter) was used for God in the Old Testament (Isaiah 43:3, 11) and for emperors in Greco-Roman culture. The Samaritans claim Jesus for the whole world (tou kosmou), not just for Israel or Samaria. The SBLGNT does not include 'the Christ' (ho Christos), which appears in some manuscripts.",
+        "[TCR Cross-Reference] Draws on Isaiah 43:3. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "key_terms": [
+        {
+          "greek": "σωτὴρ τοῦ κόσμου",
+          "transliteration": "soter tou kosmou",
+          "rendered_as": "Savior of the world",
+          "semantic_range": "savior, deliverer, rescuer; of the world: universal in scope",
+          "note": "This title transcends ethnic and religious boundaries. That Samaritans — outsiders to mainstream Judaism — recognize Jesus's universal significance is one of John's most profound ironies. The title appears again only in 1 John 4:14."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 43,
+      "text_greek": "Μετὰ δὲ τὰς δύο ἡμέρας ἐξῆλθεν ἐκεῖθεν εἰς τὴν Γαλιλαίαν.",
+      "text_kjv": "Now after two days he departed thence, and went into Galilee.",
+      "rendering": "After the two days he departed from there to Galilee.",
+      "translator_notes": [
+        "The narrative resumes the journey begun in verse 3. The two-day stay in Samaria delays but does not prevent the return to Galilee. The transition shifts from the Samaritan mission to the Galilean ministry."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 44,
+      "text_greek": "αὐτὸς γὰρ Ἰησοῦς ἐμαρτύρησεν ὅτι προφήτης ἐν τῇ ἰδίᾳ πατρίδι τιμὴν οὐκ ἔχει.",
+      "text_kjv": "For Jesus himself testified, that a prophet hath no honour in his own country.",
+      "rendering": "For Jesus himself had testified that a prophet has no honor in his own hometown.",
+      "translator_notes": [
+        "This proverb (cf. Mark 6:4, Matthew 13:57, Luke 4:24) creates interpretive difficulty in context. If Galilee is Jesus's 'homeland' (patris), the statement seems to contradict the reception described in the next verse. Some scholars take 'homeland' as referring to Judea (the land of his birth in John's theology) or explain that the Galileans' reception is based on signs, not genuine honor. The proverb may serve as an ironic contrast: rejected at home, received abroad (in Samaria)."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 45,
+      "text_greek": "ὅτε οὖν ἦλθεν εἰς τὴν Γαλιλαίαν, ἐδέξαντο αὐτὸν οἱ Γαλιλαῖοι πάντα ἑωρακότες ὅσα ἐποίησεν ἐν Ἱεροσολύμοις ἐν τῇ ἑορτῇ· καὶ αὐτοὶ γὰρ ἦλθον εἰς τὴν ἑορτήν.",
+      "text_kjv": "Then when he was come into Galilee, the Galilaeans received him, having seen all the things that he did at Jerusalem at the feast: for they also went unto the feast.",
+      "rendering": "So when he came to Galilee, the Galileans welcomed him, having seen all that he had done in Jerusalem at the festival, for they too had gone to the festival.",
+      "translator_notes": [
+        "The Galileans' welcome is based on signs they witnessed in Jerusalem during Passover (cf. 2:23). This is the sign-based faith that Jesus did not trust (2:24-25) and that stands in contrast to the Samaritans' faith based on Jesus's word (4:41-42). The Galileans 'received' (edexanto) him, but the quality of their reception is ambiguous."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 46,
+      "text_greek": "Ἦλθεν οὖν πάλιν εἰς τὴν Κανὰ τῆς Γαλιλαίας, ὅπου ἐποίησεν τὸ ὕδωρ οἶνον. καὶ ἦν τις βασιλικὸς οὗ ὁ υἱὸς ἠσθένει ἐν Καφαρναούμ.",
+      "text_kjv": "So Jesus came again into Cana of Galilee, where he made the water wine. And there was a certain nobleman, whose son was sick at Capernaum.",
+      "rendering": "So he came again to Cana of Galilee, where he had turned the water into wine. Now there was a royal official whose son was ill in Capernaum.",
+      "translator_notes": [
+        "The return to Cana creates a literary frame with the first sign (2:1-11). The basilikos ('royal official') was likely an officer in the service of Herod Antipas, tetrarch of Galilee. The word could mean 'king's man' or 'nobleman.' His son is in Capernaum, roughly 16 miles from Cana — a significant distance that will become important to the story."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 47,
+      "text_greek": "οὗτος ἀκούσας ὅτι Ἰησοῦς ἥκει ἐκ τῆς Ἰουδαίας εἰς τὴν Γαλιλαίαν ἀπῆλθεν πρὸς αὐτὸν καὶ ἠρώτα ἵνα καταβῇ καὶ ἰάσηται αὐτοῦ τὸν υἱόν· ἤμελλεν γὰρ ἀποθνῄσκειν.",
+      "text_kjv": "When he heard that Jesus was come out of Judaea into Galilee, he went unto him, and besought him that he would come down, and heal his son: for he was at the point of death.",
+      "rendering": "When he heard that Jesus had come from Judea to Galilee, he went to him and asked him to come down and heal his son, for the boy was about to die.",
+      "translator_notes": [
+        "The imperfect erota ('kept asking, was begging') indicates persistent, urgent pleading. The verb katabee ('come down') is geographically precise — Cana sits higher in the hills than Capernaum on the lake shore. The father assumes Jesus must be physically present to heal, a limitation Jesus will soon transcend. The son's condition is critical: emellen apothneskein ('was about to die')."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 48,
+      "text_greek": "εἶπεν οὖν ὁ Ἰησοῦς πρὸς αὐτόν· ἐὰν μὴ σημεῖα καὶ τέρατα ἴδητε, οὐ μὴ πιστεύσητε.",
+      "text_kjv": "Then said Jesus unto him, Except ye see signs and wonders, ye shall not believe.",
+      "rendering": "Jesus said to him, \"Unless you see signs and wonders, you will never believe.\"",
+      "translator_notes": [
+        "The plural 'you' (idete, pisteusete) indicates this is addressed not only to the official but to the Galileans generally — their faith is sign-dependent (cf. v. 45). The pairing of semeia kai terata ('signs and wonders') is unique in John; usually John uses semeia alone. The addition of terata ('wonders, portents') may carry a mildly negative connotation — seeking spectacle rather than understanding. The double negative ou me ('never') is emphatic."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 49,
+      "text_greek": "λέγει πρὸς αὐτὸν ὁ βασιλικός· κύριε, κατάβηθι πρὶν ἀποθανεῖν τὸ παιδίον μου.",
+      "text_kjv": "The nobleman saith unto him, Sir, come down ere my child die.",
+      "rendering": "The royal official said to him, \"Sir, come down before my child dies.\"",
+      "translator_notes": [
+        "The official ignores Jesus's theological challenge and presses his desperate request. The urgency of a parent facing a child's death overwhelms theological debate. The word paidion ('little child') is more affectionate than huios ('son') used in verse 46, revealing the father's emotional vulnerability. The repeated katabethi ('come down') shows he still assumes Jesus must be physically present."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 50,
+      "text_greek": "λέγει αὐτῷ ὁ Ἰησοῦς· πορεύου, ὁ υἱός σου ζῇ. ἐπίστευσεν ὁ ἄνθρωπος τῷ λόγῳ ὃν εἶπεν αὐτῷ ὁ Ἰησοῦς καὶ ἐπορεύετο.",
+      "text_kjv": "Jesus saith unto him, Go thy way; thy son liveth. And the man believed the word that Jesus had spoken unto him, and he went his way.",
+      "rendering": "Jesus said to him, \"Go — your son lives.\" The man believed the word that Jesus spoke to him and started on his way.",
+      "translator_notes": [
+        "Jesus heals at a distance, without going to Capernaum — his word alone is sufficient. The present tense ze ('lives') is not a promise but a declaration of present reality. The man's response marks a significant step: he 'believed the word' (episteusen to logo) — not a sign he could see, but a word he could only trust. This contrasts with the sign-dependent faith critiqued in verse 48. The verb eporeueto (imperfect, 'was going, started on his way') shows him acting on faith before receiving confirmation."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 51,
+      "text_greek": "ἤδη δὲ αὐτοῦ καταβαίνοντος οἱ δοῦλοι αὐτοῦ ὑπήντησαν αὐτῷ λέγοντες ὅτι ὁ παῖς αὐτοῦ ζῇ.",
+      "text_kjv": "And as he was now going down, his servants met him, and told him, saying, Thy son liveth.",
+      "rendering": "While he was still going down, his servants met him and told him that his boy was alive.",
+      "translator_notes": [
+        "The servants use the same verb ze ('lives') that Jesus spoke in verse 50, creating a verbal link between the word of healing and its confirmation. The word pais ('boy, child, servant') is used here for the son, echoing the affectionate paidion of verse 49. The fact that the servants came out to meet him suggests the recovery was so dramatic they did not wait for his arrival."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 52,
+      "text_greek": "ἐπύθετο οὖν τὴν ὥραν παρ' αὐτῶν ἐν ᾗ κομψότερον ἔσχεν. εἶπαν οὖν αὐτῷ ὅτι ἐχθὲς ὥραν ἑβδόμην ἀφῆκεν αὐτὸν ὁ πυρετός.",
+      "text_kjv": "Then enquired he of them the hour when he began to amend. And they said unto him, Yesterday at the seventh hour the fever left him.",
+      "rendering": "So he asked them the hour when his son began to recover, and they told him, \"Yesterday at one in the afternoon the fever left him.\"",
+      "translator_notes": [
+        "The father investigates the timing to verify the connection between Jesus's word and the healing. The 'seventh hour' is 1:00 PM by Roman reckoning or 1:00 PM by Jewish reckoning (counting from sunrise at approximately 6:00 AM). The word 'yesterday' (echthes) indicates the official traveled overnight or stayed somewhere along the way — a detail suggesting he did not rush home in anxious unbelief but traveled at a normal pace, trusting Jesus's word."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 53,
+      "text_greek": "ἔγνω οὖν ὁ πατὴρ ὅτι ἐκείνῃ τῇ ὥρᾳ ἐν ᾗ εἶπεν αὐτῷ ὁ Ἰησοῦς· ὁ υἱός σου ζῇ, καὶ ἐπίστευσεν αὐτὸς καὶ ἡ οἰκία αὐτοῦ ὅλη.",
+      "text_kjv": "So the father knew that it was at the same hour, in the which Jesus said unto him, Thy son liveth: and himself believed, and his whole house.",
+      "rendering": "The father realized that this was the exact hour when Jesus had said to him, \"Your son lives.\" And he himself believed, along with his entire household.",
+      "translator_notes": [
+        "The temporal correspondence confirms the healing was not coincidence but the direct effect of Jesus's word. The father's faith deepens — from initial desperate request (v. 47) to trusting Jesus's word (v. 50) to full belief confirmed by evidence (v. 53). The conversion of 'his entire household' (he oikia autou hole) reflects the ancient pattern where a household head's decision affected the whole family unit. This is the first 'household faith' in the Gospel."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 54,
+      "text_greek": "Τοῦτο δὲ πάλιν δεύτερον σημεῖον ἐποίησεν ὁ Ἰησοῦς ἐλθὼν ἐκ τῆς Ἰουδαίας εἰς τὴν Γαλιλαίαν.",
+      "text_kjv": "This is again the second miracle that Jesus did, when he was come out of Judaea into Galilee.",
+      "rendering": "This was the second sign that Jesus performed after coming from Judea to Galilee.",
+      "translator_notes": [
+        "John explicitly numbers this as the 'second sign' (deuteron semeion), connecting it to the first sign at Cana (2:11). Both signs occur in Cana, creating a geographic frame. Both involve transformation: water to wine, death to life. The numbering system will cease after this, though John continues to record signs. The phrase 'coming from Judea to Galilee' frames both signs as occurring in the context of Jesus's movement from the south to the north."
+      ],
+      "reading_level": "7th grade"
+    }
+  ]
+}

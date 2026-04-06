@@ -1,0 +1,361 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Galatians",
+    "chapter": 3,
+    "source_text": "SBL Greek New Testament (SBLGNT)",
+    "reference_text": "KJV",
+    "generated_at": "2026-04-04T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Galatians 3 shifts from autobiography to theological argument. Paul begins with a sharp rebuke — 'You foolish Galatians!' — and asks whether they received the Spirit through law-keeping or through believing the gospel. He then builds a sustained case from Scripture that Abraham was justified by faith, that the law brings a curse from which Christ redeemed humanity by becoming a curse himself, that the Abrahamic promise operates through faith rather than law, and that the law served as a temporary guardian until Christ came. The chapter culminates in the declaration that in Christ there is neither Jew nor Greek, slave nor free, male nor female — all are Abraham's offspring and heirs according to the promise.",
+    "remarkable": "Paul's argument moves through five distinct scriptural proofs: Abraham's faith (Genesis 15:6), the blessing of the nations (Genesis 12:3), the curse of the law (Deuteronomy 27:26), justification by faith (Habakkuk 2:4), and redemption from the curse (Deuteronomy 21:23). The 'seed' argument in verse 16 turns on the singular form of the Greek sperma — a striking piece of exegesis. The law as paidagogos (vv. 24-25) draws on the Greco-Roman institution of the slave-tutor who supervised a child until maturity. Verse 28 is one of the most radical equality statements in ancient literature.",
+    "friction": "Paul's claim that the law was given 'through angels by a mediator' (v. 19) draws on Jewish tradition not explicit in the Torah itself. His singular 'seed' argument (v. 16) has been criticized as grammatically forced, since collective nouns are regularly singular in both Hebrew and Greek. We render the text faithfully and note the exegetical complexity. The phrase 'baptized into Christ' (v. 27) raises questions about the relationship between faith and baptism that Paul does not resolve here.",
+    "connections": "Abraham's justification by faith (v. 6) is the same text Paul expounds in Romans 4. The 'curse of the law' argument (vv. 10-14) builds on Deuteronomy 27-28. The law as guardian until Christ anticipates the fuller development in Galatians 4:1-7. The baptismal formula of verse 28 likely reflects an early Christian confession used at baptism. The 'clothing' metaphor (v. 27) connects to the new-creation imagery Paul develops elsewhere (2 Corinthians 5:17; Colossians 3:9-10).\n\n**Tradition comparisons:** JST footnote at Galatians 3:19: Law added because of transgressions — purpose and giver of the law revised See the [JST notes](/jst/galatians)."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_greek": "Ὦ ἀνόητοι Γαλάται, τίς ὑμᾶς ἐβάσκανεν, οἷς κατ' ὀφθαλμοὺς Ἰησοῦς Χριστὸς προεγράφη ἐσταυρωμένος;",
+      "text_kjv": "O foolish Galatians, who hath bewitched you, that ye should not obey the truth, before whose eyes Jesus Christ hath been evidently set forth, crucified among you?",
+      "rendering": "You foolish Galatians! Who has bewitched you? Before your very eyes Jesus Christ was publicly portrayed as crucified!",
+      "translator_notes": [
+        "The Greek anoētoi ('foolish, senseless, unthinking') is not an insult to intelligence but a charge of irrationality — they are failing to think through the implications of what they already know. The verb ebaskanen ('bewitched') evokes the 'evil eye' of ancient Mediterranean culture — someone has cast a spell over them. The verb proegraphē ('was publicly displayed, was placarded') was used for official public notices or proclamations posted in the marketplace. Paul's preaching was so vivid that it was as if Christ crucified had been posted on a billboard before their eyes."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 2,
+      "text_greek": "τοῦτο μόνον θέλω μαθεῖν ἀφ' ὑμῶν· ἐξ ἔργων νόμου τὸ πνεῦμα ἐλάβετε ἢ ἐξ ἀκοῆς πίστεως;",
+      "text_kjv": "This only would I learn of you, Received ye the Spirit by the works of the law, or by the hearing of faith?",
+      "rendering": "I want to learn only one thing from you: Did you receive the Spirit by works of the law, or by hearing with faith?",
+      "translator_notes": [
+        "Paul appeals to the Galatians' own experience as evidence. The phrase ex akoēs pisteōs ('from hearing of faith') is ambiguous: it could mean 'by hearing the message that calls for faith,' 'by hearing that comes from faith,' or 'by a faithful hearing.' The contrast with 'works of the law' suggests the emphasis is on receptive trust versus active effort. The Galatians' reception of the Spirit — presumably visible in charismatic experience — occurred without any law observance."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 3,
+      "text_greek": "οὕτως ἀνόητοί ἐστε, ἐναρξάμενοι πνεύματι νῦν σαρκὶ ἐπιτελεῖσθε;",
+      "text_kjv": "Are ye so foolish? having begun in the Spirit, are ye now made perfect by the flesh?",
+      "rendering": "Are you so foolish? Having begun by the Spirit, are you now trying to reach completion by the flesh?",
+      "translator_notes": [
+        "The contrast between pneumati ('by the Spirit') and sarki ('by the flesh') is not spirit versus body but divine power versus human effort. The verb epiteleisthe ('being completed, being perfected') in the middle voice suggests the Galatians are attempting to complete by their own effort what God started by his Spirit. The irony is sharp: moving from Spirit to flesh is not progress but regression."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 4,
+      "text_greek": "τοσαῦτα ἐπάθετε εἰκῇ; εἴ γε καὶ εἰκῇ.",
+      "text_kjv": "Have ye suffered so many things in vain? if it be yet in vain.",
+      "rendering": "Did you experience so much for nothing? — if indeed it was for nothing.",
+      "translator_notes": [
+        "The verb epathete can mean either 'suffered' or 'experienced' — both senses may be in play. The Galatians may have faced persecution as a result of their faith. The trailing phrase ei ge kai eikē ('if indeed even for nothing') leaves a sliver of hope — Paul has not yet given up on them."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 5,
+      "text_greek": "ὁ οὖν ἐπιχορηγῶν ὑμῖν τὸ πνεῦμα καὶ ἐνεργῶν δυνάμεις ἐν ὑμῖν, ἐξ ἔργων νόμου ἢ ἐξ ἀκοῆς πίστεως;",
+      "text_kjv": "He therefore that ministereth to you the Spirit, and worketh miracles among you, doeth he it by the works of the law, or by the hearing of faith?",
+      "rendering": "So then, does God supply the Spirit to you and work miracles among you because of works of the law, or because of hearing with faith?",
+      "translator_notes": [
+        "The present participles epichorēgōn ('supplying, lavishly providing') and energōn ('working, being active in') indicate ongoing divine activity, not a one-time event. God is currently supplying the Spirit and currently working miracles — and this is happening without law observance. The verb epichorēgeō was used for a wealthy patron generously underwriting a public performance — God supplies abundantly, not grudgingly."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 6,
+      "text_greek": "καθὼς Ἀβραὰμ ἐπίστευσεν τῷ θεῷ, καὶ ἐλογίσθη αὐτῷ εἰς δικαιοσύνην·",
+      "text_kjv": "Even as Abraham believed God, and it was accounted to him for righteousness.",
+      "rendering": "Just as Abraham \"believed God, and it was credited to him as righteousness.\"",
+      "translator_notes": [
+        "Paul quotes Genesis 15:6 (LXX), the foundational text for his justification theology (cf. Romans 4). The verb elogisthē ('was credited, was reckoned, was counted') is an accounting term — righteousness was deposited to Abraham's account on the basis of his trust, not his performance. This precedes the institution of circumcision (Genesis 17) by at least fourteen years, which becomes Paul's key chronological argument.",
+        "[TCR Cross-Reference] Quotes Genesis 15:6. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it.",
+        "[TCR Cross-Reference] Quotes Genesis 17. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 7,
+      "text_greek": "γινώσκετε ἄρα ὅτι οἱ ἐκ πίστεως, οὗτοι υἱοί εἰσιν Ἀβραάμ.",
+      "text_kjv": "Know ye therefore that they which are of faith, the same are the children of Abraham.",
+      "rendering": "Understand, then, that those who are of faith — these are the children of Abraham.",
+      "translator_notes": [
+        "The imperative ginōskete ('know, understand, recognize') could also be indicative ('you know'). The phrase hoi ek pisteōs ('those out of faith, those whose identity is defined by faith') establishes faith, not ethnicity or law observance, as the marker of Abrahamic descent. This is the theological foundation for Gentile inclusion: Abraham's real children are identified by sharing Abraham's faith."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 8,
+      "text_greek": "προϊδοῦσα δὲ ἡ γραφὴ ὅτι ἐκ πίστεως δικαιοῖ τὰ ἔθνη ὁ θεός, προευηγγελίσατο τῷ Ἀβραὰμ ὅτι Ἐνευλογηθήσονται ἐν σοὶ πάντα τὰ ἔθνη.",
+      "text_kjv": "And the scripture, foreseeing that God would justify the heathen through faith, preached before the gospel unto Abraham, saying, In thee shall all nations be blessed.",
+      "rendering": "And the Scripture, foreseeing that God would justify the Gentiles by faith, proclaimed the gospel in advance to Abraham: \"In you all the nations will be blessed.\"",
+      "translator_notes": [
+        "Paul personifies Scripture (hē graphē) as an agent that 'foresaw' and 'proclaimed the gospel in advance' (proeuēngelisato — a remarkable compound verb meaning 'pre-evangelized'). The quotation combines Genesis 12:3 and 18:18. Paul reads the Abrahamic promise to bless 'all nations' (panta ta ethnē) as a prophetic announcement of Gentile justification by faith — the gospel was already embedded in the Abrahamic covenant.",
+        "[TCR Cross-Reference] References Genesis 12:3 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 9,
+      "text_greek": "ὥστε οἱ ἐκ πίστεως εὐλογοῦνται σὺν τῷ πιστῷ Ἀβραάμ.",
+      "text_kjv": "So then they which be of faith are blessed with faithful Abraham.",
+      "rendering": "So then, those who are of faith are blessed along with Abraham, the man of faith.",
+      "translator_notes": [
+        "The adjective pistō ('faithful, believing') applied to Abraham emphasizes his defining characteristic: trust in God's promise. The preposition syn ('together with') establishes solidarity — those who share Abraham's faith share Abraham's blessing. Paul has redrawn the boundaries of the Abrahamic family: faith, not circumcision, is the membership marker."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 10,
+      "text_greek": "ὅσοι γὰρ ἐξ ἔργων νόμου εἰσίν, ὑπὸ κατάραν εἰσίν· γέγραπται γὰρ ὅτι Ἐπικατάρατος πᾶς ὃς οὐκ ἐμμένει πᾶσιν τοῖς γεγραμμένοις ἐν τῷ βιβλίῳ τοῦ νόμου τοῦ ποιῆσαι αὐτά.",
+      "text_kjv": "For as many as are of the works of the law are under the curse: for it is written, Cursed is every one that continueth not in all things which are written in the book of the law to do them.",
+      "rendering": "For all who rely on works of the law are under a curse. For it is written: \"Cursed is everyone who does not continue in all the things written in the book of the law, to do them.\"",
+      "translator_notes": [
+        "Paul quotes Deuteronomy 27:26 to argue that the law's own terms condemn those who depend on it — since the law demands total, unbroken obedience (pasin tois gegrammenois, 'all the things written'), any failure brings the covenant curse. The word katara ('curse') is the opposite of eulogia ('blessing') from verse 9. Paul's logic: law-reliance leads to curse; faith leads to blessing. The assumption is that no one achieves perfect obedience.",
+        "[TCR Cross-Reference] This verse quotes Deuteronomy 27:26 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "key_terms": [
+        {
+          "greek": "κατάρα",
+          "transliteration": "katara",
+          "rendered_as": "curse",
+          "semantic_range": "curse, imprecation, execration",
+          "note": "The covenant curse of Deuteronomy 27-28, invoked upon covenant violators. Paul argues that the law's curse falls on everyone who attempts law-righteousness, because no one keeps the whole law."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 11,
+      "text_greek": "ὅτι δὲ ἐν νόμῳ οὐδεὶς δικαιοῦται παρὰ τῷ θεῷ δῆλον, ὅτι Ὁ δίκαιος ἐκ πίστεως ζήσεται·",
+      "text_kjv": "But that no man is justified by the law in the sight of God, it is evident: for, The just shall live by faith.",
+      "rendering": "Now it is clear that no one is justified before God by the law, because \"The righteous one will live by faith.\"",
+      "translator_notes": [
+        "Paul quotes Habakkuk 2:4, a text also central to Romans 1:17. The Hebrew of Habakkuk reads be'emunato ('by his faithfulness/faith'), and the ambiguity of ek pisteōs ('by faith/faithfulness') carries over into the Greek. The quotation establishes that the life of the righteous person is grounded in faith, not in law — and since this is Scripture's own testimony, the law itself witnesses against law-righteousness.",
+        "[TCR Cross-Reference] Quotes Habakkuk 2:4. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 12,
+      "text_greek": "ὁ δὲ νόμος οὐκ ἔστιν ἐκ πίστεως, ἀλλ' Ὁ ποιήσας αὐτὰ ζήσεται ἐν αὐτοῖς.",
+      "text_kjv": "And the law is not of faith: but, The man that doeth them shall live in them.",
+      "rendering": "But the law is not based on faith; rather, \"The one who does them will live by them.\"",
+      "translator_notes": [
+        "Paul quotes Leviticus 18:5, which promises life through doing the commandments. His point is that law and faith operate on fundamentally different principles: law demands doing, faith demands trusting. The two systems are incompatible as bases for justification. This does not mean the law is evil (Paul addresses that in 3:19-22), but that its operating principle differs from faith's.",
+        "[TCR Cross-Reference] Draws on Leviticus 18:5. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 13,
+      "text_greek": "Χριστὸς ἡμᾶς ἐξηγόρασεν ἐκ τῆς κατάρας τοῦ νόμου γενόμενος ὑπὲρ ἡμῶν κατάρα, ὅτι γέγραπται· Ἐπικατάρατος πᾶς ὁ κρεμάμενος ἐπὶ ξύλου,",
+      "text_kjv": "Christ hath redeemed us from the curse of the law, being made a curse for us: for it is written, Cursed is every one that hangeth on a tree:",
+      "rendering": "Christ redeemed us from the curse of the law by becoming a curse for us — for it is written: \"Cursed is everyone who hangs on a tree\" —",
+      "translator_notes": [
+        "The verb exēgorasen ('redeemed, bought out of') is a marketplace term for purchasing a slave's freedom. Christ's redemption is presented as a commercial transaction: he paid the price to buy believers out of the law's curse. The mechanism is substitutionary: genomenos hyper hēmōn katara ('having become a curse on our behalf'). Paul quotes Deuteronomy 21:23, which pronounces a curse on anyone hung on a tree (xylon). The crucifixion fulfills this: Christ on the cross bore the covenant curse that rested on law-breakers.",
+        "The word xylon means 'wood, tree, stake' — Paul uses it rather than stauros ('cross') to align with the Deuteronomy text. The early church read this passage as a divine explanation of why the Messiah had to die by crucifixion specifically.",
+        "[TCR Cross-Reference] References Deuteronomy 21:23 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "key_terms": [
+        {
+          "greek": "ἐξαγοράζω",
+          "transliteration": "exagorazō",
+          "rendered_as": "redeemed",
+          "semantic_range": "to buy out, to redeem, to purchase from the marketplace",
+          "note": "A commercial term applied to salvation. The imagery is of purchasing a slave's freedom. Christ paid the price — his own life under the curse — to buy believers out of the law's condemnation."
+        }
+      ],
+      "reading_level": "10th grade"
+    },
+    {
+      "verse": 14,
+      "text_greek": "ἵνα εἰς τὰ ἔθνη ἡ εὐλογία τοῦ Ἀβραὰμ γένηται ἐν Χριστῷ Ἰησοῦ, ἵνα τὴν ἐπαγγελίαν τοῦ πνεύματος λάβωμεν διὰ τῆς πίστεως.",
+      "text_kjv": "That the blessing of Abraham might come on the Gentiles through Jesus Christ; that we might receive the promise of the Spirit through faith.",
+      "rendering": "That the blessing of Abraham might come on the Gentiles by way of Jesus Christ. That we might accept the promise of the Spirit by way of faith.",
+      "translator_notes": [
+        "Two purpose clauses (hina... hina...) spell out the twin results of Christ's redemptive act: (1) the Abrahamic blessing extends to the Gentiles, and (2) the promised Spirit is received through faith. The 'promise of the Spirit' (tēn epangelian tou pneumatos) links the Abrahamic promise to the Pentecost experience — the Spirit is the concrete fulfillment of what God promised to Abraham. The 'in Christ Jesus' (en Christō Iēsou) is the instrument through which the ancient promise reaches its intended recipients."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 15,
+      "text_greek": "Ἀδελφοί, κατὰ ἄνθρωπον λέγω· ὅμως ἀνθρώπου κεκυρωμένην διαθήκην οὐδεὶς ἀθετεῖ ἢ ἐπιδιατάσσεται.",
+      "text_kjv": "Brethren, I speak after the manner of men; Though it be but a man's covenant, yet if it be confirmed, no man disannulleth, or addeth thereto.",
+      "rendering": "Brothers and sisters, I speak in human terms: even a human covenant, once it has been ratified, no one annuls or adds conditions to it.",
+      "translator_notes": [
+        "Paul uses an everyday legal analogy (kata anthrōpon legō, 'I speak in human terms'). The word diathēkē means both 'covenant' and 'will/testament' in Greek — the legal force of the analogy depends on the irrevocability of a ratified agreement. The verb kekyrōmenēn ('having been ratified, confirmed') is a legal term for a document that has been officially validated. The verbs athetei ('annuls') and epidiatassetai ('adds additional stipulations') describe two ways a ratified covenant cannot be altered."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 16,
+      "text_greek": "τῷ δὲ Ἀβραὰμ ἐρρέθησαν αἱ ἐπαγγελίαι καὶ τῷ σπέρματι αὐτοῦ. οὐ λέγει· Καὶ τοῖς σπέρμασιν, ὡς ἐπὶ πολλῶν, ἀλλ' ὡς ἐφ' ἑνός· Καὶ τῷ σπέρματί σου, ὅς ἐστιν Χριστός.",
+      "text_kjv": "Now to Abraham and his seed were the promises made. He saith not, And to seeds, as of many; but as of one, And to thy seed, which is Christ.",
+      "rendering": "Now the promises were spoken to Abraham and to his offspring. It does not say, \"And to offsprings,\" as referring to many, but as referring to one: \"And to your offspring,\" who is Christ.",
+      "translator_notes": [
+        "Paul's argument turns on the singular sperma ('seed, offspring') versus the hypothetical plural spermasin ('seeds'). Grammatically, sperma is a collective noun regularly used in the singular for a group of descendants, so Paul's argument has been debated since antiquity. However, Paul may be making a typological rather than strictly grammatical point: the singular 'seed' finds its ultimate fulfillment in one person, Christ, through whom all the other 'seeds' (believers) are incorporated. The quotation draws from Genesis 13:15, 17:8, and 22:18.",
+        "[TCR Cross-Reference] Quotes Genesis 12:7. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it.",
+        "[TCR Cross-Reference] Quotes Genesis 13:15. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it."
+      ],
+      "key_terms": [
+        {
+          "greek": "σπέρμα",
+          "transliteration": "sperma",
+          "rendered_as": "offspring",
+          "semantic_range": "seed, offspring, descendant, posterity",
+          "note": "Corresponds to Hebrew zera. Paul's exegetical move — reading the singular as a reference to Christ — has been enormously influential in Christian interpretation. It establishes Christ as the true heir of the Abrahamic promise, with believers inheriting through union with him."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 17,
+      "text_greek": "τοῦτο δὲ λέγω· διαθήκην προκεκυρωμένην ὑπὸ τοῦ θεοῦ ὁ μετὰ τετρακόσια καὶ τριάκοντα ἔτη γεγονὼς νόμος οὐκ ἀκυροῖ, εἰς τὸ καταργῆσαι τὴν ἐπαγγελίαν.",
+      "text_kjv": "And this I say, that the covenant, that was confirmed before of God in Christ, the law, which was four hundred and thirty years after, cannot disannul, that it should make the promise of none effect.",
+      "rendering": "This is what I am saying: the law, which came four hundred and thirty years later, does not invalidate a covenant previously ratified by God, so as to nullify the promise.",
+      "translator_notes": [
+        "The 430-year figure comes from Exodus 12:40 (LXX). Paul's argument is chronological: the Abrahamic covenant was established and ratified by God centuries before Sinai. A later addition (the law) cannot override an earlier divine covenant (the promise). The verb akyroi ('invalidate, make void') is the legal term for overturning a valid agreement — the law simply does not have that power over God's prior commitment.",
+        "[TCR Cross-Reference] Draws on Exodus 12:40. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "10th grade"
+    },
+    {
+      "verse": 18,
+      "text_greek": "εἰ γὰρ ἐκ νόμου ἡ κληρονομία, οὐκέτι ἐξ ἐπαγγελίας· τῷ δὲ Ἀβραὰμ δι' ἐπαγγελίας κεχάρισται ὁ θεός.",
+      "text_kjv": "For if the inheritance be of the law, it is no more of promise: but God gave it to Abraham by promise.",
+      "rendering": "For if the inheritance comes from the law, it no longer comes from the promise. But God granted it to Abraham through a promise.",
+      "translator_notes": [
+        "The verb kecharistai ('has graciously given') is from charizomai, related to charis ('grace'). The inheritance was a gift of grace through promise, not a wage earned through law-keeping. Paul presents law and promise as mutually exclusive bases for inheritance — if one applies, the other is voided. Since God chose promise, law cannot be the operating principle."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 19,
+      "text_greek": "Τί οὖν ὁ νόμος; τῶν παραβάσεων χάριν προσετέθη, ἄχρις οὗ ἔλθῃ τὸ σπέρμα ᾧ ἐπήγγελται, διαταγεὶς δι' ἀγγέλων ἐν χειρὶ μεσίτου.",
+      "text_kjv": "Wherefore then serveth the law? It was added because of transgressions, till the seed should come to whom the promise was made; and it was ordained by angels in the hand of a mediator.",
+      "rendering": "Why then the law? It was added because of transgressions, until the offspring should come to whom the promise had been made, and it was arranged through angels by the hand of a mediator.",
+      "translator_notes": [
+        "Paul anticipates the obvious question: if the law cannot justify, what purpose does it serve? His answer: it was 'added' (prosetethē) — supplementary, not foundational — 'because of transgressions' (tōn parabaseōn charin). This phrase is ambiguous: the law was added to define transgressions, to restrain them, or to provoke them (cf. Romans 5:20). The temporal limit 'until the offspring should come' makes the law a temporary measure, not a permanent arrangement. The reference to angelic mediation draws on Jewish tradition (cf. Acts 7:53; Hebrews 2:2) and Deuteronomy 33:2 LXX. The 'mediator' is Moses.",
+        "[TCR Cross-Reference] Echoes Deuteronomy 33:2. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "10th grade"
+    },
+    {
+      "verse": 20,
+      "text_greek": "ὁ δὲ μεσίτης ἑνὸς οὐκ ἔστιν, ὁ δὲ θεὸς εἷς ἐστιν.",
+      "text_kjv": "Now a mediator is not a mediator of one, but God is one.",
+      "rendering": "Now a mediator implies more than one party, but God is one.",
+      "translator_notes": [
+        "This is one of the most cryptic verses in Paul's letters, generating hundreds of interpretations. The basic logic appears to be: a mediator (mesitēs) requires two parties, meaning the law involved a bilateral arrangement (God and Israel, mediated by Moses). But God's promise to Abraham was unilateral — God alone committed himself (Genesis 15, where only God passes between the animal pieces). The promise is therefore more secure than the law because it rests on God alone, not on two parties' faithfulness.",
+        "[TCR Cross-Reference] This verse quotes Genesis 15 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "reading_level": "10th grade"
+    },
+    {
+      "verse": 21,
+      "text_greek": "ὁ οὖν νόμος κατὰ τῶν ἐπαγγελιῶν τοῦ θεοῦ; μὴ γένοιτο. εἰ γὰρ ἐδόθη νόμος ὁ δυνάμενος ζῳοποιῆσαι, ὄντως ἐκ νόμου ἂν ἦν ἡ δικαιοσύνη·",
+      "text_kjv": "Is the law then against the promises of God? God forbid: for if there had been a law given which could have given life, verily righteousness should have been by the law.",
+      "rendering": "Is the law then opposed to the promises of God? Absolutely not! For if a law had been given that could give life, then righteousness would indeed have come through the law.",
+      "translator_notes": [
+        "Paul again uses mē genoito ('absolutely not!') to reject a false inference. The law is not the enemy of promise — it simply cannot do what promise does. The key verb is zōopoiēsai ('to make alive, to give life'). The law can diagnose sin but cannot resurrect; it can define the problem but cannot supply the remedy. The contrary-to-fact conditional (ei... edothē... an ēn) makes clear that no such life-giving law exists."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 22,
+      "text_greek": "ἀλλὰ συνέκλεισεν ἡ γραφὴ τὰ πάντα ὑπὸ ἁμαρτίαν, ἵνα ἡ ἐπαγγελία ἐκ πίστεως Ἰησοῦ Χριστοῦ δοθῇ τοῖς πιστεύουσιν.",
+      "text_kjv": "But the scripture hath concluded all under sin, that the promise by faith of Jesus Christ might be given to them that believe.",
+      "rendering": "But the Scripture imprisoned everything under sin, so that the promise might be given through the faithfulness of Jesus Christ to those who believe.",
+      "translator_notes": [
+        "The verb synekleisen ('shut up together, imprisoned, confined') pictures sin as a prison. Scripture — and by extension the law — functions as a jailer that locks up all humanity (ta panta, 'all things, everything') under sin's power. The purpose (hina) is redemptive: the imprisonment prepares for the promise's release. The phrase ek pisteōs Iēsou Christou again raises the subjective/objective genitive question. We render 'through the faithfulness of Jesus Christ' consistently with 2:16, while noting that tois pisteuousin ('to those who believe') again distinguishes Christ's faithfulness from the believers' response of faith."
+      ],
+      "reading_level": "10th grade"
+    },
+    {
+      "verse": 23,
+      "text_greek": "Πρὸ τοῦ δὲ ἐλθεῖν τὴν πίστιν ὑπὸ νόμον ἐφρουρούμεθα συγκλειόμενοι εἰς τὴν μέλλουσαν πίστιν ἀποκαλυφθῆναι.",
+      "text_kjv": "But before faith came, we were kept under the law, shut up unto the faith which should afterwards be revealed.",
+      "rendering": "Now before faith came, we were held in custody under the law, confined until the coming faith would be revealed.",
+      "translator_notes": [
+        "The verb ephrouroumetha ('we were being guarded, held in custody') is a military term for being under armed guard. The companion participle synkleiomenoi ('being confined, locked up') reinforces the imprisonment metaphor from verse 22. Paul speaks of 'faith' (tēn pistin) with the article — not faith as a general concept but the specific faith-era inaugurated by Christ. Before Christ, the law served as a holding cell; with Christ's coming, the cell doors opened."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 24,
+      "text_greek": "ὥστε ὁ νόμος παιδαγωγὸς ἡμῶν γέγονεν εἰς Χριστόν, ἵνα ἐκ πίστεως δικαιωθῶμεν·",
+      "text_kjv": "Wherefore the law was our schoolmaster to bring us unto Christ, that we might be justified by faith.",
+      "rendering": "So then, the law was our guardian until Christ came, so that we might be justified by faith.",
+      "translator_notes": [
+        "The Greek paidagōgos is not a 'schoolmaster' (KJV) but a household slave who supervised a child's daily conduct — walking the child to school, enforcing discipline, and overseeing behavior until the child reached maturity. The paidagōgos was neither the father nor the teacher but a temporary custodian whose authority ended when the child came of age. Paul's analogy: the law supervised Israel during its minority, but its supervisory role terminated when Christ (the age of maturity) arrived. The phrase eis Christon ('until Christ' or 'toward Christ') indicates both temporal limit and directional purpose."
+      ],
+      "key_terms": [
+        {
+          "greek": "παιδαγωγός",
+          "transliteration": "paidagōgos",
+          "rendered_as": "guardian",
+          "semantic_range": "child-conductor, custodian, disciplinarian, guardian-slave",
+          "note": "A Greco-Roman household slave responsible for supervising a minor child. The role was disciplinary and temporary, ending when the child reached adulthood. Paul uses it to describe the law's provisional, supervisory function in salvation history."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 25,
+      "text_greek": "ἐλθούσης δὲ τῆς πίστεως οὐκέτι ὑπὸ παιδαγωγόν ἐσμεν.",
+      "text_kjv": "But after that faith is come, we are no longer under a schoolmaster.",
+      "rendering": "But now that faith has come, we are no longer under a guardian.",
+      "translator_notes": [
+        "The genitive absolute elthousēs tēs pisteōs ('faith having come') treats faith as a historical event, not merely a personal experience. The coming of Christ inaugurated the age of faith. The adverb ouketi ('no longer') is emphatic: the guardian's role is finished. Returning to the law's supervision after Christ has come would be like a grown adult returning to the care of a childhood custodian."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 26,
+      "text_greek": "πάντες γὰρ υἱοὶ θεοῦ ἐστε διὰ τῆς πίστεως ἐν Χριστῷ Ἰησοῦ.",
+      "text_kjv": "For ye are all the children of God by faith in Christ Jesus.",
+      "rendering": "For you are all children of God through faith in Christ Jesus.",
+      "translator_notes": [
+        "The shift from 'we' to 'you' (este, second person plural) directly addresses the Galatian believers. The term huioi theou ('sons of God') in its cultural context designated full legal heirs with the rights of mature adults, as opposed to minors under a guardian. We render 'children' to capture the inclusive sense, though the legal-heir implication is important: the Galatians are no longer minors under the law's custody but full heirs of God."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 27,
+      "text_greek": "ὅσοι γὰρ εἰς Χριστὸν ἐβαπτίσθητε, Χριστὸν ἐνεδύσασθε.",
+      "text_kjv": "For as many of you as have been baptized into Christ have put on Christ.",
+      "rendering": "For all of you who were baptized into Christ have clothed yourselves with Christ.",
+      "translator_notes": [
+        "The clothing metaphor (enedysasthe, 'you clothed yourselves with, you put on') may reflect the early Christian practice of new clothing at baptism, but the theological meaning goes deeper: to 'put on Christ' is to take on his identity. The phrase eis Christon ('into Christ') indicates that baptism effects a transfer of identity — the baptized person is now 'in Christ,' bearing Christ's identity rather than their former social markers. This prepares for the radical equality statement of verse 28."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 28,
+      "text_greek": "οὐκ ἔνι Ἰουδαῖος οὐδὲ Ἕλλην, οὐκ ἔνι δοῦλος οὐδὲ ἐλεύθερος, οὐκ ἔνι ἄρσεν καὶ θῆλυ· πάντες γὰρ ὑμεῖς εἷς ἐστε ἐν Χριστῷ Ἰησοῦ.",
+      "text_kjv": "There is neither Jew nor Greek, there is neither bond nor free, there is neither male nor female: for ye are all one in Christ Jesus.",
+      "rendering": "There is neither Jew nor Greek, there is neither slave nor free, there is no male and female — for you are all one in Christ Jesus.",
+      "translator_notes": [
+        "This verse likely preserves an early baptismal confession. The three pairs dismantle the three fundamental divisions of the ancient world: ethnic (Jew/Greek), social (slave/free), and gender (male/female). The shift from oude ('nor') to kai ('and') in the third pair echoes Genesis 1:27 LXX ('male and female he created them'), suggesting that in Christ even the creation-order distinction is transcended in terms of covenant status. The word heis ('one') is masculine singular — the Galatians are not merely united but constitute one entity in Christ. Paul's immediate context is covenant membership (who belongs to Abraham's family), though the implications extend further.",
+        "[TCR Cross-Reference] References Genesis 1:27 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 29,
+      "text_greek": "εἰ δὲ ὑμεῖς Χριστοῦ, ἄρα τοῦ Ἀβραὰμ σπέρμα ἐστέ, κατ' ἐπαγγελίαν κληρονόμοι.",
+      "text_kjv": "And if ye be Christ's, then are ye Abraham's seed, and heirs according to the promise.",
+      "rendering": "And if you belong to Christ, then you are Abraham's offspring, heirs according to the promise.",
+      "translator_notes": [
+        "Paul's argument comes full circle: Christ is Abraham's singular 'seed' (v. 16); those who are 'in Christ' (v. 28) share his identity; therefore those in Christ are Abraham's seed and heirs of the Abrahamic promise. The chain is Abraham → promise → Christ → believers. Circumcision, Torah observance, and ethnic identity play no role in this chain of inheritance. The word klēronomoi ('heirs') carries full legal weight — these are not honorary members but rightful inheritors of everything God promised Abraham."
+      ],
+      "reading_level": "8th grade"
+    }
+  ]
+}

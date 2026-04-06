@@ -1,0 +1,369 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Romans",
+    "chapter": 9,
+    "source_text": "SBL Greek New Testament (SBLGNT)",
+    "reference_text": "KJV",
+    "generated_at": "2026-04-04T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Romans 9 opens a new section (chapters 9-11) addressing the most pressing theological problem raised by Paul's gospel: if righteousness comes by faith apart from the law, what about Israel? Has God's word failed? Paul expresses his deep anguish over Israel's unbelief, then argues that God's word has not failed because not all descended from Israel are truly Israel. God's purposes have always operated by sovereign election — choosing Isaac over Ishmael, Jacob over Esau. Paul defends God's right as Creator to show mercy and harden as he chooses, using the potter-and-clay metaphor. The chapter concludes by arguing that Gentiles have obtained the righteousness of faith while Israel, pursuing righteousness through the law, stumbled over Christ — the stumbling stone.",
+    "remarkable": "Paul's anguish (vv. 1-5) is extraordinary — he wishes he could be cursed and cut off from Christ for the sake of his kinspeople. This is the same Paul who just declared nothing can separate from Christ's love. The list of Israel's privileges (v. 4-5) is one of the fullest in the New Testament: adoption, glory, covenants, law, worship, promises, patriarchs, and the Messiah. The potter-clay metaphor (vv. 19-24) is drawn from Isaiah 29:16, 45:9, and Jeremiah 18:1-10. The chapter's argument about divine sovereignty is counterbalanced by chapters 10-11, which emphasize human responsibility and God's ultimate purpose of mercy.",
+    "friction": "The tension between divine sovereignty (God hardens whom he wills, v. 18) and human responsibility (Israel pursued works rather than faith, v. 32) is one of the deepest theological tensions in Scripture. We render both emphases without harmonizing them. The Pharaoh hardening (v. 17) must be read alongside Exodus, where Pharaoh also hardens his own heart. The 'vessels of wrath' and 'vessels of mercy' language (vv. 22-23) has been debated between Calvinist and Arminian interpreters for centuries.",
+    "connections": "The Old Testament quotations are extensive: Genesis 21:12 (v. 7), Genesis 18:10 (v. 9), Genesis 25:23 (v. 12), Malachi 1:2-3 (v. 13), Exodus 33:19 (v. 15), Exodus 9:16 (v. 17), Isaiah 29:16/45:9 (v. 20), Hosea 2:23/1:10 (vv. 25-26), Isaiah 10:22-23 (vv. 27-28), Isaiah 1:9 (v. 29), Isaiah 8:14/28:16 (v. 33).\n\n**Tradition comparisons:** The Latin Vulgate shaped Western theology here: Qui est super omnia Deus benedictus (who is God over all, blessed) — Jerome's punctuation makes this a clear declaration of Christ's divinity: Christ IS God over all. Alternative punctuation could mak... See the [Vulgate Romans](/vulgate/romans)."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_greek": "Ἀλήθειαν λέγω ἐν Χριστῷ, οὐ ψεύδομαι, συμμαρτυρούσης μοι τῆς συνειδήσεώς μου ἐν πνεύματι ἁγίῳ,",
+      "text_kjv": "I say the truth in Christ, I lie not, my conscience also bearing me witness in the Holy Ghost,",
+      "rendering": "I am speaking the truth in Christ — I am not lying, as my conscience confirms in the Holy Spirit —",
+      "translator_notes": [
+        "Paul invokes a triple oath: truth in Christ, denial of falsehood, and the witness of his Spirit-informed conscience. This unusually intense affirmation signals that what follows is deeply personal and potentially misunderstood. Paul, the apostle to the Gentiles, must demonstrate that his gospel does not represent indifference to Israel."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 2,
+      "text_greek": "ὅτι λύπη μοί ἐστιν μεγάλη καὶ ἀδιάλειπτος ὀδύνη τῇ καρδίᾳ μου.",
+      "text_kjv": "That I have great heaviness and continual sorrow in my heart.",
+      "rendering": "Indeed, that I have remarkable heaviness and continual sorrow in my heart.",
+      "translator_notes": [
+        "The word lypē ('grief, sorrow') is strong; odynē ('anguish, sharp pain') is stronger. The adjective adialeiptos ('unceasing, constant') — the same word used for prayer in 1:9 — means this grief never leaves Paul. His pain over Israel's unbelief is not occasional but perpetual."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 3,
+      "text_greek": "ηὐχόμην γὰρ ἀνάθεμα εἶναι αὐτὸς ἐγὼ ἀπὸ τοῦ Χριστοῦ ὑπὲρ τῶν ἀδελφῶν μου τῶν συγγενῶν μου κατὰ σάρκα,",
+      "text_kjv": "For I could wish that myself were accursed from Christ for my brethren, my kinsmen according to the flesh:",
+      "rendering": "For I could wish that I myself were accursed and cut off from Christ for the sake of my brothers and sisters, my kinspeople according to the flesh —",
+      "translator_notes": [
+        "The verb ēuchomēn (imperfect) can mean 'I was wishing' or 'I could wish' — either a past wish or a present hypothetical. The word anathema ('accursed, devoted to destruction') is the Greek equivalent of Hebrew cherem — total separation from God. Paul echoes Moses in Exodus 32:32, who asked God to blot him from the book of life for Israel's sake. The irony is stunning: Paul who just said nothing can separate from Christ's love now wishes for separation on behalf of others.",
+        "[TCR Cross-Reference] References Exodus 32:32 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 4,
+      "text_greek": "οἵτινές εἰσιν Ἰσραηλῖται, ὧν ἡ υἱοθεσία καὶ ἡ δόξα καὶ αἱ διαθῆκαι καὶ ἡ νομοθεσία καὶ ἡ λατρεία καὶ αἱ ἐπαγγελίαι,",
+      "text_kjv": "Who are Israelites; to whom pertaineth the adoption, and the glory, and the covenants, and the giving of the law, and the service of God, and the promises;",
+      "rendering": "They are Israelites, and to them belong the adoption, the glory, the covenants, the giving of the law, the worship, and the promises.",
+      "translator_notes": [
+        "Paul lists eight privileges of Israel: (1) huiothesia — adoption as God's son (Exodus 4:22), (2) doxa — God's glory-presence (the Shekinah), (3) diathekai — the covenants (Abrahamic, Mosaic, Davidic), (4) nomothesia — the giving of the Torah, (5) latreia — the temple worship system, (6) epangeliai — the covenant promises. The plural diathekai ('covenants') is notable — God made multiple covenants with Israel.",
+        "[TCR Cross-Reference] Echoes Exodus 4:22. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 5,
+      "text_greek": "ὧν οἱ πατέρες, καὶ ἐξ ὧν ὁ Χριστὸς τὸ κατὰ σάρκα, ὁ ὢν ἐπὶ πάντων θεὸς εὐλογητὸς εἰς τοὺς αἰῶνας· ἀμήν.",
+      "text_kjv": "Whose are the fathers, and of whom as concerning the flesh Christ came, who is over all, God blessed for ever. Amen.",
+      "rendering": "To them belong the patriarchs, and from them, according to the flesh, is the Christ, who is God over all, blessed forever. Amen.",
+      "translator_notes": [
+        "The final two privileges: (7) the patriarchs (Abraham, Isaac, Jacob) and (8) the Messiah himself. The phrase to kata sarka ('according to the flesh') limits Christ's Israelite identity to his human nature. The doxological clause ho ōn epi pantōn theos eulogētos ('who is God over all, blessed forever') is one of the most debated punctuation questions in the New Testament. It can be read as (a) a statement about Christ: 'who is God over all, blessed forever' or (b) a separate doxology to God the Father: 'God who is over all be blessed forever.' We follow reading (a), which is the more natural Greek syntax."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 6,
+      "text_greek": "Οὐχ οἷον δὲ ὅτι ἐκπέπτωκεν ὁ λόγος τοῦ θεοῦ. οὐ γὰρ πάντες οἱ ἐξ Ἰσραήλ, οὗτοι Ἰσραήλ·",
+      "text_kjv": "Not as though the word of God hath taken none effect. For they are not all Israel, which are of Israel:",
+      "rendering": "It is not as though the word of God has failed. For not all who are descended from Israel are Israel.",
+      "translator_notes": [
+        "This is the thesis of chapters 9-11. The verb ekpeptōken ('has fallen, has failed') means to fall to the ground, to prove empty. Paul's answer to the apparent failure of God's promise is a redefinition of Israel: physical descent does not automatically equal covenant membership. There is an 'Israel within Israel' defined by God's electing purpose."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 7,
+      "text_greek": "οὐδ' ὅτι εἰσὶν σπέρμα Ἀβραάμ, πάντες τέκνα, ἀλλ'· ἐν Ἰσαὰκ κληθήσεταί σοι σπέρμα.",
+      "text_kjv": "Neither, because they are the seed of Abraham, are they all children: but, In Isaac shall thy seed be called.",
+      "rendering": "Indeed, neither, because they are the seed of Abraham, are they all children — but, In Isaac will your seed be called.",
+      "translator_notes": [
+        "Paul quotes Genesis 21:12. Abraham had two sons — Ishmael and Isaac — but only Isaac was the child of promise. Physical descent from Abraham did not automatically make Ishmael an heir. The principle of selective election operates within the family from the very beginning.",
+        "[TCR Cross-Reference] Draws on Genesis 21:12. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 8,
+      "text_greek": "τοῦτ' ἔστιν, οὐ τὰ τέκνα τῆς σαρκὸς ταῦτα τέκνα τοῦ θεοῦ, ἀλλὰ τὰ τέκνα τῆς ἐπαγγελίας λογίζεται εἰς σπέρμα.",
+      "text_kjv": "That is, They which are the children of the flesh, these are not the children of God: but the children of the promise are counted for the seed.",
+      "rendering": "This means that it is not the children of the flesh who are children of God, but the children of the promise are counted as offspring.",
+      "translator_notes": [
+        "Paul draws the theological conclusion: tekna tēs sarkos ('children of the flesh,' born by natural means) are distinguished from tekna tēs epangelias ('children of the promise,' born by God's word). The verb logizetai ('are counted, reckoned') is the same verb from chapter 4 — divine reckoning, not human achievement, determines who belongs to Abraham's true line."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 9,
+      "text_greek": "ἐπαγγελίας γὰρ ὁ λόγος οὗτος· κατὰ τὸν καιρὸν τοῦτον ἐλεύσομαι καὶ ἔσται τῇ Σάρρᾳ υἱός.",
+      "text_kjv": "For this is the word of promise, At this time will I come, and Sarah shall have a son.",
+      "rendering": "For this is what the promise said: \"About this time I will return, and Sarah shall have a son.\"",
+      "translator_notes": [
+        "Paul quotes Genesis 18:10, 14. Isaac's birth was not a natural event but a supernatural fulfillment of God's promise to a barren, elderly couple. The point: God's people are constituted by divine promise, not natural processes.",
+        "[TCR Cross-Reference] Echoes Genesis 18:10. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 10,
+      "text_greek": "οὐ μόνον δέ, ἀλλὰ καὶ Ῥεβέκκα ἐξ ἑνὸς κοίτην ἔχουσα, Ἰσαὰκ τοῦ πατρὸς ἡμῶν·",
+      "text_kjv": "And not only this; but when Rebecca also had conceived by one, even by our father Isaac;",
+      "rendering": "And not only that, but also when Rebekah had conceived children by one man, our ancestor Isaac —",
+      "translator_notes": [
+        "Paul introduces a stronger example. With Isaac and Ishmael, one could argue the difference was due to different mothers (Sarah vs. Hagar). With Jacob and Esau, the same mother (Rebekah) and the same father (Isaac) produced two sons, eliminating any argument based on parentage. The Greek koitēn echousea ('having a bed/conception') is a euphemism for sexual intercourse and conception."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 11,
+      "text_greek": "μήπω γὰρ γεννηθέντων μηδὲ πραξάντων τι ἀγαθὸν ἢ φαῦλον, ἵνα ἡ κατ' ἐκλογὴν πρόθεσις τοῦ θεοῦ μένῃ,",
+      "text_kjv": "(For the children being not yet born, neither having done any good or evil, that the purpose of God according to election might stand,",
+      "rendering": "(For the offspring while not yet brought into the world, neither possessing done any good or evil, that the purpose of God according to election might stand,.",
+      "translator_notes": [
+        "Paul emphasizes that God's choice was made before the twins' birth and before any action — good or bad — that could serve as a basis for merit. The phrase kat' eklogēn prothesis ('purpose according to election') places the ground of God's choice in his own purpose, not in foreseen human merit."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 12,
+      "text_greek": "οὐκ ἐξ ἔργων ἀλλ' ἐκ τοῦ καλοῦντος, ἐρρέθη αὐτῇ ὅτι ὁ μείζων δουλεύσει τῷ ἐλάσσονι·",
+      "text_kjv": "Not of works, but of him that calleth;) it was said unto her, The elder shall serve the younger.",
+      "rendering": "Indeed, not of works, but of him that calleth;) it was stated to her, The elder will serve the younger.",
+      "translator_notes": [
+        "Paul quotes Genesis 25:23. The reversal of primogeniture — the elder serving the younger — is a consistent pattern in Genesis (Ishmael/Isaac, Esau/Jacob, Manasseh/Ephraim). God's choice does not follow human convention but divine freedom. The phrase ek tou kalountos ('from the one who calls') makes God's calling the sole basis of election.",
+        "[TCR Cross-Reference] Draws on Genesis 25:23. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 13,
+      "text_greek": "καθὼς γέγραπται· τὸν Ἰακὼβ ἠγάπησα, τὸν δὲ Ἠσαῦ ἐμίσησα.",
+      "text_kjv": "As it is written, Jacob have I loved, but Esau have I hated.",
+      "rendering": "As it is written, \"Jacob I loved, but Esau I hated.\"",
+      "translator_notes": [
+        "Paul quotes Malachi 1:2-3, written over a thousand years after the twins. 'Hated' (emisēsa) in Semitic idiom can mean 'loved less' or 'not chosen' (cf. Genesis 29:31; Luke 14:26) — it denotes non-election rather than personal animosity. Malachi's original context concerns the nations of Israel and Edom, not merely the individuals Jacob and Esau.",
+        "[TCR Cross-Reference] References Malachi 1:2-3 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved.",
+        "[TCR Cross-Reference] References Genesis 29:31 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 14,
+      "text_greek": "Τί οὖν ἐροῦμεν; μὴ ἀδικία παρὰ τῷ θεῷ; μὴ γένοιτο.",
+      "text_kjv": "What shall we say then? Is there unrighteousness with God? God forbid.",
+      "rendering": "What shall we say then? Is there injustice on God's part? Absolutely not!",
+      "translator_notes": [
+        "The objection is predictable: if God chooses before birth without regard to works, is that unjust? Paul's mē genoito is emphatic. The word adikia ('injustice, unrighteousness') is the negation of dikaiosynē — the charge is that God's election violates his own righteousness."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 15,
+      "text_greek": "τῷ Μωϋσεῖ γὰρ λέγει· ἐλεήσω ὃν ἂν ἐλεῶ, καὶ οἰκτιρήσω ὃν ἂν οἰκτίρω.",
+      "text_kjv": "For he saith to Moses, I will have mercy on whom I will have mercy, and I will have compassion on whom I will have compassion.",
+      "rendering": "And i will have compassion on whom i will have compassion, for he says to Moses, I will have mercy on whom I will have mercy.",
+      "translator_notes": [
+        "Paul quotes Exodus 33:19, God's response to Moses' request to see his glory. The double statement (mercy/mercy, compassion/compassion) is a Hebrew idiom emphasizing divine freedom: God's mercy is determined by God's own will. This was spoken in a context of grace — God had just forgiven the golden calf incident.",
+        "[TCR Cross-Reference] This verse quotes Exodus 33:19 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 16,
+      "text_greek": "ἄρα οὖν οὐ τοῦ θέλοντος οὐδὲ τοῦ τρέχοντος ἀλλὰ τοῦ ἐλεῶντος θεοῦ.",
+      "text_kjv": "So then it is not of him that willeth, nor of him that runneth, but of God that sheweth mercy.",
+      "rendering": "So then it depends not on human will or effort, but on God who has mercy.",
+      "translator_notes": [
+        "The three sources are contrasted: not the willing person (tou thelontos), not the running person (tou trechontos, a metaphor for striving), but God who shows mercy (tou eleountos theou). Human desire and effort, however sincere, cannot compel divine mercy. This does not eliminate human response but grounds the possibility of response in prior divine initiative."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 17,
+      "text_greek": "λέγει γὰρ ἡ γραφὴ τῷ Φαραὼ ὅτι εἰς αὐτὸ τοῦτο ἐξήγειρά σε ὅπως ἐνδείξωμαι ἐν σοὶ τὴν δύναμίν μου, καὶ ὅπως διαγγελῇ τὸ ὄνομά μου ἐν πάσῃ τῇ γῇ.",
+      "text_kjv": "For the scripture saith unto Pharaoh, Even for this same purpose have I raised thee up, that I might shew my power in thee, and that my name might be declared throughout all the earth.",
+      "rendering": "For the Scripture says to Pharaoh, \"For this very purpose I have raised you up, that I might display my power in you, and that my name might be proclaimed in all the earth.\"",
+      "translator_notes": [
+        "Paul quotes Exodus 9:16. The verb exēgeira ('I raised up, I brought onto the stage') does not necessarily mean God created Pharaoh for the purpose of destruction but that God elevated him to power and sustained him through the plagues to display divine power. The purpose is the proclamation of God's name throughout the earth — even Pharaoh's hardening serves a redemptive-historical purpose.",
+        "[TCR Cross-Reference] Draws on Exodus 9:16. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 18,
+      "text_greek": "ἄρα οὖν ὃν θέλει ἐλεεῖ, ὃν δὲ θέλει σκληρύνει.",
+      "text_kjv": "Therefore hath he mercy on whom he will have mercy, and whom he will he hardeneth.",
+      "rendering": "So then he has mercy on whomever he wills, and he hardens whomever he wills.",
+      "translator_notes": [
+        "Paul draws the double conclusion: God's sovereignty operates in both directions — mercy and hardening. The verb sklērynei ('hardens') echoes the Exodus narrative where God hardened Pharaoh's heart. This must be read in its full Exodus context, where Pharaoh also hardened his own heart (Exodus 8:15, 32). Divine hardening is judicial — confirming a direction already chosen — not arbitrary.",
+        "[TCR Cross-Reference] References Exodus 8:15 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 19,
+      "text_greek": "Ἐρεῖς μοι οὖν· τί οὖν ἔτι μέμφεται; τῷ γὰρ βουλήματι αὐτοῦ τίς ἀνθέστηκεν;",
+      "text_kjv": "Thou wilt say then unto me, Why doth he yet find fault? For who hath resisted his will?",
+      "rendering": "You will say to me then, \"Why does he still find fault? For who has resisted his will?\"",
+      "translator_notes": [
+        "The diatribe partner objects: if God's will is irresistible, how can God blame anyone? This is the logical conclusion of verse 18 pushed to its extreme. The verb anthestēken ('has resisted, has stood against') is a perfect tense — who has ever successfully opposed God's purpose? Paul takes the objection seriously but reframes it."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 20,
+      "text_greek": "ὦ ἄνθρωπε, μενοῦνγε σὺ τίς εἶ ὁ ἀνταποκρινόμενος τῷ θεῷ; μὴ ἐρεῖ τὸ πλάσμα τῷ πλάσαντι· τί με ἐποίησας οὕτως;",
+      "text_kjv": "Nay but, O man, who art thou that repliest against God? Shall the thing formed say to him that formed it, Why hast thou made me thus?",
+      "rendering": "But who are you, a mere human, to argue back to God? Will what is molded say to its molder, \"Why have you made me like this?\"",
+      "translator_notes": [
+        "Paul's response appeals to the Creator-creature distinction. The verb antapokrinomenos ('arguing back, answering in opposition') implies presumptuous back-talk. The potter-clay metaphor draws on Isaiah 29:16, 45:9, and Jeremiah 18:1-10. The point is not that human questions are illegitimate but that the creature has no standing to put the Creator on trial.",
+        "[TCR Cross-Reference] This verse quotes Isaiah 29:16 — see the TCR rendering of that passage for the Hebrew source text and translation decisions.",
+        "[TCR Cross-Reference] This verse quotes Jeremiah 18:1-10 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 21,
+      "text_greek": "ἢ οὐκ ἔχει ἐξουσίαν ὁ κεραμεὺς τοῦ πηλοῦ ἐκ τοῦ αὐτοῦ φυράματος ποιῆσαι ὃ μὲν εἰς τιμὴν σκεῦος ὃ δὲ εἰς ἀτιμίαν;",
+      "text_kjv": "Hath not the potter power over the clay, of the same lump to make one vessel unto honour, and another unto dishonour?",
+      "rendering": "Has the potter no right over the clay, to make out of the same lump one vessel for honorable use and another for common use?",
+      "translator_notes": [
+        "The word exousian ('right, authority, power') establishes the potter's prerogative. The phrase ek tou autou phyramatos ('out of the same lump') emphasizes that the difference between vessels is not in the material but in the potter's purpose. We render eis atimian as 'for common use' rather than 'for dishonor' — the contrast is between special and ordinary, not necessarily between good and evil. However, in context, Paul is building toward the 'vessels of wrath' in verse 22."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 22,
+      "text_greek": "εἰ δὲ θέλων ὁ θεὸς ἐνδείξασθαι τὴν ὀργὴν καὶ γνωρίσαι τὸ δυνατὸν αὐτοῦ ἤνεγκεν ἐν πολλῇ μακροθυμίᾳ σκεύη ὀργῆς κατηρτισμένα εἰς ἀπώλειαν,",
+      "text_kjv": "What if God, willing to shew his wrath, and to make his power known, endured with much longsuffering the vessels of wrath fitted to destruction:",
+      "rendering": "What if God, desiring to show his wrath and to make known his power, has endured with great patience vessels of wrath prepared for destruction,",
+      "translator_notes": [
+        "The sentence begun here continues through verse 24. The phrase skeuē orgēs ('vessels of wrath') describes those destined for judgment. The participle katērtismena ('prepared, fitted') is in the middle/passive voice and does not specify who did the preparing — God, the individuals themselves, or sin. This ambiguity may be intentional. The phrase en pollē makrothymia ('with great patience') shows that even toward vessels of wrath, God exercises long-suffering restraint."
+      ],
+      "reading_level": "10th grade"
+    },
+    {
+      "verse": 23,
+      "text_greek": "καὶ ἵνα γνωρίσῃ τὸν πλοῦτον τῆς δόξης αὐτοῦ ἐπὶ σκεύη ἐλέους, ἃ προητοίμασεν εἰς δόξαν;",
+      "text_kjv": "And that he might make known the riches of his glory on the vessels of mercy, which he had afore prepared unto glory,",
+      "rendering": "Indeed, that he might make known the riches of all his splendor on the vessels of mercy, which he had afore prepared to glory,.",
+      "translator_notes": [
+        "The contrast with verse 22 is significant: the vessels of wrath are described with a passive participle (katērtismena, 'prepared' — agent unspecified), while the vessels of mercy are described with an active verb (proētoimasen, 'he prepared beforehand' — God is the explicit agent). This asymmetry suggests that God actively prepares the vessels of mercy but does not actively prepare the vessels of wrath in the same direct way."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 24,
+      "text_greek": "οὓς καὶ ἐκάλεσεν ἡμᾶς οὐ μόνον ἐξ Ἰουδαίων ἀλλὰ καὶ ἐξ ἐθνῶν;",
+      "text_kjv": "Even us, whom he hath called, not of the Jews only, but also of the Gentiles?",
+      "rendering": "Indeed us, whom he has known as, not of the Jews only, but also of the Gentiles?",
+      "translator_notes": [
+        "The vessels of mercy are now identified: 'us' — both Jewish and Gentile believers. God's electing purpose, which operated within Israel (choosing Isaac over Ishmael, Jacob over Esau), now operates beyond Israel's ethnic boundaries to include Gentiles."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 25,
+      "text_greek": "ὡς καὶ ἐν τῷ Ὡσηὲ λέγει· καλέσω τὸν οὐ λαόν μου λαόν μου καὶ τὴν οὐκ ἠγαπημένην ἠγαπημένην·",
+      "text_kjv": "As he saith also in Osee, I will call them my people, which were not my people; and her beloved, which was not beloved.",
+      "rendering": "As indeed he says in Hosea: \"Those who were not my people I will call 'my people,' and her who was not beloved I will call 'beloved.'\"",
+      "translator_notes": [
+        "Paul quotes Hosea 2:23 (LXX). In Hosea's original context, the promise of restoration refers to Israel itself — the unfaithful northern kingdom. Paul applies it to Gentile inclusion: those who were outside the covenant ('not my people') are now called God's people. This typological reading sees the same pattern of grace operating in a new context.",
+        "[TCR Cross-Reference] This verse quotes Hosea 2:23 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 26,
+      "text_greek": "καὶ ἔσται ἐν τῷ τόπῳ οὗ ἐρρέθη αὐτοῖς· οὐ λαός μου ὑμεῖς, ἐκεῖ κληθήσονται υἱοὶ θεοῦ ζῶντος.",
+      "text_kjv": "And it shall come to pass, that in the place where it was said unto them, Ye are not my people; there shall they be called the children of the living God.",
+      "rendering": "\"And in the very place where it was said to them, 'You are not my people,' there they will be called 'children of the living God.'\"",
+      "translator_notes": [
+        "Paul quotes Hosea 1:10 (LXX 2:1). The reversal is total: the location of rejection becomes the location of adoption. 'The living God' (theou zōntos) contrasts with dead idols and reinforces the theme of God's life-giving power (cf. 4:17).",
+        "[TCR Cross-Reference] Quotes Hosea 1:10. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 27,
+      "text_greek": "Ἠσαΐας δὲ κράζει ὑπὲρ τοῦ Ἰσραήλ· ἐὰν ᾖ ὁ ἀριθμὸς τῶν υἱῶν Ἰσραὴλ ὡς ἡ ἄμμος τῆς θαλάσσης, τὸ ὑπόλειμμα σωθήσεται·",
+      "text_kjv": "Esaias also crieth concerning Israel, Though the number of the children of Israel be as the sand of the sea, a remnant shall be saved:",
+      "rendering": "And Isaiah cries out concerning Israel: \"Though the number of the children of Israel were as the sand of the sea, only a remnant will be saved,",
+      "translator_notes": [
+        "Paul now turns from Gentile inclusion to the painful reality of Israel's partial rejection, quoting Isaiah 10:22-23. The word hypoleimma ('remnant') introduces a concept central to prophetic theology: God always preserves a faithful core within the nation, even when the majority falls away. The verb krazei ('cries out') suggests urgency and prophetic passion.",
+        "[TCR Cross-Reference] Draws on Isaiah 10:22-23. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 28,
+      "text_greek": "λόγον γὰρ συντελῶν καὶ συντέμνων ποιήσει κύριος ἐπὶ τῆς γῆς.",
+      "text_kjv": "For he will finish the work, and cut it short in righteousness: because a short work will the Lord make upon the earth.",
+      "rendering": "Indeed, since he will finish the work, and cut it short in righteousness — because a short work will the Lord make upon the world.",
+      "translator_notes": [
+        "The phrase logon syntelōn kai syntemnōn ('completing and cutting short the word/sentence') describes God's decisive, swift judicial action. The LXX text Paul uses differs from the Hebrew of Isaiah 10:23. The point: God's judgment will be thorough and final.",
+        "[TCR Cross-Reference] References Isaiah 10:22-23 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 29,
+      "text_greek": "καὶ καθὼς προείρηκεν Ἠσαΐας· εἰ μὴ κύριος σαβαὼθ ἐγκατέλιπεν ἡμῖν σπέρμα, ὡς Σόδομα ἂν ἐγενήθημεν καὶ ὡς Γόμορρα ἂν ὡμοιώθημεν.",
+      "text_kjv": "And as Esaias said before, Except the Lord of Sabaoth had left us a seed, we had been as Sodoma, and been made like unto Gomorrha.",
+      "rendering": "And as Isaiah predicted: \"If the Lord of Hosts had not left us offspring, we would have become like Sodom and been made like Gomorrah.\"",
+      "translator_notes": [
+        "Paul quotes Isaiah 1:9. The title kyrios sabaōth ('Lord of Hosts/Armies') transliterates the Hebrew YHWH Tseva'ot. The comparison with Sodom and Gomorrah — total destruction — emphasizes that even the remnant exists only by God's grace, not by human merit. The word sperma ('seed, offspring') echoes the Abrahamic promise.",
+        "[TCR Cross-Reference] Echoes Isaiah 1:9. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 30,
+      "text_greek": "Τί οὖν ἐροῦμεν; ὅτι ἔθνη τὰ μὴ διώκοντα δικαιοσύνην κατέλαβεν δικαιοσύνην, δικαιοσύνην δὲ τὴν ἐκ πίστεως·",
+      "text_kjv": "What shall we say then? That the Gentiles, which followed not after righteousness, have attained to righteousness, even the righteousness which is of faith.",
+      "rendering": "What shall we say then? That Gentiles who did not pursue righteousness have obtained it — that is, a righteousness that is by faith;",
+      "translator_notes": [
+        "The irony is sharp: Gentiles who were not even trying to achieve righteousness received it, while Israel who was intensely pursuing it missed it. The verb katelaben ('obtained, grasped, attained') suggests catching something that was not being chased. The qualifier ek pisteōs ('from faith') identifies the kind of righteousness obtained."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 31,
+      "text_greek": "Ἰσραὴλ δὲ διώκων νόμον δικαιοσύνης εἰς νόμον οὐκ ἔφθασεν.",
+      "text_kjv": "But Israel, which followed after the law of righteousness, hath not attained to the law of righteousness.",
+      "rendering": "However, Israel, which followed following the law of righteousness, has not attained to the law of righteousness.",
+      "translator_notes": [
+        "The verb diōkōn ('pursuing') is the same verb used for pursuit in a race or persecution of an enemy — Israel was zealously, energetically chasing righteousness. The tragic verb ouk ephthasen ('did not arrive, did not reach') describes failure at the finish line. The phrase nomon dikaiosynēs ('law of righteousness') is debated — it may mean 'the law that would lead to righteousness' or 'the standard of righteousness.'"
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 32,
+      "text_greek": "διὰ τί; ὅτι οὐκ ἐκ πίστεως ἀλλ' ὡς ἐξ ἔργων· προσέκοψαν τῷ λίθῳ τοῦ προσκόμματος,",
+      "text_kjv": "Wherefore? Because they sought it not by faith, but as it were by the works of the law. For they stumbled at that stumblingstone;",
+      "rendering": "Why? Because they pursued it not by faith but as if it were based on works. They stumbled over the stumbling stone,",
+      "translator_notes": [
+        "Paul diagnoses Israel's failure: wrong method, not wrong goal. They pursued righteousness as if (hōs) it could be achieved by works rather than received by faith. The verb prosekopsan ('stumbled against, struck against') introduces the stone metaphor that the following quotation develops. Israel's very zeal for the law became the obstacle to receiving the gospel."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 33,
+      "text_greek": "καθὼς γέγραπται· ἰδοὺ τίθημι ἐν Σιὼν λίθον προσκόμματος καὶ πέτραν σκανδάλου, καὶ ὁ πιστεύων ἐπ' αὐτῷ οὐ καταισχυνθήσεται.",
+      "text_kjv": "As it is written, Behold, I lay in Sion a stumblingstone and rock of offence: and whosoever believeth on him shall not be ashamed.",
+      "rendering": "As it is written, take notice, I lay in Sion a stumblingstone and rock of offence — and whosoever believes on him will not be ashamed.",
+      "translator_notes": [
+        "Paul combines Isaiah 28:16 and Isaiah 8:14 — one text about a cornerstone, the other about a stumbling stone. The same Christ is both: a foundation for faith and an obstacle for unbelief. The promise 'will not be put to shame' (ou kataischynthēsetai) echoes 5:5 and 10:11. The pronoun ep' autō ('in him') personalizes the stone — it is not an abstract principle but Christ himself.",
+        "[TCR Cross-Reference] References Isaiah 28:16 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "reading_level": "8th grade"
+    }
+  ]
+}

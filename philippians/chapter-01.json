@@ -1,0 +1,365 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Philippians",
+    "chapter": 1,
+    "source_text": "SBL Greek New Testament (SBLGNT)",
+    "reference_text": "KJV",
+    "generated_at": "2026-04-05T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Paul and Timothy write to the believers in Philippi, expressing gratitude for their partnership in the gospel from the first day until now. Paul describes his imprisonment as having advanced the gospel rather than hindered it, reports that Christ is being proclaimed even by rivals, and declares his famous conviction: 'to live is Christ and to die is gain.' He urges the Philippians to conduct themselves in a manner worthy of the gospel, standing firm in one spirit.",
+    "remarkable": "Philippians is the warmest of Paul's letters, written from prison yet saturated with joy. The word 'joy' and its cognates appear sixteen times across four chapters. Paul's relationship with Philippi was uniquely close — they were the only church from whom he accepted financial support (4:15). The theological climax of chapter 1 is the 'to live is Christ' declaration (v. 21), which frames existence itself as participation in Christ. Paul's candid reflection on preferring death yet choosing to remain for the Philippians' sake reveals a pastoral theology shaped by self-giving love.",
+    "friction": "The identity of Paul's opponents in verses 15-17 is debated. Some preached Christ from envy and rivalry, hoping to afflict Paul in his imprisonment. Whether these are rival missionaries, Judaizers, or local preachers is unclear from the text alone. We render the Greek without resolving this ambiguity. The location of Paul's imprisonment — Rome, Ephesus, or Caesarea — is likewise debated; the text itself does not specify, though the mention of the praetorium (v. 13) suggests Rome.",
+    "connections": "The letter connects to Acts 16, which narrates the founding of the Philippian church through Lydia's conversion and the jailer's baptism. Paul's language of 'partnership in the gospel' (koinonia tou euangeliou) echoes the covenant fellowship vocabulary of the Old Testament. The citizenship language in verse 27 anticipates the explicit heavenly citizenship declaration of 3:20."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_greek": "Παῦλος καὶ Τιμόθεος δοῦλοι Χριστοῦ Ἰησοῦ πᾶσιν τοῖς ἁγίοις ἐν Χριστῷ Ἰησοῦ τοῖς οὖσιν ἐν Φιλίπποις σὺν ἐπισκόποις καὶ διακόνοις,",
+      "text_kjv": "Paul and Timotheus, the servants of Jesus Christ, to all the saints in Christ Jesus which are at Philippi, with the bishops and deacons:",
+      "rendering": "Paul and Timothy, servants of Christ Jesus, to all the saints in Christ Jesus who are in Philippi, together with the overseers and deacons:",
+      "translator_notes": [
+        "The Greek douloi ('slaves, servants') denotes total allegiance. Paul identifies himself not by apostolic title but as a slave of Christ — unusual for his letter openings and perhaps reflecting the intimate tone of this letter. The term episkopoi ('overseers') is rendered 'overseers' rather than the KJV's 'bishops,' which carries later ecclesiastical connotations absent from the first-century context. Diakonoi ('deacons, servants') refers to recognized servants of the congregation."
+      ],
+      "key_terms": [
+        {
+          "greek": "δοῦλος",
+          "transliteration": "doulos",
+          "rendered_as": "servants",
+          "semantic_range": "slave, servant, bondservant",
+          "note": "In the Greco-Roman world, doulos denoted a person owned by another. Paul adopts this term to describe his relationship to Christ, echoing the Hebrew ebed used of Moses, David, and the prophets."
+        },
+        {
+          "greek": "ἐπίσκοπος",
+          "transliteration": "episkopos",
+          "rendered_as": "overseers",
+          "semantic_range": "overseer, guardian, bishop, superintendent",
+          "note": "In the first century, episkopos and presbyteros ('elder') appear to be interchangeable titles for the same office. The later distinction between bishop and elder developed after the apostolic period."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 2,
+      "text_greek": "χάρις ὑμῖν καὶ εἰρήνη ἀπὸ θεοῦ πατρὸς ἡμῶν καὶ κυρίου Ἰησοῦ Χριστοῦ.",
+      "text_kjv": "Grace be unto you, and peace, from God our Father, and from the Lord Jesus Christ.",
+      "rendering": "Grace to you and peace from God our Father and the Lord Jesus Christ.",
+      "translator_notes": [
+        "Paul's standard greeting fuses the Greek charis ('grace') with the Hebrew shalom-equivalent eirene ('peace'). The pairing of God the Father and the Lord Jesus Christ as co-source of grace and peace is a high christological claim embedded in an ordinary salutation."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 3,
+      "text_greek": "Εὐχαριστῶ τῷ θεῷ μου ἐπὶ πάσῃ τῇ μνείᾳ ὑμῶν,",
+      "text_kjv": "I thank my God upon every remembrance of you,",
+      "rendering": "I thank my God in all my remembrance of you,",
+      "translator_notes": [
+        "The phrase epi pase tee mneia hymōn can mean either 'upon every remembrance of you' (each time Paul thinks of them) or 'for all your remembrance of me' (their remembering him through gifts). The former reading is more natural in context and is followed here."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 4,
+      "text_greek": "πάντοτε ἐν πάσῃ δεήσει μου ὑπὲρ πάντων ὑμῶν μετὰ χαρᾶς τὴν δέησιν ποιούμενος,",
+      "text_kjv": "Always in every prayer of mine for you all making request with joy,",
+      "rendering": "Always in every petition of mine for you all making request with joy,.",
+      "translator_notes": [
+        "The repetition of pas ('all, every') is characteristic of Philippians — Paul uses the word more frequently here than in any other letter relative to length. Joy (chara) appears for the first time, establishing the letter's dominant theme."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 5,
+      "text_greek": "ἐπὶ τῇ κοινωνίᾳ ὑμῶν εἰς τὸ εὐαγγέλιον ἀπὸ τῆς πρώτης ἡμέρας ἄχρι τοῦ νῦν,",
+      "text_kjv": "For your fellowship in the gospel from the first day until now;",
+      "rendering": "Since your fellowship in the gospel from the foremost day until now.",
+      "translator_notes": [
+        "The Greek koinōnia ('partnership, fellowship, sharing') is richer than the English 'fellowship' suggests. It denotes active participation and mutual sharing — the Philippians were not passive recipients of the gospel but active partners in its advancement, including through their financial support of Paul's mission."
+      ],
+      "key_terms": [
+        {
+          "greek": "κοινωνία",
+          "transliteration": "koinōnia",
+          "rendered_as": "partnership",
+          "semantic_range": "fellowship, partnership, sharing, participation, communion",
+          "note": "Used in both relational and financial contexts. The Philippians' koinōnia included monetary gifts (4:15-16), making 'partnership' more precise than the softer 'fellowship.'"
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 6,
+      "text_greek": "πεποιθὼς αὐτὸ τοῦτο, ὅτι ὁ ἐναρξάμενος ἐν ὑμῖν ἔργον ἀγαθὸν ἐπιτελέσει ἄχρι ἡμέρας Χριστοῦ Ἰησοῦ·",
+      "text_kjv": "Being confident of this very thing, that he which hath begun a good work in you will perform it until the day of Jesus Christ:",
+      "rendering": "I am confident of this very thing, that the one who began a good work in you will carry it on to completion until the day of Christ Jesus.",
+      "translator_notes": [
+        "The verb enarchomai ('to begin') and epiteleo ('to bring to completion') form a deliberate pair — what God initiated, God will finish. The 'day of Christ Jesus' (hemeras Christou Iesou) is an eschatological reference to Christ's return, adapted from the Old Testament 'day of the LORD' (yom YHWH)."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 7,
+      "text_greek": "καθώς ἐστιν δίκαιον ἐμοὶ τοῦτο φρονεῖν ὑπὲρ πάντων ὑμῶν, διὰ τὸ ἔχειν με ἐν τῇ καρδίᾳ ὑμᾶς, ἔν τε τοῖς δεσμοῖς μου καὶ ἐν τῇ ἀπολογίᾳ καὶ βεβαιώσει τοῦ εὐαγγελίου συγκοινωνούς μου τῆς χάριτος πάντας ὑμᾶς ὄντας.",
+      "text_kjv": "Even as it is meet for me to think this of you all, because I have you in my heart; inasmuch as both in my bonds, and in the defence and confirmation of the gospel, ye all are partakers of my grace.",
+      "rendering": "It is right for me to feel this way about all of you, because I hold you in my heart, since both in my imprisonment and in the defense and confirmation of the gospel, all of you are partners with me in grace.",
+      "translator_notes": [
+        "The phrase echein me en tee kardia hymas is ambiguous — it could mean 'I hold you in my heart' or 'you hold me in your heart.' Both are grammatically possible; we follow the former as the more natural subject-object order. The compound synkoinōnous ('co-partners, fellow-sharers') intensifies the koinōnia theme of verse 5."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 8,
+      "text_greek": "μάρτυς γάρ μου ὁ θεός, ὡς ἐπιποθῶ πάντας ὑμᾶς ἐν σπλάγχνοις Χριστοῦ Ἰησοῦ.",
+      "text_kjv": "For God is my record, how greatly I long after you all in the bowels of Jesus Christ.",
+      "rendering": "For God is my witness, how I long for all of you with the affection of Christ Jesus.",
+      "translator_notes": [
+        "The Greek splanchna ('intestines, inner organs') was the ancient seat of deep emotion, equivalent to the modern 'heart.' The KJV's literal 'bowels' is misleading in modern English. Paul claims that his longing for the Philippians originates not from natural affection but from Christ's own love working through him."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 9,
+      "text_greek": "καὶ τοῦτο προσεύχομαι, ἵνα ἡ ἀγάπη ὑμῶν ἔτι μᾶλλον καὶ μᾶλλον περισσεύῃ ἐν ἐπιγνώσει καὶ πάσῃ αἰσθήσει,",
+      "text_kjv": "And this I pray, that your love may abound yet more and more in knowledge and in all judgment;",
+      "rendering": "And this is my prayer: that your love may overflow more and more with knowledge and all discernment,",
+      "translator_notes": [
+        "Paul prays not merely for love but for love informed by epignōsis ('full knowledge, deep understanding') and aisthēsis ('perception, discernment, moral insight'). This is not sentimentality but a love that sees clearly and acts wisely."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 10,
+      "text_greek": "εἰς τὸ δοκιμάζειν ὑμᾶς τὰ διαφέροντα, ἵνα ἦτε εἰλικρινεῖς καὶ ἀπρόσκοποι εἰς ἡμέραν Χριστοῦ,",
+      "text_kjv": "That ye may approve things that are excellent; that ye may be sincere and without offence till the day of Christ;",
+      "rendering": "That you may approve things that are excellent. So you can become sincere and without offence till the day of Christ;.",
+      "translator_notes": [
+        "The verb dokimazein ('to test, examine, approve') means to distinguish what truly matters from what merely appears important. The adjective eilikrineis ('pure, sincere') may derive from heilē ('sunlight') and krinō ('to judge') — that which is judged genuine when examined in full light."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 11,
+      "text_greek": "πεπληρωμένοι καρπὸν δικαιοσύνης τὸν διὰ Ἰησοῦ Χριστοῦ εἰς δόξαν καὶ ἔπαινον θεοῦ.",
+      "text_kjv": "Being filled with the fruits of righteousness, which are by Jesus Christ, unto the glory and praise of God.",
+      "rendering": "Indeed, being overflowing with the fruits of righteousness, which are by Jesus Christ, to the glory and praise of God.",
+      "translator_notes": [
+        "The singular 'fruit' (karpon) follows the SBLGNT against the KJV's plural 'fruits.' Righteousness here is both status and conduct — the right standing before God that produces right living, all mediated through Christ. The phrase 'to the glory and praise of God' marks the goal of all Christian ethics in Paul's thought."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 12,
+      "text_greek": "Γινώσκειν δὲ ὑμᾶς βούλομαι, ἀδελφοί, ὅτι τὰ κατ' ἐμὲ μᾶλλον εἰς προκοπὴν τοῦ εὐαγγελίου ἐλήλυθεν,",
+      "text_kjv": "But I would ye should understand, brethren, that the things which happened unto me have fallen out rather unto the furtherance of the gospel;",
+      "rendering": "Now I want you to know, brothers and sisters, that what has happened to me has actually served to advance the gospel,",
+      "translator_notes": [
+        "The Greek adelphoi ('brothers') is used inclusively here for the entire congregation, hence 'brothers and sisters.' The word prokopē ('advancement, progress') was a Stoic term for moral progress; Paul repurposes it for the spread of the gospel. His imprisonment, which might seem a setback, has paradoxically furthered the mission."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 13,
+      "text_greek": "ὥστε τοὺς δεσμούς μου φανεροὺς ἐν Χριστῷ γενέσθαι ἐν ὅλῳ τῷ πραιτωρίῳ καὶ τοῖς λοιποῖς πᾶσιν,",
+      "text_kjv": "So that my bonds in Christ are manifest in all the palace, and in all other places;",
+      "rendering": "As a result, it has become widely known throughout the whole imperial guard — and to everyone else — that I am in chains for the sake of Christ.",
+      "translator_notes": [
+        "The praitōrion ('praetorium') could refer to the praetorian guard in Rome, the governor's residence in Caesarea, or a provincial headquarters in Ephesus. If Rome, Paul's chains have become a witness to the imperial guard itself. The phrase en Christō ('in Christ') modifies the imprisonment — his bonds are recognized as being 'for Christ' rather than for criminal activity."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 14,
+      "text_greek": "καὶ τοὺς πλείονας τῶν ἀδελφῶν ἐν κυρίῳ πεποιθότας τοῖς δεσμοῖς μου περισσοτέρως τολμᾶν ἀφόβως τὸν λόγον λαλεῖν.",
+      "text_kjv": "And many of the brethren in the Lord, waxing confident by my bonds, are much more bold to speak the word without fear.",
+      "rendering": "Numerous of the brothers and sisters in the Lord, waxing confident by my bonds, are much more bold to speak the message without fear.",
+      "translator_notes": [
+        "Paul's suffering has had the opposite of its intended effect: rather than silencing the movement, his imprisonment has emboldened other believers. The verb tolmaō ('to dare, to be bold') suggests courage in the face of real danger — these believers preach knowing that imprisonment is a real possibility."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 15,
+      "text_greek": "τινὲς μὲν καὶ διὰ φθόνον καὶ ἔριν, τινὲς δὲ καὶ δι' εὐδοκίαν τὸν Χριστὸν κηρύσσουσιν·",
+      "text_kjv": "Some indeed preach Christ even of envy and strife; and some also of good will:",
+      "rendering": "Some indeed proclaim Christ out of envy and rivalry, but others out of good will.",
+      "translator_notes": [
+        "Paul acknowledges a painful reality: not all who preach Christ do so with pure motives. The pair phthonon ('envy') and erin ('rivalry, strife') suggests personal antagonism toward Paul rather than doctrinal error — these preachers proclaim the true Christ but from corrupt motives."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 16,
+      "text_greek": "οἱ μὲν ἐξ ἀγάπης, εἰδότες ὅτι εἰς ἀπολογίαν τοῦ εὐαγγελίου κεῖμαι,",
+      "text_kjv": "The one preach Christ of contention, not sincerely, supposing to add affliction to my bonds:",
+      "rendering": "The latter do it out of love, knowing that I am put here for the defense of the gospel.",
+      "translator_notes": [
+        "The SBLGNT reverses the order found in the KJV's underlying text (Textus Receptus), placing the love-motivated group in verse 16 and the rivalry-motivated group in verse 17. We follow the SBLGNT order. The verb keimai ('I am placed, I am appointed') suggests Paul views his imprisonment as a divine assignment rather than a misfortune."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 17,
+      "text_greek": "οἱ δὲ ἐξ ἐριθείας τὸν Χριστὸν καταγγέλλουσιν, οὐχ ἁγνῶς, οἰόμενοι θλῖψιν ἐγείρειν τοῖς δεσμοῖς μου.",
+      "text_kjv": "But the other of love, knowing that I am set for the defence of the gospel.",
+      "rendering": "The former proclaim Christ out of selfish ambition, not sincerely, thinking to afflict me in my imprisonment.",
+      "translator_notes": [
+        "The Greek eritheia ('selfish ambition, self-seeking') originally referred to working for hire and came to mean partisan, self-interested maneuvering. These preachers aim to increase Paul's suffering by highlighting his confinement while they enjoy freedom. Despite their malice, Paul will rejoice that Christ is preached (v. 18)."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 18,
+      "text_greek": "τί γάρ; πλὴν ὅτι παντὶ τρόπῳ, εἴτε προφάσει εἴτε ἀληθείᾳ, Χριστὸς καταγγέλλεται, καὶ ἐν τούτῳ χαίρω. ἀλλὰ καὶ χαρήσομαι,",
+      "text_kjv": "What then? notwithstanding, every way, whether in pretence, or in truth, Christ is preached; and I therein do rejoice, yea, and will rejoice.",
+      "rendering": "What then? Only this: that in every way, whether from false motives or true, Christ is proclaimed, and in that I rejoice. Yes, and I will continue to rejoice,",
+      "translator_notes": [
+        "Paul's response to rivalrous preachers is astonishing generosity: as long as Christ is proclaimed, he rejoices regardless of the preacher's motives. The Greek prophasei ('pretext, false motive') contrasts with aletheia ('truth'). The shift from present chairō ('I rejoice') to future charēsomai ('I will rejoice') extends his joy from the present crisis into the future."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 19,
+      "text_greek": "οἶδα γὰρ ὅτι τοῦτό μοι ἀποβήσεται εἰς σωτηρίαν διὰ τῆς ὑμῶν δεήσεως καὶ ἐπιχορηγίας τοῦ πνεύματος Ἰησοῦ Χριστοῦ,",
+      "text_kjv": "For I know that this shall turn to my salvation through your prayer, and the supply of the Spirit of Jesus Christ,",
+      "rendering": "For I know that this will turn to my salvation by way of your petition, and the supply of the Spirit of Jesus Christ,.",
+      "translator_notes": [
+        "Paul echoes Job 13:16 (LXX: touto moi apobēsetai eis sōtērian). The word sōtēria here may mean spiritual salvation, physical release from prison, or vindication at trial. The 'supply' (epichorēgia, 'generous provision') of the Spirit is not a meager trickle but an abundant provision.",
+        "[TCR Cross-Reference] Echoes Job 13:16. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 20,
+      "text_greek": "κατὰ τὴν ἀποκαραδοκίαν καὶ ἐλπίδα μου, ὅτι ἐν οὐδενὶ αἰσχυνθήσομαι ἀλλ' ἐν πάσῃ παρρησίᾳ ὡς πάντοτε καὶ νῦν μεγαλυνθήσεται Χριστὸς ἐν τῷ σώματί μου, εἴτε διὰ ζωῆς εἴτε διὰ θανάτου.",
+      "text_kjv": "According to my earnest expectation and my hope, that in nothing I shall be ashamed, but that with all boldness, as always, so now also Christ shall be magnified in my body, whether it be by life, or by death.",
+      "rendering": "According to my earnest expectation and my confident expectation, that in nothing I will be ashamed, but that with all boldness, as always, so now also Christ will be magnified in my body, whether it be by life, or by death.",
+      "translator_notes": [
+        "The rare compound apokaradokia ('eager expectation') literally suggests craning the neck forward in anticipation. Paul's singular concern is not his own survival but that Christ be 'magnified' (megalynthēsetai) in his body — whether that body lives or dies. The phrase 'whether by life or by death' sets up the extraordinary meditation in verses 21-26."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 21,
+      "text_greek": "ἐμοὶ γὰρ τὸ ζῆν Χριστὸς καὶ τὸ ἀποθανεῖν κέρδος.",
+      "text_kjv": "For to me to live is Christ, and to die is gain.",
+      "rendering": "And to die is gain, and for to me to live is Christ.",
+      "translator_notes": [
+        "This is one of the most compressed and profound statements in the Pauline corpus. The Greek lacks a verb — literally 'to me the living Christ and the dying gain.' Life is not merely lived for Christ or with Christ but is Christ — existence itself is absorbed into Christ's person. If living is already Christ, then death can only bring more of him, hence 'gain' (kerdos). The logic is airtight: Paul cannot lose."
+      ],
+      "key_terms": [
+        {
+          "greek": "κέρδος",
+          "transliteration": "kerdos",
+          "rendered_as": "gain",
+          "semantic_range": "gain, profit, advantage",
+          "note": "A commercial term — profit, return on investment. Paul uses marketplace language to describe death as a net positive, because it means unmediated presence with Christ (v. 23)."
+        }
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 22,
+      "text_greek": "εἰ δὲ τὸ ζῆν ἐν σαρκί, τοῦτό μοι καρπὸς ἔργου· καὶ τί αἱρήσομαι οὐ γνωρίζω.",
+      "text_kjv": "But if I live in the flesh, this is the fruit of my labour: yet what I shall choose I wot not.",
+      "rendering": "If I am to go on living in the body, that means fruitful labor for me. Yet which I will choose I cannot tell.",
+      "translator_notes": [
+        "The syntax is notoriously difficult. Paul seems to say: if continued life in the body means productive ministry ('fruit of labor'), then he genuinely does not know which to prefer — death with Christ or fruitful service. The verb hairēsomai ('I will choose') is striking, as if the choice were actually his to make."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 23,
+      "text_greek": "συνέχομαι δὲ ἐκ τῶν δύο, τὴν ἐπιθυμίαν ἔχων εἰς τὸ ἀναλῦσαι καὶ σὺν Χριστῷ εἶναι, πολλῷ γὰρ μᾶλλον κρεῖσσον·",
+      "text_kjv": "For I am in a strait betwixt two, having a desire to depart, and to be with Christ; which is far better:",
+      "rendering": "I am hard-pressed between the two. My desire is to depart and be with Christ, for that is far better.",
+      "translator_notes": [
+        "The verb synechomai ('I am pressed, constrained') conveys being squeezed from both sides. The verb analysai ('to depart, to break camp, to set sail') is a metaphor for death — either striking a tent (a soldier's image) or loosing a ship from its moorings. Paul's conviction that death means being 'with Christ' (syn Christō) reflects a personal eschatology of immediate presence with Christ after death."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 24,
+      "text_greek": "τὸ δὲ ἐπιμένειν ἐν τῇ σαρκὶ ἀναγκαιότερον δι' ὑμᾶς.",
+      "text_kjv": "Nevertheless to abide in the flesh is more needful for you.",
+      "rendering": "But to remain in the body is more necessary for your sake.",
+      "translator_notes": [
+        "Paul resolves the tension of verses 21-23 in favor of continued life — not because life is better for him, but because it is more necessary (anangkaioteron) for the Philippians. His pastoral love overrides his personal preference. The shift from 'flesh' (sarx) to 'body' in our rendering avoids the negative connotations 'flesh' carries elsewhere in Paul."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 25,
+      "text_greek": "καὶ τοῦτο πεποιθὼς οἶδα ὅτι μενῶ καὶ παραμενῶ πᾶσιν ὑμῖν εἰς τὴν ὑμῶν προκοπὴν καὶ χαρὰν τῆς πίστεως,",
+      "text_kjv": "And having this confidence, I know that I shall abide and continue with you all for your furtherance and joy of faith;",
+      "rendering": "Convinced of this, I know that I will remain and continue with all of you for your progress and joy in the faith,",
+      "translator_notes": [
+        "The verbs menō ('remain') and paramenō ('continue alongside') are nearly synonymous, creating emphasis through repetition. Paul expresses confidence in his release, though this is pastoral assurance rather than prophetic certainty. The pair prokopē ('progress') and chara ('joy') captures Paul's dual goal for the Philippians — growth and gladness."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 26,
+      "text_greek": "ἵνα τὸ καύχημα ὑμῶν περισσεύῃ ἐν Χριστῷ Ἰησοῦ ἐν ἐμοὶ διὰ τῆς ἐμῆς παρουσίας πάλιν πρὸς ὑμᾶς.",
+      "text_kjv": "That your rejoicing may be more abundant in Jesus Christ for me by my coming to you again.",
+      "rendering": "Then when I come to you again, you will have even more reason to be proud in Christ Jesus because of me.",
+      "translator_notes": [
+        "The Greek kauchēma ('boast, ground of boasting') is not sinful pride but legitimate exultation — and it is 'in Christ Jesus,' not in human achievement. Paul envisions his return to Philippi as occasion for the church to celebrate God's faithfulness in preserving his life."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 27,
+      "text_greek": "Μόνον ἀξίως τοῦ εὐαγγελίου τοῦ Χριστοῦ πολιτεύεσθε, ἵνα εἴτε ἐλθὼν καὶ ἰδὼν ὑμᾶς εἴτε ἀπὼν ἀκούω τὰ περὶ ὑμῶν, ὅτι στήκετε ἐν ἑνὶ πνεύματι, μιᾷ ψυχῇ συναθλοῦντες τῇ πίστει τοῦ εὐαγγελίου,",
+      "text_kjv": "Only let your conversation be as it becometh the gospel of Christ: that whether I come and see you, or else be absent, I may hear of your affairs, that ye stand fast in one spirit, with one mind striving together for the faith of the gospel;",
+      "rendering": "Only this: live as citizens worthy of the gospel of Christ, so that whether I come and see you or am absent, I may hear that you are standing firm in one spirit, contending side by side with one mind for the faith of the gospel,",
+      "translator_notes": [
+        "The verb politeuesthe ('live as citizens, conduct yourselves as citizens') is loaded with meaning for the Philippians, who held Roman citizenship as residents of a Roman colony. Paul calls them to a higher citizenship — one defined by the gospel rather than by Rome. The athletic metaphor synathleō ('to contend together, to compete as teammates') pictures the church as a team striving in unified effort."
+      ],
+      "key_terms": [
+        {
+          "greek": "πολιτεύεσθε",
+          "transliteration": "politeuesthe",
+          "rendered_as": "live as citizens",
+          "semantic_range": "to live as a citizen, to conduct oneself, to govern one's life",
+          "note": "The KJV's 'conversation' (meaning 'conduct' in 1611 English) misses the citizenship dimension. Philippi was a Roman colony whose residents prized their Roman citizenship; Paul redirects that civic pride toward the gospel."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 28,
+      "text_greek": "καὶ μὴ πτυρόμενοι ἐν μηδενὶ ὑπὸ τῶν ἀντικειμένων, ἥτις ἐστὶν αὐτοῖς ἔνδειξις ἀπωλείας, ὑμῶν δὲ σωτηρίας, καὶ τοῦτο ἀπὸ θεοῦ·",
+      "text_kjv": "And in nothing terrified by your adversaries: which is to them an evident token of perdition, but to you of salvation, and that of God.",
+      "rendering": "In nothing intimidated by those who oppose you — which is to them a clear sign of their destruction, but to you of salvation, and that of God.",
+      "translator_notes": [
+        "The verb ptyromai ('to be frightened, startled') is used of horses shying at danger. The Philippians' fearless stand serves as a double sign: it signals the opponents' destruction (apōleia) and the believers' salvation (sōtēria). The final phrase 'and that from God' (kai touto apo theou) means that both the sign and the salvation originate from God."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 29,
+      "text_greek": "ὅτι ὑμῖν ἐχαρίσθη τὸ ὑπὲρ Χριστοῦ, οὐ μόνον τὸ εἰς αὐτὸν πιστεύειν ἀλλὰ καὶ τὸ ὑπὲρ αὐτοῦ πάσχειν,",
+      "text_kjv": "For unto you it is given in the behalf of Christ, not only to believe on him, but also to suffer for his sake;",
+      "rendering": "For it has been granted to you that for the sake of Christ you should not only believe in him but also suffer for his sake,",
+      "translator_notes": [
+        "The verb echaristhē ('it has been graciously given') shares the root of charis ('grace'). Suffering, like faith, is presented as a gift — a startling claim that reframes persecution as divine privilege rather than misfortune. This theology of suffering as gift is distinctly Pauline."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 30,
+      "text_greek": "τὸν αὐτὸν ἀγῶνα ἔχοντες οἷον εἴδετε ἐν ἐμοὶ καὶ νῦν ἀκούετε ἐν ἐμοί.",
+      "text_kjv": "Having the same conflict which ye saw in me, and now hear to be in me.",
+      "rendering": "Having the same conflict which you noticed in me, and now hear to be in me.",
+      "translator_notes": [
+        "The Greek agōn ('struggle, contest, fight') is an athletic term for a competitive event. The Philippians witnessed Paul's struggle firsthand when he was beaten and imprisoned in their city (Acts 16:19-40), and now they hear of his continued imprisonment. Their own suffering mirrors his — they share the same contest."
+      ],
+      "reading_level": "7th grade"
+    }
+  ]
+}

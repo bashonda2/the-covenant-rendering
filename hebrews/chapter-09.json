@@ -1,0 +1,350 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Hebrews",
+    "chapter": 9,
+    "source_text": "SBL Greek New Testament (SBLGNT)",
+    "reference_text": "KJV",
+    "generated_at": "2026-04-04T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Hebrews 9 provides a detailed comparison between the earthly tabernacle and the heavenly sanctuary. The chapter describes the furniture and rituals of the old covenant tabernacle (verses 1-10), then declares that Christ entered the heavenly sanctuary once for all through his own blood, obtaining eternal redemption (verses 11-14). Christ is the mediator of the new covenant, and his death is both sacrifice and testament-inauguration (verses 15-22). The chapter climaxes with the declaration that Christ appeared once at the end of the ages to put away sin by the sacrifice of himself, and will appear a second time not to deal with sin but to save those who are eagerly waiting for him (verses 23-28).",
+    "remarkable": "The tabernacle typology is the most sustained in the New Testament. The author describes the outer and inner sanctuaries, their furnishings, and the annual Day of Atonement ritual, all as shadows of Christ's work. The phrase 'once for all' (ephapax, verse 12) is the theological center of gravity. The double-entendre of diathēkē as both 'covenant' and 'testament/will' (verses 16-17) is a unique wordplay that works because a will requires the testator's death.",
+    "friction": "The author's description of the tabernacle furniture (verses 2-5) contains some details that differ from the Old Testament layout (e.g., the golden altar of incense placed inside the Holy of Holies rather than outside). Scholars debate whether this reflects a different tradition, a theological point about the altar's function, or the Day of Atonement ritual when incense entered the inner chamber. We render the text as written and note the discrepancy.",
+    "connections": "The tabernacle description draws on Exodus 25-30. The Day of Atonement ritual follows Leviticus 16. The blood-of-the-covenant language echoes Exodus 24:8 and Jesus's words at the Last Supper (Mark 14:24). The 'once for all' theme connects to 7:27 and 10:10. Christ's second appearing (verse 28) connects to the eschatological hope throughout the New Testament.\n\n**Tradition comparisons:** The Latin Vulgate shaped Western theology here: Per proprium sanguinem introivit semel in sancta (by his own blood he entered once into the holy places) — semel (once, once for all) became the key word for the unrepeatable sufficiency of Christ's s... (2 notable Vulgate renderings in this chapter) See the [Vulgate Hebrews](/vulgate/hebrews)."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_greek": "Εἶχε μὲν οὖν καὶ ἡ πρώτη δικαιώματα λατρείας τό τε ἅγιον κοσμικόν.",
+      "text_kjv": "Then verily the first covenant had also ordinances of divine service, and a worldly sanctuary.",
+      "rendering": "Now even the first covenant had regulations for worship and an earthly sanctuary.",
+      "translator_notes": [
+        "The adjective kosmikon ('earthly, worldly, of this world') does not mean 'cosmetic' or 'ornamental' but 'belonging to this created order' — as opposed to the heavenly sanctuary. The word dikaiōmata ('regulations, ordinances') refers to the divinely prescribed rules of worship. The author acknowledges the first covenant had legitimate worship — it was real but provisional."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 2,
+      "text_greek": "σκηνὴ γὰρ κατεσκευάσθη ἡ πρώτη ἐν ᾗ ἥ τε λυχνία καὶ ἡ τράπεζα καὶ ἡ πρόθεσις τῶν ἄρτων, ἥτις λέγεται Ἅγια·",
+      "text_kjv": "For there was a tabernacle made; the first, wherein was the candlestick, and the table, and the shewbread; which is called the sanctuary.",
+      "rendering": "For a tent was prepared — the outer section — in which were the lampstand, the table, and the bread of the Presence. This is called the Holy Place.",
+      "translator_notes": [
+        "The author describes the tabernacle's two-chamber structure from Exodus 26. The 'first' (prōtē) tent is the outer chamber, the Holy Place. Its furnishings are: the lampstand (lychnia, the seven-branched menorah of Exodus 25:31-40), the table (trapeza, for the showbread, Exodus 25:23-30), and the prothesis tōn artōn ('the setting forth of the bread,' the bread of the Presence renewed weekly). We render 'the Holy Place' (Hagia) to distinguish it from the inner chamber.",
+        "[TCR Cross-Reference] Draws on Exodus 26. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices.",
+        "[TCR Cross-Reference] Draws on Exodus 25:31-40. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 3,
+      "text_greek": "μετὰ δὲ τὸ δεύτερον καταπέτασμα σκηνὴ ἡ λεγομένη Ἅγια Ἁγίων,",
+      "text_kjv": "And after the second veil, the tabernacle which is called the Holiest of all;",
+      "rendering": "Behind the second curtain was a tent called the Most Holy Place.",
+      "translator_notes": [
+        "The 'second curtain' (deuteron katapetasma) separated the Holy Place from the Most Holy Place (Hagia Hagiōn, literally 'Holy of Holies'). Only the high priest could pass this curtain, and only once a year on the Day of Atonement (Leviticus 16:2). This curtain is the same one that the author says Jesus has passed through (6:19, 10:20).",
+        "[TCR Cross-Reference] References Leviticus 16:2 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 4,
+      "text_greek": "χρυσοῦν ἔχουσα θυμιατήριον καὶ τὴν κιβωτὸν τῆς διαθήκης περικεκαλυμμένην πάντοθεν χρυσίῳ, ἐν ᾗ στάμνος χρυσῆ ἔχουσα τὸ μάννα καὶ ἡ ῥάβδος Ἀαρὼν ἡ βλαστήσασα καὶ αἱ πλάκες τῆς διαθήκης,",
+      "text_kjv": "Which had the golden censer, and the ark of the covenant overlaid round about with gold, wherein was the golden pot that had manna, and Aaron's rod that budded, and the tables of the covenant;",
+      "rendering": "It had the golden altar of incense and the ark of the covenant covered on all sides with gold, in which were a golden jar holding the manna, Aaron's staff that budded, and the tablets of the covenant.",
+      "translator_notes": [
+        "The word thymiatērion can mean either 'censer' (a portable incense burner) or 'altar of incense.' In the Old Testament, the altar of incense stood in the Holy Place, not in the Most Holy Place (Exodus 30:6). The author may be associating it with the inner room because on the Day of Atonement the high priest brought incense inside the curtain (Leviticus 16:12-13), or he may be describing a functional relationship rather than physical location. The three items inside the ark — manna (Exodus 16:33), Aaron's budded staff (Numbers 17:10), and the tablets (Exodus 25:16) — are all covenant tokens.",
+        "[TCR Cross-Reference] Echoes Exodus 30:6. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale.",
+        "[TCR Cross-Reference] Echoes Leviticus 16:12-13. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale.",
+        "[TCR Cross-Reference] Echoes Exodus 16:33. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale.",
+        "[TCR Cross-Reference] Echoes Numbers 17:10. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale.",
+        "[TCR Cross-Reference] Echoes Exodus 25:16. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 5,
+      "text_greek": "ὑπεράνω δὲ αὐτῆς Χερουβὶν δόξης κατασκιάζοντα τὸ ἱλαστήριον· περὶ ὧν οὐκ ἔστιν νῦν λέγειν κατὰ μέρος.",
+      "text_kjv": "And over it the cherubims of glory shadowing the mercyseat; of which we cannot now speak particularly.",
+      "rendering": "Above the ark were the cherubim of glory overshadowing the mercy seat. But we cannot speak about these things in detail now.",
+      "translator_notes": [
+        "The cherubim (Cheroubin doxēs, 'cherubim of glory') are the golden figures described in Exodus 25:18-22, their wings forming the space where God's presence was manifest. The word hilastērion ('mercy seat, place of atonement') is the same word Paul uses in Romans 3:25 for Christ as the 'place of atonement.' It is the lid of the ark where the high priest sprinkled blood on the Day of Atonement. The author deliberately abbreviates — his purpose is not a tour of the tabernacle but the contrast between the old system and Christ.",
+        "[TCR Cross-Reference] This verse quotes Exodus 25:18-22 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "key_terms": [
+        {
+          "greek": "ἱλαστήριον",
+          "transliteration": "hilastērion",
+          "rendered_as": "mercy seat",
+          "semantic_range": "mercy seat, place of atonement, means of expiation, propitiatory",
+          "note": "The Greek translation of the Hebrew kapporet — the gold lid of the ark where blood was sprinkled on the Day of Atonement. It was the place where God and humanity met through the covering of sin."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 6,
+      "text_greek": "Τούτων δὲ οὕτως κατεσκευασμένων εἰς μὲν τὴν πρώτην σκηνὴν διὰ παντὸς εἰσίασιν οἱ ἱερεῖς τὰς λατρείας ἐπιτελοῦντες,",
+      "text_kjv": "Now when these things were thus ordained, the priests went always into the first tabernacle, accomplishing the service of God.",
+      "rendering": "With these arrangements in place, the priests continually enter the outer tent to carry out their duties of worship,",
+      "translator_notes": [
+        "The regular priests entered the Holy Place daily to tend the lampstand, set out the bread, and offer incense. The phrase dia pantos ('continually, at all times') emphasizes the repetitive nature of this service. The author's point will become clear in contrast: where the ordinary priests go continually, the high priest goes once a year (verse 7), and Christ goes once for all (verse 12)."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 7,
+      "text_greek": "εἰς δὲ τὴν δευτέραν ἅπαξ τοῦ ἐνιαυτοῦ μόνος ὁ ἀρχιερεύς, οὐ χωρὶς αἵματος ὃ προσφέρει ὑπὲρ ἑαυτοῦ καὶ τῶν τοῦ λαοῦ ἀγνοημάτων,",
+      "text_kjv": "But into the second went the high priest alone once every year, not without blood, which he offered for himself, and for the errors of the people:",
+      "rendering": "However, into the second traveled the high priest alone once every year, not apart from blood, which he offered for himself, and for the errors of the people.",
+      "translator_notes": [
+        "Three restrictions govern the high priest's access to the Most Holy Place: only the high priest (monos), only once a year (hapax tou eniautou, on the Day of Atonement), and never without blood (ou chōris haimatos). These limitations demonstrate the imperfection of the system — access to God's presence was severely restricted. The word agnoēmatōn ('sins of ignorance, unintentional errors') refers to sins committed unknowingly, following Leviticus 4-5. Deliberate, defiant sins had no sacrificial remedy under the old system (Numbers 15:30-31).",
+        "[TCR Cross-Reference] Draws on Leviticus 4-5. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices.",
+        "[TCR Cross-Reference] Draws on Numbers 15:30-31. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 8,
+      "text_greek": "τοῦτο δηλοῦντος τοῦ πνεύματος τοῦ ἁγίου, μήπω πεφανερῶσθαι τὴν τῶν ἁγίων ὁδὸν ἔτι τῆς πρώτης σκηνῆς ἐχούσης στάσιν,",
+      "text_kjv": "The Holy Ghost this signifying, that the way into the holiest of all was not yet made manifest, while as the first tabernacle was yet standing:",
+      "rendering": "By this the Holy Spirit was showing that the way into the Most Holy Place had not yet been disclosed as long as the outer tent still had standing.",
+      "translator_notes": [
+        "The Holy Spirit is identified as the interpreter of tabernacle symbolism — the physical structure communicated a spiritual lesson. The closed curtain between the two chambers was not merely a liturgical boundary but a divine sign: full access to God's presence was 'not yet disclosed' (mēpō pephanerōsthai). The phrase 'still had standing' (eti echousēs stasin) could refer to the physical first chamber of the tabernacle or, figuratively, to the entire old covenant system."
+      ],
+      "reading_level": "10th grade"
+    },
+    {
+      "verse": 9,
+      "text_greek": "ἥτις παραβολὴ εἰς τὸν καιρὸν τὸν ἐνεστηκότα, καθ' ἣν δῶρά τε καὶ θυσίαι προσφέρονται μὴ δυνάμεναι κατὰ συνείδησιν τελειῶσαι τὸν λατρεύοντα,",
+      "text_kjv": "Which was a figure for the time then present, in which were offered both gifts and sacrifices, that could not make him that did the service perfect, as pertaining to the conscience;",
+      "rendering": "This is a symbol for the present time, during which gifts and sacrifices are offered that cannot perfect the conscience of the worshiper,",
+      "translator_notes": [
+        "The word parabolē ('symbol, parable, illustration') identifies the tabernacle as a parabolic structure — it teaches by analogy. The critical phrase is kata syneidēsin teleiōsai ('to perfect with respect to conscience'). The old sacrifices could not cleanse the inner person — they dealt with external ritual purity but left the conscience (syneidēsis, the internal moral awareness) unresolved. This is the fundamental deficiency Christ's sacrifice addresses (verse 14)."
+      ],
+      "reading_level": "10th grade"
+    },
+    {
+      "verse": 10,
+      "text_greek": "μόνον ἐπὶ βρώμασιν καὶ πόμασιν καὶ διαφόροις βαπτισμοῖς, δικαιώματα σαρκὸς μέχρι καιροῦ διορθώσεως ἐπικείμενα.",
+      "text_kjv": "Which stood only in meats and drinks, and divers washings, and carnal ordinances, imposed on them until the time of reformation.",
+      "rendering": "These were outward regulations about food, drink, and various ceremonial washings — rules that applied only until the time when God would set things right.",
+      "translator_notes": [
+        "The phrase dikaiōmata sarkos ('regulations for the body/flesh') characterizes the old system as externally focused — food laws, drink laws, and ritual washings (baptismois, cf. 6:2). The word diorthōseōs ('new order, reformation, setting right') is used only here in the New Testament. It describes the time when the external, provisional regulations would be replaced by internal, permanent realities. The author identifies that time as the present — Christ's coming is the diorthōsis."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 11,
+      "text_greek": "Χριστὸς δὲ παραγενόμενος ἀρχιερεὺς τῶν γενομένων ἀγαθῶν διὰ τῆς μείζονος καὶ τελειοτέρας σκηνῆς οὐ χειροποιήτου, τοῦτ' ἔστιν οὐ ταύτης τῆς κτίσεως,",
+      "text_kjv": "But Christ being come an high priest of good things to come, by a greater and more perfect tabernacle, not made with hands, that is to say, not of this building;",
+      "rendering": "But when Christ appeared as high priest of the good things that have come, he entered through the greater and more perfect tent — not made with hands, that is, not of this creation —",
+      "translator_notes": [
+        "The Greek shifts dramatically from the old system to Christ. Some manuscripts read 'good things to come' (mellontōn) rather than 'good things that have come' (genomenōn); the SBLGNT reads genomenōn, emphasizing that the good things are already realized in Christ. The heavenly tent is described by three negatives: not made with hands (ou cheiropoiētou), not of this creation (ou tautēs tēs ktiseōs) — it belongs to an entirely different order of reality."
+      ],
+      "reading_level": "10th grade"
+    },
+    {
+      "verse": 12,
+      "text_greek": "οὐδὲ δι' αἵματος τράγων καὶ μόσχων, διὰ δὲ τοῦ ἰδίου αἵματος εἰσῆλθεν ἐφάπαξ εἰς τὰ ἅγια αἰωνίαν λύτρωσιν εὑράμενος.",
+      "text_kjv": "Neither by the blood of goats and calves, but by his own blood he entered in once into the holy place, having obtained eternal redemption for us.",
+      "rendering": "Neither by the lifeblood of goats and calves, but by his own lifeblood he went into in once into the sacred location, possessing obtained eternal redemption for us.",
+      "translator_notes": [
+        "This verse is the theological center of Hebrews. Three contrasts with the Day of Atonement ritual: the medium (animal blood versus his own blood), the frequency (annually versus once for all, ephapax), and the result (temporary cleansing versus eternal redemption, aiōnian lytrōsin). The word lytrōsin ('redemption, ransoming, liberation by payment') evokes the Old Testament go'el — the kinsman who pays the price to set family members free. Christ's blood is both the means of entry and the price of redemption."
+      ],
+      "key_terms": [
+        {
+          "greek": "ἐφάπαξ",
+          "transliteration": "ephapax",
+          "rendered_as": "once for all",
+          "semantic_range": "once for all, once and never again, definitively",
+          "note": "This adverb is the defining word of Hebrews' sacrificial theology. It asserts that Christ's sacrifice needs no repetition, no supplement, and no renewal. It is complete."
+        },
+        {
+          "greek": "λύτρωσιν",
+          "transliteration": "lytrōsin",
+          "rendered_as": "redemption",
+          "semantic_range": "redemption, ransoming, liberation, deliverance",
+          "note": "From lytron ('ransom price'). Christ's blood functions as the ransom that secures permanent freedom — not annual, temporary cleansing but eternal liberation."
+        }
+      ],
+      "reading_level": "10th grade"
+    },
+    {
+      "verse": 13,
+      "text_greek": "εἰ γὰρ τὸ αἷμα τράγων καὶ ταύρων καὶ σποδὸς δαμάλεως ῥαντίζουσα τοὺς κεκοινωμένους ἁγιάζει πρὸς τὴν τῆς σαρκὸς καθαρότητα,",
+      "text_kjv": "For if the blood of bulls and of goats, and the ashes of an heifer sprinkling the unclean, sanctifieth to the purifying of the flesh:",
+      "rendering": "For if the blood of goats and bulls and the ashes of a heifer sprinkled on those who are ceremonially unclean sanctify them for the purification of the body,",
+      "translator_notes": [
+        "The argument is from lesser to greater (a fortiori). The three ritual elements — blood of goats, blood of bulls (Day of Atonement, Leviticus 16), and ashes of a heifer (the red heifer ceremony, Numbers 19) — achieved genuine but limited cleansing: purification of the 'flesh' (sarkos), meaning external ritual purity. The author concedes the old system's effectiveness within its domain before arguing for Christ's greater effectiveness.",
+        "[TCR Cross-Reference] References Leviticus 16 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved.",
+        "[TCR Cross-Reference] References Numbers 19 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 14,
+      "text_greek": "πόσῳ μᾶλλον τὸ αἷμα τοῦ Χριστοῦ, ὃς διὰ πνεύματος αἰωνίου ἑαυτὸν προσήνεγκεν ἄμωμον τῷ θεῷ, καθαριεῖ τὴν συνείδησιν ἡμῶν ἀπὸ νεκρῶν ἔργων εἰς τὸ λατρεύειν θεῷ ζῶντι.",
+      "text_kjv": "How much more shall the blood of Christ, who through the eternal Spirit offered himself without spot to God, purge your conscience from dead works to serve the living God?",
+      "rendering": "Purge your conscience from dead works to serve the living god?, how much more will the blood of Christ, who through the eternal Spirit offered himself without spot to God.",
+      "translator_notes": [
+        "The phrase posō mallon ('how much more') completes the a fortiori argument. Three elements make Christ's sacrifice superior: the agent (Christ, not an animal), the means (through the eternal Spirit, not through ritual procedure), and the quality (without blemish, amōmon — the sacrificial perfection requirement of Leviticus 1:3 applied to Christ's moral perfection). The result penetrates where the old system could not: it cleanses the conscience (syneidēsin), not just the body. The purpose is positive — not merely forgiveness but enablement: 'to serve the living God' (latreuein theō zōnti).",
+        "[TCR Cross-Reference] Echoes Leviticus 1:3. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "10th grade"
+    },
+    {
+      "verse": 15,
+      "text_greek": "Καὶ διὰ τοῦτο διαθήκης καινῆς μεσίτης ἐστίν, ὅπως θανάτου γενομένου εἰς ἀπολύτρωσιν τῶν ἐπὶ τῇ πρώτῃ διαθήκῃ παραβάσεων τὴν ἐπαγγελίαν λάβωσιν οἱ κεκλημένοι τῆς αἰωνίου κληρονομίας.",
+      "text_kjv": "And for this cause he is the mediator of the new testament, that by means of death, for the redemption of the transgressions that were under the first testament, they which are called might receive the promise of eternal inheritance.",
+      "rendering": "For this reason he is the mediator of a new covenant, so that those who are called may receive the promised eternal inheritance, since a death has occurred that redeems them from the transgressions committed under the first covenant.",
+      "translator_notes": [
+        "Christ's death has retroactive power — it atones for sins committed under the first covenant as well as the second. The word apolytrōsin ('redemption, ransoming') extends the liberation language of verse 12. The phrase 'those who are called' (hoi keklēmenoi) uses the perfect passive — their calling is a completed divine act with ongoing effect. The 'eternal inheritance' (aiōniou klēronomias) echoes the inheritance language of 1:2, 14."
+      ],
+      "reading_level": "10th grade"
+    },
+    {
+      "verse": 16,
+      "text_greek": "ὅπου γὰρ διαθήκη, θάνατον ἀνάγκη φέρεσθαι τοῦ διαθεμένου·",
+      "text_kjv": "For where a testament is, there must also of necessity be the death of the testator.",
+      "rendering": "For where a will is involved, the death of the one who made it must be established.",
+      "translator_notes": [
+        "The author exploits the double meaning of diathēkē: in verses 15 and earlier, it means 'covenant'; here and in verse 17, it means 'will/testament.' A will becomes operative only when the testator dies. The wordplay works because the same Greek word serves both legal concepts. This is not a switch in meaning but an exploitation of the semantic overlap — Christ's death activates the new covenant just as a death activates a will."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 17,
+      "text_greek": "διαθήκη γὰρ ἐπὶ νεκροῖς βεβαία, ἐπεὶ μήποτε ἰσχύει ὅτε ζῇ ὁ διαθέμενος.",
+      "text_kjv": "For a testament is of force after men are dead: otherwise it is of no strength at all while the testator liveth.",
+      "rendering": "For a will takes effect only at death; it has no force while the one who made it is still alive.",
+      "translator_notes": [
+        "The legal principle is straightforward: a will is valid (bebaia, 'secure, in force') only after the testator's death. It has no legal power (ischyei, 'is strong, is operative') during the testator's lifetime. Applied to Christ: the new covenant's blessings became operative through his death. This is the author's explanation of why the new covenant required a death — not merely to provide blood for sacrifice but to activate the testamentary provisions."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 18,
+      "text_greek": "Ὅθεν οὐδὲ ἡ πρώτη χωρὶς αἵματος ἐγκεκαίνισται.",
+      "text_kjv": "Whereupon neither the first testament was dedicated without blood.",
+      "rendering": "Therefore not even the first covenant was inaugurated without blood.",
+      "translator_notes": [
+        "The verb engekainistai ('was inaugurated, was dedicated, was put into effect') indicates the formal activation of the covenant. The principle applies universally: both covenants required blood for their inauguration. The first covenant's inauguration with blood (Exodus 24:3-8) foreshadowed the new covenant's inauguration with Christ's blood.",
+        "[TCR Cross-Reference] References Exodus 24:3-8 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 19,
+      "text_greek": "λαληθείσης γὰρ πάσης ἐντολῆς κατὰ τὸν νόμον ὑπὸ Μωϋσέως παντὶ τῷ λαῷ, λαβὼν τὸ αἷμα τῶν μόσχων καὶ τῶν τράγων μετὰ ὕδατος καὶ ἐρίου κοκκίνου καὶ ὑσσώπου αὐτό τε τὸ βιβλίον καὶ πάντα τὸν λαὸν ἐράντισεν",
+      "text_kjv": "For when Moses had spoken every precept to all the people according to the law, he took the blood of calves and of goats, with water, and scarlet wool, and hyssop, and sprinkled both the book, and all the people,",
+      "rendering": "For when every commandment of the law had been declared by Moses to all the people, he took the blood of calves and goats, with water and scarlet wool and hyssop, and sprinkled both the scroll itself and all the people,",
+      "translator_notes": [
+        "The author describes the covenant inauguration ceremony of Exodus 24:3-8, adding details not found in the Exodus account (goats, water, scarlet wool, hyssop, and sprinkling of the scroll). These additional elements may come from a tradition that combined the covenant ceremony with the Day of Atonement and red heifer rituals, or from a textual tradition no longer extant. The hyssop and scarlet wool appear in the red heifer ceremony (Numbers 19) and the leper cleansing (Leviticus 14).",
+        "[TCR Cross-Reference] Echoes Exodus 24:3-8. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale.",
+        "[TCR Cross-Reference] Echoes Numbers 19. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale.",
+        "[TCR Cross-Reference] Echoes Leviticus 14. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 20,
+      "text_greek": "λέγων· Τοῦτο τὸ αἷμα τῆς διαθήκης ἧς ἐνετείλατο πρὸς ὑμᾶς ὁ θεός.",
+      "text_kjv": "Saying, This is the blood of the testament which God hath enjoined unto you.",
+      "rendering": "Indeed, declaring, This is the blood of the testament which God has enjoined to you.",
+      "translator_notes": [
+        "Quoting Exodus 24:8 with slight modification. The Hebrew/LXX reads 'which the LORD has made with you'; the author writes 'which God has commanded for you' (eneteilato pros hymas). The verb eneteilato ('commanded') emphasizes the obligatory nature of the covenant. Jesus's words at the Last Supper — 'This is my blood of the covenant' (Mark 14:24) — deliberately echo this covenant-inauguration language.",
+        "[TCR Cross-Reference] This verse quotes Exodus 24:8 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 21,
+      "text_greek": "καὶ τὴν σκηνὴν δὲ καὶ πάντα τὰ σκεύη τῆς λειτουργίας τῷ αἵματι ὁμοίως ἐράντισεν.",
+      "text_kjv": "Moreover he sprinkled with blood both the tabernacle, and all the vessels of the ministry.",
+      "rendering": "And in the same way he sprinkled the tent and all the vessels used in worship with blood.",
+      "translator_notes": [
+        "The sprinkling of the tabernacle and its vessels with blood is not directly recorded in Exodus 24 but is attested in Leviticus 8:15, 19 (the consecration of the tabernacle) and in Josephus (Antiquities 3.206). Every element of the worship system was consecrated by blood, reinforcing the principle of verse 22.",
+        "[TCR Cross-Reference] Quotes Exodus 24. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it.",
+        "[TCR Cross-Reference] Quotes Leviticus 8:15. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 22,
+      "text_greek": "καὶ σχεδὸν ἐν αἵματι πάντα καθαρίζεται κατὰ τὸν νόμον καὶ χωρὶς αἱματεκχυσίας οὐ γίνεται ἄφεσις.",
+      "text_kjv": "And almost all things are by the law purged with blood; and without shedding of blood is no remission.",
+      "rendering": "Indeed, under the law almost everything is purified with blood, and without the shedding of blood there is no forgiveness.",
+      "translator_notes": [
+        "The qualifier 'almost' (schedon) is precise — some purification under the law used water (Numbers 31:23), fire (Numbers 31:23), or flour (Leviticus 5:11-13) rather than blood. But the general principle stands: blood is the primary means of purification and atonement. The final clause — chōris haimatekchysias ou ginetai aphesis ('without blood-shedding there is no forgiveness/release') — is one of the most foundational statements in biblical theology. The word haimatekchysias ('blood-shedding') appears only here in the New Testament.",
+        "[TCR Cross-Reference] Draws on Numbers 31:23. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices.",
+        "[TCR Cross-Reference] Draws on Leviticus 5:11-13. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 23,
+      "text_greek": "Ἀνάγκη οὖν τὰ μὲν ὑποδείγματα τῶν ἐν τοῖς οὐρανοῖς τούτοις καθαρίζεσθαι, αὐτὰ δὲ τὰ ἐπουράνια κρείττοσιν θυσίαις παρὰ ταύτας.",
+      "text_kjv": "It was therefore necessary that the patterns of things in the heavens should be purified with these; but the heavenly things themselves with better sacrifices than these.",
+      "rendering": "Therefore it was necessary for the copies of the heavenly things to be purified with these rites, but the heavenly things themselves require better sacrifices than these.",
+      "translator_notes": [
+        "The argument: if the earthly copies (hypodeigmata) required animal blood for purification, the heavenly originals require a better sacrifice — Christ's own blood. The plural 'sacrifices' (thysiais) is surprising since Hebrews emphasizes the singularity of Christ's offering; it may be a plural of category ('sacrifices of a better kind') rather than quantity."
+      ],
+      "reading_level": "10th grade"
+    },
+    {
+      "verse": 24,
+      "text_greek": "οὐ γὰρ εἰς χειροποίητα εἰσῆλθεν ἅγια Χριστός, ἀντίτυπα τῶν ἀληθινῶν, ἀλλ' εἰς αὐτὸν τὸν οὐρανόν, νῦν ἐμφανισθῆναι τῷ προσώπῳ τοῦ θεοῦ ὑπὲρ ἡμῶν·",
+      "text_kjv": "For Christ is not entered into the holy places made with hands, which are the figures of the true; but into heaven itself, now to appear in the presence of God for us:",
+      "rendering": "For Christ did not enter a sanctuary made by hands — a mere copy of the true one — but into heaven itself, to appear now in the presence of God on our behalf.",
+      "translator_notes": [
+        "Three contrasts define Christ's superior priestly ministry: the sanctuary (handmade copy versus heaven itself), the timing (now — presently, continuously), and the purpose (on our behalf — hyper hēmōn, his presence before God is for us). The word antitypa ('copies, counterparts, representations') identifies the earthly tabernacle as a reproduction, not the original. The verb emphanisthēnai ('to appear, to be manifest') describes Christ's visible presence before God's face (prosōpō, literally 'face') — he stands before God representing us."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 25,
+      "text_greek": "οὐδ' ἵνα πολλάκις προσφέρῃ ἑαυτόν, ὥσπερ ὁ ἀρχιερεὺς εἰσέρχεται εἰς τὰ ἅγια κατ' ἐνιαυτὸν ἐν αἵματι ἀλλοτρίῳ,",
+      "text_kjv": "Nor yet that he should offer himself often, as the high priest entereth into the holy place every year with blood of others;",
+      "rendering": "Nor was it to offer himself repeatedly, as the high priest enters the Most Holy Place every year with blood that is not his own.",
+      "translator_notes": [
+        "The adverb pollakis ('repeatedly, often, many times') contrasts with the 'once for all' of verse 12. The phrase en haimati allotriō ('with blood belonging to another, with blood not his own') highlights both the distance between the Levitical high priest and his sacrifice (he offers someone else's blood) and between the Levitical system and Christ (who offers his own blood). Christ's self-offering is both more costly and more effective."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 26,
+      "text_greek": "ἐπεὶ ἔδει αὐτὸν πολλάκις παθεῖν ἀπὸ καταβολῆς κόσμου· νυνὶ δὲ ἅπαξ ἐπὶ συντελείᾳ τῶν αἰώνων εἰς ἀθέτησιν τῆς ἁμαρτίας διὰ τῆς θυσίας αὐτοῦ πεφανέρωται.",
+      "text_kjv": "For then must he often have suffered since the foundation of the world: but now once in the end of the world hath he appeared to put away sin by the sacrifice of himself.",
+      "rendering": "Otherwise, he would have had to suffer repeatedly since the foundation of the world. But as it is, he has appeared once for all at the end of the ages to put away sin by the sacrifice of himself.",
+      "translator_notes": [
+        "The reductio ad absurdum: if Christ's sacrifice were not once-for-all sufficient, he would have needed to suffer repeatedly throughout all of history. The phrase epi synteleia tōn aiōnōn ('at the culmination of the ages') places Christ's sacrifice at the climax of history — all previous ages were leading to this moment. The verb atheēsin ('to put away, to set aside, to annul') uses the same word from 7:18 (the annulment of the old commandment) — here it is sin itself that is annulled."
+      ],
+      "reading_level": "10th grade"
+    },
+    {
+      "verse": 27,
+      "text_greek": "καὶ καθ' ὅσον ἀπόκειται τοῖς ἀνθρώποις ἅπαξ ἀποθανεῖν, μετὰ δὲ τοῦτο κρίσις,",
+      "text_kjv": "And as it is appointed unto men once to die, but after this the judgment:",
+      "rendering": "And just as it is appointed for people to die once, and after that comes judgment,",
+      "translator_notes": [
+        "The analogy: human beings die once (hapax), not repeatedly. Death is a singular, unrepeatable event followed by judgment. Christ's death follows the same pattern — singular and unrepeatable — but with a different sequel: not judgment but salvation (verse 28). The word apokeitai ('is appointed, is laid up, is stored away') suggests a divine decree — death is not random but ordained."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 28,
+      "text_greek": "οὕτως καὶ ὁ Χριστός, ἅπαξ προσενεχθεὶς εἰς τὸ πολλῶν ἀνενεγκεῖν ἁμαρτίας, ἐκ δευτέρου χωρὶς ἁμαρτίας ὀφθήσεται τοῖς αὐτὸν ἀπεκδεχομένοις εἰς σωτηρίαν.",
+      "text_kjv": "So Christ was once offered to bear the sins of many; and unto them that look for him shall he appear the second time without sin unto salvation.",
+      "rendering": "So Christ was once offered to bear the wrongdoings of numerous. And to them that pay attention for him will he appear the second moment without sin to salvation.",
+      "translator_notes": [
+        "The chapter ends with a sweeping christological summary in three acts: Christ's first appearing was to deal with sin (verse 26), his present ministry is intercession before God (verse 24), and his second appearing will bring final salvation (this verse). The phrase pollōn anenenkein hamartias ('to bear the sins of many') echoes the Servant Song of Isaiah 53:12. The words chōris hamartias ('without sin, apart from sin') mean his second coming will have nothing to do with sin — the sin problem was fully and finally resolved at the cross. The verb apekdechomenois ('eagerly waiting, expectantly anticipating') describes an active, longing hope.",
+        "[TCR Cross-Reference] References Isaiah 53:12 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "reading_level": "10th grade"
+    }
+  ]
+}

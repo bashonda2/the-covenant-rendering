@@ -1,0 +1,462 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Acts",
+    "chapter": 27,
+    "source_text": "SBL Greek New Testament (SBLGNT)",
+    "reference_text": "KJV",
+    "generated_at": "2026-04-05T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Acts 27 is one of the most vivid narrative passages in ancient literature, describing Paul's voyage to Rome and the catastrophic shipwreck on the island of Malta. The 'we' narrative resumes with detailed nautical terminology as Paul and other prisoners sail under the centurion Julius's custody. The voyage proceeds through unfavorable conditions — Paul's warning against continuing is overruled. A ferocious northeast storm called the Euraquilo catches the ship near Crete, driving it for fourteen days across the open Mediterranean. Paul receives a divine assurance that all 276 persons aboard will survive. After dramatic scenes of despair, a midnight approach to land, a failed escape attempt by the sailors, and Paul's eucharistic-like meal, the ship runs aground on Malta and breaks apart. All hands reach shore alive.",
+    "remarkable": "The nautical detail in this chapter is so precise that it has been used to reconstruct ancient sailing routes and seamanship practices. The 'we' narrator's firsthand account includes technical terms for sailing gear, wind conditions, navigational techniques, and ship construction that demonstrate genuine seafaring experience. Paul emerges as the de facto leader of the voyage — a prisoner who commands more authority than the captain or centurion because he speaks with divine backing. The divine promise that all 276 souls would be saved (v. 24) inverts the expected pattern: it is the prisoner who saves the ship, not the ship that carries the prisoner.",
+    "friction": "The chapter presents Paul as having prophetic foreknowledge (vv. 10, 22-26) alongside practical leadership, which some interpreters find in tension. The 'we' sections present a narrator with genuine nautical knowledge — the level of technical detail exceeds what is typical in ancient fiction. We render the Greek maritime vocabulary with modern equivalents where possible. The number 276 (v. 37) is large for an ancient merchant vessel but not impossible for the grain ships of the Alexandria-Rome trade.",
+    "connections": "The storm narrative echoes Jonah 1 — another prophet on a ship in a storm, where the cargo is thrown overboard and divine intervention saves lives. Paul's breaking of bread (v. 35) echoes the Last Supper and the Emmaus road meal (Luke 24:30). The promise 'not a hair of your head will perish' (v. 34) repeats Jesus' words in Luke 21:18. The entire voyage narrative demonstrates the Lord's promise in 23:11 ('you must testify in Rome') being fulfilled through and despite natural catastrophe."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_greek": "Ὡς δὲ ἐκρίθη τοῦ ἀποπλεῖν ἡμᾶς εἰς τὴν Ἰταλίαν, παρεδίδουν τόν τε Παῦλον καί τινας ἑτέρους δεσμώτας ἑκατοντάρχῃ ὀνόματι Ἰουλίῳ σπείρης Σεβαστῆς.",
+      "text_kjv": "And when it was determined that we should sail into Italy, they delivered Paul and certain other prisoners unto one named Julius, a centurion of Augustus' band.",
+      "rendering": "When it was decided that we should sail to Italy, they handed Paul and some other prisoners over to a centurion named Julius, of the Augustan Cohort.",
+      "translator_notes": [
+        "The 'we' narrative resumes, indicating the author's presence on the voyage. The 'Augustan Cohort' (speires Sebastes) was likely a cohort honorifically named after Augustus, possibly the cohors I Augusta attested in inscriptions from Syria. Julius's later courteous treatment of Paul (v. 3) suggests he recognized Paul's social status as a Roman citizen."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 2,
+      "text_greek": "ἐπιβάντες δὲ πλοίῳ Ἀδραμυττηνῷ μέλλοντι πλεῖν εἰς τοὺς κατὰ τὴν Ἀσίαν τόπους ἀνήχθημεν, ὄντος σὺν ἡμῖν Ἀριστάρχου Μακεδόνος Θεσσαλονικέως.",
+      "text_kjv": "And entering into a ship of Adramyttium, we launched, meaning to sail by the coasts of Asia; one Aristarchus, a Macedonian of Thessalonica, being with us.",
+      "rendering": "We boarded a ship from Adramyttium that was about to sail to ports along the coast of Asia, and we put to sea. Aristarchus, a Macedonian from Thessalonica, was with us.",
+      "translator_notes": [
+        "Adramyttium was a port city in Mysia (northwest Asia Minor). This was a coastal vessel, not the ship that would cross the open sea to Italy. Aristarchus was one of Paul's traveling companions (cf. 19:29, 20:4), here accompanying Paul voluntarily on his journey as a prisoner."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 3,
+      "text_greek": "τῇ τε ἑτέρᾳ κατήχθημεν εἰς Σιδῶνα, φιλανθρώπως τε ὁ Ἰούλιος τῷ Παύλῳ χρησάμενος ἐπέτρεψεν πρὸς τοὺς φίλους πορευθέντι ἐπιμελείας τυχεῖν.",
+      "text_kjv": "And the next day we touched at Sidon. And Julius courteously entreated Paul, and gave him liberty to go unto his friends to refresh himself.",
+      "rendering": "The next day we put in at Sidon, and Julius treated Paul kindly and allowed him to go to his friends and receive their care.",
+      "translator_notes": [
+        "Julius's 'kind treatment' (philanthropos, literally 'with love of humanity') of Paul reflects the privileges due a Roman citizen even in custody. Allowing Paul to visit friends in Sidon shows considerable trust. The word epimeleias ('care, attention') suggests Paul received provisions or medical attention from the Christian community there."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 4,
+      "text_greek": "κἀκεῖθεν ἀναχθέντες ὑπεπλεύσαμεν τὴν Κύπρον διὰ τὸ τοὺς ἀνέμους εἶναι ἐναντίους,",
+      "text_kjv": "And when we had launched from thence, we sailed under Cyprus, because the winds were contrary.",
+      "rendering": "From there we put to sea and sailed under the lee of Cyprus, because the winds were against us.",
+      "translator_notes": [
+        "Sailing 'under the lee of Cyprus' (hypepleusmen ten Kypron) means they passed north and east of the island, using it as a windbreak against the prevailing westerly winds. This is the opposite direction from the outbound route (21:3), demonstrating the author's awareness of seasonal wind patterns."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 5,
+      "text_greek": "τό τε πέλαγος τὸ κατὰ τὴν Κιλικίαν καὶ Παμφυλίαν διαπλεύσαντες κατήλθομεν εἰς Μύρα τῆς Λυκίας.",
+      "text_kjv": "And when we had sailed over the sea of Cilicia and Pamphylia, we came to Myra, a city of Lycia.",
+      "rendering": "After sailing across the open sea along Cilicia and Pamphylia, we came to Myra in Lycia.",
+      "translator_notes": [
+        "The route along the southern coast of Asia Minor, using the coastal countercurrent to make headway against westerly winds, is confirmed by ancient sailing manuals. Myra was a major port on the Lycian coast and a regular transfer point for the Egyptian grain fleet sailing to Rome."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 6,
+      "text_greek": "κἀκεῖ εὑρὼν ὁ ἑκατοντάρχης πλοῖον Ἀλεξανδρῖνον πλέον εἰς τὴν Ἰταλίαν ἐνεβίβασεν ἡμᾶς εἰς αὐτό.",
+      "text_kjv": "And there the centurion found a ship of Alexandria sailing into Italy; and he put us therein.",
+      "rendering": "There the centurion found a ship of Alexandria sailing for Italy and put us aboard it.",
+      "translator_notes": [
+        "The Alexandrian grain ship was part of the fleet that supplied Rome with Egyptian wheat — a critical supply line that the emperor monitored closely. These were the largest merchant vessels in the ancient Mediterranean, capable of carrying several hundred passengers plus cargo. The centurion had authority to requisition passage for his prisoner detail."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 7,
+      "text_greek": "ἐν ἱκαναῖς δὲ ἡμέραις βραδυπλοοῦντες καὶ μόλις γενόμενοι κατὰ τὴν Κνίδον, μὴ προσεῶντος ἡμᾶς τοῦ ἀνέμου, ὑπεπλεύσαμεν τὴν Κρήτην κατὰ Σαλμώνην,",
+      "text_kjv": "And when we had sailed slowly many days, and scarce were come over against Cnidus, the wind not suffering us, we sailed under Crete, over against Salmone;",
+      "rendering": "We sailed slowly for a number of days and arrived with difficulty off Cnidus. Since the wind did not allow us to go farther, we sailed under the lee of Crete off Salmone.",
+      "translator_notes": [
+        "The slow progress and difficulty reflect the prevailing northwesterly winds of late summer in the Aegean. Cnidus is at the southwestern tip of Asia Minor. Unable to round it, the ship turned south to shelter behind Crete. Salmone (Cape Sidero) is the northeastern point of Crete."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 8,
+      "text_greek": "μόλις τε παραλεγόμενοι αὐτὴν ἤλθομεν εἰς τόπον τινὰ καλούμενον Καλοὺς Λιμένας, ᾧ ἐγγὺς πόλις ἦν Λασαία.",
+      "text_kjv": "And, hardly passing it, came unto a place which is called The fair havens; nigh whereunto was the city of Lasea.",
+      "rendering": "Coasting along with difficulty, we came to a place called Fair Havens, near the city of Lasea.",
+      "translator_notes": [
+        "Fair Havens (Kalous Limenas) is an identifiable bay on the south coast of Crete, still bearing the same name. It provided limited shelter but was not a suitable harbor for wintering. Lasea has been identified with ruins about five miles east of Fair Havens."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 9,
+      "text_greek": "Ἱκανοῦ δὲ χρόνου διαγενομένου καὶ ὄντος ἤδη ἐπισφαλοῦς τοῦ πλοὸς διὰ τὸ καὶ τὴν νηστείαν ἤδη παρεληλυθέναι, παρῄνει ὁ Παῦλος",
+      "text_kjv": "Now when much time was spent, and when sailing was now dangerous, because the fast was now already past, Paul admonished them,",
+      "rendering": "Since much time had been lost and the voyage was now dangerous because even the Fast had already gone by, Paul advised them,",
+      "translator_notes": [
+        "The 'Fast' (ten nesteian) is the Day of Atonement (Yom Kippur), which falls in September or October. After this date, Mediterranean sailing was considered hazardous; navigation typically ceased from November to March. The reference provides a chronological anchor: they are already in the danger period."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 10,
+      "text_greek": "λέγων αὐτοῖς· Ἄνδρες, θεωρῶ ὅτι μετὰ ὕβρεως καὶ πολλῆς ζημίας οὐ μόνον τοῦ φορτίου καὶ τοῦ πλοίου ἀλλὰ καὶ τῶν ψυχῶν ἡμῶν μέλλειν ἔσεσθαι τὸν πλοῦν.",
+      "text_kjv": "And said unto them, Sirs, I perceive that this voyage will be with hurt and much damage, not only of the lading and ship, but also of our lives.",
+      "rendering": "Stated to them, Sirs, I perceive that this voyage will be with hurt and greatly damage, not only of the lading and ship, but also of our lives.",
+      "translator_notes": [
+        "Paul's warning is presented as practical observation (theoro, 'I can see, I perceive') rather than explicit prophecy, though it will prove accurate. The word hybreos ('damage, injury, violence') refers to damage from the storm. Paul, as an experienced traveler who had been shipwrecked before (2 Corinthians 11:25), had practical grounds for his assessment."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 11,
+      "text_greek": "ὁ δὲ ἑκατοντάρχης τῷ κυβερνήτῃ καὶ τῷ ναυκλήρῳ μᾶλλον ἐπείθετο ἢ τοῖς ὑπὸ Παύλου λεγομένοις.",
+      "text_kjv": "Nevertheless the centurion believed the master and the owner of the ship, more than those things which were spoken by Paul.",
+      "rendering": "But the centurion was more persuaded by the pilot and the ship's owner than by what Paul said.",
+      "translator_notes": [
+        "The centurion makes the rational decision to trust the professional sailors — the kubernetes ('helmsman, pilot') and the naukleros ('ship owner, captain') — over a prisoner. The narrative creates dramatic irony: the professionals are wrong, and the prisoner speaks truth."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 12,
+      "text_greek": "ἀνευθέτου δὲ τοῦ λιμένος ὑπάρχοντος πρὸς παραχειμασίαν οἱ πλείονες ἔθεντο βουλὴν ἀναχθῆναι ἐκεῖθεν, εἴ πως δύναιντο καταντήσαντες εἰς Φοίνικα παραχειμάσαι, λιμένα τῆς Κρήτης βλέποντα κατὰ λίβα καὶ κατὰ χῶρον.",
+      "text_kjv": "And because the haven was not commodious to winter in, the more part advised to depart thence also, if by any means they might attain to Phenice, and there to winter; which is an haven of Crete, and lieth toward the south west and north west.",
+      "rendering": "Since the harbor was not suitable for wintering, the majority decided to put to sea from there, hoping somehow to reach Phoenix, a harbor of Crete facing both southwest and northwest, and spend the winter there.",
+      "translator_notes": [
+        "Phoenix (modern Loutro or possibly Phineka) was a better harbor on Crete's south coast, about 40 miles west of Fair Havens. The description of its orientation — 'facing southwest and northwest' (kata liba kai kata choron) — matches a harbor open to the west but sheltered from northerly storms. The decision was reasonable but fatally timed."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 13,
+      "text_greek": "ὑποπνεύσαντος δὲ νότου δόξαντες τῆς προθέσεως κεκρατηκέναι, ἄραντες ἆσσον παρελέγοντο τὴν Κρήτην.",
+      "text_kjv": "And when the south wind blew softly, supposing that they had obtained their purpose, loosing thence, they sailed close by Crete.",
+      "rendering": "When a gentle south wind began to blow, thinking they had achieved their purpose, they weighed anchor and sailed along the coast of Crete, close to shore.",
+      "translator_notes": [
+        "The gentle south wind (notou) seemed to confirm the decision to sail — it was exactly the wind needed to coast westward along Crete's south shore. The word doxantes ('thinking, supposing') signals that their confidence was premature."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 14,
+      "text_greek": "μετ' οὐ πολὺ δὲ ἔβαλεν κατ' αὐτῆς ἄνεμος τυφωνικὸς ὁ καλούμενος Εὐρακύλων,",
+      "text_kjv": "But not long after there arose against it a tempestuous wind, called Euroclydon.",
+      "rendering": "But before long a violent wind called the Euraquilo rushed down from the island.",
+      "translator_notes": [
+        "The Euraquilo (Eurakulon in SBLGNT, a hybrid of Greek euros 'east wind' and Latin aquilo 'north wind') was a fierce northeaster — exactly the worst wind possible for a ship trying to coast westward along Crete's south shore. The word typhonikos ('typhoon-like, hurricane-force') indicates extreme violence. The storm hit suddenly, coming 'down from' the island — off the mountains of Crete."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 15,
+      "text_greek": "συναρπασθέντος δὲ τοῦ πλοίου καὶ μὴ δυναμένου ἀντοφθαλμεῖν τῷ ἀνέμῳ ἐπιδόντες ἐφερόμεθα.",
+      "text_kjv": "And when the ship was caught, and could not bear up into the wind, we let her drive.",
+      "rendering": "When the ship was caught and could not face the wind, we gave way to it and were driven along.",
+      "translator_notes": [
+        "The verb antophthalmein (literally 'to look against, to face into') is a vivid nautical metaphor — the ship could not 'look the wind in the eye.' The decision to 'give way' (epidontes, literally 'giving over') means they stopped trying to sail and let the storm drive them. This is the beginning of fourteen days of helpless drifting."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 16,
+      "text_greek": "νησίον δέ τι ὑποδραμόντες καλούμενον Καῦδα ἰσχύσαμεν μόλις περικρατεῖς γενέσθαι τῆς σκάφης,",
+      "text_kjv": "And running under a certain island which is called Clauda, we had much work to come by the boat:",
+      "rendering": "Running under the lee of a small island called Cauda, we managed with difficulty to get the ship's boat under control.",
+      "translator_notes": [
+        "Cauda (modern Gavdos) is a small island about 23 miles south of Crete. Its brief windbreak gave the crew a chance to secure the ship's boat (skaphes) — the small dinghy towed behind or alongside. In rough seas, such boats became waterlogged and could damage the hull or capsize."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 17,
+      "text_greek": "ἣν ἄραντες βοηθείαις ἐχρῶντο ὑποζωννύντες τὸ πλοῖον· φοβούμενοί τε μὴ εἰς τὴν Σύρτιν ἐκπέσωσιν, χαλάσαντες τὸ σκεῦος, οὕτως ἐφέροντο.",
+      "text_kjv": "Which when they had taken up, they used helps, undergirding the ship; and, fearing lest they should fall into the quicksands, strake sail, and so were driven.",
+      "rendering": "After hoisting it aboard, they used supports to undergird the ship. Then, fearing that they would run aground on the Syrtis, they lowered the sea anchor and so were driven along.",
+      "translator_notes": [
+        "Undergirding (hypozonnyntes) involved passing ropes or cables under and around the hull to keep the planking from separating — a well-attested ancient emergency procedure called 'frapping.' The Syrtis was the feared sandbank region off the North African coast (modern Libya), a graveyard of ships. The lowered 'gear' (skeuos) was likely a sea anchor or drogue deployed to slow the drift."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 18,
+      "text_greek": "σφοδρῶς δὲ χειμαζομένων ἡμῶν τῇ ἑξῆς ἐκβολὴν ἐποιοῦντο,",
+      "text_kjv": "And we being exceedingly tossed with a tempest, the next day they lightened the ship;",
+      "rendering": "Since we were being violently battered by the storm, the next day they began to throw the cargo overboard.",
+      "translator_notes": [
+        "Jettisoning cargo (ekbolen epoiounto) was a desperate measure that sacrificed valuable goods to reduce weight and raise the hull. For a grain ship, this meant dumping hundreds of tons of wheat — a significant financial loss and politically sensitive given the grain supply's importance to Rome. The parallel with Jonah 1:5 is striking.",
+        "[TCR Cross-Reference] References Jonah 1:5 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 19,
+      "text_greek": "καὶ τῇ τρίτῃ αὐτόχειρες τὴν σκευὴν τοῦ πλοίου ἔρριψαν.",
+      "text_kjv": "And the third day we cast out with our own hands the tackling of the ship.",
+      "rendering": "On the third day they threw the ship's tackle overboard with their own hands.",
+      "translator_notes": [
+        "The 'ship's tackle' (ten skeuen tou ploiou) likely included spare rigging, heavy yards, and non-essential equipment. The phrase 'with their own hands' (autocheries) emphasizes the desperation — passengers and crew together were heaving equipment overboard, not just the professional sailors."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 20,
+      "text_greek": "μήτε δὲ ἡλίου μήτε ἄστρων ἐπιφαινόντων ἐπὶ πλείονας ἡμέρας, χειμῶνός τε οὐκ ὀλίγου ἐπικειμένου, λοιπὸν περιῃρεῖτο ἐλπὶς πᾶσα τοῦ σῴζεσθαι ἡμᾶς.",
+      "text_kjv": "And when neither sun nor stars in many days appeared, and no small tempest lay on us, all hope that we should be saved was then taken away.",
+      "rendering": "When neither sun nor stars appeared for many days, and no small storm continued to rage, all hope of our being saved was at last abandoned.",
+      "translator_notes": [
+        "Without sun or stars, ancient navigation was impossible — they had no compass or instruments. The litotes 'no small storm' (cheimonos ouk oligou) is characteristic Lukan understatement for a catastrophic tempest. The loss of 'all hope' (elpis pasa) sets the stage for Paul's intervention — when human hope ends, divine assurance begins."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 21,
+      "text_greek": "Πολλῆς τε ἀσιτίας ὑπαρχούσης τότε σταθεὶς ὁ Παῦλος ἐν μέσῳ αὐτῶν εἶπεν· Ἔδει μέν, ὦ ἄνδρες, πειθαρχήσαντάς μοι μὴ ἀνάγεσθαι ἀπὸ τῆς Κρήτης κερδῆσαί τε τὴν ὕβριν ταύτην καὶ τὴν ζημίαν.",
+      "text_kjv": "But after long abstinence Paul stood forth in the midst of them, and said, Sirs, ye should have hearkened unto me, and not have loosed from Crete, and to have gained this harm and loss.",
+      "rendering": "Since they had been without food for a long time, Paul stood up among them and said, \"Men, you should have listened to me and not set sail from Crete. Then you would have avoided this damage and loss.",
+      "translator_notes": [
+        "The 'long abstinence from food' (polles asitias) reflects both the difficulty of cooking in storm conditions and the seasickness and despair of the passengers. Paul's 'I told you so' (edei peitharchesantas moi) is not petulance but establishment of credibility for the prophetic message that follows."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 22,
+      "text_greek": "καὶ τὰ νῦν παραινῶ ὑμᾶς εὐθυμεῖν· ἀποβολὴ γὰρ ψυχῆς οὐδεμία ἔσται ἐξ ὑμῶν πλὴν τοῦ πλοίου.",
+      "text_kjv": "And now I exhort you to be of good cheer: for there shall be no loss of any man's life among you, but of the ship.",
+      "rendering": "But now I urge you to take heart, for there will be no loss of life among you, but only of the ship.",
+      "translator_notes": [
+        "Paul transitions from rebuke to encouragement. The promise is specific and extraordinary: every person will survive, though the ship will be lost. This corrects his earlier warning (v. 10), which predicted loss of life — divine revelation has updated the situation."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 23,
+      "text_greek": "παρέστη γάρ μοι ταύτῃ τῇ νυκτὶ τοῦ θεοῦ, οὗ εἰμι ᾧ καὶ λατρεύω, ἄγγελος",
+      "text_kjv": "For there stood by me this night the angel of God, whose I am, and whom I serve,",
+      "rendering": "For this very night an angel of the God to whom I belong and whom I serve stood before me",
+      "translator_notes": [
+        "Paul identifies himself by his fundamental identity: he belongs to God and serves God. The angel's visit parallels the Lord's appearance to Paul in 23:11. Before a pagan crew, Paul speaks of 'the God' (tou theou) rather than using Jewish terminology — adapting his language to his audience while maintaining theological substance."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 24,
+      "text_greek": "λέγων· Μὴ φοβοῦ, Παῦλε· Καίσαρί σε δεῖ παραστῆναι, καὶ ἰδοὺ κεχάρισταί σοι ὁ θεὸς πάντας τοὺς πλέοντας μετὰ σοῦ.",
+      "text_kjv": "Saying, Fear not, Paul; thou must be brought before Caesar: and, lo, God hath given thee all them that sail with thee.",
+      "rendering": "Declaring, Fear not, Paul. You must be brought prior to Caesar — and, lo, God has given you all them that sail with you.",
+      "translator_notes": [
+        "The divine dei ('you must') reaffirms the necessity established in 23:11. The phrase 'God has graciously given you' (kecharistai soi ho theos) uses the verb charizomai — Paul's fellow passengers are saved as a gift of grace on account of Paul's presence. The 276 people on the ship survive because of one prisoner's divine calling."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 25,
+      "text_greek": "διὸ εὐθυμεῖτε, ἄνδρες· πιστεύω γὰρ τῷ θεῷ ὅτι οὕτως ἔσται καθ' ὃν τρόπον λελάληταί μοι.",
+      "text_kjv": "Wherefore, sirs, be of good cheer: for I believe God, that it shall be even as it was told me.",
+      "rendering": "So take heart, men, for I have faith in God that it will be exactly as I have been told.",
+      "translator_notes": [
+        "Paul's personal declaration — 'I have faith in God' (pisteuo gar to theo) — is the foundation of his confidence. His faith is not in favorable winds or skilled sailors but in the character of God who has spoken. The phrase 'exactly as I have been told' (katho hon tropon lelaletai moi) claims precise fulfillment."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 26,
+      "text_greek": "εἰς νῆσον δέ τινα δεῖ ἡμᾶς ἐκπεσεῖν.",
+      "text_kjv": "Howbeit we must be cast upon a certain island.",
+      "rendering": "But we must run aground on some island.\"",
+      "translator_notes": [
+        "Paul adds a specific prediction: the shipwreck will occur on an island. The divine dei ('we must') again indicates necessity. This prediction will prove accurate when they reach Malta (28:1)."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 27,
+      "text_greek": "Ὡς δὲ τεσσαρεσκαιδεκάτη νὺξ ἐγένετο διαφερομένων ἡμῶν ἐν τῷ Ἀδρίᾳ, κατὰ μέσον τῆς νυκτὸς ὑπενόουν οἱ ναῦται προσάγειν τινὰ αὐτοῖς χώραν.",
+      "text_kjv": "But when the fourteenth night was come, as we were driven up and down in Adria, about midnight the shipmen deemed that they drew near to some country;",
+      "rendering": "When the fourteenth night had come, as we were drifting across the Adriatic Sea, about midnight the sailors suspected that they were nearing land.",
+      "translator_notes": [
+        "Fourteen days of drifting places the ship approximately in the central Mediterranean. The 'Adriatic' (Adria) in ancient usage covered a much larger area than the modern Adriatic Sea — it included the waters between Crete, Italy, and North Africa. The sailors' detection of land — probably hearing breakers or noticing a change in wave patterns — demonstrates professional seamanship even in crisis."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 28,
+      "text_greek": "καὶ βολίσαντες εὗρον ὀργυιὰς εἴκοσι, βραχὺ δὲ διαστήσαντες καὶ πάλιν βολίσαντες εὗρον ὀργυιὰς δεκαπέντε·",
+      "text_kjv": "And sounded, and found it twenty fathoms: and when they had gone a little further, they sounded again, and found it fifteen fathoms.",
+      "rendering": "They took soundings and found twenty fathoms. A little farther on they took soundings again and found fifteen fathoms.",
+      "translator_notes": [
+        "Sounding (bolisantes, from bolis, 'a lead weight') involved dropping a weighted line to measure depth. Twenty fathoms (about 120 feet) decreasing to fifteen fathoms (about 90 feet) confirms they were approaching a shelving seabed — consistent with the approach to Malta from the east. This detail is so precise that it has been verified against modern charts of St. Paul's Bay, Malta."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 29,
+      "text_greek": "φοβούμενοί τε μήπου κατὰ τραχεῖς τόπους ἐκπέσωμεν, ἐκ πρύμνης ῥίψαντες ἀγκύρας τέσσαρας ηὔχοντο ἡμέραν γενέσθαι.",
+      "text_kjv": "Then fearing lest we should have fallen upon rocks, they cast four anchors out of the stern, and wished for the day.",
+      "rendering": "Fearing that we might run aground on rocks, they dropped four anchors from the stern and prayed for daylight.",
+      "translator_notes": [
+        "Anchoring from the stern (ek prymnes) rather than the bow was a deliberate tactic — it kept the ship oriented toward the shore so they could beach it at dawn. Four anchors provided maximum holding power. The phrase 'prayed for daylight' (euchonto hemeran genesthai) captures the desperate waiting of that final night."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 30,
+      "text_greek": "τῶν δὲ ναυτῶν ζητούντων φυγεῖν ἐκ τοῦ πλοίου καὶ χαλασάντων τὴν σκάφην εἰς τὴν θάλασσαν προφάσει ὡς ἐκ πρῴρης ἀγκύρας μελλόντων ἐκτείνειν,",
+      "text_kjv": "And as the shipmen were about to flee out of the ship, when they had let down the boat into the sea, under colour as though they would have cast anchors out of the foreship,",
+      "rendering": "When the sailors tried to escape from the ship and had lowered the boat into the sea, pretending that they were going to lay out anchors from the bow,",
+      "translator_notes": [
+        "The sailors' attempt to abandon ship under a plausible pretext — laying bow anchors — is a realistic detail. Professional sailors knew their best chance of survival was in the small boat rather than on the disintegrating ship. But if the sailors escaped, the remaining passengers and soldiers would have no one capable of beaching the vessel."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 31,
+      "text_greek": "εἶπεν ὁ Παῦλος τῷ ἑκατοντάρχῃ καὶ τοῖς στρατιώταις· Ἐὰν μὴ οὗτοι μείνωσιν ἐν τῷ πλοίῳ, ὑμεῖς σωθῆναι οὐ δύνασθε.",
+      "text_kjv": "Paul said to the centurion and to the soldiers, Except these abide in the ship, ye cannot be saved.",
+      "rendering": "Paul said to the centurion and the soldiers, \"Unless these men stay in the ship, you cannot be saved.\"",
+      "translator_notes": [
+        "Paul alerts the military, not the captain — recognizing where actual authority lies. His warning that survival requires the sailors' presence balances divine promise with human agency: God has promised to save everyone, but that promise works through the sailors' skill in beaching the ship."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 32,
+      "text_greek": "τότε ἀπέκοψαν οἱ στρατιῶται τὰ σχοινία τῆς σκάφης καὶ εἴασαν αὐτὴν ἐκπεσεῖν.",
+      "text_kjv": "Then the soldiers cut off the ropes of the boat, and let her fall off.",
+      "rendering": "Then the soldiers cut the ropes of the boat and let it drift away.",
+      "translator_notes": [
+        "The soldiers' drastic action — cutting away the only lifeboat — eliminates the escape route but also ensures the sailors must stay and help. It demonstrates the centurion's trust in Paul over the sailors. The loss of the boat means everyone's fate is bound together."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 33,
+      "text_greek": "ἄχρι δὲ οὗ ἡμέρα ἤμελλεν γίνεσθαι παρεκάλει ὁ Παῦλος ἅπαντας μεταλαβεῖν τροφῆς λέγων· Τεσσαρεσκαιδεκάτην σήμερον ἡμέραν προσδοκῶντες ἄσιτοι διατελεῖτε, μηθὲν προσλαβόμενοι·",
+      "text_kjv": "And while the day was coming on, Paul besought them all to take meat, saying, This day is the fourteenth day that ye have tarried and continued fasting, having taken nothing.",
+      "rendering": "As day was about to dawn, Paul urged them all to take some food, saying, \"Today is the fourteenth day that you have continued in suspense and without food, having eaten nothing.",
+      "translator_notes": [
+        "Paul takes practical leadership as dawn approaches. The 'fourteen days without food' likely means fourteen days of irregular, inadequate eating rather than absolute fasting — in extreme storm conditions, preparing and keeping down food would have been nearly impossible."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 34,
+      "text_greek": "διὸ παρακαλῶ ὑμᾶς μεταλαβεῖν τροφῆς· τοῦτο γὰρ πρὸς τῆς ὑμετέρας σωτηρίας ὑπάρχει· οὐδενὸς γὰρ ὑμῶν θρὶξ ἀπὸ τῆς κεφαλῆς ἀπολεῖται.",
+      "text_kjv": "Wherefore I pray you to take some meat: for this is for your health: for there shall not an hair fall from the head of any of you.",
+      "rendering": "Therefore I urge you to take some food, for this is for your preservation. For not a hair will perish from the head of any of you.\"",
+      "translator_notes": [
+        "Paul's assurance that 'not a hair will perish from your head' (oudenos gar hymon thrix apo tes kephales apoleitai) quotes Jesus' words from Luke 21:18. The connection is deliberate — the same God who protects his people through tribulation in the end times protects them through a storm at sea. The word soterias ('preservation, salvation') functions on two levels: physical survival and deeper deliverance."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 35,
+      "text_greek": "εἴπας δὲ ταῦτα καὶ λαβὼν ἄρτον εὐχαρίστησεν τῷ θεῷ ἐνώπιον πάντων καὶ κλάσας ἤρξατο ἐσθίειν.",
+      "text_kjv": "And when he had thus spoken, he took bread, and gave thanks to God in presence of them all: and when he had broken it, he began to eat.",
+      "rendering": "After saying this, he took bread, gave thanks to God in the presence of all, and after breaking it he began to eat.",
+      "translator_notes": [
+        "The sequence — taking bread, giving thanks, breaking it — echoes the eucharistic actions of Jesus at the Last Supper (Luke 22:19) and the Emmaus meal (Luke 24:30). Whether Paul intended a formal Eucharist or simply a Jewish meal blessing before a mixed pagan-Jewish audience is debated. Either way, Luke's language evokes eucharistic resonance for his readers. Paul thanks God publicly (enopion panton) before a crew that mostly worships other gods — a bold act of witness."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 36,
+      "text_greek": "εὔθυμοι δὲ γενόμενοι πάντες καὶ αὐτοὶ προσελάβοντο τροφῆς.",
+      "text_kjv": "Then were they all of good cheer, and they also took some meat.",
+      "rendering": "Then they all were encouraged and ate some food themselves.",
+      "translator_notes": [
+        "Paul's leadership has transformed the mood of the entire ship — from despair (v. 20) to courage (euthumoi, 'cheerful, encouraged'). The prisoner has become the moral authority."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 37,
+      "text_greek": "ἤμεθα δὲ αἱ πᾶσαι ψυχαὶ ἐν τῷ πλοίῳ διακόσιαι ἑβδομήκοντα ἕξ.",
+      "text_kjv": "And we were in all in the ship two hundred threescore and sixteen souls.",
+      "rendering": "We were in all 276 persons on the ship.",
+      "translator_notes": [
+        "The specific number — 276 (diakosiai hebdomekonta hex) — has the ring of an eyewitness detail. Large Alexandrian grain ships could carry several hundred passengers plus crew. Josephus reports traveling to Rome on a ship with 600 aboard (Life 15). The number also recalls the total who survived, fulfilling the angel's promise (v. 24)."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 38,
+      "text_greek": "κορεσθέντες δὲ τροφῆς ἐκούφιζον τὸ πλοῖον ἐκβαλλόμενοι τὸν σῖτον εἰς τὴν θάλασσαν.",
+      "text_kjv": "And when they had eaten enough, they lightened the ship, and cast out the wheat into the sea.",
+      "rendering": "After they had eaten their fill, they lightened the ship by throwing the wheat into the sea.",
+      "translator_notes": [
+        "The wheat (siton) — the primary cargo of the Alexandrian grain ship — is now dumped to lighten the vessel for beaching. This final jettisoning represents the total loss of the ship's commercial value. Having eaten, the passengers have strength for the ordeal ahead."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 39,
+      "text_greek": "ὅτε δὲ ἡμέρα ἐγένετο, τὴν γῆν οὐκ ἐπεγίνωσκον, κόλπον δέ τινα κατενόουν ἔχοντα αἰγιαλόν, εἰς ὃν ἐβουλεύοντο εἰ δύναιντο ἐξῶσαι τὸ πλοῖον.",
+      "text_kjv": "And when it was day, they knew not the land: but they discovered a certain creek with a shore, into the which they were minded, if it were possible, to thrust in the ship.",
+      "rendering": "When day came, they did not recognize the land, but they noticed a bay with a beach, and they planned to run the ship ashore there if they could.",
+      "translator_notes": [
+        "The sailors did not recognize the coast — indicating they were off normal shipping routes. The 'bay with a beach' (kolpon echonta aigialon) has been identified with St. Paul's Bay on Malta's northeast coast, which has a sandy beach within a bay, exactly matching this description."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 40,
+      "text_greek": "καὶ τὰς ἀγκύρας περιελόντες εἴων εἰς τὴν θάλασσαν, ἅμα ἀνέντες τὰς ζευκτηρίας τῶν πηδαλίων, καὶ ἐπάραντες τὸν ἀρτέμωνα τῇ πνεούσῃ κατεῖχον εἰς τὸν αἰγιαλόν.",
+      "text_kjv": "And when they had taken up the anchors, they committed themselves unto the sea, and loosed the rudder bands, and hoised up the mainsail to the wind, and made toward shore.",
+      "rendering": "So they cast off the anchors, leaving them in the sea. At the same time they untied the ropes that held the steering oars, hoisted the foresail to the wind, and made for the beach.",
+      "translator_notes": [
+        "The technical sequence is precise: (1) slip the anchor cables (faster than hauling them up); (2) free the steering oars (which had been lashed during the storm); (3) raise the foresail (artemon, a small sail at the bow) to provide steerage. Each action is the correct seamanship procedure for beaching a disabled vessel. The detail confirms the narrator's nautical competence."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 41,
+      "text_greek": "περιπεσόντες δὲ εἰς τόπον διθάλασσον ἐπέκειλαν τὴν ναῦν, καὶ ἡ μὲν πρῷρα ἐρείσασα ἔμεινεν ἀσάλευτος, ἡ δὲ πρύμνα ἐλύετο ὑπὸ τῆς βίας.",
+      "text_kjv": "And falling into a place where two seas met, they ran the ship aground; and the forepart stuck fast, and remained unmoveable, but the hinder part was broken with the violence of the waves.",
+      "rendering": "But striking a sandbar where two seas met, they ran the vessel aground. The bow stuck fast and remained immovable, but the stern was being broken up by the force of the waves.",
+      "translator_notes": [
+        "A 'place where two seas met' (topon dithalassonon) describes a shoal or sandbar between two bodies of water — consistent with the small island (Salmonetta) in St. Paul's Bay where currents from two directions converge. The ship's bow wedged into the sand while the stern, exposed to the surf, began to disintegrate. The image is vivid and terrifying."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 42,
+      "text_greek": "τῶν δὲ στρατιωτῶν βουλὴ ἐγένετο ἵνα τοὺς δεσμώτας ἀποκτείνωσιν, μή τις ἐκκολυμβήσας διαφύγῃ·",
+      "text_kjv": "And the soldiers' counsel was to kill the prisoners, lest any of them should swim out, and escape.",
+      "rendering": "The soldiers' plan was to kill the prisoners, so that none of them could swim away and escape.",
+      "translator_notes": [
+        "Under Roman military law, a soldier who lost a prisoner could face the prisoner's sentence, including death (cf. 12:19, 16:27). The soldiers' plan to execute the prisoners was a rational, self-preserving calculation — brutal but legally grounded. The prisoners' lives depended entirely on the centurion's next decision."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 43,
+      "text_greek": "ὁ δὲ ἑκατοντάρχης βουλόμενος διασῶσαι τὸν Παῦλον ἐκώλυσεν αὐτοὺς τοῦ βουλήματος, ἐκέλευσέν τε τοὺς δυναμένους κολυμβᾶν ἀπορίψαντας πρώτους ἐπὶ τὴν γῆν ἐξιέναι,",
+      "text_kjv": "But the centurion, willing to save Paul, kept them from their purpose; and commanded that they which could swim should cast themselves first into the sea, and get to land:",
+      "rendering": "But the centurion, wanting to save Paul, kept them from carrying out their plan. He ordered those who could swim to jump overboard first and make for land,",
+      "translator_notes": [
+        "The centurion Julius's desire to save Paul (diasosai ton Paulon) overrides military protocol and saves all the prisoners' lives. Paul's influence has grown from that of a mere prisoner to a figure the centurion is willing to take career risks to protect. The evacuation is orderly: swimmers first, then the rest."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 44,
+      "text_greek": "καὶ τοὺς λοιποὺς οὓς μὲν ἐπὶ σανίσιν, οὓς δὲ ἐπί τινων τῶν ἀπὸ τοῦ πλοίου· καὶ οὕτως ἐγένετο πάντας διασωθῆναι ἐπὶ τὴν γῆν.",
+      "text_kjv": "And the rest, some on boards, and some on broken pieces of the ship. And so it came to pass, that they escaped all safe to land.",
+      "rendering": "Indeed, the rest, some on boards, and some on broken pieces of the ship. And so it happened that, that they escaped all safe to land.",
+      "translator_notes": [
+        "The final sentence — 'all were brought safely to land' (pantas diasothenai epi ten gen) — fulfills the angel's promise (v. 24) and Paul's assurance (v. 22). All 276 persons survive. The verb diasothenai ('were brought safely through') carries its full theological weight: God's deliverance is complete. The wreckage that kills the ship saves the passengers — a fitting image for the narrative theology of Acts, where destruction and preservation work together in the divine plan."
+      ],
+      "reading_level": "6th grade"
+    }
+  ]
+}

@@ -1,0 +1,283 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Former Prophets",
+    "tradition": "targum-jonathan",
+    "tradition_label": "Targum Jonathan",
+    "source_text": "Targum Jonathan (standard printed edition)",
+    "base_text": "Westminster Leningrad Codex (WLC)",
+    "date": "2nd-5th c. CE (earliest layers 1st c. BCE)",
+    "generated_at": "2026-04-05T00:00:00Z",
+    "prompt_version": "1.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Targum Jonathan on the Former Prophets (Joshua, Judges, Samuel, Kings) is more expansive than Onkelos, offering interpretive paraphrases, theological commentary, and narrative expansion. The Memra, Shekinah, and anti-anthropomorphic patterns continue, but Jonathan adds historical identifications, moral commentary, and eschatological readings not found in Onkelos.",
+    "notable_renderings": "The divine commander in Joshua 5 is identified as an angel. Hannah's prayer in 1 Samuel 2 receives Messianic interpretation. The Davidic covenant in 2 Samuel 7 is rendered with royal-Messianic overtones. Elijah's encounters with God at Horeb parallel the Sinai theophany treatment. Solomon's Temple dedication in 1 Kings 8 features dense Shekinah language.",
+    "theological_themes": "Anti-anthropomorphism in theophanies and divine encounters; Memra as agent of salvation and judgment in the conquest and monarchy narratives; Shekinah theology centered on the Temple; Messianic readings in the Davidic covenant and royal psalms embedded in the narrative; moral interpretation of Israel's historical failures."
+  },
+  "renderings": [
+    {
+      "reference": "Joshua 1:5",
+      "hebrew_text": "כַּאֲשֶׁר הָיִיתִי עִם־מֹשֶׁה אֶהְיֶה עִמָּךְ",
+      "targum_text": "kema di havat Memri besiyyeih deMosheh yehei Memri besiyyakhah",
+      "targum_rendering": "As my Memra was in the help of Moses, so my Memra shall be in your help.",
+      "mt_rendering": "As I was with Moses, so I will be with you.",
+      "category": "memra",
+      "notes": ["The divine promise to Joshua is Memra-mediated, continuing the Torah pattern. The transition of leadership from Moses to Joshua is accompanied by the same Memra-presence."]
+    },
+    {
+      "reference": "Joshua 3:10",
+      "hebrew_text": "בְּזֹאת תֵּדְעוּן כִּי אֵל חַי בְּקִרְבְּכֶם",
+      "targum_text": "beda tide'un arei Elaha chayya Shekhinteih beinekhon",
+      "targum_rendering": "By this you shall know that the living God — his Shekinah is among you.",
+      "mt_rendering": "By this you shall know that the living God is among you.",
+      "category": "shekinah",
+      "notes": ["God's presence among Israel at the Jordan crossing is expressed as Shekinah indwelling, continuing the wilderness pattern into the conquest."]
+    },
+    {
+      "reference": "Joshua 5:13-14",
+      "hebrew_text": "וְאִישׁ עֹמֵד לְנֶגְדּוֹ... אֲנִי שַׂר צְבָא־יְהוָה",
+      "targum_text": "vegavra qa'im leqovleih... ana rav cheila daAdonai",
+      "targum_rendering": "And a man was standing opposite him... I am the commander of the host of the LORD.",
+      "mt_rendering": "And a man was standing opposite him... I am the commander of the LORD's army.",
+      "category": "literal",
+      "notes": ["Jonathan preserves the mysterious commander figure without explicit identification as an angel or pre-incarnate appearance, maintaining the Hebrew's deliberate ambiguity."]
+    },
+    {
+      "reference": "Joshua 6:27",
+      "hebrew_text": "וַיְהִי יְהוָה אֶת־יְהוֹשֻׁעַ",
+      "targum_text": "vahava Memra daAdonai besiyyeih diYehoshua",
+      "targum_rendering": "And the Memra of the LORD was in the help of Joshua.",
+      "mt_rendering": "And the LORD was with Joshua.",
+      "category": "memra",
+      "notes": ["After Jericho's fall, God's presence with Joshua is expressed through the Memra, following the identical formula used for Joseph (Gen 39:2) and Moses."]
+    },
+    {
+      "reference": "Joshua 22:31",
+      "hebrew_text": "הַיּוֹם יָדַעְנוּ כִּי בְּתוֹכֵנוּ יְהוָה",
+      "targum_text": "yoma den yeda'na arei Shekhinteih daAdonai beineina",
+      "targum_rendering": "Today we know that the Shekinah of the LORD is among us.",
+      "mt_rendering": "Today we know that the LORD is among us.",
+      "category": "shekinah",
+      "notes": ["The resolution of the trans-Jordan altar crisis affirms Shekinah presence. National unity is confirmed by the Shekinah remaining among all Israel."]
+    },
+    {
+      "reference": "Judges 2:1",
+      "hebrew_text": "וַיַּעַל מַלְאַךְ־יְהוָה מִן־הַגִּלְגָּל אֶל־הַבֹּכִים",
+      "targum_text": "useliq malakha daAdonai min Gilgala leBokhim",
+      "targum_rendering": "And the angel of the LORD went up from Gilgal to Bochim.",
+      "mt_rendering": "And the angel of the LORD went up from Gilgal to Bochim.",
+      "category": "literal",
+      "notes": ["Jonathan preserves the angel of the LORD as the speaker of the covenant lawsuit. The angel functions as God's authorized representative in judgment speeches."]
+    },
+    {
+      "reference": "Judges 5:4",
+      "hebrew_text": "יְהוָה בְּצֵאתְךָ מִשֵּׂעִיר",
+      "targum_text": "Adonai bemiflakhakh miSe'ir",
+      "targum_rendering": "O LORD, when you went forth from Seir.",
+      "mt_rendering": "LORD, when you went out from Seir.",
+      "category": "literal",
+      "notes": ["In the Song of Deborah, Jonathan preserves the martial theophany language. As with Onkelos in the Song of the Sea, poetic/hymnic passages receive more literal treatment than prose narratives."]
+    },
+    {
+      "reference": "Judges 5:5",
+      "hebrew_text": "הָרִים נָזְלוּ מִפְּנֵי יְהוָה",
+      "targum_text": "turayya nazlu min qodam Adonai",
+      "targum_rendering": "The mountains flowed from before the LORD.",
+      "mt_rendering": "The mountains melted before the LORD.",
+      "category": "literal",
+      "notes": ["The cosmic theophany imagery in Deborah's song is rendered literally with the standard 'from before' (min qodam) addition."]
+    },
+    {
+      "reference": "Judges 6:12",
+      "hebrew_text": "יְהוָה עִמְּךָ גִּבּוֹר הֶחָיִל",
+      "targum_text": "Memra daAdonai besiyyakhah gibbara decheila",
+      "targum_rendering": "The Memra of the LORD is in your help, O mighty warrior.",
+      "mt_rendering": "The LORD is with you, O mighty man of valor.",
+      "category": "memra",
+      "notes": ["The angel's greeting to Gideon uses the Memra formula. God's presence with the judge-deliverer operates through the Word."]
+    },
+    {
+      "reference": "Judges 13:22",
+      "hebrew_text": "מוֹת נָמוּת כִּי אֱלֹהִים רָאִינוּ",
+      "targum_text": "memat nemut arei malakha daAdonai chazeina",
+      "targum_rendering": "We shall surely die, for we have seen the angel of the LORD.",
+      "mt_rendering": "We shall surely die, for we have seen God.",
+      "category": "anti-anthropomorphism",
+      "notes": ["Manoah's claim to have 'seen God' is corrected to 'seen the angel of the LORD.' Jonathan will not allow a human to claim direct vision of God — what they saw was the angelic mediator."]
+    },
+    {
+      "reference": "1 Samuel 2:2",
+      "hebrew_text": "אֵין קָדוֹשׁ כַּיהוָה כִּי אֵין בִּלְתֶּךָ",
+      "targum_text": "leit qaddish keAdonai arei leit bar minakh",
+      "targum_rendering": "There is none holy as the LORD, for there is none beside you.",
+      "mt_rendering": "There is none holy like the LORD; there is none besides you.",
+      "category": "literal",
+      "notes": ["Hannah's prayer opens with monotheistic confession rendered literally. The Targum treats Hannah's Song as prophetic poetry."]
+    },
+    {
+      "reference": "1 Samuel 2:10",
+      "hebrew_text": "יְהוָה יָדִין אַפְסֵי אָרֶץ וְיִתֶּן עֹז לְמַלְכּוֹ וְיָרֵם קֶרֶן מְשִׁיחוֹ",
+      "targum_text": "Adonai yedun siyyafei ar'a viyitten taqof lemalkeih virom qeren meshicheih",
+      "targum_rendering": "The LORD will judge the ends of the earth, and he will give strength to his king and exalt the horn of his Messiah.",
+      "mt_rendering": "The LORD will judge the ends of the earth; he will give strength to his king and exalt the horn of his anointed.",
+      "category": "messianic",
+      "notes": ["Jonathan renders 'his anointed' (meshicho) as 'his Messiah' (meshicheih) with eschatological force. Hannah's concluding prophecy is read as pointing beyond any immediate king to the ultimate Messianic ruler. This is significant because no king existed yet in Israel when Hannah spoke."]
+    },
+    {
+      "reference": "1 Samuel 3:10",
+      "hebrew_text": "וַיָּבֹא יְהוָה וַיִּתְיַצַּב",
+      "targum_text": "ve'itgeli Adonai veqam",
+      "targum_rendering": "And the LORD revealed himself and stood.",
+      "mt_rendering": "And the LORD came and stood.",
+      "category": "anti-anthropomorphism",
+      "notes": ["God does not 'come' to Samuel's location — he reveals himself. The spatial movement is replaced with revelation, though 'stood' is preserved since the context describes a prophetic vision."]
+    },
+    {
+      "reference": "1 Samuel 4:4",
+      "hebrew_text": "יְהוָה צְבָאוֹת יֹשֵׁב הַכְּרֻבִים",
+      "targum_text": "Adonai Tzevaot di Shekhinteih sharyah al keruvayya",
+      "targum_rendering": "The LORD of Hosts, whose Shekinah rests upon the cherubim.",
+      "mt_rendering": "The LORD of hosts, who is enthroned on the cherubim.",
+      "category": "shekinah",
+      "notes": ["God does not sit on the cherubim — his Shekinah rests upon them. The Ark theology is Shekinah theology: the cherubim-throne is the locus of Shekinah presence."]
+    },
+    {
+      "reference": "2 Samuel 5:10",
+      "hebrew_text": "וַיֵּלֶךְ דָּוִד הָלוֹךְ וְגָדוֹל וַיהוָה אֱלֹהֵי צְבָאוֹת עִמּוֹ",
+      "targum_text": "va'azal David azala verav uMemra daAdonai Elahei cheilavata besiyyeih",
+      "targum_rendering": "And David went on and became great, and the Memra of the LORD God of hosts was in his help.",
+      "mt_rendering": "And David became greater and greater, for the LORD God of hosts was with him.",
+      "category": "memra",
+      "notes": ["David's rise to power is attributed to the Memra's help, establishing the same divine-accompaniment pattern used for the patriarchs, Moses, and Joshua."]
+    },
+    {
+      "reference": "2 Samuel 6:2",
+      "hebrew_text": "אֲשֶׁר־נִקְרָא שֵׁם שֵׁם יְהוָה צְבָאוֹת יֹשֵׁב הַכְּרֻבִים עָלָיו",
+      "targum_text": "di itqeri shema shema daAdonai Tzevaot di Shekhinteih sharyah al keruvayya da'aloi",
+      "targum_rendering": "Over which is called the name, the name of the LORD of hosts, whose Shekinah rests upon the cherubim that are upon it.",
+      "mt_rendering": "Over which is called the name, the name of the LORD of hosts who sits enthroned on the cherubim.",
+      "category": "shekinah",
+      "notes": ["The Ark procession to Jerusalem brings the Shekinah-cherubim formula again. The Shekinah is what David brings to Jerusalem, establishing the city as the Shekinah's dwelling place."]
+    },
+    {
+      "reference": "2 Samuel 7:6",
+      "hebrew_text": "כִּי לֹא יָשַׁבְתִּי בְּבַיִת... וָאֶהְיֶה מִתְהַלֵּךְ בְּאֹהֶל וּבְמִשְׁכָּן",
+      "targum_text": "arei la ashrei Shekhineti beveita... vahavat Shekhineti mehalikha bemashkena",
+      "targum_rendering": "For I have not caused my Shekinah to dwell in a house... and my Shekinah has been moving about in a tent and in a tabernacle.",
+      "mt_rendering": "For I have not lived in a house... but I have been moving about in a tent and a tabernacle.",
+      "category": "shekinah",
+      "notes": ["God's mobility in a tent becomes the Shekinah's mobility. The Shekinah has not been stationary in a permanent house — it has moved with Israel since the Exodus. This is the theological foundation for the Temple's construction."]
+    },
+    {
+      "reference": "2 Samuel 7:12-13",
+      "hebrew_text": "וַהֲקִימֹתִי אֶת־זַרְעֲךָ... וְכֹנַנְתִּי אֶת־כִּסֵּא מַמְלַכְתּוֹ עַד־עוֹלָם",
+      "targum_text": "va'aqim yat bar'akh... va'atqin yat kurseih demalkhutei le'alma",
+      "targum_rendering": "And I will raise up your offspring... and I will establish the throne of his kingdom forever.",
+      "mt_rendering": "And I will raise up your offspring... and I will establish the throne of his kingdom forever.",
+      "category": "messianic",
+      "notes": ["The Davidic covenant promise is rendered literally. The eternal throne becomes the basis for all subsequent Messianic expectation. Jonathan treats the 'forever' as genuinely eschatological."]
+    },
+    {
+      "reference": "2 Samuel 7:14",
+      "hebrew_text": "אֲנִי אֶהְיֶה־לּוֹ לְאָב וְהוּא יִהְיֶה־לִי לְבֵן",
+      "targum_text": "ana ehei leih le'abba vehu yehei qodamai kevar",
+      "targum_rendering": "I will be to him as a father, and he shall be before me as a son.",
+      "mt_rendering": "I will be to him a father, and he shall be to me a son.",
+      "category": "messianic",
+      "notes": ["Jonathan adds 'as' (ke-) to soften the father-son language, rendering 'as a father... as a son' rather than directly 'a father... a son.' This subtle qualification may reflect caution about divine sonship language while preserving the relational content."]
+    },
+    {
+      "reference": "2 Samuel 22:2",
+      "hebrew_text": "יְהוָה סַלְעִי וּמְצֻדָתִי",
+      "targum_text": "Adonai taqfi umetzadati",
+      "targum_rendering": "The LORD is my strength and my fortress.",
+      "mt_rendering": "The LORD is my rock and my fortress.",
+      "category": "anti-anthropomorphism",
+      "notes": ["As in the Song of Moses (Deut 32), 'rock' (sela/tzur) is rendered 'strength/mighty one' (taqif). Jonathan follows the same pattern as Onkelos: God is not compared to a physical object."]
+    },
+    {
+      "reference": "2 Samuel 22:11",
+      "hebrew_text": "וַיִּרְכַּב עַל־כְּרוּב וַיָּעֹף",
+      "targum_text": "veashri Shekhinteih al keruvayya vetqif",
+      "targum_rendering": "And he caused his Shekinah to rest upon the cherubim, and he was strong.",
+      "mt_rendering": "And he rode on a cherub and flew.",
+      "category": "shekinah",
+      "notes": ["God does not 'ride' a cherub — the Shekinah rests upon the cherubim. Flying is replaced with strength (tqif). The entire divine-warrior storm theophany is refracted through Shekinah and glory language."]
+    },
+    {
+      "reference": "1 Kings 6:13",
+      "hebrew_text": "וְשָׁכַנְתִּי בְּתוֹךְ בְּנֵי יִשְׂרָאֵל",
+      "targum_text": "ve'ashrei Shekhineti bego benei Yisrael",
+      "targum_rendering": "And I will cause my Shekinah to dwell among the children of Israel.",
+      "mt_rendering": "And I will dwell among the children of Israel.",
+      "category": "shekinah",
+      "notes": ["God's promise during Temple construction mirrors the Tabernacle promise (Ex 25:8). The Temple is the Shekinah's permanent house, replacing the mobile tent."]
+    },
+    {
+      "reference": "1 Kings 8:12",
+      "hebrew_text": "יְהוָה אָמַר לִשְׁכֹּן בָּעֲרָפֶל",
+      "targum_text": "Adonai amar le'ashraah Shekhinteih ba'arafela",
+      "targum_rendering": "The LORD said he would cause his Shekinah to dwell in the thick cloud.",
+      "mt_rendering": "The LORD has said that he would dwell in thick darkness.",
+      "category": "shekinah",
+      "notes": ["Solomon's dedication speech opens with Shekinah theology. God dwells in the Temple's darkness through the Shekinah, not in his essence."]
+    },
+    {
+      "reference": "1 Kings 8:27",
+      "hebrew_text": "הִנֵּה הַשָּׁמַיִם וּשְׁמֵי הַשָּׁמַיִם לֹא יְכַלְכְּלוּךָ אַף כִּי הַבַּיִת הַזֶּה",
+      "targum_text": "ha shemayya ushemei shemayya la yekhulun leqodam yeqarakh af arei beita hadein",
+      "targum_rendering": "Behold, the heavens and the heavens of heavens cannot contain your glory — how much less this house!",
+      "mt_rendering": "Behold, heaven and the highest heaven cannot contain you — how much less this house!",
+      "category": "anti-anthropomorphism",
+      "notes": ["The heavens cannot contain God's glory (yeqar), not God himself. Jonathan adds a layer of abstraction: it is the glory that exceeds all spatial bounds, preserving Solomon's theology of divine transcendence while using the glory concept."]
+    },
+    {
+      "reference": "1 Kings 8:30",
+      "hebrew_text": "וְאַתָּה תִּשְׁמַע אֶל־מְכוֹן שִׁבְתְּךָ אֶל־הַשָּׁמַיִם",
+      "targum_text": "ve'att tiqabbeil tzlotehon min atar beit Shekhinetakh min shemayya",
+      "targum_rendering": "And you will receive their prayers from the place of the house of your Shekinah, from heaven.",
+      "mt_rendering": "And you will hear from heaven, your dwelling place.",
+      "category": "shekinah",
+      "notes": ["God's 'dwelling place' in heaven becomes 'the house of your Shekinah.' There is a heavenly Shekinah-dwelling that corresponds to the earthly Temple, establishing a two-tiered Shekinah theology: the Temple below mirrors the heavenly abode above."]
+    },
+    {
+      "reference": "1 Kings 9:3",
+      "hebrew_text": "לָשׂוּם שְׁמִי שָׁם עַד־עוֹלָם",
+      "targum_text": "le'ashraah Shekhineti tamman le'alma",
+      "targum_rendering": "To cause my Shekinah to dwell there forever.",
+      "mt_rendering": "To put my name there forever.",
+      "category": "shekinah",
+      "notes": ["'My name' dwelling forever becomes 'my Shekinah' dwelling forever. Jonathan equates the divine Name with the Shekinah, both being modes of God's accessible presence."]
+    },
+    {
+      "reference": "1 Kings 19:11-12",
+      "hebrew_text": "וְהִנֵּה יְהוָה עֹבֵר... לֹא בָרוּחַ יְהוָה... לֹא בָרַעַשׁ יְהוָה... קוֹל דְּמָמָה דַקָּה",
+      "targum_text": "veha Adonai itgeli... la berucha shekhinteih daAdonai... la bezu'a shekhinteih daAdonai... qal memallel berchichut",
+      "targum_rendering": "And behold, the LORD revealed himself... not in the wind was the Shekinah of the LORD... not in the earthquake was the Shekinah of the LORD... a voice speaking softly.",
+      "mt_rendering": "And behold, the LORD was passing by... the LORD was not in the wind... the LORD was not in the earthquake... a still small voice.",
+      "category": "shekinah",
+      "notes": ["The Horeb theophany for Elijah receives full Shekinah treatment. God 'passing by' becomes God revealing himself. The Shekinah was not in the wind, earthquake, or fire — but in the 'voice speaking softly' (qal memallel berchichut). The 'still small voice' becomes an articulate voice whispering, emphasizing verbal communication over numinous experience."]
+    },
+    {
+      "reference": "2 Kings 2:11",
+      "hebrew_text": "וַיַּעַל אֵלִיָּהוּ בַּסְעָרָה הַשָּׁמָיִם",
+      "targum_text": "useliqu Eliyahu be'alala lishemayya",
+      "targum_rendering": "And Elijah went up in a whirlwind to heaven.",
+      "mt_rendering": "And Elijah went up by a whirlwind into heaven.",
+      "category": "literal",
+      "notes": ["Elijah's ascension is rendered literally. Jonathan does not rationalize or spiritualize the bodily translation to heaven."]
+    },
+    {
+      "reference": "2 Kings 19:15",
+      "hebrew_text": "יְהוָה אֱלֹהֵי יִשְׂרָאֵל יֹשֵׁב הַכְּרֻבִים אַתָּה־הוּא הָאֱלֹהִים לְבַדְּךָ",
+      "targum_text": "Adonai Elaha deYisrael di Shekhinteih sharyah al keruvayya att hu Elaha balchudakh",
+      "targum_rendering": "O LORD God of Israel, whose Shekinah rests upon the cherubim, you alone are God.",
+      "mt_rendering": "O LORD God of Israel, enthroned above the cherubim, you are the God, you alone.",
+      "category": "shekinah",
+      "notes": ["Hezekiah's prayer uses the Shekinah-cherubim formula. Even in desperate prayer, the theological grammar is maintained: God's Shekinah rests on the cherubim."]
+    }
+  ]
+}

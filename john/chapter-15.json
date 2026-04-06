@@ -1,0 +1,373 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "John",
+    "chapter": 15,
+    "source_text": "SBL Greek New Testament (SBLGNT)",
+    "reference_text": "KJV",
+    "generated_at": "2026-04-04T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "John 15 continues Jesus's farewell discourse with the extended metaphor of the vine and the branches, calling his disciples to remain connected to him as the condition for bearing fruit. The chapter moves from the intimacy of abiding love to the gravity of the world's hatred, culminating in the promise of the Spirit of truth who will testify about Jesus.",
+    "remarkable": "The vine metaphor draws on deep Old Testament imagery where Israel is God's vineyard (Isaiah 5:1-7, Psalm 80:8-16, Jeremiah 2:21). Jesus's claim 'I am the true vine' redirects this identity to himself — he is now the locus of covenant fruitfulness. The 'no greater love' declaration in verse 13 becomes one of the most recognized statements in all of Scripture. The Greek meno ('abide, remain') appears eleven times in verses 4-10, creating a literary drumbeat of relational permanence.",
+    "friction": "The relationship between 'abiding' (meno) and fruitfulness raises theological questions about whether the branches that are 'taken away' (v. 2) represent genuine believers who fall away or those who were never truly connected. We render the Greek without resolving this debate. The phrase 'I chose you' (v. 16) uses exelexamen, the same verb used for divine election in the Septuagint, but the context is specifically the Twelve's apostolic commission.",
+    "connections": "The vine imagery connects to Isaiah 5 (the vineyard song), Psalm 80 (Israel as vine), and Ezekiel 15 (the useless vine). The love command (vv. 12-17) intensifies the 'new commandment' of 13:34. The world's hatred (vv. 18-25) prepares for the persecution themes of chapter 16. The Paraclete promise (vv. 26-27) continues the Spirit passages of 14:16-17 and 14:26."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_greek": "Ἐγώ εἰμι ἡ ἄμπελος ἡ ἀληθινή, καὶ ὁ πατήρ μου ὁ γεωργός ἐστιν.",
+      "text_kjv": "I am the true vine, and my Father is the husbandman.",
+      "rendering": "\"I am the true vine, and my Father is the vinedresser.",
+      "translator_notes": [
+        "This is the last of John's seven 'I am' (ego eimi) declarations with a predicate. The adjective aleethinee ('true, genuine') distinguishes Jesus from Israel as the failed vine of Old Testament imagery (Isaiah 5:1-7, Jeremiah 2:21). The Greek georgos ('farmer, vinedresser') is more specific than the KJV's 'husbandman' — it denotes one who tends and cultivates the land, here specifically a vineyard keeper.",
+        "[TCR Cross-Reference] Quotes Isaiah 5:1-7. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it.",
+        "[TCR Cross-Reference] Quotes Jeremiah 2:21. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it."
+      ],
+      "key_terms": [
+        {
+          "greek": "ἄμπελος",
+          "transliteration": "ampelos",
+          "rendered_as": "vine",
+          "semantic_range": "vine, grapevine",
+          "note": "In the Old Testament, Israel is repeatedly described as God's vine or vineyard. Jesus claims this identity for himself, implying that he is the true Israel, the authentic locus of covenant fruitfulness."
+        },
+        {
+          "greek": "ἀληθινή",
+          "transliteration": "aleethinee",
+          "rendered_as": "true",
+          "semantic_range": "true, genuine, real, authentic",
+          "note": "Not merely 'truthful' but 'the real thing' — the authentic vine as opposed to all counterfeits or failures. John uses this word to distinguish the heavenly reality from earthly shadows."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 2,
+      "text_greek": "πᾶν κλῆμα ἐν ἐμοὶ μὴ φέρον καρπόν, αἴρει αὐτό, καὶ πᾶν τὸ καρπὸν φέρον, καθαίρει αὐτό, ἵνα καρπὸν πλείονα φέρῃ.",
+      "text_kjv": "Every branch in me that beareth not fruit he taketh away: and every branch that beareth fruit, he purgeth it, that it may bring forth more fruit.",
+      "rendering": "Every branch in me that does not bear fruit, he removes, and every branch that bears fruit, he prunes so that it may bear more fruit.",
+      "translator_notes": [
+        "There is a wordplay in the Greek between airei ('takes away, lifts up') and kathairei ('prunes, cleanses'). Some scholars argue airei should be translated 'lifts up' (as a vinedresser lifts trailing branches off the ground), but the context of removal versus pruning favors 'removes.' The verb kathairei is the root of katharos ('clean'), connecting to Jesus's statement in verse 3."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 3,
+      "text_greek": "ἤδη ὑμεῖς καθαροί ἐστε διὰ τὸν λόγον ὃν λελάληκα ὑμῖν.",
+      "text_kjv": "Now ye are clean through the word which I have spoken unto you.",
+      "rendering": "You are already clean because of the word I have spoken to you.",
+      "translator_notes": [
+        "The adjective katharoi ('clean') connects to kathairei ('prunes/cleanses') in verse 2 — the disciples have already undergone a cleansing through Jesus's word. This also echoes 13:10 where Jesus told the disciples 'you are clean' after washing their feet. The logos ('word') here encompasses the entirety of Jesus's teaching, not a single statement."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 4,
+      "text_greek": "μείνατε ἐν ἐμοί, κἀγὼ ἐν ὑμῖν. καθὼς τὸ κλῆμα οὐ δύναται καρπὸν φέρειν ἀφ' ἑαυτοῦ, ἐὰν μὴ μένῃ ἐν τῇ ἀμπέλῳ, οὕτως οὐδὲ ὑμεῖς, ἐὰν μὴ ἐν ἐμοὶ μένητε.",
+      "text_kjv": "Abide in me, and I in you. As the branch cannot bear fruit of itself, except it abide in the vine; no more can ye, except ye abide in me.",
+      "rendering": "Remain in me, and I will remain in you. Just as the branch cannot bear fruit by itself unless it remains in the vine, neither can you unless you remain in me.",
+      "translator_notes": [
+        "The verb meno ('remain, abide, stay') appears here for the first of eleven uses in verses 4-10, forming the thematic center of the passage. The imperative meinate ('remain!') is an aorist command implying decisive, sustained commitment. The mutual indwelling ('in me... I in you') echoes the Father-Son mutual indwelling of 14:10-11 and extends it to the disciples."
+      ],
+      "key_terms": [
+        {
+          "greek": "μένω",
+          "transliteration": "meno",
+          "rendered_as": "remain",
+          "semantic_range": "remain, abide, stay, dwell, continue, endure",
+          "note": "A signature Johannine term carrying relational weight far beyond physical location. To 'remain' in Jesus means sustained relational connection, ongoing trust, and continued obedience. We render as 'remain' rather than the more archaic 'abide' for modern readability."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 5,
+      "text_greek": "ἐγώ εἰμι ἡ ἄμπελος, ὑμεῖς τὰ κλήματα. ὁ μένων ἐν ἐμοὶ κἀγὼ ἐν αὐτῷ, οὗτος φέρει καρπὸν πολύν, ὅτι χωρὶς ἐμοῦ οὐ δύνασθε ποιεῖν οὐδέν.",
+      "text_kjv": "I am the vine, ye are the branches: He that abideth in me, and I in him, the same bringeth forth much fruit: for without me ye can do nothing.",
+      "rendering": "I am the vine; you are the branches. Whoever remains in me, and I in him, bears much fruit, because apart from me you can do nothing.",
+      "translator_notes": [
+        "The absolute claim choris emou ou dynasthe poiein ouden ('apart from me you can do nothing') is among the most radical statements of dependence in the New Testament. The word choris ('apart from, separated from') reinforces the vine metaphor — a severed branch is not merely weakened but wholly incapable of producing fruit."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 6,
+      "text_greek": "ἐὰν μή τις μένῃ ἐν ἐμοί, ἐβλήθη ἔξω ὡς τὸ κλῆμα καὶ ἐξηράνθη, καὶ συνάγουσιν αὐτὰ καὶ εἰς τὸ πῦρ βάλλουσιν, καὶ καίεται.",
+      "text_kjv": "If a man abide not in me, he is cast forth as a branch, and is withered; and men gather them, and cast them into the fire, and they are burned.",
+      "rendering": "If anyone does not remain in me, he is thrown out like a branch and withers. Such branches are gathered, thrown into the fire, and burned.",
+      "translator_notes": [
+        "The aorist tenses eblethee ('was thrown out') and exeranthee ('withered') are striking — they describe the result as already accomplished, giving the warning a sense of finality. The impersonal 'they gather' (synagousin) avoids naming who performs this judgment. The imagery of fire for useless branches reflects standard Palestinian viticultural practice and echoes John the Baptist's warning in Matthew 3:10."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 7,
+      "text_greek": "ἐὰν μείνητε ἐν ἐμοὶ καὶ τὰ ῥήματά μου ἐν ὑμῖν μείνῃ, ὃ ἐὰν θέλητε αἰτήσασθε, καὶ γενήσεται ὑμῖν.",
+      "text_kjv": "If ye abide in me, and my words abide in you, ye shall ask what ye will, and it shall be done unto you.",
+      "rendering": "If you remain in me and my words remain in you, ask whatever you wish, and it will be done for you.",
+      "translator_notes": [
+        "The promise of answered prayer is conditioned on a double remaining: the disciple in Christ and Christ's words (reemata, 'spoken words, sayings') in the disciple. This is not a blank check but a promise that those whose desires are shaped by Jesus's teaching will find their prayers aligned with God's will and therefore answered."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 8,
+      "text_greek": "ἐν τούτῳ ἐδοξάσθη ὁ πατήρ μου, ἵνα καρπὸν πολὺν φέρητε καὶ γένησθε ἐμοὶ μαθηταί.",
+      "text_kjv": "Herein is my Father glorified, that ye bear much fruit; so shall ye be my disciples.",
+      "rendering": "My Father is glorified by this: that you bear much fruit and so prove to be my disciples.",
+      "translator_notes": [
+        "The aorist edoxasthee ('was glorified') could be rendered as a timeless truth ('is glorified') in English since the aorist here expresses a general principle. The conjunction kai before genesthe could mean 'and' (additional result) or 'and so' (consequential). We render it as consequential — bearing fruit is the proof of discipleship, not a separate item alongside it."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 9,
+      "text_greek": "καθὼς ἠγάπησέν με ὁ πατήρ, κἀγὼ ὑμᾶς ἠγάπησα· μείνατε ἐν τῇ ἀγάπῃ τῇ ἐμῇ.",
+      "text_kjv": "As the Father hath loved me, so have I loved you: continue ye in my love.",
+      "rendering": "As the Father has loved me, so I have loved you. Remain in my love.",
+      "translator_notes": [
+        "The comparison kathos ('just as, in the same way as') establishes that Jesus's love for his disciples is patterned on the Father's love for the Son — the same quality, not merely a lesser imitation. The imperative meinate ('remain!') shifts from the vine metaphor to love itself as the sphere in which disciples are to dwell."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 10,
+      "text_greek": "ἐὰν τὰς ἐντολάς μου τηρήσητε, μενεῖτε ἐν τῇ ἀγάπῃ μου, καθὼς ἐγὼ τὰς ἐντολὰς τοῦ πατρός μου τετήρηκα καὶ μένω αὐτοῦ ἐν τῇ ἀγάπῃ.",
+      "text_kjv": "If ye keep my commandments, ye shall abide in my love; even as I have kept my Father's commandments, and abide in his love.",
+      "rendering": "If you keep my commandments, you will remain in my love, just as I have kept my Father's commandments and remain in his love.",
+      "translator_notes": [
+        "Obedience to commandments (entolas) is presented not as the means of earning love but as the means of remaining within the sphere of love already given. The perfect tense teteereka ('I have kept and continue to keep') emphasizes Jesus's completed and ongoing obedience to the Father. This parallels the covenantal pattern of the Old Testament where obedience is the response to grace, not its cause."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 11,
+      "text_greek": "ταῦτα λελάληκα ὑμῖν ἵνα ἡ χαρὰ ἡ ἐμὴ ἐν ὑμῖν ᾖ καὶ ἡ χαρὰ ὑμῶν πληρωθῇ.",
+      "text_kjv": "These things have I spoken unto you, that my joy might remain in you, and that your joy might be full.",
+      "rendering": "I have told you these things so that my joy may be in you, and your joy may be made complete.",
+      "translator_notes": [
+        "The Greek pleerothee ('may be fulfilled, made complete') suggests joy brought to its full capacity, not merely increased. Jesus speaks of 'my joy' (hee chara hee emee) — the joy that belongs to him and originates from his relationship with the Father — being transferred to the disciples. This is not human happiness but divine joy shared."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 12,
+      "text_greek": "αὕτη ἐστὶν ἡ ἐντολὴ ἡ ἐμή, ἵνα ἀγαπᾶτε ἀλλήλους καθὼς ἠγάπησα ὑμᾶς.",
+      "text_kjv": "This is my commandment, That ye love one another, as I have loved you.",
+      "rendering": "As i have loved you, this was my commandment, That you love one another.",
+      "translator_notes": [
+        "The singular entolee ('commandment') reduces all of Jesus's commands to a single imperative. The standard of love is not abstract but personal — kathos eegapeesa hymas ('as I have loved you'). This intensifies the 'new commandment' of 13:34 by anchoring it in the self-sacrificial love Jesus is about to demonstrate on the cross."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 13,
+      "text_greek": "μείζονα ταύτης ἀγάπην οὐδεὶς ἔχει, ἵνα τις τὴν ψυχὴν αὐτοῦ θῇ ὑπὲρ τῶν φίλων αὐτοῦ.",
+      "text_kjv": "Greater love hath no man than this, that a man lay down his life for his friends.",
+      "rendering": "No one has greater love than this: to lay down his life for his friends.",
+      "translator_notes": [
+        "The Greek psycheen ('soul, life') here means one's entire existence, not merely biological life. The verb thee ('to lay down, to place') is the same word used in 10:11, 15, 17-18 for the Good Shepherd laying down his life for the sheep. Jesus defines the supreme expression of love and is about to enact it. The word philon ('friends') anticipates verse 15 where Jesus redefines the disciples' status from servants to friends."
+      ],
+      "key_terms": [
+        {
+          "greek": "ψυχή",
+          "transliteration": "psychee",
+          "rendered_as": "life",
+          "semantic_range": "soul, life, self, person, breath",
+          "note": "Corresponds to the Hebrew nephesh. Here it means one's whole existence, not the Greek philosophical concept of an immortal soul separate from the body."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 14,
+      "text_greek": "ὑμεῖς φίλοι μού ἐστε, ἐὰν ποιῆτε ἃ ἐγὼ ἐντέλλομαι ὑμῖν.",
+      "text_kjv": "Ye are my friends, if ye do whatsoever I command you.",
+      "rendering": "You are my friends if you do what I command you.",
+      "translator_notes": [
+        "The conditional ean poieete ('if you do') uses the present subjunctive, indicating ongoing action — 'if you continue doing.' Friendship with Jesus is not unconditional in the sense of requiring no response; it is maintained through obedience. The concept of being 'friends of God' has deep Old Testament roots — Abraham was called 'friend of God' (2 Chronicles 20:7, Isaiah 41:8).",
+        "[TCR Cross-Reference] Echoes 2 Chronicles 20:7. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale.",
+        "[TCR Cross-Reference] Echoes Isaiah 41:8. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 15,
+      "text_greek": "οὐκέτι λέγω ὑμᾶς δούλους, ὅτι ὁ δοῦλος οὐκ οἶδεν τί ποιεῖ αὐτοῦ ὁ κύριος· ὑμᾶς δὲ εἴρηκα φίλους, ὅτι πάντα ἃ ἤκουσα παρὰ τοῦ πατρός μου ἐγνώρισα ὑμῖν.",
+      "text_kjv": "Henceforth I call you not servants; for the servant knoweth not what his lord doeth: but I have called you friends; for all things that I have heard of my Father I have made known unto you.",
+      "rendering": "I no longer call you servants, because a servant does not know what his master is doing. Instead, I have called you friends, because everything I have heard from my Father I have made known to you.",
+      "translator_notes": [
+        "The Greek doulos ('slave, servant') denotes one who serves without understanding the master's purposes. The shift from douloi to philoi ('friends') is a dramatic elevation — friends are confidants who share in the master's knowledge. The perfect tense egnorisa ('I have made known') indicates a completed act of revelation. Jesus's entire ministry has been an act of sharing the Father's counsel with his disciples."
+      ],
+      "key_terms": [
+        {
+          "greek": "δοῦλος",
+          "transliteration": "doulos",
+          "rendered_as": "servant",
+          "semantic_range": "slave, servant, bondservant",
+          "note": "The Greek doulos more precisely means 'slave' — one who is owned. We render 'servant' in this context because the contrast with 'friend' is about knowledge-sharing, not ownership. The point is relational status, not social condition."
+        },
+        {
+          "greek": "φίλος",
+          "transliteration": "philos",
+          "rendered_as": "friend",
+          "semantic_range": "friend, beloved, dear one",
+          "note": "In the ancient Near Eastern court, 'friend of the king' was an official title denoting an intimate advisor. Jesus elevates the disciples from servants who obey orders to friends who understand the master's purposes."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 16,
+      "text_greek": "οὐχ ὑμεῖς με ἐξελέξασθε, ἀλλ' ἐγὼ ἐξελεξάμην ὑμᾶς καὶ ἔθηκα ὑμᾶς ἵνα ὑμεῖς ὑπάγητε καὶ καρπὸν φέρητε καὶ ὁ καρπὸς ὑμῶν μένῃ, ἵνα ὅ τι ἂν αἰτήσητε τὸν πατέρα ἐν τῷ ὀνόματί μου δῷ ὑμῖν.",
+      "text_kjv": "Ye have not chosen me, but I have chosen you, and ordained you, that ye should go and bring forth fruit, and that your fruit should remain: that whatsoever ye shall ask of the Father in my name, he may give it you.",
+      "rendering": "You did not choose me, but I chose you and appointed you so that you would go and bear fruit — fruit that will last — so that whatever you ask the Father in my name, he will give you.",
+      "translator_notes": [
+        "The verb exelexameen ('I chose') is the same word used in the Septuagint for God's election of Israel (Deuteronomy 7:6-7). The verb etheka ('I appointed, placed, set') is stronger than the KJV's 'ordained' — it carries the sense of deliberate commissioning. The purpose clause contains three elements: going (mission), bearing fruit (productivity), and fruit that remains (permanence). The prayer promise is tied to this fruitfulness.",
+        "[TCR Cross-Reference] Quotes Deuteronomy 7:6-7. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 17,
+      "text_greek": "ταῦτα ἐντέλλομαι ὑμῖν, ἵνα ἀγαπᾶτε ἀλλήλους.",
+      "text_kjv": "These things I command you, that ye love one another.",
+      "rendering": "These things I command you, so that you may love one another.",
+      "translator_notes": [
+        "This verse serves as a closing bracket to the love section (vv. 9-17), echoing the command of verse 12. The hina clause ('so that') could indicate purpose ('in order that you may love') or content ('namely, that you love'). The effect is the same: mutual love among disciples is both the goal and the substance of Jesus's commands."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 18,
+      "text_greek": "Εἰ ὁ κόσμος ὑμᾶς μισεῖ, γινώσκετε ὅτι ἐμὲ πρῶτον ὑμῶν μεμίσηκεν.",
+      "text_kjv": "If the world hate you, ye know that it hated me before it hated you.",
+      "rendering": "You know that it hated me before it hated you, and if the world hate you.",
+      "translator_notes": [
+        "The conditional ei with the indicative misei ('hates') presents the world's hatred as a real condition, not a hypothetical. The Greek ginooskete could be indicative ('you know') or imperative ('know!'). The imperative reading fits the context better — Jesus is commanding awareness, not merely acknowledging what they already understand. The perfect memiseeken ('has hated') indicates an ongoing state of enmity."
+      ],
+      "key_terms": [
+        {
+          "greek": "κόσμος",
+          "transliteration": "kosmos",
+          "rendered_as": "world",
+          "semantic_range": "world, created order, humanity, human society opposed to God",
+          "note": "In John's usage, kosmos frequently refers not to the created order itself but to human society organized in opposition to God and his purposes. This is the sense here — the 'world' that hates is the system of values and powers that rejected Jesus."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 19,
+      "text_greek": "εἰ ἐκ τοῦ κόσμου ἦτε, ὁ κόσμος ἂν τὸ ἴδιον ἐφίλει· ὅτι δὲ ἐκ τοῦ κόσμου οὐκ ἐστέ, ἀλλ' ἐγὼ ἐξελεξάμην ὑμᾶς ἐκ τοῦ κόσμου, διὰ τοῦτο μισεῖ ὑμᾶς ὁ κόσμος.",
+      "text_kjv": "If ye were of the world, the world would love his own: but because ye are not of the world, but I have chosen you out of the world, therefore the world hateth you.",
+      "rendering": "If you belonged to the world, the world would love its own. But because you do not belong to the world — because I chose you out of the world — for this reason the world hates you.",
+      "translator_notes": [
+        "The phrase ek tou kosmou ('out of/from the world') appears five times in this single verse, creating an emphatic contrast between belonging and separation. The verb exelexameen ('I chose') again echoes divine election language. The word idion ('its own') indicates that the world recognizes and embraces what belongs to it — the disciples' rejection proves they no longer belong to the world system."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 20,
+      "text_greek": "μνημονεύετε τοῦ λόγου οὗ ἐγὼ εἶπον ὑμῖν· οὐκ ἔστιν δοῦλος μείζων τοῦ κυρίου αὐτοῦ. εἰ ἐμὲ ἐδίωξαν, καὶ ὑμᾶς διώξουσιν· εἰ τὸν λόγον μου ἐτήρησαν, καὶ τὸν ὑμέτερον τηρήσουσιν.",
+      "text_kjv": "Remember the word that I said unto you, The servant is not greater than his lord. If they have persecuted me, they will also persecute you; if they have kept my saying, they will keep yours also.",
+      "rendering": "Remember the word I spoke to you: 'A servant is not greater than his master.' If they persecuted me, they will persecute you as well. If they kept my word, they will keep yours also.",
+      "translator_notes": [
+        "Jesus refers back to 13:16 where he made this statement in the context of foot-washing. The parallel structure ('if they persecuted me... if they kept my word') presents both outcomes as real possibilities within different groups of people. The verb ediooksan ('persecuted') and eteereesan ('kept/obeyed') represent the two responses the world gives to divine truth."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 21,
+      "text_greek": "ἀλλὰ ταῦτα πάντα ποιήσουσιν εἰς ὑμᾶς διὰ τὸ ὄνομά μου, ὅτι οὐκ οἴδασιν τὸν πέμψαντά με.",
+      "text_kjv": "But all these things will they do unto you for my name's sake, because they know not him that sent me.",
+      "rendering": "But they will do all these things to you on account of my name, because they do not know the one who sent me.",
+      "translator_notes": [
+        "The phrase dia to onoma mou ('on account of my name') indicates that persecution comes not because of who the disciples are but because of whom they represent. The verb oidasin ('they know') uses the perfect form of oida, meaning intuitive or relational knowledge — the persecutors lack not merely information about God but genuine knowledge of him."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 22,
+      "text_greek": "εἰ μὴ ἦλθον καὶ ἐλάλησα αὐτοῖς, ἁμαρτίαν οὐκ εἴχοσαν· νῦν δὲ πρόφασιν οὐκ ἔχουσιν περὶ τῆς ἁμαρτίας αὐτῶν.",
+      "text_kjv": "If I had not come and spoken unto them, they had not had sin: but now they have no cloke for their sin.",
+      "rendering": "If I had not come and spoken to them, they would not be guilty of sin. But now they have no excuse for their sin.",
+      "translator_notes": [
+        "The Greek hamartian ouk eichosan ('they would not have sin') does not mean they were sinless before Jesus came, but that they would not bear the specific guilt of rejecting God's self-revelation. The word prophasin ('excuse, pretext') — rendered 'cloke' in the KJV — means a justification or defense. Jesus's coming has removed all plausible deniability."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 23,
+      "text_greek": "ὁ ἐμὲ μισῶν καὶ τὸν πατέρα μου μισεῖ.",
+      "text_kjv": "He that hateth me hateth my Father also.",
+      "rendering": "The one who hates me hates my Father also.",
+      "translator_notes": [
+        "This brief statement encapsulates Johannine Christology: Jesus and the Father are so united that one's response to Jesus is necessarily one's response to God. Hatred of Jesus cannot be separated from hatred of God himself."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 24,
+      "text_greek": "εἰ τὰ ἔργα μὴ ἐποίησα ἐν αὐτοῖς ἃ οὐδεὶς ἄλλος ἐποίησεν, ἁμαρτίαν οὐκ εἴχοσαν· νῦν δὲ καὶ ἑωράκασιν καὶ μεμισήκασιν καὶ ἐμὲ καὶ τὸν πατέρα μου.",
+      "text_kjv": "If I had not done among them the works which none other man did, they had not had sin: but now have they both seen and hated both me and my Father.",
+      "rendering": "If I had not done among them the works that no one else has done, they would not be guilty of sin. But now they have seen and yet hated both me and my Father.",
+      "translator_notes": [
+        "Verse 22 addressed the witness of Jesus's words; this verse addresses the witness of his works (erga). The perfect tenses heorakasin ('they have seen') and memiseekasin ('they have hated') describe settled states — they have witnessed the evidence and have chosen enmity. The claim that these are works 'no one else has done' heightens the culpability of rejection."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 25,
+      "text_greek": "ἀλλ' ἵνα πληρωθῇ ὁ λόγος ὁ ἐν τῷ νόμῳ αὐτῶν γεγραμμένος ὅτι Ἐμίσησάν με δωρεάν.",
+      "text_kjv": "But this cometh to pass, that the word might be fulfilled that is written in their law, They hated me without a cause.",
+      "rendering": "But this is to fulfill the word written in their Law: 'They hated me without cause.'",
+      "translator_notes": [
+        "The quotation is from Psalm 35:19 or 69:4 (both contain the phrase). Jesus refers to the Psalms as 'their Law' (to nomo auton), using 'Law' in its broad sense to encompass all of Scripture. The word dorean ('without cause, freely, for no reason') emphasizes the gratuitous nature of the hatred — there is no rational basis for it.",
+        "[TCR Cross-Reference] This verse quotes Psalms 35:19 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 26,
+      "text_greek": "Ὅταν ἔλθῃ ὁ παράκλητος ὃν ἐγὼ πέμψω ὑμῖν παρὰ τοῦ πατρός, τὸ πνεῦμα τῆς ἀληθείας ὃ παρὰ τοῦ πατρὸς ἐκπορεύεται, ἐκεῖνος μαρτυρήσει περὶ ἐμοῦ·",
+      "text_kjv": "But when the Comforter is come, whom I will send unto you from the Father, even the Spirit of truth, which proceedeth from the Father, he shall testify of me:",
+      "rendering": "When the Advocate comes, whom I will send to you from the Father — the Spirit of truth who proceeds from the Father — he will testify about me.",
+      "translator_notes": [
+        "The Greek parakletos ('advocate, helper, counselor') is rendered 'Advocate' to capture its forensic meaning — one who comes alongside to defend and represent. The KJV's 'Comforter' reflects an older English sense of 'one who strengthens' but has lost that meaning in modern usage. The phrase 'who proceeds from the Father' (ho para tou patros ekporeuetai) became theologically significant in the later filioque controversy between Eastern and Western Christianity. The masculine pronoun ekeinos ('he') is used for the Spirit, despite pneuma being neuter in Greek — this personalizes the Spirit."
+      ],
+      "key_terms": [
+        {
+          "greek": "παράκλητος",
+          "transliteration": "parakletos",
+          "rendered_as": "Advocate",
+          "semantic_range": "advocate, counselor, helper, comforter, intercessor, one called alongside",
+          "note": "A legal term for one who speaks on another's behalf. In 1 John 2:1, Jesus himself is called parakletos. Here the Spirit serves as another Advocate continuing Jesus's ministry. No single English word captures the full range — advocate, counselor, helper, and comforter are all partial renderings."
+        },
+        {
+          "greek": "τὸ πνεῦμα τῆς ἀληθείας",
+          "transliteration": "to pneuma tees aleetheias",
+          "rendered_as": "the Spirit of truth",
+          "semantic_range": "the Spirit of truth, the Spirit characterized by truth",
+          "note": "The genitive 'of truth' indicates both origin (the Spirit comes from the realm of truth) and character (the Spirit is defined by truth). This title appears in John 14:17, 15:26, and 16:13."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 27,
+      "text_greek": "καὶ ὑμεῖς δὲ μαρτυρεῖτε, ὅτι ἀπ' ἀρχῆς μετ' ἐμοῦ ἐστε.",
+      "text_kjv": "And ye also shall bear witness, because ye have been with me from the beginning.",
+      "rendering": "And you also will testify, because you have been with me from the beginning.\"",
+      "translator_notes": [
+        "The verb martyreite could be indicative ('you testify') or imperative ('testify!'). Either reading works — the disciples both will and should bear witness. The phrase ap archees ('from the beginning') refers to the beginning of Jesus's public ministry, establishing the disciples as eyewitnesses. Their testimony alongside the Spirit's testimony creates a dual witness as required by Jewish law (Deuteronomy 19:15).",
+        "[TCR Cross-Reference] Draws on Deuteronomy 19:15. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "7th grade"
+    }
+  ]
+}

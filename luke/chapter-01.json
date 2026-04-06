@@ -1,0 +1,981 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Luke",
+    "chapter": 1,
+    "source_text": "SBL Greek New Testament (SBLGNT)",
+    "reference_text": "KJV",
+    "generated_at": "2026-04-04T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Luke 1 opens with a formal literary prologue addressed to Theophilus, establishing Luke's method as careful, orderly investigation. The chapter then narrates two angelic birth announcements: Gabriel appears first to the priest Zechariah in the temple, declaring that his elderly wife Elizabeth will bear a son named John who will prepare the way of the Lord; then Gabriel appears to the virgin Mary in Nazareth, announcing that she will conceive by the Holy Spirit and bear a son named Jesus who will reign over David's throne forever. Mary visits Elizabeth, and the unborn John leaps in the womb. The chapter contains four major poetic passages: the Magnificat (Mary's song, vv. 46-55), the Benedictus (Zechariah's prophecy, vv. 68-79), and shorter hymnic passages in the angelic announcements.",
+    "remarkable": "Luke's birth narratives are saturated with Old Testament echoes. Zechariah and Elizabeth recall Abraham and Sarah (aged, barren, promised a child). Gabriel's appearance in the temple connects to Daniel 8-9, where Gabriel also delivers prophetic messages about God's timing. Mary's Magnificat draws heavily on Hannah's prayer (1 Samuel 2:1-10), and Zechariah's Benedictus weaves together Davidic, Abrahamic, and prophetic covenant themes. The Greek in these hymnic sections is heavily Septuagintal — Luke appears to be deliberately imitating the style of the Greek Old Testament to signal that God's ancient promises are being fulfilled.",
+    "friction": "The Greek of the prologue (vv. 1-4) is polished literary Koine, while the birth narratives shift to a markedly Semitic style, possibly reflecting Hebrew or Aramaic sources. We render both registers in natural modern English without flattening the distinction entirely. The Magnificat and Benedictus are rendered as poetry, preserving their hymnic structure. The phrase 'highly favored one' (kecharitomene, v. 28) has significant theological weight in different Christian traditions; we render the Greek transparently and note the range of meaning.",
+    "connections": "The Abrahamic covenant (Genesis 12, 15, 17) is explicitly invoked in both the Magnificat (v. 55) and Benedictus (vv. 72-73). The Davidic covenant (2 Samuel 7) underlies Gabriel's promise to Mary (vv. 32-33). John's role as forerunner connects to Malachi 3:1 and 4:5-6 (Elijah's return). The priestly setting of Zechariah's vision connects to the temple theology of the Old Testament.\n\n**Tradition comparisons:** The Latin Vulgate shaped Western theology here: Gratia plena (full of grace) became the cornerstone of Catholic Marian theology and the opening of the Ave Maria prayer (Ave Maria, gratia plena, Dominus tecum). The rendering implies Mary was filled... (4 notable Vulgate renderings in this chapter) See the [Vulgate Luke](/vulgate/luke). The JST modifies this chapter (Luke 1:28): Gabriel's greeting to Mary — 'highly favoured' language clarified See the [JST notes](/jst/luke)."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_greek": "Ἐπειδήπερ πολλοὶ ἐπεχείρησαν ἀνατάξασθαι διήγησιν περὶ τῶν πεπληροφορημένων ἐν ἡμῖν πραγμάτων,",
+      "text_kjv": "Forasmuch as many have taken in hand to set forth in order a declaration of those things which are most surely believed among us,",
+      "rendering": "Since many have undertaken to compile a narrative of the events that have been fulfilled among us,",
+      "translator_notes": [
+        "The Greek epecheiresan ('have undertaken, have attempted') carries no negative connotation — Luke is not criticizing earlier efforts but acknowledging them. The verb peplerophoremenon ('fulfilled, accomplished, brought to completion') is stronger than the KJV's 'believed.' Luke views these events not merely as things believed but as things God has brought to fulfillment."
+      ],
+      "key_terms": [
+        {
+          "greek": "πεπληροφορημένων",
+          "transliteration": "peplerophoremenon",
+          "rendered_as": "fulfilled",
+          "semantic_range": "fulfilled, accomplished, fully established, brought to completion",
+          "note": "This perfect passive participle implies divine agency — these events have been brought to their intended conclusion by God. The KJV's 'believed' misses this fulfillment dimension."
+        }
+      ],
+      "reading_level": "10th grade"
+    },
+    {
+      "verse": 2,
+      "text_greek": "καθὼς παρέδοσαν ἡμῖν οἱ ἀπ' ἀρχῆς αὐτόπται καὶ ὑπηρέται γενόμενοι τοῦ λόγου,",
+      "text_kjv": "Even as they delivered them unto us, which from the beginning were eyewitnesses, and ministers of the word;",
+      "rendering": "Indeed as they handed down them to us, which from the beginning were eyewitnesses, and ministers of the word.",
+      "translator_notes": [
+        "The Greek autoptai ('eyewitnesses') is a technical term — the root gives us the English 'autopsy' (seeing for oneself). Luke distinguishes himself from these original witnesses; he is a second-generation recipient. The phrase hyperetai tou logou ('servants of the word') may refer to a recognized role in the early church — those who faithfully transmitted the tradition."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 3,
+      "text_greek": "ἔδοξε κἀμοὶ παρηκολουθηκότι ἄνωθεν πᾶσιν ἀκριβῶς καθεξῆς σοι γράψαι, κράτιστε Θεόφιλε,",
+      "text_kjv": "It seemed good to me also, having had perfect understanding of all things from the very first, to write unto thee in order, most excellent Theophilus,",
+      "rendering": "Indeed, it was decided by me also, having had perfect understanding of all things from the very first, to write to you in order, most excellent Theophilus,.",
+      "translator_notes": [
+        "The Greek parekolouthekoti ('having followed closely, having investigated') implies active research, not passive reception — Luke has traced the tradition back to its sources. The adverb akribos ('accurately, carefully') emphasizes methodological rigor. Kratiste ('most excellent') is an honorific used for Roman officials (cf. Acts 23:26, 24:3, 26:25), suggesting Theophilus held some social status, though whether this is a real person or a symbolic name ('lover of God') is debated."
+      ],
+      "reading_level": "10th grade"
+    },
+    {
+      "verse": 4,
+      "text_greek": "ἵνα ἐπιγνῷς περὶ ὧν κατηχήθης λόγων τὴν ἀσφάλειαν.",
+      "text_kjv": "That thou mightest know the certainty of those things, wherein thou hast been instructed.",
+      "rendering": "Indeed, that you mightest know the certainty of those things, wherein you have been instructed.",
+      "translator_notes": [
+        "The Greek asphaleia ('certainty, security, reliability') suggests Theophilus has already received oral instruction (katechethes, 'been catechized, been taught') and Luke writes to provide a firm foundation. The verb katecheo is the root of 'catechism' — formal instruction in the faith."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 5,
+      "text_greek": "Ἐγένετο ἐν ταῖς ἡμέραις Ἡρῴδου βασιλέως τῆς Ἰουδαίας ἱερεύς τις ὀνόματι Ζαχαρίας ἐξ ἐφημερίας Ἀβιά, καὶ γυνὴ αὐτῷ ἐκ τῶν θυγατέρων Ἀαρών, καὶ τὸ ὄνομα αὐτῆς Ἐλισάβετ.",
+      "text_kjv": "There was in the days of Herod, the king of Judaea, a certain priest named Zacharias, of the course of Abia: and his wife was of the daughters of Aaron, and her name was Elisabeth.",
+      "rendering": "In the days of Herod, king of Judea, there was a priest named Zechariah, of the division of Abijah. His wife was from the daughters of Aaron, and her name was Elizabeth.",
+      "translator_notes": [
+        "The shift from polished literary Greek (vv. 1-4) to Septuagintal narrative style is immediate — egeneto ('it came about') echoes the Hebrew vayyehi. Zechariah's priestly division of Abijah was the eighth of twenty-four divisions (1 Chronicles 24:10). That Elizabeth is also of Aaronic descent means John will be of fully priestly lineage on both sides. Herod the Great reigned 37-4 BC, anchoring the narrative historically.",
+        "[TCR Cross-Reference] This verse quotes 1 Chronicles 24:10 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 6,
+      "text_greek": "ἦσαν δὲ δίκαιοι ἀμφότεροι ἐναντίον τοῦ θεοῦ, πορευόμενοι ἐν πάσαις ταῖς ἐντολαῖς καὶ δικαιώμασιν τοῦ κυρίου ἄμεμπτοι.",
+      "text_kjv": "And they were both righteous before God, walking in all the commandments and ordinances of the Lord blameless.",
+      "rendering": "They were both righteous before God, walking blamelessly in all the commandments and regulations of the Lord.",
+      "translator_notes": [
+        "The Greek dikaioi ('righteous') and amemptoi ('blameless') together describe covenant faithfulness — not sinless perfection but faithful observance of the Torah. The distinction between entolais ('commandments') and dikaiomasin ('regulations, ordinances') may reflect the Torah's own distinction between different categories of law. This description echoes the characterization of Noah (Genesis 6:9) and Job (Job 1:1).",
+        "[TCR Cross-Reference] Quotes Genesis 6:9. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it.",
+        "[TCR Cross-Reference] Quotes Job 1:1. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 7,
+      "text_greek": "καὶ οὐκ ἦν αὐτοῖς τέκνον, καθότι ἦν ἡ Ἐλισάβετ στεῖρα, καὶ ἀμφότεροι προβεβηκότες ἐν ταῖς ἡμέραις αὐτῶν ἦσαν.",
+      "text_kjv": "And they had no child, because that Elisabeth was barren, and they both were now well stricken in years.",
+      "rendering": "But they had no child, because Elizabeth was barren, and both were advanced in years.",
+      "translator_notes": [
+        "The barren-wife motif is one of the most significant patterns in the Old Testament: Sarah (Genesis 11:30), Rebekah (Genesis 25:21), Rachel (Genesis 29:31), the mother of Samson (Judges 13:2), and Hannah (1 Samuel 1:2). Luke signals that God is about to act in the same pattern — impossible circumstances overcome by divine intervention. The phrase probebekotes en tais hemerais ('advanced in their days') echoes the Septuagint description of Abraham and Sarah (Genesis 18:11).",
+        "[TCR Cross-Reference] Draws on Genesis 11:30. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices.",
+        "[TCR Cross-Reference] Draws on Genesis 25:21. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices.",
+        "[TCR Cross-Reference] Draws on Genesis 29:31. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices.",
+        "[TCR Cross-Reference] Draws on Judges 13:2. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices.",
+        "[TCR Cross-Reference] Draws on 1 Samuel 1:2. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices.",
+        "[TCR Cross-Reference] Draws on Genesis 18:11. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 8,
+      "text_greek": "Ἐγένετο δὲ ἐν τῷ ἱερατεύειν αὐτὸν ἐν τῇ τάξει τῆς ἐφημερίας αὐτοῦ ἔναντι τοῦ θεοῦ,",
+      "text_kjv": "And it came to pass, that while he executed the priest's office before God in the order of his course,",
+      "rendering": "Now while Zechariah was serving as priest before God during his division's turn of duty,",
+      "translator_notes": [
+        "Each priestly division served in the temple for one week, twice per year (plus the three pilgrimage festivals). The Greek hierateuein ('to serve as priest') is a technical term for performing temple duties. Luke places the divine encounter in the context of ordinary, faithful service."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 9,
+      "text_greek": "κατὰ τὸ ἔθος τῆς ἱερατείας ἔλαχε τοῦ θυμιᾶσαι εἰσελθὼν εἰς τὸν ναὸν τοῦ κυρίου,",
+      "text_kjv": "According to the custom of the priest's office, his lot was to burn incense when he went into the temple of the Lord.",
+      "rendering": "In keeping with to the custom of the priest's office, his lot was to burn incense when he traveled into the temple of the Lord.",
+      "translator_notes": [
+        "The incense offering was performed on the golden altar in the Holy Place (Exodus 30:1-8), not in the Holy of Holies. The Greek naon ('sanctuary, inner temple') is distinguished from hieron ('temple complex'). Being chosen by lot for this duty was a once-in-a-lifetime honor for most priests, given the large number of priests and the twice-daily offering.",
+        "[TCR Cross-Reference] Echoes Exodus 30:1-8. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 10,
+      "text_greek": "καὶ πᾶν τὸ πλῆθος ἦν τοῦ λαοῦ προσευχόμενον ἔξω τῇ ὥρᾳ τοῦ θυμιάματος.",
+      "text_kjv": "And the whole multitude of the people were praying without at the time of incense.",
+      "rendering": "And the whole assembly of the people was praying outside at the hour of the incense offering.",
+      "translator_notes": [
+        "The incense offering coincided with the time of prayer (cf. Psalm 141:2, 'Let my prayer rise as incense before you'). The people waited outside in the Court of Israel while the priest performed the rite inside. This public context heightens the significance of what Zechariah is about to experience privately.",
+        "[TCR Cross-Reference] This verse quotes Psalm 141:2 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 11,
+      "text_greek": "ὤφθη δὲ αὐτῷ ἄγγελος κυρίου ἑστὼς ἐκ δεξιῶν τοῦ θυσιαστηρίου τοῦ θυμιάματος.",
+      "text_kjv": "And there appeared unto him an angel of the Lord standing on the right side of the altar of incense.",
+      "rendering": "Then an angel of the Lord appeared to him, standing to the right of the altar of incense.",
+      "translator_notes": [
+        "The right side is the position of favor and honor in biblical symbolism (cf. Psalm 110:1). The Greek ophthe ('appeared') is a divine passive — the angel was made visible by God's will. The altar of incense stood before the veil separating the Holy Place from the Holy of Holies (Exodus 30:6).",
+        "[TCR Cross-Reference] Quotes Psalm 110:1. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it.",
+        "[TCR Cross-Reference] Quotes Exodus 30:6. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 12,
+      "text_greek": "καὶ ἐταράχθη Ζαχαρίας ἰδών, καὶ φόβος ἐπέπεσεν ἐπ' αὐτόν.",
+      "text_kjv": "And when Zacharias saw him, he was troubled, and fear fell upon him.",
+      "rendering": "Zechariah was shaken when he saw him, and fear overwhelmed him.",
+      "translator_notes": [
+        "The verb etarachthe ('was troubled, was disturbed') indicates deep agitation, not mild surprise. The phrase phobos epepesen ('fear fell upon') is a Septuagintal expression for the terrifying impact of divine encounter (cf. Genesis 15:12, where 'a deep dread fell upon Abram'). Fear in the presence of the divine is a consistent biblical response.",
+        "[TCR Cross-Reference] Draws on Genesis 15:12. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 13,
+      "text_greek": "εἶπεν δὲ πρὸς αὐτὸν ὁ ἄγγελος· Μὴ φοβοῦ, Ζαχαρία, διότι εἰσηκούσθη ἡ δέησίς σου, καὶ ἡ γυνή σου Ἐλισάβετ γεννήσει υἱόν σοι, καὶ καλέσεις τὸ ὄνομα αὐτοῦ Ἰωάννην.",
+      "text_kjv": "But the angel said unto him, Fear not, Zacharias: for thy prayer is heard; and thy wife Elisabeth shall bear thee a son, and thou shalt call his name John.",
+      "rendering": "But the angel said to him, \"Do not be afraid, Zechariah, because your prayer has been heard. Your wife Elizabeth will bear you a son, and you are to name him John.",
+      "translator_notes": [
+        "The phrase me phobou ('do not be afraid') is the standard divine reassurance formula (cf. Genesis 15:1, Isaiah 41:10). The name Ioannes (John) is the Greek form of Hebrew Yochanan, meaning 'the LORD is gracious.' The passive eisekousthe ('has been heard') implies God is the one who has heard — divine response to persistent prayer.",
+        "[TCR Cross-Reference] References Genesis 15:1 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved.",
+        "[TCR Cross-Reference] References Isaiah 41:10 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "key_terms": [
+        {
+          "greek": "Ἰωάννης",
+          "transliteration": "Ioannes",
+          "rendered_as": "John",
+          "semantic_range": "John; Greek form of Hebrew Yochanan ('the LORD is gracious')",
+          "note": "The name itself is a theological statement — the child's very name declares that God is showing grace. This fits the pattern of divinely assigned names (cf. Genesis 17:19, Matthew 1:21)."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 14,
+      "text_greek": "καὶ ἔσται χαρά σοι καὶ ἀγαλλίασις, καὶ πολλοὶ ἐπὶ τῇ γενέσει αὐτοῦ χαρήσονται.",
+      "text_kjv": "And thou shalt have joy and gladness; and many shall rejoice at his birth.",
+      "rendering": "He will be a joy and delight to you, and many will rejoice at his birth.",
+      "translator_notes": [
+        "The Greek chara ('joy') and agalliasis ('exultation, great gladness') form an intensifying pair. Agalliasis is a stronger term used frequently in the Septuagint Psalms for worship-level joy. The promise that 'many will rejoice' extends beyond the family to a national scope — John's birth is not just personal good news but Israel-wide good news."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 15,
+      "text_greek": "ἔσται γὰρ μέγας ἐνώπιον τοῦ κυρίου, καὶ οἶνον καὶ σίκερα οὐ μὴ πίῃ, καὶ πνεύματος ἁγίου πλησθήσεται ἔτι ἐκ κοιλίας μητρὸς αὐτοῦ,",
+      "text_kjv": "For he shall be great in the sight of the Lord, and shall drink neither wine nor strong drink; and he shall be filled with the Holy Ghost, even from his mother's womb.",
+      "rendering": "For he will be great before the Lord, and he must never drink wine or strong drink. He will be filled with the Holy Spirit even from his mother's womb,",
+      "translator_notes": [
+        "The prohibition against wine and strong drink (sikera, from the Hebrew shekar) echoes the Nazirite vow (Numbers 6:3) and the instructions for Samson's mother (Judges 13:4-5). John is set apart for God's service from before birth. The phrase 'filled with the Holy Spirit from his mother's womb' is extraordinary — prophetic endowment before birth, which will be demonstrated when Elizabeth's womb leaps at Mary's greeting (v. 41).",
+        "[TCR Cross-Reference] This verse quotes Numbers 6:3 — see the TCR rendering of that passage for the Hebrew source text and translation decisions.",
+        "[TCR Cross-Reference] This verse quotes Judges 13:4-5 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 16,
+      "text_greek": "καὶ πολλοὺς τῶν υἱῶν Ἰσραὴλ ἐπιστρέψει ἐπὶ κύριον τὸν θεὸν αὐτῶν.",
+      "text_kjv": "And many of the children of Israel shall he turn to the Lord their God.",
+      "rendering": "Numerous of the children of Israel will he turn to the Lord their God.",
+      "translator_notes": [
+        "The verb epistrepsei ('will turn') is the Greek equivalent of the Hebrew shuv — the central verb of repentance and return. John's mission is one of turning Israel back to their covenant God. The phrase 'children of Israel' (huion Israel) is deliberately archaic, evoking the Old Testament covenant identity."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 17,
+      "text_greek": "καὶ αὐτὸς προελεύσεται ἐνώπιον αὐτοῦ ἐν πνεύματι καὶ δυνάμει Ἠλίου, ἐπιστρέψαι καρδίας πατέρων ἐπὶ τέκνα καὶ ἀπειθεῖς ἐν φρονήσει δικαίων, ἑτοιμάσαι κυρίῳ λαὸν κατεσκευασμένον.",
+      "text_kjv": "And he shall go before him in the spirit and power of Elias, to turn the hearts of the fathers to the children, and the disobedient to the wisdom of the just; to make ready a people prepared for the Lord.",
+      "rendering": "He will go before him in the spirit and power of Elijah, to turn the hearts of fathers toward their children and the disobedient to the wisdom of the righteous — to prepare a people made ready for the Lord.\"",
+      "translator_notes": [
+        "This is a direct allusion to Malachi 4:5-6, the final prophecy of the Old Testament: 'I will send you Elijah the prophet before the great and terrible day of the LORD, and he will turn the hearts of fathers to their children.' Gabriel identifies John as the fulfillment of this four-hundred-year-old promise. The phrase 'spirit and power of Elijah' does not mean John is Elijah reincarnated but that he operates in the same prophetic tradition and with the same empowerment.",
+        "[TCR Cross-Reference] Draws on Malachi 4:5-6. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 18,
+      "text_greek": "καὶ εἶπεν Ζαχαρίας πρὸς τὸν ἄγγελον· Κατὰ τί γνώσομαι τοῦτο; ἐγὼ γάρ εἰμι πρεσβύτης καὶ ἡ γυνή μου προβεβηκυῖα ἐν ταῖς ἡμέραις αὐτῆς.",
+      "text_kjv": "And Zacharias said unto the angel, Whereby shall I know this? for I am an old man, and my wife well stricken in years.",
+      "rendering": "Zechariah said to the angel, \"How can I be sure of this? For I am an old man, and my wife is advanced in years.\"",
+      "translator_notes": [
+        "Zechariah's question kata ti gnosomai touto ('by what will I know this?') closely echoes Abraham's question in Genesis 15:8 (LXX: kata ti gnosomai). Yet Abraham's question was met with a covenant ceremony, while Zechariah's is met with rebuke — perhaps because Zechariah asks after receiving angelic revelation inside the temple, a context that should have compelled faith rather than doubt.",
+        "[TCR Cross-Reference] References Genesis 15:8 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 19,
+      "text_greek": "καὶ ἀποκριθεὶς ὁ ἄγγελος εἶπεν αὐτῷ· Ἐγώ εἰμι Γαβριὴλ ὁ παρεστηκὼς ἐνώπιον τοῦ θεοῦ, καὶ ἀπεστάλην λαλῆσαι πρὸς σὲ καὶ εὐαγγελίσασθαί σοι ταῦτα·",
+      "text_kjv": "And the angel answering said unto him, I am Gabriel, that stand in the presence of God; and am sent to speak unto thee, and to shew thee these glad tidings.",
+      "rendering": "The angel answered him, \"I am Gabriel, who stands in the presence of God. I was sent to speak to you and to bring you this good news.",
+      "translator_notes": [
+        "Gabriel's self-identification is both a rebuke and a credential: 'I stand in the presence of God' — the one doubting is speaking to someone who has come directly from God's throne room. Gabriel appears in the Old Testament only in Daniel 8:16 and 9:21, both times delivering prophetic revelation about God's eschatological timing. The verb euangelisasthai ('to bring good news') is the root of 'gospel' — this birth announcement is gospel proclamation.",
+        "[TCR Cross-Reference] Echoes Daniel 8:16. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "key_terms": [
+        {
+          "greek": "εὐαγγελίσασθαι",
+          "transliteration": "euangelisasthai",
+          "rendered_as": "bring you this good news",
+          "semantic_range": "to bring good news, to announce glad tidings, to preach the gospel",
+          "note": "From the same root as euangelion ('gospel'). Luke uses this verb more than any other New Testament writer — the good news theme is central to his narrative."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 20,
+      "text_greek": "καὶ ἰδοὺ ἔσῃ σιωπῶν καὶ μὴ δυνάμενος λαλῆσαι ἄχρι ἧς ἡμέρας γένηται ταῦτα, ἀνθ' ὧν οὐκ ἐπίστευσας τοῖς λόγοις μου, οἵτινες πληρωθήσονται εἰς τὸν καιρὸν αὐτῶν.",
+      "text_kjv": "And, behold, thou shalt be dumb, and not able to speak, until the day that these things shall be performed, because thou believest not my words, which shall be fulfilled in their season.",
+      "rendering": "Now listen: you will be silent and unable to speak until the day these things take place, because you did not believe my words, which will be fulfilled at their proper time.\"",
+      "translator_notes": [
+        "The Greek idou ('look, listen') introduces the consequence of disbelief. Zechariah's muteness is both sign and discipline — he asked for a sign and received one, though not the kind he wanted. The phrase eis ton kairon auton ('at their proper time') uses kairos, the Greek word for an appointed or decisive moment, not merely chronological time (chronos). God's timing is purposeful."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 21,
+      "text_greek": "καὶ ἦν ὁ λαὸς προσδοκῶν τὸν Ζαχαρίαν, καὶ ἐθαύμαζον ἐν τῷ χρονίζειν ἐν τῷ ναῷ αὐτόν.",
+      "text_kjv": "And the people waited for Zacharias, and marvelled that he tarried so long in the temple.",
+      "rendering": "Meanwhile the people were waiting for Zechariah, and they were wondering at his delay in the sanctuary.",
+      "translator_notes": [
+        "The incense ritual was brief; prolonged absence would cause concern. The verb ethaumazon ('were wondering, were amazed') carries a note of unease — the congregation senses something unusual has occurred. The imperfect tense suggests ongoing, growing wonder."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 22,
+      "text_greek": "ἐξελθὼν δὲ οὐκ ἐδύνατο λαλῆσαι αὐτοῖς, καὶ ἐπέγνωσαν ὅτι ὀπτασίαν ἑώρακεν ἐν τῷ ναῷ· καὶ αὐτὸς ἦν διανεύων αὐτοῖς, καὶ διέμενεν κωφός.",
+      "text_kjv": "And when he came out, he could not speak unto them: and they perceived that he had seen a vision in the temple: for he beckoned unto them, and remained speechless.",
+      "rendering": "When he came out, he was unable to speak to them, and they realized that he had seen a vision in the sanctuary. He kept making signs to them but remained unable to speak.",
+      "translator_notes": [
+        "The Greek kophos can mean 'deaf' or 'mute' or both. The context (v. 62 suggests he is also deaf, since they make signs to him) indicates both senses may be intended. The verb dianeuon ('making signs, gesturing') paints a vivid scene of the frustrated priest trying to communicate what has happened. The people immediately recognize the signs of a prophetic vision — this was part of Israel's religious memory even after centuries without prophets."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 23,
+      "text_greek": "καὶ ἐγένετο ὡς ἐπλήσθησαν αἱ ἡμέραι τῆς λειτουργίας αὐτοῦ, ἀπῆλθεν εἰς τὸν οἶκον αὐτοῦ.",
+      "text_kjv": "And it came to pass, that, as soon as the days of his ministration were accomplished, he departed to his own house.",
+      "rendering": "When the days of his priestly service were completed, he went home.",
+      "translator_notes": [
+        "The Greek leitourgias ('service, ministry') is a technical term for priestly duty — it gives us the English 'liturgy.' Zechariah faithfully completes his week of temple service despite his muteness before returning home, presumably to the hill country of Judea (cf. v. 39)."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 24,
+      "text_greek": "Μετὰ δὲ ταύτας τὰς ἡμέρας συνέλαβεν Ἐλισάβετ ἡ γυνὴ αὐτοῦ, καὶ περιέκρυβεν ἑαυτὴν μῆνας πέντε, λέγουσα",
+      "text_kjv": "And after those days his wife Elisabeth conceived, and hid herself five months, saying,",
+      "rendering": "After those days his wife Elizabeth conceived, and she kept herself in seclusion for five months, saying,",
+      "translator_notes": [
+        "Elizabeth's five months of seclusion is unique to Luke and its purpose is debated. Possible reasons include: pious devotion and prayer during the miraculous pregnancy, avoidance of public scrutiny until the pregnancy was unmistakable, or simply a narrative device that allows the sixth month to align with Gabriel's visit to Mary (v. 26). The verb periekryben ('hid herself, kept in seclusion') is intensive."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 25,
+      "text_greek": "ὅτι Οὕτως μοι πεποίηκεν κύριος ἐν ἡμέραις αἷς ἐπεῖδεν ἀφελεῖν ὄνειδός μου ἐν ἀνθρώποις.",
+      "text_kjv": "Thus hath the Lord dealt with me in the days wherein he looked on me, to take away my reproach among men.",
+      "rendering": "\"This is what the Lord has done for me in the days when he looked on me, to take away my disgrace among people.\"",
+      "translator_notes": [
+        "Elizabeth's words echo Rachel's response to the birth of Joseph: 'God has taken away my reproach' (Genesis 30:23). Barrenness in the ancient world was a social stigma and was often interpreted as a sign of divine disfavor. The Greek oneidos ('reproach, disgrace') carries the weight of public shame. God's intervention removes not just the biological condition but the social stigma.",
+        "[TCR Cross-Reference] This verse quotes Genesis 30:23 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 26,
+      "text_greek": "Ἐν δὲ τῷ μηνὶ τῷ ἕκτῳ ἀπεστάλη ὁ ἄγγελος Γαβριὴλ ἀπὸ τοῦ θεοῦ εἰς πόλιν τῆς Γαλιλαίας ᾗ ὄνομα Ναζαρὲθ",
+      "text_kjv": "And in the sixth month the angel Gabriel was sent from God unto a city of Galilee, named Nazareth,",
+      "rendering": "Named nazareth,, and in the sixth month the angel Gabriel was sent from God to a city of Galilee.",
+      "translator_notes": [
+        "The sixth month refers to the sixth month of Elizabeth's pregnancy, linking the two birth narratives. The scene shifts dramatically from the Jerusalem temple (center of Israel's worship) to Nazareth (an obscure village in Galilee, never mentioned in the Old Testament). This contrast is theologically significant — God's decisive act comes not in the religious capital but in an insignificant town."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 27,
+      "text_greek": "πρὸς παρθένον ἐμνηστευμένην ἀνδρὶ ᾧ ὄνομα Ἰωσήφ, ἐξ οἴκου Δαυίδ, καὶ τὸ ὄνομα τῆς παρθένου Μαριάμ.",
+      "text_kjv": "To a virgin espoused to a man whose name was Joseph, of the house of David; and the virgin's name was Mary.",
+      "rendering": "To a young woman pledged in marriage to a man whose name was Joseph, of the house of David. And the virgin's name was Mary.",
+      "translator_notes": [
+        "Luke repeats parthenos ('virgin') twice in one verse, emphasizing Mary's virginal status. The phrase ex oikou Dauid ('of the house of David') most naturally modifies Joseph, establishing the Davidic lineage through which Jesus will be the legal heir to David's throne. The name Mariam is the Greek form of the Hebrew Miriam."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 28,
+      "text_greek": "καὶ εἰσελθὼν πρὸς αὐτὴν εἶπεν· Χαῖρε, κεχαριτωμένη, ὁ κύριος μετὰ σοῦ.",
+      "text_kjv": "And the angel came in unto her, and said, Hail, thou that art highly favoured, the Lord is with thee: blessed art thou among women.",
+      "rendering": "The angel came to her and said, \"Greetings, favored one! The Lord is with you.\"",
+      "translator_notes": [
+        "The Greek kecharitomene ('favored one, graced one') is a perfect passive participle of charitoo ('to bestow grace upon'). It indicates Mary has been and continues to be the recipient of God's grace. The Latin Vulgate rendered this gratia plena ('full of grace'), which shaped Catholic theology of Mary. The Greek itself simply indicates that God has graciously chosen her for this role. The KJV addition 'blessed art thou among women' is not in the earliest manuscripts of this verse (it appears in v. 42 from Elizabeth's mouth) and is omitted in the SBLGNT."
+      ],
+      "key_terms": [
+        {
+          "greek": "κεχαριτωμένη",
+          "transliteration": "kecharitomene",
+          "rendered_as": "favored one",
+          "semantic_range": "graced, favored, endowed with grace, recipient of divine favor",
+          "note": "A perfect passive participle indicating a completed action with ongoing results — Mary has been graced by God. The word is related to charis ('grace'). Different Christian traditions draw different theological conclusions from this participle."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 29,
+      "text_greek": "ἡ δὲ ἐπὶ τῷ λόγῳ διεταράχθη καὶ διελογίζετο ποταπὸς εἴη ὁ ἀσπασμὸς οὗτος.",
+      "text_kjv": "And when she saw him, she was troubled at his saying, and cast in her mind what manner of salutation this should be.",
+      "rendering": "But she was deeply troubled by his words and was wondering what kind of greeting this could be.",
+      "translator_notes": [
+        "The verb dietarachthe ('was deeply troubled, was thoroughly perplexed') is an intensified form — stronger than Zechariah's tarachthe in v. 12. Notably, Mary is troubled not by the angel's appearance but by his words (epi to logo). She is pondering the theological significance of the greeting, not merely frightened. The imperfect dielogizeto ('was considering, kept wondering') suggests extended reflection."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 30,
+      "text_greek": "καὶ εἶπεν ὁ ἄγγελος αὐτῇ· Μὴ φοβοῦ, Μαριάμ, εὗρες γὰρ χάριν παρὰ τῷ θεῷ.",
+      "text_kjv": "And the angel said unto her, Fear not, Mary: for thou hast found favour with God.",
+      "rendering": "The angel said to her, \"Do not be afraid, Mary, for you have found favor with God.",
+      "translator_notes": [
+        "The phrase 'found favor with God' (heures charin para to theo) echoes the Old Testament idiom used of Noah (Genesis 6:8), Moses (Exodus 33:12-17), and others whom God chose for significant roles. The word charis ('favor, grace') connects to kecharitomene in v. 28 — the same grace-root appears in both the angel's greeting and his reassurance.",
+        "[TCR Cross-Reference] This verse quotes Genesis 6:8 — see the TCR rendering of that passage for the Hebrew source text and translation decisions.",
+        "[TCR Cross-Reference] This verse quotes Exodus 33:12-17 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 31,
+      "text_greek": "καὶ ἰδοὺ συλλήμψῃ ἐν γαστρὶ καὶ τέξῃ υἱόν, καὶ καλέσεις τὸ ὄνομα αὐτοῦ Ἰησοῦν.",
+      "text_kjv": "And, behold, thou shalt conceive in thy womb, and bring forth a son, and shalt call his name JESUS.",
+      "rendering": "Listen: you will conceive in your womb and give birth to a son, and you are to name him Jesus.",
+      "translator_notes": [
+        "The announcement follows the pattern of Old Testament birth oracles: conception, birth, naming (cf. Genesis 16:11, Isaiah 7:14, Judges 13:3-5). The name Iesous (Jesus) is the Greek form of the Hebrew Yeshua ('the LORD saves'). The verb kaleseis ('you will call') — the naming is given to Mary, not to Joseph as in Matthew 1:21, though both parents are involved in the naming.",
+        "[TCR Cross-Reference] Quotes Genesis 16:11. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it.",
+        "[TCR Cross-Reference] Quotes Isaiah 7:14. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it.",
+        "[TCR Cross-Reference] Quotes Judges 13:3-5. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 32,
+      "text_greek": "οὗτος ἔσται μέγας καὶ υἱὸς ὑψίστου κληθήσεται, καὶ δώσει αὐτῷ κύριος ὁ θεὸς τὸν θρόνον Δαυὶδ τοῦ πατρὸς αὐτοῦ,",
+      "text_kjv": "He shall be great, and shall be called the Son of the Highest: and the Lord God shall give unto him the throne of his father David:",
+      "rendering": "He will be great and will be called Son of the Most High, and the Lord God will give him the throne of his father David.",
+      "translator_notes": [
+        "The title 'Son of the Most High' (huios hypsistou) draws on the divine sonship language of the Davidic covenant: 'I will be his father, and he shall be my son' (2 Samuel 7:14). 'Most High' (hypsistos) is a title for God used frequently in the Psalms (Psalm 7:17, 9:2, 21:7, 46:4, 47:2, 50:14). The promise of 'the throne of David his father' directly invokes the Davidic covenant of 2 Samuel 7:12-16 — an eternal dynasty that many believed had been interrupted by the exile.",
+        "[TCR Cross-Reference] Draws on 2 Samuel 7:14. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices.",
+        "[TCR Cross-Reference] Draws on Psalm 7:17. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 33,
+      "text_greek": "καὶ βασιλεύσει ἐπὶ τὸν οἶκον Ἰακὼβ εἰς τοὺς αἰῶνας, καὶ τῆς βασιλείας αὐτοῦ οὐκ ἔσται τέλος.",
+      "text_kjv": "And he shall reign over the house of Jacob for ever; and of his kingdom there shall be no end.",
+      "rendering": "He will reign over the house of Jacob forever, and of his kingdom there will be no end.\"",
+      "translator_notes": [
+        "The phrase eis tous aionas ('into the ages, forever') echoes the 'forever' (olam) language of the Davidic covenant (2 Samuel 7:13, 16). 'The house of Jacob' uses the patriarch's name for Israel, emphasizing covenant continuity. The declaration 'of his kingdom there will be no end' echoes Daniel 7:14, where the Son of Man receives 'an everlasting dominion that will not pass away.' Gabriel's language weaves together Davidic and Danielic messianic expectations.",
+        "[TCR Cross-Reference] References 2 Samuel 7:13 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved.",
+        "[TCR Cross-Reference] References Daniel 7:14 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 34,
+      "text_greek": "εἶπεν δὲ Μαριὰμ πρὸς τὸν ἄγγελον· Πῶς ἔσται τοῦτο, ἐπεὶ ἄνδρα οὐ γινώσκω;",
+      "text_kjv": "Then said Mary unto the angel, How shall this be, seeing I know not a man?",
+      "rendering": "Mary said to the angel, \"How will this be, since I have not been intimate with a man?\"",
+      "translator_notes": [
+        "Mary's question differs crucially from Zechariah's (v. 18). Zechariah asked 'How can I be sure?' (requesting proof); Mary asks 'How will this happen?' (requesting understanding of the mechanism). The phrase andra ou ginosko ('I do not know a man') uses ginosko in its sexual sense, corresponding to the Hebrew yada. Unlike Zechariah, Mary is not rebuked — her question is met with explanation rather than punishment."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 35,
+      "text_greek": "καὶ ἀποκριθεὶς ὁ ἄγγελος εἶπεν αὐτῇ· Πνεῦμα ἅγιον ἐπελεύσεται ἐπὶ σέ, καὶ δύναμις ὑψίστου ἐπισκιάσει σοι· διὸ καὶ τὸ γεννώμενον ἅγιον κληθήσεται υἱὸς θεοῦ.",
+      "text_kjv": "And the angel answered and said unto her, The Holy Ghost shall come upon thee, and the power of the Highest shall overshadow thee: therefore also that holy thing which shall be born of thee shall be called the Son of God.",
+      "rendering": "The angel answered her, \"The Holy Spirit will come upon you, and the power of the Most High will overshadow you. Therefore the holy one to be born will be called the Son of God.",
+      "translator_notes": [
+        "The verb episkiasei ('will overshadow') recalls the cloud of God's presence overshadowing the tabernacle (Exodus 40:35, LXX uses the same verb). The language is theophanic, not sexual — God's creative, sheltering presence will bring about the conception. The parallel structure ('Holy Spirit / power of the Most High') is synonymous parallelism, a Hebrew poetic device. 'Son of God' (huios theou) here moves beyond the Davidic covenant title of v. 32 to a more direct claim about divine origin.",
+        "[TCR Cross-Reference] This verse quotes Exodus 40:35 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "key_terms": [
+        {
+          "greek": "ἐπισκιάσει",
+          "transliteration": "episkiasei",
+          "rendered_as": "overshadow",
+          "semantic_range": "to overshadow, to cover with a shadow, to envelop",
+          "note": "The same verb used in the Septuagint for the cloud of divine presence covering the tabernacle (Exodus 40:35). This is theophanic language — God's presence enveloping Mary as it once enveloped the tabernacle."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 36,
+      "text_greek": "καὶ ἰδοὺ Ἐλισάβετ ἡ συγγενίς σου καὶ αὐτὴ συνείληφεν υἱὸν ἐν γήρει αὐτῆς, καὶ οὗτος μὴν ἕκτος ἐστὶν αὐτῇ τῇ καλουμένῃ στείρᾳ·",
+      "text_kjv": "And, behold, thy cousin Elisabeth, she hath also conceived a son in her old age: and this is the sixth month with her, who was called barren.",
+      "rendering": "And listen — your relative Elizabeth has also conceived a son in her old age. This is the sixth month for her who was called barren.",
+      "translator_notes": [
+        "The Greek syggenis ('relative, kinswoman') does not specify the exact relationship — the KJV's 'cousin' is too specific. This kinship between Mary and Elizabeth creates a connection between the priestly family (Elizabeth, descendant of Aaron) and the Davidic family (Mary, through Joseph's lineage). Elizabeth's pregnancy serves as a confirmatory sign for Mary, though Mary did not ask for one."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 37,
+      "text_greek": "ὅτι οὐκ ἀδυνατήσει παρὰ τοῦ θεοῦ πᾶν ῥῆμα.",
+      "text_kjv": "For with God nothing shall be impossible.",
+      "rendering": "For nothing will be impossible with God.\"",
+      "translator_notes": [
+        "This echoes Genesis 18:14 (LXX), where God says to Abraham regarding Sarah's promised pregnancy: 'Is anything impossible with God?' The Greek rhema ('word, thing, matter') carries the double sense of both 'word' and 'deed' — God's word and God's act are one. What God speaks, he accomplishes.",
+        "[TCR Cross-Reference] Draws on Genesis 18:14. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 38,
+      "text_greek": "εἶπεν δὲ Μαριάμ· Ἰδοὺ ἡ δούλη κυρίου· γένοιτό μοι κατὰ τὸ ῥῆμά σου. καὶ ἀπῆλθεν ἀπ' αὐτῆς ὁ ἄγγελος.",
+      "text_kjv": "And Mary said, Behold the handmaid of the Lord; be it unto me according to thy word. And the angel departed from her.",
+      "rendering": "Mary said, \"Here I am, the servant of the Lord. Let it be done to me according to your word.\" And the angel departed from her.",
+      "translator_notes": [
+        "Mary's response doule kyriou ('servant/slave of the Lord') is a title of honor in the Old Testament — Moses, David, and the prophets are called 'servants of the LORD.' The optative genoito ('let it be, may it happen') expresses willing consent, not passive resignation. Mary actively submits to God's plan. Her response contrasts sharply with Zechariah's doubt — she accepts the impossible on the basis of God's word alone."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 39,
+      "text_greek": "Ἀναστᾶσα δὲ Μαριὰμ ἐν ταῖς ἡμέραις ταύταις ἐπορεύθη εἰς τὴν ὀρεινὴν μετὰ σπουδῆς εἰς πόλιν Ἰούδα,",
+      "text_kjv": "And Mary arose in those days, and went into the hill country with haste, into a city of Juda;",
+      "rendering": "In those days Mary set out and hurried to a town in the hill country of Judah,",
+      "translator_notes": [
+        "The Greek meta spoudes ('with haste, with urgency') suggests eagerness rather than anxiety — Mary rushes to see the sign Gabriel mentioned. The hill country of Judah is south of Jerusalem, a journey of roughly 80-100 miles from Nazareth in Galilee, requiring several days of travel. The traditional identification is Ein Karem, west of Jerusalem."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 40,
+      "text_greek": "καὶ εἰσῆλθεν εἰς τὸν οἶκον Ζαχαρίου καὶ ἠσπάσατο τὴν Ἐλισάβετ.",
+      "text_kjv": "And entered into the house of Zacharias, and saluted Elisabeth.",
+      "rendering": "Went into into the house of Zacharias, and saluted Elisabeth.",
+      "translator_notes": [
+        "The verb espasato ('greeted') is a standard greeting verb, but in context it triggers the extraordinary response of vv. 41-45. Mary's greeting becomes the catalyst for prophetic revelation — the sound of her voice causes the Spirit-filled response in both the unborn John and his mother."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 41,
+      "text_greek": "καὶ ἐγένετο ὡς ἤκουσεν τὸν ἀσπασμὸν τῆς Μαρίας ἡ Ἐλισάβετ, ἐσκίρτησεν τὸ βρέφος ἐν τῇ κοιλίᾳ αὐτῆς, καὶ ἐπλήσθη πνεύματος ἁγίου ἡ Ἐλισάβετ,",
+      "text_kjv": "And it came to pass, that, when Elisabeth heard the salutation of Mary, the babe leaped in her womb; and Elisabeth was filled with the Holy Ghost:",
+      "rendering": "When Elizabeth heard Mary's greeting, the baby leaped in her womb, and Elizabeth was filled with the Holy Spirit.",
+      "translator_notes": [
+        "The verb eskirtesen ('leaped, jumped for joy') is used in the Septuagint for joyful leaping (cf. Malachi 4:2, Genesis 25:22). This fulfills the angel's promise that John would be 'filled with the Holy Spirit even from his mother's womb' (v. 15). The unborn John's response to the presence of the unborn Jesus is Luke's first indication of Jesus's significance — recognized even before birth.",
+        "[TCR Cross-Reference] Quotes Malachi 4:2. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it.",
+        "[TCR Cross-Reference] Quotes Genesis 25:22. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 42,
+      "text_greek": "καὶ ἀνεφώνησεν κραυγῇ μεγάλῃ καὶ εἶπεν· Εὐλογημένη σὺ ἐν γυναιξίν, καὶ εὐλογημένος ὁ καρπὸς τῆς κοιλίας σου.",
+      "text_kjv": "And she spake out with a loud voice, and said, Blessed art thou among women, and blessed is the fruit of thy womb.",
+      "rendering": "She exclaimed with a loud cry, \"Blessed are you among women, and blessed is the fruit of your womb!",
+      "translator_notes": [
+        "The verb anephonesen ('cried out, exclaimed') with krauge megale ('a great shout') indicates Spirit-empowered prophetic speech, not casual conversation. 'Blessed among women' (eulogemene su en gynaixin) echoes the praise given to Jael in Judges 5:24 — a woman who played a decisive role in God's deliverance of Israel. 'Fruit of the womb' is a Semitic idiom for a child (cf. Deuteronomy 7:13, 28:4).",
+        "[TCR Cross-Reference] Draws on Judges 5:24. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices.",
+        "[TCR Cross-Reference] Draws on Deuteronomy 7:13. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 43,
+      "text_greek": "καὶ πόθεν μοι τοῦτο ἵνα ἔλθῃ ἡ μήτηρ τοῦ κυρίου μου πρὸς ἐμέ;",
+      "text_kjv": "And whence is this to me, that the mother of my Lord should come to me?",
+      "rendering": "And why is this granted to me, that the mother of my Lord should come to me?",
+      "translator_notes": [
+        "Elizabeth's question pothen moi touto ('from where is this to me?') echoes David's response when the ark of the covenant was brought to him: 'How can the ark of the Lord come to me?' (2 Samuel 6:9). The parallel suggests that Mary, carrying Jesus, is analogous to the ark carrying God's presence. The title 'my Lord' (tou kyriou mou) applied to the unborn Jesus is a remarkable christological confession — Elizabeth recognizes the child Mary carries as her Lord.",
+        "[TCR Cross-Reference] References 2 Samuel 6:9 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 44,
+      "text_greek": "ἰδοὺ γὰρ ὡς ἐγένετο ἡ φωνὴ τοῦ ἀσπασμοῦ σου εἰς τὰ ὦτά μου, ἐσκίρτησεν ἐν ἀγαλλιάσει τὸ βρέφος ἐν τῇ κοιλίᾳ μου.",
+      "text_kjv": "For, lo, as soon as the voice of thy salutation sounded in mine ears, the babe leaped in my womb for joy.",
+      "rendering": "For the moment the sound of your greeting reached my ears, the baby leaped for joy in my womb.",
+      "translator_notes": [
+        "Elizabeth interprets her baby's movement as joyful recognition — eskirtesen en agalliasei ('leaped with exultation'). The word agalliasis ('exultation, great joy') is the same term used in v. 14 for the joy John would bring. John's prophetic role — pointing to Jesus — begins in the womb."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 45,
+      "text_greek": "καὶ μακαρία ἡ πιστεύσασα ὅτι ἔσται τελείωσις τοῖς λελαλημένοις αὐτῇ παρὰ κυρίου.",
+      "text_kjv": "And blessed is she that believed: for there shall be a performance of those things which were told her from the Lord.",
+      "rendering": "Blessed is she who believed that what was spoken to her from the Lord would be fulfilled.\"",
+      "translator_notes": [
+        "The Greek makaria ('blessed, happy, fortunate') pronounces a blessing on Mary's faith. The contrast with Zechariah's unbelief (v. 20) is implicit — Mary believed and is blessed; Zechariah doubted and was struck mute. The noun teleiosis ('fulfillment, completion, accomplishment') emphasizes that God's words will reach their intended completion."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 46,
+      "text_greek": "Καὶ εἶπεν Μαριάμ· Μεγαλύνει ἡ ψυχή μου τὸν κύριον,",
+      "text_kjv": "And Mary said, My soul doth magnify the Lord,",
+      "rendering": "And Mary said:\n\n\"My soul magnifies the Lord,",
+      "translator_notes": [
+        "The Magnificat (vv. 46-55) is traditionally named from the Latin translation of megalynei ('magnifies'). This hymn draws extensively on Hannah's prayer in 1 Samuel 2:1-10, which also celebrated God's reversal of the powerful and the lowly. 'My soul magnifies' means 'my whole being declares the greatness of' — the verb megalyno means to make great, to enlarge, to declare the greatness of someone.",
+        "[TCR Cross-Reference] Quotes 1 Samuel 2:1-10. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 47,
+      "text_greek": "καὶ ἠγαλλίασεν τὸ πνεῦμά μου ἐπὶ τῷ θεῷ τῷ σωτῆρί μου,",
+      "text_kjv": "And my spirit hath rejoiced in God my Saviour.",
+      "rendering": "My spirit has rejoiced in God my Saviour.",
+      "translator_notes": [
+        "The parallel 'my soul / my spirit' is synonymous parallelism — Hebrew poetic form in Greek garb. The aorist egalliasev ('rejoiced') alongside the present megalynei ('magnifies') may express a past moment of joy that continues into the present. 'God my Savior' (to theo to soteri mou) echoes Habakkuk 3:18 and Psalm 24:5 (LXX). Mary identifies God specifically as her Savior.",
+        "[TCR Cross-Reference] Draws on 1 Samuel 2:1-10. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices.",
+        "[TCR Cross-Reference] Draws on Habakkuk 3:18. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices.",
+        "[TCR Cross-Reference] Draws on Psalm 24:5. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 48,
+      "text_greek": "ὅτι ἐπέβλεψεν ἐπὶ τὴν ταπείνωσιν τῆς δούλης αὐτοῦ. ἰδοὺ γὰρ ἀπὸ τοῦ νῦν μακαριοῦσίν με πᾶσαι αἱ γενεαί,",
+      "text_kjv": "For he hath regarded the low estate of his handmaiden: for, behold, from henceforth all generations shall call me blessed.",
+      "rendering": "Since he has regarded the low estate of his handmaiden — for, take notice, from henceforth all generations will call me blessed.",
+      "translator_notes": [
+        "The Greek tapeinosin ('humble state, low position') echoes Hannah's prayer — God attends to the lowly. Mary's self-designation as doule ('servant, slave') repeats her response in v. 38. The prophecy 'all generations will call me blessed' (makariousin me pasai hai geneai) has been remarkably fulfilled across two millennia of Christian tradition.",
+        "[TCR Cross-Reference] References 1 Samuel 2:1-10 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 49,
+      "text_greek": "ὅτι ἐποίησέν μοι μεγάλα ὁ δυνατός, καὶ ἅγιον τὸ ὄνομα αὐτοῦ,",
+      "text_kjv": "For he that is mighty hath done to me great things; and holy is his name.",
+      "rendering": "Since he that is mighty has done to me remarkable things. And holy is his name.",
+      "translator_notes": [
+        "The title ho dynatos ('the Mighty One, the Powerful One') echoes Zephaniah 3:17 and Psalm 24:8. 'Holy is his name' (hagion to onoma autou) echoes Psalm 111:9 (LXX). The structure shifts from personal testimony (what God has done for me) to universal declaration (God's character and actions in history).",
+        "[TCR Cross-Reference] Echoes 1 Samuel 2:1-10. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale.",
+        "[TCR Cross-Reference] Echoes Zephaniah 3:17. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale.",
+        "[TCR Cross-Reference] Echoes Psalm 24:8. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale.",
+        "[TCR Cross-Reference] Echoes Psalm 111:9. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 50,
+      "text_greek": "καὶ τὸ ἔλεος αὐτοῦ εἰς γενεὰς καὶ γενεὰς τοῖς φοβουμένοις αὐτόν.",
+      "text_kjv": "And his mercy is on them that fear him from generation to generation.",
+      "rendering": "His mercy extends to those who fear him,\nfrom generation to generation.",
+      "translator_notes": [
+        "The Greek eleos ('mercy') here corresponds to the Hebrew chesed in the Septuagint tradition, though the Magnificat uses the simpler term rather than the full covenantal weight of chesed. 'Those who fear him' (tois phoboumenois auton) refers to reverent awe and covenant faithfulness, not terror. 'From generation to generation' (eis geneas kai geneas) echoes Psalm 103:17.",
+        "[TCR Cross-Reference] This verse quotes 1 Samuel 2:1-10 — see the TCR rendering of that passage for the Hebrew source text and translation decisions.",
+        "[TCR Cross-Reference] This verse quotes Psalm 103:17 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 51,
+      "text_greek": "Ἐποίησεν κράτος ἐν βραχίονι αὐτοῦ, διεσκόρπισεν ὑπερηφάνους διανοίᾳ καρδίας αὐτῶν·",
+      "text_kjv": "He hath shewed strength with his arm; he hath scattered the proud in the imagination of their hearts.",
+      "rendering": "He has shown strength with his arm;\nhe has scattered the proud in the thoughts of their hearts.",
+      "translator_notes": [
+        "The 'arm of the LORD' is a consistent Old Testament metaphor for divine power in action, especially in the Exodus (Exodus 6:6, Deuteronomy 4:34, Isaiah 51:9). The aorist tense epoiesen ('he has done') may be a 'prophetic aorist' — speaking of future divine acts as though already accomplished. 'Scattered the proud' (dieskorpisen hyperephanous) draws on the theme of God humbling the arrogant (cf. Psalm 89:10, Isaiah 2:12-17).",
+        "[TCR Cross-Reference] Quotes 1 Samuel 2:1-10. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it.",
+        "[TCR Cross-Reference] Quotes Exodus 6:6. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it.",
+        "[TCR Cross-Reference] Quotes Deuteronomy 4:34. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it.",
+        "[TCR Cross-Reference] Quotes Isaiah 51:9. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it.",
+        "[TCR Cross-Reference] Quotes Psalm 89:10. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it.",
+        "[TCR Cross-Reference] Quotes Isaiah 2:12-17. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 52,
+      "text_greek": "καθεῖλεν δυνάστας ἀπὸ θρόνων καὶ ὕψωσεν ταπεινούς,",
+      "text_kjv": "He hath put down the mighty from their seats, and exalted them of low degree.",
+      "rendering": "He has brought down rulers from their thrones\nand lifted up the humble.",
+      "translator_notes": [
+        "This is the central reversal theme of the Magnificat, directly paralleling Hannah's song: 'The LORD makes poor and makes rich; he brings low, he also exalts' (1 Samuel 2:7). The Greek dynastas ('rulers, those in power') and tapeinous ('the lowly, the humble') form a deliberate contrast. Mary, a peasant girl from Nazareth, embodies the humble whom God exalts.",
+        "[TCR Cross-Reference] Draws on 1 Samuel 2:1-10. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 53,
+      "text_greek": "πεινῶντας ἐνέπλησεν ἀγαθῶν καὶ πλουτοῦντας ἐξαπέστειλεν κενούς.",
+      "text_kjv": "He hath filled the hungry with good things; and the rich he hath sent empty away.",
+      "rendering": "He has filled the hungry with good things\nand sent the rich away empty.",
+      "translator_notes": [
+        "The reversal continues: hungry filled, rich emptied. This echoes 1 Samuel 2:5 ('those who were full hire themselves out for bread, but those who were hungry cease to hunger'). Luke's Gospel will develop this theme extensively — the Beatitudes (6:20-26), the parable of the rich man and Lazarus (16:19-31), and Jesus's teaching on wealth throughout.",
+        "[TCR Cross-Reference] References 1 Samuel 2:1-10 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 54,
+      "text_greek": "ἀντελάβετο Ἰσραὴλ παιδὸς αὐτοῦ, μνησθῆναι ἐλέους,",
+      "text_kjv": "He hath holpen his servant Israel, in remembrance of his mercy;",
+      "rendering": "He has helped his servant Israel,\nin remembrance of his mercy,",
+      "translator_notes": [
+        "The verb antelabeto ('has helped, has come to the aid of') implies taking someone by the hand to support them. Israel is called God's pais ('servant, child'), echoing Isaiah's servant language (Isaiah 41:8-9, 'you, Israel, my servant'). 'In remembrance of his mercy' (mnesthenai eleous) means God is acting because he remembers his covenant commitment — divine memory in the Old Testament is always linked to covenant action.",
+        "[TCR Cross-Reference] Echoes 1 Samuel 2:1-10. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale.",
+        "[TCR Cross-Reference] Echoes Isaiah 41:8-9. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 55,
+      "text_greek": "καθὼς ἐλάλησεν πρὸς τοὺς πατέρας ἡμῶν, τῷ Ἀβραὰμ καὶ τῷ σπέρματι αὐτοῦ εἰς τὸν αἰῶνα.",
+      "text_kjv": "As he spake to our fathers, to Abraham, and to his seed for ever.",
+      "rendering": "As he spoke to our fathers, to Abraham, and to his descendants for ever.",
+      "translator_notes": [
+        "The Magnificat concludes with explicit reference to the Abrahamic covenant (Genesis 12:1-3, 17:7-8, 22:17-18). The Greek sperma ('seed, offspring') is the same term used in the Septuagint for the covenant promises to Abraham. Mary understands the child she carries as the fulfillment of promises made to Abraham — a covenant arc spanning two thousand years. The phrase eis ton aiona ('forever, into the age') corresponds to the Hebrew olam.",
+        "[TCR Cross-Reference] This verse quotes 1 Samuel 2:1-10 — see the TCR rendering of that passage for the Hebrew source text and translation decisions.",
+        "[TCR Cross-Reference] This verse quotes Genesis 12:1-3 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 56,
+      "text_greek": "Ἔμεινεν δὲ Μαριὰμ σὺν αὐτῇ ὡς μῆνας τρεῖς, καὶ ὑπέστρεψεν εἰς τὸν οἶκον αὐτῆς.",
+      "text_kjv": "And Mary abode with her about three months, and returned to her own house.",
+      "rendering": "Mary stayed with Elizabeth for about three months and then returned to her home.",
+      "translator_notes": [
+        "Three months would bring Elizabeth to full term (she was in her sixth month when Mary arrived, v. 26). Luke does not explicitly state whether Mary was present for John's birth — the narrative leaves this ambiguous. The phrase hos menas treis ('about three months') with the approximating hos suggests Luke is reporting a round number rather than an exact duration."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 57,
+      "text_greek": "Τῇ δὲ Ἐλισάβετ ἐπλήσθη ὁ χρόνος τοῦ τεκεῖν αὐτήν, καὶ ἐγέννησεν υἱόν.",
+      "text_kjv": "Now Elisabeth's full time came that she should be delivered; and she brought forth a son.",
+      "rendering": "Now the time came for Elizabeth to give birth, and she bore a son.",
+      "translator_notes": [
+        "The phrase eplesthe ho chronos ('the time was fulfilled') echoes Genesis 25:24 (Rebekah) and uses the language of fullness and completion — God's timing has reached its appointed moment. The narrative moves swiftly and simply, as is typical of biblical birth accounts.",
+        "[TCR Cross-Reference] Draws on Genesis 25:24. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 58,
+      "text_greek": "καὶ ἤκουσαν οἱ περίοικοι καὶ οἱ συγγενεῖς αὐτῆς ὅτι ἐμεγάλυνεν κύριος τὸ ἔλεος αὐτοῦ μετ' αὐτῆς, καὶ συνέχαιρον αὐτῇ.",
+      "text_kjv": "And her neighbours and her cousins heard how the Lord had shewed great mercy upon her; and they rejoiced with her.",
+      "rendering": "Her neighbors and relatives heard that the Lord had shown great mercy to her, and they rejoiced with her.",
+      "translator_notes": [
+        "The verb emegalynen ('had made great, had magnified') echoes Mary's megalynei ('magnifies') in v. 46 — the same root appears in the community's recognition of God's mercy toward Elizabeth. The Greek eleos ('mercy') again corresponds to the Hebrew chesed. The communal rejoicing fulfills the angel's promise in v. 14 that 'many will rejoice at his birth.'"
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 59,
+      "text_greek": "Καὶ ἐγένετο ἐν τῇ ἡμέρᾳ τῇ ὀγδόῃ ἦλθον περιτεμεῖν τὸ παιδίον, καὶ ἐκάλουν αὐτὸ ἐπὶ τῷ ὀνόματι τοῦ πατρὸς αὐτοῦ Ζαχαρίαν.",
+      "text_kjv": "And it came to pass, that on the eighth day they came to circumcise the child; and they called him Zacharias, after the name of his father.",
+      "rendering": "On the eighth day they came to circumcise the child, and they were going to name him Zechariah after his father.",
+      "translator_notes": [
+        "Circumcision on the eighth day follows the command of Genesis 17:12 and Leviticus 12:3. The naming at circumcision was customary practice. The imperfect ekaloun ('they were calling, they were going to name') indicates an attempt that will be interrupted — the community assumed the child would follow the common pattern of being named after his father.",
+        "[TCR Cross-Reference] Echoes Genesis 17:12. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale.",
+        "[TCR Cross-Reference] Echoes Leviticus 12:3. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 60,
+      "text_greek": "καὶ ἀποκριθεῖσα ἡ μήτηρ αὐτοῦ εἶπεν· Οὐχί, ἀλλὰ κληθήσεται Ἰωάννης.",
+      "text_kjv": "And his mother answered and said, Not so; but he shall be called John.",
+      "rendering": "But his mother answered, \"No! He is to be called John.\"",
+      "translator_notes": [
+        "Elizabeth's emphatic ouchi ('No!') and her knowledge of the divinely appointed name is striking — Zechariah has been mute and presumably unable to communicate the angel's instructions in detail. Whether she learned the name from Zechariah through written communication or through her own Spirit-filled insight (v. 41) is not stated. Her insistence overrides social convention."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 61,
+      "text_greek": "καὶ εἶπαν πρὸς αὐτὴν ὅτι Οὐδείς ἐστιν ἐκ τῆς συγγενείας σου ὃς καλεῖται τῷ ὀνόματι τούτῳ.",
+      "text_kjv": "And they said unto her, There is none of thy kindred that is called by this name.",
+      "rendering": "They said to her, \"There is no one among your relatives who has that name.\"",
+      "translator_notes": [
+        "The community's objection reveals the social expectation that names should stay within the family. The Greek syggeneia ('kindred, family, relatives') emphasizes the clan identity system. Naming a child outside the family's traditional names was unusual and would require explanation."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 62,
+      "text_greek": "ἐνένευον δὲ τῷ πατρὶ αὐτοῦ τὸ τί ἂν θέλοι καλεῖσθαι αὐτό.",
+      "text_kjv": "And they made signs to his father, how he would have him called.",
+      "rendering": "Then they made signs to his father, asking what he wanted the child to be named.",
+      "translator_notes": [
+        "That they make signs (enenuon, 'were gesturing') to Zechariah rather than simply speaking to him suggests he was deaf as well as mute — the Greek kophos in v. 22 can mean both. This detail confirms that the affliction was comprehensive, making Zechariah's restoration all the more dramatic."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 63,
+      "text_greek": "καὶ αἰτήσας πινακίδιον ἔγραψεν λέγων· Ἰωάννης ἐστὶν ὄνομα αὐτοῦ. καὶ ἐθαύμασαν πάντες.",
+      "text_kjv": "And he asked for a writing table, and wrote, saying, His name is John. And they marvelled all.",
+      "rendering": "He asked for a writing tablet and wrote, \"His name is John.\" And everyone was amazed.",
+      "translator_notes": [
+        "The Greek pinakidion ('writing tablet') was a small wax-coated board used for notes. Zechariah's written confirmation of Elizabeth's declaration — without any prior consultation possible given his deafness — demonstrates divine orchestration. His phrasing 'his name is John' (Ioannes estin onoma autou) uses the present tense 'is' rather than 'shall be,' indicating the name has already been divinely assigned."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 64,
+      "text_greek": "ἀνεῴχθη δὲ τὸ στόμα αὐτοῦ παραχρῆμα καὶ ἡ γλῶσσα αὐτοῦ, καὶ ἐλάλει εὐλογῶν τὸν θεόν.",
+      "text_kjv": "And his mouth was opened immediately, and his tongue was loosed, and he spake, and praised God.",
+      "rendering": "Immediately his mouth was opened and his tongue was freed, and he began to speak, praising God.",
+      "translator_notes": [
+        "The passive aneoichthe ('was opened') indicates divine action — God removes the discipline at the moment of obedient faith. Zechariah's first words after months of silence are praise (eulogon ton theon, 'blessing God'). The verb elalei (imperfect, 'he was speaking, he began to speak') suggests continuous speech — the dam breaks and words pour out."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 65,
+      "text_greek": "καὶ ἐγένετο ἐπὶ πάντας φόβος τοὺς περιοικοῦντας αὐτούς, καὶ ἐν ὅλῃ τῇ ὀρεινῇ τῆς Ἰουδαίας διελαλεῖτο πάντα τὰ ῥήματα ταῦτα,",
+      "text_kjv": "And fear came on all that dwelt round about them: and all these sayings were noised abroad throughout all the hill country of Judaea.",
+      "rendering": "Fear came upon all their neighbors, and throughout the entire hill country of Judea, all these events were being discussed.",
+      "translator_notes": [
+        "The 'fear' (phobos) that comes upon the community is reverential awe in the presence of the divine — the same response as Zechariah's in v. 12. The imperfect passive dielaletto ('were being discussed, were being talked about') indicates ongoing, widespread conversation. The phrase panta ta remata tauta ('all these words/events') uses rhema in its Semitic sense of both 'word' and 'event.'"
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 66,
+      "text_greek": "καὶ ἔθεντο πάντες οἱ ἀκούσαντες ἐν τῇ καρδίᾳ αὐτῶν, λέγοντες· Τί ἄρα τὸ παιδίον τοῦτο ἔσται; καὶ γὰρ χεὶρ κυρίου ἦν μετ' αὐτοῦ.",
+      "text_kjv": "And all they that heard them laid them up in their hearts, saying, What manner of child shall this be! And the hand of the Lord was with him.",
+      "rendering": "All who heard these things stored them in their hearts, saying, \"What then will this child become?\" For the hand of the Lord was with him.",
+      "translator_notes": [
+        "The phrase ethento en te kardia auton ('placed in their hearts') echoes Mary's response in 2:19 and 2:51 — treasuring events in the heart is Luke's motif for those who are pondering God's actions. 'The hand of the Lord was with him' (cheir kyriou en met autou) is an Old Testament expression for divine empowerment and protection (cf. 1 Samuel 5:6, 2 Kings 3:15, Ezra 7:9).",
+        "[TCR Cross-Reference] Quotes 1 Samuel 5:6. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it.",
+        "[TCR Cross-Reference] Quotes 2 Kings 3:15. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it.",
+        "[TCR Cross-Reference] Quotes Ezra 7:9. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 67,
+      "text_greek": "Καὶ Ζαχαρίας ὁ πατὴρ αὐτοῦ ἐπλήσθη πνεύματος ἁγίου καὶ ἐπροφήτευσεν λέγων·",
+      "text_kjv": "And his father Zacharias was filled with the Holy Ghost, and prophesied, saying,",
+      "rendering": "Then his father Zechariah was filled with the Holy Spirit and prophesied:",
+      "translator_notes": [
+        "Like Elizabeth (v. 41), Zechariah is filled with the Holy Spirit for prophetic speech. The verb epropheteusen ('prophesied') identifies the Benedictus (vv. 68-79) as Spirit-inspired prophecy, not merely personal praise. After months of enforced silence, Zechariah's first extended speech is prophetic proclamation."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 68,
+      "text_greek": "Εὐλογητὸς κύριος ὁ θεὸς τοῦ Ἰσραήλ, ὅτι ἐπεσκέψατο καὶ ἐποίησεν λύτρωσιν τῷ λαῷ αὐτοῦ,",
+      "text_kjv": "Blessed be the Lord God of Israel; for he hath visited and redeemed his people,",
+      "rendering": "\"Blessed be the Lord, the God of Israel,\nfor he has visited and redeemed his people.",
+      "expanded_rendering": "The word lytrosis ('redemption') carries the full weight of the Hebrew ga'al tradition — a kinsman who comes to rescue what was lost, to buy back from slavery, to reclaim what belongs to the family. When Zechariah says God has 'redeemed his people,' he is declaring that God is acting as Israel's closest relative, obligated by love and kinship to rescue them.",
+      "translator_notes": [
+        "The Benedictus (vv. 68-79) opens with a traditional Jewish blessing formula: eulogetos kyrios ('blessed be the Lord'), corresponding to the Hebrew baruk YHWH. The verb epeskepsato ('has visited') carries the sense of God paying attention, inspecting, and acting on behalf of his people (cf. Exodus 4:31, Ruth 1:6). The noun lytrosis ('redemption') is liberation through the payment of a ransom — language rooted in the Exodus and in the go'el (kinsman-redeemer) tradition.",
+        "[TCR Cross-Reference] References Psalms 41:13 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved.",
+        "[TCR Cross-Reference] References Exodus 4:31 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved.",
+        "[TCR Cross-Reference] References Ruth 1:6 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "key_terms": [
+        {
+          "greek": "λύτρωσις",
+          "transliteration": "lytrosis",
+          "rendered_as": "redeemed",
+          "semantic_range": "redemption, ransom, liberation, deliverance",
+          "note": "From the verb lytroo ('to ransom, to redeem'). In the Septuagint, this word group translates the Hebrew ga'al/padah family of redemption words. The concept involves a price paid and a deliverer who acts from within the family."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 69,
+      "text_greek": "καὶ ἤγειρεν κέρας σωτηρίας ἡμῖν ἐν οἴκῳ Δαυὶδ παιδὸς αὐτοῦ,",
+      "text_kjv": "And hath raised up an horn of salvation for us in the house of his servant David;",
+      "rendering": "He has raised up a horn of salvation for us\nin the house of his servant David,",
+      "translator_notes": [
+        "The 'horn of salvation' (keras soterias) is a metaphor drawn from the powerful horns of animals — it signifies strength and power to save (cf. Psalm 18:2, 2 Samuel 22:3). 'In the house of David his servant' identifies this salvation as fulfillment of the Davidic covenant (2 Samuel 7). Zechariah, a priest, celebrates God's act through the royal line — priestly and royal streams converge in this moment.",
+        "[TCR Cross-Reference] Echoes Psalm 18:2. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale.",
+        "[TCR Cross-Reference] Echoes 2 Samuel 22:3. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale.",
+        "[TCR Cross-Reference] Echoes 2 Samuel 7. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 70,
+      "text_greek": "καθὼς ἐλάλησεν διὰ στόματος τῶν ἁγίων ἀπ' αἰῶνος προφητῶν αὐτοῦ,",
+      "text_kjv": "As he spake by the mouth of his holy prophets, which have been since the world began:",
+      "rendering": "As he spoke by the lips of his sacred God's spokespersons, which have been since the world began:.",
+      "translator_notes": [
+        "The phrase ap aionos ('from of old, from the age, since ancient times') emphasizes the long-standing nature of God's prophetic promises. The prophets are described as God's mouthpiece — 'through the mouth of' (dia stomatos) indicates that the words were God's, spoken through human agents. This is Luke's articulation of prophetic inspiration."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 71,
+      "text_greek": "σωτηρίαν ἐξ ἐχθρῶν ἡμῶν καὶ ἐκ χειρὸς πάντων τῶν μισούντων ἡμᾶς·",
+      "text_kjv": "That we should be saved from our enemies, and from the hand of all that hate us;",
+      "rendering": "That we should be saved from our opponents, and from the hand of all that despise us.",
+      "translator_notes": [
+        "The language of salvation from enemies (soterian ex echthron) echoes the Psalms of deliverance (Psalm 18:3, 17; 106:10). In Zechariah's immediate context, the 'enemies' would include Roman occupation and Herodian oppression, but the Benedictus will soon reveal a deeper spiritual dimension to this salvation (v. 77). The phrase is deliberately broad enough to encompass both political and spiritual deliverance.",
+        "[TCR Cross-Reference] Quotes Psalm 18:3. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 72,
+      "text_greek": "ποιῆσαι ἔλεος μετὰ τῶν πατέρων ἡμῶν καὶ μνησθῆναι διαθήκης ἁγίας αὐτοῦ,",
+      "text_kjv": "To perform the mercy promised to our fathers, and to remember his holy covenant;",
+      "rendering": "To perform the compassion promised to our fathers, and to remember his holy covenant.",
+      "expanded_rendering": "When Zechariah says God is 'remembering his holy covenant,' the Hebrew concept behind the Greek is that God is now actively fulfilling the binding promises he made to Abraham and David. Divine memory in the Old Testament is never mere recollection — it is the moment when long-held commitment breaks into action.",
+      "translator_notes": [
+        "The Greek eleos ('mercy') here carries the force of the Hebrew chesed — covenantal mercy shown to the fathers. The Greek diathekes ('covenant') translates the Hebrew berit. The phrase 'remember his holy covenant' does not mean God had forgotten but that he is now acting on what he has always remembered — divine remembering is covenant activation (cf. Genesis 8:1, Exodus 2:24).",
+        "[TCR Cross-Reference] Draws on Genesis 8:1. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices.",
+        "[TCR Cross-Reference] Draws on Exodus 2:24. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "key_terms": [
+        {
+          "greek": "διαθήκη",
+          "transliteration": "diatheke",
+          "rendered_as": "covenant",
+          "semantic_range": "covenant, testament, agreement, will",
+          "note": "The Septuagint's standard translation of the Hebrew berit. In Greek, diatheke can also mean 'last will and testament,' which adds the dimension of inheritance to the covenant concept."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 73,
+      "text_greek": "ὅρκον ὃν ὤμοσεν πρὸς Ἀβραὰμ τὸν πατέρα ἡμῶν, τοῦ δοῦναι ἡμῖν",
+      "text_kjv": "The oath which he sware to our father Abraham,",
+      "rendering": "Indeed, the oath which he sware to our Father Abraham,.",
+      "translator_notes": [
+        "The reference to God's oath (horkon) to Abraham points to Genesis 22:16-18, where God swears by himself (since there is no one greater to swear by) after the near-sacrifice of Isaac. This is the most solemn form of divine commitment in the Old Testament — an oath-bound covenant. The author of Hebrews will later develop this same point (Hebrews 6:13-18).",
+        "[TCR Cross-Reference] References Genesis 22:16-18 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 74,
+      "text_greek": "ἀφόβως ἐκ χειρὸς ἐχθρῶν ῥυσθέντας λατρεύειν αὐτῷ",
+      "text_kjv": "That he would grant unto us, that we being delivered out of the hand of our enemies might serve him without fear,",
+      "rendering": "That he would grant to us, that we while delivered out of the possession of our enemies may serve him without be afraid,.",
+      "translator_notes": [
+        "The verb latreuein ('to serve, to worship') is the Septuagint's standard term for priestly or liturgical service to God. The purpose of deliverance is not mere freedom but worship — Israel is rescued from enemies so that they can serve God. This echoes the Exodus pattern: 'Let my people go so that they may serve me' (Exodus 7:16, 8:1, 9:1). Rescue is the means; worship is the goal.",
+        "[TCR Cross-Reference] Echoes Exodus 7:16. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 75,
+      "text_greek": "ἐν ὁσιότητι καὶ δικαιοσύνῃ ἐνώπιον αὐτοῦ πάσαις ταῖς ἡμέραις ἡμῶν.",
+      "text_kjv": "In holiness and righteousness before him, all the days of our life.",
+      "rendering": "In holiness and righteousness prior to him, every one of the days of our life.",
+      "translator_notes": [
+        "The pair hosioteti kai dikaiosyne ('holiness and righteousness') describes the complete character of covenant faithfulness — devotion toward God (holiness) and right conduct toward others (righteousness). The phrase 'all our days' (pasais tais hemerais hemon) envisions a lifelong pattern, not momentary piety."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 76,
+      "text_greek": "Καὶ σὺ δέ, παιδίον, προφήτης ὑψίστου κληθήσῃ· προπορεύσῃ γὰρ ἐνώπιον κυρίου ἑτοιμάσαι ὁδοὺς αὐτοῦ,",
+      "text_kjv": "And thou, child, shalt be called the prophet of the Highest: for thou shalt go before the face of the Lord to prepare his ways;",
+      "rendering": "And you, child, will be called a prophet of the Most High,\nfor you will go before the Lord to prepare his ways,",
+      "translator_notes": [
+        "Zechariah now turns from God's covenant faithfulness (vv. 68-75) to his own son's role. 'Prophet of the Most High' (prophetes hypsistou) parallels the title 'Son of the Most High' given to Jesus in v. 32. John's role is defined by the phrase from Malachi 3:1 and Isaiah 40:3 — the forerunner who prepares the way. The ambiguity of kyrios ('Lord') is significant — it could refer to God or to the Messiah. In context, it likely refers to Jesus, making Zechariah's prophecy a remarkable theological claim.",
+        "[TCR Cross-Reference] Quotes Malachi 3:1. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it.",
+        "[TCR Cross-Reference] Quotes Isaiah 40:3. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 77,
+      "text_greek": "τοῦ δοῦναι γνῶσιν σωτηρίας τῷ λαῷ αὐτοῦ ἐν ἀφέσει ἁμαρτιῶν αὐτῶν,",
+      "text_kjv": "To give knowledge of salvation unto his people by the remission of their sins,",
+      "rendering": "To give knowledge of salvation to his those present by the remission of their sins,.",
+      "translator_notes": [
+        "Here Zechariah redefines the 'salvation' he has been celebrating. After the martial language of vv. 71 and 74 (enemies, deliverance), the climactic definition is: salvation through forgiveness of sins (en aphesei hamartion). The Greek aphesis ('release, forgiveness, pardon') is the Septuagint word for the liberation of the Jubilee year (Leviticus 25:10) — forgiveness is portrayed as release from bondage.",
+        "[TCR Cross-Reference] Draws on Leviticus 25:10. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 78,
+      "text_greek": "διὰ σπλάγχνα ἐλέους θεοῦ ἡμῶν, ἐν οἷς ἐπισκέψεται ἡμᾶς ἀνατολὴ ἐξ ὕψους,",
+      "text_kjv": "Through the tender mercy of our God; whereby the dayspring from on high hath visited us,",
+      "rendering": "By way of the tender mercy of our God. Whereby the dayspring from on high has visited us,.",
+      "translator_notes": [
+        "The Greek splanchna eleous ('bowels/depths of mercy') is intensely physical — splanchna refers to the internal organs, the seat of deepest emotion in ancient thought. The word anatole ('rising, dawn, dayspring') can mean either 'sunrise' or 'branch/shoot' (cf. Jeremiah 23:5, Zechariah 3:8, where the Hebrew tsemach, 'branch,' is rendered anatole in the Septuagint). The ambiguity may be intentional — the coming one is both the Messianic Branch and the dawning light.",
+        "[TCR Cross-Reference] References Jeremiah 23:5 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved.",
+        "[TCR Cross-Reference] References Zechariah 3:8 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "key_terms": [
+        {
+          "greek": "ἀνατολή",
+          "transliteration": "anatole",
+          "rendered_as": "rising sun",
+          "semantic_range": "rising, dawn, east, dayspring; also 'branch, shoot' in Messianic contexts",
+          "note": "This word bridges two Messianic images: the rising sun that dispels darkness (Malachi 4:2, 'the sun of righteousness shall rise with healing in its wings') and the Branch/Shoot of David (Jeremiah 23:5, Zechariah 6:12). Both images converge in the Messiah."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 79,
+      "text_greek": "ἐπιφᾶναι τοῖς ἐν σκότει καὶ σκιᾷ θανάτου καθημένοις, τοῦ κατευθῦναι τοὺς πόδας ἡμῶν εἰς ὁδὸν εἰρήνης.",
+      "text_kjv": "To give light to them that sit in darkness and in the shadow of death, to guide our feet into the way of peace.",
+      "rendering": "To provide radiance to them that take a seat in the dark and in the shadow of death, to guide our feet into the way of peace.",
+      "translator_notes": [
+        "This verse echoes Isaiah 9:2 ('the people who walked in darkness have seen a great light') and Psalm 107:10 ('those who sat in darkness and in the shadow of death'). The Greek skia thanatou ('shadow of death') translates the Hebrew tsalmaveth, the deep darkness of Sheol and despair. The Benedictus concludes with eirene ('peace'), corresponding to the Hebrew shalom — not merely absence of conflict but the fullness of well-being that comes when God's covenant purposes are fulfilled.",
+        "[TCR Cross-Reference] Echoes Isaiah 9:2. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale.",
+        "[TCR Cross-Reference] Echoes Psalm 107:10. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 80,
+      "text_greek": "Τὸ δὲ παιδίον ηὔξανεν καὶ ἐκραταιοῦτο πνεύματι, καὶ ἦν ἐν ταῖς ἐρήμοις ἕως ἡμέρας ἀναδείξεως αὐτοῦ πρὸς τὸν Ἰσραήλ.",
+      "text_kjv": "And the child grew, and waxed strong in spirit, and was in the deserts till the day of his shewing unto Israel.",
+      "rendering": "The child grew and became strong in spirit, and he was in the wilderness until the day of his public appearance to Israel.",
+      "translator_notes": [
+        "This summary verse parallels the growth notices for Samuel (1 Samuel 2:26) and will be echoed for Jesus (2:40, 52). The phrase en tais eremois ('in the wilderness areas') suggests John lived in the Judean desert, perhaps near the Dead Sea, before beginning his public ministry. The noun anadeixeos ('public appearance, showing forth, commissioning') occurs only here in the New Testament and suggests a formal appointment or public presentation — John's ministry did not begin gradually but with a definitive public emergence.",
+        "[TCR Cross-Reference] This verse quotes 1 Samuel 2:26 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "reading_level": "8th grade"
+    }
+  ]
+}

@@ -1,0 +1,392 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Genesis",
+    "tradition": "samaritan-pentateuch",
+    "tradition_label": "Samaritan Pentateuch",
+    "source_text": "Samaritan Pentateuch (critical editions)",
+    "base_text": "Westminster Leningrad Codex (WLC)",
+    "date": "4th c. BCE divergence",
+    "generated_at": "2026-04-05T00:00:00Z",
+    "prompt_version": "1.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Genesis contains roughly 1,900 SP variants against the MT, the majority orthographic or grammatical. The theologically significant variants cluster around patriarchal chronology (where SP frequently agrees with the LXX against MT), harmonistic additions that import parallel passages, and the identification of sacred geography. SP Genesis also includes several expansions drawn from Exodus and Deuteronomy, inserted to smooth narrative flow.",
+    "notable_variants": "The patriarchal ages in Genesis 5 and 11 diverge substantially from MT, often agreeing with the LXX. Genesis 22:2 reads 'Moreh' rather than 'Moriah,' redirecting the Aqedah away from the Jerusalem temple mount. Several passages receive harmonistic expansions where SP imports speech from later or parallel accounts.",
+    "theological_significance": "SP Genesis reveals a consistent editorial program: (1) the sacred mountain is never identified with Jerusalem/Moriah but redirected toward Shechem/Gerizim, (2) chronological difficulties are smoothed to produce a coherent timeline, and (3) divine speech is harmonized so that what God tells Moses to say matches what Moses actually says. These patterns intensify in Exodus and Deuteronomy but are already visible in Genesis."
+  },
+  "variants": [
+    {
+      "reference": "Genesis 2:2",
+      "has_variant": true,
+      "significance": "moderate",
+      "mt_reading": "וַיְכַל אֱלֹהִים בַּיּוֹם הַשְּׁבִיעִי",
+      "sp_reading": "וַיְכַל אֱלֹהִים בַּיּוֹם הַשִּׁשִּׁי",
+      "mt_rendering": "And God finished on the seventh day",
+      "sp_rendering": "And God finished on the sixth day",
+      "notes": ["SP reads 'sixth day' instead of 'seventh day,' avoiding the implication that God worked on the Sabbath. The LXX also reads 'sixth day.' This is a theological-exegetical correction to protect Sabbath sanctity."]
+    },
+    {
+      "reference": "Genesis 4:8",
+      "has_variant": true,
+      "significance": "moderate",
+      "mt_reading": "וַיֹּאמֶר קַיִן אֶל־הֶבֶל אָחִיו",
+      "sp_reading": "וַיֹּאמֶר קַיִן אֶל־הֶבֶל אָחִיו נֵלְכָה הַשָּׂדֶה",
+      "mt_rendering": "And Cain said to Abel his brother",
+      "sp_rendering": "And Cain said to Abel his brother, 'Let us go out to the field'",
+      "notes": ["MT lacks the content of Cain's speech, creating an incomplete sentence. SP (like LXX, Peshitta, and Vulgate) supplies the words 'Let us go out to the field.' This is likely the original reading, with MT suffering haplography, though some scholars argue SP harmonized from the versions."]
+    },
+    {
+      "reference": "Genesis 5:3",
+      "has_variant": true,
+      "significance": "high",
+      "mt_reading": "שְׁלֹשִׁים וּמְאַת שָׁנָה (130 years)",
+      "sp_reading": "שְׁלֹשִׁים וּמְאַת שָׁנָה (130 years)",
+      "mt_rendering": "one hundred and thirty years",
+      "sp_rendering": "one hundred and thirty years",
+      "notes": ["Adam's begetting age agrees between MT and SP (130), but SP adjusts the remaining years to 800, yielding a total of 930, matching MT here. The SP chronological system diverges more sharply in subsequent entries."]
+    },
+    {
+      "reference": "Genesis 5:6",
+      "has_variant": true,
+      "significance": "high",
+      "mt_reading": "חָמֵשׁ שָׁנִים וּמְאַת שָׁנָה (105 years)",
+      "sp_reading": "חָמֵשׁ שָׁנִים וּמְאַת שָׁנָה (105 years)",
+      "mt_rendering": "one hundred and five years",
+      "sp_rendering": "one hundred and five years",
+      "notes": ["Seth's begetting age agrees between MT and SP at 105. However, the LXX reads 205, showing that SP sometimes stands with MT against LXX in the antediluvian chronology. The overall SP chronological system compresses the post-begetting years."]
+    },
+    {
+      "reference": "Genesis 5:18",
+      "has_variant": true,
+      "significance": "high",
+      "mt_reading": "שְׁנַיִם וְשִׁשִּׁים שָׁנָה וּמְאַת שָׁנָה (162 years)",
+      "sp_reading": "שְׁנַיִם וְשִׁשִּׁים שָׁנָה וּמְאַת שָׁנָה (62 years)",
+      "mt_rendering": "one hundred and sixty-two years",
+      "sp_rendering": "sixty-two years",
+      "notes": ["Jared's begetting age is 162 in MT but 62 in SP. SP systematically reduces several antediluvian begetting ages by 100 years compared to MT. The effect is to compress the antediluvian chronology. The LXX agrees with MT's higher figure here."]
+    },
+    {
+      "reference": "Genesis 5:21",
+      "has_variant": true,
+      "significance": "moderate",
+      "mt_reading": "חָמֵשׁ וְשִׁשִּׁים שָׁנָה (65 years)",
+      "sp_reading": "חָמֵשׁ וְשִׁשִּׁים שָׁנָה (65 years)",
+      "mt_rendering": "sixty-five years",
+      "sp_rendering": "sixty-five years",
+      "notes": ["Enoch's begetting age agrees across MT, SP, and LXX at 65 years, one of the few stable figures in the antediluvian genealogy."]
+    },
+    {
+      "reference": "Genesis 5:25",
+      "has_variant": true,
+      "significance": "high",
+      "mt_reading": "שֶׁבַע וּשְׁמֹנִים שָׁנָה וּמְאַת שָׁנָה (187 years)",
+      "sp_reading": "שֶׁבַע וְשִׁשִּׁים שָׁנָה (67 years)",
+      "mt_rendering": "one hundred and eighty-seven years",
+      "sp_rendering": "sixty-seven years",
+      "notes": ["Methuselah's begetting age is 187 in MT but 67 in SP. The SP reduction ensures Methuselah dies before the Flood (in MT's chronology he appears to survive past it, which the rabbis recognized as problematic). This is the most famous chronological fix in SP Genesis."]
+    },
+    {
+      "reference": "Genesis 5:28",
+      "has_variant": true,
+      "significance": "high",
+      "mt_reading": "שְׁנַיִם וּשְׁמֹנִים שָׁנָה וּמְאַת שָׁנָה (182 years)",
+      "sp_reading": "שְׁנַיִם וְחָמִשִּׁים שָׁנָה (53 years)",
+      "mt_rendering": "one hundred and eighty-two years",
+      "sp_rendering": "fifty-three years",
+      "notes": ["Lamech's begetting age for Noah is 182 in MT but 53 in SP. SP's Lamech also has a different total lifespan. The LXX reads 188. All three traditions diverge here, suggesting early textual instability in the antediluvian numbers."]
+    },
+    {
+      "reference": "Genesis 7:2",
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "שִׁבְעָה שִׁבְעָה אִישׁ וְאִשְׁתּוֹ",
+      "sp_reading": "שִׁבְעָה שִׁבְעָה זָכָר וּנְקֵבָה",
+      "mt_rendering": "seven pairs, a man and his mate",
+      "sp_rendering": "seven pairs, male and female",
+      "notes": ["SP harmonizes the clean-animal formula with the language of Gen 6:19 ('male and female') rather than MT's more anthropomorphic 'a man and his mate.' A minor harmonistic variant."]
+    },
+    {
+      "reference": "Genesis 8:13",
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "בְּאַחַת וְשֵׁשׁ־מֵאוֹת שָׁנָה",
+      "sp_reading": "בְּאַחַת וְשֵׁשׁ־מֵאוֹת שָׁנָה וְאַחַת",
+      "mt_rendering": "In the six hundred and first year",
+      "sp_rendering": "In the six hundred and first year",
+      "notes": ["Minor orthographic difference in how the number is expressed. SP adds an explicit 'and one' for clarity. Both yield the same date."]
+    },
+    {
+      "reference": "Genesis 11:10-26",
+      "has_variant": true,
+      "significance": "high",
+      "mt_reading": "Post-flood genealogy with shorter begetting ages",
+      "sp_reading": "Post-flood genealogy with systematically higher begetting ages",
+      "mt_rendering": "(Multiple entries — see individual verses)",
+      "sp_rendering": "(Multiple entries — see individual verses)",
+      "notes": ["The Shem-to-Abram genealogy (Gen 11) is where SP and LXX most dramatically diverge from MT. SP adds 100 years to most begetting ages, and both SP and LXX include Kainan as an additional generation not found in MT. The effect is to extend the post-flood chronology by several centuries, placing Abraham's birth much later relative to the Flood."]
+    },
+    {
+      "reference": "Genesis 11:13",
+      "has_variant": true,
+      "significance": "high",
+      "mt_reading": "אַרְפַּכְשַׁד — no Kainan generation",
+      "sp_reading": "אַרְפַּכְשַׁד begot קַיְנָן, then שֶׁלַח",
+      "mt_rendering": "Arpachshad begot Shelah",
+      "sp_rendering": "Arpachshad begot Kainan, and Kainan begot Shelah",
+      "notes": ["SP (and LXX) include a generation of Kainan between Arpachshad and Shelah that is absent in MT. Luke 3:36 follows the LXX/SP tradition in including Kainan. This is one of the most significant genealogical differences between the textual traditions."]
+    },
+    {
+      "reference": "Genesis 11:14",
+      "has_variant": true,
+      "significance": "high",
+      "mt_reading": "שְׁלֹשִׁים שָׁנָה (30 years)",
+      "sp_reading": "שְׁלֹשִׁים וּמְאַת שָׁנָה (130 years)",
+      "mt_rendering": "thirty years",
+      "sp_rendering": "one hundred and thirty years",
+      "notes": ["Shelah's begetting age is 30 in MT but 130 in SP. SP adds 100 years to most post-flood begetting ages, consistent with its chronological expansion."]
+    },
+    {
+      "reference": "Genesis 11:16",
+      "has_variant": true,
+      "significance": "high",
+      "mt_reading": "אַרְבַּע וּשְׁלֹשִׁים שָׁנָה (34 years)",
+      "sp_reading": "אַרְבַּע וּשְׁלֹשִׁים וּמְאַת שָׁנָה (134 years)",
+      "mt_rendering": "thirty-four years",
+      "sp_rendering": "one hundred and thirty-four years",
+      "notes": ["Eber's begetting age is 34 in MT but 134 in SP. Same pattern of adding 100 years."]
+    },
+    {
+      "reference": "Genesis 11:18",
+      "has_variant": true,
+      "significance": "high",
+      "mt_reading": "שְׁלֹשִׁים שָׁנָה (30 years)",
+      "sp_reading": "שְׁלֹשִׁים וּמְאַת שָׁנָה (130 years)",
+      "mt_rendering": "thirty years",
+      "sp_rendering": "one hundred and thirty years",
+      "notes": ["Peleg's begetting age is 30 in MT but 130 in SP. The post-flood chronological inflation is systematic in SP."]
+    },
+    {
+      "reference": "Genesis 11:20",
+      "has_variant": true,
+      "significance": "high",
+      "mt_reading": "שְׁתַּיִם וּשְׁלֹשִׁים שָׁנָה (32 years)",
+      "sp_reading": "שְׁתַּיִם וּשְׁלֹשִׁים וּמְאַת שָׁנָה (132 years)",
+      "mt_rendering": "thirty-two years",
+      "sp_rendering": "one hundred and thirty-two years",
+      "notes": ["Reu's begetting age is 32 in MT but 132 in SP."]
+    },
+    {
+      "reference": "Genesis 11:22",
+      "has_variant": true,
+      "significance": "high",
+      "mt_reading": "שְׁלֹשִׁים שָׁנָה (30 years)",
+      "sp_reading": "שְׁלֹשִׁים וּמְאַת שָׁנָה (130 years)",
+      "mt_rendering": "thirty years",
+      "sp_rendering": "one hundred and thirty years",
+      "notes": ["Serug's begetting age is 30 in MT but 130 in SP."]
+    },
+    {
+      "reference": "Genesis 11:24",
+      "has_variant": true,
+      "significance": "moderate",
+      "mt_reading": "תֵּשַׁע וְעֶשְׂרִים שָׁנָה (29 years)",
+      "sp_reading": "תֵּשַׁע וְעֶשְׂרִים שָׁנָה (79 years)",
+      "mt_rendering": "twenty-nine years",
+      "sp_rendering": "seventy-nine years",
+      "notes": ["Nahor's begetting age is 29 in MT but 79 in SP (adding 50, not 100). The LXX reads 179. The three traditions are each distinct here."]
+    },
+    {
+      "reference": "Genesis 11:32",
+      "has_variant": true,
+      "significance": "moderate",
+      "mt_reading": "מָאתַיִם וְחָמֵשׁ שָׁנִים (205 years)",
+      "sp_reading": "מֵאָה וְחָמֵשׁ וְאַרְבָּעִים שָׁנָה (145 years)",
+      "mt_rendering": "two hundred and five years",
+      "sp_rendering": "one hundred and forty-five years",
+      "notes": ["Terah's total lifespan is 205 in MT but 145 in SP. The SP figure solves a chronological problem: in MT, Terah is still alive when Abraham leaves Haran (Gen 12:4), but Acts 7:4 says Abraham left after Terah died. SP's 145 makes Terah die before Abraham departs, harmonizing with the narrative."]
+    },
+    {
+      "reference": "Genesis 12:6",
+      "has_variant": true,
+      "significance": "moderate",
+      "mt_reading": "עַד מְקוֹם שְׁכֶם עַד אֵלוֹן מוֹרֶה",
+      "sp_reading": "עַד מְקוֹם שְׁכֶם אֵלוֹן מוֹרֶה מוּל שְׁכֶם",
+      "mt_rendering": "to the place of Shechem, to the oak of Moreh",
+      "sp_rendering": "to the place of Shechem, the oak of Moreh, opposite Shechem",
+      "notes": ["SP expands the geographical reference to emphasize Shechem (near Gerizim). This is part of SP's program of highlighting the Gerizim/Shechem region as the divinely chosen site."]
+    },
+    {
+      "reference": "Genesis 12:6",
+      "has_variant": true,
+      "significance": "moderate",
+      "mt_reading": "וְהַכְּנַעֲנִי אָז בָּאָרֶץ",
+      "sp_reading": "וְהַכְּנַעֲנִי אָז בָּאָרֶץ",
+      "mt_rendering": "And the Canaanite was then in the land",
+      "sp_rendering": "And the Canaanite was then in the land",
+      "notes": ["This clause agrees between MT and SP, but SP's expanded Shechem reference in the preceding clause gives this verse a stronger connection to the Gerizim theology."]
+    },
+    {
+      "reference": "Genesis 14:14",
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "עַד־דָּן",
+      "sp_reading": "עַד־דָּן",
+      "mt_rendering": "as far as Dan",
+      "sp_rendering": "as far as Dan",
+      "notes": ["Both MT and SP read 'Dan' here, which is an anachronism (the city was not named Dan until Judg 18:29). Some scholars expected SP to correct this, but it does not."]
+    },
+    {
+      "reference": "Genesis 17:8",
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "לֵאלֹהִים",
+      "sp_reading": "לֵאלֹהִים",
+      "mt_rendering": "as God",
+      "sp_rendering": "as God",
+      "notes": ["Minor orthographic variants in the surrounding text; the theological content is identical."]
+    },
+    {
+      "reference": "Genesis 21:34",
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "בְּאֶרֶץ פְּלִשְׁתִּים יָמִים רַבִּים",
+      "sp_reading": "בְּאֶרֶץ פְּלִשְׁתִּים יָמִים רַבִּים",
+      "mt_rendering": "in the land of the Philistines many days",
+      "sp_rendering": "in the land of the Philistines many days",
+      "notes": ["SP agrees with MT. The anachronistic mention of Philistines is retained in both traditions."]
+    },
+    {
+      "reference": "Genesis 22:2",
+      "has_variant": true,
+      "significance": "high",
+      "mt_reading": "אֶל־אֶרֶץ הַמֹּרִיָּה",
+      "sp_reading": "אֶל־אֶרֶץ הַמּוֹרֶה",
+      "mt_rendering": "to the land of Moriah",
+      "sp_rendering": "to the land of Moreh",
+      "notes": ["This is one of the most theologically significant variants in Genesis. MT reads 'Moriah,' which 2 Chr 3:1 identifies with the Jerusalem temple mount. SP reads 'Moreh,' pointing to the oak/terebinth of Moreh near Shechem (Gen 12:6), thus locating the Aqedah near Mount Gerizim rather than Jerusalem. The single-letter difference (yod vs. he) carries enormous theological weight."]
+    },
+    {
+      "reference": "Genesis 22:14",
+      "has_variant": true,
+      "significance": "high",
+      "mt_reading": "בְּהַר יְהוָה יֵרָאֶה",
+      "sp_reading": "בְּהַר יְהוָה יֵרָאֶה",
+      "mt_rendering": "On the mountain of the LORD it shall be seen",
+      "sp_rendering": "On the mountain of the LORD it shall be seen",
+      "notes": ["SP retains the same consonantal text here, but the Samaritan interpretive tradition reads this as referring to Gerizim, not Jerusalem. Combined with 'Moreh' in 22:2, the entire Aqedah is relocated to the Shechem/Gerizim region in Samaritan theology."]
+    },
+    {
+      "reference": "Genesis 23:17",
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "וַיָּקָם שְׂדֵה עֶפְרוֹן",
+      "sp_reading": "וַיָּקָם שְׂדֵה עֶפְרוֹן",
+      "mt_rendering": "And the field of Ephron was established",
+      "sp_rendering": "And the field of Ephron was established",
+      "notes": ["SP agrees with MT in the Machpelah purchase narrative. The legal language is identical across both traditions."]
+    },
+    {
+      "reference": "Genesis 30:36",
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "דֶּרֶךְ שְׁלֹשֶׁת יָמִים",
+      "sp_reading": "דֶּרֶךְ שְׁלֹשֶׁת יָמִים",
+      "mt_rendering": "a three-day journey",
+      "sp_rendering": "a three-day journey",
+      "notes": ["Minor orthographic variants in the Laban-Jacob narrative; content is identical."]
+    },
+    {
+      "reference": "Genesis 33:18",
+      "has_variant": true,
+      "significance": "moderate",
+      "mt_reading": "וַיָּבֹא יַעֲקֹב שָׁלֵם עִיר שְׁכֶם",
+      "sp_reading": "וַיָּבֹא יַעֲקֹב שָׁלֵם עִיר שְׁכֶם",
+      "mt_rendering": "And Jacob came safely to the city of Shechem",
+      "sp_rendering": "And Jacob came safely to the city of Shechem",
+      "notes": ["Both traditions agree, but this verse is central to Samaritan theology: Jacob's arrival at Shechem and the subsequent altar-building (33:20) is read as divine endorsement of the Gerizim site. SP treats this as confirmation of the chosen place."]
+    },
+    {
+      "reference": "Genesis 33:20",
+      "has_variant": true,
+      "significance": "moderate",
+      "mt_reading": "וַיַּצֶּב־שָׁם מִזְבֵּחַ וַיִּקְרָא־לוֹ אֵל אֱלֹהֵי יִשְׂרָאֵל",
+      "sp_reading": "וַיַּצֶּב־שָׁם מִזְבֵּחַ וַיִּקְרָא־לוֹ אֵל אֱלֹהֵי יִשְׂרָאֵל",
+      "mt_rendering": "And he set up there an altar and called it El-Elohe-Israel",
+      "sp_rendering": "And he set up there an altar and called it El-Elohe-Israel",
+      "notes": ["Text is identical, but the Samaritan interpretive tradition treats Jacob's altar at Shechem as the prototype for the Gerizim sanctuary, the first legitimate altar in the promised land."]
+    },
+    {
+      "reference": "Genesis 35:1",
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "עֲלֵה בֵית־אֵל",
+      "sp_reading": "עֲלֵה בֵית־אֵל",
+      "mt_rendering": "Go up to Bethel",
+      "sp_rendering": "Go up to Bethel",
+      "notes": ["SP agrees with MT. Bethel is not contested between the traditions, as it is distinct from both Gerizim and Jerusalem."]
+    },
+    {
+      "reference": "Genesis 35:4",
+      "has_variant": true,
+      "significance": "moderate",
+      "mt_reading": "תַּחַת הָאֵלָה אֲשֶׁר עִם־שְׁכֶם",
+      "sp_reading": "תַּחַת הָאֵלָה אֲשֶׁר עִם־שְׁכֶם",
+      "mt_rendering": "under the oak that was near Shechem",
+      "sp_rendering": "under the oak that was near Shechem",
+      "notes": ["Both traditions record the burial of foreign gods under the Shechem oak. For Samaritan theology, this purification at Shechem reinforces the site's sanctity."]
+    },
+    {
+      "reference": "Genesis 46:23",
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "חֻשִׁים",
+      "sp_reading": "חֻשִׁם",
+      "mt_rendering": "Hushim",
+      "sp_rendering": "Hushim",
+      "notes": ["Minor orthographic variant in the spelling of Dan's son. The plene/defective spelling difference has no semantic impact."]
+    },
+    {
+      "reference": "Genesis 46:27",
+      "has_variant": true,
+      "significance": "moderate",
+      "mt_reading": "שִׁבְעִים נָפֶשׁ (70 persons)",
+      "sp_reading": "חָמֵשׁ וְשִׁבְעִים נָפֶשׁ (75 persons)",
+      "mt_rendering": "seventy persons",
+      "sp_rendering": "seventy-five persons",
+      "notes": ["SP reads 75 persons entering Egypt, agreeing with the LXX and with Stephen's speech in Acts 7:14. The additional five are grandsons of Joseph counted in SP/LXX but not in MT. This is a significant text-critical crux for NT studies."]
+    },
+    {
+      "reference": "Genesis 47:21",
+      "has_variant": true,
+      "significance": "moderate",
+      "mt_reading": "הֶעֱבִיר אֹתוֹ לֶעָרִים",
+      "sp_reading": "הֶעֱבִיד אֹתוֹ לַעֲבָדִים",
+      "mt_rendering": "he removed them to the cities",
+      "sp_rendering": "he made them slaves",
+      "notes": ["MT says Joseph relocated the Egyptian population to cities; SP says he enslaved them. The LXX agrees with SP. The difference is a single consonant (resh vs. daleth), a common confusion in Hebrew scripts. SP's reading is arguably the harder reading and may be original."]
+    },
+    {
+      "reference": "Genesis 49:10",
+      "has_variant": true,
+      "significance": "high",
+      "mt_reading": "עַד כִּי־יָבֹא שִׁילֹה",
+      "sp_reading": "עַד כִּי־יָבֹא שִׁילֹה",
+      "mt_rendering": "until Shiloh comes",
+      "sp_rendering": "until Shiloh comes",
+      "notes": ["The consonantal text agrees, but vocalization and interpretation differ radically. Samaritan tradition reads this as a reference to the Taheb (the Samaritan messianic figure), not the Davidic messiah. The LXX renders it differently again. This verse is one of the most debated in all biblical studies."]
+    },
+    {
+      "reference": "Genesis 50:13",
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "שְׂדֵה הַמַּכְפֵּלָה",
+      "sp_reading": "שְׂדֵה הַמַּכְפֵּלָה",
+      "mt_rendering": "the field of Machpelah",
+      "sp_rendering": "the field of Machpelah",
+      "notes": ["SP and MT agree on the Machpelah burial tradition. The Samaritan community does not contest the Hebron burial site for the patriarchs."]
+    }
+  ]
+}

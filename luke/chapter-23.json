@@ -1,0 +1,606 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Luke",
+    "chapter": 23,
+    "source_text": "SBL Greek New Testament (SBLGNT)",
+    "reference_text": "KJV",
+    "generated_at": "2026-04-04T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Luke 23 narrates the Roman trial and crucifixion of Jesus. The chapter moves through the trial before Pilate, the hearing before Herod Antipas (unique to Luke), the crowd's demand for Barabbas, the way to the cross with Simon of Cyrene and the weeping women of Jerusalem, the crucifixion between two criminals, the mocking by rulers and soldiers, the repentant criminal's plea and Jesus's promise of paradise, the darkness and torn curtain, Jesus's death, and the burial by Joseph of Arimathea. Luke's crucifixion narrative emphasizes Jesus's innocence (declared three times by Pilate and once by Herod) and his mercy even in death.",
+    "remarkable": "Luke's passion narrative is distinguished by several unique elements: the Herod Antipas hearing, the weeping women of Jerusalem (with Jesus's prophecy about Jerusalem's coming destruction), the dialogue between the two criminals (with the promise 'Today you will be with me in paradise'), and the centurion's declaration that Jesus was 'righteous' (rather than Mark's 'Son of God'). The textually disputed verse 34a — 'Father, forgive them, for they do not know what they are doing' — is one of the most famous sayings attributed to Jesus and epitomizes Luke's portrait of Jesus as merciful even to his executioners.",
+    "friction": "Verse 34a ('Father, forgive them...') is absent from P75, Sinaiticus (original), Vaticanus, and other early witnesses, but present in Sinaiticus (corrected), Bezae, and most later manuscripts. Its authenticity is disputed among scholars. We include it following the SBLGNT's double-bracketed text and note the manuscript evidence. The historical details of Roman crucifixion are rendered without sanitizing. Luke's account of Pilate's three declarations of innocence (vv. 4, 14, 22) creates a more sympathetic portrait of Pilate than other sources support.",
+    "connections": "The Barabbas exchange echoes the Day of Atonement scapegoat ritual (Leviticus 16). The darkness at the crucifixion echoes the plague of darkness in Exodus 10:22 and the prophetic warnings of Amos 8:9. The torn curtain connects to the theology of access to God (Hebrews 10:19-22). Jesus's final words ('Father, into your hands I commit my spirit') quote Psalm 31:5. Joseph of Arimathea's burial fulfills Isaiah 53:9 ('with the rich in his death'). The women at the cross connect to the women who will discover the empty tomb (24:1-10)."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_greek": "Καὶ ἀναστὰν ἅπαν τὸ πλῆθος αὐτῶν ἤγαγον αὐτὸν ἐπὶ τὸν Πιλᾶτον.",
+      "text_kjv": "And the whole multitude of them arose, and led him unto Pilate.",
+      "rendering": "Then the whole assembly rose and led him before Pilate.",
+      "translator_notes": [
+        "The phrase hapan to plēthos autōn ('the whole multitude of them') indicates a corporate decision by the full Sanhedrin. They bring Jesus to Pilate (Pontius Pilatus, Roman prefect of Judea, AD 26-36) because only the Roman governor had the authority to execute a death sentence (ius gladii). The transition from Jewish religious tribunal to Roman political court requires reframing the charges."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 2,
+      "text_greek": "ἤρξαντο δὲ κατηγορεῖν αὐτοῦ λέγοντες· Τοῦτον εὕραμεν διαστρέφοντα τὸ ἔθνος ἡμῶν καὶ κωλύοντα φόρους Καίσαρι διδόναι καὶ λέγοντα ἑαυτὸν χριστὸν βασιλέα εἶναι.",
+      "text_kjv": "And they began to accuse him, saying, We found this fellow perverting the nation, and forbidding to give tribute to Caesar, saying that he himself is Christ a King.",
+      "rendering": "They began to accuse him, saying, \"We found this man misleading our nation, forbidding the payment of taxes to Caesar, and claiming to be Christ, a king.\"",
+      "translator_notes": [
+        "The charges are three, and all are political rather than religious: (1) diastephonta to ethnos ('misleading/perverting the nation') — sedition; (2) kōlyonta phorous Kaisari didonai ('forbidding taxes to Caesar') — a direct lie, since Jesus said the opposite in 20:25; (3) legonta heauton christon basilea einai ('claiming to be Christ, a king') — technically true but framed as a political claim against Caesar's sovereignty. The Sanhedrin transforms a religious charge (blasphemy) into a political one (treason) to engage Roman jurisdiction."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 3,
+      "text_greek": "ὁ δὲ Πιλᾶτος ἠρώτησεν αὐτὸν λέγων· Σὺ εἶ ὁ βασιλεὺς τῶν Ἰουδαίων; ὁ δὲ ἀποκριθεὶς αὐτῷ ἔφη· Σὺ λέγεις.",
+      "text_kjv": "And Pilate asked him, saying, Art thou the King of the Jews? And he answered him and said, Thou sayest it.",
+      "rendering": "Pilate asked him, \"Are you the King of the Jews?\" Jesus answered him, \"You say so.\"",
+      "translator_notes": [
+        "Pilate seizes on the only charge that matters to Rome: kingship. The question sy ei ho basileus tōn Ioudaiōn ('you are the king of the Jews?') is the charge that will appear on the cross (v. 38). Jesus's answer sy legeis ('you say so' or 'you are the one saying it') is identical in form to his answer before the Sanhedrin (22:70) — an acknowledgment that neither fully affirms nor denies, placing the characterization in the questioner's framework."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 4,
+      "text_greek": "ὁ δὲ Πιλᾶτος εἶπεν πρὸς τοὺς ἀρχιερεῖς καὶ τοὺς ὄχλους· Οὐδὲν εὑρίσκω αἴτιον ἐν τῷ ἀνθρώπῳ τούτῳ.",
+      "text_kjv": "Then said Pilate to the chief priests and to the people, I find no fault in this man.",
+      "rendering": "Pilate said to the chief priests and the crowds, \"I find no basis for a charge against this man.\"",
+      "translator_notes": [
+        "This is the first of Pilate's three declarations of Jesus's innocence (see also vv. 14 and 22). The phrase ouden heuriskō aition ('I find nothing blameworthy, no cause for accusation') is a formal legal verdict of acquittal. Despite this, Pilate does not release Jesus — the political pressure overrides the judicial finding. Luke's emphasis on Pilate's repeated acquittals serves his broader theme of Jesus's innocence."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 5,
+      "text_greek": "οἱ δὲ ἐπίσχυον λέγοντες ὅτι Ἀνασείει τὸν λαόν, διδάσκων καθ' ὅλης τῆς Ἰουδαίας, καὶ ἀρξάμενος ἀπὸ τῆς Γαλιλαίας ἕως ὧδε.",
+      "text_kjv": "And they were the more fierce, saying, He stirreth up the people, teaching throughout all Jewry, beginning from Galilee to this place.",
+      "rendering": "But they pressed their case more urgently, saying, \"He stirs up the people with his teaching throughout all Judea, from Galilee all the way here.\"",
+      "translator_notes": [
+        "The verb epischyon ('they were insistent, they pressed harder') shows escalating pressure. The verb anaseiei ('stirs up, incites, agitates') carries connotations of rebellion. The geographical sweep — 'from Galilee all the way here' — is designed to portray Jesus as a widespread, destabilizing influence. The mention of 'Galilee' (Galilaias) catches Pilate's attention, as the next verse shows."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 6,
+      "text_greek": "Πιλᾶτος δὲ ἀκούσας ἐπηρώτησεν εἰ ὁ ἄνθρωπος Γαλιλαῖός ἐστιν,",
+      "text_kjv": "When Pilate heard of Galilee, he asked whether the man were a Galilaean.",
+      "rendering": "When Pilate heard this, he asked whether the man was a Galilean.",
+      "translator_notes": [
+        "Pilate's question about Galilean origin is not mere curiosity but jurisdictional — if Jesus is from Galilee, he falls under Herod Antipas's authority, and the case can be transferred. This offers Pilate a political exit: he can defer the decision to someone else."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 7,
+      "text_greek": "καὶ ἐπιγνοὺς ὅτι ἐκ τῆς ἐξουσίας Ἡρῴδου ἐστὶν ἀνέπεμψεν αὐτὸν πρὸς Ἡρῴδην, ὄντα καὶ αὐτὸν ἐν Ἱεροσολύμοις ἐν ταύταις ταῖς ἡμέραις.",
+      "text_kjv": "And as soon as he knew that he belonged unto Herod's jurisdiction, he sent him to Herod, who himself also was at Jerusalem at that time.",
+      "rendering": "When he learned that Jesus was under Herod's jurisdiction, he sent him to Herod, who was also in Jerusalem during those days.",
+      "translator_notes": [
+        "Herod Antipas (son of Herod the Great, tetrarch of Galilee and Perea) was in Jerusalem for the Passover festival. The phrase ek tēs exousias Hērōdou ('from Herod's jurisdiction') refers to territorial authority. The Herod episode is unique to Luke and historically plausible — Roman officials sometimes deferred cases to local rulers. Pilate's referral is a political maneuver, not a legal requirement."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 8,
+      "text_greek": "ὁ δὲ Ἡρῴδης ἰδὼν τὸν Ἰησοῦν ἐχάρη λίαν, ἦν γὰρ ἐξ ἱκανῶν χρόνων θέλων ἰδεῖν αὐτὸν διὰ τὸ ἀκούειν περὶ αὐτοῦ, καὶ ἤλπιζέν τι σημεῖον ἰδεῖν ὑπ' αὐτοῦ γινόμενον.",
+      "text_kjv": "And when Herod saw Jesus, he was exceeding glad: for he was desirous to see him of a long season, because he had heard many things of him; and he hoped to have seen some miracle done by him.",
+      "rendering": "When Herod saw Jesus, he was greatly pleased, for he had been wanting to see him for a long time because he had heard about him, and he was hoping to see some sign performed by him.",
+      "translator_notes": [
+        "Herod's reaction echarē lian ('he was very glad') is grotesque in context — he treats Jesus as an entertainer. His desire to see a sēmeion ('sign, miracle') reduces Jesus's ministry to spectacle. This connects to 9:9, where Herod expressed curiosity about Jesus and tried to see him. His 'joy' at meeting Jesus contrasts with Jesus's silence, creating a scene of failed encounter between the fascinated ruler and the silent prisoner."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 9,
+      "text_greek": "ἐπηρώτα δὲ αὐτὸν ἐν λόγοις ἱκανοῖς· αὐτὸς δὲ οὐδὲν ἀπεκρίνατο αὐτῷ.",
+      "text_kjv": "Then he questioned with him in many words; but he answered him nothing.",
+      "rendering": "He questioned him at considerable length, but Jesus gave him no answer.",
+      "translator_notes": [
+        "The phrase en logois hikanois ('with many words, at considerable length') indicates extensive questioning. Jesus's total silence (ouden apekrinat autō, 'he answered him nothing') echoes Isaiah 53:7 ('like a sheep before its shearers is silent, so he did not open his mouth'). Jesus, who answered both the Sanhedrin and Pilate, says nothing to Herod — the man who killed John the Baptist (9:9) receives no word at all.",
+        "[TCR Cross-Reference] Echoes Isaiah 53:7. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 10,
+      "text_greek": "εἱστήκεισαν δὲ οἱ ἀρχιερεῖς καὶ οἱ γραμματεῖς εὐτόνως κατηγοροῦντες αὐτοῦ.",
+      "text_kjv": "And the chief priests and scribes stood and vehemently accused him.",
+      "rendering": "The chief priests and the scribes stood there, accusing him vehemently.",
+      "translator_notes": [
+        "The adverb eutonōs ('vehemently, vigorously, with great intensity') indicates aggressive prosecution. The religious leaders have followed Jesus from Pilate to Herod to maintain the pressure. The verb katēgorountes ('accusing') is a legal term for formal prosecution."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 11,
+      "text_greek": "ἐξουθενήσας δὲ αὐτὸν καὶ ὁ Ἡρῴδης σὺν τοῖς στρατεύμασιν αὐτοῦ καὶ ἐμπαίξας περιβαλὼν ἐσθῆτα λαμπρὰν ἀνέπεμψεν αὐτὸν τῷ Πιλάτῳ.",
+      "text_kjv": "And Herod with his men of war set him at nought, and mocked him, and arrayed him in a gorgeous robe, and sent him again to Pilate.",
+      "rendering": "Herod, along with his soldiers, treated him with contempt and mocked him. Dressing him in an elegant robe, he sent him back to Pilate.",
+      "translator_notes": [
+        "The verb exouthenēsas ('having treated with contempt, having despised') is the same word used in 18:9 for those who 'despised' others. The esthēta lampran ('bright/splendid garment') is a mock-royal robe, a parody of kingly attire. Herod's mockery is political theater: by dressing Jesus as a pretend king, he dismisses the charge as ridiculous. He does not condemn Jesus — his sending him back constitutes an implicit acquittal."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 12,
+      "text_greek": "ἐγένοντο δὲ φίλοι ὅ τε Ἡρῴδης καὶ ὁ Πιλᾶτος ἐν αὐτῇ τῇ ἡμέρᾳ μετ' ἀλλήλων· προϋπῆρχον γὰρ ἐν ἔχθρᾳ ὄντες πρὸς αὐτούς.",
+      "text_kjv": "And the same day Pilate and Herod were made friends together: for before they were at enmity between themselves.",
+      "rendering": "That day Herod and Pilate became friends with each other; before this they had been enemies.",
+      "translator_notes": [
+        "This detail is unique to Luke and deeply ironic: the trial of Jesus, the Prince of Peace, reconciles two political enemies. Their enmity (echthra) may have stemmed from the incident described in 13:1 (Pilate's slaughter of Galileans, which would have offended Herod as ruler of Galilee). The joint handling of the Jesus case creates a political bond: both can share responsibility while neither takes full blame."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 13,
+      "text_greek": "Πιλᾶτος δὲ συγκαλεσάμενος τοὺς ἀρχιερεῖς καὶ τοὺς ἄρχοντας καὶ τὸν λαόν",
+      "text_kjv": "And Pilate, when he had called together the chief priests and the rulers and the people,",
+      "rendering": "Pilate then called together the chief priests, the rulers, and the people",
+      "translator_notes": [
+        "Pilate reassembles all parties — religious leaders, civic leaders, and the general public. The inclusion of ton laon ('the people') is significant: Pilate makes his second acquittal public, presumably hoping popular opinion will support release."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 14,
+      "text_greek": "εἶπεν πρὸς αὐτούς· Προσηνέγκατέ μοι τὸν ἄνθρωπον τοῦτον ὡς ἀποστρέφοντα τὸν λαόν, καὶ ἰδοὺ ἐγὼ ἐνώπιον ὑμῶν ἀνακρίνας οὐθὲν εὗρον ἐν τῷ ἀνθρώπῳ τούτῳ αἴτιον ὧν κατηγορεῖτε κατ' αὐτοῦ.",
+      "text_kjv": "Said unto them, Ye have brought this man unto me, as one that perverteth the people: and, behold, I, having examined him before you, have found no fault in this man touching those things whereof ye accuse him:",
+      "rendering": "Said to them, you have brought this man to me, as one that perverteth the people — and, take notice, I, having examined him before you, have found no fault in this man touching those things whereof you accuse him:.",
+      "translator_notes": [
+        "The verb anakrinas ('having examined, having conducted a judicial investigation') is a legal technical term for a formal hearing. Pilate's second declaration of innocence is more detailed than the first (v. 4) — he specifies that the examination was thorough (enōpion hymōn, 'in your presence') and that none of the specific charges (hōn katēgoreite, 'of which you accuse') has substance."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 15,
+      "text_greek": "ἀλλ' οὐδὲ Ἡρῴδης· ἀνέπεμψεν γὰρ αὐτὸν πρὸς ἡμᾶς· καὶ ἰδοὺ οὐδὲν ἄξιον θανάτου ἐστὶν πεπραγμένον αὐτῷ·",
+      "text_kjv": "No, nor yet Herod: for I sent you to him; and, lo, nothing worthy of death is done unto him.",
+      "rendering": "Neither has Herod, for he sent him back to us. Clearly, he has done nothing deserving death.",
+      "translator_notes": [
+        "Pilate appeals to Herod's verdict as corroboration: two independent authorities have found no capital offense. The phrase ouden axion thanatou ('nothing worthy of death') is a formal legal assessment. The perfect participle pepragmenon ('having been done') indicates a thorough review of Jesus's entire record, not just the current charges. The double acquittal should, in any fair legal system, result in release."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 16,
+      "text_greek": "παιδεύσας οὖν αὐτὸν ἀπολύσω.",
+      "text_kjv": "I will therefore chastise him, and release him.",
+      "rendering": "Therefore, I will have him flogged and then release him.\"",
+      "translator_notes": [
+        "The verb paideusas ('having disciplined, having punished, having flogged') is a euphemism for a severe beating that typically preceded release in Roman provincial justice. Pilate's proposal is a compromise: punish Jesus enough to satisfy the accusers without executing an innocent man. The injustice is already apparent — Pilate proposes to flog someone he has just declared innocent."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 17,
+      "text_greek": "",
+      "text_kjv": "(For of necessity he must release one unto them at the feast.)",
+      "rendering": "",
+      "translator_notes": [
+        "Verse 17 is absent from the SBLGNT and most critical editions. It appears in some later manuscripts as an explanatory gloss about the custom of releasing a prisoner at the festival, drawn from Mark 15:6/Matthew 27:15. We follow the SBLGNT in omitting it from the rendering. The custom is referenced in verse 18 without this explanatory note."
+      ],
+      "reading_level": "N/A"
+    },
+    {
+      "verse": 18,
+      "text_greek": "ἀνέκραγον δὲ παμπληθεὶ λέγοντες· Αἶρε τοῦτον, ἀπόλυσον δὲ ἡμῖν τὸν Βαραββᾶν·",
+      "text_kjv": "And they cried out all at once, saying, Away with this man, and release unto us Barabbas:",
+      "rendering": "But they all cried out together, \"Away with this man! Release Barabbas to us!\"",
+      "translator_notes": [
+        "The adverb pamplēthei ('all together, with the whole multitude') indicates a unified crowd reaction. The verb aire ('take away, remove, destroy') expresses violent rejection. The name Barabbas (Barabbas) means 'son of the father' (bar-abba) in Aramaic — an ironic name, as the crowd demands the release of 'the son of the father' while calling for the death of the Son of the Father. The crowd's demand for Barabbas is not explained in Luke — the reader must accept this sudden reversal from the people who 'hung on his words' (19:48)."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 19,
+      "text_greek": "ὅστις ἦν διὰ στάσιν τινὰ γενομένην ἐν τῇ πόλει καὶ φόνον βληθεὶς ἐν τῇ φυλακῇ.",
+      "text_kjv": "Who for a certain sedition made in the city, and for murder, was cast into prison.",
+      "rendering": "Barabbas had been thrown into prison for an insurrection that had taken place in the city and for murder.",
+      "translator_notes": [
+        "Luke specifies Barabbas's crimes: stasin ('insurrection, revolt, sedition') and phonon ('murder'). The irony is devastating: Jesus, falsely accused of inciting revolt (v. 2), is condemned, while Barabbas, who actually committed insurrection and murder, is released. The charges the authorities fabricated against Jesus accurately describe Barabbas."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 20,
+      "text_greek": "πάλιν δὲ ὁ Πιλᾶτος προσεφώνησεν αὐτοῖς θέλων ἀπολῦσαι τὸν Ἰησοῦν.",
+      "text_kjv": "Pilate therefore, willing to release Jesus, spake again to them.",
+      "rendering": "Pilate, wanting to release Jesus, addressed them again.",
+      "translator_notes": [
+        "Luke emphasizes Pilate's desire (thelōn, 'wanting, wishing') to release Jesus — the Roman governor is portrayed as reluctantly pushed toward crucifixion rather than eagerly pursuing it. The verb prosephōnēsen ('called out to, addressed') suggests Pilate is trying to persuade the crowd."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 21,
+      "text_greek": "οἱ δὲ ἐπεφώνουν λέγοντες· Σταύρου σταύρου αὐτόν.",
+      "text_kjv": "But they cried, saying, Crucify him, crucify him.",
+      "rendering": "But they kept shouting, \"Crucify! Crucify him!\"",
+      "translator_notes": [
+        "The imperfect epephōnoun ('they kept shouting') indicates sustained, repeated demands. The doubled imperative staurou staurou ('crucify, crucify') is a demand for the most degrading Roman punishment — reserved for slaves, pirates, and those convicted of treason. The crowd's chant drowns out Pilate's appeal."
+      ],
+      "reading_level": "5th grade"
+    },
+    {
+      "verse": 22,
+      "text_greek": "ὁ δὲ τρίτον εἶπεν πρὸς αὐτούς· Τί γὰρ κακὸν ἐποίησεν οὗτος; οὐδὲν αἴτιον θανάτου εὗρον ἐν αὐτῷ· παιδεύσας οὖν αὐτὸν ἀπολύσω.",
+      "text_kjv": "And he said unto them the third time, Why, what evil hath he done? I have found no cause of death in him: I will therefore chastise him, and let him go.",
+      "rendering": "For the third time he said to them, \"Why? What crime has this man committed? I have found no grounds for the death penalty in his case. Therefore I will have him flogged and release him.\"",
+      "translator_notes": [
+        "Luke explicitly notes this is the third time (triton) Pilate declares Jesus's innocence, creating a structural parallel with Peter's three denials. The question ti gar kakon epoiēsen houtos ('what evil has this man done?') demands a specific crime, which is never provided. Pilate repeats his compromise offer (flogging and release) word for word from verse 16, but the crowd's response will be different this time."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 23,
+      "text_greek": "οἱ δὲ ἐπέκειντο φωναῖς μεγάλαις αἰτούμενοι αὐτὸν σταυρωθῆναι, καὶ κατίσχυον αἱ φωναὶ αὐτῶν.",
+      "text_kjv": "And they were instant with loud voices, requiring that he might be crucified. And the voices of them and of the chief priests prevailed.",
+      "rendering": "But they were insistent, demanding with loud cries that he be crucified, and their voices prevailed.",
+      "translator_notes": [
+        "The verb epekeinto ('they pressed upon, they were insistent, they bore down') describes overwhelming pressure. The verb katischyon ('prevailed, won out, gained strength') is a legal term indicating that the crowd's demand overcame Pilate's resistance. Luke's account makes clear that Pilate capitulated to pressure rather than reaching a judicial decision — the voices (phōnai), not evidence, determined the outcome."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 24,
+      "text_greek": "καὶ Πιλᾶτος ἐπέκρινεν γενέσθαι τὸ αἴτημα αὐτῶν·",
+      "text_kjv": "And Pilate gave sentence that it should be as they required.",
+      "rendering": "So Pilate decided to grant their demand.",
+      "translator_notes": [
+        "The verb epekrinen ('he pronounced judgment, he decided, he decreed') is a judicial term — Pilate formally grants the crowd's aitēma ('demand, request'). The sentence is technically illegal by Roman standards: the governor condemns a man he has three times declared innocent. Luke does not soften this injustice."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 25,
+      "text_greek": "ἀπέλυσεν δὲ τὸν διὰ στάσιν καὶ φόνον βεβλημένον εἰς φυλακὴν ὃν ᾐτοῦντο, τὸν δὲ Ἰησοῦν παρέδωκεν τῷ θελήματι αὐτῶν.",
+      "text_kjv": "And he released unto them him that for sedition and murder was cast into prison, whom they had desired; but he delivered Jesus to their will.",
+      "rendering": "He released the man who had been thrown into prison for insurrection and murder — the one they asked for — but he handed Jesus over to their will.",
+      "translator_notes": [
+        "Luke restates Barabbas's crimes (stasis and phonos) to maximize the irony of the exchange. The phrase paredōken tō thelēmati autōn ('he handed over to their will') uses paradidōmi, the same verb used for Judas's betrayal and for God's sovereign handing-over. Pilate surrenders Jesus not to justice but to 'their will' — mob desire replaces legal verdict."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 26,
+      "text_greek": "Καὶ ὡς ἀπήγαγον αὐτόν, ἐπιλαβόμενοι Σίμωνά τινα Κυρηναῖον ἐρχόμενον ἀπ' ἀγροῦ ἐπέθηκαν αὐτῷ τὸν σταυρὸν φέρειν ὄπισθεν τοῦ Ἰησοῦ.",
+      "text_kjv": "And as they led him away, they laid hold upon one Simon, a Cyrenian, coming out of the country, and on him they laid the cross, that he might bear it after Jesus.",
+      "rendering": "As they led him away, they seized a man named Simon from Cyrene, who was coming in from the countryside, and placed the cross on him to carry behind Jesus.",
+      "translator_notes": [
+        "Roman practice required the condemned to carry the horizontal crossbeam (patibulum) to the execution site. Jesus's inability to carry it suggests extreme physical weakness from the flogging. Simon of Cyrene (a city in modern Libya) was likely a Jewish pilgrim in Jerusalem for Passover. The phrase pherein opisthen tou Iēsou ('to carry behind Jesus') takes on symbolic meaning in light of Jesus's teaching: 'Whoever does not carry his own cross and come after me cannot be my disciple' (14:27). Simon literally fulfills the discipleship metaphor."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 27,
+      "text_greek": "Ἠκολούθει δὲ αὐτῷ πολὺ πλῆθος τοῦ λαοῦ καὶ γυναικῶν αἳ ἐκόπτοντο καὶ ἐθρήνουν αὐτόν.",
+      "text_kjv": "And there followed him a great company of people, and of women, which also bewailed and lamented him.",
+      "rendering": "A large crowd of the people followed him, including women who were mourning and wailing for him.",
+      "translator_notes": [
+        "This scene is unique to Luke. The women who mourn (ekoptonto, 'were beating their breasts') and wail (ethrēnoun, 'were lamenting with funeral dirges') perform the traditional Jewish mourning rites while Jesus is still alive. The distinction between 'the people' (tou laou) and 'women' (gynaikōn) may indicate that Luke sees the women as a distinct group within the larger crowd. Their grief is genuine, unlike the crowd's demand for crucifixion."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 28,
+      "text_greek": "στραφεὶς δὲ πρὸς αὐτὰς ὁ Ἰησοῦς εἶπεν· Θυγατέρες Ἰερουσαλήμ, μὴ κλαίετε ἐπ' ἐμέ· πλὴν ἐφ' ἑαυτὰς κλαίετε καὶ ἐπὶ τὰ τέκνα ὑμῶν,",
+      "text_kjv": "But Jesus turning unto them said, Daughters of Jerusalem, weep not for me, but weep for yourselves, and for your children.",
+      "rendering": "Jesus turned to them and said, \"Daughters of Jerusalem, do not weep for me. Weep for yourselves and for your children,",
+      "translator_notes": [
+        "The address thygateres Ierousalēm ('daughters of Jerusalem') echoes the Song of Solomon (1:5, 2:7, 3:5, 5:8, 8:4) and the prophets. Jesus redirects their grief from himself to what awaits Jerusalem — the coming destruction he prophesied in 19:41-44 and 21:20-24. Even on the way to his own execution, Jesus is concerned for others. The phrase 'your children' (ta tekna hymōn) connects to 19:44 ('they will dash you to the ground — you and your children within you')."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 29,
+      "text_greek": "ὅτι ἰδοὺ ἔρχονται ἡμέραι ἐν αἷς ἐροῦσιν· Μακάριαι αἱ στεῖραι καὶ αἱ κοιλίαι αἳ οὐκ ἐγέννησαν καὶ μαστοὶ οἳ οὐκ ἔθρεψαν.",
+      "text_kjv": "For, behold, the days are coming, in the which they shall say, Blessed are the barren, and the wombs that never bare, and the paps which never gave suck.",
+      "rendering": "For, take notice, the days are coming, in the which they will say, Blessed are the barren, and the wombs that never bare, and the paps which never offered suck.",
+      "translator_notes": [
+        "This is a devastating inversion of the normal beatitude: in Jewish culture, barrenness was considered a curse (cf. Elizabeth's 'disgrace' in 1:25), but Jesus declares that the coming siege will be so horrific that childless women will be the fortunate ones — they will have no children to watch suffer. Josephus records instances of cannibalism during the siege of Jerusalem (War 6.3.4), making this prophecy terrifyingly specific."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 30,
+      "text_greek": "τότε ἄρξονται λέγειν τοῖς ὄρεσιν· Πέσετε ἐφ' ἡμᾶς, καὶ τοῖς βουνοῖς· Καλύψατε ἡμᾶς·",
+      "text_kjv": "Then shall they begin to say to the mountains, Fall on us; and to the hills, Cover us.",
+      "rendering": "Then they will begin to say to the mountains, 'Fall on us!' and to the hills, 'Cover us!'",
+      "translator_notes": [
+        "Jesus quotes Hosea 10:8, the prophet's description of Israel's desperate flight from divine judgment. The plea for mountains to crush them and hills to cover them expresses a preference for death over the horrors that are coming. This passage is later echoed in Revelation 6:16, where the kings of the earth cry the same words at the cosmic judgment.",
+        "[TCR Cross-Reference] This verse quotes Hosea 10:8 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 31,
+      "text_greek": "ὅτι εἰ ἐν τῷ ὑγρῷ ξύλῳ ταῦτα ποιοῦσιν, ἐν τῷ ξηρῷ τί γένηται;",
+      "text_kjv": "For if they do these things in a green tree, what shall be done in the dry?",
+      "rendering": "For if they do these things when the wood is green, what will happen when it is dry?\"",
+      "translator_notes": [
+        "This proverb is unique to Luke and enigmatic. The 'green wood' (hygō xylō) is fresh and difficult to burn; the 'dry wood' (xērō) catches fire easily. If Rome does this to an innocent man (the green wood, full of life), what will Rome do to a guilty, rebellious nation (the dry wood, ready to burn)? The proverb warns that the suffering Jesus endures is mild compared to what Jerusalem will face."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 32,
+      "text_greek": "Ἤγοντο δὲ καὶ ἕτεροι κακοῦργοι δύο σὺν αὐτῷ ἀναιρεθῆναι.",
+      "text_kjv": "And there were also two other malefactors, led with him to be put to death.",
+      "rendering": "Two other criminals were also led away with him to be executed.",
+      "translator_notes": [
+        "The word kakourgoi ('criminals, evildoers') is more general than Mark's lēstai ('revolutionaries, bandits'). The phrase syn autō ('with him') fulfills the Isaiah 53:12 quotation from 22:37: 'he was counted among the lawless.' The grammatical structure heteroi kakourgoi duo ('two other criminals') could be read as classifying Jesus as a criminal too — some manuscripts adjust the word order to avoid this implication.",
+        "[TCR Cross-Reference] Draws on Isaiah 53:12. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 33,
+      "text_greek": "Καὶ ὅτε ἦλθον ἐπὶ τὸν τόπον τὸν καλούμενον Κρανίον, ἐκεῖ ἐσταύρωσαν αὐτὸν καὶ τοὺς κακούργους, ὃν μὲν ἐκ δεξιῶν ὃν δὲ ἐξ ἀριστερῶν.",
+      "text_kjv": "And when they were come to the place, which is called Calvary, there they crucified him, and the malefactors, one on the right hand, and the other on the left.",
+      "rendering": "When they came to the place called The Skull, they crucified him there, along with the criminals — one on his right, the other on his left.",
+      "translator_notes": [
+        "The Greek Kranion ('Skull') translates the Aramaic Golgotha (which only Mark and Matthew transliterate; Luke gives only the Greek). The traditional site was a rocky outcrop outside the city walls. Luke's account of the crucifixion itself is understated: estayrōsan auton ('they crucified him') — four words in Greek for the most agonizing form of execution the Roman world knew. The positioning of the two criminals on either side physically enacts Isaiah 53:12.",
+        "[TCR Cross-Reference] References Isaiah 53:12 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 34,
+      "text_greek": "ὁ δὲ Ἰησοῦς ἔλεγεν· Πάτερ, ἄφες αὐτοῖς, οὐ γὰρ οἴδασιν τί ποιοῦσιν. διαμεριζόμενοι δὲ τὰ ἱμάτια αὐτοῦ ἔβαλον κλήρους.",
+      "text_kjv": "Then said Jesus, Father, forgive them; for they know not what they do. And they parted his raiment, and cast lots.",
+      "rendering": "Jesus said, \"Father, forgive them, for they do not know what they are doing.\" And they divided his garments among themselves by casting lots.",
+      "translator_notes": [
+        "TEXTUAL NOTE: The first sentence ('Father, forgive them, for they do not know what they are doing') is absent from P75, the original hand of Codex Sinaiticus, Codex Vaticanus, and other early witnesses. It is present in the corrected Sinaiticus, Codex Bezae, and most later manuscripts. The SBLGNT includes it in double brackets. The saying is consistent with Luke's portrait of Jesus (cf. the prayer for persecutors and Stephen's echo in Acts 7:60) and may have been removed by scribes who thought it inappropriate after the destruction of Jerusalem. We include it but note the disputed evidence. The imperfect elegen ('he was saying, he kept saying') may indicate repeated prayer. The casting of lots for garments echoes Psalm 22:18.",
+        "[TCR Cross-Reference] Echoes Psalm 22:18. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 35,
+      "text_greek": "καὶ εἱστήκει ὁ λαὸς θεωρῶν. ἐξεμυκτήριζον δὲ καὶ οἱ ἄρχοντες λέγοντες· Ἄλλους ἔσωσεν, σωσάτω ἑαυτόν, εἰ οὗτός ἐστιν ὁ χριστὸς τοῦ θεοῦ, ὁ ἐκλεκτός.",
+      "text_kjv": "And the people stood beholding. And the rulers also with them derided him, saying, He saved others; let him save himself, if he be Christ, the chosen of God.",
+      "rendering": "The people stood watching, and the rulers sneered at him, saying, \"He saved others; let him save himself, if he is the Christ of God, the Chosen One.\"",
+      "translator_notes": [
+        "Luke distinguishes between the people (ho laos) who simply watch (theōrōn, 'observing') and the rulers (hoi archontes) who actively mock (exemyktērizon, 'were sneering, were turning up their noses'). The taunt 'he saved others' (allous esōsen) is unwittingly true — Jesus did save others, and the irony is that saving himself would make saving others impossible. The title ho eklektos ('the Chosen One') echoes the divine voice at the transfiguration (9:35), spoken by God in affirmation and now by the rulers in mockery."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 36,
+      "text_greek": "ἐνέπαιξαν δὲ αὐτῷ καὶ οἱ στρατιῶται προσερχόμενοι, ὄξος προσφέροντες αὐτῷ",
+      "text_kjv": "And the soldiers also mocked him, coming to him, and offering him vinegar,",
+      "rendering": "The soldiers also mocked him, coming up and offering him sour wine,",
+      "translator_notes": [
+        "The soldiers' mockery adds a military dimension to the religious rulers' scorn. The oxos ('vinegar, sour wine') was posca, the cheap wine-vinegar mixture that Roman soldiers drank. Offering it to a crucified man was a form of taunting — the soldiers' drink, not a prisoner's comfort. The scene echoes Psalm 69:21 ('they gave me vinegar for my thirst').",
+        "[TCR Cross-Reference] Quotes Psalm 69:21. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 37,
+      "text_greek": "καὶ λέγοντες· Εἰ σὺ εἶ ὁ βασιλεὺς τῶν Ἰουδαίων, σῶσον σεαυτόν.",
+      "text_kjv": "And saying, If thou be the king of the Jews, save thyself.",
+      "rendering": "Declaring, If you be the king of the Jews, save thyself.",
+      "translator_notes": [
+        "The soldiers' mockery parallels the rulers' (v. 35) but uses the political title 'King of the Jews' (ho basileus tōn Ioudaiōn) rather than the religious title 'Christ.' Three groups now mock: rulers (v. 35), soldiers (vv. 36-37), and one of the criminals (v. 39). The conditional ei ('if') challenges Jesus to prove his claim through self-rescue — the fundamental misunderstanding of his mission."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 38,
+      "text_greek": "ἦν δὲ καὶ ἐπιγραφὴ ἐπ' αὐτῷ· Ὁ βασιλεὺς τῶν Ἰουδαίων οὗτος.",
+      "text_kjv": "And a superscription also was written over him in letters of Greek, and Latin, and Hebrew, THIS IS THE KING OF THE JEWS.",
+      "rendering": "There was also an inscription above him: \"This is the King of the Jews.\"",
+      "translator_notes": [
+        "The epigraphē ('inscription, titulus') was the charge plaque (titulus crucis) that Roman practice required to be displayed above the condemned, stating the crime. Luke's version is the shortest of the four Gospels. The charge — basileus tōn Ioudaiōn ('King of the Jews') — was political treason against Rome. Ironically, the inscription is theologically true: the crucified man is indeed the King of the Jews, enthroned on a cross."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 39,
+      "text_greek": "Εἷς δὲ τῶν κρεμασθέντων κακούργων ἐβλασφήμει αὐτὸν λέγων· Οὐχὶ σὺ εἶ ὁ χριστός; σῶσον σεαυτὸν καὶ ἡμᾶς.",
+      "text_kjv": "And one of the malefactors which were hanged railed on him, saying, If thou be Christ, save thyself and us.",
+      "rendering": "One of the criminals hanging there hurled insults at him, saying, \"Aren't you the Christ? Save yourself and us!\"",
+      "translator_notes": [
+        "The verb eblasphēmei ('was blaspheming, was reviling') is strong — the criminal does not merely ask for help but insults Jesus. The participle kremasthentōn ('hanging') uses a verb associated with the curse of Deuteronomy 21:23 ('cursed is anyone who hangs on a tree'). His demand echoes the rulers' and soldiers' mockery, adding 'and us' — he wants rescue without repentance.",
+        "[TCR Cross-Reference] Echoes Deuteronomy 21:23. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 40,
+      "text_greek": "ἀποκριθεὶς δὲ ὁ ἕτερος ἐπιτιμῶν αὐτῷ ἔφη· Οὐδὲ φοβῇ σὺ τὸν θεόν, ὅτι ἐν τῷ αὐτῷ κρίματι εἶ;",
+      "text_kjv": "But the other answering rebuked him, saying, Dost not thou fear God, seeing thou art in the same condemnation?",
+      "rendering": "But the other rebuked him, saying, \"Do you not even fear God, since you are under the same sentence?",
+      "translator_notes": [
+        "The second criminal's response is unique to Luke and theologically remarkable. He rebukes (epitimōn) the first criminal — the same verb used for rebuking demons and storms. His question 'Do you not fear God?' (oude phobē sy ton theon) identifies the fundamental problem: even facing death, the first criminal lacks reverence for God. The phrase en tō autō krimati ('under the same judgment/condemnation') acknowledges that they share Jesus's fate."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 41,
+      "text_greek": "καὶ ἡμεῖς μὲν δικαίως, ἄξια γὰρ ὧν ἐπράξαμεν ἀπολαμβάνομεν· οὗτος δὲ οὐδὲν ἄτοπον ἔπραξεν.",
+      "text_kjv": "And we indeed justly; for we receive the due reward of our deeds: but this man hath done nothing amiss.",
+      "rendering": "We are getting what we deserve for what we have done, but this man has done nothing wrong.\"",
+      "translator_notes": [
+        "The criminal confesses his own guilt (dikaiōs, 'justly, rightly') and declares Jesus's innocence (ouden atopon epraxen, 'he has done nothing out of place, nothing wrong'). The word atopon ('out of place, wrong, improper, evil') is a litotes — a profound understatement. This criminal becomes the fifth witness to Jesus's innocence in Luke's passion narrative (after Pilate three times and Herod). A condemned criminal sees what the religious and political authorities refuse to acknowledge."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 42,
+      "text_greek": "καὶ ἔλεγεν· Ἰησοῦ, μνήσθητί μου ὅταν ἔλθῃς εἰς τὴν βασιλείαν σου.",
+      "text_kjv": "And he said unto Jesus, Lord, remember me when thou comest into thy kingdom.",
+      "rendering": "Then he said, \"Jesus, remember me when you come into your kingdom.\"",
+      "translator_notes": [
+        "The criminal addresses Jesus by name (Iēsou) without a title — an intimacy that goes beyond formality. The plea mnēsthēti mou ('remember me') echoes the language of the Psalms (Psalm 25:7, 106:4), where 'remember' means to act in someone's favor. The phrase hotan elthēs eis tēn basileian sou ('when you come into your kingdom') is astonishing: hanging beside a dying man, the criminal confesses faith in Jesus's kingship and future reign. This is perhaps the most radical act of faith in the Gospels.",
+        "[TCR Cross-Reference] Draws on Psalm 25:7. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 43,
+      "text_greek": "καὶ εἶπεν αὐτῷ· Ἀμήν σοι λέγω, σήμερον μετ' ἐμοῦ ἔσῃ ἐν τῷ παραδείσῳ.",
+      "text_kjv": "And Jesus said unto him, Verily I say unto thee, To day shalt thou be with me in paradise.",
+      "rendering": "Jesus said to him, \"Truly I tell you, today you will be with me in paradise.\"",
+      "translator_notes": [
+        "The response exceeds the request: the criminal asked to be remembered in a future kingdom; Jesus promises presence with him today (sēmeron) in paradise (paradeisō). The word paradeisos (borrowed from Persian, meaning 'enclosed garden, park') is used in the Septuagint for the Garden of Eden (Genesis 2:8) and in Jewish apocalyptic literature for the dwelling of the righteous dead. Luke's characteristic sēmeron ('today') — the same word used at Jesus's birth (2:11), in the Nazareth sermon (4:21), and at Zacchaeus's house (19:9) — marks the present moment as the time of salvation. The promise met' emou esē ('you will be with me') defines paradise not as a place but as communion with Jesus.",
+        "[TCR Cross-Reference] References Genesis 2:8 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "key_terms": [
+        {
+          "greek": "παράδεισος",
+          "transliteration": "paradeisos",
+          "rendered_as": "paradise",
+          "semantic_range": "paradise, garden, park, enclosed estate, the abode of the blessed dead",
+          "note": "From Old Persian pairidaeza ('walled enclosure'). In Jewish eschatology, it came to denote the intermediate state of the righteous after death or the restored Eden of the age to come. Jesus uses it here to promise immediate post-death fellowship."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 44,
+      "text_greek": "Καὶ ἦν ἤδη ὡσεὶ ὥρα ἕκτη καὶ σκότος ἐγένετο ἐφ' ὅλην τὴν γῆν ἕως ὥρας ἐνάτης",
+      "text_kjv": "And it was about the sixth hour, and there was a darkness over all the earth until the ninth hour.",
+      "rendering": "It was now about the sixth hour, and darkness came over the whole land until the ninth hour,",
+      "translator_notes": [
+        "The 'sixth hour' (hōra hektē) is noon; the 'ninth hour' (hōras enatēs) is 3 PM — three hours of midday darkness. The darkness (skotos) echoes the plague of darkness over Egypt (Exodus 10:21-23) and the prophetic warnings of Amos 8:9 ('I will make the sun go down at noon and darken the earth in broad daylight'). The phrase eph' holēn tēn gēn ('over the whole land/earth') is ambiguous — it could mean the land of Israel or the entire earth. The phenomenon was not a normal solar eclipse (impossible during Passover's full moon).",
+        "[TCR Cross-Reference] Echoes Exodus 10:21-23. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale.",
+        "[TCR Cross-Reference] Echoes Amos 8:9. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 45,
+      "text_greek": "τοῦ ἡλίου ἐκλιπόντος, ἐσχίσθη δὲ τὸ καταπέτασμα τοῦ ναοῦ μέσον.",
+      "text_kjv": "And the sun was darkened, and the veil of the temple was rent in the midst.",
+      "rendering": "The sun stopped shining, and the curtain of the temple was torn down the middle.",
+      "translator_notes": [
+        "The verb eklipontos ('failing, being eclipsed') is the same root used in 22:32 for faith 'failing.' Luke places the tearing of the temple curtain before Jesus's death (unlike Mark, who places it after), making it a sign that accompanies the dying rather than follows it. The katapetasma tou naou ('curtain of the sanctuary') most likely refers to the inner curtain separating the Holy Place from the Most Holy Place (Exodus 26:33). Its tearing meson ('in the middle, in two') symbolizes the removal of the barrier between God and humanity — access to God's presence is opened through Jesus's death.",
+        "[TCR Cross-Reference] This verse quotes Exodus 26:33 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 46,
+      "text_greek": "καὶ φωνήσας φωνῇ μεγάλῃ ὁ Ἰησοῦς εἶπεν· Πάτερ, εἰς χεῖράς σου παρατίθεμαι τὸ πνεῦμά μου. τοῦτο δὲ εἰπὼν ἐξέπνευσεν.",
+      "text_kjv": "And when Jesus had cried with a loud voice, he said, Father, into thy hands I commend my spirit: and having said thus, he gave up the ghost.",
+      "rendering": "Then Jesus called out with a loud voice, \"Father, into your hands I commit my spirit.\" Having said this, he breathed his last.",
+      "translator_notes": [
+        "Luke's Jesus dies with the words of Psalm 31:5 on his lips — a psalm of trust in God's protection. This replaces Mark's cry of dereliction ('My God, my God, why have you forsaken me?' from Psalm 22:1). Luke's last word is 'Father' (Pater), maintaining the intimate filial relationship that characterized Jesus's prayer life throughout the Gospel (10:21, 11:2, 22:42, 23:34). The verb paratithēmai ('I entrust, I commit, I deposit for safekeeping') is a banking term for depositing something valuable with a trusted guardian. The verb exepneusen ('he breathed out, he expired') is a dignified description of death — Jesus releases his spirit actively rather than having it taken from him.",
+        "[TCR Cross-Reference] Quotes Psalms 31:5. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it.",
+        "[TCR Cross-Reference] Quotes Psalm 22:1. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 47,
+      "text_greek": "Ἰδὼν δὲ ὁ ἑκατοντάρχης τὸ γενόμενον ἐδόξαζεν τὸν θεὸν λέγων· Ὄντως ὁ ἄνθρωπος οὗτος δίκαιος ἦν.",
+      "text_kjv": "Now when the centurion saw what was done, he glorified God, saying, Certainly this was a righteous man.",
+      "rendering": "When the centurion saw what had happened, he praised God, saying, \"Surely this man was righteous.\"",
+      "translator_notes": [
+        "Luke's centurion declares Jesus dikaios ('righteous, innocent') rather than Mark's 'Son of God' (huios theou). This serves Luke's apologetic purpose: even the Roman executioner acknowledges Jesus's innocence. The verb edoxazen ('he was glorifying, praising') is a Lukan term — the centurion does not merely express an opinion but praises God. This is the sixth witness to Jesus's innocence in the passion narrative. The word ontōs ('truly, certainly, in reality') expresses firm conviction."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 48,
+      "text_greek": "καὶ πάντες οἱ συμπαραγενόμενοι ὄχλοι ἐπὶ τὴν θεωρίαν ταύτην, θεωρήσαντες τὰ γενόμενα, τύπτοντες τὰ στήθη ὑπέστρεφον.",
+      "text_kjv": "And all the people that came together to that sight, beholding the things which were done, smote their breasts, and returned.",
+      "rendering": "And all the crowds that had gathered for this spectacle, when they saw what had taken place, went home beating their chests.",
+      "translator_notes": [
+        "The crowds who had demanded crucifixion now return home typtones ta stēthē ('beating their chests') — a gesture of grief, mourning, and possibly repentance. Luke's portrait of the crowd is more nuanced than often recognized: they are not uniformly hostile but move from demand (v. 21) to grief (v. 48). The word theōrian ('spectacle, sight') reduces the crucifixion to public entertainment, which makes the crowd's emotional reversal all the more striking."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 49,
+      "text_greek": "εἱστήκεισαν δὲ πάντες οἱ γνωστοὶ αὐτῷ ἀπὸ μακρόθεν, καὶ γυναῖκες αἱ συνακολουθοῦσαι αὐτῷ ἀπὸ τῆς Γαλιλαίας, ὁρῶσαι ταῦτα.",
+      "text_kjv": "And all his acquaintance, and the women that followed him from Galilee, stood afar off, beholding these things.",
+      "rendering": "All those who knew him stood at a distance, including the women who had followed him from Galilee, watching these things.",
+      "translator_notes": [
+        "The 'acquaintances' (gnōstoi) and the Galilean women remain — they are witnesses who will bridge the gap between crucifixion and resurrection. Their position apo makrothen ('from a distance') echoes the ten lepers' position (17:12) and Peter's following (22:54). The women are named in 24:10 (Mary Magdalene, Joanna, Mary the mother of James). Their faithful watching (horōsai, 'seeing, observing') contrasts with the disciples' absence — Luke does not record any male disciple at the cross."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 50,
+      "text_greek": "Καὶ ἰδοὺ ἀνὴρ ὀνόματι Ἰωσὴφ βουλευτὴς ὑπάρχων, ἀνὴρ ἀγαθὸς καὶ δίκαιος —",
+      "text_kjv": "And, behold, there was a man named Joseph, a counsellor; and he was a good man, and a just:",
+      "rendering": "Now there was a man named Joseph, a member of the council, a good and righteous man,",
+      "translator_notes": [
+        "Joseph of Arimathea is described as a bouleutēs ('councilor'), meaning he was a member of the Sanhedrin — the very body that condemned Jesus. Luke's description of him as agathos kai dikaios ('good and righteous') uses the same language applied to Simeon (2:25) and to Barnabas (Acts 11:24). The dash at the end indicates the description continues."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 51,
+      "text_greek": "οὗτος οὐκ ἦν συγκατατεθειμένος τῇ βουλῇ καὶ τῇ πράξει αὐτῶν — ἀπὸ Ἁριμαθαίας πόλεως τῶν Ἰουδαίων, ὃς προσεδέχετο τὴν βασιλείαν τοῦ θεοῦ,",
+      "text_kjv": "(The same had not consented to the counsel and deed of them;) he was of Arimathaea, a city of the Jews: who also himself waited for the kingdom of God.",
+      "rendering": "Indeed, (The same had not consented to the counsel and deed of them;) he was of Arimathaea, a city of the Jews — who also himself waited for God's reign.",
+      "translator_notes": [
+        "The phrase ouk ēn synkatatetheimenos ('had not agreed, had not voted with') is a legal term indicating dissent from the Sanhedrin's verdict. This detail is unique to Luke and establishes Joseph's moral integrity — he opposed the plot. Arimathea (probably Ramathaim, Samuel's hometown in 1 Samuel 1:1) was a town in the Judean hills. The phrase prosedecheto tēn basileian tou theou ('was waiting expectantly for the kingdom of God') links Joseph to Simeon (2:25, 'waiting for the consolation of Israel') and Anna (2:38, 'looking forward to the redemption of Jerusalem').",
+        "[TCR Cross-Reference] Quotes 1 Samuel 1:1. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 52,
+      "text_greek": "οὗτος προσελθὼν τῷ Πιλάτῳ ᾐτήσατο τὸ σῶμα τοῦ Ἰησοῦ,",
+      "text_kjv": "This man went unto Pilate, and begged the body of Jesus.",
+      "rendering": "This man went to Pilate and asked for the body of Jesus.",
+      "translator_notes": [
+        "Requesting the body of a crucified criminal required courage — it identified Joseph publicly as an associate of a condemned man. Under Roman law, the bodies of the executed usually belonged to the state; release to family or friends required special permission. Joseph's willingness to approach Pilate marks him as willing to bear the social cost of association with Jesus."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 53,
+      "text_greek": "καὶ καθελὼν ἐνετύλιξεν αὐτὸ σινδόνι, καὶ ἔθηκεν αὐτὸν ἐν μνήματι λαξευτῷ οὗ οὐκ ἦν οὐδεὶς οὔπω κείμενος.",
+      "text_kjv": "And he took it down, and wrapped it in linen, and laid it in a sepulchre that was hewn in stone, wherein never man before was laid.",
+      "rendering": "He took it down, wrapped it in a linen cloth, and placed him in a rock-cut tomb where no one had yet been laid.",
+      "translator_notes": [
+        "The verb kathelōn ('having taken down') implies Joseph personally removed the body from the cross — an act of extraordinary devotion. The sindoni ('linen cloth, linen shroud') was used for burial wrapping. The mnēmati laxeutō ('tomb hewn/cut from rock') was an expensive, newly excavated burial cave. The detail 'where no one had yet been laid' (hou ouk ēn oudeis oupō keimenos) ensures that the subsequent resurrection cannot be confused with another body's presence."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 54,
+      "text_greek": "καὶ ἡμέρα ἦν παρασκευῆς, καὶ σάββατον ἐπέφωσκεν.",
+      "text_kjv": "And that day was the preparation, and the sabbath drew on.",
+      "rendering": "It was the day of Preparation, and the Sabbath was about to begin.",
+      "translator_notes": [
+        "The paraskeuē ('Preparation') was Friday, the day before the Sabbath, when all work for the Sabbath had to be completed before sunset. The verb epephōsken ('was dawning, was beginning') refers to the Jewish reckoning where a new day began at sunset, not sunrise — the Sabbath was 'dawning' as the sun set on Friday evening. The urgency of the burial is explained: once the Sabbath began, no burial work could be performed."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 55,
+      "text_greek": "Κατακολουθήσασαι δὲ αἱ γυναῖκες, αἵτινες ἦσαν συνεληλυθυῖαι ἐκ τῆς Γαλιλαίας αὐτῷ, ἐθεάσαντο τὸ μνημεῖον καὶ ὡς ἐτέθη τὸ σῶμα αὐτοῦ,",
+      "text_kjv": "And the women also, which came with him from Galilee, followed after, and beheld the sepulchre, and how his body was laid.",
+      "rendering": "The women who had come with him from Galilee followed and saw the tomb and how his body was placed in it.",
+      "translator_notes": [
+        "The women serve as witnesses to both the death (v. 49) and the burial — they know exactly where the tomb is and how the body was positioned. The verb etheasanto ('they observed carefully, they saw with attention') indicates deliberate observation, not a passing glance. This eyewitness knowledge will be critical when they return after the Sabbath (24:1) and find the tomb empty. Their role as witnesses is legally significant in Luke's narrative, even though women's testimony was not accepted in Jewish courts."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 56,
+      "text_greek": "ὑποστρέψασαι δὲ ἡτοίμασαν ἀρώματα καὶ μύρα. Καὶ τὸ μὲν σάββατον ἡσύχασαν κατὰ τὴν ἐντολήν.",
+      "text_kjv": "And they returned, and prepared spices and ointments; and rested the sabbath day according to the commandment.",
+      "rendering": "Then they returned and prepared spices and ointments. And on the Sabbath they rested according to the commandment.",
+      "translator_notes": [
+        "The women's preparation of arōmata kai myra ('spices and ointments') for proper burial anointing demonstrates both their devotion and their expectation that Jesus is permanently dead — they are preparing for a body, not awaiting a resurrection. The final clause kata tēn entolēn ('according to the commandment') refers to the Sabbath law of Exodus 20:8-11. Even in grief, they observe Torah. The chapter ends on the Sabbath rest — silence, stillness, waiting. Luke places the reader in the suspended moment between death and resurrection.",
+        "[TCR Cross-Reference] Quotes Exodus 20:8-11. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it."
+      ],
+      "reading_level": "7th grade"
+    }
+  ]
+}

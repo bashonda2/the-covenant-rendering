@@ -1,0 +1,492 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Deuteronomy",
+    "tradition": "samaritan-pentateuch",
+    "tradition_label": "Samaritan Pentateuch",
+    "source_text": "Samaritan Pentateuch (critical editions)",
+    "base_text": "Westminster Leningrad Codex (WLC)",
+    "date": "4th c. BCE divergence",
+    "generated_at": "2026-04-05T00:00:00Z",
+    "prompt_version": "1.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Deuteronomy is THE critical book for Samaritan Pentateuch studies. It contains the highest density of theologically significant variants, including the central Gerizim commandment in the Decalogue (Deut 5), the 'has chosen' vs. 'will choose' sanctuary formula that appears over twenty times, and the single most famous SP variant — Deuteronomy 27:4 where MT reads 'Ebal' but SP reads 'Gerizim.' Deuteronomy is where the Samaritan-Jewish textual divergence carries the greatest theological weight, because Deuteronomy's centralization theology directly determines where legitimate worship may occur.",
+    "notable_variants": "Deut 5:21 (SP 10th commandment — Gerizim altar), Deut 12:5 and ~20 other passages ('has chosen' vs. 'will choose'), Deut 27:4 (Gerizim vs. Ebal), Deut 27:12-13 (blessing/cursing mountains), the sanctuary formula throughout chapters 12-26, and Moses' farewell speech modifications. Also notable: SP Deuteronomy frequently harmonizes with Exodus parallels.",
+    "theological_significance": "SP Deuteronomy encapsulates the entire Samaritan theological claim: (1) God already chose Gerizim at Sinai — it is not a future, open-ended choice; (2) the altar commandment is part of the Decalogue itself; (3) Deuteronomy 27:4 originally read 'Gerizim' and was changed to 'Ebal' by Jewish scribes to delegitimize Samaritan worship. Recent scholarship (esp. the Qumran evidence for 'Gerizim' at 27:4) has partially vindicated the SP reading, making this one of the most important text-critical debates in biblical studies."
+  },
+  "variants": [
+    {
+      "reference": "Deuteronomy 1:6",
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "רַב־לָכֶם שֶׁבֶת בָּהָר הַזֶּה",
+      "sp_reading": "רב לכם שבת בהר הזה",
+      "mt_rendering": "You have stayed long enough at this mountain",
+      "sp_rendering": "You have stayed long enough at this mountain",
+      "notes": ["Moses' opening speech agrees between MT and SP. The Horeb departure command is identical."]
+    },
+    {
+      "reference": "Deuteronomy 1:22",
+      "has_variant": true,
+      "significance": "moderate",
+      "mt_reading": "Standard spy narrative",
+      "sp_reading": "Harmonized with Numbers 13 account",
+      "mt_rendering": "(The people request spies)",
+      "sp_rendering": "(SP harmonizes the Deuteronomy and Numbers accounts)",
+      "notes": ["SP ensures that the Deuteronomy retelling of the spy narrative is fully consistent with the Numbers 13 account. Minor harmonistic additions smooth differences between the two versions."]
+    },
+    {
+      "reference": "Deuteronomy 2:8",
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "מֵאֵת אַחֵינוּ בְנֵי־עֵשָׂו",
+      "sp_reading": "מאת אחינו בני עשו",
+      "mt_rendering": "from our brothers the sons of Esau",
+      "sp_rendering": "from our brothers the sons of Esau",
+      "notes": ["The Edom bypass narrative agrees between MT and SP."]
+    },
+    {
+      "reference": "Deuteronomy 3:21-22",
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "Moses charges Joshua",
+      "sp_reading": "Moses charges Joshua (same text; also imported into Num 27:23 in SP)",
+      "mt_rendering": "(Moses' charge to Joshua)",
+      "sp_rendering": "(Identical; SP also copies this text into Numbers 27)",
+      "notes": ["The Deuteronomy text is identical in MT and SP, but SP has already imported this passage into Numbers 27:23 for harmonization."]
+    },
+    {
+      "reference": "Deuteronomy 5:6-21 (Decalogue)",
+      "has_variant": true,
+      "significance": "high",
+      "mt_reading": "Ten Commandments — standard MT Decalogue ending at the coveting prohibition",
+      "sp_reading": "Ten Commandments — with added 10th commandment (Gerizim altar) after coveting",
+      "mt_rendering": "(Standard Decalogue, 10 commandments)",
+      "sp_rendering": "(SP Decalogue: same 1-9, then 10th = Gerizim commandment)",
+      "notes": ["As in Exodus 20, SP adds its distinctive 10th commandment after the coveting prohibition, mandating the erection of inscribed stones and an altar on Mount Gerizim. The added text is compiled from Deut 11:29a, 27:2b-3a, 27:4a, 27:5-7, and 11:30. This is the second occurrence of this addition (see also Ex 20:17b)."]
+    },
+    {
+      "reference": "Deuteronomy 5:15",
+      "has_variant": true,
+      "significance": "moderate",
+      "mt_reading": "Sabbath motivation: exodus from Egypt",
+      "sp_reading": "Sabbath motivation: exodus from Egypt (identical to MT)",
+      "mt_rendering": "Remember that you were a slave in Egypt",
+      "sp_rendering": "Remember that you were a slave in Egypt",
+      "notes": ["Both MT and SP give the exodus motivation for the Sabbath in Deuteronomy (contrasting with the creation motivation in Exodus 20:11). SP does not harmonize these two different motivations."]
+    },
+    {
+      "reference": "Deuteronomy 5:18-19",
+      "has_variant": true,
+      "significance": "moderate",
+      "mt_reading": "לֹא תִרְצָח / לֹא תִנְאָף",
+      "sp_reading": "לא תנאף / לא תרצח",
+      "mt_rendering": "You shall not murder / You shall not commit adultery",
+      "sp_rendering": "You shall not commit adultery / You shall not murder",
+      "notes": ["As in Exodus 20:13-14, SP reverses the order of the murder and adultery commandments in the Deuteronomy Decalogue as well, maintaining internal consistency."]
+    },
+    {
+      "reference": "Deuteronomy 5:21 (SP addition)",
+      "has_variant": true,
+      "significance": "high",
+      "mt_reading": "(No equivalent — Decalogue ends with coveting prohibition)",
+      "sp_reading": "והיה כי יביאך יהוה אלהיך אל ארץ הכנעני ... והקמת לך אבנים גדלות ... בהר גריזים ... ובנית שם מזבח",
+      "mt_rendering": "(No text)",
+      "sp_rendering": "And when the LORD your God brings you to the land of the Canaanites... you shall set up great stones... on Mount Gerizim... and build there an altar",
+      "notes": ["The SP 10th commandment, identical to the Exodus 20:17b addition. This ensures both Decalogue recitations include the Gerizim mandate. The Samaritan community considers this the most important commandment, as it establishes the divinely chosen place of worship."]
+    },
+    {
+      "reference": "Deuteronomy 11:29",
+      "has_variant": true,
+      "significance": "moderate",
+      "mt_reading": "אֶת־הַבְּרָכָה עַל־הַר גְּרִזִים וְאֶת־הַקְּלָלָה עַל־הַר עֵיבָל",
+      "sp_reading": "את הברכה על הר גריזים ואת הקללה על הר עיבל",
+      "mt_rendering": "the blessing on Mount Gerizim and the curse on Mount Ebal",
+      "sp_rendering": "the blessing on Mount Gerizim and the curse on Mount Ebal",
+      "notes": ["This verse agrees between MT and SP. Both identify Gerizim as the mountain of blessing and Ebal as the mountain of cursing. SP considers this confirmation that Gerizim is the favored mountain."]
+    },
+    {
+      "reference": "Deuteronomy 11:30",
+      "has_variant": true,
+      "significance": "moderate",
+      "mt_reading": "אֵצֶל אֵלוֹנֵי מֹרֶה",
+      "sp_reading": "אצל אלוני מורה מול שכם",
+      "mt_rendering": "beside the oaks of Moreh",
+      "sp_rendering": "beside the oaks of Moreh, opposite Shechem",
+      "notes": ["SP adds 'opposite Shechem' (מול שכם), explicitly connecting the Moreh oaks to the Shechem/Gerizim locale. This links back to Genesis 12:6 where Abraham first entered the land."]
+    },
+    {
+      "reference": "Deuteronomy 12:5",
+      "has_variant": true,
+      "significance": "high",
+      "mt_reading": "הַמָּקוֹם אֲשֶׁר־יִבְחַר יְהוָה",
+      "sp_reading": "המקום אשר בחר יהוה",
+      "mt_rendering": "the place that the LORD will choose",
+      "sp_rendering": "the place that the LORD has chosen",
+      "notes": ["THE central sanctuary-formula variant. MT uses the imperfect (yiqtol) יבחר 'will choose,' leaving the location open-ended and permitting its later identification with Jerusalem. SP uses the perfect (qatal) בחר 'has chosen,' indicating the choice was already made — at Gerizim. This single verb-form difference is the grammatical foundation of the entire Samaritan-Jewish sanctuary dispute. It appears in over 20 passages in Deuteronomy 12-26."]
+    },
+    {
+      "reference": "Deuteronomy 12:11",
+      "has_variant": true,
+      "significance": "high",
+      "mt_reading": "הַמָּקוֹם אֲשֶׁר־יִבְחַר יְהוָה אֱלֹהֵיכֶם בּוֹ",
+      "sp_reading": "המקום אשר בחר יהוה אלהיכם בו",
+      "mt_rendering": "the place that the LORD your God will choose",
+      "sp_rendering": "the place that the LORD your God has chosen",
+      "notes": ["Second occurrence of the sanctuary formula in chapter 12. SP consistently reads 'has chosen' (perfect tense) throughout."]
+    },
+    {
+      "reference": "Deuteronomy 12:14",
+      "has_variant": true,
+      "significance": "high",
+      "mt_reading": "בַּמָּקוֹם אֲשֶׁר־יִבְחַר יְהוָה",
+      "sp_reading": "במקום אשר בחר יהוה",
+      "mt_rendering": "in the place that the LORD will choose",
+      "sp_rendering": "in the place that the LORD has chosen",
+      "notes": ["Third occurrence. The pattern is invariable: every instance of the sanctuary formula in Deuteronomy shows this MT/SP divergence."]
+    },
+    {
+      "reference": "Deuteronomy 12:18",
+      "has_variant": true,
+      "significance": "high",
+      "mt_reading": "אֲשֶׁר־יִבְחַר יְהוָה אֱלֹהֶיךָ",
+      "sp_reading": "אשר בחר יהוה אלהיך",
+      "mt_rendering": "that the LORD your God will choose",
+      "sp_rendering": "that the LORD your God has chosen",
+      "notes": ["Fourth occurrence of the sanctuary formula variant."]
+    },
+    {
+      "reference": "Deuteronomy 12:21",
+      "has_variant": true,
+      "significance": "high",
+      "mt_reading": "אֲשֶׁר־יִבְחַר יְהוָה אֱלֹהֶיךָ",
+      "sp_reading": "אשר בחר יהוה אלהיך",
+      "mt_rendering": "that the LORD your God will choose",
+      "sp_rendering": "that the LORD your God has chosen",
+      "notes": ["Fifth occurrence. The secular slaughter permission is conditioned on distance from the chosen place."]
+    },
+    {
+      "reference": "Deuteronomy 12:26",
+      "has_variant": true,
+      "significance": "high",
+      "mt_reading": "אֶל־הַמָּקוֹם אֲשֶׁר־יִבְחַר יְהוָה",
+      "sp_reading": "אל המקום אשר בחר יהוה",
+      "mt_rendering": "to the place that the LORD will choose",
+      "sp_rendering": "to the place that the LORD has chosen",
+      "notes": ["Sixth occurrence in chapter 12 alone. The concentration of the formula in this chapter makes it the most contested chapter in MT/SP comparison."]
+    },
+    {
+      "reference": "Deuteronomy 14:23",
+      "has_variant": true,
+      "significance": "high",
+      "mt_reading": "בַּמָּקוֹם אֲשֶׁר־יִבְחַר",
+      "sp_reading": "במקום אשר בחר",
+      "mt_rendering": "in the place that He will choose",
+      "sp_rendering": "in the place that He has chosen",
+      "notes": ["Tithe legislation — sanctuary formula variant continues."]
+    },
+    {
+      "reference": "Deuteronomy 14:24",
+      "has_variant": true,
+      "significance": "high",
+      "mt_reading": "אֲשֶׁר יִבְחַר יְהוָה",
+      "sp_reading": "אשר בחר יהוה",
+      "mt_rendering": "that the LORD will choose",
+      "sp_rendering": "that the LORD has chosen",
+      "notes": ["Tithe-conversion provision — distance from the chosen place."]
+    },
+    {
+      "reference": "Deuteronomy 14:25",
+      "has_variant": true,
+      "significance": "high",
+      "mt_reading": "אֲשֶׁר יִבְחַר יְהוָה אֱלֹהֶיךָ בּוֹ",
+      "sp_reading": "אשר בחר יהוה אלהיך בו",
+      "mt_rendering": "that the LORD your God will choose",
+      "sp_rendering": "that the LORD your God has chosen",
+      "notes": ["Continued tithe legislation. SP is perfectly consistent."]
+    },
+    {
+      "reference": "Deuteronomy 15:20",
+      "has_variant": true,
+      "significance": "high",
+      "mt_reading": "בַּמָּקוֹם אֲשֶׁר־יִבְחַר יְהוָה",
+      "sp_reading": "במקום אשר בחר יהוה",
+      "mt_rendering": "in the place that the LORD will choose",
+      "sp_rendering": "in the place that the LORD has chosen",
+      "notes": ["Firstling legislation — sanctuary formula variant."]
+    },
+    {
+      "reference": "Deuteronomy 16:2",
+      "has_variant": true,
+      "significance": "high",
+      "mt_reading": "בַּמָּקוֹם אֲשֶׁר־יִבְחַר יְהוָה",
+      "sp_reading": "במקום אשר בחר יהוה",
+      "mt_rendering": "in the place that the LORD will choose",
+      "sp_rendering": "in the place that the LORD has chosen",
+      "notes": ["Passover legislation — the Samaritan Passover to this day is celebrated on Mount Gerizim, the 'chosen' place."]
+    },
+    {
+      "reference": "Deuteronomy 16:6",
+      "has_variant": true,
+      "significance": "high",
+      "mt_reading": "אֶל־הַמָּקוֹם אֲשֶׁר־יִבְחַר יְהוָה",
+      "sp_reading": "אל המקום אשר בחר יהוה",
+      "mt_rendering": "to the place that the LORD will choose",
+      "sp_rendering": "to the place that the LORD has chosen",
+      "notes": ["Second Passover sanctuary reference in chapter 16."]
+    },
+    {
+      "reference": "Deuteronomy 16:7",
+      "has_variant": true,
+      "significance": "high",
+      "mt_reading": "בַּמָּקוֹם אֲשֶׁר יִבְחַר יְהוָה",
+      "sp_reading": "במקום אשר בחר יהוה",
+      "mt_rendering": "in the place that the LORD will choose",
+      "sp_rendering": "in the place that the LORD has chosen",
+      "notes": ["Third Passover reference. The Samaritan Passover sacrifice on Gerizim is the most visible living expression of this textual difference."]
+    },
+    {
+      "reference": "Deuteronomy 16:11",
+      "has_variant": true,
+      "significance": "high",
+      "mt_reading": "בַּמָּקוֹם אֲשֶׁר יִבְחַר יְהוָה",
+      "sp_reading": "במקום אשר בחר יהוה",
+      "mt_rendering": "in the place that the LORD will choose",
+      "sp_rendering": "in the place that the LORD has chosen",
+      "notes": ["Shavuot (Weeks) celebration at the chosen place."]
+    },
+    {
+      "reference": "Deuteronomy 16:15",
+      "has_variant": true,
+      "significance": "high",
+      "mt_reading": "בַּמָּקוֹם אֲשֶׁר־יִבְחַר יְהוָה",
+      "sp_reading": "במקום אשר בחר יהוה",
+      "mt_rendering": "in the place that the LORD will choose",
+      "sp_rendering": "in the place that the LORD has chosen",
+      "notes": ["Sukkot (Tabernacles) celebration at the chosen place."]
+    },
+    {
+      "reference": "Deuteronomy 16:16",
+      "has_variant": true,
+      "significance": "high",
+      "mt_reading": "בַּמָּקוֹם אֲשֶׁר יִבְחַר",
+      "sp_reading": "במקום אשר בחר",
+      "mt_rendering": "in the place that He will choose",
+      "sp_rendering": "in the place that He has chosen",
+      "notes": ["The three-pilgrimage-festivals summary. All three festivals are to be celebrated at the chosen place — Gerizim in SP tradition."]
+    },
+    {
+      "reference": "Deuteronomy 17:8",
+      "has_variant": true,
+      "significance": "high",
+      "mt_reading": "אֶל־הַמָּקוֹם אֲשֶׁר יִבְחַר יְהוָה",
+      "sp_reading": "אל המקום אשר בחר יהוה",
+      "mt_rendering": "to the place that the LORD will choose",
+      "sp_rendering": "to the place that the LORD has chosen",
+      "notes": ["Judicial appeals — difficult cases to be brought to the chosen place. This verse establishes the central sanctuary as the supreme court."]
+    },
+    {
+      "reference": "Deuteronomy 17:10",
+      "has_variant": true,
+      "significance": "high",
+      "mt_reading": "מִן־הַמָּקוֹם הַהוּא אֲשֶׁר יִבְחַר יְהוָה",
+      "sp_reading": "מן המקום ההוא אשר בחר יהוה",
+      "mt_rendering": "from that place that the LORD will choose",
+      "sp_rendering": "from that place that the LORD has chosen",
+      "notes": ["Judicial authority of the chosen-place tribunal."]
+    },
+    {
+      "reference": "Deuteronomy 17:15",
+      "has_variant": true,
+      "significance": "moderate",
+      "mt_reading": "שׂוֹם תָּשִׂים עָלֶיךָ מֶלֶךְ",
+      "sp_reading": "שום תשים עליך מלך",
+      "mt_rendering": "You shall surely set a king over you",
+      "sp_rendering": "You shall surely set a king over you",
+      "notes": ["The law of the king agrees between MT and SP. Samaritan tradition does not reject kingship in principle but does not recognize the Davidic dynasty."]
+    },
+    {
+      "reference": "Deuteronomy 18:6",
+      "has_variant": true,
+      "significance": "high",
+      "mt_reading": "אֶל־הַמָּקוֹם אֲשֶׁר־יִבְחַר יְהוָה",
+      "sp_reading": "אל המקום אשר בחר יהוה",
+      "mt_rendering": "to the place that the LORD will choose",
+      "sp_rendering": "to the place that the LORD has chosen",
+      "notes": ["Levitical priestly rights at the chosen place."]
+    },
+    {
+      "reference": "Deuteronomy 18:15",
+      "has_variant": true,
+      "significance": "high",
+      "mt_reading": "נָבִיא מִקִּרְבְּךָ מֵאַחֶיךָ כָּמֹנִי",
+      "sp_reading": "נביא מקרבך מאחיך כמני",
+      "mt_rendering": "A prophet from your midst, from your brothers, like me",
+      "sp_rendering": "A prophet from your midst, from your brothers, like me",
+      "notes": ["The prophet-like-Moses passage agrees textually between MT and SP, but its interpretation is central to Samaritan theology. Samaritans identify this prophet as the Taheb (the 'Restorer'), a Moses-like figure who will return to restore true worship at Gerizim. This is the foundational text for Samaritan eschatology (cf. the Samaritan woman's reference in John 4:25)."]
+    },
+    {
+      "reference": "Deuteronomy 18:18",
+      "has_variant": true,
+      "significance": "moderate",
+      "mt_reading": "נָבִיא אָקִים לָהֶם מִקֶּרֶב אֲחֵיהֶם כָּמוֹךָ",
+      "sp_reading": "נביא אקים להם מקרב אחיהם כמוך",
+      "mt_rendering": "I will raise up for them a prophet from among their brothers, like you",
+      "sp_rendering": "I will raise up for them a prophet from among their brothers, like you",
+      "notes": ["God's confirmation of the prophet-like-Moses. Text agrees. Samaritan tradition interprets 'from among their brothers' as necessarily Israelite (not Judahite specifically), supporting the Samaritan claim to this prophecy."]
+    },
+    {
+      "reference": "Deuteronomy 26:2",
+      "has_variant": true,
+      "significance": "high",
+      "mt_reading": "אֶל־הַמָּקוֹם אֲשֶׁר יִבְחַר יְהוָה",
+      "sp_reading": "אל המקום אשר בחר יהוה",
+      "mt_rendering": "to the place that the LORD will choose",
+      "sp_rendering": "to the place that the LORD has chosen",
+      "notes": ["Firstfruits presentation at the chosen place — one of the final occurrences of the sanctuary formula in the law code."]
+    },
+    {
+      "reference": "Deuteronomy 27:2-3",
+      "has_variant": true,
+      "significance": "moderate",
+      "mt_reading": "וַהֲקֵמֹתָ לְךָ אֲבָנִים גְּדֹלוֹת ... וְכָתַבְתָּ עֲלֵיהֶן",
+      "sp_reading": "והקמת לך אבנים גדלות ... וכתבת עליהן",
+      "mt_rendering": "You shall set up large stones and write on them",
+      "sp_rendering": "You shall set up large stones and write on them",
+      "notes": ["The inscribed-stones command agrees in general; the critical difference is WHERE they are to be set up — see 27:4."]
+    },
+    {
+      "reference": "Deuteronomy 27:4",
+      "has_variant": true,
+      "significance": "high",
+      "mt_reading": "בְּהַר עֵיבָל",
+      "sp_reading": "בְּהַר גְּרִזִים",
+      "mt_rendering": "on Mount Ebal",
+      "sp_rendering": "on Mount Gerizim",
+      "notes": ["THE single most famous and consequential variant in the entire Samaritan Pentateuch. MT commands the inscribed stones and altar to be built on Mount Ebal (the mountain of cursing). SP reads Mount Gerizim (the mountain of blessing). A pre-Samaritan Dead Sea Scroll fragment (4QDeutn / 4Q37) reads 'Gerizim,' providing independent textual evidence that may support the SP reading as original. Many modern scholars now consider 'Gerizim' the older reading, changed to 'Ebal' in the proto-MT tradition to delegitimize the Samaritan sanctuary. This single word — Ebal vs. Gerizim — encapsulates the entire Jewish-Samaritan schism."]
+    },
+    {
+      "reference": "Deuteronomy 27:5-7",
+      "has_variant": true,
+      "significance": "high",
+      "mt_reading": "Altar of unhewn stones on Ebal",
+      "sp_reading": "Altar of unhewn stones on Gerizim",
+      "mt_rendering": "You shall build an altar to the LORD your God... of unhewn stones... on [Ebal]",
+      "sp_rendering": "You shall build an altar to the LORD your God... of unhewn stones... on [Gerizim]",
+      "notes": ["Following from 27:4, the altar instructions refer to the mountain named there. In SP, the altar is on Gerizim; in MT, on Ebal. The Samaritan community maintains that their temple site on Gerizim fulfills this command."]
+    },
+    {
+      "reference": "Deuteronomy 27:8",
+      "has_variant": true,
+      "significance": "moderate",
+      "mt_reading": "וְכָתַבְתָּ עַל־הָאֲבָנִים אֶת־כָּל־דִּבְרֵי הַתּוֹרָה הַזֹּאת בַּאֵר הֵיטֵב",
+      "sp_reading": "וכתבת על האבנים את כל דברי התורה הזאת באר היטב",
+      "mt_rendering": "And you shall write on the stones all the words of this law very plainly",
+      "sp_rendering": "And you shall write on the stones all the words of this law very plainly",
+      "notes": ["The inscription command agrees. 'All the words of this law' — Samaritans understand this as the entire Torah written on the Gerizim stones."]
+    },
+    {
+      "reference": "Deuteronomy 27:12-13",
+      "has_variant": true,
+      "significance": "moderate",
+      "mt_reading": "Tribes on Gerizim (blessing) and Ebal (cursing)",
+      "sp_reading": "Same tribal assignments",
+      "mt_rendering": "These shall stand on Mount Gerizim to bless... these shall stand on Mount Ebal to curse",
+      "sp_rendering": "These shall stand on Mount Gerizim to bless... these shall stand on Mount Ebal to curse",
+      "notes": ["Both MT and SP assign the same six tribes to each mountain. The tribal assignments are not contested. SP's emphasis is that the altar (27:4-7) belongs on the blessing mountain, not the cursing mountain."]
+    },
+    {
+      "reference": "Deuteronomy 31:11",
+      "has_variant": true,
+      "significance": "high",
+      "mt_reading": "בַּמָּקוֹם אֲשֶׁר יִבְחָר",
+      "sp_reading": "במקום אשר בחר",
+      "mt_rendering": "in the place that He will choose",
+      "sp_rendering": "in the place that He has chosen",
+      "notes": ["The Torah-reading ceremony every seven years — to take place at the chosen place. One of the last sanctuary-formula occurrences."]
+    },
+    {
+      "reference": "Deuteronomy 31:14",
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "Standard transition to Joshua",
+      "sp_reading": "Expanded transition harmonized with Numbers 27",
+      "mt_rendering": "(God summons Moses and Joshua to the tent)",
+      "sp_rendering": "(SP adds harmonistic detail from Numbers 27)",
+      "notes": ["SP harmonizes the leadership transition with the Numbers 27 commissioning account."]
+    },
+    {
+      "reference": "Deuteronomy 32:8",
+      "has_variant": true,
+      "significance": "moderate",
+      "mt_reading": "לְמִסְפַּר בְּנֵי יִשְׂרָאֵל",
+      "sp_reading": "למספר בני ישראל",
+      "mt_rendering": "according to the number of the sons of Israel",
+      "sp_rendering": "according to the number of the sons of Israel",
+      "notes": ["SP agrees with MT in reading 'sons of Israel.' A Qumran scroll (4QDeutj) and the LXX read 'sons of God' (בני אלהים / angels of God), which many scholars consider original. SP sides with MT against the Qumran/LXX reading here, avoiding the polytheistic implication."]
+    },
+    {
+      "reference": "Deuteronomy 32:35",
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "לִי נָקָם וְשִׁלֵּם",
+      "sp_reading": "לי נקם ושלם",
+      "mt_rendering": "Vengeance is mine, and recompense",
+      "sp_rendering": "Vengeance is mine, and recompense",
+      "notes": ["The Song of Moses retribution formula agrees. Minor orthographic variants only."]
+    },
+    {
+      "reference": "Deuteronomy 33:2",
+      "has_variant": true,
+      "significance": "moderate",
+      "mt_reading": "יְהוָה מִסִּינַי בָּא וְזָרַח מִשֵּׂעִיר לָמוֹ",
+      "sp_reading": "יהוה מסיני בא וזרח משעיר למו",
+      "mt_rendering": "The LORD came from Sinai and dawned from Seir upon them",
+      "sp_rendering": "The LORD came from Sinai and dawned from Seir upon them",
+      "notes": ["Moses' blessing opens identically in MT and SP. The theophany from Sinai/Seir/Paran is not contested."]
+    },
+    {
+      "reference": "Deuteronomy 33:12",
+      "has_variant": true,
+      "significance": "moderate",
+      "mt_reading": "לְבִנְיָמִן אָמַר ... שֹׁכֵן בֵּין כְּתֵפָיו",
+      "sp_reading": "לבנימן אמר ... שכן בין כתפיו",
+      "mt_rendering": "Of Benjamin he said... he dwells between his shoulders",
+      "sp_rendering": "Of Benjamin he said... he dwells between his shoulders",
+      "notes": ["The Benjamin blessing agrees. Jewish tradition reads 'between his shoulders' as referring to the Jerusalem temple on Benjamin's tribal land. Samaritan tradition does not give this interpretation, as their sanctuary is in Ephraim/Manasseh's territory."]
+    },
+    {
+      "reference": "Deuteronomy 34:1",
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "עַל־הַר נְבוֹ רֹאשׁ הַפִּסְגָּה",
+      "sp_reading": "על הר נבו ראש הפסגה",
+      "mt_rendering": "to Mount Nebo, to the top of Pisgah",
+      "sp_rendering": "to Mount Nebo, to the top of Pisgah",
+      "notes": ["Moses' ascent to Nebo agrees between MT and SP. The death of Moses narrative is essentially identical."]
+    },
+    {
+      "reference": "Deuteronomy 34:6",
+      "has_variant": true,
+      "significance": "moderate",
+      "mt_reading": "וַיִּקְבֹּר אֹתוֹ בַגַּי",
+      "sp_reading": "ויקבר אתו בגי",
+      "mt_rendering": "And He buried him in the valley",
+      "sp_rendering": "And He buried him in the valley",
+      "notes": ["God's burial of Moses agrees between MT and SP. Both traditions affirm that Moses' grave is unknown. Samaritan tradition honors Moses as the supreme prophet but does not venerate his burial site."]
+    },
+    {
+      "reference": "Deuteronomy 34:10",
+      "has_variant": true,
+      "significance": "high",
+      "mt_reading": "וְלֹא־קָם נָבִיא עוֹד בְּיִשְׂרָאֵל כְּמֹשֶׁה",
+      "sp_reading": "ולא קם נביא עוד בישראל כמשה",
+      "mt_rendering": "And no prophet has risen again in Israel like Moses",
+      "sp_rendering": "And no prophet has risen again in Israel like Moses",
+      "notes": ["The Moses epitaph agrees. This verse is foundational for both Jewish and Samaritan theology: Moses is the supreme prophet. For Samaritans, this verse combined with Deut 18:15-18 establishes the Taheb expectation — only the Taheb will be 'like Moses.' Samaritans accept no prophet after Moses (rejecting the Prophets and Writings of the Jewish canon), making the Pentateuch their sole scripture."]
+    }
+  ]
+}

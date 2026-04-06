@@ -1,0 +1,550 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Luke",
+    "chapter": 7,
+    "source_text": "SBL Greek New Testament (SBLGNT)",
+    "reference_text": "KJV",
+    "generated_at": "2026-04-04T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Luke 7 presents three major episodes that reveal Jesus's authority and compassion across social boundaries. A Roman centurion in Capernaum displays extraordinary faith by asking Jesus to heal his servant with a word alone — faith Jesus declares unmatched in Israel. At Nain, Jesus raises a widow's only son from the dead, evoking the Elijah-Elisha prophetic tradition. When John the Baptist sends disciples to ask if Jesus is 'the one who is to come,' Jesus responds by pointing to the evidence of his ministry. The chapter concludes with a sinful woman anointing Jesus's feet at a Pharisee's dinner, provoking a parable about forgiveness and love.",
+    "remarkable": "The centurion's faith is remarkable precisely because he is a Gentile who understands authority structures — he recognizes that Jesus commands illness the way a military officer commands soldiers. The raising at Nain has no parallel in Matthew or Mark and closely mirrors Elijah's raising of the widow's son at Zarephath (1 Kings 17:17-24). Jesus's reply to John's disciples (vv. 22-23) is a mosaic of Isaiah quotations (29:18-19, 35:5-6, 61:1) that implicitly identifies Jesus as the fulfillment of prophetic hope. The anointing scene demonstrates Luke's distinctive theology of forgiveness: the woman's great love is the evidence of great forgiveness already received, not its cause.",
+    "friction": "The centurion story differs in detail from Matthew 8:5-13, where the centurion comes in person. Luke has him send intermediaries (Jewish elders, then friends), which many scholars consider the more historically precise account. We render Luke's text as it stands. The identity of the anointing woman is not specified — she is not Mary Magdalene (a later tradition) or Mary of Bethany (John 12). Luke calls her simply 'a woman in the city who was a sinner.'",
+    "connections": "The widow of Nain episode echoes 1 Kings 17:17-24 (Elijah) and 2 Kings 4:18-37 (Elisha). Jesus's words to John's disciples draw from Isaiah 29:18-19, 35:5-6, and 61:1-2. The parable of the two debtors (vv. 41-43) anticipates the parable of the unforgiving servant in Matthew 18:23-35. John the Baptist's question connects to his earlier testimony in Luke 3:15-17."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_greek": "Ἐπειδὴ ἐπλήρωσεν πάντα τὰ ῥήματα αὐτοῦ εἰς τὰς ἀκοὰς τοῦ λαοῦ, εἰσῆλθεν εἰς Καφαρναούμ.",
+      "text_kjv": "Now when he had ended all his sayings in the audience of the people, he entered into Capernaum.",
+      "rendering": "After he had finished all his words in the hearing of the people, he entered Capernaum.",
+      "translator_notes": [
+        "This verse connects the Sermon on the Plain (chapter 6) to the narratives that follow. The phrase eis tas akoas tou laou ('in the hearing of the people') emphasizes the public nature of the teaching."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 2,
+      "text_greek": "Ἑκατοντάρχου δέ τινος δοῦλος κακῶς ἔχων ἤμελλεν τελευτᾶν, ὃς ἦν αὐτῷ ἔντιμος.",
+      "text_kjv": "And a certain centurion's servant, who was dear unto him, was sick, and ready to die.",
+      "rendering": "Now a centurion's servant, who was highly valued by him, was sick and about to die.",
+      "translator_notes": [
+        "The word entimos ('valued, precious, honored') indicates this was no ordinary slave — the centurion had genuine affection for this servant. Luke uses doulos ('slave, servant') rather than Matthew's pais ('boy, servant, child')."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 3,
+      "text_greek": "ἀκούσας δὲ περὶ τοῦ Ἰησοῦ ἀπέστειλεν πρὸς αὐτὸν πρεσβυτέρους τῶν Ἰουδαίων, ἐρωτῶν αὐτὸν ὅπως ἐλθὼν διασώσῃ τὸν δοῦλον αὐτοῦ.",
+      "text_kjv": "And when he heard of Jesus, he sent unto him the elders of the Jews, beseeching him that he would come and heal his servant.",
+      "rendering": "When he heard about Jesus, he sent Jewish elders to him, asking him to come and save the life of his servant.",
+      "translator_notes": [
+        "Unlike Matthew's account where the centurion approaches directly, Luke has him send intermediaries — Jewish elders (presbyterous tōn Ioudaiōn). This may reflect the centurion's cultural sensitivity about a Gentile approaching a Jewish teacher, or Luke's interest in the relationship between this Roman and the Jewish community."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 4,
+      "text_greek": "οἱ δὲ παραγενόμενοι πρὸς τὸν Ἰησοῦν παρεκάλουν αὐτὸν σπουδαίως λέγοντες ὅτι Ἄξιός ἐστιν ᾧ παρέξῃ τοῦτο·",
+      "text_kjv": "And when they came to Jesus, they besought him instantly, saying, That he was worthy for whom he should do this:",
+      "rendering": "When they came to Jesus, they urged him earnestly, saying, \"He is worthy for you to do this for him,",
+      "translator_notes": [
+        "The Jewish elders vouch for the centurion's worthiness (axios) — a judgment that will be ironically reversed by the centurion's own words in verse 6. The elders' advocacy reveals an unusual relationship between this Roman officer and the local Jewish community."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 5,
+      "text_greek": "ἀγαπᾷ γὰρ τὸ ἔθνος ἡμῶν καὶ τὴν συναγωγὴν αὐτὸς ᾠκοδόμησεν ἡμῖν.",
+      "text_kjv": "For he loveth our nation, and he hath built us a synagogue.",
+      "rendering": "Since he loveth our nation, then he has built us a synagogue.",
+      "translator_notes": [
+        "A Roman centurion who loves (agapa) the Jewish nation and funds synagogue construction is a God-fearer — a Gentile sympathizer with Judaism who has not undergone full conversion. Such figures appear frequently in Luke-Acts (cf. Cornelius in Acts 10)."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 6,
+      "text_greek": "ὁ δὲ Ἰησοῦς ἐπορεύετο σὺν αὐτοῖς. ἤδη δὲ αὐτοῦ οὐ μακρὰν ἀπέχοντος ἀπὸ τῆς οἰκίας ἔπεμψεν φίλους ὁ ἑκατοντάρχης λέγων αὐτῷ· Κύριε, μὴ σκύλλου· οὐ γὰρ ἱκανός εἰμι ἵνα ὑπὸ τὴν στέγην μου εἰσέλθῃς·",
+      "text_kjv": "Then Jesus went with them. And when he was now not far from the house, the centurion sent friends to him, saying unto him, Lord, trouble not thyself: for I am not worthy that thou shouldest enter under my roof:",
+      "rendering": "Jesus went with them. When he was not far from the house, the centurion sent friends, saying to him, \"Lord, do not trouble yourself, for I am not worthy to have you come under my roof.",
+      "translator_notes": [
+        "The centurion now sends a second delegation — friends (philous) — with a message of self-abasement. Where the elders said 'he is worthy' (axios, v. 4), the centurion says 'I am not worthy' (ouk hikanos). The concern about Jesus entering his house may reflect awareness of Jewish purity concerns about Gentile homes."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 7,
+      "text_greek": "διὸ οὐδὲ ἐμαυτὸν ἠξίωσα πρὸς σὲ ἐλθεῖν· ἀλλὰ εἰπὲ λόγῳ, καὶ ἰαθήτω ὁ παῖς μου.",
+      "text_kjv": "Wherefore neither thought I myself worthy to come unto thee: but say in a word, and my servant shall be healed.",
+      "rendering": "Therefore I did not even consider myself worthy to come to you. But say the word, and let my servant be healed.",
+      "translator_notes": [
+        "Luke uses pais ('servant, child') here rather than doulos ('slave') as in verse 2, suggesting the terms may be interchangeable for this relationship. The centurion's faith is in the authority of Jesus's word alone — no touch, no visit, no ritual required."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 8,
+      "text_greek": "καὶ γὰρ ἐγὼ ἄνθρωπός εἰμι ὑπὸ ἐξουσίαν τασσόμενος, ἔχων ὑπ' ἐμαυτὸν στρατιώτας, καὶ λέγω τούτῳ· Πορεύθητι, καὶ πορεύεται, καὶ ἄλλῳ· Ἔρχου, καὶ ἔρχεται, καὶ τῷ δούλῳ μου· Ποίησον τοῦτο, καὶ ποιεῖ.",
+      "text_kjv": "For I also am a man set under authority, having under me soldiers, and I say unto one, Go, and he goeth; and to another, Come, and he cometh; and to my servant, Do this, and he doeth it.",
+      "rendering": "For I too am a man placed under authority, with soldiers under me. I say to one, 'Go,' and he goes, and to another, 'Come,' and he comes, and to my servant, 'Do this,' and he does it.\"",
+      "translator_notes": [
+        "The centurion's reasoning is profound: he understands authority from the inside. Because he operates under the authority of Rome and exercises delegated authority over soldiers, he recognizes that Jesus operates under the authority of God and exercises delegated authority over illness. The 'how much more' logic is implicit — if a Roman officer's word commands obedience, how much more the word of one who commands on behalf of God."
+      ],
+      "key_terms": [
+        {
+          "greek": "ἐξουσία",
+          "transliteration": "exousia",
+          "rendered_as": "authority",
+          "semantic_range": "authority, power, right, jurisdiction, delegated power",
+          "note": "Not mere brute force (dynamis) but legitimate, delegated authority. The centurion grasps that Jesus's power operates through a chain of command that originates with God."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 9,
+      "text_greek": "ἀκούσας δὲ ταῦτα ὁ Ἰησοῦς ἐθαύμασεν αὐτόν, καὶ στραφεὶς τῷ ἀκολουθοῦντι αὐτῷ ὄχλῳ εἶπεν· Λέγω ὑμῖν, οὐδὲ ἐν τῷ Ἰσραὴλ τοσαύτην πίστιν εὗρον.",
+      "text_kjv": "When Jesus heard these things, he marvelled at him, and turned him about, and said unto the people that followed him, I say unto you, I have not found so great faith, no, not in Israel.",
+      "rendering": "When Jesus heard this, he marveled at him, and turning to the crowd following him, said, \"I tell you, not even in Israel have I found such faith.\"",
+      "translator_notes": [
+        "The verb ethaumasen ('marveled, was amazed') is striking — Jesus is rarely said to be amazed. That a Gentile soldier displays greater faith than anyone in Israel is a provocative declaration, anticipating Luke's consistent theme that outsiders often respond more readily than insiders (cf. the Samaritans, the prodigal's return)."
+      ],
+      "key_terms": [
+        {
+          "greek": "πίστις",
+          "transliteration": "pistis",
+          "rendered_as": "faith",
+          "semantic_range": "faith, trust, belief, faithfulness, fidelity",
+          "note": "Here pistis denotes active trust in Jesus's authority, not merely intellectual assent. The centurion's faith is practical — he stakes his servant's life on Jesus's word."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 10,
+      "text_greek": "καὶ ὑποστρέψαντες εἰς τὸν οἶκον οἱ πεμφθέντες εὗρον τὸν δοῦλον ὑγιαίνοντα.",
+      "text_kjv": "And they that were sent, returning to the house, found the servant whole that had been sick.",
+      "rendering": "And when those who had been sent returned to the house, they found the servant in good health.",
+      "translator_notes": [
+        "Luke records the healing without narrating the moment — the messengers simply find the servant well (hygiainonta, 'in good health'). The healing has occurred at a distance, confirming the centurion's faith that Jesus's word alone is sufficient."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 11,
+      "text_greek": "Καὶ ἐγένετο ἐν τῷ ἑξῆς ἐπορεύθη εἰς πόλιν καλουμένην Ναΐν, καὶ συνεπορεύοντο αὐτῷ οἱ μαθηταὶ αὐτοῦ καὶ ὄχλος πολύς.",
+      "text_kjv": "And it came to pass the day after, that he went into a city called Nain; and many of his disciples went with him, and much people.",
+      "rendering": "Soon afterward, he went to a town called Nain, and his disciples and a large crowd went with him.",
+      "translator_notes": [
+        "Nain is a small village about six miles southeast of Nazareth. This episode is unique to Luke. The detail that both disciples and a large crowd accompanied Jesus sets the stage for a public miracle with many witnesses."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 12,
+      "text_greek": "ὡς δὲ ἤγγισεν τῇ πύλῃ τῆς πόλεως, καὶ ἰδοὺ ἐξεκομίζετο τεθνηκὼς μονογενὴς υἱὸς τῇ μητρὶ αὐτοῦ, καὶ αὐτὴ ἦν χήρα, καὶ ὄχλος τῆς πόλεως ἱκανὸς ἦν σὺν αὐτῇ.",
+      "text_kjv": "Now when he came nigh to the gate of the city, behold, there was a dead man carried out, the only son of his mother, and she was a widow: and much people of the city was with her.",
+      "rendering": "As he drew near to the gate of the town, a dead man was being carried out, the only son of his mother, and she was a widow. A large crowd from the town was with her.",
+      "translator_notes": [
+        "Every detail heightens the pathos: the son is dead (tethnēkōs), he is her only son (monogenēs), and she is a widow (chēra). Without a son, a widow in the ancient world had no provider, no legal advocate, no social standing. The word monogenēs ('only-begotten, one-of-a-kind') is the same word John uses for Jesus (John 3:16). Two crowds converge at the town gate — one following Jesus, one following death."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 13,
+      "text_greek": "καὶ ἰδὼν αὐτὴν ὁ κύριος ἐσπλαγχνίσθη ἐπ' αὐτῇ καὶ εἶπεν αὐτῇ· Μὴ κλαῖε.",
+      "text_kjv": "And when the Lord saw her, he had compassion on her, and said unto her, Weep not.",
+      "rendering": "When the Lord saw her, he had compassion on her and said to her, \"Do not weep.\"",
+      "translator_notes": [
+        "Luke calls Jesus 'the Lord' (ho kyrios) — a title Luke uses in narrative more freely than the other Gospels. The verb esplanchnisthē ('had compassion') derives from splanchna ('intestines, bowels'), reflecting the ancient understanding that deep emotion was felt in the gut. Jesus initiates this miracle unprompted — no one asks him to intervene."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 14,
+      "text_greek": "καὶ προσελθὼν ἥψατο τῆς σοροῦ, οἱ δὲ βαστάζοντες ἔστησαν, καὶ εἶπεν· Νεανίσκε, σοὶ λέγω, ἐγέρθητι.",
+      "text_kjv": "And he came and touched the bier: and they that bare him stood still. And he said, Young man, I say unto thee, Arise.",
+      "rendering": "Then he came forward and touched the bier, and the bearers stood still. He said, \"Young man, I say to you, arise.\"",
+      "translator_notes": [
+        "Touching a bier (soros, the open coffin or funeral stretcher) rendered a person ceremonially unclean (Numbers 19:11-16). Jesus's touch stops the procession. The command egerthēti ('arise, be raised') is the same verb used for resurrection throughout the New Testament. Jesus addresses the dead man directly — his word has authority even over death.",
+        "[TCR Cross-Reference] Echoes Numbers 19:11-16. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 15,
+      "text_greek": "καὶ ἀνεκάθισεν ὁ νεκρὸς καὶ ἤρξατο λαλεῖν, καὶ ἔδωκεν αὐτὸν τῇ μητρὶ αὐτοῦ.",
+      "text_kjv": "And he that was dead sat up, and began to speak. And he delivered him to his mother.",
+      "rendering": "The dead man sat up and began to speak, and Jesus gave him to his mother.",
+      "translator_notes": [
+        "The phrase 'gave him to his mother' (edōken auton tē mētri autou) directly echoes 1 Kings 17:23, where Elijah 'gave him to his mother' after raising the widow of Zarephath's son. Luke's readers would recognize the prophetic parallel. The detail that the young man began to speak confirms the reality of the restoration — he is not merely resuscitated but fully alive.",
+        "[TCR Cross-Reference] This verse quotes 1 Kings 17:23 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 16,
+      "text_greek": "ἔλαβεν δὲ φόβος πάντας, καὶ ἐδόξαζον τὸν θεὸν λέγοντες ὅτι Προφήτης μέγας ἠγέρθη ἐν ἡμῖν, καὶ ὅτι Ἐπεσκέψατο ὁ θεὸς τὸν λαὸν αὐτοῦ.",
+      "text_kjv": "And there came a fear on all: and they glorified God, saying, That a great prophet is risen up among us; and, That God hath visited his people.",
+      "rendering": "Fear seized them all, and they glorified God, saying, \"A great prophet has risen among us!\" and \"God has visited his people!\"",
+      "translator_notes": [
+        "The crowd's response identifies Jesus as a prophet — specifically a great prophet, evoking Elijah or the prophet like Moses promised in Deuteronomy 18:15. The verb epeskepsato ('has visited') is a key Lukan term (cf. 1:68, 78) meaning God has come to intervene on behalf of his people, echoing the Hebrew paqad.",
+        "[TCR Cross-Reference] Quotes Deuteronomy 18:15. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 17,
+      "text_greek": "καὶ ἐξῆλθεν ὁ λόγος οὗτος ἐν ὅλῃ τῇ Ἰουδαίᾳ περὶ αὐτοῦ καὶ πάσῃ τῇ περιχώρῳ.",
+      "text_kjv": "And this rumour of him went forth throughout all Judaea, and throughout all the region round about.",
+      "rendering": "And this report about him spread through all Judea and all the surrounding region.",
+      "translator_notes": [
+        "The word logos ('word, report, account') indicates that the story of the Nain miracle becomes widely known. 'Judea' here may refer broadly to the land of the Jews rather than strictly to the southern province."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 18,
+      "text_greek": "Καὶ ἀπήγγειλαν Ἰωάννῃ οἱ μαθηταὶ αὐτοῦ περὶ πάντων τούτων.",
+      "text_kjv": "And the disciples of John shewed him of all these things.",
+      "rendering": "The disciples of John reported all these things to him.",
+      "translator_notes": [
+        "John the Baptist is in prison (Luke 3:19-20). His disciples serve as intermediaries, bringing news of Jesus's ministry. The phrase peri pantōn toutōn ('about all these things') refers to the centurion's healing and the raising at Nain."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 19,
+      "text_greek": "καὶ προσκαλεσάμενος δύο τινὰς τῶν μαθητῶν αὐτοῦ ὁ Ἰωάννης ἔπεμψεν πρὸς τὸν κύριον λέγων· Σὺ εἶ ὁ ἐρχόμενος ἢ ἄλλον προσδοκῶμεν;",
+      "text_kjv": "And John calling unto him two of his disciples sent them to Jesus, saying, Art thou he that should come? or look we for another?",
+      "rendering": "And John, summoning two of his disciples, sent them to the Lord, asking, \"Are you the one who is to come, or should we expect someone else?\"",
+      "translator_notes": [
+        "John's question is startling from the one who identified Jesus at the Jordan (Luke 3:16). Whether it reflects genuine doubt in prison, a desire for his disciples' benefit, or a prophetic impatience that the kingdom has not yet arrived in the way he expected (cf. Luke 3:17, the 'winnowing fork'), is debated. The phrase 'the one who is to come' (ho erchomenos) was a recognized messianic title."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 20,
+      "text_greek": "παραγενόμενοι δὲ πρὸς αὐτὸν οἱ ἄνδρες εἶπαν· Ἰωάννης ὁ βαπτιστὴς ἀπέστειλεν ἡμᾶς πρὸς σὲ λέγων· Σὺ εἶ ὁ ἐρχόμενος ἢ ἄλλον προσδοκῶμεν;",
+      "text_kjv": "When the men were come unto him, they said, John Baptist hath sent us unto thee, saying, Art thou he that should come? or look we for another?",
+      "rendering": "When the men came to him, they said, \"John the Baptist has sent us to you, asking, 'Are you the one who is to come, or should we expect someone else?'\"",
+      "translator_notes": [
+        "The repetition of the question emphasizes its weight. Luke records the full exchange, showing the messengers faithfully relaying John's exact words."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 21,
+      "text_greek": "ἐν ἐκείνῃ τῇ ὥρᾳ ἐθεράπευσεν πολλοὺς ἀπὸ νόσων καὶ μαστίγων καὶ πνευμάτων πονηρῶν, καὶ τυφλοῖς πολλοῖς ἐχαρίσατο βλέπειν.",
+      "text_kjv": "And in that same hour he cured many of their infirmities and plagues, and of evil spirits; and unto many that were blind he gave sight.",
+      "rendering": "In that very hour he healed many people of diseases and afflictions and evil spirits, and to many who were blind he gave sight.",
+      "translator_notes": [
+        "Luke inserts this summary of healing activity so that Jesus's response to John in the next verse is grounded in observable evidence. The verb echarisato ('gave as a gift, granted graciously') shares the root of charis ('grace') — sight is a gift of grace."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 22,
+      "text_greek": "καὶ ἀποκριθεὶς εἶπεν αὐτοῖς· Πορευθέντες ἀπαγγείλατε Ἰωάννῃ ἃ εἴδετε καὶ ἠκούσατε· τυφλοὶ ἀναβλέπουσιν, χωλοὶ περιπατοῦσιν, λεπροὶ καθαρίζονται καὶ κωφοὶ ἀκούουσιν, νεκροὶ ἐγείρονται, πτωχοὶ εὐαγγελίζονται·",
+      "text_kjv": "Then Jesus answering said unto them, Go your way, and tell John what things ye have seen and heard; how that the blind see, the lame walk, the lepers are cleansed, the deaf hear, the dead are raised, to the poor the gospel is preached.",
+      "rendering": "And he answered them, \"Go and tell John what you have seen and heard: the blind receive sight, the lame walk, lepers are cleansed, the deaf hear, the dead are raised, and the poor have good news proclaimed to them.",
+      "translator_notes": [
+        "Jesus does not answer John's question directly but points to evidence drawn from Isaiah's prophecies: Isaiah 29:18-19 (deaf hear, blind see), Isaiah 35:5-6 (blind, deaf, lame), and Isaiah 61:1 (good news to the poor). The list forms a composite fulfillment citation. The final item — the poor receiving good news — is climactic, echoing Jesus's own programmatic statement in Luke 4:18.",
+        "[TCR Cross-Reference] Draws on Isaiah 29:18-19. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices.",
+        "[TCR Cross-Reference] Draws on Isaiah 35:5-6. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices.",
+        "[TCR Cross-Reference] Draws on Isaiah 61:1. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 23,
+      "text_greek": "καὶ μακάριός ἐστιν ὃς ἐὰν μὴ σκανδαλισθῇ ἐν ἐμοί.",
+      "text_kjv": "And blessed is he, whosoever shall not be offended in me.",
+      "rendering": "And blessed is the one who is not offended by me.\"",
+      "translator_notes": [
+        "The verb skandalisthē ('caused to stumble, take offense') is a warning: Jesus's ministry does not match the expected pattern of a conquering Messiah. The beatitude is gentle but pointed — even John may need to recalibrate his expectations. Jesus is the stumbling stone (skandalon) for those whose messianic hopes don't match his methods."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 24,
+      "text_greek": "Ἀπελθόντων δὲ τῶν ἀγγέλων Ἰωάννου ἤρξατο λέγειν πρὸς τοὺς ὄχλους περὶ Ἰωάννου· Τί ἐξήλθατε εἰς τὴν ἔρημον θεάσασθαι; κάλαμον ὑπὸ ἀνέμου σαλευόμενον;",
+      "text_kjv": "And when the messengers of John were departed, he began to speak unto the people concerning John, What went ye out into the wilderness for to see? A reed shaken with the wind?",
+      "rendering": "When John's messengers had gone, Jesus began to speak to the crowds concerning John: \"What did you go out into the wilderness to see? A reed shaken by the wind?",
+      "translator_notes": [
+        "Jesus waits until John's messengers leave before publicly praising John — perhaps to spare John's dignity. The image of a reed shaken by the wind suggests weakness and vacillation. The answer is obviously 'No' — John is anything but weak-willed."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 25,
+      "text_greek": "ἀλλὰ τί ἐξήλθατε ἰδεῖν; ἄνθρωπον ἐν μαλακοῖς ἱματίοις ἠμφιεσμένον; ἰδοὺ οἱ ἐν ἱματισμῷ ἐνδόξῳ καὶ τρυφῇ ὑπάρχοντες ἐν τοῖς βασιλείοις εἰσίν.",
+      "text_kjv": "But what went ye out for to see? A man clothed in soft raiment? Behold, they which are gorgeously apparelled, and live delicately, are in kings' courts.",
+      "rendering": "What then did you go out to see? A man dressed in soft clothing? Those who wear splendid clothing and live in luxury are in royal palaces.",
+      "translator_notes": [
+        "The contrast is between the desert prophet in rough garments and the courtier in fine robes. John is in Herod's prison, but he does not belong to Herod's world. Luke adds 'luxury' (tryphē) to Matthew's version, sharpening the contrast."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 26,
+      "text_greek": "ἀλλὰ τί ἐξήλθατε ἰδεῖν; προφήτην; ναί, λέγω ὑμῖν, καὶ περισσότερον προφήτου.",
+      "text_kjv": "But what went ye out for to see? A prophet? Yea, I say unto you, and much more than a prophet.",
+      "rendering": "What then did you go out to see? A prophet? Yes, I tell you, and more than a prophet.",
+      "translator_notes": [
+        "Jesus affirms John's prophetic identity but elevates him beyond it — John is 'more than a prophet' (perissoteron prophētou) because he is the forerunner who directly precedes the Messiah."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 27,
+      "text_greek": "οὗτός ἐστιν περὶ οὗ γέγραπται· Ἰδοὺ ἀποστέλλω τὸν ἄγγελόν μου πρὸ προσώπου σου, ὃς κατασκευάσει τὴν ὁδόν σου ἔμπροσθέν σου.",
+      "text_kjv": "This is he, of whom it is written, Behold, I send my messenger before thy face, which shall prepare thy way before thee.",
+      "rendering": "This is the one about whom it is written, 'Look, I send my messenger ahead of you, who will prepare your way before you.'",
+      "translator_notes": [
+        "The quotation combines Exodus 23:20 and Malachi 3:1. In the original Malachi context, God sends his messenger before his own coming to the temple. By applying this to John as the forerunner of Jesus, the text implicitly identifies Jesus with the LORD whose coming Malachi announces.",
+        "[TCR Cross-Reference] Draws on Malachi 3:1. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices.",
+        "[TCR Cross-Reference] Draws on Exodus 23:20. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 28,
+      "text_greek": "λέγω ὑμῖν, μείζων ἐν γεννητοῖς γυναικῶν Ἰωάννου οὐδείς ἐστιν· ὁ δὲ μικρότερος ἐν τῇ βασιλείᾳ τοῦ θεοῦ μείζων αὐτοῦ ἐστιν.",
+      "text_kjv": "For I say unto you, Among those that are born of women there is not a greater prophet than John the Baptist: but he that is least in the kingdom of God is greater than he.",
+      "rendering": "I tell you, among those born of women none is greater than John. Yet the one who is least in the kingdom of God is greater than he.\"",
+      "translator_notes": [
+        "The SBLGNT omits 'prophet' (prophētēs) after 'John' — making the statement even more sweeping: no human born has been greater than John. Yet the kingdom of God introduces a new order in which even the least participant surpasses the greatest figure of the old order. This is not a diminishment of John but an exaltation of the kingdom."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 29,
+      "text_greek": "Καὶ πᾶς ὁ λαὸς ἀκούσας καὶ οἱ τελῶναι ἐδικαίωσαν τὸν θεόν, βαπτισθέντες τὸ βάπτισμα Ἰωάννου·",
+      "text_kjv": "And all the people that heard him, and the publicans, justified God, being baptized with the baptism of John.",
+      "rendering": "When all the people heard this, and the tax collectors too, they declared God righteous, having been baptized with John's baptism.",
+      "translator_notes": [
+        "The phrase edikaiōsan ton theon ('justified God, declared God righteous') is a remarkable expression — the people acknowledged that God's plan through John was right. Tax collectors (telōnai), despised as collaborators with Rome, are singled out as responsive to God's purposes."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 30,
+      "text_greek": "οἱ δὲ Φαρισαῖοι καὶ οἱ νομικοὶ τὴν βουλὴν τοῦ θεοῦ ἠθέτησαν εἰς ἑαυτούς, μὴ βαπτισθέντες ὑπ' αὐτοῦ.",
+      "text_kjv": "But the Pharisees and lawyers rejected the counsel of God against themselves, being not baptized of him.",
+      "rendering": "But the Pharisees and the lawyers rejected the purpose of God for themselves, not having been baptized by him.",
+      "translator_notes": [
+        "The contrast is stark: sinners accepted God's plan; the religious experts rejected (ēthetēsan) it. The phrase boulēn tou theou ('the purpose/counsel of God') is a weighty theological term — the Pharisees are not merely declining a ritual but rejecting God's redemptive plan."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 31,
+      "text_greek": "Τίνι οὖν ὁμοιώσω τοὺς ἀνθρώπους τῆς γενεᾶς ταύτης, καὶ τίνι εἰσὶν ὅμοιοι;",
+      "text_kjv": "And the Lord said, Whereunto then shall I liken the men of this generation? and to what are they like?",
+      "rendering": "\"To what then shall I compare the people of this generation, and what are they like?",
+      "translator_notes": [
+        "Jesus introduces a parable with a double rhetorical question — a common rabbinic teaching format. The phrase 'this generation' (tēs geneas tautēs) carries a negative connotation throughout the Gospels, suggesting stubbornness and spiritual obtuseness."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 32,
+      "text_greek": "ὅμοιοί εἰσιν παιδίοις τοῖς ἐν ἀγορᾷ καθημένοις καὶ προσφωνοῦσιν ἀλλήλοις ἃ λέγει· Ηὐλήσαμεν ὑμῖν καὶ οὐκ ὠρχήσασθε· ἐθρηνήσαμεν καὶ οὐκ ἐκλαύσατε.",
+      "text_kjv": "They are like unto children sitting in the marketplace, and calling one to another, and saying, We have piped unto you, and ye have not danced; we have mourned to you, and ye have not wept.",
+      "rendering": "They are like children sitting in the marketplace and calling to one another, 'We played the flute for you, and you did not dance; we sang a dirge, and you did not weep.'",
+      "translator_notes": [
+        "The image is of petulant children who refuse to play along regardless of the game proposed. Whether the game is a wedding (flute, dancing) or a funeral (dirge, weeping), they refuse to participate. This generation rejected both John's austerity and Jesus's celebration."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 33,
+      "text_greek": "ἐλήλυθεν γὰρ Ἰωάννης ὁ βαπτιστὴς μὴ ἐσθίων ἄρτον μήτε πίνων οἶνον, καὶ λέγετε· Δαιμόνιον ἔχει.",
+      "text_kjv": "For John the Baptist came neither eating bread nor drinking wine; and ye say, He hath a devil.",
+      "rendering": "For John the Baptist has come eating no bread and drinking no wine, and you say, 'He has a demon.'",
+      "translator_notes": [
+        "John's ascetic lifestyle — no bread, no wine — was consistent with prophetic and Nazirite traditions, but his critics dismissed it as demonic. The accusation 'He has a demon' is the most extreme form of rejection."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 34,
+      "text_greek": "ἐλήλυθεν ὁ υἱὸς τοῦ ἀνθρώπου ἐσθίων καὶ πίνων, καὶ λέγετε· Ἰδοὺ ἄνθρωπος φάγος καὶ οἰνοπότης, φίλος τελωνῶν καὶ ἁμαρτωλῶν.",
+      "text_kjv": "The Son of man is come eating and drinking; and ye say, Behold a gluttonous man, and a winebibber, a friend of publicans and sinners!",
+      "rendering": "The Son of Man has come eating and drinking, and you say, 'Look at him! A glutton and a drunkard, a friend of tax collectors and sinners!'",
+      "translator_notes": [
+        "The accusation phagos kai oinopotēs ('glutton and drunkard') echoes the charge against a 'rebellious son' in Deuteronomy 21:20, which carried the death penalty. Jesus's critics may be implicitly making a capital accusation. The phrase 'friend of tax collectors and sinners' (philos telōnōn kai hamartōlōn) was intended as an insult but has become one of the most beloved descriptions of Jesus.",
+        "[TCR Cross-Reference] Echoes Deuteronomy 21:20. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 35,
+      "text_greek": "καὶ ἐδικαιώθη ἡ σοφία ἀπὸ πάντων τῶν τέκνων αὐτῆς.",
+      "text_kjv": "But wisdom is justified of all her children.",
+      "rendering": "Yet wisdom is vindicated by all her children.\"",
+      "translator_notes": [
+        "The personification of Wisdom (sophia) echoes Proverbs 8-9. The meaning is that God's wisdom — expressed through both John's austerity and Jesus's celebratory presence — is proven right by its results ('children,' teknōn). Luke has 'all her children' where Matthew has 'her deeds' (Matthew 11:19).",
+        "[TCR Cross-Reference] This verse quotes Proverbs 8-9 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 36,
+      "text_greek": "Ἠρώτα δέ τις αὐτὸν τῶν Φαρισαίων ἵνα φάγῃ μετ' αὐτοῦ, καὶ εἰσελθὼν εἰς τὸν οἶκον τοῦ Φαρισαίου κατεκλίθη.",
+      "text_kjv": "And one of the Pharisees desired him that he would eat with him. And he went into the Pharisee's house, and sat down to meat.",
+      "rendering": "One of the Pharisees asked him to eat with him, and he went into the Pharisee's house and reclined at table.",
+      "translator_notes": [
+        "Jesus accepts dinner invitations from Pharisees as well as sinners — he is not partisan in his associations. The verb kateklithē ('reclined') indicates a formal meal; diners reclined on couches, leaning on the left elbow with feet extending behind them — a detail essential for understanding the woman's approach in verse 38."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 37,
+      "text_greek": "καὶ ἰδοὺ γυνὴ ἥτις ἦν ἐν τῇ πόλει ἁμαρτωλός, καὶ ἐπιγνοῦσα ὅτι κατάκειται ἐν τῇ οἰκίᾳ τοῦ Φαρισαίου, κομίσασα ἀλάβαστρον μύρου",
+      "text_kjv": "And, behold, a woman in the city, which was a sinner, when she knew that Jesus sat at meat in the Pharisee's house, brought an alabaster box of ointment,",
+      "rendering": "And a woman of the city, who was a sinner, when she learned that he was reclining at table in the Pharisee's house, brought an alabaster flask of ointment.",
+      "translator_notes": [
+        "The woman is identified only as 'a sinner' (hamartōlos) — likely a euphemism for a prostitute, though Luke does not specify. She is not named, and there is no basis for identifying her with Mary Magdalene (a conflation dating to Pope Gregory I in 591 AD). The alabaster flask (alabastron) of myron ('perfumed ointment') was an expensive luxury item."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 38,
+      "text_greek": "καὶ στᾶσα ὀπίσω παρὰ τοὺς πόδας αὐτοῦ κλαίουσα τοῖς δάκρυσιν ἤρξατο βρέχειν τοὺς πόδας αὐτοῦ καὶ ταῖς θριξὶν τῆς κεφαλῆς αὐτῆς ἐξέμασσεν, καὶ κατεφίλει τοὺς πόδας αὐτοῦ καὶ ἤλειφεν τῷ μύρῳ.",
+      "text_kjv": "And stood at his feet behind him weeping, and began to wash his feet with tears, and did wipe them with the hairs of her head, and kissed his feet, and anointed them with the ointment.",
+      "rendering": "Stood at his ankles behind him weeping, and started to wash his ankles with tears, and did wipe them with the hairs of her head, and kissed his feet, and anointed them with the ointment.",
+      "translator_notes": [
+        "Because diners reclined with feet extending away from the table, she could approach his feet from behind without disrupting the meal. Every action is extravagant: tears as washing water, unbound hair as a towel (a Jewish woman letting down her hair in public was scandalous), repeated kissing (katephilei, imperfect tense indicating continuous action), and costly ointment on feet rather than head. The scene is an act of lavish, self-abandoning devotion."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 39,
+      "text_greek": "ἰδὼν δὲ ὁ Φαρισαῖος ὁ καλέσας αὐτὸν εἶπεν ἐν ἑαυτῷ λέγων· Οὗτος εἰ ἦν προφήτης, ἐγίνωσκεν ἂν τίς καὶ ποταπὴ ἡ γυνὴ ἥτις ἅπτεται αὐτοῦ, ὅτι ἁμαρτωλός ἐστιν.",
+      "text_kjv": "Now when the Pharisee which had bidden him saw it, he spake within himself, saying, This man, if he were a prophet, would have known who and what manner of woman this is that toucheth him: for she is a sinner.",
+      "rendering": "Now when the Pharisee who had invited him saw this, he said to himself, \"If this man were a prophet, he would have known who and what sort of woman this is who is touching him — that she is a sinner.\"",
+      "translator_notes": [
+        "The Pharisee's reasoning contains a double error: he assumes a prophet would (1) know the woman's character, and (2) refuse her touch. In fact, Jesus does know (as he will demonstrate), and his acceptance of her is precisely the prophetic act. The Pharisee is named Simon in verse 40."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 40,
+      "text_greek": "καὶ ἀποκριθεὶς ὁ Ἰησοῦς εἶπεν πρὸς αὐτόν· Σίμων, ἔχω σοί τι εἰπεῖν. ὁ δέ· Διδάσκαλε, εἰπέ, φησίν.",
+      "text_kjv": "And Jesus answering said unto him, Simon, I have somewhat to say unto thee. And he saith, Master, say on.",
+      "rendering": "Jesus answered him, \"Simon, I have something to say to you.\" And he said, \"Say it, Teacher.\"",
+      "translator_notes": [
+        "Jesus 'answered' (apokritheis) the Pharisee's unspoken thought — demonstrating the very prophetic knowledge Simon doubted. By addressing Simon by name, Jesus personalizes the confrontation. Simon's polite response ('Teacher,' Didaskale) maintains social decorum."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 41,
+      "text_greek": "δύο χρεοφειλέται ἦσαν δανιστῇ τινι· ὁ εἷς ὤφειλεν δηνάρια πεντακόσια, ὁ δὲ ἕτερος πεντήκοντα.",
+      "text_kjv": "There was a certain creditor which had two debtors: the one owed five hundred pence, and the other fifty.",
+      "rendering": "\"A certain moneylender had two debtors. One owed five hundred denarii, and the other fifty.",
+      "translator_notes": [
+        "A denarius (dēnarion) was approximately one day's wage for a laborer. The debts are therefore roughly 500 days' wages versus 50 — a tenfold difference. The parable is deceptively simple but contains the key to the entire scene."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 42,
+      "text_greek": "μὴ ἐχόντων αὐτῶν ἀποδοῦναι ἀμφοτέροις ἐχαρίσατο. τίς οὖν αὐτῶν πλεῖον ἀγαπήσει αὐτόν;",
+      "text_kjv": "And when they had nothing to pay, he frankly forgave them both. Tell me therefore, which of them will love him most?",
+      "rendering": "When they could not pay, he graciously forgave them both. Now which of them will love him more?\"",
+      "translator_notes": [
+        "The verb echarisato ('forgave graciously, granted as a favor') shares the root of charis ('grace'). Both debts are cancelled — forgiveness is complete in both cases. The question is about proportional response: who will be more grateful?"
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 43,
+      "text_greek": "ἀποκριθεὶς Σίμων εἶπεν· Ὑπολαμβάνω ὅτι ᾧ τὸ πλεῖον ἐχαρίσατο. ὁ δὲ εἶπεν αὐτῷ· Ὀρθῶς ἔκρινας.",
+      "text_kjv": "Simon answered and said, I suppose that he, to whom he forgave most. And he said unto him, Thou hast rightly judged.",
+      "rendering": "Simon answered, \"I suppose the one to whom he forgave more.\" He said to him, \"You have judged correctly.\"",
+      "translator_notes": [
+        "Simon's cautious 'I suppose' (hypolambanō) suggests he senses a trap. Jesus's confirmation — 'You have judged correctly' (orthōs ekrinas) — is both an affirmation and an ironic reversal: Simon has just pronounced the principle that condemns his own lack of hospitality."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 44,
+      "text_greek": "καὶ στραφεὶς πρὸς τὴν γυναῖκα τῷ Σίμωνι ἔφη· Βλέπεις ταύτην τὴν γυναῖκα; εἰσῆλθόν σου εἰς τὴν οἰκίαν, ὕδωρ μοι ἐπὶ πόδας οὐκ ἔδωκας· αὕτη δὲ τοῖς δάκρυσιν ἔβρεξέν μου τοὺς πόδας καὶ ταῖς θριξὶν αὐτῆς ἐξέμαξεν.",
+      "text_kjv": "And he turned to the woman, and said unto Simon, Seest thou this woman? I entered into thine house, thou gavest me no water for my feet: but she hath washed my feet with tears, and wiped them with the hairs of her head.",
+      "rendering": "Then turning toward the woman, he said to Simon, \"Do you see this woman? I entered your house; you gave me no water for my feet, but she has wet my feet with her tears and wiped them with her hair.",
+      "translator_notes": [
+        "Jesus physically turns toward the woman but speaks to Simon — forcing Simon to see her as a person, not a category. The threefold contrast (water/tears, kiss/kissing, oil/ointment) exposes Simon's failure of basic hospitality. Providing water for a guest's feet was a minimal courtesy."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 45,
+      "text_greek": "φίλημά μοι οὐκ ἔδωκας· αὕτη δὲ ἀφ' ἧς εἰσῆλθον οὐ διέλιπεν καταφιλοῦσά μου τοὺς πόδας.",
+      "text_kjv": "Thou gavest me no kiss: but this woman since the time I came in hath not ceased to kiss my feet.",
+      "rendering": "You gave me no kiss, but from the time I came in she has not ceased kissing my feet.",
+      "translator_notes": [
+        "A greeting kiss was standard hospitality. Simon neglected even this basic courtesy, while the woman's devotion has been continuous (ou dielipen, 'has not ceased') from the moment Jesus arrived."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 46,
+      "text_greek": "ἐλαίῳ τὴν κεφαλήν μου οὐκ ἤλειψας· αὕτη δὲ μύρῳ ἤλειψεν τοὺς πόδας μου.",
+      "text_kjv": "My head with oil thou didst not anoint: but this woman hath anointed my feet with ointment.",
+      "rendering": "You did not anoint my head with oil, but she has anointed my feet with ointment.",
+      "translator_notes": [
+        "The final contrast is the sharpest: Simon did not even provide basic olive oil (elaion) for Jesus's head; she provided expensive perfumed ointment (myron) for his feet. Anointing a guest's head was a sign of honor and welcome (cf. Psalm 23:5).",
+        "[TCR Cross-Reference] Quotes Psalm 23:5. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 47,
+      "text_greek": "οὗ χάριν λέγω σοι, ἀφέωνται αἱ ἁμαρτίαι αὐτῆς αἱ πολλαί, ὅτι ἠγάπησεν πολύ· ᾧ δὲ ὀλίγον ἀφίεται, ὀλίγον ἀγαπᾷ.",
+      "text_kjv": "Wherefore I say unto thee, Her sins, which are many, are forgiven; for she loved much: but to whom little is forgiven, the same loveth little.",
+      "rendering": "Therefore I tell you, her sins, which are many, are forgiven — for she loved much. But the one who is forgiven little, loves little.\"",
+      "translator_notes": [
+        "The logic of the parable makes clear that her love is the result of forgiveness, not its cause. The Greek hou charin ('for which reason') and hoti ('because') indicate evidence, not causation: her great love demonstrates that she has already received great forgiveness. The sentence about 'the one forgiven little' is a subtle rebuke of Simon's self-righteousness."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 48,
+      "text_greek": "εἶπεν δὲ αὐτῇ· Ἀφέωνταί σου αἱ ἁμαρτίαι.",
+      "text_kjv": "And he said unto her, Thy sins are forgiven.",
+      "rendering": "Then he said to her, \"Your sins are forgiven.\"",
+      "translator_notes": [
+        "Jesus now addresses the woman directly for the first time. The perfect tense apheōntai ('have been and remain forgiven') confirms a completed action — her forgiveness is not new but is now publicly declared."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 49,
+      "text_greek": "καὶ ἤρξαντο οἱ συνανακείμενοι λέγειν ἐν ἑαυτοῖς· Τίς οὗτός ἐστιν ὃς καὶ ἁμαρτίας ἀφίησιν;",
+      "text_kjv": "And they that sat at meat with him began to say within themselves, Who is this that forgiveth sins also?",
+      "rendering": "Then those who were at table with him began to say among themselves, \"Who is this, who even forgives sins?\"",
+      "translator_notes": [
+        "The other guests raise the question that has been building since Luke 5:21: forgiving sins is a divine prerogative. Their question is left unanswered — Luke lets the implicit Christological claim stand without resolution, forcing the reader to answer for themselves."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 50,
+      "text_greek": "εἶπεν δὲ πρὸς τὴν γυναῖκα· Ἡ πίστις σου σέσωκέν σε· πορεύου εἰς εἰρήνην.",
+      "text_kjv": "And he said to the woman, Thy faith hath saved thee; go in peace.",
+      "rendering": "And he said to the woman, \"Your faith has saved you; go in peace.\"",
+      "translator_notes": [
+        "The verb sesōken ('has saved') is the same word used for physical healing and spiritual salvation. The phrase poreuou eis eirēnēn ('go into peace') translates the Hebrew lekhi leshalom and is a benediction of wholeness — she departs not merely forgiven but restored to shalom."
+      ],
+      "reading_level": "6th grade"
+    }
+  ]
+}

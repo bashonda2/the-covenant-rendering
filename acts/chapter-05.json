@@ -1,0 +1,457 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Acts",
+    "chapter": 5,
+    "source_text": "SBL Greek New Testament (SBLGNT)",
+    "reference_text": "KJV",
+    "generated_at": "2026-04-04T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Acts 5 opens with the sobering story of Ananias and Sapphira, who sell property but secretly withhold part of the proceeds while claiming to give the full amount. Peter confronts each of them separately, and both fall dead — producing great fear in the church. The chapter then describes the apostles' ongoing miraculous ministry in Solomon's Portico, including healings that draw crowds from surrounding cities. The Sanhedrin arrests the apostles again, but an angel releases them from prison. Brought before the council, the apostles declare they must obey God rather than men. Gamaliel's wise counsel — 'if this plan is of God, you will not be able to overthrow them' — leads the council to release them after a flogging.",
+    "remarkable": "The Ananias and Sapphira episode serves as a warning parallel to Achan's sin in Joshua 7 — just as the conquest community was purified through judgment, so the church community faces divine discipline for deception. Peter's statement 'You have not lied to men but to God' (v. 4) and the reference to 'testing the Spirit of the Lord' (v. 9) reveal a high pneumatology — the Holy Spirit is identified with God himself. Gamaliel, the great Pharisaic teacher (Paul's mentor per 22:3), provides the most moderate voice on the council. His historical examples (Theudas and Judas the Galilean) frame the Christian movement within the broader context of first-century Jewish messianic movements.",
+    "friction": "The deaths of Ananias and Sapphira raise difficult theological questions about divine judgment in the age of grace. Peter makes clear in verse 4 that the property was theirs to keep and the proceeds were theirs to control — the sin was deception, not withholding. Gamaliel's historical references present chronological difficulties: Josephus places Theudas's revolt around AD 44-46, after Gamaliel's speech, raising questions about Luke's sources.",
+    "connections": "The Ananias and Sapphira story connects to Achan (Joshua 7) and to the theme of testing God (Deuteronomy 6:16). The apostles' prison release anticipates Peter's more dramatic release in chapter 12. Gamaliel's 'if it is from God' principle echoes Elijah's challenge on Carmel (1 Kings 18). The apostles' joy in suffering (v. 41) connects to Jesus's teaching in Luke 6:22-23."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_greek": "Ἀνὴρ δέ τις Ἁνανίας ὀνόματι σὺν Σαπφίρῃ τῇ γυναικὶ αὐτοῦ ἐπώλησεν κτῆμα",
+      "text_kjv": "But a certain man named Ananias, with Sapphira his wife, sold a possession,",
+      "rendering": "But a man named Ananias, together with his wife Sapphira, sold a piece of property.",
+      "translator_notes": [
+        "The name Ananias (Hananias) means 'the LORD is gracious' — the irony is sharp given the story that follows. Sapphira (Sapphirē) means 'beautiful' or 'sapphire.' Luke introduces them together because their sin is collaborative. The word ktēma ('property, possession') refers to real estate, likely land, connecting to the land-selling of 4:34-37."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 2,
+      "text_greek": "καὶ ἐνοσφίσατο ἀπὸ τῆς τιμῆς, συνειδυίης καὶ τῆς γυναικός, καὶ ἐνέγκας μέρος τι παρὰ τοὺς πόδας τῶν ἀποστόλων ἔθηκεν.",
+      "text_kjv": "And kept back part of the price, his wife also being privy to it, and brought a certain part, and laid it at the apostles' feet.",
+      "rendering": "Kept back part of the price, his wife as well being privy to it, and brought a specific part, and laid it at the apostles' feet.",
+      "translator_notes": [
+        "The verb enosphisato ('kept back, embezzled, misappropriated') is the same word the LXX uses for Achan's theft from the devoted things in Joshua 7:1 — Luke deliberately echoes that earlier story of deception within a covenant community. The phrase syneiduiēs kai tēs gynaikos ('his wife also being privy to it') establishes Sapphira as a knowing co-conspirator, not an unwitting partner.",
+        "[TCR Cross-Reference] Draws on Joshua 7:1. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 3,
+      "text_greek": "εἶπεν δὲ ὁ Πέτρος· Ἁνανία, διὰ τί ἐπλήρωσεν ὁ σατανᾶς τὴν καρδίαν σου ψεύσασθαί σε τὸ πνεῦμα τὸ ἅγιον καὶ νοσφίσασθαι ἀπὸ τῆς τιμῆς τοῦ χωρίου;",
+      "text_kjv": "But Peter said, Ananias, why hath Satan filled thine heart to lie to the Holy Ghost, and to keep back part of the price of the land?",
+      "rendering": "But Peter said, \"Ananias, why has Satan filled your heart to lie to the Holy Spirit and to keep back part of the proceeds of the land?",
+      "translator_notes": [
+        "Peter attributes the deception to satanic influence — 'Satan filled your heart' (eplērōsen ho satanas tēn kardian sou) — using filling language that contrasts with the Spirit-filling of 4:31. Where the Spirit fills for bold truth, Satan fills for calculated deception. The verb pseusasthai ('to lie to, to deceive') takes the Holy Spirit as its object, establishing the Spirit as a personal being who can be lied to, not merely an impersonal force."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 4,
+      "text_greek": "οὐχὶ μένον σοὶ ἔμενεν καὶ πραθὲν ἐν τῇ σῇ ἐξουσίᾳ ὑπῆρχεν; τί ὅτι ἔθου ἐν τῇ καρδίᾳ σου τὸ πρᾶγμα τοῦτο; οὐκ ἐψεύσω ἀνθρώποις ἀλλὰ τῷ θεῷ.",
+      "text_kjv": "Whiles it remained, was it not thine own? and after it was sold, was it not in thine own power? why hast thou conceived this thing in thine heart? thou hast not lied unto men, but unto God.",
+      "rendering": "While it remained unsold, was it not your own? And after it was sold, were the proceeds not at your disposal? Why is it that you conceived this deed in your heart? You have not lied to people but to God.\"",
+      "translator_notes": [
+        "Peter makes two crucial clarifications. First, the giving was voluntary — the property was Ananias's to keep and the money his to control (en tē sē exousia, 'in your own authority'). The sin was not in withholding but in pretending to give everything while secretly keeping back. Second, Peter equates lying to the Holy Spirit (v. 3) with lying to God (v. 4) — a direct identification of the Spirit with God that has significant trinitarian implications."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 5,
+      "text_greek": "ἀκούων δὲ ὁ Ἁνανίας τοὺς λόγους τούτους πεσὼν ἐξέψυξεν· καὶ ἐγένετο φόβος μέγας ἐπὶ πάντας τοὺς ἀκούοντας.",
+      "text_kjv": "And Ananias hearing these words fell down, and gave up the ghost: and great fear came on all them that heard these things.",
+      "rendering": "When Ananias heard these words, he fell down and breathed his last. And great fear came upon all who heard of it.",
+      "translator_notes": [
+        "The verb exepsyxen ('breathed his last, expired') is clinical — Luke does not say God struck him dead, though the implication is divine judgment. The 'great fear' (phobos megas) that results is distinct from the reverential awe of 2:43; this is genuine terror at the holiness of God active in the community. The immediate death without opportunity for repentance parallels the judgment on Achan (Joshua 7:25) and on Nadab and Abihu (Leviticus 10:1-2).",
+        "[TCR Cross-Reference] This verse quotes Joshua 7:25 — see the TCR rendering of that passage for the Hebrew source text and translation decisions.",
+        "[TCR Cross-Reference] This verse quotes Leviticus 10:1-2 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 6,
+      "text_greek": "ἀναστάντες δὲ οἱ νεώτεροι συνέστειλαν αὐτὸν καὶ ἐξενέγκαντες ἔθαψαν.",
+      "text_kjv": "And the young men arose, wound him up, and carried him out, and buried him.",
+      "rendering": "The young men rose, wrapped his body, carried him out, and buried him.",
+      "translator_notes": [
+        "The 'young men' (neōteroi) appear to serve as practical helpers in the community — not an official order but an informal group of younger members. The verb synesteilan ('wrapped up') refers to preparing the body for burial. Jewish custom required prompt burial, usually on the same day of death. The speed of the burial — no mention of mourning rites — adds to the narrative's severity."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 7,
+      "text_greek": "ἐγένετο δὲ ὡς ὡρῶν τριῶν διάστημα καὶ ἡ γυνὴ αὐτοῦ μὴ εἰδυῖα τὸ γεγονὸς εἰσῆλθεν.",
+      "text_kjv": "And it was about the space of three hours after, when his wife, not knowing what was done, came in.",
+      "rendering": "About three hours later his wife came in, not knowing what had happened.",
+      "translator_notes": [
+        "The three-hour interval (hōs hōrōn triōn diastēma) provides time for the burial and sets up the separate testing of Sapphira. Her ignorance of Ananias's death (mē eiduia to gegonos) means her responses are uncoerced — she has a genuine opportunity to tell the truth."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 8,
+      "text_greek": "ἀπεκρίθη δὲ πρὸς αὐτὴν Πέτρος· εἰπέ μοι, εἰ τοσούτου τὸ χωρίον ἀπέδοσθε; ἡ δὲ εἶπεν· ναί, τοσούτου.",
+      "text_kjv": "And Peter answered unto her, Tell me whether ye sold the land for so much? And she said, Yea, for so much.",
+      "rendering": "Peter said to her, \"Tell me, did you sell the land for this amount?\" She said, \"Yes, for that amount.\"",
+      "translator_notes": [
+        "Peter's question gives Sapphira an opportunity for honesty — 'for this amount?' (ei tosoutou) presumably indicating the amount Ananias had presented. Her affirmative answer (nai, tosoutou) confirms her complicity in the deception. She could have told the truth and been spared; the test reveals her heart."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 9,
+      "text_greek": "ὁ δὲ Πέτρος πρὸς αὐτήν· τί ὅτι συνεφωνήθη ὑμῖν πειράσαι τὸ πνεῦμα κυρίου; ἰδοὺ οἱ πόδες τῶν θαψάντων τὸν ἄνδρα σου ἐπὶ τῇ θύρᾳ καὶ ἐξοίσουσίν σε.",
+      "text_kjv": "Then Peter said unto her, How is it that ye have agreed together to tempt the Spirit of the Lord? behold, the feet of them which have buried thy husband are at the door, and shall carry thee out.",
+      "rendering": "Peter said to her, \"How is it that you agreed together to test the Spirit of the Lord? Look, the feet of those who buried your husband are at the door, and they will carry you out as well.\"",
+      "translator_notes": [
+        "The phrase synephōnēthē hymin ('you agreed together') reveals a deliberate conspiracy — the same verb gives us 'symphony,' indicating coordinated action. 'Testing the Spirit of the Lord' (peirasai to pneuma kyriou) echoes Israel's sin of testing God in the wilderness (Exodus 17:2, Deuteronomy 6:16). Peter's announcement of the burial party at the door is simultaneously a prophecy and a judgment.",
+        "[TCR Cross-Reference] Echoes Exodus 17:2. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale.",
+        "[TCR Cross-Reference] Echoes Deuteronomy 6:16. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 10,
+      "text_greek": "ἔπεσεν δὲ παραχρῆμα πρὸς τοὺς πόδας αὐτοῦ καὶ ἐξέψυξεν· εἰσελθόντες δὲ οἱ νεανίσκοι εὗρον αὐτὴν νεκρὰν καὶ ἐξενέγκαντες ἔθαψαν πρὸς τὸν ἄνδρα αὐτῆς.",
+      "text_kjv": "Then fell she down straightway at his feet, and yielded up the ghost: and the young men came in, and found her dead, and, carrying her forth, buried her by her husband.",
+      "rendering": "Immediately she fell down at his feet and breathed her last. When the young men came in, they found her dead, and they carried her out and buried her beside her husband.",
+      "translator_notes": [
+        "The word parachrēma ('immediately') emphasizes the instantaneous nature of the judgment. The parallel with Ananias's death is exact — the same verb exepsyxen ('breathed her last') and the same agents (the young men) performing the burial. She is buried 'beside her husband' (pros ton andra autēs) — united in death as they were in deception."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 11,
+      "text_greek": "καὶ ἐγένετο φόβος μέγας ἐφ' ὅλην τὴν ἐκκλησίαν καὶ ἐπὶ πάντας τοὺς ἀκούοντας ταῦτα.",
+      "text_kjv": "And great fear came upon all the church, and upon as many as heard these things.",
+      "rendering": "Great fear came upon the whole church and upon all who heard about these things.",
+      "translator_notes": [
+        "This is the first use of ekklēsia ('church, assembly, congregation') in Acts. The word derives from ek-kaleō ('to call out') and was used in the Septuagint to translate the Hebrew qahal ('assembly'). Luke introduces the term at a moment of holy fear rather than celebration. The fear extends beyond the church to outsiders ('all who heard'), creating a double effect: purification within and reverence without."
+      ],
+      "key_terms": [
+        {
+          "greek": "ἐκκλησία",
+          "transliteration": "ekklēsia",
+          "rendered_as": "church",
+          "semantic_range": "assembly, congregation, church, gathering of called-out ones",
+          "note": "First occurrence in Acts. In secular Greek, ekklēsia was the citizen assembly of a Greek city-state. In the LXX, it translates qahal, the assembly of Israel before God. Luke's use bridges both senses: this is both a gathered community and the people of God."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 12,
+      "text_greek": "Διὰ δὲ τῶν χειρῶν τῶν ἀποστόλων ἐγίνετο σημεῖα καὶ τέρατα πολλὰ ἐν τῷ λαῷ· καὶ ἦσαν ὁμοθυμαδὸν ἅπαντες ἐν τῇ Στοᾷ Σολομῶντος,",
+      "text_kjv": "And by the hands of the apostles were many signs and wonders wrought among the people; (and they were all with one accord in Solomon's porch.",
+      "rendering": "Now many signs and wonders were being done among the people through the hands of the apostles. They were all together in Solomon's Portico,",
+      "translator_notes": [
+        "The summary returns to the pattern of 2:43 — signs and wonders accompany the apostles' ministry. Solomon's Portico (Stoa Solomōntos) has become the church's regular public meeting place (cf. 3:11). The phrase 'through the hands' (dia tōn cheirōn) emphasizes that the apostles are instruments, not the source of the miraculous power."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 13,
+      "text_greek": "τῶν δὲ λοιπῶν οὐδεὶς ἐτόλμα κολλᾶσθαι αὐτοῖς, ἀλλ' ἐμεγάλυνεν αὐτοὺς ὁ λαός·",
+      "text_kjv": "And of the rest durst no man join himself to them: but the people magnified them.",
+      "rendering": "No one else dared to associate with them publicly, yet the people held them in high regard.",
+      "translator_notes": [
+        "The 'rest' (tōn loipōn) likely refers to non-believers or marginal sympathizers who respected the movement but feared full commitment — perhaps because of the Ananias and Sapphira episode. The verb etolma ('dared') suggests that joining required courage given the Sanhedrin's opposition and the community's evident holiness. The paradox is that fear kept some away while admiration drew others in."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 14,
+      "text_greek": "μᾶλλον δὲ προσετίθεντο πιστεύοντες τῷ κυρίῳ, πλήθη ἀνδρῶν τε καὶ γυναικῶν,",
+      "text_kjv": "And believers were the more added to the Lord, multitudes both of men and women.)",
+      "rendering": "Yet more than ever believers were added to the Lord, multitudes of both men and women,",
+      "translator_notes": [
+        "Despite (or because of) the fear, the church grows — 'more than ever' (mallon) indicates accelerating growth. Luke explicitly notes 'both men and women' (andrōn te kai gynaikōn), a detail that emphasizes the inclusive nature of the community and corrects the male-only counting of 4:4."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 15,
+      "text_greek": "ὥστε καὶ εἰς τὰς πλατείας ἐκφέρειν τοὺς ἀσθενεῖς καὶ τιθέναι ἐπὶ κλιναρίων καὶ κραβάττων, ἵνα ἐρχομένου Πέτρου κἂν ἡ σκιὰ ἐπισκιάσῃ τινὶ αὐτῶν.",
+      "text_kjv": "Insomuch that they brought forth the sick into the streets, and laid them on beds and couches, that at the least the shadow of Peter passing by might overshadow some of them.",
+      "rendering": "To these people a degree that they brought forth the sick into the streets, and placed them on beds and couches, that at the least the shadow of Peter passing by might overshadow some of them.",
+      "translator_notes": [
+        "The detail about Peter's shadow (hē skia) is remarkable — people believed that even his shadow carried healing power. Luke does not explicitly confirm that shadow-healings occurred, only that people sought them. The parallel to Jesus's ministry is clear: people touched the fringe of Jesus's garment seeking healing (Luke 8:44). The two types of beds — klinarion ('small bed, cot') and krabattos ('pallet, stretcher, mat') — indicate both middle-class and poor patients."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 16,
+      "text_greek": "συνήρχετο δὲ καὶ τὸ πλῆθος τῶν πέριξ πόλεων Ἰερουσαλήμ φέροντες ἀσθενεῖς καὶ ὀχλουμένους ὑπὸ πνευμάτων ἀκαθάρτων, οἵτινες ἐθεραπεύοντο ἅπαντες.",
+      "text_kjv": "There came also a multitude out of the cities round about unto Jerusalem, bringing sick folks, and them which were vexed with unclean spirits: and they were healed every one.",
+      "rendering": "The people also gathered from the towns surrounding Jerusalem, bringing the sick and those tormented by unclean spirits, and they were all healed.",
+      "translator_notes": [
+        "The ministry expands beyond Jerusalem to the surrounding region, beginning to fulfill the geographical progression of 1:8 ('Judea'). Two categories of affliction are distinguished: physical illness (astheneis, 'sick, weak') and spiritual oppression (ochloumenous hypo pneumatōn akathartōn, 'harassed/tormented by unclean spirits'). The comprehensive result — 'they were all healed' (etherapeuonto hapantes) — mirrors Jesus's own healing ministry (Luke 6:19)."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 17,
+      "text_greek": "Ἀναστὰς δὲ ὁ ἀρχιερεὺς καὶ πάντες οἱ σὺν αὐτῷ, ἡ οὖσα αἵρεσις τῶν Σαδδουκαίων, ἐπλήσθησαν ζήλου",
+      "text_kjv": "Then the high priest rose up, and all they that were with him, (which is the sect of the Sadducees,) and were filled with indignation,",
+      "rendering": "Then the high priest and all who were with him (that is, the party of the Sadducees) rose up, filled with jealousy,",
+      "translator_notes": [
+        "The word zēlou can mean either 'zeal' or 'jealousy' — in this context, jealousy at the apostles' popularity is the primary motivation, though it may include religious zeal against perceived heresy. Luke identifies the opposition party as Sadducees, consistent with 4:1 — the resurrection preaching is the primary irritant for this group that denies resurrection. The word hairesis ('party, sect, school of thought') is the root of 'heresy' but does not yet carry that negative connotation."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 18,
+      "text_greek": "καὶ ἐπέβαλον τὰς χεῖρας ἐπὶ τοὺς ἀποστόλους καὶ ἔθεντο αὐτοὺς ἐν τηρήσει δημοσίᾳ.",
+      "text_kjv": "And laid their hands on the apostles, and put them in the common prison.",
+      "rendering": "Placed their hands on the messengers, and put them in the common prison.",
+      "translator_notes": [
+        "Unlike the previous arrest of just Peter and John (4:3), all the apostles are now arrested. The 'public jail' (tērēsei dēmosia) distinguishes this from private temple detention — this is official civic imprisonment, escalating the conflict. The phrase epebalon tas cheiras ('laid hands on') indicates physical seizure."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 19,
+      "text_greek": "ἄγγελος δὲ κυρίου διὰ νυκτὸς ἤνοιξεν τὰς θύρας τῆς φυλακῆς ἐξαγαγών τε αὐτοὺς εἶπεν·",
+      "text_kjv": "But the angel of the Lord by night opened the prison doors, and brought them forth, and said,",
+      "rendering": "But during the night an angel of the Lord opened the prison doors, brought them out, and said,",
+      "translator_notes": [
+        "The phrase angelos kyriou ('angel of the Lord') echoes the Hebrew malak YHWH — a divine messenger acting on God's authority. The prison escape is narrated with minimal dramatic detail, in contrast to Peter's more elaborate release in chapter 12. The angel does not merely free them but gives them a commission (v. 20), indicating that the release serves the mission, not merely the apostles' comfort."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 20,
+      "text_greek": "πορεύεσθε καὶ σταθέντες λαλεῖτε ἐν τῷ ἱερῷ τῷ λαῷ πάντα τὰ ῥήματα τῆς ζωῆς ταύτης.",
+      "text_kjv": "Go, stand and speak in the temple to the people all the words of this life.",
+      "rendering": "\"Go, stand in the temple and speak to the people all the words of this Life.\"",
+      "translator_notes": [
+        "The angel's command is direct and defiant: return to the very place where you were arrested and continue teaching. The phrase 'all the words of this Life' (panta ta rhēmata tēs zōēs tautēs) is remarkable — the gospel message is summarized as 'this Life,' identifying the message with the life it proclaims. Some scholars capitalize 'Life' here as a christological reference."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 21,
+      "text_greek": "ἀκούσαντες δὲ εἰσῆλθον ὑπὸ τὸν ὄρθρον εἰς τὸ ἱερὸν καὶ ἐδίδασκον. Παραγενόμενος δὲ ὁ ἀρχιερεὺς καὶ οἱ σὺν αὐτῷ συνεκάλεσαν τὸ συνέδριον καὶ πᾶσαν τὴν γερουσίαν τῶν υἱῶν Ἰσραὴλ καὶ ἀπέστειλαν εἰς τὸ δεσμωτήριον ἀχθῆναι αὐτούς.",
+      "text_kjv": "And when they heard that, they entered into the temple early in the morning, and taught. But the high priest came, and they that were with him, and called the council together, and all the senate of the children of Israel, and sent to the prison to have them brought.",
+      "rendering": "When they heard this, they entered the temple at daybreak and began to teach. When the high priest and those with him arrived, they convened the Sanhedrin — the full council of elders of the people of Israel — and sent to the jail to have the apostles brought.",
+      "translator_notes": [
+        "The apostles obey the angel immediately, entering the temple 'at daybreak' (hypo ton orthron), the earliest possible hour. Meanwhile, the Sanhedrin assembles in formal session. Luke emphasizes the full body: both the synedrion ('Sanhedrin, council') and the gerousian ('council of elders, senate') — possibly the same body described two ways, or a reference to the plenary session as opposed to an executive committee. The dramatic irony builds: the council sends for prisoners who are no longer there."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 22,
+      "text_greek": "οἱ δὲ παραγενόμενοι ὑπηρέται οὐχ εὗρον αὐτοὺς ἐν τῇ φυλακῇ, ἀναστρέψαντες δὲ ἀπήγγειλαν",
+      "text_kjv": "But when the officers came, and found them not in the prison, they returned, and told,",
+      "rendering": "But when the officers arrived at the jail, they did not find them there. So they returned and reported,",
+      "translator_notes": [
+        "The hypēretai ('officers, servants, attendants') are the temple police, subordinate to the captain of the temple (v. 26). The empty jail creates a narrative parallel to the empty tomb — divine power has overturned human confinement."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 23,
+      "text_greek": "λέγοντες ὅτι τὸ δεσμωτήριον εὕρομεν κεκλεισμένον ἐν πάσῃ ἀσφαλείᾳ καὶ τοὺς φύλακας ἑστῶτας ἐπὶ τῶν θυρῶν, ἀνοίξαντες δὲ ἔσω οὐδένα εὕρομεν.",
+      "text_kjv": "Saying, The prison truly found we shut with all safety, and the keepers standing without before the doors: but when we had opened, we found no man within.",
+      "rendering": "\"We found the jail securely locked and the guards standing at the doors, but when we opened them, we found no one inside.\"",
+      "translator_notes": [
+        "The officers' report emphasizes the impossibility of the escape by natural means: the prison was 'securely locked' (kekleismenon en pasē asphaleia), the guards were at their posts ('standing at the doors'), yet the prisoners were gone. Every security measure was intact. The supernatural nature of the release is undeniable, adding to the council's bewilderment in the next verse."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 24,
+      "text_greek": "ὡς δὲ ἤκουσαν τοὺς λόγους τούτους ὅ τε στρατηγὸς τοῦ ἱεροῦ καὶ οἱ ἀρχιερεῖς, διηπόρουν περὶ αὐτῶν τί ἂν γένοιτο τοῦτο.",
+      "text_kjv": "Now when the high priest and the captain of the temple and the chief priests heard these things, they doubted of them whereunto this would grow.",
+      "rendering": "When the captain of the temple and the chief priests heard these words, they were greatly perplexed about them, wondering what this might come to.",
+      "translator_notes": [
+        "The verb diēporoun ('were perplexed, were at a loss') is the same word used for the Pentecost crowd's confusion (2:12). The authorities cannot explain what has happened and fear where events are heading. The phrase ti an genoito touto ('what this might become') reveals anxiety about the movement's trajectory — a concern Gamaliel will address in verses 35-39."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 25,
+      "text_greek": "παραγενόμενος δέ τις ἀπήγγειλεν αὐτοῖς ὅτι ἰδοὺ οἱ ἄνδρες οὓς ἔθεσθε ἐν τῇ φυλακῇ εἰσὶν ἐν τῷ ἱερῷ ἑστῶτες καὶ διδάσκοντες τὸν λαόν.",
+      "text_kjv": "Then came one and told them, saying, Behold, the men whom ye put in prison are standing in the temple, and teaching the people.",
+      "rendering": "Then someone came and reported to them, \"Look! The men you put in jail are standing in the temple and teaching the people.\"",
+      "translator_notes": [
+        "The dramatic irony reaches its peak: while the council deliberates about the missing prisoners, the apostles are doing exactly what they were arrested for — standing in the temple teaching. The unnamed reporter's exclamation 'Look!' (idou) captures the absurdity of the situation from the authorities' perspective."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 26,
+      "text_greek": "τότε ἀπελθὼν ὁ στρατηγὸς σὺν τοῖς ὑπηρέταις ἦγεν αὐτούς, οὐ μετὰ βίας, ἐφοβοῦντο γὰρ τὸν λαὸν μὴ λιθασθῶσιν.",
+      "text_kjv": "Then went the captain with the officers, and brought them without violence: for they feared the people, lest they should have been stoned.",
+      "rendering": "Then the captain went with the officers and brought them back, but without force, for they were afraid of being stoned by the people.",
+      "translator_notes": [
+        "The detail 'without force' (ou meta bias) is significant — the temple police feared the people more than they feared the Sanhedrin's displeasure. The ironic reversal is complete: the authorities are the ones afraid, while the apostles who should be afraid are freely teaching. The threat of stoning (mē lithasthōsin) shows how popular the apostles had become."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 27,
+      "text_greek": "ἀγαγόντες δὲ αὐτοὺς ἔστησαν ἐν τῷ συνεδρίῳ. καὶ ἐπηρώτησεν αὐτοὺς ὁ ἀρχιερεύς",
+      "text_kjv": "And when they had brought them, they set them before the council: and the high priest asked them,",
+      "rendering": "When they had brought them, they stood them before the Sanhedrin, and the high priest questioned them,",
+      "translator_notes": [
+        "The scene replicates 4:7 — the apostles again stand before the council. The repetition underscores the escalating conflict: the first hearing produced warnings (4:17-18), this one will produce violence (v. 40)."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 28,
+      "text_greek": "λέγων· παραγγελίᾳ παρηγγείλαμεν ὑμῖν μὴ διδάσκειν ἐπὶ τῷ ὀνόματι τούτῳ, καὶ ἰδοὺ πεπληρώκατε τὴν Ἰερουσαλὴμ τῆς διδαχῆς ὑμῶν καὶ βούλεσθε ἐπαγαγεῖν ἐφ' ἡμᾶς τὸ αἷμα τοῦ ἀνθρώπου τούτου.",
+      "text_kjv": "Saying, Did not we straitly command you that ye should not teach in this name? and, behold, ye have filled Jerusalem with your doctrine, and intend to bring this man's blood upon us.",
+      "rendering": "Indeed, declaring, Did not we straitly command you that you should not teach in this name? and, take notice, you have filled Jerusalem with your doctrine, and intend to bring this man's blood upon us.",
+      "translator_notes": [
+        "The high priest's complaint inadvertently confirms the success of the apostles' mission: 'you have filled Jerusalem with your teaching' (peplērōkate tēn Ierousalēm tēs didachēs hymōn). The phrase 'this man's blood upon us' (to haima tou anthrōpou toutou) is deeply ironic: in Matthew 27:25, the crowd accepted precisely this responsibility ('His blood be on us and on our children'). The high priest avoids saying Jesus's name, calling him 'this man' (tou anthrōpou toutou)."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 29,
+      "text_greek": "ἀποκριθεὶς δὲ Πέτρος καὶ οἱ ἀπόστολοι εἶπαν· πειθαρχεῖν δεῖ θεῷ μᾶλλον ἢ ἀνθρώποις.",
+      "text_kjv": "Then Peter and the other apostles answered and said, We ought to obey God rather than men.",
+      "rendering": "But Peter and the apostles answered, \"We must obey God rather than men.",
+      "translator_notes": [
+        "This sharpens the principle stated in 4:19. There, Peter asked the council to judge; here, he simply declares the verdict. The verb peitharchein ('to obey, to submit to authority') is a strong term for compliance with authority — the apostles recognize the Sanhedrin's authority but assert a higher one. The word dei ('it is necessary, one must') expresses divine compulsion, not personal preference."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 30,
+      "text_greek": "ὁ θεὸς τῶν πατέρων ἡμῶν ἤγειρεν Ἰησοῦν ὃν ὑμεῖς διεχειρίσασθε κρεμάσαντες ἐπὶ ξύλου·",
+      "text_kjv": "The God of our fathers raised up Jesus, whom ye slew and hanged on a tree.",
+      "rendering": "The God of our fathers raised up Jesus, whom you killed by hanging him on a tree.",
+      "translator_notes": [
+        "Peter again begins with 'the God of our fathers' (ho theos tōn paterōn hēmōn), maintaining the claim that the apostles represent authentic Israelite faith. The verb diecheirisasthe ('killed, laid violent hands on, did away with') is blunt. The phrase 'hanging on a tree' (kremasantes epi xylou) deliberately evokes Deuteronomy 21:22-23, where a person hung on a tree is 'cursed by God.' Peter turns the curse into an argument: Jesus bore the covenant curse, but God reversed it through resurrection (cf. Galatians 3:13).",
+        "[TCR Cross-Reference] This verse quotes Deuteronomy 21:22-23 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 31,
+      "text_greek": "τοῦτον ὁ θεὸς ἀρχηγὸν καὶ σωτῆρα ὕψωσεν τῇ δεξιᾷ αὐτοῦ τοῦ δοῦναι μετάνοιαν τῷ Ἰσραὴλ καὶ ἄφεσιν ἁμαρτιῶν.",
+      "text_kjv": "Him hath God exalted with his right hand to be a Prince and a Saviour, for to give repentance to Israel, and forgiveness of sins.",
+      "rendering": "God exalted him at his right hand as Leader and Savior, to give repentance to Israel and forgiveness of sins.",
+      "translator_notes": [
+        "The twin titles archēgon ('Leader, Author, Pioneer') and sōtēra ('Savior') recall 3:15 ('Author of life'). Jesus is exalted 'at his right hand' (tē dexia autou), echoing Psalm 110:1 and Peter's Pentecost sermon (2:33). The purpose of the exaltation is dual: 'to give repentance' (dounai metanoian) and 'forgiveness of sins' (aphesin hamartiōn). That repentance is something Jesus 'gives' suggests it is a divine gift, not merely a human decision.",
+        "[TCR Cross-Reference] Quotes Psalm 110:1. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 32,
+      "text_greek": "καὶ ἡμεῖς ἐσμεν μάρτυρες τῶν ῥημάτων τούτων καὶ τὸ πνεῦμα τὸ ἅγιον ὃ ἔδωκεν ὁ θεὸς τοῖς πειθαρχοῦσιν αὐτῷ.",
+      "text_kjv": "And we are his witnesses of these things; and so is also the Holy Ghost, whom God hath given to them that obey him.",
+      "rendering": "And we are witnesses to these things, and so is the Holy Spirit, whom God has given to those who obey him.\"",
+      "translator_notes": [
+        "Peter names two witnesses: the apostles ('we are witnesses') and the Holy Spirit. The Spirit's witness is not merely internal but observable — the Pentecost phenomena and the ongoing miraculous signs are the Spirit's public testimony. The Spirit is given to 'those who obey' (tois peitharchousin) — the same verb used in verse 29, creating an implicit contrast: the apostles obey God and receive the Spirit; the council disobeys and opposes."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 33,
+      "text_greek": "Οἱ δὲ ἀκούσαντες διεπρίοντο καὶ ἐβούλοντο ἀνελεῖν αὐτούς.",
+      "text_kjv": "When they heard that, they were cut to the heart, and took counsel to slay them.",
+      "rendering": "When they heard this, they were enraged and wanted to kill them.",
+      "translator_notes": [
+        "The verb dieprionto ('were cut through, were sawn in two') describes a visceral, furious reaction — literally 'cut to the quick.' This is rage, not conviction (contrast the pierced hearts of 2:37). The same word appears in 7:54 at Stephen's trial. The council's impulse is murderous (eboulonto anelein, 'wanted to kill') — the conflict has escalated from warnings (4:17) to threats (4:21) to now lethal intent."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 34,
+      "text_greek": "ἀναστὰς δέ τις ἐν τῷ συνεδρίῳ Φαρισαῖος ὀνόματι Γαμαλιήλ, νομοδιδάσκαλος τίμιος παντὶ τῷ λαῷ, ἐκέλευσεν ἔξω βραχὺ τοὺς ἀνθρώπους ποιῆσαι,",
+      "text_kjv": "Then stood there up one in the council, a Pharisee, named Gamaliel, a doctor of the law, had in reputation among all the people, and commanded to put the apostles forth a little space;",
+      "rendering": "But a Pharisee in the Sanhedrin named Gamaliel, a teacher of the law respected by all the people, stood up and ordered that the men be put outside for a short time.",
+      "translator_notes": [
+        "Gamaliel I (Rabban Gamaliel the Elder) was one of the most respected rabbis of the first century, grandson of Hillel, and the teacher of Saul of Tarsus (22:3). He is the first Pharisee to speak in Acts — significantly, the Pharisees are more moderate than the Sadducees toward the Christian movement, a pattern Luke emphasizes throughout. His title nomodidaskalos ('teacher of the law') and the description timios ('honored, respected') underscore his authority."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 35,
+      "text_greek": "εἶπέν τε πρὸς αὐτούς· ἄνδρες Ἰσραηλῖται, προσέχετε ἑαυτοῖς ἐπὶ τοῖς ἀνθρώποις τούτοις τί μέλλετε πράσσειν.",
+      "text_kjv": "And said unto them, Ye men of Israel, take heed to yourselves what ye intend to do as touching these men.",
+      "rendering": "He said to them, \"Men of Israel, be careful about what you are about to do with these men.",
+      "translator_notes": [
+        "Gamaliel addresses the council, not the apostles. His opening — prosechete heautois ('take heed to yourselves, be careful about yourselves') — warns that rash action could harm the council's own interests and reputation. His concern is pragmatic wisdom, not theological agreement with the apostles."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 36,
+      "text_greek": "πρὸ γὰρ τούτων τῶν ἡμερῶν ἀνέστη Θευδᾶς λέγων εἶναί τινα ἑαυτόν, ᾧ προσεκλίθη ἀνδρῶν ἀριθμὸς ὡς τετρακοσίων· ὃς ἀνῃρέθη, καὶ πάντες ὅσοι ἐπείθοντο αὐτῷ διελύθησαν καὶ ἐγένοντο εἰς οὐδέν.",
+      "text_kjv": "For before these days rose up Theudas, boasting himself to be somebody; to whom a number of men, about four hundred, joined themselves: who was slain; and all, as many as obeyed him, were scattered, and brought to nought.",
+      "rendering": "For some time ago Theudas rose up, claiming to be somebody, and a number of men, about four hundred, joined him. He was killed, and all who followed him were dispersed and came to nothing.",
+      "translator_notes": [
+        "Gamaliel's first historical example is Theudas, who 'claimed to be somebody' (legōn einai tina heauton) — a vague messianic or prophetic pretension. Josephus records a Theudas who led a movement around AD 44-46 (Antiquities 20.97-98), but that would be after this speech. Either Luke or Josephus has the chronology wrong, or there were two figures named Theudas (not uncommon), or the historical problem remains unresolved. Gamaliel's point is clear regardless: the movement died with its leader."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 37,
+      "text_greek": "μετὰ τοῦτον ἀνέστη Ἰούδας ὁ Γαλιλαῖος ἐν ταῖς ἡμέραις τῆς ἀπογραφῆς καὶ ἀπέστησεν λαὸν ὀπίσω αὐτοῦ· κἀκεῖνος ἀπώλετο καὶ πάντες ὅσοι ἐπείθοντο αὐτῷ διεσκορπίσθησαν.",
+      "text_kjv": "After this man rose up Judas of Galilee in the days of the taxing, and drew away much people after him: he also perished; and all, even as many as obeyed him, were dispersed.",
+      "rendering": "After him, Judas the Galilean rose up in the days of the census and drew people away after him. He too perished, and all who followed him were scattered.",
+      "translator_notes": [
+        "Judas the Galilean is well-attested historically. He led a revolt against the Roman census of AD 6 conducted by Quirinius (Josephus, Antiquities 18.1-10, War 2.118). His movement gave rise to the Zealot ideology that Rome must be resisted as a matter of religious principle. Josephus records that his descendants continued the revolutionary tradition. Gamaliel's point: another self-proclaimed leader, another failure."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 38,
+      "text_greek": "καὶ τὰ νῦν λέγω ὑμῖν, ἀπόστητε ἀπὸ τῶν ἀνθρώπων τούτων καὶ ἄφετε αὐτούς· ὅτι ἐὰν ᾖ ἐξ ἀνθρώπων ἡ βουλὴ αὕτη ἢ τὸ ἔργον τοῦτο, καταλυθήσεται·",
+      "text_kjv": "And now I say unto you, Refrain from these men, and let them alone: for if this counsel or this work be of men, it will come to nought:",
+      "rendering": "So in the present case I tell you: stay away from these men and let them go. For if this plan or this work is of human origin, it will fail.",
+      "translator_notes": [
+        "Gamaliel's counsel is pragmatic: let time decide. If the movement is merely human (ex anthrōpōn), it will collapse on its own as Theudas's and Judas's did. The verb katalythēsetai ('will be destroyed, will be overthrown, will come to nothing') indicates complete dissolution. His argument does not require the council to approve of the apostles — only to wait."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 39,
+      "text_greek": "εἰ δὲ ἐκ θεοῦ ἐστιν, οὐ δυνήσεσθε καταλῦσαι αὐτούς, μήποτε καὶ θεομάχοι εὑρεθῆτε.",
+      "text_kjv": "But if it be of God, ye cannot overthrow it; lest haply ye be found even to fight against God.",
+      "rendering": "But if it is from God, you will not be able to overthrow them — you may even be found fighting against God!\"",
+      "translator_notes": [
+        "The warning theomachoi ('fighters against God, God-fighters') is Gamaliel's strongest word — to oppose what God has initiated is not merely futile but sacrilegious. The compound word theo-machoi appears only here in the New Testament. Gamaliel does not say the movement is from God; he says the risk of opposing it if it is from God is too great to take. His logic is asymmetric: if human, no harm in waiting; if divine, catastrophic to oppose."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 40,
+      "text_greek": "ἐπείσθησαν δὲ αὐτῷ, καὶ προσκαλεσάμενοι τοὺς ἀποστόλους δείραντες παρήγγειλαν μὴ λαλεῖν ἐπὶ τῷ ὀνόματι τοῦ Ἰησοῦ καὶ ἀπέλυσαν.",
+      "text_kjv": "And to him they agreed: and when they had called the apostles, and beaten them, they commanded that they should not speak in the name of Jesus, and let them go.",
+      "rendering": "They were persuaded by him, and after calling in the apostles, they had them flogged, ordered them not to speak in the name of Jesus, and released them.",
+      "translator_notes": [
+        "The council accepts Gamaliel's advice but still inflicts punishment. The verb deirantes ('having beaten, having flogged') refers to the malkot or makkot — the standard judicial flogging of up to thirty-nine lashes (2 Corinthians 11:24). This is not a light punishment; it left the body severely bruised and lacerated. The repeated command 'not to speak in the name of Jesus' (mē lalein epi tō onomati tou Iēsou) echoes 4:18 — the order the apostles have already declared they cannot obey."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 41,
+      "text_greek": "Οἱ μὲν οὖν ἐπορεύοντο χαίροντες ἀπὸ προσώπου τοῦ συνεδρίου ὅτι κατηξιώθησαν ὑπὲρ τοῦ ὀνόματος ἀτιμασθῆναι·",
+      "text_kjv": "And they departed from the presence of the council, rejoicing that they were counted worthy to suffer shame for his name.",
+      "rendering": "So they left the presence of the Sanhedrin, rejoicing that they were counted worthy to be dishonored for the sake of the Name.",
+      "translator_notes": [
+        "The apostles' response to flogging is joy (chairontes) — a radical reversal of normal human response to violence. They consider it an honor to 'be dishonored' (atimasthēnai) for 'the Name' (tou onomatos). The paradox is intentional: worldly shame becomes spiritual honor. This fulfills Jesus's beatitude: 'Blessed are you when people hate you... on account of the Son of Man. Rejoice in that day and leap for joy' (Luke 6:22-23). 'The Name' without further specification has become a shorthand for Jesus."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 42,
+      "text_greek": "πᾶσάν τε ἡμέραν ἐν τῷ ἱερῷ καὶ κατ' οἶκον οὐκ ἐπαύοντο διδάσκοντες καὶ εὐαγγελιζόμενοι τὸν χριστὸν Ἰησοῦν.",
+      "text_kjv": "And daily in the temple, and in every house, they ceased not to teach and preach Jesus Christ.",
+      "rendering": "And every day, in the temple and from house to house, they did not stop teaching and proclaiming the good news that Jesus is the Christ.",
+      "translator_notes": [
+        "The chapter's final verse shows complete defiance of the council's order: 'they did not stop' (ouk epauonto) teaching. The dual venue — temple and homes — continues the pattern from 2:46. The content of their message is precisely identified: 'the Christ, Jesus' (ton christon Iēsoun) — that Jesus is the Messiah. The verb euangelizomenoi ('proclaiming good news') gives us 'evangelizing.' The flogging accomplished nothing; the gospel advances without pause."
+      ],
+      "reading_level": "7th grade"
+    }
+  ]
+}

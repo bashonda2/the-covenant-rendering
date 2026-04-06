@@ -1,0 +1,448 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "John",
+    "chapter": 18,
+    "source_text": "SBL Greek New Testament (SBLGNT)",
+    "reference_text": "KJV",
+    "generated_at": "2026-04-04T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "John 18 narrates the arrest of Jesus in the garden, the Jewish interrogation before Annas and Caiaphas, Peter's three denials, and the Roman trial before Pilate. John's account differs from the Synoptics in key details: Jesus initiates the encounter with the arresting party, there is no Gethsemane agony, and the Jewish proceedings focus on Annas rather than a formal Sanhedrin trial. Pilate's interrogation centers on the question of kingship and culminates in the crowd's choice of Barabbas.",
+    "remarkable": "John's arrest scene is theologically charged: when Jesus says ego eimi ('I am he,' v. 5), the soldiers fall to the ground — a detail unique to John that echoes the divine name theophany. Peter's sword-strike is attributed to him by name (only John identifies him). The interweaving of Peter's denials with Jesus's interrogation creates a literary contrast between Jesus's bold confession and Peter's craven denial. Pilate's question 'What is truth?' (v. 38) is one of the most famous philosophical moments in literature, left unanswered while Truth incarnate stands before him.",
+    "friction": "John's chronology of the Jewish proceedings differs from the Synoptics — Jesus is taken first to Annas (the former high priest and father-in-law of Caiaphas), then to Caiaphas, with no detailed account of a Sanhedrin trial. We render John's account as given without harmonizing. The phrase 'not into the Praetorium, so that they would not be defiled' (v. 28) reflects the irony John intends — the Jewish leaders avoid ritual defilement while engineering the death of the innocent.",
+    "connections": "The garden arrest connects to the Gethsemane accounts in the Synoptics (Matthew 26:36-56, Mark 14:32-52, Luke 22:39-53). The ego eimi declaration echoes Exodus 3:14 and John's earlier 'I am' statements (8:24, 8:28, 8:58). Peter's denials fulfill Jesus's prediction in 13:38. Pilate's encounter with Jesus develops the kingship theme running through John (1:49, 6:15, 12:13-15). The Barabbas choice echoes the scapegoat ritual of Leviticus 16."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_greek": "Ταῦτα εἰπὼν Ἰησοῦς ἐξῆλθεν σὺν τοῖς μαθηταῖς αὐτοῦ πέραν τοῦ χειμάρρου τοῦ Κεδρὼν ὅπου ἦν κῆπος, εἰς ὃν εἰσῆλθεν αὐτὸς καὶ οἱ μαθηταὶ αὐτοῦ.",
+      "text_kjv": "When Jesus had spoken these words, he went forth with his disciples over the brook Cedron, where was a garden, into the which he entered, and his disciples.",
+      "rendering": "After Jesus had said these things, he went out with his disciples across the Kidron Valley to a place where there was a garden, and he and his disciples entered it.",
+      "translator_notes": [
+        "The Greek cheimmarrou tou Kedrōn ('the winter-torrent of Kidron') refers to the Kidron Valley east of Jerusalem, between the city and the Mount of Olives. John does not name Gethsemane (a Synoptic detail) but simply refers to a 'garden' (kēpos). The Kidron crossing echoes David's flight from Absalom (2 Samuel 15:23), creating a typological parallel between the rejected kings.",
+        "[TCR Cross-Reference] Quotes 2 Samuel 15:23. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 2,
+      "text_greek": "ᾔδει δὲ καὶ Ἰούδας ὁ παραδιδοὺς αὐτὸν τὸν τόπον, ὅτι πολλάκις συνήχθη Ἰησοῦς ἐκεῖ μετὰ τῶν μαθητῶν αὐτοῦ.",
+      "text_kjv": "And Judas also, which betrayed him, knew the place: for Jesus ofttimes resorted thither with his disciples.",
+      "rendering": "Now Judas, who was betraying him, also knew the place, because Jesus had often met there with his disciples.",
+      "translator_notes": [
+        "The present participle paradidous ('the one handing over, betraying') describes Judas's action as ongoing — he is in the process of betrayal. The detail that Jesus 'often met there' (pollakis synēchthē) explains how Judas knew where to find him and emphasizes that Jesus made no attempt to avoid arrest by changing his routine."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 3,
+      "text_greek": "ὁ οὖν Ἰούδας λαβὼν τὴν σπεῖραν καὶ ἐκ τῶν ἀρχιερέων καὶ ἐκ τῶν Φαρισαίων ὑπηρέτας ἔρχεται ἐκεῖ μετὰ φανῶν καὶ λαμπάδων καὶ ὅπλων.",
+      "text_kjv": "Judas then, having received a band of men and officers from the chief priests and Pharisees, cometh thither with lanterns and torches and weapons.",
+      "rendering": "So Judas, having procured a detachment of soldiers and officers from the chief priests and Pharisees, came there with lanterns, torches, and weapons.",
+      "translator_notes": [
+        "The Greek speiran ('cohort, detachment') technically denotes a Roman military unit of 200-600 soldiers, though it may be used loosely here for a smaller detachment. The involvement of Roman soldiers alongside Jewish temple officers (hypēretas) indicates cooperation between Roman and Jewish authorities. The detail of lanterns and torches at Passover (during a full moon) carries Johannine irony — they bring artificial light to arrest the Light of the World."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 4,
+      "text_greek": "Ἰησοῦς οὖν εἰδὼς πάντα τὰ ἐρχόμενα ἐπ' αὐτόν, ἐξῆλθεν καὶ λέγει αὐτοῖς· τίνα ζητεῖτε;",
+      "text_kjv": "Jesus therefore, knowing all things that should come upon him, went forth, and said unto them, Whom seek ye?",
+      "rendering": "Then Jesus, knowing everything that was going to happen to him, came forward and said to them, \"Who are you looking for?\"",
+      "translator_notes": [
+        "John emphasizes Jesus's omniscience (eidōs panta ta erchomena) — he is not caught off guard but moves toward his captors deliberately. The verb exēlthen ('went out, came forward') shows Jesus taking the initiative rather than being discovered or seized. The question tina zēteite ('Who are you looking for?') is not a request for information but a sovereign challenge."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 5,
+      "text_greek": "ἀπεκρίθησαν αὐτῷ· Ἰησοῦν τὸν Ναζωραῖον. λέγει αὐτοῖς· ἐγώ εἰμι. εἱστήκει δὲ καὶ Ἰούδας ὁ παραδιδοὺς αὐτὸν μετ' αὐτῶν.",
+      "text_kjv": "They answered him, Jesus of Nazareth. Jesus saith unto them, I am he. And Judas also, which betrayed him, stood with them.",
+      "rendering": "They answered him, \"Jesus the Nazarene.\" Jesus said to them, \"I am he.\" Judas, who was betraying him, was also standing with them.",
+      "translator_notes": [
+        "The response egō eimi ('I am he' or simply 'I am') functions on two levels: as a simple identification ('I'm the one you're looking for') and as an echo of the divine self-revelation in Exodus 3:14 and Isaiah 43:10. John's Gospel has used egō eimi repeatedly with divine overtones (8:24, 8:28, 8:58). The effect in verse 6 confirms the deeper reading. The detail of Judas standing with the arresting party (met' autōn) emphasizes his position — he has crossed from Jesus's side to the opposition.",
+        "[TCR Cross-Reference] This verse quotes Exodus 3:14 — see the TCR rendering of that passage for the Hebrew source text and translation decisions.",
+        "[TCR Cross-Reference] This verse quotes Isaiah 43:10 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "key_terms": [
+        {
+          "greek": "ἐγώ εἰμι",
+          "transliteration": "egō eimi",
+          "rendered_as": "I am he",
+          "semantic_range": "I am, I am he, I exist, I am the one",
+          "note": "The phrase carries the weight of the divine name throughout John's Gospel. Here it serves both as identification and as a theophanic declaration — confirmed by the response in verse 6."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 6,
+      "text_greek": "ὡς οὖν εἶπεν αὐτοῖς· ἐγώ εἰμι, ἀπῆλθον εἰς τὰ ὀπίσω καὶ ἔπεσαν χαμαί.",
+      "text_kjv": "As soon then as he had said unto them, I am he, they went backward, and fell to the ground.",
+      "rendering": "When he said to them, \"I am he,\" they drew back and fell to the ground.",
+      "translator_notes": [
+        "The physical recoil (apēlthon eis ta opisō, 'went backward') and falling (epesan chamai, 'fell to the ground') are unique to John and carry theophanic overtones. In the Old Testament, people fall before divine presence (Ezekiel 1:28, Daniel 10:9). This detail transforms the arrest scene: Jesus is not a victim being seized but a sovereign figure before whom armed men collapse. He permits his own arrest.",
+        "[TCR Cross-Reference] Quotes Ezekiel 1:28. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it.",
+        "[TCR Cross-Reference] Quotes Daniel 10:9. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 7,
+      "text_greek": "πάλιν οὖν ἐπηρώτησεν αὐτούς· τίνα ζητεῖτε; οἱ δὲ εἶπαν· Ἰησοῦν τὸν Ναζωραῖον.",
+      "text_kjv": "Then asked he them again, Whom seek ye? And they said, Jesus of Nazareth.",
+      "rendering": "So he asked them again, \"Who are you looking for?\" They said, \"Jesus the Nazarene.\"",
+      "translator_notes": [
+        "Jesus repeats the question (palin epērōtēsen) after the soldiers recover, demonstrating complete control of the situation. The repetition also serves to set up the protective command in verse 8."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 8,
+      "text_greek": "ἀπεκρίθη Ἰησοῦς· εἶπον ὑμῖν ὅτι ἐγώ εἰμι. εἰ οὖν ἐμὲ ζητεῖτε, ἄφετε τούτους ὑπάγειν·",
+      "text_kjv": "Jesus answered, I have told you that I am he: if therefore ye seek me, let these go their way:",
+      "rendering": "Jesus answered, \"I told you that I am he. So if you are looking for me, let these men go.\"",
+      "translator_notes": [
+        "Jesus negotiates the disciples' freedom even at the moment of his own arrest. The imperative aphete toutous hypagein ('let these go') is a command, not a request. Jesus acts as the Good Shepherd protecting his flock (10:11-15) — he offers himself in exchange for the safety of his followers."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 9,
+      "text_greek": "ἵνα πληρωθῇ ὁ λόγος ὃν εἶπεν ὅτι οὓς δέδωκάς μοι οὐκ ἀπώλεσα ἐξ αὐτῶν οὐδένα.",
+      "text_kjv": "That the saying might be fulfilled, which he spake, Of them which thou gavest me have I lost none.",
+      "rendering": "This was to fulfill the word he had spoken: \"I have not lost a single one of those you gave me.\"",
+      "translator_notes": [
+        "John applies fulfillment language (hina pleerōthee, 'so that it might be fulfilled') not to an Old Testament text but to Jesus's own words from 6:39 and 17:12. Jesus's own statements carry the authority of Scripture. The physical protection of the disciples here points to the spiritual protection Jesus promised in the prayer of chapter 17."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 10,
+      "text_greek": "Σίμων οὖν Πέτρος ἔχων μάχαιραν εἵλκυσεν αὐτὴν καὶ ἔπαισεν τὸν τοῦ ἀρχιερέως δοῦλον καὶ ἀπέκοψεν αὐτοῦ τὸ ὠτάριον τὸ δεξιόν. ἦν δὲ ὄνομα τῷ δούλῳ Μάλχος.",
+      "text_kjv": "Then Simon Peter having a sword drew it, and smote the high priest's servant, and cut off his right ear. The servant's name was Malchus.",
+      "rendering": "Then Simon Peter, who had a sword, drew it and struck the high priest's servant, cutting off his right ear. The servant's name was Malchus.",
+      "translator_notes": [
+        "Only John identifies Peter as the one who struck (the Synoptics leave the swordsman anonymous) and names the servant Malchus. The specificity suggests eyewitness knowledge. The Greek ōtarion ('ear,' diminutive form) denotes the outer ear or earlobe. Peter's violent response contrasts sharply with Jesus's sovereign self-surrender."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 11,
+      "text_greek": "εἶπεν οὖν ὁ Ἰησοῦς τῷ Πέτρῳ· βάλε τὴν μάχαιραν εἰς τὴν θήκην· τὸ ποτήριον ὃ δέδωκέν μοι ὁ πατήρ, οὐ μὴ πίω αὐτό;",
+      "text_kjv": "Then said Jesus unto Peter, Put up thy sword into the sheath: the cup which my Father hath given me, shall I not drink it?",
+      "rendering": "Jesus said to Peter, \"Put your sword back in its sheath. Am I not to drink the cup the Father has given me?\"",
+      "translator_notes": [
+        "The 'cup' (poteerion) is a well-established Old Testament metaphor for divinely appointed suffering or judgment (Psalm 75:8, Isaiah 51:17, Jeremiah 25:15). John's account omits the Gethsemane agony over the cup (Matthew 26:39, Mark 14:36, Luke 22:42) and presents Jesus as wholly resolved — the rhetorical question expects the answer 'yes.' The perfect tense dedōken ('has given') indicates the Father's settled determination.",
+        "[TCR Cross-Reference] Quotes Psalm 75:8. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it.",
+        "[TCR Cross-Reference] Quotes Isaiah 51:17. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it.",
+        "[TCR Cross-Reference] Quotes Jeremiah 25:15. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 12,
+      "text_greek": "Ἡ οὖν σπεῖρα καὶ ὁ χιλίαρχος καὶ οἱ ὑπηρέται τῶν Ἰουδαίων συνέλαβον τὸν Ἰησοῦν καὶ ἔδησαν αὐτόν,",
+      "text_kjv": "Then the band and the captain and officers of the Jews took Jesus, and bound him,",
+      "rendering": "So the detachment of soldiers, their commander, and the officers of the Jewish leaders arrested Jesus and bound him.",
+      "translator_notes": [
+        "The Greek chiliarchos ('commander of a thousand') is a Roman military title, confirming the involvement of Roman forces. The verb edēsan ('they bound') emphasizes the indignity — the one who spoke as sovereign moments ago now submits to being bound. John lists three groups cooperating: Roman soldiers (speira), their commander (chiliarchos), and Jewish temple police (hypēretai)."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 13,
+      "text_greek": "καὶ ἤγαγον πρὸς Ἅνναν πρῶτον· ἦν γὰρ πενθερὸς τοῦ Καϊάφα, ὃς ἦν ἀρχιερεὺς τοῦ ἐνιαυτοῦ ἐκείνου.",
+      "text_kjv": "And led him away to Annas first; for he was father in law to Caiaphas, which was the high priest that same year.",
+      "rendering": "They led him first to Annas, for he was the father-in-law of Caiaphas, who was high priest that year.",
+      "translator_notes": [
+        "Annas had served as high priest from AD 6-15 and retained enormous influence. The Synoptics do not record this preliminary hearing before Annas. John's phrase 'high priest that year' (archiereus tou eniautou ekeinou) does not imply an annual rotation (which did not exist) but identifies which year is in view — the year of Jesus's death."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 14,
+      "text_greek": "ἦν δὲ Καϊάφας ὁ συμβουλεύσας τοῖς Ἰουδαίοις ὅτι συμφέρει ἕνα ἄνθρωπον ἀποθανεῖν ὑπὲρ τοῦ λαοῦ.",
+      "text_kjv": "Now Caiaphas was he, which gave counsel to the Jews, that it was expedient that one man should die for the people.",
+      "rendering": "It was Caiaphas who had advised the Jewish leaders that it was better for one man to die for the people.",
+      "translator_notes": [
+        "John reminds the reader of Caiaphas's unwitting prophecy from 11:49-52. The word sympherei ('it is advantageous, it is better') is the same word Jesus used in 16:7 about his departure being 'to your advantage.' The irony is layered: Caiaphas spoke cynical political calculus, but John understood it as genuine prophecy about substitutionary death."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 15,
+      "text_greek": "Ἠκολούθει δὲ τῷ Ἰησοῦ Σίμων Πέτρος καὶ ἄλλος μαθητής. ὁ δὲ μαθητὴς ἐκεῖνος ἦν γνωστὸς τῷ ἀρχιερεῖ, καὶ συνεισῆλθεν τῷ Ἰησοῦ εἰς τὴν αὐλὴν τοῦ ἀρχιερέως,",
+      "text_kjv": "And Simon Peter followed Jesus, and so did another disciple: that disciple was known unto the high priest, and went in with Jesus into the palace of the high priest.",
+      "rendering": "Simon Peter and another disciple followed Jesus. That disciple was known to the high priest and went with Jesus into the courtyard of the high priest,",
+      "translator_notes": [
+        "The identity of the 'other disciple' (allos matheetees) is debated — traditionally identified with the Beloved Disciple (the author). The word gnōstos ('known') implies a personal connection with the high priest's household, not merely acquaintance. The Greek aulēn ('courtyard') rather than 'palace' — the proceedings take place in the open courtyard of the high priest's residential compound."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 16,
+      "text_greek": "ὁ δὲ Πέτρος εἱστήκει πρὸς τῇ θύρᾳ ἔξω. ἐξῆλθεν οὖν ὁ μαθητὴς ὁ ἄλλος ὁ γνωστὸς τοῦ ἀρχιερέως καὶ εἶπεν τῇ θυρωρῷ καὶ εἰσήγαγεν τὸν Πέτρον.",
+      "text_kjv": "But Peter stood at the door without. Then went out that other disciple, which was known unto the high priest, and spake unto her that kept the door, and brought in Peter.",
+      "rendering": "However, Peter was standing at the door without. Then traveled out that other disciple, which was recognized to the elevated priest, and spoke to her that kept the door, and brought in Peter.",
+      "translator_notes": [
+        "The female doorkeeper (thyrooro, feminine) plays a small but significant role — she will initiate Peter's first denial in the next verse. The other disciple's ability to enter freely and arrange Peter's admission underscores his connection to the high priest's household."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 17,
+      "text_greek": "λέγει οὖν τῷ Πέτρῳ ἡ παιδίσκη ἡ θυρωρός· μὴ καὶ σὺ ἐκ τῶν μαθητῶν εἶ τοῦ ἀνθρώπου τούτου; λέγει ἐκεῖνος· οὐκ εἰμί.",
+      "text_kjv": "Then saith the damsel that kept the door unto Peter, Art not thou also one of this man's disciples? He saith, I am not.",
+      "rendering": "The servant girl at the door said to Peter, \"You are not also one of this man's disciples, are you?\" He said, \"I am not.\"",
+      "translator_notes": [
+        "The question expects a negative answer (mee kai sy, 'surely you're not also...'), giving Peter an easy path to denial. Peter's response ouk eimi ('I am not') stands in devastating contrast to Jesus's egō eimi ('I am') in verses 5-6 and 8. Where Jesus boldly identified himself, Peter denies his own identity as a disciple."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 18,
+      "text_greek": "εἱστήκεισαν δὲ οἱ δοῦλοι καὶ οἱ ὑπηρέται ἀνθρακιὰν πεποιηκότες, ὅτι ψῦχος ἦν, καὶ ἐθερμαίνοντο· ἦν δὲ καὶ ὁ Πέτρος μετ' αὐτῶν ἑστὼς καὶ θερμαινόμενος.",
+      "text_kjv": "And the servants and officers stood there, who had made a fire of coals; for it was cold: and they warmed themselves: and Peter stood with them, and warmed himself.",
+      "rendering": "Now the servants and officers had made a charcoal fire because it was cold, and they were standing around it warming themselves. Peter was also standing with them, warming himself.",
+      "translator_notes": [
+        "The detail of the charcoal fire (anthrakian) is significant because the same rare word appears in 21:9 when Jesus makes a charcoal fire on the beach — creating a literary connection between Peter's denial and his restoration. The image of Peter warming himself among Jesus's enemies visually places him on the wrong side."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 19,
+      "text_greek": "Ὁ οὖν ἀρχιερεὺς ἠρώτησεν τὸν Ἰησοῦν περὶ τῶν μαθητῶν αὐτοῦ καὶ περὶ τῆς διδαχῆς αὐτοῦ.",
+      "text_kjv": "The high priest then asked Jesus of his disciples, and of his doctrine.",
+      "rendering": "The high priest then questioned Jesus about his disciples and about his teaching.",
+      "translator_notes": [
+        "The 'high priest' here is Annas (v. 13), who retains the title by courtesy despite having been deposed. The two topics — disciples and teaching (didachēs) — suggest an inquiry into whether Jesus leads a seditious movement. John provides no false witnesses or blasphemy charge as in the Synoptic accounts."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 20,
+      "text_greek": "ἀπεκρίθη αὐτῷ Ἰησοῦς· ἐγὼ παρρησίᾳ λελάληκα τῷ κόσμῳ, ἐγὼ πάντοτε ἐδίδαξα ἐν συναγωγῇ καὶ ἐν τῷ ἱερῷ, ὅπου πάντες οἱ Ἰουδαῖοι συνέρχονται, καὶ ἐν κρυπτῷ ἐλάλησα οὐδέν.",
+      "text_kjv": "Jesus answered him, I spake openly to the world; I ever taught in the synagogue, and in the temple, whither the Jews always resort; and in secret have I said nothing.",
+      "rendering": "Jesus answered him, \"I have spoken openly to the world. I always taught in synagogues and in the temple, where all the Jewish people gather, and I have said nothing in secret.",
+      "translator_notes": [
+        "The adverb parrēsia ('openly, with boldness') contrasts with en kryptō ('in secret'). Jesus asserts that his teaching has been entirely public — there is no hidden revolutionary agenda. The appeal to public teaching implicitly challenges the legitimacy of a secret nighttime proceeding. The phrase is reminiscent of Isaiah 45:19: 'I have not spoken in secret.'",
+        "[TCR Cross-Reference] This verse quotes Isaiah 45:19: — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 21,
+      "text_greek": "τί με ἐρωτᾷς; ἐρώτησον τοὺς ἀκηκοότας τί ἐλάλησα αὐτοῖς· ἴδε οὗτοι οἴδασιν ἃ εἶπον ἐγώ.",
+      "text_kjv": "Why askest thou me? ask them which heard me, what I have said unto them: behold, they know what I said.",
+      "rendering": "Why do you question me? Ask those who heard what I said to them. They know what I said.\"",
+      "translator_notes": [
+        "Jesus's response implicitly invokes a legal principle — under Jewish law, a defendant should not be compelled to testify against himself. Witnesses should be called. The perfect participle akēkootas ('those who have heard') refers to the many public witnesses of his teaching. Jesus's bold response before the high priest contrasts with Peter's denials in the courtyard."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 22,
+      "text_greek": "ταῦτα δὲ αὐτοῦ εἰπόντος εἷς παρεστηκὼς τῶν ὑπηρετῶν ἔδωκεν ῥάπισμα τῷ Ἰησοῦ εἰπών· οὕτως ἀποκρίνῃ τῷ ἀρχιερεῖ;",
+      "text_kjv": "And when he had thus spoken, one of the officers which stood by struck Jesus with the palm of his hand, saying, Answerest thou the high priest so?",
+      "rendering": "When he had said this, one of the officers standing nearby struck Jesus, saying, \"Is that how you answer the high priest?\"",
+      "translator_notes": [
+        "The Greek edōken rhapisma ('gave a blow') could mean a slap with the open hand or a strike with a rod. The officer's rebuke assumes that any challenge to the high priest's authority is disrespectful. This is the first physical violence against Jesus in the passion narrative (in John's account), and it comes from a Jewish officer, not a Roman soldier."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 23,
+      "text_greek": "ἀπεκρίθη αὐτῷ Ἰησοῦς· εἰ κακῶς ἐλάλησα, μαρτύρησον περὶ τοῦ κακοῦ· εἰ δὲ καλῶς, τί με δέρεις;",
+      "text_kjv": "Jesus answered him, If I have spoken evil, bear witness of the evil: but if well, why smitest thou me?",
+      "rendering": "Jesus answered him, \"If I have spoken wrongly, testify about what was wrong. But if I spoke rightly, why do you strike me?\"",
+      "translator_notes": [
+        "Jesus's response is a model of dignified resistance — he does not retaliate but demands legal accountability. The contrast between kakōs ('wrongly, badly') and kalōs ('rightly, well') frames the issue as a matter of justice, not authority. If Jesus said something false, let it be proved; if true, the violence is unjust."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 24,
+      "text_greek": "ἀπέστειλεν οὖν αὐτὸν ὁ Ἅννας δεδεμένον πρὸς Καϊάφαν τὸν ἀρχιερέα.",
+      "text_kjv": "Now Annas had sent him bound unto Caiaphas the high priest.",
+      "rendering": "Then Annas sent him, still bound, to Caiaphas the high priest.",
+      "translator_notes": [
+        "The perfect participle dedemenon ('having been bound') emphasizes that Jesus remained bound throughout. John provides no details of the proceedings before Caiaphas, moving directly to the continuation of Peter's denials. The Synoptic accounts place the main trial before Caiaphas and the Sanhedrin; John's focus remains on the theological significance of the events rather than legal procedure."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 25,
+      "text_greek": "Ἦν δὲ Σίμων Πέτρος ἑστὼς καὶ θερμαινόμενος. εἶπον οὖν αὐτῷ· μὴ καὶ σὺ ἐκ τῶν μαθητῶν αὐτοῦ εἶ; ἠρνήσατο ἐκεῖνος καὶ εἶπεν· οὐκ εἰμί.",
+      "text_kjv": "And Simon Peter stood and warmed himself. They said therefore unto him, Art not thou also one of his disciples? He denied it, and said, I am not.",
+      "rendering": "Now Simon Peter was standing and warming himself. So they said to him, \"You are not also one of his disciples, are you?\" He denied it and said, \"I am not.\"",
+      "translator_notes": [
+        "The scene returns to Peter, still at the charcoal fire (v. 18), creating a literary interweaving with Jesus's interrogation. The second denial uses the same formula as the first — ouk eimi ('I am not') — reinforcing the contrast with Jesus's egō eimi. The verb ērnēsato ('he denied') is emphatic."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 26,
+      "text_greek": "λέγει εἷς ἐκ τῶν δούλων τοῦ ἀρχιερέως, συγγενὴς ὢν οὗ ἀπέκοψεν Πέτρος τὸ ὠτίον· οὐκ ἐγώ σε εἶδον ἐν τῷ κήπῳ μετ' αὐτοῦ;",
+      "text_kjv": "One of the servants of the high priest, being his kinsman whose ear Peter cut off, saith, Did not I see thee in the garden with him?",
+      "rendering": "One of the high priest's servants, a relative of the man whose ear Peter had cut off, said, \"Didn't I see you in the garden with him?\"",
+      "translator_notes": [
+        "This third challenge is the most dangerous — the questioner is a relative (syngenēs) of Malchus (v. 10) and claims to be an eyewitness (ouk egō se eidon, 'didn't I see you?'). Peter is now in real physical danger, not merely social embarrassment. The detail of the family connection is unique to John and suggests firsthand knowledge of the events."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 27,
+      "text_greek": "πάλιν οὖν ἠρνήσατο Πέτρος, καὶ εὐθέως ἀλέκτωρ ἐφώνησεν.",
+      "text_kjv": "Peter then denied again: and immediately the cock crew.",
+      "rendering": "Peter denied it again, and immediately a rooster crowed.",
+      "translator_notes": [
+        "The fulfillment of Jesus's prediction (13:38) is stated without commentary — John lets the bare fact speak. The word eutheos ('immediately') compresses the moment: denial and rooster-crow are nearly simultaneous. Unlike Luke (22:61-62), John does not record Peter's emotional response — the scene simply ends, leaving the reader to feel the weight of the silence."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 28,
+      "text_greek": "Ἄγουσιν οὖν τὸν Ἰησοῦν ἀπὸ τοῦ Καϊάφα εἰς τὸ πραιτώριον· ἦν δὲ πρωΐ· καὶ αὐτοὶ οὐκ εἰσῆλθον εἰς τὸ πραιτώριον, ἵνα μὴ μιανθῶσιν ἀλλὰ φάγωσιν τὸ πάσχα.",
+      "text_kjv": "Then led they Jesus from Caiaphas unto the hall of judgment: and it was early; and they themselves went not into the judgment hall, lest they should be defiled; but that they might eat the passover.",
+      "rendering": "Then they led Jesus from Caiaphas to the governor's headquarters. It was early morning. They did not enter the headquarters themselves, so that they would not be defiled but could eat the Passover.",
+      "translator_notes": [
+        "The Greek praitōrion ('praetorium') is the Roman governor's official residence, likely the former palace of Herod the Great or the Antonia Fortress. The irony is unmistakable: the Jewish leaders avoid entering a Gentile building to preserve ceremonial purity for Passover while simultaneously delivering an innocent man to death. John's Passover chronology differs from the Synoptics — here the Passover meal has not yet been eaten, placing the crucifixion on the day the Passover lambs are slaughtered."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 29,
+      "text_greek": "ἐξῆλθεν οὖν ὁ Πιλᾶτος ἔξω πρὸς αὐτοὺς καὶ φησίν· τίνα κατηγορίαν φέρετε κατὰ τοῦ ἀνθρώπου τούτου;",
+      "text_kjv": "Pilate then went out unto them, and said, What accusation bring ye against this man?",
+      "rendering": "So Pilate went outside to them and said, \"What charge do you bring against this man?\"",
+      "translator_notes": [
+        "Pilate accommodates the Jewish leaders' purity concerns by going outside — a detail that structures the entire trial scene as a series of movements between inside (with Jesus) and outside (with the crowd). The word katēgorian ('accusation, charge') is a legal term requiring a formal indictment."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 30,
+      "text_greek": "ἀπεκρίθησαν καὶ εἶπαν αὐτῷ· εἰ μὴ ἦν οὗτος κακὸν ποιῶν, οὐκ ἄν σοι παρεδώκαμεν αὐτόν.",
+      "text_kjv": "They answered and said unto him, If he were not a malefactor, we would not have delivered him up unto thee.",
+      "rendering": "They answered him, \"If this man were not a criminal, we would not have handed him over to you.\"",
+      "translator_notes": [
+        "The response avoids a specific charge, instead asserting a general claim of criminality (kakon poiōn, 'one doing evil'). The evasion suggests either that their real charge (blasphemy) would not interest a Roman court, or that they expected Pilate to simply ratify their judgment without independent investigation. The verb paredōkamen ('we handed over') is the same root (paradidōmi) used for Judas's betrayal."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 31,
+      "text_greek": "εἶπεν οὖν αὐτοῖς ὁ Πιλᾶτος· λάβετε αὐτὸν ὑμεῖς καὶ κατὰ τὸν νόμον ὑμῶν κρίνατε αὐτόν. εἶπον αὐτῷ οἱ Ἰουδαῖοι· ἡμῖν οὐκ ἔξεστιν ἀποκτεῖναι οὐδένα·",
+      "text_kjv": "Then said Pilate unto them, Take ye him, and judge him according to your law. The Jews therefore said unto him, It is not lawful for us to put any man to death:",
+      "rendering": "Pilate said to them, \"Take him yourselves and judge him according to your own law.\" The Jewish leaders said to him, \"It is not permitted for us to execute anyone.\"",
+      "translator_notes": [
+        "Pilate's response is dismissive — he attempts to return the case to Jewish jurisdiction. The Jewish leaders' reply reveals their true intention: they want execution, not merely punishment. The phrase ouk exestin ('it is not permitted') refers to the Roman restriction on Jewish capital punishment (the ius gladii reserved to the governor). This legal constraint ensures that Jesus will die by Roman crucifixion rather than Jewish stoning."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 32,
+      "text_greek": "ἵνα ὁ λόγος τοῦ Ἰησοῦ πληρωθῇ ὃν εἶπεν σημαίνων ποίῳ θανάτῳ ἤμελλεν ἀποθνῄσκειν.",
+      "text_kjv": "That the saying of Jesus might be fulfilled, which he spake, signifying what death he should die.",
+      "rendering": "This was to fulfill what Jesus had said when he indicated the kind of death he was going to die.",
+      "translator_notes": [
+        "John explains the theological significance: Roman execution means crucifixion, which fulfills Jesus's own predictions about being 'lifted up' (3:14, 8:28, 12:32-33). The verb sēmainōn ('signifying, indicating') is the same word used in 12:33 where Jesus spoke of being 'lifted up from the earth.' Death by lifting up — on a cross — rather than by casting down (stoning) was divinely ordained."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 33,
+      "text_greek": "Εἰσῆλθεν οὖν πάλιν εἰς τὸ πραιτώριον ὁ Πιλᾶτος καὶ ἐφώνησεν τὸν Ἰησοῦν καὶ εἶπεν αὐτῷ· σὺ εἶ ὁ βασιλεὺς τῶν Ἰουδαίων;",
+      "text_kjv": "Then Pilate entered into the judgment hall again, and called Jesus, and said unto him, Art thou the King of the Jews?",
+      "rendering": "So Pilate entered the headquarters again and called Jesus and said to him, \"Are you the King of the Jews?\"",
+      "translator_notes": [
+        "Pilate moves inside to question Jesus privately — this inside/outside movement structures the entire trial (vv. 28-29 outside, 33-38a inside, 38b-40 outside). The question sy ei ho basileus tōn Ioudaiōn ('Are you the king of the Jews?') indicates that the Jewish leaders have now framed the charge in political terms — kingship claims would constitute sedition against Rome."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 34,
+      "text_greek": "ἀπεκρίθη Ἰησοῦς· ἀπὸ σεαυτοῦ σὺ τοῦτο λέγεις ἢ ἄλλοι εἶπόν σοι περὶ ἐμοῦ;",
+      "text_kjv": "Jesus answered him, Sayest thou this thing of thyself, or did others tell it thee of me?",
+      "rendering": "Jesus answered, \"Are you asking this on your own, or did others tell you about me?\"",
+      "translator_notes": [
+        "Jesus's counter-question probes the source and intent of Pilate's inquiry. If Pilate asks on his own, the question has a Roman political meaning (Are you a revolutionary?). If others prompted it, the question carries Jewish messianic meaning (Are you the promised king?). The distinction matters because Jesus's answer depends on which sense of 'king' is intended."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 35,
+      "text_greek": "ἀπεκρίθη ὁ Πιλᾶτος· μήτι ἐγὼ Ἰουδαῖός εἰμι; τὸ ἔθνος τὸ σὸν καὶ οἱ ἀρχιερεῖς παρέδωκάν σε ἐμοί· τί ἐποίησας;",
+      "text_kjv": "Pilate answered, Am I a Jew? Thine own nation and the chief priests have delivered thee unto me: what hast thou done?",
+      "rendering": "Pilate answered, \"I am not a Jew, am I? Your own nation and the chief priests handed you over to me. What have you done?\"",
+      "translator_notes": [
+        "Pilate's question mēti egō Ioudaios eimi ('I'm not a Jew, am I?') expects a negative answer and expresses disdain — he has no interest in Jewish messianic categories. The emphasis on 'your own nation' (to ethnos to son) and 'the chief priests' underscores that the initiative for Jesus's arrest came from his own people. Pilate's final question — 'What have you done?' — returns to the Roman concern: what crime warrants this proceeding?"
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 36,
+      "text_greek": "ἀπεκρίθη Ἰησοῦς· ἡ βασιλεία ἡ ἐμὴ οὐκ ἔστιν ἐκ τοῦ κόσμου τούτου· εἰ ἐκ τοῦ κόσμου τούτου ἦν ἡ βασιλεία ἡ ἐμή, οἱ ὑπηρέται οἱ ἐμοὶ ἠγωνίζοντο ἂν ἵνα μὴ παραδοθῶ τοῖς Ἰουδαίοις· νῦν δὲ ἡ βασιλεία ἡ ἐμὴ οὐκ ἔστιν ἐντεῦθεν.",
+      "text_kjv": "Jesus answered, My kingdom is not of this world: if my kingdom were of this world, then would my servants fight, that I should not be delivered to the Jews: but now is my kingdom not from hence.",
+      "rendering": "Jesus answered, \"My kingdom is not of this world. If my kingdom were of this world, my servants would be fighting so that I would not be handed over to the Jewish leaders. But as it is, my kingdom is not from here.\"",
+      "translator_notes": [
+        "The phrase ouk estin ek tou kosmou toutou ('is not from this world') uses ek ('from, out of') to indicate origin, not location. Jesus does not say his kingdom has no relevance to this world, but that it does not derive its authority, methods, or power from worldly sources. The proof is the absence of armed resistance — a kingdom of this world would fight. The threefold repetition of 'my kingdom' (hee basileia hee emee) emphasizes personal ownership."
+      ],
+      "key_terms": [
+        {
+          "greek": "βασιλεία",
+          "transliteration": "basileia",
+          "rendered_as": "kingdom",
+          "semantic_range": "kingdom, reign, royal rule, sovereignty, domain",
+          "note": "In John, basileia appears only in this exchange with Pilate and in the Nicodemus dialogue (3:3, 5). Unlike the Synoptics where 'kingdom of God' is a central teaching theme, John uses the concept sparingly and here defines it by its otherworldly origin."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 37,
+      "text_greek": "εἶπεν οὖν αὐτῷ ὁ Πιλᾶτος· οὐκοῦν βασιλεὺς εἶ σύ; ἀπεκρίθη ὁ Ἰησοῦς· σὺ λέγεις ὅτι βασιλεύς εἰμι. ἐγὼ εἰς τοῦτο γεγέννημαι καὶ εἰς τοῦτο ἐλήλυθα εἰς τὸν κόσμον, ἵνα μαρτυρήσω τῇ ἀληθείᾳ. πᾶς ὁ ὢν ἐκ τῆς ἀληθείας ἀκούει μου τῆς φωνῆς.",
+      "text_kjv": "Pilate therefore said unto him, Art thou a king then? Jesus answered, Thou sayest that I am a king. To this end was I born, and for this cause came I into the world, that I should bear witness unto the truth. Every one that is of the truth heareth my voice.",
+      "rendering": "So Pilate said to him, \"Then you are a king?\" Jesus answered, \"You say that I am a king. For this I was born, and for this I came into the world: to testify to the truth. Everyone who belongs to the truth listens to my voice.\"",
+      "translator_notes": [
+        "Jesus's response sy legeis hoti basileus eimi ('you say that I am a king') is ambiguous — it neither confirms nor denies the title but redirects it. Jesus then redefines his kingship in terms of truth-bearing rather than political power. The phrase eis touto gegennēmai ('for this I was born') combined with eis touto elēlytha eis ton kosmon ('for this I came into the world') distinguishes birth from incarnation, implying pre-existence. The claim 'everyone who belongs to the truth listens to my voice' echoes the shepherd discourse (10:3-4, 27)."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 38,
+      "text_greek": "λέγει αὐτῷ ὁ Πιλᾶτος· τί ἐστιν ἀλήθεια; Καὶ τοῦτο εἰπὼν πάλιν ἐξῆλθεν πρὸς τοὺς Ἰουδαίους καὶ λέγει αὐτοῖς· ἐγὼ οὐδεμίαν εὑρίσκω ἐν αὐτῷ αἰτίαν.",
+      "text_kjv": "Pilate saith unto him, What is truth? And when he had said this, he went out again unto the Jews, and saith unto them, I find in him no fault at all.",
+      "rendering": "Pilate said to him, \"What is truth?\" After he said this, he went back out to the Jewish leaders and told them, \"I find no basis for a charge against him.",
+      "translator_notes": [
+        "Pilate's question ti estin alētheia ('What is truth?') has been interpreted as cynical dismissal, philosophical inquiry, or weary pragmatism. John leaves it unanswered — Pilate does not wait for a reply but immediately exits. The irony is profound: Pilate asks 'What is truth?' while standing before the one who said 'I am the truth' (14:6). His judicial verdict — oudemian heuriskō en autō aitian ('I find no charge in him') — is the first of three declarations of innocence (cf. 19:4, 6)."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 39,
+      "text_greek": "ἔστιν δὲ συνήθεια ὑμῖν ἵνα ἕνα ἀπολύσω ὑμῖν ἐν τῷ πάσχα· βούλεσθε οὖν ἀπολύσω ὑμῖν τὸν βασιλέα τῶν Ἰουδαίων;",
+      "text_kjv": "But ye have a custom, that I should release unto you one at the passover: will ye therefore that I release unto you the King of the Jews?",
+      "rendering": "But you have a custom that I release one prisoner for you at the Passover. So do you want me to release the King of the Jews for you?\"",
+      "translator_notes": [
+        "The Passover amnesty custom (synētheia, 'custom, usual practice') is not attested outside the Gospels but is plausible within Roman provincial practice. Pilate's use of the title 'the King of the Jews' (ton basilea tōn Ioudaiōn) may be mocking or strategic — using the title to minimize the charge. The Passover context deepens the theological resonance: the festival celebrating Israel's liberation from slavery becomes the setting for a choice between releasing a criminal and condemning the innocent."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 40,
+      "text_greek": "ἐκραύγασαν οὖν πάλιν λέγοντες· μὴ τοῦτον ἀλλὰ τὸν Βαραββᾶν. ἦν δὲ ὁ Βαραββᾶς λῃστής.",
+      "text_kjv": "Then cried they all again, saying, Not this man, but Barabbas. Now Barabbas was a robber.",
+      "rendering": "They shouted back, \"Not this man, but Barabbas!\" Now Barabbas was a revolutionary.",
+      "translator_notes": [
+        "The verb ekraugasan ('they shouted, cried out') indicates a loud, collective outcry. The name Barabbas (Bar-Abbas) means 'son of the father' in Aramaic — an ironic detail since the crowd chooses the 'son of the father' over the Son of the Father. The Greek lēstēs can mean 'robber, bandit, or insurrectionist.' Given the political context and the parallel accounts (Mark 15:7 mentions insurrection and murder), 'revolutionary' better captures the political dimension. The crowd prefers a violent revolutionary to the king whose kingdom is 'not of this world.'"
+      ],
+      "reading_level": "7th grade"
+    }
+  ]
+}

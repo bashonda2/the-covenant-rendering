@@ -1,0 +1,418 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Matthew",
+    "chapter": 8,
+    "source_text": "SBL Greek New Testament (SBLGNT)",
+    "reference_text": "KJV",
+    "generated_at": "2026-04-04T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Matthew 8 opens a collection of miracle narratives that demonstrate Jesus's authority over disease, nature, and the demonic realm. After descending from the mountain where he delivered the Sermon on the Mount, Jesus heals a leper, a centurion's servant (at a distance), Peter's mother-in-law, and many others. He then calms a violent storm on the Sea of Galilee and casts out demons from two men in the region of the Gadarenes. Interspersed are two brief exchanges about the cost of discipleship.",
+    "remarkable": "The centurion episode (vv. 5-13) is remarkable for Jesus's astonishment at a Gentile's faith — greater than any he found in Israel. This leads to the first explicit statement that Gentiles will share in the kingdom of heaven while some 'sons of the kingdom' will be cast out. The healing narratives fulfill Isaiah 53:4, which Matthew quotes in verse 17. The storm-calming episode uses language that echoes God's mastery over chaotic waters in the Old Testament (Psalm 89:9, 107:29). The Gadarene encounter presents Jesus confronting the demonic realm with sovereign authority.",
+    "friction": "The geographic designation varies in manuscripts — 'Gadarenes,' 'Gergesenes,' or 'Gerasenes.' We follow the SBLGNT reading. Matthew has two demoniacs where Mark and Luke have one; we render Matthew's text as given without harmonizing. The phrase 'Son of Man' (huios tou anthropou) is a self-designation of Jesus drawn from Daniel 7:13-14 and rendered with both words capitalized.",
+    "connections": "The leper healing connects to Leviticus 14 (purification laws). The centurion narrative anticipates the Great Commission's universal scope (28:19). The Isaiah 53:4 quotation in verse 17 links Jesus's healing ministry to the Servant Songs. The storm scene echoes Jonah 1 (sleeping during a storm) and Psalm 107:23-30. The Gadarene episode anticipates the final confrontation language of Revelation."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_greek": "Καταβάντος δὲ αὐτοῦ ἀπὸ τοῦ ὄρους ἠκολούθησαν αὐτῷ ὄχλοι πολλοί.",
+      "text_kjv": "When he was come down from the mountain, great multitudes followed him.",
+      "rendering": "When he came down from the mountain, large crowds followed him.",
+      "translator_notes": [
+        "The genitive absolute construction (katabavtos de autou) marks a transition from the Sermon on the Mount (chs. 5-7) to the miracle narratives. 'The mountain' (tou orous) uses the definite article, referring to the specific mountain of the Sermon. The crowds that heard his teaching now witness his authority in action."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 2,
+      "text_greek": "καὶ ἰδοὺ λεπρὸς προσελθὼν προσεκύνει αὐτῷ λέγων· Κύριε, ἐὰν θέλῃς δύνασαί με καθαρίσαι.",
+      "text_kjv": "And, behold, there came a leper and worshipped him, saying, Lord, if thou wilt, thou canst make me clean.",
+      "rendering": "Then a man with a skin disease came and knelt before him, saying, \"Lord, if you are willing, you can make me clean.\"",
+      "translator_notes": [
+        "The Greek lepros covers a range of skin conditions beyond modern leprosy (Hansen's disease); 'skin disease' captures the broader Greek meaning while 'leprosy' appears in the KJV. The verb prosekynei ('knelt before, worshipped') can indicate either reverence or worship — the ambiguity is significant. The leper's statement expresses total confidence in Jesus's power ('you can') while deferring to his will ('if you are willing')."
+      ],
+      "key_terms": [
+        {
+          "greek": "Κύριος",
+          "transliteration": "Kyrios",
+          "rendered_as": "Lord",
+          "semantic_range": "lord, master, sir, Lord (divine title)",
+          "note": "The leper's address could be simple respect ('sir') or a theological confession ('Lord'). Matthew likely intends the reader to hear the fuller meaning."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 3,
+      "text_greek": "καὶ ἐκτείνας τὴν χεῖρα ἥψατο αὐτοῦ λέγων· Θέλω, καθαρίσθητι· καὶ εὐθέως ἐκαθαρίσθη αὐτοῦ ἡ λέπρα.",
+      "text_kjv": "And Jesus put forth his hand, and touched him, saying, I will; be thou clean. And immediately his leprosy was cleansed.",
+      "rendering": "Jesus reached out his hand and touched him, saying, \"I am willing. Be made clean.\" Immediately his skin disease was healed.",
+      "translator_notes": [
+        "Physical contact with a person suffering from a skin disease rendered one ritually unclean under Levitical law (Leviticus 13:45-46). Jesus's deliberate touch reverses the expected dynamic — instead of Jesus becoming unclean, the man becomes clean. The aorist passive katharisthee ('be made clean') is a divine passive, implying God as the agent. The word eutheōs ('immediately') emphasizes the instantaneous nature of the healing.",
+        "[TCR Cross-Reference] References Leviticus 13:45-46 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 4,
+      "text_greek": "καὶ λέγει αὐτῷ ὁ Ἰησοῦς· Ὅρα μηδενὶ εἴπῃς, ἀλλὰ ὕπαγε σεαυτὸν δεῖξον τῷ ἱερεῖ καὶ προσένεγκον τὸ δῶρον ὃ προσέταξεν Μωϋσῆς, εἰς μαρτύριον αὐτοῖς.",
+      "text_kjv": "And Jesus saith unto him, See thou tell no man; but go thy way, shew thyself to the priest, and offer the gift that Moses commanded, for a testimony unto them.",
+      "rendering": "Jesus said to him, \"See that you tell no one, but go show yourself to the priest and offer the gift that Moses commanded, as a testimony to them.\"",
+      "translator_notes": [
+        "The command to show himself to the priest follows the purification procedure of Leviticus 14:1-32, which required priestly inspection and specific offerings. Jesus upholds the Mosaic law even while demonstrating authority that transcends it. The phrase eis martyrion autois ('as a testimony to them') is ambiguous — it could mean testimony to the priests that the man is healed, or testimony against them that the Messiah has come.",
+        "[TCR Cross-Reference] Echoes Leviticus 14:1-32. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 5,
+      "text_greek": "Εἰσελθόντος δὲ αὐτοῦ εἰς Καφαρναοὺμ προσῆλθεν αὐτῷ ἑκατόνταρχος παρακαλῶν αὐτὸν",
+      "text_kjv": "And when Jesus was entered into Capernaum, there came unto him a centurion, beseeching him,",
+      "rendering": "When Jesus entered Capernaum, a centurion came to him, pleading with him,",
+      "translator_notes": [
+        "The hekatontarchos was a Roman military officer commanding approximately one hundred soldiers. His approach to a Jewish teacher would have been culturally unusual. The participle parakalōn ('pleading, urging') indicates earnest, persistent appeal rather than casual request."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 6,
+      "text_greek": "καὶ λέγων· Κύριε, ὁ παῖς μου βέβληται ἐν τῇ οἰκίᾳ παραλυτικός, δεινῶς βασανιζόμενος.",
+      "text_kjv": "And saying, Lord, my servant lieth at home sick of the palsy, grievously tormented.",
+      "rendering": "\"Lord, my servant is lying at home paralyzed, in terrible suffering.\"",
+      "translator_notes": [
+        "The Greek pais can mean 'child,' 'servant,' or 'boy.' In this military context, 'servant' is most likely, though some scholars argue for 'son.' The participle basanizomenos ('being tormented') is a strong word — it denotes severe suffering, not mild illness. The perfect passive bebleetai ('has been laid low') indicates an ongoing state of helplessness."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 7,
+      "text_greek": "καὶ λέγει αὐτῷ· Ἐγὼ ἐλθὼν θεραπεύσω αὐτόν.",
+      "text_kjv": "And Jesus saith unto him, I will come and heal him.",
+      "rendering": "Jesus said to him, \"I will come and heal him.\"",
+      "translator_notes": [
+        "Some interpreters read this as a question — 'Shall I come and heal him?' — with emphasis on the pronoun egō ('I myself'), expressing surprise that a Jewish teacher would enter a Gentile's house. The declarative reading is more natural in context and is followed here."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 8,
+      "text_greek": "καὶ ἀποκριθεὶς ὁ ἑκατόνταρχος ἔφη· Κύριε, οὐκ εἰμὶ ἱκανὸς ἵνα μου ὑπὸ τὴν στέγην εἰσέλθῃς, ἀλλὰ μόνον εἰπὲ λόγῳ, καὶ ἰαθήσεται ὁ παῖς μου.",
+      "text_kjv": "The centurion answered and said, Lord, I am not worthy that thou shouldest come under my roof: but speak the word only, and my servant shall be healed.",
+      "rendering": "The centurion answered, \"Lord, I am not worthy for you to come under my roof. But just say the word, and my servant will be healed.",
+      "translator_notes": [
+        "The centurion's declaration ouk eimi hikanos ('I am not worthy/sufficient') goes beyond social humility — a Roman officer acknowledging unworthiness before a Jewish teacher inverts every expected power dynamic. His request that Jesus 'just say the word' (monon eipe logō) reveals an understanding of Jesus's authority as operative at a distance, not requiring physical presence. This phrase has entered Christian liturgy in many traditions."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 9,
+      "text_greek": "καὶ γὰρ ἐγὼ ἄνθρωπός εἰμι ὑπὸ ἐξουσίαν, ἔχων ὑπ' ἐμαυτὸν στρατιώτας, καὶ λέγω τούτῳ· Πορεύθητι, καὶ πορεύεται, καὶ ἄλλῳ· Ἔρχου, καὶ ἔρχεται, καὶ τῷ δούλῳ μου· Ποίησον τοῦτο, καὶ ποιεῖ.",
+      "text_kjv": "For I am a man under authority, having soldiers under me: and I say to this man, Go, and he goeth; and to another, Come, and he cometh; and to my servant, Do this, and he doeth it.",
+      "rendering": "For I too am a man under authority, with soldiers under me. I say to one, 'Go,' and he goes, and to another, 'Come,' and he comes, and to my servant, 'Do this,' and he does it.\"",
+      "translator_notes": [
+        "The centurion's reasoning is remarkable: because he understands chains of command, he recognizes that Jesus operates under divine authority and can therefore command sickness to depart just as the centurion commands soldiers. The phrase hypo exousian ('under authority') is key — the centurion's power to command others derives from being under authority himself, and he perceives the same structure in Jesus's relationship to God."
+      ],
+      "key_terms": [
+        {
+          "greek": "ἐξουσία",
+          "transliteration": "exousia",
+          "rendered_as": "authority",
+          "semantic_range": "authority, power, right, jurisdiction, delegated power",
+          "note": "The centurion grasps that exousia is delegated power — it flows from a higher source. His military analogy implies that Jesus's authority over disease comes from God's authority over all things."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 10,
+      "text_greek": "ἀκούσας δὲ ὁ Ἰησοῦς ἐθαύμασεν καὶ εἶπεν τοῖς ἀκολουθοῦσιν· Ἀμὴν λέγω ὑμῖν, παρ' οὐδενὶ τοσαύτην πίστιν ἐν τῷ Ἰσραὴλ εὗρον.",
+      "text_kjv": "When Jesus heard it, he marvelled, and said to them that followed, Verily I say unto you, I have not found so great faith, no, not in Israel.",
+      "rendering": "When Jesus heard this, he was amazed and said to those following him, \"Truly I tell you, I have not found such great faith with anyone in Israel.",
+      "translator_notes": [
+        "The verb ethaumasen ('was amazed, marveled') is striking — it is rarely used of Jesus and indicates genuine astonishment. That a Gentile soldier surpasses all of Israel in faith is a provocative claim that foreshadows the Gospel's movement toward Gentile inclusion. The solemn formula amēn legō hymin ('truly I tell you') marks what follows as a declaration of particular weight."
+      ],
+      "key_terms": [
+        {
+          "greek": "πίστις",
+          "transliteration": "pistis",
+          "rendered_as": "faith",
+          "semantic_range": "faith, trust, belief, faithfulness, fidelity",
+          "note": "The centurion's pistis is not abstract belief but active trust in Jesus's authority — faith expressed as confident reliance on the word of another."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 11,
+      "text_greek": "λέγω δὲ ὑμῖν ὅτι πολλοὶ ἀπὸ ἀνατολῶν καὶ δυσμῶν ἥξουσιν καὶ ἀνακλιθήσονται μετὰ Ἀβραὰμ καὶ Ἰσαὰκ καὶ Ἰακὼβ ἐν τῇ βασιλείᾳ τῶν οὐρανῶν·",
+      "text_kjv": "And I say unto you, That many shall come from the east and west, and shall sit down with Abraham, and Isaac, and Jacob, in the kingdom of heaven.",
+      "rendering": "I tell you, many will come from east and west and recline at table with Abraham, Isaac, and Jacob in the kingdom of heaven,",
+      "translator_notes": [
+        "The image of reclining at table (anaklithēsontai) evokes the messianic banquet — an eschatological feast anticipated in Isaiah 25:6-8. 'From east and west' signifies Gentile nations streaming to participate in Israel's covenant blessings. The phrase 'kingdom of heaven' (basileia tōn ouranōn) is Matthew's characteristic expression, using 'heaven' as a reverential circumlocution for God.",
+        "[TCR Cross-Reference] Quotes Isaiah 25:6-8. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 12,
+      "text_greek": "οἱ δὲ υἱοὶ τῆς βασιλείας ἐκβληθήσονται εἰς τὸ σκότος τὸ ἐξώτερον· ἐκεῖ ἔσται ὁ κλαυθμὸς καὶ ὁ βρυγμὸς τῶν ὀδόντων.",
+      "text_kjv": "But the children of the kingdom shall be cast out into outer darkness: there shall be weeping and gnashing of teeth.",
+      "rendering": "However, true children of the reign will be driven out into the darkness outside — where there is sobbing and grinding of teeth.",
+      "translator_notes": [
+        "The 'sons of the kingdom' (huioi tēs basileias) refers to those who would expect to inherit it by birthright — Israelites as covenant heirs. The reversal is stark: insiders become outsiders while outsiders enter. 'Outer darkness' (skotos to exōteron) contrasts with the illuminated banquet hall. 'Weeping and gnashing of teeth' (klathmos kai brygmos tōn odontōn) is a recurring Matthean phrase for eschatological judgment (13:42, 13:50, 22:13, 24:51, 25:30)."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 13,
+      "text_greek": "καὶ εἶπεν ὁ Ἰησοῦς τῷ ἑκατοντάρχῃ· Ὕπαγε, ὡς ἐπίστευσας γενηθήτω σοι. καὶ ἰάθη ὁ παῖς [αὐτοῦ] ἐν τῇ ὥρᾳ ἐκείνῃ.",
+      "text_kjv": "And Jesus said unto the centurion, Go thy way; and as thou hast believed, so be it done unto thee. And his servant was healed in the selfsame hour.",
+      "rendering": "Then Jesus said to the centurion, \"Go. Let it be done for you as you have believed.\" And his servant was healed at that very hour.",
+      "translator_notes": [
+        "The imperative genēthētō ('let it be done') echoes the divine creative commands of Genesis 1 (genēthētō in the Septuagint). Jesus's word alone accomplishes the healing at a distance, exactly as the centurion had trusted it would. The phrase en tē hōra ekeinē ('at that very hour') confirms the instantaneous, remote healing.",
+        "[TCR Cross-Reference] References Genesis 1 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 14,
+      "text_greek": "Καὶ ἐλθὼν ὁ Ἰησοῦς εἰς τὴν οἰκίαν Πέτρου εἶδεν τὴν πενθερὰν αὐτοῦ βεβλημένην καὶ πυρέσσουσαν·",
+      "text_kjv": "And when Jesus was come into Peter's house, he saw his wife's mother laid, and sick of a fever.",
+      "rendering": "When Jesus came into Peter's house, he saw Peter's mother-in-law lying sick with a fever.",
+      "translator_notes": [
+        "The detail that Peter had a mother-in-law (pentheran) confirms he was married (cf. 1 Corinthians 9:5). The perfect participle beblēmenēn ('having been laid low') indicates she was bedridden. This domestic setting contrasts with the public healings that precede it."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 15,
+      "text_greek": "καὶ ἥψατο τῆς χειρὸς αὐτῆς, καὶ ἀφῆκεν αὐτὴν ὁ πυρετός· καὶ ἠγέρθη καὶ διηκόνει αὐτῷ.",
+      "text_kjv": "And he touched her hand, and the fever left her: and she arose, and ministered unto them.",
+      "rendering": "He touched her hand, and the fever left her. She got up and began serving him.",
+      "translator_notes": [
+        "The verb diēkonei ('was serving, ministering to') is from the same root as diakonos ('servant, deacon'). Her immediate service demonstrates complete restoration — not a gradual recovery but instant wholeness. Some manuscripts read autō ('him') while others read autois ('them'); the SBLGNT reads autō."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 16,
+      "text_greek": "Ὀψίας δὲ γενομένης προσήνεγκαν αὐτῷ δαιμονιζομένους πολλούς· καὶ ἐξέβαλεν τὰ πνεύματα λόγῳ, καὶ πάντας τοὺς κακῶς ἔχοντας ἐθεράπευσεν·",
+      "text_kjv": "When the even was come, they brought unto him many that were possessed with devils: and he cast out the spirits with his word, and healed all that were sick:",
+      "rendering": "When evening came, they brought to him many who were demon-possessed. He drove out the spirits with a word, and healed all who were sick,",
+      "translator_notes": [
+        "Evening (opsias genomenēs) marks the end of the Sabbath, after which people could travel and carry the sick. The phrase logō ('with a word') emphasizes that Jesus needed no rituals, incantations, or physical contact — his spoken command alone was sufficient. The word exebalen ('drove out, cast out') is forceful, depicting a violent expulsion."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 17,
+      "text_greek": "ὅπως πληρωθῇ τὸ ῥηθὲν διὰ Ἠσαΐου τοῦ προφήτου λέγοντος· Αὐτὸς τὰς ἀσθενείας ἡμῶν ἔλαβεν καὶ τὰς νόσους ἐβάστασεν.",
+      "text_kjv": "That it might be fulfilled which was spoken by Esaias the prophet, saying, Himself took our infirmities, and bare our sicknesses.",
+      "rendering": "That it might be fulfilled which was spoken by Esaias the prophet and stated, Himself picked up our infirmities, and bare our sicknesses.",
+      "translator_notes": [
+        "Matthew quotes Isaiah 53:4, but applies it to physical healing rather than the vicarious suffering interpretation more common in later Christian theology. The Greek elaben ('took') and ebastasen ('carried, bore') suggest Jesus personally bore the weight of human illness. This is Matthew's fourth fulfillment formula, connecting Jesus's healing ministry to the Isaianic Servant.",
+        "[TCR Cross-Reference] Draws on Isaiah 53:4. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 18,
+      "text_greek": "Ἰδὼν δὲ ὁ Ἰησοῦς ὄχλον περὶ αὐτὸν ἐκέλευσεν ἀπελθεῖν εἰς τὸ πέραν.",
+      "text_kjv": "Now when Jesus saw great multitudes about him, he gave commandment to depart unto the other side.",
+      "rendering": "When Jesus saw a crowd around him, he gave orders to cross over to the other side of the lake.",
+      "translator_notes": [
+        "The verb ekeleusen ('commanded, ordered') is a military term indicating authoritative direction, not a casual suggestion. 'The other side' (to peran) refers to the eastern shore of the Sea of Galilee, predominantly Gentile territory. Jesus moves from Jewish to Gentile space."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 19,
+      "text_greek": "καὶ προσελθὼν εἷς γραμματεὺς εἶπεν αὐτῷ· Διδάσκαλε, ἀκολουθήσω σοι ὅπου ἐὰν ἀπέρχῃ.",
+      "text_kjv": "And a certain scribe came, and said unto him, Master, I will follow thee whithersoever thou goest.",
+      "rendering": "A scribe came up and said to him, \"Teacher, I will follow you wherever you go.\"",
+      "translator_notes": [
+        "The scribe addresses Jesus as didaskalos ('teacher'), not kyrios ('Lord') — a respectful but not confessional title. His pledge of unconditional loyalty is enthusiastic but untested. In Matthew's narrative, scribes are generally opponents; this one's offer stands out."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 20,
+      "text_greek": "καὶ λέγει αὐτῷ ὁ Ἰησοῦς· Αἱ ἀλώπεκες φωλεοὺς ἔχουσιν καὶ τὰ πετεινὰ τοῦ οὐρανοῦ κατασκηνώσεις, ὁ δὲ υἱὸς τοῦ ἀνθρώπου οὐκ ἔχει ποῦ τὴν κεφαλὴν κλίνῃ.",
+      "text_kjv": "And Jesus saith unto him, The foxes have holes, and the birds of the air have nests; but the Son of man hath not where to lay his head.",
+      "rendering": "Jesus said to him, \"Foxes have dens, and the birds of the sky have nests, but the Son of Man has nowhere to lay his head.\"",
+      "translator_notes": [
+        "This is the first use of 'Son of Man' (ho huios tou anthrōpou) in Matthew. The title draws on Daniel 7:13-14, where 'one like a son of man' receives dominion, glory, and an everlasting kingdom. Jesus uses it to describe himself in radical vulnerability — the one destined for cosmic authority currently has less shelter than wild animals. The phrase ta peteina tou ouranou ('birds of the sky') uses ouranos, the same word translated 'heaven' elsewhere.",
+        "[TCR Cross-Reference] This verse quotes Daniel 7:13-14 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "key_terms": [
+        {
+          "greek": "υἱὸς τοῦ ἀνθρώπου",
+          "transliteration": "huios tou anthrōpou",
+          "rendered_as": "Son of Man",
+          "semantic_range": "son of man, human being; as a title: the Son of Man (Daniel 7:13-14)",
+          "note": "Jesus's preferred self-designation in the Gospels. It combines human identity with the exalted figure of Daniel's vision, holding together suffering and sovereignty."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 21,
+      "text_greek": "ἕτερος δὲ τῶν μαθητῶν [αὐτοῦ] εἶπεν αὐτῷ· Κύριε, ἐπίτρεψόν μοι πρῶτον ἀπελθεῖν καὶ θάψαι τὸν πατέρα μου.",
+      "text_kjv": "And another of his disciples said unto him, Lord, suffer me first to go and bury my father.",
+      "rendering": "Another of his disciples said to him, \"Lord, let me first go and bury my father.\"",
+      "translator_notes": [
+        "Burying one's father was among the most sacred obligations in Jewish culture, taking precedence over virtually all other commandments. The request is not trivial — it invokes the deepest filial duty. Whether the father has just died or is elderly and the disciple is requesting a delayed commitment is debated; the urgency of Jesus's response suggests the latter."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 22,
+      "text_greek": "ὁ δὲ Ἰησοῦς λέγει αὐτῷ· Ἀκολούθει μοι καὶ ἄφες τοὺς νεκροὺς θάψαι τοὺς ἑαυτῶν νεκρούς.",
+      "text_kjv": "But Jesus said unto him, Follow me; and let the dead bury their dead.",
+      "rendering": "But Jesus declared to him, Come with me. And let the dead bury their dead.",
+      "translator_notes": [
+        "Jesus's response is deliberately shocking. The phrase 'let the dead bury their own dead' uses 'dead' in two senses — the spiritually dead can attend to the physically dead. The demand places discipleship above the most fundamental family obligation, a radical claim that would have been deeply countercultural. The imperative akolouthei ('follow') is present tense, indicating ongoing commitment rather than a single act."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 23,
+      "text_greek": "Καὶ ἐμβάντι αὐτῷ εἰς τὸ πλοῖον ἠκολούθησαν αὐτῷ οἱ μαθηταὶ αὐτοῦ.",
+      "text_kjv": "And when he was entered into a ship, his disciples followed him.",
+      "rendering": "When he got into the boat, his disciples followed him.",
+      "translator_notes": [
+        "The verb akolouthēsan ('followed') is the same word used for discipleship throughout Matthew. Following Jesus into the boat is literal but also symbolic — the disciples follow him into danger and uncertainty."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 24,
+      "text_greek": "καὶ ἰδοὺ σεισμὸς μέγας ἐγένετο ἐν τῇ θαλάσσῃ, ὥστε τὸ πλοῖον καλύπτεσθαι ὑπὸ τῶν κυμάτων· αὐτὸς δὲ ἐκάθευδεν.",
+      "text_kjv": "And, behold, there arose a great tempest in the sea, insomuch that the ship was covered with the waves: but he was asleep.",
+      "rendering": "Suddenly a great storm arose on the sea, so violent that the boat was being swamped by the waves. But he was sleeping.",
+      "translator_notes": [
+        "Matthew uses seismos ('shaking, earthquake') rather than the expected lailaps ('storm, squall') that Mark uses. This word choice suggests cosmic upheaval, not merely bad weather — the same word is used for the earthquake at Jesus's death (27:54) and resurrection (28:2). Jesus sleeping through the chaos echoes Jonah 1:5 and contrasts with Psalm 121:4 ('he who keeps Israel will neither slumber nor sleep').",
+        "[TCR Cross-Reference] Echoes Jonah 1:5. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale.",
+        "[TCR Cross-Reference] Echoes Psalm 121:4. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 25,
+      "text_greek": "καὶ προσελθόντες ἤγειραν αὐτὸν λέγοντες· Κύριε, σῶσον, ἀπολλύμεθα.",
+      "text_kjv": "And his disciples came to him, and awoke him, saying, Lord, save us: we perish.",
+      "rendering": "They came and woke him, saying, \"Lord, save us! We are going to die!\"",
+      "translator_notes": [
+        "The cry sōson ('save') is the verbal form related to the noun sōtēria ('salvation') and the name Iesous ('the LORD saves'). In context it is a desperate plea for physical rescue, but Matthew's reader would hear the deeper resonance. The present tense apollymetha ('we are perishing, being destroyed') conveys ongoing, immediate danger."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 26,
+      "text_greek": "καὶ λέγει αὐτοῖς· Τί δειλοί ἐστε, ὀλιγόπιστοι; τότε ἐγερθεὶς ἐπετίμησεν τοῖς ἀνέμοις καὶ τῇ θαλάσσῃ, καὶ ἐγένετο γαλήνη μεγάλη.",
+      "text_kjv": "And he saith unto them, Why are ye fearful, O ye of little faith? Then he arose, and rebuked the winds and the sea; and there was a great calm.",
+      "rendering": "He said to them, \"Why are you afraid, you of little faith?\" Then he got up and rebuked the winds and the sea, and there was a great calm.",
+      "translator_notes": [
+        "The word oligopistoi ('you of little faith') is distinctively Matthean (6:30, 8:26, 14:31, 16:8). It does not mean 'no faith' but insufficient, wavering faith. Jesus rebukes the disciples before calming the storm — the sequence is significant. The verb epetimēsen ('rebuked') is the same word used for commanding demons, treating the storm as a hostile force to be subdued. The phrase galēnē megalē ('great calm') mirrors seismos megas ('great storm'), creating a dramatic contrast."
+      ],
+      "key_terms": [
+        {
+          "greek": "ὀλιγόπιστοι",
+          "transliteration": "oligopistoi",
+          "rendered_as": "you of little faith",
+          "semantic_range": "of little faith, lacking confidence in God",
+          "note": "A compound word unique to Matthew in the Gospels (oligos + pistis). It acknowledges some faith while exposing its insufficiency."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 27,
+      "text_greek": "οἱ δὲ ἄνθρωποι ἐθαύμασαν λέγοντες· Ποταπός ἐστιν οὗτος ὅτι καὶ οἱ ἄνεμοι καὶ ἡ θάλασσα αὐτῷ ὑπακούουσιν;",
+      "text_kjv": "But the men marvelled, saying, What manner of man is this, that even the winds and the sea obey him!",
+      "rendering": "The men were amazed, saying, \"What kind of man is this, that even the winds and the sea obey him?\"",
+      "translator_notes": [
+        "The question potapos estin houtos ('what kind of man is this?') is left open — the narrative invites the reader to answer it. In the Old Testament, only God commands the sea (Psalm 89:9, 107:29; Job 38:8-11). The verb hypakouousin ('obey') is a compound of 'hear under' — the winds and sea submit to his authority as subordinates to a commander.",
+        "[TCR Cross-Reference] Draws on Psalm 89:9. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices.",
+        "[TCR Cross-Reference] Draws on Job 38:8-11. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 28,
+      "text_greek": "Καὶ ἐλθόντος αὐτοῦ εἰς τὸ πέραν εἰς τὴν χώραν τῶν Γαδαρηνῶν ὑπήντησαν αὐτῷ δύο δαιμονιζόμενοι ἐκ τῶν μνημείων ἐξερχόμενοι, χαλεποὶ λίαν, ὥστε μὴ ἰσχύειν τινὰ παρελθεῖν διὰ τῆς ὁδοῦ ἐκείνης.",
+      "text_kjv": "And when he was come to the other side into the country of the Gergesenes, there met him two possessed with devils, coming out of the tombs, exceeding fierce, so that no man might pass by that way.",
+      "rendering": "When he came to the other side, to the region of the Gadarenes, two demon-possessed men met him, coming out of the tombs. They were so violent that no one could pass along that road.",
+      "translator_notes": [
+        "The SBLGNT reads Gadarēnōn ('Gadarenes'), referring to the territory of Gadara, a city of the Decapolis about six miles southeast of the Sea of Galilee. Other manuscripts read 'Gergesenes' or 'Gerasenes.' Matthew has two demoniacs where Mark 5:2 and Luke 8:27 have one — this is not harmonized but rendered as Matthew presents it. The tombs (mnēmeiōn) were rock-cut burial caves, considered ritually unclean — the men inhabit a place of death and defilement."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 29,
+      "text_greek": "καὶ ἰδοὺ ἔκραξαν λέγοντες· Τί ἡμῖν καὶ σοί, υἱὲ τοῦ θεοῦ; ἦλθες ὧδε πρὸ καιροῦ βασανίσαι ἡμᾶς;",
+      "text_kjv": "And, behold, they cried out, saying, What have we to do with thee, Jesus, thou Son of God? art thou come hither to torment us before the time?",
+      "rendering": "Suddenly they cried out, \"What do you want with us, Son of God? Have you come here to torment us before the appointed time?\"",
+      "translator_notes": [
+        "The phrase ti hēmin kai soi ('what to us and to you') is a Semitic idiom meaning 'what business do we have with each other?' The demons address Jesus as 'Son of God' (huie tou theou) — the demonic realm recognizes his identity before most humans do. The phrase pro kairou ('before the time') reveals the demons' awareness of an appointed eschatological judgment, and their alarm that Jesus may be enacting it prematurely."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 30,
+      "text_greek": "ἦν δὲ μακρὰν ἀπ' αὐτῶν ἀγέλη χοίρων πολλῶν βοσκομένη.",
+      "text_kjv": "And there was a good way off from them an herd of many swine feeding.",
+      "rendering": "Now some distance away a large herd of pigs was feeding.",
+      "translator_notes": [
+        "The presence of pigs confirms this is Gentile territory — pigs were unclean animals under Jewish law (Leviticus 11:7) and would not be kept in a Jewish region. The detail serves the narrative but also marks the cultural boundary Jesus has crossed.",
+        "[TCR Cross-Reference] This verse quotes Leviticus 11:7 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 31,
+      "text_greek": "οἱ δὲ δαίμονες παρεκάλουν αὐτὸν λέγοντες· Εἰ ἐκβάλλεις ἡμᾶς, ἀπόστειλον ἡμᾶς εἰς τὴν ἀγέλην τῶν χοίρων.",
+      "text_kjv": "So the devils besought him, saying, If thou cast us out, suffer us to go away into the herd of swine.",
+      "rendering": "The demons begged him, \"If you drive us out, send us into the herd of pigs.\"",
+      "translator_notes": [
+        "The conditional ei ekballeis ('if you cast us out') concedes Jesus's authority — the demons do not dispute his power to expel them but negotiate the terms. The verb parekaloun ('begged, urged') shows the complete reversal of power — the terrifying demonic forces that controlled two men and terrorized a region now beg for mercy from Jesus."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 32,
+      "text_greek": "καὶ εἶπεν αὐτοῖς· Ὑπάγετε. οἱ δὲ ἐξελθόντες ἀπῆλθον εἰς τοὺς χοίρους· καὶ ἰδοὺ ὥρμησεν πᾶσα ἡ ἀγέλη κατὰ τοῦ κρημνοῦ εἰς τὴν θάλασσαν, καὶ ἀπέθανον ἐν τοῖς ὕδασιν.",
+      "text_kjv": "And he said unto them, Go. And when they were come out, they went into the herd of swine: and, behold, the whole herd of swine ran violently down a steep place into the sea, and perished in the waters.",
+      "rendering": "He said to them, \"Go.\" They came out and went into the pigs, and the whole herd rushed down the steep bank into the sea and drowned in the water.",
+      "translator_notes": [
+        "Jesus's single word hypagete ('go') is sufficient to command the entire demonic host — the same economy of speech demonstrated in the centurion episode. The verb hōrmēsen ('rushed, charged') describes a violent stampede. The destruction of the herd in the sea may echo the drowning of Pharaoh's army in the Red Sea (Exodus 14-15) — chaotic evil forces destroyed in water.",
+        "[TCR Cross-Reference] Draws on Exodus 14-15. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 33,
+      "text_greek": "οἱ δὲ βόσκοντες ἔφυγον, καὶ ἀπελθόντες εἰς τὴν πόλιν ἀπήγγειλαν πάντα καὶ τὰ τῶν δαιμονιζομένων.",
+      "text_kjv": "And they that kept them fled, and went their ways into the city, and told every thing, and what was befallen to the possessed of the devils.",
+      "rendering": "Those who had been tending the pigs fled. They went into the town and reported everything, including what had happened to the demon-possessed men.",
+      "translator_notes": [
+        "The herdsmen's flight (ephygon) and subsequent report serve as witnesses to the event. The phrase ta tōn daimonizomenōn ('the things concerning the demon-possessed men') indicates they reported the men's liberation as well as the pigs' destruction."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 34,
+      "text_greek": "καὶ ἰδοὺ πᾶσα ἡ πόλις ἐξῆλθεν εἰς ὑπάντησιν τῷ Ἰησοῦ, καὶ ἰδόντες αὐτὸν παρεκάλεσαν ὅπως μεταβῇ ἀπὸ τῶν ὁρίων αὐτῶν.",
+      "text_kjv": "And, behold, the whole city came out to meet Jesus: and when they saw him, they besought him that he would depart out of their coasts.",
+      "rendering": "Then the whole town came out to meet Jesus, and when they saw him, they begged him to leave their region.",
+      "translator_notes": [
+        "The townspeople's response is the opposite of faith — rather than welcoming the one who freed two men from demonic torment, they ask him to leave. The verb parekalesen ('begged') is the same word the demons used in verse 31. The irony is pointed: both demons and townspeople want Jesus to go away. Fear of Jesus's disruptive power outweighs gratitude for his liberating power."
+      ],
+      "reading_level": "7th grade"
+    }
+  ]
+}

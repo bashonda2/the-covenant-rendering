@@ -1,0 +1,532 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Luke",
+    "chapter": 19,
+    "source_text": "SBL Greek New Testament (SBLGNT)",
+    "reference_text": "KJV",
+    "generated_at": "2026-04-04T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Luke 19 narrates Zacchaeus's conversion in Jericho, the parable of the ten minas (pounds), Jesus's triumphal entry into Jerusalem, his weeping over the city, and the cleansing of the temple. The chapter marks the decisive transition from the travel narrative (9:51-19:27) to Jesus's Jerusalem ministry. Themes of wealth, repentance, judgment, and kingship converge as Jesus enters his final week.",
+    "remarkable": "The Zacchaeus story (unique to Luke) is the counterexample to the rich ruler of chapter 18 — another wealthy man who, unlike the ruler, actually surrenders his wealth and receives salvation. The parable of the minas differs from Matthew's parable of the talents (25:14-30) in key details: the nobleman goes to 'receive a kingdom,' and his citizens send a delegation rejecting his rule — likely an allusion to Archelaus's contested succession in 4 BC, an event the original audience would have recognized. Jesus's weeping over Jerusalem (unique to Luke) is one of only two recorded instances of Jesus weeping, the other being at Lazarus's tomb (John 11:35).",
+    "friction": "The parable of the minas and Matthew's parable of the talents share significant overlap but differ enough to be treated as separate traditions. We render Luke's version on its own terms without harmonizing. The 'cleansing of the temple' is placed differently in John (2:13-22); we follow Luke's chronology. The phrase 'today salvation has come to this house' (v. 9) is rendered without importing later systematic theology about the mechanism of salvation.",
+    "connections": "Zacchaeus connects to the theme of tax collectors throughout Luke (3:12, 5:27-32, 7:29, 15:1, 18:10-14). The parable of the minas echoes the parable of the talents (Matthew 25) but with distinctive political overtones. The triumphal entry fulfills Zechariah 9:9 (though Luke does not quote it explicitly, unlike Matthew 21:5). Jesus's weeping connects to the prophetic lament tradition (Jeremiah 8:18-9:1). The temple cleansing quotes Isaiah 56:7 and Jeremiah 7:11."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_greek": "Καὶ εἰσελθὼν διήρχετο τὴν Ἰεριχώ.",
+      "text_kjv": "And Jesus entered and passed through Jericho.",
+      "rendering": "Jesus entered Jericho and was passing through it.",
+      "translator_notes": [
+        "The imperfect diērcheto ('was passing through') suggests Jesus intended to travel through Jericho without stopping — the encounter with Zacchaeus will interrupt his transit. Jericho was a prosperous city near the Jordan River, a major customs and taxation center on the trade route from the east."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 2,
+      "text_greek": "καὶ ἰδοὺ ἀνὴρ ὀνόματι καλούμενος Ζακχαῖος, καὶ αὐτὸς ἦν ἀρχιτελώνης καὶ αὐτὸς πλούσιος.",
+      "text_kjv": "And, behold, there was a man named Zacchaeus, which was the chief among the publicans, and he was rich.",
+      "rendering": "A man was there named Zacchaeus. He was a chief tax collector and was wealthy.",
+      "translator_notes": [
+        "The name Zakchaios is the Greek form of the Hebrew Zakkai ('pure, innocent, righteous') — an ironic name for a man whose profession made him ritually and socially impure. The title architelōnēs ('chief tax collector') appears only here in the New Testament and indicates he supervised other tax collectors in the Jericho district, profiting from their collections. The detail 'he was wealthy' (autos plousios) immediately connects him to the rich ruler of 18:18-23."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 3,
+      "text_greek": "καὶ ἐζήτει ἰδεῖν τὸν Ἰησοῦν τίς ἐστιν, καὶ οὐκ ἠδύνατο ἀπὸ τοῦ ὄχλου ὅτι τῇ ἡλικίᾳ μικρὸς ἦν.",
+      "text_kjv": "And he sought to see Jesus who he was; and could not for the press, because he was little of stature.",
+      "rendering": "He was trying to see who Jesus was, but he could not because of the crowd, since he was short in stature.",
+      "translator_notes": [
+        "The imperfect ezētei ('he was seeking, he kept trying') indicates persistent effort. The phrase tē hēlikia mikros ('small in stature/height') is stated without judgment — Luke simply explains the physical obstacle. The detail is practical: the crowd would not have made way for a despised tax collector, so his short stature compounded his social exclusion."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 4,
+      "text_greek": "καὶ προδραμὼν εἰς τὸ ἔμπροσθεν ἀνέβη ἐπὶ συκομορέαν ἵνα ἴδῃ αὐτόν, ὅτι ἐκείνης ἤμελλεν διέρχεσθαι.",
+      "text_kjv": "And he ran before, and climbed up into a sycomore tree to see him: for he was to pass that way.",
+      "rendering": "So he ran ahead and climbed up into a sycamore-fig tree to see him, because Jesus was about to pass that way.",
+      "translator_notes": [
+        "The verb prodramōn ('having run ahead') shows undignified haste — a wealthy man running was socially inappropriate in the ancient Near East (cf. the father in 15:20). The sykomorea ('sycamore-fig') is a distinct species from the sykaminō ('mulberry') of 17:6 — it has a short trunk with wide, low branches, making it easy to climb. Luke specifies that Jesus was going to pass by that exact spot, setting up the 'chance' encounter that is anything but accidental."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 5,
+      "text_greek": "καὶ ὡς ἦλθεν ἐπὶ τὸν τόπον, ἀναβλέψας ὁ Ἰησοῦς εἶπεν πρὸς αὐτόν· Ζακχαῖε, σπεύσας κατάβηθι· σήμερον γὰρ ἐν τῷ οἴκῳ σου δεῖ με μεῖναι.",
+      "text_kjv": "And when Jesus came to the place, he looked up, and saw him, and said unto him, Zacchaeus, make haste, and come down; for to day I must abide at thy house.",
+      "rendering": "When Jesus reached the spot, he looked up and said to him, \"Zacchaeus, hurry and come down, for I must stay at your house today.\"",
+      "translator_notes": [
+        "Jesus calls Zacchaeus by name — unexplained by the narrative, suggesting either prior knowledge or supernatural perception. The verb dei ('it is necessary, I must') indicates divine compulsion, the same word used for the necessity of the passion (9:22, 18:31). The word sēmeron ('today') is a theologically loaded term in Luke, always marking the present moment of salvation (2:11, 4:21, 23:43). Jesus does not ask permission but announces his intention."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 6,
+      "text_greek": "καὶ σπεύσας κατέβη, καὶ ὑπεδέξατο αὐτὸν χαίρων.",
+      "text_kjv": "And he made haste, and came down, and received him joyfully.",
+      "rendering": "He hurried down and welcomed Jesus joyfully.",
+      "translator_notes": [
+        "Zacchaeus's response mirrors Jesus's urgency: speusas ('having hurried') echoes Jesus's speusas in verse 5. The verb hypedexato ('welcomed, received as a guest') implies formal hospitality. The participle chairōn ('rejoicing') shows that the encounter is received as gift, not imposition. The contrast with the rich ruler's grief (18:23) is stark — same demand for radical surrender, opposite emotional response."
+      ],
+      "reading_level": "5th grade"
+    },
+    {
+      "verse": 7,
+      "text_greek": "καὶ ἰδόντες πάντες διεγόγγυζον λέγοντες ὅτι Παρὰ ἁμαρτωλῷ ἀνδρὶ εἰσῆλθεν καταλῦσαι.",
+      "text_kjv": "And when they saw it, they all murmured, saying, That he was gone to be guest with a man that is a sinner.",
+      "rendering": "When the people saw this, they all grumbled, \"He has gone to be the guest of a man who is a sinner.\"",
+      "translator_notes": [
+        "The verb diegongyzon ('they were grumbling, murmuring') echoes Israel's wilderness complaints and is a recurring response to Jesus's association with sinners in Luke (5:30, 15:2). The word pantes ('all') indicates universal disapproval — not just Pharisees but the entire crowd. The verb katalysai ('to find lodging, to be a guest') means Jesus accepted the full hospitality of the house, sharing table and shelter with a 'sinner' (hamartōlō)."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 8,
+      "text_greek": "σταθεὶς δὲ Ζακχαῖος εἶπεν πρὸς τὸν κύριον· Ἰδοὺ τὰ ἡμίσιά μου τῶν ὑπαρχόντων, κύριε, τοῖς πτωχοῖς δίδωμι, καὶ εἴ τινός τι ἐσυκοφάντησα ἀποδίδωμι τετραπλοῦν.",
+      "text_kjv": "And Zacchaeus stood, and said unto the Lord; Behold, Lord, the half of my goods I give to the poor; and if I have taken any thing from any man by false accusation, I restore him fourfold.",
+      "rendering": "But Zacchaeus stood and said to the Lord, \"Look, Lord, I am giving half of my possessions to the poor, and if I have cheated anyone of anything, I am paying back four times as much.\"",
+      "translator_notes": [
+        "The verb statheis ('having stood') indicates a formal, public declaration. The present tense didōmi ('I am giving') and apodidōmi ('I am paying back') may indicate a new resolution or may describe an existing practice — the Greek is ambiguous. The fourfold restitution (tetraploun) exceeds the Torah's requirement (Numbers 5:7 requires the principal plus one-fifth) and matches the penalty for stealing and slaughtering a sheep (Exodus 22:1). The verb esykophantēsa ('extorted, defrauded') is the same word used for the soldiers' question in 3:14.",
+        "[TCR Cross-Reference] References Numbers 5:7 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved.",
+        "[TCR Cross-Reference] References Exodus 22:1 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 9,
+      "text_greek": "εἶπεν δὲ πρὸς αὐτὸν ὁ Ἰησοῦς ὅτι Σήμερον σωτηρία τῷ οἴκῳ τούτῳ ἐγένετο, καθότι καὶ αὐτὸς υἱὸς Ἀβραάμ ἐστιν·",
+      "text_kjv": "And Jesus said unto him, This day is salvation come to this house, forsomuch as he also is a son of Abraham.",
+      "rendering": "Jesus said to him, \"Today salvation has come to this house, because he too is a son of Abraham.",
+      "translator_notes": [
+        "The word sēmeron ('today') echoes verse 5 and is the fulfillment of the divine necessity announced there. 'Salvation' (sōtēria) comes to the 'house' (oikō) — extending beyond Zacchaeus to his entire household. The phrase 'son of Abraham' (huios Abraam) reclaims Zacchaeus's identity: despite his profession and reputation, he belongs to the covenant people. Jesus does not say Zacchaeus has become a son of Abraham but that he is one — his covenant identity was never lost, only obscured."
+      ],
+      "key_terms": [
+        {
+          "greek": "σωτηρία",
+          "transliteration": "sōtēria",
+          "rendered_as": "salvation",
+          "semantic_range": "salvation, deliverance, rescue, preservation, healing",
+          "note": "In Luke's usage, salvation encompasses both spiritual and material dimensions. Zacchaeus's encounter with Jesus transforms his relationship with God and with his wealth simultaneously."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 10,
+      "text_greek": "ἦλθεν γὰρ ὁ υἱὸς τοῦ ἀνθρώπου ζητῆσαι καὶ σῶσαι τὸ ἀπολωλός.",
+      "text_kjv": "For the Son of man is come to seek and to save that which was lost.",
+      "rendering": "For the Son of Man came to seek and to save the lost.\"",
+      "translator_notes": [
+        "This verse functions as a mission statement for Jesus in Luke's Gospel, summarizing the theology of chapter 15 (the lost sheep, lost coin, lost son) in a single sentence. The two infinitives zētēsai ('to seek') and sōsai ('to save') present Jesus as active searcher, not passive recipient — he goes to the lost, not the other way around. The neuter participle to apolōlos ('the lost thing, that which has been destroyed') encompasses anyone in the state of lostness. This verse directly answers the crowd's grumbling in verse 7."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 11,
+      "text_greek": "Ἀκουόντων δὲ αὐτῶν ταῦτα προσθεὶς εἶπεν παραβολὴν διὰ τὸ ἐγγὺς εἶναι Ἰερουσαλὴμ αὐτὸν καὶ δοκεῖν αὐτοὺς ὅτι παραχρῆμα μέλλει ἡ βασιλεία τοῦ θεοῦ ἀναφαίνεσθαι.",
+      "text_kjv": "And as they heard these things, he added and spake a parable, because he was nigh to Jerusalem, and because they thought that the kingdom of God should immediately appear.",
+      "rendering": "While they were listening to this, he went on to tell a parable, because he was near Jerusalem and they supposed that the kingdom of God was about to appear immediately.",
+      "translator_notes": [
+        "Luke explicitly states the parable's purpose: to correct the expectation that the kingdom would arrive instantly (parachrēma, 'immediately') upon Jesus's entry into Jerusalem. The proximity to Jerusalem (engys einai Ierousalēm) and the crowd's eschatological excitement provide the interpretive context. The verb anaphainesthai ('to appear, to be revealed') suggests they expected a dramatic, visible manifestation of God's rule."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 12,
+      "text_greek": "εἶπεν οὖν· Ἄνθρωπός τις εὐγενὴς ἐπορεύθη εἰς χώραν μακράν, λαβεῖν ἑαυτῷ βασιλείαν καὶ ὑποστρέψαι.",
+      "text_kjv": "He said therefore, A certain nobleman went into a far country to receive for himself a kingdom, and to return.",
+      "rendering": "He said, \"A man of noble birth went to a distant country to receive a kingdom for himself and then return.",
+      "translator_notes": [
+        "The scenario closely mirrors the historical precedent of Archelaus, son of Herod the Great, who traveled to Rome in 4 BC to receive confirmation of his kingship from Augustus. The Jericho audience would have recognized the allusion immediately, as Herod had built a winter palace near Jericho. The verb hypostrepsai ('to return') foreshadows the return of the Son of Man."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 13,
+      "text_greek": "καλέσας δὲ δέκα δούλους ἑαυτοῦ ἔδωκεν αὐτοῖς δέκα μνᾶς καὶ εἶπεν πρὸς αὐτούς· Πραγματεύσασθε ἐν ᾧ ἔρχομαι.",
+      "text_kjv": "And he called his ten servants, and delivered them ten pounds, and said unto them, Occupy till I come.",
+      "rendering": "He called ten of his slaves and gave them ten minas, saying, 'Conduct business with this until I come back.'",
+      "translator_notes": [
+        "A mna ('mina') was a Greek unit of currency worth about 100 denarii — roughly three to four months' wages for a laborer. Unlike Matthew's parable of the talents (where different amounts are given to different servants), here each slave receives one mina each, making the different outcomes purely a matter of effort and skill. The verb pragmateusasthe ('do business, trade, conduct commerce') is a clear commercial term."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 14,
+      "text_greek": "οἱ δὲ πολῖται αὐτοῦ ἐμίσουν αὐτόν, καὶ ἀπέστειλαν πρεσβείαν ὀπίσω αὐτοῦ λέγοντες· Οὐ θέλομεν τοῦτον βασιλεῦσαι ἐφ' ἡμᾶς.",
+      "text_kjv": "But his citizens hated him, and sent a message after him, saying, We will not have this man to reign over us.",
+      "rendering": "But his citizens hated him and sent a delegation after him, saying, 'We do not want this man to rule over us.'",
+      "translator_notes": [
+        "This detail is unique to Luke's parable and has no parallel in Matthew's version. Historically, a Jewish delegation of fifty traveled to Rome to oppose Archelaus's appointment (Josephus, Antiquities 17.11.1). In the parable, the citizens (politai, those who owe civic allegiance) represent those who reject the nobleman's — and by extension, Jesus's — kingship. The verb basileuein ('to rule as king') makes the political and theological stakes explicit."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 15,
+      "text_greek": "καὶ ἐγένετο ἐν τῷ ἐπανελθεῖν αὐτὸν λαβόντα τὴν βασιλείαν καὶ εἶπεν φωνηθῆναι αὐτῷ τοὺς δούλους τούτους οἷς δεδώκει τὸ ἀργύριον, ἵνα γνοῖ τί διεπραγματεύσαντο.",
+      "text_kjv": "And it came to pass, that when he was returned, having received the kingdom, then he commanded these servants to be called unto him, to whom he had given the money, that he might know how much every man had gained by trading.",
+      "rendering": "When he returned, having received the kingdom, he ordered the slaves to whom he had given the money to be called to him so that he could find out what they had earned by conducting business.",
+      "translator_notes": [
+        "The nobleman returns with the kingdom secured — his authority is now confirmed. The verb diepragmateusanto ('they had gained by trading') is a compound form of the commercial verb from verse 13. The accounting scene represents final judgment: the absent king returns and demands an account."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 16,
+      "text_greek": "παρεγένετο δὲ ὁ πρῶτος λέγων· Κύριε, ἡ μνᾶ σου δέκα προσηργάσατο μνᾶς.",
+      "text_kjv": "Then came the first, saying, Lord, thy pound hath gained ten pounds.",
+      "rendering": "The first came forward, saying, 'Master, your mina has earned ten minas more.'",
+      "translator_notes": [
+        "A tenfold return (1,000 percent) represents extraordinary stewardship. The slave attributes the success to 'your mina' (hē mna sou), acknowledging that the capital belonged to the master. The address kyrie ('master, lord') maintains the master-slave relationship."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 17,
+      "text_greek": "καὶ εἶπεν αὐτῷ· Εὖγε, ἀγαθὲ δοῦλε, ὅτι ἐν ἐλαχίστῳ πιστὸς ἐγένου, ἴσθι ἐξουσίαν ἔχων ἐπάνω δέκα πόλεων.",
+      "text_kjv": "And he said unto him, Well, thou good servant: because thou hast been faithful in a very little, have thou authority over ten cities.",
+      "rendering": "He said to him, 'Well done, good slave! Because you have been faithful in a very small matter, you shall have authority over ten cities.'",
+      "translator_notes": [
+        "The exclamation euge ('well done, excellent') is rare in the New Testament. The phrase en elachistō ('in a very small thing') is startling — a mina was not an insignificant sum, yet compared to ruling ten cities it is tiny. The principle: faithfulness with small trust leads to responsibility over much greater things. The reward is authority (exousian), not rest — kingdom service expands rather than ends."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 18,
+      "text_greek": "καὶ ἦλθεν ὁ δεύτερος λέγων· Ἡ μνᾶ σου, κύριε, ἐποίησεν πέντε μνᾶς.",
+      "text_kjv": "And the second came, saying, Lord, thy pound hath gained five pounds.",
+      "rendering": "The second came, saying, 'Master, your mina has produced five minas.'",
+      "translator_notes": [
+        "A fivefold return is still excellent, though less than the first slave's tenfold. The verb epoiēsen ('made, produced') differs from the first slave's prosērgasato ('earned in addition'), perhaps reflecting a slight narrative variation without theological significance."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 19,
+      "text_greek": "εἶπεν δὲ καὶ τούτῳ· Καὶ σὺ ἐπάνω γίνου πέντε πόλεων.",
+      "text_kjv": "And he said likewise to him, Be thou also over five cities.",
+      "rendering": "He said to this one also, 'You shall be over five cities.'",
+      "translator_notes": [
+        "The reward is proportional: ten minas earned yields authority over ten cities; five minas earned yields five cities. This proportionality distinguishes Luke's parable from Matthew's, where both the five-talent and two-talent servants receive the same commendation. The brevity of the response — no 'well done' or 'good slave' — may reflect the proportional nature of the reward."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 20,
+      "text_greek": "καὶ ὁ ἕτερος ἦλθεν λέγων· Κύριε, ἰδοὺ ἡ μνᾶ σου ἣν εἶχον ἀποκειμένην ἐν σουδαρίῳ·",
+      "text_kjv": "And another came, saying, Lord, behold, here is thy pound, which I have kept laid up in a napkin:",
+      "rendering": "Then another came, saying, 'Master, here is your mina. I kept it stored away in a cloth.",
+      "translator_notes": [
+        "The soudarion ('cloth, face-cloth, handkerchief') was a small piece of fabric — storing money in it rather than investing it represents the deliberate choice to do nothing. The slave returns exactly what was given, with no increase. The verb apokeimenēn ('stored away, laid aside') suggests hiding rather than protecting."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 21,
+      "text_greek": "ἐφοβούμην γάρ σε ὅτι ἄνθρωπος αὐστηρὸς εἶ, αἴρεις ὃ οὐκ ἔθηκας καὶ θερίζεις ὃ οὐκ ἔσπειρας.",
+      "text_kjv": "For I feared thee, because thou art an austere man: thou takest up that thou layedst not down, and reapest that thou didst not sow.",
+      "rendering": "For I was afraid of you, because you are a harsh man. You take out what you did not put in, and reap what you did not sow.'",
+      "translator_notes": [
+        "The adjective austēros ('harsh, strict, exacting') is the slave's characterization of the master, not the narrator's. The accusations — taking what he did not deposit and reaping what he did not sow — portray the master as exploitative. Whether this reflects the slave's genuine perception or a self-serving excuse is left to the reader. In the parabolic context, it represents a distorted view of God that produces paralysis rather than faithful action."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 22,
+      "text_greek": "λέγει αὐτῷ· Ἐκ τοῦ στόματός σου κρίνω σε, πονηρὲ δοῦλε. ᾔδεις ὅτι ἐγὼ ἄνθρωπος αὐστηρός εἰμι, αἴρων ὃ οὐκ ἔθηκα καὶ θερίζων ὃ οὐκ ἔσπειρα·",
+      "text_kjv": "And he saith unto him, Out of thine own mouth will I judge thee, thou wicked servant. Thou knewest that I was an austere man, taking up that I laid not down, and reaping that I did not sow:",
+      "rendering": "He said to him, 'I will judge you by your own words, you wicked slave! You knew that I am a harsh man, taking out what I did not put in and reaping what I did not sow?",
+      "translator_notes": [
+        "The master turns the slave's own characterization against him: 'Out of your own mouth' (ek tou stomatos sou) means 'by your own testimony.' The address ponēre doule ('wicked slave') contrasts sharply with 'good slave' (agathe doule) in verse 17. The master does not deny being austēros but uses the slave's own assessment to condemn his inaction: if you believed I was demanding, you should have been more motivated, not less."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 23,
+      "text_greek": "καὶ διὰ τί οὐκ ἔδωκάς μου τὸ ἀργύριον ἐπὶ τράπεζαν; κἀγὼ ἐλθὼν σὺν τόκῳ ἂν αὐτὸ ἔπραξα.",
+      "text_kjv": "Wherefore then gavest not thou my money into the bank, that at my coming I might have required mine own with usury?",
+      "rendering": "Then why did you not put my money in the bank? At least when I returned, I could have collected it with interest.'",
+      "translator_notes": [
+        "The trapezan ('table, bank') refers to a money-changer's table where deposits could earn interest (tokos, 'interest, offspring'). Even the minimal action of depositing the money would have produced some return. The Torah prohibited charging interest to fellow Israelites (Deuteronomy 23:19-20) but allowed it with foreigners — Jesus uses banking as a parabolic illustration, not an endorsement of lending practices.",
+        "[TCR Cross-Reference] References Deuteronomy 23:19-20 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 24,
+      "text_greek": "καὶ τοῖς παρεστῶσιν εἶπεν· Ἄρατε ἀπ' αὐτοῦ τὴν μνᾶν καὶ δότε τῷ τὰς δέκα μνᾶς ἔχοντι.",
+      "text_kjv": "And he said unto them that stood by, Take from him the pound, and give it to him that hath ten pounds.",
+      "rendering": "Then he said to those standing by, 'Take the mina from him and give it to the one who has ten minas.'",
+      "translator_notes": [
+        "The redistribution is counterintuitive: the mina goes to the one who already has the most, not to the one with five. The 'those standing by' (tois parestōsin) are courtiers or attendants, emphasizing the king's authority to command. The principle of compounding faithfulness — more is given to those who have used what they were given — is made explicit in the next verse."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 25,
+      "text_greek": "καὶ εἶπαν αὐτῷ· Κύριε, ἔχει δέκα μνᾶς.",
+      "text_kjv": "(And they said unto him, Lord, he hath ten pounds.)",
+      "rendering": "They said to him, 'Master, he already has ten minas!'",
+      "translator_notes": [
+        "This interjection by the bystanders (or possibly the other slaves) expresses surprise at what seems unfair — giving more to the one who has the most. The protest highlights the counterintuitive logic of the kingdom, which defies human expectations of equal distribution."
+      ],
+      "reading_level": "5th grade"
+    },
+    {
+      "verse": 26,
+      "text_greek": "λέγω ὑμῖν ὅτι παντὶ τῷ ἔχοντι δοθήσεται, ἀπὸ δὲ τοῦ μὴ ἔχοντος καὶ ὃ ἔχει ἀρθήσεται.",
+      "text_kjv": "For I say unto you, That unto every one which hath shall be given; and from him that hath not, even that he hath shall be taken away from him.",
+      "rendering": "'I tell you, to everyone who has, more will be given, but from the one who does not have, even what he has will be taken away.",
+      "translator_notes": [
+        "This saying appears in multiple contexts across the Gospels (Matthew 13:12, 25:29; Mark 4:25), always articulating the same principle: faithfulness increases capacity while unfaithfulness diminishes it. 'The one who has' refers not to material wealth but to productive use of what has been entrusted. The passive verbs (dothēsetai, arthēsetai) are divine passives — God is the agent of both giving and taking."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 27,
+      "text_greek": "πλὴν τοὺς ἐχθρούς μου τούτους τοὺς μὴ θελήσαντάς με βασιλεῦσαι ἐπ' αὐτοὺς ἀγάγετε ὧδε καὶ κατασφάξατε αὐτοὺς ἔμπροσθέν μου.",
+      "text_kjv": "But those mine enemies, which would not that I should reign over them, bring hither, and slay them before me.",
+      "rendering": "But as for these enemies of mine who did not want me to rule over them — bring them here and slaughter them in front of me.'\"",
+      "translator_notes": [
+        "This is the most violent conclusion to any of Jesus's parables. The verb katasphaxate ('slaughter, butcher') is graphic — it was used for killing sacrificial animals. Historically, Archelaus did execute his opponents upon receiving his kingdom. Within the parable, this represents the fate of those who actively oppose the king's rule (v. 14). Whether this maps directly onto eschatological judgment or functions as a warning within the parabolic world is a matter of interpretation. We render the Greek as stated."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 28,
+      "text_greek": "Καὶ εἰπὼν ταῦτα ἐπορεύετο ἔμπροσθεν ἀναβαίνων εἰς Ἱεροσόλυμα.",
+      "text_kjv": "And when he had thus spoken, he went before, ascending up to Jerusalem.",
+      "rendering": "After saying this, he went on ahead, going up to Jerusalem.",
+      "translator_notes": [
+        "The imperfect eporeueto ('he was going') resumes the travel narrative, and anabainōn ('going up') reflects Jerusalem's elevation — all roads to Jerusalem ascend. The phrase 'went on ahead' (emprosthen) shows Jesus leading, with the crowd and disciples following. The transition from parable to narrative is abrupt: the warning about rejected kingship gives way to the very journey that will lead to its fulfillment."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 29,
+      "text_greek": "Καὶ ἐγένετο ὡς ἤγγισεν εἰς Βηθφαγὴ καὶ Βηθανίαν πρὸς τὸ ὄρος τὸ καλούμενον Ἐλαιῶν, ἀπέστειλεν δύο τῶν μαθητῶν",
+      "text_kjv": "And it came to pass, when he was come nigh to Bethphage and Bethany, at the mount called the mount of Olives, he sent two of his disciples,",
+      "rendering": "As he approached Bethphage and Bethany, near the hill called the Mount of Olives, he sent two of the disciples,",
+      "translator_notes": [
+        "Bethphage ('house of unripe figs') and Bethany ('house of affliction' or 'house of dates') were villages on the eastern slope of the Mount of Olives, about two miles from Jerusalem. The Mount of Olives (to oros to kaloumenon Elaiōn) held eschatological significance: Zechariah 14:4 prophesied that the LORD would stand on it in the last days. Jesus's approach from this direction is symbolically charged.",
+        "[TCR Cross-Reference] Echoes Zechariah 14:4. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 30,
+      "text_greek": "λέγων· Ὑπάγετε εἰς τὴν κατέναντι κώμην, ἐν ᾗ εἰσπορευόμενοι εὑρήσετε πῶλον δεδεμένον, ἐφ' ὃν οὐδεὶς πώποτε ἀνθρώπων ἐκάθισεν, καὶ λύσαντες αὐτὸν ἀγάγετε.",
+      "text_kjv": "Saying, Go ye into the village over against you; in the which at your entering ye shall find a colt tied, whereon yet never man sat: loose him, and bring him hither.",
+      "rendering": "Declaring, Go you into the village over opposed to you. In the which at your entering you will find a colt tied, whereon yet never man sat — loose him, and bring him hither.",
+      "translator_notes": [
+        "The pōlon ('colt, young animal') in Luke is not specified as a donkey's colt (Matthew and John make this explicit). The detail that no one had ever sat on it (oudeis pōpote anthrōpōn ekathisen) indicates a ritually unused animal — in the Old Testament, animals dedicated to sacred purposes were to be unworked (Numbers 19:2, Deuteronomy 21:3, 1 Samuel 6:7). Jesus's foreknowledge of the colt's presence and status is either prophetic or pre-arranged.",
+        "[TCR Cross-Reference] This verse quotes Numbers 19:2 — see the TCR rendering of that passage for the Hebrew source text and translation decisions.",
+        "[TCR Cross-Reference] This verse quotes Deuteronomy 21:3 — see the TCR rendering of that passage for the Hebrew source text and translation decisions.",
+        "[TCR Cross-Reference] This verse quotes 1 Samuel 6:7 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 31,
+      "text_greek": "καὶ ἐάν τις ὑμᾶς ἐρωτᾷ· Διὰ τί λύετε; οὕτως ἐρεῖτε· Ὅτι ὁ κύριος αὐτοῦ χρείαν ἔχει.",
+      "text_kjv": "And if any man ask you, Why do ye loose him? thus shall ye say unto him, Because the Lord hath need of him.",
+      "rendering": "If anyone asks you, 'Why are you untying it?' you are to say, 'The Lord has need of it.'\"",
+      "translator_notes": [
+        "The phrase ho kyrios autou chreian echei ('the Lord has need of it') is ambiguous: kyrios could mean 'the Lord' (Jesus, making a divine claim), 'the master' (the colt's owner, who has authorized the borrowing), or 'its owner' (explaining the action). In context, 'the Lord' as a reference to Jesus seems most likely, as the phrase serves as a password of sorts that the disciples are told will be sufficient."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 32,
+      "text_greek": "ἀπελθόντες δὲ οἱ ἀπεσταλμένοι εὗρον καθὼς εἶπεν αὐτοῖς.",
+      "text_kjv": "And they that were sent went their way, and found even as he had said unto them.",
+      "rendering": "Those who were sent went and found everything just as he had told them.",
+      "translator_notes": [
+        "The phrase kathōs eipen autois ('just as he had told them') emphasizes Jesus's prophetic accuracy and sovereign knowledge. The narrative moves briskly through the fulfillment of his instructions."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 33,
+      "text_greek": "λυόντων δὲ αὐτῶν τὸν πῶλον εἶπαν οἱ κύριοι αὐτοῦ πρὸς αὐτούς· Τί λύετε τὸν πῶλον;",
+      "text_kjv": "And as they were loosing the colt, the owners thereof said unto them, Why loose ye the colt?",
+      "rendering": "As they were untying the colt, its owners said to them, \"Why are you untying the colt?\"",
+      "translator_notes": [
+        "The plural hoi kyrioi autou ('its owners') is noteworthy — the colt was jointly owned, perhaps by a family. The question matches Jesus's prediction exactly (v. 31), further confirming his foreknowledge."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 34,
+      "text_greek": "οἱ δὲ εἶπαν· Ὅτι ὁ κύριος αὐτοῦ χρείαν ἔχει.",
+      "text_kjv": "And they said, The Lord hath need of him.",
+      "rendering": "They said, \"The Lord has need of it.\"",
+      "translator_notes": [
+        "The disciples repeat Jesus's exact words, and the response is apparently sufficient — the owners do not object further. This suggests either that Jesus was known to the owners, that 'the Lord' functioned as an agreed-upon authorization, or that the narrative compresses a longer exchange."
+      ],
+      "reading_level": "5th grade"
+    },
+    {
+      "verse": 35,
+      "text_greek": "καὶ ἤγαγον αὐτὸν πρὸς τὸν Ἰησοῦν, καὶ ἐπιρίψαντες αὐτῶν τὰ ἱμάτια ἐπὶ τὸν πῶλον ἐπεβίβασαν τὸν Ἰησοῦν.",
+      "text_kjv": "And they brought him to Jesus: and they cast their garments upon the colt, and they set Jesus thereon.",
+      "rendering": "They brought it to Jesus, and throwing their cloaks on the colt, they put Jesus on it.",
+      "translator_notes": [
+        "The casting of garments (himatia, 'outer cloaks') over the animal serves as an improvised saddle but also echoes the coronation of Jehu, where supporters threw their cloaks under him on the steps (2 Kings 9:13). The verb epebibasan ('they set upon, they mounted') indicates the disciples physically helped Jesus onto the animal — a formal enthronement gesture.",
+        "[TCR Cross-Reference] This verse quotes 2 Kings 9:13 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 36,
+      "text_greek": "πορευομένου δὲ αὐτοῦ ὑπεστρώννυον τὰ ἱμάτια αὐτῶν ἐν τῇ ὁδῷ.",
+      "text_kjv": "And as he went, they spread their clothes in the way.",
+      "rendering": "As he rode along, people spread their cloaks on the road.",
+      "translator_notes": [
+        "The imperfect hypestrōnnyon ('they were spreading') indicates a continuous action as the procession moved — people kept laying cloaks in his path. This echoes 2 Kings 9:13 more directly. Luke omits the palm branches mentioned in John 12:13 and the 'branches from the fields' in Mark 11:8.",
+        "[TCR Cross-Reference] Quotes 2 Kings 9:13. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it."
+      ],
+      "reading_level": "5th grade"
+    },
+    {
+      "verse": 37,
+      "text_greek": "ἐγγίζοντος δὲ αὐτοῦ ἤδη πρὸς τῇ καταβάσει τοῦ ὄρους τῶν Ἐλαιῶν ἤρξαντο ἅπαν τὸ πλῆθος τῶν μαθητῶν χαίροντες αἰνεῖν τὸν θεὸν φωνῇ μεγάλῃ περὶ πασῶν ὧν εἶδον δυνάμεων,",
+      "text_kjv": "And when he was come nigh, even now at the descent of the mount of Olives, the whole multitude of the disciples began to rejoice and praise God with a loud voice for all the mighty works that they had seen;",
+      "rendering": "As he was now approaching the descent of the Mount of Olives, the whole crowd of disciples began to praise God joyfully with a loud voice for all the mighty works they had seen,",
+      "translator_notes": [
+        "Luke specifies the location precisely: the katabasei ('descent, downward slope') of the Mount of Olives, where the panoramic view of Jerusalem and the temple would have come into full sight. Luke's version attributes the praise to 'the whole crowd of disciples' (hapan to plēthos tōn mathētōn) rather than the general crowd. The dynameis ('mighty works, miracles') they had witnessed become the basis for their praise."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 38,
+      "text_greek": "λέγοντες· Εὐλογημένος ὁ ἐρχόμενος, ὁ βασιλεὺς ἐν ὀνόματι κυρίου· ἐν οὐρανῷ εἰρήνη καὶ δόξα ἐν ὑψίστοις.",
+      "text_kjv": "Saying, Blessed be the King that cometh in the name of the Lord: peace in heaven, and glory in the highest.",
+      "rendering": "Declaring, Blessed be the King that comes by the authority of the Lord — peace in heaven, and glory in the highest.",
+      "translator_notes": [
+        "The acclamation quotes Psalm 118:26 but Luke inserts 'the king' (ho basileus) into the psalm citation — making the royal claim explicit where the original psalm was more general. The phrase 'peace in heaven and glory in the highest' (en ouranō eirēnē kai doxa en hypsistois) echoes the angels' song at Jesus's birth (2:14) but reverses the direction: at the nativity, peace was proclaimed on earth; here, peace is proclaimed in heaven. The inclusio (literary bookend) connecting birth and entry into Jerusalem is deliberate.",
+        "[TCR Cross-Reference] References Psalms 118:26 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 39,
+      "text_greek": "καί τινες τῶν Φαρισαίων ἀπὸ τοῦ ὄχλου εἶπαν πρὸς αὐτόν· Διδάσκαλε, ἐπιτίμησον τοῖς μαθηταῖς σου.",
+      "text_kjv": "And some of the Pharisees from among the multitude said unto him, Master, rebuke thy disciples.",
+      "rendering": "Some of the Pharisees in the crowd said to him, \"Teacher, rebuke your disciples.\"",
+      "translator_notes": [
+        "The Pharisees are 'in the crowd' (apo tou ochlou), not separate from it — they are witnesses to the procession. Their demand that Jesus silence the disciples reveals their alarm at the messianic implications of the acclamation. The address 'Teacher' (didaskale) rather than 'Lord' reflects their refusal to acknowledge Jesus's royal claim."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 40,
+      "text_greek": "καὶ ἀποκριθεὶς εἶπεν· Λέγω ὑμῖν, ἐὰν οὗτοι σιωπήσουσιν, οἱ λίθοι κράξουσιν.",
+      "text_kjv": "And he answered and said unto them, I tell you that, if these should hold their peace, the stones would immediately cry out.",
+      "rendering": "He answered, \"I tell you, if these were silent, the stones would cry out.\"",
+      "translator_notes": [
+        "Jesus's response is among his most memorable sayings (unique to Luke). The imagery of stones crying out may echo Habakkuk 2:11 ('the stone will cry out from the wall'). The declaration implies that the praise is cosmically necessary — creation itself would testify if humans fell silent. The conditional ean ... siōpēsousin ('if they should be silent') uses a future indicative in a conditional clause, expressing a vivid, almost impossible hypothetical.",
+        "[TCR Cross-Reference] This verse quotes Habakkuk 2:11 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 41,
+      "text_greek": "Καὶ ὡς ἤγγισεν, ἰδὼν τὴν πόλιν ἔκλαυσεν ἐπ' αὐτήν,",
+      "text_kjv": "And when he was come near, he beheld the city, and wept over it,",
+      "rendering": "As he drew near and saw the city, he wept over it,",
+      "translator_notes": [
+        "The verb eklausen ('he wept') indicates audible weeping or sobbing, not silent tears (for which dakryō would be used, as in John 11:35). This is unique to Luke and profoundly ironic: the crowd is celebrating while Jesus mourns. He weeps at the moment of his greatest public triumph because he sees what the crowd cannot — the city's coming destruction."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 42,
+      "text_greek": "λέγων ὅτι Εἰ ἔγνως ἐν τῇ ἡμέρᾳ ταύτῃ καὶ σὺ τὰ πρὸς εἰρήνην — νῦν δὲ ἐκρύβη ἀπὸ ὀφθαλμῶν σου.",
+      "text_kjv": "Saying, If thou hadst known, even thou, at least in this thy day, the things which belong unto thy peace! but now they are hid from thine eyes.",
+      "rendering": "Declaring, If you hadst known, even you, at least in this your day, the things which belong to your peace! but now they are hid from your eyes.",
+      "translator_notes": [
+        "The sentence breaks off — an anacoluthon (grammatically incomplete sentence) that mimics the emotion of the speaker. The phrase kai sy ('even you') is emphatic: Jerusalem, of all cities, should have recognized the moment. The ta pros eirēnēn ('the things pertaining to peace') echoes the city's name (Yerushalayim, traditionally connected to shalom). The passive ekrybē ('they have been hidden') is a divine passive — God has concealed from Jerusalem what it needed to see, a judicial act of divine hardening."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 43,
+      "text_greek": "ὅτι ἥξουσιν ἡμέραι ἐπὶ σὲ καὶ παρεμβαλοῦσιν οἱ ἐχθροί σου χάρακά σοι καὶ περικυκλώσουσίν σε καὶ συνέξουσίν σε πάντοθεν,",
+      "text_kjv": "For the days shall come upon thee, that thine enemies shall cast a trench about thee, and compass thee round, and keep thee in on every side,",
+      "rendering": "For the days will come upon you when your enemies will build an embankment against you and surround you and hem you in on every side.",
+      "translator_notes": [
+        "The military language precisely describes a Roman siege: charaka ('palisade, siege embankment') refers to the wooden and earthen rampart that encircled a besieged city. The verb perikyklōsousin ('will encircle') and synexousin ('will press in, constrict') describe progressive tightening of the siege. This was fulfilled literally in AD 70 when Titus's forces built a circumvallation wall around Jerusalem (Josephus, War 5.12.1-2)."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 44,
+      "text_greek": "καὶ ἐδαφιοῦσίν σε καὶ τὰ τέκνα σου ἐν σοί, καὶ οὐκ ἀφήσουσιν λίθον ἐπὶ λίθον ἐν σοί, ἀνθ' ὧν οὐκ ἔγνως τὸν καιρὸν τῆς ἐπισκοπῆς σου.",
+      "text_kjv": "And shall lay thee even with the ground, and thy children within thee; and they shall not leave in thee one stone upon another; because thou knewest not the time of thy visitation.",
+      "rendering": "They will dash you to the ground — you and your children within you. They will not leave one stone upon another in you, because you did not recognize the time of your visitation.\"",
+      "translator_notes": [
+        "The verb edaphiousin ('dash to the ground, level, raze') is violent — it includes the image of smashing against the ground. The inclusion of 'your children within you' (ta tekna sou en soi) makes the prophecy personal and devastating. The phrase ton kairon tēs episkopēs sou ('the time of your visitation') is the theological crux: episkopē means 'visitation, inspection' — God has come to inspect his city and found it wanting. The kairos ('appointed time, decisive moment') is distinguished from chronos ('ordinary time'); this was the unique, unrepeatable moment of divine visitation that Jerusalem missed."
+      ],
+      "key_terms": [
+        {
+          "greek": "ἐπισκοπή",
+          "transliteration": "episkopē",
+          "rendered_as": "visitation",
+          "semantic_range": "visitation, inspection, oversight, office of overseer",
+          "note": "In the Septuagint, episkopē refers to God's coming to his people — either in mercy or in judgment. Here it encompasses both: God visits in mercy through Jesus, but Jerusalem's failure to recognize the visit transforms mercy into judgment."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 45,
+      "text_greek": "Καὶ εἰσελθὼν εἰς τὸ ἱερὸν ἤρξατο ἐκβάλλειν τοὺς πωλοῦντας,",
+      "text_kjv": "And he went into the temple, and began to cast out them that sold therein, and them that bought,",
+      "rendering": "Then he entered the temple and began to drive out those who were selling,",
+      "translator_notes": [
+        "Luke's account of the temple cleansing is the most compressed of all four Gospels — he mentions only sellers (pōlountas), not buyers, money changers, or dove sellers. The verb ekballein ('to drive out, to throw out') is the same word used for casting out demons, giving the action a purging quality. The temple commerce, though necessary for sacrifice, had apparently expanded beyond appropriate bounds, commercializing sacred space."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 46,
+      "text_greek": "λέγων αὐτοῖς· Γέγραπται· Καὶ ἔσται ὁ οἶκός μου οἶκος προσευχῆς, ὑμεῖς δὲ αὐτὸν ἐποιήσατε σπήλαιον λῃστῶν.",
+      "text_kjv": "Saying unto them, It is written, My house is the house of prayer: but ye have made it a den of thieves.",
+      "rendering": "Declaring to them, It is written, My home is the home of petition — but you have made it a den of thieves.",
+      "translator_notes": [
+        "Jesus combines two prophetic texts: Isaiah 56:7 ('my house shall be called a house of prayer for all nations') and Jeremiah 7:11 ('Has this house become a den of robbers in your eyes?'). Luke omits Isaiah's 'for all nations' (which Mark 11:17 includes). The word lēstōn ('robbers, bandits') is stronger than 'thieves' — it implies violent, predatory exploitation. Jeremiah's original context was a warning that the first temple's destruction was imminent because the people treated it as a safe haven for injustice; Jesus implies the same fate for the second temple.",
+        "[TCR Cross-Reference] Quotes Isaiah 56:7. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it.",
+        "[TCR Cross-Reference] Quotes Jeremiah 7:11. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 47,
+      "text_greek": "Καὶ ἦν διδάσκων τὸ καθ' ἡμέραν ἐν τῷ ἱερῷ· οἱ δὲ ἀρχιερεῖς καὶ οἱ γραμματεῖς ἐζήτουν αὐτὸν ἀπολέσαι καὶ οἱ πρῶτοι τοῦ λαοῦ,",
+      "text_kjv": "And he taught daily in the temple. But the chief priests and the scribes and the chief of the people sought to destroy him,",
+      "rendering": "He was teaching daily in the temple. The chief priests, the scribes, and the leading men of the people were seeking to destroy him,",
+      "translator_notes": [
+        "The imperfect ēn didaskōn ('he was teaching') and ezētoun ('they were seeking') establish two ongoing, simultaneous activities: Jesus teaches publicly while the authorities plot privately. Luke adds hoi prōtoi tou laou ('the leading men of the people') to Mark's chief priests and scribes, broadening the opposition to include the lay aristocracy. The verb apolesai ('to destroy, to kill') is the same word used for what the flood did to Noah's generation (17:27)."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 48,
+      "text_greek": "καὶ οὐχ εὕρισκον τὸ τί ποιήσωσιν, ὁ λαὸς γὰρ ἅπας ἐξεκρέμετο αὐτοῦ ἀκούων.",
+      "text_kjv": "And could not find what they might do: for all the people were very attentive to hear him.",
+      "rendering": "Could not find what they might do — for all the people were very eager to listen to him.",
+      "translator_notes": [
+        "The verb exekremeto ('hung upon, was suspended from') is a vivid metaphor — the people literally 'hung from him listening.' It appears only here in the New Testament. The popular support for Jesus creates a political obstacle that forces the authorities to seek covert means, which they eventually find through Judas (22:1-6). This verse sets up the tension that drives the passion narrative: the leaders want Jesus dead, but the people's devotion makes open action impossible."
+      ],
+      "reading_level": "7th grade"
+    }
+  ]
+}

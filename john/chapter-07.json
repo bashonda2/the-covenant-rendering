@@ -1,0 +1,574 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "John",
+    "chapter": 7,
+    "source_text": "SBL Greek New Testament (SBLGNT)",
+    "reference_text": "KJV",
+    "generated_at": "2026-04-04T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "John 7 takes place during the Feast of Tabernacles (Sukkot) in Jerusalem. Jesus initially stays in Galilee while his brothers urge him to go public in Judea, then travels to Jerusalem secretly and teaches in the temple midway through the festival. The chapter is structured around escalating division: the crowds are split over whether Jesus is a good man or a deceiver, whether he could be the Christ, and whether the authorities want to arrest or believe him. On the last day of the feast, Jesus makes his climactic declaration: 'If anyone is thirsty, let them come to me and drink' — a claim the narrator connects to the Holy Spirit. The chapter ends with the Pharisees and chief priests failing to arrest him, and Nicodemus making a cautious defense.",
+    "remarkable": "The Feast of Tabernacles provides the symbolic backdrop for Jesus's teaching. The festival celebrated the wilderness wandering with water-pouring ceremonies (commemorating the water from the rock) and light ceremonies (commemorating the pillar of fire). Jesus's 'living water' declaration (7:37-39) directly engages the water-pouring ritual, and his 'light of the world' declaration in 8:12 engages the light ceremony. The division among the people (schisma, 7:43) becomes a structural element — Jesus is the great divider, forcing a decision. The officers sent to arrest him return empty-handed, declaring 'No one ever spoke like this man' (7:46).",
+    "friction": "The punctuation of 7:37-38 is heavily debated. The traditional reading makes the believer the source of living water ('Out of their heart will flow rivers'). An alternative reading makes Jesus the source ('Out of his heart will flow rivers'). We follow the traditional punctuation while noting the alternative. The reference to 'Scripture' in 7:38 does not correspond to any single Old Testament passage — it may be a composite allusion to Isaiah 55:1, Ezekiel 47:1-12, and Zechariah 14:8. Jesus's brothers' unbelief (7:5) and the confused expectations of the crowd create a portrait of widespread misunderstanding.",
+    "connections": "The Feast of Tabernacles connects to Leviticus 23:33-43, Nehemiah 8:14-18, and Zechariah 14:16-19. The water-pouring ceremony connects to Isaiah 12:3 ('With joy you will draw water from the wells of salvation'). The crowd's debate about whether the Christ comes from Bethlehem (7:42) ironically confirms Jesus's qualification — they do not know he was born there. Nicodemus's reappearance (7:50-52) continues his arc from chapter 3."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_greek": "Καὶ μετὰ ταῦτα περιεπάτει ὁ Ἰησοῦς ἐν τῇ Γαλιλαίᾳ· οὐ γὰρ ἤθελεν ἐν τῇ Ἰουδαίᾳ περιπατεῖν, ὅτι ἐζήτουν αὐτὸν οἱ Ἰουδαῖοι ἀποκτεῖναι.",
+      "text_kjv": "After these things Jesus walked in Galilee: for he would not walk in Jewry, because the Jews sought to kill him.",
+      "rendering": "After this, Jesus traveled around in Galilee. He did not want to travel in Judea because the Jewish leaders were seeking to kill him.",
+      "translator_notes": [
+        "The verb periepatei ('was walking around, was traveling') indicates a period of itinerant ministry in Galilee. The reason for avoiding Judea is explicit: the authorities were seeking to kill him (cf. 5:18). The narrative tension between Galilee (relative safety) and Jerusalem (mortal danger) structures the chapter."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 2,
+      "text_greek": "ἦν δὲ ἐγγὺς ἡ ἑορτὴ τῶν Ἰουδαίων ἡ σκηνοπηγία.",
+      "text_kjv": "Now the Jews' feast of tabernacles was at hand.",
+      "rendering": "Now the Jewish Feast of Tabernacles was near.",
+      "translator_notes": [
+        "The skenopegia ('Feast of Tabernacles, Feast of Booths') was one of the three pilgrimage festivals (with Passover and Pentecost) requiring attendance in Jerusalem. Celebrated in September/October (Tishri 15-22), it commemorated Israel's wilderness wandering and gave thanks for the autumn harvest. It was the most joyful of the festivals, involving temporary shelters (sukkot), torch-lit processions, and water-drawing ceremonies."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 3,
+      "text_greek": "εἶπον οὖν πρὸς αὐτὸν οἱ ἀδελφοὶ αὐτοῦ· μετάβηθι ἐντεῦθεν καὶ ὕπαγε εἰς τὴν Ἰουδαίαν, ἵνα καὶ οἱ μαθηταί σου θεωρήσουσιν σοῦ τὰ ἔργα ἃ ποιεῖς·",
+      "text_kjv": "His brethren therefore said unto him, Depart hence, and go into Judaea, that thy disciples also may see the works that thou doest.",
+      "rendering": "So his brothers said to him, \"Leave here and go to Judea, so that your disciples there can also see the works you are doing.",
+      "translator_notes": [
+        "Jesus's brothers (adelphoi, cf. 2:12) urge him to go public on the largest possible stage. Their advice is worldly wisdom: if you want followers, perform in the capital during the biggest festival. The reference to 'your disciples' in Judea distinguishes the broader circle of followers from the Galilean group."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 4,
+      "text_greek": "οὐδεὶς γάρ τι ἐν κρυπτῷ ποιεῖ καὶ ζητεῖ αὐτὸς ἐν παρρησίᾳ εἶναι. εἰ ταῦτα ποιεῖς, φανέρωσον σεαυτὸν τῷ κόσμῳ.",
+      "text_kjv": "For there is no man that doeth any thing in secret, and he himself seeketh to be known openly. If thou do these things, shew thyself to the world.",
+      "rendering": "For no one does anything in secret if they want to be known publicly. If you are doing these things, show yourself to the world.\"",
+      "translator_notes": [
+        "The brothers' logic is strategic: public figures need public platforms. The contrast between en krypto ('in secret') and en parresia ('openly, publicly, with boldness') frames the issue as marketing. The conditional 'if you are doing these things' (ei tauta poieis) may carry a note of doubt — they are not entirely sure about his works. The command 'show yourself to the world' (phaneroson seauton to kosmo) echoes the narrator's role-description of signs as 'revelations' (2:11)."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 5,
+      "text_greek": "οὐδὲ γὰρ οἱ ἀδελφοὶ αὐτοῦ ἐπίστευον εἰς αὐτόν.",
+      "text_kjv": "For neither did his brethren believe in him.",
+      "rendering": "For not even his brothers believed in him.",
+      "translator_notes": [
+        "The narrator's blunt assessment — 'not even his brothers believed' (oude gar hoi adelphoi autou episteuon) — is one of the most poignant notes in the Gospel. The imperfect tense episteuon indicates their unbelief at this point in time; Acts 1:14 shows them among the believers after the resurrection. The word 'even' (oude) emphasizes the scandal: those closest to him by blood do not believe."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 6,
+      "text_greek": "λέγει οὖν αὐτοῖς ὁ Ἰησοῦς· ὁ καιρὸς ὁ ἐμὸς οὔπω πάρεστιν, ὁ δὲ καιρὸς ὁ ὑμέτερος πάντοτέ ἐστιν ἕτοιμος.",
+      "text_kjv": "Then Jesus said unto them, My time is not yet come: but your time is alway ready.",
+      "rendering": "So Jesus said to them, \"My time has not yet come, but your time is always ready.",
+      "translator_notes": [
+        "The word kairos ('time, opportune moment') is distinct from chronos ('chronological time'). Jesus operates on a divine timetable; his brothers can go to Jerusalem whenever they choose because nothing of cosmic significance depends on their timing. The phrase oupo parestin ('has not yet arrived') connects to the 'hour' motif (2:4, 7:30, 8:20) — Jesus's movements are determined by the Father's schedule, not human advice."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 7,
+      "text_greek": "οὐ δύναται ὁ κόσμος μισεῖν ὑμᾶς, ἐμὲ δὲ μισεῖ, ὅτι ἐγὼ μαρτυρῶ περὶ αὐτοῦ ὅτι τὰ ἔργα αὐτοῦ πονηρά ἐστιν.",
+      "text_kjv": "The world cannot hate you; but me it hateth, because I testify of it, that the works thereof are evil.",
+      "rendering": "The world cannot hate you, but it hates me because I testify about it that its works are evil.",
+      "translator_notes": [
+        "The world (kosmos) has no reason to hate Jesus's brothers — they share its values and pose no threat to its order. Jesus provokes hatred because he exposes evil (cf. 3:19-20). The verb martyro ('I testify') places Jesus in the role of witness against the world — his very presence is an indictment of human darkness."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 8,
+      "text_greek": "ὑμεῖς ἀνάβητε εἰς τὴν ἑορτήν· ἐγὼ οὐκ ἀναβαίνω εἰς τὴν ἑορτὴν ταύτην, ὅτι ὁ ἐμὸς καιρὸς οὔπω πεπλήρωται.",
+      "text_kjv": "Go ye up unto this feast: I go not up yet unto this feast; for my time is not yet full come.",
+      "rendering": "You go up to the festival. I am not going up to this festival because my time has not yet been fulfilled.\"",
+      "translator_notes": [
+        "The SBLGNT reads ouk ('not') rather than oupo ('not yet'), which some manuscripts have. With ouk, Jesus says flatly 'I am not going' — then goes secretly (v. 10). This is not deception but a refusal to go on their terms and their timetable. The perfect tense peplerotai ('has been fulfilled') indicates that the kairos is not yet complete — God's timing has not yet arrived for a public appearance."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 9,
+      "text_greek": "ταῦτα δὲ εἰπὼν αὐτὸς ἔμεινεν ἐν τῇ Γαλιλαίᾳ.",
+      "text_kjv": "When he had said these words unto them, he abode still in Galilee.",
+      "rendering": "After saying this, he stayed behind in Galilee.",
+      "translator_notes": [
+        "Jesus remains (emeinen) in Galilee — temporarily. His brothers go ahead publicly; he will follow privately. The verb meno ('to stay, to remain') carries its usual Johannine weight of deliberate, purposeful presence."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 10,
+      "text_greek": "Ὡς δὲ ἀνέβησαν οἱ ἀδελφοὶ αὐτοῦ εἰς τὴν ἑορτήν, τότε καὶ αὐτὸς ἀνέβη, οὐ φανερῶς ἀλλ' ὡς ἐν κρυπτῷ.",
+      "text_kjv": "But when his brethren were gone up, then went he also up unto the feast, not openly, but as it were in secret.",
+      "rendering": "But after his brothers had gone up to the festival, then he also went up — not publicly but in secret.",
+      "translator_notes": [
+        "Jesus goes to Jerusalem, but on his own terms — en krypto ('in secret'), the opposite of the en parresia ('publicly') his brothers demanded (v. 4). He will make a public appearance, but at the time and in the manner the Father determines, not as a publicity stunt orchestrated by unbelieving family members."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 11,
+      "text_greek": "οἱ οὖν Ἰουδαῖοι ἐζήτουν αὐτὸν ἐν τῇ ἑορτῇ καὶ ἔλεγον· ποῦ ἐστιν ἐκεῖνος;",
+      "text_kjv": "Then the Jews sought him at the feast, and said, Where is he?",
+      "rendering": "The Jewish leaders were looking for him at the festival, saying, \"Where is that man?\"",
+      "translator_notes": [
+        "The imperfect ezetoun ('were looking for') indicates an ongoing search. The demonstrative ekeinos ('that one, that man') can be either neutral or disdainful — they refer to Jesus without naming him. The authorities expect him at the festival and are prepared to act."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 12,
+      "text_greek": "καὶ γογγυσμὸς περὶ αὐτοῦ ἦν πολὺς ἐν τοῖς ὄχλοις· οἱ μὲν ἔλεγον ὅτι ἀγαθός ἐστιν, ἄλλοι δὲ ἔλεγον· οὔ, ἀλλὰ πλανᾷ τὸν ὄχλον.",
+      "text_kjv": "And there was much murmuring among the people concerning him: for some said, He is a good man: others said, Nay; but he deceiveth the people.",
+      "rendering": "There was much whispering about him among the crowds. Some were saying, \"He is a good man,\" while others were saying, \"No, he is leading the people astray.\"",
+      "translator_notes": [
+        "The word goggysmos ('murmuring, whispering') indicates guarded, secretive conversation — people are afraid to speak openly (v. 13). The division is between those who see Jesus as 'good' (agathos) and those who see him as a deceiver who 'leads astray' (plana, the root of 'planet' — one who wanders and causes others to wander). This division (schisma) will deepen throughout the chapter."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 13,
+      "text_greek": "οὐδεὶς μέντοι παρρησίᾳ ἐλάλει περὶ αὐτοῦ διὰ τὸν φόβον τῶν Ἰουδαίων.",
+      "text_kjv": "Howbeit no man spake openly of him for fear of the Jews.",
+      "rendering": "Yet no one spoke openly about him for fear of the Jewish leaders.",
+      "translator_notes": [
+        "The word parresia ('openly, boldly, with freedom of speech') contrasts with the secretive whispering of verse 12. Fear of the authorities (ton phobon ton Ioudaion) suppresses public discourse about Jesus. This fear of the authorities recurs in 9:22, 12:42, 19:38, 20:19, revealing the coercive power of the religious establishment."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 14,
+      "text_greek": "Ἤδη δὲ τῆς ἑορτῆς μεσούσης ἀνέβη Ἰησοῦς εἰς τὸ ἱερὸν καὶ ἐδίδασκεν.",
+      "text_kjv": "Now about the midst of the feast Jesus went up into the temple, and taught.",
+      "rendering": "When the festival was already half over, Jesus went up to the temple and began teaching.",
+      "translator_notes": [
+        "Jesus makes his public appearance on his own schedule — midway through the seven-day festival (approximately day three or four). He teaches in the temple (hieron, the temple complex), the most public forum in Jerusalem. The imperfect edidasken ('was teaching, began teaching') indicates sustained instruction, not a single statement."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 15,
+      "text_greek": "ἐθαύμαζον οὖν οἱ Ἰουδαῖοι λέγοντες· πῶς οὗτος γράμματα οἶδεν μὴ μεμαθηκώς;",
+      "text_kjv": "And the Jews marvelled, saying, How knoweth this man letters, having never learned?",
+      "rendering": "The Jewish leaders were astonished, saying, \"How does this man know Scripture without having been formally educated?\"",
+      "translator_notes": [
+        "The phrase grammata oiden ('knows letters/learning') refers not to basic literacy but to the formal study of Scripture under a recognized rabbi. Jesus had no rabbinic credentials — he had not studied under any recognized teacher. The verb memathekas ('having learned, having studied') is from the same root as mathetes ('disciple'). Their astonishment acknowledges his competence while questioning his credentials."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 16,
+      "text_greek": "ἀπεκρίθη οὖν αὐτοῖς ὁ Ἰησοῦς καὶ εἶπεν· ἡ ἐμὴ διδαχὴ οὐκ ἔστιν ἐμὴ ἀλλὰ τοῦ πέμψαντός με·",
+      "text_kjv": "Jesus answered them, and said, My doctrine is not mine, but his that sent me.",
+      "rendering": "Jesus answered them, \"My teaching is not my own but comes from the one who sent me.",
+      "translator_notes": [
+        "Jesus explains his lack of formal credentials by identifying the source of his teaching: the Father who sent him. His teaching is not self-generated (ouk estin eme) but received from God. This continues the pattern of the Son doing nothing on his own but only what the Father gives (5:19, 30)."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 17,
+      "text_greek": "ἐάν τις θέλῃ τὸ θέλημα αὐτοῦ ποιεῖν, γνώσεται περὶ τῆς διδαχῆς πότερον ἐκ τοῦ θεοῦ ἐστιν ἢ ἐγὼ ἀπ' ἐμαυτοῦ λαλῶ.",
+      "text_kjv": "If any man will do his will, he shall know of the doctrine, whether it be of God, or whether I speak of myself.",
+      "rendering": "If anyone chooses to do God's will, they will know whether this teaching is from God or whether I speak on my own authority.",
+      "translator_notes": [
+        "Jesus offers an epistemological principle: obedience is the pathway to knowledge. Those who are willing to do God's will (to thelema autou poiein) will be able to discern whether Jesus's teaching comes from God. The willingness to obey precedes the ability to evaluate — moral alignment opens the way to theological understanding."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 18,
+      "text_greek": "ὁ ἀφ' ἑαυτοῦ λαλῶν τὴν δόξαν τὴν ἰδίαν ζητεῖ· ὁ δὲ ζητῶν τὴν δόξαν τοῦ πέμψαντος αὐτὸν οὗτος ἀληθής ἐστιν καὶ ἀδικία ἐν αὐτῷ οὐκ ἔστιν.",
+      "text_kjv": "He that speaketh of himself seeketh his own glory: but he that seeketh his glory that sent him, the same is true, and no unrighteousness is in him.",
+      "rendering": "The one who speaks on their own authority seeks their own glory, but the one who seeks the glory of the one who sent him — this person is true, and there is no falsehood in them.",
+      "translator_notes": [
+        "Jesus provides a test for authenticating a teacher: examine whose glory they seek. Self-promoters seek their own glory (ten doxan ten idian); an authentic teacher seeks the glory of the one who commissioned them. The word adikia ('unrighteousness, falsehood, injustice') here carries the sense of dishonesty or deception — the teacher who seeks God's glory is trustworthy."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 19,
+      "text_greek": "οὐ Μωϋσῆς δέδωκεν ὑμῖν τὸν νόμον; καὶ οὐδεὶς ἐξ ὑμῶν ποιεῖ τὸν νόμον. τί με ζητεῖτε ἀποκτεῖναι;",
+      "text_kjv": "Did not Moses give you the law, and yet none of you keepeth the law? Why go ye about to kill me?",
+      "rendering": "Did not Moses give you the law? Yet none of you keeps the law. Why are you seeking to kill me?\"",
+      "translator_notes": [
+        "Jesus turns the tables: they claim to follow Moses's law, yet they are plotting murder — which the law forbids (Exodus 20:13). The argument is devastating: the very law they accuse Jesus of violating (Sabbath regulations) condemns their own intent to kill. The phrase oudeis ex hymon poiei ton nomon ('none of you keeps the law') is either hyperbolic or a specific charge about the murder plot.",
+        "[TCR Cross-Reference] Echoes Exodus 20:13. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 20,
+      "text_greek": "ἀπεκρίθη ὁ ὄχλος· δαιμόνιον ἔχεις· τίς σε ζητεῖ ἀποκτεῖναι;",
+      "text_kjv": "The people answered and said, Thou hast a devil: who goeth about to kill thee?",
+      "rendering": "The crowd answered, \"You have a demon! Who is seeking to kill you?\"",
+      "translator_notes": [
+        "The crowd (ochlos), as opposed to the authorities (Ioudaioi), appears unaware of the murder plot. Their accusation 'you have a demon' (daimonion echeis) attributes Jesus's claims to insanity or demonic influence — a charge that will recur (8:48, 52, 10:20). The crowd's ignorance of the leadership's intentions reveals a disconnect between the people and their rulers."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 21,
+      "text_greek": "ἀπεκρίθη Ἰησοῦς καὶ εἶπεν αὐτοῖς· ἓν ἔργον ἐποίησα καὶ πάντες θαυμάζετε.",
+      "text_kjv": "Jesus answered and said unto them, I have done one work, and ye all marvel.",
+      "rendering": "Jesus answered them, \"I did one work, and all of you are astonished.",
+      "translator_notes": [
+        "The 'one work' (hen ergon) refers to the Sabbath healing at the pool of Bethesda (5:1-9), which triggered the persecution. Jesus returns to the unfinished argument from chapter 5. The verb thaumazete ('you are astonished/troubled') indicates the Sabbath healing still provokes them."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 22,
+      "text_greek": "διὰ τοῦτο Μωϋσῆς δέδωκεν ὑμῖν τὴν περιτομήν — οὐχ ὅτι ἐκ τοῦ Μωϋσέως ἐστὶν ἀλλ' ἐκ τῶν πατέρων — καὶ ἐν σαββάτῳ περιτέμνετε ἄνθρωπον.",
+      "text_kjv": "Moses therefore gave unto you circumcision; (not because it is of Moses, but of the fathers;) and ye on the sabbath day circumcise a man.",
+      "rendering": "Moses gave you circumcision — not that it originated with Moses but with the patriarchs — and you circumcise a man on the Sabbath.",
+      "translator_notes": [
+        "Jesus constructs a rabbinic argument from lesser to greater (qal vahomer). Circumcision predates Moses (Genesis 17) but was incorporated into Mosaic law (Leviticus 12:3). When the eighth day after birth falls on a Sabbath, circumcision proceeds — the obligation to circumcise overrides the Sabbath prohibition of work. This was settled Jewish law (cf. Mishnah Shabbat 18:3, 19:2).",
+        "[TCR Cross-Reference] Draws on Genesis 17. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices.",
+        "[TCR Cross-Reference] Draws on Leviticus 12:3. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 23,
+      "text_greek": "εἰ περιτομὴν λαμβάνει ἄνθρωπος ἐν σαββάτῳ ἵνα μὴ λυθῇ ὁ νόμος Μωϋσέως, ἐμοὶ χολᾶτε ὅτι ὅλον ἄνθρωπον ὑγιῆ ἐποίησα ἐν σαββάτῳ;",
+      "text_kjv": "If a man on the sabbath day receive circumcision, that the law of Moses should not be broken; are ye angry at me, because I have made a man every whit whole on the sabbath day?",
+      "rendering": "If a man receives circumcision on the Sabbath so that the law of Moses is not broken, are you angry with me because I made an entire man well on the Sabbath?",
+      "translator_notes": [
+        "The argument from lesser to greater: if circumcision (which benefits one part of the body) can override the Sabbath, how much more should healing the whole person (holon anthropon hygie, 'an entire person well') override it? The word cholate ('are angry, are furious') is unusually strong — suggesting that Jesus perceives their opposition as irrational rage rather than principled disagreement."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 24,
+      "text_greek": "μὴ κρίνετε κατ' ὄψιν, ἀλλὰ τὴν δικαίαν κρίσιν κρίνετε.",
+      "text_kjv": "Judge not according to the appearance, but judge righteous judgment.",
+      "rendering": "Do not judge by appearances, but judge with right judgment.\"",
+      "translator_notes": [
+        "Jesus concludes with a general principle: judgment (krisis) should be based on reality (dikaia, 'righteous, just, correct'), not surface appearances (kat opsin, 'according to the face/sight'). Applied to the Sabbath controversy: judging Jesus as a Sabbath-breaker is a superficial verdict that fails to see the deeper reality of what God is doing through him."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 25,
+      "text_greek": "Ἔλεγον οὖν τινες ἐκ τῶν Ἱεροσολυμιτῶν· οὐχ οὗτός ἐστιν ὃν ζητοῦσιν ἀποκτεῖναι;",
+      "text_kjv": "Then said some of them of Jerusalem, Is not this he, whom they seek to kill?",
+      "rendering": "Some of the people of Jerusalem were saying, \"Is this not the man they are trying to kill?",
+      "translator_notes": [
+        "The 'people of Jerusalem' (Hierosolymitōn) are distinct from the festival crowds (who are pilgrims from elsewhere). The residents know about the authorities' intentions, confirming Jesus's claim in verse 19. Their question implies surprise that Jesus is teaching publicly unmolested."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 26,
+      "text_greek": "καὶ ἴδε παρρησίᾳ λαλεῖ καὶ οὐδὲν αὐτῷ λέγουσιν. μήποτε ἀληθῶς ἔγνωσαν οἱ ἄρχοντες ὅτι οὗτός ἐστιν ὁ χριστός;",
+      "text_kjv": "But, lo, he speaketh boldly, and they say nothing unto him. Do the rulers know indeed that this is the very Christ?",
+      "rendering": "And look — he is speaking publicly and they say nothing to him! Could it be that the rulers really know that this is the Christ?",
+      "translator_notes": [
+        "The crowd speculates that the authorities' inaction might mean they have secretly concluded Jesus is the Christ. The adverb parresia ('publicly, boldly') is the very quality his brothers demanded (v. 4) — now Jesus displays it, but on the Father's timetable. The particle mepote ('could it be that?') introduces a tentative, almost hopeful possibility."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 27,
+      "text_greek": "ἀλλ' τοῦτον οἴδαμεν πόθεν ἐστίν· ὁ δὲ χριστὸς ὅταν ἔρχηται οὐδεὶς γινώσκει πόθεν ἐστίν.",
+      "text_kjv": "Howbeit we know this man whence he is: but when Christ cometh, no man knoweth whence he is.",
+      "rendering": "But we know where this man is from. When the Christ comes, no one will know where he is from.\"",
+      "translator_notes": [
+        "The crowd dismisses their own suggestion based on a popular belief about the Christ's hidden origin — some Jewish traditions held that the Messiah would appear suddenly and mysteriously (cf. 1 Enoch 48:6, 4 Ezra 13:51-52). Since they know where Jesus is from (Galilee/Nazareth), he cannot be the Christ. The irony is multilayered: they think they know his origin, but they do not know his true origin (from the Father, from heaven, as the Prologue declares).",
+        "[TCR Cross-Reference] Draws on Ezra 13:51-52. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 28,
+      "text_greek": "ἔκραξεν οὖν ἐν τῷ ἱερῷ διδάσκων ὁ Ἰησοῦς καὶ λέγων· κἀμὲ οἴδατε καὶ οἴδατε πόθεν εἰμί· καὶ ἀπ' ἐμαυτοῦ οὐκ ἐλήλυθα, ἀλλ' ἔστιν ἀληθινὸς ὁ πέμψας με, ὃν ὑμεῖς οὐκ οἴδατε·",
+      "text_kjv": "Then cried Jesus in the temple as he taught, saying, Ye both know me, and ye know whence I am: and I am not come of myself, but he that sent me is true, whom ye know not.",
+      "rendering": "Then Jesus cried out in the temple as he was teaching, \"You know me, and you know where I am from! But I have not come on my own. The one who sent me is true, and you do not know him.",
+      "translator_notes": [
+        "The verb ekraxen ('cried out, shouted') indicates a public proclamation — Jesus raises his voice to address the crowd's discussion about his origins. His response is both concessive and corrective: yes, you know my human identity, but you do not know the one who sent me. The claim 'I have not come on my own' (ap emautou ouk elelyta) asserts divine commissioning. The accusation 'you do not know him' (hon hymeis ouk oidate) is devastating to a people who pride themselves on knowing God."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 29,
+      "text_greek": "ἐγὼ οἶδα αὐτόν, ὅτι παρ' αὐτοῦ εἰμι κἀκεῖνός με ἀπέστειλεν.",
+      "text_kjv": "But I know him: for I am from him, and he hath sent me.",
+      "rendering": "I know him, because I am from him and he sent me.\"",
+      "translator_notes": [
+        "Jesus claims two things: personal knowledge of God (ego oida auton, 'I know him') and origin from God (par autou eimi, 'I am from him'). The preposition para ('from the side of, from the presence of') indicates intimate proximity — Jesus comes from God's very presence. The aorist apesteilen ('sent') marks a specific, decisive commissioning."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 30,
+      "text_greek": "Ἐζήτουν οὖν αὐτὸν πιάσαι, καὶ οὐδεὶς ἐπέβαλεν ἐπ' αὐτὸν τὴν χεῖρα, ὅτι οὔπω ἐληλύθει ἡ ὥρα αὐτοῦ.",
+      "text_kjv": "Then they sought to take him: but no man laid hands on him, because his hour was not yet come.",
+      "rendering": "So they tried to arrest him, but no one laid a hand on him because his hour had not yet come.",
+      "translator_notes": [
+        "The attempt to arrest (piasai, 'to seize, to arrest') fails — not because of human protection but because of divine timing. The narrator's explanation 'his hour had not yet come' (oupo elelythei he hora autou) indicates that the 'hour' of Jesus's death is determined by the Father, not by his enemies. No human action can advance or prevent the divinely appointed hour."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 31,
+      "text_greek": "Ἐκ τοῦ ὄχλου δὲ πολλοὶ ἐπίστευσαν εἰς αὐτὸν καὶ ἔλεγον· ὁ χριστὸς ὅταν ἔλθῃ μὴ πλείονα σημεῖα ποιήσει ὧν οὗτος ἐποίησεν;",
+      "text_kjv": "And many of the people believed on him, and said, When Christ cometh, will he do more miracles than these which this man hath done?",
+      "rendering": "But many in the crowd believed in him. They were saying, \"When the Christ comes, will he perform more signs than this man has done?\"",
+      "translator_notes": [
+        "The question expects a negative answer: the Christ will not do more signs than Jesus has done. The logic is simple: if the Messiah will be identified by his works, and no one could surpass Jesus's works, then Jesus must be the Messiah. This is sign-based faith, which John presents as genuine but incomplete."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 32,
+      "text_greek": "ἤκουσαν οἱ Φαρισαῖοι τοῦ ὄχλου γογγύζοντος περὶ αὐτοῦ ταῦτα, καὶ ἀπέστειλαν οἱ ἀρχιερεῖς καὶ οἱ Φαρισαῖοι ὑπηρέτας ἵνα πιάσωσιν αὐτόν.",
+      "text_kjv": "The Pharisees heard that the people murmured such things concerning him; and the Pharisees and the chief priests sent officers to take him.",
+      "rendering": "The Pharisees heard the crowd whispering these things about him, and the chief priests and the Pharisees sent temple officers to arrest him.",
+      "translator_notes": [
+        "The growing popular support alarms the authorities. The coalition of 'chief priests and Pharisees' (hoi archiereis kai hoi Pharisaioi) represents both the Sadducean temple establishment and the Pharisaic party — political rivals united against Jesus. The hyperetas ('officers, servants, attendants') are the temple police, authorized to make arrests within the temple precincts."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 33,
+      "text_greek": "εἶπεν οὖν ὁ Ἰησοῦς· ἔτι χρόνον μικρὸν μεθ' ὑμῶν εἰμι καὶ ὑπάγω πρὸς τὸν πέμψαντά με.",
+      "text_kjv": "Then said Jesus unto them, Yet a little while am I with you, and then I go unto him that sent me.",
+      "rendering": "So Jesus said, \"I will be with you only a little while longer, and then I am going to the one who sent me.",
+      "translator_notes": [
+        "Jesus speaks past the immediate crisis to his impending departure — the 'going to the one who sent me' refers to his return to the Father through death, resurrection, and ascension. The phrase chronon mikron ('a little while') introduces the temporal urgency that marks the second half of the Gospel. His presence is temporary; the opportunity to respond is limited."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 34,
+      "text_greek": "ζητήσετέ με καὶ οὐχ εὑρήσετέ με, καὶ ὅπου εἰμὶ ἐγὼ ὑμεῖς οὐ δύνασθε ἐλθεῖν.",
+      "text_kjv": "Ye shall seek me, and shall not find me: and where I am, thither ye cannot come.",
+      "rendering": "You will look for me and will not find me, and where I am you cannot come.\"",
+      "translator_notes": [
+        "This enigmatic statement will be repeated in 8:21 and 13:33. The meaning is that after his departure, those who rejected him will seek him in vain. 'Where I am' (hopou eimi ego) refers to the Father's presence — a destination accessible only through faith in the Son. The inability to come (ou dynasthe elthein) reflects spiritual incapacity, not physical distance."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 35,
+      "text_greek": "εἶπον οὖν οἱ Ἰουδαῖοι πρὸς ἑαυτούς· ποῦ οὗτος μέλλει πορεύεσθαι ὅτι ἡμεῖς οὐχ εὑρήσομεν αὐτόν; μὴ εἰς τὴν διασπορὰν τῶν Ἑλλήνων μέλλει πορεύεσθαι καὶ διδάσκειν τοὺς Ἕλληνας;",
+      "text_kjv": "Then said the Jews among themselves, Whither will he go, that we shall not find him? will he go unto the dispersed among the Gentiles, and teach the Gentiles?",
+      "rendering": "The Jewish leaders said among themselves, \"Where does this man intend to go that we will not find him? He does not intend to go to the Dispersion among the Greeks and teach the Greeks, does he?",
+      "translator_notes": [
+        "The 'Dispersion' (diaspora) refers to Jews living outside the land of Israel among Greek-speaking populations. Their speculation is ironic — while meant dismissively, it prophetically anticipates the mission to the Gentile world that will follow Jesus's departure. The word Hellenas ('Greeks') here means Gentiles generally, not merely Greek nationals."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 36,
+      "text_greek": "τίς ἐστιν ὁ λόγος οὗτος ὃν εἶπεν· ζητήσετέ με καὶ οὐχ εὑρήσετέ με, καὶ ὅπου εἰμὶ ἐγὼ ὑμεῖς οὐ δύνασθε ἐλθεῖν;",
+      "text_kjv": "What manner of saying is this that he said, Ye shall seek me, and shall not find me: and where I am, thither ye cannot come?",
+      "rendering": "What does he mean by saying, 'You will look for me and will not find me, and where I am you cannot come'?\"",
+      "translator_notes": [
+        "The leaders repeat Jesus's words but cannot penetrate their meaning. Their incomprehension is a recurring Johannine pattern — Jesus speaks on a heavenly register and his listeners hear on an earthly one. The irony persists throughout: they cannot understand because they do not know the one who sent him (v. 28)."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 37,
+      "text_greek": "Ἐν δὲ τῇ ἐσχάτῃ ἡμέρᾳ τῇ μεγάλῃ τῆς ἑορτῆς εἱστήκει ὁ Ἰησοῦς καὶ ἔκραξεν λέγων· ἐάν τις διψᾷ ἐρχέσθω πρός με καὶ πινέτω.",
+      "text_kjv": "In the last day, that great day of the feast, Jesus stood and cried, saying, If any man thirst, let him come unto me, and drink.",
+      "rendering": "On the last and greatest day of the festival, Jesus stood and cried out, \"If anyone is thirsty, let them come to me and drink.",
+      "translator_notes": [
+        "The 'last and greatest day' (te eschate hemera te megale) is either the seventh day (the climax of the water-pouring ceremonies) or the eighth day (a closing assembly, Leviticus 23:36). During the festival, priests processed from the Pool of Siloam to the temple altar, pouring water as a prayer for rain and a commemoration of the water from the rock (Exodus 17:1-7). At this precise liturgical moment, Jesus stands (heistekei, the posture of proclamation) and cries out (ekraxen), offering himself as the fulfillment of everything the water ceremony signified.",
+        "[TCR Cross-Reference] Draws on Leviticus 23:36. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices.",
+        "[TCR Cross-Reference] Draws on Exodus 17:1-7. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 38,
+      "text_greek": "ὁ πιστεύων εἰς ἐμέ, καθὼς εἶπεν ἡ γραφή, ποταμοὶ ἐκ τῆς κοιλίας αὐτοῦ ῥεύσουσιν ὕδατος ζῶντος.",
+      "text_kjv": "He that believeth on me, as the scripture hath said, out of his belly shall flow rivers of living water.",
+      "rendering": "Whoever believes in me, as the Scripture has said, 'Out of their heart will flow rivers of living water.'\"",
+      "translator_notes": [
+        "The punctuation of verses 37-38 is heavily debated. The traditional reading (which we follow) makes the believer the source of living water: 'Whoever believes in me... out of their heart will flow rivers.' An alternative reading makes Jesus the source: 'Let the one who believes in me drink. As the Scripture said, out of his (Jesus's) heart will flow rivers.' Both readings are theologically sound. The word koilia ('belly, inner being, heart') refers to the innermost part of a person. No single Old Testament verse matches this quotation exactly — it may be a composite of Isaiah 55:1, 58:11, Ezekiel 47:1-12, and Zechariah 14:8.",
+        "[TCR Cross-Reference] References Isaiah 55:1 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved.",
+        "[TCR Cross-Reference] References Ezekiel 47:1-12 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved.",
+        "[TCR Cross-Reference] References Zechariah 14:8 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "key_terms": [
+        {
+          "greek": "ὕδωρ ζῶν",
+          "transliteration": "hydor zon",
+          "rendered_as": "living water",
+          "semantic_range": "flowing water, spring water, life-giving water",
+          "note": "The same term from the Samaritan woman conversation (4:10-14). Here it is explicitly interpreted as the Holy Spirit in the next verse. Living water is not merely consumed but overflows — the believer becomes a source, not merely a recipient."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 39,
+      "text_greek": "τοῦτο δὲ εἶπεν περὶ τοῦ πνεύματος ὃ ἔμελλον λαμβάνειν οἱ πιστεύσαντες εἰς αὐτόν· οὔπω γὰρ ἦν πνεῦμα, ὅτι Ἰησοῦς οὐδέπω ἐδοξάσθη.",
+      "text_kjv": "But this spake he of the Spirit, which they that believe on him should receive: for the Holy Ghost was not yet given; because that Jesus was not yet glorified.",
+      "rendering": "Now he said this about the Spirit, whom those who believed in him were going to receive, for the Spirit had not yet been given because Jesus had not yet been glorified.",
+      "translator_notes": [
+        "The narrator provides the authoritative interpretation: 'living water' = the Holy Spirit. The startling phrase oupo gar en pneuma ('for the Spirit was not yet') does not mean the Spirit did not exist but that the Spirit had not yet been given in the post-resurrection, post-glorification manner. The Spirit's full giving awaits Jesus's glorification (his death, resurrection, and ascension). This is fulfilled in 20:22, where the risen Jesus breathes the Spirit on his disciples."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 40,
+      "text_greek": "Ἐκ τοῦ ὄχλου οὖν ἀκούσαντες τῶν λόγων τούτων ἔλεγον· οὗτός ἐστιν ἀληθῶς ὁ προφήτης·",
+      "text_kjv": "Many of the people therefore, when they heard this saying, said, Of a truth this is the Prophet.",
+      "rendering": "When some in the crowd heard these words, they said, \"This man is truly the Prophet.\"",
+      "translator_notes": [
+        "The crowd identifies Jesus as 'the Prophet' (ho prophetes) — the Moses-like figure promised in Deuteronomy 18:15-18, the same identification made after the feeding miracle (6:14). The adverb alethos ('truly, really') indicates conviction. But as in 6:14, this identification, while correct as far as it goes, falls short of the full truth.",
+        "[TCR Cross-Reference] This verse quotes Deuteronomy 18:15-18 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 41,
+      "text_greek": "ἄλλοι ἔλεγον· οὗτός ἐστιν ὁ χριστός· οἱ δὲ ἔλεγον· μὴ γὰρ ἐκ τῆς Γαλιλαίας ὁ χριστὸς ἔρχεται;",
+      "text_kjv": "Others said, This is the Christ. But some said, Shall Christ come out of Galilee?",
+      "rendering": "Others were saying, \"This is the Christ.\" But some were saying, \"Surely the Christ does not come from Galilee, does he?",
+      "translator_notes": [
+        "The schisma (division) deepens: some affirm Jesus as the Christ, others object on geographical grounds. The particle me introduces a question expecting a negative answer — 'the Christ doesn't come from Galilee, does he?' The objection assumes Jesus's Galilean origin, not knowing about his birth in Bethlehem."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 42,
+      "text_greek": "οὐχ ἡ γραφὴ εἶπεν ὅτι ἐκ τοῦ σπέρματος Δαυὶδ καὶ ἀπὸ Βηθλέεμ τῆς κώμης ὅπου ἦν Δαυὶδ ἔρχεται ὁ χριστός;",
+      "text_kjv": "Hath not the scripture said, That Christ cometh of the seed of David, and out of the town of Bethlehem, where David was?",
+      "rendering": "Has not the Scripture said that the Christ comes from the offspring of David and from Bethlehem, the village where David lived?\"",
+      "translator_notes": [
+        "The crowd cites Micah 5:2 (the Messiah from Bethlehem) and 2 Samuel 7:12-16 (the Messiah from David's line). The irony is devastating: the very Scripture they cite to disqualify Jesus actually confirms his identity. Matthew and Luke both record Jesus's birth in Bethlehem (Matthew 2:1, Luke 2:4-7). John does not correct the crowd's error — he lets the dramatic irony stand for the reader to appreciate.",
+        "[TCR Cross-Reference] Draws on Micah 5:2. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices.",
+        "[TCR Cross-Reference] Draws on 2 Samuel 7:12-16. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 43,
+      "text_greek": "σχίσμα οὖν ἐγένετο ἐν τῷ ὄχλῳ δι' αὐτόν.",
+      "text_kjv": "So there was a division among the people because of him.",
+      "rendering": "So there was a division among the crowd because of him.",
+      "translator_notes": [
+        "The word schisma ('division, split, tear') is emphatic — Jesus divides the crowd into irreconcilable camps. This is the first of three uses of schisma in John (cf. 9:16, 10:19), each time caused by Jesus's words or actions. The preposition di auton ('because of him') makes Jesus the cause of the division."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 44,
+      "text_greek": "τινὲς δὲ ἤθελον ἐξ αὐτῶν πιάσαι αὐτόν, ἀλλ' οὐδεὶς ἐπέβαλεν ἐπ' αὐτὸν τὰς χεῖρας.",
+      "text_kjv": "And some of them would have taken him; but no man laid hands on him.",
+      "rendering": "Some of them wanted to arrest him, but no one laid hands on him.",
+      "translator_notes": [
+        "For the second time (cf. v. 30), an attempt to seize Jesus fails. The repeated failure underscores the principle that Jesus's 'hour' is divinely protected. No human agency can touch him before the appointed time."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 45,
+      "text_greek": "Ἦλθον οὖν οἱ ὑπηρέται πρὸς τοὺς ἀρχιερεῖς καὶ Φαρισαίους, καὶ εἶπον αὐτοῖς ἐκεῖνοι· διὰ τί οὐκ ἠγάγετε αὐτόν;",
+      "text_kjv": "Then came the officers to the chief priests and Pharisees; and they said unto them, Why have ye not brought him?",
+      "rendering": "The temple officers then returned to the chief priests and Pharisees, who asked them, \"Why did you not bring him in?\"",
+      "translator_notes": [
+        "The officers sent in verse 32 return empty-handed. The authorities demand an explanation for the failed arrest. The scene shifts from the public forum to the private council, revealing the frustration of the leadership."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 46,
+      "text_greek": "ἀπεκρίθησαν οἱ ὑπηρέται· οὐδέποτε ἐλάλησεν οὕτως ἄνθρωπος.",
+      "text_kjv": "The officers answered, Never man spake like this man.",
+      "rendering": "The officers answered, \"No one has ever spoken like this man.\"",
+      "translator_notes": [
+        "The temple police — trained professionals, not easily impressed — testify that Jesus's speech is without parallel. The adverb oudepote ('never, at no time') and houtos ('in this way, like this') combine to declare Jesus's teaching absolutely unique. Their testimony is unintentionally profound: the Word made flesh (1:14) speaks as no mere human can."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 47,
+      "text_greek": "ἀπεκρίθησαν οὖν αὐτοῖς οἱ Φαρισαῖοι· μὴ καὶ ὑμεῖς πεπλάνησθε;",
+      "text_kjv": "Then answered them the Pharisees, Are ye also deceived?",
+      "rendering": "The Pharisees answered them, \"Have you been deceived too?",
+      "translator_notes": [
+        "The Pharisees respond with contempt — me kai hymeis peplanesthe ('surely you too have not been led astray?') uses the same verb (planao, 'to lead astray, deceive') from verse 12, where some accused Jesus of 'leading the people astray.' The irony is that the officers were affected not by deception but by the truth of Jesus's teaching."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 48,
+      "text_greek": "μή τις ἐκ τῶν ἀρχόντων ἐπίστευσεν εἰς αὐτὸν ἢ ἐκ τῶν Φαρισαίων;",
+      "text_kjv": "Have any of the rulers or of the Pharisees believed on him?",
+      "rendering": "Have any of the rulers or of the Pharisees put their trust in him?",
+      "translator_notes": [
+        "The question expects a negative answer and uses social status as the criterion for truth: if no authorities believe, the teaching must be false. This is an argument from institutional authority, not from evidence. The irony is that Nicodemus — a ruler and a Pharisee — is about to speak up (v. 50)."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 49,
+      "text_greek": "ἀλλ' ὁ ὄχλος οὗτος ὁ μὴ γινώσκων τὸν νόμον ἐπάρατοί εἰσιν.",
+      "text_kjv": "But this people who knoweth not the law are cursed.",
+      "rendering": "But this crowd that does not know the law — they are cursed!\"",
+      "translator_notes": [
+        "The Pharisees dismiss the common people (ho ochlos houtos) as ignorant of the law and therefore cursed (eparatoi, 'accursed'). The term reflects the rabbinic category of am ha-aretz ('people of the land') — the uneducated masses whom some Pharisees regarded as ritually and morally deficient. The arrogance of the statement is staggering and is immediately challenged by one of their own."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 50,
+      "text_greek": "λέγει Νικόδημος πρὸς αὐτούς, ὁ ἐλθὼν πρὸς αὐτὸν πρότερον, εἷς ὢν ἐξ αὐτῶν·",
+      "text_kjv": "Nicodemus saith unto them, (he that came to Jesus by night, being one of them,)",
+      "rendering": "Nicodemus — the one who had come to Jesus earlier, and who was one of them — said to them,",
+      "translator_notes": [
+        "Nicodemus reappears for the second of his three appearances in John (3:1-21, 7:50-52, 19:39). The narrator identifies him as 'the one who had come to Jesus earlier' (ho elthon pros auton proteron), linking back to the nighttime visit in chapter 3. The phrase 'one of them' (heis on ex auton) emphasizes that dissent comes from within the Pharisaic party itself — contradicting their claim in verse 48."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 51,
+      "text_greek": "μὴ ὁ νόμος ἡμῶν κρίνει τὸν ἄνθρωπον ἐὰν μὴ ἀκούσῃ πρῶτον παρ' αὐτοῦ καὶ γνῷ τί ποιεῖ;",
+      "text_kjv": "Doth our law judge any man, before it hear him, and know what he doeth?",
+      "rendering": "\"Does our law condemn a man without first hearing from him and finding out what he is doing?\"",
+      "translator_notes": [
+        "Nicodemus's intervention is careful and procedural rather than confessional — he does not defend Jesus directly but appeals to legal process. The principle is from Deuteronomy 1:16-17 and 17:2-6: proper judgment requires hearing the accused. By invoking 'our law' (ho nomos hemon), Nicodemus turns the Pharisees' own weapon against them — they who accused the crowd of not knowing the law are themselves violating its procedures.",
+        "[TCR Cross-Reference] Quotes Deuteronomy 1:16-17. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 52,
+      "text_greek": "ἀπεκρίθησαν καὶ εἶπαν αὐτῷ· μὴ καὶ σὺ ἐκ τῆς Γαλιλαίας εἶ; ἐραύνησον καὶ ἴδε ὅτι ἐκ τῆς Γαλιλαίας προφήτης οὐκ ἐγείρεται.",
+      "text_kjv": "They answered and said unto him, Art thou also of Galilee? Search, and look: for out of Galilee ariseth no prophet.",
+      "rendering": "They answered him, \"You are not from Galilee too, are you? Search and see — no prophet arises from Galilee!\"",
+      "translator_notes": [
+        "The Pharisees respond with personal attack rather than legal argument — they sarcastically ask if Nicodemus is a Galilean sympathizer. Their claim that 'no prophet arises from Galilee' (ek tes Galilaias prophetes ouk egeiretai) is historically inaccurate — Jonah was from Gath-hepher in Galilee (2 Kings 14:25), and possibly other prophets as well. Some manuscripts read 'the prophet does not arise' (ho prophetes, with the article), specifically denying the Prophet-like-Moses from Galilee. The scene ends with the council in deadlock.",
+        "[TCR Cross-Reference] Draws on 2 Kings 14:25. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 53,
+      "text_greek": "Καὶ ἐπορεύθησαν ἕκαστος εἰς τὸν οἶκον αὐτοῦ,",
+      "text_kjv": "And every man went unto his own house.",
+      "rendering": "Then each of them went to his own home.",
+      "translator_notes": [
+        "This verse is included in the SBLGNT as the conclusion to chapter 7, though it is often grouped with the Pericope Adulterae (7:53-8:11) in many manuscripts. The verse itself simply narrates the council dispersing — without resolution, without arresting Jesus, and without answering Nicodemus's legal challenge. The chapter ends with the authorities frustrated, the crowd divided, and Jesus unharmed."
+      ],
+      "reading_level": "6th grade"
+    }
+  ]
+}

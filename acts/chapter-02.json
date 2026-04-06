@@ -1,0 +1,570 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Acts",
+    "chapter": 2,
+    "source_text": "SBL Greek New Testament (SBLGNT)",
+    "reference_text": "KJV",
+    "generated_at": "2026-04-04T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Acts 2 narrates the day of Pentecost: the Holy Spirit descends on the gathered believers with wind and fire, enabling them to speak in the languages of the nations. Peter delivers the first Christian sermon, interpreting the event through Joel 2, Psalm 16, and Psalm 110. He proclaims Jesus as the crucified and risen Messiah whom God has made both Lord and Christ. Three thousand people respond, are baptized, and form the first church community characterized by apostolic teaching, fellowship, breaking of bread, and prayer.",
+    "remarkable": "Pentecost was already a major Jewish festival (Shavuot, the Feast of Weeks) celebrating the wheat harvest and, by the first century, also commemorating the giving of the Torah at Sinai. The Spirit's descent on this day reframes Sinai: where the first covenant was given with fire and thunder on a mountain, the new covenant is given with fire and wind in a city. The gift of languages reverses Babel (Genesis 11) — where God confused languages to scatter humanity, God now gives languages to gather humanity. Peter's sermon is a masterpiece of early christological argument, using Israel's own scriptures to demonstrate that Jesus is the promised Messiah.",
+    "friction": "The nature of the 'tongues' in verses 4-11 (known human languages vs. ecstatic speech) has been debated throughout church history. Luke's description clearly indicates known languages understood by the international audience. The Joel quotation in verses 17-21 follows the Septuagint rather than the Hebrew text in several details. Peter's argument from Psalm 16 (vv. 25-28) depends on the assumption that David could not have been speaking about himself since David died and was buried.",
+    "connections": "The Pentecost event fulfills Jesus's promise in Acts 1:5, 8. Joel 2:28-32 provides the prophetic framework. Psalm 16:8-11 and Psalm 110:1 provide the christological proof texts. The community description in verses 42-47 becomes the model for church life throughout Acts (cf. 4:32-35). The 'last days' language connects to Isaiah 2:2 and Micah 4:1."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_greek": "Καὶ ἐν τῷ συμπληροῦσθαι τὴν ἡμέραν τῆς πεντηκοστῆς ἦσαν πάντες ὁμοῦ ἐπὶ τὸ αὐτό.",
+      "text_kjv": "And when the day of Pentecost was fully come, they were all with one accord in one place.",
+      "rendering": "When the day of Pentecost arrived, they were all together in one place.",
+      "translator_notes": [
+        "The Greek symplērousthai ('to be fulfilled, to arrive in fullness') suggests not merely that the day came but that it reached its appointed fullness — a theologically loaded term. Pentecost (pentēkostē, 'fiftieth') fell fifty days after Passover. As a harvest festival (Shavuot), it was one of three pilgrimage feasts requiring attendance in Jerusalem, explaining the international crowd described in verses 5-11.",
+        "The phrase epi to auto ('in one place' or 'together') echoes 1:15 and emphasizes the unity of the community at the moment of the Spirit's descent."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 2,
+      "text_greek": "καὶ ἐγένετο ἄφνω ἐκ τοῦ οὐρανοῦ ἦχος ὥσπερ φερομένης πνοῆς βιαίας καὶ ἐπλήρωσεν ὅλον τὸν οἶκον οὗ ἦσαν καθήμενοι,",
+      "text_kjv": "And suddenly there came a sound from heaven as of a rushing mighty wind, and it filled all the house where they were sitting.",
+      "rendering": "Suddenly a sound came from heaven like a violent rushing wind, and it filled the entire house where they were sitting.",
+      "translator_notes": [
+        "The Greek pnoē ('wind, breath, blast') is related to pneuma ('spirit/wind') — the wordplay connects the physical phenomenon to the Holy Spirit (pneuma hagion). The wind comes 'from heaven' (ek tou ouranou), marking its divine origin. The verb eplērōsen ('filled') anticipates the believers being 'filled' with the Spirit in verse 4. The violence of the wind (biaias, 'forceful, violent') recalls the theophany at Sinai (Exodus 19:16-19) and Elijah's experience at Horeb (1 Kings 19:11).",
+        "[TCR Cross-Reference] Draws on Exodus 19:16-19. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices.",
+        "[TCR Cross-Reference] Draws on 1 Kings 19:11. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 3,
+      "text_greek": "καὶ ὤφθησαν αὐτοῖς διαμεριζόμεναι γλῶσσαι ὡσεὶ πυρός, καὶ ἐκάθισεν ἐφ' ἕνα ἕκαστον αὐτῶν,",
+      "text_kjv": "And there appeared unto them cloven tongues like as of fire, and it sat upon each of them.",
+      "rendering": "Tongues as of fire appeared to them, distributing themselves, and one rested on each of them.",
+      "translator_notes": [
+        "The Greek diamerizomenai ('distributing themselves, dividing') describes the fire separating into individual flames — one for each person. The word glōssai ('tongues') does double duty: the fire appears in tongue-like shapes, and the result is speaking in tongues (languages). Fire is a consistent symbol of divine presence in the Old Testament: the burning bush (Exodus 3:2), the pillar of fire (Exodus 13:21), and the fire on Sinai (Exodus 19:18). That the fire rests on 'each one' (hena hekaston) emphasizes the individual, personal nature of the Spirit's coming — not corporate only but personal.",
+        "[TCR Cross-Reference] References Exodus 3:2 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved.",
+        "[TCR Cross-Reference] References Exodus 13:21 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved.",
+        "[TCR Cross-Reference] References Exodus 19:18 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 4,
+      "text_greek": "καὶ ἐπλήσθησαν πάντες πνεύματος ἁγίου καὶ ἤρξαντο λαλεῖν ἑτέραις γλώσσαις καθὼς τὸ πνεῦμα ἐδίδου ἀποφθέγγεσθαι αὐτοῖς.",
+      "text_kjv": "And they were all filled with the Holy Ghost, and began to speak with other tongues, as the Spirit gave them utterance.",
+      "rendering": "They were all filled with the Holy Spirit and began to speak in other languages as the Spirit gave them the ability to speak out.",
+      "expanded_rendering": "The filling of the Holy Spirit is not merely an internal feeling but an empowerment that produces visible, audible results. The Spirit does not replace the believers' agency but enables it — they speak, but the Spirit gives them the ability. This is the inaugurating event of the church's mission, the fulfillment of the promise that runs from Joel through John the Baptist through Jesus to this moment.",
+      "translator_notes": [
+        "The passive eplēsthēsan ('were filled') indicates divine action — the Spirit fills them; they do not generate the experience themselves. The phrase heterais glōssais ('other tongues/languages') is clarified by verses 6-11 as known human languages, not ecstatic speech. The verb apophthengesthai ('to speak out, to declare boldly') is rare in the New Testament (used only here, v. 14, and 26:25) and carries the connotation of inspired, prophetic utterance — weighty proclamation, not babbling."
+      ],
+      "key_terms": [
+        {
+          "greek": "πνεῦμα ἅγιον",
+          "transliteration": "pneuma hagion",
+          "rendered_as": "Holy Spirit",
+          "semantic_range": "spirit, wind, breath; Holy Spirit, the Spirit of God",
+          "note": "The Pentecost event is the fulfillment of Jesus's promise in 1:5, 8. The Spirit empowers the believers for witness, as predicted. The connection between pneuma (spirit) and pnoē (wind/breath, v. 2) creates a literary and theological unity."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 5,
+      "text_greek": "Ἦσαν δὲ εἰς Ἰερουσαλὴμ κατοικοῦντες Ἰουδαῖοι, ἄνδρες εὐλαβεῖς ἀπὸ παντὸς ἔθνους τῶν ὑπὸ τὸν οὐρανόν.",
+      "text_kjv": "And there were dwelling at Jerusalem Jews, devout men, out of every nation under heaven.",
+      "rendering": "Now there were devout Jews living in Jerusalem from every nation under heaven.",
+      "translator_notes": [
+        "The phrase 'from every nation under heaven' (apo pantos ethnous tōn hypo ton ouranon) is hyperbolic but reflects the reality that the Jewish diaspora extended throughout the Roman Empire and beyond. These are not tourists but katoikountes ('residing, dwelling') — diaspora Jews who had settled in Jerusalem, likely for religious reasons. The word eulabeis ('devout, reverent, God-fearing') characterizes them as pious Jews, not yet Christians."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 6,
+      "text_greek": "γενομένης δὲ τῆς φωνῆς ταύτης συνῆλθεν τὸ πλῆθος καὶ συνεχύθη, ὅτι ἤκουον εἷς ἕκαστος τῇ ἰδίᾳ διαλέκτῳ λαλούντων αὐτῶν.",
+      "text_kjv": "Now when this was noised abroad, the multitude came together, and were confounded, because that every man heard them speak in his own language.",
+      "rendering": "When this sound occurred, the crowd gathered and was bewildered, because each one was hearing them speak in his own language.",
+      "translator_notes": [
+        "The 'sound' (phōnēs) likely refers to the sound of the wind from verse 2 rather than the speaking in tongues. The verb synechythē ('was bewildered, confounded, thrown into confusion') is a strong word indicating deep cognitive dissonance — they cannot make sense of what they are experiencing. The phrase tē idia dialektō ('in his own dialect/language') specifies that this is not generic babbling but precise, recognizable languages corresponding to each listener's mother tongue."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 7,
+      "text_greek": "ἐξίσταντο δὲ καὶ ἐθαύμαζον λέγοντες· οὐχ ἰδοὺ ἅπαντες οὗτοί εἰσιν οἱ λαλοῦντες Γαλιλαῖοι;",
+      "text_kjv": "And they were all amazed and marvelled, saying one to another, Behold, are not all these which speak Galilaeans?",
+      "rendering": "They were astonished and amazed, saying, \"Are not all these who are speaking Galileans?",
+      "translator_notes": [
+        "The double expression existanto kai ethaumazon ('were astonished and amazed') piles up terms for shock. Galileans were known for their distinctive accent (cf. Matthew 26:73) and were generally regarded by Judeans as less educated and culturally unsophisticated. The rhetorical question highlights the incongruity: how can these provincial Galileans speak fluently in the sophisticated languages of the wider world?"
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 8,
+      "text_greek": "καὶ πῶς ἡμεῖς ἀκούομεν ἕκαστος τῇ ἰδίᾳ διαλέκτῳ ἡμῶν ἐν ᾗ ἐγεννήθημεν;",
+      "text_kjv": "And how hear we every man in our own tongue, wherein we were born?",
+      "rendering": "How is it that each of us hears them in our own native language?",
+      "translator_notes": [
+        "The phrase 'in which we were born' (en hē egennēthēmen) specifies these as mother tongues — the languages heard in childhood, the deepest linguistic identity. This detail rules out the interpretation that the audience merely understood a common language like Aramaic or Greek; they each heard their own distinct dialect."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 9,
+      "text_greek": "Πάρθοι καὶ Μῆδοι καὶ Ἐλαμῖται καὶ οἱ κατοικοῦντες τὴν Μεσοποταμίαν, Ἰουδαίαν τε καὶ Καππαδοκίαν, Πόντον καὶ τὴν Ἀσίαν,",
+      "text_kjv": "Parthians, and Medes, and Elamites, and the dwellers in Mesopotamia, and in Judaea, and Cappadocia, in Pontus, and Asia,",
+      "rendering": "Parthians and Medes and Elamites, and residents of Mesopotamia, Judea and Cappadocia, Pontus and Asia,",
+      "translator_notes": [
+        "The list begins with regions east of the Roman Empire (Parthia, Media, Elam — modern Iran and Iraq) and moves westward. This geographical sweep represents the entire known world. The inclusion of 'Judea' is surprising in a Jerusalem setting — some scholars emend it to 'Armenia' or 'India,' but the text may simply mean Jews from the Judean countryside as opposed to Jerusalem residents, or it may represent the complete geographical coverage Luke intends."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 10,
+      "text_greek": "Φρυγίαν τε καὶ Παμφυλίαν, Αἴγυπτον καὶ τὰ μέρη τῆς Λιβύης τῆς κατὰ Κυρήνην, καὶ οἱ ἐπιδημοῦντες Ῥωμαῖοι,",
+      "text_kjv": "Phrygia, and Pamphylia, in Egypt, and in the parts of Libya about Cyrene, and strangers of Rome, Jews and proselytes,",
+      "rendering": "Phrygia and Pamphylia, Egypt and the parts of Libya near Cyrene, and visitors from Rome —",
+      "translator_notes": [
+        "The list continues through Asia Minor (Phrygia, Pamphylia), North Africa (Egypt, Libya/Cyrene), and reaches Rome itself. The 'visitors from Rome' (hoi epidēmountes Rhōmaioi) are temporary residents or pilgrims, distinguished from the permanent Jerusalem settlers of verse 5. Cyrene in Libya had a large Jewish community; Simon of Cyrene who carried Jesus's cross came from there (Luke 23:26)."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 11,
+      "text_greek": "Ἰουδαῖοί τε καὶ προσήλυτοι, Κρῆτες καὶ Ἄραβες, ἀκούομεν λαλούντων αὐτῶν ταῖς ἡμετέραις γλώσσαις τὰ μεγαλεῖα τοῦ θεοῦ.",
+      "text_kjv": "Cretes and Arabians, we do hear them speak in our tongues the wonderful works of God.",
+      "rendering": "Cretans and Arabs alike — we hear them declaring the mighty works of God in our own languages!",
+      "translator_notes": [
+        "The phrase 'Jews and converts' (Ioudaioi te kai prosēlytoi) is a parenthetical clarification covering the entire list — all these nationalities include both ethnic Jews and Gentile converts to Judaism. The content of the Spirit-enabled speech is 'the mighty deeds of God' (ta megaleia tou theou) — not random utterances but coherent praise of God's great acts. This echoes the Hebrew magnalia Dei tradition found in the Psalms.",
+        "The list ends with Cretans (island Mediterranean) and Arabs (the desert south and east), completing the compass-point coverage of the known world."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 12,
+      "text_greek": "ἐξίσταντο δὲ πάντες καὶ διηπόρουν, ἄλλος πρὸς ἄλλον λέγοντες· τί θέλει τοῦτο εἶναι;",
+      "text_kjv": "And they were all amazed, and were in doubt, saying one to another, What meaneth this?",
+      "rendering": "They were all astonished and perplexed, saying to one another, \"What does this mean?\"",
+      "translator_notes": [
+        "The verb diēporoun ('were perplexed, were at a loss') indicates genuine intellectual struggle, not dismissal. These are devout people trying to make sense of an unprecedented event. The question 'What does this mean?' (ti thelei touto einai, literally 'What does this wish to be?') sets up Peter's sermon, which will provide the scriptural interpretation."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 13,
+      "text_greek": "ἕτεροι δὲ διαχλευάζοντες ἔλεγον ὅτι γλεύκους μεμεστωμένοι εἰσίν.",
+      "text_kjv": "Others mocking said, These men are full of new wine.",
+      "rendering": "But others were mocking and saying, \"They are full of sweet wine.\"",
+      "translator_notes": [
+        "The verb diachleuazontes ('mocking, jeering, sneering') is intensified by the prefix dia-, indicating thorough mockery. Gleukos ('sweet wine, new wine') was unfermented or partially fermented grape juice — lower in alcohol than aged wine. The accusation is somewhat absurd: it would take large quantities of sweet wine to produce drunkenness, especially in the morning. Peter addresses this directly in verse 15."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 14,
+      "text_greek": "Σταθεὶς δὲ ὁ Πέτρος σὺν τοῖς ἕνδεκα ἐπῆρεν τὴν φωνὴν αὐτοῦ καὶ ἀπεφθέγξατο αὐτοῖς· ἄνδρες Ἰουδαῖοι καὶ οἱ κατοικοῦντες Ἰερουσαλὴμ πάντες, τοῦτο ὑμῖν γνωστὸν ἔστω καὶ ἐνωτίσασθε τὰ ῥήματά μου.",
+      "text_kjv": "But Peter, standing up with the eleven, lifted up his voice, and said unto them, Ye men of Judaea, and all ye that dwell at Jerusalem, be this known unto you, and hearken to my words:",
+      "rendering": "But Peter, standing with the eleven, raised his voice and addressed them: \"Men of Judea and all who live in Jerusalem, let this be known to you, and pay attention to my words.",
+      "translator_notes": [
+        "Peter stands 'with the eleven' (syn tois hendeka), showing apostolic solidarity — he speaks as their representative, not as an individual. The verb apephthenxato ('spoke out, declared') is the same rare verb used in verse 4 for Spirit-inspired speech, linking Peter's sermon to the same Spirit-empowerment that produced the tongues. The phrase enōtisasthe ('give ear, listen carefully') is a Septuagintalism echoing the prophetic call to attention (cf. Isaiah 1:2).",
+        "[TCR Cross-Reference] Echoes Isaiah 1:2. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 15,
+      "text_greek": "οὐ γὰρ ὡς ὑμεῖς ὑπολαμβάνετε οὗτοι μεθύουσιν, ἔστιν γὰρ ὥρα τρίτη τῆς ἡμέρας,",
+      "text_kjv": "For these are not drunken, as ye suppose, seeing it is but the third hour of the day.",
+      "rendering": "For these people are not drunk, as you suppose, since it is only nine in the morning.",
+      "translator_notes": [
+        "The 'third hour' (hōra tritē) is approximately 9:00 AM by Jewish time reckoning (counting from sunrise at roughly 6:00 AM). Peter's argument from the time of day is practical: even on feast days, people did not drink before the morning prayers and sacrifices were complete. The defense is simple but effective — and it is merely the setup for the real explanation that follows."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 16,
+      "text_greek": "ἀλλὰ τοῦτό ἐστιν τὸ εἰρημένον διὰ τοῦ προφήτου Ἰωήλ·",
+      "text_kjv": "But this is that which was spoken by the prophet Joel;",
+      "rendering": "Rather, this is what was spoken through the prophet Joel:",
+      "translator_notes": [
+        "Peter identifies the Pentecost event as the fulfillment of Joel's prophecy — 'this is that' (touto estin to) is a direct identification formula. The preposition dia ('through') presents Joel as the instrument through whom God spoke, consistent with the view of prophetic inspiration expressed in 1:16."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 17,
+      "text_greek": "Καὶ ἔσται ἐν ταῖς ἐσχάταις ἡμέραις, λέγει ὁ θεός, ἐκχεῶ ἀπὸ τοῦ πνεύματός μου ἐπὶ πᾶσαν σάρκα, καὶ προφητεύσουσιν οἱ υἱοὶ ὑμῶν καὶ αἱ θυγατέρες ὑμῶν καὶ οἱ νεανίσκοι ὑμῶν ὁράσεις ὄψονται καὶ οἱ πρεσβύτεροι ὑμῶν ἐνυπνίοις ἐνυπνιασθήσονται·",
+      "text_kjv": "And it shall come to pass in the last days, saith God, I will pour out of my Spirit upon all flesh: and your sons and your daughters shall prophesy, and your young men shall see visions, and your old men shall dream dreams:",
+      "rendering": "\"'And it will be in the last days,' God says, 'that I will pour out my Spirit on all flesh. Your sons and your daughters will prophesy, your young men will see visions, and your old men will dream dreams.",
+      "translator_notes": [
+        "Peter's quotation modifies Joel 2:28 (LXX 3:1) in a significant way: Joel has 'after these things' (meta tauta), but Peter substitutes 'in the last days' (en tais eschatais hēmerais), explicitly interpreting Pentecost as the inauguration of the eschatological age. The pouring out of the Spirit is universal in scope — 'all flesh' (pasan sarka) breaks barriers of gender (sons and daughters), age (young and old), and as verse 18 will add, social status.",
+        "[TCR Cross-Reference] Draws on Joel 2:28-32. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 18,
+      "text_greek": "καί γε ἐπὶ τοὺς δούλους μου καὶ ἐπὶ τὰς δούλας μου ἐν ταῖς ἡμέραις ἐκείναις ἐκχεῶ ἀπὸ τοῦ πνεύματός μου, καὶ προφητεύσουσιν.",
+      "text_kjv": "And on my servants and on my handmaidens I will pour out in those days of my Spirit; and they shall prophesy:",
+      "rendering": "Even on my male servants and female servants I will pour out my Spirit in those days, and they will prophesy.",
+      "translator_notes": [
+        "Joel's original text has 'servants and female servants' without the possessive 'my'; Peter's version (following the LXX variant) adds 'my' (mou), transforming social servants into God's own servants. This universalization of the Spirit breaks the social hierarchy: slaves and free, male and female all receive the prophetic Spirit. The addition of 'and they will prophesy' (kai prophēteusousin) is not in the Hebrew of Joel 2:29 — Peter extends the prophetic promise explicitly to the lowest social stratum.",
+        "[TCR Cross-Reference] References Joel 2:28-32 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 19,
+      "text_greek": "καὶ δώσω τέρατα ἐν τῷ οὐρανῷ ἄνω καὶ σημεῖα ἐπὶ τῆς γῆς κάτω, αἷμα καὶ πῦρ καὶ ἀτμίδα καπνοῦ·",
+      "text_kjv": "And I will shew wonders in heaven above, and signs in the earth beneath; blood, and fire, and vapour of smoke:",
+      "rendering": "And I will show wonders in the heaven above and signs on the earth below — blood and fire and billows of smoke.",
+      "translator_notes": [
+        "Peter adds 'above' (anō) and 'below' (katō) to Joel's text, emphasizing the cosmic scope of God's activity. The triad 'blood and fire and billows of smoke' may echo the Sinai theophany (Exodus 19:18) or anticipate the destruction of Jerusalem in AD 70. The Greek atmida kapnou ('vapor/billow of smoke') suggests thick, rising columns of smoke, not mere wisps.",
+        "[TCR Cross-Reference] Echoes Joel 2:28-32. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale.",
+        "[TCR Cross-Reference] Echoes Exodus 19:18. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 20,
+      "text_greek": "ὁ ἥλιος μεταστραφήσεται εἰς σκότος καὶ ἡ σελήνη εἰς αἷμα πρὶν ἐλθεῖν ἡμέραν κυρίου τὴν μεγάλην καὶ ἐπιφανῆ.",
+      "text_kjv": "The sun shall be turned into darkness, and the moon into blood, before that great and notable day of the Lord come:",
+      "rendering": "The sun will be turned to darkness and the moon to blood, before the great and glorious day of the Lord comes.",
+      "translator_notes": [
+        "Joel's Hebrew has 'great and terrible' (gadol v'nora); the LXX renders nora as epiphanē ('glorious, manifest, splendid') rather than 'terrible' — a significant interpretive shift from fear to revelation. The 'day of the Lord' (hēmeran kyriou) is a major prophetic concept throughout the Old Testament (Isaiah 2:12, Amos 5:18-20, Zephaniah 1:14-18), originally a day of judgment that Peter now connects to the events surrounding Jesus.",
+        "[TCR Cross-Reference] This verse quotes Joel 2:28-32 — see the TCR rendering of that passage for the Hebrew source text and translation decisions.",
+        "[TCR Cross-Reference] This verse quotes Isaiah 2:12 — see the TCR rendering of that passage for the Hebrew source text and translation decisions.",
+        "[TCR Cross-Reference] This verse quotes Amos 5:18-20 — see the TCR rendering of that passage for the Hebrew source text and translation decisions.",
+        "[TCR Cross-Reference] This verse quotes Zephaniah 1:14-18 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 21,
+      "text_greek": "καὶ ἔσται πᾶς ὃς ἐὰν ἐπικαλέσηται τὸ ὄνομα κυρίου σωθήσεται.",
+      "text_kjv": "And it shall come to pass, that whosoever shall call on the name of the Lord shall be saved.",
+      "rendering": "And it will be that everyone who calls on the name of the Lord will be saved.'",
+      "translator_notes": [
+        "This is the climactic line of the Joel quotation and the hinge of Peter's sermon. In Joel, 'the Lord' (kyrios) translates YHWH — calling on the name of Israel's God. Peter will argue in verses 34-36 that Jesus is this Lord (kyrios), so that calling on the name of Jesus is calling on the name of the LORD. The verb sōthēsetai ('will be saved') encompasses both immediate rescue and eschatological salvation — the same word Paul will use in Romans 10:13 when quoting this same verse.",
+        "[TCR Cross-Reference] Quotes Joel 2:28-32. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 22,
+      "text_greek": "Ἄνδρες Ἰσραηλῖται, ἀκούσατε τοὺς λόγους τούτους· Ἰησοῦν τὸν Ναζωραῖον, ἄνδρα ἀποδεδειγμένον ἀπὸ τοῦ θεοῦ εἰς ὑμᾶς δυνάμεσι καὶ τέρασι καὶ σημείοις οἷς ἐποίησεν δι' αὐτοῦ ὁ θεὸς ἐν μέσῳ ὑμῶν, καθὼς αὐτοὶ οἴδατε,",
+      "text_kjv": "Ye men of Israel, hear these words; Jesus of Nazareth, a man approved of God among you by miracles and wonders and signs, which God did by him in the midst of you, as ye yourselves also know:",
+      "rendering": "\"Men of Israel, hear these words: Jesus the Nazarene, a man attested to you by God through mighty works and wonders and signs that God performed through him in your midst, as you yourselves know —",
+      "translator_notes": [
+        "Peter shifts from Joel's prophecy to its christological application. The designation 'the Nazarene' (ton Nazōraion) identifies Jesus by his hometown, grounding the theological claims in historical specificity. The triad 'mighty works and wonders and signs' (dynamesin kai terasin kai sēmeiois) covers the full range of Jesus's miraculous activity. Crucially, Peter says God performed these 'through him' (di' autou) — the miracles attest God's endorsement of Jesus. The appeal to the audience's own knowledge ('as you yourselves know') grounds the argument in shared public memory."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 23,
+      "text_greek": "τοῦτον τῇ ὡρισμένῃ βουλῇ καὶ προγνώσει τοῦ θεοῦ ἔκδοτον διὰ χειρὸς ἀνόμων προσπήξαντες ἀνείλατε,",
+      "text_kjv": "Him, being delivered by the determinate counsel and foreknowledge of God, ye have taken, and by wicked hands have crucified and slain:",
+      "rendering": "Him, while delivered by the determinate counsel and foreknowledge of God, you possess removed, and by corrupt hands have crucified and slain:.",
+      "translator_notes": [
+        "Peter holds two truths in tension without resolving the paradox: Jesus's death was both 'the determined plan and foreknowledge of God' (tē hōrismenē boulē kai prognōsei tou theou) and the moral responsibility of those who crucified him. The 'lawless men' (anomōn) are the Roman soldiers who physically performed the crucifixion — 'lawless' because they were outside the Torah. But the 'you' (the Jewish audience) are also implicated: 'you put to death' (aneilate). Peter does not soften either side of this tension."
+      ],
+      "reading_level": "10th grade"
+    },
+    {
+      "verse": 24,
+      "text_greek": "ὃν ὁ θεὸς ἀνέστησεν λύσας τὰς ὠδῖνας τοῦ θανάτου, καθότι οὐκ ἦν δυνατὸν κρατεῖσθαι αὐτὸν ὑπ' αὐτοῦ.",
+      "text_kjv": "Whom God hath raised up, having loosed the pains of death: because it was not possible that he should be holden of it.",
+      "rendering": "But God raised him up, having freed him from the agony of death, because it was not possible for him to be held by it.",
+      "translator_notes": [
+        "The phrase 'agony of death' (tas ōdinas tou thanatou) literally means 'birth pangs of death' — the image is of death in labor, unable to hold its prey, forced to 'give birth' to the risen Jesus. The LXX of Psalm 18:5 (= 2 Samuel 22:6) uses the same phrase. The declaration 'it was not possible' (ouk ēn dynaton) is theologically profound: death's inability to hold Jesus is not merely historical but ontological — it lies in the nature of who Jesus is.",
+        "[TCR Cross-Reference] Echoes Psalm 18:5. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale.",
+        "[TCR Cross-Reference] Echoes 2 Samuel 22:6. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 25,
+      "text_greek": "Δαυὶδ γὰρ λέγει εἰς αὐτόν· προορώμην τὸν κύριον ἐνώπιόν μου διὰ παντός, ὅτι ἐκ δεξιῶν μού ἐστιν ἵνα μὴ σαλευθῶ.",
+      "text_kjv": "For David speaketh concerning him, I foresaw the Lord always before my face, for he is on my right hand, that I should not be moved:",
+      "rendering": "For David says concerning him: 'I saw the Lord always before me, for he is at my right hand so that I will not be shaken.",
+      "translator_notes": [
+        "Peter now quotes Psalm 16:8-11 (LXX 15:8-11), attributing the words to David and applying them to Jesus. The Greek proorōmēn ('I saw beforehand, I kept before me') translates the Hebrew shiviti ('I have set'). The Lord at the right hand provides stability and protection — 'I will not be shaken' (mē saleuthō) expresses unshakeable confidence in divine presence.",
+        "[TCR Cross-Reference] This verse quotes Psalms 16:8-11 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 26,
+      "text_greek": "διὰ τοῦτο ηὐφράνθη ἡ καρδία μου καὶ ἠγαλλιάσατο ἡ γλῶσσά μου, ἔτι δὲ καὶ ἡ σάρξ μου κατασκηνώσει ἐπ' ἐλπίδι,",
+      "text_kjv": "Therefore did my heart rejoice, and my tongue was glad; moreover also my flesh shall rest in hope:",
+      "rendering": "Therefore my heart was glad and my tongue rejoiced; moreover, my flesh also will live in hope,",
+      "translator_notes": [
+        "The LXX has 'tongue' (glōssa) where the Hebrew of Psalm 16:9 has 'glory' (kavod) — a significant textual divergence. The Hebrew kavod ('glory, weightiness') likely refers to the inner self or honor, which the LXX translators rendered as 'tongue' (perhaps reading kavod as kaved, 'liver,' an organ associated with deep emotion). The phrase 'my flesh will live in hope' (hē sarx mou kataskēnōsei ep' elpidi) becomes Peter's key proof text: if David's flesh 'lives in hope,' whose flesh found that hope fulfilled?",
+        "[TCR Cross-Reference] Quotes Psalms 16:8-11. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 27,
+      "text_greek": "ὅτι οὐκ ἐγκαταλείψεις τὴν ψυχήν μου εἰς ᾅδην οὐδὲ δώσεις τὸν ὅσιόν σου ἰδεῖν διαφθοράν.",
+      "text_kjv": "Because thou wilt not leave my soul in hell, neither wilt thou suffer thine Holy One to see corruption.",
+      "rendering": "Because you will not leave my soul in hell, neither wilt you suffer your Holy One to see corruption.",
+      "translator_notes": [
+        "Hades (hadēn) is the Greek equivalent of the Hebrew Sheol — the realm of the dead, not the later Christian concept of hell as a place of punishment. 'Decay' (diaphthoran) translates the Hebrew shachat, which can mean 'pit' or 'corruption/decay.' The LXX's choice of diaphthora ('decay, corruption') is crucial for Peter's argument: David's body did see decay (v. 29), but Jesus's did not (v. 31). The term 'Holy One' (hosion) translates the Hebrew chasid ('faithful, loyal, devoted one').",
+        "[TCR Cross-Reference] Draws on Psalms 16:8-11. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 28,
+      "text_greek": "ἐγνώρισάς μοι ὁδοὺς ζωῆς, πληρώσεις με εὐφροσύνης μετὰ τοῦ προσώπου σου.",
+      "text_kjv": "Thou hast made known to me the ways of life; thou shalt make me full of joy with thy countenance.",
+      "rendering": "You have made known to me the paths of life; you will fill me with joy in your presence.'",
+      "translator_notes": [
+        "The 'paths of life' (hodous zōēs) implies not merely survival but the way to fullness of life — a path through death to resurrection. The final image — 'joy in your presence' (euphrosynēs meta tou prosōpou sou, literally 'gladness with your face') — is the ultimate hope: restored face-to-face relationship with God. The Psalm quotation ends on this note of joy, which Peter will now apply to the risen Jesus.",
+        "[TCR Cross-Reference] References Psalms 16:8-11 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 29,
+      "text_greek": "Ἄνδρες ἀδελφοί, ἐξὸν εἰπεῖν μετὰ παρρησίας πρὸς ὑμᾶς περὶ τοῦ πατριάρχου Δαυὶδ ὅτι καὶ ἐτελεύτησεν καὶ ἐτάφη καὶ τὸ μνῆμα αὐτοῦ ἔστιν ἐν ἡμῖν ἄχρι τῆς ἡμέρας ταύτης·",
+      "text_kjv": "Men and brethren, let me freely speak unto you of the patriarch David, that he is both dead and buried, and his sepulchre is with us unto this day.",
+      "rendering": "\"Brothers, I can speak to you confidently about the patriarch David: he both died and was buried, and his tomb is with us to this day.",
+      "translator_notes": [
+        "Peter's argument is straightforward: David cannot have been speaking about himself in Psalm 16 because David died, was buried, and his tomb is still present in Jerusalem — his body did see decay. The word parrhēsias ('confidently, boldly, with freedom of speech') indicates Peter is making a potentially controversial claim about Israel's greatest king. David's tomb was a well-known Jerusalem landmark, so the point is verifiable.",
+        "[TCR Cross-Reference] Echoes Psalm 16. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 30,
+      "text_greek": "προφήτης οὖν ὑπάρχων καὶ εἰδὼς ὅτι ὅρκῳ ὤμοσεν αὐτῷ ὁ θεὸς ἐκ καρποῦ τῆς ὀσφύος αὐτοῦ καθίσαι ἐπὶ τὸν θρόνον αὐτοῦ,",
+      "text_kjv": "Therefore being a prophet, and knowing that God had sworn with an oath to him, that of the fruit of his loins, according to the flesh, he would raise up Christ to sit on his throne;",
+      "rendering": "Since he was a prophet and knew that God had sworn an oath to him that he would seat one of his descendants on his throne,",
+      "translator_notes": [
+        "Peter identifies David as a prophet, not merely a king and poet — this justifies reading the Psalms as prophetic. The oath refers to 2 Samuel 7:12-13 and Psalm 132:11, where God promises David an eternal dynasty. The Greek ek karpou tēs osphyos autou ('from the fruit of his loins') is a Hebraic idiom for physical descendants. We render this as 'one of his descendants' for natural modern English while noting the idiom.",
+        "[TCR Cross-Reference] This verse quotes 2 Samuel 7:12-13 — see the TCR rendering of that passage for the Hebrew source text and translation decisions.",
+        "[TCR Cross-Reference] This verse quotes Psalm 132:11 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 31,
+      "text_greek": "προϊδὼν ἐλάλησεν περὶ τῆς ἀναστάσεως τοῦ Χριστοῦ ὅτι οὔτε ἐγκατελείφθη εἰς ᾅδην οὔτε ἡ σὰρξ αὐτοῦ εἶδεν διαφθοράν.",
+      "text_kjv": "He seeing this before spake of the resurrection of Christ, that his soul was not left in hell, neither his flesh did see corruption.",
+      "rendering": "Indeed, he seeing this prior to spoke of the resurrection of Christ, that his soul was not departed in hell, neither his flesh did see corruption.",
+      "translator_notes": [
+        "Peter now makes the interpretive move explicit: David's words in Psalm 16 were prophetic speech about the Messiah's resurrection. The two key claims from Psalm 16:10 — not abandoned to Hades and no bodily decay — are applied to Jesus's resurrection. Peter's argument depends on the physical nature of the resurrection: Jesus's actual body did not decompose.",
+        "[TCR Cross-Reference] Quotes Psalm 16. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 32,
+      "text_greek": "τοῦτον τὸν Ἰησοῦν ἀνέστησεν ὁ θεός, οὗ πάντες ἡμεῖς ἐσμεν μάρτυρες.",
+      "text_kjv": "This Jesus hath God raised up, whereof we all are witnesses.",
+      "rendering": "This Jesus God raised up, and of this we are all witnesses.",
+      "translator_notes": [
+        "The sentence is emphatic in Greek: 'This Jesus' (touton ton Iēsoun) is placed first for emphasis — this specific historical person, not an abstract concept. The claim to be 'witnesses' (martyres) circles back to 1:8 — the apostles fulfill their commission as witnesses to the resurrection. The 'all' (pantes) includes the eleven standing with Peter, a claim that could be immediately verified or challenged by the audience."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 33,
+      "text_greek": "τῇ δεξιᾷ οὖν τοῦ θεοῦ ὑψωθεὶς τήν τε ἐπαγγελίαν τοῦ πνεύματος τοῦ ἁγίου λαβὼν παρὰ τοῦ πατρός, ἐξέχεεν τοῦτο ὃ ὑμεῖς καὶ βλέπετε καὶ ἀκούετε.",
+      "text_kjv": "Therefore being by the right hand of God exalted, and having received of the Father the promise of the Holy Ghost, he hath shed forth this, which ye now see and hear.",
+      "rendering": "Therefore, having been exalted to the right hand of God and having received from the Father the promise of the Holy Spirit, he has poured out this that you both see and hear.",
+      "translator_notes": [
+        "Peter connects the ascension (exaltation to God's right hand), the reception of the Spirit from the Father, and the Pentecost event in a single theological chain: Jesus is exalted → Jesus receives the Spirit from the Father → Jesus pours out the Spirit on his followers. The verb execheen ('poured out') directly echoes the Joel quotation in verse 17 ('I will pour out my Spirit'). The appeal to sensory evidence — 'what you both see and hear' (blepete kai akouete) — grounds the theological claim in observable phenomena."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 34,
+      "text_greek": "οὐ γὰρ Δαυὶδ ἀνέβη εἰς τοὺς οὐρανούς, λέγει δὲ αὐτός· εἶπεν ὁ κύριος τῷ κυρίῳ μου· κάθου ἐκ δεξιῶν μου,",
+      "text_kjv": "For David is not ascended into the heavens: but he saith himself, The LORD said unto my Lord, Sit thou on my right hand,",
+      "rendering": "For David did not ascend into the heavens, but he himself says: 'The Lord said to my Lord, \"Sit at my right hand,",
+      "translator_notes": [
+        "Peter now quotes Psalm 110:1 (LXX 109:1), the most frequently cited Old Testament text in the New Testament. The same argument applies: David did not ascend to heaven, so these words must refer to someone greater than David. The double 'Lord' (eipen ho kyrios tō kyriō mou) reflects the Hebrew 'the LORD (YHWH) said to my lord (adoni)' — David's lord is the Messiah, who sits at God's right hand.",
+        "[TCR Cross-Reference] Echoes Psalms 110:1. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 35,
+      "text_greek": "ἕως ἂν θῶ τοὺς ἐχθρούς σου ὑποπόδιον τῶν ποδῶν σου.",
+      "text_kjv": "Until I make thy foes thy footstool.",
+      "rendering": "Until I make your foes your footstool.",
+      "translator_notes": [
+        "The image of enemies as a footstool reflects ancient Near Eastern conquest imagery — victorious kings literally placed their feet on the necks of conquered enemies (cf. Joshua 10:24). The Psalm envisions a period of reigning at God's right hand until all opposition is subdued. Peter leaves the implication hanging: if Jesus is now at God's right hand, then the subjugation of all enemies is underway.",
+        "[TCR Cross-Reference] This verse quotes Psalms 110:1 — see the TCR rendering of that passage for the Hebrew source text and translation decisions.",
+        "[TCR Cross-Reference] This verse quotes Joshua 10:24 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 36,
+      "text_greek": "ἀσφαλῶς οὖν γινωσκέτω πᾶς οἶκος Ἰσραὴλ ὅτι καὶ κύριον αὐτὸν καὶ χριστὸν ἐποίησεν ὁ θεός, τοῦτον τὸν Ἰησοῦν ὃν ὑμεῖς ἐσταυρώσατε.",
+      "text_kjv": "Therefore let all the house of Israel know assuredly, that God hath made that same Jesus, whom ye have crucified, both Lord and Christ.",
+      "rendering": "Therefore let the entire house of Israel know with certainty that God has made him both Lord and Christ — this Jesus whom you crucified.\"",
+      "translator_notes": [
+        "This is the sermon's climax. The adverb asphalōs ('with certainty, beyond doubt') demands intellectual assent, not mere emotional response. 'Lord and Christ' (kyrion kai christon) — the two titles Peter has argued for throughout the sermon converge: kyrios from Psalm 110:1 and christos from Psalm 16. The final phrase — 'this Jesus whom you crucified' (touton ton Iēsoun hon hymeis estaurōsate) — is deliberately confrontational, pressing the audience to reckon with the implications of having killed God's anointed one.",
+        "[TCR Cross-Reference] Quotes Psalm 110:1. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it.",
+        "[TCR Cross-Reference] Quotes Psalm 16. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it."
+      ],
+      "key_terms": [
+        {
+          "greek": "κύριος",
+          "transliteration": "kyrios",
+          "rendered_as": "Lord",
+          "semantic_range": "lord, master, sir, owner; the Lord (divine title)",
+          "note": "In the LXX, kyrios translates both YHWH and adonai. Peter's argument from Psalm 110:1 applies the divine title to Jesus — God has made the crucified Jesus 'Lord' in the fullest sense."
+        },
+        {
+          "greek": "Χριστός",
+          "transliteration": "Christos",
+          "rendered_as": "Christ",
+          "semantic_range": "anointed one, Messiah",
+          "note": "The culmination of Peter's argument: Jesus is the anointed king promised to David's line, whose resurrection and exaltation fulfill the prophetic Scriptures."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 37,
+      "text_greek": "Ἀκούσαντες δὲ κατενύγησαν τὴν καρδίαν εἶπόν τε πρὸς τὸν Πέτρον καὶ τοὺς λοιποὺς ἀποστόλους· τί ποιήσωμεν, ἄνδρες ἀδελφοί;",
+      "text_kjv": "Now when they heard this, they were pricked in their heart, and said unto Peter and to the rest of the apostles, Men and brethren, what shall we do?",
+      "rendering": "When they heard this, they were pierced to the heart and said to Peter and the rest of the apostles, \"Brothers, what should we do?\"",
+      "translator_notes": [
+        "The verb katenygēsan ('were pierced, were cut to the heart') is a powerful word describing deep emotional and spiritual conviction — it appears only here in the New Testament. The audience's question 'What should we do?' (ti poiēsōmen) is the proper response to conviction: not debate but action. Their address 'brothers' (adelphoi) shows they still consider Peter and the apostles fellow Jews."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 38,
+      "text_greek": "Πέτρος δὲ πρὸς αὐτούς· μετανοήσατε, φησίν, καὶ βαπτισθήτω ἕκαστος ὑμῶν ἐπὶ τῷ ὀνόματι Ἰησοῦ Χριστοῦ εἰς ἄφεσιν τῶν ἁμαρτιῶν ὑμῶν καὶ λήμψεσθε τὴν δωρεὰν τοῦ ἁγίου πνεύματος.",
+      "text_kjv": "Then Peter said unto them, Repent, and be baptized every one of you in the name of Jesus Christ for the remission of sins, and ye shall receive the gift of the Holy Ghost.",
+      "rendering": "Peter said to them, \"Repent and be baptized, each of you, in the name of Jesus Christ for the forgiveness of your sins, and you will receive the gift of the Holy Spirit.",
+      "translator_notes": [
+        "Peter's response contains four elements: repentance, baptism, forgiveness, and the gift of the Spirit. The verb metanoēsate ('repent') means to change one's mind and direction — the Greek equivalent of the Hebrew teshuvah ('return'). The preposition epi ('in/on/upon') with 'the name of Jesus Christ' indicates that baptism is performed on the authority of and in connection with Jesus. The preposition eis before 'forgiveness' can mean 'for the purpose of' or 'on the basis of' — both translations are grammatically possible."
+      ],
+      "key_terms": [
+        {
+          "greek": "μετανοέω",
+          "transliteration": "metanoeō",
+          "rendered_as": "repent",
+          "semantic_range": "to change one's mind, to repent, to turn around, to think differently afterward",
+          "note": "The Greek emphasizes a cognitive transformation — a change of mind that leads to changed behavior. It corresponds to the Hebrew concept of teshuvah (return). In Peter's sermon, repentance means reversing one's assessment of Jesus: from rejected criminal to Lord and Christ."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 39,
+      "text_greek": "ὑμῖν γάρ ἐστιν ἡ ἐπαγγελία καὶ τοῖς τέκνοις ὑμῶν καὶ πᾶσι τοῖς εἰς μακράν, ὅσους ἂν προσκαλέσηται κύριος ὁ θεὸς ἡμῶν.",
+      "text_kjv": "For the promise is unto you, and to your children, and to all that are afar off, even as many as the Lord our God shall call.",
+      "rendering": "For the promise is for you and for your children and for all who are far off — everyone whom the Lord our God calls to himself.\"",
+      "translator_notes": [
+        "The scope of the promise expands in three concentric circles: 'you' (the present audience), 'your children' (the next generation), and 'all who are far off' (tous eis makran). The phrase 'those far off' echoes Isaiah 57:19 and Ephesians 2:13, 17 — it can refer to future generations, to diaspora Jews, or to Gentiles. Peter may not yet fully grasp the Gentile implications, but Luke's reader does. The final clause — 'everyone whom the Lord our God calls' — grounds the universal offer in divine initiative.",
+        "[TCR Cross-Reference] Echoes Isaiah 57:19. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 40,
+      "text_greek": "ἑτέροις τε λόγοις πλείοσιν διεμαρτύρατο καὶ παρεκάλει αὐτοὺς λέγων· σώθητε ἀπὸ τῆς γενεᾶς τῆς σκολιᾶς ταύτης.",
+      "text_kjv": "And with many other words did he testify and exhort, saying, Save yourselves from this untoward generation.",
+      "rendering": "With many other words he solemnly testified and kept urging them, saying, \"Be saved from this crooked generation!\"",
+      "translator_notes": [
+        "Luke summarizes the rest of Peter's sermon rather than recording it fully — 'many other words' (heterois logois pleiosin) indicates this is an excerpt. The verb diemartyrato ('solemnly testified') carries legal weight, while parekalei ('kept urging, exhorting') is imperfect tense indicating ongoing, persistent appeal. The phrase 'crooked generation' (geneas tēs skolias) echoes Moses' words in Deuteronomy 32:5 and Jesus's own language in Matthew 17:17.",
+        "[TCR Cross-Reference] This verse quotes Deuteronomy 32:5 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 41,
+      "text_greek": "οἱ μὲν οὖν ἀποδεξάμενοι τὸν λόγον αὐτοῦ ἐβαπτίσθησαν καὶ προσετέθησαν ἐν τῇ ἡμέρᾳ ἐκείνῃ ψυχαὶ ὡσεὶ τρισχίλιαι.",
+      "text_kjv": "Then they that gladly received his word were baptized: and the same day there were added unto them about three thousand souls.",
+      "rendering": "So those who received his message were baptized, and about three thousand people were added that day.",
+      "translator_notes": [
+        "The number 'about three thousand' (hōsei trischiliai) represents a massive response to a single sermon. The passive prosetethēsan ('were added') implies divine agency — God adds to the community. The word psychai ('souls/people') is used in the Semitic sense of 'persons,' not in the Greek philosophical sense of immortal souls. The logistics of baptizing three thousand people in a single day likely involved the numerous mikva'ot (ritual immersion pools) near the Temple, which have been archaeologically confirmed."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 42,
+      "text_greek": "ἦσαν δὲ προσκαρτεροῦντες τῇ διδαχῇ τῶν ἀποστόλων καὶ τῇ κοινωνίᾳ, τῇ κλάσει τοῦ ἄρτου καὶ ταῖς προσευχαῖς.",
+      "text_kjv": "And they continued stedfastly in the apostles' doctrine and fellowship, and in breaking of bread, and in prayers.",
+      "rendering": "They devoted themselves to the apostles' teaching and to fellowship, to the breaking of bread and to prayer.",
+      "translator_notes": [
+        "This verse is often called the four marks of the early church: teaching (didachē), fellowship (koinōnia), breaking of bread (klasis tou artou), and prayers (proseuchais). The verb proskarterountes ('devoting themselves') is the same word used in 1:14 — the persistence that characterized the pre-Pentecost community continues and intensifies. 'Breaking of bread' may refer to ordinary communal meals, the Lord's Supper, or both — Luke does not distinguish. The plural 'prayers' (proseuchais) may indicate set times of prayer, possibly following the Jewish daily prayer schedule."
+      ],
+      "key_terms": [
+        {
+          "greek": "κοινωνία",
+          "transliteration": "koinōnia",
+          "rendered_as": "fellowship",
+          "semantic_range": "fellowship, communion, sharing, participation, partnership",
+          "note": "More than social gathering — koinōnia implies shared life, mutual participation, and common ownership. Its full expression is described in verses 44-45. The word carries economic as well as relational weight."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 43,
+      "text_greek": "ἐγίνετο δὲ πάσῃ ψυχῇ φόβος, πολλά τε τέρατα καὶ σημεῖα διὰ τῶν ἀποστόλων ἐγίνετο.",
+      "text_kjv": "And fear came upon every soul: and many wonders and signs were done by the apostles.",
+      "rendering": "Awe came upon everyone, and many wonders and signs were being done through the apostles.",
+      "translator_notes": [
+        "The word phobos ('fear, awe, reverence') here indicates reverential awe rather than terror — the community lived with a sense of the sacred. The 'wonders and signs' (terata kai sēmeia) performed through the apostles echo the description of Jesus's own ministry in verse 22, showing continuity between Jesus's work and the apostles' work through the Spirit. The imperfect tense egineto ('were being done') indicates ongoing, repeated miraculous activity."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 44,
+      "text_greek": "πάντες δὲ οἱ πιστεύοντες ἦσαν ἐπὶ τὸ αὐτὸ καὶ εἶχον ἅπαντα κοινά,",
+      "text_kjv": "And all that believed were together, and had all things common;",
+      "rendering": "All who believed were together and held everything in common.",
+      "translator_notes": [
+        "The phrase epi to auto ('together, in the same place') echoes verses 1 and 1:15 — unity of place reflects unity of heart. The economic sharing described here — 'held everything in common' (eichon hapanta koina) — is voluntary community, not enforced communism. The sharing arises from the koinōnia described in verse 42, not from external compulsion. Luke presents this as an ideal, not necessarily as a permanent economic model."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 45,
+      "text_greek": "καὶ τὰ κτήματα καὶ τὰς ὑπάρξεις ἐπίπρασκον καὶ διεμέριζον αὐτὰ πᾶσιν καθότι ἄν τις χρείαν εἶχεν·",
+      "text_kjv": "And sold their possessions and goods, and parted them to all men, as every man had need.",
+      "rendering": "They would sell their possessions and belongings and distribute the proceeds to all, as anyone had need.",
+      "translator_notes": [
+        "Luke distinguishes between 'possessions' (ktēmata, typically real property like land) and 'belongings' (hyparxeis, personal goods and assets). The imperfect tenses (epipraskon, diemerizon) indicate ongoing, repeated action — they sold as needs arose, not in a single liquidation event. Distribution was based on need (chreia), not equality — a principle of sufficiency rather than uniformity."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 46,
+      "text_greek": "καθ' ἡμέραν τε προσκαρτεροῦντες ὁμοθυμαδὸν ἐν τῷ ἱερῷ, κλῶντές τε κατ' οἶκον ἄρτον, μετελάμβανον τροφῆς ἐν ἀγαλλιάσει καὶ ἀφελότητι καρδίας,",
+      "text_kjv": "And they, continuing daily with one accord in the temple, and breaking bread from house to house, did eat their meat with gladness and singleness of heart,",
+      "rendering": "Every day they continued to meet together with one purpose in the temple courts, and breaking bread from house to house, they shared their meals with joy and sincerity of heart,",
+      "translator_notes": [
+        "The early believers maintained a dual pattern of worship: public gathering in the temple (en tō hierō, referring to the temple courts, especially Solomon's Portico per 3:11) and private fellowship in homes (kat' oikon). They did not abandon Jewish temple worship but supplemented it with distinctly Christian home gatherings. The word aphelotēti ('sincerity, simplicity, generosity') occurs only here in the New Testament — it suggests an unaffected, genuine quality of heart free from pretense."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 47,
+      "text_greek": "αἰνοῦντες τὸν θεὸν καὶ ἔχοντες χάριν πρὸς ὅλον τὸν λαόν. ὁ δὲ κύριος προσετίθει τοὺς σῳζομένους καθ' ἡμέραν ἐπὶ τὸ αὐτό.",
+      "text_kjv": "Praising God, and having favour with all the people. And the Lord added to the church daily such as should be saved.",
+      "rendering": "They praised God and enjoyed the goodwill of all the people. And every day the Lord added to their number those who were being saved.",
+      "translator_notes": [
+        "The chapter ends with two complementary realities: human praise ('praising God') and divine growth ('the Lord was adding'). The present participle sōzomenous ('those being saved') indicates an ongoing process, not a completed transaction — salvation in Acts is both an event and a journey. The phrase epi to auto ('to their number, together') echoes the opening of the chapter, creating a literary frame: the community that gathered in verse 1 has grown from 120 to over 3,000.",
+        "Luke does not use the word 'church' (ekklēsia) here, though the KJV adds it. The SBLGNT simply has 'adding together' — the community is described by its life rather than by a title."
+      ],
+      "reading_level": "7th grade"
+    }
+  ]
+}

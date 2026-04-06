@@ -1,0 +1,619 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Luke",
+    "chapter": 12,
+    "source_text": "SBL Greek New Testament (SBLGNT)",
+    "reference_text": "KJV",
+    "generated_at": "2026-04-04T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Luke 12 is a sweeping discourse on anxiety, possessions, and readiness for judgment. Jesus warns against the leaven of the Pharisees (hypocrisy), assures the disciples that God values them more than sparrows, tells the parable of the rich fool who stores up wealth only to die that night, teaches about freedom from anxiety by pointing to ravens and lilies, urges readiness for the master's return through parables of watchful servants and a faithful steward, and warns that his coming brings not peace but division. The chapter closes with Jesus's frustration that the crowds can read weather signs but not the signs of the present time.",
+    "remarkable": "The parable of the rich fool (vv. 13-21) is unique to Luke and encapsulates his distinctive concern about wealth — the man's soliloquy with his own soul is one of the most psychologically revealing passages in the Gospels. The anxiety discourse (vv. 22-34) parallels Matthew's Sermon on the Mount material but is placed in a different context, following the rich fool parable, which gives the teaching a sharper economic edge. Luke alone includes the promise 'Do not be afraid, little flock, for your Father has been pleased to give you the kingdom' (v. 32) — one of the most tender sayings attributed to Jesus. The fire/baptism/division sayings (vv. 49-53) present a startlingly combative Jesus who expects his mission to fracture families.",
+    "friction": "The transition between the rich fool parable and the anxiety discourse creates tension: is material security wrong, or only anxiety about it? Jesus appears to condemn both storing up wealth (v. 21) and worrying about basic needs (vv. 22-31), which raises questions about the practical ethic being proposed. The 'fire on earth' and 'baptism' sayings (vv. 49-50) are cryptic and have been interpreted variously. The family division passage (vv. 51-53) draws on Micah 7:6 and challenges the common assumption that Jesus's message is primarily about peace and harmony.",
+    "connections": "The rich fool parable connects to the broader Lukan theme of wealth reversal (1:53, 6:20-26, 16:19-31, 18:18-30). The anxiety discourse parallels Matthew 6:25-34 but with distinctive Lukan additions. The faithful steward parable anticipates the parables of chapter 16. The fire and division sayings connect to John the Baptist's prophecy of fire-baptism (3:16). The weather signs passage echoes the prophetic tradition of discerning God's activity in current events.\n\n**Tradition comparisons:** JST footnote at Luke 12:9: Denial before angels — conditions of denial or confession clarified See the [JST notes](/jst/luke)."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_greek": "Ἐν οἷς ἐπισυναχθεισῶν τῶν μυριάδων τοῦ ὄχλου, ὥστε καταπατεῖν ἀλλήλους, ἤρξατο λέγειν πρὸς τοὺς μαθητὰς αὐτοῦ πρῶτον· Προσέχετε ἑαυτοῖς ἀπὸ τῆς ζύμης, ἥτις ἐστὶν ὑπόκρισις, τῶν Φαρισαίων.",
+      "text_kjv": "In the mean time, when there were gathered together an innumerable multitude of people, insomuch that they trode one upon another, he began to say unto his disciples first of all, Beware ye of the leaven of the Pharisees, which is hypocrisy.",
+      "rendering": "Meanwhile, when a crowd of many thousands had gathered, so that they were trampling on one another, he began to say to his disciples first, \"Watch out for the leaven of the Pharisees, which is hypocrisy.",
+      "translator_notes": [
+        "The word myriadōn ('myriads, tens of thousands') indicates an enormous crowd — Luke hyperbolically suggests tens of thousands. The crushing press (katapatein allēlous, 'trampling one another') creates a vivid physical scene. Despite the public setting, Jesus addresses the disciples 'first' (prōton), indicating priority of instruction. He defines the Pharisees' leaven specifically as hypocrisy (hypokrisis) — the disconnect between external appearance and internal reality, the theme of chapter 11's woes."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 2,
+      "text_greek": "οὐδὲν δὲ συγκεκαλυμμένον ἐστὶν ὃ οὐκ ἀποκαλυφθήσεται καὶ κρυπτὸν ὃ οὐ γνωσθήσεται.",
+      "text_kjv": "For there is nothing covered, that shall not be revealed; neither hid, that shall not be known.",
+      "rendering": "Nothing is concealed that will not be revealed, and nothing hidden that will not be made known.",
+      "translator_notes": [
+        "The perfect participle synkekalymmenon ('covered up, concealed') paired with the future passive apokalyphthēsetai ('will be uncovered, revealed') establishes an eschatological certainty: what hypocrisy hides, God's judgment will expose. The passive voice implies God as the agent of revelation."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 3,
+      "text_greek": "ἀνθ' ὧν ὅσα ἐν τῇ σκοτίᾳ εἴπατε ἐν τῷ φωτὶ ἀκουσθήσεται, καὶ ὃ πρὸς τὸ οὖς ἐλαλήσατε ἐν τοῖς ταμείοις κηρυχθήσεται ἐπὶ τῶν δωμάτων.",
+      "text_kjv": "Therefore whatsoever ye have spoken in darkness shall be heard in the light; and that which ye have spoken in the ear in closets shall be proclaimed upon the housetops.",
+      "rendering": "Therefore whatever you have said in the dark will be heard in the light, and what you have whispered in inner rooms will be proclaimed from the housetops.",
+      "translator_notes": [
+        "The contrast between private speech (in darkness, whispered in inner rooms) and public exposure (in the light, proclaimed from rooftops) warns that hidden conversations will become public knowledge. The tameiois ('inner rooms, storerooms') were the most private spaces in a house. Housetops (dōmatōn) were flat roofs used as public gathering and proclamation spaces in the ancient Near East."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 4,
+      "text_greek": "Λέγω δὲ ὑμῖν τοῖς φίλοις μου, μὴ φοβηθῆτε ἀπὸ τῶν ἀποκτεινόντων τὸ σῶμα καὶ μετὰ ταῦτα μὴ ἐχόντων περισσότερόν τι ποιῆσαι.",
+      "text_kjv": "And I say unto you my friends, Be not afraid of them that kill the body, and after that have no more that they can do.",
+      "rendering": "I tell you, my friends, do not fear those who kill the body and after that can do nothing more.",
+      "translator_notes": [
+        "The address 'my friends' (tois philois mou) is uniquely Lukan and remarkably intimate — Jesus identifies the disciples as friends, not merely followers or students. The prohibition against fear of those who can only kill the body relativizes even death: physical destruction is the absolute limit of human power, and 'after that' (meta tauta) they are impotent."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 5,
+      "text_greek": "ὑποδείξω δὲ ὑμῖν τίνα φοβηθῆτε· φοβήθητε τὸν μετὰ τὸ ἀποκτεῖναι ἔχοντα ἐξουσίαν ἐμβαλεῖν εἰς τὴν γέενναν. ναὶ λέγω ὑμῖν, τοῦτον φοβήθητε.",
+      "text_kjv": "But I will forewarn you whom ye shall fear: Fear him, which after he hath killed hath power to cast into hell; yea, I say unto you, Fear him.",
+      "rendering": "But I will show you whom to fear: fear the one who, after killing, has authority to cast into Gehenna. Yes, I tell you, fear him!",
+      "translator_notes": [
+        "The word geennan ('Gehenna') refers to the Valley of Hinnom (Hebrew ge-hinnom) south of Jerusalem, associated with child sacrifice to Molech (2 Kings 23:10) and later used as the city's burning garbage dump. It became a metaphor for divine judgment and destruction. The identity of 'the one' to fear is debated: most interpreters understand it as God, who alone has authority (exousian) beyond death. The emphatic repetition 'yes, I tell you, fear him' (nai legō hymin, touton phobēthēte) underscores the seriousness.",
+        "[TCR Cross-Reference] This verse quotes 2 Kings 23:10 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 6,
+      "text_greek": "οὐχὶ πέντε στρουθία πωλοῦνται ἀσσαρίων δύο; καὶ ἓν ἐξ αὐτῶν οὐκ ἔστιν ἐπιλελησμένον ἐνώπιον τοῦ θεοῦ.",
+      "text_kjv": "Are not five sparrows sold for two farthings, and not one of them is forgotten before God?",
+      "rendering": "Are not five sparrows sold for two assaria? Yet not one of them is forgotten before God.",
+      "translator_notes": [
+        "Luke has five sparrows for two assaria where Matthew (10:29) has two for one assarion — Luke's version implies a bulk discount (buy four, get one free), emphasizing even greater cheapness. An assarion was worth roughly one-sixteenth of a denarius, about ten minutes of a laborer's wage. The point is not that sparrows are valuable but that even the most commercially worthless creatures are individually known to God."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 7,
+      "text_greek": "ἀλλὰ καὶ αἱ τρίχες τῆς κεφαλῆς ὑμῶν πᾶσαι ἠρίθμηνται. μὴ φοβεῖσθε· πολλῶν στρουθίων διαφέρετε.",
+      "text_kjv": "But even the very hairs of your head are all numbered. Fear not therefore: ye are of more value than many sparrows.",
+      "rendering": "Indeed, even the hairs of your head are all counted. Do not be afraid — you are worth more than many sparrows.",
+      "translator_notes": [
+        "The perfect passive ērithmēntai ('have been counted and remain counted') indicates God's thorough, ongoing knowledge. The average human head has about 100,000 hairs — God's attention to detail is incomprehensibly minute. The argument moves from lesser to greater: if God does not forget sparrows, and if God counts your hairs, then your life is absolutely secure in his attention."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 8,
+      "text_greek": "Λέγω δὲ ὑμῖν, πᾶς ὃς ἂν ὁμολογήσῃ ἐν ἐμοὶ ἔμπροσθεν τῶν ἀνθρώπων, καὶ ὁ υἱὸς τοῦ ἀνθρώπου ὁμολογήσει ἐν αὐτῷ ἔμπροσθεν τῶν ἀγγέλων τοῦ θεοῦ·",
+      "text_kjv": "Also I say unto you, Whosoever shall confess me before men, him shall the Son of man also confess before the angels of God:",
+      "rendering": "I tell you, everyone who acknowledges me before people, the Son of Man will also acknowledge before the angels of God.",
+      "translator_notes": [
+        "The verb homologēsē ('confess, acknowledge, declare openly') means to make a public declaration of allegiance. The phrase 'before the angels of God' (emprosthen tōn angelōn tou theou) envisions a heavenly courtroom scene where Jesus serves as advocate. The reciprocity is exact: public confession leads to heavenly acknowledgment."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 9,
+      "text_greek": "ὁ δὲ ἀρνησάμενός με ἐνώπιον τῶν ἀνθρώπων ἀπαρνηθήσεται ἐνώπιον τῶν ἀγγέλων τοῦ θεοῦ.",
+      "text_kjv": "But he that denieth me before men shall be denied before the angels of God.",
+      "rendering": "But the one who denies me before people will be denied before the angels of God.",
+      "translator_notes": [
+        "The passive aparnēthēsetai ('will be denied') implies that God or the Son of Man is the agent of denial. The shift from active (the human denies) to passive (the person is denied) creates distance — the judgment is not vindictive but a natural consequence of the choice. Peter's threefold denial (Luke 22:54-62) will test this saying dramatically."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 10,
+      "text_greek": "καὶ πᾶς ὃς ἐρεῖ λόγον εἰς τὸν υἱὸν τοῦ ἀνθρώπου, ἀφεθήσεται αὐτῷ· τῷ δὲ εἰς τὸ ἅγιον πνεῦμα βλασφημήσαντι οὐκ ἀφεθήσεται.",
+      "text_kjv": "And whosoever shall speak a word against the Son of man, it shall be forgiven him: but unto him that blasphemeth against the Holy Ghost it shall not be forgiven.",
+      "rendering": "Everyone who speaks a word against the Son of Man will be forgiven, but the one who blasphemes against the Holy Spirit will not be forgiven.",
+      "translator_notes": [
+        "This is Luke's version of the 'unforgivable sin' saying. The distinction between speaking against the Son of Man (forgivable) and blaspheming the Holy Spirit (unforgivable) is difficult. One interpretation: rejecting the earthly Jesus out of ignorance or confusion is forgivable (as with Paul, who persecuted the church before his conversion), but willfully attributing the Holy Spirit's work to evil (the Beelzebul charge of 11:15) represents a hardened condition that places oneself beyond the reach of repentance."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 11,
+      "text_greek": "ὅταν δὲ εἰσφέρωσιν ὑμᾶς ἐπὶ τὰς συναγωγὰς καὶ τὰς ἀρχὰς καὶ τὰς ἐξουσίας, μὴ μεριμνήσητε πῶς ἢ τί ἀπολογήσησθε ἢ τί εἴπητε·",
+      "text_kjv": "And when they bring you unto the synagogues, and unto magistrates, and powers, take ye no thought how or what thing ye shall answer, or what ye shall say:",
+      "rendering": "When they bring you before the synagogues and the rulers and the authorities, do not worry about how or what you should say in your defense, or what you should speak.",
+      "translator_notes": [
+        "Three venues of persecution are named: synagogues (Jewish religious courts), rulers (archas, civil authorities), and authorities (exousias, governing powers). The verb merimnēsēte ('do not worry, do not be anxious') is the same word Jesus will use in the anxiety discourse later in this chapter (v. 22). The threefold 'how or what... or what' (pōs ē ti apologēsēsthe ē ti eipēte) covers both strategy and content of their defense."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 12,
+      "text_greek": "τὸ γὰρ ἅγιον πνεῦμα διδάξει ὑμᾶς ἐν αὐτῇ τῇ ὥρᾳ ἃ δεῖ εἰπεῖν.",
+      "text_kjv": "For the Holy Ghost shall teach you in the same hour what ye ought to say.",
+      "rendering": "For the Holy Spirit will teach you in that very hour what you must say.\"",
+      "translator_notes": [
+        "The promise that the Holy Spirit will provide words en autē tē hōra ('in that very hour') excludes advance preparation in favor of in-the-moment divine guidance. The verb didaxei ('will teach') makes the Spirit the true instructor. This promise is fulfilled repeatedly in Acts (4:8, 6:10, 7:55). The word dei ('must, it is necessary') implies divinely scripted testimony."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 13,
+      "text_greek": "Εἶπεν δέ τις ἐκ τοῦ ὄχλου αὐτῷ· Διδάσκαλε, εἰπὲ τῷ ἀδελφῷ μου μερίσασθαι μετ' ἐμοῦ τὴν κληρονομίαν.",
+      "text_kjv": "And one of the company said unto him, Master, speak to my brother, that he divide the inheritance with me.",
+      "rendering": "Someone in the crowd said to him, \"Teacher, tell my brother to divide the inheritance with me.\"",
+      "translator_notes": [
+        "This interruption from the crowd shifts the discourse from persecution to possessions. Rabbis were commonly asked to mediate disputes, including inheritance matters. Under Jewish law, the eldest son received a double portion (Deuteronomy 21:17), and disputes over the remainder were common. The man wants Jesus to serve as an authoritative arbitrator.",
+        "[TCR Cross-Reference] References Deuteronomy 21:17 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 14,
+      "text_greek": "ὁ δὲ εἶπεν αὐτῷ· Ἄνθρωπε, τίς με κατέστησεν κριτὴν ἢ μεριστὴν ἐφ' ὑμᾶς;",
+      "text_kjv": "And he said unto him, Man, who made me a judge or a divider over you?",
+      "rendering": "But he said to him, \"Friend, who appointed me as a judge or arbitrator over you?\"",
+      "translator_notes": [
+        "The address anthrōpe ('man, sir, friend') is blunt but not hostile. Jesus's refusal to arbitrate echoes Moses' questioner in Exodus 2:14: 'Who made you a ruler and judge over us?' Jesus declines the role of legal mediator, not because the question is unimportant, but because it addresses the symptom (unfair division) rather than the disease (greed), which he will address in the next verse.",
+        "[TCR Cross-Reference] Echoes Exodus 2:14:. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 15,
+      "text_greek": "εἶπεν δὲ πρὸς αὐτούς· Ὁρᾶτε καὶ φυλάσσεσθε ἀπὸ πάσης πλεονεξίας, ὅτι οὐκ ἐν τῷ περισσεύειν τινὶ ἡ ζωὴ αὐτοῦ ἐστιν ἐκ τῶν ὑπαρχόντων αὐτῷ.",
+      "text_kjv": "And he said unto them, Take heed, and beware of covetousness: for a man's life consisteth not in the abundance of the things which he possesseth.",
+      "rendering": "Then he said to them, \"Watch out! Guard yourselves against every kind of greed, because a person's life does not consist in the abundance of his possessions.\"",
+      "translator_notes": [
+        "The double imperative horate kai phylassesthe ('watch out and guard yourselves') conveys urgency. The word pleonexias ('greed, covetousness, desire for more') literally means 'the desire to have more.' The qualifier pasēs ('every kind of') broadens the warning beyond obvious avarice to include all forms of acquisitiveness. The principle that follows — life is not defined by possessions — directly contradicts the prevailing cultural assumption that wealth equals life, security, and value."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 16,
+      "text_greek": "Εἶπεν δὲ παραβολὴν πρὸς αὐτοὺς λέγων· Ἀνθρώπου τινὸς πλουσίου εὐφόρησεν ἡ χώρα.",
+      "text_kjv": "And he spake a parable unto them, saying, The ground of a certain rich man brought forth plentifully:",
+      "rendering": "He told them a parable, saying, \"The land of a certain rich man produced abundantly.",
+      "translator_notes": [
+        "The parable is unique to Luke. The man is already rich (plousiou) before the bumper crop — the harvest creates surplus, not need. The verb euphorēsen ('produced well, bore good fruit') applies to the land, not the farmer: the productivity is a gift from the soil, not the man's achievement. This detail subtly undermines the man's later claim of ownership over what the land produced."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 17,
+      "text_greek": "καὶ διελογίζετο ἐν ἑαυτῷ λέγων· Τί ποιήσω, ὅτι οὐκ ἔχω ποῦ συνάξω τοὺς καρπούς μου;",
+      "text_kjv": "And he thought within himself, saying, What shall I do, because I have no room where to bestow my fruits?",
+      "rendering": "He reasoned to himself, 'What should I do, since I have no place to store my crops?'",
+      "translator_notes": [
+        "The internal monologue (dielogizeto en heautō, 'reasoned within himself') reveals a man with no community — he consults no one, considers no one's needs, speaks only to himself. The possessive 'my crops' (tous karpous mou) begins a pattern of self-referential language that intensifies through the parable. His problem — too much abundance — is ironically a 'good' problem that reveals the poverty of his imagination."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 18,
+      "text_greek": "καὶ εἶπεν· Τοῦτο ποιήσω· καθελῶ μου τὰς ἀποθήκας καὶ μείζονας οἰκοδομήσω καὶ συνάξω ἐκεῖ πάντα τὸν σῖτον καὶ τὰ ἀγαθά μου,",
+      "text_kjv": "And he said, This will I do: I will pull down my barns, and build greater; and there will I bestow all my fruits and my goods.",
+      "rendering": "Then he said, 'This is what I will do: I will tear down my barns and build larger ones, and there I will store all my grain and my goods.",
+      "translator_notes": [
+        "The decisive 'this is what I will do' (touto poiēsō) shows a man who has resolved his dilemma entirely by himself. The solution — bigger barns — addresses only the storage problem. No thought is given to distribution, charity, or the community. The repeated possessives (mou, 'my') continue: my barns, my grain, my goods. The verb kathelō ('tear down, demolish') implies destruction of what was adequate in order to build something excessive."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 19,
+      "text_greek": "καὶ ἐρῶ τῇ ψυχῇ μου· Ψυχή, ἔχεις πολλὰ ἀγαθὰ κείμενα εἰς ἔτη πολλά· ἀναπαύου, φάγε, πίε, εὐφραίνου.",
+      "text_kjv": "And I will say to my soul, Soul, thou hast much goods laid up for many years; take thine ease, eat, drink, and be merry.",
+      "rendering": "And I will say to my soul, \"Soul, you have many good things stored up for many years. Relax, eat, drink, and celebrate.\"'",
+      "translator_notes": [
+        "The self-address to his own soul (tē psychē mou) is the climax of his isolation — his only conversation partner is himself. The four imperatives (anapauou, phage, pie, euphraiou: 'relax, eat, drink, celebrate') echo the philosophy of Ecclesiastes 8:15 and anticipate Paul's quotation of the Epicurean maxim in 1 Corinthians 15:32. The man assumes his future is secured by accumulated goods. The phrase 'many years' (etē polla) is about to be dramatically shortened.",
+        "[TCR Cross-Reference] Echoes Ecclesiastes 8:15. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 20,
+      "text_greek": "εἶπεν δὲ αὐτῷ ὁ θεός· Ἄφρων, ταύτῃ τῇ νυκτὶ τὴν ψυχήν σου ἀπαιτοῦσιν ἀπὸ σοῦ· ἃ δὲ ἡτοίμασας, τίνι ἔσται;",
+      "text_kjv": "But God said unto him, Thou fool, this night thy soul shall be required of thee: then whose shall those things be, which thou hast provided?",
+      "rendering": "But God said to him, 'Fool! This very night your soul is demanded of you. And the things you have prepared — whose will they be?'",
+      "translator_notes": [
+        "God's direct speech is rare in Jesus's parables, making this intervention especially dramatic. The address aphrōn ('fool, senseless one') echoes Psalm 14:1: 'The fool says in his heart, there is no God.' The verb apaitousin ('they demand, they require back') uses the third person plural impersonally — 'they' may refer to angels of death or simply be a way of saying 'your life is being demanded.' The devastating question 'whose will they be?' (tini estai) exposes the futility of accumulation without God.",
+        "[TCR Cross-Reference] This verse quotes Psalm 14:1: — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 21,
+      "text_greek": "οὕτως ὁ θησαυρίζων ἑαυτῷ καὶ μὴ εἰς θεὸν πλουτῶν.",
+      "text_kjv": "So is he that layeth up treasure for himself, and is not rich toward God.",
+      "rendering": "So it is with the one who stores up treasure for himself and is not rich toward God.\"",
+      "translator_notes": [
+        "The application distinguishes between storing up for oneself (thēsaurizōn heautō) and being 'rich toward God' (eis theon ploutōn). The phrase 'rich toward God' is unique and provocative — it suggests that true wealth is measured by one's relationship with God and generosity, not by accumulated possessions. The contrast implies that the two orientations are mutually exclusive: self-directed hoarding prevents God-directed richness."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 22,
+      "text_greek": "Εἶπεν δὲ πρὸς τοὺς μαθητὰς αὐτοῦ· Διὰ τοῦτο λέγω ὑμῖν, μὴ μεριμνᾶτε τῇ ψυχῇ τί φάγητε, μηδὲ τῷ σώματι τί ἐνδύσησθε.",
+      "text_kjv": "And he said unto his disciples, Therefore I say unto you, Take no thought for your life, what ye shall eat; neither for the body, what ye shall put on.",
+      "rendering": "He said to his disciples, \"Therefore I tell you, do not worry about your life, what you will eat, or about your body, what you will wear.",
+      "translator_notes": [
+        "The connecting phrase dia touto ('therefore, for this reason') links the anxiety teaching directly to the rich fool parable — because hoarding for oneself is foolish, worrying about material needs is equally misguided but from the opposite direction. The verb merimnate ('do not worry, do not be anxious') prohibits the kind of fretting that dominates one's thinking, not responsible planning. The two concerns (food for life, clothing for body) cover the basic necessities."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 23,
+      "text_greek": "ἡ γὰρ ψυχὴ πλεῖόν ἐστιν τῆς τροφῆς καὶ τὸ σῶμα τοῦ ἐνδύματος.",
+      "text_kjv": "The life is more than meat, and the body is more than raiment.",
+      "rendering": "For life is more than food, and the body more than clothing.",
+      "translator_notes": [
+        "The argument is from greater to lesser: if God gave you the greater gift (life, a body), he will surely provide the lesser gift (food, clothing) that sustains it. The word psychē here means 'life' in the biological sense, not 'soul' in the metaphysical sense."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 24,
+      "text_greek": "κατανοήσατε τοὺς κόρακας ὅτι οὐ σπείρουσιν οὐδὲ θερίζουσιν, οἷς οὐκ ἔστιν ταμεῖον οὐδὲ ἀποθήκη, καὶ ὁ θεὸς τρέφει αὐτούς· πόσῳ μᾶλλον ὑμεῖς διαφέρετε τῶν πετεινῶν.",
+      "text_kjv": "Consider the ravens: for they neither sow nor reap; which neither have storehouse nor barn; and God feedeth them: how much more are ye better than the fowls?",
+      "rendering": "Consider the ravens: they neither sow nor reap, they have no storeroom or barn, yet God feeds them. How much more valuable are you than birds!",
+      "translator_notes": [
+        "Luke specifies ravens (korakas) where Matthew has 'birds of the air.' Ravens were unclean animals under Jewish law (Leviticus 11:15), making the choice pointed: God provides even for unclean scavengers. The mention of 'storeroom or barn' (tameion oude apothēkē) directly echoes the rich fool's barns — the ravens have none and yet are fed. The argument from lesser to greater (if God feeds ravens, how much more you) invites trust.",
+        "[TCR Cross-Reference] Echoes Leviticus 11:15. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 25,
+      "text_greek": "τίς δὲ ἐξ ὑμῶν μεριμνῶν δύναται ἐπὶ τὴν ἡλικίαν αὐτοῦ προσθεῖναι πῆχυν;",
+      "text_kjv": "And which of you with taking thought can add to his stature one cubit?",
+      "rendering": "And which of you by worrying can add a single hour to your life span?",
+      "translator_notes": [
+        "The word hēlikian can mean either 'stature' (height) or 'lifespan' (age). A cubit (pēchyn, roughly 18 inches) is absurd as an addition to height but makes more sense as a metaphor for a small unit of time added to one's life. Most modern interpreters prefer 'lifespan' — worrying cannot extend your life even slightly. The rhetorical question expects the answer 'no one.'"
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 26,
+      "text_greek": "εἰ οὖν οὐδὲ ἐλάχιστον δύνασθε, τί περὶ τῶν λοιπῶν μεριμνᾶτε;",
+      "text_kjv": "If ye then be not able to do that thing which is least, why take ye thought for the rest?",
+      "rendering": "If then you cannot do even this small thing, why do you worry about the rest?",
+      "translator_notes": [
+        "The word elachiston ('smallest, least, most trivial') frames extending one's life even slightly as the smallest imaginable accomplishment — and even that is beyond human power. The logical conclusion: if you cannot control the smallest thing, anxiety about larger matters is futile. This verse is unique to Luke."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 27,
+      "text_greek": "κατανοήσατε τὰ κρίνα πῶς αὐξάνει· οὐ κοπιᾷ οὐδὲ νήθει· λέγω δὲ ὑμῖν, οὐδὲ Σολομὼν ἐν πάσῃ τῇ δόξῃ αὐτοῦ περιεβάλετο ὡς ἓν τούτων.",
+      "text_kjv": "Consider the lilies how they grow: they toil not, they spin not; and yet I say unto you, that Solomon in all his glory was not arrayed like one of these.",
+      "rendering": "Consider the lilies, how they grow: they neither toil nor spin. Yet I tell you, not even Solomon in all his glory was clothed like one of these.",
+      "translator_notes": [
+        "The verb katanoēsate ('consider carefully, look closely at') invites sustained observation, not a glance. The lilies (krina) are likely wildflowers rather than cultivated lilies — common field flowers that require no human effort. The comparison with Solomon at the height of his royal splendor is hyperbolic and memorable: the most lavishly dressed king in Israel's history cannot match what grows wild in a field."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 28,
+      "text_greek": "εἰ δὲ ἐν ἀγρῷ τὸν χόρτον ὄντα σήμερον καὶ αὔριον εἰς κλίβανον βαλλόμενον ὁ θεὸς οὕτως ἀμφιέζει, πόσῳ μᾶλλον ὑμᾶς, ὀλιγόπιστοι.",
+      "text_kjv": "If then God so clothe the grass, which is to day in the field, and to morrow is cast into the oven; how much more will he clothe you, O ye of little faith?",
+      "rendering": "If God so clothes the grass that is in the field today and tomorrow is thrown into the oven, how much more will he clothe you, you of little faith!",
+      "translator_notes": [
+        "The dried grass and wildflowers were commonly used as fuel for bread ovens (klibanon) in Palestine. The contrast between their ephemeral existence (today alive, tomorrow fuel) and God's care for them makes the argument from lesser to greater even more powerful. The gentle rebuke oligopistoi ('you of little faith, you with small trust') appears four times in Matthew but only here in Luke. It implies that anxiety is a faith problem, not a planning problem."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 29,
+      "text_greek": "καὶ ὑμεῖς μὴ ζητεῖτε τί φάγητε καὶ τί πίητε καὶ μὴ μετεωρίζεσθε·",
+      "text_kjv": "And seek not ye what ye shall eat, or what ye shall drink, neither be ye of doubtful mind.",
+      "rendering": "So do not keep striving for what you will eat and what you will drink, and do not be anxious.",
+      "translator_notes": [
+        "The rare verb meteōrizesthe ('do not be anxious, do not be in suspense, do not be tossed about') literally means 'to be raised up in the air' or 'to be suspended' — like a ship tossed on waves or a mind that cannot find solid ground. The image is of a person whose mind is constantly agitated, lifted and dropped by worry. This verb appears only here in the New Testament."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 30,
+      "text_greek": "ταῦτα γὰρ πάντα τὰ ἔθνη τοῦ κόσμου ἐπιζητοῦσιν· ὑμῶν δὲ ὁ πατὴρ οἶδεν ὅτι χρῄζετε τούτων.",
+      "text_kjv": "For all these things do the nations of the world seek after: and your Father knoweth that ye have need of these things.",
+      "rendering": "For all the nations of the world pursue these things, and your Father knows that you need them.",
+      "translator_notes": [
+        "The phrase ta ethnē tou kosmou ('the nations of the world') refers to those who do not know God — their relentless pursuit of material security is understandable because they have no Father who provides. The disciples' situation is different: 'your Father knows' (hymōn ho patēr oiden) eliminates the need for anxious pursuit. Knowledge precedes provision — God knows before you ask."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 31,
+      "text_greek": "πλὴν ζητεῖτε τὴν βασιλείαν αὐτοῦ, καὶ ταῦτα προστεθήσεται ὑμῖν.",
+      "text_kjv": "But rather seek ye the kingdom of God; and all these things shall be added unto you.",
+      "rendering": "Instead, seek his kingdom, and these things will be added to you.",
+      "translator_notes": [
+        "Luke's shorter form — 'his kingdom' (tēn basileian autou) rather than Matthew's 'the kingdom of God and his righteousness' — focuses the command with singular clarity. The verb prostethēsetai ('will be added') implies that material provision comes as a byproduct of kingdom-seeking, not as a separate pursuit. The passive voice indicates God as the provider."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 32,
+      "text_greek": "Μὴ φοβοῦ, τὸ μικρὸν ποίμνιον, ὅτι εὐδόκησεν ὁ πατὴρ ὑμῶν δοῦναι ὑμῖν τὴν βασιλείαν.",
+      "text_kjv": "Fear not, little flock; for it is your Father's good pleasure to give you the kingdom.",
+      "rendering": "Do not be afraid, little flock, for your Father has been pleased to give you the kingdom.",
+      "translator_notes": [
+        "This verse, unique to Luke, is one of the most tender and reassuring sayings of Jesus. The diminutive 'little flock' (to mikron poimnion) acknowledges the disciples' smallness and vulnerability while the shepherd imagery implies Jesus's protective care. The verb eudokēsen ('has been pleased, has graciously decided') indicates that the kingdom is not earned by the flock's efforts but freely given by the Father's delight. The aorist tense suggests this decision has already been made."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 33,
+      "text_greek": "Πωλήσατε τὰ ὑπάρχοντα ὑμῶν καὶ δότε ἐλεημοσύνην· ποιήσατε ἑαυτοῖς βαλλάντια μὴ παλαιούμενα, θησαυρὸν ἀνέκλειπτον ἐν τοῖς οὐρανοῖς, ὅπου κλέπτης οὐκ ἐγγίζει οὐδὲ σὴς διαφθείρει·",
+      "text_kjv": "Sell that ye have, and give alms; provide yourselves bags which wax not old, a treasure in the heavens that faileth not, where no thief approacheth, neither moth corrupteth.",
+      "rendering": "Sell your possessions and give to the needy. Make for yourselves purses that do not wear out — an inexhaustible treasure in heaven, where no thief comes near and no moth destroys.",
+      "translator_notes": [
+        "The command to sell possessions (pōlēsate ta hyparchonta hymōn) is radical and specific to Luke's version. The metaphor shifts from earthly to heavenly economics: earthly purses (ballantiа) wear out, but heavenly ones (mē palaioumena, 'not growing old') endure. The word anekleipton ('unfailing, inexhaustible') describes a treasure that cannot be depleted. The threats of thief and moth represent loss through theft and slow decay — neither can touch heavenly investment."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 34,
+      "text_greek": "ὅπου γάρ ἐστιν ὁ θησαυρὸς ὑμῶν, ἐκεῖ καὶ ἡ καρδία ὑμῶν ἔσται.",
+      "text_kjv": "For where your treasure is, there will your heart be also.",
+      "rendering": "For where your treasure is, there your heart will be also.",
+      "translator_notes": [
+        "This principle works in both directions: the heart follows the treasure, and where you invest reveals where your heart already is. The future tense estai ('will be') suggests that current investment decisions determine future heart orientation. This applies the rich fool's lesson positively: rather than storing up for yourself, invest in heaven and your heart will follow."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 35,
+      "text_greek": "Ἔστωσαν ὑμῶν αἱ ὀσφύες περιεζωσμέναι καὶ οἱ λύχνοι καιόμενοι,",
+      "text_kjv": "Let your loins be girded about, and your lights burning;",
+      "rendering": "\"Stay dressed for action and keep your lamps burning,",
+      "translator_notes": [
+        "The image of girded loins (hai osphyes periezōsmenai) refers to tucking long robes into a belt for physical activity — the posture of a servant ready to work (cf. Exodus 12:11, Israel's posture at the first Passover). Combined with burning lamps, the image is of a household on alert, expecting the master's return at any moment.",
+        "[TCR Cross-Reference] This verse quotes Exodus 12:11 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 36,
+      "text_greek": "καὶ ὑμεῖς ὅμοιοι ἀνθρώποις προσδεχομένοις τὸν κύριον ἑαυτῶν πότε ἀναλύσῃ ἐκ τῶν γάμων, ἵνα ἐλθόντος καὶ κρούσαντος εὐθέως ἀνοίξωσιν αὐτῷ.",
+      "text_kjv": "And ye yourselves like unto men that wait for their lord, when he will return from the wedding; that when he cometh and knocketh, they may open unto him immediately.",
+      "rendering": "Be like servants waiting for their master to return from a wedding banquet, ready to open the door for him the moment he arrives and knocks.",
+      "translator_notes": [
+        "The wedding feast (gamōn) could last days, making the master's return time genuinely uncertain. The verb analysē ('return, depart from') literally means 'to loose' or 'to break up' — to leave the feast. The emphasis on 'at once' (eutheōs) stresses instant readiness: no delay between knock and response. The parable envisions servants whose sole purpose is attentive waiting."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 37,
+      "text_greek": "μακάριοι οἱ δοῦλοι ἐκεῖνοι, οὓς ἐλθὼν ὁ κύριος εὑρήσει γρηγοροῦντας· ἀμὴν λέγω ὑμῖν ὅτι περιζώσεται καὶ ἀνακλινεῖ αὐτοὺς καὶ παρελθὼν διακονήσει αὐτοῖς.",
+      "text_kjv": "Blessed are those servants, whom the lord when he cometh shall find watching: verily I say unto you, that he shall gird himself, and make them to sit down to meat, and will come forth and serve them.",
+      "rendering": "Blessed are those servants whom the master finds awake when he comes. Truly I tell you, he will dress himself for service, have them recline at the table, and come and serve them.",
+      "translator_notes": [
+        "This verse contains one of the most astonishing reversals in Jesus's teaching. The master who returns does not sit down and demand service — he girds himself (perizōsetai, the servant's posture from v. 35) and serves his servants. This is a radical inversion of the master-servant relationship. The image anticipates Jesus washing the disciples' feet (John 13) and his self-description as 'one who serves' (Luke 22:27). The verb diakonēsei ('will serve, will minister') is the root of 'deacon.'"
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 38,
+      "text_greek": "κἂν ἐν τῇ δευτέρᾳ κἂν ἐν τῇ τρίτῃ φυλακῇ ἔλθῃ καὶ εὕρῃ οὕτως, μακάριοί εἰσιν ἐκεῖνοι.",
+      "text_kjv": "And if he shall come in the second watch, or come in the third watch, and find them so, blessed are those servants.",
+      "rendering": "If he comes in the second watch, or even in the third, and finds them ready — blessed are those servants!",
+      "translator_notes": [
+        "Luke uses the Jewish two-watch night system (second watch = roughly 10 PM to 2 AM; third watch = 2 AM to 6 AM) rather than the Roman four-watch system. The later the hour, the harder it is to stay awake, which increases the merit of readiness. The repeated 'blessed' (makarioi) reinforces that watchfulness itself is rewarded."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 39,
+      "text_greek": "τοῦτο δὲ γινώσκετε ὅτι εἰ ᾔδει ὁ οἰκοδεσπότης ποίᾳ ὥρᾳ ὁ κλέπτης ἔρχεται, οὐκ ἂν ἀφῆκεν διορυχθῆναι τὸν οἶκον αὐτοῦ.",
+      "text_kjv": "And this know, that if the goodman of the house had known what hour the thief would come, he would have watched, and not have suffered his house to be broken through.",
+      "rendering": "But know this: if the homeowner had known at what hour the thief was coming, he would not have let his house be broken into.",
+      "translator_notes": [
+        "The metaphor shifts from master/servant to homeowner/thief. The word diorychthenai ('to be dug through') reflects first-century construction — mud-brick walls could be literally dug through by a burglar. The thief image for the Lord's return is deliberately jarring: Jesus comes like a thief only in the sense of unexpected timing, not in intent. The point is that unpredictability demands constant readiness."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 40,
+      "text_greek": "καὶ ὑμεῖς γίνεσθε ἕτοιμοι, ὅτι ᾗ ὥρᾳ οὐ δοκεῖτε ὁ υἱὸς τοῦ ἀνθρώπου ἔρχεται.",
+      "text_kjv": "Be ye therefore ready also: for the Son of man cometh at an hour when ye think not.",
+      "rendering": "You also must be ready, because the Son of Man is coming at an hour you do not expect.\"",
+      "translator_notes": [
+        "The application identifies 'the master' and 'the thief' with the Son of Man — Jesus's preferred self-designation. The phrase hē hōra ou dokeite ('the hour you do not expect') makes the timing inherently unpredictable. Any attempt to calculate the moment is already a misunderstanding of the teaching: the point is perpetual readiness, not chronological calculation."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 41,
+      "text_greek": "Εἶπεν δὲ ὁ Πέτρος· Κύριε, πρὸς ἡμᾶς τὴν παραβολὴν ταύτην λέγεις ἢ καὶ πρὸς πάντας;",
+      "text_kjv": "Then Peter said unto him, Lord, speakest thou this parable unto us, or even to all?",
+      "rendering": "Peter said, \"Lord, are you telling this parable for us or for everyone?\"",
+      "translator_notes": [
+        "Peter's question is pragmatic: does this teaching about watchfulness apply only to the disciples (leaders) or to all followers? Jesus's answer (vv. 42-48) addresses both: it begins with the faithful steward (leadership responsibility) and ends with graduated accountability for all. Notably, Jesus never directly answers Peter's question — he tells another parable instead."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 42,
+      "text_greek": "καὶ εἶπεν ὁ κύριος· Τίς ἄρα ἐστὶν ὁ πιστὸς οἰκονόμος ὁ φρόνιμος, ὃν καταστήσει ὁ κύριος ἐπὶ τῆς θεραπείας αὐτοῦ τοῦ διδόναι ἐν καιρῷ τὸ σιτομέτριον;",
+      "text_kjv": "And the Lord said, Who then is that faithful and wise steward, whom his lord shall make ruler over his household, to give them their portion of meat in due season?",
+      "rendering": "The Lord said, \"Who then is the faithful and wise steward whom the master will put in charge of his household servants, to give them their food allowance at the proper time?",
+      "translator_notes": [
+        "The word oikonomos ('steward, household manager') is the source of 'economy' — a steward managed the master's entire household. The sitometrion ('food ration, grain allowance') was the measured portion given to household servants at regular intervals. The steward's job is not to consume the master's resources but to distribute them faithfully. This parable addresses Peter's question by focusing on leadership responsibility."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 43,
+      "text_greek": "μακάριος ὁ δοῦλος ἐκεῖνος, ὃν ἐλθὼν ὁ κύριος αὐτοῦ εὑρήσει ποιοῦντα οὕτως·",
+      "text_kjv": "Blessed is that servant, whom his lord when he cometh shall find so doing.",
+      "rendering": "Blessed is that servant whom his master finds doing so when he comes.",
+      "translator_notes": [
+        "The beatitude (makarios) rewards faithful action, not mere waiting. The participle poiounta ('doing') emphasizes ongoing activity — the blessed servant is found in the act of faithful service, not merely expecting the master's return."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 44,
+      "text_greek": "ἀληθῶς λέγω ὑμῖν ὅτι ἐπὶ πᾶσιν τοῖς ὑπάρχουσιν αὐτοῦ καταστήσει αὐτόν.",
+      "text_kjv": "Of a truth I say unto you, that he will make him ruler over all that he hath.",
+      "rendering": "Truly I tell you, he will put him in charge of all his possessions.",
+      "translator_notes": [
+        "The reward for faithful management of part is management of the whole. The promotion from household steward to manager of 'all possessions' (pasin tois hyparchousin autou) represents total trust. This principle of graduated authority — faithful in small things leads to responsibility for great things — runs throughout Jesus's parables (cf. 16:10, 19:17)."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 45,
+      "text_greek": "ἐὰν δὲ εἴπῃ ὁ δοῦλος ἐκεῖνος ἐν τῇ καρδίᾳ αὐτοῦ· Χρονίζει ὁ κύριός μου ἔρχεσθαι, καὶ ἄρξηται τύπτειν τοὺς παῖδας καὶ τὰς παιδίσκας, ἐσθίειν τε καὶ πίνειν καὶ μεθύσκεσθαι,",
+      "text_kjv": "But and if that servant say in his heart, My lord delayeth his coming; and shall begin to beat the menservants and maidens, and to eat and drink, and to be drunken;",
+      "rendering": "But if that servant says in his heart, 'My master is taking a long time in coming,' and begins to beat the male and female servants, and to eat and drink and get drunk,",
+      "translator_notes": [
+        "The internal reasoning ('says in his heart') mirrors the rich fool's self-dialogue. The servant's abuse of power takes two forms: violence against those under him (beating servants) and self-indulgence (eating, drinking, getting drunk). The perceived delay (chronizei, 'is taking a long time') becomes the excuse for both cruelty and excess. This is a warning to church leaders who exploit their position when accountability seems distant."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 46,
+      "text_greek": "ἥξει ὁ κύριος τοῦ δούλου ἐκείνου ἐν ἡμέρᾳ ᾗ οὐ προσδοκᾷ καὶ ἐν ὥρᾳ ᾗ οὐ γινώσκει, καὶ διχοτομήσει αὐτὸν καὶ τὸ μέρος αὐτοῦ μετὰ τῶν ἀπίστων θήσει.",
+      "text_kjv": "The lord of that servant will come in a day when he looketh not for him, and at an hour when he is not aware, and will cut him in sunder, and will appoint him his portion with the unbelievers.",
+      "rendering": "That servant's master will come on a day he does not expect, at a time he does not know. The master will cut him off and assign him a place with the unfaithful.",
+      "translator_notes": [
+        "The verb dichotomēsei ('will cut in two, will cut to pieces') is shockingly violent — it may be literal (execution by bisection was practiced in the ancient world) or metaphorical for severe punishment. The phrase 'with the unfaithful' (meta tōn apistōn) — Luke's reading versus Matthew's 'hypocrites' — places the abusive steward among those who have no faith at all, the ultimate demotion from trusted insider to rejected outsider."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 47,
+      "text_greek": "ἐκεῖνος δὲ ὁ δοῦλος ὁ γνοὺς τὸ θέλημα τοῦ κυρίου αὐτοῦ καὶ μὴ ἑτοιμάσας ἢ ποιήσας πρὸς τὸ θέλημα αὐτοῦ δαρήσεται πολλάς·",
+      "text_kjv": "And that servant, which knew his lord's will, and prepared not himself, neither did according to his will, shall be beaten with many stripes;",
+      "rendering": "That servant who knew his master's will but did not prepare or act according to his will shall receive a severe beating.",
+      "translator_notes": [
+        "This verse begins a section unique to Luke that establishes the principle of graduated accountability. Knowledge increases responsibility: the servant who knew (gnous) the master's will and still disobeyed receives 'many blows' (darēsetai pollas, with plēgas implied). The double failure — neither preparing (hetoimasas) nor doing (poiēsas) — covers both intention and action."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 48,
+      "text_greek": "ὁ δὲ μὴ γνούς, ποιήσας δὲ ἄξια πληγῶν, δαρήσεται ὀλίγας. παντὶ δὲ ᾧ ἐδόθη πολύ, πολὺ ζητηθήσεται παρ' αὐτοῦ, καὶ ᾧ παρέθεντο πολύ, περισσότερον αἰτήσουσιν αὐτόν.",
+      "text_kjv": "But he that knew not, and did commit things worthy of stripes, shall be beaten with few stripes. For unto whomsoever much is given, of him shall be much required: and to whom men have committed much, of him they will ask the more.",
+      "rendering": "But the one who did not know, yet did things deserving punishment, will receive a light beating. From everyone who has been given much, much will be required; and from the one who has been entrusted with much, even more will be demanded.",
+      "translator_notes": [
+        "The principle of graduated accountability is stated twice: first negatively (more knowledge = more punishment for failure) and then positively in the famous maxim 'from everyone who has been given much, much will be required' (panti hō edothē poly, poly zētēthēsetai). The passive voices ('has been given,' 'has been entrusted') point to God as the giver. The progression from 'required' (zētēthēsetai) to 'demanded' (aitēsousin) intensifies the expectation."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 49,
+      "text_greek": "Πῦρ ἦλθον βαλεῖν ἐπὶ τὴν γῆν, καὶ τί θέλω εἰ ἤδη ἀνήφθη.",
+      "text_kjv": "I am come to send fire on the earth; and what will I, if it be already kindled?",
+      "rendering": "\"I came to cast fire on the earth, and how I wish it were already kindled!",
+      "translator_notes": [
+        "This enigmatic saying is unique to Luke. The 'fire' (pyr) likely represents judgment, purification, or the crisis that Jesus's mission brings (cf. John the Baptist's prediction of fire-baptism, Luke 3:16). The phrase ti thelō ei ēdē anēphthē is debated — it could mean 'how I wish it were already burning!' (expressing eager anticipation) or 'what do I want, since it has already been kindled?' (acknowledging the process has begun). The former reading fits better with v. 50's longing."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 50,
+      "text_greek": "βάπτισμα δὲ ἔχω βαπτισθῆναι, καὶ πῶς συνέχομαι ἕως ὅτου τελεσθῇ.",
+      "text_kjv": "But I have a baptism to be baptized with; and how am I straitened till it be accomplished!",
+      "rendering": "I have a baptism to undergo, and how distressed I am until it is completed!",
+      "translator_notes": [
+        "The 'baptism' (baptisma) is a metaphor for his coming suffering and death — immersion in affliction (cf. Mark 10:38). The verb synechomai ('I am constrained, pressed, distressed') conveys intense inner pressure. The word telesthē ('be completed, be accomplished') echoes the cry from the cross: tetelestai ('it is finished,' John 19:30). Jesus experiences his approaching death not with resignation but with urgent tension — a desire for the crisis to come and be resolved."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 51,
+      "text_greek": "δοκεῖτε ὅτι εἰρήνην παρεγενόμην δοῦναι ἐν τῇ γῇ; οὐχί, λέγω ὑμῖν, ἀλλ' ἢ διαμερισμόν.",
+      "text_kjv": "Suppose ye that I am come to give peace on earth? I tell you, Nay; but rather division:",
+      "rendering": "Do you think I came to bring peace on earth? No, I tell you, but rather division!",
+      "translator_notes": [
+        "Luke has 'division' (diamerismon) where Matthew 10:34 has 'a sword.' The word diamerismon ('division, separation, dissension') is more precise — the result of Jesus's coming is the splitting of communities and families along the fault line of faith. This saying appears to contradict the angels' announcement of 'peace on earth' (2:14), but the point is that the peace Jesus ultimately brings first creates a crisis of decision that divides."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 52,
+      "text_greek": "ἔσονται γὰρ ἀπὸ τοῦ νῦν πέντε ἐν ἑνὶ οἴκῳ διαμεμερισμένοι, τρεῖς ἐπὶ δυσὶν καὶ δύο ἐπὶ τρισίν,",
+      "text_kjv": "For from henceforth there shall be five in one house divided, three against two, and two against three.",
+      "rendering": "For from now on, five in one household will be divided, three against two and two against three.",
+      "translator_notes": [
+        "The specific number five — an oddly precise detail — represents a typical household (parents, adult children, perhaps a grandparent or in-law). The uneven split (three versus two) means no neat halving — the division cuts irregularly through families, creating minority and majority factions within the same home."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 53,
+      "text_greek": "διαμερισθήσονται πατὴρ ἐπὶ υἱῷ καὶ υἱὸς ἐπὶ πατρί, μήτηρ ἐπὶ τὴν θυγατέρα καὶ θυγάτηρ ἐπὶ τὴν μητέρα, πενθερὰ ἐπὶ τὴν νύμφην αὐτῆς καὶ νύμφη ἐπὶ τὴν πενθεράν.",
+      "text_kjv": "The father shall be divided against the son, and the son against the father; the mother against the daughter, and the daughter against the mother; the mother in law against her daughter in law, and the daughter in law against her mother in law.",
+      "rendering": "Father will be divided against son and son against father, mother against daughter and daughter against mother, mother-in-law against her daughter-in-law and daughter-in-law against mother-in-law.\"",
+      "translator_notes": [
+        "The family relationships listed echo Micah 7:6, a prophetic text describing the breakdown of social order in the last days. Jesus applies this eschatological language to the present: the kingdom's arrival through his ministry is already creating the divisions that the prophets associated with the end times. The threefold pattern (father/son, mother/daughter, mother-in-law/daughter-in-law) covers three generations and both genders.",
+        "[TCR Cross-Reference] References Micah 7:6 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 54,
+      "text_greek": "Ἔλεγεν δὲ καὶ τοῖς ὄχλοις· Ὅταν ἴδητε τὴν νεφέλην ἀνατέλλουσαν ἐπὶ δυσμῶν, εὐθέως λέγετε ὅτι Ὄμβρος ἔρχεται, καὶ γίνεται οὕτως·",
+      "text_kjv": "And he said also to the people, When ye see a cloud rise out of the west, straightway ye say, There cometh a shower; and so it is.",
+      "rendering": "He also said to the crowds, \"When you see a cloud rising in the west, you immediately say, 'A rainstorm is coming,' and so it happens.",
+      "translator_notes": [
+        "The weather signs are geographically specific to Palestine: clouds from the west (from the Mediterranean Sea) bring rain. Jesus uses familiar meteorological knowledge to expose a deeper failure of perception. The adverb eutheōs ('immediately') emphasizes how quickly people can read weather signs — the contrast with their inability to read 'the present time' (v. 56) is the point."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 55,
+      "text_greek": "καὶ ὅταν νότον πνέοντα, λέγετε ὅτι Καύσων ἔσται, καὶ γίνεται.",
+      "text_kjv": "And when ye see the south wind blow, ye say, There will be heat; and it cometh to pass.",
+      "rendering": "And when the south wind blows, you say, 'It will be scorching hot,' and it happens.",
+      "translator_notes": [
+        "The south wind (noton) blew from the Negev desert and brought extreme heat (kausōn, 'burning heat, scorching wind'). These two weather patterns (western cloud = rain, southern wind = heat) were universally known in Palestine. The repeated kai ginetai ('and it happens') confirms their reliability as signs."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 56,
+      "text_greek": "ὑποκριταί, τὸ πρόσωπον τῆς γῆς καὶ τοῦ οὐρανοῦ οἴδατε δοκιμάζειν, τὸν καιρὸν δὲ τοῦτον πῶς οὐκ οἴδατε δοκιμάζειν;",
+      "text_kjv": "Ye hypocrites, ye can discern the face of the sky and of the earth; but how is it that ye do not discern this time?",
+      "rendering": "Hypocrites! You know how to interpret the appearance of the earth and sky, but why do you not know how to interpret the present time?",
+      "translator_notes": [
+        "The address 'hypocrites' (hypokritai) returns to the chapter's opening theme (v. 1). The word kairon ('time, opportune moment, season') is distinct from chronos (mere chronological time) — kairos refers to a decisive moment pregnant with significance. Jesus's ministry is the kairos: the kingdom is arriving, judgment is approaching, and the crowds are as oblivious as a farmer who cannot read clouds. The verb dokimazein ('to test, to interpret, to discern') means to evaluate evidence and draw conclusions."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 57,
+      "text_greek": "Τί δὲ καὶ ἀφ' ἑαυτῶν οὐ κρίνετε τὸ δίκαιον;",
+      "text_kjv": "Yea, and why even of yourselves judge ye not what is right?",
+      "rendering": "\"And why do you not judge for yourselves what is right?",
+      "translator_notes": [
+        "The phrase aph' heautōn ('from yourselves, on your own') implies that moral discernment should not require external prophetic signs — they have the capacity to judge what is right (to dikaion) if they would use it. This is a call to moral common sense, not just theological insight."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 58,
+      "text_greek": "ὡς γὰρ ὑπάγεις μετὰ τοῦ ἀντιδίκου σου ἐπ' ἄρχοντα, ἐν τῇ ὁδῷ δὸς ἐργασίαν ἀπηλλάχθαι ἀπ' αὐτοῦ, μήποτε κατασύρῃ σε πρὸς τὸν κριτήν, καὶ ὁ κριτής σε παραδώσει τῷ πράκτορι, καὶ ὁ πράκτωρ σε βαλεῖ εἰς φυλακήν.",
+      "text_kjv": "When thou goest with thine adversary to the magistrate, as thou art in the way, give diligence that thou mayest be delivered from him; lest he hale thee to the judge, and the judge deliver thee to the officer, and the officer cast thee into prison.",
+      "rendering": "For as you are going with your adversary to the magistrate, make an effort to settle with him on the way, or he may drag you before the judge, and the judge hand you over to the officer, and the officer throw you into prison.",
+      "translator_notes": [
+        "The parable functions as both practical legal advice and eschatological warning. The antidikos ('adversary, opponent in a lawsuit') represents those with claims against you. The phrase dos ergasian ('make an effort, do your best') urges proactive reconciliation before the matter reaches court. On the theological level: settle accounts before the final judgment, while there is still time. The chain of consequences (adversary → magistrate → judge → officer → prison) shows escalating severity that could have been avoided by early action."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 59,
+      "text_greek": "λέγω σοι, οὐ μὴ ἐξέλθῃς ἐκεῖθεν ἕως καὶ τὸ ἔσχατον λεπτὸν ἀποδῷς.",
+      "text_kjv": "I tell thee, thou shalt not depart thence, till thou hast paid the very last mite.",
+      "rendering": "I tell you, you will never get out until you have paid the very last penny.\"",
+      "translator_notes": [
+        "The lepton ('penny, mite') was the smallest coin in circulation — worth about one-128th of a denarius. The double negative ou mē ('absolutely not, never') makes the sentence emphatic: escape is impossible until every fraction of the debt is paid. The warning reinforces the urgency of v. 58: settle now, because the consequences of inaction are total and inescapable."
+      ],
+      "reading_level": "7th grade"
+    }
+  ]
+}

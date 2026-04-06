@@ -1,0 +1,557 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Mark",
+    "chapter": 1,
+    "source_text": "SBL Greek New Testament (SBLGNT)",
+    "reference_text": "KJV",
+    "generated_at": "2026-04-04T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Mark 1 opens with the ministry of John the Baptist in the wilderness, proclaiming a baptism of repentance and preparing the way for the one coming after him. Jesus arrives from Nazareth, is baptized by John, and the Spirit descends on him like a dove while a voice from heaven declares him God's beloved Son. The Spirit immediately drives Jesus into the wilderness for forty days of testing. After John's arrest, Jesus begins his public ministry in Galilee, announcing that the kingdom of God has drawn near. He calls his first disciples — Simon, Andrew, James, and John — then demonstrates his authority through exorcisms, healings, and teaching in Capernaum and throughout Galilee. The chapter culminates with Jesus healing a leper and being unable to enter towns openly because of the growing crowds.",
+    "remarkable": "Mark's Gospel begins without a birth narrative or genealogy, plunging directly into the action with John the Baptist. The word euthys ('immediately') appears repeatedly — a hallmark of Mark's urgent, fast-paced narrative style. The messianic secret theme emerges early: Jesus commands demons and the healed leper to remain silent about his identity. The opening verse may function as a title for the entire Gospel. Mark's Jesus is a man of decisive action who teaches with authority unlike the scribes, and whose identity the demons recognize even as humans struggle to comprehend it.",
+    "friction": "The opening quotation in verses 2-3 is attributed to 'Isaiah the prophet' but actually combines Malachi 3:1 and Isaiah 40:3. Some manuscripts read 'in the prophets' to avoid this difficulty, but the SBLGNT follows the harder reading. We render the Greek as given. The phrase 'Son of God' in verse 1 is absent from some early manuscripts (notably Sinaiticus); we include it following the SBLGNT. Mark's abrupt transitions and paratactic style ('and... and... and...') are smoothed slightly in English while preserving the narrative urgency.",
+    "connections": "The opening quotation from Isaiah 40:3 and Malachi 3:1 frames Jesus's arrival as the fulfillment of Israel's prophetic hope for God's return to his people. The wilderness setting evokes Israel's exodus experience. The Spirit's descent at baptism recalls Genesis 1:2 (the Spirit hovering over the waters). The forty days of testing parallel Israel's forty years in the wilderness and Moses's forty days on Sinai. Jesus's authority over unclean spirits and disease demonstrates the in-breaking of God's kingdom that he announces.\n\n**Tradition comparisons:** The Latin Vulgate shaped Western theology here: Paenitimini (repent/do penance) — Mark uses a different Latin form than Matthew's paenitentiam agite, but the same theological issue applies. Credite evangelio (believe the gospel) established the Lat... See the [Vulgate Mark](/vulgate/mark)."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_greek": "Ἀρχὴ τοῦ εὐαγγελίου Ἰησοῦ Χριστοῦ υἱοῦ θεοῦ.",
+      "text_kjv": "The beginning of the gospel of Jesus Christ, the Son of God;",
+      "rendering": "The beginning of the good news of Jesus Christ, the Son of God.",
+      "translator_notes": [
+        "The Greek euangelion ('good news, gospel') was not originally a religious term — in the Roman world it referred to imperial proclamations, especially announcements of military victory or a new emperor's accession. Mark's use of it for Jesus is a counter-imperial claim. The phrase may function as a title for the entire book rather than the first sentence of a narrative.",
+        "The phrase 'Son of God' (huiou theou) is absent from Codex Sinaiticus and a few other witnesses, but the SBLGNT includes it. If original, it frames the entire Gospel with a christological declaration that the narrative will progressively unfold."
+      ],
+      "key_terms": [
+        {
+          "greek": "εὐαγγέλιον",
+          "transliteration": "euangelion",
+          "rendered_as": "good news",
+          "semantic_range": "good news, glad tidings, gospel, proclamation of victory",
+          "note": "Rendered as 'good news' rather than the traditional 'gospel' to recover the word's original force. In the Septuagint, the related verb euangelizō translates the Hebrew basar ('to bring good tidings'), especially in Isaiah 40:9 and 52:7."
+        },
+        {
+          "greek": "Χριστός",
+          "transliteration": "Christos",
+          "rendered_as": "Christ",
+          "semantic_range": "anointed one, Messiah",
+          "note": "Greek translation of Hebrew mashiach. Here it functions as a title — 'Jesus the Anointed One' — rather than a surname."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 2,
+      "text_greek": "καθὼς γέγραπται ἐν τῷ Ἠσαΐᾳ τῷ προφήτῃ· ἰδοὺ ἀποστέλλω τὸν ἄγγελόν μου πρὸ προσώπου σου, ὃς κατασκευάσει τὴν ὁδόν σου·",
+      "text_kjv": "As it is written in the prophets, Behold, I send my messenger before thy face, which shall prepare thy way before thee.",
+      "rendering": "As it is written in Isaiah the prophet: \"Look, I am sending my messenger ahead of you, who will prepare your way.\"",
+      "translator_notes": [
+        "This verse actually quotes Malachi 3:1 (combined with Exodus 23:20), not Isaiah. The Isaiah quotation comes in verse 3. Mark attributes the composite quotation to Isaiah, likely because Isaiah was the more prominent prophet and the primary source. Some later manuscripts changed 'Isaiah the prophet' to 'the prophets' to resolve the difficulty, but the SBLGNT preserves the harder reading.",
+        "The Greek angelos ('messenger') is the same word used for 'angel.' Here it refers to John the Baptist as God's human messenger.",
+        "[TCR Cross-Reference] Draws on Malachi 3:1. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices.",
+        "[TCR Cross-Reference] Draws on Exodus 23:20. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 3,
+      "text_greek": "φωνὴ βοῶντος ἐν τῇ ἐρήμῳ· ἑτοιμάσατε τὴν ὁδὸν κυρίου, εὐθείας ποιεῖτε τὰς τρίβους αὐτοῦ,",
+      "text_kjv": "The voice of one crying in the wilderness, Prepare ye the way of the Lord, make his paths straight.",
+      "rendering": "\"A voice crying out in the wilderness: 'Prepare the way of the Lord, make his paths straight.'\"",
+      "translator_notes": [
+        "This quotes Isaiah 40:3 from the Septuagint. In the Hebrew original, the phrase division is 'A voice cries out: In the wilderness prepare the way of the LORD' — the wilderness is where the road is built, not where the voice cries. The Septuagint and Mark connect 'in the wilderness' with the voice, which conveniently describes John's actual location. The Greek euthys ('straight') here is an adjective, different from the adverb euthys ('immediately') that will become Mark's signature word.",
+        "[TCR Cross-Reference] References Isaiah 40:3 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 4,
+      "text_greek": "ἐγένετο Ἰωάννης ὁ βαπτίζων ἐν τῇ ἐρήμῳ καὶ κηρύσσων βάπτισμα μετανοίας εἰς ἄφεσιν ἁμαρτιῶν.",
+      "text_kjv": "John did baptize in the wilderness, and preach the baptism of repentance for the remission of sins.",
+      "rendering": "John appeared, baptizing in the wilderness and proclaiming a baptism of repentance for the forgiveness of sins.",
+      "translator_notes": [
+        "The Greek egeneto Iōannēs ho baptizōn ('there appeared John the one baptizing') introduces John as a figure bursting onto the scene. Mark uses his characteristic participial style. The word metanoia ('repentance') means a fundamental change of mind and direction, corresponding to the Hebrew teshuvah ('return'). Aphesis hamartōn ('forgiveness/release of sins') uses aphesis, which carries the sense of release or liberation — as in releasing a prisoner or canceling a debt."
+      ],
+      "key_terms": [
+        {
+          "greek": "μετάνοια",
+          "transliteration": "metanoia",
+          "rendered_as": "repentance",
+          "semantic_range": "change of mind, repentance, turning around, conversion",
+          "note": "More than regret — metanoia implies a complete reorientation of life. It corresponds to the Hebrew teshuvah, which conveys returning to God after wandering away."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 5,
+      "text_greek": "καὶ ἐξεπορεύετο πρὸς αὐτὸν πᾶσα ἡ Ἰουδαία χώρα καὶ οἱ Ἱεροσολυμῖται πάντες, καὶ ἐβαπτίζοντο ὑπ' αὐτοῦ ἐν τῷ Ἰορδάνῃ ποταμῷ ἐξομολογούμενοι τὰς ἁμαρτίας αὐτῶν.",
+      "text_kjv": "And there went out unto him all the land of Judaea, and they of Jerusalem, and were all baptized of him in the river of Jordan, confessing their sins.",
+      "rendering": "The whole Judean countryside and all the people of Jerusalem went out to him, and they were baptized by him in the Jordan River, confessing their sins.",
+      "translator_notes": [
+        "The 'all' (pasa, pantes) is hyperbolic, a common Semitic literary device emphasizing the magnitude of the response. The imperfect tenses (exeporeueto, ebaptizonto) indicate ongoing, repeated action — the crowds kept coming and kept being baptized. Exomologoumenoi ('confessing') is a present participle indicating that confession accompanied the act of baptism."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 6,
+      "text_greek": "καὶ ἦν ὁ Ἰωάννης ἐνδεδυμένος τρίχας καμήλου καὶ ζώνην δερματίνην περὶ τὴν ὀσφὺν αὐτοῦ, καὶ ἐσθίων ἀκρίδας καὶ μέλι ἄγριον.",
+      "text_kjv": "And John was clothed with camel's hair, and with a girdle of a skin about his loins; and he did eat locusts and wild honey;",
+      "rendering": "Now John wore clothing made of camel's hair with a leather belt around his waist, and he ate locusts and wild honey.",
+      "translator_notes": [
+        "John's appearance deliberately echoes Elijah's description in 2 Kings 1:8 ('a man wearing a garment of hair with a leather belt around his waist'). Mark presents John as the returning Elijah prophesied in Malachi 4:5, a connection Jesus makes explicit later (9:13). Locusts were a permissible food under Levitical law (Leviticus 11:22) and remain part of the diet in some regions of the Middle East today.",
+        "[TCR Cross-Reference] Quotes 2 Kings 1:8. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it.",
+        "[TCR Cross-Reference] Quotes Malachi 4:5. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it.",
+        "[TCR Cross-Reference] Quotes Leviticus 11:22. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 7,
+      "text_greek": "καὶ ἐκήρυσσεν λέγων· ἔρχεται ὁ ἰσχυρότερός μου ὀπίσω μου, οὗ οὐκ εἰμὶ ἱκανὸς κύψας λῦσαι τὸν ἱμάντα τῶν ὑποδημάτων αὐτοῦ.",
+      "text_kjv": "And preached, saying, There cometh one mightier than I after me, the latchet of whose shoes I am not worthy to stoop down and unloose.",
+      "rendering": "He proclaimed, \"One who is more powerful than I is coming after me. I am not worthy to stoop down and untie the strap of his sandals.",
+      "translator_notes": [
+        "Untying sandals was a task considered too menial even for a Hebrew slave — a rabbinic tradition held that a disciple must do everything for his teacher except remove his sandals. John claims he is not even worthy of the task that was beneath a slave. The comparative ischyroteros ('more powerful') is emphatic — John is not describing a slight superiority but an incomparable difference in status and power."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 8,
+      "text_greek": "ἐγὼ ἐβάπτισα ὑμᾶς ὕδατι, αὐτὸς δὲ βαπτίσει ὑμᾶς ἐν πνεύματι ἁγίῳ.",
+      "text_kjv": "I indeed have baptized you with water: but he shall baptize you with the Holy Ghost.",
+      "rendering": "I have baptized you with water, but he will baptize you with the Holy Spirit.\"",
+      "translator_notes": [
+        "The contrast between water and Spirit baptism is stark. The pronoun ego ('I') and autos ('he') are both emphatic in Greek, creating a sharp personal contrast. Mark omits 'and fire' found in Matthew 3:11 and Luke 3:16, focusing solely on the Spirit. The verb baptizō literally means 'to immerse, to dip' — the Spirit baptism implies being immersed in God's Spirit."
+      ],
+      "key_terms": [
+        {
+          "greek": "πνεῦμα ἅγιον",
+          "transliteration": "pneuma hagion",
+          "rendered_as": "Holy Spirit",
+          "semantic_range": "spirit, wind, breath; when modified by hagion: the Holy Spirit, God's Spirit",
+          "note": "Corresponds to the Hebrew ruach ha-qodesh. Mark uses the anarthrous form (without the article), which is common in the Synoptics for the Spirit as divine power or presence."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 9,
+      "text_greek": "Καὶ ἐγένετο ἐν ἐκείναις ταῖς ἡμέραις ἦλθεν Ἰησοῦς ἀπὸ Ναζαρὲτ τῆς Γαλιλαίας καὶ ἐβαπτίσθη εἰς τὸν Ἰορδάνην ὑπὸ Ἰωάννου.",
+      "text_kjv": "And it came to pass in those days, that Jesus came from Nazareth of Galilee, and was baptized of John in Jordan.",
+      "rendering": "In those days, Jesus came from Nazareth in Galilee and was baptized by John in the Jordan.",
+      "translator_notes": [
+        "Mark introduces Jesus abruptly — no birth narrative, no genealogy, no childhood. He simply arrives from the obscure village of Nazareth. The phrase en ekeinais tais hēmerais ('in those days') is a general temporal marker connecting Jesus's appearance to John's ministry. The preposition eis ('into') with the Jordan may suggest full immersion, though the preposition alone is not conclusive."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 10,
+      "text_greek": "καὶ εὐθὺς ἀναβαίνων ἐκ τοῦ ὕδατος εἶδεν σχιζομένους τοὺς οὐρανοὺς καὶ τὸ πνεῦμα ὡς περιστερὰν καταβαῖνον εἰς αὐτόν·",
+      "text_kjv": "And straightway coming up out of the water, he saw the heavens opened, and the Spirit like a dove descending upon him:",
+      "rendering": "Immediately, as he came up out of the water, he saw the heavens being torn open and the Spirit descending on him like a dove.",
+      "translator_notes": [
+        "This is the first occurrence of Mark's characteristic euthys ('immediately, at once'), which appears over forty times in this Gospel, creating a sense of urgency and rapid action. The Greek schizomenous ('being torn, split') is much more violent than 'opened' — it is the same root used for the tearing of the temple curtain at Jesus's death (15:38). Mark depicts not a gentle opening but a forceful rending of the barrier between heaven and earth. The vision is described as Jesus's experience — 'he saw' (eiden) — making it a personal revelation rather than a public spectacle in Mark's account."
+      ],
+      "key_terms": [
+        {
+          "greek": "εὐθύς",
+          "transliteration": "euthys",
+          "rendered_as": "immediately",
+          "semantic_range": "immediately, at once, right away, straightway",
+          "note": "Mark's signature word, appearing over forty times in this Gospel. It drives the narrative forward with breathless urgency, reflecting Mark's fast-paced storytelling style."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 11,
+      "text_greek": "καὶ φωνὴ ἐγένετο ἐκ τῶν οὐρανῶν· σὺ εἶ ὁ υἱός μου ὁ ἀγαπητός, ἐν σοὶ εὐδόκησα.",
+      "text_kjv": "And there came a voice from heaven, saying, Thou art my beloved Son, in whom I am well pleased.",
+      "rendering": "And a voice came from heaven: \"You are my beloved Son; with you I am well pleased.\"",
+      "translator_notes": [
+        "Mark's version addresses Jesus directly ('You are') rather than speaking about him in the third person ('This is') as in Matthew 3:17. The declaration combines Psalm 2:7 ('You are my Son') — a royal enthronement psalm — with Isaiah 42:1 ('my chosen one, in whom my soul delights') — the first Servant Song. Jesus is thus identified simultaneously as the Davidic king and the Suffering Servant, two strands that Mark's Gospel will weave together throughout. The Greek agapētos ('beloved') may also carry the sense of 'only' or 'unique,' echoing Genesis 22:2 where Isaac is called Abraham's 'beloved son.'",
+        "[TCR Cross-Reference] Quotes Psalm 2:7. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it.",
+        "[TCR Cross-Reference] Quotes Isaiah 42:1. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it.",
+        "[TCR Cross-Reference] Quotes Genesis 22:2. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 12,
+      "text_greek": "Καὶ εὐθὺς τὸ πνεῦμα αὐτὸν ἐκβάλλει εἰς τὴν ἔρημον.",
+      "text_kjv": "And immediately the Spirit driveth him into the wilderness.",
+      "rendering": "Immediately the Spirit drove him out into the wilderness.",
+      "translator_notes": [
+        "The verb ekballei ('drives out, casts out, expels') is startlingly forceful — it is the same word Mark uses for casting out demons. The Spirit does not lead or guide Jesus into the wilderness; he is thrust there. Mark's use of the historical present tense (ekballei rather than the aorist) makes the action vivid and immediate. The wilderness (erēmos) connects to the wilderness motifs of Exodus and Isaiah 40.",
+        "[TCR Cross-Reference] Draws on Isaiah 40. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 13,
+      "text_greek": "καὶ ἦν ἐν τῇ ἐρήμῳ τεσσεράκοντα ἡμέρας πειραζόμενος ὑπὸ τοῦ σατανᾶ, καὶ ἦν μετὰ τῶν θηρίων, καὶ οἱ ἄγγελοι διηκόνουν αὐτῷ.",
+      "text_kjv": "And he was there in the wilderness forty days, tempted of Satan; and was with the wild beasts; and the angels ministered unto him.",
+      "rendering": "He was in the wilderness forty days, being tested by Satan. He was with the wild animals, and the angels were serving him.",
+      "translator_notes": [
+        "Mark compresses what Matthew and Luke expand into three specific temptations into a single, vivid summary. The 'forty days' echoes Israel's forty years in the wilderness (Deuteronomy 8:2), Moses's forty days on Sinai (Exodus 34:28), and Elijah's forty-day journey to Horeb (1 Kings 19:8). The detail about wild animals (thēriōn) is unique to Mark and may evoke either danger or the Edenic peace of Isaiah 11:6-9 where the messianic figure restores harmony with the animal kingdom. The Greek peirazomenos can mean 'tempted' or 'tested' — we use 'tested' to capture the broader sense of being put to the proof.",
+        "[TCR Cross-Reference] References Deuteronomy 8:2 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved.",
+        "[TCR Cross-Reference] References Exodus 34:28 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved.",
+        "[TCR Cross-Reference] References 1 Kings 19:8 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved.",
+        "[TCR Cross-Reference] References Isaiah 11:6-9 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 14,
+      "text_greek": "Μετὰ δὲ τὸ παραδοθῆναι τὸν Ἰωάννην ἦλθεν ὁ Ἰησοῦς εἰς τὴν Γαλιλαίαν κηρύσσων τὸ εὐαγγέλιον τοῦ θεοῦ",
+      "text_kjv": "Now after that John was put in prison, Jesus came into Galilee, preaching the gospel of the kingdom of God,",
+      "rendering": "After John was arrested, Jesus came into Galilee proclaiming the good news of God,",
+      "translator_notes": [
+        "The Greek paradothēnai ('to be handed over, arrested') is the same verb used later for Jesus's own betrayal and arrest (14:10, 41). Mark subtly foreshadows that the fate of the forerunner will become the fate of the one he announced. The phrase 'good news of God' (euangelion tou theou) means the good news that comes from God, about God, or both — the genitive is intentionally ambiguous."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 15,
+      "text_greek": "καὶ λέγων ὅτι πεπλήρωται ὁ καιρὸς καὶ ἤγγικεν ἡ βασιλεία τοῦ θεοῦ· μετανοεῖτε καὶ πιστεύετε ἐν τῷ εὐαγγελίῳ.",
+      "text_kjv": "And saying, The time is fulfilled, and the kingdom of God is at hand; repent ye, and believe the gospel.",
+      "rendering": "Saying, The time is fulfilled, and God's kingdom is drawing near. Repent you, and believe the gospel.",
+      "translator_notes": [
+        "The Greek kairos ('time') denotes an appointed or decisive moment, distinct from chronos (ordinary sequential time). The perfect tense peplērōtai ('has been fulfilled') indicates a completed action with ongoing significance — the decisive moment has arrived and remains in effect. The perfect tense ēngiken ('has drawn near') similarly indicates that the kingdom has arrived at the threshold and remains there. The two imperatives — metanoeite ('repent') and pisteuete ('believe') — form the twofold human response to the kingdom's arrival."
+      ],
+      "key_terms": [
+        {
+          "greek": "βασιλεία τοῦ θεοῦ",
+          "transliteration": "basileia tou theou",
+          "rendered_as": "kingdom of God",
+          "semantic_range": "kingdom, reign, royal rule, sovereign domain of God",
+          "note": "Mark consistently uses 'kingdom of God' rather than Matthew's 'kingdom of heaven.' The basileia is not primarily a territory but God's active reign — his sovereign authority breaking into the present age."
+        },
+        {
+          "greek": "καιρός",
+          "transliteration": "kairos",
+          "rendered_as": "time",
+          "semantic_range": "appointed time, opportune moment, season, decisive time",
+          "note": "Not mere clock time (chronos) but the divinely appointed moment when God's plan reaches its critical turning point."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 16,
+      "text_greek": "Καὶ παράγων παρὰ τὴν θάλασσαν τῆς Γαλιλαίας εἶδεν Σίμωνα καὶ Ἀνδρέαν τὸν ἀδελφὸν Σίμωνος ἀμφιβάλλοντας ἐν τῇ θαλάσσῃ· ἦσαν γὰρ ἁλιεῖς.",
+      "text_kjv": "Now as he walked by the sea of Galilee, he saw Simon and Andrew his brother casting a net into the sea: for they were fishers.",
+      "rendering": "As he passed along the Sea of Galilee, he saw Simon and his brother Andrew casting a net into the sea, for they were fishermen.",
+      "translator_notes": [
+        "The Greek thalassa ('sea') is technically a lake (Lake Gennesaret/Kinneret), but the Gospels consistently call it a 'sea,' which reflects local usage. The verb amphiballontas ('casting a net') is a technical fishing term — casting a circular hand net. Mark introduces Simon without explanation, suggesting his audience already knew who Simon Peter was."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 17,
+      "text_greek": "καὶ εἶπεν αὐτοῖς ὁ Ἰησοῦς· δεῦτε ὀπίσω μου, καὶ ποιήσω ὑμᾶς γενέσθαι ἁλιεῖς ἀνθρώπων.",
+      "text_kjv": "And Jesus said unto them, Come ye after me, and I will make you to become fishers of men.",
+      "rendering": "Jesus said to them, \"Come, follow me, and I will make you fishers of people.\"",
+      "translator_notes": [
+        "The call narrative is remarkably brief — no prior conversation, no credentials, no negotiation. The metaphor 'fishers of people' (halieis anthrōpōn) draws on their existing vocation but transforms it. The plural anthrōpōn ('of people') is rendered inclusively rather than with the gendered 'of men,' since the Greek anthrōpos refers to human beings generally."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 18,
+      "text_greek": "καὶ εὐθὺς ἀφέντες τὰ δίκτυα ἠκολούθησαν αὐτῷ.",
+      "text_kjv": "And straightway they forsook their nets, and followed him.",
+      "rendering": "Immediately they left their nets and followed him.",
+      "translator_notes": [
+        "The word euthys ('immediately') again emphasizes the instantaneous nature of the response. The verb aphentes ('leaving, abandoning') conveys a decisive break. The aorist tense ēkolouthēsan ('followed') marks the beginning of a new course of life. The cost of discipleship is implicit — nets represent livelihood, investment, and family trade."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 19,
+      "text_greek": "Καὶ προβὰς ὀλίγον εἶδεν Ἰάκωβον τὸν τοῦ Ζεβεδαίου καὶ Ἰωάννην τὸν ἀδελφὸν αὐτοῦ, καὶ αὐτοὺς ἐν τῷ πλοίῳ καταρτίζοντας τὰ δίκτυα.",
+      "text_kjv": "And when he had gone a little further thence, he saw James the son of Zebedee, and John his brother, who also were in the ship mending their nets.",
+      "rendering": "Going on a little farther, he saw James the son of Zebedee and his brother John in their boat mending their nets.",
+      "translator_notes": [
+        "The verb katartizontas ('mending, preparing, making ready') suggests the brothers were repairing or preparing their nets for the next fishing trip — they were in the middle of their workday. James is named before John, likely indicating he was the elder brother."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 20,
+      "text_greek": "καὶ εὐθὺς ἐκάλεσεν αὐτούς. καὶ ἀφέντες τὸν πατέρα αὐτῶν Ζεβεδαῖον ἐν τῷ πλοίῳ μετὰ τῶν μισθωτῶν ἀπῆλθον ὀπίσω αὐτοῦ.",
+      "text_kjv": "And straightway he called them: and they left their father Zebedee in the ship with the hired servants, and went after him.",
+      "rendering": "Immediately he called them, and they left their father Zebedee in the boat with the hired workers and went after him.",
+      "translator_notes": [
+        "Again euthys ('immediately') underscores the urgency of Jesus's call and the decisiveness of the response. The mention of hired workers (misthōtōn) is unique to Mark and indicates that Zebedee's fishing business was substantial enough to employ laborers — James and John were not destitute. Their leaving is therefore a sacrifice of relative comfort, not desperation."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 21,
+      "text_greek": "Καὶ εἰσπορεύονται εἰς Καφαρναούμ· καὶ εὐθὺς τοῖς σάββασιν εἰσελθὼν εἰς τὴν συναγωγὴν ἐδίδασκεν.",
+      "text_kjv": "And they went into Capernaum; and straightway on the sabbath day he entered into the synagogue, and taught.",
+      "rendering": "They went to Capernaum, and immediately on the Sabbath he entered the synagogue and began teaching.",
+      "translator_notes": [
+        "Mark shifts to the historical present tense (eisporeuontai, 'they enter') for vivid narration, then back to the aorist. Capernaum (Kfar Nahum, 'village of Nahum') served as Jesus's base of operations in Galilee. The imperfect edidasken ('he was teaching') indicates ongoing or repeated action — he taught at length, not just a brief remark."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 22,
+      "text_greek": "καὶ ἐξεπλήσσοντο ἐπὶ τῇ διδαχῇ αὐτοῦ· ἦν γὰρ διδάσκων αὐτοὺς ὡς ἐξουσίαν ἔχων καὶ οὐχ ὡς οἱ γραμματεῖς.",
+      "text_kjv": "And they were astonished at his doctrine: for he taught them as one that had authority, and not as the scribes.",
+      "rendering": "They were astonished at his teaching, for he was teaching them as one who had authority, and not as the scribes.",
+      "translator_notes": [
+        "The Greek exeplēssonto ('were astonished, were struck out of their senses') is stronger than mild surprise — it conveys being overwhelmed or stunned. The scribes typically taught by citing prior rabbinic authorities ('Rabbi Hillel says... Rabbi Shammai says...'). Jesus taught on his own authority, without appealing to tradition. The noun exousia ('authority, power, right') implies both the right to speak and the power behind the words."
+      ],
+      "key_terms": [
+        {
+          "greek": "ἐξουσία",
+          "transliteration": "exousia",
+          "rendered_as": "authority",
+          "semantic_range": "authority, power, right, jurisdiction, freedom",
+          "note": "Distinct from dynamis (raw power). Exousia implies legitimate, recognized authority — the right to command. Jesus's authority astonishes because it is self-derived, not mediated through scribal tradition."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 23,
+      "text_greek": "καὶ εὐθὺς ἦν ἐν τῇ συναγωγῇ αὐτῶν ἄνθρωπος ἐν πνεύματι ἀκαθάρτῳ, καὶ ἀνέκραξεν",
+      "text_kjv": "And there was in their synagogue a man with an unclean spirit; and he cried out,",
+      "rendering": "Immediately there was in their synagogue a man with an unclean spirit, and he cried out,",
+      "translator_notes": [
+        "The phrase 'in an unclean spirit' (en pneumati akathartō) describes the man as being under the spirit's domination — literally 'in' its sphere of influence. The unclean spirit's presence in the synagogue is jarring — the place of worship is invaded by the impure. Mark's use of euthys here connects the teaching about authority directly to the demonstration of that authority."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 24,
+      "text_greek": "λέγων· τί ἡμῖν καὶ σοί, Ἰησοῦ Ναζαρηνέ; ἦλθες ἀπολέσαι ἡμᾶς; οἶδά σε τίς εἶ, ὁ ἅγιος τοῦ θεοῦ.",
+      "text_kjv": "Saying, Let us alone; what have we to do with thee, thou Jesus of Nazareth? art thou come to destroy us? I know thee who thou art, the Holy One of God.",
+      "rendering": "\"What do you want with us, Jesus of Nazareth? Have you come to destroy us? I know who you are — the Holy One of God!\"",
+      "translator_notes": [
+        "The phrase ti hēmin kai soi ('what to us and to you?') is a Semitic idiom meaning 'what business do we have with each other?' or 'leave us alone.' The spirit alternates between plural ('us') and singular ('I know'), perhaps speaking for the entire demonic realm. The title 'Holy One of God' (ho hagios tou theou) demonstrates supernatural knowledge of Jesus's identity — a key element in Mark's messianic secret theme. The spirit's recognition contrasts sharply with human incomprehension throughout the Gospel."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 25,
+      "text_greek": "καὶ ἐπετίμησεν αὐτῷ ὁ Ἰησοῦς λέγων· φιμώθητι καὶ ἔξελθε ἐξ αὐτοῦ.",
+      "text_kjv": "And Jesus rebuked him, saying, Hold thy peace, and come out of him.",
+      "rendering": "Jesus rebuked it, saying, \"Be silent and come out of him!\"",
+      "translator_notes": [
+        "The verb epetimēsen ('rebuked') carries the force of a commanding reprimand. The imperative phimōthēti ('be muzzled, be silenced') is vivid — literally 'be muzzled' as one would muzzle an animal. Jesus's first miracle in Mark is an exorcism, establishing that his ministry is fundamentally a conflict with evil powers. The command to silence is the first instance of the messianic secret — Jesus does not want his identity proclaimed by demons."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 26,
+      "text_greek": "καὶ σπαράξαν αὐτὸν τὸ πνεῦμα τὸ ἀκάθαρτον καὶ φωνῆσαν φωνῇ μεγάλῃ ἐξῆλθεν ἐξ αὐτοῦ.",
+      "text_kjv": "And when the unclean spirit had torn him, and cried with a loud voice, he came out of him.",
+      "rendering": "The unclean spirit convulsed the man, screamed with a loud voice, and came out of him.",
+      "translator_notes": [
+        "The verb sparaxan ('convulsed, tore at, threw into spasms') describes violent physical distress. The spirit's departure is not quiet or easy — it is violent and loud, demonstrating both the spirit's malice and Jesus's superior power. Despite the spirit's resistance, it cannot disobey Jesus's command."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 27,
+      "text_greek": "καὶ ἐθαμβήθησαν ἅπαντες, ὥστε συζητεῖν πρὸς ἑαυτοὺς λέγοντας· τί ἐστιν τοῦτο; διδαχὴ καινὴ κατ' ἐξουσίαν· καὶ τοῖς πνεύμασι τοῖς ἀκαθάρτοις ἐπιτάσσει, καὶ ὑπακούουσιν αὐτῷ.",
+      "text_kjv": "And they were all amazed, insomuch that they questioned among themselves, saying, What thing is this? what new doctrine is this? for with authority commandeth he even the unclean spirits, and they do obey him.",
+      "rendering": "They were all amazed, so that they debated among themselves, saying, \"What is this? A new teaching with authority! He commands even the unclean spirits, and they obey him.\"",
+      "translator_notes": [
+        "The Greek ethambēthēsan ('were amazed, alarmed, astonished') conveys not just wonder but a sense of alarm or awe — something unsettling has happened. The crowd links Jesus's teaching and his exorcism as two expressions of the same authority (exousia). The adjective kainē ('new') can mean new in kind (qualitatively unprecedented) rather than merely new in time — this is teaching unlike anything they have encountered."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 28,
+      "text_greek": "καὶ ἐξῆλθεν ἡ ἀκοὴ αὐτοῦ εὐθὺς πανταχοῦ εἰς ὅλην τὴν περίχωρον τῆς Γαλιλαίας.",
+      "text_kjv": "And immediately his fame spread abroad throughout all the region round about Galilee.",
+      "rendering": "Immediately the news about him spread everywhere throughout the whole surrounding region of Galilee.",
+      "translator_notes": [
+        "The Greek akoē ('report, news, fame, what is heard') literally means 'the hearing' — what people were saying and hearing about Jesus. Again euthys ('immediately') drives the narrative forward. The geographic scope — 'the whole surrounding region of Galilee' — shows how rapidly Jesus's reputation expanded."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 29,
+      "text_greek": "Καὶ εὐθὺς ἐκ τῆς συναγωγῆς ἐξελθόντες ἦλθον εἰς τὴν οἰκίαν Σίμωνος καὶ Ἀνδρέου μετὰ Ἰακώβου καὶ Ἰωάννου.",
+      "text_kjv": "And forthwith, when they were come out of the synagogue, they entered into the house of Simon and Andrew, with James and John.",
+      "rendering": "Immediately after leaving the synagogue, they went to the house of Simon and Andrew, along with James and John.",
+      "translator_notes": [
+        "Again euthys marks the rapid transition. The four disciples just called now accompany Jesus. The house of Simon and Andrew in Capernaum becomes a base of operations. Archaeological excavations at Capernaum have identified a first-century house beneath the later 'Church of St. Peter' that tradition associates with this location."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 30,
+      "text_greek": "ἡ δὲ πενθερὰ Σίμωνος κατέκειτο πυρέσσουσα, καὶ εὐθὺς λέγουσιν αὐτῷ περὶ αὐτῆς.",
+      "text_kjv": "But Simon's wife's mother lay sick of a fever, and anon they tell him of her.",
+      "rendering": "Simon's mother-in-law was lying ill with a fever, and immediately they told him about her.",
+      "translator_notes": [
+        "The detail that Simon had a mother-in-law presupposes he was married, a detail Paul confirms in 1 Corinthians 9:5. The verb katekeito ('was lying down') indicates she was bedridden. The impersonal 'they told him' reflects Mark's characteristic vagueness about who exactly is speaking."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 31,
+      "text_greek": "καὶ προσελθὼν ἤγειρεν αὐτὴν κρατήσας τῆς χειρός· καὶ ἀφῆκεν αὐτὴν ὁ πυρετός, καὶ διηκόνει αὐτοῖς.",
+      "text_kjv": "And he came and took her by the hand, and lifted her up; and immediately the fever left her, and she ministered unto them.",
+      "rendering": "He went to her, took her by the hand, and raised her up. The fever left her, and she began serving them.",
+      "translator_notes": [
+        "The verb ēgeiren ('raised') is the same verb used for resurrection throughout the New Testament. Mark may intend a double meaning — Jesus 'raises' Simon's mother-in-law from her sickbed, foreshadowing the greater raising to come. The verb diēkonei ('she was serving') uses the root from which 'deacon' comes; her immediate service demonstrates both complete healing and a model of discipleship as responsive service."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 32,
+      "text_greek": "Ὀψίας δὲ γενομένης, ὅτε ἔδυ ὁ ἥλιος, ἔφερον πρὸς αὐτὸν πάντας τοὺς κακῶς ἔχοντας καὶ τοὺς δαιμονιζομένους·",
+      "text_kjv": "And at even, when the sun did set, they brought unto him all that were diseased, and them that were possessed with devils.",
+      "rendering": "That evening, after the sun had set, they brought to him all who were sick and those who were demon-possessed.",
+      "translator_notes": [
+        "The double time reference — 'evening' and 'after the sun had set' — is significant: the Sabbath ended at sundown, and only then could people carry the sick without violating Sabbath law. Mark shows the community's eagerness by noting they came as soon as they legally could. The distinction between those who are 'sick' (kakōs echontas, 'having it badly') and 'demon-possessed' (daimonizomenous) maintains two categories of affliction."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 33,
+      "text_greek": "καὶ ἦν ὅλη ἡ πόλις ἐπισυνηγμένη πρὸς τὴν θύραν.",
+      "text_kjv": "And all the city was gathered together at the door.",
+      "rendering": "The whole town was gathered at the door.",
+      "translator_notes": [
+        "Another Markan hyperbole — 'the whole town' (holē hē polis) creates a vivid image of the entire community crowding around the doorway of Simon's house. The periphrastic construction (ēn episynēgmenē) emphasizes the state of being gathered rather than the act of gathering — they were assembled and waiting."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 34,
+      "text_greek": "καὶ ἐθεράπευσεν πολλοὺς κακῶς ἔχοντας ποικίλαις νόσοις, καὶ δαιμόνια πολλὰ ἐξέβαλεν, καὶ οὐκ ἤφιεν λαλεῖν τὰ δαιμόνια, ὅτι ᾔδεισαν αὐτόν.",
+      "text_kjv": "And he healed many that were sick of divers diseases, and cast out many devils; and suffered not the devils to speak, because they knew him.",
+      "rendering": "He healed many who were sick with various diseases and cast out many demons, and he would not allow the demons to speak, because they knew him.",
+      "translator_notes": [
+        "The shift from 'all' (v. 32) to 'many' (pollous) has been debated — does Mark mean he healed many but not all? More likely 'many' simply describes the large number healed from the large crowd brought. The silencing of demons (ouk ēphien lalein, 'he was not allowing them to speak') continues the messianic secret motif. The reason given — 'because they knew him' (hoti ēdeisan auton) — confirms that the demons possess supernatural knowledge of Jesus's identity that Jesus does not want publicly proclaimed at this stage."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 35,
+      "text_greek": "Καὶ πρωῒ ἔννυχα λίαν ἀναστὰς ἐξῆλθεν καὶ ἀπῆλθεν εἰς ἔρημον τόπον κἀκεῖ προσηύχετο.",
+      "text_kjv": "And in the morning, rising up a great while before day, he went out, and departed into a solitary place, and there prayed.",
+      "rendering": "Very early in the morning, while it was still dark, he got up, went out, and withdrew to a deserted place, and there he was praying.",
+      "translator_notes": [
+        "The piling up of temporal markers — prōi ('early morning'), ennycha ('while still night'), lian ('very') — emphasizes just how early Jesus rose. After the intense demands of the previous day, Jesus seeks solitude for prayer. Mark records Jesus praying at three key moments: here, at Gethsemane (14:32-42), and possibly by implication at other points. The imperfect prosēucheto ('he was praying') indicates extended, ongoing prayer, not a brief petition."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 36,
+      "text_greek": "καὶ κατεδίωξεν αὐτὸν Σίμων καὶ οἱ μετ' αὐτοῦ,",
+      "text_kjv": "And Simon and they that were with him followed after him.",
+      "rendering": "Simon and those with him searched for him,",
+      "translator_notes": [
+        "The verb katediōxen ('pursued, hunted down, tracked') is much stronger than 'followed' — it implies an urgent, determined search. The KJV's 'followed after' is too gentle. Simon takes the initiative, already emerging as the leader and spokesman of the group."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 37,
+      "text_greek": "καὶ εὗρον αὐτὸν καὶ λέγουσιν αὐτῷ ὅτι πάντες ζητοῦσίν σε.",
+      "text_kjv": "And when they had found him, they said unto him, All men seek for thee.",
+      "rendering": "After they had found him, they stated to him, All men seek for you.",
+      "translator_notes": [
+        "The disciples' report — 'everyone is looking for you' (pantes zētousin se) — reveals their expectation: the crowds want more miracles, and Jesus should return to meet the demand. The verb zēteō ('to seek, search for') is neutral here but will carry negative connotations later in Mark when opponents 'seek' to arrest Jesus."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 38,
+      "text_greek": "καὶ λέγει αὐτοῖς· ἄγωμεν ἀλλαχοῦ εἰς τὰς ἐχομένας κωμοπόλεις, ἵνα καὶ ἐκεῖ κηρύξω· εἰς τοῦτο γὰρ ἐξῆλθον.",
+      "text_kjv": "And he said unto them, Let us go into the next towns, that I may preach there also: for therefore came I forth.",
+      "rendering": "He said to them, \"Let us go on to the neighboring towns, so that I may preach there also, for that is why I came out.\"",
+      "translator_notes": [
+        "The word kōmopoleis ('market-towns') describes settlements larger than villages but smaller than cities — the small towns of rural Galilee. Jesus resists the pull of popular demand in Capernaum, insisting his mission extends beyond one location. The phrase eis touto gar exēlthon ('for this is why I came out') is ambiguous — 'came out' could mean from Capernaum, from his prayer retreat, or from God (a statement of divine mission). The ambiguity may be deliberate."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 39,
+      "text_greek": "καὶ ἦλθεν κηρύσσων εἰς τὰς συναγωγὰς αὐτῶν εἰς ὅλην τὴν Γαλιλαίαν καὶ τὰ δαιμόνια ἐκβάλλων.",
+      "text_kjv": "And he preached in their synagogues throughout all Galilee, and cast out devils.",
+      "rendering": "So he went throughout all of Galilee, preaching in their synagogues and casting out demons.",
+      "translator_notes": [
+        "This verse serves as a summary statement for Jesus's early Galilean ministry, linking proclamation and exorcism as the twin activities that characterize his mission. The synagogues were the natural venues for a traveling teacher, and their mention 'throughout all Galilee' indicates a comprehensive itinerant ministry."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 40,
+      "text_greek": "Καὶ ἔρχεται πρὸς αὐτὸν λεπρὸς παρακαλῶν αὐτὸν καὶ γονυπετῶν λέγων αὐτῷ ὅτι ἐὰν θέλῃς δύνασαί με καθαρίσαι.",
+      "text_kjv": "And there came a leper to him, beseeching him, and kneeling down to him, and saying unto him, If thou wilt, thou canst make me clean.",
+      "rendering": "A man with a skin disease came to him, kneeling and begging him, \"If you are willing, you can make me clean.\"",
+      "translator_notes": [
+        "The Greek lepros traditionally rendered 'leper' covers a range of skin conditions described in Leviticus 13-14, not limited to modern Hansen's disease. 'Skin disease' is more accurate to the biblical category. The man's statement is remarkable — he does not doubt Jesus's power ('you can') but only questions his willingness ('if you are willing'). Kneeling (gonypetōn) expresses desperate supplication. Under Levitical law, a person with such a disease was ritually unclean and excluded from community life.",
+        "[TCR Cross-Reference] This verse quotes Leviticus 13-14 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 41,
+      "text_greek": "καὶ σπλαγχνισθεὶς ἐκτείνας τὴν χεῖρα αὐτοῦ ἥψατο καὶ λέγει αὐτῷ· θέλω, καθαρίσθητι·",
+      "text_kjv": "And Jesus, moved with compassion, put forth his hand, and touched him, and saith unto him, I will; be thou clean.",
+      "rendering": "Moved with compassion, he stretched out his hand and touched him, saying, \"I am willing. Be clean.\"",
+      "translator_notes": [
+        "The Greek splanchnistheis ('moved with compassion') derives from splanchna ('intestines, bowels'), indicating a deep, visceral emotional response — compassion felt in the gut. Some manuscripts read orgistheis ('moved with anger') instead, which would describe anger at the disease or the system that ostracized the man. The SBLGNT follows the compassion reading. The physical touch is the most striking detail — by touching a ritually unclean person, Jesus would normally contract uncleanness himself. Instead, the cleanness flows in the opposite direction."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 42,
+      "text_greek": "καὶ εὐθὺς ἀπῆλθεν ἀπ' αὐτοῦ ἡ λέπρα, καὶ ἐκαθαρίσθη.",
+      "text_kjv": "And as soon as he had spoken, immediately the leprosy departed from him, and he was cleansed.",
+      "rendering": "Immediately the skin disease left him, and he was made clean.",
+      "translator_notes": [
+        "The dual statement — the disease 'left' (apēlthen) and he 'was made clean' (ekatharisthē) — addresses both the physical condition and the ritual status. Healing and cleansing are distinct: the disease departs (medical), and the person is restored to cleanness (ritual/social). The word euthys again emphasizes the instantaneous nature of Jesus's healing power."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 43,
+      "text_greek": "καὶ ἐμβριμησάμενος αὐτῷ εὐθὺς ἐξέβαλεν αὐτόν,",
+      "text_kjv": "And he straitly charged him, and forthwith sent him away;",
+      "rendering": "Jesus sternly warned him and immediately sent him away,",
+      "translator_notes": [
+        "The verb embrimēsamenos ('sternly warned, snorted with indignation') is a strong word that implies deep emotion — it is used of horses snorting. The intensity is puzzling: why such a forceful warning after a compassionate healing? Some scholars suggest Jesus was moved by anger at the disease, the social system that excluded the man, or the situation that would unfold if the healing became public. The verb exebalen ('sent away, cast out') is the same word used for casting out demons, adding to the forcefulness of the scene."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 44,
+      "text_greek": "καὶ λέγει αὐτῷ· ὅρα μηδενὶ μηδὲν εἴπῃς, ἀλλὰ ὕπαγε σεαυτὸν δεῖξον τῷ ἱερεῖ καὶ προσένεγκε περὶ τοῦ καθαρισμοῦ σου ἃ προσέταξεν Μωϋσῆς, εἰς μαρτύριον αὐτοῖς.",
+      "text_kjv": "And saith unto him, See thou say nothing to any man: but go thy way, shew thyself to the priest, and offer for thy cleansing those things which Moses commanded, for a testimony unto them.",
+      "rendering": "Says to him, See you say nothing to any man — but go your way, shew thyself to the priest, and offer since your cleansing those things which Moses commanded, for a testimony to them.",
+      "translator_notes": [
+        "The command to silence (the messianic secret) is combined with a command to obey the Levitical purification procedure of Leviticus 14:1-32. Jesus does not abolish the law but upholds it. The phrase eis martyrion autois ('as a testimony to them') is ambiguous — 'to them' could refer to the priests (as proof of healing), to the people (as evidence of God's power), or as a witness against the religious establishment. The double negative mēdeni mēden ('to no one, nothing') is emphatic — absolute silence is demanded.",
+        "[TCR Cross-Reference] Echoes Leviticus 14:1-32. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 45,
+      "text_greek": "ὁ δὲ ἐξελθὼν ἤρξατο κηρύσσειν πολλὰ καὶ διαφημίζειν τὸν λόγον, ὥστε μηκέτι αὐτὸν δύνασθαι φανερῶς εἰς πόλιν εἰσελθεῖν, ἀλλ' ἔξω ἐπ' ἐρήμοις τόποις ἦν· καὶ ἤρχοντο πρὸς αὐτὸν πάντοθεν.",
+      "text_kjv": "But he went out, and began to publish it much, and to blaze abroad the matter, insomuch that Jesus could no more openly enter into the city, but was without in desert places: and they came to him from every quarter.",
+      "rendering": "But the man went out and began to proclaim it widely and spread the word, so that Jesus could no longer enter a town openly but stayed out in deserted places. Yet people came to him from everywhere.",
+      "translator_notes": [
+        "The healed man's disobedience has ironic consequences — he does what Jesus commanded him not to do (proclaim the healing) and presumably neglects what Jesus commanded him to do (go to the priest). The verb diaphēmizein ('to spread abroad, make known far and wide') indicates enthusiastic, widespread broadcasting. The result inverts the leper's situation: the formerly excluded man now moves freely in society while Jesus, who touched the unclean, now remains outside in deserted places. Yet even in isolation, the crowds find him — the messianic secret cannot be contained."
+      ],
+      "reading_level": "8th grade"
+    }
+  ]
+}

@@ -1,0 +1,283 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Minor Prophets",
+    "tradition": "targum-jonathan",
+    "tradition_label": "Targum Jonathan",
+    "source_text": "Targum Jonathan (standard printed edition)",
+    "base_text": "Westminster Leningrad Codex (WLC)",
+    "date": "2nd-5th c. CE (earliest layers 1st c. BCE)",
+    "generated_at": "2026-04-05T00:00:00Z",
+    "prompt_version": "1.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Targum Jonathan on the Twelve Minor Prophets extends the theological patterns of the Latter Prophets into the shorter prophetic books. Messianic readings surface at strategic points: Micah 5:2 (the Messiah from Bethlehem), Zechariah 3:8 (the Messiah as Branch), Zechariah 6:12 (the Messiah who builds the Temple), and Zechariah 9:9 (the humble king). Anti-anthropomorphism governs theophanic passages in Hosea, Joel, Habakkuk, and Malachi. The Day of the LORD prophecies receive eschatological sharpening.",
+    "notable_renderings": "Hosea's marital metaphor is preserved but God's emotional responses are adjusted. Joel 2:28 [3:1] is rendered with 'holy spirit' language. Micah 5:2 explicitly names the Messiah. Habakkuk 3 (a theophany psalm) receives standard anti-anthropomorphic treatment. Zechariah's Messianic passages are the most explicitly identified in the Twelve. Malachi 3:1 introduces the Messiah as the 'angel of the covenant.'",
+    "theological_themes": "Messianic expectation at key prophetic moments; the Day of the LORD as Shekinah-revelation; anti-anthropomorphism in divine pathos (Hosea) and theophany (Habakkuk); Spirit-outpouring (Joel); covenant faithfulness despite exile; eschatological Temple and Shekinah restoration."
+  },
+  "renderings": [
+    {
+      "reference": "Hosea 1:7",
+      "hebrew_text": "וְאֶת בֵּית יְהוּדָה אֲרַחֵם וְהוֹשַׁעְתִּים בַּיהוָה אֱלֹהֵיהֶם",
+      "targum_text": "ve'al beit Yehudah arachem ve'efreqinnun beMemra daAdonai Elahehon",
+      "targum_rendering": "But on the house of Judah I will have mercy, and I will redeem them by the Memra of the LORD their God.",
+      "mt_rendering": "But I will have mercy on the house of Judah, and I will save them by the LORD their God.",
+      "category": "memra",
+      "notes": ["Redemption is 'by the Memra of the LORD.' The Memra is the agent of salvation, consistent with the targum's theology of the Word as divine intermediary in all saving acts."]
+    },
+    {
+      "reference": "Hosea 5:15",
+      "hebrew_text": "אֵלֵךְ אָשׁוּבָה אֶל מְקוֹמִי",
+      "targum_text": "astalliq Shekhineti etuv le'atar beit maqdashi",
+      "targum_rendering": "I will lift up my Shekinah; I will return to the place of my Temple.",
+      "mt_rendering": "I will return to my place.",
+      "category": "shekinah",
+      "notes": ["God's 'returning to his place' is interpreted as the Shekinah's withdrawal to the heavenly Temple. This is God's response to Israel's unfaithfulness: the Shekinah departs, paralleling the Ezekiel departure narratives."]
+    },
+    {
+      "reference": "Hosea 6:1",
+      "hebrew_text": "כִּי הוּא טָרָף וְיִרְפָּאֵנוּ",
+      "targum_text": "arei hu machi ve'asseinnana",
+      "targum_rendering": "For he has struck and he will heal us.",
+      "mt_rendering": "For he has torn us, and he will heal us.",
+      "category": "anti-anthropomorphism",
+      "notes": ["'Torn' (taraf, an animal predator image) becomes 'struck' (machi), removing the bestial metaphor. God disciplines but does not act as a wild animal tearing prey."]
+    },
+    {
+      "reference": "Hosea 11:1",
+      "hebrew_text": "כִּי נַעַר יִשְׂרָאֵל וָאֹהֲבֵהוּ וּמִמִּצְרַיִם קָרָאתִי לִבְנִי",
+      "targum_text": "kad talya hava Yisrael varechamteih umiMitzrayim qaretei leih",
+      "targum_rendering": "When Israel was a child, I loved him, and from Egypt I called him.",
+      "mt_rendering": "When Israel was a child, I loved him, and out of Egypt I called my son.",
+      "category": "literal",
+      "notes": ["Jonathan renders with minor adjustment: 'my son' becomes 'him' (leih), slightly depersonalizing the father-son language. Matthew 2:15 cites this as fulfilled in the flight to Egypt."]
+    },
+    {
+      "reference": "Hosea 11:9",
+      "hebrew_text": "כִּי אֵל אָנֹכִי וְלֹא אִישׁ בְּקִרְבְּךָ קָדוֹשׁ",
+      "targum_text": "arei Elaha ana vela bar enash Shekhineti sharyah beineikh qaddish",
+      "targum_rendering": "For I am God and not a man; my Shekinah dwells among you, the Holy One.",
+      "mt_rendering": "For I am God, and not a man, the Holy One in your midst.",
+      "category": "shekinah",
+      "notes": ["God 'in your midst' becomes 'my Shekinah dwells among you.' This is Hosea's own anti-anthropomorphic statement — God is not a man — enhanced by Jonathan's Shekinah theology."]
+    },
+    {
+      "reference": "Joel 2:27",
+      "hebrew_text": "וַאֲנִי יְהוָה אֱלֹהֵיכֶם וְאֵין עוֹד",
+      "targum_text": "va'ana Adonai Elahakhon uMimri mesiyyea yatkhon veleit bar minni",
+      "targum_rendering": "And I am the LORD your God, and my Memra helps you, and there is none beside me.",
+      "mt_rendering": "And you shall know that I am the LORD your God, and there is none else.",
+      "category": "memra",
+      "notes": ["Jonathan inserts 'my Memra helps you' into the monotheistic confession, linking the knowledge of God's uniqueness with Memra-mediated assistance."]
+    },
+    {
+      "reference": "Joel 3:1 [2:28 Eng]",
+      "hebrew_text": "אֶשְׁפּוֹךְ אֶת רוּחִי עַל כָּל בָּשָׂר",
+      "targum_text": "eireiq yat ruach qudshai al kol bisra",
+      "targum_rendering": "I will pour out my holy spirit upon all flesh.",
+      "mt_rendering": "I will pour out my Spirit on all flesh.",
+      "category": "eschatological",
+      "notes": ["'My spirit' becomes 'my holy spirit' (ruach qudshai), as in Ezekiel 36:27 and 39:29. Peter cites this verse at Pentecost (Acts 2:17). The targum specifies the Spirit as holy, connecting to the broader Jewish understanding of the Spirit of God as the Holy Spirit."]
+    },
+    {
+      "reference": "Joel 4:16 [3:16 Eng]",
+      "hebrew_text": "וַיהוָה מִצִּיּוֹן יִשְׁאָג",
+      "targum_text": "vaAdonai min Tziyyon yashmi' qaleih",
+      "targum_rendering": "And the LORD from Zion shall make his voice heard.",
+      "mt_rendering": "And the LORD roars from Zion.",
+      "category": "anti-anthropomorphism",
+      "notes": ["God does not 'roar' (sha'ag, a lion metaphor). The bestial imagery is replaced with 'make his voice heard' (yashmi' qaleih), preserving the power of divine speech while removing the animal comparison."]
+    },
+    {
+      "reference": "Amos 3:7",
+      "hebrew_text": "כִּי לֹא יַעֲשֶׂה אֲדֹנָי יְהוִה דָּבָר כִּי אִם גָּלָה סוֹדוֹ אֶל עֲבָדָיו הַנְּבִיאִים",
+      "targum_text": "arei la ya'avid Adonai Elohim pitgam ellahein galei raz nvu'ateih le'avdoi neviyayya",
+      "targum_rendering": "For the Lord GOD does nothing without revealing the secret of his prophecy to his servants the prophets.",
+      "mt_rendering": "For the Lord GOD does nothing without revealing his secret to his servants the prophets.",
+      "category": "literal",
+      "notes": ["Jonathan renders with a minor addition: 'his secret' becomes 'the secret of his prophecy.' God's counsel is specifically prophetic revelation, tying the principle of prior disclosure to the prophetic institution."]
+    },
+    {
+      "reference": "Amos 4:13",
+      "hebrew_text": "כִּי הִנֵּה יוֹצֵר הָרִים וּבֹרֵא רוּחַ וּמַגִּיד לְאָדָם מַה שֵּׂחוֹ",
+      "targum_text": "arei ha bera turayya uvera rucha umechavvei le'enasha ma machshevateih",
+      "targum_rendering": "For behold, he who formed the mountains and created the wind and declares to man what his thought is.",
+      "mt_rendering": "For behold, he who forms the mountains and creates the wind and declares to man what is his thought.",
+      "category": "literal",
+      "notes": ["The doxology fragment is rendered literally. God's creative power and omniscience are non-anthropomorphic attributes."]
+    },
+    {
+      "reference": "Obadiah 1:21",
+      "hebrew_text": "וְהָיְתָה לַיהוָה הַמְּלוּכָה",
+      "targum_text": "vetitgeli malkhuta daAdonai al kol yatevei ar'a",
+      "targum_rendering": "And the kingdom of the LORD shall be revealed over all the inhabitants of the earth.",
+      "mt_rendering": "And the kingdom shall be the LORD's.",
+      "category": "eschatological",
+      "notes": ["God's kingdom does not merely exist — it 'shall be revealed' (titgeli), using the standard revelation theology. The eschatological kingdom is a disclosure event, not just a political transfer."]
+    },
+    {
+      "reference": "Micah 4:2",
+      "hebrew_text": "כִּי מִצִּיּוֹן תֵּצֵא תוֹרָה וּדְבַר יְהוָה מִירוּשָׁלָיִם",
+      "targum_text": "arei miTziyyon tippoq oraita upitgam Adonai miYerushalem",
+      "targum_rendering": "For from Zion shall go forth Torah, and the word of the LORD from Jerusalem.",
+      "mt_rendering": "For out of Zion shall go forth the law, and the word of the LORD from Jerusalem.",
+      "category": "literal",
+      "notes": ["Rendered literally. Torah and divine word emanating from Zion/Jerusalem is already appropriately theological and requires no targum adjustment."]
+    },
+    {
+      "reference": "Micah 5:1 [5:2 Eng]",
+      "hebrew_text": "וְאַתָּה בֵּית לֶחֶם אֶפְרָתָה צָעִיר לִהְיוֹת בְּאַלְפֵי יְהוּדָה מִמְּךָ לִי יֵצֵא לִהְיוֹת מוֹשֵׁל בְּיִשְׂרָאֵל",
+      "targum_text": "ve'att Beit Lechem Efrata ze'eir att lecheishuv be'alfei deveith Yehudah minnakh qodamai yippoq Meshicha lemehevei shalleit beYisrael",
+      "targum_rendering": "And you, Bethlehem Ephrathah, too small to be numbered among the thousands of the house of Judah — from you shall come forth before me the Messiah to exercise dominion in Israel.",
+      "mt_rendering": "But you, O Bethlehem Ephrathah, who are too little to be among the clans of Judah, from you shall come forth for me one who is to be ruler in Israel.",
+      "category": "messianic",
+      "notes": ["The ruler from Bethlehem is explicitly identified as 'the Messiah' (Meshicha). This is the verse cited in Matthew 2:6 as the birthplace prophecy for the Messiah. Jonathan confirms that pre-Christian Judaism read Micah 5:2 as a Messianic prediction of a specific location — Bethlehem — for the Messiah's origin."]
+    },
+    {
+      "reference": "Micah 5:3 [5:4 Eng]",
+      "hebrew_text": "וְעָמַד וְרָעָה בְּעֹז יְהוָה",
+      "targum_text": "viqum viyanhig betaqof Adonai",
+      "targum_rendering": "And he shall stand and lead in the strength of the LORD.",
+      "mt_rendering": "And he shall stand and shepherd his flock in the strength of the LORD.",
+      "category": "messianic",
+      "notes": ["The Messiah's shepherding is rendered as 'leading' (yanhig) — a political/royal term. The pastoral metaphor is interpreted as governance, consistent with the targum's emphasis on the Messiah as ruler."]
+    },
+    {
+      "reference": "Habakkuk 2:14",
+      "hebrew_text": "כִּי תִּמָּלֵא הָאָרֶץ לָדַעַת אֶת כְּבוֹד יְהוָה כַּמַּיִם יְכַסּוּ עַל יָם",
+      "targum_text": "arei titmeli ar'a lemieda' yat yeqara daAdonai kemayya dekhassyin al yamma",
+      "targum_rendering": "For the earth shall be filled with the knowledge of the glory of the LORD as the waters cover the sea.",
+      "mt_rendering": "For the earth will be filled with the knowledge of the glory of the LORD as the waters cover the sea.",
+      "category": "literal",
+      "notes": ["Rendered literally. The eschatological promise of universal knowledge of God's glory is already expressed through 'glory' (kavod/yeqar) and requires no additional mediation."]
+    },
+    {
+      "reference": "Habakkuk 3:3",
+      "hebrew_text": "אֱלוֹהַּ מִתֵּימָן יָבוֹא",
+      "targum_text": "Adonai midaroma itgeli",
+      "targum_rendering": "The LORD from the south revealed himself.",
+      "mt_rendering": "God came from Teman.",
+      "category": "anti-anthropomorphism",
+      "notes": ["In Habakkuk's theophany psalm, 'came' becomes 'revealed himself.' The same anti-anthropomorphic principle applied to all theophanies governs this poetic vision."]
+    },
+    {
+      "reference": "Habakkuk 3:13",
+      "hebrew_text": "יָצָאתָ לְיֵשַׁע עַמֶּךָ לְיֵשַׁע אֶת מְשִׁיחֶךָ",
+      "targum_text": "itgeleita lefurqan amakh lefurqan Meshichakh",
+      "targum_rendering": "You revealed yourself for the redemption of your people, for the redemption of your Messiah.",
+      "mt_rendering": "You went out for the salvation of your people, for the salvation of your anointed.",
+      "category": "messianic",
+      "notes": ["Jonathan renders 'your anointed' as 'your Messiah' (Meshichakh). The theophany of divine warfare has both a national purpose (redemption of the people) and a Messianic purpose (redemption of the Messiah). The Messiah is both agent and object of divine salvation."]
+    },
+    {
+      "reference": "Haggai 1:8",
+      "hebrew_text": "וְאֶכָּבְדָה",
+      "targum_text": "ve'ashrei Shekhineti beih",
+      "targum_rendering": "And I will cause my Shekinah to dwell in it.",
+      "mt_rendering": "And I will be glorified.",
+      "category": "shekinah",
+      "notes": ["God being 'glorified' in the Temple is interpreted as causing the Shekinah to dwell in it. For Jonathan, God's glory in the Temple is Shekinah-presence, not abstract honor."]
+    },
+    {
+      "reference": "Haggai 2:5",
+      "hebrew_text": "וְרוּחִי עֹמֶדֶת בְּתוֹכְכֶם",
+      "targum_text": "veruach qudshai maqayyema beinekhon",
+      "targum_rendering": "And my holy spirit stands among you.",
+      "mt_rendering": "And my Spirit remains in your midst.",
+      "category": "theological",
+      "notes": ["'My spirit' again becomes 'my holy spirit,' maintaining the targum pattern of specifying God's spirit as the Holy Spirit."]
+    },
+    {
+      "reference": "Zechariah 2:14 [2:10 Eng]",
+      "hebrew_text": "כִּי הִנְנִי בָא וְשָׁכַנְתִּי בְתוֹכֵךְ",
+      "targum_text": "arei ha ana megallei ve'ashrei Shekhineti begavvikh",
+      "targum_rendering": "For behold, I am revealing myself, and I will cause my Shekinah to dwell in your midst.",
+      "mt_rendering": "Behold, I come, and I will dwell in your midst.",
+      "category": "shekinah",
+      "notes": ["God's coming to dwell in Zion becomes Shekinah revelation and indwelling. The eschatological hope is the return of the Shekinah to Jerusalem, fulfilling the promise that the departed glory will come back."]
+    },
+    {
+      "reference": "Zechariah 3:8",
+      "hebrew_text": "כִּי הִנְנִי מֵבִיא אֶת עַבְדִּי צֶמַח",
+      "targum_text": "arei ha ana maitei yat avdi Meshicha veyitgeli",
+      "targum_rendering": "For behold, I am bringing my servant the Messiah, and he shall be revealed.",
+      "mt_rendering": "Behold, I will bring my servant the Branch.",
+      "category": "messianic",
+      "notes": ["The Branch (tsemach) is explicitly rendered as 'the Messiah' (Meshicha). Jonathan adds 'and he shall be revealed' (veyitgeli), applying the revelation theology to the Messiah's appearance — the Messiah is not merely born but revealed by God."]
+    },
+    {
+      "reference": "Zechariah 6:12",
+      "hebrew_text": "הִנֵּה אִישׁ צֶמַח שְׁמוֹ וּמִתַּחְתָּיו יִצְמָח וּבָנָה אֶת הֵיכַל יְהוָה",
+      "targum_text": "ha gavra Meshicha shemeih va'atid le'itgalayah veyitrebbei veyivnei yat heikhela daAdonai",
+      "targum_rendering": "Behold, a man — the Messiah is his name — and he shall be revealed and shall grow great and shall build the Temple of the LORD.",
+      "mt_rendering": "Behold, the man whose name is the Branch: for he shall branch out from his place, and he shall build the temple of the LORD.",
+      "category": "messianic",
+      "notes": ["The Branch is again explicitly the Messiah, and his primary work is building the Temple. This is the same Temple-building Messiah described in Isaiah 53:5 (Jonathan). The Messiah's mission in Jonathan is fundamentally restorative: he builds the Temple and establishes the Shekinah's dwelling."]
+    },
+    {
+      "reference": "Zechariah 9:9",
+      "hebrew_text": "הִנֵּה מַלְכֵּךְ יָבוֹא לָךְ צַדִּיק וְנוֹשָׁע הוּא עָנִי וְרֹכֵב עַל חֲמוֹר",
+      "targum_text": "ha malkhikh atei likh zakkaya umeshezav hu mesken verachiv al chamar",
+      "targum_rendering": "Behold, your king comes to you; righteous and saving is he; humble and riding upon a donkey.",
+      "mt_rendering": "Behold, your king is coming to you; righteous and having salvation is he, humble and mounted on a donkey.",
+      "category": "messianic",
+      "notes": ["Jonathan renders with minimal change. The humble Messianic king riding a donkey is preserved without explicit Messianic label — the royal context makes it unnecessary. This is the passage fulfilled in Jesus' triumphal entry (Matthew 21:5, John 12:15)."]
+    },
+    {
+      "reference": "Zechariah 12:10",
+      "hebrew_text": "וְהִבִּיטוּ אֵלַי אֵת אֲשֶׁר דָּקָרוּ",
+      "targum_text": "viyitzallun qodamai al di dattei litql",
+      "targum_rendering": "And they shall pray before me on account of those who were thrust through.",
+      "mt_rendering": "And they shall look on me, on him whom they have pierced.",
+      "category": "anti-anthropomorphism",
+      "notes": ["'They shall look on me whom they have pierced' — one of the most christologically disputed verses in the prophets — is radically reinterpreted. 'Looking' becomes 'praying,' and the piercing is redirected to unnamed victims ('those who were thrust through'). The personal identification of the pierced one with God is eliminated. John 19:37 cites this verse as fulfilled at the crucifixion."]
+    },
+    {
+      "reference": "Zechariah 14:4",
+      "hebrew_text": "וְעָמְדוּ רַגְלָיו בַּיּוֹם הַהוּא עַל הַר הַזֵּתִים",
+      "targum_text": "veyitgeli betqof gevurteih beyoma hahu al tura deZeitayya",
+      "targum_rendering": "And he shall be revealed in the strength of his might on that day upon the Mount of Olives.",
+      "mt_rendering": "And his feet shall stand on that day on the Mount of Olives.",
+      "category": "anti-anthropomorphism",
+      "notes": ["God does not have feet that stand on the Mount of Olives. The physical stance is replaced with divine revelation 'in the strength of his might.' The Mount of Olives location is preserved — the same mountain from which the Shekinah departed in Ezekiel 11:23."]
+    },
+    {
+      "reference": "Zechariah 14:9",
+      "hebrew_text": "וְהָיָה יְהוָה לְמֶלֶךְ עַל כָּל הָאָרֶץ",
+      "targum_text": "veyitgeli malkhuta daAdonai al kol yatevei ar'a",
+      "targum_rendering": "And the kingdom of the LORD shall be revealed over all the inhabitants of the earth.",
+      "mt_rendering": "And the LORD shall be king over all the earth.",
+      "category": "eschatological",
+      "notes": ["God's kingship is expressed as kingdom-revelation, paralleling Obadiah 1:21. The eschatological climax is not that God becomes king (he always was) but that his kingdom is revealed to all."]
+    },
+    {
+      "reference": "Malachi 3:1",
+      "hebrew_text": "הִנְנִי שֹׁלֵחַ מַלְאָכִי וּפִנָּה דֶרֶךְ לְפָנָי",
+      "targum_text": "ha ana meshaddar malakhi viyephannei orach qodamai",
+      "targum_rendering": "Behold, I am sending my messenger, and he shall clear the way before me.",
+      "mt_rendering": "Behold, I send my messenger, and he will prepare the way before me.",
+      "category": "messianic",
+      "notes": ["Jonathan renders literally. The messenger (malakhi) who prepares the way is identified by rabbinic tradition as Elijah (cf. Malachi 4:5). Jesus identified this messenger as John the Baptist (Matthew 11:10)."]
+    },
+    {
+      "reference": "Malachi 3:1b",
+      "hebrew_text": "וּפִתְאֹם יָבוֹא אֶל הֵיכָלוֹ הָאָדוֹן אֲשֶׁר אַתֶּם מְבַקְשִׁים",
+      "targum_text": "umitchash yeitei lehekhaleih ribbona di atton ba'ein",
+      "targum_rendering": "And suddenly the Lord whom you seek shall come to his Temple.",
+      "mt_rendering": "And the Lord whom you seek will suddenly come to his temple.",
+      "category": "messianic",
+      "notes": ["Jonathan renders literally: the Lord comes suddenly to his Temple. The language is ambiguous between God himself and a Messianic figure — the targum preserves this creative ambiguity."]
+    },
+    {
+      "reference": "Malachi 3:23 [4:5 Eng]",
+      "hebrew_text": "הִנֵּה אָנֹכִי שֹׁלֵחַ לָכֶם אֵת אֵלִיָּה הַנָּבִיא",
+      "targum_text": "ha ana meshaddar lakhon yat Eliyahu neviya",
+      "targum_rendering": "Behold, I will send to you Elijah the prophet.",
+      "mt_rendering": "Behold, I will send you Elijah the prophet.",
+      "category": "eschatological",
+      "notes": ["Elijah's return is rendered literally. This is the last verse of the Prophets in the Jewish canon. The expectation of Elijah's return before the Day of the LORD became foundational for both Jewish and Christian eschatology (cf. Matthew 17:10-13)."]
+    }
+  ]
+}

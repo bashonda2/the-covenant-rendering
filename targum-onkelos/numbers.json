@@ -1,0 +1,301 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Numbers",
+    "tradition": "targum-onkelos",
+    "tradition_label": "Targum Onkelos",
+    "source_text": "Targum Onkelos (standard printed edition)",
+    "base_text": "Westminster Leningrad Codex (WLC)",
+    "date": "2nd-5th c. CE (earliest layers 1st c. BCE)",
+    "generated_at": "2026-04-05T00:00:00Z",
+    "prompt_version": "1.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Targum Onkelos on Numbers navigates the wilderness narrative with characteristic theological care. The Aaronic Blessing (6:24-26) receives significant Memra and Shekinah treatment. Balaam's oracles contain the most important Messianic readings in the Pentateuch outside Genesis 49. The narrative of God's anger, the rebellion accounts, and the bronze serpent all receive anti-anthropomorphic adjustment.",
+    "notable_renderings": "Numbers 24:17 ('a star shall come out of Jacob') is rendered as a Messianic prophecy of a conquering king. The Aaronic Blessing introduces Shekinah language for God's shining face. The Cloud and Glory narratives are rendered as Shekinah presence. Balaam's four oracles contain the richest Messianic material in the Torah targum tradition.",
+    "theological_themes": "Messianic expectation reaches its Torah climax in Balaam's oracles; Shekinah accompaniment through the wilderness; anti-anthropomorphism in rebellion narratives (God's anger, God's fire); the priestly blessing as mediated divine presence."
+  },
+  "renderings": [
+    {
+      "reference": "Numbers 6:24",
+      "hebrew_text": "יְבָרֶכְךָ יְהוָה וְיִשְׁמְרֶךָ",
+      "targum_text": "yevarkhinnakh Adonai veyittrinnakh",
+      "targum_rendering": "The LORD bless you and keep you.",
+      "mt_rendering": "The LORD bless you and keep you.",
+      "category": "literal",
+      "notes": ["The first line of the Aaronic Blessing is rendered literally. Onkelos treats the priestly blessing as fixed liturgical language."]
+    },
+    {
+      "reference": "Numbers 6:25",
+      "hebrew_text": "יָאֵר יְהוָה פָּנָיו אֵלֶיךָ",
+      "targum_text": "yanhir Adonai anpoi lakh",
+      "targum_rendering": "The LORD make his face shine upon you.",
+      "mt_rendering": "The LORD make his face shine upon you.",
+      "category": "literal",
+      "notes": ["Remarkably, Onkelos preserves 'his face' (anpoi) in the priestly blessing rather than substituting Shekinah. The liturgical fixity of the blessing overrides the anti-anthropomorphic tendency."]
+    },
+    {
+      "reference": "Numbers 6:26",
+      "hebrew_text": "יִשָּׂא יְהוָה פָּנָיו אֵלֶיךָ וְיָשֵׂם לְךָ שָׁלוֹם",
+      "targum_text": "yisbbi Adonai anpoi lakh viyesavvei lakh shelam",
+      "targum_rendering": "The LORD lift up his face toward you and grant you peace.",
+      "mt_rendering": "The LORD lift up his face upon you and give you peace.",
+      "category": "literal",
+      "notes": ["The priestly blessing is preserved intact. This is one of the few places where Onkelos allows three consecutive anthropomorphisms (face shining, face lifting) because the blessing is too sacred and liturgically embedded to paraphrase."]
+    },
+    {
+      "reference": "Numbers 7:89",
+      "hebrew_text": "וַיִּשְׁמַע אֶת־הַקּוֹל מִדַּבֵּר אֵלָיו מֵעַל הַכַּפֹּרֶת",
+      "targum_text": "ushema yat qala demishtamal immeih me'el kappureta",
+      "targum_rendering": "And he heard the voice speaking with him from above the mercy seat.",
+      "mt_rendering": "And he heard the voice speaking to him from above the mercy seat.",
+      "category": "anti-anthropomorphism",
+      "notes": ["The reflexive form 'speaking with him' (mishtamal, a hitpa'el-like form) softens the directness of God's address, suggesting a voice that extends itself rather than God speaking as a physical being."]
+    },
+    {
+      "reference": "Numbers 10:35",
+      "hebrew_text": "קוּמָה יְהוָה וְיָפֻצוּ אֹיְבֶיךָ",
+      "targum_text": "qum ke'an Adonai veyitbadderun saneikhah",
+      "targum_rendering": "Arise now, O LORD, and let your enemies be scattered.",
+      "mt_rendering": "Arise, O LORD, and let your enemies be scattered.",
+      "category": "literal",
+      "notes": ["Onkelos preserves Moses' battle cry including the anthropomorphic 'arise' (qum). As with the priestly blessing, fixed liturgical/battle formulas are treated as sacrosanct."]
+    },
+    {
+      "reference": "Numbers 10:36",
+      "hebrew_text": "שׁוּבָה יְהוָה רִבְבוֹת אַלְפֵי יִשְׂרָאֵל",
+      "targum_text": "tuv ke'an Adonai ve'ashrei Shekhinetakh beineihon deribbevan alfei Yisrael",
+      "targum_rendering": "Return now, O LORD, and cause your Shekinah to dwell among the tens of thousands of Israel.",
+      "mt_rendering": "Return, O LORD, to the ten thousands of the thousands of Israel.",
+      "category": "shekinah",
+      "notes": ["When the ark rests, God's 'returning' is interpreted as the Shekinah dwelling among Israel. The military cry becomes a prayer for renewed Shekinah presence among the myriads of Israel."]
+    },
+    {
+      "reference": "Numbers 11:1",
+      "hebrew_text": "וַיִּשְׁמַע יְהוָה וַיִּחַר אַפּוֹ",
+      "targum_text": "ushtamia' qodam Adonai vetqif rug'zeih",
+      "targum_rendering": "And it was heard before the LORD, and his anger was strong.",
+      "mt_rendering": "And the LORD heard, and his anger was kindled.",
+      "category": "anti-anthropomorphism",
+      "notes": ["Double adjustment: 'the LORD heard' becomes the passive 'it was heard before the LORD,' and 'his anger was kindled' (fire metaphor) becomes 'his anger was strong' (strength metaphor), removing both the anthropomorphic hearing and the fire imagery."]
+    },
+    {
+      "reference": "Numbers 11:17",
+      "hebrew_text": "וְאָצַלְתִּי מִן־הָרוּחַ אֲשֶׁר עָלֶיךָ וְשַׂמְתִּי עֲלֵיהֶם",
+      "targum_text": "ve'atzel min rucha di alakh ve'ashavvei aleihon",
+      "targum_rendering": "And I will set apart from the spirit that is upon you and place it upon them.",
+      "mt_rendering": "And I will take some of the spirit that is upon you and put it upon them.",
+      "category": "literal",
+      "notes": ["Onkelos renders the distribution of Moses' spirit to the seventy elders literally. The spirit (rucha) is treated as a divine gift that can be shared without diminishment."]
+    },
+    {
+      "reference": "Numbers 11:20",
+      "hebrew_text": "כִּי מְאַסְתֶּם אֶת־יְהוָה אֲשֶׁר בְּקִרְבְּכֶם",
+      "targum_text": "arei rechaiqton min qodam Adonai di Shekhinteih beinekhon",
+      "targum_rendering": "Because you have distanced yourselves from before the LORD whose Shekinah is among you.",
+      "mt_rendering": "Because you have rejected the LORD who is among you.",
+      "category": "shekinah",
+      "notes": ["God's being 'in your midst' is rendered as 'whose Shekinah is among you.' Israel's rejection is described as distancing from the Shekinah-presence, making sin a relational separation from divine indwelling."]
+    },
+    {
+      "reference": "Numbers 12:8",
+      "hebrew_text": "וּתְמֻנַת יְהוָה יַבִּיט",
+      "targum_text": "vetzelem yeqara daAdonai mistakkal",
+      "targum_rendering": "And the likeness of the glory of the LORD he beholds.",
+      "mt_rendering": "And the form of the LORD he beholds.",
+      "category": "anti-anthropomorphism",
+      "notes": ["Moses does not behold 'the form of the LORD' but 'the likeness of the glory of the LORD.' A double buffer — both 'likeness' (tzelem) and 'glory' (yeqar) — separates Moses from direct vision of God."]
+    },
+    {
+      "reference": "Numbers 14:9",
+      "hebrew_text": "כִּי יְהוָה אִתָּנוּ",
+      "targum_text": "arei Memra daAdonai besiyyanan",
+      "targum_rendering": "For the Memra of the LORD is in our help.",
+      "mt_rendering": "For the LORD is with us.",
+      "category": "memra",
+      "notes": ["Caleb's and Joshua's declaration of confidence is expressed through the Memra. God's presence with Israel in military contexts is consistently mediated through the Word."]
+    },
+    {
+      "reference": "Numbers 14:14",
+      "hebrew_text": "כִּי אַתָּה יְהוָה בְּקֶרֶב הָעָם הַזֶּה אֲשֶׁר־עַיִן בְּעַיִן נִרְאָה אַתָּה יְהוָה",
+      "targum_text": "arei att Adonai di Shekhinetakh sharyah bego amma hadein di ein be'ein itchazi yeqarakh Adonai",
+      "targum_rendering": "For you, O LORD, whose Shekinah dwells among this people, whose glory is seen eye to eye, O LORD.",
+      "mt_rendering": "For you, O LORD, are among this people, for you, O LORD, are seen eye to eye.",
+      "category": "shekinah",
+      "notes": ["Three adjustments: (1) God among the people becomes Shekinah dwelling among them, (2) God being seen becomes his glory being seen, (3) the direct address is preserved. Moses argues that the nations know of God's Shekinah-presence — divine indwelling is publicly visible."]
+    },
+    {
+      "reference": "Numbers 14:18",
+      "hebrew_text": "יְהוָה אֶרֶךְ אַפַּיִם וְרַב־חֶסֶד",
+      "targum_text": "Adonai rachiq min rug'za vesaggi le'me'bad chisda",
+      "targum_rendering": "The LORD is far from anger and great in doing mercy.",
+      "mt_rendering": "The LORD is slow to anger and abounding in steadfast love.",
+      "category": "anti-anthropomorphism",
+      "notes": ["'Slow to anger' (lit. 'long of nostrils') becomes 'far from anger' (rachiq min rug'za), removing the body-part metaphor entirely. 'Abounding in chesed' becomes 'great in doing mercy,' emphasizing active beneficence."]
+    },
+    {
+      "reference": "Numbers 14:42",
+      "hebrew_text": "כִּי אֵין יְהוָה בְּקִרְבְּכֶם",
+      "targum_text": "arei leit Shekhinteih daAdonai beineikhon",
+      "targum_rendering": "For the Shekinah of the LORD is not among you.",
+      "mt_rendering": "For the LORD is not among you.",
+      "category": "shekinah",
+      "notes": ["The warning against going up without God is expressed as the absence of the Shekinah. Military defeat follows from Shekinah withdrawal — the inverse of Numbers 10:36."]
+    },
+    {
+      "reference": "Numbers 16:3",
+      "hebrew_text": "כִּי כָל־הָעֵדָה כֻּלָּם קְדֹשִׁים וּבְתוֹכָם יְהוָה",
+      "targum_text": "arei khol kenishta kullehon qaddishin uveinehon Shekhinteih daAdonai",
+      "targum_rendering": "For all the congregation, all of them are holy, and among them is the Shekinah of the LORD.",
+      "mt_rendering": "For all the congregation are holy, every one of them, and the LORD is among them.",
+      "category": "shekinah",
+      "notes": ["Even Korah's rebellious claim uses Shekinah language. The theological grammar of divine presence is consistent regardless of speaker — the Shekinah is among Israel whether the claim is legitimate or presumptuous."]
+    },
+    {
+      "reference": "Numbers 21:6",
+      "hebrew_text": "וַיְשַׁלַּח יְהוָה בָּעָם אֵת הַנְּחָשִׁים הַשְּׂרָפִים",
+      "targum_text": "veshaddar Adonai be'amma yat chivvayya qattolayya",
+      "targum_rendering": "And the LORD sent among the people the killing serpents.",
+      "mt_rendering": "And the LORD sent among the people fiery serpents.",
+      "category": "literal",
+      "notes": ["'Fiery serpents' (seraphim) becomes 'killing serpents' (qattolayya), interpreting the adjective by its effect rather than its appearance. Onkelos focuses on the deadly function."]
+    },
+    {
+      "reference": "Numbers 21:8-9",
+      "hebrew_text": "עֲשֵׂה לְךָ שָׂרָף... וְהָיָה כָּל־הַנָּשׁוּךְ וְרָאָה אֹתוֹ וָחָי",
+      "targum_text": "avid lakh chivya... vihavei kol de'nikhteih chivya veyistakkal beih viyeqayyam",
+      "targum_rendering": "Make for yourself a serpent... and it shall be that everyone bitten by a serpent who looks at it shall live.",
+      "mt_rendering": "Make for yourself a fiery serpent... and everyone who is bitten, when he sees it, shall live.",
+      "category": "theological",
+      "notes": ["Onkelos renders this literally. The bronze serpent passage, which Jesus cites in John 3:14, receives no interpretive adjustment — the act of looking and living is preserved without rationalization."]
+    },
+    {
+      "reference": "Numbers 22:9",
+      "hebrew_text": "וַיָּבֹא אֱלֹהִים אֶל־בִּלְעָם",
+      "targum_text": "va'ata pitgama min qodam Adonai levat Bil'am",
+      "targum_rendering": "And a word came from before the LORD to Balaam.",
+      "mt_rendering": "And God came to Balaam.",
+      "category": "anti-anthropomorphism",
+      "notes": ["God does not 'come to' Balaam. A word (pitgama) comes from before the LORD, consistent with the treatment of Abimelech's dream in Genesis 20:3. Divine communication replaces divine movement."]
+    },
+    {
+      "reference": "Numbers 23:8",
+      "hebrew_text": "מָה אֶקֹּב לֹא קַבֹּה אֵל",
+      "targum_text": "mah elut di la lateih min qodam Adonai",
+      "targum_rendering": "How shall I curse whom the LORD has not cursed?",
+      "mt_rendering": "How shall I curse whom God has not cursed?",
+      "category": "literal",
+      "notes": ["Balaam's first oracle acknowledges that cursing requires divine sanction. Onkelos adds 'from before the LORD,' applying the standard reverential formula."]
+    },
+    {
+      "reference": "Numbers 23:19",
+      "hebrew_text": "לֹא אִישׁ אֵל וִיכַזֵּב וּבֶן־אָדָם וְיִתְנֶחָם",
+      "targum_text": "la kevarnash pithgamoi de'El vichaddav ubar enash veyitnecheminnei",
+      "targum_rendering": "Not like the words of a man are the words of God that he should lie, nor like a son of man that he should repent.",
+      "mt_rendering": "God is not a man that he should lie, nor a son of man that he should repent.",
+      "category": "anti-anthropomorphism",
+      "notes": ["Onkelos shifts from direct comparison ('God is not a man') to comparing God's words with human words, further distancing God from any human likeness while preserving the theological point about divine faithfulness."]
+    },
+    {
+      "reference": "Numbers 23:21",
+      "hebrew_text": "יְהוָה אֱלֹהָיו עִמּוֹ וּתְרוּעַת מֶלֶךְ בּוֹ",
+      "targum_text": "Memra daAdonai Elahehon besiyyehon veShekhinat malkhon beinehon",
+      "targum_rendering": "The Memra of the LORD their God is in their help, and the Shekinah of their King is among them.",
+      "mt_rendering": "The LORD their God is with them, and the shout of a king is among them.",
+      "category": "memra",
+      "notes": ["Both Memra and Shekinah appear in the same verse — a rare double occurrence. God's presence with Israel is Memra-help; the King's presence is Shekinah-indwelling. The 'shout of a king' is interpreted as the Shekinah of their King, a royal-divine presence."]
+    },
+    {
+      "reference": "Numbers 24:4",
+      "hebrew_text": "מַחֲזֵה שַׁדַּי יֶחֱזֶה",
+      "targum_text": "dechezvan min qodam Shadday chaza",
+      "targum_rendering": "Visions from before the Almighty he has seen.",
+      "mt_rendering": "The vision of the Almighty he sees.",
+      "category": "anti-anthropomorphism",
+      "notes": ["Balaam's vision is 'from before' (min qodam) the Almighty, adding the standard reverential distance. The prophet sees visions that originate from God's presence, not God himself."]
+    },
+    {
+      "reference": "Numbers 24:6",
+      "hebrew_text": "כַּאֲהָלִים נָטַע יְהוָה",
+      "targum_text": "kemishkenayya di natav Adonai",
+      "targum_rendering": "As tabernacles which the LORD has planted.",
+      "mt_rendering": "As aloes which the LORD has planted.",
+      "category": "theological",
+      "notes": ["'Aloes' (ahalim) is read as 'tabernacles/tents' (mishkenayya), creating a wordplay connecting Israel's encampments to the divine Tabernacle. The botanical becomes architectural and theological."]
+    },
+    {
+      "reference": "Numbers 24:7",
+      "hebrew_text": "יִזַּל־מַיִם מִדָּלְיָו... וְיָרֹם מֵאֲגַג מַלְכּוֹ",
+      "targum_text": "yitrab malka minehon... veyitrom al Agag malkhon veyitnesei malkhutehon",
+      "targum_rendering": "A king shall arise from them... and he shall be exalted above Agag, their king, and his kingdom shall be lifted up.",
+      "mt_rendering": "Water shall flow from his buckets... and his king shall be higher than Agag, and his kingdom shall be exalted.",
+      "category": "messianic",
+      "notes": ["Onkelos reads the agricultural imagery as Messianic royal prophecy: water from buckets becomes a king arising. The reference to Agag is preserved as a concrete historical reference — the Messiah-king will surpass even the greatest Gentile rulers."]
+    },
+    {
+      "reference": "Numbers 24:17",
+      "hebrew_text": "דָּרַךְ כּוֹכָב מִיַּעֲקֹב וְקָם שֵׁבֶט מִיִּשְׂרָאֵל",
+      "targum_text": "yiqum malka miYa'aqov veyitrebbei meshicha miYisrael",
+      "targum_rendering": "A king shall arise from Jacob and the Messiah shall be anointed from Israel.",
+      "mt_rendering": "A star shall come out of Jacob, and a scepter shall rise out of Israel.",
+      "category": "messianic",
+      "notes": ["This is the most important Messianic passage in the Torah targum. The star becomes a king; the scepter becomes the Messiah. Onkelos explicitly identifies the figure as 'the Messiah' (meshicha), making this the clearest proof that pre-Christian Judaism read Numbers 24:17 as a Messianic prophecy. Bar Kokhba ('Son of the Star') later claimed this verse."]
+    },
+    {
+      "reference": "Numbers 24:18",
+      "hebrew_text": "וְהָיָה אֱדוֹם יְרֵשָׁה",
+      "targum_text": "viyehei Edom yeritat",
+      "targum_rendering": "And Edom shall be a possession.",
+      "mt_rendering": "And Edom shall be a possession.",
+      "category": "messianic",
+      "notes": ["In context with 24:17, the Messiah's conquest of Edom is rendered literally. Edom was later identified with Rome in rabbinic literature, giving this Messianic conquest an eschatological dimension."]
+    },
+    {
+      "reference": "Numbers 24:20",
+      "hebrew_text": "רֵאשִׁית גּוֹיִם עֲמָלֵק",
+      "targum_text": "reishit qeravayya da'avad im Yisrael Amaleq",
+      "targum_rendering": "The first of the nations that waged war with Israel was Amalek.",
+      "mt_rendering": "Amalek was the first among the nations.",
+      "category": "halakhic",
+      "notes": ["Onkelos clarifies: Amalek's primacy is not in greatness but in being the first to attack Israel (Exodus 17), reading the oracle as historical interpretation."]
+    },
+    {
+      "reference": "Numbers 24:24",
+      "hebrew_text": "וְצִים מִיַּד כִּתִּים",
+      "targum_text": "veliggeyonin min yad Kittayei",
+      "targum_rendering": "And legions from the coast of Kittim.",
+      "mt_rendering": "And ships from the coast of Kittim.",
+      "category": "theological",
+      "notes": ["'Ships' becomes 'legions,' and Kittim (originally Cyprus) represents Rome in the targum's eschatological reading. Balaam's final oracle encompasses world-historical scope — Rome will rise but ultimately fall."]
+    },
+    {
+      "reference": "Numbers 27:16",
+      "hebrew_text": "יִפְקֹד יְהוָה אֱלֹהֵי הָרוּחֹת לְכָל־בָּשָׂר",
+      "targum_text": "yemanni Adonai Elaha druchata lekhol bisra",
+      "targum_rendering": "Let the LORD, the God of the spirits of all flesh, appoint.",
+      "mt_rendering": "Let the LORD, the God of the spirits of all flesh, appoint.",
+      "category": "literal",
+      "notes": ["Moses' prayer for a successor is rendered literally. The title 'God of the spirits of all flesh' requires no anti-anthropomorphic adjustment — it is already abstract and theological."]
+    },
+    {
+      "reference": "Numbers 33:4",
+      "hebrew_text": "וּבֵאלֹהֵיהֶם עָשָׂה יְהוָה שְׁפָטִים",
+      "targum_text": "uveta'avathon avad Adonai dinin",
+      "targum_rendering": "And upon their idols the LORD executed judgments.",
+      "mt_rendering": "And upon their gods the LORD executed judgments.",
+      "category": "theological",
+      "notes": ["'Their gods' (elohehem) is rendered 'their idols' (ta'avathon, literally 'abominations'), making clear that Egyptian deities are not gods but objects of false worship."]
+    },
+    {
+      "reference": "Numbers 35:34",
+      "hebrew_text": "כִּי אֲנִי יְהוָה שֹׁכֵן בְּתוֹךְ בְּנֵי יִשְׂרָאֵל",
+      "targum_text": "arei ana Adonai di Shekhineti sharyah bego benei Yisrael",
+      "targum_rendering": "For I am the LORD whose Shekinah dwells among the children of Israel.",
+      "mt_rendering": "For I am the LORD who dwells among the children of Israel.",
+      "category": "shekinah",
+      "notes": ["The closing theological statement of Numbers: God does not dwell among Israel directly but through the Shekinah. The land must be kept pure because the Shekinah is present within it."]
+    }
+  ]
+}

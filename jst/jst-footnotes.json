@@ -1,0 +1,907 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "tradition": "jst",
+    "tradition_label": "Joseph Smith Translation",
+    "tier": "interpretive",
+    "layer": "footnotes",
+    "source_text": "JST Footnotes, LDS Edition of the KJV, The Church of Jesus Christ of Latter-day Saints",
+    "generated_at": "2026-04-05T00:00:00Z",
+    "prompt_version": "1.0",
+    "license": "CC-BY-4.0 (TCR apparatus and notes)"
+  },
+  "preamble": {
+    "summary": "Individual verse-level JST readings from the LDS Bible footnotes. These are shorter revisions — a word, phrase, or clause changed — marked with 'JST' in the LDS Bible footnote apparatus. Longer JST sections (e.g., Genesis 1–6 as Moses, Matthew 24 as JS-M) appear in dedicated TCR JST files. The entries here represent verse-level textual adjustments in canonical Bible books."
+  },
+  "footnotes": [
+    {
+      "reference": "Genesis 6:6",
+      "change_summary": "God's regret over making man reframed: divine grief removed or qualified",
+      "significance": "theological",
+      "notes": [
+        "The KJV states that God 'repented' that he had made man, implying divine regret or error. The JST revision qualifies or redirects this statement so that the grief or regret is not attributed to God in the same anthropomorphic sense, protecting the idea of divine foreknowledge and immutability."
+      ]
+    },
+    {
+      "reference": "Genesis 11:5",
+      "change_summary": "The Lord 'came down' to see Babel clarified to emphasize condescension rather than spatial limitation",
+      "significance": "theological",
+      "notes": [
+        "KJV reads that the Lord 'came down to see' the tower, which can imply God did not already know what was happening. The JST reading adjusts this to remove the implication of limited divine knowledge, consistent with JST's broader project of guarding against anthropomorphic depictions of God as spatially bounded."
+      ]
+    },
+    {
+      "reference": "Genesis 17:11",
+      "change_summary": "Circumcision command clarified regarding its application",
+      "significance": "covenantal",
+      "notes": [
+        "The JST footnote revises the circumcision instruction to clarify the scope or framing of the ordinance as a token of the covenant, consistent with how Restoration theology distinguishes the sign from the covenant itself."
+      ]
+    },
+    {
+      "reference": "Genesis 17:12",
+      "change_summary": "Age and applicability of circumcision further specified",
+      "significance": "covenantal",
+      "notes": [
+        "Complements the revision at v. 11. The JST adjustments to the circumcision statutes in Genesis 17 are among the more granular legal clarifications in the JST footnotes, indicating Joseph Smith revisited the Abrahamic covenant texts with particular care."
+      ]
+    },
+    {
+      "reference": "Exodus 4:24",
+      "change_summary": "Subject who sought to kill Moses changed from the Lord to an angel or adversarial figure",
+      "significance": "theological",
+      "notes": [
+        "One of the most theologically significant OT footnotes. The KJV states that 'the LORD met him, and sought to kill him,' creating the disturbing image of God attempting to kill Moses. The JST reassigns this action away from God, consistent with JST's consistent effort to remove passages that depict God as violent, capricious, or contradictory toward his own servants."
+      ]
+    },
+    {
+      "reference": "Exodus 7:3",
+      "change_summary": "Hardening of Pharaoh's heart reassigned: God no longer the agent; Pharaoh hardens his own heart",
+      "significance": "theological",
+      "notes": [
+        "The KJV 'I will harden Pharaoh's heart' becomes a statement that Pharaoh will harden his own heart. This is the most prominent JST resolution of the Exodus hardening problem, which has been a locus of debate about divine determinism and human free will. The JST reading aligns with the Arminian/free-will position and with several later Exodus verses where Pharaoh is said to harden his own heart."
+      ]
+    },
+    {
+      "reference": "Exodus 32:14",
+      "change_summary": "God's 'repentance' over the golden calf judgment reframed",
+      "significance": "theological",
+      "notes": [
+        "The KJV states 'the LORD repented of the evil which he thought to do unto his people.' The JST revises this to remove the implication that God planned evil or genuinely changed his mind, consistent with the broader JST pattern of protecting divine constancy. The revision likely replaces 'repented' with language of relenting or withholding rather than regretting."
+      ]
+    },
+    {
+      "reference": "Numbers 12:3",
+      "change_summary": "Moses described as 'faithful' rather than merely 'meek'",
+      "significance": "character",
+      "notes": [
+        "The KJV's famous description of Moses as 'very meek, above all the men which were upon the face of the earth' is revised in the JST to emphasize his faithfulness to God rather than his personal humility or temperament. This shifts Moses from a characterization of passive personality to one of covenantal fidelity, which aligns better with his portrayal throughout Numbers."
+      ]
+    },
+    {
+      "reference": "Deuteronomy 10:2",
+      "change_summary": "Instruction about writing the commandments on new tablets clarified",
+      "significance": "legal",
+      "notes": [
+        "The JST footnote revises the tablet-replacement narrative to clarify the nature of what was written, consistent with Restoration theology's distinction between the higher law (given before the golden calf) and the lesser law given afterward. This connects to JST Galatians and the broader JST treatment of the law of Moses."
+      ]
+    },
+    {
+      "reference": "1 Samuel 16:14",
+      "change_summary": "Evil spirit 'from the LORD' upon Saul reframed: God withdraws his spirit rather than sending an evil one",
+      "significance": "theological",
+      "notes": [
+        "The KJV reads that 'an evil spirit from the LORD troubled him,' attributing Saul's affliction directly to divine agency. The JST reframes this so that the Lord withdraws his protective or guiding spirit, and the troubling spirit that follows is not sent by God but is a consequence of divine absence. This is consistent with JST's pattern of removing divine authorship of evil."
+      ]
+    },
+    {
+      "reference": "2 Samuel 12:13",
+      "change_summary": "Nathan's response to David's confession revised to clarify the nature of forgiveness and consequence",
+      "significance": "moral",
+      "notes": [
+        "The JST footnote adjusts Nathan's declaration to David after the Bathsheba-Uriah affair. In the KJV Nathan says 'The LORD also hath put away thy sin; thou shalt not die.' The JST introduces nuance that connects forgiveness to ongoing moral accountability, preventing the verse from being read as unconditional absolution without consequence."
+      ]
+    },
+    {
+      "reference": "Psalms 24:1",
+      "change_summary": "Declaration that the earth is the Lord's expanded with additional affirmation language",
+      "significance": "doxological",
+      "notes": [
+        "The JST footnote at this familiar psalm expands or clarifies the opening declaration of divine ownership of the earth and its inhabitants, enriching the theological statement about creation and sovereignty."
+      ]
+    },
+    {
+      "reference": "Isaiah 2:9",
+      "change_summary": "'Great man' and 'mean man' humbling themselves in judgment reframed",
+      "significance": "eschatological",
+      "notes": [
+        "The KJV reads 'And the mean man boweth down, and the great man humbleth himself: therefore forgive them not.' The JST revises this, particularly addressing who is being judged and what the appropriate response is, removing the seemingly harsh divine command not to forgive."
+      ]
+    },
+    {
+      "reference": "Isaiah 29:21",
+      "change_summary": "Description of those who 'make a man an offender for a word' clarified",
+      "significance": "social",
+      "notes": [
+        "The JST footnote refines this indictment of corrupt judges and accusers, providing clearer language about those who twist legal process to condemn the innocent. The revision underscores the prophetic critique of judicial corruption."
+      ]
+    },
+    {
+      "reference": "Amos 3:6",
+      "change_summary": "Rhetorical question about whether evil in a city comes from God revised to deny divine authorship of evil",
+      "significance": "theological",
+      "notes": [
+        "The KJV asks 'shall there be evil in a city, and the LORD hath not done it?', which can be read as asserting God causes civic evil. The JST reframes the question to distinguish between calamity permitted or allowed by God and moral evil, consistent with the JST's consistent defense of divine moral purity."
+      ]
+    },
+    {
+      "reference": "Amos 3:7",
+      "change_summary": "Prophetic disclosure principle — God reveals secrets to prophets — reinforced or expanded",
+      "significance": "prophetic",
+      "notes": [
+        "The famous statement 'Surely the Lord GOD will do nothing, but he revealeth his secret unto his servants the prophets' is a key JST touchstone passage. The JST footnote here strengthens or clarifies this principle of continuous revelation, which is foundational to Restoration ecclesiology."
+      ]
+    },
+    {
+      "reference": "Matthew 4:1",
+      "change_summary": "Purpose of wilderness visit changed: Jesus goes to commune with God, not primarily to be tempted",
+      "significance": "theological",
+      "notes": [
+        "The KJV states Jesus was 'led up of the Spirit into the wilderness to be tempted of the devil.' The JST revision reframes this so the Spirit leads Jesus to commune with God, and Satan's temptation follows afterward as an intrusion rather than the designed purpose. This removes any implication that the Holy Spirit intended Jesus to face temptation, a point of theological sensitivity across multiple traditions."
+      ]
+    },
+    {
+      "reference": "Matthew 5:50",
+      "change_summary": "Perfection command ('Be ye therefore perfect') clarified in application",
+      "significance": "ethical",
+      "notes": [
+        "The JST footnote at this verse (the conclusion of the love-your-enemies section) modifies the perfection command to contextualize what 'perfect' means in the immediate discourse, possibly limiting it to the specific context of loving enemies rather than asserting absolute moral perfection."
+      ]
+    },
+    {
+      "reference": "Matthew 6:13",
+      "change_summary": "Lead-us-not-into-temptation petition reframed: God does not lead into temptation",
+      "significance": "theological",
+      "notes": [
+        "One of the most pastorally significant JST revisions. The KJV petition 'lead us not into temptation' implies God could lead into temptation. The JST revises this to clarify that the prayer is for deliverance or preservation rather than asking God not to do something he would otherwise do. This is consistent with James 1:13 ('God cannot be tempted with evil, neither tempteth he any man')."
+      ]
+    },
+    {
+      "reference": "Matthew 7:1",
+      "change_summary": "'Judge not' absolute prohibition qualified: do not judge unrighteously",
+      "significance": "ethical",
+      "notes": [
+        "The KJV's unqualified 'Judge not, that ye be not judged' is revised in the JST to specify that unrighteous judgment is prohibited, not all judgment. This aligns with John 7:24 ('Judge righteous judgment') and prevents the verse from being used as a blanket prohibition against moral discernment. It is one of the more widely discussed JST footnotes in LDS ethical theology."
+      ]
+    },
+    {
+      "reference": "Matthew 7:2",
+      "change_summary": "Judgment-measure principle clarified to reinforce righteous discernment",
+      "significance": "ethical",
+      "notes": [
+        "Follows from the v. 1 revision. The JST adjusts the reciprocal judgment saying to fit the reframed prohibition: the concern is with the standard used, not with judging itself."
+      ]
+    },
+    {
+      "reference": "Matthew 9:18",
+      "change_summary": "Ruler's description of his daughter's condition revised: 'even now' or 'at the point of death' clarified",
+      "significance": "narrative",
+      "notes": [
+        "The JST footnote adjusts the ruler Jairus's statement about his daughter, resolving a minor tension between Matthew's account (which says she is 'even now dead') and Mark/Luke (where she is dying but not yet dead when the messenger comes). The JST revision brings greater harmony to the Synoptic accounts."
+      ]
+    },
+    {
+      "reference": "Matthew 13:39",
+      "change_summary": "Identification of 'the enemy' who sowed tares revised or clarified",
+      "significance": "eschatological",
+      "notes": [
+        "In the Parable of the Tares, Jesus identifies the enemy as 'the devil.' The JST footnote provides additional characterization or clarification about the enemy's identity and role in the eschatological harvest, enriching the parable's explanation."
+      ]
+    },
+    {
+      "reference": "Matthew 16:25",
+      "change_summary": "'Save his life' / 'lose his life' paradox clarified with qualifier about the soul",
+      "significance": "ethical",
+      "notes": [
+        "The JST footnote adds precision to the famous paradox of losing and finding life, likely specifying what kind of life is meant in each instance (temporal vs. eternal) to prevent misreading the discipleship cost as mere physical danger."
+      ]
+    },
+    {
+      "reference": "Matthew 16:26",
+      "change_summary": "Profit-the-whole-world-and-lose-soul saying clarified",
+      "significance": "ethical",
+      "notes": [
+        "Complements the v. 25 footnote. The JST revises the rhetorical question 'what is a man profited, if he shall gain the whole world, and lose his own soul?' to sharpen the soul-world exchange language."
+      ]
+    },
+    {
+      "reference": "Matthew 17:14",
+      "change_summary": "Man's approach to Jesus in the Transfiguration healing account clarified",
+      "significance": "narrative",
+      "notes": [
+        "The JST footnote revises details of the man who approaches Jesus after the Transfiguration to request healing for his son, harmonizing or adding precision to the account."
+      ]
+    },
+    {
+      "reference": "Matthew 21:47",
+      "change_summary": "Chief priests and Pharisees' perception of the Parable of the Wicked Husbandmen expanded",
+      "significance": "narrative",
+      "notes": [
+        "The JST footnote at this verse and those following expand the reaction of the religious leaders, providing additional detail about their awareness that the parable was directed at them and their intent to arrest Jesus."
+      ]
+    },
+    {
+      "reference": "Matthew 24:39",
+      "change_summary": "Flood typology in the Olivet Discourse clarified regarding the 'knew not' phrase",
+      "significance": "eschatological",
+      "notes": [
+        "The JST footnote revises 'they knew not until the flood came' to nuance what 'knew not' means — the generation before the flood was warned but did not understand or heed, which is distinct from having no knowledge at all. This fits the broader JST pattern of protecting the principle that God always warns through prophets before judgment."
+      ]
+    },
+    {
+      "reference": "Matthew 26:24",
+      "change_summary": "'Good were it for that man if he had not been born' qualified regarding Judas",
+      "significance": "moral",
+      "notes": [
+        "The JST footnote adjusts Jesus's statement about Judas's fate, which in the KJV is an absolute statement of existential condemnation. The revision may qualify the scope or meaning of 'not been born' to avoid a predestinarian reading of Judas as fated from birth to betray Christ."
+      ]
+    },
+    {
+      "reference": "Matthew 26:36",
+      "change_summary": "Gethsemane arrival and Jesus's instruction to disciples revised",
+      "significance": "narrative",
+      "notes": [
+        "The JST footnote provides additional or adjusted detail about what Jesus said to his disciples when arriving at Gethsemane, enriching the prayer-vigil narrative."
+      ]
+    },
+    {
+      "reference": "Mark 2:27",
+      "change_summary": "'The sabbath was made for man' saying clarified in scope",
+      "significance": "legal",
+      "notes": [
+        "The JST footnote refines this important principle about the sabbath's purpose, possibly adding that it was made for man's benefit and not as a burden, or clarifying the relationship between the sabbath institution and human need."
+      ]
+    },
+    {
+      "reference": "Mark 3:24",
+      "change_summary": "Kingdom/house divided saying clarified",
+      "significance": "theological",
+      "notes": [
+        "The JST footnote adjusts the logic of Jesus's response to accusations of casting out demons by Beelzebub, providing greater clarity on the divided-kingdom argument."
+      ]
+    },
+    {
+      "reference": "Mark 3:26",
+      "change_summary": "Satan rising against himself — conclusion of the Beelzebub discourse revised",
+      "significance": "theological",
+      "notes": [
+        "Complements v. 24. The JST footnote here provides a revised conclusion to the argument about Satan's self-division, clarifying the logic of Jesus's defense against the scribes' accusation."
+      ]
+    },
+    {
+      "reference": "Mark 7:22",
+      "change_summary": "Vice list in the defilement discourse revised or expanded",
+      "significance": "ethical",
+      "notes": [
+        "The JST footnote at this verse adjusts the list of evils that proceed from the heart, possibly replacing or clarifying some terms in the KJV vice catalogue."
+      ]
+    },
+    {
+      "reference": "Mark 7:23",
+      "change_summary": "Concluding statement of defilement discourse — 'these evil things come from within' — clarified",
+      "significance": "ethical",
+      "notes": [
+        "Follows from v. 22. The JST revision completes the adjustment to the inner-defilement teaching, ensuring the moral taxonomy is theologically consistent."
+      ]
+    },
+    {
+      "reference": "Mark 8:37",
+      "change_summary": "Soul-exchange question revised in the discipleship cost saying",
+      "significance": "ethical",
+      "notes": [
+        "The JST footnote adjusts the rhetorical question 'what shall a man give in exchange for his soul?', paralleling the JST revision at Matthew 16:26 and providing consistent language across Synoptic accounts."
+      ]
+    },
+    {
+      "reference": "Mark 8:38",
+      "change_summary": "Son of Man coming in glory — conditions of shame or confession clarified",
+      "significance": "eschatological",
+      "notes": [
+        "The JST footnote revises the condition for being ashamed of the Son of Man at his coming, providing additional precision about what it means to be ashamed of Jesus and his words in the context of Restoration eschatology."
+      ]
+    },
+    {
+      "reference": "Mark 9:40",
+      "change_summary": "'He that is not against us is for us' saying clarified",
+      "significance": "ethical",
+      "notes": [
+        "The JST footnote refines this saying about the unknown exorcist, clarifying the principle of inclusive recognition of good works done in Christ's name outside the immediate disciple circle."
+      ]
+    },
+    {
+      "reference": "Mark 9:44",
+      "change_summary": "Hell-fire warnings (worm dies not / fire not quenched) revised",
+      "significance": "eschatological",
+      "notes": [
+        "The JST footnote adjusts the repeated hell-fire refrain in the stumbling-block discourse. These revisions likely nuance the nature of the judgment described rather than softening the warning itself."
+      ]
+    },
+    {
+      "reference": "Mark 9:46",
+      "change_summary": "Second repetition of worm/fire judgment saying revised",
+      "significance": "eschatological",
+      "notes": [
+        "Parallel to v. 44 revision. The JST makes consistent adjustments to each occurrence of the refrain in this discourse."
+      ]
+    },
+    {
+      "reference": "Mark 9:48",
+      "change_summary": "Third and final repetition of the worm/fire saying revised",
+      "significance": "eschatological",
+      "notes": [
+        "Completes the series of JST revisions to the Gehenna warnings in Mark 9. Taken together, the three footnotes at vv. 44, 46, and 48 represent a sustained JST engagement with the language of eternal punishment in this discourse."
+      ]
+    },
+    {
+      "reference": "Mark 14:20",
+      "change_summary": "Identification of the betrayer at the Last Supper revised or clarified",
+      "significance": "narrative",
+      "notes": [
+        "The JST footnote adjusts the detail of how Jesus identifies the one who will betray him, potentially harmonizing with or diverging from the parallel accounts in Matthew, Luke, and John."
+      ]
+    },
+    {
+      "reference": "Mark 14:25",
+      "change_summary": "Jesus's vow not to drink wine until the kingdom — timing or scope clarified",
+      "significance": "sacramental",
+      "notes": [
+        "The JST footnote revises this eschatological Passover saying about drinking wine 'new in the kingdom of God,' providing additional context for the sacramental meal within Restoration worship theology."
+      ]
+    },
+    {
+      "reference": "Luke 1:28",
+      "change_summary": "Gabriel's greeting to Mary — 'highly favoured' language clarified",
+      "significance": "mariological",
+      "notes": [
+        "The KJV 'Hail, thou that art highly favoured' has been a Mariological flashpoint since the Latin Vulgate rendered it 'gratia plena' (full of grace). The JST footnote adjusts this greeting to remove any implication of an elevated ontological status for Mary beyond divine favor, consistent with Protestant and Restoration readings."
+      ]
+    },
+    {
+      "reference": "Luke 3:19",
+      "change_summary": "John's rebuke of Herod Antipas — cause expanded beyond Herodias",
+      "significance": "narrative",
+      "notes": [
+        "The JST footnote expands the reason for John's imprisonment beyond his rebuke about Herodias, adding that John also rebuked Herod for other evils. This matches the spirit of Luke 3:19 KJV ('for all the evils which Herod had done') but may add specificity."
+      ]
+    },
+    {
+      "reference": "Luke 3:20",
+      "change_summary": "Herod's act of imprisoning John presented as adding to his prior sins",
+      "significance": "narrative",
+      "notes": [
+        "Follows from v. 19. The JST footnote strengthens the moral characterization of Herod's imprisonment of John as a culminating act of wickedness."
+      ]
+    },
+    {
+      "reference": "Luke 6:29",
+      "change_summary": "Turn-the-other-cheek and cloak sayings revised in the discipleship discourse",
+      "significance": "ethical",
+      "notes": [
+        "The JST footnote at this verse refines the radical nonresistance commands, possibly clarifying their scope or framing them within a covenant community context rather than as absolute civil-law instructions."
+      ]
+    },
+    {
+      "reference": "Luke 6:30",
+      "change_summary": "Give-to-everyone-who-asks command qualified",
+      "significance": "ethical",
+      "notes": [
+        "The JST revision likely adds a qualifier to the absolute giving command — possibly framing it as giving to those in need or those who ask according to right — preventing an unqualified reading that all requests must be met."
+      ]
+    },
+    {
+      "reference": "Luke 9:24",
+      "change_summary": "Lose-your-life-to-save-it paradox clarified (parallel to Matt 16:25)",
+      "significance": "ethical",
+      "notes": [
+        "The JST footnote provides consistent cross-Gospel revision of the discipleship cost paradox. See notes at Matthew 16:25."
+      ]
+    },
+    {
+      "reference": "Luke 9:25",
+      "change_summary": "Soul-for-the-world exchange saying clarified (parallel to Matt 16:26)",
+      "significance": "ethical",
+      "notes": [
+        "Consistent with the JST revision at Matthew 16:26 and Mark 8:37. The JST brings the three Synoptic parallels into terminological harmony."
+      ]
+    },
+    {
+      "reference": "Luke 11:4",
+      "change_summary": "Lukan Lord's Prayer — lead-us-not-into-temptation petition revised (parallel to Matt 6:13)",
+      "significance": "theological",
+      "notes": [
+        "The same revision applied at Matthew 6:13 is applied here to the Lukan version of the Lord's Prayer, ensuring that both canonical versions of the prayer carry the same JST clarification that God does not lead into temptation. See notes at Matthew 6:13."
+      ]
+    },
+    {
+      "reference": "Luke 12:9",
+      "change_summary": "Denial before angels — conditions of denial or confession clarified",
+      "significance": "eschatological",
+      "notes": [
+        "The JST footnote revises the consequences of denying Christ before men, clarifying the relationship between earthly denial and divine judgment before the angels."
+      ]
+    },
+    {
+      "reference": "Luke 12:10",
+      "change_summary": "Blasphemy against the Holy Ghost — unforgivable sin defined with additional precision",
+      "significance": "theological",
+      "notes": [
+        "One of the more doctrinally significant Lukan footnotes. The JST revision provides additional clarity about what constitutes blasphemy against the Holy Ghost, consistent with Restoration theology's detailed treatment of the unpardonable sin."
+      ]
+    },
+    {
+      "reference": "Luke 12:12",
+      "change_summary": "Promise of Holy Ghost instruction in persecution revised",
+      "significance": "pneumatological",
+      "notes": [
+        "The JST footnote adjusts the promise to disciples that the Holy Ghost will teach them what to say when brought before authorities."
+      ]
+    },
+    {
+      "reference": "Luke 14:26",
+      "change_summary": "'Hate' father, mother, wife, children reframed as loving less or prioritizing less",
+      "significance": "ethical",
+      "notes": [
+        "The KJV 'If any man come to me, and hate not his father, and mother, and wife, and children' is one of the most jarring discipleship sayings. The JST footnote revises 'hate' to indicate a comparative priority rather than actual hatred, consistent with the parallel Matthean saying (Matt 10:37: 'he that loveth father or mother more than me') and with common exegetical tradition."
+      ]
+    },
+    {
+      "reference": "Luke 16:16",
+      "change_summary": "Law and prophets until John — the kingdom of God since preached — transition reframed",
+      "significance": "theological",
+      "notes": [
+        "The JST footnote revises this difficult transitional saying about the role of John the Baptist as the terminus of the old era, clarifying the relationship between the Law, the Prophets, and the new covenant proclamation."
+      ]
+    },
+    {
+      "reference": "Luke 16:18",
+      "change_summary": "Divorce and remarriage causing adultery — qualified or contextualized",
+      "significance": "ethical",
+      "notes": [
+        "The JST footnote at this verse on divorce and adultery adds context or qualification to the absolute statement in the KJV, consistent with JST's nuanced handling of marriage law."
+      ]
+    },
+    {
+      "reference": "Luke 16:22",
+      "change_summary": "Rich man and Lazarus — the beggar's destination or state revised",
+      "significance": "eschatological",
+      "notes": [
+        "The JST footnote revises details of Lazarus's post-death state in the parable, providing Restoration-consistent language about the spirit world."
+      ]
+    },
+    {
+      "reference": "Luke 16:23",
+      "change_summary": "Rich man in hell — nature or location of torment qualified",
+      "significance": "eschatological",
+      "notes": [
+        "Follows from v. 22. The JST revision nuances the rich man's 'hell' (Greek: Hades), which in Restoration theology is understood as the spirit prison rather than final perdition."
+      ]
+    },
+    {
+      "reference": "Luke 17:36",
+      "change_summary": "Two men in the field — one taken, one left — eschatological context clarified",
+      "significance": "eschatological",
+      "notes": [
+        "The JST footnote revises one of the eschatological 'taking' sayings, providing additional context about who is taken and the nature of the gathering or judgment described."
+      ]
+    },
+    {
+      "reference": "Luke 17:40",
+      "change_summary": "Additional detail about the eschatological separation saying",
+      "significance": "eschatological",
+      "notes": [
+        "Follows from v. 36. The JST extends or completes the revision of this eschatological cluster in Luke 17."
+      ]
+    },
+    {
+      "reference": "John 1:1",
+      "change_summary": "'The Word was God' clause clarified: the Word was with God and was a God, or was divine",
+      "significance": "christological",
+      "notes": [
+        "One of the most theologically significant NT footnotes. The KJV 'the Word was God' is central to Trinitarian Christology. The JST footnote introduces a revision that qualifies or distinguishes the Word's relationship to God the Father, consistent with Restoration theology's understanding of distinct divine persons. This parallels the NWT rendering but arrives from a different theological tradition."
+      ]
+    },
+    {
+      "reference": "John 4:24",
+      "change_summary": "'God is a Spirit' revised to 'God is a spirit' or reframed regarding divine embodiment",
+      "significance": "theological",
+      "notes": [
+        "The KJV's 'God is a Spirit' has been foundational to incorporeal theism. The JST footnote revises this statement in a way that opens space for Restoration theology's teaching that the Father has a body of flesh and bones. The revision is among the most doctrinally consequential JST footnotes for LDS theology proper."
+      ]
+    },
+    {
+      "reference": "John 4:26",
+      "change_summary": "Jesus's self-disclosure to the Samaritan woman revised",
+      "significance": "christological",
+      "notes": [
+        "The JST footnote adjusts the 'I that speak unto thee am he' messianic disclosure to provide additional clarity about the nature of Jesus's claim or the Samaritan woman's response."
+      ]
+    },
+    {
+      "reference": "John 6:44",
+      "change_summary": "'No man can come to me, except the Father draw him' — drawing/enabling language revised",
+      "significance": "soteriological",
+      "notes": [
+        "The JST footnote revises this verse, which is a major prooftext for Calvinist irresistible grace. The revision likely introduces language of enlightenment or invitation rather than irresistible divine compulsion, consistent with Restoration free-agency theology."
+      ]
+    },
+    {
+      "reference": "John 13:8",
+      "change_summary": "Peter's protest against foot-washing revised",
+      "significance": "sacramental",
+      "notes": [
+        "The JST footnote revises Peter's refusal to let Jesus wash his feet, adding depth to the exchange about what it means to have 'part' with Jesus through this act of humility."
+      ]
+    },
+    {
+      "reference": "John 13:10",
+      "change_summary": "'He that is washed needeth not' — cleansing language in foot-washing discourse clarified",
+      "significance": "sacramental",
+      "notes": [
+        "The JST footnote adjusts Jesus's response about the bathed person needing only feet-washing, clarifying the relationship between initial and ongoing purification in the sacramental discourse."
+      ]
+    },
+    {
+      "reference": "Acts 22:9",
+      "change_summary": "Companions' experience on the Damascus road — whether they heard the voice clarified",
+      "significance": "narrative",
+      "notes": [
+        "The KJV Acts 22:9 states Paul's companions 'heard not the voice,' while Acts 9:7 says they 'heard a voice,' creating an apparent contradiction. The JST footnote revises one account to harmonize the two, likely clarifying that they heard a sound but did not understand the words or hear the message."
+      ]
+    },
+    {
+      "reference": "Romans 3:24",
+      "change_summary": "Justification 'freely by his grace' — qualifying language added",
+      "significance": "soteriological",
+      "notes": [
+        "The JST footnote revises Paul's statement about justification by grace, adding context that prevents the verse from being read as unconditional salvation apart from any response of faith or covenant faithfulness."
+      ]
+    },
+    {
+      "reference": "Romans 4:16",
+      "change_summary": "Promise by faith and grace to Abraham's seed clarified",
+      "significance": "covenantal",
+      "notes": [
+        "The JST footnote adjusts Paul's argument about the Abrahamic promise being received through faith rather than law, clarifying how the covenant extends to all Abraham's children."
+      ]
+    },
+    {
+      "reference": "Romans 7:14",
+      "change_summary": "'I am carnal, sold under sin' reframed — Paul's statement clarified as describing unregenerate humanity rather than his own current state",
+      "significance": "anthropological",
+      "notes": [
+        "The famous Romans 7 'wretched man' passage has long divided interpreters over whether Paul describes his pre-Christian or Christian experience. The JST footnote at v. 14 reframes the speaker as a man under the law prior to conversion, removing the troubling implication that a mature apostle experiences total moral defeat."
+      ]
+    },
+    {
+      "reference": "Romans 7:15",
+      "change_summary": "'What I would, that do I not' struggle reframed as describing pre-conversion moral conflict",
+      "significance": "anthropological",
+      "notes": [
+        "Follows from v. 14. The JST consistently reframes Romans 7:14–25 as a pre-grace portrait rather than an ongoing apostolic confession of moral failure, consistent with Restoration perfectionism and free-agency theology."
+      ]
+    },
+    {
+      "reference": "Romans 8:29",
+      "change_summary": "Foreknowledge and predestination language revised",
+      "significance": "soteriological",
+      "notes": [
+        "The KJV's 'whom he did foreknow, he also did predestinate to be conformed to the image of his Son' is a central Calvinist predestination text. The JST footnote revises the relationship between divine foreknowledge and predestination to protect human free agency, likely replacing 'predestinate' with language of foreordination or calling."
+      ]
+    },
+    {
+      "reference": "Romans 8:30",
+      "change_summary": "Golden chain of salvation (called, justified, glorified) qualified",
+      "significance": "soteriological",
+      "notes": [
+        "Follows from v. 29. The JST revision continues to nuance the chain of salvation, ensuring it does not read as unconditional election to salvation regardless of covenant faithfulness."
+      ]
+    },
+    {
+      "reference": "Romans 13:1",
+      "change_summary": "'The powers that be are ordained of God' — absolute civil authority claim qualified",
+      "significance": "political",
+      "notes": [
+        "The KJV's 'there is no power but of God: the powers that be are ordained of God' has been used to justify absolute civil obedience. The JST footnote revises this to qualify that governments are ordained within limits, preventing its use as a mandate for unconditional submission to tyrannical authority."
+      ]
+    },
+    {
+      "reference": "1 Corinthians 7:29",
+      "change_summary": "Marriage and celibacy in light of the short time — eschatological context clarified",
+      "significance": "ethical",
+      "notes": [
+        "Paul's statement that 'the time is short' and that those with wives should be 'as though they had none' has ascetic and celibate implications. The JST footnote revises this to clarify that Paul is not denigrating marriage but speaking about eschatological priorities."
+      ]
+    },
+    {
+      "reference": "1 Corinthians 15:40",
+      "change_summary": "Celestial and terrestrial bodies — three degrees of glory language introduced or expanded",
+      "significance": "eschatological",
+      "notes": [
+        "One of the most doctrinally significant JST footnotes for Restoration eschatology. The KJV mentions celestial and terrestrial bodies in the resurrection discourse. The JST revision introduces 'telestial' as a third category alongside celestial and terrestrial, which is the biblical basis for LDS three-degrees-of-glory theology. This is a rare instance where a JST footnote introduces a word not found in the KJV."
+      ]
+    },
+    {
+      "reference": "2 Corinthians 5:16",
+      "change_summary": "'Know Christ after the flesh' — meaning of knowing Christ in fleshly terms revised",
+      "significance": "christological",
+      "notes": [
+        "The JST footnote revises Paul's statement about knowing Christ after the flesh, which in context likely refers to evaluating Christ by worldly standards. The revision clarifies the epistemological claim Paul is making."
+      ]
+    },
+    {
+      "reference": "Galatians 3:19",
+      "change_summary": "Law added because of transgressions — purpose and giver of the law revised",
+      "significance": "covenantal",
+      "notes": [
+        "A key JST footnote for understanding Restoration law theology. The KJV states the law 'was added because of transgressions, till the seed should come,' implying the Mosaic law was a secondary addition to the Abrahamic covenant. The JST revision emphasizes that this lesser law was given through angels rather than directly by God, echoing Stephen's speech in Acts 7 and JST Deuteronomy's treatment of tablets."
+      ]
+    },
+    {
+      "reference": "Galatians 3:20",
+      "change_summary": "Mediator and the oneness of God — verse revised for clarity",
+      "significance": "theological",
+      "notes": [
+        "One of the most obscure verses in the NT ('a mediator is not a mediator of one, but God is one'). The JST footnote revises this to provide a clearer statement about the relationship between the mediatorial role and divine unity, likely in light of Restoration Christology."
+      ]
+    },
+    {
+      "reference": "Ephesians 4:26",
+      "change_summary": "'Be ye angry, and sin not' — anger qualified as not in itself sinful but requiring immediate resolution",
+      "significance": "ethical",
+      "notes": [
+        "The JST footnote revises this Pauline citation of Psalm 4:4, clarifying the relationship between righteous indignation and sinful anger. The revision ensures the verse is not read as a general permission to be angry."
+      ]
+    },
+    {
+      "reference": "1 Thessalonians 4:15",
+      "change_summary": "'We which are alive and remain unto the coming of the Lord' — apostolic expectation of imminent return reframed",
+      "significance": "eschatological",
+      "notes": [
+        "Paul's first-person 'we' language in the Parousia expectation implies he expected to be alive at the Second Coming. The JST footnote revises this to a more general statement about those alive at that time, removing the implication that Paul was mistaken about the timing of the return."
+      ]
+    },
+    {
+      "reference": "2 Thessalonians 2:2",
+      "change_summary": "Day of Christ warning — 'is at hand' timing qualified",
+      "significance": "eschatological",
+      "notes": [
+        "The JST footnote revises the warning not to be 'shaken in mind' that the day of Christ 'is at hand,' adjusting the temporal language to address how the Thessalonian community should understand eschatological urgency without despair."
+      ]
+    },
+    {
+      "reference": "2 Thessalonians 2:3",
+      "change_summary": "Apostasy must come first — the falling away before the Day of the Lord clarified",
+      "significance": "eschatological",
+      "notes": [
+        "The JST footnote at the famous apostasy-before-return verse adjusts the description of the 'falling away' (Greek: apostasia) and the 'man of sin,' providing additional clarity consistent with Restoration Great Apostasy theology."
+      ]
+    },
+    {
+      "reference": "1 Timothy 2:4",
+      "change_summary": "God's desire that all men be saved — scope qualified",
+      "significance": "soteriological",
+      "notes": [
+        "The KJV 'Who will have all men to be saved, and to come unto the knowledge of the truth' is used in debates about universal vs. particular atonement. The JST footnote revises this to introduce conditions or qualifications consistent with Restoration free-agency soteriology."
+      ]
+    },
+    {
+      "reference": "1 Timothy 6:15",
+      "change_summary": "God as 'the blessed and only Potentate' — divine titles revised",
+      "significance": "theological",
+      "notes": [
+        "The JST footnote adjusts Paul's doxological description of God as Potentate, King of kings, and Lord of lords, providing language more consistent with Restoration Christology's assignment of such titles."
+      ]
+    },
+    {
+      "reference": "1 Timothy 6:16",
+      "change_summary": "'Who only hath immortality, dwelling in unapproachable light' — divine attributes revised",
+      "significance": "theological",
+      "notes": [
+        "The KJV statement that God 'dwelleth in the light which no man can approach unto; whom no man hath seen, nor can see' appears to contradict JST/Restoration accounts of theophanies (Moses, Joseph Smith). The JST footnote revises the 'no man can see' language to accommodate direct divine encounter within proper covenant conditions."
+      ]
+    },
+    {
+      "reference": "Hebrews 1:1",
+      "change_summary": "God speaking through prophets in past times — continuity of revelation affirmed",
+      "significance": "prophetic",
+      "notes": [
+        "The JST footnote revises the opening of Hebrews, which in the KJV contrasts past revelation through prophets with final revelation through the Son. The revision prevents the verse from being used to argue that prophetic revelation ceased with the Son, consistent with Restoration ongoing-revelation theology."
+      ]
+    },
+    {
+      "reference": "Hebrews 1:2",
+      "change_summary": "Son as heir of all things and maker of worlds — cosmological language expanded or clarified",
+      "significance": "christological",
+      "notes": [
+        "The JST footnote at v. 2 expands the description of the Son's cosmological role, providing additional language about creation through Christ consistent with Restoration pre-mortal Christology."
+      ]
+    },
+    {
+      "reference": "Hebrews 6:1",
+      "change_summary": "Foundational doctrines listed revised — 'leaving' the principles of Christ reframed as 'not leaving' or 'not forsaking'",
+      "significance": "doctrinal",
+      "notes": [
+        "One of the most important JST footnotes in Hebrews. The KJV 'leaving the principles of the doctrine of Christ, and going on unto perfection' implies the foundational doctrines (repentance, baptism, etc.) are to be left behind as one matures. The JST revises 'leaving' so these principles are not abandoned but retained and built upon, consistent with Restoration insistence on ongoing ordinance observance."
+      ]
+    },
+    {
+      "reference": "Hebrews 7:3",
+      "change_summary": "Melchizedek described as 'without father, without mother' — interpreted as pertaining to his priestly order, not his person",
+      "significance": "priestly",
+      "notes": [
+        "The JST footnote at this famous Melchizedek verse revises the 'without father, without mother, without descent' language to clarify that this description applies to the priesthood order he holds, not to Melchizedek as a person. This removes the implication that Melchizedek was a supernatural or uncreated being."
+      ]
+    },
+    {
+      "reference": "Hebrews 11:1",
+      "change_summary": "Definition of faith as 'the substance of things hoped for' — 'assurance' language introduced or strengthened",
+      "significance": "doctrinal",
+      "notes": [
+        "The JST footnote revises the famous faith definition, adjusting 'substance' (Greek: hypostasis) to provide a more active or forward-looking definition. Restoration scripture (Alma 32) develops a seed-growth model of faith that the JST revision here aligns with."
+      ]
+    },
+    {
+      "reference": "Hebrews 11:40",
+      "change_summary": "OT saints cannot be made perfect without NT saints — communal perfection revised",
+      "significance": "eschatological",
+      "notes": [
+        "The JST footnote revises this statement about the communal nature of perfection across dispensations, which is a key text for LDS temple and genealogical work. The revision clarifies the inter-generational dependency of salvation."
+      ]
+    },
+    {
+      "reference": "James 2:14",
+      "change_summary": "Faith without works — rhetorical question about profitability revised",
+      "significance": "soteriological",
+      "notes": [
+        "The JST footnote at the beginning of James's faith-and-works argument revises the rhetorical question 'what doth it profit, my brethren, though a man say he hath faith, and have not works? can faith save him?' to provide greater clarity about the kind of faith under discussion."
+      ]
+    },
+    {
+      "reference": "James 2:15",
+      "change_summary": "Illustration of naked and hungry person — practical charity example clarified",
+      "significance": "ethical",
+      "notes": [
+        "The JST footnote adjusts the practical illustration James uses to demonstrate faith without works, ensuring the moral logic is clear."
+      ]
+    },
+    {
+      "reference": "James 2:17",
+      "change_summary": "'Faith without works is dead' conclusion revised or reinforced",
+      "significance": "soteriological",
+      "notes": [
+        "The JST footnote at this concluding statement of the faith-works section provides additional precision about the relationship between faith and works in Restoration soteriology."
+      ]
+    },
+    {
+      "reference": "1 John 3:9",
+      "change_summary": "'Whosoever is born of God doth not commit sin' — absolute claim qualified",
+      "significance": "ethical",
+      "notes": [
+        "The KJV's absolute 'he cannot sin, because he is born of God' implies sinless perfection for the regenerate. The JST footnote revises this to a conditional or qualified statement, consistent with Restoration teaching that moral agency and accountability remain even for the sanctified."
+      ]
+    },
+    {
+      "reference": "1 John 4:12",
+      "change_summary": "'No man hath seen God at any time' revised to accommodate theophany accounts",
+      "significance": "theological",
+      "notes": [
+        "The KJV 'No man hath seen God at any time' is a major prooftext for divine invisibility and incorporeality. The JST footnote revises this, as it does the parallel in John 1:18, to accommodate the theophany experiences of Moses, Isaiah, and others — and by extension Joseph Smith's First Vision. The revision likely introduces a qualification about seeing God without proper preparation or priesthood standing."
+      ]
+    },
+    {
+      "reference": "Revelation 1:5",
+      "change_summary": "Doxological description of Christ — 'first begotten of the dead' and 'prince of the kings' language adjusted",
+      "significance": "christological",
+      "notes": [
+        "The JST footnote revises the opening doxology of Revelation, adjusting the titles and relationships ascribed to Christ in the greeting, consistent with Restoration Christology."
+      ]
+    },
+    {
+      "reference": "Revelation 1:6",
+      "change_summary": "Saints made 'kings and priests' — Melchizedek priesthood connection clarified",
+      "significance": "priestly",
+      "notes": [
+        "The JST footnote revises the royal-priestly status statement to provide language consistent with Restoration priesthood theology, where the Melchizedek Priesthood confers both kingly and priestly status."
+      ]
+    },
+    {
+      "reference": "Revelation 2:22",
+      "change_summary": "Jezebel's punishment — 'bed' of suffering revised or clarified",
+      "significance": "moral",
+      "notes": [
+        "The JST footnote adjusts the letter to Thyatira's threat against Jezebel and those who commit adultery with her, providing clearer language about the judgment described."
+      ]
+    },
+    {
+      "reference": "Revelation 2:26",
+      "change_summary": "Promise to the overcomer — power over nations revised",
+      "significance": "eschatological",
+      "notes": [
+        "The JST footnote revises the promise of rule over nations given to the one who overcomes and keeps works to the end, clarifying the nature of the eschatological authority promised."
+      ]
+    },
+    {
+      "reference": "Revelation 2:27",
+      "change_summary": "Rod of iron rule over nations — ruling and breaking of pots clarified",
+      "significance": "eschatological",
+      "notes": [
+        "Follows from v. 26. The JST revises the Psalm 2 citation about ruling with a rod of iron, which appears across Revelation and Book of Mormon. The revision clarifies the scope and nature of this authority."
+      ]
+    },
+    {
+      "reference": "Revelation 5:6",
+      "change_summary": "Lamb with seven horns and seven eyes — 'spirits of God sent into all the earth' identified",
+      "significance": "christological",
+      "notes": [
+        "The JST footnote revises the description of the Lamb's seven eyes as the seven Spirits of God, providing additional identification or characterization of these spirits consistent with Restoration pneumatology."
+      ]
+    },
+    {
+      "reference": "Revelation 12:1",
+      "change_summary": "Woman clothed with the sun — identity of the woman clarified",
+      "significance": "eschatological",
+      "notes": [
+        "One of the most debated symbols in Revelation. The JST footnotes across Revelation 12 provide significant reframing of the woman's identity. The revision at v. 1 begins a systematic clarification of the cosmic woman as representing the church or the covenant people rather than Mary or Israel alone."
+      ]
+    },
+    {
+      "reference": "Revelation 12:7",
+      "change_summary": "War in heaven — Michael and his angels versus the dragon reframed",
+      "significance": "cosmological",
+      "notes": [
+        "The JST footnote at the war-in-heaven verse provides additional context or revised language about Michael's identity and the nature of the pre-mortal conflict, consistent with Restoration pre-mortality theology where Michael is identified as Adam."
+      ]
+    },
+    {
+      "reference": "Revelation 12:17",
+      "change_summary": "Dragon making war with the remnant of the woman's seed — the remnant identified",
+      "significance": "eschatological",
+      "notes": [
+        "The JST footnote revises the description of those against whom the dragon wages war, clarifying who constitutes the 'remnant of her seed' in eschatological terms."
+      ]
+    },
+    {
+      "reference": "Revelation 19:15",
+      "change_summary": "Sharp sword from Christ's mouth and rule with rod of iron revised",
+      "significance": "eschatological",
+      "notes": [
+        "The JST footnote revises the description of the returning Christ in the parousia vision, adjusting the violent imagery of the sharp sword and rod-of-iron rule while preserving the eschatological authority claim."
+      ]
+    },
+    {
+      "reference": "Revelation 19:18",
+      "change_summary": "Flesh of kings, captains, mighty men at the great supper of God — scope or meaning revised",
+      "significance": "eschatological",
+      "notes": [
+        "The JST footnote revises the gruesome battle-feast imagery, which describes birds eating the flesh of fallen enemies, adjusting its eschatological meaning or framing."
+      ]
+    },
+    {
+      "reference": "Revelation 20:6",
+      "change_summary": "Blessed and holy — those who have part in the first resurrection — eternal death and priesthood language clarified",
+      "significance": "eschatological",
+      "notes": [
+        "The JST footnote revises the blessing pronounced on those in the first resurrection, clarifying what it means that 'the second death hath no power' over them and their role as priests of God and Christ."
+      ]
+    },
+    {
+      "reference": "Revelation 21:24",
+      "change_summary": "Nations walking in the light of the New Jerusalem — 'saved' nations language revised",
+      "significance": "eschatological",
+      "notes": [
+        "The JST footnote revises the vision of nations bringing glory into the New Jerusalem, clarifying which nations are described and the nature of their participation in the eternal city, consistent with Restoration three-degrees-of-glory eschatology."
+      ]
+    }
+  ]
+}

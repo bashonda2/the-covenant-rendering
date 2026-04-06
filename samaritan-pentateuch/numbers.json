@@ -1,0 +1,262 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Numbers",
+    "tradition": "samaritan-pentateuch",
+    "tradition_label": "Samaritan Pentateuch",
+    "source_text": "Samaritan Pentateuch (critical editions)",
+    "base_text": "Westminster Leningrad Codex (WLC)",
+    "date": "4th c. BCE divergence",
+    "generated_at": "2026-04-05T00:00:00Z",
+    "prompt_version": "1.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Numbers in the SP contains a moderate number of significant variants, primarily in the Balaam oracles (Num 22-24), census figures, and the itinerary sections. SP continues its harmonistic program by inserting fulfillment reports where MT has only commands, and it makes several adjustments to the Balaam narrative that affect theological interpretation. Some census numbers differ between SP and MT.",
+    "notable_variants": "The Balaam oracles (Num 23-24) contain variants that affect messianic interpretation. Numbers 10:10 has a Gerizim-related variant. Several census figures in chapters 1-4 and 26 show minor numerical differences. The red heifer legislation (Num 19) has minor terminological variants.",
+    "theological_significance": "SP Numbers reinforces Gerizim theology in the few places where sanctuary location is relevant. The Balaam oracles are interpreted in Samaritan tradition as referring to the Taheb (Samaritan restorer figure) rather than a Davidic king. The harmonistic expansions continue SP's program of ensuring narrative consistency between divine command and human execution."
+  },
+  "variants": [
+    {
+      "reference": "Numbers 1:24",
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "Census of Gad: 45,650",
+      "sp_reading": "Census of Gad: 45,650",
+      "mt_rendering": "forty-five thousand six hundred and fifty",
+      "sp_rendering": "forty-five thousand six hundred and fifty",
+      "notes": ["Most first-census figures agree between MT and SP. Minor orthographic differences in how numbers are expressed."]
+    },
+    {
+      "reference": "Numbers 2:14",
+      "has_variant": true,
+      "significance": "moderate",
+      "mt_reading": "רְעוּאֵל",
+      "sp_reading": "דְּעוּאֵל",
+      "mt_rendering": "Reuel",
+      "sp_rendering": "Deuel",
+      "notes": ["The name of the Gadite leader's father varies: MT reads 'Reuel' here (but 'Deuel' in 1:14, 7:42, 10:20). SP reads 'Deuel' consistently throughout, harmonizing the name. The resh/daleth confusion is one of the most common scribal errors in Hebrew."]
+    },
+    {
+      "reference": "Numbers 4:14",
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "Levitical service vessels list",
+      "sp_reading": "Slightly expanded vessel list",
+      "mt_rendering": "(Standard vessel list)",
+      "sp_rendering": "(Expanded with additional items from parallel passages)",
+      "notes": ["SP harmonizes the Kohathite duties with related passages, adding minor details about the service vessels."]
+    },
+    {
+      "reference": "Numbers 6:26",
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "יִשָּׂא יְהוָה פָּנָיו אֵלֶיךָ",
+      "sp_reading": "ישא יהוה פניו אליך",
+      "mt_rendering": "The LORD lift up his countenance upon you",
+      "sp_rendering": "The LORD lift up his countenance upon you",
+      "notes": ["The priestly blessing (Birkat Kohanim) is identical in MT and SP. This blessing remains central to Samaritan liturgy."]
+    },
+    {
+      "reference": "Numbers 10:10",
+      "has_variant": true,
+      "significance": "moderate",
+      "mt_reading": "Standard trumpet legislation",
+      "sp_reading": "Trumpet legislation with added reference to the chosen place",
+      "mt_rendering": "(Standard legislation about festival trumpets)",
+      "sp_rendering": "(SP adds contextual reference to worship at the chosen place)",
+      "notes": ["SP connects the trumpet legislation to the designated sanctuary, reinforcing centralized worship at Gerizim."]
+    },
+    {
+      "reference": "Numbers 10:33",
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "שְׁלֹשֶׁת יָמִים",
+      "sp_reading": "שלשת ימים",
+      "mt_rendering": "three days",
+      "sp_rendering": "three days",
+      "notes": ["The ark's journey from Sinai — text agrees between MT and SP."]
+    },
+    {
+      "reference": "Numbers 12:1",
+      "has_variant": true,
+      "significance": "moderate",
+      "mt_reading": "הָאִשָּׁה הַכֻּשִׁית",
+      "sp_reading": "האשה הכשית",
+      "mt_rendering": "the Cushite woman",
+      "sp_rendering": "the Cushite woman",
+      "notes": ["SP agrees with MT on the Cushite wife reference. Some SP manuscripts show minor orthographic variance, but the content is identical. Samaritan tradition does not identify this woman differently from Jewish tradition."]
+    },
+    {
+      "reference": "Numbers 12:8",
+      "has_variant": true,
+      "significance": "moderate",
+      "mt_reading": "וּתְמֻנַת יְהוָה יַבִּיט",
+      "sp_reading": "ותמונת יהוה יביט",
+      "mt_rendering": "and he beholds the form of the LORD",
+      "sp_rendering": "and he beholds the form of the LORD",
+      "notes": ["SP retains the anthropomorphic language here despite its usual tendency to soften such expressions. Moses' unique prophetic status is affirmed in both traditions."]
+    },
+    {
+      "reference": "Numbers 13:1",
+      "has_variant": true,
+      "significance": "moderate",
+      "mt_reading": "וַיְדַבֵּר יְהוָה אֶל־מֹשֶׁה לֵּאמֹר",
+      "sp_reading": "SP adds fulfillment from Deuteronomy 1:22-23",
+      "mt_rendering": "And the LORD spoke to Moses saying",
+      "sp_rendering": "(SP adds the people's request to send spies, harmonizing with Deut 1:22-23)",
+      "notes": ["In MT, the spy mission originates with God's command. Deuteronomy 1:22 says the people requested it. SP harmonizes by inserting the people's request before God's command, making both accounts consistent. This is one of SP's most notable harmonistic additions in Numbers."]
+    },
+    {
+      "reference": "Numbers 14:40",
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "הִנֶּנּוּ וְעָלִינוּ",
+      "sp_reading": "הננו ועלינו",
+      "mt_rendering": "Here we are, and we will go up",
+      "sp_rendering": "Here we are, and we will go up",
+      "notes": ["The failed Hormah campaign narrative agrees between MT and SP."]
+    },
+    {
+      "reference": "Numbers 16:1",
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "וַיִּקַּח קֹרַח",
+      "sp_reading": "ויקח קרח",
+      "mt_rendering": "And Korah took",
+      "sp_rendering": "And Korah took",
+      "notes": ["The Korah rebellion narrative is essentially identical in MT and SP. No significant theological variants."]
+    },
+    {
+      "reference": "Numbers 19:2",
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "פָרָה אֲדֻמָּה תְמִימָה",
+      "sp_reading": "פרה אדמה תמימה",
+      "mt_rendering": "a red heifer, unblemished",
+      "sp_rendering": "a red heifer, unblemished",
+      "notes": ["The red heifer legislation is identical in MT and SP. Both traditions preserve this ritual, though Samaritans last performed it on Mount Gerizim."]
+    },
+    {
+      "reference": "Numbers 20:13",
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "הֵמָּה מֵי מְרִיבָה",
+      "sp_reading": "המה מי מריבה",
+      "mt_rendering": "These are the waters of Meribah",
+      "sp_rendering": "These are the waters of Meribah",
+      "notes": ["The Meribah narrative agrees between MT and SP."]
+    },
+    {
+      "reference": "Numbers 21:20",
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "Itinerary stations",
+      "sp_reading": "Itinerary stations with minor name variants",
+      "mt_rendering": "(Standard itinerary)",
+      "sp_rendering": "(Minor orthographic variants in place names)",
+      "notes": ["Several place names in the wilderness itinerary show minor spelling differences between MT and SP."]
+    },
+    {
+      "reference": "Numbers 22:5",
+      "has_variant": true,
+      "significance": "moderate",
+      "mt_reading": "פְּתוֹרָה אֲשֶׁר עַל־הַנָּהָר אֶרֶץ בְּנֵי־עַמּוֹ",
+      "sp_reading": "פתורה אשר על הנהר ארץ בני עמון",
+      "mt_rendering": "to Pethor, which is by the River, the land of the sons of his people",
+      "sp_rendering": "to Pethor, which is by the River, the land of the sons of Ammon",
+      "notes": ["SP reads 'Ammon' (עמון) where MT reads 'his people' (עמו). SP's reading gives a more specific geographical location and is supported by some LXX manuscripts."]
+    },
+    {
+      "reference": "Numbers 22:20",
+      "has_variant": true,
+      "significance": "moderate",
+      "mt_reading": "אִם־לִקְרֹא לְךָ בָּאוּ הָאֲנָשִׁים",
+      "sp_reading": "SP expands God's speech to Balaam",
+      "mt_rendering": "If the men have come to call you",
+      "sp_rendering": "(SP expands the divine speech with additional conditions)",
+      "notes": ["SP adds material to God's nighttime speech to Balaam, smoothing the apparent contradiction between God giving permission (22:20) and being angry that Balaam went (22:22)."]
+    },
+    {
+      "reference": "Numbers 23:10",
+      "has_variant": true,
+      "significance": "moderate",
+      "mt_reading": "מִי מָנָה עֲפַר יַעֲקֹב",
+      "sp_reading": "מי מנה עפר יעקב",
+      "mt_rendering": "Who can count the dust of Jacob",
+      "sp_rendering": "Who can count the dust of Jacob",
+      "notes": ["Balaam's first oracle largely agrees between MT and SP. Minor orthographic differences only."]
+    },
+    {
+      "reference": "Numbers 24:7",
+      "has_variant": true,
+      "significance": "high",
+      "mt_reading": "וְיָרֹם מֵאֲגַג מַלְכּוֹ",
+      "sp_reading": "וירם מגוג מלכו",
+      "mt_rendering": "And his king shall be higher than Agag",
+      "sp_rendering": "And his king shall be higher than Gog",
+      "notes": ["SP reads 'Gog' (גוג) where MT reads 'Agag' (אגג). The LXX also reads 'Gog.' This variant has eschatological implications: 'Agag' connects to the historical Amalekite king, while 'Gog' connects to the apocalyptic enemy of Ezekiel 38-39. SP's reading may be original or may reflect later eschatological interests."]
+    },
+    {
+      "reference": "Numbers 24:17",
+      "has_variant": true,
+      "significance": "high",
+      "mt_reading": "דָּרַךְ כּוֹכָב מִיַּעֲקֹב וְקָם שֵׁבֶט מִיִּשְׂרָאֵל",
+      "sp_reading": "דרך כוכב מיעקב וקם שבט מישראל",
+      "mt_rendering": "A star shall come out of Jacob, and a scepter shall rise out of Israel",
+      "sp_rendering": "A star shall come out of Jacob, and a scepter shall rise out of Israel",
+      "notes": ["The star prophecy agrees in wording between MT and SP, but interpretation differs dramatically. Jewish tradition reads this as a royal/messianic prophecy (applied to David or the Messiah). Samaritan tradition reads it as referring to the Taheb, the restorer figure who will re-establish true worship at Gerizim."]
+    },
+    {
+      "reference": "Numbers 26:4",
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "Second census introduction",
+      "sp_reading": "Second census — minor expansion",
+      "mt_rendering": "(Census instructions)",
+      "sp_rendering": "(SP adds harmonistic detail from Num 1)",
+      "notes": ["SP harmonizes the second census introduction with the first census (Num 1), adding parallel formulaic language."]
+    },
+    {
+      "reference": "Numbers 27:14",
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "מֵי מְרִיבַת קָדֵשׁ מִדְבַּר צִן",
+      "sp_reading": "מי מריבת קדש מדבר צן",
+      "mt_rendering": "the waters of Meribah of Kadesh in the wilderness of Zin",
+      "sp_rendering": "the waters of Meribah of Kadesh in the wilderness of Zin",
+      "notes": ["Moses' punishment narrative agrees between MT and SP."]
+    },
+    {
+      "reference": "Numbers 27:23",
+      "has_variant": true,
+      "significance": "moderate",
+      "mt_reading": "Standard Joshua commissioning",
+      "sp_reading": "Expanded Joshua commissioning with additional charge",
+      "mt_rendering": "(Moses lays hands on Joshua)",
+      "sp_rendering": "(SP adds material from Deut 3:21-22 to Joshua's commissioning)",
+      "notes": ["SP imports Moses' charge to Joshua from Deuteronomy 3:21-22 into this passage, harmonizing the two accounts. This is a significant structural expansion."]
+    },
+    {
+      "reference": "Numbers 33:1-49",
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "Wilderness itinerary — 42 stations",
+      "sp_reading": "Wilderness itinerary — minor name variants",
+      "mt_rendering": "(Full itinerary list)",
+      "sp_rendering": "(Same stations with orthographic name variants)",
+      "notes": ["The wilderness itinerary in Numbers 33 is substantially the same in MT and SP. Several station names show minor spelling differences."]
+    },
+    {
+      "reference": "Numbers 35:5",
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "Levitical city measurements",
+      "sp_reading": "Levitical city measurements — minor numerical variant",
+      "mt_rendering": "(2,000 cubits on each side)",
+      "sp_rendering": "(Same measurement with minor expression variant)",
+      "notes": ["Minor difference in how the Levitical city measurements are expressed. The actual dimensions are identical."]
+    }
+  ]
+}

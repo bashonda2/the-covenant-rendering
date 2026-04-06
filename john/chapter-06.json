@@ -1,0 +1,767 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "John",
+    "chapter": 6,
+    "source_text": "SBL Greek New Testament (SBLGNT)",
+    "reference_text": "KJV",
+    "generated_at": "2026-04-04T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "John 6 is the longest chapter in the Gospel, centered on the fourth sign — the feeding of five thousand — and the extended Bread of Life discourse that follows. After feeding the crowd with five barley loaves and two fish, Jesus walks on the Sea of Galilee to his disciples. The next day, the crowd pursues him to Capernaum, and Jesus delivers the Bread of Life discourse, declaring 'I am the bread of life' — the first of the great 'I am' statements with predicate. The discourse escalates from spiritual bread to eating his flesh and drinking his blood, provoking widespread desertion. The chapter ends with Peter's confession and Jesus's identification of one of the Twelve as 'a devil.'",
+    "remarkable": "The feeding of the five thousand is the only miracle (aside from the resurrection) recorded in all four Gospels, making it central to early Christian memory. John alone records the walking on water as occurring in direct sequence, creating a Moses typology: as Moses provided manna and crossed the sea, so Jesus provides bread and masters the water. The Bread of Life discourse is structured as a synagogue homily on Exodus 16 (the manna), following a pattern of quotation, explanation, and application. The ego eimi ('I am') statement 'I am the bread of life' (6:35, 48) inaugurates the series of seven 'I am' declarations that define the Gospel.",
+    "friction": "The eucharistic language of verses 53-58 ('eat my flesh,' 'drink my blood') has been interpreted sacramentally (referring to the Lord's Supper), metaphorically (referring to faith in Jesus's death), and both simultaneously. We render the Greek without imposing either reading. The verb trogo ('to chew, to munch') in verses 54-58 is more visceral than the earlier phago ('to eat'), intensifying the scandal. The mass desertion of disciples (v. 66) and Jesus's identification of Judas as 'a devil' (v. 70) create one of the Gospel's darkest moments.",
+    "connections": "The entire chapter is structured around Exodus 16 (manna) and Psalm 78:24 ('He gave them bread from heaven to eat'). The walking on water echoes Exodus 14 (the Red Sea crossing) and Psalm 77:19 ('Your way was through the sea'). The Bread of Life discourse connects to the Last Supper tradition (1 Corinthians 11:23-26) and to Wisdom's invitation to eat (Proverbs 9:5, Sirach 24:21). Peter's confession parallels the Synoptic confession at Caesarea Philippi (Mark 8:27-30).\n\n**Tradition comparisons:** JST footnote at John 6:44: 'No man can come to me, except the Father draw him' — drawing/enabling language revised See the [JST notes](/jst/john)."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_greek": "Μετὰ ταῦτα ἀπῆλθεν ὁ Ἰησοῦς πέραν τῆς θαλάσσης τῆς Γαλιλαίας τῆς Τιβεριάδος.",
+      "text_kjv": "After these things Jesus went over the sea of Galilee, which is the sea of Tiberias.",
+      "rendering": "After this, Jesus went across the Sea of Galilee, that is, the Sea of Tiberias.",
+      "translator_notes": [
+        "The double designation — 'Sea of Galilee' (the traditional Jewish name) and 'Sea of Tiberias' (the Roman name, from the city Herod Antipas built and named for Emperor Tiberius) — accommodates both Jewish and Gentile readers. A considerable time gap separates chapters 5 and 6; Jesus has moved from Jerusalem back to Galilee."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 2,
+      "text_greek": "ἠκολούθει δὲ αὐτῷ ὄχλος πολύς, ὅτι ἐθεώρουν τὰ σημεῖα ἃ ἐποίει ἐπὶ τῶν ἀσθενούντων.",
+      "text_kjv": "And a great multitude followed him, because they saw his miracles which he did on them that were diseased.",
+      "rendering": "A large crowd kept following him because they were seeing the signs he was performing on the sick.",
+      "translator_notes": [
+        "The imperfect tenses ekolouthei ('kept following') and etheoroun ('were seeing') indicate ongoing action — the crowd's pursuit is persistent. Their motivation is the signs (semeia), confirming the pattern of sign-based faith that Jesus has questioned (2:23-25, 4:48). John mentions healing signs not described in his narrative, indicating selectivity in his account."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 3,
+      "text_greek": "ἀνῆλθεν δὲ εἰς τὸ ὄρος Ἰησοῦς καὶ ἐκεῖ ἐκάθητο μετὰ τῶν μαθητῶν αὐτοῦ.",
+      "text_kjv": "And Jesus went up into a mountain, and there he sat with his disciples.",
+      "rendering": "Jesus went up on the mountain and sat down there with his disciples.",
+      "translator_notes": [
+        "The definite article to oros ('the mountain') may indicate a specific well-known hill on the eastern shore of the Sea of Galilee, or may evoke Mount Sinai, where Moses received the Torah and the manna provision was first given. Jesus's posture of sitting (ekatheto) is the position of a teacher in Jewish tradition."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 4,
+      "text_greek": "ἦν δὲ ἐγγὺς τὸ πάσχα, ἡ ἑορτὴ τῶν Ἰουδαίων.",
+      "text_kjv": "And the passover, a feast of the Jews, was nigh.",
+      "rendering": "Now the Passover, the festival of the Jewish people, was near.",
+      "translator_notes": [
+        "This is the second Passover in John's Gospel (cf. 2:13), providing the theological backdrop for the entire chapter. The feeding miracle and the Bread of Life discourse gain their deepest meaning against the Passover context — Jesus is the new Passover bread, the true manna from heaven. The note 'festival of the Jewish people' continues John's practice of explaining Jewish customs for a mixed audience."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 5,
+      "text_greek": "ἐπάρας οὖν τοὺς ὀφθαλμοὺς ὁ Ἰησοῦς καὶ θεασάμενος ὅτι πολὺς ὄχλος ἔρχεται πρὸς αὐτὸν λέγει πρὸς Φίλιππον· πόθεν ἀγοράσωμεν ἄρτους ἵνα φάγωσιν οὗτοι;",
+      "text_kjv": "When Jesus then lifted up his eyes, and saw a great company come unto him, he saith unto Philip, Whence shall we buy bread, that these may eat?",
+      "rendering": "When Jesus looked up and saw a large crowd coming toward him, he said to Philip, \"Where are we to buy bread for these people to eat?\"",
+      "translator_notes": [
+        "Jesus initiates the encounter with a question — as with the woman at the well (4:7), he begins from a point of human need. The question is addressed specifically to Philip, possibly because Philip was from Bethsaida (1:44), near the likely location. The word pothen ('where, from what source') echoes the theological question of origins that runs through the Gospel (cf. 2:9, 4:11, 7:27-28)."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 6,
+      "text_greek": "τοῦτο δὲ ἔλεγεν πειράζων αὐτόν· αὐτὸς γὰρ ᾔδει τί ἔμελλεν ποιεῖν.",
+      "text_kjv": "And this he said to prove him: for he himself knew what he would do.",
+      "rendering": "He said this to test him, for he himself knew what he was going to do.",
+      "translator_notes": [
+        "The narrator's aside reveals that Jesus's question is not born of uncertainty but serves as a test (peirazon, 'testing, proving') of Philip's faith. The verb edei ('he knew') attributes supernatural foreknowledge to Jesus, consistent with 1:48, 2:24-25. The test exposes whether Philip will think in human or divine categories."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 7,
+      "text_greek": "ἀπεκρίθη αὐτῷ ὁ Φίλιππος· διακοσίων δηναρίων ἄρτοι οὐκ ἀρκοῦσιν αὐτοῖς, ἵνα ἕκαστος βραχύ τι λάβῃ.",
+      "text_kjv": "Philip answered him, Two hundred pennyworth of bread is not sufficient for them, that every one of them may take a little.",
+      "rendering": "Philip answered him, \"Two hundred denarii worth of bread would not be enough for each of them to get even a little.\"",
+      "translator_notes": [
+        "Philip answers in economic terms — two hundred denarii represents roughly eight months' wages for a laborer. His calculation is practical but faithless; he evaluates the problem from a purely human resource perspective. The response fails the test: Philip sees only the impossibility rather than the one who is asking the question."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 8,
+      "text_greek": "λέγει αὐτῷ εἷς ἐκ τῶν μαθητῶν αὐτοῦ, Ἀνδρέας ὁ ἀδελφὸς Σίμωνος Πέτρου·",
+      "text_kjv": "One of his disciples, Andrew, Simon Peter's brother, saith unto him,",
+      "rendering": "Says to him,, one of his followers, Andrew, Simon Peter's brother.",
+      "translator_notes": [
+        "Andrew is again identified through his relationship to Simon Peter (cf. 1:40). Andrew's contribution, while modest, at least brings available resources to Jesus's attention — a pattern consistent with his role as the disciple who brings people to Jesus (1:41-42, 12:22)."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 9,
+      "text_greek": "ἔστιν παιδάριον ὧδε ὃς ἔχει πέντε ἄρτους κριθίνους καὶ δύο ὀψάρια· ἀλλὰ ταῦτα τί ἐστιν εἰς τοσούτους;",
+      "text_kjv": "There is a lad here, which hath five barley loaves, and two small fishes: but what are they among so many?",
+      "rendering": "\"There is a boy here who has five barley loaves and two fish, but what are these among so many people?\"",
+      "translator_notes": [
+        "The word paidarion ('boy, young lad') is a diminutive, emphasizing the smallness of the source. Barley loaves (artous krithinous) were the bread of the poor — wheat was more expensive. The detail echoes the Elisha miracle in 2 Kings 4:42-44, where twenty barley loaves fed a hundred men. Andrew's question 'what are these among so many?' expresses the same logic as Philip's calculation — human resources are comically inadequate.",
+        "[TCR Cross-Reference] Echoes 2 Kings 4:42-44. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 10,
+      "text_greek": "εἶπεν ὁ Ἰησοῦς· ποιήσατε τοὺς ἀνθρώπους ἀναπεσεῖν. ἦν δὲ χόρτος πολὺς ἐν τῷ τόπῳ. ἀνέπεσαν οὖν οἱ ἄνδρες τὸν ἀριθμὸν ὡς πεντακισχίλιοι.",
+      "text_kjv": "And Jesus said, Make the men sit down. Now there was much grass in the place. So the men sat down, in number about five thousand.",
+      "rendering": "Jesus said, \"Have the people sit down.\" Now there was plenty of grass in that place. So the men sat down, numbering about five thousand.",
+      "translator_notes": [
+        "The detail 'plenty of grass' (chortos polys) is an eyewitness memory consistent with springtime near Passover. The number five thousand (pentakischilioi) counts only the men (andres), as Matthew 14:21 explicitly notes ('besides women and children'). The verb anapesein ('to recline, to sit down') is the posture for a formal meal, suggesting Jesus is hosting a banquet — the messianic banquet prefigured."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 11,
+      "text_greek": "ἔλαβεν οὖν τοὺς ἄρτους ὁ Ἰησοῦς καὶ εὐχαριστήσας διέδωκεν τοῖς ἀνακειμένοις ὁμοίως καὶ ἐκ τῶν ὀψαρίων ὅσον ἤθελον.",
+      "text_kjv": "And Jesus took the loaves; and when he had given thanks, he distributed to the disciples, and the disciples to them that were set down; and likewise of the fishes as much as they would.",
+      "rendering": "Then Jesus took the loaves, and after giving thanks, he distributed them to those who were seated. He did the same with the fish, as much as they wanted.",
+      "translator_notes": [
+        "The verb eucharistesas ('having given thanks') is the root of 'Eucharist' and creates a clear connection to the Last Supper tradition and early Christian meal practice. In John's account, Jesus distributes directly to the crowd (unlike the Synoptics, where the disciples serve as intermediaries). The phrase hoson ethelon ('as much as they wanted') emphasizes abundance — there is no rationing."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 12,
+      "text_greek": "ὡς δὲ ἐνεπλήσθησαν λέγει τοῖς μαθηταῖς αὐτοῦ· συναγάγετε τὰ περισσεύσαντα κλάσματα, ἵνα μή τι ἀπόληται.",
+      "text_kjv": "When they were filled, he said unto his disciples, Gather up the fragments that remain, that nothing be lost.",
+      "rendering": "When they were satisfied, he said to his disciples, \"Gather up the leftover pieces, so that nothing is wasted.\"",
+      "translator_notes": [
+        "The verb eneplesthesan ('were satisfied, were filled') indicates complete satiation, not mere taste. The command to gather leftovers (ta perisseusanta klasmata, 'the surplus fragments') serves both a practical and symbolic function. The verb apoletai ('be lost, be wasted, perish') is the same word used in 3:16 for perishing — John may intend a deeper resonance about God's intention that nothing and no one be lost."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 13,
+      "text_greek": "συνήγαγον οὖν καὶ ἐγέμισαν δώδεκα κοφίνους κλασμάτων ἐκ τῶν πέντε ἄρτων τῶν κριθίνων ἃ ἐπερίσσευσεν τοῖς βεβρωκόσιν.",
+      "text_kjv": "Therefore they gathered them together, and filled twelve baskets with the fragments of the five barley loaves, which remained over and above unto them that had eaten.",
+      "rendering": "So they gathered them up and filled twelve baskets with pieces from the five barley loaves left over by those who had eaten.",
+      "translator_notes": [
+        "The twelve baskets (dodeka kophinous) likely correspond to the twelve tribes of Israel — the provision is abundant enough for all God's people with surplus to spare. The kophinos was a large wicker basket distinctively Jewish in use. Five loaves produce twelve baskets of surplus — the mathematics of divine provision inverts human calculation."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 14,
+      "text_greek": "Οἱ οὖν ἄνθρωποι ἰδόντες ὃ ἐποίησεν σημεῖον ἔλεγον ὅτι οὗτός ἐστιν ἀληθῶς ὁ προφήτης ὁ ἐρχόμενος εἰς τὸν κόσμον.",
+      "text_kjv": "Then those men, when they had seen the miracle that Jesus did, said, This is of a truth that prophet that should come into the world.",
+      "rendering": "When the people saw the sign that he had performed, they said, \"This is truly the Prophet who is coming into the world!\"",
+      "translator_notes": [
+        "The crowd identifies Jesus as 'the Prophet' (ho prophetes) — the Moses-like figure promised in Deuteronomy 18:15-18. The connection is logical: Moses gave manna, Jesus gives bread. But as the discourse will show, their understanding is superficial — they want a political deliverer who provides free food, not the bread of life that gives eternal sustenance.",
+        "[TCR Cross-Reference] Echoes Deuteronomy 18:15-18. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 15,
+      "text_greek": "Ἰησοῦς οὖν γνοὺς ὅτι μέλλουσιν ἔρχεσθαι καὶ ἁρπάζειν αὐτὸν ἵνα ποιήσωσιν βασιλέα, ἀνεχώρησεν πάλιν εἰς τὸ ὄρος αὐτὸς μόνος.",
+      "text_kjv": "When Jesus therefore perceived that they would come and take him by force, to make him a king, he departed again into a mountain himself alone.",
+      "rendering": "So Jesus, knowing that they were about to come and seize him to make him king by force, withdrew again to the mountain by himself alone.",
+      "translator_notes": [
+        "The verb harpazein ('to seize, to snatch, to take by force') reveals the crowd's intention to impose a political kingship on Jesus. This confirms that their identification of Jesus as 'the Prophet' (v. 14) was politically motivated. Jesus withdraws to prevent the misappropriation of his mission — he will be king, but not on their terms. The phrase 'by himself alone' (autos monos) emphasizes his solitary retreat, possibly for prayer (cf. Mark 6:46)."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 16,
+      "text_greek": "Ὡς δὲ ὀψία ἐγένετο κατέβησαν οἱ μαθηταὶ αὐτοῦ ἐπὶ τὴν θάλασσαν",
+      "text_kjv": "And when even was now come, his disciples went down unto the sea,",
+      "rendering": "When evening came, his disciples went down to the sea,",
+      "translator_notes": [
+        "The transition to the walking-on-water narrative begins. The disciples descend from the mountain to the lake shore without Jesus. The sequence — bread in the wilderness, crossing the sea — mirrors the Exodus pattern (manna in Exodus 16, Red Sea crossing in Exodus 14), though in reverse chronological order.",
+        "[TCR Cross-Reference] Quotes Exodus 16. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it.",
+        "[TCR Cross-Reference] Quotes Exodus 14. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 17,
+      "text_greek": "καὶ ἐμβάντες εἰς πλοῖον ἤρχοντο πέραν τῆς θαλάσσης εἰς Καφαρναούμ. καὶ σκοτία ἤδη ἐγεγόνει καὶ οὔπω ἐληλύθει πρὸς αὐτοὺς ὁ Ἰησοῦς,",
+      "text_kjv": "And entered into a ship, and went over the sea toward Capernaum. And it was now dark, and Jesus was not come to them.",
+      "rendering": "Went into into a ship, and traveled over the lake toward Capernaum. And it was now dark, and Jesus was not arrive to them.",
+      "translator_notes": [
+        "The note that it was 'already dark' (skotia ede egegenei) carries Johannine symbolic weight — darkness represents the absence of Jesus, who is the light (1:4-5, 8:12). The phrase 'Jesus had not yet come to them' heightens the sense of vulnerability and separation."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 18,
+      "text_greek": "ἥ τε θάλασσα ἀνέμου μεγάλου πνέοντος διεγείρετο.",
+      "text_kjv": "And the sea arose by reason of a great wind that blew.",
+      "rendering": "The sea was becoming rough because a strong wind was blowing.",
+      "translator_notes": [
+        "The Sea of Galilee (actually a large freshwater lake, about 13 miles long and 8 miles wide) is susceptible to sudden, violent storms when cool air from the surrounding hills descends onto the warm lake surface. The imperfect diegeireto ('was being stirred up, was becoming rough') describes an escalating danger."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 19,
+      "text_greek": "ἐληλακότες οὖν ὡς σταδίους εἴκοσι πέντε ἢ τριάκοντα θεωροῦσιν τὸν Ἰησοῦν περιπατοῦντα ἐπὶ τῆς θαλάσσης καὶ ἐγγὺς τοῦ πλοίου γινόμενον, καὶ ἐφοβήθησαν.",
+      "text_kjv": "So when they had rowed about five and twenty or thirty furlongs, they see Jesus walking on the sea, and drawing nigh unto the ship: and they were afraid.",
+      "rendering": "When they had rowed about three or four miles, they saw Jesus walking on the sea and coming near the boat, and they were frightened.",
+      "translator_notes": [
+        "Twenty-five to thirty stadia equals approximately three to four miles — roughly halfway across the lake at its widest point. They are in the middle of the sea, in the dark, in a storm. The phrase peripatounta epi tes thalasses ('walking on the sea') is unambiguous — epi with the genitive means 'on, upon.' The word ephobethesan ('they were frightened') captures the terror of seeing a figure walking on water in a storm at night. The Old Testament presents walking on water as a divine prerogative (Job 9:8, Psalm 77:19).",
+        "[TCR Cross-Reference] Echoes Job 9:8. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale.",
+        "[TCR Cross-Reference] Echoes Psalm 77:19. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 20,
+      "text_greek": "ὁ δέ λέγει αὐτοῖς· ἐγώ εἰμι, μὴ φοβεῖσθε.",
+      "text_kjv": "But he saith unto them, It is I; be not afraid.",
+      "rendering": "But he said to them, \"I am — do not be afraid.\"",
+      "translator_notes": [
+        "The phrase ego eimi ('I am') functions on two levels: as simple self-identification ('It is I') and as a divine self-declaration echoing the divine name (Exodus 3:14). In context — walking on water during a storm, a divine prerogative — the deeper resonance is unmistakable. The command 'do not be afraid' (me phobeisthe) echoes the Old Testament theophany pattern, where God's appearance is typically accompanied by reassurance (Genesis 15:1, Isaiah 41:10, 43:1).",
+        "[TCR Cross-Reference] This verse quotes Exodus 3:14 — see the TCR rendering of that passage for the Hebrew source text and translation decisions.",
+        "[TCR Cross-Reference] This verse quotes Genesis 15:1 — see the TCR rendering of that passage for the Hebrew source text and translation decisions.",
+        "[TCR Cross-Reference] This verse quotes Isaiah 41:10 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "key_terms": [
+        {
+          "greek": "ἐγώ εἰμι",
+          "transliteration": "ego eimi",
+          "rendered_as": "I am",
+          "semantic_range": "I am, I am he, it is I",
+          "note": "Here the phrase bridges ordinary identification and divine self-revelation. Jesus walks on water (a divine act), speaks the divine name, and calms fear — the complete pattern of an Old Testament theophany."
+        }
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 21,
+      "text_greek": "ἤθελον οὖν λαβεῖν αὐτὸν εἰς τὸ πλοῖον, καὶ εὐθέως ἐγένετο τὸ πλοῖον ἐπὶ τῆς γῆς εἰς ἣν ὑπῆγον.",
+      "text_kjv": "Then they willingly received him into the ship: and immediately the ship was at the land whither they went.",
+      "rendering": "They were willing to take him into the boat, and immediately the boat reached the land where they were heading.",
+      "translator_notes": [
+        "John adds a detail absent from the Synoptic accounts: the boat immediately (eutheos) arrived at shore. This may be another miraculous element — instantaneous transportation — or may simply mean the remainder of the crossing passed quickly once Jesus was aboard. The verb ethelon ('were willing, wanted to') suggests their fear gave way to welcome."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 22,
+      "text_greek": "Τῇ ἐπαύριον ὁ ὄχλος ὁ ἑστηκὼς πέραν τῆς θαλάσσης εἶδον ὅτι πλοιάριον ἄλλο οὐκ ἦν ἐκεῖ εἰ μὴ ἕν, καὶ ὅτι οὐ συνεισῆλθεν τοῖς μαθηταῖς αὐτοῦ ὁ Ἰησοῦς εἰς τὸ πλοῖον ἀλλὰ μόνοι οἱ μαθηταὶ αὐτοῦ ἀπῆλθον·",
+      "text_kjv": "The day following, when the people which stood on the other side of the sea saw that there was none other boat there, save that one whereinto his disciples were entered, and that Jesus went not with his disciples into the boat, but that his disciples were gone away alone;",
+      "rendering": "The next day the crowd that had remained on the other side of the sea noticed that there had been only one boat there, and that Jesus had not gotten into the boat with his disciples, but that his disciples had gone away alone.",
+      "translator_notes": [
+        "This complicated verse establishes the crowd's perplexity — they know Jesus did not board the only available boat with his disciples. How then did he get to Capernaum? John leaves the question unanswered for the crowd, letting the mystery of the sea-walking remain implicit rather than narrated publicly."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 23,
+      "text_greek": "ἄλλα ἦλθεν πλοιάρια ἐκ Τιβεριάδος ἐγγὺς τοῦ τόπου ὅπου ἔφαγον τὸν ἄρτον εὐχαριστήσαντος τοῦ κυρίου.",
+      "text_kjv": "Howbeit there came other boats from Tiberias nigh unto the place where they did eat bread, after that the Lord had given thanks:",
+      "rendering": "However, boats from Tiberias came near the place where they had eaten the bread after the Lord had given thanks.",
+      "translator_notes": [
+        "This parenthetical explains how the crowd was able to follow Jesus across the lake — additional boats arrived from the city of Tiberias. The phrase 'after the Lord had given thanks' (eucharistesantos tou kyriou) recalls 6:11 and is the narrator's characteristic use of the title kyrios ('Lord') for Jesus."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 24,
+      "text_greek": "ὅτε οὖν εἶδεν ὁ ὄχλος ὅτι Ἰησοῦς οὐκ ἔστιν ἐκεῖ οὐδὲ οἱ μαθηταὶ αὐτοῦ, ἐνέβησαν αὐτοὶ εἰς τὰ πλοιάρια καὶ ἦλθον εἰς Καφαρναοὺμ ζητοῦντες τὸν Ἰησοῦν.",
+      "text_kjv": "When the people therefore saw that Jesus was not there, neither his disciples, they also took shipping, and came to Capernaum, seeking for Jesus.",
+      "rendering": "So when the crowd saw that neither Jesus nor his disciples were there, they themselves got into the boats and went to Capernaum looking for Jesus.",
+      "translator_notes": [
+        "The crowd pursues Jesus across the lake, motivated by the sign they witnessed. The verb zetountes ('seeking, looking for') will be picked up by Jesus in verse 26 — they seek him, but for the wrong reasons."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 25,
+      "text_greek": "καὶ εὑρόντες αὐτὸν πέραν τῆς θαλάσσης εἶπον αὐτῷ· ῥαββί, πότε ὧδε γέγονας;",
+      "text_kjv": "And when they had found him on the other side of the sea, they said unto him, Rabbi, when camest thou hither?",
+      "rendering": "When they found him on the other side of the sea, they said to him, \"Rabbi, when did you get here?\"",
+      "translator_notes": [
+        "The crowd's question 'when did you get here?' implicitly asks 'how did you get here?' — since they know he did not take the only boat. Jesus does not answer their question but redirects the conversation to their true motivations."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 26,
+      "text_greek": "ἀπεκρίθη αὐτοῖς ὁ Ἰησοῦς καὶ εἶπεν· ἀμὴν ἀμὴν λέγω ὑμῖν, ζητεῖτέ με οὐχ ὅτι εἴδετε σημεῖα, ἀλλ' ὅτι ἐφάγετε ἐκ τῶν ἄρτων καὶ ἐχορτάσθητε.",
+      "text_kjv": "Jesus answered them and said, Verily, verily, I say unto you, Ye seek me, not because ye saw the miracles, but because ye did eat of the loaves, and were filled.",
+      "rendering": "Jesus answered them, \"Truly, truly, I tell you, you are looking for me not because you saw signs, but because you ate the loaves and were filled.",
+      "translator_notes": [
+        "Jesus exposes their motivation: they did not come because they understood the signs (semeia, pointing to Jesus's identity) but because they got a free meal. They saw 'signs' but did not truly 'see' them — the miraculous provision did not lead them to perceive who Jesus is. The verb echortasthete ('were filled, were satisfied') is the same word used for feeding animals in some contexts, suggesting consumption without comprehension."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 27,
+      "text_greek": "ἐργάζεσθε μὴ τὴν βρῶσιν τὴν ἀπολλυμένην ἀλλὰ τὴν βρῶσιν τὴν μένουσαν εἰς ζωὴν αἰώνιον, ἣν ὁ υἱὸς τοῦ ἀνθρώπου ὑμῖν δώσει· τοῦτον γὰρ ὁ πατὴρ ἐσφράγισεν ὁ θεός.",
+      "text_kjv": "Labour not for the meat which perisheth, but for that meat which endureth unto everlasting life, which the Son of man shall give unto you: for him hath God the Father sealed.",
+      "rendering": "Do not work for food that perishes, but for the food that endures to eternal life, which the Son of Man will give you. For on him God the Father has set his seal.\"",
+      "translator_notes": [
+        "Jesus redirects their effort (ergazesthe, 'work, labor') from temporal food to eternal food. The contrast between 'food that perishes' (ten brosin ten apollymenen) and 'food that endures' (ten brosin ten menousan) echoes the water conversation with the Samaritan woman (4:13-14). The Son of Man is both the giver and the gift. The 'seal' (esphragisen) is a mark of authentication and ownership — God has certified Jesus as the authorized source of eternal nourishment."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 28,
+      "text_greek": "εἶπον οὖν πρὸς αὐτόν· τί ποιῶμεν ἵνα ἐργαζώμεθα τὰ ἔργα τοῦ θεοῦ;",
+      "text_kjv": "Then said they unto him, What shall we do, that we might work the works of God?",
+      "rendering": "Then they said to him, \"What must we do to perform the works of God?\"",
+      "translator_notes": [
+        "The crowd's question assumes that obtaining this food requires human effort — 'works of God' (ta erga tou theou) means 'the works God requires.' They think in terms of religious performance. Jesus's answer will subvert their entire framework."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 29,
+      "text_greek": "ἀπεκρίθη ὁ Ἰησοῦς καὶ εἶπεν αὐτοῖς· τοῦτό ἐστιν τὸ ἔργον τοῦ θεοῦ, ἵνα πιστεύητε εἰς ὃν ἀπέστειλεν ἐκεῖνος.",
+      "text_kjv": "Jesus answered and said unto them, This is the work of God, that ye believe on him whom he hath sent.",
+      "rendering": "Jesus answered them, \"This is the work of God: that you believe in the one he has sent.\"",
+      "translator_notes": [
+        "Jesus reduces the plural 'works' to a single 'work' (to ergon) — faith. The many required works collapse into one: believing in Jesus. The present subjunctive pisteuete ('that you believe, keep believing') suggests ongoing faith, not a one-time decision. This answer redefines the entire religious economy: the 'work' God requires is not human effort but receptive trust in God's sent one."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 30,
+      "text_greek": "εἶπον οὖν αὐτῷ· τί οὖν ποιεῖς σὺ σημεῖον, ἵνα ἴδωμεν καὶ πιστεύσωμέν σοι; τί ἐργάζῃ;",
+      "text_kjv": "They said therefore unto him, What sign shewest thou then, that we may see, and believe thee? what dost thou work?",
+      "rendering": "So they said to him, \"Then what sign do you perform, so that we may see it and believe you? What work do you do?",
+      "translator_notes": [
+        "The demand for a sign is remarkable — they have just witnessed the feeding of five thousand and crossed the lake to find Jesus because of it. Yet they ask for another sign. The logic seems to be: Moses gave manna for forty years; you gave bread once. If you claim to surpass Moses, prove it with an ongoing provision. Their faith is transactional: they will believe if given sufficient evidence, on their terms."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 31,
+      "text_greek": "οἱ πατέρες ἡμῶν τὸ μάννα ἔφαγον ἐν τῇ ἐρήμῳ, καθώς ἐστιν γεγραμμένον· ἄρτον ἐκ τοῦ οὐρανοῦ ἔδωκεν αὐτοῖς φαγεῖν.",
+      "text_kjv": "Our fathers did eat manna in the desert; as it is written, He gave them bread from heaven to eat.",
+      "rendering": "Our fathers ate the manna in the wilderness, just as it is written: 'He gave them bread from heaven to eat.'\"",
+      "translator_notes": [
+        "The crowd cites Psalm 78:24 (or possibly Exodus 16:4, 15; Nehemiah 9:15). The quotation becomes the text for Jesus's discourse — he will offer a rabbinic-style commentary on 'bread from heaven.' The crowd uses the manna tradition to challenge Jesus: Moses gave bread from heaven for decades; what can you offer that compares?",
+        "[TCR Cross-Reference] Quotes Exodus 16:4. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it.",
+        "[TCR Cross-Reference] Quotes Psalm 78:24. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it.",
+        "[TCR Cross-Reference] Quotes Nehemiah 9:15. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 32,
+      "text_greek": "εἶπεν οὖν αὐτοῖς ὁ Ἰησοῦς· ἀμὴν ἀμὴν λέγω ὑμῖν, οὐ Μωϋσῆς δέδωκεν ὑμῖν τὸν ἄρτον ἐκ τοῦ οὐρανοῦ, ἀλλ' ὁ πατήρ μου δίδωσιν ὑμῖν τὸν ἄρτον ἐκ τοῦ οὐρανοῦ τὸν ἀληθινόν.",
+      "text_kjv": "Then Jesus said unto them, Verily, verily, I say unto you, Moses gave you not that bread from heaven; but my Father giveth you the true bread from heaven.",
+      "rendering": "Jesus said to them, \"Truly, truly, I tell you, it was not Moses who gave you the bread from heaven, but it is my Father who gives you the true bread from heaven.",
+      "translator_notes": [
+        "Jesus corrects two errors in their argument: (1) Moses was not the source — God was; (2) the manna was not the true bread from heaven — it was a pointer to the reality now being revealed. The shift from past tense dedoken ('gave') to present tense didosin ('gives') is significant: the true bread is being given now, in the present moment. The adjective alethinon ('true, genuine, real') distinguishes the ultimate reality from the type that foreshadowed it."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 33,
+      "text_greek": "ὁ γὰρ ἄρτος τοῦ θεοῦ ἐστιν ὁ καταβαίνων ἐκ τοῦ οὐρανοῦ καὶ ζωὴν διδοὺς τῷ κόσμῳ.",
+      "text_kjv": "For the bread of God is he which cometh down from heaven, and giveth life unto the world.",
+      "rendering": "For the bread of God is the one who comes down from heaven and gives life to the world.\"",
+      "translator_notes": [
+        "The participle katabainon ('the one coming down') shifts from neuter ('that which comes down') to masculine — the bread is a person, not a substance. The scope is again universal: 'life to the world' (zoen to kosmo), not merely to Israel. The manna fed Israel in the wilderness; this bread gives life to the entire world."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 34,
+      "text_greek": "εἶπον οὖν πρὸς αὐτόν· κύριε, πάντοτε δὸς ἡμῖν τὸν ἄρτον τοῦτον.",
+      "text_kjv": "Then said they unto him, Lord, evermore give us this bread.",
+      "rendering": "They said to him, \"Sir, give us this bread always.\"",
+      "translator_notes": [
+        "Like the Samaritan woman's 'give me this water' (4:15), the crowd requests the gift while still understanding it physically. The adverb pantote ('always, at all times') reveals their desire for a permanent food supply. They will soon learn that the bread Jesus offers is himself — a claim that will divide them."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 35,
+      "text_greek": "εἶπεν αὐτοῖς ὁ Ἰησοῦς· ἐγώ εἰμι ὁ ἄρτος τῆς ζωῆς· ὁ ἐρχόμενος πρός με οὐ μὴ πεινάσῃ, καὶ ὁ πιστεύων εἰς ἐμὲ οὐ μὴ διψήσει πώποτε.",
+      "text_kjv": "And Jesus said unto them, I am the bread of life: he that cometh to me shall never hunger; and he that believeth on me shall never thirst.",
+      "rendering": "Jesus said to them, \"I am the bread of life. Whoever comes to me will never be hungry, and whoever believes in me will never be thirsty.",
+      "translator_notes": [
+        "This is the first of the seven great 'I am' statements with a predicate in John's Gospel: ego eimi ho artos tes zoes ('I am the bread of life'). Jesus does not merely provide bread — he is the bread. 'Coming' and 'believing' are parallel actions describing the same movement of faith. The double negative ou me ('never') is the strongest possible assurance of permanent satisfaction."
+      ],
+      "key_terms": [
+        {
+          "greek": "ἄρτος τῆς ζωῆς",
+          "transliteration": "artos tes zoes",
+          "rendered_as": "bread of life",
+          "semantic_range": "bread of life, bread that produces/sustains life, living bread",
+          "note": "The genitive 'of life' is both source and quality — this bread comes from the realm of life and produces life in those who receive it. It surpasses the manna, which sustained physical life temporarily; this bread gives eternal life permanently."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 36,
+      "text_greek": "ἀλλ' εἶπον ὑμῖν ὅτι καὶ ἑωράκατέ με καὶ οὐ πιστεύετε.",
+      "text_kjv": "But I said unto you, That ye also have seen me, and believe not.",
+      "rendering": "But I told you that you have seen me and yet do not believe.",
+      "translator_notes": [
+        "Seeing and not believing is the persistent failure of the crowd. They have seen both the sign (feeding) and the sign-giver (Jesus himself), yet refuse the faith that seeing should produce. This verse transitions into the theological section about the Father's drawing and the Son's preservation of those who come."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 37,
+      "text_greek": "πᾶν ὃ δίδωσίν μοι ὁ πατὴρ πρὸς ἐμὲ ἥξει, καὶ τὸν ἐρχόμενον πρὸς ἐμὲ οὐ μὴ ἐκβάλω ἔξω,",
+      "text_kjv": "All that the Father giveth me shall come to me; and him that cometh to me I will in no wise cast out.",
+      "rendering": "Everyone the Father gives me will come to me, and the one who comes to me I will never drive away,",
+      "translator_notes": [
+        "This verse holds two realities in tension: divine initiative (the Father 'gives' people to the Son) and human responsibility (the one who 'comes'). The neuter pan ('everything, all') in the first clause treats those given as a collective whole; the masculine ton erchomenon ('the one coming') in the second clause treats each person individually. The double negative ou me ekbalo ('I will never cast out') is an absolute guarantee of reception."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 38,
+      "text_greek": "ὅτι καταβέβηκα ἀπὸ τοῦ οὐρανοῦ οὐχ ἵνα ποιῶ τὸ θέλημα τὸ ἐμὸν ἀλλὰ τὸ θέλημα τοῦ πέμψαντός με.",
+      "text_kjv": "For I came down from heaven, not to do mine own will, but the will of him that sent me.",
+      "rendering": "For I arrived down from heaven, not to do mine own will, but the will of him that dispatched me.",
+      "translator_notes": [
+        "The perfect tense katabebeka ('I have come down') indicates a completed descent with ongoing presence. Jesus's will is entirely submitted to the Father's will — a claim of perfect obedience that echoes 4:34 and 5:30. This verse provides the theological basis for the assurance of verse 37: Jesus will never reject anyone the Father sends because rejecting them would be disobeying the Father."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 39,
+      "text_greek": "τοῦτο δέ ἐστιν τὸ θέλημα τοῦ πέμψαντός με, ἵνα πᾶν ὃ δέδωκέν μοι μὴ ἀπολέσω ἐξ αὐτοῦ ἀλλ' ἀναστήσω αὐτὸ τῇ ἐσχάτῃ ἡμέρᾳ.",
+      "text_kjv": "And this is the Father's will which hath sent me, that of all which he hath given me I should lose nothing, but should raise it up again at the last day.",
+      "rendering": "And this is the will of the one who sent me: that I should not lose any of all that he has given me, but raise them up on the last day.",
+      "translator_notes": [
+        "The Father's will is stated with crystalline clarity: zero loss and final resurrection. The verb apoleso ('lose, destroy') is the same word as 'perish' in 3:16 — what God wills is that none of his given ones perish. The phrase te eschate hemera ('on the last day') introduces future eschatology alongside the realized eschatology of verse 24. The resurrection promise will be repeated four times in this discourse (vv. 39, 40, 44, 54)."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 40,
+      "text_greek": "τοῦτο γάρ ἐστιν τὸ θέλημα τοῦ πατρός μου, ἵνα πᾶς ὁ θεωρῶν τὸν υἱὸν καὶ πιστεύων εἰς αὐτὸν ἔχῃ ζωὴν αἰώνιον, καὶ ἀναστήσω αὐτὸν ἐγὼ τῇ ἐσχάτῃ ἡμέρᾳ.",
+      "text_kjv": "And this is the will of him that sent me, that every one which seeth the Son, and believeth on him, may have everlasting life: and I will raise him up at the last day.",
+      "rendering": "For this is the will of my Father: that everyone who sees the Son and believes in him should have eternal life, and I will raise them up on the last day.\"",
+      "translator_notes": [
+        "Verse 39 stated the Father's will in terms of preservation (not losing any); verse 40 states it in terms of human response (seeing and believing). Both perspectives are true simultaneously — divine keeping and human believing are not alternatives but complementary. The verb theoron ('seeing, beholding') implies more than glancing — it means perceiving, contemplating, recognizing Jesus for who he is."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 41,
+      "text_greek": "Ἐγόγγυζον οὖν οἱ Ἰουδαῖοι περὶ αὐτοῦ ὅτι εἶπεν· ἐγώ εἰμι ὁ ἄρτος ὁ καταβὰς ἐκ τοῦ οὐρανοῦ,",
+      "text_kjv": "The Jews then murmured at him, because he said, I am the bread which came down from heaven.",
+      "rendering": "Then the Jewish leaders began to grumble about him because he said, \"I am the bread that came down from heaven.\"",
+      "translator_notes": [
+        "The verb egongyzon ('were grumbling, were murmuring') deliberately echoes Israel's murmuring against Moses in the wilderness (Exodus 16:2, 7-9; Numbers 11:1). The typological parallel is precise: as Israel grumbled against Moses when given bread from heaven, so these leaders grumble against Jesus when he claims to be the bread from heaven. History repeats its pattern of unbelief.",
+        "[TCR Cross-Reference] Quotes Exodus 16:2. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it.",
+        "[TCR Cross-Reference] Quotes Numbers 11:1. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 42,
+      "text_greek": "καὶ ἔλεγον· οὐχ οὗτός ἐστιν Ἰησοῦς ὁ υἱὸς Ἰωσήφ, οὗ ἡμεῖς οἴδαμεν τὸν πατέρα καὶ τὴν μητέρα; πῶς νῦν λέγει ὅτι ἐκ τοῦ οὐρανοῦ καταβέβηκα;",
+      "text_kjv": "And they said, Is not this Jesus, the son of Joseph, whose father and mother we know? how is it then that he saith, I came down from heaven?",
+      "rendering": "They were saying, \"Is this not Jesus the son of Joseph, whose father and mother we know? How can he now say, 'I have come down from heaven'?\"",
+      "translator_notes": [
+        "The objection is based on familiarity — they know his human family and therefore reject his heavenly origin. The question 'whose father and mother we know' assumes that known parentage excludes divine origin. The irony is thick: they think they know his father (Joseph), but they do not know his true Father (God). This is the same stumbling block Nathanael initially faced ('Can anything good come from Nazareth?' 1:46)."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 43,
+      "text_greek": "ἀπεκρίθη Ἰησοῦς καὶ εἶπεν αὐτοῖς· μὴ γογγύζετε μετ' ἀλλήλων.",
+      "text_kjv": "Jesus therefore answered and said unto them, Murmur not among yourselves.",
+      "rendering": "Jesus answered them, \"Stop grumbling among yourselves.",
+      "translator_notes": [
+        "The command me goggyzete ('stop grumbling') directly echoes Moses's rebuke of Israel in Exodus 16:8-9. Jesus assumes Moses's role in the wilderness narrative, further establishing the typological parallel.",
+        "[TCR Cross-Reference] References Exodus 16:8-9 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 44,
+      "text_greek": "οὐδεὶς δύναται ἐλθεῖν πρός με ἐὰν μὴ ὁ πατὴρ ὁ πέμψας με ἑλκύσῃ αὐτὸν, κἀγὼ ἀναστήσω αὐτὸν ἐν τῇ ἐσχάτῃ ἡμέρᾳ.",
+      "text_kjv": "No man can come to me, except the Father which hath sent me draw him: and I will raise him up at the last day.",
+      "rendering": "No one can come to me unless the Father who sent me draws them, and I will raise them up on the last day.",
+      "translator_notes": [
+        "The verb helkyse ('draws, attracts, drags') is a strong word — it is used for drawing a net (21:6), drawing a sword (18:10), and drawing Paul through the streets (Acts 16:19). This is not gentle persuasion but decisive, powerful attraction. The claim is that coming to Jesus requires divine initiative — apart from the Father's drawing, no one can come. The third repetition of 'I will raise them up on the last day' reinforces the resurrection promise."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 45,
+      "text_greek": "ἔστιν γεγραμμένον ἐν τοῖς προφήταις· καὶ ἔσονται πάντες διδακτοὶ θεοῦ· πᾶς ὁ ἀκούσας παρὰ τοῦ πατρὸς καὶ μαθὼν ἔρχεται πρὸς ἐμέ.",
+      "text_kjv": "It is written in the prophets, And they shall be all taught of God. Every man therefore that hath heard, and hath learned of the Father, cometh unto me.",
+      "rendering": "It is written in the Prophets: 'And they will all be taught by God.' Everyone who has heard the Father and learned from him comes to me.",
+      "translator_notes": [
+        "The quotation is from Isaiah 54:13, part of the new covenant vision. Being 'taught by God' (didaktoi theou) means direct divine instruction — those who are open to God's teaching recognize Jesus. The logic is: if you have truly heard and learned from the Father, you will come to the Son, because the Father's teaching leads to the Son.",
+        "[TCR Cross-Reference] This verse quotes Isaiah 54:13 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 46,
+      "text_greek": "οὐχ ὅτι τὸν πατέρα ἑώρακέν τις εἰ μὴ ὁ ὢν παρὰ τοῦ θεοῦ, οὗτος ἑώρακεν τὸν πατέρα.",
+      "text_kjv": "Not that any man hath seen the Father, save he which is of God, he hath seen the Father.",
+      "rendering": "Not that anyone has seen the Father except the one who is from God — he has seen the Father.",
+      "translator_notes": [
+        "Jesus qualifies verse 45: being 'taught by God' does not mean anyone has seen God directly. Only the one who is 'from God' (para tou theou) — Jesus himself — has seen the Father (cf. 1:18). All human knowledge of God is mediated through the Son."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 47,
+      "text_greek": "ἀμὴν ἀμὴν λέγω ὑμῖν, ὁ πιστεύων ἔχει ζωὴν αἰώνιον.",
+      "text_kjv": "Verily, verily, I say unto you, He that believeth on me hath everlasting life.",
+      "rendering": "Truly, truly, I tell you, the one who believes has eternal life.",
+      "translator_notes": [
+        "The statement is stark in its simplicity: belief equals eternal life, present tense. The SBLGNT does not include 'in me' (eis eme) though some manuscripts add it; the object of belief is clear from context. This is a restatement of 3:16 and 5:24 in its most compressed form."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 48,
+      "text_greek": "ἐγώ εἰμι ὁ ἄρτος τῆς ζωῆς.",
+      "text_kjv": "I am that bread of life.",
+      "rendering": "I myself am the living bread.",
+      "translator_notes": [
+        "The 'I am' statement from verse 35 is repeated, now functioning as the transition to the more scandalous claims that follow. The repetition creates emphasis and marks the beginning of the discourse's intensification."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 49,
+      "text_greek": "οἱ πατέρες ὑμῶν ἔφαγον ἐν τῇ ἐρήμῳ τὸ μάννα καὶ ἀπέθανον·",
+      "text_kjv": "Your fathers did eat manna in the wilderness, and are dead.",
+      "rendering": "Your fathers ate the manna in the wilderness, and they died.",
+      "translator_notes": [
+        "The manna's limitation is stated bluntly: those who ate it died. Physical bread, even miraculously given, cannot prevent death. This establishes the need for a different kind of bread — one that conquers death itself."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 50,
+      "text_greek": "οὗτός ἐστιν ὁ ἄρτος ὁ ἐκ τοῦ οὐρανοῦ καταβαίνων, ἵνα τις ἐξ αὐτοῦ φάγῃ καὶ μὴ ἀποθάνῃ.",
+      "text_kjv": "This is the bread which cometh down from heaven, that a man may eat thereof, and not die.",
+      "rendering": "This is the bread that comes down from heaven, so that a person may eat of it and not die.",
+      "translator_notes": [
+        "The bread from heaven surpasses the manna in its essential quality: it prevents death. The phrase me apothane ('not die') refers to spiritual/eternal death, not physical death — Jesus's followers still die physically, but death no longer has the final word."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 51,
+      "text_greek": "ἐγώ εἰμι ὁ ἄρτος ὁ ζῶν ὁ ἐκ τοῦ οὐρανοῦ καταβάς· ἐάν τις φάγῃ ἐκ τούτου τοῦ ἄρτου ζήσει εἰς τὸν αἰῶνα· καὶ ὁ ἄρτος δὲ ὃν ἐγὼ δώσω ἡ σάρξ μού ἐστιν ὑπὲρ τῆς τοῦ κόσμου ζωῆς.",
+      "text_kjv": "I am the living bread which came down from heaven: if any man eat of this bread, he shall live for ever: and the bread that I will give is my flesh, which I will give for the life of the world.",
+      "rendering": "I am the living bread that came down from heaven. If anyone eats of this bread, they will live forever. And the bread that I will give for the life of the world is my flesh.\"",
+      "translator_notes": [
+        "The discourse reaches its most provocative claim: the bread is his flesh (he sarx mou). The word sarx ('flesh') echoes 1:14 ('the Word became flesh') and now receives a sacrificial dimension — this flesh is given 'for the life of the world' (hyper tes tou kosmou zoes). The preposition hyper ('for, on behalf of') indicates substitutionary sacrifice. The shift from metaphor to shocking literalism sets up the controversy of the next verses."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 52,
+      "text_greek": "Ἐμάχοντο οὖν πρὸς ἀλλήλους οἱ Ἰουδαῖοι λέγοντες· πῶς δύναται οὗτος ἡμῖν δοῦναι τὴν σάρκα αὐτοῦ φαγεῖν;",
+      "text_kjv": "The Jews therefore strove among themselves, saying, How can this man give us his flesh to eat?",
+      "rendering": "The Jewish leaders then disputed among themselves, saying, \"How can this man give us his flesh to eat?\"",
+      "translator_notes": [
+        "The verb emachonto ('were fighting, were disputing') indicates heated argument, not merely questioning. Their question 'How can this man give us his flesh to eat?' takes Jesus's words at face value and finds them absurd and offensive. Eating human flesh would violate every dietary and moral law they knew. Jesus does not soften the claim in response — he intensifies it."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 53,
+      "text_greek": "εἶπεν οὖν αὐτοῖς ὁ Ἰησοῦς· ἀμὴν ἀμὴν λέγω ὑμῖν, ἐὰν μὴ φάγητε τὴν σάρκα τοῦ υἱοῦ τοῦ ἀνθρώπου καὶ πίητε αὐτοῦ τὸ αἷμα, οὐκ ἔχετε ζωὴν ἐν ἑαυτοῖς.",
+      "text_kjv": "Then Jesus said unto them, Verily, verily, I say unto you, Except ye eat the flesh of the Son of man, and drink his blood, ye have no life in you.",
+      "rendering": "So Jesus said to them, \"Truly, truly, I tell you, unless you eat the flesh of the Son of Man and drink his blood, you have no life in you.",
+      "translator_notes": [
+        "Rather than moderating the offensive claim, Jesus escalates it by adding 'drink his blood' — an absolute prohibition in Jewish law (Genesis 9:4, Leviticus 17:10-14). The double requirement (eating flesh and drinking blood) and the negative conditional (unless... you have no life) make this the most scandalous statement in Jesus's public ministry. Whether understood sacramentally (Eucharist), metaphorically (total appropriation of Jesus's sacrificial death by faith), or both, the language is deliberately confrontational.",
+        "[TCR Cross-Reference] References Genesis 9:4 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved.",
+        "[TCR Cross-Reference] References Leviticus 17:10-14 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 54,
+      "text_greek": "ὁ τρώγων μου τὴν σάρκα καὶ πίνων μου τὸ αἷμα ἔχει ζωὴν αἰώνιον, κἀγὼ ἀναστήσω αὐτὸν τῇ ἐσχάτῃ ἡμέρᾳ.",
+      "text_kjv": "Whoso eateth my flesh, and drinketh my blood, hath eternal life; and I will raise him up at the last day.",
+      "rendering": "The one who eats my flesh and drinks my blood has eternal life, and I will raise them up on the last day.",
+      "translator_notes": [
+        "The verb shifts from phago ('to eat,' used earlier) to trogo ('to chew, to munch, to gnaw') — a more visceral, physical word that intensifies the scandal. This is the fourth occurrence of 'I will raise them up on the last day' (cf. vv. 39, 40, 44), making the resurrection promise the drumbeat of the entire discourse."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 55,
+      "text_greek": "ἡ γὰρ σάρξ μου ἀληθής ἐστιν βρῶσις καὶ τὸ αἷμά μου ἀληθής ἐστιν πόσις.",
+      "text_kjv": "For my flesh is meat indeed, and my blood is drink indeed.",
+      "rendering": "For my flesh is true food, and my blood is true drink.",
+      "translator_notes": [
+        "The adjective alethes ('true, genuine') in the SBLGNT (some manuscripts read alethōs, 'truly') means that Jesus's flesh and blood are the authentic reality of which all other food and drink are shadows. This is not metaphor diminishing into symbol but reality claiming its full weight."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 56,
+      "text_greek": "ὁ τρώγων μου τὴν σάρκα καὶ πίνων μου τὸ αἷμα ἐν ἐμοὶ μένει κἀγὼ ἐν αὐτῷ.",
+      "text_kjv": "He that eateth my flesh, and drinketh my blood, dwelleth in me, and I in him.",
+      "rendering": "The one who eats my flesh and drinks my blood remains in me, and I in them.",
+      "translator_notes": [
+        "The mutual indwelling language — 'remains in me and I in them' (en emoi menei kago en auto) — introduces the abiding theme that will be fully developed in the Farewell Discourse (chapters 14-17, especially 15:1-11). Eating and drinking create a relationship of mutual inhabitation between the believer and Christ."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 57,
+      "text_greek": "καθὼς ἀπέστειλέν με ὁ ζῶν πατὴρ κἀγὼ ζῶ διὰ τὸν πατέρα, καὶ ὁ τρώγων με κἀκεῖνος ζήσει δι' ἐμέ.",
+      "text_kjv": "As the living Father hath sent me, and I live by the Father: so he that eateth me, even he shall live by me.",
+      "rendering": "Just as the living Father sent me and I live because of the Father, so the one who feeds on me will also live because of me.",
+      "translator_notes": [
+        "The chain of life is explicit: the Father (source of life) gives life to the Son, and the Son gives life to the believer. The phrase 'the living Father' (ho zon pater) is unique in the New Testament and identifies the Father as the ultimate source of all life. The preposition dia ('because of, through') indicates that Jesus's life is derived from the Father, and the believer's life is derived from Jesus."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 58,
+      "text_greek": "οὗτός ἐστιν ὁ ἄρτος ὁ ἐξ οὐρανοῦ καταβάς, οὐ καθὼς ἔφαγον οἱ πατέρες καὶ ἀπέθανον· ὁ τρώγων τοῦτον τὸν ἄρτον ζήσει εἰς τὸν αἰῶνα.",
+      "text_kjv": "This is that bread which came down from heaven: not as your fathers did eat manna, and are dead: he that eateth of this bread shall live for ever.",
+      "rendering": "This is the bread that came down from heaven — not like the bread the fathers ate, and died. The one who feeds on this bread will live forever.\"",
+      "translator_notes": [
+        "The discourse concludes by returning to its starting point — the contrast with the manna — creating an inclusio. The manna sustained life temporarily; this bread gives life forever. The verb trogo ('feeds on') maintains the visceral language to the end. The final promise — zesei eis ton aiona ('will live forever') — is the discourse's ultimate claim."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 59,
+      "text_greek": "Ταῦτα εἶπεν ἐν συναγωγῇ διδάσκων ἐν Καφαρναούμ.",
+      "text_kjv": "These things said he in the synagogue, as he taught in Capernaum.",
+      "rendering": "He said these things while teaching in the synagogue in Capernaum.",
+      "translator_notes": [
+        "The narrator identifies the setting: a synagogue in Capernaum. This context confirms that the Bread of Life discourse is a formal teaching, delivered in a liturgical setting where Scripture would have been read and expounded. The synagogue setting makes the desertion that follows even more dramatic — these are not casual listeners but members of the worshiping community."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 60,
+      "text_greek": "Πολλοὶ οὖν ἀκούσαντες ἐκ τῶν μαθητῶν αὐτοῦ εἶπαν· σκληρός ἐστιν ὁ λόγος οὗτος· τίς δύναται αὐτοῦ ἀκούειν;",
+      "text_kjv": "Many therefore of his disciples, when they had heard this, said, This is an hard saying; who can hear it?",
+      "rendering": "When many of his disciples heard this, they said, \"This is a hard teaching. Who can accept it?\"",
+      "translator_notes": [
+        "The word skleros ('hard, harsh, offensive') does not mean difficult to understand but difficult to accept. They understand the claim well enough — and find it intolerable. The 'disciples' (mathetai) here are the broader group of followers, not just the Twelve. The question 'who can hear it?' (tis dynatai autou akouein) means 'who can bear to listen to this?'"
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 61,
+      "text_greek": "εἰδὼς δὲ ὁ Ἰησοῦς ἐν ἑαυτῷ ὅτι γογγύζουσιν περὶ τούτου οἱ μαθηταὶ αὐτοῦ εἶπεν αὐτοῖς· τοῦτο ὑμᾶς σκανδαλίζει;",
+      "text_kjv": "When Jesus knew in himself that his disciples murmured at it, he said unto them, Doth this offend you?",
+      "rendering": "But Jesus, knowing within himself that his disciples were grumbling about this, said to them, \"Does this offend you?",
+      "translator_notes": [
+        "The verb skandalizei ('offend, cause to stumble, shock') is strong — the teaching is a stumbling block, an obstacle to continued following. Jesus knows their reaction before they express it (cf. 2:25) and addresses it directly without softening the teaching."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 62,
+      "text_greek": "ἐὰν οὖν θεωρῆτε τὸν υἱὸν τοῦ ἀνθρώπου ἀναβαίνοντα ὅπου ἦν τὸ πρότερον;",
+      "text_kjv": "What and if ye shall see the Son of man ascend up where he was before?",
+      "rendering": "Then what if you were to see the Son of Man ascending to where he was before?",
+      "translator_notes": [
+        "The sentence is deliberately incomplete — Jesus leaves the conclusion unstated. Will the ascension confirm or resolve their offense? The phrase 'where he was before' (hopou en to proteron) asserts pre-existence: the Son of Man was in heaven before his descent. The ascension will prove that his heavenly origin claims are true."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 63,
+      "text_greek": "τὸ πνεῦμά ἐστιν τὸ ζῳοποιοῦν, ἡ σὰρξ οὐκ ὠφελεῖ οὐδέν· τὰ ῥήματα ἃ ἐγὼ λελάληκα ὑμῖν πνεῦμά ἐστιν καὶ ζωή ἐστιν.",
+      "text_kjv": "It is the spirit that quickeneth; the flesh profiteth nothing: the words that I speak unto you, they are spirit, and they are life.",
+      "rendering": "It is the Spirit who gives life; the flesh is of no help at all. The words that I have spoken to you are spirit and life.",
+      "translator_notes": [
+        "This verse is the interpretive key to the entire discourse. 'The flesh is of no help' (he sarx ouk ophelei ouden) does not retract the flesh-eating language but clarifies the mode of reception: the discourse cannot be understood at the level of flesh (human reasoning, physical consumption) but only through the Spirit. Jesus's words are 'spirit and life' — they carry the Spirit's life-giving power and must be received in the Spirit."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 64,
+      "text_greek": "ἀλλ' εἰσὶν ἐξ ὑμῶν τινες οἳ οὐ πιστεύουσιν. ᾔδει γὰρ ἐξ ἀρχῆς ὁ Ἰησοῦς τίνες εἰσὶν οἱ μὴ πιστεύοντες καὶ τίς ἐστιν ὁ παραδώσων αὐτόν.",
+      "text_kjv": "But there are some of you that believe not. For Jesus knew from the beginning who they were that believed not, and who should betray him.",
+      "rendering": "But there are some among you who do not believe.\" For Jesus knew from the beginning who the ones were that did not believe, and who would betray him.",
+      "translator_notes": [
+        "The narrator's aside reveals that Jesus's knowledge extends to the identity of the unbelievers within his own circle and to the identity of his future betrayer. The phrase ex arches ('from the beginning') indicates this was not a gradual discovery but foreknowledge. The first mention of betrayal (paradoson, 'the one who would hand over') in John's Gospel — an ominous foreshadowing."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 65,
+      "text_greek": "καὶ ἔλεγεν· διὰ τοῦτο εἴρηκα ὑμῖν ὅτι οὐδεὶς δύναται ἐλθεῖν πρός με ἐὰν μὴ ᾖ δεδομένον αὐτῷ ἐκ τοῦ πατρός.",
+      "text_kjv": "And he said, Therefore said I unto you, that no man can come unto me, except it were given unto him of my Father.",
+      "rendering": "And he said, \"This is why I told you that no one can come to me unless it is granted to them by the Father.\"",
+      "translator_notes": [
+        "Jesus restates the divine initiative of verse 44 — coming to him is not a human achievement but a divine gift. The perfect passive participle dedomenon ('having been given, granted') emphasizes that the ability to come is God's prior work. The 'therefore' (dia touto) connects unbelief to the absence of this divine enablement."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 66,
+      "text_greek": "Ἐκ τούτου πολλοὶ ἐκ τῶν μαθητῶν αὐτοῦ ἀπῆλθον εἰς τὰ ὀπίσω καὶ οὐκέτι μετ' αὐτοῦ περιεπάτουν.",
+      "text_kjv": "From that time many of his disciples went back, and walked no more with him.",
+      "rendering": "After this many of his disciples turned back and no longer walked with him.",
+      "translator_notes": [
+        "The phrase apelthon eis ta opiso ('went back, turned away') is the language of apostasy — they reverse course and abandon discipleship. The imperfect periepatoun ('were walking') with the negative ouketi ('no longer') indicates a permanent departure, not a temporary wavering. This is the greatest crisis of faith in Jesus's ministry as John narrates it."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 67,
+      "text_greek": "εἶπεν οὖν ὁ Ἰησοῦς τοῖς δώδεκα· μὴ καὶ ὑμεῖς θέλετε ὑπάγειν;",
+      "text_kjv": "Then said Jesus unto the twelve, Will ye also go away?",
+      "rendering": "So Jesus said to the Twelve, \"You do not want to leave too, do you?\"",
+      "translator_notes": [
+        "This is the only place in John's Gospel where 'the Twelve' (tois dodeka) are mentioned as a distinct group. The question me kai hymeis thelete ('you don't want to go too, do you?') uses the particle me, which expects a negative answer, but the possibility is real. Jesus does not compel anyone to stay — he offers the freedom to leave."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 68,
+      "text_greek": "ἀπεκρίθη αὐτῷ Σίμων Πέτρος· κύριε, πρὸς τίνα ἀπελευσόμεθα; ῥήματα ζωῆς αἰωνίου ἔχεις·",
+      "text_kjv": "Then Simon Peter answered him, Lord, to whom shall we go? thou hast the words of eternal life.",
+      "rendering": "Simon Peter answered him, \"Lord, to whom would we go? You have the words of eternal life.",
+      "translator_notes": [
+        "Peter's response is not a triumphant confession but an honest acknowledgment of having no alternative. The question 'to whom would we go?' admits the difficulty of the teaching while recognizing that there is no other source of 'words of eternal life' (remata zoes aioniou). Peter does not say 'we understand' but 'we have nowhere else to go.' This is faith in the face of incomprehension."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 69,
+      "text_greek": "καὶ ἡμεῖς πεπιστεύκαμεν καὶ ἐγνώκαμεν ὅτι σὺ εἶ ὁ ἅγιος τοῦ θεοῦ.",
+      "text_kjv": "And we believe and are sure that thou art that Christ, the Son of the living God.",
+      "rendering": "And we have come to believe and know that you are the Holy One of God.\"",
+      "translator_notes": [
+        "The SBLGNT reads 'the Holy One of God' (ho hagios tou theou) rather than 'the Christ, the Son of the living God' found in some manuscripts (influenced by Matthew 16:16). The title 'Holy One of God' appears in Mark 1:24 on the lips of a demon. The perfect tenses pepistukamen ('we have believed') and egnokamen ('we have known') indicate settled, ongoing conviction. The order is significant: belief leads to knowledge, not the reverse."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 70,
+      "text_greek": "ἀπεκρίθη αὐτοῖς ὁ Ἰησοῦς· οὐκ ἐγὼ ὑμᾶς τοὺς δώδεκα ἐξελεξάμην; καὶ ἐξ ὑμῶν εἷς διάβολός ἐστιν.",
+      "text_kjv": "Jesus answered them, Have not I chosen you twelve, and one of you is a devil?",
+      "rendering": "Jesus answered them, \"Did I not choose you, the Twelve? Yet one of you is a devil.\"",
+      "translator_notes": [
+        "The word diabolos ('devil, accuser, slanderer') is shocking when applied to a disciple. Jesus affirms that he chose all twelve deliberately (exelexamen, 'I selected'), including the one who will betray him. The divine foreknowledge of verse 64 is now applied directly. The presence of a betrayer within the chosen circle is a mystery Jesus acknowledges but does not explain."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 71,
+      "text_greek": "ἔλεγεν δὲ τὸν Ἰούδαν Σίμωνος Ἰσκαριώτου· οὗτος γὰρ ἔμελλεν παραδιδόναι αὐτόν, εἷς ὢν ἐκ τῶν δώδεκα.",
+      "text_kjv": "He spake of Judas Iscariot the son of Simon: for he it was that should betray him, being one of the twelve.",
+      "rendering": "He was speaking of Judas son of Simon Iscariot, for he, one of the Twelve, was going to betray him.",
+      "translator_notes": [
+        "The narrator identifies the betrayer by full name: Judas, son of Simon Iscariot. The designation 'Iscariot' (Iskariōtou) may derive from the Hebrew ish-Qeriyyot ('man of Kerioth'), indicating Judas's origin in a Judean town — making him possibly the only non-Galilean among the Twelve. The phrase 'one of the Twelve' (heis on ek ton dodeka) emphasizes the insider nature of the betrayal. The imperfect emellen ('was going to') indicates this was settled in advance."
+      ],
+      "reading_level": "7th grade"
+    }
+  ]
+}

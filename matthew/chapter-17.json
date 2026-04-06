@@ -1,0 +1,326 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Matthew",
+    "chapter": 17,
+    "source_text": "SBL Greek New Testament (SBLGNT)",
+    "reference_text": "KJV",
+    "generated_at": "2026-04-04T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Matthew 17 opens with the Transfiguration, where Jesus takes Peter, James, and John up a high mountain and is transformed before them — his face shining like the sun, his clothes becoming brilliant white. Moses and Elijah appear alongside him, and a voice from the cloud declares, 'This is my beloved Son; listen to him.' After descending, Jesus heals a demon-possessed boy the disciples could not cure, rebuking their lack of faith. He makes his second passion prediction, and the chapter closes with the unusual incident of the temple tax, where Jesus instructs Peter to find a coin in a fish's mouth.",
+    "remarkable": "The Transfiguration is the most overtly theophanic scene in the Synoptic Gospels. Every element is loaded with Old Testament resonance: the high mountain (Sinai), the bright cloud (the shekinah glory), the voice from the cloud (the divine voice at Sinai), Moses (the law), and Elijah (the prophets). The scene reveals Jesus's true nature momentarily unveiled — what the disciples glimpse on the mountain is the glory that was hidden beneath the ordinary human appearance. Peter's offer to build three tabernacles (skenas) evokes the Feast of Tabernacles and the desire to prolong the experience of divine presence. The command 'Listen to him' echoes Deuteronomy 18:15, the promise of the prophet like Moses.",
+    "friction": "The identity of the 'high mountain' is unspecified — traditionally Mount Tabor, but Mount Hermon (near Caesarea Philippi) is geographically more likely given the preceding narrative. The phrase 'if you have faith as small as a mustard seed' (v. 20) appears in some manuscripts but is bracketed or absent in others; we follow the SBLGNT. Verse 21 is absent from the earliest manuscripts and is not included in the SBLGNT. The temple tax episode (vv. 24-27) raises questions about Jesus's relationship to the temple establishment and whether the miracle actually occurred — Matthew narrates the instruction but not the execution.",
+    "connections": "The Transfiguration connects to Exodus 24:15-18 and 34:29-35 (Moses on Sinai, his face shining), 1 Kings 19:8-18 (Elijah on Horeb), and Daniel 7:9 (the Ancient of Days with white garments). The divine voice combines Psalm 2:7, Isaiah 42:1, and Deuteronomy 18:15. The failed exorcism connects to the disciples' authority given in 10:1. The second passion prediction advances the pattern from 16:21. The temple tax discussion connects to Exodus 30:11-16 (the half-shekel tax for the tabernacle).\n\n**Tradition comparisons:** The JST modifies this chapter (Matthew 17:14): Man's approach to Jesus in the Transfiguration healing account clarified See the [JST notes](/jst/matthew)."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_greek": "Καὶ μεθ' ἡμέρας ἓξ παραλαμβάνει ὁ Ἰησοῦς τὸν Πέτρον καὶ Ἰάκωβον καὶ Ἰωάννην τὸν ἀδελφὸν αὐτοῦ καὶ ἀναφέρει αὐτοὺς εἰς ὄρος ὑψηλὸν κατ' ἰδίαν.",
+      "text_kjv": "And after six days Jesus taketh Peter, James, and John his brother, and bringeth them up into an high mountain apart,",
+      "rendering": "After six days, Jesus took Peter, James, and John his brother and led them up a high mountain by themselves.",
+      "translator_notes": [
+        "The 'six days' may echo Exodus 24:16, where the cloud covered Mount Sinai for six days before God spoke to Moses on the seventh. Peter, James, and John form an inner circle who witness events hidden from the other disciples (cf. the raising of Jairus's daughter, Mark 5:37, and the agony in Gethsemane, 26:37). The phrase kat' idian ('by themselves, privately') emphasizes the exclusive, revelatory nature of the experience.",
+        "[TCR Cross-Reference] Quotes Exodus 24:16. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 2,
+      "text_greek": "καὶ μετεμορφώθη ἔμπροσθεν αὐτῶν, καὶ ἔλαμψεν τὸ πρόσωπον αὐτοῦ ὡς ὁ ἥλιος, τὰ δὲ ἱμάτια αὐτοῦ ἐγένετο λευκὰ ὡς τὸ φῶς.",
+      "text_kjv": "And was transfigured before them: and his face did shine as the sun, and his raiment was white as the light.",
+      "rendering": "He was transfigured before them. His face shone like the sun, and his clothes became white as light.",
+      "translator_notes": [
+        "The verb metemorphothe ('was transfigured, was transformed') describes a change of form (morphe), not merely appearance. The passive voice implies divine agency — God transforms Jesus. The shining face echoes Moses descending from Sinai with radiant skin (Exodus 34:29-35), but here the glory is Jesus's own, not reflected. The similes — face like the sun, clothes like light — push human language to its limits describing divine splendor.",
+        "[TCR Cross-Reference] Draws on Exodus 34:29-35. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "key_terms": [
+        {
+          "greek": "μεταμορφόω",
+          "transliteration": "metamorphoo",
+          "rendered_as": "was transfigured",
+          "semantic_range": "to transform, to change form, to transfigure",
+          "note": "The English 'metamorphosis' derives from this word. The transformation reveals what was always true of Jesus's nature — the veil of ordinary humanity is momentarily drawn back to reveal the divine glory within."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 3,
+      "text_greek": "καὶ ἰδοὺ ὤφθη αὐτοῖς Μωϋσῆς καὶ Ἠλίας συλλαλοῦντες μετ' αὐτοῦ.",
+      "text_kjv": "And, behold, there appeared unto them Moses and Elias talking with him.",
+      "rendering": "And there appeared to them Moses and Elijah, talking with him.",
+      "translator_notes": [
+        "Moses represents the Torah (the Law) and Elijah represents the Prophets — together they embody the entirety of Old Testament revelation. Both experienced theophanies on mountains (Sinai/Horeb). Both had unusual departures from earthly life (Moses's hidden burial, Deuteronomy 34:5-6; Elijah's ascent in a chariot of fire, 2 Kings 2:11). The verb syllalountes ('conversing with') indicates an active exchange, not mere presence. Luke 9:31 specifies they discussed Jesus's 'departure' (exodus) in Jerusalem.",
+        "[TCR Cross-Reference] References Deuteronomy 34:5-6 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved.",
+        "[TCR Cross-Reference] References 2 Kings 2:11 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 4,
+      "text_greek": "ἀποκριθεὶς δὲ ὁ Πέτρος εἶπεν τῷ Ἰησοῦ· Κύριε, καλόν ἐστιν ἡμᾶς ὧδε εἶναι· εἰ θέλεις, ποιήσω ὧδε τρεῖς σκηνάς, σοί μίαν καὶ Μωϋσεῖ μίαν καὶ Ἠλίᾳ μίαν.",
+      "text_kjv": "Then answered Peter, and said unto Jesus, Lord, it is good for us to be here: if thou wilt, let us make here three tabernacles; one for thee, and one for Moses, and one for Elias.",
+      "rendering": "Peter responded and said to Jesus, \"Lord, it is good for us to be here. If you wish, I will make three shelters here — one for you, one for Moses, and one for Elijah.\"",
+      "translator_notes": [
+        "The word skenas ('tents, shelters, tabernacles') evokes the Feast of Tabernacles (Sukkot), when Israel dwelt in temporary shelters commemorating the wilderness wandering and God's presence among them. Peter's instinct to build three shelters may reflect a desire to prolong the moment of divine encounter, or an attempt to honor all three figures equally — a misunderstanding the divine voice will correct. Matthew's 'if you wish' (ei theleis) is more deferential than Mark's account, which notes Peter did not know what to say (Mark 9:6)."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 5,
+      "text_greek": "ἔτι αὐτοῦ λαλοῦντος ἰδοὺ νεφέλη φωτεινὴ ἐπεσκίασεν αὐτούς, καὶ ἰδοὺ φωνὴ ἐκ τῆς νεφέλης λέγουσα· Οὗτός ἐστιν ὁ υἱός μου ὁ ἀγαπητός, ἐν ᾧ εὐδόκησα· ἀκούετε αὐτοῦ.",
+      "text_kjv": "While he yet spake, behold, a bright cloud overshadowed them: and behold a voice out of the cloud, which said, This is my beloved Son, in whom I am well pleased; hear ye him.",
+      "rendering": "While he was still speaking, a bright cloud overshadowed them, and a voice from the cloud said, \"This is my beloved Son, with whom I am well pleased. Listen to him!\"",
+      "translator_notes": [
+        "The bright cloud (nephele photeina) is the shekinah — the visible manifestation of God's presence that led Israel through the wilderness (Exodus 13:21-22) and filled the tabernacle and temple (Exodus 40:34-35, 1 Kings 8:10-11). The verb epeskiasen ('overshadowed') is the same word used of the Spirit overshadowing Mary in Luke 1:35. The divine voice repeats the baptismal declaration (3:17) with the crucial addition akouete autou ('listen to him'), echoing Deuteronomy 18:15 — the promise that God would raise up a prophet like Moses whom the people must heed. This command elevates Jesus above Moses and Elijah.",
+        "[TCR Cross-Reference] This verse quotes Exodus 13:21-22 — see the TCR rendering of that passage for the Hebrew source text and translation decisions.",
+        "[TCR Cross-Reference] This verse quotes Exodus 40:34-35 — see the TCR rendering of that passage for the Hebrew source text and translation decisions.",
+        "[TCR Cross-Reference] This verse quotes 1 Kings 8:10-11 — see the TCR rendering of that passage for the Hebrew source text and translation decisions.",
+        "[TCR Cross-Reference] This verse quotes Deuteronomy 18:15 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "key_terms": [
+        {
+          "greek": "ἀγαπητός",
+          "transliteration": "agapetos",
+          "rendered_as": "beloved",
+          "semantic_range": "beloved, dearly loved, only beloved",
+          "note": "In the Septuagint, agapetos sometimes translates the Hebrew yachid ('only one,' cf. Genesis 22:2 of Isaac). The Father's declaration identifies Jesus as the unique, beloved Son — not one prophet among many but the definitive revelation of God."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 6,
+      "text_greek": "καὶ ἀκούσαντες οἱ μαθηταὶ ἔπεσαν ἐπὶ πρόσωπον αὐτῶν καὶ ἐφοβήθησαν σφόδρα.",
+      "text_kjv": "And when the disciples heard it, they fell on their face, and were sore afraid.",
+      "rendering": "When the disciples heard this, they fell facedown and were terrified.",
+      "translator_notes": [
+        "Falling facedown (epesan epi prosopon auton) is the standard Old Testament response to a theophany — encountering the unmediated presence of God (cf. Genesis 17:3, Ezekiel 1:28, Daniel 8:17). The adverb sphodra ('extremely, greatly') intensifies their fear. This is not reverent awe but overwhelming terror in the presence of the divine.",
+        "[TCR Cross-Reference] Quotes Genesis 17:3. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it.",
+        "[TCR Cross-Reference] Quotes Ezekiel 1:28. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it.",
+        "[TCR Cross-Reference] Quotes Daniel 8:17. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 7,
+      "text_greek": "καὶ προσῆλθεν ὁ Ἰησοῦς καὶ ἁψάμενος αὐτῶν εἶπεν· Ἐγέρθητε καὶ μὴ φοβεῖσθε.",
+      "text_kjv": "And Jesus came and touched them, and said, Arise, and be not afraid.",
+      "rendering": "Jesus came and touched them, saying, \"Get up, and do not be afraid.\"",
+      "translator_notes": [
+        "The physical touch (hapsamenos auton) bridges the gap between divine encounter and human comfort. The command 'do not be afraid' (me phobeisthe) echoes the angelic reassurance given throughout Scripture when humans encounter the divine (Genesis 15:1, Daniel 10:12, Luke 1:30). Jesus mediates between the overwhelming divine presence and his terrified friends.",
+        "[TCR Cross-Reference] Draws on Genesis 15:1. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices.",
+        "[TCR Cross-Reference] Draws on Daniel 10:12. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "5th grade"
+    },
+    {
+      "verse": 8,
+      "text_greek": "ἐπάραντες δὲ τοὺς ὀφθαλμοὺς αὐτῶν οὐδένα εἶδον εἰ μὴ αὐτὸν Ἰησοῦν μόνον.",
+      "text_kjv": "And when they had lifted up their eyes, they saw no man, save Jesus only.",
+      "rendering": "When they looked up, they saw no one except Jesus himself, alone.",
+      "translator_notes": [
+        "The phrase 'Jesus himself, alone' (auton Iesoun monon) is theologically precise — Moses and Elijah have departed, and only Jesus remains. The Law and the Prophets have borne their witness and yielded the stage to the one they pointed toward. The disciples' gaze is redirected to Jesus alone, fulfilling the command 'Listen to him.'"
+      ],
+      "reading_level": "5th grade"
+    },
+    {
+      "verse": 9,
+      "text_greek": "Καὶ καταβαινόντων αὐτῶν ἐκ τοῦ ὄρους ἐνετείλατο αὐτοῖς ὁ Ἰησοῦς λέγων· Μηδενὶ εἴπητε τὸ ὅραμα ἕως οὗ ὁ υἱὸς τοῦ ἀνθρώπου ἐκ νεκρῶν ἐγερθῇ.",
+      "text_kjv": "And as they came down from the mountain, Jesus charged them, saying, Tell the vision to no man, until the Son of man be risen again from the dead.",
+      "rendering": "As they were coming down the mountain, Jesus commanded them, \"Tell no one about the vision until the Son of Man has been raised from the dead.\"",
+      "translator_notes": [
+        "The word horama ('vision') is Matthew's term for what they witnessed — it classifies the Transfiguration as a revelatory experience. The command to silence is tied to the resurrection: only after the cross and empty tomb will the Transfiguration be properly understood. Before the resurrection, glory without suffering would feed exactly the wrong kind of messianic expectation."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 10,
+      "text_greek": "καὶ ἐπηρώτησαν αὐτὸν οἱ μαθηταὶ λέγοντες· Τί οὖν οἱ γραμματεῖς λέγουσιν ὅτι Ἠλίαν δεῖ ἐλθεῖν πρῶτον;",
+      "text_kjv": "And his disciples asked him, saying, Why then say the scribes that Elias must first come?",
+      "rendering": "The disciples asked him, \"Why then do the scribes say that Elijah must come first?\"",
+      "translator_notes": [
+        "The disciples' question arises naturally from what they have just seen: if Elijah has appeared on the mountain, what about the scribal teaching (based on Malachi 4:5) that Elijah must return before the messianic age? The word proton ('first') reflects the expectation that Elijah's return would precede and prepare for the Messiah's arrival.",
+        "[TCR Cross-Reference] This verse quotes Malachi 4:5 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 11,
+      "text_greek": "ὁ δὲ ἀποκριθεὶς εἶπεν· Ἠλίας μὲν ἔρχεται καὶ ἀποκαταστήσει πάντα·",
+      "text_kjv": "And Jesus answered and said unto them, Elias truly shall first come, and restore all things.",
+      "rendering": "He answered, \"Elijah is indeed coming and will restore all things.",
+      "translator_notes": [
+        "Jesus affirms the scribal expectation: Elijah will come and 'restore all things' (apokatastisei panta). The verb apokathistemi ('to restore, to reestablish') implies returning something to its original state. In the Malachi context, Elijah's mission is to turn the hearts of fathers to children and children to fathers before the great day of the LORD."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 12,
+      "text_greek": "λέγω δὲ ὑμῖν ὅτι Ἠλίας ἤδη ἦλθεν, καὶ οὐκ ἐπέγνωσαν αὐτὸν ἀλλὰ ἐποίησαν ἐν αὐτῷ ὅσα ἠθέλησαν· οὕτως καὶ ὁ υἱὸς τοῦ ἀνθρώπου μέλλει πάσχειν ὑπ' αὐτῶν.",
+      "text_kjv": "But I say unto you, That Elias is come already, and they knew him not, but have done unto him whatsoever they listed. Likewise shall also the Son of man suffer of them.",
+      "rendering": "But I tell you that Elijah has already come, and they did not recognize him but did to him whatever they pleased. In the same way, the Son of Man is also going to suffer at their hands.\"",
+      "translator_notes": [
+        "Jesus identifies John the Baptist as the Elijah who was to come — a typological, not literal, fulfillment. The phrase 'they did not recognize him' (ouk epegnosan auton) parallels Israel's historic failure to recognize its prophets. The ominous parallel 'in the same way the Son of Man is also going to suffer' links John's fate (beheading by Herod, 14:1-12) to Jesus's approaching passion. The pattern is clear: Israel rejects its prophets, and it will reject its Messiah."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 13,
+      "text_greek": "τότε συνῆκαν οἱ μαθηταὶ ὅτι περὶ Ἰωάννου τοῦ βαπτιστοῦ εἶπεν αὐτοῖς.",
+      "text_kjv": "Then the disciples understood that he spake unto them of John the Baptist.",
+      "rendering": "Then the disciples understood that he was speaking to them about John the Baptist.",
+      "translator_notes": [
+        "Matthew, characteristically, resolves the disciples' confusion (cf. 16:12). The verb synekan ('they understood') indicates genuine comprehension. The identification of John with Elijah is not reincarnation but prophetic typology — John came 'in the spirit and power of Elijah' (Luke 1:17)."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 14,
+      "text_greek": "Καὶ ἐλθόντων πρὸς τὸν ὄχλον προσῆλθεν αὐτῷ ἄνθρωπος γονυπετῶν αὐτὸν",
+      "text_kjv": "And when they were come to the multitude, there came to him a certain man, kneeling down to him, and saying,",
+      "rendering": "When they came to the crowd, a man came up to him, kneeling before him",
+      "translator_notes": [
+        "The descent from the mountain to the crowd creates a sharp narrative contrast — from divine glory to human suffering. The participle gonypeton ('kneeling') indicates a posture of urgent supplication. The scene parallels the descent of Moses from Sinai to find Israel's failure below (Exodus 32).",
+        "[TCR Cross-Reference] Echoes Exodus 32. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 15,
+      "text_greek": "καὶ λέγων· Κύριε, ἐλέησόν μου τὸν υἱόν, ὅτι σεληνιάζεται καὶ κακῶς πάσχει· πολλάκις γὰρ πίπτει εἰς τὸ πῦρ καὶ πολλάκις εἰς τὸ ὕδωρ.",
+      "text_kjv": "And saying, Lord, have mercy on my son: for he is lunatick, and sore vexed: for ofttimes he falleth into the fire, and oft into the water.",
+      "rendering": "Indeed, declaring, Lord, have mercy on my son — since he is lunatick, and sore vexed: for ofttimes he falleth into the fire, and oft into the water.",
+      "translator_notes": [
+        "The verb seleniazetai (literally 'is moon-struck') was associated with epileptic-like seizures, believed in the ancient world to be influenced by the moon. We render it 'has seizures' since modern English 'lunatic' carries different connotations. Matthew retains both the medical description (seizures) and the spiritual diagnosis (demon-possession, v. 18), without reducing one to the other. The dangerous symptoms — falling into fire and water — indicate the severity and life-threatening nature of the condition."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 16,
+      "text_greek": "καὶ προσήνεγκα αὐτὸν τοῖς μαθηταῖς σου, καὶ οὐκ ἠδυνήθησαν αὐτὸν θεραπεῦσαι.",
+      "text_kjv": "And I brought him to thy disciples, and they could not cure him.",
+      "rendering": "I brought him to your disciples, but they could not heal him.\"",
+      "translator_notes": [
+        "The disciples' failure is significant because Jesus had explicitly given them authority over unclean spirits (10:1). The verb edyneethesan ('they were able') with the negation ouk indicates inability, not unwillingness. The father's turning from the disciples to Jesus underscores the gap between delegated authority and its source."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 17,
+      "text_greek": "ἀποκριθεὶς δὲ ὁ Ἰησοῦς εἶπεν· Ὦ γενεὰ ἄπιστος καὶ διεστραμμένη, ἕως πότε μεθ' ὑμῶν ἔσομαι; ἕως πότε ἀνέξομαι ὑμῶν; φέρετε μοι αὐτὸν ὧδε.",
+      "text_kjv": "Then Jesus answered and said, O faithless and perverse generation, how long shall I be with you? how long shall I suffer you? bring him hither to me.",
+      "rendering": "Jesus answered, \"O faithless and twisted generation, how long will I be with you? How long must I put up with you? Bring him here to me.\"",
+      "translator_notes": [
+        "The exclamation echoes Moses's frustration with Israel in the wilderness (Deuteronomy 32:5, 20). The adjective diestrammene ('twisted, perverted, distorted') describes a generation that has bent away from its proper orientation toward God. The double 'how long' (heos pote) expresses both exhaustion and anticipation of departure. The rebuke is directed broadly — at the disciples, the crowd, the entire generation — not just the father.",
+        "[TCR Cross-Reference] Draws on Deuteronomy 32:5. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 18,
+      "text_greek": "καὶ ἐπετίμησεν αὐτῷ ὁ Ἰησοῦς καὶ ἐξῆλθεν ἀπ' αὐτοῦ τὸ δαιμόνιον καὶ ἐθεραπεύθη ὁ παῖς ἀπὸ τῆς ὥρας ἐκείνης.",
+      "text_kjv": "And Jesus rebuked the devil; and he departed out of him: and the child was cured from that very hour.",
+      "rendering": "Jesus rebuked the demon, and it came out of him, and the boy was healed from that moment.",
+      "translator_notes": [
+        "The verb epetimesen ('rebuked') is a word of authoritative command, the same term used for rebuking the wind and sea (8:26). The healing is instantaneous — 'from that very hour' (apo tes horas ekeines) — and requires no ritual, no incantation, only Jesus's word of command. The contrast with the disciples' failure is total."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 19,
+      "text_greek": "Τότε προσελθόντες οἱ μαθηταὶ τῷ Ἰησοῦ κατ' ἰδίαν εἶπον· Διὰ τί ἡμεῖς οὐκ ἠδυνήθημεν ἐκβαλεῖν αὐτό;",
+      "text_kjv": "Then came the disciples to Jesus apart, and said, Why could not we cast him out?",
+      "rendering": "Then the disciples came to Jesus privately and asked, \"Why could we not cast it out?\"",
+      "translator_notes": [
+        "The private setting (kat' idian) suggests the disciples are embarrassed by their public failure. Their question is honest: they had been given authority (10:1) and had exercised it successfully (cf. Luke 10:17), so what went wrong? The answer in the next verse will locate the problem in their faith, not their authority."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 20,
+      "text_greek": "ὁ δὲ λέγει αὐτοῖς· Διὰ τὴν ὀλιγοπιστίαν ὑμῶν· ἀμὴν γὰρ λέγω ὑμῖν, ἐὰν ἔχητε πίστιν ὡς κόκκον σινάπεως, ἐρεῖτε τῷ ὄρει τούτῳ· Μετάβα ἔνθεν ἐκεῖ, καὶ μεταβήσεται· καὶ οὐδὲν ἀδυνατήσει ὑμῖν.",
+      "text_kjv": "And Jesus said unto them, Because of your unbelief: for verily I say unto you, If ye have faith as a grain of mustard seed, ye shall say unto this mountain, Remove hence to yonder place; and it shall remove; and nothing shall be impossible unto you.",
+      "rendering": "He said to them, \"Because of your little faith. For truly I tell you, if you have faith as small as a mustard seed, you will say to this mountain, 'Move from here to there,' and it will move, and nothing will be impossible for you.\"",
+      "translator_notes": [
+        "The word oligopistian ('littleness of faith') is the noun form of the adjective oligopistos used throughout Matthew. The mustard seed was proverbially the smallest seed in Palestinian agriculture. The paradox is deliberate: their faith does not need to be large — even the smallest genuine faith can accomplish the impossible. 'This mountain' (to orei touto) may gesture toward the mountain they have just descended, or may simply be a proverbial expression for any insurmountable obstacle."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 21,
+      "text_greek": "",
+      "text_kjv": "Howbeit this kind goeth not out but by prayer and fasting.",
+      "rendering": "",
+      "translator_notes": [
+        "Verse 21 is absent from the earliest and most reliable Greek manuscripts, including Sinaiticus and Vaticanus, and is not included in the SBLGNT critical text. It appears to have been added from Mark 9:29 in later manuscripts. The KJV includes it because it follows the Textus Receptus tradition. We omit it following the SBLGNT."
+      ],
+      "reading_level": "N/A"
+    },
+    {
+      "verse": 22,
+      "text_greek": "Συστρεφομένων δὲ αὐτῶν ἐν τῇ Γαλιλαίᾳ εἶπεν αὐτοῖς ὁ Ἰησοῦς· Μέλλει ὁ υἱὸς τοῦ ἀνθρώπου παραδίδοσθαι εἰς χεῖρας ἀνθρώπων,",
+      "text_kjv": "And while they abode in Galilee, Jesus said unto them, The Son of man shall be betrayed into the hands of men.",
+      "rendering": "While they were gathering together in Galilee, Jesus said to them, \"The Son of Man is going to be delivered into the hands of people,",
+      "translator_notes": [
+        "The verb systrefomenon ('gathering, assembling') suggests the disciples came together, possibly after dispersal. The verb paradidosthai ('to be delivered, to be handed over, to be betrayed') is a key passion term — the same word used for Judas's betrayal (26:15-16) and for God 'handing over' Jesus (Romans 8:32). The wordplay between 'Son of Man' (huios tou anthropou) and 'hands of people' (cheiras anthropon) creates a bitter irony: the quintessential human will be killed by humans."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 23,
+      "text_greek": "καὶ ἀποκτενοῦσιν αὐτόν, καὶ τῇ τρίτῃ ἡμέρᾳ ἐγερθήσεται. καὶ ἐλυπήθησαν σφόδρα.",
+      "text_kjv": "And they shall kill him, and the third day he shall be raised again. And they were exceeding sorry.",
+      "rendering": "They will kill him, and the third day he will be raised again. Then they were exceeding sorry.",
+      "translator_notes": [
+        "This second passion prediction (cf. 16:21) is briefer and more blunt than the first — no specification of who will kill him, just the stark 'they will kill him.' The passive 'will be raised' (egertheesetai) again implies God as agent. The disciples' response — deep grief (elypeethesan sphodra) rather than Peter's rebuke of 16:22 — suggests they are beginning to accept what Jesus is saying, even if they do not fully understand it."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 24,
+      "text_greek": "Ἐλθόντων δὲ αὐτῶν εἰς Καφαρναοὺμ προσῆλθον οἱ τὰ δίδραχμα λαμβάνοντες τῷ Πέτρῳ καὶ εἶπαν· Ὁ διδάσκαλος ὑμῶν οὐ τελεῖ τὰ δίδραχμα;",
+      "text_kjv": "And when they were come to Capernaum, they that received tribute money came to Peter, and said, Doth not your master pay tribute?",
+      "rendering": "When they came to Capernaum, the collectors of the two-drachma tax came to Peter and said, \"Does your teacher not pay the temple tax?\"",
+      "translator_notes": [
+        "The didrachma was a two-drachma coin equivalent to the half-shekel temple tax required annually of every Jewish male aged twenty and above (Exodus 30:11-16). The tax supported the daily operations of the Jerusalem temple. The collectors' question implies uncertainty about whether Jesus would comply — his stance toward the temple was already controversial.",
+        "[TCR Cross-Reference] Echoes Exodus 30:11-16. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 25,
+      "text_greek": "λέγει· Ναί. καὶ ἐλθόντα εἰς τὴν οἰκίαν προέφθασεν αὐτὸν ὁ Ἰησοῦς λέγων· Τί σοι δοκεῖ, Σίμων; οἱ βασιλεῖς τῆς γῆς ἀπὸ τίνων λαμβάνουσιν τέλη ἢ κῆνσον; ἀπὸ τῶν υἱῶν αὐτῶν ἢ ἀπὸ τῶν ἀλλοτρίων;",
+      "text_kjv": "He saith, Yes. And when he was come into the house, Jesus prevented him, saying, What thinkest thou, Simon? of whom do the kings of the earth take custom or tribute? of their own children, or of strangers?",
+      "rendering": "He said, \"Yes.\" When he came into the house, Jesus spoke to him first, saying, \"What do you think, Simon? From whom do the kings of the earth collect tolls or taxes — from their own sons or from others?\"",
+      "translator_notes": [
+        "Peter answers affirmatively without consulting Jesus. The verb proephthasen ('anticipated, spoke first') indicates Jesus raised the topic before Peter could report the conversation, displaying supernatural awareness. The analogy is straightforward: kings tax their subjects, not their own family. The implication — that Jesus as God's Son is exempt from a tax paid to God's temple — is a subtle Christological claim."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 26,
+      "text_greek": "εἰπόντος δέ· Ἀπὸ τῶν ἀλλοτρίων, ἔφη αὐτῷ ὁ Ἰησοῦς· Ἄρα γε ἐλεύθεροί εἰσιν οἱ υἱοί.",
+      "text_kjv": "Peter saith unto him, Of strangers. Jesus saith unto him, Then are the children free.",
+      "rendering": "When he said, \"From others,\" Jesus said to him, \"Then the sons are free.",
+      "translator_notes": [
+        "The conclusion is logical: if kings tax outsiders, not their children, then the Son of God is exempt from the tax levied for God's house. The adjective eleutheroi ('free, exempt') carries both legal (exempt from tax) and theological (free as sons) force. This is one of the subtlest Christological declarations in Matthew — Jesus claims the status of God's Son through an analogy rather than a direct statement."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 27,
+      "text_greek": "ἵνα δὲ μὴ σκανδαλίσωμεν αὐτούς, πορευθεὶς εἰς θάλασσαν βάλε ἄγκιστρον καὶ τὸν ἀναβάντα πρῶτον ἰχθὺν ἆρον, καὶ ἀνοίξας τὸ στόμα αὐτοῦ εὑρήσεις στατῆρα· ἐκεῖνον λαβὼν δὸς αὐτοῖς ἀντὶ ἐμοῦ καὶ σοῦ.",
+      "text_kjv": "Notwithstanding, lest we should offend them, go thou to the sea, and cast an hook, and take up the fish that first cometh up; and when thou hast opened his mouth, thou shalt find a piece of money: that take, and give unto them for me and thee.",
+      "rendering": "But so that we do not cause them to stumble, go to the sea, cast a hook, and take the first fish that comes up. When you open its mouth, you will find a four-drachma coin. Take that and give it to them for me and for you.\"",
+      "translator_notes": [
+        "Despite being exempt, Jesus pays the tax 'so that we do not cause them to stumble' (hina me skandalisomen autous) — the same concern for others' conscience that Paul will later develop (Romans 14, 1 Corinthians 8). The stater (stateera) was a four-drachma coin — exactly enough for two persons' temple tax. The miraculous provision of the coin in the fish's mouth is unique to Matthew and has no parallel elsewhere in the Gospels. Notably, Matthew does not narrate the execution of the miracle — only the instruction. Peter's inclusion ('for me and for you') underscores his special role as Jesus's representative."
+      ],
+      "reading_level": "8th grade"
+    }
+  ]
+}

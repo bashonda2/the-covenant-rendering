@@ -1,0 +1,529 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Luke",
+    "chapter": 6,
+    "source_text": "SBL Greek New Testament (SBLGNT)",
+    "reference_text": "KJV",
+    "generated_at": "2026-04-04T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Luke 6 contains two Sabbath controversies (grain-picking and healing a withered hand), the choosing of the Twelve apostles after a night of prayer, and the Sermon on the Plain — Luke's parallel to Matthew's Sermon on the Mount. The sermon includes four blessings and four woes, teaching on loving enemies, not judging, and the parable of the two foundations. This chapter establishes Jesus's ethical teaching and the formation of his core community.",
+    "remarkable": "Luke's Beatitudes differ significantly from Matthew's. Luke has four blessings and four corresponding woes (Matthew has eight/nine blessings and no woes). Luke's blessings are addressed in the second person ('Blessed are you who are poor') rather than Matthew's third person ('Blessed are the poor in spirit'). Luke's version appears more concrete and socioeconomic — 'poor' rather than 'poor in spirit,' 'hungry now' rather than 'hungry for righteousness.' The 'love your enemies' teaching (vv. 27-36) is the most radical ethical instruction in the Gospels.",
+    "friction": "The relationship between Luke's Sermon on the Plain and Matthew's Sermon on the Mount is debated — whether they are different versions of the same event, different events with overlapping material, or literary compositions drawing on a common source. We render Luke's Greek text as given without harmonizing with Matthew.",
+    "connections": "The Sabbath controversies connect to Exodus 20:8-11 and Deuteronomy 5:12-15, with Jesus reinterpreting Sabbath in light of its original humanitarian purpose. The Beatitudes echo the Magnificat's reversal theme (1:46-55) and Hannah's prayer (1 Samuel 2:1-10). The 'love your enemies' teaching connects to Leviticus 19:18 while radically extending it. The two-foundations parable echoes Ezekiel 13:10-16 and Proverbs 10:25.\n\n**Tradition comparisons:** The JST modifies this chapter (Luke 6:29): Turn-the-other-cheek and cloak sayings revised in the discipleship discourse See the [JST notes](/jst/luke)."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_greek": "Ἐγένετο δὲ ἐν σαββάτῳ διαπορεύεσθαι αὐτὸν διὰ σπορίμων, καὶ ἔτιλλον οἱ μαθηταὶ αὐτοῦ καὶ ἤσθιον τοὺς στάχυας ψώχοντες ταῖς χερσίν.",
+      "text_kjv": "And it came to pass on the second sabbath after the first, that he went through the corn fields; and his disciples plucked the ears of corn, and did eat, rubbing them in their hands.",
+      "rendering": "On a Sabbath, as Jesus was passing through the grain fields, his disciples were picking heads of grain, rubbing them in their hands, and eating them.",
+      "translator_notes": [
+        "The SBLGNT reads simply en sabbato ('on a Sabbath') without the textually difficult deuteroproto ('second-first') found in some manuscripts and reflected in the KJV. The disciples' actions — picking grain (etillon) and rubbing it (psochontes) — would have been considered reaping and threshing under strict Pharisaic Sabbath interpretation. Deuteronomy 23:25 permitted eating from a neighbor's field by hand; the issue was not theft but Sabbath work.",
+        "[TCR Cross-Reference] Quotes Deuteronomy 23:25. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 2,
+      "text_greek": "τινὲς δὲ τῶν Φαρισαίων εἶπαν· Τί ποιεῖτε ὃ οὐκ ἔξεστιν τοῖς σάββασιν;",
+      "text_kjv": "And certain of the Pharisees said unto them, Why do ye that which is not lawful to do on the sabbath days?",
+      "rendering": "Some of the Pharisees said, \"Why are you doing what is not permitted on the Sabbath?\"",
+      "translator_notes": [
+        "The Greek exestin ('it is permitted, it is lawful') refers to halakhic legal interpretation — the Pharisees' oral tradition had elaborated thirty-nine categories of forbidden Sabbath work. The accusation is specific: the disciples are violating the Sabbath by performing agricultural labor. The Pharisees address 'you' (plural), including Jesus as responsible for his disciples' behavior."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 3,
+      "text_greek": "καὶ ἀποκριθεὶς πρὸς αὐτοὺς εἶπεν ὁ Ἰησοῦς· Οὐδὲ τοῦτο ἀνέγνωτε ὃ ἐποίησεν Δαυὶδ ὅτε ἐπείνασεν αὐτὸς καὶ οἱ μετ' αὐτοῦ,",
+      "text_kjv": "And Jesus answering them said, Have ye not read so much as this, what David did, when himself was an hungred, and they which were with him;",
+      "rendering": "Jesus answered them, \"Have you not even read what David did when he and his companions were hungry?",
+      "translator_notes": [
+        "Jesus's opening 'Have you not even read?' (oude touto anegnote) is a pointed challenge to the Pharisees' biblical expertise. The appeal to David's precedent (1 Samuel 21:1-6) is a brilliant rhetorical move: if David, the greatest king, could supersede the letter of the law when necessity demanded, how much more can the Son of David? The parallel is: David was hungry and broke the bread law; the disciples are hungry and break the Sabbath law.",
+        "[TCR Cross-Reference] References 1 Samuel 21:1-6 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 4,
+      "text_greek": "ὡς εἰσῆλθεν εἰς τὸν οἶκον τοῦ θεοῦ καὶ τοὺς ἄρτους τῆς προθέσεως λαβὼν ἔφαγεν καὶ ἔδωκεν τοῖς μετ' αὐτοῦ, οὓς οὐκ ἔξεστιν φαγεῖν εἰ μὴ μόνους τοὺς ἱερεῖς;",
+      "text_kjv": "How he went into the house of God, and did take and eat the shewbread, and gave also to them that were with him; which it is not lawful to eat but for the priests alone?",
+      "rendering": "He entered the house of God, took the bread of the Presence and ate it, and gave some to his companions — bread that only the priests are permitted to eat.\"",
+      "translator_notes": [
+        "The 'bread of the Presence' (artous tes protheseos, literally 'bread of the setting-forth') refers to the twelve loaves placed before God in the tabernacle and renewed weekly (Leviticus 24:5-9, Exodus 25:30). Only priests could eat the old loaves. David's action in 1 Samuel 21:1-6 established a principle: human need can take precedence over ritual restriction. Jesus does not argue that the Sabbath law is wrong but that its application must serve human well-being.",
+        "[TCR Cross-Reference] Echoes Leviticus 24:5-9. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale.",
+        "[TCR Cross-Reference] Echoes Exodus 25:30. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale.",
+        "[TCR Cross-Reference] Echoes 1 Samuel 21:1-6. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 5,
+      "text_greek": "καὶ ἔλεγεν αὐτοῖς· Κύριός ἐστιν τοῦ σαββάτου ὁ υἱὸς τοῦ ἀνθρώπου.",
+      "text_kjv": "And he said unto them, That the Son of man is Lord also of the sabbath.",
+      "rendering": "Then he said to them, \"The Son of Man is lord of the Sabbath.\"",
+      "translator_notes": [
+        "The claim is extraordinary: the Son of Man is kyrios ('lord, master, sovereign') of the Sabbath — the day God himself instituted (Genesis 2:2-3, Exodus 20:8-11). If Jesus is lord of the Sabbath, he has authority to determine its proper observance. Luke does not include Mark's statement 'The Sabbath was made for man, not man for the Sabbath' (Mark 2:27), going directly to the christological claim.",
+        "[TCR Cross-Reference] This verse quotes Genesis 2:2-3 — see the TCR rendering of that passage for the Hebrew source text and translation decisions.",
+        "[TCR Cross-Reference] This verse quotes Exodus 20:8-11 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 6,
+      "text_greek": "Ἐγένετο δὲ ἐν ἑτέρῳ σαββάτῳ εἰσελθεῖν αὐτὸν εἰς τὴν συναγωγὴν καὶ διδάσκειν. καὶ ἦν ἄνθρωπος ἐκεῖ καὶ ἡ χεὶρ αὐτοῦ ἡ δεξιὰ ἦν ξηρά.",
+      "text_kjv": "And it came to pass also on another sabbath, that he entered into the synagogue and taught: and there was a man whose right hand was withered.",
+      "rendering": "On another Sabbath he entered the synagogue and was teaching. A man was there whose right hand was withered.",
+      "translator_notes": [
+        "Luke specifies 'the right hand' (he dexia) — a detail absent from Mark and Matthew. The right hand was considered the hand of power, skill, and blessing; its loss was particularly disabling. The Greek xera ('dry, withered, atrophied') indicates a chronic condition, not an acute injury. The scene is set for another Sabbath confrontation."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 7,
+      "text_greek": "παρετηροῦντο δὲ αὐτὸν οἱ γραμματεῖς καὶ οἱ Φαρισαῖοι εἰ ἐν τῷ σαββάτῳ θεραπεύει, ἵνα εὕρωσιν κατηγορεῖν αὐτοῦ.",
+      "text_kjv": "And the scribes and Pharisees watched him, whether he would heal on the sabbath day; that they might find an accusation against him.",
+      "rendering": "The scribes and the Pharisees were watching him closely to see whether he would heal on the Sabbath, so that they might find a charge to bring against him.",
+      "translator_notes": [
+        "The verb pareterounto ('were watching closely, were observing carefully') suggests hostile surveillance. Luke reveals their intent: not to learn or to wonder but to 'find a charge' (heurōsin kategorein) — legal language for building a case. The healing has not yet occurred, but the opposition has already decided on their conclusion."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 8,
+      "text_greek": "αὐτὸς δὲ ᾔδει τοὺς διαλογισμοὺς αὐτῶν, εἶπεν δὲ τῷ ἀνδρὶ τῷ ξηρὰν ἔχοντι τὴν χεῖρα· Ἔγειρε καὶ στῆθι εἰς τὸ μέσον· καὶ ἀναστὰς ἔστη.",
+      "text_kjv": "But he knew their thoughts, and said to the man which had the withered hand, Rise up, and stand forth in the midst. And he arose and stood forth.",
+      "rendering": "But he knew their thoughts and said to the man with the withered hand, \"Get up and stand in the middle.\" He got up and stood there.",
+      "translator_notes": [
+        "Again Jesus demonstrates knowledge of internal thoughts (edei tous dialogismous auton, cf. 5:22). Rather than avoiding the confrontation, Jesus makes it public — placing the man 'in the middle' (eis to meson) forces everyone to see the human need that stands at the center of the Sabbath debate. The man's obedient response sets the stage for the healing."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 9,
+      "text_greek": "εἶπεν δὲ ὁ Ἰησοῦς πρὸς αὐτούς· Ἐπερωτῶ ὑμᾶς εἰ ἔξεστιν τῷ σαββάτῳ ἀγαθοποιῆσαι ἢ κακοποιῆσαι, ψυχὴν σῶσαι ἢ ἀπολέσαι;",
+      "text_kjv": "Then said Jesus unto them, I will ask you one thing; Is it lawful on the sabbath days to do good, or to do evil? to save life, or to destroy it?",
+      "rendering": "Jesus said to them, \"I ask you: is it lawful on the Sabbath to do good or to do harm, to save a life or to destroy it?\"",
+      "translator_notes": [
+        "Jesus reframes the question entirely. The Pharisees asked whether healing was permitted; Jesus asks whether doing good or doing harm is permitted. The verbs agathopoiesai ('to do good') and kakopoiesai ('to do harm') create a stark binary — if healing is forbidden, then refusing to heal when one can is doing harm. The Sabbath, meant for human flourishing, becomes an instrument of suffering when its observance prevents mercy. Jesus forces the opposition to choose between their interpretation and basic human compassion."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 10,
+      "text_greek": "καὶ περιβλεψάμενος πάντας αὐτοὺς εἶπεν αὐτῷ· Ἔκτεινον τὴν χεῖρά σου. ὁ δὲ ἐποίησεν, καὶ ἀπεκατεστάθη ἡ χεὶρ αὐτοῦ.",
+      "text_kjv": "And looking round about upon them all, he said unto the man, Stretch forth thy hand. And he did so: and his hand was restored whole as the other.",
+      "rendering": "After looking around at all of them, he said to him, \"Stretch out your hand.\" He did so, and his hand was restored.",
+      "translator_notes": [
+        "The verb periblepsamenos ('having looked around at') describes a deliberate, sweeping gaze — Jesus looks each opponent in the eye before acting. The command 'stretch out your hand' (ekteinon ten cheira sou) requires the man to do what he cannot do — and in the act of obedience, ability is given. The passive apekatestathē ('was restored') is a divine passive — God restores through Jesus's command."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 11,
+      "text_greek": "αὐτοὶ δὲ ἐπλήσθησαν ἀνοίας, καὶ διελάλουν πρὸς ἀλλήλους τί ἂν ποιήσαιεν τῷ Ἰησοῦ.",
+      "text_kjv": "And they were filled with madness; and communed one with another what they might do to Jesus.",
+      "rendering": "But they were filled with fury and began discussing with one another what they might do to Jesus.",
+      "translator_notes": [
+        "The Greek anoias ('madness, fury, senselessness') indicates an irrational rage — literally 'without mind.' They are 'filled' (eplesthesan) with it, as others have been 'filled' with the Holy Spirit. Luke presents two types of fullness: Spirit-filled praise and fury-filled plotting. Their discussion about 'what they might do to Jesus' (ti an poieseian to Iesou) is the beginning of the conspiracy that will lead to the cross."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 12,
+      "text_greek": "Ἐγένετο δὲ ἐν ταῖς ἡμέραις ταύταις ἐξελθεῖν αὐτὸν εἰς τὸ ὄρος προσεύξασθαι, καὶ ἦν διανυκτερεύων ἐν τῇ προσευχῇ τοῦ θεοῦ.",
+      "text_kjv": "And it came to pass in those days, that he went out into a mountain to pray, and continued all night in prayer to God.",
+      "rendering": "In those days he went out to the mountain to pray, and he spent the whole night in prayer to God.",
+      "translator_notes": [
+        "The verb dianyktereoun ('spending the whole night') appears only here in the New Testament. Jesus's all-night prayer precedes the appointment of the Twelve — the most consequential leadership decision of his ministry is preceded by the most extended prayer Luke records. The phrase en te proseuche tou theou ('in the prayer of God') could mean 'in prayer to God' or possibly 'in a house of prayer dedicated to God.' The former is more likely."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 13,
+      "text_greek": "καὶ ὅτε ἐγένετο ἡμέρα, προσεφώνησεν τοὺς μαθητὰς αὐτοῦ, καὶ ἐκλεξάμενος ἀπ' αὐτῶν δώδεκα, οὓς καὶ ἀποστόλους ὠνόμασεν·",
+      "text_kjv": "And when it was day, he called unto him his disciples: and of them he chose twelve, whom also he named apostles;",
+      "rendering": "When day came, he called his disciples and chose twelve of them, whom he also named apostles:",
+      "translator_notes": [
+        "The verb exelexamenos ('having chosen, having selected') indicates deliberate, Spirit-informed selection from a larger group of disciples. The title apostolous ('apostles, sent ones') from the verb apostello ('to send') defines their role: they are commissioned representatives, sent with the authority of the one who sends them. The number twelve corresponds to the twelve tribes of Israel — the apostles represent the reconstituted people of God."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 14,
+      "text_greek": "Σίμωνα, ὃν καὶ ὠνόμασεν Πέτρον, καὶ Ἀνδρέαν τὸν ἀδελφὸν αὐτοῦ, καὶ Ἰάκωβον καὶ Ἰωάννην καὶ Φίλιππον καὶ Βαρθολομαῖον",
+      "text_kjv": "Simon, (whom he also named Peter,) and Andrew his brother, James and John, Philip and Bartholomew,",
+      "rendering": "Simon, whom he also named Peter, and Andrew his brother, and James and John, and Philip and Bartholomew,",
+      "translator_notes": [
+        "Simon receives the name Petros ('Peter,' from petra, 'rock'). This renaming echoes the Old Testament pattern of God renaming those he commissions for special roles (Abram to Abraham, Jacob to Israel). Andrew and Simon are brothers; James and John are brothers (sons of Zebedee, 5:10). The list is arranged in pairs, a pattern that may reflect mission practice (cf. 10:1, sent 'two by two')."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 15,
+      "text_greek": "καὶ Μαθθαῖον καὶ Θωμᾶν καὶ Ἰάκωβον Ἁλφαίου καὶ Σίμωνα τὸν καλούμενον ζηλωτήν",
+      "text_kjv": "Matthew and Thomas, James the son of Alphaeus, and Simon called Zelotes,",
+      "rendering": "Matthew and Thomas, James the son of Alphaeus, and Simon called Zelotes,.",
+      "translator_notes": [
+        "Matthew is identified with Levi the tax collector (5:27-28) by tradition. Thomas (from Aramaic te'oma, 'twin') will later be known for his doubt and his confession (John 20:24-28). James son of Alphaeus is distinguished from James son of Zebedee. Simon 'the Zealot' (zeoloten) indicates either membership in the Zealot political movement opposing Rome or simply religious zeal. The group includes a former tax collector (Roman collaborator) and a zealot (anti-Roman nationalist) — an extraordinary combination."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 16,
+      "text_greek": "καὶ Ἰούδαν Ἰακώβου καὶ Ἰούδαν Ἰσκαριώθ, ὃς ἐγένετο προδότης.",
+      "text_kjv": "And Judas the brother of James, and Judas Iscariot, which also was the traitor.",
+      "rendering": "Judas the brother of James, and Judas Iscariot, which also was the traitor.",
+      "translator_notes": [
+        "Two men named Judas (Ioudas) are listed. 'Judas of James' (Ioudan Iakobou) is called 'son of James' by most interpreters (though 'brother of James' is possible; the KJV chooses 'brother'). Judas Iscariot — whose surname may mean 'man of Kerioth' (a Judean town) or may derive from the Latin sicarius ('dagger-man') — is identified proleptically as prodotes ('traitor, betrayer'). Luke names the end from the beginning."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 17,
+      "text_greek": "Καὶ καταβὰς μετ' αὐτῶν ἔστη ἐπὶ τόπου πεδινοῦ, καὶ ὄχλος πολὺς μαθητῶν αὐτοῦ, καὶ πλῆθος πολὺ τοῦ λαοῦ ἀπὸ πάσης τῆς Ἰουδαίας καὶ Ἰερουσαλὴμ καὶ τῆς παραλίου Τύρου καὶ Σιδῶνος,",
+      "text_kjv": "And he came down with them, and stood in the plain, and the company of his disciples, and a great multitude of people out of all Judaea and Jerusalem, and from the sea coast of Tyre and Sidon, which came to hear him, and to be healed of their diseases;",
+      "rendering": "He came down with them and stood on a level place. A large crowd of his disciples was there, along with a great multitude of people from all Judea and Jerusalem and the coastal region of Tyre and Sidon,",
+      "translator_notes": [
+        "The Greek topou pedinou ('a level/flat place') gives this sermon its traditional name, 'Sermon on the Plain,' distinguishing it from Matthew's 'Sermon on the Mount.' Jesus has come down from the mountain (v. 12) to level ground. The audience includes people from Tyre and Sidon — Gentile territory — consistent with Luke's universal scope. The crowd includes 'disciples' (mathetōn, a larger group than the Twelve) and 'the people' (laou, the general population)."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 18,
+      "text_greek": "οἳ ἦλθον ἀκοῦσαι αὐτοῦ καὶ ἰαθῆναι ἀπὸ τῶν νόσων αὐτῶν· καὶ οἱ ἐνοχλούμενοι ἀπὸ πνευμάτων ἀκαθάρτων ἐθεραπεύοντο,",
+      "text_kjv": "And they that were vexed with unclean spirits: and they were healed.",
+      "rendering": "They that were vexed with unclean spirits — then they were healed.",
+      "translator_notes": [
+        "Luke distinguishes between those with diseases (nosōn, physical illness) and those troubled by unclean spirits (pneumaton akathartōn) — different conditions requiring different interventions, though both are resolved by Jesus's power. The verb etherapeuonto ('were being healed, were cured') is in the imperfect, suggesting ongoing healing activity."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 19,
+      "text_greek": "καὶ πᾶς ὁ ὄχλος ἐζήτουν ἅπτεσθαι αὐτοῦ, ὅτι δύναμις παρ' αὐτοῦ ἐξήρχετο καὶ ἰᾶτο πάντας.",
+      "text_kjv": "And the whole multitude sought to touch him: for there went virtue out of him, and healed them all.",
+      "rendering": "The whole crowd sought to touch him — for there traveled virtue out of him, and healed them all.",
+      "translator_notes": [
+        "The verb ezetoun ('were seeking, were trying') shows the crowd's desperate urgency. The Greek dynamis ('power') literally 'was going out from him' (par autou exercheto) — Luke depicts healing power as a tangible force that radiates from Jesus's person. This same concept appears in the story of the woman who touched his garment (8:46). The universal scope — 'healing everyone' (iato pantas) — demonstrates the comprehensive nature of Jesus's restorative power."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 20,
+      "text_greek": "Καὶ αὐτὸς ἐπάρας τοὺς ὀφθαλμοὺς αὐτοῦ εἰς τοὺς μαθητὰς αὐτοῦ ἔλεγεν· Μακάριοι οἱ πτωχοί, ὅτι ὑμετέρα ἐστὶν ἡ βασιλεία τοῦ θεοῦ.",
+      "text_kjv": "And he lifted up his eyes on his disciples, and said, Blessed be ye poor: for yours is the kingdom of God.",
+      "rendering": "Then he looked up at his disciples and said:\n\n\"Blessed are you who are poor,\nfor yours is the kingdom of God.",
+      "translator_notes": [
+        "Luke's Beatitudes are addressed directly to the disciples in the second person ('you who are poor') rather than Matthew's third person ('the poor in spirit'). The Greek ptochoi ('poor, destitute, beggars') without Matthew's qualifying 'in spirit' (to pneumati) refers primarily to material poverty, though spiritual poverty is not excluded. Luke's Jesus consistently champions the economically poor (1:52-53, 4:18, 7:22, 14:13, 16:19-31). The kingdom of God belongs to the poor — not as a future reward for suffering but as a present reality of divine reversal."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 21,
+      "text_greek": "μακάριοι οἱ πεινῶντες νῦν, ὅτι χορτασθήσεσθε. μακάριοι οἱ κλαίοντες νῦν, ὅτι γελάσετε.",
+      "text_kjv": "Blessed are ye that hunger now: for ye shall be filled. Blessed are ye that weep now: for ye shall laugh.",
+      "rendering": "Blessed are you who are hungry now,\nfor you will be satisfied.\nBlessed are you who weep now,\nfor you will laugh.",
+      "translator_notes": [
+        "Luke adds nyn ('now') twice, creating a temporal contrast between present suffering and future reversal. The Greek chortasthesesthe ('you will be satisfied, you will be filled') was originally used for feeding animals to satisfaction — it implies complete, even excessive fullness. The verb gelasete ('you will laugh') is unique to Luke's Beatitudes — laughter as the reversal of weeping. The structure mirrors the Magnificat: God fills the hungry and satisfies those who mourn."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 22,
+      "text_greek": "μακάριοί ἐστε ὅταν μισήσωσιν ὑμᾶς οἱ ἄνθρωποι, καὶ ὅταν ἀφορίσωσιν ὑμᾶς καὶ ὀνειδίσωσιν καὶ ἐκβάλωσιν τὸ ὄνομα ὑμῶν ὡς πονηρὸν ἕνεκα τοῦ υἱοῦ τοῦ ἀνθρώπου·",
+      "text_kjv": "Blessed are ye, when men shall hate you, and when they shall separate you from their company, and shall reproach you, and cast out your name as evil, for the Son of man's sake.",
+      "rendering": "Blessed are you when people hate you, and when they exclude you and insult you and reject your name as evil on account of the Son of Man.",
+      "translator_notes": [
+        "Four verbs describe escalating persecution: hate (misesōsin), exclude/separate (aphorisosin — possibly excommunication from the synagogue), insult/reproach (oneidisōsin), and reject/cast out your name (ekbalosin to onoma). The phrase 'on account of the Son of Man' (heneka tou huiou tou anthrōpou) specifies that the blessing applies specifically to persecution for loyalty to Jesus, not suffering in general."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 23,
+      "text_greek": "χάρητε ἐν ἐκείνῃ τῇ ἡμέρᾳ καὶ σκιρτήσατε, ἰδοὺ γὰρ ὁ μισθὸς ὑμῶν πολὺς ἐν τῷ οὐρανῷ· κατὰ τὰ αὐτὰ γὰρ ἐποίουν τοῖς προφήταις οἱ πατέρες αὐτῶν.",
+      "text_kjv": "Rejoice ye in that day, and leap for joy: for, behold, your reward is great in heaven: for in the like manner did their fathers unto the prophets.",
+      "rendering": "Rejoice in that day and leap for joy, for your reward is great in heaven. For their ancestors treated the prophets in the same way.",
+      "translator_notes": [
+        "The verb skirtesate ('leap for joy') is the same word used for the unborn John leaping in Elizabeth's womb (1:41, 44) — physical, exuberant joy. The persecuted are placed in the lineage of the prophets — to be rejected for God's sake is to share the fate of Isaiah, Jeremiah, and Elijah. The 'great reward in heaven' (misthos polys en to ourano) does not mean a distant, immaterial compensation but the heavenly reality that already exists and will be fully revealed."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 24,
+      "text_greek": "Πλὴν οὐαὶ ὑμῖν τοῖς πλουσίοις, ὅτι ἀπέχετε τὴν παράκλησιν ὑμῶν.",
+      "text_kjv": "But woe unto you that are rich! for ye have received your consolation.",
+      "rendering": "But woe to you who are rich,\nfor you have already received your comfort.",
+      "translator_notes": [
+        "The four woes (vv. 24-26) are unique to Luke and mirror the four blessings exactly. The Greek ouai ('woe') is not a curse but a prophetic lament — 'how terrible for you.' The verb apechete ('you have received in full') is a commercial term used for receipts — the rich have been paid in full; there is no more coming. The Greek paraklesin ('comfort, consolation') is the same word used for the 'consolation of Israel' Simeon awaited (2:25). Those who have already found their consolation in wealth will not find it in God."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 25,
+      "text_greek": "οὐαὶ ὑμῖν, οἱ ἐμπεπλησμένοι νῦν, ὅτι πεινάσετε. οὐαί, οἱ γελῶντες νῦν, ὅτι πενθήσετε καὶ κλαύσετε.",
+      "text_kjv": "Woe unto you that are full! for ye shall hunger. Woe unto you that laugh now! for ye shall mourn and weep.",
+      "rendering": "Woe to you who are full now,\nfor you will be hungry.\nWoe to you who laugh now,\nfor you will mourn and weep.",
+      "translator_notes": [
+        "The reversal is exact: full now/hungry later mirrors hungry now/satisfied later (v. 21); laughing now/mourning later mirrors weeping now/laughing later (v. 21). The word nyn ('now') again marks the temporal dimension — present condition does not determine ultimate destiny. Luke's Jesus consistently warns that present prosperity can be spiritually dangerous when it becomes self-sufficient and indifferent to the suffering of others."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 26,
+      "text_greek": "οὐαὶ ὅταν ὑμᾶς καλῶς εἴπωσιν πάντες οἱ ἄνθρωποι, κατὰ τὰ αὐτὰ γὰρ ἐποίουν τοῖς ψευδοπροφήταις οἱ πατέρες αὐτῶν.",
+      "text_kjv": "Woe unto you, when all men shall speak well of you! for so did their fathers to the false prophets.",
+      "rendering": "Woe to you when all people speak well of you,\nfor their ancestors treated the false prophets in the same way.",
+      "translator_notes": [
+        "The fourth woe mirrors the fourth blessing. Universal popularity is a danger sign — the false prophets who told people what they wanted to hear were praised (cf. Jeremiah 5:31, Micah 2:11), while the true prophets who spoke God's uncomfortable word were persecuted (v. 23). If everyone speaks well of you, you may be telling people what they want to hear rather than what God says.",
+        "[TCR Cross-Reference] Quotes Jeremiah 5:31. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it.",
+        "[TCR Cross-Reference] Quotes Micah 2:11. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 27,
+      "text_greek": "Ἀλλὰ ὑμῖν λέγω τοῖς ἀκούουσιν, ἀγαπᾶτε τοὺς ἐχθροὺς ὑμῶν, καλῶς ποιεῖτε τοῖς μισοῦσιν ὑμᾶς,",
+      "text_kjv": "But I say unto you which hear, Love your enemies, do good to them which hate you,",
+      "rendering": "\"But I say to you who are listening: Love your enemies, do good to those who hate you,",
+      "translator_notes": [
+        "The phrase 'to you who are listening' (hymin tois akouousin) narrows the audience to those willing to hear. The command agapate tous echthrous hymon ('love your enemies') is the most radical ethical demand in the Gospels. The Greek agapao is not an emotion but a deliberate choice to act for another's good — it can be commanded because it is about action, not feeling. 'Do good' (kalōs poieite) specifies what love looks like in practice."
+      ],
+      "key_terms": [
+        {
+          "greek": "ἀγαπᾶτε",
+          "transliteration": "agapate",
+          "rendered_as": "love",
+          "semantic_range": "to love, to show love through action, to care for, to value",
+          "note": "The verb agapao in the imperative — a command to love. This is not emotional affection but willed, active goodwill toward the other person's welfare. It is the verb of divine love (John 3:16) now commanded of humans toward their enemies."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 28,
+      "text_greek": "εὐλογεῖτε τοὺς καταρωμένους ὑμᾶς, προσεύχεσθε περὶ τῶν ἐπηρεαζόντων ὑμᾶς.",
+      "text_kjv": "Bless them that curse you, and pray for them which despitefully use you.",
+      "rendering": "Bless them that curse you, and pray for them which maliciously use you.",
+      "translator_notes": [
+        "Four commands form two pairs: love/do good (v. 27) and bless/pray (v. 28). 'Bless' (eulogeite) means to speak well of, to invoke God's favor upon — the opposite of their cursing. 'Pray for' (proseuchesthe peri) goes beyond words to intercessory action. The verb epereavonton ('those who mistreat, those who abuse') describes deliberate hostility. Jesus commands active good toward those who actively harm."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 29,
+      "text_greek": "τῷ τύπτοντί σε ἐπὶ τὴν σιαγόνα πάρεχε καὶ τὴν ἄλλην, καὶ ἀπὸ τοῦ αἴροντός σου τὸ ἱμάτιον καὶ τὸν χιτῶνα μὴ κωλύσῃς.",
+      "text_kjv": "And unto him that smiteth thee on the one cheek offer also the other; and him that taketh away thy cloak forbid not to take thy coat also.",
+      "rendering": "To the one who strikes you on the cheek, offer the other also, and from the one who takes your cloak, do not withhold your tunic either.",
+      "translator_notes": [
+        "The slap on the cheek (siagona) was an insult rather than an assault — a backhanded slap was a gesture of contempt. Offering the other cheek is not passive acceptance of abuse but a refusal to retaliate that asserts dignity. Luke reverses the garment order from Matthew (Matthew says tunic then cloak; Luke says cloak then tunic). The himation ('outer cloak') was essential for warmth; the chiton ('inner tunic') was the basic garment. The teaching demands radical non-retaliation that goes beyond what is taken."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 30,
+      "text_greek": "παντὶ αἰτοῦντί σε δίδου, καὶ ἀπὸ τοῦ αἴροντος τὰ σὰ μὴ ἀπαίτει.",
+      "text_kjv": "Give to every man that asketh of thee; and of him that taketh away thy goods ask them not again.",
+      "rendering": "Give to everyone who asks you, and from the one who takes what is yours, do not demand it back.",
+      "translator_notes": [
+        "The command is sweeping: panti aitounti ('to everyone who asks') allows no exceptions. The verb apaitei ('demand back') implies legal recourse — do not sue for recovery. These are radical economic principles that prioritize relationship over property. They are not legal codes for civil government but principles for kingdom living that demonstrate trust in God's provision rather than self-protection."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 31,
+      "text_greek": "καὶ καθὼς θέλετε ἵνα ποιῶσιν ὑμῖν οἱ ἄνθρωποι ποιεῖτε αὐτοῖς ὁμοίως.",
+      "text_kjv": "And as ye would that men should do to you, do ye also to them likewise.",
+      "rendering": "Treat others the way you want them to treat you.",
+      "translator_notes": [
+        "The 'Golden Rule' appears in positive form here and in Matthew 7:12. The negative form ('do not do to others what you would not want done to you') was already known in Judaism — attributed to Rabbi Hillel (b. Shabbat 31a). Jesus's positive formulation is more demanding: it requires active initiative, not merely passive restraint. The Greek kathos thelete ('as you want') makes the standard one's own desires for good treatment."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 32,
+      "text_greek": "καὶ εἰ ἀγαπᾶτε τοὺς ἀγαπῶντας ὑμᾶς, ποία ὑμῖν χάρις ἐστίν; καὶ γὰρ οἱ ἁμαρτωλοὶ τοὺς ἀγαπῶντας αὐτοὺς ἀγαπῶσιν.",
+      "text_kjv": "For if ye love them which love you, what thank have ye? for sinners also love those that love them.",
+      "rendering": "If you love those who love you, what credit is that to you? Even sinners love those who love them.",
+      "translator_notes": [
+        "The Greek charis ('credit, grace, thanks') is used here in the sense of 'what is remarkable or praiseworthy about that?' Luke uses 'sinners' (hamartoloi) where Matthew uses 'tax collectors' — both make the same point: reciprocal love requires no grace or moral distinction. Even those outside the covenant community practice reciprocal love. Jesus's ethic demands something qualitatively different."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 33,
+      "text_greek": "καὶ γὰρ ἐὰν ἀγαθοποιῆτε τοὺς ἀγαθοποιοῦντας ὑμᾶς, ποία ὑμῖν χάρις ἐστίν; καὶ οἱ ἁμαρτωλοὶ τὸ αὐτὸ ποιοῦσιν.",
+      "text_kjv": "And if ye do good to them which do good to you, what thank have ye? for sinners also do even the same.",
+      "rendering": "And if you do good to those who do good to you, what credit is that to you? Even sinners do the same.",
+      "translator_notes": [
+        "The threefold repetition (love, vv. 32; do good, v. 33; lend, v. 34) drives the point home: every form of reciprocal virtue is practiced by people who make no claim to follow God. The standard for disciples must exceed the baseline of ordinary human reciprocity."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 34,
+      "text_greek": "καὶ ἐὰν δανίσητε παρ' ὧν ἐλπίζετε λαβεῖν, ποία ὑμῖν χάρις ἐστίν; καὶ ἁμαρτωλοὶ ἁμαρτωλοῖς δανίζουσιν ἵνα ἀπολάβωσιν τὰ ἴσα.",
+      "text_kjv": "And if ye lend to them of whom ye hope to receive, what thank have ye? for sinners also lend to sinners, to receive as much again.",
+      "rendering": "And if you lend to those from whom you expect to receive back, what credit is that to you? Even sinners lend to sinners to get back the same amount.",
+      "translator_notes": [
+        "The Greek danisete ('lend') and the expectation of receiving ta isa ('equal amount, same amount back') describes ordinary commercial lending. This is not charity but investment. Jesus challenges the economic logic of reciprocity: kingdom economics gives without calculating return."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 35,
+      "text_greek": "πλὴν ἀγαπᾶτε τοὺς ἐχθροὺς ὑμῶν καὶ ἀγαθοποιεῖτε καὶ δανίζετε μηδὲν ἀπελπίζοντες· καὶ ἔσται ὁ μισθὸς ὑμῶν πολύς, καὶ ἔσεσθε υἱοὶ ὑψίστου, ὅτι αὐτὸς χρηστός ἐστιν ἐπὶ τοὺς ἀχαρίστους καὶ πονηρούς.",
+      "text_kjv": "But love ye your enemies, and do good, and lend, hoping for nothing again; and your reward shall be great, and ye shall be the children of the Highest: for he is kind unto the unthankful and to the evil.",
+      "rendering": "But love your enemies, do good, and lend expecting nothing in return. Then your reward will be great, and you will be children of the Most High, for he is kind to the ungrateful and the wicked.",
+      "translator_notes": [
+        "The phrase meden apelpizontes ('expecting nothing back, despairing of nothing') captures the radical nature of kingdom generosity. The motivation is not reciprocity but imitation of God — 'you will be children of the Most High' (esesthe huioi hypsistou). To be God's children means to act like God. And God's character is defined here as chrestos ('kind, good, gracious') toward tous acharistous kai ponerous ('the ungrateful and the wicked'). This is Luke's version of Matthew's 'perfect as your heavenly Father is perfect.'"
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 36,
+      "text_greek": "Γίνεσθε οἰκτίρμονες καθὼς ὁ πατὴρ ὑμῶν οἰκτίρμων ἐστίν.",
+      "text_kjv": "Be ye therefore merciful, as your Father also is merciful.",
+      "rendering": "Be merciful, just as your Father is merciful.",
+      "translator_notes": [
+        "Where Matthew 5:48 says 'be perfect' (teleioi), Luke says 'be merciful' (oiktirmones). The Greek oiktirmon ('compassionate, merciful') echoes the Hebrew rachum (from rechem, 'womb') — the deep, visceral compassion of a parent for a child. The standard is not abstract moral perfection but God's own compassionate character. This verse encapsulates the entire Sermon on the Plain."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 37,
+      "text_greek": "Καὶ μὴ κρίνετε, καὶ οὐ μὴ κριθῆτε· καὶ μὴ καταδικάζετε, καὶ οὐ μὴ καταδικασθῆτε. ἀπολύετε, καὶ ἀπολυθήσεσθε·",
+      "text_kjv": "Judge not, and ye shall not be judged: condemn not, and ye shall not be condemned: forgive, and ye shall be forgiven:",
+      "rendering": "\"Do not judge, and you will not be judged. Do not condemn, and you will not be condemned. Forgive, and you will be forgiven.",
+      "translator_notes": [
+        "Three prohibitions and three corresponding promises form a tight structure. The Greek krinete ('judge') means to pass sentence, to render a verdict — not to exercise discernment (which is required elsewhere). The verb katadikazete ('condemn') is even stronger — to pass a guilty verdict. The verb apolyete ('forgive, release, let go') is the same word used for forgiveness of sins (aphesis). Each human action triggers a divine response: how we treat others determines how God treats us."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 38,
+      "text_greek": "δίδοτε, καὶ δοθήσεται ὑμῖν· μέτρον καλὸν πεπιεσμένον σεσαλευμένον ὑπερεκχυννόμενον δώσουσιν εἰς τὸν κόλπον ὑμῶν· ᾧ γὰρ μέτρῳ μετρεῖτε ἀντιμετρηθήσεται ὑμῖν.",
+      "text_kjv": "Give, and it shall be given unto you; good measure, pressed down, and shaken together, and running over, shall men give into your bosom. For with the same measure that ye mete withal it shall be measured to you again.",
+      "rendering": "Give, and it will be given to you — a good measure, pressed down, shaken together, and running over, will be poured into your lap. For the measure you use will be measured back to you.\"",
+      "translator_notes": [
+        "The imagery is from the grain market: filling a container, pressing the grain down to remove air, shaking it to settle, and piling more until it overflows. God's return is not merely proportional but superabundant. The 'lap' (kolpon, literally 'bosom' or the fold of a garment used as a pocket) was where merchants received their measured goods. The proverb 'the measure you use will be measured back to you' (ho metro metreite antimetrethesetai hymin) applies to generosity, judgment, forgiveness, and all human dealings."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 39,
+      "text_greek": "Εἶπεν δὲ καὶ παραβολὴν αὐτοῖς· Μήτι δύναται τυφλὸς τυφλὸν ὁδηγεῖν; οὐχὶ ἀμφότεροι εἰς βόθυνον ἐμπεσοῦνται;",
+      "text_kjv": "And he spake a parable unto them, Can the blind lead the blind? shall they not both fall into the ditch?",
+      "rendering": "He also told them a parable: \"Can a blind person guide a blind person? Will they not both fall into a pit?",
+      "translator_notes": [
+        "The parable is brief and proverbial. In Matthew 15:14, it is directed at the Pharisees; in Luke, the context suggests it applies to the disciples — those who would teach others must first be able to see clearly themselves. The rhetorical questions expect obvious answers: no, a blind guide cannot lead; yes, both will fall."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 40,
+      "text_greek": "οὐκ ἔστιν μαθητὴς ὑπὲρ τὸν διδάσκαλον· κατηρτισμένος δὲ πᾶς ἔσται ὡς ὁ διδάσκαλος αὐτοῦ.",
+      "text_kjv": "The disciple is not above his master: but every one that is perfect shall be as his master.",
+      "rendering": "A disciple is not above the teacher, but everyone who is fully trained will be like the teacher.",
+      "translator_notes": [
+        "The Greek katertismenos ('fully trained, fully equipped, made complete') does not mean 'perfect' in the moral sense (as the KJV suggests) but 'fully formed' or 'thoroughly prepared.' The principle is that a student's goal is to become like the teacher. If the teacher is blind, the student will also be blind (v. 39). The positive implication: if Jesus is the teacher, the fully trained disciple will be like him."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 41,
+      "text_greek": "τί δὲ βλέπεις τὸ κάρφος τὸ ἐν τῷ ὀφθαλμῷ τοῦ ἀδελφοῦ σου, τὴν δὲ δοκὸν τὴν ἐν τῷ ἰδίῳ ὀφθαλμῷ οὐ κατανοεῖς;",
+      "text_kjv": "And why beholdest thou the mote that is in thy brother's eye, but perceivest not the beam that is in thine own eye?",
+      "rendering": "Why do you see the speck in your brother's eye, but do not notice the log in your own eye?",
+      "translator_notes": [
+        "The Greek karphos ('speck, splinter, small piece of straw') contrasted with dokos ('beam, log, main structural timber') creates deliberate absurdist humor. The contrast is comically exaggerated to make a serious point about self-righteousness. The verb katanoeis ('notice, observe carefully, consider') implies that failure to see one's own faults requires willful inattention."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 42,
+      "text_greek": "πῶς δύνασαι λέγειν τῷ ἀδελφῷ σου· Ἀδελφέ, ἄφες ἐκβάλω τὸ κάρφος τὸ ἐν τῷ ὀφθαλμῷ σου, αὐτὸς τὴν ἐν τῷ ὀφθαλμῷ σου δοκὸν οὐ βλέπων; ὑποκριτά, ἔκβαλε πρῶτον τὴν δοκὸν ἐκ τοῦ ὀφθαλμοῦ σου, καὶ τότε διαβλέψεις τὸ κάρφος τὸ ἐν τῷ ὀφθαλμῷ τοῦ ἀδελφοῦ σου ἐκβαλεῖν.",
+      "text_kjv": "Either how canst thou say to thy brother, Brother, let me pull out the mote that is in thine eye, when thou thyself beholdest not the beam that is in thine own eye? Thou hypocrite, cast out first the beam out of thine own eye, and then shalt thou see clearly to pull out the mote that is in thy brother's eye.",
+      "rendering": "How can you say to your brother, 'Brother, let me take the speck out of your eye,' when you yourself do not see the log in your own eye? You hypocrite! First take the log out of your own eye, and then you will see clearly to take the speck out of your brother's eye.",
+      "translator_notes": [
+        "The term hypokrita ('hypocrite') originally meant 'actor' — one who plays a role. Jesus applies it to those who perform the role of moral adviser while ignoring their own greater faults. Note that Jesus does not forbid helping others with their faults — he says 'first' (proton) deal with your own, 'and then' (kai tote) you will see clearly to help. The goal is not indifference to others' faults but honest self-examination as the prerequisite for genuine helpfulness."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 43,
+      "text_greek": "Οὐ γάρ ἐστιν δένδρον καλὸν ποιοῦν καρπὸν σαπρόν, οὐδὲ πάλιν δένδρον σαπρὸν ποιοῦν καρπὸν καλόν.",
+      "text_kjv": "For a good tree bringeth not forth corrupt fruit; neither doth a corrupt tree bring forth good fruit.",
+      "rendering": "\"No good tree produces bad fruit, nor does a bad tree produce good fruit.",
+      "translator_notes": [
+        "The Greek sapron ('rotten, worthless, bad') describes fruit that is spoiled and useless. The tree-and-fruit metaphor establishes a direct connection between inner character and outward behavior. The logic is: examine the fruit to know the tree, examine the behavior to know the heart."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 44,
+      "text_greek": "ἕκαστον γὰρ δένδρον ἐκ τοῦ ἰδίου καρποῦ γινώσκεται· οὐ γὰρ ἐξ ἀκανθῶν συλλέγουσιν σῦκα οὐδὲ ἐκ βάτου σταφυλὴν τρυγῶσιν.",
+      "text_kjv": "For every tree is known by his own fruit. For of thorns men do not gather figs, nor of a bramble bush gather they grapes.",
+      "rendering": "Each tree is known by its own fruit. People do not gather figs from thornbushes, or pick grapes from a bramble bush.",
+      "translator_notes": [
+        "The examples are common-sense observations from Palestinian agriculture. Figs (syka) come from fig trees, not from thornbushes (akanthōn). Grapes (staphylen) come from grapevines, not from bramble bushes (batou). The principle is self-evident: the nature of the source determines the nature of the product. Applied to human character, one's actions inevitably reveal one's inner condition."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 45,
+      "text_greek": "ὁ ἀγαθὸς ἄνθρωπος ἐκ τοῦ ἀγαθοῦ θησαυροῦ τῆς καρδίας προφέρει τὸ ἀγαθόν, καὶ ὁ πονηρὸς ἐκ τοῦ πονηροῦ προφέρει τὸ πονηρόν· ἐκ γὰρ περισσεύματος καρδίας λαλεῖ τὸ στόμα αὐτοῦ.",
+      "text_kjv": "A good man out of the good treasure of his heart bringeth forth that which is good; and an evil man out of the evil treasure of his heart bringeth forth that which is evil: for of the abundance of the heart his mouth speaketh.",
+      "rendering": "The good person out of the good treasure of the heart produces good, and the evil person out of evil treasure produces evil. For out of the overflow of the heart the mouth speaks.",
+      "translator_notes": [
+        "The Greek thesauros ('treasure, storehouse') of the heart is the accumulated deposit of character, conviction, and disposition. The verb propherei ('brings forth, produces') indicates that speech and action emerge from this inner storehouse. The concluding proverb — 'out of the overflow of the heart the mouth speaks' (ek perisseumatos kardias lalei to stoma) — identifies speech as the most immediate revelation of the heart's condition."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 46,
+      "text_greek": "Τί δέ με καλεῖτε· Κύριε κύριε, καὶ οὐ ποιεῖτε ἃ λέγω;",
+      "text_kjv": "And why call ye me, Lord, Lord, and do not the things which I say?",
+      "rendering": "\"Why do you call me 'Lord, Lord,' and not do what I tell you?",
+      "translator_notes": [
+        "The doubled kyrie kyrie ('Lord, Lord') indicates emphatic address — these are not casual followers but people who use the most respectful title. Yet verbal acknowledgment without corresponding obedience is empty. Jesus's challenge is directed at the gap between confession and conduct. The question is unanswerable — there is no good reason for the contradiction."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 47,
+      "text_greek": "πᾶς ὁ ἐρχόμενος πρός με καὶ ἀκούων μου τῶν λόγων καὶ ποιῶν αὐτούς, ὑποδείξω ὑμῖν τίνι ἐστὶν ὅμοιος·",
+      "text_kjv": "Whosoever cometh to me, and heareth my sayings, and doeth them, I will shew you to whom he is like:",
+      "rendering": "Everyone who comes to me and hears my words and acts on them — I will show you what that person is like.",
+      "translator_notes": [
+        "Three actions define the true disciple: coming to Jesus (erchomenos), hearing his words (akouon), and doing them (poion). All three are necessary — hearing without doing is insufficient (v. 49). Luke frames this as a comparison ('I will show you what that person is like'), introducing the parable of the two builders."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 48,
+      "text_greek": "ὅμοιός ἐστιν ἀνθρώπῳ οἰκοδομοῦντι οἰκίαν ὃς ἔσκαψεν καὶ ἐβάθυνεν καὶ ἔθηκεν θεμέλιον ἐπὶ τὴν πέτραν· πλημμύρης δὲ γενομένης προσέρηξεν ὁ ποταμὸς τῇ οἰκίᾳ ἐκείνῃ, καὶ οὐκ ἴσχυσεν σαλεῦσαι αὐτὴν διὰ τὸ καλῶς οἰκοδομῆσθαι αὐτήν.",
+      "text_kjv": "He is like a man which built an house, and digged deep, and laid the foundation on a rock: and when the flood arose, the stream beat vehemently upon that house, and could not shake it: for it was founded upon a rock.",
+      "rendering": "That person is like someone building a house who dug deep and laid the foundation on rock. When a flood came, the river burst against that house but could not shake it, because it had been well built.",
+      "translator_notes": [
+        "Luke's version emphasizes the effort of preparation: eskapsev kai ebathynen ('dug and went deep') — the builder deliberately dug down to bedrock rather than building on the surface. The flood (plemmyres, a word unique to this passage in the NT) and the river's violent assault (proserexen, 'burst against, dashed against') represent the trials and crises of life. The house stands not because of the storm's weakness but because of the foundation's strength — dia to kalos oikodomesthai ('because it had been well built')."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 49,
+      "text_greek": "ὁ δὲ ἀκούσας καὶ μὴ ποιήσας ὅμοιός ἐστιν ἀνθρώπῳ οἰκοδομήσαντι οἰκίαν ἐπὶ τὴν γῆν χωρὶς θεμελίου, ᾗ προσέρηξεν ὁ ποταμός, καὶ εὐθὺς συνέπεσεν, καὶ ἐγένετο τὸ ῥῆγμα τῆς οἰκίας ἐκείνης μέγα.",
+      "text_kjv": "But he that heareth, and doeth not, is like a man that without a foundation built an house upon the earth; against which the stream did beat vehemently, and immediately it fell; and the ruin of that house was great.",
+      "rendering": "But the one who hears and does not act is like someone who built a house on the ground without a foundation. When the river burst against it, it collapsed immediately, and the destruction of that house was great.\"",
+      "translator_notes": [
+        "The contrast is not between two different storms but between two different foundations — choris themeliou ('without a foundation'). Both houses face the same crisis; the difference is entirely in the preparation. The collapse is immediate (euthys, 'at once') and total — to rhegma ('the destruction, the ruin, the crash') is catastrophic. Luke ends the sermon on this sobering note: hearing Jesus's words without obeying them leads not to a minor setback but to complete ruin."
+      ],
+      "reading_level": "7th grade"
+    }
+  ]
+}

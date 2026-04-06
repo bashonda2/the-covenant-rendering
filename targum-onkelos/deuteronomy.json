@@ -1,0 +1,364 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Deuteronomy",
+    "tradition": "targum-onkelos",
+    "tradition_label": "Targum Onkelos",
+    "source_text": "Targum Onkelos (standard printed edition)",
+    "base_text": "Westminster Leningrad Codex (WLC)",
+    "date": "2nd-5th c. CE (earliest layers 1st c. BCE)",
+    "generated_at": "2026-04-05T00:00:00Z",
+    "prompt_version": "1.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Targum Onkelos on Deuteronomy addresses Moses' farewell speeches with the full range of its theological toolkit. The Shema (6:4) is rendered with minimal adjustment, while the Song of Moses (ch. 32) and the Blessing of Moses (ch. 33) receive rich Messianic and Shekinah treatment. Deuteronomy's repeated call to love, fear, and obey God is rendered through Memra and Shekinah language. The centralization of worship ('the place which the LORD will choose') reinforces Shekinah theology.",
+    "notable_renderings": "The Shema is preserved with only divine-name adjustment. Deuteronomy 18:15-18 (the prophet like Moses) is rendered without explicit Messianic identification but sets the stage for later interpretation. The Song of Moses contains dense anti-anthropomorphic and theological rendering. The Blessing of Moses in chapter 33 features Shekinah language for God's dwelling with Benjamin and the divine warrior imagery.",
+    "theological_themes": "Covenant loyalty expressed through Memra-mediated relationship; Shekinah theology in the 'chosen place' formula; anti-anthropomorphism in the Song of Moses; the Torah as Memra-mediated revelation; eschatological hope in the blessings."
+  },
+  "renderings": [
+    {
+      "reference": "Deuteronomy 1:30",
+      "hebrew_text": "יְהוָה אֱלֹהֵיכֶם הַהֹלֵךְ לִפְנֵיכֶם הוּא יִלָּחֵם לָכֶם",
+      "targum_text": "Adonai Elahakhon deMeimreih madbar qodameikhon hu yiqrav keraveikhon",
+      "targum_rendering": "The LORD your God, whose Memra leads before you, he will fight your battles.",
+      "mt_rendering": "The LORD your God, who goes before you, he will fight for you.",
+      "category": "memra",
+      "notes": ["God does not 'go before' Israel physically; his Memra leads. The divine warrior who fights Israel's battles acts through the Word."]
+    },
+    {
+      "reference": "Deuteronomy 1:31",
+      "hebrew_text": "אֲשֶׁר נְשָׂאֲךָ יְהוָה אֱלֹהֶיךָ כַּאֲשֶׁר יִשָּׂא־אִישׁ אֶת־בְּנוֹ",
+      "targum_text": "di tarakhinakh Adonai Elahakh kema ditareikh gavra yat bereih",
+      "targum_rendering": "How the LORD your God carried you, as a man carries his son.",
+      "mt_rendering": "How the LORD your God carried you, as a man carries his son.",
+      "category": "literal",
+      "notes": ["Onkelos preserves the paternal metaphor: God carrying Israel as a father carries his son. The simile is allowed because the comparison is explicit — 'as a man carries' — making clear this is metaphorical language."]
+    },
+    {
+      "reference": "Deuteronomy 4:7",
+      "hebrew_text": "אֲשֶׁר־לוֹ אֱלֹהִים קְרֹבִים אֵלָיו כַּיהוָה אֱלֹהֵינוּ בְּכָל־קָרְאֵנוּ אֵלָיו",
+      "targum_text": "di leih elah daqarivin leih keiAdonai Elahana bekol de'anan metzallin qodamoi",
+      "targum_rendering": "That has gods so near to it as the LORD our God whenever we pray before him.",
+      "mt_rendering": "That has a god so near to it as the LORD our God whenever we call upon him.",
+      "category": "liturgical",
+      "notes": ["'Call upon' becomes 'pray before' (metzallin qodamoi), interpreting Israel's access to God as liturgical prayer, consistent with Onkelos' synagogue-oriented reading."]
+    },
+    {
+      "reference": "Deuteronomy 4:12",
+      "hebrew_text": "קוֹל דְּבָרִים אַתֶּם שֹׁמְעִים וּתְמוּנָה אֵינְכֶם רֹאִים",
+      "targum_text": "qal pitgamin atton sham'in vedimya leiton chazin",
+      "targum_rendering": "The voice of words you heard, but a form you did not see.",
+      "mt_rendering": "The sound of words you heard, but a form you did not see.",
+      "category": "literal",
+      "notes": ["This is Deuteronomy's own anti-anthropomorphic statement: Israel heard words but saw no form at Sinai. Onkelos renders it literally because the Hebrew itself articulates the theology Onkelos champions."]
+    },
+    {
+      "reference": "Deuteronomy 4:24",
+      "hebrew_text": "כִּי יְהוָה אֱלֹהֶיךָ אֵשׁ אֹכְלָה הוּא אֵל קַנָּא",
+      "targum_text": "arei Adonai Elahakh esha akhleta pitgameih El qanna",
+      "targum_rendering": "For the LORD your God — a consuming fire is his word, a jealous God.",
+      "mt_rendering": "For the LORD your God is a consuming fire, a jealous God.",
+      "category": "anti-anthropomorphism",
+      "notes": ["God himself is not 'a consuming fire' — his word (pitgam) is. Onkelos cannot identify God's essence with a physical element, so the fire is attributed to God's word/decree."]
+    },
+    {
+      "reference": "Deuteronomy 4:37",
+      "hebrew_text": "וַיּוֹצִאֲךָ בְּפָנָיו בְּכֹחוֹ הַגָּדֹל",
+      "targum_text": "ve'appeiqakh biShekhinteih becheilei rabba",
+      "targum_rendering": "And he brought you out by his Shekinah with his great power.",
+      "mt_rendering": "And he brought you out with his presence by his great power.",
+      "category": "shekinah",
+      "notes": ["'His presence/face' (panav) becomes 'his Shekinah.' The Exodus was accomplished through the Shekinah — God's active, indwelling presence in the world."]
+    },
+    {
+      "reference": "Deuteronomy 5:4",
+      "hebrew_text": "פָּנִים בְּפָנִים דִּבֶּר יְהוָה עִמָּכֶם בָּהָר",
+      "targum_text": "Memra im Memra malil Adonai immakhon betura",
+      "targum_rendering": "Word to word the LORD spoke with you on the mountain.",
+      "mt_rendering": "Face to face the LORD spoke with you on the mountain.",
+      "category": "anti-anthropomorphism",
+      "notes": ["'Face to face' becomes 'word to word' (Memra im Memra) — one of the most theologically creative renderings in all of Onkelos. The directness of Sinai communication is preserved but the anthropomorphic idiom is replaced with Memra language, suggesting unmediated verbal communication rather than physical proximity."]
+    },
+    {
+      "reference": "Deuteronomy 5:22",
+      "hebrew_text": "אֶת־הַדְּבָרִים הָאֵלֶּה דִּבֶּר יְהוָה אֶל־כָּל־קְהַלְכֶם בָּהָר מִתּוֹךְ הָאֵשׁ",
+      "targum_text": "yat pitgamayya ha'ilein malil Adonai im kol kehalkkhon betura migo esha",
+      "targum_rendering": "These words the LORD spoke to all your assembly on the mountain from the midst of the fire.",
+      "mt_rendering": "These words the LORD spoke to all your assembly on the mountain from the midst of the fire.",
+      "category": "literal",
+      "notes": ["The Decalogue's delivery is rendered literally. Onkelos treats the Sinai speech itself as an established narrative that requires no further anti-anthropomorphic adjustment once the theophany framework has been set."]
+    },
+    {
+      "reference": "Deuteronomy 6:4",
+      "hebrew_text": "שְׁמַע יִשְׂרָאֵל יְהוָה אֱלֹהֵינוּ יְהוָה אֶחָד",
+      "targum_text": "shema Yisrael Adonai Elahana Adonai chad",
+      "targum_rendering": "Hear, O Israel: the LORD our God, the LORD is one.",
+      "mt_rendering": "Hear, O Israel: the LORD our God, the LORD is one.",
+      "category": "literal",
+      "notes": ["The Shema is rendered with absolute literalism. The most important confession in Judaism requires no interpretation — it is the theological foundation upon which all of Onkelos' anti-anthropomorphism rests."]
+    },
+    {
+      "reference": "Deuteronomy 6:5",
+      "hebrew_text": "וְאָהַבְתָּ אֵת יְהוָה אֱלֹהֶיךָ בְּכָל־לְבָבְךָ",
+      "targum_text": "utircham yat Adonai Elahakh bekhol libakh",
+      "targum_rendering": "And you shall love the LORD your God with all your heart.",
+      "mt_rendering": "And you shall love the LORD your God with all your heart.",
+      "category": "literal",
+      "notes": ["The command to love God is rendered literally. Human love for God is not mediated through the Memra — it is direct, personal, and whole-hearted."]
+    },
+    {
+      "reference": "Deuteronomy 6:15",
+      "hebrew_text": "כִּי אֵל קַנָּא יְהוָה אֱלֹהֶיךָ בְּקִרְבֶּךָ",
+      "targum_text": "arei El qanna Adonai Elahakh di Shekhinteih sharyah beineikh",
+      "targum_rendering": "For the LORD your God, whose Shekinah dwells among you, is a jealous God.",
+      "mt_rendering": "For the LORD your God in your midst is a jealous God.",
+      "category": "shekinah",
+      "notes": ["God 'in your midst' is rendered as God 'whose Shekinah dwells among you.' The Shekinah is the mode of divine indwelling that makes idolatry dangerous — unfaithfulness occurs in the very presence of the Shekinah."]
+    },
+    {
+      "reference": "Deuteronomy 9:3",
+      "hebrew_text": "יְהוָה אֱלֹהֶיךָ הוּא עֹבֵר לְפָנֶיךָ אֵשׁ אֹכְלָה",
+      "targum_text": "Adonai Elahakh Memreih avar qodamakh esha akhleta",
+      "targum_rendering": "The LORD your God — his Memra passes before you, a consuming fire.",
+      "mt_rendering": "The LORD your God, he passes over before you as a consuming fire.",
+      "category": "memra",
+      "notes": ["God does not 'pass before' Israel — the Memra does. The consuming fire is associated with the Memra's advance, combining the Memra as agent of conquest with the fire theophany."]
+    },
+    {
+      "reference": "Deuteronomy 12:5",
+      "hebrew_text": "אֶל־הַמָּקוֹם אֲשֶׁר־יִבְחַר יְהוָה אֱלֹהֵיכֶם... לְשַׁכְנוֹ שָׁם",
+      "targum_text": "le'atra di yitrei Adonai Elahakhon... le'ashraah Shekhinteih tamman",
+      "targum_rendering": "To the place that the LORD your God will choose... to cause his Shekinah to dwell there.",
+      "mt_rendering": "To the place that the LORD your God will choose... to put his name there.",
+      "category": "shekinah",
+      "notes": ["The centralization formula is rendered as Shekinah indwelling. The 'chosen place' is where God causes his Shekinah to dwell — this is the theological foundation for the Temple as Shekinah's earthly habitation."]
+    },
+    {
+      "reference": "Deuteronomy 12:11",
+      "hebrew_text": "הַמָּקוֹם אֲשֶׁר־יִבְחַר יְהוָה אֱלֹהֵיכֶם בּוֹ לְשַׁכֵּן שְׁמוֹ שָׁם",
+      "targum_text": "atra di yitrei Adonai Elahakhon beih le'ashraah Shekhinteih tamman",
+      "targum_rendering": "The place that the LORD your God will choose to cause his Shekinah to dwell there.",
+      "mt_rendering": "The place that the LORD your God will choose to make his name dwell there.",
+      "category": "shekinah",
+      "notes": ["'His name' dwelling is rendered as 'his Shekinah' dwelling. Onkelos equates God's Name with the Shekinah — both are modes of divine presence that do not require God's essence to be localized."]
+    },
+    {
+      "reference": "Deuteronomy 18:15",
+      "hebrew_text": "נָבִיא מִקִּרְבְּךָ מֵאַחֶיךָ כָּמֹנִי יָקִים לְךָ יְהוָה אֱלֹהֶיךָ",
+      "targum_text": "neviya mibeineikh me'achakh kevatei yaqim lakh Adonai Elahakh",
+      "targum_rendering": "A prophet from among you, from your brothers, like me, the LORD your God will raise up for you.",
+      "mt_rendering": "A prophet from your midst, from your brothers, like me, the LORD your God will raise up for you.",
+      "category": "prophetic",
+      "notes": ["Onkelos renders this literally without explicit Messianic identification, unlike its treatment of Genesis 49:10 and Numbers 24:17. Yet this passage became central to Jewish and Christian Messianic interpretation (cf. Acts 3:22, 7:37). The restraint suggests Onkelos may have distinguished between clear royal prophecies and prophetic-office predictions."]
+    },
+    {
+      "reference": "Deuteronomy 18:18",
+      "hebrew_text": "נָבִיא אָקִים לָהֶם מִקֶּרֶב אֲחֵיהֶם כָּמוֹךָ וְנָתַתִּי דְבָרַי בְּפִיו",
+      "targum_text": "neviya aqim lehon mibeinei achohon kevatakh ve'eittein pitgam nvu'ati befummeih",
+      "targum_rendering": "A prophet I will raise up for them from among their brothers, like you, and I will put the word of my prophecy in his mouth.",
+      "mt_rendering": "A prophet I will raise up for them from among their brothers like you, and I will put my words in his mouth.",
+      "category": "prophetic",
+      "notes": ["'My words' becomes 'the word of my prophecy' (pitgam nvu'ati), specifying the nature of the communication. The prophet will not merely speak words but convey prophetic revelation."]
+    },
+    {
+      "reference": "Deuteronomy 23:15",
+      "hebrew_text": "כִּי יְהוָה אֱלֹהֶיךָ מִתְהַלֵּךְ בְּקֶרֶב מַחֲנֶךָ",
+      "targum_text": "arei Adonai Elahakh Shekhinteih mehalkha bego mashreitakh",
+      "targum_rendering": "For the LORD your God — his Shekinah walks about in the midst of your camp.",
+      "mt_rendering": "For the LORD your God walks about in the midst of your camp.",
+      "category": "shekinah",
+      "notes": ["God does not walk in the camp — the Shekinah does. The military camp must be kept pure because the Shekinah traverses it, paralleling the Tabernacle's holiness requirements."]
+    },
+    {
+      "reference": "Deuteronomy 26:17",
+      "hebrew_text": "אֶת־יְהוָה הֶאֱמַרְתָּ הַיּוֹם לִהְיוֹת לְךָ לֵאלֹהִים",
+      "targum_text": "yat Adonai itreveita yoma den lemehevei lakh l'Elah",
+      "targum_rendering": "The LORD you have acclaimed today to be your God.",
+      "mt_rendering": "You have declared today that the LORD is your God.",
+      "category": "literal",
+      "notes": ["The covenant declaration formula is rendered literally. The mutual declaration between God and Israel is preserved without mediation."]
+    },
+    {
+      "reference": "Deuteronomy 28:1",
+      "hebrew_text": "אִם־שָׁמוֹעַ תִּשְׁמַע בְּקוֹל יְהוָה אֱלֹהֶיךָ",
+      "targum_text": "im miqbal tekabbeil leMemra daAdonai Elahakh",
+      "targum_rendering": "If you will surely receive the Memra of the LORD your God.",
+      "mt_rendering": "If you will surely obey the voice of the LORD your God.",
+      "category": "memra",
+      "notes": ["'Obeying the voice' becomes 'receiving the Memra.' Covenant obedience is directed toward the Memra — the Word of God is the content of obedience and the object of reception."]
+    },
+    {
+      "reference": "Deuteronomy 28:15",
+      "hebrew_text": "וְאִם־לֹא תִשְׁמַע בְּקוֹל יְהוָה אֱלֹהֶיךָ",
+      "targum_text": "ve'im la tekabbeil leMemra daAdonai Elahakh",
+      "targum_rendering": "But if you will not receive the Memra of the LORD your God.",
+      "mt_rendering": "But if you will not obey the voice of the LORD your God.",
+      "category": "memra",
+      "notes": ["The curses' introduction mirrors the blessings' Memra formulation. Covenant breaking is failure to receive the Memra — rejection of the Word."]
+    },
+    {
+      "reference": "Deuteronomy 30:3",
+      "hebrew_text": "וְשָׁב יְהוָה אֱלֹהֶיךָ אֶת־שְׁבוּתְךָ וְרִחֲמֶךָ",
+      "targum_text": "vittuv Adonai Elahakh yat galvatakh virachem alakh",
+      "targum_rendering": "Then the LORD your God will turn your captivity and have compassion upon you.",
+      "mt_rendering": "Then the LORD your God will restore your fortunes and have compassion upon you.",
+      "category": "literal",
+      "notes": ["The promise of restoration is rendered literally. Shevut (captivity/fortunes) is translated as galvat (exile/captivity), giving the promise concrete eschatological content: God will reverse the exile."]
+    },
+    {
+      "reference": "Deuteronomy 30:20",
+      "hebrew_text": "כִּי הוּא חַיֶּיךָ וְאֹרֶךְ יָמֶיךָ",
+      "targum_text": "arei hu chayyaikh ve'orkh yomakh",
+      "targum_rendering": "For he is your life and the length of your days.",
+      "mt_rendering": "For he is your life and the length of your days.",
+      "category": "literal",
+      "notes": ["The identification of God as Israel's life is preserved literally. This is relational language, not anthropomorphic — God as the source of life requires no targum adjustment."]
+    },
+    {
+      "reference": "Deuteronomy 31:6",
+      "hebrew_text": "כִּי יְהוָה אֱלֹהֶיךָ הוּא הַהֹלֵךְ עִמָּךְ",
+      "targum_text": "arei Adonai Elahakh Memreih madbar immakh",
+      "targum_rendering": "For the LORD your God — his Memra leads with you.",
+      "mt_rendering": "For the LORD your God, he it is who goes with you.",
+      "category": "memra",
+      "notes": ["In Moses' final encouragement, God's accompaniment is Memra-mediated. The Memra leads (madbar) — the same word used for shepherding and guiding."]
+    },
+    {
+      "reference": "Deuteronomy 32:1",
+      "hebrew_text": "הַאֲזִינוּ הַשָּׁמַיִם וַאֲדַבֵּרָה",
+      "targum_text": "atzitu shemayya va'amallil",
+      "targum_rendering": "Give ear, O heavens, and I will speak.",
+      "mt_rendering": "Give ear, O heavens, and I will speak.",
+      "category": "literal",
+      "notes": ["The Song of Moses opens with Moses' own words rendered literally. The cosmic witnesses (heavens and earth) are addressed without theological adjustment."]
+    },
+    {
+      "reference": "Deuteronomy 32:4",
+      "hebrew_text": "הַצּוּר תָּמִים פָּעֳלוֹ",
+      "targum_text": "taqifa shlemim ovadeih",
+      "targum_rendering": "The Mighty One — perfect is his work.",
+      "mt_rendering": "The Rock — perfect is his work.",
+      "category": "anti-anthropomorphism",
+      "notes": ["'The Rock' (ha-Tzur) becomes 'the Mighty One' (taqifa). Onkelos avoids applying a physical-object metaphor to God, even one as established as 'Rock.' Throughout the Song, every occurrence of Tzur for God is rendered 'the Mighty One.'"]
+    },
+    {
+      "reference": "Deuteronomy 32:6",
+      "hebrew_text": "הֲלֹא־הוּא אָבִיךָ קָּנֶךָ",
+      "targum_text": "hala hu avukhon di qanakh",
+      "targum_rendering": "Is he not your father who acquired you?",
+      "mt_rendering": "Is he not your father who created you?",
+      "category": "literal",
+      "notes": ["Onkelos preserves the father metaphor for God, treating it as relational language. 'Created' (qanekha) is rendered 'acquired' (qanakh), which can also mean 'created' in Aramaic, maintaining the ambiguity."]
+    },
+    {
+      "reference": "Deuteronomy 32:10",
+      "hebrew_text": "יִמְצָאֵהוּ בְּאֶרֶץ מִדְבָּר... יִצְּרֶנְהוּ כְּאִישׁוֹן עֵינוֹ",
+      "targum_text": "sappiq tzorkhon bemadbar... natar yathon kevavat eineih",
+      "targum_rendering": "He supplied their needs in the wilderness... he guarded them as the pupil of his eye.",
+      "mt_rendering": "He found him in a desert land... he guarded him as the apple of his eye.",
+      "category": "anti-anthropomorphism",
+      "notes": ["'He found him' becomes 'he supplied their needs,' removing the implication that God discovered Israel unexpectedly. The 'apple of his eye' is preserved as an established poetic metaphor."]
+    },
+    {
+      "reference": "Deuteronomy 32:18",
+      "hebrew_text": "צוּר יְלָדְךָ תֶּשִׁי",
+      "targum_text": "taqifa di verakha ashteit",
+      "targum_rendering": "The Mighty One who begot you, you neglected.",
+      "mt_rendering": "The Rock who bore you, you were unmindful of.",
+      "category": "anti-anthropomorphism",
+      "notes": ["'The Rock' becomes 'the Mighty One,' and the maternal 'bore you' (yelad) becomes the more neutral 'begot you' (verakh), maintaining the parent metaphor while avoiding the feminine birth imagery for God."]
+    },
+    {
+      "reference": "Deuteronomy 32:36",
+      "hebrew_text": "כִּי יָדִין יְהוָה עַמּוֹ",
+      "targum_text": "arei yedun Adonai din ammeih",
+      "targum_rendering": "For the LORD will judge the cause of his people.",
+      "mt_rendering": "For the LORD will vindicate his people.",
+      "category": "literal",
+      "notes": ["Onkelos renders God's vindication of Israel literally. The promise of divine justice at the Song's climax requires no adjustment."]
+    },
+    {
+      "reference": "Deuteronomy 32:39",
+      "hebrew_text": "רְאוּ עַתָּה כִּי אֲנִי אֲנִי הוּא וְאֵין אֱלֹהִים עִמָּדִי אֲנִי אָמִית וַאֲחַיֶּה",
+      "targum_text": "chazu ke'an arei ana ana hu veleit Elah bar minni ana mamit umachei",
+      "targum_rendering": "See now that I, I am he, and there is no god beside me; I kill and I make alive.",
+      "mt_rendering": "See now that I, even I, am he, and there is no god beside me; I kill and I make alive.",
+      "category": "literal",
+      "notes": ["The supreme monotheistic declaration in the Song of Moses is rendered with total literalism. 'I, I am he' (ana ana hu) echoes the Shema's radical monotheism. God's sovereignty over life and death is stated without qualification."]
+    },
+    {
+      "reference": "Deuteronomy 33:2",
+      "hebrew_text": "יְהוָה מִסִּינַי בָּא וְזָרַח מִשֵּׂעִיר לָמוֹ",
+      "targum_text": "Adonai miSinai itgeli unehar yeqareih alan miSe'ir",
+      "targum_rendering": "The LORD revealed himself from Sinai, and the radiance of his glory shone upon us from Seir.",
+      "mt_rendering": "The LORD came from Sinai and dawned from Seir upon them.",
+      "category": "anti-anthropomorphism",
+      "notes": ["God does not 'come from' Sinai — he 'revealed himself from' Sinai. The sunrise imagery ('dawned') becomes the radiance of God's glory (yeqar), keeping the light metaphor but directing it through the glory concept."]
+    },
+    {
+      "reference": "Deuteronomy 33:3",
+      "hebrew_text": "אַף חֹבֵב עַמִּים",
+      "targum_text": "af rachem ammayya",
+      "targum_rendering": "Indeed he loves the peoples.",
+      "mt_rendering": "Indeed he loves the peoples.",
+      "category": "literal",
+      "notes": ["God's love for his people is rendered literally. Divine love is a relational attribute, not an anthropomorphism."]
+    },
+    {
+      "reference": "Deuteronomy 33:12",
+      "hebrew_text": "יְדִיד יְהוָה יִשְׁכֹּן לָבֶטַח עָלָיו חֹפֵף עָלָיו כָּל־הַיּוֹם",
+      "targum_text": "rachimaih daAdonai yishrei larechatzan Shekhinteih sharyah aloi kol yomayya",
+      "targum_rendering": "The beloved of the LORD shall dwell in security; his Shekinah rests upon him all the days.",
+      "mt_rendering": "The beloved of the LORD shall dwell in safety; he covers him all the day long.",
+      "category": "shekinah",
+      "notes": ["The blessing of Benjamin introduces the Shekinah resting upon the tribe — traditionally connected to the Temple being built in Benjamin's territory. The 'covering' becomes Shekinah indwelling, linking territorial blessing to divine presence."]
+    },
+    {
+      "reference": "Deuteronomy 33:16",
+      "hebrew_text": "וּרְצוֹן שֹׁכְנִי סְנֶה",
+      "targum_text": "ure'avta de'ashri Shekhinteih be'asna",
+      "targum_rendering": "And the favor of him who caused his Shekinah to dwell in the bush.",
+      "mt_rendering": "And the favor of him who dwelt in the bush.",
+      "category": "shekinah",
+      "notes": ["God's dwelling in the burning bush is rendered as Shekinah indwelling. The Shekinah theology extends backward to the Exodus theophany — God's Shekinah was in the bush, establishing the pattern that culminated in the Tabernacle and Temple."]
+    },
+    {
+      "reference": "Deuteronomy 33:27",
+      "hebrew_text": "מְעֹנָה אֱלֹהֵי קֶדֶם",
+      "targum_text": "me'onta Elaha dimin qadmin",
+      "targum_rendering": "A refuge is the God of old.",
+      "mt_rendering": "The eternal God is a dwelling place.",
+      "category": "literal",
+      "notes": ["Onkelos renders the divine epithet 'God of old/eternity' (Elaha dimin qadmin) literally, treating divine eternality as a non-anthropomorphic attribute."]
+    },
+    {
+      "reference": "Deuteronomy 34:5",
+      "hebrew_text": "וַיָּמָת שָׁם מֹשֶׁה עֶבֶד־יְהוָה... עַל־פִּי יְהוָה",
+      "targum_text": "umit tamman Mosheh avda daAdonai... al meimart Adonai",
+      "targum_rendering": "And Moses the servant of the LORD died there... by the Memra of the LORD.",
+      "mt_rendering": "And Moses the servant of the LORD died there... according to the word of the LORD.",
+      "category": "memra",
+      "notes": ["Moses dies 'by the Memra of the LORD' rather than 'by the mouth of the LORD' (the Hebrew al-pi means literally 'by the mouth of'). The anthropomorphic 'mouth' is replaced with the theological 'Memra.' Rabbinic tradition interpreted this as death by a divine kiss."]
+    },
+    {
+      "reference": "Deuteronomy 34:6",
+      "hebrew_text": "וַיִּקְבֹּר אֹתוֹ בַגַּי",
+      "targum_text": "uqvar yateih bechiltza",
+      "targum_rendering": "And he buried him in the valley.",
+      "mt_rendering": "And he buried him in the valley.",
+      "category": "literal",
+      "notes": ["The subject of 'he buried' is ambiguous in Hebrew — either God or an unnamed agent. Onkelos preserves the ambiguity without specifying, allowing the tradition that God himself buried Moses to stand."]
+    },
+    {
+      "reference": "Deuteronomy 34:10",
+      "hebrew_text": "וְלֹא־קָם נָבִיא עוֹד בְּיִשְׂרָאֵל כְּמֹשֶׁה אֲשֶׁר יְדָעוֹ יְהוָה פָּנִים אֶל־פָּנִים",
+      "targum_text": "vela qam neviya tub beYisrael keMosheh di haveih yade'inneih Adonai Memra im Memra",
+      "targum_rendering": "And there did not arise again a prophet in Israel like Moses, whom the LORD knew word to word.",
+      "mt_rendering": "And there has not arisen a prophet since in Israel like Moses, whom the LORD knew face to face.",
+      "category": "anti-anthropomorphism",
+      "notes": ["The closing eulogy uses the same 'Memra to Memra' formula as Deuteronomy 5:4, forming an inclusio. Moses' unique relationship with God was not facial proximity but Memra-to-Memra communication — direct, unmediated prophetic revelation through the Word. This is the final word of the Torah in Onkelos."]
+    }
+  ]
+}

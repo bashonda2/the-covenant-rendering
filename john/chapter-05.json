@@ -1,0 +1,492 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "John",
+    "chapter": 5,
+    "source_text": "SBL Greek New Testament (SBLGNT)",
+    "reference_text": "KJV",
+    "generated_at": "2026-04-04T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "John 5 opens with Jesus healing a man who had been disabled for thirty-eight years at the pool of Bethesda in Jerusalem on the Sabbath. When the Jewish leaders confront the healed man and then Jesus for violating Sabbath regulations, Jesus responds with a profound discourse on his relationship with the Father. He claims that 'my Father is still working, and I am working' — a statement the authorities correctly understand as a claim to equality with God. The extended discourse that follows develops themes of the Son's authority to give life and execute judgment, the reality of resurrection, and the witnesses that testify to Jesus's identity: John the Baptist, Jesus's own works, the Father himself, and the Scriptures.",
+    "remarkable": "The Sabbath controversy triggers the most extended christological discourse in the first half of the Gospel. Jesus's claim that the Father 'shows' the Son everything he does (5:20) presents their relationship as one of intimate transparency. The authority claims escalate steadily: the Son gives life to whom he wills (v. 21), the Father has entrusted all judgment to the Son (v. 22), honoring the Son equals honoring the Father (v. 23), and the dead will hear the Son's voice and live (v. 25). The four witnesses (John, works, Father, Scripture) establish a legal case for Jesus's identity, using the courtroom language that pervades the Gospel.",
+    "friction": "The SBLGNT omits verse 4 entirely (the angel stirring the water), regarding it as a later scribal addition. We follow the critical text. The thirty-eight years of the man's illness may allude to Israel's thirty-eight years of wilderness wandering (Deuteronomy 2:14), but this is uncertain. The transition from the healing narrative to the theological discourse is seamless in Greek, with no clear paragraph break. The 'works' Jesus refers to as witnesses (v. 36) likely include his signs but extend to his entire mission.",
+    "connections": "The Sabbath controversy connects to Genesis 2:2-3 (God's rest) and the ongoing Jewish debate about whether God observes the Sabbath. The resurrection theme connects to Daniel 12:2 and Ezekiel 37. The testimony of Scripture (vv. 39-47) specifically invokes Moses, connecting to Deuteronomy 18:15-18 and the entire Torah. The pool of Bethesda has been archaeologically confirmed, with its five-portico structure matching John's description."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_greek": "Μετὰ ταῦτα ἦν ἑορτὴ τῶν Ἰουδαίων καὶ ἀνέβη Ἰησοῦς εἰς Ἱεροσόλυμα.",
+      "text_kjv": "After this there was a feast of the Jews; and Jesus went up to Jerusalem.",
+      "rendering": "After this there was a festival of the Jewish people, and Jesus went up to Jerusalem.",
+      "translator_notes": [
+        "The SBLGNT reads heorte without the definite article ('a festival'), leaving the specific festival unidentified. Various proposals include Passover, Tabernacles, Pentecost, or Purim. The lack of specificity may be deliberate — John focuses on the event, not the calendar. The verb anebe ('went up') is the standard pilgrimage term for traveling to Jerusalem."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 2,
+      "text_greek": "ἔστιν δὲ ἐν τοῖς Ἱεροσολύμοις ἐπὶ τῇ προβατικῇ κολυμβήθρα ἡ ἐπιλεγομένη Ἑβραϊστὶ Βηθζαθά, πέντε στοὰς ἔχουσα.",
+      "text_kjv": "Now there is at Jerusalem by the sheep market a pool, which is called in the Hebrew tongue Bethesda, having five porches.",
+      "rendering": "Now in Jerusalem by the Sheep Gate there is a pool called Bethzatha in Aramaic, which has five covered colonnades.",
+      "translator_notes": [
+        "The SBLGNT reads 'Bethzatha' rather than 'Bethesda' (found in some manuscripts; the name means 'house of mercy') or 'Bethsaida.' The 'Sheep Gate' (probatike) is known from Nehemiah 3:1, 32; 12:39. Archaeological excavations near St. Anne's Church in Jerusalem have uncovered a pool with the five-colonnade structure John describes — four colonnades around the edges and one dividing the pool in two. The present tense estin ('there is') may suggest John writes before the pool's destruction in AD 70, or may simply be vivid narration.",
+        "[TCR Cross-Reference] Draws on Nehemiah 3:1. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 3,
+      "text_greek": "ἐν ταύταις κατέκειτο πλῆθος τῶν ἀσθενούντων, τυφλῶν, χωλῶν, ξηρῶν.",
+      "text_kjv": "In these lay a great multitude of impotent folk, of blind, halt, withered, waiting for the moving of the water.",
+      "rendering": "In these lay a large number of disabled people — blind, lame, and paralyzed.",
+      "translator_notes": [
+        "The SBLGNT ends verse 3 after 'paralyzed' (xeron, literally 'withered, dried up'), omitting the phrase 'waiting for the moving of the water.' This phrase and all of verse 4 (about an angel stirring the water) are absent from the earliest and best manuscripts and are considered a later scribal addition explaining a local healing tradition. We follow the critical text. The three categories — blind, lame, paralyzed — represent the kinds of disabilities that Jesus will heal throughout the Gospel, echoing Isaiah 35:5-6.",
+        "[TCR Cross-Reference] References Isaiah 35:5-6 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 5,
+      "text_greek": "ἦν δέ τις ἄνθρωπος ἐκεῖ τριάκοντα καὶ ὀκτὼ ἔτη ἔχων ἐν τῇ ἀσθενείᾳ αὐτοῦ.",
+      "text_kjv": "And a certain man was there, which had an infirmity thirty and eight years.",
+      "rendering": "One man was there who had been disabled for thirty-eight years.",
+      "translator_notes": [
+        "The duration of thirty-eight years exceeds any healing in the Synoptic Gospels and establishes the hopelessness of the man's condition. The possible allusion to Israel's thirty-eight years of wilderness wandering between Kadesh-Barnea and the crossing of the Wadi Zered (Deuteronomy 2:14) may suggest that this man represents Israel in its helpless, prolonged suffering. Verse 4 is omitted following the SBLGNT critical text.",
+        "[TCR Cross-Reference] This verse quotes Deuteronomy 2:14 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 6,
+      "text_greek": "τοῦτον ἰδὼν ὁ Ἰησοῦς κατακείμενον καὶ γνοὺς ὅτι πολὺν ἤδη χρόνον ἔχει, λέγει αὐτῷ· θέλεις ὑγιὴς γενέσθαι;",
+      "text_kjv": "When Jesus saw him lie, and knew that he had been now a long time in that case, he saith unto him, Wilt thou be made whole?",
+      "rendering": "When Jesus saw him lying there and knew that he had already been there a long time, he said to him, \"Do you want to get well?\"",
+      "translator_notes": [
+        "Jesus takes the initiative — the man does not call out, does not know who Jesus is, and does not ask for healing. The verb gnous ('knowing') implies supernatural knowledge, as in 1:47-48, 2:24-25, 4:18. The question theleis hygies genesthai ('do you want to become well?') seems obvious but is probing — after thirty-eight years, the man's identity may be bound up with his illness. The question also establishes the man's will as a factor in the encounter."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 7,
+      "text_greek": "ἀπεκρίθη αὐτῷ ὁ ἀσθενῶν· κύριε, ἄνθρωπον οὐκ ἔχω ἵνα ὅταν ταραχθῇ τὸ ὕδωρ βάλῃ με εἰς τὴν κολυμβήθραν· ἐν ᾧ δὲ ἔρχομαι ἐγὼ ἄλλος πρὸ ἐμοῦ καταβαίνει.",
+      "text_kjv": "The impotent man answered him, Sir, I have no man, when the water is troubled, to put me into the pool: but while I am coming, another steppeth down before me.",
+      "rendering": "The disabled man answered him, \"Sir, I have no one to put me into the pool when the water is stirred up. While I am trying to get there, someone else goes in ahead of me.\"",
+      "translator_notes": [
+        "The man's answer reveals his isolation (no one to help him) and his assumption that the pool itself is the source of healing. The reference to water being 'stirred up' (tarachthe) reflects the local tradition about the pool's intermittent spring, which archaeological evidence confirms — the pool was fed by a spring that flowed irregularly. The man answers Jesus's question about desire with a description of his helplessness — he wants healing but has no means to obtain it."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 8,
+      "text_greek": "λέγει αὐτῷ ὁ Ἰησοῦς· ἔγειρε ἆρον τὸν κράβαττόν σου καὶ περιπάτει.",
+      "text_kjv": "Jesus saith unto him, Rise, take up thy bed, and walk.",
+      "rendering": "Jesus said to him, \"Get up, pick up your mat, and walk.\"",
+      "translator_notes": [
+        "Three imperatives in rapid succession: egire ('get up, rise'), aron ('pick up, carry'), peripatei ('walk'). The command requires no intermediate steps — no washing in a pool, no waiting for stirred water. The word krabatton ('mat, pallet, cot') indicates a poor man's bedding, light enough to carry. The command to carry the mat will become the point of Sabbath controversy (v. 10), since carrying objects on the Sabbath was prohibited by rabbinic interpretation of Jeremiah 17:21-22.",
+        "[TCR Cross-Reference] References Jeremiah 17:21-22 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 9,
+      "text_greek": "καὶ εὐθέως ἐγένετο ὑγιὴς ὁ ἄνθρωπος καὶ ἦρεν τὸν κράβαττον αὐτοῦ καὶ περιεπάτει. Ἦν δὲ σάββατον ἐν ἐκείνῃ τῇ ἡμέρᾳ.",
+      "text_kjv": "And immediately the man was made whole, and took up his bed, and walked: and on the same day was the sabbath.",
+      "rendering": "Immediately the man was made well, and he picked up his mat and began to walk. Now that day was a Sabbath.",
+      "translator_notes": [
+        "The healing is instantaneous (eutheos, 'immediately') and complete (hygiees, 'sound, whole, healthy') — thirty-eight years of disability reversed in a moment. The man obeys all three commands. The narrator's final note — 'that day was a Sabbath' — is placed last for dramatic effect, signaling the conflict about to erupt. The Sabbath detail transforms a healing miracle into a legal controversy."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 10,
+      "text_greek": "ἔλεγον οὖν οἱ Ἰουδαῖοι τῷ τεθεραπευμένῳ· σάββατόν ἐστιν, καὶ οὐκ ἔξεστίν σοι ἆραι τὸν κράβαττόν σου.",
+      "text_kjv": "The Jews therefore said unto him that was cured, It is the sabbath day: it is not lawful for thee to carry thy bed.",
+      "rendering": "So the Jewish leaders said to the man who had been healed, \"It is the Sabbath, and it is not lawful for you to carry your mat.\"",
+      "translator_notes": [
+        "The prohibition against carrying objects on the Sabbath derives from Jeremiah 17:21-22 as interpreted by rabbinic tradition, particularly the Mishnah's listing of thirty-nine prohibited categories of work (Shabbat 7:2). The authorities focus on the legal violation rather than the miraculous healing — a priority that Jesus will address. They confront the healed man, not Jesus, whom they have not yet identified.",
+        "[TCR Cross-Reference] This verse quotes Jeremiah 17:21-22 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 11,
+      "text_greek": "ὁ δὲ ἀπεκρίθη αὐτοῖς· ὁ ποιήσας με ὑγιῆ ἐκεῖνός μοι εἶπεν· ἆρον τὸν κράβαττόν σου καὶ περιπάτει.",
+      "text_kjv": "He answered them, He that made me whole, the same said unto me, Take up thy bed, and walk.",
+      "rendering": "But he answered them, \"The man who made me well told me, 'Pick up your mat and walk.'\"",
+      "translator_notes": [
+        "The healed man shifts responsibility — he obeyed the one who healed him. His logic is implicit: if someone has the power to heal a thirty-eight-year disability, his authority to command actions on the Sabbath must be legitimate. The emphasis on 'the man who made me well' (ho poiesas me hygie) places the healing authority above the Sabbath regulation."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 12,
+      "text_greek": "ἠρώτησαν αὐτόν· τίς ἐστιν ὁ ἄνθρωπος ὁ εἰπών σοι· ἆρον καὶ περιπάτει;",
+      "text_kjv": "Then asked they him, What man is that which said unto thee, Take up thy bed, and walk?",
+      "rendering": "They asked him, \"Who is the man who told you, 'Pick it up and walk'?\"",
+      "translator_notes": [
+        "The authorities ask about the identity of the one who commanded the Sabbath violation, not the one who performed the healing. Their question focuses on the command to carry, not the miracle of restoration. The omission of the healing from their question reveals their theological priorities."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 13,
+      "text_greek": "ὁ δὲ ἰαθεὶς οὐκ ᾔδει τίς ἐστιν· ὁ γὰρ Ἰησοῦς ἐξένευσεν ὄχλου ὄντος ἐν τῷ τόπῳ.",
+      "text_kjv": "And he that was healed wist not who it was: for Jesus had conveyed himself away, a multitude being in that place.",
+      "rendering": "But the man who had been healed did not know who it was, for Jesus had slipped away into the crowd that was there.",
+      "translator_notes": [
+        "Unlike the Samaritan woman or Nathanael, this man does not know Jesus's identity even after being healed. The verb exeneusen ('turned aside, withdrew, slipped away') indicates Jesus deliberately avoided the attention. The crowd provided cover. This detail highlights the contrast with chapter 4 — the Samaritan woman sought out her community to tell them; this man cannot even identify his healer."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 14,
+      "text_greek": "μετὰ ταῦτα εὑρίσκει αὐτὸν ὁ Ἰησοῦς ἐν τῷ ἱερῷ καὶ εἶπεν αὐτῷ· ἴδε ὑγιὴς γέγονας, μηκέτι ἁμάρτανε, ἵνα μὴ χεῖρόν σοί τι γένηται.",
+      "text_kjv": "Afterward Jesus findeth him in the temple, and said unto him, Behold, thou art made whole: sin no more, lest a worse thing come unto thee.",
+      "rendering": "Later Jesus found him in the temple and said to him, \"See, you have been made well. Do not sin anymore, so that nothing worse happens to you.\"",
+      "translator_notes": [
+        "Jesus seeks the man out — the verb heuriskei ('finds') suggests a deliberate search. The warning 'do not sin anymore' (meketi hamartane) implies a connection between the man's past sin and his disability, though Jesus elsewhere denies a universal cause-and-effect between sin and suffering (9:3). The 'something worse' (cheiron ti) may refer to eschatological judgment rather than physical suffering. The man is now in the temple — having been healed, he can enter the sacred precincts from which his disability may have excluded him."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 15,
+      "text_greek": "ἀπῆλθεν ὁ ἄνθρωπος καὶ ἀνήγγειλεν τοῖς Ἰουδαίοις ὅτι Ἰησοῦς ἐστιν ὁ ποιήσας αὐτὸν ὑγιῆ.",
+      "text_kjv": "The man departed, and told the Jews that it was Jesus, which had made him whole.",
+      "rendering": "The man went away and told the Jewish leaders that it was Jesus who had made him well.",
+      "translator_notes": [
+        "The man's action is ambiguous — is he naively reporting to those who asked (v. 12), or is he informing on Jesus? The verb anengeilen ('reported, announced') is neutral, but the result is that Jesus is now identified as the Sabbath violator. Unlike the Samaritan woman's testimony (4:29), which brings people to Jesus in faith, this man's report brings the authorities to Jesus in opposition."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 16,
+      "text_greek": "καὶ διὰ τοῦτο ἐδίωκον οἱ Ἰουδαῖοι τὸν Ἰησοῦν, ὅτι ταῦτα ἐποίει ἐν σαββάτῳ.",
+      "text_kjv": "And therefore did the Jews persecute Jesus, and sought to slay him, because he had done these things on the sabbath day.",
+      "rendering": "For this reason the Jewish leaders began persecuting Jesus, because he was doing these things on the Sabbath.",
+      "translator_notes": [
+        "The imperfect ediokon ('were persecuting, began to persecute') indicates the beginning of an ongoing campaign. The SBLGNT does not include 'and sought to kill him,' which appears in some manuscripts. The imperfect epoiei ('was doing') suggests a pattern of Sabbath activity, not just this single incident. The Sabbath issue becomes the initial flashpoint for the opposition that will eventually lead to the cross."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 17,
+      "text_greek": "ὁ δὲ Ἰησοῦς ἀπεκρίνατο αὐτοῖς· ὁ πατήρ μου ἕως ἄρτι ἐργάζεται κἀγὼ ἐργάζομαι.",
+      "text_kjv": "But Jesus answered them, My Father worketh hitherto, and I work.",
+      "rendering": "But Jesus answered them, \"My Father is still working, and I also am working.\"",
+      "translator_notes": [
+        "This is one of the most theologically explosive statements in the Gospel. The argument has a Jewish background: rabbis debated whether God himself observes the Sabbath. The prevailing view was that God continues to sustain creation (giving life, judging the dead) even on the Sabbath — if God stopped all work, the universe would collapse. Jesus claims to participate in this ongoing divine work. The phrase 'my Father' (ho pater mou) rather than 'our Father' claims a unique filial relationship. The conjunction kago ('and I also') places Jesus's work alongside and equivalent to the Father's."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 18,
+      "text_greek": "διὰ τοῦτο οὖν μᾶλλον ἐζήτουν αὐτὸν οἱ Ἰουδαῖοι ἀποκτεῖναι, ὅτι οὐ μόνον ἔλυεν τὸ σάββατον ἀλλὰ καὶ πατέρα ἴδιον ἔλεγεν τὸν θεόν, ἴσον ἑαυτὸν ποιῶν τῷ θεῷ.",
+      "text_kjv": "Therefore the Jews sought the more to kill him, because he not only had broken the sabbath, but said also that God was his Father, making himself equal with God.",
+      "rendering": "For this reason the Jewish leaders were seeking all the more to kill him, because he was not only breaking the Sabbath but was also calling God his own Father, making himself equal with God.",
+      "translator_notes": [
+        "The narrator confirms two charges: Sabbath violation and blasphemy. The phrase patera idion ('his own Father') with the adjective idion ('own, personal, particular') distinguishes Jesus's claim from the general Jewish understanding of God as Father of the nation. The authorities correctly perceive the implication: ison heauton poion to theo ('making himself equal with God'). Rather than deny this charge, Jesus's following discourse will elaborate and intensify it."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 19,
+      "text_greek": "Ἀπεκρίνατο οὖν ὁ Ἰησοῦς καὶ ἔλεγεν αὐτοῖς· ἀμὴν ἀμὴν λέγω ὑμῖν, οὐ δύναται ὁ υἱὸς ποιεῖν ἀφ' ἑαυτοῦ οὐδὲν ἐὰν μή τι βλέπῃ τὸν πατέρα ποιοῦντα· ἃ γὰρ ἂν ἐκεῖνος ποιῇ, ταῦτα καὶ ὁ υἱὸς ὁμοίως ποιεῖ.",
+      "text_kjv": "Then answered Jesus and said unto them, Verily, verily, I say unto you, The Son can do nothing of himself, but what he seeth the Father do: for what things soever he doeth, these also doeth the Son likewise.",
+      "rendering": "So Jesus answered them, \"Truly, truly, I tell you, the Son can do nothing on his own, but only what he sees the Father doing. For whatever the Father does, the Son does likewise.",
+      "translator_notes": [
+        "Jesus responds to the charge of 'making himself equal with God' not by denying equality but by clarifying its nature: the Son's equality is not independent autonomy but perfect dependent imitation. 'Cannot do nothing on his own' (ou dynatai poiein aph heautou ouden) expresses not inability but the Son's chosen submission to the Father's will. The analogy reflects the ancient apprenticeship model — a son learns his father's trade by watching and replicating. The Son's works are the Father's works made visible."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 20,
+      "text_greek": "ὁ γὰρ πατὴρ φιλεῖ τὸν υἱὸν καὶ πάντα δείκνυσιν αὐτῷ ἃ αὐτὸς ποιεῖ, καὶ μείζονα τούτων δείξει αὐτῷ ἔργα, ἵνα ὑμεῖς θαυμάζητε.",
+      "text_kjv": "For the Father loveth the Son, and sheweth him all things that himself doeth: and he will shew him greater works than these, that ye may marvel.",
+      "rendering": "For the Father loves the Son and shows him everything that he himself is doing. And he will show him greater works than these, so that you will be astonished.",
+      "translator_notes": [
+        "The verb philei ('loves') is used here rather than agapa — in this context, phileo conveys intimate, personal affection between Father and Son. The 'greater works' (meizona ergon) that will astonish them are specified in what follows: giving life (v. 21) and executing judgment (v. 22). The Father's showing (deiknusin, present tense) is ongoing and complete — nothing is hidden from the Son."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 21,
+      "text_greek": "ὥσπερ γὰρ ὁ πατὴρ ἐγείρει τοὺς νεκροὺς καὶ ζῳοποιεῖ, οὕτως καὶ ὁ υἱὸς οὓς θέλει ζῳοποιεῖ.",
+      "text_kjv": "For as the Father raiseth up the dead, and quickeneth them; even so the Son quickeneth whom he will.",
+      "rendering": "For just as the Father raises the dead and gives them life, so also the Son gives life to whom he wishes.",
+      "translator_notes": [
+        "Giving life to the dead (zoopoiei, 'makes alive') was universally acknowledged as God's exclusive prerogative in Jewish theology. Jesus claims this power for himself without qualification — 'to whom he wishes' (hous thelei) asserts sovereign freedom, not arbitrary caprice. This is one of the most direct claims to divine authority in the Gospel."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 22,
+      "text_greek": "οὐδὲ γὰρ ὁ πατὴρ κρίνει οὐδένα ἀλλὰ τὴν κρίσιν πᾶσαν δέδωκεν τῷ υἱῷ,",
+      "text_kjv": "For the Father judgeth no man, but hath committed all judgment unto the Son:",
+      "rendering": "For the Father judges no one but has given all judgment to the Son,",
+      "translator_notes": [
+        "The second divine prerogative — judgment — is now entrusted entirely to the Son. The perfect tense dedoken ('has given') indicates a completed, permanent transfer of authority. The claim is breathtaking: the God of Israel does not judge directly but has delegated all judgment to the Son. This redefines the Jewish understanding of the final judgment — the Son stands at the center of eschatology."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 23,
+      "text_greek": "ἵνα πάντες τιμῶσι τὸν υἱὸν καθὼς τιμῶσι τὸν πατέρα. ὁ μὴ τιμῶν τὸν υἱὸν οὐ τιμᾷ τὸν πατέρα τὸν πέμψαντα αὐτόν.",
+      "text_kjv": "That all men should honour the Son, even as they honour the Father. He that honoureth not the Son honoureth not the Father which hath sent him.",
+      "rendering": "That all people should honour the Descendant, not even as they honour the Parent. He that honoureth not the Descendant honoureth not the Father which has dispatched him.",
+      "translator_notes": [
+        "The purpose of delegated judgment is that the Son receives the same honor (time) as the Father. The word kathos ('just as, to the same degree as') demands equivalent honor — not similar, not lesser, but identical. The negative corollary is equally strong: dishonoring the Son is dishonoring the Father. This makes christology inseparable from theology — one's relationship to God is determined by one's response to the Son."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 24,
+      "text_greek": "ἀμὴν ἀμὴν λέγω ὑμῖν ὅτι ὁ τὸν λόγον μου ἀκούων καὶ πιστεύων τῷ πέμψαντί με ἔχει ζωὴν αἰώνιον καὶ εἰς κρίσιν οὐκ ἔρχεται, ἀλλὰ μεταβέβηκεν ἐκ τοῦ θανάτου εἰς τὴν ζωήν.",
+      "text_kjv": "Verily, verily, I say unto you, He that heareth my word, and believeth on him that sent me, hath everlasting life, and shall not come into condemnation; but is passed from death unto life.",
+      "rendering": "Truly, truly, I tell you, the one who hears my word and believes the one who sent me has eternal life and does not come under judgment but has passed from death to life.",
+      "translator_notes": [
+        "This verse presents realized eschatology — the future judgment and resurrection are experienced in the present through faith. The present tense echei ('has') and the perfect tense metabebeken ('has crossed over, has passed') indicate that eternal life is a current possession and the transition from death to life has already occurred for the believer. The believer does not await a future verdict but has already been acquitted."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 25,
+      "text_greek": "ἀμὴν ἀμὴν λέγω ὑμῖν ὅτι ἔρχεται ὥρα καὶ νῦν ἐστιν ὅτε οἱ νεκροὶ ἀκούσουσιν τῆς φωνῆς τοῦ υἱοῦ τοῦ θεοῦ καὶ οἱ ἀκούσαντες ζήσουσιν.",
+      "text_kjv": "Verily, verily, I say unto you, The hour is coming, and now is, when the dead shall hear the voice of the Son of God: and they that hear shall live.",
+      "rendering": "Truly, truly, I tell you, the hour is coming and is now here when the dead will hear the voice of the Son of God, and those who hear will live.",
+      "translator_notes": [
+        "As in 4:23, the phrase 'is coming and is now here' (erchetai hora kai nyn estin) collapses future and present. 'The dead' (hoi nekroi) operates on two levels: the spiritually dead who hear Jesus now and come to life (present reality), and the physically dead who will be raised at the last day (future hope, developed in vv. 28-29). The title 'Son of God' (tou huiou tou theou) is the most exalted title used so far in this discourse."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 26,
+      "text_greek": "ὥσπερ γὰρ ὁ πατὴρ ἔχει ζωὴν ἐν ἑαυτῷ, οὕτως καὶ τῷ υἱῷ ἔδωκεν ζωὴν ἔχειν ἐν ἑαυτῷ·",
+      "text_kjv": "For as the Father hath life in himself; so hath he given to the Son to have life in himself;",
+      "rendering": "For just as the Father has life in himself, so also he has granted the Son to have life in himself.",
+      "translator_notes": [
+        "This may be the most profound christological statement in the Gospel. 'Life in himself' (zoen en heauto) means self-existent, uncaused, underived life — the very definition of God. The Father possesses this life by nature; the Son possesses it by the Father's gift (edoken, 'has given, granted'). The paradox is deliberate: the Son's self-existent life is a gift — he is eternally begotten, not self-generated, yet possesses the same quality of life as the Father."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 27,
+      "text_greek": "καὶ ἐξουσίαν ἔδωκεν αὐτῷ κρίσιν ποιεῖν, ὅτι υἱὸς ἀνθρώπου ἐστίν.",
+      "text_kjv": "And hath given him authority to execute judgment also, because he is the Son of man.",
+      "rendering": "Because he is the son of man, and has given him authority to execute judgment also.",
+      "translator_notes": [
+        "The Greek huios anthropou ('Son of Man') appears without the definite article, which is unusual and may echo Daniel 7:13 in the Septuagint. The authority to judge is connected to his identity as Son of Man — the figure in Daniel who receives dominion from the Ancient of Days. The combined claims of this discourse are staggering: the Son gives life (v. 21), receives all judgment (v. 22), possesses self-existent life (v. 26), and exercises judicial authority (v. 27).",
+        "[TCR Cross-Reference] Draws on Daniel 7:13. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 28,
+      "text_greek": "μὴ θαυμάζετε τοῦτο, ὅτι ἔρχεται ὥρα ἐν ᾗ πάντες οἱ ἐν τοῖς μνημείοις ἀκούσουσιν τῆς φωνῆς αὐτοῦ",
+      "text_kjv": "Marvel not at this: for the hour is coming, in the which all that are in the graves shall hear his voice,",
+      "rendering": "Do not be astonished at this, for the hour is coming when all who are in the tombs will hear his voice",
+      "translator_notes": [
+        "Here the eschatology shifts from realized (v. 25, 'and is now here') to purely future ('the hour is coming' — without the 'and is now here' qualifier). The reference to 'all who are in the tombs' (pantes hoi en tois mnemeios) is unambiguously about physical resurrection, not spiritual awakening. The scope is universal — 'all' in the tombs, not merely believers."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 29,
+      "text_greek": "καὶ ἐκπορεύσονται οἱ τὰ ἀγαθὰ ποιήσαντες εἰς ἀνάστασιν ζωῆς, οἱ δὲ τὰ φαῦλα πράξαντες εἰς ἀνάστασιν κρίσεως.",
+      "text_kjv": "And shall come forth; they that have done good, unto the resurrection of life; and they that have done evil, unto the resurrection of damnation.",
+      "rendering": "Indeed, will come forth. They that have done good, to the resurrection of life. Then they that have done evil, to the resurrection of damnation.",
+      "translator_notes": [
+        "This is the clearest statement of a dual resurrection in John's Gospel, echoing Daniel 12:2 ('some to everlasting life, some to shame and everlasting contempt'). The distinction between 'resurrection of life' (anastasin zoes) and 'resurrection of judgment' (anastasin kriseos) describes two outcomes, not two events. The basis appears to be conduct ('done good' vs. 'practiced evil'), though this must be read alongside verse 24, where faith is the criterion for escaping judgment.",
+        "[TCR Cross-Reference] Echoes Daniel 12:2. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 30,
+      "text_greek": "Οὐ δύναμαι ἐγὼ ποιεῖν ἀπ' ἐμαυτοῦ οὐδέν· καθὼς ἀκούω κρίνω, καὶ ἡ κρίσις ἡ ἐμὴ δικαία ἐστίν, ὅτι οὐ ζητῶ τὸ θέλημα τὸ ἐμὸν ἀλλὰ τὸ θέλημα τοῦ πέμψαντός με.",
+      "text_kjv": "I can of mine own self do nothing: as I hear, I judge: and my judgment is just; because I seek not mine own will, but the will of the Father which hath sent me.",
+      "rendering": "I can do nothing on my own. As I hear, I judge, and my judgment is just, because I do not seek my own will but the will of the one who sent me.",
+      "translator_notes": [
+        "Jesus returns to the theme of verse 19 — his dependent relationship with the Father. His judgment is just (dikaia) precisely because it is not autonomous but aligned with the Father's will. The phrase 'as I hear' (kathos akouo) parallels 'what he sees the Father doing' (v. 19) — the Son both sees and hears from the Father, indicating complete communication. This self-limitation is paradoxically the basis of his authority."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 31,
+      "text_greek": "ἐὰν ἐγὼ μαρτυρῶ περὶ ἐμαυτοῦ, ἡ μαρτυρία μου οὐκ ἔστιν ἀληθής·",
+      "text_kjv": "If I bear witness of myself, my witness is not true.",
+      "rendering": "\"If I testify about myself, my testimony is not valid.",
+      "translator_notes": [
+        "Jesus now shifts to a legal argument about witnesses, following the principle of Deuteronomy 19:15 that a single witness is insufficient. The concession is formal, not substantive — Jesus is not saying his self-testimony is false but that it would not be accepted as legally sufficient standing alone. The courtroom language (martyro, martyria) introduces the four-witness section that follows.",
+        "[TCR Cross-Reference] Quotes Deuteronomy 19:15. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 32,
+      "text_greek": "ἄλλος ἐστὶν ὁ μαρτυρῶν περὶ ἐμοῦ, καὶ οἶδα ὅτι ἀληθής ἐστιν ἡ μαρτυρία ἣν μαρτυρεῖ περὶ ἐμοῦ.",
+      "text_kjv": "There is another that beareth witness of me; and I know that the witness which he witnesseth of me is true.",
+      "rendering": "There is another who testifies about me, and I know that the testimony he gives about me is true.",
+      "translator_notes": [
+        "The 'another' (allos) most likely refers to the Father (cf. v. 37), not to John the Baptist (who is mentioned separately in v. 33). Jesus asserts that the Father's testimony is true (alethes) — reliable and authoritative. This sets up the hierarchy of witnesses that follows: John the Baptist (human witness), Jesus's works (visible evidence), the Father (divine testimony), and the Scriptures (written witness)."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 33,
+      "text_greek": "ὑμεῖς ἀπεστάλκατε πρὸς Ἰωάννην, καὶ μεμαρτύρηκεν τῇ ἀληθείᾳ·",
+      "text_kjv": "Ye sent unto John, and he bare witness unto the truth.",
+      "rendering": "You sent messengers to John, and he has testified to the truth.",
+      "translator_notes": [
+        "Jesus references the delegation described in 1:19-27. The perfect tense memartyreiken ('has testified') indicates that John's testimony remains on the record — it is settled and permanent. The dative te aletheia ('to the truth') indicates that John's testimony aligned with and pointed toward the truth, which in John's Gospel is ultimately Jesus himself (14:6)."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 34,
+      "text_greek": "ἐγὼ δὲ οὐ παρὰ ἀνθρώπου τὴν μαρτυρίαν λαμβάνω, ἀλλὰ ταῦτα λέγω ἵνα ὑμεῖς σωθῆτε.",
+      "text_kjv": "But I receive not testimony from man: but these things I say, that ye might be saved.",
+      "rendering": "Not that I accept human testimony, but I say these things so that you may be saved.",
+      "translator_notes": [
+        "Jesus clarifies that he does not depend on human witnesses for his authority — he cites John the Baptist for the audience's benefit, not his own. The purpose clause 'so that you may be saved' (hina hymeis sothete) reveals a pastoral motive behind the legal argument. Even in the midst of controversy, Jesus's goal is the salvation of his opponents."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 35,
+      "text_greek": "ἐκεῖνος ἦν ὁ λύχνος ὁ καιόμενος καὶ φαίνων, ὑμεῖς δὲ ἠθελήσατε ἀγαλλιαθῆναι πρὸς ὥραν ἐν τῷ φωτὶ αὐτοῦ.",
+      "text_kjv": "He was a burning and a shining light: and ye were willing for a season to rejoice in his light.",
+      "rendering": "He was a burning and shining lamp, and you were willing to rejoice in his light for a while.",
+      "translator_notes": [
+        "John the Baptist is called a lychnos ('lamp') — a portable, temporary, derivative light — not the phos ('light') that the Prologue attributes to Christ (1:4-5, 8-9). The distinction is deliberate: John was a lamp that burned with borrowed fire, not the source of light itself. The phrase 'for a while' (pros horan, 'for an hour') suggests the authorities' initial enthusiasm for John's ministry was temporary and superficial."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 36,
+      "text_greek": "ἐγὼ δὲ ἔχω τὴν μαρτυρίαν μείζω τοῦ Ἰωάννου· τὰ γὰρ ἔργα ἃ δέδωκέν μοι ὁ πατὴρ ἵνα τελειώσω αὐτά, αὐτὰ τὰ ἔργα ἃ ποιῶ μαρτυρεῖ περὶ ἐμοῦ ὅτι ὁ πατήρ με ἀπέσταλκεν.",
+      "text_kjv": "But I have greater witness than that of John: for the works which the Father hath given me to finish, the same works that I do, bear witness of me, that the Father hath sent me.",
+      "rendering": "But I have a testimony greater than John's, for the works that the Father has given me to accomplish — the very works I am doing — testify about me that the Father has sent me.",
+      "translator_notes": [
+        "The second witness is Jesus's own works (ta erga) — the signs and the entire mission the Father has assigned. The verb teleioso ('to complete, accomplish, bring to perfection') echoes 4:34 and anticipates 19:30 (tetelestai, 'it is finished'). The works are not merely evidence of power but evidence of origin — they testify 'that the Father has sent me' (hoti ho pater me apestalken)."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 37,
+      "text_greek": "καὶ ὁ πέμψας με πατὴρ ἐκεῖνος μεμαρτύρηκεν περὶ ἐμοῦ. οὔτε φωνὴν αὐτοῦ πώποτε ἀκηκόατε οὔτε εἶδος αὐτοῦ ἑωράκατε,",
+      "text_kjv": "And the Father himself, which hath sent me, hath borne witness of me. Ye have neither heard his voice at any time, nor seen his shape.",
+      "rendering": "And the Father who sent me has himself testified about me. You have never heard his voice nor seen his form,",
+      "translator_notes": [
+        "The third witness is the Father himself. The statement 'you have never heard his voice nor seen his form' is striking — did not Israel hear God's voice at Sinai? Jesus may be saying that his opponents have never truly heard or perceived God despite their religious activity. The word eidos ('form, appearance, shape') and phone ('voice') correspond to the two primary modes of divine revelation in the Old Testament — theophany and oracle. The audience has been blind and deaf to both."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 38,
+      "text_greek": "καὶ τὸν λόγον αὐτοῦ οὐκ ἔχετε ἐν ὑμῖν μένοντα, ὅτι ὃν ἀπέστειλεν ἐκεῖνος τούτῳ ὑμεῖς οὐ πιστεύετε.",
+      "text_kjv": "And ye have not his word abiding in you: for whom he hath sent, him ye believe not.",
+      "rendering": "You have not his word abiding in you — for whom he has dispatched, him you believe not.",
+      "translator_notes": [
+        "The Johannine verb meno ('remaining, abiding') appears here negatively — God's word does not abide in them. The proof of this absence is their rejection of Jesus, whom God sent. The logic is circular by design: if they had God's word in them, they would recognize the one God sent; their failure to recognize him proves they do not have God's word."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 39,
+      "text_greek": "ἐραυνᾶτε τὰς γραφάς, ὅτι ὑμεῖς δοκεῖτε ἐν αὐταῖς ζωὴν αἰώνιον ἔχειν· καὶ ἐκεῖναί εἰσιν αἱ μαρτυροῦσαι περὶ ἐμοῦ·",
+      "text_kjv": "Search the scriptures; for in them ye think ye have eternal life: and they are they which testify of me.",
+      "rendering": "You search the Scriptures because you think that in them you have eternal life, and it is they that testify about me.",
+      "translator_notes": [
+        "The verb eraunate could be imperative ('Search!') or indicative ('You search'). We read it as indicative — Jesus is describing their practice, not commanding it. The fourth witness is Scripture itself. The irony is devastating: they study Scripture diligently believing it contains eternal life, and it does — but it points to Jesus, whom they refuse. The Scriptures are not an end in themselves but a witness that leads to the living Word."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 40,
+      "text_greek": "καὶ οὐ θέλετε ἐλθεῖν πρός με ἵνα ζωὴν ἔχητε.",
+      "text_kjv": "And ye will not come to me, that ye might have life.",
+      "rendering": "You will not come to me, that you might have life.",
+      "translator_notes": [
+        "The verb thelete ('you are willing, you want') frames the refusal as volitional — they do not come because they choose not to. The invitation remains open ('come to me') and the offer is unchanged ('to have life'), but the will is resistant. Jesus diagnoses the problem not as intellectual failure but as a failure of the will."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 41,
+      "text_greek": "δόξαν παρὰ ἀνθρώπων οὐ λαμβάνω,",
+      "text_kjv": "I receive not honour from men.",
+      "rendering": "I do not accept glory from people.",
+      "translator_notes": [
+        "The word doxa ('glory, honor, praise') connects to the Prologue's theme (1:14). Jesus disclaims any need for human recognition — his glory comes from the Father alone. This sets up the contrast with his opponents in the next verse."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 42,
+      "text_greek": "ἀλλ' ἔγνωκα ὑμᾶς ὅτι τὴν ἀγάπην τοῦ θεοῦ οὐκ ἔχετε ἐν ἑαυτοῖς.",
+      "text_kjv": "But I know you, that ye have not the love of God in you.",
+      "rendering": "But I know you — that you do not have the love of God in yourselves.",
+      "translator_notes": [
+        "The perfect tense egnoka ('I have come to know, I know') asserts settled, deep knowledge. The 'love of God' (ten agapen tou theou) could mean their love for God or God's love in them — both senses may be intended. Their rejection of Jesus reveals an absence of love for God, despite their religious devotion. This is the root diagnosis beneath all the surface symptoms."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 43,
+      "text_greek": "ἐγὼ ἐλήλυθα ἐν τῷ ὀνόματι τοῦ πατρός μου καὶ οὐ λαμβάνετέ με· ἐὰν ἄλλος ἔλθῃ ἐν τῷ ὀνόματι τῷ ἰδίῳ, ἐκεῖνον λήμψεσθε.",
+      "text_kjv": "I am come in my Father's name, and ye receive me not: if another shall come in his own name, him ye will receive.",
+      "rendering": "I have come in my Father's name, and you do not receive me. If another comes in his own name, you will receive that one.",
+      "translator_notes": [
+        "The contrast is between coming 'in my Father's name' (authorized by God) and coming 'in his own name' (self-authorized). The prediction that they will receive a self-appointed figure may refer to false messiahs generally or to specific historical figures. The irony is that the one with divine authorization is rejected while self-promoters are welcomed."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 44,
+      "text_greek": "πῶς δύνασθε ὑμεῖς πιστεῦσαι δόξαν παρὰ ἀλλήλων λαμβάνοντες καὶ τὴν δόξαν τὴν παρὰ τοῦ μόνου θεοῦ οὐ ζητεῖτε;",
+      "text_kjv": "How can ye believe, which receive honour one of another, and seek not the honour that cometh from God only?",
+      "rendering": "How can you believe when you accept glory from one another and do not seek the glory that comes from the only God?",
+      "translator_notes": [
+        "Jesus identifies the root obstacle to faith: a disordered desire for human approval. Those who live for peer recognition cannot receive the one who comes in God's name. The phrase tou monou theou ('the only God') echoes Deuteronomy 6:4 (the Shema) and is both a theological affirmation and an implicit charge — they claim to serve the only God but their honor system serves human opinion.",
+        "[TCR Cross-Reference] Echoes Deuteronomy 6:4. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 45,
+      "text_greek": "μὴ δοκεῖτε ὅτι ἐγὼ κατηγορήσω ὑμῶν πρὸς τὸν πατέρα· ἔστιν ὁ κατηγορῶν ὑμῶν Μωϋσῆς, εἰς ὃν ὑμεῖς ἠλπίκατε.",
+      "text_kjv": "Do not think that I will accuse you to the Father: there is one that accuseth you, even Moses, in whom ye trust.",
+      "rendering": "Do not think that I will accuse you before the Father. The one who accuses you is Moses, in whom you have placed your hope.",
+      "translator_notes": [
+        "The courtroom language continues — kategoreso ('I will accuse') is a legal term for formal prosecution. Jesus will not need to accuse them because their own champion, Moses, will do so. The perfect tense elpikate ('have hoped, have placed your hope') indicates their settled trust in Moses and the Torah. The irony is that the very authority they claim will condemn them."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 46,
+      "text_greek": "εἰ γὰρ ἐπιστεύετε Μωϋσεῖ, ἐπιστεύετε ἂν ἐμοί· περὶ γὰρ ἐμοῦ ἐκεῖνος ἔγραψεν.",
+      "text_kjv": "For had ye believed Moses, ye would have believed me: for he wrote of me.",
+      "rendering": "For if you believed Moses, you would believe me, because he wrote about me.",
+      "translator_notes": [
+        "Jesus claims that Moses's writings point to him — not tangentially but centrally. The conditional construction (ei episteuete... episteuete an) is contrary to fact in the present: 'if you were believing Moses (but you are not), you would be believing me (but you are not).' The specific Mosaic texts Jesus has in mind likely include Deuteronomy 18:15-18 (the prophet like Moses) and perhaps Genesis 3:15, 12:3, and 49:10.",
+        "[TCR Cross-Reference] Quotes Deuteronomy 18:15-18. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it.",
+        "[TCR Cross-Reference] Quotes Genesis 3:15. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 47,
+      "text_greek": "εἰ δὲ τοῖς ἐκείνου γράμμασιν οὐ πιστεύετε, πῶς τοῖς ἐμοῖς ῥήμασιν πιστεύσετε;",
+      "text_kjv": "But if ye believe not his writings, how shall ye believe my words?",
+      "rendering": "But if you do not believe his writings, how will you believe my words?\"",
+      "translator_notes": [
+        "The discourse ends with a devastating rhetorical question. The distinction between grammatsin ('writings, letters') and remasin ('words, spoken utterances') contrasts Moses's written Torah with Jesus's oral teaching. If they cannot believe the written, established, revered text of Moses, how will they believe the spoken words of the one Moses wrote about? The question has no answer — it is an indictment that hangs in the air."
+      ],
+      "reading_level": "7th grade"
+    }
+  ]
+}

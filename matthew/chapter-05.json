@@ -1,0 +1,600 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Matthew",
+    "chapter": 5,
+    "source_text": "SBL Greek New Testament (SBLGNT)",
+    "reference_text": "KJV",
+    "generated_at": "2026-04-04T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Matthew 5 opens the Sermon on the Mount, the first of five major teaching discourses in Matthew's Gospel. Jesus ascends a mountain (echoing Moses on Sinai), sits (the posture of authoritative teaching), and addresses his disciples while the crowds listen. The chapter contains the Beatitudes (5:3-12), the salt and light sayings (5:13-16), Jesus's declaration that he has come not to abolish the Law but to fulfill it (5:17-20), and six 'antitheses' in which Jesus deepens the Torah's demands — addressing anger (5:21-26), lust (5:27-30), divorce (5:31-32), oaths (5:33-37), retaliation (5:38-42), and love of enemies (5:43-48). The chapter culminates in the command to 'be perfect, as your heavenly Father is perfect.'",
+    "remarkable": "The Sermon on the Mount is structured as a new Sinai revelation. Just as Moses ascended the mountain to receive the Torah, Jesus ascends to deliver its definitive interpretation. The Beatitudes reverse worldly valuations — the poor in spirit, the grieving, the meek, and the persecuted are declared blessed. The antitheses ('You have heard... but I say to you') do not contradict the Torah but radicalize it, moving from external behavior to internal disposition. Jesus claims an authority that surpasses Moses: not 'Thus says the LORD' but 'I say to you.' The Greek teleios ('perfect') in verse 48 means 'complete, mature, whole' — not sinless perfection but wholehearted devotion.",
+    "friction": "The relationship between Jesus and the Torah in 5:17-20 is one of the most debated passages in the New Testament. We render the Greek as given without resolving the tension between 'not one iota will pass from the Law' and the apparent modifications that follow. The antitheses vary in structure — some quote the Torah directly, others cite popular interpretations ('You have heard it was said'). We preserve these distinctions. The teaching on divorce (5:31-32) involves the contested term porneia, which we render transparently with a note on the semantic range.",
+    "connections": "The mountain setting connects to Sinai (Exodus 19-20), the Beatitudes echo the Psalms (especially Psalm 37) and Isaiah 61, the Law-fulfillment passage connects to Matthew's ongoing concern with the Torah's continuing validity, and the antitheses prepare for the conflicts with religious leaders in later chapters. The command to love enemies (5:44) will be tested in the Passion narrative.\n\n**Tradition comparisons:** The Latin Vulgate shaped Western theology here: Beati pauperes spiritu (blessed are the poor in spirit) established the Beatitudes vocabulary in Latin. Beati (blessed, happy) became the standard term for spiritual blessedness. Pauperes spiritu (poo... (3 notable Vulgate renderings in this chapter) See the [Vulgate Matthew](/vulgate/matthew). The JST modifies this chapter (Matthew 5:50): Perfection command ('Be ye therefore perfect') clarified in application See the [JST notes](/jst/matthew)."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_greek": "Ἰδὼν δὲ τοὺς ὄχλους ἀνέβη εἰς τὸ ὄρος, καὶ καθίσαντος αὐτοῦ προσῆλθαν αὐτῷ οἱ μαθηταὶ αὐτοῦ·",
+      "text_kjv": "And seeing the multitudes, he went up into a mountain: and when he was set, his disciples came unto him:",
+      "rendering": "When he saw the crowds, he went up on the mountain, and after he sat down, his disciples came to him.",
+      "translator_notes": [
+        "The definite article to oros ('the mountain') suggests a specific location, though Matthew does not name it. The Sinai typology is deliberate — Moses went up the mountain to receive the Law, Jesus goes up to interpret it with final authority. Sitting (kathisantos) was the standard posture for an authoritative Jewish teacher; standing indicated informal conversation."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 2,
+      "text_greek": "καὶ ἀνοίξας τὸ στόμα αὐτοῦ ἐδίδασκεν αὐτοὺς λέγων·",
+      "text_kjv": "And he opened his mouth, and taught them, saying,",
+      "rendering": "He opened his mouth and began to teach them, saying:",
+      "translator_notes": [
+        "The phrase 'opened his mouth' (anoixas to stoma autou) is a Semitic idiom signaling the beginning of a solemn, formal discourse — not merely casual speech. It appears in the Septuagint for prophetic and wisdom utterances (Job 3:1, Daniel 10:16). The imperfect edidasken ('was teaching, began to teach') suggests an extended teaching session.",
+        "[TCR Cross-Reference] Draws on Job 3:1. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices.",
+        "[TCR Cross-Reference] Draws on Daniel 10:16. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 3,
+      "text_greek": "Μακάριοι οἱ πτωχοὶ τῷ πνεύματι, ὅτι αὐτῶν ἐστιν ἡ βασιλεία τῶν οὐρανῶν.",
+      "text_kjv": "Blessed are the poor in spirit: for theirs is the kingdom of heaven.",
+      "rendering": "Blessed are the poor in spirit — because heaven's kingdom belongs to them.",
+      "translator_notes": [
+        "The Greek makarioi ('blessed, fortunate, happy') does not merely describe an emotion but declares a state of divine favor. The 'poor in spirit' (ptōchoi tō pneumati) does not mean lacking in spiritual vitality but recognizing one's spiritual poverty and dependence on God. The Hebrew background is anawim — the humble poor who depend entirely on God. Luke's parallel (6:20) simply has 'the poor,' but Matthew's 'in spirit' clarifies the inner disposition."
+      ],
+      "key_terms": [
+        {
+          "greek": "μακάριος",
+          "transliteration": "makarios",
+          "rendered_as": "blessed",
+          "semantic_range": "blessed, happy, fortunate, to be envied",
+          "note": "In Greek literature, makarios described the gods' state of bliss. In the Beatitudes, Jesus applies it to those whom the world considers unfortunate — the poor, mourners, the persecuted — declaring that God's favor rests on them."
+        },
+        {
+          "greek": "βασιλεία τῶν οὐρανῶν",
+          "transliteration": "basileia tōn ouranōn",
+          "rendered_as": "kingdom of heaven",
+          "semantic_range": "kingdom, reign, royal rule; of heaven/the heavens",
+          "note": "The first and last Beatitudes (vv. 3 and 10) share this phrase, forming an inclusio — the kingdom of heaven brackets the entire collection."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 4,
+      "text_greek": "μακάριοι οἱ πενθοῦντες, ὅτι αὐτοὶ παρακληθήσονται.",
+      "text_kjv": "Blessed are they that mourn: for they shall be comforted.",
+      "rendering": "Blessed are those who mourn, for they will be comforted.",
+      "translator_notes": [
+        "The Greek penthountes ('those who mourn, grieve') refers to deep grief — the kind associated with death or catastrophic loss. The passive paraklēthēsontai ('will be comforted') is a divine passive: God himself will be the one who comforts. This echoes Isaiah 61:2-3, where the Messiah comes 'to comfort all who mourn.'",
+        "[TCR Cross-Reference] Echoes Isaiah 61:2-3. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 5,
+      "text_greek": "μακάριοι οἱ πραεῖς, ὅτι αὐτοὶ κληρονομήσουσιν τὴν γῆν.",
+      "text_kjv": "Blessed are the meek: for they shall inherit the earth.",
+      "rendering": "Blessed are the meek — for they will receive the earth.",
+      "translator_notes": [
+        "This Beatitude quotes Psalm 37:11 almost verbatim. The Greek praeis ('meek, gentle, humble') does not mean weak but describes power under control — strength expressed with gentleness. Moses is called the meekest man on earth (Numbers 12:3), yet he was a formidable leader. The Greek gēn can mean 'earth' or 'land' — in the Psalm 37 context it referred to the promised land, but Jesus universalizes the promise.",
+        "[TCR Cross-Reference] This verse quotes Psalm 37:11 — see the TCR rendering of that passage for the Hebrew source text and translation decisions.",
+        "[TCR Cross-Reference] This verse quotes Numbers 12:3 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 6,
+      "text_greek": "μακάριοι οἱ πεινῶντες καὶ διψῶντες τὴν δικαιοσύνην, ὅτι αὐτοὶ χορτασθήσονται.",
+      "text_kjv": "Blessed are they which do hunger and thirst after righteousness: for they shall be filled.",
+      "rendering": "Blessed are those who hunger and thirst for righteousness, for they will be satisfied.",
+      "translator_notes": [
+        "The Greek chortasthēsontai ('will be satisfied, filled') originally described the feeding of animals — it means filled to capacity, fully satiated. The metaphor of hunger and thirst for righteousness (dikaiosynēn) implies a desperate, survival-level craving, not casual interest. Matthew's 'righteousness' (dikaiosynē) encompasses both right relationship with God and just conduct — the Hebrew tsedeq/tsedaqah."
+      ],
+      "key_terms": [
+        {
+          "greek": "δικαιοσύνη",
+          "transliteration": "dikaiosynē",
+          "rendered_as": "righteousness",
+          "semantic_range": "righteousness, justice, right standing, covenant faithfulness",
+          "note": "A central term in the Sermon on the Mount (5:6, 5:10, 5:20, 6:1, 6:33). In Matthew, it describes both the character God requires and the right order God is establishing through the kingdom."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 7,
+      "text_greek": "μακάριοι οἱ ἐλεήμονες, ὅτι αὐτοὶ ἐλεηθήσονται.",
+      "text_kjv": "Blessed are the merciful: for they shall obtain mercy.",
+      "rendering": "Blessed are the merciful, for they will receive mercy.",
+      "translator_notes": [
+        "The Greek eleēmones ('merciful, compassionate') and eleēthēsontai ('will be shown mercy') share the same root (eleos), creating a wordplay: mercy given is mercy received. The principle of reciprocity runs throughout the Sermon (cf. 6:12, 6:14-15, 7:1-2). The divine passive again indicates God as the source of mercy."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 8,
+      "text_greek": "μακάριοι οἱ καθαροὶ τῇ καρδίᾳ, ὅτι αὐτοὶ τὸν θεὸν ὄψονται.",
+      "text_kjv": "Blessed are the pure in heart: for they shall see God.",
+      "rendering": "Blessed are the pure in heart — since they will see God.",
+      "translator_notes": [
+        "The Greek katharoi tē kardia ('pure in heart') echoes Psalm 24:4 — 'the one with clean hands and a pure heart.' The heart (kardia) in biblical thought is the center of will, thought, and moral decision, not merely emotion. Purity here means undivided loyalty, sincerity, and integrity. The promise 'they will see God' (ton theon opsontai) is extraordinary — in the Old Testament, seeing God was considered fatal (Exodus 33:20).",
+        "[TCR Cross-Reference] References Psalm 24:4 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved.",
+        "[TCR Cross-Reference] References Exodus 33:20 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 9,
+      "text_greek": "μακάριοι οἱ εἰρηνοποιοί, ὅτι αὐτοὶ υἱοὶ θεοῦ κληθήσονται.",
+      "text_kjv": "Blessed are the peacemakers: for they shall be called the children of God.",
+      "rendering": "Blessed are the peacemakers, for they will be called sons of God.",
+      "translator_notes": [
+        "The Greek eirēnopoioi ('peacemakers') is a compound word appearing only here in the New Testament. It describes those who actively create peace, not merely those who avoid conflict. The designation 'sons of God' (huioi theou) means they share the character of God, who is the ultimate peacemaker. In the ancient world, the Roman emperor was called a 'peacemaker' — Jesus quietly reassigns the title."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 10,
+      "text_greek": "μακάριοι οἱ δεδιωγμένοι ἕνεκεν δικαιοσύνης, ὅτι αὐτῶν ἐστιν ἡ βασιλεία τῶν οὐρανῶν.",
+      "text_kjv": "Blessed are they which are persecuted for righteousness' sake: for theirs is the kingdom of heaven.",
+      "rendering": "Blessed are those who are persecuted because of righteousness, for theirs is the kingdom of heaven.",
+      "translator_notes": [
+        "The perfect participle dediōgmenoi ('those who have been persecuted') indicates an ongoing state resulting from past action — these are people who live under persecution as a condition of their lives. The return to 'kingdom of heaven' creates an inclusio with verse 3, framing the eight Beatitudes as a unified whole. Persecution for righteousness — not for foolishness or stubbornness — is the qualifying condition."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 11,
+      "text_greek": "μακάριοί ἐστε ὅταν ὀνειδίσωσιν ὑμᾶς καὶ διώξωσιν καὶ εἴπωσιν πᾶν πονηρὸν καθ' ὑμῶν ψευδόμενοι ἕνεκεν ἐμοῦ.",
+      "text_kjv": "Blessed are ye, when men shall revile you, and persecute you, and shall say all manner of evil against you falsely, for my sake.",
+      "rendering": "Blessed are you when people insult you, persecute you, and falsely say every kind of evil against you because of me.",
+      "translator_notes": [
+        "The shift from third person ('blessed are those') to second person ('blessed are you') makes this final Beatitude directly personal and marks the transition from the formal blessings to direct address. The three verbs — insult (oneidisōsin), persecute (diōxōsin), say evil (eipōsin pan ponēron) — escalate from verbal abuse to active pursuit to character assassination. The qualifying phrase pseudomenoi ('falsely, lying') is critical: the blessing applies only to false accusations."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 12,
+      "text_greek": "χαίρετε καὶ ἀγαλλιᾶσθε, ὅτι ὁ μισθὸς ὑμῶν πολὺς ἐν τοῖς οὐρανοῖς· οὕτως γὰρ ἐδίωξαν τοὺς προφήτας τοὺς πρὸ ὑμῶν.",
+      "text_kjv": "Rejoice, and be exceeding glad: for great is your reward in heaven: for so persecuted they the prophets which were before you.",
+      "rendering": "Rejoice and be glad, for your reward is great in heaven. For in the same way they persecuted the prophets who came before you.",
+      "translator_notes": [
+        "The two imperatives chairete ('rejoice') and agalliasthe ('be overjoyed, leap for joy') intensify one another. The word misthos ('reward, wages') does not imply merit-based earning but God's generous response to faithfulness. By linking the disciples with the persecuted prophets, Jesus places them in the prophetic succession — they are heirs to the same tradition of faithful witness that was met with hostility."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 13,
+      "text_greek": "Ὑμεῖς ἐστε τὸ ἅλας τῆς γῆς· ἐὰν δὲ τὸ ἅλας μωρανθῇ, ἐν τίνι ἁλισθήσεται; εἰς οὐδὲν ἰσχύει ἔτι εἰ μὴ βληθὲν ἔξω καταπατεῖσθαι ὑπὸ τῶν ἀνθρώπων.",
+      "text_kjv": "Ye are the salt of the earth: but if the salt have lost his savour, wherewith shall it be salted? it is thenceforth good for nothing, but to be cast out, and to be trodden under foot of men.",
+      "rendering": "You are the salt of the earth. But if the salt loses its flavor, how can it be made salty again? It is no longer good for anything except to be thrown out and trampled underfoot.",
+      "translator_notes": [
+        "The Greek mōranthē (from mōrainō, 'to become foolish, to become tasteless') creates a double meaning — salt that loses its taste has become 'foolish.' In the ancient world, salt preserved food from decay, flavored meals, and was used in covenant rituals (Leviticus 2:13, Numbers 18:19). If the preserving agent itself fails, nothing can restore it. The rhetorical question 'how can it be made salty again?' expects the answer 'it cannot.'",
+        "[TCR Cross-Reference] References Leviticus 2:13 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved.",
+        "[TCR Cross-Reference] References Numbers 18:19 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 14,
+      "text_greek": "Ὑμεῖς ἐστε τὸ φῶς τοῦ κόσμου. οὐ δύναται πόλις κρυβῆναι ἐπάνω ὄρους κειμένη·",
+      "text_kjv": "Ye are the light of the world. A city that is set on an hill cannot be hid.",
+      "rendering": "You are the light of the world. A city set on a hill cannot be hidden.",
+      "translator_notes": [
+        "In the Old Testament, Israel was called to be 'a light to the nations' (Isaiah 42:6, 49:6). Jesus transfers this vocation to his disciples. The image of a city on a hill (polis epanō orous keimenē) may evoke Jerusalem, built on Mount Zion, visible from great distances. The claim is stunning — Jesus's followers are now assigned the role that Israel was given through the prophets.",
+        "[TCR Cross-Reference] Echoes Isaiah 42:6. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 15,
+      "text_greek": "οὐδὲ καίουσιν λύχνον καὶ τιθέασιν αὐτὸν ὑπὸ τὸν μόδιον ἀλλ' ἐπὶ τὴν λυχνίαν, καὶ λάμπει πᾶσιν τοῖς ἐν τῇ οἰκίᾳ.",
+      "text_kjv": "Neither do men light a candle, and put it under a bushel, but on a candlestick; and it giveth light unto all that are in the house.",
+      "rendering": "Nor do people light a lamp and put it under a basket, but on a lampstand, and it gives light to everyone in the house.",
+      "translator_notes": [
+        "The Greek modion ('measuring basket,' about 8.75 liters) was a common household item. The lychnos ('oil lamp') was a small clay vessel with a wick — the primary source of indoor light in first-century homes. The lychnia ('lampstand') elevated the lamp to maximize its reach. The image is purely practical — hiding a light source defeats its purpose."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 16,
+      "text_greek": "οὕτως λαμψάτω τὸ φῶς ὑμῶν ἔμπροσθεν τῶν ἀνθρώπων, ὅπως ἴδωσιν ὑμῶν τὰ καλὰ ἔργα καὶ δοξάσωσιν τὸν πατέρα ὑμῶν τὸν ἐν τοῖς οὐρανοῖς.",
+      "text_kjv": "Let your light so shine before men, that they may see your good works, and glorify your Father which is in heaven.",
+      "rendering": "In the same way, let your light shine before others, so that they may see your good works and give glory to your Father in heaven.",
+      "translator_notes": [
+        "The purpose of visible good works is not self-promotion but theocentric: the goal is that observers glorify 'your Father in heaven' (ton patera hymōn ton en tois ouranois). This phrase — 'your Father in heaven' — is distinctive to Matthew and occurs repeatedly in the Sermon on the Mount. The Greek kala erga ('good works, beautiful deeds') denotes works that are both morally good and visibly attractive."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 17,
+      "text_greek": "Μὴ νομίσητε ὅτι ἦλθον καταλῦσαι τὸν νόμον ἢ τοὺς προφήτας· οὐκ ἦλθον καταλῦσαι ἀλλὰ πληρῶσαι.",
+      "text_kjv": "Think not that I am come to destroy the law, or the prophets: I am not come to destroy, but to fulfil.",
+      "rendering": "Do not think that I have come to abolish the Law or the Prophets. I have not come to abolish them but to fulfill them.",
+      "translator_notes": [
+        "The Greek katalysai ('to destroy, demolish, abolish') is a strong term — literally 'to loosen down, dismantle.' Jesus denies any intent to dismantle the Torah. The verb plērōsai ('to fulfill, to fill up, to bring to completion') is debated: does it mean 'to obey perfectly,' 'to bring to its intended goal,' 'to fill with deeper meaning,' or 'to bring about what it prophesied'? The ambiguity may be intentional — Jesus fulfills the Law in all these senses. 'The Law and the Prophets' (ton nomon ē tous prophētas) is a standard designation for the entire Hebrew Scriptures."
+      ],
+      "key_terms": [
+        {
+          "greek": "πληρόω",
+          "transliteration": "plēroō",
+          "rendered_as": "fulfill",
+          "semantic_range": "to fill, to complete, to fulfill, to bring to full expression, to accomplish",
+          "note": "The same verb Matthew uses in his fulfillment formulas (1:22, 2:15, etc.). Here it describes Jesus's relationship not to individual prophecies but to the entire Torah and Prophets — he brings them to their intended completion."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 18,
+      "text_greek": "ἀμὴν γὰρ λέγω ὑμῖν· ἕως ἂν παρέλθῃ ὁ οὐρανὸς καὶ ἡ γῆ, ἰῶτα ἓν ἢ μία κεραία οὐ μὴ παρέλθῃ ἀπὸ τοῦ νόμου, ἕως ἂν πάντα γένηται.",
+      "text_kjv": "For verily I say unto you, Till heaven and earth pass, one jot or one tittle shall in no wise pass from the law, till all be fulfilled.",
+      "rendering": "For truly I tell you, until heaven and earth pass away, not one iota or one stroke of a letter will pass from the Law until everything has been accomplished.",
+      "translator_notes": [
+        "The Greek amēn legō hymin ('truly I tell you') is Jesus's characteristic formula for solemn pronouncements — it is unprecedented in Jewish teaching, where amēn typically concludes a statement rather than introducing one. The iōta is the smallest letter of the Greek alphabet (corresponding to the Hebrew yod, the smallest Hebrew letter), and keraia ('horn, serif, stroke') refers to the tiny decorative strokes that distinguish similar Hebrew letters. The double negative ou mē ('not at all, by no means') is the strongest form of negation in Greek."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 19,
+      "text_greek": "ὃς ἐὰν οὖν λύσῃ μίαν τῶν ἐντολῶν τούτων τῶν ἐλαχίστων καὶ διδάξῃ οὕτως τοὺς ἀνθρώπους, ἐλάχιστος κληθήσεται ἐν τῇ βασιλείᾳ τῶν οὐρανῶν· ὃς δ' ἂν ποιήσῃ καὶ διδάξῃ, οὗτος μέγας κληθήσεται ἐν τῇ βασιλείᾳ τῶν οὐρανῶν.",
+      "text_kjv": "Whosoever therefore shall break one of these least commandments, and shall teach men so, he shall be called the least in the kingdom of heaven: but whosoever shall do and teach them, the same shall be called great in the kingdom of heaven.",
+      "rendering": "Therefore, whoever sets aside one of the least of these commandments and teaches others to do the same will be called least in the kingdom of heaven. But whoever practices and teaches them will be called great in the kingdom of heaven.",
+      "translator_notes": [
+        "The Greek lysē ('loosens, sets aside, annuls') echoes the katalysai of verse 17 — whoever 'loosens' even the smallest commandment participates in the very abolition Jesus has rejected. The pairing of 'practices and teaches' (poiēsē kai didaxē) insists on integrity: teaching without practice is worthless. Being 'called least' may mean having the lowest status in the kingdom, not necessarily exclusion from it."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 20,
+      "text_greek": "λέγω γὰρ ὑμῖν ὅτι ἐὰν μὴ περισσεύσῃ ὑμῶν ἡ δικαιοσύνη πλεῖον τῶν γραμματέων καὶ Φαρισαίων, οὐ μὴ εἰσέλθητε εἰς τὴν βασιλείαν τῶν οὐρανῶν.",
+      "text_kjv": "For I say unto you, That except your righteousness shall exceed the righteousness of the scribes and Pharisees, ye shall in no case enter into the kingdom of heaven.",
+      "rendering": "For I tell you, unless your righteousness surpasses that of the scribes and Pharisees, you will never enter the kingdom of heaven.",
+      "translator_notes": [
+        "This verse functions as the thesis statement for the six antitheses that follow (5:21-48). The scribes and Pharisees were considered the most meticulous observers of the Law — to exceed their righteousness seemed impossible. The Greek perisseusē ('exceed, overflow, surpass') implies not more of the same kind but a different quality of righteousness — one that penetrates from external observance to internal transformation. The double negative ou mē ('never, by no means') makes the warning absolute."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 21,
+      "text_greek": "Ἠκούσατε ὅτι ἐρρέθη τοῖς ἀρχαίοις· Οὐ φονεύσεις· ὃς δ' ἂν φονεύσῃ, ἔνοχος ἔσται τῇ κρίσει.",
+      "text_kjv": "Ye have heard that it was said by them of old time, Thou shalt not kill; and whosoever shall kill shall be in danger of the judgment:",
+      "rendering": "You have heard that it was said to those of ancient times, 'You shall not murder,' and 'Whoever murders will be subject to judgment.'",
+      "translator_notes": [
+        "This introduces the first antithesis. The formula 'You have heard that it was said' (ēkousate hoti errethē) refers to the synagogue reading of Torah. The commandment quotes the sixth commandment (Exodus 20:13, Deuteronomy 5:17). The Greek phoneuseis ('murder') is more specific than 'kill' — it refers to unlawful killing, not all forms of taking life. The addition 'whoever murders will be subject to judgment' reflects the established legal tradition surrounding the commandment.",
+        "[TCR Cross-Reference] Quotes Exodus 20:13. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it.",
+        "[TCR Cross-Reference] Quotes Deuteronomy 5:17. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 22,
+      "text_greek": "ἐγὼ δὲ λέγω ὑμῖν ὅτι πᾶς ὁ ὀργιζόμενος τῷ ἀδελφῷ αὐτοῦ ἔνοχος ἔσται τῇ κρίσει· ὃς δ' ἂν εἴπῃ τῷ ἀδελφῷ αὐτοῦ· Ῥακά, ἔνοχος ἔσται τῷ συνεδρίῳ· ὃς δ' ἂν εἴπῃ· Μωρέ, ἔνοχος ἔσται εἰς τὴν γέενναν τοῦ πυρός.",
+      "text_kjv": "But I say unto you, That whosoever is angry with his brother without a cause shall be in danger of the judgment: and whosoever shall say to his brother, Raca, shall be in danger of the council: but whosoever shall say, Thou fool, shall be in danger of hell fire.",
+      "rendering": "But I say to you that everyone who is angry with his brother will be subject to judgment. Whoever says to his brother, 'Raka!' will be answerable to the council. And whoever says, 'You fool!' will be liable to the fire of Gehenna.",
+      "translator_notes": [
+        "The emphatic egō de legō hymin ('but I say to you') claims an authority that transcends even Moses — Jesus does not cite another authority but speaks on his own. The three-step escalation moves from internal anger to verbal contempt (Raka, an Aramaic term of derision meaning 'empty-head' or 'worthless') to outright denunciation (Mōre, 'fool,' which in Hebrew carries the connotation of moral and spiritual bankruptcy — cf. Psalm 14:1, 'The fool says in his heart'). Gehenna (geennan) refers to the Valley of Hinnom south of Jerusalem, associated with child sacrifice (2 Kings 23:10) and later used as a metaphor for divine judgment.",
+        "The SBLGNT does not include 'without a cause' (eikē), which appears in some later manuscripts. We follow the critical text.",
+        "[TCR Cross-Reference] Draws on Psalm 14:1. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices.",
+        "[TCR Cross-Reference] Draws on 2 Kings 23:10. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "key_terms": [
+        {
+          "greek": "γέεννα",
+          "transliteration": "geenna",
+          "rendered_as": "Gehenna",
+          "semantic_range": "Gehenna, Valley of Hinnom, hell, place of fiery judgment",
+          "note": "From the Hebrew Ge-Hinnom ('Valley of Hinnom'). By the first century it had become a standard Jewish image for the place of final punishment. We transliterate rather than translate as 'hell' to preserve the geographic and historical resonance."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 23,
+      "text_greek": "ἐὰν οὖν προσφέρῃς τὸ δῶρόν σου ἐπὶ τὸ θυσιαστήριον κἀκεῖ μνησθῇς ὅτι ὁ ἀδελφός σου ἔχει τι κατὰ σοῦ,",
+      "text_kjv": "Therefore if thou bring thy gift to the altar, and there rememberest that thy brother hath ought against thee;",
+      "rendering": "So if you are offering your gift at the altar and there remember that your brother has something against you,",
+      "translator_notes": [
+        "The scenario assumes a functioning temple with its sacrificial system — Jesus addresses people who actually bring offerings to the altar. The Greek thysiastērion ('altar') specifically refers to the temple altar in Jerusalem. The point is radical: reconciliation with a fellow human being takes priority over worship of God."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 24,
+      "text_greek": "ἄφες ἐκεῖ τὸ δῶρόν σου ἔμπροσθεν τοῦ θυσιαστηρίου καὶ ὕπαγε πρῶτον διαλλάγηθι τῷ ἀδελφῷ σου, καὶ τότε ἐλθὼν πρόσφερε τὸ δῶρόν σου.",
+      "text_kjv": "Leave there thy gift before the altar, and go thy way; first be reconciled to thy brother, and then come and offer thy gift.",
+      "rendering": "Leave there your gift prior to the altar, and go your way. First be reconciled to your brother, and then come and offer your gift.",
+      "translator_notes": [
+        "The command is startling in its priorities: leave the sacrifice mid-act to restore a broken relationship. The Greek diallagēthi ('be reconciled') is an aorist passive imperative — do whatever it takes to restore the relationship, taking responsibility for your part. The word prōton ('first') makes the sequence absolute: reconciliation before worship, not after."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 25,
+      "text_greek": "ἴσθι εὐνοῶν τῷ ἀντιδίκῳ σου ταχύ, ἕως ὅτου εἶ μετ' αὐτοῦ ἐν τῇ ὁδῷ, μήποτέ σε παραδῷ ὁ ἀντίδικος τῷ κριτῇ καὶ ὁ κριτὴς τῷ ὑπηρέτῃ καὶ εἰς φυλακὴν βληθήσῃ·",
+      "text_kjv": "Agree with thine adversary quickly, whiles thou art in the way with him; lest at any time the adversary deliver thee to the judge, and the judge deliver thee to the officer, and thou be cast into prison.",
+      "rendering": "Come to terms quickly with your accuser while you are on the way to court with him, or your accuser may hand you over to the judge, and the judge to the officer, and you will be thrown into prison.",
+      "translator_notes": [
+        "The Greek antidikos ('adversary, accuser, opponent at law') is a legal term for the opposing party in a lawsuit. The illustration shifts from the temple to the courtroom, but the principle is the same: resolve conflicts urgently, before they escalate beyond your control. The chain of custody — accuser to judge to officer to prison — describes the inexorable progression of unresolved conflict."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 26,
+      "text_greek": "ἀμὴν λέγω σοι, οὐ μὴ ἐξέλθῃς ἐκεῖθεν, ἕως ἂν ἀποδῷς τὸν ἔσχατον κοδράντην.",
+      "text_kjv": "Verily I say unto thee, Thou shalt by no means come out thence, till thou hast paid the uttermost farthing.",
+      "rendering": "Truly I tell you, you will never get out until you have paid the last penny.",
+      "translator_notes": [
+        "The Greek kodrantēn (Latin quadrans) was the smallest Roman coin, worth about 1/64 of a denarius (a day's wage). The point is totality — every last fraction must be repaid. The shift to singular 'you' (soi) makes this personally direct. Whether the saying carries eschatological overtones (final judgment) or remains a practical warning about earthly litigation is debated; likely both dimensions are present."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 27,
+      "text_greek": "Ἠκούσατε ὅτι ἐρρέθη· Οὐ μοιχεύσεις.",
+      "text_kjv": "Ye have heard that it was said by them of old time, Thou shalt not commit adultery:",
+      "rendering": "You have heard that it was said, 'You shall not commit adultery.'",
+      "translator_notes": [
+        "The second antithesis addresses the seventh commandment (Exodus 20:14, Deuteronomy 5:18). The Greek moicheuseis ('commit adultery') refers specifically to sexual intercourse with another person's spouse, violating the marriage covenant.",
+        "[TCR Cross-Reference] Draws on Exodus 20:14. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices.",
+        "[TCR Cross-Reference] Draws on Deuteronomy 5:18. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 28,
+      "text_greek": "ἐγὼ δὲ λέγω ὑμῖν ὅτι πᾶς ὁ βλέπων γυναῖκα πρὸς τὸ ἐπιθυμῆσαι αὐτὴν ἤδη ἐμοίχευσεν αὐτὴν ἐν τῇ καρδίᾳ αὐτοῦ.",
+      "text_kjv": "But I say unto you, That whosoever looketh on a woman to lust after her hath committed adultery with her already in his heart.",
+      "rendering": "But I say to you that everyone who looks at a woman with lustful intent has already committed adultery with her in his heart.",
+      "translator_notes": [
+        "The Greek pros to epithymēsai ('with the purpose of desiring, for the purpose of lusting') indicates deliberate, intentional gazing — not an involuntary glance but a cultivated look aimed at arousal. The infinitive of purpose makes the intent central: this is about the will's direction, not mere biological response. The phrase 'in his heart' (en tē kardia autou) again locates the moral action in the internal sphere of will and desire."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 29,
+      "text_greek": "εἰ δὲ ὁ ὀφθαλμός σου ὁ δεξιὸς σκανδαλίζει σε, ἔξελε αὐτὸν καὶ βάλε ἀπὸ σοῦ· συμφέρει γάρ σοι ἵνα ἀπόληται ἓν τῶν μελῶν σου καὶ μὴ ὅλον τὸ σῶμά σου βληθῇ εἰς γέενναν.",
+      "text_kjv": "And if thy right eye offend thee, pluck it out, and cast it from thee: for it is profitable for thee that one of thy members should perish, and not that thy whole body should be cast into hell.",
+      "rendering": "If your right eye causes you to sin, tear it out and throw it away. It is better for you to lose one part of your body than for your whole body to be thrown into Gehenna.",
+      "translator_notes": [
+        "The Greek skandalizei ('causes to stumble, causes to sin, entraps') gives us the English 'scandalize.' The language is deliberately hyperbolic — Jesus is not commanding literal self-mutilation but using shock rhetoric to convey the urgency of dealing with sin at its source. The right eye and right hand (v. 30) represent the most valued members. The logic is surgical: better partial loss now than total ruin later."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 30,
+      "text_greek": "καὶ εἰ ἡ δεξιά σου χεὶρ σκανδαλίζει σε, ἔκκοψον αὐτὴν καὶ βάλε ἀπὸ σοῦ· συμφέρει γάρ σοι ἵνα ἀπόληται ἓν τῶν μελῶν σου καὶ μὴ ὅλον τὸ σῶμά σου εἰς γέενναν ἀπέλθῃ.",
+      "text_kjv": "And if thy right hand offend thee, cut it off, and cast it from thee: for it is profitable for thee that one of thy members should perish, and not that thy whole body should be cast into hell.",
+      "rendering": "And if your right hand causes you to sin, cut it off and throw it away. It is better for you to lose one part of your body than for your whole body to go into Gehenna.",
+      "translator_notes": [
+        "The repetition of the eye/hand pattern reinforces the seriousness of the demand. The right hand was the hand of power, skill, and oath-taking. The verb ekkopson ('cut off') is more violent than the eye's 'tear out' (exele), escalating the rhetoric. The parallel between apólētai ('perish, be destroyed') for the limb and apelthē ('go away, depart') for the body into Gehenna highlights the choice: voluntary partial loss versus involuntary total destruction."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 31,
+      "text_greek": "Ἐρρέθη δέ· Ὃς ἂν ἀπολύσῃ τὴν γυναῖκα αὐτοῦ, δότω αὐτῇ ἀποστάσιον.",
+      "text_kjv": "It hath been said, Whosoever shall put away his wife, let him give her a writing of divorcement:",
+      "rendering": "It was also said, 'Whoever divorces his wife must give her a certificate of divorce.'",
+      "translator_notes": [
+        "The third antithesis cites Deuteronomy 24:1-4, which regulated (but did not endorse) an existing practice of divorce. The Greek apostasion ('certificate of divorce, document of separation') was a legal document that freed the woman to remarry. In the first-century debate between the schools of Hillel and Shammai, the grounds for divorce were fiercely contested.",
+        "[TCR Cross-Reference] Quotes Deuteronomy 24:1. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 32,
+      "text_greek": "ἐγὼ δὲ λέγω ὑμῖν ὅτι πᾶς ὁ ἀπολύων τὴν γυναῖκα αὐτοῦ παρεκτὸς λόγου πορνείας ποιεῖ αὐτὴν μοιχευθῆναι, καὶ ὃς ἐὰν ἀπολελυμένην γαμήσῃ, μοιχᾶται.",
+      "text_kjv": "But I say unto you, That whosoever shall put away his wife, saving for the cause of fornication, causeth her to commit adultery: and whosoever shall marry her that is divorced committeth adultery.",
+      "rendering": "But I say to you that everyone who divorces his wife, except on the ground of sexual immorality, makes her commit adultery, and whoever marries a divorced woman commits adultery.",
+      "translator_notes": [
+        "The exception clause parektos logou porneias ('except on the ground of porneia') appears only in Matthew (here and 19:9), not in Mark or Luke. The Greek porneia has a broad semantic range: sexual immorality, fornication, prostitution, incest, or any illicit sexual conduct. Whether it refers specifically to pre-marital unchastity, adultery, or sexual sin in general is debated. The logic assumes a patriarchal context where a divorced woman would need to remarry for economic survival — hence the divorced husband 'makes her' commit adultery by forcing her into a new marriage."
+      ],
+      "key_terms": [
+        {
+          "greek": "πορνεία",
+          "transliteration": "porneia",
+          "rendered_as": "sexual immorality",
+          "semantic_range": "sexual immorality, fornication, prostitution, unchastity, illicit sexual conduct, incest",
+          "note": "The broadest Greek term for sexual sin. Its precise meaning in the Matthean exception clause is one of the most debated questions in New Testament ethics. We render it broadly ('sexual immorality') to preserve the ambiguity of the Greek."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 33,
+      "text_greek": "Πάλιν ἠκούσατε ὅτι ἐρρέθη τοῖς ἀρχαίοις· Οὐκ ἐπιορκήσεις, ἀποδώσεις δὲ τῷ κυρίῳ τοὺς ὅρκους σου.",
+      "text_kjv": "Again, ye have heard that it hath been said by them of old time, Thou shalt not forswear thyself, but shalt perform unto the Lord thine oaths:",
+      "rendering": "Again, you have heard that it was said to those of ancient times, 'You shall not swear falsely, but shall fulfill your oaths to the Lord.'",
+      "translator_notes": [
+        "The fourth antithesis addresses oath-taking. The citation is a composite of Leviticus 19:12 ('You shall not swear falsely by my name'), Numbers 30:2, and Deuteronomy 23:21-23 (on fulfilling vows). The Greek epiorkēseis ('swear falsely, commit perjury') and the command to 'fulfill your oaths' (apodōseis tous horkous) together summarize the Torah's teaching: if you swear, do not lie; keep what you promise.",
+        "[TCR Cross-Reference] References Leviticus 19:12 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved.",
+        "[TCR Cross-Reference] References Numbers 30:2 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved.",
+        "[TCR Cross-Reference] References Deuteronomy 23:21-23 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 34,
+      "text_greek": "ἐγὼ δὲ λέγω ὑμῖν μὴ ὀμόσαι ὅλως· μήτε ἐν τῷ οὐρανῷ, ὅτι θρόνος ἐστὶν τοῦ θεοῦ,",
+      "text_kjv": "But I say unto you, Swear not at all; neither by heaven; for it is God's throne:",
+      "rendering": "But I say to you, do not swear at all — not by heaven, for it is the throne of God,",
+      "translator_notes": [
+        "The prohibition mē omosai holōs ('do not swear at all') is absolute in form. The practice of swearing by things adjacent to God (heaven, earth, Jerusalem, one's own head) was a way of invoking solemnity without directly using God's name — a legalistic evasion that Jesus exposes. His argument is that everything is connected to God, so every oath implicitly involves God."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 35,
+      "text_greek": "μήτε ἐν τῇ γῇ, ὅτι ὑποπόδιόν ἐστιν τῶν ποδῶν αὐτοῦ, μήτε εἰς Ἱεροσόλυμα, ὅτι πόλις ἐστὶν τοῦ μεγάλου βασιλέως,",
+      "text_kjv": "Nor by the earth; for it is his footstool: neither by Jerusalem; for it is the city of the great King.",
+      "rendering": "Nor by the earth. Since it is his footstool — neither by Jerusalem. Since it is the city of the remarkable King.",
+      "translator_notes": [
+        "The phrases echo Isaiah 66:1 ('Heaven is my throne and the earth is my footstool') and Psalm 48:2 ('the city of the great King'). Jesus's reasoning reveals a theology of divine sovereignty: heaven, earth, and Jerusalem all belong to God, so swearing by any of them ultimately invokes God himself. The 'great King' (tou megalou basileōs) is God, not an earthly monarch.",
+        "[TCR Cross-Reference] This verse quotes Isaiah 66:1 — see the TCR rendering of that passage for the Hebrew source text and translation decisions.",
+        "[TCR Cross-Reference] This verse quotes Psalm 48:2 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 36,
+      "text_greek": "μήτε ἐν τῇ κεφαλῇ σου ὀμόσῃς, ὅτι οὐ δύνασαι μίαν τρίχα λευκὴν ποιῆσαι ἢ μέλαιναν.",
+      "text_kjv": "Neither shalt thou swear by thy head, because thou canst not make one hair white or black.",
+      "rendering": "Neither shalt you swear by your own head, because you canst not turn a single hair white or black.",
+      "translator_notes": [
+        "The climactic point: you cannot even swear by your own head because you do not have sovereignty over your own body. The inability to change the color of a hair demonstrates human limitations — even the self belongs to God. This strips away every possible basis for oath-making and drives the listener to the simple alternative of verse 37."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 37,
+      "text_greek": "ἔστω δὲ ὁ λόγος ὑμῶν ναὶ ναί, οὒ οὔ· τὸ δὲ περισσὸν τούτων ἐκ τοῦ πονηροῦ ἐστιν.",
+      "text_kjv": "But let your communication be, Yea, yea; Nay, nay: for whatsoever is more than these cometh of evil.",
+      "rendering": "Let your 'Yes' be 'Yes' and your 'No' be 'No.' Anything beyond this comes from the evil one.",
+      "translator_notes": [
+        "The doubled nai nai, ou ou ('yes yes, no no') emphasizes simplicity and reliability. The Greek ek tou ponērou can mean either 'from evil' (abstract) or 'from the evil one' (personal) — the ambiguity is present in the Greek and we follow the personal reading since Matthew elsewhere uses ho ponēros for Satan (13:19, 38). The principle is that truthful people do not need oaths — their word alone is sufficient."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 38,
+      "text_greek": "Ἠκούσατε ὅτι ἐρρέθη· Ὀφθαλμὸν ἀντὶ ὀφθαλμοῦ καὶ ὀδόντα ἀντὶ ὀδόντος.",
+      "text_kjv": "Ye have heard that it hath been said, An eye for an eye, and a tooth for a tooth:",
+      "rendering": "You have heard that it was said, 'An eye for an eye and a tooth for a tooth.'",
+      "translator_notes": [
+        "The fifth antithesis cites the lex talionis ('law of retaliation') from Exodus 21:24, Leviticus 24:20, and Deuteronomy 19:21. In its original context, this law was a limitation on vengeance — it prevented disproportionate retaliation by requiring that punishment match the offense exactly. By the first century, the rabbis had already largely replaced literal application with monetary compensation.",
+        "[TCR Cross-Reference] References Exodus 21:24 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved.",
+        "[TCR Cross-Reference] References Leviticus 24:20 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved.",
+        "[TCR Cross-Reference] References Deuteronomy 19:21 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 39,
+      "text_greek": "ἐγὼ δὲ λέγω ὑμῖν μὴ ἀντιστῆναι τῷ πονηρῷ· ἀλλ' ὅστις σε ῥαπίζει εἰς τὴν δεξιὰν σιαγόνα σου, στρέψον αὐτῷ καὶ τὴν ἄλλην·",
+      "text_kjv": "But I say unto you, That ye resist not evil: but whosoever shall smite thee on thy right cheek, turn to him the other also.",
+      "rendering": "But I say to you, do not resist the evildoer. If someone strikes you on the right cheek, turn the other to him as well.",
+      "translator_notes": [
+        "The Greek mē antistēnai tō ponērō ('do not resist the evil one/evildoer') sets up four illustrations of non-retaliation. A strike on the right cheek (rhapizei eis tēn dexian siagona) with a right hand would be a backhanded slap — an insult, not an attack. This was a gesture of contempt in the ancient world. Turning the other cheek is not passive submission but a refusal to be defined by the insult, forcing the aggressor to either treat you as an equal or back down."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 40,
+      "text_greek": "καὶ τῷ θέλοντί σοι κριθῆναι καὶ τὸν χιτῶνά σου λαβεῖν, ἄφες αὐτῷ καὶ τὸ ἱμάτιον·",
+      "text_kjv": "And if any man will sue thee at the law, and take away thy coat, let him have thy cloke also.",
+      "rendering": "If someone wants to sue you and take your tunic, let him have your cloak as well.",
+      "translator_notes": [
+        "The Greek chitōna ('tunic, undergarment') was the inner garment; the himation ('cloak, outer garment') was the more valuable outer wrap that also served as a blanket at night. Under Exodus 22:26-27, a creditor could take a debtor's cloak as collateral but had to return it by nightfall. Jesus says to give it voluntarily — a radical generosity that exposes the absurdity of litigious greed.",
+        "[TCR Cross-Reference] This verse quotes Exodus 22:26-27 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 41,
+      "text_greek": "καὶ ὅστις σε ἀγγαρεύσει μίλιον ἕν, ὕπαγε μετ' αὐτοῦ δύο.",
+      "text_kjv": "And whosoever shall compel thee to go a mile, go with him twain.",
+      "rendering": "If someone forces you to go one mile, go with him two miles.",
+      "translator_notes": [
+        "The Greek angareusei ('to press into service, to requisition') is a Persian loanword for the power of a government official to compel a civilian to carry a load or provide labor. Roman soldiers had the legal right to conscript locals to carry equipment for one Roman mile (approximately 1,000 paces or 4,850 feet). The instruction to go a second mile transforms compelled service into voluntary generosity."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 42,
+      "text_greek": "τῷ αἰτοῦντί σε δός, καὶ τὸν θέλοντα ἀπὸ σοῦ δανίσασθαι μὴ ἀποστραφῇς.",
+      "text_kjv": "Give to him that asketh thee, and from him that would borrow of thee turn not thou away.",
+      "rendering": "Give to the one who asks you, and do not turn away from the one who wants to borrow from you.",
+      "translator_notes": [
+        "The two commands cover giving (dos, 'give') and lending (danisasthai, 'to borrow'). The Greek mē apostraphēs ('do not turn away') echoes Deuteronomy 15:7-8, which warns against hardening your heart or closing your hand against a poor brother. The instruction is not about financial naivety but about a disposition of open-handed generosity that refuses to calculate advantage.",
+        "[TCR Cross-Reference] Draws on Deuteronomy 15:7-8. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 43,
+      "text_greek": "Ἠκούσατε ὅτι ἐρρέθη· Ἀγαπήσεις τὸν πλησίον σου καὶ μισήσεις τὸν ἐχθρόν σου.",
+      "text_kjv": "Ye have heard that it hath been said, Thou shalt love thy neighbour, and hate thine enemy.",
+      "rendering": "You have heard that it was said, 'You shall love your neighbor and hate your enemy.'",
+      "translator_notes": [
+        "The sixth and final antithesis. 'Love your neighbor' comes from Leviticus 19:18, but 'hate your enemy' is not a direct Torah quotation. It may reflect a popular interpretation, a Qumran-type ideology (the Dead Sea Scrolls' Rule of the Community mandates loving the sons of light and hating the sons of darkness), or a logical inference drawn from the limitation of 'neighbor' to fellow Israelites.",
+        "[TCR Cross-Reference] References Leviticus 19:18 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 44,
+      "text_greek": "ἐγὼ δὲ λέγω ὑμῖν· ἀγαπᾶτε τοὺς ἐχθροὺς ὑμῶν καὶ προσεύχεσθε ὑπὲρ τῶν διωκόντων ὑμᾶς,",
+      "text_kjv": "But I say unto you, Love your enemies, bless them that curse you, do good to them that hate you, and pray for them which despitefully use you, and persecute you;",
+      "rendering": "But I say to you, love your enemies and pray for those who persecute you,",
+      "translator_notes": [
+        "The SBLGNT has the shorter reading without 'bless those who curse you, do good to those who hate you' — these expansions appear in later manuscripts under the influence of Luke 6:27-28. We follow the critical text. The Greek agapate ('love') is the present imperative, commanding a habitual pattern of life, not a single act. The love commanded (agapē) is not emotional affection but willed, active commitment to the well-being of the other — including those who actively harm you."
+      ],
+      "key_terms": [
+        {
+          "greek": "ἀγαπάω",
+          "transliteration": "agapaō",
+          "rendered_as": "love",
+          "semantic_range": "to love, to value, to show devoted concern for",
+          "note": "The verb corresponding to the noun agapē. In this context it describes a love that is chosen and enacted regardless of the recipient's worthiness or response — a love modeled on God's own character (v. 45)."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 45,
+      "text_greek": "ὅπως γένησθε υἱοὶ τοῦ πατρὸς ὑμῶν τοῦ ἐν οὐρανοῖς, ὅτι τὸν ἥλιον αὐτοῦ ἀνατέλλει ἐπὶ πονηροὺς καὶ ἀγαθοὺς καὶ βρέχει ἐπὶ δικαίους καὶ ἀδίκους.",
+      "text_kjv": "That ye may be the children of your Father which is in heaven: for he maketh his sun to rise on the evil and on the good, and sendeth rain on the just and on the unjust.",
+      "rendering": "So you can become true children of your Father which is in heaven — since he makes his sun rise on both evil people and good people, and sends rain on the just and on the unjust.",
+      "translator_notes": [
+        "The logic is breathtaking: God's indiscriminate generosity with sun and rain becomes the model for human love. The Father does not withhold creation's blessings from evildoers — his goodness extends to all. To be 'sons of your Father' (huioi tou patros hymōn) means to share his character. The pairing of 'evil and good' with 'righteous and unrighteous' (dikaious kai adikous) covers the entire moral spectrum — God's provision is universal."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 46,
+      "text_greek": "ἐὰν γὰρ ἀγαπήσητε τοὺς ἀγαπῶντας ὑμᾶς, τίνα μισθὸν ἔχετε; οὐχὶ καὶ οἱ τελῶναι τὸ αὐτὸ ποιοῦσιν;",
+      "text_kjv": "For if ye love them which love you, what reward have ye? do not even the publicans the same?",
+      "rendering": "For if you love those who love you, what reward do you have? Do not even the tax collectors do the same?",
+      "translator_notes": [
+        "The Greek telōnai ('tax collectors') were Jews who collected taxes or tolls on behalf of the Roman government. They were despised as collaborators and assumed to be corrupt (since they often charged above the required amount). Jesus's argument is comparative: if your love extends only to those who love you back, you are no different from the most despised members of society. Even they manage reciprocal affection."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 47,
+      "text_greek": "καὶ ἐὰν ἀσπάσησθε τοὺς ἀδελφοὺς ὑμῶν μόνον, τί περισσὸν ποιεῖτε; οὐχὶ καὶ οἱ ἐθνικοὶ τὸ αὐτὸ ποιοῦσιν;",
+      "text_kjv": "And if ye salute your brethren only, what do ye more than others? do not even the publicans so?",
+      "rendering": "And if you greet only your brothers, what are you doing more than others? Do not even the Gentiles do the same?",
+      "translator_notes": [
+        "The SBLGNT reads ethnikoi ('Gentiles, pagans') rather than telōnai ('tax collectors') found in some manuscripts. The greeting (aspasēsthe) in the ancient Near East was more than a casual hello — it involved a blessing, an inquiry about welfare, and could include an embrace or kiss. To limit greetings to 'brothers' (adelphous, meaning fellow community members) was tribal exclusivism. The rhetorical question 'what are you doing more than others?' (ti perisson poieite) challenges disciples to exceed the normal human pattern."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 48,
+      "text_greek": "ἔσεσθε οὖν ὑμεῖς τέλειοι ὡς ὁ πατὴρ ὑμῶν ὁ οὐράνιος τέλειός ἐστιν.",
+      "text_kjv": "Be ye therefore perfect, even as your Father which is in heaven is perfect.",
+      "rendering": "You therefore must be perfect, as your heavenly Father is perfect.\"",
+      "translator_notes": [
+        "The Greek teleioi ('perfect, complete, mature, whole') does not mean sinless moral perfection in the modern sense. It comes from the root telos ('end, goal, completion') and means 'whole, complete, having reached the intended goal.' In context, it means loving completely — without the partial, self-serving limitations exposed in verses 46-47. Luke's parallel (6:36) has 'be merciful' (oiktirmones), which may illuminate Matthew's 'perfect': wholeness of love that embraces even enemies. The future indicative esesthe ('you will be') can function as an imperative in Greek."
+      ],
+      "key_terms": [
+        {
+          "greek": "τέλειος",
+          "transliteration": "teleios",
+          "rendered_as": "perfect",
+          "semantic_range": "perfect, complete, mature, whole, having reached the goal",
+          "note": "From telos ('end, goal'). The Septuagint uses teleios to translate the Hebrew tamim ('blameless, whole, complete'), as in 'Noah was a righteous man, tamim in his generation' (Genesis 6:9). The command is to wholehearted, undivided devotion — not to an impossible standard of sinless behavior."
+        }
+      ],
+      "reading_level": "8th grade"
+    }
+  ]
+}

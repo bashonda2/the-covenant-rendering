@@ -1,0 +1,360 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Matthew",
+    "chapter": 1,
+    "source_text": "SBL Greek New Testament (SBLGNT)",
+    "reference_text": "KJV",
+    "generated_at": "2026-04-04T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Matthew 1 opens with a genealogy tracing Jesus's lineage from Abraham through David to Joseph, establishing Jesus as heir to both the Abrahamic covenant and the Davidic throne. The genealogy is structured in three groups of fourteen generations, spanning the patriarchal era, the monarchy, and the exile-to-Messiah period. The chapter then narrates the circumstances of Jesus's birth: Joseph discovers Mary is pregnant, resolves to divorce her quietly, but an angel appears in a dream explaining that the child is from the Holy Spirit. Joseph obeys and takes Mary as his wife, and the child is named Jesus — 'for he will save his people from their sins.'",
+    "remarkable": "Matthew's genealogy is theologically structured rather than merely historical. The three sets of fourteen generations (Abraham to David, David to exile, exile to Christ) create a deliberate pattern that may reference the numerical value of David's name in Hebrew (d-v-d = 4+6+4 = 14). Four women are included — Tamar, Rahab, Ruth, and Bathsheba ('the wife of Uriah') — each with irregular or scandalous circumstances, preparing the reader for Mary's own unexpected pregnancy. The fulfillment quotation from Isaiah 7:14 introduces Matthew's distinctive pattern of citing Hebrew Scripture as fulfilled in Jesus. The Greek parthenos ('virgin') translates the Hebrew almah ('young woman'), a translation choice already made by the Septuagint that Matthew adopts and applies to Mary.",
+    "friction": "The genealogy contains well-known discrepancies with Old Testament records and Luke's genealogy. We render the Greek as given without harmonizing. The name Ἰησοῦς (Iesous) is the Greek form of the Hebrew Yeshua/Yehoshua ('the LORD saves'), and the angel's explanation in verse 21 depends on this etymology. We transliterate Greek terms in key_terms entries using standard conventions. The phrase 'before they came together' (v. 18) is a Greek euphemism for sexual union, which we render transparently.",
+    "connections": "The genealogy connects to Genesis 12 (Abrahamic covenant), 2 Samuel 7 (Davidic covenant), and the exile narratives of 2 Kings 24-25. The Isaiah 7:14 quotation establishes Matthew's fulfillment theology that runs through the entire Gospel. The naming of Jesus connects to the Hebrew salvation vocabulary (yeshuah) central to the Old Testament. Joseph's dream-revelation anticipates the pattern of divine dreams in chapter 2.\n\n**Tradition comparisons:** The Latin Vulgate shaped Western theology here: Iesum...salvum faciet (Jesus...shall save) preserves the name-etymology connection: Iesus from Hebrew Yeshua (salvation). Salvum faciet (shall make safe/save) established the Latin salvation vocabular... (2 notable Vulgate renderings in this chapter) See the [Vulgate Matthew](/vulgate/matthew)."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_greek": "Βίβλος γενέσεως Ἰησοῦ Χριστοῦ υἱοῦ Δαυὶδ υἱοῦ Ἀβραάμ.",
+      "text_kjv": "The book of the generation of Jesus Christ, the son of David, the son of Abraham.",
+      "rendering": "The record of the genealogy of Jesus Christ, son of David, son of Abraham:",
+      "translator_notes": [
+        "The Greek biblos geneseos ('book of genesis/origin') echoes Genesis 2:4 and 5:1 in the Septuagint, signaling that Matthew views Jesus's arrival as a new act of creation. 'Generation' in the KJV is misleading in modern English; 'genealogy' captures the Greek sense of a record of origins.",
+        "Both 'son of David' and 'son of Abraham' are theological claims, not merely genealogical ones — Jesus is heir to David's throne and to Abraham's covenant promise.",
+        "[TCR Cross-Reference] Quotes Genesis 2:4. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it."
+      ],
+      "key_terms": [
+        {
+          "greek": "Χριστός",
+          "transliteration": "Christos",
+          "rendered_as": "Christ",
+          "semantic_range": "anointed one, Messiah, Christ",
+          "note": "The Greek translation of the Hebrew mashiach ('anointed one'). By the first century, it had become a title for the expected Davidic king who would restore Israel."
+        },
+        {
+          "greek": "γένεσις",
+          "transliteration": "genesis",
+          "rendered_as": "genealogy",
+          "semantic_range": "origin, birth, genealogy, beginning, creation",
+          "note": "The word deliberately echoes the Greek title of the first book of the Bible. Matthew frames Jesus's story as a new beginning."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 2,
+      "text_greek": "Ἀβραὰμ ἐγέννησεν τὸν Ἰσαάκ, Ἰσαὰκ δὲ ἐγέννησεν τὸν Ἰακώβ, Ἰακὼβ δὲ ἐγέννησεν τὸν Ἰούδαν καὶ τοὺς ἀδελφοὺς αὐτοῦ,",
+      "text_kjv": "Abraham begat Isaac; and Isaac begat Jacob; and Jacob begat Judas and his brethren;",
+      "rendering": "Abraham fathered Isaac, Isaac fathered Jacob, and Jacob fathered Judah and his brothers.",
+      "translator_notes": [
+        "The Greek egennesen ('fathered, begot') is rendered consistently as 'fathered' throughout the genealogy rather than the archaic 'begat.' The name Ioudas is rendered 'Judah' (the patriarch) rather than 'Judas' (the later form), since this refers to the Old Testament figure."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 3,
+      "text_greek": "Ἰούδας δὲ ἐγέννησεν τὸν Φαρὲς καὶ τὸν Ζαρὰ ἐκ τῆς Θαμάρ, Φαρὲς δὲ ἐγέννησεν τὸν Ἑσρώμ, Ἑσρὼμ δὲ ἐγέννησεν τὸν Ἀράμ,",
+      "text_kjv": "And Judas begat Phares and Zara of Thamar; and Phares begat Esrom; and Esrom begat Aram;",
+      "rendering": "Judah fathered Perez and Zerah by Tamar, Perez fathered Hezron, and Hezron fathered Ram.",
+      "translator_notes": [
+        "Tamar is the first of four women named in the genealogy. Her story (Genesis 38) involves deception and a levirate-like union with Judah — an irregular beginning that Matthew includes deliberately. The mention of women in an ancient genealogy is unusual and theologically purposeful.",
+        "[TCR Cross-Reference] References Genesis 38 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 4,
+      "text_greek": "Ἀρὰμ δὲ ἐγέννησεν τὸν Ἀμιναδάβ, Ἀμιναδὰβ δὲ ἐγέννησεν τὸν Ναασσών, Ναασσὼν δὲ ἐγέννησεν τὸν Σαλμών,",
+      "text_kjv": "And Aram begat Aminadab; and Aminadab begat Naasson; and Naasson begat Salmon;",
+      "rendering": "Ram fathered Amminadab, Amminadab fathered Nahshon, and Nahshon fathered Salmon.",
+      "translator_notes": [
+        "Nahshon was the leader of the tribe of Judah during the wilderness period (Numbers 1:7, 2:3). His inclusion reinforces the Judahite royal lineage.",
+        "[TCR Cross-Reference] Echoes Numbers 1:7. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 5,
+      "text_greek": "Σαλμὼν δὲ ἐγέννησεν τὸν Βοὲς ἐκ τῆς Ῥαχάβ, Βοὲς δὲ ἐγέννησεν τὸν Ἰωβὴδ ἐκ τῆς Ῥούθ, Ἰωβὴδ δὲ ἐγέννησεν τὸν Ἰεσσαί,",
+      "text_kjv": "And Salmon begat Booz of Rachab; and Booz begat Obed of Ruth; and Obed begat Jesse;",
+      "rendering": "Salmon fathered Boaz by Rahab, Boaz fathered Obed by Ruth, and Obed fathered Jesse.",
+      "translator_notes": [
+        "Rahab and Ruth are the second and third women in the genealogy. Rahab was a Canaanite prostitute from Jericho (Joshua 2); Ruth was a Moabite widow (Ruth 1). Both are Gentile women whose inclusion foreshadows the Gospel's universal scope. The traditional identification of this Rahab with the Jericho Rahab is assumed by Matthew though not explicit in Old Testament genealogies.",
+        "[TCR Cross-Reference] This verse quotes Joshua 2 — see the TCR rendering of that passage for the Hebrew source text and translation decisions.",
+        "[TCR Cross-Reference] This verse quotes Ruth 1 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 6,
+      "text_greek": "Ἰεσσαὶ δὲ ἐγέννησεν τὸν Δαυὶδ τὸν βασιλέα. Δαυὶδ δὲ ἐγέννησεν τὸν Σολομῶνα ἐκ τῆς τοῦ Οὐρίου,",
+      "text_kjv": "And Jesse begat David the king; and David the king begat Solomon of her that had been the wife of Urias;",
+      "rendering": "Jesse fathered David the king. David fathered Solomon by the wife of Uriah.",
+      "translator_notes": [
+        "Matthew pointedly refuses to name Bathsheba, calling her 'the wife of Uriah' — a phrase that keeps Uriah's wrongful death in view. This is the fourth woman in the genealogy, and the most politically charged. David is the only figure given the title 'the king' (ton basilea), marking the genealogy's structural midpoint."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 7,
+      "text_greek": "Σολομὼν δὲ ἐγέννησεν τὸν Ῥοβοάμ, Ῥοβοὰμ δὲ ἐγέννησεν τὸν Ἀβιά, Ἀβιὰ δὲ ἐγέννησεν τὸν Ἀσάφ,",
+      "text_kjv": "And Solomon begat Roboam; and Roboam begat Abia; and Abia begat Asa;",
+      "rendering": "Solomon fathered Rehoboam, Rehoboam fathered Abijah, and Abijah fathered Asaph.",
+      "translator_notes": [
+        "The SBLGNT reads 'Asaph' rather than 'Asa,' which may reflect a scribal identification of the king with the psalmist Asaph, or may be a textual variant. We follow the SBLGNT reading."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 8,
+      "text_greek": "Ἀσὰφ δὲ ἐγέννησεν τὸν Ἰωσαφάτ, Ἰωσαφὰτ δὲ ἐγέννησεν τὸν Ἰωράμ, Ἰωρὰμ δὲ ἐγέννησεν τὸν Ὀζίαν,",
+      "text_kjv": "And Asa begat Josaphat; and Josaphat begat Joram; and Joram begat Ozias;",
+      "rendering": "Asaph fathered Jehoshaphat, Jehoshaphat fathered Joram, and Joram fathered Uzziah.",
+      "translator_notes": [
+        "Three kings are omitted between Joram and Uzziah: Ahaziah, Joash, and Amaziah (cf. 1 Chronicles 3:11-12). Matthew's genealogy is telescoped to achieve the fourteen-generation structure, a common practice in ancient Near Eastern genealogies.",
+        "[TCR Cross-Reference] References 1 Chronicles 3:11-12 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 9,
+      "text_greek": "Ὀζίας δὲ ἐγέννησεν τὸν Ἰωαθάμ, Ἰωαθὰμ δὲ ἐγέννησεν τὸν Ἀχάζ, Ἀχὰζ δὲ ἐγέννησεν τὸν Ἑζεκίαν,",
+      "text_kjv": "And Ozias begat Joatham; and Joatham begat Achaz; and Achaz begat Ezekias;",
+      "rendering": "Uzziah fathered Jotham, Jotham fathered Ahaz, and Ahaz fathered Hezekiah.",
+      "translator_notes": [
+        "These names follow the standard English forms from the Old Testament rather than the Greek transliterations. Ahaz and Hezekiah represent a dramatic father-son contrast in the Kings narrative — Ahaz was one of Judah's worst kings, Hezekiah one of its best."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 10,
+      "text_greek": "Ἑζεκίας δὲ ἐγέννησεν τὸν Μανασσῆ, Μανασσῆς δὲ ἐγέννησεν τὸν Ἀμώς, Ἀμὼς δὲ ἐγέννησεν τὸν Ἰωσίαν,",
+      "text_kjv": "And Ezekias begat Manasses; and Manasses begat Amon; and Amon begat Josias;",
+      "rendering": "Hezekiah fathered Manasseh, Manasseh fathered Amos, and Amos fathered Josiah.",
+      "translator_notes": [
+        "The SBLGNT reads 'Amos' rather than 'Amon,' which may reflect a scribal confusion with the prophet Amos, or may be an intentional variant. We follow the SBLGNT. In the Old Testament record, Amon/Amos reigned only two years before being assassinated (2 Kings 21:19-26).",
+        "[TCR Cross-Reference] This verse quotes 2 Kings 21:19-26 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 11,
+      "text_greek": "Ἰωσίας δὲ ἐγέννησεν τὸν Ἰεχονίαν καὶ τοὺς ἀδελφοὺς αὐτοῦ ἐπὶ τῆς μετοικεσίας Βαβυλῶνος.",
+      "text_kjv": "And Josias begat Jechonias and his brethren, about the time they were carried away to Babylon:",
+      "rendering": "Josiah fathered Jeconiah and his brothers, at the time of the deportation to Babylon.",
+      "translator_notes": [
+        "The Greek metoikesias ('deportation, removal, exile') refers to the Babylonian exile of 586 BC. Jeconiah (also called Jehoiachin) was the last king before the exile. Historically, Josiah was Jeconiah's grandfather, not his father — Jehoiakim is skipped, another instance of Matthew's telescoping."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 12,
+      "text_greek": "Μετὰ δὲ τὴν μετοικεσίαν Βαβυλῶνος Ἰεχονίας ἐγέννησεν τὸν Σαλαθιήλ, Σαλαθιὴλ δὲ ἐγέννησεν τὸν Ζοροβαβέλ,",
+      "text_kjv": "And after they were brought to Babylon, Jechonias begat Salathiel; and Salathiel begat Zorobabel;",
+      "rendering": "After the deportation to Babylon, Jeconiah fathered Shealtiel, and Shealtiel fathered Zerubbabel.",
+      "translator_notes": [
+        "Zerubbabel led the first return from exile and oversaw the rebuilding of the temple (Ezra 3-6). His inclusion connects Jesus to the post-exilic restoration hope. The lineage from this point forward is less well attested in Old Testament records.",
+        "[TCR Cross-Reference] Draws on Ezra 3-6. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 13,
+      "text_greek": "Ζοροβαβὲλ δὲ ἐγέννησεν τὸν Ἀβιούδ, Ἀβιοὺδ δὲ ἐγέννησεν τὸν Ἐλιακίμ, Ἐλιακὶμ δὲ ἐγέννησεν τὸν Ἀζώρ,",
+      "text_kjv": "And Zorobabel begat Abiud; and Abiud begat Eliakim; and Eliakim begat Azor;",
+      "rendering": "Zerubbabel fathered Abiud, Abiud fathered Eliakim, and Eliakim fathered Azor.",
+      "translator_notes": [
+        "From Abiud onward, the names in Matthew's genealogy do not appear in Old Testament records. These represent the intertestamental period for which Matthew had access to sources no longer extant."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 14,
+      "text_greek": "Ἀζὼρ δὲ ἐγέννησεν τὸν Σαδώκ, Σαδὼκ δὲ ἐγέννησεν τὸν Ἀχίμ, Ἀχὶμ δὲ ἐγέννησεν τὸν Ἐλιούδ,",
+      "text_kjv": "And Azor begat Sadoc; and Sadoc begat Achim; and Achim begat Eliud;",
+      "rendering": "Azor fathered Zadok, Zadok fathered Achim, and Achim fathered Eliud.",
+      "translator_notes": [
+        "The name Zadok (Sadok) recalls the famous high priest of David's era (2 Samuel 8:17), though this is a different individual. The priestly resonance may be intentional within Matthew's genealogical design.",
+        "[TCR Cross-Reference] Echoes 2 Samuel 8:17. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 15,
+      "text_greek": "Ἐλιοὺδ δὲ ἐγέννησεν τὸν Ἐλεάζαρ, Ἐλεάζαρ δὲ ἐγέννησεν τὸν Ματθάν, Ματθὰν δὲ ἐγέννησεν τὸν Ἰακώβ,",
+      "text_kjv": "And Eliud begat Eleazar; and Eleazar begat Matthan; and Matthan begat Jacob;",
+      "rendering": "Eliud fathered Eleazar, Eleazar fathered Matthan, and Matthan fathered Jacob.",
+      "translator_notes": [
+        "The name Eleazar recalls Aaron's son and successor as high priest (Numbers 20:28). Matthan is a shortened form related to Mattaniah ('gift of the LORD'). These final pre-Joseph names carry priestly and theophoric resonances.",
+        "[TCR Cross-Reference] This verse quotes Numbers 20:28 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 16,
+      "text_greek": "Ἰακὼβ δὲ ἐγέννησεν τὸν Ἰωσὴφ τὸν ἄνδρα Μαρίας, ἐξ ἧς ἐγεννήθη Ἰησοῦς ὁ λεγόμενος Χριστός.",
+      "text_kjv": "And Jacob begat Joseph the husband of Mary, of whom was born Jesus, who is called Christ.",
+      "rendering": "Jacob fathered Joseph, the husband of Mary, from whom Jesus was born — the one called Christ.",
+      "translator_notes": [
+        "The grammatical shift is decisive: every previous entry uses the active 'fathered' (egennesen), but here the passive egennethee ('was born') replaces it. Joseph does not 'father' Jesus; Jesus 'was born from' Mary. The relative pronoun 'from whom' (ex hes) is feminine singular, referring to Mary alone. Matthew's grammar carefully preserves the virgin birth claim while maintaining Joseph's legal paternity through the Davidic line."
+      ],
+      "key_terms": [
+        {
+          "greek": "Χριστός",
+          "transliteration": "Christos",
+          "rendered_as": "Christ",
+          "semantic_range": "anointed one, Messiah, Christ",
+          "note": "Here used with the article and the participle legomenos ('called, known as'), indicating that 'Christ' functions as a recognized title, not merely a name."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 17,
+      "text_greek": "Πᾶσαι οὖν αἱ γενεαὶ ἀπὸ Ἀβραὰμ ἕως Δαυὶδ γενεαὶ δεκατέσσαρες, καὶ ἀπὸ Δαυὶδ ἕως τῆς μετοικεσίας Βαβυλῶνος γενεαὶ δεκατέσσαρες, καὶ ἀπὸ τῆς μετοικεσίας Βαβυλῶνος ἕως τοῦ Χριστοῦ γενεαὶ δεκατέσσαρες.",
+      "text_kjv": "So all the generations from Abraham to David are fourteen generations; and from David until the carrying away into Babylon are fourteen generations; and from the carrying away into Babylon unto Christ are fourteen generations.",
+      "rendering": "So all the generations from Abraham to David are fourteen generations, from David to the deportation to Babylon are fourteen generations, and from the deportation to Babylon to the Christ are fourteen generations.",
+      "translator_notes": [
+        "The threefold repetition of 'fourteen generations' (dekatessares geneai) is Matthew's structural key. The number fourteen may relate to the numerical value of David's name in Hebrew (dalet-vav-dalet = 4+6+4 = 14), making the entire genealogy a numerical proclamation that Jesus is David's heir. The actual count requires some flexibility — the third section has only thirteen names as listed — which confirms that the scheme is theological rather than strictly mathematical."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 18,
+      "text_greek": "Τοῦ δὲ Ἰησοῦ Χριστοῦ ἡ γένεσις οὕτως ἦν. μνηστευθείσης τῆς μητρὸς αὐτοῦ Μαρίας τῷ Ἰωσήφ, πρὶν ἢ συνελθεῖν αὐτοὺς εὑρέθη ἐν γαστρὶ ἔχουσα ἐκ πνεύματος ἁγίου.",
+      "text_kjv": "Now the birth of Jesus Christ was on this wise: When as his mother Mary was espoused to Joseph, before they came together, she was found with child of the Holy Ghost.",
+      "rendering": "Now the birth of Jesus Christ came about in this way. His mother Mary had been pledged in marriage to Joseph, but before they came together, she was found to be pregnant through the Holy Spirit.",
+      "translator_notes": [
+        "The word genesis here means 'birth' or 'origin,' echoing verse 1. The phrase 'pledged in marriage' (mneesteuthesees) indicates a formal betrothal that was legally binding in Jewish practice — more than modern engagement but prior to cohabitation. 'Before they came together' (prin ee synelthein) is a euphemism for sexual union. The phrase ek pneumatos hagiou ('from the Holy Spirit') attributes the conception directly to divine agency."
+      ],
+      "key_terms": [
+        {
+          "greek": "πνεῦμα ἅγιον",
+          "transliteration": "pneuma hagion",
+          "rendered_as": "Holy Spirit",
+          "semantic_range": "spirit, wind, breath; when modified by hagion: Holy Spirit, the Spirit of God",
+          "note": "The Greek pneuma corresponds to the Hebrew ruach. Here it denotes the direct agency of God in the conception, not an impersonal force."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 19,
+      "text_greek": "Ἰωσὴφ δὲ ὁ ἀνὴρ αὐτῆς, δίκαιος ὢν καὶ μὴ θέλων αὐτὴν δειγματίσαι, ἐβουλήθη λάθρᾳ ἀπολῦσαι αὐτήν.",
+      "text_kjv": "Then Joseph her husband, being a just man, and not willing to make her a publick example, was minded to put her away privily.",
+      "rendering": "Joseph, her husband, was a righteous man and did not want to disgrace her publicly, so he resolved to divorce her quietly.",
+      "translator_notes": [
+        "The Greek dikaios ('righteous, just') is the same word used for covenant faithfulness throughout the Septuagint. Joseph's righteousness manifests not in strict legal enforcement but in mercy — he could have exposed Mary to public shame and legal penalty, but chose discretion. The verb apolusai ('to release, divorce') confirms that betrothal carried the legal weight of marriage."
+      ],
+      "key_terms": [
+        {
+          "greek": "δίκαιος",
+          "transliteration": "dikaios",
+          "rendered_as": "righteous",
+          "semantic_range": "righteous, just, upright, in right standing",
+          "note": "The adjective form of dikaiosyne ('righteousness'). Joseph's righteousness is demonstrated through compassion rather than rigid legalism — a model of the righteousness Jesus will later teach in the Sermon on the Mount."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 20,
+      "text_greek": "ταῦτα δὲ αὐτοῦ ἐνθυμηθέντος ἰδοὺ ἄγγελος κυρίου κατ' ὄναρ ἐφάνη αὐτῷ λέγων· Ἰωσὴφ υἱὸς Δαυίδ, μὴ φοβηθῇς παραλαβεῖν Μαρίαν τὴν γυναῖκά σου· τὸ γὰρ ἐν αὐτῇ γεννηθὲν ἐκ πνεύματός ἐστιν ἁγίου.",
+      "text_kjv": "But while he thought on these things, behold, the angel of the Lord appeared unto him in a dream, saying, Joseph, thou son of David, fear not to take unto thee Mary thy wife: for that which is conceived in her is of the Holy Ghost.",
+      "rendering": "But while he was considering this, an angel of the Lord appeared to him in a dream, saying, \"Joseph, son of David, do not be afraid to take Mary as your wife, for what has been conceived in her is from the Holy Spirit.",
+      "translator_notes": [
+        "The address 'son of David' (huios Dauid) is significant — the angel reminds Joseph of his royal lineage precisely at the moment when he is about to sever the legal connection between that lineage and the child. The Greek angelos kyriou ('angel of the Lord') echoes the Hebrew malak YHWH of the Old Testament theophanies. Dreams as vehicles of divine revelation connect Joseph to his Old Testament namesake (Genesis 37, 40-41).",
+        "[TCR Cross-Reference] This verse quotes Genesis 37 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 21,
+      "text_greek": "τέξεται δὲ υἱόν, καὶ καλέσεις τὸ ὄνομα αὐτοῦ Ἰησοῦν· αὐτὸς γὰρ σώσει τὸν λαὸν αὐτοῦ ἀπὸ τῶν ἁμαρτιῶν αὐτῶν.",
+      "text_kjv": "And she shall bring forth a son, and thou shalt call his name JESUS: for he shall save his people from their sins.",
+      "rendering": "She will give birth to a son, and you are to name him Jesus, for he will save his people from their sins.\"",
+      "translator_notes": [
+        "The name Iesous (Ἰησοῦς) is the Greek form of the Hebrew Yeshua/Yehoshua, meaning 'the LORD saves' or 'the LORD is salvation.' The angel's explanation — 'for he will save (sosei) his people' — is a direct etymology of the name. The command to Joseph to name the child establishes his legal paternity and thus the Davidic succession."
+      ],
+      "key_terms": [
+        {
+          "greek": "Ἰησοῦς",
+          "transliteration": "Iesous",
+          "rendered_as": "Jesus",
+          "semantic_range": "Jesus; Greek form of Hebrew Yeshua/Yehoshua ('the LORD saves')",
+          "note": "The angel's wordplay depends on the Hebrew etymology: the name itself declares that salvation comes from the LORD. By naming the child, Joseph adopts him into the Davidic line."
+        },
+        {
+          "greek": "ἁμαρτία",
+          "transliteration": "hamartia",
+          "rendered_as": "sins",
+          "semantic_range": "sin, missing the mark, failure, offense",
+          "note": "Corresponds to the Hebrew chatta't. The salvation announced here is not political liberation (as many expected of the Messiah) but deliverance from sin."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 22,
+      "text_greek": "τοῦτο δὲ ὅλον γέγονεν ἵνα πληρωθῇ τὸ ῥηθὲν ὑπὸ κυρίου διὰ τοῦ προφήτου λέγοντος·",
+      "text_kjv": "Now all this was done, that it might be fulfilled which was spoken of the Lord by the prophet, saying,",
+      "rendering": "All this took place to fulfill what was spoken by the Lord through the prophet:",
+      "translator_notes": [
+        "This is the first of Matthew's fulfillment formulas (a pattern repeated throughout the Gospel: 2:15, 2:17, 2:23, 4:14, 8:17, 12:17, 13:35, 21:4, 27:9). The passive pleerothee ('might be fulfilled') indicates divine purpose — the events did not merely happen to coincide with prophecy but occurred in order to fulfill it."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 23,
+      "text_greek": "Ἰδοὺ ἡ παρθένος ἐν γαστρὶ ἕξει καὶ τέξεται υἱόν, καὶ καλέσουσιν τὸ ὄνομα αὐτοῦ Ἐμμανουήλ, ὅ ἐστιν μεθερμηνευόμενον Μεθ' ἡμῶν ὁ θεός.",
+      "text_kjv": "Behold, a virgin shall be with child, and shall bring forth a son, and they shall call his name Emmanuel, which being interpreted is, God with us.",
+      "rendering": "\"Look, the virgin will conceive and give birth to a son, and they will call his name Emmanuel\" — which means, \"God with us.\"",
+      "translator_notes": [
+        "Matthew quotes Isaiah 7:14 from the Septuagint, which uses parthenos ('virgin') to translate the Hebrew almah ('young woman of marriageable age'). The Hebrew term does not inherently mean 'virgin' (the specific Hebrew word for virgin is bethulah), but the Septuagint translators chose parthenos, and Matthew adopts this reading as prophetically significant. 'Emmanuel' (Hebrew Immanu-El, 'God with us') becomes a theological declaration — God's presence embodied in this child. Matthew bookends his Gospel with this theme (cf. 28:20, 'I am with you always').",
+        "[TCR Cross-Reference] References Isaiah 7:14 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "key_terms": [
+        {
+          "greek": "παρθένος",
+          "transliteration": "parthenos",
+          "rendered_as": "virgin",
+          "semantic_range": "virgin, young unmarried woman",
+          "note": "The Septuagint's translation of Hebrew almah. In Greek, parthenos more specifically denotes virginity than the Hebrew original. Matthew's use of the Septuagint reading shapes Christian interpretation of Isaiah 7:14."
+        },
+        {
+          "greek": "Ἐμμανουήλ",
+          "transliteration": "Emmanouel",
+          "rendered_as": "Emmanuel",
+          "semantic_range": "God with us (Hebrew: Immanu-El)",
+          "note": "A theophoric name declaring divine presence. Matthew provides the translation for Greek-speaking readers who would not know the Hebrew etymology."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 24,
+      "text_greek": "ἐγερθεὶς δὲ ὁ Ἰωσὴφ ἀπὸ τοῦ ὕπνου ἐποίησεν ὡς προσέταξεν αὐτῷ ὁ ἄγγελος κυρίου καὶ παρέλαβεν τὴν γυναῖκα αὐτοῦ,",
+      "text_kjv": "Then Joseph being raised from sleep did as the angel of the Lord had bidden him, and took unto him his wife:",
+      "rendering": "When Joseph woke from sleep, he did as the angel of the Lord had commanded him and took Mary as his wife,",
+      "translator_notes": [
+        "Joseph's immediate obedience upon waking mirrors the pattern of Old Testament figures who respond to divine commands without argument (cf. Abraham in Genesis 22:3). The verb prosetaxen ('commanded') is stronger than the KJV's 'bidden' — this was a directive, not a suggestion.",
+        "[TCR Cross-Reference] Echoes Genesis 22:3. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 25,
+      "text_greek": "καὶ οὐκ ἐγίνωσκεν αὐτὴν ἕως οὗ ἔτεκεν υἱόν· καὶ ἐκάλεσεν τὸ ὄνομα αὐτοῦ Ἰησοῦν.",
+      "text_kjv": "And knew her not till she had brought forth her firstborn son: and he called his name JESUS.",
+      "rendering": "Recognized her not till she had brought forth her firstborn son — then he called his name JESUS.",
+      "translator_notes": [
+        "The Greek ouk eginōsken autēn ('he did not know her') uses the biblical euphemism for sexual intercourse, corresponding to the Hebrew yada. We render the meaning transparently rather than preserving the euphemism. The word heos ('until') has been debated for centuries: it clearly states abstinence before the birth but does not grammatically require or exclude relations afterward. The SBLGNT does not include 'firstborn' (prōtotokon), which appears in some manuscripts — we follow the critical text."
+      ],
+      "reading_level": "8th grade"
+    }
+  ]
+}

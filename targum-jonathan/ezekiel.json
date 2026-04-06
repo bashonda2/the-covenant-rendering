@@ -1,0 +1,238 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Ezekiel",
+    "tradition": "targum-jonathan",
+    "tradition_label": "Targum Jonathan",
+    "source_text": "Targum Jonathan (standard printed edition)",
+    "base_text": "Westminster Leningrad Codex (WLC)",
+    "date": "2nd-5th c. CE (earliest layers 1st c. BCE)",
+    "generated_at": "2026-04-05T00:00:00Z",
+    "prompt_version": "1.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Targum Jonathan on Ezekiel confronts the most dramatic theophanies in prophetic literature: the Merkavah (chariot-throne) vision of chapter 1, the Shekinah departure in chapters 10-11, and the Shekinah return in chapters 43-48. The targum applies maximal anti-anthropomorphism to the throne vision while developing rich Shekinah theology around the Temple. The valley of dry bones (ch. 37) receives eschatological interpretation, and the Davidic shepherd prophecy is rendered with Messianic specificity.",
+    "notable_renderings": "The Merkavah vision (ch. 1) is carefully rendered to avoid describing God's form while preserving the visionary framework. The Shekinah departing the Temple (10:18, 11:23) is explicit and dramatic. The new heart/spirit promise (36:26-27) is rendered literally. The Davidic shepherd (34:23-24) is identified as the Messiah. The dry bones vision (37:1-14) is a resurrection prophecy.",
+    "theological_themes": "Shekinah departure and return as the central drama of exile and restoration; anti-anthropomorphism at its most intense in the Merkavah vision; Messianic shepherd theology; resurrection hope; the eschatological Temple as Shekinah's eternal dwelling."
+  },
+  "renderings": [
+    {
+      "reference": "Ezekiel 1:1",
+      "hebrew_text": "נִפְתְּחוּ הַשָּׁמַיִם וָאֶרְאֶה מַרְאוֹת אֱלֹהִים",
+      "targum_text": "itpetichu shemayya vachazeiti bechezvanei nvu'ah min qodam Adonai",
+      "targum_rendering": "The heavens were opened, and I saw in visions of prophecy from before the LORD.",
+      "mt_rendering": "The heavens were opened, and I saw visions of God.",
+      "category": "anti-anthropomorphism",
+      "notes": ["'Visions of God' becomes 'visions of prophecy from before the LORD.' Ezekiel does not see God — he sees prophetic visions that originate from God's presence. This sets the interpretive framework for the entire Merkavah vision."]
+    },
+    {
+      "reference": "Ezekiel 1:26",
+      "hebrew_text": "וּמִמַּעַל לָרָקִיעַ... דְּמוּת כְּמַרְאֵה אָדָם עָלָיו מִלְמָעְלָה",
+      "targum_text": "ume'illavei lerqi'a... dumya ke'echzavan bar enash aloi me'illai",
+      "targum_rendering": "And above the firmament... a likeness as the appearance of a man upon it above.",
+      "mt_rendering": "And above the expanse... a likeness as the appearance of a man upon it above.",
+      "category": "anti-anthropomorphism",
+      "notes": ["Jonathan preserves the veiled language — 'a likeness as the appearance of a man' — recognizing that Ezekiel himself used multiple layers of qualification (likeness, appearance). The targum's caution mirrors Ezekiel's own reticence about the divine form."]
+    },
+    {
+      "reference": "Ezekiel 1:28",
+      "hebrew_text": "הוּא מַרְאֵה דְּמוּת כְּבוֹד יְהוָה",
+      "targum_text": "hu echzavan dumyat yeqara daAdonai",
+      "targum_rendering": "This was the appearance of the likeness of the glory of the LORD.",
+      "mt_rendering": "Such was the appearance of the likeness of the glory of the LORD.",
+      "category": "anti-anthropomorphism",
+      "notes": ["Three layers of indirection: appearance, likeness, glory. Jonathan preserves all three buffers that Ezekiel himself provides. What was seen was an appearance of a likeness of the glory — not God, not even the glory directly, but a likeness of a semblance of it."]
+    },
+    {
+      "reference": "Ezekiel 3:12",
+      "hebrew_text": "בָּרוּךְ כְּבוֹד יְהוָה מִמְּקוֹמוֹ",
+      "targum_text": "berikh yeqara daAdonai me'atar beit Shekhinteih",
+      "targum_rendering": "Blessed be the glory of the LORD from the place of the house of his Shekinah.",
+      "mt_rendering": "Blessed be the glory of the LORD from his place.",
+      "category": "shekinah",
+      "notes": ["'His place' becomes 'the place of the house of his Shekinah.' The doxology locates God's glory in the Shekinah's dwelling place, connecting the heavenly vision to the earthly Temple."]
+    },
+    {
+      "reference": "Ezekiel 8:4",
+      "hebrew_text": "וְהִנֵּה שָׁם כְּבוֹד אֱלֹהֵי יִשְׂרָאֵל",
+      "targum_text": "veha tamman yeqara de'Elaha deYisrael",
+      "targum_rendering": "And behold, there was the glory of the God of Israel.",
+      "mt_rendering": "And behold, the glory of the God of Israel was there.",
+      "category": "literal",
+      "notes": ["The Hebrew already specifies 'glory' rather than God directly. Jonathan renders literally, since Ezekiel's own language is already appropriately mediated."]
+    },
+    {
+      "reference": "Ezekiel 10:4",
+      "hebrew_text": "וַיָּרָם כְּבוֹד יְהוָה מֵעַל הַכְּרוּב עַל מִפְתַּן הַבָּיִת",
+      "targum_text": "ve'istalek yeqara daAdonai me'al keruvayya al ispat beita",
+      "targum_rendering": "And the glory of the LORD lifted up from above the cherubim to the threshold of the house.",
+      "mt_rendering": "And the glory of the LORD went up from the cherub to the threshold of the house.",
+      "category": "shekinah",
+      "notes": ["The Shekinah departure begins. The glory moves from the cherubim to the threshold — the first stage of departure from the Temple. Jonathan renders with careful precision, tracking each phase of the glory's withdrawal."]
+    },
+    {
+      "reference": "Ezekiel 10:18",
+      "hebrew_text": "וַיֵּצֵא כְּבוֹד יְהוָה מֵעַל מִפְתַּן הַבָּיִת",
+      "targum_text": "venafaq yeqara daAdonai me'al ispat beita",
+      "targum_rendering": "And the glory of the LORD went out from the threshold of the house.",
+      "mt_rendering": "Then the glory of the LORD went out from over the threshold of the house.",
+      "category": "shekinah",
+      "notes": ["The glory departs the Temple threshold — the Shekinah is leaving. This is one of the most devastating moments in prophetic theology: the divine presence abandons its own house because of Israel's sin."]
+    },
+    {
+      "reference": "Ezekiel 11:22-23",
+      "hebrew_text": "וַיַּעַל כְּבוֹד יְהוָה מֵעַל תּוֹךְ הָעִיר וַיַּעֲמֹד עַל הָהָר",
+      "targum_text": "useliqu yeqara daAdonai me'al go qarta veqam al tura",
+      "targum_rendering": "And the glory of the LORD went up from the midst of the city and stood upon the mountain.",
+      "mt_rendering": "And the glory of the LORD went up from the midst of the city and stood over the mountain.",
+      "category": "shekinah",
+      "notes": ["The final stage of departure: the glory ascends from Jerusalem to the Mount of Olives. Rabbinic tradition (Rashi, Lamentations Rabbah) says the Shekinah waited three and a half years on the mountain for Israel to repent. The New Testament records Jesus' departure from the same mountain (Acts 1:12)."]
+    },
+    {
+      "reference": "Ezekiel 18:32",
+      "hebrew_text": "כִּי לֹא אֶחְפֹּץ בְּמוֹת הַמֵּת נְאֻם אֲדֹנָי יְהוִה",
+      "targum_text": "arei la evi bemota demayyet amar Adonai Elohim",
+      "targum_rendering": "For I do not desire the death of the one who dies, says the Lord GOD.",
+      "mt_rendering": "For I have no pleasure in the death of anyone, declares the Lord GOD.",
+      "category": "literal",
+      "notes": ["God's refusal to delight in death is rendered literally. This is divine character, not anthropomorphism — God's will toward life is a theological truth, not a physical attribute."]
+    },
+    {
+      "reference": "Ezekiel 34:23",
+      "hebrew_text": "וַהֲקִמֹתִי עֲלֵיהֶם רֹעֶה אֶחָד... אֵת עַבְדִּי דָוִד",
+      "targum_text": "va'aqim aleihon parnas chad... yat avdi David",
+      "targum_rendering": "And I will raise up over them one shepherd... my servant David.",
+      "mt_rendering": "And I will set up over them one shepherd... my servant David.",
+      "category": "messianic",
+      "notes": ["Jonathan preserves 'my servant David' as the one shepherd, maintaining the Messianic identification implicit in the name. The singular shepherd contrasts with the corrupt shepherds condemned earlier in the chapter."]
+    },
+    {
+      "reference": "Ezekiel 34:24",
+      "hebrew_text": "וַאֲנִי יְהוָה אֶהְיֶה לָהֶם לֵאלֹהִים וְעַבְדִּי דָוִד נָשִׂיא בְתוֹכָם",
+      "targum_text": "va'ana Adonai ehei lehon l'Elah ve'avdi David rav beinehon",
+      "targum_rendering": "And I the LORD will be their God, and my servant David shall be ruler among them.",
+      "mt_rendering": "And I, the LORD, will be their God, and my servant David shall be prince among them.",
+      "category": "messianic",
+      "notes": ["The dual structure: God is Israel's God; David (the Messiah) is Israel's prince/ruler. Jonathan distinguishes between divine sovereignty and Messianic vice-regency — the Messiah rules under God, not as God."]
+    },
+    {
+      "reference": "Ezekiel 36:26",
+      "hebrew_text": "וְנָתַתִּי לָכֶם לֵב חָדָשׁ וְרוּחַ חֲדָשָׁה אֶתֵּן בְּקִרְבְּכֶם",
+      "targum_text": "ve'eittein lakhon libba dechallaf velibba dechayyat de'urta eittein begovveikhon",
+      "targum_rendering": "And I will give you a heart that is changed, and a spirit that fears the Torah I will put within you.",
+      "mt_rendering": "And I will give you a new heart, and a new spirit I will put within you.",
+      "category": "theological",
+      "notes": ["The 'new heart' becomes 'a heart that is changed,' and the 'new spirit' becomes 'a spirit that fears the Torah.' Jonathan interprets the inward renewal as Torah-oriented transformation — the new heart is one disposed to Torah obedience. This parallels Jeremiah 31:33."]
+    },
+    {
+      "reference": "Ezekiel 36:27",
+      "hebrew_text": "וְאֶת רוּחִי אֶתֵּן בְּקִרְבְּכֶם",
+      "targum_text": "veyat ruach qudshai eittein begovveikhon",
+      "targum_rendering": "And my holy spirit I will put within you.",
+      "mt_rendering": "And I will put my Spirit within you.",
+      "category": "theological",
+      "notes": ["'My spirit' becomes 'my holy spirit' (ruach qudshai), specifying the divine spirit as the holy spirit. This is one of the clearest references to the Holy Spirit in the targum tradition."]
+    },
+    {
+      "reference": "Ezekiel 37:1",
+      "hebrew_text": "הָיְתָה עָלַי יַד יְהוָה",
+      "targum_text": "havat alai ruach nvu'ah min qodam Adonai",
+      "targum_rendering": "There was upon me the spirit of prophecy from before the LORD.",
+      "mt_rendering": "The hand of the LORD was upon me.",
+      "category": "anti-anthropomorphism",
+      "notes": ["'The hand of the LORD' becomes 'the spirit of prophecy from before the LORD,' replacing the anthropomorphic hand with prophetic endowment. The same substitution applies throughout Ezekiel."]
+    },
+    {
+      "reference": "Ezekiel 37:5",
+      "hebrew_text": "הִנֵּה אֲנִי מֵבִיא בָכֶם רוּחַ וִחְיִיתֶם",
+      "targum_text": "ha ana memei bekhon rucha vetiqayamun",
+      "targum_rendering": "Behold, I am bringing spirit into you, and you shall live.",
+      "mt_rendering": "Behold, I will cause breath to enter you, and you shall live.",
+      "category": "eschatological",
+      "notes": ["Jonathan renders the resurrection prophecy literally. The spirit/breath entering dry bones is both the restoration of Israel from exile and, in rabbinic tradition, the eschatological resurrection of the dead."]
+    },
+    {
+      "reference": "Ezekiel 37:10",
+      "hebrew_text": "וַתָּבוֹא בָהֶם הָרוּחַ וַיִּחְיוּ וַיַּעַמְדוּ עַל רַגְלֵיהֶם חַיִל גָּדוֹל מְאֹד",
+      "targum_text": "ve'atat behon rucha veqamu al raglehon cheila saggi lachada",
+      "targum_rendering": "And the spirit came into them, and they lived and stood upon their feet, an exceedingly great army.",
+      "mt_rendering": "And the breath came into them, and they lived and stood on their feet, an exceedingly great army.",
+      "category": "eschatological",
+      "notes": ["The climax of the dry bones vision is rendered literally. The resurrection produces an army — the restored Israel is a formidable host, not merely surviving but mobilized."]
+    },
+    {
+      "reference": "Ezekiel 37:24",
+      "hebrew_text": "וְעַבְדִּי דָוִד מֶלֶךְ עֲלֵיהֶם וְרוֹעֶה אֶחָד יִהְיֶה לְכֻלָּם",
+      "targum_text": "ve'avdi David malka aleihon ufarnas chad yehei lekhullehon",
+      "targum_rendering": "And my servant David shall be king over them, and one shepherd shall be for all of them.",
+      "mt_rendering": "My servant David shall be king over them, and they shall all have one shepherd.",
+      "category": "messianic",
+      "notes": ["The Messianic shepherd-king is reaffirmed in the context of national resurrection and reunification. The Messiah's reign follows Israel's resurrection — the eschatological sequence is clear."]
+    },
+    {
+      "reference": "Ezekiel 37:26",
+      "hebrew_text": "וְנָתַתִּי אֶת מִקְדָּשִׁי בְּתוֹכָם לְעוֹלָם",
+      "targum_text": "ve'eittein yat beit maqdashi beinehon le'alma",
+      "targum_rendering": "And I will set my Temple among them forever.",
+      "mt_rendering": "And I will set my sanctuary in their midst forever.",
+      "category": "shekinah",
+      "notes": ["The eschatological Temple is established permanently among Israel. 'My sanctuary' becomes 'my Temple' (beit maqdashi). This points forward to the Temple vision of chapters 40-48."]
+    },
+    {
+      "reference": "Ezekiel 37:27",
+      "hebrew_text": "וְהָיָה מִשְׁכָּנִי עֲלֵיהֶם וְהָיִיתִי לָהֶם לֵאלֹהִים",
+      "targum_text": "ve'ashrei Shekhineti beinehon ve'ehei lehon l'Elah",
+      "targum_rendering": "And I will cause my Shekinah to dwell among them, and I will be their God.",
+      "mt_rendering": "My dwelling place shall be with them, and I will be their God.",
+      "category": "shekinah",
+      "notes": ["The covenant formula with Shekinah indwelling: this is the eschatological reversal of the Shekinah departure in chapters 10-11. What left the Temple in judgment returns in the Messianic age to dwell permanently. Revelation 21:3 echoes this verse."]
+    },
+    {
+      "reference": "Ezekiel 39:29",
+      "hebrew_text": "אֲשֶׁר שָׁפַכְתִּי אֶת רוּחִי עַל בֵּית יִשְׂרָאֵל",
+      "targum_text": "di areiqit yat ruach qudshai al beit Yisrael",
+      "targum_rendering": "When I have poured out my holy spirit upon the house of Israel.",
+      "mt_rendering": "When I have poured out my Spirit upon the house of Israel.",
+      "category": "theological",
+      "notes": ["'My spirit' again becomes 'my holy spirit.' The eschatological outpouring of the Spirit follows the defeat of Gog — the sequence is warfare, victory, Spirit-outpouring, and then the Temple vision."]
+    },
+    {
+      "reference": "Ezekiel 43:2",
+      "hebrew_text": "וְהִנֵּה כְּבוֹד אֱלֹהֵי יִשְׂרָאֵל בָּא מִדֶּרֶךְ הַקָּדִים",
+      "targum_text": "veha yeqara de'Elaha deYisrael itgeli me'orach madnecha",
+      "targum_rendering": "And behold, the glory of the God of Israel was revealed from the way of the east.",
+      "mt_rendering": "And behold, the glory of the God of Israel came from the way of the east.",
+      "category": "shekinah",
+      "notes": ["The glory returns. The Shekinah that departed eastward over the Mount of Olives (11:23) now returns from the east. Jonathan uses 'revealed' (itgeli) rather than 'came,' maintaining the pattern of divine self-disclosure. This is the climactic reversal of the Shekinah departure."]
+    },
+    {
+      "reference": "Ezekiel 43:5",
+      "hebrew_text": "וְהִנֵּה מָלֵא כְבוֹד יְהוָה אֶת הַבָּיִת",
+      "targum_text": "veha male yeqara daAdonai yat beita",
+      "targum_rendering": "And behold, the glory of the LORD filled the house.",
+      "mt_rendering": "And behold, the glory of the LORD filled the Temple.",
+      "category": "shekinah",
+      "notes": ["The eschatological Temple is filled with the glory, just as the original Tabernacle was filled (Ex 40:34) and Solomon's Temple was filled (1 Kings 8:11). The cycle is complete: Shekinah fills, Shekinah departs, Shekinah returns and fills again."]
+    },
+    {
+      "reference": "Ezekiel 43:7",
+      "hebrew_text": "בֶּן אָדָם אֶת מְקוֹם כִּסְאִי... אֲשֶׁר אֶשְׁכָּן שָׁם בְּתוֹךְ בְּנֵי יִשְׂרָאֵל לְעוֹלָם",
+      "targum_text": "bar adam atar kursei yeqari... di ashrei Shekhineti tamman bego benei Yisrael le'alma",
+      "targum_rendering": "Son of man, the place of the throne of my glory... where I will cause my Shekinah to dwell there among the children of Israel forever.",
+      "mt_rendering": "Son of man, this is the place of my throne... where I will dwell among the children of Israel forever.",
+      "category": "shekinah",
+      "notes": ["The throne is 'of my glory' (yeqar), and God's dwelling is the Shekinah dwelling. The eschatological Temple is the Shekinah's eternal home — 'forever' (le'alma) means the Shekinah will never depart again. This is the theological resolution of the entire exile narrative."]
+    },
+    {
+      "reference": "Ezekiel 48:35",
+      "hebrew_text": "וְשֵׁם הָעִיר מִיּוֹם יְהוָה שָׁמָּה",
+      "targum_text": "ushem qarta min yoma Adonai Shekhinteih tamman",
+      "targum_rendering": "And the name of the city from that day: 'The LORD — his Shekinah is there.'",
+      "mt_rendering": "And the name of the city from that time on shall be, 'The LORD is there.'",
+      "category": "shekinah",
+      "notes": ["The final word of Ezekiel: YHWH-Shammah ('the LORD is there') becomes 'the LORD — his Shekinah is there.' The entire book's theological arc is captured in this name: the Shekinah departed, the Shekinah returns, and the eschatological city bears witness forever that the Shekinah is present."]
+    }
+  ]
+}

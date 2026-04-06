@@ -1,0 +1,203 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Genesis",
+    "tradition": "vulgate",
+    "tradition_label": "Latin Vulgate",
+    "source_text": "Biblia Sacra Vulgata (Stuttgart critical edition)",
+    "base_text": "Westminster Leningrad Codex (WLC)",
+    "translator": "Jerome (Eusebius Sophronius Hieronymus)",
+    "date": "382-405 CE",
+    "generated_at": "2026-04-05T00:00:00Z",
+    "prompt_version": "1.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Jerome translated Genesis directly from the Hebrew, producing a Latin text that frequently diverges from the Old Latin (Vetus Latina) translations derived from the Septuagint. His Genesis translation demonstrates careful attention to Hebrew idiom and occasionally introduces readings that became theologically foundational for Western Christianity, most notably the protoevangelium of Genesis 3:15.",
+    "notable_renderings": "The creation vocabulary (inanis et vacua, firmamentum), the protoevangelium with its Mariological ipsa conteret reading, the rendering of divine names, and the patriarchal blessing formulas all shaped Latin theological discourse for over a millennium.",
+    "theological_legacy": "Genesis in the Vulgate established key Latin terms: firmamentum (firmament), testamentum/foedus (covenant), benedictio (blessing), maledictio (curse), and the creatio ex nihilo vocabulary that dominated Western scholastic theology."
+  },
+  "renderings": [
+    {
+      "reference": "Genesis 1:1",
+      "source_text": "בְּרֵאשִׁית בָּרָא אֱלֹהִים אֵת הַשָּׁמַיִם וְאֵת הָאָרֶץ",
+      "vulgate_text": "in principio creavit Deus caelum et terram",
+      "vulgate_rendering": "In the beginning God created heaven and earth",
+      "tcr_rendering": "In the beginning, God created the heavens and the earth",
+      "theological_legacy": "In principio became the standard Latin phrase for the absolute beginning of creation, foundational to creatio ex nihilo theology. The singular caelum (vs. Hebrew plural shamayim) was noted by medieval commentators.",
+      "notes": ["Jerome follows Hebrew closely; creavit (perfect tense) mirrors the Hebrew bara. The singular caelum for plural shamayim reflects standard Latin idiom rather than a theological choice."]
+    },
+    {
+      "reference": "Genesis 1:2",
+      "source_text": "וְהָאָרֶץ הָיְתָה תֹהוּ וָבֹהוּ",
+      "vulgate_text": "terra autem erat inanis et vacua",
+      "vulgate_rendering": "But the earth was formless and void",
+      "tcr_rendering": "Now the earth was formless and void",
+      "theological_legacy": "Inanis et vacua shaped Western creation theology, implying utter emptiness rather than primordial chaos. The phrase became a philosophical touchstone in scholastic discussions of matter and potentiality.",
+      "notes": ["The Hebrew tohu vavohu is a rhyming pair suggesting chaos and emptiness. Jerome's inanis et vacua emphasizes emptiness/vacancy over the chaotic-waters imagery favored by LXX (aoratos kai akataskeuastos, 'unseen and unformed'). This pushed Latin theology toward a privation model of pre-creation rather than a chaos model."]
+    },
+    {
+      "reference": "Genesis 1:2b",
+      "source_text": "וְרוּחַ אֱלֹהִים מְרַחֶפֶת עַל־פְּנֵי הַמָּיִם",
+      "vulgate_text": "et spiritus Dei ferebatur super aquas",
+      "vulgate_rendering": "And the Spirit of God was borne over the waters",
+      "tcr_rendering": "and the Spirit of God was hovering over the face of the waters",
+      "theological_legacy": "Spiritus Dei became the standard Latin term for the Holy Spirit's creative activity, feeding Trinitarian readings of Genesis 1. Ferebatur (was carried/borne) is more passive than the Hebrew merachefet (hovering, brooding), which some patristic writers used to argue for the Spirit's gentle, nurturing presence.",
+      "notes": ["Jerome's ferebatur is less dynamic than the Hebrew merachefet (to hover, flutter). Augustine and other Latin fathers built extensive pneumatological theology on this verse using Jerome's translation."]
+    },
+    {
+      "reference": "Genesis 1:6-8",
+      "source_text": "רָקִיעַ (raqia)",
+      "vulgate_text": "firmamentum",
+      "vulgate_rendering": "firmament",
+      "tcr_rendering": "expanse",
+      "theological_legacy": "Firmamentum implies something solid and firm, deriving from the LXX stereōma. This word shaped medieval cosmology, suggesting a solid dome over the earth. The English word 'firmament' is a direct borrowing from Jerome's Latin.",
+      "notes": ["Hebrew raqia means something spread out or beaten thin (from raqa, to stamp/spread). Jerome followed the LXX interpretation of a solid structure rather than the Hebrew sense of an expanse. This choice influenced Western cosmology for centuries."]
+    },
+    {
+      "reference": "Genesis 2:7",
+      "source_text": "וַיִּיצֶר יְהוָה אֱלֹהִים אֶת־הָאָדָם עָפָר מִן־הָאֲדָמָה",
+      "vulgate_text": "formavit igitur Dominus Deus hominem de limo terrae",
+      "vulgate_rendering": "Then the Lord God formed man from the clay of the earth",
+      "tcr_rendering": "Then the LORD God formed the man from the dust of the ground",
+      "theological_legacy": "Limo terrae (clay/mud of the earth) rather than Hebrew afar (dust) gave Western theology a more concrete material image of human creation. This fed into medieval discussions of the body's materiality.",
+      "notes": ["Hebrew afar means dust or dry earth; Jerome's limus means mud, clay, or slime — a wetter, more malleable substance. This subtle shift influenced artistic and theological depictions of God as a potter shaping clay."]
+    },
+    {
+      "reference": "Genesis 2:17",
+      "source_text": "מוֹת תָּמוּת (mot tamut)",
+      "vulgate_text": "morte morieris",
+      "vulgate_rendering": "You shall die by death / you shall surely die",
+      "tcr_rendering": "you will certainly die",
+      "theological_legacy": "Morte morieris preserves the Hebrew emphatic infinitive absolute construction with a Latin cognate accusative. This phrase became central to Western hamartiology (doctrine of sin) and debates about the nature of the death penalty for sin — spiritual, physical, or both.",
+      "notes": ["Jerome mirrors the Hebrew doubling construction (mot tamut, 'dying you shall die') with the Latin cognate morte morieris. This faithful rendering preserved the emphatic force that became important in Augustinian original sin theology."]
+    },
+    {
+      "reference": "Genesis 3:6",
+      "source_text": "וְנֶחְמָד הָעֵץ לְהַשְׂכִּיל",
+      "vulgate_text": "et delectabile lignum ad intellegendum",
+      "vulgate_rendering": "and the tree was delightful for understanding",
+      "tcr_rendering": "and the tree was desirable for gaining insight",
+      "theological_legacy": "Ad intellegendum (for understanding/intellect) connects the fall to intellectual pride, a theme Augustine and later scholastics developed extensively. The Latin intellegere carries stronger cognitive overtones than the Hebrew lehaskhil (to make wise, give insight).",
+      "notes": ["Jerome's choice of intellegendum emphasizes rational understanding, while Hebrew lehaskhil has a broader semantic range including practical wisdom and success. This inflected Western readings of the Fall toward intellectual pride."]
+    },
+    {
+      "reference": "Genesis 3:15",
+      "source_text": "הוּא יְשׁוּפְךָ רֹאשׁ (hu yeshufkha rosh)",
+      "vulgate_text": "ipsa conteret caput tuum",
+      "vulgate_rendering": "She shall crush your head",
+      "tcr_rendering": "He will strike your head",
+      "theological_legacy": "The Vulgate's ipsa (she) instead of Hebrew hu (he) or LXX autos (he) created the protoevangelium Marianum — the reading of this verse as a prophecy of Mary crushing the serpent. This became foundational to Catholic Marian theology and is depicted in countless artworks showing Mary standing on a serpent.",
+      "notes": ["The Hebrew pronoun hu (he) refers to the masculine zera (seed/offspring). The LXX has autos (he), agreeing. Jerome's ipsa (she) may reflect a variant Latin manuscript tradition or a deliberate theological choice. The Clementine Vulgate (1592) retained ipsa; modern critical editions of the Vulgate restore ipsum (it/he). This is one of the most consequential single-word variants in translation history."]
+    },
+    {
+      "reference": "Genesis 4:1",
+      "source_text": "קָנִיתִי אִישׁ אֶת־יְהוָה (qaniti ish et-YHWH)",
+      "vulgate_text": "possedi hominem per Deum",
+      "vulgate_rendering": "I have gained a man through God",
+      "tcr_rendering": "I have acquired a man with the help of the LORD",
+      "theological_legacy": "Per Deum (through God) interprets the ambiguous Hebrew et-YHWH as instrumental rather than the direct object reading ('I have acquired a man, namely the LORD'), avoiding an apparent christological or messianic claim by Eve.",
+      "notes": ["The Hebrew et can mean 'with' or mark the direct object. Jerome's per Deum resolves the ambiguity in favor of divine assistance rather than identification, a choice most translations follow."]
+    },
+    {
+      "reference": "Genesis 6:2",
+      "source_text": "בְנֵי־הָאֱלֹהִים (benei ha-elohim)",
+      "vulgate_text": "filii Dei",
+      "vulgate_rendering": "the sons of God",
+      "tcr_rendering": "the sons of God",
+      "theological_legacy": "Filii Dei preserved the literal sense, but Augustine and later Latin commentators strongly favored the Sethite interpretation (sons of God = descendants of Seth) over the angelic interpretation. The Vulgate rendering itself is neutral, but the Latin theological tradition it fed was not.",
+      "notes": ["Jerome translates literally. The LXX variants include both 'angels of God' (angeloi tou theou) and 'sons of God' (huioi tou theou). Jerome's choice to follow the Hebrew exactly left the interpretive question open, though Latin tradition largely settled on the Sethite reading."]
+    },
+    {
+      "reference": "Genesis 9:27",
+      "source_text": "יַפְתְּ אֱלֹהִים לְיֶפֶת (yaft elohim le-yefet)",
+      "vulgate_text": "dilatet Deus Iafeth",
+      "vulgate_rendering": "May God enlarge Japheth",
+      "tcr_rendering": "May God extend Japheth",
+      "theological_legacy": "Dilatet (enlarge, expand) preserves the Hebrew wordplay on Japheth's name (yaft/yefet). Medieval Latin theologians read this as a prophecy of the expansion of Christianity among European (Japhetic) peoples.",
+      "notes": ["Jerome preserves the paronomasia between the verb yaft and the name Yefet. The verse was widely used in medieval theology to justify European Christian expansion."]
+    },
+    {
+      "reference": "Genesis 12:3",
+      "source_text": "וְנִבְרְכוּ בְךָ כֹּל מִשְׁפְּחֹת הָאֲדָמָה",
+      "vulgate_text": "et benedicentur in te universae cognationes terrae",
+      "vulgate_rendering": "And in you shall all the families of the earth be blessed",
+      "tcr_rendering": "and all the families of the ground will be blessed through you",
+      "theological_legacy": "Benedicentur in te (shall be blessed in you) established the Latin formula for the Abrahamic blessing that Paul cites in Galatians 3:8. Benedictio became the standard Western theological term for divine blessing.",
+      "notes": ["The Hebrew niphal venivrekhu can be read as passive ('be blessed') or reflexive ('bless themselves'). Jerome follows the passive reading, which supports the New Testament interpretation of universal blessing through Abraham's seed."]
+    },
+    {
+      "reference": "Genesis 14:18",
+      "source_text": "וּמַלְכִּי־צֶדֶק מֶלֶךְ שָׁלֵם הוֹצִיא לֶחֶם וָיָיִן וְהוּא כֹהֵן לְאֵל עֶלְיוֹן",
+      "vulgate_text": "at vero Melchisedech rex Salem proferens panem et vinum erat enim sacerdos Dei altissimi",
+      "vulgate_rendering": "But indeed Melchizedek king of Salem, bringing forth bread and wine — for he was priest of the Most High God",
+      "tcr_rendering": "And Melchizedek, king of Salem, brought out bread and wine — he was priest of God Most High",
+      "theological_legacy": "Proferens panem et vinum (bringing forth bread and wine) was read typologically as a prefiguration of the Eucharist. Sacerdos Dei altissimi established the Melchizedek-priesthood terminology used extensively in Hebrews and in Catholic ordination theology.",
+      "notes": ["Jerome's proferens (bringing forth, offering) has a slightly more liturgical connotation than the Hebrew hotzi (brought out). Combined with sacerdos (priest), this verse became central to Catholic eucharistic typology."]
+    },
+    {
+      "reference": "Genesis 15:6",
+      "source_text": "וְהֶאֱמִן בַּיהוָה וַיַּחְשְׁבֶהָ לּוֹ צְדָקָה",
+      "vulgate_text": "credidit Domino et reputatum est illi ad iustitiam",
+      "vulgate_rendering": "He believed the Lord and it was reckoned to him as righteousness",
+      "tcr_rendering": "And he trusted in the LORD, and He reckoned it to him as righteousness",
+      "theological_legacy": "Credidit (believed) and iustitiam (righteousness/justice) established the Latin vocabulary for the faith-righteousness nexus that Paul develops in Romans 4 and Galatians 3. This verse was central to the Reformation debate on justification by faith.",
+      "notes": ["Jerome's credidit captures the Hebrew he'emin (trusted, believed) adequately. Reputatum est (was reckoned) for Hebrew vayyachsheveha (and He reckoned it) is slightly more passive, obscuring that God is the active subject of the reckoning."]
+    },
+    {
+      "reference": "Genesis 17:1",
+      "source_text": "אֲנִי־אֵל שַׁדַּי (ani El Shaddai)",
+      "vulgate_text": "ego Deus omnipotens",
+      "vulgate_rendering": "I am God Almighty",
+      "tcr_rendering": "I am God Almighty",
+      "theological_legacy": "Omnipotens (all-powerful) became the standard Western rendering of El Shaddai, embedding the divine attribute of omnipotence into the Latin theological vocabulary. The Nicene Creed's 'Patrem omnipotentem' echoes this translation tradition.",
+      "notes": ["The Hebrew Shaddai is of uncertain etymology — possibly from shadad (to overpower) or shad (mountain/breast). Jerome's omnipotens follows the LXX pantokratōr tradition, interpreting the name as 'Almighty.' This interpretation, while debated, became normative in Western theology."]
+    },
+    {
+      "reference": "Genesis 22:2",
+      "source_text": "קַח־נָא אֶת־בִּנְךָ אֶת־יְחִידְךָ אֲשֶׁר־אָהַבְתָּ אֶת־יִצְחָק",
+      "vulgate_text": "tolle filium tuum unigenitum quem diligis Isaac",
+      "vulgate_rendering": "Take your only-begotten son whom you love, Isaac",
+      "tcr_rendering": "Take your son, your only one, whom you love — Isaac",
+      "theological_legacy": "Unigenitum (only-begotten) is the same word used of Christ in John 3:16 (unigenitum Filium). This verbal parallel made the Aqedah (Binding of Isaac) the premier Old Testament type of Christ's sacrifice in Latin theology.",
+      "notes": ["Hebrew yachid means 'only, unique, beloved' rather than strictly 'only-begotten.' Jerome's unigenitum creates a direct verbal link to the Johannine christological title, strengthening the typological reading."]
+    },
+    {
+      "reference": "Genesis 22:14",
+      "source_text": "יְהוָה יִרְאֶה (YHWH yir'eh)",
+      "vulgate_text": "Dominus videt",
+      "vulgate_rendering": "The Lord sees",
+      "tcr_rendering": "The LORD will provide",
+      "theological_legacy": "Videt (sees) is more literal to the Hebrew root ra'ah (to see) than the traditional English 'provide' (from Latin pro-videre, to see ahead/for). Jerome's literal rendering preserves the original wordplay on Moriah.",
+      "notes": ["The English 'provide' actually derives from Latin providere (to see beforehand, to foresee), which is conceptually close to Jerome's videt. The semantic shift from 'seeing' to 'providing' happened through the Latin theological tradition itself."]
+    },
+    {
+      "reference": "Genesis 28:12",
+      "source_text": "סֻלָּם מֻצָּב אַרְצָה וְרֹאשׁוֹ מַגִּיעַ הַשָּׁמָיְמָה",
+      "vulgate_text": "scalam stantem super terram et cacumen illius tangens caelum",
+      "vulgate_rendering": "a ladder standing on the earth and its top touching heaven",
+      "tcr_rendering": "a stairway set up on the earth with its top reaching the heavens",
+      "theological_legacy": "Scala (ladder) became the standard image in Western theology and art. The scala Iacob (Jacob's ladder) was widely used as a mystical image of ascent to God, influencing monastic spirituality (e.g., John Climacus's Ladder of Divine Ascent in its Latin reception).",
+      "notes": ["Hebrew sullam occurs only here in the Bible; its exact meaning is uncertain (stairway, ramp, or ladder). Jerome's scala (ladder) fixed the Western image, though modern scholarship often prefers 'stairway' or 'ramp' based on Mesopotamian ziggurat parallels."]
+    },
+    {
+      "reference": "Genesis 49:10",
+      "source_text": "עַד כִּי־יָבֹא שִׁילֹה (ad ki-yavo shiloh)",
+      "vulgate_text": "donec veniat qui mittendus est",
+      "vulgate_rendering": "until he comes who is to be sent",
+      "tcr_rendering": "until Shiloh comes",
+      "theological_legacy": "Qui mittendus est (he who is to be sent) is a messianic interpretation of the obscure Hebrew shiloh, reading it as related to shalach (to send). This became a key proof-text for Christ as the 'sent one' in Latin theology.",
+      "notes": ["The Hebrew shiloh is one of the most debated words in Genesis. Options include: a place name (Shiloh), 'he to whom it belongs' (from shello), or 'tribute' (from shay lo). Jerome's rendering is a clear messianic interpretation that diverges from the Hebrew and influenced Western Christology."]
+    },
+    {
+      "reference": "Genesis 49:18",
+      "source_text": "לִישׁוּעָתְךָ קִוִּיתִי יְהוָה (lishuatekha qivviti YHWH)",
+      "vulgate_text": "salutare tuum expectabo Domine",
+      "vulgate_rendering": "I will await your salvation, O Lord",
+      "tcr_rendering": "I wait for your salvation, O LORD",
+      "theological_legacy": "Salutare tuum (your salvation) — the Latin salus/salutare became the root of Western soteriology. The verbal connection between salutare here and the name Jesus (from yeshua, salvation) was frequently drawn by Latin fathers.",
+      "notes": ["Jerome's salutare faithfully renders Hebrew yeshuah (salvation). The word became deeply embedded in Latin liturgy and theology, appearing in the Nunc Dimittis (Luke 2:30) as salutare tuum, creating a canonical echo between Jacob's dying words and Simeon's."]
+    }
+  ]
+}

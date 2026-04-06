@@ -1,0 +1,426 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Luke",
+    "chapter": 21,
+    "source_text": "SBL Greek New Testament (SBLGNT)",
+    "reference_text": "KJV",
+    "generated_at": "2026-04-04T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Luke 21 opens with the widow's offering, transitions to Jesus's prediction of the temple's destruction, and then delivers the extended eschatological discourse — sometimes called the Olivet Discourse, though Luke does not locate it on the Mount of Olives. Jesus describes the signs preceding Jerusalem's fall and the coming of the Son of Man: wars, earthquakes, persecution, the siege of Jerusalem, cosmic disturbances, and the command to watch and pray. The chapter concludes with a summary of Jesus's daily teaching routine during his final week.",
+    "remarkable": "Luke's version of the eschatological discourse is notably more specific about the fall of Jerusalem (AD 70) than Mark's or Matthew's versions. Verse 20's reference to 'Jerusalem surrounded by armies' replaces Mark's more cryptic 'abomination of desolation' (Mark 13:14), suggesting Luke writes for an audience that either witnessed or is aware of the Roman siege. The parable of the fig tree and the declaration that 'this generation will not pass away' create one of the most debated interpretive puzzles in the Gospels.",
+    "friction": "The relationship between the destruction of Jerusalem and the coming of the Son of Man is ambiguous — whether Jesus describes one event, two events separated by time, or two aspects of one reality is debated. We render the text without harmonizing or imposing a particular eschatological framework. 'This generation' (v. 32) is rendered literally; its referent (Jesus's contemporaries, or the generation that sees the signs) is left to the reader.",
+    "connections": "The widow's offering connects thematically to 20:47 (scribes who devour widows' houses). The temple destruction prophecy fulfills 19:44. The persecution predictions anticipate Acts (where they are fulfilled in detail). The cosmic signs draw on Isaiah 13:10, Joel 2:30-31, and Daniel 7:13-14. The fig tree parable echoes the cursed fig tree of Mark 11 (which Luke omits). The command to 'watch and pray' prepares for Gethsemane (22:40-46)."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_greek": "Ἀναβλέψας δὲ εἶδεν τοὺς βάλλοντας εἰς τὸ γαζοφυλάκιον τὰ δῶρα αὐτῶν πλουσίους.",
+      "text_kjv": "And he looked up, and saw the rich men casting their gifts into the treasury.",
+      "rendering": "He looked up and saw the rich putting their gifts into the temple treasury.",
+      "translator_notes": [
+        "The gazophylakion ('treasury') was located in the Court of the Women, where thirteen trumpet-shaped collection boxes lined the wall, each designated for a specific type of offering. The verb ballontas ('throwing, casting') suggests the coins made audible noise as they fell — the rich would have made a conspicuous display."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 2,
+      "text_greek": "εἶδεν δέ τινα χήραν πενιχρὰν βάλλουσαν ἐκεῖ λεπτὰ δύο,",
+      "text_kjv": "And he saw also a certain poor widow casting in thither two mites.",
+      "rendering": "He also saw a poor widow putting in two small copper coins.",
+      "translator_notes": [
+        "The adjective penichran ('needy, poor') is stronger than the usual word for poor (ptōchos); it implies destitution. The lepta ('small coins') were the smallest denomination in circulation — each worth about one-128th of a denarius. Two lepta made a quadrans, the Roman minimum for a transaction. She gives the absolute smallest possible offering."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 3,
+      "text_greek": "καὶ εἶπεν· Ἀληθῶς λέγω ὑμῖν ὅτι ἡ χήρα αὕτη ἡ πτωχὴ πλεῖον πάντων ἔβαλεν·",
+      "text_kjv": "And he said, Of a truth I say unto you, that this poor widow hath cast in more than they all:",
+      "rendering": "He said, \"Truly I tell you, this poor widow has put in more than all of them.",
+      "translator_notes": [
+        "The phrase pleion pantōn ('more than all') is a comparative that reverses human arithmetic: by every measurable standard, her gift is the smallest, yet Jesus declares it the largest. The adverb alēthōs ('truly') emphasizes the counterintuitive nature of the claim. Jesus measures giving not by amount but by cost to the giver."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 4,
+      "text_greek": "πάντες γὰρ οὗτοι ἐκ τοῦ περισσεύοντος αὐτοῖς ἔβαλον εἰς τὰ δῶρα, αὕτη δὲ ἐκ τοῦ ὑστερήματος αὐτῆς πάντα τὸν βίον ὃν εἶχεν ἔβαλεν.",
+      "text_kjv": "For all these have of their abundance cast in unto the offerings of God: but she of her penury hath cast in all the living that she had.",
+      "rendering": "For all these others contributed out of their abundance, but she out of her poverty put in all the livelihood she had.\"",
+      "translator_notes": [
+        "The contrast is between perisseuontos ('surplus, abundance, what overflows') and hysterēmatos ('deficit, lack, poverty'). The phrase panta ton bion hon eichen ('all the life/livelihood she had') uses bios, which means both 'life' and 'livelihood' — she gave not just her money but her means of survival. This connects directly to 20:47's denunciation of scribes who devour widows' houses: the temple system that should protect her consumes her last resources."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 5,
+      "text_greek": "Καί τινων λεγόντων περὶ τοῦ ἱεροῦ, ὅτι λίθοις καλοῖς καὶ ἀναθήμασιν κεκόσμηται, εἶπεν·",
+      "text_kjv": "And as some spake of the temple, how it was adorned with goodly stones and gifts, he said,",
+      "rendering": "When some were speaking about the temple, how it was adorned with beautiful stones and dedicated gifts, he said,",
+      "translator_notes": [
+        "Herod's temple was one of the ancient world's architectural wonders. The lithois kalois ('beautiful stones') likely refers to the massive white limestone blocks (some weighing over 500 tons) that formed the walls. The anathēmasin ('dedicated gifts, votive offerings') included golden vine decorations and shields donated by wealthy patrons. Josephus describes the temple as covered in gold plates that blazed in the morning sun."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 6,
+      "text_greek": "Ταῦτα ἃ θεωρεῖτε, ἐλεύσονται ἡμέραι ἐν αἷς οὐκ ἀφεθήσεται λίθος ἐπὶ λίθῳ ὃς οὐ καταλυθήσεται.",
+      "text_kjv": "As for these things which ye behold, the days will come, in the which there shall not be left one stone upon another, that shall not be thrown down.",
+      "rendering": "\"As for these things you are looking at, the days will come when not one stone will be left on another — every one will be torn down.\"",
+      "translator_notes": [
+        "The prophecy lithos epi lithō ('stone upon stone') predicts total destruction. This was fulfilled in AD 70 when Titus's legions dismantled the temple, reportedly prying apart stones to recover gold that had melted into the crevices during the fire. The verb katalythēsetai ('will be torn down, demolished') is emphatic. The double negative construction (ouk ... hos ou) means 'there will not be a single stone left standing upon another that is not torn down' — comprehensive destruction without exception."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 7,
+      "text_greek": "ἐπηρώτησαν δὲ αὐτὸν λέγοντες· Διδάσκαλε, πότε οὖν ταῦτα ἔσται, καὶ τί τὸ σημεῖον ὅταν μέλλῃ ταῦτα γίνεσθαι;",
+      "text_kjv": "And they asked him, saying, Master, but when shall these things be? and what sign will there be when these things shall come to pass?",
+      "rendering": "They asked him, \"Teacher, when will these things happen? And what will be the sign when these things are about to take place?\"",
+      "translator_notes": [
+        "The two questions — 'when?' (pote) and 'what sign?' (ti to sēmeion) — shape the rest of the discourse. Luke's version has only two questions (unlike Matthew's three in 24:3, which adds 'and of the end of the age'). This gives Luke's discourse a tighter focus on the destruction of Jerusalem rather than the end of the world."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 8,
+      "text_greek": "ὁ δὲ εἶπεν· Βλέπετε μὴ πλανηθῆτε· πολλοὶ γὰρ ἐλεύσονται ἐπὶ τῷ ὀνόματί μου λέγοντες· Ἐγώ εἰμι, καί· Ὁ καιρὸς ἤγγικεν· μὴ πορευθῆτε ὀπίσω αὐτῶν.",
+      "text_kjv": "And he said, Take heed that ye be not deceived: for many shall come in my name, saying, I am Christ; and the time draweth near: go ye not therefore after them.",
+      "rendering": "He said, \"Watch out that you are not deceived. For many will come in my name, saying, 'I am he,' and, 'The time is near.' Do not follow them.",
+      "translator_notes": [
+        "The first warning is against deception (planēthēte, 'be led astray'). The phrase ego eimi ('I am he') echoes the divine self-revelation formula (Exodus 3:14; Isaiah 43:10), suggesting false messiahs who claim divine status. Luke uniquely adds ho kairos ēngiken ('the time has drawn near'), warning against those who claim the end is imminent. The command mē poreuthēte opisō autōn ('do not go after them') prohibits joining their movements.",
+        "[TCR Cross-Reference] References Exodus 3:14 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved.",
+        "[TCR Cross-Reference] References Isaiah 43:10 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 9,
+      "text_greek": "ὅταν δὲ ἀκούσητε πολέμους καὶ ἀκαταστασίας, μὴ πτοηθῆτε· δεῖ γὰρ ταῦτα γενέσθαι πρῶτον, ἀλλ' οὐκ εὐθέως τὸ τέλος.",
+      "text_kjv": "But when ye shall hear of wars and commotions, be not terrified: for these things must first come to pass; but the end is not by and by.",
+      "rendering": "When you hear of wars and uprisings, do not be terrified. These things must happen first, but the end will not come immediately.\"",
+      "translator_notes": [
+        "Luke uses akatastasias ('disorders, instabilities, uprisings') instead of Mark's 'rumors of wars,' a term that better fits the political turbulence of the 60s AD in Judea. The verb ptoēthēte ('be terrified, be startled') implies a visceral, panicked fear. The phrase ouk eutheōs to telos ('not immediately the end') is another distinctly Lukan addition, tempering eschatological urgency: wars are not the end itself but precursors."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 10,
+      "text_greek": "Τότε ἔλεγεν αὐτοῖς· Ἐγερθήσεται ἔθνος ἐπ' ἔθνος καὶ βασιλεία ἐπὶ βασιλείαν,",
+      "text_kjv": "Then said he unto them, Nation shall rise against nation, and kingdom against kingdom:",
+      "rendering": "Then he said to them, \"Nation will rise against nation, and kingdom against kingdom.",
+      "translator_notes": [
+        "The formula ethnos ep' ethnos kai basileia epi basileian ('nation against nation and kingdom against kingdom') echoes Isaiah 19:2 and 2 Chronicles 15:6, drawing on prophetic language for catastrophic upheaval. The scope is international, not merely local — the entire political order will be convulsed.",
+        "[TCR Cross-Reference] This verse quotes Isaiah 19:2 — see the TCR rendering of that passage for the Hebrew source text and translation decisions.",
+        "[TCR Cross-Reference] This verse quotes 2 Chronicles 15:6 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 11,
+      "text_greek": "σεισμοί τε μεγάλοι καὶ κατὰ τόπους λιμοὶ καὶ λοιμοὶ ἔσονται, φόβητρά τε καὶ ἀπ' οὐρανοῦ σημεῖα μεγάλα ἔσται.",
+      "text_kjv": "And great earthquakes shall be in divers places, and famines, and pestilences; and fearful sights and great signs shall there be from heaven.",
+      "rendering": "There will be great earthquakes, and famines and plagues in various places, and there will be terrifying events and great signs from heaven.",
+      "translator_notes": [
+        "Luke combines seismoi ('earthquakes'), limoi ('famines'), and loimoi ('plagues, pestilences') — the last two form a near-rhyme in Greek (limoi kai loimoi), which may be a mnemonic device. The phobētra ('terrifying things, terrors') and sēmeia megala ('great signs') from heaven are unique to Luke and expand the catalog of portents beyond the natural to the cosmic."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 12,
+      "text_greek": "πρὸ δὲ τούτων πάντων ἐπιβαλοῦσιν ἐφ' ὑμᾶς τὰς χεῖρας αὐτῶν καὶ διώξουσιν, παραδιδόντες εἰς τὰς συναγωγὰς καὶ φυλακάς, ἀπαγομένους ἐπὶ βασιλεῖς καὶ ἡγεμόνας ἕνεκεν τοῦ ὀνόματός μου·",
+      "text_kjv": "But before all these, they shall lay their hands on you, and persecute you, delivering you up to the synagogues, and into prisons, being brought before kings and rulers for my name's sake.",
+      "rendering": "But before all this, they will seize you and persecute you, handing you over to synagogues and prisons, and you will be brought before kings and governors because of my name.",
+      "translator_notes": [
+        "The phrase pro de toutōn pantōn ('but before all these things') establishes a chronological marker: persecution of the disciples precedes the cosmic upheavals. The progression from synagogue trials to prison to royal courts mirrors exactly what happens in Acts: apostles before the Sanhedrin (Acts 4-5), Stephen's synagogue trial (Acts 6-7), James and Peter in prison (Acts 12), Paul before governors Felix and Festus and King Agrippa (Acts 24-26). Luke's Jesus prophesies what Luke the historian later narrates."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 13,
+      "text_greek": "ἀποβήσεται ὑμῖν εἰς μαρτύριον.",
+      "text_kjv": "And it shall turn to you for a testimony.",
+      "rendering": "This will be your opportunity to testify.",
+      "translator_notes": [
+        "The phrase apobēsetai hymin eis martyrion ('it will result for you in testimony') reframes persecution as opportunity. The word martyrion ('testimony, witness') is the root of 'martyrdom' — in early Christianity, the two concepts were inseparable. What the persecutors intend as silencing becomes a platform for proclamation."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 14,
+      "text_greek": "θέτε οὖν ἐν ταῖς καρδίαις ὑμῶν μὴ προμελετᾶν ἀπολογηθῆναι·",
+      "text_kjv": "Settle it therefore in your hearts, not to meditate before what ye shall answer:",
+      "rendering": "So resolve in your hearts not to prepare your defense in advance,",
+      "translator_notes": [
+        "The phrase thete en tais kardiais hymōn ('set in your hearts, settle it firmly') indicates a decided commitment. The verb promeletān ('to practice beforehand, to rehearse') was used for rehearsing speeches — Jesus forbids the kind of anxious preparation that suggests reliance on human eloquence rather than divine provision."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 15,
+      "text_greek": "ἐγὼ γὰρ δώσω ὑμῖν στόμα καὶ σοφίαν ᾗ οὐ δυνήσονται ἀντιστῆναι ἢ ἀντειπεῖν ἅπαντες οἱ ἀντικείμενοι ὑμῖν.",
+      "text_kjv": "For I will give you a mouth and wisdom, which all your adversaries shall not be able to gainsay nor resist.",
+      "rendering": "For I will provide you a mouth and wisdom, which all your adversaries will not be able to oppose nor resist.",
+      "translator_notes": [
+        "Unlike Mark 13:11, which attributes the words to the Holy Spirit, Luke has Jesus say 'I will give' (egō dōsō) — a first-person divine promise. The pair stoma kai sophian ('a mouth and wisdom') means both the content of speech and the skill to deliver it. The two verbs antistēnai ('to resist, withstand') and anteipein ('to contradict, speak against') cover both physical intimidation and intellectual rebuttal — opponents will fail on both fronts. This is fulfilled in Acts: Stephen's opponents 'could not withstand the wisdom and the Spirit with which he was speaking' (Acts 6:10)."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 16,
+      "text_greek": "παραδοθήσεσθε δὲ καὶ ὑπὸ γονέων καὶ ἀδελφῶν καὶ συγγενῶν καὶ φίλων, καὶ θανατώσουσιν ἐξ ὑμῶν,",
+      "text_kjv": "And ye shall be betrayed both by parents, and brethren, and kinsfolks, and friends; and some of you shall they cause to be put to death.",
+      "rendering": "You will be handed over even by parents, brothers, relatives, and friends, and they will put some of you to death.",
+      "translator_notes": [
+        "The verb paradothēsesthe ('you will be handed over, betrayed') is the same word used for Judas's betrayal of Jesus (22:4, 6). The escalating list — parents, brothers, relatives, friends — describes the disintegration of the most intimate bonds. The phrase thanatōsousin ex hymōn ('they will kill some of you') is blunt: following Jesus will cost some disciples their lives. This is fulfilled in Acts with the deaths of Stephen (Acts 7) and James (Acts 12:2)."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 17,
+      "text_greek": "καὶ ἔσεσθε μισούμενοι ὑπὸ πάντων διὰ τὸ ὄνομά μου.",
+      "text_kjv": "And ye shall be hated of all men for my name's sake.",
+      "rendering": "You will be hated by everyone because of my name.",
+      "translator_notes": [
+        "The phrase hypo pantōn ('by all') is hyperbolic but communicates the universality of the hostility — opposition will come from every direction. The phrase dia to onoma mou ('because of my name') identifies Jesus's name as the cause of hatred, connecting back to verse 12. Bearing his name marks the disciples as targets."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 18,
+      "text_greek": "καὶ θρὶξ ἐκ τῆς κεφαλῆς ὑμῶν οὐ μὴ ἀπόληται.",
+      "text_kjv": "But there shall not an hair of your head perish.",
+      "rendering": "But not a hair of your head will perish.",
+      "translator_notes": [
+        "This creates an apparent paradox with verse 16 ('some of you will be put to death'): how can not a hair perish if some will die? The resolution lies in the eschatological perspective — physical death does not represent ultimate loss for those who belong to Christ. The double negative ou mē ('by no means, absolutely not') is the strongest Greek negation, expressing absolute divine protection of the disciples' ultimate destiny, even through martyrdom."
+      ],
+      "reading_level": "5th grade"
+    },
+    {
+      "verse": 19,
+      "text_greek": "ἐν τῇ ὑπομονῇ ὑμῶν κτήσασθε τὰς ψυχὰς ὑμῶν.",
+      "text_kjv": "In your patience possess ye your souls.",
+      "rendering": "By your endurance you will gain your lives.",
+      "translator_notes": [
+        "The word hypomonē ('endurance, steadfast persistence, patient endurance under suffering') is a key virtue in early Christianity. The verb ktēsasthe can be either imperative ('gain!') or future indicative ('you will gain') — the ambiguity may be intentional, functioning as both command and promise. The psychas ('souls, lives') echoes 17:33: the way to preserve one's life is not through self-protection but through faithful endurance."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 20,
+      "text_greek": "Ὅταν δὲ ἴδητε κυκλουμένην ὑπὸ στρατοπέδων Ἰερουσαλήμ, τότε γνῶτε ὅτι ἤγγικεν ἡ ἐρήμωσις αὐτῆς.",
+      "text_kjv": "And when ye shall see Jerusalem compassed with armies, then know that the desolation thereof is nigh.",
+      "rendering": "\"When you see Jerusalem being surrounded by armies, then know that its desolation has drawn near.",
+      "translator_notes": [
+        "This is Luke's most distinctive departure from the Markan parallel: where Mark 13:14 has the cryptic 'abomination of desolation standing where it should not,' Luke has the concrete image of Jerusalem surrounded by armies (stratopedōn, 'military camps'). The word erēmōsis ('desolation, devastation, depopulation') echoes Daniel 9:27 and 12:11, connecting Jesus's prophecy to the Danielic tradition. This verse is often cited as evidence that Luke wrote after AD 70, though prophetic specificity does not require post-event composition.",
+        "[TCR Cross-Reference] This verse quotes Daniel 9:27 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 21,
+      "text_greek": "τότε οἱ ἐν τῇ Ἰουδαίᾳ φευγέτωσαν εἰς τὰ ὄρη, καὶ οἱ ἐν μέσῳ αὐτῆς ἐκχωρείτωσαν, καὶ οἱ ἐν ταῖς χώραις μὴ εἰσερχέσθωσαν εἰς αὐτήν·",
+      "text_kjv": "Then let them which are in Judaea flee to the mountains; and let them which are in the midst of it depart out; and let not them that are in the countries enter thereinto.",
+      "rendering": "Then let those in Judea flee to the mountains, let those inside the city get out, and let those in the countryside not enter it.",
+      "translator_notes": [
+        "Three groups receive three commands: those in Judea (flee to mountains), those inside Jerusalem (leave immediately), those in the surrounding countryside (do not seek refuge in the city). According to Eusebius (Church History 3.5.3), the Jerusalem Christians did flee to Pella in Transjordan before the Roman siege, possibly in response to this prophecy. The verb ekchōreitōsan ('let them depart, withdraw') is unique to Luke among the Synoptics."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 22,
+      "text_greek": "ὅτι ἡμέραι ἐκδικήσεως αὗταί εἰσιν τοῦ πλησθῆναι πάντα τὰ γεγραμμένα.",
+      "text_kjv": "For these be the days of vengeance, that all things which are written may be fulfilled.",
+      "rendering": "For these are days of vengeance, so that everything that has been written will be fulfilled.",
+      "translator_notes": [
+        "The phrase hēmerai ekdikēseōs ('days of vengeance/retribution') echoes Hosea 9:7 and Isaiah 63:4 — prophetic language for divine judgment on a faithless people. The phrase panta ta gegrammena ('everything written') refers to the prophetic warnings in the Hebrew Bible about judgment on Jerusalem (cf. Deuteronomy 28:49-57, Daniel 9:26-27). Luke frames the destruction not as a Roman political action but as the fulfillment of prophetic scripture.",
+        "[TCR Cross-Reference] Draws on Hosea 9:7. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices.",
+        "[TCR Cross-Reference] Draws on Isaiah 63:4. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices.",
+        "[TCR Cross-Reference] Draws on Deuteronomy 28:49-57. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices.",
+        "[TCR Cross-Reference] Draws on Daniel 9:26-27. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 23,
+      "text_greek": "οὐαὶ ταῖς ἐν γαστρὶ ἐχούσαις καὶ ταῖς θηλαζούσαις ἐν ἐκείναις ταῖς ἡμέραις· ἔσται γὰρ ἀνάγκη μεγάλη ἐπὶ τῆς γῆς καὶ ὀργὴ τῷ λαῷ τούτῳ,",
+      "text_kjv": "But woe unto them that are with child, and to them that give suck, in those days! for there shall be great distress in the land, and wrath upon this people.",
+      "rendering": "How terrible it will be for those who are pregnant and for those who are nursing infants in those days! For there will be great distress upon the land and wrath against this people.",
+      "translator_notes": [
+        "The 'woe' (ouai) is an expression of grief, not a curse — Jesus mourns the suffering of the most vulnerable. Pregnant women and nursing mothers would be the least able to flee. The phrase anankē megalē ('great distress, dire necessity') describes the extreme suffering of the siege. Luke adds orgē tō laō toutō ('wrath against this people'), making explicit what is implicit in Mark — the siege is an expression of divine judgment."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 24,
+      "text_greek": "καὶ πεσοῦνται στόματι μαχαίρης καὶ αἰχμαλωτισθήσονται εἰς τὰ ἔθνη πάντα, καὶ Ἰερουσαλὴμ ἔσται πατουμένη ὑπὸ ἐθνῶν, ἄχρι οὗ πληρωθῶσιν καιροὶ ἐθνῶν.",
+      "text_kjv": "And they shall fall by the edge of the sword, and shall be led away captive into all nations: and Jerusalem shall be trodden down of the Gentiles, until the times of the Gentiles be fulfilled.",
+      "rendering": "They will fall by the edge of the sword and be led away as captives to all the nations, and Jerusalem will be trampled by the Gentiles until the times of the Gentiles are fulfilled.",
+      "translator_notes": [
+        "This verse is unique to Luke and describes the post-destruction fate of Jerusalem with remarkable precision: stomati machairēs ('by the mouth/edge of the sword') — Josephus reports that 1.1 million Jews died in the siege; aichmalōtisthēsontai ('will be taken captive') — Josephus reports 97,000 taken prisoner. The phrase kairoi ethnōn ('times of the Gentiles') introduces a mysterious period of Gentile domination over Jerusalem with a definite end (achri hou, 'until'). This implies eventual restoration, but the timeline is deliberately unspecified."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 25,
+      "text_greek": "Καὶ ἔσονται σημεῖα ἐν ἡλίῳ καὶ σελήνῃ καὶ ἄστροις, καὶ ἐπὶ τῆς γῆς συνοχὴ ἐθνῶν ἐν ἀπορίᾳ ἤχους θαλάσσης καὶ σάλου,",
+      "text_kjv": "And there shall be signs in the sun, and in the moon, and in the stars; and upon the earth distress of nations, with perplexity; the sea and the waves roaring;",
+      "rendering": "\"There will be signs in the sun, moon, and stars, and on the earth distress among nations, bewildered by the roaring and surging of the sea.",
+      "translator_notes": [
+        "The discourse shifts from Jerusalem's destruction to cosmic upheaval, drawing on prophetic imagery from Isaiah 13:10, Joel 2:30-31, and Amos 8:9. Whether these cosmic signs are literal or metaphorical for political upheaval is debated — in Old Testament prophetic literature, cosmic language often describes the fall of political powers (cf. Isaiah 13:10 about Babylon, Ezekiel 32:7 about Egypt). The word synochē ('distress, anguish, constriction') suggests a tightening, suffocating fear. The aporia ('bewilderment, perplexity, helplessness') adds cognitive paralysis to the emotional distress.",
+        "[TCR Cross-Reference] This verse quotes Isaiah 13:10 — see the TCR rendering of that passage for the Hebrew source text and translation decisions.",
+        "[TCR Cross-Reference] This verse quotes Joel 2:30-31 — see the TCR rendering of that passage for the Hebrew source text and translation decisions.",
+        "[TCR Cross-Reference] This verse quotes Amos 8:9 — see the TCR rendering of that passage for the Hebrew source text and translation decisions.",
+        "[TCR Cross-Reference] This verse quotes Ezekiel 32:7 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 26,
+      "text_greek": "ἀποψυχόντων ἀνθρώπων ἀπὸ φόβου καὶ προσδοκίας τῶν ἐπερχομένων τῇ οἰκουμένῃ· αἱ γὰρ δυνάμεις τῶν οὐρανῶν σαλευθήσονται.",
+      "text_kjv": "Men's hearts failing them for fear, and for looking after those things which are coming on the earth: for the powers of heaven shall be shaken.",
+      "rendering": "People will faint from fear and dread of what is coming upon the inhabited world, for the powers of the heavens will be shaken.",
+      "translator_notes": [
+        "The verb apopsychontōn ('fainting, breathing out, expiring from fear') is unique to the New Testament — literally 'breathing away,' suggesting people will be so terrified they lose consciousness or die of fright. The oikoumenē ('inhabited world') is the entire civilized world, not merely Judea. The dynameis tōn ouranōn ('powers of the heavens') may refer to celestial bodies (sun, moon, stars as cosmic forces), angelic powers, or both — the shaking (saleuthēsontai) of these powers represents the dissolution of the created order itself."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 27,
+      "text_greek": "καὶ τότε ὄψονται τὸν υἱὸν τοῦ ἀνθρώπου ἐρχόμενον ἐν νεφέλῃ μετὰ δυνάμεως καὶ δόξης πολλῆς.",
+      "text_kjv": "And then shall they see the Son of man coming in a cloud with power and great glory.",
+      "rendering": "Then will they see the Son of Man coming in a cloud with authority and remarkable glory.",
+      "translator_notes": [
+        "This alludes directly to Daniel 7:13-14, where 'one like a son of man' comes 'with the clouds of heaven' to receive dominion from the Ancient of Days. Luke uses the singular nephelē ('a cloud,' not 'clouds'), emphasizing the theophanic quality — in the Old Testament, the cloud is associated with God's presence (Exodus 13:21, 40:34). The combination of dynamis ('power') and doxa ('glory') marks this as a divine appearance. The verb opsontai ('they will see') indicates universal visibility — this is not a secret or spiritual event.",
+        "[TCR Cross-Reference] Draws on Daniel 7:13-14. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices.",
+        "[TCR Cross-Reference] Draws on Exodus 13:21. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 28,
+      "text_greek": "ἀρχομένων δὲ τούτων γίνεσθαι ἀνακύψατε καὶ ἐπάρατε τὰς κεφαλὰς ὑμῶν, διότι ἐγγίζει ἡ ἀπολύτρωσις ὑμῶν.",
+      "text_kjv": "And when these things begin to come to pass, then look up, and lift up your heads; for your redemption draweth nigh.",
+      "rendering": "When these things begin to happen, stand up and raise your heads, because your redemption is drawing near.\"",
+      "translator_notes": [
+        "While the world faints from terror (v. 26), the disciples are told to stand up (anakypsate, 'straighten up, look up with confidence') and raise their heads (eparate tas kephalas, 'lift your heads') — postures of hope, not fear. The word apolytrōsis ('redemption, liberation, ransom') is a commercial term for buying a slave's freedom. The same events that terrify the world signal liberation for believers. This verse is the emotional heart of the discourse: the coming of the Son of Man is not a threat but a rescue."
+      ],
+      "key_terms": [
+        {
+          "greek": "ἀπολύτρωσις",
+          "transliteration": "apolytrōsis",
+          "rendered_as": "redemption",
+          "semantic_range": "redemption, release, liberation, ransom, deliverance",
+          "note": "From the verb apolytrōō ('to release on payment of ransom'). In the New Testament, it describes God's act of liberating his people from bondage — whether sin, death, or oppression. Here it refers to final, eschatological deliverance."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 29,
+      "text_greek": "Καὶ εἶπεν παραβολὴν αὐτοῖς· Ἴδετε τὴν συκῆν καὶ πάντα τὰ δένδρα·",
+      "text_kjv": "And he spake to them a parable; Behold the fig tree, and all the trees;",
+      "rendering": "He told them a parable: \"Look at the fig tree and all the trees.",
+      "translator_notes": [
+        "Luke adds 'and all the trees' (kai panta ta dendra) to Mark's 'fig tree,' universalizing the analogy — any deciduous tree demonstrates the same principle. In Palestine, the fig tree's leaf cycle was a particularly reliable seasonal marker because it was one of the last trees to leaf out in spring."
+      ],
+      "reading_level": "5th grade"
+    },
+    {
+      "verse": 30,
+      "text_greek": "ὅταν προβάλωσιν ἤδη, βλέποντες ἀφ' ἑαυτῶν γινώσκετε ὅτι ἤδη ἐγγὺς τὸ θέρος ἐστίν·",
+      "text_kjv": "When they now shoot forth, ye see and know of your own selves that summer is now nigh at hand.",
+      "rendering": "When they sprout leaves, you can see for yourselves and know that summer is already near.",
+      "translator_notes": [
+        "The verb probalōsin ('put forth, sprout') refers to the visible budding of leaves. The phrase aph' heautōn ('from yourselves, on your own') emphasizes that this is observable common sense — no special revelation is needed. The analogy is simple: just as natural signs indicate coming seasons, the events described in this discourse will indicate the coming of the kingdom."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 31,
+      "text_greek": "οὕτως καὶ ὑμεῖς, ὅταν ἴδητε ταῦτα γινόμενα, γινώσκετε ὅτι ἐγγύς ἐστιν ἡ βασιλεία τοῦ θεοῦ.",
+      "text_kjv": "So likewise ye, when ye see these things come to pass, know ye that the kingdom of God is nigh at hand.",
+      "rendering": "In the same way, when you see these things happening, know that the kingdom of God is near.",
+      "translator_notes": [
+        "Luke has 'the kingdom of God' (hē basileia tou theou) where Mark 13:29 has simply 'he is near' or 'it is near' — Luke makes the referent explicit. The signs described in this discourse do not predict the kingdom's arrival but signal its proximity. The present imperative ginōskete ('know, recognize') demands ongoing awareness."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 32,
+      "text_greek": "ἀμὴν λέγω ὑμῖν ὅτι οὐ μὴ παρέλθῃ ἡ γενεὰ αὕτη ἕως ἂν πάντα γένηται.",
+      "text_kjv": "Verily I say unto you, This generation shall not pass away, till all be fulfilled.",
+      "rendering": "Truly I tell you, this generation will certainly not pass away until all these things have happened.",
+      "translator_notes": [
+        "The phrase hē genea hautē ('this generation') is among the most debated expressions in the Gospels. It could mean: (1) Jesus's contemporaries (fulfilled if 'all these things' refers to AD 70), (2) the generation alive when the signs begin (making it future-referential), (3) 'this kind of people' (the faithless generation, making it a moral category). The double negative ou mē ('certainly not, by no means') expresses absolute certainty. We render the Greek literally and leave the interpretive question to the reader."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 33,
+      "text_greek": "ὁ οὐρανὸς καὶ ἡ γῆ παρελεύσονται, οἱ δὲ λόγοι μου οὐ μὴ παρελεύσονται.",
+      "text_kjv": "Heaven and earth shall pass away: but my words shall not pass away.",
+      "rendering": "Heaven and earth will pass away, but my words will never pass away.",
+      "translator_notes": [
+        "The claim is extraordinary: the most permanent things in human experience — heaven and earth — are declared temporary, while Jesus's words are declared eternal. The same verb pareleusetai ('will pass away') is used for both, creating a direct contrast. This is an implicit claim to divine authority — only God's word endures forever (Isaiah 40:8). Jesus places his own words on par with the word of God.",
+        "[TCR Cross-Reference] References Isaiah 40:8 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 34,
+      "text_greek": "Προσέχετε δὲ ἑαυτοῖς μήποτε βαρηθῶσιν ὑμῶν αἱ καρδίαι ἐν κραιπάλῃ καὶ μέθῃ καὶ μερίμναις βιωτικαῖς, καὶ ἐπιστῇ ἐφ' ὑμᾶς αἰφνίδιος ἡ ἡμέρα ἐκείνη",
+      "text_kjv": "And take heed to yourselves, lest at any time your hearts be overcharged with surfeiting, and drunkenness, and cares of this life, and so that day come upon you unawares.",
+      "rendering": "\"Watch yourselves, so that your hearts are not weighed down with carousing, drunkenness, and the worries of this life, and that day closes on you suddenly",
+      "translator_notes": [
+        "The warnings are uniquely Lukan. The verb barēthōsin ('be weighed down, be made heavy') echoes the Gethsemane scene (22:45, where the disciples are 'weighed down with grief'). Three dangers are listed: kraipale ('carousing, hangover, dissipation'), methē ('drunkenness'), and merimnais biōtikais ('worries of daily life, anxieties about livelihood'). The third is as dangerous as the first two — ordinary anxieties can dull spiritual alertness as effectively as excess."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 35,
+      "text_greek": "ὡς παγίς· ἐπεισελεύσεται γὰρ ἐπὶ πάντας τοὺς καθημένους ἐπὶ πρόσωπον πάσης τῆς γῆς.",
+      "text_kjv": "For as a snare shall it come on all them that dwell on the face of the whole earth.",
+      "rendering": "Because as a snare will it come on all them that dwell on the face of the whole earth.",
+      "translator_notes": [
+        "The word pagis ('trap, snare') describes something that springs shut suddenly and inescapably. The scope is universal: epi pantas tous kathēmenous epi prosōpon pasēs tēs gēs ('upon all who sit/dwell upon the face of all the earth'). No one is exempt. The imagery connects to the Noah and Lot comparisons of 17:26-30 — the day catches people in the midst of ordinary life."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 36,
+      "text_greek": "ἀγρυπνεῖτε δὲ ἐν παντὶ καιρῷ δεόμενοι ἵνα κατισχύσητε ἐκφυγεῖν ταῦτα πάντα τὰ μέλλοντα γίνεσθαι, καὶ σταθῆναι ἔμπροσθεν τοῦ υἱοῦ τοῦ ἀνθρώπου.",
+      "text_kjv": "Watch ye therefore, and pray always, that ye may be accounted worthy to escape all these things that shall come to pass, and to stand before the Son of man.",
+      "rendering": "Stay alert at all times, praying that you may have strength to escape all these things that are going to take place, and to stand before the Son of Man.\"",
+      "translator_notes": [
+        "The verb agrypneite ('stay awake, be vigilant, be sleepless') is stronger than the usual grēgoreite ('watch') — it implies a state of constant wakefulness. The verb katischysēte ('have strength, prevail, be able') emphasizes that escaping the coming tribulations and standing before the Son of Man requires divine empowerment obtained through prayer. The goal is dual: ekphygein ('to escape') the coming calamities and stathēnai ('to stand') — to be found standing rather than fallen when the Son of Man appears. This verse bookends the discourse with verse 8's opening warning: the proper response to eschatological expectation is not calculation but prayer."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 37,
+      "text_greek": "Ἦν δὲ τὰς ἡμέρας ἐν τῷ ἱερῷ διδάσκων, τὰς δὲ νύκτας ἐξερχόμενος ηὐλίζετο εἰς τὸ ὄρος τὸ καλούμενον Ἐλαιῶν·",
+      "text_kjv": "And in the day time he was teaching in the temple; and at night he went out, and abode in the mount that is called the mount of Olives.",
+      "rendering": "During the day he was teaching in the temple, but at night he would go out and spend the night on the hill called the Mount of Olives.",
+      "translator_notes": [
+        "This summary verse establishes Jesus's routine during his final week: temple teaching by day, withdrawal to the Mount of Olives by night. The verb ēulizeto ('lodged, spent the night, bivouacked') suggests sleeping outdoors rather than in a house — possibly at the garden of Gethsemane on the olive-tree-covered hillside. This pattern explains how Judas knew where to find Jesus at night (22:39)."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 38,
+      "text_greek": "καὶ πᾶς ὁ λαὸς ὤρθριζεν πρὸς αὐτὸν ἐν τῷ ἱερῷ ἀκούειν αὐτοῦ.",
+      "text_kjv": "And all the people came early in the morning to him in the temple, for to hear him.",
+      "rendering": "And all the people would come to him early in the morning in the temple to listen to him.",
+      "translator_notes": [
+        "The verb ōrthrizen ('came early, rose at dawn') indicates the people's eagerness — they arrived at the temple at first light to hear Jesus teach. This popular devotion explains the authorities' dilemma (19:47-48, 20:19): the people's intense attachment to Jesus makes a public arrest politically impossible, forcing the leaders to seek a covert opportunity, which Judas will provide."
+      ],
+      "reading_level": "6th grade"
+    }
+  ]
+}

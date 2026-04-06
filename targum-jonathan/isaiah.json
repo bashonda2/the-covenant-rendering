@@ -1,0 +1,472 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Isaiah",
+    "tradition": "targum-jonathan",
+    "tradition_label": "Targum Jonathan",
+    "source_text": "Targum Jonathan (standard printed edition)",
+    "base_text": "Westminster Leningrad Codex (WLC)",
+    "date": "2nd-5th c. CE (earliest layers 1st c. BCE)",
+    "generated_at": "2026-04-05T00:00:00Z",
+    "prompt_version": "1.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Targum Jonathan on Isaiah is the richest book in the entire targum corpus for Messianic theology. The Servant Songs are explicitly identified as Messianic, the throne names of Isaiah 9:6 are given royal-Messianic interpretation, and Isaiah 52:13-53:12 — the Suffering Servant — is dramatically reinterpreted so that the Messiah conquers rather than suffers. Anti-anthropomorphism governs the throne vision of chapter 6. The eschatological visions of chapters 2, 11, 24-27, and 40-66 receive extensive theological expansion.",
+    "notable_renderings": "Isaiah 6:1 ('I saw the LORD') becomes 'I saw the glory of the LORD.' Isaiah 9:6 throne names are rendered as descriptions of Messianic kingship. Isaiah 11:1 introduces 'the Messiah of the anointed ones of Israel.' The Servant Songs (42:1, 49:3, 50:10, 52:13-53:12) are all identified with the Messiah but reinterpreted to emphasize conquest over suffering. Isaiah 53 is the most theologically consequential chapter in all targum literature.",
+    "theological_themes": "Messianic identification of the Servant; anti-anthropomorphism in theophany (chapter 6); reinterpretation of suffering as victory; Memra as agent of comfort and redemption in Second Isaiah; Shekinah return to Zion in Third Isaiah; eschatological restoration of Israel."
+  },
+  "renderings": [
+    {
+      "reference": "Isaiah 1:2",
+      "hebrew_text": "שִׁמְעוּ שָׁמַיִם וְהַאֲזִינִי אֶרֶץ כִּי יְהוָה דִּבֵּר",
+      "targum_text": "shema'u shemayya ve'atzitu ar'a arei Adonai mallil",
+      "targum_rendering": "Hear, O heavens, and give ear, O earth, for the LORD has spoken.",
+      "mt_rendering": "Hear, O heavens, and give ear, O earth, for the LORD has spoken.",
+      "category": "literal",
+      "notes": ["The opening covenant lawsuit is rendered literally. The cosmic witnesses are addressed as in Deuteronomy 32:1."]
+    },
+    {
+      "reference": "Isaiah 2:2",
+      "hebrew_text": "וְהָיָה בְּאַחֲרִית הַיָּמִים נָכוֹן יִהְיֶה הַר בֵּית־יְהוָה בְּרֹאשׁ הֶהָרִים",
+      "targum_text": "vihavei besof yomayya yehei methaqan beit maqdsha daAdonai bireish turayya",
+      "targum_rendering": "And it shall be in the end of days that the Temple of the LORD shall be established at the head of the mountains.",
+      "mt_rendering": "And it shall come to pass in the latter days that the mountain of the house of the LORD shall be established as the highest of the mountains.",
+      "category": "eschatological",
+      "notes": ["'The mountain of the house of the LORD' becomes 'the Temple of the LORD,' making the eschatological prophecy explicitly about Temple restoration. The end-times vision is centered on a rebuilt Temple."]
+    },
+    {
+      "reference": "Isaiah 4:5",
+      "hebrew_text": "וּבָרָא יְהוָה עַל כָּל־מְכוֹן הַר־צִיּוֹן... עָנָן יוֹמָם וְעָשָׁן וְנֹגַהּ אֵשׁ לֶהָבָה לָיְלָה",
+      "targum_text": "viyivrei Adonai al kol atar beit Shekhinteih detur Tziyyon... anana diyemama ve'ashana venehora de'esha deleilya",
+      "targum_rendering": "And the LORD will create over every place of the house of his Shekinah on Mount Zion... a cloud by day and smoke and a shining of flaming fire by night.",
+      "mt_rendering": "Then the LORD will create over the whole site of Mount Zion... a cloud by day, and smoke and the shining of a flaming fire by night.",
+      "category": "shekinah",
+      "notes": ["Mount Zion becomes 'the place of the house of his Shekinah,' explicitly connecting the eschatological vision to Shekinah theology. The pillar of cloud and fire recalls the Exodus, creating a new-Exodus typology."]
+    },
+    {
+      "reference": "Isaiah 6:1",
+      "hebrew_text": "רָאִיתִי אֶת־אֲדֹנָי יֹשֵׁב עַל־כִּסֵּא רָם וְנִשָּׂא",
+      "targum_text": "chazeiti yat yeqara daAdonai sharyah al kursei ramai venittal",
+      "targum_rendering": "I saw the glory of the LORD resting upon a throne, high and lifted up.",
+      "mt_rendering": "I saw the Lord sitting upon a throne, high and lifted up.",
+      "category": "anti-anthropomorphism",
+      "notes": ["Isaiah did not see the LORD — he saw 'the glory of the LORD' (yeqar Adonai). This is the foundational anti-anthropomorphic move in Isaiah. God does not 'sit' but his glory 'rests' (sharyah) upon the throne."]
+    },
+    {
+      "reference": "Isaiah 6:3",
+      "hebrew_text": "קָדוֹשׁ קָדוֹשׁ קָדוֹשׁ יְהוָה צְבָאוֹת מְלֹא כָל־הָאָרֶץ כְּבוֹדוֹ",
+      "targum_text": "qaddish qaddish qaddish Adonai Tzevaot meli khol ar'a yeqareih",
+      "targum_rendering": "Holy, holy, holy is the LORD of hosts; the whole earth is full of his glory.",
+      "mt_rendering": "Holy, holy, holy is the LORD of hosts; the whole earth is full of his glory.",
+      "category": "literal",
+      "notes": ["The Trisagion is rendered literally. The seraphim's hymn is too liturgically sacred for paraphrase. This is the one passage where God's glory filling the earth is stated by heavenly beings themselves."]
+    },
+    {
+      "reference": "Isaiah 6:5",
+      "hebrew_text": "כִּי אֶת־הַמֶּלֶךְ יְהוָה צְבָאוֹת רָאוּ עֵינָי",
+      "targum_text": "arei yat yeqara demalka daAdonai Tzevaot chazan einai",
+      "targum_rendering": "For my eyes have seen the glory of the King, the LORD of hosts.",
+      "mt_rendering": "For my eyes have seen the King, the LORD of hosts.",
+      "category": "anti-anthropomorphism",
+      "notes": ["Isaiah's confession is adjusted: his eyes saw the glory of the King, not the King himself. Even in the most dramatic prophetic vision, the principle holds: no one sees God directly."]
+    },
+    {
+      "reference": "Isaiah 6:8",
+      "hebrew_text": "אֶת־מִי אֶשְׁלַח וּמִי יֵלֶךְ־לָנוּ",
+      "targum_text": "yat man eshlach ve'uman yizal beshlichutana",
+      "targum_rendering": "Whom shall I send, and who will go on our mission?",
+      "mt_rendering": "Whom shall I send, and who will go for us?",
+      "category": "literal",
+      "notes": ["The plural 'for us' is rendered 'on our mission' (beshlichutana), softening the plurality without eliminating it. Jonathan does not eliminate the plural as aggressively as Onkelos does in Genesis."]
+    },
+    {
+      "reference": "Isaiah 7:14",
+      "hebrew_text": "הִנֵּה הָעַלְמָה הָרָה וְיֹלֶדֶת בֵּן וְקָרָאת שְׁמוֹ עִמָּנוּ אֵל",
+      "targum_text": "ha ulimta mea'addya veteilid bar vetiqrei shmeih Immanuel",
+      "targum_rendering": "Behold, the young woman is with child and shall bear a son, and she shall call his name Immanuel.",
+      "mt_rendering": "Behold, the virgin shall conceive and bear a son, and shall call his name Immanuel.",
+      "category": "messianic",
+      "notes": ["Jonathan renders 'almah as 'young woman' (ulimta) without Messianic elaboration, treating the sign as historically immediate. The name Immanuel ('God with us') is preserved without theological expansion — a rare instance of Jonathan's restraint."]
+    },
+    {
+      "reference": "Isaiah 9:5 [9:6 Eng]",
+      "hebrew_text": "כִּי־יֶלֶד יֻלַּד־לָנוּ בֵּן נִתַּן־לָנוּ וַתְּהִי הַמִּשְׂרָה עַל־שִׁכְמוֹ וַיִּקְרָא שְׁמוֹ פֶּלֶא יוֹעֵץ אֵל גִּבּוֹר אֲבִי־עַד שַׂר שָׁלוֹם",
+      "targum_text": "arei yelad ityelid lana bar ityehiv lana veqabbeil oraita aloi leminatteih ve'itqeri shmeih min qodam maphlia eitzan Elaha gibbara qayyam le'almayya Meshicha deshlama yisggei alana beyomoi",
+      "targum_rendering": "For a child is born to us, a son is given to us, and he has taken the Torah upon himself to keep it; and his name is called from before the Wonderful Counselor, the Mighty God, the One who lives forever: 'the Messiah, in whose days peace shall increase upon us.'",
+      "mt_rendering": "For to us a child is born, to us a son is given; and the government shall be upon his shoulder, and his name shall be called Wonderful Counselor, Mighty God, Everlasting Father, Prince of Peace.",
+      "category": "messianic",
+      "notes": ["This is one of the most theologically significant renderings in all of Jonathan. The throne names are split: the exalted titles (Wonderful Counselor, Mighty God, Everlasting One) are attributed to God who names the child, while the child himself is called 'the Messiah in whose days peace shall increase.' This preserves the Messianic reading while protecting divine titles from being applied directly to a human figure."]
+    },
+    {
+      "reference": "Isaiah 9:6 [9:7 Eng]",
+      "hebrew_text": "לְמַרְבֵּה הַמִּשְׂרָה וּלְשָׁלוֹם אֵין־קֵץ עַל־כִּסֵּא דָוִד",
+      "targum_text": "yisggei shultana uleshlam deleit sof al kurseih deDavid",
+      "targum_rendering": "Great shall be the dominion and peace without end upon the throne of David.",
+      "mt_rendering": "Of the increase of his government and of peace there will be no end, on the throne of David.",
+      "category": "messianic",
+      "notes": ["The eternal Davidic throne is rendered literally. Jonathan preserves the eschatological scope: the Messiah's kingdom on David's throne will have no end."]
+    },
+    {
+      "reference": "Isaiah 10:17",
+      "hebrew_text": "וְהָיָה אוֹר יִשְׂרָאֵל לְאֵשׁ",
+      "targum_text": "vihavei nehor Yisrael ketaqfa",
+      "targum_rendering": "And the light of Israel shall be as a mighty one.",
+      "mt_rendering": "And the light of Israel will become a fire.",
+      "category": "theological",
+      "notes": ["Fire imagery for God is replaced with 'mighty one' (taqfa), maintaining the pattern of avoiding physical-element metaphors for the divine."]
+    },
+    {
+      "reference": "Isaiah 11:1",
+      "hebrew_text": "וְיָצָא חֹטֶר מִגֵּזַע יִשָׁי וְנֵצֶר מִשָּׁרָשָׁיו יִפְרֶה",
+      "targum_text": "veyippoq malka mibbenoi deYishai uMeshicha mibbenei benoi yitrebbei",
+      "targum_rendering": "And a king shall come forth from the sons of Jesse, and the Messiah shall be anointed from his children's children.",
+      "mt_rendering": "And there shall come forth a shoot from the stump of Jesse, and a branch from his roots shall bear fruit.",
+      "category": "messianic",
+      "notes": ["The botanical imagery (shoot, branch, roots) is decoded as royal-Messianic prophecy. The shoot is a king; the branch is the Messiah. Jonathan makes explicit what the Hebrew encodes metaphorically: this is about the Davidic Messiah arising from Jesse's line."]
+    },
+    {
+      "reference": "Isaiah 11:2",
+      "hebrew_text": "וְנָחָה עָלָיו רוּחַ יְהוָה רוּחַ חָכְמָה וּבִינָה רוּחַ עֵצָה וּגְבוּרָה",
+      "targum_text": "vetishreh aloi ruach nvu'ah min qodam Adonai ruach chokmeta vesukhleta ruach eitzan ugevurta",
+      "targum_rendering": "And there shall rest upon him the spirit of prophecy from before the LORD, a spirit of wisdom and understanding, a spirit of counsel and might.",
+      "mt_rendering": "And the Spirit of the LORD shall rest upon him, the spirit of wisdom and understanding, the spirit of counsel and might.",
+      "category": "messianic",
+      "notes": ["'The Spirit of the LORD' becomes 'the spirit of prophecy from before the LORD,' specifying the nature of the Spirit's endowment as prophetic gifting. The Messiah is a prophet-king anointed with the prophetic spirit."]
+    },
+    {
+      "reference": "Isaiah 11:4",
+      "hebrew_text": "וְהִכָּה אֶרֶץ בְּשֵׁבֶט פִּיו",
+      "targum_text": "veyimcha ar'a bepitgam pumeih",
+      "targum_rendering": "And he shall strike the earth with the word of his mouth.",
+      "mt_rendering": "And he shall strike the earth with the rod of his mouth.",
+      "category": "messianic",
+      "notes": ["'The rod of his mouth' becomes 'the word of his mouth' (pitgam pumeih). The Messiah's weapon is verbal — a decree, not a physical rod. This connects to the Memra concept: the Messiah rules through authoritative speech."]
+    },
+    {
+      "reference": "Isaiah 14:13",
+      "hebrew_text": "אֶעֱלֶה עַל־בָּמֳתֵי עָב אֶדַּמֶּה לְעֶלְיוֹן",
+      "targum_text": "eissaq me'al bamei anana etdammei le'Illaya",
+      "targum_rendering": "I will ascend above the heights of the cloud; I will be like the Most High.",
+      "mt_rendering": "I will ascend above the heights of the clouds; I will make myself like the Most High.",
+      "category": "literal",
+      "notes": ["The king of Babylon's hubris is rendered literally. Jonathan preserves the blasphemous boast without softening, as the speaker is a human tyrant, not God."]
+    },
+    {
+      "reference": "Isaiah 21:8",
+      "hebrew_text": "וַיִּקְרָא אַרְיֵה עַל מִצְפֶּה אֲדֹנָי",
+      "targum_text": "uqra neviya sappaya qodam Adonai",
+      "targum_rendering": "And the prophet cried out, a watchman before the LORD.",
+      "mt_rendering": "Then he cried out: Upon a watchtower, O Lord.",
+      "category": "theological",
+      "notes": ["The enigmatic 'lion' (aryeh) is interpreted as 'the prophet,' reading the sentinel figure as a prophetic watchman stationed before God."]
+    },
+    {
+      "reference": "Isaiah 25:8",
+      "hebrew_text": "בִּלַּע הַמָּוֶת לָנֶצַח",
+      "targum_text": "yevatteil mota le'almayya",
+      "targum_rendering": "He will destroy death forever.",
+      "mt_rendering": "He will swallow up death forever.",
+      "category": "eschatological",
+      "notes": ["Jonathan renders 'swallow up' as 'destroy' (yevatteil), removing the anthropomorphic eating/swallowing metaphor. Paul cites this verse in 1 Corinthians 15:54. The eschatological abolition of death is unambiguous."]
+    },
+    {
+      "reference": "Isaiah 28:16",
+      "hebrew_text": "הִנְנִי יִסַּד בְּצִיּוֹן אָבֶן... אֶבֶן בֹּחַן פִּנַּת יִקְרַת",
+      "targum_text": "ha ana memanni beTziyyon malka malka taqif gibbara vedachila",
+      "targum_rendering": "Behold, I will appoint in Zion a king, a strong and mighty and terrible king.",
+      "mt_rendering": "Behold, I am the one who has laid as a foundation in Zion a stone, a tested stone, a precious cornerstone.",
+      "category": "messianic",
+      "notes": ["The cornerstone is interpreted as a Messianic king. Jonathan decodes the architectural metaphor as royal prophecy: the foundation stone in Zion is the king whom God appoints there."]
+    },
+    {
+      "reference": "Isaiah 30:27",
+      "hebrew_text": "הִנֵּה שֵׁם יְהוָה בָּא מִמֶּרְחָק בֹּעֵר אַפּוֹ",
+      "targum_text": "ha Memra daAdonai itgeli meracheiq betqof rug'zeih",
+      "targum_rendering": "Behold, the Memra of the LORD reveals himself from afar in the strength of his anger.",
+      "mt_rendering": "Behold, the name of the LORD comes from afar, burning with his anger.",
+      "category": "memra",
+      "notes": ["'The name of the LORD comes' becomes 'the Memra of the LORD reveals himself.' The divine Name, Memra, and self-revelation converge: the theophany of judgment operates through the revealed Word."]
+    },
+    {
+      "reference": "Isaiah 31:4",
+      "hebrew_text": "כֵּן יֵרֵד יְהוָה צְבָאוֹת לִצְבֹּא עַל הַר צִיּוֹן",
+      "targum_text": "ken yitgeli Adonai Tzevaot le'aggana al tura deTziyyon",
+      "targum_rendering": "So the LORD of hosts will reveal himself to fight upon Mount Zion.",
+      "mt_rendering": "So the LORD of hosts will come down to fight upon Mount Zion.",
+      "category": "anti-anthropomorphism",
+      "notes": ["Divine descent for battle becomes revelation for protection. The military theophany is real but the mode of arrival is revelation, not spatial descent."]
+    },
+    {
+      "reference": "Isaiah 33:22",
+      "hebrew_text": "כִּי יְהוָה שֹׁפְטֵנוּ יְהוָה מְחֹקְקֵנוּ יְהוָה מַלְכֵּנוּ",
+      "targum_text": "arei Adonai dayyanana Adonai mephaqedana Adonai malkana",
+      "targum_rendering": "For the LORD is our judge, the LORD is our commander, the LORD is our king.",
+      "mt_rendering": "For the LORD is our judge; the LORD is our lawgiver; the LORD is our king.",
+      "category": "literal",
+      "notes": ["The triple-office formula (judge, lawgiver/commander, king) is rendered literally. These titles require no anti-anthropomorphic adjustment — they are relational roles, not physical descriptions."]
+    },
+    {
+      "reference": "Isaiah 40:3",
+      "hebrew_text": "קוֹל קוֹרֵא בַּמִּדְבָּר פַּנּוּ דֶּרֶךְ יְהוָה",
+      "targum_text": "qal diqarei bemadabra pannau orch qodam Adonai",
+      "targum_rendering": "A voice crying in the wilderness: Prepare the way before the LORD.",
+      "mt_rendering": "A voice cries: In the wilderness prepare the way of the LORD.",
+      "category": "literal",
+      "notes": ["Jonathan preserves the herald's cry with 'before the LORD' (qodam Adonai) replacing 'of the LORD.' The targum reads 'in the wilderness' with the voice (as do the Gospels), not with 'prepare.'"]
+    },
+    {
+      "reference": "Isaiah 40:5",
+      "hebrew_text": "וְנִגְלָה כְּבוֹד יְהוָה",
+      "targum_text": "veyitgeli yeqara daAdonai",
+      "targum_rendering": "And the glory of the LORD shall be revealed.",
+      "mt_rendering": "And the glory of the LORD shall be revealed.",
+      "category": "literal",
+      "notes": ["The Hebrew already uses 'glory' (kavod), so Jonathan renders literally. The revelation of divine glory is the eschatological hope of Second Isaiah."]
+    },
+    {
+      "reference": "Isaiah 42:1",
+      "hebrew_text": "הֵן עַבְדִּי אֶתְמָךְ־בּוֹ בְּחִירִי רָצְתָה נַפְשִׁי",
+      "targum_text": "ha avdi Meshicha aqarveineih bechiri de'it'ei reva qodam nafshi",
+      "targum_rendering": "Behold, my servant the Messiah, I will bring him near; my chosen one in whom my soul delights.",
+      "mt_rendering": "Behold my servant, whom I uphold, my chosen, in whom my soul delights.",
+      "category": "messianic",
+      "notes": ["The first Servant Song explicitly identifies the Servant as 'the Messiah' (Meshicha). This is unambiguous: Jonathan reads the Isaianic Servant as the Messianic figure. 'I will uphold him' becomes 'I will bring him near' (aqarveineih), suggesting priestly approach or royal installation."]
+    },
+    {
+      "reference": "Isaiah 42:6",
+      "hebrew_text": "וְאֶתֶּנְךָ לִבְרִית עָם לְאוֹר גּוֹיִם",
+      "targum_text": "ve'eittinakh liqyam ammin linehor ummayya",
+      "targum_rendering": "And I will give you for a covenant of peoples, for a light to nations.",
+      "mt_rendering": "And I will give you as a covenant for the people, a light for the nations.",
+      "category": "messianic",
+      "notes": ["The Servant-Messiah's role extends to the nations: he is both Israel's covenant and the nations' light. Jonathan preserves the universal scope of the Servant's mission."]
+    },
+    {
+      "reference": "Isaiah 43:14",
+      "hebrew_text": "כֹּה אָמַר יְהוָה גֹּאַלְכֶם קְדוֹשׁ יִשְׂרָאֵל",
+      "targum_text": "kidna amar Adonai parqanakhon qaddisha deYisrael",
+      "targum_rendering": "Thus says the LORD, your Redeemer, the Holy One of Israel.",
+      "mt_rendering": "Thus says the LORD, your Redeemer, the Holy One of Israel.",
+      "category": "literal",
+      "notes": ["God as Redeemer (parqan) is rendered literally. The redemption terminology connects to the furqan/redemption language used throughout the targum."]
+    },
+    {
+      "reference": "Isaiah 45:17",
+      "hebrew_text": "יִשְׂרָאֵל נוֹשַׁע בַּיהוָה תְּשׁוּעַת עוֹלָמִים",
+      "targum_text": "Yisrael yitpereq beMemra daAdonai furqan almayya",
+      "targum_rendering": "Israel shall be redeemed by the Memra of the LORD, with an everlasting redemption.",
+      "mt_rendering": "Israel is saved by the LORD with an everlasting salvation.",
+      "category": "memra",
+      "notes": ["Israel's salvation is 'by the Memra of the LORD,' making the Word the agent of eternal redemption. The Hebrew yasha ('save') becomes paraq ('redeem'), emphasizing liberation."]
+    },
+    {
+      "reference": "Isaiah 45:22",
+      "hebrew_text": "פְּנוּ אֵלַי וְהִוָּשְׁעוּ כָּל אַפְסֵי אָרֶץ",
+      "targum_text": "itpenan livcavati ve'itperequ kol siyyafei ar'a",
+      "targum_rendering": "Turn to my worship and be redeemed, all the ends of the earth.",
+      "mt_rendering": "Turn to me and be saved, all the ends of the earth.",
+      "category": "anti-anthropomorphism",
+      "notes": ["'Turn to me' becomes 'turn to my worship' (livcavati), redirecting the human response from facing God (which implies God has a direction/location) to the act of worship."]
+    },
+    {
+      "reference": "Isaiah 49:3",
+      "hebrew_text": "וַיֹּאמֶר לִי עַבְדִּי אָתָּה יִשְׂרָאֵל אֲשֶׁר בְּךָ אֶתְפָּאָר",
+      "targum_text": "va'amar li avdi att Yisrael di vakh eshttabach",
+      "targum_rendering": "And he said to me, 'You are my servant, Israel, in whom I will be glorified.'",
+      "mt_rendering": "And he said to me, 'You are my servant, Israel, in whom I will be glorified.'",
+      "category": "messianic",
+      "notes": ["In the second Servant Song, Jonathan preserves the identification with Israel. The Servant is both Israel corporately and the Messiah individually — a dual identification that generates the creative tension of the entire Servant theology."]
+    },
+    {
+      "reference": "Isaiah 50:10",
+      "hebrew_text": "מִי בָכֶם יְרֵא יְהוָה שֹׁמֵעַ בְּקוֹל עַבְדּוֹ",
+      "targum_text": "man minnakhon dechadhil min qodam Adonai dishema' beqal avdeih",
+      "targum_rendering": "Who among you fears the LORD and obeys the voice of his servant?",
+      "mt_rendering": "Who among you fears the LORD and obeys the voice of his servant?",
+      "category": "messianic",
+      "notes": ["The third Servant Song asks who will heed the Servant's voice. Jonathan renders literally, but in context with 42:1 and 52:13, the servant is the Messiah whose voice demands obedience."]
+    },
+    {
+      "reference": "Isaiah 52:6",
+      "hebrew_text": "לָכֵן יֵדַע עַמִּי שְׁמִי לָכֵן בַּיּוֹם הַהוּא כִּי אֲנִי הוּא הַמְדַבֵּר הִנֵּנִי",
+      "targum_text": "bekhen yatidda' ammi shem Memri bechein beyoma hahu arei ana hu demallil ha Shekhineti",
+      "targum_rendering": "Therefore my people shall know the name of my Memra; therefore in that day [they shall know] that I am he who speaks — behold, my Shekinah [is present].",
+      "mt_rendering": "Therefore my people shall know my name; therefore in that day they shall know that it is I who speak; here I am.",
+      "category": "memra",
+      "notes": ["Both Memra and Shekinah appear: the people will know the name of the Memra, and God's presence is confirmed as 'behold, my Shekinah.' The eschatological revelation is a full disclosure of the Memra's name and the Shekinah's presence."]
+    },
+    {
+      "reference": "Isaiah 52:7",
+      "hebrew_text": "מַה נָּאווּ עַל הֶהָרִים רַגְלֵי מְבַשֵּׂר... אֹמֵר לְצִיּוֹן מָלַךְ אֱלֹהָיִךְ",
+      "targum_text": "ma shappirin al turayya raglei demasbar... de'amar leTziyyon itgaliat malkhut Elahikh",
+      "targum_rendering": "How beautiful upon the mountains are the feet of the herald of good tidings... who says to Zion, 'The kingdom of your God is revealed.'",
+      "mt_rendering": "How beautiful upon the mountains are the feet of him who brings good news... who says to Zion, 'Your God reigns.'",
+      "category": "eschatological",
+      "notes": ["'Your God reigns' becomes 'the kingdom of your God is revealed' (itgaliat malkhut Elahikh), transforming divine rule into an eschatological disclosure event. The kingdom does not begin — it is revealed, having always existed."]
+    },
+    {
+      "reference": "Isaiah 52:8",
+      "hebrew_text": "כִּי עַיִן בְּעַיִן יִרְאוּ בְּשׁוּב יְהוָה צִיּוֹן",
+      "targum_text": "arei ein be'ein yechazun kad yattiv Adonai Shekhinteih leTziyyon",
+      "targum_rendering": "For eye to eye they shall see when the LORD returns his Shekinah to Zion.",
+      "mt_rendering": "For eye to eye they see the return of the LORD to Zion.",
+      "category": "shekinah",
+      "notes": ["The return of the LORD to Zion is the return of the Shekinah. This is eschatological Shekinah theology: the hope of Israel is the Shekinah's return to Jerusalem, not merely God's general favor."]
+    },
+    {
+      "reference": "Isaiah 52:13",
+      "hebrew_text": "הִנֵּה יַשְׂכִּיל עַבְדִּי יָרוּם וְנִשָּׂא וְגָבַהּ מְאֹד",
+      "targum_text": "ha yatzlach avdi Meshicha yerom veyisggei veyitqaf lachada",
+      "targum_rendering": "Behold, my servant the Messiah shall prosper; he shall be exalted and increase and be very strong.",
+      "mt_rendering": "Behold, my servant shall act wisely; he shall be high and lifted up, and shall be exalted.",
+      "category": "messianic",
+      "notes": ["THE most important verse in all targum literature. The fourth Servant Song opens with the explicit identification: 'my servant the Messiah' (avdi Meshicha). This proves beyond doubt that pre-Christian Judaism read Isaiah 52:13-53:12 as a Messianic prophecy. What follows, however, is a dramatic reinterpretation of the suffering."]
+    },
+    {
+      "reference": "Isaiah 52:14",
+      "hebrew_text": "כֵּן מִשְׁחַת מֵאִישׁ מַרְאֵהוּ",
+      "targum_text": "kema di savvaru leih beit Yisrael... chashikh min bnei enasha ichorehon",
+      "targum_rendering": "Just as the house of Israel looked to him... their appearance was darkened among the peoples.",
+      "mt_rendering": "As many were astonished at you — his appearance was so marred, beyond human semblance.",
+      "category": "messianic",
+      "notes": ["Jonathan redirects the marred appearance from the Servant-Messiah to Israel in exile. The disfigurement is Israel's exile condition, not the Messiah's suffering. This begins the systematic reinterpretation of the Suffering Servant."]
+    },
+    {
+      "reference": "Isaiah 53:3",
+      "hebrew_text": "נִבְזֶה וַחֲדַל אִישִׁים אִישׁ מַכְאֹבוֹת וִידוּעַ חֹלִי",
+      "targum_text": "bedein yehei biser al kol malkhevata vistayam kol marein... vihavei mekhik umesakkei litva'ana keenash keiv umechik",
+      "targum_rendering": "Then he shall be held in contempt by all the kingdoms and they shall cease... and he shall be praying and seeking [God's will] like a man of sorrows and one acquainted with sickness.",
+      "mt_rendering": "He was despised and rejected by men, a man of sorrows and acquainted with grief.",
+      "category": "messianic",
+      "notes": ["Jonathan partially redirects: the kingdoms despise the Servant-Messiah, but the 'sorrows' are reframed as intercessory prayer. The Messiah is not passive in suffering but active in intercession. The suffering imagery is present but transformed into spiritual labor."]
+    },
+    {
+      "reference": "Isaiah 53:4",
+      "hebrew_text": "אָכֵן חֳלָיֵנוּ הוּא נָשָׂא וּמַכְאֹבֵינוּ סְבָלָם",
+      "targum_text": "bekhen al chovana hu yivei vachteihana hu yisbol dimna lana",
+      "targum_rendering": "Therefore for our sins he will intercede, and our iniquities for his sake will be forgiven.",
+      "mt_rendering": "Surely he has borne our griefs and carried our sorrows.",
+      "category": "messianic",
+      "notes": ["The most radical reinterpretation: 'bearing our griefs' becomes 'interceding for our sins.' The Messiah does not suffer for sins but intercedes for them. Physical suffering is replaced with priestly-prophetic intercession. Matthew 8:17 cites this verse with a different reading."]
+    },
+    {
+      "reference": "Isaiah 53:5",
+      "hebrew_text": "וְהוּא מְחֹלָל מִפְּשָׁעֵנוּ מְדֻכָּא מֵעֲוֹנֹתֵינוּ",
+      "targum_text": "vehu yivnei beit maqdsha deitchallal bechovana itdakkei ba'avonatana",
+      "targum_rendering": "And he shall build the Temple which was profaned by our transgressions, handed over because of our iniquities.",
+      "mt_rendering": "But he was pierced for our transgressions; he was crushed for our iniquities.",
+      "category": "messianic",
+      "notes": ["The piercing and crushing of the Servant are completely reinterpreted. The Messiah is not pierced — he builds the Temple that was profaned (mechullal) by Israel's sins. The passive suffering is transformed into active restoration. The Temple's destruction is Israel's fault; its rebuilding is the Messiah's work."]
+    },
+    {
+      "reference": "Isaiah 53:7",
+      "hebrew_text": "כַּשֶּׂה לַטֶּבַח יוּבָל",
+      "targum_text": "messar vehakhein taqifayya ke'immar lenikasta itbar",
+      "targum_rendering": "He shall deliver the mighty to slaughter like a lamb.",
+      "mt_rendering": "Like a lamb that is led to the slaughter.",
+      "category": "messianic",
+      "notes": ["The lamb imagery is reversed: the Servant is not the lamb being led to slaughter — the Servant delivers the mighty to slaughter like a lamb. The victim becomes the victor. This is the theological crux of Jonathan's reinterpretation."]
+    },
+    {
+      "reference": "Isaiah 53:10",
+      "hebrew_text": "וַיהוָה חָפֵץ דַּכְּאוֹ הֶחֱלִי אִם תָּשִׂים אָשָׁם נַפְשׁוֹ",
+      "targum_text": "umin qodam Adonai hava reva ledakkaah ulmanakkah... im titmassar nafshei baasham yechzei benin",
+      "targum_rendering": "And before the LORD it was pleasing to refine and purify the remnant of his people... if his soul makes itself an offering, they shall see offspring.",
+      "mt_rendering": "Yet it was the will of the LORD to crush him; he has put him to grief; when his soul makes an offering for guilt, he shall see his offspring.",
+      "category": "messianic",
+      "notes": ["Jonathan's rendering is complex: God's purpose was to 'refine and purify' (not merely 'crush'), and the guilt offering (asham) is applied to the soul's self-offering. The Messiah's offering produces offspring — a remnant people. The suffering theology is not eliminated but reframed as purification and self-offering that yields a redeemed community."]
+    },
+    {
+      "reference": "Isaiah 53:11",
+      "hebrew_text": "בְּדַעְתּוֹ יַצְדִּיק צַדִּיק עַבְדִּי לָרַבִּים",
+      "targum_text": "bemandei'iteih yezakkei zakkayya le'shabdaha saggiin min qodam Adonai",
+      "targum_rendering": "By his wisdom the righteous one shall make many righteous before the LORD.",
+      "mt_rendering": "By his knowledge shall the righteous one, my servant, make many to be accounted righteous.",
+      "category": "messianic",
+      "notes": ["The Servant's justification of many is rendered as making the righteous multiply before the LORD. Knowledge (da'at) becomes wisdom (mandei'ita). The forensic/salvific dimension is preserved: the righteous Servant produces righteousness in others."]
+    },
+    {
+      "reference": "Isaiah 53:12",
+      "hebrew_text": "תַּחַת אֲשֶׁר הֶעֱרָה לַמָּוֶת נַפְשׁוֹ",
+      "targum_text": "chalaf demassar lemota nafshei",
+      "targum_rendering": "Because he delivered his soul to death.",
+      "mt_rendering": "Because he poured out his soul to death.",
+      "category": "messianic",
+      "notes": ["Jonathan preserves the Servant's self-delivery to death (massar lemota nafshei), even within its broader reinterpretation. The Messiah willingly risks death — the language of self-sacrifice survives the shift from victimhood to victory. This is the closest Jonathan comes to preserving the suffering-death motif of the Hebrew."]
+    },
+    {
+      "reference": "Isaiah 56:7",
+      "hebrew_text": "כִּי בֵיתִי בֵּית תְּפִלָּה יִקָּרֵא לְכָל הָעַמִּים",
+      "targum_text": "arei beit maqdashi beit tzlota yitqerei lekhol ammayya",
+      "targum_rendering": "For my Temple shall be called a house of prayer for all peoples.",
+      "mt_rendering": "For my house shall be called a house of prayer for all peoples.",
+      "category": "literal",
+      "notes": ["'My house' is clarified as 'my Temple' (beit maqdashi). The universal scope is preserved: the Temple serves all nations, not only Israel."]
+    },
+    {
+      "reference": "Isaiah 59:20",
+      "hebrew_text": "וּבָא לְצִיּוֹן גּוֹאֵל",
+      "targum_text": "veyeitei leTziyyon pariq",
+      "targum_rendering": "And a redeemer shall come to Zion.",
+      "mt_rendering": "And a Redeemer will come to Zion.",
+      "category": "messianic",
+      "notes": ["The Redeemer coming to Zion is rendered literally. Paul cites this verse in Romans 11:26. Jonathan does not add 'Messiah' here, but the eschatological context makes the Messianic identification implicit."]
+    },
+    {
+      "reference": "Isaiah 60:1",
+      "hebrew_text": "קוּמִי אוֹרִי כִּי בָא אוֹרֵךְ וּכְבוֹד יְהוָה עָלַיִךְ זָרָח",
+      "targum_text": "itnehari nehori arei ata nehorikh viyeqara daAdonai alaikhi itgeli",
+      "targum_rendering": "Shine, for your light has come, and the glory of the LORD upon you is revealed.",
+      "mt_rendering": "Arise, shine, for your light has come, and the glory of the LORD has risen upon you.",
+      "category": "eschatological",
+      "notes": ["The glory 'rising' becomes the glory 'being revealed' (itgeli). The standard anti-anthropomorphic rendering is applied even in eschatological poetry: God's glory is not a physical sunrise but a theological disclosure."]
+    },
+    {
+      "reference": "Isaiah 60:19",
+      "hebrew_text": "וְהָיָה לָךְ יְהוָה לְאוֹר עוֹלָם",
+      "targum_text": "vihavei likh yeqara daAdonai linehor alam",
+      "targum_rendering": "And the glory of the LORD shall be for you an everlasting light.",
+      "mt_rendering": "And the LORD will be your everlasting light.",
+      "category": "anti-anthropomorphism",
+      "notes": ["The LORD does not become light directly — the glory of the LORD does. Jonathan inserts 'glory' (yeqar) to mediate between God's essence and the physical phenomenon of light."]
+    },
+    {
+      "reference": "Isaiah 61:1",
+      "hebrew_text": "רוּחַ אֲדֹנָי יְהוִה עָלָי יַעַן מָשַׁח יְהוָה אֹתִי",
+      "targum_text": "ruach nvu'ah min qodam Adonai Elohim alai chalaf derabba Adonai yati",
+      "targum_rendering": "The spirit of prophecy from before the Lord GOD is upon me, because the LORD has anointed me.",
+      "mt_rendering": "The Spirit of the Lord GOD is upon me, because the LORD has anointed me.",
+      "category": "messianic",
+      "notes": ["'The Spirit of the Lord GOD' becomes 'the spirit of prophecy from before the Lord GOD,' specifying the Spirit as prophetic endowment. Jesus reads this passage in Luke 4:18. The anointing is preserved — the Servant is the Anointed One (Messiah) by definition."]
+    },
+    {
+      "reference": "Isaiah 63:9",
+      "hebrew_text": "בְּכָל צָרָתָם לוֹ צָר וּמַלְאַךְ פָּנָיו הוֹשִׁיעָם",
+      "targum_text": "bekhol aqathon la tsiq lehon umalakha dishlach min qodamoi paraq yathon",
+      "targum_rendering": "In all their distress he did not distress them, and the angel whom he sent from before him redeemed them.",
+      "mt_rendering": "In all their affliction he was afflicted, and the angel of his presence saved them.",
+      "category": "anti-anthropomorphism",
+      "notes": ["God does not share in Israel's affliction (which would imply passibility). Instead, 'he did not distress them' (reading lo as 'not' rather than 'to him'), and the angel of his presence is 'the angel whom he sent from before him.' The angel is a commissioned envoy, not a hypostatic presence."]
+    },
+    {
+      "reference": "Isaiah 65:17",
+      "hebrew_text": "כִּי הִנְנִי בוֹרֵא שָׁמַיִם חֲדָשִׁים וָאָרֶץ חֲדָשָׁה",
+      "targum_text": "arei ha ana mehadid shemayya chadattin ve'ar'a chadatta",
+      "targum_rendering": "For behold, I am about to renew the heavens and the earth.",
+      "mt_rendering": "For behold, I create new heavens and a new earth.",
+      "category": "eschatological",
+      "notes": ["'Create' (bore) becomes 'renew' (mehadid), suggesting renovation rather than creation ex nihilo. The eschatological hope is cosmic renewal, not replacement — the present creation is transformed, not discarded."]
+    },
+    {
+      "reference": "Isaiah 66:1",
+      "hebrew_text": "הַשָּׁמַיִם כִּסְאִי וְהָאָרֶץ הֲדֹם רַגְלָי",
+      "targum_text": "shemayya kurseih diyeqari ve'ar'a shappir kevat hadar Shekhineti",
+      "targum_rendering": "Heaven is the throne of my glory, and the earth is beautiful like the stool of my Shekinah.",
+      "mt_rendering": "Heaven is my throne, and the earth is my footstool.",
+      "category": "shekinah",
+      "notes": ["The throne is 'of my glory' (diyeqari), and the footstool is 'of my Shekinah.' Both heaven and earth are described in terms of glory and Shekinah, creating a comprehensive two-world Shekinah cosmology. Isaiah's final chapter opens with the same theology that governed chapter 6."]
+    }
+  ]
+}

@@ -1,0 +1,581 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Acts",
+    "chapter": 13,
+    "source_text": "SBL Greek New Testament (SBLGNT)",
+    "reference_text": "KJV",
+    "generated_at": "2026-04-05T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Acts 13 marks the beginning of the first missionary journey. The Holy Spirit commissions Barnabas and Saul from the church at Antioch. They travel to Cyprus, where they encounter the sorcerer Bar-Jesus (Elymas) and the proconsul Sergius Paulus. From this point, Saul begins using his Roman name Paul, and Paul emerges as the mission's leader. They sail to Perga in Pamphylia, where John Mark departs. In Pisidian Antioch, Paul delivers a major synagogue sermon surveying Israel's history from the exodus through David to Jesus, declaring forgiveness of sins through Christ and warning of judgment on those who reject the message. Many respond positively, but Jewish opposition arises, and Paul and Barnabas announce their turn to the Gentiles, citing Isaiah 49:6. The Gentiles rejoice, but the missionaries are expelled from the region.",
+    "remarkable": "Paul's sermon in Pisidian Antioch is the longest recorded speech in Acts directed at a Jewish audience and serves as Luke's model for Paul's synagogue preaching. It parallels Peter's Pentecost sermon in structure but with distinctly Pauline emphases: justification, the inadequacy of the law of Moses, and the prophetic warning against rejection. The transition from 'Saul' to 'Paul' occurs mid-narrative (13:9) without explanation — Luke simply begins using the Roman name, signaling the shift toward the Gentile world. The declaration 'we are turning to the Gentiles' (13:46) is one of the most pivotal statements in Acts.",
+    "friction": "The identity of 'Simeon called Niger' (v. 1) has generated speculation — Niger means 'black' in Latin, suggesting African origin. Lucius of Cyrene is North African. Manaen is described as a syntrophos ('childhood companion') of Herod Antipas. This leadership team reflects remarkable ethnic and social diversity. Paul's sermon condenses Israelite history selectively, and his claim that the law of Moses could not justify (v. 39) introduces Pauline soteriology into the narrative. The quotation composite in verses 33-35 draws from Psalm 2, Isaiah 55, and Psalm 16.",
+    "connections": "The commissioning scene (vv. 1-3) parallels Isaiah 6 and Jeremiah 1 as a prophetic sending. Paul's historical survey echoes Stephen's speech in Acts 7. The citation of Isaiah 49:6 ('a light for the Gentiles') connects to Simeon's prophecy in Luke 2:32. The pattern of synagogue preaching followed by Jewish rejection and Gentile reception becomes the template for Paul's ministry throughout Acts."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_greek": "Ἦσαν δὲ ἐν Ἀντιοχείᾳ κατὰ τὴν οὖσαν ἐκκλησίαν προφῆται καὶ διδάσκαλοι ὅ τε Βαρναβᾶς καὶ Συμεὼν ὁ καλούμενος Νίγερ, καὶ Λούκιος ὁ Κυρηναῖος, Μαναήν τε Ἡρῴδου τοῦ τετραάρχου σύντροφος καὶ Σαῦλος.",
+      "text_kjv": "Now there were in the church that was at Antioch certain prophets and teachers; as Barnabas, and Simeon that was called Niger, and Lucius of Cyrene, and Manaen, which had been brought up with Herod the tetrarch, and Saul.",
+      "rendering": "Now there were in the church at Antioch prophets and teachers: Barnabas, Simeon who was called Niger, Lucius of Cyrene, Manaen who had been a childhood companion of Herod the tetrarch, and Saul.",
+      "translator_notes": [
+        "The leadership team reflects extraordinary diversity: Barnabas (a Levite from Cyprus), Simeon Niger (likely of African descent, the Latin cognomen Niger meaning 'black'), Lucius of Cyrene (North African), Manaen (syntrophos, 'foster brother' or 'childhood companion' of Herod Antipas, thus from the ruling class), and Saul (a Pharisee from Tarsus). Barnabas stands first, Saul last — an order that will soon reverse."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 2,
+      "text_greek": "λειτουργούντων δὲ αὐτῶν τῷ κυρίῳ καὶ νηστευόντων εἶπεν τὸ πνεῦμα τὸ ἅγιον· ἀφορίσατε δή μοι τὸν Βαρναβᾶν καὶ Σαῦλον εἰς τὸ ἔργον ὃ προσκέκλημαι αὐτούς.",
+      "text_kjv": "As they ministered to the Lord, and fasted, the Holy Ghost said, Separate me Barnabas and Saul for the work whereunto I have called them.",
+      "rendering": "While they were worshiping the Lord and fasting, the Holy Spirit said, \"Set apart for me Barnabas and Saul for the work to which I have called them.\"",
+      "translator_notes": [
+        "The verb leitourgounton ('worshiping, ministering') is the root of 'liturgy' and denotes formal, communal worship. The Spirit speaks directly — how is not specified (through a prophet, an audible voice, or communal discernment). The command 'set apart for me' (aphorisate de moi) echoes God's call of the prophets (cf. Jeremiah 1:5, Galatians 1:15 where Paul uses the same verb of his own calling).",
+        "[TCR Cross-Reference] Draws on Jeremiah 1:5. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "key_terms": [
+        {
+          "greek": "ἀφορίζω",
+          "transliteration": "aphorizo",
+          "rendered_as": "set apart",
+          "semantic_range": "set apart, separate, designate, appoint",
+          "note": "The same word Paul uses in Galatians 1:15 to describe his own calling from birth. It carries both the sense of selection and consecration for a specific divine purpose."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 3,
+      "text_greek": "τότε νηστεύσαντες καὶ προσευξάμενοι καὶ ἐπιθέντες τὰς χεῖρας αὐτοῖς ἀπέλυσαν.",
+      "text_kjv": "And when they had fasted and prayed, and laid their hands on them, they sent them away.",
+      "rendering": "Then after fasting and praying, they laid their hands on them and sent them off.",
+      "translator_notes": [
+        "The laying on of hands (epithentes tas cheiras) is a commissioning gesture, not ordination in the later ecclesiastical sense. Barnabas and Saul are already prophets and teachers (v. 1); the church is confirming and releasing what the Spirit has directed. The verb apelusan ('released, sent away') suggests both permission and blessing."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 4,
+      "text_greek": "Αὐτοὶ μὲν οὖν ἐκπεμφθέντες ὑπὸ τοῦ ἁγίου πνεύματος κατῆλθον εἰς Σελεύκειαν, ἐκεῖθέν τε ἀπέπλευσαν εἰς Κύπρον,",
+      "text_kjv": "So they, being sent forth by the Holy Ghost, departed unto Seleucia; and from thence they sailed to Cyprus.",
+      "rendering": "So, being sent out by the Holy Spirit, they went down to Seleucia, and from there they sailed to Cyprus.",
+      "translator_notes": [
+        "Luke attributes the sending to the Holy Spirit (ekpemphthentes hypo tou hagiou pneumatos), not merely to the church. Seleucia was Antioch's port city on the Mediterranean, about sixteen miles west. Cyprus was Barnabas's homeland (4:36), making it a natural first destination."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 5,
+      "text_greek": "καὶ γενόμενοι ἐν Σαλαμῖνι κατήγγελλον τὸν λόγον τοῦ θεοῦ ἐν ταῖς συναγωγαῖς τῶν Ἰουδαίων. εἶχον δὲ καὶ Ἰωάννην ὑπηρέτην.",
+      "text_kjv": "And when they were at Salamis, they preached the word of God in the synagogues of the Jews: and they had also John to their minister.",
+      "rendering": "When they arrived at Salamis, they proclaimed the word of God in the synagogues of the Jews. They also had John as their assistant.",
+      "translator_notes": [
+        "Salamis was the largest city on the eastern coast of Cyprus. The plural 'synagogues' indicates a significant Jewish population. The pattern of beginning in synagogues becomes standard Pauline practice. John (Mark) serves as hyperetes ('assistant, attendant'), a role that may have included practical arrangements and possibly catechetical instruction."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 6,
+      "text_greek": "διελθόντες δὲ ὅλην τὴν νῆσον ἄχρι Πάφου εὗρον ἄνδρα τινὰ μάγον ψευδοπροφήτην Ἰουδαῖον ᾧ ὄνομα Βαριησοῦ,",
+      "text_kjv": "And when they had gone through the isle unto Paphos, they found a certain sorcerer, a false prophet, a Jew, whose name was Barjesus:",
+      "rendering": "When they had traveled through the whole island as far as Paphos, they found a certain man, a Jewish sorcerer and false prophet named Bar-Jesus,",
+      "translator_notes": [
+        "Paphos was the Roman capital of Cyprus, on the western coast. Bar-Jesus (Bariesou, 'son of Jesus/Joshua') is identified with three descriptors: magos ('sorcerer, magician'), pseudoprophetes ('false prophet'), and Ioudaios ('Jewish'). A Jewish man practicing sorcery and claiming prophetic gifts violated Torah prohibitions (Deuteronomy 18:10-12).",
+        "[TCR Cross-Reference] Quotes Deuteronomy 18:10-12. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 7,
+      "text_greek": "ὃς ἦν σὺν τῷ ἀνθυπάτῳ Σεργίῳ Παύλῳ, ἀνδρὶ συνετῷ. οὗτος προσκαλεσάμενος Βαρναβᾶν καὶ Σαῦλον ἐπεζήτησεν ἀκοῦσαι τὸν λόγον τοῦ θεοῦ.",
+      "text_kjv": "Which was with the deputy of the country, Sergius Paulus, a prudent man; who called for Barnabas and Saul, and desired to hear the word of God.",
+      "rendering": "Which was with the deputy of the region, Sergius Paulus, a prudent person. Who named for Barnabas and Saul, and desired to listen the message of God.",
+      "translator_notes": [
+        "Luke correctly identifies the governor as anthupatos ('proconsul'), the title for governors of senatorial provinces — Cyprus had been transferred to senatorial control in 22 BC. The name Sergius Paulus is attested in inscriptions. His description as sunetos ('intelligent, discerning') distinguishes him from Bar-Jesus's influence."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 8,
+      "text_greek": "ἀνθίστατο δὲ αὐτοῖς Ἐλύμας ὁ μάγος — οὕτως γὰρ μεθερμηνεύεται τὸ ὄνομα αὐτοῦ — ζητῶν διαστρέψαι τὸν ἀνθύπατον ἀπὸ τῆς πίστεως.",
+      "text_kjv": "But Elymas the sorcerer (for so is his name by interpretation) withstood them, seeking to turn away the deputy from the faith.",
+      "rendering": "But Elymas the sorcerer (for that is the meaning of his name) opposed them, seeking to turn the proconsul away from the faith.",
+      "translator_notes": [
+        "The name Elymas (Elymas) is presented as a translation or equivalent of his function, though the etymology is uncertain — it may derive from an Aramaic or Arabic root meaning 'wise man' or 'sorcerer.' His opposition is strategic: if the proconsul converts, Elymas loses his position and influence."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 9,
+      "text_greek": "Σαῦλος δέ, ὁ καὶ Παῦλος, πλησθεὶς πνεύματος ἁγίου ἀτενίσας εἰς αὐτὸν",
+      "text_kjv": "Then Saul, (who also is called Paul,) filled with the Holy Ghost, set his eyes on him,",
+      "rendering": "But Saul, who was also called Paul, filled with the Holy Spirit, looked intently at him",
+      "translator_notes": [
+        "This is the pivotal moment when Luke introduces the name Paul (Paulos). The parenthetical 'who was also called Paul' (ho kai Paulos) indicates he had both names throughout — Saul was his Jewish name, Paul his Roman cognomen. From this point forward, Luke uses only 'Paul.' The transition occurs as Paul confronts a Roman-world figure, signaling the Gentile orientation of his mission."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 10,
+      "text_greek": "εἶπεν· ὦ πλήρης παντὸς δόλου καὶ πάσης ῥᾳδιουργίας, υἱὲ διαβόλου, ἐχθρὲ πάσης δικαιοσύνης, οὐ παύσῃ διαστρέφων τὰς ὁδοὺς τοῦ κυρίου τὰς εὐθείας;",
+      "text_kjv": "And said, O full of all subtilty and all mischief, thou child of the devil, thou enemy of all righteousness, wilt thou not cease to pervert the right ways of the Lord?",
+      "rendering": "Stated, O full of all cunning and all mischief, you child of the devil, you enemy of all righteousness, wilt you not cease to pervert the right ways of the Lord?",
+      "translator_notes": [
+        "Paul's denunciation is fierce and deliberate. The title 'son of the devil' (huie diabolou) is a pointed reversal of Bar-Jesus's name ('son of Jesus/salvation') — he is actually a son of the adversary. The phrase 'making crooked the straight paths of the Lord' (diastrephon tas hodous tou kyriou tas eutheias) alludes to Isaiah 40:3-4 and its call to prepare straight paths.",
+        "[TCR Cross-Reference] This verse quotes Isaiah 40:3-4 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 11,
+      "text_greek": "καὶ νῦν ἰδοὺ χεὶρ κυρίου ἐπὶ σέ, καὶ ἔσῃ τυφλὸς μὴ βλέπων τὸν ἥλιον ἄχρι καιροῦ. παραχρῆμα δὲ ἔπεσεν ἐπ' αὐτὸν ἀχλὺς καὶ σκότος, καὶ περιάγων ἐζήτει χειραγωγούς.",
+      "text_kjv": "And now, behold, the hand of the Lord is upon thee, and thou shalt be blind, not seeing the sun for a season. And immediately there fell on him a mist and a darkness; and he went about seeking some to lead him by the hand.",
+      "rendering": "And now, look, the hand of the Lord is against you, and you will be blind and unable to see the sun for a time.\" Immediately mist and darkness fell on him, and he went about seeking someone to lead him by the hand.",
+      "translator_notes": [
+        "The punishment is temporary ('for a time,' achri kairou) and fitting: the one who sought to keep others in spiritual darkness is plunged into physical darkness. There may be a parallel with Paul's own experience of temporary blindness on the Damascus road (9:8-9), suggesting the possibility of eventual restoration and conversion."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 12,
+      "text_greek": "τότε ἰδὼν ὁ ἀνθύπατος τὸ γεγονὸς ἐπίστευσεν, ἐκπλησσόμενος ἐπὶ τῇ διδαχῇ τοῦ κυρίου.",
+      "text_kjv": "Then the deputy, when he saw what was done, believed, being astonished at the doctrine of the Lord.",
+      "rendering": "Then the proconsul believed, when he saw what had happened, for he was astonished at the teaching of the Lord.",
+      "translator_notes": [
+        "The proconsul's faith is prompted by what he saw (idon to gegonos) but grounded in the teaching (didache tou kyriou). Luke distinguishes between the miracle as attention-getting and the teaching as the actual content of faith. This is the first conversion of a Roman official in Paul's ministry."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 13,
+      "text_greek": "Ἀναχθέντες δὲ ἀπὸ τῆς Πάφου οἱ περὶ Παῦλον ἦλθον εἰς Πέργην τῆς Παμφυλίας· Ἰωάννης δὲ ἀποχωρήσας ἀπ' αὐτῶν ὑπέστρεψεν εἰς Ἱεροσόλυμα.",
+      "text_kjv": "Now when Paul and his company loosed from Paphos, they came to Perga in Pamphylia: and John departing from them returned to Jerusalem.",
+      "rendering": "Paul and his companions set sail from Paphos and came to Perga in Pamphylia. But John left them and returned to Jerusalem.",
+      "translator_notes": [
+        "The phrase 'Paul and his companions' (hoi peri Paulon) marks the shift in leadership — Barnabas is now subordinate. John Mark's departure (apochoresas, 'having departed, withdrawn') is recorded without explanation, but Paul later viewed it as a desertion serious enough to cause a sharp disagreement with Barnabas (15:37-39). Perga was about eight miles inland from the coast of Pamphylia in southern Asia Minor."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 14,
+      "text_greek": "αὐτοὶ δὲ διελθόντες ἀπὸ τῆς Πέργης παρεγένοντο εἰς Ἀντιόχειαν τὴν Πισιδίαν, καὶ εἰσελθόντες εἰς τὴν συναγωγὴν τῇ ἡμέρᾳ τῶν σαββάτων ἐκάθισαν.",
+      "text_kjv": "But when they departed from Perga, they came to Antioch in Pisidia, and went into the synagogue on the sabbath day, and sat down.",
+      "rendering": "But they went on from Perga and came to Antioch in Pisidia. On the Sabbath day they went into the synagogue and sat down.",
+      "translator_notes": [
+        "Pisidian Antioch (distinct from Syrian Antioch) was a Roman colony in the interior of Asia Minor, about 100 miles north of Perga through difficult mountain terrain. Sitting down in the synagogue indicates their role as visitors; speakers were typically seated during instruction."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 15,
+      "text_greek": "μετὰ δὲ τὴν ἀνάγνωσιν τοῦ νόμου καὶ τῶν προφητῶν ἀπέστειλαν οἱ ἀρχισυνάγωγοι πρὸς αὐτοὺς λέγοντες· ἄνδρες ἀδελφοί, εἴ τις ἔστιν ἐν ὑμῖν λόγος παρακλήσεως πρὸς τὸν λαόν, λέγετε.",
+      "text_kjv": "And after the reading of the law and the prophets the rulers of the synagogue sent unto them, saying, Ye men and brethren, if ye have any word of exhortation for the people, say on.",
+      "rendering": "After the reading of the Law and the Prophets, the synagogue leaders sent word to them, saying, \"Brothers, if you have any word of encouragement for the people, speak.\"",
+      "translator_notes": [
+        "The synagogue service included readings from the Torah (nomos) and the Prophets (prophetai), followed by an invitation for qualified visitors to offer a 'word of encouragement' (logos parakleseos). This was standard practice and gave Paul a natural platform. The plural archisunagogoi ('synagogue leaders') suggests a council of leaders rather than a single ruler."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 16,
+      "text_greek": "ἀναστὰς δὲ Παῦλος καὶ κατασείσας τῇ χειρὶ εἶπεν· ἄνδρες Ἰσραηλῖται καὶ οἱ φοβούμενοι τὸν θεόν, ἀκούσατε.",
+      "text_kjv": "Then Paul stood up, and beckoning with his hand said, Men of Israel, and ye that fear God, give audience.",
+      "rendering": "So Paul stood up and motioning with his hand said, \"Men of Israel and you who fear God, listen.",
+      "translator_notes": [
+        "Paul addresses two groups: 'Men of Israel' (ethnic Jews) and 'those who fear God' (God-fearing Gentiles who attended synagogue). The dual address reflects the mixed audience and anticipates the sermon's universal conclusion. The gesture of motioning with the hand (kataseisas te cheiri) is characteristic of Paul in Acts (cf. 21:40, 26:1)."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 17,
+      "text_greek": "ὁ θεὸς τοῦ λαοῦ τούτου Ἰσραὴλ ἐξελέξατο τοὺς πατέρας ἡμῶν, καὶ τὸν λαὸν ὕψωσεν ἐν τῇ παροικίᾳ ἐν γῇ Αἰγύπτου, καὶ μετὰ βραχίονος ὑψηλοῦ ἐξήγαγεν αὐτοὺς ἐξ αὐτῆς,",
+      "text_kjv": "The God of this people of Israel chose our fathers, and exalted the people when they dwelt as strangers in the land of Egypt, and with an high arm brought he them out of it.",
+      "rendering": "The God of this people Israel chose our fathers and made the people great during their stay in the land of Egypt, and with uplifted arm he led them out of it.",
+      "translator_notes": [
+        "Paul begins his historical survey with the exodus, the foundational event of Israelite identity. The phrase 'with uplifted arm' (meta brachionos hupselou) is a classic Old Testament metaphor for divine power in the exodus (cf. Exodus 6:6, Deuteronomy 5:15). The word paroikia ('sojourning, stay as foreigners') emphasizes Israel's alien status in Egypt.",
+        "[TCR Cross-Reference] Draws on Exodus 6:6. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices.",
+        "[TCR Cross-Reference] Draws on Deuteronomy 5:15. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 18,
+      "text_greek": "καὶ ὡς τεσσερακονταετῆ χρόνον ἐτροποφόρησεν αὐτοὺς ἐν τῇ ἐρήμῳ,",
+      "text_kjv": "And about the time of forty years suffered he their manners in the wilderness.",
+      "rendering": "And for about forty years he put up with them in the wilderness.",
+      "translator_notes": [
+        "The verb etropophoresn has two possible readings: tropophoresn ('bore with their ways, endured their behavior') or trophophoresn ('nourished, cared for them'). The SBLGNT reads the former, emphasizing God's patience with Israel's wilderness rebellion. The forty-year period is standard (cf. Numbers 14:34, Deuteronomy 8:2).",
+        "[TCR Cross-Reference] References Numbers 14:34 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved.",
+        "[TCR Cross-Reference] References Deuteronomy 8:2 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 19,
+      "text_greek": "καὶ καθελὼν ἔθνη ἑπτὰ ἐν γῇ Χανάαν κατεκληρονόμησεν τὴν γῆν αὐτῶν",
+      "text_kjv": "And when he had destroyed seven nations in the land of Chanaan, he divided their land to them by lot.",
+      "rendering": "After destroying seven nations in the land of Canaan, he gave them their land as an inheritance",
+      "translator_notes": [
+        "The seven nations of Canaan are listed in Deuteronomy 7:1. The verb katekleronomesen ('gave as an inheritance, allotted') connects the land to the covenant promise to Abraham (Genesis 15:18-21).",
+        "[TCR Cross-Reference] Echoes Deuteronomy 7:1. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale.",
+        "[TCR Cross-Reference] Echoes Genesis 15:18-21. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 20,
+      "text_greek": "ὡς ἔτεσιν τετρακοσίοις καὶ πεντήκοντα. καὶ μετὰ ταῦτα ἔδωκεν κριτὰς ἕως Σαμουὴλ τοῦ προφήτου.",
+      "text_kjv": "And after that he gave unto them judges about the space of four hundred and fifty years, until Samuel the prophet.",
+      "rendering": "Following that he offered to them judges concerning the space of four hundred and fifty years, until Samuel the prophet.",
+      "translator_notes": [
+        "The 450 years likely covers the period from the patriarchs through the judges, not the judges period alone. The chronology is approximate and theological rather than strictly historical. Samuel serves as the bridge between the judges and the monarchy."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 21,
+      "text_greek": "κἀκεῖθεν ᾐτήσαντο βασιλέα, καὶ ἔδωκεν αὐτοῖς ὁ θεὸς τὸν Σαοὺλ υἱὸν Κίς, ἄνδρα ἐκ φυλῆς Βενιαμίν, ἔτη τεσσεράκοντα.",
+      "text_kjv": "And afterward they desired a king: and God gave unto them Saul the son of Cis, a man of the tribe of Benjamin, by the space of forty years.",
+      "rendering": "Then they asked for a king, and God gave them Saul the son of Kish, a man of the tribe of Benjamin, for forty years.",
+      "translator_notes": [
+        "Paul, himself from the tribe of Benjamin and originally named Saul, mentions his royal namesake. Saul's forty-year reign is not stated in the Old Testament but is attested by Josephus (Antiquities 6.378). The people's request for a king is presented negatively in 1 Samuel 8:4-22.",
+        "[TCR Cross-Reference] Quotes 1 Samuel 8:4-22. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 22,
+      "text_greek": "καὶ μεταστήσας αὐτὸν ἤγειρεν τὸν Δαυὶδ αὐτοῖς εἰς βασιλέα, ᾧ καὶ εἶπεν μαρτυρήσας· εὗρον Δαυὶδ τὸν τοῦ Ἰεσσαί, ἄνδρα κατὰ τὴν καρδίαν μου, ὃς ποιήσει πάντα τὰ θελήματά μου.",
+      "text_kjv": "And when he had removed him, he raised up unto them David to be their king; to whom also he gave testimony, and said, I have found David the son of Jesse, a man after mine own heart, which shall fulfil all my will.",
+      "rendering": "After removing him, he raised up David as their king, to whom he also bore witness and said, 'I have found David the son of Jesse, a man after my heart, who will do all my will.'",
+      "translator_notes": [
+        "Paul's quotation combines Psalm 89:20 ('I have found David'), 1 Samuel 13:14 ('a man after my heart'), and Isaiah 44:28 ('who will do all my will') into a composite testimony. The phrase 'a man after my heart' (andra kata ten kardian mou) is the theological apex of the historical survey — David's heart orientation toward God is the quality that defines his kingship.",
+        "[TCR Cross-Reference] Draws on 1 Samuel 13:14. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices.",
+        "[TCR Cross-Reference] Draws on Psalm 89:20. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices.",
+        "[TCR Cross-Reference] Draws on Isaiah 44:28. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 23,
+      "text_greek": "τούτου ὁ θεὸς ἀπὸ τοῦ σπέρματος κατ' ἐπαγγελίαν ἤγαγεν τῷ Ἰσραὴλ σωτῆρα Ἰησοῦν,",
+      "text_kjv": "Of this man's seed hath God according to his promise raised unto Israel a Saviour, Jesus:",
+      "rendering": "From this man's offspring God has brought to Israel a Savior, Jesus, as he promised.",
+      "translator_notes": [
+        "The entire historical survey has been leading to this declaration: Jesus is David's descendant and Israel's promised Savior. The phrase kat' epangelian ('according to promise') grounds Jesus's coming in God's covenant faithfulness to David (2 Samuel 7:12-16). The title sotera ('Savior') connects to the meaning of Jesus's name ('the LORD saves').",
+        "[TCR Cross-Reference] References 2 Samuel 7:12-16 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 24,
+      "text_greek": "προκηρύξαντος Ἰωάννου πρὸ προσώπου τῆς εἰσόδου αὐτοῦ βάπτισμα μετανοίας παντὶ τῷ λαῷ Ἰσραήλ.",
+      "text_kjv": "When John had first preached before his coming the baptism of repentance to all the people of Israel.",
+      "rendering": "Before his coming, John had proclaimed a baptism of repentance to all the people of Israel.",
+      "translator_notes": [
+        "John the Baptist serves as the herald (prokeryxantos, 'having proclaimed beforehand') who prepared for Jesus's arrival. The 'baptism of repentance' (baptisma metanoias) was John's distinctive rite, calling Israel to prepare for the coming Messiah."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 25,
+      "text_greek": "ὡς δὲ ἐπλήρου Ἰωάννης τὸν δρόμον, ἔλεγεν· τί ἐμὲ ὑπονοεῖτε εἶναι; οὐκ εἰμὶ ἐγώ· ἀλλ' ἰδοὺ ἔρχεται μετ' ἐμὲ οὗ οὐκ εἰμὶ ἄξιος τὸ ὑπόδημα τῶν ποδῶν λῦσαι.",
+      "text_kjv": "And as John fulfilled his course, he said, Whom think ye that I am? I am not he. But, behold, there cometh one after me, whose shoes of his feet I am not worthy to loose.",
+      "rendering": "As John was finishing his course, he said, 'What do you suppose that I am? I am not he. But after me one is coming, the sandals of whose feet I am not worthy to untie.'",
+      "translator_notes": [
+        "John explicitly denies being the Messiah and points to one greater. The image of untying sandals describes the task of the lowest slave — John considers himself unworthy even of this menial service for the one who follows him. The verb eplhrou ('was completing, was finishing') uses the same root as 'fulfill,' suggesting John's ministry had a divinely appointed course (dromon, 'race, course')."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 26,
+      "text_greek": "Ἄνδρες ἀδελφοί, υἱοὶ γένους Ἀβραὰμ καὶ οἱ ἐν ὑμῖν φοβούμενοι τὸν θεόν, ἡμῖν ὁ λόγος τῆς σωτηρίας ταύτης ἐξαπεστάλη.",
+      "text_kjv": "Men and brethren, children of the stock of Abraham, and whosoever among you feareth God, to you is the word of this salvation sent.",
+      "rendering": "Brothers, sons of Abraham's family, and those among you who fear God, to us the message of this salvation has been sent.",
+      "translator_notes": [
+        "Paul again addresses both groups — Jewish descendants of Abraham and God-fearing Gentiles. The phrase 'message of this salvation' (ho logos tes soterias tautes) identifies the gospel as the fulfillment of the salvation story Paul has been narrating. The passive 'has been sent' (exapestale) indicates divine initiative."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 27,
+      "text_greek": "οἱ γὰρ κατοικοῦντες ἐν Ἰερουσαλὴμ καὶ οἱ ἄρχοντες αὐτῶν τοῦτον ἀγνοήσαντες καὶ τὰς φωνὰς τῶν προφητῶν τὰς κατὰ πᾶν σάββατον ἀναγινωσκομένας κρίναντες ἐπλήρωσαν,",
+      "text_kjv": "For they that dwell at Jerusalem, and their rulers, because they knew him not, nor yet the voices of the prophets which are read every sabbath day, they have fulfilled them in condemning him.",
+      "rendering": "For the residents of Jerusalem and their rulers, because they did not recognize him nor understand the words of the prophets that are read every Sabbath, fulfilled them by condemning him.",
+      "translator_notes": [
+        "The irony is profound: those who read the prophets every Sabbath fulfilled the prophets' words by rejecting the one the prophets foretold. Their ignorance (agnoesantes) does not absolve them but paradoxically accomplishes God's purpose. Paul presents the crucifixion as both human failure and divine plan."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 28,
+      "text_greek": "καὶ μηδεμίαν αἰτίαν θανάτου εὑρόντες ᾐτήσαντο Πιλᾶτον ἀναιρεθῆναι αὐτόν.",
+      "text_kjv": "And though they found no cause of death in him, yet desired they Pilate that he should be slain.",
+      "rendering": "Though they found no grounds for a death sentence, they asked Pilate to have him executed.",
+      "translator_notes": [
+        "The absence of legitimate charges (medemian aitian thanatou, 'no cause of death') echoes the trial narratives in the Gospels where Pilate repeatedly declares Jesus innocent. The request for execution despite innocence heightens the injustice that God's plan nevertheless encompasses."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 29,
+      "text_greek": "ὡς δὲ ἐτέλεσαν πάντα τὰ περὶ αὐτοῦ γεγραμμένα, καθελόντες ἀπὸ τοῦ ξύλου ἔθηκαν εἰς μνημεῖον.",
+      "text_kjv": "And when they had fulfilled all that was written of him, they took him down from the tree, and laid him in a sepulchre.",
+      "rendering": "When they had carried out everything that was written about him, they took him down from the tree and laid him in a tomb.",
+      "translator_notes": [
+        "Again, the 'tree' (xylon) alludes to Deuteronomy 21:22-23. The verb etelesn ('completed, fulfilled') shows that even the enemies' actions accomplished what Scripture had foretold. Paul compresses the burial narrative into a single clause, moving quickly toward the resurrection.",
+        "[TCR Cross-Reference] Echoes Deuteronomy 21:22-23. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 30,
+      "text_greek": "ὁ δὲ θεὸς ἤγειρεν αὐτὸν ἐκ νεκρῶν·",
+      "text_kjv": "But God raised him from the dead:",
+      "rendering": "However, God brought him back to life:.",
+      "translator_notes": [
+        "The decisive 'but' (de) marks the reversal: human authorities condemned him, but God raised him. This is the kerygmatic core — the same proclamation found in every apostolic sermon in Acts."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 31,
+      "text_greek": "ὃς ὤφθη ἐπὶ ἡμέρας πλείους τοῖς συναναβᾶσιν αὐτῷ ἀπὸ τῆς Γαλιλαίας εἰς Ἰερουσαλήμ, οἵτινες νῦν εἰσιν μάρτυρες αὐτοῦ πρὸς τὸν λαόν.",
+      "text_kjv": "And he was seen many days of them which came up with him from Galilee to Jerusalem, who are his witnesses unto the people.",
+      "rendering": "He was seen numerous days of them which arrived up with him from Galilee to Jerusalem, who are his witnesses to the people.",
+      "translator_notes": [
+        "Paul appeals to the testimony of eyewitnesses (martyres) who are still alive and active. He notably does not include himself among the Galilean witnesses, though he will later appeal to his own Damascus road encounter (26:12-18). The phrase 'many days' (epi hemeras pleious) refers to the forty-day period mentioned in Acts 1:3."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 32,
+      "text_greek": "καὶ ἡμεῖς ὑμᾶς εὐαγγελιζόμεθα τὴν πρὸς τοὺς πατέρας ἐπαγγελίαν γενομένην,",
+      "text_kjv": "And we declare unto you glad tidings, how that the promise which was made unto the fathers,",
+      "rendering": "And we bring you the good news that the promise made to the fathers",
+      "translator_notes": [
+        "The verb euangelizometha ('we bring good news, we preach the gospel') gives the formal content of the mission: the promise to the patriarchs has been fulfilled. Paul presents the gospel not as something new but as the fulfillment of Israel's oldest hopes."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 33,
+      "text_greek": "ὅτι ταύτην ὁ θεὸς ἐκπεπλήρωκεν τοῖς τέκνοις αὐτῶν ἡμῖν ἀναστήσας Ἰησοῦν, ὡς καὶ ἐν τῷ ψαλμῷ γέγραπται τῷ δευτέρῳ· υἱός μου εἶ σύ, ἐγὼ σήμερον γεγέννηκά σε.",
+      "text_kjv": "God hath fulfilled the same unto us their children, in that he hath raised up Jesus again; as it is also written in the second psalm, Thou art my Son, this day have I begotten thee.",
+      "rendering": "God has fulfilled this for us, their children, by raising up Jesus, as it is also written in the second Psalm: 'You are my Son; today I have begotten you.'",
+      "translator_notes": [
+        "The quotation from Psalm 2:7 was originally spoken at the coronation of Israelite kings. Paul applies it to Jesus's resurrection — the 'begetting' is not biological but enthronement. The resurrection is Jesus's installation as the messianic King who fulfills the Davidic promise. The verb anastesas ('having raised up') can mean both 'raised to life' and 'raised up as a leader' — both senses may be intended.",
+        "[TCR Cross-Reference] References Psalms 2:7 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 34,
+      "text_greek": "ὅτι δὲ ἀνέστησεν αὐτὸν ἐκ νεκρῶν μηκέτι μέλλοντα ὑποστρέφειν εἰς διαφθοράν, οὕτως εἴρηκεν ὅτι δώσω ὑμῖν τὰ ὅσια Δαυὶδ τὰ πιστά.",
+      "text_kjv": "And as concerning that he raised him up from the dead, now no more to return to corruption, he said on this wise, I will give you the sure mercies of David.",
+      "rendering": "And as for the fact that he raised him from the dead, no longer to return to decay, he has spoken in this way: 'I will give you the holy and sure blessings of David.'",
+      "translator_notes": [
+        "The quotation from Isaiah 55:3 (LXX) promises the 'holy and faithful things of David' (ta hosia Dauid ta pista) — the covenant mercies promised to David now fulfilled in Jesus's resurrection. The key point is 'no longer to return to decay' (meketi mellonta hypostrephein eis diaphthoran) — Jesus's resurrection is permanent and irreversible, unlike temporary resuscitations.",
+        "[TCR Cross-Reference] Echoes Isaiah 55:3. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 35,
+      "text_greek": "διότι καὶ ἐν ἑτέρῳ λέγει· οὐ δώσεις τὸν ὅσιόν σου ἰδεῖν διαφθοράν.",
+      "text_kjv": "Wherefore he saith also in another psalm, Thou shalt not suffer thine Holy One to see corruption.",
+      "rendering": "Therefore he also says in another psalm, 'You will not let your Holy One see decay.'",
+      "translator_notes": [
+        "This quotation from Psalm 16:10 (LXX 15:10) is the same text Peter used at Pentecost (Acts 2:27). Paul now applies the same argument: David's words cannot refer to David himself (who did see decay, v. 36) but must refer to the Messiah whose body did not decay in the tomb.",
+        "[TCR Cross-Reference] This verse quotes Psalms 16:10 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 36,
+      "text_greek": "Δαυὶδ μὲν γὰρ ἰδίᾳ γενεᾷ ὑπηρετήσας τῇ τοῦ θεοῦ βουλῇ ἐκοιμήθη καὶ προσετέθη πρὸς τοὺς πατέρας αὐτοῦ καὶ εἶδεν διαφθοράν·",
+      "text_kjv": "For David, after he had served his own generation by the will of God, fell on sleep, and was laid unto his fathers, and saw corruption:",
+      "rendering": "For David, after he had served God's purpose in his own generation, fell asleep and was laid with his fathers and saw decay,",
+      "translator_notes": [
+        "Paul's argument mirrors Peter's in Acts 2:29 — David died, was buried, and his body decayed. Therefore Psalm 16 must be prophetic, pointing beyond David to someone whose body would not decay. The phrase 'served God's purpose in his own generation' (idia genea huperetesas te tou theou boule) is a concise and dignified epitaph for David.",
+        "[TCR Cross-Reference] Quotes Psalm 16. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 37,
+      "text_greek": "ὃν δὲ ὁ θεὸς ἤγειρεν, οὐκ εἶδεν διαφθοράν.",
+      "text_kjv": "But he, whom God raised again, saw no corruption.",
+      "rendering": "Yet he, whom God raised again, noticed no corruption.",
+      "translator_notes": [
+        "The contrast is stark and simple: David saw decay; the one God raised did not. The argument depends on the historical fact of Jesus's resurrection and the physical preservation of his body in the brief period between death and resurrection."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 38,
+      "text_greek": "γνωστὸν οὖν ἔστω ὑμῖν, ἄνδρες ἀδελφοί, ὅτι διὰ τούτου ὑμῖν ἄφεσις ἁμαρτιῶν καταγγέλλεται,",
+      "text_kjv": "Be it known unto you therefore, men and brethren, that through this man is preached unto you the forgiveness of sins:",
+      "rendering": "Let it be known to you therefore, brothers, that through this man forgiveness of sins is proclaimed to you,",
+      "translator_notes": [
+        "Paul moves from the historical argument to the soteriological application. 'Through this man' (dia toutou) identifies Jesus as the agent of forgiveness. The noun aphesis ('forgiveness, release, remission') carries overtones of the Jubilee year's release of debts (Leviticus 25).",
+        "[TCR Cross-Reference] References Leviticus 25 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 39,
+      "text_greek": "καὶ ἀπὸ πάντων ὧν οὐκ ἠδυνήθητε ἐν νόμῳ Μωϋσέως δικαιωθῆναι, ἐν τούτῳ πᾶς ὁ πιστεύων δικαιοῦται.",
+      "text_kjv": "And by him all that believe are justified from all things, from which ye could not be justified by the law of Moses.",
+      "rendering": "By him all that trust are justified from all things, from which you could not be justified by the law of Moses.",
+      "translator_notes": [
+        "This is the most explicitly Pauline theological statement in Acts, introducing the concept of justification by faith. The verb dikaioutai ('is justified, is declared righteous') is the cornerstone of Pauline soteriology (cf. Romans 3:21-26, Galatians 2:16). The law of Moses could not achieve full justification; faith in Christ accomplishes what the law could not."
+      ],
+      "key_terms": [
+        {
+          "greek": "δικαιόω",
+          "transliteration": "dikaioo",
+          "rendered_as": "justified",
+          "semantic_range": "justify, declare righteous, vindicate, acquit",
+          "note": "A forensic term: to be declared righteous, to be acquitted. In Paul's theology, justification comes through faith in Christ, not through works of the law."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 40,
+      "text_greek": "βλέπετε οὖν μὴ ἐπέλθῃ τὸ εἰρημένον ἐν τοῖς προφήταις·",
+      "text_kjv": "Beware therefore, lest that come upon you, which is spoken of in the prophets;",
+      "rendering": "Beware, therefore, lest what is said in the prophets should come about:",
+      "translator_notes": [
+        "Paul shifts to warning, quoting the prophets as a cautionary voice. The imperative blepete ('beware, watch out') introduces urgency — the offer of grace carries the gravity of potential rejection."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 41,
+      "text_greek": "ἴδετε, οἱ καταφρονηταί, καὶ θαυμάσατε καὶ ἀφανίσθητε, ὅτι ἔργον ἐργάζομαι ἐγὼ ἐν ταῖς ἡμέραις ὑμῶν, ἔργον ὃ οὐ μὴ πιστεύσητε ἐάν τις ἐκδιηγῆται ὑμῖν.",
+      "text_kjv": "Behold, ye despisers, and wonder, and perish: for I work a work in your days, a work which ye shall in no wise believe, though a man declare it unto you.",
+      "rendering": "'Look, you scoffers, be astounded and perish, for I am doing a work in your days, a work that you will never believe, even if someone tells you.'\"",
+      "translator_notes": [
+        "Paul quotes Habakkuk 1:5 from the Septuagint. In its original context, the prophet warned that God was raising up the Babylonians as an instrument of judgment — an act so incredible that people would not believe it even when told. Paul applies this to the present: God is doing something through Jesus that scoffers will refuse to believe. The word kataphronetai ('scoffers, despisers') replaces the Hebrew's 'among the nations,' adapting the warning to the audience.",
+        "[TCR Cross-Reference] Quotes Habakkuk 1:5. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 42,
+      "text_greek": "Ἐξιόντων δὲ αὐτῶν παρεκάλουν εἰς τὸ μεταξὺ σάββατον λαληθῆναι αὐτοῖς τὰ ῥήματα ταῦτα.",
+      "text_kjv": "And when the Jews were gone out of the synagogue, the Gentiles besought that these words might be preached to them the next sabbath.",
+      "rendering": "As they went out, the people urged them to speak about these things the next Sabbath.",
+      "translator_notes": [
+        "The SBLGNT does not specify 'Gentiles' as the ones asking — the request comes from the general audience. The phrase eis to metaxy sabbaton ('on the next/intervening Sabbath') indicates eagerness to hear more."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 43,
+      "text_greek": "λυθείσης δὲ τῆς συναγωγῆς ἠκολούθησαν πολλοὶ τῶν Ἰουδαίων καὶ τῶν σεβομένων προσηλύτων τῷ Παύλῳ καὶ τῷ Βαρναβᾷ, οἵτινες προσλαλοῦντες αὐτοῖς ἔπειθον αὐτοὺς προσμένειν τῇ χάριτι τοῦ θεοῦ.",
+      "text_kjv": "Now when the congregation was broken up, many of the Jews and religious proselytes followed Paul and Barnabas: who, speaking to them, persuaded them to continue in the grace of God.",
+      "rendering": "When the meeting of the synagogue broke up, many Jews and devout converts followed Paul and Barnabas, who spoke with them and urged them to continue in the grace of God.",
+      "translator_notes": [
+        "The sebomenoi proselytoi ('devout converts/proselytes') are Gentiles who had fully converted to Judaism, distinct from the God-fearers. Paul and Barnabas encourage them to 'continue in the grace of God' (prosmenein te chariti tou theou) — to remain in what they have received rather than returning to previous ways."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 44,
+      "text_greek": "Τῷ δὲ ἐρχομένῳ σαββάτῳ σχεδὸν πᾶσα ἡ πόλις συνήχθη ἀκοῦσαι τὸν λόγον τοῦ κυρίου.",
+      "text_kjv": "And the next sabbath day came almost the whole city together to hear the word of God.",
+      "rendering": "The next Sabbath almost the whole city gathered to hear the word of the Lord.",
+      "translator_notes": [
+        "The hyperbolic 'almost the whole city' (schedon pasa he polis) indicates an extraordinary response. The curiosity extends well beyond the synagogue community to the broader population of Pisidian Antioch. Some manuscripts read 'word of God' (tou theou) rather than 'word of the Lord' (tou kyriou)."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 45,
+      "text_greek": "ἰδόντες δὲ οἱ Ἰουδαῖοι τοὺς ὄχλους ἐπλήσθησαν ζήλου καὶ ἀντέλεγον τοῖς ὑπὸ Παύλου λαλουμένοις βλασφημοῦντες.",
+      "text_kjv": "But when the Jews saw the multitudes, they were filled with envy, and spake against those things which were spoken by Paul, contradicting and blaspheming.",
+      "rendering": "But when the Jews saw the crowds, they were filled with jealousy and began contradicting what was spoken by Paul, reviling him.",
+      "translator_notes": [
+        "The motivating emotion is zelos ('jealousy, zeal') — the crowds' enthusiasm for Paul's message threatened the synagogue leaders' authority and social standing. The verb blasphemountes ('blaspheming, reviling') likely means they spoke abusively about the claims being made for Jesus."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 46,
+      "text_greek": "παρρησιασάμενοί τε ὁ Παῦλος καὶ ὁ Βαρναβᾶς εἶπαν· ὑμῖν ἦν ἀναγκαῖον πρῶτον λαληθῆναι τὸν λόγον τοῦ θεοῦ· ἐπειδὴ ἀπωθεῖσθε αὐτὸν καὶ οὐκ ἀξίους κρίνετε ἑαυτοὺς τῆς αἰωνίου ζωῆς, ἰδοὺ στρεφόμεθα εἰς τὰ ἔθνη.",
+      "text_kjv": "Then Paul and Barnabas waxed bold, and said, It was necessary that the word of God should first have been spoken to you: but seeing ye put it from you, and judge yourselves unworthy of everlasting life, lo, we turn to the Gentiles.",
+      "rendering": "And Paul and Barnabas spoke out boldly, saying, \"It was necessary that the word of God be spoken first to you. Since you thrust it aside and judge yourselves unworthy of eternal life, we are turning to the Gentiles.",
+      "translator_notes": [
+        "The adverb parresiasameno ('speaking boldly, with confidence') characterizes the apostolic proclamation throughout Acts. The theological principle 'to you first' (hymin proton) reflects Romans 1:16 — the gospel goes first to the Jew, then to the Gentile. The phrase 'judge yourselves unworthy of eternal life' (ouk axious krinete heautous tes aioniou zoes) is ironic — by rejecting the message, they pass sentence on themselves."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 47,
+      "text_greek": "οὕτως γὰρ ἐντέταλται ἡμῖν ὁ κύριος· τέθεικά σε εἰς φῶς ἐθνῶν τοῦ εἶναί σε εἰς σωτηρίαν ἕως ἐσχάτου τῆς γῆς.",
+      "text_kjv": "For so hath the Lord commanded us, saying, I have set thee to be a light of the Gentiles, that thou shouldest be for salvation unto the ends of the earth.",
+      "rendering": "For so the Lord has commanded us, saying, 'I have made you a light for the Gentiles, that you may bring salvation to the ends of the earth.'\"",
+      "translator_notes": [
+        "Paul quotes Isaiah 49:6, originally addressed to the Servant of the LORD, and applies it to his own mission. The 'light for the Gentiles' (phos ethnon) echoes Simeon's prophecy about the infant Jesus (Luke 2:32). Paul sees his Gentile mission not as a departure from God's plan but as its fulfillment — Isaiah had always envisioned salvation reaching 'the ends of the earth' (eschatou tes ges).",
+        "[TCR Cross-Reference] Draws on Isaiah 49:6. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 48,
+      "text_greek": "ἀκούοντα δὲ τὰ ἔθνη ἔχαιρον καὶ ἐδόξαζον τὸν λόγον τοῦ κυρίου, καὶ ἐπίστευσαν ὅσοι ἦσαν τεταγμένοι εἰς ζωὴν αἰώνιον·",
+      "text_kjv": "And when the Gentiles heard this, they were glad, and glorified the word of the Lord: and as many as were ordained to eternal life believed.",
+      "rendering": "When the Gentiles heard this, they began rejoicing and glorifying the word of the Lord, and as many as were appointed to eternal life believed.",
+      "translator_notes": [
+        "The phrase 'as many as were appointed to eternal life' (hosoi esan tetagmenoi eis zoen aionion) uses the perfect passive participle of tasso ('arrange, appoint, assign'). The divine passive indicates God as the one who appoints. This is one of the strongest statements of divine election in Acts, presented without qualification or explanation."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 49,
+      "text_greek": "διεφέρετο δὲ ὁ λόγος τοῦ κυρίου δι' ὅλης τῆς χώρας.",
+      "text_kjv": "And the word of the Lord was published throughout all the region.",
+      "rendering": "And the word of the Lord was spreading throughout the whole region.",
+      "translator_notes": [
+        "The verb diephereto ('was being carried through, was spreading') again personifies the word as an active agent. The spread is geographic — 'throughout the whole region' (di holes tes choras) — extending beyond Pisidian Antioch to the surrounding territory."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 50,
+      "text_greek": "οἱ δὲ Ἰουδαῖοι παρώτρυναν τὰς σεβομένας γυναῖκας τὰς εὐσχήμονας καὶ τοὺς πρώτους τῆς πόλεως, καὶ ἐπήγειραν διωγμὸν ἐπὶ τὸν Παῦλον καὶ Βαρναβᾶν, καὶ ἐξέβαλον αὐτοὺς ἀπὸ τῶν ὁρίων αὐτῶν.",
+      "text_kjv": "But the Jews stirred up the devout and honourable women, and the chief men of the city, and raised persecution against Paul and Barnabas, and expelled them out of their coasts.",
+      "rendering": "But the Jews incited the devout women of high standing and the leading men of the city, stirred up persecution against Paul and Barnabas, and drove them out of their district.",
+      "translator_notes": [
+        "The opponents work through influential social networks — 'devout women of high standing' (sebomenas gynaikas tas euschemonas) were God-fearing Gentile women of the upper class who had synagogue connections. By mobilizing civic elites against the missionaries, the Jewish leaders use social pressure rather than theological argument."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 51,
+      "text_greek": "οἱ δὲ ἐκτιναξάμενοι τὸν κονιορτὸν τῶν ποδῶν ἐπ' αὐτοὺς ἦλθον εἰς Ἰκόνιον.",
+      "text_kjv": "But they shook off the dust of their feet against them, and came unto Iconium.",
+      "rendering": "So they shook the dust off their feet against them and went to Iconium.",
+      "translator_notes": [
+        "Shaking off dust (ektinaxamenoi ton koniorton) is a gesture of renunciation commanded by Jesus (Luke 9:5, 10:11), symbolically declaring that those who reject the message bear responsibility for their own judgment. Iconium lay about 80 miles southeast of Pisidian Antioch."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 52,
+      "text_greek": "οἵ τε μαθηταὶ ἐπληροῦντο χαρᾶς καὶ πνεύματος ἁγίου.",
+      "text_kjv": "And the disciples were filled with joy, and with the Holy Ghost.",
+      "rendering": "And with the holy ghost, and the followers were filled with joy.",
+      "translator_notes": [
+        "The chapter ends not with the persecution but with the persecuted community's joy. Despite the missionaries' expulsion, the new believers remain, filled with joy (charas) and the Holy Spirit (pneumatos hagiou). Persecution has failed to destroy what God has planted."
+      ],
+      "reading_level": "6th grade"
+    }
+  ]
+}

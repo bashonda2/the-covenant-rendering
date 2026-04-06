@@ -1,0 +1,248 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Isaiah",
+    "tradition": "vulgate",
+    "tradition_label": "Latin Vulgate",
+    "source_text": "Biblia Sacra Vulgata (Stuttgart critical edition)",
+    "base_text": "Westminster Leningrad Codex (WLC)",
+    "translator": "Jerome (Eusebius Sophronius Hieronymus)",
+    "date": "382-405 CE",
+    "generated_at": "2026-04-05T00:00:00Z",
+    "prompt_version": "1.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Jerome translated Isaiah directly from the Hebrew, frequently departing from the Old Latin and LXX traditions. Isaiah was a theological battleground: Jerome consciously defended his christological readings (especially 7:14 virgo) while insisting on the superiority of the Hebrew text. His Isaiah commentary reveals the tensions between fidelity to Hebrew and the demands of Christian theology.",
+    "notable_renderings": "The virgo of 7:14, the Lucifer of 14:12, the throne names of 9:6, and the Suffering Servant passages of chapters 52-53 are the most theologically consequential Vulgate renderings in Isaiah. Jerome's choices in these passages shaped Western Christology, demonology, and atonement theology for a millennium.",
+    "theological_legacy": "Isaiah in the Vulgate gave Western theology virgo (virgin) as a christological title, Lucifer as a name for Satan, and the sacrificial vocabulary of the Suffering Servant (oblatus est, livore eius sanati sumus) that defined Latin atonement theology."
+  },
+  "renderings": [
+    {
+      "reference": "Isaiah 1:18",
+      "source_text": "אִם־יִהְיוּ חֲטָאֵיכֶם כַּשָּׁנִים כַּשֶּׁלֶג יַלְבִּינוּ",
+      "vulgate_text": "si fuerint peccata vestra ut coccinum quasi nix dealbabuntur",
+      "vulgate_rendering": "Though your sins be as scarlet, they shall be made white as snow",
+      "tcr_rendering": "Though your sins are like scarlet, they will be white as snow",
+      "theological_legacy": "Peccata vestra ut coccinum (your sins as scarlet) established the color symbolism of sin as red/scarlet in Western theology and art. Dealbabuntur (shall be whitened) reinforced the purity-as-whiteness metaphor in Latin moral theology.",
+      "notes": ["Jerome renders Hebrew shanim (scarlet, crimson) as coccinum (scarlet, from the cochineal dye). The verse became a standard text in Western penitential theology and in visual art depicting sin and forgiveness."]
+    },
+    {
+      "reference": "Isaiah 6:3",
+      "source_text": "קָדוֹשׁ קָדוֹשׁ קָדוֹשׁ יְהוָה צְבָאוֹת",
+      "vulgate_text": "sanctus sanctus sanctus Dominus Deus exercituum",
+      "vulgate_rendering": "Holy, holy, holy, Lord God of hosts",
+      "tcr_rendering": "Holy, holy, holy is the LORD of Armies",
+      "theological_legacy": "Sanctus sanctus sanctus Dominus Deus exercituum entered the Latin Mass as the Sanctus, sung at every Eucharist. The Trisagion became foundational to Western Trinitarian theology — the triple 'holy' was read as addressing the three persons of the Trinity. Reginald Heber's hymn 'Holy, Holy, Holy' derives from this tradition.",
+      "notes": ["Jerome renders tseva'ot (armies, hosts) as exercituum (of armies). The Sanctus of the Mass combines this verse with Psalm 118:26 (Benedictus qui venit). The threefold repetition was universally read as Trinitarian by Latin fathers."]
+    },
+    {
+      "reference": "Isaiah 7:14",
+      "source_text": "הִנֵּה הָעַלְמָה הָרָה וְיֹלֶדֶת בֵּן וְקָרָאת שְׁמוֹ עִמָּנוּ אֵל",
+      "vulgate_text": "ecce virgo concipiet et pariet filium et vocabitur nomen eius Emmanuhel",
+      "vulgate_rendering": "Behold, a virgin shall conceive and bear a son, and his name shall be called Emmanuel",
+      "tcr_rendering": "Look — the young woman is pregnant and is about to bear a son, and she will call his name Immanuel",
+      "theological_legacy": "Virgo (virgin) is one of the most consequential translation choices in history. Jerome deliberately chose virgo over puella or adulescentula (young woman), following the LXX parthenos and the Matthean quotation (Matt 1:23). This became the biblical foundation for the doctrine of the virgin birth and was debated in every Jewish-Christian disputation.",
+      "notes": ["Hebrew almah means 'young woman of marriageable age' without necessarily implying virginity (the specific Hebrew word for virgin is betulah). Jerome was aware of this — his contemporary critics (especially Jewish scholars) pointed it out. He defended virgo on the grounds that the LXX translators chose parthenos and that Matthew quotes the verse with parthenos. This translation choice became a flashpoint in Reformation and modern critical scholarship."]
+    },
+    {
+      "reference": "Isaiah 9:6 [Vulgate 9:5]",
+      "source_text": "וַיִּקְרָא שְׁמוֹ פֶּלֶא יוֹעֵץ אֵל גִּבּוֹר אֲבִי־עַד שַׂר־שָׁלוֹם",
+      "vulgate_text": "et vocabitur nomen eius Admirabilis Consiliarius Deus Fortis Pater futuri saeculi Princeps pacis",
+      "vulgate_rendering": "And his name shall be called Wonderful Counselor, Mighty God, Father of the age to come, Prince of Peace",
+      "tcr_rendering": "And his name will be called Wonderful Counselor, Mighty God, Everlasting Father, Prince of Peace",
+      "theological_legacy": "The four throne names in Latin became foundational to Western Christology. Deus Fortis (Mighty God) was a key text for affirming Christ's divinity. Princeps pacis (Prince of Peace) entered common vocabulary. Pater futuri saeculi (Father of the age to come) gave an eschatological reading to avi-ad (everlasting father), avoiding the theological difficulty of calling the Son 'Father.'",
+      "notes": ["Jerome's Pater futuri saeculi (Father of the coming age) is an interpretive rendering of Hebrew avi-ad (Father of eternity/Everlasting Father). This avoids Trinitarian confusion — if the Messiah is the Son, how can he be called 'Father'? Jerome's solution places the title in an eschatological rather than ontological framework."]
+    },
+    {
+      "reference": "Isaiah 11:1",
+      "source_text": "וְיָצָא חֹטֶר מִגֵּזַע יִשָׁי וְנֵצֶר מִשָּׁרָשָׁיו יִפְרֶה",
+      "vulgate_text": "et egredietur virga de radice Iesse et flos de radice eius ascendet",
+      "vulgate_rendering": "And a rod shall come forth from the root of Jesse, and a flower shall rise from his root",
+      "tcr_rendering": "A shoot will come out from the stump of Jesse, and a Branch from his roots will bear fruit",
+      "theological_legacy": "Virga de radice Iesse (rod from the root of Jesse) became the basis for the 'Tree of Jesse' iconographic tradition in Western art. The Latin virga (rod, staff) was connected by patristic etymology to virgo (virgin), creating a Mary-Jesse typology: the virgin (virgo) is the rod (virga) from Jesse's root.",
+      "notes": ["Hebrew choter (shoot, twig) becomes virga (rod, staff) and netser (branch, sprout) becomes flos (flower). Jerome's flos departs from the Hebrew 'branch that bears fruit' toward a flower image that became central to Western Marian iconography. The virga/virgo wordplay was exploited by nearly every Latin father and medieval preacher."]
+    },
+    {
+      "reference": "Isaiah 11:2",
+      "source_text": "וְנָחָה עָלָיו רוּחַ יְהוָה רוּחַ חָכְמָה וּבִינָה רוּחַ עֵצָה וּגְבוּרָה רוּחַ דַּעַת וְיִרְאַת יְהוָה",
+      "vulgate_text": "et requiescet super eum spiritus Domini spiritus sapientiae et intellectus spiritus consilii et fortitudinis spiritus scientiae et pietatis",
+      "vulgate_rendering": "And the spirit of the Lord shall rest upon him: the spirit of wisdom and understanding, the spirit of counsel and fortitude, the spirit of knowledge and piety",
+      "tcr_rendering": "The Spirit of the LORD will rest on him — the Spirit of wisdom and understanding, the Spirit of counsel and might, the Spirit of knowledge and the fear of the LORD",
+      "theological_legacy": "This verse became the source of the Seven Gifts of the Holy Spirit in Catholic theology. The LXX and Vulgate add a seventh gift (pietatis/eusebeia) by translating yir'at YHWH (fear of the LORD) as both pietas and timor Domini, producing: sapientia, intellectus, consilium, fortitudo, scientia, pietas, timor Domini. This septenary became standard in confirmation theology.",
+      "notes": ["The Hebrew lists six attributes in three pairs. The LXX renders the final pair as 'knowledge and piety' (eusebeia) and then adds 'fear of the Lord' from the same Hebrew phrase, producing seven. Jerome's Vulgate follows the LXX here (pietatis + timor Domini), creating the traditional Seven Gifts that became central to Catholic sacramental theology."]
+    },
+    {
+      "reference": "Isaiah 14:12",
+      "source_text": "אֵיךְ נָפַלְתָּ מִשָּׁמַיִם הֵילֵל בֶּן־שָׁחַר",
+      "vulgate_text": "quomodo cecidisti de caelo lucifer qui mane oriebaris",
+      "vulgate_rendering": "How you have fallen from heaven, O Lucifer, who rose in the morning",
+      "tcr_rendering": "How you have fallen from heaven, shining one, son of the dawn!",
+      "theological_legacy": "Lucifer (light-bearer) as a translation of Hebrew helel (shining one) created the entire Western tradition of 'Lucifer' as a name for Satan before his fall. This single translation choice generated an enormous body of theological speculation, literary tradition (Milton's Paradise Lost), and popular culture. Jerome was translating a taunt against the king of Babylon, but the Latin name became permanently attached to the devil.",
+      "notes": ["Hebrew helel ben-shachar means 'shining one, son of dawn' — a reference to the morning star (Venus). Jerome's lucifer (light-bearer) was a straightforward Latin equivalent for the morning star. The identification with Satan came from Luke 10:18 ('I saw Satan fall like lightning from heaven') being read alongside this verse. Jerome himself did not equate Lucifer with Satan, but the Latin tradition did, and the name stuck permanently."]
+    },
+    {
+      "reference": "Isaiah 26:19",
+      "source_text": "יִחְיוּ מֵתֶיךָ נְבֵלָתִי יְקוּמוּן",
+      "vulgate_text": "vivent mortui tui interfecti mei resurgent",
+      "vulgate_rendering": "Your dead shall live, my slain shall rise again",
+      "tcr_rendering": "Your dead will live; their bodies will rise",
+      "theological_legacy": "Resurgent (they will rise again) established the Latin resurrection vocabulary. This verse, alongside Daniel 12:2, was a key Old Testament proof-text for bodily resurrection in Western theology.",
+      "notes": ["Jerome's resurgent (from resurgere, to rise again) mirrors the Hebrew yequmun (they will rise). The Latin resurgere/resurrectio became the technical theological term for bodily resurrection, used in the creeds (resurrectionem mortuorum)."]
+    },
+    {
+      "reference": "Isaiah 40:3",
+      "source_text": "קוֹל קוֹרֵא בַּמִּדְבָּר פַּנּוּ דֶּרֶךְ יְהוָה",
+      "vulgate_text": "vox clamantis in deserto parate viam Domini",
+      "vulgate_rendering": "A voice crying in the desert: Prepare the way of the Lord",
+      "tcr_rendering": "A voice is calling: 'In the wilderness, prepare the way of the LORD'",
+      "theological_legacy": "Vox clamantis in deserto became one of the most famous Latin phrases from the Bible, applied to John the Baptist (John 1:23). It is Dartmouth College's motto. The phrase placement — 'a voice crying in the desert' rather than 'a voice crying: In the desert prepare' — follows the LXX punctuation and shapes the image of the desert prophet.",
+      "notes": ["The Hebrew syntax naturally divides as 'A voice crying: In the wilderness prepare the way of the LORD.' The LXX and Vulgate attach 'in the desert' to the voice rather than to the preparation, creating 'A voice crying in the desert: Prepare the way.' This shift was theologically significant for identifying John the Baptist as the desert preacher."]
+    },
+    {
+      "reference": "Isaiah 42:1",
+      "source_text": "הֵן עַבְדִּי אֶתְמָךְ־בּוֹ בְּחִירִי רָצְתָה נַפְשִׁי",
+      "vulgate_text": "ecce servus meus suscipiam eum electus meus conplacuit sibi in illo anima mea",
+      "vulgate_rendering": "Behold my servant, I will uphold him; my chosen one, my soul is well pleased in him",
+      "tcr_rendering": "Look — My servant, whom I uphold, My chosen one in whom My soul delights",
+      "theological_legacy": "Servus meus (my servant) established the Latin Servant-Christology that dominated Western readings of Isaiah's Servant Songs. Electus meus (my chosen one) connected to the theology of election. The verse is echoed at Christ's baptism (Matt 3:17), linking the Servant to Jesus.",
+      "notes": ["Jerome's servus (servant/slave) for Hebrew eved is straightforward. The First Servant Song (42:1-9) was universally read as messianic in the Latin tradition, and Jerome's translation facilitated this reading."]
+    },
+    {
+      "reference": "Isaiah 45:8",
+      "source_text": "הַרְעִיפוּ שָׁמַיִם מִמַּעַל וּשְׁחָקִים יִזְּלוּ־צֶדֶק",
+      "vulgate_text": "rorate caeli desuper et nubes pluant iustum",
+      "vulgate_rendering": "Drop down dew, O heavens, from above, and let the clouds rain the just one",
+      "tcr_rendering": "Drip down, O heavens, from above, and let the skies pour down righteousness",
+      "theological_legacy": "Rorate caeli desuper became a beloved Advent hymn and antiphon in the Latin liturgy. The rendering pluant iustum (let them rain the just one) — reading Hebrew tsedeq (righteousness) as a person (the Just One/Messiah) — is a distinctly christological interpretation that shaped Advent theology.",
+      "notes": ["The Hebrew says the skies should pour down tsedeq (righteousness, justice). Jerome's iustum (the just one, accusative singular) personalizes the abstract noun, making the verse a prayer for the Messiah to come down from heaven. This reading became the basis for the Rorate Caeli Advent liturgy."]
+    },
+    {
+      "reference": "Isaiah 52:13-14",
+      "source_text": "הִנֵּה יַשְׂכִּיל עַבְדִּי יָרוּם וְנִשָּׂא וְגָבַהּ מְאֹד...מִשְׁחַת מֵאִישׁ מַרְאֵהוּ",
+      "vulgate_text": "ecce intelleget servus meus exaltabitur et elevabitur et sublimis erit valde...sic inglorius erit inter viros aspectus eius",
+      "vulgate_rendering": "Behold my servant shall understand, he shall be exalted and lifted up and shall be very high...so unhonored shall be his appearance among men",
+      "tcr_rendering": "See — My servant will act wisely; he will be raised and lifted up and greatly exalted...so marred was his appearance beyond that of a man",
+      "theological_legacy": "The Fourth Servant Song (52:13-53:12) in the Vulgate became the primary Old Testament text for Western atonement theology. Intelleget (shall understand) for Hebrew yaskil (shall prosper/act wisely) emphasizes knowledge over success. The contrast between exaltation and disfigurement shaped the theology of the cross as paradoxical glory.",
+      "notes": ["Jerome's intelleget (shall understand/comprehend) for Hebrew yaskil (hiphil of sakhal, to be prudent, act wisely, prosper) is narrower than the Hebrew range. The Hebrew also implies success and prosperity, not just understanding."]
+    },
+    {
+      "reference": "Isaiah 53:3",
+      "source_text": "נִבְזֶה וַחֲדַל אִישִׁים אִישׁ מַכְאֹבוֹת וִידוּעַ חֹלִי",
+      "vulgate_text": "despectum et novissimum virorum virum dolorum et scientem infirmitatem",
+      "vulgate_rendering": "Despised and the last of men, a man of sorrows and acquainted with infirmity",
+      "tcr_rendering": "He was despised and rejected by men, a man of pains and acquainted with sickness",
+      "theological_legacy": "Virum dolorum (man of sorrows) became one of the most important christological titles in Western theology and art. The 'Man of Sorrows' (Vir Dolorum) iconographic tradition — depicting Christ crowned with thorns, showing his wounds — derives directly from this Latin phrase. Handel's Messiah sets this passage.",
+      "notes": ["Hebrew ish makhovot means 'man of pains/sorrows.' Jerome's virum dolorum is faithful and became the Latin title for an entire genre of devotional art. The phrase scientem infirmitatem (knowing infirmity) for Hebrew yedua choli (acquainted with sickness/suffering) slightly spiritualizes the physical illness language."]
+    },
+    {
+      "reference": "Isaiah 53:4",
+      "source_text": "אָכֵן חֳלָיֵנוּ הוּא נָשָׂא וּמַכְאֹבֵינוּ סְבָלָם",
+      "vulgate_text": "vere languores nostros ipse tulit et dolores nostros ipse portavit",
+      "vulgate_rendering": "Truly he has borne our sicknesses and carried our sorrows",
+      "tcr_rendering": "Surely he has borne our sicknesses, and he has carried our pains",
+      "theological_legacy": "Languores nostros ipse tulit (he himself bore our sicknesses) became central to substitutionary atonement theology. Matthew 8:17 quotes this verse in connection with Jesus' healing ministry, and the Latin tulit (bore, carried) and portavit (carried) established the substitution vocabulary.",
+      "notes": ["Jerome's languores (sicknesses, weaknesses) for Hebrew choleynu (our sicknesses) and dolores (sorrows, pains) for makhoveynu (our pains) are faithful. The emphatic ipse (he himself) correctly renders the Hebrew emphatic hu (he)."]
+    },
+    {
+      "reference": "Isaiah 53:5",
+      "source_text": "וְהוּא מְחֹלָל מִפְּשָׁעֵנוּ מְדֻכָּא מֵעֲוֺנֹתֵינוּ מוּסַר שְׁלוֹמֵנוּ עָלָיו וּבַחֲבֻרָתוֹ נִרְפָּא־לָנוּ",
+      "vulgate_text": "ipse autem vulneratus est propter iniquitates nostras attritus est propter scelera nostra disciplina pacis nostrae super eum et livore eius sanati sumus",
+      "vulgate_rendering": "But he was wounded for our iniquities, he was bruised for our crimes; the chastisement of our peace was upon him, and by his bruise we are healed",
+      "tcr_rendering": "But he was pierced for our transgressions, crushed for our iniquities; the punishment for our peace was upon him, and by his wounds we are healed",
+      "theological_legacy": "Livore eius sanati sumus (by his bruise/wound we are healed) became the definitive statement of vicarious atonement in Latin theology. Disciplina pacis nostrae (the chastisement of our peace) shaped penitential theology. Every phrase of this verse entered the Latin theological vocabulary of salvation.",
+      "notes": ["Jerome's vulneratus (wounded) for mechollal (pierced, profaned) and attritus (crushed, worn away) for medukka (crushed) are close to the Hebrew. Livore (bruise, welt, from livor) for chaburato (wound, stripe) is slightly different in connotation but became the standard Latin. Peter quotes this verse (1 Pet 2:24) in the form 'by his wounds you were healed.'"]
+    },
+    {
+      "reference": "Isaiah 53:7",
+      "source_text": "כַּשֶּׂה לַטֶּבַח יוּבָל וּכְרָחֵל לִפְנֵי גֹזְזֶיהָ נֶאֱלָמָה",
+      "vulgate_text": "sicut ovis ad occisionem ducetur et quasi agnus coram tondente se obmutescet",
+      "vulgate_rendering": "He shall be led as a sheep to the slaughter, and as a lamb before its shearer he shall be silent",
+      "tcr_rendering": "Like a lamb led to the slaughter, and like a ewe before her shearers, he was silent",
+      "theological_legacy": "Sicut ovis ad occisionem (like a sheep to the slaughter) became the Agnus Dei image in Latin theology. The verse is quoted in Acts 8:32-33 (the Ethiopian eunuch passage) and shaped the liturgical Agnus Dei prayer: 'Lamb of God, who takes away the sins of the world.'",
+      "notes": ["Jerome reverses the Hebrew's 'lamb...ewe' to 'sheep (ovis)...lamb (agnus).' The Agnus Dei liturgical text, sung at every Mass, draws on this verse's sacrificial lamb imagery combined with John the Baptist's declaration (John 1:29)."]
+    },
+    {
+      "reference": "Isaiah 53:8",
+      "source_text": "מֵעֹצֶר וּמִמִּשְׁפָּט לֻקָּח",
+      "vulgate_text": "de angustia et de iudicio sublatus est",
+      "vulgate_rendering": "From anguish and from judgment he was taken away",
+      "tcr_rendering": "By oppression and judgment he was taken away",
+      "theological_legacy": "De angustia et de iudicio sublatus est shaped passion narratives — Christ taken from anguish (angustia) and (unjust) judgment. Sublatus est (was taken up/away) acquired a double meaning in Latin: taken away by death and taken up in resurrection/ascension.",
+      "notes": ["Hebrew me'otser (from restraint/oppression) becomes de angustia (from anguish/distress). Jerome's sublatus est carries potential resurrection overtones that the Hebrew luqqach (was taken) does not necessarily have."]
+    },
+    {
+      "reference": "Isaiah 53:10",
+      "source_text": "וַיהוָה חָפֵץ דַּכְּאוֹ הֶחֱלִי אִם־תָּשִׂים אָשָׁם נַפְשׁוֹ",
+      "vulgate_text": "et Dominus voluit conterere eum in infirmitate si posuerit pro peccato animam suam",
+      "vulgate_rendering": "And the Lord was pleased to crush him in weakness; if he shall lay down his soul for sin",
+      "tcr_rendering": "Yet it was the will of the LORD to crush him; He made him sick. If his soul makes an offering for guilt",
+      "theological_legacy": "Pro peccato animam suam (his soul for sin) established the substitutionary framework in Latin: the Servant's soul offered as a sin-payment. Asham (guilt offering) rendered as pro peccato (for sin) slightly loosened the specific sacrificial-system reference but preserved the substitutionary logic.",
+      "notes": ["Hebrew asham is a technical term for the guilt/reparation offering. Jerome's pro peccato (for sin) generalizes beyond the specific sacrificial category. Voluit conterere (was pleased to crush) preserves the difficult Hebrew theology that God willed the Servant's suffering."]
+    },
+    {
+      "reference": "Isaiah 53:12",
+      "source_text": "תַּחַת אֲשֶׁר הֶעֱרָה לַמָּוֶת נַפְשׁוֹ",
+      "vulgate_text": "pro eo quod tradidit in mortem animam suam",
+      "vulgate_rendering": "Because he surrendered his soul to death",
+      "tcr_rendering": "Because he poured out his soul to death",
+      "theological_legacy": "Tradidit in mortem animam suam (he handed over his soul to death) uses the language of self-surrender (tradere) that became central to Eucharistic theology — Christ 'handed over' (traditio) his body and blood. The same verb tradere appears in the institution narrative.",
+      "notes": ["Hebrew he'erah means 'poured out, laid bare.' Jerome's tradidit (handed over, surrendered) uses the same verb as the passion narratives where Jesus is 'handed over' (traditus). This verbal echo created a deep theological link between Isaiah 53 and the Gospels in the Latin tradition."]
+    },
+    {
+      "reference": "Isaiah 55:1",
+      "source_text": "הוֹי כָּל־צָמֵא לְכוּ לַמַּיִם",
+      "vulgate_text": "omnes sitientes venite ad aquas",
+      "vulgate_rendering": "All you who thirst, come to the waters",
+      "tcr_rendering": "Come, everyone who thirsts, come to the waters!",
+      "theological_legacy": "Omnes sitientes venite ad aquas became a beloved liturgical text, especially in the Holy Saturday liturgy. It was read as a baptismal invitation and set to music repeatedly. The universal omnes (all) was emphasized in inclusive soteriology.",
+      "notes": ["Jerome renders the Hebrew invitation faithfully. The verse became a key text in the Easter Vigil liturgy, connecting the waters of Isaiah's invitation to baptismal waters."]
+    },
+    {
+      "reference": "Isaiah 60:1",
+      "source_text": "קוּמִי אוֹרִי כִּי בָא אוֹרֵךְ וּכְבוֹד יְהוָה עָלַיִךְ זָרָח",
+      "vulgate_text": "surge illuminare Hierusalem quia venit lumen tuum et gloria Domini super te orta est",
+      "vulgate_rendering": "Arise, be enlightened, O Jerusalem, for your light has come, and the glory of the Lord has risen upon you",
+      "tcr_rendering": "Arise, shine, for your light has come, and the glory of the LORD has risen upon you",
+      "theological_legacy": "Surge illuminare became an Epiphany text in the Latin liturgy, associated with the coming of the Magi and the light of Christ to the nations. Gloria Domini (glory of the Lord) reinforced the Shekinah theology in Latin.",
+      "notes": ["Jerome adds Hierusalem (Jerusalem) as an explicit addressee, which is implied but not stated in the Hebrew. Illuminare (be enlightened/shine) captures the Hebrew ori (shine, give light). The verse's liturgical use at Epiphany connected Isaiah's vision to the manifestation of Christ to the Gentiles."]
+    },
+    {
+      "reference": "Isaiah 61:1",
+      "source_text": "רוּחַ אֲדֹנָי יְהוִה עָלָי יַעַן מָשַׁח יְהוָה אֹתִי לְבַשֵּׂר עֲנָוִים",
+      "vulgate_text": "spiritus Domini super me eo quod unxerit Dominus me ad adnuntiandum mansuetis",
+      "vulgate_rendering": "The spirit of the Lord is upon me, because the Lord has anointed me to preach to the meek",
+      "tcr_rendering": "The Spirit of the Lord GOD is upon me, because the LORD has anointed me to bring good news to the afflicted",
+      "theological_legacy": "Unxerit (anointed) connects to Christus (the anointed one). Ad adnuntiandum mansuetis (to announce good news to the meek) established the Latin vocabulary for evangelization. Jesus reads this passage in the Nazareth synagogue (Luke 4:18-19), making it programmatic for his ministry.",
+      "notes": ["Jerome's mansuetis (meek, gentle) for Hebrew anavim (afflicted, poor, humble) shifts the emphasis from economic suffering to spiritual disposition. This influenced the Western reading of the Beatitudes' 'poor in spirit' and 'meek' categories."]
+    },
+    {
+      "reference": "Isaiah 64:6 [Vulgate 64:5]",
+      "source_text": "וַנְּהִי כַטָּמֵא כֻּלָּנוּ וּכְבֶגֶד עִדִּים כָּל־צִדְקֹתֵינוּ",
+      "vulgate_text": "et facti sumus ut inmundus omnes nos et quasi pannus menstruatae universae iustitiae nostrae",
+      "vulgate_rendering": "And we have all become as one unclean, and all our righteousnesses are as the cloth of a menstruous woman",
+      "tcr_rendering": "All of us have become like one who is unclean, and all our righteous deeds are like a polluted garment",
+      "theological_legacy": "Quasi pannus menstruatae (like a menstrual cloth) — Jerome's graphic rendering of beged iddim (garment of periods/impurity) became a standard proof-text in Western hamartiology for the total corruption of human works apart from grace, heavily cited by Reformers.",
+      "notes": ["Jerome's blunt rendering preserves the graphic Hebrew image that many modern translations soften to 'filthy rags' or 'polluted garment.' The verse became central to debates about the merit of human works in the justification controversy."]
+    },
+    {
+      "reference": "Isaiah 52:7",
+      "source_text": "מַה־נָּאווּ עַל־הֶהָרִים רַגְלֵי מְבַשֵּׂר מַשְׁמִיעַ שָׁלוֹם",
+      "vulgate_text": "quam pulchri super montes pedes adnuntiantis et praedicantis pacem",
+      "vulgate_rendering": "How beautiful upon the mountains are the feet of him who announces and preaches peace",
+      "tcr_rendering": "How beautiful upon the mountains are the feet of the one who brings good news, who announces peace",
+      "theological_legacy": "Quam pulchri pedes adnuntiantis (how beautiful the feet of the announcer) — Paul quotes this verse in Romans 10:15 to ground the Christian missionary mandate. The Latin adnuntiantis (announcing) and praedicantis (preaching) established the Western vocabulary for evangelistic proclamation. The verse was applied to apostles, missionaries, and preachers throughout Western history.",
+      "notes": ["Jerome's praedicantis (preaching) adds a term beyond the Hebrew mevasser (bringer of good news). The verse became foundational for Western mission theology — beautiful feet belong to those who carry the gospel message. Paul's use in Romans ensured its prominence in missionary discourse."]
+    },
+    {
+      "reference": "Isaiah 9:2 [Vulgate 9:1]",
+      "source_text": "הָעָם הַהֹלְכִים בַּחֹשֶׁךְ רָאוּ אוֹר גָּדוֹל",
+      "vulgate_text": "populus qui ambulabat in tenebris vidit lucem magnam",
+      "vulgate_rendering": "The people who walked in darkness have seen a great light",
+      "tcr_rendering": "The people who walked in darkness have seen a great light",
+      "theological_legacy": "Populus qui ambulabat in tenebris vidit lucem magnam became a primary Advent and Christmas text in Western liturgy (quoted in Matt 4:16). The light/darkness contrast established the foundational imagery for the entire Western theology of salvation as illumination and for the liturgical season of Advent as the movement from darkness toward the light of Christ.",
+      "notes": ["Jerome's rendering is faithful to the Hebrew. The verse's liturgical placement in Christmas readings — alongside the Lux mundi (Light of the world) theme — made it one of the most familiar OT texts in Western Christmas celebration."]
+    }
+  ]
+}

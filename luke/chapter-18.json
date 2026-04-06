@@ -1,0 +1,472 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Luke",
+    "chapter": 18,
+    "source_text": "SBL Greek New Testament (SBLGNT)",
+    "reference_text": "KJV",
+    "generated_at": "2026-04-04T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Luke 18 opens with two parables on prayer — the persistent widow and the unjust judge, followed by the Pharisee and the tax collector — then moves through Jesus's teaching on children and the kingdom, the encounter with the rich ruler, a third passion prediction, and the healing of a blind man near Jericho. The chapter traces a thematic arc from persistent, humble prayer to radical surrender of wealth and status, culminating in faith-driven healing.",
+    "remarkable": "The parable of the Pharisee and the tax collector (unique to Luke) is a masterclass in reversal: the righteous man leaves unjustified while the sinner goes home right with God. The rich ruler episode reveals that salvation is 'impossible' for humans but 'possible with God' — a statement that redefines the entire framework of religious achievement. Peter's question about the disciples' own sacrifice and Jesus's response promise both present-age restoration and eternal life.",
+    "friction": "The phrase 'justified rather than the other' (v. 14) uses dikaiōtheis in a way that anticipates Pauline theology — we render it without importing later theological systems. The 'camel through the eye of a needle' (v. 25) is rendered literally; we do not adopt the later medieval legend about a small gate called 'The Needle's Eye,' as there is no historical evidence for it.",
+    "connections": "The persistent widow connects to the eschatological discourse of chapter 17 — God will vindicate his elect. The Pharisee-tax collector parable connects to Luke's programmatic concern with reversal (1:52-53, 14:11, 16:15). The rich ruler parallels Mark 10:17-31 and Matthew 19:16-30. The blind man's healing (paralleling Mark 10:46-52) serves as the final healing miracle before the Jerusalem entry."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_greek": "Ἔλεγεν δὲ παραβολὴν αὐτοῖς πρὸς τὸ δεῖν πάντοτε προσεύχεσθαι αὐτοὺς καὶ μὴ ἐγκακεῖν,",
+      "text_kjv": "And he spake a parable unto them to this end, that men ought always to pray, and not to faint;",
+      "rendering": "Then Jesus told them a parable about their need to pray always and not give up,",
+      "translator_notes": [
+        "Luke provides the interpretive key before the parable itself — an unusual technique. The verb enkakein ('to lose heart, to give up, to grow weary') suggests the temptation to stop praying when answers are delayed. The infinitive dein ('it is necessary') frames persistent prayer as a divine requirement, not merely a recommendation."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 2,
+      "text_greek": "λέγων· Κριτής τις ἦν ἔν τινι πόλει τὸν θεὸν μὴ φοβούμενος καὶ ἄνθρωπον μὴ ἐντρεπόμενος.",
+      "text_kjv": "Saying, There was in a city a judge, which feared not God, neither regarded man.",
+      "rendering": "Declaring, There was in a city a pass judgment on, which feared not God, neither regarded man.",
+      "translator_notes": [
+        "The judge is characterized by two negatives: no fear of God (the vertical relationship) and no respect for people (the horizontal relationship). The verb entrepomenos ('regarding, respecting, having shame before') implies a complete absence of social conscience. This is not a model of God but a foil — if even this judge eventually responds, how much more will a just God?"
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 3,
+      "text_greek": "χήρα δὲ ἦν ἐν τῇ πόλει ἐκείνῃ καὶ ἤρχετο πρὸς αὐτὸν λέγουσα· Ἐκδίκησόν με ἀπὸ τοῦ ἀντιδίκου μου.",
+      "text_kjv": "And there was a widow in that city; and she came unto him, saying, Avenge me of mine adversary.",
+      "rendering": "There was a widow in that city, and she kept coming to him, saying, 'Grant me justice against my adversary.'",
+      "translator_notes": [
+        "The imperfect ērcheto ('she kept coming') indicates repeated, persistent visits — not a single request. The verb ekdikēson ('vindicate, grant justice to') does not mean 'avenge' in the modern sense of retaliation but rather 'render a just verdict.' A widow in the ancient world had no male advocate and was legally vulnerable — her persistence was her only leverage."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 4,
+      "text_greek": "καὶ οὐκ ἤθελεν ἐπὶ χρόνον, μετὰ δὲ ταῦτα εἶπεν ἐν ἑαυτῷ· Εἰ καὶ τὸν θεὸν οὐ φοβοῦμαι οὐδὲ ἄνθρωπον ἐντρέπομαι,",
+      "text_kjv": "And he would not for a while: but afterward he said within himself, Though I fear not God, nor regard man;",
+      "rendering": "For a time he refused. But afterward he said to himself, 'Even though I do not fear God or respect anyone,",
+      "translator_notes": [
+        "The phrase epi chronon ('for a time') indicates a significant delay, not a brief pause. The judge's internal monologue (eipen en heautō, 'said within himself') reveals that his eventual action is motivated entirely by self-interest, not justice — making the a fortiori argument of verses 6-8 even more powerful."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 5,
+      "text_greek": "διά γε τὸ παρέχειν μοι κόπον τὴν χήραν ταύτην ἐκδικήσω αὐτήν, ἵνα μὴ εἰς τέλος ἐρχομένη ὑπωπιάζῃ με.",
+      "text_kjv": "Yet because this widow troubleth me, I will avenge her, lest by her continual coming she weary me.",
+      "rendering": "Yet because this widow troubles me, I will give justice to her, so that not by her continual coming she wear out me.",
+      "translator_notes": [
+        "The verb hypopiazē ('wear out, strike under the eye, give a black eye') is a boxing metaphor — the judge fears the widow will figuratively beat him into submission. The coarse humor is deliberate: a powerful judge is being pummeled by a powerless widow's persistence. The word kopon ('trouble, weariness') reinforces that her persistence is her only weapon."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 6,
+      "text_greek": "εἶπεν δὲ ὁ κύριος· Ἀκούσατε τί ὁ κριτὴς τῆς ἀδικίας λέγει·",
+      "text_kjv": "And the Lord said, Hear what the unjust judge saith.",
+      "rendering": "And the Lord said, \"Listen to what the unjust judge says.",
+      "translator_notes": [
+        "Luke calls Jesus 'the Lord' (ho kyrios), his characteristic title for Jesus in the narrative framework. The phrase ho kritēs tēs adikias ('the judge of unrighteousness') is a Semitic genitive construction meaning 'the unrighteous judge.' Jesus draws attention to the judge's own words as the basis for the argument from lesser to greater."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 7,
+      "text_greek": "ὁ δὲ θεὸς οὐ μὴ ποιήσῃ τὴν ἐκδίκησιν τῶν ἐκλεκτῶν αὐτοῦ τῶν βοώντων αὐτῷ ἡμέρας καὶ νυκτός, καὶ μακροθυμεῖ ἐπ' αὐτοῖς;",
+      "text_kjv": "And shall not God avenge his own elect, which cry day and night unto him, though he bear long with them?",
+      "rendering": "Will not God bring about justice for his chosen ones, who cry out to him day and night? Will he keep putting them off?",
+      "translator_notes": [
+        "The phrase eklektōn autou ('his chosen ones, his elect') carries covenantal weight — these are people God has specifically chosen and bound himself to. The verb makrothymei ('is patient, delays') is ambiguous: is God patient with the elect (sustaining them during the wait) or patient regarding their enemies (delaying judgment)? We render as a second rhetorical question to preserve the ambiguity."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 8,
+      "text_greek": "λέγω ὑμῖν ὅτι ποιήσει τὴν ἐκδίκησιν αὐτῶν ἐν τάχει. πλὴν ὁ υἱὸς τοῦ ἀνθρώπου ἐλθὼν ἆρα εὑρήσει τὴν πίστιν ἐπὶ τῆς γῆς;",
+      "text_kjv": "I tell you that he will avenge them speedily. Nevertheless when the Son of man cometh, shall he find faith on the earth?",
+      "rendering": "I tell you, he will bring about justice for them quickly. But when the Son of Man comes, will he find faith on the earth?\"",
+      "translator_notes": [
+        "The phrase en tachei ('quickly, speedily, without delay') creates a tension with the parable's emphasis on prolonged waiting — 'quickly' is from God's perspective, not the petitioner's. The final question (ara heurēsei tēn pistin, 'will he indeed find the faith?') is haunting and unanswered. The article tēn before pistin ('the faith') may specify the kind of faith described in this parable — persistent, trusting prayer. Jesus leaves the question open, challenging the listener."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 9,
+      "text_greek": "Εἶπεν δὲ καὶ πρός τινας τοὺς πεποιθότας ἐφ' ἑαυτοῖς ὅτι εἰσὶν δίκαιοι καὶ ἐξουθενοῦντας τοὺς λοιποὺς τὴν παραβολὴν ταύτην·",
+      "text_kjv": "And he spake this parable unto certain which trusted in themselves that they were righteous, and despised others:",
+      "rendering": "He also told this parable to some who trusted in themselves that they were righteous and looked down on everyone else:",
+      "translator_notes": [
+        "Luke again provides the interpretive key before the parable. The perfect participle pepoithotas ('having trusted, being confident') indicates a settled, ongoing self-assurance. The verb exouthenountas ('despising, treating as nothing') is strong — it means to regard others as utterly worthless. The combination of self-righteousness and contempt for others is the target of what follows."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 10,
+      "text_greek": "Ἄνθρωποι δύο ἀνέβησαν εἰς τὸ ἱερὸν προσεύξασθαι, ὁ εἷς Φαρισαῖος καὶ ὁ ἕτερος τελώνης.",
+      "text_kjv": "Two men went up into the temple to pray; the one a Pharisee, and the other a publican.",
+      "rendering": "\"Two men went up to the temple to pray, one a Pharisee and the other a tax collector.",
+      "translator_notes": [
+        "The verb anebēsan ('went up') reflects Jerusalem's topography — the temple was on the highest point. The pairing of a Pharisee (the religious elite, known for scrupulous Torah observance) with a telōnēs ('tax collector,' despised as a collaborator with Rome and assumed to be corrupt) creates the maximum possible social and moral contrast for a Jewish audience."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 11,
+      "text_greek": "ὁ Φαρισαῖος σταθεὶς πρὸς ἑαυτὸν ταῦτα προσηύχετο· Ὁ θεός, εὐχαριστῶ σοι ὅτι οὐκ εἰμὶ ὥσπερ οἱ λοιποὶ τῶν ἀνθρώπων, ἅρπαγες, ἄδικοι, μοιχοί, ἢ καὶ ὡς οὗτος ὁ τελώνης·",
+      "text_kjv": "The Pharisee stood and prayed thus with himself, God, I thank thee, that I am not as other men are, extortioners, unjust, adulterers, or even as this publican.",
+      "rendering": "The Pharisee stood and prayed about himself: 'God, I thank you that I am not like other people — swindlers, the unjust, adulterers — or even like this tax collector.",
+      "translator_notes": [
+        "The phrase pros heauton ('to himself' or 'about himself') is ambiguous — it could mean he prayed silently or that his prayer was self-directed rather than God-directed. His prayer is technically a thanksgiving (eucharisteō) but functions as self-congratulation. Every comparison is negative: he defines himself by what he is not rather than by who God is. The climactic 'or even like this tax collector' (ē kai hōs houtos ho telōnēs) drips with contempt — he has noticed the man and judged him."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 12,
+      "text_greek": "νηστεύω δὶς τοῦ σαββάτου, ἀποδεκατῶ πάντα ὅσα κτῶμαι.",
+      "text_kjv": "I fast twice in the week, I give tithes of all that I possess.",
+      "rendering": "I fast twice a week; I give a tenth of everything I acquire.'",
+      "translator_notes": [
+        "The Torah required fasting only on the Day of Atonement (Leviticus 16:29-31). Fasting twice weekly (Monday and Thursday, the traditional days) was a voluntary Pharisaic practice that exceeded the law's requirements. Similarly, tithing 'everything I acquire' (panta hosa ktōmai) goes beyond the Torah's agricultural tithe — he tithes even purchased goods, in case the seller had not tithed. His claims are probably truthful, which makes the parable's verdict all the more startling.",
+        "[TCR Cross-Reference] Draws on Leviticus 16:29-31. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 13,
+      "text_greek": "ὁ δὲ τελώνης μακρόθεν ἑστὼς οὐκ ἤθελεν οὐδὲ τοὺς ὀφθαλμοὺς ἐπᾶραι εἰς τὸν οὐρανόν, ἀλλ' ἔτυπτεν τὸ στῆθος αὐτοῦ λέγων· Ὁ θεός, ἱλάσθητί μοι τῷ ἁμαρτωλῷ.",
+      "text_kjv": "And the publican, standing afar off, would not lift up so much as his eyes unto heaven, but smote upon his breast, saying, God be merciful to me a sinner.",
+      "rendering": "But the tax collector, standing far off, would not even lift his eyes toward heaven, but beat his chest, saying, 'God, be merciful to me, a sinner!'",
+      "translator_notes": [
+        "Every detail contrasts with the Pharisee: the tax collector stands 'far off' (makrothen) rather than prominently, refuses to raise his eyes (the normal posture of prayer), and beats his chest (etypen to stēthos, a gesture of grief and self-condemnation). The verb hilasthēti ('be merciful, be propitiated') is related to hilastērion ('mercy seat, place of atonement') — he is essentially asking God to do for him what the Day of Atonement sacrifice does: to cover his sin. The article tō hamartōlō ('the sinner') is significant — he does not say 'a sinner' but 'the sinner,' as though he is the only one."
+      ],
+      "key_terms": [
+        {
+          "greek": "ἱλάσθητι",
+          "transliteration": "hilasthēti",
+          "rendered_as": "be merciful",
+          "semantic_range": "to be propitiated, to be merciful, to make atonement, to expiate",
+          "note": "This verb connects to the Day of Atonement vocabulary. The tax collector's prayer is not a general plea for kindness but a specific request for the kind of mercy that covers sin through atonement."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 14,
+      "text_greek": "λέγω ὑμῖν, κατέβη οὗτος δεδικαιωμένος εἰς τὸν οἶκον αὐτοῦ παρ' ἐκεῖνον· ὅτι πᾶς ὁ ὑψῶν ἑαυτὸν ταπεινωθήσεται, ὁ δὲ ταπεινῶν ἑαυτὸν ὑψωθήσεται.",
+      "text_kjv": "I tell you, this man went down to his house justified rather than the other: for every one that exalteth himself shall be abased; and he that humbleth himself shall be exalted.",
+      "rendering": "I tell you, this man went home justified rather than the other. For everyone who exalts himself will be humbled, and the one who humbles himself will be exalted.\"",
+      "translator_notes": [
+        "The perfect participle dedikaiōmenos ('having been justified, declared righteous') is a divine passive — God is the one who justifies. This is startling: the tax collector, who offered nothing but confession, leaves in right standing with God, while the Pharisee, who exceeded every requirement, does not. The concluding proverb (repeated from 14:11) is Luke's signature reversal theme. The verb katebē ('went down') contrasts with anebēsan ('went up') in verse 10 — the physical descent from the temple mirrors the spiritual descent of humility."
+      ],
+      "key_terms": [
+        {
+          "greek": "δεδικαιωμένος",
+          "transliteration": "dedikaiōmenos",
+          "rendered_as": "justified",
+          "semantic_range": "declared righteous, acquitted, put in right standing",
+          "note": "The passive voice indicates God's action, not human achievement. This usage anticipates the Pauline doctrine of justification by faith, though Luke does not develop the concept systematically."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 15,
+      "text_greek": "Προσέφερον δὲ αὐτῷ καὶ τὰ βρέφη ἵνα αὐτῶν ἅπτηται· ἰδόντες δὲ οἱ μαθηταὶ ἐπετίμων αὐτοῖς.",
+      "text_kjv": "And they brought unto him also infants, that he would touch them: but when his disciples saw it, they rebuked them.",
+      "rendering": "People were also bringing infants to him so that he might touch them. When the disciples saw this, they rebuked them.",
+      "translator_notes": [
+        "Luke uses brephē ('infants, babies') rather than Mark's paidia ('children'), emphasizing that these were very young — too young to come on their own. The verb haptētai ('to touch') implies a blessing through physical contact. The disciples' rebuke (epetimōn) uses the same word used for rebuking demons and storms, suggesting they viewed the interruption as inappropriate and beneath Jesus's dignity."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 16,
+      "text_greek": "ὁ δὲ Ἰησοῦς προσεκαλέσατο αὐτὰ λέγων· Ἄφετε τὰ παιδία ἔρχεσθαι πρός με καὶ μὴ κωλύετε αὐτά· τῶν γὰρ τοιούτων ἐστὶν ἡ βασιλεία τοῦ θεοῦ.",
+      "text_kjv": "But Jesus called them unto him, and said, Suffer little children to come unto me, and forbid them not: for of such is the kingdom of God.",
+      "rendering": "But Jesus called them to himself, saying, \"Let the children come to me, and do not hinder them, for the kingdom of God belongs to such as these.",
+      "translator_notes": [
+        "Jesus shifts from brephē ('infants') to paidia ('children') — a broader term that includes the infants but extends the principle. The present imperative with mē (mē kōlyete, 'stop hindering') implies the disciples are currently doing something that must cease. The phrase tōn toioutōn ('of such as these, to such ones') clarifies that the kingdom belongs not to children per se but to those who share their characteristics — dependence, receptivity, lack of status."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 17,
+      "text_greek": "ἀμὴν λέγω ὑμῖν, ὃς ἂν μὴ δέξηται τὴν βασιλείαν τοῦ θεοῦ ὡς παιδίον, οὐ μὴ εἰσέλθῃ εἰς αὐτήν.",
+      "text_kjv": "Verily I say unto you, Whosoever shall not receive the kingdom of God as a little child shall in no wise enter therein.",
+      "rendering": "Truly I tell you, whoever does not receive the kingdom of God like a child will never enter it.\"",
+      "translator_notes": [
+        "The double negative ou mē ('never, by no means') is the strongest form of negation in Greek — there are no exceptions. The comparison 'like a child' (hōs paidion) is about how one receives, not about innocence or purity. Children in the ancient world had no legal standing, no achievements to present, no leverage — they could only receive what was given. This connects directly to the Pharisee-tax collector parable: the one who receives God's mercy without presenting credentials is the one who enters."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 18,
+      "text_greek": "Καὶ ἐπηρώτησέν τις αὐτὸν ἄρχων λέγων· Διδάσκαλε ἀγαθέ, τί ποιήσας ζωὴν αἰώνιον κληρονομήσω;",
+      "text_kjv": "And a certain ruler asked him, saying, Good Master, what shall I do to inherit eternal life?",
+      "rendering": "A certain ruler asked him, \"Good Teacher, what must I do to inherit eternal life?\"",
+      "translator_notes": [
+        "Luke identifies the man as an archōn ('ruler, official') — Matthew calls him 'young' (neaniskos) and Mark simply 'a man.' The title 'Good Teacher' (didaskale agathe) is unusual and becomes the basis for Jesus's response. The question itself contains a tension: 'inherit' (klēronomēsō) implies receiving a gift, while 'what must I do' (ti poiēsas) implies earning it."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 19,
+      "text_greek": "εἶπεν δὲ αὐτῷ ὁ Ἰησοῦς· Τί με λέγεις ἀγαθόν; οὐδεὶς ἀγαθὸς εἰ μὴ εἷς ὁ θεός.",
+      "text_kjv": "And Jesus said unto him, Why callest thou me good? none is good, save one, that is, God.",
+      "rendering": "Jesus said to him, \"Why do you call me good? No one is good except God alone.",
+      "translator_notes": [
+        "Jesus's response does not deny his own goodness but challenges the ruler's casual use of the term. The statement 'No one is good except God alone' (oudeis agathos ei mē heis ho theos) establishes an absolute standard that will prove relevant: if only God is truly good, then human moral achievement alone cannot secure eternal life. The implicit question is whether the ruler understands the full weight of calling someone 'good.'"
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 20,
+      "text_greek": "τὰς ἐντολὰς οἶδας· Μὴ μοιχεύσῃς, Μὴ φονεύσῃς, Μὴ κλέψῃς, Μὴ ψευδομαρτυρήσῃς, Τίμα τὸν πατέρα σου καὶ τὴν μητέρα.",
+      "text_kjv": "Thou knowest the commandments, Do not commit adultery, Do not kill, Do not steal, Do not bear false witness, Honour thy father and thy mother.",
+      "rendering": "You know the commandments: 'Do not commit adultery, do not murder, do not steal, do not bear false witness, honor your father and mother.'\"",
+      "translator_notes": [
+        "Jesus cites five of the Ten Commandments — all from the second table (duties toward other people) — but conspicuously omits the tenth: 'You shall not covet.' Given the story's outcome, this omission may be deliberate. The order differs from the Hebrew Bible (Exodus 20) but follows the Septuagint order in some manuscripts (Deuteronomy 5:17-18 LXX places adultery before murder).",
+        "[TCR Cross-Reference] This verse quotes Exodus 20 — see the TCR rendering of that passage for the Hebrew source text and translation decisions.",
+        "[TCR Cross-Reference] This verse quotes Deuteronomy 5:17-18 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 21,
+      "text_greek": "ὁ δὲ εἶπεν· Ταῦτα πάντα ἐφύλαξα ἐκ νεότητος.",
+      "text_kjv": "And he said, All these have I kept from my youth up.",
+      "rendering": "He said, \"I have kept all these since my youth.\"",
+      "translator_notes": [
+        "The verb ephylaxa ('I have guarded, kept, observed') implies careful, watchful obedience. The phrase ek neotētos ('from youth') refers to the age of accountability (around twelve or thirteen in Jewish practice). Jesus does not dispute his claim — this man may genuinely have lived an outwardly commandment-keeping life. The problem lies elsewhere."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 22,
+      "text_greek": "ἀκούσας δὲ ὁ Ἰησοῦς εἶπεν αὐτῷ· Ἔτι ἕν σοι λείπει· πάντα ὅσα ἔχεις πώλησον καὶ διάδος πτωχοῖς, καὶ ἕξεις θησαυρὸν ἐν τοῖς οὐρανοῖς, καὶ δεῦρο ἀκολούθει μοι.",
+      "text_kjv": "Now when Jesus heard these things, he said unto him, Yet lackest thou one thing: sell all that thou hast, and distribute unto the poor, and thou shalt have treasure in heaven: and come, follow me.",
+      "rendering": "When Jesus heard this, he said to him, \"You still lack one thing. Sell everything you have and distribute it to the poor, and you will have treasure in heaven. Then come, follow me.\"",
+      "translator_notes": [
+        "The phrase eti hen soi leipei ('one thing still remains lacking for you') pierces through the ruler's self-assessment. The command is fourfold: sell (pōlēson), distribute (diados), come (deuro), follow (akolouthei). Luke's version specifies 'everything' (panta hosa echeis) and 'distribute to the poor' (diados ptōchois), making the demand as radical as possible. The promise of 'treasure in heaven' (thēsauron en tois ouranois) reframes wealth: true riches are stored elsewhere."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 23,
+      "text_greek": "ὁ δὲ ἀκούσας ταῦτα περίλυπος ἐγενήθη· ἦν γὰρ πλούσιος σφόδρα.",
+      "text_kjv": "And when he heard this, he was very sorrowful: for he was very rich.",
+      "rendering": "When he heard this, he became deeply grieved, because he was extremely wealthy.",
+      "translator_notes": [
+        "The adjective perilypos ('deeply grieved, exceedingly sorrowful') is the same word used of Jesus in Gethsemane (Mark 14:34). Luke adds sphodra ('exceedingly, extremely') to plousios ('rich'), emphasizing the magnitude of what is being asked. The man's sorrow confirms both his genuine desire and his inability to pay the cost. Luke does not record him leaving — a subtle openness that Mark's account resolves more definitively (Mark 10:22)."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 24,
+      "text_greek": "Ἰδὼν δὲ αὐτὸν ὁ Ἰησοῦς περίλυπον γενόμενον εἶπεν· Πῶς δυσκόλως οἱ τὰ χρήματα ἔχοντες εἰς τὴν βασιλείαν τοῦ θεοῦ εἰσπορεύονται·",
+      "text_kjv": "And when Jesus saw that he was very sorrowful, he said, How hardly shall they that have riches enter into the kingdom of God!",
+      "rendering": "Jesus, seeing his grief, said, \"How difficult it is for those who have wealth to enter the kingdom of God!",
+      "translator_notes": [
+        "The adverb dyskolōs ('with difficulty, hardly') is the key word — entering the kingdom is not impossible for the wealthy (as verse 27 will clarify) but extremely difficult. The phrase ta chrēmata echontes ('those having possessions') describes not merely the rich but those who hold onto their possessions as defining possessions."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 25,
+      "text_greek": "εὐκοπώτερον γάρ ἐστιν κάμηλον διὰ τρήματος βελόνης εἰσελθεῖν ἢ πλούσιον εἰς τὴν βασιλείαν τοῦ θεοῦ εἰσελθεῖν.",
+      "text_kjv": "For it is easier for a camel to go through a needle's eye, than for a rich man to enter into the kingdom of God.",
+      "rendering": "For it is easier for a camel to go through the eye of a needle than for a rich person to enter the kingdom of God.\"",
+      "translator_notes": [
+        "The image is deliberately absurd — a kamēlon ('camel'), the largest animal in Palestine, through a trēmatos belonēs ('eye of a needle'), the smallest opening. There is no historical evidence for a medieval legend about a small gate called 'The Needle's Eye' in Jerusalem. Some manuscripts read kamilon ('rope') instead of kamēlon ('camel'), which would create a more logical comparison (rope through needle), but the harder reading (camel) is almost certainly original. The hyperbole underscores the impossibility of wealth-based entry into the kingdom."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 26,
+      "text_greek": "εἶπαν δὲ οἱ ἀκούσαντες· Καὶ τίς δύναται σωθῆναι;",
+      "text_kjv": "And they that heard it said, Who then can be saved?",
+      "rendering": "Those who heard this said, \"Then who can be saved?\"",
+      "translator_notes": [
+        "The question reveals the audience's assumption: if the wealthy — who were commonly viewed as blessed by God — cannot enter the kingdom, then salvation seems impossible for anyone. The verb sōthēnai ('to be saved') broadens the discussion from kingdom entry to salvation itself. Their shock is genuine and theologically significant."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 27,
+      "text_greek": "ὁ δὲ εἶπεν· Τὰ ἀδύνατα παρὰ ἀνθρώποις δυνατὰ παρὰ τῷ θεῷ ἐστιν.",
+      "text_kjv": "And he said, The things which are impossible with men are possible with God.",
+      "rendering": "He said, \"What is impossible with people is possible with God.\"",
+      "translator_notes": [
+        "This is the theological center of the passage. The adjective adynata ('impossible things') is unqualified — Jesus does not soften it to 'difficult.' Human effort cannot achieve salvation; only divine power can accomplish it. This echoes the angel's word to Mary in 1:37: 'Nothing will be impossible with God' (ouk adynatēsei para tou theou pan rhēma)."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 28,
+      "text_greek": "Εἶπεν δὲ ὁ Πέτρος· Ἰδοὺ ἡμεῖς ἀφέντες τὰ ἴδια ἠκολουθήσαμέν σοι.",
+      "text_kjv": "Then Peter said, Lo, we have left all, and followed thee.",
+      "rendering": "Peter said, \"Look, we have left what we had and followed you.\"",
+      "translator_notes": [
+        "Peter's statement is an implicit question: if the rich ruler failed to give up everything, what about those who did? The phrase ta idia ('our own things, what belonged to us') is more modest than Mark's panta ('everything') — Luke's Peter does not claim to have left 'everything' but rather 'what was ours.' The aorist verbs aphentes ('having left') and ēkolouthēsamen ('we followed') present the decision as completed and definitive."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 29,
+      "text_greek": "ὁ δὲ εἶπεν αὐτοῖς· Ἀμὴν λέγω ὑμῖν ὅτι οὐδείς ἐστιν ὃς ἀφῆκεν οἰκίαν ἢ γυναῖκα ἢ ἀδελφοὺς ἢ γονεῖς ἢ τέκνα ἕνεκεν τῆς βασιλείας τοῦ θεοῦ,",
+      "text_kjv": "And he said unto them, Verily I say unto you, There is no man that hath left house, or parents, or brethren, or wife, or children, for the kingdom of God's sake,",
+      "rendering": "He said to them, \"Truly I tell you, there is no one who has left house or wife or brothers or parents or children for the sake of the kingdom of God",
+      "translator_notes": [
+        "Luke's list of what might be left behind includes 'wife' (gynaika), which is unique among the Synoptic parallels and provocative — it does not necessarily advocate abandoning a spouse but recognizes that discipleship may require separation (cf. 14:26). The phrase heneken tēs basileias tou theou ('for the sake of the kingdom of God') replaces Mark's 'for my sake and the gospel's,' focusing on the kingdom rather than Jesus personally."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 30,
+      "text_greek": "ὃς οὐχὶ μὴ ἀπολάβῃ πολλαπλασίονα ἐν τῷ καιρῷ τούτῳ καὶ ἐν τῷ αἰῶνι τῷ ἐρχομένῳ ζωὴν αἰώνιον.",
+      "text_kjv": "Who shall not receive manifold more in this present time, and in the world to come life everlasting.",
+      "rendering": "Indeed, who will not accept manifold more in this present time, and in the world to come life everlasting.",
+      "translator_notes": [
+        "The promise is twofold: pollaplasiona ('many times more, manifold') in this present age (en tō kairō toutō), plus eternal life (zōēn aiōnion) in the age to come. Luke omits Mark's specification of 'houses, brothers, sisters, mothers, children, and fields' as well as 'with persecutions,' offering a more streamlined promise. The two-age framework (this age/the coming age) reflects standard Jewish eschatology."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 31,
+      "text_greek": "Παραλαβὼν δὲ τοὺς δώδεκα εἶπεν πρὸς αὐτούς· Ἰδοὺ ἀναβαίνομεν εἰς Ἰερουσαλήμ, καὶ τελεσθήσεται πάντα τὰ γεγραμμένα διὰ τῶν προφητῶν τῷ υἱῷ τοῦ ἀνθρώπου·",
+      "text_kjv": "Then he took unto him the twelve, and said unto them, Behold, we go up to Jerusalem, and all things that are written by the prophets concerning the Son of man shall be accomplished.",
+      "rendering": "Taking the Twelve aside, he said to them, \"Look, we are going up to Jerusalem, and everything written by the prophets about the Son of Man will be fulfilled.",
+      "translator_notes": [
+        "This is Jesus's third and most detailed passion prediction in Luke (cf. 9:22, 9:44). The phrase telesthēsetai panta ta gegrammena ('everything written will be completed/fulfilled') frames the passion as the fulfillment of scripture, not a tragic accident. Luke's version uniquely emphasizes prophetic fulfillment — Mark and Matthew focus more on the events themselves."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 32,
+      "text_greek": "παραδοθήσεται γὰρ τοῖς ἔθνεσιν καὶ ἐμπαιχθήσεται καὶ ὑβρισθήσεται καὶ ἐμπτυσθήσεται,",
+      "text_kjv": "For he shall be delivered unto the Gentiles, and shall be mocked, and spitefully entreated, and spitted on:",
+      "rendering": "For he will be handed over to the Gentiles and will be mocked and mistreated and spit upon.",
+      "translator_notes": [
+        "The sequence of passive verbs (paradothēsetai, empaichthēsetai, hybristhēsetai, emptysthēsetai) creates a crescendo of humiliation. The 'Gentiles' (ethnesin) refers to the Roman authorities — Jesus specifies that his death will involve both Jewish and Roman agency. The verb hybristhēsetai ('to be treated with hubris, outrageously mistreated') implies deliberate degradation."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 33,
+      "text_greek": "καὶ μαστιγώσαντες ἀποκτενοῦσιν αὐτόν, καὶ τῇ ἡμέρᾳ τῇ τρίτῃ ἀναστήσεται.",
+      "text_kjv": "And they shall scourge him, and put him to death: and the third day he shall rise again.",
+      "rendering": "After flogging him, they will kill him. And on the third day he will rise.\"",
+      "translator_notes": [
+        "The verb mastigōsantes ('having flogged') refers to the Roman flagellum — a whip with embedded bone and metal that tore flesh. The prediction moves from humiliation through death to resurrection in a single sentence. The phrase tē hēmera tē tritē ('on the third day') is the standard early Christian formula for the resurrection (cf. 1 Corinthians 15:4)."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 34,
+      "text_greek": "καὶ αὐτοὶ οὐδὲν τούτων συνῆκαν, καὶ ἦν τὸ ῥῆμα τοῦτο κεκρυμμένον ἀπ' αὐτῶν, καὶ οὐκ ἐγίνωσκον τὰ λεγόμενα.",
+      "text_kjv": "And they understood none of these things: and this saying was hid from them, neither knew they the things which were spoken.",
+      "rendering": "But the disciples understood none of this. This saying was hidden from them, and they did not grasp what was being said.",
+      "translator_notes": [
+        "Luke's threefold emphasis on incomprehension is unique and emphatic: they did not understand (synēkan), the meaning was hidden (kekrymmenon) from them, and they did not know (eginōskon) what was said. The passive kekrymmenon ('having been hidden') suggests divine concealment — God deliberately veiled the meaning until after the resurrection (cf. 24:45, where the risen Jesus 'opens their minds'). This is not merely intellectual failure but a divinely imposed limitation."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 35,
+      "text_greek": "Ἐγένετο δὲ ἐν τῷ ἐγγίζειν αὐτὸν εἰς Ἰεριχὼ τυφλός τις ἐκάθητο παρὰ τὴν ὁδὸν ἐπαιτῶν.",
+      "text_kjv": "And it came to pass, that as he was come nigh unto Jericho, a certain blind man sat by the way side begging:",
+      "rendering": "As Jesus approached Jericho, a blind man was sitting beside the road, begging.",
+      "translator_notes": [
+        "Luke places the healing as Jesus approaches Jericho, while Mark 10:46 places it as Jesus leaves Jericho — a well-known discrepancy. Various harmonizations have been proposed (two Jerichos, two healings), but we render Luke's text as written. Mark names the man Bartimaeus; Luke does not. The blind beggar sat beside the road (para tēn hodon), the only location where a beggar could access passing travelers."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 36,
+      "text_greek": "ἀκούσας δὲ ὄχλου διαπορευομένου ἐπυνθάνετο τί εἴη τοῦτο.",
+      "text_kjv": "And hearing the multitude pass by, he asked what it meant.",
+      "rendering": "Hearing a crowd passing by, he asked what was happening.",
+      "translator_notes": [
+        "The imperfect epynthaneto ('he was asking, he kept asking') suggests repeated inquiry — the blind man could hear but not see the commotion and persistently sought information. The optative eiē ('might be') indicates indirect discourse in a formal literary style characteristic of Luke."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 37,
+      "text_greek": "ἀπήγγειλαν δὲ αὐτῷ ὅτι Ἰησοῦς ὁ Ναζωραῖος παρέρχεται.",
+      "text_kjv": "And they told him, that Jesus of Nazareth passeth by.",
+      "rendering": "They told him, \"Jesus the Nazarene is passing by.\"",
+      "translator_notes": [
+        "The designation Nazōraios ('Nazarene') identifies Jesus by his hometown of Nazareth. The present tense parerchetai ('is passing by') conveys immediacy — the opportunity is now and will not last. The crowd serves as intermediary between the blind man and Jesus."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 38,
+      "text_greek": "καὶ ἐβόησεν λέγων· Ἰησοῦ υἱὲ Δαυίδ, ἐλέησόν με.",
+      "text_kjv": "And he cried, saying, Jesus, thou Son of David, have mercy on me.",
+      "rendering": "He called out, \"Jesus, Son of David, have mercy on me!\"",
+      "translator_notes": [
+        "The title 'Son of David' (huie Dauid) is a messianic title — the blind man confesses Jesus as the expected Davidic Messiah. This is remarkable: a blind beggar sees what the disciples cannot (v. 34). The plea eleēson me ('have mercy on me') uses the same verb as the tax collector's prayer in 18:13, connecting the two stories thematically."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 39,
+      "text_greek": "καὶ οἱ προάγοντες ἐπετίμων αὐτῷ ἵνα σιγήσῃ· αὐτὸς δὲ πολλῷ μᾶλλον ἔκραζεν· Υἱὲ Δαυίδ, ἐλέησόν με.",
+      "text_kjv": "And they which went before rebuked him, that he should hold his peace: but he cried so much the more, Thou Son of David, have mercy on me.",
+      "rendering": "Those in front rebuked him, telling him to be silent. But he cried out all the more, \"Son of David, have mercy on me!\"",
+      "translator_notes": [
+        "As with the parents bringing children (v. 15), the crowd tries to prevent access to Jesus, and as with the persistent widow (vv. 1-8), refusal only intensifies the plea. The imperfect ekrazen ('he kept crying out') paired with pollō mallon ('much more, all the more') shows an escalation — he refuses to be silenced. His persistence mirrors the parable that opened this chapter."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 40,
+      "text_greek": "σταθεὶς δὲ ὁ Ἰησοῦς ἐκέλευσεν αὐτὸν ἀχθῆναι πρὸς αὐτόν. ἐγγίσαντος δὲ αὐτοῦ ἐπηρώτησεν αὐτόν·",
+      "text_kjv": "And Jesus stood, and commanded him to be brought unto him: and when he was come near, he asked him,",
+      "rendering": "Jesus stopped and ordered the man to be brought to him. When he came near, Jesus asked him,",
+      "translator_notes": [
+        "The verb statheis ('having stood still, having stopped') is significant — Jesus halts his journey to Jerusalem for this one man. The verb ekeleusen ('commanded, ordered') shows authority — Jesus directs the same crowd that tried to silence the man to now bring him forward. The question that follows (v. 41) is not for information but for the man's own confession of need."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 41,
+      "text_greek": "Τί σοι θέλεις ποιήσω; ὁ δὲ εἶπεν· Κύριε, ἵνα ἀναβλέψω.",
+      "text_kjv": "Saying, What wilt thou that I shall do unto thee? And he said, Lord, that I may receive my sight.",
+      "rendering": "\"What do you want me to do for you?\" He said, \"Lord, let me see again.\"",
+      "translator_notes": [
+        "Jesus asks the same question he implicitly asked the rich ruler — 'What do you want?' The blind man's answer is direct and humble: anablepsō ('to see again, to look up') implies he was not born blind but had lost his sight. His address kyrie ('Lord') may be simple respect ('sir') or a deeper confession, given his use of 'Son of David' earlier."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 42,
+      "text_greek": "καὶ ὁ Ἰησοῦς εἶπεν αὐτῷ· Ἀνάβλεψον· ἡ πίστις σου σέσωκέν σε.",
+      "text_kjv": "And Jesus said unto him, Receive thy sight: thy faith hath saved thee.",
+      "rendering": "Jesus said to him, \"Receive your sight. Your faith has saved you.\"",
+      "translator_notes": [
+        "The imperative anablepson ('see again!') is a command, not a prayer — Jesus speaks healing into existence with a word. The phrase hē pistis sou sesōken se ('your faith has saved you') is identical to 17:19 (the grateful leper), again using sōzō to indicate that physical healing and spiritual salvation are bound together. The blind man's faith was demonstrated in his persistent refusal to be silenced."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 43,
+      "text_greek": "καὶ παραχρῆμα ἀνέβλεψεν, καὶ ἠκολούθει αὐτῷ δοξάζων τὸν θεόν. καὶ πᾶς ὁ λαὸς ἰδὼν ἔδωκεν αἶνον τῷ θεῷ.",
+      "text_kjv": "And immediately he received his sight, and followed him, glorifying God: and all the people, when they saw it, gave praise unto God.",
+      "rendering": "Gave praise to god, immediately he received his sight, and followed him, glorifying God — and all the people, when they saw it.",
+      "translator_notes": [
+        "The adverb parachrēma ('immediately, at once') is a Lukan favorite for emphasizing the instantaneous nature of divine action. The healed man ēkolouthei ('was following') Jesus — the imperfect tense suggests ongoing discipleship, not a one-time response. Unlike the rich ruler who went away grieving, the blind man follows. The chapter ends with communal praise (pas ho laos, 'all the people'), a characteristic Lukan conclusion that frames the miracle as a public revelation of God's power."
+      ],
+      "reading_level": "7th grade"
+    }
+  ]
+}

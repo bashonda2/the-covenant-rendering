@@ -1,0 +1,49 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Esther",
+    "chapter": 10,
+    "tradition": "lxx-esther",
+    "tradition_label": "Septuagint (LXX)",
+    "source_text": "Rahlfs' Septuaginta",
+    "base_text": "Westminster Leningrad Codex (WLC)",
+    "date": "2nd–1st c. BCE",
+    "generated_at": "2026-04-05T00:00:00Z",
+    "prompt_version": "1.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "The brief concluding chapter about Ahasuerus' greatness and Mordecai's rank. The LXX follows the MT closely. Addition F (Mordecai's dream interpretation and colophon, 11 verses) follows 10:3 in the LXX.",
+    "notable_variants": "The LXX preserves the three MT verses essentially unchanged. After 10:3, Addition F provides Mordecai's interpretation of the dream from Addition A, a doxology, and a scribal colophon dating the book's translation. See addition-F.json.",
+    "structural_notes": "MT has 3 verses. Addition F (11 verses) follows as an epilogue in the LXX."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "has_variant": false,
+      "variant_notes": [
+        "No significant variant between the LXX and the MT for this verse."
+      ]
+    },
+    {
+      "verse": 2,
+      "has_variant": false,
+      "variant_notes": [
+        "No significant variant between the LXX and the MT for this verse."
+      ]
+    },
+    {
+      "verse": 3,
+      "has_variant": true,
+      "significance": "moderate",
+      "mt_reading": "מָרְדֳּכַי הַיְּהוּדִי מִשְׁנֶה לַמֶּלֶךְ",
+      "lxx_reading": "Μαρδοχαῖος... δεύτερος τοῦ βασιλέως",
+      "variant_rendering": "Mordecai, second to the king",
+      "mt_rendering": "Mordecai the Jew was second to King Ahasuerus",
+      "variant_notes": [
+        "Both versions conclude with Mordecai's exalted position. The LXX adds that he was 'great among the Jews' and 'seeking the good of his people and speaking peace to all his seed.' After this verse, the LXX continues with Addition F — Mordecai's dream interpretation and the book's colophon."
+      ]
+    }
+  ]
+}

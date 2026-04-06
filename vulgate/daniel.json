@@ -1,0 +1,158 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Daniel",
+    "tradition": "vulgate",
+    "tradition_label": "Latin Vulgate",
+    "source_text": "Biblia Sacra Vulgata (Stuttgart critical edition)",
+    "base_text": "Westminster Leningrad Codex (WLC)",
+    "translator": "Jerome (Eusebius Sophronius Hieronymus)",
+    "date": "382-405 CE",
+    "generated_at": "2026-04-05T00:00:00Z",
+    "prompt_version": "1.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Jerome translated Daniel from the Hebrew/Aramaic but included the deuterocanonical additions (Prayer of Azariah, Song of the Three Young Men, Susanna, and Bel and the Dragon) from the Greek, marking them with critical signs (obeli) to indicate they were not in the Hebrew text. His preface to Daniel (Prologus Galeatus) became a foundational document in canon discussions, as Jerome openly stated these additions were not part of the Hebrew canon while still including them in his translation. Jerome also used Theodotion's Greek translation rather than the LXX for Daniel, as the LXX Daniel was widely considered unreliable.",
+    "notable_renderings": "The 'Son of Man' vision (7:13-14), the Seventy Weeks prophecy (9:24-27), the 'abomination of desolation' (9:27, 11:31, 12:11), and the resurrection passage (12:2) are the most significant Vulgate renderings. Jerome's commentary on Daniel was one of his most influential exegetical works, and his Latin renderings shaped Western apocalyptic and eschatological theology.",
+    "theological_legacy": "Daniel in the Vulgate established the Latin vocabulary for Western eschatology and apocalyptic: Filius hominis (Son of Man), abominatio desolationis (abomination of desolation), resurrectio (resurrection), and the temporal framework of the seventy weeks that dominated Western chronological calculations of Christ's coming."
+  },
+  "renderings": [
+    {
+      "reference": "Daniel 2:21",
+      "source_text": "וְהוּא מְהַשְׁנֵא עִדָּנַיָּא וְזִמְנַיָּא מְהַעְדֵּה מַלְכִין וּמְהָקֵם מַלְכִין",
+      "vulgate_text": "et ipse mutat tempora et aetates transfert regna atque constituit",
+      "vulgate_rendering": "And he changes times and ages; he transfers kingdoms and establishes them",
+      "tcr_rendering": "He changes times and seasons; He removes kings and sets up kings",
+      "theological_legacy": "Mutat tempora et aetates (changes times and ages) became a foundational text for the theology of divine sovereignty over history. Transfert regna (transfers kingdoms) shaped the Western translatio imperii concept — the idea that God transfers political power from one empire to the next.",
+      "notes": ["The Aramaic uses iddanayya and zimnayya (times and seasons). Jerome's tempora et aetates captures both temporal terms. The verse was central to medieval political theology, especially the concept that legitimate political authority derives from God and can be transferred by divine will."]
+    },
+    {
+      "reference": "Daniel 2:34-35",
+      "source_text": "אֶבֶן...דָּקֶת...וַהֲוָת לְטוּר רַב וּמְלָת כָּל־אַרְעָא",
+      "vulgate_text": "lapis...comminuit...et factus est mons magnus et implevit universam terram",
+      "vulgate_rendering": "A stone...ground to pieces...and became a great mountain and filled the whole earth",
+      "tcr_rendering": "A stone...crushed them...and became a great mountain and filled the whole earth",
+      "theological_legacy": "Lapis (stone) that becomes mons magnus (a great mountain) filling the earth was universally read in the Latin tradition as Christ's kingdom replacing the empires of the world. The stone-to-mountain image shaped Western eschatology and ecclesiology — the Church as the growing mountain that will fill the earth.",
+      "notes": ["Jerome's rendering is faithful to the Aramaic. The four-kingdoms schema of Daniel 2 (Babylon, Persia, Greece, Rome) became the dominant framework for understanding world history in Western Christendom, with the stone representing Christ or the Church."]
+    },
+    {
+      "reference": "Daniel 3:24-90 (deuterocanonical addition)",
+      "source_text": "(not in Hebrew/Aramaic MT)",
+      "vulgate_text": "Prayer of Azariah and Song of the Three Young Men (Benedicite omnia opera Domini Domino)",
+      "vulgate_rendering": "The Prayer of Azariah and the Song of the Three Young Men",
+      "tcr_rendering": "(not included — deuterocanonical addition)",
+      "theological_legacy": "The Benedicite (Song of the Three Young Men) became one of the most important canticles in Western liturgy, sung at Lauds (morning prayer). Jerome included it but marked it as not in the Hebrew, establishing the pattern of inclusion-with-caveat that characterized the Western canon debate until the Reformation.",
+      "notes": ["Jerome placed obeli (critical marks) around the deuterocanonical additions to signal they were absent from the Hebrew text. His preface states clearly that these sections are not in the Hebrew canon. Despite this caveat, the additions became fully integrated into Western liturgy. The Benedicite's litanic structure ('Bless the Lord, all works of the Lord') influenced Western hymnody profoundly."]
+    },
+    {
+      "reference": "Daniel 7:9",
+      "source_text": "עַתִּיק יוֹמִין (Attiq Yomin)",
+      "vulgate_text": "antiquus dierum",
+      "vulgate_rendering": "The Ancient of Days",
+      "tcr_rendering": "the Ancient of Days",
+      "theological_legacy": "Antiquus dierum became the standard Latin title for God in his eternal, pre-temporal aspect. The image of the white-haired, enthroned Ancient of Days became one of the most important depictions of God the Father in Western art, despite theological cautions about depicting the invisible God.",
+      "notes": ["Jerome translates the Aramaic Attiq Yomin literally. The title entered Western theological vocabulary and iconographic tradition. The description of white hair and fire-throne (7:9-10) shaped artistic depictions of God for centuries, particularly in Byzantine-influenced Western art."]
+    },
+    {
+      "reference": "Daniel 7:13-14",
+      "source_text": "כְּבַר אֱנָשׁ (kebar enash)...וְלֵהּ יְהִיב שָׁלְטָן וִיקָר וּמַלְכוּ",
+      "vulgate_text": "quasi filius hominis...et dedit ei potestatem et honorem et regnum",
+      "vulgate_rendering": "One like a son of man...and he gave him power and honor and a kingdom",
+      "tcr_rendering": "one like a son of man...and to him was given dominion and glory and a kingdom",
+      "theological_legacy": "Filius hominis (Son of Man) became the primary christological title in Latin, used over 80 times in the Gospels. Jerome's rendering of the Danielic original established the Latin form that defined Western Christology. Potestatem et honorem et regnum (power, honor, and kingdom) provided the Latin vocabulary for Christ's royal authority.",
+      "notes": ["The Aramaic kebar enash means 'like a son of man' — i.e., a human-like figure. Jerome's quasi filius hominis preserves the simile (quasi = like/as if). Jesus's self-designation as 'Son of Man' (Filius hominis) in the Gospels draws on this Daniel passage, and Jerome's consistent rendering across both OT and NT maintained the connection."]
+    },
+    {
+      "reference": "Daniel 9:24",
+      "source_text": "שָׁבֻעִים שִׁבְעִים נֶחְתַּךְ עַל־עַמְּךָ...לְכַפֵּר עָוֺן וּלְהָבִיא צֶדֶק עֹלָמִים וְלַחְתֹּם חָזוֹן וְנָבִיא וְלִמְשֹׁחַ קֹדֶשׁ קָדָשִׁים",
+      "vulgate_text": "septuaginta ebdomades abbreviatae sunt super populum tuum...et deleatur iniquitas et adducatur iustitia sempiterna et impleatur visio et prophetia et ungatur Sanctus sanctorum",
+      "vulgate_rendering": "Seventy weeks are shortened upon your people...that iniquity may be blotted out and everlasting justice brought in and vision and prophecy fulfilled and the Holy of Holies anointed",
+      "tcr_rendering": "Seventy sevens are decreed upon your people...to atone for iniquity and to bring in everlasting righteousness and to seal up vision and prophet and to anoint a Most Holy Place",
+      "theological_legacy": "The Seventy Weeks prophecy in Latin became the most calculated and debated chronological text in Western exegesis. Every phrase generated enormous theological literature. Iustitia sempiterna (everlasting justice/righteousness), Sanctus sanctorum (Holy of Holies), and the anointing language all fed into Western messianic chronology.",
+      "notes": ["Jerome's abbreviatae sunt (are shortened/cut short) for Hebrew nechtak (are decreed/determined) is an unusual rendering. Deleatur iniquitas (let iniquity be blotted out) for lechapper avon (to atone for iniquity) shifts from atonement to erasure. Sanctus sanctorum (Holy of Holies) was debated: does it refer to a place or a person (Christ as the anointed Holy One)?"]
+    },
+    {
+      "reference": "Daniel 9:25",
+      "source_text": "עַד מָשִׁיחַ נָגִיד שָׁבֻעִים שִׁבְעָה",
+      "vulgate_text": "usque ad Christum ducem ebdomades septem",
+      "vulgate_rendering": "Until Christ the leader, seven weeks",
+      "tcr_rendering": "until an anointed one, a ruler — seven sevens",
+      "theological_legacy": "Christum ducem (Christ the leader) is a striking rendering — Jerome uses Christus (the Anointed One/Christ) rather than a generic unctus (anointed one), making the messianic identification explicit. This interpretive choice made the Seventy Weeks prophecy the primary Old Testament chronological proof of Jesus's messiahship in Western theology.",
+      "notes": ["Hebrew mashiach nagid means 'an anointed one, a prince/ruler.' Jerome's decision to render mashiach as Christum rather than unctum makes the christological identification explicit rather than leaving it open. This influenced virtually all subsequent Western chronological calculations of Christ's advent."]
+    },
+    {
+      "reference": "Daniel 9:27",
+      "source_text": "וְעַל כְּנַף שִׁקּוּצִים מְשֹׁמֵם",
+      "vulgate_text": "et erit in templo abominatio desolationis",
+      "vulgate_rendering": "And in the temple there shall be the abomination of desolation",
+      "tcr_rendering": "and on the wing of abominations will come one who makes desolate",
+      "theological_legacy": "Abominatio desolationis (abomination of desolation) became the standard Latin phrase for the eschatological sacrilege, quoted by Jesus in Matt 24:15 and Mark 13:14. The phrase shaped Western eschatological expectations, applied variously to Antiochus Epiphanes, the destruction of the Temple, the Antichrist, and (during the Reformation) to papal claims.",
+      "notes": ["Jerome's in templo (in the temple) clarifies the cryptic Hebrew 'on the wing of abominations.' The phrase abominatio desolationis renders the Hebrew shiqquts meshomem (detestable thing causing desolation). Jesus's reference to this phrase (Matt 24:15, 'spoken of by Daniel the prophet') made it the most important apocalyptic signal in Western eschatology."]
+    },
+    {
+      "reference": "Daniel 10:13",
+      "source_text": "וְשַׂר מַלְכוּת פָּרַס עֹמֵד לְנֶגְדִּי...וּמִיכָאֵל אַחַד הַשָּׂרִים הָרִאשֹׁנִים בָּא לְעָזְרֵנִי",
+      "vulgate_text": "princeps autem regni Persarum restitit mihi...et Michahel unus de principibus primis venit in adiutorium meum",
+      "vulgate_rendering": "But the prince of the kingdom of Persia resisted me...and Michael, one of the chief princes, came to my aid",
+      "tcr_rendering": "But the prince of the kingdom of Persia stood against me...and Michael, one of the chief princes, came to help me",
+      "theological_legacy": "Princeps regni Persarum (prince of the kingdom of Persia) and Michahel unus de principibus primis (Michael, one of the chief princes) established the Latin vocabulary for angelology and spiritual warfare. The concept of national angelic princes and cosmic conflict between angelic powers became foundational to Western demonology and angelology.",
+      "notes": ["Jerome's rendering is faithful to the Hebrew. Daniel 10 was the primary biblical source for the Western doctrine of national guardian angels and the warfare between good and evil angelic powers. Michael's role here connects to Revelation 12:7 and shaped Catholic devotion to St. Michael."]
+    },
+    {
+      "reference": "Daniel 12:1",
+      "source_text": "וּבָעֵת הַהִיא יַעֲמֹד מִיכָאֵל הַשַּׂר הַגָּדוֹל",
+      "vulgate_text": "in tempore autem illo consurget Michahel princeps magnus",
+      "vulgate_rendering": "But at that time Michael the great prince shall rise",
+      "tcr_rendering": "At that time Michael, the great prince, will arise",
+      "theological_legacy": "Michahel princeps magnus (Michael the great prince) established Michael's role as the eschatological defender of God's people. This became central to Catholic angelology and the liturgical celebration of St. Michael (Michaelmas). The prayer to St. Michael (Sancte Michael Archangele) draws on this Danielic tradition.",
+      "notes": ["Jerome's princeps magnus (great prince) for Hebrew hasar haggadol is straightforward. The verse was combined with Revelation 12:7-9 and Jude 9 to create the composite Western image of Michael as the chief warrior-angel against Satan."]
+    },
+    {
+      "reference": "Daniel 12:2",
+      "source_text": "וְרַבִּים מִיְּשֵׁנֵי אַדְמַת־עָפָר יָקִיצוּ אֵלֶּה לְחַיֵּי עוֹלָם וְאֵלֶּה לַחֲרָפוֹת לְדִרְאוֹן עוֹלָם",
+      "vulgate_text": "et multi de his qui dormiunt in terrae pulvere evigilabunt alii in vitam aeternam et alii in obprobrium ut videant semper",
+      "vulgate_rendering": "And many of those who sleep in the dust of the earth shall awake, some to everlasting life and some to reproach that they may see forever",
+      "tcr_rendering": "And many of those who sleep in the dust of the ground will awake — some to everlasting life, and some to shame, to everlasting contempt",
+      "theological_legacy": "Vitam aeternam (everlasting life) and obprobrium (reproach/shame) established the Latin vocabulary for the two-fold destiny of resurrection — eternal life or eternal disgrace. This verse, alongside Isaiah 26:19, is the clearest Old Testament statement of bodily resurrection and became foundational to Western eschatology. Vita aeterna entered the creeds and became the standard term for the Christian hope.",
+      "notes": ["Jerome's rendering is faithful. In vitam aeternam (to everlasting life) matches the Hebrew lechayei olam. The phrase vita aeterna became ubiquitous in Western theology — the Nicene Creed ends with 'et vitam venturi saeculi' (and the life of the age to come), and Jesus uses 'vita aeterna' repeatedly in John's Gospel."]
+    },
+    {
+      "reference": "Daniel 12:3",
+      "source_text": "וְהַמַּשְׂכִּלִים יַזְהִרוּ כְּזֹהַר הָרָקִיעַ",
+      "vulgate_text": "qui autem docti fuerint fulgebunt quasi splendor firmamenti",
+      "vulgate_rendering": "But those who are learned shall shine as the brightness of the firmament",
+      "tcr_rendering": "Those who are wise will shine like the brightness of the expanse",
+      "theological_legacy": "Docti (the learned/instructed) for Hebrew maskilim (the wise/insightful) emphasizes teaching and learning. Fulgebunt quasi splendor firmamenti (shall shine like the brightness of the firmament) became a hope-text for scholars, teachers, and martyrs in the Latin tradition.",
+      "notes": ["Jerome's docti (learned, taught) for maskilim (those who have insight, the wise) shifts toward formal education rather than practical wisdom. The promise that the wise shall shine like stars was applied to martyrs and teachers in Western hagiography."]
+    },
+    {
+      "reference": "Daniel 12:4",
+      "source_text": "סְתֹם הַדְּבָרִים וַחֲתֹם הַסֵּפֶר עַד־עֵת קֵץ",
+      "vulgate_text": "tu autem Danihel clude sermones et signa librum usque ad tempus statutum",
+      "vulgate_rendering": "But you, Daniel, shut up the words and seal the book until the appointed time",
+      "tcr_rendering": "But you, Daniel, close up the words and seal the book until the time of the end",
+      "theological_legacy": "Clude sermones et signa librum (shut up the words and seal the book) established the concept of sealed prophecy that would be opened at the end times. This shaped Western apocalypticism — the idea that Daniel's prophecies were sealed until the time of fulfillment, which each generation tended to identify as its own.",
+      "notes": ["Jerome's tempus statutum (appointed time) for Hebrew et qets (time of the end) slightly softens the eschatological urgency. The 'sealed book' concept influenced the structure of Revelation (the sealed scroll of Rev 5-6) and all subsequent Western apocalyptic literature."]
+    },
+    {
+      "reference": "Daniel 13 (Susanna — deuterocanonical)",
+      "source_text": "(not in Hebrew/Aramaic MT)",
+      "vulgate_text": "The story of Susanna and the Elders",
+      "vulgate_rendering": "History of Susanna",
+      "tcr_rendering": "(not included — deuterocanonical addition)",
+      "theological_legacy": "Jerome included Susanna but noted it was not in the Hebrew. The story became one of the most depicted biblical narratives in Western art (Susanna and the Elders by Tintoretto, Rubens, Rembrandt, Artemisia Gentileschi). It also served as a paradigm of justice — Daniel as wise judge vindicating innocence against false accusation.",
+      "notes": ["Jerome placed Susanna at the end of Daniel (chapter 13) rather than at the beginning (as in the LXX/Theodotion). His critical note that it was absent from the Hebrew established the pattern for the deuterocanonical debate. Despite his reservations, the story's inclusion in the Vulgate ensured its enormous cultural influence in the West."]
+    },
+    {
+      "reference": "Daniel 14 (Bel and the Dragon — deuterocanonical)",
+      "source_text": "(not in Hebrew/Aramaic MT)",
+      "vulgate_text": "The story of Bel and the Dragon",
+      "vulgate_rendering": "History of Bel and the Dragon",
+      "tcr_rendering": "(not included — deuterocanonical addition)",
+      "theological_legacy": "Jerome included this addition with critical marks. The story of Daniel exposing the fraud of Bel's priests and destroying the dragon/serpent became a paradigm for Christian polemic against idolatry and was frequently depicted in medieval art, particularly in scenes of Daniel in the lions' den (which differs from the canonical version in Daniel 6).",
+      "notes": ["Like Susanna, Jerome included Bel and the Dragon while noting its absence from the Hebrew text. His approach — inclusion with scholarly caveat — became the model for the Western 'deuterocanonical' category, distinct from both full canonicity and outright rejection."]
+    }
+  ]
+}

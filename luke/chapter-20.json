@@ -1,0 +1,505 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Luke",
+    "chapter": 20,
+    "source_text": "SBL Greek New Testament (SBLGNT)",
+    "reference_text": "KJV",
+    "generated_at": "2026-04-04T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Luke 20 records a series of confrontations between Jesus and the Jerusalem authorities during his final week of teaching in the temple. The chapter moves through the question of Jesus's authority, the parable of the wicked tenants, the question about paying taxes to Caesar, the Sadducees' question about the resurrection, and Jesus's counter-question about David's son. Each encounter escalates the conflict that will lead to his arrest.",
+    "remarkable": "The parable of the wicked tenants is one of the clearest allegorical parables in the Synoptic tradition, with the vineyard owner representing God, the tenants representing Israel's leaders, the servants representing the prophets, and the beloved son representing Jesus. The 'render to Caesar' saying is one of the most cited and debated pronouncements in Christian political theology. The Sadducees' resurrection question provides rare insight into an intra-Jewish theological dispute that Jesus adjudicates by appealing to the Torah itself — the only scripture the Sadducees accepted.",
+    "friction": "The parable of the wicked tenants has been historically misused to justify antisemitism. The parable targets the leadership class, not the Jewish people as a whole. We render the Greek as written and note the parable's allegorical dimensions without importing supersessionist theology. The 'render to Caesar' passage is deliberately ambiguous — Jesus does not resolve the tension between divine and imperial claims, and we do not resolve it either.",
+    "connections": "The vineyard parable draws on Isaiah 5:1-7 (the Song of the Vineyard). The rejected cornerstone quotation comes from Psalm 118:22, the same psalm quoted during the triumphal entry (19:38). The resurrection argument cites Exodus 3:6 (the burning bush). The 'David's son' question quotes Psalm 110:1, the most frequently cited Old Testament text in the New Testament."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_greek": "Καὶ ἐγένετο ἐν μιᾷ τῶν ἡμερῶν διδάσκοντος αὐτοῦ τὸν λαὸν ἐν τῷ ἱερῷ καὶ εὐαγγελιζομένου ἐπέστησαν οἱ ἀρχιερεῖς καὶ οἱ γραμματεῖς σὺν τοῖς πρεσβυτέροις",
+      "text_kjv": "And it came to pass, that on one of those days, as he taught the people in the temple, and preached the gospel, the chief priests and the scribes came upon him with the elders,",
+      "rendering": "One day, as he was teaching the people in the temple and proclaiming the good news, the chief priests and the scribes, together with the elders, confronted him.",
+      "translator_notes": [
+        "Luke uses the verb euangelizomenou ('proclaiming good news, preaching the gospel'), unique to his version of this scene. The three groups — chief priests (archiereis), scribes (grammateis), and elders (presbyteroi) — constitute the Sanhedrin, the supreme Jewish governing council. Their approach is described as epestēsan ('stood upon, confronted'), implying an official and possibly hostile approach."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 2,
+      "text_greek": "καὶ εἶπαν λέγοντες πρὸς αὐτόν· Εἰπὸν ἡμῖν ἐν ποίᾳ ἐξουσίᾳ ταῦτα ποιεῖς, ἢ τίς ἐστιν ὁ δούς σοι τὴν ἐξουσίαν ταύτην.",
+      "text_kjv": "And spake unto him, saying, Tell us, by what authority doest thou these things? or who is he that gave thee this authority?",
+      "rendering": "Spoke to him and stated, Tell us, by what authority doest you these things? or who is he that offered you this authority?",
+      "translator_notes": [
+        "The double question targets both the nature ('what kind of authority') and the source ('who authorized you') of Jesus's actions. The word exousia ('authority, right, power') is a legal and religious term — they are demanding his credentials. The phrase tauta poieis ('you are doing these things') refers to the temple cleansing and the teaching; both require rabbinic or priestly authorization that Jesus has not sought."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 3,
+      "text_greek": "ἀποκριθεὶς δὲ εἶπεν πρὸς αὐτούς· Ἐρωτήσω ὑμᾶς κἀγὼ λόγον, καὶ εἴπατέ μοι·",
+      "text_kjv": "And he answered and said unto them, I will also ask you one thing; and answer me:",
+      "rendering": "He answered them, \"I will also ask you a question. Tell me:",
+      "translator_notes": [
+        "Jesus's counter-question is a standard rabbinic technique — answering a question with a question was not evasion but a recognized form of argumentation. By establishing that they must answer first, Jesus shifts the power dynamic of the exchange."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 4,
+      "text_greek": "Τὸ βάπτισμα Ἰωάννου ἐξ οὐρανοῦ ἦν ἢ ἐξ ἀνθρώπων;",
+      "text_kjv": "The baptism of John, was it from heaven, or of men?",
+      "rendering": "Was the baptism of John from heaven, or from human origin?\"",
+      "translator_notes": [
+        "The dichotomy is absolute: ex ouranou ('from heaven,' meaning 'from God') or ex anthrōpōn ('from humans,' meaning 'of merely human invention'). There is no middle ground. The question is strategically brilliant because the authorities' answer to this question will logically determine the answer to their own question about Jesus's authority — since John endorsed Jesus."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 5,
+      "text_greek": "οἱ δὲ συνελογίσαντο πρὸς ἑαυτοὺς λέγοντες ὅτι Ἐὰν εἴπωμεν· Ἐξ οὐρανοῦ, ἐρεῖ· Διὰ τί οὐκ ἐπιστεύσατε αὐτῷ;",
+      "text_kjv": "And they reasoned with themselves, saying, If we shall say, From heaven; he will say, Why then believed ye him not?",
+      "rendering": "They discussed it among themselves, saying, \"If we say, 'From heaven,' he will say, 'Why did you not believe him?'",
+      "translator_notes": [
+        "The verb synelogisanto ('they reasoned together, calculated together') reveals that their deliberation is political calculation, not theological inquiry. They evaluate each possible answer not for its truth but for its consequences. If John's baptism was from God, their failure to submit to it indicts them."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 6,
+      "text_greek": "ἐὰν δὲ εἴπωμεν· Ἐξ ἀνθρώπων, ὁ λαὸς ἅπας καταλιθάσει ἡμᾶς, πεπεισμένος γάρ ἐστιν Ἰωάννην προφήτην εἶναι.",
+      "text_kjv": "But and if we say, Of men; all the people will stone us: for they be persuaded that John was a prophet.",
+      "rendering": "But if we say, 'From human origin,' all the people will stone us, because they are convinced that John was a prophet.\"",
+      "translator_notes": [
+        "The verb katalithasei ('will stone') may be literal or hyperbolic — stoning was the Torah-prescribed punishment for blasphemy and false prophecy, and denying a true prophet could be perceived as blasphemous. The perfect participle pepeismenos ('having been convinced, firmly persuaded') indicates a settled, unshakeable popular conviction about John's prophetic status."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 7,
+      "text_greek": "καὶ ἀπεκρίθησαν μὴ εἰδέναι πόθεν.",
+      "text_kjv": "And they answered, that they could not tell whence it was.",
+      "rendering": "So they answered that they did not know where it came from.",
+      "translator_notes": [
+        "Their answer mē eidenai pothen ('not to know from where') is an admission of either ignorance or cowardice — the religious leaders of Israel profess inability to evaluate a major prophetic movement. The admission damages their own credibility: if they cannot assess John, how can they assess Jesus?"
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 8,
+      "text_greek": "καὶ ὁ Ἰησοῦς εἶπεν αὐτοῖς· Οὐδὲ ἐγὼ λέγω ὑμῖν ἐν ποίᾳ ἐξουσίᾳ ταῦτα ποιῶ.",
+      "text_kjv": "And Jesus said unto them, Neither tell I you by what authority I do these things.",
+      "rendering": "Jesus said to them, \"Neither will I tell you by what authority I do these things.\"",
+      "translator_notes": [
+        "Jesus does not refuse to answer because he cannot but because they have refused to engage honestly. The logical implication is clear to the audience: if they had acknowledged John's divine authority, the answer about Jesus's authority would follow naturally. Their dishonesty forfeits their right to a direct answer."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 9,
+      "text_greek": "Ἤρξατο δὲ πρὸς τὸν λαὸν λέγειν τὴν παραβολὴν ταύτην· Ἄνθρωπος ἐφύτευσεν ἀμπελῶνα, καὶ ἐξέδετο αὐτὸν γεωργοῖς, καὶ ἀπεδήμησεν χρόνους ἱκανούς.",
+      "text_kjv": "Then began he to speak to the people this parable; A certain man planted a vineyard, and let it forth to husbandmen, and went into a far country for a long time.",
+      "rendering": "He began to tell the people this parable: \"A man planted a vineyard, leased it to tenant farmers, and went away for a long time.",
+      "translator_notes": [
+        "The parable draws directly on Isaiah 5:1-7, where the vineyard represents Israel and the owner represents God. The geōrgois ('farmers, vine-dressers, tenants') are those entrusted with caring for what belongs to another. The detail apedēmēsen chronous hikanous ('went away for a considerable time') explains why the tenants might grow presumptuous — the owner's long absence leads them to act as though the vineyard were their own.",
+        "[TCR Cross-Reference] Echoes Isaiah 5:1-7. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 10,
+      "text_greek": "καὶ καιρῷ ἀπέστειλεν πρὸς τοὺς γεωργοὺς δοῦλον, ἵνα ἀπὸ τοῦ καρποῦ τοῦ ἀμπελῶνος δώσουσιν αὐτῷ· οἱ δὲ γεωργοὶ ἐξαπέστειλαν αὐτὸν δείραντες κενόν.",
+      "text_kjv": "And at the season he sent a servant to the husbandmen, that they should give him of the fruit of the vineyard: but the husbandmen beat him, and sent him away empty.",
+      "rendering": "At harvest time he sent a slave to the tenants so they would give him his share of the vineyard's fruit. But the tenants beat him and sent him away empty-handed.",
+      "translator_notes": [
+        "The kairō ('at the appointed time, at the season') refers to the harvest — the owner sends for what is rightfully his. The verb deirantes ('having beaten, having flayed') indicates a physical assault. The slave represents the prophets sent to Israel's leaders demanding the fruit of faithful obedience. Being sent away kenon ('empty') means the owner received nothing of what was owed."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 11,
+      "text_greek": "καὶ προσέθετο ἕτερον πέμψαι δοῦλον· οἱ δὲ κἀκεῖνον δείραντες καὶ ἀτιμάσαντες ἐξαπέστειλαν κενόν.",
+      "text_kjv": "And again he sent another servant: and they beat him also, and entreated him shamefully, and sent him away empty.",
+      "rendering": "He sent yet another slave, and they beat that one too, dishonored him, and sent him away empty-handed.",
+      "translator_notes": [
+        "The verb prosetheto ('he added, he proceeded') is a Septuagintalism — a Hebrew idiom (vayosef, 'he added again') rendered literally in Greek. Each subsequent sending represents another prophetic mission. The addition of atimasantes ('having dishonored, having treated shamefully') escalates the violence beyond the first episode."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 12,
+      "text_greek": "καὶ προσέθετο τρίτον πέμψαι· οἱ δὲ καὶ τοῦτον τραυματίσαντες ἐξέβαλον.",
+      "text_kjv": "And again he sent a third: and they wounded him also, and cast him out.",
+      "rendering": "He sent still a third, and they wounded this one too and threw him out.",
+      "translator_notes": [
+        "The escalation continues: the first slave was beaten, the second beaten and dishonored, the third traumatisantes ('wounded') and exebalon ('thrown out, expelled'). Luke uses three slaves (Mark has multiple unnamed servants); the threefold pattern creates a climactic buildup to the sending of the son. The history of Israel's treatment of the prophets (cf. Nehemiah 9:26, 2 Chronicles 36:15-16) is compressed into three episodes.",
+        "[TCR Cross-Reference] Draws on Nehemiah 9:26. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices.",
+        "[TCR Cross-Reference] Draws on 2 Chronicles 36:15-16. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 13,
+      "text_greek": "εἶπεν δὲ ὁ κύριος τοῦ ἀμπελῶνος· Τί ποιήσω; πέμψω τὸν υἱόν μου τὸν ἀγαπητόν· ἴσως τοῦτον ἐντραπήσονται.",
+      "text_kjv": "Then said the lord of the vineyard, What shall I do? I will send my beloved son: it may be they will reverence him when they see him.",
+      "rendering": "Then the owner of the vineyard said, 'What shall I do? I will send my beloved son. Perhaps they will respect him.'",
+      "translator_notes": [
+        "The phrase ton huion mou ton agapēton ('my beloved son') is identical to the divine voice at Jesus's baptism (3:22) and transfiguration (9:35), making the allegorical identification unmistakable. The word isōs ('perhaps') reveals the owner's vulnerability — he sends his most precious envoy without certainty of success, an astonishing portrayal of divine risk-taking. The question ti poiēsō ('what shall I do?') humanizes the owner's deliberation."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 14,
+      "text_greek": "ἰδόντες δὲ αὐτὸν οἱ γεωργοὶ διελογίζοντο πρὸς ἀλλήλους λέγοντες· Οὗτός ἐστιν ὁ κληρονόμος· ἀποκτείνωμεν αὐτόν, ἵνα ἡμῶν γένηται ἡ κληρονομία.",
+      "text_kjv": "But when the husbandmen saw him, they reasoned among themselves, saying, This is the heir: come, let us kill him, that the inheritance may be ours.",
+      "rendering": "But when the tenants saw him, they discussed it among themselves, saying, 'This is the heir. Let us kill him, so that the inheritance will be ours.'",
+      "translator_notes": [
+        "The tenants' reasoning reflects first-century land law: if an owner died without clear succession and the land was unclaimed, those working it could potentially claim it by possession. Their calculation is both logical and monstrous. The word klēronomos ('heir') and klēronomia ('inheritance') are covenantal terms — the inheritance of Israel's promises is at stake. The verb apokteinōmen ('let us kill') is a deliberative subjunctive expressing a cold, calculated decision."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 15,
+      "text_greek": "καὶ ἐκβαλόντες αὐτὸν ἔξω τοῦ ἀμπελῶνος ἀπέκτειναν. τί οὖν ποιήσει αὐτοῖς ὁ κύριος τοῦ ἀμπελῶνος;",
+      "text_kjv": "So they cast him out of the vineyard, and killed him. What therefore shall the lord of the vineyard do unto them?",
+      "rendering": "They threw him out of the vineyard and killed him. What then will the owner of the vineyard do to them?",
+      "translator_notes": [
+        "Luke reverses Mark's order: in Mark 12:8, they kill the son first and then throw the body out; in Luke, they throw him out first and then kill him. Luke's order may reflect Jesus's actual death outside the walls of Jerusalem (Hebrews 13:12). The question ti oun poiēsei ('what then will he do?') turns the audience into judges of their own case — they must pronounce the verdict before realizing it applies to them."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 16,
+      "text_greek": "ἐλεύσεται καὶ ἀπολέσει τοὺς γεωργοὺς τούτους καὶ δώσει τὸν ἀμπελῶνα ἄλλοις. ἀκούσαντες δὲ εἶπαν· Μὴ γένοιτο.",
+      "text_kjv": "He shall come and destroy these husbandmen, and shall give the vineyard to others. And when they heard it, they said, God forbid.",
+      "rendering": "He will come and destroy those tenants and give the vineyard to others.\" When they heard this, they said, \"May it never be!\"",
+      "translator_notes": [
+        "In Luke (unlike Mark and Matthew), Jesus answers his own question rather than letting the audience answer. The phrase allois ('to others') is deliberately unspecified — it could refer to Gentiles, to new leaders, or to a renewed community. The audience's response mē genoito ('may it never happen!') is a strong deprecation indicating they understood the parable's implication and recoiled from it. This phrase is Paul's characteristic expression of horror (Romans 6:2, 9:14, etc.)."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 17,
+      "text_greek": "ὁ δὲ ἐμβλέψας αὐτοῖς εἶπεν· Τί οὖν ἐστιν τὸ γεγραμμένον τοῦτο· Λίθον ὃν ἀπεδοκίμασαν οἱ οἰκοδομοῦντες, οὗτος ἐγενήθη εἰς κεφαλὴν γωνίας;",
+      "text_kjv": "And he beheld them, and said, What is this then that is written, The stone which the builders rejected, the same is become the head of the corner?",
+      "rendering": "But Jesus looked directly at them and said, \"Then what is the meaning of this scripture: 'The stone the builders rejected has become the cornerstone'?",
+      "translator_notes": [
+        "The verb emblepsas ('having looked intently at, having fixed his gaze upon') conveys a penetrating, searching look. Jesus quotes Psalm 118:22, which was already a messianic text in Jewish interpretation. The 'builders' (oikodomountes) are the temple authorities — those responsible for constructing God's house. The kephalēn gōnias ('head of the corner, cornerstone') is the stone that determines the alignment of the entire structure. The rejected stone becomes the most important one.",
+        "[TCR Cross-Reference] Draws on Psalms 118:22. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 18,
+      "text_greek": "πᾶς ὁ πεσὼν ἐπ' ἐκεῖνον τὸν λίθον συνθλασθήσεται· ἐφ' ὃν δ' ἂν πέσῃ, λικμήσει αὐτόν.",
+      "text_kjv": "Whosoever shall fall upon that stone shall be broken; but on whomsoever it shall fall, it will grind him to powder.",
+      "rendering": "Everyone who falls on that stone will be broken to pieces, and the one on whom it falls — it will crush him.\"",
+      "translator_notes": [
+        "This expansion of the stone imagery draws on Isaiah 8:14-15 (a stone of stumbling) and Daniel 2:34-35, 44-45 (the stone that crushes the statue). Two fates are described: those who stumble over the stone are 'shattered' (synthlasthēsetai), and those the stone falls upon are 'winnowed to dust' (likmēsei). The verb likmēsei ('will winnow, will scatter like chaff') is agricultural imagery — total pulverization. There is no neutral response to the cornerstone.",
+        "[TCR Cross-Reference] References Isaiah 8:14-15 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved.",
+        "[TCR Cross-Reference] References Daniel 2:34-35 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 19,
+      "text_greek": "Καὶ ἐζήτησαν οἱ γραμματεῖς καὶ οἱ ἀρχιερεῖς ἐπιβαλεῖν ἐπ' αὐτὸν τὰς χεῖρας ἐν αὐτῇ τῇ ὥρᾳ, καὶ ἐφοβήθησαν τὸν λαόν· ἔγνωσαν γὰρ ὅτι πρὸς αὐτοὺς εἶπεν τὴν παραβολὴν ταύτην.",
+      "text_kjv": "And the chief priests and the scribes the same hour sought to lay hands on him; and they feared the people: for they perceived that he had spoken this parable against them.",
+      "rendering": "The scribes and the chief priests wanted to seize him at that very hour, but they feared the people, for they knew he had told this parable against them.",
+      "translator_notes": [
+        "The phrase en autē tē hōra ('at that very hour') indicates an immediate, rage-driven impulse. The verb epibalein tas cheiras ('to lay hands upon, to seize') is a technical term for arrest. Their recognition that the parable was pros autous ('against them, directed at them') confirms the allegorical reading: they are the wicked tenants. Fear of the people (ephobēthēsan ton laon) is the only restraint, not conscience or uncertainty."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 20,
+      "text_greek": "Καὶ παρατηρήσαντες ἀπέστειλαν ἐγκαθέτους ὑποκρινομένους ἑαυτοὺς δικαίους εἶναι, ἵνα ἐπιλάβωνται αὐτοῦ λόγου, ὥστε παραδοῦναι αὐτὸν τῇ ἀρχῇ καὶ τῇ ἐξουσίᾳ τοῦ ἡγεμόνος.",
+      "text_kjv": "And they watched him, and sent forth spies, which should feign themselves just men, that they might take hold of his words, that so they might deliver him unto the power and authority of the governor.",
+      "rendering": "Watching for an opportunity, they sent spies who pretended to be sincere, so that they might catch him in something he said, in order to hand him over to the authority and jurisdiction of the governor.",
+      "translator_notes": [
+        "The word enkathetous ('spies, secret agents, persons planted in ambush') appears only here in the New Testament. The verb hypokrinomenous ('pretending, play-acting') is the root of 'hypocrite' — they perform sincerity. The ultimate goal is paradounai ('to hand over, to betray') Jesus to the Roman governor (hēgemonos, Pontius Pilate). The authorities have moved from wanting to kill him (19:47) to a concrete strategy for using Roman power to accomplish it."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 21,
+      "text_greek": "καὶ ἐπηρώτησαν αὐτὸν λέγοντες· Διδάσκαλε, οἴδαμεν ὅτι ὀρθῶς λέγεις καὶ διδάσκεις καὶ οὐ λαμβάνεις πρόσωπον, ἀλλ' ἐπ' ἀληθείας τὴν ὁδὸν τοῦ θεοῦ διδάσκεις·",
+      "text_kjv": "And they asked him, saying, Master, we know that thou sayest and teachest rightly, neither acceptest thou the person of any, but teachest the way of God truly:",
+      "rendering": "They questioned him, saying, \"Teacher, we know that you speak and teach correctly and show no partiality, but teach the way of God truthfully.",
+      "translator_notes": [
+        "The flattery is elaborate and calculated. The phrase ou lambaneis prosōpon ('you do not receive a face, you show no partiality') is a Septuagintalism translating the Hebrew nasa panim, a judicial term meaning to judge without favoritism. By praising Jesus's impartiality, the spies set up a question designed to force a politically compromising answer regardless of which side he takes."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 22,
+      "text_greek": "ἔξεστιν ἡμᾶς Καίσαρι φόρον δοῦναι ἢ οὔ;",
+      "text_kjv": "Is it lawful for us to give tribute unto Caesar, or no?",
+      "rendering": "Is it lawful for us to pay taxes to Caesar, or not?\"",
+      "translator_notes": [
+        "The word phoron ('tribute, tax') refers specifically to the Roman poll tax (tributum capitis), which was deeply resented as a symbol of subjugation. The question exestin ('is it lawful/permitted?') frames the issue in terms of Torah compliance. If Jesus says 'yes,' he alienates Jewish nationalists; if 'no,' he can be reported to Rome as a seditious revolutionary. The trap is a masterpiece of political engineering."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 23,
+      "text_greek": "κατανοήσας δὲ αὐτῶν τὴν πανουργίαν εἶπεν πρὸς αὐτούς·",
+      "text_kjv": "But he perceived their craftiness, and said unto them, Why tempt ye me?",
+      "rendering": "But he saw through their craftiness and said to them,",
+      "translator_notes": [
+        "The verb katanoēsas ('having perceived, having seen through') implies thorough understanding. The noun panourgian ('craftiness, cunning, trickery') is a strong word — it suggests malicious cleverness. Luke omits Jesus's counter-accusation 'Why are you testing me?' (found in Mark 12:15 and Matthew 22:18), moving directly to his response."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 24,
+      "text_greek": "Δείξατέ μοι δηνάριον· τίνος ἔχει εἰκόνα καὶ ἐπιγραφήν; οἱ δὲ εἶπαν· Καίσαρος.",
+      "text_kjv": "Shew me a penny. Whose image and superscription hath it? They answered and said, Caesar's.",
+      "rendering": "\"Show me a denarius. Whose image and inscription does it bear?\" They said, \"Caesar's.\"",
+      "translator_notes": [
+        "The dēnarion ('denarius') was a Roman silver coin worth a day's wage, bearing the image (eikona) of the emperor (likely Tiberius) and an inscription (epigraphēn) reading 'Tiberius Caesar, Son of the Divine Augustus.' The word eikōn ('image') is the same word used in Genesis 1:26-27 (Septuagint) for humanity made in God's 'image' — a connection Jesus will exploit in the next verse. The fact that the spies can produce a Roman coin in the temple precincts is itself ironic.",
+        "[TCR Cross-Reference] Echoes Genesis 1:26-27. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 25,
+      "text_greek": "ὁ δὲ εἶπεν πρὸς αὐτούς· Τοίνυν ἀπόδοτε τὰ Καίσαρος Καίσαρι καὶ τὰ τοῦ θεοῦ τῷ θεῷ.",
+      "text_kjv": "And he said unto them, Render therefore unto Caesar the things which be Caesar's, and unto God the things which be God's.",
+      "rendering": "He said to them, \"Then give back to Caesar what belongs to Caesar, and to God what belongs to God.\"",
+      "translator_notes": [
+        "The verb apodote ('give back, return, repay') implies returning what already belongs to someone — the coin bears Caesar's image and therefore is already his. The parallel structure (ta Kaisaros Kaisari ... ta tou theou tō theō) creates an apparent equivalence, but the second clause subverts the first: if the coin bearing Caesar's image belongs to Caesar, then human beings bearing God's image belong to God. The claim of God is total and ultimate; the claim of Caesar is derivative and limited. Jesus neither endorses nor condemns Roman taxation but reframes the entire question."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 26,
+      "text_greek": "καὶ οὐκ ἴσχυσαν ἐπιλαβέσθαι αὐτοῦ ῥήματος ἐναντίον τοῦ λαοῦ, καὶ θαυμάσαντες ἐπὶ τῇ ἀποκρίσει αὐτοῦ ἐσίγησαν.",
+      "text_kjv": "And they could not take hold of his words before the people: and they marvelled at his answer, and held their peace.",
+      "rendering": "They were unable to catch him in anything he said in front of the people, and amazed by his answer, they fell silent.",
+      "translator_notes": [
+        "The verb ischysan ('they were able, they had the strength') with the negative ouk indicates complete failure of their strategy. The verb thaumasantes ('having been amazed, astonished') indicates genuine surprise — even his enemies recognize the brilliance of his response. The verb esigēsan ('they became silent, they held their peace') marks the end of this confrontation: the spies withdraw, speechless."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 27,
+      "text_greek": "Προσελθόντες δέ τινες τῶν Σαδδουκαίων, οἱ ἀντιλέγοντες ἀνάστασιν μὴ εἶναι, ἐπηρώτησαν αὐτὸν",
+      "text_kjv": "Then came to him certain of the Sadducees, which deny that there is any resurrection; and they asked him,",
+      "rendering": "Some of the Sadducees, who say there is no resurrection, came to him and asked,",
+      "translator_notes": [
+        "Luke explains the Sadducees' theological position (antilegontes anastasin mē einai, 'denying that there is a resurrection') for his predominantly Gentile audience. The Sadducees were the priestly aristocracy who accepted only the Torah (five books of Moses) as authoritative and rejected the oral tradition, angels, spirits, and bodily resurrection — doctrines they considered innovations without Pentateuchal support."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 28,
+      "text_greek": "λέγοντες· Διδάσκαλε, Μωϋσῆς ἔγραψεν ἡμῖν, ἐάν τινος ἀδελφὸς ἀποθάνῃ ἔχων γυναῖκα, καὶ οὗτος ἄτεκνος ᾖ, ἵνα λάβῃ ὁ ἀδελφὸς αὐτοῦ τὴν γυναῖκα καὶ ἐξαναστήσῃ σπέρμα τῷ ἀδελφῷ αὐτοῦ.",
+      "text_kjv": "Saying, Master, Moses wrote unto us, If any man's brother die, having a wife, and he die without children, that his brother should take his wife, and raise up seed unto his brother.",
+      "rendering": "\"Teacher, Moses wrote for us that if a man's brother dies leaving a wife but no children, the man should marry the widow and raise up offspring for his brother.",
+      "translator_notes": [
+        "The Sadducees cite the levirate marriage law from Deuteronomy 25:5-6, which required a surviving brother to marry his deceased brother's widow and produce an heir in the dead brother's name. The verb exanastēsē ('raise up') is ironic — they use 'resurrection' language (anastasis) in the context of procreation while denying actual resurrection. The law's purpose was to preserve the deceased brother's name and inheritance in Israel.",
+        "[TCR Cross-Reference] References Deuteronomy 25:5-6 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 29,
+      "text_greek": "ἑπτὰ οὖν ἀδελφοὶ ἦσαν· καὶ ὁ πρῶτος λαβὼν γυναῖκα ἀπέθανεν ἄτεκνος·",
+      "text_kjv": "There were therefore seven brethren: and the first took a wife, and died without children.",
+      "rendering": "Now there were seven brothers. The first married a wife and died childless.",
+      "translator_notes": [
+        "The number seven represents completeness — seven brothers ensures the scenario is exhaustive. The hypothetical case is likely a stock argument the Sadducees used regularly in debates with Pharisees about the resurrection."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 30,
+      "text_greek": "καὶ ὁ δεύτερος",
+      "text_kjv": "And the second took her to wife, and he died childless.",
+      "rendering": "The second",
+      "translator_notes": [
+        "Luke compresses the narrative here. The SBLGNT has only kai ho deuteros ('and the second') with the remaining details implied from context. Some manuscripts expand the verse, but the critical text is remarkably terse."
+      ],
+      "reading_level": "5th grade"
+    },
+    {
+      "verse": 31,
+      "text_greek": "καὶ ὁ τρίτος ἔλαβεν αὐτήν, ὡσαύτως δὲ καὶ οἱ ἑπτὰ οὐ κατέλιπον τέκνα καὶ ἀπέθανον.",
+      "text_kjv": "And the third took her; and in like manner the seven also: and they left no children, and died.",
+      "rendering": "The third picked up her. And in like manner the seven also — then they departed no children, and died.",
+      "translator_notes": [
+        "The phrase hōsautōs de kai hoi hepta ('likewise also the seven') telescopes the remaining four brothers into a single statement. The cumulative effect — seven marriages, seven deaths, no children — is designed to make the resurrection scenario seem absurd: whose wife would she be if all seven rise?"
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 32,
+      "text_greek": "ὕστερον καὶ ἡ γυνὴ ἀπέθανεν.",
+      "text_kjv": "Last of all the woman died also.",
+      "rendering": "Finally, the woman also died.",
+      "translator_notes": [
+        "The word hysteron ('lastly, finally') closes the scenario. All eight parties are now dead, setting up the question in the next verse. The woman's death is mentioned without comment — she is the silent center of a legal puzzle constructed entirely by men."
+      ],
+      "reading_level": "5th grade"
+    },
+    {
+      "verse": 33,
+      "text_greek": "ἡ γυνὴ οὖν ἐν τῇ ἀναστάσει τίνος αὐτῶν γίνεται γυνή; οἱ γὰρ ἑπτὰ ἔσχον αὐτὴν γυναῖκα.",
+      "text_kjv": "Therefore in the resurrection whose wife of them is she? for seven had her to wife.",
+      "rendering": "In the resurrection, therefore, whose wife will the woman be? For all seven had her as wife.\"",
+      "translator_notes": [
+        "The question assumes that resurrected life is simply a continuation of earthly life with all its social structures intact. The Sadducees consider this reductio ad absurdum proof that resurrection is logically impossible. Their error, as Jesus will show, lies in their assumption about the nature of the resurrected state."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 34,
+      "text_greek": "καὶ εἶπεν αὐτοῖς ὁ Ἰησοῦς· Οἱ υἱοὶ τοῦ αἰῶνος τούτου γαμοῦσιν καὶ γαμίσκονται,",
+      "text_kjv": "And Jesus answering said unto them, The children of this world marry, and are given in marriage:",
+      "rendering": "Jesus said to them, \"The people of this age marry and are given in marriage.",
+      "translator_notes": [
+        "The phrase hoi huioi tou aiōnos toutou ('the sons of this age') is a Semitism meaning 'those who belong to the present age' — people living in the current world order. The two verbs gamousin ('marry,' active, typically of men) and gamiskontai ('are given in marriage,' passive, typically of women) reflect the ancient social reality of arranged marriages."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 35,
+      "text_greek": "οἱ δὲ καταξιωθέντες τοῦ αἰῶνος ἐκείνου τυχεῖν καὶ τῆς ἀναστάσεως τῆς ἐκ νεκρῶν οὔτε γαμοῦσιν οὔτε γαμίζονται·",
+      "text_kjv": "But they which shall be accounted worthy to obtain that world, and the resurrection from the dead, neither marry, nor are given in marriage:",
+      "rendering": "But those who are considered worthy to attain that age and the resurrection from the dead neither marry nor are given in marriage.",
+      "translator_notes": [
+        "The phrase hoi kataxiōthentes ('those considered worthy, those deemed deserving') raises the question of who determines worthiness — the passive voice suggests God makes this determination. 'That age' (tou aiōnos ekeinou) is the age to come, the new creation. Jesus's answer demolishes the Sadducees' premise: resurrected life is qualitatively different from present life, not merely a continuation of it. Marriage, as a social institution tied to procreation and mortality, is unnecessary in a state where death no longer exists."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 36,
+      "text_greek": "οὐδὲ γὰρ ἀποθανεῖν ἔτι δύνανται, ἰσάγγελοι γάρ εἰσιν καὶ υἱοί εἰσιν θεοῦ τῆς ἀναστάσεως υἱοὶ ὄντες.",
+      "text_kjv": "Neither can they die any more: for they are equal unto the angels; and are the children of God, being the children of the resurrection.",
+      "rendering": "For they cannot die anymore, because they are like angels and are children of God, being children of the resurrection.",
+      "translator_notes": [
+        "The word isangeloi ('equal to angels, angel-like') appears only here in the New Testament. The comparison is specific: like angels, the resurrected do not die and do not procreate — it does not mean they become angels. The chain of logic: no death → no need for marriage (which exists partly to replace the dying) → the Sadducees' question is based on a false premise. The phrase huioi theou ('children of God') is defined by the following phrase: they are God's children precisely because they are huioi tēs anastaseōs ('children of the resurrection')."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 37,
+      "text_greek": "ὅτι δὲ ἐγείρονται οἱ νεκροί, καὶ Μωϋσῆς ἐμήνυσεν ἐπὶ τῆς βάτου, ὡς λέγει κύριον τὸν θεὸν Ἀβραὰμ καὶ θεὸν Ἰσαὰκ καὶ θεὸν Ἰακώβ·",
+      "text_kjv": "Now that the dead are raised, even Moses shewed at the bush, when he calleth the Lord the God of Abraham, and the God of Isaac, and the God of Jacob.",
+      "rendering": "But that the dead are raised, even Moses showed in the passage about the bush, where he calls the Lord 'the God of Abraham and the God of Isaac and the God of Jacob.'",
+      "translator_notes": [
+        "Jesus's brilliance lies in citing the Torah itself — the only scripture the Sadducees accepted. The phrase epi tēs batou ('at the bush') uses a common method of scriptural reference (naming a passage by its prominent feature), referring to Exodus 3:6. The argument: God identifies himself as the God of Abraham, Isaac, and Jacob long after their deaths. If they no longer exist, the statement is meaningless — God would be the God of nothing.",
+        "[TCR Cross-Reference] Draws on Exodus 3:6. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 38,
+      "text_greek": "θεὸς δὲ οὐκ ἔστιν νεκρῶν ἀλλὰ ζώντων, πάντες γὰρ αὐτῷ ζῶσιν.",
+      "text_kjv": "For he is not a God of the dead, but of the living: for all live unto him.",
+      "rendering": "He is not the God of the dead but of the living, for all are alive to him.\"",
+      "translator_notes": [
+        "The concluding statement is devastating to the Sadducean position: if God is the God of the living, and if he identifies himself as the God of Abraham, Isaac, and Jacob, then Abraham, Isaac, and Jacob must be alive. The phrase pantes gar autō zōsin ('for all are alive to him') is unique to Luke and extends the principle beyond the three patriarchs: from God's perspective, all the covenant dead are living. This is not a proof of bodily resurrection per se but of continued personal existence after death — which is the necessary precondition for resurrection."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 39,
+      "text_greek": "ἀποκριθέντες δέ τινες τῶν γραμματέων εἶπαν· Διδάσκαλε, καλῶς εἶπας·",
+      "text_kjv": "Then certain of the scribes answering said, Master, thou hast well said.",
+      "rendering": "Some of the scribes responded, \"Teacher, you have spoken well.\"",
+      "translator_notes": [
+        "The scribes who commend Jesus here are likely Pharisees, who affirmed the resurrection and would have been delighted to see the Sadducees' argument dismantled. The phrase kalōs eipas ('you have spoken well, you have answered beautifully') is a genuine academic compliment from theological allies on this particular point."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 40,
+      "text_greek": "οὐκέτι γὰρ ἐτόλμων ἐπερωτᾶν αὐτὸν οὐδέν.",
+      "text_kjv": "And after that they durst not ask him any question at all.",
+      "rendering": "For they no longer dared to ask him anything.",
+      "translator_notes": [
+        "The verb etolmōn ('they dared, they had the courage') with the negative ouketi ('no longer') indicates that Jesus's series of responses has silenced all challengers. The progression through the chapter — Pharisees, Herodians (via spies), Sadducees — represents every major faction, and all have been defeated. The intellectual conflict is over; only political violence remains as their option."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 41,
+      "text_greek": "Εἶπεν δὲ πρὸς αὐτούς· Πῶς λέγουσιν τὸν χριστὸν εἶναι Δαυὶδ υἱόν;",
+      "text_kjv": "And he said unto them, How say they that Christ is David's son?",
+      "rendering": "Then he said to them, \"How can they say that the Christ is David's son?",
+      "translator_notes": [
+        "Having silenced all challengers, Jesus now poses his own question. The 'they' (legousin) is impersonal — 'how is it said?' The question does not deny Davidic descent (which Matthew and Luke's genealogies affirm) but challenges whether 'son of David' adequately describes the Messiah's identity. The question introduces a christological riddle that the audience cannot resolve."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 42,
+      "text_greek": "αὐτὸς γὰρ Δαυὶδ λέγει ἐν βίβλῳ ψαλμῶν· Εἶπεν κύριος τῷ κυρίῳ μου· Κάθου ἐκ δεξιῶν μου,",
+      "text_kjv": "And David himself saith in the book of Psalms, The LORD said unto my Lord, Sit thou on my right hand,",
+      "rendering": "For David himself says in the Book of Psalms, 'The Lord said to my Lord, \"Sit at my right hand,",
+      "translator_notes": [
+        "Jesus quotes Psalm 110:1, the most frequently cited Old Testament text in the New Testament. The Greek has kyrios ('Lord') for both the Hebrew YHWH and Adonai, creating an ambiguity that the Hebrew original distinguishes: 'YHWH said to my lord (adoni).' The psalm is attributed to David, and Jesus accepts Davidic authorship as the basis for his argument. The 'right hand' position (ek dexiōn) is the position of supreme honor and shared authority.",
+        "[TCR Cross-Reference] Draws on Psalms 110:1. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 43,
+      "text_greek": "ἕως ἂν θῶ τοὺς ἐχθρούς σου ὑποπόδιον τῶν ποδῶν σου.",
+      "text_kjv": "Till I make thine enemies thy footstool.",
+      "rendering": "Till I make your enemies your footstool.",
+      "translator_notes": [
+        "The image of enemies as a footstool (hypopodion tōn podōn) derives from the ancient Near Eastern practice of a conqueror placing his foot on the neck of a defeated king (cf. Joshua 10:24). The 'until' (heōs an) does not imply a time limit on the enthronement but marks the completion of the conquest.",
+        "[TCR Cross-Reference] References Psalms 110:1 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved.",
+        "[TCR Cross-Reference] References Joshua 10:24 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 44,
+      "text_greek": "Δαυὶδ οὖν κύριον αὐτὸν καλεῖ, καὶ πῶς αὐτοῦ υἱός ἐστιν;",
+      "text_kjv": "David therefore calleth him Lord, how is he then his son?",
+      "rendering": "David thus calls him 'Lord' — so how can he be his son?\"",
+      "translator_notes": [
+        "The argument is straightforward: in the culture of the ancient Near East, a father never calls his son 'lord' — the honor flows upward, from son to father. If David calls the Messiah 'my Lord,' the Messiah must be greater than David, not merely his descendant. Jesus does not deny that the Messiah is David's son but implies that he is also something more — a claim the audience must work out for themselves. The question is left unanswered, hovering over the narrative."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 45,
+      "text_greek": "Ἀκούοντος δὲ παντὸς τοῦ λαοῦ εἶπεν τοῖς μαθηταῖς αὐτοῦ·",
+      "text_kjv": "Then in the audience of all the people he said unto his disciples,",
+      "rendering": "While all the people were listening, he said to his disciples,",
+      "translator_notes": [
+        "The phrase akouontos pantos tou laou ('all the people listening') specifies that Jesus's warning about the scribes is delivered publicly, not privately. The people hear his critique of their religious leaders, adding to the leaders' humiliation and rage."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 46,
+      "text_greek": "Προσέχετε ἀπὸ τῶν γραμματέων τῶν θελόντων περιπατεῖν ἐν στολαῖς καὶ φιλούντων ἀσπασμοὺς ἐν ταῖς ἀγοραῖς καὶ πρωτοκαθεδρίας ἐν ταῖς συναγωγαῖς καὶ πρωτοκλισίας ἐν τοῖς δείπνοις,",
+      "text_kjv": "Beware of the scribes, which desire to walk in long robes, and love greetings in the markets, and the highest seats in the synagogues, and the chief rooms at feasts;",
+      "rendering": "\"Watch out for the scribes, who like to walk around in long robes, and love greetings in the marketplaces, the best seats in the synagogues, and the places of honor at banquets.",
+      "translator_notes": [
+        "The stolais ('long robes') were distinctive garments that marked the wearer as a person of learning and status. Four desires are listed in ascending order of social privilege: public recognition in the streets (greetings), public honor in commerce (marketplaces), religious honor (synagogue seats), and social honor (banquet positions). The verb philountōn ('loving, desiring') reveals that these are not incidental perks but actively sought status markers."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 47,
+      "text_greek": "οἱ κατεσθίουσιν τὰς οἰκίας τῶν χηρῶν καὶ προφάσει μακρὰ προσεύχονται· οὗτοι λήμψονται περισσότερον κρίμα.",
+      "text_kjv": "Which devour widows' houses, and for a shew make long prayers: the same shall receive greater damnation.",
+      "rendering": "They devour the houses of widows and make long prayers for appearance's sake. These will receive a more severe judgment.\"",
+      "translator_notes": [
+        "The verb katesthiousin ('they devour, they consume') is visceral — the metaphor of eating someone's house evokes predatory exploitation. Widows (chērōn) were the most vulnerable members of society, the very people the Torah commanded to protect (Exodus 22:22, Deuteronomy 10:18). The phrase prophasei ('for a pretext, for appearance') exposes their prayers as performance. The 'greater judgment' (perissoteron krima) implies degrees of accountability — those who exploit the vulnerable while performing piety face the most severe divine reckoning.",
+        "[TCR Cross-Reference] Draws on Exodus 22:22. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices.",
+        "[TCR Cross-Reference] Draws on Deuteronomy 10:18. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "8th grade"
+    }
+  ]
+}

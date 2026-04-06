@@ -1,0 +1,405 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "1 Corinthians",
+    "chapter": 1,
+    "source_text": "SBL Greek New Testament (SBLGNT)",
+    "reference_text": "KJV",
+    "generated_at": "2026-04-04T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Paul opens his letter to the Corinthian church with a standard apostolic greeting, affirming his calling and the sanctified status of his readers. He gives thanks for the spiritual gifts present in Corinth, then immediately addresses the central crisis: the church has fractured into rival factions claiming allegiance to Paul, Apollos, Cephas, or Christ himself. Paul argues that Christ cannot be divided and that the cross — foolishness to the world — is the true power and wisdom of God. He reminds the Corinthians that God chose what the world considers foolish, weak, and insignificant to shame the wise and strong.",
+    "remarkable": "Paul's opening establishes the theological framework for the entire letter: the cross inverts worldly values. The Corinthian factions reflect a culture obsessed with rhetorical skill and social status — values Paul systematically dismantles. The phrase 'the word of the cross' (ho logos tou staurou) in verse 18 is startling in its original context: crucifixion was so shameful that Roman writers avoided detailed discussion of it. Paul places this scandal at the center of God's wisdom.",
+    "friction": "The Greek schismata (v. 10) literally means 'tears' or 'rips' — the same word used for tearing cloth. We render it as 'divisions' for clarity. The phrase 'Christ crucified' (Christon estauromenon, v. 23) uses the perfect passive participle, indicating a past event with ongoing significance — Christ is not merely 'one who was crucified' but remains 'the crucified one.' The relationship between sophia ('wisdom') and logos ('word/message') in this chapter is complex and resists neat English equivalents.",
+    "connections": "Paul's argument about divine wisdom overturning human wisdom draws on Isaiah 29:14 (quoted in v. 19) and Jeremiah 9:23-24 (echoed in vv. 26-31). The theme of God choosing the weak to shame the strong echoes the Old Testament pattern seen in David vs. Goliath, Gideon's reduced army, and the election of Israel itself. The baptism discussion (vv. 14-17) will be revisited in chapters 10 and 12."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_greek": "Παῦλος κλητὸς ἀπόστολος Χριστοῦ Ἰησοῦ διὰ θελήματος θεοῦ καὶ Σωσθένης ὁ ἀδελφὸς",
+      "text_kjv": "Paul, called to be an apostle of Jesus Christ through the will of God, and Sosthenes our brother,",
+      "rendering": "Paul, called as an apostle of Christ Jesus by the will of God, and our brother Sosthenes,",
+      "translator_notes": [
+        "The Greek kletos apostolos ('called apostle') lacks the infinitive 'to be' — Paul is not 'called to become' an apostle but 'a called apostle,' one whose identity is defined by divine summons. Sosthenes may be the synagogue ruler mentioned in Acts 18:17, though this identification is uncertain."
+      ],
+      "key_terms": [
+        {
+          "greek": "ἀπόστολος",
+          "transliteration": "apostolos",
+          "rendered_as": "apostle",
+          "semantic_range": "one sent, envoy, messenger, apostle",
+          "note": "From apostellō ('to send'). In Paul's usage it carries the authority of a commissioned representative — one who speaks with the sender's full authority."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 2,
+      "text_greek": "τῇ ἐκκλησίᾳ τοῦ θεοῦ τῇ οὔσῃ ἐν Κορίνθῳ, ἡγιασμένοις ἐν Χριστῷ Ἰησοῦ, κλητοῖς ἁγίοις, σὺν πᾶσιν τοῖς ἐπικαλουμένοις τὸ ὄνομα τοῦ κυρίου ἡμῶν Ἰησοῦ Χριστοῦ ἐν παντὶ τόπῳ, αὐτῶν καὶ ἡμῶν·",
+      "text_kjv": "Unto the church of God which is at Corinth, to them that are sanctified in Christ Jesus, called to be saints, with all that in every place call upon the name of Jesus Christ our Lord, both theirs and ours:",
+      "rendering": "To the church of God that is in Corinth, to those who have been sanctified in Christ Jesus, called as saints, together with all who call on the name of our Lord Jesus Christ in every place — their Lord and ours:",
+      "translator_notes": [
+        "The Greek hegiasmenois ('having been sanctified') is a perfect passive participle — sanctification is something God has already done to them, not something they achieved. As with kletos in verse 1, kletois hagiois ('called saints') lacks the infinitive 'to be.' They are not 'called to become saints' but are 'called-saints' — their identity is established by God's call. The final phrase autōn kai hēmōn ('theirs and ours') is grammatically ambiguous: it could modify 'place' (every place, theirs and ours) or 'Lord' (their Lord and ours). We follow the latter reading as it reinforces the letter's unity theme."
+      ],
+      "key_terms": [
+        {
+          "greek": "ἐκκλησία",
+          "transliteration": "ekklesia",
+          "rendered_as": "church",
+          "semantic_range": "assembly, congregation, church, gathered community",
+          "note": "From ek ('out') + kaleō ('to call') — literally 'the called-out ones.' In secular Greek it referred to a civic assembly; Paul adopts it for the community gathered by God's call."
+        },
+        {
+          "greek": "ἅγιος",
+          "transliteration": "hagios",
+          "rendered_as": "saints",
+          "semantic_range": "holy, set apart, sacred, saints",
+          "note": "The Greek equivalent of the Hebrew qadosh. Paul addresses the Corinthians as 'saints' (set-apart ones) despite the problems he is about to address — their holiness is positional, grounded in God's call, not in their behavior."
+        }
+      ],
+      "reading_level": "10th grade"
+    },
+    {
+      "verse": 3,
+      "text_greek": "χάρις ὑμῖν καὶ εἰρήνη ἀπὸ θεοῦ πατρὸς ἡμῶν καὶ κυρίου Ἰησοῦ Χριστοῦ.",
+      "text_kjv": "Grace be unto you, and peace, from God our Father, and from the Lord Jesus Christ.",
+      "rendering": "Grace to you and peace from God our Father and the Lord Jesus Christ.",
+      "translator_notes": [
+        "Paul's greeting combines the Greek charis ('grace') with the Hebrew-rooted eirēnē ('peace,' corresponding to shalom). This dual greeting bridges the Greek and Jewish worlds represented in the Corinthian congregation. The pairing of God the Father and the Lord Jesus Christ as co-source of grace and peace reflects early high Christology."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 4,
+      "text_greek": "Εὐχαριστῶ τῷ θεῷ μου πάντοτε περὶ ὑμῶν ἐπὶ τῇ χάριτι τοῦ θεοῦ τῇ δοθείσῃ ὑμῖν ἐν Χριστῷ Ἰησοῦ,",
+      "text_kjv": "I thank my God always on your behalf, for the grace of God which is given you by Jesus Christ;",
+      "rendering": "I always thank my God for you because of the grace of God that was given to you in Christ Jesus,",
+      "translator_notes": [
+        "Paul's thanksgiving section (vv. 4-9) is diplomatically crafted — he thanks God for what God has done among them, not for what they have accomplished. The grace (charis) is described as 'given' (dotheisē, aorist passive) — a definite past act of divine generosity."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 5,
+      "text_greek": "ὅτι ἐν παντὶ ἐπλουτίσθητε ἐν αὐτῷ, ἐν παντὶ λόγῳ καὶ πάσῃ γνώσει,",
+      "text_kjv": "That in every thing ye are enriched by him, in all utterance, and in all knowledge;",
+      "rendering": "Through him you have been made rich in every way — in all your speaking and in all your knowledge.",
+      "translator_notes": [
+        "The verb eploutisthēte ('you were enriched') is aorist passive — God did the enriching. The two areas of enrichment, logos ('speech/word') and gnōsis ('knowledge'), are precisely the gifts the Corinthians valued most and would later abuse. Paul's thanksgiving subtly sets up his critique."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 6,
+      "text_greek": "καθὼς τὸ μαρτύριον τοῦ Χριστοῦ ἐβεβαιώθη ἐν ὑμῖν,",
+      "text_kjv": "Even as the testimony of Christ was confirmed in you:",
+      "rendering": "Indeed as the testimony of Christ was confirmed in you:.",
+      "translator_notes": [
+        "The Greek martyrion tou Christou ('testimony of/about Christ') could be an objective genitive ('testimony about Christ') or subjective genitive ('testimony from Christ'). We take it as objective — the apostolic witness about Christ was validated in their experience. The verb ebebaiōthē ('was confirmed') is a legal term for establishing or guaranteeing something."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 7,
+      "text_greek": "ὥστε ὑμᾶς μὴ ὑστερεῖσθαι ἐν μηδενὶ χαρίσματι ἀπεκδεχομένους τὴν ἀποκάλυψιν τοῦ κυρίου ἡμῶν Ἰησοῦ Χριστοῦ·",
+      "text_kjv": "So that ye come behind in no gift; waiting for the coming of our Lord Jesus Christ:",
+      "rendering": "As a result, you are not lacking any spiritual gift while you eagerly wait for our Lord Jesus Christ to return.",
+      "translator_notes": [
+        "The Greek charisma ('gift of grace') will become a major topic in chapters 12-14. Paul acknowledges the Corinthians' giftedness while framing it eschatologically — gifts serve the community while they await Christ's return. The word apokalypsis ('revelation, unveiling') refers to Christ's return, not a private spiritual experience."
+      ],
+      "key_terms": [
+        {
+          "greek": "χάρισμα",
+          "transliteration": "charisma",
+          "rendered_as": "spiritual gift",
+          "semantic_range": "gift of grace, free gift, spiritual endowment",
+          "note": "From charis ('grace'). A charisma is a concrete expression of divine grace — not earned or achieved but freely given. Paul will develop this concept extensively in chapters 12-14."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 8,
+      "text_greek": "ὃς καὶ βεβαιώσει ὑμᾶς ἕως τέλους ἀνεγκλήτους ἐν τῇ ἡμέρᾳ τοῦ κυρίου ἡμῶν Ἰησοῦ Χριστοῦ.",
+      "text_kjv": "Who shall also confirm you unto the end, that ye may be blameless in the day of our Lord Jesus Christ.",
+      "rendering": "He will also sustain you to the end, so that you will be blameless on the day of our Lord Jesus Christ.",
+      "translator_notes": [
+        "The verb bebaiōsei ('will confirm/sustain') echoes ebebaiōthē in verse 6 — the same God who confirmed the testimony will confirm the believers. The word anenklētous ('blameless, without accusation') is a legal term: they will stand unindicted on judgment day. 'The day of our Lord Jesus Christ' refers to the final judgment, corresponding to the Old Testament 'day of the LORD.'"
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 9,
+      "text_greek": "πιστὸς ὁ θεὸς δι' οὗ ἐκλήθητε εἰς κοινωνίαν τοῦ υἱοῦ αὐτοῦ Ἰησοῦ Χριστοῦ τοῦ κυρίου ἡμῶν.",
+      "text_kjv": "God is faithful, by whom ye were called unto the fellowship of his Son Jesus Christ our Lord.",
+      "rendering": "God is faithful, by whom you were called into fellowship with his Son, Jesus Christ our Lord.",
+      "translator_notes": [
+        "The declaration pistos ho theos ('faithful is God') anchors the entire thanksgiving — the Corinthians' security rests not on their performance but on God's faithfulness. The word koinōnia ('fellowship, participation, sharing') denotes a deep, mutual participation in Christ's life, not merely social association. This term will recur at 10:16 in connection with the Lord's Supper."
+      ],
+      "key_terms": [
+        {
+          "greek": "κοινωνία",
+          "transliteration": "koinōnia",
+          "rendered_as": "fellowship",
+          "semantic_range": "fellowship, communion, sharing, participation, partnership",
+          "note": "More than social fellowship — koinōnia implies shared participation in a common reality. To be called into koinōnia with Christ means to share in his life, death, and resurrection."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 10,
+      "text_greek": "Παρακαλῶ δὲ ὑμᾶς, ἀδελφοί, διὰ τοῦ ὀνόματος τοῦ κυρίου ἡμῶν Ἰησοῦ Χριστοῦ, ἵνα τὸ αὐτὸ λέγητε πάντες καὶ μὴ ᾖ ἐν ὑμῖν σχίσματα, ἦτε δὲ κατηρτισμένοι ἐν τῷ αὐτῷ νοῒ καὶ ἐν τῇ αὐτῇ γνώμῃ.",
+      "text_kjv": "Now I beseech you, brethren, by the name of our Lord Jesus Christ, that ye all speak the same thing, and that there be no divisions among you; but that ye be perfectly joined together in the same mind and in the same judgment.",
+      "rendering": "Now I urge you, brothers and sisters, by the name of our Lord Jesus Christ, that all of you agree and that there be no divisions among you, but that you be united in the same mind and the same purpose.",
+      "translator_notes": [
+        "The Greek schismata ('divisions, tears') is the word from which English 'schism' derives — it literally means rips or tears in fabric. The church is being torn apart. The verb katērtismenoi ('restored, mended, made complete') is used in Mark 1:19 for mending fishing nets — Paul envisions the torn community being stitched back together. The Greek adelphoi ('brothers') is rendered 'brothers and sisters' since Paul addresses the entire congregation, as the context of the letter makes clear."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 11,
+      "text_greek": "ἐδηλώθη γάρ μοι περὶ ὑμῶν, ἀδελφοί μου, ὑπὸ τῶν Χλόης ὅτι ἔριδες ἐν ὑμῖν εἰσιν.",
+      "text_kjv": "For it hath been declared unto me of you, my brethren, by them which are of the house of Chloe, that there are contentions among you.",
+      "rendering": "For it has been reported to me about you, my brothers and sisters, by Chloe's people, that there are quarrels among you.",
+      "translator_notes": [
+        "Chloe is named without further identification, suggesting she was well-known to both Paul and the Corinthians. The phrase tōn Chloēs ('those of Chloe') likely refers to members of her household — slaves, freedpersons, or family members who had traveled to Paul. That Paul names his source openly suggests he is not trafficking in gossip but acting on reliable intelligence. The word erides ('quarrels, strife') indicates active verbal conflict, not merely differing opinions."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 12,
+      "text_greek": "λέγω δὲ τοῦτο, ὅτι ἕκαστος ὑμῶν λέγει· ἐγὼ μέν εἰμι Παύλου, ἐγὼ δὲ Ἀπολλῶ, ἐγὼ δὲ Κηφᾶ, ἐγὼ δὲ Χριστοῦ.",
+      "text_kjv": "Now this I say, that every one of you saith, I am of Paul; and I of Apollos; and I of Cephas; and I of Christ.",
+      "rendering": "What I mean is this: each of you says, \"I belong to Paul,\" or \"I belong to Apollos,\" or \"I belong to Cephas,\" or \"I belong to Christ.\"",
+      "translator_notes": [
+        "The four slogans reveal faction lines in the Corinthian church. Apollos was an eloquent Alexandrian Jew (Acts 18:24) whose rhetorical skill likely attracted those who valued sophisticated speech. Cephas (Aramaic for 'rock,' = Peter) may represent a more Jewish-oriented faction. The 'Christ party' is the most debated — they may have claimed a direct, unmediated relationship with Christ that bypassed apostolic authority. Paul's point is that all four slogans are equally problematic."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 13,
+      "text_greek": "μεμέρισται ὁ Χριστός; μὴ Παῦλος ἐσταυρώθη ὑπὲρ ὑμῶν, ἢ εἰς τὸ ὄνομα Παύλου ἐβαπτίσθητε;",
+      "text_kjv": "Is Christ divided? was Paul crucified for you? or were ye baptized in the name of Paul?",
+      "rendering": "Is Christ divided? was Paul crucified for you? or were you baptized by the authority of Paul?",
+      "translator_notes": [
+        "Three rhetorical questions, each expecting a negative answer. The first — memeristic ho Christos ('Has Christ been divided?') — could also be read as a statement: 'Christ has been divided!' (an outraged exclamation). Either way, the implication is that factional loyalty tears apart the one body of Christ. The second and third questions establish the logic: only the one who was crucified for them and in whose name they were baptized has any claim on their allegiance."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 14,
+      "text_greek": "εὐχαριστῶ τῷ θεῷ ὅτι οὐδένα ὑμῶν ἐβάπτισα εἰ μὴ Κρίσπον καὶ Γάϊον,",
+      "text_kjv": "I thank God that I baptized none of you, but Crispus and Gaius;",
+      "rendering": "I am grateful to God that I did not baptize any of you, but Crispus and Gaius;.",
+      "translator_notes": [
+        "Crispus was the synagogue ruler who believed (Acts 18:8). Gaius is likely the Gaius of Romans 16:23 who hosted the whole church in Corinth. Paul's relief at having baptized so few reveals how baptism was being used as a badge of factional identity — 'I was baptized by Paul' became a status claim."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 15,
+      "text_greek": "ἵνα μή τις εἴπῃ ὅτι εἰς τὸ ἐμὸν ὄνομα ἐβαπτίσθητε.",
+      "text_kjv": "Lest any should say that I had baptized in mine own name.",
+      "rendering": "Lest any should say that I had immersed in mine own identity.",
+      "translator_notes": [
+        "Paul is grateful in retrospect — not that baptism is unimportant, but that the Corinthians' misuse of it to form factions was limited by the fact that he personally baptized so few of them."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 16,
+      "text_greek": "ἐβάπτισα δὲ καὶ τὸν Στεφανᾶ οἶκον· λοιπὸν οὐκ οἶδα εἴ τινα ἄλλον ἐβάπτισα.",
+      "text_kjv": "And I baptized also the household of Stephanas: besides, I know not whether I baptized any other.",
+      "rendering": "I did baptize the household of Stephanas as well. Beyond that, I do not know whether I baptized anyone else.",
+      "translator_notes": [
+        "The correction mid-thought ('I did baptize the household of Stephanas as well') adds an unpolished, authentic quality — Paul is dictating and remembering as he goes. Stephanas's household will be mentioned again at 16:15 as the 'firstfruits of Achaia.' The Greek oikos ('household') would include family members, slaves, and dependents."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 17,
+      "text_greek": "οὐ γὰρ ἀπέστειλέν με Χριστὸς βαπτίζειν ἀλλ' εὐαγγελίζεσθαι, οὐκ ἐν σοφίᾳ λόγου, ἵνα μὴ κενωθῇ ὁ σταυρὸς τοῦ Χριστοῦ.",
+      "text_kjv": "For Christ sent me not to baptize, but to preach the gospel: not with wisdom of words, lest the cross of Christ should be made of none effect.",
+      "rendering": "For Christ did not send me to baptize but to proclaim the gospel — and not with eloquent wisdom, so that the cross of Christ would not be emptied of its power.",
+      "translator_notes": [
+        "The phrase ouk en sophia logou ('not in wisdom of speech/word') targets the Corinthian obsession with rhetorical skill. Corinth was a city that prized sophisticated oratory. Paul insists that clever rhetoric actually undermines the gospel by shifting attention from the cross to the speaker. The verb kenoō ('to empty, to make void') is striking — human eloquence can drain the cross of its power by making the message about the messenger."
+      ],
+      "key_terms": [
+        {
+          "greek": "σταυρός",
+          "transliteration": "stauros",
+          "rendered_as": "cross",
+          "semantic_range": "cross, stake, instrument of execution",
+          "note": "The stauros was a Roman instrument of execution reserved for slaves and non-citizens — the most shameful death imaginable. Paul makes this symbol of degradation the center of his theology."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 18,
+      "text_greek": "Ὁ λόγος γὰρ ὁ τοῦ σταυροῦ τοῖς μὲν ἀπολλυμένοις μωρία ἐστίν, τοῖς δὲ σῳζομένοις ἡμῖν δύναμις θεοῦ ἐστιν.",
+      "text_kjv": "For the preaching of the cross is to them that perish foolishness; but unto us which are saved it is the power of God.",
+      "rendering": "For the message of the cross is foolishness to those who are perishing, but to us who are being saved it is the power of God.",
+      "translator_notes": [
+        "The Greek ho logos tou staurou ('the word/message of the cross') is Paul's programmatic statement. Both participles — apollymenois ('perishing') and sōzomenois ('being saved') — are present tense, indicating ongoing processes rather than fixed states. The word mōria ('foolishness, stupidity') is blunt — the cross is not merely misunderstood by outsiders but actively regarded as idiotic."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 19,
+      "text_greek": "γέγραπται γάρ· ἀπολῶ τὴν σοφίαν τῶν σοφῶν καὶ τὴν σύνεσιν τῶν συνετῶν ἀθετήσω.",
+      "text_kjv": "For it is written, I will destroy the wisdom of the wise, and will bring to nothing the understanding of the prudent.",
+      "rendering": "For it is written: \"I will destroy the wisdom of the wise, and the discernment of the discerning I will set aside.\"",
+      "translator_notes": [
+        "Paul quotes Isaiah 29:14 (from the Septuagint). The original context is God's judgment against Jerusalem's leaders who relied on political alliances rather than trusting God. Paul applies it more broadly to all human wisdom that operates independently of God. The verb athetēsō ('I will set aside, reject, nullify') is stronger than the KJV's 'bring to nothing' — it implies active divine rejection.",
+        "[TCR Cross-Reference] Echoes Isaiah 29:14. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 20,
+      "text_greek": "ποῦ σοφός; ποῦ γραμματεύς; ποῦ συζητητὴς τοῦ αἰῶνος τούτου; οὐχὶ ἐμώρανεν ὁ θεὸς τὴν σοφίαν τοῦ κόσμου;",
+      "text_kjv": "Where is the wise? where is the scribe? where is the disputer of this world? hath not God made foolish the wisdom of this world?",
+      "rendering": "Where is the wise person? Where is the scribe? Where is the debater of this age? Has God not made the wisdom of the world foolish?",
+      "translator_notes": [
+        "Three rhetorical questions echo Isaiah 33:18. The 'wise person' (sophos) represents Greek philosophical culture, the 'scribe' (grammateus) represents Jewish legal scholarship, and the 'debater' (syzētētēs) may represent either or both — anyone who relies on human argumentation. The phrase tou aiōnos toutou ('of this age') frames worldly wisdom as temporary and passing.",
+        "[TCR Cross-Reference] This verse quotes Isaiah 33:18 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 21,
+      "text_greek": "ἐπειδὴ γὰρ ἐν τῇ σοφίᾳ τοῦ θεοῦ οὐκ ἔγνω ὁ κόσμος διὰ τῆς σοφίας τὸν θεόν, εὐδόκησεν ὁ θεὸς διὰ τῆς μωρίας τοῦ κηρύγματος σῶσαι τοὺς πιστεύοντας.",
+      "text_kjv": "For after that in the wisdom of God the world by wisdom knew not God, it pleased God by the foolishness of preaching to save them that believe.",
+      "rendering": "For since, in the wisdom of God, the world through its wisdom did not come to know God, God was pleased through the foolishness of the proclamation to save those who believe.",
+      "translator_notes": [
+        "The phrase en tē sophia tou theou ('in the wisdom of God') suggests that the failure of human wisdom was itself part of God's design — God arranged things so that unaided human intellect would prove insufficient. The Greek kērygma ('proclamation, preaching') refers to the content proclaimed, not the act of preaching — it is 'the foolishness of what is proclaimed,' not 'the foolishness of the act of proclaiming.'"
+      ],
+      "reading_level": "10th grade"
+    },
+    {
+      "verse": 22,
+      "text_greek": "ἐπειδὴ καὶ Ἰουδαῖοι σημεῖα αἰτοῦσιν καὶ Ἕλληνες σοφίαν ζητοῦσιν,",
+      "text_kjv": "For the Jews require a sign, and the Greeks seek after wisdom:",
+      "rendering": "For Jews ask for signs and Greeks seek wisdom,",
+      "translator_notes": [
+        "Paul identifies two cultural orientations: the Jewish demand for miraculous validation (sēmeia, 'signs') and the Greek pursuit of philosophical insight (sophia, 'wisdom'). Both are legitimate desires misdirected — God does give signs and does offer wisdom, but not in the forms these cultures expect."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 23,
+      "text_greek": "ἡμεῖς δὲ κηρύσσομεν Χριστὸν ἐσταυρωμένον, Ἰουδαίοις μὲν σκάνδαλον, ἔθνεσιν δὲ μωρίαν,",
+      "text_kjv": "But we preach Christ crucified, unto the Jews a stumblingblock, and unto the Greeks foolishness;",
+      "rendering": "However, we preach Christ crucified, to the Jews a stumblingblock, and to the Greeks foolishness;.",
+      "translator_notes": [
+        "The phrase Christon estaurōmenon ('Christ crucified') uses the perfect passive participle — Christ remains permanently 'the crucified one.' This is not merely a past event but an abiding identity. The word skandalon ('stumbling block, snare, offense') gives us 'scandal' — a crucified Messiah was an oxymoron in Jewish expectation, since Deuteronomy 21:23 declares anyone hung on a tree to be under God's curse. For Greeks, the idea that ultimate wisdom would manifest in an executed criminal was simply mōria ('stupidity').",
+        "[TCR Cross-Reference] References Deuteronomy 21:23 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "key_terms": [
+        {
+          "greek": "σκάνδαλον",
+          "transliteration": "skandalon",
+          "rendered_as": "stumbling block",
+          "semantic_range": "stumbling block, offense, snare, trap, scandal",
+          "note": "Originally the trigger of a trap. A skandalon is something that causes someone to fall — not merely an annoyance but a fundamental obstacle to belief."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 24,
+      "text_greek": "αὐτοῖς δὲ τοῖς κλητοῖς, Ἰουδαίοις τε καὶ Ἕλλησιν, Χριστὸν θεοῦ δύναμιν καὶ θεοῦ σοφίαν·",
+      "text_kjv": "But unto them which are called, both Jews and Greeks, Christ the power of God, and the wisdom of God.",
+      "rendering": "And the wisdom of god, but to them which are called, both Jews and Greeks, Christ the power of God.",
+      "translator_notes": [
+        "The 'called' (kletois) — the same word from verses 1-2 — now transcend ethnic and cultural categories. What Jews sought in signs (power) and Greeks sought in philosophy (wisdom), both find in the crucified Christ. The sentence structure is compressed: 'Christ [is] the power of God and the wisdom of God' — no verb in the Greek, creating a declarative force."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 25,
+      "text_greek": "ὅτι τὸ μωρὸν τοῦ θεοῦ σοφώτερον τῶν ἀνθρώπων ἐστίν, καὶ τὸ ἀσθενὲς τοῦ θεοῦ ἰσχυρότερον τῶν ἀνθρώπων.",
+      "text_kjv": "Because the foolishness of God is wiser than men; and the weakness of God is stronger than men.",
+      "rendering": "For the foolishness of God is wiser than human wisdom, and the weakness of God is stronger than human strength.",
+      "translator_notes": [
+        "Paul uses the neuter substantive adjectives to mōron ('the foolish thing') and to asthenes ('the weak thing') of God — not attributes God actually possesses, but what human beings perceive as foolish and weak in God's actions. The comparative forms (sophōteron, ischyroteron) create an understatement: God's apparent foolishness exceeds all human wisdom, and God's apparent weakness exceeds all human strength."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 26,
+      "text_greek": "Βλέπετε γὰρ τὴν κλῆσιν ὑμῶν, ἀδελφοί, ὅτι οὐ πολλοὶ σοφοὶ κατὰ σάρκα, οὐ πολλοὶ δυνατοί, οὐ πολλοὶ εὐγενεῖς·",
+      "text_kjv": "For ye see your calling, brethren, how that not many wise men after the flesh, not many mighty, not many noble, are called:",
+      "rendering": "For consider your calling, brothers and sisters: not many of you were wise by human standards, not many were powerful, not many were of noble birth.",
+      "translator_notes": [
+        "The verb blepete ('look at, consider') invites the Corinthians to examine the sociological evidence of their own congregation. Paul does not say 'none' (oudeis) but 'not many' (ou polloi) — there were some wealthy and educated members (like Erastus, the city treasurer, Romans 16:23), but the majority were from lower social strata. The phrase kata sarka ('according to the flesh') means 'by worldly standards.'"
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 27,
+      "text_greek": "ἀλλὰ τὰ μωρὰ τοῦ κόσμου ἐξελέξατο ὁ θεός, ἵνα καταισχύνῃ τοὺς σοφούς, καὶ τὰ ἀσθενῆ τοῦ κόσμου ἐξελέξατο ὁ θεός, ἵνα καταισχύνῃ τὰ ἰσχυρά,",
+      "text_kjv": "But God hath chosen the foolish things of the world to confound the wise; and God hath chosen the weak things of the world to confound the things which are mighty;",
+      "rendering": "But God chose the foolish things of the world to shame the wise, and God chose the weak things of the world to shame the strong,",
+      "translator_notes": [
+        "The verb exelexato ('chose') is the aorist middle of eklegomai — God's deliberate, purposeful selection. The repetition of 'God chose' emphasizes divine initiative. The verb kataischynē ('to put to shame, to humiliate') is stronger than 'confound' — God's choices actively embarrass worldly power structures."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 28,
+      "text_greek": "καὶ τὰ ἀγενῆ τοῦ κόσμου καὶ τὰ ἐξουθενημένα ἐξελέξατο ὁ θεός, τὰ μὴ ὄντα, ἵνα τὰ ὄντα καταργήσῃ,",
+      "text_kjv": "And base things of the world, and things which are despised, hath God chosen, yea, and things which are not, to bring to nought things that are:",
+      "rendering": "Base matters of the age, and matters which are despised, has God chosen, yea, and matters which are not, to bring to nought things that are:.",
+      "translator_notes": [
+        "The Greek ta agenē ('the low-born, the insignificant') and ta exouthenēmena ('the despised, the things counted as nothing') escalate the social inversion. The climax is ta mē onta ('the things that are not') — God chose what has no existence or standing in the world's eyes. This echoes God's creation from nothing (creatio ex nihilo) and His calling of Abraham from obscurity. The verb katargēsē ('to render inoperative, to nullify, to abolish') is one of Paul's favorite words for describing how God dismantles existing power structures."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 29,
+      "text_greek": "ὅπως μὴ καυχήσηται πᾶσα σὰρξ ἐνώπιον τοῦ θεοῦ.",
+      "text_kjv": "That no flesh should glory in his presence.",
+      "rendering": "Indeed, that no flesh should glory in his presence.",
+      "translator_notes": [
+        "The Greek pasa sarx ('all flesh') is rendered 'no human being' (with the negative) for natural English. The verb kauchēsētai ('to boast, to glory') is a key term in Paul's theology — the human impulse to claim credit is the root of the problem. The entire argument from verses 26-29 builds to this single purpose clause: God's method of salvation is designed to eliminate human boasting."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 30,
+      "text_greek": "ἐξ αὐτοῦ δὲ ὑμεῖς ἐστε ἐν Χριστῷ Ἰησοῦ, ὃς ἐγενήθη σοφία ἡμῖν ἀπὸ θεοῦ, δικαιοσύνη τε καὶ ἁγιασμὸς καὶ ἀπολύτρωσις,",
+      "text_kjv": "But of him are ye in Christ Jesus, who of God is made unto us wisdom, and righteousness, and sanctification, and redemption:",
+      "rendering": "It is because of him that you are in Christ Jesus, who became for us wisdom from God — our righteousness, sanctification, and redemption —",
+      "translator_notes": [
+        "The phrase ex autou ('from him') places the origin of the believers' union with Christ entirely in God's initiative. Christ himself is identified as sophia ('wisdom') from God, directly countering the Corinthians' pursuit of worldly wisdom. The three terms that follow — dikaiosynē ('righteousness'), hagiasmos ('sanctification'), and apolytrōsis ('redemption') — may be appositional to 'wisdom,' explaining what God's true wisdom looks like in practice."
+      ],
+      "key_terms": [
+        {
+          "greek": "ἀπολύτρωσις",
+          "transliteration": "apolytrōsis",
+          "rendered_as": "redemption",
+          "semantic_range": "release, deliverance, redemption, ransom",
+          "note": "From apolytroun ('to release on payment of ransom'). The word carries marketplace connotations — the purchase price that sets a slave free. It corresponds to the Hebrew ga'al/go'el concept of kinsman-redemption."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 31,
+      "text_greek": "ἵνα καθὼς γέγραπται· ὁ καυχώμενος ἐν κυρίῳ καυχάσθω.",
+      "text_kjv": "That, according as it is written, He that glorieth, let him glory in the Lord.",
+      "rendering": "That, in keeping with as it is written, He that glorieth, let him glory in the Lord.",
+      "translator_notes": [
+        "Paul paraphrases Jeremiah 9:23-24 (via the Septuagint), where the prophet contrasts boasting in wisdom, strength, and riches with boasting in knowing the LORD who practices steadfast love (chesed), justice, and righteousness. The allusion perfectly caps the chapter: the only legitimate boast is in what God has done, not in human achievement, rhetorical skill, or factional loyalty.",
+        "[TCR Cross-Reference] Quotes Jeremiah 9:24. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it."
+      ],
+      "reading_level": "7th grade"
+    }
+  ]
+}

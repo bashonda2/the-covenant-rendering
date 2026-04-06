@@ -1,0 +1,150 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Esther",
+    "chapter": 8,
+    "tradition": "lxx-esther",
+    "tradition_label": "Septuagint (LXX)",
+    "source_text": "Rahlfs' Septuaginta",
+    "base_text": "Westminster Leningrad Codex (WLC)",
+    "date": "2nd–1st c. BCE",
+    "generated_at": "2026-04-05T00:00:00Z",
+    "prompt_version": "1.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Esther receives Haman's estate, Mordecai is elevated, and a second decree permits Jewish self-defense. The LXX follows the MT closely. Addition E (the full text of the king's second decree, 24 verses) is inserted after 8:12 in the LXX.",
+    "notable_variants": "The LXX adds theological language to the decree's justification. After 8:12, Addition E provides the complete text of the second decree in 24 verses — a lengthy document that explicitly names God as the protector of the Jews and denounces Haman as a Macedonian conspirator (not a Persian).",
+    "structural_notes": "Both versions have 17 verses. Addition E (24 verses) follows v. 12."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "has_variant": false,
+      "variant_notes": [
+        "No significant variant between the LXX and the MT for this verse."
+      ]
+    },
+    {
+      "verse": 2,
+      "has_variant": false,
+      "variant_notes": [
+        "No significant variant between the LXX and the MT for this verse."
+      ]
+    },
+    {
+      "verse": 3,
+      "has_variant": false,
+      "variant_notes": [
+        "No significant variant between the LXX and the MT for this verse."
+      ]
+    },
+    {
+      "verse": 4,
+      "has_variant": false,
+      "variant_notes": [
+        "No significant variant between the LXX and the MT for this verse."
+      ]
+    },
+    {
+      "verse": 5,
+      "has_variant": false,
+      "variant_notes": [
+        "No significant variant between the LXX and the MT for this verse."
+      ]
+    },
+    {
+      "verse": 6,
+      "has_variant": false,
+      "variant_notes": [
+        "No significant variant between the LXX and the MT for this verse."
+      ]
+    },
+    {
+      "verse": 7,
+      "has_variant": false,
+      "variant_notes": [
+        "No significant variant between the LXX and the MT for this verse."
+      ]
+    },
+    {
+      "verse": 8,
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "כִּי כְתָב אֲשֶׁר נִכְתָּב בְּשֵׁם הַמֶּלֶךְ",
+      "lxx_reading": "ὅσα γὰρ γράφεται τοῦ βασιλέως ἐπιτάξαντος",
+      "variant_rendering": "whatever is written at the king's command",
+      "mt_rendering": "a decree written in the king's name",
+      "variant_notes": [
+        "Both versions establish the legal principle: a Persian royal decree cannot be revoked, only counteracted."
+      ]
+    },
+    {
+      "verse": 9,
+      "has_variant": false,
+      "variant_notes": [
+        "No significant variant between the LXX and the MT for this verse."
+      ]
+    },
+    {
+      "verse": 10,
+      "has_variant": false,
+      "variant_notes": [
+        "No significant variant between the LXX and the MT for this verse."
+      ]
+    },
+    {
+      "verse": 11,
+      "has_variant": false,
+      "variant_notes": [
+        "No significant variant between the LXX and the MT for this verse."
+      ]
+    },
+    {
+      "verse": 12,
+      "has_variant": true,
+      "significance": "moderate",
+      "mt_reading": "בִּשְׁלוֹשָׁה עָשָׂר לְחֹדֶשׁ שְׁנֵים עָשָׂר הוּא חֹדֶשׁ אֲדָר",
+      "lxx_reading": "ἐν ἡμέρᾳ μιᾷ... τρισκαιδεκάτῃ τοῦ δωδεκάτου μηνός ὅς ἐστιν Αδαρ",
+      "variant_rendering": "on one day, the thirteenth of the twelfth month, which is Adar",
+      "mt_rendering": "on the thirteenth day of the twelfth month, the month of Adar",
+      "variant_notes": [
+        "Both versions agree on the date. After this verse, the LXX inserts Addition E — the full text of the royal counter-decree (24 verses). See addition-E.json."
+      ]
+    },
+    {
+      "verse": 13,
+      "has_variant": false,
+      "variant_notes": [
+        "No significant variant between the LXX and the MT for this verse."
+      ]
+    },
+    {
+      "verse": 14,
+      "has_variant": false,
+      "variant_notes": [
+        "No significant variant between the LXX and the MT for this verse."
+      ]
+    },
+    {
+      "verse": 15,
+      "has_variant": false,
+      "variant_notes": [
+        "No significant variant between the LXX and the MT for this verse."
+      ]
+    },
+    {
+      "verse": 17,
+      "has_variant": true,
+      "significance": "theological",
+      "mt_reading": "וְרַבִּים מֵעַמֵּי הָאָרֶץ מִתְיַהֲדִים",
+      "lxx_reading": "πολλοὶ τῶν ἐθνῶν περιετέμοντο καὶ ἰουδάϊζον",
+      "variant_rendering": "many of the nations were circumcised and became Jews",
+      "mt_rendering": "many from the peoples of the land became Jews",
+      "variant_notes": [
+        "The LXX explicitly states that the converts 'were circumcised' (perietemonto) — specifying the means of conversion. The MT uses the more general mityahadim ('became Jews/Judaized'). The LXX also adds 'because of the fear of the Jews' more emphatically."
+      ]
+    }
+  ]
+}

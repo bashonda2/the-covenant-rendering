@@ -1,0 +1,280 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Philemon",
+    "chapter": 1,
+    "source_text": "SBL Greek New Testament (SBLGNT)",
+    "reference_text": "KJV",
+    "generated_at": "2026-04-05T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Paul writes from prison to Philemon, a wealthy Christian in Colossae, on behalf of Onesimus — Philemon's runaway slave who has become a believer through Paul's ministry. Paul appeals not by apostolic authority but by love, asking Philemon to receive Onesimus back 'no longer as a slave but as a beloved brother.' He offers to repay any debt Onesimus owes, subtly reminds Philemon of his own spiritual debt to Paul, and expresses confidence that Philemon will do even more than Paul asks. The letter is a masterpiece of pastoral rhetoric, applying the gospel of reconciliation to a concrete social situation.",
+    "remarkable": "Philemon is the shortest of Paul's letters and the most personal. It contains no doctrinal exposition, no church controversy, and no prophecy — yet it demonstrates the gospel's power to transform human relationships more vividly than any theological treatise. Paul's rhetorical strategy is extraordinarily sophisticated: he begins with praise (vv. 4-7), establishes the basis for his appeal as love rather than authority (vv. 8-9), reveals Onesimus's new identity in Christ (vv. 10-16), makes a concrete financial offer (vv. 17-19), and applies gentle pressure through expressed confidence (vv. 20-21). The pivotal verse — 'no longer as a slave but more than a slave, as a beloved brother' (v. 16) — does not explicitly command manumission but creates a framework in which continued enslavement becomes morally impossible. The letter's inclusion in the canon testifies to the early church's recognition that the gospel must address the most ordinary and difficult human situations.",
+    "friction": "Paul does not explicitly command Philemon to free Onesimus. This silence has been debated for centuries: some see Paul as accommodating slavery, others see the letter as an implicit but devastating case for manumission. We render the Greek without resolving this debate, noting Paul's careful rhetoric in the translator notes. The legal situation of Onesimus is also debated — he may have been a fugitive slave (the traditional reading) or a slave sent by Philemon who overstayed his mission. The phrase 'separated from you' (v. 15) is more neutral than 'ran away.'",
+    "connections": "Onesimus and the other figures appear in Colossians 4:9-17, linking these two letters. The reconciliation theme echoes 2 Corinthians 5:18-20 — God's ministry of reconciliation is now applied horizontally between master and slave. Paul's offer to absorb Onesimus's debt (v. 18) mirrors Christ's substitutionary work. The letter's rhetorical structure parallels ancient letters of intercession (e.g., Pliny's letters to Sabinianus on behalf of a freedman)."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_greek": "Παῦλος δέσμιος Χριστοῦ Ἰησοῦ καὶ Τιμόθεος ὁ ἀδελφὸς Φιλήμονι τῷ ἀγαπητῷ καὶ συνεργῷ ἡμῶν",
+      "text_kjv": "Paul, a prisoner of Jesus Christ, and Timothy our brother, unto Philemon our dearly beloved, and fellowlabourer,",
+      "rendering": "Paul, a prisoner for Christ Jesus, and Timothy our brother, to Philemon our beloved fellow worker,",
+      "translator_notes": [
+        "Paul identifies himself not as an apostle but as a 'prisoner' (desmios) — a deliberate rhetorical choice. The appeal that follows will be made from the position of one who has already sacrificed his freedom for the gospel, not from a position of institutional authority. Philemon is called 'beloved' (agapētō) and 'fellow worker' (synergō) — terms that establish the relationship as one of mutual respect and shared mission before the request is made."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 2,
+      "text_greek": "καὶ Ἀπφίᾳ τῇ ἀδελφῇ καὶ Ἀρχίππῳ τῷ συστρατιώτῃ ἡμῶν καὶ τῇ κατ' οἶκόν σου ἐκκλησίᾳ·",
+      "text_kjv": "And to our beloved Apphia, and Archippus our fellowsoldier, and to the church in thy house:",
+      "rendering": "To our dear Apphia, and Archippus our fellowsoldier, and to the church in your home:.",
+      "translator_notes": [
+        "Apphia is likely Philemon's wife and Archippus possibly their son (cf. Colossians 4:17). By addressing the letter not only to Philemon but to his household and the entire house church, Paul ensures that the appeal is not merely private — the community will hear it and hold Philemon accountable. The 'church in your house' (tē kat' oikon sou ekklēsia) confirms that early Christian assemblies met in private homes."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 3,
+      "text_greek": "χάρις ὑμῖν καὶ εἰρήνη ἀπὸ θεοῦ πατρὸς ἡμῶν καὶ κυρίου Ἰησοῦ Χριστοῦ.",
+      "text_kjv": "Grace to you, and peace, from God our Father and the Lord Jesus Christ.",
+      "rendering": "From god our father and the lord jesus christ, grace to you, and peace.",
+      "translator_notes": [
+        "The standard Pauline greeting. The plural 'you' (hymin) addresses the entire group named in verses 1-2, though the letter's content primarily concerns Philemon."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 4,
+      "text_greek": "Εὐχαριστῶ τῷ θεῷ μου πάντοτε μνείαν σου ποιούμενος ἐπὶ τῶν προσευχῶν μου,",
+      "text_kjv": "I thank my God, making mention of thee always in my prayers,",
+      "rendering": "I thank my God always when I remember you in my prayers,",
+      "translator_notes": [
+        "The thanksgiving section (vv. 4-7) is the rhetorical foundation for the appeal. Paul establishes Philemon's character as generous and faithful before asking him to live up to that reputation. The phrase 'my God' (tō theō mou) is warmly personal."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 5,
+      "text_greek": "ἀκούων σου τὴν ἀγάπην καὶ τὴν πίστιν ἣν ἔχεις πρὸς τὸν κύριον Ἰησοῦν καὶ εἰς πάντας τοὺς ἁγίους,",
+      "text_kjv": "Hearing of thy love and faith, which thou hast toward the Lord Jesus, and toward all saints;",
+      "rendering": "Listening of your love and faith, which you have toward the Lord Jesus, and toward all saints.",
+      "translator_notes": [
+        "Paul has heard reports of Philemon's love and faith — the two qualities that the forthcoming appeal will test. The structure may be a chiasm (ABBA): love—faith—Lord Jesus—all the saints, yielding faith toward the Lord Jesus and love toward all the saints. This reading connects the appeal: if Philemon loves 'all the saints,' that must now include Onesimus."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 6,
+      "text_greek": "ὅπως ἡ κοινωνία τῆς πίστεώς σου ἐνεργὴς γένηται ἐν ἐπιγνώσει παντὸς ἀγαθοῦ τοῦ ἐν ἡμῖν εἰς Χριστόν.",
+      "text_kjv": "That the communication of thy faith may become effectual by the acknowledging of every good thing which is in you in Christ Jesus.",
+      "rendering": "I pray that your partnership in the faith will become effective as you come to understand every good thing we share in Christ Jesus.",
+      "translator_notes": [
+        "This verse is notoriously difficult to translate. The word koinōnia ('sharing, partnership, fellowship') may refer to Philemon's generosity, his evangelistic witness, or the mutual participation of faith. Paul prays that this koinōnia will become 'effective' (energēs, 'active, productive') through recognition (epignōsei) of every good thing in the community. The prayer subtly sets up the appeal: if Philemon can recognize the good that Christ produces in people, he will see that good in Onesimus."
+      ],
+      "reading_level": "10th grade"
+    },
+    {
+      "verse": 7,
+      "text_greek": "χαρὰν γὰρ πολλὴν ἔσχον καὶ παράκλησιν ἐπὶ τῇ ἀγάπῃ σου, ὅτι τὰ σπλάγχνα τῶν ἁγίων ἀναπέπαυται διὰ σοῦ, ἀδελφέ.",
+      "text_kjv": "For we have great joy and consolation in thy love, because the bowels of the saints are refreshed by thee, brother.",
+      "rendering": "For I have derived much joy and comfort from your love, my brother, because the hearts of the saints have been refreshed through you.",
+      "translator_notes": [
+        "The word splanchna ('hearts,' literally 'inner organs, intestines') appears three times in this short letter (vv. 7, 12, 20), forming a verbal thread. Philemon has 'refreshed' (anapepautai, 'given rest to, renewed') the hearts of believers — Paul will soon ask him to refresh Paul's own heart (v. 20) by receiving Onesimus. The affectionate address 'brother' (adelphe) at the end of the sentence sets the emotional tone for what follows."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 8,
+      "text_greek": "Διό, πολλὴν ἐν Χριστῷ παρρησίαν ἔχων ἐπιτάσσειν σοι τὸ ἀνῆκον,",
+      "text_kjv": "Wherefore, though I might be much bold in Christ to enjoin thee that which is convenient,",
+      "rendering": "Accordingly, though I am bold enough in Christ to command you to do what is required,",
+      "translator_notes": [
+        "Paul's rhetoric is masterful: he mentions his right to command (epitassein, 'to order, to give authoritative instructions') precisely so he can renounce it. By stating what he could do but choosing not to, he makes the appeal more powerful — Philemon's response will be a free act of love rather than coerced compliance. The word anēkon ('what is fitting, what is proper, what is required') implies that what Paul asks is not optional but morally necessary."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 9,
+      "text_greek": "διὰ τὴν ἀγάπην μᾶλλον παρακαλῶ, τοιοῦτος ὢν ὡς Παῦλος πρεσβύτης νυνὶ δὲ καὶ δέσμιος Χριστοῦ Ἰησοῦ,",
+      "text_kjv": "Yet for love's sake I rather beseech thee, being such an one as Paul the aged, and now also a prisoner of Jesus Christ.",
+      "rendering": "Yet for love's sake I instead beseech you, being these people an one as Paul the aged, and now also a prisoner of Jesus Christ.",
+      "translator_notes": [
+        "The word parakalō ('I appeal, I urge, I encourage') replaces the command language of verse 8. Paul grounds his appeal in love (agapēn), not authority. He adds two qualifications designed to evoke compassion: he is a presbyteros ('old man' or possibly 'ambassador' — the words presbyteros and presbeutēs differ by one letter, and some manuscripts read the latter) and a prisoner (desmios). The em-dashes set off this self-description as an emotional aside."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 10,
+      "text_greek": "παρακαλῶ σε περὶ τοῦ ἐμοῦ τέκνου, ὃν ἐγέννησα ἐν τοῖς δεσμοῖς, Ὀνήσιμον,",
+      "text_kjv": "I beseech thee for my son Onesimus, whom I have begotten in my bonds:",
+      "rendering": "I appeal to you for my child, Onesimus, whose father I became in my imprisonment.",
+      "translator_notes": [
+        "Paul delays naming Onesimus until the end of the sentence — a deliberate rhetorical strategy. Before Philemon hears the slave's name, he hears 'my child' (tou emou teknou), establishing the relationship. The verb egennēsa ('I fathered, I begot') indicates Paul led Onesimus to faith during his imprisonment. The name Onēsimon ('useful, profitable') will be punned on in the next verse."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 11,
+      "text_greek": "τόν ποτέ σοι ἄχρηστον νυνὶ δὲ καὶ σοὶ καὶ ἐμοὶ εὔχρηστον,",
+      "text_kjv": "Which in time past was to thee unprofitable, but now profitable to thee and to me:",
+      "rendering": "Formerly he was useless to you, but now he is indeed useful to you and to me.",
+      "translator_notes": [
+        "Paul plays on Onesimus's name (Onēsimos, 'useful, beneficial'): the one whose name means 'useful' was once achrēston ('useless') but is now euchrēston ('very useful'). There may also be a further pun: achrēstos sounds like a-Christos ('without Christ'), and euchrēstos sounds like eu-Christos ('good in Christ'). The transformation from useless to useful encapsulates the gospel's power to change a person's identity and value."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 12,
+      "text_greek": "ὃν ἀνέπεμψά σοι, αὐτόν, τοῦτ' ἔστιν τὰ ἐμὰ σπλάγχνα·",
+      "text_kjv": "Whom I have sent again: thou therefore receive him, that is, mine own bowels:",
+      "rendering": "I am sending him back to you, sending my very heart.",
+      "translator_notes": [
+        "The second use of splanchna ('heart, inner being') is the most emotionally charged: in sending Onesimus back, Paul is sending his own heart. The identification is complete — Onesimus is not merely a protege but an extension of Paul's own person. Any treatment of Onesimus will be experienced by Paul himself. The SBLGNT does not include 'receive him' (proslabou), which appears in some manuscripts."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 13,
+      "text_greek": "ὃν ἐγὼ ἐβουλόμην πρὸς ἐμαυτὸν κατέχειν, ἵνα ὑπὲρ σοῦ μοι διακονῇ ἐν τοῖς δεσμοῖς τοῦ εὐαγγελίου,",
+      "text_kjv": "Whom I would have retained with me, that in thy stead he might have ministered unto me in the bonds of the gospel:",
+      "rendering": "I would have been glad to keep him with me, in order that he might serve me on your behalf during my imprisonment for the gospel,",
+      "translator_notes": [
+        "Paul states his preference — he wanted to keep Onesimus — but immediately subordinates it to Philemon's rights. The phrase 'on your behalf' (hyper sou) is significant: Onesimus's service to Paul would have been a proxy for Philemon's own service. Paul frames Onesimus's presence as a gift from Philemon, not as his own possession."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 14,
+      "text_greek": "χωρὶς δὲ τῆς σῆς γνώμης οὐδὲν ἠθέλησα ποιῆσαι, ἵνα μὴ ὡς κατὰ ἀνάγκην τὸ ἀγαθόν σου ᾖ ἀλλὰ κατὰ ἑκούσιον.",
+      "text_kjv": "But without thy mind would I do nothing; that thy benefit should not be as it were of necessity, but willingly.",
+      "rendering": "However, without your mind would I do nothing. That your benefit should not be as it were of necessity, but willingly.",
+      "translator_notes": [
+        "The contrast between anankē ('compulsion, necessity') and hekousion ('voluntary, of one's own accord') is the letter's ethical crux. Paul could have kept Onesimus and presented Philemon with a fait accompli. Instead, he preserves Philemon's moral agency — the right response must be freely chosen to have moral value. This principle reflects Paul's broader theology of grace: God does not coerce love but invites it."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 15,
+      "text_greek": "τάχα γὰρ διὰ τοῦτο ἐχωρίσθη πρὸς ὥραν, ἵνα αἰώνιον αὐτὸν ἀπέχῃς,",
+      "text_kjv": "For perhaps he therefore departed for a season, that thou shouldest receive him for ever;",
+      "rendering": "For this perhaps is why he was separated from you for a while, that you might have him back forever,",
+      "translator_notes": [
+        "The verb echōristhē ('he was separated') uses the divine passive — avoiding the harsh 'he ran away' and suggesting that God's providence was at work in the separation. The adverb tacha ('perhaps') shows appropriate tentativeness about reading divine purpose into events. The contrast between 'for a while' (pros hōran, literally 'for an hour') and 'forever' (aiōnion) reframes the entire episode: a temporary loss has become an eternal gain."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 16,
+      "text_greek": "οὐκέτι ὡς δοῦλον ἀλλὰ ὑπὲρ δοῦλον, ἀδελφὸν ἀγαπητόν, μάλιστα ἐμοί, πόσῳ δὲ μᾶλλον σοὶ καὶ ἐν σαρκὶ καὶ ἐν κυρίῳ.",
+      "text_kjv": "Not now as a servant, but above a servant, a brother beloved, specially to me, but how much more unto thee, both in the flesh, and in the Lord?",
+      "rendering": "Indeed, not now as a servant, but above a servant, a brother dear, specially to me, but how much more to you, both in the flesh, and in the Lord?",
+      "translator_notes": [
+        "This is the letter's theological climax. Onesimus returns to Philemon's household with a transformed identity: 'no longer as a slave' (ouketi hōs doulon) but 'more than a slave — a beloved brother' (hyper doulon, adelphon agapēton). The phrase 'both in the flesh and in the Lord' (kai en sarki kai en kyriō) means that the brother-relationship is not merely spiritual ('in the Lord') but also operates in the everyday, physical realm ('in the flesh'). Paul does not formally command manumission, but the logic is clear: you cannot own your brother. The phrase 'how much more to you' (posō de mallon soi) argues that if Onesimus is precious to Paul, he should be even more so to Philemon, who will have him present daily."
+      ],
+      "key_terms": [
+        {
+          "greek": "ἀδελφὸν ἀγαπητόν",
+          "transliteration": "adelphon agapēton",
+          "rendered_as": "beloved brother",
+          "semantic_range": "beloved brother, dear brother",
+          "note": "The same phrase Paul used for Philemon himself in verse 1 (agapētos). By applying the identical term to both master and slave, Paul linguistically levels the hierarchy. They are now equals: both beloved brothers."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 17,
+      "text_greek": "εἰ οὖν με ἔχεις κοινωνόν, προσλαβοῦ αὐτὸν ὡς ἐμέ.",
+      "text_kjv": "If thou count me therefore a partner, receive him as myself.",
+      "rendering": "So if you consider me your partner, receive him as you would receive me.",
+      "translator_notes": [
+        "The word koinōnon ('partner, one who shares in common, associate') echoes the koinōnia of verse 6. Paul draws on the established partnership to leverage the appeal: if Philemon and Paul are partners, then Onesimus — who is Paul's 'very heart' (v. 12) — must be welcomed as Paul himself. The verb proslabou ('receive, take to yourself, welcome') is a hospitality term implying full acceptance into the household."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 18,
+      "text_greek": "εἰ δέ τι ἠδίκησέν σε ἢ ὀφείλει, τοῦτο ἐμοὶ ἐλλόγα·",
+      "text_kjv": "If he hath wronged thee, or oweth thee ought, put that on mine account;",
+      "rendering": "If he has wronged you at all, or owes you anything, charge that to my account.",
+      "translator_notes": [
+        "The conditional 'if' (ei) is diplomatic rather than doubtful — Onesimus likely did wrong Philemon or incur a debt (perhaps by stealing to fund his flight). The verb elloga ('charge to my account, reckon to me') is an accounting term — Paul creates a formal IOU. This is substitutionary language: Paul absorbs Onesimus's debt, just as Christ absorbed humanity's debt (Colossians 2:14). The parallel is unmistakable and intentional."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 19,
+      "text_greek": "ἐγὼ Παῦλος ἔγραψα τῇ ἐμῇ χειρί, ἐγὼ ἀποτίσω· ἵνα μὴ λέγω σοι ὅτι καὶ σεαυτόν μοι προσοφείλεις.",
+      "text_kjv": "I Paul have written it with mine own hand, I will repay it: albeit I do not say to thee how thou owest unto me even thine own self besides.",
+      "rendering": "I, Paul, am writing this with my own hand: I will repay it — to say nothing of your owing me even your own self.",
+      "translator_notes": [
+        "Paul signs the IOU in his own handwriting, making it legally binding. Then, in one of the most brilliantly ironic sentences in ancient literature, he adds: 'to say nothing of your owing me even your own self' (hina mē legō soi hoti kai seauton moi prosopheileis). The phrase 'to say nothing of' (hina mē legō) is a rhetorical device called paralipsis — saying something by claiming not to say it. The effect is devastating: Onesimus may owe Philemon money, but Philemon owes Paul his very soul (presumably Paul led Philemon to faith). The larger debt swallows the smaller one."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 20,
+      "text_greek": "ναί, ἀδελφέ, ἐγώ σου ὀναίμην ἐν κυρίῳ· ἀνάπαυσόν μου τὰ σπλάγχνα ἐν Χριστῷ.",
+      "text_kjv": "Yea, brother, let me have joy of thee in the Lord: refresh my bowels in the Lord.",
+      "rendering": "Yes, brother, I want some benefit from you in the Lord. Refresh my heart in Christ.",
+      "translator_notes": [
+        "The verb onaimēn ('may I have benefit, may I have profit') is another pun on the name Onesimos ('beneficial, profitable'). Paul asks Philemon to be an 'Onesimus' to Paul — to live up to the very quality that Onesimus's name represents. The third appearance of splanchna ('heart') closes the literary frame opened in verse 7: Philemon has refreshed the hearts of the saints; now Paul asks him to refresh Paul's own heart by welcoming Onesimus."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 21,
+      "text_greek": "Πεποιθὼς τῇ ὑπακοῇ σου ἔγραψά σοι, εἰδὼς ὅτι καὶ ὑπὲρ ἃ λέγω ποιήσεις.",
+      "text_kjv": "Having confidence in thy obedience I wrote unto thee, knowing that thou wilt also do more than I say.",
+      "rendering": "Confident of your obedience, I write to you, knowing that you will do even more than I say.",
+      "translator_notes": [
+        "The word hypakoē ('obedience') is striking — Paul has insisted on appealing rather than commanding, yet he describes Philemon's response as 'obedience.' The gospel appeal carries its own authority: to refuse love's request is a form of disobedience. The phrase 'even more than I say' (hyper ha legō poiēseis) leaves open the possibility that Paul hopes for manumission, or even that Philemon will send Onesimus back to Paul. By not specifying, Paul leaves room for Philemon to exceed expectations."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 22,
+      "text_greek": "ἅμα δὲ καὶ ἑτοίμαζέ μοι ξενίαν, ἐλπίζω γὰρ ὅτι διὰ τῶν προσευχῶν ὑμῶν χαρισθήσομαι ὑμῖν.",
+      "text_kjv": "But withal prepare me also a lodging: for I trust that through your prayers I shall be given unto you.",
+      "rendering": "At the same time, prepare a guest room for me, for I am hoping that through your prayers I will be graciously given to you.",
+      "translator_notes": [
+        "The request for lodging adds gentle pressure: Paul plans to visit and will see firsthand how Philemon has responded. The verb charisthēsomai ('I will be graciously given, I will be granted as a gift') uses the charis root — Paul's release from prison will be a gift of grace mediated through the Colossians' prayers. The request also expresses optimism about his release."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 23,
+      "text_greek": "Ἀσπάζεταί σε Ἐπαφρᾶς ὁ συναιχμάλωτός μου ἐν Χριστῷ Ἰησοῦ,",
+      "text_kjv": "There salute thee Epaphras, my fellowprisoner in Christ Jesus;",
+      "rendering": "Epaphras, my fellow prisoner in Christ Jesus, sends you greetings,",
+      "translator_notes": [
+        "In Colossians 4:10, Aristarchus is the 'fellow prisoner' while Epaphras is not; here the designation is reversed. Paul may use the term synaichmalōtos ('co-prisoner of war') loosely for anyone who shares his captivity, whether literally imprisoned or voluntarily present. Epaphras, as founder of the Colossian church, has a personal connection to Philemon."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 24,
+      "text_greek": "Μᾶρκος, Ἀρίσταρχος, Δημᾶς, Λουκᾶς, οἱ συνεργοί μου.",
+      "text_kjv": "Marcus, Aristarchus, Demas, Lucas, my fellowlabourers.",
+      "rendering": "Marcus, Aristarchus, Demas, Lucas, my fellowlabourers.",
+      "translator_notes": [
+        "The same names appear in Colossians 4:10-14, confirming that both letters were sent at the same time. All four are called synergoi ('fellow workers, co-laborers') — an egalitarian designation that includes both Jews (Mark, Aristarchus) and Gentiles (Demas, Luke) in the shared work of the gospel."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 25,
+      "text_greek": "Ἡ χάρις τοῦ κυρίου Ἰησοῦ Χριστοῦ μετὰ τοῦ πνεύματος ὑμῶν.",
+      "text_kjv": "The grace of our Lord Jesus Christ be with your spirit. Amen.",
+      "rendering": "The grace of the Lord Jesus Christ be with your spirit.",
+      "translator_notes": [
+        "The closing benediction matches Philippians 4:23 almost exactly. The plural 'your' (hymōn) addresses the entire community, not just Philemon. Grace — the undeserved generosity of God — is the letter's final word, as it was the first (v. 3). The entire letter is framed by grace: the same grace that freed Onesimus from sin now calls Philemon to free Onesimus from slavery. The SBLGNT omits the final 'Amen' of the Textus Receptus."
+      ],
+      "reading_level": "6th grade"
+    }
+  ]
+}

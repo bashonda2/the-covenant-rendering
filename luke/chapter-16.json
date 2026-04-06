@@ -1,0 +1,381 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Luke",
+    "chapter": 16,
+    "source_text": "SBL Greek New Testament (SBLGNT)",
+    "reference_text": "KJV",
+    "generated_at": "2026-04-05T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Luke 16 contains two of Jesus's most provocative teachings about wealth. The Parable of the Shrewd Manager (16:1-13) presents a dishonest steward who, facing termination, reduces his master's debtors' bills to secure future friendships — and is commended for his shrewdness. Jesus draws the paradoxical lesson that worldly people are more strategic than 'children of light' and urges his followers to use wealth to gain eternal friends. A series of sayings on faithfulness, the impossibility of serving both God and money, and the enduring authority of the Law follows. The chapter culminates in the Parable of the Rich Man and Lazarus (16:19-31), where a wealthy man who ignored a beggar at his gate finds their positions reversed in the afterlife — and Abraham refuses to send a warning to the rich man's brothers, declaring that Moses and the Prophets are sufficient.",
+    "remarkable": "The Parable of the Shrewd Manager is perhaps the most debated parable in the Gospels. Jesus appears to commend dishonesty, but the commendation is for shrewdness (phronimōs), not for the fraud itself — the steward's cleverness in using present resources to secure a future relationship becomes an analogy for how disciples should use material wealth to secure eternal outcomes. The Rich Man and Lazarus is the only parable in which a character is named (Lazarus), and it provides the most detailed picture of the afterlife in Jesus's teaching. The rich man is never condemned for a specific sin — his offense is indifference to suffering at his own gate. The final line ('neither will they be convinced even if someone rises from the dead') is deeply ironic in light of Jesus's own resurrection and the continued unbelief it met.",
+    "friction": "The Shrewd Manager parable's moral logic has troubled interpreters for centuries. The manager may have been removing his own commission from the bills (making his action honest), or he may have been canceling usurious interest forbidden by Torah (making his action just), or he may simply be a rogue whose worldly cleverness Jesus repurposes as a spiritual lesson. We render the Greek as given and let the translator notes present the interpretive options. The word 'Hades' (hadēs) in verse 23 is the Greek equivalent of Hebrew Sheol — the realm of the dead — not the later Christian concept of hell. The 'great chasm' (chasma mega) is unique to this passage.",
+    "connections": "The Shrewd Manager continues Luke's sustained focus on wealth and discipleship (12:13-34; 14:33; 18:18-30; 19:1-10). The Pharisees' love of money (v. 14) connects to their role throughout Luke as opponents who misunderstand the kingdom. The Rich Man and Lazarus echoes the Magnificat's reversal theme (1:52-53) and the Beatitudes/Woes of 6:20-26. Abraham's refusal to send Lazarus back foreshadows the resurrection appearances and the persistent unbelief of Acts. The 'Law and Prophets' (v. 16) connects to Luke 24:27, 44.\n\n**Tradition comparisons:** JST footnote at Luke 16:16: Law and prophets until John — the kingdom of God since preached — transition reframed See the [JST notes](/jst/luke)."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_greek": "Ἔλεγεν δὲ καὶ πρὸς τοὺς μαθητάς· Ἄνθρωπός τις ἦν πλούσιος ὃς εἶχεν οἰκονόμον, καὶ οὗτος διεβλήθη αὐτῷ ὡς διασκορπίζων τὰ ὑπάρχοντα αὐτοῦ.",
+      "text_kjv": "And he said also unto his disciples, There was a certain rich man, which had a steward; and the same was accused unto him that he had wasted his goods.",
+      "rendering": "He also said to his disciples, \"There was a rich man who had a manager, and this manager was reported to him as squandering his possessions.",
+      "translator_notes": [
+        "The oikonomos ('manager, steward') was responsible for administering the master's estate — a position of significant trust and authority. The verb diaskorpizōn ('squandering, scattering') is the same word used for the prodigal son's waste in 15:13, creating a verbal link between the two parables. The passive dieblēthē ('was reported, was accused') does not confirm whether the accusation was true."
+      ],
+      "key_terms": [
+        {
+          "greek": "οἰκονόμος",
+          "transliteration": "oikonomos",
+          "rendered_as": "manager",
+          "semantic_range": "steward, household manager, administrator",
+          "note": "From oikos ('house') and nemō ('to manage, distribute'). The root of 'economy.' The role involved managing another's resources — a fitting metaphor for human stewardship of what ultimately belongs to God."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 2,
+      "text_greek": "καὶ φωνήσας αὐτὸν εἶπεν αὐτῷ· Τί τοῦτο ἀκούω περὶ σοῦ; ἀπόδος τὸν λόγον τῆς οἰκονομίας σου· οὐ γὰρ δύνῃ ἔτι οἰκονομεῖν.",
+      "text_kjv": "And he called him, and said unto him, How is it that I hear this of thee? give an account of thy stewardship; for thou mayest be no longer steward.",
+      "rendering": "So he called him and said to him, 'What is this I hear about you? Turn in the account of your management, for you can no longer be manager.'",
+      "translator_notes": [
+        "The demand apodos ton logon ('give the account, render the reckoning') uses commercial language for a financial audit. The phrase ou dynē eti oikonomein ('you are no longer able to manage') is a termination notice. The manager is given a brief window to close the books — a window he will exploit."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 3,
+      "text_greek": "εἶπεν δὲ ἐν ἑαυτῷ ὁ οἰκονόμος· Τί ποιήσω, ὅτι ὁ κύριός μου ἀφαιρεῖται τὴν οἰκονομίαν ἀπ' ἐμοῦ; σκάπτειν οὐκ ἰσχύω, ἐπαιτεῖν αἰσχύνομαι.",
+      "text_kjv": "Then the steward said within himself, What shall I do? for my lord taketh away from me the stewardship: I cannot dig; to beg I am ashamed.",
+      "rendering": "The manager said to himself, 'What shall I do, since my master is taking the management away from me? I am not strong enough to dig, and I am ashamed to beg.",
+      "translator_notes": [
+        "The internal monologue (eipen en heautō, 'said within himself') parallels the prodigal son's self-reflection in 15:17. The manager's self-assessment is brutally honest: he cannot do manual labor (skaptein, 'to dig') and will not beg (epaitein). He is a white-collar worker facing unemployment with no fallback skills. His dilemma forces the creative — if ethically questionable — solution that follows."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 4,
+      "text_greek": "ἔγνων τί ποιήσω, ἵνα ὅταν μετασταθῶ ἐκ τῆς οἰκονομίας δέξωνταί με εἰς τοὺς οἴκους αὐτῶν.",
+      "text_kjv": "I am resolved what to do, that, when I am put out of the stewardship, they may receive me into their houses.",
+      "rendering": "I know what I will do, so that when I am removed from the management, people will receive me into their homes.'",
+      "translator_notes": [
+        "The verb egnōn ('I know, I have realized') marks the eureka moment. His strategy is to create a network of obligation: by reducing the debtors' bills, he will have friends who owe him favors when he loses his position. The phrase dexōntai me eis tous oikous autōn ('they will receive me into their houses') will be echoed in verse 9 with 'eternal dwellings.'"
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 5,
+      "text_greek": "καὶ προσκαλεσάμενος ἕνα ἕκαστον τῶν χρεοφειλετῶν τοῦ κυρίου ἑαυτοῦ ἔλεγεν τῷ πρώτῳ· Πόσον ὀφείλεις τῷ κυρίῳ μου;",
+      "text_kjv": "So he called every one of his lord's debtors unto him, and said unto the first, How much owest thou unto my lord?",
+      "rendering": "So, summoning his master's debtors one by one, he said to the first, 'How much do you owe my master?'",
+      "translator_notes": [
+        "The chreoopheiletōn ('debtors') were likely tenant farmers or merchants who owed the master commodities as rent or payment. The manager acts individually with each debtor (hena hekaston, 'one by one'), creating personal obligation rather than a collective arrangement."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 6,
+      "text_greek": "ὁ δὲ εἶπεν· Ἑκατὸν βάτους ἐλαίου. ὁ δὲ εἶπεν αὐτῷ· Δέξαι σου τὰ γράμματα καὶ καθίσας ταχέως γράψον πεντήκοντα.",
+      "text_kjv": "And he said, An hundred measures of oil. And he said unto him, Take thy bill, and sit down quickly, and write fifty.",
+      "rendering": "He said, 'A hundred measures of olive oil.' He said to him, 'Take your bill, sit down quickly, and write fifty.'",
+      "translator_notes": [
+        "A batos was approximately eight to nine gallons; a hundred batous of olive oil was a substantial debt — roughly 800-900 gallons, the yield of about 150 olive trees. The reduction of fifty percent is enormous. The urgency (tacheōs, 'quickly') reflects the need to act before the termination takes effect. Whether the reduction represents the manager's commission, the master's usurious interest, or outright fraud is debated."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 7,
+      "text_greek": "ἔπειτα ἑτέρῳ εἶπεν· Σὺ δὲ πόσον ὀφείλεις; ὁ δὲ εἶπεν· Ἑκατὸν κόρους σίτου. λέγει αὐτῷ· Δέξαι σου τὰ γράμματα καὶ γράψον ὀγδοήκοντα.",
+      "text_kjv": "Then said he to another, And how much owest thou? And he said, An hundred measures of wheat. And he said unto him, Take thy bill, and write fourscore.",
+      "rendering": "Then he said to another, 'And how much do you owe?' He said, 'A hundred measures of wheat.' He said to him, 'Take your bill and write eighty.'",
+      "translator_notes": [
+        "A koros was approximately ten to twelve bushels; a hundred koroi of wheat equaled roughly 1,000-1,200 bushels — a very large commercial quantity. The reduction here is only twenty percent, compared to fifty percent for the oil. The different percentages may reflect different commission rates or interest structures on different commodities."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 8,
+      "text_greek": "καὶ ἐπῄνεσεν ὁ κύριος τὸν οἰκονόμον τῆς ἀδικίας ὅτι φρονίμως ἐποίησεν· ὅτι οἱ υἱοὶ τοῦ αἰῶνος τούτου φρονιμώτεροι ὑπὲρ τοὺς υἱοὺς τοῦ φωτὸς εἰς τὴν γενεὰν τὴν ἑαυτῶν εἰσιν.",
+      "text_kjv": "And the lord commended the unjust steward, because he had done wisely: for the children of this world are in their generation wiser than the children of light.",
+      "rendering": "The master commended the dishonest manager because he had acted shrewdly. For the children of this age are more shrewd in dealing with their own generation than the children of light.",
+      "translator_notes": [
+        "The crucial question: does 'the master' (ho kyrios) refer to the rich man in the parable or to Jesus? Most interpreters read it as the rich man, who grudgingly admires the manager's cleverness even though it cost him money. The commendation is for phronimōs ('shrewdly, wisely') — strategic thinking about the future — not for the dishonesty (adikias). The contrast between 'children of this age' (huioi tou aiōnos toutou) and 'children of light' (huious tou phōtos) is a wisdom observation: worldly people invest more strategic effort in their temporal futures than God's people invest in their eternal ones."
+      ],
+      "key_terms": [
+        {
+          "greek": "φρονίμως",
+          "transliteration": "phronimōs",
+          "rendered_as": "shrewdly",
+          "semantic_range": "wisely, shrewdly, prudently, with practical intelligence",
+          "note": "From phronēsis ('practical wisdom'). Not sophia ('theoretical wisdom') but street-smart, strategic thinking. The commendation is for foresight and decisive action, not for moral character."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 9,
+      "text_greek": "Καὶ ἐγὼ ὑμῖν λέγω, ἑαυτοῖς ποιήσατε φίλους ἐκ τοῦ μαμωνᾶ τῆς ἀδικίας, ἵνα ὅταν ἐκλίπῃ δέξωνται ὑμᾶς εἰς τὰς αἰωνίους σκηνάς.",
+      "text_kjv": "And I say unto you, Make to yourselves friends of the mammon of unrighteousness; that, when ye fail, they may receive you into everlasting habitations.",
+      "rendering": "And I tell you, make friends for yourselves by means of unrighteous wealth, so that when it fails, they may receive you into the eternal dwellings.",
+      "translator_notes": [
+        "Jesus now applies the parable. The mamōna tēs adikias ('mammon of unrighteousness') is Aramaic mammon ('wealth, property') modified by a genitive of quality — 'wealth characterized by its worldly nature.' The instruction is: use material resources to build relationships that have eternal significance. The 'eternal dwellings' (aiōnious skēnas, literally 'eternal tents') contrast with the temporary shelters of this life. The identity of 'they' (dexōntai) is debated — the poor who benefit from generosity, the angels, or God himself."
+      ],
+      "key_terms": [
+        {
+          "greek": "μαμωνᾶς",
+          "transliteration": "mamōnas",
+          "rendered_as": "wealth",
+          "semantic_range": "wealth, money, property, mammon",
+          "note": "An Aramaic loanword (mamona) that personifies wealth as a competing master. The modifier 'of unrighteousness' (tēs adikias) does not mean all wealth is evil but that wealth belongs to the present fallen age and must be used strategically for eternal purposes."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 10,
+      "text_greek": "ὁ πιστὸς ἐν ἐλαχίστῳ καὶ ἐν πολλῷ πιστός ἐστιν, καὶ ὁ ἐν ἐλαχίστῳ ἄδικος καὶ ἐν πολλῷ ἄδικός ἐστιν.",
+      "text_kjv": "He that is faithful in that which is least is faithful also in much: and he that is unjust in the least is unjust also in much.",
+      "rendering": "The one who is faithful in a very little is also faithful in much, and the one who is dishonest in a very little is also dishonest in much.",
+      "translator_notes": [
+        "This proverb establishes the principle that character is consistent across scale. Small responsibilities reveal the character that will govern large ones. The adjective elachistō ('very little, least') applied to wealth frames material possessions as the smallest arena of faithfulness — preparation for greater spiritual responsibilities."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 11,
+      "text_greek": "εἰ οὖν ἐν τῷ ἀδίκῳ μαμωνᾷ πιστοὶ οὐκ ἐγένεσθε, τὸ ἀληθινὸν τίς ὑμῖν πιστεύσει;",
+      "text_kjv": "If therefore ye have not been faithful in the unrighteous mammon, who will commit to your trust the true riches?",
+      "rendering": "If then you have not been faithful with unrighteous wealth, who will entrust to you the true riches?",
+      "translator_notes": [
+        "The contrast between adikō mamōna ('unrighteous wealth') and to alēthinon ('the true, genuine thing') is sharp. Material wealth is not the 'real' treasure — it is a test, a proving ground. Failure in this lesser arena disqualifies one from receiving the greater spiritual treasure. The question format (tis hymin pisteusei, 'who will entrust to you?') implies God as the one who evaluates and entrusts."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 12,
+      "text_greek": "καὶ εἰ ἐν τῷ ἀλλοτρίῳ πιστοὶ οὐκ ἐγένεσθε, τὸ ὑμέτερον τίς ὑμῖν δώσει;",
+      "text_kjv": "And if ye have not been faithful in that which is another man's, who shall give you that which is your own?",
+      "rendering": "And if you have not been faithful with what belongs to another, who will give you what is your own?",
+      "translator_notes": [
+        "The word allotriō ('another's, belonging to someone else') reframes all material wealth as borrowed — it belongs to God, and humans are stewards, not owners. The 'your own' (to hymeteron) refers to spiritual inheritance that becomes genuinely one's own. The implication is radical: everything material is on loan; only the spiritual treasure is truly yours."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 13,
+      "text_greek": "Οὐδεὶς οἰκέτης δύναται δυσὶ κυρίοις δουλεύειν· ἢ γὰρ τὸν ἕνα μισήσει καὶ τὸν ἕτερον ἀγαπήσει, ἢ ἑνὸς ἀνθέξεται καὶ τοῦ ἑτέρου καταφρονήσει. οὐ δύνασθε θεῷ δουλεύειν καὶ μαμωνᾷ.",
+      "text_kjv": "No servant can serve two masters: for either he will hate the one, and love the other; or else he will hold to the one, and despise the other. Ye cannot serve God and mammon.",
+      "rendering": "No servant can serve two masters, for either he will hate the one and love the other, or he will be devoted to the one and despise the other. You cannot serve God and money.\"",
+      "translator_notes": [
+        "Luke adds oiketēs ('household servant') to the saying found also in Matthew 6:24. The word douleuein ('to serve as a slave') implies total ownership — a slave cannot divide loyalty. The personification of mamōna as a competing kyrios ('master') is the climax of the wealth teaching: money is not neutral but a power that demands allegiance. The final statement is absolute: ou dynasthe ('you are not able') — this is not a recommendation but a declaration of impossibility."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 14,
+      "text_greek": "Ἤκουον δὲ ταῦτα πάντα οἱ Φαρισαῖοι φιλάργυροι ὑπάρχοντες καὶ ἐξεμυκτήριζον αὐτόν.",
+      "text_kjv": "And the Pharisees also, who were covetous, heard all these things: and they derided him.",
+      "rendering": "The Pharisees, who were lovers of money, heard all these things, and they ridiculed him.",
+      "translator_notes": [
+        "Luke's editorial comment — philargyroi ('lovers of money,' literally 'lovers of silver') — is pointed. The verb exemyktērizon ('ridiculed, sneered at,' literally 'turned up their noses') suggests contemptuous dismissal. Their mockery reveals that Jesus's teaching about wealth has struck a nerve."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 15,
+      "text_greek": "καὶ εἶπεν αὐτοῖς· Ὑμεῖς ἐστε οἱ δικαιοῦντες ἑαυτοὺς ἐνώπιον τῶν ἀνθρώπων, ὁ δὲ θεὸς γινώσκει τὰς καρδίας ὑμῶν· ὅτι τὸ ἐν ἀνθρώποις ὑψηλὸν βδέλυγμα ἐνώπιον τοῦ θεοῦ.",
+      "text_kjv": "And he said unto them, Ye are they which justify yourselves before men; but God knoweth your hearts: for that which is highly esteemed among men is abomination in the sight of God.",
+      "rendering": "He said to them, \"You are those who justify yourselves before people, but God knows your hearts. For what is exalted among people is an abomination in the sight of God.",
+      "translator_notes": [
+        "The phrase dikaiountes heautous ('justifying yourselves') means constructing a public reputation of righteousness. The word bdelygma ('abomination') is the strongest term of revulsion in biblical Greek — the same word used for the 'abomination of desolation' in Daniel 9:27 and Mark 13:14. What humans celebrate (wealth, status, prestige), God may find detestable. The reversal is total.",
+        "[TCR Cross-Reference] This verse quotes Daniel 9:27 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "key_terms": [
+        {
+          "greek": "βδέλυγμα",
+          "transliteration": "bdelygma",
+          "rendered_as": "abomination",
+          "semantic_range": "abomination, detestable thing, object of disgust",
+          "note": "Used in the Septuagint for idolatry and practices that violate the covenant. Its application here to wealth-based social status equates the love of money with idolatry."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 16,
+      "text_greek": "Ὁ νόμος καὶ οἱ προφῆται μέχρι Ἰωάννου· ἀπὸ τότε ἡ βασιλεία τοῦ θεοῦ εὐαγγελίζεται καὶ πᾶς εἰς αὐτὴν βιάζεται.",
+      "text_kjv": "The law and the prophets were until John: since that time the kingdom of God is preached, and every man presseth into it.",
+      "rendering": "The Law and the Prophets were until John; since then the good news of the kingdom of God is being proclaimed, and everyone is urged forcefully into it.",
+      "translator_notes": [
+        "This compressed saying divides salvation history: the era of 'the Law and the Prophets' extends to John the Baptist, after which the kingdom of God is actively proclaimed. The verb biazetai is ambiguous — it can mean 'everyone forces their way in' (middle voice) or 'everyone is being urged/pressed in' (passive). We render the passive sense, which fits Luke's theology of God's initiative, but the middle sense ('everyone is pressing into it eagerly') is also possible."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 17,
+      "text_greek": "Εὐκοπώτερον δέ ἐστιν τὸν οὐρανὸν καὶ τὴν γῆν παρελθεῖν ἢ τοῦ νόμου μίαν κεραίαν πεσεῖν.",
+      "text_kjv": "And it is easier for heaven and earth to pass, than one tittle of the law to fail.",
+      "rendering": "But it is easier for heaven and earth to pass away than for one stroke of a letter of the Law to fall.",
+      "translator_notes": [
+        "The keraia ('horn, stroke, serif') refers to the tiny decorative marks distinguishing similar Hebrew letters (such as beth and kaph). Jesus affirms the Law's enduring authority in the strongest possible terms — the cosmos will dissolve before the smallest detail of Torah fails. This statement prevents the previous verse from being read as abrogation of the Law."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 18,
+      "text_greek": "Πᾶς ὁ ἀπολύων τὴν γυναῖκα αὐτοῦ καὶ γαμῶν ἑτέραν μοιχεύει, καὶ ὁ ἀπολελυμένην ἀπὸ ἀνδρὸς γαμῶν μοιχεύει.",
+      "text_kjv": "Whosoever putteth away his wife, and marrieth another, committeth adultery: and whosoever marrieth her that is put away from her husband committeth adultery.",
+      "rendering": "Everyone who divorces his wife and marries another commits adultery, and the one who marries a woman divorced from her husband commits adultery.",
+      "translator_notes": [
+        "This saying, placed between statements about the Law's permanence and the Rich Man and Lazarus parable, may serve as a concrete example of the Law's enduring moral authority. The prohibition is absolute in Luke's version — no exception clause appears as in Matthew 19:9. The verb moicheuei ('commits adultery') applies to both scenarios."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 19,
+      "text_greek": "Ἄνθρωπος δέ τις ἦν πλούσιος, καὶ ἐνεδιδύσκετο πορφύραν καὶ βύσσον εὐφραινόμενος καθ' ἡμέραν λαμπρῶς.",
+      "text_kjv": "There was a certain rich man, which was clothed in purple and fine linen, and fared sumptuously every day:",
+      "rendering": "\"There was a rich man who was clothed in purple and fine linen, feasting sumptuously every day.",
+      "translator_notes": [
+        "The porphyran ('purple') was the most expensive dye in the ancient world, extracted from murex sea snails. The bysson ('fine linen') was imported Egyptian fabric. Together they represent extreme luxury. The phrase euphrainomenos kath' hēmeran lamprōs ('celebrating splendidly every day') means his entire life was one continuous feast — while Lazarus starved at his gate. The rich man is traditionally called 'Dives' (Latin for 'rich'), but the text never names him."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 20,
+      "text_greek": "πτωχὸς δέ τις ὀνόματι Λάζαρος ἐβέβλητο πρὸς τὸν πυλῶνα αὐτοῦ εἱλκωμένος",
+      "text_kjv": "And there was a certain beggar named Lazarus, which was laid at his gate, full of sores,",
+      "rendering": "And a poor man named Lazarus was laid at his gate, covered with sores,",
+      "translator_notes": [
+        "Lazarus (Lazaros) is the Greek form of the Hebrew Eleazar ('God helps') — the name itself is ironic, as no human helps him. He is the only named character in any of Jesus's parables, which may suggest a historical basis or may serve to personalize the poor man in contrast to the unnamed rich man. The passive ebeblēto ('had been placed, was lying') suggests he was too weak to position himself. The pylōna ('gate, entrance') implies a large, wealthy estate."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 21,
+      "text_greek": "καὶ ἐπιθυμῶν χορτασθῆναι ἀπὸ τῶν πιπτόντων ἀπὸ τῆς τραπέζης τοῦ πλουσίου· ἀλλὰ καὶ οἱ κύνες ἐρχόμενοι ἐπέλειχον τὰ ἕλκη αὐτοῦ.",
+      "text_kjv": "And desiring to be fed with the crumbs which fell from the rich man's table: moreover the dogs came and licked his sores.",
+      "rendering": "Longing to be nourished with the scraps that fell from the rich man's table — moreover the dogs arrived and licked his sores.",
+      "translator_notes": [
+        "The parallel with the prodigal son's hunger is deliberate (epithymōn chortasthēnai, 'longing to be fed' — cf. 15:16). But whereas the prodigal chose his degradation, Lazarus's suffering is involuntary. The dogs (kynes) are unclean street scavengers, not pets — their licking adds humiliation to misery. Whether Lazarus actually received the fallen scraps is left unclear; the text says he 'longed' for them."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 22,
+      "text_greek": "ἐγένετο δὲ ἀποθανεῖν τὸν πτωχὸν καὶ ἀπενεχθῆναι αὐτὸν ὑπὸ τῶν ἀγγέλων εἰς τὸν κόλπον Ἀβραάμ· ἀπέθανεν δὲ καὶ ὁ πλούσιος καὶ ἐτάφη.",
+      "text_kjv": "And it came to pass, that the beggar died, and was carried by the angels into Abraham's bosom: the rich man also died, and was buried.",
+      "rendering": "The poor man died and was carried by the angels to Abraham's side. The rich man also died and was buried.",
+      "translator_notes": [
+        "The contrast in death is stark: Lazarus is escorted by angels to 'Abraham's bosom' (ton kolpon Abraam) — the place of honor at the patriarchal feast, the position of the beloved guest reclining next to the host. The rich man simply 'died and was buried' (etaphē) — his funeral was presumably grand, but no angels attend him. The reversal from their earthly conditions has begun."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 23,
+      "text_greek": "καὶ ἐν τῷ ᾅδῃ ἐπάρας τοὺς ὀφθαλμοὺς αὐτοῦ, ὑπάρχων ἐν βασάνοις, ὁρᾷ Ἀβραὰμ ἀπὸ μακρόθεν καὶ Λάζαρον ἐν τοῖς κόλποις αὐτοῦ.",
+      "text_kjv": "And in hell he lift up his eyes, being in torments, and seeth Abraham afar off, and Lazarus in his bosom.",
+      "rendering": "And in Hades, being in torment, he lifted up his eyes and saw Abraham far off, and Lazarus at his side.",
+      "translator_notes": [
+        "The Greek hadēs corresponds to the Hebrew Sheol — the realm of the dead, not the later Christian concept of hell as a place of final punishment. In Jewish thought of this period, Hades contained both the righteous and the unrighteous in separate compartments. The rich man can see Abraham and Lazarus but cannot cross to them — proximity without access. The word basanois ('torments') originally referred to a touchstone for testing metals, then came to mean torture or torment."
+      ],
+      "key_terms": [
+        {
+          "greek": "ᾅδης",
+          "transliteration": "hadēs",
+          "rendered_as": "Hades",
+          "semantic_range": "Hades, the unseen realm, the abode of the dead",
+          "note": "The Greek equivalent of Hebrew Sheol. In this parable, it functions as the place of the unrighteous dead, distinct from Abraham's side where Lazarus rests. The imagery draws on Jewish intertestamental traditions about the afterlife."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 24,
+      "text_greek": "καὶ αὐτὸς φωνήσας εἶπεν· Πάτερ Ἀβραάμ, ἐλέησόν με καὶ πέμψον Λάζαρον ἵνα βάψῃ τὸ ἄκρον τοῦ δακτύλου αὐτοῦ ὕδατος καὶ καταψύξῃ τὴν γλῶσσάν μου, ὅτι ὀδυνῶμαι ἐν τῇ φλογὶ ταύτῃ.",
+      "text_kjv": "And he cried and said, Father Abraham, have mercy on me, and send Lazarus, that he may dip the tip of his finger in water, and cool my tongue; for I am tormented in this flame.",
+      "rendering": "And he called out, 'Father Abraham, have mercy on me, and send Lazarus to dip the tip of his finger in water and cool my tongue, for I am in anguish in this flame.'",
+      "translator_notes": [
+        "Even in Hades, the rich man treats Lazarus as a servant to be dispatched on errands — 'send Lazarus' (pempson Lazaron). He has learned Lazarus's name (he always knew who was at his gate) but has not grasped the reversal. The request for a finger-dip of water is pathetically minimal, measuring the depth of his suffering. The address 'Father Abraham' claims covenant identity — he considers himself Abraham's heir despite his behavior."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 25,
+      "text_greek": "εἶπεν δὲ Ἀβραάμ· Τέκνον, μνήσθητι ὅτι ἀπέλαβες τὰ ἀγαθά σου ἐν τῇ ζωῇ σου, καὶ Λάζαρος ὁμοίως τὰ κακά· νῦν δὲ ὧδε παρακαλεῖται σὺ δὲ ὀδυνᾶσαι.",
+      "text_kjv": "But Abraham said, Son, remember that thou in thy lifetime receivedst thy good things, and likewise Lazarus evil things: but now he is comforted, and thou art tormented.",
+      "rendering": "But Abraham said, 'Child, remember that you received your good things during your life, and Lazarus likewise bad things. But now he is comforted here, and you are in anguish.",
+      "translator_notes": [
+        "Abraham addresses him as teknon ('child') — acknowledging the covenant relationship while denying the request. The principle is reversal: ta agatha sou ('your good things') in life are spent; Lazarus's suffering is now compensated. The verb parakaleitai ('is comforted') is the same root as paraklētos ('comforter, advocate'). The reversal echoes the Beatitudes and Woes of Luke 6:20-26."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 26,
+      "text_greek": "καὶ ἐν πᾶσι τούτοις μεταξὺ ἡμῶν καὶ ὑμῶν χάσμα μέγα ἐστήρικται, ὅπως οἱ θέλοντες διαβῆναι ἔνθεν πρὸς ὑμᾶς μὴ δύνωνται, μηδὲ ἐκεῖθεν πρὸς ἡμᾶς διαπερῶσιν.",
+      "text_kjv": "And beside all this, between us and you there is a great gulf fixed: so that they which would pass from hence to you cannot; neither can they pass to us, that would come from thence.",
+      "rendering": "And besides all this, between us and you a great chasm has been fixed, so that those who want to cross from here to you cannot, nor can anyone cross from there to us.'",
+      "translator_notes": [
+        "The chasma mega ('great chasm') represents the irreversible finality of the afterlife condition. The perfect passive estēriktai ('has been fixed, established') indicates a permanent divine arrangement, not a temporary boundary. The impossibility of crossing in either direction means there is no post-mortem remedy — choices made in life determine one's eternal state."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 27,
+      "text_greek": "εἶπεν δέ· Ἐρωτῶ σε οὖν, πάτερ, ἵνα πέμψῃς αὐτὸν εἰς τὸν οἶκον τοῦ πατρός μου,",
+      "text_kjv": "Then he said, I pray thee therefore, father, that thou wouldest send him to my father's house:",
+      "rendering": "He said, 'Then I beg you, father, to send him to my father's house,",
+      "translator_notes": [
+        "The rich man's second request is to send Lazarus as a messenger — still treating him as an errand-runner. But the request also reveals that the rich man now understands something he failed to grasp in life: his choices had consequences, and his brothers are making the same ones."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 28,
+      "text_greek": "ἔχω γὰρ πέντε ἀδελφούς, ὅπως διαμαρτύρηται αὐτοῖς, ἵνα μὴ καὶ αὐτοὶ ἔλθωσιν εἰς τὸν τόπον τοῦτον τῆς βασάνου.",
+      "text_kjv": "For I have five brethren; that he may testify unto them, lest they also come into this place of torment.",
+      "rendering": "For I have five brothers and sisters. That he may testify to them, lest they also come into this location of torment.",
+      "translator_notes": [
+        "The five brothers suggest a large, wealthy family. The verb diamartyrētai ('warn, solemnly testify') is a compound verb intensifying the urgency. The 'place of torment' (topon touton tēs basanou) is the first time the rich man names his location. His compassion for his brothers, absent for Lazarus in life, arrives too late."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 29,
+      "text_greek": "λέγει δὲ Ἀβραάμ· Ἔχουσι Μωϋσέα καὶ τοὺς προφήτας· ἀκουσάτωσαν αὐτῶν.",
+      "text_kjv": "Abraham saith unto him, They have Moses and the prophets; let them hear them.",
+      "rendering": "But Abraham said, 'They have Moses and the Prophets; let them listen to them.'",
+      "translator_notes": [
+        "Abraham's response is that the existing revelation — the Torah ('Moses') and the Prophets — is sufficient. The Hebrew Scriptures already command justice for the poor, generosity to the needy, and compassion for the suffering (Deuteronomy 15:7-11; Isaiah 58:6-7; Amos 2:6-7). No additional supernatural sign is needed. The imperative akousatōsan ('let them hear, let them listen') echoes the Shema (Deuteronomy 6:4) and the repeated refrain 'let him hear' from the parables.",
+        "[TCR Cross-Reference] Echoes Deuteronomy 15:7-11. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale.",
+        "[TCR Cross-Reference] Echoes Isaiah 58:6-7. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale.",
+        "[TCR Cross-Reference] Echoes Amos 2:6-7. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale.",
+        "[TCR Cross-Reference] Echoes Deuteronomy 6:4. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 30,
+      "text_greek": "ὁ δὲ εἶπεν· Οὐχί, πάτερ Ἀβραάμ, ἀλλ' ἐάν τις ἀπὸ νεκρῶν πορευθῇ πρὸς αὐτοὺς μετανοήσουσιν.",
+      "text_kjv": "And he said, Nay, father Abraham: but if one went unto them from the dead, they will repent.",
+      "rendering": "He said, 'No, father Abraham, but if someone goes to them from the dead, they will repent.'",
+      "translator_notes": [
+        "The rich man contradicts Abraham — ouchi ('No!') — insisting that a supernatural visitor from the dead would succeed where Scripture has failed. His assumption is that the problem is insufficient evidence, not hardness of heart. The verb metanoēsousin ('they will repent') is confident but mistaken, as the next verse will make clear."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 31,
+      "text_greek": "εἶπεν δὲ αὐτῷ· Εἰ Μωϋσέως καὶ τῶν προφητῶν οὐκ ἀκούουσιν, οὐδ' ἐάν τις ἐκ νεκρῶν ἀναστῇ πεισθήσονται.",
+      "text_kjv": "And he said unto him, If they hear not Moses and the prophets, neither will they be persuaded, though one rose from the dead.",
+      "rendering": "He said to him, 'If they do not listen to Moses and the Prophets, neither will they be convinced even if someone rises from the dead.'\"",
+      "translator_notes": [
+        "Abraham's final word is devastating in its irony. The verb anastē ('rises,' from anistēmi, the standard word for resurrection) points beyond the parable to Jesus's own resurrection — and the fact that many still did not believe even after it occurred (cf. Acts 4:1-2; 17:32). The verb peisthēsontai ('they will be convinced, persuaded') suggests that the problem is not evidence but willingness. Those who ignore the witness of Scripture will not be moved by miracles. The parable ends on this note of solemn warning: no sign can substitute for listening to what God has already spoken."
+      ],
+      "reading_level": "8th grade"
+    }
+  ]
+}

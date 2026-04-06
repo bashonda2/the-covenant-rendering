@@ -1,0 +1,583 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Luke",
+    "chapter": 2,
+    "source_text": "SBL Greek New Testament (SBLGNT)",
+    "reference_text": "KJV",
+    "generated_at": "2026-04-04T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Luke 2 narrates the birth of Jesus in Bethlehem during a Roman census under Augustus, the angelic announcement to shepherds, the presentation of the infant Jesus at the Jerusalem temple where Simeon and Anna recognize him as the promised Messiah, and a childhood episode where the twelve-year-old Jesus is found teaching in the temple. The chapter contains the Gloria in Excelsis (the angels' song, v. 14) and the Nunc Dimittis (Simeon's prayer, vv. 29-32), both rendered as poetry.",
+    "remarkable": "Luke alone sets the birth of Jesus within the framework of Roman imperial history — the census of Augustus becomes the mechanism by which Davidic prophecy is fulfilled (Micah 5:2). The announcement comes to shepherds, the lowest rung of society, not to priests or rulers. Simeon's Nunc Dimittis introduces the universal scope of salvation ('a light for revelation to the Gentiles') alongside its Jewish fulfillment ('glory for your people Israel'). Anna, one of only a few named female prophets in the Bible, confirms Simeon's testimony. The chapter ends with the only canonical account of Jesus's childhood.",
+    "friction": "The census under Quirinius (v. 2) presents a well-known historical difficulty — Quirinius's known census occurred in AD 6, after Herod's death (4 BC). Scholars have proposed various solutions; we render the Greek as given without harmonizing. The phrase 'firstborn son' (v. 7) describes birth order, not a claim about subsequent children. The 'manger' (phatne) could refer to a feeding trough or an animal stall. We render transparently and note the range.",
+    "connections": "The Bethlehem birth fulfills Micah 5:2. The shepherds connect to David's own origins as a Bethlehem shepherd (1 Samuel 16). Simeon's language draws on Isaiah 42:6, 49:6 (light to the nations), and Isaiah 52:10 (salvation before all peoples). The temple presentation follows Exodus 13:2, 12 and Leviticus 12:1-8. Jesus in the temple at age twelve anticipates his adult ministry and echoes Samuel's temple childhood (1 Samuel 2-3).\n\n**Tradition comparisons:** The Latin Vulgate shaped Western theology here: Gloria in excelsis Deo became the Greater Doxology of the Latin Mass, sung at virtually every Sunday and feast-day Eucharist. Hominibus bonae voluntatis (to men of good will) was theologically signifi... (3 notable Vulgate renderings in this chapter) See the [Vulgate Luke](/vulgate/luke)."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_greek": "Ἐγένετο δὲ ἐν ταῖς ἡμέραις ἐκείναις ἐξῆλθεν δόγμα παρὰ Καίσαρος Αὐγούστου ἀπογράφεσθαι πᾶσαν τὴν οἰκουμένην.",
+      "text_kjv": "And it came to pass in those days, that there went out a decree from Caesar Augustus that all the world should be taxed.",
+      "rendering": "In those days a decree went out from Caesar Augustus that the whole empire should be registered.",
+      "translator_notes": [
+        "The Greek oikoumene ('the inhabited world') refers in practice to the Roman Empire. The verb apographesthai ('to be registered, to be enrolled') refers to a census for taxation purposes, not taxation itself — the KJV's 'taxed' is misleading. Luke frames the birth of the true King within the imperial machinery of a false one — Augustus claimed divine titles (son of god, savior, bringer of peace) that Luke will attribute to Jesus."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 2,
+      "text_greek": "αὕτη ἀπογραφὴ πρώτη ἐγένετο ἡγεμονεύοντος τῆς Συρίας Κυρηνίου.",
+      "text_kjv": "And this taxing was first made when Cyrenius was governor of Syria.",
+      "rendering": "This was the first registration, taken when Quirinius was governing Syria.",
+      "translator_notes": [
+        "The Greek haute apographe prote ('this registration was the first') could also be rendered 'this registration took place before Quirinius was governing Syria' (taking prote as 'before' with a genitive absolute, as in John 15:18). The standard reading identifies this as the first of its kind under Quirinius. The historical difficulty — Quirinius's documented census was in AD 6-7, after Herod's death — remains unresolved among scholars. Luke may be referring to an earlier administrative role of Quirinius not otherwise attested."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 3,
+      "text_greek": "καὶ ἐπορεύοντο πάντες ἀπογράφεσθαι, ἕκαστος εἰς τὴν ἑαυτοῦ πόλιν.",
+      "text_kjv": "And all went to be taxed, every one into his own city.",
+      "rendering": "So everyone went to be registered, each to his own city.",
+      "translator_notes": [
+        "Registration at one's ancestral city (rather than place of residence) reflects either a Jewish or Egyptian census practice — Roman censuses typically registered people where they lived. Luke presents this as the mechanism by which Joseph, a Galilean resident, must travel to Bethlehem, fulfilling the Davidic birthplace prophecy."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 4,
+      "text_greek": "Ἀνέβη δὲ καὶ Ἰωσὴφ ἀπὸ τῆς Γαλιλαίας ἐκ πόλεως Ναζαρὲθ εἰς τὴν Ἰουδαίαν εἰς πόλιν Δαυὶδ ἥτις καλεῖται Βηθλέεμ, διὰ τὸ εἶναι αὐτὸν ἐξ οἴκου καὶ πατριᾶς Δαυίδ,",
+      "text_kjv": "And Joseph also went up from Galilee, out of the city of Nazareth, into Judaea, unto the city of David, which is called Bethlehem; (because he was of the house and lineage of David:)",
+      "rendering": "Joseph also went up from Galilee, from the city of Nazareth, to Judea, to the city of David called Bethlehem, because he was of the house and family of David,",
+      "translator_notes": [
+        "The verb anebe ('went up') is geographically literal — Bethlehem is at a higher elevation than Nazareth, and one always 'goes up' to Judea from Galilee. 'City of David' (polin Dauid) identifies Bethlehem as David's birthplace (1 Samuel 16:1, 17:12), distinct from Jerusalem, which is also called 'the city of David' (2 Samuel 5:7). Luke establishes Davidic lineage through Joseph, the legal father.",
+        "[TCR Cross-Reference] Echoes 1 Samuel 16:1. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale.",
+        "[TCR Cross-Reference] Echoes 2 Samuel 5:7. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 5,
+      "text_greek": "ἀπογράψασθαι σὺν Μαριὰμ τῇ ἐμνηστευμένῃ αὐτῷ, οὔσῃ ἐγκύῳ.",
+      "text_kjv": "To be taxed with Mary his espoused wife, being great with child.",
+      "rendering": "Indeed, to be taxed with Mary his espoused wife, being remarkable with child.",
+      "translator_notes": [
+        "The Greek emnesteuomene ('pledged in marriage, betrothed') is the same term used in 1:27. Luke does not say 'his wife' here (some manuscripts add gynaiki, 'wife,' but the SBLGNT does not include it). The phrase ouse enkuo ('being pregnant') states the fact directly. The journey from Nazareth to Bethlehem — approximately 80-90 miles — would have been arduous for a woman near full term."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 6,
+      "text_greek": "ἐγένετο δὲ ἐν τῷ εἶναι αὐτοὺς ἐκεῖ ἐπλήσθησαν αἱ ἡμέραι τοῦ τεκεῖν αὐτήν,",
+      "text_kjv": "And so it was, that, while they were there, the days were accomplished that she should be delivered.",
+      "rendering": "While they were there, the time came for her to give birth.",
+      "translator_notes": [
+        "The phrase eplesthesan hai hemerai ('the days were fulfilled') uses the same fullness-of-time language seen in 1:57 for Elizabeth. The narrative is compressed — Luke does not specify how long they had been in Bethlehem before the birth. God's timing moves through the machinery of Roman bureaucracy to fulfill ancient prophecy."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 7,
+      "text_greek": "καὶ ἔτεκεν τὸν υἱὸν αὐτῆς τὸν πρωτότοκον, καὶ ἐσπαργάνωσεν αὐτὸν καὶ ἀνέκλινεν αὐτὸν ἐν φάτνῃ, διότι οὐκ ἦν αὐτοῖς τόπος ἐν τῷ καταλύματι.",
+      "text_kjv": "And she brought forth her firstborn son, and wrapped him in swaddling clothes, and laid him in a manger; because there was no room for them in the inn.",
+      "rendering": "She gave birth to her firstborn son, wrapped him in strips of cloth, and laid him in a feeding trough, because there was no room for them in the guest quarters.",
+      "translator_notes": [
+        "The Greek prototokos ('firstborn') is a legal and cultural designation indicating rights and status, not necessarily implying subsequent children. The verb esparganosen ('wrapped in swaddling bands') describes the ancient practice of tightly wrapping a newborn in strips of cloth. The Greek phatne ('manger, feeding trough') is where animals eat — the word itself emphasizes the humble circumstances. The Greek katalyma ('guest room, lodging') is not the word for a commercial inn (pandocheion, which Luke uses in 10:34); it likely refers to the guest room of a private home, which was already occupied."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 8,
+      "text_greek": "Καὶ ποιμένες ἦσαν ἐν τῇ χώρᾳ τῇ αὐτῇ ἀγραυλοῦντες καὶ φυλάσσοντες φυλακὰς τῆς νυκτὸς ἐπὶ τὴν ποίμνην αὐτῶν.",
+      "text_kjv": "And there were in the same country shepherds abiding in the field, keeping watch over their flock by night.",
+      "rendering": "In that same region there were shepherds living out in the fields, keeping watch over their flock by night.",
+      "translator_notes": [
+        "The Greek agraulountes ('living in the fields, camping out') indicates these shepherds were sleeping outdoors with their flocks, not merely working during the day. Shepherds occupied one of the lowest social positions — they were considered unreliable as legal witnesses and were often suspected of grazing their flocks on others' land. That God's announcement comes to them first is theologically significant for Luke's Gospel, which consistently elevates the lowly."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 9,
+      "text_greek": "καὶ ἄγγελος κυρίου ἐπέστη αὐτοῖς καὶ δόξα κυρίου περιέλαμψεν αὐτούς, καὶ ἐφοβήθησαν φόβον μέγαν.",
+      "text_kjv": "And, lo, the angel of the Lord came upon them, and the glory of the Lord shone round about them: and they were sore afraid.",
+      "rendering": "An angel of the Lord stood before them, and the glory of the Lord shone around them, and they were terrified.",
+      "translator_notes": [
+        "The verb epeste ('stood before, appeared suddenly') indicates a sudden, startling appearance. The 'glory of the Lord' (doxa kyriou) is the visible manifestation of God's presence — the same term used for the cloud that filled the tabernacle (Exodus 40:34) and Solomon's temple (1 Kings 8:11). The phrase ephobethesav phobon megan (literally 'they feared a great fear') is a Semitic intensifying construction indicating extreme terror.",
+        "[TCR Cross-Reference] Echoes Exodus 40:34. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale.",
+        "[TCR Cross-Reference] Echoes 1 Kings 8:11. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 10,
+      "text_greek": "καὶ εἶπεν αὐτοῖς ὁ ἄγγελος· Μὴ φοβεῖσθε, ἰδοὺ γὰρ εὐαγγελίζομαι ὑμῖν χαρὰν μεγάλην ἥτις ἔσται παντὶ τῷ λαῷ,",
+      "text_kjv": "And the angel said unto them, Fear not: for, behold, I bring you good tidings of great joy, which shall be to all people.",
+      "rendering": "The angel said to them, \"Do not be afraid, for I bring you good news of great joy that will be for all the people.",
+      "translator_notes": [
+        "The verb euangelizomai ('I bring good news, I announce gospel') is the same verb used of Gabriel's announcement to Zechariah (1:19). The 'great joy' (charan megalen) echoes the joy theme from chapter 1 (1:14, 44, 47). 'All the people' (panti to lao) in context refers primarily to Israel, though Luke's Gospel will extend this joy to all nations."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 11,
+      "text_greek": "ὅτι ἐτέχθη ὑμῖν σήμερον σωτὴρ ὅς ἐστιν χριστὸς κύριος ἐν πόλει Δαυίδ.",
+      "text_kjv": "For unto you is born this day in the city of David a Saviour, which is Christ the Lord.",
+      "rendering": "For today in the city of David a Savior has been born for you, who is Christ the Lord.",
+      "translator_notes": [
+        "Three titles are stacked: soter ('Savior'), christos ('Christ/Messiah'), and kyrios ('Lord'). Each would have carried enormous weight. 'Savior' was a title used for Augustus Caesar; 'Christ' is the Greek form of Hebrew mashiach; 'Lord' (kyrios) is the Septuagint's standard rendering of YHWH. The combination 'Christ the Lord' (christos kyrios) is unique in the New Testament and may echo the Psalms of Solomon 17:32, a Jewish messianic text. The announcement to shepherds in the city of David is richly ironic — David was himself a shepherd from Bethlehem."
+      ],
+      "key_terms": [
+        {
+          "greek": "σωτήρ",
+          "transliteration": "soter",
+          "rendered_as": "Savior",
+          "semantic_range": "savior, deliverer, rescuer, preserver",
+          "note": "A title used in the imperial cult for the emperor and in the Septuagint for God (cf. Isaiah 45:15, 21). Luke's use deliberately contrasts the true Savior with the Roman claimant."
+        },
+        {
+          "greek": "χριστὸς κύριος",
+          "transliteration": "christos kyrios",
+          "rendered_as": "Christ the Lord",
+          "semantic_range": "anointed one who is Lord; Messiah who is master/sovereign",
+          "note": "This unique combination piles messianic and divine titles together. In the Septuagint, kyrios translates both YHWH and adonai. Applied to the newborn, it makes an extraordinary christological claim."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 12,
+      "text_greek": "καὶ τοῦτο ὑμῖν τὸ σημεῖον, εὑρήσετε βρέφος ἐσπαργανωμένον καὶ κείμενον ἐν φάτνῃ.",
+      "text_kjv": "And this shall be a sign unto you; Ye shall find the babe wrapped in swaddling clothes, lying in a manger.",
+      "rendering": "And this will be the sign for you: you will find a baby wrapped in strips of cloth and lying in a feeding trough.\"",
+      "translator_notes": [
+        "The 'sign' (semeion) is deliberately humble — not a cosmic portent but a baby in a feeding trough. The sign confirms the message by its very ordinariness combined with its specificity. The juxtaposition of the exalted titles (Savior, Christ, Lord) with the humble sign (a wrapped infant in an animal's feeding trough) is one of the most powerful contrasts in the New Testament."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 13,
+      "text_greek": "καὶ ἐξαίφνης ἐγένετο σὺν τῷ ἀγγέλῳ πλῆθος στρατιᾶς οὐρανίου αἰνούντων τὸν θεὸν καὶ λεγόντων·",
+      "text_kjv": "And suddenly there was with the angel a multitude of the heavenly host praising God, and saying,",
+      "rendering": "And suddenly there appeared with the angel a multitude of the heavenly army, praising God and saying,",
+      "translator_notes": [
+        "The Greek stratias ouraniou ('heavenly army, heavenly host') is a military term — these are not gentle cherubs but the army of heaven. The same phrase is used in the Septuagint for the 'host of heaven' (tseva hashamayim) that surrounds God's throne. Their appearance 'suddenly' (exaiphnes) emphasizes the supernatural character of the event."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 14,
+      "text_greek": "Δόξα ἐν ὑψίστοις θεῷ καὶ ἐπὶ γῆς εἰρήνη ἐν ἀνθρώποις εὐδοκίας.",
+      "text_kjv": "Glory to God in the highest, and on earth peace, good will toward men.",
+      "rendering": "\"Glory to God in the highest heaven,\nand on earth peace among those on whom his favor rests.\"",
+      "translator_notes": [
+        "The Gloria in Excelsis is structured in two parallel lines: heaven/earth, God/humanity. The Greek en anthropois eudokias ('among people of [his] favor/good pleasure') follows the SBLGNT reading with the genitive eudokias rather than the nominative eudokia. This means 'among those whom God favors' rather than 'good will toward people.' The Dead Sea Scrolls use similar language — 'sons of his good pleasure' (benei retsono). 'Peace' (eirene) corresponds to the Hebrew shalom — the full vision of wholeness and flourishing that the Messiah brings."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 15,
+      "text_greek": "Καὶ ἐγένετο ὡς ἀπῆλθον ἀπ' αὐτῶν εἰς τὸν οὐρανὸν οἱ ἄγγελοι, οἱ ποιμένες ἐλάλουν πρὸς ἀλλήλους· Διέλθωμεν δὴ ἕως Βηθλέεμ καὶ ἴδωμεν τὸ ῥῆμα τοῦτο τὸ γεγονὸς ὃ ὁ κύριος ἐγνώρισεν ἡμῖν.",
+      "text_kjv": "And it came to pass, as the angels were gone away from them into heaven, the shepherds said one to another, Let us now go even unto Bethlehem, and see this thing which is come to pass, which the Lord hath made known unto us.",
+      "rendering": "When the angels had gone away from them into heaven, the shepherds said to one another, \"Let us go over to Bethlehem and see this thing that has happened, which the Lord has made known to us.\"",
+      "translator_notes": [
+        "The Greek rhema ('word, thing, event') again carries the dual meaning of word and event — what God has spoken has become an event they can go and see. The shepherds' immediate response echoes the pattern of faith-in-action seen in Mary (1:38) and Joseph (Matthew 1:24). The verb egnorisen ('has made known, has revealed') emphasizes that this is divine disclosure, not human discovery."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 16,
+      "text_greek": "καὶ ἦλθαν σπεύσαντες καὶ ἀνεῦραν τήν τε Μαριὰμ καὶ τὸν Ἰωσὴφ καὶ τὸ βρέφος κείμενον ἐν τῇ φάτνῃ·",
+      "text_kjv": "And they came with haste, and found Mary, and Joseph, and the babe lying in a manger.",
+      "rendering": "They hurried off and found Mary and Joseph, and the baby lying in the feeding trough.",
+      "translator_notes": [
+        "The verb speusantes ('having hurried') shows the urgency of their response — like Mary's haste to visit Elizabeth (1:39). The verb aneuran ('found, discovered after searching') suggests some effort was required to locate them. The order 'Mary and Joseph' places Mary first, consistent with Luke's emphasis on her role throughout the birth narrative."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 17,
+      "text_greek": "ἰδόντες δὲ ἐγνώρισαν περὶ τοῦ ῥήματος τοῦ λαληθέντος αὐτοῖς περὶ τοῦ παιδίου τούτου.",
+      "text_kjv": "And when they had seen it, they made known abroad the saying which was told them concerning this child.",
+      "rendering": "When they had seen this, they made known what had been told them about this child.",
+      "translator_notes": [
+        "The shepherds become the first evangelists — they 'made known' (egnorisan) the message, using the same verb used of God's disclosure to them (v. 15). The pattern is clear: God reveals, recipients believe, and believers proclaim. The shepherds are transformed from passive recipients of a message to active proclaimers of it."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 18,
+      "text_greek": "καὶ πάντες οἱ ἀκούσαντες ἐθαύμασαν περὶ τῶν λαληθέντων ὑπὸ τῶν ποιμένων πρὸς αὐτούς·",
+      "text_kjv": "And all they that heard it wondered at those things which were told them by the shepherds.",
+      "rendering": "And all who heard it were amazed at what the shepherds told them.",
+      "translator_notes": [
+        "The verb ethaumasan ('were amazed, were astonished') describes the natural response to extraordinary news. Luke frequently notes the amazement of crowds (cf. 1:63, 4:22, 8:25, 9:43, 11:14). The response is wonder but not yet faith — amazement is a starting point, not an endpoint."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 19,
+      "text_greek": "ἡ δὲ Μαρία πάντα συνετήρει τὰ ῥήματα ταῦτα συμβάλλουσα ἐν τῇ καρδίᾳ αὐτῆς.",
+      "text_kjv": "But Mary kept all these things, and pondered them in her heart.",
+      "rendering": "But Mary treasured all these things, pondering them in her heart.",
+      "translator_notes": [
+        "The verb syneterei ('was keeping safe, was treasuring') implies careful preservation. The verb symballousa ('pondering, putting together, comparing') suggests active reflection — Mary is connecting the dots between Gabriel's announcement, Elizabeth's prophecy, and now the shepherds' report. This verse (and its parallel in v. 51) has been seen as a possible indication that Luke's source for the birth narrative was Mary herself."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 20,
+      "text_greek": "καὶ ὑπέστρεψαν οἱ ποιμένες δοξάζοντες καὶ αἰνοῦντες τὸν θεὸν ἐπὶ πᾶσιν οἷς ἤκουσαν καὶ εἶδον καθὼς ἐλαλήθη πρὸς αὐτοῖς.",
+      "text_kjv": "And the shepherds returned, glorifying and praising God for all the things that they had heard and seen, as it was told unto them.",
+      "rendering": "The shepherds returned, glorifying and praising God for everything they had heard and seen, just as it had been told them.",
+      "translator_notes": [
+        "The phrase 'just as it had been told them' (kathos elalethe pros autois) confirms the exact fulfillment of the angelic sign — they found everything precisely as described. The shepherds' response of glorifying and praising God becomes a model for the proper response to encountering God's salvation in Luke's Gospel."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 21,
+      "text_greek": "Καὶ ὅτε ἐπλήσθησαν ἡμέραι ὀκτὼ τοῦ περιτεμεῖν αὐτόν, καὶ ἐκλήθη τὸ ὄνομα αὐτοῦ Ἰησοῦς, τὸ κληθὲν ὑπὸ τοῦ ἀγγέλου πρὸ τοῦ συλλημφθῆναι αὐτὸν ἐν τῇ κοιλίᾳ.",
+      "text_kjv": "And when eight days were accomplished for the circumcising of the child, his name was called JESUS, which was so named of the angel before he was conceived in the womb.",
+      "rendering": "When eight days had passed and it was time for his circumcision, he was named Jesus — the name given by the angel before he was conceived in the womb.",
+      "translator_notes": [
+        "As with John (1:59), circumcision and naming occur on the eighth day (Genesis 17:12, Leviticus 12:3). Luke emphasizes that the name was divinely given (through the angel, 1:31) before conception — the child's identity and mission were established before his existence. The name Iesous (Jesus/Yeshua, 'the LORD saves') is now formally conferred.",
+        "[TCR Cross-Reference] Quotes Genesis 17:12. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it.",
+        "[TCR Cross-Reference] Quotes Leviticus 12:3. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 22,
+      "text_greek": "Καὶ ὅτε ἐπλήσθησαν αἱ ἡμέραι τοῦ καθαρισμοῦ αὐτῶν κατὰ τὸν νόμον Μωϋσέως, ἀνήγαγον αὐτὸν εἰς Ἱεροσόλυμα παραστῆσαι τῷ κυρίῳ,",
+      "text_kjv": "And when the days of her purification according to the law of Moses were accomplished, they brought him to Jerusalem, to present him to the Lord;",
+      "rendering": "When the time required for her purification as the law of Moses required was completed, they brought him to Jerusalem, to dedicate him to the Lord;.",
+      "translator_notes": [
+        "The SBLGNT reads auton ('their') rather than autes ('her'), though the purification ritual in Leviticus 12 applies specifically to the mother. Luke may use 'their' to include the family's broader obligation or to connect the purification with the presentation of the firstborn. The purification period for a male child was forty days (Leviticus 12:2-4). 'Present him to the Lord' reflects Exodus 13:2, 12 — every firstborn male belongs to God.",
+        "[TCR Cross-Reference] Draws on Leviticus 12. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices.",
+        "[TCR Cross-Reference] Draws on Exodus 13:2. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 23,
+      "text_greek": "καθὼς γέγραπται ἐν νόμῳ κυρίου ὅτι Πᾶν ἄρσεν διανοῖγον μήτραν ἅγιον τῷ κυρίῳ κληθήσεται,",
+      "text_kjv": "(As it is written in the law of the Lord, Every male that openeth the womb shall be called holy to the Lord;)",
+      "rendering": "(As it is written in the law of the Lord, Every male that openeth the womb will be known as holy to the Lord;).",
+      "translator_notes": [
+        "This quotation draws on Exodus 13:2, 12, 15. The phrase 'opens the womb' (dianoigon metran) is the standard biblical idiom for a firstborn child. The consecration of the firstborn to God commemorates the Passover, when God spared Israel's firstborn in Egypt. The irony for Luke's reader is rich — this child who is 'called holy to the Lord' is in fact the Lord's own Son.",
+        "[TCR Cross-Reference] References Exodus 13:2 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 24,
+      "text_greek": "καὶ τοῦ δοῦναι θυσίαν κατὰ τὸ εἰρημένον ἐν τῷ νόμῳ κυρίου, ζεῦγος τρυγόνων ἢ δύο νοσσοὺς περιστερῶν.",
+      "text_kjv": "And to offer a sacrifice according to that which is said in the law of the Lord, A pair of turtledoves, or two young pigeons.",
+      "rendering": "Or two young pigeons, to offer a sacrifice according to that which is said in the law of the Lord, A pair of turtledoves.",
+      "translator_notes": [
+        "The offering of birds rather than a lamb (Leviticus 12:8) is the provision for families too poor to afford the standard offering of a lamb plus a pigeon. This detail quietly establishes the family's economic status — Jesus is born into poverty. The same law that allows the poor person's offering is the one Mary and Joseph follow, and Luke notes it without comment.",
+        "[TCR Cross-Reference] Echoes Leviticus 12:8. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 25,
+      "text_greek": "Καὶ ἰδοὺ ἄνθρωπος ἦν ἐν Ἰερουσαλὴμ ᾧ ὄνομα Συμεών, καὶ ὁ ἄνθρωπος οὗτος δίκαιος καὶ εὐλαβής, προσδεχόμενος παράκλησιν τοῦ Ἰσραήλ, καὶ πνεῦμα ἦν ἅγιον ἐπ' αὐτόν·",
+      "text_kjv": "And, behold, there was a man in Jerusalem, whose name was Simeon; and the same man was just and devout, waiting for the consolation of Israel: and the Holy Ghost was upon him.",
+      "rendering": "Now there was a man in Jerusalem named Simeon. This man was righteous and devout, waiting for the consolation of Israel, and the Holy Spirit was upon him.",
+      "translator_notes": [
+        "Simeon is described with four characteristics: dikaios ('righteous' — covenant faithfulness), eulabes ('devout, reverent' — careful in religious observance), prosdechomenos paraklesis tou Israel ('waiting for the consolation of Israel' — messianic expectation), and Spirit-empowered. 'The consolation of Israel' (paraklesis tou Israel) draws on Isaiah 40:1 ('Comfort, comfort my people') — the promised end of exile and restoration of God's people.",
+        "[TCR Cross-Reference] This verse quotes Isaiah 40:1 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 26,
+      "text_greek": "καὶ ἦν αὐτῷ κεχρηματισμένον ὑπὸ τοῦ πνεύματος τοῦ ἁγίου μὴ ἰδεῖν θάνατον πρὶν ἢ ἂν ἴδῃ τὸν χριστὸν κυρίου.",
+      "text_kjv": "And it was revealed unto him by the Holy Ghost, that he should not see death, before he had seen the Lord's Christ.",
+      "rendering": "It had been revealed to him by the Holy Spirit that he would not see death before he had seen the Lord's Christ.",
+      "translator_notes": [
+        "The Greek kechrematismenon ('had been divinely warned, had received an oracle') is a technical term for divine communication, often through dreams or oracles. 'The Lord's Christ' (ton christon kyriou) corresponds to the Hebrew mashiach YHWH ('the LORD's anointed'), the specific title for the Davidic king chosen by God (cf. 1 Samuel 24:6, 26:9, 2 Samuel 1:14). Simeon has received a personal promise that he will live to see the Messiah.",
+        "[TCR Cross-Reference] Quotes 1 Samuel 24:6. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it.",
+        "[TCR Cross-Reference] Quotes 2 Samuel 1:14. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 27,
+      "text_greek": "καὶ ἦλθεν ἐν τῷ πνεύματι εἰς τὸ ἱερόν· καὶ ἐν τῷ εἰσαγαγεῖν τοὺς γονεῖς τὸ παιδίον Ἰησοῦν τοῦ ποιῆσαι αὐτοὺς κατὰ τὸ εἰθισμένον τοῦ νόμου περὶ αὐτοῦ,",
+      "text_kjv": "And he came by the Spirit into the temple: and when the parents brought in the child Jesus, to do for him after the custom of the law,",
+      "rendering": "Guided by the Spirit, he came into the temple courts. When the parents brought in the child Jesus to do for him what was customary under the law,",
+      "translator_notes": [
+        "The phrase en to pneumati ('in the Spirit, by the Spirit') indicates Spirit-directed action — Simeon did not come to the temple by coincidence but by divine leading. Luke calls Joseph and Mary 'the parents' (tous goneis), a natural designation that does not contradict the virgin birth but reflects the social and legal reality. The meeting appears coincidental but is orchestrated by the Spirit."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 28,
+      "text_greek": "καὶ αὐτὸς ἐδέξατο αὐτὸ εἰς τὰς ἀγκάλας καὶ εὐλόγησεν τὸν θεὸν καὶ εἶπεν·",
+      "text_kjv": "Then took he him up in his arms, and blessed God, and said,",
+      "rendering": "Simeon took him in his arms and blessed God, saying,",
+      "translator_notes": [
+        "The verb edexato ('received, took, welcomed') combined with 'into his arms' (eis tas ankalas) creates a tender image — an elderly man cradling a newborn. His first response is to bless God (eulogesen ton theon), not to bless the child, acknowledging that this moment is God's gift to him."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 29,
+      "text_greek": "Νῦν ἀπολύεις τὸν δοῦλόν σου, δέσποτα, κατὰ τὸ ῥῆμά σου ἐν εἰρήνῃ·",
+      "text_kjv": "Lord, now lettest thou thy servant depart in peace, according to thy word:",
+      "rendering": "\"Now, Master, you are releasing your servant in peace,\naccording to your word,",
+      "translator_notes": [
+        "The Nunc Dimittis (vv. 29-32), named from the Latin 'now you dismiss,' is Simeon's prayer of departure. The address despota ('Master, Sovereign') is stronger than kyrios — it implies absolute authority, as of a master over a slave. The verb apolyeis ('you are releasing, you are dismissing') uses language of freeing a slave or sentinel from duty. Simeon views his life as a watch that is now fulfilled — he can die in peace because he has seen what God promised."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 30,
+      "text_greek": "ὅτι εἶδον οἱ ὀφθαλμοί μου τὸ σωτήριόν σου,",
+      "text_kjv": "For mine eyes have seen thy salvation,",
+      "rendering": "Because mine eyes have seen your salvation,.",
+      "translator_notes": [
+        "The Greek soterion ('salvation, saving act') is not abstract — Simeon has seen it embodied in a six-week-old infant. The phrase echoes Isaiah 52:10, 'All the ends of the earth shall see the salvation of our God.' What Simeon holds in his arms is what Isaiah prophesied the nations would witness.",
+        "[TCR Cross-Reference] This verse quotes Isaiah 52:10 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 31,
+      "text_greek": "ὃ ἡτοίμασας κατὰ πρόσωπον πάντων τῶν λαῶν,",
+      "text_kjv": "Which thou hast prepared before the face of all people;",
+      "rendering": "Which you have prepared before the face of all people.",
+      "translator_notes": [
+        "The phrase kata prosopon panton ton laon ('before the face of all peoples') is crucial — the plural 'peoples' (laon) extends salvation beyond Israel to all nations. This universalism echoes Isaiah 52:10 and prepares for the explicit statement in the next verse. Simeon's horizon is not merely Jewish but global.",
+        "[TCR Cross-Reference] Quotes Isaiah 52:10. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 32,
+      "text_greek": "φῶς εἰς ἀποκάλυψιν ἐθνῶν καὶ δόξαν λαοῦ σου Ἰσραήλ.",
+      "text_kjv": "A light to lighten the Gentiles, and the glory of thy people Israel.",
+      "rendering": "A light to lighten the Gentiles, and the glory of your those present Israel.",
+      "translator_notes": [
+        "The two parallel lines define salvation's dual scope: 'light for revelation to the Gentiles' (drawing on Isaiah 42:6 and 49:6, the Servant Songs) and 'glory to your people Israel.' The Greek ethnon ('nations, Gentiles') is placed first — a striking priority in a Jewish prayer. The 'light' imagery echoes Isaiah 9:2 and the Benedictus (1:78-79). Luke's Gospel will develop both dimensions — salvation for Israel and salvation for all nations.",
+        "[TCR Cross-Reference] Draws on Isaiah 42:6. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices.",
+        "[TCR Cross-Reference] Draws on Isaiah 9:2. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 33,
+      "text_greek": "καὶ ἦν ὁ πατὴρ αὐτοῦ καὶ ἡ μήτηρ θαυμάζοντες ἐπὶ τοῖς λαλουμένοις περὶ αὐτοῦ.",
+      "text_kjv": "And Joseph and his mother marvelled at those things which were spoken of him.",
+      "rendering": "His father and mother were amazed at what was being said about him.",
+      "translator_notes": [
+        "The SBLGNT reads ho pater autou ('his father') rather than 'Joseph,' which some manuscripts substitute to protect the doctrine of the virgin birth. Luke uses 'father' naturally to describe Joseph's social and legal role. The imperfect thaumazontes ('were amazed, kept marveling') suggests ongoing astonishment — each new revelation about their child adds to their wonder."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 34,
+      "text_greek": "καὶ εὐλόγησεν αὐτοὺς Συμεὼν καὶ εἶπεν πρὸς Μαριὰμ τὴν μητέρα αὐτοῦ· Ἰδοὺ οὗτος κεῖται εἰς πτῶσιν καὶ ἀνάστασιν πολλῶν ἐν τῷ Ἰσραὴλ καὶ εἰς σημεῖον ἀντιλεγόμενον —",
+      "text_kjv": "And Simeon blessed them, and said unto Mary his mother, Behold, this child is set for the fall and rising again of many in Israel; and for a sign which shall be spoken against;",
+      "rendering": "Then Simeon blessed them and said to Mary his mother, \"This child is destined for the falling and rising of many in Israel, and to be a sign that will be opposed —",
+      "translator_notes": [
+        "After the joyful Nunc Dimittis, Simeon's tone darkens. The Greek ptosin kai anastasin ('falling and rising') indicates that this child will be a dividing figure — some will stumble and fall because of him, others will be raised up. The order (falling before rising) may be deliberate. 'A sign opposed' (semeion antilegomenon) foreshadows the rejection Jesus will face. Simeon addresses Mary specifically, not Joseph — the next verse will explain why."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 35,
+      "text_greek": "καὶ σοῦ δὲ αὐτῆς τὴν ψυχὴν διελεύσεται ῥομφαία — ὅπως ἂν ἀποκαλυφθῶσιν ἐκ πολλῶν καρδιῶν διαλογισμοί.",
+      "text_kjv": "(Yea, a sword shall pierce through thy own soul also,) that the thoughts of many hearts may be revealed.",
+      "rendering": "(Yea, a sword will pierce by way of your own soul also,) that the thoughts of numerous hearts may be revealed.",
+      "translator_notes": [
+        "The Greek rhomphaia ('sword, large sword') is not the common machaira but a large, broad sword — the imagery is of devastating penetration. This is traditionally understood as a prophecy of Mary's suffering at the cross (John 19:25-27). The purpose clause 'so that thoughts of many hearts may be revealed' indicates that Jesus's ministry and its opposition will force people to reveal their true loyalties — he will expose what is hidden in human hearts."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 36,
+      "text_greek": "Καὶ ἦν Ἅννα προφῆτις, θυγάτηρ Φανουήλ, ἐκ φυλῆς Ἀσήρ· αὕτη προβεβηκυῖα ἐν ἡμέραις πολλαῖς, ζήσασα μετὰ ἀνδρὸς ἔτη ἑπτὰ ἀπὸ τῆς παρθενίας αὐτῆς,",
+      "text_kjv": "And there was one Anna, a prophetess, the daughter of Phanuel, of the tribe of Aser: she was of a great age, and had lived with an husband seven years from her virginity;",
+      "rendering": "There was also a prophetess named Anna, the daughter of Phanuel, of the tribe of Asher. She was very advanced in years, having lived with her husband for seven years after her marriage,",
+      "translator_notes": [
+        "Anna (Greek form of the Hebrew Hannah) is one of the few women in the Bible explicitly called a 'prophetess' (prophetis), joining Miriam (Exodus 15:20), Deborah (Judges 4:4), Huldah (2 Kings 22:14), and Isaiah's wife (Isaiah 8:3). Her tribe, Asher, was one of the ten 'lost' northern tribes — her presence in Jerusalem shows that not all Israelites of the northern tribes were lost. Luke provides remarkably detailed biographical information, emphasizing her as a credible witness.",
+        "[TCR Cross-Reference] Quotes Exodus 15:20. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it.",
+        "[TCR Cross-Reference] Quotes Judges 4:4. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it.",
+        "[TCR Cross-Reference] Quotes 2 Kings 22:14. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it.",
+        "[TCR Cross-Reference] Quotes Isaiah 8:3. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 37,
+      "text_greek": "καὶ αὐτὴ χήρα ἕως ἐτῶν ὀγδοήκοντα τεσσάρων, ἣ οὐκ ἀφίστατο τοῦ ἱεροῦ νηστείαις καὶ δεήσεσιν λατρεύουσα νύκτα καὶ ἡμέραν.",
+      "text_kjv": "And she was a widow of about fourscore and four years, which departed not from the temple, but served God with fastings and prayers night and day.",
+      "rendering": "She was a widow of concerning fourscore and four years, which departed not from the sanctuary, but served God with fastings and prayers after dark and time.",
+      "translator_notes": [
+        "The phrase heos eton ogdoekonta tessaron could mean 'a widow for eighty-four years' (making her about 105 years old) or 'a widow until the age of eighty-four.' Either reading depicts extraordinary longevity and devotion. 'Never left the temple' (ouk aphistato tou hierou) is likely a hyperbole for constant attendance rather than literal residence. Her worship of fasting and prayer 'night and day' identifies her as a living embodiment of the faithful remnant who waited for God's redemption."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 38,
+      "text_greek": "καὶ αὐτῇ τῇ ὥρᾳ ἐπιστᾶσα ἀνθωμολογεῖτο τῷ θεῷ καὶ ἐλάλει περὶ αὐτοῦ πᾶσιν τοῖς προσδεχομένοις λύτρωσιν Ἰερουσαλήμ.",
+      "text_kjv": "And she coming in that instant gave thanks likewise unto the Lord, and spake of him to all them that looked for redemption in Jerusalem.",
+      "rendering": "Coming up at that very hour, she began to give thanks to God and to speak about him to all who were waiting for the redemption of Jerusalem.",
+      "translator_notes": [
+        "The phrase aute te hora ('at that very hour') emphasizes the providential timing — Anna arrives at precisely the right moment. The verb anthomologeito ('was giving thanks, was praising') is a compound form intensifying the thanksgiving. Those 'waiting for the redemption of Jerusalem' (prosdechomenois lutrosin Ierousalem) parallels those 'waiting for the consolation of Israel' (v. 25) — a circle of faithful Jews who held to the messianic hope. The noun lutrosin ('redemption') echoes Zechariah's Benedictus (1:68)."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 39,
+      "text_greek": "Καὶ ὡς ἐτέλεσαν πάντα τὰ κατὰ τὸν νόμον κυρίου, ἐπέστρεψαν εἰς τὴν Γαλιλαίαν εἰς πόλιν ἑαυτῶν Ναζαρέθ.",
+      "text_kjv": "And when they had performed all things according to the law of the Lord, they returned into Galilee, to their own city Nazareth.",
+      "rendering": "When they had completed everything required by the law of the Lord, they returned to Galilee, to their own city of Nazareth.",
+      "translator_notes": [
+        "Luke compresses the narrative significantly — Matthew's account includes the visit of the magi and the flight to Egypt between the temple presentation and the return to Nazareth. Luke does not mention these events, nor does he explicitly contradict them; he simply moves from one episode to the next. The emphasis on completing 'everything required by the law' (panta ta kata ton nomon) underscores the family's faithful Torah observance."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 40,
+      "text_greek": "Τὸ δὲ παιδίον ηὔξανεν καὶ ἐκραταιοῦτο πληρούμενον σοφίᾳ, καὶ χάρις θεοῦ ἦν ἐπ' αὐτό.",
+      "text_kjv": "And the child grew, and waxed strong in spirit, filled with wisdom: and the grace of God was upon him.",
+      "rendering": "The child grew and became strong, being filled with wisdom, and the grace of God was upon him.",
+      "translator_notes": [
+        "This growth summary parallels the one for John (1:80) and echoes Samuel's growth (1 Samuel 2:26). The SBLGNT does not include 'in spirit' (pneumati), which appears in some manuscripts, likely imported from 1:80. The phrase 'filled with wisdom' (pleroumenon sophia) is distinctive — where John grew strong 'in spirit,' Jesus grows in 'wisdom.' The grace of God (charis theou) covering the child echoes the favored-one language of Mary's own calling (1:28).",
+        "[TCR Cross-Reference] This verse quotes 1 Samuel 2:26 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 41,
+      "text_greek": "Καὶ ἐπορεύοντο οἱ γονεῖς αὐτοῦ κατ' ἔτος εἰς Ἰερουσαλὴμ τῇ ἑορτῇ τοῦ πάσχα.",
+      "text_kjv": "Now his parents went to Jerusalem every year at the feast of the passover.",
+      "rendering": "His parents went to Jerusalem every year for the Festival of Passover.",
+      "translator_notes": [
+        "The Torah required all Israelite males to appear before the Lord three times a year: at Passover, Pentecost, and Tabernacles (Exodus 23:14-17, Deuteronomy 16:16). That Mary also went reflects pious devotion beyond the legal minimum. The imperfect eporeuonto ('used to go, went regularly') indicates habitual practice.",
+        "[TCR Cross-Reference] Quotes Exodus 23:14-17. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it.",
+        "[TCR Cross-Reference] Quotes Deuteronomy 16:16. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 42,
+      "text_greek": "Καὶ ὅτε ἐγένετο ἐτῶν δώδεκα, ἀναβαινόντων αὐτῶν κατὰ τὸ ἔθος τῆς ἑορτῆς",
+      "text_kjv": "And when he was twelve years old, they went up to Jerusalem after the custom of the feast.",
+      "rendering": "When he was twelve years old, they went up according to the custom of the festival.",
+      "translator_notes": [
+        "Age twelve was significant in Jewish tradition — it was the year before a boy assumed full responsibility for Torah observance (later formalized as bar mitzvah at thirteen). Luke may include this specific age to mark the transition from childhood to religious maturity, setting the stage for Jesus's remarkable interaction in the temple."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 43,
+      "text_greek": "καὶ τελειωσάντων τὰς ἡμέρας, ἐν τῷ ὑποστρέφειν αὐτοὺς ὑπέμεινεν Ἰησοῦς ὁ παῖς ἐν Ἰερουσαλήμ, καὶ οὐκ ἔγνωσαν οἱ γονεῖς αὐτοῦ.",
+      "text_kjv": "And when they had fulfilled the days, as they returned, the child Jesus tarried behind in Jerusalem; and Joseph and his mother knew not of it.",
+      "rendering": "After the days of the festival were completed, as they were returning, the boy Jesus stayed behind in Jerusalem, but his parents did not know it.",
+      "translator_notes": [
+        "The Passover festival lasted seven days (Exodus 12:15). The verb hupemeinen ('stayed behind, remained') suggests a deliberate act on Jesus's part, not an accident. Large pilgrim caravans traveled together, and children could easily be assumed to be with other family members — the parents' ignorance is plausible and not negligent.",
+        "[TCR Cross-Reference] References Exodus 12:15 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 44,
+      "text_greek": "νομίσαντες δὲ αὐτὸν εἶναι ἐν τῇ συνοδίᾳ ἦλθον ἡμέρας ὁδὸν καὶ ἀνεζήτουν αὐτὸν ἐν τοῖς συγγενεῦσιν καὶ τοῖς γνωστοῖς,",
+      "text_kjv": "But they, supposing him to have been in the company, went a day's journey; and they sought him among their kinsfolk and acquaintance.",
+      "rendering": "Assuming he was in the caravan, they traveled a day's journey and then began looking for him among their relatives and acquaintances.",
+      "translator_notes": [
+        "The Greek synodia ('caravan, traveling company') was the standard mode of pilgrimage travel — large groups from the same region would travel together for safety. A day's journey was roughly 20-25 miles. The search among relatives and acquaintances (syggenesin kai tois gnostois) reflects the extended family and community network that traveled together."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 45,
+      "text_greek": "καὶ μὴ εὑρόντες ὑπέστρεψαν εἰς Ἰερουσαλὴμ ἀναζητοῦντες αὐτόν.",
+      "text_kjv": "And when they found him not, they turned back again to Jerusalem, seeking him.",
+      "rendering": "When they did not find him, they returned to Jerusalem, searching for him.",
+      "translator_notes": [
+        "The return trip adds another day, meaning at least two full days pass before they find Jesus (a day's travel out, a day's travel back, then the search in Jerusalem on the third day, v. 46). The verb anazetountes ('searching for, seeking diligently') is intensive — this is an anxious, determined search."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 46,
+      "text_greek": "καὶ ἐγένετο μετὰ ἡμέρας τρεῖς εὗρον αὐτὸν ἐν τῷ ἱερῷ καθεζόμενον ἐν μέσῳ τῶν διδασκάλων καὶ ἀκούοντα αὐτῶν καὶ ἐπερωτῶντα αὐτούς·",
+      "text_kjv": "And it came to pass, that after three days they found him in the temple, sitting in the midst of the doctors, both hearing them, and asking them questions.",
+      "rendering": "After three days they found him in the temple, sitting among the teachers, listening to them and asking them questions.",
+      "translator_notes": [
+        "The 'three days' (meta hemeras treis) may foreshadow the three days between crucifixion and resurrection — a pattern Luke's reader might notice retrospectively. The scene of a twelve-year-old 'sitting among the teachers' (kathezomenon en meso ton didaskalon) in the temple depicts the posture of a student in a rabbinical discussion. Jesus is both listening and asking — the ancient pedagogical method of learning through dialogue. The 'teachers' (didaskalon) were likely scribes and scholars who gathered in the temple courts."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 47,
+      "text_greek": "ἐξίσταντο δὲ πάντες οἱ ἀκούοντες αὐτοῦ ἐπὶ τῇ συνέσει καὶ ταῖς ἀποκρίσεσιν αὐτοῦ.",
+      "text_kjv": "And all that heard him were astonished at his understanding and answers.",
+      "rendering": "All who heard him were astonished at his understanding and his answers.",
+      "translator_notes": [
+        "The verb existanto ('were amazed, were astounded') is stronger than the earlier ethaumasan (v. 18) — it implies being beside oneself with astonishment. The combination of synesis ('understanding, comprehension, insight') and apokriseis ('answers, responses') shows Jesus was not merely asking precocious questions but demonstrating a depth of comprehension that stunned the scholars."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 48,
+      "text_greek": "καὶ ἰδόντες αὐτὸν ἐξεπλάγησαν, καὶ εἶπεν πρὸς αὐτὸν ἡ μήτηρ αὐτοῦ· Τέκνον, τί ἐποίησας ἡμῖν οὕτως; ἰδοὺ ὁ πατήρ σου κἀγὼ ὀδυνώμενοι ἐζητοῦμέν σε.",
+      "text_kjv": "And when they saw him, they were amazed: and his mother said unto him, Son, why hast thou thus dealt with us? behold, thy father and I have sought thee sorrowing.",
+      "rendering": "When his parents saw him, they were overwhelmed. His mother said to him, \"Child, why have you treated us like this? Your father and I have been searching for you in great distress.\"",
+      "translator_notes": [
+        "Mary's address teknon ('child') expresses both tenderness and maternal authority. The verb odynomenoi ('in distress, in anguish') is a strong word — the same root is used for the agony of the rich man in Hades (16:24-25). Mary's reference to 'your father' (ho pater sou) sets up Jesus's response, which will redefine the word 'father.'"
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 49,
+      "text_greek": "καὶ εἶπεν πρὸς αὐτούς· Τί ὅτι ἐζητεῖτέ με; οὐκ ᾔδειτε ὅτι ἐν τοῖς τοῦ πατρός μου δεῖ εἶναί με;",
+      "text_kjv": "And he said unto them, How is it that ye sought me? wist ye not that I must be about my Father's business?",
+      "rendering": "He said to them, \"Why were you searching for me? Did you not know that I must be in my Father's house?\"",
+      "translator_notes": [
+        "These are the first recorded words of Jesus in Luke's Gospel. The phrase en tois tou patros mou ('in the things/house of my Father') is ambiguous — it can mean 'in my Father's house' (referring to the temple) or 'about my Father's affairs' (referring to his mission). Both meanings may be intended. The key theological move is the implicit correction of Mary's 'your father': Jesus distinguishes between Joseph ('your father,' v. 48) and God ('my Father'). The verb dei ('it is necessary, must') introduces Luke's theme of divine necessity — Jesus's life follows a divinely determined path."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 50,
+      "text_greek": "καὶ αὐτοὶ οὐ συνῆκαν τὸ ῥῆμα ὃ ἐλάλησεν αὐτοῖς.",
+      "text_kjv": "And they understood not the saying which he spake unto them.",
+      "rendering": "But they did not understand what he said to them.",
+      "translator_notes": [
+        "The verb synekan ('understood, comprehended') indicates that even Mary and Joseph — who had received angelic revelations, heard Simeon's prophecy, and witnessed the shepherds' visit — did not fully grasp the implications of Jesus's words. Luke is honest about the gap between revelation received and revelation understood. Full understanding will come only later, in light of the resurrection."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 51,
+      "text_greek": "καὶ κατέβη μετ' αὐτῶν καὶ ἦλθεν εἰς Ναζαρὲθ καὶ ἦν ὑποτασσόμενος αὐτοῖς. καὶ ἡ μήτηρ αὐτοῦ διετήρει πάντα τὰ ῥήματα ἐν τῇ καρδίᾳ αὐτῆς.",
+      "text_kjv": "And he went down with them, and came to Nazareth, and was subject unto them: but his mother kept all these sayings in her heart.",
+      "rendering": "Then he went down with them and came to Nazareth and was obedient to them. And his mother treasured all these things in her heart.",
+      "translator_notes": [
+        "The verb hypotassomenos ('being subject, being obedient') emphasizes that Jesus's extraordinary temple dialogue did not lead to rebellion against parental authority. The one who called God 'my Father' nevertheless submits to his earthly parents — a profound theological juxtaposition. Mary's treasuring (dieterei, 'was carefully keeping') echoes v. 19 and reinforces the sense that Luke's source may have been Mary's own recollections."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 52,
+      "text_greek": "Καὶ Ἰησοῦς προέκοπτεν ἐν τῇ σοφίᾳ καὶ ἡλικίᾳ καὶ χάριτι παρὰ θεῷ καὶ ἀνθρώποις.",
+      "text_kjv": "And Jesus increased in wisdom and stature, and in favour with God and man.",
+      "rendering": "And Jesus grew in wisdom and in stature, and in favor with God and people.",
+      "translator_notes": [
+        "This closing summary echoes 1 Samuel 2:26 ('The boy Samuel continued to grow in stature and in favor with the LORD and with people'). The Greek proekopten ('was advancing, was progressing') implies steady development. The fourfold growth — wisdom (sophia), stature/age (helikia), favor with God (chariti para theo), favor with people (anthropois) — presents a fully human development. Luke's Gospel affirms both the divine identity and the genuine humanity of Jesus.",
+        "[TCR Cross-Reference] Draws on 1 Samuel 2:26. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "7th grade"
+    }
+  ]
+}

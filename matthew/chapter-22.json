@@ -1,0 +1,512 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Matthew",
+    "chapter": 22,
+    "source_text": "SBL Greek New Testament (SBLGNT)",
+    "reference_text": "KJV",
+    "generated_at": "2026-04-04T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Matthew 22 opens with the parable of the wedding banquet, in which a king's invited guests refuse to come and are replaced by strangers from the streets. The chapter then records three challenge questions posed to Jesus by various groups: the Pharisees and Herodians ask about paying taxes to Caesar, the Sadducees pose a hypothetical about resurrection and marriage, and a Pharisee lawyer asks which commandment is the greatest. Jesus answers each decisively, then poses his own question about the Messiah's identity as David's Lord — silencing all challengers.",
+    "remarkable": "The three challenge questions represent the major theological factions of first-century Judaism converging against Jesus: Pharisees (political trap about taxes), Sadducees (theological trap about resurrection), and a lawyer from among the Pharisees (legal trap about the commandments). Jesus not only escapes each trap but turns the final exchange into an offensive question about Psalm 110:1 that none of them can answer. The wedding banquet parable contains Matthew's distinctive addition of the guest without wedding garments (vv. 11-14), raising the stakes beyond mere invitation to proper response.",
+    "friction": "The parable's violent imagery — the king destroying the murderous invitees and burning their city (v. 7) — has been read as a reference to the destruction of Jerusalem in 70 AD. We render the Greek as given without imposing a specific historical identification. The phrase 'many are called but few are chosen' (v. 14) has generated centuries of theological debate about election; we render the Greek straightforwardly. Jesus's answer about the greatest commandment combines Deuteronomy 6:5 and Leviticus 19:18, a combination not found elsewhere in Jewish literature of this period.",
+    "connections": "The wedding banquet parable echoes Isaiah 25:6-8 (the eschatological feast). The tax question connects to the broader theme of God's kingdom versus earthly kingdoms. The resurrection debate anticipates Matthew 28. Jesus's citation of Psalm 110:1 becomes foundational for early Christian Christology (Acts 2:34-35, Hebrews 1:13). The double love commandment becomes the hermeneutical key for the entire law (cf. Romans 13:8-10, Galatians 5:14)."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_greek": "Καὶ ἀποκριθεὶς ὁ Ἰησοῦς πάλιν εἶπεν ἐν παραβολαῖς αὐτοῖς λέγων·",
+      "text_kjv": "And Jesus answered and spake unto them again by parables, and said,",
+      "rendering": "Jesus spoke to them again in parables, saying:",
+      "translator_notes": [
+        "The Greek apokritheis ('answering') does not imply a question was asked — it is a Semitic idiom meaning 'responded to the situation.' The plural parabolais ('parables') may indicate that Matthew groups this with the preceding parables of chapter 21, though only one parable follows here."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 2,
+      "text_greek": "Ὡμοιώθη ἡ βασιλεία τῶν οὐρανῶν ἀνθρώπῳ βασιλεῖ, ὅστις ἐποίησεν γάμους τῷ υἱῷ αὐτοῦ.",
+      "text_kjv": "The kingdom of heaven is like unto a certain king, which made a marriage for his son,",
+      "rendering": "\"The kingdom of heaven may be compared to a king who prepared a wedding feast for his son.",
+      "translator_notes": [
+        "The Greek gamous (plural 'wedding festivities') encompasses the entire multi-day celebration, not just the ceremony. 'Wedding feast' captures the communal banquet dimension better than 'marriage.' The aorist homoiothee ('was compared') frames the parable as a completed analogy."
+      ],
+      "key_terms": [
+        {
+          "greek": "βασιλεία τῶν οὐρανῶν",
+          "transliteration": "basileia tōn ouranōn",
+          "rendered_as": "kingdom of heaven",
+          "semantic_range": "kingdom, reign, rule, royal domain; of the heavens",
+          "note": "Matthew's distinctive phrase, equivalent to Mark and Luke's 'kingdom of God.' The plural 'heavens' reflects the Hebrew shamayim. It denotes God's sovereign rule breaking into the present, not merely a future destination."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 3,
+      "text_greek": "καὶ ἀπέστειλεν τοὺς δούλους αὐτοῦ καλέσαι τοὺς κεκλημένους εἰς τοὺς γάμους, καὶ οὐκ ἤθελον ἐλθεῖν.",
+      "text_kjv": "And sent forth his servants to call them that were bidden to the wedding: and they would not come.",
+      "rendering": "He sent his servants to call those who had been invited to the feast, but they refused to come.",
+      "translator_notes": [
+        "The double invitation — first a prior invitation (keklemenous, perfect participle, 'those having been invited'), then the servants sent to summon them — reflects ancient Near Eastern banquet protocol. The refusal is deliberate: ouk ethelon ('they were not willing') emphasizes willful rejection, not inability."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 4,
+      "text_greek": "πάλιν ἀπέστειλεν ἄλλους δούλους λέγων· Εἴπατε τοῖς κεκλημένοις· Ἰδοὺ τὸ ἄριστόν μου ἡτοίμακα, οἱ ταῦροί μου καὶ τὰ σιτιστὰ τεθυμένα καὶ πάντα ἕτοιμα· δεῦτε εἰς τοὺς γάμους.",
+      "text_kjv": "Again, he sent forth other servants, saying, Tell them which are bidden, Behold, I have prepared my dinner: my oxen and my fatlings are killed, and all things are ready: come unto the marriage.",
+      "rendering": "Again he sent other servants, saying, 'Tell those who have been invited: Look, I have prepared my banquet — my oxen and fattened cattle have been slaughtered, and everything is ready. Come to the wedding feast.'",
+      "translator_notes": [
+        "The Greek ariston can mean 'breakfast' or 'midday meal' but here refers to a grand banquet. The detail of slaughtered oxen (tauroi) and fattened cattle (sitista) emphasizes lavish provision and the urgency of the invitation — the food is prepared and will not keep. The king's patience in sending a second delegation heightens the gravity of the refusal."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 5,
+      "text_greek": "οἱ δὲ ἀμελήσαντες ἀπῆλθον, ὃς μὲν εἰς τὸν ἴδιον ἀγρόν, ὃς δὲ ἐπὶ τὴν ἐμπορίαν αὐτοῦ·",
+      "text_kjv": "But they made light of it, and went their ways, one to his farm, another to his merchandise:",
+      "rendering": "But they paid no attention and went away — one to his field, another to his business.",
+      "translator_notes": [
+        "The verb amelesantes ('having disregarded, having been careless about') conveys not hostility but indifference — the most common form of rejection. The mundane alternatives (field, business) make the point: ordinary concerns displaced the king's extraordinary invitation."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 6,
+      "text_greek": "οἱ δὲ λοιποὶ κρατήσαντες τοὺς δούλους αὐτοῦ ὕβρισαν καὶ ἀπέκτειναν.",
+      "text_kjv": "And the remnant took his servants, and entreated them spitefully, and slew them.",
+      "rendering": "The rest seized his servants, mistreated them, and killed them.",
+      "translator_notes": [
+        "The parable escalates sharply from indifference (v. 5) to violence. The verb hybrisan ('mistreated, insulted') denotes outrageous abuse. This mirrors the prophetic tradition of Israel killing God's messengers (cf. 2 Chronicles 36:15-16, Matthew 23:37).",
+        "[TCR Cross-Reference] Quotes 2 Chronicles 36:15-16. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 7,
+      "text_greek": "ὁ δὲ βασιλεὺς ὠργίσθη καὶ πέμψας τὰ στρατεύματα αὐτοῦ ἀπώλεσεν τοὺς φονεῖς ἐκείνους καὶ τὴν πόλιν αὐτῶν ἐνέπρησεν.",
+      "text_kjv": "But when the king heard thereof, he was wroth: and he sent forth his armies, and destroyed those murderers, and burned up their city.",
+      "rendering": "The king was enraged. He sent his armies, destroyed those murderers, and burned their city.",
+      "translator_notes": [
+        "The burning of 'their city' (teen polin autōn) has been widely read as an allusion to the Roman destruction of Jerusalem in 70 AD. Whether this reflects a post-70 addition or Jesus's prophetic foresight is debated. The Greek enepprēsen ('burned') is vivid and specific."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 8,
+      "text_greek": "τότε λέγει τοῖς δούλοις αὐτοῦ· Ὁ μὲν γάμος ἕτοιμός ἐστιν, οἱ δὲ κεκλημένοι οὐκ ἦσαν ἄξιοι·",
+      "text_kjv": "Then saith he to his servants, The wedding is ready, but they which were bidden were not worthy.",
+      "rendering": "Then he said to his servants, 'The wedding feast is ready, but those who were invited were not worthy.",
+      "translator_notes": [
+        "The adjective axioi ('worthy, deserving') introduces a key theme: the invitation was free, but the invitees rendered themselves unworthy by their response. Worthiness here is defined by willingness to come, not by prior qualification."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 9,
+      "text_greek": "πορεύεσθε οὖν ἐπὶ τὰς διεξόδους τῶν ὁδῶν καὶ ὅσους ἐὰν εὕρητε καλέσατε εἰς τοὺς γάμους.",
+      "text_kjv": "Go ye therefore into the highways, and as many as ye shall find, bid to the marriage.",
+      "rendering": "Go therefore to the main roads, and invite to the feast as many as you find.'",
+      "translator_notes": [
+        "The Greek diexodous tōn hodōn ('exits of the roads,' i.e., crossroads, intersections, or where roads leave the city) suggests the boundary between the city and the surrounding countryside — places where anyone might be found. The invitation becomes indiscriminate and universal."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 10,
+      "text_greek": "καὶ ἐξελθόντες οἱ δοῦλοι ἐκεῖνοι εἰς τὰς ὁδοὺς συνήγαγον πάντας οὓς εὗρον, πονηρούς τε καὶ ἀγαθούς· καὶ ἐπλήσθη ὁ γάμος ἀνακειμένων.",
+      "text_kjv": "So those servants went out into the highways, and gathered together all as many as they found, both bad and good: and the wedding was furnished with guests.",
+      "rendering": "Those servants went out into the roads and gathered everyone they found, both evil and good, and the wedding hall was filled with guests.",
+      "translator_notes": [
+        "The pairing ponērous te kai agathous ('both evil and good') is striking — the replacement guests are a mixed company, not a moral elite. This reflects Matthew's consistent picture of the kingdom as a mixed community (cf. the wheat and weeds, 13:24-30; the net, 13:47-50). The Greek anakeimenōn ('reclining ones') indicates the Greco-Roman dining posture."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 11,
+      "text_greek": "εἰσελθὼν δὲ ὁ βασιλεὺς θεάσασθαι τοὺς ἀνακειμένους εἶδεν ἐκεῖ ἄνθρωπον οὐκ ἐνδεδυμένον ἔνδυμα γάμου·",
+      "text_kjv": "And when the king came in to see the guests, he saw there a man which had not on a wedding garment:",
+      "rendering": "But when the king came in to see the guests, he noticed a man there who was not wearing wedding clothes.",
+      "translator_notes": [
+        "The 'wedding garment' (endyma gamou) has generated much discussion. Some scholars suggest hosts provided garments; others see this as symbolic of righteousness or repentance. The man was gathered from the streets (v. 10), so the expectation of proper attire implies provision was made. The singular man among many guests suggests this is not about social class but about response — even among those who come, proper preparation is required."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 12,
+      "text_greek": "καὶ λέγει αὐτῷ· Ἑταῖρε, πῶς εἰσῆλθες ὧδε μὴ ἔχων ἔνδυμα γάμου; ὁ δὲ ἐφιμώθη.",
+      "text_kjv": "And he saith unto him, Friend, how camest thou in hither not having a wedding garment? And he was speechless.",
+      "rendering": "He said to him, 'Friend, how did you get in here without wedding clothes?' And the man was speechless.",
+      "translator_notes": [
+        "The address hetaire ('friend, companion') appears only three times in Matthew (here, 20:13, 26:50) and always carries an ominous edge — it is used when someone has overstepped. The man's silence (ephimōthē, 'was muzzled, was silenced') indicates he has no defense; the passive voice may suggest divine silencing rather than mere embarrassment."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 13,
+      "text_greek": "τότε ὁ βασιλεὺς εἶπεν τοῖς διακόνοις· Δήσαντες αὐτοῦ πόδας καὶ χεῖρας ἐκβάλετε αὐτὸν εἰς τὸ σκότος τὸ ἐξώτερον· ἐκεῖ ἔσται ὁ κλαυθμὸς καὶ ὁ βρυγμὸς τῶν ὀδόντων.",
+      "text_kjv": "Then said the king to the servants, Bind him hand and foot, and take him away, and cast him into outer darkness; there shall be weeping and gnashing of teeth.",
+      "rendering": "Then the king said to the attendants, 'Bind his hands and feet and throw him into the outer darkness. In that place there will be weeping and gnashing of teeth.'",
+      "translator_notes": [
+        "The attendants here are diakonois ('servants, ministers') — different from the douloi ('slaves') sent to invite guests. 'Outer darkness' (skotos to exōteron) is a Matthean phrase (cf. 8:12, 25:30) depicting exclusion from the lit banquet hall into the night. 'Weeping and gnashing of teeth' is a formulaic expression in Matthew for eschatological judgment (8:12, 13:42, 13:50, 24:51, 25:30)."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 14,
+      "text_greek": "πολλοὶ γάρ εἰσιν κλητοὶ ὀλίγοι δὲ ἐκλεκτοί.",
+      "text_kjv": "For many are called, but few are chosen.",
+      "rendering": "For numerous are called, but few are chosen.",
+      "translator_notes": [
+        "This summarizing statement distinguishes klētoi ('called, invited') from eklektoi ('chosen, selected'). The parable illustrates both categories of failure: those who refuse the call entirely (vv. 3-7) and those who come without proper response (vv. 11-13). The saying's theological weight — particularly regarding divine election versus human response — has been debated throughout church history. The Greek is rendered straightforwardly without resolving that tension."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 15,
+      "text_greek": "Τότε πορευθέντες οἱ Φαρισαῖοι συμβούλιον ἔλαβον ὅπως αὐτὸν παγιδεύσωσιν ἐν λόγῳ.",
+      "text_kjv": "Then went the Pharisees, and took counsel how they might entangle him in his talk.",
+      "rendering": "Then the Pharisees went and plotted how to trap him with his own words.",
+      "translator_notes": [
+        "The verb pagideusōsin ('to ensnare, to trap') is from pagis ('a snare, a trap') — hunting imagery. The Pharisees are now deliberately setting a verbal trap. The phrase en logō ('in a word/statement') means they want Jesus to say something that can be used against him."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 16,
+      "text_greek": "καὶ ἀποστέλλουσιν αὐτῷ τοὺς μαθητὰς αὐτῶν μετὰ τῶν Ἡρῳδιανῶν λέγοντες· Διδάσκαλε, οἴδαμεν ὅτι ἀληθὴς εἶ καὶ τὴν ὁδὸν τοῦ θεοῦ ἐν ἀληθείᾳ διδάσκεις καὶ οὐ μέλει σοι περὶ οὐδενός· οὐ γὰρ βλέπεις εἰς πρόσωπον ἀνθρώπων.",
+      "text_kjv": "And they sent out unto him their disciples with the Herodians, saying, Master, we know that thou art true, and teachest the way of God in truth, neither carest thou for any man: for thou regardest not the person of men.",
+      "rendering": "They sent their disciples to him along with the Herodians, saying, \"Teacher, we know that you are truthful and teach the way of God honestly. You do not defer to anyone, for you show no partiality.",
+      "translator_notes": [
+        "The coalition of Pharisee disciples and Herodians is politically improbable — Pharisees resented Roman rule while Herodians supported the Herod dynasty and Roman accommodation. Their alliance against Jesus is itself revealing. The flattery is calculated: 'you show no partiality' (ou blepeis eis prosōpon anthrōpōn, literally 'you do not look at the face of people') is designed to pressure Jesus into giving a direct answer regardless of political consequences."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 17,
+      "text_greek": "εἰπὲ οὖν ἡμῖν τί σοι δοκεῖ· ἔξεστιν δοῦναι κῆνσον Καίσαρι ἢ οὔ;",
+      "text_kjv": "Tell us therefore, What thinkest thou? Is it lawful to give tribute unto Caesar, or not?",
+      "rendering": "So tell us what you think: is it lawful to pay the tax to Caesar, or not?\"",
+      "translator_notes": [
+        "The Greek kēnson is a loanword from the Latin census, referring specifically to the Roman poll tax (tributum capitis). This was the most hated tax because it symbolized subjugation — every payment acknowledged Roman sovereignty. The trap is elegant: a 'yes' alienates the Jewish populace; a 'no' constitutes sedition against Rome."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 18,
+      "text_greek": "γνοὺς δὲ ὁ Ἰησοῦς τὴν πονηρίαν αὐτῶν εἶπεν· Τί με πειράζετε, ὑποκριταί;",
+      "text_kjv": "But Jesus perceived their wickedness, and said, Why tempt ye me, ye hypocrites?",
+      "rendering": "But Jesus, aware of their malice, said, \"Why are you testing me, you hypocrites?",
+      "translator_notes": [
+        "The word ponērian ('wickedness, malice') is stronger than mere trickery — it ascribes evil intent. The verb peirazete ('you are testing') is the same word used for Satan's temptation of Jesus in chapter 4. Hypokritai ('hypocrites') originally meant 'stage actors' — people playing a role. Jesus exposes the flattery of verse 16 as performance."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 19,
+      "text_greek": "ἐπιδείξατέ μοι τὸ νόμισμα τοῦ κήνσου. οἱ δὲ προσήνεγκαν αὐτῷ δηνάριον.",
+      "text_kjv": "Shew me the tribute money. And they brought unto him a penny.",
+      "rendering": "Show me the coin used for the tax.\" They brought him a denarius.",
+      "translator_notes": [
+        "The denarius (dēnarion) was a Roman silver coin, a day's wage for a laborer (cf. 20:2). That they could produce one immediately in the temple precincts is itself telling — they carried the very coin bearing Caesar's image into sacred space. The KJV's 'penny' is a misleading anachronism."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 20,
+      "text_greek": "καὶ λέγει αὐτοῖς· Τίνος ἡ εἰκὼν αὕτη καὶ ἡ ἐπιγραφή;",
+      "text_kjv": "And he saith unto them, Whose is this image and superscription?",
+      "rendering": "He said to them, \"Whose image and inscription is this?\"",
+      "translator_notes": [
+        "The word eikōn ('image, likeness') carries theological resonance — humans are made in God's eikōn (Genesis 1:26-27 LXX). Jesus's question sets up a contrast between what bears Caesar's image and what bears God's image. The epigraphē ('inscription') on a Tiberian denarius would read 'Tiberius Caesar, son of the divine Augustus.'",
+        "[TCR Cross-Reference] This verse quotes Genesis 1:26-27 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 21,
+      "text_greek": "λέγουσιν αὐτῷ· Καίσαρος. τότε λέγει αὐτοῖς· Ἀπόδοτε οὖν τὰ Καίσαρος Καίσαρι καὶ τὰ τοῦ θεοῦ τῷ θεῷ.",
+      "text_kjv": "They say unto him, Caesar's. Then saith he unto them, Render therefore unto Caesar the things which are Caesar's; and unto God the things that are God's.",
+      "rendering": "They said, \"Caesar's.\" Then he said to them, \"Give back to Caesar what belongs to Caesar, and to God what belongs to God.\"",
+      "translator_notes": [
+        "The verb apodote ('give back, return, render') is crucial — it implies returning what already belongs to someone, not making a gift. Caesar's coin bears Caesar's image; give it back. But since humans bear God's image, the unstated implication is far more sweeping: give your whole self back to God. The answer transcends the political trap entirely by reframing the question from taxation to total allegiance."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 22,
+      "text_greek": "καὶ ἀκούσαντες ἐθαύμασαν, καὶ ἀφέντες αὐτὸν ἀπῆλθαν.",
+      "text_kjv": "When they had heard these words, they marvelled, and left him, and went their way.",
+      "rendering": "When they heard this, they were amazed. And they left him and went away.",
+      "translator_notes": [
+        "The verb ethaumasan ('they marveled, were astonished') indicates that Jesus's answer genuinely surprised them — it was not the binary response they had prepared for. Their departure signals that the trap failed completely."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 23,
+      "text_greek": "Ἐν ἐκείνῃ τῇ ἡμέρᾳ προσῆλθον αὐτῷ Σαδδουκαῖοι, λέγοντες μὴ εἶναι ἀνάστασιν, καὶ ἐπηρώτησαν αὐτὸν",
+      "text_kjv": "The same day came to him the Sadducees, which say that there is no resurrection, and asked him,",
+      "rendering": "That same day Sadducees came to him — those who say there is no resurrection — and they asked him,",
+      "translator_notes": [
+        "Matthew's parenthetical note about Sadducean theology (legontes mē einai anastasin, 'saying there is no resurrection') orients the reader to the nature of the coming trap. The Sadducees accepted only the Torah (Genesis-Deuteronomy) as authoritative and found no explicit resurrection teaching there. Their question is designed to make resurrection belief look absurd."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 24,
+      "text_greek": "λέγοντες· Διδάσκαλε, Μωϋσῆς εἶπεν· Ἐάν τις ἀποθάνῃ μὴ ἔχων τέκνα, ἐπιγαμβρεύσει ὁ ἀδελφὸς αὐτοῦ τὴν γυναῖκα αὐτοῦ καὶ ἀναστήσει σπέρμα τῷ ἀδελφῷ αὐτοῦ.",
+      "text_kjv": "Saying, Master, Moses said, If a man die, having no children, his brother shall marry his wife, and raise up seed unto his brother.",
+      "rendering": "\"Teacher, Moses said, 'If a man dies without children, his brother is to marry his wife and raise up offspring for his brother.'",
+      "translator_notes": [
+        "The Sadducees cite the levirate marriage law from Deuteronomy 25:5-6 (with echoes of Genesis 38). The Greek epigambreusei ('shall marry as next-of-kin') is a technical term for levirate marriage. By grounding their question in Moses — the one authority they accept — they believe they have framed an unanswerable challenge to resurrection belief.",
+        "[TCR Cross-Reference] Echoes Deuteronomy 25:5-6. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale.",
+        "[TCR Cross-Reference] Echoes Genesis 38. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 25,
+      "text_greek": "ἦσαν δὲ παρ' ἡμῖν ἑπτὰ ἀδελφοί· καὶ ὁ πρῶτος γήμας ἐτελεύτησεν, καὶ μὴ ἔχων σπέρμα ἀφῆκεν τὴν γυναῖκα αὐτοῦ τῷ ἀδελφῷ αὐτοῦ·",
+      "text_kjv": "Now there were with us seven brethren: and the first, when he had married a wife, deceased, and, having no issue, left his wife unto his brother:",
+      "rendering": "Now there were seven brothers among us. The first married and died, and having no offspring, left his wife to his brother.",
+      "translator_notes": [
+        "The scenario is likely hypothetical, perhaps a stock riddle used in Sadducean-Pharisee debates. Seven brothers creates the maximum absurdity for a resurrection scenario. The phrase par' hēmin ('among us') may be a fictional framing device rather than a claim about real people."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 26,
+      "text_greek": "ὁμοίως καὶ ὁ δεύτερος καὶ ὁ τρίτος ἕως τῶν ἑπτά.",
+      "text_kjv": "Likewise the second also, and the third, unto the seventh.",
+      "rendering": "The same thing happened with the second, the third, and on through all seven.",
+      "translator_notes": [
+        "Matthew compresses the narrative — Mark 12:21-22 provides slightly more detail. The repetition through all seven brothers drives home the point: whose wife would she be in the resurrection?"
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 27,
+      "text_greek": "ὕστερον δὲ πάντων ἀπέθανεν ἡ γυνή.",
+      "text_kjv": "And last of all the woman died also.",
+      "rendering": "Last of all, the woman died.",
+      "translator_notes": [
+        "The phrase hysteron pantōn ('last of all') completes the hypothetical with finality — all eight parties are now dead, setting up the resurrection question."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 28,
+      "text_greek": "ἐν τῇ ἀναστάσει οὖν τίνος τῶν ἑπτὰ ἔσται γυνή; πάντες γὰρ ἔσχον αὐτήν.",
+      "text_kjv": "Therefore in the resurrection whose wife shall she be of the seven? for they all had her.",
+      "rendering": "So in the resurrection, whose wife of the seven will she be? For they all had her as wife.\"",
+      "translator_notes": [
+        "The Greek pantes gar eschon autēn ('for they all had her') could be read crudely, but in context it means all seven were legally married to her in succession. The Sadducees believe they have created a logical impossibility that disproves resurrection — one woman cannot simultaneously be wife to seven men."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 29,
+      "text_greek": "ἀποκριθεὶς δὲ ὁ Ἰησοῦς εἶπεν αὐτοῖς· Πλανᾶσθε μὴ εἰδότες τὰς γραφὰς μηδὲ τὴν δύναμιν τοῦ θεοῦ·",
+      "text_kjv": "Jesus answered and said unto them, Ye do err, not knowing the scriptures, nor the power of God.",
+      "rendering": "Jesus answered them, \"You are mistaken, because you know neither the Scriptures nor the power of God.",
+      "translator_notes": [
+        "The verb planasthe ('you are led astray, you wander') implies not just intellectual error but spiritual disorientation. Jesus identifies two sources of their mistake: ignorance of Scripture (tas graphas, the very Torah they claim to champion) and ignorance of God's power (tēn dynamin tou theou) — they have limited God to what their theology permits."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 30,
+      "text_greek": "ἐν γὰρ τῇ ἀναστάσει οὔτε γαμοῦσιν οὔτε γαμίζονται, ἀλλ' ὡς ἄγγελοι ἐν τῷ οὐρανῷ εἰσιν.",
+      "text_kjv": "For in the resurrection they neither marry, nor are given in marriage, but are as the angels of God in heaven.",
+      "rendering": "For in the resurrection people neither marry nor are given in marriage, but are like the angels in heaven.",
+      "translator_notes": [
+        "Jesus does not deny resurrection but redefines its nature. The distinction between gamousin ('they marry,' active, typically of men) and gamizontai ('they are given in marriage,' passive, typically of women being given by their father) reflects first-century marriage customs. The comparison to angels does not mean people become angels but that the resurrected state transcends the social structures of mortal life, including marriage. This directly dissolves the Sadducees' riddle."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 31,
+      "text_greek": "περὶ δὲ τῆς ἀναστάσεως τῶν νεκρῶν οὐκ ἀνέγνωτε τὸ ῥηθὲν ὑμῖν ὑπὸ τοῦ θεοῦ λέγοντος·",
+      "text_kjv": "But as touching the resurrection of the dead, have ye not read that which was spoken unto you by God, saying,",
+      "rendering": "And concerning the resurrection of the dead, have you not read what was spoken to you by God:",
+      "translator_notes": [
+        "Jesus now turns to Scripture — specifically the Torah, the only authority the Sadducees accept. The phrase to rhēthen hymin ('what was spoken to you') is pointed: this was not spoken to ancient Israelites only but to you, the Sadducees, who claim to live by Moses."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 32,
+      "text_greek": "Ἐγώ εἰμι ὁ θεὸς Ἀβραὰμ καὶ ὁ θεὸς Ἰσαὰκ καὶ ὁ θεὸς Ἰακώβ; οὐκ ἔστιν ὁ θεὸς νεκρῶν ἀλλὰ ζώντων.",
+      "text_kjv": "I am the God of Abraham, and the God of Isaac, and the God of Jacob? God is not the God of the dead, but of the living.",
+      "rendering": "'I am the God of Abraham, the God of Isaac, and the God of Jacob'? He is not God of the dead but of the living.\"",
+      "translator_notes": [
+        "Jesus quotes Exodus 3:6, from the burning bush narrative — firmly within the Torah. His argument turns on the present tense 'I am' (egō eimi): God does not say 'I was' their God but 'I am,' implying that Abraham, Isaac, and Jacob are alive to God. This is an argument the Sadducees cannot dismiss as coming from the Prophets or Writings, which they considered less authoritative.",
+        "[TCR Cross-Reference] Draws on Exodus 3:6. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 33,
+      "text_greek": "καὶ ἀκούσαντες οἱ ὄχλοι ἐξεπλήσσοντο ἐπὶ τῇ διδαχῇ αὐτοῦ.",
+      "text_kjv": "And when the multitude heard this, they were astonished at his doctrine.",
+      "rendering": "When the crowds heard this, they were astonished at his teaching.",
+      "translator_notes": [
+        "The verb exeplēssonto ('were struck out of their senses, were astonished') is stronger than mere surprise — it connotes being overwhelmed. The same verb describes the crowd's reaction to the Sermon on the Mount (7:28). 'Teaching' (didachē) is preferred over the KJV's 'doctrine,' which in modern English implies systematic theology."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 34,
+      "text_greek": "Οἱ δὲ Φαρισαῖοι ἀκούσαντες ὅτι ἐφίμωσεν τοὺς Σαδδουκαίους συνήχθησαν ἐπὶ τὸ αὐτό,",
+      "text_kjv": "But when the Pharisees had heard that he had put the Sadducees to silence, they were gathered together.",
+      "rendering": "When the Pharisees heard that he had silenced the Sadducees, they gathered together.",
+      "translator_notes": [
+        "The verb ephimōsen ('silenced, muzzled') is the same word used for the speechless guest in verse 12 — a verbal link suggesting divine authority that stops mouths. The Pharisees, having failed through their proxies (v. 16), now regroup for a direct challenge. The irony is that the Pharisees would have agreed with Jesus about resurrection — yet they still oppose him."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 35,
+      "text_greek": "καὶ ἐπηρώτησεν εἷς ἐξ αὐτῶν νομικὸς πειράζων αὐτόν·",
+      "text_kjv": "Then one of them, which was a lawyer, asked him a question, tempting him,",
+      "rendering": "Then one of them, which was a lawyer, asked him a challenge, tempting him,.",
+      "translator_notes": [
+        "The nomikos ('lawyer, legal expert') is someone skilled in the Torah and its interpretation. The participle peirazōn ('testing') again uses the temptation vocabulary (cf. v. 18, 4:1). Whether this lawyer has hostile or genuinely curious intent is ambiguous — Mark's parallel (12:28) presents the scribe more positively. Matthew's peirazōn tilts toward a hostile reading."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 36,
+      "text_greek": "Διδάσκαλε, ποία ἐντολὴ μεγάλη ἐν τῷ νόμῳ;",
+      "text_kjv": "Master, which is the great commandment in the law?",
+      "rendering": "\"Teacher, which commandment in the law is the greatest?\"",
+      "translator_notes": [
+        "The question poia entolē megalē ('which commandment is great?') reflects a real rabbinic debate. The rabbis identified 613 commandments in the Torah (248 positive, 365 negative) and debated which were 'heavy' (important) and which were 'light.' Asking Jesus to prioritize forces him to potentially diminish some commandments in favor of others."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 37,
+      "text_greek": "ὁ δὲ ἔφη αὐτῷ· Ἀγαπήσεις κύριον τὸν θεόν σου ἐν ὅλῃ τῇ καρδίᾳ σου καὶ ἐν ὅλῃ τῇ ψυχῇ σου καὶ ἐν ὅλῃ τῇ διανοίᾳ σου·",
+      "text_kjv": "Jesus said unto him, Thou shalt love the Lord thy God with all thy heart, and with all thy soul, and with all thy mind.",
+      "rendering": "He said to him, \"'You shall love the Lord your God with all your heart and with all your soul and with all your mind.'",
+      "translator_notes": [
+        "Jesus quotes Deuteronomy 6:5, the centerpiece of the Shema — the daily Jewish confession of faith. The Greek follows the Septuagint with three terms: kardia ('heart,' the seat of will and thought in Semitic usage), psychē ('soul/life'), and dianoia ('mind, understanding'). The Hebrew original has 'heart, soul, and strength' (me'od); Matthew's 'mind' may represent an interpretive rendering of the Hebrew or follow a variant Septuagint tradition. The threefold 'all' (holē) demands totality — no compartment of the self is exempt.",
+        "[TCR Cross-Reference] Draws on Deuteronomy 6:5. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "key_terms": [
+        {
+          "greek": "ἀγαπήσεις",
+          "transliteration": "agapēseis",
+          "rendered_as": "you shall love",
+          "semantic_range": "to love, to value, to be devoted to",
+          "note": "The future indicative used as an imperative — a command, not a suggestion. Agapaō in the Septuagint translates the Hebrew ahav, encompassing love as covenantal commitment and active devotion, not merely emotion."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 38,
+      "text_greek": "αὕτη ἐστὶν ἡ μεγάλη καὶ πρώτη ἐντολή.",
+      "text_kjv": "This is the first and great commandment.",
+      "rendering": "This is the great and first commandment.",
+      "translator_notes": [
+        "Jesus identifies the Shema command as both megalē ('great' in importance) and prōtē ('first' in rank). By citing Deuteronomy 6:5, Jesus answers from the Torah itself — the ground shared by Pharisees, Sadducees, and all Jewish groups.",
+        "[TCR Cross-Reference] References Deuteronomy 6:5 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 39,
+      "text_greek": "δευτέρα δὲ ὁμοία αὐτῇ· Ἀγαπήσεις τὸν πλησίον σου ὡς σεαυτόν.",
+      "text_kjv": "And the second is like unto it, Thou shalt love thy neighbour as thyself.",
+      "rendering": "And a second is like it: 'You shall love your neighbor as yourself.'",
+      "translator_notes": [
+        "Jesus volunteers a second commandment from Leviticus 19:18 that was not asked for. The word homoia ('like, similar') does not mean identical but says the second shares the same essential character as the first — love of God and love of neighbor are inseparable. The combination of Deuteronomy 6:5 and Leviticus 19:18 into a unified ethical framework appears to be original to Jesus, though Rabbi Hillel's 'Golden Rule' (b. Shabbat 31a) expresses a similar instinct.",
+        "[TCR Cross-Reference] Echoes Leviticus 19:18. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale.",
+        "[TCR Cross-Reference] Echoes Deuteronomy 6:5. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 40,
+      "text_greek": "ἐν ταύταις ταῖς δυσὶν ἐντολαῖς ὅλος ὁ νόμος κρέμαται καὶ οἱ προφῆται.",
+      "text_kjv": "On these two commandments hang all the law and the prophets.",
+      "rendering": "On these two commandments hang every one of the law and the prophets.",
+      "translator_notes": [
+        "The verb krematai ('hangs, depends') is vivid — the entire Torah and prophetic corpus is suspended from these two commands like a door on its hinges. Jesus does not replace the 613 commandments but provides their organizing center. 'The Law and the Prophets' (ho nomos kai hoi prophētai) is the standard Jewish designation for Scripture (cf. 5:17, 7:12)."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 41,
+      "text_greek": "Συνηγμένων δὲ τῶν Φαρισαίων ἐπηρώτησεν αὐτοὺς ὁ Ἰησοῦς",
+      "text_kjv": "While the Pharisees were gathered together, Jesus asked them,",
+      "rendering": "While the Pharisees were assembled, Jesus asked them,",
+      "translator_notes": [
+        "The initiative now shifts — Jesus moves from defense to offense. Having answered three challenges, he poses his own question. The genitive absolute synēgmenōn ('while being gathered') recalls their gathering in verse 34, making Jesus's counter-question an immediate response to their collective challenge."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 42,
+      "text_greek": "λέγων· Τί ὑμῖν δοκεῖ περὶ τοῦ Χριστοῦ; τίνος υἱός ἐστιν; λέγουσιν αὐτῷ· Τοῦ Δαυίδ.",
+      "text_kjv": "Saying, What think ye of Christ? whose son is he? They say unto him, The Son of David.",
+      "rendering": "\"What do you think about the Christ? Whose son is he?\" They said to him, \"David's.\"",
+      "translator_notes": [
+        "The question peri tou Christou ('about the Christ/Messiah') is about the expected Messiah, not about Jesus himself — at least not explicitly. The Pharisees' answer 'David's son' is theologically correct but incomplete, as Jesus will demonstrate. This was the standard messianic expectation drawn from 2 Samuel 7 and Isaiah 11.",
+        "[TCR Cross-Reference] Draws on 2 Samuel 7. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices.",
+        "[TCR Cross-Reference] Draws on Isaiah 11. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 43,
+      "text_greek": "λέγει αὐτοῖς· Πῶς οὖν Δαυὶδ ἐν πνεύματι καλεῖ αὐτὸν κύριον λέγων·",
+      "text_kjv": "He saith unto them, How then doth David in spirit call him Lord, saying,",
+      "rendering": "He said to them, \"How then does David, speaking by the Spirit, call him Lord?",
+      "translator_notes": [
+        "The phrase en pneumati ('in/by the Spirit') attributes Davidic authorship of Psalm 110 to divine inspiration. Jesus's argument depends on two premises: (1) David wrote Psalm 110, and (2) he wrote it under the Spirit's guidance. Both were uncontested assumptions in first-century Judaism.",
+        "[TCR Cross-Reference] References Psalm 110 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 44,
+      "text_greek": "Εἶπεν κύριος τῷ κυρίῳ μου· Κάθου ἐκ δεξιῶν μου ἕως ἂν θῶ τοὺς ἐχθρούς σου ὑποκάτω τῶν ποδῶν σου;",
+      "text_kjv": "The LORD said unto my Lord, Sit thou on my right hand, till I make thine enemies thy footstool?",
+      "rendering": "'The Lord said to my Lord, \"Sit at my right hand, until I put your enemies under your feet\"'?",
+      "translator_notes": [
+        "Jesus quotes Psalm 110:1 from the Septuagint. The Hebrew original distinguishes two figures: YHWH (the LORD) speaks to adoni ('my lord,' David's superior). In the Greek, both are kyrios ('Lord'), but the first represents God and the second the Messiah. The right hand is the position of co-regency and supreme honor. This psalm was the most frequently cited Old Testament text in the early church (Acts 2:34-35, 1 Corinthians 15:25, Hebrews 1:13).",
+        "[TCR Cross-Reference] Echoes Psalms 110:1. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 45,
+      "text_greek": "εἰ οὖν Δαυὶδ καλεῖ αὐτὸν κύριον, πῶς υἱὸς αὐτοῦ ἐστιν;",
+      "text_kjv": "If David then call him Lord, how is he his son?",
+      "rendering": "How is he his son?, and if David then call him Lord.",
+      "translator_notes": [
+        "Jesus's argument is not that the Messiah is not David's son — the genealogy in chapter 1 affirms that he is. Rather, the Messiah must be more than David's son: he must also be David's Lord. A father does not call his descendant 'my Lord.' The Messiah must therefore transcend mere Davidic descent. Jesus leaves the implication unspoken, forcing the Pharisees to grapple with it."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 46,
+      "text_greek": "καὶ οὐδεὶς ἐδύνατο ἀποκριθῆναι αὐτῷ λόγον οὐδὲ ἐτόλμησέν τις ἀπ' ἐκείνης τῆς ἡμέρας ἐπερωτῆσαι αὐτὸν οὐκέτι.",
+      "text_kjv": "And no man was able to answer him a word, neither durst any man from that day forth ask him any more questions.",
+      "rendering": "No one was able to answer him a word, and from that day on no one dared to ask him any more questions.",
+      "translator_notes": [
+        "The double negative — no one could answer (edynato apokrithēnai) and no one dared ask (etolmēsen eperōtēsai) — creates a comprehensive silencing. The verb tolmaō ('to dare, to have courage') indicates that questions stopped not from satisfaction but from fear. This verse closes the series of public debates that began in 21:23 and transitions to Jesus's initiative in chapter 23."
+      ],
+      "reading_level": "7th grade"
+    }
+  ]
+}

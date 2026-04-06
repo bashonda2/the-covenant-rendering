@@ -1,0 +1,641 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Daniel (Addition: Susanna)",
+    "source_text": "Rahlfs' Septuaginta (Theodotion text)",
+    "reference_text": "NRSV with Apocrypha",
+    "generated_at": "2026-04-05T00:00:00Z",
+    "prompt_version": "1.0",
+    "license": "CC-BY-4.0",
+    "chapter": 13
+  },
+  "preamble": {
+    "summary": "Susanna is a tale of virtue vindicated and justice restored through divinely inspired wisdom. Two corrupt elders conspire to coerce a righteous woman into adultery, and when she refuses, they frame her with false testimony. The young Daniel, filled with the holy spirit, exposes their lie through the brilliant device of cross-examining the witnesses separately — they name different trees, and their testimony collapses.",
+    "remarkable": "The story is a masterpiece of legal narrative — the earliest known example of cross-examination as a forensic technique. The Greek wordplays on the tree names (schinos/schisei, prinos/prisei) strongly suggest original composition in Greek rather than translation from Hebrew or Aramaic. In the OG, Susanna is placed before Daniel 1 as a prologue; in Theodotion, it follows as chapter 13.",
+    "friction": "The story has no MT counterpart and is excluded from the Jewish and Protestant canons. It appears only in the Greek tradition. Jerome placed it among the additions to Daniel with a cautionary preface. The tale's themes — abuse of judicial power, weaponization of legal testimony against the innocent, divine vindication of the falsely accused — resonate across every era.",
+    "connections": "Deuteronomy 19:15-21 (false witnesses receive the punishment they sought); Jeremiah 29:21-23 (prophets committing adultery in Babylon); Daniel 1-6 (Daniel's wisdom); Matthew 27:24 (washing hands of innocent blood)."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_source": "Greek (Th): Καὶ ἦν ἀνὴρ οἰκῶν ἐν Βαβυλῶνι καὶ ὄνομα αὐτῷ Ιωακιμ",
+      "text_reference": "There was a man living in Babylon whose name was Joakim.",
+      "rendering": "There was a man dwelling in Babylon, and his name was Joakim.",
+      "translator_notes": [
+        "Susanna is placed before Daniel 1 in the OG but after chapter 12 (as chapter 13) in Theodotion. Both versions agree it is set in the Babylonian exile."
+      ],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 2,
+      "text_source": "Greek (Th): καὶ ἔλαβεν γυναῖκα ᾗ ὄνομα Σουσαννα θυγάτηρ Χελκιου",
+      "text_reference": "He married a woman named Susanna, daughter of Hilkiah, a very beautiful woman who feared the Lord.",
+      "rendering": "He married a woman named Susanna, daughter of Hilkiah — a woman of great beauty and one who feared the LORD.",
+      "translator_notes": [
+        "Susanna is introduced with a dual identification: beauty and piety. Her father's name Hilkiah echoes the high priest of Josiah's time (2 Kings 22:8)."
+      ],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 3,
+      "text_source": "Greek (Th): καὶ οἱ γονεῖς αὐτῆς δίκαιοι",
+      "text_reference": "Her parents were righteous and had trained their daughter according to the law of Moses.",
+      "rendering": "Her parents were righteous people, and they had raised their daughter according to the Law of Moses.",
+      "translator_notes": [
+        "The emphasis on Torah education anticipates the narrative's legal crisis — the story will turn on the proper application of legal procedure."
+      ],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 4,
+      "text_source": "Greek (Th): καὶ ἦν Ιωακιμ πλούσιος σφόδρα",
+      "text_reference": "Joakim was very rich, and had a fine garden adjoining his house.",
+      "rendering": "Now Joakim was exceedingly wealthy, and he had a garden adjoining his house.",
+      "translator_notes": [],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 5,
+      "text_source": "Greek (Th): καὶ πρὸς αὐτὸν προσήρχοντο οἱ Ιουδαῖοι",
+      "text_reference": "The Jews used to come to him because he was the most honored of them all.",
+      "rendering": "The Jews would come to him because he was the most honored of them all.",
+      "translator_notes": [],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 6,
+      "text_source": "Greek (Th): καὶ ἀπεδείχθησαν δύο πρεσβύτεροι ἐκ τοῦ λαοῦ κριταί",
+      "text_reference": "That year two elders from the people were appointed as judges.",
+      "rendering": "In that year, two elders from among the people were appointed as judges.",
+      "translator_notes": [
+        "The elders' appointment as judges is ironic — they who should uphold justice become its chief violators."
+      ],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 7,
+      "text_source": "Greek (Th): περὶ ὧν ἐλάλησεν ὁ δεσπότης ὅτι ἐξῆλθεν ἀνομία ἐκ Βαβυλῶνος",
+      "text_reference": "Concerning them the Lord had said: 'Wickedness came forth from Babylon, from elders who were judges.'",
+      "rendering": "Concerning these the Lord had said: 'Lawlessness went out from Babylon, from elders who were judges and who were supposed to govern the people.'",
+      "translator_notes": [
+        "The prophetic indictment echoes Jeremiah 23:14-15 and 29:21-23, where Jeremiah condemns false prophets in Babylon for adultery."
+      ],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 8,
+      "text_source": "Greek (Th): οὗτοι προσεκαρτέρουν ἐν τῇ οἰκίᾳ Ιωακιμ",
+      "text_reference": "These men were frequently at Joakim's house, and all who had a case to be tried came to them.",
+      "rendering": "These men spent much time at Joakim's house, and all who had disputes to settle came before them.",
+      "translator_notes": [],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 9,
+      "text_source": "Greek (Th): καὶ ἐγένετο ἡνίκα ἀπέτρεχεν ὁ λαός",
+      "text_reference": "When the people left at noon, Susanna would go into her husband's garden to walk.",
+      "rendering": "And it happened that when the people departed at midday, Susanna would enter her husband's garden to walk.",
+      "translator_notes": [],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 10,
+      "text_source": "Greek (Th): καὶ ἐθεώρουν αὐτὴν οἱ δύο πρεσβύτεροι",
+      "text_reference": "Every day the two elders used to see her, going in and walking about, and they began to lust for her.",
+      "rendering": "The two elders would watch her day after day as she entered and walked about, and they were consumed with desire for her.",
+      "translator_notes": [],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 11,
+      "text_source": "Greek (Th): καὶ διέστρεψαν τὸν νοῦν αὐτῶν",
+      "text_reference": "They suppressed their consciences and turned away their eyes from looking to Heaven.",
+      "rendering": "They corrupted their own minds and turned their eyes away from looking toward heaven.",
+      "translator_notes": [
+        "'Turned away from heaven' — a deliberate theological act. Their sin begins with averting their gaze from God, which is then redirected toward Susanna."
+      ],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 12,
+      "text_source": "Greek (Th): καὶ ἦσαν ἀμφότεροι κατανενυγμένοι περὶ αὐτῆς",
+      "text_reference": "Both were overwhelmed with passion for her, but they did not tell each other of their distress.",
+      "rendering": "Both were pierced with passion for her, yet neither revealed his torment to the other,",
+      "translator_notes": [],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 13,
+      "text_source": "Greek (Th): ὅτι ᾐσχύνοντο ἀναγγεῖλαι τὴν ἐπιθυμίαν αὐτῶν",
+      "text_reference": "for they were ashamed to disclose their lustful desire to seduce her.",
+      "rendering": "for they were ashamed to confess their lust and their desire to seduce her.",
+      "translator_notes": [],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 14,
+      "text_source": "Greek (Th): καὶ παρετηροῦσαν φιλοτίμως καθ᾽ ἡμέραν ὁρᾶν αὐτήν",
+      "text_reference": "Day after day they watched eagerly to see her.",
+      "rendering": "And day after day they watched eagerly for a chance to see her.",
+      "translator_notes": [],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 15,
+      "text_source": "Greek (Th): καὶ εἶπαν ἕτερος πρὸς τὸν ἕτερον",
+      "text_reference": "One day they said to each other, 'Let us go home, for it is time for lunch.'",
+      "rendering": "Then one said to the other, 'Let us go home, for it is mealtime.'",
+      "translator_notes": [],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 16,
+      "text_source": "Greek (Th): καὶ ἐξελθόντες διεχωρίσθησαν ἀπ᾽ ἀλλήλων",
+      "text_reference": "So they both left and parted from each other.",
+      "rendering": "So they went out and parted from one another.",
+      "translator_notes": [],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 17,
+      "text_source": "Greek (Th): καὶ ἀνακάμψαντες ἦλθον ἐπὶ τὸ αὐτό",
+      "text_reference": "But turning back, they met again; and when each pressed the other for the reason, they confessed their lust.",
+      "rendering": "But each doubled back, and when they met again they pressed each other for the reason, and they confessed their desire.",
+      "translator_notes": [],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 18,
+      "text_source": "Greek (Th): καὶ τότε κοινῇ συνετάξαντο καιρόν",
+      "text_reference": "Then together they arranged for a time when they could find her alone.",
+      "rendering": "Then together they arranged a time when they might find her alone.",
+      "translator_notes": [],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 19,
+      "text_source": "Greek (Th): καὶ ἐγένετο ἐν τῷ παρατηρεῖν αὐτοὺς ἡμέραν εὔθετον",
+      "text_reference": "Once, while they were watching for an opportune day, she went in as before with only two maids.",
+      "rendering": "And it happened, as they watched for a fitting day, she entered the garden as before with only two servant girls.",
+      "translator_notes": [],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 20,
+      "text_source": "Greek (Th): καὶ ἐπεθύμησεν λούσασθαι ἐν τῷ παραδείσῳ",
+      "text_reference": "and she wished to bathe in the garden, for it was a hot day.",
+      "rendering": "She wished to bathe in the garden, for the day was hot.",
+      "translator_notes": [],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 21,
+      "text_source": "Greek (Th): καὶ οὐκ ἦν οὐδεὶς ἐκεῖ πλὴν οἱ δύο πρεσβύτεροι",
+      "text_reference": "No one was there except the two elders, who had hidden themselves and were watching her.",
+      "rendering": "And no one was there besides the two elders, who had concealed themselves and were watching her.",
+      "translator_notes": [],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 22,
+      "text_source": "Greek (Th): καὶ εἶπεν τοῖς κορασίοις",
+      "text_reference": "She said to her maids, 'Bring me olive oil and ointments, and shut the garden doors so that I can bathe.'",
+      "rendering": "She said to the servant girls, 'Bring me oil and ointments, and shut the garden gates so that I may bathe.'",
+      "translator_notes": [],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 23,
+      "text_source": "Greek (Th): καὶ ἐποίησαν καθὼς εἶπεν",
+      "text_reference": "They did as she told them: they shut the garden doors and went out by the side doors to bring what she had ordered.",
+      "rendering": "They did as she instructed: they shut the garden gates and went out by the side doors to bring what she had requested.",
+      "translator_notes": [],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 24,
+      "text_source": "Greek (Th): καὶ ἀνέδραμον οἱ δύο πρεσβύτεροι",
+      "text_reference": "When the maids had gone out, the two elders got up and ran to her.",
+      "rendering": "When the servants had gone out, the two elders sprang up and ran to her.",
+      "translator_notes": [],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 25,
+      "text_source": "Greek (Th): καὶ εἶπον Ἰδοὺ αἱ θύραι τοῦ παραδείσου κέκλεινται",
+      "text_reference": "They said, 'Look, the garden doors are shut, and no one can see us. We are burning with desire for you.'",
+      "rendering": "And they said, 'Look — the garden gates are shut and no one can see us. We are on fire with desire for you.",
+      "translator_notes": [],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 26,
+      "text_source": "Greek (Th): συγκατάθου οὖν ἡμῖν καὶ γενοῦ μεθ᾽ ἡμῶν",
+      "text_reference": "'so give your consent, and lie with us.'",
+      "rendering": "Give in to us and lie with us.",
+      "translator_notes": [],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 27,
+      "text_source": "Greek (Th): εἰ δὲ μή, καταμαρτυρήσομέν σου",
+      "text_reference": "'If you refuse, we will testify against you that a young man was with you, and this was why you sent your maids away.'",
+      "rendering": "If you refuse, we will testify against you that a young man was with you, and that is why you sent your servants away.'",
+      "translator_notes": [
+        "The elders weaponize the legal system — two witnesses could secure a death sentence under Torah law (Deuteronomy 17:6, 19:15). Their threat exploits a genuine legal principle."
+      ],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 28,
+      "text_source": "Greek (Th): καὶ ἀνεστέναξεν Σουσαννα",
+      "text_reference": "Susanna groaned and said, 'I am completely trapped.'",
+      "rendering": "Susanna groaned deeply and said, 'I am hemmed in on every side.",
+      "translator_notes": [],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 29,
+      "text_source": "Greek (Th): ἐάν τε γὰρ τοῦτο πράξω θάνατός μοί ἐστιν",
+      "text_reference": "'For if I do this, it means death for me; if I do not, I cannot escape your hands.'",
+      "rendering": "For if I do this thing, it is death for me; and if I do not, I will not escape your hands.",
+      "translator_notes": [],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 30,
+      "text_source": "Greek (Th): αἱρετόν μοί ἐστιν μὴ πράξασαν ἐμπεσεῖν εἰς τὰς χεῖρας ὑμῶν",
+      "text_reference": "'I choose not to do it; I will fall into your hands, rather than sin in the sight of the Lord.'",
+      "rendering": "Yet it is better for me to fall into your hands without doing it than to sin in the sight of the Lord.'",
+      "translator_notes": [
+        "Susanna's moral reasoning is exemplary: she chooses certain injustice over certain sin. This echoes the three young men in Daniel 3 who chose the furnace over idolatry."
+      ],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 31,
+      "text_source": "Greek (Th): καὶ ἀνεβόησεν φωνῇ μεγάλῃ Σουσαννα",
+      "text_reference": "Then Susanna cried out with a loud voice, and the two elders shouted against her.",
+      "rendering": "Then Susanna cried out with a loud voice, and the two elders shouted out against her.",
+      "translator_notes": [],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 32,
+      "text_source": "Greek (Th): καὶ δραμὼν ὁ εἷς ἤνοιξεν τὰς θύρας τοῦ παραδείσου",
+      "text_reference": "One of them ran and opened the garden doors.",
+      "rendering": "And one of them ran and opened the garden gates.",
+      "translator_notes": [],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 33,
+      "text_source": "Greek (Th): ὡς δὲ ἤκουσαν τὴν κραυγὴν ἐν τῷ παραδείσῳ οἱ ἐκ τῆς οἰκίας",
+      "text_reference": "When the people in the house heard the shouting in the garden, they rushed in through the side door to see what had happened.",
+      "rendering": "When the servants of the household heard the outcry in the garden, they rushed in through the side door to see what had happened to her.",
+      "translator_notes": [],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 34,
+      "text_source": "Greek (Th): ὡς δὲ εἶπαν οἱ πρεσβύτεροι τοὺς λόγους αὐτῶν",
+      "text_reference": "When the elders told their tale, the servants felt very much ashamed, for nothing like this had ever been said about Susanna.",
+      "rendering": "When the elders gave their account, the servants were deeply ashamed, for never had such a thing been said about Susanna.",
+      "translator_notes": [],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 35,
+      "text_source": "Greek (Th): καὶ ἐγένετο τῇ ἐπαύριον ὡς συνῆλθεν ὁ λαός",
+      "text_reference": "The next day, when the people gathered at the house of her husband Joakim, the two elders came.",
+      "rendering": "The next day, when the people assembled at the house of her husband Joakim, the two elders came,",
+      "translator_notes": [],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 36,
+      "text_source": "Greek (Th): πλήρεις τῆς ἀνόμου ἐννοίας κατὰ Σουσαννης τοῦ θανατῶσαι αὐτήν",
+      "text_reference": "full of their wicked plan to have Susanna put to death.",
+      "rendering": "full of their lawless purpose to have Susanna put to death.",
+      "translator_notes": [],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 37,
+      "text_source": "Greek (Th): καὶ εἶπαν ἔμπροσθεν τοῦ λαοῦ",
+      "text_reference": "They said before the people, 'Send for Susanna daughter of Hilkiah, the wife of Joakim.'",
+      "rendering": "They said before the people, 'Send for Susanna, daughter of Hilkiah, wife of Joakim.' And they sent for her.",
+      "translator_notes": [],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 38,
+      "text_source": "Greek (Th): καὶ ἦλθεν αὐτὴ καὶ οἱ γονεῖς αὐτῆς καὶ τὰ τέκνα αὐτῆς",
+      "text_reference": "So they sent for her. She came with her parents, her children, and all her relatives.",
+      "rendering": "She came, along with her parents, her children, and all her relatives.",
+      "translator_notes": [],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 39,
+      "text_source": "Greek (Th): ἡ δὲ Σουσαννα ἦν τρυφερὰ σφόδρα",
+      "text_reference": "Now Susanna was a woman of great refinement and beautiful in appearance.",
+      "rendering": "Now Susanna was exceedingly delicate and beautiful to behold.",
+      "translator_notes": [],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 40,
+      "text_source": "Greek (Th): καὶ ἐκέλευσαν οἱ παράνομοι ἀποκαλυφθῆναι αὐτήν",
+      "text_reference": "These wicked men commanded that she be unveiled, so that they might feast their eyes on her beauty.",
+      "rendering": "The lawless men commanded that her face be uncovered — for she was veiled — so that they might gorge themselves on her beauty.",
+      "translator_notes": [
+        "The demand to unveil Susanna adds public humiliation to their crime. The word apokalypthēnai (to be unveiled/revealed) is the same root as 'apocalypse.'"
+      ],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 41,
+      "text_source": "Greek (Th): ἔκλαιον δὲ οἱ παρ᾽ αὐτῆς καὶ πάντες οἱ γνόντες αὐτήν",
+      "text_reference": "Those who were with her and all who saw her were weeping.",
+      "rendering": "And all who were with her, and all who knew her, were weeping.",
+      "translator_notes": [],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 42,
+      "text_source": "Greek (Th): ἀναστάντες δὲ οἱ δύο πρεσβύτεροι ἐν μέσῳ τοῦ λαοῦ ἔθηκαν τὰς χεῖρας ἐπὶ τὴν κεφαλὴν αὐτῆς",
+      "text_reference": "Then the two elders stood up in the midst of the people and laid their hands on her head.",
+      "rendering": "Then the two elders rose in the midst of the people and placed their hands on her head.",
+      "translator_notes": [
+        "Laying hands on the head of the accused was the legal gesture of formal accusation (cf. Leviticus 24:14). The elders perverted the very ritual designed to ensure justice."
+      ],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 43,
+      "text_source": "Greek (Th): ἡ δὲ κλαίουσα ἀνέβλεψεν εἰς τὸν οὐρανόν",
+      "text_reference": "She, weeping, looked up toward heaven, for her heart trusted in the Lord.",
+      "rendering": "And she, weeping, looked up toward heaven, for her heart trusted in the Lord.",
+      "translator_notes": [
+        "Susanna's gaze toward heaven contrasts sharply with the elders who 'turned away their eyes from heaven' in v. 9. She looks to the Judge the elders refused to face."
+      ],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 44,
+      "text_source": "Greek (Th): καὶ εἶπαν οἱ πρεσβύτεροι",
+      "text_reference": "The elders said, 'While we were walking in the garden alone, this woman came in with two maids.'",
+      "rendering": "The elders said, 'As we were walking alone in the garden, this woman entered with two servants.'",
+      "translator_notes": [],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 45,
+      "text_source": "Greek (Th): καὶ ἀπέκλεισεν τὰς θύρας τοῦ παραδείσου καὶ ἀπέλυσεν τὰ κοράσια",
+      "text_reference": "'She shut the garden doors and dismissed the maids.'",
+      "rendering": "'She shut the garden gates and dismissed the servants.'",
+      "translator_notes": [],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 46,
+      "text_source": "Greek (Th): καὶ ἦλθεν πρὸς αὐτὴν νεανίσκος ὃς ἦν κεκρυμμένος",
+      "text_reference": "'Then a young man, who was hiding there, came to her and lay with her.'",
+      "rendering": "'Then a young man who had been hiding came to her, and he lay with her.'",
+      "translator_notes": [],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 47,
+      "text_source": "Greek (Th): ἡμεῖς δὲ ὄντες ἐν τῇ γωνίᾳ τοῦ παραδείσου",
+      "text_reference": "'We were in a corner of the garden and when we saw this wickedness we ran to them.'",
+      "rendering": "'We were in a corner of the garden, and when we saw this lawlessness, we ran to them.'",
+      "translator_notes": [],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 48,
+      "text_source": "Greek (Th): καὶ ἰδόντες συγγινομένους αὐτούς",
+      "text_reference": "'Although we saw them embracing, we could not hold the man, because he was stronger than we.'",
+      "rendering": "'And though we saw them together, we could not restrain the man, for he was stronger than us.',",
+      "translator_notes": [],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 49,
+      "text_source": "Greek (Th): καὶ ἀνοίξας τὰς θύρας ἐξήλατο",
+      "text_reference": "'He opened the doors and dashed out.'",
+      "rendering": "'He opened the gates and dashed out.'",
+      "translator_notes": [],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 50,
+      "text_source": "Greek (Th): ταύτην δὲ συλλαβόντες ἐπηρωτῶμεν τίς ἦν ὁ νεανίσκος",
+      "text_reference": "'Then we seized this woman and asked her who the young man was, but she would not tell us.'",
+      "rendering": "'We then seized this woman and demanded to know who the young man was, but she would not tell us.'",
+      "translator_notes": [],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 51,
+      "text_source": "Greek (Th): ταῦτα μαρτυροῦμεν",
+      "text_reference": "'These things we testify.' The assembly believed them because they were elders and judges, and they condemned her to death.",
+      "rendering": "'To these things we testify.' And the assembly believed them, because they were elders of the people and judges, and they condemned her to death.",
+      "translator_notes": [
+        "The assembly accepts the testimony without cross-examination — a failure of due process that the narrative will expose."
+      ],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 52,
+      "text_source": "Greek (Th): ἀνεβόησεν δὲ φωνῇ μεγάλῃ Σουσαννα",
+      "text_reference": "Then Susanna cried out with a loud voice, 'O eternal God, you know what is secret.'",
+      "rendering": "Then Susanna cried out with a loud voice and said, 'O eternal God, you who know all secrets and know all things before they come to be —",
+      "translator_notes": [],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 53,
+      "text_source": "Greek (Th): σὺ ἐπίστασαι ὅτι ψευδῆ μου κατεμαρτύρησαν",
+      "text_reference": "'You know that these men have given false evidence against me. And now I am to die, though I have done none of the wicked things they charged against me!'",
+      "rendering": "you know that they have testified falsely against me. And now I am about to die, though I have done none of the things these men have charged against me!'",
+      "translator_notes": [],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 54,
+      "text_source": "Greek (Th): καὶ εἰσήκουσεν κύριος τῆς φωνῆς αὐτῆς",
+      "text_reference": "The Lord heard her cry.",
+      "rendering": "And the Lord heard her cry.",
+      "translator_notes": [],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 55,
+      "text_source": "Greek (Th): καὶ ἀπαγομένης αὐτῆς ἀπολέσθαι ἐξήγειρεν ὁ θεὸς τὸ πνεῦμα τὸ ἅγιον παιδαρίου νεωτέρου ᾧ ὄνομα Δανιηλ",
+      "text_reference": "Just as she was being led off to execution, God stirred up the holy spirit of a young lad named Daniel.",
+      "rendering": "And as she was being led away to be put to death, God roused the holy spirit of a young boy whose name was Daniel.",
+      "translator_notes": [
+        "This is the narrative's connection to the Daniel tradition — the young Daniel is already a vessel of the holy spirit. The phrase 'God roused the holy spirit' (exēgeiren ho theos to pneuma to hagion) echoes Judges' spirit-empowerment language."
+      ],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 56,
+      "text_source": "Greek (Th): καὶ ἐβόησεν φωνῇ μεγάλῃ",
+      "text_reference": "and he shouted with a loud voice, 'I want no part in shedding this woman's blood!'",
+      "rendering": "And he cried out with a loud voice, 'I am innocent of this woman's blood!'",
+      "translator_notes": [],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 57,
+      "text_source": "Greek (Th): καὶ ἐπέστρεψεν πᾶς ὁ λαὸς πρὸς αὐτόν",
+      "text_reference": "All the people turned to him and asked, 'What do you mean by this?'",
+      "rendering": "Then all the people turned to him and said, 'What is this that you have said?'",
+      "translator_notes": [],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 58,
+      "text_source": "Greek (Th): καὶ στὰς ἐν μέσῳ αὐτῶν εἶπεν",
+      "text_reference": "He stood among them and said, 'Are you such fools, O Israelites, as to condemn a daughter of Israel without examination?'",
+      "rendering": "Standing in their midst, he said, 'Are you such fools, O sons of Israel? Have you condemned a daughter of Israel without examination and without learning the truth?",
+      "translator_notes": [],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 59,
+      "text_source": "Greek (Th): ἐπιστρέψατε εἰς τὸ κριτήριον",
+      "text_reference": "'Return to court, for these men have given false evidence against her.'",
+      "rendering": "Return to the place of judgment, for these men have testified falsely against her.'",
+      "translator_notes": [],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 60,
+      "text_source": "Greek (Th): καὶ ἐπέστρεψεν πᾶς ὁ λαός",
+      "text_reference": "Then all the people hurried back. The rest of the elders said to him, 'Come, sit among us and inform us, for God has given you the standing of an elder.'",
+      "rendering": "And all the people returned in haste. The other elders said to Daniel, 'Come, sit among us and inform us, for God has given you the standing of an elder.'",
+      "translator_notes": [
+        "Daniel is recognized as having elder-status despite his youth — a dramatic reversal. Wisdom, not age, qualifies him to judge."
+      ],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 61,
+      "text_source": "Greek (Th): καὶ εἶπεν πρὸς αὐτοὺς Δανιηλ Διαχωρίσατε αὐτοὺς ἀπ᾽ ἀλλήλων",
+      "text_reference": "Daniel said to them, 'Separate them far from each other, and I will examine them.'",
+      "rendering": "Daniel said to them, 'Separate them far from one another, and I will examine them.'",
+      "translator_notes": [
+        "The cross-examination by separating witnesses is a foundational principle of legal procedure. Daniel applies Deuteronomy 19:15-21 properly."
+      ],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 62,
+      "text_source": "Greek (Th): καὶ εἶπεν τῷ πρώτῳ Ὑπὸ τί δένδρον εἶδες αὐτοὺς ὁμιλοῦντας",
+      "text_reference": "To the first he said, 'Under what tree did you see them being intimate?' He answered, 'Under a mastic tree.'",
+      "rendering": "He said to the first elder, 'Under what kind of tree did you see them together?' He answered, 'Under a mastic tree.'",
+      "translator_notes": [
+        "In the Greek there is a wordplay: schinos (mastic tree) and schisei (cut/split). The pun works only in Greek — 'Under a mastic tree? God will mast-icate you.' This strongly suggests Greek composition rather than Hebrew/Aramaic original.",
+        {
+          "term": "mastic tree",
+          "note": "Greek schinos — a small tree. The wordplay schinos/schisei (mastic/split) is untranslatable, confirming Greek as the language of composition."
+        }
+      ],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 63,
+      "text_source": "Greek (Th): καὶ εἶπεν τῷ δευτέρῳ Ὑπὸ τί δένδρον κατέλαβες αὐτοὺς ὁμιλοῦντας",
+      "text_reference": "To the second he said, 'Under what tree did you catch them being intimate?' He answered, 'Under an evergreen oak.'",
+      "rendering": "He said to the second elder, 'Under what kind of tree did you catch them together?' He answered, 'Under an evergreen oak.'",
+      "translator_notes": [
+        "Second wordplay: prinos (evergreen oak) and prisei (saw asunder). 'Under an oak? God will oak-ver you in half.' Again, the pun works only in Greek.",
+        {
+          "term": "evergreen oak",
+          "note": "Greek prinos — a large tree. The wordplay prinos/prisei (oak/saw) is the second Greek pun proving the story's original language."
+        }
+      ],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 64,
+      "text_source": "Greek (Th): καὶ ἀνεβόησεν πᾶσα ἡ συναγωγή",
+      "text_reference": "Then the whole assembly raised a great shout and blessed God, who saves those who hope in him. They took action against the two elders, and put them to death.",
+      "rendering": "Then the whole assembly raised a great shout and blessed God, who saves those who place their hope in him. And they rose up against the two elders — for Daniel had convicted them out of their own mouths of bearing false witness — and they did to them as they had wickedly planned to do to their neighbor. Acting in accordance with the Law of Moses, they put them to death. And innocent blood was saved that day.",
+      "translator_notes": [
+        "The reversal applies the lex talionis principle of Deuteronomy 19:18-19 — false witnesses receive the punishment they sought for the accused. The story vindicates both Susanna's righteousness and the integrity of proper legal procedure."
+      ],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    }
+  ]
+}

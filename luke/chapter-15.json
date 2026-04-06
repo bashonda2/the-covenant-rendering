@@ -1,0 +1,375 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Luke",
+    "chapter": 15,
+    "source_text": "SBL Greek New Testament (SBLGNT)",
+    "reference_text": "KJV",
+    "generated_at": "2026-04-05T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Luke 15 is the Lost Chapter — three parables of loss, search, and joyful recovery, told in response to Pharisees and scribes who grumble that Jesus 'welcomes sinners and eats with them.' A shepherd leaves ninety-nine sheep to find one lost lamb. A woman tears her house apart to find one lost coin. A father watches the horizon for a son who squandered his inheritance in a far country. Each parable culminates in extravagant celebration, and together they form Jesus's most sustained defense of his scandalous welcome of outcasts. The Parable of the Prodigal Son (15:11-32) is widely regarded as the greatest short story ever told — a narrative that moves from ruin to restoration, from death to life, and closes with an unanswered question to the older brother standing outside the party.",
+    "remarkable": "The three parables form a deliberate progression: a shepherd (male, outdoors, one of a hundred), a woman (female, indoors, one of ten), and a father (domestic, one of two). The ratio of lost to found intensifies — one percent, ten percent, fifty percent — making the stakes increasingly personal. The Prodigal Son parable is unique to Luke and contains some of the most psychologically complex characterization in ancient literature. The father's running (v. 20) would have been considered undignified for an elder in Middle Eastern culture — a deliberate humiliation undertaken for love. The older brother's refusal to enter the feast mirrors the Pharisees' refusal to celebrate Jesus's ministry to sinners. The parable has no resolution: we never learn whether the older brother enters.",
+    "friction": "The phrase 'righteous persons who need no repentance' (v. 7) may be ironic — Jesus may be describing the Pharisees as they see themselves rather than as they truly are. The younger son's descent to feeding pigs (v. 15) represents the ultimate defilement for a Jewish audience, as pigs were unclean animals. The 'far country' (chōran makran) symbolizes moral and spiritual distance from the father. The father's statement 'this son of mine was dead and is alive again' (v. 24) uses resurrection language for a spiritual restoration — the same death-to-life pattern that defines Christian conversion.",
+    "connections": "The parables respond to the Pharisees' complaint in verse 2, which echoes Luke 5:30 and 19:7. The joy-in-heaven theme connects to Luke 10:20. The Prodigal Son anticipates the Zacchaeus story (19:1-10) and Jesus's declaration that 'the Son of Man came to seek and save the lost' (19:10). The father's compassion (splanchnistheis, v. 20) uses the same word applied to Jesus in Luke 7:13. The older brother's anger mirrors Jonah's anger at God's mercy toward Nineveh (Jonah 4)."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_greek": "Ἦσαν δὲ αὐτῷ ἐγγίζοντες πάντες οἱ τελῶναι καὶ οἱ ἁμαρτωλοὶ ἀκούειν αὐτοῦ.",
+      "text_kjv": "Then drew near unto him all the publicans and sinners for to hear him.",
+      "rendering": "Now all the tax collectors and sinners were drawing near to him to hear him.",
+      "translator_notes": [
+        "The word pantes ('all') is hyperbolic but emphasizes that Jesus attracted the very people the religious establishment avoided. 'Tax collectors' (telōnai) were despised as collaborators with Rome and assumed to be corrupt. 'Sinners' (hamartōloi) was a catch-all term for those who did not observe the Torah as the Pharisees defined it. That they came 'to hear him' (akouein autou) shows they were drawn to his message, not merely his miracles."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 2,
+      "text_greek": "καὶ διεγόγγυζον οἵ τε Φαρισαῖοι καὶ οἱ γραμματεῖς λέγοντες ὅτι Οὗτος ἁμαρτωλοὺς προσδέχεται καὶ συνεσθίει αὐτοῖς.",
+      "text_kjv": "And the Pharisees and scribes murmured, saying, This man receiveth sinners, and eateth with them.",
+      "rendering": "And the Pharisees and the scribes were grumbling, saying, \"This man receives sinners and eats with them.\"",
+      "translator_notes": [
+        "The verb diegongyzon ('were grumbling') echoes Israel's grumbling in the wilderness (Exodus 16:7-8; Numbers 14:27) — Luke draws a deliberate parallel between the Pharisees and rebellious Israel. Table fellowship (synesthiei, 'eats with') in ancient Judaism implied acceptance and equality; eating with sinners was not merely socializing but a theological statement. This complaint provides the occasion for all three parables that follow.",
+        "[TCR Cross-Reference] Draws on Exodus 16:7-8. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices.",
+        "[TCR Cross-Reference] Draws on Numbers 14:27. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 3,
+      "text_greek": "εἶπεν δὲ πρὸς αὐτοὺς τὴν παραβολὴν ταύτην λέγων·",
+      "text_kjv": "And he spake this parable unto them, saying,",
+      "rendering": "So he told them this parable:",
+      "translator_notes": [
+        "Luke introduces all three stories as one parable (tēn parabolēn tautēn, singular), suggesting they form a unified literary whole — three variations on one theme of loss, search, and celebration."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 4,
+      "text_greek": "Τίς ἄνθρωπος ἐξ ὑμῶν ἔχων ἑκατὸν πρόβατα καὶ ἀπολέσας ἐξ αὐτῶν ἓν οὐ καταλείπει τὰ ἐνενήκοντα ἐννέα ἐν τῇ ἐρήμῳ καὶ πορεύεται ἐπὶ τὸ ἀπολωλὸς ἕως εὕρῃ αὐτό;",
+      "text_kjv": "What man of you, having an hundred sheep, if he lose one of them, doth not leave the ninety and nine in the wilderness, and go after that which is lost, until he find it?",
+      "rendering": "\"What man among you, having a hundred sheep and losing one of them, does not leave the ninety-nine in the open country and go after the one that is lost until he finds it?",
+      "translator_notes": [
+        "The opening 'What man among you' (tis anthrōpos ex hymōn) invites the audience to place themselves in the shepherd's role. The expected answer is 'Of course you would go.' Leaving ninety-nine in the erēmō ('wilderness, open country') is risky — the argument is that the lost sheep's value justifies the risk. A hundred sheep represented substantial wealth in first-century Palestine."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 5,
+      "text_greek": "καὶ εὑρὼν ἐπιτίθησιν ἐπὶ τοὺς ὤμους αὐτοῦ χαίρων,",
+      "text_kjv": "And when he hath found it, he layeth it on his shoulders, rejoicing.",
+      "rendering": "Rejoicing, when he has found it, he layeth it on his shoulders.",
+      "translator_notes": [
+        "The image of the shepherd carrying the sheep on his shoulders (epi tous ōmous) became one of the earliest Christian artistic motifs. The lost sheep does not walk back on its own — the shepherd carries it. The participle chairōn ('rejoicing') is emphatic: this is not dutiful retrieval but exuberant recovery. The image echoes Isaiah 40:11 and Ezekiel 34:11-16, where God himself is the shepherd who seeks the lost.",
+        "[TCR Cross-Reference] This verse quotes Isaiah 40:11 — see the TCR rendering of that passage for the Hebrew source text and translation decisions.",
+        "[TCR Cross-Reference] This verse quotes Ezekiel 34:11-16 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 6,
+      "text_greek": "καὶ ἐλθὼν εἰς τὸν οἶκον συγκαλεῖ τοὺς φίλους καὶ τοὺς γείτονας λέγων αὐτοῖς· Συγχάρητέ μοι, ὅτι εὗρον τὸ πρόβατόν μου τὸ ἀπολωλός.",
+      "text_kjv": "And when he cometh home, he calleth together his friends and neighbours, saying unto them, Rejoice with me; for I have found my sheep which was lost.",
+      "rendering": "Rejoice with me, when he comes home, he calleth together his friends and neighbours, and declared to them. For I have found my sheep which was lost.",
+      "translator_notes": [
+        "The verb syncharēte ('rejoice together with') demands communal celebration — joy over recovery cannot be experienced alone. This detail sets up the application in verse 7: heaven itself celebrates communally over one repentant sinner. The shepherd does not scold the sheep; he throws a party."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 7,
+      "text_greek": "λέγω ὑμῖν ὅτι οὕτως χαρὰ ἐν τῷ οὐρανῷ ἔσται ἐπὶ ἑνὶ ἁμαρτωλῷ μετανοοῦντι ἢ ἐπὶ ἐνενήκοντα ἐννέα δικαίοις οἵτινες οὐ χρείαν ἔχουσιν μετανοίας.",
+      "text_kjv": "I say unto you, that likewise joy shall be in heaven over one sinner that repenteth, more than over ninety and nine just persons, which need no repentance.",
+      "rendering": "I tell you, in the same way there will be more joy in heaven over one sinner who repents than over ninety-nine righteous persons who need no repentance.",
+      "translator_notes": [
+        "The phrase 'righteous persons who need no repentance' (dikaiois hoitines ou chreian echousin metanoias) may be gently ironic — Jesus may be describing the Pharisees as they perceive themselves. Alternatively, it may acknowledge genuinely faithful people while insisting that recovery of the lost produces a particular kind of joy. The word metanoeō ('to repent, change one's mind') involves a complete reorientation of life, not merely feeling sorry."
+      ],
+      "key_terms": [
+        {
+          "greek": "μετάνοια",
+          "transliteration": "metanoia",
+          "rendered_as": "repentance",
+          "semantic_range": "repentance, change of mind, turning around",
+          "note": "From meta ('change') and nous ('mind'). More than regret — metanoia is a fundamental redirection of life toward God. It corresponds to the Hebrew shub ('to turn, return')."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 8,
+      "text_greek": "Ἢ τίς γυνὴ δραχμὰς ἔχουσα δέκα, ἐὰν ἀπολέσῃ δραχμὴν μίαν, οὐχὶ ἅπτει λύχνον καὶ σαροῖ τὴν οἰκίαν καὶ ζητεῖ ἐπιμελῶς ἕως οὗ εὕρῃ;",
+      "text_kjv": "Either what woman having ten pieces of silver, if she lose one piece, doth not light a candle, and sweep the house, and seek diligently till she find it?",
+      "rendering": "\"Or what woman, having ten silver coins, if she loses one coin, does not light a lamp and sweep the house and search carefully until she finds it?",
+      "translator_notes": [
+        "The drachma was a Greek silver coin roughly equivalent to a day's wage. Ten drachmas may represent her entire savings, or they may have been sewn into a headband worn as a marriage token (similar to coins on a Palestinian bridal headdress). Losing one-tenth of her wealth warrants a thorough search. The lamp, sweeping, and diligent searching reflect the dark, windowless interior of a typical Palestinian peasant home with a packed-earth floor."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 9,
+      "text_greek": "καὶ εὑροῦσα συγκαλεῖ τὰς φίλας καὶ γείτονας λέγουσα· Συγχάρητέ μοι, ὅτι εὗρον τὴν δραχμὴν ἣν ἀπώλεσα.",
+      "text_kjv": "And when she hath found it, she calleth her friends and her neighbours together, saying, Rejoice with me; for I have found the piece which I had lost.",
+      "rendering": "And when she has found it, she calls together her friends and neighbors, saying, 'Rejoice with me, for I have found the coin that I had lost!'",
+      "translator_notes": [
+        "The exact same pattern as the shepherd's celebration: communal joy over recovery. The feminine forms (tas philas kai geitonas, 'her female friends and neighbors') reflect the social world of women in a gender-segregated society. Jesus's willingness to cast God in a female role (a woman searching for what is precious) is remarkable in its cultural context."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 10,
+      "text_greek": "οὕτως, λέγω ὑμῖν, γίνεται χαρὰ ἐνώπιον τῶν ἀγγέλων τοῦ θεοῦ ἐπὶ ἑνὶ ἁμαρτωλῷ μετανοοῦντι.",
+      "text_kjv": "Likewise, I say unto you, there is joy in the presence of the angels of God over one sinner that repenteth.",
+      "rendering": "In the same way, I tell you, there is joy before the angels of God over one sinner who repents.\"",
+      "translator_notes": [
+        "The phrase 'joy before the angels' (chara enōpion tōn angelōn) is a reverential circumlocution — the joy is God's own, expressed 'in the presence of' his angels. This second application reinforces the first: heaven's economy values the recovery of the lost above all else."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 11,
+      "text_greek": "Εἶπεν δέ· Ἄνθρωπός τις εἶχεν δύο υἱούς.",
+      "text_kjv": "And he said, A certain man had two sons:",
+      "rendering": "And he said, \"A man had two sons.",
+      "translator_notes": [
+        "The opening is deceptively simple. 'Two sons' immediately signals a story about contrasting responses — a familiar pattern in the Hebrew Bible (Cain/Abel, Esau/Jacob, Joseph and his brothers). The father, not either son, is the central character — some scholars prefer the title 'The Parable of the Prodigal Father' (prodigal in the sense of extravagantly generous)."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 12,
+      "text_greek": "καὶ εἶπεν ὁ νεώτερος αὐτῶν τῷ πατρί· Πάτερ, δός μοι τὸ ἐπιβάλλον μέρος τῆς οὐσίας. ὁ δὲ διεῖλεν αὐτοῖς τὸν βίον.",
+      "text_kjv": "And the younger of them said to his father, Father, give me the portion of goods that falleth to me. And he divided unto them his living.",
+      "rendering": "The younger of them said to his father, 'Father, give me the share of the property that is coming to me.' So he divided his livelihood between them.",
+      "translator_notes": [
+        "The request is culturally outrageous — asking for one's inheritance while the father is still alive is tantamount to wishing the father dead. Under Jewish law (Deuteronomy 21:17), the younger son would receive one-third of the estate. The father's compliance (dieilen, 'he divided') without argument or rebuke is the first sign of his extraordinary character. The word bion ('livelihood, means of living') emphasizes that the father is giving away his actual resources, not merely liquid assets.",
+        "[TCR Cross-Reference] Draws on Deuteronomy 21:17. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 13,
+      "text_greek": "καὶ μετ' οὐ πολλὰς ἡμέρας συναγαγὼν πάντα ὁ νεώτερος υἱὸς ἀπεδήμησεν εἰς χώραν μακράν, καὶ ἐκεῖ διεσκόρπισεν τὴν οὐσίαν αὐτοῦ ζῶν ἀσώτως.",
+      "text_kjv": "And not many days after the younger son gathered all together, and took his journey into a far country, and there wasted his substance with riotous living.",
+      "rendering": "Not many days later, the younger son gathered everything together and traveled to a distant country, and there he squandered his property in dissolute living.",
+      "translator_notes": [
+        "The phrase chōran makran ('distant country') represents both geographic and spiritual distance from the father. The adverb asōtōs ('dissolutely, wastefully') gives us the English word 'prodigal' — it means reckless extravagance. The verb dieskorpisen ('scattered, squandered') is vivid: he did not merely spend his inheritance but scattered it like seed on barren ground."
+      ],
+      "key_terms": [
+        {
+          "greek": "ἀσώτως",
+          "transliteration": "asōtōs",
+          "rendered_as": "dissolute living",
+          "semantic_range": "dissolutely, wastefully, recklessly",
+          "note": "From the alpha-privative a- and sōzō ('to save') — literally 'unsavingly,' that is, in a way that cannot be saved or redeemed. The word implies moral recklessness, not merely financial mismanagement."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 14,
+      "text_greek": "δαπανήσαντος δὲ αὐτοῦ πάντα ἐγένετο λιμὸς ἰσχυρὰ κατὰ τὴν χώραν ἐκείνην, καὶ αὐτὸς ἤρξατο ὑστερεῖσθαι.",
+      "text_kjv": "And when he had spent all, there arose a mighty famine in that land; and he began to be in want.",
+      "rendering": "When he had spent everything, a severe famine arose in that country, and he began to be in need.",
+      "translator_notes": [
+        "The convergence of personal bankruptcy and natural disaster creates complete destitution. The verb hystereisthai ('to be in need, lack, fall short') is the same word Paul uses for the human condition in Romans 3:23 ('all have sinned and fall short'). The son's self-inflicted poverty is compounded by circumstances beyond his control."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 15,
+      "text_greek": "καὶ πορευθεὶς ἐκολλήθη ἑνὶ τῶν πολιτῶν τῆς χώρας ἐκείνης, καὶ ἔπεμψεν αὐτὸν εἰς τοὺς ἀγροὺς αὐτοῦ βόσκειν χοίρους·",
+      "text_kjv": "And he went and joined himself to a citizen of that country; and he sent him into his fields to feed swine.",
+      "rendering": "So he went and hired himself out to one of the citizens of that country, who sent him into his fields to feed pigs.",
+      "translator_notes": [
+        "The verb ekollēthē ('joined himself to, attached himself to') suggests desperation rather than genuine employment — he clung to this foreigner for survival. For a Jewish audience, feeding pigs (choirous) represents the absolute nadir of defilement. Pigs were unclean (Leviticus 11:7), and tending them placed the son in daily contact with what the Torah forbade. He has reached the furthest possible point from his father's house.",
+        "[TCR Cross-Reference] This verse quotes Leviticus 11:7 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 16,
+      "text_greek": "καὶ ἐπεθύμει χορτασθῆναι ἐκ τῶν κερατίων ὧν ἤσθιον οἱ χοῖροι, καὶ οὐδεὶς ἐδίδου αὐτῷ.",
+      "text_kjv": "And he would fain have filled his belly with the husks that the swine did eat: and no man gave unto him.",
+      "rendering": "And he was longing to be fed with the carob pods that the pigs ate, and no one gave him anything.",
+      "translator_notes": [
+        "The keratia ('carob pods') were used as animal feed — long, dark pods from the carob tree, sometimes called 'St. John's bread.' The son is now lower than the pigs: they eat while he goes hungry. The phrase 'no one gave him anything' (oudeis edidou autō) underscores his total abandonment — in the far country, there is no community, no compassion, no father."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 17,
+      "text_greek": "εἰς ἑαυτὸν δὲ ἐλθὼν ἔφη· Πόσοι μίσθιοι τοῦ πατρός μου περισσεύονται ἄρτων, ἐγὼ δὲ λιμῷ ὧδε ἀπόλλυμαι.",
+      "text_kjv": "And when he came to himself, he said, How many hired servants of my father's have bread enough and to spare, and I perish with hunger!",
+      "rendering": "But when he came to himself, he said, 'How many of my father's hired servants have more than enough bread, but I am perishing here with hunger!",
+      "translator_notes": [
+        "The phrase eis heauton elthōn ('coming to himself') is a turning point — it implies he had been 'beside himself,' alienated from his true identity. This is the moment of self-awareness that precedes repentance. His reasoning is initially pragmatic rather than spiritual: the hired servants (misthioi, day laborers with no family status) eat better than he does. Whether his motive is genuine contrition or strategic self-interest, the movement toward the father begins."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 18,
+      "text_greek": "ἀναστὰς πορεύσομαι πρὸς τὸν πατέρα μου καὶ ἐρῶ αὐτῷ· Πάτερ, ἥμαρτον εἰς τὸν οὐρανὸν καὶ ἐνώπιόν σου,",
+      "text_kjv": "I will arise and go to my father, and will say unto him, Father, I have sinned against heaven, and before thee,",
+      "rendering": "I will get up and go to my father, and I will say to him, \"Father, I have sinned against heaven and before you.",
+      "translator_notes": [
+        "The verb anastas ('rising up') is the same root as 'resurrection' (anastasis) — the son's return begins with rising from his degradation. His prepared speech echoes David's confession in Psalm 51:4 ('Against you, you only, have I sinned'). 'Against heaven' (eis ton ouranon) is a reverential circumlocution for 'against God' — the sin is not merely against the father but against the divine order.",
+        "[TCR Cross-Reference] References Psalm 51:4 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 19,
+      "text_greek": "οὐκέτι εἰμὶ ἄξιος κληθῆναι υἱός σου· ποίησόν με ὡς ἕνα τῶν μισθίων σου.",
+      "text_kjv": "And am no more worthy to be called thy son: make me as one of thy hired servants.",
+      "rendering": "I am no longer worthy to be called your son. Treat me as one of your hired servants.\"'",
+      "translator_notes": [
+        "The son's planned demotion from son to hired servant (misthios) shows he understands he has forfeited his status. A hired servant had no family rights but received wages and food. The son's self-assessment is accurate — he has squandered everything — but the father's response will overturn this calculation entirely."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 20,
+      "text_greek": "καὶ ἀναστὰς ἦλθεν πρὸς τὸν πατέρα ἑαυτοῦ. ἔτι δὲ αὐτοῦ μακρὰν ἀπέχοντος εἶδεν αὐτὸν ὁ πατὴρ αὐτοῦ καὶ ἐσπλαγχνίσθη καὶ δραμὼν ἐπέπεσεν ἐπὶ τὸν τράχηλον αὐτοῦ καὶ κατεφίλησεν αὐτόν.",
+      "text_kjv": "And he arose, and came to his father. But when he was yet a great way off, his father saw him, and had compassion, and ran, and fell on his neck, and kissed him.",
+      "rendering": "And he got up and came to his father. But while he was still a long way off, his father saw him and was moved with compassion, and ran and fell on his neck and kissed him.",
+      "translator_notes": [
+        "This is the emotional center of the parable. That the father 'saw him while still far off' implies he had been watching — scanning the road, waiting. The verb esplanchnisthē ('was moved with compassion') describes a visceral, gut-level response (from splanchna, 'intestines, inward parts'). The father's running (dramōn) would have required him to lift his robes, exposing his legs — an act considered deeply undignified for an elder in Middle Eastern culture. He humiliates himself to reach his son before the village can shame him. The verb katephilēsen ('kissed fervently, kissed repeatedly') is intensive — not a formal greeting but an outpouring of affection."
+      ],
+      "key_terms": [
+        {
+          "greek": "σπλαγχνίζομαι",
+          "transliteration": "splanchnizomai",
+          "rendered_as": "was moved with compassion",
+          "semantic_range": "to be moved in one's inward parts, to feel deep compassion",
+          "note": "The strongest word for compassion in Greek, denoting a physical, visceral response. In the Gospels, it is used almost exclusively of Jesus or of God-figures in parables. It corresponds to the Hebrew rachamim ('compassion,' from rechem, 'womb')."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 21,
+      "text_greek": "εἶπεν δὲ ὁ υἱὸς αὐτῷ· Πάτερ, ἥμαρτον εἰς τὸν οὐρανὸν καὶ ἐνώπιόν σου, οὐκέτι εἰμὶ ἄξιος κληθῆναι υἱός σου.",
+      "text_kjv": "And the son said unto him, Father, I have sinned against heaven, and in thy sight, and am no more worthy to be called thy son.",
+      "rendering": "The son said to him, 'Father, I have sinned against heaven and before you. I am no longer worthy to be called your son.'",
+      "translator_notes": [
+        "The son delivers his rehearsed speech (from vv. 18-19) but never gets to finish — the crucial last line ('make me as one of your hired servants') is cut off by the father's instructions to the servants. The father does not allow the demotion to be spoken. The confession is received; the proposed terms are overridden by grace."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 22,
+      "text_greek": "εἶπεν δὲ ὁ πατὴρ πρὸς τοὺς δούλους αὐτοῦ· Ταχὺ ἐξενέγκατε στολὴν τὴν πρώτην καὶ ἐνδύσατε αὐτόν, καὶ δότε δακτύλιον εἰς τὴν χεῖρα αὐτοῦ καὶ ὑποδήματα εἰς τοὺς πόδας,",
+      "text_kjv": "But the father said to his servants, Bring forth the best robe, and put it on him; and put a ring on his hand, and shoes on his feet:",
+      "rendering": "But the father said to his servants, 'Quickly, bring out the best robe and put it on him, and put a ring on his hand and sandals on his feet.",
+      "translator_notes": [
+        "Every item is a symbol of restored sonship, not servanthood. The 'best robe' (stolēn tēn prōtēn, literally 'the first robe') is the father's own finest garment — clothing him in the father's honor. The ring (daktylion) signifies authority, likely a signet ring used for sealing documents and transacting business. The sandals (hypodēmata) distinguish a free son from a slave, who went barefoot. The father does not negotiate or set conditions — he restores fully and immediately."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 23,
+      "text_greek": "καὶ φέρετε τὸν μόσχον τὸν σιτευτόν, θύσατε καὶ φαγόντες εὐφρανθῶμεν,",
+      "text_kjv": "And bring hither the fatted calf, and kill it; and let us eat, and be merry:",
+      "rendering": "And bring the fattened calf and slaughter it, and let us eat and celebrate.",
+      "translator_notes": [
+        "The 'fattened calf' (ton moschon ton siteuton) was grain-fed and reserved for the most significant occasions — its slaughter would feed the entire village. This is not a private family meal but a community feast, paralleling the communal celebrations of the lost sheep and lost coin parables. The verb euphranth ōmen ('let us celebrate, be glad') is the same word used in the Septuagint for feasting in God's presence."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 24,
+      "text_greek": "ὅτι οὗτος ὁ υἱός μου νεκρὸς ἦν καὶ ἀνέζησεν, ἦν ἀπολωλὼς καὶ εὑρέθη. καὶ ἤρξαντο εὐφραίνεσθαι.",
+      "text_kjv": "For this my son was dead, and is alive again; he was lost, and is found. And they began to be merry.",
+      "rendering": "For this son of mine was dead and is alive again; he was lost and is found!' And they began to celebrate.",
+      "translator_notes": [
+        "The father uses resurrection language: nekros ēn kai anezēsen ('was dead and has come alive'). The son's departure was a kind of death; his return is a kind of resurrection. The parallel 'lost and found' (apolōlōs kai heurethē) connects this parable to the lost sheep and lost coin — all three stories culminate in the same recovery and the same celebration. The verb ērxanto ('they began') implies the celebration is just getting started — setting up the older brother's arrival."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 25,
+      "text_greek": "Ἦν δὲ ὁ υἱὸς αὐτοῦ ὁ πρεσβύτερος ἐν ἀγρῷ· καὶ ὡς ἐρχόμενος ἤγγισεν τῇ οἰκίᾳ, ἤκουσεν συμφωνίας καὶ χορῶν,",
+      "text_kjv": "Now his elder son was in the field: and as he came and drew nigh to the house, he heard musick and dancing.",
+      "rendering": "He heard musick and dancing, and now his elder son was in the field — and as he arrived and drew nigh to the house.",
+      "translator_notes": [
+        "The older son enters the story for the first time, and he enters from the outside — he has been working in the field, dutifully serving his father. The symphōnias ('music,' literally 'sounds together') and chorōn ('dancing') indicate a major celebration. He approaches the party as an outsider, which is precisely the Pharisees' position relative to Jesus's welcome of sinners."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 26,
+      "text_greek": "καὶ προσκαλεσάμενος ἕνα τῶν παίδων ἐπυνθάνετο τί ἂν εἴη ταῦτα.",
+      "text_kjv": "And he called one of the servants, and asked what these things meant.",
+      "rendering": "And asked what these things meant, and he called one of the servants.",
+      "translator_notes": [
+        "That the older son must ask a servant what is happening reveals his emotional distance from his father's household — he is physically present but relationally absent. The verb epynthaneto ('was inquiring') is in the imperfect, suggesting ongoing questioning."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 27,
+      "text_greek": "ὁ δὲ εἶπεν αὐτῷ ὅτι Ὁ ἀδελφός σου ἥκει, καὶ ἔθυσεν ὁ πατήρ σου τὸν μόσχον τὸν σιτευτόν, ὅτι ὑγιαίνοντα αὐτὸν ἀπέλαβεν.",
+      "text_kjv": "And he said unto him, Thy brother is come; and thy father hath killed the fatted calf, because he hath received him safe and sound.",
+      "rendering": "The servant said to him, 'Your brother has come, and your father has slaughtered the fattened calf, because he has received him back safe and sound.'",
+      "translator_notes": [
+        "The servant's report is matter-of-fact: 'your brother' (ho adelphos sou) and 'your father' (ho patēr sou) — family language that the older son will shortly reject. The word hygiainonta ('healthy, safe and sound') is the root of 'hygiene' — the father is celebrating not just the son's return but his physical survival."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 28,
+      "text_greek": "ὠργίσθη δὲ καὶ οὐκ ἤθελεν εἰσελθεῖν, ὁ δὲ πατὴρ αὐτοῦ ἐξελθὼν παρεκάλει αὐτόν.",
+      "text_kjv": "And he was angry, and would not go in: therefore came his father out, and intreated him.",
+      "rendering": "But he was angry and refused to go in. His father came out and was pleading with him,",
+      "translator_notes": [
+        "The older son's anger (ōrgisthē) and refusal to enter parallels the Pharisees' anger at Jesus's table fellowship with sinners. His refusal to enter is as much an insult as the younger son's departure — in both cases, a son rejects the father's household. And in both cases, the father goes out: he ran to meet the younger son, and now he comes out to plead with the older. The verb parekalei ('was pleading, urging, entreating') is in the imperfect — sustained, patient appeal."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 29,
+      "text_greek": "ὁ δὲ ἀποκριθεὶς εἶπεν τῷ πατρὶ αὐτοῦ· Ἰδοὺ τοσαῦτα ἔτη δουλεύω σοι καὶ οὐδέποτε ἐντολήν σου παρῆλθον, καὶ ἐμοὶ οὐδέποτε ἔδωκας ἔριφον ἵνα μετὰ τῶν φίλων μου εὐφρανθῶ·",
+      "text_kjv": "And he answering said to his father, Lo, these many years do I serve thee, neither transgressed I at any time thy commandment: and yet thou never gavest me a kid, that I might make merry with my friends:",
+      "rendering": "He answering said to his father, Lo, these many years do I serve you, neither transgressed I at any time your commandment — and yet you never gavest me a kid, that I might make merry with my friends:.",
+      "translator_notes": [
+        "The older son's complaint reveals a servile mentality: douleuō soi ('I have slaved for you') — he sees himself as a servant, not a son. He has obeyed commands (entolēn, 'commandment') but missed the relationship. The contrast between a young goat (eriphon, the cheapest animal for a feast) and the fattened calf underscores his sense of injustice. His complaint is factually plausible but spiritually blind — he has had access to everything his father owned (v. 31) and never realized it."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 30,
+      "text_greek": "ὅτε δὲ ὁ υἱός σου οὗτος ὁ καταφαγών σου τὸν βίον μετὰ πορνῶν ἦλθεν, ἔθυσας αὐτῷ τὸν σιτευτὸν μόσχον.",
+      "text_kjv": "But as soon as this thy son was come, which hath devoured thy living with harlots, thou hast killed for him the fatted calf.",
+      "rendering": "But when this son of yours came, who has devoured your livelihood with prostitutes, you slaughtered the fattened calf for him!'",
+      "translator_notes": [
+        "The older son refuses to say 'my brother,' using instead the distancing 'this son of yours' (ho huios sou houtos) — a deliberate disowning. He adds the detail 'with prostitutes' (meta pornōn), which the narrative never mentioned — he either knows more than the story tells or is embellishing to strengthen his case. The verb kataphagōn ('devoured, consumed') is contemptuous. His resentment is directed as much at the father's generosity as at the brother's sin."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 31,
+      "text_greek": "ὁ δὲ εἶπεν αὐτῷ· Τέκνον, σὺ πάντοτε μετ' ἐμοῦ εἶ, καὶ πάντα τὰ ἐμὰ σά ἐστιν·",
+      "text_kjv": "And he said unto him, Son, thou art ever with me, and all that I have is thine.",
+      "rendering": "But he said to him, 'Child, you are always with me, and everything that is mine is yours.",
+      "translator_notes": [
+        "The father's response begins with teknon ('child') — an intimate, affectionate address. The statement 'you are always with me' (sy pantote met' emou ei) is both reassurance and gentle rebuke: the older son has always had access to the father's presence and possessions but has experienced neither as gift. 'Everything that is mine is yours' (panta ta ema sa estin) is a staggering declaration — the father withholds nothing. The older son's poverty is not material but relational."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 32,
+      "text_greek": "εὐφρανθῆναι δὲ καὶ χαρῆναι ἔδει, ὅτι ὁ ἀδελφός σου οὗτος νεκρὸς ἦν καὶ ἔζησεν, καὶ ἀπολωλὼς καὶ εὑρέθη.",
+      "text_kjv": "It was meet that we should make merry, and be glad: for this thy brother was dead, and is alive again; and was lost, and is found.",
+      "rendering": "But it was necessary to celebrate and be glad, because this brother of yours was dead and is alive, and was lost and is found.'\"",
+      "translator_notes": [
+        "The father gently corrects the older son's language: where the son said 'this son of yours' (v. 30), the father says 'this brother of yours' (ho adelphos sou houtos) — insisting on the fraternal bond. The verb edei ('it was necessary') carries divine compulsion — the celebration is not optional but morally required by the nature of what has happened. The parable ends without resolution: we do not know whether the older brother enters the feast. The open ending forces the Pharisees — and every reader — to decide: will you join the celebration or remain outside in your resentment? The repeated death-to-life, lost-to-found formula seals the chapter's theology: God's joy over the recovery of the lost is the heartbeat of the kingdom."
+      ],
+      "reading_level": "7th grade"
+    }
+  ]
+}

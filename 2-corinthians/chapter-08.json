@@ -1,0 +1,272 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "2 Corinthians",
+    "chapter": 8,
+    "source_text": "SBL Greek New Testament (SBLGNT)",
+    "reference_text": "KJV",
+    "generated_at": "2026-04-05T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Paul turns to the collection for the Jerusalem saints, using the Macedonian churches as a model of extraordinary generosity. Despite their severe affliction and extreme poverty, the Macedonians gave beyond their means, begging earnestly for the privilege of participating. Paul urges the Corinthians to excel in this grace as well, reminding them of Jesus Christ's supreme example: though he was rich, for their sake he became poor, so that by his poverty they might become rich. Paul counsels that giving should be proportional — from what one has, not what one does not have — and appeals to the principle of equality, quoting the manna story from Exodus. He commends Titus and two unnamed brothers who will administer the collection with full accountability and transparency.",
+    "remarkable": "Verse 9 is one of the most theologically loaded single verses in the Pauline corpus: 'For you know the grace of our Lord Jesus Christ, that though he was rich, yet for your sake he became poor, so that you by his poverty might become rich.' This is not merely an appeal to follow Christ's example but a statement about the incarnation itself — Christ's pre-existent divine wealth, his voluntary impoverishment in becoming human, and the spiritual enrichment that results. Paul's fundraising theology is remarkable: he never simply asks for money but always grounds the request in Christology, ecclesiology, and eschatology. The principle of 'equality' (isotēs, v. 14) is not communism but reciprocal sharing among communities — those with surplus supply those in need, and the roles may reverse.",
+    "friction": "The identity of the 'brother famous among all the churches for his preaching of the gospel' (v. 18) is unknown — Luke, Barnabas, and others have been suggested, but Paul's deliberate anonymity prevents identification. The relationship between chapters 8-9 is debated: some scholars see chapter 9 as a separate letter, others as a continuation. We render the text as continuous.",
+    "connections": "The collection for Jerusalem connects to 1 Corinthians 16:1-4, Romans 15:25-28, and Acts 24:17. The Christ-hymn in verse 9 parallels Philippians 2:6-8 (the self-emptying of Christ). The manna quotation (v. 15) connects to Exodus 16:18. The theme of abundance from poverty echoes 6:10 ('poor yet making many rich')."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_greek": "Γνωρίζομεν δὲ ὑμῖν, ἀδελφοί, τὴν χάριν τοῦ θεοῦ τὴν δεδομένην ἐν ταῖς ἐκκλησίαις τῆς Μακεδονίας,",
+      "text_kjv": "Moreover, brethren, we do you to wit of the grace of God bestowed on the churches of Macedonia;",
+      "rendering": "We want you to know, brothers, about the grace of God that has been given among the churches of Macedonia,",
+      "translator_notes": [
+        "Paul frames the Macedonians' generosity as 'the grace of God' (tēn charin tou theou) — their giving is not merely a human achievement but a divine gift. The Macedonian churches include Philippi, Thessalonica, and Berea."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 2,
+      "text_greek": "ὅτι ἐν πολλῇ δοκιμῇ θλίψεως ἡ περισσεία τῆς χαρᾶς αὐτῶν καὶ ἡ κατὰ βάθους πτωχεία αὐτῶν ἐπερίσσευσεν εἰς τὸ πλοῦτος τῆς ἁπλότητος αὐτῶν·",
+      "text_kjv": "How that in a great trial of affliction the abundance of their joy and their deep poverty abounded unto the riches of their liberality.",
+      "rendering": "In the midst of a severe trial, their overflowing joy and extreme poverty welled up into rich generosity.",
+      "translator_notes": [
+        "The paradox is striking: severe affliction + extreme poverty = overflowing generosity. The phrase kata bathous ptōcheia ('rock-bottom poverty') indicates not relative but absolute deprivation. Yet this poverty, combined with 'abundance of joy' (perisseia tēs charas), produced rich generosity (haplotētos, 'generosity, simplicity, single-mindedness')."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 3,
+      "text_greek": "ὅτι κατὰ δύναμιν, μαρτυρῶ, καὶ παρὰ δύναμιν, αὐθαίρετοι,",
+      "text_kjv": "For to their power, I bear record, yea, and beyond their power they were willing of themselves;",
+      "rendering": "For they gave according to their means, as I can testify, and beyond their means, of their own accord,",
+      "translator_notes": [
+        "Paul testifies (martyrō) that the Macedonians gave not only up to their capacity (kata dynamin) but beyond it (para dynamin). The key word is authairetoi ('of their own accord, voluntarily') — this was not coerced giving but spontaneous generosity."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 4,
+      "text_greek": "μετὰ πολλῆς παρακλήσεως δεόμενοι ἡμῶν τὴν χάριν καὶ τὴν κοινωνίαν τῆς διακονίας τῆς εἰς τοὺς ἁγίους,",
+      "text_kjv": "Praying us with much intreaty that we would receive the gift, and take upon us the fellowship of the ministering to the saints.",
+      "rendering": "They urgently pleaded with us for the privilege of sharing in this service to God's people.",
+      "translator_notes": [
+        "The Macedonians actually begged to be allowed to give — an inversion of the expected dynamic. The word koinōnian ('partnership, participation, fellowship') indicates that the collection was not mere charity but an act of communion between churches. Paul uses charin ('grace, favor') again for the collection, maintaining its theological dignity."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 5,
+      "text_greek": "καὶ οὐ καθὼς ἠλπίσαμεν ἀλλ' ἑαυτοὺς ἔδωκαν πρῶτον τῷ κυρίῳ καὶ ἡμῖν διὰ θελήματος θεοῦ,",
+      "text_kjv": "And this they did, not as we hoped, but first gave their own selves to the Lord, and unto us, by the will of God.",
+      "rendering": "This they did, not as we hoped, but foremost offered their own selves to the Lord, and to us, by the will of God.",
+      "translator_notes": [
+        "The phrase 'they gave themselves first to the Lord' (heautous edōkan prōton tō kyriō) reveals the theological priority: self-surrender to Christ preceded and motivated their financial generosity. Money follows the person; giving flows from self-giving."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 6,
+      "text_greek": "εἰς τὸ παρακαλέσαι ἡμᾶς Τίτον, ἵνα καθὼς προενήρξατο οὕτως καὶ ἐπιτελέσῃ εἰς ὑμᾶς καὶ τὴν χάριν ταύτην.",
+      "text_kjv": "Insomuch that we desired Titus, that as he had begun, so he would also finish in you the same grace also.",
+      "rendering": "So we urged Titus that, as he had already made a beginning, he should also complete among you this act of grace.",
+      "translator_notes": [
+        "Titus had apparently begun organizing the Corinthian collection during a previous visit. Paul now urges him to complete (epitelessē) what was started. Again, the collection is called charin ('grace, act of grace'), not merely a financial transaction."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 7,
+      "text_greek": "ἀλλ' ὥσπερ ἐν παντὶ περισσεύετε, πίστει καὶ λόγῳ καὶ γνώσει καὶ πάσῃ σπουδῇ καὶ τῇ ἐξ ἡμῶν ἐν ὑμῖν ἀγάπῃ, ἵνα καὶ ἐν ταύτῃ τῇ χάριτι περισσεύητε.",
+      "text_kjv": "Therefore, as ye abound in every thing, in faith, and utterance, and knowledge, and in all diligence, and in your love to us, see that ye abound in this grace also.",
+      "rendering": "But as you excel in everything — in faith, in speech, in knowledge, in all earnestness, and in our love for you — see that you excel in this act of grace also.",
+      "translator_notes": [
+        "Paul lists five areas where the Corinthians already excel (partly echoing the gifts listed in 1 Corinthians 1:5), then adds generosity as a sixth. The SBLGNT reads 'our love for you' (tē ex hēmōn en hymin agapē) rather than 'your love for us.' By framing generosity as excelling (perisseuēte) in grace, Paul makes it a spiritual discipline, not merely a financial obligation."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 8,
+      "text_greek": "Οὐ κατ' ἐπιταγὴν λέγω ἀλλὰ διὰ τῆς ἑτέρων σπουδῆς καὶ τὸ τῆς ὑμετέρας ἀγάπης γνήσιον δοκιμάζων·",
+      "text_kjv": "I speak not by commandment, but by occasion of the forwardness of others, and to prove the sincerity of your love.",
+      "rendering": "I say this not as a command, but through the earnestness of others I am testing the genuineness of your love.",
+      "translator_notes": [
+        "Paul explicitly refuses to command (ou kat' epitagēn) generosity — it must be voluntary or it is not grace. The Macedonians' example serves as the test: will the Corinthians' love prove equally genuine (gnēsion, 'authentic, legitimate, true-born')?"
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 9,
+      "text_greek": "γινώσκετε γὰρ τὴν χάριν τοῦ κυρίου ἡμῶν Ἰησοῦ Χριστοῦ, ὅτι δι' ὑμᾶς ἐπτώχευσεν πλούσιος ὤν, ἵνα ὑμεῖς τῇ ἐκείνου πτωχείᾳ πλουτήσητε.",
+      "text_kjv": "For ye know the grace of our Lord Jesus Christ, that, though he was rich, yet for your sakes he became poor, that ye through his poverty might be rich.",
+      "rendering": "That you through his poverty might be rich, for you know the grace of our Lord Jesus Christ, that, though he was rich, yet because your sakes he became poor.",
+      "translator_notes": [
+        "This verse is a compressed incarnation-and-atonement Christology. Christ's 'riches' (plousios ōn) refer to his pre-existent divine glory; his 'poverty' (eptōcheusen, 'became a beggar') refers to the incarnation and its culmination in the cross. The 'riches' believers receive are the spiritual blessings of salvation. The entire verse functions as the ultimate paradigm for generosity: if Christ gave up infinite wealth for others' sake, how can his followers withhold their finite resources?"
+      ],
+      "key_terms": [
+        {
+          "greek": "χάρις",
+          "transliteration": "charis",
+          "rendered_as": "grace",
+          "semantic_range": "grace, gift, favor, gratitude, generosity",
+          "note": "In this chapter, charis does double duty: it means both 'grace' (God's unmerited favor in Christ) and 'gracious act' (the collection). Paul's wordplay is deliberate — the collection is an embodiment of the gospel itself."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 10,
+      "text_greek": "καὶ γνώμην ἐν τούτῳ δίδωμι· τοῦτο γὰρ ὑμῖν συμφέρει, οἵτινες οὐ μόνον τὸ ποιῆσαι ἀλλὰ καὶ τὸ θέλειν προενήρξασθε ἀπὸ πέρυσι·",
+      "text_kjv": "And herein I give my advice: for this is expedient for you, who have begun before, not only to do, but also to be forward a year ago.",
+      "rendering": "And in this matter I give my judgment: this benefits you, who a year ago started not only to do this work but also to desire it.",
+      "translator_notes": [
+        "Paul distinguishes between gnōmēn ('judgment, opinion, counsel') and epitagēn ('command') from verse 8. He notes that the Corinthians began both the willing (to thelein) and the doing (to poiēsai) a year ago. The fact that willingness preceded action reflects the priority of heart disposition in Paul's theology of giving."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 11,
+      "text_greek": "νυνὶ δὲ καὶ τὸ ποιῆσαι ἐπιτελέσατε, ὅπως καθάπερ ἡ προθυμία τοῦ θέλειν οὕτως καὶ τὸ ἐπιτελέσαι ἐκ τοῦ ἔχειν.",
+      "text_kjv": "Now therefore perform the doing of it; that as there was a readiness to will, so there may be a performance also out of that which ye have.",
+      "rendering": "Now finish doing it as well, so that your readiness in desiring it may be matched by your completing it out of what you have.",
+      "translator_notes": [
+        "The principle is practical: eagerness must be followed through with action. The phrase ek tou echein ('out of what you have') establishes proportionality — Paul asks for completion based on actual means, not impossible standards."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 12,
+      "text_greek": "εἰ γὰρ ἡ προθυμία πρόκειται, καθὸ ἐὰν ἔχῃ εὐπρόσδεκτος, οὐ καθὸ οὐκ ἔχει.",
+      "text_kjv": "For if there be first a willing mind, it is accepted according to that a man hath, and not according to that he hath not.",
+      "rendering": "For if the readiness is there, it is acceptable according to what a person has, not according to what he does not have.",
+      "translator_notes": [
+        "This verse establishes a crucial principle of Christian giving: God evaluates the gift by the giver's willingness and means, not by the absolute amount. The word euprosdektos ('acceptable, welcome') indicates divine acceptance. The principle echoes the widow's mite (Mark 12:41-44) and protects the poor from guilt."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 13,
+      "text_greek": "οὐ γὰρ ἵνα ἄλλοις ἄνεσις, ὑμῖν θλῖψις, ἀλλ' ἐξ ἰσότητος·",
+      "text_kjv": "For I mean not that other men be eased, and ye burdened:",
+      "rendering": "For I do not mean that others should be eased and you burdened, but that as a matter of fairness",
+      "translator_notes": [
+        "Paul's principle is not that one group should be impoverished to enrich another. The word isotētos ('equality, fairness, equity') introduces a reciprocal principle that he develops in verse 14."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 14,
+      "text_greek": "ἐν τῷ νῦν καιρῷ τὸ ὑμῶν περίσσευμα εἰς τὸ ἐκείνων ὑστέρημα, ἵνα καὶ τὸ ἐκείνων περίσσευμα γένηται εἰς τὸ ὑμῶν ὑστέρημα, ὅπως γένηται ἰσότης·",
+      "text_kjv": "But by an equality, that now at this time your abundance may be a supply for their want, that their abundance also may be a supply for your want: that there may be equality:",
+      "rendering": "However, by an equality, that now at this time your abundance may be a supply for their want, that their abundance as well may be a supply since your want — that there may be equality:.",
+      "translator_notes": [
+        "The principle of reciprocity: the Corinthians' material surplus meets Jerusalem's material deficit now; Jerusalem's spiritual riches (cf. Romans 15:27) or future material surplus may meet a Corinthian need later. The isotēs ('fairness, equality') is not mathematical equality but mutual provision within the body of Christ."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 15,
+      "text_greek": "καθὼς γέγραπται· ὁ τὸ πολὺ οὐκ ἐπλεόνασεν, καὶ ὁ τὸ ὀλίγον οὐκ ἠλαττόνησεν.",
+      "text_kjv": "As it is written, He that had gathered much had nothing over; and he that had gathered little had no lack.",
+      "rendering": "As it is written, \"Whoever gathered much had nothing left over, and whoever gathered little had no lack.\"",
+      "translator_notes": [
+        "Paul quotes Exodus 16:18, describing the miraculous equalization of the manna: regardless of how much each Israelite gathered, everyone ended up with exactly what they needed. Paul applies this wilderness provision narrative to the church's economic life — God's people are meant to share so that no one has too much and no one too little.",
+        "[TCR Cross-Reference] This verse quotes Exodus 16:18 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 16,
+      "text_greek": "Χάρις δὲ τῷ θεῷ τῷ δόντι τὴν αὐτὴν σπουδὴν ὑπὲρ ὑμῶν ἐν τῇ καρδίᾳ Τίτου,",
+      "text_kjv": "But thanks be to God, which put the same earnest care into the heart of Titus for you.",
+      "rendering": "But thanks be to God, who put into the heart of Titus the same earnest care for you.",
+      "translator_notes": [
+        "Paul attributes Titus's concern for the Corinthians to divine action — God 'put' (donti, 'having given') this earnestness into Titus's heart. Even the delegate's motivation is a work of grace."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 17,
+      "text_greek": "ὅτι τὴν μὲν παράκλησιν ἐδέξατο, σπουδαιότερος δὲ ὑπάρχων αὐθαίρετος ἐξῆλθεν πρὸς ὑμᾶς.",
+      "text_kjv": "For indeed he accepted the exhortation; but being more forward, of his own accord he went unto you.",
+      "rendering": "For he not only accepted our appeal but, being very earnest, he is going to you of his own accord.",
+      "translator_notes": [
+        "Titus's willingness exceeds the mere acceptance of Paul's request — he goes authairetos ('of his own accord, voluntarily'), the same word used of the Macedonians in verse 3. Genuine generosity is always voluntary."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 18,
+      "text_greek": "συνεπέμψαμεν δὲ μετ' αὐτοῦ τὸν ἀδελφὸν οὗ ὁ ἔπαινος ἐν τῷ εὐαγγελίῳ διὰ πασῶν τῶν ἐκκλησιῶν·",
+      "text_kjv": "And we have sent with him the brother, whose praise is in the gospel throughout all the churches;",
+      "rendering": "With him we are sending the brother who is famous among all the churches for his preaching of the gospel.",
+      "translator_notes": [
+        "This unnamed brother has been traditionally identified with Luke, Barnabas, Mark, or others — but Paul's deliberate anonymity prevents certainty. The phrase 'whose praise is in the gospel' (hou ho epainos en tō euangeliō) means he is praised for his gospel work throughout all the churches."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 19,
+      "text_greek": "οὐ μόνον δὲ ἀλλὰ καὶ χειροτονηθεὶς ὑπὸ τῶν ἐκκλησιῶν συνέκδημος ἡμῶν σὺν τῇ χάριτι ταύτῃ τῇ διακονουμένῃ ὑφ' ἡμῶν πρὸς τὴν αὐτοῦ τοῦ κυρίου δόξαν καὶ προθυμίαν ἡμῶν,",
+      "text_kjv": "And not that only, but who was also chosen of the churches to travel with us with this grace, which is administered by us to the glory of the same Lord, and declaration of your ready mind:",
+      "rendering": "And not only that, but he has been appointed by the churches to travel with us as we carry out this act of grace that is being administered by us for the glory of the Lord himself and to show our good will.",
+      "translator_notes": [
+        "The verb cheirotonētheis ('appointed, elected, chosen by raising hands') indicates that this brother was selected by the churches through a formal process, not merely by Paul's personal preference. Multiple oversight of the collection funds demonstrates accountability — Paul is scrupulous about financial transparency."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 20,
+      "text_greek": "στελλόμενοι τοῦτο, μή τις ἡμᾶς μωμήσηται ἐν τῇ ἁδρότητι ταύτῃ τῇ διακονουμένῃ ὑφ' ἡμῶν·",
+      "text_kjv": "Avoiding this, that no man should blame us in this abundance which is administered by us:",
+      "rendering": "We take this course so that no one should blame us about this generous gift that is being administered by us,",
+      "translator_notes": [
+        "The word hadrotēti ('generous gift, lavish amount, abundance') indicates the collection was substantial. Paul's caution about blame (mōmēsētai) reflects practical wisdom: handling large sums of money invites suspicion, so Paul ensures multiple trusted delegates are involved."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 21,
+      "text_greek": "προνοοῦμεν γὰρ καλὰ οὐ μόνον ἐνώπιον κυρίου ἀλλὰ καὶ ἐνώπιον ἀνθρώπων.",
+      "text_kjv": "Providing for honest things, not only in the sight of the Lord, but also in the sight of men.",
+      "rendering": "Providing for honest matters, not only in the sight of the Lord, but as well in the sight of men.",
+      "translator_notes": [
+        "Paul echoes Proverbs 3:4 (LXX), establishing a dual standard of integrity: accountability before God and before people. Financial transparency in ministry is not optional but essential. The verb pronoumen ('we take thought in advance, we aim at, we provide for') indicates deliberate, proactive measures.",
+        "[TCR Cross-Reference] Quotes Proverbs 3:4. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 22,
+      "text_greek": "συνεπέμψαμεν δὲ αὐτοῖς τὸν ἀδελφὸν ἡμῶν ὃν ἐδοκιμάσαμεν ἐν πολλοῖς πολλάκις σπουδαῖον ὄντα, νυνὶ δὲ πολὺ σπουδαιότερον πεποιθήσει πολλῇ τῇ εἰς ὑμᾶς.",
+      "text_kjv": "And we have sent with them our brother, whom we have oftentimes proved diligent in many things, but now much more diligent, upon the great confidence which I have in you.",
+      "rendering": "And with them we are sending our brother whom we have often tested and found earnest in many matters, but who is now more earnest than ever because of his great confidence in you.",
+      "translator_notes": [
+        "A second unnamed brother accompanies Titus — also proven through testing (edokimasamen, 'we tested and approved'). The three-person delegation provides full accountability for what was apparently a significant sum."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 23,
+      "text_greek": "εἴτε ὑπὲρ Τίτου, κοινωνὸς ἐμὸς καὶ εἰς ὑμᾶς συνεργός· εἴτε ἀδελφοὶ ἡμῶν, ἀπόστολοι ἐκκλησιῶν, δόξα Χριστοῦ.",
+      "text_kjv": "Whether any do enquire of Titus, he is my partner and fellowhelper concerning you: or our brethren be enquired of, they are the messengers of the churches, and the glory of Christ.",
+      "rendering": "As for Titus, he is my partner and fellow worker for your benefit. As for our brothers, they are messengers of the churches, a glory to Christ.",
+      "translator_notes": [
+        "Titus is called koinōnos ('partner') and synergos ('fellow worker'). The brothers are called apostoloi ekklēsiōn ('messengers of the churches, apostles of the churches') — the word apostolos here means 'delegate, envoy' rather than carrying the technical sense of the Twelve. The title doxa Christou ('glory of Christ') is remarkable: these brothers are a visible display of Christ's glory."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 24,
+      "text_greek": "τὴν οὖν ἔνδειξιν τῆς ἀγάπης ὑμῶν καὶ ἡμῶν καυχήσεως ὑπὲρ ὑμῶν εἰς αὐτοὺς ἐνδεικνύμενοι εἰς πρόσωπον τῶν ἐκκλησιῶν.",
+      "text_kjv": "Wherefore shew ye to them, and before the churches, the proof of your love, and of our boasting on your behalf.",
+      "rendering": "So give proof of your love and of our boasting about you to these men, before all the churches.",
+      "translator_notes": [
+        "Paul closes the chapter by placing the Corinthians' generosity on a public stage: their response will be visible to all the churches (eis prosōpon tōn ekklēsiōn, 'in the face of the churches'). The collection is not a private transaction but a public demonstration of love that validates Paul's boasting about the Corinthians."
+      ],
+      "reading_level": "8th grade"
+    }
+  ]
+}

@@ -1,0 +1,476 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "John",
+    "chapter": 10,
+    "source_text": "SBL Greek New Testament (SBLGNT)",
+    "reference_text": "KJV",
+    "generated_at": "2026-04-04T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "John 10 contains Jesus's extended shepherd discourse, in which he identifies himself as both the gate of the sheepfold and the good shepherd who lays down his life for the sheep. The chapter opens with a parable about shepherds and thieves (vv. 1-6), followed by two 'I am' declarations: 'I am the gate' (vv. 7-10) and 'I am the good shepherd' (vv. 11-18). Jesus distinguishes himself from hired hands who flee when wolves attack. He speaks of 'other sheep' not of this fold whom he must also bring. The discourse provokes yet another division (vv. 19-21). At the Feast of Dedication (Hanukkah), the Jewish leaders confront Jesus directly about whether he is the Christ, leading to Jesus's declaration 'I and the Father are one' (v. 30) and a second attempt to stone him (v. 31). The chapter closes with Jesus withdrawing beyond the Jordan.",
+    "remarkable": "The shepherd imagery draws on deep Old Testament roots: God as shepherd (Psalm 23, Isaiah 40:11), David as shepherd-king (2 Samuel 5:2), and Ezekiel's devastating critique of Israel's failed shepherds (Ezekiel 34), where God promises to shepherd his people himself and raise up 'my servant David.' Jesus's claim to be the good shepherd is simultaneously a claim to fulfill Ezekiel 34 and to embody God's own shepherding. The 'I and the Father are one' declaration (v. 30) is the theological climax — neuter hen ('one thing') rather than masculine heis ('one person'), indicating unity of purpose and being without collapsing the distinction between Father and Son.",
+    "friction": "The relationship between 10:1-21 and the preceding chapter is debated — some scholars see it as a continuation of the post-chapter-9 dialogue, others as an independent discourse. The Feast of Dedication (Hanukkah) setting in verse 22 marks a chronological shift (roughly December, two months after Tabernacles). The 'other sheep' (v. 16) is traditionally interpreted as referring to Gentile believers, though the text does not specify. Jesus's scriptural argument from Psalm 82:6 (vv. 34-36) is complex and has been interpreted in various ways.",
+    "connections": "The shepherd discourse connects to Psalm 23, Ezekiel 34, Zechariah 11:4-17, and Isaiah 40:11. The gate imagery connects to Psalm 118:20. The 'I and the Father are one' declaration connects to the Shema (Deuteronomy 6:4) and to Jesus's prayer in John 17:11, 22. The laying down of life anticipates the cross narrative (chs. 18-19). The Hanukkah setting (rededication of the temple) provides ironic context for Jesus's claim that the Father 'consecrated' him (v. 36)."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_greek": "Ἀμὴν ἀμὴν λέγω ὑμῖν, ὁ μὴ εἰσερχόμενος διὰ τῆς θύρας εἰς τὴν αὐλὴν τῶν προβάτων ἀλλὰ ἀναβαίνων ἀλλαχόθεν ἐκεῖνος κλέπτης ἐστὶν καὶ λῃστής·",
+      "text_kjv": "Verily, verily, I say unto you, He that entereth not by the door into the sheepfold, but climbeth up some other way, the same is a thief and a robber.",
+      "rendering": "\"Truly, truly, I say to you, the one who does not enter the sheepfold through the gate but climbs in by another way is a thief and a robber.",
+      "translator_notes": [
+        "The double amēn marks solemn declaration. The aulē tōn probatōn ('sheepfold, courtyard of the sheep') refers to an enclosed area, often a stone-walled courtyard with a single entrance, used to protect sheep at night. John distinguishes between kleptēs ('thief,' one who steals by stealth) and lēstēs ('robber, bandit,' one who uses violence). The parable follows directly from the expulsion of the blind man in chapter 9 — the Pharisees are the false shepherds."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 2,
+      "text_greek": "ὁ δὲ εἰσερχόμενος διὰ τῆς θύρας ποιμήν ἐστιν τῶν προβάτων.",
+      "text_kjv": "But he that entereth in by the door is the shepherd of the sheep.",
+      "rendering": "The one who enters through the gate is the shepherd of the sheep.",
+      "translator_notes": [
+        "The Greek thyra ('door, gate') is the legitimate entry point. The poimēn ('shepherd') enters openly, with nothing to hide. The contrast is between legitimacy (through the gate) and illegitimacy (any other way)."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 3,
+      "text_greek": "τούτῳ ὁ θυρωρὸς ἀνοίγει, καὶ τὰ πρόβατα τῆς φωνῆς αὐτοῦ ἀκούει, καὶ τὰ ἴδια πρόβατα φωνεῖ κατ᾽ ὄνομα καὶ ἐξάγει αὐτά.",
+      "text_kjv": "To him the porter openeth; and the sheep hear his voice: and he calleth his own sheep by name, and leadeth them out.",
+      "rendering": "The gatekeeper opens the gate for him, and the sheep hear his voice. He calls his own sheep by name and leads them out.",
+      "translator_notes": [
+        "The identity of the thurōros ('gatekeeper, doorkeeper') is not explained and should not be allegorized — the focus is on the shepherd's relationship with his sheep. The phrase phōnei kat' onoma ('calls by name') reflects actual Palestinian shepherding practice, where shepherds knew and named individual sheep. The sheep recognize and respond to the shepherd's specific voice — an image of intimate, personal relationship."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 4,
+      "text_greek": "ὅταν τὰ ἴδια πάντα ἐκβάλῃ, ἔμπροσθεν αὐτῶν πορεύεται, καὶ τὰ πρόβατα αὐτῷ ἀκολουθεῖ, ὅτι οἴδασιν τὴν φωνὴν αὐτοῦ·",
+      "text_kjv": "And when he putteth forth his own sheep, he goeth before them, and the sheep follow him: for they know his voice.",
+      "rendering": "When he has brought out all his own, he goes ahead of them, and the sheep follow him because they know his voice.",
+      "translator_notes": [
+        "The verb ekbalē ('brought out, put forth') is the same word used in 9:34 for the Pharisees casting out the healed man — a deliberate contrast. The Pharisees 'cast out'; the shepherd 'leads out.' Middle Eastern shepherds lead from the front rather than driving from behind — the sheep follow voluntarily because they recognize the shepherd. The verb oidasin ('they know') indicates deep, experiential knowledge."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 5,
+      "text_greek": "ἀλλοτρίῳ δὲ οὐ μὴ ἀκολουθήσουσιν, ἀλλὰ φεύξονται ἀπ᾽ αὐτοῦ, ὅτι οὐκ οἴδασιν τῶν ἀλλοτρίων τὴν φωνήν.",
+      "text_kjv": "And a stranger will they not follow, but will flee from him: for they know not the voice of strangers.",
+      "rendering": "They will never follow a stranger but will flee from him, because they do not know the voice of strangers.\"",
+      "translator_notes": [
+        "The double negative ou mē ('never, by no means') with the future akolouthēsousin ('will follow') is emphatic. The allotriō ('stranger, outsider') is not the same as the thief/robber — it is anyone whose voice the sheep do not recognize. The sheep's discernment is instinctive, based on relationship rather than analysis."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 6,
+      "text_greek": "Ταύτην τὴν παροιμίαν εἶπεν αὐτοῖς ὁ Ἰησοῦς· ἐκεῖνοι δὲ οὐκ ἔγνωσαν τίνα ἦν ἃ ἐλάλει αὐτοῖς.",
+      "text_kjv": "This parable spake Jesus unto them: but they understood not what things they were which he spake unto them.",
+      "rendering": "Jesus told them this figure of speech, but they did not understand what he was saying to them.",
+      "translator_notes": [
+        "John calls this a paroimia ('figure of speech, proverb, riddle') rather than parabolē ('parable'). The paroimia in John is an enigmatic saying that requires interpretation (cf. 16:25, 29). The audience's failure to understand sets up Jesus's explanatory statements in the following verses."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 7,
+      "text_greek": "Εἶπεν οὖν πάλιν ὁ Ἰησοῦς· Ἀμὴν ἀμὴν λέγω ὑμῖν ὅτι ἐγώ εἰμι ἡ θύρα τῶν προβάτων.",
+      "text_kjv": "Then said Jesus unto them again, Verily, verily, I say unto you, I am the door of the sheep.",
+      "rendering": "So Jesus said again, \"Truly, truly, I say to you, I am the gate for the sheep.",
+      "translator_notes": [
+        "This is the third of John's 'I am' statements with a predicate. Jesus identifies himself not as the shepherd (that comes in v. 11) but as the thyra ('gate, door') — the point of access and protection. In some shepherding practices, the shepherd himself would lie across the opening of the fold at night, literally becoming the gate. We render thyra as 'gate' rather than 'door' to maintain the pastoral setting."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 8,
+      "text_greek": "πάντες ὅσοι ἦλθον πρὸ ἐμοῦ κλέπται εἰσὶν καὶ λῃσταί· ἀλλ᾽ οὐκ ἤκουσαν αὐτῶν τὰ πρόβατα.",
+      "text_kjv": "All that ever came before me are thieves and robbers: but the sheep did not hear them.",
+      "rendering": "All who came before me are thieves and robbers, but the sheep did not listen to them.",
+      "translator_notes": [
+        "The sweeping statement 'all who came before me' (pantes hosoi ēlthon pro emou) cannot refer to Moses and the prophets (whom Jesus affirms elsewhere) but to false leaders who claimed authority over God's flock without legitimate commission — the failed shepherds of Ezekiel 34. Some manuscripts omit 'before me' (pro emou), which would change the sense to 'all who came [apart from me].'",
+        "[TCR Cross-Reference] References Ezekiel 34 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 9,
+      "text_greek": "ἐγώ εἰμι ἡ θύρα· δι᾽ ἐμοῦ ἐάν τις εἰσέλθῃ σωθήσεται καὶ εἰσελεύσεται καὶ ἐξελεύσεται καὶ νομὴν εὑρήσει.",
+      "text_kjv": "I am the door: by me if any man enter in, he shall be saved, and shall go in and out, and find pasture.",
+      "rendering": "I am the gate. If anyone enters through me, he will be saved and will go in and out and find pasture.",
+      "translator_notes": [
+        "The three-fold promise — salvation (sōthēsetai), freedom of movement (eiseleusetai kai exeleusetai, 'will go in and out'), and sustenance (nomēn heurēsei, 'will find pasture') — describes the complete provision of the shepherd through the gate. 'Going in and out' is a Hebrew idiom for living freely and securely (cf. Numbers 27:17, Deuteronomy 28:6, Psalm 121:8).",
+        "[TCR Cross-Reference] Echoes Numbers 27:17. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale.",
+        "[TCR Cross-Reference] Echoes Deuteronomy 28:6. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale.",
+        "[TCR Cross-Reference] Echoes Psalm 121:8. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 10,
+      "text_greek": "ὁ κλέπτης οὐκ ἔρχεται εἰ μὴ ἵνα κλέψῃ καὶ θύσῃ καὶ ἀπολέσῃ· ἐγὼ ἦλθον ἵνα ζωὴν ἔχωσιν καὶ περισσὸν ἔχωσιν.",
+      "text_kjv": "The thief cometh not, but for to steal, and to kill, and to destroy: I am come that they might have life, and that they might have it more abundantly.",
+      "rendering": "The thief comes only to steal and kill and destroy. I came so that they may have life, and have it abundantly.",
+      "translator_notes": [
+        "The three verbs describing the thief — klepsē ('steal'), thysē ('slaughter, sacrifice'), apolesē ('destroy') — escalate in violence. The verb thysē is the same word used for ritual sacrifice, adding bitter irony: the thief 'sacrifices' the sheep for his own benefit. Against this, Jesus's purpose is stated in two stages: life (zōēn) and abundance (perisson, 'surplus, overflow, more than enough'). The Greek perisson means not barely adequate life but overflowing life."
+      ],
+      "key_terms": [
+        {
+          "greek": "ζωή",
+          "transliteration": "zōē",
+          "rendered_as": "life",
+          "semantic_range": "life, existence, the life of God, eternal life",
+          "note": "In John, zōē is not merely biological existence (bios) but the divine quality of life — life as God has it and gives it. 'Eternal life' in John is not primarily about duration but about the quality of life that comes from knowing God (cf. 17:3)."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 11,
+      "text_greek": "Ἐγώ εἰμι ὁ ποιμὴν ὁ καλός· ὁ ποιμὴν ὁ καλὸς τὴν ψυχὴν αὐτοῦ τίθησιν ὑπὲρ τῶν προβάτων·",
+      "text_kjv": "I am the good shepherd: the good shepherd giveth his life for the sheep.",
+      "rendering": "I am the good shepherd. The good shepherd lays down his life for the sheep.",
+      "translator_notes": [
+        "The fourth 'I am' statement with predicate. The adjective kalos ('good, noble, beautiful, excellent') means more than morally good — it connotes the ideal, the model, the shepherd as he was meant to be. The phrase tēn psychēn autou tithēsin ('lays down his life') uses the deliberate act of placing (tithēmi) — this is not accidental death but voluntary sacrifice. The preposition hyper ('for, on behalf of') indicates substitutionary action."
+      ],
+      "key_terms": [
+        {
+          "greek": "ποιμὴν ὁ καλός",
+          "transliteration": "poimēn ho kalos",
+          "rendered_as": "good shepherd",
+          "semantic_range": "shepherd, pastor, herder; kalos: good, noble, beautiful, ideal",
+          "note": "Jesus claims the role that Ezekiel 34:23 assigns to the coming Davidic shepherd and that Psalm 23 attributes to God himself. The 'good' shepherd is the true shepherd, the shepherd as God intended — in contrast to the thieves, robbers, and hired hands."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 12,
+      "text_greek": "ὁ μισθωτὸς καὶ οὐκ ὢν ποιμήν, οὗ οὐκ ἔστιν τὰ πρόβατα ἴδια, θεωρεῖ τὸν λύκον ἐρχόμενον καὶ ἀφίησιν τὰ πρόβατα καὶ φεύγει — καὶ ὁ λύκος ἁρπάζει αὐτὰ καὶ σκορπίζει —",
+      "text_kjv": "But he that is an hireling, and not the shepherd, whose own the sheep are not, seeth the wolf coming, and leaveth the sheep, and fleeth: and the wolf catcheth them, and scattereth the sheep.",
+      "rendering": "The hired hand, who is not the shepherd and does not own the sheep, sees the wolf coming and abandons the sheep and runs away — and the wolf snatches them and scatters them.",
+      "translator_notes": [
+        "The misthotos ('hired hand, wage worker') is not a villain like the thief — he is simply not the owner. His relationship to the sheep is economic, not relational. When danger comes (the lykos, 'wolf'), the cost-benefit analysis favors flight. The verbs harpazei ('snatches, seizes by force') and skorpizei ('scatters') describe the devastation that follows failed leadership."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 13,
+      "text_greek": "ὅτι μισθωτός ἐστιν καὶ οὐ μέλει αὐτῷ περὶ τῶν προβάτων.",
+      "text_kjv": "The hireling fleeth, because he is an hireling, and careth not for the sheep.",
+      "rendering": "The hireling fleeth, on account of the fact that he is an hireling, and careth not for the sheep.",
+      "translator_notes": [
+        "The phrase ou melei autō ('it does not matter to him, he does not care') reveals the hired hand's fundamental deficiency: lack of genuine care (cf. Mark 4:38, where the same phrase appears). The issue is not competence but commitment — the hired hand may be skilled but lacks the ownership-stake that produces sacrificial devotion."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 14,
+      "text_greek": "Ἐγώ εἰμι ὁ ποιμὴν ὁ καλός, καὶ γινώσκω τὰ ἐμὰ καὶ γινώσκουσί με τὰ ἐμά,",
+      "text_kjv": "I am the good shepherd, and know my sheep, and am known of mine.",
+      "rendering": "I am the good shepherd. I know my own, and my own know me,",
+      "translator_notes": [
+        "The verb ginōskō ('know') here describes deep, mutual, relational knowledge — not mere awareness but intimate acquaintance. The reciprocity (I know them / they know me) echoes the covenant relationship pattern: God knows his people, and they know him (cf. Jeremiah 31:34). The next verse will ground this mutual knowledge in the relationship between Father and Son.",
+        "[TCR Cross-Reference] Echoes Jeremiah 31:34. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 15,
+      "text_greek": "καθὼς γινώσκει με ὁ πατὴρ κἀγὼ γινώσκω τὸν πατέρα· καὶ τὴν ψυχήν μου τίθημι ὑπὲρ τῶν προβάτων.",
+      "text_kjv": "As the Father knoweth me, even so know I the Father: and I lay down my life for the sheep.",
+      "rendering": "Indeed, as the Father knows me, even so know I the Father — and I lay down my life for the sheep.",
+      "translator_notes": [
+        "The comparison kathōs ('just as') is extraordinary: the mutual knowledge between shepherd and sheep is patterned on the mutual knowledge between Father and Son. This elevates the shepherd-sheep relationship to a divine model. The second clause returns to the theme of voluntary death (tēn psychēn mou tithēmi, 'I lay down my life'), now grounded in the Father-Son relationship that motivates it."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 16,
+      "text_greek": "καὶ ἄλλα πρόβατα ἔχω ἃ οὐκ ἔστιν ἐκ τῆς αὐλῆς ταύτης· κἀκεῖνα δεῖ με ἀγαγεῖν, καὶ τῆς φωνῆς μου ἀκούσουσιν, καὶ γενήσονται μία ποίμνη, εἷς ποιμήν.",
+      "text_kjv": "And other sheep I have, which are not of this fold: them also I must bring, and they shall hear my voice; and there shall be one fold, and one shepherd.",
+      "rendering": "I have other sheep that are not of this fold. I must bring them also, and they will hear my voice. There will be one flock, one shepherd.",
+      "translator_notes": [
+        "The 'other sheep' (alla probata) not of 'this fold' (tēs aulēs tautēs) is traditionally understood as Gentile believers who will be gathered into one community with Jewish believers. The dei ('must, it is necessary') indicates divine compulsion — this is part of God's plan, not optional. Note the critical distinction: 'one flock' (mia poimnē) not 'one fold' (mia aulē) — the KJV's 'one fold' is a mistranslation. The unity is in the flock (the people under one shepherd), not in a single enclosure (one institution)."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 17,
+      "text_greek": "διὰ τοῦτό με ὁ πατὴρ ἀγαπᾷ, ὅτι ἐγὼ τίθημι τὴν ψυχήν μου, ἵνα πάλιν λάβω αὐτήν.",
+      "text_kjv": "Therefore doth my Father love me, because I lay down my life, that I might take it again.",
+      "rendering": "For this reason the Father loves me — because I lay down my life so that I may take it up again.",
+      "translator_notes": [
+        "The Father's love (agapa) for the Son is connected to the Son's willingness to die and rise. The verb tithēmi ('lay down, place') followed by labō ('take up, receive back') describes a voluntary, temporary surrender — death followed by resurrection. The 'again' (palin) points to resurrection as the completion of the act, not its reversal."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 18,
+      "text_greek": "οὐδεὶς αἴρει αὐτὴν ἀπ᾽ ἐμοῦ, ἀλλ᾽ ἐγὼ τίθημι αὐτὴν ἀπ᾽ ἐμαυτοῦ. ἐξουσίαν ἔχω θεῖναι αὐτήν, καὶ ἐξουσίαν ἔχω πάλιν λαβεῖν αὐτήν· ταύτην τὴν ἐντολὴν ἔλαβον παρὰ τοῦ πατρός μου.",
+      "text_kjv": "No man taketh it from me, but I lay it down of myself. I have power to lay it down, and I have power to take it again. This commandment have I received of my Father.",
+      "rendering": "No one takes it from me, but I lay it down of my own accord. I have authority to lay it down, and I have authority to take it up again. This command I received from my Father.\"",
+      "translator_notes": [
+        "The Greek exousia ('authority, right, power') appears twice, asserting Jesus's sovereign control over both his death and his resurrection. The verb airei ('takes away') is negated absolutely (oudeis, 'no one') — Jesus's death is not imposed but chosen. Yet this sovereign freedom operates within the Father's command (entolē) — Jesus freely does what the Father has ordained. The tension between freedom and obedience is resolved in perfect alignment of wills."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 19,
+      "text_greek": "Σχίσμα πάλιν ἐγένετο ἐν τοῖς Ἰουδαίοις διὰ τοὺς λόγους τούτους.",
+      "text_kjv": "There was a division therefore again among the Jews for these sayings.",
+      "rendering": "There was again a division among the Jewish people because of these words.",
+      "translator_notes": [
+        "The schisma ('division, split') recurs from 9:16 and 7:43 — Jesus's words consistently divide his audience. The adverb palin ('again') indicates this is a pattern, not an anomaly."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 20,
+      "text_greek": "ἔλεγον δὲ πολλοὶ ἐξ αὐτῶν· Δαιμόνιον ἔχει καὶ μαίνεται· τί αὐτοῦ ἀκούετε;",
+      "text_kjv": "And many of them said, He hath a devil, and is mad; why hear ye him?",
+      "rendering": "Many of them said, \"He has a demon and is out of his mind. Why listen to him?\"",
+      "translator_notes": [
+        "The charge of demon possession (daimonion echei) repeats from 7:20 and 8:48. The verb mainetai ('is mad, is insane') adds a new charge — raving madness. The combination suggests they hear his claims as the ravings of a possessed person. Their dismissive question ('why listen?') attempts to shut down the conversation."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 21,
+      "text_greek": "ἄλλοι ἔλεγον· Ταῦτα τὰ ῥήματα οὐκ ἔστιν δαιμονιζομένου· μὴ δαιμόνιον δύναται τυφλῶν ὀφθαλμοὺς ἀνοῖξαι;",
+      "text_kjv": "Others said, These are not the words of him that hath a devil. Can a devil open the eyes of the blind?",
+      "rendering": "Others said, \"These are not the words of someone possessed by a demon. Can a demon open the eyes of the blind?\"",
+      "translator_notes": [
+        "The counter-argument has two parts: (1) Jesus's words are too coherent and meaningful to be demonic ravings, and (2) the healing of the blind man in chapter 9 provides concrete evidence that his power comes from God, not demons. The mē particle expects a negative answer: 'a demon can't open blind eyes, can it?' The reference back to the blind man's healing links chapters 9 and 10."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 22,
+      "text_greek": "Ἐγένετο τότε τὰ ἐγκαίνια ἐν τοῖς Ἱεροσολύμοις, χειμὼν ἦν,",
+      "text_kjv": "And it was at Jerusalem the feast of the dedication, and it was winter.",
+      "rendering": "Then came the Feast of Dedication in Jerusalem. It was winter,",
+      "translator_notes": [
+        "The egkainia ('Dedication, Renewal') is Hanukkah, commemorating the rededication of the temple by Judas Maccabeus in 164 BC after its desecration by Antiochus IV Epiphanes (1 Maccabees 4:36-59). The festival falls in Kislev (November-December). The note 'it was winter' (cheimōn ēn) may be simply calendrical or may carry symbolic weight — the season of cold and darkness as the theological conflict intensifies."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 23,
+      "text_greek": "καὶ περιεπάτει ὁ Ἰησοῦς ἐν τῷ ἱερῷ ἐν τῇ στοᾷ τοῦ Σολομῶνος.",
+      "text_kjv": "And Jesus walked in the temple in Solomon's porch.",
+      "rendering": "Jesus walked in the sanctuary in Solomon's porch.",
+      "translator_notes": [
+        "Solomon's Colonnade (stoa tou Solomōnos) was a covered portico on the eastern side of the temple mount, believed to date to Solomon's original temple. It was a common gathering place for teaching and debate (cf. Acts 3:11, 5:12). The location is public and prominent."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 24,
+      "text_greek": "ἐκύκλωσαν οὖν αὐτὸν οἱ Ἰουδαῖοι καὶ ἔλεγον αὐτῷ· Ἕως πότε τὴν ψυχὴν ἡμῶν αἴρεις; εἰ σὺ εἶ ὁ Χριστός, εἰπὲ ἡμῖν παρρησίᾳ.",
+      "text_kjv": "Then came the Jews round about him, and said unto him, How long dost thou make us to doubt? If thou be the Christ, tell us plainly.",
+      "rendering": "So the Jewish leaders surrounded him and said to him, \"How long will you keep us in suspense? If you are the Christ, tell us plainly.\"",
+      "translator_notes": [
+        "The verb ekyklōsan ('surrounded, encircled') suggests both physical and psychological pressure — they close in on him. The idiom tēn psychēn hēmōn aireis (lit. 'you take away our soul/life') means 'you hold us in suspense' or 'you keep us agitated.' The demand for parrhēsia ('plainness, openness, boldness') reflects their frustration with Jesus's indirect self-revelation. During Hanukkah, the question of messianic identity would carry particular weight — the festival commemorates a military deliverer."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 25,
+      "text_greek": "ἀπεκρίθη αὐτοῖς ὁ Ἰησοῦς· Εἶπον ὑμῖν καὶ οὐ πιστεύετε· τὰ ἔργα ἃ ἐγὼ ποιῶ ἐν τῷ ὀνόματι τοῦ πατρός μου ταῦτα μαρτυρεῖ περὶ ἐμοῦ·",
+      "text_kjv": "Jesus answered them, I told you, and ye believed not: the works that I do in my Father's name, they bear witness of me.",
+      "rendering": "Jesus answered them, \"I have told you, and you do not believe. The works that I do in my Father's name testify about me,",
+      "translator_notes": [
+        "Jesus's response reframes the problem: the issue is not insufficient evidence but insufficient faith. He has told them (eipon hymin) — through his 'I am' statements and his signs — and they have not believed. The works (erga, including healings, signs, and teaching) done 'in my Father's name' (en tō onomati tou patros) carry the Father's own authority and serve as testimony."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 26,
+      "text_greek": "ἀλλὰ ὑμεῖς οὐ πιστεύετε, ὅτι οὐκ ἐστὲ ἐκ τῶν προβάτων τῶν ἐμῶν.",
+      "text_kjv": "But ye believe not, because ye are not of my sheep, as I said unto you.",
+      "rendering": "But you trust not, because you are not of my sheep, as I stated to you.",
+      "translator_notes": [
+        "The logic is direct: unbelief is the evidence that they do not belong to Jesus's flock, not the cause of being excluded from it. The phrase ek tōn probatōn tōn emōn ('from my sheep') connects their unbelief to the shepherd discourse — they cannot hear his voice because they are not his sheep (cf. 8:47)."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 27,
+      "text_greek": "τὰ πρόβατα τὰ ἐμὰ τῆς φωνῆς μου ἀκούουσιν, κἀγὼ γινώσκω αὐτά, καὶ ἀκολουθοῦσίν μοι,",
+      "text_kjv": "My sheep hear my voice, and I know them, and they follow me:",
+      "rendering": "My sheep hear my voice, and I know them, then they Come, follow me:.",
+      "translator_notes": [
+        "Three marks of the true sheep: they hear (akouousin, present tense — ongoing hearing), they are known by the shepherd (ginōskō, personal relational knowledge), and they follow (akolouthousin, habitual following). The order matters: hearing precedes knowing precedes following."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 28,
+      "text_greek": "κἀγὼ δίδωμι αὐτοῖς ζωὴν αἰώνιον, καὶ οὐ μὴ ἀπόλωνται εἰς τὸν αἰῶνα, καὶ οὐχ ἁρπάσει τις αὐτὰ ἐκ τῆς χειρός μου.",
+      "text_kjv": "And I give unto them eternal life; and they shall never perish, neither shall any man pluck them out of my hand.",
+      "rendering": "I give them eternal life, and they will never perish, and no one will snatch them out of my hand.",
+      "translator_notes": [
+        "Three assurances correspond to the three marks of verse 27: eternal life is given (didōmi, present tense — ongoing gift), they will never perish (ou mē apolōntai, the strongest possible negation), and no one can forcibly remove them (ouch harpasei, 'will not snatch' — the same verb used of the wolf in v. 12). The security of the sheep rests in the shepherd's power, not in the sheep's strength."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 29,
+      "text_greek": "ὁ πατήρ μου ὃ δέδωκέν μοι πάντων μεῖζόν ἐστιν, καὶ οὐδεὶς δύναται ἁρπάζειν ἐκ τῆς χειρὸς τοῦ πατρός.",
+      "text_kjv": "My Father, which gave them me, is greater than all; and no man is able to pluck them out of my Father's hand.",
+      "rendering": "My Father, who has given them to me, is greater than all, and no one is able to snatch them out of the Father's hand.",
+      "translator_notes": [
+        "The textual tradition here is complex — some manuscripts read 'what my Father has given me is greater than all' (emphasizing the gift), others 'my Father who has given them to me is greater than all' (emphasizing the Father). The theological point is the same: the sheep are doubly secure, held in both the Son's hand (v. 28) and the Father's hand. No external force can overcome either."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 30,
+      "text_greek": "ἐγὼ καὶ ὁ πατὴρ ἕν ἐσμεν.",
+      "text_kjv": "I and my Father are one.",
+      "rendering": "I and the Father are one.\"",
+      "expanded_rendering": "The Greek hen ('one') is neuter, not masculine. Jesus does not say 'I and the Father are one person' (heis, masculine) but 'I and the Father are one thing' — one in essence, purpose, will, and action. The plural verb esmen ('we are') preserves the distinction between Father and Son while the neuter hen affirms their unity. This single sentence became foundational for the development of Trinitarian theology: the Father and the Son are distinct persons (two subjects, plural verb) who share a single divine nature (neuter 'one').",
+      "translator_notes": [
+        "This is the theological summit of the chapter. The statement is concise to the point of explosive — five Greek words that generated centuries of theological debate. The audience's response (picking up stones, v. 31) confirms they hear this as a divine claim. The statement follows logically from vv. 28-29: if the sheep are equally secure in the Son's hand and the Father's hand, the two hands must be one."
+      ],
+      "key_terms": [
+        {
+          "greek": "ἕν",
+          "transliteration": "hen",
+          "rendered_as": "one",
+          "semantic_range": "one (neuter: one thing, one essence, one reality)",
+          "note": "The neuter form indicates unity of nature and purpose rather than numerical identity of person. This is distinct from the masculine heis, which would indicate a single individual. The Nicene Creed's 'of one substance (homoousios) with the Father' draws directly on this verse's logic."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 31,
+      "text_greek": "Ἐβάστασαν πάλιν λίθους οἱ Ἰουδαῖοι ἵνα λιθάσωσιν αὐτόν.",
+      "text_kjv": "Then the Jews took up stones again to stone him.",
+      "rendering": "The Jewish leaders picked up stones again to stone him.",
+      "translator_notes": [
+        "The adverb palin ('again') connects to the stoning attempt in 8:59. The verb ebastasan ('picked up, carried') suggests they found stones in the temple precincts — possibly from ongoing construction work on the temple complex. Their intent to stone him for blasphemy (cf. v. 33) confirms they understood verse 30 as a divine claim, not merely a statement of prophetic alignment."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 32,
+      "text_greek": "ἀπεκρίθη αὐτοῖς ὁ Ἰησοῦς· Πολλὰ ἔργα καλὰ ἔδειξα ὑμῖν ἐκ τοῦ πατρός· διὰ ποῖον αὐτῶν ἔργον ἐμὲ λιθάζετε;",
+      "text_kjv": "Jesus answered them, Many good works have I shewed you from my Father; for which of those works do ye stone me?",
+      "rendering": "Jesus answered them, \"I have shown you many good works from the Father. For which of these works are you going to stone me?\"",
+      "translator_notes": [
+        "The adjective kala ('good, noble, beautiful') for the works echoes kalos in 'good shepherd' (v. 11) — the works are beautiful, noble, worthy of praise. The question forces them to identify which specific act merits death — the absurdity of stoning someone for doing good is laid bare."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 33,
+      "text_greek": "ἀπεκρίθησαν αὐτῷ οἱ Ἰουδαῖοι· Περὶ καλοῦ ἔργου οὐ λιθάζομέν σε ἀλλὰ περὶ βλασφημίας, καὶ ὅτι σὺ ἄνθρωπος ὢν ποιεῖς σεαυτὸν θεόν.",
+      "text_kjv": "The Jews answered him, saying, For a good work we stone thee not; but for blasphemy; and because that thou, being a man, makest thyself God.",
+      "rendering": "The Jewish leaders answered him, \"It is not for a good work that we are going to stone you, but for blasphemy, because you, a mere man, make yourself God.\"",
+      "translator_notes": [
+        "The charge is explicit: blasphēmia ('blasphemy') — and the specific form of blasphemy is that a human being (anthrōpos ōn, 'being a man') claims to be theon ('God'). The phrase poieis seauton theon ('make yourself God') is how they interpret 'I and the Father are one.' They understand the claim correctly; what they dispute is Jesus's right to make it."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 34,
+      "text_greek": "ἀπεκρίθη αὐτοῖς ὁ Ἰησοῦς· Οὐκ ἔστιν γεγραμμένον ἐν τῷ νόμῳ ὑμῶν ὅτι Ἐγὼ εἶπα· θεοί ἐστε;",
+      "text_kjv": "Jesus answered them, Is it not written in your law, I said, Ye are gods?",
+      "rendering": "You are gods?, jesus responded them, Is it not written in your law, I said.",
+      "translator_notes": [
+        "Jesus quotes Psalm 82:6, where God addresses the divine council or Israel's judges as 'gods' (theoi). The phrase 'your Law' (tō nomō hymōn) uses 'Law' broadly to include the Psalms (the entire Hebrew Scripture). Jesus's argument is a qal wahomer ('lesser to greater'): if Scripture itself applies the word 'gods' to human beings, how can it be blasphemy for the one the Father consecrated and sent to call himself God's Son?",
+        "[TCR Cross-Reference] Echoes Psalms 82:6. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 35,
+      "text_greek": "εἰ ἐκείνους εἶπεν θεοὺς πρὸς οὓς ὁ λόγος τοῦ θεοῦ ἐγένετο, καὶ οὐ δύναται λυθῆναι ἡ γραφή,",
+      "text_kjv": "If he called them gods, unto whom the word of God came, and the scripture cannot be broken;",
+      "rendering": "If he known as them gods, to whom the word of God arrived, and the scripture cannot be broken;.",
+      "translator_notes": [
+        "The parenthetical 'Scripture cannot be broken' (ou dynatai lythēnai hē graphē) is a significant assertion of the authority and inviolability of the written text. The verb lythēnai ('broken, loosened, dissolved') means Scripture cannot be invalidated or set aside. 'To whom the word of God came' identifies the 'gods' of Psalm 82 as recipients of divine revelation — mere humans who were nonetheless called 'gods' by God's own word.",
+        "[TCR Cross-Reference] This verse quotes Psalm 82 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 36,
+      "text_greek": "ὃν ὁ πατὴρ ἡγίασεν καὶ ἀπέστειλεν εἰς τὸν κόσμον, ὑμεῖς λέγετε ὅτι Βλασφημεῖς, ὅτι εἶπον· Υἱὸς τοῦ θεοῦ εἰμι;",
+      "text_kjv": "Say ye of him, whom the Father hath sanctified, and sent into the world, Thou blasphemest; because I said, I am the Son of God?",
+      "rendering": "Say you of him, whom the Father has sanctified, and dispatched into the world, you blasphemest. Because I stated, I am the Son of God?",
+      "translator_notes": [
+        "The verb hēgiasen ('consecrated, set apart, sanctified') is particularly resonant during the Feast of Dedication (Hanukkah), which celebrates the rededication/consecration of the temple. Jesus implies he is the true consecrated one — the living temple (cf. 2:19-21). Note that Jesus says 'Son of God' (huios tou theou) here, not 'God' — he reframes their charge. The argument is: if Scripture calls humans 'gods,' how much more appropriate for the one the Father himself consecrated to say 'I am the Son of God'?"
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 37,
+      "text_greek": "εἰ οὐ ποιῶ τὰ ἔργα τοῦ πατρός μου, μὴ πιστεύετέ μοι·",
+      "text_kjv": "If I do not the works of my Father, believe me not.",
+      "rendering": "If I am not doing the works of my Father, then do not believe me.",
+      "translator_notes": [
+        "Jesus offers a falsifiable test: his works are the evidence. If they do not bear the character of the Father's works, disbelief is warranted. This is not an appeal to blind faith but to observable evidence — the signs and works he has performed throughout the Gospel."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 38,
+      "text_greek": "εἰ δὲ ποιῶ, κἂν ἐμοὶ μὴ πιστεύητε, τοῖς ἔργοις πιστεύετε, ἵνα γνῶτε καὶ γινώσκητε ὅτι ἐν ἐμοὶ ὁ πατὴρ κἀγὼ ἐν τῷ πατρί.",
+      "text_kjv": "But if I do, though ye believe not me, believe the works: that ye may know, and believe, that the Father is in me, and I in him.",
+      "rendering": "But if I do them, even though you do not believe me, believe the works, so that you may know and understand that the Father is in me and I am in the Father.\"",
+      "translator_notes": [
+        "The phrase 'the Father is in me and I am in the Father' (en emoi ho patēr kagō en tō patri) expresses mutual indwelling — a concept developed further in 14:10-11 and 17:21. The two verbs gnōte kai ginōskēte ('know and keep knowing') move from initial recognition (aorist) to ongoing understanding (present). Jesus offers the works as an entry point for those who cannot yet accept his word directly."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 39,
+      "text_greek": "Ἐζήτουν οὖν αὐτὸν πάλιν πιάσαι· καὶ ἐξῆλθεν ἐκ τῆς χειρὸς αὐτῶν.",
+      "text_kjv": "Therefore they sought again to take him: but he escaped out of their hand.",
+      "rendering": "So they tried again to arrest him, but he escaped from their grasp.",
+      "translator_notes": [
+        "The verb piasai ('arrest, seize') indicates an official arrest attempt, not merely stoning. The phrase exēlthen ek tēs cheiros autōn ('went out from their hand') echoes the shepherd discourse: no one can snatch from the Father's hand (v. 29), and no one can seize the shepherd either. Jesus's escape is narrated without explanation — divine protection is implied."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 40,
+      "text_greek": "Καὶ ἀπῆλθεν πάλιν πέραν τοῦ Ἰορδάνου εἰς τὸν τόπον ὅπου ἦν Ἰωάννης τὸ πρῶτον βαπτίζων, καὶ ἔμεινεν ἐκεῖ.",
+      "text_kjv": "And went away again beyond Jordan into the place where John at first baptized; and there he abode.",
+      "rendering": "He went away again across the Jordan to the place where John had been baptizing at first, and he stayed there.",
+      "translator_notes": [
+        "Jesus returns to the location of his ministry's beginning (cf. 1:28) — a geographic and thematic return to origins. The verb emeinen ('stayed, remained') uses the key Johannine verb menō. The withdrawal beyond the Jordan is strategic, removing himself from Jerusalem's immediate danger while remaining accessible."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 41,
+      "text_greek": "καὶ πολλοὶ ἦλθον πρὸς αὐτὸν καὶ ἔλεγον ὅτι Ἰωάννης μὲν σημεῖον ἐποίησεν οὐδέν, πάντα δὲ ὅσα εἶπεν Ἰωάννης περὶ τούτου ἀληθῆ ἦν.",
+      "text_kjv": "And many resorted unto him, and said, John did no miracle: but all things that John spake of this man were true.",
+      "rendering": "Many came to him and said, \"John performed no sign, but everything John said about this man was true.\"",
+      "translator_notes": [
+        "The contrast between John (no signs) and Jesus (many signs) highlights that John's authority was prophetic testimony, not miraculous power. Yet John's testimony is vindicated — 'everything John said about this man was true' (alēthē ēn). This verse connects the end of chapter 10 back to the beginning of the Gospel (1:19-34) and John the Baptist's witness."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 42,
+      "text_greek": "καὶ πολλοὶ ἐπίστευσαν εἰς αὐτὸν ἐκεῖ.",
+      "text_kjv": "And many believed on him there.",
+      "rendering": "Numerous believed on him there.",
+      "translator_notes": [
+        "The chapter ends on a note of faith — 'many believed' (polloi episteusan). In contrast to the rejection in Jerusalem, the people beyond the Jordan receive Jesus. The adverb ekei ('there') is emphatic: away from Jerusalem, away from the religious establishment, faith flourishes. This provides a hopeful conclusion before the Lazarus narrative in chapter 11."
+      ],
+      "reading_level": "6th grade"
+    }
+  ]
+}

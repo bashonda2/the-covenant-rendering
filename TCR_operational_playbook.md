@@ -84,9 +84,9 @@ These are separate repos. The data repo is the canonical source for translation 
 
 | Property | Value |
 |---|---|
-| Domain | thecovenantrendering.com (registered at Namecheap, DNS A records → 209.74.80.143) |
-| VPS | 209.74.80.143 (shared with EveryVerseMatters.com) |
-| SSH | `ssh root@209.74.80.143` |
+| Domain | thecovenantrendering.com |
+| VPS | *(IP removed from public docs)* |
+| SSH | *(credentials removed from public docs)* |
 | Web server | Nginx 1.24.0 (Ubuntu) |
 | Web root | `/var/www/tcr/` |
 | Nginx config | `/etc/nginx/sites-available/thecovenantrendering.com` |
@@ -163,7 +163,7 @@ git add -A && git commit -m "feat: add {Book}" && git push
 
 # What deploy.sh does:
 # 1. npm run build  (generates static HTML from JSON data)
-# 2. rsync -avz --delete dist/ root@209.74.80.143:/var/www/tcr/
+# 2. rsync -avz --delete dist/ <user>@<vps-ip>:/var/www/tcr/
 ```
 
 Build time: ~0.8s for 194 pages. Rsync only transfers changed files. Zero downtime.

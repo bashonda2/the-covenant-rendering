@@ -1,0 +1,383 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Acts",
+    "chapter": 23,
+    "source_text": "SBL Greek New Testament (SBLGNT)",
+    "reference_text": "KJV",
+    "generated_at": "2026-04-05T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Acts 23 opens with Paul before the Sanhedrin, where his claim of a clear conscience provokes the high priest Ananias to order him struck. Paul then strategically divides the council by declaring that he is on trial for the hope of the resurrection, splitting the Pharisees and Sadducees against each other. That night, the Lord appears to Paul and assures him he will testify in Rome. Meanwhile, more than forty Jews form a conspiracy to assassinate Paul, swearing an oath not to eat or drink until he is dead. Paul's nephew learns of the plot, warns the commander, and Claudius Lysias transfers Paul under heavy military escort to the governor Felix in Caesarea.",
+    "remarkable": "Paul's appeal to the resurrection as the issue at stake (v. 6) is both theologically true and tactically brilliant — it exploits the well-known Pharisee-Sadducee divide on this doctrine. The Lord's nighttime appearance (v. 11) is the theological center of the chapter, confirming that Paul's journey to Rome is divinely ordained, not merely the result of political maneuvering. The assassination conspiracy and its foiling through Paul's nephew introduces the only family member of Paul mentioned in Acts. Claudius Lysias's letter (vv. 26-30) is a masterpiece of bureaucratic spin — he rewrites events to make himself look better.",
+    "friction": "Paul's response to the high priest ('God will strike you, you whitewashed wall,' v. 3) and his subsequent claim not to have known Ananias was high priest (v. 5) have been debated endlessly. Possible explanations include poor eyesight, the high priest's lack of distinctive vestments in a hastily convened session, or ironic denial. We render the text without resolving the question. Claudius Lysias's letter significantly distorts the actual sequence of events — he claims to have rescued Paul because he learned he was a Roman citizen, when in fact he learned this only after ordering the flogging.",
+    "connections": "Paul's claim of a 'clear conscience' (v. 1) connects to his consistent self-defense throughout the epistles (cf. 2 Corinthians 1:12, 2 Timothy 1:3). The Pharisee-Sadducee split over resurrection connects to the Sadducees' challenge to Jesus in Luke 20:27-40. The Lord's assurance 'you must testify in Rome' (v. 11) parallels 19:21 and drives the narrative toward its conclusion. The military escort of 470 soldiers for one prisoner underscores the seriousness of the threat and the strategic importance Roman authorities placed on maintaining order."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_greek": "ἀτενίσας δὲ ὁ Παῦλος τῷ συνεδρίῳ εἶπεν· Ἄνδρες ἀδελφοί, ἐγὼ πάσῃ συνειδήσει ἀγαθῇ πεπολίτευμαι τῷ θεῷ ἄχρι ταύτης τῆς ἡμέρας.",
+      "text_kjv": "And Paul, earnestly beholding the council, said, Men and brethren, I have lived in all good conscience before God until this day.",
+      "rendering": "Paul looked intently at the council and said, \"Brothers, I have lived my life before God in all good conscience up to this day.\"",
+      "translator_notes": [
+        "The verb atenisas ('looked intently, gazed') suggests direct, unflinching eye contact. Paul's opening claim — a 'good conscience' (syneideesei agathee) before God — is a bold assertion of innocence. The word pepoliteumai ('I have lived as a citizen, conducted myself') implies both civic and religious faithfulness."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 2,
+      "text_greek": "ὁ δὲ ἀρχιερεὺς Ἁνανίας ἐπέταξεν τοῖς παρεστῶσιν αὐτῷ τύπτειν αὐτοῦ τὸ στόμα.",
+      "text_kjv": "And the high priest Ananias commanded them that stood by him to smite him on the mouth.",
+      "rendering": "The high priest Ananias ordered those standing near him to strike him on the mouth.",
+      "translator_notes": [
+        "Ananias son of Nedebaeus was high priest from approximately AD 47 to 59. He was known for violence and corruption (Josephus, Antiquities 20.199-207) and was eventually assassinated by Jewish revolutionaries at the outbreak of the revolt in AD 66. Striking a defendant on the mouth was intended to silence what was considered blasphemous or offensive speech."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 3,
+      "text_greek": "τότε ὁ Παῦλος πρὸς αὐτὸν εἶπεν· Τύπτειν σε μέλλει ὁ θεός, τοῖχε κεκονιαμένε· καὶ σὺ κάθῃ κρίνων με κατὰ τὸν νόμον, καὶ παρανομῶν κελεύεις με τύπτεσθαι;",
+      "text_kjv": "Then said Paul unto him, God shall smite thee, thou whited wall: for sittest thou to judge me after the law, and commandest me to be smitten contrary to the law?",
+      "rendering": "Then Paul said to him, \"God is going to strike you, you whitewashed wall! Are you sitting there to judge me according to the law, and yet in violation of the law you order me to be struck?\"",
+      "translator_notes": [
+        "The epithet 'whitewashed wall' (toiche kekoniamene) echoes Ezekiel 13:10-15, where whitewashed walls conceal structural corruption. Jesus used similar imagery for the Pharisees (Matthew 23:27, 'whitewashed tombs'). Paul's retort exposes the irony: the judge is the lawbreaker. Jewish law required that defendants be presumed innocent and not struck during proceedings.",
+        "[TCR Cross-Reference] References Ezekiel 13:10-15 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 4,
+      "text_greek": "οἱ δὲ παρεστῶτες εἶπαν· Τὸν ἀρχιερέα τοῦ θεοῦ λοιδορεῖς;",
+      "text_kjv": "And they that stood by said, Revilest thou God's high priest?",
+      "rendering": "Those standing nearby said, \"Would you insult God's high priest?\"",
+      "translator_notes": [
+        "The bystanders' rebuke appeals to the sanctity of the high priestly office. The verb loidoreis ('revile, insult') was a serious charge — insulting the high priest could be construed as violating Exodus 22:28.",
+        "[TCR Cross-Reference] Echoes Exodus 22:28. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 5,
+      "text_greek": "ἔφη τε ὁ Παῦλος· Οὐκ ᾔδειν, ἀδελφοί, ὅτι ἐστὶν ἀρχιερεύς· γέγραπται γὰρ ὅτι Ἄρχοντα τοῦ λαοῦ σου οὐκ ἐρεῖς κακῶς.",
+      "text_kjv": "Then said Paul, I wist not, brethren, that he was the high priest: for it is written, Thou shalt not speak evil of the ruler of thy people.",
+      "rendering": "Paul said, \"I did not know, brothers, that he was the high priest. For it is written, 'You shall not speak evil of a ruler of your people.'\"",
+      "translator_notes": [
+        "Paul quotes Exodus 22:28 from the Septuagint. His claim not to have recognized the high priest remains puzzling — proposed explanations include poor eyesight (cf. Galatians 4:15, 6:11), the informality of the session, the high priest not wearing vestments, or Paul speaking with irony (implying 'I could not have imagined that a man who acts this way is the high priest'). The text does not resolve the ambiguity.",
+        "[TCR Cross-Reference] This verse quotes Exodus 22:28 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 6,
+      "text_greek": "γνοὺς δὲ ὁ Παῦλος ὅτι τὸ ἓν μέρος ἐστὶν Σαδδουκαίων τὸ δὲ ἕτερον Φαρισαίων ἔκραζεν ἐν τῷ συνεδρίῳ· Ἄνδρες ἀδελφοί, ἐγὼ Φαρισαῖός εἰμι, υἱὸς Φαρισαίων· περὶ ἐλπίδος καὶ ἀναστάσεως νεκρῶν ἐγὼ κρίνομαι.",
+      "text_kjv": "But when Paul perceived that the one part were Sadducees, and the other Pharisees, he cried out in the council, Men and brethren, I am a Pharisee, the son of a Pharisee: of the hope and resurrection of the dead I am called in question.",
+      "rendering": "Now when Paul perceived that one part were Sadducees and the other Pharisees, he cried out in the council, \"Brothers, I am a Pharisee, a son of Pharisees. It is with respect to the hope and the resurrection of the dead that I am on trial!\"",
+      "translator_notes": [
+        "Paul's declaration is both true and strategic. He genuinely believed in the resurrection (1 Corinthians 15), and the resurrection of Jesus was central to his message. But by framing the issue this way, he exploits the fundamental Pharisee-Sadducee doctrinal divide. The Sadducees denied resurrection, angels, and spirits; the Pharisees affirmed all three (v. 8)."
+      ],
+      "key_terms": [
+        {
+          "greek": "ἀνάστασις",
+          "transliteration": "anastasis",
+          "rendered_as": "resurrection",
+          "semantic_range": "resurrection, rising up, standing again",
+          "note": "The central claim of Christian preaching — that God raised Jesus from the dead. Paul connects his own trial to this foundational doctrine, making it the theological fulcrum of his defense."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 7,
+      "text_greek": "τοῦτο δὲ αὐτοῦ εἰπόντος ἐγένετο στάσις τῶν Φαρισαίων καὶ Σαδδουκαίων, καὶ ἐσχίσθη τὸ πλῆθος.",
+      "text_kjv": "And when he had so said, there arose a dissension between the Pharisees and the Sadducees: and the multitude was divided.",
+      "rendering": "When he said this, a dispute arose between the Pharisees and the Sadducees, and the assembly was divided.",
+      "translator_notes": [
+        "The verb eschisthe ('was split, divided') is vivid — the council literally fractures along doctrinal lines. Paul has successfully redirected the debate from his alleged crimes to an internal Jewish theological controversy."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 8,
+      "text_greek": "Σαδδουκαῖοι μὲν γὰρ λέγουσιν μὴ εἶναι ἀνάστασιν μήτε ἄγγελον μήτε πνεῦμα, Φαρισαῖοι δὲ ὁμολογοῦσιν τὰ ἀμφότερα.",
+      "text_kjv": "For the Sadducees say that there is no resurrection, neither angel, nor spirit: but the Pharisees confess both.",
+      "rendering": "For the Sadducees say that there is no resurrection, nor angel, nor spirit, but the Pharisees acknowledge them all.",
+      "translator_notes": [
+        "Luke provides this explanatory note for readers unfamiliar with Jewish sectarian differences. The Sadducees' denial of resurrection, angels, and spirits reflected their strict adherence to the written Torah alone, where these concepts are less developed. The Pharisees accepted the oral tradition and later prophetic writings that developed these doctrines."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 9,
+      "text_greek": "ἐγένετο δὲ κραυγὴ μεγάλη, καὶ ἀναστάντες τινὲς τῶν γραμματέων τοῦ μέρους τῶν Φαρισαίων διεμάχοντο λέγοντες· Οὐδὲν κακὸν εὑρίσκομεν ἐν τῷ ἀνθρώπῳ τούτῳ· εἰ δὲ πνεῦμα ἐλάλησεν αὐτῷ ἢ ἄγγελος—",
+      "text_kjv": "And there arose a great cry: and the scribes that were of the Pharisees' part arose, and strove, saying, We find no evil in this man: but if a spirit or an angel hath spoken to him, let us not fight against God.",
+      "rendering": "Then a great clamor arose, and some of the scribes of the Pharisees' party stood up and contended sharply, \"We find nothing wrong with this man. What if a spirit or an angel has spoken to him?\" —",
+      "translator_notes": [
+        "The Pharisaic scribes now defend Paul — a dramatic reversal. Their argument ('What if a spirit or an angel spoke to him?') inadvertently validates Paul's Damascus road experience. The SBLGNT text breaks off mid-sentence with a dash, leaving the conditional clause unfinished (aposiopesis) — the sentence is interrupted by the chaos. The KJV's addition 'let us not fight against God' (from the Textus Receptus) echoes Gamaliel's words in 5:39 but is not in the critical text."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 10,
+      "text_greek": "πολλῆς δὲ γινομένης στάσεως φοβηθεὶς ὁ χιλίαρχος μὴ διασπασθῇ ὁ Παῦλος ὑπ' αὐτῶν ἐκέλευσεν τὸ στράτευμα καταβὰν ἁρπάσαι αὐτὸν ἐκ μέσου αὐτῶν ἄγειν τε εἰς τὴν παρεμβολήν.",
+      "text_kjv": "And when there arose a great dissension, the chief captain, fearing lest Paul should have been pulled in pieces by them, commanded the soldiers to go down, and to take him by force from among them, and to bring him into the castle.",
+      "rendering": "When the dispute became violent, the commander, fearing that Paul would be torn apart by them, ordered the soldiers to go down, take him by force from among them, and bring him into the barracks.",
+      "translator_notes": [
+        "The verb diaspasthe ('torn apart, pulled to pieces') is graphic — the commander fears Paul will be literally dismembered as the two factions pull him in opposite directions. This is the second time the Roman military has had to rescue Paul from a Jewish crowd (cf. 21:32-35). The pattern establishes Rome as Paul's unlikely protector."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 11,
+      "text_greek": "Τῇ δὲ ἐπιούσῃ νυκτὶ ἐπιστὰς αὐτῷ ὁ κύριος εἶπεν· Θάρσει· ὡς γὰρ διεμαρτύρω τὰ περὶ ἐμοῦ εἰς Ἰερουσαλήμ, οὕτω σε δεῖ καὶ εἰς Ῥώμην μαρτυρῆσαι.",
+      "text_kjv": "And the night following the Lord stood by him, and said, Be of good cheer, Paul: for as thou hast testified of me in Jerusalem, so must thou bear witness also at Rome.",
+      "rendering": "The following night the Lord stood by him and said, \"Take courage, for as you have testified about me in Jerusalem, so you must also testify in Rome.\"",
+      "translator_notes": [
+        "This is the theological pivot of the entire narrative from Acts 21 onward. The divine dei ('it is necessary, you must') indicates that Paul's journey to Rome is not a contingent political outcome but a divinely ordained necessity. The word 'courage' (tharsei) is the same word Jesus used to calm the disciples on the sea (Matthew 14:27) and to assure the paralytic (Mark 2:5). Everything that follows — the conspiracy, the transfer to Caesarea, the trials, the appeal to Caesar, the shipwreck — serves this divine purpose."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 12,
+      "text_greek": "Γενομένης δὲ ἡμέρας ποιήσαντες συστροφὴν οἱ Ἰουδαῖοι ἀνεθεμάτισαν ἑαυτοὺς λέγοντες μήτε φαγεῖν μήτε πιεῖν ἕως οὗ ἀποκτείνωσιν τὸν Παῦλον.",
+      "text_kjv": "And when it was day, certain of the Jews banded together, and bound themselves under a curse, saying that they would neither eat nor drink till they had killed Paul.",
+      "rendering": "When day came, the Jews formed a conspiracy and bound themselves by an oath, saying that they would neither eat nor drink until they had killed Paul.",
+      "translator_notes": [
+        "The verb anethematisan ('bound themselves by a curse, placed themselves under a ban') means they invoked divine punishment on themselves if they failed. The Hebrew equivalent is cherem — a self-imposed ban of the most solemn kind. The oath not to eat or drink creates narrative urgency."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 13,
+      "text_greek": "ἦσαν δὲ πλείους τεσσεράκοντα οἱ ταύτην τὴν συνωμοσίαν ποιησάμενοι·",
+      "text_kjv": "And they were more than forty which had made this conspiracy.",
+      "rendering": "There were more than forty who formed this conspiracy.",
+      "translator_notes": [
+        "The number 'more than forty' (pleious tesserakonta) indicates a substantial, organized group — not a spontaneous mob but a premeditated assassination squad. The word synomosian ('conspiracy, joint oath') emphasizes the formal, sworn nature of their pact."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 14,
+      "text_greek": "οἵτινες προσελθόντες τοῖς ἀρχιερεῦσιν καὶ τοῖς πρεσβυτέροις εἶπαν· Ἀναθέματι ἀνεθεματίσαμεν ἑαυτοὺς μηδενὸς γεύσασθαι ἕως οὗ ἀποκτείνωμεν τὸν Παῦλον.",
+      "text_kjv": "And they came to the chief priests and elders, and said, We have bound ourselves under a great curse, that we will eat nothing until we have slain Paul.",
+      "rendering": "They went to the chief priests and elders and said, \"We have strictly bound ourselves by an oath to taste nothing until we have killed Paul.",
+      "translator_notes": [
+        "The conspirators approach the chief priests and elders (Sadducean leadership) — not the Pharisees who had just defended Paul. The Hebrew-style emphatic construction anathemati anethematisamen ('with a curse we have cursed ourselves') intensifies the solemnity of the oath."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 15,
+      "text_greek": "νῦν οὖν ὑμεῖς ἐμφανίσατε τῷ χιλιάρχῳ σὺν τῷ συνεδρίῳ ὅπως καταγάγῃ αὐτὸν εἰς ὑμᾶς ὡς μέλλοντας διαγινώσκειν ἀκριβέστερον τὰ περὶ αὐτοῦ· ἡμεῖς δὲ πρὸ τοῦ ἐγγίσαι αὐτὸν ἕτοιμοί ἐσμεν τοῦ ἀνελεῖν αὐτόν.",
+      "text_kjv": "Now therefore ye with the council signify to the chief captain that he bring him down unto you to morrow, as though ye would enquire something more perfectly concerning him: and we, or ever he come near, are ready to kill him.",
+      "rendering": "Now then, you and the council must notify the commander to bring him down to you, as though you were going to examine his case more carefully. And we are ready to kill him before he gets near.\"",
+      "translator_notes": [
+        "The plan involves the Sanhedrin as decoy — requesting a second hearing while the assassins ambush Paul en route. The participation of the chief priests and elders in this conspiracy implicates the Jewish leadership in a murder plot, a serious narrative charge that Luke presents matter-of-factly."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 16,
+      "text_greek": "ἀκούσας δὲ ὁ υἱὸς τῆς ἀδελφῆς Παύλου τὴν ἐνέδραν, παραγενόμενος καὶ εἰσελθὼν εἰς τὴν παρεμβολὴν ἀπήγγειλεν τῷ Παύλῳ.",
+      "text_kjv": "And when Paul's sister's son heard of their lying in wait, he went and entered into the castle, and told Paul.",
+      "rendering": "But the son of Paul's sister heard about the ambush, and he went and entered the barracks and told Paul.",
+      "translator_notes": [
+        "This is the only mention of any of Paul's relatives in Acts. The nephew's access to both the conspiracy information and the Roman barracks suggests the family may have had social connections in Jerusalem. How a young man learned of a secret conspiracy of forty men is unexplained — perhaps the plotters were not as discreet as they imagined."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 17,
+      "text_greek": "προσκαλεσάμενος δὲ ὁ Παῦλος ἕνα τῶν ἑκατονταρχῶν ἔφη· Τὸν νεανίαν τοῦτον ἀπάγαγε πρὸς τὸν χιλίαρχον· ἔχει γάρ τι ἀπαγγεῖλαι αὐτῷ.",
+      "text_kjv": "Then Paul called one of the centurions unto him, and said, Bring this young man unto the chief captain: for he hath a certain thing to tell him.",
+      "rendering": "Paul called one of the centurions and said, \"Take this young man to the commander, for he has something to report to him.\"",
+      "translator_notes": [
+        "Paul's ability to summon a centurion and make requests indicates that his status as a Roman citizen afforded him certain privileges even in custody. He acts decisively, channeling the information through proper military channels."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 18,
+      "text_greek": "ὁ μὲν οὖν παραλαβὼν αὐτὸν ἤγαγεν πρὸς τὸν χιλίαρχον καὶ φησίν· Ὁ δέσμιος Παῦλος προσκαλεσάμενός με ἠρώτησεν τοῦτον τὸν νεανίσκον ἀγαγεῖν πρὸς σὲ ἔχοντά τι λαλῆσαί σοι.",
+      "text_kjv": "So he took him, and brought him to the chief captain, and said, Paul the prisoner called me unto him, and prayed me to bring this young man unto thee, who hath something to say unto thee.",
+      "rendering": "So he took him and brought him to the commander and said, \"The prisoner Paul called me and asked me to bring this young man to you, as he has something to tell you.\"",
+      "translator_notes": [
+        "Paul is now referred to as 'the prisoner' (ho desmios) — his new identity in the narrative. The centurion faithfully relays Paul's request, and the commander receives the young man personally, indicating that he took Paul's status seriously."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 19,
+      "text_greek": "ἐπιλαβόμενος δὲ τῆς χειρὸς αὐτοῦ ὁ χιλίαρχος καὶ ἀναχωρήσας κατ' ἰδίαν ἐπυνθάνετο· Τί ἐστιν ὃ ἔχεις ἀπαγγεῖλαί μοι;",
+      "text_kjv": "Then the chief captain took him by the hand, and went with him aside privately, and asked him, What is that thou hast to tell me?",
+      "rendering": "The commander took him by the hand, drew him aside privately, and asked, \"What is it that you have to report to me?\"",
+      "translator_notes": [
+        "The commander's gesture of taking the young man by the hand (epilabomenos tes cheiros autou) suggests both kindness and discretion. He recognizes the sensitivity of the information and ensures privacy. The detail is characteristically Lukan in its attention to personal interaction."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 20,
+      "text_greek": "εἶπεν δὲ ὅτι Οἱ Ἰουδαῖοι συνέθεντο τοῦ ἐρωτῆσαί σε ὅπως αὔριον τὸν Παῦλον καταγάγῃς εἰς τὸ συνέδριον ὡς μέλλον τι ἀκριβέστερον πυνθάνεσθαι περὶ αὐτοῦ.",
+      "text_kjv": "And he said, The Jews have agreed to desire thee that thou wouldest bring down Paul to morrow into the council, as though they would enquire somewhat of him more perfectly.",
+      "rendering": "He said, \"The Jews have agreed to ask you to bring Paul down to the council tomorrow, as though they were going to inquire more carefully about his case.",
+      "translator_notes": [
+        "The nephew relays the plan accurately, demonstrating good intelligence. The phrase 'as though' (hos mellon) reveals the deception — the request for a hearing is a pretext for the ambush."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 21,
+      "text_greek": "σὺ οὖν μὴ πεισθῇς αὐτοῖς· ἐνεδρεύουσιν γὰρ αὐτὸν ἐξ αὐτῶν ἄνδρες πλείους τεσσεράκοντα, οἵτινες ἀνεθεμάτισαν ἑαυτοὺς μήτε φαγεῖν μήτε πιεῖν ἕως οὗ ἀνέλωσιν αὐτόν, καὶ νῦν εἰσιν ἕτοιμοι προσδεχόμενοι τὴν ἀπὸ σοῦ ἐπαγγελίαν.",
+      "text_kjv": "But do not thou yield unto them: for there lie in wait for him of them more than forty men, which have bound themselves with an oath, that they will neither eat nor drink till they have killed him: and now are they ready, looking for a promise from thee.",
+      "rendering": "But do not be persuaded by them, for more than forty of their men are lying in ambush for him, having bound themselves by an oath neither to eat nor drink until they have killed him. They are ready now, waiting for your consent.\"",
+      "translator_notes": [
+        "The nephew provides specific, actionable intelligence: the number of conspirators (more than forty), the nature of their oath, and their current state of readiness. The phrase 'waiting for your consent' (prosdechomenoi ten apo sou epangelian) reveals that the plot depends on the commander's cooperation."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 22,
+      "text_greek": "ὁ μὲν οὖν χιλίαρχος ἀπέλυσε τὸν νεανίσκον παραγγείλας μηδενὶ ἐκλαλῆσαι ὅτι ταῦτα ἐνεφάνισας πρός με.",
+      "text_kjv": "So the chief captain then let the young man depart, and charged him, See thou tell no man that thou hast shewed these things to me.",
+      "rendering": "The commander dismissed the young man, ordering him, \"Tell no one that you have reported these things to me.\"",
+      "translator_notes": [
+        "The commander's secrecy order protects both the nephew (from retaliation) and his own operational plans. He acts with professional military competence — receiving intelligence, maintaining security, and immediately formulating a response."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 23,
+      "text_greek": "καὶ προσκαλεσάμενός τινας δύο τῶν ἑκατονταρχῶν εἶπεν· Ἑτοιμάσατε στρατιώτας διακοσίους ὅπως πορευθῶσιν ἕως Καισαρείας, καὶ ἱππεῖς ἑβδομήκοντα καὶ δεξιολάβους διακοσίους, ἀπὸ τρίτης ὥρας τῆς νυκτός,",
+      "text_kjv": "And he called unto him two centurions, saying, Make ready two hundred soldiers to go to Caesarea, and horsemen threescore and ten, and spearmen two hundred, at the third hour of the night;",
+      "rendering": "Then he called two of the centurions and said, \"Get two hundred soldiers ready to go to Caesarea, with seventy horsemen and two hundred spearmen, by the third hour of the night.",
+      "translator_notes": [
+        "The escort totals 470 military personnel for one prisoner — an extraordinary force that reflects both the seriousness of the threat and the importance of protecting a Roman citizen. The 'third hour of the night' is approximately 9 PM, ensuring departure under cover of darkness. The dexiolabous ('spearmen' or 'light-armed troops') is a rare word whose exact meaning is debated."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 24,
+      "text_greek": "κτήνη τε παραστῆσαι ἵνα ἐπιβιβάσαντες τὸν Παῦλον διασώσωσι πρὸς Φήλικα τὸν ἡγεμόνα,",
+      "text_kjv": "And provide them beasts, that they may set Paul on, and bring him safe unto Felix the governor.",
+      "rendering": "Also provide mounts so that Paul may ride and be brought safely to Felix the governor.\"",
+      "translator_notes": [
+        "Multiple mounts (ktene, 'animals, beasts') suggests provisions for changing horses to maintain speed. Felix (Marcus Antonius Felix) was procurator of Judea from approximately AD 52 to 59. Tacitus describes him as one who 'exercised the power of a king with the spirit of a slave' (Histories 5.9)."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 25,
+      "text_greek": "γράψας ἐπιστολὴν ἔχουσαν τὸν τύπον τοῦτον·",
+      "text_kjv": "And he wrote a letter after this manner:",
+      "rendering": "He wrote a letter to this effect:",
+      "translator_notes": [
+        "The phrase 'to this effect' (echousan ton typon touton) indicates Luke may be paraphrasing rather than quoting the letter verbatim. This is one of the few embedded letters in Acts (cf. 15:23-29) and provides insight into Roman administrative communication."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 26,
+      "text_greek": "Κλαύδιος Λυσίας τῷ κρατίστῳ ἡγεμόνι Φήλικι χαίρειν.",
+      "text_kjv": "Claudius Lysias unto the most excellent governor Felix sendeth greeting.",
+      "rendering": "\"Claudius Lysias, to His Excellency the governor Felix: Greetings.",
+      "translator_notes": [
+        "The letter follows standard Greco-Roman epistolary form: sender, recipient, greeting (chairein). The title kratisto ('most excellent, His Excellency') is the same used for Theophilus in Luke 1:3 and for Felix and Festus elsewhere in Acts (24:3, 26:25). The commander's full name — Claudius Lysias — appears only here. 'Claudius' was likely his adopted Roman nomen, taken when he purchased citizenship under Emperor Claudius."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 27,
+      "text_greek": "τὸν ἄνδρα τοῦτον συλλημφθέντα ὑπὸ τῶν Ἰουδαίων καὶ μέλλοντα ἀναιρεῖσθαι ὑπ' αὐτῶν ἐπιστὰς σὺν τῷ στρατεύματι ἐξειλάμην, μαθὼν ὅτι Ῥωμαῖός ἐστιν·",
+      "text_kjv": "This man was taken of the Jews, and should have been killed of them: then came I with an army, and rescued him, having understood that he was a Roman.",
+      "rendering": "This man was seized by the Jews and was about to be killed by them when I came with the soldiers and rescued him, having learned that he was a Roman citizen.",
+      "translator_notes": [
+        "Lysias's letter strategically rearranges the sequence of events. In reality, he rescued Paul first and only later discovered his citizenship (21:33-34 vs. 22:25-29). By writing 'having learned that he was a Roman citizen,' Lysias makes his intervention appear to be a deliberate act of protecting Roman rights rather than a routine crowd-control operation. This bureaucratic self-serving is a realistic touch."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 28,
+      "text_greek": "βουλόμενός τε ἐπιγνῶναι τὴν αἰτίαν δι' ἣν ἐνεκάλουν αὐτῷ κατήγαγον εἰς τὸ συνέδριον αὐτῶν·",
+      "text_kjv": "And when I would have known the cause wherefore they accused him, I brought him forth into their council:",
+      "rendering": "Wanting to know the charge for which they were accusing him, I brought him down to their council.",
+      "translator_notes": [
+        "Lysias presents the Sanhedrin hearing as his own initiative to determine charges — a reasonable summary of events that also emphasizes his procedural diligence before a superior."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 29,
+      "text_greek": "ὃν εὗρον ἐγκαλούμενον περὶ ζητημάτων τοῦ νόμου αὐτῶν, μηδὲν δὲ ἄξιον θανάτου ἢ δεσμῶν ἔχοντα ἔγκλημα.",
+      "text_kjv": "Whom I perceived to be accused of questions of their law, but to have nothing laid to his charge worthy of death or of bonds.",
+      "rendering": "I found that he was being accused about questions of their law, but had no charge deserving death or imprisonment.",
+      "translator_notes": [
+        "Lysias's assessment — that the dispute concerns Jewish law and involves no Roman crime — is the same conclusion that Gallio reached in Corinth (18:14-15) and that Festus and Agrippa will later reach (25:25, 26:31). This repeated Roman verdict of innocence on matters of Roman law is a major theme in Acts."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 30,
+      "text_greek": "μηνυθείσης δέ μοι ἐπιβουλῆς εἰς τὸν ἄνδρα ἔσεσθαι, ἐξαυτῆς ἔπεμψα πρὸς σέ, παραγγείλας καὶ τοῖς κατηγόροις λέγειν τὰ πρὸς αὐτὸν ἐπὶ σοῦ.",
+      "text_kjv": "And when it was told me how that the Jews laid wait for the man, I sent straightway to thee, and gave commandment to his accusers also to say before thee what they had against him. Farewell.",
+      "rendering": "When I was informed of a plot against the man, I sent him to you at once, ordering his accusers also to state their charges against him before you.\"",
+      "translator_notes": [
+        "Lysias transfers both the prisoner and the legal responsibility to Felix. By ordering the accusers to present their case before the governor, he ensures a proper trial while removing himself from a dangerous situation. The SBLGNT omits the closing 'Farewell' (erroso) found in the Textus Receptus."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 31,
+      "text_greek": "Οἱ μὲν οὖν στρατιῶται κατὰ τὸ διατεταγμένον αὐτοῖς ἀναλαβόντες τὸν Παῦλον ἤγαγον διὰ νυκτὸς εἰς τὴν Ἀντιπατρίδα·",
+      "text_kjv": "Then the soldiers, as it was commanded them, took Paul, and brought him by night to Antipatris.",
+      "rendering": "So the soldiers, according to their orders, took Paul and brought him by night to Antipatris.",
+      "translator_notes": [
+        "Antipatris was located about 35 miles northwest of Jerusalem on the road to Caesarea — a hard night's march. The city was rebuilt by Herod the Great and named after his father Antipater. The overnight forced march would put Paul beyond the reach of the Jerusalem conspirators by dawn."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 32,
+      "text_greek": "τῇ δὲ ἐπαύριον ἐάσαντες τοὺς ἱππεῖς ἀπέρχεσθαι σὺν αὐτῷ ὑπέστρεψαν εἰς τὴν παρεμβολήν·",
+      "text_kjv": "On the morrow they left the horsemen to go with him, and returned to the castle:",
+      "rendering": "The next day they let the horsemen go on with him and returned to the barracks.",
+      "translator_notes": [
+        "Once past the danger zone of the Judean hills, the infantry and spearmen were no longer needed — the horsemen alone could escort Paul through the coastal plain to Caesarea. The remaining journey was about 25 miles. This practical military detail reflects the author's familiarity with such operations."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 33,
+      "text_greek": "οἵτινες εἰσελθόντες εἰς τὴν Καισάρειαν καὶ ἀναδόντες τὴν ἐπιστολὴν τῷ ἡγεμόνι παρέστησαν καὶ τὸν Παῦλον αὐτῷ.",
+      "text_kjv": "Who, when they came to Caesarea, and delivered the epistle to the governor, presented Paul also before him.",
+      "rendering": "When they came to Caesarea, they delivered the letter to the governor and presented Paul before him.",
+      "translator_notes": [
+        "The official handoff is complete: the letter explains the case, and the prisoner is formally transferred to the governor's jurisdiction. Caesarea Maritima was the Roman administrative capital of Judea, with the governor's residence in Herod's former palace (the praetorium)."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 34,
+      "text_greek": "ἀναγνοὺς δὲ καὶ ἐπερωτήσας ἐκ ποίας ἐπαρχείας ἐστίν, καὶ πυθόμενος ὅτι ἀπὸ Κιλικίας,",
+      "text_kjv": "And when the governor had read the letter, he asked of what province he was. And when he understood that he was of Cilicia;",
+      "rendering": "After reading the letter, he asked what province Paul was from, and when he learned that he was from Cilicia,",
+      "translator_notes": [
+        "Felix's first question — about Paul's province of origin — is a jurisdictional inquiry. Under Roman law, a governor could either try the case himself or remit it to the defendant's home province. Cilicia was at this time part of the combined province of Syria-Cilicia, but Felix decides to retain jurisdiction."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 35,
+      "text_greek": "Διακούσομαί σου, ἔφη, ὅταν καὶ οἱ κατήγοροί σου παραγένωνται — κελεύσας ἐν τῷ πραιτωρίῳ τοῦ Ἡρῴδου φυλάσσεσθαι αὐτόν.",
+      "text_kjv": "I will hear thee, said he, when thine accusers are also come. And he commanded him to be kept in Herod's judgment hall.",
+      "rendering": "I will hear you, stated he, when your accusers are also come. Then he commanded him to be kept in Herod's judgment hall.",
+      "translator_notes": [
+        "Felix agrees to hear the case but requires the accusers' presence — standard Roman legal procedure. 'Herod's praetorium' (to praitorio tou Herodou) was the palace built by Herod the Great in Caesarea, now serving as the governor's official residence and courthouse. Paul's detention there, rather than in a common prison, reflects his Roman citizenship and the nature of the charges."
+      ],
+      "reading_level": "8th grade"
+    }
+  ]
+}

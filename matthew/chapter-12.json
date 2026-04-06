@@ -1,0 +1,546 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Matthew",
+    "chapter": 12,
+    "source_text": "SBL Greek New Testament (SBLGNT)",
+    "reference_text": "KJV",
+    "generated_at": "2026-04-04T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Matthew 12 intensifies the conflict between Jesus and the Pharisees. It opens with two Sabbath controversies — the disciples plucking grain and Jesus healing a man's withered hand — followed by the Pharisees' plot to destroy Jesus. Matthew inserts a lengthy Isaiah Servant quotation (vv. 18-21). The Beelzebul controversy erupts when Jesus heals a blind and mute demoniac, and the Pharisees attribute his power to the prince of demons. Jesus responds with the 'kingdom divided' argument, warns about blasphemy against the Holy Spirit, teaches that a tree is known by its fruit, and warns about idle words. The Pharisees demand a sign, and Jesus offers only the sign of Jonah. The chapter ends with a redefinition of family: whoever does the Father's will is Jesus's brother, sister, and mother.",
+    "remarkable": "The Sabbath disputes (vv. 1-14) establish Jesus's authority over the Law's interpretation by invoking David, the priests, the temple, and the prophets — then claiming to be 'greater than the temple' (v. 6) and 'Lord of the Sabbath' (v. 8). The blasphemy against the Holy Spirit (v. 31-32) is Jesus's most severe warning in the Gospels — an 'unforgivable sin' that has generated centuries of pastoral anxiety. The sign of Jonah (vv. 39-41) links Jesus's death and resurrection to Jonah's three days in the fish. The redefinition of family (vv. 46-50) subordinates biological kinship to spiritual obedience.",
+    "friction": "The Hosea 6:6 quotation appears for the second time (cf. 9:13). The phrase 'three days and three nights' (v. 40) does not correspond exactly to the timeline of Good Friday afternoon to Easter Sunday morning by modern counting, but Jewish reckoning counted partial days as full days. The 'unpardonable sin' passage requires careful rendering that preserves Jesus's actual words without either minimizing or exaggerating the warning.",
+    "connections": "The Sabbath grain episode echoes 1 Samuel 21:1-6 (David and the showbread). The Isaiah 42:1-4 quotation (vv. 18-21) is the longest Old Testament citation in Matthew. The Beelzebul controversy connects to the accusation in 9:34 and 10:25. The sign of Jonah points to the death and resurrection narratives. The family redefinition anticipates the church as a new community (ch. 18)."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_greek": "Ἐν ἐκείνῳ τῷ καιρῷ ἐπορεύθη ὁ Ἰησοῦς τοῖς σάββασιν διὰ τῶν σπορίμων· οἱ δὲ μαθηταὶ αὐτοῦ ἐπείνασαν καὶ ἤρξαντο τίλλειν στάχυας καὶ ἐσθίειν.",
+      "text_kjv": "At that time Jesus went on the sabbath day through the corn; and his disciples were an hungred, and began to pluck the ears of corn, and to eat.",
+      "rendering": "At that time Jesus went through the grain fields on the Sabbath. His disciples were hungry and began to pick heads of grain and eat them.",
+      "translator_notes": [
+        "The Greek sporimōn ('sown fields, grain fields') refers to cultivated land with standing grain. The verb tillein ('to pluck, to pull off') describes pulling heads of grain by hand, which was permitted under Deuteronomy 23:25 but which the Pharisees considered 'reaping' — one of the thirty-nine categories of Sabbath-prohibited work in later rabbinic tradition. Matthew adds that the disciples 'were hungry' (epeinasan), providing a sympathetic motive absent in Mark.",
+        "[TCR Cross-Reference] Quotes Deuteronomy 23:25. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 2,
+      "text_greek": "οἱ δὲ Φαρισαῖοι ἰδόντες εἶπαν αὐτῷ· Ἰδοὺ οἱ μαθηταί σου ποιοῦσιν ὃ οὐκ ἔξεστιν ποιεῖν ἐν σαββάτῳ.",
+      "text_kjv": "But when the Pharisees saw it, they said unto him, Behold, thy disciples do that which is not lawful to do upon the sabbath day.",
+      "rendering": "When the Pharisees saw this, they said to him, \"Look, your disciples are doing what is not lawful to do on the Sabbath.\"",
+      "translator_notes": [
+        "The Pharisees' charge ouk exestin ('it is not lawful') frames the issue as a legal violation. The prohibition is not from the written Torah itself (which permits plucking by hand) but from their interpretive tradition about what constitutes 'work' on the Sabbath. They address Jesus rather than the disciples, holding the teacher responsible for his students' behavior."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 3,
+      "text_greek": "ὁ δὲ εἶπεν αὐτοῖς· Οὐκ ἀνέγνωτε τί ἐποίησεν Δαυὶδ ὅτε ἐπείνασεν καὶ οἱ μετ' αὐτοῦ,",
+      "text_kjv": "But he said unto them, Have ye not read what David did, when he was an hungred, and they that were with him;",
+      "rendering": "He said to them, \"Have you not read what David did when he and his companions were hungry —",
+      "translator_notes": [
+        "Jesus's counter-argument begins with the rhetorically sharp ouk anegnōte ('have you not read?') — a challenge to the Pharisees' scriptural expertise. The appeal to David (1 Samuel 21:1-6) establishes a precedent where human need overrode ceremonial regulation, and where the kingdom's anointed exercised freedom within the law.",
+        "[TCR Cross-Reference] References 1 Samuel 21:1-6 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 4,
+      "text_greek": "πῶς εἰσῆλθεν εἰς τὸν οἶκον τοῦ θεοῦ καὶ τοὺς ἄρτους τῆς προθέσεως ἔφαγον, ὃ οὐκ ἐξὸν ἦν αὐτῷ φαγεῖν οὐδὲ τοῖς μετ' αὐτοῦ, εἰ μὴ τοῖς ἱερεῦσιν μόνοις;",
+      "text_kjv": "How he entered into the house of God, and did eat the shewbread, which was not lawful for him to eat, neither for them which were with him, but only for the priests?",
+      "rendering": "How he went into into the home of God, and did consume the shewbread, which was not permitted for him to eat, neither for them which were with him, but only for the priests?",
+      "translator_notes": [
+        "The artous tēs protheseōs ('bread of the Presence,' literally 'bread of the setting forth') were twelve loaves placed on a table in the tabernacle and renewed weekly (Leviticus 24:5-9). Only priests could eat the old loaves. David's consumption of this bread (1 Samuel 21:1-6) was technically illegal yet not condemned by Scripture. Jesus's argument: if David's hunger justified breaking a ceremonial regulation, so does the disciples' hunger.",
+        "[TCR Cross-Reference] Echoes Leviticus 24:5-9. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale.",
+        "[TCR Cross-Reference] Echoes 1 Samuel 21:1-6. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 5,
+      "text_greek": "ἢ οὐκ ἀνέγνωτε ἐν τῷ νόμῳ ὅτι τοῖς σάββασιν οἱ ἱερεῖς ἐν τῷ ἱερῷ τὸ σάββατον βεβηλοῦσιν καὶ ἀναίτιοί εἰσιν;",
+      "text_kjv": "Or have ye not read in the law, how that on the sabbath days the priests in the temple profane the sabbath, and are blameless?",
+      "rendering": "Or have you not read in the Law that on the Sabbath the priests in the temple break the Sabbath and yet are without guilt?",
+      "translator_notes": [
+        "The second argument is even more pointed: priests perform 'work' on the Sabbath (slaughtering animals, maintaining the fire, preparing offerings) yet are anaitioi ('guiltless, without blame'). The verb bebēlousin ('profane, desecrate') is deliberately provocative — Jesus uses the Pharisees' own categories against them. Temple service overrides Sabbath restriction by the Law's own provisions."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 6,
+      "text_greek": "λέγω δὲ ὑμῖν ὅτι τοῦ ἱεροῦ μεῖζόν ἐστιν ὧδε.",
+      "text_kjv": "But I say unto you, That in this place is one greater than the temple.",
+      "rendering": "But I tell you that something greater than the temple is here.",
+      "translator_notes": [
+        "The neuter meizon ('something greater') rather than the masculine meizōn ('someone greater') makes the claim even more sweeping — not merely a greater person but a greater reality. If temple service overrides the Sabbath, and something greater than the temple is present, then this greater reality certainly overrides Sabbath regulations. The claim would be shocking to any first-century Jew — the temple was the center of Jewish religious life and the place of God's dwelling presence."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 7,
+      "text_greek": "εἰ δὲ ἐγνώκειτε τί ἐστιν· Ἔλεος θέλω καὶ οὐ θυσίαν, οὐκ ἂν κατεδικάσατε τοὺς ἀναιτίους.",
+      "text_kjv": "But if ye had known what this meaneth, I will have mercy, and not sacrifice, ye would not have condemned the guiltless.",
+      "rendering": "If you had known what this means — 'I desire mercy, not sacrifice' — you would not have condemned the innocent.",
+      "translator_notes": [
+        "Jesus quotes Hosea 6:6 for the second time (cf. 9:13). The pluperfect egnōkeite ('if you had known,' implying 'but you did not') is a rebuke: the Pharisees who pride themselves on scriptural knowledge have failed to understand a key prophetic text. The word anaitious ('innocent, guiltless') declares the disciples formally acquitted — the same word used of the Sabbath-working priests in verse 5.",
+        "[TCR Cross-Reference] Draws on Hosea 6:6. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 8,
+      "text_greek": "κύριος γάρ ἐστιν τοῦ σαββάτου ὁ υἱὸς τοῦ ἀνθρώπου.",
+      "text_kjv": "For the Son of man is Lord even of the sabbath day.",
+      "rendering": "For the Son of Man is Lord of the Sabbath.\"",
+      "translator_notes": [
+        "The climactic claim: the Son of Man has sovereign authority (kyrios, 'Lord') over the Sabbath itself. Since the Sabbath was instituted by God at creation (Genesis 2:2-3), claiming lordship over it is implicitly claiming divine authority. The word order in Greek places kyrios ('Lord') first for emphasis.",
+        "[TCR Cross-Reference] References Genesis 2:2-3 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 9,
+      "text_greek": "Καὶ μεταβὰς ἐκεῖθεν ἦλθεν εἰς τὴν συναγωγὴν αὐτῶν·",
+      "text_kjv": "And when he was departed thence, he went into their synagogue:",
+      "rendering": "Moving on from there, he went into their synagogue.",
+      "translator_notes": [
+        "The phrase tēn synagōgēn autōn ('their synagogue') again uses the distancing possessive, suggesting tension between Jesus's movement and the synagogue establishment. The second Sabbath controversy follows immediately."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 10,
+      "text_greek": "καὶ ἰδοὺ ἄνθρωπος χεῖρα ἔχων ξηράν. καὶ ἐπηρώτησαν αὐτὸν λέγοντες· Εἰ ἔξεστιν τοῖς σάββασιν θεραπεῦσαι; ἵνα κατηγορήσωσιν αὐτοῦ.",
+      "text_kjv": "And, behold, there was a man which had his hand withered. And they asked him, saying, Is it lawful to heal on the sabbath days? that they might accuse him.",
+      "rendering": "A man was there with a withered hand. They asked Jesus, \"Is it lawful to heal on the Sabbath?\" — so that they could accuse him.",
+      "translator_notes": [
+        "The adjective xēran ('dry, withered, shriveled') describes a hand that has atrophied or become paralyzed. The question is a trap (hina katēgorēsōsin autou, 'in order that they might accuse him'). Later rabbinic tradition permitted Sabbath healing only when life was in immediate danger — a withered hand was not life-threatening, so by their standards, healing could wait until the next day."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 11,
+      "text_greek": "ὁ δὲ εἶπεν αὐτοῖς· Τίς ἔσται ἐξ ὑμῶν ἄνθρωπος ὃς ἕξει πρόβατον ἕν, καὶ ἐὰν ἐμπέσῃ τοῦτο τοῖς σάββασιν εἰς βόθυνον, οὐχὶ κρατήσει αὐτὸ καὶ ἐγερεῖ;",
+      "text_kjv": "And he said unto them, What man shall there be among you, that shall have one sheep, and if it fall into a pit on the sabbath day, will he not lay hold on it, and lift it out?",
+      "rendering": "He said to them, \"If any of you has a sheep and it falls into a pit on the Sabbath, will you not take hold of it and lift it out?",
+      "translator_notes": [
+        "Jesus uses a qal wahomer (lesser to greater) argument, common in rabbinic reasoning. Even the stricter Sabbath interpreters allowed rescuing an animal from a pit on the Sabbath (though the Damascus Document from Qumran prohibited even this). The specification 'one sheep' (probaton hen) heightens the analogy — this is someone's only animal, their livelihood."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 12,
+      "text_greek": "πόσῳ οὖν διαφέρει ἄνθρωπος προβάτου. ὥστε ἔξεστιν τοῖς σάββασιν καλῶς ποιεῖν.",
+      "text_kjv": "How much then is a man better than a sheep? Wherefore it is lawful to do well on the sabbath days.",
+      "rendering": "How much more valuable then is a person than a sheep! Therefore it is lawful to do good on the Sabbath.\"",
+      "translator_notes": [
+        "The conclusion posō oun diapherei anthrōpos probatou ('how much more a person differs from a sheep') establishes that if Sabbath rescue of an animal is permitted, Sabbath healing of a person must be permitted all the more. Jesus reframes the Sabbath question from 'what is prohibited?' to 'what is good?' — the Sabbath is for doing good (kalōs poiein), not for withholding compassion."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 13,
+      "text_greek": "τότε λέγει τῷ ἀνθρώπῳ· Ἔκτεινόν σου τὴν χεῖρα· καὶ ἐξέτεινεν, καὶ ἀπεκατεστάθη ὑγιὴς ὡς ἡ ἄλλη.",
+      "text_kjv": "Then saith he to the man, Stretch forth thine hand. And he stretched it forth; and it was restored whole, like as the other.",
+      "rendering": "Then he said to the man, \"Stretch out your hand.\" He stretched it out, and it was restored, as healthy as the other.",
+      "translator_notes": [
+        "Jesus heals with a command alone — no physical contact, no medicine, no action that could be classified as 'work.' The verb apekatestathē ('was restored') indicates return to a former healthy state. The healing is complete (hygiēs hōs hē allē, 'healthy as the other') — not partial or gradual."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 14,
+      "text_greek": "ἐξελθόντες δὲ οἱ Φαρισαῖοι συμβούλιον ἔλαβον κατ' αὐτοῦ ὅπως αὐτὸν ἀπολέσωσιν.",
+      "text_kjv": "Then the Pharisees went out, and held a council against him, how they might destroy him.",
+      "rendering": "The Pharisees went out and conspired against him, plotting how to destroy him.",
+      "translator_notes": [
+        "The response to a healing is a death plot — the irony is devastating. The phrase symboulion elabon ('took counsel together, conspired') is a formal term for deliberative action. The verb apolesōsin ('might destroy') foreshadows the passion narrative. A Sabbath healing provokes the defenders of the Sabbath to violate the commandment against murder."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 15,
+      "text_greek": "Ὁ δὲ Ἰησοῦς γνοὺς ἀνεχώρησεν ἐκεῖθεν. καὶ ἠκολούθησαν αὐτῷ [ὄχλοι] πολλοί, καὶ ἐθεράπευσεν αὐτοὺς πάντας",
+      "text_kjv": "But when Jesus knew it, he withdrew himself from thence: and great multitudes followed him, and he healed them all;",
+      "rendering": "Aware of this, Jesus withdrew from there. Large crowds followed him, and he healed all of them.",
+      "translator_notes": [
+        "Jesus's withdrawal (anechōrēsen) is strategic, not fearful — the same verb was used for the family's flight to Egypt (2:14). Despite the growing opposition from leaders, the crowds continue to follow, and Jesus continues to heal — his compassion is not deterred by the conspiracy against him."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 16,
+      "text_greek": "καὶ ἐπετίμησεν αὐτοῖς ἵνα μὴ φανερὸν αὐτὸν ποιήσωσιν·",
+      "text_kjv": "And charged them that they should not make him known:",
+      "rendering": "Charged them that they should not render him recognized:.",
+      "translator_notes": [
+        "The command to secrecy (the messianic secret motif) continues. Jesus does not seek public confrontation at this point — his hour has not yet come. The verb epetimēsen ('warned, rebuked') is the same strong word used for rebuking storms and demons."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 17,
+      "text_greek": "ἵνα πληρωθῇ τὸ ῥηθὲν διὰ Ἠσαΐου τοῦ προφήτου λέγοντος·",
+      "text_kjv": "That it might be fulfilled which was spoken by Esaias the prophet, saying,",
+      "rendering": "That it might be fulfilled which was spoken by Esaias the prophet and stated,.",
+      "translator_notes": [
+        "This introduces the longest Old Testament quotation in Matthew's Gospel — Isaiah 42:1-4, the first Servant Song. Matthew sees Jesus's withdrawal, quiet ministry, and compassion for the weak as fulfillment of this prophetic portrait.",
+        "[TCR Cross-Reference] Draws on Isaiah 42:1-4. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 18,
+      "text_greek": "Ἰδοὺ ὁ παῖς μου ὃν ᾑρέτισα, ὁ ἀγαπητός μου εἰς ὃν εὐδόκησεν ἡ ψυχή μου· θήσω τὸ πνεῦμά μου ἐπ' αὐτόν, καὶ κρίσιν τοῖς ἔθνεσιν ἀπαγγελεῖ.",
+      "text_kjv": "Behold my servant, whom I have chosen; my beloved, in whom my soul is well pleased: I will put my spirit upon him, and he shall shew judgment to the Gentiles.",
+      "rendering": "\"Here is my servant whom I have chosen, my beloved in whom my soul delights. I will put my Spirit upon him, and he will proclaim justice to the nations.",
+      "translator_notes": [
+        "The word pais ('servant, child') echoes the Hebrew eved of Isaiah 42:1. The language of choosing, beloved status, and Spirit-bestowal recalls the baptism scene (3:16-17). The term krisin ('justice, judgment') translates Hebrew mishpat — not punitive judgment but restorative justice, the right ordering of society. The scope extends to ta ethnē ('the nations, the Gentiles'), anticipating the universal mission.",
+        "[TCR Cross-Reference] References Isaiah 42:1-4 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 19,
+      "text_greek": "οὐκ ἐρίσει οὐδὲ κραυγάσει, οὐδὲ ἀκούσει τις ἐν ταῖς πλατείαις τὴν φωνὴν αὐτοῦ.",
+      "text_kjv": "He shall not strive, nor cry; neither shall any man hear his voice in the streets.",
+      "rendering": "He will not quarrel or cry out, nor will anyone hear his voice in the streets.",
+      "translator_notes": [
+        "The description of the Servant's quiet demeanor contrasts sharply with typical political or military messianic expectations. The verb erisei ('quarrel, wrangle') and kraugasei ('shout, cry out') describe the absence of aggressive self-promotion. This matches Jesus's repeated commands to silence and his withdrawal from public confrontation.",
+        "[TCR Cross-Reference] Echoes Isaiah 42:1-4. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 20,
+      "text_greek": "κάλαμον συντετριμμένον οὐ κατεάξει καὶ λίνον τυφόμενον οὐ σβέσει, ἕως ἂν ἐκβάλῃ εἰς νῖκος τὴν κρίσιν.",
+      "text_kjv": "A bruised reed shall he not break, and smoking flax shall he not quench, till he send forth judgment unto victory.",
+      "rendering": "A bruised reed he will not break, and a smoldering wick he will not snuff out, until he leads justice to victory.",
+      "translator_notes": [
+        "The bruised reed (kalamon syntetrimmenon) and smoldering wick (linon typhomenon) are images of extreme fragility — things about to be discarded. The Servant refuses to crush what is already broken or extinguish what is barely alive. This describes Jesus's ministry to the weak, sick, and marginalized of chapters 8-9. The phrase eis nikos ('to victory') replaces the Hebrew 'in truth/faithfulness' (le'emet), interpreting justice as ultimately triumphant.",
+        "[TCR Cross-Reference] This verse quotes Isaiah 42:1-4 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 21,
+      "text_greek": "καὶ τῷ ὀνόματι αὐτοῦ ἔθνη ἐλπιοῦσιν.",
+      "text_kjv": "And in his name shall the Gentiles trust.",
+      "rendering": "And in his name the nations will put their hope.\"",
+      "translator_notes": [
+        "The quotation concludes with the universal hope: ethnē elpiousin ('the nations will hope'). The Hebrew original has 'the coastlands will wait for his instruction (torah).' Matthew's Greek version shifts from torah to 'name' (onomati) and from 'wait' to 'hope' (elpiousin), emphasizing personal trust in the Servant rather than obedience to a teaching.",
+        "[TCR Cross-Reference] Quotes Isaiah 42:1-4. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 22,
+      "text_greek": "Τότε προσηνέχθη αὐτῷ δαιμονιζόμενος τυφλὸς καὶ κωφός· καὶ ἐθεράπευσεν αὐτόν, ὥστε τὸν κωφὸν λαλεῖν καὶ βλέπειν.",
+      "text_kjv": "Then was brought unto him one possessed with a devil, blind, and dumb: and he healed him, insomuch that the blind and dumb both spake and saw.",
+      "rendering": "Then a demon-possessed man who was blind and mute was brought to him. Jesus healed him so that the man could both speak and see.",
+      "translator_notes": [
+        "This healing combines two conditions from the messianic signs of 11:5 (blind receive sight, mute speak), making it an unmistakable messianic indicator. The double restoration — speaking and seeing — provokes the two opposite responses that follow."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 23,
+      "text_greek": "καὶ ἐξίσταντο πάντες οἱ ὄχλοι καὶ ἔλεγον· Μήτι οὗτός ἐστιν ὁ υἱὸς Δαυίδ;",
+      "text_kjv": "And all the people were amazed, and said, Is not this the son of David?",
+      "rendering": "All the crowds were astonished and said, \"Could this be the Son of David?\"",
+      "translator_notes": [
+        "The verb existanto ('were amazed, astonished, beside themselves') indicates overwhelming wonder. The question mēti houtos estin ho huios Dauid uses the particle mēti, which in Greek expects a negative answer but here expresses cautious hope — 'this couldn't be the Son of David, could it?' The crowds are tentatively arriving at the messianic conclusion."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 24,
+      "text_greek": "οἱ δὲ Φαρισαῖοι ἀκούσαντες εἶπον· Οὗτος οὐκ ἐκβάλλει τὰ δαιμόνια εἰ μὴ ἐν τῷ Βεελζεβοὺλ ἄρχοντι τῶν δαιμονίων.",
+      "text_kjv": "But when the Pharisees heard it, they said, This fellow doth not cast out devils, but by Beelzebub the prince of the devils.",
+      "rendering": "But when the Pharisees heard this, they said, \"This man drives out demons only by Beelzebul, the ruler of the demons.\"",
+      "translator_notes": [
+        "The Pharisees' response directly counters the crowds' messianic question. Unable to deny the miracle, they attribute its source to Beelzeboul, archonti tōn daimoniōn ('the ruler of the demons'). The accusation is the same as in 9:34 but now stated publicly and explicitly. This is the charge Jesus will identify as approaching the unforgivable sin."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 25,
+      "text_greek": "εἰδὼς δὲ τὰς ἐνθυμήσεις αὐτῶν εἶπεν αὐτοῖς· Πᾶσα βασιλεία μερισθεῖσα καθ' ἑαυτῆς ἐρημοῦται καὶ πᾶσα πόλις ἢ οἰκία μερισθεῖσα καθ' ἑαυτῆς οὐ σταθήσεται.",
+      "text_kjv": "And Jesus knew their thoughts, and said unto them, Every kingdom divided against itself is brought to desolation; and every city or house divided against itself shall not stand:",
+      "rendering": "Knowing their thoughts, he said to them, \"Every kingdom divided against itself is laid waste, and no city or household divided against itself will stand.",
+      "translator_notes": [
+        "Jesus again perceives unspoken thoughts (eidōs tas enthymēseis autōn). The argument is logical: internal division destroys any entity — kingdoms, cities, households. The verb erēmoutai ('is made desolate, is laid waste') is strong, suggesting complete devastation. The principle is applied to Satan's kingdom in the next verse."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 26,
+      "text_greek": "καὶ εἰ ὁ Σατανᾶς τὸν Σατανᾶν ἐκβάλλει, ἐφ' ἑαυτὸν ἐμερίσθη· πῶς οὖν σταθήσεται ἡ βασιλεία αὐτοῦ;",
+      "text_kjv": "And if Satan cast out Satan, he is divided against himself; how shall then his kingdom stand?",
+      "rendering": "If Satan drives out Satan, he is divided against himself. How then will his kingdom stand?",
+      "translator_notes": [
+        "The name Satanas is a Greek transliteration of the Hebrew satan ('adversary, accuser'). Jesus's logic: if his exorcisms were powered by Satan, then Satan would be working against his own interests — destroying his own agents. This is self-evidently absurd."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 27,
+      "text_greek": "καὶ εἰ ἐγὼ ἐν Βεελζεβοὺλ ἐκβάλλω τὰ δαιμόνια, οἱ υἱοὶ ὑμῶν ἐν τίνι ἐκβάλλουσιν; διὰ τοῦτο αὐτοὶ κριταὶ ἔσονται ὑμῶν.",
+      "text_kjv": "And if I by Beelzebub cast out devils, by whom do your children cast them out? therefore they shall be your judges.",
+      "rendering": "And if I drive out demons by Beelzebul, by whom do your people drive them out? So then, they will be your judges.",
+      "translator_notes": [
+        "The second argument: Jewish exorcists also existed (cf. Acts 19:13-14). If Jesus's exorcisms require a satanic explanation, consistency demands the same explanation for their own practitioners. The phrase hoi huioi hymōn ('your sons/people') refers to Jewish exorcists associated with the Pharisees' own circles. Jesus turns their accusation into a self-indictment."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 28,
+      "text_greek": "εἰ δὲ ἐν πνεύματι θεοῦ ἐγὼ ἐκβάλλω τὰ δαιμόνια, ἄρα ἔφθασεν ἐφ' ὑμᾶς ἡ βασιλεία τοῦ θεοῦ.",
+      "text_kjv": "But if I cast out devils by the Spirit of God, then the kingdom of God is come unto you.",
+      "rendering": "But if I drive out demons by the Spirit of God, then the kingdom of God has come upon you.",
+      "translator_notes": [
+        "This is one of the rare places Matthew uses 'kingdom of God' (basileia tou theou) instead of his usual 'kingdom of heaven.' The verb ephthasen ('has arrived, has come upon') indicates that the kingdom is not merely approaching but has already arrived — present tense, operative now. Jesus's exorcisms are evidence of the kingdom's invasion of enemy territory. The conditional 'if' (ei) is a first-class condition in Greek, assuming the premise is true: 'since I drive out demons by God's Spirit...'"
+      ],
+      "key_terms": [
+        {
+          "greek": "βασιλεία τοῦ θεοῦ",
+          "transliteration": "basileia tou theou",
+          "rendered_as": "kingdom of God",
+          "semantic_range": "kingdom of God, reign of God, God's sovereign rule",
+          "note": "Matthew's rare use of 'God' instead of 'heaven' here may reflect the source saying or may emphasize the directness of God's action through his Spirit. The kingdom is not a distant hope but a present reality breaking into the world through Jesus's ministry."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 29,
+      "text_greek": "ἢ πῶς δύναταί τις εἰσελθεῖν εἰς τὴν οἰκίαν τοῦ ἰσχυροῦ καὶ τὰ σκεύη αὐτοῦ ἁρπάσαι, ἐὰν μὴ πρῶτον δήσῃ τὸν ἰσχυρόν; καὶ τότε τὴν οἰκίαν αὐτοῦ διαρπάσει.",
+      "text_kjv": "Or else how can one enter into a strong man's house, and spoil his goods, except he first bind the strong man? and then he will spoil his house.",
+      "rendering": "Or how can anyone enter a strong man's house and carry off his possessions unless he first ties up the strong man? Then he can plunder his house.",
+      "translator_notes": [
+        "The parable of the strong man depicts the cosmic conflict behind exorcism. The 'strong man' (ischyros) is Satan; his 'house' is his domain over the demonized; his 'possessions' (skeuē) are the people he holds captive. Jesus is the one who has bound the strong man and is now plundering his domain. The verb dēsē ('bind') anticipates the binding authority Jesus gives to the church (16:19, 18:18)."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 30,
+      "text_greek": "ὁ μὴ ὢν μετ' ἐμοῦ κατ' ἐμοῦ ἐστιν, καὶ ὁ μὴ συνάγων μετ' ἐμοῦ σκορπίζει.",
+      "text_kjv": "He that is not with me is against me; and he that gathereth not with me scattereth abroad.",
+      "rendering": "Whoever is not with me is against me, and whoever does not gather with me scatters.",
+      "translator_notes": [
+        "This absolute either/or allows no neutrality toward Jesus. The agricultural metaphor — gathering (synagōn) versus scattering (skorpizei) — depicts the harvest of 9:37-38. Those who do not join Jesus in gathering people into God's kingdom are actively dispersing them. The saying stands in tension with Mark 9:40 ('whoever is not against us is for us'), but the different contexts address different situations."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 31,
+      "text_greek": "Διὰ τοῦτο λέγω ὑμῖν, πᾶσα ἁμαρτία καὶ βλασφημία ἀφεθήσεται τοῖς ἀνθρώποις, ἡ δὲ τοῦ πνεύματος βλασφημία οὐκ ἀφεθήσεται.",
+      "text_kjv": "Wherefore I say unto you, All manner of sin and blasphemy shall be forgiven unto men: but the blasphemy against the Holy Ghost shall not be forgiven unto men.",
+      "rendering": "Therefore I tell you, every sin and blasphemy will be forgiven people, but blasphemy against the Spirit will not be forgiven.",
+      "translator_notes": [
+        "The opening scope is extraordinarily generous — pasa hamartia kai blasphēmia aphethēsetai ('every sin and blasphemy will be forgiven'). The single exception stands out starkly: blasphemy against the Spirit (hē tou pneumatos blasphēmia). In context, this refers specifically to attributing the Holy Spirit's work to Satan — seeing the evidence of God's kingdom and deliberately calling it demonic. It is not an isolated sinful word but a settled posture of willful misidentification of good as evil."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 32,
+      "text_greek": "καὶ ὃς ἐὰν εἴπῃ λόγον κατὰ τοῦ υἱοῦ τοῦ ἀνθρώπου, ἀφεθήσεται αὐτῷ· ὃς δ' ἂν εἴπῃ κατὰ τοῦ πνεύματος τοῦ ἁγίου, οὐκ ἀφεθήσεται αὐτῷ οὔτε ἐν τούτῳ τῷ αἰῶνι οὔτε ἐν τῷ μέλλοντι.",
+      "text_kjv": "And whosoever speaketh a word against the Son of man, it shall be forgiven him: but whosoever speaketh against the Holy Ghost, it shall not be forgiven him, neither in this world, neither in the world to come.",
+      "rendering": "Whoever speaks a word against the Son of Man will be forgiven, but whoever speaks against the Holy Spirit will not be forgiven, either in this age or in the age to come.",
+      "translator_notes": [
+        "The distinction between speaking against the Son of Man (forgivable) and speaking against the Spirit (unforgivable) is significant. Rejecting the human Jesus out of ignorance can be forgiven — Peter's denial was forgiven. But deliberately attributing the Spirit's unmistakable work to Satan represents a hardening beyond recovery, because it rejects the very agent of conviction and repentance. The phrase oute en toutō tō aiōni oute en tō mellonti ('neither in this age nor in the coming age') uses eschatological language that covers all of time."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 33,
+      "text_greek": "Ἢ ποιήσατε τὸ δένδρον καλὸν καὶ τὸν καρπὸν αὐτοῦ καλόν, ἢ ποιήσατε τὸ δένδρον σαπρὸν καὶ τὸν καρπὸν αὐτοῦ σαπρόν· ἐκ γὰρ τοῦ καρποῦ τὸ δένδρον γινώσκεται.",
+      "text_kjv": "Either make the tree good, and his fruit good; or else make the tree corrupt, and his fruit corrupt: for the tree is known by his fruit.",
+      "rendering": "Either make the tree good and its fruit good, or make the tree bad and its fruit bad, for the tree is known by its fruit.",
+      "translator_notes": [
+        "The imperative poiēsate ('make') is not a command to produce fruit but a demand for consistency — if the fruit (Jesus's deeds) is good, then the tree (Jesus's source of power) must be good. You cannot call the fruit good (acknowledging the healings) and the tree bad (attributing them to Satan). The principle ek tou karpou to dendron ginōsketai ('by the fruit the tree is known') echoes 7:16-20."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 34,
+      "text_greek": "γεννήματα ἐχιδνῶν, πῶς δύνασθε ἀγαθὰ λαλεῖν πονηροὶ ὄντες; ἐκ γὰρ τοῦ περισσεύματος τῆς καρδίας τὸ στόμα λαλεῖ.",
+      "text_kjv": "O generation of vipers, how can ye, being evil, speak good things? for out of the abundance of the heart the mouth speaketh.",
+      "rendering": "You brood of vipers! How can you speak good things when you are evil? For out of the overflow of the heart the mouth speaks.",
+      "translator_notes": [
+        "The insult gennēmata echidnōn ('offspring of vipers') repeats John the Baptist's words (3:7), linking the Pharisees to the serpent imagery of Genesis 3. The principle ek tou perisseumatos tēs kardias to stoma lalei ('out of the overflow of the heart the mouth speaks') grounds speech in character — words reveal the inner person. The Pharisees' blasphemous words expose a blasphemous heart.",
+        "[TCR Cross-Reference] Echoes Genesis 3. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 35,
+      "text_greek": "ὁ ἀγαθὸς ἄνθρωπος ἐκ τοῦ ἀγαθοῦ θησαυροῦ ἐκβάλλει ἀγαθά, καὶ ὁ πονηρὸς ἄνθρωπος ἐκ τοῦ πονηροῦ θησαυροῦ ἐκβάλλει πονηρά.",
+      "text_kjv": "A good man out of the good treasure of the heart bringeth forth good things: and an evil man out of the evil treasure bringeth forth evil things.",
+      "rendering": "The good person brings good things out of a good treasure, and the evil person brings evil things out of an evil treasure.",
+      "translator_notes": [
+        "The word thēsaurou ('treasure, storehouse') depicts the heart as a repository from which words and deeds are drawn. The verb ekballei ('brings out, throws out') is the same word used for casting out demons — what is stored inside inevitably comes out. The parallelism is absolute: good in, good out; evil in, evil out."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 36,
+      "text_greek": "λέγω δὲ ὑμῖν ὅτι πᾶν ῥῆμα ἀργὸν ὃ λαλήσουσιν οἱ ἄνθρωποι ἀποδώσουσιν περὶ αὐτοῦ λόγον ἐν ἡμέρᾳ κρίσεως·",
+      "text_kjv": "But I say unto you, That every idle word that men shall speak, they shall give account thereof in the day of judgment.",
+      "rendering": "I tell you that on the day of judgment people will give an account for every careless word they have spoken.",
+      "translator_notes": [
+        "The adjective argon ('idle, careless, useless') comes from a-ergon ('without work, unproductive'). In context, the 'careless word' is not merely thoughtless chatter but words like the Pharisees' blasphemous accusation — speech that seems offhand but reveals the heart's true orientation. The phrase apodōsousin logon ('will give an account, will render a word') uses the language of legal reckoning."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 37,
+      "text_greek": "ἐκ γὰρ τῶν λόγων σου δικαιωθήσῃ καὶ ἐκ τῶν λόγων σου καταδικασθήσῃ.",
+      "text_kjv": "For by thy words thou shalt be justified, and by thy words thou shalt be condemned.",
+      "rendering": "For by your words you will be justified, and by your words you will be condemned.\"",
+      "translator_notes": [
+        "The passive verbs dikaiōthēsē ('will be justified, acquitted') and katadikasthēsē ('will be condemned') are divine passives — God is the implied judge. Words serve as evidence because they reveal character. This does not contradict justification by faith but affirms that genuine faith produces certain kinds of speech while its absence produces others."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 38,
+      "text_greek": "Τότε ἀπεκρίθησαν αὐτῷ τινες τῶν γραμματέων καὶ Φαρισαίων λέγοντες· Διδάσκαλε, θέλομεν ἀπὸ σοῦ σημεῖον ἰδεῖν.",
+      "text_kjv": "Then certain of the scribes and of the Pharisees answered, saying, Master, we would see a sign from thee.",
+      "rendering": "Then some of the scribes and Pharisees said to him, \"Teacher, we want to see a sign from you.\"",
+      "translator_notes": [
+        "The request for a sēmeion ('sign') comes immediately after Jesus has just healed a blind and mute demoniac — they have seen signs. The demand is for a spectacular, undeniable cosmic sign that would prove his authority beyond dispute. The address didaskalos ('teacher') is polite but uncommitted."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 39,
+      "text_greek": "ὁ δὲ ἀποκριθεὶς εἶπεν αὐτοῖς· Γενεὰ πονηρὰ καὶ μοιχαλὶς σημεῖον ἐπιζητεῖ, καὶ σημεῖον οὐ δοθήσεται αὐτῇ εἰ μὴ τὸ σημεῖον Ἰωνᾶ τοῦ προφήτου.",
+      "text_kjv": "But he answered and said unto them, An evil and adulterous generation seeketh after a sign; and there shall no sign be given to it, but the sign of the prophet Jonas:",
+      "rendering": "He answered them, \"An evil and adulterous generation demands a sign, but no sign will be given to it except the sign of the prophet Jonah.",
+      "translator_notes": [
+        "The labels ponēra ('evil') and moichalis ('adulterous') are severe. 'Adulterous' uses the Old Testament prophetic metaphor of Israel as God's unfaithful spouse (Hosea, Ezekiel 16). The sign of Jonah is the only sign Jesus will offer — and it requires faith to interpret, not the kind of overwhelming proof the Pharisees demand.",
+        "[TCR Cross-Reference] Echoes Ezekiel 16. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 40,
+      "text_greek": "ὥσπερ γὰρ ἦν Ἰωνᾶς ἐν τῇ κοιλίᾳ τοῦ κήτους τρεῖς ἡμέρας καὶ τρεῖς νύκτας, οὕτως ἔσται ὁ υἱὸς τοῦ ἀνθρώπου ἐν τῇ καρδίᾳ τῆς γῆς τρεῖς ἡμέρας καὶ τρεῖς νύκτας.",
+      "text_kjv": "For as Jonas was three days and three nights in the whale's belly; so shall the Son of man be three days and three nights in the heart of the earth.",
+      "rendering": "For just as Jonah was three days and three nights in the belly of the great fish, so the Son of Man will be three days and three nights in the heart of the earth.",
+      "translator_notes": [
+        "The Greek kētous ('sea creature, great fish') is more accurate than the KJV's 'whale' — the Hebrew in Jonah 1:17 uses dag gadol ('great fish') without specifying the species. The phrase en tē kardia tēs gēs ('in the heart of the earth') refers to the grave/death. The 'three days and three nights' follows Jewish inclusive reckoning where any part of a day counts as a full day — Friday afternoon, all of Saturday, and Sunday morning constitute 'three days.'",
+        "[TCR Cross-Reference] This verse quotes Jonah 1:17 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 41,
+      "text_greek": "ἄνδρες Νινευῖται ἀναστήσονται ἐν τῇ κρίσει μετὰ τῆς γενεᾶς ταύτης καὶ κατακρινοῦσιν αὐτήν, ὅτι μετενόησαν εἰς τὸ κήρυγμα Ἰωνᾶ, καὶ ἰδοὺ πλεῖον Ἰωνᾶ ὧδε.",
+      "text_kjv": "The men of Nineveh shall rise in judgment with this generation, and shall condemn it: because they repented at the preaching of Jonas; and, behold, a greater than Jonas is here.",
+      "rendering": "The people of Nineveh will stand up at the judgment with this generation and condemn it, for they repented at the preaching of Jonah — and look, something greater than Jonah is here.",
+      "translator_notes": [
+        "The Ninevites — pagans, Assyrians, Israel's enemies — repented at Jonah's reluctant, minimal preaching. 'This generation' has received far greater revelation and refuses to repent. The neuter pleion ('something greater,' not 'someone greater') makes the claim even more comprehensive — not just a greater prophet but a greater reality is present."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 42,
+      "text_greek": "βασίλισσα νότου ἐγερθήσεται ἐν τῇ κρίσει μετὰ τῆς γενεᾶς ταύτης καὶ κατακρινεῖ αὐτήν, ὅτι ἦλθεν ἐκ τῶν περάτων τῆς γῆς ἀκοῦσαι τὴν σοφίαν Σολομῶνος, καὶ ἰδοὺ πλεῖον Σολομῶνος ὧδε.",
+      "text_kjv": "The queen of the south shall rise up in the judgment with this generation, and shall condemn it: for she came from the uttermost parts of the earth to hear the wisdom of Solomon; and, behold, a greater than Solomon is here.",
+      "rendering": "The queen of the South will rise at the judgment with this generation and condemn it, for she came from the ends of the earth to hear the wisdom of Solomon — and look, something greater than Solomon is here.",
+      "translator_notes": [
+        "The 'queen of the South' is the Queen of Sheba (1 Kings 10:1-13), who traveled a great distance to hear Solomon's wisdom. Again a Gentile figure condemns 'this generation.' The parallel structure — Ninevites/Jonah, queen/Solomon — presents Jesus as greater than Israel's greatest prophet and wisest king. The neuter pleion ('something greater') is repeated.",
+        "[TCR Cross-Reference] Draws on 1 Kings 10:1-13. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 43,
+      "text_greek": "Ὅταν δὲ τὸ ἀκάθαρτον πνεῦμα ἐξέλθῃ ἀπὸ τοῦ ἀνθρώπου, διέρχεται δι' ἀνύδρων τόπων ζητοῦν ἀνάπαυσιν καὶ οὐχ εὑρίσκει.",
+      "text_kjv": "When the unclean spirit is gone out of a man, he walketh through dry places, seeking rest, and findeth none.",
+      "rendering": "When an unclean spirit comes out of a person, it passes through waterless places seeking rest and does not find it.",
+      "translator_notes": [
+        "The anhydrōn topōn ('waterless, dry places') reflects the ancient Near Eastern belief that demons inhabit desolate wilderness regions (cf. Isaiah 13:21, 34:14; Baruch 4:35). The demon seeks anapausin ('rest') — ironically, the same word Jesus offers to the weary in 11:28. The passage functions as a parable about spiritual vacancy.",
+        "[TCR Cross-Reference] References Isaiah 13:21 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 44,
+      "text_greek": "τότε λέγει· Εἰς τὸν οἶκόν μου ἐπιστρέψω ὅθεν ἐξῆλθον· καὶ ἐλθὸν εὑρίσκει σχολάζοντα σεσαρωμένον καὶ κεκοσμημένον.",
+      "text_kjv": "Then he saith, I will return into my house from whence I came out; and when he is come, he findeth it empty, swept, and garnished.",
+      "rendering": "Then it says, 'I will return to my house that I left.' When it arrives, it finds the house unoccupied, swept clean, and put in order.",
+      "translator_notes": [
+        "The demon calls the person 'my house' (ton oikon mou), claiming ownership. The three participles — scholazonta ('empty, unoccupied, idle'), sesarōmenon ('swept clean'), kekosmēmenon ('put in order, decorated') — describe a person who has been cleaned up but not filled with anything positive. Moral reformation without spiritual filling leaves one vulnerable to worse occupation."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 45,
+      "text_greek": "τότε πορεύεται καὶ παραλαμβάνει μεθ' ἑαυτοῦ ἑπτὰ ἕτερα πνεύματα πονηρότερα ἑαυτοῦ καὶ εἰσελθόντα κατοικεῖ ἐκεῖ· καὶ γίνεται τὰ ἔσχατα τοῦ ἀνθρώπου ἐκείνου χείρονα τῶν πρώτων. οὕτως ἔσται καὶ τῇ γενεᾷ ταύτῃ τῇ πονηρᾷ.",
+      "text_kjv": "Then goeth he, and taketh with himself seven other spirits more wicked than himself, and they enter in and dwell there: and the last state of that man is worse than the first. Even so shall it be also unto this wicked generation.",
+      "rendering": "Then it goes and brings along seven other spirits more evil than itself, and they enter and settle there. And the last condition of that person becomes worse than the first. So it will be with this evil generation.\"",
+      "translator_notes": [
+        "The number seven (hepta) symbolizes completeness — the reinfestation is total and overwhelming. The phrase ta eschata cheirona tōn prōtōn ('the last things worse than the first') warns that spiritual emptiness invites greater evil than the original condition. The application to 'this evil generation' (tē genea tautē tē ponēra) transforms the parable from individual exorcism to national warning — Israel has received temporary cleansing through John's ministry and Jesus's healings but refuses to be filled with the kingdom's reality."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 46,
+      "text_greek": "Ἔτι αὐτοῦ λαλοῦντος τοῖς ὄχλοις ἰδοὺ ἡ μήτηρ καὶ οἱ ἀδελφοὶ αὐτοῦ εἱστήκεισαν ἔξω ζητοῦντες αὐτῷ λαλῆσαι.",
+      "text_kjv": "While he yet talked to the people, behold, his mother and his brethren stood without, desiring to speak with him.",
+      "rendering": "While he was still speaking to the crowds, his mother and brothers stood outside, wanting to speak to him.",
+      "translator_notes": [
+        "The phrase heistēkeisan exō ('stood outside') creates a spatial metaphor — family members are on the outside while the listening crowd is on the inside. The mention of adelphoi ('brothers') indicates Jesus had siblings (see 13:55 for their names). Their desire to 'speak to him' may reflect concern about his safety given the growing opposition (cf. Mark 3:21)."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 47,
+      "text_greek": "[εἶπεν δέ τις αὐτῷ· Ἰδοὺ ἡ μήτηρ σου καὶ οἱ ἀδελφοί σου ἔξω ἑστήκασιν ζητοῦντές σοι λαλῆσαι.]",
+      "text_kjv": "Then one said unto him, Behold, thy mother and thy brethren stand without, desiring to speak with thee.",
+      "rendering": "Someone told him, \"Look, your mother and your brothers are standing outside, wanting to speak to you.\"",
+      "translator_notes": [
+        "This verse is bracketed in the SBLGNT, indicating uncertainty about whether it was in the original text — some important manuscripts omit it. Without it, verse 48 follows directly from verse 46 and still makes sense. We include it as it appears in the majority of manuscripts and provides the natural link to Jesus's response."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 48,
+      "text_greek": "ὁ δὲ ἀποκριθεὶς εἶπεν τῷ λέγοντι αὐτῷ· Τίς ἐστιν ἡ μήτηρ μου καὶ τίνες εἰσὶν οἱ ἀδελφοί μου;",
+      "text_kjv": "But he answered and said unto him that told him, Who is my mother? and who are my brethren?",
+      "rendering": "But he replied to the one who told him, \"Who is my mother, and who are my brothers?\"",
+      "translator_notes": [
+        "The question is rhetorically shocking — it appears to disown his biological family. Jesus is not rejecting his mother and brothers but redefining the category of family itself. The question demands a new answer that transcends biological kinship."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 49,
+      "text_greek": "καὶ ἐκτείνας τὴν χεῖρα αὐτοῦ ἐπὶ τοὺς μαθητὰς αὐτοῦ εἶπεν· Ἰδοὺ ἡ μήτηρ μου καὶ οἱ ἀδελφοί μου·",
+      "text_kjv": "And he stretched forth his hand toward his disciples, and said, Behold my mother and my brethren!",
+      "rendering": "Pointing to his disciples, he said, \"Here are my mother and my brothers.",
+      "translator_notes": [
+        "The physical gesture — ekteinas tēn cheira ('stretching out his hand') — makes the redefinition visible and public. The disciples are identified as Jesus's true family. This creates a new kinship community based not on blood but on shared commitment to God's will."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 50,
+      "text_greek": "ὅστις γὰρ ἂν ποιήσῃ τὸ θέλημα τοῦ πατρός μου τοῦ ἐν οὐρανοῖς αὐτός μου ἀδελφὸς καὶ ἀδελφὴ καὶ μήτηρ ἐστίν.",
+      "text_kjv": "For whosoever shall do the will of my Father which is in heaven, the same is my brother, and sister, and mother.",
+      "rendering": "For whoever does the will of my Father in heaven is my brother and sister and mother.\"",
+      "translator_notes": [
+        "The criterion for belonging to Jesus's family is doing the will of the Father (to thelēma tou patros mou) — the same standard from the Sermon on the Mount (7:21). The threefold 'brother and sister and mother' (adelphos kai adelphē kai mētēr) is inclusive of all — notably, 'father' is omitted because that role belongs exclusively to God. This redefinition of family becomes foundational for the church's self-understanding."
+      ],
+      "reading_level": "7th grade"
+    }
+  ]
+}

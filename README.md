@@ -1,58 +1,50 @@
 # The Covenant Rendering
 
-A modern English rendering of the Bible, translated directly from the Westminster Leningrad Codex (WLC) Hebrew source text. Open source. Fully documented. Free for everyone.
+A modern English rendering of the Bible — Old Testament and New Testament — translated directly from the original Hebrew and Greek source texts. Open source. Fully documented. Free for everyone.
+
+**Website:** [thecovenantrendering.com](https://thecovenantrendering.com)
 
 ## What This Is
 
-The Covenant Rendering is a plain modern English rendering of the Bible designed to make ancient scripture accessible to contemporary readers. It is:
+The Covenant Rendering is a complete, modern English rendering of the Bible with fully documented translation decisions at every verse, released as open-source structured data under [CC-BY-4.0](LICENSE).
+
+Beyond the standard 66-book Bible, TCR surfaces how communities across 2,300 years have read the same passages — from the Dead Sea caves to the Restoration — side by side, for free. The organizing question: **"How does this tradition read this passage?"**
 
 - **Open source** — released under [CC-BY-4.0](LICENSE). Anyone can use, share, and build upon it.
-- **Ecumenical** — not affiliated with any denomination. Useful to all Christians and anyone studying the Bible.
-- **Transparent** — every translation decision is documented in translator notes. Nothing is hidden.
-- **Reproducible** — generation prompts and methodology included in the repository.
+- **Ecumenical** — not affiliated with any denomination.
+- **Transparent** — every translation decision is documented in translator notes.
+- **Reproducible** — generation prompts and methodology included in this repository.
 
-## What's In Each Chapter File
+## What's Here
 
-Every verse includes:
+### Standard Bible (66 books, 1,189 chapters, 31,169 verses)
 
-| Field | Description |
-|-------|-------------|
-| `text_hebrew` | Full Hebrew text from the Westminster Leningrad Codex with vowel pointing |
-| `text_kjv` | King James Version text for reference comparison |
-| `rendering` | The Covenant Rendering's modern English translation |
-| `translator_notes` | Detailed notes explaining translation decisions, Hebrew wordplay, cultural context, and intertextual connections |
-| `key_terms` | Hebrew terms with transliteration, semantic range, and scholarly notes |
-| `expanded_rendering` | (Select verses) Plain English explanation of what theologically rich Hebrew terms actually mean — a bridge between the English rendering and the Hebrew original |
+| Testament | Books | Chapters | Source Text |
+|-----------|-------|----------|-------------|
+| Old Testament | 39 | 929 | Westminster Leningrad Codex (WLC) |
+| New Testament | 27 | 260 | SBL Greek New Testament (SBLGNT) |
 
-## Quick Start
+### Extended Library (10 traditions)
 
-Each chapter is a standalone JSON file:
+| Tradition | Type | Content | Directory |
+|-----------|------|---------|-----------|
+| Dead Sea Scrolls (1QIsaiah-a) | Manuscript comparison | 66 chapters, 590 variants vs MT | `dss-isaiah/` |
+| 1 Enoch | Pre-Nicaea canon | 108 chapters, 1,054 verses | `1-enoch/` |
+| Jubilees | Pre-Nicaea canon | 50 chapters, 1,245 verses | `jubilees/` |
+| Septuagint Jeremiah | Manuscript comparison | 52 chapters (shorter, older text) | `lxx-jeremiah/` |
+| Septuagint Daniel | Manuscript + additions | 15 files (Susanna, Prayer of Azariah, Bel and Dragon) | `lxx-daniel/` |
+| Septuagint Esther | Manuscript + additions | 16 files (6 Additions, 107 added verses) | `lxx-esther/` |
+| Joseph Smith Translation | Interpretive tradition | Book of Moses, JS-Matthew, Appendix, Footnotes | `jst/` |
+| Samaritan Pentateuch | Manuscript comparison | 5 books, 156 significant variants | `samaritan-pentateuch/` |
+| Targum Onkelos | Interpretive tradition | 5 books, 176 Aramaic renderings (Torah) | `targum-onkelos/` |
+| Targum Jonathan | Interpretive tradition | 5 books, 153 Aramaic renderings (Prophets) | `targum-jonathan/` |
+| Latin Vulgate | Western tradition | 9 books, 184 renderings (Jerome) | `vulgate/` |
 
-```
-genesis/
-├── chapter-01.json
-├── ...
-└── chapter-50.json
+## Data Format
 
-exodus/
-├── chapter-01.json
-├── ...
-└── chapter-40.json
+Every chapter is a standalone JSON file. OT verses include Hebrew; NT verses include Greek.
 
-...
-
-joshua/
-├── chapter-01.json
-├── ...
-└── chapter-24.json
-
-judges/
-├── chapter-01.json
-├── ...
-└── chapter-21.json
-```
-
-### Example: Genesis 1:1
+### OT Verse Example (Genesis 1:1)
 
 ```json
 {
@@ -60,10 +52,7 @@ judges/
   "text_hebrew": "בְּרֵאשִׁ֖ית בָּרָ֣א אֱלֹהִ֑ים אֵ֥ת הַשָּׁמַ֖יִם וְאֵ֥ת הָאָֽרֶץ׃",
   "text_kjv": "In the beginning God created the heaven and the earth.",
   "rendering": "In the beginning, God created the heavens and the earth.",
-  "translator_notes": [
-    "'Heavens' (plural) reflects the Hebrew hashamayim, which is grammatically plural...",
-    "The Hebrew reshit means 'beginning' or 'first.' Whether this refers to an absolute beginning or a relative beginning ('When God began to create...') is debated..."
-  ],
+  "translator_notes": ["..."],
   "key_terms": [
     {
       "hebrew": "בָּרָא",
@@ -72,81 +61,75 @@ judges/
       "semantic_range": "created, shaped, brought into being",
       "note": "This verb is used exclusively with God as its subject in the Hebrew Bible..."
     }
-  ]
+  ],
+  "reading_level": "8th grade"
 }
 ```
 
-## Current Progress
+### NT Verse Example (Romans 8:1)
 
-| Book | Chapters | Verses | Status |
-|------|----------|--------|--------|
-| Genesis | 50/50 | 1,534 | Complete |
-| Exodus | 40/40 | 1,213 | Complete |
-| Leviticus | 27/27 | 859 | Complete |
-| Numbers | 36/36 | 1,288 | Complete |
-| Deuteronomy | 34/34 | 956 | Complete |
-| Joshua | 24/24 | 658 | Complete |
-| Judges | 21/21 | 618 | Complete |
-| Ruth | 4/4 | 85 | Complete |
-| 1 Samuel | 31/31 | 810 | Complete |
-| 2 Samuel | 24/24 | 695 | Complete |
-| 1 Kings | 22/22 | 816 | Complete |
-| 2 Kings | 25/25 | 719 | Complete |
-| 1 Chronicles | 29/29 | 942 | Complete |
-| 2 Chronicles | 36/36 | 822 | Complete |
-| Ezra | 10/10 | 280 | Complete |
-| Nehemiah | 13/13 | 406 | Complete |
-| Esther | 10/10 | 167 | Complete |
-| Job | 42/42 | 1,070 | Complete |
-| Psalms | 150/150 | 2,461 | Complete |
-| Proverbs | 31/31 | 915 | Complete |
-| Ecclesiastes | 12/12 | 222 | Complete |
-| Song of Solomon | 8/8 | 117 | Complete |
+```json
+{
+  "verse": 1,
+  "text_greek": "Οὐδὲν ἄρα νῦν κατάκριμα τοῖς ἐν Χριστῷ Ἰησοῦ.",
+  "text_kjv": "There is therefore now no condemnation to them which are in Christ Jesus...",
+  "rendering": "There is therefore now no condemnation for those who are in Christ Jesus.",
+  "translator_notes": ["..."],
+  "key_terms": [
+    {
+      "greek": "κατάκριμα",
+      "transliteration": "katakrima",
+      "rendered_as": "condemnation",
+      "semantic_range": "condemnation, penalty, adverse verdict",
+      "note": "..."
+    }
+  ],
+  "reading_level": "7th grade"
+}
+```
 
-- **Source text:** Westminster Leningrad Codex (WLC)
-- **Reading level:** 9th-10th grade (comparable to ESV)
-- **Translation approach:** Formal equivalence with clarity
-- **Full project details:** See [TCR_source_of_truth.md](TCR_source_of_truth.md)
+## Directory Structure
 
-## Translation Philosophy
-
-The Covenant Rendering follows a **formal equivalence** ("word-for-word") approach as its baseline, but prioritizes clarity over wooden literalism. Key principles:
-
-- **Translate from the Hebrew, not from the KJV.** The KJV is provided as a reference for readers, not as a source text.
-- **Preserve ambiguity when it exists.** If the Hebrew is genuinely ambiguous, the rendering preserves that ambiguity and documents the options in translator notes.
-- **Modernize vocabulary, not theology.** Archaic English is updated; theological meaning is not changed.
-- **Document everything.** Every significant translation decision is explained in the notes.
-
-### Theologically Rich Terms
-
-Some Hebrew words carry a depth of meaning that no single English word can capture. For these terms — including חֶסֶד (*chesed*, "steadfast love"), בְּרִית (*berit*, "covenant"), אֱמוּנָה (*emunah*, "faithfulness"), and גֹּאֵל (*go'el*, "redeemer") — the rendering includes an `expanded_rendering` field that explains what a Hebrew reader would naturally understand that an English reader misses.
+```
+The Covenant Rendering/
+├── genesis/ through malachi/     # 39 OT books (chapter-01.json, etc.)
+├── matthew/ through revelation/  # 27 NT books
+├── dss-isaiah/                   # Dead Sea Scrolls variant data
+├── 1-enoch/                      # 1 Enoch (108 chapters)
+├── jubilees/                     # Jubilees (50 chapters)
+├── lxx-jeremiah/                 # Septuagint Jeremiah variants
+├── lxx-daniel/                   # Septuagint Daniel (variants + additions)
+├── lxx-esther/                   # Septuagint Esther (variants + additions)
+├── jst/                          # Joseph Smith Translation (3 layers)
+├── samaritan-pentateuch/         # Samaritan Pentateuch variants
+├── targum-onkelos/               # Targum Onkelos (Torah)
+├── targum-jonathan/              # Targum Jonathan (Prophets)
+├── vulgate/                      # Latin Vulgate (Jerome)
+├── prompts/                      # Generation prompts and methodology
+├── scripts/                      # QA validation, concordance, cross-references
+├── pdf/                          # Downloadable PDFs
+├── TCR_source_of_truth.md        # Project status and roadmap
+├── TCR_quality_contract.md       # Quality standards
+├── TCR_data_reference.md         # Data schemas and field rules
+├── TCR_operational_playbook.md   # Generation and deployment procedures
+└── TCR_auditor_source_of_truth.md # Audit methodology
+```
 
 ## How It Was Made
 
-The Covenant Rendering was produced using a detailed master prompt that specifies translation philosophy, source texts, output format, and theological term handling. The generation prompts are included in the `prompts/` directory for full transparency.
+The Covenant Rendering was generated using AI language models (Claude, by Anthropic) operating against the Hebrew and Greek source texts under carefully designed translation prompts.
 
-Each chapter was independently reviewed for:
-- Hebrew accuracy and key term handling
-- Theological depth and cross-referencing
-- Rendering quality and reading level
-- JSON structure and completeness
+Every chapter was produced through a two-stage pipeline: a generation agent translates from the source text following formal-equivalence principles, and a separate QA agent validates the output against 18 automated checks and 8 judgment-based quality standards. All 1,189 chapters pass automated validation.
 
-## License
+The translation prompts, quality contract, validation scripts, and every chapter of structured data are in this repository. We believe transparency strengthens the work.
 
-This work is licensed under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
+## Translation Philosophy
 
-You are free to:
-- **Share** — copy and redistribute the material in any medium or format
-- **Adapt** — remix, transform, and build upon the material for any purpose, including commercial
-
-Under the following terms:
-- **Attribution** — You must give appropriate credit, provide a link to the license, and indicate if changes were made.
-
-## Attribution
-
-When using The Covenant Rendering, please credit:
-
-> The Covenant Rendering by Aaron Blonquist. Licensed under CC-BY-4.0.
+- **Translate from the Hebrew and Greek, not from the KJV.** The KJV is provided as a reference for readers, not as a source text.
+- **Formal equivalence with clarity.** Word-for-word as the baseline, but natural English takes priority over wooden literalism.
+- **Preserve ambiguity when it exists.** If the source text is genuinely ambiguous, the rendering preserves that ambiguity and documents the options.
+- **Modernize vocabulary, not theology.** Archaic English is updated; theological meaning is not changed.
+- **Document everything.** Every significant translation decision is explained in the notes.
 
 ## Building On This
 
@@ -155,15 +138,19 @@ The JSON structure is designed to be developer-friendly. You can use these files
 - Build a Bible study app or website
 - Generate formatted PDFs or print-ready documents
 - Create verse-by-verse commentary platforms
-- Power search tools that work across English and Hebrew
-- Train or fine-tune language models on biblical text
+- Power search tools that work across English, Hebrew, and Greek
 - Build concordances or cross-reference databases
+- Compare manuscript traditions programmatically
 
-If you build something with The Covenant Rendering, I'd love to hear about it.
+## License
 
-## Project Documentation
+This work is licensed under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
 
-For the full project vision, methodology, architecture, quality standards, and progress tracking, see [TCR_source_of_truth.md](TCR_source_of_truth.md).
+**Attribution:** "The Covenant Rendering, thecovenantrendering.com, CC-BY-4.0"
+
+## Found an Error?
+
+This project improves through feedback. If you find a rendering that misrepresents the Hebrew or Greek, a translator note that is inaccurate, or any other error — please [open an issue](https://github.com/bashonda2/the-covenant-rendering/issues) or email contact@thecovenantrendering.com.
 
 ## Contact
 

@@ -1,0 +1,293 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Psalms",
+    "tradition": "vulgate",
+    "tradition_label": "Latin Vulgate",
+    "source_text": "Biblia Sacra Vulgata (Stuttgart critical edition)",
+    "base_text": "Westminster Leningrad Codex (WLC)",
+    "translator": "Jerome (Eusebius Sophronius Hieronymus)",
+    "date": "382-405 CE",
+    "generated_at": "2026-04-05T00:00:00Z",
+    "prompt_version": "1.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Jerome produced three distinct Latin Psalters: the Romana (a light revision of the Old Latin), the Gallicana (revised from the Hexaplaric LXX, c. 392), and the Iuxta Hebraeos (translated fresh from the Hebrew, c. 392). The Gallicana became the standard Psalter in the Vulgate and in Western liturgical use, despite Jerome's own preference for the Iuxta Hebraeos. This means the Vulgate Psalms are primarily a LXX-based text, unlike most of Jerome's Old Testament, which was translated from Hebrew.",
+    "notable_renderings": "Psalm 22:16 foderunt (they pierced) supporting the Messianic reading; Psalm 23's pastoral vocabulary; the Miserere (Psalm 51); the numbering divergence between MT and Vulgate (Psalms 10-146 are offset by one); and key liturgical phrases that entered Western worship directly from the Latin Psalter.",
+    "theological_legacy": "The Vulgate Psalms are the most liturgically influential biblical text in Western Christianity. Phrases like Miserere mei Deus, De profundis, Dominus illuminatio mea, and Dixit Dominus Domino meo entered the liturgy, hymnody, music, and common speech of Latin Christendom. The Psalter numbering (following LXX) remains the standard in Catholic liturgy."
+  },
+  "renderings": [
+    {
+      "reference": "Psalm 1:1",
+      "source_text": "אַשְׁרֵי הָאִישׁ אֲשֶׁר לֹא הָלַךְ בַּעֲצַת רְשָׁעִים",
+      "vulgate_text": "beatus vir qui non abiit in consilio impiorum",
+      "vulgate_rendering": "Blessed is the man who has not walked in the counsel of the ungodly",
+      "tcr_rendering": "How happy is the man who does not walk in the counsel of the wicked",
+      "theological_legacy": "Beatus vir became one of the most famous opening phrases in Latin literature and liturgy. The choice of beatus (blessed, happy) rather than a more strictly happiness-oriented word shaped the Western theological concept of blessedness as divine favor rather than mere emotion.",
+      "notes": ["Hebrew ashrei is a plural construct meaning 'happinesses of' or 'how happy is.' Jerome's beatus captures the sense of divinely-favored happiness. This psalm opening became an antiphon and was set to music by countless composers."]
+    },
+    {
+      "reference": "Psalm 2:7",
+      "source_text": "בְּנִי אַתָּה אֲנִי הַיּוֹם יְלִדְתִּיךָ",
+      "vulgate_text": "filius meus es tu ego hodie genui te",
+      "vulgate_rendering": "You are my son; today I have begotten you",
+      "tcr_rendering": "You are My son; today I have begotten you",
+      "theological_legacy": "Filius meus es tu became a cornerstone of Latin Christology, cited at Christ's baptism and transfiguration. Genui te (I have begotten you) fed directly into the Nicene homoousios debate — the creed's genitum non factum (begotten not made) echoes this Psalm.",
+      "notes": ["Jerome's rendering is straightforwardly literal. The theological weight comes from New Testament application (Acts 13:33, Heb 1:5, 5:5). The Latin genui (from gignere, to beget) became technically precise in Trinitarian theology."]
+    },
+    {
+      "reference": "Psalm 8:5 [Vulgate 8:6]",
+      "source_text": "וַתְּחַסְּרֵהוּ מְּעַט מֵאֱלֹהִים (vattechaserehu me'at me-elohim)",
+      "vulgate_text": "minuisti eum paulo minus ab angelis",
+      "vulgate_rendering": "You made him a little less than the angels",
+      "tcr_rendering": "Yet you made him a little lower than God",
+      "theological_legacy": "Ab angelis (than the angels) follows the LXX par' angelous rather than the Hebrew me-elohim (than God/gods). This reading, quoted in Hebrews 2:7, shaped Western angelology and anthropology — humanity is below angels but above the rest of creation.",
+      "notes": ["The Hebrew elohim here likely means 'God' or possibly 'divine beings.' The LXX rendered it as angelous (angels), and Jerome's Gallicana follows the LXX. His Iuxta Hebraeos has 'a Deo' (than God), showing he knew the Hebrew reading. The Gallicana reading became standard in Western theology."]
+    },
+    {
+      "reference": "Psalm 16:10 [Vulgate 15:10]",
+      "source_text": "כִּי לֹא־תַעֲזֹב נַפְשִׁי לִשְׁאוֹל לֹא־תִתֵּן חֲסִידְךָ לִרְאוֹת שָׁחַת",
+      "vulgate_text": "quoniam non derelinques animam meam in inferno nec dabis sanctum tuum videre corruptionem",
+      "vulgate_rendering": "For you will not abandon my soul in hell, nor will you let your holy one see corruption",
+      "tcr_rendering": "For you will not abandon my soul to Sheol, nor let your faithful one see the Pit",
+      "theological_legacy": "In inferno (in hell) for Hebrew Sheol and corruptionem (corruption) for Hebrew shachat (pit/corruption) became central to the Apostles' Creed clause descendit ad inferos (he descended into hell) and to resurrection apologetics (Acts 2:27, 13:35).",
+      "notes": ["Jerome's Gallicana follows LXX closely. Hebrew shachat can mean 'pit' or 'corruption/decay' — Jerome chose corruptionem, which Peter uses in Acts 2 to argue that David prophesied Christ's body would not decay. This interpretive choice became doctrinally fixed."]
+    },
+    {
+      "reference": "Psalm 19:1 [Vulgate 18:2]",
+      "source_text": "הַשָּׁמַיִם מְסַפְּרִים כְּבוֹד־אֵל",
+      "vulgate_text": "caeli enarrant gloriam Dei",
+      "vulgate_rendering": "The heavens declare the glory of God",
+      "tcr_rendering": "The heavens declare the glory of God",
+      "theological_legacy": "Caeli enarrant gloriam Dei became a foundational text for natural theology in Western tradition — the idea that creation itself reveals God. It was set to music by Haydn, Marcello, and many others. Gloria Dei became a standard theological phrase.",
+      "notes": ["Jerome's rendering is essentially identical to the Hebrew sense. The phrase's cultural influence comes from its liturgical use and its role in scholastic natural theology (e.g., Aquinas's Fifth Way argument from design)."]
+    },
+    {
+      "reference": "Psalm 22:1 [Vulgate 21:2]",
+      "source_text": "אֵלִי אֵלִי לָמָה עֲזַבְתָּנִי (Eli, Eli, lamah azavtani)",
+      "vulgate_text": "Deus Deus meus quare dereliquisti me",
+      "vulgate_rendering": "God, my God, why have you forsaken me",
+      "tcr_rendering": "My God, my God, why have you forsaken me?",
+      "theological_legacy": "Deus Deus meus quare dereliquisti me is Christ's cry from the cross in Latin (Matt 27:46). The Latin dereliquisti (forsaken, abandoned) became central to Western atonement theology and the 'cry of dereliction' in passion theology.",
+      "notes": ["The Gospel accounts preserve the Aramaic/Hebrew (Eli, Eli / Eloi, Eloi) before giving the translation. Jerome's Psalm rendering provided the standard Latin version that was used in Western passion liturgies and meditations for centuries."]
+    },
+    {
+      "reference": "Psalm 22:16 [Vulgate 21:17]",
+      "source_text": "כָּאֲרִי יָדַי וְרַגְלָי (ka'ari yadai veraglai)",
+      "vulgate_text": "foderunt manus meas et pedes meos",
+      "vulgate_rendering": "They have pierced my hands and my feet",
+      "tcr_rendering": "Like a lion, my hands and my feet",
+      "theological_legacy": "Foderunt (they pierced/dug) is one of the most significant christological variants in the entire Bible. The Vulgate follows the LXX ōryxan (they pierced), reading ka'aru (they pierced) rather than the MT's ka'ari (like a lion). This verse became a primary proof-text for the crucifixion in Jewish-Christian disputations.",
+      "notes": ["The MT reads ka'ari (like a lion), which is grammatically difficult ('like a lion my hands and my feet'). The LXX and Vulgate read a verbal form meaning 'they pierced.' Some Hebrew manuscripts and the Nahal Hever scroll support a reading kaaru. Jerome's foderunt (literally 'they dug') follows the LXX tradition and became the standard Western reading. This variant was debated in every major Jewish-Christian disputation of the medieval period."]
+    },
+    {
+      "reference": "Psalm 23:1 [Vulgate 22:1]",
+      "source_text": "יְהוָה רֹעִי לֹא אֶחְסָר",
+      "vulgate_text": "Dominus regit me et nihil mihi deerit",
+      "vulgate_rendering": "The Lord rules/shepherds me and nothing shall be lacking to me",
+      "tcr_rendering": "The LORD is my shepherd; I lack nothing",
+      "theological_legacy": "Dominus regit me (the Lord rules/governs me) uses regit rather than a pastoral term like pascit (feeds/shepherds). This gave the psalm a more regal, governmental tone in Latin, though the pastoral imagery returns in subsequent verses.",
+      "notes": ["Hebrew ro'i means 'my shepherd.' Jerome's Gallicana uses regit (rules, guides), following the LXX poimainei in a broader sense. His Iuxta Hebraeos has 'Dominus pascit me' (the Lord feeds/shepherds me), which is closer to the Hebrew. The Gallicana reading became liturgically standard."]
+    },
+    {
+      "reference": "Psalm 23:4 [Vulgate 22:4]",
+      "source_text": "גַּם כִּי־אֵלֵךְ בְּגֵיא צַלְמָוֶת",
+      "vulgate_text": "nam et si ambulavero in medio umbrae mortis",
+      "vulgate_rendering": "For even if I walk in the midst of the shadow of death",
+      "tcr_rendering": "Even though I walk through the valley of the shadow of death",
+      "theological_legacy": "Umbra mortis (shadow of death) became one of the most recognizable biblical phrases in Western culture. The phrase entered funeral liturgies, hymnody, and literature. The reading of tsalmaveth as a compound ('shadow of death' rather than simply 'deep darkness') was reinforced by the Vulgate.",
+      "notes": ["Hebrew tsalmaveth was traditionally parsed as tsel (shadow) + maveth (death), yielding 'shadow of death.' Modern scholarship often reads it as tsalmut, an abstract noun meaning 'deep darkness.' Jerome follows the traditional compound reading, which remains the beloved English rendering."]
+    },
+    {
+      "reference": "Psalm 27:1 [Vulgate 26:1]",
+      "source_text": "יְהוָה אוֹרִי וְיִשְׁעִי מִמִּי אִירָא",
+      "vulgate_text": "Dominus illuminatio mea et salus mea quem timebo",
+      "vulgate_rendering": "The Lord is my light and my salvation; whom shall I fear?",
+      "tcr_rendering": "The LORD is my light and my salvation — whom should I fear?",
+      "theological_legacy": "Dominus illuminatio mea is the motto of the University of Oxford. Illuminatio (enlightenment, illumination) shaped Western light-theology and mystical traditions. Salus mea (my salvation) reinforced the Latin soteriology vocabulary.",
+      "notes": ["Jerome's rendering is faithful to the Hebrew. The phrase's extraordinary cultural legacy — from Oxford's motto to countless musical settings — testifies to the Vulgate Psalter's deep penetration into Western civilization."]
+    },
+    {
+      "reference": "Psalm 32:1 [Vulgate 31:1]",
+      "source_text": "אַשְׁרֵי נְשׂוּי־פֶּשַׁע כְּסוּי חֲטָאָה",
+      "vulgate_text": "beati quorum remissae sunt iniquitates et quorum tecta sunt peccata",
+      "vulgate_rendering": "Blessed are those whose iniquities are forgiven and whose sins are covered",
+      "tcr_rendering": "How happy is the one whose transgression is lifted away, whose sin is covered",
+      "theological_legacy": "Remissae sunt iniquitates (iniquities are forgiven/remitted) established the Latin vocabulary for remission of sins. Remissio peccatorum entered the creeds and became the standard Western theological term for forgiveness, still used in Catholic liturgy today.",
+      "notes": ["Hebrew nesui-fesha literally means 'lifted/carried away of transgression.' Jerome's remissae (sent back, released, forgiven) shifts the metaphor from carrying away to releasing/remitting. Paul quotes this psalm in Romans 4:7-8 in his justification argument."]
+    },
+    {
+      "reference": "Psalm 45:6 [Vulgate 44:7]",
+      "source_text": "כִּסְאֲךָ אֱלֹהִים עוֹלָם וָעֶד",
+      "vulgate_text": "thronus tuus Deus in saeculum saeculi",
+      "vulgate_rendering": "Your throne, O God, is forever and ever",
+      "tcr_rendering": "Your throne, O God, is forever and ever",
+      "theological_legacy": "Thronus tuus Deus addresses the king as 'God,' a reading quoted in Hebrews 1:8 as addressed to Christ. This became a key proof-text for Christ's divinity in Latin theology.",
+      "notes": ["The Hebrew is ambiguous: 'Your throne, O God' (vocative) or 'Your throne is God's' (nominative). Jerome follows the vocative reading. Hebrews 1:8 quotes this verse as addressed to the Son, making it central to Nicene Christology."]
+    },
+    {
+      "reference": "Psalm 51:1-2 [Vulgate 50:3-4]",
+      "source_text": "חָנֵּנִי אֱלֹהִים כְּחַסְדֶּךָ כְּרֹב רַחֲמֶיךָ מְחֵה פְשָׁעָי",
+      "vulgate_text": "miserere mei Deus secundum magnam misericordiam tuam et secundum multitudinem miserationum tuarum dele iniquitates meas",
+      "vulgate_rendering": "Have mercy on me, O God, according to your great mercy, and according to the multitude of your compassions blot out my iniquities",
+      "tcr_rendering": "Be gracious to me, O God, according to your steadfast love; according to your abundant compassion, blot out my transgressions",
+      "theological_legacy": "Miserere mei Deus became the most famous penitential text in Western Christianity. The Miserere psalm was sung daily in monastic offices, set to music by Allegri (whose version was famously transcribed by the young Mozart), and became the model for all Western penitential prayer. Misericordia became the standard Latin term for mercy/compassion.",
+      "notes": ["Hebrew chesed is rendered as misericordiam (mercy, compassion) rather than a covenant-loyalty term. Jerome's choice shaped the Western understanding of divine mercy as compassion toward the wretched (miser + cor, wretched heart) rather than covenantal faithfulness."]
+    },
+    {
+      "reference": "Psalm 51:5 [Vulgate 50:7]",
+      "source_text": "הֵן־בְּעָווֹן חוֹלָלְתִּי וּבְחֵטְא יֶחֱמַתְנִי אִמִּי",
+      "vulgate_text": "ecce enim in iniquitatibus conceptus sum et in peccatis concepit me mater mea",
+      "vulgate_rendering": "For behold, I was conceived in iniquities, and in sins did my mother conceive me",
+      "tcr_rendering": "Look — I was brought forth in iniquity, and in sin my mother conceived me",
+      "theological_legacy": "In iniquitatibus conceptus sum became the proof-text for original sin in Western theology. Augustine cited this verse extensively to argue that sin is transmitted through conception. The plural iniquitatibus intensifies the sense of inherited sinfulness.",
+      "notes": ["Hebrew cholalti means 'I was brought forth/born' (from chul, to writhe in labor), not strictly 'conceived.' Jerome's conceptus sum (I was conceived) shifts the moment of sinfulness from birth to conception, which supported Augustinian original sin doctrine more directly."]
+    },
+    {
+      "reference": "Psalm 72:1 [Vulgate 71:1]",
+      "source_text": "אֱלֹהִים מִשְׁפָּטֶיךָ לְמֶלֶךְ תֵּן",
+      "vulgate_text": "Deus iudicium tuum regi da",
+      "vulgate_rendering": "O God, give your judgment to the king",
+      "tcr_rendering": "O God, give the king your judgments",
+      "theological_legacy": "Iudicium tuum regi da established the theology of divinely delegated royal justice. This psalm was read as both Solomonic and Messianic, and iudicium (judgment) became a key term in Latin political theology — the king's justice as derived from God's justice.",
+      "notes": ["Jerome's rendering is close to the Hebrew. The psalm's influence on Western political theology — the divine right and duty of kings to judge justly — operated primarily through the Vulgate text."]
+    },
+    {
+      "reference": "Psalm 82:6 [Vulgate 81:6]",
+      "source_text": "אֲנִי־אָמַרְתִּי אֱלֹהִים אַתֶּם",
+      "vulgate_text": "ego dixi dii estis",
+      "vulgate_rendering": "I said: you are gods",
+      "tcr_rendering": "I said, 'You are gods'",
+      "theological_legacy": "Dii estis (you are gods) is quoted by Jesus in John 10:34. Jerome's literal rendering preserved the provocative claim that became important in patristic discussions of deification (theosis) in both Eastern and Western theology.",
+      "notes": ["Jerome renders elohim as dii (gods) rather than iudices (judges), preserving the literal sense. The verse's quotation by Christ made it a key text in debates about human participation in divine nature."]
+    },
+    {
+      "reference": "Psalm 90:4 [Vulgate 89:4]",
+      "source_text": "כִּי אֶלֶף שָׁנִים בְּעֵינֶיךָ כְּיוֹם אֶתְמוֹל",
+      "vulgate_text": "quoniam mille anni ante oculos tuos tamquam dies hesterna",
+      "vulgate_rendering": "For a thousand years before your eyes are as yesterday",
+      "tcr_rendering": "For a thousand years in your eyes are like yesterday",
+      "theological_legacy": "Mille anni became the basis for millennial calculations and the 'day-age' theory in Western biblical interpretation. Quoted in 2 Peter 3:8, this verse shaped Western eschatology and creation chronology debates.",
+      "notes": ["Jerome's rendering is faithful to the Hebrew. The Latin mille anni (thousand years) became loaded terminology in millennial and chiliastic debates throughout Western church history."]
+    },
+    {
+      "reference": "Psalm 95:7-8 [Vulgate 94:7-8]",
+      "source_text": "הַיּוֹם אִם־בְּקֹלוֹ תִשְׁמָעוּ אַל־תַּקְשׁוּ לְבַבְכֶם",
+      "vulgate_text": "hodie si vocem eius audieritis nolite obdurare corda vestra",
+      "vulgate_rendering": "Today, if you hear his voice, do not harden your hearts",
+      "tcr_rendering": "Today, if you hear His voice, do not harden your hearts",
+      "theological_legacy": "Hodie si vocem eius audieritis became one of the most frequently chanted texts in Western monasticism, used as the invitatory psalm at Matins. Hebrews 3-4 builds an extended argument on this verse. The Latin hodie (today) acquired urgent eschatological force.",
+      "notes": ["Jerome follows both Hebrew and LXX closely. The verse's liturgical placement as the daily invitatory in the Divine Office meant that every Western monk and cleric encountered this text at the beginning of each day's prayer."]
+    },
+    {
+      "reference": "Psalm 110:1 [Vulgate 109:1]",
+      "source_text": "נְאֻם יְהוָה לַאדֹנִי שֵׁב לִימִינִי",
+      "vulgate_text": "dixit Dominus Domino meo sede a dextris meis",
+      "vulgate_rendering": "The Lord said to my Lord: Sit at my right hand",
+      "tcr_rendering": "A declaration of the LORD to my lord: 'Sit at My right hand'",
+      "theological_legacy": "Dixit Dominus Domino meo is the most quoted Old Testament verse in the New Testament and became the most frequently set psalm text in Western music (settings by Vivaldi, Handel, Mozart, etc.). The double Dominus obscures the Hebrew distinction between YHWH and adoni but reinforced the christological reading of two divine persons.",
+      "notes": ["Hebrew distinguishes YHWH (the LORD) from adoni (my lord). Jerome's Dominus...Domino meo loses this distinction, using the same root word for both, which actually strengthened the argument for Christ's divinity — the Lord speaks to the Lord. The Iuxta Hebraeos has the same rendering."]
+    },
+    {
+      "reference": "Psalm 110:4 [Vulgate 109:4]",
+      "source_text": "אַתָּה־כֹהֵן לְעוֹלָם עַל־דִּבְרָתִי מַלְכִּי־צֶדֶק",
+      "vulgate_text": "tu es sacerdos in aeternum secundum ordinem Melchisedech",
+      "vulgate_rendering": "You are a priest forever according to the order of Melchizedek",
+      "tcr_rendering": "You are a priest forever according to the manner of Melchizedek",
+      "theological_legacy": "Sacerdos in aeternum secundum ordinem Melchisedech became the foundational text for Catholic priesthood theology. The phrase ordo Melchisedech (order of Melchizedek) defined priestly ordination as participation in an eternal priesthood, distinct from and superior to the Levitical order. Hebrews 5-7 develops this extensively.",
+      "notes": ["Hebrew al-divrati means 'according to the manner/word of.' Jerome's secundum ordinem (according to the order of) follows the LXX kata tēn taxin and implies an institutional order or rank, which was more architecturally useful for Western priesthood theology than the vaguer Hebrew."]
+    },
+    {
+      "reference": "Psalm 116:15 [Vulgate 115:6]",
+      "source_text": "יָקָר בְּעֵינֵי יְהוָה הַמָּוְתָה לַחֲסִידָיו",
+      "vulgate_text": "pretiosa in conspectu Domini mors sanctorum eius",
+      "vulgate_rendering": "Precious in the sight of the Lord is the death of his saints",
+      "tcr_rendering": "Precious in the eyes of the LORD is the death of his faithful ones",
+      "theological_legacy": "Mors sanctorum (death of his saints) became a foundation text for the cult of the saints and the theology of martyrdom in Western Christianity. The Latin sanctorum (of the holy ones/saints) rather than Hebrew chasidav (his faithful/loyal ones) reinforced the veneration of saints.",
+      "notes": ["Hebrew chasidav means 'his faithful/loyal ones' (from chesed). Jerome's sanctorum (saints, holy ones) shifts the sense toward holiness and sanctity, feeding directly into the Western cult of saints and the theology that the deaths of holy persons are valuable to God."]
+    },
+    {
+      "reference": "Psalm 118:22 [Vulgate 117:22]",
+      "source_text": "אֶבֶן מָאֲסוּ הַבּוֹנִים הָיְתָה לְרֹאשׁ פִּנָּה",
+      "vulgate_text": "lapidem quem reprobaverunt aedificantes hic factus est in caput anguli",
+      "vulgate_rendering": "The stone which the builders rejected has become the head of the corner",
+      "tcr_rendering": "The stone the builders rejected has become the cornerstone",
+      "theological_legacy": "Lapis...caput anguli (stone...head of the corner) became the standard christological image of Christ as the cornerstone (quoted in Matt 21:42, Acts 4:11, 1 Pet 2:7). The Latin vocabulary shaped Western ecclesiology — the Church built on Christ the cornerstone.",
+      "notes": ["Jerome's rendering is literal and faithful. Caput anguli (head of the corner) was debated by medieval architects and theologians — does it mean cornerstone (foundation) or keystone (capstone)? The ambiguity exists in both Hebrew and Latin."]
+    },
+    {
+      "reference": "Psalm 119:105 [Vulgate 118:105]",
+      "source_text": "נֵר־לְרַגְלִי דְבָרֶךָ וְאוֹר לִנְתִיבָתִי",
+      "vulgate_text": "lucerna pedibus meis verbum tuum et lumen semitis meis",
+      "vulgate_rendering": "Your word is a lamp to my feet and a light to my paths",
+      "tcr_rendering": "Your word is a lamp to my feet and a light to my path",
+      "theological_legacy": "Lucerna pedibus meis verbum tuum entered Western hymnody and devotional literature as the paradigmatic statement about Scripture's guiding role. Verbum tuum (your word) reinforced the Western doctrine of Scripture as the verbum Dei (word of God).",
+      "notes": ["Jerome's rendering is faithful to the Hebrew. The verse's influence comes from its liturgical use and its role as a proof-text for the sufficiency and clarity of Scripture — a verse both Catholics and Protestants claimed during the Reformation."]
+    },
+    {
+      "reference": "Psalm 127:1 [Vulgate 126:1]",
+      "source_text": "אִם־יְהוָה לֹא־יִבְנֶה בַיִת שָׁוְא עָמְלוּ בוֹנָיו בּוֹ",
+      "vulgate_text": "nisi Dominus aedificaverit domum in vanum laboraverunt qui aedificant eam",
+      "vulgate_rendering": "Unless the Lord builds the house, those who build it labor in vain",
+      "tcr_rendering": "Unless the LORD builds the house, its builders labor in vain",
+      "theological_legacy": "Nisi Dominus aedificaverit domum became a motto and inscription on countless churches, civic buildings, and coats of arms (notably Edinburgh's). The verse shaped Western theology of divine providence and human dependence on God.",
+      "notes": ["Jerome's rendering is literal. The phrase became proverbial in Latin Christendom, appearing in architecture, heraldry, and political theory as a statement about the necessity of divine blessing for any human endeavor."]
+    },
+    {
+      "reference": "Psalm 130:1 [Vulgate 129:1]",
+      "source_text": "מִמַּעֲמַקִּים קְרָאתִיךָ יְהוָה",
+      "vulgate_text": "de profundis clamavi ad te Domine",
+      "vulgate_rendering": "Out of the depths I have cried to you, O Lord",
+      "tcr_rendering": "Out of the depths I call to you, O LORD",
+      "theological_legacy": "De profundis became one of the most famous Latin phrases in Western culture, used as a penitential psalm at funerals and in prayers for the dead. Oscar Wilde titled his prison letter 'De Profundis.' The phrase entered common speech as a designation for any cry from the depths of despair.",
+      "notes": ["Jerome's de profundis (from the depths) for Hebrew mima'amaqim (from the depths) is straightforwardly literal. The phrase's extraordinary cultural resonance — from liturgy to literature — is a testament to the Vulgate's penetration into Western consciousness."]
+    },
+    {
+      "reference": "Psalm 137:1 [Vulgate 136:1]",
+      "source_text": "עַל נַהֲרוֹת בָּבֶל שָׁם יָשַׁבְנוּ גַּם־בָּכִינוּ",
+      "vulgate_text": "super flumina Babylonis illic sedimus et flevimus",
+      "vulgate_rendering": "By the rivers of Babylon, there we sat and wept",
+      "tcr_rendering": "By the rivers of Babylon — there we sat, and we wept",
+      "theological_legacy": "Super flumina Babylonis became an emblem of exile and longing in Western culture, from Palestrina's motet to Verdi's Va pensiero (Nabucco) to reggae music. The psalm's imagery of exile and memory shaped Western theology of pilgrimage and the Church as 'not yet home.'",
+      "notes": ["Jerome's rendering is faithful to the Hebrew. The psalm's cultural afterlife in Western music, art, and literature is perhaps the richest of any psalm, operating primarily through the Vulgate text in the pre-Reformation period."]
+    },
+    {
+      "reference": "Psalm 139:14 [Vulgate 138:14]",
+      "source_text": "אוֹדְךָ עַל כִּי נוֹרָאוֹת נִפְלֵיתִי",
+      "vulgate_text": "confitebor tibi quia terribiliter magnificatus sum",
+      "vulgate_rendering": "I will praise you because I am fearfully magnified",
+      "tcr_rendering": "I praise you because I am fearfully and wonderfully made",
+      "theological_legacy": "Terribiliter magnificatus sum (fearfully magnified/made great) shaped Western anthropology — humanity as awesome in its God-given dignity. The verse became a proof-text for the sanctity of human life from conception.",
+      "notes": ["Hebrew nifleiti means 'I am wonderfully made' (niphal of pala, to be wonderful). Jerome's magnificatus sum (I am made great/magnified) shifts the emphasis slightly from 'wonderful' to 'great/exalted.' Terribiliter (fearfully, awesomely) captures the Hebrew noraot."]
+    },
+    {
+      "reference": "Psalm 148:1-2",
+      "source_text": "הַלְלוּ יָהּ הַלְלוּ אֶת־יְהוָה מִן־הַשָּׁמַיִם",
+      "vulgate_text": "laudate Dominum de caelis laudate eum in excelsis",
+      "vulgate_rendering": "Praise the Lord from the heavens; praise him in the heights",
+      "tcr_rendering": "Praise the LORD! Praise the LORD from the heavens; praise Him in the heights",
+      "theological_legacy": "Laudate Dominum de caelis became a major liturgical text and inspired countless musical settings (Mozart's Laudate Dominum is among the most beloved). The phrase in excelsis connects to the angelic Gloria in excelsis Deo of Luke 2:14.",
+      "notes": ["Jerome's laudate for Hebrew halelu preserves the imperative plural. The Hallelujah psalms (146-150) in the Vulgate became the backbone of Western praise liturgy, their Latin phrases entering the common vocabulary of worship."]
+    },
+    {
+      "reference": "Psalm 46:10 [Vulgate 45:11]",
+      "source_text": "הַרְפּוּ וּדְעוּ כִּי־אָנֹכִי אֱלֹהִים",
+      "vulgate_text": "vacate et videte quoniam ego sum Deus",
+      "vulgate_rendering": "Be still and see that I am God",
+      "tcr_rendering": "Be still and know that I am God",
+      "theological_legacy": "Vacate et videte (be free/empty and see) — Jerome's vacate means 'be at leisure, be free, be empty.' This influenced the Western contemplative tradition's emphasis on vacatio (stillness, emptiness) as preparation for encountering God. The phrase became a touchstone for contemplative prayer and mystical theology.",
+      "notes": ["Hebrew harpu means 'cease, relax, let go' and de'u means 'know.' Jerome's vacate (be free, be at leisure) captures the 'let go' sense, while videte (see) shifts from knowing to seeing — a more mystical/contemplative emphasis. This rendering fed the Western tradition of apophatic prayer and spiritual stillness."]
+    },
+    {
+      "reference": "Psalm 103:12 [Vulgate 102:12]",
+      "source_text": "כִּרְחֹק מִזְרָח מִמַּעֲרָב הִרְחִיק מִמֶּנּוּ אֶת־פְּשָׁעֵינוּ",
+      "vulgate_text": "quantum distat ortus ab occidente longe fecit a nobis iniquitates nostras",
+      "vulgate_rendering": "As far as the east is from the west, so far has he removed our iniquities from us",
+      "tcr_rendering": "As far as east is from west, so far has He removed our transgressions from us",
+      "theological_legacy": "Quantum distat ortus ab occidente (as far as the rising is from the setting) became a beloved text on the completeness of divine forgiveness in Western theology. The spatial metaphor of infinite distance was used by Latin fathers to argue that forgiven sins are utterly removed, not merely covered.",
+      "notes": ["Jerome's ortus ab occidente (rising from setting, i.e., east from west) preserves the Hebrew spatial metaphor. The verse was frequently paired with Psalm 51 in Western penitential theology as assurance after confession."]
+    }
+  ]
+}

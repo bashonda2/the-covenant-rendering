@@ -1,0 +1,192 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Leviticus",
+    "tradition": "samaritan-pentateuch",
+    "tradition_label": "Samaritan Pentateuch",
+    "source_text": "Samaritan Pentateuch (critical editions)",
+    "base_text": "Westminster Leningrad Codex (WLC)",
+    "date": "4th c. BCE divergence",
+    "generated_at": "2026-04-05T00:00:00Z",
+    "prompt_version": "1.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Leviticus contains the fewest significant SP variants of any Pentateuchal book. The majority of differences are orthographic (plene vs. defective spelling) or involve minor grammatical adjustments. Because Leviticus is primarily legal-ritual material with little narrative, SP's characteristic harmonistic expansions and Gerizim insertions have less opportunity to operate. The sanctuary is referred to as the 'tent of meeting' throughout, which both traditions share.",
+    "notable_variants": "The most notable variants involve sacrificial terminology, the occasional smoothing of grammatical difficulties, and a handful of places where SP adjusts language about 'the place the LORD will choose' (though this phrase appears less frequently in Leviticus than in Deuteronomy). Some skin-disease legislation in chapters 13-14 shows minor terminological differences.",
+    "theological_significance": "Leviticus variants are theologically minor. The ritual system described is essentially identical in MT and SP. This convergence is significant in itself: it demonstrates that the Samaritan and Jewish communities shared the same sacrificial theology, diverging primarily on WHERE sacrifices should be offered (Gerizim vs. Jerusalem), not on HOW they should be performed."
+  },
+  "variants": [
+    {
+      "reference": "Leviticus 1:1",
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "וַיִּקְרָא אֶל־מֹשֶׁה",
+      "sp_reading": "ויקרא אל משה",
+      "mt_rendering": "And He called to Moses",
+      "sp_rendering": "And He called to Moses",
+      "notes": ["MT has a small aleph in ויקרא (a scribal tradition); SP writes the word normally. Both read the same text."]
+    },
+    {
+      "reference": "Leviticus 1:9",
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "רֵיחַ נִיחֹחַ לַיהוָה",
+      "sp_reading": "ריח ניחח ליהוה",
+      "mt_rendering": "a pleasing aroma to the LORD",
+      "sp_rendering": "a pleasing aroma to the LORD",
+      "notes": ["The 'pleasing aroma' formula is identical in MT and SP throughout Leviticus. This shared sacrificial vocabulary confirms that both traditions understood offerings the same way."]
+    },
+    {
+      "reference": "Leviticus 4:12",
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "אֶל־מָקוֹם טָהוֹר אֶל־שֶׁפֶךְ הַדָּשֶׁן",
+      "sp_reading": "אל מקום טהור אל שפך הדשן",
+      "mt_rendering": "to a clean place, to the ash heap",
+      "sp_rendering": "to a clean place, to the ash heap",
+      "notes": ["The ash-disposal instructions agree. SP does not add any Gerizim reference to this passage."]
+    },
+    {
+      "reference": "Leviticus 7:22-27",
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "Fat and blood prohibition — standard form",
+      "sp_reading": "Fat and blood prohibition — minor grammatical variants",
+      "mt_rendering": "(Standard dietary prohibition)",
+      "sp_rendering": "(Same prohibition with minor grammatical smoothing)",
+      "notes": ["SP smooths a few grammatical constructions in the fat/blood prohibition but makes no substantive changes."]
+    },
+    {
+      "reference": "Leviticus 9:22",
+      "has_variant": true,
+      "significance": "moderate",
+      "mt_reading": "וַיִּשָּׂא אַהֲרֹן אֶת־יָדָיו אֶל־הָעָם וַיְבָרֲכֵם",
+      "sp_reading": "וישא אהרן את ידו אל העם ויברכם",
+      "mt_rendering": "And Aaron lifted his hands toward the people and blessed them",
+      "sp_rendering": "And Aaron lifted his hand toward the people and blessed them",
+      "notes": ["SP reads singular 'hand' (ידו) where MT reads plural 'hands' (ידיו). This may reflect a different priestly blessing gesture in Samaritan tradition, or it may be a simple scribal variant."]
+    },
+    {
+      "reference": "Leviticus 10:6",
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "רָאשֵׁיכֶם אַל־תִּפְרָעוּ",
+      "sp_reading": "ראשיכם אל תפרעו",
+      "mt_rendering": "Do not uncover your heads",
+      "sp_rendering": "Do not uncover your heads",
+      "notes": ["The Nadab and Abihu aftermath instructions agree between MT and SP."]
+    },
+    {
+      "reference": "Leviticus 11:42",
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "כֹּל הוֹלֵךְ עַל־גָּחוֹן",
+      "sp_reading": "כל הולך על גחון",
+      "mt_rendering": "whatever goes on its belly",
+      "sp_rendering": "whatever goes on its belly",
+      "notes": ["MT has an enlarged vav in גָּחוֹן (a scribal tradition marking the middle letter of the Torah); SP writes normally. Content is identical."]
+    },
+    {
+      "reference": "Leviticus 13:2",
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "שְׂאֵת אוֹ־סַפַּחַת אוֹ בַהֶרֶת",
+      "sp_reading": "שאת או ספחת או בהרת",
+      "mt_rendering": "a swelling or a scab or a bright spot",
+      "sp_rendering": "a swelling or a scab or a bright spot",
+      "notes": ["The skin-disease diagnostic terminology is identical. Both traditions share the same medical-ritual vocabulary."]
+    },
+    {
+      "reference": "Leviticus 14:34",
+      "has_variant": true,
+      "significance": "moderate",
+      "mt_reading": "כִּי תָבֹאוּ אֶל־אֶרֶץ כְּנַעַן",
+      "sp_reading": "כי תבאו אל ארץ כנען",
+      "mt_rendering": "When you come to the land of Canaan",
+      "sp_rendering": "When you come to the land of Canaan",
+      "notes": ["House-mold legislation agrees between MT and SP. The 'land of Canaan' designation is shared by both traditions."]
+    },
+    {
+      "reference": "Leviticus 17:4",
+      "has_variant": true,
+      "significance": "moderate",
+      "mt_reading": "אֶל־פֶּתַח אֹהֶל מוֹעֵד",
+      "sp_reading": "אל פתח אהל מועד",
+      "mt_rendering": "to the entrance of the tent of meeting",
+      "sp_rendering": "to the entrance of the tent of meeting",
+      "notes": ["The centralization of slaughter at the tent of meeting agrees in both traditions. SP reads the tent of meeting as located at Gerizim (after the conquest), but the Leviticus text itself is identical."]
+    },
+    {
+      "reference": "Leviticus 18:21",
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "וְלֹא תְחַלֵּל אֶת־שֵׁם אֱלֹהֶיךָ",
+      "sp_reading": "ולא תחלל את שם אלהיך",
+      "mt_rendering": "and do not profane the name of your God",
+      "sp_rendering": "and do not profane the name of your God",
+      "notes": ["The Molech prohibition is identical in MT and SP."]
+    },
+    {
+      "reference": "Leviticus 19:18",
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "וְאָהַבְתָּ לְרֵעֲךָ כָּמוֹךָ",
+      "sp_reading": "ואהבת לרעך כמוך",
+      "mt_rendering": "And you shall love your neighbor as yourself",
+      "sp_rendering": "And you shall love your neighbor as yourself",
+      "notes": ["The love command is identical. Samaritan ethics embraces this command, though 'neighbor' is understood within the Samaritan community context."]
+    },
+    {
+      "reference": "Leviticus 23:11",
+      "has_variant": true,
+      "significance": "moderate",
+      "mt_reading": "מִמָּחֳרַת הַשַּׁבָּת",
+      "sp_reading": "ממחרת השבת",
+      "mt_rendering": "on the day after the Sabbath",
+      "sp_rendering": "on the day after the Sabbath",
+      "notes": ["The omer-waving date formula is identical. However, Samaritan and Jewish calendrical interpretation differs: Samaritans always count from the literal Sabbath (Saturday) during Passover week, meaning Shavuot always falls on a Sunday. Rabbinic tradition understands 'Sabbath' as the first day of Passover."]
+    },
+    {
+      "reference": "Leviticus 23:40",
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "וּלְקַחְתֶּם לָכֶם ... פְּרִי עֵץ הָדָר כַּפֹּת תְּמָרִים",
+      "sp_reading": "ולקחתם לכם ... פרי עץ הדר כפת תמרים",
+      "mt_rendering": "And you shall take for yourselves ... fruit of a goodly tree, branches of palms",
+      "sp_rendering": "And you shall take for yourselves ... fruit of a goodly tree, branches of palms",
+      "notes": ["Sukkot legislation agrees. The four species are the same in both traditions."]
+    },
+    {
+      "reference": "Leviticus 25:10",
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "וּקְרָאתֶם דְּרוֹר בָּאָרֶץ",
+      "sp_reading": "וקראתם דרור בארץ",
+      "mt_rendering": "And you shall proclaim liberty throughout the land",
+      "sp_rendering": "And you shall proclaim liberty throughout the land",
+      "notes": ["The Jubilee legislation is identical in MT and SP. No variants of significance."]
+    },
+    {
+      "reference": "Leviticus 26:13",
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "אֲנִי יְהוָה אֱלֹהֵיכֶם",
+      "sp_reading": "אנכי יהוה אלהיכם",
+      "mt_rendering": "I am the LORD your God",
+      "sp_rendering": "I am the LORD your God",
+      "notes": ["SP reads אנכי (anokhi) where MT reads אני (ani) for 'I.' This is a characteristic SP preference throughout the Pentateuch — SP tends to use the longer, more archaic form."]
+    },
+    {
+      "reference": "Leviticus 26:46",
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "בְּהַר סִינַי",
+      "sp_reading": "בהר סיני",
+      "mt_rendering": "at Mount Sinai",
+      "sp_rendering": "at Mount Sinai",
+      "notes": ["SP agrees with MT on the Sinai location. Samaritan tradition does not contest the Sinai revelation but insists that the subsequent chosen place is Gerizim, not Jerusalem."]
+    }
+  ]
+}

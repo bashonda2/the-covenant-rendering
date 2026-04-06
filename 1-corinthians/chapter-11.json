@@ -1,0 +1,397 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "1 Corinthians",
+    "chapter": 11,
+    "source_text": "SBL Greek New Testament (SBLGNT)",
+    "reference_text": "KJV",
+    "generated_at": "2026-04-04T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Paul addresses two worship-related issues. First, he discusses head coverings during prayer and prophecy (vv. 2-16), arguing from creation, nature, and church practice that women should have a covering on their heads when praying or prophesying. Second, he rebukes the Corinthians' practice of the Lord's Supper (vv. 17-34), which has degenerated into a meal that reinforces social divisions — the wealthy eat and drink to excess while the poor go hungry. Paul recites the words of institution ('This is my body... this cup is the new covenant in my blood') and warns that eating and drinking without discerning the body brings judgment.",
+    "remarkable": "The Lord's Supper tradition (vv. 23-26) is the earliest written account of the institution, predating even the Gospels. Paul claims to have 'received from the Lord' this tradition, placing it in the chain of authoritative teaching. The phrase 'new covenant in my blood' (v. 25) explicitly connects Jesus's death to Jeremiah's new covenant prophecy (Jeremiah 31:31-34). The head covering passage assumes women are actively praying and prophesying in the assembly — Paul does not silence them but regulates how they participate.",
+    "friction": "The head covering passage (vv. 2-16) is among the most debated in Paul's letters. The Greek kephalē ('head') may mean 'authority over' or 'source/origin' — the choice dramatically affects interpretation. The word exousia ('authority') in verse 10 is also debated: is it the woman's own authority or a sign of being under authority? We render the Greek and note the options. The Lord's Supper section has fewer textual difficulties but raises profound theological questions about 'discerning the body' (v. 29).",
+    "connections": "The creation argument (vv. 7-9) draws on Genesis 1:26-27 and 2:18-23. The Lord's Supper words connect to Exodus 24:8 (blood of the covenant), Jeremiah 31:31-34 (new covenant), and the Synoptic institution narratives (Mark 14:22-25, Matthew 26:26-29, Luke 22:14-20). The warning about judgment (vv. 29-32) anticipates the final judgment themes of chapter 15."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_greek": "μιμηταί μου γίνεσθε καθὼς κἀγὼ Χριστοῦ.",
+      "text_kjv": "Be ye followers of me, even as I also am of Christ.",
+      "rendering": "Be imitators of me, as I am of Christ.",
+      "translator_notes": [
+        "This verse likely concludes the argument of chapter 10 (chapter divisions are later additions). Paul's call to imitation is now explicitly grounded: mimētai mou ginesthe kathōs kagō Christou ('imitate me as I imitate Christ'). The chain of imitation — Christ → Paul → Corinthians — prevents both hero worship (Paul is not the ultimate model) and autonomy (the Corinthians cannot claim to follow Christ while ignoring apostolic example)."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 2,
+      "text_greek": "Ἐπαινῶ δὲ ὑμᾶς ὅτι πάντα μου μέμνησθε καὶ καθὼς παρέδωκα ὑμῖν τὰς παραδόσεις κατέχετε.",
+      "text_kjv": "Now I praise you, brethren, that ye remember me in all things, and keep the ordinances, as I delivered them to you.",
+      "rendering": "Now I commend you because you remember me in everything and maintain the traditions just as I delivered them to you.",
+      "translator_notes": [
+        "The word paradoseis ('traditions, teachings handed down') is technical language for authoritative tradition passed from teacher to student. Paul praises their general faithfulness before addressing the specific problems. The verb paredōka ('I delivered, I handed over') will recur in verse 23 for the Lord's Supper tradition."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 3,
+      "text_greek": "θέλω δὲ ὑμᾶς εἰδέναι ὅτι παντὸς ἀνδρὸς ἡ κεφαλὴ ὁ Χριστός ἐστιν, κεφαλὴ δὲ γυναικὸς ὁ ἀνήρ, κεφαλὴ δὲ τοῦ Χριστοῦ ὁ θεός.",
+      "text_kjv": "But I would have you know, that the head of every man is Christ; and the head of the woman is the man; and the head of Christ is God.",
+      "rendering": "But I want you to understand that the head of every man is Christ, the head of a wife is her husband, and the head of Christ is God.",
+      "translator_notes": [
+        "The Greek kephalē ('head') is the crux of this passage. It can mean 'authority over' (as in most traditional readings) or 'source/origin' (as some scholars argue from its usage in Greek literature). The order — Christ/man, man/woman, God/Christ — is not hierarchical (God is mentioned last, not first) but likely traces the 'source' relationship. The Greek anēr can mean 'man' or 'husband,' and gynē can mean 'woman' or 'wife' — in this context about married couples at worship, 'husband' and 'wife' are likely."
+      ],
+      "key_terms": [
+        {
+          "greek": "κεφαλή",
+          "transliteration": "kephalē",
+          "rendered_as": "head",
+          "semantic_range": "head (physical), authority, source, origin, preeminence",
+          "note": "The metaphorical meaning is fiercely debated. 'Authority over' reflects traditional readings and some lexical evidence. 'Source/origin' reflects other Greek usage and fits the creation argument that follows (woman came from man as man came from God). Both meanings may be present."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 4,
+      "text_greek": "πᾶς ἀνὴρ προσευχόμενος ἢ προφητεύων κατὰ κεφαλῆς ἔχων καταισχύνει τὴν κεφαλὴν αὐτοῦ.",
+      "text_kjv": "Every man praying or prophesying, having his head covered, dishonoureth his head.",
+      "rendering": "Every man who prays or prophesies with his head covered dishonors his head.",
+      "translator_notes": [
+        "The phrase kata kephalēs echōn ('having [something] down from the head') likely refers to a cloth draped over the head. Roman men of high status sometimes covered their heads during religious rituals (capite velato), so Paul may be opposing a specific Roman practice rather than giving a universal rule. The double meaning of 'head' — the man's physical head and Christ as his metaphorical head — creates deliberate ambiguity."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 5,
+      "text_greek": "πᾶσα δὲ γυνὴ προσευχομένη ἢ προφητεύουσα ἀκατακαλύπτῳ τῇ κεφαλῇ καταισχύνει τὴν κεφαλὴν αὐτῆς· ἓν γάρ ἐστιν καὶ τὸ αὐτὸ τῇ ἐξυρημένῃ.",
+      "text_kjv": "But every woman that prayeth or prophesieth with her head uncovered dishonoureth her head: for that is even all one as if she were shaven.",
+      "rendering": "But every woman who prays or prophesies with her head uncovered dishonors her head, for it is the same as if her head were shaved.",
+      "translator_notes": [
+        "Crucially, Paul assumes women pray and prophesy in the assembly — the issue is not whether they participate but how. The word akatakalyptō ('uncovered, unveiled') describes the absence of a head covering. Paul equates an uncovered head with a shaved head (exurēmenē) — in the ancient world, a shaved female head was associated with shame, mourning, or the punishment of adulteresses."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 6,
+      "text_greek": "εἰ γὰρ οὐ κατακαλύπτεται γυνή, καὶ κειράσθω· εἰ δὲ αἰσχρὸν γυναικὶ τὸ κείρασθαι ἢ ξυρᾶσθαι, κατακαλυπτέσθω.",
+      "text_kjv": "For if the woman be not covered, let her also be shorn: but if it be a shame for a woman to be shorn or shaven, let her be covered.",
+      "rendering": "For if a woman will not cover her head, she should cut her hair short. But if it is disgraceful for a woman to cut off her hair or shave her head, let her cover her head.",
+      "translator_notes": [
+        "Paul uses a reductio ad absurdum: if being uncovered is acceptable, then so is being shorn (keirasthō) or shaved (xyrasthai). But since the Corinthians agree that a shaved/shorn woman is shameful (aischron), they should agree that covering is appropriate. The argument assumes shared cultural values about female appearance."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 7,
+      "text_greek": "ἀνὴρ μὲν γὰρ οὐκ ὀφείλει κατακαλύπτεσθαι τὴν κεφαλήν εἰκὼν καὶ δόξα θεοῦ ὑπάρχων· ἡ γυνὴ δὲ δόξα ἀνδρός ἐστιν.",
+      "text_kjv": "For a man indeed ought not to cover his head, forasmuch as he is the image and glory of God: but the woman is the glory of the man.",
+      "rendering": "A man ought not to cover his head, since he is the image and glory of God, but the woman is the glory of the man.",
+      "translator_notes": [
+        "Paul draws on Genesis 1:26-27. The statement that man is eikōn kai doxa theou ('image and glory of God') reflects Genesis 1:27. That woman is doxa andros ('glory of man') does not deny she bears God's image (Genesis 1:27 includes both male and female) but adds a relational dimension from the Genesis 2 narrative. The word doxa ('glory') here may mean 'that which reflects the glory of' — as the moon reflects the sun's light.",
+        "[TCR Cross-Reference] Draws on Genesis 1:26-27. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 8,
+      "text_greek": "οὐ γάρ ἐστιν ἀνὴρ ἐκ γυναικός ἀλλὰ γυνὴ ἐξ ἀνδρός·",
+      "text_kjv": "For the man is not of the woman; but the woman of the man.",
+      "rendering": "For man was not made from woman, but woman from man.",
+      "translator_notes": [
+        "Paul references Genesis 2:21-22 (woman created from man's rib/side). The preposition ek ('from, out of') emphasizes origin. Note that Paul will qualify this in verse 12: 'as woman came from man, so man comes through woman' — the dependency is mutual.",
+        "[TCR Cross-Reference] References Genesis 2:21-22 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 9,
+      "text_greek": "καὶ γὰρ οὐκ ἐκτίσθη ἀνὴρ διὰ τὴν γυναῖκα ἀλλὰ γυνὴ διὰ τὸν ἄνδρα.",
+      "text_kjv": "Neither was the man created for the woman; but the woman for the man.",
+      "rendering": "Neither was man created for the sake of woman, but woman for the sake of man.",
+      "translator_notes": [
+        "Paul references Genesis 2:18 ('It is not good for the man to be alone; I will make a helper suitable for him'). The phrase dia ton andra ('for the sake of the man') echoes the 'helper' (ezer) concept. In Hebrew, ezer does not imply subordination — God himself is called Israel's ezer (Psalm 33:20, 70:5).",
+        "[TCR Cross-Reference] Echoes Genesis 2:18. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale.",
+        "[TCR Cross-Reference] Echoes Psalm 33:20. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 10,
+      "text_greek": "διὰ τοῦτο ὀφείλει ἡ γυνὴ ἐξουσίαν ἔχειν ἐπὶ τῆς κεφαλῆς διὰ τοὺς ἀγγέλους.",
+      "text_kjv": "For this cause ought the woman to have power on her head because of the angels.",
+      "rendering": "For this reason a woman ought to have a symbol of authority on her head, because of the angels.",
+      "translator_notes": [
+        "This verse is notoriously difficult. The Greek exousian echein epi tēs kephalēs ('to have authority on the head') could mean: (1) a sign of being under authority (traditional reading, requiring 'symbol of' as an interpretive addition), (2) the woman's own authority to pray and prophesy (the covering as her authorization), or (3) authority over her own head (the right to decide about covering). The phrase dia tous angelous ('because of the angels') may reference angels as guardians of worship order, or the Genesis 6:1-4 tradition, or angelic presence in the assembly. The ambiguity is genuine.",
+        "[TCR Cross-Reference] This verse quotes Genesis 6:1-4 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 11,
+      "text_greek": "πλὴν οὔτε γυνὴ χωρὶς ἀνδρὸς οὔτε ἀνὴρ χωρὶς γυναικὸς ἐν κυρίῳ·",
+      "text_kjv": "Nevertheless neither is the man without the woman, neither the woman without the man, in the Lord.",
+      "rendering": "Nevertheless, in the Lord, woman is not independent of man, nor is man independent of woman.",
+      "translator_notes": [
+        "The qualifier en kyriō ('in the Lord') is crucial — whatever hierarchical or source-relationship Paul has established, it is mutual in Christ. The double negative oute...chōris...oute...chōris ('neither without...nor without') creates complete interdependence. This verse significantly qualifies verses 7-9."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 12,
+      "text_greek": "ὥσπερ γὰρ ἡ γυνὴ ἐκ τοῦ ἀνδρός, οὕτως καὶ ὁ ἀνὴρ διὰ τῆς γυναικός· τὰ δὲ πάντα ἐκ τοῦ θεοῦ.",
+      "text_kjv": "For as the woman is of the man, even so is the man also by the woman; but all things of God.",
+      "rendering": "For just as woman came from man, so man comes through woman. But all things come from God.",
+      "translator_notes": [
+        "Paul balances his earlier creation argument: if woman originated from man (Genesis 2), every man since has been born through (dia) a woman. The final clause ta de panta ek tou theou ('but all things are from God') places both sexes under divine sovereignty, preventing either from claiming ultimacy over the other.",
+        "[TCR Cross-Reference] Draws on Genesis 2. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 13,
+      "text_greek": "ἐν ὑμῖν αὐτοῖς κρίνατε· πρέπον ἐστὶν γυναῖκα ἀκατακάλυπτον τῷ θεῷ προσεύχεσθαι;",
+      "text_kjv": "Judge in yourselves: is it comely that a woman pray unto God uncovered?",
+      "rendering": "Judge for yourselves: is it proper for a woman to pray to God with her head uncovered?",
+      "translator_notes": [
+        "Paul appeals to the Corinthians' own sense of propriety (prepon, 'fitting, proper, appropriate'). This is an argument from cultural sensibility, not from divine command — a weaker form of argumentation that suggests Paul recognizes the cultural specificity of the practice."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 14,
+      "text_greek": "οὐδὲ ἡ φύσις αὐτὴ διδάσκει ὑμᾶς ὅτι ἀνὴρ μὲν ἐὰν κομᾷ ἀτιμία αὐτῷ ἐστιν,",
+      "text_kjv": "Doth not even nature itself teach you, that, if a man have long hair, it is a shame unto him?",
+      "rendering": "Does not nature itself teach you that if a man wears long hair, it is a disgrace to him,",
+      "translator_notes": [
+        "The appeal to physis ('nature') is an argument from what seems natural or customary. The claim that long hair on men is atimia ('disgrace, dishonor') reflects Greco-Roman cultural norms, not universal biology — many ancient Near Eastern men wore long hair (Nazirites, Spartans). Paul is arguing from cultural convention, which weakens the argument's universal applicability."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 15,
+      "text_greek": "γυνὴ δὲ ἐὰν κομᾷ δόξα αὐτῇ ἐστιν; ὅτι ἡ κόμη ἀντὶ περιβολαίου δέδοται αὐτῇ.",
+      "text_kjv": "But if a woman have long hair, it is a glory to her: for her hair is given her for a covering.",
+      "rendering": "However, if a lady possess long hair, it is a glory to her — for her hair is given her for a covering.",
+      "translator_notes": [
+        "The statement that long hair is given (dedotai, divine passive — given by God) as a peribolaion ('covering, wrap') creates a potential problem for Paul's argument: if long hair is a natural covering, why require an additional artificial covering? Some scholars argue Paul is saying long hair is the only covering needed; others that the natural covering teaches the principle of covering, which should be honored with an additional veil."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 16,
+      "text_greek": "Εἰ δέ τις δοκεῖ φιλόνεικος εἶναι, ἡμεῖς τοιαύτην συνήθειαν οὐκ ἔχομεν οὐδὲ αἱ ἐκκλησίαι τοῦ θεοῦ.",
+      "text_kjv": "But if any man seem to be contentious, we have no such custom, neither the churches of God.",
+      "rendering": "If anyone is inclined to be contentious, we have no such practice — nor do the churches of God.",
+      "translator_notes": [
+        "Paul's final argument is from church practice: hēmeis toiautēn synētheian ouk echomen ('we have no such custom'). The ambiguity is whether 'no such custom' means 'no custom of women being uncovered' or 'no custom of being contentious about it.' The appeal to universal church practice (hai ekklēsiai tou theou) serves as Paul's trump card when other arguments may not persuade."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 17,
+      "text_greek": "Τοῦτο δὲ παραγγέλλων οὐκ ἐπαινῶ ὅτι οὐκ εἰς τὸ κρεῖσσον ἀλλ' εἰς τὸ ἧσσον συνέρχεσθε.",
+      "text_kjv": "Now in this that I declare unto you I praise you not, that ye come together not for the better, but for the worse.",
+      "rendering": "But in the following instructions I do not commend you, because when you come together it is not for the better but for the worse.",
+      "translator_notes": [
+        "The shift from praise (v. 2, 'I commend you') to criticism (ouk epainō, 'I do not commend you') signals a more serious problem. The Corinthians' assemblies are actually making things worse (eis to hēsson) rather than better (eis to kreisson) — their worship is counter-productive."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 18,
+      "text_greek": "πρῶτον μὲν γὰρ συνερχομένων ὑμῶν ἐν ἐκκλησίᾳ ἀκούω σχίσματα ἐν ὑμῖν ὑπάρχειν καὶ μέρος τι πιστεύω.",
+      "text_kjv": "For first of all, when ye come together in the church, I hear that there be divisions among you; and I partly believe it.",
+      "rendering": "For, in the first place, when you come together as a church, I hear that there are divisions among you, and I believe it in part.",
+      "translator_notes": [
+        "The word schismata ('divisions') recurs from 1:10. The phrase meros ti pisteuō ('I partly believe') is diplomatically restrained — Paul does not dismiss the reports entirely but also does not accept every detail uncritically. The 'first of all' (prōton men) implies a list, but the second item is never explicitly stated (it may be the spiritual gifts discussion in chapters 12-14)."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 19,
+      "text_greek": "δεῖ γὰρ καὶ αἱρέσεις ἐν ὑμῖν εἶναι, ἵνα καὶ οἱ δόκιμοι φανεροὶ γένωνται ἐν ὑμῖν.",
+      "text_kjv": "For there must be also heresies among you, that they which are approved may be made manifest among you.",
+      "rendering": "Indeed, there must be factions among you, so that those who are genuine may be recognized among you.",
+      "translator_notes": [
+        "The word haireseis ('factions, parties, sects' — the origin of 'heresies') in this context means party divisions, not formal theological heresy. Paul's statement that factions 'must' (dei) exist is not endorsement but recognition of a divine purpose: divisions reveal who is dokimoi ('tested, approved, genuine'). The furnace of conflict refines character."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 20,
+      "text_greek": "Συνερχομένων οὖν ὑμῶν ἐπὶ τὸ αὐτὸ οὐκ ἔστιν κυριακὸν δεῖπνον φαγεῖν·",
+      "text_kjv": "When ye come together therefore into one place, this is not to eat the Lord's supper.",
+      "rendering": "When you come together, it is not the Lord's Supper that you eat.",
+      "translator_notes": [
+        "The phrase kyriakon deipnon ('the Lord's Supper') appears only here in the New Testament — Paul may have coined the term. The adjective kyriakos ('belonging to the Lord') marks this meal as distinct from ordinary dining. Paul's judgment is blunt: what they do when they gather is not the Lord's Supper at all. Their behavior has invalidated the meal."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 21,
+      "text_greek": "ἕκαστος γὰρ τὸ ἴδιον δεῖπνον προλαμβάνει ἐν τῷ φαγεῖν, καὶ ὃς μὲν πεινᾷ ὃς δὲ μεθύει.",
+      "text_kjv": "For in eating every one taketh before other his own supper: and one is hungry, and another is drunken.",
+      "rendering": "For when the time comes to eat, each one goes ahead with his own meal. One goes hungry while another gets drunk.",
+      "translator_notes": [
+        "The verb prolambanei ('takes beforehand, goes ahead with') indicates that wealthier members, who could arrive earlier and bring better food, were eating before the poorer members arrived (slaves and laborers who could not leave work early). The result: hos men peina hos de methyei ('one hungers, another is drunk'). The Lord's Supper, which was supposed to enact equality in Christ, was instead reinforcing Corinthian social stratification."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 22,
+      "text_greek": "μὴ γὰρ οἰκίας οὐκ ἔχετε εἰς τὸ ἐσθίειν καὶ πίνειν; ἢ τῆς ἐκκλησίας τοῦ θεοῦ καταφρονεῖτε καὶ καταισχύνετε τοὺς μὴ ἔχοντας; τί εἴπω ὑμῖν; ἐπαινέσω ὑμᾶς; ἐν τούτῳ οὐκ ἐπαινῶ.",
+      "text_kjv": "What? have ye not houses to eat and to drink in? or despise ye the church of God, and shame them that have not? What shall I say to you? shall I praise you in this? I praise you not.",
+      "rendering": "Do you not have houses to eat and drink in? Or do you despise the church of God and humiliate those who have nothing? What should I say to you? Should I commend you in this? I will not commend you.",
+      "translator_notes": [
+        "Paul's indignation builds through four questions. The key accusation: kataphhroneite tēs ekklēsias tou theou ('you despise the church of God') and kataischynete tous mē echontas ('you humiliate those who do not have'). The 'have-nots' (tous mē echontas) are poor members who arrive with little or no food. The wealthy are not merely eating their own food but humiliating the poor by creating a two-tier meal that mirrors the social hierarchy the gospel was supposed to dissolve."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 23,
+      "text_greek": "ἐγὼ γὰρ παρέλαβον ἀπὸ τοῦ κυρίου, ὃ καὶ παρέδωκα ὑμῖν, ὅτι ὁ κύριος Ἰησοῦς ἐν τῇ νυκτὶ ᾗ παρεδίδετο ἔλαβεν ἄρτον",
+      "text_kjv": "For I have received of the Lord that which also I delivered unto you, That the Lord Jesus the same night in which he was betrayed took bread:",
+      "rendering": "For I received from the Lord what I also delivered to you, that the Lord Jesus, on the night he was betrayed, took bread,",
+      "translator_notes": [
+        "The technical language parelabon...paredōka ('I received...I delivered') is the standard terminology for transmitting authoritative tradition in both Jewish and early Christian circles. Paul claims to have received this tradition apo tou kyriou ('from the Lord') — whether through a direct revelation or through a chain of tradition originating from Jesus is debated. The phrase en tē nykti hē paredideto ('on the night he was being handed over/betrayed') uses paredideto, which can mean 'betrayed' (by Judas) or 'handed over' (by God — cf. Romans 8:32). The ambiguity may be intentional."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 24,
+      "text_greek": "καὶ εὐχαριστήσας ἔκλασεν καὶ εἶπεν· τοῦτό μού ἐστιν τὸ σῶμα τὸ ὑπὲρ ὑμῶν· τοῦτο ποιεῖτε εἰς τὴν ἐμὴν ἀνάμνησιν.",
+      "text_kjv": "And when he had given thanks, he brake it, and said, Take, eat: this is my body, which is broken for you: this do in remembrance of me.",
+      "rendering": "Indeed, following he had given thanks, he brake it, and stated, Take, eat — this is my body, which is broken for you: this do in remembrance of me.",
+      "translator_notes": [
+        "The verb eucharistēsas ('having given thanks') is the origin of 'Eucharist.' The words touto mou estin to sōma to hyper hymōn ('this is my body which is for you') are among the most debated in Christian history — 'is' (estin) has been interpreted as literal identity, symbolic representation, spiritual presence, and more. The SBLGNT does not include 'broken' (klōmenon), which appears in later manuscripts. The command touto poieite ('do this') establishes the meal as a repeated practice, not a one-time event. The word anamnēsis ('remembrance') is more than mere memory — in Jewish Passover theology, it means making the past event present and effective."
+      ],
+      "key_terms": [
+        {
+          "greek": "ἀνάμνησις",
+          "transliteration": "anamnēsis",
+          "rendered_as": "remembrance",
+          "semantic_range": "remembrance, memorial, recollection, re-presentation",
+          "note": "More than cognitive recall. In the Passover context, anamnēsis means actively re-presenting the saving event so that participants share in its reality. 'Do this in remembrance of me' means more than 'think about me while you eat.'"
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 25,
+      "text_greek": "ὡσαύτως καὶ τὸ ποτήριον μετὰ τὸ δειπνῆσαι λέγων· τοῦτο τὸ ποτήριον ἡ καινὴ διαθήκη ἐστὶν ἐν τῷ ἐμῷ αἵματι· τοῦτο ποιεῖτε, ὁσάκις ἐὰν πίνητε, εἰς τὴν ἐμὴν ἀνάμνησιν.",
+      "text_kjv": "After the same manner also he took the cup, when he had supped, saying, This cup is the new testament in my blood: this do ye, as oft as ye drink it, in remembrance of me.",
+      "rendering": "In the same way he also took the cup, after supper, saying, \"This cup is the new covenant in my blood. Do this, as often as you drink it, in remembrance of me.\"",
+      "expanded_rendering": "The 'new covenant' language is loaded with Old Testament significance. In Jeremiah 31:31-34, God promised a covenant unlike the one Israel broke — a covenant written on hearts, not stone, in which all would know the LORD and sins would be forgiven. Jesus declares that this long-awaited covenant is now being inaugurated through his blood. Every celebration of the Lord's Supper is a renewal of participation in this new covenant reality.",
+      "translator_notes": [
+        "The phrase meta to deipnēsai ('after supper') indicates the cup came after the meal, not during it — the original context was a full Passover meal. The declaration touto to potērion hē kainē diathēkē estin en tō emō haimati ('this cup is the new covenant in my blood') explicitly invokes Jeremiah 31:31-34, where God promises a new covenant to replace the Sinai covenant. Jesus's blood is the ratifying sacrifice of this new covenant, just as the blood of Exodus 24:8 ratified the old.",
+        "[TCR Cross-Reference] This verse quotes Jeremiah 31:31-34 — see the TCR rendering of that passage for the Hebrew source text and translation decisions.",
+        "[TCR Cross-Reference] This verse quotes Exodus 24:8 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "key_terms": [
+        {
+          "greek": "διαθήκη",
+          "transliteration": "diathēkē",
+          "rendered_as": "covenant",
+          "semantic_range": "covenant, testament, will, agreement",
+          "note": "The Greek word that translates the Hebrew berit throughout the Septuagint. In Koine Greek it could also mean 'last will and testament,' but here the covenantal meaning is primary, as the Jeremiah 31 allusion makes clear."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 26,
+      "text_greek": "ὁσάκις γὰρ ἐὰν ἐσθίητε τὸν ἄρτον τοῦτον καὶ τὸ ποτήριον πίνητε, τὸν θάνατον τοῦ κυρίου καταγγέλλετε ἄχρι οὗ ἔλθῃ.",
+      "text_kjv": "For as often as ye eat this bread, and drink this cup, ye do shew the Lord's death till he come.",
+      "rendering": "For as often as you eat this bread and drink this cup, you proclaim the Lord's death until he comes.",
+      "translator_notes": [
+        "Paul adds his own interpretive comment to the tradition. The verb katangallete ('you proclaim, you announce publicly') means the Lord's Supper is a proclamation — every celebration is a sermon in action. The temporal marker achri hou elthē ('until he comes') gives the meal an eschatological horizon: it looks backward to the cross and forward to the return. The meal exists in the tension between 'already' (Christ has died) and 'not yet' (Christ has not yet returned)."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 27,
+      "text_greek": "ὥστε ὃς ἂν ἐσθίῃ τὸν ἄρτον ἢ πίνῃ τὸ ποτήριον τοῦ κυρίου ἀναξίως, ἔνοχος ἔσται τοῦ σώματος καὶ τοῦ αἵματος τοῦ κυρίου.",
+      "text_kjv": "Wherefore whosoever shall eat this bread, and drink this cup of the Lord, unworthily, shall be guilty of the body and blood of the Lord.",
+      "rendering": "Therefore, whoever eats the bread or drinks the cup of the Lord in an unworthy manner will be guilty of sinning against the body and blood of the Lord.",
+      "translator_notes": [
+        "The adverb anaxiōs ('unworthily, in an unworthy manner') modifies the manner of eating, not the worthiness of the eater. In context, 'unworthily' means eating in a way that perpetuates social divisions (vv. 21-22). The word enochos ('guilty, liable, answerable for') is a legal term — eating without regard for others makes one liable for the very body and blood the meal commemorates."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 28,
+      "text_greek": "δοκιμαζέτω δὲ ἄνθρωπος ἑαυτόν καὶ οὕτως ἐκ τοῦ ἄρτου ἐσθιέτω καὶ ἐκ τοῦ ποτηρίου πινέτω·",
+      "text_kjv": "But let a man examine himself, and so let him eat of that bread, and drink of that cup.",
+      "rendering": "Let a person examine himself, and then eat of the bread and drink of the cup.",
+      "translator_notes": [
+        "The verb dokimazatō ('let him test, let him examine') is from the metallurgical testing vocabulary — test yourself as you would test metal for quality. The self-examination is not a general inventory of sins but specifically: am I participating in a way that honors the body of Christ (both the crucified body and the community)?"
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 29,
+      "text_greek": "ὁ γὰρ ἐσθίων καὶ πίνων κρίμα ἑαυτῷ ἐσθίει καὶ πίνει μὴ διακρίνων τὸ σῶμα.",
+      "text_kjv": "For he that eateth and drinketh unworthily, eateth and drinketh damnation to himself, not discerning the Lord's body.",
+      "rendering": "For the one who eats and drinks without discerning the body eats and drinks judgment on himself.",
+      "translator_notes": [
+        "The phrase mē diakrinōn to sōma ('not discerning the body') is ambiguous: 'the body' could mean Christ's body in the bread, the church as Christ's body, or both. Given the context of social divisions at the meal, 'the body' most likely refers to the community — failing to recognize the gathered church as Christ's body leads to judgment. The SBLGNT does not include 'unworthily' or 'of the Lord' in this verse, following the earliest manuscripts."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 30,
+      "text_greek": "διὰ τοῦτο ἐν ὑμῖν πολλοὶ ἀσθενεῖς καὶ ἄρρωστοι καὶ κοιμῶνται ἱκανοί.",
+      "text_kjv": "For this cause many are weak and sickly among you, and many sleep.",
+      "rendering": "That is why many of you are weak and ill, and some have died.",
+      "translator_notes": [
+        "Paul attributes actual physical illness and death in the Corinthian community to their abuse of the Lord's Supper. The verb koimōntai ('sleep') is the Christian euphemism for death (cf. 7:39; 15:6, 18, 20, 51). Whether Paul means divine punishment, natural consequences of social dysfunction, or a spiritual-physical connection is debated, but the severity of the statement is unmistakable."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 31,
+      "text_greek": "εἰ δὲ ἑαυτοὺς διεκρίνομεν, οὐκ ἂν ἐκρινόμεθα·",
+      "text_kjv": "For if we would judge ourselves, we should not be judged.",
+      "rendering": "But if we judged ourselves properly, we would not be judged.",
+      "translator_notes": [
+        "The wordplay between diekrinomen ('we were judging/discerning ourselves') and ekrinometha ('we would be judged') connects back to verse 29's diakrinōn ('discerning'). Self-examination prevents divine judgment — the discipline is restorative, not retributive."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 32,
+      "text_greek": "κρινόμενοι δὲ ὑπὸ τοῦ κυρίου παιδευόμεθα, ἵνα μὴ σὺν τῷ κόσμῳ κατακριθῶμεν.",
+      "text_kjv": "But when we are judged, we are chastened of the Lord, that we should not be condemned with the world.",
+      "rendering": "But when we are judged by the Lord, we are being disciplined so that we may not be condemned along with the world.",
+      "translator_notes": [
+        "The verb paideuometha ('we are disciplined, educated, trained') uses the vocabulary of parental correction — God's judgment on the community is disciplinary (corrective) not condemnatory (destructive). The purpose clause hina mē syn tō kosmō katakrithōmen ('so that we may not be condemned with the world') distinguishes between divine discipline within the family and final condemnation."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 33,
+      "text_greek": "ὥστε, ἀδελφοί μου, συνερχόμενοι εἰς τὸ φαγεῖν ἀλλήλους ἐκδέχεσθε.",
+      "text_kjv": "Wherefore, my brethren, when ye come together to eat, tarry one for another.",
+      "rendering": "So then, my brothers and sisters, when you come together to eat, wait for one another.",
+      "translator_notes": [
+        "The practical solution is remarkably simple: allēlous ekdechesthe ('wait for one another'). The entire problem — rich eating before poor arrive, social stratification at the Lord's table — is solved by the basic act of waiting. The verb ekdechesthe means 'welcome, receive, wait for' — it implies hospitality, not mere delay."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 34,
+      "text_greek": "εἴ τις πεινᾷ, ἐν οἴκῳ ἐσθιέτω, ἵνα μὴ εἰς κρίμα συνέρχησθε. τὰ δὲ λοιπὰ ὡς ἂν ἔλθω διατάξομαι.",
+      "text_kjv": "And if any man hunger, let him eat at home; that ye come not together unto condemnation. And the rest will I set in order when I come.",
+      "rendering": "If anyone is hungry, let him eat at home, so that when you come together it will not be for judgment. The other matters I will address when I come.",
+      "translator_notes": [
+        "Paul's second practical instruction: if you cannot wait, eat at home (en oikō esthietō). The purpose clause hina mē eis krima synerchēsthe ('so that you may not come together for judgment') reframes their gatherings as potentially judicial events — assemblies that should bring blessing can instead bring krima ('judgment'). The closing phrase ta de loipa ('the remaining matters') indicates Paul has more to say but will handle it in person."
+      ],
+      "reading_level": "7th grade"
+    }
+  ]
+}

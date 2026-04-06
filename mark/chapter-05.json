@@ -1,0 +1,463 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Mark",
+    "chapter": 5,
+    "source_text": "SBL Greek New Testament (SBLGNT)",
+    "reference_text": "KJV",
+    "generated_at": "2026-04-04T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Mark 5 presents three powerful miracle stories that demonstrate Jesus's authority over the most extreme forms of human suffering. First, Jesus crosses to the eastern (Gentile) shore and encounters a man possessed by a legion of demons living among the tombs, whom he delivers in a dramatic exorcism involving a herd of pigs. Returning to the western shore, Jesus is approached by Jairus, a synagogue leader whose daughter is dying. On the way, a woman who has suffered from bleeding for twelve years touches Jesus's garment and is healed. Jesus then raises Jairus's daughter from death. The three stories form a crescendo: power over demons, power over chronic illness, and power over death itself.",
+    "remarkable": "Mark's intercalation technique is on full display — the story of Jairus's daughter is 'sandwiched' around the hemorrhaging woman's story, each enriching the other. Both feature the number twelve (the woman's twelve years of illness, the girl's age of twelve). Both involve ritual impurity — bleeding and death. Both require faith. The Gerasene demoniac is Mark's most detailed miracle account, with vivid narrative elements that suggest eyewitness memory. The healed demoniac becomes the first commissioned evangelist in Mark — and a Gentile one at that.",
+    "friction": "The location of the Gerasene miracle is textually uncertain — manuscripts read 'Gerasenes,' 'Gadarenes,' or 'Gergesenes.' Gerasa is 30 miles from the lake, Gadara is 6 miles away, and Gergesa (modern Kursi) is on the shore. We follow the SBLGNT reading 'Gerasenes.' The drowning of the pigs raises ethical questions we do not resolve — we render the text faithfully. The Greek talitha koum in verse 41 is Aramaic preserved in the Greek text.",
+    "connections": "The Gerasene setting evokes the unclean lands of the nations. The legion of demons uses Roman military terminology — Mark's audience in Rome would not miss the irony. The hemorrhaging woman's healing connects to Levitical purity laws (Leviticus 15:25-30). Jairus's daughter anticipates Jesus's own resurrection. The command to silence in verse 43 contrasts with the command to proclaim in verse 19."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_greek": "Καὶ ἦλθον εἰς τὸ πέραν τῆς θαλάσσης εἰς τὴν χώραν τῶν Γερασηνῶν.",
+      "text_kjv": "And they came over unto the other side of the sea, into the country of the Gadarenes.",
+      "rendering": "They came to the other side of the sea, to the region of the Gerasenes.",
+      "translator_notes": [
+        "The SBLGNT reads Gerasēnōn ('Gerasenes') rather than the KJV's 'Gadarenes.' The 'other side' (to peran) is the eastern shore of the Sea of Galilee — predominantly Gentile territory, as the presence of a pig herd will confirm. Jesus is crossing from Jewish to Gentile space, a significant boundary in Mark's narrative geography."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 2,
+      "text_greek": "καὶ ἐξελθόντος αὐτοῦ ἐκ τοῦ πλοίου εὐθὺς ὑπήντησεν αὐτῷ ἐκ τῶν μνημείων ἄνθρωπος ἐν πνεύματι ἀκαθάρτῳ,",
+      "text_kjv": "And when he was come out of the ship, immediately there met him out of the tombs a man with an unclean spirit,",
+      "rendering": "As soon as he got out of the boat, immediately a man from the tombs with an unclean spirit met him.",
+      "translator_notes": [
+        "The word euthys ('immediately') marks the instant confrontation — Jesus barely steps ashore before encountering the demoniac. The man comes 'from the tombs' (ek tōn mnēmeiōn), his dwelling place among the dead. Every detail accumulates uncleanness: Gentile territory, tombs, an unclean spirit. Jesus enters the most impure space imaginable."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 3,
+      "text_greek": "ὃς τὴν κατοίκησιν εἶχεν ἐν τοῖς μνήμασιν, καὶ οὐδὲ ἁλύσει οὐκέτι οὐδεὶς ἐδύνατο αὐτὸν δῆσαι,",
+      "text_kjv": "Who had his dwelling among the tombs; and no man could bind him, no, not with chains:",
+      "rendering": "He lived among the tombs, and no one could restrain him any longer, not even with a chain.",
+      "translator_notes": [
+        "The triple negative (oude... ouketi... oudeis, 'not even... no longer... no one') emphasizes the absolute impossibility of human control over this man. The verb dēsai ('bind, tie up') echoes the 'binding the strong man' language of 3:27 — no one can bind this man because the strong man (Satan) controls him. Only the one who has already bound the strong man can free his captive."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 4,
+      "text_greek": "διὰ τὸ αὐτὸν πολλάκις πέδαις καὶ ἁλύσεσιν δεδέσθαι καὶ διεσπάσθαι ὑπ' αὐτοῦ τὰς ἁλύσεις καὶ τὰς πέδας συντετρῖφθαι, καὶ οὐδεὶς ἴσχυεν αὐτὸν δαμάσαι·",
+      "text_kjv": "Because that he had been often bound with fetters and chains, and the chains had been plucked asunder by him, and the fetters broken in pieces: neither could any man tame him.",
+      "rendering": "For he had often been bound with shackles and chains, but he tore the chains apart and smashed the shackles, and no one had the strength to subdue him.",
+      "translator_notes": [
+        "The distinction between pedais ('shackles' for the feet) and halysesin ('chains' for the hands/body) indicates repeated, thorough attempts at physical restraint. The verbs diespatsthai ('tore apart') and syntetriphthai ('crushed, smashed to pieces') convey superhuman strength. The verb damasai ('tame, subdue') is used for taming wild animals — the community has tried to treat this man as a beast. The perfect tenses indicate a history of failed attempts."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 5,
+      "text_greek": "καὶ διὰ παντὸς νυκτὸς καὶ ἡμέρας ἐν τοῖς μνήμασιν καὶ ἐν τοῖς ὄρεσιν ἦν κράζων καὶ κατακόπτων ἑαυτὸν λίθοις.",
+      "text_kjv": "And always, night and day, he was in the mountains, and in the tombs, crying, and cutting himself with stones.",
+      "rendering": "Night and day among the tombs and on the mountains, he was always crying out and cutting himself with stones.",
+      "translator_notes": [
+        "The description is harrowing: constant screaming (krazōn) and self-mutilation (katakoptōn heauton lithois, 'cutting himself down with stones'). The phrase dia pantos ('continually, always') with nyktos kai hēmeras ('night and day') portrays unceasing torment. The man oscillates between tombs (death) and mountains (isolation), with no rest and no human community. Mark paints the most extreme portrait of demonic oppression in the Gospels."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 6,
+      "text_greek": "καὶ ἰδὼν τὸν Ἰησοῦν ἀπὸ μακρόθεν ἔδραμεν καὶ προσεκύνησεν αὐτῷ,",
+      "text_kjv": "But when he saw Jesus afar off, he ran and worshipped him,",
+      "rendering": "When he saw Jesus from a distance, he ran and fell down before him.",
+      "translator_notes": [
+        "The verb prosekunēsen ('fell down before, prostrated himself, worshipped') can mean either worship or obeisance. Given the demonic context, this is likely involuntary submission to Jesus's authority rather than genuine worship. The man runs toward Jesus — not away. Despite the demons' hostility, something in the man is drawn to Jesus as his only hope."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 7,
+      "text_greek": "καὶ κράξας φωνῇ μεγάλῃ λέγει· τί ἐμοὶ καὶ σοί, Ἰησοῦ υἱὲ τοῦ θεοῦ τοῦ ὑψίστου; ὁρκίζω σε τὸν θεόν, μή με βασανίσῃς.",
+      "text_kjv": "And cried with a loud voice, and said, What have I to do with thee, Jesus, thou Son of the most high God? I adjure thee by God, that thou torment me not.",
+      "rendering": "Crying out with a loud voice, he said, \"What do you want with me, Jesus, Son of the Most High God? I implore you by God, do not torment me!\"",
+      "translator_notes": [
+        "The demon uses the same defensive formula as in 1:24 — ti emoi kai soi ('what to me and to you?'). The title 'Son of the Most High God' (huie tou theou tou hypsistou) uses the Gentile designation for Israel's God (cf. Genesis 14:18-22), appropriate for the Gentile setting. The irony is profound: the demon adjures Jesus by God (horkizō se ton theon) — attempting to use divine authority against the divine Son. The verb basanisēs ('torment') refers to eschatological punishment — the demon fears Jesus has come to execute final judgment ahead of schedule.",
+        "[TCR Cross-Reference] Draws on Genesis 14:18-22. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 8,
+      "text_greek": "ἔλεγεν γὰρ αὐτῷ· ἔξελθε τὸ πνεῦμα τὸ ἀκάθαρτον ἐκ τοῦ ἀνθρώπου.",
+      "text_kjv": "For he said unto him, Come out of the man, thou unclean spirit.",
+      "rendering": "For Jesus had been saying to him, \"Come out of the man, you unclean spirit!\"",
+      "translator_notes": [
+        "The imperfect elegen ('he was saying, had been saying') indicates that Jesus had already begun commanding the spirit before the exchange in verse 7. The demon's plea in verse 7 is a response to Jesus's initial exorcism command. Mark presents the encounter as a struggle, albeit one whose outcome is never in doubt."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 9,
+      "text_greek": "καὶ ἐπηρώτα αὐτόν· τί ὄνομά σοι; καὶ λέγει αὐτῷ· λεγιὼν ὄνομά μοι, ὅτι πολλοί ἐσμεν.",
+      "text_kjv": "And he asked him, What is thy name? And he answered, saying, My name is Legion: for we are many.",
+      "rendering": "Jesus asked him, \"What is your name?\" He replied, \"My name is Legion, for we are many.\"",
+      "translator_notes": [
+        "In ancient practice, knowing a spirit's name gave power over it. Jesus's question asserts authority. The answer legiōn is a Latin loanword — a Roman legion numbered approximately 5,000-6,000 soldiers. The name evokes both the overwhelming number of demons and, for Mark's Roman audience, the occupying military force. The shift between singular ('my name') and plural ('we are many') reflects the blurred identity of the possessed man and the possessing spirits."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 10,
+      "text_greek": "καὶ παρεκάλει αὐτὸν πολλὰ ἵνα μὴ αὐτὰ ἀποστείλῃ ἔξω τῆς χώρας.",
+      "text_kjv": "And he besought him much that he would not send them away out of the country.",
+      "rendering": "He begged him earnestly not to send them out of the region.",
+      "translator_notes": [
+        "The imperfect parekalei ('kept begging') indicates persistent pleading. The demons' request not to be sent 'out of the region' (exō tēs chōras) is puzzling — perhaps they fear being sent to the abyss (cf. Luke 8:31) or prefer to remain in familiar territory. Their desperation and subservience to Jesus's authority is clear: they negotiate from a position of total weakness."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 11,
+      "text_greek": "ἦν δὲ ἐκεῖ πρὸς τῷ ὄρει ἀγέλη χοίρων μεγάλη βοσκομένη·",
+      "text_kjv": "Now there was there nigh unto the mountains a great herd of swine feeding.",
+      "rendering": "Now a large herd of pigs was feeding there on the hillside.",
+      "translator_notes": [
+        "The presence of pigs confirms the Gentile setting — pigs were unclean animals under Jewish law (Leviticus 11:7) and would not be raised in Jewish territory. The word agelē ('herd') is typically used for cattle; its use for pigs may reflect the unusually large number. The hillside (pros tō orei) near the sea sets up the dramatic plunge of verse 13.",
+        "[TCR Cross-Reference] Quotes Leviticus 11:7. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 12,
+      "text_greek": "καὶ παρεκάλεσαν αὐτὸν λέγοντες· πέμψον ἡμᾶς εἰς τοὺς χοίρους, ἵνα εἰς αὐτοὺς εἰσέλθωμεν.",
+      "text_kjv": "And all the devils besought him, saying, Send us into the swine, that we may enter into them.",
+      "rendering": "The demons begged him, \"Send us into the pigs; let us enter them.\"",
+      "translator_notes": [
+        "The demons' request to enter the pigs rather than be cast into the abyss reveals their desperate desire to remain embodied and in the earthly realm. Their need to ask Jesus's permission demonstrates his absolute authority — they cannot act without his consent."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 13,
+      "text_greek": "καὶ ἐπέτρεψεν αὐτοῖς. καὶ ἐξελθόντα τὰ πνεύματα τὰ ἀκάθαρτα εἰσῆλθον εἰς τοὺς χοίρους, καὶ ὥρμησεν ἡ ἀγέλη κατὰ τοῦ κρημνοῦ εἰς τὴν θάλασσαν, ὡς δισχίλιοι, καὶ ἐπνίγοντο ἐν τῇ θαλάσσῃ.",
+      "text_kjv": "And forthwith Jesus gave them leave. And the unclean spirits went out, and entered into the swine: and the herd ran violently down a steep place into the sea, (they were about two thousand;) and were choked in the sea.",
+      "rendering": "He gave them permission. The unclean spirits came out and entered the pigs, and the herd — about two thousand — stampeded down the steep bank into the sea and drowned in the sea.",
+      "translator_notes": [
+        "The number 'about two thousand' (hōs dischilioi) reinforces the name 'Legion' and the scale of the oppression. The verb hōrmēsen ('rushed, stampeded') describes a headlong, uncontrollable charge. The verb epnigonto ('were drowning, suffocating') is imperfect, depicting the ongoing process. The sea, which in Jewish cosmology was associated with chaos and evil, swallows the unclean spirits along with the unclean animals — a symbolic victory over the forces of chaos."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 14,
+      "text_greek": "καὶ οἱ βόσκοντες αὐτοὺς ἔφυγον καὶ ἀπήγγειλαν εἰς τὴν πόλιν καὶ εἰς τοὺς ἀγρούς· καὶ ἦλθον ἰδεῖν τί ἐστιν τὸ γεγονός.",
+      "text_kjv": "And they that fed the swine fled, and told it in the city, and in the country. And they went out to see what it was that was done.",
+      "rendering": "Those tending the pigs fled and reported it in the town and in the countryside, and people came to see what had happened.",
+      "translator_notes": [
+        "The herdsmen's flight (ephygon, 'fled') reflects terror at the supernatural event. Their report spreads to both urban (polis) and rural (agrous) areas. The phrase ti estin to gegonos ('what is the thing that has happened') uses the perfect participle — the accomplished event with ongoing implications."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 15,
+      "text_greek": "καὶ ἔρχονται πρὸς τὸν Ἰησοῦν, καὶ θεωροῦσιν τὸν δαιμονιζόμενον καθήμενον ἱματισμένον καὶ σωφρονοῦντα, τὸν ἐσχηκότα τὸν λεγιῶνα, καὶ ἐφοβήθησαν.",
+      "text_kjv": "And they come to Jesus, and see him that was possessed with the devil, and had the legion, sitting, and clothed, and in his right mind: and they were afraid.",
+      "rendering": "They came to Jesus and saw the man who had been demon-possessed — the one who had had the legion — sitting there, clothed and in his right mind, and they were afraid.",
+      "translator_notes": [
+        "The transformation is described in three participles: kathēmenon ('sitting' — formerly restless), himatismenon ('clothed' — formerly naked, implied), and sōphronounta ('in his right mind' — formerly raving). The fear (ephobēthēsan) is not gratitude but dread — the power that could do this is as terrifying as the demoniac himself had been. The townspeople fear Jesus's power more than they appreciate the man's healing."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 16,
+      "text_greek": "καὶ διηγήσαντο αὐτοῖς οἱ ἰδόντες πῶς ἐγένετο τῷ δαιμονιζομένῳ καὶ περὶ τῶν χοίρων.",
+      "text_kjv": "And they that saw it told them how it befell to him that was possessed with the devil, and also concerning the swine.",
+      "rendering": "Those who had seen it described to them what had happened to the demon-possessed man and about the pigs.",
+      "translator_notes": [
+        "The eyewitnesses (hoi idontes, 'those who saw') provide a detailed account (diēgēsanto, 'narrated, described'). The dual focus — what happened to the man and what happened to the pigs — reflects the community's twin concerns: the miraculous healing and the economic loss."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 17,
+      "text_greek": "καὶ ἤρξαντο παρακαλεῖν αὐτὸν ἀπελθεῖν ἀπὸ τῶν ὁρίων αὐτῶν.",
+      "text_kjv": "And they began to pray him to depart out of their coasts.",
+      "rendering": "Then they began to beg him to leave their region.",
+      "translator_notes": [
+        "The verb parakalein ('to beg, urge, implore') is the same word the demons used in verse 10. The community asks Jesus to leave — they prefer the familiar misery of a demoniac to the disruptive power of the healer. The economic loss of two thousand pigs may also motivate their request. This is one of the rare occasions where Jesus is rejected by an entire community."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 18,
+      "text_greek": "καὶ ἐμβαίνοντος αὐτοῦ εἰς τὸ πλοῖον παρεκάλει αὐτὸν ὁ δαιμονισθεὶς ἵνα μετ' αὐτοῦ ᾖ.",
+      "text_kjv": "And when he was come into the ship, he that had been possessed with the devil prayed him that he might be with him.",
+      "rendering": "As Jesus was getting into the boat, the man who had been demon-possessed begged to go with him.",
+      "translator_notes": [
+        "The verb parakalei ('was begging') appears for the third time in this passage — the demons begged (v. 10, 12), the townspeople begged (v. 17), and now the healed man begs. His request 'to be with him' (hina met' autou ē) echoes the purpose of the Twelve's appointment in 3:14 — he wants to become a disciple. In contrast to the community's rejection, the healed man is drawn to Jesus."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 19,
+      "text_greek": "καὶ οὐκ ἀφῆκεν αὐτόν, ἀλλὰ λέγει αὐτῷ· ὕπαγε εἰς τὸν οἶκόν σου πρὸς τοὺς σοὺς καὶ ἀπάγγειλον αὐτοῖς ὅσα ὁ κύριός σοι πεποίηκεν καὶ ἠλέησέν σε.",
+      "text_kjv": "Howbeit Jesus suffered him not, but saith unto him, Go home to thy friends, and tell them how great things the Lord hath done for thee, and hath had compassion on thee.",
+      "rendering": "But Jesus did not permit him. Instead he said to him, \"Go home to your own people and report to them how much the Lord has done for you, and how he has had mercy on you.\"",
+      "translator_notes": [
+        "This is the only case in Mark where Jesus commands someone to proclaim rather than to keep silent. The messianic secret does not apply in Gentile territory, where there is no risk of politicized messianic misunderstanding. The phrase ho kyrios ('the Lord') could refer to God or to Jesus — the ambiguity may be intentional. The verb ēleēsen ('had mercy') attributes the healing to divine compassion."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 20,
+      "text_greek": "καὶ ἀπῆλθεν καὶ ἤρξατο κηρύσσειν ἐν τῇ Δεκαπόλει ὅσα ἐποίησεν αὐτῷ ὁ Ἰησοῦς, καὶ πάντες ἐθαύμαζον.",
+      "text_kjv": "And he departed, and began to publish in Decapolis how great things Jesus had done for him: and all men did marvel.",
+      "rendering": "He went away and began to proclaim in the Decapolis how much Jesus had done for him, and everyone was amazed.",
+      "translator_notes": [
+        "The man exceeds his commission — Jesus said to tell 'your own people' what 'the Lord' had done; the man proclaims throughout the entire Decapolis (a league of ten Greco-Roman cities) what 'Jesus' had done. He identifies Jesus as the Lord. The Decapolis was predominantly Gentile territory, making this man effectively the first Gentile missionary in Mark. The imperfect ethaumazon ('were amazed, kept marveling') indicates an ongoing response."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 21,
+      "text_greek": "Καὶ διαπεράσαντος τοῦ Ἰησοῦ ἐν τῷ πλοίῳ πάλιν εἰς τὸ πέραν συνήχθη ὄχλος πολὺς ἐπ' αὐτόν, καὶ ἦν παρὰ τὴν θάλασσαν.",
+      "text_kjv": "And when Jesus was passed over again by ship unto the other side, much people gathered unto him: and he was nigh unto the sea.",
+      "rendering": "When Jesus had crossed again in the boat to the other side, a large crowd gathered around him, and he was beside the sea.",
+      "translator_notes": [
+        "Jesus returns to the western (Jewish) shore. The recurring setting — 'beside the sea' (para tēn thalassan) — connects this to previous lakeside scenes. The crowd's immediate gathering indicates Jesus's continued popularity despite official opposition."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 22,
+      "text_greek": "καὶ ἔρχεται εἷς τῶν ἀρχισυναγώγων, ὀνόματι Ἰάϊρος, καὶ ἰδὼν αὐτὸν πίπτει πρὸς τοὺς πόδας αὐτοῦ",
+      "text_kjv": "And, behold, there cometh one of the rulers of the synagogue, Jairus by name; and when he saw him, he fell at his feet,",
+      "rendering": "One of the synagogue leaders, named Jairus, came, and when he saw Jesus, he fell at his feet",
+      "translator_notes": [
+        "The title archisunagōgos ('synagogue ruler/leader') denotes the person responsible for managing synagogue services and facilities — a position of considerable local prestige. That such a figure would prostrate himself publicly before an itinerant teacher indicates extreme desperation. The name Iairos is the Greek form of Hebrew Ya'ir ('he will enlighten/awaken'), which becomes poignant given the story's outcome."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 23,
+      "text_greek": "καὶ παρακαλεῖ αὐτὸν πολλὰ λέγων ὅτι τὸ θυγάτριόν μου ἐσχάτως ἔχει, ἵνα ἐλθὼν ἐπιθῇς τὰς χεῖρας αὐτῇ ἵνα σωθῇ καὶ ζήσῃ.",
+      "text_kjv": "And besought him greatly, saying, My little daughter lieth at the point of death: I pray thee, come and lay thy hands on her, that she may be healed; and she shall live.",
+      "rendering": "Besought him greatly and stated, My little daughter lieth at the point of death — I pray you, come and lay your hands on her, that she may be healed. Then she will live.",
+      "translator_notes": [
+        "The diminutive thygatrion ('little daughter') conveys parental tenderness. The phrase eschatōs echei ('is at the last, at extremity') indicates she is near death. The verb sōthē ('may be saved') carries both physical healing and theological salvation in its range — Mark often uses sōzō with this double sense. Jairus's faith is expressed in his confidence that Jesus's touch will heal."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 24,
+      "text_greek": "καὶ ἀπῆλθεν μετ' αὐτοῦ. Καὶ ἠκολούθει αὐτῷ ὄχλος πολύς, καὶ συνέθλιβον αὐτόν.",
+      "text_kjv": "And Jesus went with him; and much people followed him, and thronged him.",
+      "rendering": "So Jesus went with him, and a large crowd followed him and pressed in on him.",
+      "translator_notes": [
+        "The verb synethlilbon ('were pressing together against, crushing') recalls 3:9 where Jesus needed a boat to escape the crowd. The crushing crowd creates the condition for the next episode — the hemorrhaging woman can approach Jesus unnoticed because of the dense press of bodies."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 25,
+      "text_greek": "καὶ γυνὴ οὖσα ἐν ῥύσει αἵματος δώδεκα ἔτη",
+      "text_kjv": "And a certain woman, which had an issue of blood twelve years,",
+      "rendering": "A woman who had suffered from a flow of blood for twelve years,",
+      "translator_notes": [
+        "The phrase rhysis haimatos ('flow of blood') likely refers to chronic vaginal bleeding, which under Levitical law (Leviticus 15:25-30) rendered the woman perpetually ritually unclean and made anyone or anything she touched unclean as well. For twelve years she has been excluded from the temple, synagogue worship, and normal social contact. The twelve years will be paralleled by the twelve years of Jairus's daughter's life.",
+        "[TCR Cross-Reference] This verse quotes Leviticus 15:25-30 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 26,
+      "text_greek": "καὶ πολλὰ παθοῦσα ὑπὸ πολλῶν ἰατρῶν καὶ δαπανήσασα τὰ παρ' αὐτῆς πάντα καὶ μηδὲν ὠφεληθεῖσα ἀλλὰ μᾶλλον εἰς τὸ χεῖρον ἐλθοῦσα,",
+      "text_kjv": "And had suffered many things of many physicians, and had spent all that she had, and was nothing bettered, but rather grew worse,",
+      "rendering": "Had suffered numerous things of numerous physicians, and had spent all that she had, and was nothing bettered, but rather grew worse,.",
+      "translator_notes": [
+        "Mark's description is blunt about the medical profession: the woman suffered (pathousa, 'having endured much') under (hypo — from) the doctors, spent all her money (dapanēsasa ta par' autēs panta, 'having spent all that she had'), received no benefit (mēden ōphelētheisa), and actually deteriorated (eis to cheiron elthousa, 'having gone to the worse'). This frank assessment of ancient medicine is unique to Mark — Luke, the physician-evangelist, softens it considerably."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 27,
+      "text_greek": "ἀκούσασα περὶ τοῦ Ἰησοῦ, ἐλθοῦσα ἐν τῷ ὄχλῳ ὄπισθεν ἥψατο τοῦ ἱματίου αὐτοῦ·",
+      "text_kjv": "When she had heard of Jesus, came in the press behind, and touched his garment.",
+      "rendering": "When she had listened to of Jesus, arrived in the press behind, and touched his garment.",
+      "translator_notes": [
+        "Her approach from behind (opisthen) suggests both hope and fear — hope that Jesus can help, fear of public exposure of her condition. By touching his garment, she would technically transmit her ritual impurity to him. Her action is bold but covert, reflecting a woman who has been marginalized for twelve years and is reluctant to draw attention to herself."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 28,
+      "text_greek": "ἔλεγεν γὰρ ὅτι ἐὰν ἅψωμαι κἂν τῶν ἱματίων αὐτοῦ σωθήσομαι.",
+      "text_kjv": "For she said, If I may touch but his clothes, I shall be whole.",
+      "rendering": "For she was saying, \"If I just touch his clothes, I will be saved.\"",
+      "translator_notes": [
+        "The imperfect elegen ('she was saying, kept saying to herself') suggests ongoing internal deliberation as she worked up courage. The verb sōthēsomai ('I will be saved/healed') again carries the dual sense of physical healing and spiritual wholeness. Her faith, though expressed through what might seem a superstitious mechanism (touching clothing), is directed toward Jesus personally."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 29,
+      "text_greek": "καὶ εὐθὺς ἐξηράνθη ἡ πηγὴ τοῦ αἵματος αὐτῆς, καὶ ἔγνω τῷ σώματι ὅτι ἴαται ἀπὸ τῆς μάστιγος.",
+      "text_kjv": "And straightway the fountain of her blood was dried up; and she felt in her body that she was healed of that plague.",
+      "rendering": "Immediately the flow of her blood dried up, and she felt in her body that she was healed of her affliction.",
+      "translator_notes": [
+        "The healing is instantaneous (euthys) and physically perceptible. The word pēgē ('spring, fountain, source') for the bleeding is a medical term. The verb egnō tō sōmati ('she knew in her body') describes a somatic awareness — she could physically feel the change. The word mastigos ('affliction, scourge') is the same word used in 3:10 for diseases, viewing illness as a kind of divine whipping."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 30,
+      "text_greek": "καὶ εὐθὺς ὁ Ἰησοῦς ἐπιγνοὺς ἐν ἑαυτῷ τὴν ἐξ αὐτοῦ δύναμιν ἐξελθοῦσαν ἐπιστραφεὶς ἐν τῷ ὄχλῳ ἔλεγεν· τίς μου ἥψατο τῶν ἱματίων;",
+      "text_kjv": "And Jesus, immediately knowing in himself that virtue had gone out of him, turned him about in the press, and said, Who touched my clothes?",
+      "rendering": "Immediately Jesus, aware that power had gone out from him, turned around in the crowd and said, \"Who touched my clothes?\"",
+      "translator_notes": [
+        "The phrase epignous en heautō tēn ex autou dynamin exelthousan ('perceiving in himself the power having gone out from him') presents healing power as something that flows from Jesus and that he can detect. The word dynamis ('power') here is almost tangible — it has direction and movement. Jesus's question is not about information (he will identify the woman) but about relationship — he refuses to let the healing be anonymous."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 31,
+      "text_greek": "καὶ ἔλεγον αὐτῷ οἱ μαθηταὶ αὐτοῦ· βλέπεις τὸν ὄχλον συνθλίβοντά σε, καὶ λέγεις· τίς μου ἥψατο;",
+      "text_kjv": "And his disciples said unto him, Thou seest the multitude thronging thee, and sayest thou, Who touched me?",
+      "rendering": "His disciples said to him, \"You see the crowd pressing against you, and yet you say, 'Who touched me?'\"",
+      "translator_notes": [
+        "The disciples' response borders on exasperation — in a crushing crowd, everyone is touching him. They cannot distinguish between the incidental contact of the crowd and the deliberate, faith-driven touch of the woman. The imperfect elegon ('they were saying') suggests they pressed the point."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 32,
+      "text_greek": "καὶ περιεβλέπετο ἰδεῖν τὴν τοῦτο ποιήσασαν.",
+      "text_kjv": "And he looked round about to see her that had done this thing.",
+      "rendering": "But he kept looking around to see who had done this.",
+      "translator_notes": [
+        "The imperfect perieblepeto ('he was looking around') indicates a sustained, searching gaze. The feminine participle tēn touto poiēsasan ('the woman who had done this') reveals that Jesus already knew it was a woman. His searching look gives her the opportunity to come forward voluntarily rather than being exposed."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 33,
+      "text_greek": "ἡ δὲ γυνὴ φοβηθεῖσα καὶ τρέμουσα, εἰδυῖα ὃ γέγονεν αὐτῇ, ἦλθεν καὶ προσέπεσεν αὐτῷ καὶ εἶπεν αὐτῷ πᾶσαν τὴν ἀλήθειαν.",
+      "text_kjv": "But the woman fearing and trembling, knowing what was done in her, came and fell down before him, and told him all the truth.",
+      "rendering": "But the woman, knowing what had happened to her, came in fear and trembling, fell down before him, and told him the whole truth.",
+      "translator_notes": [
+        "Her fear (phobētheisa) and trembling (tremousa) may reflect fear of rebuke for transmitting impurity, fear of losing the healing, or awe at the divine power she has experienced. She tells 'the whole truth' (pasan tēn alētheian) — her twelve years of suffering, her desperate act, her healing. The public confession is both brave and necessary: Jesus will not allow healing to be separated from relationship."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 34,
+      "text_greek": "ὁ δὲ εἶπεν αὐτῇ· θυγάτηρ, ἡ πίστις σου σέσωκέν σε· ὕπαγε εἰς εἰρήνην, καὶ ἴσθι ὑγιὴς ἀπὸ τῆς μάστιγός σου.",
+      "text_kjv": "And he said unto her, Daughter, thy faith hath made thee whole; go in peace, and be whole of thy plague.",
+      "rendering": "He said to her, \"Daughter, your faith has saved you. Go in peace, and be healed of your affliction.\"",
+      "translator_notes": [
+        "The address 'Daughter' (thygatēr) restores her to family — she has been isolated for twelve years, and Jesus claims her as kin. The phrase hē pistis sou sesōken se ('your faith has saved you') uses the perfect tense — the salvation is accomplished and enduring. The verb sōzō again carries both physical and spiritual dimensions. 'Go in peace' (hypage eis eirēnēn) is the Hebrew shalom blessing — 'go into wholeness.' The command isthi hygiēs ('be healthy') confirms the healing as permanent."
+      ],
+      "key_terms": [
+        {
+          "greek": "εἰρήνη",
+          "transliteration": "eirēnē",
+          "rendered_as": "peace",
+          "semantic_range": "peace, wholeness, well-being, harmony",
+          "note": "The Greek equivalent of Hebrew shalom. Jesus's dismissal sends the woman not merely into the absence of conflict but into the fullness of restored well-being — physical, social, and spiritual."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 35,
+      "text_greek": "Ἔτι αὐτοῦ λαλοῦντος ἔρχονται ἀπὸ τοῦ ἀρχισυναγώγου λέγοντες ὅτι ἡ θυγάτηρ σου ἀπέθανεν· τί ἔτι σκύλλεις τὸν διδάσκαλον;",
+      "text_kjv": "While he yet spake, there came from the ruler of the synagogue's house certain which said, Thy daughter is dead: why troublest thou the Master any further?",
+      "rendering": "While he was still speaking, people came from the synagogue leader's house saying, \"Your daughter has died. Why bother the teacher any further?\"",
+      "translator_notes": [
+        "The timing is devastating — 'while he was still speaking' (eti autou lalountos), the worst news arrives. The delay caused by the hemorrhaging woman's interruption has cost Jairus his daughter. The verb skylleis ('trouble, bother, harass') suggests they view any further appeal as pointless. The message assumes death is the absolute limit of Jesus's power. Mark's intercalation technique creates maximum dramatic tension."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 36,
+      "text_greek": "ὁ δὲ Ἰησοῦς παρακούσας τὸν λόγον λαλούμενον λέγει τῷ ἀρχισυναγώγῳ· μὴ φοβοῦ, μόνον πίστευε.",
+      "text_kjv": "As soon as Jesus heard the word that was spoken, he saith unto the ruler of the synagogue, Be not afraid, only believe.",
+      "rendering": "But Jesus, overhearing what was said, told the synagogue leader, \"Do not be afraid; just believe.\"",
+      "translator_notes": [
+        "The verb parakousas can mean either 'overhearing' or 'ignoring/disregarding.' Both readings work: Jesus either overhears the message meant for Jairus, or he deliberately disregards its hopeless conclusion. His response — mē phobou, monon pisteue ('do not fear, only believe') — calls Jairus to the same kind of faith the hemorrhaging woman demonstrated. The present imperative pisteue ('keep believing') demands sustained trust in the face of apparent impossibility."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 37,
+      "text_greek": "καὶ οὐκ ἀφῆκεν οὐδένα μετ' αὐτοῦ συνακολουθῆσαι εἰ μὴ τὸν Πέτρον καὶ Ἰάκωβον καὶ Ἰωάννην τὸν ἀδελφὸν Ἰακώβου.",
+      "text_kjv": "And he suffered no man to follow him, save Peter, and James, and John the brother of James.",
+      "rendering": "He did not allow anyone to go with him except Peter, James, and John the brother of James.",
+      "translator_notes": [
+        "The inner circle of three — Peter, James, and John — appears here for the first time. They will also be present at the Transfiguration (9:2) and Gethsemane (14:33). This select group witnesses events too profound or intimate for the larger group. The exclusion of others creates privacy for the family and limits witnesses to the raising."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 38,
+      "text_greek": "καὶ ἔρχονται εἰς τὸν οἶκον τοῦ ἀρχισυναγώγου, καὶ θεωρεῖ θόρυβον καὶ κλαίοντας καὶ ἀλαλάζοντας πολλά,",
+      "text_kjv": "And he cometh to the house of the ruler of the synagogue, and seeth the tumult, and them that wept and wailed greatly.",
+      "rendering": "They came to the house of the synagogue leader, and he saw a commotion — people weeping and wailing loudly.",
+      "translator_notes": [
+        "The noun thorybos ('commotion, uproar, tumult') describes the scene of ritual mourning. Professional mourners would have been summoned quickly; Jewish custom required even the poorest family to hire at least two flute players and one wailing woman (Mishnah Ketubbot 4:4). The verb alalazontas ('wailing, shrieking') describes the loud, ritualized cries of formal lamentation."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 39,
+      "text_greek": "καὶ εἰσελθὼν λέγει αὐτοῖς· τί θορυβεῖσθε καὶ κλαίετε; τὸ παιδίον οὐκ ἀπέθανεν ἀλλὰ καθεύδει.",
+      "text_kjv": "And when he was come in, he saith unto them, Why make ye this ado, and weep? the damsel is not dead, but sleepeth.",
+      "rendering": "Going in, he said to them, \"Why are you making a commotion and weeping? The child is not dead but sleeping.\"",
+      "translator_notes": [
+        "Jesus's statement 'the child is not dead but sleeping' (to paidion ouk apethanen alla katheudei) has been interpreted as either (1) a metaphor for death — the girl is dead but Jesus views death as temporary sleep, or (2) a literal claim that she is merely unconscious. Given the certainty of the death announcement (v. 35) and the mockery that follows, Mark appears to present an actual death that Jesus redefines as sleep because he intends to 'wake' her. The metaphor of death as sleep becomes standard Christian language (cf. 1 Thessalonians 4:13-14)."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 40,
+      "text_greek": "καὶ κατεγέλων αὐτοῦ. αὐτὸς δὲ ἐκβαλὼν πάντας παραλαμβάνει τὸν πατέρα τοῦ παιδίου καὶ τὴν μητέρα καὶ τοὺς μετ' αὐτοῦ, καὶ εἰσπορεύεται ὅπου ἦν τὸ παιδίον.",
+      "text_kjv": "And they laughed him to scorn. But when he had put them all out, he taketh the father and the mother of the damsel, and them that were with him, and entereth in where the damsel was lying.",
+      "rendering": "They laughed at him. But he put them all outside, took the child's father and mother and those who were with him, and went in to where the child was.",
+      "translator_notes": [
+        "The verb kategelōn ('were laughing at, ridiculing, mocking') indicates contemptuous dismissal. Their laughter confirms the girl is genuinely dead — they know death when they see it. The verb ekbalōn ('having thrown out') is the same forceful word used for casting out demons. Jesus removes the scorners and creates an intimate space with only the parents and the three disciples."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 41,
+      "text_greek": "καὶ κρατήσας τῆς χειρὸς τοῦ παιδίου λέγει αὐτῇ· ταλιθα κουμ, ὅ ἐστιν μεθερμηνευόμενον· τὸ κοράσιον, σοὶ λέγω, ἔγειρε.",
+      "text_kjv": "And he took the damsel by the hand, and said unto her, Talitha cumi; which is, being interpreted, Damsel, I say unto thee, arise.",
+      "rendering": "Taking the child by the hand, he said to her, \"Talitha koum\" — which means, \"Little girl, I say to you, get up.\"",
+      "translator_notes": [
+        "The preservation of the Aramaic talitha koum (or koumi in some manuscripts) is one of several instances where Mark retains Jesus's actual spoken words in Aramaic (cf. 7:34 ephphatha; 15:34 eloi eloi). Talitha means 'little girl' or 'lamb' (a term of endearment), and koum is the imperative 'arise, get up.' The tender address combined with the authoritative command creates a powerful contrast. Jesus touches a corpse, which would render him ritually unclean — but as with the leper, purity flows from Jesus rather than impurity flowing to him."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 42,
+      "text_greek": "καὶ εὐθὺς ἀνέστη τὸ κοράσιον καὶ περιεπάτει· ἦν γὰρ ἐτῶν δώδεκα. καὶ ἐξέστησαν εὐθὺς ἐκστάσει μεγάλῃ.",
+      "text_kjv": "And straightway the damsel arose, and walked; for she was of the age of twelve years. And they were astonished with a great astonishment.",
+      "rendering": "Immediately the girl stood up and began walking, for she was twelve years old. They were immediately overcome with great amazement.",
+      "translator_notes": [
+        "The girl's response is immediate (euthys) and complete — she not only rises but walks. Her age — twelve years — creates a link with the hemorrhaging woman (twelve years of illness). The woman has been ill for the girl's entire lifetime. The phrase exestēsan ekstasei megalē ('they were astonished with a great astonishment') uses a cognate construction for emphasis — the witnesses are utterly overwhelmed."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 43,
+      "text_greek": "καὶ διεστείλατο αὐτοῖς πολλὰ ἵνα μηδεὶς γνοῖ τοῦτο, καὶ εἶπεν δοθῆναι αὐτῇ φαγεῖν.",
+      "text_kjv": "And he charged them straitly that no man should know it; and commanded that something should be given her to eat.",
+      "rendering": "He strictly ordered them that no one should know about this, and told them to give her something to eat.",
+      "translator_notes": [
+        "The messianic secret returns: diesteilato autois polla ('he ordered them repeatedly and emphatically'). Given that the mourners and crowd already know the girl died, keeping the raising secret seems impossible — yet Jesus commands it. The final detail — 'give her something to eat' — is profoundly human after the divine miracle. The command confirms the physical reality of her restoration: she is truly alive, with a living body that needs food. The juxtaposition of cosmic power and domestic tenderness is characteristically Markan."
+      ],
+      "reading_level": "7th grade"
+    }
+  ]
+}

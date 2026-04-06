@@ -1,0 +1,212 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Esther",
+    "chapter": 1,
+    "tradition": "lxx-esther",
+    "tradition_label": "Septuagint (LXX)",
+    "source_text": "Rahlfs' Septuaginta",
+    "base_text": "Westminster Leningrad Codex (WLC)",
+    "date": "2nd–1st c. BCE",
+    "generated_at": "2026-04-05T00:00:00Z",
+    "prompt_version": "1.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Esther 1 narrates King Ahasuerus' great banquet and Queen Vashti's refusal. The LXX follows the MT narrative closely but with notable theological additions — the LXX explicitly mentions God's activity and adds religious coloring absent from the MT. The MT of Esther famously never mentions God; the LXX corrects this.",
+    "notable_variants": "The LXX adds the name 'Artaxerxes' as the Greek rendering of Ahasuerus throughout. Several verses have expansions explaining Persian customs. Addition A (Mordecai's dream, in addition-A.json) is placed before this chapter in the LXX.",
+    "structural_notes": "Both versions have 22 verses. Addition A (17 verses) precedes this chapter in the LXX arrangement."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "has_variant": true,
+      "significance": "moderate",
+      "mt_reading": "אֲחַשְׁוֵרוֹשׁ",
+      "lxx_reading": "Ἀρταξέρξης (Artaxerxēs)",
+      "variant_rendering": "Artaxerxes",
+      "mt_rendering": "Ahasuerus",
+      "variant_notes": [
+        "The LXX consistently renders Ahasuerus as Artaxerxes throughout the book. This likely reflects a Greek identification of the Persian king with Artaxerxes II (404-358 BCE) rather than Xerxes I (486-465 BCE), the usual identification for the MT's Achashverosh."
+      ]
+    },
+    {
+      "verse": 2,
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "בְּשׁוּשַׁן הַבִּירָה",
+      "lxx_reading": "ἐν Σούσοις τῇ πόλει",
+      "variant_rendering": "in Susa the city",
+      "mt_rendering": "in Susa the citadel",
+      "variant_notes": [
+        "The LXX renders birah (citadel/acropolis) as polis (city), losing the specific architectural reference."
+      ]
+    },
+    {
+      "verse": 3,
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "פַּרְתְּמֵי הַמְּדִינוֹת",
+      "lxx_reading": "οἱ ἔνδοξοι τῶν ἐθνῶν",
+      "variant_rendering": "the distinguished ones of the nations",
+      "mt_rendering": "the nobles of the provinces",
+      "variant_notes": [
+        "LXX generalizes the specific Persian administrative term."
+      ]
+    },
+    {
+      "verse": 4,
+      "has_variant": false,
+      "variant_notes": [
+        "No significant variant between the LXX and the MT for this verse."
+      ]
+    },
+    {
+      "verse": 5,
+      "has_variant": false,
+      "variant_notes": [
+        "No significant variant between the LXX and the MT for this verse."
+      ]
+    },
+    {
+      "verse": 6,
+      "has_variant": false,
+      "variant_notes": [
+        "No significant variant between the LXX and the MT for this verse."
+      ]
+    },
+    {
+      "verse": 7,
+      "has_variant": false,
+      "variant_notes": [
+        "No significant variant between the LXX and the MT for this verse."
+      ]
+    },
+    {
+      "verse": 8,
+      "has_variant": false,
+      "variant_notes": [
+        "No significant variant between the LXX and the MT for this verse."
+      ]
+    },
+    {
+      "verse": 9,
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "וַשְׁתִּי הַמַּלְכָּה",
+      "lxx_reading": "Αστιν ἡ βασίλισσα",
+      "variant_rendering": "Queen Astin",
+      "mt_rendering": "Queen Vashti",
+      "variant_notes": [
+        "The LXX spells the name differently: Astin rather than Vashti. Greek transliteration conventions account for the difference."
+      ]
+    },
+    {
+      "verse": 10,
+      "has_variant": false,
+      "variant_notes": [
+        "No significant variant between the LXX and the MT for this verse."
+      ]
+    },
+    {
+      "verse": 11,
+      "has_variant": false,
+      "variant_notes": [
+        "No significant variant between the LXX and the MT for this verse."
+      ]
+    },
+    {
+      "verse": 12,
+      "has_variant": true,
+      "significance": "moderate",
+      "mt_reading": "וַתְּמָאֵן הַמַּלְכָּה וַשְׁתִּי",
+      "lxx_reading": "καὶ οὐκ ἠθέλησεν... ἡ βασίλισσα",
+      "variant_rendering": "and the queen was unwilling",
+      "mt_rendering": "but Queen Vashti refused",
+      "variant_notes": [
+        "Both versions record Vashti's refusal. The LXX adds that she refused 'to come at the word of the king that was conveyed by the eunuchs' — slightly expanding the MT."
+      ]
+    },
+    {
+      "verse": 13,
+      "has_variant": false,
+      "variant_notes": [
+        "No significant variant between the LXX and the MT for this verse."
+      ]
+    },
+    {
+      "verse": 14,
+      "has_variant": false,
+      "variant_notes": [
+        "No significant variant between the LXX and the MT for this verse."
+      ]
+    },
+    {
+      "verse": 15,
+      "has_variant": false,
+      "variant_notes": [
+        "No significant variant between the LXX and the MT for this verse."
+      ]
+    },
+    {
+      "verse": 16,
+      "has_variant": false,
+      "variant_notes": [
+        "No significant variant between the LXX and the MT for this verse."
+      ]
+    },
+    {
+      "verse": 17,
+      "has_variant": false,
+      "variant_notes": [
+        "No significant variant between the LXX and the MT for this verse."
+      ]
+    },
+    {
+      "verse": 18,
+      "has_variant": false,
+      "variant_notes": [
+        "No significant variant between the LXX and the MT for this verse."
+      ]
+    },
+    {
+      "verse": 19,
+      "has_variant": false,
+      "variant_notes": [
+        "No significant variant between the LXX and the MT for this verse."
+      ]
+    },
+    {
+      "verse": 20,
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "וְכָל־הַנָּשִׁים יִתְּנוּ יְקָר",
+      "lxx_reading": "πᾶσαι αἱ γυναῖκες περιθήσουσιν τιμήν",
+      "variant_rendering": "all women will render honor",
+      "mt_rendering": "all women will give honor",
+      "variant_notes": [
+        "Both versions preserve Memucan's logic: Vashti's public disobedience threatens the patriarchal order of every Persian household."
+      ]
+    },
+    {
+      "verse": 21,
+      "has_variant": false,
+      "variant_notes": [
+        "No significant variant between the LXX and the MT for this verse."
+      ]
+    },
+    {
+      "verse": 22,
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "לִהְיוֹת כָּל־אִישׁ שֹׂרֵר בְּבֵיתוֹ",
+      "lxx_reading": "ὥστε φόβον αὐτοῖς παρέχειν ἐν ταῖς οἰκίαις αὐτῶν",
+      "variant_rendering": "so as to provide fear in their houses",
+      "mt_rendering": "that every man should be master in his own house",
+      "variant_notes": [
+        "LXX reframes 'mastery' as 'fear/respect,' a slightly different nuance."
+      ]
+    }
+  ]
+}

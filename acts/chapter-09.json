@@ -1,0 +1,469 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Acts",
+    "chapter": 9,
+    "source_text": "SBL Greek New Testament (SBLGNT)",
+    "reference_text": "KJV",
+    "generated_at": "2026-04-04T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Acts 9 narrates the dramatic conversion of Saul of Tarsus on the road to Damascus. While traveling with letters authorizing him to arrest Christians, Saul is confronted by a blinding light and the voice of the risen Jesus: 'Saul, Saul, why are you persecuting me?' Blinded for three days, Saul is visited by Ananias of Damascus, who restores his sight, baptizes him, and conveys God's commission. Saul immediately begins preaching Jesus as the Son of God in Damascus synagogues. After escaping a murder plot in Damascus, Saul goes to Jerusalem where Barnabas vouches for him to the apostles. The chapter then describes Peter's ministry in Lydda and Joppa, including the healing of Aeneas (paralyzed for eight years) and the raising of Tabitha (Dorcas) from the dead. Peter stays in Joppa with Simon the tanner, setting the stage for the Cornelius episode in chapter 10.",
+    "remarkable": "Saul's conversion is the pivotal event in Acts and is narrated three times (here, 22:3-21, 26:9-23), reflecting its importance. The identification of Jesus with his persecuted church — 'why are you persecuting me?' — is a profound christological statement: to persecute the church is to persecute Christ himself. Ananias's reluctance and God's response reveal Jesus's plan for Saul: 'he is a chosen instrument of mine to carry my name before the Gentiles and kings and the sons of Israel.' The raising of Tabitha parallels Elijah's raising of the widow's son and Jesus's raising of Jairus's daughter.",
+    "friction": "The three accounts of Saul's conversion differ in details: whether companions heard the voice (9:7 vs. 22:9), whether they saw the light, and whether Saul received his commission directly or through Ananias. These variations likely reflect the different rhetorical settings of each retelling rather than contradictions. Peter's lodging with 'Simon the tanner' (v. 43) is notable because tanning was considered an unclean occupation in Jewish law — Peter is already relaxing purity boundaries before the Cornelius vision.",
+    "connections": "Saul's conversion fulfills Jesus's statement to Ananias about suffering for his name (v. 16), which will play out through the rest of Acts. The Damascus road experience connects to prophetic call narratives (Isaiah 6, Jeremiah 1, Ezekiel 1-3). Peter's miracles in Lydda and Joppa mirror Jesus's miracles and demonstrate that the apostolic mission continues Jesus's work. The tanner's house in Joppa prepares for the vision of clean and unclean animals in 10:9-16."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_greek": "Ὁ δὲ Σαῦλος, ἔτι ἐμπνέων ἀπειλῆς καὶ φόνου εἰς τοὺς μαθητὰς τοῦ κυρίου, προσελθὼν τῷ ἀρχιερεῖ",
+      "text_kjv": "And Saul, yet breathing out threatenings and slaughter against the disciples of the Lord, went unto the high priest,",
+      "rendering": "Meanwhile Saul, still breathing threats and murder against the disciples of the Lord, went to the high priest",
+      "translator_notes": [
+        "The participle empneōn ('breathing') creates a vivid image: Saul exhaled threats as naturally as he exhaled air — persecution was his very breath. The combination 'threats and murder' (apeilēs kai phonou) intensifies from words to actions. The present participle indicates ongoing, habitual activity. The phrase 'disciples of the Lord' (tous mathētas tou kyriou) is the first use of 'disciples' since chapter 6, now describing the broader Christian community."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 2,
+      "text_greek": "ᾐτήσατο παρ' αὐτοῦ ἐπιστολὰς εἰς Δαμασκὸν πρὸς τὰς συναγωγάς, ὅπως ἐάν τινας εὕρῃ τῆς ὁδοῦ ὄντας, ἄνδρας τε καὶ γυναῖκας, δεδεμένους ἀγάγῃ εἰς Ἰερουσαλήμ.",
+      "text_kjv": "And desired of him letters to Damascus to the synagogues, that if he found any of this way, whether they were men or women, he might bring them bound unto Jerusalem.",
+      "rendering": "He asked for letters addressed to the synagogues in Damascus, so that if he found anyone who belonged to the Way — whether men or women — he could arrest them and bring them back to Jerusalem.",
+      "translator_notes": [
+        "The 'letters' (epistolas) from the high priest would authorize Saul to act with Sanhedrin authority in the Damascus synagogues. The term 'the Way' (tēs hodou) is the earliest designation for the Christian movement in Acts (cf. 19:9, 23; 22:4; 24:14, 22) — it identifies Christianity as a path or way of life, possibly echoing Isaiah 40:3 ('prepare the way of the Lord'). Damascus had a significant Jewish population and was within the traditional boundaries of the land of Israel as understood by some authorities, justifying Jerusalem's jurisdictional claim.",
+        "[TCR Cross-Reference] Draws on Isaiah 40:3. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "key_terms": [
+        {
+          "greek": "ἡ ὁδός",
+          "transliteration": "hē hodos",
+          "rendered_as": "the Way",
+          "semantic_range": "way, road, path, journey, manner of life",
+          "note": "The earliest self-designation of the Christian movement. It implies Christianity is a way of living, not merely a set of beliefs. Jesus called himself 'the way, the truth, and the life' (John 14:6)."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 3,
+      "text_greek": "ἐν δὲ τῷ πορεύεσθαι ἐγένετο αὐτὸν ἐγγίζειν τῇ Δαμασκῷ, ἐξαίφνης τε αὐτὸν περιήστραψεν φῶς ἐκ τοῦ οὐρανοῦ,",
+      "text_kjv": "And as he journeyed, he came near Damascus: and suddenly there shined round about him a light from heaven:",
+      "rendering": "As he was traveling and approaching Damascus, suddenly a light from heaven flashed around him.",
+      "translator_notes": [
+        "The adverb exaiphnēs ('suddenly') marks the divine irruption — there is no preparation, no gradual awareness. The light (phōs ek tou ouranou) comes 'from heaven,' establishing its divine origin. The verb periēstrapsen ('flashed around') describes light enveloping Saul from every direction. In 26:13, Paul will specify it was brighter than the midday sun. The theophanic light recalls Moses at the burning bush and Ezekiel's vision of divine glory."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 4,
+      "text_greek": "καὶ πεσὼν ἐπὶ τὴν γῆν ἤκουσεν φωνὴν λέγουσαν αὐτῷ· Σαοὺλ Σαούλ, τί με διώκεις;",
+      "text_kjv": "And he fell to the earth, and heard a voice saying unto him, Saul, Saul, why persecutest thou me?",
+      "rendering": "He fell to the ground and heard a voice saying to him, \"Saul, Saul, why are you persecuting me?\"",
+      "translator_notes": [
+        "The double address 'Saul, Saul' (Saoul Saoul) uses the Hebrew/Aramaic form of the name (not the Greek Saulos), echoing divine addresses in the Old Testament: 'Abraham, Abraham' (Genesis 22:11), 'Moses, Moses' (Exodus 3:4), 'Samuel, Samuel' (1 Samuel 3:10). The question 'why are you persecuting me?' (ti me diōkeis) contains the explosive identification: Jesus is so united with his church that persecuting believers is persecuting him personally. This is not metaphor — it is christological reality.",
+        "[TCR Cross-Reference] Echoes Genesis 22:11. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale.",
+        "[TCR Cross-Reference] Echoes Exodus 3:4. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale.",
+        "[TCR Cross-Reference] Echoes 1 Samuel 3:10. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 5,
+      "text_greek": "εἶπεν δέ· τίς εἶ, κύριε; ὁ δέ· ἐγώ εἰμι Ἰησοῦς ὃν σὺ διώκεις·",
+      "text_kjv": "And he said, Who art thou, Lord? And the Lord said, I am Jesus whom thou persecutest: it is hard for thee to kick against the pricks.",
+      "rendering": "He said, \"Who are you, Lord?\" And he replied, \"I am Jesus, whom you are persecuting.",
+      "translator_notes": [
+        "Saul's question 'Who are you, Lord?' (tis ei, kyrie) uses kyrie, which could mean simply 'sir' at this point — Saul does not yet know who speaks. The response 'I am Jesus' (egō eimi Iēsous) is devastating: the one Saul believed was a dead false messiah is alive and speaking from heaven. The addition 'whom you are persecuting' (hon sy diōkeis) repeats the identification from verse 4. The SBLGNT does not include 'it is hard for you to kick against the goads,' which appears in later manuscripts and in Paul's retelling in 26:14."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 6,
+      "text_greek": "ἀλλ' ἀνάστηθι καὶ εἴσελθε εἰς τὴν πόλιν καὶ λαληθήσεταί σοι ὅ τί σε δεῖ ποιεῖν.",
+      "text_kjv": "And he trembling and astonished said, Lord, what wilt thou have me to do? And the Lord said unto him, Arise, and go into the city, and it shall be told thee what thou must do.",
+      "rendering": "But get up and enter the city, and you will be told what you must do.\"",
+      "translator_notes": [
+        "The SBLGNT omits the initial question 'Lord, what do you want me to do?' which appears in later manuscripts. Jesus's command is simple: go to the city and wait. The phrase ho ti se dei poiein ('what you must do') uses the divine necessity verb dei — Saul's future is determined by God's plan, not his own."
+      ],
+      "reading_level": "5th grade"
+    },
+    {
+      "verse": 7,
+      "text_greek": "οἱ δὲ ἄνδρες οἱ συνοδεύοντες αὐτῷ εἱστήκεισαν ἐνεοί, ἀκούοντες μὲν τῆς φωνῆς μηδένα δὲ θεωροῦντες.",
+      "text_kjv": "And the men which journeyed with him stood speechless, hearing a voice, but seeing no man.",
+      "rendering": "The men traveling with him stood speechless, hearing the sound but seeing no one.",
+      "translator_notes": [
+        "The companions hear the 'sound' (phōnēs) but see no one. In 22:9, Paul says they saw the light but 'did not hear the voice of the one speaking to me.' The apparent discrepancy likely reflects the difference between hearing a sound and understanding speech — they perceived noise but not articulate words. The adjective eneoi ('speechless') captures their stunned inability to respond."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 8,
+      "text_greek": "ἠγέρθη δὲ Σαῦλος ἀπὸ τῆς γῆς, ἀνεῳγμένων δὲ τῶν ὀφθαλμῶν αὐτοῦ οὐδὲν ἔβλεπεν· χειραγωγοῦντες δὲ αὐτὸν εἰσήγαγον εἰς Δαμασκόν.",
+      "text_kjv": "And Saul arose from the earth; and when his eyes were opened, he saw no man: but they led him by the hand, and brought him into Damascus.",
+      "rendering": "Saul got up from the ground, and although his eyes were open, he could see nothing. So they led him by the hand and brought him into Damascus.",
+      "translator_notes": [
+        "The man who set out to Damascus with authority and purpose arrives blind and dependent. The irony is profound: the one who could not 'see' who Jesus was now literally cannot see. His eyes are open (aneōgmenōn tōn ophthalmōn) but perceive nothing — a physical condition mirroring his previous spiritual state. Being led by the hand (cheiragōgountes) reduces the powerful persecutor to the helplessness of a child."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 9,
+      "text_greek": "καὶ ἦν ἡμέρας τρεῖς μὴ βλέπων καὶ οὐκ ἔφαγεν οὐδὲ ἔπιεν.",
+      "text_kjv": "And he was three days without sight, and neither did eat nor drink.",
+      "rendering": "For three days he was without sight, and he neither ate nor drank.",
+      "translator_notes": [
+        "The three days of blindness and fasting echo death and burial — Saul's old life as persecutor is dying. The three-day period recalls Jonah's three days in the fish and, most significantly, Jesus's three days in the tomb. Saul's emergence from this period will be a kind of resurrection."
+      ],
+      "reading_level": "5th grade"
+    },
+    {
+      "verse": 10,
+      "text_greek": "Ἦν δέ τις μαθητὴς ἐν Δαμασκῷ ὀνόματι Ἁνανίας, καὶ εἶπεν πρὸς αὐτὸν ἐν ὁράματι ὁ κύριος· Ἁνανία. ὁ δὲ εἶπεν· ἰδοὺ ἐγώ, κύριε.",
+      "text_kjv": "And there was a certain disciple at Damascus, named Ananias; and to him said the Lord in a vision, Ananias. And he said, Behold, I am here, Lord.",
+      "rendering": "Now there was a disciple in Damascus named Ananias. The Lord said to him in a vision, \"Ananias.\" He said, \"Here I am, Lord.\"",
+      "translator_notes": [
+        "Ananias is simply called a 'disciple' (mathētēs) — an ordinary believer, not an apostle or leader. The vision dialogue follows the pattern of Old Testament call narratives: God calls by name, the person responds 'Here I am' (idou egō, echoing Abraham in Genesis 22:1, Moses in Exodus 3:4, Samuel in 1 Samuel 3:4). This Ananias should be distinguished from the Ananias of chapter 5 and the high priest Ananias of chapter 23.",
+        "[TCR Cross-Reference] This verse quotes Genesis 22:1 — see the TCR rendering of that passage for the Hebrew source text and translation decisions.",
+        "[TCR Cross-Reference] This verse quotes Exodus 3:4 — see the TCR rendering of that passage for the Hebrew source text and translation decisions.",
+        "[TCR Cross-Reference] This verse quotes 1 Samuel 3:4 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 11,
+      "text_greek": "ὁ δὲ κύριος πρὸς αὐτόν· ἀναστὰς πορεύθητι ἐπὶ τὴν ῥύμην τὴν καλουμένην Εὐθεῖαν καὶ ζήτησον ἐν οἰκίᾳ Ἰούδα Σαῦλον ὀνόματι Ταρσέα· ἰδοὺ γὰρ προσεύχεται,",
+      "text_kjv": "And the Lord said unto him, Arise, and go into the street which is called Straight, and enquire in the house of Judas for one called Saul, of Tarsus: for, behold, he prayeth,",
+      "rendering": "The Lord said to him, \"Get up and go to the street called Straight, and at the house of Judas look for a man from Tarsus named Saul, for he is praying.",
+      "translator_notes": [
+        "The 'street called Straight' (tēn rhymēn tēn kaloumenēn Eutheian) is likely the main east-west thoroughfare of Damascus, still identifiable today. The specific address — Judas's house on Straight Street — gives the narrative historical particularity. The note 'for he is praying' (idou gar proseuchetai) signals Saul's transformation: the persecutor is now a petitioner. God orchestrates a double vision: Saul prays and sees Ananias coming; Ananias receives instructions to go."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 12,
+      "text_greek": "καὶ εἶδεν ἄνδρα ἐν ὁράματι Ἁνανίαν ὀνόματι εἰσελθόντα καὶ ἐπιθέντα αὐτῷ χεῖρας ὅπως ἀναβλέψῃ.",
+      "text_kjv": "And hath seen in a vision a man named Ananias coming in, and putting his hand on him, that he might receive his sight.",
+      "rendering": "He has seen in a vision a man named Ananias come in and lay his hands on him so that he might regain his sight.\"",
+      "translator_notes": [
+        "Saul's vision of Ananias arriving is a confirming vision — when Ananias actually appears, Saul will know this is from God. The divine coordination of the two visions (Ananias's in v. 10, Saul's in v. 12) mirrors the coordination in the Cornelius-Peter narrative (10:3-6, 10:9-16). God prepares both parties for the encounter."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 13,
+      "text_greek": "ἀπεκρίθη δὲ Ἁνανίας· κύριε, ἤκουσα ἀπὸ πολλῶν περὶ τοῦ ἀνδρὸς τούτου, ὅσα κακὰ τοῖς ἁγίοις σου ἐποίησεν ἐν Ἰερουσαλήμ·",
+      "text_kjv": "Then Ananias answered, Lord, I have heard by many of this man, how much evil he hath done to thy saints at Jerusalem:",
+      "rendering": "But Ananias answered, \"Lord, I have heard from many about this man — how much harm he has done to your saints in Jerusalem.",
+      "translator_notes": [
+        "Ananias's protest is understandable — he is being asked to visit the most dangerous man in the world for a Damascus Christian. His intelligence about Saul is accurate: 'how much harm he has done to your saints' (hosa kaka tois hagiois sou epoiēsen). The word hagiois ('saints, holy ones') is used here for the first time in Acts for believers — those set apart for God. Ananias's reluctance adds dramatic tension and makes his eventual obedience all the more commendable."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 14,
+      "text_greek": "καὶ ὧδε ἔχει ἐξουσίαν παρὰ τῶν ἀρχιερέων δῆσαι πάντας τοὺς ἐπικαλουμένους τὸ ὄνομά σου.",
+      "text_kjv": "And here he hath authority from the chief priests to bind all that call on thy name.",
+      "rendering": "And here he has authority from the chief priests to arrest all who call on your name.\"",
+      "translator_notes": [
+        "Ananias knows Saul's mission: arrest 'all who call on your name' (pantas tous epikaloumenous to onoma sou). The phrase 'calling on the name' echoes Joel 2:32 quoted in 2:21 — the very act of salvation (calling on the Lord's name) is the crime Saul has come to punish. The irony deepens: Saul will soon be calling on that name himself.",
+        "[TCR Cross-Reference] Echoes Joel 2:32. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 15,
+      "text_greek": "εἶπεν δὲ πρὸς αὐτὸν ὁ κύριος· πορεύου, ὅτι σκεῦος ἐκλογῆς ἐστίν μοι οὗτος τοῦ βαστάσαι τὸ ὄνομά μου ἐνώπιον ἐθνῶν τε καὶ βασιλέων υἱῶν τε Ἰσραήλ·",
+      "text_kjv": "But the Lord said unto him, Go thy way: for he is a chosen vessel unto me, to bear my name before the Gentiles, and kings, and the children of Israel:",
+      "rendering": "But the Lord said to him, \"Go, for he is a chosen instrument of mine to carry my name before Gentiles and kings and the sons of Israel.",
+      "translator_notes": [
+        "The Lord overrides Ananias's objection with a revelation of Saul's destiny. The phrase 'chosen instrument' (skeuos eklogēs, literally 'vessel of election/choice') presents Saul as a container selected by God for a specific purpose. His mission has three audiences: Gentiles (ethnōn), kings (basileōn), and the sons of Israel (huiōn Israēl) — all three will be fulfilled in Acts. The order is significant: Gentiles first, reflecting Paul's primary calling."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 16,
+      "text_greek": "ἐγὼ γὰρ ὑποδείξω αὐτῷ ὅσα δεῖ αὐτὸν ὑπὲρ τοῦ ὀνόματός μου παθεῖν.",
+      "text_kjv": "For I will shew him how great things he must suffer for my name's sake.",
+      "rendering": "For I will show him how much he must suffer for the sake of my name.\"",
+      "translator_notes": [
+        "Saul's calling includes suffering (pathein) — the word dei ('must') makes suffering a divine necessity, not an accident. 'For the sake of my name' (hyper tou onomatos mou) — the name Saul tried to destroy will become the name he suffers for. The rest of Acts will document this suffering: beatings, imprisonments, shipwreck, stoning, and ultimately martyrdom."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 17,
+      "text_greek": "Ἀπῆλθεν δὲ Ἁνανίας καὶ εἰσῆλθεν εἰς τὴν οἰκίαν καὶ ἐπιθεὶς ἐπ' αὐτὸν τὰς χεῖρας εἶπεν· Σαοὺλ ἀδελφέ, ὁ κύριος ἀπέσταλκέν με, Ἰησοῦς ὁ ὀφθείς σοι ἐν τῇ ὁδῷ ᾗ ἤρχου, ὅπως ἀναβλέψῃς καὶ πλησθῇς πνεύματος ἁγίου.",
+      "text_kjv": "And Ananias went his way, and entered into the house; and putting his hands on him said, Brother Saul, the Lord, even Jesus, that appeared unto thee in the way as thou camest, hath sent me, that thou mightest receive thy sight, and be filled with the Holy Ghost.",
+      "rendering": "So Ananias departed and entered the house. Laying his hands on him, he said, \"Brother Saul, the Lord Jesus, who appeared to you on the road by which you came, has sent me so that you may regain your sight and be filled with the Holy Spirit.\"",
+      "translator_notes": [
+        "Ananias's first word to the feared persecutor is 'brother' (adelphe) — a single word of reconciliation that bridges the chasm between persecutor and persecuted. Ananias identifies the Lord who sent him as 'Jesus' (Iēsous), confirming for Saul the identity of the voice on the road. The mission is twofold: physical healing ('regain your sight') and spiritual empowerment ('be filled with the Holy Spirit'). Ananias obeys despite his fear — faith overcomes terror."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 18,
+      "text_greek": "καὶ εὐθέως ἀπέπεσαν αὐτοῦ ἀπὸ τῶν ὀφθαλμῶν ὡς λεπίδες, ἀνέβλεψέν τε καὶ ἀναστὰς ἐβαπτίσθη,",
+      "text_kjv": "And immediately there fell from his eyes as it had been scales: and he received sight forthwith, and arose, and was baptized.",
+      "rendering": "Immediately something like scales fell from his eyes, and he regained his sight. Then he got up and was baptized.",
+      "translator_notes": [
+        "The 'scales' (lepides, 'flakes, scales') falling from Saul's eyes is both a physical healing and a spiritual metaphor — the blindness that covered his understanding is removed. The sequence is immediate: sight restored → rising → baptism. The brevity contrasts with the elaborate detail of the vision and conversion — Luke gives the baptism just four words (anastas ebaptisthē), suggesting it is the natural, expected response to faith."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 19,
+      "text_greek": "καὶ λαβὼν τροφὴν ἐνίσχυσεν. Ἐγένετο δὲ μετὰ τῶν ἐν Δαμασκῷ μαθητῶν ἡμέρας τινὰς",
+      "text_kjv": "And when he had received meat, he was strengthened. Then was Saul certain days with the disciples which were at Damascus.",
+      "rendering": "Following he had received meat, he was strengthened. Then was Saul certain days with the followers which were at Damascus.",
+      "translator_notes": [
+        "After three days of fasting (v. 9), Saul eats and recovers physical strength (enischysen). He immediately joins 'the disciples in Damascus' (tōn en Damaskō mathētōn) — the very people he came to arrest. The persecutor has become a brother. The phrase 'several days' (hēmeras tinas) covers an unspecified period during which Saul transitions from persecutor to preacher."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 20,
+      "text_greek": "καὶ εὐθέως ἐν ταῖς συναγωγαῖς ἐκήρυσσεν τὸν Ἰησοῦν ὅτι οὗτός ἐστιν ὁ υἱὸς τοῦ θεοῦ.",
+      "text_kjv": "And straightway he preached Christ in the synagogues, that he is the Son of God.",
+      "rendering": "And immediately he began proclaiming Jesus in the synagogues, saying, \"He is the Son of God.\"",
+      "translator_notes": [
+        "The adverb eutheōs ('immediately') captures the urgency of Saul's new conviction. He preaches in the very synagogues (en tais synagōgais) where he had authority to make arrests. His message: Jesus is 'the Son of God' (ho huios tou theou) — this title appears only here in Acts and represents the highest christological claim. The man who came to destroy the Way now proclaims its central confession."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 21,
+      "text_greek": "ἐξίσταντο δὲ πάντες οἱ ἀκούοντες καὶ ἔλεγον· οὐχ οὗτός ἐστιν ὁ πορθήσας εἰς Ἰερουσαλὴμ τοὺς ἐπικαλουμένους τὸ ὄνομα τοῦτο, καὶ ὧδε εἰς τοῦτο ἐληλύθει ἵνα δεδεμένους αὐτοὺς ἀγάγῃ ἐπὶ τοὺς ἀρχιερεῖς;",
+      "text_kjv": "But all that heard him were amazed, and said; Is not this he that destroyed them which called on this name in Jerusalem, and came hither for that intent, that he might bring them bound unto the chief priests?",
+      "rendering": "All who heard him were astonished and said, \"Is this not the man who destroyed those in Jerusalem who called on this name? And did he not come here for the very purpose of bringing them bound before the chief priests?\"",
+      "translator_notes": [
+        "The audience's astonishment (existanto) mirrors the amazement that follows every major event in Acts. The verb porthēsas ('destroyed, ravaged') is a military term describing the sacking of a city — Saul's persecution was remembered as devastation. The rhetorical questions express the shock of radical transformation: the same man, the same name, but everything has reversed."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 22,
+      "text_greek": "Σαῦλος δὲ μᾶλλον ἐνεδυναμοῦτο καὶ συνέχυννεν τοὺς Ἰουδαίους τοὺς κατοικοῦντας ἐν Δαμασκῷ συμβιβάζων ὅτι οὗτός ἐστιν ὁ χριστός.",
+      "text_kjv": "But Saul increased the more in strength, and confounded the Jews which dwelt at Damascus, proving that this is very Christ.",
+      "rendering": "But Saul kept growing stronger and was confounding the Jews who lived in Damascus by proving that Jesus is the Christ.",
+      "translator_notes": [
+        "The verb enedynamouto ('was being strengthened, was growing in power') indicates progressive empowerment by the Spirit. The verb synechynnen ('was confounding, was bewildering') means he left them unable to respond — his arguments were irrefutable. The participle symbibazon ('proving, demonstrating, bringing together') suggests logical argumentation from Scripture — Saul was already using the method that would characterize his later ministry: demonstrating from the Hebrew Scriptures that Jesus is the Messiah."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 23,
+      "text_greek": "Ὡς δὲ ἐπληροῦντο ἡμέραι ἱκαναί, συνεβουλεύσαντο οἱ Ἰουδαῖοι ἀνελεῖν αὐτόν·",
+      "text_kjv": "And after that many days were fulfilled, the Jews took counsel to kill him:",
+      "rendering": "When many days had passed, the Jews plotted to kill him.",
+      "translator_notes": [
+        "The phrase 'many days' (hēmerai hikanai) covers a significant period. According to Galatians 1:17-18, Paul spent time in Arabia and then returned to Damascus before going to Jerusalem — a period of about three years. Luke compresses the timeline. The plot to kill Saul mirrors the plots against Jesus and the apostles — the pattern of rejection continues, but now directed at the former persecutor."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 24,
+      "text_greek": "ἐγνώσθη δὲ τῷ Σαύλῳ ἡ ἐπιβουλὴ αὐτῶν. παρετηροῦντο δὲ καὶ τὰς πύλας ἡμέρας τε καὶ νυκτὸς ὅπως αὐτὸν ἀνέλωσιν·",
+      "text_kjv": "But their laying await was known of Saul. And they watched the gates day and night to kill him.",
+      "rendering": "But their plot became known to Saul. They were also watching the gates day and night in order to kill him.",
+      "translator_notes": [
+        "The conspirators watch the city gates (tas pylas) to prevent Saul's escape. According to 2 Corinthians 11:32-33, the ethnarch under King Aretas IV was guarding the city — suggesting cooperation between Jewish opponents and the Nabatean authorities. The surveillance is around the clock (hēmeras te kai nyktos), indicating serious intent."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 25,
+      "text_greek": "λαβόντες δὲ οἱ μαθηταὶ αὐτοῦ νυκτὸς διὰ τοῦ τείχους καθῆκαν αὐτὸν χαλάσαντες ἐν σπυρίδι.",
+      "text_kjv": "Then the disciples took him by night, and let him down by the wall in a basket.",
+      "rendering": "But his disciples took him at night and lowered him through an opening in the wall, letting him down in a large basket.",
+      "translator_notes": [
+        "The escape 'through the wall' (dia tou teichous) likely means through a window in a house built into the city wall (cf. Joshua 2:15, Rahab's house). The word spyridi ('large basket') is the same word used for the baskets at the feeding of the 4,000 (Mark 8:8). Paul himself recounts this humiliating escape in 2 Corinthians 11:33. The phrase 'his disciples' (hoi mathētai autou) is remarkable — Saul already has followers of his own.",
+        "[TCR Cross-Reference] This verse quotes Joshua 2:15 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 26,
+      "text_greek": "Παραγενόμενος δὲ εἰς Ἰερουσαλὴμ ἐπείραζεν κολλᾶσθαι τοῖς μαθηταῖς, καὶ πάντες ἐφοβοῦντο αὐτόν, μὴ πιστεύοντες ὅτι ἐστὶν μαθητής.",
+      "text_kjv": "And when Saul was come to Jerusalem, he assayed to join himself to the disciples: but they were all afraid of him, and believed not that he was a disciple.",
+      "rendering": "When he arrived in Jerusalem, he tried to join the disciples, but they were all afraid of him, not believing that he was a disciple.",
+      "translator_notes": [
+        "Saul's reception in Jerusalem is understandably hostile — 'they were all afraid of him' (pantes ephobounto auton). His reputation as a persecutor preceded him, and his conversion was too dramatic to be easily believed. The verb epeirazen ('tried, attempted') suggests repeated, unsuccessful efforts to gain acceptance. Saul is caught between two worlds: hunted by his former allies and mistrusted by his new brothers."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 27,
+      "text_greek": "Βαρναβᾶς δὲ ἐπιλαβόμενος αὐτὸν ἤγαγεν πρὸς τοὺς ἀποστόλους καὶ διηγήσατο αὐτοῖς πῶς ἐν τῇ ὁδῷ εἶδεν τὸν κύριον καὶ ὅτι ἐλάλησεν αὐτῷ καὶ πῶς ἐν Δαμασκῷ ἐπαρρησιάσατο ἐν τῷ ὀνόματι τοῦ Ἰησοῦ.",
+      "text_kjv": "But Barnabas took him, and brought him to the apostles, and declared unto them how he had seen the Lord in the way, and that he had spoken to him, and how he had preached boldly at Damascus in the name of Jesus.",
+      "rendering": "But Barnabas took him, brought him to the apostles, and described to them how on the road Saul had seen the Lord and that the Lord had spoken to him, and how in Damascus he had spoken boldly in the name of Jesus.",
+      "translator_notes": [
+        "Barnabas, the 'Son of Encouragement' (4:36), lives up to his name by bridging the gap between Saul and the apostles. The verb epilabomenos ('took hold of, took charge of') indicates decisive action. Barnabas vouches for three things: the Damascus road vision, the Lord's direct speech to Saul, and Saul's bold preaching in Damascus. This mediation was crucial for Saul's acceptance and for the unity of the church. Barnabas's willingness to stake his reputation on a former persecutor is an act of extraordinary faith."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 28,
+      "text_greek": "καὶ ἦν μετ' αὐτῶν εἰσπορευόμενος καὶ ἐκπορευόμενος εἰς Ἰερουσαλήμ, παρρησιαζόμενος ἐν τῷ ὀνόματι τοῦ κυρίου.",
+      "text_kjv": "And he was with them coming in and going out at Jerusalem.",
+      "rendering": "So he went in and out among them in Jerusalem, speaking boldly in the name of the Lord.",
+      "translator_notes": [
+        "The phrase 'going in and going out' (eisporeuomenos kai ekporeuomenos) is the same Semitic idiom used in 1:21 for daily life and activity. Saul is now a full member of the Jerusalem community, speaking with parrhēsia ('boldness') — the same quality the church prayed for in 4:29."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 29,
+      "text_greek": "ἐλάλει τε καὶ συνεζήτει πρὸς τοὺς Ἑλληνιστάς, οἱ δὲ ἐπεχείρουν ἀνελεῖν αὐτόν.",
+      "text_kjv": "And he spake boldly in the name of the Lord Jesus, and disputed against the Grecians: but they went about to slay him.",
+      "rendering": "He spoke and debated with the Hellenists, but they were trying to kill him.",
+      "translator_notes": [
+        "Saul engages the same Greek-speaking Jews (Hellēnistas) who had opposed Stephen (6:9). The verb synezētei ('debated, disputed') suggests vigorous intellectual engagement. Their response — attempted murder (epecheiroun anelein auton) — mirrors the response to Stephen. Saul has stepped into Stephen's role and faces Stephen's fate, creating a narrative parallel that Luke emphasizes."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 30,
+      "text_greek": "ἐπιγνόντες δὲ οἱ ἀδελφοὶ κατήγαγον αὐτὸν εἰς Καισάρειαν καὶ ἐξαπέστειλαν αὐτὸν εἰς Ταρσόν.",
+      "text_kjv": "Which when the brethren knew, they brought him down to Caesarea, and sent him forth to Tarsus.",
+      "rendering": "When the brothers learned of this, they brought him down to Caesarea and sent him off to Tarsus.",
+      "translator_notes": [
+        "The community protects Saul by evacuating him — first to Caesarea (the port city) and then to Tarsus (his hometown in Cilicia). According to Galatians 1:21, Paul went to 'the regions of Syria and Cilicia.' Saul disappears from the narrative until Barnabas retrieves him in 11:25-26. The 'silent years' in Tarsus were likely a period of further reflection and teaching preparation."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 31,
+      "text_greek": "Ἡ μὲν οὖν ἐκκλησία καθ' ὅλης τῆς Ἰουδαίας καὶ Γαλιλαίας καὶ Σαμαρείας εἶχεν εἰρήνην οἰκοδομουμένη καὶ πορευομένη τῷ φόβῳ τοῦ κυρίου καὶ τῇ παρακλήσει τοῦ ἁγίου πνεύματος ἐπληθύνετο.",
+      "text_kjv": "Then had the churches rest throughout all Judaea and Galilee and Samaria, and were edified; and walking in the fear of the Lord, and in the comfort of the Holy Ghost, were multiplied.",
+      "rendering": "So the church throughout all Judea and Galilee and Samaria had peace and was being built up. Walking in the fear of the Lord and in the encouragement of the Holy Spirit, it increased in numbers.",
+      "translator_notes": [
+        "This is one of Luke's major summary statements. The singular 'church' (ekklēsia) encompasses the entire community across three regions — Judea, Galilee, and Samaria — indicating a unified body despite geographical spread. The description includes peace (eirēnēn), edification (oikodomoumenē, 'being built up'), reverent living ('walking in the fear of the Lord'), and the Spirit's encouragement (paraklēsei tou hagiou pneumatos). Saul's departure from active persecution may have contributed to the period of peace."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 32,
+      "text_greek": "Ἐγένετο δὲ Πέτρον διερχόμενον διὰ πάντων κατελθεῖν καὶ πρὸς τοὺς ἁγίους τοὺς κατοικοῦντας Λύδδα.",
+      "text_kjv": "And it came to pass, as Peter passed throughout all quarters, he came down also to the saints which dwelt at Lydda.",
+      "rendering": "As Peter was traveling through all the region, he came down also to the saints living in Lydda.",
+      "translator_notes": [
+        "The narrative shifts from Saul to Peter, who will dominate chapters 9-12 before Saul/Paul takes center stage. Peter is traveling (dierchomenon, 'passing through') the churches, exercising an itinerant oversight ministry. Lydda (modern Lod) was a town about 25 miles northwest of Jerusalem, on the road to Joppa and the coast."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 33,
+      "text_greek": "εὗρεν δὲ ἐκεῖ ἄνθρωπόν τινα ὀνόματι Αἰνέαν ἐξ ἐτῶν ὀκτὼ κατακείμενον ἐπὶ κραβάττου, ὃς ἦν παραλελυμένος.",
+      "text_kjv": "And there he found a certain man named AEneas, which had kept his bed eight years, and was sick of the palsy.",
+      "rendering": "There he found a man named Aeneas, bedridden for eight years, who was paralyzed.",
+      "translator_notes": [
+        "The name Aeneas (Ainean) is Greek, suggesting he may have been a Hellenistic Jew or Gentile. His paralysis for eight years (ex etōn oktō) establishes the chronic, hopeless nature of his condition. The detail 'bedridden' (katakeimenon epi krabattou, 'lying on a pallet') emphasizes his complete immobility."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 34,
+      "text_greek": "καὶ εἶπεν αὐτῷ ὁ Πέτρος· Αἰνέα, ἰᾶταί σε Ἰησοῦς Χριστός· ἀνάστηθι καὶ στρῶσον σεαυτῷ. καὶ εὐθέως ἀνέστη.",
+      "text_kjv": "And Peter said unto him, AEneas, Jesus Christ maketh thee whole: arise, and make thy bed. And he arose immediately.",
+      "rendering": "Peter said to him, \"Aeneas, Jesus Christ heals you. Get up and make your bed.\" And immediately he got up.",
+      "translator_notes": [
+        "Peter explicitly credits Jesus Christ as the healer — 'Jesus Christ heals you' (iatai se Iēsous Christos) is present tense, indicating Jesus's active power in the present moment. The command 'make your bed' (strōson seautō) is a practical instruction that demonstrates the completeness of the healing — the man who has been bedridden for eight years can now perform ordinary domestic tasks. The healing is immediate (eutheōs), as in Jesus's own healings."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 35,
+      "text_greek": "καὶ εἶδαν αὐτὸν πάντες οἱ κατοικοῦντες Λύδδα καὶ τὸν Σαρῶνα, οἵτινες ἐπέστρεψαν ἐπὶ τὸν κύριον.",
+      "text_kjv": "And all that dwelt at Lydda and Saron saw him, and turned to the Lord.",
+      "rendering": "All the residents of Lydda and the Sharon Plain saw him and turned to the Lord.",
+      "translator_notes": [
+        "The miracle has a regional impact — not only Lydda but the entire Sharon Plain (ton Sarōna, the fertile coastal plain stretching from Joppa to Mount Carmel) responds. The phrase 'turned to the Lord' (epestrepsan epi ton kyrion) describes conversion, using the same language as the Old Testament prophets' call to return to God."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 36,
+      "text_greek": "Ἐν Ἰόππῃ δέ τις ἦν μαθήτρια ὀνόματι Ταβιθά, ἣ διερμηνευομένη λέγεται Δορκάς· αὕτη ἦν πλήρης ἔργων ἀγαθῶν καὶ ἐλεημοσυνῶν ὧν ἐποίει.",
+      "text_kjv": "Now there was at Joppa a certain disciple named Tabitha, which by interpretation is called Dorcas: this woman was full of good works and almsdeeds which she did.",
+      "rendering": "In Joppa there was a disciple named Tabitha, which is translated Dorcas. She was full of good works and acts of charity.",
+      "translator_notes": [
+        "Tabitha is explicitly called a 'disciple' (mathētria) — the feminine form of mathētēs, used only here in the New Testament. Her Aramaic name Tabitha and its Greek equivalent Dorcas both mean 'gazelle.' Luke characterizes her by her deeds: 'full of good works and acts of charity' (plērēs ergōn agathōn kai eleēmosynōn). She is defined not by theology but by practical compassion."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 37,
+      "text_greek": "ἐγένετο δὲ ἐν ταῖς ἡμέραις ἐκείναις ἀσθενήσασαν αὐτὴν ἀποθανεῖν· λούσαντες δὲ ἔθηκαν αὐτὴν ἐν ὑπερῴῳ.",
+      "text_kjv": "And it came to pass in those days, that she was sick, and died: whom when they had washed, they laid her in an upper chamber.",
+      "rendering": "In those days she became ill and died. After washing her body, they laid her in an upper room.",
+      "translator_notes": [
+        "The washing of the body (lousantes) was the customary Jewish preparation for burial. Placing her in an upper room (hyperōō) rather than immediately burying her (Jewish custom normally required same-day burial) suggests the community hoped for intervention — they had heard that Peter was nearby in Lydda (v. 38)."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 38,
+      "text_greek": "ἐγγὺς δὲ οὔσης Λύδδας τῇ Ἰόππῃ οἱ μαθηταὶ ἀκούσαντες ὅτι Πέτρος ἐστὶν ἐν αὐτῇ ἀπέστειλαν δύο ἄνδρας πρὸς αὐτὸν παρακαλοῦντες· μὴ ὀκνήσῃς διελθεῖν ἕως ἡμῶν.",
+      "text_kjv": "And forasmuch as Lydda was nigh to Joppa, and the disciples had heard that Peter was there, they sent unto him two men, desiring him that he would not delay to come to them.",
+      "rendering": "Since Lydda was near Joppa, the disciples, hearing that Peter was there, sent two men to him with the urgent request, \"Please come to us without delay.\"",
+      "translator_notes": [
+        "Lydda was about 10-12 miles from Joppa, a distance easily traveled in a few hours. The urgency of the request — mē oknēsēs ('do not hesitate, do not delay') — suggests they hoped Peter could do something about Tabitha's death, though they do not explicitly ask for a resurrection."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 39,
+      "text_greek": "ἀναστὰς δὲ Πέτρος συνῆλθεν αὐτοῖς· ὃν παραγενόμενον ἀνήγαγον εἰς τὸ ὑπερῷον, καὶ παρέστησαν αὐτῷ πᾶσαι αἱ χῆραι κλαίουσαι καὶ ἐπιδεικνύμεναι χιτῶνας καὶ ἱμάτια ὅσα ἐποίει μετ' αὐτῶν οὖσα ἡ Δορκάς.",
+      "text_kjv": "Then Peter arose and went with them. When he was come, they brought him into the upper chamber: and all the widows stood by him weeping, and shewing the coats and garments which Dorcas made, while she was with them.",
+      "rendering": "So Peter rose and went with them. When he arrived, they took him to the upper room, and all the widows stood beside him weeping and showing him the tunics and garments that Dorcas had made while she was with them.",
+      "translator_notes": [
+        "The widows' display of Dorcas's handiwork is deeply moving — each garment (chitōnas, 'tunics/undergarments' and himatia, 'cloaks/outer garments') is a tangible memorial of her charity. The phrase 'while she was with them' (met' autōn ousa) is the language of grief — she is no longer with them. The scene echoes Jesus at Jairus's house, where mourners surrounded the dead girl."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 40,
+      "text_greek": "ἐκβαλὼν δὲ ἔξω πάντας ὁ Πέτρος καὶ θεὶς τὰ γόνατα προσηύξατο, καὶ ἐπιστρέψας πρὸς τὸ σῶμα εἶπεν· Ταβιθά, ἀνάστηθι. ἡ δὲ ἤνοιξεν τοὺς ὀφθαλμοὺς αὐτῆς, καὶ ἰδοῦσα τὸν Πέτρον ἀνεκάθισεν.",
+      "text_kjv": "But Peter put them all forth, and kneeled down, and prayed; and turning him to the body said, Tabitha, arise. And she opened her eyes: and when she saw Peter, she sat up.",
+      "rendering": "But Peter sent them all out, knelt down, and prayed. Then turning to the body he said, \"Tabitha, arise.\" She opened her eyes, and when she saw Peter, she sat up.",
+      "translator_notes": [
+        "Peter's actions closely follow Jesus's pattern at the raising of Jairus's daughter (Luke 8:51-56): he sends everyone out, addresses the dead person directly by name, and she rises. The Aramaic 'Tabitha, arise' (Tabitha, anastēthi) is phonetically similar to Jesus's 'Talitha, arise' (Talitha koum, Mark 5:41) — only one letter differs. Peter prays first (prosēuxato), acknowledging that the power comes from God, not from himself. The response is immediate: she opens her eyes and sits up."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 41,
+      "text_greek": "δοὺς δὲ αὐτῇ χεῖρα ἀνέστησεν αὐτήν, φωνήσας δὲ τοὺς ἁγίους καὶ τὰς χήρας παρέστησεν αὐτὴν ζῶσαν.",
+      "text_kjv": "And he gave her his hand, and lifted her up, and when he had called the saints and widows, presented her alive.",
+      "rendering": "He gave her his hand and raised her up. Then calling the saints and the widows, he presented her alive.",
+      "translator_notes": [
+        "Peter gives Tabitha his hand (dous autē cheira) — the same gesture he used to raise the lame man in 3:7. He then 'presented her alive' (parestēsen autēn zōsan) to the community — the word zōsan ('living') is emphatic. The distinction between 'the saints' (tous hagious, the believers generally) and 'the widows' (tas chēras, those who especially benefited from her ministry) suggests two overlapping groups."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 42,
+      "text_greek": "γνωστὸν δὲ ἐγένετο καθ' ὅλης τῆς Ἰόππης καὶ ἐπίστευσαν πολλοὶ ἐπὶ τὸν κύριον.",
+      "text_kjv": "And it was known throughout all Joppa; and many believed in the Lord.",
+      "rendering": "This became known throughout all Joppa, and many believed in the Lord.",
+      "translator_notes": [
+        "As with Aeneas's healing (v. 35), the miracle produces widespread faith. The pattern repeats: sign → testimony → belief. Each miracle extends the reach of the gospel geographically and numerically."
+      ],
+      "reading_level": "5th grade"
+    },
+    {
+      "verse": 43,
+      "text_greek": "ἐγένετο δὲ ἡμέρας ἱκανὰς μεῖναι ἐν Ἰόππῃ παρά τινι Σίμωνι βυρσεῖ.",
+      "text_kjv": "And it came to pass, that he tarried many days in Joppa with one Simon a tanner.",
+      "rendering": "He stayed in Joppa for many days with a man named Simon, a tanner.",
+      "translator_notes": [
+        "Peter's lodging with Simon the tanner (Simōni byrsei) is theologically significant. Tanners worked with animal carcasses and were considered ritually unclean in Jewish tradition — their occupation required constant contact with dead animals. That Peter stays with a tanner suggests his purity boundaries are already loosening, preparing the reader for the revolutionary vision that will come in 10:9-16. Joppa (modern Jaffa/Tel Aviv) is on the Mediterranean coast, positioning Peter for the Gentile mission that is about to begin."
+      ],
+      "reading_level": "6th grade"
+    }
+  ]
+}

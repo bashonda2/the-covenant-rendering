@@ -1,0 +1,535 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Acts",
+    "chapter": 10,
+    "source_text": "SBL Greek New Testament (SBLGNT)",
+    "reference_text": "KJV",
+    "generated_at": "2026-04-05T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Acts 10 narrates the pivotal conversion of Cornelius, a Roman centurion in Caesarea, and the dramatic expansion of the gospel to Gentiles. Cornelius, a God-fearer, receives a vision directing him to send for Peter. Meanwhile, Peter receives his own vision on a rooftop in Joppa: a sheet descending from heaven filled with unclean animals, with a voice commanding him to 'kill and eat.' Peter refuses three times, and the voice responds, 'What God has made clean, do not call common.' When Cornelius's messengers arrive, the Spirit instructs Peter to go with them. Peter preaches at Cornelius's house, and while he is still speaking, the Holy Spirit falls on the Gentile listeners — astonishing the Jewish believers present. Peter orders their baptism.",
+    "remarkable": "This chapter is the theological hinge of Acts. Luke devotes more space to this episode than to any other single event (it is retold in chapter 11 and referenced in chapter 15), signaling its centrality. The vision of unclean animals does not primarily concern dietary laws — Peter himself interprets it as God showing him 'not to call any person common or unclean' (10:28). The falling of the Spirit before baptism reverses the Pentecost pattern (baptism then Spirit) and removes any human gatekeeping from God's acceptance of Gentiles. The phrase 'God shows no partiality' (10:34) becomes a foundational principle of early Christian theology.",
+    "friction": "The Greek koinos ('common') and akathartos ('unclean') carry specific Levitical connotations. Peter's vision does not explicitly abrogate Torah dietary laws — it redefines the categories of clean and unclean as they apply to persons. We render the Greek as given without resolving the ongoing theological debate about the vision's implications for food laws versus ethnic boundaries. The term phobeomai ton theon ('God-fearer') describes Cornelius's status as a Gentile who worshiped Israel's God without full conversion — a historically attested category in Second Temple Judaism.",
+    "connections": "The Cornelius episode fulfills Jesus's commission in Acts 1:8 to be witnesses 'to the ends of the earth.' It connects to the Ethiopian eunuch's baptism (Acts 8:26-40) as a progressive opening to outsiders. Peter's sermon echoes the kerygma of Acts 2 but now explicitly includes 'every nation.' The vision of clean and unclean connects to Leviticus 11 and Mark 7:19. The Spirit's sovereign action parallels Joel 2:28-32, quoted at Pentecost."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_greek": "Ἀνὴρ δέ τις ἐν Καισαρείᾳ ὀνόματι Κορνήλιος, ἑκατοντάρχης ἐκ σπείρης τῆς καλουμένης Ἰταλικῆς,",
+      "text_kjv": "There was a certain man in Caesarea called Cornelius, a centurion of the band called the Italian band,",
+      "rendering": "Now there was a man in Caesarea named Cornelius, a centurion of the cohort called the Italian Cohort.",
+      "translator_notes": [
+        "A centurion (hekatontarches) commanded approximately eighty soldiers within a cohort (speira). The Italian Cohort (speira Italike) was a Roman auxiliary unit composed of Italian-born soldiers stationed in the province of Judea. Caesarea Maritima was the Roman administrative capital, making it a natural location for a Roman military officer."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 2,
+      "text_greek": "εὐσεβὴς καὶ φοβούμενος τὸν θεὸν σὺν παντὶ τῷ οἴκῳ αὐτοῦ, ποιῶν ἐλεημοσύνας πολλὰς τῷ λαῷ καὶ δεόμενος τοῦ θεοῦ διὰ παντός,",
+      "text_kjv": "A devout man, and one that feared God with all his house, which gave much alms to the people, and prayed to God alway.",
+      "rendering": "He was a devout man who feared God with all his household, gave generously to the people, and prayed to God continually.",
+      "translator_notes": [
+        "The description 'fearing God' (phoboumenos ton theon) is a semi-technical term for Gentiles who worshiped Israel's God, observed certain Jewish practices, and attended synagogue, but had not undergone full proselyte conversion including circumcision. Archaeological evidence confirms this category in the Second Temple period."
+      ],
+      "key_terms": [
+        {
+          "greek": "φοβούμενος τὸν θεόν",
+          "transliteration": "phoboumenos ton theon",
+          "rendered_as": "feared God",
+          "semantic_range": "God-fearer, one who reverences God, devout Gentile worshiper of Israel's God",
+          "note": "A recognized category in Second Temple Judaism for Gentile sympathizers who worshiped YHWH without full conversion. Distinct from full proselytes (proselytos)."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 3,
+      "text_greek": "εἶδεν ἐν ὁράματι φανερῶς ὡσεὶ περὶ ὥραν ἐνάτην τῆς ἡμέρας ἄγγελον τοῦ θεοῦ εἰσελθόντα πρὸς αὐτὸν καὶ εἰπόντα αὐτῷ· Κορνήλιε.",
+      "text_kjv": "He saw in a vision evidently about the ninth hour of the day an angel of God coming in to him, and saying unto him, Cornelius.",
+      "rendering": "About the ninth hour of the day he clearly saw in a vision an angel of God come in to him and say, \"Cornelius.\"",
+      "translator_notes": [
+        "The ninth hour (approximately 3 PM) was one of the established Jewish times of prayer. That Cornelius observes this practice confirms his devotion to Israel's God. The adverb phaneros ('clearly, openly') emphasizes that this was not a vague impression but a distinct vision."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 4,
+      "text_greek": "ὁ δὲ ἀτενίσας αὐτῷ καὶ ἔμφοβος γενόμενος εἶπεν· τί ἐστιν, κύριε; εἶπεν δὲ αὐτῷ· αἱ προσευχαί σου καὶ αἱ ἐλεημοσύναι σου ἀνέβησαν εἰς μνημόσυνον ἔμπροσθεν τοῦ θεοῦ.",
+      "text_kjv": "And when he looked on him, he was afraid, and said, What is it, Lord? And he said unto him, Thy prayers and thine alms are come up for a memorial before God.",
+      "rendering": "He stared at the angel in fear and said, \"What is it, Lord?\" The angel said to him, \"Your prayers and your acts of charity have ascended as a memorial offering before God.",
+      "translator_notes": [
+        "The language of 'ascending as a memorial' (anebesan eis mnemosunon) echoes the Old Testament sacrificial vocabulary — particularly the memorial portion (azkarah) of grain offerings (Leviticus 2:2). Cornelius's prayers and charity are presented as a kind of sacrifice that has reached God, even though he is uncircumcised.",
+        "[TCR Cross-Reference] Echoes Leviticus 2:2. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 5,
+      "text_greek": "καὶ νῦν πέμψον ἄνδρας εἰς Ἰόππην καὶ μετάπεμψαι Σίμωνά τινα ὃς ἐπικαλεῖται Πέτρος·",
+      "text_kjv": "And now send men to Joppa, and call for one Simon, whose surname is Peter:",
+      "rendering": "Now send men to Joppa and summon a man named Simon who is called Peter.",
+      "translator_notes": [
+        "Joppa (modern Jaffa/Yafo) lies approximately 30 miles south of Caesarea along the Mediterranean coast. The angel does not deliver the message himself but directs Cornelius to send for Peter — God orchestrates the encounter through human agents."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 6,
+      "text_greek": "οὗτος ξενίζεται παρά τινι Σίμωνι βυρσεῖ, ᾧ ἐστιν οἰκία παρὰ θάλασσαν.",
+      "text_kjv": "He lodgeth with one Simon a tanner, whose house is by the sea side: he shall tell thee what thou oughtest to do.",
+      "rendering": "He is staying with Simon, a tanner, whose house is by the sea.\"",
+      "translator_notes": [
+        "That Peter lodges with a tanner (burseus) is significant: tanning involved contact with animal carcasses, rendering tanners ritually unclean in Jewish practice. Peter is already crossing purity boundaries before his rooftop vision. Some manuscripts add 'he will tell you what you must do,' but the SBLGNT omits this addition."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 7,
+      "text_greek": "ὡς δὲ ἀπῆλθεν ὁ ἄγγελος ὁ λαλῶν αὐτῷ, φωνήσας δύο τῶν οἰκετῶν καὶ στρατιώτην εὐσεβῆ τῶν προσκαρτερούντων αὐτῷ,",
+      "text_kjv": "And when the angel which spake unto Cornelius was departed, he called two of his household servants, and a devout soldier of them that waited on him continually;",
+      "rendering": "When the angel who spoke to him had departed, he called two of his household servants and a devout soldier from among those who attended him.",
+      "translator_notes": [
+        "The devout soldier (stratioten eusebe) reflects Cornelius's influence — his piety has shaped those under his command. The word proskarterounton ('attending, waiting on') suggests personal aides assigned to his service."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 8,
+      "text_greek": "καὶ ἐξηγησάμενος ἅπαντα αὐτοῖς ἀπέστειλεν αὐτοὺς εἰς τὴν Ἰόππην.",
+      "text_kjv": "And when he had declared all these things unto them, he sent them to Joppa.",
+      "rendering": "After explaining everything to them, he sent them to Joppa.",
+      "translator_notes": [
+        "Cornelius shares the full vision with his servants before sending them — he does not merely issue orders but explains the divine directive. This transparency characterizes him throughout the narrative."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 9,
+      "text_greek": "Τῇ δὲ ἐπαύριον ὁδοιπορούντων ἐκείνων καὶ τῇ πόλει ἐγγιζόντων ἀνέβη Πέτρος ἐπὶ τὸ δῶμα προσεύξασθαι περὶ ὥραν ἕκτην.",
+      "text_kjv": "On the morrow, as they went on their journey, and drew nigh unto the city, Peter went up upon the housetop to pray about the sixth hour:",
+      "rendering": "The next day, as they were on their journey and approaching the city, Peter went up on the housetop about the sixth hour to pray.",
+      "translator_notes": [
+        "The sixth hour (approximately noon) was another established time of prayer. Flat-roofed houses in the ancient Mediterranean provided private space for prayer. Luke carefully synchronizes the two narratives — as Cornelius's men approach, Peter is being prepared through vision."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 10,
+      "text_greek": "ἐγένετο δὲ πρόσπεινος καὶ ἤθελεν γεύσασθαι· παρασκευαζόντων δὲ αὐτῶν ἐγένετο ἐπ' αὐτὸν ἔκστασις,",
+      "text_kjv": "And he became very hungry, and would have eaten: but while they made ready, he fell into a trance,",
+      "rendering": "He became hungry and wanted something to eat, but while the meal was being prepared, he fell into a trance.",
+      "translator_notes": [
+        "The word ekstasis ('trance, ecstasy') denotes a state in which normal consciousness is suspended and divine vision becomes possible. Peter's physical hunger becomes the occasion for a vision about food — God uses his immediate experience to communicate a deeper truth."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 11,
+      "text_greek": "καὶ θεωρεῖ τὸν οὐρανὸν ἀνεῳγμένον καὶ καταβαῖνον σκεῦός τι ὡς ὀθόνην μεγάλην τέσσαρσιν ἀρχαῖς καθιέμενον ἐπὶ τῆς γῆς,",
+      "text_kjv": "And saw heaven opened, and a certain vessel descending unto him, as it had been a great sheet knit at the four corners, and let down to the earth:",
+      "rendering": "He saw heaven opened and something like a large sheet descending, being let down by its four corners to the earth.",
+      "translator_notes": [
+        "The opened heaven (ton ouranon aneogmenon) signals divine revelation — the same imagery appears at Jesus's baptism (Luke 3:21) and Stephen's martyrdom (Acts 7:56). The 'four corners' suggest universality, representing all directions and all peoples."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 12,
+      "text_greek": "ἐν ᾧ ὑπῆρχεν πάντα τὰ τετράποδα καὶ ἑρπετὰ τῆς γῆς καὶ πετεινὰ τοῦ οὐρανοῦ.",
+      "text_kjv": "Wherein were all manner of fourfooted beasts of the earth, and wild beasts, and creeping things, and fowls of the air.",
+      "rendering": "In it were all kinds of four-footed animals and reptiles of the earth and birds of the air.",
+      "translator_notes": [
+        "The categories echo the creation account in Genesis 1:24-26 and the clean/unclean distinctions of Leviticus 11. The word 'all' (panta) is emphatic — the sheet contains every category without distinction, deliberately mixing what Torah separates.",
+        "[TCR Cross-Reference] Draws on Genesis 1:24-26. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices.",
+        "[TCR Cross-Reference] Draws on Leviticus 11. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 13,
+      "text_greek": "καὶ ἐγένετο φωνὴ πρὸς αὐτόν· ἀναστάς, Πέτρε, θῦσον καὶ φάγε.",
+      "text_kjv": "And there came a voice to him, Rise, Peter; kill, and eat.",
+      "rendering": "And a voice came to him: \"Rise, Peter; kill and eat.\"",
+      "translator_notes": [
+        "The command thuson ('slaughter, sacrifice') followed by phage ('eat') uses sacrificial vocabulary. The voice does not specify which animals to eat — the command is comprehensive and undifferentiated, challenging the entire clean/unclean classification system."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 14,
+      "text_greek": "ὁ δὲ Πέτρος εἶπεν· μηδαμῶς, κύριε, ὅτι οὐδέποτε ἔφαγον πᾶν κοινὸν καὶ ἀκάθαρτον.",
+      "text_kjv": "But Peter said, Not so, Lord; for I have never eaten any thing that is common or unclean.",
+      "rendering": "But Peter said, \"By no means, Lord, for I have never eaten anything common or unclean.\"",
+      "translator_notes": [
+        "Peter's refusal combines two terms: koinon ('common,' i.e., not sanctified, profane) and akatharton ('unclean,' i.e., forbidden by Torah). His response echoes Ezekiel's protest when commanded to eat unclean food (Ezekiel 4:14). The juxtaposition of 'by no means' (medamos) with 'Lord' (kyrie) captures Peter's inner conflict — he refuses a divine command out of devotion to divine law.",
+        "[TCR Cross-Reference] Echoes Ezekiel 4:14. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "key_terms": [
+        {
+          "greek": "κοινός",
+          "transliteration": "koinos",
+          "rendered_as": "common",
+          "semantic_range": "common, ordinary, profane, defiled, ritually impure",
+          "note": "In Jewish usage, koinos describes something that has become impure through contact or neglect of purity regulations. It is not inherently unclean by nature (akathartos) but has been rendered unfit."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 15,
+      "text_greek": "καὶ φωνὴ πάλιν ἐκ δευτέρου πρὸς αὐτόν· ἃ ὁ θεὸς ἐκαθάρισεν, σὺ μὴ κοίνου.",
+      "text_kjv": "And the voice spake unto him again the second time, What God hath cleansed, that call not thou common.",
+      "rendering": "And the voice came to him again a second time: \"What God has made clean, do not call common.\"",
+      "translator_notes": [
+        "This is the interpretive key to the entire vision. The verb ekatharisen ('has made clean, has cleansed') is aorist, indicating a completed divine action. God has already declared clean what Peter still considers common. The imperative me koinou ('do not call common, do not treat as profane') directly countermands Peter's categories. As Peter himself will explain in verse 28, the vision is ultimately about people, not food."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 16,
+      "text_greek": "τοῦτο δὲ ἐγένετο ἐπὶ τρίς, καὶ εὐθὺς ἀνελήμφθη τὸ σκεῦος εἰς τὸν οὐρανόν.",
+      "text_kjv": "This was done thrice: and the vessel was received up again into heaven.",
+      "rendering": "This happened three times, and immediately the sheet was taken up into heaven.",
+      "translator_notes": [
+        "The threefold repetition recalls Peter's threefold denial (Luke 22:54-62) and his threefold restoration (John 21:15-17). The pattern of three emphasizes divine persistence in overcoming human resistance. The sheet's return to heaven confirms its heavenly origin and authority."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 17,
+      "text_greek": "Ὡς δὲ ἐν ἑαυτῷ διηπόρει ὁ Πέτρος τί ἂν εἴη τὸ ὅραμα ὃ εἶδεν, ἰδοὺ οἱ ἄνδρες οἱ ἀπεσταλμένοι ὑπὸ τοῦ Κορνηλίου διερωτήσαντες τὴν οἰκίαν τοῦ Σίμωνος ἐπέστησαν ἐπὶ τὸν πυλῶνα,",
+      "text_kjv": "Now while Peter doubted in himself what this vision which he had seen should mean, behold, the men which were sent from Cornelius had made enquiry for Simon's house, and stood before the gate,",
+      "rendering": "Now while Peter was puzzling over what the vision might mean, the men sent by Cornelius, having asked directions to Simon's house, stood at the gate.",
+      "translator_notes": [
+        "The verb diaporeo ('be puzzled, be at a loss') shows that Peter does not immediately understand the vision's meaning. God's timing is precise: the vision's interpretation arrives not through explanation but through the arrival of Gentile visitors. The narrative structure itself teaches Peter — and the reader — what the vision means."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 18,
+      "text_greek": "καὶ φωνήσαντες ἐπυνθάνοντο εἰ Σίμων ὁ ἐπικαλούμενος Πέτρος ἐνθάδε ξενίζεται.",
+      "text_kjv": "And called, and asked whether Simon, which was surnamed Peter, were lodged there.",
+      "rendering": "They called out and asked whether Simon, who was called Peter, was staying there.",
+      "translator_notes": [
+        "The verb xenizomai ('stay as a guest, be hosted') is related to xenos ('stranger, foreigner'). Peter is himself a guest — a stranger in someone else's house — when he is asked to go to another stranger's house. The theme of hospitality across boundaries pervades this chapter."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 19,
+      "text_greek": "τοῦ δὲ Πέτρου διενθυμουμένου περὶ τοῦ ὁράματος εἶπεν αὐτῷ τὸ πνεῦμα· ἰδοὺ ἄνδρες τρεῖς ζητοῦντές σε·",
+      "text_kjv": "While Peter thought on the vision, the Spirit said unto him, Behold, three men seek thee.",
+      "rendering": "While Peter was still reflecting on the vision, the Spirit said to him, \"Look, three men are looking for you.",
+      "translator_notes": [
+        "The Spirit speaks directly to Peter, connecting the vision to the arriving visitors. Some manuscripts read 'two men' instead of 'three' (accounting only for the servants, not the soldier). The SBLGNT reads 'three,' which matches the narrative in verse 7."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 20,
+      "text_greek": "ἀλλὰ ἀναστὰς κατάβηθι καὶ πορεύου σὺν αὐτοῖς μηδὲν διακρινόμενος, ὅτι ἐγὼ ἀπέσταλκα αὐτούς.",
+      "text_kjv": "Arise therefore, and get thee down, and go with them, doubting nothing: for I have sent them.",
+      "rendering": "Rise, go down, and accompany them without hesitation, for I have sent them.\"",
+      "translator_notes": [
+        "The participle diakrinomenos can mean 'doubting' or 'making distinctions' — both senses are relevant. Peter is not to doubt the Spirit's instruction, and he is not to make ethnic distinctions about his visitors. The Spirit claims responsibility: 'I have sent them' (ego apestalka autous), making the Gentile visitors divine emissaries."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 21,
+      "text_greek": "καταβὰς δὲ Πέτρος πρὸς τοὺς ἄνδρας εἶπεν· ἰδοὺ ἐγώ εἰμι ὃν ζητεῖτε· τίς ἡ αἰτία δι' ἣν πάρεστε;",
+      "text_kjv": "Then Peter went down to the men which were sent unto him from Cornelius; and said, Behold, I am he whom ye seek: what is the cause wherefore ye are come?",
+      "rendering": "Peter went down to the men and said, \"I am the one you are looking for. What is the reason you have come?\"",
+      "translator_notes": [
+        "Peter's obedience is immediate — he goes down from the rooftop without further argument. His self-identification ('I am the one you are looking for') and his question show readiness to hear what God has arranged."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 22,
+      "text_greek": "οἱ δὲ εἶπαν· Κορνήλιος ἑκατοντάρχης, ἀνὴρ δίκαιος καὶ φοβούμενος τὸν θεόν, μαρτυρούμενός τε ὑπὸ ὅλου τοῦ ἔθνους τῶν Ἰουδαίων, ἐχρηματίσθη ὑπὸ ἀγγέλου ἁγίου μεταπέμψασθαί σε εἰς τὸν οἶκον αὐτοῦ καὶ ἀκοῦσαι ῥήματα παρὰ σοῦ.",
+      "text_kjv": "And they said, Cornelius the centurion, a just man, and one that feareth God, and of good report among all the nation of the Jews, was warned from God by an holy angel to send for thee into his house, and to hear words of thee.",
+      "rendering": "They said, \"Cornelius, a centurion, a righteous and God-fearing man well spoken of by the whole Jewish nation, was directed by a holy angel to send for you to come to his house and to hear a message from you.\"",
+      "translator_notes": [
+        "The servants' description emphasizes Cornelius's credentials to reassure Peter: he is righteous, God-fearing, and respected even by Jews. The verb echrematisthe ('was directed, received a divine instruction') is used in the New Testament specifically for divine oracles and revelations (cf. Matthew 2:12, 22)."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 23,
+      "text_greek": "εἰσκαλεσάμενος οὖν αὐτοὺς ἐξένισεν. Τῇ δὲ ἐπαύριον ἀναστὰς ἐξῆλθεν σὺν αὐτοῖς, καί τινες τῶν ἀδελφῶν τῶν ἀπὸ Ἰόππης συνῆλθον αὐτῷ.",
+      "text_kjv": "Then called he them in, and lodged them. And on the morrow Peter went away with them, and certain brethren from Joppa accompanied him.",
+      "rendering": "So he invited them in and gave them lodging. The next day he rose and went with them, and some of the brothers from Joppa accompanied him.",
+      "translator_notes": [
+        "Peter's act of inviting Gentiles in and hosting them overnight is itself a boundary-crossing act — sharing table and lodging with Gentiles violated Jewish purity conventions. The 'brothers from Joppa' (six of them, according to 11:12) serve as witnesses to what will happen at Cornelius's house."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 24,
+      "text_greek": "τῇ δὲ ἐπαύριον εἰσῆλθεν εἰς τὴν Καισάρειαν· ὁ δὲ Κορνήλιος ἦν προσδοκῶν αὐτούς, συγκαλεσάμενος τοὺς συγγενεῖς αὐτοῦ καὶ τοὺς ἀναγκαίους φίλους.",
+      "text_kjv": "And the morrow after they entered into Caesarea. And Cornelius waited for them, and had called together his kinsmen and near friends.",
+      "rendering": "The following day they entered Caesarea. Cornelius was expecting them and had called together his relatives and close friends.",
+      "translator_notes": [
+        "Cornelius's faith is shown by his preparation — he assembles a gathering before Peter arrives, fully trusting that God's plan will unfold. The phrase anagkaious philous ('close friends, intimate friends') suggests deep personal relationships. This is not an individual conversion but a household event."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 25,
+      "text_greek": "ὡς δὲ ἐγένετο τοῦ εἰσελθεῖν τὸν Πέτρον, συναντήσας αὐτῷ ὁ Κορνήλιος πεσὼν ἐπὶ τοὺς πόδας προσεκύνησεν.",
+      "text_kjv": "And as Peter was coming in, Cornelius met him, and fell down at his feet, and worshipped him.",
+      "rendering": "When Peter entered, Cornelius met him and fell at his feet to worship him.",
+      "translator_notes": [
+        "The verb prosekunesen ('worshiped, did obeisance') can denote either divine worship or extreme honor toward a superior. Cornelius, accustomed to Roman hierarchy and perhaps viewing Peter as a divine messenger, offers an excessive gesture that Peter immediately corrects."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 26,
+      "text_greek": "ὁ δὲ Πέτρος ἤγειρεν αὐτὸν λέγων· ἀνάστηθι· καὶ ἐγὼ αὐτὸς ἄνθρωπός εἰμι.",
+      "text_kjv": "But Peter took him up, saying, Stand up; I myself also am a man.",
+      "rendering": "But Peter lifted him up, saying, \"Stand up; I myself am also just a man.\"",
+      "translator_notes": [
+        "Peter's refusal of worship contrasts sharply with Herod's acceptance of divine honors in Acts 12:22-23. The phrase 'I myself am also a man' (kai ego autos anthropos eimi) emphasizes shared humanity — precisely the lesson Peter has just learned from his vision."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 27,
+      "text_greek": "καὶ συνομιλῶν αὐτῷ εἰσῆλθεν, καὶ εὑρίσκει συνεληλυθότας πολλούς,",
+      "text_kjv": "And as he talked with him, he went in, and found many that were come together.",
+      "rendering": "And as he talked with him, he went in and found many people gathered.",
+      "translator_notes": [
+        "The casual verb synomilon ('conversing, talking together') suggests Peter and Cornelius speak as equals. Peter enters a Gentile house — a boundary he would not have crossed days earlier — and finds a large assembly waiting."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 28,
+      "text_greek": "ἔφη τε πρὸς αὐτούς· ὑμεῖς ἐπίστασθε ὡς ἀθέμιτόν ἐστιν ἀνδρὶ Ἰουδαίῳ κολλᾶσθαι ἢ προσέρχεσθαι ἀλλοφύλῳ· κἀμοὶ ὁ θεὸς ἔδειξεν μηδένα κοινὸν ἢ ἀκάθαρτον λέγειν ἄνθρωπον·",
+      "text_kjv": "And he said unto them, Ye know how that it is an unlawful thing for a man that is a Jew to keep company, or come unto one of another nation; but God hath shewed me that I should not call any man common or unclean.",
+      "rendering": "He said to them, \"You yourselves know that it is unlawful for a Jewish man to associate with or visit a foreigner. But God has shown me that I should not call any person common or unclean.",
+      "translator_notes": [
+        "Peter now reveals his interpretation of the rooftop vision: it was about people, not food. The word athemiton ('unlawful, forbidden') does not refer to Torah prohibitions per se but to the extra-biblical purity traditions that had developed prohibiting table fellowship with Gentiles. Peter's declaration 'I should not call any person common or unclean' (medena koinon e akatharton legein anthropon) applies the categories of his vision directly to human beings."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 29,
+      "text_greek": "διὸ καὶ ἀναντιρρήτως ἦλθον μεταπεμφθείς. πυνθάνομαι οὖν τίνι λόγῳ μετεπέμψασθέ με;",
+      "text_kjv": "Therefore came I unto you without gainsaying, as soon as I was sent for: I ask therefore for what intent ye have sent for me?",
+      "rendering": "So when I was sent for, I came without objection. Now I ask, for what reason did you send for me?\"",
+      "translator_notes": [
+        "The adverb anantirretos ('without objection, without contradiction') shows that Peter has accepted the vision's teaching fully, at least in principle. His question to Cornelius is not hesitation but an invitation for Cornelius to share his own divine encounter, establishing that both sides have been led by God."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 30,
+      "text_greek": "καὶ ὁ Κορνήλιος ἔφη· ἀπὸ τετάρτης ἡμέρας μέχρι ταύτης τῆς ὥρας ἤμην τὴν ἐνάτην προσευχόμενος ἐν τῷ οἴκῳ μου, καὶ ἰδοὺ ἀνὴρ ἔστη ἐνώπιόν μου ἐν ἐσθῆτι λαμπρᾷ",
+      "text_kjv": "And Cornelius said, Four days ago I was fasting until this hour; and at the ninth hour I prayed in my house, and, behold, a man stood before me in bright clothing,",
+      "rendering": "Cornelius said, \"Four days ago at this very hour, I was praying at the ninth hour in my house, and a man stood before me in bright clothing",
+      "translator_notes": [
+        "Cornelius retells his vision, now describing the angel as 'a man in bright clothing' (aner en estheti lampra). The 'bright clothing' is a standard biblical marker for heavenly beings (cf. Luke 24:4, Acts 1:10). Some manuscripts add 'fasting and' before 'praying,' but the SBLGNT omits it."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 31,
+      "text_greek": "καὶ φησίν· Κορνήλιε, εἰσηκούσθη σου ἡ προσευχὴ καὶ αἱ ἐλεημοσύναι σου ἐμνήσθησαν ἐνώπιον τοῦ θεοῦ.",
+      "text_kjv": "And said, Cornelius, thy prayer is heard, and thine alms are had in remembrance in the sight of God.",
+      "rendering": "Stated, Cornelius, your prayer is listened to, and your alms are had in remembrance in the sight of God.",
+      "translator_notes": [
+        "The passive verbs — 'has been heard' (eisekousthe) and 'have been remembered' (emnesthesan) — use the divine passive: God is the one hearing and remembering. Cornelius's devotion has not gone unnoticed."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 32,
+      "text_greek": "πέμψον οὖν εἰς Ἰόππην καὶ μετακάλεσαι Σίμωνα ὃς ἐπικαλεῖται Πέτρος· οὗτος ξενίζεται ἐν οἰκίᾳ Σίμωνος βυρσέως παρὰ θάλασσαν.",
+      "text_kjv": "Send therefore to Joppa, and call hither Simon, whose surname is Peter; he is lodged in the house of one Simon a tanner by the sea side: who, when he cometh, shall speak unto thee.",
+      "rendering": "Send therefore to Joppa and ask for Simon who is called Peter. He is staying in the house of Simon, a tanner, by the sea.'",
+      "translator_notes": [
+        "Cornelius faithfully recounts the angel's specific instructions, including the detail about the tanner's house by the sea. The precision of the directions confirms the vision's divine origin."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 33,
+      "text_greek": "ἐξαυτῆς οὖν ἔπεμψα πρὸς σέ, σύ τε καλῶς ἐποίησας παραγενόμενος. νῦν οὖν πάντες ἡμεῖς ἐνώπιον τοῦ θεοῦ πάρεσμεν ἀκοῦσαι πάντα τὰ προστεταγμένα σοι ὑπὸ τοῦ κυρίου.",
+      "text_kjv": "Immediately therefore I sent to thee; and thou hast well done that thou art come. Now therefore are we all here present before God, to hear all things that are commanded thee of God.",
+      "rendering": "So I sent for you at once, and you were kind enough to come. Now therefore we are all here in the presence of God to hear everything that the Lord has commanded you to say.\"",
+      "translator_notes": [
+        "Cornelius's words 'we are all here in the presence of God' (enopion tou theou) frame the gathering as a sacred assembly. His readiness to hear 'everything commanded' shows complete openness to divine instruction. This is one of the most receptive audiences in all of Acts."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 34,
+      "text_greek": "ἀνοίξας δὲ Πέτρος τὸ στόμα εἶπεν· ἐπ' ἀληθείας καταλαμβάνομαι ὅτι οὐκ ἔστιν προσωπολήμπτης ὁ θεός,",
+      "text_kjv": "Then Peter opened his mouth, and said, Of a truth I perceive that God is no respecter of persons:",
+      "rendering": "So Peter opened his mouth and said, \"Truly I understand that God shows no partiality,",
+      "translator_notes": [
+        "The phrase 'opened his mouth' (anoixas to stoma) is a Semitic idiom signaling a solemn, weighty declaration. The word prosopolemptes ('one who shows partiality, respecter of persons') appears only here in the New Testament. It derives from the Hebrew nasa panim ('to lift the face'), meaning to show favoritism. Peter's new understanding directly contradicts the ethnic exclusivism he held before the vision."
+      ],
+      "key_terms": [
+        {
+          "greek": "προσωπολήμπτης",
+          "transliteration": "prosopolemptes",
+          "rendered_as": "shows partiality",
+          "semantic_range": "one who shows partiality, respecter of persons, one who judges by external appearance",
+          "note": "A compound word from prosopon ('face') and lambano ('take, receive'). Reflects the Hebrew idiom of 'lifting someone's face' — showing favoritism based on status, ethnicity, or position."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 35,
+      "text_greek": "ἀλλ' ἐν παντὶ ἔθνει ὁ φοβούμενος αὐτὸν καὶ ἐργαζόμενος δικαιοσύνην δεκτὸς αὐτῷ ἐστιν.",
+      "text_kjv": "But in every nation he that feareth him, and worketh righteousness, is accepted with him.",
+      "rendering": "However, in every nation he that feareth him, and worketh moral integrity, is accepted with him.",
+      "translator_notes": [
+        "This verse does not teach salvation by works apart from the gospel — Peter is about to preach Christ. Rather, it declares that God's acceptance is not limited by ethnicity. The person who fears God and practices righteousness, in any nation, is one whom God welcomes to hear the gospel and receive its promise."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 36,
+      "text_greek": "τὸν λόγον ὃν ἀπέστειλεν τοῖς υἱοῖς Ἰσραὴλ εὐαγγελιζόμενος εἰρήνην διὰ Ἰησοῦ Χριστοῦ — οὗτός ἐστιν πάντων κύριος —",
+      "text_kjv": "The word which God sent unto the children of Israel, preaching peace by Jesus Christ: (he is Lord of all:)",
+      "rendering": "As for the word that he sent to the children of Israel, proclaiming the good news of peace through Jesus Christ — he is Lord of all —",
+      "translator_notes": [
+        "The grammatical structure is difficult; the sentence begins here but does not resolve easily until verse 37. The parenthetical declaration 'he is Lord of all' (houtos estin panton kyrios) is theologically explosive in this setting: if Jesus is Lord of all, not just of Israel, then Gentiles are included in his lordship. The phrase 'good news of peace' (euangelizomenos eirenen) echoes Isaiah 52:7.",
+        "[TCR Cross-Reference] Quotes Isaiah 52:7. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 37,
+      "text_greek": "ὑμεῖς οἴδατε τὸ γενόμενον ῥῆμα καθ' ὅλης τῆς Ἰουδαίας, ἀρξάμενος ἀπὸ τῆς Γαλιλαίας μετὰ τὸ βάπτισμα ὃ ἐκήρυξεν Ἰωάννης,",
+      "text_kjv": "That word, I say, ye know, which was published throughout all Judaea, and began from Galilee, after the baptism which John preached;",
+      "rendering": "You know what happened throughout Judea, beginning in Galilee after the baptism that John proclaimed —",
+      "translator_notes": [
+        "Peter assumes his audience has heard about Jesus's ministry — the events were widely known. The summary that follows (vv. 37-43) is a compressed kerygma (gospel proclamation) covering Jesus's ministry, death, and resurrection, structured similarly to the Gospel of Mark."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 38,
+      "text_greek": "Ἰησοῦν τὸν ἀπὸ Ναζαρέθ, ὡς ἔχρισεν αὐτὸν ὁ θεὸς πνεύματι ἁγίῳ καὶ δυνάμει, ὃς διῆλθεν εὐεργετῶν καὶ ἰώμενος πάντας τοὺς καταδυναστευομένους ὑπὸ τοῦ διαβόλου, ὅτι ὁ θεὸς ἦν μετ' αὐτοῦ.",
+      "text_kjv": "How God anointed Jesus of Nazareth with the Holy Ghost and with power: who went about doing good, and healing all that were oppressed of the devil; for God was with him.",
+      "rendering": "How God anointed Jesus of Nazareth with the Holy Ghost and with authority — who traveled concerning doing good, and healing all that were oppressed of the devil. For God was with him.",
+      "translator_notes": [
+        "The verb echrisen ('anointed') connects Jesus to his title Christos ('Anointed One'). The anointing refers to Jesus's baptism and the Spirit's descent (Luke 3:22). The description of Jesus 'doing good and healing' (euergeton kai iomenos) is the most concise summary of Jesus's ministry in the New Testament. The phrase 'God was with him' echoes the Emmanuel theme."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 39,
+      "text_greek": "καὶ ἡμεῖς μάρτυρες πάντων ὧν ἐποίησεν ἔν τε τῇ χώρᾳ τῶν Ἰουδαίων καὶ ἐν Ἰερουσαλήμ· ὃν καὶ ἀνεῖλαν κρεμάσαντες ἐπὶ ξύλου.",
+      "text_kjv": "And we are witnesses of all things which he did both in the land of the Jews, and in Jerusalem; whom they slew and hanged on a tree:",
+      "rendering": "We are witnesses of everything he did both in the country of the Jews and in Jerusalem. They put him to death by hanging him on a tree,",
+      "translator_notes": [
+        "Peter claims eyewitness authority (hemeis martyres, 'we are witnesses'). The phrase 'hanging on a tree' (kremasantes epi xylou) alludes to Deuteronomy 21:22-23, where one hung on a tree is 'cursed by God.' This Old Testament allusion appears repeatedly in early Christian preaching (Acts 5:30, Galatians 3:13) as part of the scandal and theology of the cross.",
+        "[TCR Cross-Reference] Echoes Deuteronomy 21:22-23. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 40,
+      "text_greek": "τοῦτον ὁ θεὸς ἤγειρεν τῇ τρίτῃ ἡμέρᾳ καὶ ἔδωκεν αὐτὸν ἐμφανῆ γενέσθαι,",
+      "text_kjv": "Him God raised up the third day, and shewed him openly;",
+      "rendering": "God raised him on the third day and allowed him to be seen openly.",
+      "translator_notes": [
+        "The contrast is sharp: 'they put him to death' (v. 39) but 'God raised him' (v. 40). Human violence is overturned by divine action. The verb edoken ('gave, caused') with emphane genesthai ('to become visible') suggests that the resurrection appearances were God's deliberate act of disclosure, not something Jesus did independently."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 41,
+      "text_greek": "οὐ παντὶ τῷ λαῷ, ἀλλὰ μάρτυσιν τοῖς προκεχειροτονημένοις ὑπὸ τοῦ θεοῦ, ἡμῖν, οἵτινες συνεφάγομεν καὶ συνεπίομεν αὐτῷ μετὰ τὸ ἀναστῆναι αὐτὸν ἐκ νεκρῶν·",
+      "text_kjv": "Not to all the people, but unto witnesses chosen before of God, even to us, who did eat and drink with him after he rose from the dead.",
+      "rendering": "Not to all the people, but to witnesses chosen before of God, indeed to us, who did consume and feast with him after he rose from the dead.",
+      "translator_notes": [
+        "The risen Jesus appeared not to the general public but to chosen witnesses (martusin tois prokecheirotonemenois). The detail of eating and drinking with the risen Jesus (synephagomen kai synepiomen) emphasizes the bodily, physical reality of the resurrection — this was not a ghost or a vision but a person who shared meals."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 42,
+      "text_greek": "καὶ παρήγγειλεν ἡμῖν κηρύξαι τῷ λαῷ καὶ διαμαρτύρασθαι ὅτι οὗτός ἐστιν ὁ ὡρισμένος ὑπὸ τοῦ θεοῦ κριτὴς ζώντων καὶ νεκρῶν.",
+      "text_kjv": "And he commanded us to preach unto the people, and to testify that it is he which was ordained of God to be the Judge of quick and dead.",
+      "rendering": "He commanded us to preach to the people and to testify that he is the one appointed by God as judge of the living and the dead.",
+      "translator_notes": [
+        "Jesus is presented not only as Savior but as judge (krites) — the one who will evaluate all humanity, both living and dead. The verb horismenos ('appointed, designated') is related to the English word 'horizon' — God has set the boundary of final judgment in the person of Jesus."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 43,
+      "text_greek": "τούτῳ πάντες οἱ προφῆται μαρτυροῦσιν, ἄφεσιν ἁμαρτιῶν λαβεῖν διὰ τοῦ ὀνόματος αὐτοῦ πάντα τὸν πιστεύοντα εἰς αὐτόν.",
+      "text_kjv": "To him give all the prophets witness, that through his name whosoever believeth in him shall receive remission of sins.",
+      "rendering": "To him all the prophets bear witness that everyone who believes in him receives forgiveness of sins through his name.\"",
+      "translator_notes": [
+        "Peter grounds the gospel in the prophetic witness of the entire Old Testament — 'all the prophets' (pantes hoi prophetai). The offer of forgiveness is universal: 'everyone who believes' (panta ton pisteuonta), with no ethnic qualification. This is the climax of Peter's sermon, and the Spirit will dramatically confirm it in the next verse."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 44,
+      "text_greek": "Ἔτι λαλοῦντος τοῦ Πέτρου τὰ ῥήματα ταῦτα ἐπέπεσεν τὸ πνεῦμα τὸ ἅγιον ἐπὶ πάντας τοὺς ἀκούοντας τὸν λόγον.",
+      "text_kjv": "While Peter yet spake these words, the Holy Ghost fell on all them which heard the word.",
+      "rendering": "While Peter was still speaking these words, the Holy Spirit fell on all who were hearing the message.",
+      "translator_notes": [
+        "The Spirit interrupts Peter's sermon — he is 'still speaking' (eti lalountos) when the Spirit falls. God does not wait for Peter to finish, issue an altar call, or baptize. The verb epepesen ('fell upon') conveys sudden, powerful, uninvited arrival. This is the Gentile Pentecost — the Spirit's sovereign act that settles the question of Gentile inclusion before any human decision can be made."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 45,
+      "text_greek": "καὶ ἐξέστησαν οἱ ἐκ περιτομῆς πιστοὶ ὅσοι συνῆλθαν τῷ Πέτρῳ, ὅτι καὶ ἐπὶ τὰ ἔθνη ἡ δωρεὰ τοῦ ἁγίου πνεύματος ἐκκέχυται·",
+      "text_kjv": "And they of the circumcision which believed were astonished, as many as came with Peter, because that on the Gentiles also was poured out the gift of the Holy Ghost.",
+      "rendering": "The circumcised believers who had come with Peter were astonished, because the gift of the Holy Spirit had been poured out even on the Gentiles.",
+      "translator_notes": [
+        "The phrase 'circumcised believers' (hoi ek peritomes pistoi) identifies Peter's Jewish Christian companions. Their astonishment (exestesan) reveals how unexpected Gentile inclusion was — even after Peter's vision, they did not anticipate this. The verb ekkechutai ('has been poured out') echoes Joel 2:28 and Acts 2:17-18, explicitly linking this event to Pentecost.",
+        "[TCR Cross-Reference] This verse quotes Joel 2:28 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 46,
+      "text_greek": "ἤκουον γὰρ αὐτῶν λαλούντων γλώσσαις καὶ μεγαλυνόντων τὸν θεόν. τότε ἀπεκρίθη Πέτρος·",
+      "text_kjv": "For they heard them speak with tongues, and magnify God. Then answered Peter,",
+      "rendering": "For they heard them speaking in tongues and magnifying God. Then Peter declared,",
+      "translator_notes": [
+        "The evidence of the Spirit's presence is the same as at Pentecost: speaking in tongues (glossais) and praising God. This parallel is essential to Luke's argument — the same Spirit, the same manifestation, the same gift given to Gentiles as to Jews. No additional requirement can be imposed."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 47,
+      "text_greek": "μήτι τὸ ὕδωρ δύναται κωλῦσαί τις τοῦ μὴ βαπτισθῆναι τούτους, οἵτινες τὸ πνεῦμα τὸ ἅγιον ἔλαβον ὡς καὶ ἡμεῖς;",
+      "text_kjv": "Can any man forbid water, that these should not be baptized, which have received the Holy Ghost as well as we?",
+      "rendering": "\"Can anyone withhold water for baptizing these people, who have received the Holy Spirit just as we have?\"",
+      "translator_notes": [
+        "Peter's rhetorical question expects a negative answer: no one can deny baptism to those whom God has already accepted. The phrase 'just as we have' (hos kai hemeis) is the decisive argument — the Gentiles' experience is identical to the apostles' own. Water baptism follows Spirit baptism as confirmation, not as prerequisite."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 48,
+      "text_greek": "προσέταξεν δὲ αὐτοὺς ἐν τῷ ὀνόματι Ἰησοῦ Χριστοῦ βαπτισθῆναι. τότε ἠρώτησαν αὐτὸν ἐπιμεῖναι ἡμέρας τινάς.",
+      "text_kjv": "And he commanded them to be baptized in the name of the Lord. Then prayed they him to tarry certain days.",
+      "rendering": "And he commanded them to be baptized in the name of Jesus Christ. Then they asked him to stay for some days.",
+      "translator_notes": [
+        "Peter commands baptism 'in the name of Jesus Christ' (en to onomati Iesou Christou), the standard formula in Acts (cf. 2:38, 8:16, 19:5). The invitation to stay (epimeinai) indicates table fellowship — Peter remains in a Gentile household, sharing meals and life with the newly baptized. The barrier has been permanently broken."
+      ],
+      "reading_level": "7th grade"
+    }
+  ]
+}

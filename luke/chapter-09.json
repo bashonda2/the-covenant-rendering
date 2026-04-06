@@ -1,0 +1,732 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Luke",
+    "chapter": 9,
+    "source_text": "SBL Greek New Testament (SBLGNT)",
+    "reference_text": "KJV",
+    "generated_at": "2026-04-04T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Luke 9 is a pivotal chapter that marks the transition from Jesus's Galilean ministry to the journey toward Jerusalem. Jesus sends the Twelve on their first independent mission, feeds five thousand with five loaves and two fish, and elicits Peter's confession that he is the Christ. The chapter then introduces the cost of discipleship, reveals Jesus's glory at the Transfiguration, heals a demon-possessed boy, and repeatedly warns the disciples about his coming suffering. The chapter closes with three would-be followers who each face the radical demands of following Jesus.",
+    "remarkable": "Luke compresses an enormous range of material into this chapter, creating a deliberate theological arc: Jesus empowers the Twelve (vv. 1-6), the crowds respond (vv. 7-17), Peter confesses (vv. 18-20), and then Jesus immediately redefines messiahship through suffering (vv. 21-27). The Transfiguration (vv. 28-36) — unique in Luke for noting that Jesus was praying when it happened — confirms divine sonship just after the first passion prediction. Luke alone records that Moses and Elijah spoke with Jesus about his 'exodus' (exodon) that he was about to accomplish in Jerusalem, a word loaded with Old Testament resonance. The chapter's final section (vv. 51-62) sets Jesus's face toward Jerusalem, a journey that will occupy the next ten chapters of Luke's Gospel.",
+    "friction": "The feeding of the five thousand is the only miracle recorded in all four Gospels, and Luke's version is the most compressed. Herod's perplexity about Jesus (vv. 7-9) is unique to Luke in its emphasis on Herod's desire to see Jesus — a thread that will not resolve until the passion narrative (23:8). The phrase 'set his face' (to prosōpon estērisen) in v. 51 echoes Isaiah's Servant Songs (Isaiah 50:7) and signals a decisive shift in the narrative structure. The Samaritan village's rejection (vv. 52-56) introduces the Samaritan theme that Luke will develop more fully than any other Gospel.",
+    "connections": "The feeding miracle echoes Elisha feeding a hundred men in 2 Kings 4:42-44. The Transfiguration connects to Moses on Sinai (Exodus 34) and Elijah on Horeb (1 Kings 19). Peter's confession parallels the Caesarea Philippi accounts in Matthew 16 and Mark 8, though Luke omits the geographic marker. The 'exodus' language at the Transfiguration ties Jesus's coming death to Israel's foundational deliverance event. The journey to Jerusalem beginning in v. 51 initiates Luke's distinctive 'Travel Narrative' (9:51-19:27).\n\n**Tradition comparisons:** The JST modifies this chapter (Luke 9:24): Lose-your-life-to-save-it paradox clarified (parallel to Matt 16:25) See the [JST notes](/jst/luke)."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_greek": "Συγκαλεσάμενος δὲ τοὺς δώδεκα ἔδωκεν αὐτοῖς δύναμιν καὶ ἐξουσίαν ἐπὶ πάντα τὰ δαιμόνια καὶ νόσους θεραπεύειν,",
+      "text_kjv": "Then he called his twelve disciples together, and gave them power and authority over all devils, and to cure diseases,",
+      "rendering": "He called the Twelve together and gave them power and authority over all demons, and to heal diseases.",
+      "translator_notes": [
+        "Luke distinguishes between dynamin ('power' — the ability to act) and exousian ('authority' — the right to act). This pairing is distinctive to Luke's account of the commissioning and emphasizes that the disciples operate with both divine capability and divine authorization."
+      ],
+      "key_terms": [
+        {
+          "greek": "δύναμις",
+          "transliteration": "dynamis",
+          "rendered_as": "power",
+          "semantic_range": "power, ability, might, miracle, force",
+          "note": "Inherent capability or force. When paired with exousia, it represents the full divine equipment for mission — both the strength to accomplish and the warrant to act."
+        },
+        {
+          "greek": "ἐξουσία",
+          "transliteration": "exousia",
+          "rendered_as": "authority",
+          "semantic_range": "authority, right, jurisdiction, power, freedom",
+          "note": "Delegated right or jurisdiction. The disciples do not act on their own authority but carry Jesus's authorization."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 2,
+      "text_greek": "καὶ ἀπέστειλεν αὐτοὺς κηρύσσειν τὴν βασιλείαν τοῦ θεοῦ καὶ ἰᾶσθαι τοὺς ἀσθενεῖς,",
+      "text_kjv": "And he sent them to preach the kingdom of God, and to heal the sick,",
+      "rendering": "He sent them out to proclaim the kingdom of God and to heal the sick.",
+      "translator_notes": [
+        "The verb apesteilen ('sent out') is the root of 'apostle' (apostolos). Luke uses the formal commissioning verb here, underscoring that this is an authorized mission, not a voluntary outing. The dual mandate — proclamation and healing — mirrors Jesus's own ministry pattern established in Luke 4:18-19."
+      ],
+      "key_terms": [
+        {
+          "greek": "βασιλεία τοῦ θεοῦ",
+          "transliteration": "basileia tou theou",
+          "rendered_as": "kingdom of God",
+          "semantic_range": "kingdom, reign, rule, dominion of God",
+          "note": "Luke's preferred phrase (where Matthew typically uses 'kingdom of heaven'). It denotes God's active reign breaking into the present age, not merely a future realm."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 3,
+      "text_greek": "καὶ εἶπεν πρὸς αὐτούς· Μηδὲν αἴρετε εἰς τὴν ὁδόν, μήτε ῥάβδον μήτε πήραν μήτε ἄρτον μήτε ἀργύριον, μήτε ἀνὰ δύο χιτῶνας ἔχειν.",
+      "text_kjv": "And he said unto them, Take nothing for your journey, neither staves, nor scrip, neither bread, neither money; neither have two coats apiece.",
+      "rendering": "He told them, \"Take nothing for the journey — no staff, no bag, no bread, no money, and do not have two tunics each.",
+      "translator_notes": [
+        "Luke's version prohibits even a staff (rabdon), whereas Mark 6:8 allows one — a well-known discrepancy between the Synoptic accounts. The Greek pēran ('bag') refers to a traveler's knapsack or beggar's bag. The prohibition of provisions forces total dependence on God's provision through local hospitality, a radical trust that mirrors Israel's wilderness dependence on manna."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 4,
+      "text_greek": "καὶ εἰς ἣν ἂν οἰκίαν εἰσέλθητε, ἐκεῖ μένετε καὶ ἐκεῖθεν ἐξέρχεσθε.",
+      "text_kjv": "And whatsoever house ye enter into, there abide, and thence depart.",
+      "rendering": "Whatever house you enter, stay there and depart from there.",
+      "translator_notes": [
+        "The instruction to remain in one house prevents the disciples from seeking better accommodations — moving from a poor host to a wealthier one. This preserves the dignity of the first household to offer hospitality and keeps the mission free from the appearance of self-interest."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 5,
+      "text_greek": "καὶ ὅσοι ἂν μὴ δέχωνται ὑμᾶς, ἐξερχόμενοι ἀπὸ τῆς πόλεως ἐκείνης τὸν κονιορτὸν ἀπὸ τῶν ποδῶν ὑμῶν ἀποτινάσσετε εἰς μαρτύριον ἐπ' αὐτούς.",
+      "text_kjv": "And whosoever will not receive you, when ye go out of that city, shake off the very dust from your feet for a testimony against them.",
+      "rendering": "Wherever people do not welcome you, as you leave that town, shake the dust off your feet as a testimony against them.\"",
+      "translator_notes": [
+        "Shaking dust from one's feet was a Jewish practice when leaving Gentile territory, symbolizing the removal of ritual impurity. Applied to Jewish towns, it is a prophetic warning: those who reject the kingdom's messengers place themselves outside the covenant community. The phrase eis martyrion ('as a testimony') indicates a visible sign that will serve as evidence at the future judgment."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 6,
+      "text_greek": "ἐξερχόμενοι δὲ διήρχοντο κατὰ τὰς κώμας εὐαγγελιζόμενοι καὶ θεραπεύοντες πανταχοῦ.",
+      "text_kjv": "And they departed, and went through the towns, preaching the gospel, and healing every where.",
+      "rendering": "So they set out and traveled through the villages, proclaiming the good news and healing people everywhere.",
+      "translator_notes": [
+        "The participle euangelizomenoi ('proclaiming good news') is Luke's characteristic vocabulary — he uses this verb more than any other New Testament writer. The word carries the sense of announcing glad tidings, specifically the arrival of God's reign. 'Villages' (kōmas) rather than 'towns' or 'cities' suggests a rural, grassroots mission."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 7,
+      "text_greek": "Ἤκουσεν δὲ Ἡρῴδης ὁ τετραάρχης τὰ γινόμενα πάντα καὶ διηπόρει, διὰ τὸ λέγεσθαι ὑπό τινων ὅτι Ἰωάννης ἠγέρθη ἐκ νεκρῶν,",
+      "text_kjv": "Now Herod the tetrarch heard of all that was done by him: and he was perplexed, because that it was said of some, that John was risen from the dead;",
+      "rendering": "Now Herod the tetrarch heard about everything that was happening, and he was perplexed because some were saying that John had been raised from the dead,",
+      "translator_notes": [
+        "This is Herod Antipas, son of Herod the Great, who ruled Galilee and Perea as tetrarch (literally 'ruler of a quarter'). The verb diēporei ('was perplexed, was at a loss') is stronger than mere curiosity — it suggests genuine confusion and unease. Luke alone among the Synoptics emphasizes Herod's ongoing perplexity rather than his fear."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 8,
+      "text_greek": "ὑπό τινων δὲ ὅτι Ἠλίας ἐφάνη, ἄλλων δὲ ὅτι προφήτης τις τῶν ἀρχαίων ἀνέστη.",
+      "text_kjv": "And of some, that Elias had appeared; and of others, that one of the old prophets was risen again.",
+      "rendering": "Of some, that Elias had appeared. And of others, that one of the ancient God's spokespersons was risen again.",
+      "translator_notes": [
+        "The three popular theories about Jesus — resurrected John, returned Elijah, or a risen ancient prophet — all frame him within prophetic categories. The expectation of Elijah's return was rooted in Malachi 4:5. Luke's phrase 'ancient prophets' (prophētēs tis tōn archaiōn) is distinctive and may reflect popular beliefs about eschatological prophetic return.",
+        "[TCR Cross-Reference] References Malachi 4:5 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 9,
+      "text_greek": "εἶπεν δὲ Ἡρῴδης· Ἰωάννην ἐγὼ ἀπεκεφάλισα· τίς δέ ἐστιν οὗτος περὶ οὗ ἀκούω τοιαῦτα; καὶ ἐζήτει ἰδεῖν αὐτόν.",
+      "text_kjv": "And Herod said, John have I beheaded: but who is this, of whom I hear such things? And he desired to see him.",
+      "rendering": "Herod said, \"I beheaded John. So who is this about whom I hear such things?\" And he kept trying to see him.",
+      "translator_notes": [
+        "The emphatic egō ('I myself') in Herod's statement stresses personal responsibility and perhaps defensive anxiety. The imperfect ezētei ('kept trying, was seeking') indicates ongoing, unfulfilled desire — Herod will not actually see Jesus until the passion narrative (Luke 23:8), where this thread finally resolves. Luke plants a narrative seed here that will not bear fruit for fourteen chapters."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 10,
+      "text_greek": "Καὶ ὑποστρέψαντες οἱ ἀπόστολοι διηγήσαντο αὐτῷ ὅσα ἐποίησαν. καὶ παραλαβὼν αὐτοὺς ὑπεχώρησεν κατ' ἰδίαν εἰς πόλιν καλουμένην Βηθσαϊδά.",
+      "text_kjv": "And the apostles, when they were returned, told him all that they had done. And he took them, and went aside privately into a desert place belonging to the city called Bethsaida.",
+      "rendering": "When the apostles returned, they reported to him everything they had done. He took them and withdrew privately to a town called Bethsaida.",
+      "translator_notes": [
+        "Luke uses 'apostles' (apostoloi) here rather than 'disciples,' the only time he uses this title in the narrative before Acts. The verb hypechōrēsen ('withdrew') suggests intentional retreat, possibly for rest after the mission or to avoid Herod's attention. Bethsaida was just outside Herod Antipas's jurisdiction, in the tetrarchy of Philip."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 11,
+      "text_greek": "οἱ δὲ ὄχλοι γνόντες ἠκολούθησαν αὐτῷ. καὶ ἀποδεξάμενος αὐτοὺς ἐλάλει αὐτοῖς περὶ τῆς βασιλείας τοῦ θεοῦ, καὶ τοὺς χρείαν ἔχοντας θεραπείας ἰᾶτο.",
+      "text_kjv": "And the people, when they knew it, followed him: and he received them, and spake unto them of the kingdom of God, and healed them that had need of healing.",
+      "rendering": "But the crowds found out and followed him. He welcomed them, spoke to them about the kingdom of God, and healed those who needed healing.",
+      "translator_notes": [
+        "Despite seeking privacy, Jesus 'welcomed' (apodexamenos) the crowds — a gracious response that contrasts with the disciples' later suggestion to send them away (v. 12). Luke's note that Jesus both taught and healed reinforces the dual nature of his ministry: word and deed together constitute the kingdom's arrival."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 12,
+      "text_greek": "Ἡ δὲ ἡμέρα ἤρξατο κλίνειν· προσελθόντες δὲ οἱ δώδεκα εἶπαν αὐτῷ· Ἀπόλυσον τὸν ὄχλον, ἵνα πορευθέντες εἰς τὰς κύκλῳ κώμας καὶ ἀγροὺς καταλύσωσιν καὶ εὕρωσιν ἐπισιτισμόν, ὅτι ὧδε ἐν ἐρήμῳ τόπῳ ἐσμέν.",
+      "text_kjv": "And when the day began to wear away, then came the twelve, and said unto him, Send the multitude away, that they may go into the towns and country round about, and lodge, and get victuals: for we are here in a desert place.",
+      "rendering": "As the day began to decline, the Twelve came to him and said, \"Send the crowd away so they can go to the surrounding villages and countryside to find lodging and food, because we are in a desolate place here.\"",
+      "translator_notes": [
+        "The phrase hē hēmera ērxato klinein ('the day began to decline') is a literary expression for late afternoon. The word episitismon ('provisions, food') appears only here in the New Testament — it is a supply-chain term suggesting the practical concern behind the disciples' request. Luke's erēmō topō ('desolate place') evokes the wilderness, connecting this feeding to the manna narrative."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 13,
+      "text_greek": "εἶπεν δὲ πρὸς αὐτούς· Δότε αὐτοῖς ὑμεῖς φαγεῖν. οἱ δὲ εἶπαν· Οὐκ εἰσὶν ἡμῖν πλεῖον ἢ ἄρτοι πέντε καὶ ἰχθύες δύο, εἰ μήτι πορευθέντες ἡμεῖς ἀγοράσωμεν εἰς πάντα τὸν λαὸν τοῦτον βρώματα.",
+      "text_kjv": "But he said unto them, Give ye them to eat. And they said, We have no more but five loaves and two fishes; except we should go and buy meat for all this people.",
+      "rendering": "But he told them, \"You give them something to eat.\" They said, \"We have no more than five loaves and two fish — unless we are to go and buy food for all these people.\"",
+      "translator_notes": [
+        "The emphatic hymeis ('you yourselves') places the responsibility squarely on the disciples, testing their faith and resourcefulness. The disciples' response reveals both their literal-mindedness and the absurdity of the situation from a human perspective. The five loaves would have been flat barley bread, the standard food of the poor."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 14,
+      "text_greek": "ἦσαν γὰρ ὡσεὶ ἄνδρες πεντακισχίλιοι. εἶπεν δὲ πρὸς τοὺς μαθητὰς αὐτοῦ· Κατακλίνατε αὐτοὺς κλισίας ὡσεὶ ἀνὰ πεντήκοντα.",
+      "text_kjv": "For they were about five thousand men. And he said to his disciples, Make them sit down by fifties in a company.",
+      "rendering": "For there were about five thousand men. He said to his disciples, \"Have them sit down in groups of about fifty.\"",
+      "translator_notes": [
+        "The count of andres ('men') likely excludes women and children, following ancient Near Eastern counting conventions. The organized seating in groups of fifty echoes Moses' organization of Israel in the wilderness (Exodus 18:21, 25), reinforcing the new-exodus typology that runs through the feeding narrative.",
+        "[TCR Cross-Reference] Echoes Exodus 18:21. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 15,
+      "text_greek": "καὶ ἐποίησαν οὕτως καὶ κατέκλιναν ἅπαντας.",
+      "text_kjv": "And they did so, and made them all sit down.",
+      "rendering": "They did so and had everyone sit down.",
+      "translator_notes": [
+        "The brief obedience statement — they simply did as instructed — mirrors the pattern of faithful response that Luke highlights throughout his Gospel. No objections, no further questions."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 16,
+      "text_greek": "λαβὼν δὲ τοὺς πέντε ἄρτους καὶ τοὺς δύο ἰχθύας, ἀναβλέψας εἰς τὸν οὐρανόν, εὐλόγησεν αὐτοὺς καὶ κατέκλασεν καὶ ἐδίδου τοῖς μαθηταῖς παραθεῖναι τῷ ὄχλῳ.",
+      "text_kjv": "Then he took the five loaves and the two fishes, and looking up to heaven, he blessed them, and brake, and gave to the disciples to set before the multitude.",
+      "rendering": "Taking the five loaves and the two fish, he looked up to heaven, blessed them, broke them, and kept giving them to the disciples to set before the crowd.",
+      "translator_notes": [
+        "The sequence — took, blessed, broke, gave — anticipates the Last Supper (Luke 22:19) and the Emmaus meal (Luke 24:30). Luke's readers would recognize eucharistic echoes. The imperfect edidou ('kept giving') suggests a continuous action: the bread did not run out as he distributed it. The act of looking up to heaven before blessing follows standard Jewish mealtime prayer practice."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 17,
+      "text_greek": "καὶ ἔφαγον καὶ ἐχορτάσθησαν πάντες, καὶ ἤρθη τὸ περισσεῦσαν αὐτοῖς κλασμάτων κόφινοι δώδεκα.",
+      "text_kjv": "And they did eat, and were all filled: and there was taken up of fragments that remained to them twelve baskets.",
+      "rendering": "They all ate and were satisfied, and twelve baskets of leftover pieces were picked up.",
+      "translator_notes": [
+        "The verb echortasthēsan ('were satisfied, were filled') implies being fully fed, not merely having a taste. The twelve baskets (kophinoi) — one for each apostle — may symbolize God's provision for all twelve tribes of Israel. The kophinos was a distinctly Jewish wicker basket, different from the larger spuris used in the feeding of the four thousand."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 18,
+      "text_greek": "Καὶ ἐγένετο ἐν τῷ εἶναι αὐτὸν προσευχόμενον κατὰ μόνας συνῆσαν αὐτῷ οἱ μαθηταί, καὶ ἐπηρώτησεν αὐτοὺς λέγων· Τίνα με λέγουσιν οἱ ὄχλοι εἶναι;",
+      "text_kjv": "And it came to pass, as he was alone praying, his disciples were with him: and he asked them, saying, Whom say the people that I am?",
+      "rendering": "Once when Jesus was praying alone, the disciples were with him, and he asked them, \"Who do the crowds say that I am?\"",
+      "translator_notes": [
+        "Luke uniquely sets this pivotal scene in the context of prayer — kata monas ('alone') modified by the prayer participle. Luke consistently places major revelatory moments at times of prayer (baptism 3:21, Transfiguration 9:28-29, Gethsemane 22:41). The apparent paradox of being 'alone' yet 'with' the disciples likely means Jesus had been praying privately and the disciples then joined him, or that they were present but not praying."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 19,
+      "text_greek": "οἱ δὲ ἀποκριθέντες εἶπαν· Ἰωάννην τὸν βαπτιστήν, ἄλλοι δὲ Ἠλίαν, ἄλλοι δὲ ὅτι προφήτης τις τῶν ἀρχαίων ἀνέστη.",
+      "text_kjv": "They answering said, John the Baptist; but some say, Elias; and others say, that one of the old prophets is risen again.",
+      "rendering": "They answered, \"John the Baptist; others say Elijah; and still others, that one of the ancient prophets has risen.\"",
+      "translator_notes": [
+        "The disciples relay the same three popular opinions reported in verses 7-8, forming a deliberate literary echo. These prophetic identifications, while honoring Jesus by placing him in exalted company, all fall short of the truth Peter is about to confess."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 20,
+      "text_greek": "εἶπεν δὲ αὐτοῖς· Ὑμεῖς δὲ τίνα με λέγετε εἶναι; Πέτρος δὲ ἀποκριθεὶς εἶπεν· Τὸν Χριστὸν τοῦ θεοῦ.",
+      "text_kjv": "He said unto them, But whom say ye that I am? Peter answering said, The Christ of God.",
+      "rendering": "He said to them, \"But who do you say that I am?\" Peter answered, \"The Christ of God.\"",
+      "translator_notes": [
+        "The emphatic hymeis ('but you') contrasts the disciples' personal knowledge with popular opinion. Peter's confession ton Christon tou theou ('the Christ of God') is more compact in Luke than in Matthew ('the Christ, the Son of the living God,' Matt 16:16). Luke's simpler form focuses on the messianic title itself — the Anointed One who belongs to God."
+      ],
+      "key_terms": [
+        {
+          "greek": "Χριστός",
+          "transliteration": "Christos",
+          "rendered_as": "Christ",
+          "semantic_range": "anointed one, Messiah, Christ",
+          "note": "The Greek equivalent of Hebrew mashiach. Peter's confession identifies Jesus as the long-expected anointed deliverer of Israel — a political, royal, and prophetic claim that Jesus will immediately redefine through suffering."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 21,
+      "text_greek": "ὁ δὲ ἐπιτιμήσας αὐτοῖς παρήγγειλεν μηδενὶ λέγειν τοῦτο,",
+      "text_kjv": "And he straitly charged them, and commanded them to tell no man that thing;",
+      "rendering": "He strictly warned them and commanded them to tell this to no one,",
+      "translator_notes": [
+        "The verb epitimēsas ('rebuked, sternly warned') is the same word used for silencing demons (4:35, 41). The messianic secret motif — suppressing the Christ title — likely reflects the danger that popular messianic expectations (military deliverer, political king) would distort Jesus's mission before the cross redefines messiahship."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 22,
+      "text_greek": "εἰπὼν ὅτι Δεῖ τὸν υἱὸν τοῦ ἀνθρώπου πολλὰ παθεῖν καὶ ἀποδοκιμασθῆναι ἀπὸ τῶν πρεσβυτέρων καὶ ἀρχιερέων καὶ γραμματέων καὶ ἀποκτανθῆναι καὶ τῇ τρίτῃ ἡμέρᾳ ἐγερθῆναι.",
+      "text_kjv": "Saying, The Son of man must suffer many things, and be rejected of the elders and chief priests and scribes, and be slain, and be raised the third day.",
+      "rendering": "Declaring, the Descendant of Person must suffer numerous matters, and be rejected of the elders and chief priests and legal experts, and be slain, and be raised the third day.",
+      "translator_notes": [
+        "The word dei ('it is necessary, must') introduces divine necessity — this is not merely a prediction but a theological imperative rooted in God's plan. The title 'Son of Man' (ho huios tou anthrōpou) alludes to Daniel 7:13-14, where the 'one like a son of man' receives universal dominion. Jesus fuses this exalted figure with the Suffering Servant of Isaiah 53 — a combination his contemporaries did not expect. The three groups named — elders, chief priests, scribes — compose the Sanhedrin.",
+        "[TCR Cross-Reference] Draws on Daniel 7:13-14. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices.",
+        "[TCR Cross-Reference] Draws on Isaiah 53. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "key_terms": [
+        {
+          "greek": "υἱὸς τοῦ ἀνθρώπου",
+          "transliteration": "huios tou anthrōpou",
+          "rendered_as": "Son of Man",
+          "semantic_range": "son of man, human being; as a title: the eschatological figure of Daniel 7",
+          "note": "Jesus's preferred self-designation. It is both humble (a human being) and exalted (the Daniel 7 figure who receives God's kingdom). Here it is linked directly to suffering, creating a paradox of glory through rejection."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 23,
+      "text_greek": "Ἔλεγεν δὲ πρὸς πάντας· Εἴ τις θέλει ὀπίσω μου ἔρχεσθαι, ἀρνησάσθω ἑαυτὸν καὶ ἀράτω τὸν σταυρὸν αὐτοῦ καθ' ἡμέραν καὶ ἀκολουθείτω μοι.",
+      "text_kjv": "And he said to them all, If any man will come after me, let him deny himself, and take up his cross daily, and follow me.",
+      "rendering": "Then he said to them all, \"If anyone wants to come after me, let him deny himself, take up his cross daily, and follow me.",
+      "translator_notes": [
+        "Luke alone adds kath' hēmeran ('daily') to the cross-bearing command, transforming it from a one-time act of martyrdom into an ongoing pattern of self-renunciation. The address 'to them all' (pros pantas) extends the invitation beyond the Twelve to the entire crowd. For a first-century hearer, 'take up his cross' was not a metaphor — it evoked the Roman practice of forcing condemned prisoners to carry the crossbeam to the execution site."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 24,
+      "text_greek": "ὃς γὰρ ἂν θέλῃ τὴν ψυχὴν αὐτοῦ σῶσαι ἀπολέσει αὐτήν· ὃς δ' ἂν ἀπολέσῃ τὴν ψυχὴν αὐτοῦ ἕνεκεν ἐμοῦ οὗτος σώσει αὐτήν.",
+      "text_kjv": "For whosoever will save his life shall lose it: but whosoever will lose his life for my sake, the same shall save it.",
+      "rendering": "For whoever wants to save his life will lose it, but whoever loses his life for my sake will save it.",
+      "translator_notes": [
+        "The Greek psychē means both 'life' and 'soul,' and Jesus exploits this double meaning. The person who clings to physical life (self-preservation) loses their true self, while the one who surrenders their life for Jesus's sake discovers authentic life. The paradox is structurally chiastic: save-lose / lose-save."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 25,
+      "text_greek": "τί γὰρ ὠφελεῖται ἄνθρωπος κερδήσας τὸν κόσμον ὅλον ἑαυτὸν δὲ ἀπολέσας ἢ ζημιωθείς;",
+      "text_kjv": "For what is a man advantaged, if he gain the whole world, and lose himself, or be cast away?",
+      "rendering": "For what does it profit a person to gain the whole world and yet lose or forfeit himself?",
+      "translator_notes": [
+        "Luke's version has 'lose or forfeit himself' (heauton apolesys ē zēmiōtheis) where Mark has 'his soul' — Luke makes it more personal and existential. The verb zēmioō ('to suffer loss, to forfeit') is a commercial term: the image is of a catastrophic business deal where the gains cannot compensate for what was surrendered."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 26,
+      "text_greek": "ὃς γὰρ ἂν ἐπαισχυνθῇ με καὶ τοὺς ἐμοὺς λόγους, τοῦτον ὁ υἱὸς τοῦ ἀνθρώπου ἐπαισχυνθήσεται, ὅταν ἔλθῃ ἐν τῇ δόξῃ αὐτοῦ καὶ τοῦ πατρὸς καὶ τῶν ἁγίων ἀγγέλων.",
+      "text_kjv": "For whosoever shall be ashamed of me and of my words, of him shall the Son of man be ashamed, when he shall come in his own glory, and in his Father's, and of the holy angels.",
+      "rendering": "For whoever is ashamed of me and my words, the Son of Man will be ashamed of that person when he comes in his glory and the glory of the Father and of the holy angels.",
+      "translator_notes": [
+        "The triple glory — his own, the Father's, and the angels' — is unique to Luke and creates a vision of overwhelming majesty. The verb epaischunthēsetai ('will be ashamed of') establishes a principle of reciprocity: present shame leads to future shame. Jesus speaks of the Son of Man in the third person, which may indicate a distinction between his present humble state and his future glorified state, or may simply be the idiom of the title."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 27,
+      "text_greek": "λέγω δὲ ὑμῖν ἀληθῶς, εἰσίν τινες τῶν αὐτοῦ ἑστηκότων οἳ οὐ μὴ γεύσωνται θανάτου ἕως ἂν ἴδωσιν τὴν βασιλείαν τοῦ θεοῦ.",
+      "text_kjv": "But I tell you of a truth, there be some standing here, which shall not taste of death, till they see the kingdom of God.",
+      "rendering": "But I tell you truly, there are some standing here who will not taste death until they see the kingdom of God.\"",
+      "translator_notes": [
+        "The expression 'taste death' (geusōntai thanatou) is a Semitic idiom meaning 'experience death.' This saying has been interpreted variously as referring to the Transfiguration (which follows immediately), the resurrection, Pentecost, the destruction of Jerusalem in AD 70, or the ongoing advance of God's reign. Luke's placement of this saying directly before the Transfiguration account may suggest he understood the Transfiguration as its primary fulfillment."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 28,
+      "text_greek": "Ἐγένετο δὲ μετὰ τοὺς λόγους τούτους ὡσεὶ ἡμέραι ὀκτὼ καὶ παραλαβὼν Πέτρον καὶ Ἰωάννην καὶ Ἰάκωβον ἀνέβη εἰς τὸ ὄρος προσεύξασθαι.",
+      "text_kjv": "And it came to pass about an eight days after these sayings, he took Peter and John and James, and went up into a mountain to pray.",
+      "rendering": "About eight days after these words, he took Peter, John, and James and went up on the mountain to pray.",
+      "translator_notes": [
+        "Luke says 'about eight days' where Mark and Matthew say 'after six days' — this is not a contradiction but reflects different counting conventions (Luke may include the bookend days). Luke uniquely notes that the purpose of ascending was prayer (proseuxasthai), consistent with his emphasis on Jesus at prayer before revelatory moments. Peter, John, and James form the inner circle present at key moments (also at Jairus's house, 8:51, and Gethsemane in Mark 14:33)."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 29,
+      "text_greek": "καὶ ἐγένετο ἐν τῷ προσεύχεσθαι αὐτὸν τὸ εἶδος τοῦ προσώπου αὐτοῦ ἕτερον καὶ ὁ ἱματισμὸς αὐτοῦ λευκὸς ἐξαστράπτων.",
+      "text_kjv": "And as he prayed, the fashion of his countenance was altered, and his raiment was white and glistering.",
+      "rendering": "As he was praying, the appearance of his face changed, and his clothing became dazzling white.",
+      "translator_notes": [
+        "Luke says the 'appearance of his face changed' (to eidos tou prosōpou autou heteron) rather than Mark's 'was transfigured' (metemorphōthē). Luke may avoid the Greek metamorphosis terminology because of its associations with pagan mythology for his Gentile audience. The adjective exastraptōn ('flashing like lightning, dazzling') suggests supernatural radiance, echoing the description of angels (Luke 24:4, Acts 1:10)."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 30,
+      "text_greek": "καὶ ἰδοὺ ἄνδρες δύο συνελάλουν αὐτῷ, οἵτινες ἦσαν Μωϋσῆς καὶ Ἠλίας,",
+      "text_kjv": "And, behold, there talked with him two men, which were Moses and Elias:",
+      "rendering": "And suddenly two men were talking with him — Moses and Elijah,",
+      "translator_notes": [
+        "The phrase idou ('look, suddenly') marks the supernatural irruption. Moses represents the Law and Elijah the Prophets — together they embody the whole of Israel's Scripture bearing witness to Jesus. Both figures had unusual departures from earthly life: Moses was buried by God (Deuteronomy 34:6) and Elijah was taken up in a chariot of fire (2 Kings 2:11).",
+        "[TCR Cross-Reference] This verse quotes Deuteronomy 34:6 — see the TCR rendering of that passage for the Hebrew source text and translation decisions.",
+        "[TCR Cross-Reference] This verse quotes 2 Kings 2:11 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 31,
+      "text_greek": "οἳ ὀφθέντες ἐν δόξῃ ἔλεγον τὴν ἔξοδον αὐτοῦ ἣν ἤμελλεν πληροῦν ἐν Ἰερουσαλήμ.",
+      "text_kjv": "Who appeared in glory, and spake of his decease which he should accomplish at Jerusalem.",
+      "rendering": "They appeared in radiant glory and spoke about the departure he was about to carry out in Jerusalem.",
+      "expanded_rendering": "The Greek exodos ('departure') is the same word used in the Septuagint for Israel's deliverance from Egypt. Luke's choice of this term is no accident — Moses and Elijah are discussing Jesus's coming death as a new exodus: a definitive act of liberation that Jesus will 'accomplish' in Jerusalem, just as God accomplished Israel's deliverance at the Red Sea. His death is not defeat but divine rescue on a cosmic scale.",
+      "translator_notes": [
+        "This verse is unique to Luke and is theologically momentous. The word exodon ('departure, exodus') is loaded with Old Testament resonance — Jesus's death in Jerusalem is framed as a new exodus, a liberation event parallel to Israel's deliverance from Egypt. The verb plēroun ('to fulfill, accomplish') indicates that this death is not merely an ending but a completion of divine purpose. Moses, who led the first exodus, now discusses the second with Jesus."
+      ],
+      "key_terms": [
+        {
+          "greek": "ἔξοδος",
+          "transliteration": "exodos",
+          "rendered_as": "departure",
+          "semantic_range": "departure, death, exodus, going out",
+          "note": "The English 'departure' is accurate but loses the Exodus typology. Luke deliberately chose a word that frames Jesus's death as a new liberation event, parallel to the original Exodus from Egypt."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 32,
+      "text_greek": "ὁ δὲ Πέτρος καὶ οἱ σὺν αὐτῷ ἦσαν βεβαρημένοι ὕπνῳ· διαγρηγορήσαντες δὲ εἶδον τὴν δόξαν αὐτοῦ καὶ τοὺς δύο ἄνδρας τοὺς συνεστῶτας αὐτῷ.",
+      "text_kjv": "But Peter and they that were with him were heavy with sleep: and when they were awake, they saw his glory, and the two men that stood with him.",
+      "rendering": "Now Peter and those with him were heavy with sleep, but when they became fully awake, they saw his glory and the two men standing with him.",
+      "translator_notes": [
+        "The detail of the disciples' sleepiness is unique to Luke and foreshadows their sleeping in Gethsemane (Luke 22:45). The verb diagrēgorēsantes ('having become fully awake') is rare and emphatic — despite their drowsiness, they were fully alert when they witnessed the glory. Luke may include this detail to establish that the vision was not a dream."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 33,
+      "text_greek": "καὶ ἐγένετο ἐν τῷ διαχωρίζεσθαι αὐτοὺς ἀπ' αὐτοῦ εἶπεν ὁ Πέτρος πρὸς τὸν Ἰησοῦν· Ἐπιστάτα, καλόν ἐστιν ἡμᾶς ὧδε εἶναι, καὶ ποιήσωμεν σκηνὰς τρεῖς, μίαν σοὶ καὶ μίαν Μωϋσεῖ καὶ μίαν Ἠλίᾳ, μὴ εἰδὼς ὃ λέγει.",
+      "text_kjv": "And it came to pass, as they departed from him, Peter said unto Jesus, Master, it is good for us to be here: and let us make three tabernacles; one for thee, and one for Moses, and one for Elias: not knowing what he said.",
+      "rendering": "As they were departing from him, Peter said to Jesus, \"Master, it is good for us to be here. Let us make three shelters — one for you, one for Moses, and one for Elijah\" — not knowing what he was saying.",
+      "translator_notes": [
+        "Luke uses epistata ('master, commander') rather than Mark's 'rabbi,' reflecting Luke's Gentile readership. The word skēnas ('tents, tabernacles, shelters') may allude to the Feast of Tabernacles (Sukkot), when Israel commemorated God's dwelling with them in the wilderness. Peter's offer to build shelters, while well-intentioned, attempts to prolong and domesticate a revelatory moment. Luke's editorial note — 'not knowing what he was saying' — is a gentle correction of Peter's impulse."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 34,
+      "text_greek": "ταῦτα δὲ αὐτοῦ λέγοντος ἐγένετο νεφέλη καὶ ἐπεσκίαζεν αὐτούς· ἐφοβήθησαν δὲ ἐν τῷ εἰσελθεῖν αὐτοὺς εἰς τὴν νεφέλην.",
+      "text_kjv": "While he thus spake, there came a cloud, and overshadowed them: and they feared as they entered into the cloud.",
+      "rendering": "While he was saying this, a cloud came and overshadowed them, and they were afraid as they entered the cloud.",
+      "translator_notes": [
+        "The cloud (nephelē) recalls the pillar of cloud that guided Israel through the wilderness and the cloud of God's glory (kavod/doxa) that filled the tabernacle and temple (Exodus 40:34-35, 1 Kings 8:10-11). The verb epeskiazen ('overshadowed') is the same verb used of the Holy Spirit overshadowing Mary (Luke 1:35), creating a connection between the incarnation and the Transfiguration. The disciples' fear at entering the cloud reflects the proper human response to divine presence.",
+        "[TCR Cross-Reference] Echoes Exodus 40:34-35. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale.",
+        "[TCR Cross-Reference] Echoes 1 Kings 8:10-11. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 35,
+      "text_greek": "καὶ φωνὴ ἐγένετο ἐκ τῆς νεφέλης λέγουσα· Οὗτός ἐστιν ὁ υἱός μου ὁ ἐκλελεγμένος, αὐτοῦ ἀκούετε.",
+      "text_kjv": "And there came a voice out of the cloud, saying, This is my beloved Son: hear him.",
+      "rendering": "A voice came from the cloud, saying, \"This is my Son, my Chosen One — listen to him!\"",
+      "translator_notes": [
+        "Luke's reading has ho eklelegmenos ('the Chosen One') where Matthew and Mark have ho agapētos ('the Beloved'). This variant is well attested in the SBLGNT and echoes Isaiah 42:1, the first Servant Song: 'my chosen one in whom my soul delights.' The command 'listen to him' (autou akouete) echoes Deuteronomy 18:15, where Moses predicts a prophet like himself whom God will raise up: 'you shall listen to him.' The voice thus identifies Jesus as both the Servant of Isaiah and the Prophet like Moses.",
+        "[TCR Cross-Reference] This verse quotes Isaiah 42:1 — see the TCR rendering of that passage for the Hebrew source text and translation decisions.",
+        "[TCR Cross-Reference] This verse quotes Deuteronomy 18:15 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "key_terms": [
+        {
+          "greek": "ἐκλελεγμένος",
+          "transliteration": "eklelegmenos",
+          "rendered_as": "Chosen One",
+          "semantic_range": "chosen, elected, selected",
+          "note": "A perfect passive participle indicating divine election. The voice from the cloud affirms that Jesus is God's deliberately chosen agent, echoing the Servant Songs of Isaiah where God's Servant is his elect."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 36,
+      "text_greek": "καὶ ἐν τῷ γενέσθαι τὴν φωνὴν εὑρέθη Ἰησοῦς μόνος. καὶ αὐτοὶ ἐσίγησαν καὶ οὐδενὶ ἀπήγγειλαν ἐν ἐκείναις ταῖς ἡμέραις οὐδὲν ὧν ἑώρακαν.",
+      "text_kjv": "And when the voice was past, Jesus was found alone. And they kept it close, and told no man in those days any of those things which they had seen.",
+      "rendering": "When the voice had spoken, Jesus was found alone. And they kept silent and told no one in those days anything of what they had seen.",
+      "translator_notes": [
+        "The sudden disappearance of Moses and Elijah leaves Jesus alone — a visual demonstration of the voice's command to listen to him alone. The disciples' silence is voluntary in Luke (where in Mark 9:9, Jesus commands it), suggesting the experience was too overwhelming to articulate. The phrase 'in those days' implies they eventually did speak — Luke himself is reporting what they later testified."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 37,
+      "text_greek": "Ἐγένετο δὲ τῇ ἑξῆς ἡμέρᾳ κατελθόντων αὐτῶν ἀπὸ τοῦ ὄρους συνήντησεν αὐτῷ ὄχλος πολύς.",
+      "text_kjv": "And it came to pass, that on the next day, when they were come down from the hill, much people met him.",
+      "rendering": "The next day, when they had come down from the mountain, a large crowd met him.",
+      "translator_notes": [
+        "Luke specifies 'the next day' (tē hexēs hēmera), a detail absent from Matthew and Mark. The descent from the mountain of glory to the chaos of the crowd below creates a deliberate contrast — from heaven's affirmation to earth's brokenness. The pattern echoes Moses descending from Sinai to find Israel in disorder (Exodus 32).",
+        "[TCR Cross-Reference] Draws on Exodus 32. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 38,
+      "text_greek": "καὶ ἰδοὺ ἀνὴρ ἀπὸ τοῦ ὄχλου ἐβόησεν λέγων· Διδάσκαλε, δέομαί σου ἐπιβλέψαι ἐπὶ τὸν υἱόν μου, ὅτι μονογενής μοί ἐστιν,",
+      "text_kjv": "And, behold, a man of the company cried out, saying, Master, I beseech thee, look upon my son: for he is mine only child.",
+      "rendering": "Suddenly a man from the crowd cried out, \"Teacher, I beg you to look at my son, for he is my only child.",
+      "translator_notes": [
+        "The word monogenēs ('only, unique, one and only') is the same term used of Jesus in John's Gospel (John 1:14, 18; 3:16). Luke uses it three times for human children (here, 7:12, 8:42), each time heightening the pathos — this father's only hope is in peril. The verb deomai ('I beg, I plead') conveys desperate urgency."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 39,
+      "text_greek": "καὶ ἰδοὺ πνεῦμα λαμβάνει αὐτὸν καὶ ἐξαίφνης κράζει καὶ σπαράσσει αὐτὸν μετὰ ἀφροῦ καὶ μόγις ἀποχωρεῖ ἀπ' αὐτοῦ συντρῖβον αὐτόν·",
+      "text_kjv": "And, lo, a spirit taketh him, and he suddenly crieth out; and it teareth him that he foameth again, and bruising him hardly departeth from him.",
+      "rendering": "A spirit seizes him, and he suddenly screams. It convulses him until he foams at the mouth, and it scarcely leaves him, battering him as it goes.",
+      "translator_notes": [
+        "The father's description is vivid and medically detailed: seizure (lambanei), sudden screaming (exaiphnēs krazei), convulsions (sparassei), foaming (aphrou), and physical damage (syntribon, 'crushing, bruising'). The symptoms described overlap with what modern medicine would classify as epileptic seizures, though Luke attributes the cause to a spirit (pneuma). The verb mogis ('scarcely, with difficulty') suggests the spirit is reluctant to release the boy even temporarily."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 40,
+      "text_greek": "καὶ ἐδεήθην τῶν μαθητῶν σου ἵνα ἐκβάλωσιν αὐτό, καὶ οὐκ ἠδυνήθησαν.",
+      "text_kjv": "And I besought thy disciples to cast him out; and they could not.",
+      "rendering": "I begged your disciples to cast it out, but they could not.\"",
+      "translator_notes": [
+        "The disciples' failure is especially striking given that Jesus had delegated power and authority over all demons to them (v. 1). Their inability raises the question of what has gone wrong — a question Jesus addresses in the next verse with sharp disappointment."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 41,
+      "text_greek": "ἀποκριθεὶς δὲ ὁ Ἰησοῦς εἶπεν· Ὦ γενεὰ ἄπιστος καὶ διεστραμμένη, ἕως πότε ἔσομαι πρὸς ὑμᾶς καὶ ἀνέξομαι ὑμῶν; προσάγαγε ὧδε τὸν υἱόν σου.",
+      "text_kjv": "And Jesus answering said, O faithless and perverse generation, how long shall I be with you, and suffer you? Bring thy son hither.",
+      "rendering": "Jesus answered, \"O faithless and twisted generation, how long must I be with you and put up with you? Bring your son here.\"",
+      "translator_notes": [
+        "The exclamation echoes Moses' frustration with Israel in Deuteronomy 32:5, 20 — the 'twisted generation' (genea diestrammenē) language comes directly from the Song of Moses. Jesus's exasperation is directed broadly at 'this generation,' not solely at the disciples. The rhetorical question 'how long?' expresses the pain of divine patience with unbelief, similar to God's lament in Numbers 14:11.",
+        "[TCR Cross-Reference] Quotes Deuteronomy 32:5. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it.",
+        "[TCR Cross-Reference] Quotes Numbers 14:11. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 42,
+      "text_greek": "ἔτι δὲ προσερχομένου αὐτοῦ ἔρρηξεν αὐτὸν τὸ δαιμόνιον καὶ συνεσπάραξεν· ἐπετίμησεν δὲ ὁ Ἰησοῦς τῷ πνεύματι τῷ ἀκαθάρτῳ καὶ ἰάσατο τὸν παῖδα καὶ ἀπέδωκεν αὐτὸν τῷ πατρὶ αὐτοῦ.",
+      "text_kjv": "And as he was yet a coming, the devil threw him down, and tare him. And Jesus rebuked the unclean spirit, and healed the child, and delivered him again to his father.",
+      "rendering": "While the boy was still approaching, the demon threw him down and convulsed him. But Jesus rebuked the unclean spirit, healed the boy, and gave him back to his father.",
+      "translator_notes": [
+        "The demon's violent attack as the boy approaches Jesus represents a last desperate assault. The verb apedōken ('gave back, restored') is tender — Jesus returns the child to his father as a gift, restoring the family unit that the demon had torn apart. This same verb was used when Elijah restored the widow's son (1 Kings 17:23 LXX), and Luke may intend the echo.",
+        "[TCR Cross-Reference] Draws on 1 Kings 17:23. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 43,
+      "text_greek": "ἐξεπλήσσοντο δὲ πάντες ἐπὶ τῇ μεγαλειότητι τοῦ θεοῦ. Πάντων δὲ θαυμαζόντων ἐπὶ πᾶσιν οἷς ἐποίει εἶπεν πρὸς τοὺς μαθητὰς αὐτοῦ·",
+      "text_kjv": "And they were all amazed at the mighty power of God. But while they wondered every one at all things which Jesus did, he said unto his disciples,",
+      "rendering": "Everyone was astonished at the majesty of God. But while they were all marveling at everything he was doing, he said to his disciples,",
+      "translator_notes": [
+        "The word megaleioteeti ('majesty, grandeur, greatness') appears only here and in Acts 19:27 and 2 Peter 1:16 in the New Testament. Luke's framing is significant: the crowd attributes the miracle to God's majesty, not to Jesus's personal power. Jesus immediately pivots from this moment of popular acclaim to another passion prediction — a jarring juxtaposition that Luke leaves unresolved."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 44,
+      "text_greek": "Θέσθε ὑμεῖς εἰς τὰ ὦτα ὑμῶν τοὺς λόγους τούτους· ὁ γὰρ υἱὸς τοῦ ἀνθρώπου μέλλει παραδίδοσθαι εἰς χεῖρας ἀνθρώπων.",
+      "text_kjv": "Let these sayings sink down into your ears: for the Son of man shall be delivered into the hands of men.",
+      "rendering": "\"Let these words sink into your ears: the Son of Man is about to be delivered into the hands of men.\"",
+      "translator_notes": [
+        "The idiom thesthe eis ta ōta hymōn ('place into your ears') means 'listen carefully and remember.' The passive paradidosthai ('to be delivered, to be handed over') implies divine agency — God is the unstated subject who will deliver his Son. The wordplay between 'Son of Man' (huios tou anthrōpou) and 'hands of men' (cheiras anthrōpōn) creates an ironic contrast: the heavenly Man will be subjected to merely human power."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 45,
+      "text_greek": "οἱ δὲ ἠγνόουν τὸ ῥῆμα τοῦτο καὶ ἦν παρακεκαλυμμένον ἀπ' αὐτῶν ἵνα μὴ αἴσθωνται αὐτό, καὶ ἐφοβοῦντο ἐρωτῆσαι αὐτὸν περὶ τοῦ ῥήματος τούτου.",
+      "text_kjv": "But they understood not this saying, and it was hid from them, that they perceived it not: and they feared to ask him of that saying.",
+      "rendering": "But they did not understand this saying. It was concealed from them so that they could not grasp it, and they were afraid to ask him about it.",
+      "translator_notes": [
+        "Luke presents a threefold failure: ignorance (ēgnooun), concealment (parakekalymmenon), and fear (ephobounto). The passive 'it was concealed' (ēn parakekalymmenon) suggests divine hiddenness — God has temporarily veiled the meaning. This is not merely intellectual failure but a divinely ordered inability that will persist until the resurrection opens their understanding (Luke 24:45). Their fear of asking reveals they sense the gravity of Jesus's words even without comprehending them."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 46,
+      "text_greek": "Εἰσῆλθεν δὲ διαλογισμὸς ἐν αὐτοῖς, τὸ τίς ἂν εἴη μείζων αὐτῶν.",
+      "text_kjv": "Then there arose a reasoning among them, which of them should be greatest.",
+      "rendering": "An argument arose among them about which of them was the greatest.",
+      "translator_notes": [
+        "The juxtaposition is brutal: Jesus has just predicted his death and the disciples immediately argue about rank. The word dialogismos ('reasoning, argument, dispute') can mean an internal thought or an external debate — the context suggests it became vocal, since Jesus responds to it. This scene exposes how thoroughly the disciples have misunderstood the nature of Jesus's messiahship."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 47,
+      "text_greek": "ὁ δὲ Ἰησοῦς εἰδὼς τὸν διαλογισμὸν τῆς καρδίας αὐτῶν, ἐπιλαβόμενος παιδίον ἔστησεν αὐτὸ παρ' ἑαυτῷ",
+      "text_kjv": "And Jesus, perceiving the thought of their heart, took a child, and set him by him,",
+      "rendering": "But Jesus, knowing the reasoning of their hearts, took a child and placed the child beside him.",
+      "translator_notes": [
+        "Jesus's perception of their hearts (eidōs ton dialogismon tēs kardias autōn) demonstrates supernatural knowledge. The physical placement of the child 'beside him' (par' heautō) is a visual lesson: the child occupies the position of honor, the very position the disciples were arguing about."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 48,
+      "text_greek": "καὶ εἶπεν αὐτοῖς· Ὃς ἐὰν δέξηται τοῦτο τὸ παιδίον ἐπὶ τῷ ὀνόματί μου ἐμὲ δέχεται, καὶ ὃς ἂν ἐμὲ δέξηται δέχεται τὸν ἀποστείλαντά με· ὁ γὰρ μικρότερος ἐν πᾶσιν ὑμῖν ὑπάρχων οὗτός ἐστιν μέγας.",
+      "text_kjv": "And said unto them, Whosoever shall receive this child in my name receiveth me: and whosoever shall receive me receiveth him that sent me: for he that is least among you all, the same shall be great.",
+      "rendering": "He told them, \"Whoever welcomes this child in my name welcomes me, and whoever welcomes me welcomes the one who sent me. For the one who is least among all of you — that person is great.\"",
+      "translator_notes": [
+        "Jesus establishes a chain of representation: child → Jesus → God. Welcoming the powerless is equivalent to welcoming God himself. The paradox 'the least is great' (ho mikroteros... houtos estin megas) directly inverts the disciples' argument. In the ancient world, children had no social status or power — they were the definitional 'least.' Jesus redefines greatness as service to those with nothing to offer in return."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 49,
+      "text_greek": "Ἀποκριθεὶς δὲ Ἰωάννης εἶπεν· Ἐπιστάτα, εἴδομέν τινα ἐν τῷ ὀνόματί σου ἐκβάλλοντα δαιμόνια καὶ ἐκωλύομεν αὐτόν, ὅτι οὐκ ἀκολουθεῖ μεθ' ἡμῶν.",
+      "text_kjv": "And John answered and said, Master, we saw one casting out devils in thy name; and we forbad him, because he followeth not with us.",
+      "rendering": "John responded, \"Master, we saw someone casting out demons in your name, and we tried to stop him because he does not follow with us.\"",
+      "translator_notes": [
+        "John's concern is about institutional boundaries — 'he does not follow with us' (ouk akolouthei meth' hēmōn). The irony is sharp: the disciples who could not cast out the demon in verse 40 are trying to prevent someone who can. Luke uses epistata ('master') rather than Mark's didaskale ('teacher'), consistent with his pattern for the disciples' address of Jesus."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 50,
+      "text_greek": "εἶπεν δὲ πρὸς αὐτὸν ὁ Ἰησοῦς· Μὴ κωλύετε· ὃς γὰρ οὐκ ἔστιν καθ' ὑμῶν ὑπὲρ ὑμῶν ἐστιν.",
+      "text_kjv": "And Jesus said unto him, Forbid him not: for he that is not against you is for you.",
+      "rendering": "Jesus said to him, \"Do not stop him, for whoever is not against you is for you.\"",
+      "translator_notes": [
+        "The principle 'whoever is not against you is for you' (hos gar ouk estin kath' hymōn hyper hymōn estin) appears to contradict Luke 11:23 ('whoever is not with me is against me'). The two sayings address different situations: here, the point is tolerance toward allies working outside the inner circle; in 11:23, the point is that neutrality toward Jesus himself is not possible. Jesus refuses to restrict God's work to his own followers' circle."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 51,
+      "text_greek": "Ἐγένετο δὲ ἐν τῷ συμπληροῦσθαι τὰς ἡμέρας τῆς ἀναλήμψεως αὐτοῦ καὶ αὐτὸς τὸ πρόσωπον ἐστήρισεν τοῦ πορεύεσθαι εἰς Ἰερουσαλήμ.",
+      "text_kjv": "And it came to pass, when the time was come that he should be received up, he stedfastly set his face to go to Jerusalem,",
+      "rendering": "When the days were approaching for him to be taken up, he resolutely set his face to go to Jerusalem.",
+      "expanded_rendering": "The Greek analēmpsis ('taking up') refers to the entire sequence of events that will conclude Jesus's earthly mission — his death, resurrection, and ascension as one unified act of divine purpose. Jesus does not merely travel to Jerusalem; he sets his face with the firmness of a prophet who knows he walks toward suffering but will not be deterred, echoing Isaiah's Suffering Servant who set his face like flint against opposition.",
+      "translator_notes": [
+        "This verse marks the decisive turning point of Luke's Gospel, initiating the 'Travel Narrative' (9:51-19:27). The phrase to prosōpon estērisen ('set his face firmly') echoes Isaiah 50:7 (Servant Song): 'I have set my face like flint.' The word analēmpseōs ('taking up, ascension') encompasses not just the ascension but the entire complex of death-resurrection-ascension. Luke views these as a single redemptive event. Jesus moves toward his destiny with deliberate resolve, not reluctant submission.",
+        "[TCR Cross-Reference] Quotes Isaiah 50:7. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it."
+      ],
+      "key_terms": [
+        {
+          "greek": "ἀνάλημψις",
+          "transliteration": "analēmpsis",
+          "rendered_as": "taken up",
+          "semantic_range": "taking up, ascension, assumption, receiving up",
+          "note": "Used only here in the New Testament. It encompasses the full scope of Jesus's departure — death, resurrection, and ascension viewed as one event. Luke uses the cognate verb analambanō in Acts 1:2, 11, 22 for the ascension specifically."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 52,
+      "text_greek": "καὶ ἀπέστειλεν ἀγγέλους πρὸ προσώπου αὐτοῦ. καὶ πορευθέντες εἰσῆλθον εἰς κώμην Σαμαριτῶν, ὡς ἑτοιμάσαι αὐτῷ·",
+      "text_kjv": "And sent messengers before his face: and they went, and entered into a village of the Samaritans, to make ready for him.",
+      "rendering": "He sent messengers ahead of him. They went and entered a Samaritan village to prepare for his arrival,",
+      "translator_notes": [
+        "The phrase angelous pro prosōpou autou ('messengers before his face') echoes Malachi 3:1, where God sends a messenger before his face. The route through Samaria was the most direct path from Galilee to Jerusalem but was avoided by many Jews due to the Samaritan-Jewish hostility. Jesus's choice of this route is itself a statement.",
+        "[TCR Cross-Reference] Draws on Malachi 3:1. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 53,
+      "text_greek": "καὶ οὐκ ἐδέξαντο αὐτόν, ὅτι τὸ πρόσωπον αὐτοῦ ἦν πορευόμενον εἰς Ἰερουσαλήμ.",
+      "text_kjv": "And they did not receive him, because his face was as though he would go to Jerusalem.",
+      "rendering": "Indeed, they did not accept him, because his face was as though he would go to Jerusalem.",
+      "translator_notes": [
+        "The Samaritans' refusal is theological, not personal: they reject him because Jerusalem is his destination. The Samaritan-Jewish schism centered on rival worship sites — Mount Gerizim versus the Jerusalem temple (cf. John 4:20). A Jewish pilgrim traveling to Jerusalem represented everything the Samaritans opposed. The phrase 'his face was going toward Jerusalem' preserves the Semitic idiom of v. 51."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 54,
+      "text_greek": "ἰδόντες δὲ οἱ μαθηταὶ Ἰάκωβος καὶ Ἰωάννης εἶπαν· Κύριε, θέλεις εἴπωμεν πῦρ καταβῆναι ἀπὸ τοῦ οὐρανοῦ καὶ ἀναλῶσαι αὐτούς;",
+      "text_kjv": "And when his disciples James and John saw this, they said, Lord, wilt thou that we command fire to come down from heaven, and consume them, even as Elias did?",
+      "rendering": "When the disciples James and John saw this, they said, \"Lord, do you want us to call fire down from heaven to consume them?\"",
+      "translator_notes": [
+        "James and John's proposal alludes to Elijah calling fire from heaven on the soldiers of King Ahaziah (2 Kings 1:10-12) — a connection made explicit in some manuscripts though not in the SBLGNT. The irony is layered: they have just witnessed the Transfiguration with Elijah and now want to play Elijah themselves. Their desire for destructive judgment is precisely the kind of messianic power Jesus is rejecting by heading toward the cross.",
+        "[TCR Cross-Reference] Echoes 2 Kings 1:10-12. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 55,
+      "text_greek": "στραφεὶς δὲ ἐπετίμησεν αὐτοῖς.",
+      "text_kjv": "But he turned, and rebuked them, and said, Ye know not what manner of spirit ye are of.",
+      "rendering": "But he turned and rebuked them.",
+      "translator_notes": [
+        "The SBLGNT contains only the brief rebuke without the additional words found in some later manuscripts ('You do not know what spirit you are of' and 'The Son of Man came not to destroy lives but to save them'). While these additions express authentic Lukan theology, we follow the critical text. The physical turning (strapheis) suggests Jesus had been walking ahead and deliberately turned back to correct them."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 56,
+      "text_greek": "καὶ ἐπορεύθησαν εἰς ἑτέραν κώμην.",
+      "text_kjv": "And they went to another village.",
+      "rendering": "They traveled to another village.",
+      "translator_notes": [
+        "The matter-of-fact simplicity of this verse contrasts sharply with the disciples' violent proposal. Jesus does not retaliate, does not curse the village, does not even complain — he simply moves on. This models the non-retaliatory ethic that will characterize his teaching in the Travel Narrative."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 57,
+      "text_greek": "Καὶ πορευομένων αὐτῶν ἐν τῇ ὁδῷ εἶπέν τις πρὸς αὐτόν· Ἀκολουθήσω σοι ὅπου ἐὰν ἀπέρχῃ.",
+      "text_kjv": "And it came to pass, that, as they went in the way, a certain man said unto him, Lord, I will follow thee whithersoever thou goest.",
+      "rendering": "As they were traveling along the road, someone said to him, \"I will follow you wherever you go.\"",
+      "translator_notes": [
+        "This begins a series of three encounters with would-be followers (vv. 57-62), each illustrating a different obstacle to discipleship. The first volunteer is enthusiastic but uninformed about the cost. Luke does not identify this person (Matthew 8:19 says 'a scribe'), keeping the encounter universal — any reader can see themselves here."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 58,
+      "text_greek": "καὶ εἶπεν αὐτῷ ὁ Ἰησοῦς· Αἱ ἀλώπεκες φωλεοὺς ἔχουσιν καὶ τὰ πετεινὰ τοῦ οὐρανοῦ κατασκηνώσεις, ὁ δὲ υἱὸς τοῦ ἀνθρώπου οὐκ ἔχει ποῦ τὴν κεφαλὴν κλίνῃ.",
+      "text_kjv": "And Jesus said unto him, Foxes have holes, and birds of the air have nests; but the Son of man hath not where to lay his head.",
+      "rendering": "Jesus said to him, \"Foxes have dens and birds of the sky have nests, but the Son of Man has nowhere to lay his head.\"",
+      "translator_notes": [
+        "The contrast is between the most common animals (foxes, birds) and the Son of Man — even creatures with no social standing have shelter, but the one to whom Daniel 7 promises universal dominion lives as a homeless itinerant. The phrase 'birds of the sky' (ta peteina tou ouranou) is a Septuagint expression. Jesus does not refuse the volunteer but ensures he understands the cost.",
+        "[TCR Cross-Reference] References Daniel 7 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 59,
+      "text_greek": "Εἶπεν δὲ πρὸς ἕτερον· Ἀκολούθει μοι. ὁ δὲ εἶπεν· Κύριε, ἐπίτρεψόν μοι ἀπελθόντι πρῶτον θάψαι τὸν πατέρα μου.",
+      "text_kjv": "And he said unto another, Follow me. But he said, Lord, suffer me first to go and bury my father.",
+      "rendering": "He said to another, \"Follow me.\" But the man said, \"Lord, let me first go and bury my father.\"",
+      "translator_notes": [
+        "Unlike the first volunteer, this person is called by Jesus but hesitates. Burying one's father was considered the most sacred obligation in Jewish culture — it took precedence over virtually all other religious duties, even Torah study and temple service (cf. Mishnah Berakhot 3:1). The request may mean the father has just died, or it may be an idiom for 'let me wait until my father dies and I've fulfilled my family obligations.'"
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 60,
+      "text_greek": "εἶπεν δὲ αὐτῷ· Ἄφες τοὺς νεκροὺς θάψαι τοὺς ἑαυτῶν νεκρούς, σὺ δὲ ἀπελθὼν διάγγελλε τὴν βασιλείαν τοῦ θεοῦ.",
+      "text_kjv": "Jesus said unto him, Let the dead bury their dead: but go thou and preach the kingdom of God.",
+      "rendering": "Jesus said to him, \"Let the dead bury their own dead, but you go and proclaim the kingdom of God.\"",
+      "translator_notes": [
+        "This is one of the most shocking sayings in the Gospels. 'Let the dead bury their own dead' uses 'dead' in two senses: the spiritually dead can attend to the physically dead. The command to prioritize kingdom proclamation over the most sacred family duty would have been deeply offensive in first-century Jewish culture. Jesus is not callous — he is asserting that the kingdom's arrival creates an unprecedented urgency that relativizes even the most honored obligations."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 61,
+      "text_greek": "Εἶπεν δὲ καὶ ἕτερος· Ἀκολουθήσω σοι, κύριε· πρῶτον δὲ ἐπίτρεψόν μοι ἀποτάξασθαι τοῖς εἰς τὸν οἶκόν μου.",
+      "text_kjv": "And another also said, Lord, I will follow thee; but let me first go bid them farewell, which are at home at my house.",
+      "rendering": "Still another said, \"I will follow you, Lord, but first let me say goodbye to those at my home.\"",
+      "translator_notes": [
+        "The third encounter — unique to Luke — echoes Elisha's call by Elijah in 1 Kings 19:19-21, where Elisha asked to kiss his parents goodbye and Elijah permitted it. The request seems entirely reasonable, which makes Jesus's response in the next verse all the more startling. The verb apotaxasthai ('to say farewell, to take leave of') implies a formal departure, not a quick wave.",
+        "[TCR Cross-Reference] Quotes 1 Kings 19:19-21. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 62,
+      "text_greek": "εἶπεν δὲ πρὸς αὐτὸν ὁ Ἰησοῦς· Οὐδεὶς ἐπιβαλὼν τὴν χεῖρα ἐπ' ἄροτρον καὶ βλέπων εἰς τὰ ὀπίσω εὔθετός ἐστιν τῇ βασιλείᾳ τοῦ θεοῦ.",
+      "text_kjv": "And Jesus said unto him, No man, having put his hand to the plough, and looking back, is fit for the kingdom of God.",
+      "rendering": "Jesus said to him, \"No one who puts his hand to the plow and looks back is fit for the kingdom of God.\"",
+      "translator_notes": [
+        "The agricultural image is precise: a farmer plowing with a wooden plow and a team of oxen must look ahead to maintain a straight furrow. Looking backward produces a crooked line and wastes the field. The verb euthetos ('fit, suitable, useful') implies that backward-looking discipleship is not merely imperfect but useless for kingdom work. The implicit contrast with Elisha's call is significant: what Elijah permitted, Jesus does not — because the kingdom's demands exceed even the prophetic calling."
+      ],
+      "reading_level": "8th grade"
+    }
+  ]
+}

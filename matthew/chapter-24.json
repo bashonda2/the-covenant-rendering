@@ -1,0 +1,570 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Matthew",
+    "chapter": 24,
+    "source_text": "SBL Greek New Testament (SBLGNT)",
+    "reference_text": "KJV",
+    "generated_at": "2026-04-04T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Matthew 24 contains the Olivet Discourse — Jesus's extended teaching on the destruction of the temple, the signs of his coming, and the end of the age. Prompted by the disciples' question about when the temple will be destroyed and what signs will signal his return, Jesus describes a sequence of tribulations: false messiahs, wars, famines, earthquakes, persecution, the 'abomination of desolation,' cosmic disturbances, and finally the coming of the Son of Man. The chapter closes with parables and warnings about readiness, emphasizing that no one knows the day or hour.",
+    "remarkable": "The Olivet Discourse is one of the most debated passages in the New Testament. The disciples' question in verse 3 may conflate two events (the temple's destruction and the end of the age) that Jesus addresses separately, or Jesus may see them as typologically connected. The phrase 'abomination of desolation' (v. 15) draws from Daniel 9:27, 11:31, and 12:11, originally referring to Antiochus Epiphanes' desecration of the temple in 167 BC, here reapplied to a future event. The discourse weaves together language of historical catastrophe (consistent with 70 AD) and cosmic apocalyptic imagery (suggesting an event beyond history).",
+    "friction": "The central interpretive challenge is distinguishing which predictions refer to the destruction of Jerusalem in 70 AD and which refer to the final return of Christ — or whether such a distinction is even intended. We render the Greek as given without imposing a particular eschatological framework. The phrase 'this generation will not pass away until all these things take place' (v. 34) has been interpreted as referring to the generation alive in Jesus's day, the generation alive when the signs begin, or 'generation' in the sense of 'race/people.' We render genea straightforwardly as 'generation' and note the interpretive range.",
+    "connections": "The discourse draws heavily on Daniel 7 (Son of Man coming on clouds), Daniel 9 (abomination of desolation), Isaiah 13 and 34 (cosmic upheaval language), Zechariah 12-14 (mourning and judgment), and Joel 2 (signs in sun and moon). The 'days of Noah' comparison (vv. 37-39) connects to Genesis 6-8. The discourse serves as the foundation for much of Revelation's imagery and for Paul's eschatological teaching in 1 Thessalonians 4-5 and 2 Thessalonians 2.\n\n**Tradition comparisons:** JST footnote at Matthew 24:39: Flood typology in the Olivet Discourse clarified regarding the 'knew not' phrase See the [JST notes](/jst/matthew)."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_greek": "Καὶ ἐξελθὼν ὁ Ἰησοῦς ἀπὸ τοῦ ἱεροῦ ἐπορεύετο, καὶ προσῆλθον οἱ μαθηταὶ αὐτοῦ ἐπιδεῖξαι αὐτῷ τὰς οἰκοδομὰς τοῦ ἱεροῦ.",
+      "text_kjv": "And Jesus went out, and departed from the temple: and his disciples came to him for to shew him the buildings of the temple.",
+      "rendering": "Jesus left the temple and was walking away when his disciples came to him to point out the buildings of the temple.",
+      "translator_notes": [
+        "The verb eporeueto ('was going, was walking away') is imperfect, suggesting Jesus was in the process of departing — a symbolic act following the 'desolate house' pronouncement of 23:38. The disciples' impulse to show him the temple buildings (oikodomas tou hierou) reflects pride in Herod's temple, one of the architectural wonders of the ancient world. Josephus describes its massive stones and gold ornamentation."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 2,
+      "text_greek": "ὁ δὲ ἀποκριθεὶς εἶπεν αὐτοῖς· Οὐ βλέπετε ταῦτα πάντα; ἀμὴν λέγω ὑμῖν, οὐ μὴ ἀφεθῇ ὧδε λίθος ἐπὶ λίθον ὃς οὐ καταλυθήσεται.",
+      "text_kjv": "And Jesus said unto them, See ye not all these things? verily I say unto you, There shall not be left here one stone upon another, that shall not be thrown down.",
+      "rendering": "He answered them, \"Do you see all these things? Truly I tell you, not one stone here will be left on another — every one will be thrown down.\"",
+      "translator_notes": [
+        "The double negative ou mē ('absolutely not') with the subjunctive aphethē expresses the strongest possible negation in Greek — this will certainly happen. The prophecy was fulfilled literally in 70 AD when the Romans under Titus destroyed the temple. Josephus records that soldiers pried apart the stones to recover gold that had melted between them during the fire (Jewish War 7.1.1)."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 3,
+      "text_greek": "Καθημένου δὲ αὐτοῦ ἐπὶ τοῦ Ὄρους τῶν Ἐλαιῶν προσῆλθον αὐτῷ οἱ μαθηταὶ κατ' ἰδίαν λέγοντες· Εἰπὲ ἡμῖν, πότε ταῦτα ἔσται καὶ τί τὸ σημεῖον τῆς σῆς παρουσίας καὶ συντελείας τοῦ αἰῶνος;",
+      "text_kjv": "And as he sat upon the mount of Olives, the disciples came unto him privately, saying, Tell us, when shall these things be? and what shall be the sign of thy coming, and of the end of the world?",
+      "rendering": "As he sat on the Mount of Olives, the disciples came to him privately, saying, \"Tell us, when will these things happen? And what will be the sign of your coming and of the end of the age?\"",
+      "translator_notes": [
+        "The disciples' question contains two or possibly three parts: (1) when will the temple be destroyed? (2) what is the sign of your coming (parousia)? (3) what signals the end of the age (synteleias tou aiōnos)? The Greek parousia means 'arrival, presence, coming' and became the technical term for Christ's return. The phrase synteleias tou aiōnos means 'completion of the age,' not 'end of the world' as in the KJV — aiōn is 'age,' not 'world' (kosmos). The Mount of Olives, east of the temple, is associated with eschatological events in Zechariah 14:4.",
+        "[TCR Cross-Reference] References Zechariah 14:4 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "key_terms": [
+        {
+          "greek": "παρουσία",
+          "transliteration": "parousia",
+          "rendered_as": "coming",
+          "semantic_range": "presence, arrival, coming, advent",
+          "note": "Originally a non-technical word for arrival or presence, parousia was used in the Hellenistic world for the official visit of a ruler to a city. In early Christian usage it became the standard term for Christ's expected return."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 4,
+      "text_greek": "καὶ ἀποκριθεὶς ὁ Ἰησοῦς εἶπεν αὐτοῖς· Βλέπετε μή τις ὑμᾶς πλανήσῃ.",
+      "text_kjv": "And Jesus answered and said unto them, Take heed that no man deceive you.",
+      "rendering": "Jesus answered them, \"Watch out that no one deceives you.",
+      "translator_notes": [
+        "Jesus begins not with a timeline but with a warning. The verb planēsē ('leads astray, deceives') is from the same root as 'planet' (wandering star) — it suggests being led off course. The imperative blepete ('watch, be alert') sets the tone for the entire discourse: vigilance, not speculation, is the proper response to eschatological questions."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 5,
+      "text_greek": "πολλοὶ γὰρ ἐλεύσονται ἐπὶ τῷ ὀνόματί μου λέγοντες· Ἐγώ εἰμι ὁ Χριστός, καὶ πολλοὺς πλανήσουσιν.",
+      "text_kjv": "For many shall come in my name, saying, I am Christ; and shall deceive many.",
+      "rendering": "For many will come in my name, saying, 'I am the Christ,' and they will deceive many.",
+      "translator_notes": [
+        "The phrase epi tō onomati mou ('on the basis of my name') means they will invoke Jesus's authority or claim to be his successor. The claim egō eimi ho Christos ('I am the Christ') predicts messianic pretenders. Josephus records several such figures in the decades before 70 AD (Theudas, the Egyptian, Bar Kokhba later in 132 AD)."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 6,
+      "text_greek": "μελλήσετε δὲ ἀκούειν πολέμους καὶ ἀκοὰς πολέμων· ὁρᾶτε, μὴ θροεῖσθε· δεῖ γὰρ γενέσθαι, ἀλλ' οὔπω ἐστὶν τὸ τέλος.",
+      "text_kjv": "And ye shall hear of wars and rumours of wars: see that ye be not troubled: for all these things must come to pass, but the end is not yet.",
+      "rendering": "You will hear of wars and rumors of wars. See that you are not alarmed, for this must take place, but the end is not yet.",
+      "translator_notes": [
+        "The verb throeisthe ('be alarmed, be disturbed') suggests panic or anxiety. Jesus distinguishes between preliminary signs and the end itself (to telos). The word dei ('it is necessary, it must') indicates divine necessity — these events are part of the plan, not signs that the plan has failed. The phrase oupō estin to telos ('the end is not yet') prevents premature eschatological calculation."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 7,
+      "text_greek": "ἐγερθήσεται γὰρ ἔθνος ἐπὶ ἔθνος καὶ βασιλεία ἐπὶ βασιλείαν καὶ ἔσονται λιμοὶ καὶ σεισμοὶ κατὰ τόπους·",
+      "text_kjv": "For nation shall rise against nation, and kingdom against kingdom: and there shall be famines, and pestilences, and earthquakes, in divers places.",
+      "rendering": "For nation will rise against nation, and kingdom against kingdom, and there will be famines and earthquakes in various places.",
+      "translator_notes": [
+        "The phrase ethnos epi ethnos ('nation against nation') echoes Isaiah 19:2 and 2 Chronicles 15:6. The SBLGNT does not include 'pestilences' (loimoi), which appears in some manuscripts reflected in the KJV. The catalog — wars, famines, earthquakes — represents the standard prophetic signs of divine judgment (cf. Isaiah 13, Ezekiel 38, Joel 2).",
+        "[TCR Cross-Reference] Draws on Isaiah 19:2. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices.",
+        "[TCR Cross-Reference] Draws on 2 Chronicles 15:6. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices.",
+        "[TCR Cross-Reference] Draws on Isaiah 13. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices.",
+        "[TCR Cross-Reference] Draws on Ezekiel 38. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices.",
+        "[TCR Cross-Reference] Draws on Joel 2. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 8,
+      "text_greek": "πάντα δὲ ταῦτα ἀρχὴ ὠδίνων.",
+      "text_kjv": "All these are the beginning of sorrows.",
+      "rendering": "All these things are the beginning of birth pains.",
+      "translator_notes": [
+        "The Greek ōdinōn ('birth pains, labor contractions') is more specific than the KJV's 'sorrows.' The metaphor is significant: birth pains are not pointless suffering but purposeful agony that leads to new life. The image comes from the prophetic tradition (Isaiah 26:17, 66:7-9, Jeremiah 4:31, Micah 4:9-10) where Israel's suffering is compared to labor preceding deliverance.",
+        "[TCR Cross-Reference] References Isaiah 26:17 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved.",
+        "[TCR Cross-Reference] References Jeremiah 4:31 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved.",
+        "[TCR Cross-Reference] References Micah 4:9-10 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 9,
+      "text_greek": "τότε παραδώσουσιν ὑμᾶς εἰς θλῖψιν καὶ ἀποκτενοῦσιν ὑμᾶς, καὶ ἔσεσθε μισούμενοι ὑπὸ πάντων τῶν ἐθνῶν διὰ τὸ ὄνομά μου.",
+      "text_kjv": "Then shall they deliver you up to be afflicted, and shall kill you: and ye shall be hated of all nations for my name's sake.",
+      "rendering": "Then they will hand you over to tribulation and kill you, and you will be hated by all nations because of my name.",
+      "translator_notes": [
+        "The verb paradōsousin ('they will hand over, deliver up') is the same word used for Judas's betrayal of Jesus (26:15) and for Jesus being handed over to Pilate (27:2). The term thlipsin ('affliction, distress, tribulation') denotes severe pressure and suffering. The phrase dia to onoma mou ('because of my name') identifies the cause: association with Jesus himself."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 10,
+      "text_greek": "καὶ τότε σκανδαλισθήσονται πολλοὶ καὶ ἀλλήλους παραδώσουσιν καὶ μισήσουσιν ἀλλήλους·",
+      "text_kjv": "And then shall many be offended, and shall betray one another, and shall hate one another.",
+      "rendering": "At that time many will fall away, betray one another, and hate one another.",
+      "translator_notes": [
+        "The verb skandalisthēsontai ('will be caused to stumble, will fall away') describes apostasy under pressure — faith collapsing when the cost becomes too high. The triple repetition of allēlous ('one another') paints a picture of community disintegration: mutual betrayal and mutual hatred replacing mutual love."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 11,
+      "text_greek": "καὶ πολλοὶ ψευδοπροφῆται ἐγερθήσονται καὶ πλανήσουσιν πολλούς·",
+      "text_kjv": "And many false prophets shall rise, and shall deceive many.",
+      "rendering": "And many false prophets will arise and deceive many.",
+      "translator_notes": [
+        "The pseudoprophētai ('false prophets') are distinct from the false messiahs of verse 5. The term echoes Deuteronomy 13:1-5 and Jeremiah 23:9-40 — Israel's perennial problem of prophets who speak without divine commission. The repetition of pollous ('many') in both subject and object emphasizes the scale of the deception.",
+        "[TCR Cross-Reference] Quotes Deuteronomy 13:1-5. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it.",
+        "[TCR Cross-Reference] Quotes Jeremiah 23:9-40. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 12,
+      "text_greek": "καὶ διὰ τὸ πληθυνθῆναι τὴν ἀνομίαν ψυγήσεται ἡ ἀγάπη τῶν πολλῶν.",
+      "text_kjv": "And because iniquity shall abound, the love of many shall wax cold.",
+      "rendering": "And because lawlessness will increase, the love of many will grow cold.",
+      "translator_notes": [
+        "The word anomian ('lawlessness') — the same term used in 23:28 — here describes societal moral collapse. The verb psygēsetai ('will be cooled, will grow cold') uses a temperature metaphor for love (agapē) — the opposite of the fervent love commanded in 22:37-39. The connection between rampant lawlessness and the cooling of love suggests that moral chaos erodes the capacity for genuine community."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 13,
+      "text_greek": "ὁ δὲ ὑπομείνας εἰς τέλος οὗτος σωθήσεται.",
+      "text_kjv": "But he that shall endure unto the end, the same shall be saved.",
+      "rendering": "But the one who endures to the end will be saved.",
+      "translator_notes": [
+        "The participle hypomeinas ('having endured, having persevered') is from hypomenō ('to remain under, to bear up under') — it pictures standing firm under pressure rather than escaping it. 'The end' (telos) may refer to the end of one's life, the end of the tribulation, or the consummation of the age. 'Will be saved' (sōthēsetai) encompasses both spiritual salvation and physical deliverance, depending on context."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 14,
+      "text_greek": "καὶ κηρυχθήσεται τοῦτο τὸ εὐαγγέλιον τῆς βασιλείας ἐν ὅλῃ τῇ οἰκουμένῃ εἰς μαρτύριον πᾶσιν τοῖς ἔθνεσιν, καὶ τότε ἥξει τὸ τέλος.",
+      "text_kjv": "And this gospel of the kingdom shall be preached in all the world for a witness unto all nations; and then shall the end come.",
+      "rendering": "And this gospel of the kingdom will be proclaimed throughout the whole world as a testimony to all nations, and then the end will come.",
+      "translator_notes": [
+        "The Greek oikoumenē ('inhabited world') referred to the known world of the Roman Empire, though its scope may extend beyond that. The phrase eis martyrion ('as a testimony/witness') indicates that the proclamation itself constitutes a witness — whether people accept or reject it. This verse makes worldwide gospel proclamation a precondition for 'the end' (to telos), providing a missionary mandate embedded in eschatological prophecy."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 15,
+      "text_greek": "Ὅταν οὖν ἴδητε τὸ βδέλυγμα τῆς ἐρημώσεως τὸ ῥηθὲν διὰ Δανιὴλ τοῦ προφήτου ἑστὸς ἐν τόπῳ ἁγίῳ, ὁ ἀναγινώσκων νοείτω,",
+      "text_kjv": "When ye therefore shall see the abomination of desolation, spoken of by Daniel the prophet, stand in the holy place, (whoso readeth, let him understand,)",
+      "rendering": "\"So when you see the abomination of desolation, spoken of through the prophet Daniel, standing in the holy place\" — let the reader understand —",
+      "translator_notes": [
+        "The 'abomination of desolation' (to bdelygma tēs erēmōseōs) comes from Daniel 9:27, 11:31, and 12:11. In Daniel it referred to Antiochus IV Epiphanes setting up a pagan altar in the temple in 167 BC. Jesus reapplies it to a future desecration. The parenthetical 'let the reader understand' (ho anaginōskōn noeitō) may be Matthew's editorial note to his readers rather than Jesus's words, alerting them that this prophecy requires careful discernment. The 'holy place' (topō hagiō) is the temple area.",
+        "[TCR Cross-Reference] This verse quotes Daniel 9:27 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "reading_level": "10th grade"
+    },
+    {
+      "verse": 16,
+      "text_greek": "τότε οἱ ἐν τῇ Ἰουδαίᾳ φευγέτωσαν εἰς τὰ ὄρη,",
+      "text_kjv": "Then let them which be in Judaea flee into the mountains:",
+      "rendering": "Then let them which be in Judaea escape into the hills.",
+      "translator_notes": [
+        "The imperative pheugetōsan ('let them flee') conveys urgency — immediate flight, no delay. The instruction to flee to the mountains is practical advice for a military siege: the Judean wilderness and hills east of Jerusalem provided natural refuge. The early church historian Eusebius records that Christians in Jerusalem fled to Pella in Transjordan before the Roman siege of 70 AD."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 17,
+      "text_greek": "ὁ ἐπὶ τοῦ δώματος μὴ καταβάτω ἆραι τὰ ἐκ τῆς οἰκίας αὐτοῦ,",
+      "text_kjv": "Let him which is on the housetop not come down to take any thing out of his house:",
+      "rendering": "The one on the housetop must not go down to get things out of his house,",
+      "translator_notes": [
+        "The flat roof (dōmatos) of a Palestinian house was used for daily activities and could be accessed by an external staircase. The instruction is to flee via the rooftops without even entering one's own home — the urgency is that extreme. Every moment spent collecting possessions risks death."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 18,
+      "text_greek": "καὶ ὁ ἐν τῷ ἀγρῷ μὴ ἐπιστρεψάτω ὀπίσω ἆραι τὸ ἱμάτιον αὐτοῦ.",
+      "text_kjv": "Neither let him which is in the field return back to take his clothes.",
+      "rendering": "And do not allow him that is in the field return back to take his clothes.",
+      "translator_notes": [
+        "The himation ('cloak, outer garment') was an essential item — it served as both clothing and bedding (cf. Exodus 22:26-27). Even this necessity must be abandoned. The verb epistrepsatō ('let him turn back') echoes Lot's wife (Genesis 19:26) — looking back is dangerous.",
+        "[TCR Cross-Reference] References Exodus 22:26-27 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved.",
+        "[TCR Cross-Reference] References Genesis 19:26 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 19,
+      "text_greek": "οὐαὶ δὲ ταῖς ἐν γαστρὶ ἐχούσαις καὶ ταῖς θηλαζούσαις ἐν ἐκείναις ταῖς ἡμέραις.",
+      "text_kjv": "And woe unto them that are with child, and to them that give suck in those days!",
+      "rendering": "How terrible it will be for pregnant women and nursing mothers in those days!",
+      "translator_notes": [
+        "The ouai ('woe, alas') here expresses compassion, not condemnation — grief for those whose physical condition makes flight nearly impossible. The phrase en gastri echousais ('having in the womb') and thēlazousais ('nursing') depict the most vulnerable members of society in a crisis."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 20,
+      "text_greek": "προσεύχεσθε δὲ ἵνα μὴ γένηται ἡ φυγὴ ὑμῶν χειμῶνος μηδὲ σαββάτῳ.",
+      "text_kjv": "But pray ye that your flight be not in the winter, neither on the sabbath day:",
+      "rendering": "Pray that your flight will not take place in winter or on a Sabbath.",
+      "translator_notes": [
+        "Winter (cheimōnos) makes travel through the Judean wilderness dangerous — cold, rain, swollen wadis. A Sabbath flight would face two obstacles: restricted travel distances (a 'Sabbath day's journey' was about 2,000 cubits or three-quarters of a mile) and city gates that might be shut. The mention of Sabbath assumes a Jewish-observant audience and reflects Matthew's Jewish-Christian community context."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 21,
+      "text_greek": "ἔσται γὰρ τότε θλῖψις μεγάλη οἵα οὐ γέγονεν ἀπ' ἀρχῆς κόσμου ἕως τοῦ νῦν οὐδ' οὐ μὴ γένηται.",
+      "text_kjv": "For then shall be great tribulation, such as was not since the beginning of the world to this time, no, nor ever shall be.",
+      "rendering": "For at that time there will be great tribulation, such as has not occurred since the beginning of the world until now, and never will again.",
+      "translator_notes": [
+        "The phrase thlipsis megalē ('great tribulation') has become a technical eschatological term in many traditions. The language of unprecedented suffering echoes Daniel 12:1. The superlative — nothing like it before or after — may be hyperbolic prophetic language (cf. Exodus 10:14 about the locusts, Joel 2:2) or may describe a truly singular event. Josephus's account of the siege of Jerusalem describes starvation, cannibalism, and mass crucifixion that corroborates extreme suffering.",
+        "[TCR Cross-Reference] Quotes Daniel 12:1. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it.",
+        "[TCR Cross-Reference] Quotes Exodus 10:14. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it.",
+        "[TCR Cross-Reference] Quotes Joel 2:2. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 22,
+      "text_greek": "καὶ εἰ μὴ ἐκολοβώθησαν αἱ ἡμέραι ἐκεῖναι, οὐκ ἂν ἐσώθη πᾶσα σάρξ· διὰ δὲ τοὺς ἐκλεκτοὺς κολοβωθήσονται αἱ ἡμέραι ἐκεῖναι.",
+      "text_kjv": "And except those days should be shortened, there should no flesh be saved: but for the elect's sake those days shall be shortened.",
+      "rendering": "If those days had not been cut short, no one would survive. But for the sake of the elect, those days will be cut short.",
+      "translator_notes": [
+        "The verb ekolobōthēsan ('were cut short, were curtailed') implies divine intervention to limit the duration of suffering. The term pasa sarx ('all flesh') means all living people, not just believers. The eklektous ('elect, chosen ones') are the reason for God's mercy in shortening the tribulation — divine compassion for his people sets a boundary on catastrophe."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 23,
+      "text_greek": "τότε ἐάν τις ὑμῖν εἴπῃ· Ἰδοὺ ὧδε ὁ Χριστός, ἤ· Ὧδε, μὴ πιστεύσητε·",
+      "text_kjv": "Then if any man shall say unto you, Lo, here is Christ, or there; believe it not.",
+      "rendering": "Then if anyone says to you, 'Look, here is the Christ!' or 'There he is!' — do not believe it.",
+      "translator_notes": [
+        "Jesus returns to the warning against false messiahs (cf. v. 5). The construction ean tis ('if anyone') is deliberately indefinite — the source of deception could be anyone. The imperative mē pisteusēte ('do not believe') is decisive and unqualified."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 24,
+      "text_greek": "ἐγερθήσονται γὰρ ψευδόχριστοι καὶ ψευδοπροφῆται καὶ δώσουσιν σημεῖα μεγάλα καὶ τέρατα ὥστε πλανῆσαι, εἰ δυνατόν, καὶ τοὺς ἐκλεκτούς.",
+      "text_kjv": "For there shall arise false Christs, and false prophets, and shall shew great signs and wonders; insomuch that, if it were possible, they shall deceive the very elect.",
+      "rendering": "For false messiahs and false prophets will arise and perform great signs and wonders, so as to deceive, if possible, even the elect.",
+      "translator_notes": [
+        "The compound pseudochristoi ('false messiahs/false christs') appears only here and in Mark 13:22 in the entire New Testament. The phrase sēmeia megala kai terata ('great signs and wonders') uses the same language used positively for God's miraculous acts in the Old Testament (Deuteronomy 6:22) — the deception is sophisticated enough to mimic divine authentication. The clause ei dynaton ('if possible') leaves ambiguous whether the elect can actually be deceived — the conditional suggests it may approach but not achieve that.",
+        "[TCR Cross-Reference] Echoes Deuteronomy 6:22. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 25,
+      "text_greek": "ἰδοὺ προείρηκα ὑμῖν.",
+      "text_kjv": "Behold, I have told you before.",
+      "rendering": "See, I have told you in advance.",
+      "translator_notes": [
+        "The verb proeirēka ('I have foretold') emphasizes that the warning comes before the events, removing any excuse for being caught off guard. The brevity of the statement gives it the force of a prophetic seal — 'You have been warned.'"
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 26,
+      "text_greek": "ἐὰν οὖν εἴπωσιν ὑμῖν· Ἰδοὺ ἐν τῇ ἐρήμῳ ἐστίν, μὴ ἐξέλθητε· Ἰδοὺ ἐν τοῖς ταμείοις, μὴ πιστεύσητε·",
+      "text_kjv": "Wherefore if they shall say unto you, Behold, he is in the desert; go not forth: behold, he is in the secret chambers; believe it not.",
+      "rendering": "So if they say to you, 'Look, he is in the wilderness!' — do not go out. Or, 'Look, he is in the inner rooms!' — do not believe it.",
+      "translator_notes": [
+        "Two contrasting locations are named: the wilderness (erēmō), where prophetic and messianic movements typically gathered (cf. the Qumran community, various revolutionary movements), and the inner rooms (tameiois), suggesting secret, esoteric knowledge. Both are rejected — the true coming of the Son of Man will not be hidden or localized."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 27,
+      "text_greek": "ὥσπερ γὰρ ἡ ἀστραπὴ ἐξέρχεται ἀπὸ ἀνατολῶν καὶ φαίνεται ἕως δυσμῶν, οὕτως ἔσται ἡ παρουσία τοῦ υἱοῦ τοῦ ἀνθρώπου.",
+      "text_kjv": "For as the lightning cometh out of the east, and shineth even unto the west; so shall also the coming of the Son of man be.",
+      "rendering": "For as lightning comes from the east and flashes to the west, so will be the coming of the Son of Man.",
+      "translator_notes": [
+        "The lightning metaphor (astrapē) establishes three qualities of the Parousia: it will be sudden, visible everywhere simultaneously, and unmistakable. No one needs to be told lightning has struck — you simply see it. This eliminates the possibility of a secret or localized return. The title 'Son of Man' (huios tou anthrōpou) draws from Daniel 7:13-14.",
+        "[TCR Cross-Reference] Draws on Daniel 7:13-14. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 28,
+      "text_greek": "ὅπου ἐὰν ᾖ τὸ πτῶμα, ἐκεῖ συναχθήσονται οἱ ἀετοί.",
+      "text_kjv": "For wheresoever the carcase is, there will the eagles be gathered together.",
+      "rendering": "Wherever the carcass is, there the vultures will gather.",
+      "translator_notes": [
+        "This proverb-like saying is enigmatic. The Greek aetoi can mean 'eagles' or 'vultures' — vultures is more contextually appropriate since eagles do not typically feed on carrion (ptōma, 'fallen body, corpse'). The saying may mean that judgment naturally finds its target, just as vultures inevitably find a carcass. Some interpreters see a reference to Roman eagles (legionary standards). The exact application is deliberately obscure."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 29,
+      "text_greek": "Εὐθέως δὲ μετὰ τὴν θλῖψιν τῶν ἡμερῶν ἐκείνων ὁ ἥλιος σκοτισθήσεται, καὶ ἡ σελήνη οὐ δώσει τὸ φέγγος αὐτῆς, καὶ οἱ ἀστέρες πεσοῦνται ἀπὸ τοῦ οὐρανοῦ, καὶ αἱ δυνάμεις τῶν οὐρανῶν σαλευθήσονται.",
+      "text_kjv": "Immediately after the tribulation of those days shall the sun be darkened, and the moon shall not give her light, and the stars shall fall from heaven, and the powers of the heavens shall be shaken:",
+      "rendering": "\"Immediately after the tribulation of those days, the sun will be darkened, the moon will not give its light, the stars will fall from the sky, and the powers of the heavens will be shaken.",
+      "translator_notes": [
+        "The adverb eutheōs ('immediately') creates an interpretive challenge — if the tribulation of 'those days' refers to 70 AD, what follows 'immediately' after? The cosmic imagery draws heavily from Isaiah 13:10 (judgment on Babylon) and Isaiah 34:4 (judgment on Edom), where darkened sun and falling stars are prophetic language for political upheaval and divine judgment, not necessarily literal astronomical events. Whether Jesus uses this language literally or figuratively (as the prophets often did) remains debated. The 'powers of the heavens' (dynameis tōn ouranōn) may refer to celestial bodies or to spiritual forces.",
+        "[TCR Cross-Reference] Echoes Isaiah 13:10. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale.",
+        "[TCR Cross-Reference] Echoes Isaiah 34:4. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 30,
+      "text_greek": "καὶ τότε φανήσεται τὸ σημεῖον τοῦ υἱοῦ τοῦ ἀνθρώπου ἐν οὐρανῷ, καὶ τότε κόψονται πᾶσαι αἱ φυλαὶ τῆς γῆς καὶ ὄψονται τὸν υἱὸν τοῦ ἀνθρώπου ἐρχόμενον ἐπὶ τῶν νεφελῶν τοῦ οὐρανοῦ μετὰ δυνάμεως καὶ δόξης πολλῆς.",
+      "text_kjv": "And then shall appear the sign of the Son of man in heaven: and then shall all the tribes of the earth mourn, and they shall see the Son of man coming in the clouds of heaven with power and great glory.",
+      "rendering": "Then the sign of the Son of Man will appear in heaven, and then all the tribes of the earth will mourn, and they will see the Son of Man coming on the clouds of heaven with power and great glory.",
+      "translator_notes": [
+        "The 'sign' (sēmeion) of the Son of Man is not identified — it may be the Son of Man himself, a banner, a light, or something else entirely. The mourning of 'all the tribes of the earth' (pasai hai phylai tēs gēs) echoes Zechariah 12:10-12, where Israel mourns one whom they have pierced. The coming 'on the clouds' (epi tōn nephelōn) directly fulfills Daniel 7:13-14, where the Son of Man receives universal dominion from the Ancient of Days. The combination of dynamis ('power') and doxa ('glory') contrasts with Jesus's first coming in humility.",
+        "[TCR Cross-Reference] This verse quotes Daniel 7:13 — see the TCR rendering of that passage for the Hebrew source text and translation decisions.",
+        "[TCR Cross-Reference] This verse quotes Zechariah 12:10-12 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 31,
+      "text_greek": "καὶ ἀποστελεῖ τοὺς ἀγγέλους αὐτοῦ μετὰ σάλπιγγος μεγάλης, καὶ ἐπισυνάξουσιν τοὺς ἐκλεκτοὺς αὐτοῦ ἐκ τῶν τεσσάρων ἀνέμων ἀπ' ἄκρων οὐρανῶν ἕως τῶν ἄκρων αὐτῶν.",
+      "text_kjv": "And he shall send his angels with a great sound of a trumpet, and they shall gather together his elect from the four winds, from one end of heaven to the other.",
+      "rendering": "He will send out his angels with a loud trumpet call, and they will gather his elect from the four winds, from one end of the heavens to the other.",
+      "translator_notes": [
+        "The trumpet (salpingos) echoes the great trumpet of Isaiah 27:13, which summons the scattered Israelites home. The gathering of the elect (eklektous) from the four winds (tessarōn anemōn) fulfills the ingathering prophecies of Deuteronomy 30:4, Isaiah 11:11-12, and Zechariah 2:6. The phrase ap' akrōn ouranōn heōs tōn akrōn autōn ('from the extremities of the heavens to their extremities') means from one horizon to the other — a universal gathering.",
+        "[TCR Cross-Reference] Quotes Isaiah 27:13. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it.",
+        "[TCR Cross-Reference] Quotes Deuteronomy 30:4. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it.",
+        "[TCR Cross-Reference] Quotes Isaiah 11:11-12. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it.",
+        "[TCR Cross-Reference] Quotes Zechariah 2:6. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 32,
+      "text_greek": "Ἀπὸ δὲ τῆς συκῆς μάθετε τὴν παραβολήν· ὅταν ἤδη ὁ κλάδος αὐτῆς γένηται ἁπαλὸς καὶ τὰ φύλλα ἐκφύῃ, γινώσκετε ὅτι ἐγγὺς τὸ θέρος·",
+      "text_kjv": "Now learn a parable of the fig tree; When his branch is yet tender, and putteth forth leaves, ye know that summer is nigh:",
+      "rendering": "Now learn this lesson from the fig tree: when its branch becomes tender and puts out leaves, you know that summer is near.",
+      "translator_notes": [
+        "The fig tree (sykēs) parable is an analogy from nature, not an allegory (the fig tree does not represent Israel here, despite some interpretive traditions). In Palestine, the fig tree's visible budding is a reliable harbinger of summer. The Greek hapalos ('tender, soft') describes the supple new growth. Jesus applies this to the preceding signs: when you see them, know that the fulfillment is near."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 33,
+      "text_greek": "οὕτως καὶ ὑμεῖς, ὅταν ἴδητε πάντα ταῦτα, γινώσκετε ὅτι ἐγγύς ἐστιν ἐπὶ θύραις.",
+      "text_kjv": "So likewise ye, when ye shall see all these things, know that it is near, even at the doors.",
+      "rendering": "In the same way, when you see all these things, you know that it is near — right at the door.",
+      "translator_notes": [
+        "The pronoun 'it' (implied by the verb estin) is ambiguous — 'it' could be the Son of Man, the kingdom, or the predicted destruction. The phrase epi thyrais ('at the doors') is a vivid spatial metaphor: whatever is coming has arrived at the threshold and is about to enter."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 34,
+      "text_greek": "ἀμὴν λέγω ὑμῖν ὅτι οὐ μὴ παρέλθῃ ἡ γενεὰ αὕτη ἕως ἂν πάντα ταῦτα γένηται.",
+      "text_kjv": "Verily I say unto you, This generation shall not pass, till all these things be fulfilled.",
+      "rendering": "Truly I tell you, this generation will not pass away until all these things take place.",
+      "translator_notes": [
+        "This is one of the most debated verses in the New Testament. The word genea ('generation') most naturally means the people alive at a given time (roughly 30-40 years). If taken at face value, Jesus predicts that everything described in vv. 4-31 will occur within the lifetime of his contemporaries. This fits the destruction of Jerusalem (70 AD, about 40 years after Jesus's ministry) but creates tension with the cosmic-scale events of vv. 29-31. Alternative readings take genea as 'race' (the Jewish people will not cease to exist) or 'type of people' (evil generation). We render the word in its primary sense and note the interpretive range."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 35,
+      "text_greek": "ὁ οὐρανὸς καὶ ἡ γῆ παρελεύσεται, οἱ δὲ λόγοι μου οὐ μὴ παρέλθωσιν.",
+      "text_kjv": "Heaven and earth shall pass away, but my words shall not pass away.",
+      "rendering": "Heaven and earth will pass away, but my words will never pass away.",
+      "translator_notes": [
+        "The contrast between the temporary (heaven and earth) and the permanent (Jesus's words) is a staggering claim. The verb pareleusetai ('will pass away, will come to an end') applied to heaven and earth echoes Isaiah 51:6 and Psalm 102:26. The double negative ou mē parelthōsin ('absolutely will not pass away') applied to Jesus's words places them above creation itself in permanence — a claim of divine authority.",
+        "[TCR Cross-Reference] This verse quotes Isaiah 51:6 — see the TCR rendering of that passage for the Hebrew source text and translation decisions.",
+        "[TCR Cross-Reference] This verse quotes Psalm 102:26 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 36,
+      "text_greek": "Περὶ δὲ τῆς ἡμέρας ἐκείνης καὶ ὥρας οὐδεὶς οἶδεν, οὐδὲ οἱ ἄγγελοι τῶν οὐρανῶν οὐδὲ ὁ υἱός, εἰ μὴ ὁ πατὴρ μόνος.",
+      "text_kjv": "But of that day and hour knoweth no man, no, not the angels of heaven, but my Father only.",
+      "rendering": "But concerning that day and hour, no one knows — not even the angels of heaven, nor the Son — but the Father alone.",
+      "translator_notes": [
+        "The SBLGNT includes oude ho huios ('nor the Son'), which some manuscripts omit (the KJV follows manuscripts that omit it). The inclusion is generally considered original and theologically significant: Jesus acknowledges a limitation on his own knowledge regarding the timing of the end. The three-tiered exclusion (no human, no angel, not even the Son) concentrates all knowledge of the timing in the Father alone. This verse fundamentally undercuts all attempts to calculate the date of Christ's return."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 37,
+      "text_greek": "ὥσπερ γὰρ αἱ ἡμέραι τοῦ Νῶε, οὕτως ἔσται ἡ παρουσία τοῦ υἱοῦ τοῦ ἀνθρώπου.",
+      "text_kjv": "But as the days of Noe were, so shall also the coming of the Son of man be.",
+      "rendering": "For as were the days of Noah, so will be the coming of the Son of Man.",
+      "translator_notes": [
+        "The Noah comparison (hai hēmerai tou Nōe) establishes an analogy not about wickedness but about normalcy — people will be going about ordinary life when the end comes. The Greek Nōe is the Septuagint form of the Hebrew Noach."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 38,
+      "text_greek": "ὡς γὰρ ἦσαν ἐν ταῖς ἡμέραις ἐκείναις ταῖς πρὸ τοῦ κατακλυσμοῦ τρώγοντες καὶ πίνοντες, γαμοῦντες καὶ γαμίζοντες, ἕως ἧς ἡμέρας εἰσῆλθεν Νῶε εἰς τὴν κιβωτόν,",
+      "text_kjv": "For as in the days that were before the flood they were eating and drinking, marrying and giving in marriage, until the day that Noe entered into the ark,",
+      "rendering": "Until the day that noe entered into the ark,, for as in the days that were before the flood they were eating and drinking, marrying and giving in marriage.",
+      "translator_notes": [
+        "The activities listed — eating (trōgontes), drinking (pinontes), marrying (gamountes), and giving in marriage (gamizontes) — are not sinful but ordinary. The point is not that they were doing evil things but that they were oblivious. The kataklysmos ('flood, deluge') is the Greek term used in the Septuagint for Noah's flood (Genesis 6-8).",
+        "[TCR Cross-Reference] References Genesis 6-8 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 39,
+      "text_greek": "καὶ οὐκ ἔγνωσαν ἕως ἦλθεν ὁ κατακλυσμὸς καὶ ἦρεν ἅπαντας, οὕτως ἔσται καὶ ἡ παρουσία τοῦ υἱοῦ τοῦ ἀνθρώπου.",
+      "text_kjv": "And knew not until the flood came, and took them all away; so shall also the coming of the Son of man be.",
+      "rendering": "Recognized not until the flood arrived, and picked up them all away. So will also the coming of the Son of Man be.",
+      "translator_notes": [
+        "The verb ouk egnōsan ('they did not know, they did not realize') is the key: the catastrophe was not unannounced (Noah was building the ark in plain sight) but unrecognized. The verb ēren ('took away, swept away') pictures sudden, total removal. The parousia will similarly overtake those who are not alert."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 40,
+      "text_greek": "τότε δύο ἔσονται ἐν τῷ ἀγρῷ, εἷς παραλαμβάνεται καὶ εἷς ἀφίεται·",
+      "text_kjv": "Then shall two be in the field; the one shall be taken, and the other left.",
+      "rendering": "Then two men will be in the field: one will be taken and one left.",
+      "translator_notes": [
+        "The verb paralambanetai ('is taken, is received') and aphietai ('is left, is released') have been interpreted in opposite ways: 'taken' as gathered for salvation (cf. v. 31) or 'taken' in judgment (as the flood 'took' in v. 39). The Noah context suggests 'taken' means taken in judgment and 'left' means spared, though the reverse interpretation (taken to be with the Lord) is also defended. We render the Greek without interpretive addition."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 41,
+      "text_greek": "δύο ἀλήθουσαι ἐν τῷ μύλῳ, μία παραλαμβάνεται καὶ μία ἀφίεται.",
+      "text_kjv": "Two women shall be grinding at the mill; the one shall be taken, and the other left.",
+      "rendering": "Two women will be grinding at the mill: one will be taken and one left.",
+      "translator_notes": [
+        "Grinding grain at a hand mill (mylō) was a common daily task for women in first-century Palestine. The parallel with verse 40 extends the point: the separation will occur during the most routine activities, without warning, in both men's and women's domains of daily life."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 42,
+      "text_greek": "γρηγορεῖτε οὖν, ὅτι οὐκ οἴδατε ποίᾳ ἡμέρᾳ ὁ κύριος ὑμῶν ἔρχεται.",
+      "text_kjv": "Watch therefore: for ye know not what hour your Lord doth come.",
+      "rendering": "Therefore stay alert, for you do not know on what day your Lord is coming.",
+      "translator_notes": [
+        "The imperative grēgoreite ('stay awake, be watchful, be alert') becomes the dominant theme from here through chapter 25. The SBLGNT reads hēmera ('day') rather than hōra ('hour') found in some manuscripts. The practical application of the preceding prophecy is not calculation but constant readiness."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 43,
+      "text_greek": "ἐκεῖνο δὲ γινώσκετε ὅτι εἰ ᾔδει ὁ οἰκοδεσπότης ποίᾳ φυλακῇ ὁ κλέπτης ἔρχεται, ἐγρηγόρησεν ἂν καὶ οὐκ ἂν εἴασεν διορυχθῆναι τὴν οἰκίαν αὐτοῦ.",
+      "text_kjv": "But know this, that if the goodman of the house had known in what watch the thief would come, he would have watched, and would not have suffered his house to be broken up.",
+      "rendering": "But understand this: if the homeowner had known at what time of night the thief was coming, he would have stayed awake and would not have let his house be broken into.",
+      "translator_notes": [
+        "The Greek oikodespotēs ('master of the house, homeowner') becomes the subject of a brief parable. The phylakē ('watch') refers to the Roman system dividing the night into four watches. The verb diorychthenai ('to be dug through') reflects Palestinian construction: mud-brick walls could literally be tunneled through by a thief. The analogy is startling — the Son of Man's coming is compared to a thief's break-in (cf. 1 Thessalonians 5:2, Revelation 3:3)."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 44,
+      "text_greek": "διὰ τοῦτο καὶ ὑμεῖς γίνεσθε ἕτοιμοι, ὅτι ᾗ οὐ δοκεῖτε ὥρᾳ ὁ υἱὸς τοῦ ἀνθρώπου ἔρχεται.",
+      "text_kjv": "Therefore be ye also ready: for in such an hour as ye think not the Son of man cometh.",
+      "rendering": "For this reason, you also must be ready, because the Son of Man is coming at an hour you do not expect.",
+      "translator_notes": [
+        "The imperative ginesthe hetoimoi ('be ready, become prepared') calls for ongoing readiness, not a one-time preparation. The phrase hē ou dokeite hōra ('the hour you do not think/expect') adds an ironic twist: the one thing you can be sure of is that it will not be when you expect it."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 45,
+      "text_greek": "Τίς ἄρα ἐστὶν ὁ πιστὸς δοῦλος καὶ φρόνιμος ὃν κατέστησεν ὁ κύριος ἐπὶ τῆς οἰκετείας αὐτοῦ τοῦ δοῦναι αὐτοῖς τὴν τροφὴν ἐν καιρῷ;",
+      "text_kjv": "Who then is a faithful and wise servant, whom his lord hath made ruler over his household, to give them meat in due season?",
+      "rendering": "\"Who then is the faithful and wise servant, whom his master has put in charge of his household, to give them their food at the proper time?",
+      "translator_notes": [
+        "The parable shifts to a household manager. The Greek pistos ('faithful, trustworthy') and phronimos ('wise, prudent') describe the ideal servant. The oiketeia ('household, household servants') represents those under the servant's care. The question 'who then is...?' invites the listener to identify with or aspire to this role."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 46,
+      "text_greek": "μακάριος ὁ δοῦλος ἐκεῖνος ὃν ἐλθὼν ὁ κύριος αὐτοῦ εὑρήσει οὕτως ποιοῦντα.",
+      "text_kjv": "Blessed is that servant, whom his lord when he cometh shall find so doing.",
+      "rendering": "Blessed is that servant whom his master finds doing so when he arrives.",
+      "translator_notes": [
+        "The word makarios ('blessed, fortunate, happy') is the same word that opens the Beatitudes (5:3-11). The key phrase is houtōs poiounta ('doing thus') — blessedness is found in faithful action at the moment of the master's return, not in speculation about when the return will occur."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 47,
+      "text_greek": "ἀμὴν λέγω ὑμῖν ὅτι ἐπὶ πᾶσιν τοῖς ὑπάρχουσιν αὐτοῦ καταστήσει αὐτόν.",
+      "text_kjv": "Verily I say unto you, That he shall make him ruler over all his goods.",
+      "rendering": "Truly I tell you, he will put him in charge of all his possessions.",
+      "translator_notes": [
+        "The reward for faithfulness is expanded responsibility — the servant who managed the household well is given authority over all the master's possessions (pasin tois hyparchousin). This principle — faithfulness in small things leading to authority over greater things — recurs in the parable of the talents (25:21, 23)."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 48,
+      "text_greek": "ἐὰν δὲ εἴπῃ ὁ κακὸς δοῦλος ἐκεῖνος ἐν τῇ καρδίᾳ αὐτοῦ· Χρονίζει μου ὁ κύριος,",
+      "text_kjv": "But and if that evil servant shall say in his heart, My lord delayeth his coming;",
+      "rendering": "But if that wicked servant says in his heart, 'My master is delayed,'",
+      "translator_notes": [
+        "The phrase en tē kardia autou ('in his heart') indicates private calculation, not public rebellion. The verb chronizei ('delays, takes a long time') reveals the servant's reasoning: he assumes the master's absence will continue, so he can act with impunity. The adjective kakos ('wicked, evil') characterizes the servant by his response to the delay, not by a separate category of person."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 49,
+      "text_greek": "καὶ ἄρξηται τύπτειν τοὺς συνδούλους αὐτοῦ, ἐσθίῃ δὲ καὶ πίνῃ μετὰ τῶν μεθυόντων,",
+      "text_kjv": "And shall begin to smite his fellowservants, and to eat and drink with the drunken;",
+      "rendering": "Will start to smite his fellowservants, and to eat and drink with the drunken.",
+      "translator_notes": [
+        "The wicked servant's behavior manifests in two ways: abuse of those under his authority (typtein tous syndoulous, 'beating his fellow servants') and self-indulgence (eating and drinking with drunkards). The combination of oppression and excess characterizes unfaithful leadership — using one's position for personal gain while harming those one is supposed to serve."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 50,
+      "text_greek": "ἥξει ὁ κύριος τοῦ δούλου ἐκείνου ἐν ἡμέρᾳ ᾗ οὐ προσδοκᾷ καὶ ἐν ὥρᾳ ᾗ οὐ γινώσκει,",
+      "text_kjv": "The lord of that servant shall come in a day when he looketh not for him, and in an hour that he is not aware of,",
+      "rendering": "The lord of that attendant will arrive in a time when he looketh not for him, and in an moment that he is not aware of,.",
+      "translator_notes": [
+        "The double expression — a day he does not expect (ou prosdoka) and an hour he does not know (ou ginōskei) — echoes verse 36. The servant's calculation that the master is delayed proves fatally wrong. The surprise element reinforces the discourse's central theme: readiness, not prediction."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 51,
+      "text_greek": "καὶ διχοτομήσει αὐτὸν καὶ τὸ μέρος αὐτοῦ μετὰ τῶν ὑποκριτῶν θήσει· ἐκεῖ ἔσται ὁ κλαυθμὸς καὶ ὁ βρυγμὸς τῶν ὀδόντων.",
+      "text_kjv": "And shall cut him asunder, and appoint him his portion with the hypocrites: there shall be weeping and gnashing of teeth.",
+      "rendering": "Will cut him asunder, and appoint him his portion with the hypocrites — where there is sobbing and grinding of teeth.",
+      "translator_notes": [
+        "The verb dichotomēsei ('will cut in two, will cut to pieces') is shockingly graphic — whether literal dismemberment or a metaphor for severe punishment is debated. The phrase meta tōn hypokritōn ('with the hypocrites') is distinctly Matthean (Luke's parallel has 'with the unfaithful'). The unfaithful servant is classified with the hypocrites of chapter 23 — those who had a role in God's household but served themselves instead. The formula 'weeping and gnashing of teeth' appears for the sixth and final time in Matthew."
+      ],
+      "reading_level": "9th grade"
+    }
+  ]
+}

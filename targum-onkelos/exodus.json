@@ -1,0 +1,391 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Exodus",
+    "tradition": "targum-onkelos",
+    "tradition_label": "Targum Onkelos",
+    "source_text": "Targum Onkelos (standard printed edition)",
+    "base_text": "Westminster Leningrad Codex (WLC)",
+    "date": "2nd-5th c. CE (earliest layers 1st c. BCE)",
+    "generated_at": "2026-04-05T00:00:00Z",
+    "prompt_version": "1.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Targum Onkelos on Exodus shapes the narrative of redemption through consistent theological lenses: the Memra initiates and executes liberation, anti-anthropomorphism governs all theophanies (burning bush, Sinai, the cleft of the rock), and Shekinah language defines God's dwelling among Israel. The Poem of Four Nights at Exodus 12:42 is a unique targum composition linking creation, Abraham, Exodus, and Messiah.",
+    "notable_renderings": "The burning bush theophany is rendered as revelation rather than appearance. The Song of the Sea celebrates the Memra. Sinai's thunder is the voice of the Memra. Moses' request to see God's glory is carefully managed — he sees the Shekinah's aftereffect, never God's face. The Poem of Four Nights (12:42) is the most distinctive Onkelos/Palestinian targum addition in the entire Torah.",
+    "theological_themes": "Memra as the agent of liberation and covenant; Shekinah as God's tabernacling presence (directly connected to the Tabernacle construction); anti-anthropomorphism at every theophany; the eschatological Poem of Four Nights linking Exodus typology to Messianic expectation."
+  },
+  "renderings": [
+    {
+      "reference": "Exodus 2:24",
+      "hebrew_text": "וַיִּשְׁמַע אֱלֹהִים אֶת־נַאֲקָתָם וַיִּזְכֹּר אֱלֹהִים אֶת־בְּרִיתוֹ",
+      "targum_text": "ushtamia' qodam Adonai yat tzan'athon udekhir Adonai yat keyameih",
+      "targum_rendering": "And it was heard before the LORD their groaning, and the LORD remembered his covenant.",
+      "mt_rendering": "And God heard their groaning, and God remembered his covenant.",
+      "category": "anti-anthropomorphism",
+      "notes": ["Onkelos uses the passive 'it was heard before the LORD' rather than God actively hearing, a circumlocution that avoids implying God has ears while preserving the theological reality that Israel's cries reached heaven."]
+    },
+    {
+      "reference": "Exodus 3:2",
+      "hebrew_text": "וַיֵּרָא מַלְאַךְ יְהוָה אֵלָיו בְּלַבַּת־אֵשׁ מִתּוֹךְ הַסְּנֶה",
+      "targum_text": "ve'itchazi leih malakha daAdonai beshalhoveita de'esha migo'o de'asna",
+      "targum_rendering": "And the angel of the LORD appeared to him in a flame of fire from the midst of the bush.",
+      "mt_rendering": "And the angel of the LORD appeared to him in a flame of fire from the midst of the bush.",
+      "category": "literal",
+      "notes": ["Onkelos preserves the angel as the visible agent at the burning bush, maintaining the intermediary that the Hebrew text itself provides."]
+    },
+    {
+      "reference": "Exodus 3:4",
+      "hebrew_text": "וַיִּקְרָא אֵלָיו אֱלֹהִים מִתּוֹךְ הַסְּנֶה",
+      "targum_text": "uqra leih Adonai migo'o de'asna",
+      "targum_rendering": "And the LORD called to him from the midst of the bush.",
+      "mt_rendering": "And God called to him from the midst of the bush.",
+      "category": "literal",
+      "notes": ["Onkelos does not insert Memra here — God's direct speech from the bush is preserved, consistent with the pattern of allowing first-person divine address."]
+    },
+    {
+      "reference": "Exodus 3:12",
+      "hebrew_text": "כִּי אֶהְיֶה עִמָּךְ",
+      "targum_text": "arei Memri yehei besiyyakhah",
+      "targum_rendering": "For my Memra will be in your help.",
+      "mt_rendering": "For I will be with you.",
+      "category": "memra",
+      "notes": ["The promise of divine presence to Moses is mediated through the Memra, following the patriarchal pattern (Gen 28:15, 39:2). The Memra is the mode of God's accompaniment with his appointed leaders."]
+    },
+    {
+      "reference": "Exodus 3:14",
+      "hebrew_text": "אֶהְיֶה אֲשֶׁר אֶהְיֶה",
+      "targum_text": "Ehyeh Asher Ehyeh",
+      "targum_rendering": "I Am Who I Am.",
+      "mt_rendering": "I Am Who I Am.",
+      "category": "divine-name",
+      "notes": ["Onkelos preserves the divine name revelation without interpretation, treating it as too sacred to paraphrase. This is remarkable given Onkelos' general willingness to interpret — the Name itself is beyond targum."]
+    },
+    {
+      "reference": "Exodus 6:2-3",
+      "hebrew_text": "אֲנִי יְהוָה וָאֵרָא אֶל־אַבְרָהָם... בְּאֵל שַׁדָּי וּשְׁמִי יְהוָה לֹא נוֹדַעְתִּי לָהֶם",
+      "targum_text": "ana Adonai ve'itgeleiti le'Avraham... be'El Shadday ushmei Adonai la hodeiti lehon",
+      "targum_rendering": "I am the LORD. And I revealed myself to Abraham... as God Almighty, but by my name the LORD I did not make myself known to them.",
+      "mt_rendering": "I am the LORD. And I appeared to Abraham... as God Almighty, but by my name the LORD I was not known to them.",
+      "category": "anti-anthropomorphism",
+      "notes": ["The theophany to the patriarchs is rendered as self-revelation (itgeleiti), and knowledge of the Name is described as God's active disclosure (hodeiti) rather than passive recognition."]
+    },
+    {
+      "reference": "Exodus 12:12",
+      "hebrew_text": "וְעָבַרְתִּי בְאֶרֶץ־מִצְרַיִם... אֲנִי יְהוָה",
+      "targum_text": "ve'itgelei be'ar'a deMitzrayim... ana Adonai",
+      "targum_rendering": "And I will reveal myself in the land of Egypt... I am the LORD.",
+      "mt_rendering": "And I will pass through the land of Egypt... I am the LORD.",
+      "category": "anti-anthropomorphism",
+      "notes": ["God does not 'pass through' Egypt like a traveler. Onkelos replaces physical movement with divine self-revelation, consistent with the theology that God acts without spatial displacement."]
+    },
+    {
+      "reference": "Exodus 12:13",
+      "hebrew_text": "וְרָאִיתִי אֶת־הַדָּם וּפָסַחְתִּי עֲלֵכֶם",
+      "targum_text": "ve'echzei yat dema ve'echush aleikhon",
+      "targum_rendering": "And I will see the blood and I will have mercy upon you.",
+      "mt_rendering": "And I will see the blood and I will pass over you.",
+      "category": "theological",
+      "notes": ["Onkelos interprets 'pass over' (pasach) as 'have mercy' (echush), shifting from a physical action (skipping over houses) to a theological one (exercising mercy). This deepens the Passover from spatial movement to divine compassion."]
+    },
+    {
+      "reference": "Exodus 12:23",
+      "hebrew_text": "וְלֹא יִתֵּן הַמַּשְׁחִית לָבֹא אֶל־בָּתֵּיכֶם",
+      "targum_text": "vela yitten malakha demachei le'me'al levatekhon",
+      "targum_rendering": "And he will not allow the destroying angel to enter your houses.",
+      "mt_rendering": "And he will not allow the destroyer to enter your houses.",
+      "category": "theological",
+      "notes": ["The 'destroyer' (mashchit) is identified as 'the destroying angel' (malakha demachei), an angelic agent rather than an impersonal force. This clarifies the agent of the plague while distancing God from direct destruction."]
+    },
+    {
+      "reference": "Exodus 12:42",
+      "hebrew_text": "לֵיל שִׁמֻּרִים הוּא לַיהוָה",
+      "targum_text": "leilya denetira hu qodam Adonai... arba'a leilavvan",
+      "targum_rendering": "It is a night of watching before the LORD... four nights [are recorded in the memorial book].",
+      "mt_rendering": "It was a night of watching for the LORD.",
+      "category": "poem-of-four-nights",
+      "notes": ["This is the Poem of Four Nights, the most famous unique composition in the targum tradition. Onkelos (and more fully Pseudo-Jonathan and Neofiti) expands this verse into a cosmic four-night schema: (1) the night of creation when God's Memra illuminated the darkness, (2) the night of Abraham's covenant/Aqedah, (3) the night of the Exodus, and (4) the night of the Messiah's coming. This links all of salvation history into a single nocturnal typology."]
+    },
+    {
+      "reference": "Exodus 13:21",
+      "hebrew_text": "וַיהוָה הֹלֵךְ לִפְנֵיהֶם יוֹמָם בְּעַמּוּד עָנָן",
+      "targum_text": "vaAdonai madbar qodamehon bimama be'amuda da'anana",
+      "targum_rendering": "And the LORD was leading before them by day in a pillar of cloud.",
+      "mt_rendering": "And the LORD was going before them by day in a pillar of cloud.",
+      "category": "anti-anthropomorphism",
+      "notes": ["'Going' (holekh) becomes 'leading' (madbar), shifting from physical locomotion to purposeful guidance. God does not walk but directs."]
+    },
+    {
+      "reference": "Exodus 14:31",
+      "hebrew_text": "וַיַּרְא יִשְׂרָאֵל אֶת־הַיָּד הַגְּדֹלָה אֲשֶׁר עָשָׂה יְהוָה בְּמִצְרַיִם",
+      "targum_text": "vachaza Yisrael yat gevurta rabbeta da'avad Adonai beMitzrayim",
+      "targum_rendering": "And Israel saw the great power which the LORD had wrought in Egypt.",
+      "mt_rendering": "And Israel saw the great hand which the LORD had wielded against Egypt.",
+      "category": "anti-anthropomorphism",
+      "notes": ["'The great hand' becomes 'the great power' (gevurta rabbeta), removing the anthropomorphic image of God's hand and replacing it with an abstract attribute."]
+    },
+    {
+      "reference": "Exodus 15:1",
+      "hebrew_text": "אָז יָשִׁיר־מֹשֶׁה וּבְנֵי יִשְׂרָאֵל אֶת־הַשִּׁירָה הַזֹּאת לַיהוָה",
+      "targum_text": "bedain shabbach Mosheh uvenei Yisrael yat tushbechta hada qodam Adonai",
+      "targum_rendering": "Then Moses and the children of Israel sang this song of praise before the LORD.",
+      "mt_rendering": "Then Moses and the children of Israel sang this song to the LORD.",
+      "category": "liturgical",
+      "notes": ["The Song of the Sea is described as praise (tushbechta) offered 'before the LORD' (qodam Adonai), aligning the Exodus celebration with synagogue worship patterns."]
+    },
+    {
+      "reference": "Exodus 15:2",
+      "hebrew_text": "עָזִּי וְזִמְרָת יָהּ וַיְהִי־לִי לִישׁוּעָה",
+      "targum_text": "tushbechti vetiqfi Adonai vahava li lefurqan",
+      "targum_rendering": "My praise and my strength is the LORD, and he has become for me redemption.",
+      "mt_rendering": "The LORD is my strength and my song, and he has become my salvation.",
+      "category": "theological",
+      "notes": ["Salvation (yeshu'ah) is rendered as redemption (furqan), the same Aramaic term used in messianic contexts, linking the Exodus redemption typologically to eschatological deliverance."]
+    },
+    {
+      "reference": "Exodus 15:3",
+      "hebrew_text": "יְהוָה אִישׁ מִלְחָמָה יְהוָה שְׁמוֹ",
+      "targum_text": "Adonai gevur qaravayya Adonai shemeih",
+      "targum_rendering": "The LORD is a warrior in battle; the LORD is his name.",
+      "mt_rendering": "The LORD is a man of war; the LORD is his name.",
+      "category": "anti-anthropomorphism",
+      "notes": ["'Man of war' (ish milchamah) becomes 'warrior in battle' (gevur qaravayya), removing the word 'man' (ish) from any description of God while preserving the martial imagery."]
+    },
+    {
+      "reference": "Exodus 15:6",
+      "hebrew_text": "יְמִינְךָ יְהוָה נֶאְדָּרִי בַּכֹּחַ",
+      "targum_text": "yeminakh Adonai meshabbachta becheilah",
+      "targum_rendering": "Your right hand, O LORD, is glorious in power.",
+      "mt_rendering": "Your right hand, O LORD, is glorious in power.",
+      "category": "literal",
+      "notes": ["Onkelos preserves 'right hand' in the poetic Song of the Sea, treating it as established liturgical language. The targum tradition is more tolerant of anthropomorphism in poetry than in narrative."]
+    },
+    {
+      "reference": "Exodus 17:16",
+      "hebrew_text": "כִּי־יָד עַל־כֵּס יָהּ מִלְחָמָה לַיהוָה בַּעֲמָלֵק",
+      "targum_text": "arei bishevuah min qodam kurseih deyeqara daAdonai qerav laAdonai ba'Amaleq",
+      "targum_rendering": "For by an oath from before the throne of the glory of the LORD, the LORD will wage war against Amalek.",
+      "mt_rendering": "For a hand upon the throne of the LORD — war for the LORD against Amalek.",
+      "category": "anti-anthropomorphism",
+      "notes": ["The cryptic 'hand upon the throne of Yah' is interpreted as a solemn oath from before God's glorious throne. Onkelos transforms a physical gesture into a juridical act, and introduces the 'glory' (yeqar) as a buffer for direct reference to God's throne."]
+    },
+    {
+      "reference": "Exodus 19:3",
+      "hebrew_text": "וּמֹשֶׁה עָלָה אֶל־הָאֱלֹהִים וַיִּקְרָא אֵלָיו יְהוָה מִן־הָהָר",
+      "targum_text": "uMosheh seliq leqodam Adonai uqra leih Adonai min tura",
+      "targum_rendering": "And Moses went up before the LORD, and the LORD called to him from the mountain.",
+      "mt_rendering": "And Moses went up to God, and the LORD called to him from the mountain.",
+      "category": "anti-anthropomorphism",
+      "notes": ["Moses goes up 'before the LORD' (leqodam Adonai) rather than 'to God,' using the reverential circumlocution that avoids implying God is spatially located on the mountain."]
+    },
+    {
+      "reference": "Exodus 19:17",
+      "hebrew_text": "וַיּוֹצֵא מֹשֶׁה אֶת־הָעָם לִקְרַאת הָאֱלֹהִים מִן־הַמַּחֲנֶה",
+      "targum_text": "ve'appeiq Mosheh yat amma le'araa shekhinteih daAdonai min mashrita",
+      "targum_rendering": "And Moses brought out the people to meet the Shekinah of the LORD from the camp.",
+      "mt_rendering": "And Moses brought the people out to meet God from the camp.",
+      "category": "shekinah",
+      "notes": ["Israel does not meet God directly but the Shekinah of the LORD. This is one of the most significant Shekinah passages in Onkelos — the Sinai theophany is an encounter with God's indwelling presence, not God's essence."]
+    },
+    {
+      "reference": "Exodus 19:18",
+      "hebrew_text": "מִפְּנֵי אֲשֶׁר יָרַד עָלָיו יְהוָה בָּאֵשׁ",
+      "targum_text": "min qodam de'itgeli aloi Adonai be'esha",
+      "targum_rendering": "Because the LORD revealed himself upon it in fire.",
+      "mt_rendering": "Because the LORD descended upon it in fire.",
+      "category": "anti-anthropomorphism",
+      "notes": ["God does not 'descend' upon Sinai. The descent is replaced with revelation (itgeli), preserving divine transcendence even at the most dramatic theophany in the Torah."]
+    },
+    {
+      "reference": "Exodus 19:20",
+      "hebrew_text": "וַיֵּרֶד יְהוָה עַל־הַר סִינַי",
+      "targum_text": "ve'itgeli Adonai al tura deSinai",
+      "targum_rendering": "And the LORD revealed himself upon Mount Sinai.",
+      "mt_rendering": "And the LORD came down upon Mount Sinai.",
+      "category": "anti-anthropomorphism",
+      "notes": ["Repeated rendering: every instance of divine descent at Sinai is transformed into divine revelation. Onkelos is systematic and consistent in this substitution."]
+    },
+    {
+      "reference": "Exodus 20:1",
+      "hebrew_text": "וַיְדַבֵּר אֱלֹהִים אֵת כָּל־הַדְּבָרִים הָאֵלֶּה",
+      "targum_text": "umalil Adonai yat kol pitgamayya ha'ilein",
+      "targum_rendering": "And the LORD spoke all these words.",
+      "mt_rendering": "And God spoke all these words.",
+      "category": "divine-name",
+      "notes": ["At the giving of the Ten Commandments, Onkelos uses 'the LORD' rather than Elohim, emphasizing that the covenant God of Israel (YHWH) — not a generic deity — delivers the commandments."]
+    },
+    {
+      "reference": "Exodus 20:18",
+      "hebrew_text": "וְכָל־הָעָם רֹאִים אֶת־הַקּוֹלֹת",
+      "targum_text": "vekhol amma chazin yat qalayya",
+      "targum_rendering": "And all the people were seeing the thunderings.",
+      "mt_rendering": "And all the people were seeing the thunderings.",
+      "category": "literal",
+      "notes": ["Onkelos preserves the synesthetic 'seeing the thunderings,' which rabbinic tradition interprets as the people seeing the voice of God — each commandment emerging as visible fire."]
+    },
+    {
+      "reference": "Exodus 20:19",
+      "hebrew_text": "וַיַּעַמְדוּ מֵרָחֹק... וְאַל־יְדַבֵּר עִמָּנוּ אֱלֹהִים פֶּן־נָמוּת",
+      "targum_text": "veqamu merachiq... vela yitmalal immana min qodam Adonai dilma nemut",
+      "targum_rendering": "And they stood afar off... and let not [a word] be spoken with us from before the LORD, lest we die.",
+      "mt_rendering": "And they stood afar off... and let not God speak with us, lest we die.",
+      "category": "anti-anthropomorphism",
+      "notes": ["The people's fear of God speaking directly is rendered as fear of speech 'from before the LORD,' adding the reverential circumlocution even in the people's own words."]
+    },
+    {
+      "reference": "Exodus 24:10",
+      "hebrew_text": "וַיִּרְאוּ אֵת אֱלֹהֵי יִשְׂרָאֵל",
+      "targum_text": "vechazo yat yeqara de'Elaha deYisrael",
+      "targum_rendering": "And they saw the glory of the God of Israel.",
+      "mt_rendering": "And they saw the God of Israel.",
+      "category": "anti-anthropomorphism",
+      "notes": ["This is one of the most critical anti-anthropomorphic moves in all of Onkelos. The elders cannot have 'seen God' — they saw 'the glory (yeqar) of the God of Israel.' No human sees God directly; they see the kavod/yeqar."]
+    },
+    {
+      "reference": "Exodus 24:11",
+      "hebrew_text": "וַיֶּחֱזוּ אֶת־הָאֱלֹהִים וַיֹּאכְלוּ וַיִּשְׁתּוּ",
+      "targum_text": "vechazo yat yeqara daAdonai vechadiu be'qorbanehon de'itqabilu keilu akhalu veshatiu",
+      "targum_rendering": "And they saw the glory of the LORD, and they rejoiced in their offerings which were accepted as though they ate and drank.",
+      "mt_rendering": "And they beheld God, and they ate and drank.",
+      "category": "anti-anthropomorphism",
+      "notes": ["Onkelos cannot allow the casual statement that the elders saw God and then had a meal. The seeing is redirected to God's glory, and the eating/drinking is reinterpreted as joy over accepted sacrifices — transforming a covenant meal into a liturgical celebration."]
+    },
+    {
+      "reference": "Exodus 25:8",
+      "hebrew_text": "וְעָשׂוּ לִי מִקְדָּשׁ וְשָׁכַנְתִּי בְּתוֹכָם",
+      "targum_text": "veya'avdun qodomi maqdasha ve'ashrei Shekhineti beineihon",
+      "targum_rendering": "And let them make before me a sanctuary, and I will cause my Shekinah to dwell among them.",
+      "mt_rendering": "And let them make me a sanctuary, and I will dwell among them.",
+      "category": "shekinah",
+      "notes": ["The foundational Tabernacle verse: God does not dwell among Israel directly but causes his Shekinah to dwell among them. This establishes the Shekinah as the mode of divine indwelling in sacred space — the theological heart of the Tabernacle."]
+    },
+    {
+      "reference": "Exodus 29:45",
+      "hebrew_text": "וְשָׁכַנְתִּי בְּתוֹךְ בְּנֵי יִשְׂרָאֵל וְהָיִיתִי לָהֶם לֵאלֹהִים",
+      "targum_text": "ve'ashrei Shekhineti bego benei Yisrael ve'ehei lehon l'Elah",
+      "targum_rendering": "And I will cause my Shekinah to dwell among the children of Israel, and I will be their God.",
+      "mt_rendering": "And I will dwell among the children of Israel and will be their God.",
+      "category": "shekinah",
+      "notes": ["Repeated Shekinah formula: God's indwelling is consistently expressed through the Shekinah. The covenant formula 'I will be their God' is preserved without mediation — the relationship is direct even if the mode of presence is the Shekinah."]
+    },
+    {
+      "reference": "Exodus 29:46",
+      "hebrew_text": "וְיָדְעוּ כִּי אֲנִי יְהוָה אֱלֹהֵיהֶם אֲשֶׁר הוֹצֵאתִי אֹתָם מֵאֶרֶץ מִצְרַיִם לְשָׁכְנִי בְתוֹכָם",
+      "targum_text": "viyeid'un arei ana Adonai Elahehon de'appiqit yathon me'ar'a deMitzrayim le'ashraah Shekhineti beineihon",
+      "targum_rendering": "And they shall know that I am the LORD their God, who brought them out from the land of Egypt, to cause my Shekinah to dwell among them.",
+      "mt_rendering": "And they shall know that I am the LORD their God, who brought them out of the land of Egypt, that I might dwell among them.",
+      "category": "shekinah",
+      "notes": ["The purpose of the Exodus is Shekinah-dwelling. Onkelos ties liberation directly to divine presence: God freed Israel so that his Shekinah could tabernacle in their midst."]
+    },
+    {
+      "reference": "Exodus 31:13",
+      "hebrew_text": "כִּי אוֹת הִוא בֵּינִי וּבֵינֵיכֶם",
+      "targum_text": "arei ata hi bein Memri uveineikhon",
+      "targum_rendering": "For it is a sign between my Memra and you.",
+      "mt_rendering": "For it is a sign between me and you.",
+      "category": "memra",
+      "notes": ["The Sabbath sign, like the rainbow sign (Gen 9:12), is placed between the Memra and Israel rather than between God directly and Israel. Covenant signs are mediated through the Word."]
+    },
+    {
+      "reference": "Exodus 31:17",
+      "hebrew_text": "בַּיּוֹם הַשְּׁבִיעִי שָׁבַת וַיִּנָּפַשׁ",
+      "targum_text": "beyoma shevi'a'ah shevat venach",
+      "targum_rendering": "On the seventh day he ceased and rested.",
+      "mt_rendering": "On the seventh day he ceased and was refreshed.",
+      "category": "anti-anthropomorphism",
+      "notes": ["The Hebrew vayinnafash ('was refreshed,' from nefesh/soul) is softened to 'rested' (nach), removing any implication that God needed refreshment or has a soul that required restoration."]
+    },
+    {
+      "reference": "Exodus 32:10",
+      "hebrew_text": "וְעַתָּה הַנִּיחָה לִּי וְיִחַר־אַפִּי בָהֶם",
+      "targum_text": "ukh'an sh'voq min qodamai viyitqaf rug'zi behon",
+      "targum_rendering": "And now, desist from before me, and let my anger be strong against them.",
+      "mt_rendering": "Now therefore let me alone, that my anger may burn against them.",
+      "category": "anti-anthropomorphism",
+      "notes": ["'Let me alone' becomes 'desist from before me,' and 'anger burning' becomes 'anger being strong' (yitqaf) — Onkelos subtly adjusts the metaphors to reduce the anthropomorphic intensity while preserving the drama of the Golden Calf crisis."]
+    },
+    {
+      "reference": "Exodus 32:14",
+      "hebrew_text": "וַיִּנָּחֶם יְהוָה עַל־הָרָעָה אֲשֶׁר דִּבֶּר לַעֲשׂוֹת לְעַמּוֹ",
+      "targum_text": "vetav qodam Adonai al bishta di malil leme'bad le'ammeih",
+      "targum_rendering": "And it was good before the LORD concerning the evil which he had spoken to do to his people.",
+      "mt_rendering": "And the LORD relented concerning the evil which he had spoken of doing to his people.",
+      "category": "anti-anthropomorphism",
+      "notes": ["God does not 'relent' or 'change his mind' in Onkelos. The anthropopathic verb nacham is replaced with 'it was good before the LORD,' a reverential formula that preserves divine immutability."]
+    },
+    {
+      "reference": "Exodus 33:14",
+      "hebrew_text": "פָּנַי יֵלֵכוּ וַהֲנִחֹתִי לָךְ",
+      "targum_text": "Shekhineti tehakh ve'anikha lakh",
+      "targum_rendering": "My Shekinah shall go, and I will give you rest.",
+      "mt_rendering": "My presence shall go, and I will give you rest.",
+      "category": "shekinah",
+      "notes": ["'My face' (panai, literally 'my faces') is rendered 'my Shekinah.' God's face — the most intimate anthropomorphism — becomes the Shekinah, the divine presence that accompanies Israel without compromising God's transcendence."]
+    },
+    {
+      "reference": "Exodus 33:20",
+      "hebrew_text": "לֹא תוּכַל לִרְאֹת אֶת־פָּנָי כִּי לֹא־יִרְאַנִי הָאָדָם וָחָי",
+      "targum_text": "la tikdar lemechzei yat appai arei la yechzinnani enasha veyeqayyam",
+      "targum_rendering": "You are not able to see my face, for no man shall see me and live.",
+      "mt_rendering": "You cannot see my face, for no man shall see me and live.",
+      "category": "literal",
+      "notes": ["Remarkably, Onkelos preserves 'my face' here rather than substituting Shekinah or glory. The point is prohibition: no one can see God's face. The literal rendering reinforces the impossibility of direct vision of God, which is the very principle that drives Onkelos' anti-anthropomorphism everywhere else."]
+    },
+    {
+      "reference": "Exodus 33:23",
+      "hebrew_text": "וְרָאִיתָ אֶת־אֲחֹרָי וּפָנַי לֹא יֵרָאוּ",
+      "targum_text": "vetechzei yat di vatrai ve'appai la yitchazun",
+      "targum_rendering": "And you shall see what is behind me, but my face shall not be seen.",
+      "mt_rendering": "And you shall see my back, but my face shall not be seen.",
+      "category": "anti-anthropomorphism",
+      "notes": ["'My back' becomes 'what is behind me' (di vatrai), subtly shifting from a body part to a spatial/temporal concept — what follows after God's passing, not God's physical backside."]
+    },
+    {
+      "reference": "Exodus 34:5",
+      "hebrew_text": "וַיֵּרֶד יְהוָה בֶּעָנָן",
+      "targum_text": "ve'itgeli Adonai be'anana",
+      "targum_rendering": "And the LORD revealed himself in the cloud.",
+      "mt_rendering": "And the LORD descended in the cloud.",
+      "category": "anti-anthropomorphism",
+      "notes": ["God does not descend into the cloud but reveals himself in it. The cloud remains the medium of theophany, but divine movement is replaced with self-disclosure."]
+    },
+    {
+      "reference": "Exodus 34:6",
+      "hebrew_text": "יְהוָה יְהוָה אֵל רַחוּם וְחַנּוּן",
+      "targum_text": "Adonai Adonai Elaha rachama vechanina",
+      "targum_rendering": "The LORD, the LORD, God compassionate and gracious.",
+      "mt_rendering": "The LORD, the LORD, a God merciful and gracious.",
+      "category": "literal",
+      "notes": ["The Thirteen Attributes of Mercy are rendered with minimal change. Onkelos treats this divine self-description as authoritative and does not adjust the attributive language — these qualities describe God's character, not his body."]
+    },
+    {
+      "reference": "Exodus 34:9",
+      "hebrew_text": "יֵלֶךְ־נָא אֲדֹנָי בְּקִרְבֵּנוּ",
+      "targum_text": "tehakh ke'an Shekhinteih daAdonai begavvana",
+      "targum_rendering": "Let the Shekinah of the LORD go now in our midst.",
+      "mt_rendering": "Let the Lord go in our midst.",
+      "category": "shekinah",
+      "notes": ["Moses' plea for God's presence is a plea for the Shekinah. God does not 'go' in Israel's midst — the Shekinah does. This is one of the clearest Shekinah passages in Exodus."]
+    },
+    {
+      "reference": "Exodus 40:34",
+      "hebrew_text": "וַיְכַס הֶעָנָן אֶת־אֹהֶל מוֹעֵד וּכְבוֹד יְהוָה מָלֵא אֶת־הַמִּשְׁכָּן",
+      "targum_text": "vekhassa anana yat mashkan ziman viyeqara daAdonai malei yat mishkena",
+      "targum_rendering": "And the cloud covered the tent of meeting, and the glory of the LORD filled the Tabernacle.",
+      "mt_rendering": "And the cloud covered the tent of meeting, and the glory of the LORD filled the Tabernacle.",
+      "category": "shekinah",
+      "notes": ["At the climax of Exodus, Onkelos renders 'glory' (kavod/yeqar) literally. The glory filling the Tabernacle is the culmination of the Shekinah theology developed throughout the book — God's presence has come to dwell among his people."]
+    },
+    {
+      "reference": "Exodus 40:35",
+      "hebrew_text": "וְלֹא־יָכֹל מֹשֶׁה לָבוֹא אֶל־אֹהֶל מוֹעֵד כִּי־שָׁכַן עָלָיו הֶעָנָן",
+      "targum_text": "vela yakhil Mosheh le'me'al lemashkan zimna arei sherat aloi anana",
+      "targum_rendering": "And Moses was not able to enter the tent of meeting, because the cloud had settled upon it.",
+      "mt_rendering": "And Moses was not able to enter the tent of meeting, because the cloud had settled upon it.",
+      "category": "shekinah",
+      "notes": ["The verb sherat ('settled/rested') replaces shakhan ('dwelt'), using a term that emphasizes the cloud's tangible presence. The Shekinah is so powerfully manifest that even Moses cannot enter."]
+    }
+  ]
+}

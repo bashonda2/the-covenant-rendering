@@ -1,0 +1,341 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Acts",
+    "chapter": 11,
+    "source_text": "SBL Greek New Testament (SBLGNT)",
+    "reference_text": "KJV",
+    "generated_at": "2026-04-05T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Acts 11 opens with Peter defending his visit to Cornelius's household before the Jerusalem church, which criticizes him for eating with uncircumcised Gentiles. Peter recounts his vision and the Spirit's falling on the Gentiles in sequence, and the critics are silenced, glorifying God that 'even to the Gentiles God has granted repentance leading to life.' The chapter then shifts to Antioch, where scattered believers from the persecution following Stephen's death begin preaching to Greeks (not just Jews). A thriving church emerges, and Barnabas is sent from Jerusalem to investigate. He recruits Saul from Tarsus, and together they teach in Antioch for a year. It is here that the disciples are first called 'Christians.' The chapter closes with the prophet Agabus predicting a famine, prompting the Antioch church to send relief to Judea through Barnabas and Saul.",
+    "remarkable": "Luke retells the Cornelius episode a second time through Peter's own lips — an unusually detailed repetition that underscores the event's theological centrality. The Jerusalem church's initial objection is not about doctrine but about table fellowship: 'You went to uncircumcised men and ate with them.' The Antioch church represents a new model of community — Jew and Gentile worshiping together — and becomes the launching point for the Gentile mission. The name 'Christians' (Christianoi) appears here for the first time, coined by outsiders in Antioch, probably as a political designation meaning 'partisans of Christ.'",
+    "friction": "The Greek Hellenistas in verse 20 is textually uncertain: some manuscripts read Hellenas ('Greeks,' i.e., Gentiles), while others read Hellenistas ('Hellenists,' i.e., Greek-speaking Jews). The SBLGNT reads Hellenistas, but the narrative logic — contrasting these recipients with the 'Jews only' of verse 19 — strongly favors the meaning 'Greek-speaking Gentiles' or simply 'Greeks.' We follow the SBLGNT text while noting the issue. The famine under Claudius (v. 28) is historically attested by Josephus and Suetonius, though its exact dating is debated.",
+    "connections": "Peter's defense echoes and completes the Cornelius narrative of chapter 10. The Antioch church connects to the scattering of Acts 8:1-4 — persecution intended to destroy the movement instead spreads it. The Barnabas-Saul partnership anticipates the first missionary journey (Acts 13). The famine relief establishes the pattern of Gentile churches supporting the Jerusalem church (cf. Romans 15:25-27, 2 Corinthians 8-9). The name 'Christians' connects to the broader Roman political context of the early church."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_greek": "Ἤκουσαν δὲ οἱ ἀπόστολοι καὶ οἱ ἀδελφοὶ οἱ ὄντες κατὰ τὴν Ἰουδαίαν ὅτι καὶ τὰ ἔθνη ἐδέξαντο τὸν λόγον τοῦ θεοῦ.",
+      "text_kjv": "And the apostles and brethren that were in Judaea heard that the Gentiles had also received the word of God.",
+      "rendering": "Now the apostles and the brothers throughout Judea heard that the Gentiles also had received the word of God.",
+      "translator_notes": [
+        "The news travels fast: the phrase 'the Gentiles also' (kai ta ethne) carries the force of surprise — this was unprecedented. The verb edexanto ('received, welcomed') implies active acceptance, not mere passive hearing."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 2,
+      "text_greek": "ὅτε δὲ ἀνέβη Πέτρος εἰς Ἰερουσαλήμ, διεκρίνοντο πρὸς αὐτὸν οἱ ἐκ περιτομῆς",
+      "text_kjv": "And when Peter was come up to Jerusalem, they that were of the circumcision contended with him,",
+      "rendering": "So when Peter went up to Jerusalem, the circumcision party criticized him,",
+      "translator_notes": [
+        "The phrase hoi ek peritomes ('those of the circumcision') here denotes Jewish believers who insisted on maintaining Jewish identity markers, particularly circumcision, as requirements for fellowship. The verb diekrinonto ('contended, criticized, took issue') indicates serious objection, not casual questioning."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 3,
+      "text_greek": "λέγοντες ὅτι εἰσῆλθες πρὸς ἄνδρας ἀκροβυστίαν ἔχοντας καὶ συνέφαγες αὐτοῖς.",
+      "text_kjv": "Saying, Thou wentest in to men uncircumcised, and didst eat with them.",
+      "rendering": "Indeed, declaring, you wentest in to men uncircumcised, and didst eat with them.",
+      "translator_notes": [
+        "The charge focuses on table fellowship (synephages, 'you ate with'), not on preaching or baptism. Eating together implied social equality and religious communion. The phrase 'uncircumcised men' (andras akrobystian echontas, literally 'men having foreskin') is deliberately blunt, emphasizing the boundary Peter crossed."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 4,
+      "text_greek": "ἀρξάμενος δὲ Πέτρος ἐξετίθετο αὐτοῖς καθεξῆς λέγων·",
+      "text_kjv": "But Peter rehearsed the matter from the beginning, and expounded it by order unto them, saying,",
+      "rendering": "But Peter began and explained it to them step by step, saying,",
+      "translator_notes": [
+        "The adverb kathexes ('in order, step by step') indicates a careful, sequential retelling. Peter does not argue from theology but from narrative — he lets the events speak for themselves."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 5,
+      "text_greek": "ἐγὼ ἤμην ἐν πόλει Ἰόππῃ προσευχόμενος καὶ εἶδον ἐν ἐκστάσει ὅραμα, καταβαῖνον σκεῦός τι ὡς ὀθόνην μεγάλην τέσσαρσιν ἀρχαῖς καθιεμένην ἐκ τοῦ οὐρανοῦ, καὶ ἦλθεν ἄχρι ἐμοῦ·",
+      "text_kjv": "I was in the city of Joppa praying: and in a trance I saw a vision, A certain vessel descend, as it had been a great sheet, let down from heaven by four corners; and it came even to me:",
+      "rendering": "\"I was in the city of Joppa praying, and in a trance I saw a vision: something like a large sheet descending, being let down from heaven by its four corners, and it came right down to me.",
+      "translator_notes": [
+        "Peter retells his vision from Acts 10:9-16 in the first person. The detail 'it came right down to me' (elthen achri emou) personalizes the vision — this was directed specifically at Peter."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 6,
+      "text_greek": "εἰς ἣν ἀτενίσας κατενόουν, καὶ εἶδον τὰ τετράποδα τῆς γῆς καὶ τὰ θηρία καὶ τὰ ἑρπετὰ καὶ τὰ πετεινὰ τοῦ οὐρανοῦ.",
+      "text_kjv": "Upon the which when I had fastened mine eyes, I considered, and saw fourfooted beasts of the earth, and wild beasts, and creeping things, and fowls of the air.",
+      "rendering": "Looking at it closely, I observed and saw four-footed animals of the earth, wild beasts, reptiles, and birds of the air.",
+      "translator_notes": [
+        "Peter adds 'wild beasts' (theria) to the retelling, a detail not explicitly mentioned in 10:12 in all manuscripts. The comprehensive list emphasizes the indiscriminate mixture of clean and unclean creatures."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 7,
+      "text_greek": "ἤκουσα δὲ καὶ φωνῆς λεγούσης μοι· ἀναστάς, Πέτρε, θῦσον καὶ φάγε.",
+      "text_kjv": "And I heard a voice saying unto me, Arise, Peter; slay and eat.",
+      "rendering": "I also heard a voice saying to me, 'Rise, Peter; kill and eat.'",
+      "translator_notes": [
+        "The command is identical to 10:13. In the retelling, Peter faithfully reproduces the divine directive that shocked him."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 8,
+      "text_greek": "εἶπον δέ· μηδαμῶς, κύριε, ὅτι κοινὸν ἢ ἀκάθαρτον οὐδέποτε εἰσῆλθεν εἰς τὸ στόμα μου.",
+      "text_kjv": "But I said, Not so, Lord: for nothing common or unclean hath at any time entered into my mouth.",
+      "rendering": "But I said, 'By no means, Lord, for nothing common or unclean has ever entered my mouth.'",
+      "translator_notes": [
+        "Peter's retelling makes the refusal even more emphatic with 'entered into my mouth' (eiselthen eis to stoma mou) — a visceral way of expressing his lifelong observance of dietary law."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 9,
+      "text_greek": "ἀπεκρίθη δὲ φωνὴ ἐκ δευτέρου ἐκ τοῦ οὐρανοῦ· ἃ ὁ θεὸς ἐκαθάρισεν, σὺ μὴ κοίνου.",
+      "text_kjv": "But the voice answered me again from heaven, What God hath cleansed, that call not thou common.",
+      "rendering": "But the voice answered a second time from heaven, 'What God has made clean, do not call common.'",
+      "translator_notes": [
+        "The addition of 'from heaven' (ek tou ouranou) emphasizes the divine authority behind the command. The principle stands: God's cleansing overrides human categories of purity."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 10,
+      "text_greek": "τοῦτο δὲ ἐγένετο ἐπὶ τρίς, καὶ ἀνεσπάσθη πάλιν ἅπαντα εἰς τὸν οὐρανόν.",
+      "text_kjv": "And this was done three times: and all were drawn up again into heaven.",
+      "rendering": "This happened three times, and then everything was pulled back up into heaven.",
+      "translator_notes": [
+        "The verb anespasthe ('was pulled up, was drawn up') differs slightly from 10:16's anelemphthe but conveys the same idea. The threefold pattern confirms divine insistence."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 11,
+      "text_greek": "καὶ ἰδοὺ ἐξαυτῆς τρεῖς ἄνδρες ἐπέστησαν ἐπὶ τὴν οἰκίαν ἐν ᾗ ἤμεθα, ἀπεσταλμένοι ἀπὸ Καισαρείας πρός με.",
+      "text_kjv": "And, behold, immediately there were three men already come unto the house where I was, sent from Caesarea unto me.",
+      "rendering": "And at that very moment, three men who had been sent to me from Caesarea arrived at the house where we were.",
+      "translator_notes": [
+        "The timing — 'at that very moment' (exautes) — underscores divine orchestration. The vision and the visitors arrive in perfect coordination."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 12,
+      "text_greek": "εἶπεν δὲ τὸ πνεῦμα μοι συνελθεῖν αὐτοῖς μηδὲν διακρίναντα. ἦλθον δὲ σὺν ἐμοὶ καὶ οἱ ἓξ ἀδελφοὶ οὗτοι, καὶ εἰσήλθομεν εἰς τὸν οἶκον τοῦ ἀνδρός.",
+      "text_kjv": "And the Spirit bade me go with them, nothing doubting. Moreover these six brethren accompanied me, and we entered into the man's house:",
+      "rendering": "The Spirit told me to go with them, making no distinction. These six brothers also accompanied me, and we entered the man's house.",
+      "translator_notes": [
+        "Peter specifies 'these six brothers' (hoi hex adelphoi houtoi), indicating they are present in Jerusalem as witnesses. Their presence gives Peter's testimony legal weight — multiple witnesses confirm the events. The phrase 'making no distinction' (meden diakrinanta) can also mean 'without hesitation,' carrying both meanings simultaneously."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 13,
+      "text_greek": "ἀπήγγειλεν δὲ ἡμῖν πῶς εἶδεν τὸν ἄγγελον ἐν τῷ οἴκῳ αὐτοῦ σταθέντα καὶ εἰπόντα· ἀπόστειλον εἰς Ἰόππην καὶ μετάπεμψαι Σίμωνα τὸν ἐπικαλούμενον Πέτρον,",
+      "text_kjv": "And he shewed us how he had seen an angel in his house, which stood and said unto him, Send men to Joppa, and call for Simon, whose surname is Peter;",
+      "rendering": "He told us how he had seen the angel stand in his house and say, 'Send to Joppa and bring Simon who is called Peter.",
+      "translator_notes": [
+        "Peter now incorporates Cornelius's vision into his defense. The double vision — one to Cornelius, one to Peter — demonstrates that God was working from both sides simultaneously."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 14,
+      "text_greek": "ὃς λαλήσει ῥήματα πρὸς σὲ ἐν οἷς σωθήσῃ σὺ καὶ πᾶς ὁ οἶκός σου.",
+      "text_kjv": "Who shall tell thee words, whereby thou and all thy house shall be saved.",
+      "rendering": "He will speak words to you by which you will be saved, you and all your household.'",
+      "translator_notes": [
+        "This detail — that Peter's message would bring salvation to Cornelius's entire household — is not explicitly stated in chapter 10's account of the angel's message. Peter either recalls additional detail or interprets the angel's directive in light of what subsequently happened. The household salvation motif is prominent in Acts (cf. 16:15, 31)."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 15,
+      "text_greek": "ἐν δὲ τῷ ἄρξασθαί με λαλεῖν ἐπέπεσεν τὸ πνεῦμα τὸ ἅγιον ἐπ' αὐτοὺς ὥσπερ καὶ ἐφ' ἡμᾶς ἐν ἀρχῇ.",
+      "text_kjv": "And as I began to speak, the Holy Ghost fell on them, as on us at the beginning.",
+      "rendering": "As I began to speak, the Holy Spirit fell on them just as on us at the beginning.",
+      "translator_notes": [
+        "The phrase 'at the beginning' (en arche) refers to Pentecost (Acts 2). Peter draws a direct line from the original outpouring of the Spirit to this Gentile experience. The parallel is exact and undeniable: same Spirit, same manifestation, same divine initiative."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 16,
+      "text_greek": "ἐμνήσθην δὲ τοῦ ῥήματος τοῦ κυρίου ὡς ἔλεγεν· Ἰωάννης μὲν ἐβάπτισεν ὕδατι, ὑμεῖς δὲ βαπτισθήσεσθε ἐν πνεύματι ἁγίῳ.",
+      "text_kjv": "Then remembered I the word of the Lord, how that he said, John indeed baptized with water; but ye shall be baptized with the Holy Ghost.",
+      "rendering": "And I remembered the word of the Lord, how he said, 'John baptized with water, but you will be baptized with the Holy Spirit.'",
+      "translator_notes": [
+        "Peter quotes Jesus's words from Acts 1:5. The remembering (emnesthe) is prompted by the Spirit's own action — the event interprets the prophecy. The distinction between water baptism and Spirit baptism is not a contrast between inferior and superior but between preparation and fulfillment."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 17,
+      "text_greek": "εἰ οὖν τὴν ἴσην δωρεὰν ἔδωκεν αὐτοῖς ὁ θεὸς ὡς καὶ ἡμῖν πιστεύσασιν ἐπὶ τὸν κύριον Ἰησοῦν Χριστόν, ἐγὼ τίς ἤμην δυνατὸς κωλῦσαι τὸν θεόν;",
+      "text_kjv": "Forasmuch then as God gave them the like gift as he did unto us, who believed on the Lord Jesus Christ; what was I, that I could withstand God?",
+      "rendering": "If then God gave them the same gift that he gave us when we believed in the Lord Jesus Christ, who was I to stand in God's way?\"",
+      "translator_notes": [
+        "Peter's argument is simple and irrefutable: God acted first, giving the Gentiles the 'same gift' (ten isen dorean). To refuse them would be to oppose God himself. The rhetorical question 'who was I to stand in God's way?' (ego tis emen dynatos kolusai ton theon) is Peter's strongest argument — not theological reasoning but divine fait accompli."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 18,
+      "text_greek": "ἀκούσαντες δὲ ταῦτα ἡσύχασαν καὶ ἐδόξασαν τὸν θεὸν λέγοντες· ἄρα καὶ τοῖς ἔθνεσιν ὁ θεὸς τὴν μετάνοιαν εἰς ζωὴν ἔδωκεν.",
+      "text_kjv": "When they heard these things, they held their peace, and glorified God, saying, Then hath God also to the Gentiles granted repentance unto life.",
+      "rendering": "When they heard these things, they fell silent and glorified God, saying, \"Then God has granted even to the Gentiles the repentance that leads to life.\"",
+      "translator_notes": [
+        "The critics' response moves from silence (hesuchasan) to praise (edoxasan) — a dramatic reversal. The phrase 'repentance leading to life' (ten metanoian eis zoen) describes repentance not merely as a human act of turning but as a divine gift (edoken, 'granted, gave'). God gives repentance; he does not merely demand it."
+      ],
+      "key_terms": [
+        {
+          "greek": "μετάνοια",
+          "transliteration": "metanoia",
+          "rendered_as": "repentance",
+          "semantic_range": "repentance, change of mind, turning, conversion",
+          "note": "More than regret or remorse — metanoia denotes a fundamental reorientation of mind and life. Here it is described as God's gift, not merely a human decision."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 19,
+      "text_greek": "Οἱ μὲν οὖν διασπαρέντες ἀπὸ τῆς θλίψεως τῆς γενομένης ἐπὶ Στεφάνῳ διῆλθον ἕως Φοινίκης καὶ Κύπρου καὶ Ἀντιοχείας, μηδενὶ λαλοῦντες τὸν λόγον εἰ μὴ μόνον Ἰουδαίοις.",
+      "text_kjv": "Now they which were scattered abroad upon the persecution that arose about Stephen travelled as far as Phenice, and Cyprus, and Antioch, preaching the word to none but unto the Jews only.",
+      "rendering": "Now those who were scattered because of the persecution that arose over Stephen traveled as far as Phoenicia, Cyprus, and Antioch, speaking the word to no one except Jews.",
+      "translator_notes": [
+        "Luke picks up the thread from Acts 8:1-4. The scattering (diasparentes) that began with Stephen's martyrdom has produced a diaspora mission, but initially only to Jews. Antioch, the third-largest city in the Roman Empire after Rome and Alexandria, will become the strategic center for the Gentile mission."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 20,
+      "text_greek": "ἦσαν δέ τινες ἐξ αὐτῶν ἄνδρες Κύπριοι καὶ Κυρηναῖοι, οἵτινες ἐλθόντες εἰς Ἀντιόχειαν ἐλάλουν καὶ πρὸς τοὺς Ἑλληνιστάς, εὐαγγελιζόμενοι τὸν κύριον Ἰησοῦν.",
+      "text_kjv": "And some of them were men of Cyprus and Cyrene, which, when they were come to Antioch, spake unto the Grecians, preaching the Lord Jesus.",
+      "rendering": "But among them were some men from Cyprus and Cyrene who, when they came to Antioch, began speaking to the Greeks also, proclaiming the Lord Jesus as good news.",
+      "translator_notes": [
+        "The SBLGNT reads Hellenistas, which typically means 'Greek-speaking Jews' (as in 6:1), but the context — contrasting with 'Jews only' in verse 19 — demands the meaning 'Greek-speaking Gentiles' or simply 'Greeks.' Some manuscripts read Hellenas ('Greeks'), which may be the original reading. These unnamed missionaries from Cyprus and Cyrene initiate the Gentile mission at Antioch independently of the Cornelius episode."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 21,
+      "text_greek": "καὶ ἦν χεὶρ κυρίου μετ' αὐτῶν, πολύς τε ἀριθμὸς ὁ πιστεύσας ἐπέστρεψεν ἐπὶ τὸν κύριον.",
+      "text_kjv": "And the hand of the Lord was with them: and a great number believed, and turned unto the Lord.",
+      "rendering": "The hand of the Lord was with them, and a great number who believed turned to the Lord.",
+      "translator_notes": [
+        "The phrase 'the hand of the Lord' (cheir kyriou) is a Hebraic idiom for divine power and blessing, frequent in the Old Testament (e.g., 1 Kings 18:46, Ezra 7:9). The combination of 'believed' (pisteusas) and 'turned' (epestrepsen) describes conversion as both cognitive assent and life reorientation.",
+        "[TCR Cross-Reference] Quotes 1 Kings 18:46. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it.",
+        "[TCR Cross-Reference] Quotes Ezra 7:9. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 22,
+      "text_greek": "ἠκούσθη δὲ ὁ λόγος εἰς τὰ ὦτα τῆς ἐκκλησίας τῆς οὔσης ἐν Ἰερουσαλὴμ περὶ αὐτῶν, καὶ ἐξαπέστειλαν Βαρναβᾶν διελθεῖν ἕως Ἀντιοχείας·",
+      "text_kjv": "Then tidings of these things came unto the ears of the church which was in Jerusalem: and they sent forth Barnabas, that he should go as far as Antioch.",
+      "rendering": "The report about them reached the ears of the church in Jerusalem, and they sent Barnabas to Antioch.",
+      "translator_notes": [
+        "Jerusalem sends Barnabas — not to suppress but to assess and encourage. The choice of Barnabas is strategic: he is a Levite from Cyprus (4:36), giving him cultural affinity with the Cypriots who started the work, and his name means 'son of encouragement.' His generous spirit (4:37) makes him ideal for this mission."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 23,
+      "text_greek": "ὃς παραγενόμενος καὶ ἰδὼν τὴν χάριν τὴν τοῦ θεοῦ ἐχάρη καὶ παρεκάλει πάντας τῇ προθέσει τῆς καρδίας προσμένειν τῷ κυρίῳ,",
+      "text_kjv": "Who, when he came, and had seen the grace of God, was glad, and exhorted them all, that with purpose of heart they would cleave unto the Lord.",
+      "rendering": "When he came and saw the grace of God, he was glad and encouraged them all to remain faithful to the Lord with steadfast purpose of heart,",
+      "translator_notes": [
+        "Barnabas 'saw the grace of God' (idon ten charin tou theou) — grace was visible in the transformed community. The wordplay between charin ('grace') and echare ('was glad, rejoiced') connects divine grace to human joy. His encouragement to 'remain faithful' (prosmenein) with 'purpose of heart' (prothesei tes kardias) addresses the challenge of perseverance in a new and vulnerable community."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 24,
+      "text_greek": "ὅτι ἦν ἀνὴρ ἀγαθὸς καὶ πλήρης πνεύματος ἁγίου καὶ πίστεως. καὶ προσετέθη ὄχλος ἱκανὸς τῷ κυρίῳ.",
+      "text_kjv": "For he was a good man, and full of the Holy Ghost and of faith: and much people was added unto the Lord.",
+      "rendering": "Since he was a good man, and full of the Holy Ghost and of faith — and much those present was added to the Lord.",
+      "translator_notes": [
+        "Luke's character summary of Barnabas — 'a good man, full of the Holy Spirit and of faith' — is one of the highest commendations in Acts. Similar language is used of Stephen (6:5). The passive 'were added to the Lord' (prosetehe to kyrio) credits God with the growth, not Barnabas."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 25,
+      "text_greek": "ἐξῆλθεν δὲ εἰς Ταρσὸν ἀναζητῆσαι Σαῦλον,",
+      "text_kjv": "Then departed Barnabas to Tarsus, for to seek Saul:",
+      "rendering": "Then Barnabas went to Tarsus to look for Saul,",
+      "translator_notes": [
+        "The verb anazetesai ('to look for, to search out') suggests Saul was not easily found — Tarsus was a large city and several years had passed since Saul's departure from Jerusalem (9:30). Barnabas's initiative in recruiting Saul is one of the most consequential acts in church history."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 26,
+      "text_greek": "καὶ εὑρὼν ἤγαγεν εἰς Ἀντιόχειαν. ἐγένετο δὲ αὐτοῖς καὶ ἐνιαυτὸν ὅλον συναχθῆναι ἐν τῇ ἐκκλησίᾳ καὶ διδάξαι ὄχλον ἱκανόν, χρηματίσαι τε πρώτως ἐν Ἀντιοχείᾳ τοὺς μαθητὰς Χριστιανούς.",
+      "text_kjv": "And when he had found him, he brought him unto Antioch. And it came to pass, that a whole year they assembled themselves with the church, and taught much people. And the disciples were called Christians first in Antioch.",
+      "rendering": "After he had found him, he brought him to Antioch. And it happened that, that a whole year they assembled themselves with the church, and taught much people. And the followers were called Christians first in Antioch.",
+      "translator_notes": [
+        "The name Christianoi ('Christians,' literally 'Christ-partisans' or 'those belonging to Christ') follows the Latin pattern of political party names (e.g., Herodianoi, Kaisarianoi). It was likely coined by Roman authorities or the general public in Antioch as a label for this new group. The term appears only three times in the New Testament (here, 26:28, and 1 Peter 4:16). That it was a name given by outsiders, not self-chosen, suggests the movement had become publicly visible and distinct from Judaism."
+      ],
+      "key_terms": [
+        {
+          "greek": "Χριστιανός",
+          "transliteration": "Christianos",
+          "rendered_as": "Christians",
+          "semantic_range": "Christian, follower of Christ, Christ-partisan",
+          "note": "Formed on the Latin model of a political faction name. The suffix -ianos indicates adherence to or association with a person, as in Caesariani (Caesar's partisans). First used in Antioch by outsiders to describe the disciples."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 27,
+      "text_greek": "Ἐν ταύταις δὲ ταῖς ἡμέραις κατῆλθον ἀπὸ Ἰεροσολύμων προφῆται εἰς Ἀντιόχειαν·",
+      "text_kjv": "And in these days came prophets from Jerusalem unto Antioch.",
+      "rendering": "In those days prophets came down from Jerusalem to Antioch.",
+      "translator_notes": [
+        "The verb kathelthon ('came down') reflects the geographical reality — Jerusalem is at a higher elevation — and the theological convention that one always 'goes up' to Jerusalem and 'comes down' from it. The presence of prophets (prophetai) in the early church is well attested (cf. 13:1, 15:32, 21:10)."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 28,
+      "text_greek": "ἀναστὰς δὲ εἷς ἐξ αὐτῶν ὀνόματι Ἅγαβος ἐσήμανεν διὰ τοῦ πνεύματος λιμὸν μεγάλην μέλλειν ἔσεσθαι ἐφ' ὅλην τὴν οἰκουμένην, ἥτις ἐγένετο ἐπὶ Κλαυδίου.",
+      "text_kjv": "And there stood up one of them named Agabus, and signified by the Spirit that there should be great dearth throughout all the world: which came to pass in the days of Claudius Caesar.",
+      "rendering": "One of them named Agabus stood up and predicted by the Spirit that a severe famine was about to come over the whole inhabited world — this took place during the reign of Claudius.",
+      "translator_notes": [
+        "Agabus appears again in 21:10-11, predicting Paul's arrest. The phrase 'the whole inhabited world' (holen ten oikoumenen) is a standard expression for the Roman Empire. Claudius reigned AD 41-54. Josephus records a severe famine in Judea around AD 46-47 (Antiquities 20.49-53), and Suetonius mentions food shortages under Claudius. Luke's parenthetical note — 'this took place' — confirms the prophecy's fulfillment."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 29,
+      "text_greek": "τῶν δὲ μαθητῶν καθὼς εὐπορεῖτό τις, ὥρισαν ἕκαστος αὐτῶν εἰς διακονίαν πέμψαι τοῖς κατοικοῦσιν ἐν τῇ Ἰουδαίᾳ ἀδελφοῖς·",
+      "text_kjv": "Then the disciples, every man according to his ability, determined to send relief unto the brethren which dwelt in Judaea:",
+      "rendering": "So the disciples, each according to his ability, determined to send relief to the brothers living in Judea.",
+      "translator_notes": [
+        "The phrase 'each according to his ability' (kathos euporeto tis) establishes proportional giving as the standard — not equal amounts but equal sacrifice. The Gentile church in Antioch sends aid to the Jewish church in Judea, reversing the expected direction of benefaction and demonstrating the unity of the body across ethnic lines."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 30,
+      "text_greek": "ὃ καὶ ἐποίησαν ἀποστείλαντες πρὸς τοὺς πρεσβυτέρους διὰ χειρὸς Βαρναβᾶ καὶ Σαύλου.",
+      "text_kjv": "Which also they did, and sent it to the elders by the hands of Barnabas and Saul.",
+      "rendering": "And they did so, sending it to the elders by the hand of Barnabas and Saul.",
+      "translator_notes": [
+        "This is the first mention of 'elders' (presbyterous) in the Jerusalem church, indicating an organizational structure developing beyond the apostles alone. Barnabas and Saul serve as the delivery agents, a mission that brings them to Jerusalem (12:25) and sets the stage for their commissioning in chapter 13."
+      ],
+      "reading_level": "6th grade"
+    }
+  ]
+}

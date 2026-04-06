@@ -1,0 +1,220 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Leviticus",
+    "tradition": "targum-onkelos",
+    "tradition_label": "Targum Onkelos",
+    "source_text": "Targum Onkelos (standard printed edition)",
+    "base_text": "Westminster Leningrad Codex (WLC)",
+    "date": "2nd-5th c. CE (earliest layers 1st c. BCE)",
+    "generated_at": "2026-04-05T00:00:00Z",
+    "prompt_version": "1.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Targum Onkelos on Leviticus addresses the sacrificial and purity systems with attention to anti-anthropomorphism (God does not 'smell' offerings), Shekinah theology (the divine presence sanctifies and inhabits the Tabernacle), and halakhic clarification. Because Leviticus is primarily legal material, Onkelos' interpretive activity focuses on cultic language, divine speech formulas, and the Holiness Code's promise of divine indwelling.",
+    "notable_renderings": "The 'pleasing aroma' formula is systematically replaced with 'received with favor.' God's walking among Israel (26:12) becomes Shekinah presence. The lex talionis is interpreted as monetary compensation rather than literal bodily punishment. The Holiness Code's blessings and curses receive careful theological treatment.",
+    "theological_themes": "Anti-anthropomorphism in sacrificial language (God does not smell); Shekinah indwelling as the goal of holiness; halakhic interpretation of legal provisions; the covenant relationship as mediated through cult and presence."
+  },
+  "renderings": [
+    {
+      "reference": "Leviticus 1:9",
+      "hebrew_text": "רֵיחַ נִיחוֹחַ לַיהוָה",
+      "targum_text": "letaqbalah bereva qodam Adonai",
+      "targum_rendering": "To be received with favor before the LORD.",
+      "mt_rendering": "A pleasing aroma to the LORD.",
+      "category": "anti-anthropomorphism",
+      "notes": ["This formula appears dozens of times in Leviticus. Onkelos consistently replaces 'a pleasing aroma' with 'to be received with favor' (letaqbalah bereva), removing the implication that God smells sacrifices. The shift is from sensory perception to divine acceptance."]
+    },
+    {
+      "reference": "Leviticus 1:17",
+      "hebrew_text": "אִשֵּׁה רֵיחַ נִיחֹחַ לַיהוָה",
+      "targum_text": "qurbana letaqbalah bereva qodam Adonai",
+      "targum_rendering": "An offering to be received with favor before the LORD.",
+      "mt_rendering": "A fire offering, a pleasing aroma to the LORD.",
+      "category": "anti-anthropomorphism",
+      "notes": ["Onkelos renders 'fire offering' (issheh) as 'offering' (qurbana), and again replaces the aroma formula. The entire sensory dimension of sacrifice is reframed as a relational act of divine acceptance."]
+    },
+    {
+      "reference": "Leviticus 9:4",
+      "hebrew_text": "כִּי הַיּוֹם יְהוָה נִרְאָה אֲלֵיכֶם",
+      "targum_text": "arei yoma den Adonai itgeli lakhon",
+      "targum_rendering": "For today the LORD will reveal himself to you.",
+      "mt_rendering": "For today the LORD will appear to you.",
+      "category": "anti-anthropomorphism",
+      "notes": ["The promise of theophany at the Tabernacle's inauguration is rendered as revelation rather than appearance, consistent with all Onkelos theophanies."]
+    },
+    {
+      "reference": "Leviticus 9:6",
+      "hebrew_text": "וְיֵרָא אֲלֵיכֶם כְּבוֹד יְהוָה",
+      "targum_text": "veyitgeli lakhon yeqara daAdonai",
+      "targum_rendering": "And the glory of the LORD will be revealed to you.",
+      "mt_rendering": "And the glory of the LORD will appear to you.",
+      "category": "anti-anthropomorphism",
+      "notes": ["Even when the Hebrew already specifies 'glory' (kavod) rather than God directly, Onkelos still changes 'appear' to 'be revealed.' The consistent verbal substitution reinforces that all divine manifestation is revelation, not physical appearance."]
+    },
+    {
+      "reference": "Leviticus 9:23",
+      "hebrew_text": "וַיֵּרָא כְבוֹד־יְהוָה אֶל־כָּל־הָעָם",
+      "targum_text": "ve'itgeli yeqara daAdonai lekhol amma",
+      "targum_rendering": "And the glory of the LORD was revealed to all the people.",
+      "mt_rendering": "And the glory of the LORD appeared to all the people.",
+      "category": "anti-anthropomorphism",
+      "notes": ["At the climactic moment of the Tabernacle's inaugural service, the glory is 'revealed' (itgeli) rather than 'appeared.' This is the culmination of the Shekinah theology running through Exodus into Leviticus."]
+    },
+    {
+      "reference": "Leviticus 10:2",
+      "hebrew_text": "וַתֵּצֵא אֵשׁ מִלִּפְנֵי יְהוָה",
+      "targum_text": "venafqat esha min qodam Adonai",
+      "targum_rendering": "And fire went out from before the LORD.",
+      "mt_rendering": "And fire came out from before the LORD.",
+      "category": "literal",
+      "notes": ["Onkelos preserves 'from before the LORD' (min qodam Adonai), which the Hebrew already provides (millifnei YHWH). The deaths of Nadab and Abihu are narrated with minimal interpretive adjustment."]
+    },
+    {
+      "reference": "Leviticus 16:2",
+      "hebrew_text": "כִּי בֶּעָנָן אֵרָאֶה עַל־הַכַּפֹּרֶת",
+      "targum_text": "arei be'anana itgeli yeqari al kappureta",
+      "targum_rendering": "For in the cloud my glory will be revealed upon the mercy seat.",
+      "mt_rendering": "For I will appear in the cloud upon the mercy seat.",
+      "category": "shekinah",
+      "notes": ["God's presence above the mercy seat on Yom Kippur is rendered as the revelation of his glory (yeqar) in the cloud. The High Priest encounters the glory, not God's unmediated self."]
+    },
+    {
+      "reference": "Leviticus 18:5",
+      "hebrew_text": "אֲשֶׁר יַעֲשֶׂה אֹתָם הָאָדָם וָחַי בָּהֶם",
+      "targum_text": "di ya'avid yathon enasha veyeqayyam behon",
+      "targum_rendering": "Which if a man does them, he shall live by them.",
+      "mt_rendering": "Which if a man does them, he shall live by them.",
+      "category": "halakhic",
+      "notes": ["Onkelos renders this verse literally — a verse that becomes central to Paul's argument in Galatians 3:12 and Romans 10:5. The targum does not qualify or condition the promise of life through obedience."]
+    },
+    {
+      "reference": "Leviticus 19:2",
+      "hebrew_text": "קְדֹשִׁים תִּהְיוּ כִּי קָדוֹשׁ אֲנִי יְהוָה אֱלֹהֵיכֶם",
+      "targum_text": "qaddishin tehevun arei qaddish ana Adonai Elahakhon",
+      "targum_rendering": "You shall be holy, for I, the LORD your God, am holy.",
+      "mt_rendering": "You shall be holy, for I the LORD your God am holy.",
+      "category": "literal",
+      "notes": ["The foundational holiness command is rendered literally. Onkelos treats divine holiness as a non-anthropomorphic attribute that requires no adjustment — holiness is God's essential character, not a physical quality."]
+    },
+    {
+      "reference": "Leviticus 20:3",
+      "hebrew_text": "וַאֲנִי אֶתֵּן אֶת־פָּנַי בָּאִישׁ הַהוּא",
+      "targum_text": "va'ana ashavvei yat rug'zi begavra hahu",
+      "targum_rendering": "And I will set my anger against that man.",
+      "mt_rendering": "And I will set my face against that man.",
+      "category": "anti-anthropomorphism",
+      "notes": ["'Setting my face against' becomes 'setting my anger against.' God does not turn a physical face; he directs his wrath. The anthropomorphic face is replaced with the anthropopathic but less physical 'anger.'"]
+    },
+    {
+      "reference": "Leviticus 20:6",
+      "hebrew_text": "וְנָתַתִּי אֶת־פָּנַי בַּנֶּפֶשׁ הַהִוא",
+      "targum_text": "ve'ashavvei yat rug'zi benafsha hahi",
+      "targum_rendering": "And I will set my anger against that soul.",
+      "mt_rendering": "And I will set my face against that soul.",
+      "category": "anti-anthropomorphism",
+      "notes": ["Repeated pattern: 'face' becomes 'anger' in contexts of divine judgment. Onkelos consistently applies this substitution in Leviticus' penalty clauses."]
+    },
+    {
+      "reference": "Leviticus 22:33",
+      "hebrew_text": "אֲנִי יְהוָה מְקַדִּשְׁכֶם הַמּוֹצִיא אֶתְכֶם מֵאֶרֶץ מִצְרַיִם לִהְיוֹת לָכֶם לֵאלֹהִים",
+      "targum_text": "ana Adonai meqaddeshkhon de'appeiqit yathkhon me'ar'a deMitzrayim lemehevei lakhon l'Elah",
+      "targum_rendering": "I am the LORD who sanctifies you, who brought you out from the land of Egypt to be your God.",
+      "mt_rendering": "I am the LORD who sanctifies you, who brought you out of the land of Egypt to be your God.",
+      "category": "literal",
+      "notes": ["The Exodus-holiness-covenant formula is rendered literally, underscoring that Onkelos treats the covenant relationship itself as requiring no intermediary language."]
+    },
+    {
+      "reference": "Leviticus 24:12",
+      "hebrew_text": "לִפְרֹשׁ לָהֶם עַל־פִּי יְהוָה",
+      "targum_text": "lefash lehon al meimart Adonai",
+      "targum_rendering": "To clarify for them according to the decree of the LORD.",
+      "mt_rendering": "Until the decision of the LORD should be clear to them.",
+      "category": "memra",
+      "notes": ["'The mouth of the LORD' (pi YHWH) becomes 'the decree/word (meimra) of the LORD,' replacing the anthropomorphic 'mouth' with the more abstract 'word/decree' — a variant of the Memra concept applied to legal decisions."]
+    },
+    {
+      "reference": "Leviticus 24:20",
+      "hebrew_text": "שֶׁבֶר תַּחַת שֶׁבֶר עַיִן תַּחַת עַיִן שֵׁן תַּחַת שֵׁן",
+      "targum_text": "demei tevirata chalaf tevirata demei eina chalaf eina demei shinna chalaf shinna",
+      "targum_rendering": "The value of a fracture for a fracture, the value of an eye for an eye, the value of a tooth for a tooth.",
+      "mt_rendering": "Fracture for fracture, eye for eye, tooth for tooth.",
+      "category": "halakhic",
+      "notes": ["Onkelos inserts 'the value of' (demei) before each injury, interpreting the lex talionis as monetary compensation rather than literal physical retaliation. This aligns with rabbinic halakhah in the Talmud (Bava Kamma 83b-84a)."]
+    },
+    {
+      "reference": "Leviticus 26:3-4",
+      "hebrew_text": "אִם־בְּחֻקֹּתַי תֵּלֵכוּ... וְנָתַתִּי גִשְׁמֵיכֶם בְּעִתָּם",
+      "targum_text": "im beqayamai tehalkhun... ve'eittein mitreichon be'iddanehon",
+      "targum_rendering": "If you walk in my statutes... I will give your rains in their season.",
+      "mt_rendering": "If you walk in my statutes... I will give your rains in their season.",
+      "category": "literal",
+      "notes": ["The blessings of the Holiness Code are rendered literally, reflecting Onkelos' straightforward treatment of conditional covenant promises."]
+    },
+    {
+      "reference": "Leviticus 26:9",
+      "hebrew_text": "וּפָנִיתִי אֲלֵיכֶם",
+      "targum_text": "ve'afnei Memri lakhon",
+      "targum_rendering": "And I will turn my Memra toward you.",
+      "mt_rendering": "And I will turn toward you.",
+      "category": "memra",
+      "notes": ["God's turning toward Israel is mediated through the Memra. The covenantal blessing of divine attention operates through the Word."]
+    },
+    {
+      "reference": "Leviticus 26:11",
+      "hebrew_text": "וְנָתַתִּי מִשְׁכָּנִי בְּתוֹכְכֶם",
+      "targum_text": "ve'eittein Shekhineti beineikhon",
+      "targum_rendering": "And I will set my Shekinah among you.",
+      "mt_rendering": "And I will set my dwelling among you.",
+      "category": "shekinah",
+      "notes": ["The Hebrew mishkan ('dwelling/tabernacle') is rendered Shekinah, making explicit what the Hebrew implies: the mishkan is the locus of the Shekinah. God's 'dwelling' is his Shekinah-presence."]
+    },
+    {
+      "reference": "Leviticus 26:12",
+      "hebrew_text": "וְהִתְהַלַּכְתִּי בְּתוֹכְכֶם וְהָיִיתִי לָכֶם לֵאלֹהִים",
+      "targum_text": "ve'eittein Shekhineti beineikhon ve'ehei lakhon l'Elah",
+      "targum_rendering": "And I will set my Shekinah among you, and I will be your God.",
+      "mt_rendering": "And I will walk among you and will be your God.",
+      "category": "shekinah",
+      "notes": ["God does not 'walk' among Israel. The anthropomorphic 'walking' is replaced with Shekinah indwelling. This is the covenant-presence promise in its fullest Levitical expression, and Paul cites it in 2 Corinthians 6:16."]
+    },
+    {
+      "reference": "Leviticus 26:17",
+      "hebrew_text": "וְנָתַתִּי פָנַי בָּכֶם",
+      "targum_text": "ve'ashavvei rug'zi bekhon",
+      "targum_rendering": "And I will set my anger against you.",
+      "mt_rendering": "And I will set my face against you.",
+      "category": "anti-anthropomorphism",
+      "notes": ["In the curses section, 'face' again becomes 'anger,' mirroring the pattern in Leviticus 20. The contrast is stark: in the blessings (26:9), God turns his Memra; in the curses (26:17), God sets his anger."]
+    },
+    {
+      "reference": "Leviticus 26:30",
+      "hebrew_text": "וְגָעֲלָה נַפְשִׁי אֶתְכֶם",
+      "targum_text": "vetarchiq Memri yatkhon",
+      "targum_rendering": "And my Memra will distance you.",
+      "mt_rendering": "And my soul will abhor you.",
+      "category": "anti-anthropomorphism",
+      "notes": ["God does not have a 'soul' (nefesh) that can 'abhor.' Onkelos replaces the anthropopathic expression with the Memra distancing Israel — divine rejection is described in relational rather than emotional terms."]
+    },
+    {
+      "reference": "Leviticus 26:44",
+      "hebrew_text": "וְלֹא גְעַלְתִּים... לְהָפֵר בְּרִיתִי אִתָּם כִּי אֲנִי יְהוָה אֱלֹהֵיהֶם",
+      "targum_text": "vela racheiqit yathon... lebattala keyami immehon arei ana Adonai Elahehon",
+      "targum_rendering": "And I did not distance them... to break my covenant with them, for I am the LORD their God.",
+      "mt_rendering": "And I did not abhor them... to break my covenant with them, for I am the LORD their God.",
+      "category": "anti-anthropomorphism",
+      "notes": ["Even in the depths of the curses, God did not fully 'distance' (Memra language) Israel. The covenant endures. Onkelos renders the promise of ultimate covenant faithfulness with the same substitution pattern, maintaining theological consistency."]
+    },
+    {
+      "reference": "Leviticus 26:46",
+      "hebrew_text": "אֵלֶּה הַחֻקִּים וְהַמִּשְׁפָּטִים וְהַתּוֹרֹת אֲשֶׁר נָתַן יְהוָה בֵּינוֹ וּבֵין בְּנֵי יִשְׂרָאֵל",
+      "targum_text": "ilein qayamayya vedinayya ve'orayata di yehav Adonai bein Memreih uvein benei Yisrael",
+      "targum_rendering": "These are the statutes and the judgments and the laws which the LORD gave between his Memra and the children of Israel.",
+      "mt_rendering": "These are the statutes and the judgments and the laws which the LORD gave between himself and the children of Israel.",
+      "category": "memra",
+      "notes": ["The laws are given between God's Memra and Israel, not between God directly and Israel. The entire Torah is a Memra-mediated covenant — the Word stands between God and his people as the medium of revelation and relationship."]
+    }
+  ]
+}

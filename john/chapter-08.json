@@ -1,0 +1,700 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "John",
+    "chapter": 8,
+    "source_text": "SBL Greek New Testament (SBLGNT)",
+    "reference_text": "KJV",
+    "generated_at": "2026-04-04T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "John 8 opens with the Pericope Adulterae (7:53-8:11), in which a woman caught in adultery is brought before Jesus as a legal trap — he disarms the accusers with 'Let the one without sin throw the first stone.' The remainder of the chapter records an extended confrontation between Jesus and the Jewish leaders in the temple courts, centered on Jesus's identity and authority. Jesus declares himself the light of the world (8:12), claims that the Father testifies on his behalf, warns that those who reject him will die in their sins, and reveals his divine origin. The chapter climaxes with the explosive declaration 'Before Abraham was, I AM' (8:58), prompting an attempt to stone him.",
+    "remarkable": "The Pericope Adulterae (7:53-8:11) is one of the most textually disputed passages in the New Testament — absent from the earliest and most reliable Greek manuscripts (P66, P75, Sinaiticus, Vaticanus), it appears in various locations across later manuscripts. The SBLGNT does not include it in the main text. We include it here with full textual notation, as it has been part of the received tradition for centuries. The ego eimi ('I AM') declaration in 8:58 is the chapter's theological summit — Jesus uses the absolute form of the divine self-identification from Exodus 3:14, and his audience understands the claim immediately, responding with attempted execution for blasphemy.",
+    "friction": "The textual status of 7:53-8:11 requires transparent handling. The ego eimi statements throughout this chapter carry varying force — some are ordinary predicate uses ('I am the light'), while 8:58 is the absolute, divine-name usage. We render all as 'I am' but note the distinction. The dialogue in 8:31-59 involves escalating hostility that modern readers may find harsh; we render the Greek as given without softening.",
+    "connections": "The 'I AM' declaration connects to Exodus 3:14 (the divine name revealed to Moses), Isaiah 41:4 and 43:10-13 (the LORD's self-identification), and John's own Prologue (1:1-18). The light-of-the-world claim connects to Isaiah 9:2, 42:6, and 49:6. The discussion of Abraham connects to Genesis 12-22 and the covenant promises. The theme of judgment and testimony connects to Deuteronomy 17:6 and 19:15 (the two-witness requirement).\n\n**Tradition comparisons:** The Latin Vulgate shaped Western theology here: Veritas liberabit vos (the truth shall free you) became one of the most widely quoted biblical phrases in Western culture, adopted as the motto of numerous universities (Johns Hopkins, among others) a... See the [Vulgate John](/vulgate/john)."
+  },
+  "verses": [
+    {
+      "verse_range": "7:53-8:11",
+      "textual_note": "The Pericope Adulterae (John 7:53-8:11) is not found in the earliest and most reliable Greek manuscripts, including P66, P75, Codex Sinaiticus, and Codex Vaticanus. It is absent from the SBLGNT main text. Later manuscripts place it here, after John 7:36, after John 21:25, or after Luke 21:38. Its literary style differs from the rest of John's Gospel. It is included here because of its long presence in the received tradition, but readers should be aware of its disputed textual status."
+    },
+    {
+      "verse": 53,
+      "verse_note": "This verse is numbered as John 7:53 in traditional versification but is part of the Pericope Adulterae unit included here.",
+      "text_greek": "Καὶ ἐπορεύθησαν ἕκαστος εἰς τὸν οἶκον αὐτοῦ,",
+      "text_kjv": "And every man went unto his own house.",
+      "rendering": "Then each of them went to his own house,",
+      "translator_notes": [
+        "This verse concludes the scene of 7:45-52 in the traditional placement. The Greek is straightforward narrative transition. The Pericope Adulterae begins here in manuscripts that include it."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 1,
+      "text_greek": "Ἰησοῦς δὲ ἐπορεύθη εἰς τὸ ὄρος τῶν ἐλαιῶν.",
+      "text_kjv": "Jesus went unto the mount of Olives.",
+      "rendering": "Jesus traveled to the mount of Olives.",
+      "translator_notes": [
+        "The Mount of Olives is mentioned frequently in the Synoptic Gospels but only here in John (another indicator of the passage's non-Johannine origin). The contrast between 'each to his own house' and Jesus going to the mount suggests he had no home in Jerusalem."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 2,
+      "text_greek": "Ὄρθρου δὲ πάλιν παρεγένετο εἰς τὸ ἱερόν, καὶ πᾶς ὁ λαὸς ἤρχετο πρὸς αὐτόν, καὶ καθίσας ἐδίδασκεν αὐτούς.",
+      "text_kjv": "And early in the morning he came again into the temple, and all the people came unto him; and he sat down, and taught them.",
+      "rendering": "At dawn he went again to the temple, and all the people came to him. He sat down and began teaching them.",
+      "translator_notes": [
+        "The Greek orthrou ('at dawn') indicates very early morning. The posture of sitting (kathisas) was the standard teaching position for a Jewish rabbi — the teacher sat while the audience stood or sat around him."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 3,
+      "text_greek": "ἄγουσιν δὲ οἱ γραμματεῖς καὶ οἱ Φαρισαῖοι γυναῖκα ἐπὶ μοιχείᾳ κατειλημμένην, καὶ στήσαντες αὐτὴν ἐν μέσῳ",
+      "text_kjv": "And the scribes and Pharisees brought unto him a woman taken in adultery; and when they had set her in the midst,",
+      "rendering": "The scribes and the Pharisees brought a woman who had been caught in adultery. They made her stand in the middle of the group",
+      "translator_notes": [
+        "The Greek kateilēmmenēn ('having been caught, seized') is a perfect passive participle indicating she was caught in the very act. The public shaming of placing her 'in the middle' (en mesō) is deliberate humiliation designed to pressure Jesus into a ruling."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 4,
+      "text_greek": "λέγουσιν αὐτῷ· Διδάσκαλε, αὕτη ἡ γυνὴ κατείληπται ἐπ᾽ αὐτοφώρῳ μοιχευομένη·",
+      "text_kjv": "They say unto him, Master, this woman was taken in adultery, in the very act.",
+      "rendering": "They say to him, Teacher, this lady was removed in adultery, in the very act.",
+      "translator_notes": [
+        "The Greek ep' autophōrō ('in the very act, red-handed') is emphatic — they stress that there is no ambiguity about her guilt. The address 'Teacher' (Didaskale) frames the encounter as a legal question put to a rabbi. Notably absent is the man involved, though the law required both parties to be present (Leviticus 20:10).",
+        "[TCR Cross-Reference] Echoes Leviticus 20:10. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 5,
+      "text_greek": "ἐν δὲ τῷ νόμῳ ἡμῖν Μωϋσῆς ἐνετείλατο τὰς τοιαύτας λιθάζειν· σὺ οὖν τί λέγεις;",
+      "text_kjv": "Now Moses in the law commanded us, that such should be stoned: but what sayest thou?",
+      "rendering": "In the Law, Moses commanded us to stone such women. So what do you say?\"",
+      "translator_notes": [
+        "The reference is to Leviticus 20:10 and Deuteronomy 22:22-24, which prescribe death for adultery (though the specific method of stoning is debated — Deuteronomy 22:24 specifies stoning for a betrothed virgin). The trap is designed to force Jesus into a dilemma: upholding the law would conflict with Roman authority (Jews could not execute), while showing mercy would appear to dismiss Moses.",
+        "[TCR Cross-Reference] This verse quotes Leviticus 20:10 — see the TCR rendering of that passage for the Hebrew source text and translation decisions.",
+        "[TCR Cross-Reference] This verse quotes Deuteronomy 22:22-24 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 6,
+      "text_greek": "τοῦτο δὲ ἔλεγον πειράζοντες αὐτόν, ἵνα ἔχωσιν κατηγορεῖν αὐτοῦ. ὁ δὲ Ἰησοῦς κάτω κύψας τῷ δακτύλῳ κατέγραφεν εἰς τὴν γῆν.",
+      "text_kjv": "This they said, tempting him, that they might have to accuse him. But Jesus stooped down, and with his finger wrote on the ground, as though he heard them not.",
+      "rendering": "They said this to test him, so that they would have grounds to accuse him. But Jesus bent down and began writing on the ground with his finger.",
+      "translator_notes": [
+        "The verb peirazontes ('testing') reveals their motive — this is entrapment, not a sincere legal question. The Greek kategraphein ('to write down') is used only here in the New Testament. What Jesus wrote has been the subject of endless speculation — the text does not say, and we do not speculate. The KJV's addition 'as though he heard them not' is not in the Greek manuscripts."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 7,
+      "text_greek": "ὡς δὲ ἐπέμενον ἐρωτῶντες αὐτόν, ἀνέκυψεν καὶ εἶπεν αὐτοῖς· Ὁ ἀναμάρτητος ὑμῶν πρῶτος ἐπ᾽ αὐτὴν βαλέτω λίθον.",
+      "text_kjv": "So when they continued asking him, he lifted up himself, and said unto them, He that is without sin among you, let him first cast a stone at her.",
+      "rendering": "When they kept pressing him, he straightened up and said to them, \"Let the one among you who is without sin be the first to throw a stone at her.\"",
+      "translator_notes": [
+        "The Greek anamartētos ('without sin') appears only here in the New Testament. Jesus does not deny the law's validity or the woman's guilt — he redirects the moral scrutiny to the accusers themselves. Under Deuteronomy 17:7, the witnesses were required to cast the first stones, so Jesus's statement may also challenge whether legitimate witnesses are present.",
+        "[TCR Cross-Reference] Draws on Deuteronomy 17:7. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "key_terms": [
+        {
+          "greek": "ἀναμάρτητος",
+          "transliteration": "anamartētos",
+          "rendered_as": "without sin",
+          "semantic_range": "sinless, without fault, without missing the mark",
+          "note": "A New Testament hapax legomenon. The alpha-privative prefix negates hamartia ('sin, missing the mark'). Jesus's challenge assumes universal human sinfulness as a given."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 8,
+      "text_greek": "καὶ πάλιν κατακύψας ἔγραφεν εἰς τὴν γῆν.",
+      "text_kjv": "And again he stooped down, and wrote on the ground.",
+      "rendering": "Then he bent down again and continued writing on the ground.",
+      "translator_notes": [
+        "The imperfect egraphen ('was writing, continued to write') suggests ongoing action — Jesus did not write briefly and stop but continued writing while the accusers processed his words. The repetition of the writing gesture frames the central pronouncement."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 9,
+      "text_greek": "οἱ δὲ ἀκούσαντες ἐξήρχοντο εἷς καθ᾽ εἷς ἀρξάμενοι ἀπὸ τῶν πρεσβυτέρων, καὶ κατελείφθη μόνος, καὶ ἡ γυνὴ ἐν μέσῳ οὖσα.",
+      "text_kjv": "And they which heard it, being convicted by their own conscience, went out one by one, beginning at the eldest, even unto the last: and Jesus was left alone, and the woman standing in the midst.",
+      "rendering": "When they heard this, they went away one by one, beginning with the elders, until Jesus was left alone with the woman still standing there.",
+      "translator_notes": [
+        "The detail 'beginning with the elders' (arxamenoi apo tōn presbyterōn) is psychologically acute — the oldest, presumably with the most accumulated guilt or the most wisdom, leave first. The KJV's 'convicted by their own conscience' is an addition not found in the best manuscripts of this passage; the Greek simply says they left after hearing."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 10,
+      "text_greek": "ἀνακύψας δὲ ὁ Ἰησοῦς εἶπεν αὐτῇ· Γύναι, ποῦ εἰσιν; οὐδείς σε κατέκρινεν;",
+      "text_kjv": "When Jesus had lifted up himself, and saw none but the woman, he said unto her, Woman, where are those thine accusers? hath no man condemned thee?",
+      "rendering": "Jesus straightened up and said to her, \"Woman, where are they? Has no one condemned you?\"",
+      "translator_notes": [
+        "The address gynai ('woman') is respectful in Greek, not dismissive — the same form Jesus uses to address his mother at Cana (2:4) and from the cross (19:26). The verb katekrinen ('condemned') is a legal term — Jesus asks whether any formal judgment has been rendered."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 11,
+      "text_greek": "ἡ δὲ εἶπεν· Οὐδείς, κύριε. εἶπεν δὲ ὁ Ἰησοῦς· Οὐδὲ ἐγώ σε κατακρίνω· πορεύου, ἀπὸ τοῦ νῦν μηκέτι ἁμάρτανε.",
+      "text_kjv": "She said, No man, Lord. And Jesus said unto her, Neither do I condemn thee: go, and sin no more.",
+      "rendering": "She said, \"No one, Lord.\" Jesus said, \"Neither do I condemn you. Go, and from now on do not sin anymore.\"",
+      "translator_notes": [
+        "Jesus's response is neither legal acquittal nor moral indifference — he declines to condemn (katakrinō) while commanding a changed life. The phrase apo tou nyn ('from now on') marks a turning point. The imperative mēketi hamartane ('sin no more') is a present imperative with the negative, meaning 'stop the ongoing practice of sinning.' Grace and moral demand stand together without tension."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 12,
+      "text_greek": "Πάλιν οὖν αὐτοῖς ἐλάλησεν ὁ Ἰησοῦς λέγων· Ἐγώ εἰμι τὸ φῶς τοῦ κόσμου· ὁ ἀκολουθῶν ἐμοὶ οὐ μὴ περιπατήσῃ ἐν τῇ σκοτίᾳ, ἀλλ᾽ ἕξει τὸ φῶς τῆς ζωῆς.",
+      "text_kjv": "Then spake Jesus again unto them, saying, I am the light of the world: he that followeth me shall not walk in darkness, but shall have the light of life.",
+      "rendering": "Again Jesus spoke to them, saying, \"I am the light of the world. Whoever follows me will never walk in darkness but will have the light of life.\"",
+      "translator_notes": [
+        "This is the second of John's seven 'I am' statements with a predicate (following 6:35). The double negative ou mē ('never, by no means') is the strongest negation in Greek. If this discourse occurs during the Feast of Tabernacles (cf. 7:2), the four giant candelabra lit in the Court of Women provide a vivid backdrop — Jesus claims to be what the festival rituals symbolized."
+      ],
+      "key_terms": [
+        {
+          "greek": "φῶς",
+          "transliteration": "phōs",
+          "rendered_as": "light",
+          "semantic_range": "light, radiance, illumination, enlightenment",
+          "note": "In John's theology, light is one of the primary metaphors for divine life and revelation (cf. 1:4-5, 3:19-21). The 'light of the world' claim echoes Isaiah 42:6 and 49:6, where the Servant of the LORD is 'a light for the nations.'"
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 13,
+      "text_greek": "εἶπον οὖν αὐτῷ οἱ Φαρισαῖοι· Σὺ περὶ σεαυτοῦ μαρτυρεῖς· ἡ μαρτυρία σου οὐκ ἔστιν ἀληθής.",
+      "text_kjv": "The Pharisees therefore said unto him, Thou bearest record of thyself; thy record is not true.",
+      "rendering": "So the Pharisees said to him, \"You are testifying about yourself — your testimony is not valid.\"",
+      "translator_notes": [
+        "The Pharisees invoke the legal principle of Deuteronomy 19:15: no one can serve as their own witness. The Greek alēthēs here means 'valid, legally admissible' rather than 'factually true' — they are challenging the admissibility of self-testimony, not calling Jesus a liar. This directly engages the two-witness law that governs Jewish legal proceedings.",
+        "[TCR Cross-Reference] References Deuteronomy 19:15: — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 14,
+      "text_greek": "ἀπεκρίθη Ἰησοῦς καὶ εἶπεν αὐτοῖς· Κἂν ἐγὼ μαρτυρῶ περὶ ἐμαυτοῦ, ἀληθής ἐστιν ἡ μαρτυρία μου, ὅτι οἶδα πόθεν ἦλθον καὶ ποῦ ὑπάγω· ὑμεῖς δὲ οὐκ οἴδατε πόθεν ἔρχομαι ἢ ποῦ ὑπάγω.",
+      "text_kjv": "Jesus answered and said unto them, Though I bear record of myself, yet my record is true: for I know whence I came, and whither I go; but ye cannot tell whence I come, and whither I go.",
+      "rendering": "Jesus answered them, \"Even if I testify about myself, my testimony is valid, because I know where I came from and where I am going. But you do not know where I came from or where I am going.",
+      "translator_notes": [
+        "Jesus's defense rests on his unique origin and destiny — his knowledge of his divine origin (pothen elthon, 'where I came from') and divine destination (pou hypagō, 'where I am going') validates his self-testimony in a way that applies to no ordinary witness. This appears to contradict 5:31 ('If I testify about myself, my testimony is not valid') but the contexts differ: there Jesus was speaking hypothetically about isolated self-testimony, while here he argues that his testimony is never truly isolated because the Father always testifies with him."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 15,
+      "text_greek": "ὑμεῖς κατὰ τὴν σάρκα κρίνετε, ἐγὼ οὐ κρίνω οὐδένα.",
+      "text_kjv": "Ye judge after the flesh; I judge no man.",
+      "rendering": "You judge by human standards. I judge no one.",
+      "translator_notes": [
+        "The phrase kata tēn sarka ('according to the flesh') means by external, superficial, merely human criteria. Jesus's statement 'I judge no one' seems to conflict with other Johannine statements about judgment (5:22, 9:39); the resolution is that Jesus does not judge in the flawed, appearance-based way his opponents do."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 16,
+      "text_greek": "καὶ ἐὰν κρίνω δὲ ἐγώ, ἡ κρίσις ἡ ἐμὴ ἀληθινή ἐστιν, ὅτι μόνος οὐκ εἰμί, ἀλλ᾽ ἐγὼ καὶ ὁ πέμψας με πατήρ.",
+      "text_kjv": "And yet if I judge, my judgment is true: for I am not alone, but I and the Father that sent me.",
+      "rendering": "Yet even if I do judge, my judgment is true, because I am not alone — I and the Father who sent me judge together.",
+      "translator_notes": [
+        "The word alēthinē ('true, genuine, real') differs from alēthēs in verse 13 — it implies not merely factual accuracy but genuine, ultimate reality. Jesus grounds the validity of his judgment in his unity with the Father, introducing the two-witness theme that he develops in the next verse."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 17,
+      "text_greek": "καὶ ἐν τῷ νόμῳ δὲ τῷ ὑμετέρῳ γέγραπται ὅτι δύο ἀνθρώπων ἡ μαρτυρία ἀληθής ἐστιν.",
+      "text_kjv": "It is also written in your law, that the testimony of two men is true.",
+      "rendering": "In your own Law it is written that the testimony of two witnesses is valid.",
+      "translator_notes": [
+        "Jesus cites Deuteronomy 17:6 or 19:15 (the two-witness requirement). The phrase 'your law' (tō hymetero nomō) does not mean Jesus disowns the Torah — the pronoun 'your' appeals to an authority his opponents accept. The argument is: you require two witnesses; I have two — myself and my Father.",
+        "[TCR Cross-Reference] Draws on Deuteronomy 17:6. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 18,
+      "text_greek": "ἐγώ εἰμι ὁ μαρτυρῶν περὶ ἐμαυτοῦ, καὶ μαρτυρεῖ περὶ ἐμοῦ ὁ πέμψας με πατήρ.",
+      "text_kjv": "I am one that bear witness of myself, and the Father that sent me beareth witness of me.",
+      "rendering": "I am the one who testifies about myself, and the Father who sent me testifies about me.\"",
+      "translator_notes": [
+        "The ego eimi ('I am') here functions as a simple copula ('I am the one who...') rather than the absolute divine claim, but John may intend a double resonance — Jesus identifies himself as a witness while using the phrase that will carry divine force in verse 58."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 19,
+      "text_greek": "ἔλεγον οὖν αὐτῷ· Ποῦ ἐστιν ὁ πατήρ σου; ἀπεκρίθη Ἰησοῦς· Οὔτε ἐμὲ οἴδατε οὔτε τὸν πατέρα μου· εἰ ἐμὲ ᾔδειτε, καὶ τὸν πατέρα μου ἂν ᾔδειτε.",
+      "text_kjv": "Then said they unto him, Where is thy Father? Jesus answered, Ye neither know me, nor my Father: if ye had known me, ye should have known my Father also.",
+      "rendering": "Then they said to him, \"Where is your Father?\" Jesus answered, \"You know neither me nor my Father. If you knew me, you would know my Father as well.\"",
+      "translator_notes": [
+        "The question 'Where is your Father?' may be a genuine misunderstanding (thinking of a human father) or a veiled insult about Jesus's parentage. Jesus's response links knowledge of himself inseparably to knowledge of the Father — a recurring Johannine theme (cf. 14:7). The conditional ei ēdeite ('if you knew') uses the imperfect, indicating they do not currently know."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 20,
+      "text_greek": "Ταῦτα τὰ ῥήματα ἐλάλησεν ἐν τῷ γαζοφυλακίῳ διδάσκων ἐν τῷ ἱερῷ· καὶ οὐδεὶς ἐπίασεν αὐτόν, ὅτι οὔπω ἐληλύθει ἡ ὥρα αὐτοῦ.",
+      "text_kjv": "These words spake Jesus in the treasury, as he taught in the temple: and no man laid hands on him; for his hour was not yet come.",
+      "rendering": "He spoke these words while teaching in the treasury area of the temple. Yet no one arrested him, because his hour had not yet come.",
+      "translator_notes": [
+        "The gazophylakion ('treasury') was located in the Court of Women, a public area of the temple — Jesus was teaching openly, not in hiding. The phrase 'his hour' (hē hōra autou) is a key Johannine motif referring to the appointed time of Jesus's death and glorification (cf. 2:4, 7:30, 12:23, 13:1, 17:1). John presents Jesus's safety as divinely governed, not circumstantial."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 21,
+      "text_greek": "Εἶπεν οὖν πάλιν αὐτοῖς· Ἐγὼ ὑπάγω καὶ ζητήσετέ με, καὶ ἐν τῇ ἁμαρτίᾳ ὑμῶν ἀποθανεῖσθε· ὅπου ἐγὼ ὑπάγω ὑμεῖς οὐ δύνασθε ἐλθεῖν.",
+      "text_kjv": "Then said Jesus again unto them, I go my way, and ye shall seek me, and shall die in your sins: whither I go, ye cannot come.",
+      "rendering": "Then he said to them again, \"I am going away, and you will look for me, but you will die in your sin. Where I am going, you cannot come.\"",
+      "translator_notes": [
+        "The singular 'sin' (hamartia, not the plural hamartiais as in verse 24) may refer to the specific sin of rejecting Jesus rather than sins in general. The statement 'where I am going, you cannot come' echoes 7:34 and provokes the same confusion — his opponents think in geographical terms while Jesus speaks of his return to the Father."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 22,
+      "text_greek": "ἔλεγον οὖν οἱ Ἰουδαῖοι· Μήτι ἀποκτενεῖ ἑαυτόν, ὅτι λέγει· Ὅπου ἐγὼ ὑπάγω ὑμεῖς οὐ δύνασθε ἐλθεῖν;",
+      "text_kjv": "Then said the Jews, Will he kill himself? because he saith, Whither I go, ye cannot come.",
+      "rendering": "So the Jewish leaders said, \"Is he going to kill himself? Is that why he says, 'Where I am going, you cannot come'?\"",
+      "translator_notes": [
+        "The Greek mēti introduces a question expecting a negative answer, but with ironic uncertainty. The suggestion of suicide is deeply offensive in a Jewish context, where it was viewed as a sin that would consign someone to the lowest part of Sheol — they are inadvertently suggesting Jesus would go where they truly cannot follow. We render hoi Ioudaioi as 'Jewish leaders' since the context indicates the religious authorities in debate with Jesus, not the Jewish people broadly."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 23,
+      "text_greek": "καὶ ἔλεγεν αὐτοῖς· Ὑμεῖς ἐκ τῶν κάτω ἐστέ, ἐγὼ ἐκ τῶν ἄνω εἰμί· ὑμεῖς ἐκ τούτου τοῦ κόσμου ἐστέ, ἐγὼ οὐκ εἰμὶ ἐκ τοῦ κόσμου τούτου.",
+      "text_kjv": "And he said unto them, Ye are from beneath; I am from above: ye are of this world; I am not of this world.",
+      "rendering": "He said to them, \"You are from below; I am from above. You are of this world; I am not of this world.",
+      "translator_notes": [
+        "The spatial dualism — below/above, this world/not of this world — is characteristic of John's theology. The Greek ek tōn katō ('from the things below') and ek tōn anō ('from the things above') establish an ontological distinction, not merely a moral one. Jesus claims a fundamentally different origin from his opponents."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 24,
+      "text_greek": "εἶπον οὖν ὑμῖν ὅτι ἀποθανεῖσθε ἐν ταῖς ἁμαρτίαις ὑμῶν· ἐὰν γὰρ μὴ πιστεύσητε ὅτι ἐγώ εἰμι, ἀποθανεῖσθε ἐν ταῖς ἁμαρτίαις ὑμῶν.",
+      "text_kjv": "I said therefore unto you, that ye shall die in your sins: for if ye believe not that I am he, ye shall die in your sins.",
+      "rendering": "That is why I told you that you will die in your sins. For if you do not believe that I am he, you will die in your sins.\"",
+      "translator_notes": [
+        "The phrase ego eimi ('I am') here stands without a predicate — 'I am he' is supplied by English translators for grammatical sense, but the Greek is absolute: 'unless you believe that I AM.' This is the first instance in the chapter of the potentially divine-name usage of ego eimi. The plural 'sins' (hamartiais) replaces the singular of verse 21, broadening the reference."
+      ],
+      "key_terms": [
+        {
+          "greek": "ἐγώ εἰμι",
+          "transliteration": "egō eimi",
+          "rendered_as": "I am he",
+          "semantic_range": "I am, I am he, I exist, I AM (divine name)",
+          "note": "The absolute use of ego eimi without a predicate echoes the divine self-revelation in Exodus 3:14 (Hebrew ehyeh asher ehyeh, LXX egō eimi ho ōn). Whether the audience grasps the full force here is debated, but the pattern builds toward the unmistakable claim in verse 58."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 25,
+      "text_greek": "ἔλεγον οὖν αὐτῷ· Σὺ τίς εἶ; εἶπεν αὐτοῖς ὁ Ἰησοῦς· Τὴν ἀρχὴν ὅ τι καὶ λαλῶ ὑμῖν.",
+      "text_kjv": "Then said they unto him, Who art thou? And Jesus saith unto them, Even the same that I said unto you from the beginning.",
+      "rendering": "They said to him, \"Who are you?\" Jesus said to them, \"What I have been telling you from the beginning.",
+      "translator_notes": [
+        "Jesus's response (tēn archēn ho ti kai lalō hymin) is one of the most debated phrases in the Gospel. It could mean: (1) 'What I have been telling you from the start,' (2) 'Why do I speak to you at all?' (taking tēn archēn as 'at all'), or (3) 'I am the beginning — what I tell you.' We follow the first reading as most contextually natural, but the ambiguity may be intentional."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 26,
+      "text_greek": "πολλὰ ἔχω περὶ ὑμῶν λαλεῖν καὶ κρίνειν· ἀλλ᾽ ὁ πέμψας με ἀληθής ἐστιν, κἀγὼ ἃ ἤκουσα παρ᾽ αὐτοῦ, ταῦτα λαλῶ εἰς τὸν κόσμον.",
+      "text_kjv": "I have many things to say and to judge of you: but he that sent me is true; and I speak to the world those things which I have heard of him.",
+      "rendering": "I have much to say about you and much to judge. But the one who sent me is true, and what I have heard from him — these things I speak to the world.\"",
+      "translator_notes": [
+        "Jesus restrains himself from full judgment ('I have much to say and judge') and instead speaks only what he has received from the Father. The adjective alēthēs ('true, truthful') applied to the Father affirms the reliability of everything Jesus has been commissioned to say."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 27,
+      "text_greek": "οὐκ ἔγνωσαν ὅτι τὸν πατέρα αὐτοῖς ἔλεγεν.",
+      "text_kjv": "They understood not that he spake to them of the Father.",
+      "rendering": "They did not understand that he was speaking to them about the Father.",
+      "translator_notes": [
+        "John's editorial comment highlights the persistent misunderstanding that characterizes the opponents throughout this chapter — they hear Jesus's words but cannot grasp that 'the one who sent me' refers to God as his Father."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 28,
+      "text_greek": "εἶπεν οὖν αὐτοῖς ὁ Ἰησοῦς· Ὅταν ὑψώσητε τὸν υἱὸν τοῦ ἀνθρώπου, τότε γνώσεσθε ὅτι ἐγώ εἰμι, καὶ ἀπ᾽ ἐμαυτοῦ ποιῶ οὐδέν, ἀλλὰ καθὼς ἐδίδαξέν με ὁ πατὴρ ταῦτα λαλῶ.",
+      "text_kjv": "Then said Jesus unto them, When ye have lifted up the Son of man, then shall ye know that I am he, and that I do nothing of myself; but as my Father hath taught me, I speak these things.",
+      "rendering": "So Jesus said to them, \"When you have lifted up the Son of Man, then you will know that I am he, and that I do nothing on my own authority, but I speak just as the Father taught me.",
+      "translator_notes": [
+        "The verb hypsōsēte ('lift up') carries a deliberate double meaning in John: physical lifting up on the cross and exaltation to glory (cf. 3:14, 12:32-34). The 'you' (hymeis) makes the opponents themselves the agents of the lifting up — they will crucify him, and that very act will reveal his identity. The ego eimi ('I am he') is again absolute, with the full meaning to become clear only at the cross."
+      ],
+      "key_terms": [
+        {
+          "greek": "ὑψόω",
+          "transliteration": "hypsoō",
+          "rendered_as": "lifted up",
+          "semantic_range": "to lift up, to raise high, to exalt",
+          "note": "John uses this verb as a theological double entendre — it simultaneously refers to Jesus being physically raised on the cross and being exalted by God. The cross is not merely execution; it is enthronement."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 29,
+      "text_greek": "καὶ ὁ πέμψας με μετ᾽ ἐμοῦ ἐστιν· οὐκ ἀφῆκέν με μόνον, ὅτι ἐγὼ τὰ ἀρεστὰ αὐτῷ ποιῶ πάντοτε.",
+      "text_kjv": "And he that sent me is with me: the Father hath not left me alone; for I do always those things that please him.",
+      "rendering": "The one who sent me is with me. He has not left me alone, because I always do what pleases him.\"",
+      "translator_notes": [
+        "The claim 'I always do what pleases him' (ta aresta autō poiō pantote) is an extraordinary assertion of perfect moral alignment with God. This is not a boast but a statement of the Son's complete dependence on and obedience to the Father — the basis for their unity."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 30,
+      "text_greek": "Ταῦτα αὐτοῦ λαλοῦντος πολλοὶ ἐπίστευσαν εἰς αὐτόν.",
+      "text_kjv": "As he spake these words, many believed on him.",
+      "rendering": "As he was saying these things, many believed in him.",
+      "translator_notes": [
+        "The verb episteusan ('believed') uses the aorist tense, which may indicate an initial response rather than deep, lasting faith — as the following verses will test. John often distinguishes between shallow and genuine belief (cf. 2:23-25, 6:60-66)."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 31,
+      "text_greek": "Ἔλεγεν οὖν ὁ Ἰησοῦς πρὸς τοὺς πεπιστευκότας αὐτῷ Ἰουδαίους· Ἐὰν ὑμεῖς μείνητε ἐν τῷ λόγῳ τῷ ἐμῷ, ἀληθῶς μαθηταί μού ἐστε,",
+      "text_kjv": "Then said Jesus to those Jews which believed on him, If ye continue in my word, then are ye my disciples indeed;",
+      "rendering": "So Jesus said to the Jews who had believed him, \"If you remain in my word, you are truly my disciples,",
+      "translator_notes": [
+        "Jesus addresses those who 'believed' (pepisteukotas, perfect participle — 'who had come to believe') but immediately sets a condition: genuine discipleship requires remaining (meinēte, aorist subjunctive of menō) in his word. The verb menō ('remain, abide') is central to Johannine theology (cf. ch. 15). The shift from initial belief to tested commitment drives the rest of this conversation."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 32,
+      "text_greek": "καὶ γνώσεσθε τὴν ἀλήθειαν, καὶ ἡ ἀλήθεια ἐλευθερώσει ὑμᾶς.",
+      "text_kjv": "And ye shall know the truth, and the truth shall make you free.",
+      "rendering": "You will know the truth, and the truth will make you free.",
+      "translator_notes": [
+        "One of the most quoted verses in the Gospel. The Greek alētheia ('truth') in John is not abstract philosophical truth but the revealed reality of God embodied in Jesus (cf. 14:6). The verb eleutherōsei ('will set free, will liberate') points forward to the freedom from sin discussed in verses 34-36. The future tense gnōsesthe ('you will know') makes knowledge the result of abiding, not its prerequisite."
+      ],
+      "key_terms": [
+        {
+          "greek": "ἀλήθεια",
+          "transliteration": "alētheia",
+          "rendered_as": "truth",
+          "semantic_range": "truth, reality, genuineness, what is unveiled",
+          "note": "In Johannine usage, truth is not merely factual accuracy but the divine reality revealed in and through Jesus. It corresponds to the Hebrew emet ('faithfulness, reliability, truth') and carries covenantal overtones."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 33,
+      "text_greek": "ἀπεκρίθησαν πρὸς αὐτόν· Σπέρμα Ἀβραάμ ἐσμεν καὶ οὐδενὶ δεδουλεύκαμεν πώποτε· πῶς σὺ λέγεις ὅτι Ἐλεύθεροι γενήσεσθε;",
+      "text_kjv": "They answered him, We be Abraham's seed, and were never in bondage to any man: how sayest thou, Ye shall be made free?",
+      "rendering": "They answered him, \"We are Abraham's descendants and have never been enslaved to anyone. How can you say, 'You will be set free'?\"",
+      "translator_notes": [
+        "The claim 'we have never been enslaved to anyone' (oudeni dedouleukamen pōpote) is historically astonishing — they had been slaves in Egypt, exiles in Babylon, and were currently under Roman occupation. The statement likely reflects a theological self-understanding: as Abraham's seed, they considered themselves spiritually free regardless of political circumstances. The perfect tense dedouleukamen ('have been enslaved') emphasizes their ongoing status claim."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 34,
+      "text_greek": "ἀπεκρίθη αὐτοῖς ὁ Ἰησοῦς· Ἀμὴν ἀμὴν λέγω ὑμῖν ὅτι πᾶς ὁ ποιῶν τὴν ἁμαρτίαν δοῦλός ἐστιν τῆς ἁμαρτίας.",
+      "text_kjv": "Jesus answered them, Verily, verily, I say unto you, Whosoever committeth sin is the servant of sin.",
+      "rendering": "Jesus answered them, \"Truly, truly, I say to you, everyone who practices sin is a slave to sin.",
+      "translator_notes": [
+        "The double amēn ('truly, truly') is unique to John's Gospel and marks solemn, authoritative declarations. The present participle ho poiōn ('the one who practices, who keeps on doing') indicates habitual action, not a single lapse. The Greek doulos ('slave') is stronger than the KJV's 'servant' — Jesus speaks of genuine bondage, directly countering their claim of freedom."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 35,
+      "text_greek": "ὁ δὲ δοῦλος οὐ μένει ἐν τῇ οἰκίᾳ εἰς τὸν αἰῶνα· ὁ υἱὸς μένει εἰς τὸν αἰῶνα.",
+      "text_kjv": "And the servant abideth not in the house for ever: but the Son abideth ever.",
+      "rendering": "A slave does not remain in the household forever, but a son remains forever.",
+      "translator_notes": [
+        "Jesus draws a contrast between the legal status of a slave and a son within a household. The slave has no permanent rights; the son has an enduring place. The Greek oikia ('house, household') and the verb menei ('remains, abides') carry double meaning — the earthly household analogy points to the Father's house and the permanent standing of those who belong to the Son. The phrase eis ton aiōna ('into the age, forever') echoes the Hebrew olam."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 36,
+      "text_greek": "ἐὰν οὖν ὁ υἱὸς ὑμᾶς ἐλευθερώσῃ, ὄντως ἐλεύθεροι ἔσεσθε.",
+      "text_kjv": "If the Son therefore shall make you free, ye shall be free indeed.",
+      "rendering": "So if the Son sets you free, you will be truly free.",
+      "translator_notes": [
+        "The adverb ontōs ('truly, really, in reality') contrasts with their illusory sense of freedom in verse 33. The Son's freedom is the only genuine freedom — ontological liberation from sin's mastery, not merely political or social freedom. This verse completes the thought begun in verse 32: the truth (embodied in the Son) produces real freedom."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 37,
+      "text_greek": "οἶδα ὅτι σπέρμα Ἀβραάμ ἐστε· ἀλλὰ ζητεῖτέ με ἀποκτεῖναι, ὅτι ὁ λόγος ὁ ἐμὸς οὐ χωρεῖ ἐν ὑμῖν.",
+      "text_kjv": "I know that ye are Abraham's seed; but ye seek to kill me, because my word hath no place in you.",
+      "rendering": "I know that you are Abraham's descendants. Yet you are seeking to kill me because my word finds no room in you.",
+      "translator_notes": [
+        "Jesus concedes their physical descent from Abraham (sperma Abraam) while denying its spiritual significance. The verb chōrei ('has room, makes progress, finds place') suggests that Jesus's word cannot penetrate or advance within them — there is no space for it. This is not a failure of the word but of the hearers."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 38,
+      "text_greek": "ἃ ἐγὼ ἑώρακα παρὰ τῷ πατρὶ λαλῶ· καὶ ὑμεῖς οὖν ἃ ἠκούσατε παρὰ τοῦ πατρὸς ποιεῖτε.",
+      "text_kjv": "I speak that which I have seen with my Father: and ye do that which ye have seen with your father.",
+      "rendering": "I speak of what I have seen in the presence of the Father, and you do what you have heard from your father.\"",
+      "translator_notes": [
+        "The contrast between 'my Father' (tō patri, with the article — the Father) and 'your father' (tou patros, without possessive in some manuscripts) introduces the devastating paternity argument that dominates the rest of the chapter. Jesus speaks from direct vision (heōraka, perfect of horaō, 'I have seen') of the Father; they act on what they received from their father — whose identity Jesus will soon reveal."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 39,
+      "text_greek": "ἀπεκρίθησαν καὶ εἶπαν αὐτῷ· Ὁ πατὴρ ἡμῶν Ἀβραάμ ἐστιν. λέγει αὐτοῖς ὁ Ἰησοῦς· Εἰ τέκνα τοῦ Ἀβραάμ ἐστε, τὰ ἔργα τοῦ Ἀβραὰμ ἐποιεῖτε·",
+      "text_kjv": "They answered and said unto him, Abraham is our father. Jesus saith unto them, If ye were Abraham's children, ye would do the works of Abraham.",
+      "rendering": "They answered him, \"Abraham is our father.\" Jesus said to them, \"If you were Abraham's children, you would be doing the works Abraham did.",
+      "translator_notes": [
+        "Jesus shifts from sperma ('seed, descendant' — physical lineage, v. 37) to tekna ('children' — relational belonging). Physical descent is not denied, but spiritual sonship requires doing Abraham's works. The imperfect epoieite ('you would be doing') is a contrary-to-fact condition — they are not doing Abraham's works, therefore they are not truly his children in the way that matters."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 40,
+      "text_greek": "νῦν δὲ ζητεῖτέ με ἀποκτεῖναι, ἄνθρωπον ὃς τὴν ἀλήθειαν ὑμῖν λελάληκα ἣν ἤκουσα παρὰ τοῦ θεοῦ· τοῦτο Ἀβραὰμ οὐκ ἐποίησεν.",
+      "text_kjv": "But now ye seek to kill me, a man that hath told you the truth, which I have heard of God: this did not Abraham.",
+      "rendering": "But now you are seeking to kill me — a man who has told you the truth that I heard from God. Abraham did not do this.",
+      "translator_notes": [
+        "Jesus identifies himself as anthrōpon ('a man') — the one who has spoken truth from God — and notes that Abraham, who welcomed divine messengers (Genesis 18), would never have sought to kill someone bringing God's word. The contrast is damning: those who claim Abraham as father act in ways Abraham never would.",
+        "[TCR Cross-Reference] This verse quotes Genesis 18 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 41,
+      "text_greek": "ὑμεῖς ποιεῖτε τὰ ἔργα τοῦ πατρὸς ὑμῶν. εἶπαν αὐτῷ· Ἡμεῖς ἐκ πορνείας οὐ γεγεννήμεθα· ἕνα πατέρα ἔχομεν τὸν θεόν.",
+      "text_kjv": "Ye do the deeds of your father. Then said they to him, We be not born of fornication; we have one Father, even God.",
+      "rendering": "You are doing the works of your father.\" They said to him, \"We were not born of sexual immorality. We have one Father — God.\"",
+      "translator_notes": [
+        "The Greek porneias ('sexual immorality, fornication') may carry a double edge: (1) they are asserting spiritual legitimacy — unlike the Samaritans, they are not 'illegitimate' children of God through syncretism; (2) some interpreters see a veiled attack on Jesus's own birth — rumors about his parentage (cf. Mark 6:3 where Jesus is called 'son of Mary' rather than 'son of Joseph'). They escalate from Abraham to God himself as their father."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 42,
+      "text_greek": "εἶπεν αὐτοῖς ὁ Ἰησοῦς· Εἰ ὁ θεὸς πατὴρ ὑμῶν ἦν, ἠγαπᾶτε ἂν ἐμέ· ἐγὼ γὰρ ἐκ τοῦ θεοῦ ἐξῆλθον καὶ ἥκω· οὐδὲ γὰρ ἀπ᾽ ἐμαυτοῦ ἐλήλυθα, ἀλλ᾽ ἐκεῖνός με ἀπέστειλεν.",
+      "text_kjv": "Jesus said unto them, If God were your Father, ye would love me: for I proceeded forth and came from God; neither came I of myself, but he sent me.",
+      "rendering": "Jesus said to them, \"If God were your Father, you would love me, for I came from God and I am here. I did not come on my own, but he sent me.",
+      "translator_notes": [
+        "The conditional ei... ēn ('if he were') with the imperfect is a second-class (contrary to fact) condition — Jesus directly states that God is not their father. The verbs exēlthon ('came out from') and hēkō ('I am here, I have arrived') describe both origin and present reality. The verb apestellen ('sent') is the root of 'apostle' — Jesus is God's authorized emissary."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 43,
+      "text_greek": "διὰ τί τὴν λαλιὰν τὴν ἐμὴν οὐ γινώσκετε; ὅτι οὐ δύνασθε ἀκούειν τὸν λόγον τὸν ἐμόν.",
+      "text_kjv": "Why do ye not understand my speech? even because ye cannot hear my word.",
+      "rendering": "Why do you not understand what I am saying? It is because you cannot bear to hear my word.",
+      "translator_notes": [
+        "Jesus distinguishes between lalia ('speech, manner of speaking') and logos ('word, message') — they fail to grasp even the surface level of his speech because they cannot receive the deeper reality of his message. The verb dynamai ('to be able') suggests an incapacity, not merely an unwillingness — their spiritual condition renders them unable to hear."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 44,
+      "text_greek": "ὑμεῖς ἐκ τοῦ πατρὸς τοῦ διαβόλου ἐστὲ καὶ τὰς ἐπιθυμίας τοῦ πατρὸς ὑμῶν θέλετε ποιεῖν. ἐκεῖνος ἀνθρωποκτόνος ἦν ἀπ᾽ ἀρχῆς, καὶ ἐν τῇ ἀληθείᾳ οὐκ ἔστηκεν, ὅτι οὐκ ἔστιν ἀλήθεια ἐν αὐτῷ. ὅταν λαλῇ τὸ ψεῦδος, ἐκ τῶν ἰδίων λαλεῖ, ὅτι ψεύστης ἐστὶν καὶ ὁ πατὴρ αὐτοῦ.",
+      "text_kjv": "Ye are of your father the devil, and the lusts of your father ye will do. He was a murderer from the beginning, and abode not in the truth, because there is no truth in him. When he speaketh a lie, he speaketh of his own: for he is a liar, and the father of it.",
+      "rendering": "You are of your father the devil, and you want to carry out your father's desires. He was a murderer from the beginning and has not stood in the truth, because there is no truth in him. When he lies, he speaks from his own nature, for he is a liar and the father of lies.",
+      "translator_notes": [
+        "This is the sharpest language in the chapter. The Greek diabolos ('devil, slanderer, accuser') literally means 'the one who throws across' — the one who creates division. The title anthrōpoktonos ('murderer, man-killer') is a compound word used only here and in 1 John 3:15 in the NT, linking the devil to the first murder (Cain, Genesis 4) or to the introduction of death through deception (Genesis 3). The phrase 'father of lies' (ho patēr autou, lit. 'his father') is ambiguous — it could mean the devil is 'the father of the lie' or 'the father of the liar.' We follow the traditional reading.",
+        "[TCR Cross-Reference] Echoes Genesis 4. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale.",
+        "[TCR Cross-Reference] Echoes Genesis 3. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "key_terms": [
+        {
+          "greek": "διάβολος",
+          "transliteration": "diabolos",
+          "rendered_as": "devil",
+          "semantic_range": "slanderer, accuser, devil, the one who divides",
+          "note": "The Greek translation of the Hebrew satan ('adversary, accuser'). In John's usage, the devil is characterized primarily by lying and murder — the two sins Jesus attributes to his opponents' intention."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 45,
+      "text_greek": "ἐγὼ δὲ ὅτι τὴν ἀλήθειαν λέγω, οὐ πιστεύετέ μοι.",
+      "text_kjv": "And because I tell you the truth, ye believe me not.",
+      "rendering": "Yet because I tell the truth, you do not believe me.",
+      "translator_notes": [
+        "The irony is sharp: the very fact that Jesus speaks truth is the reason they reject him — those aligned with the father of lies find truth intolerable. The Greek construction (hoti tēn alētheian legō) makes truth-telling itself the cause of disbelief."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 46,
+      "text_greek": "τίς ἐξ ὑμῶν ἐλέγχει με περὶ ἁμαρτίας; εἰ ἀλήθειαν λέγω, διὰ τί ὑμεῖς οὐ πιστεύετέ μοι;",
+      "text_kjv": "Which of you convinceth me of sin? And if I say the truth, why do ye not believe me?",
+      "rendering": "Which of you can convict me of sin? If I speak the truth, why do you not believe me?",
+      "translator_notes": [
+        "The verb elenchei ('convict, expose, prove guilty') is a legal term — Jesus issues an open challenge to prove any sin against him. The question is rhetorical: no one can. The logic is: if you cannot convict me of sin, then I am a truthful witness; and if I speak truth, your refusal to believe is inexcusable."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 47,
+      "text_greek": "ὁ ὢν ἐκ τοῦ θεοῦ τὰ ῥήματα τοῦ θεοῦ ἀκούει· διὰ τοῦτο ὑμεῖς οὐκ ἀκούετε, ὅτι ἐκ τοῦ θεοῦ οὐκ ἐστέ.",
+      "text_kjv": "He that is of God heareth God's words: ye therefore hear them not, because ye are not of God.",
+      "rendering": "The one who is from God hears the words of God. The reason you do not hear is that you are not from God.\"",
+      "translator_notes": [
+        "Jesus completes the argument: hearing God's words is the natural capacity of those who belong to God. Their inability to hear is diagnostic — it reveals their origin. The Greek ek tou theou ('from God') uses the same preposition (ek, 'from, out of') that described their origin from the devil in verse 44."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 48,
+      "text_greek": "ἀπεκρίθησαν οἱ Ἰουδαῖοι καὶ εἶπαν αὐτῷ· Οὐ καλῶς λέγομεν ἡμεῖς ὅτι Σαμαρίτης εἶ σὺ καὶ δαιμόνιον ἔχεις;",
+      "text_kjv": "Then answered the Jews, and said unto him, Say we not well that thou art a Samaritan, and hast a devil?",
+      "rendering": "The Jewish leaders answered him, \"Are we not right in saying that you are a Samaritan and have a demon?\"",
+      "translator_notes": [
+        "The double insult — 'Samaritan' (heretic, impure lineage) and 'demon-possessed' (insane, deluded) — represents their most hostile response yet. Calling someone a Samaritan accused them of being a religious half-breed who worshiped God wrongly. The charge of demon-possession was a standard way of dismissing someone whose claims seemed outrageous (cf. 7:20, 10:20)."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 49,
+      "text_greek": "ἀπεκρίθη Ἰησοῦς· Ἐγὼ δαιμόνιον οὐκ ἔχω, ἀλλὰ τιμῶ τὸν πατέρα μου, καὶ ὑμεῖς ἀτιμάζετέ με.",
+      "text_kjv": "Jesus answered, I have not a devil; but I honour my Father, and ye do dishonour me.",
+      "rendering": "Jesus answered, \"I do not have a demon. On the contrary, I honor my Father, and you dishonor me.",
+      "translator_notes": [
+        "Jesus addresses only the demon charge, not the 'Samaritan' label — whether by silence he refuses to dignify the ethnic slur or whether the distinction between true and false worship (cf. 4:21-24) makes the label irrelevant. The contrast between timō ('I honor') and atimazete ('you dishonor') is a deliberate wordplay using the same root (timē, 'honor') with and without the alpha-privative."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 50,
+      "text_greek": "ἐγὼ δὲ οὐ ζητῶ τὴν δόξαν μου· ἔστιν ὁ ζητῶν καὶ κρίνων.",
+      "text_kjv": "And I seek not mine own glory: there is one that seeketh and judgeth.",
+      "rendering": "I do not seek my own glory. There is one who seeks it, and he is the judge.",
+      "translator_notes": [
+        "Jesus disclaims self-promotion (ou zētō tēn doxan mou) while affirming that the Father actively seeks Jesus's glory and renders judgment on those who dishonor him. The participle krinōn ('the one who judges') warns that rejecting Jesus carries consequences determined by God himself."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 51,
+      "text_greek": "ἀμὴν ἀμὴν λέγω ὑμῖν, ἐάν τις τὸν ἐμὸν λόγον τηρήσῃ, θάνατον οὐ μὴ θεωρήσῃ εἰς τὸν αἰῶνα.",
+      "text_kjv": "Verily, verily, I say unto you, If a man keep my saying, he shall never see death.",
+      "rendering": "Truly, truly, I say to you, if anyone keeps my word, he will never see death.\"",
+      "translator_notes": [
+        "The double amēn again marks a solemn pronouncement. The verb tērēsē ('keeps, guards, obeys') implies more than intellectual assent — it requires active obedience and faithful preservation of Jesus's word. The double negative ou mē with theōrēsē ('see, experience') is the strongest possible denial: such a person will absolutely never experience death. Jesus means spiritual/eternal death, but his opponents will take it literally in the next verse."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 52,
+      "text_greek": "εἶπον αὐτῷ οἱ Ἰουδαῖοι· Νῦν ἐγνώκαμεν ὅτι δαιμόνιον ἔχεις. Ἀβραὰμ ἀπέθανεν καὶ οἱ προφῆται, καὶ σὺ λέγεις· Ἐάν τις τὸν λόγον μου τηρήσῃ, οὐ μὴ γεύσηται θανάτου εἰς τὸν αἰῶνα.",
+      "text_kjv": "Then said the Jews unto him, Now we know that thou hast a devil. Abraham is dead, and the prophets; and thou sayest, If a man keep my saying, he shall never taste of death.",
+      "rendering": "The Jewish leaders said to him, \"Now we know that you have a demon. Abraham died, and the prophets died, yet you say, 'If anyone keeps my word, he will never taste death.'",
+      "translator_notes": [
+        "Their response reveals the misunderstanding: they hear Jesus's spiritual claim in purely physical terms. They shift from theōreō ('see') to geuomai ('taste'), perhaps intensifying the imagery — not even a taste of death. The argument from Abraham and the prophets is logical within their framework: if the greatest figures in Israel's history died, who is this man to promise immortality?"
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 53,
+      "text_greek": "μὴ σὺ μείζων εἶ τοῦ πατρὸς ἡμῶν Ἀβραάμ, ὅστις ἀπέθανεν; καὶ οἱ προφῆται ἀπέθανον· τίνα σεαυτὸν ποιεῖς;",
+      "text_kjv": "Art thou greater than our father Abraham, which is dead? and the prophets are dead: whom makest thou thyself?",
+      "rendering": "Are you greater than our father Abraham, who died? The prophets died too. Who do you make yourself out to be?\"",
+      "translator_notes": [
+        "The particle mē expects a negative answer ('You're not greater than Abraham, are you?'), but John's irony is that the correct answer is yes. The question 'Who do you make yourself out to be?' (tina seauton poieis) is the central question of the chapter — and Jesus is about to answer it definitively."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 54,
+      "text_greek": "ἀπεκρίθη Ἰησοῦς· Ἐὰν ἐγὼ δοξάσω ἐμαυτόν, ἡ δόξα μου οὐδέν ἐστιν· ἔστιν ὁ πατήρ μου ὁ δοξάζων με, ὃν ὑμεῖς λέγετε ὅτι θεὸς ἡμῶν ἐστιν,",
+      "text_kjv": "Jesus answered, If I honour myself, my honour is nothing: it is my Father that honoureth me; of whom ye say, that he is your God:",
+      "rendering": "Jesus answered, \"If I glorify myself, my glory means nothing. It is my Father who glorifies me — the one you claim is your God.",
+      "translator_notes": [
+        "Jesus returns to the theme of verse 50: he does not seek his own glory. The verb doxazō ('glorify') and noun doxa ('glory') correspond to the Hebrew kavod. The pointed phrase 'whom you say is your God' (hon hymeis legete hoti theos hēmōn estin) challenges their claim to know God while rejecting the one God sent."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 55,
+      "text_greek": "καὶ οὐκ ἐγνώκατε αὐτόν, ἐγὼ δὲ οἶδα αὐτόν. κἂν εἴπω ὅτι οὐκ οἶδα αὐτόν, ἔσομαι ὅμοιος ὑμῖν ψεύστης· ἀλλ᾽ οἶδα αὐτὸν καὶ τὸν λόγον αὐτοῦ τηρῶ.",
+      "text_kjv": "Yet ye have not known him; but I know him: and if I should say, I know him not, I shall be a liar like unto you: but I know him, and keep his saying.",
+      "rendering": "You have not known him, but I know him. If I said I did not know him, I would be a liar like you. But I do know him, and I keep his word.",
+      "translator_notes": [
+        "Jesus uses two different Greek words for 'know': egnōkate (ginosko, 'come to know through experience') for their lack of knowledge, and oida ('know intuitively, know with certainty') for his own knowledge. The distinction suggests Jesus's knowledge of the Father is innate and direct, not acquired. Calling them 'liars' (pseustēs) connects back to verse 44 — they resemble the father of lies."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 56,
+      "text_greek": "Ἀβραὰμ ὁ πατὴρ ὑμῶν ἠγαλλιάσατο ἵνα ἴδῃ τὴν ἡμέραν τὴν ἐμήν, καὶ εἶδεν καὶ ἐχάρη.",
+      "text_kjv": "Your father Abraham rejoiced to see my day: and he saw it, and was glad.",
+      "rendering": "Your father Abraham rejoiced that he would see my day. He saw it and was glad.\"",
+      "translator_notes": [
+        "The verb ēgalliasato ('rejoiced, exulted') is strong — Abraham's joy was exuberant. 'My day' (tēn hēmeran tēn emēn) most likely refers to the day of the Messiah's coming. Jewish tradition held that Abraham was given a vision of future ages (cf. 2 Esdras 3:14, Apocalypse of Abraham 31). The statement that Abraham 'saw it and was glad' implies Abraham had prophetic knowledge of Christ's coming — a claim that prepares for the explosive verse 58."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 57,
+      "text_greek": "εἶπον οὖν οἱ Ἰουδαῖοι πρὸς αὐτόν· Πεντήκοντα ἔτη οὔπω ἔχεις καὶ Ἀβραὰμ ἑώρακας;",
+      "text_kjv": "Then said the Jews unto him, Thou art not yet fifty years old, and hast thou seen Abraham?",
+      "rendering": "So the Jewish leaders said to him, \"You are not yet fifty years old, and you have seen Abraham?\"",
+      "translator_notes": [
+        "The number fifty (pentēkonta) is a round number, not a precise indication of Jesus's age. Some manuscripts read 'forty' instead. Their objection focuses on chronological impossibility — Abraham lived roughly two thousand years before Jesus. They miss the deeper claim entirely: Jesus is not saying he saw Abraham but that Abraham saw him."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 58,
+      "text_greek": "εἶπεν αὐτοῖς Ἰησοῦς· Ἀμὴν ἀμὴν λέγω ὑμῖν, πρὶν Ἀβραὰμ γενέσθαι ἐγὼ εἰμί.",
+      "text_kjv": "Jesus said unto them, Verily, verily, I say unto you, Before Abraham was, I am.",
+      "rendering": "Jesus said to them, \"Truly, truly, I say to you, before Abraham was born, I AM.\"",
+      "expanded_rendering": "The force of this statement is staggering in its original context. Jesus does not say 'before Abraham was born, I was' (which would use the Greek imperfect ēmēn, 'I was existing'). He says ego eimi — 'I AM' — using the present tense to describe his existence before Abraham. This is not a claim of longevity but of eternal, timeless existence. The words echo Exodus 3:14, where God reveals his name to Moses as ehyeh asher ehyeh ('I AM WHO I AM'), rendered in the Septuagint with the same ego eimi. Jesus claims to share in the eternal divine identity. His audience understands this immediately — they pick up stones to execute him for blasphemy.",
+      "translator_notes": [
+        "The contrast between genesthai (aorist infinitive of ginomai, 'to come into being') for Abraham and eimi (present indicative of eimi, 'I am') for Jesus is theologically precise: Abraham came into existence at a point in time; Jesus simply IS, without beginning. The double amēn underscores the gravity. This is the climactic ego eimi of chapter 8, completing the sequence begun in verses 24 and 28."
+      ],
+      "key_terms": [
+        {
+          "greek": "ἐγώ εἰμί",
+          "transliteration": "egō eimi",
+          "rendered_as": "I AM",
+          "semantic_range": "I am, I exist, I AM (divine self-identification)",
+          "note": "The absolute ego eimi without predicate, echoing the divine name from Exodus 3:14 (LXX: egō eimi ho ōn). In the context of 'before Abraham was born,' the present tense eimi can only mean timeless, eternal existence — a direct claim to share the divine identity. The audience's response (attempted stoning for blasphemy) confirms they understood the claim."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 59,
+      "text_greek": "ἦραν οὖν λίθους ἵνα βάλωσιν ἐπ᾽ αὐτόν· Ἰησοῦς δὲ ἐκρύβη καὶ ἐξῆλθεν ἐκ τοῦ ἱεροῦ.",
+      "text_kjv": "Then took they up stones to cast at him: but Jesus hid himself, and went out of the temple, going through the midst of them, and so passed by.",
+      "rendering": "So they picked up stones to throw at him, but Jesus hid himself and went out of the temple.",
+      "translator_notes": [
+        "Stoning was the prescribed punishment for blasphemy (Leviticus 24:16), confirming that they understood Jesus's ego eimi as a divine claim. The Greek ekrybē ('hid himself') is passive — whether Jesus physically hid or was divinely concealed is left ambiguous. The KJV adds 'going through the midst of them, and so passed by,' which is not in the earliest manuscripts. The SBLGNT ends the verse at 'went out of the temple.'",
+        "[TCR Cross-Reference] Echoes Leviticus 24:16. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "7th grade"
+    }
+  ]
+}

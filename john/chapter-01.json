@@ -1,0 +1,645 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "John",
+    "chapter": 1,
+    "source_text": "SBL Greek New Testament (SBLGNT)",
+    "reference_text": "KJV",
+    "generated_at": "2026-04-04T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "John 1 opens with one of the most theologically dense passages in the New Testament: the Prologue (1:1-18), which identifies Jesus as the eternal Word (logos) who was with God, was God, and became flesh to dwell among humanity. The chapter then introduces John the Baptist as a witness to the light, narrates the Baptist's testimony before the priests and Levites, and concludes with the calling of the first disciples — Andrew, Simon Peter, Philip, and Nathanael — as they begin to recognize Jesus as the Messiah, the Son of God, and the King of Israel.",
+    "remarkable": "The Prologue draws on both Jewish Wisdom tradition (Proverbs 8, Sirach 24) and Greek philosophical vocabulary to present Jesus as the pre-existent, creative, and revelatory Word of God. The Greek logos carried immense weight in both traditions — for Jews, the word of God was the agent of creation (Genesis 1, Psalm 33:6); for Greeks, logos was the rational principle ordering the universe. John's genius is to take this loaded term and declare that it 'became flesh' — a claim that would have shocked both audiences. The 'I am' language that will dominate the Gospel appears implicitly in the Baptist's self-identification as 'not the Christ' and his pointing to 'one standing among you whom you do not know.'",
+    "friction": "The relationship between the Prologue's logos theology and the narrative that follows requires careful handling. We render logos as 'Word' (capitalized) to preserve its theological weight as a title for Christ. The Baptist's denial sequence (1:19-28) requires attention to the political and religious expectations surrounding messianic figures. Nathanael's skepticism about Nazareth (1:46) reflects a real geographical prejudice in first-century Judaism. The title 'Son of Man' in verse 51 draws on Daniel 7:13 and will require expanded treatment.",
+    "connections": "The Prologue connects to Genesis 1:1 ('In the beginning'), Proverbs 8:22-31 (Wisdom as God's companion in creation), and Isaiah 40:3 (the voice in the wilderness). The 'Lamb of God' title (1:29, 36) connects to the Passover lamb of Exodus 12 and the suffering servant of Isaiah 53. Jacob's ladder (Genesis 28:12) is explicitly referenced in 1:51. The entire chapter establishes the identity claims that the rest of the Gospel will develop through signs and discourse.\n\n**Tradition comparisons:** The Latin Vulgate shaped Western theology here: In principio erat Verbum — Jerome chose Verbum (Word) for Greek logos. The Latin Verbum carries connotations of spoken utterance rather than the broader Greek logos (word, reason, principle, account).... (3 notable Vulgate renderings in this chapter) See the [Vulgate John](/vulgate/john). The Joseph Smith Translation includes a significant revision for this chapter: Word/Logos theology modified — gospel preached through him The JST substantially revises the prologue of John's Gospel. The most significant change is the addition of language indicating that the gospel was preached through John (the Baptist) before Jesus's m... JST footnote at John 1:1: 'The Word was God' clause clarified: the Word was with God and was a God, or was divine See the [JST notes](/jst/john)."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_greek": "Ἐν ἀρχῇ ἦν ὁ λόγος, καὶ ὁ λόγος ἦν πρὸς τὸν θεόν, καὶ θεὸς ἦν ὁ λόγος.",
+      "text_kjv": "In the beginning was the Word, and the Word was with God, and the Word was God.",
+      "rendering": "In the beginning was the Word, and the Word was with God, and the Word was God.",
+      "expanded_rendering": "The Greek logos ('Word') is one of the most theologically layered terms in the New Testament. In Jewish thought, God's word was the agent of creation — 'God said, and it was so.' In Greek philosophy, logos was the rational principle that governed all reality. John takes this term and applies it to a person — not an abstract principle or a created being, but one who existed 'in the beginning' (echoing Genesis 1:1), who was in relationship with God ('with God'), and who shared God's own nature ('was God'). The imperfect tense 'was' (en) indicates continuous existence — the Word did not come into being but simply was, already there when everything else began.",
+      "translator_notes": [
+        "The phrase en arche ('in the beginning') deliberately echoes the opening of Genesis (bereshit in Hebrew, en arche in the Septuagint). The imperfect verb en ('was') denotes continuous past existence, not a point of origin — the Word already existed when the beginning occurred.",
+        "The preposition pros ('with') in 'the Word was with God' suggests not merely proximity but relational orientation — face-to-face communion. The Word was directed toward God, in dynamic relationship.",
+        "In the final clause, 'God' (theos) appears without the article, which in Greek grammar indicates qualitative force — the Word shared the nature and essence of God. This is distinct from saying 'the Word was the God' (which would conflate the persons) or 'the Word was a god' (which would diminish the claim). The rendering 'the Word was God' preserves the theological precision of the Greek.",
+        "[TCR Cross-Reference] Quotes Genesis 1:1. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it."
+      ],
+      "key_terms": [
+        {
+          "greek": "λόγος",
+          "transliteration": "logos",
+          "rendered_as": "Word",
+          "semantic_range": "word, speech, reason, account, message, the rational principle",
+          "note": "Capitalized throughout the Prologue as a title for the pre-incarnate Christ. John's use transcends both Jewish and Greek categories — this is not merely God's spoken word or an abstract rational principle, but a personal, divine being who will 'become flesh' (1:14)."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 2,
+      "text_greek": "οὗτος ἦν ἐν ἀρχῇ πρὸς τὸν θεόν.",
+      "text_kjv": "The same was in the beginning with God.",
+      "rendering": "He was in the beginning with God.",
+      "translator_notes": [
+        "The pronoun houtos ('this one, he') personalizes the logos — no longer 'it' but 'he.' This verse reaffirms what verse 1 stated, functioning as a summary transition before the creation theme of verse 3. The repetition is characteristic of John's literary style, where key ideas are restated with slight variation for emphasis."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 3,
+      "text_greek": "πάντα δι' αὐτοῦ ἐγένετο, καὶ χωρὶς αὐτοῦ ἐγένετο οὐδὲ ἕν. ὃ γέγονεν",
+      "text_kjv": "All things were made by him; and without him was not any thing made that was made.",
+      "rendering": "All things came into being through him, and apart from him not one thing came into being that has come into being.",
+      "translator_notes": [
+        "The verb egeneto ('came into being') contrasts with the en ('was') of verses 1-2. The Word 'was' (eternal existence); all things 'came into being' (originated existence) through him. The preposition dia ('through') identifies the Word as the agent of creation, echoing Proverbs 8:30 and Colossians 1:16.",
+        "The punctuation of the final phrase ho gegonen ('that has come into being') is disputed. The SBLGNT places it with verse 3 as the conclusion of the creation statement. Some manuscripts and church fathers attach it to verse 4: 'What has come into being in him was life.' We follow the SBLGNT punctuation.",
+        "[TCR Cross-Reference] References Proverbs 8:30 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 4,
+      "text_greek": "ἐν αὐτῷ ζωὴ ἦν, καὶ ἡ ζωὴ ἦν τὸ φῶς τῶν ἀνθρώπων·",
+      "text_kjv": "In him was life; and the life was the light of men.",
+      "rendering": "In him was life, and the life was the light of humanity.",
+      "translator_notes": [
+        "The Greek zoe ('life') in John always carries theological weight beyond mere biological existence — it points toward the 'eternal life' (zoe aionios) that becomes a central theme of the Gospel. The chain of identification — Word, life, light — establishes the conceptual framework for the entire book. 'Of humanity' renders ton anthropon more inclusively than the KJV's 'of men,' reflecting the universal scope of the claim."
+      ],
+      "key_terms": [
+        {
+          "greek": "ζωή",
+          "transliteration": "zoe",
+          "rendered_as": "life",
+          "semantic_range": "life, existence, vitality, eternal life",
+          "note": "John uses zoe thirty-six times in his Gospel, far more than any other Gospel writer. It denotes not merely biological existence but the divine quality of life that originates in God and is mediated through the Word."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 5,
+      "text_greek": "καὶ τὸ φῶς ἐν τῇ σκοτίᾳ φαίνει, καὶ ἡ σκοτία αὐτὸ οὐ κατέλαβεν.",
+      "text_kjv": "And the light shineth in darkness; and the darkness comprehended it not.",
+      "rendering": "The light shines in the darkness, and the darkness did not overcome it.",
+      "translator_notes": [
+        "The verb katelaben (from katalambano) carries a double meaning: 'to comprehend/understand' (as the KJV renders it) and 'to seize/overcome/extinguish.' Both senses are likely intended — the darkness neither understood the light nor was able to overpower it. We render 'overcome' as the primary sense, since the light-versus-darkness imagery suggests conflict rather than mere cognition.",
+        "The present tense phainei ('shines') amid past-tense narration may indicate that the light's shining is an ongoing reality, not merely a past event."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 6,
+      "text_greek": "Ἐγένετο ἄνθρωπος ἀπεσταλμένος παρὰ θεοῦ, ὄνομα αὐτῷ Ἰωάννης·",
+      "text_kjv": "There was a man sent from God, whose name was John.",
+      "rendering": "There came a man sent from God; his name was John.",
+      "translator_notes": [
+        "The verb egeneto ('there came, there appeared') contrasts with the en ('was') used of the Word in verses 1-2. John the Baptist 'came into being' — he is a creature, not the eternal Word. The participle apestalmenos ('sent') is from apostello, the root of 'apostle,' emphasizing John's divinely commissioned role."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 7,
+      "text_greek": "οὗτος ἦλθεν εἰς μαρτυρίαν, ἵνα μαρτυρήσῃ περὶ τοῦ φωτός, ἵνα πάντες πιστεύσωσιν δι' αὐτοῦ.",
+      "text_kjv": "The same came for a witness, to bear witness of the Light, that all men through him might believe.",
+      "rendering": "He came as a witness, to testify about the light, so that all might believe through him.",
+      "translator_notes": [
+        "The word martyria ('witness, testimony') and its verb martyreo ('to testify') appear prominently throughout John's Gospel. The Baptist's role is defined entirely in terms of witness — he is not the light but the one who points to it. The purpose clause 'so that all might believe' establishes that faith (pistis/pisteuo) is the intended response to testimony, a theme John develops throughout."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 8,
+      "text_greek": "οὐκ ἦν ἐκεῖνος τὸ φῶς, ἀλλ' ἵνα μαρτυρήσῃ περὶ τοῦ φωτός.",
+      "text_kjv": "He was not that Light, but was sent to bear witness of that Light.",
+      "rendering": "He himself was not the light, but he came to testify about the light.",
+      "translator_notes": [
+        "The emphatic ekeinos ('that one, he himself') underscores the distinction between the Baptist and the light. This careful distancing may reflect a historical situation in which some followers of John the Baptist continued to venerate him as a messianic figure (cf. Acts 19:1-7). John's Gospel consistently subordinates the Baptist to Jesus."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 9,
+      "text_greek": "Ἦν τὸ φῶς τὸ ἀληθινόν, ὃ φωτίζει πάντα ἄνθρωπον, ἐρχόμενον εἰς τὸν κόσμον.",
+      "text_kjv": "That was the true Light, which lighteth every man that cometh into the world.",
+      "rendering": "The true light, which gives light to every person, was coming into the world.",
+      "translator_notes": [
+        "The adjective alethinon ('true, genuine, real') does not merely mean 'not false' but 'the authentic reality of which all other lights are shadows.' The participle erchomenon ('coming') can modify either 'light' (the true light was coming into the world) or 'person' (every person coming into the world). We attach it to 'light,' following the flow of the Prologue's narrative about the Word entering the world."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 10,
+      "text_greek": "ἐν τῷ κόσμῳ ἦν, καὶ ὁ κόσμος δι' αὐτοῦ ἐγένετο, καὶ ὁ κόσμος αὐτὸν οὐκ ἔγνω.",
+      "text_kjv": "He was in the world, and the world was made by him, and the world knew him not.",
+      "rendering": "He was in the world, and the world came into being through him, yet the world did not recognize him.",
+      "translator_notes": [
+        "The threefold repetition of kosmos ('world') creates a devastating irony: the world that owed its very existence to the Word failed to recognize its maker. The verb egno ('knew, recognized') implies relational knowledge, not merely intellectual awareness — the world failed to acknowledge or receive the one through whom it was made."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 11,
+      "text_greek": "εἰς τὰ ἴδια ἦλθεν, καὶ οἱ ἴδιοι αὐτὸν οὐ παρέλαβον.",
+      "text_kjv": "He came unto his own, and his own received him not.",
+      "rendering": "He came to his own, and his own people did not receive him.",
+      "translator_notes": [
+        "The Greek shifts from neuter ta idia ('his own things/domain') to masculine hoi idioi ('his own people'). He came to his own place — Israel, the covenant people — and his own people rejected him. This verse encapsulates the tragic theme of the Gospel: the divine Word comes home and is turned away by those who should have recognized him."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 12,
+      "text_greek": "ὅσοι δὲ ἔλαβον αὐτόν, ἔδωκεν αὐτοῖς ἐξουσίαν τέκνα θεοῦ γενέσθαι, τοῖς πιστεύουσιν εἰς τὸ ὄνομα αὐτοῦ,",
+      "text_kjv": "But as many as received him, to them gave he power to become the sons of God, even to them that believe on his name:",
+      "rendering": "But to all who received him — to those who believe in his name — he gave the right to become children of God,",
+      "translator_notes": [
+        "The Greek exousia means 'right, authority, power' — not merely ability but authorized status. 'Children' (tekna) rather than 'sons' (huioi) is John's deliberate word choice, emphasizing the intimacy of the relationship rather than legal standing. The present tense 'believe' (pisteuousin) suggests ongoing faith, not a one-time act. 'In his name' means trusting in the person and character that the name represents."
+      ],
+      "key_terms": [
+        {
+          "greek": "ἐξουσία",
+          "transliteration": "exousia",
+          "rendered_as": "right",
+          "semantic_range": "authority, right, power, jurisdiction, freedom",
+          "note": "Not dynamis (raw power) but exousia (authorized right). Those who receive the Word are given the legitimate status of God's children — this is a conferred identity, not an inherent one."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 13,
+      "text_greek": "οἳ οὐκ ἐξ αἱμάτων οὐδὲ ἐκ θελήματος σαρκὸς οὐδὲ ἐκ θελήματος ἀνδρὸς ἀλλ' ἐκ θεοῦ ἐγεννήθησαν.",
+      "text_kjv": "Which were born, not of blood, nor of the will of the flesh, nor of the will of man, but of God.",
+      "rendering": "Which were brought into the world, not of lifeblood, nor of the will of the physical nature, nor of the will of man, but of God.",
+      "translator_notes": [
+        "The plural 'bloods' (haimaton) is unusual and may refer to the mixture of parental blood thought in antiquity to produce offspring. The threefold negation — not from blood, not from physical desire, not from human decision — systematically eliminates every natural means of generation. This divine birth is entirely God's initiative. Some early church fathers read the singular ('who was born') referring to Christ's virgin birth, but the plural is better attested in the manuscripts."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 14,
+      "text_greek": "Καὶ ὁ λόγος σὰρξ ἐγένετο καὶ ἐσκήνωσεν ἐν ἡμῖν, καὶ ἐθεασάμεθα τὴν δόξαν αὐτοῦ, δόξαν ὡς μονογενοῦς παρὰ πατρός, πλήρης χάριτος καὶ ἀληθείας.",
+      "text_kjv": "And the Word was made flesh, and dwelt among us, (and we beheld his glory, the glory as of the only begotten of the Father,) full of grace and truth.",
+      "rendering": "And the Word became flesh and dwelt among us, and we have seen his glory — glory as of the only Son from the Father — full of grace and truth.",
+      "expanded_rendering": "The Greek eskenosen ('dwelt, tabernacled') is built from the word skene ('tent, tabernacle') and deliberately recalls God's tabernacle presence with Israel in the wilderness. Just as God's glory filled the tabernacle (Exodus 40:34), the Word who became flesh now 'tabernacles' among humanity, making God's presence tangible and visible. The phrase 'full of grace and truth' echoes the Old Testament pairing of chesed ve'emet ('faithful love and truth') — the covenant attributes God proclaimed about himself at Sinai (Exodus 34:6). In the Word made flesh, God's covenant character is fully embodied.",
+      "translator_notes": [
+        "The verb eskenosen ('tabernacled, pitched his tent') is one of John's most theologically loaded words. It echoes the Hebrew shakan ('to dwell'), from which Shekhinah derives — God's indwelling presence in the tabernacle and temple. The Word does not merely visit but takes up residence in human flesh.",
+        "Monogenous ('only, unique, one-of-a-kind') is rendered 'only Son' rather than the KJV's 'only begotten.' The Greek does not emphasize manner of origin (begetting) but uniqueness of relationship. The Word is God's one-of-a-kind Son.",
+        "The pairing 'grace and truth' (charitos kai aletheias) corresponds to the Hebrew chesed ve'emet of Exodus 34:6, where God reveals himself as 'abounding in faithful love and truth.' John claims that this divine self-revelation is now embodied in a person.",
+        "[TCR Cross-Reference] Echoes Exodus 34:6. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "key_terms": [
+        {
+          "greek": "σάρξ",
+          "transliteration": "sarx",
+          "rendered_as": "flesh",
+          "semantic_range": "flesh, body, human nature, physical existence",
+          "note": "John does not say the Word became 'a human being' (anthropos) but 'flesh' (sarx) — the most concrete, physical, vulnerable term available. This is an anti-docetic declaration: the incarnation is real, material, and bodily."
+        },
+        {
+          "greek": "ἐσκήνωσεν",
+          "transliteration": "eskenosen",
+          "rendered_as": "dwelt",
+          "semantic_range": "to pitch a tent, to tabernacle, to dwell temporarily",
+          "note": "From skene ('tent, tabernacle'). The verb evokes the entire Old Testament theology of God's dwelling among his people — from the wilderness tabernacle to Solomon's temple. In Christ, God tabernacles in human flesh."
+        },
+        {
+          "greek": "μονογενής",
+          "transliteration": "monogenes",
+          "rendered_as": "only Son",
+          "semantic_range": "only, unique, one-of-a-kind",
+          "note": "From monos ('only') and genos ('kind'). The traditional 'only begotten' reflects a later theological interpretation. The word emphasizes uniqueness of status rather than mode of origin."
+        }
+      ],
+      "reading_level": "10th grade"
+    },
+    {
+      "verse": 15,
+      "text_greek": "Ἰωάννης μαρτυρεῖ περὶ αὐτοῦ καὶ κέκραγεν λέγων· οὗτος ἦν ὃν εἶπον· ὁ ὀπίσω μου ἐρχόμενος ἔμπροσθέν μου γέγονεν, ὅτι πρῶτός μου ἦν.",
+      "text_kjv": "John bare witness of him, and cried, saying, This was he of whom I spake, He that cometh after me is preferred before me: for he was before me.",
+      "rendering": "John testified about him and cried out, saying, \"This is the one of whom I said, 'The one coming after me has surpassed me, because he existed before me.'\"",
+      "translator_notes": [
+        "The perfect tense kekragen ('has cried out') indicates that John's testimony continues to resonate. The paradox is deliberate: the one who comes 'after' John in time (born later, began ministry later) 'was before' him in preexistence. The Greek protos mou en ('he was first/before me') points to the eternal existence affirmed in verse 1."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 16,
+      "text_greek": "ὅτι ἐκ τοῦ πληρώματος αὐτοῦ ἡμεῖς πάντες ἐλάβομεν καὶ χάριν ἀντὶ χάριτος·",
+      "text_kjv": "And of his fulness have all we received, and grace for grace.",
+      "rendering": "For from his fullness we have all received grace upon grace.",
+      "translator_notes": [
+        "The phrase charin anti charitos ('grace upon grace') is notoriously difficult. The preposition anti can mean 'in place of,' 'in return for,' or 'upon.' The sense is likely wave upon wave — one expression of grace replaced and exceeded by the next, an inexhaustible supply. 'Fullness' (pleroma) indicates that the incarnate Word lacks nothing of the divine nature."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 17,
+      "text_greek": "ὅτι ὁ νόμος διὰ Μωϋσέως ἐδόθη, ἡ χάρις καὶ ἡ ἀλήθεια διὰ Ἰησοῦ Χριστοῦ ἐγένετο.",
+      "text_kjv": "For the law was given by Moses, but grace and truth came by Jesus Christ.",
+      "rendering": "For the law was given through Moses; grace and truth came through Jesus Christ.",
+      "translator_notes": [
+        "John does not set Moses and Jesus in opposition (note the absence of 'but' — the Greek has no adversative conjunction here, though the KJV adds one). The law was given (passive, from God) through Moses; grace and truth came (active, from their source) through Jesus Christ. The comparison is one of escalation, not contradiction. This is the first time the name 'Jesus Christ' appears in the Gospel."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 18,
+      "text_greek": "θεὸν οὐδεὶς ἑώρακεν πώποτε· μονογενὴς θεὸς ὁ ὢν εἰς τὸν κόλπον τοῦ πατρὸς ἐκεῖνος ἐξηγήσατο.",
+      "text_kjv": "No man hath seen God at any time; the only begotten Son, which is in the bosom of the Father, he hath declared him.",
+      "rendering": "No one has ever seen God. The only God, who is at the Father's side — he has made him known.",
+      "translator_notes": [
+        "The SBLGNT reads monogenes theos ('the only God' or 'the unique one, God') rather than the variant monogenes huios ('the only Son') found in later manuscripts. This is one of the strongest christological statements in the New Testament — the Word is not merely the only Son but 'the only God,' a second use of theos applied to the Word (cf. 1:1c).",
+        "The verb exegesato ('has made known, has explained') is the root of 'exegesis.' The Son 'exegetes' the Father — he is the authoritative interpretation and revelation of the invisible God. The image of being 'at the Father's side' (eis ton kolpon, literally 'in the bosom') conveys the most intimate possible relationship."
+      ],
+      "key_terms": [
+        {
+          "greek": "ἐξηγήσατο",
+          "transliteration": "exegesato",
+          "rendered_as": "made him known",
+          "semantic_range": "to explain, to make known, to interpret, to narrate, to reveal",
+          "note": "The source of the English word 'exegesis.' The Son does not merely tell about God — he interprets God, makes God's character and will comprehensible. The invisible God is made visible through the Son's revelation."
+        }
+      ],
+      "reading_level": "10th grade"
+    },
+    {
+      "verse": 19,
+      "text_greek": "Καὶ αὕτη ἐστὶν ἡ μαρτυρία τοῦ Ἰωάννου, ὅτε ἀπέστειλαν πρὸς αὐτὸν οἱ Ἰουδαῖοι ἐξ Ἱεροσολύμων ἱερεῖς καὶ Λευίτας ἵνα ἐρωτήσωσιν αὐτόν· σὺ τίς εἶ;",
+      "text_kjv": "And this is the record of John, when the Jews sent priests and Levites from Jerusalem to ask him, Who art thou?",
+      "rendering": "This is John's testimony, when the Jewish leaders sent priests and Levites from Jerusalem to ask him, \"Who are you?\"",
+      "translator_notes": [
+        "The term hoi Ioudaioi ('the Jews') in John's Gospel almost always refers to the religious authorities in Jerusalem, not the Jewish people as a whole. We render 'the Jewish leaders' to reflect this. The delegation of priests and Levites indicates an official inquiry from the temple establishment — John's activity in the wilderness had attracted enough attention to prompt an investigation."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 20,
+      "text_greek": "καὶ ὡμολόγησεν καὶ οὐκ ἠρνήσατο, καὶ ὡμολόγησεν ὅτι ἐγὼ οὐκ εἰμὶ ὁ χριστός.",
+      "text_kjv": "And he confessed, and denied not; but confessed, I am not the Christ.",
+      "rendering": "He confessed and did not deny it, but confessed, \"I am not the Christ.\"",
+      "translator_notes": [
+        "The emphatic double statement — 'confessed and did not deny' — uses a literary device (litotes: affirming by negating the opposite) to stress the forcefulness of John's declaration. The ego ouk eimi ('I am not') is a deliberate contrast with Jesus's ego eimi ('I am') statements that will follow throughout the Gospel."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 21,
+      "text_greek": "καὶ ἠρώτησαν αὐτόν· τί οὖν; σὺ Ἠλίας εἶ; καὶ λέγει· οὐκ εἰμί. ὁ προφήτης εἶ σύ; καὶ ἀπεκρίθη· οὔ.",
+      "text_kjv": "And they asked him, What then? Art thou Elias? And he saith, I am not. Art thou that prophet? And he answered, No.",
+      "rendering": "They asked him, \"What then? Are you Elijah?\" He said, \"I am not.\" \"Are you the Prophet?\" He answered, \"No.\"",
+      "translator_notes": [
+        "Three messianic expectations are probed: the Christ, Elijah (expected to return before the Messiah, per Malachi 4:5), and 'the Prophet' (the prophet like Moses promised in Deuteronomy 18:15-18). John denies all three. The synoptic Gospels identify John as Elijah (Matthew 11:14, 17:12-13), but John's Gospel has the Baptist himself deny this identification — a tension scholars have long noted. 'The Prophet' with the definite article indicates a specific expected figure, not just any prophet.",
+        "[TCR Cross-Reference] Quotes Malachi 4:5. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it.",
+        "[TCR Cross-Reference] Quotes Deuteronomy 18:15-18. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 22,
+      "text_greek": "εἶπαν οὖν αὐτῷ· τίς εἶ; ἵνα ἀπόκρισιν δῶμεν τοῖς πέμψασιν ἡμᾶς· τί λέγεις περὶ σεαυτοῦ;",
+      "text_kjv": "Then said they unto him, Who art thou? that we may give an answer to them that sent us. What sayest thou of thyself?",
+      "rendering": "So they said to him, \"Who are you? We need to give an answer to those who sent us. What do you say about yourself?\"",
+      "translator_notes": [
+        "The delegation's frustration is evident — they need a report for the authorities in Jerusalem. The question 'What do you say about yourself?' forces John to define his own identity positively after three negative denials."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 23,
+      "text_greek": "ἔφη· ἐγὼ φωνὴ βοῶντος ἐν τῇ ἐρήμῳ· εὐθύνατε τὴν ὁδὸν κυρίου, καθὼς εἶπεν Ἠσαΐας ὁ προφήτης.",
+      "text_kjv": "He said, I am the voice of one crying in the wilderness, Make straight the way of the Lord, as said the prophet Esaias.",
+      "rendering": "He said, \"I am 'a voice crying out in the wilderness: Make straight the way of the Lord,'\" as the prophet Isaiah said.",
+      "translator_notes": [
+        "John identifies himself not with a title but with a function — he is a voice, nothing more. The quotation is from Isaiah 40:3 (Septuagint), which in its original context announced the end of the Babylonian exile and God's return to his people. John applies this to Jesus's coming. In the Hebrew of Isaiah 40:3, 'in the wilderness' modifies 'prepare the way' (prepare in the wilderness a way for the LORD), but the Septuagint (and John) attach it to 'crying' — a voice crying in the wilderness.",
+        "[TCR Cross-Reference] References Isaiah 40:3 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 24,
+      "text_greek": "Καὶ ἀπεσταλμένοι ἦσαν ἐκ τῶν Φαρισαίων.",
+      "text_kjv": "And they which were sent were of the Pharisees.",
+      "rendering": "Now they had been sent from the Pharisees.",
+      "translator_notes": [
+        "This parenthetical note identifies the theological party behind the inquiry. The Pharisees, who were deeply concerned with ritual purity and proper religious practice, would have been particularly interested in an unauthorized baptizer operating in the wilderness. This explains the question that follows in verse 25 about John's authority to baptize."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 25,
+      "text_greek": "καὶ ἠρώτησαν αὐτὸν καὶ εἶπαν αὐτῷ· τί οὖν βαπτίζεις εἰ σὺ οὐκ εἶ ὁ χριστὸς οὐδὲ Ἠλίας οὐδὲ ὁ προφήτης;",
+      "text_kjv": "And they asked him, and said unto him, Why baptizest thou then, if thou be not that Christ, nor Elias, neither that prophet?",
+      "rendering": "They questioned him, \"Then why are you baptizing, if you are not the Christ, nor Elijah, nor the Prophet?\"",
+      "translator_notes": [
+        "The logic is clear: if John holds none of the recognized eschatological offices, by what authority does he perform a rite of purification? Baptism (immersion) was known in Judaism — proselyte baptism, Qumran immersions — but an unauthorized figure calling all Israel to repentance through baptism was unprecedented."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 26,
+      "text_greek": "ἀπεκρίθη αὐτοῖς ὁ Ἰωάννης λέγων· ἐγὼ βαπτίζω ἐν ὕδατι· μέσος ὑμῶν ἕστηκεν ὃν ὑμεῖς οὐκ οἴδατε,",
+      "text_kjv": "John answered them, saying, I baptize with water: but there standeth one among you, whom ye know not;",
+      "rendering": "John answered them, \"I baptize with water, but among you stands one whom you do not know —",
+      "translator_notes": [
+        "John deflects the question about his own authority by pointing to a greater figure already present but unrecognized. The verb hesteken ('stands,' perfect tense) suggests a settled, ongoing presence — the one they seek is already there. The irony is characteristic of John's Gospel: the religious authorities are investigating the wrong person."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 27,
+      "text_greek": "ὁ ὀπίσω μου ἐρχόμενος, οὗ οὐκ εἰμὶ ἐγὼ ἄξιος ἵνα λύσω αὐτοῦ τὸν ἱμάντα τοῦ ὑποδήματος.",
+      "text_kjv": "He it is, who coming after me is preferred before me, whose shoe's latchet I am not worthy to unloose.",
+      "rendering": "He it is, who coming following me is preferred prior to me, whose shoe's latchet I am not worthy to unloose.",
+      "translator_notes": [
+        "Untying a master's sandal was considered too menial even for a Jewish slave — it was reserved for Gentile slaves. John declares himself unworthy of even the lowest servant's task in relation to the coming one. The image is vivid and culturally specific, conveying radical self-abasement."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 28,
+      "text_greek": "ταῦτα ἐν Βηθανίᾳ ἐγένετο πέραν τοῦ Ἰορδάνου, ὅπου ἦν ὁ Ἰωάννης βαπτίζων.",
+      "text_kjv": "These things were done in Bethabara beyond Jordan, where John was baptizing.",
+      "rendering": "These things took place in Bethany beyond the Jordan, where John was baptizing.",
+      "translator_notes": [
+        "This Bethany is distinct from the Bethany near Jerusalem (11:1). The SBLGNT reads 'Bethany' (Bethania) rather than 'Bethabara,' which is an early emendation by Origen, who could not locate a Bethany east of the Jordan in his day. The location 'beyond the Jordan' places the events in Perea or Transjordan."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 29,
+      "text_greek": "Τῇ ἐπαύριον βλέπει τὸν Ἰησοῦν ἐρχόμενον πρὸς αὐτὸν καὶ λέγει· ἴδε ὁ ἀμνὸς τοῦ θεοῦ ὁ αἴρων τὴν ἁμαρτίαν τοῦ κόσμου.",
+      "text_kjv": "The next day John seeth Jesus coming unto him, and saith, Behold the Lamb of God, which taketh away the sin of the world.",
+      "rendering": "The next day he saw Jesus coming toward him and said, \"Look — the Lamb of God, who takes away the sin of the world!\"",
+      "translator_notes": [
+        "The title 'Lamb of God' (ho amnos tou theou) is unique to John's Gospel and carries multiple Old Testament resonances: the Passover lamb (Exodus 12), the lamb led to slaughter in Isaiah 53:7, and possibly the daily tamid offerings in the temple. The verb airon ('takes away, bears, removes') can mean both 'to carry' and 'to remove,' and both senses may be intended — the lamb both bears sin and removes it.",
+        "The scope is universal — 'the sin of the world' (tou kosmou), not merely Israel. This fits the Prologue's universal vision of light for 'every person' (1:9).",
+        "[TCR Cross-Reference] Echoes Exodus 12. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale.",
+        "[TCR Cross-Reference] Echoes Isaiah 53:7. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "key_terms": [
+        {
+          "greek": "ἀμνός",
+          "transliteration": "amnos",
+          "rendered_as": "Lamb",
+          "semantic_range": "lamb (specifically a young lamb suitable for sacrifice)",
+          "note": "A different word from arnion (used in Revelation). Amnos appears in the Septuagint of Isaiah 53:7 for the suffering servant led like a lamb to slaughter, and in descriptions of sacrificial lambs. John the Baptist's declaration links Jesus to the entire sacrificial system of the Old Testament."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 30,
+      "text_greek": "οὗτός ἐστιν ὑπὲρ οὗ ἐγὼ εἶπον· ὀπίσω μου ἔρχεται ἀνὴρ ὃς ἔμπροσθέν μου γέγονεν, ὅτι πρῶτός μου ἦν.",
+      "text_kjv": "This is he of whom I said, After me cometh a man which is preferred before me: for he was before me.",
+      "rendering": "This is the one about whom I said, 'A man is coming after me who has surpassed me, because he existed before me.'",
+      "translator_notes": [
+        "This repeats the testimony of verse 15, now spoken in narrative context rather than within the Prologue. The paradox remains: Jesus comes 'after' John chronologically but existed 'before' him eternally. The word aner ('man') is significant — the eternal Word (1:1) is now identified as a specific human being."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 31,
+      "text_greek": "κἀγὼ οὐκ ᾔδειν αὐτόν, ἀλλ' ἵνα φανερωθῇ τῷ Ἰσραὴλ διὰ τοῦτο ἦλθον ἐγὼ ἐν ὕδατι βαπτίζων.",
+      "text_kjv": "And I knew him not: but that he should be made manifest to Israel, therefore am I come baptizing with water.",
+      "rendering": "I myself did not know him, but the reason I came baptizing with water was so that he might be revealed to Israel.\"",
+      "translator_notes": [
+        "John's confession 'I did not know him' (ouk edein auton) is striking — even the forerunner required divine revelation to identify the one he was preparing for. His entire baptizing ministry had a single purpose: to create the occasion for Jesus's public unveiling to Israel. The passive 'might be revealed' (phanerothe) implies God as the agent of revelation."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 32,
+      "text_greek": "καὶ ἐμαρτύρησεν Ἰωάννης λέγων ὅτι τεθέαμαι τὸ πνεῦμα καταβαῖνον ὡς περιστερὰν ἐξ οὐρανοῦ καὶ ἔμεινεν ἐπ' αὐτόν.",
+      "text_kjv": "And John bare record, saying, I saw the Spirit descending from heaven like a dove, and it abode upon him.",
+      "rendering": "And John testified, saying, \"I saw the Spirit descending from heaven like a dove, and it remained on him.",
+      "translator_notes": [
+        "John's Gospel does not narrate the baptism of Jesus directly but presents it through the Baptist's eyewitness testimony. The perfect tense tetheamai ('I have seen, I have observed') indicates a vivid, lasting impression. The dove imagery and the Spirit's descent connect to Genesis 1:2 (the Spirit hovering over the waters) and Isaiah 11:2 (the Spirit resting on the Messiah). The key detail is that the Spirit 'remained' (emeinen) — not a temporary empowerment but a permanent anointing.",
+        "[TCR Cross-Reference] Draws on Genesis 1:2. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices.",
+        "[TCR Cross-Reference] Draws on Isaiah 11:2. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 33,
+      "text_greek": "κἀγὼ οὐκ ᾔδειν αὐτόν, ἀλλ' ὁ πέμψας με βαπτίζειν ἐν ὕδατι ἐκεῖνός μοι εἶπεν· ἐφ' ὃν ἂν ἴδῃς τὸ πνεῦμα καταβαῖνον καὶ μένον ἐπ' αὐτόν, οὗτός ἐστιν ὁ βαπτίζων ἐν πνεύματι ἁγίῳ.",
+      "text_kjv": "And I knew him not: but he that sent me to baptize with water, the same said unto me, Upon whom thou shalt see the Spirit descending, and remaining on him, the same is he which baptizeth with the Holy Ghost.",
+      "rendering": "I myself did not know him, but the one who sent me to baptize with water told me, 'The one on whom you see the Spirit descending and remaining — he is the one who baptizes with the Holy Spirit.'",
+      "translator_notes": [
+        "John's recognition of Jesus depended on a prior divine sign — the Spirit's descent and remaining. The description of Jesus as 'the one who baptizes with the Holy Spirit' defines his ministry in contrast to John's water baptism. The verb menon ('remaining') is a key Johannine word (meno, 'to remain, abide') that will become central to the Gospel's theology of relationship with God."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 34,
+      "text_greek": "κἀγὼ ἑώρακα καὶ μεμαρτύρηκα ὅτι οὗτός ἐστιν ὁ υἱὸς τοῦ θεοῦ.",
+      "text_kjv": "And I saw, and bare record that this is the Son of God.",
+      "rendering": "And I have seen and have testified that this is the Son of God.\"",
+      "translator_notes": [
+        "The perfect tenses heoraka ('I have seen') and memartyrika ('I have testified') indicate completed action with continuing relevance — John's witness is settled and permanent. Some manuscripts read 'the Chosen One of God' (ho eklektos tou theou) instead of 'the Son of God,' which would echo Isaiah 42:1. The SBLGNT reads 'Son of God,' which we follow.",
+        "[TCR Cross-Reference] Echoes Isaiah 42:1. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 35,
+      "text_greek": "Τῇ ἐπαύριον πάλιν εἱστήκει ὁ Ἰωάννης καὶ ἐκ τῶν μαθητῶν αὐτοῦ δύο",
+      "text_kjv": "Again the next day after John stood, and two of his disciples;",
+      "rendering": "The next day John was standing again with two of his disciples,",
+      "translator_notes": [
+        "This marks the third day in John's opening sequence (day 1: vv. 19-28; day 2: vv. 29-34; day 3: vv. 35-42). The progressive narrative builds toward Jesus's gathering of his first followers. That these are John's own disciples who will leave him for Jesus underscores the Baptist's role as a transitional figure."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 36,
+      "text_greek": "καὶ ἐμβλέψας τῷ Ἰησοῦ περιπατοῦντι λέγει· ἴδε ὁ ἀμνὸς τοῦ θεοῦ.",
+      "text_kjv": "And looking upon Jesus as he walked, he saith, Behold the Lamb of God!",
+      "rendering": "Looking upon Jesus as he walked, he says, take notice the Lamb of God!",
+      "translator_notes": [
+        "The verb emblepsas ('having looked intently at') suggests a fixed, penetrating gaze — John does not casually glance but stares with recognition. The declaration is shorter than in verse 29, omitting 'who takes away the sin of the world,' as if the title alone now suffices. This is the second and final time John identifies Jesus as the Lamb."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 37,
+      "text_greek": "καὶ ἤκουσαν οἱ δύο μαθηταὶ αὐτοῦ λαλοῦντος καὶ ἠκολούθησαν τῷ Ἰησοῦ.",
+      "text_kjv": "And the two disciples heard him speak, and they followed Jesus.",
+      "rendering": "The two disciples heard him say this, and they followed Jesus.",
+      "translator_notes": [
+        "The verb ekoloutheesan ('followed') carries both the literal sense of walking after someone and the theological sense of becoming a disciple. The Baptist's testimony achieves its intended purpose — his disciples transfer their allegiance to the one he has been pointing toward."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 38,
+      "text_greek": "στραφεὶς δὲ ὁ Ἰησοῦς καὶ θεασάμενος αὐτοὺς ἀκολουθοῦντας λέγει αὐτοῖς· τί ζητεῖτε; οἱ δὲ εἶπαν αὐτῷ· ῥαββί, ὃ λέγεται μεθερμηνευόμενον διδάσκαλε, ποῦ μένεις;",
+      "text_kjv": "Then Jesus turned, and saw them following, and saith unto them, What seek ye? They said unto him, Rabbi, (which is to say, being interpreted, Master,) where dwellest thou?",
+      "rendering": "Jesus turned and saw them following and said to them, \"What are you looking for?\" They said to him, \"Rabbi\" (which means Teacher), \"where are you staying?\"",
+      "translator_notes": [
+        "Jesus's first words in John's Gospel are a question — 'What are you looking for?' (ti zeteite) — which functions on multiple levels: practically (what do you want?), spiritually (what are you seeking in life?). John translates 'Rabbi' for his Greek-speaking audience as 'Teacher' (didaskalos). The verb meneis ('are you staying/remaining') connects to the Johannine theme of 'remaining/abiding' (meno) that pervades the Gospel."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 39,
+      "text_greek": "λέγει αὐτοῖς· ἔρχεσθε καὶ ὄψεσθε. ἦλθαν οὖν καὶ εἶδαν ποῦ μένει καὶ παρ' αὐτῷ ἔμειναν τὴν ἡμέραν ἐκείνην· ὥρα ἦν ὡς δεκάτη.",
+      "text_kjv": "He saith unto them, Come and see. They came and saw where he dwelt, and abode with him that day: for it was about the tenth hour.",
+      "rendering": "He said to them, \"Come and you will see.\" So they came and saw where he was staying, and they remained with him that day. It was about the tenth hour.",
+      "translator_notes": [
+        "Jesus's invitation 'Come and you will see' (erchesthe kai opsesthe) becomes a pattern in the Gospel — seeing leads to believing. The 'tenth hour' is approximately 4 PM by Roman reckoning (or 10 AM by Jewish reckoning, counting from sunrise). The precise time detail is the kind of eyewitness memory that suggests the narrator was one of the two disciples present."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 40,
+      "text_greek": "Ἦν Ἀνδρέας ὁ ἀδελφὸς Σίμωνος Πέτρου εἷς ἐκ τῶν δύο τῶν ἀκουσάντων παρὰ Ἰωάννου καὶ ἀκολουθησάντων αὐτῷ·",
+      "text_kjv": "One of the two which heard John speak, and followed him, was Andrew, Simon Peter's brother.",
+      "rendering": "Andrew, Simon Peter's brother, was one of the two who heard John and followed Jesus.",
+      "translator_notes": [
+        "Andrew is identified through his relationship to Simon Peter, who was evidently better known to the audience. The other unnamed disciple is traditionally identified as the author of the Gospel (the 'beloved disciple'), though the text does not say so explicitly."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 41,
+      "text_greek": "εὑρίσκει οὗτος πρῶτον τὸν ἀδελφὸν τὸν ἴδιον Σίμωνα καὶ λέγει αὐτῷ· εὑρήκαμεν τὸν Μεσσίαν, ὅ ἐστιν μεθερμηνευόμενον χριστός.",
+      "text_kjv": "He first findeth his own brother Simon, and saith unto him, We have found the Messias, which is, being interpreted, the Christ.",
+      "rendering": "He first found his own brother Simon and said to him, \"We have found the Messiah\" (which is translated Christ).",
+      "translator_notes": [
+        "This is one of only two places in the New Testament where the Hebrew/Aramaic title Messias ('Anointed One') is transliterated into Greek (the other is John 4:25). John translates it as Christos for his Greek audience. The adverb proton ('first') implies that Andrew found Simon before doing anything else — the discovery was too important not to share immediately."
+      ],
+      "key_terms": [
+        {
+          "greek": "Μεσσίας",
+          "transliteration": "Messias",
+          "rendered_as": "Messiah",
+          "semantic_range": "anointed one, the expected deliverer-king",
+          "note": "The Aramaic form of the Hebrew mashiach. John provides the Greek translation (Christos) for readers unfamiliar with the Semitic term. The title carries the full weight of Jewish expectation for a divinely anointed king who would restore Israel."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 42,
+      "text_greek": "ἤγαγεν αὐτὸν πρὸς τὸν Ἰησοῦν. ἐμβλέψας αὐτῷ ὁ Ἰησοῦς εἶπεν· σὺ εἶ Σίμων ὁ υἱὸς Ἰωάννου, σὺ κληθήσῃ Κηφᾶς, ὃ ἑρμηνεύεται Πέτρος.",
+      "text_kjv": "And he brought him to Jesus. And when Jesus beheld him, he said, Thou art Simon the son of Jona: thou shalt be called Cephas, which is by interpretation, A stone.",
+      "rendering": "He brought him to Jesus. Jesus looked at him and said, \"You are Simon son of John. You will be called Cephas\" (which is translated Peter).",
+      "translator_notes": [
+        "The verb emblepsas ('having looked intently') is the same word used of the Baptist in verse 36 — a penetrating gaze that sees beyond the surface. Jesus demonstrates supernatural knowledge by naming Simon before being introduced. 'Cephas' is Aramaic (kepha, 'rock'); John translates it into Greek as Petros ('rock, stone'). The SBLGNT reads 'son of John' (Ioannou) rather than the variant 'son of Jonah' (Iona) found in some manuscripts."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 43,
+      "text_greek": "Τῇ ἐπαύριον ἠθέλησεν ἐξελθεῖν εἰς τὴν Γαλιλαίαν καὶ εὑρίσκει Φίλιππον. καὶ λέγει αὐτῷ ὁ Ἰησοῦς· ἀκολούθει μοι.",
+      "text_kjv": "The day following Jesus would go forth into Galilee, and findeth Philip, and saith unto him, Follow me.",
+      "rendering": "The next day Jesus decided to go to Galilee. He found Philip and said to him, \"Follow me.\"",
+      "translator_notes": [
+        "This marks the fourth day in John's opening sequence. Unlike Andrew and the unnamed disciple who came to Jesus through the Baptist's testimony, Philip is called directly by Jesus. The command 'Follow me' (akolouthei moi) is the standard call to discipleship in the Gospels — a summons to leave one's current path and walk with Jesus."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 44,
+      "text_greek": "ἦν δὲ ὁ Φίλιππος ἀπὸ Βηθσαϊδά, ἐκ τῆς πόλεως Ἀνδρέου καὶ Πέτρου.",
+      "text_kjv": "Now Philip was of Bethsaida, the city of Andrew and Peter.",
+      "rendering": "Now Philip was from Bethsaida, the city of Andrew and Peter.",
+      "translator_notes": [
+        "Bethsaida ('house of fishing') was located on the northern shore of the Sea of Galilee. The note connecting Philip to Andrew and Peter's hometown suggests a pre-existing social network that facilitated the chain of recruitment: John the Baptist to Andrew, Andrew to Peter, and now the connection extends to Philip."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 45,
+      "text_greek": "εὑρίσκει Φίλιππος τὸν Ναθαναὴλ καὶ λέγει αὐτῷ· ὃν ἔγραψεν Μωϋσῆς ἐν τῷ νόμῳ καὶ οἱ προφῆται εὑρήκαμεν, Ἰησοῦν υἱὸν τοῦ Ἰωσὴφ τὸν ἀπὸ Ναζαρέτ.",
+      "text_kjv": "Philip findeth Nathanael, and saith unto him, We have found him, of whom Moses in the law, and the prophets, did write, Jesus of Nazareth, the son of Joseph.",
+      "rendering": "Philip found Nathanael and said to him, \"We have found the one Moses wrote about in the Law, and the prophets wrote about as well — Jesus son of Joseph, from Nazareth.\"",
+      "translator_notes": [
+        "Philip's identification of Jesus draws on the full breadth of Jewish Scripture — both the Torah (Moses) and the Prophets. The phrase 'Jesus son of Joseph from Nazareth' presents Jesus in purely human terms — his legal parentage and hometown. The irony is that the reader already knows from the Prologue that Jesus's true identity far transcends these categories. Nathanael is traditionally identified with Bartholomew in the Synoptic lists of the Twelve."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 46,
+      "text_greek": "καὶ εἶπεν αὐτῷ Ναθαναήλ· ἐκ Ναζαρὲτ δύναταί τι ἀγαθὸν εἶναι; λέγει αὐτῷ ὁ Φίλιππος· ἔρχου καὶ ἴδε.",
+      "text_kjv": "And Nathanael said unto him, Can there any good thing come out of Nazareth? Philip saith unto him, Come and see.",
+      "rendering": "Nathanael said to him, \"Can anything good come from Nazareth?\" Philip said to him, \"Come and see.\"",
+      "translator_notes": [
+        "Nathanael's skepticism reflects a real geographical prejudice — Nazareth was a small, insignificant village in Lower Galilee with no prophetic associations. The Old Testament nowhere mentions Nazareth. Philip's response echoes Jesus's own invitation in verse 39 ('Come and you will see'), turning the method of encounter into a chain: come, see, and judge for yourself."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 47,
+      "text_greek": "εἶδεν ὁ Ἰησοῦς τὸν Ναθαναὴλ ἐρχόμενον πρὸς αὐτὸν καὶ λέγει περὶ αὐτοῦ· ἴδε ἀληθῶς Ἰσραηλίτης ἐν ᾧ δόλος οὐκ ἔστιν.",
+      "text_kjv": "Jesus saw Nathanael coming to him, and saith of him, Behold an Israelite indeed, in whom is no guile!",
+      "rendering": "Jesus saw Nathanael coming toward him and said of him, \"Look — a true Israelite, in whom there is no deceit!\"",
+      "translator_notes": [
+        "The phrase 'a true Israelite in whom there is no deceit' (dolos, 'guile, treachery, deceit') alludes to Jacob/Israel, whose name means 'supplanter/deceiver.' Nathanael is everything his ancestor Jacob was not — an Israelite without the craftiness. The allusion prepares for the Jacob's ladder reference in verse 51. The adverb alethos ('truly, genuinely') emphasizes that Nathanael embodies the ideal of Israel."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 48,
+      "text_greek": "λέγει αὐτῷ Ναθαναήλ· πόθεν με γινώσκεις; ἀπεκρίθη Ἰησοῦς καὶ εἶπεν αὐτῷ· πρὸ τοῦ σε Φίλιππον φωνῆσαι ὄντα ὑπὸ τὴν συκῆν εἶδόν σε.",
+      "text_kjv": "Nathanael saith unto him, Whence knowest thou me? Jesus answered and said unto him, Before that Philip called thee, when thou wast under the fig tree, I saw thee.",
+      "rendering": "Nathanael said to him, \"How do you know me?\" Jesus answered him, \"Before Philip called you, while you were under the fig tree, I saw you.\"",
+      "translator_notes": [
+        "Sitting under a fig tree was associated in Jewish tradition with studying Torah (cf. Micah 4:4; Zechariah 3:10). If Nathanael was engaged in prayer or Scripture study, Jesus's supernatural knowledge of this private moment would be deeply startling. The verb eidon ('I saw') implies more than physical sight — Jesus perceived Nathanael's character and activity from a distance.",
+        "[TCR Cross-Reference] References Micah 4:4 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved.",
+        "[TCR Cross-Reference] References Zechariah 3:10 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 49,
+      "text_greek": "ἀπεκρίθη αὐτῷ Ναθαναήλ· ῥαββί, σὺ εἶ ὁ υἱὸς τοῦ θεοῦ, σὺ βασιλεὺς εἶ τοῦ Ἰσραήλ.",
+      "text_kjv": "Nathanael answered and saith unto him, Rabbi, thou art the Son of God; thou art the King of Israel.",
+      "rendering": "Nathanael answered him, \"Rabbi, you are the Son of God! You are the King of Israel!\"",
+      "translator_notes": [
+        "Nathanael's confession moves from skepticism ('Can anything good come from Nazareth?') to the highest christological titles in a single encounter. 'Son of God' and 'King of Israel' are parallel messianic titles drawn from Psalm 2:6-7 and Zephaniah 3:15. The rapid escalation of faith through personal encounter is characteristic of John's narrative theology.",
+        "[TCR Cross-Reference] Echoes Psalm 2:6-7. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale.",
+        "[TCR Cross-Reference] Echoes Zephaniah 3:15. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 50,
+      "text_greek": "ἀπεκρίθη Ἰησοῦς καὶ εἶπεν αὐτῷ· ὅτι εἶπόν σοι ὅτι εἶδόν σε ὑποκάτω τῆς συκῆς, πιστεύεις; μείζω τούτων ὄψῃ.",
+      "text_kjv": "Jesus answered and said unto him, Because I said unto thee, I saw thee under the fig tree, believest thou? thou shalt see greater things than these.",
+      "rendering": "Jesus answered him, \"Do you believe because I told you I saw you under the fig tree? You will see greater things than these.\"",
+      "translator_notes": [
+        "Jesus's response affirms Nathanael's faith but points beyond it — the sign that prompted belief (supernatural knowledge) is only the beginning. 'Greater things' (meizo touton) anticipates the signs that will follow throughout the Gospel: water to wine, healing, raising the dead. Faith based on signs is accepted but will be surpassed by deeper revelation."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 51,
+      "text_greek": "καὶ λέγει αὐτῷ· ἀμὴν ἀμὴν λέγω ὑμῖν, ὄψεσθε τὸν οὐρανὸν ἀνεῳγότα καὶ τοὺς ἀγγέλους τοῦ θεοῦ ἀναβαίνοντας καὶ καταβαίνοντας ἐπὶ τὸν υἱὸν τοῦ ἀνθρώπου.",
+      "text_kjv": "And he saith unto him, Verily, verily, I say unto you, Hereafter ye shall see heaven open, and the angels of God ascending and descending upon the Son of Man.",
+      "rendering": "And he said to him, \"Truly, truly, I tell you, you will see heaven opened and the angels of God ascending and descending on the Son of Man.\"",
+      "translator_notes": [
+        "The double 'Amen, amen' (amen amen) is unique to John's Gospel and marks solemn, authoritative declarations — Jesus is speaking with the authority of God himself. The imagery draws directly from Jacob's dream at Bethel (Genesis 28:12), where a ladder connected heaven and earth with angels ascending and descending. Jesus replaces the ladder — he is the point of connection between heaven and earth.",
+        "The shift from singular 'you' (soi, verse 50) to plural 'you' (hymin) indicates that this promise extends beyond Nathanael to all disciples. 'Son of Man' (ho huios tou anthropou) is Jesus's preferred self-designation, drawing on Daniel 7:13 where the 'one like a son of man' receives dominion from the Ancient of Days.",
+        "[TCR Cross-Reference] Quotes Genesis 28:12. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it.",
+        "[TCR Cross-Reference] Quotes Daniel 7:13. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it."
+      ],
+      "key_terms": [
+        {
+          "greek": "υἱὸς τοῦ ἀνθρώπου",
+          "transliteration": "huios tou anthropou",
+          "rendered_as": "Son of Man",
+          "semantic_range": "son of man, human being, the Son of Man (as a messianic title from Daniel 7:13)",
+          "note": "In Daniel 7:13, the 'one like a son of man' is a heavenly figure who receives universal and eternal dominion. Jesus's use of this title combines human identification (he is truly human) with divine authority (he receives God's own kingdom). It is his most characteristic self-designation in all four Gospels."
+        }
+      ],
+      "reading_level": "9th grade"
+    }
+  ]
+}

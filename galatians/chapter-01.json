@@ -1,0 +1,302 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Galatians",
+    "chapter": 1,
+    "source_text": "SBL Greek New Testament (SBLGNT)",
+    "reference_text": "KJV",
+    "generated_at": "2026-04-04T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Galatians 1 opens with Paul's apostolic greeting, immediately asserting that his commission comes from Jesus Christ and God the Father, not from any human authority. After a brief doxology, Paul expresses astonishment that the Galatian churches are so quickly abandoning the gospel he preached to them in favor of a distorted version. He pronounces a double curse on anyone — even an angel from heaven — who preaches a different gospel. Paul then defends his apostolic authority by narrating his personal history: his former life as a persecutor of the church, his dramatic call through divine revelation, his years in Arabia and Damascus, and his eventual brief visit to Jerusalem where he met only Peter and James.",
+    "remarkable": "The letter lacks Paul's customary thanksgiving section — he moves directly from greeting to rebuke, signaling the urgency of the crisis. The double anathema formula (vv. 8-9) is the strongest language Paul uses in any letter. His autobiographical defense establishes a pattern that dominates the first two chapters: the gospel he preaches was not received from humans but through a direct revelation of Jesus Christ. The Greek apokalypsis ('revelation, unveiling') in verse 12 is the same word used for apocalyptic disclosure — Paul's encounter with Christ was not instruction but unveiling.",
+    "friction": "The identity of the 'agitators' promoting a different gospel is debated — they likely advocated circumcision and Torah observance for Gentile believers (as clarified in later chapters). Paul's claim to have received his gospel independently of the Jerusalem apostles creates tension with Acts' account of his conversion and early ministry. We render the Greek as given without harmonizing. The phrase 'the churches of Galatia' leaves unresolved whether these are in north or south Galatia — the so-called North Galatian and South Galatian hypotheses.",
+    "connections": "Paul's call narrative echoes the prophetic call patterns of Jeremiah 1:5 ('before I formed you in the womb') and Isaiah 49:1 ('called me from my mother's womb'). The curse formula connects to Deuteronomy 27:15-26. The revelation of the Son 'in me' (en emoi, v. 16) connects to Paul's 'Christ in me' theology developed fully in 2:20."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_greek": "Παῦλος ἀπόστολος οὐκ ἀπ' ἀνθρώπων οὐδὲ δι' ἀνθρώπου ἀλλὰ διὰ Ἰησοῦ Χριστοῦ καὶ θεοῦ πατρὸς τοῦ ἐγείραντος αὐτὸν ἐκ νεκρῶν,",
+      "text_kjv": "Paul, an apostle, (not of men, neither by man, but by Jesus Christ, and God the Father, who raised him from the dead;)",
+      "rendering": "Paul, an apostle — not sent from human authority nor commissioned by any human being, but through Jesus Christ and God the Father who raised him from the dead —",
+      "translator_notes": [
+        "Paul's double negation (ouk ap' anthropon oude di' anthropou) distinguishes both the source and the agent of his apostleship. The preposition apo ('from') denies human origin; dia ('through') denies human mediation. This opening salvo establishes the letter's central argument: Paul's gospel and authority derive directly from God, not from Jerusalem or any human chain of authorization.",
+        "The participial clause 'who raised him from the dead' (tou egeirantos auton ek nekron) is not incidental — it anchors Paul's apostleship in the resurrection, the same event that commissioned him on the Damascus road."
+      ],
+      "key_terms": [
+        {
+          "greek": "ἀπόστολος",
+          "transliteration": "apostolos",
+          "rendered_as": "apostle",
+          "semantic_range": "one sent, emissary, delegate, apostle",
+          "note": "From apostellō ('to send forth'). Paul insists his sending was divine, not institutional — a claim his opponents in Galatia apparently challenged."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 2,
+      "text_greek": "καὶ οἱ σὺν ἐμοὶ πάντες ἀδελφοί, ταῖς ἐκκλησίαις τῆς Γαλατίας·",
+      "text_kjv": "And all the brethren which are with me, unto the churches of Galatia:",
+      "rendering": "All the brothers and sisters which are with me, to the churches of Galatia:.",
+      "translator_notes": [
+        "The Greek adelphoi is grammatically masculine plural but functioned as an inclusive term for the community of believers. We render 'brothers and sisters' to reflect the inclusive reference. The plural 'churches' (ekklesiais) indicates this is a circular letter addressed to multiple congregations in the region of Galatia."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 3,
+      "text_greek": "χάρις ὑμῖν καὶ εἰρήνη ἀπὸ θεοῦ πατρὸς ἡμῶν καὶ κυρίου Ἰησοῦ Χριστοῦ,",
+      "text_kjv": "Grace be to you and peace from God the Father, and from our Lord Jesus Christ,",
+      "rendering": "Grace to you and peace from God our Father and the Lord Jesus Christ,",
+      "translator_notes": [
+        "Paul's standard greeting combines the Greek charis ('grace') with the Hebrew-rooted eirēnē ('peace,' translating shalom). The single preposition apo ('from') governs both 'God our Father' and 'the Lord Jesus Christ,' placing them in a coordinate relationship as the joint source of grace and peace."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 4,
+      "text_greek": "τοῦ δόντος ἑαυτὸν ὑπὲρ τῶν ἁμαρτιῶν ἡμῶν ὅπως ἐξέληται ἡμᾶς ἐκ τοῦ αἰῶνος τοῦ ἐνεστῶτος πονηροῦ κατὰ τὸ θέλημα τοῦ θεοῦ καὶ πατρὸς ἡμῶν,",
+      "text_kjv": "Who gave himself for our sins, that he might deliver us from this present evil world, according to the will of God and our Father:",
+      "rendering": "Who offered himself for our wrongdoings, that he may deliver us from this present wicked age, according to the will of God and our Father:.",
+      "translator_notes": [
+        "The Greek aionos tou enestotos ponerou ('the present evil age') reflects Jewish apocalyptic theology that divides history into 'this age' and 'the age to come.' Paul's word is aiōn ('age'), not kosmos ('world') — the emphasis is temporal, not spatial. The rescue is from a corrupt era, not escape from the physical world.",
+        "The verb exelētai ('rescue, deliver') is in the middle voice, suggesting Christ's active, personal involvement in the deliverance. The phrase 'according to the will of God' grounds the entire saving act in divine initiative."
+      ],
+      "key_terms": [
+        {
+          "greek": "αἰών",
+          "transliteration": "aiōn",
+          "rendered_as": "age",
+          "semantic_range": "age, era, epoch, eternity, world-age",
+          "note": "Distinct from kosmos. Paul's framework is temporal-eschatological: Christ's self-giving inaugurates the transition from the present evil age to the age to come."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 5,
+      "text_greek": "ᾧ ἡ δόξα εἰς τοὺς αἰῶνας τῶν αἰώνων· ἀμήν.",
+      "text_kjv": "To whom be glory for ever and ever. Amen.",
+      "rendering": "To him be glory through all the ages. Amen.",
+      "translator_notes": [
+        "The doxology eis tous aiōnas tōn aiōnōn ('unto the ages of the ages') is a Hebraism intensifying the concept of eternity — literally 'to the ages of ages.' This formula is standard in Pauline doxologies but unusual this early in a letter. Paul typically places his doxology later; its early placement here may reflect the gravity of the situation — he pauses to anchor his rebuke in worship before proceeding."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 6,
+      "text_greek": "Θαυμάζω ὅτι οὕτως ταχέως μετατίθεσθε ἀπὸ τοῦ καλέσαντος ὑμᾶς ἐν χάριτι Χριστοῦ εἰς ἕτερον εὐαγγέλιον,",
+      "text_kjv": "I marvel that ye are so soon removed from him that called you into the grace of Christ unto another gospel:",
+      "rendering": "I am astonished that you are so quickly deserting the one who called you by the grace of Christ and turning to a different gospel —",
+      "translator_notes": [
+        "The verb metatithesthe ('you are turning, deserting') is present tense, indicating the defection is in progress, not yet complete. The same verb was used for political or military defection — switching allegiance. Paul frames the Galatians' shift not as a theological adjustment but as treason against the one who called them.",
+        "The absence of a thanksgiving section (standard in Paul's other letters) is itself a rhetorical statement — Paul is too alarmed for pleasantries."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 7,
+      "text_greek": "ὃ οὐκ ἔστιν ἄλλο, εἰ μή τινές εἰσιν οἱ ταράσσοντες ὑμᾶς καὶ θέλοντες μεταστρέψαι τὸ εὐαγγέλιον τοῦ Χριστοῦ.",
+      "text_kjv": "Which is not another; but there be some that trouble you, and would pervert the gospel of Christ.",
+      "rendering": "Not that there really is another gospel — it is simply that certain people are troubling you and trying to distort the good news about Christ.",
+      "translator_notes": [
+        "Paul plays on two Greek words for 'other': heteron ('different in kind,' v. 6) and allo ('another of the same kind,' v. 7). The so-called 'other gospel' is not actually a gospel at all — it is a distortion (metastrepsai, 'to turn around, reverse, pervert'). The verb tarassontes ('disturbing, agitating') was used for stirring up sedition; these unnamed opponents are creating upheaval in the community."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 8,
+      "text_greek": "ἀλλὰ καὶ ἐὰν ἡμεῖς ἢ ἄγγελος ἐξ οὐρανοῦ εὐαγγελίζηται ὑμῖν παρ' ὃ εὐηγγελισάμεθα ὑμῖν, ἀνάθεμα ἔστω.",
+      "text_kjv": "But though we, or an angel from heaven, preach any other gospel unto you than that which we have preached unto you, let him be accursed.",
+      "rendering": "But even if we or an angel from heaven should proclaim to you a gospel contrary to what we proclaimed to you, let that one be cursed.",
+      "translator_notes": [
+        "The Greek anathema ('cursed, devoted to destruction') corresponds to the Hebrew cherem — something placed under a ban, devoted to God for destruction. This is not mere disapproval but a solemn invocation of divine judgment. Paul includes himself ('we') in the hypothetical, establishing that the gospel's authority transcends even apostolic persons. The conditional ean with the subjunctive presents this as a real possibility, not an absurd hypothetical."
+      ],
+      "key_terms": [
+        {
+          "greek": "ἀνάθεμα",
+          "transliteration": "anathema",
+          "rendered_as": "cursed",
+          "semantic_range": "accursed, devoted to destruction, banned",
+          "note": "Corresponds to Hebrew cherem. In the Septuagint, it describes items devoted to destruction in holy war (cf. Joshua 6:17-18). Paul applies this covenantal curse language to anyone who corrupts the gospel."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 9,
+      "text_greek": "ὡς προειρήκαμεν καὶ ἄρτι πάλιν λέγω· εἴ τις ὑμᾶς εὐαγγελίζεται παρ' ὃ παρελάβετε, ἀνάθεμα ἔστω.",
+      "text_kjv": "As we said before, so say I now again, If any man preach any other gospel unto you than that ye have received, let him be accursed.",
+      "rendering": "As we have said before, so now I say again: if anyone is proclaiming to you a gospel contrary to what you received, let that one be cursed.",
+      "translator_notes": [
+        "The repetition transforms the conditional warning into a direct verdict. The shift from 'we' to 'I' (legō) makes the pronouncement personal and authoritative. The verb parelabete ('you received') is a technical term for receiving tradition — the Galatians received a specific, defined gospel, and deviation from it is not progress but apostasy."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 10,
+      "text_greek": "ἄρτι γὰρ ἀνθρώπους πείθω ἢ τὸν θεόν; ἢ ζητῶ ἀνθρώποις ἀρέσκειν; εἰ ἔτι ἀνθρώποις ἤρεσκον, Χριστοῦ δοῦλος οὐκ ἂν ἤμην.",
+      "text_kjv": "For do I now persuade men, or God? or do I seek to please men? for if I yet pleased men, I should not be the servant of Christ.",
+      "rendering": "Am I now seeking human approval, or God's? Am I trying to please people? If I were still trying to please people, I would not be a servant of Christ.",
+      "translator_notes": [
+        "The rhetorical questions respond to an apparent accusation that Paul was a people-pleaser who tailored his message to gain approval. The word doulos ('servant, slave') carries its full force — Paul is Christ's slave, not a freelance diplomat. The adverb eti ('still') implies Paul once did seek human approval (in his former life as a Pharisee, perhaps), but that era is over."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 11,
+      "text_greek": "Γνωρίζω γὰρ ὑμῖν, ἀδελφοί, τὸ εὐαγγέλιον τὸ εὐαγγελισθὲν ὑπ' ἐμοῦ ὅτι οὐκ ἔστιν κατὰ ἄνθρωπον·",
+      "text_kjv": "But I certify you, brethren, that the gospel which was preached of me is not after man.",
+      "rendering": "For I want you to know, brothers and sisters, that the gospel I proclaimed is not of human origin.",
+      "translator_notes": [
+        "The phrase kata anthrōpon ('according to a human standard') denies that Paul's gospel conforms to any human pattern or was generated by human reasoning. This verse introduces the autobiographical defense that runs through 2:14 — Paul will demonstrate the divine origin of his gospel by tracing his own story."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 12,
+      "text_greek": "οὐδὲ γὰρ ἐγὼ παρὰ ἀνθρώπου παρέλαβον αὐτό οὔτε ἐδιδάχθην, ἀλλὰ δι' ἀποκαλύψεως Ἰησοῦ Χριστοῦ.",
+      "text_kjv": "For I neither received it of man, neither was I taught it, but by the revelation of Jesus Christ.",
+      "rendering": "For I did not receive it from any human source, nor was I taught it, but it came through a revelation of Jesus Christ.",
+      "translator_notes": [
+        "The genitive Iēsou Christou ('of Jesus Christ') is ambiguous — it could be objective ('a revelation about Jesus Christ') or subjective ('a revelation given by Jesus Christ'). Both senses may be intended: Christ was both the content and the agent of the revelation. The Greek apokalypsis ('unveiling, disclosure') denotes a direct divine disclosure, not gradual learning or instruction."
+      ],
+      "key_terms": [
+        {
+          "greek": "ἀποκάλυψις",
+          "transliteration": "apokalypsis",
+          "rendered_as": "revelation",
+          "semantic_range": "unveiling, disclosure, revelation, apocalypse",
+          "note": "From apo ('away from') + kalyptō ('to cover'). A divine act of uncovering what was hidden. The same word opens the book of Revelation. Paul's gospel came not through human teaching but through God pulling back the veil."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 13,
+      "text_greek": "Ἠκούσατε γὰρ τὴν ἐμὴν ἀναστροφήν ποτε ἐν τῷ Ἰουδαϊσμῷ, ὅτι καθ' ὑπερβολὴν ἐδίωκον τὴν ἐκκλησίαν τοῦ θεοῦ καὶ ἐπόρθουν αὐτήν,",
+      "text_kjv": "For ye have heard of my conversation in time past in the Jews' religion, how that beyond measure I persecuted the church of God, and wasted it:",
+      "rendering": "For you have heard about my former way of life in Judaism — how I persecuted the church of God violently and tried to destroy it.",
+      "translator_notes": [
+        "The Greek anastrophē ('way of life, conduct') is rendered 'conversation' in the KJV using the word's older English meaning. The phrase kath' hyperbolēn ('beyond measure, to an extraordinary degree') intensifies the verb — Paul's persecution was not casual but extreme. The imperfect tenses (ediōkon, eporthoun) indicate sustained, repeated action: 'I kept persecuting... I kept trying to destroy.'"
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 14,
+      "text_greek": "καὶ προέκοπτον ἐν τῷ Ἰουδαϊσμῷ ὑπὲρ πολλοὺς συνηλικιώτας ἐν τῷ γένει μου, περισσοτέρως ζηλωτὴς ὑπάρχων τῶν πατρικῶν μου παραδόσεων.",
+      "text_kjv": "And profited in the Jews' religion above many my equals in mine own nation, being more exceedingly zealous of the traditions of my fathers.",
+      "rendering": "I was advancing in Judaism beyond many of my contemporaries among my people, being far more zealous for the traditions of my ancestors.",
+      "translator_notes": [
+        "The verb proekopton ('was advancing, making progress') was used for cutting a path forward — Paul was outpacing his peers. The word zēlōtēs ('zealot, one burning with zeal') echoes the Maccabean tradition of violent zeal for the Torah. Paul's pre-conversion identity was defined by aggressive devotion to ancestral tradition (patrikōn paradoseōn), which he now reinterprets through the lens of divine call."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 15,
+      "text_greek": "ὅτε δὲ εὐδόκησεν ὁ θεὸς ὁ ἀφορίσας με ἐκ κοιλίας μητρός μου καὶ καλέσας διὰ τῆς χάριτος αὐτοῦ",
+      "text_kjv": "But when it pleased God, who separated me from my mother's womb, and called me by his grace,",
+      "rendering": "But when God, who set me apart from my mother's womb and called me through his grace, was pleased",
+      "translator_notes": [
+        "The language directly echoes prophetic call narratives: 'set apart from my mother's womb' parallels Jeremiah 1:5 ('Before I formed you in the womb I knew you') and Isaiah 49:1 ('The LORD called me from the womb'). Paul interprets his entire life — including the persecution years — as part of a divine plan that predated his birth. The verb aphorisas ('having set apart') is related to Pharisaios ('Pharisee,' meaning 'separated one'), creating an ironic wordplay: God's separation of Paul preceded and superseded his self-separation as a Pharisee.",
+        "[TCR Cross-Reference] This verse quotes Jeremiah 1:5 — see the TCR rendering of that passage for the Hebrew source text and translation decisions.",
+        "[TCR Cross-Reference] This verse quotes Isaiah 49:1 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 16,
+      "text_greek": "ἀποκαλύψαι τὸν υἱὸν αὐτοῦ ἐν ἐμοί, ἵνα εὐαγγελίζωμαι αὐτὸν ἐν τοῖς ἔθνεσιν, εὐθέως οὐ προσανεθέμην σαρκὶ καὶ αἵματι,",
+      "text_kjv": "To reveal his Son in me, that I might preach him among the heathen; immediately I conferred not with flesh and blood:",
+      "rendering": "To reveal his Son in me, that I might preach him in the midst of the heathen. Immediately I conferred not with flesh and blood:.",
+      "translator_notes": [
+        "The phrase en emoi ('in me') rather than the expected 'to me' (moi) is striking — the revelation was not merely informational but internal and transformative. The Greek ethnesin ('nations, Gentiles') indicates that Paul's commission to the Gentiles was simultaneous with his call, not a later development. The idiom sarki kai haimati ('flesh and blood') means mortal humans — Paul did not seek human validation of his divine encounter."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 17,
+      "text_greek": "οὐδὲ ἀνῆλθον εἰς Ἱεροσόλυμα πρὸς τοὺς πρὸ ἐμοῦ ἀποστόλους, ἀλλὰ ἀπῆλθον εἰς Ἀραβίαν καὶ πάλιν ὑπέστρεψα εἰς Δαμασκόν.",
+      "text_kjv": "Neither went I up to Jerusalem to them which were apostles before me; but I went into Arabia, and returned again unto Damascus.",
+      "rendering": "Neither traveled I up to Jerusalem to them which were apostles prior to me. But I traveled into Arabia, and returned again to Damascus.",
+      "translator_notes": [
+        "The verb anēlthon ('went up') reflects Jerusalem's geographic and theological elevation — one always 'goes up' to Jerusalem. Paul's point is that he deliberately avoided the apostolic headquarters. 'Arabia' likely refers to the Nabatean kingdom east of Damascus, not necessarily the Arabian Peninsula. Paul's time in Arabia is unrecorded in Acts and its purpose is debated — possibly for reflection, possibly for early mission work."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 18,
+      "text_greek": "Ἔπειτα μετὰ τρία ἔτη ἀνῆλθον εἰς Ἱεροσόλυμα ἱστορῆσαι Κηφᾶν καὶ ἐπέμεινα πρὸς αὐτὸν ἡμέρας δεκαπέντε,",
+      "text_kjv": "Then after three years I went up to Jerusalem to see Peter, and abode with him fifteen days.",
+      "rendering": "Then after three years I went up to Jerusalem to get acquainted with Cephas and stayed with him fifteen days.",
+      "translator_notes": [
+        "The verb historēsai is significant — it means 'to inquire of, to get to know, to visit for the purpose of learning about someone.' It implies a purposeful visit to learn from Peter, but not to receive authorization. Paul uses the Aramaic name Kēphas (Cephas) rather than the Greek Petros (Peter), possibly reflecting the name's original use in the Jerusalem community. The fifteen-day visit is too brief for systematic instruction — Paul is arguing for independence, not dependence."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 19,
+      "text_greek": "ἕτερον δὲ τῶν ἀποστόλων οὐκ εἶδον εἰ μὴ Ἰάκωβον τὸν ἀδελφὸν τοῦ κυρίου.",
+      "text_kjv": "But other of the apostles saw I none, save James the Lord's brother.",
+      "rendering": "I did not see any other of the apostles except James, the Lord's brother.",
+      "translator_notes": [
+        "James (Iakōbos) is identified as 'the brother of the Lord' (ton adelphon tou kyriou), distinguishing him from James the son of Zebedee. Whether adelphos here means full brother, half-brother, or kinsman is debated across Christian traditions. Paul's limited contact — only Peter and James — reinforces his independence from the Jerusalem leadership. The phrase may also imply that James held apostolic status, though he was not one of the Twelve."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 20,
+      "text_greek": "ἃ δὲ γράφω ὑμῖν, ἰδοὺ ἐνώπιον τοῦ θεοῦ ὅτι οὐ ψεύδομαι.",
+      "text_kjv": "Now the things which I write unto you, behold, before God, I lie not.",
+      "rendering": "Now regarding what I am writing to you — before God, I am not lying.",
+      "translator_notes": [
+        "The solemn oath formula enōpion tou theou ('before God') invokes God as witness. That Paul feels compelled to swear he is telling the truth suggests the Galatians have heard a conflicting account of his early history — perhaps from the agitators who claimed Paul was dependent on Jerusalem and was now teaching a watered-down version of their gospel."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 21,
+      "text_greek": "ἔπειτα ἦλθον εἰς τὰ κλίματα τῆς Συρίας καὶ τῆς Κιλικίας.",
+      "text_kjv": "Afterwards I came into the regions of Syria and Cilicia;",
+      "rendering": "Then I went into the regions of Syria and Cilicia.",
+      "translator_notes": [
+        "Syria and Cilicia were the provinces surrounding Paul's hometown of Tarsus (in Cilicia) and the base church of Antioch (in Syria). Paul's point is geographic distance from Jerusalem — he was active in ministry far from the apostolic center, further demonstrating his independence."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 22,
+      "text_greek": "ἤμην δὲ ἀγνοούμενος τῷ προσώπῳ ταῖς ἐκκλησίαις τῆς Ἰουδαίας ταῖς ἐν Χριστῷ·",
+      "text_kjv": "And was unknown by face unto the churches of Judaea which were in Christ:",
+      "rendering": "I was still personally unknown to the churches of Judea that are in Christ.",
+      "translator_notes": [
+        "The phrase agnoumenos tō prosōpō ('unknown by face') means the Judean believers had not met Paul in person. The participle reinforces that Paul had no extended contact with the broader Jerusalem-area church. The phrase en Christō ('in Christ') marks these as specifically Christian assemblies, distinguished from the synagogues."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 23,
+      "text_greek": "μόνον δὲ ἀκούοντες ἦσαν ὅτι Ὁ διώκων ἡμᾶς ποτε νῦν εὐαγγελίζεται τὴν πίστιν ἥν ποτε ἐπόρθει,",
+      "text_kjv": "But they had heard only, That he which persecuted us in times past now preacheth the faith which once he destroyed.",
+      "rendering": "They only kept hearing, \"The one who once persecuted us is now proclaiming the faith he once tried to destroy.\"",
+      "translator_notes": [
+        "The article ho diōkōn ('the one persecuting') functions almost as a title — Paul was known as 'the Persecutor.' The irony is powerful: the faith (tēn pistin) he tried to destroy (eporthei, the same verb as 1:13) is now the message he proclaims. Paul's conversion is framed as the most compelling evidence for the gospel's divine power."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 24,
+      "text_greek": "καὶ ἐδόξαζον ἐν ἐμοὶ τὸν θεόν.",
+      "text_kjv": "And they glorified God in me.",
+      "rendering": "And they glorified God because of me.",
+      "translator_notes": [
+        "The phrase en emoi ('in me' or 'because of me') echoes the same phrase in verse 16 where God revealed his Son 'in me.' The chapter closes with a striking reversal: the Judean churches — who never met Paul — praised God for the very transformation that his Galatian opponents now question. Paul's former enemies became his unwitting character witnesses."
+      ],
+      "reading_level": "7th grade"
+    }
+  ]
+}

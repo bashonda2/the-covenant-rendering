@@ -1,0 +1,813 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Matthew",
+    "chapter": 26,
+    "source_text": "SBL Greek New Testament (SBLGNT)",
+    "reference_text": "KJV",
+    "generated_at": "2026-04-04T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Matthew 26 narrates the events leading to Jesus's arrest and trial. The chapter opens with the plot to kill Jesus, the anointing at Bethany, and Judas's agreement to betray him. Jesus then shares the Passover meal with his disciples, institutes the Lord's Supper, predicts Peter's denial, agonizes in prayer at Gethsemane, and is arrested. The chapter concludes with Jesus's trial before the high priest Caiaphas, Peter's three denials, and Peter's bitter weeping.",
+    "remarkable": "This chapter is dense with irony and theological significance. The woman who anoints Jesus performs a prophetic act that the disciples cannot understand — she is anointing him for burial while they debate the waste. Judas's betrayal price of thirty silver coins echoes Zechariah 11:12-13. The Last Supper reinterprets the Passover in terms of Jesus's own body and blood, establishing a 'new covenant.' Jesus's prayer in Gethsemane — 'not as I will, but as you will' — is the ultimate expression of submission to the Father. The arrest scene includes Jesus's enigmatic statement that he could summon twelve legions of angels but chooses not to, placing his suffering squarely within divine purpose.",
+    "friction": "The institution narrative (vv. 26-29) is among the most theologically disputed texts in Christianity — different traditions interpret 'this is my body' and 'this is my blood' in radically different ways (transubstantiation, consubstantiation, memorial, spiritual presence). We render the Greek without theological interpretation. The phrase 'blood of the covenant poured out for many' (v. 28) echoes both Exodus 24:8 (covenant blood) and Isaiah 53:12 (poured out for many). Jesus's statement 'the one who dipped his hand in the bowl with me' (v. 23) does not identify Judas publicly — in the reclining posture, multiple people shared the same dish.",
+    "connections": "The Passover setting connects to Exodus 12. The anointing echoes the anointing of priests and kings (Exodus 29, 1 Samuel 16). The thirty silver coins fulfill Zechariah 11:12. The cup language draws on Isaiah 51:17 and Jeremiah 25:15 (cup of God's wrath). Gethsemane ('oil press') connects to the Mount of Olives and the crushing imagery of Isaiah 53. Peter's denial fulfills Jesus's prediction and echoes the scattering of the sheep (Zechariah 13:7, quoted in v. 31). The trial before Caiaphas involves the Son of Man language of Daniel 7:13 and the right-hand imagery of Psalm 110:1.\n\n**Tradition comparisons:** The Latin Vulgate shaped Western theology here: Hoc est corpus meum became the central formula of Western Eucharistic theology. The words of institution, spoken by the priest in Latin at every Mass for over a millennium, were believed to effect the... See the [Vulgate Matthew](/vulgate/matthew). The JST modifies this chapter (Matthew 26:24): 'Good were it for that man if he had not been born' qualified regarding Judas See the [JST notes](/jst/matthew)."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_greek": "Καὶ ἐγένετο ὅτε ἐτέλεσεν ὁ Ἰησοῦς πάντας τοὺς λόγους τούτους, εἶπεν τοῖς μαθηταῖς αὐτοῦ·",
+      "text_kjv": "And it came to pass, when Jesus had finished all these sayings, he said unto his disciples,",
+      "rendering": "When Jesus had finished all these words, he said to his disciples,",
+      "translator_notes": [
+        "The formula kai egeneto hote etelesen ('and it happened when he finished') marks the conclusion of each of Jesus's five major discourses in Matthew (7:28, 11:1, 13:53, 19:1, 26:1). This is the fifth and final occurrence, signaling the end of Jesus's teaching ministry. The verb etelesen ('finished, completed') shares its root with tetelestai ('it is finished,' John 19:30)."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 2,
+      "text_greek": "Οἴδατε ὅτι μετὰ δύο ἡμέρας τὸ πάσχα γίνεται, καὶ ὁ υἱὸς τοῦ ἀνθρώπου παραδίδοται εἰς τὸ σταυρωθῆναι.",
+      "text_kjv": "Ye know that after two days is the feast of the passover, and the Son of man is betrayed to be crucified.",
+      "rendering": "\"You know that after two days the Passover is coming, and the Son of Man will be handed over to be crucified.\"",
+      "translator_notes": [
+        "Jesus yokes the Passover (to pascha) to his own crucifixion — the Passover lamb and the Son of Man converge. The present tense paradidotai ('is being handed over') suggests the process is already underway. The verb staurōthēnai ('to be crucified') is the first explicit prediction of crucifixion as the method of death in Matthew's passion narrative."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 3,
+      "text_greek": "Τότε συνήχθησαν οἱ ἀρχιερεῖς καὶ οἱ πρεσβύτεροι τοῦ λαοῦ εἰς τὴν αὐλὴν τοῦ ἀρχιερέως τοῦ λεγομένου Καϊάφα",
+      "text_kjv": "Then assembled together the chief priests, and the scribes, and the elders of the people, unto the palace of the high priest, who was called Caiaphas,",
+      "rendering": "Then the chief priests and the elders of the people gathered in the courtyard of the high priest, whose name was Caiaphas,",
+      "translator_notes": [
+        "The Greek aulēn ('courtyard, palace') refers to the enclosed court of the high priest's residence. Caiaphas (Joseph bar Caiaphas) served as high priest from approximately 18-36 AD — an unusually long tenure that suggests political skill. The SBLGNT does not include 'scribes' (grammateis), which appears in some manuscripts reflected in the KJV."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 4,
+      "text_greek": "καὶ συνεβουλεύσαντο ἵνα τὸν Ἰησοῦν δόλῳ κρατήσωσιν καὶ ἀποκτείνωσιν·",
+      "text_kjv": "And consulted that they might take Jesus by subtilty, and kill him.",
+      "rendering": "Plotted that they might take Jesus by subtilty, and kill him.",
+      "translator_notes": [
+        "The verb synebouleusanto ('they counseled together, they plotted') indicates a formal conspiracy. The word dolō ('by guile, by stealth, by treachery') reveals that even the authorities recognized they could not act openly — Jesus's popularity required covert action."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 5,
+      "text_greek": "ἔλεγον δέ· Μὴ ἐν τῇ ἑορτῇ, ἵνα μὴ θόρυβος γένηται ἐν τῷ λαῷ.",
+      "text_kjv": "But they said, Not on the feast day, lest there be an uproar among the people.",
+      "rendering": "But they said, \"Not during the festival, or there may be a riot among the people.\"",
+      "translator_notes": [
+        "The word heortē ('festival, feast') refers to Passover and the Feast of Unleavened Bread, when Jerusalem's population swelled with pilgrims. The fear of thorybos ('uproar, riot, tumult') reflects the political volatility of Passover — a celebration of liberation from oppression — under Roman occupation. Ironically, events will force them to act during the festival after all."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 6,
+      "text_greek": "Τοῦ δὲ Ἰησοῦ γενομένου ἐν Βηθανίᾳ ἐν οἰκίᾳ Σίμωνος τοῦ λεπροῦ,",
+      "text_kjv": "Now when Jesus was in Bethany, in the house of Simon the leper,",
+      "rendering": "In the house of simon the leper,, and now after Jesus was in Bethany.",
+      "translator_notes": [
+        "Bethany was a village about two miles east of Jerusalem on the Mount of Olives. Simon 'the leper' (tou leprou) was presumably healed — he would not host a dinner while ritually unclean. The designation likely preserves his former identity. This Simon is otherwise unknown."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 7,
+      "text_greek": "προσῆλθεν αὐτῷ γυνὴ ἔχουσα ἀλάβαστρον μύρου βαρυτίμου καὶ κατέχεεν ἐπὶ τῆς κεφαλῆς αὐτοῦ ἀνακειμένου.",
+      "text_kjv": "There came unto him a woman having an alabaster box of very precious ointment, and poured it on his head, as he sat at meat.",
+      "rendering": "There arrived to him a lady having an alabaster box of very costly ointment, and poured it on his head, as he sat at meat.",
+      "translator_notes": [
+        "Matthew does not name the woman (John 12:3 identifies her as Mary of Bethany). The alabastron ('alabaster flask') was a stone container with a sealed neck, broken open for use — a one-time expenditure. The myron barytimou ('very expensive ointment/perfume') was likely spikenard. Pouring it on Jesus's head (epi tēs kephalēs) evokes priestly and royal anointing (Exodus 29:7, 1 Samuel 16:13).",
+        "[TCR Cross-Reference] Draws on Exodus 29:7. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices.",
+        "[TCR Cross-Reference] Draws on 1 Samuel 16:13. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 8,
+      "text_greek": "ἰδόντες δὲ οἱ μαθηταὶ ἠγανάκτησαν λέγοντες· Εἰς τί ἡ ἀπώλεια αὕτη;",
+      "text_kjv": "But when his disciples saw it, they had indignation, saying, To what purpose is this waste?",
+      "rendering": "When the disciples saw this, they were indignant. \"Why this waste?\" they asked.",
+      "translator_notes": [
+        "Matthew attributes the indignation (ēganaktēsan) to the disciples generally, not to Judas specifically (as in John 12:4-5). The word apōleia ('waste, destruction, loss') is ironic — the same word is used for perdition and damnation elsewhere. What the disciples see as waste, Jesus will interpret as prophetic worship."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 9,
+      "text_greek": "ἐδύνατο γὰρ τοῦτο πραθῆναι πολλοῦ καὶ δοθῆναι πτωχοῖς.",
+      "text_kjv": "For this ointment might have been sold for much, and given to the poor.",
+      "rendering": "\"This could have been sold for a large sum and the money given to the poor.\"",
+      "translator_notes": [
+        "The Greek pollou ('for much') is vague where Mark 14:5 specifies 'more than 300 denarii' (nearly a year's wages). The argument — resources should go to the poor (ptōchois) rather than to extravagant gestures — sounds reasonable, which is what makes Jesus's response surprising."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 10,
+      "text_greek": "γνοὺς δὲ ὁ Ἰησοῦς εἶπεν αὐτοῖς· Τί κόπους παρέχετε τῇ γυναικί; ἔργον γὰρ καλὸν ἠργάσατο εἰς ἐμέ.",
+      "text_kjv": "When Jesus understood it, he said unto them, Why trouble ye the woman? for she hath wrought a good work upon me.",
+      "rendering": "Aware of this, Jesus said to them, \"Why are you troubling this woman? She has done a beautiful thing for me.",
+      "translator_notes": [
+        "The Greek ergon kalon ('good/beautiful work/deed') uses kalon, which means both 'good' and 'beautiful' — the act is morally good and aesthetically fitting. Jesus reframes the anointing from 'waste' to 'beauty,' countering the disciples' utilitarian calculus with a different set of values."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 11,
+      "text_greek": "πάντοτε γὰρ τοὺς πτωχοὺς ἔχετε μεθ' ἑαυτῶν, ἐμὲ δὲ οὐ πάντοτε ἔχετε·",
+      "text_kjv": "For ye have the poor always with you; but me ye have not always.",
+      "rendering": "For you will always have the poor with you, but you will not always have me.",
+      "translator_notes": [
+        "Jesus echoes Deuteronomy 15:11 ('the poor will never cease from the land'). This is not a dismissal of poverty relief but a recognition of the unique moment: Jesus's death is imminent, and the window for this act is closing. The contrast between pantote ('always') for the poor and ou pantote ('not always') for Jesus underscores the urgency.",
+        "[TCR Cross-Reference] Quotes Deuteronomy 15:11. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 12,
+      "text_greek": "βαλοῦσα γὰρ αὕτη τὸ μύρον τοῦτο ἐπὶ τοῦ σώματός μου πρὸς τὸ ἐνταφιάσαι με ἐποίησεν.",
+      "text_kjv": "For in that she hath poured this ointment on my body, she did it for my burial.",
+      "rendering": "By pouring this perfume on my body, she has done it to prepare me for burial.",
+      "translator_notes": [
+        "The verb entaphiasai ('to prepare for burial, to anoint for burial') reveals the prophetic dimension of her act. Whether the woman intended this meaning or not, Jesus interprets her anointing as anticipating his death — she has done what the disciples will not have the opportunity to do properly after the crucifixion."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 13,
+      "text_greek": "ἀμὴν λέγω ὑμῖν, ὅπου ἐὰν κηρυχθῇ τὸ εὐαγγέλιον τοῦτο ἐν ὅλῳ τῷ κόσμῳ, λαληθήσεται καὶ ὃ ἐποίησεν αὕτη εἰς μνημόσυνον αὐτῆς.",
+      "text_kjv": "Verily I say unto you, Wheresoever this gospel shall be preached in the whole world, there shall also this, that this woman hath done, be told for a memorial of her.",
+      "rendering": "Truly I tell you, wherever this gospel is proclaimed in the whole world, what she has done will also be told in memory of her.\"",
+      "translator_notes": [
+        "The phrase eis mnēmosynon autēs ('as a memorial of her') uses liturgical language — mnēmosynon is the word for a memorial offering. Jesus guarantees that this unnamed woman's act will be remembered worldwide and perpetually — a remarkable promise for a single spontaneous gesture. The prophecy itself fulfills itself: the story is being told."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 14,
+      "text_greek": "Τότε πορευθεὶς εἷς τῶν δώδεκα, ὁ λεγόμενος Ἰούδας Ἰσκαριώτης, πρὸς τοὺς ἀρχιερεῖς",
+      "text_kjv": "Then one of the twelve, called Judas Iscariot, went unto the chief priests,",
+      "rendering": "Went to the chief priests,, then one of the twelve, called Judas Iscariot.",
+      "translator_notes": [
+        "The placement of Judas's betrayal immediately after the anointing story creates a devastating juxtaposition: extravagant devotion versus calculated treachery. Matthew emphasizes Judas's identity — heis tōn dōdeka ('one of the Twelve') — the betrayer comes from the innermost circle. 'Iscariot' (Iskariōtēs) may derive from Hebrew 'ish Qeriyyot' ('man of Kerioth'), indicating his hometown."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 15,
+      "text_greek": "εἶπεν· Τί θέλετέ μοι δοῦναι κἀγὼ ὑμῖν παραδώσω αὐτόν; οἱ δὲ ἔστησαν αὐτῷ τριάκοντα ἀργύρια.",
+      "text_kjv": "And said unto them, What will ye give me, and I will deliver him unto you? And they covenanted with him for thirty pieces of silver.",
+      "rendering": "Stated to them, What will you give me, and I will deliver him to you? then they covenanted with him for thirty pieces of silver.",
+      "translator_notes": [
+        "Judas's question ti thelete moi dounai ('what are you willing to give me?') reduces betrayal to a transaction. The thirty silver coins (triakonta argyria) echoes Zechariah 11:12, where thirty pieces of silver is the contemptuous price for the shepherd of Israel — the price of a slave (Exodus 21:32). The verb estēsan ('they set, they weighed out, they paid') may indicate payment in advance.",
+        "[TCR Cross-Reference] This verse quotes Zechariah 11:12 — see the TCR rendering of that passage for the Hebrew source text and translation decisions.",
+        "[TCR Cross-Reference] This verse quotes Exodus 21:32 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 16,
+      "text_greek": "καὶ ἀπὸ τότε ἐζήτει εὐκαιρίαν ἵνα αὐτὸν παραδῷ.",
+      "text_kjv": "And from that time he sought opportunity to betray him.",
+      "rendering": "From that time on, he looked for an opportunity to hand Jesus over.",
+      "translator_notes": [
+        "The imperfect ezētei ('he was seeking, he kept looking for') indicates ongoing, deliberate effort. The word eukairian ('a good opportunity, a favorable moment') implies calculated patience — Judas needed a time when Jesus was away from the protective crowds."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 17,
+      "text_greek": "Τῇ δὲ πρώτῃ τῶν ἀζύμων προσῆλθον οἱ μαθηταὶ τῷ Ἰησοῦ λέγοντες· Ποῦ θέλεις ἑτοιμάσωμέν σοι φαγεῖν τὸ πάσχα;",
+      "text_kjv": "Now the first day of the feast of unleavened bread the disciples came to Jesus, saying unto him, Where wilt thou that we prepare for thee to eat the passover?",
+      "rendering": "On the first day of Unleavened Bread, the disciples came to Jesus and asked, \"Where do you want us to prepare for you to eat the Passover?\"",
+      "translator_notes": [
+        "The 'first day of Unleavened Bread' (prōtē tōn azymōn) technically refers to 15 Nisan, but colloquially included the preparation day (14 Nisan) when the Passover lamb was slaughtered. The question about preparation reflects the practical logistics: a room must be secured, a lamb purchased and sacrificed at the temple, and the meal prepared according to Passover regulations."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 18,
+      "text_greek": "ὁ δὲ εἶπεν· Ὑπάγετε εἰς τὴν πόλιν πρὸς τὸν δεῖνα καὶ εἴπατε αὐτῷ· Ὁ διδάσκαλος λέγει· Ὁ καιρός μου ἐγγύς ἐστιν, πρὸς σὲ ποιῶ τὸ πάσχα μετὰ τῶν μαθητῶν μου.",
+      "text_kjv": "And he said, Go into the city to such a man, and say unto him, The Master saith, My time is at hand; I will keep the passover at thy house with my disciples.",
+      "rendering": "He said, \"Go into the city to a certain man and tell him, 'The Teacher says: My time is near. I will observe the Passover at your house with my disciples.'\"",
+      "translator_notes": [
+        "The phrase ton deina ('a certain man, such-and-such a person') is deliberately vague in Matthew — Mark and Luke provide more detail about how to identify the host. The statement ho kairos mou engys estin ('my time is near') has a double meaning: the time for the Passover meal, and the time of his death. The word kairos ('appointed time, critical moment') is more theologically loaded than chronos ('sequential time')."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 19,
+      "text_greek": "καὶ ἐποίησαν οἱ μαθηταὶ ὡς συνέταξεν αὐτοῖς ὁ Ἰησοῦς καὶ ἡτοίμασαν τὸ πάσχα.",
+      "text_kjv": "And the disciples did as Jesus had appointed them; and they made ready the passover.",
+      "rendering": "The disciples did as Jesus directed them and prepared the Passover.",
+      "translator_notes": [
+        "The verb synetaxen ('directed, instructed, arranged') implies detailed instructions. The verb hētoimasan ('prepared') encompasses the full Passover preparation: procuring and roasting the lamb, preparing unleavened bread, bitter herbs, and wine, and setting the table according to tradition."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 20,
+      "text_greek": "Ὀψίας δὲ γενομένης ἀνέκειτο μετὰ τῶν δώδεκα.",
+      "text_kjv": "Now when the even was come, he sat down with the twelve.",
+      "rendering": "When evening came, he reclined at the table with the Twelve.",
+      "translator_notes": [
+        "The Passover meal began after sunset (the start of 15 Nisan in Jewish reckoning). The verb anekeito ('reclined') reflects the Hellenistic custom adopted for Passover — reclining on couches around a low table, a posture symbolizing freedom (slaves ate standing). 'The Twelve' (tōn dōdeka) includes Judas."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 21,
+      "text_greek": "καὶ ἐσθιόντων αὐτῶν εἶπεν· Ἀμὴν λέγω ὑμῖν ὅτι εἷς ἐξ ὑμῶν παραδώσει με.",
+      "text_kjv": "And as they did eat, he said, Verily I say unto you, that one of you shall betray me.",
+      "rendering": "While they were eating, he said, \"Truly I tell you, one of you will betray me.\"",
+      "translator_notes": [
+        "The announcement comes during the meal itself — the betrayer is eating the Passover with the one he will betray. The phrase heis ex hymōn ('one of you') is devastating: the threat comes from within, not from outside. The verb paradōsei ('will hand over') is the same word used throughout the passion narrative."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 22,
+      "text_greek": "καὶ λυπούμενοι σφόδρα ἤρξαντο λέγειν αὐτῷ εἷς ἕκαστος· Μήτι ἐγώ εἰμι, κύριε;",
+      "text_kjv": "And they were exceeding sorrowful, and began every one of them to say unto him, Lord, is it I?",
+      "rendering": "Deeply distressed, they began to say to him one after another, \"Surely not I, Lord?\"",
+      "translator_notes": [
+        "The particle mēti expects a negative answer ('it's not me, is it?') but betrays uncertainty — each disciple fears it might be possible. The adverb sphodra ('exceedingly, greatly') and the verb lypoumenoi ('being grieved, being distressed') capture the emotional shock. That each one asks individually (heis hekastos, 'each one') rather than pointing fingers reveals genuine self-doubt."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 23,
+      "text_greek": "ὁ δὲ ἀποκριθεὶς εἶπεν· Ὁ ἐμβάψας μετ' ἐμοῦ τὴν χεῖρα ἐν τῷ τρυβλίῳ οὗτός με παραδώσει.",
+      "text_kjv": "And he answered and said, He that dippeth his hand with me in the dish, the same shall betray me.",
+      "rendering": "He answered, \"The one who has dipped his hand into the bowl with me — he will betray me.",
+      "translator_notes": [
+        "The phrase ho embapsas ('the one having dipped') refers to the shared dish used during the Passover meal for dipping bread or bitter herbs. Since multiple people shared the same dish at a communal meal, this does not necessarily single out Judas to the other disciples. The poignancy is in the intimacy — sharing food was a bond of friendship and trust in ancient culture (cf. Psalm 41:9, 'Even my close friend who ate my bread has lifted his heel against me').",
+        "[TCR Cross-Reference] References Psalm 41:9 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 24,
+      "text_greek": "ὁ μὲν υἱὸς τοῦ ἀνθρώπου ὑπάγει καθὼς γέγραπται περὶ αὐτοῦ, οὐαὶ δὲ τῷ ἀνθρώπῳ ἐκείνῳ δι' οὗ ὁ υἱὸς τοῦ ἀνθρώπου παραδίδοται· καλὸν ἦν αὐτῷ εἰ οὐκ ἐγεννήθη ὁ ἄνθρωπος ἐκεῖνος.",
+      "text_kjv": "The Son of man goeth as it is written of him: but woe unto that man by whom the Son of man is betrayed! it had been good for that man if he had not been born.",
+      "rendering": "The Son of Man goes as it is written about him, but woe to that man by whom the Son of Man is betrayed! It would have been better for that man if he had not been born.\"",
+      "translator_notes": [
+        "Jesus holds divine sovereignty and human responsibility in tension: the Son of Man goes 'as it is written' (kathōs gegraptai) — his death fulfills Scripture — but the betrayer is still held accountable. The phrase kalon ēn autō ei ouk egennēthē ('it would have been good for him if he had not been born') is the most severe personal condemnation Jesus utters in the Gospels. The divine plan does not excuse the human agent."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 25,
+      "text_greek": "ἀποκριθεὶς δὲ Ἰούδας ὁ παραδιδοὺς αὐτὸν εἶπεν· Μήτι ἐγώ εἰμι, ῥαββί; λέγει αὐτῷ· Σὺ εἶπας.",
+      "text_kjv": "Then Judas, which betrayed him, answered and said, Master, is it I? He said unto him, Thou hast said.",
+      "rendering": "Judas, who was betraying him, answered, \"Surely not I, Rabbi?\" Jesus said to him, \"You have said it yourself.\"",
+      "translator_notes": [
+        "Judas asks the same question as the other disciples (mēti egō eimi, 'it isn't me, is it?') but addresses Jesus as 'Rabbi' (rhabbi) rather than 'Lord' (kyrie) as the others did (v. 22) — a subtle but possibly significant distinction in Matthew. Jesus's response sy eipas ('you have said it' or 'you yourself have said') is an affirmative that places the confession in Judas's own mouth. This exchange may have been quiet enough that the other disciples did not hear it clearly."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 26,
+      "text_greek": "Ἐσθιόντων δὲ αὐτῶν λαβὼν ὁ Ἰησοῦς ἄρτον καὶ εὐλογήσας ἔκλασεν καὶ δοὺς τοῖς μαθηταῖς εἶπεν· Λάβετε φάγετε, τοῦτό ἐστιν τὸ σῶμά μου.",
+      "text_kjv": "And as they were eating, Jesus took bread, and blessed it, and brake it, and gave it to the disciples, and said, Take, eat; this is my body.",
+      "rendering": "While they were eating, Jesus took bread, blessed it, broke it, and gave it to the disciples, saying, \"Take, eat. This is my body.\"",
+      "translator_notes": [
+        "The four actions — took (labōn), blessed (eulogēsas), broke (eklasen), gave (dous) — become the liturgical pattern for the Eucharist/Lord's Supper across all Christian traditions. The blessing (eulogēsas) is the standard Jewish berakah ('Blessed are you, LORD our God, King of the universe, who brings forth bread from the earth'). The declaration touto estin to sōma mou ('this is my body') is rendered without interpretive addition — whether 'is' (estin) means 'is identical with,' 'represents,' or 'becomes' is the central question of eucharistic theology, and the Greek does not resolve it."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 27,
+      "text_greek": "καὶ λαβὼν ποτήριον καὶ εὐχαριστήσας ἔδωκεν αὐτοῖς λέγων· Πίετε ἐξ αὐτοῦ πάντες,",
+      "text_kjv": "And he took the cup, and gave thanks, and gave it to them, saying, Drink ye all of it;",
+      "rendering": "Then he took a cup, gave thanks, and gave it to them, saying, \"Drink from it, all of you.",
+      "translator_notes": [
+        "The verb eucharistēsas ('having given thanks') is the source of the word 'Eucharist.' For the bread Jesus 'blessed' (eulogēsas); for the cup he 'gave thanks' (eucharistēsas) — the two verbs are essentially synonymous in this context. The command piete ex autou pantes ('drink from it, all of you') emphasizes universal participation — the cup is for everyone, not just select members."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 28,
+      "text_greek": "τοῦτο γάρ ἐστιν τὸ αἷμά μου τῆς διαθήκης τὸ περὶ πολλῶν ἐκχυννόμενον εἰς ἄφεσιν ἁμαρτιῶν.",
+      "text_kjv": "For this is my blood of the new testament, which is shed for many for the remission of sins.",
+      "rendering": "For this is my blood of the covenant, which is poured out for many for the forgiveness of sins.",
+      "expanded_rendering": "The Greek diathēkē translates the Hebrew berit — the solemn, binding covenant between God and his people. By declaring the cup 'my blood of the covenant,' Jesus claims that his death inaugurates a new covenant relationship, just as the original covenant at Sinai was ratified with blood. The 'many' for whom it is poured out echoes the Suffering Servant of Isaiah 53 who 'bore the sin of many.'",
+      "translator_notes": [
+        "The phrase to haima mou tēs diathēkēs ('my blood of the covenant') echoes Exodus 24:8, where Moses sprinkled 'the blood of the covenant' on the people at Sinai. Jesus reinterprets the covenant blood as his own. The SBLGNT does not include 'new' (kainēs) before 'covenant,' though some manuscripts include it (cf. Luke 22:20, 'the new covenant in my blood'). The participle ekchynnomenon ('being poured out') uses sacrificial language. The phrase peri pollōn ('for many') echoes Isaiah 53:12. The phrase eis aphesin hamartiōn ('for the forgiveness of sins') is unique to Matthew's institution narrative.",
+        "[TCR Cross-Reference] References Exodus 24:8 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved.",
+        "[TCR Cross-Reference] References Isaiah 53:12 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "key_terms": [
+        {
+          "greek": "διαθήκη",
+          "transliteration": "diathēkē",
+          "rendered_as": "covenant",
+          "semantic_range": "covenant, testament, will, binding agreement",
+          "note": "The Greek diathēkē can mean both 'covenant' (mutual binding agreement) and 'testament/will' (one-sided disposition). The Septuagint uses it to translate the Hebrew berit. Here the covenantal sense dominates, linking Jesus's blood to the covenant-making tradition of the Old Testament."
+        },
+        {
+          "greek": "ἄφεσις",
+          "transliteration": "aphesis",
+          "rendered_as": "forgiveness",
+          "semantic_range": "release, forgiveness, remission, pardon, letting go",
+          "note": "From aphiēmi ('to send away, to release'). The word carries the sense of debts being cancelled or prisoners being freed — forgiveness as liberation, not just acquittal."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 29,
+      "text_greek": "λέγω δὲ ὑμῖν, οὐ μὴ πίω ἀπ' ἄρτι ἐκ τούτου τοῦ γενήματος τῆς ἀμπέλου ἕως τῆς ἡμέρας ἐκείνης ὅταν αὐτὸ πίνω μεθ' ὑμῶν καινὸν ἐν τῇ βασιλείᾳ τοῦ πατρός μου.",
+      "text_kjv": "But I say unto you, I will not drink henceforth of this fruit of the vine, until that day when I drink it new with you in my Father's kingdom.",
+      "rendering": "I tell you, from now on I will not drink of this fruit of the vine until that day when I drink it new with you in my Father's kingdom.\"",
+      "translator_notes": [
+        "The vow of abstinence (ou mē piō, 'I will certainly not drink') transforms the meal into both a farewell and a promise. The phrase genēmatos tēs ampelou ('fruit of the vine') is the standard Jewish blessing formula for wine. The adverb kainon ('new') may modify the wine (new wine in the kingdom) or the drinking (drink it in a new way). The promise meth' hymōn ('with you') assures reunion — this is not a final farewell but a temporary separation."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 30,
+      "text_greek": "Καὶ ὑμνήσαντες ἐξῆλθον εἰς τὸ Ὄρος τῶν Ἐλαιῶν.",
+      "text_kjv": "And when they had sung an hymn, they went out into the mount of Olives.",
+      "rendering": "After singing a hymn, they went out to the Mount of Olives.",
+      "translator_notes": [
+        "The hymn (hymnēsantes) is almost certainly the Hallel — Psalms 113-118, traditionally sung at the conclusion of the Passover meal. Psalms 115-118 would have been the final portion. The group leaves the upper room and walks east across the Kidron Valley to the Mount of Olives, about a fifteen-minute walk.",
+        "[TCR Cross-Reference] This verse quotes Psalms 113-118 — see the TCR rendering of that passage for the Hebrew source text and translation decisions.",
+        "[TCR Cross-Reference] This verse quotes Psalms 115-118 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 31,
+      "text_greek": "Τότε λέγει αὐτοῖς ὁ Ἰησοῦς· Πάντες ὑμεῖς σκανδαλισθήσεσθε ἐν ἐμοὶ ἐν τῇ νυκτὶ ταύτῃ, γέγραπται γάρ· Πατάξω τὸν ποιμένα, καὶ διασκορπισθήσονται τὰ πρόβατα τῆς ποίμνης.",
+      "text_kjv": "Then saith Jesus unto them, All ye shall be offended because of me this night: for it is written, I will smite the shepherd, and the sheep of the flock shall be scattered abroad.",
+      "rendering": "Then Jesus said to them, \"You will all fall away because of me this night, for it is written: 'I will strike the shepherd, and the sheep of the flock will be scattered.'",
+      "translator_notes": [
+        "The verb skandalisthēsesthe ('you will be caused to stumble, you will fall away') predicts total abandonment by all the disciples. Jesus quotes Zechariah 13:7, but with a significant change: the original has 'Strike the shepherd' (imperative), while Matthew has 'I will strike the shepherd' (pataxō, first person) — God himself is the agent who strikes. The scattering of the sheep (diaskorpisthēsontai) will be fulfilled in verse 56.",
+        "[TCR Cross-Reference] Quotes Zechariah 13:7. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 32,
+      "text_greek": "μετὰ δὲ τὸ ἐγερθῆναί με προάξω ὑμᾶς εἰς τὴν Γαλιλαίαν.",
+      "text_kjv": "But after I am risen again, I will go before you into Galilee.",
+      "rendering": "But after I am raised up, I will go ahead of you to Galilee.\"",
+      "translator_notes": [
+        "The passive egerthēnai ('to be raised') is a divine passive — God will raise Jesus. The promise proaxō hymas ('I will go before you') uses shepherd imagery: the shepherd goes ahead and the sheep follow (cf. John 10:4). This promise anticipates the resurrection appearances in Galilee (28:7, 10, 16)."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 33,
+      "text_greek": "ἀποκριθεὶς δὲ ὁ Πέτρος εἶπεν αὐτῷ· Εἰ πάντες σκανδαλισθήσονται ἐν σοί, ἐγὼ οὐδέποτε σκανδαλισθήσομαι.",
+      "text_kjv": "Peter answered and said unto him, Though all men shall be offended because of thee, yet will I never be offended.",
+      "rendering": "Peter answered him, \"Even if everyone else falls away because of you, I will never fall away.\"",
+      "translator_notes": [
+        "Peter's emphatic egō oudepote ('I — never!') places himself above the other disciples. The contrast between pantes ('all') and egō ('I') reveals Peter's self-confidence. The adverb oudepote ('never, at no time') is absolute — Peter makes a claim Jesus will prove false within hours."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 34,
+      "text_greek": "ἔφη αὐτῷ ὁ Ἰησοῦς· Ἀμὴν λέγω σοι ὅτι ἐν ταύτῃ τῇ νυκτὶ πρὶν ἀλέκτορα φωνῆσαι τρὶς ἀπαρνήσῃ με.",
+      "text_kjv": "Jesus said unto him, Verily I say unto thee, That this night, before the cock crow, thou shalt deny me thrice.",
+      "rendering": "Jesus said to him, \"Truly I tell you, this very night, before the rooster crows, you will deny me three times.\"",
+      "translator_notes": [
+        "Jesus counters Peter's 'never' with a precise timeframe: en tautē tē nykti ('on this very night'). The rooster's crow (alektora phonēsai) typically occurs in the early morning hours, around 3:00 AM (the Roman 'cockcrow' watch). The triple denial (tris aparnēsē, 'three times you will deny') will be fulfilled in verses 69-75."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 35,
+      "text_greek": "λέγει αὐτῷ ὁ Πέτρος· Κἂν δέῃ με σὺν σοὶ ἀποθανεῖν, οὐ μή σε ἀπαρνήσομαι. ὁμοίως καὶ πάντες οἱ μαθηταὶ εἶπαν.",
+      "text_kjv": "Peter said unto him, Though I should die with thee, yet will I not deny thee. Likewise also said all the disciples.",
+      "rendering": "Peter said to him, \"Even if I must die with you, I will never deny you.\" And all the disciples said the same thing.",
+      "translator_notes": [
+        "Peter doubles down with the strongest possible claim: willingness to die (kan deē me syn soi apothanein, 'even if it is necessary for me to die with you'). The double negative ou mē ('absolutely not') matches Jesus's own emphatic formulations. The phrase homoiōs kai pantes ('likewise also all') indicates unanimous agreement — every disciple makes the same pledge, and every one will fail to keep it."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 36,
+      "text_greek": "Τότε ἔρχεται μετ' αὐτῶν ὁ Ἰησοῦς εἰς χωρίον λεγόμενον Γεθσημανί καὶ λέγει τοῖς μαθηταῖς· Καθίσατε αὐτοῦ ἕως οὗ ἀπελθὼν ἐκεῖ προσεύξωμαι.",
+      "text_kjv": "Then cometh Jesus with them unto a place called Gethsemane, and saith unto the disciples, Sit ye here, while I go and pray yonder.",
+      "rendering": "Then Jesus came with them to a place called Gethsemane, and he said to the disciples, \"Sit here while I go over there and pray.\"",
+      "translator_notes": [
+        "The name Gethsēmani (Γεθσημανί) comes from the Aramaic gat shemanim ('oil press'), a fitting name for a place on the Mount of Olives and grimly appropriate for what will happen there — Jesus is about to be pressed to the point of anguish. The chōrion ('place, piece of land') was apparently a garden or estate they had visited before (cf. John 18:2, 'Jesus often met there with his disciples')."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 37,
+      "text_greek": "καὶ παραλαβὼν τὸν Πέτρον καὶ τοὺς δύο υἱοὺς Ζεβεδαίου ἤρξατο λυπεῖσθαι καὶ ἀδημονεῖν.",
+      "text_kjv": "And he took with him Peter and the two sons of Zebedee, and began to be sorrowful and very heavy.",
+      "rendering": "Taking Peter and the two sons of Zebedee with him, he began to be sorrowful and deeply troubled.",
+      "translator_notes": [
+        "The inner circle — Peter, James, and John (the two sons of Zebedee) — are the same three who witnessed the Transfiguration (17:1-8). They have seen his glory; now they will see his agony. The verb lypeisthai ('to be grieved, to be sorrowful') and adēmonein ('to be distressed, to be in anguish') together describe intense emotional suffering. The word adēmonein may derive from a root meaning 'away from home' — a profound disorientation and alienation."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 38,
+      "text_greek": "τότε λέγει αὐτοῖς· Περίλυπός ἐστιν ἡ ψυχή μου ἕως θανάτου· μείνατε ὧδε καὶ γρηγορεῖτε μετ' ἐμοῦ.",
+      "text_kjv": "Then saith he unto them, My soul is exceeding sorrowful, even unto death: stay ye here, and watch with me.",
+      "rendering": "Then he said to them, \"My soul is overwhelmed with sorrow to the point of death. Stay here and keep watch with me.\"",
+      "translator_notes": [
+        "The phrase perilypos estin hē psychē mou heōs thanatou ('my soul is sorrowful to the point of death') echoes Psalm 42:5-6 and Jonah 4:9. The preposition heōs ('unto, as far as, to the point of') suggests grief so intense it approaches death — emotional suffering that threatens to be fatal. The request grēgoreite met' emou ('keep watch with me') uses the same verb from the parables of readiness (24:42, 25:13) — now applied to personal accompaniment in suffering.",
+        "[TCR Cross-Reference] References Psalm 42:5-6 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved.",
+        "[TCR Cross-Reference] References Jonah 4:9 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 39,
+      "text_greek": "καὶ προελθὼν μικρὸν ἔπεσεν ἐπὶ πρόσωπον αὐτοῦ προσευχόμενος καὶ λέγων· Πάτερ μου, εἰ δυνατόν ἐστιν, παρελθάτω ἀπ' ἐμοῦ τὸ ποτήριον τοῦτο· πλὴν οὐχ ὡς ἐγὼ θέλω ἀλλ' ὡς σύ.",
+      "text_kjv": "And he went a little further, and fell on his face, and prayed, saying, O my Father, if it be possible, let this cup pass from me: nevertheless not as I will, but as thou wilt.",
+      "rendering": "Going a little farther, he fell face down and prayed, \"My Father, if it is possible, let this cup pass from me. Yet not as I will, but as you will.\"",
+      "translator_notes": [
+        "The posture — epesen epi prosōpon ('fell on his face') — expresses total prostration before God. The 'cup' (potērion) is a well-established Old Testament metaphor for suffering and divine judgment (Psalm 75:8, Isaiah 51:17, Jeremiah 25:15). Jesus asks for the cup to 'pass' (parelthato) — the same verb used for heaven and earth passing away in 24:35. The concluding clause ouch hōs egō thelō all' hōs sy ('not as I will but as you [will]') is the supreme expression of human will yielding to divine will. Jesus's humanity is fully engaged — his will must actively submit.",
+        "[TCR Cross-Reference] Echoes Psalm 75:8. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale.",
+        "[TCR Cross-Reference] Echoes Isaiah 51:17. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale.",
+        "[TCR Cross-Reference] Echoes Jeremiah 25:15. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 40,
+      "text_greek": "καὶ ἔρχεται πρὸς τοὺς μαθητὰς καὶ εὑρίσκει αὐτοὺς καθεύδοντας, καὶ λέγει τῷ Πέτρῳ· Οὕτως οὐκ ἰσχύσατε μίαν ὥραν γρηγορῆσαι μετ' ἐμοῦ;",
+      "text_kjv": "And he cometh unto the disciples, and findeth them asleep, and saith unto Peter, What, could ye not watch with me one hour?",
+      "rendering": "Then he came to the disciples and found them sleeping, and he said to Peter, \"So, could you not keep watch with me for one hour?",
+      "translator_notes": [
+        "Jesus addresses Peter specifically — the one who had pledged to die with him (v. 35) cannot even stay awake. The question carries more grief than anger. The plural ischysate ('could you [all] not?') extends the rebuke beyond Peter to all three. The 'one hour' (mian hōran) is a small ask compared to the death Peter had promised to face."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 41,
+      "text_greek": "γρηγορεῖτε καὶ προσεύχεσθε, ἵνα μὴ εἰσέλθητε εἰς πειρασμόν· τὸ μὲν πνεῦμα πρόθυμον ἡ δὲ σὰρξ ἀσθενής.",
+      "text_kjv": "Watch and pray, that ye enter not into temptation: the spirit indeed is willing, but the flesh is weak.",
+      "rendering": "Stay awake and pray that you may not enter into temptation. The spirit is willing, but the flesh is weak.\"",
+      "translator_notes": [
+        "The imperative pair grēgoreite kai proseuchesthe ('stay awake and pray') links vigilance with prayer — one without the other is insufficient. The peirasmon ('testing, trial, temptation') refers to the coming crisis that will test their loyalty. The maxim to men pneuma prothymon hē de sarx asthenēs ('the spirit is willing but the flesh is weak') acknowledges the gap between intention and capacity — precisely the gap Peter will experience. This is not a philosophical dualism but a pastoral observation."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 42,
+      "text_greek": "πάλιν ἐκ δευτέρου ἀπελθὼν προσηύξατο λέγων· Πάτερ μου, εἰ οὐ δύναται τοῦτο παρελθεῖν ἐὰν μὴ αὐτὸ πίω, γενηθήτω τὸ θέλημά σου.",
+      "text_kjv": "He went away again the second time, and prayed, saying, O my Father, if this cup may not pass away from me, except I drink it, thy will be done.",
+      "rendering": "Again, a second time, he went away and prayed, \"My Father, if this cannot pass unless I drink it, your will be done.\"",
+      "translator_notes": [
+        "The second prayer shifts from conditional ('if it is possible') to acceptance ('if this cannot pass unless I drink it'). The closing genēthētō to thelēma sou ('your will be done') echoes the Lord's Prayer (6:10) — Jesus practices what he taught. The movement from first to second prayer shows the process of submission: not instantaneous capitulation but a wrestling that arrives at obedience."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 43,
+      "text_greek": "καὶ ἐλθὼν πάλιν εὗρεν αὐτοὺς καθεύδοντας, ἦσαν γὰρ αὐτῶν οἱ ὀφθαλμοὶ βεβαρημένοι.",
+      "text_kjv": "And he came and found them asleep again: for their eyes were heavy.",
+      "rendering": "Again he came and found them sleeping, for their eyes were heavy.",
+      "translator_notes": [
+        "The participle bebarēmenoi ('weighed down, heavy') describes exhaustion that overcomes willpower. The repeated discovery of sleeping disciples intensifies Jesus's isolation — he faces the crisis alone. There is no recorded rebuke this time."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 44,
+      "text_greek": "καὶ ἀφεὶς αὐτοὺς πάλιν ἀπελθὼν προσηύξατο ἐκ τρίτου τὸν αὐτὸν λόγον εἰπὼν πάλιν.",
+      "text_kjv": "And he left them, and went away again, and prayed the third time, saying the same words.",
+      "rendering": "So he left them and went away once more, praying a third time, saying the same thing again.",
+      "translator_notes": [
+        "The threefold prayer (ek tritou, 'for the third time') parallels the threefold denial that Peter will soon make (vv. 69-75). Where Jesus prays three times and submits to God's will, Peter will deny three times and fail. The phrase ton auton logon ('the same word/statement') indicates that the prayer did not change — the repetition is not rote but persistence."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 45,
+      "text_greek": "τότε ἔρχεται πρὸς τοὺς μαθητὰς καὶ λέγει αὐτοῖς· Καθεύδετε τὸ λοιπὸν καὶ ἀναπαύεσθε· ἰδοὺ ἤγγικεν ἡ ὥρα καὶ ὁ υἱὸς τοῦ ἀνθρώπου παραδίδοται εἰς χεῖρας ἁμαρτωλῶν.",
+      "text_kjv": "Then cometh he to his disciples, and saith unto them, Sleep on now, and take your rest: behold, the hour is at hand, and the Son of man is betrayed into the hands of sinners.",
+      "rendering": "Then he came to the disciples and said to them, \"Are you still sleeping and resting? See, the hour is at hand, and the Son of Man is being betrayed into the hands of sinners.",
+      "translator_notes": [
+        "The Greek katheudete to loipon kai anapauesthe can be read as a command ('sleep on and rest' — resigned permission), a question ('are you still sleeping?'), or ironic ('go ahead and sleep, if you can — it's too late'). We render it as a question, following the likely tone given the urgency of what follows. The phrase hē hōra ('the hour') is the decisive moment Jesus has been anticipating. The present tense paradidotai ('is being handed over') indicates the betrayal is happening now."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 46,
+      "text_greek": "ἐγείρεσθε ἄγωμεν· ἰδοὺ ἤγγικεν ὁ παραδιδούς με.",
+      "text_kjv": "Rise, let us be going: behold, he is at hand that doth betray me.",
+      "rendering": "Get up, let us go. See, my betrayer is near.\"",
+      "translator_notes": [
+        "The imperatives egeiresthe ('rise, get up') and agōmen ('let us go') are not flight but advance — Jesus walks toward his betrayer, not away from him. The participle ho paradidous ('the one handing over, the betrayer') identifies Judas without naming him. The verb ēggiken ('has drawn near, is at hand') is the same verb used for the kingdom of heaven being near (4:17) — an ironic echo."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 47,
+      "text_greek": "Καὶ ἔτι αὐτοῦ λαλοῦντος ἰδοὺ Ἰούδας εἷς τῶν δώδεκα ἦλθεν καὶ μετ' αὐτοῦ ὄχλος πολὺς μετὰ μαχαιρῶν καὶ ξύλων ἀπὸ τῶν ἀρχιερέων καὶ πρεσβυτέρων τοῦ λαοῦ.",
+      "text_kjv": "And while he yet spake, lo, Judas, one of the twelve, came, and with him a great multitude with swords and staves, from the chief priests and elders of the people.",
+      "rendering": "While he was still speaking, suddenly Judas, one of the Twelve, arrived, and with him a large crowd armed with swords and clubs, sent from the chief priests and elders of the people.",
+      "translator_notes": [
+        "The phrase eti autou lalountos ('while he was still speaking') emphasizes the immediacy — Jesus barely finishes speaking before Judas appears. The repeated identification heis tōn dōdeka ('one of the Twelve') drives home the betrayal's origin. The ochlos polys ('large crowd') with swords (machairōn) and clubs (xylōn) suggests a mixed force: temple police with swords and perhaps hired assistants with wooden clubs."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 48,
+      "text_greek": "ὁ δὲ παραδιδοὺς αὐτὸν ἔδωκεν αὐτοῖς σημεῖον λέγων· Ὃν ἂν φιλήσω αὐτός ἐστιν· κρατήσατε αὐτόν.",
+      "text_kjv": "Now he that betrayed him gave them a sign, saying, Whomsoever I shall kiss, that same is he: hold him fast.",
+      "rendering": "Now the betrayer had given them a sign, saying, \"The one I kiss — that is the man. Seize him.\"",
+      "translator_notes": [
+        "The pre-arranged signal (sēmeion, 'sign') uses the act of friendship — a kiss (philēsō, from phileō, 'to love, to show affection') — as the instrument of betrayal. The cruel inversion of an intimate gesture into a marker for arrest is universally recognized as one of history's most treacherous acts. The imperative kratēsate ('seize him, arrest him') reveals Judas directing the arrest operation."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 49,
+      "text_greek": "καὶ εὐθέως προσελθὼν τῷ Ἰησοῦ εἶπεν· Χαῖρε, ῥαββί, καὶ κατεφίλησεν αὐτόν.",
+      "text_kjv": "And forthwith he came to Jesus, and said, Hail, master; and kissed him.",
+      "rendering": "Immediately he went up to Jesus and said, \"Greetings, Rabbi!\" and kissed him.",
+      "translator_notes": [
+        "The greeting chaire ('greetings, hail, rejoice') and the address rhabbi ('Rabbi') maintain the pretense of respect. The verb katephilēsen ('kissed') is intensified with the prefix kata-, suggesting an emphatic or prolonged kiss — making certain the crowd identifies the right person. Once again Judas addresses Jesus as 'Rabbi' rather than 'Lord' (cf. v. 25)."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 50,
+      "text_greek": "ὁ δὲ Ἰησοῦς εἶπεν αὐτῷ· Ἑταῖρε, ἐφ' ὃ πάρει. τότε προσελθόντες ἐπέβαλον τὰς χεῖρας ἐπὶ τὸν Ἰησοῦν καὶ ἐκράτησαν αὐτόν.",
+      "text_kjv": "And Jesus said unto him, Friend, wherefore art thou come? Then came they, and laid hands on Jesus, and took him.",
+      "rendering": "Jesus said to him, \"Friend, do what you came to do.\" Then they came forward, seized Jesus, and arrested him.",
+      "translator_notes": [
+        "The address hetaire ('friend, companion') is the same ominous word used in 20:13 and 22:12 — a term of address that acknowledges the relationship while confronting the violation. The phrase eph' ho parei is notoriously difficult to translate: it could be a question ('why have you come?'), a command ('do what you came for'), or a statement ('this is why you have come'). We follow the imperatival reading, which fits the context of Jesus actively accepting his fate. The arrest (ekratēsan, 'they seized') follows immediately."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 51,
+      "text_greek": "καὶ ἰδοὺ εἷς τῶν μετὰ Ἰησοῦ ἐκτείνας τὴν χεῖρα ἀπέσπασεν τὴν μάχαιραν αὐτοῦ καὶ πατάξας τὸν δοῦλον τοῦ ἀρχιερέως ἀφεῖλεν αὐτοῦ τὸ ὠτίον.",
+      "text_kjv": "And, behold, one of them which were with Jesus stretched out his hand, and drew his sword, and struck a servant of the high priest's, and smote off his ear.",
+      "rendering": "Suddenly, one of those with Jesus reached for his sword, drew it, and struck the servant of the high priest, cutting off his ear.",
+      "translator_notes": [
+        "Matthew does not identify the swordsman (John 18:10 names him as Peter). The action is impulsive: ekteineas ('stretching out his hand'), apespasen ('drew'), pataxas ('struck'). The doulos tou archierōs ('servant of the high priest') is named Malchus in John's account. The ōtion ('ear') could mean the entire ear or the earlobe. The act of violence represents the disciples' instinct to fight — the very response Jesus will reject."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 52,
+      "text_greek": "τότε λέγει αὐτῷ ὁ Ἰησοῦς· Ἀπόστρεψον τὴν μάχαιράν σου εἰς τὸν τόπον αὐτῆς· πάντες γὰρ οἱ λαβόντες μάχαιραν ἐν μαχαίρῃ ἀπολοῦνται.",
+      "text_kjv": "Then said Jesus unto him, Put up again thy sword into his place: for all they that take the sword shall perish with the sword.",
+      "rendering": "Then Jesus said to him, \"Put your sword back in its place, for all who draw the sword will die by the sword.",
+      "translator_notes": [
+        "The command apostrepson ('put back, return') rejects armed resistance. The proverbial statement pantes hoi labontes machairan en machairē apolountai ('all who take up the sword will perish by the sword') functions as a principle of reciprocal violence — those who initiate violence will meet violence. Jesus refuses to be defended by force even when his life is at stake."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 53,
+      "text_greek": "ἢ δοκεῖς ὅτι οὐ δύναμαι παρακαλέσαι τὸν πατέρα μου, καὶ παραστήσει μοι ἄρτι πλείω δώδεκα λεγιῶνας ἀγγέλων;",
+      "text_kjv": "Thinkest thou that I cannot now pray to my Father, and he shall presently give me more than twelve legions of angels?",
+      "rendering": "Do you think that I cannot appeal to my Father, and he will at once send me more than twelve legions of angels?",
+      "translator_notes": [
+        "A Roman legion (legiōn) consisted of approximately 6,000 soldiers, so twelve legions would be over 72,000 angels. The number twelve may correspond to the twelve disciples — one legion for each. Jesus's point is not military calculation but the voluntary nature of his suffering: he has access to overwhelming supernatural force but chooses not to use it. The verb parakalesai ('to call alongside, to appeal to, to ask') indicates that help is available for the asking."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 54,
+      "text_greek": "πῶς οὖν πληρωθῶσιν αἱ γραφαὶ ὅτι οὕτως δεῖ γενέσθαι;",
+      "text_kjv": "But how then shall the scriptures be fulfilled, that thus it must be?",
+      "rendering": "But then how would the Scriptures be fulfilled that say it must happen this way?\"",
+      "translator_notes": [
+        "The rhetorical question reveals Jesus's interpretive framework: the Scriptures (hai graphai) require (dei, 'it is necessary') that events unfold this way. Jesus's submission to arrest is not weakness but obedience to the scriptural plan. The verb plērōthōsin ('be fulfilled') connects to Matthew's fulfillment theology throughout the Gospel."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 55,
+      "text_greek": "Ἐν ἐκείνῃ τῇ ὥρᾳ εἶπεν ὁ Ἰησοῦς τοῖς ὄχλοις· Ὡς ἐπὶ λῃστὴν ἐξήλθατε μετὰ μαχαιρῶν καὶ ξύλων συλλαβεῖν με; καθ' ἡμέραν ἐν τῷ ἱερῷ ἐκαθεζόμην διδάσκων καὶ οὐκ ἐκρατήσατέ με.",
+      "text_kjv": "In that same hour said Jesus to the multitudes, Are ye come out as against a thief with swords and staves for to take me? I sat daily with you teaching in the temple, and ye laid no hold on me.",
+      "rendering": "At that hour Jesus said to the crowds, \"Have you come out as if against a rebel, with swords and clubs to arrest me? Day after day I sat in the temple teaching, and you did not arrest me.",
+      "translator_notes": [
+        "The word lēstēn ('bandit, rebel, insurrectionist') is the same word used for the men crucified alongside Jesus (27:38) and for those who made the temple a 'den of bandits' (21:13). Jesus points out the absurdity: he was publicly available every day in the temple, but they come at night with weapons as if he were a dangerous revolutionary. The contrast between his public teaching and their covert arrest exposes the injustice of the proceedings."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 56,
+      "text_greek": "τοῦτο δὲ ὅλον γέγονεν ἵνα πληρωθῶσιν αἱ γραφαὶ τῶν προφητῶν. Τότε οἱ μαθηταὶ πάντες ἀφέντες αὐτὸν ἔφυγον.",
+      "text_kjv": "But all this was done, that the scriptures of the prophets might be fulfilled. Then all the disciples forsook him, and fled.",
+      "rendering": "But all this has happened so that the writings of the prophets would be fulfilled.\" Then all the disciples abandoned him and fled.",
+      "translator_notes": [
+        "The fulfillment formula (hina plērōthōsin) appears here for the last time in the passion narrative. The statement hoi mathētai pantes aphentes auton ephygon ('the disciples all, having left him, fled') fulfills both Jesus's prediction (v. 31) and Zechariah's prophecy (13:7). The word pantes ('all') is emphatic — no exceptions, despite the pledges of verses 33-35."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 57,
+      "text_greek": "Οἱ δὲ κρατήσαντες τὸν Ἰησοῦν ἀπήγαγον πρὸς Καϊάφαν τὸν ἀρχιερέα, ὅπου οἱ γραμματεῖς καὶ οἱ πρεσβύτεροι συνήχθησαν.",
+      "text_kjv": "And they that had laid hold on Jesus led him away to Caiaphas the high priest, where the scribes and the elders were assembled.",
+      "rendering": "Those who had arrested Jesus led him away to Caiaphas the high priest, where the scribes and elders had gathered.",
+      "translator_notes": [
+        "The verb apēgagon ('led away') implies forcible removal. Caiaphas the high priest is the same figure from verse 3 — the plot has reached its execution. The scribes (grammateis) and elders (presbyteroi) assembled at night suggests a hastily convened council, likely not a full formal Sanhedrin session but an irregular hearing."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 58,
+      "text_greek": "ὁ δὲ Πέτρος ἠκολούθει αὐτῷ ἀπὸ μακρόθεν ἕως τῆς αὐλῆς τοῦ ἀρχιερέως καὶ εἰσελθὼν ἔσω ἐκάθητο μετὰ τῶν ὑπηρετῶν ἰδεῖν τὸ τέλος.",
+      "text_kjv": "But Peter followed him afar off unto the high priest's palace, and went in, and sat with the servants, to see the end.",
+      "rendering": "But Peter followed him at a distance, right up to the courtyard of the high priest. He went inside and sat down with the guards to see the outcome.",
+      "translator_notes": [
+        "The phrase apo makrothen ('from afar, at a distance') captures Peter's conflicted state — close enough to follow, too afraid to stand with Jesus. The word hypēretōn ('attendants, guards, officers') refers to the temple police. The phrase idein to telos ('to see the end/outcome') is poignant — Peter wants to know what will happen but is powerless to affect it."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 59,
+      "text_greek": "οἱ δὲ ἀρχιερεῖς καὶ τὸ συνέδριον ὅλον ἐζήτουν ψευδομαρτυρίαν κατὰ τοῦ Ἰησοῦ ὅπως αὐτὸν θανατώσωσιν,",
+      "text_kjv": "Now the chief priests, and elders, and all the council, sought false witness against Jesus, to put him to death;",
+      "rendering": "The chief priests and the whole council were seeking false testimony against Jesus in order to put him to death,",
+      "translator_notes": [
+        "The word synedrion ('council, Sanhedrin') refers to the Jewish ruling body. Matthew's description — they sought pseudomartyrian ('false testimony') — characterizes the trial as predetermined: they are not seeking truth but seeking a basis for execution. The verb thanatōsōsin ('they might put to death') reveals the goal from the outset."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 60,
+      "text_greek": "καὶ οὐχ εὗρον πολλῶν προσελθόντων ψευδομαρτύρων. ὕστερον δὲ προσελθόντες δύο",
+      "text_kjv": "But found none: yea, though many false witnesses came, yet found they none. At the last came two false witnesses,",
+      "rendering": "But discovered none — yea, though numerous false witnesses arrived, yet discovered they none. At the last arrived two false witnesses,.",
+      "translator_notes": [
+        "The failure to find consistent testimony (ouch heuron, 'they did not find') despite many volunteers indicates that the witnesses contradicted each other — Deuteronomy 19:15 required at least two agreeing witnesses. The word hysteron ('finally, at last') suggests a prolonged and frustrating process for the council.",
+        "[TCR Cross-Reference] This verse quotes Deuteronomy 19:15 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 61,
+      "text_greek": "εἶπαν· Οὗτος ἔφη· Δύναμαι καταλῦσαι τὸν ναὸν τοῦ θεοῦ καὶ διὰ τριῶν ἡμερῶν οἰκοδομῆσαι.",
+      "text_kjv": "And said, This fellow said, I am able to destroy the temple of God, and to build it in three days.",
+      "rendering": "Stated, This fellow stated, I am able to destroy the sanctuary of God, and to build it in three period.",
+      "translator_notes": [
+        "The accusation distorts something Jesus apparently said (cf. John 2:19, 'Destroy this temple and in three days I will raise it up'). The shift from 'destroy this temple' (a challenge to others) to 'I am able to destroy' (a threat by Jesus) is the crucial distortion. The verb katalysai ('to destroy, to tear down') and oikodomēsai ('to build, to construct') frame the claim as both demolition and reconstruction — an absurd claim if taken literally about Herod's temple."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 62,
+      "text_greek": "καὶ ἀναστὰς ὁ ἀρχιερεὺς εἶπεν αὐτῷ· Οὐδὲν ἀποκρίνῃ; τί οὗτοί σου καταμαρτυροῦσιν;",
+      "text_kjv": "And the high priest arose, and said unto him, Answerest thou nothing? what is it which these witness against thee?",
+      "rendering": "The high priest stood up and said to him, \"Have you no answer? What is it that these men are testifying against you?\"",
+      "translator_notes": [
+        "The high priest's rising (anastas) is a dramatic gesture of authority. The double question — first about Jesus's silence, then about the testimony — presses for a response. The verb katamartyrosin ('testify against') uses the prefix kata- ('against'), making the adversarial nature of the testimony explicit."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 63,
+      "text_greek": "ὁ δὲ Ἰησοῦς ἐσιώπα. καὶ ὁ ἀρχιερεὺς εἶπεν αὐτῷ· Ἐξορκίζω σε κατὰ τοῦ θεοῦ τοῦ ζῶντος ἵνα ἡμῖν εἴπῃς εἰ σὺ εἶ ὁ Χριστὸς ὁ υἱὸς τοῦ θεοῦ.",
+      "text_kjv": "But Jesus held his peace. And the high priest answered and said unto him, I adjure thee by the living God, that thou tell us whether thou be the Christ, the Son of God.",
+      "rendering": "But Jesus remained silent. The high priest said to him, \"I put you under oath by the living God: tell us if you are the Christ, the Son of God.\"",
+      "translator_notes": [
+        "Jesus's silence (esiōpa, 'was silent') fulfills Isaiah 53:7 ('like a sheep before its shearers is silent'). The high priest escalates to a formal oath-adjuration: exorkizō se kata tou theou tou zōntos ('I adjure you by the living God'). Under this oath, silence would constitute contempt of court. The question combines two titles — ho Christos ('the Christ/Messiah') and ho huios tou theou ('the Son of God') — forcing Jesus to make an explicit claim.",
+        "[TCR Cross-Reference] References Isaiah 53:7 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 64,
+      "text_greek": "λέγει αὐτῷ ὁ Ἰησοῦς· Σὺ εἶπας· πλὴν λέγω ὑμῖν, ἀπ' ἄρτι ὄψεσθε τὸν υἱὸν τοῦ ἀνθρώπου καθήμενον ἐκ δεξιῶν τῆς δυνάμεως καὶ ἐρχόμενον ἐπὶ τῶν νεφελῶν τοῦ οὐρανοῦ.",
+      "text_kjv": "Jesus saith unto him, Thou hast said: nevertheless I say unto you, Hereafter shall ye see the Son of man sitting on the right hand of power, and coming in the clouds of heaven.",
+      "rendering": "Jesus said to him, \"You have said so. But I tell you, from now on you will see the Son of Man seated at the right hand of Power and coming on the clouds of heaven.\"",
+      "translator_notes": [
+        "The response sy eipas ('you have said it') is affirmative but nuanced — Jesus accepts the titles but redefines them on his own terms. The plēn ('but, moreover') introduces a counter-declaration. Jesus combines Psalm 110:1 (seated at the right hand) with Daniel 7:13 (coming on the clouds) — the two most important messianic texts in early Christianity. 'Power' (tēs dynameōs) is a circumlocution for God — 'the right hand of Power' means 'God's right hand.' The phrase ap' arti ('from now on') suggests that the exaltation begins immediately.",
+        "[TCR Cross-Reference] Echoes Psalms 110:1. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale.",
+        "[TCR Cross-Reference] Echoes Daniel 7:13. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "10th grade"
+    },
+    {
+      "verse": 65,
+      "text_greek": "τότε ὁ ἀρχιερεὺς διέρρηξεν τὰ ἱμάτια αὐτοῦ λέγων· Ἐβλασφήμησεν· τί ἔτι χρείαν ἔχομεν μαρτύρων; ἴδε νῦν ἠκούσατε τὴν βλασφημίαν·",
+      "text_kjv": "Then the high priest rent his clothes, saying, He hath spoken blasphemy; what further need have we of witnesses? behold, now ye have heard his blasphemy.",
+      "rendering": "Then the high priest tore his robes and said, \"He has blasphemed! Why do we still need witnesses? You have just heard the blasphemy.",
+      "translator_notes": [
+        "The tearing of robes (dierrhēxen ta himatia) was the prescribed response to hearing blasphemy (cf. Mishnah, Sanhedrin 7:5). Ironically, the high priest was prohibited from tearing his garments (Leviticus 21:10) — though some interpret this prohibition as applying only to mourning, not to judicial response. The charge of blasphemia ('blasphemy') rests on Jesus's claim to sit at God's right hand — a claim to divine status that, if false, constitutes the gravest offense against God.",
+        "[TCR Cross-Reference] This verse quotes Leviticus 21:10 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 66,
+      "text_greek": "τί ὑμῖν δοκεῖ; οἱ δὲ ἀποκριθέντες εἶπαν· Ἔνοχος θανάτου ἐστίν.",
+      "text_kjv": "What think ye? They answered and said, He is guilty of death.",
+      "rendering": "What is your verdict?\" They answered, \"He deserves death.\"",
+      "translator_notes": [
+        "The phrase enochos thanatou ('liable to death, deserving of death, guilty of a capital offense') is a formal legal verdict. The sentence is passed without formal vote procedure as described in the Mishnah — another irregularity in the proceedings."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 67,
+      "text_greek": "Τότε ἐνέπτυσαν εἰς τὸ πρόσωπον αὐτοῦ καὶ ἐκολάφισαν αὐτόν, οἱ δὲ ἐράπισαν",
+      "text_kjv": "Then did they spit in his face, and buffeted him; and others smote him with the palms of their hands,",
+      "rendering": "Then they spat in his face and struck him with their fists, and some slapped him,",
+      "translator_notes": [
+        "The progression of abuse — spitting (eneptusam, fulfilling Isaiah 50:6), punching (ekolaphisan, 'struck with fists'), and slapping (erapisan, 'struck with open hand') — constitutes deliberate humiliation. The spitting in the face was the most degrading insult in the ancient world (cf. Numbers 12:14, Deuteronomy 25:9).",
+        "[TCR Cross-Reference] Draws on Isaiah 50:6. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices.",
+        "[TCR Cross-Reference] Draws on Numbers 12:14. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices.",
+        "[TCR Cross-Reference] Draws on Deuteronomy 25:9. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 68,
+      "text_greek": "λέγοντες· Προφήτευσον ἡμῖν, Χριστέ, τίς ἐστιν ὁ παίσας σε;",
+      "text_kjv": "Saying, Prophesy unto us, thou Christ, Who is he that smote thee?",
+      "rendering": "Declaring, Prophesy to us, you Christ, Who is he that smote you?",
+      "translator_notes": [
+        "The taunt 'prophesy!' (prophēteuson) is ironic on multiple levels: Jesus has just prophesied about the Son of Man's exaltation, and the very events unfolding fulfill his earlier prophecies. The game — blindfolding someone and asking them to identify who struck them — mocks his claim to supernatural knowledge. The title Christe ('Christ') is used mockingly."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 69,
+      "text_greek": "Ὁ δὲ Πέτρος ἐκάθητο ἔξω ἐν τῇ αὐλῇ· καὶ προσῆλθεν αὐτῷ μία παιδίσκη λέγουσα· Καὶ σὺ ἦσθα μετὰ Ἰησοῦ τοῦ Γαλιλαίου.",
+      "text_kjv": "Now Peter sat without in the palace: and a damsel came unto him, saying, Thou also wast with Jesus of Galilee.",
+      "rendering": "Now Peter was sitting outside in the courtyard, and a servant girl came up to him, saying, \"You also were with Jesus the Galilean.\"",
+      "translator_notes": [
+        "The scene shifts to the courtyard (aulē) where Peter sits with the guards (v. 58). The first accuser is a paidiskē ('servant girl, female slave') — the lowest-status person in the household. The identification 'Jesus the Galilean' (Iēsou tou Galilaiou) marks Jesus as an outsider, a northern provincial. Peter's denial before the least threatening accuser makes his cowardice more stark."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 70,
+      "text_greek": "ὁ δὲ ἠρνήσατο ἔμπροσθεν πάντων λέγων· Οὐκ οἶδα τί λέγεις.",
+      "text_kjv": "But he denied before them all, saying, I know not what thou sayest.",
+      "rendering": "But he denied it before them all, saying, \"I do not know what you are talking about.\"",
+      "translator_notes": [
+        "The first denial. The verb ērnēsato ('denied') is the same root as aparnēsē ('you will deny') from Jesus's prediction in verse 34. The phrase emprosthen pantōn ('before all') makes the denial public. Peter's response ouk oida ti legeis ('I do not know what you are saying') is evasive rather than a direct denial — a strategy of feigned ignorance."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 71,
+      "text_greek": "ἐξελθόντα δὲ εἰς τὸν πυλῶνα εἶδεν αὐτὸν ἄλλη καὶ λέγει τοῖς ἐκεῖ· Οὗτος ἦν μετὰ Ἰησοῦ τοῦ Ναζωραίου.",
+      "text_kjv": "And when he was gone out into the porch, another maid saw him, and said unto them that were there, This fellow was also with Jesus of Nazareth.",
+      "rendering": "When he went out to the gateway, another servant girl saw him and said to the people there, \"This man was with Jesus of Nazareth.\"",
+      "translator_notes": [
+        "Peter retreats from the courtyard to the gateway (pylōna) — attempting to distance himself physically from the identification. A second servant girl (allē) makes the accusation to bystanders rather than to Peter directly, broadening the circle of awareness. The identification shifts from 'the Galilean' to 'of Nazareth' (tou Nazōraiou)."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 72,
+      "text_greek": "καὶ πάλιν ἠρνήσατο μετὰ ὅρκου ὅτι Οὐκ οἶδα τὸν ἄνθρωπον.",
+      "text_kjv": "And again he denied with an oath, I do not know the man.",
+      "rendering": "Again he denied it, with an oath: \"I do not know the man.\"",
+      "translator_notes": [
+        "The second denial escalates — meta horkou ('with an oath') means Peter swears. This is deeply ironic given Jesus's teaching against oath-taking in 5:33-37. The phrase ouk oida ton anthrōpon ('I do not know the man') depersonalizes Jesus — 'the man' rather than 'Jesus' — creating verbal distance from the relationship."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 73,
+      "text_greek": "μετὰ μικρὸν δὲ προσελθόντες οἱ ἑστῶτες εἶπον τῷ Πέτρῳ· Ἀληθῶς καὶ σὺ ἐξ αὐτῶν εἶ, καὶ γὰρ ἡ λαλιά σου δῆλόν σε ποιεῖ.",
+      "text_kjv": "And after a while came unto him they that stood by, and said to Peter, Surely thou also art one of them; for thy speech bewrayeth thee.",
+      "rendering": "After a little while, the bystanders came up and said to Peter, \"Certainly you are one of them too — your accent gives you away.\"",
+      "translator_notes": [
+        "The third accusation comes from multiple bystanders (hoi hestōtes, 'those standing by'). The evidence is now Peter's lalia ('speech, accent, dialect') — his Galilean accent was distinctive and recognizable (cf. the Shibboleth test, Judges 12:6). The adverb alēthōs ('truly, certainly') indicates growing confidence in the identification. Peter can no longer hide.",
+        "[TCR Cross-Reference] References Judges 12:6 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 74,
+      "text_greek": "τότε ἤρξατο καταθεματίζειν καὶ ὀμνύειν ὅτι Οὐκ οἶδα τὸν ἄνθρωπον. καὶ εὐθέως ἀλέκτωρ ἐφώνησεν.",
+      "text_kjv": "Then began he to curse and to swear, saying, I know not the man. And immediately the cock crew.",
+      "rendering": "Then he began to invoke curses on himself and to swear, \"I do not know the man!\" And immediately a rooster crowed.",
+      "translator_notes": [
+        "The third denial reaches maximum intensity: katathematizein ('to invoke curses upon oneself') means Peter calls down divine punishment if he is lying — but he is lying. The verb omnuein ('to swear') adds formal oath-taking. Peter's denial has progressed from evasion (v. 70) to oath (v. 72) to self-cursing (v. 74). The rooster's crow (alektōr ephōnēsen) fulfills Jesus's exact prediction from verse 34 with devastating precision."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 75,
+      "text_greek": "καὶ ἐμνήσθη ὁ Πέτρος τοῦ ῥήματος Ἰησοῦ εἰρηκότος ὅτι Πρὶν ἀλέκτορα φωνῆσαι τρὶς ἀπαρνήσῃ με· καὶ ἐξελθὼν ἔξω ἔκλαυσεν πικρῶς.",
+      "text_kjv": "And Peter remembered the word of Jesus, which said unto him, Before the cock crow, thou shalt deny me thrice. And he went out, and wept bitterly.",
+      "rendering": "And Peter remembered what Jesus had said: \"Before the rooster crows, you will deny me three times.\" And he went outside and wept bitterly.",
+      "translator_notes": [
+        "The verb emnēsthē ('remembered') marks the moment of devastating recognition — memory and reality collide. The adverb pikrōs ('bitterly') describes the quality of Peter's weeping — not gentle tears but anguished, bitter sobbing. Unlike Judas (27:3-5), Peter's response to failure is grief rather than despair. This is the last we see of Peter until the resurrection, and Matthew leaves him weeping — the restoration will come later (cf. John 21)."
+      ],
+      "reading_level": "7th grade"
+    }
+  ]
+}

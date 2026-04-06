@@ -1,0 +1,580 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Mark",
+    "chapter": 10,
+    "source_text": "SBL Greek New Testament (SBLGNT)",
+    "reference_text": "KJV",
+    "generated_at": "2026-04-04T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Mark 10 records Jesus's journey from Galilee toward Jerusalem through the region beyond the Jordan. The chapter addresses marriage and divorce, the blessing of children, the encounter with a rich man who cannot part with his possessions, the third and most detailed passion prediction, the request of James and John for positions of honor, and the healing of blind Bartimaeus at Jericho. Each episode deepens the contrast between worldly values and kingdom values as Jesus moves steadily toward the cross.",
+    "remarkable": "The rich man's encounter (vv. 17-27) contains Jesus's most direct teaching on wealth and the kingdom of God. The image of a camel passing through the eye of a needle is deliberately absurd — it is not softened by any appeal to narrow gates or rope-for-camel theories. The third passion prediction (vv. 33-34) is the most specific, naming the Gentiles and detailing mocking, spitting, flogging, and killing. Bartimaeus's healing (vv. 46-52) closes the journey section by restoring the sight that the disciples still lack — and Bartimaeus, unlike the healed blind man of 8:22-26, follows Jesus 'on the way' to Jerusalem.",
+    "friction": "Jesus's teaching on divorce (vv. 2-12) has been interpreted variously across Christian traditions. We render the Greek as given: Jesus distinguishes between Moses's concession (Deuteronomy 24:1-4) and God's original intent (Genesis 1:27, 2:24). The 'exception clause' found in Matthew 19:9 is absent from Mark. The phrase 'for your hardness of heart' (pros tēn sklērokardian hymōn) is translated directly.",
+    "connections": "The divorce teaching connects to Genesis 1-2 (creation of male and female) and Deuteronomy 24 (certificate of divorce). The rich man episode echoes the Decalogue (Exodus 20:12-17). The third passion prediction fulfills Isaiah 50:6 (spitting and striking) and Isaiah 53 (the Suffering Servant). The 'ransom for many' saying (v. 45) is one of the clearest atonement statements in Mark, echoing Isaiah 53:10-12. Bartimaeus's cry 'Son of David' is the first public messianic acclamation in Mark."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_greek": "Καὶ ἐκεῖθεν ἀναστὰς ἔρχεται εἰς τὰ ὅρια τῆς Ἰουδαίας καὶ πέραν τοῦ Ἰορδάνου, καὶ συμπορεύονται πάλιν ὄχλοι πρὸς αὐτόν, καὶ ὡς εἰώθει πάλιν ἐδίδασκεν αὐτούς.",
+      "text_kjv": "And he arose from thence, and cometh into the coasts of Judaea by the farther side of Jordan: and the people resort unto him again; and, as he was wont, he taught them again.",
+      "rendering": "He got up and went from there to the region of Judea and beyond the Jordan, and crowds gathered around him again, and as was his custom, he taught them again.",
+      "translator_notes": [
+        "The geographical notice marks the shift from Galilee to Judea — Jesus is now on the road to Jerusalem. The route 'beyond the Jordan' (peran tou Iordanou) describes the Transjordan route through Perea, avoiding Samaria. The phrase 'as was his custom' (hōs eiōthei) reminds the reader that teaching was Jesus's primary activity."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 2,
+      "text_greek": "καὶ προσελθόντες Φαρισαῖοι ἐπηρώτων αὐτὸν εἰ ἔξεστιν ἀνδρὶ γυναῖκα ἀπολῦσαι, πειράζοντες αὐτόν.",
+      "text_kjv": "And the Pharisees came to him, and asked him, Is it lawful for a man to put away his wife? tempting him.",
+      "rendering": "Pharisees came up and, to test him, asked, \"Is it lawful for a man to divorce his wife?\"",
+      "translator_notes": [
+        "The participle peirazontes ('testing') signals hostile intent, not genuine inquiry. The question about the legality (exestin, 'is it permitted') of divorce was debated among the rabbis — the school of Shammai allowed it only for sexual immorality, the school of Hillel for almost any cause. The question was designed to trap Jesus in a controversial position."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 3,
+      "text_greek": "ὁ δὲ ἀποκριθεὶς εἶπεν αὐτοῖς· Τί ὑμῖν ἐνετείλατο Μωϋσῆς;",
+      "text_kjv": "And he answered and said unto them, What did Moses command you?",
+      "rendering": "He answered them, \"What did Moses command you?\"",
+      "translator_notes": [
+        "Jesus redirects the question to Scripture itself. His use of 'command' (eneteilato) rather than 'permit' is significant — he will soon distinguish between what Moses commanded and what Moses merely permitted."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 4,
+      "text_greek": "οἱ δὲ εἶπαν· Ἐπέτρεψεν Μωϋσῆς βιβλίον ἀποστασίου γράψαι καὶ ἀπολῦσαι.",
+      "text_kjv": "And they said, Moses suffered to write a bill of divorcement, and to put her away.",
+      "rendering": "They said, \"Moses permitted a man to write a certificate of divorce and send her away.\"",
+      "translator_notes": [
+        "The Pharisees answer with Deuteronomy 24:1-4, which assumes the practice of divorce and regulates it. They use the word epetrepsen ('permitted, allowed'), acknowledging this was a concession rather than a positive command. The 'certificate of divorce' (biblion apostasiou) was a legal document protecting the woman's right to remarry.",
+        "[TCR Cross-Reference] Echoes Deuteronomy 24:1-4. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 5,
+      "text_greek": "ὁ δὲ Ἰησοῦς εἶπεν αὐτοῖς· Πρὸς τὴν σκληροκαρδίαν ὑμῶν ἔγραψεν ὑμῖν τὴν ἐντολὴν ταύτην.",
+      "text_kjv": "And Jesus answered and said unto them, For the hardness of your heart he wrote you this precept.",
+      "rendering": "Jesus said to them, \"Because of your hardness of heart he wrote you this commandment.",
+      "translator_notes": [
+        "The compound noun sklērokardian ('hardness of heart') combines sklēros ('hard, stiff') and kardia ('heart'). The Mosaic divorce provision is characterized as an accommodation to human fallenness, not an expression of God's ideal. Jesus frames the Deuteronomy passage as a concession, not a norm."
+      ],
+      "key_terms": [
+        {
+          "greek": "σκληροκαρδία",
+          "transliteration": "sklērokardia",
+          "rendered_as": "hardness of heart",
+          "semantic_range": "stubbornness, hard-heartedness, obstinacy",
+          "note": "Echoes the Hebrew qeshi levav. The same concept appears in Ezekiel 36:26, where God promises to remove the 'heart of stone' and replace it with a 'heart of flesh.'"
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 6,
+      "text_greek": "ἀπὸ δὲ ἀρχῆς κτίσεως ἄρσεν καὶ θῆλυ ἐποίησεν αὐτούς·",
+      "text_kjv": "But from the beginning of the creation God made them male and female.",
+      "rendering": "But from the start of creation God created them as male and female.",
+      "translator_notes": [
+        "Jesus goes behind Moses to Genesis 1:27, treating the creation narrative as the foundational expression of God's will for humanity. The appeal to 'the beginning of creation' (archēs ktiseōs) establishes creation order as the standard against which the Mosaic concession is measured.",
+        "[TCR Cross-Reference] Quotes Genesis 1:27. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 7,
+      "text_greek": "ἕνεκεν τούτου καταλείψει ἄνθρωπος τὸν πατέρα αὐτοῦ καὶ τὴν μητέρα,",
+      "text_kjv": "For this cause shall a man leave his father and mother, and cleave to his wife;",
+      "rendering": "'For this reason a man will leave his father and mother and be joined to his wife,",
+      "translator_notes": [
+        "Jesus continues quoting, now from Genesis 2:24. The verb kataleipsei ('will leave, will forsake') indicates a fundamental reorientation of primary loyalty — from birth family to marriage covenant. Some SBLGNT manuscripts include 'and be joined to his wife' (kai proskollēthēsetai pros tēn gynaika autou) while others do not.",
+        "[TCR Cross-Reference] Draws on Genesis 2:24. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 8,
+      "text_greek": "καὶ ἔσονται οἱ δύο εἰς σάρκα μίαν· ὥστε οὐκέτι εἰσὶν δύο ἀλλὰ μία σάρξ.",
+      "text_kjv": "And they twain shall be one flesh: so then they are no more twain, but one flesh.",
+      "rendering": "Indeed, they twain will be one flesh — so then they are no more twain, but one flesh.",
+      "translator_notes": [
+        "The quotation from Genesis 2:24 concludes, and Jesus draws the inference: if marriage creates a unity ('one flesh,' mia sarx), then divorce is not merely a legal action but a tearing apart of what has been joined. The phrase 'one flesh' encompasses the totality of the shared life — physical, emotional, economic, and spiritual.",
+        "[TCR Cross-Reference] References Genesis 2:24 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 9,
+      "text_greek": "ὃ οὖν ὁ θεὸς συνέζευξεν ἄνθρωπος μὴ χωριζέτω.",
+      "text_kjv": "What therefore God hath joined together, let not man put asunder.",
+      "rendering": "Therefore what God has joined together, let no one separate.\"",
+      "translator_notes": [
+        "The verb synezeyxen ('joined together, yoked together') comes from the world of harnessing animals — two made into a working pair. The prohibition 'let no one separate' (anthrōpos mē chōrizetō) uses the present imperative, forbidding an ongoing practice. The shift from 'Moses permitted' to 'God joined' reframes the entire discussion from legal permission to divine intention."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 10,
+      "text_greek": "Καὶ εἰς τὴν οἰκίαν πάλιν οἱ μαθηταὶ περὶ τούτου ἐπηρώτων αὐτόν.",
+      "text_kjv": "And in the house his disciples asked him again of the same matter.",
+      "rendering": "In the house, the disciples asked him again about this.",
+      "translator_notes": [
+        "Mark's pattern of public teaching followed by private explanation continues (cf. 4:10, 7:17). The disciples need further clarification about the divorce teaching."
+      ],
+      "reading_level": "5th grade"
+    },
+    {
+      "verse": 11,
+      "text_greek": "καὶ λέγει αὐτοῖς· Ὃς ἂν ἀπολύσῃ τὴν γυναῖκα αὐτοῦ καὶ γαμήσῃ ἄλλην μοιχᾶται ἐπ' αὐτήν,",
+      "text_kjv": "And he saith unto them, Whosoever shall put away his wife, and marry another, committeth adultery against her.",
+      "rendering": "He said to them, \"Whoever divorces his wife and marries another commits adultery against her.",
+      "translator_notes": [
+        "The phrase 'against her' (ep' autēn) is significant — in Jewish law, a man could commit adultery against another man (by violating his marriage) but not against his own wife. Jesus's statement grants the wife equal standing as the wronged party, a radical elevation of women's status in marriage."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 12,
+      "text_greek": "καὶ ἐὰν αὐτὴ ἀπολύσασα τὸν ἄνδρα αὐτῆς γαμήσῃ ἄλλον μοιχᾶται.",
+      "text_kjv": "And if a woman shall put away her husband, and be married to another, she committeth adultery.",
+      "rendering": "And if she divorces her husband and marries another, she commits adultery.\"",
+      "translator_notes": [
+        "This verse addresses a woman initiating divorce — possible under Roman and some Hellenistic Jewish law but not standard in Palestinian Judaism. Mark's inclusion reflects his Roman audience. The symmetry of the teaching (both husband and wife are held to the same standard) is remarkable for the ancient world."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 13,
+      "text_greek": "Καὶ προσέφερον αὐτῷ παιδία ἵνα αὐτῶν ἅψηται· οἱ δὲ μαθηταὶ ἐπετίμησαν αὐτοῖς.",
+      "text_kjv": "And they brought young children to him, that he should touch them: and his disciples rebuked those that brought them.",
+      "rendering": "People were bringing children to him so that he might touch them, but the disciples rebuked them.",
+      "translator_notes": [
+        "The verb epetimēsan ('rebuked') is the strong word used for commanding demons — the disciples treat the children's approach as an intrusion. In a society where children had no social standing, the disciples' action reflects conventional values. Jesus will overturn those values."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 14,
+      "text_greek": "ἰδὼν δὲ ὁ Ἰησοῦς ἠγανάκτησεν καὶ εἶπεν αὐτοῖς· Ἄφετε τὰ παιδία ἔρχεσθαι πρός με, μὴ κωλύετε αὐτά· τῶν γὰρ τοιούτων ἐστὶν ἡ βασιλεία τοῦ θεοῦ.",
+      "text_kjv": "But when Jesus saw it, he was much displeased, and said unto them, Suffer the little children to come unto me, and forbid them not: for of such is the kingdom of God.",
+      "rendering": "When Jesus saw this, he was indignant and said to them, \"Let the children come to me — do not hinder them, for the kingdom of God belongs to such as these.",
+      "translator_notes": [
+        "The verb ēganaktēsen ('was indignant, was angry') is one of the few places Mark records Jesus's anger directed at his own disciples. The statement that the kingdom 'belongs to such as these' (tōn toioutōn estin hē basileia tou theou) does not idealize childhood innocence but identifies the child's position — dependent, without status, unable to earn — as the posture required for receiving the kingdom."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 15,
+      "text_greek": "ἀμὴν λέγω ὑμῖν, ὃς ἂν μὴ δέξηται τὴν βασιλείαν τοῦ θεοῦ ὡς παιδίον, οὐ μὴ εἰσέλθῃ εἰς αὐτήν.",
+      "text_kjv": "Verily I say unto you, Whosoever shall not receive the kingdom of God as a little child, he shall not enter therein.",
+      "rendering": "Truly I say to you, whoever does not receive the kingdom of God like a child will never enter it.\"",
+      "translator_notes": [
+        "The double negative ou mē ('by no means, never') is the strongest negation in Greek. Receiving the kingdom 'like a child' (hōs paidion) means receiving it as a gift, without pretension, without credentials, in total dependence — the opposite of earning or deserving it."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 16,
+      "text_greek": "καὶ ἐναγκαλισάμενος αὐτὰ κατευλόγει τιθεὶς τὰς χεῖρας ἐπ' αὐτά.",
+      "text_kjv": "And he took them up in his arms, put his hands upon them, and blessed them.",
+      "rendering": "And he took them in his arms and blessed them, laying his hands on them.",
+      "translator_notes": [
+        "The verb kateulogei ('blessed fervently, blessed abundantly') is an intensified form — Mark emphasizes the warmth of Jesus's response. The physical gesture of taking children in his arms (enagkalisamenos) repeats the action of 9:36. Jesus does not merely permit the children's approach; he embraces and blesses them."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 17,
+      "text_greek": "Καὶ ἐκπορευομένου αὐτοῦ εἰς ὁδὸν προσδραμὼν εἷς καὶ γονυπετήσας αὐτὸν ἐπηρώτα αὐτόν· Διδάσκαλε ἀγαθέ, τί ποιήσω ἵνα ζωὴν αἰώνιον κληρονομήσω;",
+      "text_kjv": "And when he was gone forth into the way, there came one running, and kneeled to him, and asked him, Good Master, what shall I do that I may inherit eternal life?",
+      "rendering": "As he was setting out on his journey, a man ran up and knelt before him and asked him, \"Good Teacher, what must I do to inherit eternal life?\"",
+      "translator_notes": [
+        "The man's urgency (running, kneeling) and respectful address ('Good Teacher') suggest genuine sincerity. The question frames eternal life as something to be 'inherited' (klēronomēsō) — received as a family right — yet also asks 'what must I do,' revealing a works-based framework. Mark does not call him 'young' (that is Matthew's addition) or 'ruler' (that is Luke's)."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 18,
+      "text_greek": "ὁ δὲ Ἰησοῦς εἶπεν αὐτῷ· Τί με λέγεις ἀγαθόν; οὐδεὶς ἀγαθὸς εἰ μὴ εἷς ὁ θεός.",
+      "text_kjv": "And Jesus said unto him, Why callest thou me good? there is none good but one, that is, God.",
+      "rendering": "Jesus said to him, \"Why do you call me good? No one is good except God alone.",
+      "translator_notes": [
+        "Jesus's response is not a denial of his own goodness but a challenge to the man's casual use of the word. If 'good' belongs properly to God alone, then calling Jesus 'good' either means nothing or means everything. The statement forces the man to reckon with who Jesus is."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 19,
+      "text_greek": "τὰς ἐντολὰς οἶδας· Μὴ φονεύσῃς, Μὴ μοιχεύσῃς, Μὴ κλέψῃς, Μὴ ψευδομαρτυρήσῃς, Μὴ ἀποστερήσῃς, Τίμα τὸν πατέρα σου καὶ τὴν μητέρα.",
+      "text_kjv": "Thou knowest the commandments, Do not commit adultery, Do not kill, Do not steal, Do not bear false witness, Defraud not, Honour thy father and mother.",
+      "rendering": "You know the commandments: 'Do not murder, Do not commit adultery, Do not steal, Do not bear false witness, Do not defraud, Honor your father and mother.'\"",
+      "translator_notes": [
+        "Jesus cites the second table of the Decalogue (commandments governing human relationships). Notably absent is 'You shall not covet' — replaced by 'Do not defraud' (mē aposterēsēs), which may be a practical application of the covetousness prohibition, particularly relevant to a wealthy person. The first table (love of God) is not mentioned but will be implied by the demand in verse 21.",
+        "[TCR Cross-Reference] Echoes Exodus 20:12-16. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 20,
+      "text_greek": "ὁ δὲ ἔφη αὐτῷ· Διδάσκαλε, ταῦτα πάντα ἐφυλαξάμην ἐκ νεότητός μου.",
+      "text_kjv": "And he answered and said unto him, Master, all these have I observed from my youth.",
+      "rendering": "He said to him, \"Teacher, all these I have kept from my youth.\"",
+      "translator_notes": [
+        "The verb ephylaxamēn ('I have guarded, kept, observed') indicates careful compliance. The claim is not dismissed by Jesus — he takes it at face value. 'From my youth' (ek neotētos mou) means from the age of accountability (approximately twelve or thirteen in Jewish practice)."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 21,
+      "text_greek": "ὁ δὲ Ἰησοῦς ἐμβλέψας αὐτῷ ἠγάπησεν αὐτὸν καὶ εἶπεν αὐτῷ· Ἕν σε ὑστερεῖ· ὕπαγε, ὅσα ἔχεις πώλησον καὶ δὸς τοῖς πτωχοῖς, καὶ ἕξεις θησαυρὸν ἐν οὐρανῷ, καὶ δεῦρο ἀκολούθει μοι.",
+      "text_kjv": "Then Jesus beholding him loved him, and said unto him, One thing thou lackest: go thy way, sell whatsoever thou hast, and give to the poor, and thou shalt have treasure in heaven: and come, take up the cross, and follow me.",
+      "rendering": "Jesus, looking at him, loved him and said to him, \"You lack one thing: go, sell everything you have and give to the poor, and you will have treasure in heaven. Then come, follow me.\"",
+      "translator_notes": [
+        "The detail 'loved him' (ēgapēsen auton) is unique to Mark and is striking — Jesus's demand is motivated by love, not hostility. The verb emblepsas ('looking intently at') suggests a penetrating gaze. The 'one thing' (hen) is not merely divestiture but the total reorientation it represents: allegiance to Jesus over wealth. The SBLGNT does not include 'take up the cross' (aras ton stauron), found in some manuscripts."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 22,
+      "text_greek": "ὁ δὲ στυγνάσας ἐπὶ τῷ λόγῳ ἀπῆλθεν λυπούμενος· ἦν γὰρ ἔχων κτήματα πολλά.",
+      "text_kjv": "And he was sad at that saying, and went away grieved: for he had great possessions.",
+      "rendering": "Disheartened by the word, he went away grieving, for he had many possessions.",
+      "translator_notes": [
+        "The verb stygnasas ('became gloomy, was shocked, was appalled') describes a visible darkening of the face — the opposite of the eager approach in verse 17. The man's grief (lypoumenos) is genuine; he is not indifferent but cannot bring himself to act. He is the only person in the Gospels who comes to Jesus with a sincere question and leaves without following."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 23,
+      "text_greek": "Καὶ περιβλεψάμενος ὁ Ἰησοῦς λέγει τοῖς μαθηταῖς αὐτοῦ· Πῶς δυσκόλως οἱ τὰ χρήματα ἔχοντες εἰς τὴν βασιλείαν τοῦ θεοῦ εἰσελεύσονται.",
+      "text_kjv": "And Jesus looked round about, and saith unto his disciples, How hardly shall they that have riches enter into the kingdom of God!",
+      "rendering": "Jesus looked around and said to his disciples, \"How difficult it will be for those who have wealth to enter the kingdom of God!\"",
+      "translator_notes": [
+        "The adverb dyskolōs ('with difficulty, hardly') sets up the astonishment that follows. Jesus does not say it is impossible, but 'how difficult' (pōs dyskolōs) — the difficulty is stressed, not absolute impossibility."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 24,
+      "text_greek": "οἱ δὲ μαθηταὶ ἐθαμβοῦντο ἐπὶ τοῖς λόγοις αὐτοῦ. ὁ δὲ Ἰησοῦς πάλιν ἀποκριθεὶς λέγει αὐτοῖς· Τέκνα, πῶς δύσκολόν ἐστιν εἰς τὴν βασιλείαν τοῦ θεοῦ εἰσελθεῖν·",
+      "text_kjv": "And the disciples were astonished at his words. But Jesus answereth again, and saith unto them, Children, how hard is it for them that trust in riches to enter into the kingdom of God!",
+      "rendering": "The disciples were amazed at his words. But Jesus said to them again, \"Children, how difficult it is to enter the kingdom of God!",
+      "translator_notes": [
+        "The disciples' amazement (ethambounto) reveals their assumption that wealth was a sign of divine blessing. The address 'Children' (Tekna) is tender — Jesus softens his teaching with familial affection. The SBLGNT reads simply 'how difficult it is to enter the kingdom of God' without the qualification 'for those who trust in riches' found in some manuscripts."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 25,
+      "text_greek": "εὐκοπώτερόν ἐστιν κάμηλον διὰ τρυμαλιᾶς ῥαφίδος διελθεῖν ἢ πλούσιον εἰς τὴν βασιλείαν τοῦ θεοῦ εἰσελθεῖν.",
+      "text_kjv": "It is easier for a camel to go through the eye of a needle, than for a rich man to enter into the kingdom of God.",
+      "rendering": "Than for a rich man to enter into god's kingdom, and it is easier for a camel to go through the eye of a needle.",
+      "translator_notes": [
+        "The image is deliberately impossible — a camel (kamēlon) through the eye of a sewing needle (trymalia rhaphidos). Attempts to soften this (a 'rope' instead of a camel, or a small gate called 'the Needle's Eye') have no textual or archaeological support. Jesus uses comic hyperbole to make a serious point: wealth creates an attachment that is humanly impossible to overcome."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 26,
+      "text_greek": "οἱ δὲ περισσῶς ἐξεπλήσσοντο λέγοντες πρὸς ἑαυτούς· Καὶ τίς δύναται σωθῆναι;",
+      "text_kjv": "And they were astonished out of measure, saying among themselves, Who then can be saved?",
+      "rendering": "They were exceedingly astonished and said to one another, \"Then who can be saved?\"",
+      "translator_notes": [
+        "The disciples' question reveals their logic: if even the wealthy (assumed to be divinely blessed) cannot enter the kingdom, then salvation is impossible for anyone. This is exactly the conclusion Jesus wants them to reach — so that verse 27 can redirect them to God's power."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 27,
+      "text_greek": "ἐμβλέψας αὐτοῖς ὁ Ἰησοῦς λέγει· Παρὰ ἀνθρώποις ἀδύνατον ἀλλ' οὐ παρὰ θεῷ· πάντα γὰρ δυνατὰ παρὰ τῷ θεῷ.",
+      "text_kjv": "And Jesus looking upon them saith, With men it is impossible, but not with God: for with God all things are possible.",
+      "rendering": "Jesus looked at them and said, \"With man it is impossible, but not with God. For all things are possible with God.\"",
+      "translator_notes": [
+        "The statement echoes Genesis 18:14 ('Is anything too hard for the LORD?') and Job 42:2 ('I know that you can do all things'). Salvation is not a human achievement but a divine gift. The word adynaton ('impossible') is unqualified — Jesus does not say 'difficult' but 'impossible' for humans, possible only for God.",
+        "[TCR Cross-Reference] Draws on Genesis 18:14. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices.",
+        "[TCR Cross-Reference] Draws on Job 42:2. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 28,
+      "text_greek": "Ἤρξατο λέγειν ὁ Πέτρος αὐτῷ· Ἰδοὺ ἡμεῖς ἀφήκαμεν πάντα καὶ ἠκολουθήκαμέν σοι.",
+      "text_kjv": "Then Peter began to say unto him, Lo, we have left all, and have followed thee.",
+      "rendering": "Peter began to say to him, \"Look, we have left everything and followed you.\"",
+      "translator_notes": [
+        "Peter's statement is both a contrast to the rich man (who would not leave his possessions) and an implicit question: 'What will we get?' The verb aphēkamen ('we have left, abandoned') is the same word used for the rich man's failure — the disciples did what he could not."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 29,
+      "text_greek": "ἔφη ὁ Ἰησοῦς· Ἀμὴν λέγω ὑμῖν, οὐδείς ἐστιν ὃς ἀφῆκεν οἰκίαν ἢ ἀδελφοὺς ἢ ἀδελφὰς ἢ μητέρα ἢ πατέρα ἢ τέκνα ἢ ἀγροὺς ἕνεκεν ἐμοῦ καὶ ἕνεκεν τοῦ εὐαγγελίου,",
+      "text_kjv": "And Jesus answered and said, Verily I say unto you, There is no man that hath left house, or brethren, or sisters, or father, or mother, or wife, or children, or lands, for my sake, and the gospel's,",
+      "rendering": "Jesus said, \"Truly I say to you, there is no one who has left house or brothers or sisters or mother or father or children or fields, for my sake and for the gospel's,",
+      "translator_notes": [
+        "The list of what may be left covers the entire social world: home, family, and livelihood. The phrase 'for my sake and for the gospel's' (heneken emou kai heneken tou euangeliou) links personal loyalty to Jesus with commitment to the mission of proclamation."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 30,
+      "text_greek": "ἐὰν μὴ λάβῃ ἑκατονταπλασίονα νῦν ἐν τῷ καιρῷ τούτῳ οἰκίας καὶ ἀδελφοὺς καὶ ἀδελφὰς καὶ μητέρας καὶ τέκνα καὶ ἀγροὺς μετὰ διωγμῶν, καὶ ἐν τῷ αἰῶνι τῷ ἐρχομένῳ ζωὴν αἰώνιον.",
+      "text_kjv": "But he shall receive an hundredfold now in this time, houses, and brethren, and sisters, and mothers, and children, and lands, with persecutions; and in the world to come eternal life.",
+      "rendering": "Yet he will accept an hundredfold now in this time, houses, and brothers and sisters, and sisters, and mothers, and children, and lands, with persecutions. And in the world to come eternal life.",
+      "translator_notes": [
+        "The promise of a hundredfold return is remarkable, but the parenthetical 'with persecutions' (meta diōgmōn) prevents any prosperity-gospel reading. The new community of faith provides the extended family, but that community exists under the cross. Note that 'fathers' are absent from the return list — there is only one Father in the new community. The two-age framework ('this present age' and 'the age to come') reflects Jewish eschatology."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 31,
+      "text_greek": "πολλοὶ δὲ ἔσονται πρῶτοι ἔσχατοι καὶ οἱ ἔσχατοι πρῶτοι.",
+      "text_kjv": "But many that are first shall be last; and the last first.",
+      "rendering": "But many who are first will be last, and the last first.\"",
+      "translator_notes": [
+        "This reversal saying (cf. 9:35) provides the hermeneutical key: the kingdom of God inverts every human hierarchy. The rich man who seemed 'first' ends up unable to enter; the disciples who left everything are promised abundance."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 32,
+      "text_greek": "Ἦσαν δὲ ἐν τῇ ὁδῷ ἀναβαίνοντες εἰς Ἱεροσόλυμα, καὶ ἦν προάγων αὐτοὺς ὁ Ἰησοῦς, καὶ ἐθαμβοῦντο, οἱ δὲ ἀκολουθοῦντες ἐφοβοῦντο. καὶ παραλαβὼν πάλιν τοὺς δώδεκα ἤρξατο αὐτοῖς λέγειν τὰ μέλλοντα αὐτῷ συμβαίνειν,",
+      "text_kjv": "And they were in the way going up to Jerusalem; and Jesus went before them: and they were amazed; and as they followed, they were afraid. And he took again the twelve, and began to tell them what things should happen unto him,",
+      "rendering": "They were on the road going up to Jerusalem, and Jesus was walking ahead of them. They were amazed, and those who followed were afraid. Taking the twelve aside again, he began to tell them what was about to happen to him:",
+      "translator_notes": [
+        "The scene is vivid: Jesus strides ahead toward Jerusalem with grim determination while the disciples follow in a mixture of amazement and fear. The verb proagōn ('going before, leading the way') shows Jesus actively leading toward his death, not being swept along by events. 'Going up' (anabainontes) is both geographical (Jerusalem sits at elevation) and theological (ascending to the place of sacrifice)."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 33,
+      "text_greek": "ὅτι Ἰδοὺ ἀναβαίνομεν εἰς Ἱεροσόλυμα, καὶ ὁ υἱὸς τοῦ ἀνθρώπου παραδοθήσεται τοῖς ἀρχιερεῦσιν καὶ τοῖς γραμματεῦσιν, καὶ κατακρινοῦσιν αὐτὸν θανάτῳ καὶ παραδώσουσιν αὐτὸν τοῖς ἔθνεσιν,",
+      "text_kjv": "Saying, Behold, we go up to Jerusalem; and the Son of man shall be delivered unto the chief priests, and unto the scribes; and they shall condemn him to death, and shall deliver him to the Gentiles:",
+      "rendering": "\"Look, we are going up to Jerusalem, and the Son of Man will be delivered over to the chief priests and the scribes, and they will condemn him to death and deliver him over to the Gentiles.",
+      "translator_notes": [
+        "The third passion prediction (cf. 8:31, 9:31) is the most detailed, adding the condemnation by the Sanhedrin and the delivery to the Gentiles (the Romans). The verb paradothēsetai ('will be delivered over, betrayed') is used twice — first of the Jewish leaders handing Jesus to the Romans, then of the betrayal itself. The passive may imply divine agency: God is delivering the Son of Man into human hands."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 34,
+      "text_greek": "καὶ ἐμπαίξουσιν αὐτῷ καὶ ἐμπτύσουσιν αὐτῷ καὶ μαστιγώσουσιν αὐτὸν καὶ ἀποκτενοῦσιν, καὶ μετὰ τρεῖς ἡμέρας ἀναστήσεται.",
+      "text_kjv": "And they shall mock him, and shall scourge him, and shall spit upon him, and shall kill him: and the third day he shall rise again.",
+      "rendering": "They will mock him, spit on him, flog him, and kill him. And after three days he will rise.\"",
+      "translator_notes": [
+        "The specificity is remarkable: mocking, spitting, flogging — each fulfilled in the passion narrative (14:65, 15:15-20). The verb mastigōsousin ('they will flog') refers to the Roman flagellum, a whip with embedded bone or metal. The prediction ends, as always, with resurrection — the suffering is not the last word."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 35,
+      "text_greek": "Καὶ προσπορεύονται αὐτῷ Ἰάκωβος καὶ Ἰωάννης οἱ υἱοὶ Ζεβεδαίου λέγοντες αὐτῷ· Διδάσκαλε, θέλομεν ἵνα ὃ ἐὰν αἰτήσωμέν σε ποιήσῃς ἡμῖν.",
+      "text_kjv": "And James and John, the sons of Zebedee, come unto him, saying, Master, we would that thou shouldest do for us whatsoever we shall desire.",
+      "rendering": "James and John, the sons of Zebedee, came up to him and said to him, \"Teacher, we want you to do for us whatever we ask of you.\"",
+      "translator_notes": [
+        "The brazenness of the request — a blank check ('whatever we ask') — is remarkable coming immediately after the most detailed passion prediction. In Matthew's account (20:20), their mother makes the request; Mark attributes it directly to James and John."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 36,
+      "text_greek": "ὁ δὲ εἶπεν αὐτοῖς· Τί θέλετέ με ποιήσω ὑμῖν;",
+      "text_kjv": "And he said unto them, What would ye that I should do for you?",
+      "rendering": "He said to them, \"What do you want me to do for you?\"",
+      "translator_notes": [
+        "Jesus asks the same question he will ask blind Bartimaeus in verse 51. The contrast is telling: James and John ask for thrones; Bartimaeus asks for sight."
+      ],
+      "reading_level": "5th grade"
+    },
+    {
+      "verse": 37,
+      "text_greek": "οἱ δὲ εἶπαν αὐτῷ· Δὸς ἡμῖν ἵνα εἷς σου ἐκ δεξιῶν καὶ εἷς ἐξ ἀριστερῶν καθίσωμεν ἐν τῇ δόξῃ σου.",
+      "text_kjv": "They said unto him, Grant unto us that we may sit, one on thy right hand, and the other on thy left hand, in thy glory.",
+      "rendering": "They said to him, \"Grant us to sit, one at your right hand and one at your left, in your glory.\"",
+      "translator_notes": [
+        "The right and left positions are seats of highest honor, sharing the ruler's authority. The phrase 'in your glory' (en tē doxē sou) shows they believe in Jesus's coming triumph — they simply want the best seats. The irony is that the positions at Jesus's right and left in his 'glory' will be occupied by two crucified criminals (15:27)."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 38,
+      "text_greek": "ὁ δὲ Ἰησοῦς εἶπεν αὐτοῖς· Οὐκ οἴδατε τί αἰτεῖσθε. δύνασθε πιεῖν τὸ ποτήριον ὃ ἐγὼ πίνω ἢ τὸ βάπτισμα ὃ ἐγὼ βαπτίζομαι βαπτισθῆναι;",
+      "text_kjv": "But Jesus said unto them, Ye know not what ye ask: can ye drink of the cup that I drink of? and be baptized with the baptism that I am baptized with?",
+      "rendering": "Jesus said to them, \"You do not know what you are asking. Are you able to drink the cup that I drink, or to be baptized with the baptism with which I am baptized?\"",
+      "translator_notes": [
+        "The 'cup' (potērion) is a biblical metaphor for one's allotted portion, often God's wrath (Psalm 75:8, Isaiah 51:17, Jeremiah 25:15). The 'baptism' (baptisma) metaphor extends the image — being submerged in suffering. Jesus uses the present tense ('I drink,' 'I am baptized'), indicating that his suffering is already underway.",
+        "[TCR Cross-Reference] References Psalm 75:8 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved.",
+        "[TCR Cross-Reference] References Isaiah 51:17 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved.",
+        "[TCR Cross-Reference] References Jeremiah 25:15 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 39,
+      "text_greek": "οἱ δὲ εἶπαν αὐτῷ· Δυνάμεθα. ὁ δὲ Ἰησοῦς εἶπεν αὐτοῖς· Τὸ ποτήριον ὃ ἐγὼ πίνω πίεσθε καὶ τὸ βάπτισμα ὃ ἐγὼ βαπτίζομαι βαπτισθήσεσθε,",
+      "text_kjv": "And they said unto him, We can. And Jesus said unto them, Ye shall indeed drink of the cup that I drink of; and with the baptism that I am baptized withal shall ye be baptized:",
+      "rendering": "They said to him, \"We are able.\" Jesus said to them, \"The cup that I drink you will drink, and with the baptism with which I am baptized, you will be baptized.",
+      "translator_notes": [
+        "Their confident 'We are able' (Dynametha) is brave but uninformed. Jesus affirms they will indeed share his suffering — James was the first apostle martyred (Acts 12:2), and John, according to tradition, endured exile. Sharing Jesus's suffering, however, does not guarantee sharing his throne."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 40,
+      "text_greek": "τὸ δὲ καθίσαι ἐκ δεξιῶν μου ἢ ἐξ εὐωνύμων οὐκ ἔστιν ἐμὸν δοῦναι, ἀλλ' οἷς ἡτοίμασται.",
+      "text_kjv": "But to sit on my right hand and on my left hand is not mine to give; but it shall be given to them for whom it is prepared.",
+      "rendering": "But to sit at my right hand or at my left is not mine to grant, but it is for those for whom it has been prepared.\"",
+      "translator_notes": [
+        "Jesus distinguishes between what he can promise (shared suffering) and what belongs to the Father's sovereignty (positions of honor). The passive hētoimastai ('it has been prepared') is a divine passive — God is the unnamed agent who determines positions in the kingdom."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 41,
+      "text_greek": "Καὶ ἀκούσαντες οἱ δέκα ἤρξαντο ἀγανακτεῖν περὶ Ἰακώβου καὶ Ἰωάννου.",
+      "text_kjv": "And when the ten heard it, they began to be much displeased with James and John.",
+      "rendering": "When the ten heard this, they began to be indignant with James and John.",
+      "translator_notes": [
+        "The indignation (aganaktein) of the other ten is not righteous — it stems from the same desire for status. They are angry not because the request was inappropriate but because James and John tried to get there first."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 42,
+      "text_greek": "καὶ προσκαλεσάμενος αὐτοὺς ὁ Ἰησοῦς λέγει αὐτοῖς· Οἴδατε ὅτι οἱ δοκοῦντες ἄρχειν τῶν ἐθνῶν κατακυριεύουσιν αὐτῶν καὶ οἱ μεγάλοι αὐτῶν κατεξουσιάζουσιν αὐτῶν.",
+      "text_kjv": "But Jesus called them to him, and saith unto them, Ye know that they which are accounted to rule over the Gentiles exercise lordship over them; and their great ones exercise authority upon them.",
+      "rendering": "Jesus called them to him and said to them, \"You know that those who are considered rulers of the Gentiles lord it over them, and their great ones exercise authority over them.",
+      "translator_notes": [
+        "The verbs katakurieuousin ('lord it over, dominate') and katexousiazousin ('exercise authority over, tyrannize') both have the prefix kata- ('down upon'), emphasizing the downward pressure of coercive power. The phrase 'those considered rulers' (hoi dokountes archein) is subtly ironic — they merely 'seem' to rule; true authority lies elsewhere."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 43,
+      "text_greek": "οὐχ οὕτως δέ ἐστιν ἐν ὑμῖν, ἀλλ' ὃς ἂν θέλῃ μέγας γενέσθαι ἐν ὑμῖν ἔσται ὑμῶν διάκονος,",
+      "text_kjv": "But so shall it not be among you: but whosoever will be great among you, shall be your minister;",
+      "rendering": "But it is not so among you. Instead, whoever wants to become great among you must be your servant,",
+      "translator_notes": [
+        "The contrast is absolute: 'not so among you' (ouch houtōs en hymin). The kingdom community operates on an entirely different power structure. The word diakonos ('servant, attendant') describes one who serves others' needs."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 44,
+      "text_greek": "καὶ ὃς ἂν θέλῃ ἐν ὑμῖν εἶναι πρῶτος ἔσται πάντων δοῦλος·",
+      "text_kjv": "And whosoever of you will be the chiefest, shall be servant of all.",
+      "rendering": "Indeed, whosoever of you will be the chiefest, will be servant of all.",
+      "translator_notes": [
+        "Jesus escalates from diakonos ('servant') in verse 43 to doulos ('slave') here. A doulos had no rights, no status, no self-determination. This is the most radical statement of servant leadership in the Gospels — the one who would be 'first' (prōtos) must become a slave (doulos) to 'all' (pantōn)."
+      ],
+      "key_terms": [
+        {
+          "greek": "δοῦλος",
+          "transliteration": "doulos",
+          "rendered_as": "slave",
+          "semantic_range": "slave, bondservant, one in total subjection",
+          "note": "Unlike diakonos (voluntary servant), doulos denotes one without personal autonomy. Jesus applies this term to the highest form of leadership in his community."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 45,
+      "text_greek": "καὶ γὰρ ὁ υἱὸς τοῦ ἀνθρώπου οὐκ ἦλθεν διακονηθῆναι ἀλλὰ διακονῆσαι καὶ δοῦναι τὴν ψυχὴν αὐτοῦ λύτρον ἀντὶ πολλῶν.",
+      "text_kjv": "For even the Son of man came not to be ministered unto, but to minister, and to give his life a ransom for many.",
+      "rendering": "For even the Son of Man came not to be served but to serve, and to give his life as a ransom for many.\"",
+      "translator_notes": [
+        "This is Mark's clearest atonement statement. The word lytron ('ransom') is the price paid to liberate a slave or prisoner of war. The preposition anti ('in place of, instead of, in exchange for') indicates substitution. 'For many' (anti pollōn) echoes Isaiah 53:11-12, where the Servant bears the sins of 'the many.' Jesus grounds the call to service in his own example — the Son of Man's ultimate service is sacrificial death.",
+        "[TCR Cross-Reference] This verse quotes Isaiah 53:11-12 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "key_terms": [
+        {
+          "greek": "λύτρον",
+          "transliteration": "lytron",
+          "rendered_as": "ransom",
+          "semantic_range": "ransom, redemption price, means of release",
+          "note": "In the Septuagint, lytron translates Hebrew kopher and padah vocabulary — the price paid for the redemption of a life (Exodus 21:30, Numbers 18:15). Jesus applies this sacrificial-commercial term to his own death."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 46,
+      "text_greek": "Καὶ ἔρχονται εἰς Ἰεριχώ. Καὶ ἐκπορευομένου αὐτοῦ ἀπὸ Ἰεριχὼ καὶ τῶν μαθητῶν αὐτοῦ καὶ ὄχλου ἱκανοῦ ὁ υἱὸς Τιμαίου Βαρτιμαῖος, τυφλὸς προσαίτης, ἐκάθητο παρὰ τὴν ὁδόν.",
+      "text_kjv": "And they came to Jericho: and as he went out of Jericho with his disciples and a great number of people, blind Bartimaeus, the son of Timaeus, sat by the highway side begging.",
+      "rendering": "They came to Jericho. As he was leaving Jericho with his disciples and a large crowd, Bartimaeus, a blind beggar, the son of Timaeus, was sitting by the roadside.",
+      "translator_notes": [
+        "Bartimaeus is one of the few people healed by Jesus whose name Mark preserves (cf. Jairus, 5:22), suggesting he was known to Mark's community. The name Bar-Timaios is Aramaic for 'son of Timaeus.' His position — blind, begging, by the roadside — represents the lowest social status. Jericho was the last major stop before the ascent to Jerusalem."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 47,
+      "text_greek": "καὶ ἀκούσας ὅτι Ἰησοῦς ὁ Ναζαρηνός ἐστιν ἤρξατο κράζειν καὶ λέγειν· Υἱὲ Δαυὶδ Ἰησοῦ, ἐλέησόν με.",
+      "text_kjv": "And when he heard that it was Jesus of Nazareth, he began to cry out, and say, Jesus, thou Son of David, have mercy on me.",
+      "rendering": "When he heard that it was Jesus of Nazareth, he began to cry out, \"Jesus, Son of David, have mercy on me!\"",
+      "translator_notes": [
+        "Bartimaeus's cry 'Son of David' (Huie Dauid) is the first public messianic acclamation in Mark. The blind man sees what the sighted crowd does not — that Jesus is the Davidic Messiah. The plea 'have mercy on me' (eleēson me) echoes the psalms of lament (Psalm 6:2, 9:13, 51:1).",
+        "[TCR Cross-Reference] Draws on Psalm 6:2. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 48,
+      "text_greek": "καὶ ἐπετίμων αὐτῷ πολλοὶ ἵνα σιωπήσῃ· ὁ δὲ πολλῷ μᾶλλον ἔκραζεν· Υἱὲ Δαυίδ, ἐλέησόν με.",
+      "text_kjv": "And many charged him that he should hold his peace: but he cried the more a great deal, Thou Son of David, have mercy on me.",
+      "rendering": "Many rebuked him, telling him to be silent. But he cried out all the more, \"Son of David, have mercy on me!\"",
+      "translator_notes": [
+        "The crowd tries to silence Bartimaeus, but like the Syrophoenician woman (7:26-28), he refuses to be deterred. His persistence intensifies — 'all the more' (pollō mallon). Faith in Mark is characterized by persistence in the face of opposition."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 49,
+      "text_greek": "καὶ στὰς ὁ Ἰησοῦς εἶπεν· Φωνήσατε αὐτόν. καὶ φωνοῦσιν τὸν τυφλὸν λέγοντες αὐτῷ· Θάρσει, ἔγειρε, φωνεῖ σε.",
+      "text_kjv": "And Jesus stood still, and commanded him to be called. And they call the blind man, saying unto him, Be of good comfort, rise; he calleth thee.",
+      "rendering": "Jesus stopped and said, \"Call him.\" They called the blind man, saying to him, \"Take heart! Get up, he is calling you.\"",
+      "translator_notes": [
+        "Jesus stops the entire procession for a blind beggar — a dramatic reversal of social convention. The crowd that tried to silence Bartimaeus now encourages him. The three imperatives — 'Take heart' (tharsei), 'Get up' (egeire), 'he is calling you' (phōnei se) — convey excitement."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 50,
+      "text_greek": "ὁ δὲ ἀποβαλὼν τὸ ἱμάτιον αὐτοῦ ἀναπηδήσας ἦλθεν πρὸς τὸν Ἰησοῦν.",
+      "text_kjv": "And he, casting away his garment, rose, and came to Jesus.",
+      "rendering": "Throwing off his cloak, he sprang up and came to Jesus.",
+      "translator_notes": [
+        "The cloak (himation) was a beggar's most valuable possession — his bedding, his shelter, his collection surface for coins. Bartimaeus throws it aside without hesitation, in stark contrast to the rich man who could not part with his possessions (v. 22). The verb anapēdēsas ('sprang up, jumped up') conveys explosive energy."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 51,
+      "text_greek": "καὶ ἀποκριθεὶς αὐτῷ ὁ Ἰησοῦς εἶπεν· Τί σοι θέλεις ποιήσω; ὁ δὲ τυφλὸς εἶπεν αὐτῷ· Ῥαββουνί, ἵνα ἀναβλέψω.",
+      "text_kjv": "And Jesus answered and said unto him, What wilt thou that I should do unto thee? The blind man said unto him, Lord, that I might receive my sight.",
+      "rendering": "Jesus said to him, \"What do you want me to do for you?\" The blind man said to him, \"Rabboni, let me recover my sight.\"",
+      "translator_notes": [
+        "The question is identical to verse 36, asked of James and John. The contrast in answers is devastating: James and John wanted thrones; Bartimaeus wants sight. Rabbouni (an intensified form of 'Rabbi') appears only here and in John 20:16 (Mary Magdalene at the tomb)."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 52,
+      "text_greek": "καὶ ὁ Ἰησοῦς εἶπεν αὐτῷ· Ὕπαγε, ἡ πίστις σου σέσωκέν σε. καὶ εὐθὺς ἀνέβλεψεν καὶ ἠκολούθει αὐτῷ ἐν τῇ ὁδῷ.",
+      "text_kjv": "And Jesus said unto him, Go thy way; thy faith hath made thee whole. And immediately he received his sight, and followed Jesus in the way.",
+      "rendering": "Jesus said to him, \"Go, your faith has made you well.\" Immediately he recovered his sight and followed him on the way.",
+      "translator_notes": [
+        "The phrase 'your faith has saved you' (hē pistis sou sesōken se) uses the perfect tense of sōzō, which means both 'save' and 'heal.' Unlike the blind man at Bethsaida (8:22-26) who was sent home, Bartimaeus follows Jesus 'on the way' (en tē hodō) — the way to Jerusalem, the way of the cross. His story closes the journey section that began in 8:22 with another blind man, forming an inclusio of restored sight."
+      ],
+      "reading_level": "7th grade"
+    }
+  ]
+}

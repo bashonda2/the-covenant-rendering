@@ -1,0 +1,384 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Luke",
+    "chapter": 13,
+    "source_text": "SBL Greek New Testament (SBLGNT)",
+    "reference_text": "KJV",
+    "generated_at": "2026-04-04T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Luke 13 opens with Jesus challenging the assumption that suffering indicates special sinfulness, using two contemporary tragedies — Pilate's massacre of Galilean worshipers and the collapse of the tower of Siloam — to call the entire nation to repentance. The parable of the barren fig tree extends the warning: Israel has been given one more season of grace. Jesus then heals a crippled woman on the Sabbath, provoking a confrontation with a synagogue ruler. The chapter continues with the parables of the mustard seed and leaven, followed by the sobering teaching about the narrow door. The chapter concludes with Jesus's defiance of Herod's threats and his lament over Jerusalem.",
+    "remarkable": "Luke 13 is uniquely Lukan in its opening section (vv. 1-9), which addresses theodicy — the question of why people suffer — with an answer that refuses the simplistic equation of suffering with personal sin. The healing of the bent-over woman (vv. 10-17) is unique to Luke and presents a woman who has been bound by Satan for eighteen years, framing illness as spiritual bondage and healing as liberation — a thoroughly Lukan emphasis. The lament over Jerusalem (vv. 34-35) is one of the most emotionally charged passages in the Gospels, revealing Jesus's grief over the city that kills its prophets.",
+    "friction": "The historical incidents in vv. 1-5 (Pilate's massacre, the Siloam tower collapse) are not recorded outside Luke's Gospel but fit the known character of Pilate's brutal governance. The fig tree parable (vv. 6-9) raises questions about Israel's final chance — is the 'one more year' an offer of hope or a final warning? The narrow door saying (vv. 24-30) contains some of the most exclusive language in the Gospels, including 'I do not know where you come from' — a statement of relationship denial from the master, not merely ignorance.",
+    "connections": "The fig tree parable connects to Isaiah 5:1-7 (the Song of the Vineyard) and Micah 7:1. The Sabbath healing connects to Luke's pattern of Sabbath controversies (6:1-11, 14:1-6). The mustard seed and leaven parables parallel Matthew 13 and Mark 4. The narrow door teaching echoes Matthew 7:13-14 but with distinctive elements. The Jerusalem lament appears in Matthew 23:37-39 in a different narrative context. The Herod warning (vv. 31-33) is unique to Luke and continues the Herod thread from 9:7-9."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_greek": "Παρῆσαν δέ τινες ἐν αὐτῷ τῷ καιρῷ ἀπαγγέλλοντες αὐτῷ περὶ τῶν Γαλιλαίων ὧν τὸ αἷμα Πιλᾶτος ἔμιξεν μετὰ τῶν θυσιῶν αὐτῶν.",
+      "text_kjv": "There were present at that season some that told him of the Galilaeans, whose blood Pilate had mingled with their sacrifices.",
+      "rendering": "At that very time some people came and reported to him about the Galileans whose blood Pilate had mixed with their sacrifices.",
+      "translator_notes": [
+        "This incident is unattested outside Luke but is consistent with Pilate's character as described by Josephus and Philo — he was notorious for violent suppression of perceived threats. The mixing of victims' blood 'with their sacrifices' (meta tōn thysiōn autōn) means Pilate's soldiers killed them in the act of offering temple sacrifices, a supreme desecration. The reporters likely expected Jesus to comment on the victims' sinfulness as an explanation for their fate."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 2,
+      "text_greek": "καὶ ἀποκριθεὶς εἶπεν αὐτοῖς· Δοκεῖτε ὅτι οἱ Γαλιλαῖοι οὗτοι ἁμαρτωλοὶ παρὰ πάντας τοὺς Γαλιλαίους ἐγένοντο, ὅτι ταῦτα πεπόνθασιν;",
+      "text_kjv": "And Jesus answering said unto them, Suppose ye that these Galilaeans were sinners above all the Galilaeans, because they suffered such things?",
+      "rendering": "He answered them, \"Do you think these Galileans were worse sinners than all other Galileans because they suffered these things?",
+      "translator_notes": [
+        "Jesus directly challenges the assumption that suffering is proportional to sin (the retributive theology that Job's friends advocated). The comparative hamartōloi para pantas ('sinners beyond all') implies the question 'were they especially sinful?' Jesus's answer in the next verse is an emphatic no — but with a surprising turn."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 3,
+      "text_greek": "οὐχί, λέγω ὑμῖν, ἀλλ' ἐὰν μὴ μετανοῆτε πάντες ὁμοίως ἀπολεῖσθε.",
+      "text_kjv": "I tell you, Nay: but, except ye repent, ye shall all likewise perish.",
+      "rendering": "No, I tell you! But unless you repent, you will all perish in the same way.",
+      "translator_notes": [
+        "Jesus refuses the theodicy question ('why did they suffer?') and redirects to repentance. The word homoiōs ('in the same way, likewise') is striking — it may mean 'similarly' (by violent, sudden death) rather than 'for the same reason.' Given that Jerusalem would be destroyed by Rome in AD 70, this warning may carry historical as well as spiritual weight. The verb metanoēte ('repent, change your mind and direction') is the fundamental demand of Jesus's ministry."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 4,
+      "text_greek": "ἢ ἐκεῖνοι οἱ δεκαοκτὼ ἐφ' οὓς ἔπεσεν ὁ πύργος ἐν τῷ Σιλωὰμ καὶ ἀπέκτεινεν αὐτούς, δοκεῖτε ὅτι αὐτοὶ ὀφειλέται ἐγένοντο παρὰ πάντας τοὺς ἀνθρώπους τοὺς κατοικοῦντας Ἰερουσαλήμ;",
+      "text_kjv": "Or those eighteen, upon whom the tower in Siloam fell, and slew them, think ye that they were sinners above all men that dwelt in Jerusalem?",
+      "rendering": "Or those eighteen on whom the tower in Siloam fell and killed them — do you think they were worse offenders than all the other people living in Jerusalem?",
+      "translator_notes": [
+        "Jesus provides a second example, this time of accidental death rather than political violence, to make the same point from a different angle. The word opheiletai ('debtors, offenders, those who owe') frames sin as a debt — these eighteen did not owe God more than other Jerusalemites. The tower of Siloam was likely part of the construction project associated with the Pool of Siloam in southeast Jerusalem."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 5,
+      "text_greek": "οὐχί, λέγω ὑμῖν, ἀλλ' ἐὰν μὴ μετανοῆτε πάντες ὡσαύτως ἀπολεῖσθε.",
+      "text_kjv": "I tell you, Nay: but, except ye repent, ye shall all likewise perish.",
+      "rendering": "No, I tell you! But unless you repent, you will all perish just as they did.\"",
+      "translator_notes": [
+        "The repetition of the repentance call with the variant hōsautōs ('just as, in the same way') instead of homoiōs (v. 3) reinforces the universal application. The double example (political violence, accidental disaster) covers every category of unexpected death and strips away any excuse for complacency."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 6,
+      "text_greek": "Ἔλεγεν δὲ ταύτην τὴν παραβολήν· Συκῆν εἶχέν τις πεφυτευμένην ἐν τῷ ἀμπελῶνι αὐτοῦ, καὶ ἦλθεν ζητῶν καρπὸν ἐν αὐτῇ καὶ οὐχ εὗρεν.",
+      "text_kjv": "He spake also this parable; A certain man had a fig tree planted in his vineyard; and he came and sought fruit thereon, and found none.",
+      "rendering": "Then he told this parable: \"A man had a fig tree planted in his vineyard. He came looking for fruit on it and found none.",
+      "translator_notes": [
+        "The parable is unique to Luke and extends the repentance theme. A fig tree in a vineyard was common in Palestine — the tree would benefit from the vineyard's cultivated soil. The owner's expectation of fruit is entirely reasonable. The fig tree in Old Testament prophecy often symbolizes Israel (Jeremiah 8:13, Hosea 9:10, Micah 7:1), and the vineyard itself is Israel's classic symbol (Isaiah 5:1-7).",
+        "[TCR Cross-Reference] Quotes Jeremiah 8:13. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it.",
+        "[TCR Cross-Reference] Quotes Hosea 9:10. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it.",
+        "[TCR Cross-Reference] Quotes Micah 7:1. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it.",
+        "[TCR Cross-Reference] Quotes Isaiah 5:1-7. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 7,
+      "text_greek": "εἶπεν δὲ πρὸς τὸν ἀμπελουργόν· Ἰδοὺ τρία ἔτη ἀφ' οὗ ἔρχομαι ζητῶν καρπὸν ἐν τῇ συκῇ ταύτῃ καὶ οὐχ εὑρίσκω· ἔκκοψον αὐτήν, ἱνατί καὶ τὴν γῆν καταργεῖ;",
+      "text_kjv": "Then said he unto the dresser of his vineyard, Behold, these three years I come seeking fruit on this fig tree, and find none: cut it down; why cumbereth it the ground?",
+      "rendering": "He said to the gardener, 'Look, for three years now I have come looking for fruit on this fig tree and have found none. Cut it down! Why should it waste the soil?'",
+      "translator_notes": [
+        "Three years represents a full probationary period — fig trees typically bear fruit within three years of planting. The verb katargei ('renders useless, wastes, makes unproductive') suggests the tree is not merely barren but actively depletes the soil of nutrients that could benefit other plants. The owner's frustration is justified: the tree is not just unproductive but counterproductive."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 8,
+      "text_greek": "ὁ δὲ ἀποκριθεὶς λέγει αὐτῷ· Κύριε, ἄφες αὐτὴν καὶ τοῦτο τὸ ἔτος, ἕως ὅτου σκάψω περὶ αὐτὴν καὶ βάλω κόπρια,",
+      "text_kjv": "And he answering said unto him, Lord, let it alone this year also, till I shall dig about it, and dung it:",
+      "rendering": "But the gardener answered, 'Sir, leave it alone for one more year, until I dig around it and put on fertilizer.",
+      "translator_notes": [
+        "The gardener's intercession introduces a note of grace into a judgment parable. He does not argue the tree is healthy or that the owner is wrong — he asks for one more year (kai touto to etos, 'this year also') and promises intensive care: digging around the roots (skapsō, to aerate the soil) and adding kopria ('manure, fertilizer'). If the gardener represents Jesus or the prophetic mission, the plea is for one final period of intensive ministry before judgment falls."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 9,
+      "text_greek": "κἂν μὲν ποιήσῃ καρπὸν εἰς τὸ μέλλον· εἰ δὲ μή γε, ἐκκόψεις αὐτήν.",
+      "text_kjv": "And if it bear fruit, well: and if not, then after that thou shalt cut it down.",
+      "rendering": "If it bears fruit next year, fine. But if not, you can cut it down.'\"",
+      "translator_notes": [
+        "The parable leaves the outcome open — the tree may yet bear fruit. The conditional structure (ean men... ei de mē ge) creates genuine suspense: the reprieve is real but not permanent. The verb ekkopseis ('you will cut it down') remains the default outcome if repentance (fruit) does not come. The parable thus offers both hope and warning: there is still time, but not unlimited time."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 10,
+      "text_greek": "Ἦν δὲ διδάσκων ἐν μιᾷ τῶν συναγωγῶν ἐν τοῖς σάββασιν.",
+      "text_kjv": "And he was teaching in one of the synagogues on the sabbath.",
+      "rendering": "He was teaching in a synagogue on the Sabbath day.",
+      "translator_notes": [
+        "This is the last recorded instance of Jesus teaching in a synagogue in Luke's Gospel. The Sabbath setting establishes the context for the controversy that follows — healing on the Sabbath was a persistent flashpoint between Jesus and religious authorities (cf. 6:6-11, 14:1-6)."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 11,
+      "text_greek": "καὶ ἰδοὺ γυνὴ πνεῦμα ἔχουσα ἀσθενείας ἔτη δεκαοκτὼ καὶ ἦν συγκύπτουσα καὶ μὴ δυναμένη ἀνακύψαι εἰς τὸ παντελές.",
+      "text_kjv": "And, behold, there was a woman which had a spirit of infirmity eighteen years, and was bowed together, and could in no wise lift up herself.",
+      "rendering": "A woman was there who had been disabled by a spirit for eighteen years. She was bent over and could not straighten up at all.",
+      "translator_notes": [
+        "The phrase pneuma echousa astheneias ('having a spirit of weakness') attributes her condition to a spiritual cause, which Jesus later identifies as Satanic bondage (v. 16). The condition described — chronic severe kyphosis (forward curvature of the spine) — left her unable to look up. The eighteen years of suffering parallel the eighteen killed by the Siloam tower (v. 4), possibly an intentional literary connection."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 12,
+      "text_greek": "ἰδὼν δὲ αὐτὴν ὁ Ἰησοῦς προσεφώνησεν καὶ εἶπεν αὐτῇ· Γύναι, ἀπολέλυσαι τῆς ἀσθενείας σου,",
+      "text_kjv": "And when Jesus saw her, he called her to him, and said unto her, Woman, thou art loosed from thine infirmity.",
+      "rendering": "When Jesus saw her, he called her over and said to her, \"Woman, you are freed from your disability.\"",
+      "translator_notes": [
+        "Jesus initiates the encounter — the woman does not approach or ask for healing. The perfect passive apolelysai ('you have been freed, you are released') uses liberation language: the same verb is used for releasing prisoners. The tense indicates a completed action with continuing results — her freedom is already accomplished in Jesus's declaration, even before the physical touch in v. 13."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 13,
+      "text_greek": "καὶ ἐπέθηκεν αὐτῇ τὰς χεῖρας· καὶ παραχρῆμα ἀνωρθώθη καὶ ἐδόξαζεν τὸν θεόν.",
+      "text_kjv": "And he laid his hands on her: and immediately she was made straight, and glorified God.",
+      "rendering": "Then he laid his hands on her, and immediately she straightened up and began glorifying God.",
+      "translator_notes": [
+        "The laying on of hands (epethēken tas cheiras) is Jesus's characteristic healing gesture, conveying physical contact and personal compassion. The word parachrēma ('immediately, at once') is a favorite Lukan term for the instantaneous nature of Jesus's healings. The verb anōrthōthē ('was straightened, was restored to upright') is the physical reversal of her eighteen-year condition. Her response — glorifying God (edoxazen ton theon) — is the model response to divine healing in Luke's Gospel."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 14,
+      "text_greek": "ἀποκριθεὶς δὲ ὁ ἀρχισυνάγωγος, ἀγανακτῶν ὅτι τῷ σαββάτῳ ἐθεράπευσεν ὁ Ἰησοῦς, ἔλεγεν τῷ ὄχλῳ ὅτι Ἓξ ἡμέραι εἰσὶν ἐν αἷς δεῖ ἐργάζεσθαι· ἐν αὐταῖς οὖν ἐρχόμενοι θεραπεύεσθε καὶ μὴ τῇ ἡμέρᾳ τοῦ σαββάτου.",
+      "text_kjv": "And the ruler of the synagogue answered with indignation, because that Jesus had healed on the sabbath day, and said unto the people, There are six days in which men ought to work: in them therefore come and be healed, and not on the sabbath day.",
+      "rendering": "But the synagogue ruler, indignant because Jesus had healed on the Sabbath, responded by saying to the crowd, \"There are six days on which work should be done. Come on those days and be healed, and not on the Sabbath day.\"",
+      "translator_notes": [
+        "The synagogue ruler's anger (aganaktōn, 'being indignant, being outraged') is directed at the crowd rather than at Jesus directly — a passive-aggressive approach that avoids direct confrontation with a popular teacher. His reasoning is based on Exodus 20:9 (six days for work) and classifies healing as 'work' that violates Sabbath rest. The irony is devastating: he sees no urgency in liberating a woman who has been bound for eighteen years.",
+        "[TCR Cross-Reference] Echoes Exodus 20:9. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 15,
+      "text_greek": "ἀπεκρίθη δὲ αὐτῷ ὁ κύριος καὶ εἶπεν· Ὑποκριταί, ἕκαστος ὑμῶν τῷ σαββάτῳ οὐ λύει τὸν βοῦν αὐτοῦ ἢ τὸν ὄνον ἀπὸ τῆς φάτνης καὶ ἀπαγαγὼν ποτίζει;",
+      "text_kjv": "The Lord then answered him, and said, Thou hypocrite, doth not each one of you on the sabbath loose his ox or his ass from the stall, and lead him away to watering?",
+      "rendering": "The Lord answered him, \"Hypocrites! Does not each of you on the Sabbath untie his ox or donkey from the manger and lead it away to water it?",
+      "translator_notes": [
+        "Jesus's argument is from lesser to greater (qal wahomer): if the Sabbath permits untying an animal from a manger for basic care, it certainly permits untying a human from eighteen years of bondage. The verb lyei ('untie, loose, release') deliberately echoes the liberation language of v. 12 (apolelysai) and v. 16 (lythēnai). The address 'hypocrites' (plural) indicts not just the synagogue ruler but all who share his reasoning."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 16,
+      "text_greek": "ταύτην δὲ θυγατέρα Ἀβραὰμ οὖσαν, ἣν ἔδησεν ὁ σατανᾶς ἰδοὺ δέκα καὶ ὀκτὼ ἔτη, οὐκ ἔδει λυθῆναι ἀπὸ τοῦ δεσμοῦ τούτου τῇ ἡμέρᾳ τοῦ σαββάτου;",
+      "text_kjv": "And ought not this woman, being a daughter of Abraham, whom Satan hath bound, lo, these eighteen years, be loosed from this bond on the sabbath day?",
+      "rendering": "Then should not this woman, a daughter of Abraham whom Satan has bound for eighteen long years, be released from this bondage on the Sabbath day?\"",
+      "translator_notes": [
+        "The title 'daughter of Abraham' (thygatera Abraam) is remarkable — the parallel 'son of Abraham' is used for Zacchaeus (19:9), but this is the only place in the Gospels where a woman is called 'daughter of Abraham.' It affirms her full membership in the covenant community. The framing of her illness as Satanic bondage (edēsen ho satanas, 'Satan bound') connects healing to spiritual liberation — the Sabbath, a day of rest and freedom, is the perfect day to break Satan's chains. The word desmou ('bond, chain, imprisonment') makes the metaphor explicit."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 17,
+      "text_greek": "καὶ ταῦτα λέγοντος αὐτοῦ κατῃσχύνοντο πάντες οἱ ἀντικείμενοι αὐτῷ, καὶ πᾶς ὁ ὄχλος ἔχαιρεν ἐπὶ πᾶσιν τοῖς ἐνδόξοις τοῖς γινομένοις ὑπ' αὐτοῦ.",
+      "text_kjv": "And when he had said these things, all his adversaries were ashamed: and all the people rejoiced for all the glorious things that were done by him.",
+      "rendering": "When he said these things, all his opponents were put to shame, and the entire crowd rejoiced at all the glorious things being done by him.",
+      "translator_notes": [
+        "The contrast between the opponents' shame (katēschynonto, 'were put to shame, were humiliated') and the crowd's joy (echairen) creates a split response. The adjective endoxois ('glorious, splendid, honorable') is applied to all of Jesus's works — not just this healing but the full pattern of his ministry. Luke presents Jesus's ministry as a source of public delight that his opponents cannot suppress."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 18,
+      "text_greek": "Ἔλεγεν οὖν· Τίνι ὁμοία ἐστὶν ἡ βασιλεία τοῦ θεοῦ καὶ τίνι ὁμοιώσω αὐτήν;",
+      "text_kjv": "Then said he, Unto what is the kingdom of God like? and whereunto shall I resemble it?",
+      "rendering": "He said therefore, \"What is the kingdom of God like, and what shall I compare it to?",
+      "translator_notes": [
+        "The double question (tini homoia... tini homoiōsō) is a standard rabbinic formula for introducing a parable: 'to what shall I liken X?' The word oun ('therefore') connects these parables to the preceding healing — the kingdom of God is at work in the liberation of the bent-over woman, and these parables describe its nature."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 19,
+      "text_greek": "ὁμοία ἐστὶν κόκκῳ σινάπεως, ὃν λαβὼν ἄνθρωπος ἔβαλεν εἰς κῆπον ἑαυτοῦ, καὶ ηὔξησεν καὶ ἐγένετο εἰς δένδρον, καὶ τὰ πετεινὰ τοῦ οὐρανοῦ κατεσκήνωσεν ἐν τοῖς κλάδοις αὐτοῦ.",
+      "text_kjv": "It is like a grain of mustard seed, which a man took, and cast into his garden; and it grew, and waxed a great tree; and the fowls of the air lodged in the branches of it.",
+      "rendering": "It is like a mustard seed that a man took and planted in his garden. It grew and became a tree, and the birds of the sky made nests in its branches.\"",
+      "translator_notes": [
+        "The mustard seed (kokkō sinapeōs) was proverbially the smallest seed known to Palestinian agriculture. Luke says it was planted in a garden (kēpon) rather than a field (Mark's version), reflecting a Gentile horticultural context. The tree image with birds nesting in its branches alludes to Daniel 4:12 and Ezekiel 17:23, where a great tree sheltering birds represents a kingdom that provides refuge for many nations. The point is disproportionate growth: the kingdom begins insignificantly but becomes vast.",
+        "[TCR Cross-Reference] Echoes Daniel 4:12. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale.",
+        "[TCR Cross-Reference] Echoes Ezekiel 17:23. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 20,
+      "text_greek": "Καὶ πάλιν εἶπεν· Τίνι ὁμοιώσω τὴν βασιλείαν τοῦ θεοῦ;",
+      "text_kjv": "And again he said, Whereunto shall I liken the kingdom of God?",
+      "rendering": "Again he said, \"What shall I compare the kingdom of God to?",
+      "translator_notes": [
+        "The repeated question introduces a second parable that complements the first. Where the mustard seed illustrates visible, external growth, the leaven illustrates invisible, internal transformation."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 21,
+      "text_greek": "ὁμοία ἐστὶν ζύμῃ, ἣν λαβοῦσα γυνὴ ἐνέκρυψεν εἰς ἀλεύρου σάτα τρία ἕως οὗ ἐζυμώθη ὅλον.",
+      "text_kjv": "It is like leaven, which a woman took and hid in three measures of meal, till the whole was leavened.",
+      "rendering": "It is like leaven that a woman took and hid in three measures of flour until the whole batch was leavened.\"",
+      "translator_notes": [
+        "Three sata of flour is approximately forty pounds — enough bread for a large feast or community gathering (cf. Genesis 18:6, where Sarah uses this amount for divine visitors). The verb enekrypsen ('hid, concealed') emphasizes the leaven's invisibility — once mixed in, it disappears but transforms everything. Leaven usually carries negative associations in Jewish thought (corruption, sin), making Jesus's positive use of it provocative. The kingdom works like leaven: hidden, pervasive, and transformative from within.",
+        "[TCR Cross-Reference] Quotes Genesis 18:6. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 22,
+      "text_greek": "Καὶ διεπορεύετο κατὰ πόλεις καὶ κώμας διδάσκων καὶ πορείαν ποιούμενος εἰς Ἰερουσαλήμ.",
+      "text_kjv": "And he went through the cities and villages, teaching, and journeying toward Jerusalem.",
+      "rendering": "He went through town after town and village after village, teaching as he made his way to Jerusalem.",
+      "translator_notes": [
+        "This travel notice reminds the reader of the journey framework established in 9:51. Luke periodically reorients the reader to the Jerusalem destination (cf. 9:51, 13:22, 17:11, 18:31, 19:11, 19:28). The phrase poreian poioumenos eis Ierousalēm ('making his journey toward Jerusalem') keeps the shadow of the cross over all the intervening teaching."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 23,
+      "text_greek": "εἶπεν δέ τις αὐτῷ· Κύριε, εἰ ὀλίγοι οἱ σῳζόμενοι; ὁ δὲ εἶπεν πρὸς αὐτούς·",
+      "text_kjv": "Then said one unto him, Lord, are there few that be saved? And he said unto them,",
+      "rendering": "Someone asked him, \"Lord, are only a few being saved?\" He said to them,",
+      "translator_notes": [
+        "The question about the number of the saved (ei oligoi hoi sōzomenoi) was debated among Jewish teachers. Jesus characteristically refuses to answer the speculative question directly and instead issues a practical command — the issue is not how many will be saved but whether you will respond now."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 24,
+      "text_greek": "Ἀγωνίζεσθε εἰσελθεῖν διὰ τῆς στενῆς θύρας, ὅτι πολλοί, λέγω ὑμῖν, ζητήσουσιν εἰσελθεῖν καὶ οὐκ ἰσχύσουσιν.",
+      "text_kjv": "Strive to enter in at the strait gate: for many, I say unto you, will seek to enter in, and shall not be able.",
+      "rendering": "\"Strive to enter through the narrow door, because many, I tell you, will try to enter and will not be able.",
+      "translator_notes": [
+        "The verb agōnizesthe ('strive, struggle, agonize, fight') is an athletic term — it describes the intense exertion of a competitor in a contest (the English 'agonize' comes from it). The 'narrow door' (stenēs thyras) suggests a door that requires effort and intentionality to pass through. The warning that many will 'seek' (zētēsousin) but 'not be able' (ouk ischysousin) implies that casual interest is insufficient — the door requires determined effort."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 25,
+      "text_greek": "ἀφ' οὗ ἂν ἐγερθῇ ὁ οἰκοδεσπότης καὶ ἀποκλείσῃ τὴν θύραν καὶ ἄρξησθε ἔξω ἑστάναι καὶ κρούειν τὴν θύραν λέγοντες· Κύριε, ἄνοιξον ἡμῖν, καὶ ἀποκριθεὶς ἐρεῖ ὑμῖν· Οὐκ οἶδα ὑμᾶς πόθεν ἐστέ.",
+      "text_kjv": "When once the master of the house is risen up, and hath shut to the door, and ye begin to stand without, and to knock at the door, saying, Lord, Lord, open unto us; and he shall answer and say unto you, I know you not whence ye are:",
+      "rendering": "Once the master of the house gets up and shuts the door, you will stand outside knocking and saying, 'Lord, open to us!' But he will answer you, 'I do not know where you come from.'",
+      "translator_notes": [
+        "The image shifts from a narrow door to a closed door. The verb apokleisei ('shuts, locks') indicates finality — once locked, the door does not reopen. The phrase ouk oida hymas pothen este ('I do not know where you come from') is not a statement of ignorance but of non-recognition — the master refuses to acknowledge a relationship. This echoes Matthew 7:23's 'I never knew you.'"
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 26,
+      "text_greek": "τότε ἄρξεσθε λέγειν· Ἐφάγομεν ἐνώπιόν σου καὶ ἐπίομεν, καὶ ἐν ταῖς πλατείαις ἡμῶν ἐδίδαξας·",
+      "text_kjv": "Then shall ye begin to say, We have eaten and drunk in thy presence, and thou hast taught in our streets.",
+      "rendering": "Then you will begin to say, 'We ate and drank in your presence, and you taught in our streets.'",
+      "translator_notes": [
+        "The claims offered — eating together and hearing his teaching — represent proximity without commitment. They have been near Jesus but have not entered through the narrow door of genuine discipleship. Luke's version (eating in his presence, hearing his street teaching) is more concrete than Matthew's (prophesying and casting out demons in his name), focusing on passive proximity rather than active ministry."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 27,
+      "text_greek": "καὶ ἐρεῖ λέγων ὑμῖν· Οὐκ οἶδα ὑμᾶς πόθεν ἐστέ· ἀπόστητε ἀπ' ἐμοῦ, πάντες ἐργάται ἀδικίας.",
+      "text_kjv": "But he shall say, I tell you, I know you not whence ye are; depart from me, all ye workers of iniquity.",
+      "rendering": "But he will say, 'I tell you, I do not know where you come from. Depart from me, all you workers of unrighteousness!'",
+      "translator_notes": [
+        "The repeated denial and the command to depart (apostēte ap' emou) echoes Psalm 6:8 (LXX). The phrase ergatai adikias ('workers of unrighteousness, practitioners of injustice') identifies the excluded not as strangers but as people whose lives were characterized by injustice — their proximity to Jesus did not translate into righteous living.",
+        "[TCR Cross-Reference] Draws on Psalm 6:8. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 28,
+      "text_greek": "ἐκεῖ ἔσται ὁ κλαυθμὸς καὶ ὁ βρυγμὸς τῶν ὀδόντων, ὅταν ὄψησθε Ἀβραὰμ καὶ Ἰσαὰκ καὶ Ἰακὼβ καὶ πάντας τοὺς προφήτας ἐν τῇ βασιλείᾳ τοῦ θεοῦ, ὑμᾶς δὲ ἐκβαλλομένους ἔξω.",
+      "text_kjv": "There shall be weeping and gnashing of teeth, when ye shall see Abraham, and Isaac, and Jacob, and all the prophets, in the kingdom of God, and you yourselves thrust out.",
+      "rendering": "There will be weeping and gnashing of teeth when you see Abraham, Isaac, Jacob, and all the prophets in the kingdom of God, but you yourselves thrown out.",
+      "translator_notes": [
+        "The 'weeping and gnashing of teeth' (klauthnos kai brygmos tōn odontōn) is a fixed formula for the anguish of exclusion that appears six times in Matthew but only here in Luke. The particular torment is not physical pain but the sight of the patriarchs and prophets inside the kingdom while the self-assured are 'thrown out' (ekballomenous) — the verb for casting out demons is used for casting out the presumptuous."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 29,
+      "text_greek": "καὶ ἥξουσιν ἀπὸ ἀνατολῶν καὶ δυσμῶν καὶ ἀπὸ βορρᾶ καὶ νότου καὶ ἀνακλιθήσονται ἐν τῇ βασιλείᾳ τοῦ θεοῦ.",
+      "text_kjv": "And they shall come from the east, and from the west, and from the north, and from the south, and shall sit down in the kingdom of God.",
+      "rendering": "People will come from east and west, from north and south, and recline at the table in the kingdom of God.",
+      "translator_notes": [
+        "The four compass points (anatolōn, dysmōn, borra, notou) represent universal inclusion — people from all directions, meaning all nations. The verb anaklithēsontai ('will recline at table') indicates the messianic banquet, a well-established Jewish image for the kingdom's fulfillment (cf. Isaiah 25:6-8). The irony is that those who considered themselves insiders (v. 26) are excluded while outsiders from every direction take their places.",
+        "[TCR Cross-Reference] Echoes Isaiah 25:6-8. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 30,
+      "text_greek": "καὶ ἰδοὺ εἰσὶν ἔσχατοι οἳ ἔσονται πρῶτοι καὶ εἰσὶν πρῶτοι οἳ ἔσονται ἔσχατοι.",
+      "text_kjv": "And, behold, there are last which shall be first, and there are first which shall be last.",
+      "rendering": "And indeed, some who are last will be first, and some who are first will be last.\"",
+      "translator_notes": [
+        "This great reversal saying summarizes the preceding teaching: those who assume priority (Israel's religious establishment) may find themselves displaced, while those considered last (Gentiles, sinners, the marginalized) may find themselves first. Luke's version is more balanced than some parallels — 'some' (eisin) in each category, not universal condemnation of 'the first' or universal elevation of 'the last.'"
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 31,
+      "text_greek": "Ἐν αὐτῇ τῇ ὥρᾳ προσῆλθάν τινες Φαρισαῖοι λέγοντες αὐτῷ· Ἔξελθε καὶ πορεύου ἐντεῦθεν, ὅτι Ἡρῴδης θέλει σε ἀποκτεῖναι.",
+      "text_kjv": "The same day there came certain of the Pharisees, saying unto him, Get thee out, and depart hence: for Herod will kill thee.",
+      "rendering": "At that same hour, some Pharisees came and said to him, \"Get out and leave here, because Herod wants to kill you.\"",
+      "translator_notes": [
+        "This episode is unique to Luke. Remarkably, it is Pharisees who warn Jesus — demonstrating that not all Pharisees were hostile (cf. Nicodemus, Joseph of Arimathea). Whether their warning was genuinely protective or an attempt to divert Jesus from his mission is debated. The threat from Herod Antipas continues the thread from 9:7-9."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 32,
+      "text_greek": "καὶ εἶπεν αὐτοῖς· Πορευθέντες εἴπατε τῇ ἀλώπεκι ταύτῃ· Ἰδοὺ ἐκβάλλω δαιμόνια καὶ ἰάσεις ἀποτελῶ σήμερον καὶ αὔριον καὶ τῇ τρίτῃ τελειοῦμαι.",
+      "text_kjv": "And he said unto them, Go ye, and tell that fox, Behold, I cast out devils, and I do cures to day and to morrow, and the third day I shall be perfected.",
+      "rendering": "He said to them, \"Go tell that fox, 'Look, I am casting out demons and performing healings today and tomorrow, and on the third day I will reach my goal.'",
+      "translator_notes": [
+        "Calling Herod 'that fox' (tē alōpeki tautē) is a pointed insult — in Jewish tradition, the fox was associated with cunning, destructiveness, and insignificance (as opposed to the lion's nobility and power). The phrase 'today and tomorrow and the third day' (sēmeron kai aurion kai tē tritē) is not a literal timetable but an idiom for 'a short, complete period.' The verb teleioumai ('I will be completed, I will reach my goal, I will be perfected') carries the sense of reaching the destined completion — the cross."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 33,
+      "text_greek": "πλὴν δεῖ με σήμερον καὶ αὔριον καὶ τῇ ἐχομένῃ πορεύεσθαι, ὅτι οὐκ ἐνδέχεται προφήτην ἀπολέσθαι ἔξω Ἰερουσαλήμ.",
+      "text_kjv": "Nevertheless I must walk to day, and to morrow, and the day following: for it cannot be that a prophet perish out of Jerusalem.",
+      "rendering": "But I must keep going today, tomorrow, and the next day, because it is impossible for a prophet to perish outside Jerusalem.",
+      "translator_notes": [
+        "The word dei ('it is necessary, I must') again introduces divine necessity (cf. 9:22). The bitter irony of 'it is impossible for a prophet to perish outside Jerusalem' (ouk endechetai prophētēn apolesthai exō Ierousalēm) is devastating — Jerusalem, the holy city, is identified as the prophet-killing city. Herod cannot kill Jesus because that role belongs to Jerusalem. Jesus is not fleeing from death but walking toward it in the appointed place."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 34,
+      "text_greek": "Ἰερουσαλὴμ Ἰερουσαλήμ, ἡ ἀποκτείνουσα τοὺς προφήτας καὶ λιθοβολοῦσα τοὺς ἀπεσταλμένους πρὸς αὐτήν, ποσάκις ἠθέλησα ἐπισυνάξαι τὰ τέκνα σου ὃν τρόπον ὄρνις τὴν ἑαυτῆς νοσσιὰν ὑπὸ τὰς πτέρυγας, καὶ οὐκ ἠθελήσατε.",
+      "text_kjv": "O Jerusalem, Jerusalem, which killest the prophets, and stonest them that are sent unto thee; how often would I have gathered thy children together, as a hen doth gather her brood under her wings, and ye would not!",
+      "rendering": "\"Jerusalem, Jerusalem, you who kill the prophets and stone those sent to you — how often I have wanted to gather your children together, as a hen gathers her brood under her wings, but you were not willing!",
+      "translator_notes": [
+        "The double address 'Jerusalem, Jerusalem' echoes prophetic lament (cf. 'Martha, Martha' in 10:41; 'Simon, Simon' in 22:31). The hen image (ornis tēn heautēs nossian hypo tas pterygas) is strikingly maternal — Jesus expresses divine love through a mother-bird metaphor, echoing Deuteronomy 32:11 and Psalm 91:4, where God shelters Israel under protective wings. The tension between divine desire (ēthelēsa, 'I wanted') and human resistance (ouk ēthelēsate, 'you were not willing') preserves both God's initiative and human responsibility.",
+        "[TCR Cross-Reference] Echoes Deuteronomy 32:11. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale.",
+        "[TCR Cross-Reference] Echoes Psalm 91:4. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 35,
+      "text_greek": "ἰδοὺ ἀφίεται ὑμῖν ὁ οἶκος ὑμῶν. λέγω δὲ ὑμῖν, οὐ μὴ ἴδητέ με ἕως ἥξει ὅτε εἴπητε· Εὐλογημένος ὁ ἐρχόμενος ἐν ὀνόματι κυρίου.",
+      "text_kjv": "Behold, your house is left unto you desolate: and verily I say unto you, Ye shall not see me, until the time come when ye shall say, Blessed is he that cometh in the name of the Lord.",
+      "rendering": "Look, your house is abandoned. I tell you, you will not see me until the time comes when you say, 'Blessed is the one who comes in the name of the Lord!'\"",
+      "translator_notes": [
+        "The phrase 'your house' (ho oikos hymōn) likely refers to the temple, which is now 'abandoned' (aphietai, 'left, forsaken') — God's protective presence is departing. The SBLGNT does not include 'desolate' (erēmos), which appears in some manuscripts. The quotation from Psalm 118:26 ('Blessed is the one who comes in the name of the Lord') will be fulfilled at the triumphal entry (Luke 19:38), though whether that fulfillment is genuine or ironic is debated. The statement 'you will not see me' frames Jesus's departure as both judgment and future hope.",
+        "[TCR Cross-Reference] This verse quotes Psalms 118:26 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "reading_level": "9th grade"
+    }
+  ]
+}

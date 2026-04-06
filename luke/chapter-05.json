@@ -1,0 +1,433 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Luke",
+    "chapter": 5,
+    "source_text": "SBL Greek New Testament (SBLGNT)",
+    "reference_text": "KJV",
+    "generated_at": "2026-04-04T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Luke 5 narrates the miraculous catch of fish and the calling of Simon Peter, James, and John; the healing of a man with leprosy; the healing of a paralytic lowered through a roof (with Jesus's claim to forgive sins); the calling of the tax collector Levi and the banquet at his house; and a series of confrontations about fasting and new wine. The chapter establishes the pattern of Jesus's ministry: miraculous power, radical inclusion, and escalating conflict with religious authorities.",
+    "remarkable": "Luke's call of Peter is far more detailed than Mark's or Matthew's — it includes the miraculous catch that overwhelms professional fishermen and Peter's profound response: 'Depart from me, for I am a sinful man, Lord.' This is a classic theophany response (cf. Isaiah 6:5). The paralytic story introduces the first explicit controversy about Jesus's authority to forgive sins — the Pharisees correctly identify this as a divine prerogative, which is precisely Jesus's point. Levi's banquet scandalizes the religious establishment by putting Jesus at table with 'sinners.'",
+    "friction": "The chronological relationship between the call narratives in Luke 5 and those in Mark 1/Matthew 4 is debated — Luke places the call after a miracle, while Mark and Matthew place it as an immediate response to Jesus's command. The roof-opening scene differs between Mark ('dug through') and Luke ('through the tiles'), likely reflecting different audiences' familiarity with different building styles.",
+    "connections": "Peter's call echoes the prophetic call narratives (Isaiah 6, Jeremiah 1, Ezekiel 1-3) — encounter with the divine, awareness of unworthiness, commissioning for mission. The leper's cleansing fulfills the Isaiah 61 program (4:18-19). The paralytic scene raises the Christological question of divine authority. The new-wine parable points to the incompatibility of Jesus's movement with existing religious structures."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_greek": "Ἐγένετο δὲ ἐν τῷ τὸν ὄχλον ἐπικεῖσθαι αὐτῷ καὶ ἀκούειν τὸν λόγον τοῦ θεοῦ καὶ αὐτὸς ἦν ἑστὼς παρὰ τὴν λίμνην Γεννησαρέτ,",
+      "text_kjv": "And it came to pass, that, as the people pressed upon him to hear the word of God, he stood by the lake of Gennesaret,",
+      "rendering": "Now it happened that while the crowd was pressing in on him to hear the word of God, he was standing beside the lake of Gennesaret.",
+      "translator_notes": [
+        "The 'lake of Gennesaret' is the Sea of Galilee, named here after the fertile plain on its northwestern shore. Luke consistently calls it a 'lake' (limne) rather than 'sea' (thalassa) as in Mark and Matthew — a more geographically precise term, as it is a freshwater lake. The crowd 'pressing in' (epikeisthai, 'pressing upon, crowding') demonstrates the intensity of the response to Jesus's teaching."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 2,
+      "text_greek": "καὶ εἶδεν δύο πλοῖα ἑστῶτα παρὰ τὴν λίμνην· οἱ δὲ ἁλιεῖς ἀπ' αὐτῶν ἀποβάντες ἔπλυνον τὰ δίκτυα.",
+      "text_kjv": "And saw two ships standing by the lake: but the fishermen were gone out of them, and were washing their nets.",
+      "rendering": "He saw two boats moored at the edge of the lake; the fishermen had gotten out of them and were washing their nets.",
+      "translator_notes": [
+        "The 'boats' (ploia) were fishing boats typical of the Sea of Galilee — roughly 26 feet long based on archaeological finds. Washing nets after fishing was standard maintenance to remove debris and prevent rotting. The detail places the scene after an unsuccessful night of fishing (v. 5 will confirm this). The fishermen's ordinary work becomes the setting for an extraordinary encounter."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 3,
+      "text_greek": "ἐμβὰς δὲ εἰς ἓν τῶν πλοίων, ὃ ἦν Σίμωνος, ἠρώτησεν αὐτὸν ἀπὸ τῆς γῆς ἐπαναγαγεῖν ὀλίγον· καθίσας δὲ ἐκ τοῦ πλοίου ἐδίδασκεν τοὺς ὄχλους.",
+      "text_kjv": "And he entered into one of the ships, which was Simon's, and prayed him that he would thrust out a little from the land. And he sat down, and taught the people out of the ship.",
+      "rendering": "He got into one of the boats, which was Simon's, and asked him to put out a little from the shore. Then he sat down and taught the crowds from the boat.",
+      "translator_notes": [
+        "Jesus uses Simon's boat as a floating pulpit — the water would create a natural amphitheater for his voice to carry to the shore. He sits to teach (the posture of a rabbi, as in 4:20). This practical use of Simon's boat precedes the command that will change Simon's life. Jesus first enters Simon's ordinary world before calling him to an extraordinary one."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 4,
+      "text_greek": "ὡς δὲ ἐπαύσατο λαλῶν, εἶπεν πρὸς τὸν Σίμωνα· Ἐπανάγαγε εἰς τὸ βάθος καὶ χαλάσατε τὰ δίκτυα ὑμῶν εἰς ἄγραν.",
+      "text_kjv": "Now when he had left speaking, he said unto Simon, Launch out into the deep, and let down your nets for a draught.",
+      "rendering": "When he had finished speaking, he said to Simon, \"Put out into the deep water, and let down your nets for a catch.\"",
+      "translator_notes": [
+        "The shift from singular ('put out' — epanagage, addressed to Simon as captain) to plural ('let down your nets' — chalasate, addressed to the crew) is natural: Simon steers the boat; everyone lowers the nets. The command to fish in deep water during daylight contradicts professional fishing practice — Galilean fishermen worked at night in shallow water. Jesus, a carpenter, tells professional fishermen how to fish."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 5,
+      "text_greek": "καὶ ἀποκριθεὶς Σίμων εἶπεν· Ἐπιστάτα, δι' ὅλης νυκτὸς κοπιάσαντες οὐδὲν ἐλάβομεν· ἐπὶ δὲ τῷ ῥήματί σου χαλάσω τὰ δίκτυα.",
+      "text_kjv": "And Simon answering said unto him, Master, we have toiled all the night, and have taken nothing: nevertheless at thy word I will let down the net.",
+      "rendering": "Simon answered, \"Master, we worked hard all night and caught nothing. But at your word, I will let down the nets.\"",
+      "translator_notes": [
+        "Simon's address epistata ('master, chief, commander') is a Lukan term (used six times in Luke, nowhere else in the NT) that acknowledges authority without necessarily implying belief in divinity. His statement 'we worked hard all night and caught nothing' (di holes nyktos kopiasantes ouden elabomen) establishes the futility of human effort. His willingness to obey 'at your word' (epi de to remati sou) despite professional judgment is the first step of faith."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 6,
+      "text_greek": "καὶ τοῦτο ποιήσαντες συνέκλεισαν πλῆθος ἰχθύων πολύ, διερρήσσετο δὲ τὰ δίκτυα αὐτῶν.",
+      "text_kjv": "And when they had this done, they inclosed a great multitude of fishes: and their net brake.",
+      "rendering": "When they had done this, they enclosed such a large number of fish that their nets began to tear.",
+      "translator_notes": [
+        "The verb synekleisan ('enclosed, caught, trapped') emphasizes the overwhelming quantity. The imperfect dierresseto ('were tearing, began to tear') indicates the nets were in the process of breaking — an ongoing struggle with an impossible abundance. The catch exceeds what human equipment can contain. This is the pattern of divine provision: superabundance beyond expectation (cf. the feeding of the five thousand, 9:10-17)."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 7,
+      "text_greek": "καὶ κατένευσαν τοῖς μετόχοις ἐν τῷ ἑτέρῳ πλοίῳ τοῦ ἐλθόντας συλλαβέσθαι αὐτοῖς· καὶ ἦλθον, καὶ ἔπλησαν ἀμφότερα τὰ πλοῖα ὥστε βυθίζεσθαι αὐτά.",
+      "text_kjv": "And they beckoned unto their partners, which were in the other ship, that they should come and help them. And they came, and filled both the ships, so that they began to sink.",
+      "rendering": "They signaled to their partners in the other boat to come and help them. They came, and they filled both boats so full that they began to sink.",
+      "translator_notes": [
+        "The verb kateneusan ('beckoned, signaled') suggests they were too far from shore or too overwhelmed to shout. The partners (metochois) in the other boat are identified as James and John in v. 10. Two fully loaded fishing boats beginning to sink (bythizesthai, 'to be submerged') paints a vivid picture of abundance threatening to overwhelm. The miracle exceeds all practical capacity."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 8,
+      "text_greek": "ἰδὼν δὲ Σίμων Πέτρος προσέπεσεν τοῖς γόνασιν Ἰησοῦ λέγων· Ἔξελθε ἀπ' ἐμοῦ, ὅτι ἀνὴρ ἁμαρτωλός εἰμι, κύριε.",
+      "text_kjv": "When Simon Peter saw it, he fell down at Jesus' knees, saying, Depart from me; for I am a sinful man, O Lord.",
+      "rendering": "When Simon Peter saw this, he fell at Jesus's knees, saying, \"Depart from me, for I am a sinful man, Lord!\"",
+      "translator_notes": [
+        "This is the first time Luke uses the full name 'Simon Peter' (Simon Petros). Peter's response is a classic theophany reaction — when Isaiah sees God's glory, he cries 'Woe to me! I am a man of unclean lips' (Isaiah 6:5). Peter recognizes that the miracle reveals divine presence and that divine holiness exposes human sinfulness. The address kyrie ('Lord') here carries more weight than epistata in v. 5 — Peter's understanding of who Jesus is has deepened in the space of one miracle.",
+        "[TCR Cross-Reference] References Isaiah 6:5 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 9,
+      "text_greek": "θάμβος γὰρ περιέσχεν αὐτὸν καὶ πάντας τοὺς σὺν αὐτῷ ἐπὶ τῇ ἄγρᾳ τῶν ἰχθύων ὧν συνέλαβον,",
+      "text_kjv": "For he was astonished, and all that were with him, at the draught of the fishes which they had taken:",
+      "rendering": "For astonishment had seized him and all who were with him at the catch of fish they had taken,",
+      "translator_notes": [
+        "The verb periaschen ('had seized, had gripped, had surrounded') is a strong term — amazement doesn't just come upon them but seizes and encircles them. The reaction is collective — Peter, his crew, and everyone present is overwhelmed. These are professional fishermen who know what is natural and what is not."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 10,
+      "text_greek": "ὁμοίως δὲ καὶ Ἰάκωβον καὶ Ἰωάννην υἱοὺς Ζεβεδαίου, οἳ ἦσαν κοινωνοὶ τῷ Σίμωνι. καὶ εἶπεν πρὸς τὸν Σίμωνα ὁ Ἰησοῦς· Μὴ φοβοῦ· ἀπὸ τοῦ νῦν ἀνθρώπους ἔσῃ ζωγρῶν.",
+      "text_kjv": "And so was also James, and John, the sons of Zebedee, which were partners with Simon. And Jesus said unto Simon, Fear not; from henceforth thou shalt catch men.",
+      "rendering": "James and John, Zebedee's sons and Simon's fishing partners, were equally amazed. But Jesus told Simon, \"Don't be afraid. From now on, you will be catching people.\"",
+      "translator_notes": [
+        "James and John are introduced as business partners (koinonoi, 'partners, sharers') with Simon. Jesus's 'Do not be afraid' (me phobou) echoes the divine reassurance given to Abraham (Genesis 15:1), Moses (Numbers 21:34), and others who encounter God. The verb zogron ('catching alive, taking alive') means literally 'to capture alive' — used in the Septuagint for taking prisoners alive (cf. 2 Timothy 2:26). The metaphor transforms fishermen into rescuers of people.",
+        "[TCR Cross-Reference] This verse quotes Genesis 15:1 — see the TCR rendering of that passage for the Hebrew source text and translation decisions.",
+        "[TCR Cross-Reference] This verse quotes Numbers 21:34 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 11,
+      "text_greek": "καὶ καταγαγόντες τὰ πλοῖα ἐπὶ τὴν γῆν ἀφέντες πάντα ἠκολούθησαν αὐτῷ.",
+      "text_kjv": "And when they had brought their ships to land, they forsook all, and followed him.",
+      "rendering": "When they had brought the boats to shore, they left everything and followed him.",
+      "translator_notes": [
+        "The phrase aphentes panta ('having left everything') is radical — they abandon boats, nets, the miraculous catch itself, their livelihood. Luke emphasizes the totality of their response more than Mark's account. The verb ekolouthēsan ('followed') is the standard term for discipleship — it implies not just physical movement but life commitment. This is the first formal calling of disciples in Luke's narrative."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 12,
+      "text_greek": "Καὶ ἐγένετο ἐν τῷ εἶναι αὐτὸν ἐν μιᾷ τῶν πόλεων καὶ ἰδοὺ ἀνὴρ πλήρης λέπρας· ἰδὼν δὲ τὸν Ἰησοῦν πεσὼν ἐπὶ πρόσωπον ἐδεήθη αὐτοῦ λέγων· Κύριε, ἐὰν θέλῃς δύνασαί με καθαρίσαι.",
+      "text_kjv": "And it came to pass, when he was in a certain city, behold a man full of leprosy: who seeing Jesus fell on his face, and besought him, saying, Lord, if thou wilt, thou canst make me clean.",
+      "rendering": "While he was in one of the cities, there was a man covered with leprosy. When he saw Jesus, he fell on his face and begged him, \"Lord, if you are willing, you can make me clean.\"",
+      "translator_notes": [
+        "Luke intensifies Mark's description with pleres lepras ('full of, covered with leprosy'), indicating an advanced case. 'Leprosy' (lepra) in the Bible covers a range of skin diseases, not just modern Hansen's disease. The man's approach violates Levitical quarantine laws (Leviticus 13:45-46) — he should not be in the city or near people. His statement is remarkable theology: he has no doubt about Jesus's ability ('you can'), only about his willingness ('if you are willing'). He addresses Jesus as kyrie ('Lord').",
+        "[TCR Cross-Reference] Draws on Leviticus 13:45-46. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 13,
+      "text_greek": "καὶ ἐκτείνας τὴν χεῖρα ἥψατο αὐτοῦ λέγων· Θέλω, καθαρίσθητι· καὶ εὐθέως ἡ λέπρα ἀπῆλθεν ἀπ' αὐτοῦ.",
+      "text_kjv": "And he put forth his hand, and touched him, saying, I will: be thou clean. And immediately the leprosy departed from him.",
+      "rendering": "He stretched out his hand and touched him, saying, \"I am willing. Be clean.\" And immediately the leprosy left him.",
+      "translator_notes": [
+        "The touch (hepsato) is extraordinary — touching a leper made a person ritually unclean (Leviticus 13-14). Instead of Jesus becoming unclean through contact, the man becomes clean through Jesus's touch. The direction of contamination is reversed by Jesus's holiness. The command katharistheti ('be cleansed') is an aorist passive imperative — a single, decisive act of cleansing. The response is instantaneous (eutheos, 'immediately').",
+        "[TCR Cross-Reference] References Leviticus 13-14 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 14,
+      "text_greek": "καὶ αὐτὸς παρήγγειλεν αὐτῷ μηδενὶ εἰπεῖν, ἀλλὰ ἀπελθὼν δεῖξον σεαυτὸν τῷ ἱερεῖ καὶ προσένεγκε περὶ τοῦ καθαρισμοῦ σου καθὼς προσέταξεν Μωϋσῆς, εἰς μαρτύριον αὐτοῖς.",
+      "text_kjv": "And he charged him to tell no man: but go, and shew thyself to the priest, and offer for thy cleansing, according as Moses commanded, for a testimony unto them.",
+      "rendering": "He ordered him to tell no one: \"Go, show yourself to the priest, and make the offering for your cleansing that Moses commanded, as a testimony to them.\"",
+      "translator_notes": [
+        "Jesus commands compliance with Leviticus 14:1-32 — the elaborate priestly ritual for certifying that a leper has been cleansed. This included examination by the priest, two birds, cedar wood, scarlet yarn, hyssop, and a series of offerings over eight days. The phrase eis martyrion autois ('as a testimony to them') is ambiguous — testimony to the priests that a genuine healing has occurred, or testimony against them if they reject it. Jesus affirms the Mosaic law even while transcending it.",
+        "[TCR Cross-Reference] Echoes Leviticus 14:1-32. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 15,
+      "text_greek": "διήρχετο δὲ μᾶλλον ὁ λόγος περὶ αὐτοῦ, καὶ συνήρχοντο ὄχλοι πολλοὶ ἀκούειν καὶ θεραπεύεσθαι ἀπὸ τῶν ἀσθενειῶν αὐτῶν·",
+      "text_kjv": "But so much the more went there a fame abroad of him: and great multitudes came together to hear, and to be healed by him of their infirmities.",
+      "rendering": "But the word about him spread even more, and large crowds gathered to listen and to be healed of their illnesses.",
+      "translator_notes": [
+        "Despite the command to silence, the report (logos, 'word') spreads 'even more' (mallon). The crowds come for two things: hearing (akouein) and healing (therapeuesthai) — the twin pillars of Jesus's ministry. Luke consistently presents teaching and healing as inseparable aspects of the kingdom's arrival."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 16,
+      "text_greek": "αὐτὸς δὲ ἦν ὑποχωρῶν ἐν ταῖς ἐρήμοις καὶ προσευχόμενος.",
+      "text_kjv": "And he withdrew himself into the wilderness, and prayed.",
+      "rendering": "But he would withdraw to deserted places and pray.",
+      "translator_notes": [
+        "The imperfect periphrastic en hypochoron ('was withdrawing, would withdraw') indicates habitual practice — this was Jesus's regular pattern, not a single event. The connection between ministry demands and prayerful withdrawal is a consistent Lukan theme. Jesus's power comes through dependence on the Father, maintained through regular prayer."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 17,
+      "text_greek": "Καὶ ἐγένετο ἐν μιᾷ τῶν ἡμερῶν καὶ αὐτὸς ἦν διδάσκων, καὶ ἦσαν καθήμενοι Φαρισαῖοι καὶ νομοδιδάσκαλοι οἳ ἦσαν ἐληλυθότες ἐκ πάσης κώμης τῆς Γαλιλαίας καὶ Ἰουδαίας καὶ Ἰερουσαλήμ· καὶ δύναμις κυρίου ἦν εἰς τὸ ἰᾶσθαι αὐτόν.",
+      "text_kjv": "And it came to pass on a certain day, as he was teaching, that there were Pharisees and doctors of the law sitting by, which were come out of every town of Galilee, and Judaea, and Jerusalem: and the power of the Lord was present to heal them.",
+      "rendering": "On one of those days, as he was teaching, Pharisees and teachers of the law were sitting nearby. They had come from every village of Galilee and Judea and from Jerusalem. And the power of the Lord was present for him to heal.",
+      "translator_notes": [
+        "Luke uniquely notes that Pharisees and nomodidaskaloi ('teachers of the law, experts in Torah') had gathered from across the land — this is an official observation, not a casual visit. The phrase dynamis kyriou en eis to iasthai auton ('the power of the Lord was present for him to heal') is a distinctive Lukan note — the Lord's healing power is specifically present in this moment, suggesting that divine power operates in particular moments rather than as a constant, automatic capacity."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 18,
+      "text_greek": "καὶ ἰδοὺ ἄνδρες φέροντες ἐπὶ κλίνης ἄνθρωπον ὃς ἦν παραλελυμένος, καὶ ἐζήτουν αὐτὸν εἰσενεγκεῖν καὶ θεῖναι ἐνώπιον αὐτοῦ.",
+      "text_kjv": "And, behold, men brought in a bed a man which was taken with a palsy: and they sought means to bring him in, and to lay him before him.",
+      "rendering": "Then some men came carrying on a stretcher a man who was paralyzed, and they were trying to bring him in and set him before Jesus.",
+      "translator_notes": [
+        "The Greek paralelymenos ('having been paralyzed') is a perfect passive participle indicating an established, ongoing condition. The verb ezetoun ('were seeking, were trying') shows persistent effort — they did not give up when access was blocked. Luke does not specify the number of carriers (Mark says four, Mark 2:3). Their faith-in-action — bringing the paralyzed man to Jesus despite obstacles — is about to be commended."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 19,
+      "text_greek": "καὶ μὴ εὑρόντες ποίας εἰσενέγκωσιν αὐτὸν διὰ τὸν ὄχλον, ἀναβάντες ἐπὶ τὸ δῶμα διὰ τῶν κεράμων καθῆκαν αὐτὸν σὺν τῷ κλινιδίῳ εἰς τὸ μέσον ἔμπροσθεν τοῦ Ἰησοῦ.",
+      "text_kjv": "And when they could not find by what way they might bring him in because of the multitude, they went upon the housetop, and let him down through the tiling with his couch into the midst before Jesus.",
+      "rendering": "Finding no way to bring him in because of the crowd, they went up on the roof and lowered him on his stretcher through the tiles into the middle of the crowd, right in front of Jesus.",
+      "translator_notes": [
+        "Luke says 'through the tiles' (dia ton keramon) where Mark says they 'dug through' the roof (Mark 2:4). Palestinian roofs were typically made of wooden beams covered with branches and packed earth, which could be dug through; Luke may be adapting the description for a Gentile audience familiar with tiled roofs. The Greek klinidion ('small bed, stretcher') is a diminutive, emphasizing the improvised nature of the arrangement."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 20,
+      "text_greek": "καὶ ἰδὼν τὴν πίστιν αὐτῶν εἶπεν· Ἄνθρωπε, ἀφέωνταί σοι αἱ ἁμαρτίαι σου.",
+      "text_kjv": "And when he saw their faith, he said unto him, Man, thy sins are forgiven thee.",
+      "rendering": "When he saw their faith, he said, \"Friend, your sins are forgiven you.\"",
+      "translator_notes": [
+        "Jesus sees 'their faith' (ten pistin auton) — the plural 'their' includes both the paralyzed man and his friends. Faith in this context is demonstrated through action, not verbal confession. The address anthrope ('man, friend') is a Lukan distinctive (cf. 12:14, 22:58, 60). The declaration apheontai soi hai hamartiai sou ('your sins have been forgiven you') is a divine passive — God is the implied agent of the forgiveness. Jesus speaks what only God can do."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 21,
+      "text_greek": "καὶ ἤρξαντο διαλογίζεσθαι οἱ γραμματεῖς καὶ οἱ Φαρισαῖοι λέγοντες· Τίς ἐστιν οὗτος ὃς λαλεῖ βλασφημίας; τίς δύναται ἁμαρτίας ἀφεῖναι εἰ μὴ μόνος ὁ θεός;",
+      "text_kjv": "And the scribes and the Pharisees began to reason, saying, Who is this which speaketh blasphemies? Who can forgive sins, but God alone?",
+      "rendering": "The scribes and the Pharisees began to question this, saying, \"Who is this who speaks blasphemy? Who can forgive sins but God alone?\"",
+      "translator_notes": [
+        "The religious leaders' theological logic is impeccable: only God can forgive sins (cf. Isaiah 43:25, 'I, even I, am the one who blots out your transgressions'). Their conclusion — that Jesus is blaspheming by claiming a divine prerogative — is correct if Jesus is merely human. The question 'Who is this?' (tis estin houtos) is the central christological question of Luke's Gospel. Jesus will answer it not by withdrawing the claim but by demonstrating the authority behind it.",
+        "[TCR Cross-Reference] Quotes Isaiah 43:25. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 22,
+      "text_greek": "ἐπιγνοὺς δὲ ὁ Ἰησοῦς τοὺς διαλογισμοὺς αὐτῶν ἀποκριθεὶς εἶπεν πρὸς αὐτούς· Τί διαλογίζεσθε ἐν ταῖς καρδίαις ὑμῶν;",
+      "text_kjv": "But when Jesus perceived their thoughts, he answering said unto them, What reason ye in your hearts?",
+      "rendering": "But Jesus, knowing their thoughts, responded to them, \"Why are you questioning in your hearts?",
+      "translator_notes": [
+        "The verb epignous ('having known, having perceived') indicates supernatural knowledge of their internal reasoning — they have not spoken their objection aloud. Jesus knows their dialogismous ('thoughts, deliberations, reasonings'). This itself is a divine attribute (cf. 1 Kings 8:39, 'you alone know the hearts of all people'; Jeremiah 17:10, 'I the LORD search the heart').",
+        "[TCR Cross-Reference] Draws on 1 Kings 8:39. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices.",
+        "[TCR Cross-Reference] Draws on Jeremiah 17:10. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 23,
+      "text_greek": "τί ἐστιν εὐκοπώτερον, εἰπεῖν· Ἀφέωνταί σοι αἱ ἁμαρτίαι σου, ἢ εἰπεῖν· Ἔγειρε καὶ περιπάτει;",
+      "text_kjv": "Whether is easier, to say, Thy sins be forgiven thee; or to say, Rise up and walk?",
+      "rendering": "Which is easier to say: 'Your sins are forgiven you,' or to say, 'Get up and walk'?",
+      "translator_notes": [
+        "The question is a rhetorical trap for the critics. To say 'your sins are forgiven' is easier because it cannot be verified or falsified — no one can see whether forgiveness has actually occurred. To say 'get up and walk' is harder because it can be immediately tested. Jesus will do the harder, verifiable thing to prove the authority behind the easier, invisible thing."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 24,
+      "text_greek": "ἵνα δὲ εἰδῆτε ὅτι ὁ υἱὸς τοῦ ἀνθρώπου ἐξουσίαν ἔχει ἐπὶ τῆς γῆς ἀφιέναι ἁμαρτίας — εἶπεν τῷ παραλελυμένῳ· Σοὶ λέγω, ἔγειρε καὶ ἄρας τὸ κλινίδιόν σου πορεύου εἰς τὸν οἶκόν σου.",
+      "text_kjv": "But that ye may know that the Son of man hath power upon earth to forgive sins, (he said unto the sick of the palsy,) I say unto thee, Arise, and take up thy couch, and go into thine house.",
+      "rendering": "But so that you may know that the Son of Man has authority on earth to forgive sins\" — he said to the paralyzed man — \"I say to you, get up, pick up your stretcher, and go home.\"",
+      "translator_notes": [
+        "This is the first use of 'Son of Man' (ho huios tou anthropou) in Luke. The title draws on Daniel 7:13-14, where 'one like a son of man' receives authority, glory, and an everlasting kingdom from the Ancient of Days. Jesus claims that this heavenly authority operates 'on earth' (epi tes ges) — the divine prerogative of forgiveness is being exercised here and now. The sentence breaks mid-thought as Jesus turns from the critics to the patient — Luke preserves the dramatic pause.",
+        "[TCR Cross-Reference] Echoes Daniel 7:13-14. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "key_terms": [
+        {
+          "greek": "υἱὸς τοῦ ἀνθρώπου",
+          "transliteration": "huios tou anthropou",
+          "rendered_as": "Son of Man",
+          "semantic_range": "son of man, human one, the Son of Man (Daniel 7 figure)",
+          "note": "Jesus's most frequent self-designation. It functions both as a humble reference to his humanity ('a human being') and as a veiled claim to the exalted figure of Daniel 7:13-14 who receives universal dominion from God."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 25,
+      "text_greek": "καὶ παραχρῆμα ἀναστὰς ἐνώπιον αὐτῶν, ἄρας ἐφ' ὃ κατέκειτο, ἀπῆλθεν εἰς τὸν οἶκον αὐτοῦ δοξάζων τὸν θεόν.",
+      "text_kjv": "And immediately he rose up before them, and took up that whereon he lay, and departed to his own house, glorifying God.",
+      "rendering": "Immediately he stood up before them, picked up what he had been lying on, and went home, glorifying God.",
+      "translator_notes": [
+        "The adverb parachrona ('immediately, at once') emphasizes the instantaneous nature of the healing. The man does exactly what Jesus commanded — stands, picks up the stretcher, goes home — demonstrating both the completeness of the healing and the authority of Jesus's word. His response of 'glorifying God' (doxazon ton theon) is the proper recognition that divine power has been at work."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 26,
+      "text_greek": "καὶ ἔκστασις ἔλαβεν ἅπαντας καὶ ἐδόξαζον τὸν θεόν, καὶ ἐπλήσθησαν φόβου λέγοντες ὅτι Εἴδομεν παράδοξα σήμερον.",
+      "text_kjv": "And they were all amazed, and they glorified God, and were filled with fear, saying, We have seen strange things to day.",
+      "rendering": "Astonishment seized all of them, and they glorified God. Filled with awe, they said, \"We have seen extraordinary things today!\"",
+      "translator_notes": [
+        "The Greek ekstasis ('astonishment, amazement, ecstasy') is the root of the English 'ecstasy' — a state of being outside oneself with wonder. The crowd is simultaneously amazed, glorifying God, and filled with phobos ('fear, awe'). The word paradoxa ('extraordinary things, things contrary to expectation') gives us the English 'paradox' — they have witnessed things that defy normal categories. The word semeron ('today') echoes the programmatic 'today' of 4:21."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 27,
+      "text_greek": "Καὶ μετὰ ταῦτα ἐξῆλθεν καὶ ἐθεάσατο τελώνην ὀνόματι Λευὶν καθήμενον ἐπὶ τὸ τελώνιον, καὶ εἶπεν αὐτῷ· Ἀκολούθει μοι.",
+      "text_kjv": "And after these things he went forth, and saw a publican, named Levi, sitting at the receipt of custom: and he said unto him, Follow me.",
+      "rendering": "After this he went out and saw a tax collector named Levi sitting at the tax booth, and he said to him, \"Follow me.\"",
+      "translator_notes": [
+        "Levi (identified as Matthew in Matthew 9:9) is sitting at his telonion ('tax booth, toll station'), likely a customs post on a trade route near Capernaum. Tax collectors were despised as collaborators with Rome and presumed cheaters. Jesus's invitation 'Follow me' (akolouthei moi) is the same simple, authoritative command that called the fishermen. Jesus does not ask Levi to reform first and then follow — the call comes to him in the midst of his despised occupation."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 28,
+      "text_greek": "καὶ καταλιπὼν πάντα ἀναστὰς ἠκολούθει αὐτῷ.",
+      "text_kjv": "And he left all, rose up, and followed him.",
+      "rendering": "And leaving everything behind, he got up and followed him.",
+      "translator_notes": [
+        "Like the fishermen (v. 11), Levi leaves 'everything' (panta). For a tax collector, this means abandoning a lucrative position — unlike fishing, the tax-collection franchise could not be easily resumed once abandoned. The imperfect ekolouthei ('was following, began to follow') may indicate the beginning of ongoing discipleship."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 29,
+      "text_greek": "Καὶ ἐποίησεν δοχὴν μεγάλην Λευὶς αὐτῷ ἐν τῇ οἰκίᾳ αὐτοῦ, καὶ ἦν ὄχλος πολὺς τελωνῶν καὶ ἄλλων οἳ ἦσαν μετ' αὐτῶν κατακείμενοι.",
+      "text_kjv": "And Levi made him a great feast in his own house: and there was a great company of publicans and of others that sat down with them.",
+      "rendering": "Then Levi hosted a great banquet for Jesus at his house, and there was a large crowd of tax collectors and others reclining at table with them.",
+      "translator_notes": [
+        "Levi's response to his call is immediate hospitality — a 'great banquet' (dochen megalen) that introduces Jesus to Levi's social network. The verb katakeimenoi ('reclining') indicates a formal Greco-Roman banquet setting where diners reclined on couches. The guest list — tax collectors and 'others' (presumably those outside respectable society) — will provoke the criticism of v. 30. Table fellowship in the ancient world implied acceptance and social equality among the diners."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 30,
+      "text_greek": "καὶ ἐγόγγυζον οἱ Φαρισαῖοι καὶ οἱ γραμματεῖς αὐτῶν πρὸς τοὺς μαθητὰς αὐτοῦ λέγοντες· Διὰ τί μετὰ τῶν τελωνῶν καὶ ἁμαρτωλῶν ἐσθίετε καὶ πίνετε;",
+      "text_kjv": "But their scribes and Pharisees murmured against his disciples, saying, Why do ye eat and drink with publicans and sinners?",
+      "rendering": "The Pharisees and their scribes complained to his disciples, \"Why do you eat and drink with tax collectors and sinners?\"",
+      "translator_notes": [
+        "The verb egongyzon ('were grumbling, were complaining') is the same word used for Israel's grumbling against Moses in the wilderness (Exodus 15:24, 16:2 LXX) — Luke may be drawing the parallel. The complaint is directed at the disciples rather than at Jesus directly. 'Tax collectors and sinners' (telonon kai hamartolon) is a stock phrase for the socially and religiously marginalized. The offense is table fellowship — eating with someone implied approval and solidarity.",
+        "[TCR Cross-Reference] This verse quotes Exodus 15:24 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 31,
+      "text_greek": "καὶ ἀποκριθεὶς ὁ Ἰησοῦς εἶπεν πρὸς αὐτούς· Οὐ χρείαν ἔχουσιν οἱ ὑγιαίνοντες ἰατροῦ ἀλλὰ οἱ κακῶς ἔχοντες·",
+      "text_kjv": "And Jesus answering said unto them, They that are whole need not a physician; but they that are sick.",
+      "rendering": "Jesus answered them, \"It is not the healthy who need a doctor, but the sick.",
+      "translator_notes": [
+        "Jesus responds with a proverb that reframes the situation entirely. The Greek hugiainontes ('the healthy, those who are sound') and kakos echontes ('those having it badly, the sick') draw from medical vocabulary — fitting for Luke's audience. The proverb is both an explanation (I go where the need is) and a subtle challenge to the Pharisees (are you sure you're as healthy as you think?)."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 32,
+      "text_greek": "οὐκ ἐλήλυθα καλέσαι δικαίους ἀλλὰ ἁμαρτωλοὺς εἰς μετάνοιαν.",
+      "text_kjv": "I came not to call the righteous, but sinners to repentance.",
+      "rendering": "I have not come to call the righteous but sinners to repentance.\"",
+      "translator_notes": [
+        "The verb elelitha ('I have come') implies purpose and mission — Jesus has come from somewhere (heaven) for a specific reason. The phrase eis metanoian ('to repentance') is added by Luke (Mark 2:17 lacks it), making the purpose explicit: Jesus seeks sinners not to condone their sin but to call them to transformation. Whether 'the righteous' (dikaiois) is said with irony (no one is truly righteous) or seriously (some are already in right relationship with God) is debated."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 33,
+      "text_greek": "Οἱ δὲ εἶπαν πρὸς αὐτόν· Οἱ μαθηταὶ Ἰωάννου νηστεύουσιν πυκνὰ καὶ δεήσεις ποιοῦνται, ὁμοίως καὶ οἱ τῶν Φαρισαίων, οἱ δὲ σοὶ ἐσθίουσιν καὶ πίνουσιν.",
+      "text_kjv": "And they said unto him, Why do the disciples of John fast often, and make prayers, and likewise the disciples of the Pharisees; but thine eat and drink?",
+      "rendering": "They said to him, \"The disciples of John fast frequently and offer prayers, and so do the disciples of the Pharisees, but yours eat and drink.\"",
+      "translator_notes": [
+        "The complaint shifts from who Jesus eats with (v. 30) to the fact that his disciples eat at all rather than fasting. John's disciples and the Pharisees' disciples fasted 'frequently' (pykna) — the Pharisees fasted twice a week (Monday and Thursday, cf. 18:12). The contrast between fasting (religious austerity) and eating and drinking (celebration) sets up Jesus's response about the bridegroom."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 34,
+      "text_greek": "ὁ δὲ Ἰησοῦς εἶπεν πρὸς αὐτούς· Μὴ δύνασθε τοὺς υἱοὺς τοῦ νυμφῶνος ἐν ᾧ ὁ νυμφίος μετ' αὐτῶν ἐστιν ποιῆσαι νηστεῦσαι;",
+      "text_kjv": "And he said unto them, Can ye make the children of the bridechamber fast, while the bridegroom is with them?",
+      "rendering": "Jesus said to them, \"Can you make the wedding guests fast while the bridegroom is with them?",
+      "translator_notes": [
+        "The phrase huious tou nymphonos ('sons of the bridal chamber,' i.e., wedding guests, attendants of the bridegroom) is a Semitic idiom. The bridegroom image for God's relationship with his people has deep Old Testament roots (Isaiah 54:5, 62:5, Hosea 2:16-20). Jesus implicitly identifies himself as the bridegroom — a divine role. A wedding is a time of celebration, not fasting; Jesus's presence inaugurates a time of joy.",
+        "[TCR Cross-Reference] Echoes Isaiah 54:5. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale.",
+        "[TCR Cross-Reference] Echoes Hosea 2:16-20. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 35,
+      "text_greek": "ἐλεύσονται δὲ ἡμέραι, καὶ ὅταν ἀπαρθῇ ἀπ' αὐτῶν ὁ νυμφίος τότε νηστεύσουσιν ἐν ἐκείναις ταῖς ἡμέραις.",
+      "text_kjv": "But the days will come, when the bridegroom shall be taken away from them, and then shall they fast in those days.",
+      "rendering": "And then will they fast at that time, but the days will come, when the bridegroom will be taken away from them.",
+      "translator_notes": [
+        "The verb aparthe ('will be taken away') is a violent term — it suggests forcible removal, not voluntary departure. This is the first oblique reference to Jesus's death in Luke's Gospel. The passive voice implies others will take him away. The future fasting 'in those days' (en ekeinais tais hemerais) points to the period after the crucifixion. The statement subtly moves from the present joy of Jesus's ministry to the future sorrow of his death."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 36,
+      "text_greek": "Ἔλεγεν δὲ καὶ παραβολὴν πρὸς αὐτοὺς ὅτι Οὐδεὶς ἐπίβλημα ἀπὸ ἱματίου καινοῦ σχίσας ἐπιβάλλει ἐπὶ ἱμάτιον παλαιόν· εἰ δὲ μή γε, καὶ τὸ καινὸν σχίσει καὶ τῷ παλαιῷ οὐ συμφωνήσει τὸ ἐπίβλημα τὸ ἀπὸ τοῦ καινοῦ.",
+      "text_kjv": "And he spake also a parable unto them; No man putteth a piece of a new garment upon an old; if otherwise, then both the new maketh a rent, and the piece that was taken out of the new agreeth not with the old.",
+      "rendering": "He also told them a parable: \"No one tears a patch from a new garment and puts it on an old garment. Otherwise, the new garment would be torn, and the patch from the new would not match the old.",
+      "translator_notes": [
+        "Luke's version of the patch parable is more elaborate than Mark's. Luke uniquely adds that the new garment would be ruined by cutting it — double loss. The point is not simply that new and old are incompatible but that trying to combine them destroys both. Jesus's movement is not a patch on existing religious structures but something entirely new."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 37,
+      "text_greek": "καὶ οὐδεὶς βάλλει οἶνον νέον εἰς ἀσκοὺς παλαιούς· εἰ δὲ μή γε, ῥήξει ὁ οἶνος ὁ νέος τοὺς ἀσκούς, καὶ αὐτὸς ἐκχυθήσεται καὶ οἱ ἀσκοὶ ἀπολοῦνται·",
+      "text_kjv": "And no man putteth new wine into old bottles; else the new wine will burst the bottles, and be spilled, and the bottles shall perish.",
+      "rendering": "And no one puts new wine into old wineskins. Otherwise, the new wine will burst the skins — the wine will be spilled and the skins will be ruined.",
+      "translator_notes": [
+        "New wine continues to ferment and expand; old wineskins have lost their elasticity. The metaphor drives home the same point as the patch parable: Jesus's message and movement cannot be contained within the old structures. The 'new wine' represents the kingdom of God breaking in; the 'old wineskins' represent the existing religious frameworks. Both the wine (the message) and the skins (the structure) are lost if forced together."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 38,
+      "text_greek": "ἀλλὰ οἶνον νέον εἰς ἀσκοὺς καινοὺς βλητέον.",
+      "text_kjv": "But new wine must be put into new bottles; and both are preserved.",
+      "rendering": "Rather, new wine must be put into fresh wineskins.",
+      "translator_notes": [
+        "The verbal adjective bleteon ('must be put') expresses necessity — this is not optional but required. The new reality Jesus brings demands new forms to contain it. Luke does not include 'and both are preserved' (found in some manuscripts), keeping the focus on the necessity of the new."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 39,
+      "text_greek": "καὶ οὐδεὶς πιὼν παλαιὸν θέλει νέον· λέγει γάρ· Ὁ παλαιὸς χρηστός ἐστιν.",
+      "text_kjv": "No man also having drunk old wine straightway desireth new: for he saith, The old is better.",
+      "rendering": "And no one who drinks old wine wants new, for he says, 'The old is good enough.'\"",
+      "translator_notes": [
+        "This verse is unique to Luke and adds a surprising coda. The Greek chrestos ('good, pleasant, useful') — some manuscripts read chrestoteros ('better') — describes the old wine's appeal. The saying acknowledges a psychological reality: people prefer what they're accustomed to. The religious establishment will not readily embrace the new because the old system seems satisfactory. This verse may express gentle irony about the Pharisees' resistance or may acknowledge that the transition from old covenant to new is genuinely difficult."
+      ],
+      "reading_level": "7th grade"
+    }
+  ]
+}

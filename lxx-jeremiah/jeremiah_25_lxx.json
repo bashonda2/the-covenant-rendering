@@ -1,0 +1,377 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Jeremiah",
+    "chapter": 25,
+    "tradition": "lxx-jeremiah",
+    "tradition_label": "Septuagint (LXX)",
+    "source_text": "Rahlfs' Septuaginta",
+    "base_text": "Westminster Leningrad Codex (WLC)",
+    "date": "3rd-2nd c. BCE",
+    "generated_at": "2026-04-05T00:00:00Z",
+    "prompt_version": "1.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "The cup of wrath. THIS IS THE MOST STRUCTURALLY SIGNIFICANT CHAPTER for LXX-MT divergence. In the MT, 25:1-38 is a continuous chapter about the seventy years of exile and the cup of wrath given to all nations. In the LXX, the chapter BREAKS at v. 13, and the entire Oracles Against the Nations (MT chs. 46-51) are INSERTED here as LXX chs. 25:14ff/26-31. The MT places OAN at the end of the book (chs. 46-51); the LXX places them in the MIDDLE.",
+    "notable_variants": "V. 13 is the hinge point. MT 25:13 reads 'I will bring upon that land all My words which I have pronounced against it, all that is written in this book, which Jeremiah has prophesied against all the nations.' LXX 25:13 is shorter and transitions directly into the OAN. The list of nations in vv. 17-26 (MT) is ABSENT from LXX at this point — LXX replaces it with the actual oracles. The LXX ORDER of the Oracles Against the Nations is: Elam (= MT 49:34-39), Egypt (= MT 46), Babylon (= MT 50-51), Philistia (= MT 47), Edom (= MT 49:7-22), Ammon (= MT 49:1-6), Kedar/Hazor (= MT 49:28-33), Damascus (= MT 49:23-27), Moab (= MT 48). This order differs significantly from MT's order: Egypt, Philistia, Moab, Ammon, Edom, Damascus, Kedar/Hazor, Elam, Babylon.",
+    "structural_notes": "CRITICAL: After LXX 25:13, the LXX inserts the Oracles Against the Nations (which in MT appear as chs. 46-51). LXX numbers these as chapters 26-31. As a result, everything after chapter 25 has DIFFERENT chapter numbers in LXX vs. MT: MT 26 = LXX 33, MT 27 = LXX 34, etc. The offset varies. 4QJerb confirms the LXX arrangement, placing OAN after 25:13. This is strong evidence that the LXX preserves the original arrangement and MT reorganized the book by moving OAN to the end."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "has_variant": false,
+      "variant_notes": [
+        "LXX and MT are substantially identical here."
+      ]
+    },
+    {
+      "verse": 2,
+      "has_variant": false,
+      "variant_notes": [
+        "LXX and MT are substantially identical here."
+      ]
+    },
+    {
+      "verse": 3,
+      "has_variant": false,
+      "variant_notes": [
+        "LXX and MT are substantially identical here."
+      ]
+    },
+    {
+      "verse": 4,
+      "has_variant": false,
+      "variant_notes": [
+        "LXX and MT are substantially identical here."
+      ]
+    },
+    {
+      "verse": 5,
+      "has_variant": false,
+      "variant_notes": [
+        "LXX and MT are substantially identical here."
+      ]
+    },
+    {
+      "verse": 6,
+      "has_variant": false,
+      "variant_notes": [
+        "LXX and MT are substantially identical here."
+      ]
+    },
+    {
+      "verse": 7,
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "וְלֹא שְׁמַעְתֶּם אֵלַי נְאֻם־יְהוָה לְמַעַן הַכְעִיסֵנִי בְּמַעֲשֵׂה יְדֵיכֶם לְרַע לָכֶם",
+      "lxx_reading": "καὶ οὐκ ἠκούσατέ μου",
+      "variant_notes": [
+        "LXX is slightly shorter — omits 'to provoke me to anger with the works of your hands to your own hurt.'"
+      ]
+    },
+    {
+      "verse": 8,
+      "has_variant": false,
+      "variant_notes": [
+        "LXX and MT are substantially identical here."
+      ]
+    },
+    {
+      "verse": 9,
+      "has_variant": false,
+      "variant_notes": [
+        "LXX and MT are substantially identical here."
+      ]
+    },
+    {
+      "verse": 10,
+      "has_variant": false,
+      "variant_notes": [
+        "LXX and MT are substantially identical here."
+      ]
+    },
+    {
+      "verse": 11,
+      "has_variant": false,
+      "variant_notes": [
+        "LXX and MT are substantially identical here."
+      ]
+    },
+    {
+      "verse": 12,
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "וְהָיָה כִמְלֹאות שִׁבְעִים שָׁנָה אֶפְקֹד עַל־מֶלֶךְ בָּבֶל וְעַל־הַגּוֹי הַהוּא",
+      "lxx_reading": "ὅταν πληρωθῶσιν ἑβδομήκοντα ἔτη",
+      "variant_notes": [
+        "LXX reads 'seventy years' but omits 'I will punish the king of Babylon and that nation... for their iniquity' — a significant shortening. MT expands with the punishment on Babylon; LXX reserves this for the Babylon oracle itself."
+      ]
+    },
+    {
+      "verse": 13,
+      "has_variant": true,
+      "significance": "major",
+      "mt_reading": "וְהֵבֵאתִי עַל־הָאָרֶץ הַהִיא אֶת־כָּל־דְּבָרַי אֲשֶׁר דִּבַּרְתִּי עָלֶיהָ אֵת כָּל־הַכָּתוּב בַּסֵּפֶר הַזֶּה אֲשֶׁר נִבָּא יִרְמְיָהוּ עַל־כָּל־הַגּוֹיִם",
+      "lxx_reading": "καὶ ἐπάξω ἐπὶ τὴν γῆν ἐκείνην πάντας τοὺς λόγους μου οὓς ἐλάλησα κατ᾽ αὐτῆς",
+      "variant_rendering": "And I will bring upon that land all My words which I have spoken against it — all that is written in this book, which Jeremiah prophesied against all the nations.",
+      "mt_rendering": "And I will bring upon that land all my words which I spoke against it.",
+      "variant_notes": [
+        "THIS IS THE HINGE VERSE. In MT, this verse reads 'I will bring upon that land all My words which I have spoken against it, all that is written in this book, which Jeremiah prophesied against all the nations.' In LXX, the verse is shorter and serves as the transition point into the Oracles Against the Nations, which are inserted immediately after this verse. MT continues with the cup-of-wrath passage (vv. 15-38); LXX inserts the entire OAN collection before resuming the cup passage (which appears later in LXX numbering). The phrase 'all that is written in this book' in MT appears to be a later editorial addition referencing the OAN in their MT position at the end of the book."
+      ]
+    },
+    {
+      "verse": 14,
+      "has_variant": true,
+      "significance": "major",
+      "mt_reading": "כִּי עָבְדוּ בָם גַּם־הֵמָּה גּוֹיִם רַבִּים וּמְלָכִים גְּדוֹלִים",
+      "lxx_reading": "[OAN insertion point in LXX]",
+      "variant_rendering": "For many nations and great kings shall make bondmen of them also.",
+      "mt_rendering": "[Oracles Against the Nations begin here in LXX]",
+      "variant_notes": [
+        "In LXX, this verse is absent at this location — the OAN begins instead. MT continues with 'For many nations and great kings shall make bondmen of them also.' In LXX numbering, the equivalent material appears later (after the OAN) as part of LXX ch. 32."
+      ]
+    },
+    {
+      "verse": 15,
+      "has_variant": true,
+      "significance": "major",
+      "mt_reading": "[MT 25:15]",
+      "lxx_reading": "[LXX 32:1 approximately]",
+      "variant_notes": [
+        "MT v. 15 is part of the cup-of-wrath oracle (vv. 15-38). In LXX, this material is relocated to after the OAN and appears with different numbering (LXX ch. 32). The content is largely the same but the LIST OF NATIONS receiving the cup (vv. 17-26 in MT) is significantly shorter in LXX, omitting many of the names."
+      ]
+    },
+    {
+      "verse": 16,
+      "has_variant": true,
+      "significance": "major",
+      "mt_reading": "[MT 25:16]",
+      "lxx_reading": "[LXX 32:2 approximately]",
+      "variant_notes": [
+        "MT v. 16 is part of the cup-of-wrath oracle (vv. 15-38). In LXX, this material is relocated to after the OAN and appears with different numbering (LXX ch. 32). The content is largely the same but the LIST OF NATIONS receiving the cup (vv. 17-26 in MT) is significantly shorter in LXX, omitting many of the names."
+      ]
+    },
+    {
+      "verse": 17,
+      "has_variant": true,
+      "significance": "major",
+      "mt_reading": "[MT 25:17]",
+      "lxx_reading": "[LXX 32:3 approximately]",
+      "variant_notes": [
+        "MT v. 17 is part of the cup-of-wrath oracle (vv. 15-38). In LXX, this material is relocated to after the OAN and appears with different numbering (LXX ch. 32). The content is largely the same but the LIST OF NATIONS receiving the cup (vv. 17-26 in MT) is significantly shorter in LXX, omitting many of the names."
+      ]
+    },
+    {
+      "verse": 18,
+      "has_variant": true,
+      "significance": "major",
+      "mt_reading": "[MT 25:18]",
+      "lxx_reading": "[LXX 32:4 approximately]",
+      "variant_notes": [
+        "MT v. 18 is part of the cup-of-wrath oracle (vv. 15-38). In LXX, this material is relocated to after the OAN and appears with different numbering (LXX ch. 32). The content is largely the same but the LIST OF NATIONS receiving the cup (vv. 17-26 in MT) is significantly shorter in LXX, omitting many of the names."
+      ]
+    },
+    {
+      "verse": 19,
+      "has_variant": true,
+      "significance": "major",
+      "mt_reading": "[MT 25:19]",
+      "lxx_reading": "[LXX 32:5 approximately]",
+      "variant_notes": [
+        "MT v. 19 is part of the cup-of-wrath oracle (vv. 15-38). In LXX, this material is relocated to after the OAN and appears with different numbering (LXX ch. 32). The content is largely the same but the LIST OF NATIONS receiving the cup (vv. 17-26 in MT) is significantly shorter in LXX, omitting many of the names."
+      ]
+    },
+    {
+      "verse": 20,
+      "has_variant": true,
+      "significance": "major",
+      "mt_reading": "[MT 25:20]",
+      "lxx_reading": "[LXX 32:6 approximately]",
+      "variant_notes": [
+        "MT v. 20 is part of the cup-of-wrath oracle (vv. 15-38). In LXX, this material is relocated to after the OAN and appears with different numbering (LXX ch. 32). The content is largely the same but the LIST OF NATIONS receiving the cup (vv. 17-26 in MT) is significantly shorter in LXX, omitting many of the names."
+      ]
+    },
+    {
+      "verse": 21,
+      "has_variant": true,
+      "significance": "major",
+      "mt_reading": "[MT 25:21]",
+      "lxx_reading": "[LXX 32:7 approximately]",
+      "variant_notes": [
+        "MT v. 21 is part of the cup-of-wrath oracle (vv. 15-38). In LXX, this material is relocated to after the OAN and appears with different numbering (LXX ch. 32). The content is largely the same but the LIST OF NATIONS receiving the cup (vv. 17-26 in MT) is significantly shorter in LXX, omitting many of the names."
+      ]
+    },
+    {
+      "verse": 22,
+      "has_variant": true,
+      "significance": "major",
+      "mt_reading": "[MT 25:22]",
+      "lxx_reading": "[LXX 32:8 approximately]",
+      "variant_notes": [
+        "MT v. 22 is part of the cup-of-wrath oracle (vv. 15-38). In LXX, this material is relocated to after the OAN and appears with different numbering (LXX ch. 32). The content is largely the same but the LIST OF NATIONS receiving the cup (vv. 17-26 in MT) is significantly shorter in LXX, omitting many of the names."
+      ]
+    },
+    {
+      "verse": 23,
+      "has_variant": true,
+      "significance": "major",
+      "mt_reading": "[MT 25:23]",
+      "lxx_reading": "[LXX 32:9 approximately]",
+      "variant_notes": [
+        "MT v. 23 is part of the cup-of-wrath oracle (vv. 15-38). In LXX, this material is relocated to after the OAN and appears with different numbering (LXX ch. 32). The content is largely the same but the LIST OF NATIONS receiving the cup (vv. 17-26 in MT) is significantly shorter in LXX, omitting many of the names."
+      ]
+    },
+    {
+      "verse": 24,
+      "has_variant": true,
+      "significance": "major",
+      "mt_reading": "[MT 25:24]",
+      "lxx_reading": "[LXX 32:10 approximately]",
+      "variant_notes": [
+        "MT v. 24 is part of the cup-of-wrath oracle (vv. 15-38). In LXX, this material is relocated to after the OAN and appears with different numbering (LXX ch. 32). The content is largely the same but the LIST OF NATIONS receiving the cup (vv. 17-26 in MT) is significantly shorter in LXX, omitting many of the names."
+      ]
+    },
+    {
+      "verse": 25,
+      "has_variant": true,
+      "significance": "major",
+      "mt_reading": "[MT 25:25]",
+      "lxx_reading": "[LXX 32:11 approximately]",
+      "variant_notes": [
+        "MT v. 25 is part of the cup-of-wrath oracle (vv. 15-38). In LXX, this material is relocated to after the OAN and appears with different numbering (LXX ch. 32). The content is largely the same but the LIST OF NATIONS receiving the cup (vv. 17-26 in MT) is significantly shorter in LXX, omitting many of the names."
+      ]
+    },
+    {
+      "verse": 26,
+      "has_variant": true,
+      "significance": "major",
+      "mt_reading": "[MT 25:26]",
+      "lxx_reading": "[LXX 32:12 approximately]",
+      "variant_notes": [
+        "MT v. 26 is part of the cup-of-wrath oracle (vv. 15-38). In LXX, this material is relocated to after the OAN and appears with different numbering (LXX ch. 32). The content is largely the same but the LIST OF NATIONS receiving the cup (vv. 17-26 in MT) is significantly shorter in LXX, omitting many of the names."
+      ]
+    },
+    {
+      "verse": 27,
+      "has_variant": true,
+      "significance": "major",
+      "mt_reading": "[MT 25:27]",
+      "lxx_reading": "[LXX 32:13 approximately]",
+      "variant_notes": [
+        "MT v. 27 is part of the cup-of-wrath oracle (vv. 15-38). In LXX, this material is relocated to after the OAN and appears with different numbering (LXX ch. 32). The content is largely the same but the LIST OF NATIONS receiving the cup (vv. 17-26 in MT) is significantly shorter in LXX, omitting many of the names."
+      ]
+    },
+    {
+      "verse": 28,
+      "has_variant": true,
+      "significance": "major",
+      "mt_reading": "[MT 25:28]",
+      "lxx_reading": "[LXX 32:14 approximately]",
+      "variant_notes": [
+        "MT v. 28 is part of the cup-of-wrath oracle (vv. 15-38). In LXX, this material is relocated to after the OAN and appears with different numbering (LXX ch. 32). The content is largely the same but the LIST OF NATIONS receiving the cup (vv. 17-26 in MT) is significantly shorter in LXX, omitting many of the names."
+      ]
+    },
+    {
+      "verse": 29,
+      "has_variant": true,
+      "significance": "major",
+      "mt_reading": "[MT 25:29]",
+      "lxx_reading": "[LXX 32:15 approximately]",
+      "variant_notes": [
+        "MT v. 29 is part of the cup-of-wrath oracle (vv. 15-38). In LXX, this material is relocated to after the OAN and appears with different numbering (LXX ch. 32). The content is largely the same but the LIST OF NATIONS receiving the cup (vv. 17-26 in MT) is significantly shorter in LXX, omitting many of the names."
+      ]
+    },
+    {
+      "verse": 30,
+      "has_variant": true,
+      "significance": "major",
+      "mt_reading": "[MT 25:30]",
+      "lxx_reading": "[LXX 32:16 approximately]",
+      "variant_notes": [
+        "MT v. 30 is part of the cup-of-wrath oracle (vv. 15-38). In LXX, this material is relocated to after the OAN and appears with different numbering (LXX ch. 32). The content is largely the same but the LIST OF NATIONS receiving the cup (vv. 17-26 in MT) is significantly shorter in LXX, omitting many of the names."
+      ]
+    },
+    {
+      "verse": 31,
+      "has_variant": true,
+      "significance": "major",
+      "mt_reading": "[MT 25:31]",
+      "lxx_reading": "[LXX 32:17 approximately]",
+      "variant_notes": [
+        "MT v. 31 is part of the cup-of-wrath oracle (vv. 15-38). In LXX, this material is relocated to after the OAN and appears with different numbering (LXX ch. 32). The content is largely the same but the LIST OF NATIONS receiving the cup (vv. 17-26 in MT) is significantly shorter in LXX, omitting many of the names."
+      ]
+    },
+    {
+      "verse": 32,
+      "has_variant": true,
+      "significance": "major",
+      "mt_reading": "[MT 25:32]",
+      "lxx_reading": "[LXX 32:18 approximately]",
+      "variant_notes": [
+        "MT v. 32 is part of the cup-of-wrath oracle (vv. 15-38). In LXX, this material is relocated to after the OAN and appears with different numbering (LXX ch. 32). The content is largely the same but the LIST OF NATIONS receiving the cup (vv. 17-26 in MT) is significantly shorter in LXX, omitting many of the names."
+      ]
+    },
+    {
+      "verse": 33,
+      "has_variant": true,
+      "significance": "major",
+      "mt_reading": "[MT 25:33]",
+      "lxx_reading": "[LXX 32:19 approximately]",
+      "variant_notes": [
+        "MT v. 33 is part of the cup-of-wrath oracle (vv. 15-38). In LXX, this material is relocated to after the OAN and appears with different numbering (LXX ch. 32). The content is largely the same but the LIST OF NATIONS receiving the cup (vv. 17-26 in MT) is significantly shorter in LXX, omitting many of the names."
+      ]
+    },
+    {
+      "verse": 34,
+      "has_variant": true,
+      "significance": "major",
+      "mt_reading": "[MT 25:34]",
+      "lxx_reading": "[LXX 32:20 approximately]",
+      "variant_notes": [
+        "MT v. 34 is part of the cup-of-wrath oracle (vv. 15-38). In LXX, this material is relocated to after the OAN and appears with different numbering (LXX ch. 32). The content is largely the same but the LIST OF NATIONS receiving the cup (vv. 17-26 in MT) is significantly shorter in LXX, omitting many of the names."
+      ]
+    },
+    {
+      "verse": 35,
+      "has_variant": true,
+      "significance": "major",
+      "mt_reading": "[MT 25:35]",
+      "lxx_reading": "[LXX 32:21 approximately]",
+      "variant_notes": [
+        "MT v. 35 is part of the cup-of-wrath oracle (vv. 15-38). In LXX, this material is relocated to after the OAN and appears with different numbering (LXX ch. 32). The content is largely the same but the LIST OF NATIONS receiving the cup (vv. 17-26 in MT) is significantly shorter in LXX, omitting many of the names."
+      ]
+    },
+    {
+      "verse": 36,
+      "has_variant": true,
+      "significance": "major",
+      "mt_reading": "[MT 25:36]",
+      "lxx_reading": "[LXX 32:22 approximately]",
+      "variant_notes": [
+        "MT v. 36 is part of the cup-of-wrath oracle (vv. 15-38). In LXX, this material is relocated to after the OAN and appears with different numbering (LXX ch. 32). The content is largely the same but the LIST OF NATIONS receiving the cup (vv. 17-26 in MT) is significantly shorter in LXX, omitting many of the names."
+      ]
+    },
+    {
+      "verse": 37,
+      "has_variant": true,
+      "significance": "major",
+      "mt_reading": "[MT 25:37]",
+      "lxx_reading": "[LXX 32:23 approximately]",
+      "variant_notes": [
+        "MT v. 37 is part of the cup-of-wrath oracle (vv. 15-38). In LXX, this material is relocated to after the OAN and appears with different numbering (LXX ch. 32). The content is largely the same but the LIST OF NATIONS receiving the cup (vv. 17-26 in MT) is significantly shorter in LXX, omitting many of the names."
+      ]
+    },
+    {
+      "verse": 38,
+      "has_variant": true,
+      "significance": "major",
+      "mt_reading": "[MT 25:38]",
+      "lxx_reading": "[LXX 32:24 approximately]",
+      "variant_notes": [
+        "MT v. 38 is part of the cup-of-wrath oracle (vv. 15-38). In LXX, this material is relocated to after the OAN and appears with different numbering (LXX ch. 32). The content is largely the same but the LIST OF NATIONS receiving the cup (vv. 17-26 in MT) is significantly shorter in LXX, omitting many of the names."
+      ]
+    }
+  ]
+}

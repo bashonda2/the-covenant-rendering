@@ -1,0 +1,519 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Mark",
+    "chapter": 15,
+    "source_text": "SBL Greek New Testament (SBLGNT)",
+    "reference_text": "KJV",
+    "generated_at": "2026-04-05T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Mark 15 narrates the Roman trial, crucifixion, death, and burial of Jesus. The chapter opens early in the morning as the Sanhedrin hands Jesus over to Pilate. After a brief interrogation, Pilate offers the crowd a choice between Jesus and Barabbas; they choose Barabbas and demand crucifixion. Roman soldiers mock Jesus with a purple robe and crown of thorns. Simon of Cyrene is pressed into carrying the cross. Jesus is crucified at Golgotha between two rebels, mocked by passersby and religious leaders, and cries out in Aramaic, 'My God, my God, why have you forsaken me?' He dies with a loud cry, the temple curtain tears from top to bottom, and a Roman centurion declares, 'Truly this man was the Son of God.' Women who followed Jesus from Galilee watch from a distance. Joseph of Arimathea buries Jesus in a rock-hewn tomb.",
+    "remarkable": "The cry of dereliction (v. 34) — Jesus quoting Psalm 22:1 in Aramaic — is the most theologically disturbing utterance in the Gospels. Mark does not soften or explain it. The tearing of the temple curtain (v. 38) from top to bottom signals divine action opening access to God's presence. The centurion's confession (v. 39) is the first time in Mark that any human being calls Jesus 'Son of God' without being corrected or silenced — and it comes from a pagan executioner standing at the foot of the cross. The women named in verses 40-41 become the crucial witnesses who will connect the crucifixion to the empty tomb.",
+    "friction": "The choice between Jesus and Barabbas involves a Passover release custom for which no extra-biblical evidence exists. Mark presents it as established practice; we render his account as given. The cry 'Eloi, Eloi' (v. 34) is Aramaic (Hebrew would be 'Eli, Eli' as in Matthew); the bystanders' confusion with Elijah may reflect genuine mishearing or may be Markan irony. The centurion's declaration can be translated 'the Son of God' or 'a son of God' — Greek lacks the indefinite article, and a Roman soldier might have meant 'a divine man' rather than making a Christian confession. The ambiguity may be intentional.",
+    "connections": "Psalm 22 pervades the chapter: the casting of lots for garments (v. 24; Ps 22:18), the mocking (vv. 29-32; Ps 22:7-8), and the cry of abandonment (v. 34; Ps 22:1). Isaiah 53 is present in Jesus's silence before accusers and his burial with the rich. The darkness at noon (v. 33) echoes Amos 8:9-10 ('I will make the sun go down at noon and darken the earth in broad daylight'). The torn curtain connects to the temple theme running through Mark 11-13."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_greek": "Καὶ εὐθὺς πρωῒ συμβούλιον ποιήσαντες οἱ ἀρχιερεῖς μετὰ τῶν πρεσβυτέρων καὶ γραμματέων καὶ ὅλον τὸ συνέδριον, δήσαντες τὸν Ἰησοῦν ἀπήνεγκαν καὶ παρέδωκαν Πιλάτῳ.",
+      "text_kjv": "And straightway in the morning the chief priests held a consultation with the elders and scribes and the whole council, and bound Jesus, and carried him away, and delivered him to Pilate.",
+      "rendering": "As soon as it was morning, the chief priests held a consultation with the elders and scribes and the whole council. They bound Jesus, led him away, and handed him over to Pilate.",
+      "translator_notes": [
+        "The Greek prōi ('early morning') likely refers to the fourth watch (3-6 AM). The verb paredōkan ('handed over') is again the paradidōmi chain: God hands over the Son, Judas hands over Jesus to the authorities, and now the authorities hand him over to Rome. Each use of this verb links divine purpose to human action. Pontius Pilate served as prefect of Judea from AD 26-36."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 2,
+      "text_greek": "καὶ ἐπηρώτησεν αὐτὸν ὁ Πιλᾶτος· Σὺ εἶ ὁ βασιλεὺς τῶν Ἰουδαίων; ὁ δὲ ἀποκριθεὶς αὐτῷ λέγει· Σὺ λέγεις.",
+      "text_kjv": "And Pilate asked him, Art thou the King of the Jews? And he answering said unto him, Thou sayest it.",
+      "rendering": "Pilate asked him, \"Are you the King of the Jews?\" He answered him, \"You say so.\"",
+      "translator_notes": [
+        "The charge has been reformulated for Roman ears: the Sanhedrin's religious charge ('Christ, Son of the Blessed One,' 14:61) becomes a political charge ('King of the Jews'). Jesus's response sy legeis ('you say so') is ambiguous — it can be read as affirmation, deflection, or ironic agreement. It neither confirms nor denies in a way Pilate can use."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 3,
+      "text_greek": "καὶ κατηγόρουν αὐτοῦ οἱ ἀρχιερεῖς πολλά.",
+      "text_kjv": "And the chief priests accused him of many things: but he answered nothing.",
+      "rendering": "The chief priests accused him of many things.",
+      "translator_notes": [
+        "The imperfect katēgoroun ('were accusing, kept accusing') indicates a sustained barrage of charges. Mark does not specify the content, focusing instead on volume — 'many things' (polla). The chief priests function as prosecutors before the Roman governor."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 4,
+      "text_greek": "ὁ δὲ Πιλᾶτος πάλιν ἐπηρώτα αὐτὸν λέγων· Οὐκ ἀποκρίνῃ οὐδέν; ἴδε πόσα σου κατηγοροῦσιν.",
+      "text_kjv": "And Pilate asked him again, saying, Answerest thou nothing? behold how many things they witness against thee.",
+      "rendering": "Pilate again asked him, \"Have you no answer? See how many charges they bring against you.\"",
+      "translator_notes": [
+        "Pilate's surprise reveals that silence before a Roman tribunal was highly unusual — defendants typically mounted vigorous defenses. The word posa ('how many, how great') emphasizes the volume of accusations. Pilate seems to be giving Jesus an opportunity to defend himself."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 5,
+      "text_greek": "ὁ δὲ Ἰησοῦς οὐκέτι οὐδὲν ἀπεκρίθη, ὥστε θαυμάζειν τὸν Πιλᾶτον.",
+      "text_kjv": "But Jesus yet answered nothing; so that Pilate marvelled.",
+      "rendering": "But Jesus made no further answer, so that Pilate was amazed.",
+      "translator_notes": [
+        "The Greek thaumazein ('to be amazed, to marvel') indicates that Jesus's silence is extraordinary. Isaiah 53:7 provides the theological background: 'He was oppressed and he was afflicted, yet he did not open his mouth; like a lamb that is led to the slaughter.' Jesus's silence is not passive but deliberate — a refusal to participate in a process whose outcome is already determined.",
+        "[TCR Cross-Reference] This verse quotes Isaiah 53:7 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 6,
+      "text_greek": "Κατὰ δὲ ἑορτὴν ἀπέλυεν αὐτοῖς ἕνα δέσμιον ὃν παρῃτοῦντο.",
+      "text_kjv": "Now at that feast he released unto them one prisoner, whomsoever they desired.",
+      "rendering": "Now at the feast he used to release for them one prisoner whom they requested.",
+      "translator_notes": [
+        "The imperfect apelyen ('he used to release') describes a recurring custom. No extra-biblical source confirms this practice, though Roman magistrates did sometimes grant amnesty. Mark presents it as an established Passover tradition — a feast celebrating liberation from bondage includes the liberation of a prisoner."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 7,
+      "text_greek": "ἦν δὲ ὁ λεγόμενος Βαραββᾶς μετὰ τῶν στασιαστῶν δεδεμένος οἵτινες ἐν τῇ στάσει φόνον πεποιήκεισαν.",
+      "text_kjv": "And there was one named Barabbas, which lay bound with them that had made insurrection with him, who had committed murder in the insurrection.",
+      "rendering": "A man called Barabbas was imprisoned with the rebels who had committed murder during the insurrection.",
+      "translator_notes": [
+        "The name Barabbas (bar-abba) means 'son of the father' in Aramaic — an ironic contrast with Jesus, who is the Son of the Father. The stasiastōn ('rebels, insurrectionists') and stasis ('uprising, revolt') indicate that Barabbas was involved in armed political resistance against Rome. The crowd will choose the violent revolutionary over the peaceful messiah."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 8,
+      "text_greek": "καὶ ἀναβὰς ὁ ὄχλος ἤρξατο αἰτεῖσθαι καθὼς ἐποίει αὐτοῖς.",
+      "text_kjv": "And the multitude crying aloud began to desire him to do as he had ever done unto them.",
+      "rendering": "The crowd came up and began to ask Pilate to do as he usually did for them.",
+      "translator_notes": [
+        "The crowd initiates the request — they come to Pilate expecting the customary release. The verb anabas ('having come up') suggests movement upward toward the praetorium. The crowd has not yet been prompted to choose between Jesus and Barabbas."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 9,
+      "text_greek": "ὁ δὲ Πιλᾶτος ἀπεκρίθη αὐτοῖς λέγων· Θέλετε ἀπολύσω ὑμῖν τὸν βασιλέα τῶν Ἰουδαίων;",
+      "text_kjv": "But Pilate answered them, saying, Will ye that I release unto you the King of the Jews?",
+      "rendering": "Pilate answered them, \"Do you want me to release for you the King of the Jews?\"",
+      "translator_notes": [
+        "Pilate's use of the title 'King of the Jews' (ton basilea tōn Ioudaiōn) may be sarcastic, politically provocative, or an attempt to use popular support for Jesus to free him. The title will appear on the cross (v. 26), making the Roman charge visible to all."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 10,
+      "text_greek": "ἐγίνωσκεν γὰρ ὅτι διὰ φθόνον παραδεδώκεισαν αὐτὸν οἱ ἀρχιερεῖς.",
+      "text_kjv": "For he knew that the chief priests had delivered him for envy.",
+      "rendering": "For he perceived that it was out of envy that the chief priests had handed him over.",
+      "translator_notes": [
+        "The Greek phthonon ('envy, jealousy') is Pilate's assessment of the chief priests' motivation. Even a Roman governor could see that this was not about justice or theology but about threatened power. The verb eginōsken ('he knew, he perceived') implies ongoing awareness, not sudden insight."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 11,
+      "text_greek": "οἱ δὲ ἀρχιερεῖς ἀνέσεισαν τὸν ὄχλον ἵνα μᾶλλον τὸν Βαραββᾶν ἀπολύσῃ αὐτοῖς.",
+      "text_kjv": "But the chief priests moved the people, that he should rather release Barabbas unto them.",
+      "rendering": "But the chief priests stirred up the crowd to have him release Barabbas for them instead.",
+      "translator_notes": [
+        "The Greek aneseisan ('stirred up, incited, shook up') suggests active agitation. The chief priests work the crowd to ensure their preferred outcome. The people who shouted 'Hosanna' days earlier (11:9-10) are now manipulated into demanding the release of a murderer."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 12,
+      "text_greek": "ὁ δὲ Πιλᾶτος πάλιν ἀποκριθεὶς ἔλεγεν αὐτοῖς· Τί οὖν ποιήσω ὃν λέγετε τὸν βασιλέα τῶν Ἰουδαίων;",
+      "text_kjv": "And Pilate answered and said again unto them, What will ye then that I shall do unto him whom ye call the King of the Jews?",
+      "rendering": "Pilate again said to them, \"Then what shall I do with the man you call the King of the Jews?\"",
+      "translator_notes": [
+        "Pilate's question — 'What shall I do with...' — is extraordinary for a Roman governor. He defers the sentence to the mob, abdicating judicial responsibility. The phrase hon legete ('whom you call') distances Pilate from the title; he attributes it to the crowd rather than adopting it himself."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 13,
+      "text_greek": "οἱ δὲ πάλιν ἔκραξαν· Σταύρωσον αὐτόν.",
+      "text_kjv": "And they cried out again, Crucify him.",
+      "rendering": "They shouted back, \"Crucify him!\"",
+      "translator_notes": [
+        "The Greek staurōson ('crucify!') is an aorist imperative — sharp, urgent, decisive. Crucifixion was Rome's penalty for slaves, rebels, and non-citizens. It was designed to be maximally painful and publicly humiliating. The crowd demands the most degrading form of execution available."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 14,
+      "text_greek": "ὁ δὲ Πιλᾶτος ἔλεγεν αὐτοῖς· Τί γὰρ ἐποίησεν κακόν; οἱ δὲ περισσῶς ἔκραξαν· Σταύρωσον αὐτόν.",
+      "text_kjv": "Then Pilate said unto them, Why, what evil hath he done? And they cried out the more exceedingly, Crucify him.",
+      "rendering": "Pilate said to them, \"Why? What evil has he done?\" But they shouted all the more, \"Crucify him!\"",
+      "translator_notes": [
+        "Pilate's question ti gar epoiēsen kakon ('what evil has he done?') implies he has found no basis for the death penalty. The adverb perissōs ('exceedingly, all the more') shows the crowd's intensity escalating beyond reason. The repetition of 'Crucify him!' without any stated crime reveals that this is a mob, not a judicial proceeding."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 15,
+      "text_greek": "ὁ δὲ Πιλᾶτος βουλόμενος τῷ ὄχλῳ τὸ ἱκανὸν ποιῆσαι ἀπέλυσεν αὐτοῖς τὸν Βαραββᾶν, καὶ παρέδωκεν τὸν Ἰησοῦν φραγελλώσας ἵνα σταυρωθῇ.",
+      "text_kjv": "And so Pilate, willing to content the people, released Barabbas unto them, and delivered Jesus, when he had scourged him, to be crucified.",
+      "rendering": "So Pilate, wishing to satisfy the crowd, released Barabbas for them and, after having Jesus flogged, handed him over to be crucified.",
+      "translator_notes": [
+        "The Greek to hikanon poiēsai ('to do what was sufficient, to satisfy') reveals Pilate's motivation as political expediency, not justice. The verb phragellōsas ('having flogged') refers to the Roman flagellum — a whip with leather thongs embedded with bone or metal fragments. Roman flogging was so severe it sometimes killed the victim. The paradidōmi chain reaches its final human link: Pilate hands Jesus over to execution."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 16,
+      "text_greek": "Οἱ δὲ στρατιῶται ἀπήγαγον αὐτὸν ἔσω τῆς αὐλῆς, ὅ ἐστιν πραιτώριον, καὶ συγκαλοῦσιν ὅλην τὴν σπεῖραν.",
+      "text_kjv": "And the soldiers led him away into the hall, called Praetorium; and they call together the whole band of soldiers.",
+      "rendering": "The soldiers led him away inside the palace, that is, the praetorium, and they called together the whole battalion.",
+      "translator_notes": [
+        "The praitōrion was the governor's official residence — likely either Herod's palace on the western hill or the Antonia Fortress adjacent to the temple. The speira ('cohort, battalion') was normally 600 soldiers, though the word could be used loosely for a smaller detachment. Mark explains the term for his non-Palestinian readers."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 17,
+      "text_greek": "καὶ ἐνδιδύσκουσιν αὐτὸν πορφύραν καὶ περιτιθέασιν αὐτῷ πλέξαντες ἀκάνθινον στέφανον·",
+      "text_kjv": "And they clothed him with purple, and platted a crown of thorns, and put it about his head,",
+      "rendering": "They put a purple cloak on him and, twisting together a crown of thorns, they put it on him.",
+      "translator_notes": [
+        "The purple cloak (porphyran) mocks royal attire — purple was the color of kings and emperors, and the soldiers drape Jesus in a parody of royal investiture. The akanthinon stephanon ('crown of thorns') is fashioned from a thorny plant common in Palestine. Whether intended primarily to cause pain or to mock a radiate crown (like those on Roman coins) is debated; both functions were likely served."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 18,
+      "text_greek": "καὶ ἤρξαντο ἀσπάζεσθαι αὐτόν· Χαῖρε, βασιλεῦ τῶν Ἰουδαίων·",
+      "text_kjv": "And began to salute him, Hail, King of the Jews!",
+      "rendering": "And they began to salute him: \"Hail, King of the Jews!\"",
+      "translator_notes": [
+        "The greeting Chaire basileu tōn Ioudaiōn ('Hail, King of the Jews!') parodies the salute to the emperor: 'Ave, Caesar!' (Chaire, Kaisar). The soldiers mock Jesus by performing a coronation ritual in reverse — clothing, crowning, and acclaiming him as king, but in contempt rather than honor."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 19,
+      "text_greek": "καὶ ἔτυπτον αὐτοῦ τὴν κεφαλὴν καλάμῳ καὶ ἐνέπτυον αὐτῷ, καὶ τιθέντες τὰ γόνατα προσεκύνουν αὐτῷ.",
+      "text_kjv": "And they smote him on the head with a reed, and did spit upon him, and bowing their knees worshipped him.",
+      "rendering": "They struck his head with a reed and spit on him and knelt down in mock worship before him.",
+      "translator_notes": [
+        "The reed (kalamō) may have served as a mock scepter before being used to strike. The triad of actions — striking, spitting, kneeling — is a grotesque inversion of royal honor. The verb prosekynoun ('worshiped, bowed down to') is the word used for genuine worship throughout the New Testament. Mark's readers would see the irony: the soldiers' mockery accidentally performs the truth."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 20,
+      "text_greek": "καὶ ὅτε ἐνέπαιξαν αὐτῷ, ἐξέδυσαν αὐτὸν τὴν πορφύραν καὶ ἐνέδυσαν αὐτὸν τὰ ἱμάτια αὐτοῦ. Καὶ ἐξάγουσιν αὐτὸν ἵνα σταυρώσωσιν αὐτόν.",
+      "text_kjv": "And when they had mocked him, they took off the purple from him, and put his own clothes on him, and led him out to crucify him.",
+      "rendering": "When they had mocked him, they stripped him of the purple cloak and put his own clothes on him. Then they led him out to crucify him.",
+      "translator_notes": [
+        "The return of Jesus's own garments means the crowd watching the crucifixion procession would not have seen the mockery. The shift from indoor abuse to outdoor execution transitions the narrative from the private world of soldiers' cruelty to the public spectacle of crucifixion."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 21,
+      "text_greek": "Καὶ ἀγγαρεύουσιν παράγοντά τινα Σίμωνα Κυρηναῖον ἐρχόμενον ἀπ' ἀγροῦ, τὸν πατέρα Ἀλεξάνδρου καὶ Ῥούφου, ἵνα ἄρῃ τὸν σταυρὸν αὐτοῦ.",
+      "text_kjv": "And they compel one Simon a Cyrenian, who passed by, coming out of the country, the father of Alexander and Rufus, to bear his cross.",
+      "rendering": "They compelled a passerby, Simon of Cyrene, who was coming in from the country — the father of Alexander and Rufus — to carry his cross.",
+      "translator_notes": [
+        "The Greek angareuousin ('they compel, conscript, press into service') is a Persian loanword for forced labor under military authority. Simon was from Cyrene, a city in modern Libya with a large Jewish community. Mark identifies him as 'the father of Alexander and Rufus' — a detail that only makes sense if these men were known to Mark's audience, suggesting they became part of the early Christian community (cf. Romans 16:13, which mentions a Rufus). The cross (stauros) that Simon carried was the horizontal beam (patibulum); the vertical post remained fixed at the execution site."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 22,
+      "text_greek": "καὶ φέρουσιν αὐτὸν ἐπὶ τὸν Γολγοθᾶν τόπον, ὅ ἐστιν μεθερμηνευόμενον Κρανίου Τόπος.",
+      "text_kjv": "And they bring him unto the place Golgotha, which is, being interpreted, The place of a skull.",
+      "rendering": "They brought him to the place called Golgotha, which means Place of a Skull.",
+      "translator_notes": [
+        "Golgotha is the Aramaic gulgulta ('skull'). The Latin equivalent is calvaria, from which 'Calvary' derives. The name may describe the skull-like shape of the rocky outcrop or may refer to its use as an execution site. Mark translates the Aramaic for his Greek-speaking audience. The site was outside the city walls (cf. Hebrews 13:12)."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 23,
+      "text_greek": "καὶ ἐδίδουν αὐτῷ ἐσμυρνισμένον οἶνον· ὃς δὲ οὐκ ἔλαβεν.",
+      "text_kjv": "And they gave him to drink wine mingled with myrrh: but he received it not.",
+      "rendering": "They offered him wine mixed with myrrh, but he did not take it.",
+      "translator_notes": [
+        "Wine mixed with myrrh (esmyrnismenon oinon) may have been offered as a mild narcotic to dull pain — a charitable practice attributed to Jerusalem's women in the Talmud (Sanhedrin 43a). Jesus's refusal to take it suggests a determination to face death with full consciousness. This may also fulfill his vow not to drink 'of the fruit of the vine' until the kingdom comes (14:25)."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 24,
+      "text_greek": "καὶ σταυροῦσιν αὐτὸν καὶ διαμερίζονται τὰ ἱμάτια αὐτοῦ, βάλλοντες κλῆρον ἐπ' αὐτὰ τίς τί ἄρῃ.",
+      "text_kjv": "And when they had crucified him, they parted his garments, casting lots upon them, what every man should take.",
+      "rendering": "And they crucified him and divided his garments among them, casting lots for them to decide what each should take.",
+      "translator_notes": [
+        "Mark narrates the crucifixion itself with stark brevity — three words in Greek: kai staurousin auton ('and they crucify him'). No description of the physical process is given. The division of garments fulfills Psalm 22:18 ('They divide my garments among them, and for my clothing they cast lots'), though Mark does not explicitly cite the psalm. A crucified person's possessions became the executioners' perquisite.",
+        "[TCR Cross-Reference] Echoes Psalms 22:18. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 25,
+      "text_greek": "ἦν δὲ ὥρα τρίτη καὶ ἐσταύρωσαν αὐτόν.",
+      "text_kjv": "And it was the third hour, and they crucified him.",
+      "rendering": "It was the third hour when they crucified him.",
+      "translator_notes": [
+        "The 'third hour' (hōra tritē) is approximately 9 AM by Jewish time-reckoning (counting from sunrise at approximately 6 AM). This creates a tension with John 19:14, which places Jesus still before Pilate at 'the sixth hour.' Various harmonization proposals exist; we render Mark's chronology as given."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 26,
+      "text_greek": "καὶ ἦν ἡ ἐπιγραφὴ τῆς αἰτίας αὐτοῦ ἐπιγεγραμμένη· Ὁ βασιλεὺς τῶν Ἰουδαίων.",
+      "text_kjv": "And the superscription of his accusation was written over, THE KING OF THE JEWS.",
+      "rendering": "The inscription of the charge against him read: \"The King of the Jews.\"",
+      "translator_notes": [
+        "Roman practice required a titulus — a placard stating the condemned person's crime — to be carried before or attached to the cross. The charge ho basileus tōn Ioudaiōn ('The King of the Jews') is political rather than religious. From Pilate's perspective, Jesus was executed for sedition — claiming kingship in Caesar's domain. From Mark's perspective, the inscription is ironically true."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 27,
+      "text_greek": "Καὶ σὺν αὐτῷ σταυροῦσιν δύο λῃστάς, ἕνα ἐκ δεξιῶν καὶ ἕνα ἐξ εὐωνύμων αὐτοῦ.",
+      "text_kjv": "And with him they crucify two thieves; the one on his right hand, and the other on his left.",
+      "rendering": "And with him they crucified two rebels, one on his right and one on his left.",
+      "translator_notes": [
+        "The Greek lēstas ('rebels, bandits, insurrectionists') is the same word used in verse 48 and in 11:17. These were likely associates of Barabbas's insurrection (v. 7). The positioning — one on the right, one on the left — recalls James and John's request to sit at Jesus's right and left in his glory (10:37). Jesus told them they did not know what they were asking; the positions of honor in his 'glory' are occupied by criminals on crosses."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 28,
+      "text_greek": "",
+      "text_kjv": "And the scripture was fulfilled, which saith, And he was numbered with the transgressors.",
+      "rendering": "",
+      "translator_notes": [
+        "Verse 28 is not included in the SBLGNT critical text. It appears in later manuscripts and quotes Isaiah 53:12 ('he was numbered with the transgressors'). While the quotation is theologically apt, the verse is almost certainly a later scribal addition influenced by Luke 22:37. We note its absence from the earliest and best manuscripts.",
+        "[TCR Cross-Reference] References Isaiah 53:12 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 29,
+      "text_greek": "Καὶ οἱ παραπορευόμενοι ἐβλασφήμουν αὐτὸν κινοῦντες τὰς κεφαλὰς αὐτῶν καὶ λέγοντες· Οὐὰ ὁ καταλύων τὸν ναὸν καὶ οἰκοδομῶν ἐν τρισὶν ἡμέραις,",
+      "text_kjv": "And they that passed by railed on him, wagging their heads, and saying, Ah, thou that destroyest the temple, and buildest it in three days,",
+      "rendering": "Those who passed by mocked him, shaking their heads and saying, \"Ha! You who would destroy the temple and rebuild it in three days,",
+      "translator_notes": [
+        "The head-shaking (kinountes tas kephalas) fulfills Psalm 22:7 ('All who see me mock me; they hurl insults, shaking their heads'). The Greek eblasphēmoun ('reviled, blasphemed') is the same word used for the charge against Jesus — those who accused him of blasphemy now commit it themselves. The temple accusation from 14:58 has become street mockery.",
+        "[TCR Cross-Reference] Echoes Psalm 22:7. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 30,
+      "text_greek": "σῶσον σεαυτὸν καταβὰς ἀπὸ τοῦ σταυροῦ.",
+      "text_kjv": "Save thyself, and come down from the cross.",
+      "rendering": "Indeed, save thyself, and come down from the cross.",
+      "translator_notes": [
+        "The imperative sōson seauton ('save yourself!') is deeply ironic in light of 8:35 ('whoever wants to save their life will lose it'). The demand to 'come down from the cross' assumes that divine power should manifest as self-preservation. The entire Gospel has been arguing the opposite: divine power is revealed through self-giving suffering."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 31,
+      "text_greek": "ὁμοίως καὶ οἱ ἀρχιερεῖς ἐμπαίζοντες πρὸς ἀλλήλους μετὰ τῶν γραμματέων ἔλεγον· Ἄλλους ἔσωσεν, ἑαυτὸν οὐ δύναται σῶσαι·",
+      "text_kjv": "Likewise also the chief priests mocking said among themselves with the scribes, He saved others; himself he cannot save.",
+      "rendering": "In the same way the chief priests also mocked him among themselves with the scribes, saying, \"He saved others; he cannot save himself.",
+      "translator_notes": [
+        "The phrase allous esōsen ('he saved others') is an unintended confession of Jesus's healing ministry. The taunt heauton ou dynatai sōsai ('he cannot save himself') states the theological truth Mark's Gospel has been building: the Messiah saves precisely by not saving himself. The paradox of the cross — power through powerlessness — is articulated by Jesus's enemies without their understanding it."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 32,
+      "text_greek": "ὁ Χριστὸς ὁ βασιλεὺς Ἰσραὴλ καταβάτω νῦν ἀπὸ τοῦ σταυροῦ, ἵνα ἴδωμεν καὶ πιστεύσωμεν. καὶ οἱ συνεσταυρωμένοι σὺν αὐτῷ ὠνείδιζον αὐτόν.",
+      "text_kjv": "Let Christ the King of Israel descend now from the cross, that we may see and believe. And they that were crucified with him reviled him.",
+      "rendering": "Let the Christ, the King of Israel, come down now from the cross, so that we may see and believe!\" Those who were crucified with him also reviled him.",
+      "translator_notes": [
+        "The demand 'that we may see and believe' (hina idōmen kai pisteusōmen) inverts the order Jesus requires: believing in order to see, not seeing in order to believe (cf. John 20:29). The title 'King of Israel' (basileus Israēl) is the Jewish form of the Roman charge 'King of the Jews.' Even the two co-crucified men join the mockery (synestaurōmenoi, 'those crucified with him') — in Mark, there is no penitent thief. Jesus is entirely alone."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 33,
+      "text_greek": "Καὶ γενομένης ὥρας ἕκτης σκότος ἐγένετο ἐφ' ὅλην τὴν γῆν ἕως ὥρας ἐνάτης.",
+      "text_kjv": "And when the sixth hour was come, there was darkness over the whole land until the ninth hour.",
+      "rendering": "When the sixth hour came, darkness fell over the whole land until the ninth hour.",
+      "translator_notes": [
+        "The sixth to ninth hours are approximately noon to 3 PM. Darkness at midday echoes Amos 8:9 ('I will make the sun go down at noon and darken the earth in broad daylight'). The phrase eph' holēn tēn gēn could mean 'over the whole land' (of Israel) or 'over the whole earth.' The darkness is cosmic and theological — creation itself responds to the death of its creator.",
+        "[TCR Cross-Reference] References Amos 8:9 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 34,
+      "text_greek": "καὶ τῇ ἐνάτῃ ὥρᾳ ἐβόησεν ὁ Ἰησοῦς φωνῇ μεγάλῃ· Ελωι ελωι λεμα σαβαχθανι; ὅ ἐστιν μεθερμηνευόμενον· Ὁ θεός μου ὁ θεός μου, εἰς τί ἐγκατέλιπές με;",
+      "text_kjv": "And at the ninth hour Jesus cried with a loud voice, saying, Eloi, Eloi, lama sabachthani? which is, being interpreted, My God, my God, why hast thou forsaken me?",
+      "rendering": "At the ninth hour Jesus cried out with a loud voice, \"Eloi, Eloi, lema sabachthani?\" — which means, \"My God, my God, why have you forsaken me?\"",
+      "translator_notes": [
+        "This is Psalm 22:1 in Aramaic (Eloi is Aramaic; Matthew's Eli is Hebrew). The cry is the only saying from the cross that Mark records. Whether Jesus is expressing genuine experience of divine abandonment, praying the entire psalm (which moves from lament to trust and praise by its end), or both, has been debated throughout Christian history. Mark does not soften the cry or explain it. The theological reality is presented without commentary: the Son of God experiences forsakenness.",
+        "[TCR Cross-Reference] Echoes Psalms 22:1. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "key_terms": [
+        {
+          "greek": "ἐγκατέλιπες",
+          "transliteration": "enkatelipes",
+          "rendered_as": "forsaken",
+          "semantic_range": "abandon, forsake, desert, leave behind",
+          "note": "The same verb used in the Septuagint of Psalm 22:1 (21:2 LXX). In the context of Israel's lament tradition, the cry is both anguished accusation and desperate appeal — the psalmist cries out to the God who has seemingly disappeared, yet addresses him as 'my God.'"
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 35,
+      "text_greek": "καί τινες τῶν παρεστηκότων ἀκούσαντες ἔλεγον· Ἴδε Ἠλίαν φωνεῖ.",
+      "text_kjv": "And some of them that stood by, when they heard it, said, Behold, he calleth Elias.",
+      "rendering": "Some of the bystanders hearing it said, \"Look, he is calling Elijah.\"",
+      "translator_notes": [
+        "The confusion between 'Eloi' (My God) and 'Elijah' (Ēlian) may be genuine mishearing — especially by non-Aramaic speakers — or may be deliberate Markan irony. Jewish tradition held that Elijah would appear before the messianic age (Malachi 4:5). The bystanders' interpretation reduces the most profound theological cry in the narrative to a misidentified name.",
+        "[TCR Cross-Reference] This verse quotes Malachi 4:5 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 36,
+      "text_greek": "δραμὼν δέ τις γεμίσας σπόγγον ὄξους περιθεὶς καλάμῳ ἐπότιζεν αὐτόν, λέγων· Ἄφετε ἴδωμεν εἰ ἔρχεται Ἠλίας καθελεῖν αὐτόν.",
+      "text_kjv": "And one ran and filled a spunge full of vinegar, and put it on a reed, and gave him to drink, saying, Let alone; let us see whether Elias will come to take him down.",
+      "rendering": "Someone ran and filled a sponge with sour wine, put it on a reed, and held it up to him to drink, saying, \"Wait, let us see whether Elijah will come to take him down.\"",
+      "translator_notes": [
+        "The sour wine (oxous, 'vinegar') was the cheap wine (posca) commonly drunk by soldiers and laborers — not a cruelty but possibly an act of rough compassion. The sponge on a reed echoes Psalm 69:21 ('for my thirst they gave me vinegar to drink'). The words 'let us see whether Elijah will come' may be mockery or genuine curiosity.",
+        "[TCR Cross-Reference] Quotes Psalm 69:21. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 37,
+      "text_greek": "ὁ δὲ Ἰησοῦς ἀφεὶς φωνὴν μεγάλην ἐξέπνευσεν.",
+      "text_kjv": "And Jesus cried with a loud voice, and gave up the ghost.",
+      "rendering": "Then Jesus let out a loud cry and breathed his last.",
+      "translator_notes": [
+        "The loud cry (phōnēn megalēn) before death is medically unusual — crucifixion typically ended in gradual asphyxiation, and the dying person would not have the strength for a loud shout. Mark may intend the cry to suggest that Jesus's death, though real, was not merely the result of physical exhaustion but a deliberate release. The Greek exepneusen ('breathed out, expired') is clinical and final."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 38,
+      "text_greek": "Καὶ τὸ καταπέτασμα τοῦ ναοῦ ἐσχίσθη εἰς δύο ἀπ' ἄνωθεν ἕως κάτω.",
+      "text_kjv": "And the veil of the temple was rent in twain from the top to the bottom.",
+      "rendering": "And the curtain of the temple was torn in two, from top to bottom.",
+      "translator_notes": [
+        "The katapetasma ('curtain, veil') could refer to either the inner curtain separating the Holy Place from the Most Holy Place (the Holy of Holies), or the outer curtain visible from outside the temple. If the inner curtain, the tearing symbolizes direct access to God's presence; if the outer, it is a public sign visible to all. The direction 'from top to bottom' (ap' anōthen heōs katō) indicates divine action — God tears the curtain from heaven. The verb eschisthē ('was torn') uses the same root as the tearing of the heavens at Jesus's baptism (1:10, schizomenous), framing Jesus's ministry between two divine tearings."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 39,
+      "text_greek": "Ἰδὼν δὲ ὁ κεντυρίων ὁ παρεστηκὼς ἐξ ἐναντίας αὐτοῦ ὅτι οὕτως ἐξέπνευσεν εἶπεν· Ἀληθῶς οὗτος ὁ ἄνθρωπος υἱὸς θεοῦ ἦν.",
+      "text_kjv": "And when the centurion, which stood over against him, saw that he so cried out, and gave up the ghost, he said, Truly this man was the Son of God.",
+      "rendering": "When the centurion who stood facing him saw that he breathed his last in this way, he said, \"Truly this man was the Son of God.\"",
+      "translator_notes": [
+        "The centurion (kentyriōn, a Latin loanword) is the first human being in Mark to call Jesus 'Son of God' (huios theou) without being rebuked or silenced. The messianic secret is finally broken — but by a pagan soldier at the foot of a cross, not by a disciple in a moment of glory. The Greek lacks the definite article: huios theou could mean 'the Son of God' or 'a son of God' ('a divine man'). Mark almost certainly intends the full Christian meaning, while acknowledging the centurion's limited understanding. What prompted this confession? Mark says it was seeing 'that he breathed his last in this way' (hoti houtōs exepneusen) — the manner of Jesus's death, not miracles or signs, revealed his identity."
+      ],
+      "key_terms": [
+        {
+          "greek": "υἱὸς θεοῦ",
+          "transliteration": "huios theou",
+          "rendered_as": "Son of God",
+          "semantic_range": "son of God, son of a god, divine son",
+          "note": "This declaration fulfills the trajectory begun in Mark 1:1 ('The beginning of the gospel of Jesus Christ, the Son of God'). At the baptism, God declared Jesus his Son (1:11); at the transfiguration, God told the disciples to listen to his Son (9:7); now a human being confesses it, and the messianic secret is resolved."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 40,
+      "text_greek": "Ἦσαν δὲ καὶ γυναῖκες ἀπὸ μακρόθεν θεωροῦσαι, ἐν αἷς καὶ Μαρία ἡ Μαγδαληνὴ καὶ Μαρία ἡ Ἰακώβου τοῦ μικροῦ καὶ Ἰωσῆτος μήτηρ καὶ Σαλώμη,",
+      "text_kjv": "There were also women looking on afar off: among whom was Mary Magdalene, and Mary the mother of James the less and of Joses, and Salome;",
+      "rendering": "There were also women looking on from a distance, among whom were Mary Magdalene, Mary the mother of James the younger and of Joses, and Salome.",
+      "translator_notes": [
+        "The women are introduced for the first time in the narrative, yet they have been present all along (v. 41). Mark names three: Mary Magdalene (from Magdala, a town on the Sea of Galilee), Mary the mother of James and Joses (possibly Jesus's mother; cf. 6:3), and Salome (possibly the mother of James and John; cf. Matthew 27:56). These women become the crucial link between the crucifixion (they see where he dies), the burial (they see where he is laid, v. 47), and the empty tomb (they go to anoint him, 16:1)."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 41,
+      "text_greek": "αἳ ὅτε ἦν ἐν τῇ Γαλιλαίᾳ ἠκολούθουν αὐτῷ καὶ διηκόνουν αὐτῷ, καὶ ἄλλαι πολλαὶ αἱ συναναβᾶσαι αὐτῷ εἰς Ἱεροσόλυμα.",
+      "text_kjv": "(Who also, when he was in Galilee, followed him, and ministered unto him;) and many other women which came up with him unto Jerusalem.",
+      "rendering": "When he was in Galilee, they followed him and served him, and there were many other women who had come up with him to Jerusalem.",
+      "translator_notes": [
+        "The verbs ēkolouthoun ('they were following') and diēkonoun ('they were serving, ministering') are the same words used for discipleship throughout Mark. These women were disciples — following and serving Jesus from Galilee to Jerusalem. The imperfect tense indicates sustained, ongoing service. Mark reveals that Jesus's movement included a significant number of women disciples whose presence he had not previously mentioned."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 42,
+      "text_greek": "Καὶ ἤδη ὀψίας γενομένης, ἐπεὶ ἦν παρασκευή, ὅ ἐστιν προσάββατον,",
+      "text_kjv": "And now when the even was come, because it was the preparation, that is, the day before the sabbath,",
+      "rendering": "When evening had come, since it was the day of Preparation, that is, the day before the Sabbath,",
+      "translator_notes": [
+        "The Greek paraskeuē ('Preparation') was the technical term for Friday, the day before the Sabbath, when work had to be completed before sunset. Mark explains the term for non-Jewish readers: 'the day before the Sabbath' (prosabbaton). The urgency is clear — burial must happen before sunset when Sabbath begins, and Jewish law prohibited leaving a body on a cross overnight (Deuteronomy 21:22-23).",
+        "[TCR Cross-Reference] Draws on Deuteronomy 21:22-23. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 43,
+      "text_greek": "ἐλθὼν Ἰωσὴφ ὁ ἀπὸ Ἁριμαθαίας εὐσχήμων βουλευτής, ὃς καὶ αὐτὸς ἦν προσδεχόμενος τὴν βασιλείαν τοῦ θεοῦ, τολμήσας εἰσῆλθεν πρὸς τὸν Πιλᾶτον καὶ ᾐτήσατο τὸ σῶμα τοῦ Ἰησοῦ.",
+      "text_kjv": "Joseph of Arimathaea, an honourable counsellor, which also waited for the kingdom of God, came, and went in boldly unto Pilate, and craved the body of Jesus.",
+      "rendering": "Joseph of Arimathea, a respected member of the council who was himself waiting for the kingdom of God, took courage and went to Pilate and asked for the body of Jesus.",
+      "translator_notes": [
+        "Joseph is described as euschēmōn bouleutēs ('a respected/prominent council member') — meaning he was a member of the Sanhedrin that had just condemned Jesus. The phrase prosdechomenos tēn basileian tou theou ('waiting for the kingdom of God') identifies him as sympathetic to Jesus's message. The Greek tolmēsas ('having taken courage, having dared') reveals that his request required bravery — he was risking his social position and political standing by publicly associating with a condemned criminal."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 44,
+      "text_greek": "ὁ δὲ Πιλᾶτος ἐθαύμασεν εἰ ἤδη τέθνηκεν καὶ προσκαλεσάμενος τὸν κεντυρίωνα ἐπηρώτησεν αὐτὸν εἰ πάλαι ἀπέθανεν·",
+      "text_kjv": "And Pilate marvelled if he were already dead: and calling unto him the centurion, he asked him whether he had been any while dead.",
+      "rendering": "Pilate was surprised that he was already dead. He summoned the centurion and asked him whether Jesus had already died.",
+      "translator_notes": [
+        "Crucifixion victims typically survived for days. That Jesus died in approximately six hours surprised even Pilate, who verified the death through the centurion — an official confirmation. The Greek ethaumasen ('was surprised, wondered') and the word palai ('already, some time ago') indicate that rapid death was unusual."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 45,
+      "text_greek": "καὶ γνοὺς ἀπὸ τοῦ κεντυρίωνος ἐδωρήσατο τὸ πτῶμα τῷ Ἰωσήφ.",
+      "text_kjv": "And when he knew it of the centurion, he gave the body to Joseph.",
+      "rendering": "When he learned from the centurion that Jesus was dead, he granted the body to Joseph.",
+      "translator_notes": [
+        "The Greek ptōma ('corpse, fallen body') is a harsher word than sōma ('body'), emphasizing the physical reality of death. The verb edōrēsato ('granted, gave as a gift') indicates an official release — Roman practice sometimes denied burial to the executed, so Pilate's permission was not automatic."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 46,
+      "text_greek": "καὶ ἀγοράσας σινδόνα καθελὼν αὐτὸν ἐνείλησεν τῇ σινδόνι καὶ ἔθηκεν αὐτὸν ἐν μνημείῳ ὃ ἦν λελατομημένον ἐκ πέτρας, καὶ προσεκύλισεν λίθον ἐπὶ τὴν θύραν τοῦ μνημείου.",
+      "text_kjv": "And he bought fine linen, and took him down, and wrapped him in the linen, and laid him in a sepulchre which was hewn out of a rock, and rolled a stone unto the door of the sepulchre.",
+      "rendering": "He bought a linen shroud and, taking him down, wrapped him in the linen shroud and laid him in a tomb that had been cut out of the rock. Then he rolled a stone against the entrance of the tomb.",
+      "translator_notes": [
+        "The sindōn ('linen cloth, shroud') is the same word used for the young man's garment in 14:51-52 — a possible literary connection. Rock-hewn tombs with rolling stones were typical of wealthy families in first-century Jerusalem. Joseph's tomb fulfills Isaiah 53:9 ('his grave was with the rich in his death'). The stone (lithon) was a large disk-shaped rock rolled along a groove to seal the entrance — it would require significant effort to move.",
+        "[TCR Cross-Reference] Quotes Isaiah 53:9. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 47,
+      "text_greek": "ἡ δὲ Μαρία ἡ Μαγδαληνὴ καὶ Μαρία ἡ Ἰωσῆτος ἐθεώρουν ποῦ τέθειται.",
+      "text_kjv": "And Mary Magdalene and Mary the mother of Joses beheld where he was laid.",
+      "rendering": "Mary Magdalene and Mary the mother of Joses saw where he was laid.",
+      "translator_notes": [
+        "The imperfect etheōroun ('they were watching, they were observing') indicates sustained attention — these women carefully noted the tomb's location. This detail is essential to the narrative: when they return on Sunday morning (16:1-2), they know exactly where to go. Their witness provides continuity between the crucifixion, burial, and empty tomb."
+      ],
+      "reading_level": "6th grade"
+    }
+  ]
+}

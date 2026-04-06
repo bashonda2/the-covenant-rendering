@@ -1,0 +1,550 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Mark",
+    "chapter": 12,
+    "source_text": "SBL Greek New Testament (SBLGNT)",
+    "reference_text": "KJV",
+    "generated_at": "2026-04-05T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Mark 12 presents a series of confrontations in the temple courts during Jesus's final week in Jerusalem. Jesus tells the parable of the wicked tenants, exposing the religious leaders' rejection of God's messengers. The Pharisees and Herodians attempt to trap him with a question about taxes to Caesar, the Sadducees test him on the resurrection, and a scribe asks about the greatest commandment. Jesus then poses his own question about the Messiah's identity as David's son and Lord, warns against the scribes' hypocrisy, and commends a poor widow whose two small coins surpass every other offering.",
+    "remarkable": "The parable of the wicked tenants (vv. 1-12) draws directly on Isaiah 5's vineyard imagery and compresses Israel's prophetic history into a single narrative. The tribute question (v. 17) produces one of Jesus's most famous responses, which neither endorses nor condemns Roman taxation but reframes the entire question around what belongs to God. The exchange on the greatest commandment (vv. 28-34) is the only place in Mark where Jesus tells an interlocutor 'You are not far from the kingdom of God' — a striking affirmation within a chapter of conflict. The widow's offering (vv. 41-44) closes the temple teaching section with a devastating contrast between religious performance and genuine devotion.",
+    "friction": "The phrase 'Render to Caesar' (v. 17) has been applied to justify everything from tax compliance to separation of church and state. The Greek apodote ('give back, return') implies returning what already belongs to someone, not simply paying a bill. The question about David's son (vv. 35-37) uses Psalm 110:1, which in Hebrew distinguishes YHWH (the LORD) from adoni ('my lord') — a distinction lost in Greek where kyrios covers both. We render the Greek as given while noting the Hebrew background.",
+    "connections": "The vineyard parable connects to Isaiah 5:1-7 and the rejected-stone quotation to Psalm 118:22-23. The Shema quotation (v. 29) anchors the chapter in Deuteronomy 6:4-5, while the love-of-neighbor command comes from Leviticus 19:18. Psalm 110:1 is the most-quoted Old Testament text in the New Testament, and Jesus's use of it here establishes a Christological argument that runs through early Christian preaching (Acts 2:34-35; Hebrews 1:13)."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_greek": "Καὶ ἤρξατο αὐτοῖς ἐν παραβολαῖς λαλεῖν· Ἀμπελῶνα ἄνθρωπος ἐφύτευσεν καὶ περιέθηκεν φραγμὸν καὶ ὤρυξεν ὑπολήνιον καὶ ᾠκοδόμησεν πύργον καὶ ἐξέδετο αὐτὸν γεωργοῖς καὶ ἀπεδήμησεν.",
+      "text_kjv": "And he began to speak unto them by parables. A certain man planted a vineyard, and set an hedge about it, and digged a place for the winefat, and built a tower, and let it out to husbandmen, and went into a far country.",
+      "rendering": "And he began to speak to them in parables: \"A man planted a vineyard and put a fence around it and dug a pit for the winepress and built a tower. Then he leased it to tenant farmers and went away.",
+      "translator_notes": [
+        "The vineyard description echoes Isaiah 5:1-2 almost verbatim, and Jesus's audience would have recognized the allusion immediately. The Greek georgois ('farmers, tenants') denotes those who work the land under lease — they are caretakers, not owners.",
+        "[TCR Cross-Reference] Quotes Isaiah 5:1-2. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it."
+      ],
+      "key_terms": [
+        {
+          "greek": "παραβολή",
+          "transliteration": "parabolē",
+          "rendered_as": "parables",
+          "semantic_range": "parable, comparison, illustration, riddle",
+          "note": "From para ('beside') and ballō ('throw') — a story 'thrown alongside' reality. In Mark, parables both reveal and conceal truth depending on the hearer's disposition."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 2,
+      "text_greek": "καὶ ἀπέστειλεν πρὸς τοὺς γεωργοὺς τῷ καιρῷ δοῦλον ἵνα παρὰ τῶν γεωργῶν λάβῃ ἀπὸ τῶν καρπῶν τοῦ ἀμπελῶνος·",
+      "text_kjv": "And at the season he sent to the husbandmen a servant, that he might receive from the husbandmen of the fruit of the vineyard.",
+      "rendering": "At harvest time he sent a servant to the tenants to collect from them some of the fruit of the vineyard.",
+      "translator_notes": [
+        "The Greek kairos ('season, appointed time') carries more theological weight than chronos ('chronological time'). The servant represents the prophets sent to Israel to call for covenant faithfulness."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 3,
+      "text_greek": "καὶ λαβόντες αὐτὸν ἔδειραν καὶ ἀπέστειλαν κενόν.",
+      "text_kjv": "And they caught him, and beat him, and sent him away empty.",
+      "rendering": "But they seized him and beat him and sent him away empty-handed.",
+      "translator_notes": [
+        "The escalating pattern of violence against the servants mirrors the biblical pattern of prophetic rejection throughout Israel's history (cf. 2 Chronicles 36:15-16; Nehemiah 9:26).",
+        "[TCR Cross-Reference] References 2 Chronicles 36:15-16 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved.",
+        "[TCR Cross-Reference] References Nehemiah 9:26 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 4,
+      "text_greek": "καὶ πάλιν ἀπέστειλεν πρὸς αὐτοὺς ἄλλον δοῦλον· κἀκεῖνον ἐκεφαλίωσαν καὶ ἠτίμασαν.",
+      "text_kjv": "And again he sent unto them another servant; and at him they cast stones, and wounded him in the head, and sent him away shamefully handled.",
+      "rendering": "Again he sent another servant to them, and they struck him on the head and treated him shamefully.",
+      "translator_notes": [
+        "The Greek ekephaliōsan ('struck on the head') is a rare word. Some manuscripts and translations interpret it as stoning, but the verb derives from kephalē ('head') and most likely means they wounded his head."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 5,
+      "text_greek": "καὶ ἄλλον ἀπέστειλεν· κἀκεῖνον ἀπέκτειναν, καὶ πολλοὺς ἄλλους, οὓς μὲν δέροντες οὓς δὲ ἀποκτέννοντες.",
+      "text_kjv": "And again he sent another; and him they killed, and many others; beating some, and killing some.",
+      "rendering": "He sent yet another, and that one they killed. And so with many others — some they beat, and some they killed.",
+      "translator_notes": [
+        "The escalation from beating to killing compresses the history of prophetic martyrdom. The parable's audience — the chief priests, scribes, and elders (11:27) — would have recognized themselves in the tenants' role."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 6,
+      "text_greek": "ἔτι ἕνα εἶχεν υἱὸν ἀγαπητόν· ἀπέστειλεν αὐτὸν ἔσχατον πρὸς αὐτοὺς λέγων ὅτι Ἐντραπήσονται τὸν υἱόν μου.",
+      "text_kjv": "Having yet therefore one son, his wellbeloved, he sent him also last unto them, saying, They will reverence my son.",
+      "rendering": "He had still one other — a beloved son. He sent him last of all to them, saying, 'They will respect my son.'",
+      "translator_notes": [
+        "The phrase huion agapēton ('beloved son') echoes the voice from heaven at Jesus's baptism (1:11) and transfiguration (9:7), using identical language. Mark's audience would hear the parable as Jesus identifying himself as the beloved son who will be killed."
+      ],
+      "key_terms": [
+        {
+          "greek": "ἀγαπητός",
+          "transliteration": "agapētos",
+          "rendered_as": "beloved",
+          "semantic_range": "beloved, dear, only beloved",
+          "note": "The same word used in Mark 1:11 and 9:7 for Jesus. In the Septuagint, it sometimes translates the Hebrew yachid ('only one'), as in Genesis 22:2 where Abraham is told to sacrifice his 'beloved' son Isaac."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 7,
+      "text_greek": "ἐκεῖνοι δὲ οἱ γεωργοὶ πρὸς ἑαυτοὺς εἶπαν ὅτι Οὗτός ἐστιν ὁ κληρονόμος· δεῦτε ἀποκτείνωμεν αὐτόν, καὶ ἡμῶν ἔσται ἡ κληρονομία.",
+      "text_kjv": "But those husbandmen said among themselves, This is the heir; come, let us kill him, and the inheritance shall be ours.",
+      "rendering": "But those tenants said to one another, 'This is the heir. Come, let us kill him, and the inheritance will be ours.'",
+      "translator_notes": [
+        "The Greek klēronomos ('heir') and klēronomia ('inheritance') carry covenantal weight — Israel's 'inheritance' is the land God promised. The tenants' reasoning exposes the logic of power: eliminate the rightful heir to seize what belongs to another."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 8,
+      "text_greek": "καὶ λαβόντες ἀπέκτειναν αὐτὸν καὶ ἐξέβαλον αὐτὸν ἔξω τοῦ ἀμπελῶνος.",
+      "text_kjv": "And they took him, and killed him, and cast him out of the vineyard.",
+      "rendering": "And they seized him and killed him and threw him out of the vineyard.",
+      "translator_notes": [
+        "In Mark's order, they kill first and cast out afterward — a detail that may foreshadow Jesus's death and burial outside the city walls. Matthew and Luke reverse the order to match the historical detail that Jesus was crucified outside Jerusalem (cf. Hebrews 13:12)."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 9,
+      "text_greek": "τί ποιήσει ὁ κύριος τοῦ ἀμπελῶνος; ἐλεύσεται καὶ ἀπολέσει τοὺς γεωργοὺς καὶ δώσει τὸν ἀμπελῶνα ἄλλοις.",
+      "text_kjv": "What shall therefore the lord of the vineyard do? he will come and destroy the husbandmen, and will give the vineyard unto others.",
+      "rendering": "What will the owner of the vineyard do? He will come and destroy the tenants and give the vineyard to others.",
+      "translator_notes": [
+        "In Mark, Jesus answers his own question — unlike Matthew 21:41 where the audience answers. The phrase 'give the vineyard to others' points beyond the parable to the inclusion of Gentiles or to a new community of faith."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 10,
+      "text_greek": "οὐδὲ τὴν γραφὴν ταύτην ἀνέγνωτε· Λίθον ὃν ἀπεδοκίμασαν οἱ οἰκοδομοῦντες, οὗτος ἐγενήθη εἰς κεφαλὴν γωνίας·",
+      "text_kjv": "And have ye not read this scripture; The stone which the builders rejected is become the head of the corner:",
+      "rendering": "Have you not read this Scripture: 'The stone that the builders rejected has become the cornerstone.'",
+      "translator_notes": [
+        "Jesus quotes Psalm 118:22-23, which was originally a psalm of thanksgiving for unexpected vindication. The 'stone' metaphor shifts from agriculture to construction but makes the same point: what the authorities reject, God exalts. The phrase kephalēn gōnias ('head of the corner') may refer to a cornerstone (foundation) or capstone (crowning stone).",
+        "[TCR Cross-Reference] This verse quotes Psalms 118:22-23 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 11,
+      "text_greek": "παρὰ κυρίου ἐγένετο αὕτη καὶ ἔστιν θαυμαστὴ ἐν ὀφθαλμοῖς ἡμῶν;",
+      "text_kjv": "This was the Lord's doing, and it is marvellous in our eyes?",
+      "rendering": "And it is marvellous in our eyes?, and this was the Lord's doing.",
+      "translator_notes": [
+        "The quotation continues from Psalm 118:23. The Greek thaumastē ('marvelous, wonderful') indicates something that provokes astonishment — God's reversal of human judgment is both surprising and awe-inspiring.",
+        "[TCR Cross-Reference] Quotes Psalms 118:22-23. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 12,
+      "text_greek": "Καὶ ἐζήτουν αὐτὸν κρατῆσαι, καὶ ἐφοβήθησαν τὸν ὄχλον, ἔγνωσαν γὰρ ὅτι πρὸς αὐτοὺς τὴν παραβολὴν εἶπεν. καὶ ἀφέντες αὐτὸν ἀπῆλθον.",
+      "text_kjv": "And they sought to lay hold on him, but feared the people: for they knew that he had spoken the parable against them: and they left him, and went their way.",
+      "rendering": "They were seeking to arrest him but feared the crowd, for they knew he had told the parable against them. So they left him and went away.",
+      "translator_notes": [
+        "The leaders' recognition that the parable was directed 'against them' (pros autous) confirms its transparency. Their restraint is political, not moral — they fear the crowd's reaction, not God's judgment. This sets the stage for their clandestine plot in chapter 14."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 13,
+      "text_greek": "Καὶ ἀποστέλλουσιν πρὸς αὐτόν τινας τῶν Φαρισαίων καὶ τῶν Ἡρῳδιανῶν ἵνα αὐτὸν ἀγρεύσωσιν λόγῳ.",
+      "text_kjv": "And they send unto him certain of the Pharisees and of the Herodians, to catch him in his words.",
+      "rendering": "Then they sent to him some of the Pharisees and some of the Herodians to trap him in his words.",
+      "translator_notes": [
+        "The Pharisees and Herodians were natural enemies — the Pharisees resisted Roman cultural influence while the Herodians supported the Herodian dynasty and its Roman alliance. Their collaboration against Jesus reveals the depth of opposition. The Greek agreusōsin ('trap, catch, hunt') is a hunting term — they are stalking prey."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 14,
+      "text_greek": "καὶ ἐλθόντες λέγουσιν αὐτῷ· Διδάσκαλε, οἴδαμεν ὅτι ἀληθὴς εἶ καὶ οὐ μέλει σοι περὶ οὐδενός· οὐ γὰρ βλέπεις εἰς πρόσωπον ἀνθρώπων, ἀλλ' ἐπ' ἀληθείας τὴν ὁδὸν τοῦ θεοῦ διδάσκεις· ἔξεστιν δοῦναι κῆνσον Καίσαρι ἢ οὔ; δῶμεν ἢ μὴ δῶμεν;",
+      "text_kjv": "And when they were come, they say unto him, Master, we know that thou art true, and carest for no man: for thou regardest not the person of men, but teachest the way of God in truth: Is it lawful to give tribute to Caesar, or not?",
+      "rendering": "They came and said to him, \"Teacher, we know that you are truthful and do not defer to anyone, for you show no partiality but truly teach the way of God. Is it lawful to pay taxes to Caesar, or not? Should we pay them, or should we not?\"",
+      "translator_notes": [
+        "The flattery is calculated to prevent evasion. The Greek kēnson is a loanword from the Latin census, referring specifically to the Roman poll tax — a deeply resented symbol of subjugation. If Jesus says 'pay,' he alienates the populace; if he says 'don't pay,' he commits sedition against Rome. The phrase ou blepeis eis prosōpon anthrōpōn ('you do not look at the face of men') is a Semitic idiom meaning 'you show no partiality.'"
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 15,
+      "text_greek": "ὁ δὲ εἰδὼς αὐτῶν τὴν ὑπόκρισιν εἶπεν αὐτοῖς· Τί με πειράζετε; φέρετέ μοι δηνάριον ἵνα ἴδω.",
+      "text_kjv": "Shall we give, or shall we not give? But he, knowing their hypocrisy, said unto them, Why tempt ye me? bring me a penny, that I may see it.",
+      "rendering": "But knowing their hypocrisy, he said to them, \"Why are you testing me? Bring me a denarius so I can look at it.\"",
+      "translator_notes": [
+        "The Greek hypokrisin ('hypocrisy') comes from the theater — a hypocrite is literally 'one who plays a role.' Jesus sees through the performance. The request for a coin is masterful: by producing a Roman denarius in the temple precincts, the questioners reveal that they already participate in Caesar's economy."
+      ],
+      "key_terms": [
+        {
+          "greek": "δηνάριον",
+          "transliteration": "dēnarion",
+          "rendered_as": "denarius",
+          "semantic_range": "denarius, a Roman silver coin worth roughly a day's wage",
+          "note": "The standard Roman coin bearing Caesar's image and inscription. Its presence in the temple area was itself a concession to Roman authority."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 16,
+      "text_greek": "οἱ δὲ ἤνεγκαν. καὶ λέγει αὐτοῖς· Τίνος ἡ εἰκὼν αὕτη καὶ ἡ ἐπιγραφή; οἱ δὲ εἶπαν αὐτῷ· Καίσαρος.",
+      "text_kjv": "And they brought it. And he saith unto them, Whose is this image and superscription? And they said unto him, Caesar's.",
+      "rendering": "They brought one. And he said to them, \"Whose image is this, and whose inscription?\" They said to him, \"Caesar's.\"",
+      "translator_notes": [
+        "The Greek eikōn ('image') is theologically loaded — Genesis 1:26-27 declares that humans bear the image (tselem) of God. By asking whose image is on the coin, Jesus sets up a contrast: the coin bears Caesar's image, but human beings bear God's image. The inscription on a Tiberian denarius typically read 'Tiberius Caesar, son of the divine Augustus' — a claim that would have been offensive to Jewish monotheists.",
+        "[TCR Cross-Reference] Quotes Genesis 1:26-27. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 17,
+      "text_greek": "ὁ δὲ Ἰησοῦς εἶπεν αὐτοῖς· Τὰ Καίσαρος ἀπόδοτε Καίσαρι καὶ τὰ τοῦ θεοῦ τῷ θεῷ. καὶ ἐξεθαύμαζον ἐπ' αὐτῷ.",
+      "text_kjv": "And Jesus answering said unto them, Render to Caesar the things that are Caesar's, and to God the things that are God's. And they marvelled at him.",
+      "rendering": "Jesus said to them, \"Give back to Caesar the things that are Caesar's, and to God the things that are God's.\" And they were utterly amazed at him.",
+      "translator_notes": [
+        "The Greek apodote ('give back, return, render') is stronger than 'give' — it implies returning what already belongs to someone. The second clause reframes everything: if Caesar's coins bear Caesar's image, then human beings — who bear God's image — belong entirely to God. The response neither endorses nor condemns taxation but subordinates all political claims to God's total claim on human life."
+      ],
+      "key_terms": [
+        {
+          "greek": "ἀποδίδωμι",
+          "transliteration": "apodidōmi",
+          "rendered_as": "give back",
+          "semantic_range": "give back, return, render, repay, reward",
+          "note": "The prefix apo- ('back, away') adds the sense of returning something to its rightful owner. This is not a neutral 'give' but a 'give back what is owed.'"
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 18,
+      "text_greek": "Καὶ ἔρχονται Σαδδουκαῖοι πρὸς αὐτόν, οἵτινες λέγουσιν ἀνάστασιν μὴ εἶναι, καὶ ἐπηρώτων αὐτὸν λέγοντες·",
+      "text_kjv": "Then come unto him the Sadducees, which say there is no resurrection; and they asked him, saying,",
+      "rendering": "Then Sadducees came to him — those who say there is no resurrection — and they asked him a question:",
+      "translator_notes": [
+        "Mark introduces the Sadducees with a parenthetical note about their denial of the resurrection. The Sadducees accepted only the Torah (the five books of Moses) as authoritative and found no explicit resurrection teaching there. Their question is designed to make resurrection belief look absurd."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 19,
+      "text_greek": "Διδάσκαλε, Μωϋσῆς ἔγραψεν ἡμῖν ὅτι ἐάν τινος ἀδελφὸς ἀποθάνῃ καὶ καταλίπῃ γυναῖκα καὶ μὴ ἀφῇ τέκνον, ἵνα λάβῃ ὁ ἀδελφὸς αὐτοῦ τὴν γυναῖκα καὶ ἐξαναστήσῃ σπέρμα τῷ ἀδελφῷ αὐτοῦ.",
+      "text_kjv": "Master, Moses wrote unto us, If a man's brother die, and leave his wife behind him, and leave no children, that his brother should take his wife, and raise up seed unto his brother.",
+      "rendering": "\"Teacher, Moses wrote for us that if a man's brother dies and leaves a wife but no child, his brother must take the wife and raise up offspring for his brother.",
+      "translator_notes": [
+        "The Sadducees invoke the levirate marriage law from Deuteronomy 25:5-6. The term 'levirate' comes from the Latin levir ('husband's brother'). The purpose of the law was to preserve the deceased brother's name and inheritance within Israel — a practice also illustrated in the story of Ruth and Boaz.",
+        "[TCR Cross-Reference] Echoes Deuteronomy 25:5-6. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 20,
+      "text_greek": "ἑπτὰ ἀδελφοὶ ἦσαν· καὶ ὁ πρῶτος ἔλαβεν γυναῖκα καὶ ἀποθνῄσκων οὐκ ἀφῆκεν σπέρμα·",
+      "text_kjv": "Now there were seven brethren: and the first took a wife, and dying left no seed.",
+      "rendering": "There were seven brothers. The first took a wife, and when he died he left no offspring.",
+      "translator_notes": [
+        "The scenario is likely hypothetical, constructed for maximum rhetorical effect. The number seven — the number of completeness — ensures the problem has no easy resolution by simply choosing one husband."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 21,
+      "text_greek": "καὶ ὁ δεύτερος ἔλαβεν αὐτὴν καὶ ἀπέθανεν μὴ καταλιπὼν σπέρμα· καὶ ὁ τρίτος ὡσαύτως·",
+      "text_kjv": "And the second took her, and died, neither left he any seed: and the third likewise.",
+      "rendering": "The second took her and died, leaving no offspring. And the third likewise.",
+      "translator_notes": [
+        "The repetitive structure is deliberate — each death without offspring intensifies the absurdity the Sadducees are constructing."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 22,
+      "text_greek": "καὶ οἱ ἑπτὰ οὐκ ἀφῆκαν σπέρμα. ἔσχατον πάντων καὶ ἡ γυνὴ ἀπέθανεν.",
+      "text_kjv": "And the seven had her, and left no seed: last of all the woman died also.",
+      "rendering": "All seven left no offspring. Last of all, the woman also died.",
+      "translator_notes": [
+        "The scenario concludes with universal death — the very reality the Sadducees believe is final. Ironically, their story about death becomes the occasion for Jesus to teach about life beyond death."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 23,
+      "text_greek": "ἐν τῇ ἀναστάσει ὅταν ἀναστῶσιν τίνος αὐτῶν ἔσται γυνή; οἱ γὰρ ἑπτὰ ἔσχον αὐτὴν γυναῖκα.",
+      "text_kjv": "In the resurrection therefore, when they shall rise, whose wife shall she be of them? for the seven had her to wife.",
+      "rendering": "In the resurrection, when they rise, whose wife will she be? For all seven had her as wife.\"",
+      "translator_notes": [
+        "The Sadducees' question assumes that resurrection life would be a simple continuation of earthly existence. Jesus's answer will challenge this assumption entirely, reframing resurrection as transformation rather than restoration."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 24,
+      "text_greek": "ἔφη αὐτοῖς ὁ Ἰησοῦς· Οὐ διὰ τοῦτο πλανᾶσθε μὴ εἰδότες τὰς γραφὰς μηδὲ τὴν δύναμιν τοῦ θεοῦ;",
+      "text_kjv": "And Jesus answering said unto them, Do ye not therefore err, because ye know not the scriptures, neither the power of God?",
+      "rendering": "Jesus said to them, \"Is this not the reason you are wrong — that you know neither the Scriptures nor the power of God?",
+      "translator_notes": [
+        "Jesus identifies two sources of error: ignorance of Scripture and ignorance of God's power. The Greek planasthe ('you are led astray, you wander') implies not just intellectual error but spiritual disorientation. The charge is sharp — the Sadducees prided themselves on scriptural expertise."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 25,
+      "text_greek": "ὅταν γὰρ ἐκ νεκρῶν ἀναστῶσιν οὔτε γαμοῦσιν οὔτε γαμίζονται, ἀλλ' εἰσὶν ὡς ἄγγελοι ἐν τοῖς οὐρανοῖς.",
+      "text_kjv": "For when they shall rise from the dead, they neither marry, nor are given in marriage; but are as the angels which are in heaven.",
+      "rendering": "For when they rise from the dead, they neither marry nor are given in marriage, but are like the angels in heaven.",
+      "translator_notes": [
+        "Jesus does not say the resurrected become angels but that they are 'like' (hōs) angels in this specific respect — the institution of marriage, which addresses mortality and procreation, is transcended. This addresses the power of God that the Sadducees have underestimated: resurrection is not mere resuscitation but a transformation of the conditions of existence."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 26,
+      "text_greek": "περὶ δὲ τῶν νεκρῶν ὅτι ἐγείρονται οὐκ ἀνέγνωτε ἐν τῇ βίβλῳ Μωϋσέως ἐπὶ τοῦ βάτου πῶς εἶπεν αὐτῷ ὁ θεὸς λέγων· Ἐγὼ ὁ θεὸς Ἀβραὰμ καὶ θεὸς Ἰσαὰκ καὶ θεὸς Ἰακώβ;",
+      "text_kjv": "And as touching the dead, that they rise: have ye not read in the book of Moses, how in the bush God spake unto him, saying, I am the God of Abraham, and the God of Isaac, and the God of Jacob?",
+      "rendering": "But concerning the dead being raised, have you not read in the book of Moses, in the passage about the bush, how God spoke to him, saying, 'I am the God of Abraham, and the God of Isaac, and the God of Jacob'?",
+      "translator_notes": [
+        "Jesus strategically argues from the Torah — the only portion of Scripture the Sadducees accepted as authoritative. The citation is Exodus 3:6. The reference 'in the passage about the bush' (epi tou batou) uses a method of citing Scripture by location, since there were no chapter and verse numbers. Jesus's argument is that God's use of the present tense 'I am' implies an ongoing relationship with the patriarchs — which requires their continued existence.",
+        "[TCR Cross-Reference] Quotes Exodus 3:6. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 27,
+      "text_greek": "οὐκ ἔστιν θεὸς νεκρῶν ἀλλὰ ζώντων· πολὺ πλανᾶσθε.",
+      "text_kjv": "He is not the God of the dead, but the God of the living: ye therefore do greatly err.",
+      "rendering": "He is not God of the dead but of the living. You are greatly mistaken.\"",
+      "translator_notes": [
+        "The concluding statement is emphatic: poly planasthe ('you are greatly in error'). The argument rests on the covenant relationship — if God identifies himself as the God of Abraham, Isaac, and Jacob, then those patriarchs must still exist in some meaningful sense, because God's covenant faithfulness does not terminate at death."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 28,
+      "text_greek": "Καὶ προσελθὼν εἷς τῶν γραμματέων ἀκούσας αὐτῶν συζητούντων, ἰδὼν ὅτι καλῶς ἀπεκρίθη αὐτοῖς, ἐπηρώτησεν αὐτόν· Ποία ἐστὶν ἐντολὴ πρώτη πάντων;",
+      "text_kjv": "And one of the scribes came, and having heard them reasoning together, and perceiving that he had answered them well, asked him, Which is the first commandment of all?",
+      "rendering": "One of the scribes came and heard them debating. Seeing that Jesus had answered them well, he asked him, \"Which commandment is the most important of all?\"",
+      "translator_notes": [
+        "Unlike the previous questioners, this scribe approaches with genuine interest — he has been impressed by Jesus's answers. The question about ranking commandments was a recognized topic in rabbinic discussion. Tradition counted 613 commandments in the Torah (248 positive, 365 negative), and rabbis debated which was the foundational principle."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 29,
+      "text_greek": "ἀπεκρίθη ὁ Ἰησοῦς ὅτι Πρώτη ἐστίν· Ἄκουε, Ἰσραήλ, κύριος ὁ θεὸς ἡμῶν κύριος εἷς ἐστιν,",
+      "text_kjv": "And Jesus answered him, The first of all the commandments is, Hear, O Israel; The Lord our God is one Lord:",
+      "rendering": "Jesus answered, \"The most important is: 'Hear, O Israel, the Lord our God, the Lord is one.",
+      "translator_notes": [
+        "Jesus begins with the Shema (Hebrew: 'Hear!'), from Deuteronomy 6:4, which every observant Jew recited twice daily. Only Mark includes this preamble; Matthew and Luke skip directly to the love command. By quoting the Shema, Jesus grounds the love command in monotheism — love for God is the proper response to the reality that there is only one God.",
+        "[TCR Cross-Reference] Echoes Deuteronomy 6:4. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "key_terms": [
+        {
+          "greek": "εἷς",
+          "transliteration": "heis",
+          "rendered_as": "one",
+          "semantic_range": "one, single, alone",
+          "note": "Translates the Hebrew echad ('one') from Deuteronomy 6:4. This is the foundational declaration of Jewish monotheism. The precise meaning — whether 'one' means 'alone' or 'unified' — was debated in Jewish theology."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 30,
+      "text_greek": "καὶ ἀγαπήσεις κύριον τὸν θεόν σου ἐξ ὅλης τῆς καρδίας σου καὶ ἐξ ὅλης τῆς ψυχῆς σου καὶ ἐξ ὅλης τῆς διανοίας σου καὶ ἐξ ὅλης τῆς ἰσχύος σου.",
+      "text_kjv": "And thou shalt love the Lord thy God with all thy heart, and with all thy soul, and with all thy mind, and with all thy strength: this is the first commandment.",
+      "rendering": "And you shall love the Lord your God with all your heart and with all your soul and with all your mind and with all your strength.'",
+      "translator_notes": [
+        "The fourfold formula (heart, soul, mind, strength) expands the Hebrew original in Deuteronomy 6:5, which has three terms (heart, soul, strength). The addition of 'mind' (dianoia) may reflect the Septuagint tradition or an interpretive expansion. The cumulative effect is totality — every dimension of human existence is to be oriented toward loving God.",
+        "[TCR Cross-Reference] This verse quotes Deuteronomy 6:5 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "key_terms": [
+        {
+          "greek": "ἀγαπάω",
+          "transliteration": "agapaō",
+          "rendered_as": "love",
+          "semantic_range": "love, cherish, value highly, prefer",
+          "note": "In the Septuagint, agapaō translates the Hebrew ahav, which encompasses both affection and covenant loyalty. Loving God is not merely emotional but volitional — it involves obedience, allegiance, and devotion."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 31,
+      "text_greek": "δευτέρα αὕτη· Ἀγαπήσεις τὸν πλησίον σου ὡς σεαυτόν. μείζων τούτων ἄλλη ἐντολὴ οὐκ ἔστιν.",
+      "text_kjv": "And the second is like, namely this, Thou shalt love thy neighbour as thyself. There is none other commandment greater than these.",
+      "rendering": "The second is this: 'You shall love your neighbor as yourself.' There is no other commandment greater than these.\"",
+      "translator_notes": [
+        "The neighbor command comes from Leviticus 19:18. Jesus's pairing of these two commandments — love of God and love of neighbor — was not entirely unique in Jewish tradition (cf. Testament of Issachar 5:2; Testament of Dan 5:3), but his elevation of them as the supreme summary of the law was distinctive. The phrase 'as yourself' (hōs seauton) sets self-love as the measure, not the motive, of neighbor-love.",
+        "[TCR Cross-Reference] Quotes Leviticus 19:18. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 32,
+      "text_greek": "καὶ εἶπεν αὐτῷ ὁ γραμματεύς· Καλῶς, διδάσκαλε, ἐπ' ἀληθείας εἶπες ὅτι εἷς ἐστιν καὶ οὐκ ἔστιν ἄλλος πλὴν αὐτοῦ·",
+      "text_kjv": "And the scribe said unto him, Well, Master, thou hast said the truth: for there is one God; and there is none other but he:",
+      "rendering": "The scribe said to him, \"Well said, Teacher. You have truly stated that he is one, and there is no other besides him.",
+      "translator_notes": [
+        "The scribe's affirmation is remarkable — he validates Jesus's teaching as a peer might, using the adverb kalōs ('well, rightly'). His restatement of the Shema adds the phrase 'there is no other besides him,' echoing Deuteronomy 4:35 and Isaiah 45:21.",
+        "[TCR Cross-Reference] Draws on Deuteronomy 4:35. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices.",
+        "[TCR Cross-Reference] Draws on Isaiah 45:21. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 33,
+      "text_greek": "καὶ τὸ ἀγαπᾶν αὐτὸν ἐξ ὅλης τῆς καρδίας καὶ ἐξ ὅλης τῆς συνέσεως καὶ ἐξ ὅλης τῆς ἰσχύος καὶ τὸ ἀγαπᾶν τὸν πλησίον ὡς ἑαυτὸν περισσότερόν ἐστιν πάντων τῶν ὁλοκαυτωμάτων καὶ θυσιῶν.",
+      "text_kjv": "And to love him with all the heart, and with all the understanding, and with all the soul, and with all the strength, and to love his neighbour as himself, is more than all whole burnt offerings and sacrifices.",
+      "rendering": "And to love him with all the heart and with all the understanding and with all the strength, and to love one's neighbor as oneself, is far more than all whole burnt offerings and sacrifices.\"",
+      "translator_notes": [
+        "The scribe goes beyond Jesus's statement by adding a prophetic insight: love surpasses the entire sacrificial system. This echoes 1 Samuel 15:22 ('to obey is better than sacrifice'), Hosea 6:6 ('I desire steadfast love and not sacrifice'), and Micah 6:6-8. The word holokautōmatōn ('whole burnt offerings') refers to sacrifices entirely consumed by fire — the most complete form of offering — yet even these are surpassed by love.",
+        "[TCR Cross-Reference] References 1 Samuel 15:22 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved.",
+        "[TCR Cross-Reference] References Hosea 6:6 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved.",
+        "[TCR Cross-Reference] References Micah 6:6-8 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 34,
+      "text_greek": "καὶ ὁ Ἰησοῦς ἰδὼν αὐτὸν ὅτι νουνεχῶς ἀπεκρίθη εἶπεν αὐτῷ· Οὐ μακρὰν εἶ ἀπὸ τῆς βασιλείας τοῦ θεοῦ. καὶ οὐδεὶς οὐκέτι ἐτόλμα αὐτὸν ἐπερωτῆσαι.",
+      "text_kjv": "And when Jesus saw that he answered discreetly, he said unto him, Thou art not far from the kingdom of God. And no man after that durst ask him any question.",
+      "rendering": "When Jesus saw that he answered wisely, he said to him, \"You are not far from the kingdom of God.\" And after that, no one dared to ask him any more questions.",
+      "translator_notes": [
+        "The Greek nounechōs ('wisely, thoughtfully, with understanding') is a rare word in the New Testament. Jesus's response — 'not far from the kingdom of God' — is both commendation and invitation. The scribe is close but not yet there; understanding is the threshold, but entry requires something more. The note that no one dared ask further questions marks the end of the public debate sequence that began in 11:27."
+      ],
+      "key_terms": [
+        {
+          "greek": "βασιλεία τοῦ θεοῦ",
+          "transliteration": "basileia tou theou",
+          "rendered_as": "kingdom of God",
+          "semantic_range": "kingdom, reign, rule, dominion of God",
+          "note": "Mark's characteristic phrase (where Matthew typically uses 'kingdom of heaven'). It denotes not a geographical territory but God's active reign — the sphere in which God's will is done."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 35,
+      "text_greek": "Καὶ ἀποκριθεὶς ὁ Ἰησοῦς ἔλεγεν διδάσκων ἐν τῷ ἱερῷ· Πῶς λέγουσιν οἱ γραμματεῖς ὅτι ὁ Χριστὸς υἱὸς Δαυίδ ἐστιν;",
+      "text_kjv": "And Jesus answered and said, while he taught in the temple, How say the scribes that Christ is the Son of David?",
+      "rendering": "And as Jesus taught in the temple, he said, \"How can the scribes say that the Christ is the son of David?",
+      "translator_notes": [
+        "Having silenced his questioners, Jesus now poses his own question. He does not deny that the Messiah is David's son — the genealogies in Matthew and Luke affirm this — but he challenges the assumption that Davidic descent is the whole picture. The question probes whether 'son of David' adequately captures the Messiah's identity."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 36,
+      "text_greek": "αὐτὸς Δαυὶδ εἶπεν ἐν τῷ πνεύματι τῷ ἁγίῳ· Εἶπεν κύριος τῷ κυρίῳ μου· Κάθου ἐκ δεξιῶν μου ἕως ἂν θῶ τοὺς ἐχθρούς σου ὑποκάτω τῶν ποδῶν σου.",
+      "text_kjv": "For David himself said by the Holy Ghost, The LORD said to my Lord, Sit thou on my right hand, till I make thine enemies thy footstool.",
+      "rendering": "David himself said by the Holy Spirit, 'The Lord said to my Lord, \"Sit at my right hand, until I put your enemies under your feet.\"'",
+      "translator_notes": [
+        "Jesus quotes Psalm 110:1, attributing it to David and to the inspiration of the Holy Spirit. In the Hebrew, the first 'LORD' is YHWH and the second 'my lord' is adoni — a distinction lost in Greek where kyrios covers both. The psalm envisions a figure whom David calls 'my lord' being enthroned at God's right hand. Jesus's argument: if David calls the Messiah 'my lord,' the Messiah must be more than David's descendant.",
+        "[TCR Cross-Reference] Quotes Psalms 110:1. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 37,
+      "text_greek": "αὐτὸς Δαυὶδ λέγει αὐτὸν κύριον, καὶ πόθεν αὐτοῦ ἐστιν υἱός; Καὶ ὁ πολὺς ὄχλος ἤκουεν αὐτοῦ ἡδέως.",
+      "text_kjv": "David therefore himself calleth him Lord; and whence is he then his son? And the common people heard him gladly.",
+      "rendering": "David himself calls him Lord, so how is he his son?\" And the large crowd was listening to him with delight.",
+      "translator_notes": [
+        "The question is not a denial of Davidic messiahship but an expansion of it — the Messiah is David's son and David's Lord simultaneously. The crowd's delight (hēdeōs, 'with pleasure, gladly') contrasts with the leaders' hostility. The common people enjoy seeing their leaders outmatched."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 38,
+      "text_greek": "Καὶ ἐν τῇ διδαχῇ αὐτοῦ ἔλεγεν· Βλέπετε ἀπὸ τῶν γραμματέων τῶν θελόντων ἐν στολαῖς περιπατεῖν καὶ ἀσπασμοὺς ἐν ταῖς ἀγοραῖς",
+      "text_kjv": "And he said unto them in his doctrine, Beware of the scribes, which love to go in long clothing, and love salutations in the marketplaces,",
+      "rendering": "And in his teaching he said, \"Beware of the scribes, who like to walk around in long robes and to receive greetings in the marketplaces",
+      "translator_notes": [
+        "The Greek stolais ('long robes') refers to the flowing garments that marked a person of status and learning. The desire for public greetings (aspasmous) in the marketplace reflects a culture of honor — being recognized and addressed with titles in public spaces."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 39,
+      "text_greek": "καὶ πρωτοκαθεδρίας ἐν ταῖς συναγωγαῖς καὶ πρωτοκλισίας ἐν τοῖς δείπνοις,",
+      "text_kjv": "And the chief seats in the synagogues, and the uppermost rooms at feasts:",
+      "rendering": "The prominent places in the synagogues, and the uppermost rooms at feasts:.",
+      "translator_notes": [
+        "The prōtokathedrias ('chief seats') in the synagogue were benches facing the congregation, reserved for the most respected members. The prōtoklisias ('first couches') at banquets were the reclining positions closest to the host. Both represent the social currency of religious prestige."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 40,
+      "text_greek": "οἱ κατεσθίοντες τὰς οἰκίας τῶν χηρῶν καὶ προφάσει μακρὰ προσευχόμενοι, οὗτοι λήμψονται περισσότερον κρίμα.",
+      "text_kjv": "Which devour widows' houses, and for a pretence make long prayers: these shall receive greater damnation.",
+      "rendering": "They devour widows' houses and for a pretense make lengthy prayers. They will receive greater condemnation.\"",
+      "translator_notes": [
+        "The Greek katesthiontes ('devour, consume') is vivid — these scribes are predators. 'Widows' houses' likely refers to mismanaging estates entrusted to their care or extracting excessive fees for legal or religious services. The phrase proophasei ('as a pretext, for show') exposes their prayers as performance. The 'greater condemnation' (perissoteron krima) implies degrees of judgment — those who exploit the vulnerable while performing piety bear heavier accountability. This warning about widows transitions directly into the widow's offering that follows."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 41,
+      "text_greek": "Καὶ καθίσας κατέναντι τοῦ γαζοφυλακίου ἐθεώρει πῶς ὁ ὄχλος βάλλει χαλκὸν εἰς τὸ γαζοφυλακίον· καὶ πολλοὶ πλούσιοι ἔβαλλον πολλά·",
+      "text_kjv": "And Jesus sat over against the treasury, and beheld how the people cast money into the treasury: and many that were rich cast in much.",
+      "rendering": "He sat down opposite the treasury and watched the crowd putting money into the offering box. Many rich people put in large amounts.",
+      "translator_notes": [
+        "The Greek gazophylakion ('treasury') refers to the temple collection receptacles, traditionally described as thirteen trumpet-shaped containers in the Court of Women. The verb etheōrei ('he was watching, observing') implies sustained, attentive observation — Jesus is not glancing but studying the scene."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 42,
+      "text_greek": "καὶ ἐλθοῦσα μία χήρα πτωχὴ ἔβαλεν λεπτὰ δύο, ὅ ἐστιν κοδράντης.",
+      "text_kjv": "And there came a certain poor widow, and she threw in two mites, which make a farthing.",
+      "rendering": "And a poor widow came and put in two small copper coins, which make a penny.",
+      "translator_notes": [
+        "The Greek lepta duo ('two lepta') represents the smallest denomination of currency in circulation — each lepton was worth half a quadrans (kodrantēs), the smallest Roman coin. Mark provides the Roman equivalent for his Gentile readers. The widow could have kept one coin for herself but gave both — a detail Jesus will emphasize."
+      ],
+      "key_terms": [
+        {
+          "greek": "λεπτόν",
+          "transliteration": "lepton",
+          "rendered_as": "small copper coin",
+          "semantic_range": "lepton, the smallest Greek coin, a tiny copper coin",
+          "note": "From leptos ('thin, small, fine'). Two lepta equaled one quadrans (Latin), the smallest Roman denomination. The widow's gift was economically negligible but theologically supreme."
+        }
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 43,
+      "text_greek": "καὶ προσκαλεσάμενος τοὺς μαθητὰς αὐτοῦ εἶπεν αὐτοῖς· Ἀμὴν λέγω ὑμῖν ὅτι ἡ χήρα αὕτη ἡ πτωχὴ πλεῖον πάντων ἔβαλεν τῶν βαλλόντων εἰς τὸ γαζοφυλακίον·",
+      "text_kjv": "And he called unto him his disciples, and saith unto them, Verily I say unto you, That this poor widow hath cast more in, than all they which have cast into the treasury:",
+      "rendering": "He called his disciples to him and said to them, \"Truly I say to you, this poor widow has put in more than all those contributing to the treasury.",
+      "translator_notes": [
+        "The solemn introduction 'Truly I say to you' (amēn legō hymin) marks a pronouncement of special authority. The Greek pleion pantōn ('more than all') is absolute — not 'more than most' but more than the combined total of all other givers. Jesus measures generosity not by amount but by cost."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 44,
+      "text_greek": "πάντες γὰρ ἐκ τοῦ περισσεύοντος αὐτοῖς ἔβαλον, αὕτη δὲ ἐκ τῆς ὑστερήσεως αὐτῆς πάντα ὅσα εἶχεν ἔβαλεν, ὅλον τὸν βίον αὐτῆς.",
+      "text_kjv": "For all they did cast in of their abundance; but she of her want did cast in all that she had, even all her living.",
+      "rendering": "For they all contributed out of their abundance, but she out of her poverty put in everything she had — all she had to live on.\"",
+      "translator_notes": [
+        "The contrast is between perisseuontos ('surplus, abundance') and hysterēseōs ('lack, poverty, deficiency'). The final phrase holon ton bion autēs ('her whole livelihood') is devastating — bios here means not just 'life' but 'means of living.' She gave not from surplus but from substance. Coming after the warning about scribes who devour widows' houses (v. 40), this scene may also carry an ironic edge: the temple system that should protect widows instead receives their last resources."
+      ],
+      "reading_level": "7th grade"
+    }
+  ]
+}

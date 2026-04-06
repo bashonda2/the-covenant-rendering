@@ -1,0 +1,289 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "2 Corinthians",
+    "chapter": 1,
+    "source_text": "SBL Greek New Testament (SBLGNT)",
+    "reference_text": "KJV",
+    "generated_at": "2026-04-05T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Second Corinthians opens with Paul's standard greeting from Paul and Timothy to the church at Corinth and all the saints in Achaia. Paul then launches into a deeply personal passage about affliction and comfort, recounting severe suffering he experienced in Asia that brought him to the brink of death. He frames this suffering theologically: God comforts the afflicted so they can comfort others, and the God who raises the dead is the one who delivered Paul and will deliver him again. The chapter closes with Paul defending his change of travel plans, insisting his word is not 'yes and no' but grounded in the faithfulness of God, whose promises in Christ are always 'Yes' and 'Amen.'",
+    "remarkable": "The theological density of verses 19-22 is extraordinary. In defending himself against the charge of fickleness, Paul articulates a profound theology of divine faithfulness: all God's promises find their 'Yes' in Christ, believers say 'Amen' through him, and God has sealed believers with the Holy Spirit as a guarantee (arrabōn). This Trinitarian passage — involving God the Father, Christ the Son, and the Holy Spirit — emerges not from systematic theology but from Paul's self-defense. The suffering passage (vv. 3-11) introduces the letter's central paradox: weakness and affliction are the means through which God's power and comfort are displayed.",
+    "friction": "The exact nature of Paul's affliction in Asia (v. 8) is debated — possibilities include a severe illness, a mob attack (Acts 19:23-41), or imprisonment. We translate the Greek without specifying what Paul himself leaves unspecified. The phrase 'sentence of death' (v. 9, apokrima tou thanatou) is difficult; apokrima may mean 'sentence, verdict, response' and appears only here in the New Testament. The identity of the 'brother' co-author Timothy and his role in the letter's composition is unclear.",
+    "connections": "The comfort language (paraklēsis) connects to Jesus's Beatitude ('Blessed are those who mourn, for they will be comforted,' Matthew 5:4) and to the Holy Spirit as Paraclete in John 14-16. Paul's near-death experience in Asia connects to the hardship catalogs later in the letter (4:7-12; 6:4-10; 11:23-33). The 'Yes and Amen' passage connects to Revelation 3:14, where Christ is called 'the Amen.' The arrabōn ('guarantee') of the Spirit appears again in 5:5 and Ephesians 1:14."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_greek": "Παῦλος ἀπόστολος Χριστοῦ Ἰησοῦ διὰ θελήματος θεοῦ καὶ Τιμόθεος ὁ ἀδελφὸς τῇ ἐκκλησίᾳ τοῦ θεοῦ τῇ οὔσῃ ἐν Κορίνθῳ σὺν τοῖς ἁγίοις πᾶσιν τοῖς οὖσιν ἐν ὅλῃ τῇ Ἀχαΐᾳ,",
+      "text_kjv": "Paul, an apostle of Jesus Christ by the will of God, and Timothy our brother, unto the church of God which is at Corinth, with all the saints which are in all Achaia:",
+      "rendering": "Paul, an apostle of Christ Jesus by the will of God, and Timothy our brother, to the church of God that is in Corinth, together with all the saints throughout Achaia:",
+      "translator_notes": [
+        "The SBLGNT reads 'Christ Jesus' (Christou Iēsou) rather than the KJV's 'Jesus Christ,' placing the title first. Timothy is named as co-sender but called 'the brother' (ho adelphos), not co-apostle. The address extends beyond Corinth to 'all Achaia' (the Roman province of southern Greece), suggesting a circular intent."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 2,
+      "text_greek": "χάρις ὑμῖν καὶ εἰρήνη ἀπὸ θεοῦ πατρὸς ἡμῶν καὶ κυρίου Ἰησοῦ Χριστοῦ.",
+      "text_kjv": "Grace be to you and peace from God our Father, and from the Lord Jesus Christ.",
+      "rendering": "And from the lord jesus christ, and grace be to you and peace from God our Father.",
+      "translator_notes": [
+        "Paul's standard greeting fuses the Greek salutation (chairein, modified to charis, 'grace') with the Hebrew shalom ('peace'). The coordination of 'God our Father' and 'the Lord Jesus Christ' as joint source of grace and peace reflects the high Christology operative in Paul's earliest letters."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 3,
+      "text_greek": "Εὐλογητὸς ὁ θεὸς καὶ πατὴρ τοῦ κυρίου ἡμῶν Ἰησοῦ Χριστοῦ, ὁ πατὴρ τῶν οἰκτιρμῶν καὶ θεὸς πάσης παρακλήσεως,",
+      "text_kjv": "Blessed be God, even the Father of our Lord Jesus Christ, the Father of mercies, and the God of all comfort;",
+      "rendering": "Blessed be the God and Father of our Lord Jesus Christ, the Father of mercies and God of all comfort,",
+      "translator_notes": [
+        "The opening eulogētos ('blessed') echoes the Jewish berakah (blessing formula) found in Psalms (e.g., Psalm 41:13; 72:18). The twin titles 'Father of mercies' (patēr tōn oiktirmōn) and 'God of all comfort' (theos pasēs paraklēseōs) establish the theological framework for the entire chapter. The noun paraklēsis and its cognates appear ten times in verses 3-7.",
+        "[TCR Cross-Reference] References Psalm 41:13 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "key_terms": [
+        {
+          "greek": "παράκλησις",
+          "transliteration": "paraklēsis",
+          "rendered_as": "comfort",
+          "semantic_range": "comfort, encouragement, consolation, exhortation",
+          "note": "The root parakaleō means 'to call alongside.' The noun encompasses both emotional comfort and active encouragement. It is cognate with paraklētos ('advocate, comforter'), Jesus's title for the Holy Spirit in John 14-16."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 4,
+      "text_greek": "ὁ παρακαλῶν ἡμᾶς ἐπὶ πάσῃ τῇ θλίψει ἡμῶν εἰς τὸ δύνασθαι ἡμᾶς παρακαλεῖν τοὺς ἐν πάσῃ θλίψει διὰ τῆς παρακλήσεως ἧς παρακαλούμεθα αὐτοὶ ὑπὸ τοῦ θεοῦ.",
+      "text_kjv": "Who comforteth us in all our tribulation, that we may be able to comfort them which are in any trouble, by the comfort wherewith we ourselves are comforted of God.",
+      "rendering": "Who comforts us in all our suffering, that we may be able to comfort them that are in any trouble, by the comfort by that we ourselves are receives comfort from God.",
+      "translator_notes": [
+        "The cascade of paraklēsis vocabulary in this verse creates a deliberate rhetorical effect: comfort received becomes comfort given. The Greek thlipsis ('affliction, tribulation, pressure') carries the literal sense of being crushed or pressed, which Paul will develop through the letter (4:8, 'afflicted in every way but not crushed')."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 5,
+      "text_greek": "ὅτι καθὼς περισσεύει τὰ παθήματα τοῦ Χριστοῦ εἰς ἡμᾶς, οὕτως διὰ τοῦ Χριστοῦ περισσεύει καὶ ἡ παράκλησις ἡμῶν.",
+      "text_kjv": "For as the sufferings of Christ abound in us, so our consolation also aboundeth by Christ.",
+      "rendering": "For just as the sufferings of Christ overflow to us, so also through Christ our comfort overflows.",
+      "translator_notes": [
+        "The verb perisseuei ('overflows, abounds') creates a proportional equation: suffering and comfort are both measured in terms of overflow. 'The sufferings of Christ' (ta pathēmata tou Christou) likely means sufferings endured for Christ's sake or in union with Christ, not a participation in Christ's atoning suffering."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 6,
+      "text_greek": "εἴτε δὲ θλιβόμεθα, ὑπὲρ τῆς ὑμῶν παρακλήσεως καὶ σωτηρίας· εἴτε παρακαλούμεθα, ὑπὲρ τῆς ὑμῶν παρακλήσεως τῆς ἐνεργουμένης ἐν ὑπομονῇ τῶν αὐτῶν παθημάτων ὧν καὶ ἡμεῖς πάσχομεν.",
+      "text_kjv": "And whether we be afflicted, it is for your consolation and salvation, which is effectual in the enduring of the same sufferings which we also suffer: or whether we be comforted, it is for your consolation and salvation.",
+      "rendering": "If we are afflicted, it is for your comfort and salvation; and if we are comforted, it is for your comfort, which is effective as you patiently endure the same sufferings that we also suffer.",
+      "translator_notes": [
+        "Paul's suffering is not private but vicarious — it serves the Corinthians' comfort and salvation. The participle energoumenēs ('being made effective, working') suggests that comfort produces endurance as an active, dynamic process, not merely passive consolation."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 7,
+      "text_greek": "καὶ ἡ ἐλπὶς ἡμῶν βεβαία ὑπὲρ ὑμῶν, εἰδότες ὅτι ὡς κοινωνοί ἐστε τῶν παθημάτων, οὕτως καὶ τῆς παρακλήσεως.",
+      "text_kjv": "And our hope of you is stedfast, knowing, that as ye are partakers of the sufferings, so shall ye be also of the consolation.",
+      "rendering": "And our hope for you is firm, because we know that as you share in the sufferings, so also you share in the comfort.",
+      "translator_notes": [
+        "The word koinōnoi ('partners, sharers') implies active participation, not mere sympathy. Paul's confidence (elpis bebaia, 'firm hope') rests on the theological principle that participation in suffering guarantees participation in comfort — a pattern that mirrors the death-and-resurrection logic of the gospel."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 8,
+      "text_greek": "Οὐ γὰρ θέλομεν ὑμᾶς ἀγνοεῖν, ἀδελφοί, ὑπὲρ τῆς θλίψεως ἡμῶν τῆς γενομένης ἐν τῇ Ἀσίᾳ, ὅτι καθ' ὑπερβολὴν ὑπὲρ δύναμιν ἐβαρήθημεν, ὥστε ἐξαπορηθῆναι ἡμᾶς καὶ τοῦ ζῆν·",
+      "text_kjv": "For we would not, brethren, have you ignorant of our trouble which came to us in Asia, that we were pressed out of measure, above strength, insomuch that we despaired even of life:",
+      "rendering": "For we do not want you to be unaware, brothers, of the affliction we experienced in Asia. We were burdened utterly beyond our strength, so that we despaired even of life itself.",
+      "translator_notes": [
+        "The phrase kath' hyperbolēn hyper dynamin ('utterly beyond our strength') piles prepositions to convey extremity. The verb exaporēthēnai ('to be utterly at a loss, to despair') is an intensified form found only in Paul. The exact nature of this affliction in the Roman province of Asia remains debated — possibilities include the Ephesian riot (Acts 19), an illness, or imprisonment."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 9,
+      "text_greek": "ἀλλὰ αὐτοὶ ἐν ἑαυτοῖς τὸ ἀπόκριμα τοῦ θανάτου ἐσχήκαμεν, ἵνα μὴ πεποιθότες ὦμεν ἐφ' ἑαυτοῖς ἀλλ' ἐπὶ τῷ θεῷ τῷ ἐγείροντι τοὺς νεκρούς·",
+      "text_kjv": "But we had the sentence of death in ourselves, that we should not trust in ourselves, but in God which raiseth the dead:",
+      "rendering": "Indeed, we felt that we had received the sentence of death, so that we would not rely on ourselves but on God who raises the dead.",
+      "translator_notes": [
+        "The word apokrima ('sentence, verdict, response') appears only here in the New Testament. Paul interprets his brush with death teleologically — its purpose (hina, 'so that') was to redirect his trust from himself to God. The title 'God who raises the dead' (tō theō tō egeironti tous nekrous) echoes the second benediction of the Jewish Amidah prayer, connecting Paul's personal deliverance to the God of resurrection."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 10,
+      "text_greek": "ὃς ἐκ τηλικούτου θανάτου ἐρρύσατο ἡμᾶς καὶ ῥύσεται, εἰς ὃν ἠλπίκαμεν ὅτι καὶ ἔτι ῥύσεται,",
+      "text_kjv": "Who delivered us from so great a death, and doth deliver: in whom we trust that he will yet deliver us;",
+      "rendering": "He delivered us from such a deadly peril, and he will deliver us. In him we have set our hope that he will deliver us again,",
+      "translator_notes": [
+        "The threefold repetition of rhysetai ('he will deliver') creates a past-present-future framework of divine rescue: God delivered, delivers, and will deliver. This triple temporal structure mirrors Paul's understanding of salvation as already-accomplished, presently-experienced, and not-yet-completed."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 11,
+      "text_greek": "συνυπουργούντων καὶ ὑμῶν ὑπὲρ ἡμῶν τῇ δεήσει, ἵνα ἐκ πολλῶν προσώπων τὸ εἰς ἡμᾶς χάρισμα διὰ πολλῶν εὐχαριστηθῇ ὑπὲρ ἡμῶν.",
+      "text_kjv": "Ye also helping together by prayer for us, that for the gift bestowed upon us by the means of many persons thanks may be given by many on our behalf.",
+      "rendering": "You also helping together by petition for us, that for the gift bestowed upon us by the means of numerous persons thanks may be given by numerous on our behalf.",
+      "translator_notes": [
+        "The compound verb synypourgoyntōn ('joining together in helping') emphasizes communal participation in prayer. Paul envisions a theological circuit: many pray, God grants favor (charisma), and many give thanks — creating a chain of intercession and gratitude."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 12,
+      "text_greek": "Ἡ γὰρ καύχησις ἡμῶν αὕτη ἐστίν, τὸ μαρτύριον τῆς συνειδήσεως ἡμῶν, ὅτι ἐν ἁπλότητι καὶ εἰλικρινείᾳ τοῦ θεοῦ, οὐκ ἐν σοφίᾳ σαρκικῇ ἀλλ' ἐν χάριτι θεοῦ, ἀνεστράφημεν ἐν τῷ κόσμῳ, περισσοτέρως δὲ πρὸς ὑμᾶς.",
+      "text_kjv": "For our rejoicing is this, the testimony of our conscience, that in simplicity and godly sincerity, not with fleshly wisdom, but by the grace of God, we have had our conversation in the world, and more abundantly to you-ward.",
+      "rendering": "For this is our boast: the testimony of our conscience that we conducted ourselves in the world with simplicity and godly sincerity, not by worldly wisdom but by the grace of God — and especially toward you.",
+      "translator_notes": [
+        "The word kauchēsis ('boast') is a key term in 2 Corinthians, appearing frequently as Paul defends his ministry. The SBLGNT reads haplotēti ('simplicity, sincerity') rather than the variant hagiotēti ('holiness'). The contrast between 'worldly wisdom' (sophia sarkikē) and 'the grace of God' echoes the argument of 1 Corinthians 1-2."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 13,
+      "text_greek": "οὐ γὰρ ἄλλα γράφομεν ὑμῖν ἀλλ' ἢ ἃ ἀναγινώσκετε ἢ καὶ ἐπιγινώσκετε· ἐλπίζω δὲ ὅτι ἕως τέλους ἐπιγνώσεσθε,",
+      "text_kjv": "For we write none other things unto you, than what ye read or acknowledge; and I trust ye shall acknowledge even to the end;",
+      "rendering": "For we are not writing anything to you other than what you can read and understand, and I hope you will fully understand,",
+      "translator_notes": [
+        "There is a wordplay between anaginōskete ('read') and epiginōskete ('understand, recognize') that cannot be fully captured in English. Paul is responding to accusations of hidden agendas or double-meaning in his letters. His correspondence says exactly what it means."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 14,
+      "text_greek": "καθὼς καὶ ἐπέγνωτε ἡμᾶς ἀπὸ μέρους, ὅτι καύχημα ὑμῶν ἐσμεν καθάπερ καὶ ὑμεῖς ἡμῶν ἐν τῇ ἡμέρᾳ τοῦ κυρίου ἡμῶν Ἰησοῦ.",
+      "text_kjv": "As also ye have acknowledged us in part, that we are your rejoicing, even as ye also are ours in the day of the Lord Jesus.",
+      "rendering": "As as well you possess acknowledged us in part, that we are your rejoicing, not even as you as well are ours in the time of the Lord Jesus.",
+      "translator_notes": [
+        "The phrase apo merous ('in part, partially') is a candid admission that the Corinthians' understanding of Paul is incomplete. 'The day of the Lord Jesus' refers to the eschatological judgment when all relationships and ministries will be evaluated. Mutual boasting at the final judgment is a remarkable expression of apostolic confidence."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 15,
+      "text_greek": "Καὶ ταύτῃ τῇ πεποιθήσει ἐβουλόμην πρότερον πρὸς ὑμᾶς ἐλθεῖν, ἵνα δευτέραν χάριν σχῆτε,",
+      "text_kjv": "And in this confidence I was minded to come unto you before, that ye might have a second benefit;",
+      "rendering": "And because of this confidence, I wanted to come to you first, so that you might have a second experience of grace,",
+      "translator_notes": [
+        "The word charin ('grace, benefit, gift') here refers to the blessing of an apostolic visit. Paul's original plan was to visit Corinth twice — once on the way to Macedonia and once on the return. This plan changed, prompting the accusations of fickleness that Paul addresses in the following verses."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 16,
+      "text_greek": "καὶ δι' ὑμῶν διελθεῖν εἰς Μακεδονίαν καὶ πάλιν ἀπὸ Μακεδονίας ἐλθεῖν πρὸς ὑμᾶς καὶ ὑφ' ὑμῶν προπεμφθῆναι εἰς τὴν Ἰουδαίαν.",
+      "text_kjv": "And to pass by you into Macedonia, and to come again out of Macedonia unto you, and of you to be brought on my way toward Judaea.",
+      "rendering": "I planned to visit you on my way to Macedonia, then return from Macedonia to you, and have you send me on my way to Judea.",
+      "translator_notes": [
+        "This double-visit plan differs from the single visit described in 1 Corinthians 16:5-7, where Paul planned to come only after passing through Macedonia. The verb propemphthēnai ('to be sent on one's way') implies material provision and accompaniment for travel."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 17,
+      "text_greek": "τοῦτο οὖν βουλόμενος μήτι ἄρα τῇ ἐλαφρίᾳ ἐχρησάμην; ἢ ἃ βουλεύομαι κατὰ σάρκα βουλεύομαι, ἵνα ᾖ παρ' ἐμοὶ τὸ ναὶ ναὶ καὶ τὸ οὒ οὔ;",
+      "text_kjv": "When I therefore was thus minded, did I use lightness? or the things that I purpose, do I purpose according to the flesh, that with me there should be yea yea, and nay nay?",
+      "rendering": "Was I being fickle when I intended this? Or do I make my plans according to the flesh, so that with me it is 'Yes, yes' and 'No, no' at the same time?",
+      "translator_notes": [
+        "Paul quotes his critics' accusation: that his changed plans reveal unreliability (elaphria, 'lightness, fickleness'). The phrase 'according to the flesh' (kata sarka) means making decisions by merely human calculation rather than divine guidance. The rhetorical questions expect negative answers."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 18,
+      "text_greek": "πιστὸς δὲ ὁ θεὸς ὅτι ὁ λόγος ἡμῶν ὁ πρὸς ὑμᾶς οὐκ ἔστιν ναὶ καὶ οὔ.",
+      "text_kjv": "But as God is true, our word toward you was not yea and nay.",
+      "rendering": "But as God is faithful, our word to you has not been 'Yes' and 'No.'",
+      "translator_notes": [
+        "Paul grounds the reliability of his word in the faithfulness of God (pistos ho theos). This is not merely an oath formula but a theological claim: Paul's integrity as an apostle derives from the God who sent him. The shift from defending travel plans to affirming divine faithfulness is characteristic of Paul's theological method."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 19,
+      "text_greek": "ὁ τοῦ θεοῦ γὰρ υἱὸς Ἰησοῦς Χριστὸς ὁ ἐν ὑμῖν δι' ἡμῶν κηρυχθείς, δι' ἐμοῦ καὶ Σιλουανοῦ καὶ Τιμοθέου, οὐκ ἐγένετο ναὶ καὶ οὒ ἀλλὰ ναὶ ἐν αὐτῷ γέγονεν.",
+      "text_kjv": "For the Son of God, Jesus Christ, who was preached among you by us, even by me and Silvanus and Timotheus, was not yea and nay, but in him was yea.",
+      "rendering": "For the Son of God, Jesus Christ, whom we proclaimed among you — Silvanus, Timothy, and I — was not 'Yes' and 'No,' but in him it has always been 'Yes.'",
+      "translator_notes": [
+        "Silvanus (the Latinized form of Silas) was Paul's companion on the founding mission to Corinth (Acts 18:5). The argument moves from Paul's personal reliability to Christ's cosmic reliability: if the message proclaimed is consistently 'Yes,' the messenger cannot be 'Yes and No.' Christ himself is the guarantee of Paul's truthfulness."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 20,
+      "text_greek": "ὅσαι γὰρ ἐπαγγελίαι θεοῦ, ἐν αὐτῷ τὸ ναί· διὸ καὶ δι' αὐτοῦ τὸ ἀμὴν τῷ θεῷ πρὸς δόξαν δι' ἡμῶν.",
+      "text_kjv": "For all the promises of God in him are yea, and in him Amen, unto the glory of God by us.",
+      "rendering": "For all the promises of God find their 'Yes' in him. That is why it is through him that we say our 'Amen' to God for his glory.",
+      "translator_notes": [
+        "This verse is one of the most theologically compressed statements in the Pauline corpus. Every divine promise (epangelia) reaches its fulfillment ('Yes') in Christ. The Hebrew 'Amen' ('so be it, it is certain') is the believer's response to God's 'Yes' in Christ. The liturgical setting is evident: the congregation says 'Amen' through Christ, and this corporate response glorifies God."
+      ],
+      "key_terms": [
+        {
+          "greek": "ἀμήν",
+          "transliteration": "amēn",
+          "rendered_as": "Amen",
+          "semantic_range": "truly, so be it, it is firm, it is certain",
+          "note": "A Hebrew word preserved untranslated in Greek worship. It is the congregation's affirmation of divine truth and faithfulness, here described as being spoken 'through Christ.'"
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 21,
+      "text_greek": "ὁ δὲ βεβαιῶν ἡμᾶς σὺν ὑμῖν εἰς Χριστὸν καὶ χρίσας ἡμᾶς θεός,",
+      "text_kjv": "Now he which stablisheth us with you in Christ, and hath anointed us, is God;",
+      "rendering": "And it is God who establishes us with you in Christ, and has anointed us,",
+      "translator_notes": [
+        "There is a wordplay between Christon ('Christ, Anointed One') and chrisas ('having anointed'). God establishes believers 'into Christ' and 'anoints' them — believers participate in the anointing that defines Christ himself. This verse begins a Trinitarian sequence: God (the Father) anoints, seals, and gives the Spirit."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 22,
+      "text_greek": "ὁ καὶ σφραγισάμενος ἡμᾶς καὶ δοὺς τὸν ἀρραβῶνα τοῦ πνεύματος ἐν ταῖς καρδίαις ἡμῶν.",
+      "text_kjv": "Who hath also sealed us, and given the earnest of the Spirit in our hearts.",
+      "rendering": "Who has as well sealed us, and granted the earnest of the Inner life in our hearts.",
+      "translator_notes": [
+        "The word arrabōn ('guarantee, down payment, pledge') is a commercial term borrowed from Semitic languages (Hebrew 'eravon), referring to a first installment that guarantees full payment to come. The Holy Spirit is God's down payment on the believer's full inheritance. The sealing (sphragisamenosf) metaphor draws from the ancient practice of stamping a seal on property to mark ownership."
+      ],
+      "key_terms": [
+        {
+          "greek": "ἀρραβών",
+          "transliteration": "arrabōn",
+          "rendered_as": "guarantee",
+          "semantic_range": "pledge, down payment, first installment, guarantee",
+          "note": "A Semitic loanword used in Greek commercial contracts. Paul uses it to describe the Holy Spirit as God's first installment on the full redemption still to come (cf. 5:5; Ephesians 1:14)."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 23,
+      "text_greek": "Ἐγὼ δὲ μάρτυρα τὸν θεὸν ἐπικαλοῦμαι ἐπὶ τὴν ἐμὴν ψυχήν, ὅτι φειδόμενος ὑμῶν οὐκέτι ἦλθον εἰς Κόρινθον.",
+      "text_kjv": "Moreover I call God for a record upon my soul, that to spare you I came not as yet unto Corinth.",
+      "rendering": "But I call God as witness against my soul, that it was to spare you that I did not come again to Corinth.",
+      "translator_notes": [
+        "Paul now reveals the real reason for his changed plans: he wanted to spare the Corinthians a painful confrontation. The oath formula 'I call God as witness against my soul' is the most solemn form of self-imprecation available — Paul invokes divine judgment on himself if he is lying. The verb pheidomenos ('sparing') reveals pastoral concern behind what appeared to be fickleness."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 24,
+      "text_greek": "οὐχ ὅτι κυριεύομεν ὑμῶν τῆς πίστεως ἀλλὰ συνεργοί ἐσμεν τῆς χαρᾶς ὑμῶν· τῇ γὰρ πίστει ἑστήκατε.",
+      "text_kjv": "Not for that we have dominion over your faith, but are helpers of your joy: for by faith ye stand.",
+      "rendering": "Not that we lord it over your faith, but we work together for your joy, for you stand firm in your faith.",
+      "translator_notes": [
+        "Paul immediately qualifies his authority: sparing them was not an act of domination (kyrieuomen, 'lord it over') but of partnership (synergoi, 'co-workers, fellow laborers'). The final clause — 'for you stand firm in your faith' — affirms the Corinthians' spiritual maturity even as Paul exercises apostolic care. This balance between authority and partnership runs throughout 2 Corinthians."
+      ],
+      "reading_level": "7th grade"
+    }
+  ]
+}

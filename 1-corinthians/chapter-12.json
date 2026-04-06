@@ -1,0 +1,340 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "1 Corinthians",
+    "chapter": 12,
+    "source_text": "SBL Greek New Testament (SBLGNT)",
+    "reference_text": "KJV",
+    "generated_at": "2026-04-04T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Paul addresses 'spiritual things' (pneumatika) — the gifts of the Spirit and their proper use in the community. He establishes that the fundamental confession 'Jesus is Lord' is the Spirit's work, then describes the diversity of gifts given by the one Spirit, one Lord, and one God. Using the extended metaphor of the human body, Paul argues that every member is necessary, that no one can claim superiority or independence, and that God has specially honored the weaker members. The chapter closes with a list of roles God has appointed in the church and a series of rhetorical questions emphasizing that no one has all gifts.",
+    "remarkable": "The body-of-Christ metaphor is Paul's most developed ecclesiological image. The emphasis on the 'weaker' and 'less honorable' members receiving greater honor (vv. 22-25) directly addresses Corinthian social stratification. The triad of 'Spirit, Lord, God' in verses 4-6 is one of the earliest trinitarian patterns in Christian literature. The nine gifts listed in verses 8-10 have shaped charismatic theology for centuries.",
+    "friction": "The distinction between pneumatika ('spiritual things') and charismata ('grace-gifts') in this chapter is debated — Paul may use them interchangeably or may distinguish them. The gift list is not exhaustive (cf. Romans 12:6-8 for a different list). The phrase 'varieties of tongues' (genē glōssōn) and 'interpretation of tongues' (hermēneia glōssōn) will be further discussed in chapter 14. Whether the 'body of Christ' is metaphor or ontological reality is a perennial theological question.",
+    "connections": "The body metaphor was common in Greco-Roman political rhetoric (e.g., Livy's fable of the belly) but Paul transforms it christologically. The gift lists parallel Romans 12:6-8 and Ephesians 4:11. The 'weaker members' theme connects to the weak-conscience discussion of chapters 8-10. The chapter leads directly into the love hymn of chapter 13, which provides the governing principle for all gift use."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_greek": "Περὶ δὲ τῶν πνευματικῶν, ἀδελφοί, οὐ θέλω ὑμᾶς ἀγνοεῖν.",
+      "text_kjv": "Now concerning spiritual gifts, brethren, I would not have you ignorant.",
+      "rendering": "Now concerning spiritual gifts, brothers and sisters, I do not want you to be uninformed.",
+      "translator_notes": [
+        "The phrase peri de ('now concerning') marks another response to the Corinthians' letter. The Greek pneumatikōn could be neuter ('spiritual things/gifts') or masculine ('spiritual people'). Most translations take it as neuter, referring to the gifts, though Paul may intentionally leave it ambiguous. The disclosure formula ou thelō hymas agnoein ('I do not want you to be ignorant') signals an important correction of misunderstanding."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 2,
+      "text_greek": "οἴδατε ὅτι ὅτε ἔθνη ἦτε πρὸς τὰ εἴδωλα τὰ ἄφωνα ὡς ἂν ἤγεσθε ἀπαγόμενοι.",
+      "text_kjv": "Ye know that ye were Gentiles, carried away unto these dumb idols, even as ye were led.",
+      "rendering": "You know that when you were pagans you were led astray to mute idols, however you were led.",
+      "translator_notes": [
+        "Paul reminds the Corinthians of their pre-Christian experience with idolatry. The adjective aphōna ('mute, voiceless, speechless') contrasts the silent idols with the speaking Spirit. The phrase hōs an ēgesthe apagomenoi ('however you were being led away') describes the directionless, passive experience of pagan religion — they were dragged along by forces they did not understand."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 3,
+      "text_greek": "διὸ γνωρίζω ὑμῖν ὅτι οὐδεὶς ἐν πνεύματι θεοῦ λαλῶν λέγει· ἀνάθεμα Ἰησοῦς, καὶ οὐδεὶς δύναται εἰπεῖν· κύριος Ἰησοῦς, εἰ μὴ ἐν πνεύματι ἁγίῳ.",
+      "text_kjv": "Wherefore I give you to understand, that no man speaking by the Spirit of God calleth Jesus accursed: and that no man can say that Jesus is the Lord, but by the Holy Ghost.",
+      "rendering": "Therefore I want you to understand that no one speaking by the Spirit of God says \"Jesus is cursed,\" and no one can say \"Jesus is Lord\" except by the Holy Spirit.",
+      "translator_notes": [
+        "Paul provides the foundational test for authentic spiritual experience: the confession kyrios Iēsous ('Jesus is Lord'). The phrase anathema Iēsous ('Jesus is cursed') may reflect actual occurrences in Corinthian worship where ecstatic speakers uttered shocking statements, or it may be a hypothetical extreme. The declaration that only the Holy Spirit enables the lordship confession establishes the Spirit as the source of all genuine Christian experience. This is the christological criterion for evaluating spiritual claims."
+      ],
+      "key_terms": [
+        {
+          "greek": "ἀνάθεμα",
+          "transliteration": "anathema",
+          "rendered_as": "cursed",
+          "semantic_range": "accursed, devoted to destruction, curse, ban",
+          "note": "From the Hebrew cherem — something devoted to God for destruction. To say 'Jesus is anathema' is to declare him under God's curse, the opposite of the lordship confession."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 4,
+      "text_greek": "Διαιρέσεις δὲ χαρισμάτων εἰσίν, τὸ δὲ αὐτὸ πνεῦμα·",
+      "text_kjv": "Now there are diversities of gifts, but the same Spirit.",
+      "rendering": "But the same spirit, and now there are diversities of gifts.",
+      "translator_notes": [
+        "The word diaireseis ('varieties, distributions, apportionments') emphasizes diversity within unity. The charismata ('gifts of grace') — from charis ('grace') — are the Spirit's concrete manifestations in the community. The trinitarian pattern begins: one Spirit distributes diverse gifts."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 5,
+      "text_greek": "καὶ διαιρέσεις διακονιῶν εἰσιν, καὶ ὁ αὐτὸς κύριος·",
+      "text_kjv": "And there are differences of administrations, but the same Lord.",
+      "rendering": "There are various kinds of administrations, but the same Lord.",
+      "translator_notes": [
+        "The word diakoniōn ('services, ministries') shifts from gifts to their expression in service. The 'same Lord' (ho autos kyrios) is Christ, continuing the trinitarian pattern: Spirit → gifts, Lord → service."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 6,
+      "text_greek": "καὶ διαιρέσεις ἐνεργημάτων εἰσίν, ὁ δὲ αὐτὸς θεὸς ὁ ἐνεργῶν τὰ πάντα ἐν πᾶσιν.",
+      "text_kjv": "And there are diversities of operations, but it is the same God which worketh all in all.",
+      "rendering": "There are different kinds of working, but the same God is at work in all of them and in everyone.",
+      "translator_notes": [
+        "The word energēmatōn ('workings, activities, effects') and the verb energōn ('working, empowering') share the root from which English 'energy' derives. The trinitarian pattern completes: Spirit/gifts, Lord/service, God/empowerment. The phrase ta panta en pasin ('all things in all') emphasizes God's comprehensive activity — every genuine spiritual manifestation in every person traces back to the one God."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 7,
+      "text_greek": "ἑκάστῳ δὲ δίδοται ἡ φανέρωσις τοῦ πνεύματος πρὸς τὸ συμφέρον.",
+      "text_kjv": "But the manifestation of the Spirit is given to every man to profit withal.",
+      "rendering": "To each one is given the manifestation of the Spirit for the common good.",
+      "translator_notes": [
+        "Two crucial points: first, hekastō ('to each one') — every believer receives a manifestation, not just an elite spiritual class. Second, pros to sympheron ('for the benefit, for what is advantageous') — the purpose is corporate benefit, not individual prestige. The word phanerōsis ('manifestation, disclosure, making visible') means the Spirit becomes visible through the gifts."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 8,
+      "text_greek": "ᾧ μὲν γὰρ διὰ τοῦ πνεύματος δίδοται λόγος σοφίας, ἄλλῳ δὲ λόγος γνώσεως κατὰ τὸ αὐτὸ πνεῦμα,",
+      "text_kjv": "For to one is given by the Spirit the word of wisdom; to another the word of knowledge by the same Spirit;",
+      "rendering": "For to one is given through the Spirit the utterance of wisdom, and to another the utterance of knowledge according to the same Spirit,",
+      "translator_notes": [
+        "The gift list begins with logos sophias ('word/utterance of wisdom') and logos gnōseōs ('word/utterance of knowledge'). These are not general qualities but specific Spirit-enabled capacities for speaking wisdom and knowledge in the assembly. The distinction between them is not entirely clear — wisdom may be more practical/applied while knowledge may be more revelatory/doctrinal."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 9,
+      "text_greek": "ἑτέρῳ πίστις ἐν τῷ αὐτῷ πνεύματι, ἄλλῳ δὲ χαρίσματα ἰαμάτων ἐν τῷ ἑνὶ πνεύματι,",
+      "text_kjv": "To another faith by the same Spirit; to another the gifts of healing by the same Spirit;",
+      "rendering": "to another person faith by that same Spirit, and to yet another gifts of healing by that one Spirit.",
+      "translator_notes": [
+        "The 'faith' (pistis) mentioned here is not saving faith (which all believers share) but a special gift of extraordinary trust — the kind that moves mountains (13:2). The plural charismata iamatōn ('gifts of healings') is doubly plural, suggesting diverse types of healing for diverse conditions, not a single blanket ability."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 10,
+      "text_greek": "ἄλλῳ δὲ ἐνεργήματα δυνάμεων, ἄλλῳ δὲ προφητεία, ἄλλῳ δὲ διακρίσεις πνευμάτων, ἑτέρῳ γένη γλωσσῶν, ἄλλῳ δὲ ἑρμηνεία γλωσσῶν·",
+      "text_kjv": "To another the working of miracles; to another prophecy; to another discerning of spirits; to another divers kinds of tongues; to another the interpretation of tongues:",
+      "rendering": "To another performing miracles. To another prophecy. To another distinguishing between spirits. To another speaking in various languages. To another interpreting those languages:.",
+      "translator_notes": [
+        "Five more gifts complete the list of nine. Energēmata dynameōn ('workings of powers/miracles') overlaps with healing but may include non-medical supernatural acts. Prophēteia ('prophecy') is Spirit-inspired speech that builds up the community (14:3). Diakriseis pneumatōn ('discernments of spirits') is the ability to evaluate whether a spiritual manifestation is genuinely from God. Genē glōssōn ('kinds of tongues') refers to Spirit-inspired speech in languages unknown to the speaker. Hermēneia glōssōn ('interpretation of tongues') makes tongue-speech intelligible to the community. Tongues and interpretation are placed last — possibly reflecting Paul's assessment of their relative importance in the assembly."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 11,
+      "text_greek": "πάντα δὲ ταῦτα ἐνεργεῖ τὸ ἓν καὶ τὸ αὐτὸ πνεῦμα διαιροῦν ἰδίᾳ ἑκάστῳ καθὼς βούλεται.",
+      "text_kjv": "But all these worketh that one and the selfsame Spirit, dividing to every man severally as he will.",
+      "rendering": "All these are empowered by one and the same Spirit, who distributes to each person individually as the Spirit wills.",
+      "translator_notes": [
+        "The summary statement reaffirms unity in diversity: to hen kai to auto pneuma ('the one and the same Spirit') is the single source of all gifts. The phrase kathōs bouletai ('as he wills') assigns sovereignty to the Spirit — gifts are not earned, chosen, or competed for but distributed according to the Spirit's own decision. This directly undercuts any Corinthian hierarchy of gifts."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 12,
+      "text_greek": "Καθάπερ γὰρ τὸ σῶμα ἕν ἐστιν καὶ μέλη πολλὰ ἔχει, πάντα δὲ τὰ μέλη τοῦ σώματος πολλὰ ὄντα ἕν ἐστιν σῶμα, οὕτως καὶ ὁ Χριστός.",
+      "text_kjv": "For as the body is one, and hath many members, and all the members of that one body, being many, are one body: so also is Christ.",
+      "rendering": "For just as the body is one and has many members, and all the members of the body, though many, are one body — so it is with Christ.",
+      "translator_notes": [
+        "The body metaphor was familiar in Greco-Roman rhetoric, but Paul's conclusion is startling: instead of saying 'so it is with the church,' he says houtōs kai ho Christos ('so also is Christ'). The church does not merely resemble a body — it is Christ's body. The identification is ontological, not merely illustrative."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 13,
+      "text_greek": "καὶ γὰρ ἐν ἑνὶ πνεύματι ἡμεῖς πάντες εἰς ἓν σῶμα ἐβαπτίσθημεν, εἴτε Ἰουδαῖοι εἴτε Ἕλληνες εἴτε δοῦλοι εἴτε ἐλεύθεροι, καὶ πάντες ἓν πνεῦμα ἐποτίσθημεν.",
+      "text_kjv": "For by one Spirit are we all baptized into one body, whether we be Jews or Gentiles, whether we be bond or free; and have been all made to drink into one Spirit.",
+      "rendering": "For in one Spirit we were all baptized into one body — Jews or Greeks, slaves or free — and we were all given one Spirit to drink.",
+      "translator_notes": [
+        "Baptism by the Spirit creates the one body, transcending the most fundamental social divisions of the ancient world: ethnic (Jews/Greeks) and status (slaves/free). The verb epotisthēmen ('we were given to drink, we were drenched') may refer to the Spirit's infilling as a baptismal experience (being immersed) or to the ongoing experience of the Spirit as spiritual drink (echoing 10:4, drinking from the spiritual rock). Both images — baptism and drinking — convey saturation in the Spirit."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 14,
+      "text_greek": "καὶ γὰρ τὸ σῶμα οὐκ ἔστιν ἓν μέλος ἀλλὰ πολλά.",
+      "text_kjv": "For the body is not one member, but many.",
+      "rendering": "For the body does not consist of one member but of many.",
+      "translator_notes": [
+        "This simple statement introduces the extended body analogy (vv. 14-26). A body that was only one part would not be a body at all. The implication: a church where everyone has the same gift or speaks in tongues is not truly functioning as Christ's body."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 15,
+      "text_greek": "ἐὰν εἴπῃ ὁ πούς· ὅτι οὐκ εἰμὶ χείρ, οὐκ εἰμὶ ἐκ τοῦ σώματος, οὐ παρὰ τοῦτο οὐκ ἔστιν ἐκ τοῦ σώματος.",
+      "text_kjv": "If the foot shall say, Because I am not the hand, I am not of the body; is it therefore not of the body?",
+      "rendering": "If the foot should say, \"Because I am not a hand, I do not belong to the body,\" that does not make it any less a part of the body.",
+      "translator_notes": [
+        "Paul personifies body parts to address those who feel excluded because their gifts seem less impressive. The foot's self-exclusion ('I am not a hand') is absurd — one's identity as a body member does not depend on having a particular function. This addresses believers who feel inferior because they do not speak in tongues or exercise more visible gifts."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 16,
+      "text_greek": "καὶ ἐὰν εἴπῃ τὸ οὖς· ὅτι οὐκ εἰμὶ ὀφθαλμός, οὐκ εἰμὶ ἐκ τοῦ σώματος, οὐ παρὰ τοῦτο οὐκ ἔστιν ἐκ τοῦ σώματος.",
+      "text_kjv": "And if the ear shall say, Because I am not the eye, I am not of the body; is it therefore not of the body?",
+      "rendering": "And if the ear should say, \"Because I am not an eye, I do not belong to the body,\" that does not make it any less a part of the body.",
+      "translator_notes": [
+        "The second example reinforces the point with a different pair: ear and eye. The logic is the same — difference of function does not diminish membership."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 17,
+      "text_greek": "εἰ ὅλον τὸ σῶμα ὀφθαλμός, ποῦ ἡ ἀκοή; εἰ ὅλον ἀκοή, ποῦ ἡ ὄσφρησις;",
+      "text_kjv": "If the whole body were an eye, where were the hearing? If the whole were hearing, where were the smelling?",
+      "rendering": "If the whole body were an eye, where would the sense of hearing be? If the whole body were an ear, where would the sense of smell be?",
+      "translator_notes": [
+        "Paul uses absurdist humor: a body that was entirely an eye could see everything but hear nothing. The Corinthians' obsession with one spectacular gift (likely tongues) would produce a monstrously dysfunctional body. Diversity is not a concession to weakness but a design requirement."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 18,
+      "text_greek": "νυνὶ δὲ ὁ θεὸς ἔθετο τὰ μέλη, ἓν ἕκαστον αὐτῶν, ἐν τῷ σώματι καθὼς ἠθέλησεν.",
+      "text_kjv": "But now hath God set the members every one of them in the body, as it hath pleased him.",
+      "rendering": "But as it is, God arranged the members in the body, each one of them, as he chose.",
+      "translator_notes": [
+        "The verb etheto ('placed, arranged, appointed') assigns the body's design to God's deliberate choice (kathōs ēthelēsen, 'as he wished'). No member chose its own placement, and no member can claim its position is accidental. This parallels the Spirit's sovereignty in distributing gifts (v. 11)."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 19,
+      "text_greek": "εἰ δὲ ἦν τὰ πάντα ἓν μέλος, ποῦ τὸ σῶμα;",
+      "text_kjv": "And if they were all one member, where were the body?",
+      "rendering": "If all were a single member, where would the body be?",
+      "translator_notes": [
+        "The question is rhetorical — a body that is all one part is not a body. Uniformity destroys the very thing it claims to perfect."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 20,
+      "text_greek": "νῦν δὲ πολλὰ μὲν μέλη, ἓν δὲ σῶμα.",
+      "text_kjv": "But now are they many members, yet but one body.",
+      "rendering": "As it is, there are many members but one body.",
+      "translator_notes": [
+        "The summary statement: polla men melē, hen de sōma ('many members, one body'). Unity and diversity are not in tension — they are the two essential characteristics of a body."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 21,
+      "text_greek": "οὐ δύναται δὲ ὁ ὀφθαλμὸς εἰπεῖν τῇ χειρί· χρείαν σου οὐκ ἔχω, ἢ πάλιν ἡ κεφαλὴ τοῖς ποσίν· χρείαν ὑμῶν οὐκ ἔχω.",
+      "text_kjv": "And the eye cannot say unto the hand, I have no need of thee: nor again the head to the feet, I have no need of you.",
+      "rendering": "The eye cannot say to the hand, \"I have no need of you,\" nor again the head to the feet, \"I have no need of you.\"",
+      "translator_notes": [
+        "Paul now addresses the opposite problem: not those who feel excluded but those who exclude others. The 'eye' and 'head' — presumably the more prominent members who possess impressive gifts — cannot dismiss the 'hand' and 'feet' as unnecessary. If verses 15-16 address inferiority, verses 21-25 address superiority."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 22,
+      "text_greek": "ἀλλὰ πολλῷ μᾶλλον τὰ δοκοῦντα μέλη τοῦ σώματος ἀσθενέστερα ὑπάρχειν ἀναγκαῖά ἐστιν,",
+      "text_kjv": "Nay, much more those members of the body, which seem to be more feeble, are necessary:",
+      "rendering": "On the contrary, the parts of the body that seem to be weaker are indispensable,",
+      "translator_notes": [
+        "The word asthenestera ('weaker') echoes the 'weak' members of chapters 8-10. Paul now makes a counterintuitive claim: the ta dokounta melē ('the members that seem') weaker are actually anankaia ('necessary, indispensable'). Internal organs — invisible and seemingly fragile — are more essential to survival than external, visible parts."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 23,
+      "text_greek": "καὶ ἃ δοκοῦμεν ἀτιμότερα εἶναι τοῦ σώματος, τούτοις τιμὴν περισσοτέραν περιτίθεμεν, καὶ τὰ ἀσχήμονα ἡμῶν εὐσχημοσύνην περισσοτέραν ἔχει,",
+      "text_kjv": "And those members of the body, which we think to be less honourable, upon these we bestow more abundant honour; and our uncomely parts have more abundant comeliness.",
+      "rendering": "The parts of the body that seem less important we treat with special honor, and our less presentable parts receive a dignity that our more attractive parts do not need.",
+      "translator_notes": [
+        "The metaphor extends to how we treat body parts: those considered 'less honorable' (atimōtera) receive more covering and attention — we clothe them with greater honor (timēn perissoterein). The 'unpresentable parts' (ta aschēmona) are given euschēmosynēn ('presentability, propriety'). Paul implies the community should operate the same way: those with less visible gifts should receive greater honor."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 24,
+      "text_greek": "τὰ δὲ εὐσχήμονα ἡμῶν οὐ χρείαν ἔχει. ἀλλ' ὁ θεὸς συνεκέρασεν τὸ σῶμα τῷ ὑστερουμένῳ περισσοτέραν δοὺς τιμήν,",
+      "text_kjv": "For our comely parts have no need: but God hath tempered the body together, having given more abundant honour to that part which lacked:",
+      "rendering": "For our comely parts possess no need — but God has tempered the body as one, possessing granted more abundant honour to that part which lacked:.",
+      "translator_notes": [
+        "The verb synekerasen ('composed, blended, combined') describes God as the master designer who deliberately structured the body so that the less honored receive more. This is divine social engineering against hierarchy — God's own design favors the disadvantaged."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 25,
+      "text_greek": "ἵνα μὴ ᾖ σχίσμα ἐν τῷ σώματι ἀλλ' ὑπὲρ ἀλλήλων μεριμνῶσιν τὰ μέλη.",
+      "text_kjv": "That there should be no schism in the body; but that the members should have the same care one for another.",
+      "rendering": "so that there would be no division in the body, but instead every part would show equal concern for the others.",
+      "translator_notes": [
+        "The purpose of God's design: hina mē ē schisma en tō sōmati ('so that there may be no schism/division in the body'). The word schisma returns from 1:10 and 11:18 — the body metaphor is Paul's answer to the division problem that has plagued the entire letter. The positive counterpart: hyper allēlōn merimnōsin ('they may care for one another equally')."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 26,
+      "text_greek": "καὶ εἴτε πάσχει ἓν μέλος, συμπάσχει πάντα τὰ μέλη· εἴτε δοξάζεται ἓν μέλος, συγχαίρει πάντα τὰ μέλη.",
+      "text_kjv": "And whether one member suffer, all the members suffer with it; or one member be honoured, all the members rejoice with it.",
+      "rendering": "If one member suffers, all suffer together with it; if one member is honored, all rejoice together with it.",
+      "translator_notes": [
+        "The body's interdependence manifests in shared experience: sympathy (sympaschei, 'suffer with') and shared joy (synchairei, 'rejoice with'). The prefix syn- ('with, together') appears in both verbs, emphasizing solidarity. A church where some celebrate while others suffer is as dysfunctional as a body where one hand is healthy while the other is paralyzed."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 27,
+      "text_greek": "ὑμεῖς δέ ἐστε σῶμα Χριστοῦ καὶ μέλη ἐκ μέρους.",
+      "text_kjv": "Now ye are the body of Christ, and members in particular.",
+      "rendering": "Now you are the body of Christ, and individually members of it.",
+      "translator_notes": [
+        "The application is direct: hymeis de este sōma Christou ('you are Christ's body'). The phrase melē ek merous ('members from a part,' i.e., 'individually members') preserves both the corporate identity (you are the body) and individual significance (each person is a member). The Corinthians are not merely like a body — they are Christ's actual body in Corinth."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 28,
+      "text_greek": "καὶ οὓς μὲν ἔθετο ὁ θεὸς ἐν τῇ ἐκκλησίᾳ πρῶτον ἀποστόλους, δεύτερον προφήτας, τρίτον διδασκάλους, ἔπειτα δυνάμεις, ἔπειτα χαρίσματα ἰαμάτων, ἀντιλήμψεις, κυβερνήσεις, γένη γλωσσῶν.",
+      "text_kjv": "And God hath set some in the church, first apostles, secondarily prophets, thirdly teachers, after that miracles, then gifts of healings, helps, governments, diversities of tongues.",
+      "rendering": "And God has appointed in the church first apostles, second prophets, third teachers, then miracles, then gifts of healing, forms of assistance, forms of leadership, and various kinds of tongues.",
+      "translator_notes": [
+        "This second list is ordered with numerical markers (prōton, deuteron, triton — 'first, second, third'), suggesting a ranking by importance. Apostles, prophets, and teachers are foundational roles. Then come miracles and healing (gifts from vv. 9-10), followed by two new items: antilēmpseis ('acts of helping, forms of assistance') and kybernēseis ('acts of guidance, forms of leadership/administration' — from the word for steering a ship). Tongues appear last — pointedly, given the Corinthians' apparent elevation of this gift."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 29,
+      "text_greek": "μὴ πάντες ἀπόστολοι; μὴ πάντες προφῆται; μὴ πάντες διδάσκαλοι; μὴ πάντες δυνάμεις;",
+      "text_kjv": "Are all apostles? are all prophets? are all teachers? are all workers of miracles?",
+      "rendering": "Is everyone an apostle? Is everyone a prophet? Is everyone a teacher? Does everyone perform miracles?",
+      "translator_notes": [
+        "Seven rhetorical questions, all introduced by mē (expecting a 'no' answer). The point is inescapable: no one has all gifts, and not everyone has the same gift. The Corinthian assumption that everyone should speak in tongues is demolished."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 30,
+      "text_greek": "μὴ πάντες χαρίσματα ἔχουσιν ἰαμάτων; μὴ πάντες γλώσσαις λαλοῦσιν; μὴ πάντες διερμηνεύουσιν;",
+      "text_kjv": "Have all the gifts of healing? do all speak with tongues? do all interpret?",
+      "rendering": "Do all possess gifts of healing? Do all speak in tongues? Do all interpret?",
+      "translator_notes": [
+        "The final three questions specifically target the gifts the Corinthians most prized: healing, tongues, and interpretation. The implied answer to each is emphatically 'no.' The diversity that Paul has celebrated is not optional but divinely mandated."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 31,
+      "text_greek": "ζηλοῦτε δὲ τὰ χαρίσματα τὰ μείζονα. Καὶ ἔτι καθ' ὑπερβολὴν ὁδὸν ὑμῖν δείκνυμι.",
+      "text_kjv": "But covet earnestly the best gifts: and yet shew I unto you a more excellent way.",
+      "rendering": "But earnestly desire the greater gifts. And I will show you a still more excellent way.",
+      "translator_notes": [
+        "The imperative zēloute ('earnestly desire, strive for') could also be indicative ('you are striving for') — if indicative, Paul is observing their behavior rather than commanding it. The phrase kath' hyperbolēn hodon ('a way beyond all comparison') introduces chapter 13 — the 'more excellent way' is the way of love. This is one of the most celebrated transitions in all of Paul's letters: from the gifts of the Spirit to the supremacy of love."
+      ],
+      "reading_level": "7th grade"
+    }
+  ]
+}

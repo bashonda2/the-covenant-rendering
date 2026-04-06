@@ -1,0 +1,672 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Luke",
+    "chapter": 8,
+    "source_text": "SBL Greek New Testament (SBLGNT)",
+    "reference_text": "KJV",
+    "generated_at": "2026-04-05T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Luke 8 opens with a summary of Jesus's itinerant ministry, naming the women who supported it financially. Jesus teaches the Parable of the Sower, explaining how different responses to God's word yield different outcomes. He then redefines family around obedience to God's word. Three dramatic miracles follow in rapid succession: Jesus calms a violent storm on the Sea of Galilee, delivers the Gerasene demoniac from a 'Legion' of unclean spirits, and — in an interwoven double narrative — heals a woman with a twelve-year hemorrhage while raising Jairus's twelve-year-old daughter from death.",
+    "remarkable": "The named women in verses 1-3 are extraordinary in ancient literature: Mary Magdalene, Joanna (wife of Herod's steward Chuza), and Susanna are identified as financial patrons of Jesus's mission. Luke alone preserves this detail, showing that the movement was funded by women of means. The Gerasene demoniac episode is the most detailed exorcism in the Gospels, with the demons self-identifying as 'Legion' — a Roman military term carrying political undertones in occupied Palestine. The sandwiched miracle stories of Jairus's daughter and the hemorrhaging woman share the number twelve, linking the girl's age with the woman's years of suffering and creating a literary frame of restoration.",
+    "friction": "The Gerasene/Gadarene/Gergesene location varies across manuscripts; the SBLGNT reads Gerasenes (Gerasenon). The herd of pigs raises questions about property destruction and Gentile territory. We render the Greek as given without harmonizing with the Markan or Matthean parallels. The phrase 'your faith has saved you' (he pistis sou sesoken se) in verse 48 uses sozo, which means both 'save' and 'heal' — a double meaning impossible to capture in a single English word.",
+    "connections": "The Parable of the Sower parallels Mark 4:1-20 and Matthew 13:1-23. The storm narrative echoes Psalm 107:23-30 and Jonah 1. The demoniac episode parallels Mark 5:1-20. The Jairus/hemorrhage double story parallels Mark 5:21-43. The women patrons anticipate the women at the cross and tomb (Luke 23:49, 55; 24:1-10)."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_greek": "Καὶ ἐγένετο ἐν τῷ καθεξῆς καὶ αὐτὸς διώδευεν κατὰ πόλιν καὶ κώμην κηρύσσων καὶ εὐαγγελιζόμενος τὴν βασιλείαν τοῦ θεοῦ καὶ οἱ δώδεκα σὺν αὐτῷ,",
+      "text_kjv": "And it came to pass afterward, that he went throughout every city and village, preaching and shewing the glad tidings of the kingdom of God: and the twelve were with him,",
+      "rendering": "Soon afterward, he traveled through every city and village, proclaiming and announcing the good news of the kingdom of God, and the twelve were with him,",
+      "translator_notes": [
+        "The phrase euangelizomenos ten basileian tou theou ('announcing the good news of the kingdom of God') combines two verbs of proclamation — kerusson ('heralding') and euangelizomenos ('bringing good news'). Luke emphasizes the content of Jesus's preaching: the kingdom of God, not merely moral teaching."
+      ],
+      "key_terms": [
+        {
+          "greek": "βασιλεία τοῦ θεοῦ",
+          "transliteration": "basileia tou theou",
+          "rendered_as": "kingdom of God",
+          "semantic_range": "kingdom, reign, rule, dominion of God",
+          "note": "Luke consistently uses 'kingdom of God' where Matthew typically has 'kingdom of heaven.' The phrase denotes God's active reign breaking into the present, not merely a future realm."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 2,
+      "text_greek": "καὶ γυναῖκές τινες αἳ ἦσαν τεθεραπευμέναι ἀπὸ πνευμάτων πονηρῶν καὶ ἀσθενειῶν, Μαρία ἡ καλουμένη Μαγδαληνή, ἀφ' ἧς δαιμόνια ἑπτὰ ἐξεληλύθει,",
+      "text_kjv": "And certain women, which had been healed of evil spirits and infirmities, Mary called Magdalene, out of whom went seven devils,",
+      "rendering": "Specific women, which had been healed of evil spirits and infirmities, Mary called Magdalene, out of whom traveled seven devils,.",
+      "translator_notes": [
+        "Mary Magdalene is named first among the women, indicating her prominence. The 'seven demons' (daimonia hepta) denotes the severity of her former affliction, not moral failing — the text says nothing about sexual sin, a later tradition without biblical basis. 'Magdalene' identifies her hometown of Magdala on the western shore of the Sea of Galilee."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 3,
+      "text_greek": "καὶ Ἰωάννα γυνὴ Χουζᾶ ἐπιτρόπου Ἡρῴδου καὶ Σουσάννα καὶ ἕτεραι πολλαί, αἵτινες διηκόνουν αὐτοῖς ἐκ τῶν ὑπαρχόντων αὐταῖς.",
+      "text_kjv": "And Joanna the wife of Chuza Herod's steward, and Susanna, and many others, which ministered unto him of their substance.",
+      "rendering": "Joanna the wife of Chuza Herod's manager, and Susanna, and numerous others, which served him of their substance.",
+      "translator_notes": [
+        "The verb diekonoun ('were serving, providing for') is the root of 'deacon/ministry.' These women were not passive followers but active financial supporters. Joanna's connection to Herod's court (Chuza was epitropos, a household manager or steward) means Jesus's movement had sympathizers within the ruling elite. Luke alone preserves this remarkable social detail."
+      ],
+      "key_terms": [
+        {
+          "greek": "διακονέω",
+          "transliteration": "diakoneō",
+          "rendered_as": "providing for",
+          "semantic_range": "to serve, minister, provide for, wait on",
+          "note": "The word encompasses both practical service and financial support. Here the context (ek ton hyparchonton autais, 'out of their own possessions') makes the financial sense primary."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 4,
+      "text_greek": "Συνιόντος δὲ ὄχλου πολλοῦ καὶ τῶν κατὰ πόλιν ἐπιπορευομένων πρὸς αὐτὸν εἶπεν διὰ παραβολῆς·",
+      "text_kjv": "And when much people were gathered together, and were come to him out of every city, he spake by a parable:",
+      "rendering": "When a large crowd was gathering and people from every town were coming to him, he spoke by means of a parable:",
+      "translator_notes": [
+        "The phrase dia parabolees ('by means of a parable') introduces Luke's version of the Sower. Luke compresses the parable material compared to Mark 4, but retains the core teaching about receptivity to God's word."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 5,
+      "text_greek": "Ἐξῆλθεν ὁ σπείρων τοῦ σπεῖραι τὸν σπόρον αὐτοῦ. καὶ ἐν τῷ σπείρειν αὐτὸν ὃ μὲν ἔπεσεν παρὰ τὴν ὁδόν, καὶ κατεπατήθη καὶ τὰ πετεινὰ τοῦ οὐρανοῦ κατέφαγεν αὐτό.",
+      "text_kjv": "A sower went out to sow his seed: and as he sowed, some fell by the way side; and it was trodden down, and the fowls of the air devoured it.",
+      "rendering": "\"A sower went out to sow his seed. And as he sowed, some fell along the path and was trampled underfoot, and the birds of the sky devoured it.",
+      "translator_notes": [
+        "Luke adds the detail that the seed was 'trampled underfoot' (katepatethee), absent from Mark and Matthew. The sower broadcasts seed across all types of ground — ancient Palestinian farming practice involved sowing before plowing, so the different soil types would not yet be visible."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 6,
+      "text_greek": "καὶ ἕτερον κατέπεσεν ἐπὶ τὴν πέτραν, καὶ φυὲν ἐξηράνθη διὰ τὸ μὴ ἔχειν ἰκμάδα.",
+      "text_kjv": "And some fell upon a rock; and as soon as it was sprung up, it withered away, because it lacked moisture.",
+      "rendering": "Other seed fell on rock, and when it grew up, it withered because it had no moisture.",
+      "translator_notes": [
+        "Luke uses ikmada ('moisture') where Mark has 'depth of earth' and 'root' — a slight difference in imagery but the same agricultural reality: thin soil over limestone bedrock, common in Palestine, allows quick germination but no sustained growth."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 7,
+      "text_greek": "καὶ ἕτερον ἔπεσεν ἐν μέσῳ τῶν ἀκανθῶν, καὶ συμφυεῖσαι αἱ ἄκανθαι ἀπέπνιξαν αὐτό.",
+      "text_kjv": "And some fell among thorns; and the thorns sprang up with it, and choked it.",
+      "rendering": "Other seed fell among thorns, and the thorns grew up with it and choked it.",
+      "translator_notes": [
+        "The verb apepnixan ('choked, strangled') is vivid — the thorns do not merely crowd the grain but suffocate it. Luke's symphueisai ('growing up together with') emphasizes that the competing growth was simultaneous."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 8,
+      "text_greek": "καὶ ἕτερον ἔπεσεν εἰς τὴν γῆν τὴν ἀγαθήν, καὶ φυὲν ἐποίησεν καρπὸν ἑκατονταπλασίονα. ταῦτα λέγων ἐφώνει· Ὁ ἔχων ὦτα ἀκούειν ἀκουέτω.",
+      "text_kjv": "And other fell on good ground, and sprang up, and bare fruit an hundredfold. And when he had said these things, he cried, He that hath ears to hear, let him hear.",
+      "rendering": "And other seed fell into good soil, and when it grew up, it produced fruit a hundredfold.\" As he said these things, he called out, \"The one who has ears to hear, let him hear.\"",
+      "translator_notes": [
+        "Luke simplifies to a single yield — 'a hundredfold' (hekatontaplasiona) — whereas Mark gives thirty, sixty, and a hundredfold. A hundredfold yield was extraordinary in ancient agriculture, where tenfold was typical. The closing formula 'the one who has ears to hear' signals that the parable demands active interpretation."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 9,
+      "text_greek": "Ἐπηρώτων δὲ αὐτὸν οἱ μαθηταὶ αὐτοῦ τίς αὕτη εἴη ἡ παραβολή.",
+      "text_kjv": "And his disciples asked him, saying, What might this parable be?",
+      "rendering": "Then his disciples asked him what this parable meant.",
+      "translator_notes": [
+        "Luke's version is simpler than Mark's, where the disciples ask about parables in general. Here they ask specifically about this parable's meaning."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 10,
+      "text_greek": "ὁ δὲ εἶπεν· Ὑμῖν δέδοται γνῶναι τὰ μυστήρια τῆς βασιλείας τοῦ θεοῦ, τοῖς δὲ λοιποῖς ἐν παραβολαῖς, ἵνα βλέποντες μὴ βλέπωσιν καὶ ἀκούοντες μὴ συνιῶσιν.",
+      "text_kjv": "And he said, Unto you it is given to know the mysteries of the kingdom of God: but to others in parables; that seeing they might not see, and hearing they might not understand.",
+      "rendering": "He said, \"To you it has been given to know the mysteries of the kingdom of God, but to the rest they are given in parables, so that seeing they may not see, and hearing they may not understand.",
+      "translator_notes": [
+        "The word mysteria ('mysteries') does not mean puzzles but divine secrets now being revealed to insiders. The Isaiah 6:9-10 allusion ('seeing they may not see') raises the difficult question of whether parables conceal or reveal — Luke softens Mark's harder formulation but retains the tension between revelation and hiddenness.",
+        "[TCR Cross-Reference] This verse quotes Isaiah 6:9-10 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "key_terms": [
+        {
+          "greek": "μυστήριον",
+          "transliteration": "mystērion",
+          "rendered_as": "mysteries",
+          "semantic_range": "mystery, secret, hidden purpose",
+          "note": "In biblical usage, a mystērion is not something unknowable but something previously hidden that God now reveals. The plural here suggests the kingdom of God has multiple dimensions of meaning."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 11,
+      "text_greek": "Ἔστιν δὲ αὕτη ἡ παραβολή· Ὁ σπόρος ἐστὶν ὁ λόγος τοῦ θεοῦ.",
+      "text_kjv": "Now the parable is this: The seed is the word of God.",
+      "rendering": "Now the parable is this — The seed is the message of God.",
+      "translator_notes": [
+        "Luke identifies the seed as ho logos tou theou ('the word of God'), where Mark has simply 'the word.' Luke's version makes the divine origin of the message explicit."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 12,
+      "text_greek": "οἱ δὲ παρὰ τὴν ὁδόν εἰσιν οἱ ἀκούσαντες, εἶτα ἔρχεται ὁ διάβολος καὶ αἴρει τὸν λόγον ἀπὸ τῆς καρδίας αὐτῶν, ἵνα μὴ πιστεύσαντες σωθῶσιν.",
+      "text_kjv": "Those by the way side are they that hear; then cometh the devil, and taketh away the word out of their hearts, lest they should believe and be saved.",
+      "rendering": "The ones along the path are those who have heard; then the devil comes and takes away the word from their hearts, so that they may not believe and be saved.",
+      "translator_notes": [
+        "Luke alone adds the purpose clause 'so that they may not believe and be saved' (hina mee pisteusantes sothōsin), making explicit what Mark leaves implicit: the stakes of receptivity to the word are salvation itself. Luke uses 'the devil' (ho diabolos) where Mark has 'Satan.'"
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 13,
+      "text_greek": "οἱ δὲ ἐπὶ τῆς πέτρας οἳ ὅταν ἀκούσωσιν μετὰ χαρᾶς δέχονται τὸν λόγον, καὶ οὗτοι ῥίζαν οὐκ ἔχουσιν, οἳ πρὸς καιρὸν πιστεύουσιν καὶ ἐν καιρῷ πειρασμοῦ ἀφίστανται.",
+      "text_kjv": "They on the rock are they, which, when they hear, receive the word with joy; and these have no root, which for a while believe, and in time of temptation fall away.",
+      "rendering": "The ones on the rock are those who, when they hear, receive the word with joy. But these have no root; they believe for a time, and in a season of testing they fall away.",
+      "translator_notes": [
+        "Luke uses peirasmos ('testing, trial, temptation') where Mark has 'tribulation or persecution' — a broader term that encompasses both external persecution and internal spiritual trial. The verb aphistantai ('they fall away, withdraw') is the root of 'apostasy.'"
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 14,
+      "text_greek": "τὸ δὲ εἰς τὰς ἀκάνθας πεσόν, οὗτοί εἰσιν οἱ ἀκούσαντες, καὶ ὑπὸ μεριμνῶν καὶ πλούτου καὶ ἡδονῶν τοῦ βίου πορευόμενοι συμπνίγονται καὶ οὐ τελεσφοροῦσιν.",
+      "text_kjv": "And that which fell among thorns are they, which, when they have heard, go forth, and are choked with cares and riches and pleasures of this life, and bring no fruit to perfection.",
+      "rendering": "As for what fell among the thorns, these are the ones who hear, but as they go on their way they are choked by the worries and riches and pleasures of life, and they do not bring fruit to maturity.",
+      "translator_notes": [
+        "Luke adds hēdonōn ('pleasures') to the thorns' identification — worries, riches, and pleasures form a three-pronged threat. The verb telesophorousin ('bring to maturity, bring to completion') is unique to Luke's version and implies that fruit-bearing requires sustained growth, not merely initial response."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 15,
+      "text_greek": "τὸ δὲ ἐν τῇ καλῇ γῇ, οὗτοί εἰσιν οἵτινες ἐν καρδίᾳ καλῇ καὶ ἀγαθῇ ἀκούσαντες τὸν λόγον κατέχουσιν καὶ καρποφοροῦσιν ἐν ὑπομονῇ.",
+      "text_kjv": "But that on the good ground are they, which in an honest and good heart, having heard the word, keep it, and bring forth fruit with patience.",
+      "rendering": "But as for that in the good soil, these are the ones who, having heard the word, hold it fast in an honest and good heart, and bear fruit with endurance.",
+      "translator_notes": [
+        "The phrase kardia kalē kai agathē ('an honest and good heart') echoes Greek moral vocabulary — kalos kai agathos was the classical Greek ideal of nobility. Luke may be adapting the parable for a Hellenistic audience. The word hypomonē ('endurance, patient steadfastness') is a key virtue in Luke-Acts, emphasizing that fruitfulness requires perseverance."
+      ],
+      "key_terms": [
+        {
+          "greek": "ὑπομονή",
+          "transliteration": "hypomonē",
+          "rendered_as": "endurance",
+          "semantic_range": "endurance, patience, steadfastness, perseverance",
+          "note": "More than passive waiting — hypomonē is active, courageous persistence under pressure. It is the distinguishing mark of the good-soil hearer."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 16,
+      "text_greek": "Οὐδεὶς δὲ λύχνον ἅψας καλύπτει αὐτὸν σκεύει ἢ ὑποκάτω κλίνης τίθησιν, ἀλλ' ἐπὶ λυχνίας τίθησιν, ἵνα οἱ εἰσπορευόμενοι βλέπωσιν τὸ φῶς.",
+      "text_kjv": "No man, when he hath lighted a candle, covereth it with a vessel, or putteth it under a bed; but setteth it on a candlestick, that they which enter in may see the light.",
+      "rendering": "\"No one, after lighting a lamp, covers it with a jar or puts it under a bed, but puts it on a lampstand, so that those who enter may see the light.",
+      "translator_notes": [
+        "The lamp saying follows naturally from the parable's theme of revelation. What is taught in parables is not meant to remain hidden permanently. Luke's version specifies 'those who enter' (hoi eisporeuomenoi), possibly reflecting the setting of a house church where the lamp illuminates a room for newcomers."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 17,
+      "text_greek": "οὐ γάρ ἐστιν κρυπτὸν ὃ οὐ φανερὸν γενήσεται, οὐδὲ ἀπόκρυφον ὃ οὐ μὴ γνωσθῇ καὶ εἰς φανερὸν ἔλθῃ.",
+      "text_kjv": "For nothing is secret, that shall not be made manifest; neither any thing hid, that shall not be known and come abroad.",
+      "rendering": "For nothing is hidden that will not become evident, nor anything concealed that will not be known and come to light.",
+      "translator_notes": [
+        "The double negative ou mē ('certainly not') with the subjunctive gnōsthē ('be known') creates the strongest possible assurance: what is now hidden will without exception be revealed. This applies both to the mysteries of the kingdom and to human secrets."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 18,
+      "text_greek": "βλέπετε οὖν πῶς ἀκούετε· ὃς ἂν γὰρ ἔχῃ, δοθήσεται αὐτῷ, καὶ ὃς ἂν μὴ ἔχῃ, καὶ ὃ δοκεῖ ἔχειν ἀρθήσεται ἀπ' αὐτοῦ.",
+      "text_kjv": "Take heed therefore how ye hear: for whosoever hath, to him shall be given; and whosoever hath not, from him shall be taken even that which he seemeth to have.",
+      "rendering": "Pay attention, then, to how you hear. For whoever has, more will be given to him; and whoever does not have, even what he thinks he has will be taken from him.\"",
+      "translator_notes": [
+        "Luke writes 'how you hear' (pōs akouete) where Mark has 'what you hear' — Luke stresses the manner of reception, not merely the content. The paradox of having and losing echoes the parable's logic: those who receive the word rightly gain more understanding, while those who receive it poorly lose even their initial grasp."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 19,
+      "text_greek": "Παρεγένετο δὲ πρὸς αὐτὸν ἡ μήτηρ καὶ οἱ ἀδελφοὶ αὐτοῦ, καὶ οὐκ ἠδύναντο συντυχεῖν αὐτῷ διὰ τὸν ὄχλον.",
+      "text_kjv": "Then came to him his mother and his brethren, and could not come at him for the press.",
+      "rendering": "Then his mother and his brothers came to him, but they could not reach him because of the crowd.",
+      "translator_notes": [
+        "Luke softens Mark's account where Jesus's family comes to seize him thinking he is out of his mind (Mark 3:21). Luke omits the negative motivation entirely, presenting the family's arrival neutrally."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 20,
+      "text_greek": "ἀπηγγέλη δὲ αὐτῷ· Ἡ μήτηρ σου καὶ οἱ ἀδελφοί σου ἑστήκασιν ἔξω ἰδεῖν θέλοντές σε.",
+      "text_kjv": "And it was told him by certain which said, Thy mother and thy brethren stand without, desiring to see thee.",
+      "rendering": "He was told, \"Your mother and your brothers are standing outside, wanting to see you.\"",
+      "translator_notes": [
+        "The notification sets up Jesus's redefinition of family in the next verse. The physical separation — they are 'outside' (exō) — becomes symbolic of the distinction between biological and spiritual kinship."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 21,
+      "text_greek": "ὁ δὲ ἀποκριθεὶς εἶπεν πρὸς αὐτούς· Μήτηρ μου καὶ ἀδελφοί μου οὗτοί εἰσιν οἱ τὸν λόγον τοῦ θεοῦ ἀκούοντες καὶ ποιοῦντες.",
+      "text_kjv": "And he answered and said unto them, My mother and my brethren are these which hear the word of God, and do it.",
+      "rendering": "But he answered them, \"My mother and my brothers are those who hear the word of God and do it.\"",
+      "translator_notes": [
+        "This saying redefines kinship around obedience to God's word — the same theme as the Sower parable. Luke connects hearing and doing (akouontes kai poiountes), a pair that will recur in 6:47-49 (the house on the rock) and 11:28. The saying does not reject biological family but subordinates it to the family formed by response to God's word."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 22,
+      "text_greek": "Ἐγένετο δὲ ἐν μιᾷ τῶν ἡμερῶν καὶ αὐτὸς ἐνέβη εἰς πλοῖον καὶ οἱ μαθηταὶ αὐτοῦ, καὶ εἶπεν πρὸς αὐτούς· Διέλθωμεν εἰς τὸ πέραν τῆς λίμνης· καὶ ἀνήχθησαν.",
+      "text_kjv": "Now it came to pass on a certain day, that he went into a ship with his disciples: and he said unto them, Let us go over unto the other side of the lake. And they launched forth.",
+      "rendering": "One day he got into a boat with his disciples and said to them, \"Let us cross over to the other side of the lake.\" So they set out.",
+      "translator_notes": [
+        "Luke uses limnēs ('lake') rather than Mark's thalassēs ('sea') — geographically more accurate for the Sea of Galilee, which is a freshwater lake. The command to cross to 'the other side' moves them toward Gentile territory, where the Gerasene episode will take place."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 23,
+      "text_greek": "πλεόντων δὲ αὐτῶν ἀφύπνωσεν. καὶ κατέβη λαῖλαψ ἀνέμου εἰς τὴν λίμνην, καὶ συνεπληροῦντο καὶ ἐκινδύνευον.",
+      "text_kjv": "But as they sailed he fell asleep: and there came down a storm of wind on the lake; and they were filled with water, and were in jeopardy.",
+      "rendering": "As they were sailing, he fell asleep. A violent windstorm came down on the lake, and they were being swamped and were in danger.",
+      "translator_notes": [
+        "The verb aphypnōsen ('he fell asleep') emphasizes Jesus's full humanity. The geography matters: the Sea of Galilee sits 700 feet below sea level, surrounded by hills through which winds funnel suddenly. The verb ekindyneuon ('they were in danger') is unique to Luke's account and underscores the life-threatening nature of the storm."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 24,
+      "text_greek": "προσελθόντες δὲ διήγειραν αὐτὸν λέγοντες· Ἐπιστάτα ἐπιστάτα, ἀπολλύμεθα. ὁ δὲ διεγερθεὶς ἐπετίμησεν τῷ ἀνέμῳ καὶ τῷ κλύδωνι τοῦ ὕδατος· καὶ ἐπαύσαντο, καὶ ἐγένετο γαλήνη.",
+      "text_kjv": "And they came to him, and awoke him, saying, Master, master, we perish. Then he arose, and rebuked the wind and the raging of the water: and they ceased, and there was a calm.",
+      "rendering": "They came and woke him, saying, \"Master, Master, we are perishing!\" And he got up and rebuked the wind and the surging waves, and they ceased, and there was a calm.",
+      "translator_notes": [
+        "Luke uses epistatēs ('Master, overseer') — a title unique to Luke's Gospel — rather than Mark's 'Teacher.' The doubled address 'Master, Master' conveys urgency. Jesus 'rebuked' (epetimēsen) the storm with the same verb used for rebuking demons, suggesting the storm is treated as a hostile force. The sudden calm (galēnē) echoes Psalm 107:29.",
+        "[TCR Cross-Reference] Echoes Psalm 107:29. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "key_terms": [
+        {
+          "greek": "ἐπιστάτης",
+          "transliteration": "epistatēs",
+          "rendered_as": "Master",
+          "semantic_range": "master, overseer, commander",
+          "note": "Used only in Luke's Gospel (seven times). It denotes recognized authority — more than 'teacher' but less formal than 'Lord.' The disciples address Jesus as one who has command over the situation."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 25,
+      "text_greek": "εἶπεν δὲ αὐτοῖς· Ποῦ ἡ πίστις ὑμῶν; φοβηθέντες δὲ ἐθαύμασαν, λέγοντες πρὸς ἀλλήλους· Τίς ἄρα οὗτός ἐστιν ὅτι καὶ τοῖς ἀνέμοις ἐπιτάσσει καὶ τῷ ὕδατι, καὶ ὑπακούουσιν αὐτῷ;",
+      "text_kjv": "And he said unto them, Where is your faith? And they being afraid wondered, saying one to another, What manner of man is this! for he commandeth even the winds and water, and they obey him.",
+      "rendering": "He said to them, \"Where is your faith?\" And they were afraid and marveled, saying to one another, \"Who then is this, that he commands even the winds and the water, and they obey him?\"",
+      "translator_notes": [
+        "The question 'Where is your faith?' implies the disciples should have trusted Jesus even during the storm. Their response combines fear (phobēthentes) and wonder (ethaumasan) — the typical human reaction to a theophany. The Old Testament reserves power over sea and storm for God alone (Job 38:8-11; Psalm 89:9; Psalm 107:29), so the question 'Who is this?' carries an implicit christological answer.",
+        "[TCR Cross-Reference] This verse quotes Job 38:8-11 — see the TCR rendering of that passage for the Hebrew source text and translation decisions.",
+        "[TCR Cross-Reference] This verse quotes Psalm 89:9 — see the TCR rendering of that passage for the Hebrew source text and translation decisions.",
+        "[TCR Cross-Reference] This verse quotes Psalm 107:29 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 26,
+      "text_greek": "Καὶ κατέπλευσαν εἰς τὴν χώραν τῶν Γερασηνῶν, ἥτις ἐστὶν ἀντιπέρα τῆς Γαλιλαίας.",
+      "text_kjv": "And they arrived at the country of the Gadarenes, which is over against Galilee.",
+      "rendering": "They sailed to the region of the Gerasenes, which is across from Galilee.",
+      "translator_notes": [
+        "The SBLGNT reads Gerasēnōn ('Gerasenes'). Gerasa was a city of the Decapolis, predominantly Gentile territory. Luke clarifies the geography for his readers: it is 'across from Galilee' (antipera tēs Galilaias), on the eastern shore of the lake."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 27,
+      "text_greek": "ἐξελθόντι δὲ αὐτῷ ἐπὶ τὴν γῆν ὑπήντησεν ἀνήρ τις ἐκ τῆς πόλεως ἔχων δαιμόνια καὶ χρόνῳ ἱκανῷ οὐκ ἐνεδύσατο ἱμάτιον καὶ ἐν οἰκίᾳ οὐκ ἔμενεν ἀλλ' ἐν τοῖς μνήμασιν.",
+      "text_kjv": "And when he went forth to land, there met him out of the city a certain man, which had devils long time, and ware no clothes, neither abode in any house, but in the tombs.",
+      "rendering": "When he stepped out on land, a man from the city met him who had demons. For a long time he had worn no clothing and did not live in a house but among the tombs.",
+      "translator_notes": [
+        "Luke describes three marks of the man's dehumanization: demon possession, nakedness, and habitation among the dead. Living in tombs would make him perpetually unclean under Jewish purity law. The detail 'from the city' (ek tēs poleōs) suggests he had once been part of normal society before his affliction drove him out."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 28,
+      "text_greek": "ἰδὼν δὲ τὸν Ἰησοῦν ἀνακράξας προσέπεσεν αὐτῷ καὶ φωνῇ μεγάλῃ εἶπεν· Τί ἐμοὶ καὶ σοί, Ἰησοῦ υἱὲ τοῦ θεοῦ τοῦ ὑψίστου; δέομαί σου, μή με βασανίσῃς.",
+      "text_kjv": "When he saw Jesus, he cried out, and fell down before him, and with a loud voice said, What have I to do with thee, Jesus, thou Son of God most high? I beseech thee, torment me not.",
+      "rendering": "When he saw Jesus, he cried out and fell down before him and said with a loud voice, \"What do you have to do with me, Jesus, Son of the Most High God? I beg you, do not torment me!\"",
+      "translator_notes": [
+        "The formula ti emoi kai soi ('what to me and to you?') is a Semitic idiom expressing incompatibility or protest. The demon recognizes Jesus as 'Son of the Most High God' (huie tou theou tou hypsistou) — 'Most High' (hypsistos) is the same title used of God in Genesis 14:18-22 and in Gabriel's announcement to Mary (Luke 1:32). The irony is that the demon correctly identifies Jesus while the disciples have just asked 'Who is this?'",
+        "[TCR Cross-Reference] References Genesis 14:18-22 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 29,
+      "text_greek": "παρήγγειλεν γὰρ τῷ πνεύματι τῷ ἀκαθάρτῳ ἐξελθεῖν ἀπὸ τοῦ ἀνθρώπου. πολλοῖς γὰρ χρόνοις συνηρπάκει αὐτόν, καὶ ἐδεσμεύετο ἁλύσεσιν καὶ πέδαις φυλασσόμενος, καὶ διαρρήσσων τὰ δεσμὰ ἠλαύνετο ὑπὸ τοῦ δαιμονίου εἰς τὰς ἐρήμους.",
+      "text_kjv": "For he had commanded the unclean spirit to come out of the man. For oftentimes it had caught him: and he was kept bound with chains and in fetters; and he brake the bands, and was driven of the devil into the wilderness.",
+      "rendering": "For he had commanded the unclean spirit to come out of the man. For many times it had seized him, and he was kept under guard, bound with chains and shackles, but he would break the bonds and be driven by the demon into desolate places.",
+      "translator_notes": [
+        "This parenthetical explains why the demon cried out — Jesus had already issued a command. The description of the man's superhuman strength in breaking chains and his being 'driven' (elauneto) into wilderness areas portrays total domination by the demonic power. The passive voice emphasizes the man's lack of agency."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 30,
+      "text_greek": "ἐπηρώτησεν δὲ αὐτὸν ὁ Ἰησοῦς· Τί σοι ὄνομά ἐστιν; ὁ δὲ εἶπεν· Λεγιών, ὅτι εἰσῆλθεν δαιμόνια πολλὰ εἰς αὐτόν.",
+      "text_kjv": "And Jesus asked him, saying, What is thy name? And he said, Legion: because many devils were entered into him.",
+      "rendering": "Jesus asked him, \"What is your name?\" He said, \"Legion\" — because many demons had entered him.",
+      "translator_notes": [
+        "A Roman legion comprised approximately five to six thousand soldiers. The name 'Legion' (Legiōn) is a Latin loanword in Greek, carrying military overtones that would resonate in Roman-occupied territory. The name also reveals how thoroughly the man's identity has been consumed — he no longer has a personal name, only the collective designation of his oppressors."
+      ],
+      "key_terms": [
+        {
+          "greek": "Λεγιών",
+          "transliteration": "Legiōn",
+          "rendered_as": "Legion",
+          "semantic_range": "legion (a Roman military unit of 4,000-6,000 soldiers)",
+          "note": "A Latin military term borrowed into Greek. Its use here may carry anti-imperial undertones — the demonic occupation of this man mirrors Rome's occupation of Palestine."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 31,
+      "text_greek": "καὶ παρεκάλουν αὐτὸν ἵνα μὴ ἐπιτάξῃ αὐτοῖς εἰς τὴν ἄβυσσον ἀπελθεῖν.",
+      "text_kjv": "And they besought him that he would not command them to go out into the deep.",
+      "rendering": "And they were begging him not to command them to depart into the abyss.",
+      "translator_notes": [
+        "The abyssos ('abyss') is the place of confinement for evil spirits (cf. Revelation 9:1-2, 11; 20:1-3). Luke uses this term where Mark does not, reflecting Jewish apocalyptic belief that demons feared premature imprisonment. The demons recognize Jesus's authority to sentence them."
+      ],
+      "key_terms": [
+        {
+          "greek": "ἄβυσσος",
+          "transliteration": "abyssos",
+          "rendered_as": "abyss",
+          "semantic_range": "abyss, bottomless pit, the deep",
+          "note": "In the Septuagint, abyssos translates the Hebrew tehom ('the deep'). In Jewish apocalyptic thought, it is the prison of fallen spiritual beings. The demons' fear of the abyss reveals their awareness of a final judgment."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 32,
+      "text_greek": "ἦν δὲ ἐκεῖ ἀγέλη χοίρων ἱκανῶν βοσκομένη ἐν τῷ ὄρει· καὶ παρεκάλεσαν αὐτὸν ἵνα ἐπιτρέψῃ αὐτοῖς εἰς ἐκείνους εἰσελθεῖν· καὶ ἐπέτρεψεν αὐτοῖς.",
+      "text_kjv": "And there was there an herd of many swine feeding on the mountain: and they besought him that he would suffer them to enter into them. And he suffered them.",
+      "rendering": "Now a large herd of pigs was feeding there on the hillside, and they begged him to let them enter the pigs. And he gave them permission.",
+      "translator_notes": [
+        "The presence of pigs confirms this is Gentile territory — pigs were unclean animals forbidden to Jews (Leviticus 11:7). The demons must ask Jesus's permission, demonstrating his absolute authority even over a legion of evil spirits. The verb epetrepsen ('he permitted') shows that Jesus controls the terms.",
+        "[TCR Cross-Reference] Draws on Leviticus 11:7. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 33,
+      "text_greek": "ἐξελθόντα δὲ τὰ δαιμόνια ἀπὸ τοῦ ἀνθρώπου εἰσῆλθον εἰς τοὺς χοίρους, καὶ ὥρμησεν ἡ ἀγέλη κατὰ τοῦ κρημνοῦ εἰς τὴν λίμνην καὶ ἀπεπνίγη.",
+      "text_kjv": "Then went the devils out of the man, and entered into the swine: and the herd ran violently down a steep place into the lake, and were choked.",
+      "rendering": "The demons came out of the man and entered the pigs, and the herd rushed down the steep bank into the lake and drowned.",
+      "translator_notes": [
+        "The verb hōrmēsen ('rushed, charged') is violent and sudden. The verb apepnigē ('drowned, were choked') is the same root used for the thorns 'choking' the seed in verse 7 — an ironic verbal connection. The destruction of the herd serves as visible proof that the demons have genuinely departed from the man."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 34,
+      "text_greek": "ἰδόντες δὲ οἱ βόσκοντες τὸ γεγονὸς ἔφυγον καὶ ἀπήγγειλαν εἰς τὴν πόλιν καὶ εἰς τοὺς ἀγρούς.",
+      "text_kjv": "When they that fed them saw what was done, they fled, and went and told it in the city and in the country.",
+      "rendering": "When the herdsmen saw what had happened, they fled and reported it in the city and in the countryside.",
+      "translator_notes": [
+        "The herdsmen's flight and report set up the confrontation between Jesus and the townspeople. They function as witnesses to both the loss of the pigs and the implied power of the exorcism."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 35,
+      "text_greek": "ἐξῆλθον δὲ ἰδεῖν τὸ γεγονὸς καὶ ἦλθον πρὸς τὸν Ἰησοῦν, καὶ εὗρον καθήμενον τὸν ἄνθρωπον ἀφ' οὗ τὰ δαιμόνια ἐξῆλθεν ἱματισμένον καὶ σωφρονοῦντα παρὰ τοὺς πόδας τοῦ Ἰησοῦ, καὶ ἐφοβήθησαν.",
+      "text_kjv": "Then they went out to see what was done; and came to Jesus, and found the man, out of whom the devils were departed, sitting at the feet of Jesus, clothed, and in his right mind: and they were afraid.",
+      "rendering": "Then people went out to see what had happened, and they came to Jesus and found the man from whom the demons had gone out, sitting at the feet of Jesus, clothed and in his right mind. And they were afraid.",
+      "translator_notes": [
+        "The contrast is stunning: the man who was naked, chained, and living among the dead is now clothed (himatismenon), in his right mind (sōphronounta), and seated at Jesus's feet — the posture of a disciple. Each detail reverses his former condition. The townspeople's fear (ephobēthēsan) mirrors the disciples' fear after the storm, but leads to a different response."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 36,
+      "text_greek": "ἀπήγγειλαν δὲ αὐτοῖς οἱ ἰδόντες πῶς ἐσώθη ὁ δαιμονισθείς.",
+      "text_kjv": "They also which saw it told them by what means he that was possessed of the devils was healed.",
+      "rendering": "Those who had seen it told them how the demon-possessed man had been saved.",
+      "translator_notes": [
+        "Luke uses esōthē ('was saved') rather than merely 'was healed' — the verb sōzō carries both physical and spiritual dimensions. The man's deliverance is described as salvation, not simply a medical cure."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 37,
+      "text_greek": "καὶ ἠρώτησεν αὐτὸν ἅπαν τὸ πλῆθος τῆς περιχώρου τῶν Γερασηνῶν ἀπελθεῖν ἀπ' αὐτῶν, ὅτι φόβῳ μεγάλῳ συνείχοντο· αὐτὸς δὲ ἐμβὰς εἰς πλοῖον ὑπέστρεψεν.",
+      "text_kjv": "Then the whole multitude of the country of the Gadarenes round about besought him to depart from them; for they were taken with great fear: and he went up into the ship, and returned back again.",
+      "rendering": "Then all the people of the surrounding region of the Gerasenes asked him to leave them, because they were gripped with great fear. So he got into the boat and returned.",
+      "translator_notes": [
+        "The entire population asks Jesus to leave — the only place in the Gospels where a community rejects Jesus's presence after witnessing a miracle. Their great fear (phobō megalō) is not reverence but terror, possibly compounded by the economic loss of the pigs. Jesus complies without protest, respecting their choice."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 38,
+      "text_greek": "ἐδεῖτο δὲ αὐτοῦ ὁ ἀνὴρ ἀφ' οὗ ἐξεληλύθει τὰ δαιμόνια εἶναι σὺν αὐτῷ· ἀπέλυσεν δὲ αὐτὸν λέγων·",
+      "text_kjv": "Now the man out of whom the devils were departed besought him that he might be with him: but Jesus sent him away, saying,",
+      "rendering": "The man from whom the demons had gone out begged to go with him, but Jesus sent him away, saying,",
+      "translator_notes": [
+        "The man's desire to follow Jesus contrasts sharply with the townspeople's desire for Jesus to leave. 'To be with him' (einai syn autō) uses the language of discipleship. Unusually, Jesus refuses — in Gentile territory, the healed man himself will be the witness."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 39,
+      "text_greek": "Ὑπόστρεφε εἰς τὸν οἶκόν σου, καὶ διηγοῦ ὅσα σοι ἐποίησεν ὁ θεός. καὶ ἀπῆλθεν καθ' ὅλην τὴν πόλιν κηρύσσων ὅσα ἐποίησεν αὐτῷ ὁ Ἰησοῦς.",
+      "text_kjv": "Return to thine own house, and shew how great things God hath done unto thee. And he went his way, and published throughout the whole city how great things Jesus had done unto him.",
+      "rendering": "\"Return to your home, and declare what God has done for you.\" And he went away, proclaiming throughout the whole city what Jesus had done for him.",
+      "translator_notes": [
+        "Jesus says 'what God has done for you'; the man proclaims 'what Jesus has done for him.' Luke lets the substitution stand without comment — the reader is left to draw the christological conclusion. The man becomes the first Gentile evangelist in Luke's narrative."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 40,
+      "text_greek": "Ἐν δὲ τῷ ὑποστρέφειν τὸν Ἰησοῦν ἀπεδέξατο αὐτὸν ὁ ὄχλος· ἦσαν γὰρ πάντες προσδοκῶντες αὐτόν.",
+      "text_kjv": "And it came to pass, that, when Jesus was returned, the people gladly received him: for they were all waiting for him.",
+      "rendering": "When Jesus returned, the crowd welcomed him, for they were all expecting him.",
+      "translator_notes": [
+        "The contrast between the Gerasenes' rejection and the Galilean crowd's welcome is deliberate. The verb apedexato ('welcomed, received gladly') sets up the warm reception that frames the two miracle stories to follow."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 41,
+      "text_greek": "καὶ ἰδοὺ ἦλθεν ἀνὴρ ᾧ ὄνομα Ἰάϊρος, καὶ οὗτος ἄρχων τῆς συναγωγῆς ὑπῆρχεν, καὶ πεσὼν παρὰ τοὺς πόδας τοῦ Ἰησοῦ παρεκάλει αὐτὸν εἰσελθεῖν εἰς τὸν οἶκον αὐτοῦ,",
+      "text_kjv": "And, behold, there came a man named Jairus, and he was a ruler of the synagogue: and he fell down at Jesus' feet, and besought him that he would come into his house:",
+      "rendering": "And there came a man named Jairus, who was a ruler of the synagogue. He fell at Jesus's feet and begged him to come to his house,",
+      "translator_notes": [
+        "Jairus (Iairos, from Hebrew Ya'ir, 'he enlightens') is named only in Luke and Mark. As archōn tēs synagōgēs ('ruler of the synagogue'), he was responsible for organizing worship services — a prominent community figure. His prostration before Jesus shows the desperation that overrides social status."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 42,
+      "text_greek": "ὅτι θυγάτηρ μονογενὴς ἦν αὐτῷ ὡς ἐτῶν δώδεκα καὶ αὐτὴ ἀπέθνῃσκεν. Ἐν δὲ τῷ ὑπάγειν αὐτὸν οἱ ὄχλοι συνέπνιγον αὐτόν.",
+      "text_kjv": "For he had one only daughter, about twelve years of age, and she lay a dying. But as he went the people thronged him.",
+      "rendering": "Since he had one only daughter, concerning twelve years of age, and she lay a dying. But as he traveled the people thronged him.",
+      "translator_notes": [
+        "Luke emphasizes she is monogenēs ('only-begotten, one and only') — the same word used of Jesus in John's Gospel. She is about twelve years old — the same number of years the hemorrhaging woman has suffered (v. 43), creating a deliberate literary connection. The crowd 'pressing in' (synepnigon) sets up the interruption by the hemorrhaging woman."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 43,
+      "text_greek": "Καὶ γυνὴ οὖσα ἐν ῥύσει αἵματος ἀπὸ ἐτῶν δώδεκα, ἥτις οὐκ ἴσχυσεν ἀπ' οὐδενὸς θεραπευθῆναι,",
+      "text_kjv": "And a woman having an issue of blood twelve years, which had spent all her living upon physicians, neither could be healed of any,",
+      "rendering": "And a woman who had suffered from a discharge of blood for twelve years, who could not be healed by anyone,",
+      "translator_notes": [
+        "The 'discharge of blood' (rhysei haimatos) made her perpetually unclean under Levitical law (Leviticus 15:25-27), excluding her from worship and social contact. For twelve years she has lived in isolation. Some manuscripts add 'who had spent all her livelihood on physicians' (paralleling Mark 5:26), but the SBLGNT omits this clause.",
+        "[TCR Cross-Reference] References Leviticus 15:25-27 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 44,
+      "text_greek": "προσελθοῦσα ὄπισθεν ἥψατο τοῦ κρασπέδου τοῦ ἱματίου αὐτοῦ, καὶ παραχρῆμα ἔστη ἡ ῥύσις τοῦ αἵματος αὐτῆς.",
+      "text_kjv": "Came behind him, and touched the border of his garment: and immediately her issue of blood stanched.",
+      "rendering": "Indeed, arrived behind him, and touched the border of his garment — and immediately her issue of blood stanched.",
+      "translator_notes": [
+        "The kraspedon ('fringe, tassel, border') refers to the tassels (Hebrew tzitzit) on the corners of a Jewish garment as commanded in Numbers 15:38-39. Her approach from behind reflects her awareness of her unclean status — touching someone would transmit impurity. Instead, Jesus's holiness flows outward and cleanses her. The adverb parachrēma ('immediately') is characteristic of Luke.",
+        "[TCR Cross-Reference] Echoes Numbers 15:38-39. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 45,
+      "text_greek": "καὶ εἶπεν ὁ Ἰησοῦς· Τίς ὁ ἁψάμενός μου; ἀρνουμένων δὲ πάντων εἶπεν ὁ Πέτρος· Ἐπιστάτα, οἱ ὄχλοι συνέχουσίν σε καὶ ἀποθλίβουσιν.",
+      "text_kjv": "And Jesus said, Who touched me? When all denied, Peter said, Master, the multitude throng thee and press thee, and sayest thou, Who touched me?",
+      "rendering": "Jesus said, \"Who touched me?\" When everyone denied it, Peter said, \"Master, the crowds are surrounding you and pressing against you!\"",
+      "translator_notes": [
+        "Jesus's question is not about information — he distinguishes between the crowd's jostling and one person's deliberate touch of faith. Peter's response, using epistatēs ('Master') again, expresses bewilderment: in such a crush, how could one touch be singled out?"
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 46,
+      "text_greek": "ὁ δὲ Ἰησοῦς εἶπεν· Ἥψατό μού τις· ἐγὼ γὰρ ἔγνων δύναμιν ἐξεληλυθυῖαν ἀπ' ἐμοῦ.",
+      "text_kjv": "And Jesus said, Somebody hath touched me: for I perceive that virtue is gone out of me.",
+      "rendering": "But Jesus said, \"Someone touched me, for I perceived that power had gone out from me.\"",
+      "translator_notes": [
+        "The word dynamin ('power') is not 'virtue' in the modern English sense (as the KJV might suggest) but active healing energy. Jesus experiences the outflow of power — a remarkable detail suggesting that the healing was not merely willed but cost something."
+      ],
+      "key_terms": [
+        {
+          "greek": "δύναμις",
+          "transliteration": "dynamis",
+          "rendered_as": "power",
+          "semantic_range": "power, ability, mighty work, miracle",
+          "note": "The root of 'dynamite' and 'dynamic.' Here it denotes the divine healing power operative through Jesus's person, which the woman's faith activated."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 47,
+      "text_greek": "ἰδοῦσα δὲ ἡ γυνὴ ὅτι οὐκ ἔλαθεν τρέμουσα ἦλθεν καὶ προσπεσοῦσα αὐτῷ δι' ἣν αἰτίαν ἥψατο αὐτοῦ ἀπήγγειλεν ἐνώπιον παντὸς τοῦ λαοῦ καὶ ὡς ἰάθη παραχρῆμα.",
+      "text_kjv": "And when the woman saw that she was not hid, she came trembling, and falling down before him, she declared unto him before all the people for what cause she had touched him, and how she was healed immediately.",
+      "rendering": "When the woman saw that she had not escaped notice, she came trembling, and falling down before him, she declared in the presence of all the people the reason she had touched him and how she was immediately healed.",
+      "translator_notes": [
+        "Her trembling (tremousa) reflects fear — she had taken a social risk by touching someone while unclean. But Jesus forces a public declaration for her benefit: her healing must be witnessed by the community so that her social restoration is public, not merely private. She is healed in body but needs public vindication to be restored to community life."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 48,
+      "text_greek": "ὁ δὲ εἶπεν αὐτῇ· Θυγάτηρ, ἡ πίστις σου σέσωκέν σε· πορεύου εἰς εἰρήνην.",
+      "text_kjv": "And he said unto her, Daughter, be of good comfort: thy faith hath made thee whole; go in peace.",
+      "rendering": "He said to her, \"Daughter, your faith has saved you. Go in peace.\"",
+      "translator_notes": [
+        "The address 'Daughter' (Thygatēr) is extraordinary — it is both tender and restorative, publicly declaring her a member of the family of God. The phrase hē pistis sou sesōken se ('your faith has saved you') uses sōzō, which means both 'save' and 'heal.' The double meaning is intentional: physical healing and spiritual salvation converge. 'Go in peace' (poreuou eis eirēnēn) echoes the Hebrew shalom — complete well-being, not merely absence of conflict."
+      ],
+      "key_terms": [
+        {
+          "greek": "σῴζω",
+          "transliteration": "sōzō",
+          "rendered_as": "saved",
+          "semantic_range": "to save, heal, deliver, rescue, make whole",
+          "note": "The deliberate ambiguity of sōzō in healing narratives is theologically significant: physical restoration and spiritual salvation are not separate categories for Luke."
+        }
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 49,
+      "text_greek": "Ἔτι αὐτοῦ λαλοῦντος ἔρχεταί τις παρὰ τοῦ ἀρχισυναγώγου λέγων ὅτι Τέθνηκεν ἡ θυγάτηρ σου· μηκέτι σκύλλε τὸν διδάσκαλον.",
+      "text_kjv": "While he yet spake, there cometh one from the ruler of the synagogue's house, saying to him, Thy daughter is dead; trouble not the Master.",
+      "rendering": "While he was still speaking, someone came from the synagogue ruler's house, saying, \"Your daughter is dead; do not trouble the Teacher any longer.\"",
+      "translator_notes": [
+        "The timing is devastating — the interruption caused by the hemorrhaging woman's healing has cost Jairus precious minutes. The messenger's words 'do not trouble the Teacher' (mēketi skylle ton didaskalon) assume that death is beyond Jesus's power. The verb skyllō ('to trouble, bother, harass') suggests the messenger views further appeal as pointless."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 50,
+      "text_greek": "ὁ δὲ Ἰησοῦς ἀκούσας ἀπεκρίθη αὐτῷ· Μὴ φοβοῦ, μόνον πίστευσον, καὶ σωθήσεται.",
+      "text_kjv": "But when Jesus heard it, he answered him, saying, Fear not: believe only, and she shall be made whole.",
+      "rendering": "But Jesus, hearing this, answered him, \"Do not be afraid; only believe, and she will be saved.\"",
+      "translator_notes": [
+        "Jesus responds to the death announcement with the same sōzō ('will be saved/made whole') used for the hemorrhaging woman. The command structure — 'Do not fear... only believe' — strips away every response except faith. Jairus has just witnessed the hemorrhaging woman's faith rewarded; now he must exercise the same trust in a more extreme situation."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 51,
+      "text_greek": "ἐλθὼν δὲ εἰς τὴν οἰκίαν οὐκ ἀφῆκεν εἰσελθεῖν τινα σὺν αὐτῷ εἰ μὴ Πέτρον καὶ Ἰωάννην καὶ Ἰάκωβον καὶ τὸν πατέρα τῆς παιδὸς καὶ τὴν μητέρα.",
+      "text_kjv": "And when he came into the house, he suffered no man to go in, save Peter, and James, and John, and the father and the mother of the maiden.",
+      "rendering": "When he came to the house, he allowed no one to enter with him except Peter, John, and James, and the father and mother of the child.",
+      "translator_notes": [
+        "The inner circle of Peter, John, and James witnesses the most significant miracles (also the Transfiguration, Luke 9:28). Luke reverses Mark's order, placing John before James — possibly reflecting John's greater prominence in the early church as known to Luke's audience."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 52,
+      "text_greek": "ἔκλαιον δὲ πάντες καὶ ἐκόπτοντο αὐτήν. ὁ δὲ εἶπεν· Μὴ κλαίετε, οὐ γὰρ ἀπέθανεν ἀλλὰ καθεύδει.",
+      "text_kjv": "And all wept, and bewailed her: but he said, Weep not; she is not dead, but sleepeth.",
+      "rendering": "Everyone was weeping and mourning for her, but he said, \"Stop weeping, for she has not died but is sleeping.\"",
+      "translator_notes": [
+        "The verb ekoptonto ('were mourning, beating their breasts') describes the loud, demonstrative mourning customary in ancient Jewish funerals. Jesus's statement that the girl is 'sleeping' (katheudei) is either a metaphor for death (as Paul uses in 1 Thessalonians 4:13-14) or a literal claim that she is not yet dead. Luke leaves the ambiguity intact."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 53,
+      "text_greek": "καὶ κατεγέλων αὐτοῦ, εἰδότες ὅτι ἀπέθανεν.",
+      "text_kjv": "And they laughed him to scorn, knowing that she was dead.",
+      "rendering": "And they laughed at him, knowing that she had died.",
+      "translator_notes": [
+        "The verb kategelōn ('were laughing scornfully') indicates mocking derision, not amusement. The mourners' certainty that she is dead sets up the miracle — there is no ambiguity about her condition in the minds of witnesses."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 54,
+      "text_greek": "αὐτὸς δὲ κρατήσας τῆς χειρὸς αὐτῆς ἐφώνησεν λέγων· Ἡ παῖς, ἔγειρε.",
+      "text_kjv": "And he put them all out, and took her by the hand, and called, saying, Maid, arise.",
+      "rendering": "But taking her by the hand, he called out, saying, \"Child, arise.\"",
+      "translator_notes": [
+        "Jesus takes her hand — touching a corpse would normally render one unclean (Numbers 19:11), but as with the hemorrhaging woman, Jesus's power flows outward to restore rather than receiving contamination inward. Luke simplifies Mark's Aramaic talitha koum to the Greek hē pais egeire ('Child, arise'). The verb egeirō is the same word used for resurrection throughout the New Testament.",
+        "[TCR Cross-Reference] Echoes Numbers 19:11. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 55,
+      "text_greek": "καὶ ἐπέστρεψεν τὸ πνεῦμα αὐτῆς, καὶ ἀνέστη παραχρῆμα, καὶ διέταξεν αὐτῇ δοθῆναι φαγεῖν.",
+      "text_kjv": "And her spirit came again, and she arose straightway: and he commanded to give her meat.",
+      "rendering": "Her spirit returned, and she got up at once. And he directed that she be given something to eat.",
+      "translator_notes": [
+        "The phrase 'her spirit returned' (epestrepsen to pneuma autēs) is unique to Luke and confirms that she had genuinely died — her spirit had departed and now comes back. The command to give her food serves two purposes: it proves the resurrection is physical (a spirit does not eat) and it shows Jesus's practical compassion even in a moment of cosmic power."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 56,
+      "text_greek": "καὶ ἐξέστησαν οἱ γονεῖς αὐτῆς· ὁ δὲ παρήγγειλεν αὐτοῖς μηδενὶ εἰπεῖν τὸ γεγονός.",
+      "text_kjv": "And her parents were astonished: but he charged them that they should tell no man what was done.",
+      "rendering": "Her parents were amazed, but he ordered them to tell no one what had happened.",
+      "translator_notes": [
+        "The command to silence (the 'messianic secret') contrasts with the Gerasene demoniac, who was told to proclaim. In Jewish territory, public reports of raising the dead would provoke dangerous political attention. The parents' amazement (exestēsan, literally 'were beside themselves') is the appropriate response to witnessing death reversed."
+      ],
+      "reading_level": "6th grade"
+    }
+  ]
+}

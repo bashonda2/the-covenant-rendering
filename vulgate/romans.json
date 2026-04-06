@@ -1,0 +1,203 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Romans",
+    "tradition": "vulgate",
+    "tradition_label": "Latin Vulgate",
+    "source_text": "Biblia Sacra Vulgata (Stuttgart critical edition)",
+    "base_text": "SBL Greek New Testament (SBLGNT)",
+    "translator": "Jerome (Eusebius Sophronius Hieronymus)",
+    "date": "382-384 CE",
+    "generated_at": "2026-04-05T00:00:00Z",
+    "prompt_version": "1.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Romans in the Vulgate is the most theologically consequential Pauline text for Western Christianity. Jerome's Latin renderings of Paul's Greek established the entire vocabulary of Western soteriology: justificatio (justification), gratia (grace), fides (faith), peccatum (sin), lex (law), and iustitia Dei (righteousness of God). Every major Western theological movement — Augustinianism, scholasticism, the Reformation, Counter-Reformation — was shaped by debates over the Latin Romans.",
+    "notable_renderings": "Romans 1:17 iustus ex fide vivit (the just shall live by faith); 3:23-25 the justification-propitiation complex; 3:28 justificari fide (justified by faith); 5:12 the original sin verse; 8:28 the providence declaration; and 13:1-2 the political authority passage are the most significant Vulgate renderings in Romans.",
+    "theological_legacy": "Romans in the Vulgate gave Western theology its entire soteriological vocabulary. The Latin terms justificatio, imputare, gratia, concupiscentia, praedestinatio, and propitiation shaped the Augustinian tradition, the medieval penitential system, and the Reformation debates. Luther's reading of Romans in Latin was the catalyst for the Protestant Reformation; his argument was essentially that the Latin had been misread, not that it was wrong."
+  },
+  "renderings": [
+    {
+      "reference": "Romans 1:17",
+      "source_text": "δικαιοσύνη γὰρ θεοῦ ἐν αὐτῷ ἀποκαλύπτεται ἐκ πίστεως εἰς πίστιν, καθὼς γέγραπται· ὁ δὲ δίκαιος ἐκ πίστεως ζήσεται",
+      "vulgate_text": "iustitia enim Dei in eo revelatur ex fide in fidem sicut scriptum est iustus autem ex fide vivit",
+      "vulgate_rendering": "For the righteousness of God is revealed in it from faith to faith, as it is written: the just shall live by faith",
+      "tcr_rendering": "For the righteousness of God is revealed in it from faith to faith, as it is written: 'The righteous one will live by his faithfulness'",
+      "theological_legacy": "Iustus ex fide vivit (the just lives by faith) — quoting Habakkuk 2:4 — became the motto of the Reformation. Iustitia Dei (righteousness/justice of God) was the term that tormented the young Luther until he understood it as a righteousness God gives rather than demands. The entire Reformation debate hinged on whether iustitia Dei means God's own (demanding) righteousness or a righteousness from God given to believers.",
+      "notes": ["Jerome's iustitia Dei faithfully renders Greek dikaiosynē theou. The ambiguity of the genitive — God's own righteousness, or righteousness from God? — exists in both Greek and Latin. Luther's 'tower experience' was his realization that the Latin iustitia Dei should be read as a gift (righteousness from God through faith) rather than a demand (God's righteous judgment). This reinterpretation launched the Reformation."]
+    },
+    {
+      "reference": "Romans 3:23-24",
+      "source_text": "πάντες γὰρ ἥμαρτον καὶ ὑστεροῦνται τῆς δόξης τοῦ θεοῦ δικαιούμενοι δωρεὰν τῇ αὐτοῦ χάριτι",
+      "vulgate_text": "omnes enim peccaverunt et egent gloria Dei iustificati gratis per gratiam ipsius",
+      "vulgate_rendering": "For all have sinned and fall short of the glory of God, being justified freely by his grace",
+      "tcr_rendering": "for all have sinned and fall short of the glory of God, being declared righteous as a gift by His grace",
+      "theological_legacy": "Omnes peccaverunt (all have sinned) became the universal declaration of human sinfulness in Western theology. Iustificati gratis per gratiam (justified freely by grace) established the grace-justification connection. The word gratis (freely, as a gift) — from gratia — created the gratis/gratia wordplay that became central to the theology of unmerited favor.",
+      "notes": ["Jerome's gratis (freely) echoes gratiam (grace) — both from the same root. This phonetic connection reinforced the theology of grace as free gift. The verse became a proof-text for both Catholic and Protestant soteriology, though interpreted differently regarding the nature of justification."]
+    },
+    {
+      "reference": "Romans 3:25",
+      "source_text": "ὃν προέθετο ὁ θεὸς ἱλαστήριον διὰ πίστεως ἐν τῷ αὐτοῦ αἵματι",
+      "vulgate_text": "quem proposuit Deus propitiationem per fidem in sanguine ipsius",
+      "vulgate_rendering": "Whom God set forth as a propitiation through faith in his blood",
+      "tcr_rendering": "Whom God presented as an atoning sacrifice through faith, by his blood",
+      "theological_legacy": "Propitiationem (propitiation) for Greek hilastērion established the Latin propitiation theology. Hilastērion can mean 'mercy seat' (the kapporet in the Holy of Holies) or 'means of propitiation.' Jerome's propitiationem favors the abstract propitiation reading over the concrete mercy-seat allusion, shaping Western atonement theology toward satisfaction/propitiation models.",
+      "notes": ["The Greek hilastērion is the word used for the mercy seat (kapporet) in LXX Exodus 25:17. Paul may be saying God presented Christ as the new mercy seat — the place where God and sinful humanity meet through blood. Jerome's propitiationem loses this Temple/mercy-seat imagery in favor of the abstract concept of appeasing divine wrath, which became dominant in Western atonement theology (Anselm's satisfaction theory, penal substitution)."]
+    },
+    {
+      "reference": "Romans 3:28",
+      "source_text": "λογιζόμεθα γὰρ δικαιοῦσθαι πίστει ἄνθρωπον χωρὶς ἔργων νόμου",
+      "vulgate_text": "arbitramur enim iustificari homine fide sine operibus legis",
+      "vulgate_rendering": "For we reckon that a man is justified by faith without the works of the law",
+      "tcr_rendering": "For we hold that a person is declared righteous by faith apart from works of the law",
+      "theological_legacy": "Iustificari...fide sine operibus legis (justified by faith without works of law) is the verse at the heart of the Reformation. Luther famously added allein (alone) to his German translation: 'justified by faith alone.' The Latin does not have sola (alone), but Luther argued the sense demanded it. The Catholic response was that 'without works of law' is not the same as 'without any works.' This single verse generated more theological controversy than perhaps any other in the Bible.",
+      "notes": ["Jerome's iustificari (to be justified/made righteous) renders Greek dikaiousthai. The Latin can mean both 'to be declared righteous' (forensic, Protestant reading) and 'to be made righteous' (transformative, Catholic reading). This ambiguity in the Latin term itself was at the core of the Reformation debate. The Council of Trent (1547) defined justification as both declaration and transformation."]
+    },
+    {
+      "reference": "Romans 4:3",
+      "source_text": "ἐπίστευσεν δὲ Ἀβραὰμ τῷ θεῷ, καὶ ἐλογίσθη αὐτῷ εἰς δικαιοσύνην",
+      "vulgate_text": "credidit Abraham Deo et reputatum est illi ad iustitiam",
+      "vulgate_rendering": "Abraham believed God and it was reckoned to him as righteousness",
+      "tcr_rendering": "Abraham trusted God, and it was credited to him as righteousness",
+      "theological_legacy": "Credidit...reputatum est...ad iustitiam (believed...was reckoned...as righteousness) — the Abraham-faith-righteousness nexus from Genesis 15:6 repeated by Paul. Reputatum (reckoned, counted) became the key term in the imputation debate: is righteousness imputed (counted as if present) or imparted (actually made present)?",
+      "notes": ["Jerome's reputatum est (was reckoned/counted) renders Greek elogisthē. The Latin reputare means to count, reckon, or consider — it can support both imputation (external reckoning) and a more internal transformation. The Reformation hinged partly on whether this 'reckoning' is a legal fiction (Protestant) or a real change (Catholic)."]
+    },
+    {
+      "reference": "Romans 5:1",
+      "source_text": "δικαιωθέντες οὖν ἐκ πίστεως εἰρήνην ἔχομεν/ἔχωμεν πρὸς τὸν θεόν",
+      "vulgate_text": "iustificati ergo ex fide pacem habeamus ad Deum",
+      "vulgate_rendering": "Therefore, being justified by faith, let us have peace with God",
+      "tcr_rendering": "Therefore, since we have been declared righteous by faith, we have peace with God",
+      "theological_legacy": "Pacem habeamus (let us have peace) — Jerome reads the subjunctive (hortatory: 'let us have') rather than the indicative ('we have'). This is a significant textual variant in the Greek manuscripts (echōmen vs. echomen). The subjunctive reading makes peace an exhortation rather than a statement of fact, subtly changing the theology from assurance to aspiration.",
+      "notes": ["The Greek manuscript tradition is divided between echomen (indicative: 'we have') and echōmen (subjunctive: 'let us have'). Jerome's habeamus is subjunctive, suggesting peace with God is something to be pursued rather than a settled possession. Most modern translations prefer the indicative reading. The variant affects the theology of assurance — do justified believers already have peace, or must they strive for it?"]
+    },
+    {
+      "reference": "Romans 5:5",
+      "source_text": "ὅτι ἡ ἀγάπη τοῦ θεοῦ ἐκκέχυται ἐν ταῖς καρδίαις ἡμῶν διὰ πνεύματος ἁγίου",
+      "vulgate_text": "quia caritas Dei diffusa est in cordibus nostris per Spiritum Sanctum",
+      "vulgate_rendering": "Because the love of God is poured out in our hearts through the Holy Spirit",
+      "tcr_rendering": "because the love of God has been poured out in our hearts through the Holy Spirit",
+      "theological_legacy": "Caritas Dei diffusa est in cordibus nostris (the love/charity of God is poured out in our hearts) — Jerome chose caritas (love, charity, dearness) for Greek agapē rather than amor (love). This distinction between caritas (selfless, divine love) and amor (natural love, desire) became fundamental to Western moral theology. The word 'charity' in English derives directly from Jerome's caritas.",
+      "notes": ["Jerome's caritas for agapē (rather than amor or dilectio) created the Western theological concept of charity as the highest virtue — self-giving love modeled on divine love. Aquinas's entire moral theology is built on caritas as the form of all virtues. The KJV's 'charity' in 1 Corinthians 13 reflects this Latin tradition."]
+    },
+    {
+      "reference": "Romans 5:12",
+      "source_text": "ὥσπερ δι' ἑνὸς ἀνθρώπου ἡ ἁμαρτία εἰς τὸν κόσμον εἰσῆλθεν...ἐφ' ᾧ πάντες ἥμαρτον",
+      "vulgate_text": "propterea sicut per unum hominem peccatum in hunc mundum intravit...in quo omnes peccaverunt",
+      "vulgate_rendering": "Therefore, just as through one man sin entered this world...in whom all sinned",
+      "tcr_rendering": "Therefore, just as through one man sin entered into the world...because all sinned",
+      "theological_legacy": "In quo omnes peccaverunt (in whom all sinned) is one of the most consequential translation choices in Western theology. The Greek eph' hō most likely means 'because' (all sinned), but Jerome's in quo (in whom) means all humanity sinned IN Adam — a corporate solidarity reading. Augustine built his entire doctrine of original sin on this Latin reading, arguing that all humans were seminally present in Adam and actually sinned in him.",
+      "notes": ["The Greek eph' hō is ambiguous: 'because' (causal), 'with the result that' (consecutive), or 'in whom' (relative). Jerome's in quo (in whom) follows the relative reading, making Adam the one 'in whom' all sinned. Augustine used this reading to argue for inherited guilt — not just inherited tendency to sin, but actual participation in Adam's sin. This became the foundation of Western original sin doctrine, distinguishing it sharply from Eastern Christianity's ancestral sin concept. Erasmus later pointed out that the Greek more likely means 'because.'"]
+    },
+    {
+      "reference": "Romans 6:23",
+      "source_text": "τὰ γὰρ ὀψώνια τῆς ἁμαρτίας θάνατος, τὸ δὲ χάρισμα τοῦ θεοῦ ζωὴ αἰώνιος",
+      "vulgate_text": "stipendia enim peccati mors gratia autem Dei vita aeterna",
+      "vulgate_rendering": "For the wages of sin are death, but the grace of God is eternal life",
+      "tcr_rendering": "For the wages of sin is death, but the gift of God is eternal life",
+      "theological_legacy": "Stipendia peccati mors (the wages/pay of sin is death) — stipendia (soldier's pay, wages) renders Greek opsōnia (rations, wages). The military metaphor of sin paying its soldiers in death became vivid in Latin. Gratia Dei vita aeterna (the grace of God is eternal life) — Jerome uses gratia (grace) where the Greek has charisma (gift), collapsing the gift-grace distinction and reinforcing the centrality of gratia.",
+      "notes": ["The Greek charisma (free gift) is distinct from charis (grace), but Jerome renders charisma as gratia, merging gift and grace into a single Latin concept. This reinforced the Western emphasis on grace as the comprehensive category for God's saving action. Vita aeterna (eternal life) became the standard Western soteriological goal-term."]
+    },
+    {
+      "reference": "Romans 7:24-25",
+      "source_text": "ταλαίπωρος ἐγὼ ἄνθρωπος· τίς με ῥύσεται ἐκ τοῦ σώματος τοῦ θανάτου τούτου; χάρις δὲ τῷ θεῷ",
+      "vulgate_text": "infelix ego homo quis me liberabit de corpore mortis huius gratia Dei per Iesum Christum",
+      "vulgate_rendering": "Wretched man that I am! Who shall deliver me from the body of this death? The grace of God through Jesus Christ",
+      "tcr_rendering": "What a wretched man I am! Who will rescue me from this body of death? Thanks be to God through Yeshua the Messiah!",
+      "theological_legacy": "Infelix ego homo (wretched man that I am) became the paradigmatic cry of the convicted sinner in Western spirituality. The passage was central to Augustine's theology of the divided will and Luther's simul justus et peccator (simultaneously righteous and sinner). Gratia Dei (grace of God) as the answer to human wretchedness crystallized the Western grace theology.",
+      "notes": ["Whether Paul describes his pre-conversion or ongoing Christian experience was debated from Augustine onward. Augustine initially read it as pre-conversion but later (against Pelagius) read it as the Christian's ongoing struggle. Luther followed the later Augustine. This interpretive question — does the justified believer still experience Romans 7? — remains one of the great divides in Western theology."]
+    },
+    {
+      "reference": "Romans 8:28",
+      "source_text": "οἴδαμεν δὲ ὅτι τοῖς ἀγαπῶσιν τὸν θεὸν πάντα συνεργεῖ εἰς ἀγαθόν",
+      "vulgate_text": "scimus autem quoniam diligentibus Deum omnia cooperantur in bonum",
+      "vulgate_rendering": "And we know that to those who love God, all things work together for good",
+      "tcr_rendering": "And we know that for those who love God, all things work together for good",
+      "theological_legacy": "Diligentibus Deum omnia cooperantur in bonum (to those loving God all things cooperate for good) became the foundational text for the Western theology of divine providence. Cooperantur (cooperate, work together) entered theological Latin and gave rise to the concept of divine-human cooperation (cooperatio) in salvation — a concept Protestants would later contest.",
+      "notes": ["Some Greek manuscripts have 'God works all things together for good' (with theos as subject), while others have 'all things work together for good' (without explicit subject). Jerome's omnia cooperantur leaves the subject as 'all things,' which can be read as either providential ordering or as a statement about the inherent tendency of reality for those in God's love."]
+    },
+    {
+      "reference": "Romans 8:29-30",
+      "source_text": "ὅτι οὓς προέγνω, καὶ προώρισεν...οὓς δὲ προώρισεν, τούτους καὶ ἐκάλεσεν· καὶ οὓς ἐκάλεσεν, τούτους καὶ ἐδικαίωσεν",
+      "vulgate_text": "nam quos praescivit et praedestinavit...quos autem praedestinavit hos et vocavit et quos vocavit hos et iustificavit",
+      "vulgate_rendering": "For those whom he foreknew he also predestined...and those he predestined he also called; and those he called he also justified",
+      "tcr_rendering": "For those He foreknew, He also predetermined...and those He predetermined, He also called; and those He called, He also declared righteous",
+      "theological_legacy": "Praedestinavit (predestined) established the Latin term for predestination that dominated Western theology from Augustine through Calvin. The golden chain — praescivit, praedestinavit, vocavit, iustificavit, glorificavit (foreknew, predestined, called, justified, glorified) — became the structural framework for all Western predestination theology.",
+      "notes": ["Jerome's praedestinavit renders Greek proōrisen (determined beforehand). The ordo salutis (order of salvation) derived from this passage became the framework for both Catholic and Protestant systematic theology. The question of whether predestination is based on foreknowledge (Arminian/Catholic) or is unconditional (Augustinian/Calvinist) was debated in Latin categories."]
+    },
+    {
+      "reference": "Romans 9:5",
+      "source_text": "ὧν οἱ πατέρες, καὶ ἐξ ὧν ὁ Χριστὸς τὸ κατὰ σάρκα, ὁ ὢν ἐπὶ πάντων θεὸς εὐλογητός",
+      "vulgate_text": "quorum patres et ex quibus Christus secundum carnem qui est super omnia Deus benedictus",
+      "vulgate_rendering": "Whose are the fathers, and from whom is Christ according to the flesh, who is God over all, blessed",
+      "tcr_rendering": "To them belong the patriarchs, and from them, according to the flesh, is the Messiah — who is over all, God blessed forever",
+      "theological_legacy": "Qui est super omnia Deus benedictus (who is God over all, blessed) — Jerome's punctuation makes this a clear declaration of Christ's divinity: Christ IS God over all. Alternative punctuation could make 'God blessed forever' a separate doxology to the Father. The Vulgate reading became a primary proof-text for Christ's divinity.",
+      "notes": ["The punctuation of this verse is one of the most debated questions in NT textual studies. Jerome's rendering unambiguously identifies Christ as 'God over all, blessed' — a strong divinity claim. Alternative readings separate the doxology: 'Christ according to the flesh. God who is over all be blessed.' Jerome's choice shaped Western Christology."]
+    },
+    {
+      "reference": "Romans 11:33",
+      "source_text": "ὦ βάθος πλούτου καὶ σοφίας καὶ γνώσεως θεοῦ",
+      "vulgate_text": "o altitudo divitiarum sapientiae et scientiae Dei",
+      "vulgate_rendering": "O the depth of the riches of the wisdom and knowledge of God!",
+      "tcr_rendering": "Oh, the depth of the riches and wisdom and knowledge of God!",
+      "theological_legacy": "O altitudo divitiarum sapientiae et scientiae Dei became one of the great doxological exclamations in Latin theology. Altitudo (height/depth) for Greek bathos (depth) slightly changes the spatial metaphor. The verse became a touchstone for theological humility — the acknowledgment that God's ways exceed human comprehension.",
+      "notes": ["Jerome's altitudo can mean either height or depth (cf. English 'altitude'), while Greek bathos specifically means depth. The ambiguity is theologically productive: God's wisdom is both immeasurably deep and unattainably high. The doxology (11:33-36) became a standard conclusion for theological treatises."]
+    },
+    {
+      "reference": "Romans 12:1",
+      "source_text": "παραστῆσαι τὰ σώματα ὑμῶν θυσίαν ζῶσαν ἁγίαν εὐάρεστον τῷ θεῷ, τὴν λογικὴν λατρείαν ὑμῶν",
+      "vulgate_text": "ut exhibeatis corpora vestra hostiam viventem sanctam Deo placentem rationabile obsequium vestrum",
+      "vulgate_rendering": "That you present your bodies as a living sacrifice, holy, pleasing to God — your reasonable service",
+      "tcr_rendering": "to present your bodies as a living sacrifice, holy and acceptable to God — your rational worship",
+      "theological_legacy": "Hostiam viventem (living sacrifice/victim) established the Latin vocabulary for Christian self-offering. Rationabile obsequium (reasonable service/worship) — Jerome renders Greek logikēn latreian as rationabile obsequium, connecting worship to reason. This influenced the Western understanding of worship as rational, deliberate service rather than ecstatic or purely emotional devotion.",
+      "notes": ["Greek logikē latreia (logical/spiritual worship) is rendered as rationabile obsequium (reasonable/rational service). The word rationabile connects to logos/ratio and was read as endorsing worship that engages the mind. This supported the Western liturgical tradition's emphasis on structured, ordered, intellectually coherent worship."]
+    },
+    {
+      "reference": "Romans 13:1-2",
+      "source_text": "πᾶσα ψυχὴ ἐξουσίαις ὑπερεχούσαις ὑποτασσέσθω. οὐ γὰρ ἔστιν ἐξουσία εἰ μὴ ὑπὸ θεοῦ",
+      "vulgate_text": "omnis anima potestatibus sublimioribus subdita sit non est enim potestas nisi a Deo",
+      "vulgate_rendering": "Let every soul be subject to the higher powers, for there is no power except from God",
+      "tcr_rendering": "Let every person be subject to the governing authorities, for there is no authority except from God",
+      "theological_legacy": "Non est potestas nisi a Deo (there is no power except from God) became the foundational text for Western political theology, supporting the divine right of kings, the two-swords doctrine (spiritual and temporal power), and the legitimacy of civil government. The phrase was used to support both absolute monarchy and (paradoxically) the right of the Church to judge temporal rulers.",
+      "notes": ["Jerome's potestas (power, authority) renders Greek exousia. The verse was cited by virtually every Western political theorist from Augustine to Aquinas to Luther to justify obedience to civil authority. It was also used — with very different conclusions — to argue for papal supremacy (all authority comes from God through the Pope) and for secular autonomy (civil authority comes directly from God, not through the Church)."]
+    },
+    {
+      "reference": "Romans 14:17",
+      "source_text": "οὐ γάρ ἐστιν ἡ βασιλεία τοῦ θεοῦ βρῶσις καὶ πόσις, ἀλλὰ δικαιοσύνη καὶ εἰρήνη καὶ χαρὰ ἐν πνεύματι ἁγίῳ",
+      "vulgate_text": "non est enim regnum Dei esca et potus sed iustitia et pax et gaudium in Spiritu Sancto",
+      "vulgate_rendering": "For the kingdom of God is not food and drink, but righteousness and peace and joy in the Holy Spirit",
+      "tcr_rendering": "For the kingdom of God is not eating and drinking, but righteousness and peace and joy in the Holy Spirit",
+      "theological_legacy": "Iustitia et pax et gaudium in Spiritu Sancto (righteousness and peace and joy in the Holy Spirit) became a defining triad for the kingdom of God in Western theology — spiritual realities rather than material observances. The triad influenced Western spirituality's emphasis on interior states over external practices.",
+      "notes": ["Jerome's rendering is faithful. The verse was cited in debates over dietary laws, fasting regulations, and (during the Reformation) over ceremonies and adiaphora (things indifferent). The priority of iustitia, pax, and gaudium over esca et potus supported the interiorization of religion."]
+    },
+    {
+      "reference": "Romans 16:7",
+      "source_text": "ἀσπάσασθε Ἀνδρόνικον καὶ Ἰουνίαν...οἵτινές εἰσιν ἐπίσημοι ἐν τοῖς ἀποστόλοις",
+      "vulgate_text": "salutate Andronicum et Iuniam...qui sunt nobiles in apostolis",
+      "vulgate_rendering": "Greet Andronicus and Junia...who are notable among the apostles",
+      "tcr_rendering": "Greet Andronicus and Junia...who are noteworthy among the apostles",
+      "theological_legacy": "Iuniam (Junia, accusative feminine) — Jerome preserved the feminine name, acknowledging a woman 'notable among the apostles.' Later Latin manuscripts changed this to Iuniam (masculine Junias), but Jerome's original and the patristic consensus recognized a woman apostle. This became significant in modern debates about women in church leadership.",
+      "notes": ["The name in the accusative (Iounian) is ambiguous in Greek — it could be feminine Junia or masculine Junias. Jerome's Iuniam is feminine, and John Chrysostom (Jerome's contemporary) explicitly identifies her as a woman. The masculine reading 'Junias' appeared later and was motivated by discomfort with a female apostle. Modern critical editions have restored the feminine."]
+    },
+    {
+      "reference": "Romans 1:20",
+      "source_text": "τά τε γὰρ ἀόρατα αὐτοῦ ἀπὸ κτίσεως κόσμου τοῖς ποιήμασιν νοούμενα καθορᾶται",
+      "vulgate_text": "invisibilia enim ipsius a creatura mundi per ea quae facta sunt intellecta conspiciuntur",
+      "vulgate_rendering": "For his invisible attributes, since the creation of the world, are clearly seen, being understood through the things that are made",
+      "tcr_rendering": "For His invisible attributes, since the creation of the world, have been clearly seen, being understood through what has been made",
+      "theological_legacy": "Invisibilia ipsius...intellecta conspiciuntur (his invisible things are seen by being understood) became the foundational text for natural theology in Western tradition. Aquinas built his Five Ways on this verse's claim that God's existence and attributes can be rationally perceived through creation. The verse grounded the Catholic teaching that reason can know God apart from special revelation.",
+      "notes": ["Jerome's rendering is faithful. The verse's importance for natural theology — the rational knowledge of God through creation — cannot be overstated. It grounded the medieval scholastic project, was affirmed at Vatican I (1870), and was central to Catholic-Protestant debates about the scope of reason after the Fall."]
+    },
+    {
+      "reference": "Romans 8:31",
+      "source_text": "εἰ ὁ θεὸς ὑπὲρ ἡμῶν, τίς καθ' ἡμῶν;",
+      "vulgate_text": "si Deus pro nobis quis contra nos",
+      "vulgate_rendering": "If God is for us, who is against us?",
+      "tcr_rendering": "If God is for us, who can be against us?",
+      "theological_legacy": "Si Deus pro nobis quis contra nos became one of the most quoted biblical aphorisms in Western culture, used as a motto, inscription, and declaration of confidence. The phrase appears on coats of arms, seals, and buildings throughout the Western world as a statement of invincible divine support.",
+      "notes": ["Jerome's rendering is perfectly literal and achieved extraordinary cultural penetration. The Latin's brevity and rhetorical force made it ideal for inscriptions and mottoes. The verse grounds the Christian confidence that no power can ultimately defeat those who are aligned with God's purposes."]
+    }
+  ]
+}

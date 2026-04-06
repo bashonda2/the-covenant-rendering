@@ -1,0 +1,618 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Matthew",
+    "chapter": 13,
+    "source_text": "SBL Greek New Testament (SBLGNT)",
+    "reference_text": "KJV",
+    "generated_at": "2026-04-04T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Matthew 13 is the third of Matthew's five major discourses — the Parable Discourse. Jesus teaches seven parables about the kingdom of heaven: the sower (with explanation), the wheat and tares (with explanation), the mustard seed, the leaven, the hidden treasure, the pearl of great price, and the dragnet. Interspersed is a discussion with the disciples about why Jesus speaks in parables, a citation of Isaiah 6:9-10 about hearing without understanding, and a quotation of Psalm 78:2. The chapter concludes with Jesus's rejection in his hometown of Nazareth.",
+    "remarkable": "This chapter marks a decisive shift in Jesus's teaching method — from this point, parables become his primary public teaching vehicle. The purpose of parables is paradoxical: they both reveal and conceal. To those with receptive hearts, they illuminate the kingdom's nature; to those with hardened hearts, they confirm blindness (vv. 11-15). The parable of the wheat and tares is unique to Matthew and addresses the coexistence of good and evil within the kingdom community until the final judgment. The series of short parables (mustard seed, leaven, treasure, pearl, net) each capture a different facet of the kingdom's nature.",
+    "friction": "The Isaiah 6:9-10 quotation (vv. 14-15) raises the question of whether parables are designed to prevent understanding. We render Jesus's words and Isaiah's text as given without resolving the tension. The Greek conjunction hina in verse 13 can mean 'in order that' (purpose) or 'so that' (result), and this ambiguity affects whether the concealment is intended or consequential. The identification of the 'field' as 'the world' (v. 38) rather than 'the church' has significant implications for interpreting the wheat and tares.",
+    "connections": "The sower parable connects to the harvest imagery of 9:37-38. The wheat and tares anticipates the separation at the final judgment (25:31-46). The mustard seed echoes Daniel 4's tree that shelters nations. The parables of treasure and pearl echo the wisdom tradition (Proverbs 2:4, 8:11). The Nazareth rejection connects to the broader theme of Israel's unresponsiveness (chs. 11-12). The scribe trained for the kingdom (v. 52) may be Matthew's self-description.\n\n**Tradition comparisons:** JST footnote at Matthew 13:39: Identification of 'the enemy' who sowed tares revised or clarified See the [JST notes](/jst/matthew)."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_greek": "Ἐν τῇ ἡμέρᾳ ἐκείνῃ ἐξελθὼν ὁ Ἰησοῦς τῆς οἰκίας ἐκάθητο παρὰ τὴν θάλασσαν·",
+      "text_kjv": "The same day went Jesus out of the house, and sat by the sea side.",
+      "rendering": "That same day Jesus went out of the house and sat beside the sea.",
+      "translator_notes": [
+        "The phrase en tē hēmera ekeinē ('on that day') links this discourse to the events of chapter 12. The movement from house to seaside establishes the public setting for parabolic teaching. The Sea of Galilee serves as a natural amphitheater."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 2,
+      "text_greek": "καὶ συνήχθησαν πρὸς αὐτὸν ὄχλοι πολλοί, ὥστε αὐτὸν εἰς πλοῖον ἐμβάντα καθῆσθαι, καὶ πᾶς ὁ ὄχλος ἐπὶ τὸν αἰγιαλὸν εἱστήκει.",
+      "text_kjv": "And great multitudes were gathered together unto him, so that he went into a ship, and sat; and the whole multitude stood on the shore.",
+      "rendering": "Such large crowds gathered around him that he got into a boat and sat down, while the whole crowd stood on the shore.",
+      "translator_notes": [
+        "The sitting position (kathēsthai) was the standard posture for teaching in the ancient world. The boat creates natural distance and acoustics. The crowd standing (heistēkei) on the shore while Jesus sits in the boat reverses the typical rabbi-student arrangement and creates a visual tableau."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 3,
+      "text_greek": "καὶ ἐλάλησεν αὐτοῖς πολλὰ ἐν παραβολαῖς λέγων· Ἰδοὺ ἐξῆλθεν ὁ σπείρων τοῦ σπείρειν.",
+      "text_kjv": "And he spake many things unto them in parables, saying, Behold, a sower went forth to sow;",
+      "rendering": "He told them many things in parables, saying: \"A sower went out to sow.",
+      "translator_notes": [
+        "The noun parabolē ('parable,' from para + ballō, 'to throw alongside') refers to a comparison or illustration that places a familiar image alongside a spiritual truth. The sower parable is the foundational parable — its interpretation governs how all subsequent parables are read. The phrase ho speirōn ('the sower') uses the article, suggesting a representative or well-known figure."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 4,
+      "text_greek": "καὶ ἐν τῷ σπείρειν αὐτὸν ἃ μὲν ἔπεσεν παρὰ τὴν ὁδόν, καὶ ἐλθόντα τὰ πετεινὰ κατέφαγεν αὐτά.",
+      "text_kjv": "And when he sowed, some seeds fell by the way side, and the fowls came and devoured them up:",
+      "rendering": "As he was sowing, some seed fell along the path, and the birds came and ate it up.",
+      "translator_notes": [
+        "Palestinian farmers sowed by broadcasting seed across a field. The path (para tēn hodon) was the hard-packed pathway through or alongside the field where seed could not penetrate the soil. The birds (ta peteina) are identified as representing 'the evil one' in verse 19."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 5,
+      "text_greek": "ἄλλα δὲ ἔπεσεν ἐπὶ τὰ πετρώδη ὅπου οὐκ εἶχεν γῆν πολλήν, καὶ εὐθέως ἐξανέτειλεν διὰ τὸ μὴ ἔχειν βάθος γῆς·",
+      "text_kjv": "Some fell upon stony places, where they had not much earth: and forthwith they sprung up, because they had no deepness of earth:",
+      "rendering": "Other seed fell on rocky ground where it did not have much soil. It sprang up quickly because the soil was shallow,",
+      "translator_notes": [
+        "The petrōdē ('rocky ground') refers not to ground with scattered stones but to thin soil over a limestone shelf — common in the Galilean landscape. The rapid growth (eutheōs exaneteilen, 'immediately it sprang up') is not a sign of health but of shallow rooting. Without depth (bathos gēs, 'depth of earth'), the growth is superficial."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 6,
+      "text_greek": "ἡλίου δὲ ἀνατείλαντος ἐκαυματίσθη καὶ διὰ τὸ μὴ ἔχειν ῥίζαν ἐξηράνθη.",
+      "text_kjv": "And when the sun was up, they were scorched; and because they had no root, they withered away.",
+      "rendering": "When the sun was up, they were scorched. And on account of the fact that they had no root, they withered away.",
+      "translator_notes": [
+        "The sun that nurtures deep-rooted plants destroys shallow-rooted ones — the same external pressure produces opposite outcomes depending on root depth. The verb exēranthē ('withered, dried up') describes complete death, not temporary wilting."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 7,
+      "text_greek": "ἄλλα δὲ ἔπεσεν ἐπὶ τὰς ἀκάνθας, καὶ ἀνέβησαν αἱ ἄκανθαι καὶ ἔπνιξαν αὐτά.",
+      "text_kjv": "And some fell among thorns; and the thorns sprung up, and choked them:",
+      "rendering": "Other seed fell among thorns, and the thorns grew up and choked it.",
+      "translator_notes": [
+        "The akanthas ('thorns, thistles') represent competing plants that were already present in the soil. The verb epnixan ('choked, strangled') is violent — the thorns suffocated the grain by stealing light, water, and nutrients. This soil type has potential for growth but competing forces prevent fruitfulness."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 8,
+      "text_greek": "ἄλλα δὲ ἔπεσεν ἐπὶ τὴν γῆν τὴν καλὴν καὶ ἐδίδου καρπόν, ὃ μὲν ἑκατόν, ὃ δὲ ἑξήκοντα, ὃ δὲ τριάκοντα.",
+      "text_kjv": "But other fell into good ground, and brought forth fruit, some an hundredfold, some sixtyfold, some thirtyfold.",
+      "rendering": "Still other seed fell on good soil and produced a crop — some a hundred times, some sixty, some thirty what was sown.",
+      "translator_notes": [
+        "The good soil (gēn tēn kalēn) is distinguished by its fruitfulness. The yields — hundredfold, sixtyfold, thirtyfold — range from extraordinary to very good. In ancient Palestine, a tenfold return was considered good; even the lowest yield here (thirtyfold) far exceeds normal expectations. The descending order (100, 60, 30) may suggest that any productive response to the word, whatever the degree, represents good soil."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 9,
+      "text_greek": "ὁ ἔχων ὦτα ἀκουέτω.",
+      "text_kjv": "Who hath ears to hear, let him hear.",
+      "rendering": "Whoever has ears, let them hear.\"",
+      "translator_notes": [
+        "The refrain from 11:15 returns, signaling that the parable demands more than surface hearing. The plural ōta ('ears') may suggest that physical hearing is not the issue — spiritual perception is required."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 10,
+      "text_greek": "Καὶ προσελθόντες οἱ μαθηταὶ εἶπαν αὐτῷ· Διὰ τί ἐν παραβολαῖς λαλεῖς αὐτοῖς;",
+      "text_kjv": "And the disciples came, and said unto him, Why speakest thou unto them in parables?",
+      "rendering": "The disciples came and asked him, \"Why do you speak to them in parables?\"",
+      "translator_notes": [
+        "The disciples' question dia ti ('why?') indicates that parabolic teaching is a new method. The pronoun autois ('to them') distinguishes the crowds from the disciples — the disciples receive private explanation while the crowds receive parables."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 11,
+      "text_greek": "ὁ δὲ ἀποκριθεὶς εἶπεν αὐτοῖς· Ὅτι ὑμῖν δέδοται γνῶναι τὰ μυστήρια τῆς βασιλείας τῶν οὐρανῶν, ἐκείνοις δὲ οὐ δέδοται.",
+      "text_kjv": "He answered and said unto them, Because it is given unto you to know the mysteries of the kingdom of heaven, but to them it is not given.",
+      "rendering": "He answered, \"To you it has been given to know the mysteries of the kingdom of heaven, but to them it has not been given.",
+      "translator_notes": [
+        "The divine passive dedotai ('it has been given') indicates that understanding is a gift from God, not an achievement of intellect. The word mystēria ('mysteries') does not mean 'puzzles' but 'revealed secrets' — truths about God's kingdom that have been hidden and are now being disclosed to the initiated. The distinction between 'you' (the disciples) and 'them' (the crowds) reflects the growing division in response to Jesus."
+      ],
+      "key_terms": [
+        {
+          "greek": "μυστήριον",
+          "transliteration": "mystērion",
+          "rendered_as": "mysteries",
+          "semantic_range": "mystery, secret, hidden truth, divine plan previously concealed",
+          "note": "In the New Testament, mystērion refers not to something unknowable but to something previously hidden in God's plan that is now being revealed. The kingdom's mysteries are available to those with ears to hear."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 12,
+      "text_greek": "ὅστις γὰρ ἔχει, δοθήσεται αὐτῷ καὶ περισσευθήσεται· ὅστις δὲ οὐκ ἔχει, καὶ ὃ ἔχει ἀρθήσεται ἀπ' αὐτοῦ.",
+      "text_kjv": "For whosoever hath, to him shall be given, and he shall have more abundance: but whosoever hath not, from him shall be taken away even that he hath.",
+      "rendering": "For whoever has will be given more, and will have an abundance. But whoever does not have, even what he has will be taken away from him.",
+      "translator_notes": [
+        "This saying appears paradoxical and even harsh. The 'having' in question is receptivity to the kingdom message — those who respond to what they have received will receive more understanding, while those who refuse to engage will lose even the initial exposure they had. The principle is spiritual, not economic: responsiveness to truth generates more truth; indifference leads to loss."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 13,
+      "text_greek": "διὰ τοῦτο ἐν παραβολαῖς αὐτοῖς λαλῶ, ὅτι βλέποντες οὐ βλέπουσιν καὶ ἀκούοντες οὐκ ἀκούουσιν οὐδὲ συνιοῦσιν·",
+      "text_kjv": "Therefore speak I to them in parables: because they seeing see not; and hearing they hear not, neither do they understand.",
+      "rendering": "This is why I speak to them in parables: because seeing they do not see, and hearing they do not hear or understand.",
+      "translator_notes": [
+        "Matthew uses hoti ('because') where Mark 4:12 has hina ('in order that'), softening the purpose clause into a causal explanation. The parables are given because the people have already demonstrated their inability to perceive — the parables respond to existing spiritual blindness rather than causing it. The paradox of seeing-without-seeing and hearing-without-hearing describes willful incomprehension."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 14,
+      "text_greek": "καὶ ἀναπληροῦται αὐτοῖς ἡ προφητεία Ἠσαΐου ἡ λέγουσα· Ἀκοῇ ἀκούσετε καὶ οὐ μὴ συνῆτε, καὶ βλέποντες βλέψετε καὶ οὐ μὴ ἴδητε·",
+      "text_kjv": "And in them is fulfilled the prophecy of Esaias, which saith, By hearing ye shall hear, and shall not understand; and seeing ye shall see, and shall not perceive:",
+      "rendering": "In them the prophecy of Isaiah is fulfilled, which says: 'You will hear and hear but never understand; you will look and look but never perceive.",
+      "translator_notes": [
+        "The verb anaplēroutai ('is being fulfilled') is present tense — the fulfillment is happening now, in this moment. The quotation from Isaiah 6:9-10 was originally spoken to Isaiah at his commissioning, describing the stubborn unresponsiveness of Israel. Matthew sees the same pattern repeating. The emphatic doubling — akoē akousete ('hearing you will hear'), blepontes blepsete ('seeing you will see') — stresses the thoroughness of the incomprehension.",
+        "[TCR Cross-Reference] Echoes Isaiah 6:9-10. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 15,
+      "text_greek": "ἐπαχύνθη γὰρ ἡ καρδία τοῦ λαοῦ τούτου, καὶ τοῖς ὠσὶν βαρέως ἤκουσαν καὶ τοὺς ὀφθαλμοὺς αὐτῶν ἐκάμμυσαν, μήποτε ἴδωσιν τοῖς ὀφθαλμοῖς καὶ τοῖς ὠσὶν ἀκούσωσιν καὶ τῇ καρδίᾳ συνῶσιν καὶ ἐπιστρέψωσιν, καὶ ἰάσομαι αὐτούς.",
+      "text_kjv": "For this people's heart is waxed gross, and their ears are dull of hearing, and their eyes they have closed; lest at any time they should see with their eyes, and hear with their ears, and should understand with their heart, and should be converted, and I should heal them.",
+      "rendering": "For this people's heart has grown dull, and with their ears they barely hear, and they have shut their eyes, so that they might not see with their eyes and hear with their ears and understand with their heart and turn — and I would heal them.'",
+      "translator_notes": [
+        "The verb epachynthē ('has grown fat, has become dull') describes a heart that has become insensitive through accumulated resistance. The Isaiah passage attributes the closure to the people themselves (tous ophthalmous ekammysan, 'they have shut their eyes') — this is self-inflicted blindness. The sequence — see, hear, understand, turn, be healed — represents the progression that has been blocked. The conditional 'I would heal them' (iasomai autous) reveals God's desire to heal, frustrated by human refusal.",
+        "[TCR Cross-Reference] This verse quotes Isaiah 6:9-10 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 16,
+      "text_greek": "ὑμῶν δὲ μακάριοι οἱ ὀφθαλμοὶ ὅτι βλέπουσιν καὶ τὰ ὦτα ὑμῶν ὅτι ἀκούουσιν.",
+      "text_kjv": "But blessed are your eyes, for they see: and your ears, for they hear.",
+      "rendering": "But blessed are your eyes because they see, and your ears because they hear.",
+      "translator_notes": [
+        "After the harsh words about the unresponsive crowds, Jesus turns to the disciples with a contrasting beatitude. Their seeing and hearing is a gift (cf. v. 11) — they are privileged witnesses to the kingdom's arrival."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 17,
+      "text_greek": "ἀμὴν γὰρ λέγω ὑμῖν ὅτι πολλοὶ προφῆται καὶ δίκαιοι ἐπεθύμησαν ἰδεῖν ἃ βλέπετε καὶ οὐκ εἶδαν, καὶ ἀκοῦσαι ἃ ἀκούετε καὶ οὐκ ἤκουσαν.",
+      "text_kjv": "For verily I say unto you, That many prophets and righteous men have desired to see those things which ye see, and have not seen them; and to hear those things which ye hear, and have not heard them.",
+      "rendering": "For truly I tell you, many prophets and righteous people longed to see what you see but did not see it, and to hear what you hear but did not hear it.",
+      "translator_notes": [
+        "The verb epethymēsan ('longed, desired earnestly') expresses intense, unfulfilled desire. The prophets and righteous people of Israel's history anticipated the messianic age but did not live to see it. The disciples are living in the era the entire Old Testament pointed toward — a privilege greater than they realize."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 18,
+      "text_greek": "Ὑμεῖς οὖν ἀκούσατε τὴν παραβολὴν τοῦ σπείραντος.",
+      "text_kjv": "Hear ye therefore the parable of the sower.",
+      "rendering": "Listen then to the parable of the sower.",
+      "translator_notes": [
+        "The imperative akousate ('listen, hear') is emphatic — you who have been given the gift of hearing, now use it. The phrase tēn parabolēn tou speirantos ('the parable of the one who sowed') identifies this as the interpretive key for the others."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 19,
+      "text_greek": "παντὸς ἀκούοντος τὸν λόγον τῆς βασιλείας καὶ μὴ συνιέντος ἔρχεται ὁ πονηρὸς καὶ ἁρπάζει τὸ ἐσπαρμένον ἐν τῇ καρδίᾳ αὐτοῦ, οὗτός ἐστιν ὁ παρὰ τὴν ὁδὸν σπαρείς.",
+      "text_kjv": "When any one heareth the word of the kingdom, and understandeth it not, then cometh the wicked one, and catcheth away that which was sown in his heart. This is he which received seed by the way side.",
+      "rendering": "When anyone hears the word of the kingdom and does not understand it, the evil one comes and snatches away what was sown in his heart. This is the seed sown along the path.",
+      "translator_notes": [
+        "The interpretation identifies the seed as ton logon tēs basileias ('the word of the kingdom') — the message about God's reign. The birds of verse 4 are identified as ho ponēros ('the evil one,' Satan). The failure is comprehension — mē synientos ('not understanding') — the word never takes root because it is never grasped. The verb harpazei ('snatches away') is violent, depicting active opposition."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 20,
+      "text_greek": "ὁ δὲ ἐπὶ τὰ πετρώδη σπαρείς, οὗτός ἐστιν ὁ τὸν λόγον ἀκούων καὶ εὐθὺς μετὰ χαρᾶς λαμβάνων αὐτόν·",
+      "text_kjv": "But he that received the seed into stony places, the same is he that heareth the word, and anon with joy receiveth it;",
+      "rendering": "The seed sown on rocky ground is the person who hears the word and immediately receives it with joy,",
+      "translator_notes": [
+        "The immediate, joyful response (euthys meta charas lambanōn, 'immediately with joy receiving') sounds positive but proves shallow. Quick enthusiasm without depth of commitment characterizes this soil type. The joy is genuine but superficial."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 21,
+      "text_greek": "οὐκ ἔχει δὲ ῥίζαν ἐν ἑαυτῷ ἀλλὰ πρόσκαιρός ἐστιν, γενομένης δὲ θλίψεως ἢ διωγμοῦ διὰ τὸν λόγον εὐθὺς σκανδαλίζεται.",
+      "text_kjv": "Yet hath he not root in himself, but dureth for a while: for when tribulation or persecution ariseth because of the word, by and by he is offended.",
+      "rendering": "Indeed, yet has he not root in himself, but dureth for a while — for when tribulation or persecution ariseth because of the message, by and by he is offended.",
+      "translator_notes": [
+        "The phrase ouk echei rhizan en heautō ('has no root in himself') describes internal shallowness — the word has not penetrated deeply enough to sustain the person through difficulty. The word proskairos ('temporary, short-lived, lasting only for a season') contrasts with the enduring fruit of good soil. The verb skandalizetai ('is caused to stumble, falls away') — the stumbling block that trips this person is suffering, not temptation."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 22,
+      "text_greek": "ὁ δὲ εἰς τὰς ἀκάνθας σπαρείς, οὗτός ἐστιν ὁ τὸν λόγον ἀκούων, καὶ ἡ μέριμνα τοῦ αἰῶνος καὶ ἡ ἀπάτη τοῦ πλούτου συμπνίγει τὸν λόγον καὶ ἄκαρπος γίνεται.",
+      "text_kjv": "He also that received seed among the thorns is he that heareth the word; and the care of this world, and the deceitfulness of riches, choke the word, and he becometh unfruitful.",
+      "rendering": "The seed sown among the thorns is the person who hears the word, but the worries of this age and the deceitfulness of wealth choke the word, and it becomes unfruitful.",
+      "translator_notes": [
+        "Two thorns are named: hē merimna tou aiōnos ('the worry/anxiety of this age') — the same worry Jesus addressed in 6:25-34 — and hē apatē tou ploutou ('the deceitfulness of wealth'). The word apatē ('deceit, seduction') treats wealth as an active deceiver, not a passive possession. The result is akarpos ('unfruitful') — the word survives but produces nothing."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 23,
+      "text_greek": "ὁ δὲ ἐπὶ τὴν καλὴν γῆν σπαρείς, οὗτός ἐστιν ὁ τὸν λόγον ἀκούων καὶ συνιείς, ὃς δὴ καρποφορεῖ καὶ ποιεῖ ὃ μὲν ἑκατόν, ὃ δὲ ἑξήκοντα, ὃ δὲ τριάκοντα.",
+      "text_kjv": "But he that received seed into the good ground is he that heareth the word, and understandeth it; which also beareth fruit, and bringeth forth, some an hundredfold, some sixty, some thirty.",
+      "rendering": "But the seed sown on good soil is the person who hears the word and understands it, who indeed bears fruit and produces — some a hundred, some sixty, some thirty times what was sown.\"",
+      "translator_notes": [
+        "The distinguishing mark of good soil is synieis ('understanding') — the word that was absent from the path soil (v. 19). Hearing plus understanding equals fruitfulness. The verb karpophorei ('bears fruit') is the goal of the entire parable. The varying yields (100, 60, 30) allow for different degrees of fruitfulness without disqualifying any productive response."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 24,
+      "text_greek": "Ἄλλην παραβολὴν παρέθηκεν αὐτοῖς λέγων· Ὡμοιώθη ἡ βασιλεία τῶν οὐρανῶν ἀνθρώπῳ σπείραντι καλὸν σπέρμα ἐν τῷ ἀγρῷ αὐτοῦ.",
+      "text_kjv": "Another parable put he forth unto them, saying, The kingdom of heaven is likened unto a man which sowed good seed in his field:",
+      "rendering": "He put another parable before them: \"The kingdom of heaven may be compared to a man who sowed good seed in his field.",
+      "translator_notes": [
+        "The formula hōmoiōthē hē basileia tōn ouranōn ('the kingdom of heaven has become like') introduces the comparison. This parable is unique to Matthew. The 'good seed' (kalon sperma) and 'his field' (en tō agrō autou) establish the owner's rightful possession and proper action."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 25,
+      "text_greek": "ἐν δὲ τῷ καθεύδειν τοὺς ἀνθρώπους ἦλθεν αὐτοῦ ὁ ἐχθρὸς καὶ ἐπέσπειρεν ζιζάνια ἀνὰ μέσον τοῦ σίτου καὶ ἀπῆλθεν.",
+      "text_kjv": "But while men slept, his enemy came and sowed tares among the wheat, and went his way.",
+      "rendering": "But while everyone was sleeping, his enemy came and sowed weeds among the wheat, and went away.",
+      "translator_notes": [
+        "The zizania ('weeds') is commonly identified as darnel (Lolium temulentum), a weed that closely resembles wheat in its early growth stages and cannot be distinguished until the grain heads form. Deliberately sowing darnel in an enemy's field was a known act of sabotage in the ancient world, serious enough to be addressed in Roman law. The enemy acts secretly (en tō katheudein, 'while sleeping') and departs (apēlthen) — evil often works covertly."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 26,
+      "text_greek": "ὅτε δὲ ἐβλάστησεν ὁ χόρτος καὶ καρπὸν ἐποίησεν, τότε ἐφάνη καὶ τὰ ζιζάνια.",
+      "text_kjv": "But when the blade was sprung up, and brought forth fruit, then appeared the tares also.",
+      "rendering": "When the plants sprouted and produced grain, then the weeds also appeared.",
+      "translator_notes": [
+        "The weeds become visible only when the grain appears — at the earlier stages, wheat and darnel are indistinguishable. The word ephanē ('appeared, became visible') marks the moment of revelation."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 27,
+      "text_greek": "προσελθόντες δὲ οἱ δοῦλοι τοῦ οἰκοδεσπότου εἶπον αὐτῷ· Κύριε, οὐχὶ καλὸν σπέρμα ἔσπειρας ἐν τῷ σῷ ἀγρῷ; πόθεν οὖν ἔχει ζιζάνια;",
+      "text_kjv": "So the servants of the householder came and said unto him, Sir, didst not thou sow good seed in thy field? from whence then hath it tares?",
+      "rendering": "The owner's servants came and said to him, 'Master, didn't you sow good seed in your field? Where then did the weeds come from?'",
+      "translator_notes": [
+        "The servants' question addresses the problem of evil in miniature: if the owner sowed good seed, where did the weeds come from? The word pothen ('from where?') asks about origin — the question humanity has always asked about the presence of evil in God's good creation."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 28,
+      "text_greek": "ὁ δὲ ἔφη αὐτοῖς· Ἐχθρὸς ἄνθρωπος τοῦτο ἐποίησεν. οἱ δὲ δοῦλοι λέγουσιν αὐτῷ· Θέλεις οὖν ἀπελθόντες συλλέξωμεν αὐτά;",
+      "text_kjv": "He said unto them, An enemy hath done this. The servants said unto him, Wilt thou then that we go and gather them up?",
+      "rendering": "He said to them, 'An enemy has done this.' The servants said to him, 'Then do you want us to go and pull them up?'",
+      "translator_notes": [
+        "The master's answer echthros anthrōpos ('an enemy person, a hostile man') identifies the source simply and directly. The servants' eagerness to remove the weeds immediately (syllexōmen, 'shall we gather/collect them?') represents the human impulse to purge evil from the community immediately and completely."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 29,
+      "text_greek": "ὁ δέ φησιν· Οὔ, μήποτε συλλέγοντες τὰ ζιζάνια ἐκριζώσητε ἅμα αὐτοῖς τὸν σῖτον·",
+      "text_kjv": "But he said, Nay; lest while ye gather up the tares, ye root up also the wheat with them.",
+      "rendering": "He said, 'No, because while gathering the weeds you might uproot the wheat along with them.",
+      "translator_notes": [
+        "The master's refusal is practical — darnel roots intertwine with wheat roots, making selective removal impossible without destroying good plants. The theological implication: premature judgment of the community risks destroying genuine believers. The verb ekrizōsēte ('might uproot') describes tearing out by the roots — total destruction."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 30,
+      "text_greek": "ἄφετε συναυξάνεσθαι ἀμφότερα ἕως τοῦ θερισμοῦ, καὶ ἐν καιρῷ τοῦ θερισμοῦ ἐρῶ τοῖς θερισταῖς· Συλλέξατε πρῶτον τὰ ζιζάνια καὶ δήσατε αὐτὰ εἰς δέσμας πρὸς τὸ κατακαῦσαι αὐτά, τὸν δὲ σῖτον συναγάγετε εἰς τὴν ἀποθήκην μου.",
+      "text_kjv": "Let both grow together until the harvest: and in the time of harvest I will say to the reapers, Gather ye together first the tares, and bind them in bundles to burn them: but gather the wheat into my barn.",
+      "rendering": "Let both grow together until the harvest. At harvest time I will tell the reapers: First collect the weeds and tie them in bundles to be burned, then gather the wheat into my barn.'\"",
+      "translator_notes": [
+        "The command aphete synauxanesthai ('let them grow together') requires patience — coexistence of good and evil within the kingdom community until God's appointed time. The therismos ('harvest') is the final judgment (v. 39). The order is significant: weeds are gathered first for burning, then wheat is gathered into the barn. The barn (apothēkēn) represents the final secure dwelling of the righteous."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 31,
+      "text_greek": "Ἄλλην παραβολὴν παρέθηκεν αὐτοῖς λέγων· Ὁμοία ἐστὶν ἡ βασιλεία τῶν οὐρανῶν κόκκῳ σινάπεως, ὃν λαβὼν ἄνθρωπος ἔσπειρεν ἐν τῷ ἀγρῷ αὐτοῦ·",
+      "text_kjv": "Another parable put he forth unto them, saying, The kingdom of heaven is like to a grain of mustard seed, which a man took, and sowed in his field:",
+      "rendering": "He put another parable before them: \"The kingdom of heaven is like a mustard seed that a man took and planted in his field.",
+      "translator_notes": [
+        "The kokkō sinapeōs ('mustard seed,' from the plant Sinapis nigra or Brassica nigra) was proverbially the smallest seed known in Palestine. Jesus uses the smallest to illustrate the kingdom's beginnings. The kingdom starts imperceptibly small."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 32,
+      "text_greek": "ὃ μικρότερον μέν ἐστιν πάντων τῶν σπερμάτων, ὅταν δὲ αὐξηθῇ μεῖζον τῶν λαχάνων ἐστὶν καὶ γίνεται δένδρον, ὥστε ἐλθεῖν τὰ πετεινὰ τοῦ οὐρανοῦ καὶ κατασκηνοῖν ἐν τοῖς κλάδοις αὐτοῦ.",
+      "text_kjv": "Which indeed is the least of all seeds: but when it is grown, it is the greatest among herbs, and becometh a tree, so that the birds of the air come and lodge in the branches thereof.",
+      "rendering": "It is the smallest of all seeds, but when it has grown it is the largest of garden plants and becomes a tree, so that the birds of the sky come and nest in its branches.\"",
+      "translator_notes": [
+        "The contrast between mikroteron pantōn tōn spermatōn ('smallest of all seeds') and meizon tōn lachanōn ('largest of garden plants') captures the kingdom's trajectory from insignificant beginning to impressive result. The mustard plant can grow to 8-10 feet. The image of birds nesting in branches echoes Daniel 4:12 (Nebuchadnezzar's tree) and Ezekiel 17:23, 31:6, where a great tree sheltering birds symbolizes a kingdom that provides refuge for all nations.",
+        "[TCR Cross-Reference] Draws on Daniel 4:12. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices.",
+        "[TCR Cross-Reference] Draws on Ezekiel 17:23. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 33,
+      "text_greek": "Ἄλλην παραβολὴν ἐλάλησεν αὐτοῖς· Ὁμοία ἐστὶν ἡ βασιλεία τῶν οὐρανῶν ζύμῃ, ἣν λαβοῦσα γυνὴ ἐνέκρυψεν εἰς ἀλεύρου σάτα τρία ἕως οὗ ἐζυμώθη ὅλον.",
+      "text_kjv": "Another parable spake he unto them; The kingdom of heaven is like unto leaven, which a woman took, and hid in three measures of meal, till the whole was leavened.",
+      "rendering": "He told them another parable: \"The kingdom of heaven is like leaven that a woman took and mixed into three measures of flour until all of it was leavened.\"",
+      "translator_notes": [
+        "Leaven (zymē) is usually a negative symbol in Jewish tradition (cf. 16:6, 'leaven of the Pharisees'), making its positive use here surprising. The verb enekrypsen ('hid, concealed') emphasizes the invisible nature of the kingdom's working. Three measures (sata tria) of flour is an enormous quantity — approximately 50 pounds, enough to feed over 100 people. This echoes the amount Sarah prepared for the three visitors in Genesis 18:6 (three seahs). The point: a tiny amount of leaven transforms a massive quantity of dough.",
+        "[TCR Cross-Reference] References Genesis 18:6 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 34,
+      "text_greek": "Ταῦτα πάντα ἐλάλησεν ὁ Ἰησοῦς ἐν παραβολαῖς τοῖς ὄχλοις, καὶ χωρὶς παραβολῆς οὐδὲν ἐλάλει αὐτοῖς·",
+      "text_kjv": "All these things spake Jesus unto the multitude in parables; and without a parable spake he not unto them:",
+      "rendering": "Jesus spoke all these things to the crowds in parables. He did not say anything to them without a parable,",
+      "translator_notes": [
+        "The statement chōris parabolēs ouden elalei autois ('without a parable he said nothing to them') applies to this occasion and phase of ministry, not to Jesus's entire teaching career — he taught directly in the Sermon on the Mount (chs. 5-7). The shift to exclusively parabolic public teaching marks a new phase."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 35,
+      "text_greek": "ὅπως πληρωθῇ τὸ ῥηθὲν διὰ τοῦ προφήτου λέγοντος· Ἀνοίξω ἐν παραβολαῖς τὸ στόμα μου, ἐρεύξομαι κεκρυμμένα ἀπὸ καταβολῆς [κόσμου].",
+      "text_kjv": "That it might be fulfilled which was spoken by the prophet, saying, I will open my mouth in parables; I will utter things which have been kept secret from the foundation of the world.",
+      "rendering": "Indeed, that it could be fulfilled which had been spoken by the prophet of old and stated, I will open my mouth in parables. I will utter things which have been kept secret from the foundation of the world.",
+      "translator_notes": [
+        "The quotation is from Psalm 78:2, attributed to 'the prophet' (some manuscripts add 'Isaiah,' but the SBLGNT does not). The psalmist Asaph speaks of recounting Israel's history as parables. Matthew applies this to Jesus's parabolic teaching as revealing kekrymmena apo katabolēs kosmou ('things hidden since the foundation/creation of the world') — the kingdom truths that have been concealed in God's plan since creation itself.",
+        "[TCR Cross-Reference] This verse quotes Psalms 78:2 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 36,
+      "text_greek": "Τότε ἀφεὶς τοὺς ὄχλους ἦλθεν εἰς τὴν οἰκίαν. καὶ προσῆλθον αὐτῷ οἱ μαθηταὶ αὐτοῦ λέγοντες· Διασάφησον ἡμῖν τὴν παραβολὴν τῶν ζιζανίων τοῦ ἀγροῦ.",
+      "text_kjv": "Then Jesus sent the multitude away, and went into the house: and his disciples came unto him, saying, Declare unto us the parable of the tares of the field.",
+      "rendering": "Then he left the crowds and went into the house. His disciples came to him, saying, \"Explain to us the parable of the weeds in the field.\"",
+      "translator_notes": [
+        "The shift from public seaside teaching to private house instruction mirrors the pattern of the sower parable. The verb diasaphēson ('explain clearly, make plain') indicates the disciples cannot interpret the wheat-and-weeds parable without help."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 37,
+      "text_greek": "ὁ δὲ ἀποκριθεὶς εἶπεν· Ὁ σπείρων τὸ καλὸν σπέρμα ἐστὶν ὁ υἱὸς τοῦ ἀνθρώπου·",
+      "text_kjv": "He answered and said unto them, He that soweth the good seed is the Son of man;",
+      "rendering": "He answered, \"The one who sows the good seed is the Son of Man.",
+      "translator_notes": [
+        "The allegorical interpretation begins with a series of identifications. The sower is the Son of Man — Jesus himself. This makes the parable autobiographical: Jesus is the one planting good seed in the world."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 38,
+      "text_greek": "ὁ δὲ ἀγρός ἐστιν ὁ κόσμος· τὸ δὲ καλὸν σπέρμα, οὗτοί εἰσιν οἱ υἱοὶ τῆς βασιλείας· τὰ δὲ ζιζάνιά εἰσιν οἱ υἱοὶ τοῦ πονηροῦ·",
+      "text_kjv": "The field is the world; the good seed are the children of the kingdom; but the tares are the children of the wicked one;",
+      "rendering": "The field is the world. The good seed — these are the sons of the kingdom. The weeds are the sons of the evil one.",
+      "translator_notes": [
+        "The identification ho agros estin ho kosmos ('the field is the world') is significant — the field is not the church but the world. This means the coexistence of wheat and weeds is a reality of the world at large, not merely a problem within the church community. The 'sons of the kingdom' (huioi tēs basileias) and 'sons of the evil one' (huioi tou ponērou) live intermixed in the same world until the harvest."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 39,
+      "text_greek": "ὁ δὲ ἐχθρὸς ὁ σπείρας αὐτά ἐστιν ὁ διάβολος· ὁ δὲ θερισμὸς συντέλεια αἰῶνός ἐστιν, οἱ δὲ θερισταὶ ἄγγελοί εἰσιν.",
+      "text_kjv": "The enemy that sowed them is the devil; the harvest is the end of the world; and the reapers are the angels.",
+      "rendering": "The enemy who sowed them is the devil. The harvest is the end of the age, and the reapers are angels.",
+      "translator_notes": [
+        "The enemy is identified as ho diabolos ('the devil,' literally 'the slanderer/accuser'). The harvest is the synteleia aiōnos ('completion/culmination of the age') — not the 'end of the world' (KJV) but the conclusion of the present age that gives way to the age to come. The reapers are angels, not humans — the final sorting is God's work through his heavenly agents."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 40,
+      "text_greek": "ὥσπερ οὖν συλλέγεται τὰ ζιζάνια καὶ πυρὶ [κατα]καίεται, οὕτως ἔσται ἐν τῇ συντελείᾳ τοῦ αἰῶνος·",
+      "text_kjv": "As therefore the tares are gathered and burned in the fire; so shall it be in the end of this world.",
+      "rendering": "Just as the weeds are gathered and burned in the fire, so it will be at the end of the age.",
+      "translator_notes": [
+        "The analogy moves from agricultural practice (burning weeds) to eschatological reality. The verb katakaietai ('is burned up') describes complete destruction. The phrase en tē synteleia tou aiōnos ('at the completion of the age') repeats from verse 39."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 41,
+      "text_greek": "ἀποστελεῖ ὁ υἱὸς τοῦ ἀνθρώπου τοὺς ἀγγέλους αὐτοῦ, καὶ συλλέξουσιν ἐκ τῆς βασιλείας αὐτοῦ πάντα τὰ σκάνδαλα καὶ τοὺς ποιοῦντας τὴν ἀνομίαν",
+      "text_kjv": "The Son of man shall send forth his angels, and they shall gather out of his kingdom all things that offend, and them which do iniquity;",
+      "rendering": "The Son of Man will send his angels, and they will collect out of his kingdom everything that causes sin and all who practice lawlessness,",
+      "translator_notes": [
+        "The Son of Man sends 'his angels' (tous aggelous autou) — a claim to authority over the heavenly host that belongs to God alone. They collect ta skandala ('stumbling blocks, things that cause sin') and tous poiountas tēn anomian ('those who practice lawlessness'). The word anomia ('lawlessness') is a key Matthean term (7:23, 23:28, 24:12) describing not ignorance of the law but willful disregard for God's will."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 42,
+      "text_greek": "καὶ βαλοῦσιν αὐτοὺς εἰς τὴν κάμινον τοῦ πυρός· ἐκεῖ ἔσται ὁ κλαυθμὸς καὶ ὁ βρυγμὸς τῶν ὀδόντων.",
+      "text_kjv": "And shall cast them into a furnace of fire: there shall be wailing and gnashing of teeth.",
+      "rendering": "Will cast them into a furnace of fire — there will be wailing and gnashing of teeth.",
+      "translator_notes": [
+        "The kaminon tou pyros ('furnace of fire') echoes Daniel 3, where the three young men were thrown into a furnace. The phrase ho klauthmos kai ho brygmos tōn odontōn ('weeping and gnashing of teeth') recurs from 8:12 and appears again in 13:50, 22:13, 24:51, 25:30.",
+        "[TCR Cross-Reference] Draws on Daniel 3. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 43,
+      "text_greek": "τότε οἱ δίκαιοι ἐκλάμψουσιν ὡς ὁ ἥλιος ἐν τῇ βασιλείᾳ τοῦ πατρὸς αὐτῶν. ὁ ἔχων ὦτα ἀκουέτω.",
+      "text_kjv": "Then shall the righteous shine forth as the sun in the kingdom of their Father. Who hath ears to hear, let him hear.",
+      "rendering": "Then the righteous will shine like the sun in the kingdom of their Father. Whoever has ears, let them hear.",
+      "translator_notes": [
+        "The promise eklamphousin hōs ho hēlios ('will shine forth like the sun') echoes Daniel 12:3 ('those who are wise will shine like the brightness of the sky'). The image of luminous glorification describes the final state of the righteous. The phrase tē basileia tou patros autōn ('the kingdom of their Father') is warm and familial. The 'ears to hear' refrain appears for the third time in this chapter.",
+        "[TCR Cross-Reference] References Daniel 12:3 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 44,
+      "text_greek": "Ὁμοία ἐστὶν ἡ βασιλεία τῶν οὐρανῶν θησαυρῷ κεκρυμμένῳ ἐν τῷ ἀγρῷ, ὃν εὑρὼν ἄνθρωπος ἔκρυψεν, καὶ ἀπὸ τῆς χαρᾶς αὐτοῦ ὑπάγει καὶ πωλεῖ πάντα ὅσα ἔχει καὶ ἀγοράζει τὸν ἀγρὸν ἐκεῖνον.",
+      "text_kjv": "Again, the kingdom of heaven is like unto treasure hid in a field; the which when a man hath found, he hideth, and for joy thereof goeth and selleth all that he hath, and buyeth that field.",
+      "rendering": "\"The kingdom of heaven is like treasure hidden in a field. When a man found it, he hid it again, and in his joy he went and sold everything he had and bought that field.",
+      "translator_notes": [
+        "Burying valuables in fields was common in the ancient world as a form of protection (no banks existed for ordinary people). The man's response is driven by joy (apo tēs charas, 'from the joy'), not grim duty — discovering the kingdom is exhilarating. He sells panta hosa echei ('everything he has') — total investment. The ethics of concealing the treasure before purchasing the field troubled later interpreters, but the parable's point is the kingdom's incomparable worth, not the man's business practices."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 45,
+      "text_greek": "Πάλιν ὁμοία ἐστὶν ἡ βασιλεία τῶν οὐρανῶν ἀνθρώπῳ ἐμπόρῳ ζητοῦντι καλοὺς μαργαρίτας·",
+      "text_kjv": "Again, the kingdom of heaven is like unto a merchant man, seeking goodly pearls:",
+      "rendering": "Again, the kingdom of heaven is like a merchant searching for fine pearls.",
+      "translator_notes": [
+        "The emporō ('merchant, wholesaler') is a professional dealer, not a casual buyer — he is actively seeking (zētounti) quality merchandise. This contrasts with the man in verse 44 who stumbled upon treasure. Both responses to the kingdom are valid: some encounter it unexpectedly, others find it through dedicated seeking."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 46,
+      "text_greek": "εὑρὼν δὲ ἕνα πολύτιμον μαργαρίτην ἀπελθὼν πέπρακεν πάντα ὅσα εἶχεν καὶ ἠγόρασεν αὐτόν.",
+      "text_kjv": "Who, when he had found one pearl of great price, went and sold all that he had, and bought it.",
+      "rendering": "When he found one pearl of great value, he went and sold everything he had and bought it.",
+      "translator_notes": [
+        "The hena polytimon margaritēn ('one pearl of great value') is singular — one incomparable item that renders all other possessions secondary. Pearls were the most valuable commodity in the ancient world, sometimes worth more than their weight in gold. The merchant's response mirrors the treasure-finder's: total divestiture for a single incomparable possession. The kingdom is worth everything."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 47,
+      "text_greek": "Πάλιν ὁμοία ἐστὶν ἡ βασιλεία τῶν οὐρανῶν σαγήνῃ βληθείσῃ εἰς τὴν θάλασσαν καὶ ἐκ παντὸς γένους συναγαγούσῃ·",
+      "text_kjv": "Again, the kingdom of heaven is like unto a net, that was cast into the sea, and gathered of every kind:",
+      "rendering": "Again, heaven's kingdom is like to a net, that was cast into the sea, and gathered of every kind:.",
+      "translator_notes": [
+        "The sagēnē ('dragnet') was a large net drawn between two boats or pulled from shore, capturing everything in its path indiscriminately. The phrase ek pantos genous ('of every kind') emphasizes the indiscriminate character of the catch. This parable is thematically parallel to the wheat and tares — the kingdom community contains a mixture that will be sorted at the end."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 48,
+      "text_greek": "ἣν ὅτε ἐπληρώθη ἀναβιβάσαντες ἐπὶ τὸν αἰγιαλὸν καὶ καθίσαντες συνέλεξαν τὰ καλὰ εἰς ἄγγη, τὰ δὲ σαπρὰ ἔξω ἔβαλον.",
+      "text_kjv": "Which, when it was full, they drew to shore, and sat down, and gathered the good into vessels, but cast the bad away.",
+      "rendering": "When it was full, they pulled it up on the shore, sat down, and sorted the good fish into containers but threw the bad away.",
+      "translator_notes": [
+        "The sorting process (kathisantes synelexan, 'sitting down they collected') is careful and deliberate, not hasty. The adjective sapra ('bad, rotten, worthless') is the same word used for 'bad' trees and fruit in 7:17-18. The good fish go into containers (aggē, 'vessels'); the bad are discarded. The scene would be familiar to the Galilean fishermen among Jesus's disciples."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 49,
+      "text_greek": "οὕτως ἔσται ἐν τῇ συντελείᾳ τοῦ αἰῶνος· ἐξελεύσονται οἱ ἄγγελοι καὶ ἀφοριοῦσιν τοὺς πονηροὺς ἐκ μέσου τῶν δικαίων",
+      "text_kjv": "So shall it be at the end of the world: the angels shall come forth, and sever the wicked from among the just,",
+      "rendering": "So it will be at the end of the age. The angels will go out and separate the wicked from among the righteous",
+      "translator_notes": [
+        "The interpretation closely parallels the wheat-and-tares explanation. The verb aphoriousin ('will separate, set apart') is the same root as 'Pharisee' (pharisaios, 'separated one') — an irony perhaps intentional. The final separation is done by angels (as in v. 41), not by humans."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 50,
+      "text_greek": "καὶ βαλοῦσιν αὐτοὺς εἰς τὴν κάμινον τοῦ πυρός· ἐκεῖ ἔσται ὁ κλαυθμὸς καὶ ὁ βρυγμὸς τῶν ὀδόντων.",
+      "text_kjv": "And shall cast them into the furnace of fire: there shall be wailing and gnashing of teeth.",
+      "rendering": "Will cast them into the furnace of fire — there will be wailing and gnashing of teeth.",
+      "translator_notes": [
+        "This verse repeats verse 42 nearly verbatim, creating an inclusio around the kingdom parables. The repetition of the judgment warning frames the entire parable discourse with eschatological seriousness."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 51,
+      "text_greek": "Συνήκατε ταῦτα πάντα; λέγουσιν αὐτῷ· Ναί.",
+      "text_kjv": "Jesus saith unto them, Have ye understood all these things? They say unto him, Yea, Lord.",
+      "rendering": "\"Have you understood all these things?\" They said to him, \"Yes.\"",
+      "translator_notes": [
+        "The verb synēkate ('have you understood?') echoes the key word from the sower parable — understanding (synieis) is what distinguishes good soil from the path. The disciples' affirmative nai ('yes') claims comprehension. Whether they truly understand remains to be tested. The SBLGNT does not include kyrie ('Lord') after 'Yes,' which appears in some manuscripts."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 52,
+      "text_greek": "ὁ δὲ εἶπεν αὐτοῖς· Διὰ τοῦτο πᾶς γραμματεὺς μαθητευθεὶς τῇ βασιλείᾳ τῶν οὐρανῶν ὅμοιός ἐστιν ἀνθρώπῳ οἰκοδεσπότῃ, ὅστις ἐκβάλλει ἐκ τοῦ θησαυροῦ αὐτοῦ καινὰ καὶ παλαιά.",
+      "text_kjv": "Then said he unto them, Therefore every scribe which is instructed unto the kingdom of heaven is like unto a man that is an householder, which bringeth forth out of his treasure things new and old.",
+      "rendering": "He said to them, \"Therefore every scribe who has been trained for the kingdom of heaven is like the master of a household who brings out of his storeroom new things and old.\"",
+      "translator_notes": [
+        "The grammateus mathēteutheis ('scribe made a disciple, scribe trained') is a striking image — a Torah expert who has become a student of the kingdom. Many scholars see this as Matthew's self-description — a Jewish scribe who has become a disciple of Jesus. The storeroom (thēsaurou) contains both kaina kai palaia ('new things and old'), suggesting that the kingdom-trained scribe values both the old Scriptures and the new revelation in Jesus, drawing on both treasuries."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 53,
+      "text_greek": "Καὶ ἐγένετο ὅτε ἐτέλεσεν ὁ Ἰησοῦς τὰς παραβολὰς ταύτας, μετῆρεν ἐκεῖθεν.",
+      "text_kjv": "And it came to pass, that when Jesus had finished these parables, he departed thence.",
+      "rendering": "When Jesus had finished these parables, he left that place.",
+      "translator_notes": [
+        "The formula kai egeneto hote etelesen ('and it happened when he finished') marks the end of the third discourse, paralleling 7:28, 11:1, 19:1, and 26:1."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 54,
+      "text_greek": "καὶ ἐλθὼν εἰς τὴν πατρίδα αὐτοῦ ἐδίδασκεν αὐτοὺς ἐν τῇ συναγωγῇ αὐτῶν, ὥστε ἐκπλήττεσθαι αὐτοὺς καὶ λέγειν· Πόθεν τούτῳ ἡ σοφία αὕτη καὶ αἱ δυνάμεις;",
+      "text_kjv": "And when he was come into his own country, he taught them in their synagogue, insomuch that they were astonished, and said, Whence hath this man this wisdom, and these mighty works?",
+      "rendering": "He came to his hometown and taught them in their synagogue, so that they were astonished and said, \"Where did this man get this wisdom and these miraculous powers?",
+      "translator_notes": [
+        "The patrida ('hometown, fatherland') is Nazareth (cf. 2:23). The verb ekplēttesthai ('to be astounded, struck with amazement') is strong but leads to rejection rather than faith. The question pothen toutō ('where did this man get...?') focuses on the source of his authority — they know his background and cannot reconcile it with his present power."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 55,
+      "text_greek": "οὐχ οὗτός ἐστιν ὁ τοῦ τέκτονος υἱός; οὐχ ἡ μήτηρ αὐτοῦ λέγεται Μαριὰμ καὶ οἱ ἀδελφοὶ αὐτοῦ Ἰάκωβος καὶ Ἰωσὴφ καὶ Σίμων καὶ Ἰούδας;",
+      "text_kjv": "Is not this the carpenter's son? is not his mother called Mary? and his brethren, James, and Joses, and Simon, and Judas?",
+      "rendering": "Isn't this the carpenter's son? Isn't his mother called Mary, and his brothers James, Joseph, Simon, and Judas?",
+      "translator_notes": [
+        "The designation ho tou tektonos huios ('the carpenter's son') identifies Jesus by his father's trade. The Greek tektōn ('builder, craftsman') could refer to a woodworker, stoneworker, or general builder. Matthew names four brothers — Iakōbos, Iōsēph, Simōn, Ioudas — and verse 56 mentions sisters. The people's familiarity with his family becomes the basis for their rejection: they think they know everything about him."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 56,
+      "text_greek": "καὶ αἱ ἀδελφαὶ αὐτοῦ οὐχὶ πᾶσαι πρὸς ἡμᾶς εἰσιν; πόθεν οὖν τούτῳ ταῦτα πάντα;",
+      "text_kjv": "And his sisters, are they not all with us? Whence then hath this man all these things?",
+      "rendering": "And aren't all his sisters with us? Where then did this man get all these things?\"",
+      "translator_notes": [
+        "The repeated pothen ('where from?') frames their inability to reconcile Jesus's extraordinary authority with his ordinary origins. The word pasai ('all') and the phrase pros hēmas ('with us, among us') emphasize that Jesus's family is local, known, and unremarkable. Familiarity breeds contempt."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 57,
+      "text_greek": "καὶ ἐσκανδαλίζοντο ἐν αὐτῷ. ὁ δὲ Ἰησοῦς εἶπεν αὐτοῖς· Οὐκ ἔστιν προφήτης ἄτιμος εἰ μὴ ἐν τῇ πατρίδι καὶ ἐν τῇ οἰκίᾳ αὐτοῦ.",
+      "text_kjv": "And they were offended in him. But Jesus said unto them, A prophet is not without honour, save in his own country, and in his own house.",
+      "rendering": "And they took offense at him. But Jesus said to them, \"A prophet is not without honor except in his hometown and in his own household.\"",
+      "translator_notes": [
+        "The verb eskandalizonto ('were offended, were caused to stumble') echoes the blessed/offended contrast of 11:6. Jesus responds with a proverbial saying about prophetic rejection at home — a pattern seen in Elijah, Jeremiah, and most prophets. The word atimos ('without honor, dishonored') is the opposite of the honor-shame dynamic that governed ancient Near Eastern social life."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 58,
+      "text_greek": "καὶ οὐκ ἐποίησεν ἐκεῖ δυνάμεις πολλὰς διὰ τὴν ἀπιστίαν αὐτῶν.",
+      "text_kjv": "And he did not many mighty works there because of their unbelief.",
+      "rendering": "And he did not do many miracles there because of their unbelief.",
+      "translator_notes": [
+        "The statement that Jesus ouk epoiēsen dynameis pollas ('did not do many mighty works') is remarkable — it does not say he could not but that he did not. The reason is dia tēn apistian autōn ('because of their unbelief'). Faith is presented as the environment in which Jesus's power operates, and unbelief (apistia) creates an environment that restricts it. Mark 6:5 says more boldly 'he could not do any mighty work there'; Matthew softens slightly to 'did not do many.'"
+      ],
+      "reading_level": "7th grade"
+    }
+  ]
+}

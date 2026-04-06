@@ -1,0 +1,602 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Mark",
+    "chapter": 6,
+    "source_text": "SBL Greek New Testament (SBLGNT)",
+    "reference_text": "KJV",
+    "generated_at": "2026-04-04T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Mark 6 is the longest chapter in the Gospel and marks a turning point. Jesus is rejected at his hometown of Nazareth, then sends the Twelve on their first mission. Mark intercalates the account of John the Baptist's execution by Herod Antipas — a grim foreshadowing of Jesus's own fate. The chapter then presents two great wilderness miracles: the feeding of the five thousand and Jesus walking on the sea. The chapter closes with a summary of widespread healing activity in Gennesaret.",
+    "remarkable": "The Nazareth rejection establishes that even Jesus's own community cannot see past his ordinary origins. The mission of the Twelve extends Jesus's authority through delegation. The death of John the Baptist is Mark's longest non-Jesus narrative and functions as a dark mirror of what awaits Jesus. The feeding of the five thousand is the only miracle (besides the resurrection) found in all four Gospels. The sea-walking scene contains the mysterious phrase 'he intended to pass them by' — echoing Old Testament theophanies where God 'passes by' (Exodus 33:19-22; 1 Kings 19:11).",
+    "friction": "Herod's identity as 'king' (v. 14) is technically inaccurate — he was a tetrarch, not a king. Mark may use the popular designation or employ irony. The relationship between Herodias, Philip, and Herod is historically complex. The 'passing by' in verse 48 is theologically loaded and we render it literally with a note on the theophanic background.",
+    "connections": "The feeding miracle echoes Elisha feeding a hundred men (2 Kings 4:42-44), Moses and the manna (Exodus 16), and anticipates the Last Supper. The sea-walking draws on divine prerogatives — God alone 'treads on the waves of the sea' (Job 9:8). The disciples' hardened hearts (v. 52) echo the Pharaoh motif from Exodus."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_greek": "Καὶ ἐξῆλθεν ἐκεῖθεν, καὶ ἔρχεται εἰς τὴν πατρίδα αὐτοῦ, καὶ ἀκολουθοῦσιν αὐτῷ οἱ μαθηταὶ αὐτοῦ.",
+      "text_kjv": "And he went out from thence, and came into his own country; and his disciples follow him.",
+      "rendering": "He left that place and came to his hometown, and his disciples followed him.",
+      "translator_notes": [
+        "The word patris ('hometown, fatherland') refers to Nazareth, though Mark does not name it here (cf. 1:9). The historical present erchetai ('he comes') is characteristic of Mark's vivid narrative style. Jesus returns home, but after all that has happened, the homecoming will prove uncomfortable."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 2,
+      "text_greek": "καὶ γενομένου σαββάτου ἤρξατο διδάσκειν ἐν τῇ συναγωγῇ· καὶ πολλοὶ ἀκούοντες ἐξεπλήσσοντο λέγοντες· πόθεν τούτῳ ταῦτα, καὶ τίς ἡ σοφία ἡ δοθεῖσα τούτῳ, καὶ αἱ δυνάμεις τοιαῦται διὰ τῶν χειρῶν αὐτοῦ γινόμεναι;",
+      "text_kjv": "And when the sabbath day was come, he began to teach in the synagogue: and many hearing him were astonished, saying, From whence hath this man these things? and what wisdom is this which is given unto him, that even such mighty works are wrought by his hands?",
+      "rendering": "On the Sabbath he began to teach in the synagogue, and many who heard him were astonished, saying, \"Where did this man get these things? What is this wisdom given to him? How are such mighty works performed through his hands?",
+      "translator_notes": [
+        "The townspeople's questions acknowledge both Jesus's wisdom and power but frame them as a puzzle rather than a revelation. The passive dothesia ('given') is a divine passive — they recognize that his wisdom comes from God but stumble over the delivery mechanism. The word dynameis ('mighty works, miracles') is plural, indicating they knew of his wider ministry."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 3,
+      "text_greek": "οὐχ οὗτός ἐστιν ὁ τέκτων, ὁ υἱὸς τῆς Μαρίας καὶ ἀδελφὸς Ἰακώβου καὶ Ἰωσῆτος καὶ Ἰούδα καὶ Σίμωνος; καὶ οὐκ εἰσὶν αἱ ἀδελφαὶ αὐτοῦ ὧδε πρὸς ἡμᾶς; καὶ ἐσκανδαλίζοντο ἐν αὐτῷ.",
+      "text_kjv": "Is not this the carpenter, the son of Mary, the brother of James, and Joses, and of Juda, and Simon? and are not his sisters here with us? And they were offended at him.",
+      "rendering": "Is this not the carpenter, the son of Mary and brother of James, Joses, Judas, and Simon? Are not his sisters here with us?\" And they took offense at him.",
+      "translator_notes": [
+        "The title tektōn ('carpenter, builder, craftsman') identifies Jesus by his trade — a worker in wood and possibly stone. Mark alone calls Jesus himself a carpenter; Matthew 13:55 calls him 'the carpenter's son.' The identification as 'son of Mary' (rather than 'son of Joseph') is unusual and may suggest Joseph had died, or may carry a hint of illegitimacy. Four brothers are named, and sisters (plural) are mentioned. The verb eskandalizonto ('were offended, stumbled') indicates that his ordinariness became the obstacle to faith."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 4,
+      "text_greek": "καὶ ἔλεγεν αὐτοῖς ὁ Ἰησοῦς ὅτι οὐκ ἔστιν προφήτης ἄτιμος εἰ μὴ ἐν τῇ πατρίδι αὐτοῦ καὶ ἐν τοῖς συγγενεῦσιν αὐτοῦ καὶ ἐν τῇ οἰκίᾳ αὐτοῦ.",
+      "text_kjv": "But Jesus said unto them, A prophet is not without honour, but in his own country, and among his own kin, and in his own house.",
+      "rendering": "Jesus said to them, \"A prophet is not without honor except in his hometown, among his relatives, and in his own household.\"",
+      "translator_notes": [
+        "The proverb has parallels in Greek literature and appears to have been widely known. Mark's version is the most expansive: three concentric circles of rejection — hometown (patris), relatives (syngeneusin), and household (oikia). Each circle narrows toward greater intimacy and greater pain. Jesus implicitly identifies himself as a prophet — a claim with dangerous implications given what happened to prophets."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 5,
+      "text_greek": "καὶ οὐκ ἐδύνατο ἐκεῖ ποιῆσαι οὐδεμίαν δύναμιν, εἰ μὴ ὀλίγοις ἀρρώστοις ἐπιθεὶς τὰς χεῖρας ἐθεράπευσεν.",
+      "text_kjv": "And he could there do no mighty work, save that he laid his hands upon a few sick folk, and healed them.",
+      "rendering": "He was not able to do any mighty work there, except that he laid his hands on a few sick people and healed them.",
+      "translator_notes": [
+        "The bold statement ouk edynato ('he was not able, could not') is remarkable — Mark presents unbelief as genuinely limiting Jesus's power, not just his willingness. Matthew 13:58 softens this to 'he did not do many mighty works.' The exception — healing a few sick people — shows that even limited faith allowed some access to Jesus's power."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 6,
+      "text_greek": "καὶ ἐθαύμαζεν διὰ τὴν ἀπιστίαν αὐτῶν. Καὶ περιῆγεν τὰς κώμας κύκλῳ διδάσκων.",
+      "text_kjv": "And he marvelled because of their unbelief. And he went round about the villages, teaching.",
+      "rendering": "He was amazed at their unbelief. Then he went around among the villages teaching.",
+      "translator_notes": [
+        "The verb ethaumazen ('was amazed, marveled') is used elsewhere in Mark for human amazement at Jesus; here uniquely, Jesus is amazed at human unbelief. The word apistia ('unbelief, faithlessness, lack of trust') is the opposite of the pistis ('faith') he commends elsewhere. Jesus does not remain to argue but moves on to the surrounding villages."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 7,
+      "text_greek": "Καὶ προσκαλεῖται τοὺς δώδεκα, καὶ ἤρξατο αὐτοὺς ἀποστέλλειν δύο δύο, καὶ ἐδίδου αὐτοῖς ἐξουσίαν τῶν πνευμάτων τῶν ἀκαθάρτων,",
+      "text_kjv": "And he called unto him the twelve, and began to send them forth by two and two; and gave them power over unclean spirits;",
+      "rendering": "He summoned the Twelve and began to send them out two by two, and he gave them authority over unclean spirits.",
+      "translator_notes": [
+        "The verb apostellein ('to send out') is the root of 'apostle' — the Twelve are now being sent. Pairing them 'two by two' (dyo dyo) follows the Old Testament principle that testimony requires two witnesses (Deuteronomy 19:15) and provides mutual support. The authority (exousia) over unclean spirits extends Jesus's own exorcism ministry through his delegates.",
+        "[TCR Cross-Reference] Draws on Deuteronomy 19:15. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 8,
+      "text_greek": "καὶ παρήγγειλεν αὐτοῖς ἵνα μηδὲν αἴρωσιν εἰς ὁδὸν εἰ μὴ ῥάβδον μόνον, μὴ ἄρτον, μὴ πήραν, μὴ εἰς τὴν ζώνην χαλκόν,",
+      "text_kjv": "And commanded them that they should take nothing for their journey, save a staff only; no scrip, no bread, no money in their purse:",
+      "rendering": "He instructed them to take nothing for the journey except a staff — no bread, no bag, no money in their belts.",
+      "translator_notes": [
+        "Mark permits a staff (rhabdon), while Matthew 10:10 and Luke 9:3 forbid even that — a minor discrepancy among the Synoptics. The pēra ('bag') was a traveler's knapsack. The chalkon ('copper, bronze money') represents the smallest denomination. The radical simplicity forces dependence on God and the hospitality of those they serve."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 9,
+      "text_greek": "ἀλλὰ ὑποδεδεμένους σανδάλια, καὶ μὴ ἐνδύσησθε δύο χιτῶνας.",
+      "text_kjv": "But be shod with sandals; and not put on two coats.",
+      "rendering": "They were to wear sandals but not put on two tunics.",
+      "translator_notes": [
+        "Mark allows sandals; Matthew 10:10 forbids them. The chitōn ('tunic, inner garment') was the basic garment worn next to the skin. Forbidding a second tunic means traveling without a change of clothes or an extra layer for cold nights — radical vulnerability and trust."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 10,
+      "text_greek": "καὶ ἔλεγεν αὐτοῖς· ὅπου ἐὰν εἰσέλθητε εἰς οἰκίαν, ἐκεῖ μένετε ἕως ἂν ἐξέλθητε ἐκεῖθεν.",
+      "text_kjv": "And he said unto them, In what place soever ye enter into an house, there abide till ye depart from that place.",
+      "rendering": "He said to them, \"Whenever you enter a house, stay there until you leave that town.",
+      "translator_notes": [
+        "The instruction to stay in one house prevents the missionaries from trading up to better accommodations — they are to accept whatever hospitality is offered and remain loyal to their host. This practice also provides a stable base for ministry in each location."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 11,
+      "text_greek": "καὶ ὃς ἂν τόπος μὴ δέξηται ὑμᾶς μηδὲ ἀκούσωσιν ὑμῶν, ἐκπορευόμενοι ἐκεῖθεν ἐκτινάξατε τὸν χοῦν τὸν ὑποκάτω τῶν ποδῶν ὑμῶν εἰς μαρτύριον αὐτοῖς.",
+      "text_kjv": "And whosoever shall not receive you, nor hear you, when ye depart thence, shake off the dust under your feet for a testimony against them. Verily I say unto you, It shall be more tolerable for Sodom and Gomorrha in the day of judgment, than for that city.",
+      "rendering": "If any place will not welcome you and they will not listen to you, as you leave, shake the dust off your feet as a testimony against them.\"",
+      "translator_notes": [
+        "Shaking off dust (ektinaxate ton choun) was a Jewish gesture performed when leaving Gentile territory — symbolically removing foreign contamination. Directed at fellow Jews, it declares that the rejecting town has placed itself outside the covenant community. The SBLGNT does not include the Sodom and Gomorrah comparison found in some manuscripts and in the KJV; this is a later scribal addition harmonizing with Matthew 10:15."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 12,
+      "text_greek": "Καὶ ἐξελθόντες ἐκήρυξαν ἵνα μετανοῶσιν,",
+      "text_kjv": "And they went out, and preached that men should repent.",
+      "rendering": "So they went out and proclaimed that people should repent.",
+      "translator_notes": [
+        "The Twelve's message — metanoōsin ('that they should repent') — echoes Jesus's opening proclamation in 1:15. They extend his call for repentance to a wider audience. The verb kēryssō ('proclaim, preach as a herald') is the same verb used for Jesus's own preaching."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 13,
+      "text_greek": "καὶ δαιμόνια πολλὰ ἐξέβαλλον, καὶ ἤλειφον ἐλαίῳ πολλοὺς ἀρρώστους καὶ ἐθεράπευον.",
+      "text_kjv": "And they cast out many devils, and anointed with oil many that were sick, and healed them.",
+      "rendering": "They cast out many demons and anointed many sick people with oil and healed them.",
+      "translator_notes": [
+        "The anointing with oil (ēleiphon elaiō) is unique to Mark's account of this mission. Oil was used medicinally in the ancient world (cf. Isaiah 1:6; Luke 10:34), but here it functions as a vehicle for divine healing — a practice the early church continued (James 5:14). The combination of exorcism and healing mirrors Jesus's own ministry pattern.",
+        "[TCR Cross-Reference] References Isaiah 1:6 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 14,
+      "text_greek": "Καὶ ἤκουσεν ὁ βασιλεὺς Ἡρῴδης, φανερὸν γὰρ ἐγένετο τὸ ὄνομα αὐτοῦ, καὶ ἔλεγον ὅτι Ἰωάννης ὁ βαπτίζων ἐγήγερται ἐκ νεκρῶν, καὶ διὰ τοῦτο ἐνεργοῦσιν αἱ δυνάμεις ἐν αὐτῷ.",
+      "text_kjv": "And king Herod heard of him; (for his name was spread abroad:) and he said, That John the Baptist was risen from the dead, and therefore mighty works do shew forth themselves in him.",
+      "rendering": "King Herod heard about it, for Jesus's name had become well known. Some were saying, \"John the Baptist has been raised from the dead, and that is why miraculous powers are at work in him.\"",
+      "translator_notes": [
+        "Mark calls Herod Antipas 'king' (basileus), though his actual title was 'tetrarch' (ruler of a quarter). This may be popular usage, Markan irony, or deliberate contrast with Jesus as the true king. The SBLGNT reads 'they were saying' (elegon, third person plural) rather than 'he said,' attributing the opinion about John to popular rumor rather than to Herod directly. The belief that John had risen reflects a popular view that the powers of a martyred prophet could be transferred or amplified after death."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 15,
+      "text_greek": "ἄλλοι δὲ ἔλεγον ὅτι Ἠλίας ἐστίν· ἄλλοι δὲ ἔλεγον ὅτι προφήτης ὡς εἷς τῶν προφητῶν.",
+      "text_kjv": "Others said, That it is Elias. And others said, That it is a prophet, or as one of the prophets.",
+      "rendering": "Others were saying, \"He is Elijah.\" And others were saying, \"He is a prophet, like one of the prophets of old.\"",
+      "translator_notes": [
+        "Three theories about Jesus circulate: resurrected John, returned Elijah (expected before the Day of the Lord, Malachi 4:5), or a new prophet in the line of the great prophets. Notably, none of the popular opinions identifies Jesus as the Messiah — the true answer that Peter will give in 8:29. These same three theories reappear in 8:28.",
+        "[TCR Cross-Reference] This verse quotes Malachi 4:5 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 16,
+      "text_greek": "ἀκούσας δὲ ὁ Ἡρῴδης ἔλεγεν· ὃν ἐγὼ ἀπεκεφάλισα Ἰωάννην, οὗτος ἠγέρθη.",
+      "text_kjv": "But when Herod heard thereof, he said, It is John, whom I beheaded: he is risen from the dead.",
+      "rendering": "But when Herod heard about it, he said, \"John, whom I beheaded — he has been raised!\"",
+      "translator_notes": [
+        "The emphatic word order places 'whom I beheaded' (hon egō apekephalisa) first for dramatic impact. Herod's guilty conscience interprets Jesus through the lens of his own crime. The verb apekephalisa ('I beheaded') is blunt and brutal. His conviction that John has risen suggests both superstitious fear and an inability to escape the consequences of his deed."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 17,
+      "text_greek": "Αὐτὸς γὰρ ὁ Ἡρῴδης ἀποστείλας ἐκράτησεν τὸν Ἰωάννην καὶ ἔδησεν αὐτὸν ἐν φυλακῇ διὰ Ἡρῳδιάδα τὴν γυναῖκα Φιλίππου τοῦ ἀδελφοῦ αὐτοῦ, ὅτι αὐτὴν ἐγάμησεν·",
+      "text_kjv": "For Herod himself had sent forth and laid hold upon John, and bound him in prison for Herodias' sake, his brother Philip's wife: for he had married her.",
+      "rendering": "For Herod himself had sent men to arrest John and had him bound in prison on account of Herodias, his brother Philip's wife, because Herod had married her.",
+      "translator_notes": [
+        "The flashback begins. The historical situation: Herod Antipas divorced his first wife (a Nabatean princess) to marry Herodias, who had been wife of his half-brother. Josephus (Antiquities 18.5.1-2) confirms the basic story but attributes John's execution to political fears rather than the banquet scenario Mark describes. The phrase 'his brother Philip's wife' identifies the relationship that made the marriage unlawful under Leviticus 18:16 and 20:21.",
+        "[TCR Cross-Reference] Draws on Leviticus 18:16. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 18,
+      "text_greek": "ἔλεγεν γὰρ ὁ Ἰωάννης τῷ Ἡρῴδῃ ὅτι οὐκ ἔξεστίν σοι ἔχειν τὴν γυναῖκα τοῦ ἀδελφοῦ σου.",
+      "text_kjv": "For John had said unto Herod, It is not lawful for thee to have thy brother's wife.",
+      "rendering": "For John had been telling Herod, \"It is not lawful for you to have your brother's wife.\"",
+      "translator_notes": [
+        "The imperfect elegen ('he was saying, kept saying') indicates this was not a one-time confrontation but a repeated prophetic challenge. John stands in the tradition of prophets who confronted kings — Nathan before David (2 Samuel 12), Elijah before Ahab (1 Kings 21). The prohibition is rooted in Leviticus 18:16.",
+        "[TCR Cross-Reference] References 2 Samuel 12 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved.",
+        "[TCR Cross-Reference] References 1 Kings 21 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved.",
+        "[TCR Cross-Reference] References Leviticus 18:16 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 19,
+      "text_greek": "ἡ δὲ Ἡρῳδιὰς ἐνεῖχεν αὐτῷ καὶ ἤθελεν αὐτὸν ἀποκτεῖναι, καὶ οὐκ ἠδύνατο·",
+      "text_kjv": "Therefore Herodias had a quarrel against him, and would have killed him; but she could not:",
+      "rendering": "So Herodias held a grudge against him and wanted to kill him, but she could not,",
+      "translator_notes": [
+        "The verb eneichen ('held against, bore a grudge, harbored resentment') describes Herodias's sustained hostility. The parallel with Jezebel seeking to kill Elijah (1 Kings 19:2) is unmistakable and likely intentional — John is the new Elijah opposed by a new Jezebel. Herodias's desire to kill is blocked by Herod's ambivalence (v. 20).",
+        "[TCR Cross-Reference] Echoes 1 Kings 19:2. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 20,
+      "text_greek": "ὁ γὰρ Ἡρῴδης ἐφοβεῖτο τὸν Ἰωάννην, εἰδὼς αὐτὸν ἄνδρα δίκαιον καὶ ἅγιον, καὶ συνετήρει αὐτόν, καὶ ἀκούσας αὐτοῦ πολλὰ ἠπόρει, καὶ ἡδέως αὐτοῦ ἤκουεν.",
+      "text_kjv": "For Herod feared John, knowing that he was a just man and an holy, and observed him; and when he heard him, he did many things, and heard him gladly.",
+      "rendering": "For Herod feared John, knowing that he was a just man and an holy, and observed him. And when he listened to him, he did numerous things, and listened to him gladly.",
+      "translator_notes": [
+        "Herod's complex response to John — fear, recognition of his holiness, protection, perplexity, and fascination — makes him one of Mark's most psychologically nuanced characters. The SBLGNT reads ēporei ('was perplexed, at a loss') rather than epoiei ('did many things') found in some manuscripts. Herod is drawn to John's message but lacks the will to act on it — a tragic portrait of partial openness to truth."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 21,
+      "text_greek": "καὶ γενομένης ἡμέρας εὐκαίρου ὅτε Ἡρῴδης τοῖς γενεσίοις αὐτοῦ δεῖπνον ἐποίησεν τοῖς μεγιστᾶσιν αὐτοῦ καὶ τοῖς χιλιάρχοις καὶ τοῖς πρώτοις τῆς Γαλιλαίας,",
+      "text_kjv": "And when a convenient day was come, that Herod on his birthday made a supper to his lords, high captains, and chief estates of Galilee;",
+      "rendering": "An opportune day came when Herod on his birthday gave a banquet for his courtiers, military commanders, and the leading men of Galilee.",
+      "translator_notes": [
+        "The word eukairos ('opportune, convenient') is loaded with dark irony — it is opportune for Herodias's scheme. The guest list — megistanes ('courtiers, nobles'), chiliarchoi ('commanders of a thousand,' military officers), and prōtoi ('leading men, elite') — represents the full spectrum of Galilean power. The birthday banquet (genesiois) sets the stage for the grim request that follows."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 22,
+      "text_greek": "καὶ εἰσελθούσης τῆς θυγατρὸς αὐτοῦ Ἡρῳδιάδος καὶ ὀρχησαμένης ἤρεσεν τῷ Ἡρῴδῃ καὶ τοῖς συνανακειμένοις. εἶπεν ὁ βασιλεὺς τῷ κορασίῳ· αἴτησόν με ὃ ἐὰν θέλῃς, καὶ δώσω σοι·",
+      "text_kjv": "And when the daughter of the said Herodias came in, and danced, and pleased Herod and them that sat with him, the king said unto the damsel, Ask of me whatsoever thou wilt, and I will give it thee.",
+      "rendering": "When his daughter Herodias came in and danced, she pleased Herod and his dinner guests. The king said to the girl, \"Ask me for whatever you wish, and I will give it to you.\"",
+      "translator_notes": [
+        "The SBLGNT reads 'his daughter Herodias' (tēs thygatros autou Hērōdiados), which is textually difficult since the daughter is traditionally named Salome (Josephus, Antiquities 18.5.4). Some manuscripts read 'the daughter of Herodias herself.' The dance of a royal princess before a banquet of men was culturally extraordinary and suggests Herodias's manipulation. The rash promise echoes Esther 5:3, 6 and 7:2, where the Persian king makes a similar open-ended offer.",
+        "[TCR Cross-Reference] Draws on Esther 5:3. Consult the TCR rendering of that passage for the underlying Hebrew and the rationale for key translation choices."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 23,
+      "text_greek": "καὶ ὤμοσεν αὐτῇ ὅτι ὃ ἐάν με αἰτήσῃς δώσω σοι ἕως ἡμίσους τῆς βασιλείας μου.",
+      "text_kjv": "And he sware unto her, Whatsoever thou shalt ask of me, I will give it thee, unto the half of my kingdom.",
+      "rendering": "He swore to her, \"Whatever you ask me, I will give you, up to half my kingdom.\"",
+      "translator_notes": [
+        "The oath (ōmosen) escalates the promise — Herod binds himself before his guests. The phrase 'up to half my kingdom' echoes Esther 5:3 almost verbatim. Since Herod was a tetrarch ruling at Rome's pleasure, the offer of half his kingdom was an empty boast, but it creates a binding social obligation.",
+        "[TCR Cross-Reference] References Esther 5:3 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 24,
+      "text_greek": "καὶ ἐξελθοῦσα εἶπεν τῇ μητρὶ αὐτῆς· τί αἰτήσωμαι; ἡ δὲ εἶπεν· τὴν κεφαλὴν Ἰωάννου τοῦ βαπτίζοντος.",
+      "text_kjv": "And she went forth, and said unto her mother, What shall I ask? And she said, The head of John the Baptist.",
+      "rendering": "She went out and said to her mother, \"What should I ask for?\" She said, \"The head of John the Baptist.\"",
+      "translator_notes": [
+        "The girl's question reveals she is acting as Herodias's agent. Herodias's response is instant and specific — she has been waiting for this opportunity (the 'opportune day' of v. 21). The request for John's 'head' (kephalēn) is shockingly literal and demands immediate execution."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 25,
+      "text_greek": "καὶ εἰσελθοῦσα εὐθὺς μετὰ σπουδῆς πρὸς τὸν βασιλέα ᾐτήσατο λέγουσα· θέλω ἵνα ἐξαυτῆς δῷς μοι ἐπὶ πίνακι τὴν κεφαλὴν Ἰωάννου τοῦ βαπτιστοῦ.",
+      "text_kjv": "And she came in straightway with haste unto the king, and asked, saying, I will that thou give me by and by in a charger the head of John the Baptist.",
+      "rendering": "Immediately she hurried back to the king and made her request: \"I want you to give me right now the head of John the Baptist on a platter.\"",
+      "translator_notes": [
+        "The word euthys ('immediately') and meta spoudēs ('with haste, urgency') convey the girl's rush to lock in the request before Herod can reconsider. The addition 'on a platter' (epi pinaki) adds grotesque detail — the prophet's head served as a banquet dish. The demand exautēs ('right now, at once') leaves no room for delay or negotiation."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 26,
+      "text_greek": "καὶ περίλυπος γενόμενος ὁ βασιλεὺς διὰ τοὺς ὅρκους καὶ τοὺς ἀνακειμένους οὐκ ἠθέλησεν ἀθετῆσαι αὐτήν·",
+      "text_kjv": "And the king was exceeding sorry; yet for his oath's sake, and for their sakes which sat with him, he would not reject her.",
+      "rendering": "The king was deeply distressed, but because of his oaths and his dinner guests, he did not want to refuse her.",
+      "translator_notes": [
+        "The word perilypos ('deeply grieved, exceedingly sorrowful') is the same word used for Jesus in Gethsemane (14:34). But Herod's sorrow does not lead to right action — he is trapped by his oaths (plural, horkous — he had sworn repeatedly) and by social pressure (the guests witnessed the oath). Fear of losing face costs John his life. Herod chooses honor before men over honoring God."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 27,
+      "text_greek": "καὶ εὐθὺς ἀποστείλας ὁ βασιλεὺς σπεκουλάτορα ἐπέταξεν ἐνέγκαι τὴν κεφαλὴν αὐτοῦ. καὶ ἀπελθὼν ἀπεκεφάλισεν αὐτὸν ἐν τῇ φυλακῇ",
+      "text_kjv": "And immediately the king sent an executioner, and commanded his head to be brought: and he went and beheaded him in the prison,",
+      "rendering": "Immediately the king sent an executioner and commanded him to bring John's head. He went and beheaded him in the prison,",
+      "translator_notes": [
+        "The Greek spekoulatōr is a Latin loanword (speculator) — a member of the bodyguard who could serve as executioner. The Latin military term is appropriate for Herod's court and reflects Mark's Roman audience. The execution happens with grim efficiency — euthys ('immediately') marking the speed of the killing."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 28,
+      "text_greek": "καὶ ἤνεγκεν τὴν κεφαλὴν αὐτοῦ ἐπὶ πίνακι καὶ ἔδωκεν αὐτὴν τῷ κορασίῳ, καὶ τὸ κοράσιον ἔδωκεν αὐτὴν τῇ μητρὶ αὐτῆς.",
+      "text_kjv": "And brought his head in a charger, and gave it to the damsel: and the damsel gave it to her mother.",
+      "rendering": "Brought his head in a charger, and offered it to the damsel — and the damsel offered it to her mother.",
+      "translator_notes": [
+        "The chain of delivery — executioner to girl to mother — is narrated with chilling matter-of-factness. The prophet's head passes through three sets of hands like a dish at a banquet. The scene is a grim anti-feast that inverts the coming banquet of the five thousand."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 29,
+      "text_greek": "καὶ ἀκούσαντες οἱ μαθηταὶ αὐτοῦ ἦλθον καὶ ἦραν τὸ πτῶμα αὐτοῦ καὶ ἔθηκαν αὐτὸ ἐν μνημείῳ.",
+      "text_kjv": "And when his disciples heard of it, they came and took up his corpse, and laid it in a tomb.",
+      "rendering": "When his disciples heard about it, they came and took his body and laid it in a tomb.",
+      "translator_notes": [
+        "John's disciples perform the act of burial, paralleling what Joseph of Arimathea will do for Jesus (15:46). The word ptōma ('corpse, fallen body') is blunt — literally 'something that has fallen.' The burial in a tomb (mnēmeiō) provides closure to John's story and anticipates the empty tomb of chapter 16."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 30,
+      "text_greek": "Καὶ συνάγονται οἱ ἀπόστολοι πρὸς τὸν Ἰησοῦν, καὶ ἀπήγγειλαν αὐτῷ πάντα ὅσα ἐποίησαν καὶ ὅσα ἐδίδαξαν.",
+      "text_kjv": "And the apostles gathered themselves together unto Jesus, and told him all things, both what they had done, and what they had taught.",
+      "rendering": "The apostles gathered around Jesus and reported to him everything they had done and taught.",
+      "translator_notes": [
+        "This is the only place in Mark where the Twelve are called 'apostles' (apostoloi, 'sent ones') — the title applies specifically to their role as commissioned delegates who have now returned from their mission. Their report covers both actions (hosa epoiēsan, 'what they did') and teaching (hosa edidaxan, 'what they taught'), mirroring Jesus's own ministry of deed and word."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 31,
+      "text_greek": "καὶ λέγει αὐτοῖς· δεῦτε ὑμεῖς αὐτοὶ κατ' ἰδίαν εἰς ἔρημον τόπον καὶ ἀναπαύσασθε ὀλίγον. ἦσαν γὰρ οἱ ἐρχόμενοι καὶ οἱ ὑπάγοντες πολλοί, καὶ οὐδὲ φαγεῖν εὐκαίρουν.",
+      "text_kjv": "And he said unto them, Come ye yourselves apart into a desert place, and rest a while: for there were many coming and going, and they had no leisure so much as to eat.",
+      "rendering": "He said to them, \"Come away by yourselves to a deserted place and rest a while.\" For many were coming and going, and they had no opportunity even to eat.",
+      "translator_notes": [
+        "Jesus recognizes the disciples' need for rest after their mission. The phrase kat' idian ('privately, by themselves') seeks solitude. The detail that they had no time to eat (oude phagein eukairoun) echoes 3:20. The word eukairoun ('had opportunity') uses the same root as the 'opportune' (eukairos) day of Herod's banquet (v. 21) — a subtle verbal link between the two scenes."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 32,
+      "text_greek": "καὶ ἀπῆλθον ἐν τῷ πλοίῳ εἰς ἔρημον τόπον κατ' ἰδίαν.",
+      "text_kjv": "And they departed into a desert place by ship privately.",
+      "rendering": "So they went away in the boat to a deserted place by themselves.",
+      "translator_notes": [
+        "The boat provides transportation to the 'deserted place' (erēmon topon) — the wilderness that will become the setting for the feeding miracle. The attempt at privacy will be frustrated by the crowds who see them leaving."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 33,
+      "text_greek": "καὶ εἶδον αὐτοὺς ὑπάγοντας καὶ ἐπέγνωσαν πολλοί, καὶ πεζῇ ἀπὸ πασῶν τῶν πόλεων συνέδραμον ἐκεῖ καὶ προῆλθον αὐτούς.",
+      "text_kjv": "And the people saw them departing, and many knew him, and ran afoot thither out of all cities, and outwent them, and came together unto him.",
+      "rendering": "But many saw them going and recognized them, and they ran there on foot from all the towns and arrived ahead of them.",
+      "translator_notes": [
+        "The crowd's determination is remarkable — they outran the boat on foot (pezē), traveling along the northern shore of the lake. The verb synedramom ('ran together') describes a mass rush from multiple towns converging on the destination. The verb proēlthon ('arrived ahead of, preceded') means the crowd was waiting when the boat landed."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 34,
+      "text_greek": "καὶ ἐξελθὼν εἶδεν πολὺν ὄχλον, καὶ ἐσπλαγχνίσθη ἐπ' αὐτοὺς ὅτι ἦσαν ὡς πρόβατα μὴ ἔχοντα ποιμένα, καὶ ἤρξατο διδάσκειν αὐτοὺς πολλά.",
+      "text_kjv": "And Jesus, when he came out, saw much people, and was moved with compassion toward them, because they were as sheep not having a shepherd: and he began to teach them many things.",
+      "rendering": "When he went ashore, he saw a large crowd, and he had compassion on them because they were like sheep without a shepherd, and he began to teach them many things.",
+      "translator_notes": [
+        "The verb esplanchnisthē ('was moved with compassion') describes the same deep, visceral response as in 1:41. The simile 'sheep without a shepherd' (probata mē echonta poimena) echoes Numbers 27:17, where Moses asks God to appoint a successor so Israel will not be 'like sheep without a shepherd.' It also evokes Ezekiel 34, where God condemns Israel's failed shepherds and promises to shepherd the flock himself. Jesus's response to the shepherdless crowd is to teach — in Mark, teaching is the primary expression of pastoral care.",
+        "[TCR Cross-Reference] Echoes Numbers 27:17. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale.",
+        "[TCR Cross-Reference] Echoes Ezekiel 34. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 35,
+      "text_greek": "Καὶ ἤδη ὥρας πολλῆς γενομένης προσελθόντες αὐτῷ οἱ μαθηταὶ αὐτοῦ ἔλεγον ὅτι ἔρημός ἐστιν ὁ τόπος, καὶ ἤδη ὥρα πολλή·",
+      "text_kjv": "And when the day was now far spent, his disciples came unto him, and said, This is a desert place, and now the time is far passed:",
+      "rendering": "When the hour had grown late, his disciples came to him and said, \"This is a deserted place and the hour is already late.",
+      "translator_notes": [
+        "The disciples emphasize two problems: the isolation of the location (erēmos estin ho topos) and the lateness of the hour (hōra pollē). Both are practical concerns about feeding a large crowd in the wilderness — a problem that evokes the wilderness feeding narratives of Exodus and Numbers."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 36,
+      "text_greek": "ἀπόλυσον αὐτούς, ἵνα ἀπελθόντες εἰς τοὺς κύκλῳ ἀγροὺς καὶ κώμας ἀγοράσωσιν ἑαυτοῖς τί φάγωσιν.",
+      "text_kjv": "Send them away, that they may go into the country round about, and into the villages, and buy themselves bread: for they have nothing to eat.",
+      "rendering": "Send them away so they can go into the surrounding countryside and villages and buy themselves something to eat.\"",
+      "translator_notes": [
+        "The disciples propose the practical solution: dismiss the crowd to fend for themselves. The verb apolyson ('send away, dismiss') is an aorist imperative suggesting urgency. The surrounding farms (agrous) and villages (kōmas) would have limited supplies for such a multitude."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 37,
+      "text_greek": "ὁ δὲ ἀποκριθεὶς εἶπεν αὐτοῖς· δότε αὐτοῖς ὑμεῖς φαγεῖν. καὶ λέγουσιν αὐτῷ· ἀπελθόντες ἀγοράσωμεν δηναρίων διακοσίων ἄρτους καὶ δώσομεν αὐτοῖς φαγεῖν;",
+      "text_kjv": "He answered and said unto them, Give ye them to eat. And they say unto him, Shall we go and buy two hundred pennyworth of bread, and give them to eat?",
+      "rendering": "But he answered them, \"You give them something to eat.\" They said to him, \"Should we go and buy two hundred denarii worth of bread and give it to them to eat?\"",
+      "translator_notes": [
+        "The emphatic hymeis ('you yourselves') makes the command startling — Jesus places the responsibility on the disciples. Two hundred denarii was roughly eight months' wages for a laborer. Their response drips with incredulity, possibly sarcasm. The denarius was a Roman silver coin, the standard day's wage."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 38,
+      "text_greek": "ὁ δὲ λέγει αὐτοῖς· πόσους ἄρτους ἔχετε; ὑπάγετε ἴδετε. καὶ γνόντες λέγουσιν· πέντε, καὶ δύο ἰχθύας.",
+      "text_kjv": "He saith unto them, How many loaves have ye? go and see. And when they knew, they say, Five, and two fishes.",
+      "rendering": "He said to them, \"How many loaves do you have? Go and see.\" When they found out, they said, \"Five, and two fish.\"",
+      "translator_notes": [
+        "Jesus redirects from what they cannot do to what they have. The instruction 'go and see' (hypagete idete) forces them to take inventory of their actual resources. The five loaves were likely flat barley bread, the common food of the poor. Two fish (ichthyas) were probably dried or pickled fish from the lake."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 39,
+      "text_greek": "καὶ ἐπέταξεν αὐτοῖς ἀνακλῖναι πάντας συμπόσια συμπόσια ἐπὶ τῷ χλωρῷ χόρτῳ.",
+      "text_kjv": "And he commanded them to make all sit down by companies upon the green grass.",
+      "rendering": "He directed them to have everyone sit down in groups on the green grass.",
+      "translator_notes": [
+        "The Greek symposia symposia ('group by group') is a distributive repetition — the crowd was organized into table-fellowship groups, the word symposion normally meaning a drinking party or dinner gathering. The detail 'green grass' (chlōrō chortō) indicates spring — near Passover (cf. John 6:4) when grass would be green in Galilee. The organized seating transforms a chaotic crowd into an ordered meal."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 40,
+      "text_greek": "καὶ ἀνέπεσαν πρασιαὶ πρασιαί κατὰ ἑκατὸν καὶ κατὰ πεντήκοντα.",
+      "text_kjv": "And they sat down in ranks, by hundreds, and by fifties.",
+      "rendering": "They sat down in groups of hundreds and fifties.",
+      "translator_notes": [
+        "The word prasiai prasiai ('garden beds, garden beds') paints a visual picture — from above, the arranged groups looked like rectangular garden plots. The groupings of hundreds and fifties echo the organization of Israel in the wilderness (Exodus 18:25), reinforcing the new-exodus theme of this wilderness feeding.",
+        "[TCR Cross-Reference] This verse quotes Exodus 18:25 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 41,
+      "text_greek": "καὶ λαβὼν τοὺς πέντε ἄρτους καὶ τοὺς δύο ἰχθύας ἀναβλέψας εἰς τὸν οὐρανὸν εὐλόγησεν καὶ κατέκλασεν τοὺς ἄρτους καὶ ἐδίδου τοῖς μαθηταῖς αὐτοῦ ἵνα παρατιθῶσιν αὐτοῖς, καὶ τοὺς δύο ἰχθύας ἐμέρισεν πᾶσιν.",
+      "text_kjv": "And when he had taken the five loaves and the two fishes, he looked up to heaven, and blessed, and brake the loaves, and gave them to his disciples to set before them; and the two fishes divided he among them all.",
+      "rendering": "Taking the five loaves and the two fish, he looked up to heaven, blessed and broke the loaves, and gave them to his disciples to set before the people. He also divided the two fish among them all.",
+      "translator_notes": [
+        "The four verbs — took (labōn), blessed (eulogēsen), broke (kateklasen), gave (edidou) — form the pattern that will reappear at the Last Supper (14:22) and become the structure of the Christian Eucharist. Looking up to heaven (anablepsas eis ton ouranon) acknowledges God as the source. The imperfect edidou ('kept giving') suggests the multiplication happened progressively as the bread was distributed."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 42,
+      "text_greek": "καὶ ἔφαγον πάντες καὶ ἐχορτάσθησαν·",
+      "text_kjv": "And they did all eat, and were filled.",
+      "rendering": "Everyone ate and was satisfied.",
+      "translator_notes": [
+        "The verb echortasthēsan ('were satisfied, filled to the full') originally described the feeding of animals — to be gorged, fully fed. Its use here emphasizes the abundance of the provision. The word pantes ('all, everyone') ensures no one was left out."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 43,
+      "text_greek": "καὶ ἦραν κλάσματα δώδεκα κοφίνων πληρώματα καὶ ἀπὸ τῶν ἰχθύων.",
+      "text_kjv": "And they took up twelve baskets full of the fragments, and of the fishes.",
+      "rendering": "They picked up twelve baskets full of broken pieces and of the fish.",
+      "translator_notes": [
+        "The twelve baskets (dōdeka kophinōn) correspond to the twelve tribes of Israel and the twelve apostles — the symbolism is likely intentional. The kophinos was a wicker basket distinctively associated with Jewish travelers (Juvenal, Satire 3.14). The surplus exceeds the initial supply, demonstrating superabundant provision."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 44,
+      "text_greek": "καὶ ἦσαν οἱ φαγόντες τοὺς ἄρτους πεντακισχίλιοι ἄνδρες.",
+      "text_kjv": "And they that did eat of the loaves were about five thousand men.",
+      "rendering": "Those who ate the loaves were five thousand men.",
+      "translator_notes": [
+        "The number pentakischilioi andres ('five thousand men') counts only adult males. Matthew 14:21 adds 'besides women and children,' suggesting the total crowd was much larger. The number may echo the military organization of the wilderness groups (v. 40), creating an image of a new Israel being fed by a new Moses in a new wilderness."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 45,
+      "text_greek": "Καὶ εὐθὺς ἠνάγκασεν τοὺς μαθητὰς αὐτοῦ ἐμβῆναι εἰς τὸ πλοῖον καὶ προάγειν εἰς τὸ πέραν πρὸς Βηθσαϊδάν, ἕως αὐτὸς ἀπολύει τὸν ὄχλον.",
+      "text_kjv": "And straightway he constrained his disciples to get into the ship, and to go to the other side before unto Bethsaida, while he sent away the people.",
+      "rendering": "Immediately he made his disciples get into the boat and go ahead of him to the other side, toward Bethsaida, while he dismissed the crowd.",
+      "translator_notes": [
+        "The verb ēnagkasen ('compelled, forced, made') is unusually strong — Jesus pressured the reluctant disciples to leave. John 6:15 explains why: the crowd wanted to make Jesus king by force, and Jesus needed to separate the disciples from the political enthusiasm. The word euthys ('immediately') marks the urgency. Bethsaida ('house of fishing') was a town on the northeastern shore."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 46,
+      "text_greek": "καὶ ἀποταξάμενος αὐτοῖς ἀπῆλθεν εἰς τὸ ὄρος προσεύξασθαι.",
+      "text_kjv": "And when he had sent them away, he departed into a mountain to pray.",
+      "rendering": "After saying farewell to them, he went up on the mountain to pray.",
+      "translator_notes": [
+        "The verb apotaxamenos ('having said farewell, having taken leave of') indicates a deliberate departure. Jesus again seeks solitude for prayer (cf. 1:35). The mountain (to oros) is a place of encounter with God in biblical tradition. This is Jesus's second recorded prayer in Mark, following a major public event, as in 1:35."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 47,
+      "text_greek": "καὶ ὀψίας γενομένης ἦν τὸ πλοῖον ἐν μέσῳ τῆς θαλάσσης, καὶ αὐτὸς μόνος ἐπὶ τῆς γῆς.",
+      "text_kjv": "And when even was come, the ship was in the midst of the sea, and he alone on the land.",
+      "rendering": "When evening came, the boat was in the middle of the sea, and he was alone on the land.",
+      "translator_notes": [
+        "The scene is set with stark simplicity: the boat in the middle (en mesō) of the sea, Jesus alone (monos) on the land. The separation creates both physical and symbolic distance. The Sea of Galilee is roughly 7 miles wide at its widest point; 'in the middle' means 3-4 miles from shore."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 48,
+      "text_greek": "καὶ ἰδὼν αὐτοὺς βασανιζομένους ἐν τῷ ἐλαύνειν, ἦν γὰρ ὁ ἄνεμος ἐναντίος αὐτοῖς, περὶ τετάρτην φυλακὴν τῆς νυκτὸς ἔρχεται πρὸς αὐτοὺς περιπατῶν ἐπὶ τῆς θαλάσσης· καὶ ἤθελεν παρελθεῖν αὐτούς.",
+      "text_kjv": "And he saw them toiling in rowing; for the wind was contrary unto them: and about the fourth watch of the night he cometh unto them, walking upon the sea, and would have passed by them.",
+      "rendering": "He saw them straining at the oars, for the wind was against them. About the fourth watch of the night he came toward them, walking on the sea, and he intended to pass by them.",
+      "translator_notes": [
+        "That Jesus 'saw' (idōn) them from the mountain in darkness implies supernatural sight. The verb basanizomenous ('being tortured, strained, distressed') conveys the physical agony of rowing against a headwind. The fourth watch was 3-6 AM (Roman time reckoning). The phrase ēthelen parelthein autous ('he intended to pass by them') is the most theologically loaded detail: in the Old Testament, God 'passes by' Moses (Exodus 33:19-22) and Elijah (1 Kings 19:11) in theophanies — divine self-revelations. Jesus walking on the sea and intending to 'pass by' identifies him with the God of Israel.",
+        "[TCR Cross-Reference] References Exodus 33:19-22 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved.",
+        "[TCR Cross-Reference] References 1 Kings 19:11 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 49,
+      "text_greek": "οἱ δὲ ἰδόντες αὐτὸν ἐπὶ τῆς θαλάσσης περιπατοῦντα ἔδοξαν ὅτι φάντασμά ἐστιν, καὶ ἀνέκραξαν·",
+      "text_kjv": "But when they saw him walking upon the sea, they supposed it had been a spirit, and cried out:",
+      "rendering": "But when they saw him walking on the sea, they thought it was a ghost and screamed,",
+      "translator_notes": [
+        "The word phantasma ('apparition, ghost, phantom') reflects their terror — they interpret the figure on the water as a spirit of the dead. The verb anekraxan ('screamed, cried out') conveys raw terror. Their inability to recognize Jesus is part of Mark's theme of the disciples' persistent blindness."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 50,
+      "text_greek": "πάντες γὰρ αὐτὸν εἶδον καὶ ἐταράχθησαν. ὁ δὲ εὐθὺς ἐλάλησεν μετ' αὐτῶν, καὶ λέγει αὐτοῖς· θαρσεῖτε, ἐγώ εἰμι· μὴ φοβεῖσθε.",
+      "text_kjv": "For they all saw him, and were troubled. And immediately he talked with them, and saith unto them, Be of good cheer: it is I; be not afraid.",
+      "rendering": "Since they all noticed him, and were troubled. And immediately he talked with them, and says to them, Be of good cheer — it is I. Be not afraid.",
+      "translator_notes": [
+        "The phrase egō eimi ('it is I' or 'I AM') is both a simple self-identification and potentially a divine self-revelation — the same phrase used by God in Exodus 3:14 (in the Septuagint) and Isaiah 43:10. In the context of a sea-theophany, the reader is meant to hear both levels. The command 'do not be afraid' (mē phobeisthe) is the standard reassurance in divine appearances (Genesis 15:1; Isaiah 41:10; Daniel 10:12).",
+        "[TCR Cross-Reference] This verse quotes Exodus 3:14 — see the TCR rendering of that passage for the Hebrew source text and translation decisions.",
+        "[TCR Cross-Reference] This verse quotes Isaiah 43:10 — see the TCR rendering of that passage for the Hebrew source text and translation decisions.",
+        "[TCR Cross-Reference] This verse quotes Genesis 15:1 — see the TCR rendering of that passage for the Hebrew source text and translation decisions.",
+        "[TCR Cross-Reference] This verse quotes Isaiah 41:10 — see the TCR rendering of that passage for the Hebrew source text and translation decisions.",
+        "[TCR Cross-Reference] This verse quotes Daniel 10:12 — see the TCR rendering of that passage for the Hebrew source text and translation decisions."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 51,
+      "text_greek": "καὶ ἀνέβη πρὸς αὐτοὺς εἰς τὸ πλοῖον, καὶ ἐκόπασεν ὁ ἄνεμος. καὶ λίαν ἐκ περισσοῦ ἐν ἑαυτοῖς ἐξίσταντο,",
+      "text_kjv": "And he went up unto them into the ship; and the wind ceased: and they were sore amazed in themselves beyond measure, and wondered.",
+      "rendering": "He got into the boat with them, and the wind died down. They were utterly astounded,",
+      "translator_notes": [
+        "The wind ceasing (ekopasen) when Jesus enters the boat echoes the storm-calming of 4:39 but without a verbal command — his mere presence stills the wind. The phrase lian ek perissou ('exceedingly, beyond all measure, utterly') piles up intensifiers to convey the disciples' overwhelming astonishment. The verb existanto ('were beside themselves, astounded') indicates they were mentally overwhelmed."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 52,
+      "text_greek": "οὐ γὰρ συνῆκαν ἐπὶ τοῖς ἄρτοις, ἀλλ' ἦν αὐτῶν ἡ καρδία πεπωρωμένη.",
+      "text_kjv": "For they considered not the miracle of the loaves: for their heart was hardened.",
+      "rendering": "Indeed, since they considered not the miracle of the loaves — for their heart was hardened.",
+      "translator_notes": [
+        "Mark's editorial comment is devastating: the disciples' astonishment at the sea-walking reveals that they missed the meaning of the feeding miracle. If they had understood epi tois artois ('about the loaves') — that Jesus had divine creative power — the sea-walking would not have shocked them. The phrase hē kardia pepōrōmenē ('their heart was hardened/calcified') uses the same word applied to Pharaoh's heart in the Septuagint and to the Pharisees in 3:5. Mark places the disciples dangerously close to Jesus's opponents."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 53,
+      "text_greek": "Καὶ διαπεράσαντες ἐπὶ τὴν γῆν ἦλθον εἰς Γεννησαρὲτ καὶ προσωρμίσθησαν.",
+      "text_kjv": "And when they had passed over, they came into the land of Gennesaret, and drew to the shore.",
+      "rendering": "When they had crossed over, they came to land at Gennesaret and moored the boat.",
+      "translator_notes": [
+        "Gennesaret (Gennēsaret) was a fertile plain on the northwestern shore of the Sea of Galilee, south of Capernaum. The verb prosōrmisthēsan ('moored, anchored') is a nautical technical term, suggesting they pulled up at a landing or dock."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 54,
+      "text_greek": "καὶ ἐξελθόντων αὐτῶν ἐκ τοῦ πλοίου εὐθὺς ἐπιγνόντες αὐτὸν",
+      "text_kjv": "And when they were come out of the ship, straightway they knew him,",
+      "rendering": "When they got out of the boat, people immediately recognized him",
+      "translator_notes": [
+        "The adverb euthys ('immediately') once more. The verb epignontes ('recognizing, identifying') indicates Jesus was known by sight in this region — his reputation and face were familiar from previous ministry."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 55,
+      "text_greek": "περιέδραμον ὅλην τὴν χώραν ἐκείνην καὶ ἤρξαντο ἐπὶ τοῖς κραβάττοις τοὺς κακῶς ἔχοντας περιφέρειν ὅπου ἤκουον ὅτι ἐστίν.",
+      "text_kjv": "And ran through that whole region round about, and began to carry about in beds those that were sick, where they heard he was.",
+      "rendering": "Ran by way of that whole region round about, and started to carry about in beds those that were sick, where they listened to he was.",
+      "translator_notes": [
+        "The verb periedramon ('ran around, ran throughout') indicates a frantic, widespread mobilization. The word krabattois ('mats, pallets') is the same as in 2:4 — poor people's beds on which the sick were carried. The phrase hopou ēkouon hoti estin ('wherever they heard he was') shows the crowd tracking Jesus's movements."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 56,
+      "text_greek": "καὶ ὅπου ἂν εἰσεπορεύετο εἰς κώμας ἢ εἰς πόλεις ἢ εἰς ἀγρούς, ἐν ταῖς ἀγοραῖς ἐτίθεσαν τοὺς ἀσθενοῦντας, καὶ παρεκάλουν αὐτὸν ἵνα κἂν τοῦ κρασπέδου τοῦ ἱματίου αὐτοῦ ἅψωνται· καὶ ὅσοι ἂν ἥψαντο αὐτοῦ ἐσῴζοντο.",
+      "text_kjv": "And whithersoever he entered, into villages, or cities, or country, they laid the sick in the streets, and besought him that they might touch if it were but the border of his garment: and as many as touched him were made whole.",
+      "rendering": "Wherever he went — into villages, towns, or countryside — they laid the sick in the marketplaces and begged him to let them touch even the fringe of his garment. And all who touched it were healed.",
+      "translator_notes": [
+        "This summary statement covers an extended period of ministry. The kraspedon ('fringe, tassel, border') refers to the tassels (tzitzit) on the corners of a Jewish garment prescribed by Numbers 15:38-39. The desire to touch the fringe echoes the hemorrhaging woman's faith (5:28). The verb esōzonto ('were being saved/healed') is imperfect, indicating continuous, repeated healing. The word encompasses both physical restoration and the deeper salvation it signifies.",
+        "[TCR Cross-Reference] Quotes Numbers 15:38-39. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it."
+      ],
+      "reading_level": "7th grade"
+    }
+  ]
+}

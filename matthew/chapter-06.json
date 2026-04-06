@@ -1,0 +1,383 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Matthew",
+    "chapter": 6,
+    "source_text": "SBL Greek New Testament (SBLGNT)",
+    "reference_text": "KJV",
+    "generated_at": "2026-04-04T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Matthew 6 continues the Sermon on the Mount, shifting from the antitheses of chapter 5 to the practice of piety. Jesus addresses three pillars of Jewish devotion — giving to the needy (6:1-4), prayer (6:5-15), and fasting (6:16-18) — warning against performing them for human approval rather than for God. At the center stands the Lord's Prayer (6:9-13), the model prayer that encapsulates the entire Sermon's theology. The chapter then turns to the question of treasure and anxiety: where is your treasure? (6:19-24), and why do you worry? (6:25-34). The chapter culminates in the command to 'seek first the kingdom of God and his righteousness,' with the promise that all material needs will be provided.",
+    "remarkable": "The Lord's Prayer functions as a structural and theological center for the entire Sermon on the Mount. Its petitions move from God's concerns (name, kingdom, will) to human needs (bread, forgiveness, deliverance) — modeling the priority order that the rest of the Sermon teaches. The 'do not worry' passage (6:25-34) draws on creation theology: birds, flowers, and grass serve as witnesses to God's providential care. The phrase 'you cannot serve God and money' (6:24) uses the Aramaic mamōnas, a personification of wealth as a rival deity. The teaching on prayer explicitly contrasts Jewish practice ('do not heap up empty phrases as the Gentiles do') with the intimacy of addressing God as 'Father.'",
+    "friction": "The doxology at the end of the Lord's Prayer ('For yours is the kingdom and the power and the glory forever, Amen') does not appear in the earliest Greek manuscripts and is absent from the SBLGNT. We note this in the translator notes for verse 13. The phrase 'daily bread' (arton epiousión) contains a word (epiousios) that appears nowhere else in all of Greek literature — its precise meaning is debated. The relationship between 'debts' (opheilēmata, v. 12) and 'trespasses' (paraptōmata, vv. 14-15) involves a shift in vocabulary that we preserve and note.",
+    "connections": "The Lord's Prayer connects to the broader prayer tradition of Israel (especially the Amidah/Shemoneh Esreh). The 'do not worry' teaching echoes Psalm 37 and Proverbs 3:5-6. The 'eye as the lamp of the body' saying (6:22-23) connects to the purity of heart in 5:8. The teaching on treasures prepares for the parables of chapter 13 (hidden treasure, pearl of great price).\n\n**Tradition comparisons:** The Latin Vulgate shaped Western theology here: The Pater Noster is the most prayed text in Western Christianity, memorized in Latin by centuries of Christians. Ne nos inducas in temptationem (lead us not into temptation) was controversially revise... See the [Vulgate Matthew](/vulgate/matthew). JST footnote at Matthew 6:13: Lead-us-not-into-temptation petition reframed: God does not lead into temptation See the [JST notes](/jst/matthew)."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_greek": "Προσέχετε δὲ τὴν δικαιοσύνην ὑμῶν μὴ ποιεῖν ἔμπροσθεν τῶν ἀνθρώπων πρὸς τὸ θεαθῆναι αὐτοῖς· εἰ δὲ μή γε, μισθὸν οὐκ ἔχετε παρὰ τῷ πατρὶ ὑμῶν τῷ ἐν τοῖς οὐρανοῖς.",
+      "text_kjv": "Take heed that ye do not your alms before men, to be seen of them: otherwise ye have no reward of your Father which is in heaven.",
+      "rendering": "Be careful not to practice your righteousness before others in order to be seen by them. Otherwise, you have no reward with your Father in heaven.",
+      "translator_notes": [
+        "The SBLGNT reads dikaiosynēn ('righteousness') rather than eleēmosynēn ('alms, charitable giving') found in later manuscripts. 'Righteousness' serves as the umbrella term for the three practices that follow: giving, prayer, and fasting. The Greek pros to theathēnai ('in order to be seen, for the purpose of being noticed') uses the verb from which we get 'theater' — performing religion for an audience. The Father 'in heaven' (en tois ouranois) is contrasted with the earthly audience throughout this section."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 2,
+      "text_greek": "Ὅταν οὖν ποιῇς ἐλεημοσύνην, μὴ σαλπίσῃς ἔμπροσθέν σου, ὥσπερ οἱ ὑποκριταὶ ποιοῦσιν ἐν ταῖς συναγωγαῖς καὶ ἐν ταῖς ῥύμαις, ὅπως δοξασθῶσιν ὑπὸ τῶν ἀνθρώπων· ἀμὴν λέγω ὑμῖν, ἀπέχουσιν τὸν μισθὸν αὐτῶν.",
+      "text_kjv": "Therefore when thou doest thine alms, do not sound a trumpet before thee, as the hypocrites do in the synagogues and in the streets, that they may have glory of men. Verily I say unto you, They have their reward.",
+      "rendering": "So when you give to the needy, do not sound a trumpet before you, as the hypocrites do in the synagogues and in the streets, so that they may be praised by others. Truly I tell you, they have received their reward in full.",
+      "translator_notes": [
+        "The Greek hypokritai ('hypocrites') originally meant 'actors' — those who perform behind a mask on stage. Jesus repurposes the theatrical metaphor: religious performers are actors playing to a human audience rather than living before God. Whether the 'trumpet sounding' is literal (some form of public announcement) or figurative (drawing attention to one's generosity) is debated. The verb apechousin ('they have received in full') is a commercial term meaning 'paid in full, receipt given' — human praise is the only payment they will ever receive."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 3,
+      "text_greek": "σοῦ δὲ ποιοῦντος ἐλεημοσύνην μὴ γνώτω ἡ ἀριστερά σου τί ποιεῖ ἡ δεξιά σου,",
+      "text_kjv": "But when thou doest alms, let not thy left hand know what thy right hand doeth:",
+      "rendering": "But when you give to the needy, do not let your left hand know what your right hand is doing,",
+      "translator_notes": [
+        "The idiom is vivid hyperbole: even your own body should not be aware of your generosity. The right hand (dexia) was the hand of action and blessing; the left hand (aristera) was considered secondary. The point is not literal concealment (impossible from oneself) but a disposition so thoroughly free from self-display that giving becomes second nature — unconscious, reflexive, unperformed."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 4,
+      "text_greek": "ὅπως ᾖ σου ἡ ἐλεημοσύνη ἐν τῷ κρυπτῷ· καὶ ὁ πατήρ σου ὁ βλέπων ἐν τῷ κρυπτῷ ἀποδώσει σοι.",
+      "text_kjv": "That thine alms may be in secret: and thy Father which seeth in secret himself shall reward thee openly.",
+      "rendering": "That your alms may be in secret — and your Father which sees in secret himself will reward you openly.",
+      "translator_notes": [
+        "The SBLGNT does not include en tō phanerō ('openly') after 'will reward you,' which appears in later manuscripts. The contrast is between the 'secret' (en tō kryptō) place where genuine piety occurs and the public stage where performative religion operates. The Father 'who sees in secret' (ho blepōn en tō kryptō) is the only audience that matters — God perceives what no human observer can."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 5,
+      "text_greek": "Καὶ ὅταν προσεύχησθε, οὐκ ἔσεσθε ὡς οἱ ὑποκριταί, ὅτι φιλοῦσιν ἐν ταῖς συναγωγαῖς καὶ ἐν ταῖς γωνίαις τῶν πλατειῶν ἑστῶτες προσεύχεσθαι, ὅπως φανῶσιν τοῖς ἀνθρώποις· ἀμὴν λέγω ὑμῖν, ἀπέχουσιν τὸν μισθὸν αὐτῶν.",
+      "text_kjv": "And when thou prayest, thou shalt not be as the hypocrites are: for they love to pray standing in the synagogues and in the corners of the streets, that they may be seen of men. Verily I say unto you, They have their reward.",
+      "rendering": "And when you pray, do not be like the hypocrites, for they love to pray standing in the synagogues and on the street corners so that they may be seen by others. Truly I tell you, they have received their reward in full.",
+      "translator_notes": [
+        "Standing (hestōtes) was the normal Jewish posture for prayer — Jesus does not criticize the posture but the motive. The Greek philousin ('they love, they take pleasure in') exposes the deeper problem: they enjoy being seen praying more than they enjoy praying. The 'corners of the broad streets' (gōniais tōn plateiōn) were intersections where one would be visible from multiple directions — maximum exposure."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 6,
+      "text_greek": "σὺ δὲ ὅταν προσεύχῃ, εἴσελθε εἰς τὸ ταμεῖόν σου καὶ κλείσας τὴν θύραν σου πρόσευξαι τῷ πατρί σου τῷ ἐν τῷ κρυπτῷ· καὶ ὁ πατήρ σου ὁ βλέπων ἐν τῷ κρυπτῷ ἀποδώσει σοι.",
+      "text_kjv": "But thou, when thou prayest, enter into thy closet, and when thou hast shut thy door, pray to thy Father which is in secret; and thy Father which seeth in secret shall reward thee openly.",
+      "rendering": "But when you pray, go into your room, shut the door, and pray to your Father who is in secret. And your Father who sees in secret will reward you.",
+      "translator_notes": [
+        "The Greek tameion ('inner room, storeroom, private chamber') refers to the most private space in a house — often a windowless storage room. Shutting the door (kleisas tēn thyran) physically removes the human audience. The point is not that all prayer must be private (Jesus prayed publicly) but that the essential dynamic of prayer is between the person and God alone. Again the SBLGNT omits en tō phanerō ('openly')."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 7,
+      "text_greek": "Προσευχόμενοι δὲ μὴ βατταλογήσητε ὥσπερ οἱ ἐθνικοί· δοκοῦσιν γὰρ ὅτι ἐν τῇ πολυλογίᾳ αὐτῶν εἰσακουσθήσονται.",
+      "text_kjv": "But when ye pray, use not vain repetitions, as the heathen do: for they think that they shall be heard for their much speaking.",
+      "rendering": "When you pray, do not heap up empty phrases as the Gentiles do, for they think that they will be heard because of their many words.",
+      "translator_notes": [
+        "The Greek battalogēsēte is a rare word, possibly onomatopoetic (imitating the sound of babbling: 'ba-ba-ba'). It may mean 'to babble, to speak repetitiously and without meaning, to heap up empty phrases.' The Greek polylogia ('many words, wordiness') diagnoses the underlying error: the assumption that God must be nagged or informed by sheer volume of speech. The contrast is with the concise Lord's Prayer that follows."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 8,
+      "text_greek": "μὴ οὖν ὁμοιωθῆτε αὐτοῖς· οἶδεν γὰρ ὁ πατὴρ ὑμῶν ὧν χρείαν ἔχετε πρὸ τοῦ ὑμᾶς αἰτῆσαι αὐτόν.",
+      "text_kjv": "Be not ye therefore like unto them: for your Father knoweth what things ye have need of, before ye ask him.",
+      "rendering": "Do not be like them, for your Father knows what you need before you ask him.",
+      "translator_notes": [
+        "The logic raises a question: if God already knows our needs, why pray at all? Jesus does not answer this directly, but the Lord's Prayer that follows answers implicitly — prayer is not informing God but aligning oneself with God's purposes. The verb oiden ('knows,' perfect tense of oida) indicates settled, complete knowledge, not something God must learn."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 9,
+      "text_greek": "Οὕτως οὖν προσεύχεσθε ὑμεῖς· Πάτερ ἡμῶν ὁ ἐν τοῖς οὐρανοῖς· ἁγιασθήτω τὸ ὄνομά σου·",
+      "text_kjv": "After this manner therefore pray ye: Our Father which art in heaven, Hallowed be thy name.",
+      "rendering": "Pray then like this: 'Our Father in heaven, let your name be held holy.",
+      "translator_notes": [
+        "The address 'Our Father' (Pater hēmōn) is communal — not 'my Father' but 'our Father,' embedding the pray-er in community from the first word. 'In heaven' (ho en tois ouranois) distinguishes the divine Father from earthly fathers. The passive imperative hagiasthētō ('let it be sanctified, let it be treated as holy') is a divine passive — God himself will bring about the honoring of his name, but the pray-er asks for it and commits to participating in it. The 'name' (onoma) in Hebrew thought represents the entire character and reputation of God."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 10,
+      "text_greek": "ἐλθέτω ἡ βασιλεία σου· γενηθήτω τὸ θέλημά σου, ὡς ἐν οὐρανῷ καὶ ἐπὶ γῆς·",
+      "text_kjv": "Thy kingdom come. Thy will be done in earth, as it is in heaven.",
+      "rendering": "Let your kingdom come. Let your will be done, on earth as it is in heaven.",
+      "translator_notes": [
+        "The aorist imperatives elthetō ('let it come') and genēthētō ('let it be done') express urgency — bring the kingdom now, accomplish your will now. 'Your kingdom' (hē basileia sou) is the same kingdom of heaven Jesus has been proclaiming since 4:17. The phrase 'on earth as in heaven' (hōs en ouranō kai epi gēs) may modify all three petitions — let your name be holy, your kingdom come, and your will be done, on earth as these things already are in heaven."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 11,
+      "text_greek": "τὸν ἄρτον ἡμῶν τὸν ἐπιούσιον δὸς ἡμῖν σήμερον·",
+      "text_kjv": "Give us this day our daily bread.",
+      "rendering": "Provide us today with the bread we need.",
+      "translator_notes": [
+        "The Greek epiousios ('daily') is one of the rarest words in the entire Greek language — it appears nowhere else in all surviving Greek literature outside the Lord's Prayer and may have been coined for this purpose. Possible meanings: (1) 'for the coming day' (from epi + ienai, 'for the next day'), (2) 'for existence/sustenance' (from epi + ousia, 'for being'), or (3) 'necessary, essential.' The prayer echoes the manna provision in Exodus 16, where Israel was given bread for one day at a time — daily dependence on God rather than hoarding.",
+        "[TCR Cross-Reference] Quotes Exodus 16. The TCR rendering of that OT passage preserves the Hebrew source text and documents the translation decisions behind it."
+      ],
+      "key_terms": [
+        {
+          "greek": "ἐπιούσιος",
+          "transliteration": "epiousios",
+          "rendered_as": "daily",
+          "semantic_range": "daily, necessary for existence, for the coming day, essential",
+          "note": "A hapax legomenon — a word appearing only once in all known Greek literature. Origen (3rd century) noted that the word seemed to have been invented by the Gospel writers. Its precise etymology and meaning remain debated after two millennia of scholarship."
+        }
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 12,
+      "text_greek": "καὶ ἄφες ἡμῖν τὰ ὀφειλήματα ἡμῶν, ὡς καὶ ἡμεῖς ἀφήκαμεν τοῖς ὀφειλέταις ἡμῶν·",
+      "text_kjv": "And forgive us our debts, as we forgive our debtors.",
+      "rendering": "And forgive us our debts, as we also have forgiven our debtors.",
+      "translator_notes": [
+        "The Greek opheilēmata ('debts, what is owed') is a financial metaphor applied to moral and spiritual obligation. Matthew uses 'debts' where Luke (11:4) uses 'sins' (hamartias), revealing that both concepts overlap. The aorist aphēkamen ('we have forgiven,' completed action) is striking — the prayer presupposes that we have already forgiven before we ask God to forgive us. The 'as' (hōs) does not mean 'because' (earning forgiveness by forgiving) but establishes a pattern: those who have experienced God's forgiveness extend it to others."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 13,
+      "text_greek": "καὶ μὴ εἰσενέγκῃς ἡμᾶς εἰς πειρασμόν, ἀλλὰ ῥῦσαι ἡμᾶς ἀπὸ τοῦ πονηροῦ.",
+      "text_kjv": "And lead us not into temptation, but deliver us from evil: For thine is the kingdom, and the power, and the glory, for ever. Amen.",
+      "rendering": "And do not bring us into temptation, but deliver us from the evil one.'",
+      "translator_notes": [
+        "The petition mē eisenegkēs ('do not bring into, do not lead into') has troubled interpreters: does God tempt people? James 1:13 says God tempts no one. The Greek peirasmos can mean 'testing' (from God) or 'temptation' (from evil) — the prayer asks to be spared the crisis of testing that could overwhelm faith. 'The evil one' (tou ponērou) can be masculine ('the evil one,' Satan) or neuter ('evil' in the abstract). Given Matthew's usage elsewhere (5:37, 13:19, 38), the personal reading is likely.",
+        "The doxology 'For yours is the kingdom and the power and the glory forever, Amen' does not appear in the earliest manuscripts (Sinaiticus, Vaticanus) and is absent from the SBLGNT critical text. It was likely added in liturgical usage, possibly drawn from 1 Chronicles 29:11. We follow the critical text but note the addition for readers accustomed to the traditional form.",
+        "[TCR Cross-Reference] References 1 Chronicles 29:11 — the TCR OT rendering of that text provides the Hebrew source and explains the translation decisions involved."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 14,
+      "text_greek": "Ἐὰν γὰρ ἀφῆτε τοῖς ἀνθρώποις τὰ παραπτώματα αὐτῶν, ἀφήσει καὶ ὑμῖν ὁ πατὴρ ὑμῶν ὁ οὐράνιος·",
+      "text_kjv": "For if ye forgive men their trespasses, your heavenly Father will also forgive you:",
+      "rendering": "For if you pardon men their trespasses, your heavenly Father will also pardon you:.",
+      "translator_notes": [
+        "The Greek paraptōmata ('trespasses, transgressions, false steps') is a different word from the 'debts' (opheilēmata) of verse 12. A paraptōma is literally a 'falling aside' — a misstep, a deviation from the right path. Jesus expands on the forgiveness petition from the prayer, making explicit what was implicit: the connection between receiving and extending forgiveness is not optional."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 15,
+      "text_greek": "ἐὰν δὲ μὴ ἀφῆτε τοῖς ἀνθρώποις, οὐδὲ ὁ πατὴρ ὑμῶν ἀφήσει τὰ παραπτώματα ὑμῶν.",
+      "text_kjv": "But if ye forgive not men their trespasses, neither will your Father forgive your trespasses.",
+      "rendering": "But if you do not forgive others, neither will your Father forgive your trespasses.",
+      "translator_notes": [
+        "The negative counterpart is stated with equal force — refusal to forgive blocks the reception of forgiveness. This is not a transactional formula (forgiving to earn forgiveness) but a statement about the nature of forgiveness itself: a heart that cannot extend mercy has not truly received it. The same principle drives the parable of the unforgiving servant in Matthew 18:21-35."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 16,
+      "text_greek": "Ὅταν δὲ νηστεύητε, μὴ γίνεσθε ὡς οἱ ὑποκριταὶ σκυθρωποί· ἀφανίζουσιν γὰρ τὰ πρόσωπα αὐτῶν ὅπως φανῶσιν τοῖς ἀνθρώποις νηστεύοντες· ἀμὴν λέγω ὑμῖν, ἀπέχουσιν τὸν μισθὸν αὐτῶν.",
+      "text_kjv": "Moreover when ye fast, be not, as the hypocrites, of a sad countenance: for they disfigure their faces, that they may appear unto men to fast. Verily I say unto you, They have their reward.",
+      "rendering": "When you fast, do not look gloomy like the hypocrites, for they disfigure their faces so that their fasting will be noticed by others. Truly I tell you, they have received their reward in full.",
+      "translator_notes": [
+        "The Greek skythrōpoi ('gloomy, sullen, with a dark look') describes a deliberately mournful appearance. The verb aphanizousin ('they disfigure, make unrecognizable, obscure') may refer to putting ash on the face, not washing, or deliberately making oneself look haggard. The ironic wordplay in Greek is between aphanizousin ('they make invisible/disfigure') and phanōsin ('they may appear/be visible') — they destroy their appearance in order to create an appearance."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 17,
+      "text_greek": "σὺ δὲ νηστεύων ἄλειψαί σου τὴν κεφαλὴν καὶ τὸ πρόσωπόν σου νίψαι,",
+      "text_kjv": "But thou, when thou fastest, anoint thine head, and wash thy face;",
+      "rendering": "But when you fast, put oil on your head and wash your face,",
+      "translator_notes": [
+        "Anointing the head with olive oil (aleipsai sou tēn kephalēn) and washing the face were signs of normal grooming and celebration in Jewish culture. The instruction is to look normal — even festive — while fasting. The fast remains between you and God; others should not be able to detect it from your appearance."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 18,
+      "text_greek": "ὅπως μὴ φανῇς τοῖς ἀνθρώποις νηστεύων ἀλλὰ τῷ πατρί σου τῷ ἐν τῷ κρυφαίῳ· καὶ ὁ πατήρ σου ὁ βλέπων ἐν τῷ κρυφαίῳ ἀποδώσει σοι.",
+      "text_kjv": "That thou appear not unto men to fast, but unto thy Father which is in secret: and thy Father, which seeth in secret, shall reward thee openly.",
+      "rendering": "That you appear not to men to fast, but to your Father which is in secret — and your Father, which sees in secret, will reward you openly.",
+      "translator_notes": [
+        "The three-part pattern is now complete: giving (vv. 2-4), prayer (vv. 5-6), and fasting (vv. 16-18) each follow the same structure — negative example of hypocrites, positive instruction for disciples, and assurance that the Father who sees in secret will reward. The Greek kryphaios ('hidden, secret') is a variant of kryptos used in the giving and prayer sections. The SBLGNT again omits en tō phanerō ('openly')."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 19,
+      "text_greek": "Μὴ θησαυρίζετε ὑμῖν θησαυροὺς ἐπὶ τῆς γῆς, ὅπου σὴς καὶ βρῶσις ἀφανίζει καὶ ὅπου κλέπται διορύσσουσιν καὶ κλέπτουσιν·",
+      "text_kjv": "Lay not up for yourselves treasures upon earth, where moth and rust doth corrupt, and where thieves break through and steal:",
+      "rendering": "Do not store up for yourselves treasures on earth, where moth and decay destroy and where thieves break in and steal.",
+      "translator_notes": [
+        "The Greek thēsaurizete ('store up, treasure up') shares the same root as thēsaurous ('treasures') — a deliberate play on words: 'do not treasure treasures.' The three threats to earthly wealth — moth (sēs, which destroys stored garments), decay (brōsis, literally 'eating, corrosion,' which ruins stored food or metal), and theft — cover the major categories of ancient wealth: clothing, provisions, and precious metals."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 20,
+      "text_greek": "θησαυρίζετε δὲ ὑμῖν θησαυροὺς ἐν οὐρανῷ, ὅπου οὔτε σὴς οὔτε βρῶσις ἀφανίζει καὶ ὅπου κλέπται οὐ διορύσσουσιν οὐδὲ κλέπτουσιν·",
+      "text_kjv": "But lay up for yourselves treasures in heaven, where neither moth nor rust doth corrupt, and where thieves do not break through nor steal:",
+      "rendering": "But store up for yourselves treasures in heaven, where neither moth nor decay destroys and where thieves do not break in and steal.",
+      "translator_notes": [
+        "Heavenly treasure is defined by its indestructibility — it is beyond the reach of the forces that threaten earthly accumulation. The concept of 'treasures in heaven' was known in Jewish tradition (Tobit 4:9, 2 Baruch 24:1) and refers to the lasting value of righteous deeds, generosity, and faithfulness before God."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 21,
+      "text_greek": "ὅπου γάρ ἐστιν ὁ θησαυρός σου, ἐκεῖ ἔσται καὶ ἡ καρδία σου.",
+      "text_kjv": "For where your treasure is, there will your heart be also.",
+      "rendering": "For where your treasure is, there your heart will be also.",
+      "translator_notes": [
+        "The singular 'your' (sou) makes this directly personal — it applies to each individual listener. The logic is not merely 'your heart follows your treasure' but 'what you treasure reveals and determines who you are.' The heart (kardia) in biblical thought is the center of will, desire, and allegiance. Treasure placement is not a financial decision but an identity decision."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 22,
+      "text_greek": "Ὁ λύχνος τοῦ σώματός ἐστιν ὁ ὀφθαλμός. ἐὰν οὖν ᾖ ὁ ὀφθαλμός σου ἁπλοῦς, ὅλον τὸ σῶμά σου φωτεινὸν ἔσται·",
+      "text_kjv": "The light of the body is the eye: if therefore thine eye be single, thy whole body shall be full of light.",
+      "rendering": "The eye is the lamp of the body. So if your eye is healthy, your whole body will be full of light.",
+      "translator_notes": [
+        "The Greek haplous ('single, simple, healthy, generous') is the key interpretive challenge. In Greek it can mean physically healthy (a 'sound' eye), morally simple/sincere, or generous (as in the closely related noun haplotēs in 2 Corinthians 8:2, 9:11). In context — between the teaching on treasure (vv. 19-21) and the warning about mammon (v. 24) — the sense 'generous' is strong. A 'single' eye is one focused on God rather than divided between God and wealth."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 23,
+      "text_greek": "ἐὰν δὲ ὁ ὀφθαλμός σου πονηρὸς ᾖ, ὅλον τὸ σῶμά σου σκοτεινὸν ἔσται. εἰ οὖν τὸ φῶς τὸ ἐν σοὶ σκότος ἐστίν, τὸ σκότος πόσον.",
+      "text_kjv": "But if thine eye be evil, thy whole body shall be full of darkness. If therefore the light that is in thee be darkness, how great is that darkness!",
+      "rendering": "But if your eye is evil, your whole body will be full of darkness. If then the light in you is darkness, how great is that darkness!",
+      "translator_notes": [
+        "The Greek ponēros ('evil, bad, sick') stands in direct contrast to haplous. In Jewish idiom, an 'evil eye' (ayin ra'ah in Hebrew) specifically meant stinginess, greed, and envy — the opposite of generosity. The final exclamation is devastating: if the very organ designed to receive light (the eye/heart) has itself become dark, there is no remaining capacity to perceive truth. The corruption of what should be the source of guidance is the ultimate disaster."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 24,
+      "text_greek": "Οὐδεὶς δύναται δυσὶ κυρίοις δουλεύειν· ἢ γὰρ τὸν ἕνα μισήσει καὶ τὸν ἕτερον ἀγαπήσει, ἢ ἑνὸς ἀνθέξεται καὶ τοῦ ἑτέρου καταφρονήσει. οὐ δύνασθε θεῷ δουλεύειν καὶ μαμωνᾷ.",
+      "text_kjv": "No man can serve two masters: for either he will hate the one, and love the other; or else he will hold to the one, and despise the other. Ye cannot serve God and mammon.",
+      "rendering": "No one can serve two masters, for either he will hate the one and love the other, or he will be devoted to the one and despise the other. You cannot serve God and money.",
+      "translator_notes": [
+        "The Greek douleuein ('to serve as a slave') is not casual employment but total allegiance. A slave has one master — divided ownership was legally impossible. The Aramaic mamōnas ('money, wealth, material possessions') is transliterated directly into Greek. By placing mamōnas alongside theō (God) as potential masters, Jesus personifies wealth as a rival deity. The claim is absolute: dual allegiance is structurally impossible, not merely difficult."
+      ],
+      "key_terms": [
+        {
+          "greek": "μαμωνᾶς",
+          "transliteration": "mamōnas",
+          "rendered_as": "money",
+          "semantic_range": "money, wealth, material possessions, mammon",
+          "note": "An Aramaic loan word, possibly from the root aman ('to trust'). Mammon is that in which one puts trust. By opposing it directly to God, Jesus exposes wealth's power to function as an alternative object of faith and devotion."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 25,
+      "text_greek": "Διὰ τοῦτο λέγω ὑμῖν· μὴ μεριμνᾶτε τῇ ψυχῇ ὑμῶν τί φάγητε ἢ τί πίητε, μηδὲ τῷ σώματι ὑμῶν τί ἐνδύσησθε. οὐχὶ ἡ ψυχὴ πλεῖόν ἐστιν τῆς τροφῆς καὶ τὸ σῶμα τοῦ ἐνδύματος;",
+      "text_kjv": "Therefore I say unto you, Take no thought for your life, what ye shall eat, or what ye shall drink; nor yet for your body, what ye shall put on. Is not the life more than meat, and the body than raiment?",
+      "rendering": "Therefore I tell you, do not worry about your life — what you will eat or what you will drink — or about your body — what you will wear. Is not life more than food, and the body more than clothing?",
+      "translator_notes": [
+        "The Greek mē merimnate ('do not worry, do not be anxious') does not prohibit planning or working but the corrosive anxiety that assumes God's provision is unreliable. The word merimnaō is from the root merizō ('to divide') — anxiety divides the mind and pulls it in opposing directions. The rhetorical question uses an a fortiori argument: if God gave you life (the greater gift), will he not also provide food and clothing (the lesser gifts)?"
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 26,
+      "text_greek": "ἐμβλέψατε εἰς τὰ πετεινὰ τοῦ οὐρανοῦ ὅτι οὐ σπείρουσιν οὐδὲ θερίζουσιν οὐδὲ συνάγουσιν εἰς ἀποθήκας, καὶ ὁ πατὴρ ὑμῶν ὁ οὐράνιος τρέφει αὐτά· οὐχ ὑμεῖς μᾶλλον διαφέρετε αὐτῶν;",
+      "text_kjv": "Behold the fowls of the air: for they sow not, neither do they reap, nor gather into barns; yet your heavenly Father feedeth them. Are ye not much better than they?",
+      "rendering": "Look at the birds of the sky — they do not sow or reap or gather into barns, and yet your heavenly Father feeds them. Are you not worth much more than they are?",
+      "translator_notes": [
+        "The imperative emblepsate ('look at, observe carefully') calls for attentive observation of creation as theological evidence. Birds do not engage in the agricultural cycle (sowing, reaping, storing), yet they are fed. The argument is from lesser to greater (qal wahomer in rabbinic terms): if God provides for creatures that cannot farm, how much more for humans made in his image? 'Heavenly Father' (ho patēr hymōn ho ouranios) reinforces the relational basis of trust."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 27,
+      "text_greek": "τίς δὲ ἐξ ὑμῶν μεριμνῶν δύναται προσθεῖναι ἐπὶ τὴν ἡλικίαν αὐτοῦ πῆχυν ἕνα;",
+      "text_kjv": "Which of you by taking thought can add one cubit unto his stature?",
+      "rendering": "And which of you by worrying can add a single hour to his life span?",
+      "translator_notes": [
+        "The Greek hēlikian can mean either 'stature' (height) or 'life span' (age), and pēchyn ('cubit,' about 18 inches) can be literal or metaphorical. If 'stature,' the saying is absurd (a cubit is about 18 inches — no one can grow that much by worrying). If 'life span,' the saying is practical (worry cannot extend life; it may shorten it). Both readings work, but the life span reading fits the context of existential anxiety better."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 28,
+      "text_greek": "καὶ περὶ ἐνδύματος τί μεριμνᾶτε; καταμάθετε τὰ κρίνα τοῦ ἀγροῦ πῶς αὐξάνουσιν· οὐ κοπιῶσιν οὐδὲ νήθουσιν·",
+      "text_kjv": "And why take ye thought for raiment? Consider the lilies of the field, how they grow; they toil not, neither do they spin:",
+      "rendering": "And why do you worry about clothing? Consider the lilies of the field, how they grow. They do not labor or spin,",
+      "translator_notes": [
+        "The verb katamathete ('learn thoroughly, observe carefully, consider well') is stronger than a casual glance — it means to study the lilies as one would study a text. The Greek krina ('lilies') may refer to various wildflowers rather than cultivated lilies specifically. Like the birds, the flowers do not 'labor' (kopōsin, hard physical work) or 'spin' (nēthoustin, the work of making thread for fabric). Creation itself testifies to God's generous provision."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 29,
+      "text_greek": "λέγω δὲ ὑμῖν ὅτι οὐδὲ Σολομὼν ἐν πάσῃ τῇ δόξῃ αὐτοῦ περιεβάλετο ὡς ἓν τούτων.",
+      "text_kjv": "And yet I say unto you, That even Solomon in all his glory was not arrayed like one of these.",
+      "rendering": "Yet I tell you, that not even Solomon in all all his splendor was never dressed as beautifully as even one of these flowers.",
+      "translator_notes": [
+        "Solomon was proverbially the wealthiest and most magnificently dressed king in Israel's history (1 Kings 10:4-7, 23). The Greek doxē ('glory, splendor, magnificence') here refers to his outward splendor. The comparison is deliberately shocking: a wildflower that lives a single day surpasses the greatest human display of wealth. The implication: if God lavishes beauty on temporary flowers, how much more will he provide for his children?",
+        "[TCR Cross-Reference] Echoes 1 Kings 10:4-7. See the TCR's OT rendering for the Hebrew behind this passage and the translation rationale."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 30,
+      "text_greek": "εἰ δὲ τὸν χόρτον τοῦ ἀγροῦ σήμερον ὄντα καὶ αὔριον εἰς κλίβανον βαλλόμενον ὁ θεὸς οὕτως ἀμφιέννυσιν, οὐ πολλῷ μᾶλλον ὑμᾶς, ὀλιγόπιστοι;",
+      "text_kjv": "Wherefore, if God so clothe the grass of the field, which to day is, and to morrow is cast into the oven, shall he not much more clothe you, O ye of little faith?",
+      "rendering": "But if God so clothes the grass of the field, which is alive today and tomorrow is thrown into the oven, will he not much more clothe you — you of little faith?",
+      "translator_notes": [
+        "The Greek oligopistoi ('of little faith') is a word characteristic of Matthew (6:30, 8:26, 14:31, 16:8) — it describes not unbelief but insufficient trust in a God one already acknowledges. The klibanon ('oven') was a clay baking oven fueled by dried grass and brush. The argument reaches its climax: the most ephemeral thing in creation (grass that exists one day and is fuel the next) receives extravagant beauty from God — how much more will God provide for beings created in his image?"
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 31,
+      "text_greek": "μὴ οὖν μεριμνήσητε λέγοντες· Τί φάγωμεν; ἤ· Τί πίωμεν; ἤ· Τί περιβαλώμεθα;",
+      "text_kjv": "Therefore take no thought, saying, What shall we eat? or, What shall we drink? or, Wherewithal shall we be clothed?",
+      "rendering": "So do not worry, saying, 'What will we eat?' or 'What will we drink?' or 'What will we wear?'",
+      "translator_notes": [
+        "The three anxious questions cover the basic necessities: food, drink, and clothing. The subjunctive mood (phagōmen, piōmen, peribalōmetha) expresses the anxious deliberation of someone who does not know where their next provision will come from. Jesus does not dismiss the reality of material need but challenges the anxious mindset that treats provision as uncertain."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 32,
+      "text_greek": "πάντα γὰρ ταῦτα τὰ ἔθνη ἐπιζητοῦσιν· οἶδεν γὰρ ὁ πατὴρ ὑμῶν ὁ οὐράνιος ὅτι χρῄζετε τούτων ἁπάντων.",
+      "text_kjv": "(For after all these things do the Gentiles seek:) for your heavenly Father knoweth that ye have need of all these things.",
+      "rendering": "For the Gentiles pursue all these things, and your heavenly Father knows that you need all of them.",
+      "translator_notes": [
+        "The Greek ethnē ('nations, Gentiles') here refers to those who do not know God as Father. The verb epizētousin ('eagerly seek, strive after') implies an anxious, driven pursuit. The contrast is sharp: those who do not know God as Father must be anxious about material needs; those who do know him should not be, because he already knows (oiden, settled knowledge) their needs. The repetition of 'your heavenly Father' reinforces the relational basis of freedom from anxiety."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 33,
+      "text_greek": "ζητεῖτε δὲ πρῶτον τὴν βασιλείαν τοῦ θεοῦ καὶ τὴν δικαιοσύνην αὐτοῦ, καὶ ταῦτα πάντα προστεθήσεται ὑμῖν.",
+      "text_kjv": "But seek ye first the kingdom of God, and his righteousness; and all these things shall be added unto you.",
+      "rendering": "But seek first the kingdom of God and his righteousness, and all these things will be provided for you as well.",
+      "translator_notes": [
+        "This verse functions as the climax of the entire 'do not worry' section and arguably of the Sermon on the Mount itself. The imperative zēteite ('seek') is present tense — seek continuously, as a way of life. The word prōton ('first') establishes priority, not sequence: God's kingdom and righteousness are not the first item on a list but the governing priority that orders everything else. The passive prostethēsetai ('will be added, will be provided') is again a divine passive — God will add material provision. Notably, Matthew here uses 'kingdom of God' (tēn basileian tou theou) rather than his usual 'kingdom of heaven,' perhaps for emphasis."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 34,
+      "text_greek": "μὴ οὖν μεριμνήσητε εἰς τὴν αὔριον· ἡ γὰρ αὔριον μεριμνήσει ἑαυτῆς. ἀρκετὸν τῇ ἡμέρᾳ ἡ κακία αὐτῆς.",
+      "text_kjv": "Take therefore no thought for the morrow: for the morrow shall take thought for the things of itself. Sufficient unto the day is the evil thereof.",
+      "rendering": "So do not worry about tomorrow, for tomorrow will worry about itself. Each day has enough trouble of its own.",
+      "translator_notes": [
+        "The personification of 'tomorrow' worrying about itself (hē aurion merimnēsei heautēs) adds a touch of wry humor to the teaching. The Greek kakia ('trouble, evil, hardship') here means the day's burden of difficulty — not moral evil but the ordinary weight of living. The concluding maxim is proverbial in form: confine your concern to today's challenges. This echoes the 'daily bread' petition of 6:11 — live in daily dependence, not projected anxiety."
+      ],
+      "reading_level": "7th grade"
+    }
+  ]
+}
