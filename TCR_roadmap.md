@@ -1,6 +1,8 @@
-# The Covenant Rendering — Full Project Roadmap
+# The Covenant Rendering — Full Project Roadmap (ARCHIVED)
 
-**Current state:** 232/1,189 chapters complete (19.5%). 7 books live on thecovenantrendering.com.
+> **ARCHIVED 2026-04-08.** This roadmap was written 2026-03-29 when 232/1,189 chapters (19.5%) were complete. All six phases have since been completed. See `TCR_source_of_truth.md` (v5.3) for the current state: 66-book Bible (1,189 chapters, 31,169 verses), all 8 Extended Library traditions, preamble enrichment, tooling, and PDFs — all deployed. The document below is preserved as a historical planning artifact.
+
+**Current state at time of writing:** 232/1,189 chapters complete (19.5%). 7 books live on thecovenantrendering.com.
 **Date:** 2026-03-29
 **Purpose:** Comprehensive roadmap from current state to project completion, for QA validation that nothing is missing.
 

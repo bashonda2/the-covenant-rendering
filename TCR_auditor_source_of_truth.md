@@ -773,7 +773,8 @@ This auditor SOT consolidates information from these source documents (listed he
 | `scripts/qa_validate.py` | Automated check implementation, NT support, textual-critical omissions |
 | `scripts/audit_books.py` | ER density audit, preamble completeness audit |
 | `scripts/nt_ot_crossref.py` | NT→OT cross-reference injection logic |
+| `tcr-search-api/server.js` | AI search API — Claude-powered semantic search, tiered context strategy, query classification, deployed on VPS |
 
 ---
 
-*Version 2.0 — 2026-04-05*
+*Version 2.1 — 2026-04-11*

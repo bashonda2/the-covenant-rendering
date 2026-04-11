@@ -4,8 +4,8 @@
 
 **Owner:** Aaron Blonquist
 **Created:** 2026-02-27
-**Last updated:** 2026-04-05
-**Version:** 5.3
+**Last updated:** 2026-04-11
+**Version:** 5.4
 
 ---
 
@@ -56,7 +56,8 @@
   - Targum Onkelos: 5 books, 176 renderings (Memra, anti-anthropomorphism, Messianic)
   - Targum Jonathan: 5 books, 153 renderings (Servant Songs reinterpreted, explicit Messianic readings)
 - **Website:** thecovenantrendering.com — 1,598 pages live.
-- **Documentation:** SOT v5.1.
+- **AI Search:** `tcr-search-api` — Claude-powered "Ask the Text" on homepage. Tiered context strategy: indexed summaries for breadth, full scholarly data for specific passages. Queries concordance (28 terms), cross-references (2,328 refs), and all 77 book indexes.
+- **Documentation:** SOT v5.4.
 - **Repos:** Both current.
 - **Next:** Deploy NT to website. Greek Theologically Rich Terms Register. OT KJV-proximity remediation (54 chapters in Prophets). NT briefing addendums for major books.
 
@@ -213,6 +214,7 @@ The full translation philosophy is documented in [`prompts/covenant_rendering_pr
 - ~~Greek Theologically Rich Terms Register~~ — DONE (42 locked terms, 8 categories, cross-testament links, locked NT formulas)
 - ~~NT-specific briefing addendums~~ — DONE (Gospels, Romans, Hebrews, Revelation — 4 addendums)
 - ~~Site search~~ — DONE (Pagefind, 1,609 pages indexed, 309K words, at `/search`)
+- ~~AI-powered search~~ — DONE (Claude-powered "Ask the Text" on homepage. `tcr-search-api` with tiered context: Tier 1 indexed summaries for all matched chapters, Tier 2 renderings+notes for top 15, Tier 3 full scholarly data for specific verse references. Queries 77 books, concordance, cross-references.)
 - ~~Individual verse permalinks~~ — DONE (`/genesis/1/1` → `/genesis/1#v1` with highlight)
 - ~~Concordance~~ — DONE (28 terms, 3,187 occurrences, at `scripts/concordance.json`)
 - ~~Cross-reference database~~ — DONE (2,328 cross-refs, at `scripts/crossref_db.json`)
@@ -274,7 +276,7 @@ Infrastructure is in place: `Preamble` type in data model, optional `preamble` f
 - Site search (Pagefind or equivalent — warranted with 6 books / 220 pages)
 - Individual verse permalinks (`/genesis/1/1`) for SEO and sharing
 - PDF/print generation pipeline
-- Search across all texts
+- AI search API (`tcr-search-api/server.js`) — Claude-powered semantic search across all 77 books. Express server on port 3847 with tiered context strategy (indexed summaries / renderings+notes / full scholarly data), query classification (specific/book-level/topical), concordance and cross-reference integration, rate limiting (10/min per IP). Deployed at `/api/search` via nginx proxy on the VPS.
 
 ---
 
@@ -294,6 +296,7 @@ Infrastructure is in place: `Preamble` type in data model, optional `preamble` f
 | **Prompt version** | 1.3 |
 | **Data repo** | https://github.com/bashonda2/the-covenant-rendering (`~/The Covenant Rendering/`) |
 | **Website repo** | https://github.com/bashonda2/tcr-site (`~/TCR/`) |
+| **Search API** | `tcr-search-api/` in data repo, deployed at `/opt/tcr-search-api/` on VPS, managed by PM2 as `tcr-search` |
 | **Live site** | https://thecovenantrendering.com |
 | **VPS** | *(removed from public SOT)* |
 | **Web root** | `/var/www/tcr/` |
@@ -310,6 +313,7 @@ When using The Covenant Rendering, credit:
 
 | Date | Changes |
 |---|---|
+| 2026-04-11 | **AI SEARCH API BUILT AND DEPLOYED.** `tcr-search-api` created: Express server with Claude-powered "Ask the Text" semantic search on homepage. Three fixes applied: model name corrected (`claude-sonnet-4-6`), `DATA_ROOT` made configurable via env var, nginx timeout increased to 90s. Tiered context strategy implemented: Tier 1 (indexed summaries from in-memory startup index — all matched chapters, unlimited), Tier 2 (renderings + translator notes loaded from disk — top 15 chapters), Tier 3 (full scholarly data including Hebrew/Greek source text, KJV, key_terms — only for specific verse/chapter references). Query classification (specific/book-level/topical) routes queries to appropriate tier. Cross-reference search expanded to keyword matching in note text and book-slug matching. System prompt updated for thoroughness — all relevant references cited, not just a selection. `max_tokens` increased to 4096 for comprehensive answers. Deployed at `/opt/tcr-search-api/` on VPS, managed by PM2 as `tcr-search`, proxied via nginx at `/api/search`. SOT v5.4. |
 | 2026-04-05 | **ROADMAP COMPLETE.** Preamble enrichment pass: 415 chapters across 43 books enriched with "Tradition comparisons" paragraphs linking to DSS, LXX, Samaritan, Targum, Vulgate, and JST data. PDF generation pipeline: 69 PDFs generated (66 per-book + OT 13MB + NT 4MB + full Bible 17MB). Download page deployed at /download with navigation link. All near-term, medium-term, and long-term roadmap items complete. SOT v5.3. |
 | 2026-04-05 | **ROADMAP SUBSTANTIALLY COMPLETE.** Latin Vulgate generated (9 books, 184 renderings) and deployed at /vulgate/. Greek Theologically Rich Terms Register created (42 terms, locked NT formulas, cross-testament links). NT briefing addendums created for Gospels, Romans, Hebrews, Revelation. Pagefind site search deployed (1,609 pages indexed, 309K words). Individual verse permalinks implemented (/genesis/1/1 → scroll + highlight). Concordance built (28 terms, 3,187 occurrences). Cross-reference database built (2,328 refs). All 8/8 Extended Library priorities complete. Site: 35,076 pages (including verse permalinks). Only remaining items: preamble enrichment pass and PDF/print pipeline. SOT v5.2. |
 | 2026-04-05 | **FULL AUDIT: 1,189/1,189 CHAPTERS PASS.** Auditor SOT v2.0 created and used for full-Bible validation. 2 fixes applied: Jonah 2:8 ER field ordering, Nahum 1:10 archaic "sodden" → "soaked". 69-verse convergence whitelist added to qa_validate.py — verses where KJV proximity is accepted because the Hebrew only produces one natural English rendering. Whitelist is categorized (superscriptions, prophetic formulas, divine self-identification, simple parallelism, date/narrative formulas, iconic direct speech) and documented in the script. New KJV-proximate verses not on the whitelist still trigger FAIL. Zero OT or NT chapters failing. |
@@ -357,4 +361,4 @@ When using The Covenant Rendering, credit:
 
 ---
 
-*Version 5.3 — 2026-04-05*
+*Version 5.4 — 2026-04-11*
