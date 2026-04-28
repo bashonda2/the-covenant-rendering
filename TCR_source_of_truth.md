@@ -4,8 +4,8 @@
 
 **Owner:** Aaron Blonquist
 **Created:** 2026-02-27
-**Last updated:** 2026-04-11
-**Version:** 5.4
+**Last updated:** 2026-04-20
+**Version:** 5.5
 
 ---
 
@@ -19,6 +19,7 @@
 | Operational Playbook | `TCR_operational_playbook.md` | How do we generate, deploy, and operate? |
 | Auditor Source of Truth | `TCR_auditor_source_of_truth.md` | How do I audit this project? (standalone, self-contained) |
 | Full Roadmap | `TCR_roadmap.md` | What's the plan from now to project completion? |
+| Tradition Expansion Roadmap | `TCR_tradition_expansion_roadmap.md` | Full plan for comprehensive verse-level tradition stacking |
 
 ### Governing Prompt Documents
 
@@ -51,15 +52,17 @@
   - LXX Jeremiah: 52 ch variant comparison (shorter text, confirmed by 4QJerb)
   - LXX Daniel: 15 files (12 variant + Susanna, Prayer of Azariah, Bel and Dragon)
   - LXX Esther: 16 files (10 variant + 6 Additions A-F)
-  - JST: Book of Moses (8 ch), JS-Matthew (55 v), Appendix (14 passages), Footnotes (111 entries). All from official LDS Church publications.
+  - JST: Book of Moses (8 ch), JS-Matthew (55 v), Appendix (14 passages), Footnotes (428 entries across OT/NT — expanded from 111). All from official LDS Church publications.
   - Samaritan Pentateuch: 5 books, 156 significant variants (Gerizim theology, 10th commandment)
   - Targum Onkelos: 5 books, 176 renderings (Memra, anti-anthropomorphism, Messianic)
   - Targum Jonathan: 5 books, 153 renderings (Servant Songs reinterpreted, explicit Messianic readings)
+  - Latin Vulgate: **66 per-book variant files (791 renderings)** covering every book of the Protestant canon, plus **7 deuterocanonical books** rendered in full from Jerome's Latin (Tobit 14 ch, Judith 16 ch, Wisdom 19 ch, Sirach 51 ch, Baruch 6 ch, 1 Maccabees 16 ch, 2 Maccabees 15 ch — 137 chapters total). 203 Vulgate files.
 - **Website:** thecovenantrendering.com — 1,598 pages live.
 - **AI Search:** `tcr-search-api` — Claude-powered "Ask the Text" on homepage. Tiered context strategy: indexed summaries for breadth, full scholarly data for specific passages. Queries concordance (28 terms), cross-references (2,328 refs), and all 77 book indexes.
-- **Documentation:** SOT v5.4.
+- **Documentation:** SOT v5.5.
 - **Repos:** Both current.
-- **Next:** Deploy NT to website. Greek Theologically Rich Terms Register. OT KJV-proximity remediation (54 chapters in Prophets). NT briefing addendums for major books.
+- **Active work:** Full Tradition Expansion — comprehensive verse-level stacking of all traditions across every Bible chapter. See `TCR_tradition_expansion_roadmap.md` for 10-phase plan.
+- **Next:** Phase 3 (LXX expansion to full OT), Phase 4 (DSS beyond Isaiah), Phase 5 (Targumim comprehensive), then website generalization and AI search updates.
 
 ---
 
@@ -244,7 +247,7 @@ Full strategy: [`prompts/extended-library-direction.md`](prompts/extended-librar
 |---|---|---|---|
 | 1 | Dead Sea Scrolls (Isaiah) | **DONE** | 66 ch, 590 variants, deployed at `/dss-isaiah/` |
 | 2 | 1 Enoch | **DONE** | 108 ch, 1,054 v, deployed at `/1-enoch/` |
-| 3 | Septuagint (Jeremiah, Daniel, Esther) | **DONE** | 83 files, deployed at `/lxx-jeremiah/`, `/lxx-daniel/`, `/lxx-esther/` |
+| 3 | Septuagint (LXX, comprehensive OT coverage) | **DONE** | **9 per-chapter corpora** (Jeremiah 52ch, Daniel 15ch/537v/106var, Esther 10ch/166v/35var, Exodus 40ch/1,210v/156var, 1 Samuel 31ch/812v/68var, Isaiah 66ch/1,292v/58var, Psalms 150ch/2,536v/131var, Proverbs 31ch/915v/11var, Job 42ch/1,070v/11var) **+ ~30 per-book LXX files** (Pentateuch remainder, Joshua-Nehemiah historicals, Lamentations, Ezekiel, all 12 Minor Prophets, Ecclesiastes, Song of Songs). Routing wired in `getStackedTraditions` for Isaiah, Psalms, Proverbs, Job. |
 | 4 | JST | **DONE** | 3 layers (Moses 8 ch, JS-Matt, Appendix 14, Footnotes 111). All from official LDS Church publications. Deployed at `/jst/` |
 | 5 | Samaritan Pentateuch | **DONE** | 5 books, 156 variants, deployed at `/samaritan-pentateuch/` |
 | 6 | Jubilees | **DONE** | 50 ch, 1,245 v, deployed at `/jubilees/` |
@@ -313,6 +316,8 @@ When using The Covenant Rendering, credit:
 
 | Date | Changes |
 |---|---|
+| 2026-04-28 | **TRADITION EXPANSION PHASE 3 COMPLETE — LXX comprehensive OT coverage.** Septuagint expanded from 3 books (Jeremiah, Daniel, Esther) to comprehensive coverage. **Phase 3a–3h delivered**: 3a Genesis LXX (per-book, 20 renderings); 3b Pentateuch remainder Leviticus 15 / Numbers 12 / Deuteronomy 15 (per-book); 3c Exodus (per-chapter, 40ch/1,210v/156var); 3d Historical books Joshua 10 / Judges 8 / Ruth 6 / 2 Samuel 8 / 1 Kings 8 / 2 Kings 7 / 1 Chr 4 / 2 Chr 4 / Ezra 4 / Nehemiah 4 (per-book); 3e 1 Samuel (per-chapter, 31ch/812v/68var — David & Goliath shorter LXX form); 3f Wisdom: Psalms (per-chapter, 150ch/2,536v/131var — LXX numbering offset documented), Proverbs (per-chapter, 31ch/915v/11var), Job (per-chapter, 42ch/1,070v/11var — ~1/6 shorter than MT); 3g Isaiah (per-chapter, 66ch/1,292v/58var — full Christological/NT-citation documentation including Servant Songs, cornerstone trio, Acts 7/Mark 9:48 anchors); 3h remaining prophets per-book (Lamentations 4, Ezekiel 9, all 12 Minor Prophets ~32 entries) plus Ecclesiastes 3 and Song of Songs 3. Closeout: `getStackedTraditions()` extended to surface lxx-isaiah, lxx-psalms, lxx-proverbs, and lxx-job alongside existing tradition stacks; four new LXX directories mounted at `TCR/src/data/`. Schema follows established LXX pattern (mt_reading + lxx_reading in source-script, mt_rendering + variant_rendering, has_variant flag + significance level, NT-citation tracking in variant_notes). All chapter files JSON-validated. SOT v5.6. |
+| 2026-04-20 | **TRADITION EXPANSION PHASES 1-2 COMPLETE.** Phase 1 (JST): Footnotes expanded from 111 → 428 entries (97 OT + 331 NT), split into per-testament files (`jst-footnotes-ot.json`, `jst-footnotes-nt.json`). All 111 original entries preserved. JST appendix verified complete (14/14 passages). Phase 2 (Vulgate): Expanded from 9 books/184 renderings to **203 files**: 66 per-book variant-comparison files covering every Protestant-canon book (791 total renderings documenting Jerome's key Latin choices), plus 7 deuterocanonical books rendered in full from Latin (Tobit 14 ch, Judith 16 ch, Wisdom of Solomon 19 ch, Sirach 51 ch, Baruch 6 ch, 1 Maccabees 16 ch, 2 Maccabees 15 ch — 137 chapters, ~3,400 verses). Key renderings: ego sum qui sum, cornuta facies, vanitas vanitatum, iustus ex fide vivit, Verbum caro factum est, gratia plena, sacramentum magnum, dies irae, omnipotens sermo tuus. Audit findings fixed: 12 NT files renamed from underscores to hyphens (project convention), gospels.json split into individual matthew/mark/luke/john files, JST extended-verse-numbering note added. Full tradition expansion roadmap created (`TCR_tradition_expansion_roadmap.md`) — 10-phase plan for comprehensive verse-level stacking across all traditions. SOT v5.5. |
 | 2026-04-11 | **AI SEARCH API BUILT AND DEPLOYED.** `tcr-search-api` created: Express server with Claude-powered "Ask the Text" semantic search on homepage. Three fixes applied: model name corrected (`claude-sonnet-4-6`), `DATA_ROOT` made configurable via env var, nginx timeout increased to 90s. Tiered context strategy implemented: Tier 1 (indexed summaries from in-memory startup index — all matched chapters, unlimited), Tier 2 (renderings + translator notes loaded from disk — top 15 chapters), Tier 3 (full scholarly data including Hebrew/Greek source text, KJV, key_terms — only for specific verse/chapter references). Query classification (specific/book-level/topical) routes queries to appropriate tier. Cross-reference search expanded to keyword matching in note text and book-slug matching. System prompt updated for thoroughness — all relevant references cited, not just a selection. `max_tokens` increased to 4096 for comprehensive answers. Deployed at `/opt/tcr-search-api/` on VPS, managed by PM2 as `tcr-search`, proxied via nginx at `/api/search`. SOT v5.4. |
 | 2026-04-05 | **ROADMAP COMPLETE.** Preamble enrichment pass: 415 chapters across 43 books enriched with "Tradition comparisons" paragraphs linking to DSS, LXX, Samaritan, Targum, Vulgate, and JST data. PDF generation pipeline: 69 PDFs generated (66 per-book + OT 13MB + NT 4MB + full Bible 17MB). Download page deployed at /download with navigation link. All near-term, medium-term, and long-term roadmap items complete. SOT v5.3. |
 | 2026-04-05 | **ROADMAP SUBSTANTIALLY COMPLETE.** Latin Vulgate generated (9 books, 184 renderings) and deployed at /vulgate/. Greek Theologically Rich Terms Register created (42 terms, locked NT formulas, cross-testament links). NT briefing addendums created for Gospels, Romans, Hebrews, Revelation. Pagefind site search deployed (1,609 pages indexed, 309K words). Individual verse permalinks implemented (/genesis/1/1 → scroll + highlight). Concordance built (28 terms, 3,187 occurrences). Cross-reference database built (2,328 refs). All 8/8 Extended Library priorities complete. Site: 35,076 pages (including verse permalinks). Only remaining items: preamble enrichment pass and PDF/print pipeline. SOT v5.2. |
@@ -361,4 +366,4 @@ When using The Covenant Rendering, credit:
 
 ---
 
-*Version 5.4 — 2026-04-11*
+*Version 5.6 — 2026-04-28*

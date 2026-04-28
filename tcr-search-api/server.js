@@ -55,7 +55,9 @@ const CANONICAL_BOOKS = [
 ];
 
 const EXTENDED_BOOKS = [
-  'dss-isaiah', 'lxx-daniel', 'lxx-esther', 'lxx-jeremiah',
+  'dss-isaiah',
+  'lxx-daniel', 'lxx-esther', 'lxx-jeremiah',
+  'lxx-isaiah', 'lxx-psalms', 'lxx-proverbs', 'lxx-job',
   'targum-onkelos', 'targum-jonathan', 'jst', 'samaritan-pentateuch',
   'vulgate', '1-enoch', 'jubilees'
 ];
@@ -114,6 +116,8 @@ function loadBookIndex(slug) {
         remarkable: raw.preamble?.remarkable || '',
         friction: raw.preamble?.friction || '',
         connections: raw.preamble?.connections || '',
+        notableVariants: raw.preamble?.notable_variants || '',
+        structuralNotes: raw.preamble?.structural_notes || '',
         keyTerms: [...new Set(keyTermsList)].slice(0, 30),
         expandedRenderings: expandedRenderings.slice(0, 10),
         verseCount: raw.verses?.length || 0,
@@ -203,6 +207,8 @@ function scoreChapterRelevance(query, bookSlug, chapterInfo, bookNameMatch) {
     chapterInfo.remarkable,
     chapterInfo.friction,
     chapterInfo.connections,
+    chapterInfo.notableVariants,
+    chapterInfo.structuralNotes,
     ...chapterInfo.keyTerms,
     ...chapterInfo.expandedRenderings,
   ].join(' ').toLowerCase();
