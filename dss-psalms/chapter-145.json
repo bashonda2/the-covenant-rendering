@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Psalms",
+    "chapter": 145,
+    "tradition": "dss-psalms",
+    "tradition_label": "Dead Sea Scrolls (11QPsᵃ)",
+    "source_text": "11QPsᵃ (11Q5) col. XVI–XVII",
+    "base_text": "Westminster Leningrad Codex (WLC)",
+    "date": "c. 30–50 CE",
+    "manuscript_location": "Israel Antiquities Authority, Jerusalem",
+    "generated_at": "2026-05-04T00:00:00Z",
+    "prompt_version": "1.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Psalm 145 is an alphabetic acrostic — each verse begins with successive Hebrew letters from aleph to taw. The MT acrostic is famously incomplete: there is no verse beginning with the letter nun (between v. 13 mem and v. 14 samek). The Septuagint preserves a nun-line ('The LORD is faithful in all his words and gracious in all his deeds'), and 11QPsᵃ confirms that this nun-line existed in Hebrew. The DSS finding settled the long-standing question: the missing nun-line in the MT is a haplographic loss, not original. Critical translations (NRSV, ESV, NABRE) restore the missing line based on the DSS+LXX evidence.",
+    "notable_variants": "MARQUEE TEXT-CRITICAL VARIANT — restoration of the missing nun-line in the alphabetic acrostic. 11QPsᵃ preserves נאמן אלוהים בדבריו וחסיד בכל מעשיו ('The LORD is faithful in all his words and gracious in all his deeds') as the nun-line between v. 13 (mem) and v. 14 (samek). The line matches LXX πιστὸς κύριος ἐν πᾶσιν τοῖς λόγοις αὐτοῦ καὶ ὅσιος ἐν πᾶσιν τοῖς ἔργοις αὐτοῦ. The MT lost the line through parablepsis (the same opening 'The LORD is faithful/gracious' formula appears in adjacent verses, providing the eye-skip context). The acrostic without the nun is structurally defective — every other Hebrew letter is represented. The DSS settles the case in favor of the line as original.",
+    "scroll_condition": "11QPsᵃ col. XVI–XVII preserves Psalm 145 as part of the scroll's larger Pss 91–150 collection. The nun-line is well legible.",
+    "manuscripts": "11QPsᵃ (11Q5) — the principal witness. Also attested in part at 4QPsᵉ (4Q87)."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "has_variant": false,
+      "manuscript_reference": "11QPsᵃ col. XVI",
+      "variant_notes": ["The opening alef-line ('I will exalt you, my God, the King') tracks MT. The acrostic structure begins here."]
+    },
+    {
+      "verse": 13,
+      "has_variant": true,
+      "significance": "moderate",
+      "mt_reading": "מַלְכוּתְךָ מַלְכוּת כָּל־עֹלָמִים וּמֶמְשַׁלְתְּךָ בְּכָל־דּוֹר וָדוֹר [no nun-line follows]",
+      "dss_reading": "[after v. 13:] נאמן אלוהים בדבריו וחסיד בכל מעשיו",
+      "mt_rendering": "Your kingdom is an everlasting kingdom, and your dominion endures throughout all generations",
+      "variant_rendering": "[adds the nun-line:] The LORD is faithful in all his words, and gracious in all his deeds",
+      "manuscript_reference": "11QPsᵃ col. XVI",
+      "variant_notes": [
+        "MARQUEE VARIANT — restoration of the missing nun-line in the alphabetic acrostic.",
+        "Psalm 145 is structured as an alphabetic acrostic (each verse begins with a successive Hebrew letter). The MT's acrostic is famously defective: the nun-line is absent. Without the nun-line, the acrostic has 21 letters instead of the expected 22.",
+        "11QPsᵃ preserves the nun-line: נאמן אלוהים בדבריו וחסיד בכל מעשיו ('The LORD is faithful in all his words and gracious in all his deeds'). The Septuagint preserves the same line in Greek (πιστὸς κύριος ἐν πᾶσιν τοῖς λόγοις αὐτοῦ καὶ ὅσιος ἐν πᾶσιν τοῖς ἔργοις αὐτοῦ).",
+        "The MT loss is most plausibly explained as parablepsis: the surrounding verses use similar formulae ('the LORD is faithful/righteous/gracious'), providing eye-skip context for a scribe to lose the line.",
+        "The DSS finding decisively settled the long-standing question. NRSV, ESV, NABRE, and most critical translations now restore the missing line; NJPS retains MT.",
+        "Theologically, the restored line completes the acrostic's structural and thematic perfection — every Hebrew letter (every part of speech, by ancient convention) joins in praising the LORD's faithfulness."
+      ]
+    },
+    {
+      "verse": 14,
+      "has_variant": false,
+      "manuscript_reference": "11QPsᵃ col. XVI",
+      "variant_notes": ["The samek-line ('The LORD upholds all who are falling') tracks MT — and now follows directly upon the restored nun-line of v. 13b/13a in the longer DSS+LXX text-form."]
+    },
+    {
+      "verse": 21,
+      "has_variant": false,
+      "manuscript_reference": "11QPsᵃ col. XVII",
+      "variant_notes": ["The closing taw-line ('My mouth will speak the praise of the LORD; let all flesh bless his holy name forever and ever') tracks MT and closes the acrostic. 11QPsᵃ continues directly into Psalm 154 (an apocryphal composition not in MT) — an example of the alternative ordering and supplementary compositions in the scroll's last third."]
+    }
+  ]
+}

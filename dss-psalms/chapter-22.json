@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Psalms",
+    "chapter": 22,
+    "tradition": "dss-psalms",
+    "tradition_label": "Dead Sea Scrolls (4QPsf + 5/6HevPs)",
+    "source_text": "4QPsᶠ (4Q88), 5/6HevPs (Nahal Hever)",
+    "base_text": "Westminster Leningrad Codex (WLC)",
+    "date": "c. 50 BCE – 70 CE",
+    "manuscript_location": "Israel Antiquities Authority, Jerusalem",
+    "generated_at": "2026-05-04T00:00:00Z",
+    "prompt_version": "1.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Psalm 22 — the great suffering psalm, opened with 'My God, my God, why have you forsaken me' (cited by Jesus from the cross at Matt 27:46 / Mark 15:34) — preserves one of the most theologically charged DSS readings in the entire Hebrew Bible at v. 16 (English v. 16; Hebrew v. 17). The MT reads כָּאֲרִי ('like a lion'), an awkward construction that has long puzzled commentators. The Nahal Hever Psalms scroll (5/6HevPs) reads כארו ('they have pierced/dug'), supporting the LXX (ὤρυξαν) and Vulgate (foderunt) readings — the textual basis of the traditional Christian crucifixion reading. The DSS evidence has shifted scholarly opinion in favor of the 'they pierced' reading as ancient.",
+    "notable_variants": "MARQUEE CHRISTOLOGICAL VARIANT at v. 16. MT כארי ('like a lion') vs. 5/6HevPs כארו ('they have pierced/dug'). The difference is a single letter: yod (י) vs. waw (ו). The MT reading 'like a lion my hands and my feet' is grammatically irregular (no verb) and produces a difficult image. The DSS reading 'they have pierced my hands and my feet' is grammatically natural and matches the LXX/Vulgate. The DSS finding has prompted critical translations to reconsider; NRSV reads 'they shorn my hands and feet' (a verbal alternative); ESV and others retain 'pierced' citing the DSS reading. The crucifixion-prediction reading central to Christian interpretation finds a Hebrew-text basis here.",
+    "scroll_condition": "5/6HevPs preserves v. 16 with the kaf-aleph-resh-waw spelling. The reading is well legible.",
+    "manuscripts": "4QPsᶠ (4Q88) preserves portions; 5/6HevPs (Nahal Hever, slightly later than Qumran proper) preserves the marquee v. 16 reading"
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "has_variant": false,
+      "manuscript_reference": "fragmentary",
+      "variant_notes": ["The opening 'My God, my God, why have you forsaken me' tracks MT. Cited by Jesus from the cross at Matt 27:46 / Mark 15:34, both gospels preserving the Aramaic transliteration 'eli eli lema sabachthani.'"]
+    },
+    {
+      "verse": 16,
+      "has_variant": true,
+      "significance": "theological",
+      "mt_reading": "כִּי סְבָבוּנִי כְּלָבִים עֲדַת מְרֵעִים הִקִּיפוּנִי כָּאֲרִי יָדַי וְרַגְלָי",
+      "dss_reading": "כי סבבוני כלבים עדת מרעים הקיפוני כארו ידי ורגלי",
+      "mt_rendering": "For dogs surround me; a band of evildoers encircles me; like a lion my hands and feet [grammatically awkward — no verb]",
+      "variant_rendering": "For dogs surround me; a band of evildoers encircles me; they have pierced my hands and my feet",
+      "manuscript_reference": "5/6HevPs col. XI",
+      "variant_notes": [
+        "MARQUEE TEXT-CRITICAL VARIANT — perhaps the most theologically charged single-letter difference in the Hebrew Bible.",
+        "MT כָּאֲרִי (ka'ari, 'like a lion') vs. 5/6HevPs כָּארוּ (ka'aru, 'they have pierced/dug'). The difference is the final letter: yod (י) in MT, waw (ו) in DSS. In Second Temple Hebrew script, yod and waw were nearly indistinguishable — a single stroke difference.",
+        "The MT reading 'like a lion my hands and my feet' is grammatically defective: it lacks a verb. Translators have to supply one (e.g., 'like a lion [they tear] my hands and feet'). The DSS reading provides the verb directly: 'they have pierced (dug, gouged) my hands and my feet.'",
+        "The Septuagint reads ὤρυξαν χεῖράς μου καὶ πόδας μου ('they pierced my hands and my feet'), and the Vulgate reads foderunt manus meas et pedes meos — both translating a Hebrew Vorlage closer to the DSS than to the MT. Aquila and Symmachus preserve the literalist 'like a lion' tradition.",
+        "The DSS finding is decisive evidence that 'they have pierced' is not a Christian invention or an LXX innovation but a genuine ancient Hebrew reading. Critical commentaries (Goldingay, Hossfeld-Zenger, etc.) increasingly treat the DSS reading as original or at least as a strong alternative to MT.",
+        "Christological reception: while the New Testament does not directly cite Ps 22:16, John 19:37 ('they will look on him whom they have pierced,' citing Zech 12:10) and the broader Passion narrative draw on this psalm extensively. The 'they have pierced my hands and my feet' reading provides a direct prophetic-textual anchor for the crucifixion that the MT alone does not."
+      ]
+    },
+    {
+      "verse": 18,
+      "has_variant": false,
+      "manuscript_reference": "fragmentary",
+      "variant_notes": ["'They divide my garments among them, and for my clothing they cast lots' tracks MT. Cited at all four Passion narratives (Matt 27:35 / Mark 15:24 / Luke 23:34 / John 19:24)."]
+    }
+  ]
+}

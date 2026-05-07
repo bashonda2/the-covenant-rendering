@@ -1,0 +1,74 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Psalms",
+    "chapter": 151,
+    "tradition": "dss-psalms",
+    "tradition_label": "Dead Sea Scrolls (11QPsᵃ Pss 151A + 151B)",
+    "source_text": "11QPsᵃ (11Q5) col. XXVIII",
+    "base_text": "[no MT counterpart — this psalm is preserved only in DSS, LXX, and Syriac/Eastern canonical lists]",
+    "date": "c. 30–50 CE",
+    "manuscript_location": "Israel Antiquities Authority, Jerusalem",
+    "generated_at": "2026-05-04T00:00:00Z",
+    "prompt_version": "1.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Psalm 151 is the great 'extra' psalm of the Septuagint, the Vulgate, the Syriac Peshitta, and the Eastern Christian canons (Greek Orthodox, Ethiopian, Armenian). Absent from the Hebrew Masoretic Text, it appears in the Septuagint with the rubric 'this psalm is genuinely David's, written in his own hand, although it is outside the number; it is for when he fought Goliath in single combat.' 11QPsᵃ preserves the Hebrew Vorlage in two compositions — Psalm 151A (David's youth as a shepherd, his anointing) and Psalm 151B (the fight against Goliath) — establishing the LXX is not a Christian invention or late composition but a translation of an ancient Hebrew text. This is one of the most important DSS contributions to the canonical history of the Psalter.",
+    "notable_variants": "MARQUEE CANONICAL FINDING. Before the DSS, scholars debated whether the LXX Psalm 151 was a late Greek composition or translated from Hebrew. 11QPsᵃ settles the question: a Hebrew Vorlage existed at Qumran, copied c. 30–50 CE, with a clearly different (longer, more elaborated) form than the LXX abbreviation. The DSS preserves TWO compositions where the LXX has one — Ps 151A (David's autobiography from his youth) and Ps 151B (the Goliath battle, fragmentary). The LXX appears to have abbreviated the two Qumran compositions into a single shorter psalm. Psalm 151 is now firmly established as ancient — present in the Hebrew Psalter at Qumran, in the LXX of Alexandria, and in the Syriac, Greek Orthodox, Ethiopian, and Armenian canons. It remains absent only from the Protestant and Jewish canons.",
+    "scroll_condition": "11QPsᵃ col. XXVIII preserves Ps 151A in continuous text. Ps 151B is more fragmentary, breaking off mid-Goliath narrative.",
+    "manuscripts": "11QPsᵃ (11Q5) col. XXVIII — the only Hebrew manuscript witness to Psalm 151's text-form. The LXX, Vulgate, and Syriac Peshitta preserve translation traditions."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "has_variant": true,
+      "significance": "theological",
+      "mt_reading": "[absent from MT]",
+      "dss_reading": "הללויה לדויד בן ישי קטן הייתי מאחי וצעיר מבני אבי",
+      "mt_rendering": "[MT lacks Psalm 151 entirely]",
+      "variant_rendering": "Hallelujah! By David, son of Jesse. I was small among my brothers, and the youngest of my father's sons",
+      "manuscript_reference": "11QPsᵃ col. XXVIII, lines 3–4",
+      "variant_notes": [
+        "MARQUEE CANONICAL FINDING — the opening of Psalm 151A in Hebrew, preserved at 11QPsᵃ.",
+        "The opening recalls David's diminutive status (cf. 1 Sam 16:11 'there remains the youngest, but he is keeping the sheep'). The first-person autobiographical voice frames the entire psalm as David's own retrospective.",
+        "Before the DSS, this psalm existed only in Greek (LXX), Latin (Vulgate), Syriac, and other versions. The Qumran scroll proved a Hebrew original existed."
+      ]
+    },
+    {
+      "verse": 2,
+      "has_variant": false,
+      "manuscript_reference": "11QPsᵃ col. XXVIII",
+      "variant_notes": ["David's pastoral self-description: 'I was a shepherd to my father's flock, and a ruler over his goats.' The shepherd-king motif anticipates the Davidic-shepherd typology developed in Ezek 34, John 10."]
+    },
+    {
+      "verse": 3,
+      "has_variant": false,
+      "manuscript_reference": "11QPsᵃ col. XXVIII",
+      "variant_notes": ["David's song-making: 'My hands fashioned a flute, and my fingers a lyre, and so I rendered glory to the LORD.' The connection of music to praise is a hallmark of the Davidic psalmody."]
+    },
+    {
+      "verse": 6,
+      "has_variant": false,
+      "manuscript_reference": "11QPsᵃ col. XXVIII",
+      "variant_notes": ["The anointing scene: 'He sent his prophet to anoint me; Samuel, to make me great.' Compresses 1 Sam 16 into autobiographical retrospect."]
+    },
+    {
+      "verse": 7,
+      "has_variant": true,
+      "significance": "major",
+      "mt_reading": "[absent from MT]",
+      "dss_reading": "[Ps 151B begins:] תחלת גבורה לדויד משמשחו נביא אלוהים אזי ראיתי פלשתי מחרף ממערכותיהם",
+      "mt_rendering": "[MT absent]",
+      "variant_rendering": "Beginning of David's might, after the prophet of God anointed him. Then I saw a Philistine reproaching the Israelite battle lines",
+      "manuscript_reference": "11QPsᵃ col. XXVIII, lines 13–14",
+      "variant_notes": [
+        "MAJOR FINDING — 11QPsᵃ preserves Psalm 151B, an entirely separate composition on the Goliath battle, that the LXX merged into Psalm 151 by abbreviation.",
+        "The opening rubric — 'Beginning of David's might' — establishes Ps 151B as a distinct composition recounting the Goliath battle. The text breaks off after the encounter is set up; the actual battle narrative is lost in the scroll's damaged ending.",
+        "The LXX preserved only a heavily abbreviated form combining elements of both 151A and 151B into a single shorter psalm. The Hebrew preserves the original two-psalm structure.",
+        "Together with Ps 151A, this composition forms a Davidic-autobiographical pair: youth and shepherd-anointing (151A), then military victory and royal vocation (151B)."
+      ]
+    }
+  ]
+}
