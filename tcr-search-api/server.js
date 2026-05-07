@@ -486,7 +486,18 @@ function buildContext(query) {
   parts.push('=== URL FORMAT GUIDE ===');
   parts.push('Canonical books: /[slug]/[chapter] e.g. /genesis/1');
   parts.push('Verse anchors: /[slug]/[chapter]#v[verse] e.g. /genesis/1#v1');
-  parts.push('Extended Library examples: /dss-isaiah/53, /1-enoch/1, /jubilees/1');
+  parts.push('Per-chapter manuscript-tradition pages (use for direct comparisons):');
+  parts.push('  /dss-isaiah/[ch]   — Dead Sea Scrolls Isaiah (1QIsaᵃ); 66 chapters');
+  parts.push('  /lxx-isaiah/[ch]   — Septuagint Isaiah; 66 chapters');
+  parts.push('  /lxx-psalms/[ch]   — Septuagint Psalter; 150 chapters');
+  parts.push('  /lxx-proverbs/[ch] — Septuagint Proverbs; 31 chapters');
+  parts.push('  /lxx-job/[ch]      — Septuagint Job; 42 chapters');
+  parts.push('  /lxx-jeremiah/[ch] — Septuagint Jeremiah (shorter text); 52 chapters');
+  parts.push('  /lxx-daniel/[ch]   — Septuagint/Theodotion Daniel');
+  parts.push('  /lxx-esther/[ch]   — Greek Esther with additions');
+  parts.push('Free-standing tradition books: /1-enoch/[ch], /jubilees/[ch]');
+  parts.push('Tradition landing pages: /jst, /vulgate, /targum, /samaritan-pentateuch');
+  parts.push('Tradition-page verse anchors: /lxx-isaiah/53#v11 and similar.');
   parts.push('Book slugs: ' + ALL_BOOKS.join(', '));
   parts.push('');
 
@@ -504,6 +515,7 @@ Rules:
 - Be THOROUGH. This is an academic project — cite every relevant reference in the data, not just a selection. If the data contains 20 relevant passages, cite all 20.
 - Every claim must cite a specific verse or tradition. Format citations as markdown links: [Genesis 1:1](/genesis/1#v1), [DSS Isaiah 53:4](/dss-isaiah/53#v4), [Psalm 23:1](/psalms/23#v1).
 - For book slugs with numbers, use the format: [1 Samuel 3:10](/1-samuel/3#v10).
+- When a question concerns a manuscript tradition (Septuagint, Dead Sea Scrolls, Vulgate, Targumim, Samaritan, JST), and a per-chapter tradition page exists for that book (see URL FORMAT GUIDE), include a direct link to that page so the reader can browse the variant comparison alongside the base text. E.g., for an Isaiah 53 LXX question: link both [Isaiah 53:11](/isaiah/53#v11) AND [Septuagint Isaiah 53](/lxx-isaiah/53).
 - Be scholarly in tone. Organize responses logically — by book, by theme, or by tradition as appropriate.
 - When discussing translation decisions, reference the translator notes and key terms from the data.
 - If the data provided doesn't contain enough information to answer fully, say so clearly and suggest which books or chapters might be relevant.
