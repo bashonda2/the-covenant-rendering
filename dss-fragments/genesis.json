@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "tradition": "dss-fragments",
+    "tradition_label": "Dead Sea Scrolls (fragment summary)",
+    "base_text": "Westminster Leningrad Codex (WLC)",
+    "date": "c. 250 BCE – 70 CE",
+    "manuscript_location": "Israel Antiquities Authority, Jerusalem; various",
+    "generated_at": "2026-05-04T00:00:00Z",
+    "prompt_version": "1.0",
+    "license": "CC-BY-4.0",
+    "book": "Genesis",
+    "book_slug": "genesis",
+    "fragments": [
+      "1QGen (1Q1)",
+      "2QGen (2Q1)",
+      "4QGenᵃ (4Q1)",
+      "4QGenᵇ (4Q2)",
+      "4QGenᶜ (4Q3)",
+      "4QGenᵈ (4Q4)",
+      "4QGenᵉ (4Q5)",
+      "4QGenᶠ (4Q6)",
+      "4QGenᵍ (4Q7)",
+      "4QGenʰ¹⁻² (4Q8a-c)",
+      "4QpaleoGen-Exodᵏ (4Q11)",
+      "6QpaleoGen (6Q1)",
+      "8QGen (8Q1)",
+      "Mur1 (MurGen-Exod-Num)"
+    ],
+    "coverage": "fragmentary",
+    "total_verses_attested_estimate": 300
+  },
+  "preamble": {
+    "summary": "Genesis is broadly attested at Qumran in 14+ manuscripts spanning Caves 1, 2, 4, 6, 8 plus the Murabba'at find. None preserves continuous text — the witnesses are fragmentary, with each scroll surviving in scattered pieces. Together they attest portions of every section of Genesis (creation, flood, patriarchs, Joseph). The consensus across all manuscripts is that the proto-Masoretic Genesis text was already substantially fixed by the late Second Temple period; variants are predominantly orthographic.",
+    "notable_variants": "No major content variants. The most discussed reading is **Gen 1:9** — 4QGenᵏ may preserve a slightly longer text matching the LXX expansion ('and the waters were gathered into their gatherings'). The 4QpaleoGen-Exodᵏ and 4QGenᵈ provide sparse but consistent witness to the proto-MT consonantal text. Genesis 4 (Cain–Abel) and Genesis 22 (the Aqedah) are not significantly altered by any DSS reading.",
+    "coverage_assessment": "fragmentary; ~300 verses attested across the listed manuscripts."
+  },
+  "variants": [
+    {
+      "reference": "Genesis 1:9",
+      "fragment": "4QGenᵏ",
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "וַיִּקָּווּ הַמַּיִם",
+      "dss_reading": "[possibly +ויאספו המים אל מקויהם — agreeing with LXX expansion]",
+      "notes": [
+        "Fragmentary; the 4QGenᵏ reading may support LXX's 'and the waters were gathered into their gatherings,' filling a logical gap in MT. The reading is too fragmentary to be decisive."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "tradition": "dss-fragments",
+    "tradition_label": "Dead Sea Scrolls (fragment summary)",
+    "base_text": "Westminster Leningrad Codex (WLC)",
+    "date": "c. 250 BCE – 70 CE",
+    "manuscript_location": "Israel Antiquities Authority, Jerusalem; various",
+    "generated_at": "2026-05-04T00:00:00Z",
+    "prompt_version": "1.0",
+    "license": "CC-BY-4.0",
+    "book": "Job",
+    "book_slug": "job",
+    "fragments": [
+      "2QJob (2Q15)",
+      "4QJobᵃ (4Q99)",
+      "4QJobᵇ (4Q100)",
+      "4QpaleoJobᶜ (4Q101)",
+      "11QtgJob (11Q10) — Aramaic Targum",
+      "Mur 35"
+    ],
+    "coverage": "fragmentary + 11QtgJob continuous Targum",
+    "total_verses_attested_estimate": 250
+  },
+  "preamble": {
+    "summary": "Job has notable Qumran attestation. **4QpaleoJobᶜ** (4Q101) is one of the few biblical books copied in paleo-Hebrew at Qumran (alongside 4QpaleoExodᵐ, 11QpaleoLevᵃ). The most theologically significant witness is **11QtgJob** (11Q10) — an extensive Aramaic Targum of Job, copied c. 50 CE, preserving roughly Job 17:14–42:11 in a continuous Aramaic translation. 11QtgJob is the oldest surviving Aramaic Targum of any biblical book and predates rabbinic targumic literature by centuries. Its translation tendencies are conservative — much more literal than the later rabbinic Targum of Job.",
+    "notable_variants": "MAJOR DISCOVERY: **11QtgJob** (11Q10) is the oldest extant Aramaic Targum of any biblical book, copied c. 50 CE, preserving roughly Job 17–42 in continuous translation. The translation is much more conservative than rabbinic Targum tradition (lacking the heavy interpretive expansion characteristic of later Targumim). 11QtgJob predates and significantly informs the study of rabbinic targumic literature. The 4QpaleoJobᶜ paleo-Hebrew witness is also notable for its archaic script.",
+    "coverage_assessment": "fragmentary + 11QtgJob continuous Targum; ~250 verses attested across the listed manuscripts."
+  },
+  "variants": [
+    {
+      "reference": "Job 17:14-42:11 (continuous in 11QtgJob)",
+      "fragment": "11QtgJob (11Q10)",
+      "has_variant": true,
+      "significance": "major",
+      "mt_reading": "[Hebrew MT]",
+      "dss_reading": "[Aramaic Targum, conservative literal translation]",
+      "notes": [
+        "The oldest Aramaic Targum of Job. Translation is much more literal than later rabbinic Targum tradition. Significant for both Job text-criticism and the history of Jewish biblical translation. Note: this is a translation, not a Hebrew variant; classified as 'major' for its overall significance to Aramaic biblical translation history."
+      ]
+    }
+  ]
+}

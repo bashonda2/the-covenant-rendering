@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "tradition": "dss-fragments",
+    "tradition_label": "Dead Sea Scrolls (fragment summary)",
+    "base_text": "Westminster Leningrad Codex (WLC)",
+    "date": "c. 250 BCE – 70 CE",
+    "manuscript_location": "Israel Antiquities Authority, Jerusalem; various",
+    "generated_at": "2026-05-04T00:00:00Z",
+    "prompt_version": "1.0",
+    "license": "CC-BY-4.0",
+    "book": "Daniel",
+    "book_slug": "daniel",
+    "fragments": [
+      "1QDanᵃ (1Q71)",
+      "1QDanᵇ (1Q72)",
+      "4QDanᵃ (4Q112)",
+      "4QDanᵇ (4Q113)",
+      "4QDanᶜ (4Q114)",
+      "4QDanᵈ (4Q115)",
+      "4QDanᵉ (4Q116)",
+      "6QpapDan (6Q7)",
+      "pap6QDan"
+    ],
+    "coverage": "moderate",
+    "total_verses_attested_estimate": 300
+  },
+  "preamble": {
+    "summary": "Daniel is among the best-attested biblical books at Qumran with eight or more manuscripts spanning Caves 1, 4, and 6. The witnesses preserve material from across the book. Critically, the DSS **confirm the bilingual Hebrew/Aramaic structure** of Daniel: the language switches at the same points in the DSS as in MT (Hebrew through 2:4a, Aramaic 2:4b-7:28, Hebrew 8-12). This settles older debates about whether the bilingual structure was original or a later development. The DSS also confirm the text of Daniel 7's 'one like a son of man' and Daniel 9's 'seventy weeks' prophecies as essentially identical to MT.",
+    "notable_variants": "The DSS witnesses **confirm the bilingual Hebrew/Aramaic structure** as original to Daniel — the language switches at the same points across all manuscripts. Otherwise, no major content variants. The 'son of man' and 'seventy weeks' passages track MT.",
+    "coverage_assessment": "moderate; ~300 verses attested across the listed manuscripts."
+  },
+  "variants": [
+    {
+      "reference": "Daniel 2:4 / 7:28 (language transitions)",
+      "fragment": "4QDanᵃ-ᵉ collectively",
+      "has_variant": false,
+      "significance": "moderate",
+      "mt_reading": "Hebrew → Aramaic at 2:4b; Aramaic → Hebrew at 8:1",
+      "dss_reading": "Hebrew → Aramaic at 2:4b; Aramaic → Hebrew at 8:1 (identical pattern)",
+      "notes": [
+        "The DSS confirm Daniel's bilingual Hebrew/Aramaic structure was original. The language switches at exactly the same points as MT."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "tradition": "dss-fragments",
+    "tradition_label": "Dead Sea Scrolls (fragment summary)",
+    "base_text": "Westminster Leningrad Codex (WLC)",
+    "date": "c. 250 BCE – 70 CE",
+    "manuscript_location": "Israel Antiquities Authority, Jerusalem; various",
+    "generated_at": "2026-05-04T00:00:00Z",
+    "prompt_version": "1.0",
+    "license": "CC-BY-4.0",
+    "book": "Judges",
+    "book_slug": "judges",
+    "fragments": [
+      "1QJudg (1Q6)",
+      "4QJudgᵃ (4Q49)",
+      "4QJudgᵇ (4Q50)"
+    ],
+    "coverage": "fragmentary",
+    "total_verses_attested_estimate": 50
+  },
+  "preamble": {
+    "summary": "Judges has limited Qumran attestation but preserves one significant text-critical finding. **4QJudgᵃ** (4Q49) preserves Judges 6:2–13 in a form **shorter than the MT** — specifically, the manuscript lacks the prophetic-rebuke speech of the unnamed prophet at Judges 6:7–10. Some scholars (Trebolle Barrera) regard the shorter form as original and the MT speech as a later editorial expansion; others see the DSS as exemplifying a abridging tendency. The shorter form has been adopted in some critical translations (NABRE notes the variant) but most retain MT.",
+    "notable_variants": "MAJOR LITERARY VARIANT. **4QJudgᵃ** lacks Judges 6:7–10 (the unnamed prophet's rebuke speech to Israel), preserving a shorter form of the Gideon prologue. This is one of the clearest cases where the DSS preserves a literarily distinct edition of an OT book.",
+    "coverage_assessment": "fragmentary; ~50 verses attested across the listed manuscripts."
+  },
+  "variants": [
+    {
+      "reference": "Judges 6:7-10",
+      "fragment": "4QJudgᵃ",
+      "has_variant": true,
+      "significance": "major",
+      "mt_reading": "[MT contains a four-verse prophetic rebuke speech inserted between vv. 6 and 11]",
+      "dss_reading": "[4QJudgᵃ omits the prophetic speech entirely — the narrative moves directly from v. 6 to v. 11]",
+      "notes": [
+        "MAJOR LITERARY VARIANT. The MT's prophetic-rebuke speech at Judg 6:7-10 is absent from 4QJudgᵃ. The shorter form has been argued as original (the MT representing a later Deuteronomistic expansion) — Trebolle Barrera 1989. Other scholars see the DSS as a secondary abridgment. Either way, the DSS preserves a literarily distinct edition."
+      ]
+    }
+  ]
+}

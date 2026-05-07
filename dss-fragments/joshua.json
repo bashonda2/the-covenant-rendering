@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "tradition": "dss-fragments",
+    "tradition_label": "Dead Sea Scrolls (fragment summary)",
+    "base_text": "Westminster Leningrad Codex (WLC)",
+    "date": "c. 250 BCE – 70 CE",
+    "manuscript_location": "Israel Antiquities Authority, Jerusalem; various",
+    "generated_at": "2026-05-04T00:00:00Z",
+    "prompt_version": "1.0",
+    "license": "CC-BY-4.0",
+    "book": "Joshua",
+    "book_slug": "joshua",
+    "fragments": [
+      "4QJoshᵃ (4Q47)",
+      "4QJoshᵇ (4Q48)",
+      "MasJosh (Masada)",
+      "XJoshua (post-Qumran fragment)"
+    ],
+    "coverage": "fragmentary",
+    "total_verses_attested_estimate": 150
+  },
+  "preamble": {
+    "summary": "Joshua at Qumran preserves one of the most discussed structural variants in any DSS biblical book. **4QJoshᵃ** (4Q47) presents Joshua 8:30–35 — Joshua's altar-building and Torah-reading on Mount Ebal — at a different position in the narrative: instead of appearing after the Ai conquest (as in MT), the passage appears earlier, immediately after the crossing of the Jordan in Joshua 4 (or at the start of Joshua 5). This relocation has been variously interpreted: some scholars (Ulrich, Auld) see 4QJoshᵃ as preserving the original sequence with the MT and LXX representing later relocations; others see it as a sectarian rearrangement. The Samaritan tradition also locates the altar-building immediately after the Jordan crossing — connecting this DSS reading to the broader Samaritan-pre-Samaritan textual stream.",
+    "notable_variants": "MARQUEE STRUCTURAL VARIANT. **4QJoshᵃ** relocates the Mount Ebal altar narrative (Josh 8:30–35) from its MT position (after the conquest of Ai) to immediately after the Jordan crossing (Josh 4–5). Three text-forms now stand side by side: MT (8:30–35 after Ai), LXX (similar to MT but with some sequence differences), and 4QJoshᵃ (the relocated altar text). The Samaritan tradition agrees with 4QJoshᵃ. The DSS finding does not settle the original sequence but demonstrates that multiple Hebrew text-forms of Joshua circulated in the late Second Temple period.",
+    "coverage_assessment": "fragmentary; ~150 verses attested across the listed manuscripts."
+  },
+  "variants": [
+    {
+      "reference": "Joshua 8:30-35 (relocated)",
+      "fragment": "4QJoshᵃ",
+      "has_variant": true,
+      "significance": "major",
+      "mt_reading": "[the altar passage appears after Joshua 8:29, following the Ai conquest]",
+      "dss_reading": "[the same altar-and-Torah passage appears immediately after Joshua 4 — after the Jordan crossing, before the Jericho campaign]",
+      "notes": [
+        "MARQUEE STRUCTURAL VARIANT. 4QJoshᵃ relocates Joshua 8:30-35 to follow Joshua 4 (the Jordan crossing). The relocation aligns with Samaritan tradition. Critical scholars are divided: some see 4QJoshᵃ as preserving the original sequence, others see MT as original. The DSS demonstrates the existence of multiple Hebrew text-forms with significant structural differences."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "tradition": "dss-fragments",
+    "tradition_label": "Dead Sea Scrolls (fragment summary)",
+    "base_text": "Westminster Leningrad Codex (WLC)",
+    "date": "c. 250 BCE – 70 CE",
+    "manuscript_location": "Israel Antiquities Authority, Jerusalem; various",
+    "generated_at": "2026-05-04T00:00:00Z",
+    "prompt_version": "1.0",
+    "license": "CC-BY-4.0",
+    "book": "The Twelve (Minor Prophets, Hosea–Malachi)",
+    "book_slug": "minor-prophets",
+    "fragments": [
+      "4QXIIᵃ-ᵍ (4Q76-82)",
+      "5QAmos (5Q4)",
+      "MurXII (Mur87, Mur88) — Murabba'at, late 1st c. CE",
+      "8HevXII gr (Nahal Hever Greek scroll)"
+    ],
+    "coverage": "moderate",
+    "total_verses_attested_estimate": 400
+  },
+  "preamble": {
+    "summary": "The Twelve Minor Prophets are well attested across Caves 4 and 5 plus the post-Qumran finds at Murabba'at (MurXII) and Nahal Hever (8HevXII gr). The headline witness is **8HevXII gr** — a Greek scroll of the Twelve from c. 50 BCE-50 CE preserving a **kaige recension** of the Old Greek (LXX) text. The kaige recension represents an early Hebrew-conforming revision of the LXX, predating Aquila and Theodotion, and is critical for understanding how the LXX text-form developed. **MurXII** preserves a strikingly proto-Masoretic Hebrew text, copied c. 100 CE — one of the earliest witnesses to a fully proto-MT consonantal text. The 4QXII manuscripts are fragmentary but cover most of the Twelve.",
+    "notable_variants": "MAJOR FINDING: **8HevXII gr** preserves a kaige recension of the Old Greek Twelve — a critical witness to the early development of LXX revision toward the proto-MT Hebrew. The kaige recension predates Aquila and Theodotion and is foundational for understanding the textual history of the Greek Bible. **MurXII** confirms the proto-Masoretic Twelve text was substantially fixed by c. 100 CE.",
+    "coverage_assessment": "moderate; ~400 verses attested across the listed manuscripts."
+  },
+  "variants": [
+    {
+      "reference": "The Twelve (Hosea-Malachi)",
+      "fragment": "8HevXII gr",
+      "has_variant": true,
+      "significance": "major",
+      "mt_reading": "[Hebrew MT — proto-MT type]",
+      "dss_reading": "[Greek kaige recension — Hebrew-conforming revision of Old Greek]",
+      "notes": [
+        "MAJOR FINDING. 8HevXII gr is a Greek scroll of the Twelve preserving the kaige recension — an early Hebrew-conforming revision of the Old Greek (LXX), predating Aquila and Theodotion. Critical for understanding how the LXX developed toward the proto-MT Hebrew. The recession was named after the characteristic translation of Hebrew גַם (gam) as καίγε ('and indeed') instead of the Old Greek's καί ('and')."
+      ]
+    }
+  ]
+}

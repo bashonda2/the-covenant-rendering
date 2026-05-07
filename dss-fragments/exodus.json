@@ -1,0 +1,49 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "tradition": "dss-fragments",
+    "tradition_label": "Dead Sea Scrolls (fragment summary)",
+    "base_text": "Westminster Leningrad Codex (WLC)",
+    "date": "c. 250 BCE – 70 CE",
+    "manuscript_location": "Israel Antiquities Authority, Jerusalem; various",
+    "generated_at": "2026-05-04T00:00:00Z",
+    "prompt_version": "1.0",
+    "license": "CC-BY-4.0",
+    "book": "Exodus",
+    "book_slug": "exodus",
+    "fragments": [
+      "1QExod (1Q2)",
+      "2QExodᵃ-ᶜ (2Q2-4)",
+      "4QExodᵃ (4Q1)",
+      "4QExodᵇ (4Q13)",
+      "4QExodᶜ (4Q14)",
+      "4QExodᵈ (4Q15)",
+      "4QExodᵉ (4Q16)",
+      "4QExod-Levᶠ (4Q17)",
+      "4QpaleoExodᵐ (4Q22)",
+      "4QpaleoGen-Exodᵏ (4Q11)",
+      "Mur1 (MurGen-Exod-Num)"
+    ],
+    "coverage": "fragmentary",
+    "total_verses_attested_estimate": 400
+  },
+  "preamble": {
+    "summary": "Exodus is well attested at Qumran. The headline witness is **4QpaleoExodᵐ** (4Q22), copied in paleo-Hebrew script in the early 2nd century BCE — a deliberate archaizing choice associated with priestly/Sadducean scribal circles. 4QpaleoExodᵐ is significant beyond its script: it preserves a text of Exodus that **frequently agrees with the Samaritan Pentateuch** in its harmonizing expansions (especially the addition of plague-warning material from Exodus chapters 7–11 onto the related plague narratives). This makes 4QpaleoExodᵐ a 'pre-Samaritan' Hebrew text — evidence that the harmonizing tendencies later distinctive of the Samaritan Pentateuch were a Jewish scribal phenomenon predating the Jewish-Samaritan split.",
+    "notable_variants": "MAJOR FINDING: **4QpaleoExodᵐ** is a pre-Samaritan Hebrew text. Its harmonizations (Moses pre-narrating each plague before delivering it; the addition of Numbers/Deuteronomy material into Exodus parallels) match the Samaritan Pentateuch against the MT and LXX. This was a major scholarly discovery (Skehan, Sanderson 1986) showing that the Samaritan-style harmonizing edition circulated in mainstream Jewish scribal traditions before the sect's emergence.",
+    "coverage_assessment": "fragmentary; ~400 verses attested across the listed manuscripts."
+  },
+  "variants": [
+    {
+      "reference": "Exodus 7:18",
+      "fragment": "4QpaleoExodᵐ",
+      "has_variant": true,
+      "significance": "moderate",
+      "mt_reading": "[no harmonizing addition]",
+      "dss_reading": "[adds Moses' pre-warning of the plague to Pharaoh, drawn from Exod 7:14-18]",
+      "notes": [
+        "4QpaleoExodᵐ harmonizes the plague narratives: each plague is preceded by an inserted account of Moses warning Pharaoh, even when the MT narrative skips directly to the plague itself. The same harmonization is found in the Samaritan Pentateuch."
+      ]
+    }
+  ]
+}

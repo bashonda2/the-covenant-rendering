@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "tradition": "dss-fragments",
+    "tradition_label": "Dead Sea Scrolls (fragment summary)",
+    "base_text": "Westminster Leningrad Codex (WLC)",
+    "date": "c. 250 BCE – 70 CE",
+    "manuscript_location": "Israel Antiquities Authority, Jerusalem; various",
+    "generated_at": "2026-05-04T00:00:00Z",
+    "prompt_version": "1.0",
+    "license": "CC-BY-4.0",
+    "book": "Song of Solomon",
+    "book_slug": "song-of-solomon",
+    "fragments": [
+      "4QCantᵃ (4Q106)",
+      "4QCantᵇ (4Q107)",
+      "4QCantᶜ (4Q108)",
+      "6QCant (6Q6)"
+    ],
+    "coverage": "fragmentary",
+    "total_verses_attested_estimate": 50
+  },
+  "preamble": {
+    "summary": "Song of Songs is attested in four Qumran manuscripts. **4QCantᵃ** and **4QCantᵇ** preserve interesting partial texts — 4QCantᵃ may attest a slightly shorter form than the MT, and 4QCantᵇ shows similar tendencies. Some scholars (Tov) have argued these manuscripts preserve abbreviated devotional/liturgical extracts rather than the full book; others see them as evidence of a shorter literary edition. The presence of Song of Songs at Qumran also speaks to its acceptance in the community despite later rabbinic anxiety about its erotic content.",
+    "notable_variants": "**4QCantᵃ and 4QCantᵇ may preserve a shorter form of Song of Songs.** Whether this represents an abbreviated devotional extract or a distinct shorter literary edition is debated.",
+    "coverage_assessment": "fragmentary; ~50 verses attested across the listed manuscripts."
+  },
+  "variants": [
+    {
+      "reference": "Song 4:7",
+      "fragment": "4QCantᵇ",
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "[full text]",
+      "dss_reading": "[possibly abridged]",
+      "notes": [
+        "The 4QCantᵇ text shows possible abridgments. Whether these are sectarian devotional extracts or witness to a shorter edition is debated."
+      ]
+    }
+  ]
+}
