@@ -1,0 +1,230 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Exodus",
+    "tradition": "vulgate",
+    "tradition_label": "Latin Vulgate",
+    "source_text": "Biblia Sacra Vulgata (Stuttgart critical edition)",
+    "base_text": "Westminster Leningrad Codex (WLC)",
+    "translator": "Jerome (Eusebius Sophronius Hieronymus)",
+    "date": "382-405 CE",
+    "generated_at": "2026-04-20T00:00:00Z",
+    "prompt_version": "2.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Jerome's Exodus translation established the foundational vocabulary of Western worship, law, and covenant theology. His rendering choices for the divine name revelation, the Decalogue, and the tabernacle created a Latin lexicon that dominated Christian thought for over a millennium.",
+    "notable_renderings": "The ego sum qui sum of 3:14, the cornuta facies of 34:29 (which gave Moses horns in Western art), the tabernacle vocabulary (propitiatorium, tabernaculum, cherubim), and the Decalogue formulations that passed directly into English legal and moral vocabulary.",
+    "theological_legacy": "Exodus in the Vulgate supplied Western Christianity with its liturgical calendar terminology (Phase/Pascha), its moral law vocabulary (non occides, non moechaberis), its worship architecture language (tabernaculum, altare, propitiatorium), and its foundational divine self-revelation (ego sum qui sum) that shaped metaphysical theology from Augustine through Aquinas."
+  },
+  "renderings": [
+    {
+      "reference": "Exodus 3:14",
+      "source_text": "אֶהְיֶה אֲשֶׁר אֶהְיֶה (ehyeh asher ehyeh)",
+      "vulgate_text": "ego sum qui sum",
+      "vulgate_rendering": "I am who I am",
+      "tcr_rendering": "I Will Be What I Will Be",
+      "theological_legacy": "Ego sum qui sum became the cornerstone of Western philosophical theology, interpreted by Aquinas as identifying God with pure Being (ipsum esse subsistens). This ontological reading dominated Western metaphysics and distinguished Latin theology from the more dynamic Hebrew sense of becoming/presence.",
+      "notes": ["The Hebrew ehyeh is imperfect (incomplete action) of the verb hayah (to be/become), suggesting dynamic presence or unfolding existence. Jerome's sum (present indicative 'I am') freezes this into a static ontological statement. Augustine, Boethius, and Aquinas all built their natural theology on this Latin rendering, reading God as Being Itself rather than as the One who will be present."]
+    },
+    {
+      "reference": "Exodus 3:8",
+      "source_text": "אֶרֶץ זָבַת חָלָב וּדְבָשׁ",
+      "vulgate_text": "terram fluentem lacte et melle",
+      "vulgate_rendering": "a land flowing with milk and honey",
+      "tcr_rendering": "a land flowing with milk and honey",
+      "theological_legacy": "Terra fluens lacte et melle became a fixed liturgical and homiletic phrase in Western Christianity, used typologically to represent heaven, the Church, and the Eucharist in patristic and medieval sermons.",
+      "notes": ["Jerome renders zavat (flowing, oozing) with the participle fluentem, preserving the Hebrew participial construction. This phrase entered every European vernacular virtually unchanged, becoming one of the most recognized biblical images in Western culture."]
+    },
+    {
+      "reference": "Exodus 7:1",
+      "source_text": "נְתַתִּיךָ אֱלֹהִים לְפַרְעֹה",
+      "vulgate_text": "constitui te deum Pharaonis",
+      "vulgate_rendering": "I have made you a god to Pharaoh",
+      "tcr_rendering": "I have set you as God to Pharaoh",
+      "theological_legacy": "The rendering deum (god, accusative) for Elohim applied to Moses generated extensive patristic commentary on the nature of divine representation and the distinction between God by nature and god by office, feeding into later discussions of theosis and vicarious authority.",
+      "notes": ["Jerome retains the startling Hebrew idiom where Moses is called elohim to Pharaoh. Latin fathers used this text extensively in discussions of how humans can participate in divine authority without compromising monotheism."]
+    },
+    {
+      "reference": "Exodus 12:11",
+      "source_text": "פֶּסַח הוּא לַיהוָה (pesach hu laYHWH)",
+      "vulgate_text": "est enim Phase id est transitus Domini",
+      "vulgate_rendering": "for it is the Phase, that is, the passage of the Lord",
+      "tcr_rendering": "It is a Passover to the LORD",
+      "theological_legacy": "Jerome's transliteration Phase (from Greek Pascha) plus his gloss transitus (passage/crossing) established the dual terminology that shaped Western Easter theology. The word Pascha/Phase became the standard liturgical term, while transitus provided the theological interpretation linking Passover to Christ's 'passage' through death.",
+      "notes": ["Hebrew pesach derives from pasach (to pass over, skip). Jerome provides both the transliterated form Phase and an etymological gloss transitus Domini. This dual rendering fed the Christian typological reading of Christ as the Paschal lamb whose death causes the angel of judgment to 'pass over' believers."]
+    },
+    {
+      "reference": "Exodus 12:46",
+      "source_text": "וְעֶצֶם לֹא תִשְׁבְּרוּ־בוֹ",
+      "vulgate_text": "os non comminuetis ex eo",
+      "vulgate_rendering": "You shall not break a bone of it",
+      "tcr_rendering": "and you shall not break a bone of it",
+      "theological_legacy": "Os non comminuetis became a key proof-text in Western Christological exegesis, applied to Christ's crucifixion (John 19:36). The Vulgate rendering ensured this typological connection was immediately apparent to Latin readers.",
+      "notes": ["Jerome's rendering is straightforward, but its placement in the Paschal lamb regulations made it central to medieval typological reading of the Passion. The exact Latin phrasing is echoed in John 19:36 in the Vulgate New Testament, creating an unmistakable textual link."]
+    },
+    {
+      "reference": "Exodus 14:21-22",
+      "source_text": "וַיּוֹלֶךְ יְהוָה אֶת־הַיָּם בְּרוּחַ קָדִים עַזָּה... וַיָּבֹאוּ בְנֵי־יִשְׂרָאֵל בְּתוֹךְ הַיָּם בַּיַּבָּשָׁה",
+      "vulgate_text": "abstulit illud Dominus flante vento vehementi et urente tota nocte... ambulaverunt filii Israhel per medium sicci maris",
+      "vulgate_rendering": "The Lord drove it back with a burning violent wind all night... the children of Israel walked through the middle of the dry sea",
+      "tcr_rendering": "The LORD drove the sea back with a strong east wind all night... and the sons of Israel went through the midst of the sea on dry ground",
+      "theological_legacy": "Per medium sicci maris (through the middle of the dry sea) became the standard typological image for baptism in Western liturgy. The phrase entered the Easter Vigil readings and baptismal rites as the definitive salvation-through-water image.",
+      "notes": ["Jerome renders ruach qadim (east wind) as vento vehementi et urente (violent and burning wind), interpreting qadim as 'scorching' rather than specifying compass direction. The phrase per medium maris shaped baptismal theology in the Latin West, with the Red Sea crossing as the primary Old Testament type of baptism."]
+    },
+    {
+      "reference": "Exodus 15:3",
+      "source_text": "יְהוָה אִישׁ מִלְחָמָה",
+      "vulgate_text": "Dominus quasi vir pugnator",
+      "vulgate_rendering": "The Lord is like a warrior",
+      "tcr_rendering": "The LORD is a man of war",
+      "theological_legacy": "Jerome's insertion of quasi (like, as if) softens the Hebrew's direct identification of God as a warrior, reflecting a Hellenistic discomfort with divine anthropomorphism that shaped Latin theological sensibility about divine impassibility.",
+      "notes": ["The Hebrew directly states 'YHWH is a man of war' (ish milchamah). Jerome adds quasi to make it a simile rather than a metaphor, distancing God from literal martial identity. This subtle apologetic move influenced Western theology's tendency to treat warrior-God language as figurative rather than literal."]
+    },
+    {
+      "reference": "Exodus 19:6",
+      "source_text": "מַמְלֶכֶת כֹּהֲנִים וְגוֹי קָדוֹשׁ",
+      "vulgate_text": "regnum sacerdotale et gens sancta",
+      "vulgate_rendering": "a priestly kingdom and a holy nation",
+      "tcr_rendering": "a kingdom of priests and a holy nation",
+      "theological_legacy": "Regnum sacerdotale (priestly kingdom) rather than 'kingdom of priests' shifted the emphasis from individual priestly identity to a collective sacral polity. This rendering influenced medieval political theology and the concept of Christendom as a sacerdotal kingdom.",
+      "notes": ["Hebrew mamlekhet kohanim (kingdom of priests) emphasizes that all members are priests. Jerome's adjectival sacerdotale makes 'priestly' a quality of the kingdom rather than a statement about its citizens. 1 Peter 2:9 in the Vulgate echoes this with regale sacerdotium, and both texts fed Reformation debates about the priesthood of all believers."]
+    },
+    {
+      "reference": "Exodus 20:2-3",
+      "source_text": "אָנֹכִי יְהוָה אֱלֹהֶיךָ... לֹא יִהְיֶה־לְךָ אֱלֹהִים אֲחֵרִים עַל־פָּנָיַ",
+      "vulgate_text": "ego sum Dominus Deus tuus... non habebis deos alienos coram me",
+      "vulgate_rendering": "I am the Lord your God... you shall not have strange gods before me",
+      "tcr_rendering": "I am the LORD your God... You shall have no other gods before My face",
+      "theological_legacy": "Non habebis deos alienos (you shall not have strange/foreign gods) became the standard formulation of the First Commandment in Western catechesis. The word alienos (foreign, strange) rather than simply 'other' added a xenophobic coloring that influenced Western approaches to non-Christian religions.",
+      "notes": ["Hebrew acherim simply means 'other.' Jerome's alienos (foreign, strange, alien) introduces a stronger sense of these gods being outsiders, foreigners. This coloring influenced how Western Christianity framed its relationship to other religions — not merely as rival claims but as intrinsically alien."]
+    },
+    {
+      "reference": "Exodus 20:13-15",
+      "source_text": "לֹא תִרְצָח / לֹא תִנְאָף / לֹא תִגְנֹב",
+      "vulgate_text": "non occides / non moechaberis / non furtum facies",
+      "vulgate_rendering": "You shall not kill / You shall not commit adultery / You shall not commit theft",
+      "tcr_rendering": "You shall not murder / You shall not commit adultery / You shall not steal",
+      "theological_legacy": "Non occides (you shall not kill) with its broad verb occidere (to kill, slay) rather than a specific term for murder generated centuries of debate about capital punishment, just war, and self-defense. The Latin's breadth forced theologians from Augustine to Aquinas to develop elaborate frameworks distinguishing lawful from unlawful killing.",
+      "notes": ["Hebrew ratsach is specifically murder (unlawful killing), not killing in general. Jerome's occidere covers killing broadly, creating an apparent absolute prohibition that required extensive scholastic qualification. This broad rendering drove the development of Western just war theory and moral casuistry about legitimate violence."]
+    },
+    {
+      "reference": "Exodus 20:17",
+      "source_text": "לֹא תַחְמֹד בֵּית רֵעֶךָ לֹא תַחְמֹד אֵשֶׁת רֵעֶךָ",
+      "vulgate_text": "non concupisces domum proximi tui nec desiderabis uxorem eius",
+      "vulgate_rendering": "You shall not covet your neighbor's house, nor desire his wife",
+      "tcr_rendering": "You shall not covet your neighbor's house; you shall not covet your neighbor's wife",
+      "theological_legacy": "Jerome's distinction between concupisces (covet) for the house and desiderabis (desire) for the wife created the Roman Catholic tradition of counting these as two separate commandments (9th and 10th), while combining the prohibitions on other gods and graven images into one. This numbering difference between Catholic and Protestant traditions stems directly from Jerome's word choice.",
+      "notes": ["The Hebrew uses the same verb chamad (covet/desire) for both clauses. Jerome introduces two different Latin verbs — concupisco and desidero — which Augustine interpreted as indicating two distinct commandments. This lexical variation is the origin of the different Catholic and Protestant numbering of the Decalogue."]
+    },
+    {
+      "reference": "Exodus 21:24",
+      "source_text": "עַיִן תַּחַת עַיִן שֵׁן תַּחַת שֵׁן",
+      "vulgate_text": "oculum pro oculo dentem pro dente",
+      "vulgate_rendering": "An eye for an eye, a tooth for a tooth",
+      "tcr_rendering": "eye for eye, tooth for tooth",
+      "theological_legacy": "Oculum pro oculo became the definitive expression of lex talionis in Western legal tradition. The Latin phrasing passed into English virtually unchanged and became shorthand for retributive justice in both canon and secular law.",
+      "notes": ["Jerome's rendering is quite faithful to the Hebrew. The phrase's significance lies in its reception: it became the most-quoted biblical legal principle in Western jurisprudence, used in debates about proportional punishment from the medieval period through modern criminal law philosophy."]
+    },
+    {
+      "reference": "Exodus 22:18",
+      "source_text": "מְכַשֵּׁפָה לֹא תְחַיֶּה",
+      "vulgate_text": "maleficos non patieris vivere",
+      "vulgate_rendering": "You shall not permit sorcerers to live",
+      "tcr_rendering": "You shall not let a sorceress live",
+      "theological_legacy": "Maleficos (evildoers/sorcerers, masculine plural) broadened the Hebrew feminine singular mekashefah (sorceress) to include all practitioners of maleficium. This rendering became the primary biblical justification for medieval and early modern witch trials and the Inquisition's prosecution of alleged sorcery.",
+      "notes": ["The Hebrew is specifically feminine singular (mekashefah, 'a woman who practices sorcery'). Jerome's masculine plural maleficos universalizes the prohibition to all who practice harmful magic regardless of gender. The word maleficus (one who does evil/harm through magic) became the technical legal term in witch trial proceedings, and the Malleus Maleficarum (1487) takes its title from this Latin root."]
+    },
+    {
+      "reference": "Exodus 25:17",
+      "source_text": "כַּפֹּרֶת (kapporet)",
+      "vulgate_text": "propitiatorium",
+      "vulgate_rendering": "mercy seat / place of propitiation",
+      "tcr_rendering": "atonement cover",
+      "theological_legacy": "Propitiatorium (place of propitiation) imported sacrificial atonement theology directly into the ark's lid, making it the locus of divine-human reconciliation. This term shaped Western atonement theology and is echoed in Romans 3:25 where Christ is called the propitiatorium (hilasterion) — creating a direct typological link between the ark and the cross.",
+      "notes": ["Hebrew kapporet derives from kipper (to cover, atone). Jerome's propitiatorium derives from propitiare (to appease, make favorable), importing a concept of appeasing divine anger that is not inherent in the Hebrew root of covering/cleansing. This rendering influenced the Western 'satisfaction' model of atonement (Anselm, Cur Deus Homo) by framing the mercy seat as a place where God's wrath is propitiated."]
+    },
+    {
+      "reference": "Exodus 25:9",
+      "source_text": "מִשְׁכָּן (mishkan)",
+      "vulgate_text": "tabernaculum",
+      "vulgate_rendering": "tabernacle",
+      "tcr_rendering": "dwelling place",
+      "theological_legacy": "Tabernaculum (tent, booth) became the universal Western term for God's earthly dwelling and later for the Eucharistic vessel in Catholic churches. The English word 'tabernacle' is a direct borrowing that carries Jerome's Latin into modern worship vocabulary.",
+      "notes": ["Hebrew mishkan derives from shakan (to dwell, settle) emphasizing God's residing among people. Jerome's tabernaculum (from taberna, booth/tent) emphasizes the temporary, portable structure rather than the theological concept of divine dwelling. Nevertheless, tabernaculum acquired enormous theological weight, eventually naming the vessel housing the consecrated Eucharist in Catholic churches."]
+    },
+    {
+      "reference": "Exodus 25:18-20",
+      "source_text": "כְּרוּבִים (keruvim)",
+      "vulgate_text": "cherubim",
+      "vulgate_rendering": "cherubim",
+      "tcr_rendering": "cherubim",
+      "theological_legacy": "Jerome's direct transliteration cherubim (retaining the Hebrew plural) established these beings in Western angelology as a distinct order. Medieval theology placed cherubim in the celestial hierarchy (Pseudo-Dionysius), and Western art depicted them based on Ezekiel's description filtered through Latin commentary.",
+      "notes": ["Jerome transliterates rather than translates, preserving the Hebrew term. This choice meant that Western readers encountered cherubim as mysterious heavenly beings rather than receiving an interpretive translation. The Latin singular cherub and plural cherubim entered English directly, and the diminutive 'cherub' as a chubby infant angel is a later Western artistic development with no basis in the Hebrew or Latin text."]
+    },
+    {
+      "reference": "Exodus 28:30",
+      "source_text": "הָאוּרִים וְהַתֻּמִּים (ha-urim veha-tummim)",
+      "vulgate_text": "doctrinam et veritatem",
+      "vulgate_rendering": "doctrine and truth",
+      "tcr_rendering": "the Urim and the Thummim",
+      "theological_legacy": "Doctrinam et veritatem (doctrine and truth) is a theological interpretation rather than a transliteration. Jerome treats the priestly oracle as representing teaching and truth, which influenced how Western Christianity understood priestly authority as fundamentally about doctrinal instruction rather than divinatory practice.",
+      "notes": ["The Hebrew urim and tummim are traditionally understood as 'lights and perfections' — sacred lots used for divine consultation. Jerome's interpretive rendering doctrina et veritas transforms a divinatory instrument into abstract qualities of teaching, aligning priestly function with magisterial authority. This distanced Western Christianity from the oracle-consultation practices described in the Hebrew text."]
+    },
+    {
+      "reference": "Exodus 32:4",
+      "source_text": "עֵגֶל מַסֵּכָה (egel massekah)",
+      "vulgate_text": "vitulum conflatilem",
+      "vulgate_rendering": "a molten calf",
+      "tcr_rendering": "a molten calf",
+      "theological_legacy": "Vitulum conflatilem established the 'golden calf' as the definitive Western image of idolatry. The phrase entered theological and artistic tradition as the paradigmatic example of false worship, referenced in countless medieval sermons and artistic programs.",
+      "notes": ["Jerome's rendering is accurate — massekah means cast/molten and egel is a young bull. The significance lies in reception: the vitulus conflatilem became Western Christianity's primary visual symbol of idolatry, depicted in medieval art, and referenced whenever theologians needed to illustrate the sin of false worship."]
+    },
+    {
+      "reference": "Exodus 33:20",
+      "source_text": "לֹא יִרְאַנִי הָאָדָם וָחָי",
+      "vulgate_text": "non videbit me homo et vivet",
+      "vulgate_rendering": "No man shall see me and live",
+      "tcr_rendering": "No human can see My face and live",
+      "theological_legacy": "Non videbit me homo et vivet became a foundational text for Western negative theology (apophasis) and the doctrine of divine invisibility. It shaped the Western distinction between God's essence (invisible) and God's effects (visible), central to scholastic theology.",
+      "notes": ["Jerome faithfully renders the Hebrew prohibition but the Latin formulation became crucial in Western debates about the beatific vision — whether the blessed in heaven truly 'see' God's essence. Aquinas devoted extensive treatment to reconciling this verse with the promise of seeing God face to face (1 Cor 13:12)."]
+    },
+    {
+      "reference": "Exodus 34:6-7",
+      "source_text": "רַחוּם וְחַנּוּן אֶרֶךְ אַפַּיִם וְרַב־חֶסֶד וֶאֱמֶת",
+      "vulgate_text": "misericors et clemens patiens et multae miserationis ac verax",
+      "vulgate_rendering": "merciful and gracious, patient and of great compassion and true",
+      "tcr_rendering": "compassionate and gracious, slow to anger and abounding in loyal love and faithfulness",
+      "theological_legacy": "This divine self-description became the foundation of Western teaching on God's attributes. Misericors (merciful) and clemens (gracious/clement) entered the vocabulary of liturgical prayer, and multae miserationis shaped the Catholic understanding of divine mercy expressed in countless prayers and hymns.",
+      "notes": ["Hebrew erekh appayim (long of nostrils/slow to anger) becomes patiens (patient), abstracting the vivid Hebrew anthropomorphism. Rav-chesed (abundant in covenant loyalty) becomes multae miserationis (of great compassion), losing the covenant-specific sense of chesed. These choices moved Western theology toward a more philosophical and less relational understanding of divine attributes."]
+    },
+    {
+      "reference": "Exodus 34:29",
+      "source_text": "קָרַן עוֹר פָּנָיו (qaran or panav)",
+      "vulgate_text": "cornuta esset facies sua",
+      "vulgate_rendering": "his face was horned",
+      "tcr_rendering": "the skin of his face was radiant",
+      "theological_legacy": "Cornuta esset facies (his face was horned) is perhaps Jerome's most visually impactful mistranslation. It directly produced Michelangelo's horned Moses and centuries of Western artistic depictions of Moses with horns. It also contributed to antisemitic iconography associating Jews with demonic horns.",
+      "notes": ["Hebrew qaran means 'to send out rays, to shine' (from qeren, horn/ray — the same root serves both meanings). Jerome chose the 'horn' sense over the 'ray/radiance' sense, possibly influenced by the LXX's dedoxastai (glorified) which he rejected in favor of a more literal (but wrong) reading. This single word shaped over a thousand years of Western art and unfortunately fed antisemitic visual tropes linking Jews to horned devils."]
+    },
+    {
+      "reference": "Exodus 34:14",
+      "source_text": "אֵל קַנָּא (El qanna)",
+      "vulgate_text": "Deus aemulator",
+      "vulgate_rendering": "God is a zealot / an emulator",
+      "tcr_rendering": "a jealous God",
+      "theological_legacy": "Aemulator (one who rivals, is zealous) softened the Hebrew qanna (jealous, possessive) into a more dignified Latin concept. This influenced Western theology's discomfort with attributing jealousy to God, leading to extensive theological qualification of divine 'jealousy' as zeal rather than insecurity.",
+      "notes": ["Hebrew qanna connotes fierce possessive jealousy — a husband's exclusive claim on his wife. Jerome's aemulator derives from aemulari (to rival, compete, be zealous) and has a nobler connotation in Latin. Elsewhere Jerome uses zelotes. The Latin West generally preferred to speak of God's 'zeal' rather than 'jealousy,' partly due to this rendering choice."]
+    },
+    {
+      "reference": "Exodus 40:34",
+      "source_text": "כְּבוֹד יְהוָה מָלֵא אֶת־הַמִּשְׁכָּן (kevod YHWH male et ha-mishkan)",
+      "vulgate_text": "gloria Domini implevit tabernaculum",
+      "vulgate_rendering": "The glory of the Lord filled the tabernacle",
+      "tcr_rendering": "the glory of the LORD filled the dwelling place",
+      "theological_legacy": "Gloria Domini implevit tabernaculum became a key liturgical text for church dedication rites in Western Christianity. The phrase was sung at the consecration of new churches, establishing a typological link between the tabernacle and every Christian sanctuary.",
+      "notes": ["Jerome renders kavod (weight, honor, glory) as gloria, the standard Latin equivalent that became the most common word for divine manifestation in Western theology and liturgy (Gloria in excelsis Deo, Gloria Patri, etc.). The verb implevit (filled completely) captures the Hebrew male and established the concept of sacred space being 'filled' with divine presence."]
+    }
+  ]
+}

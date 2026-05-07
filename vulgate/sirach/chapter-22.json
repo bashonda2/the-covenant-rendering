@@ -1,0 +1,242 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Sirach",
+    "chapter": 22,
+    "tradition": "vulgate",
+    "tradition_label": "Latin Vulgate (Deuterocanonical)",
+    "source_text": "Biblia Sacra Vulgata (Stuttgart critical edition)",
+    "translator": "Jerome",
+    "date": "c. 405 CE",
+    "canon": ["catholic", "orthodox", "ethiopian"],
+    "generated_at": "2026-04-20T00:00:00Z",
+    "prompt_version": "2.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Chapter 22 opens with unflinching comparisons of the lazy person to filth, then moves to reflections on grief over a fool and over the dead. The central section explores the fragility of friendship -- how easily it can be shattered by betrayal or harsh words -- and concludes with a prayer asking God for a guard over the speaker's mouth and lips.",
+    "remarkable": "The meditation on grief (vv. 11-12) contains a striking instruction: weep less for the dead than for the fool, because the dead have found rest while the fool's life is worse than death. The friendship section (vv. 19-26) is emotionally raw, acknowledging that some betrayals cannot be repaired and that the loss of a friend through one's own carelessness is a wound that does not heal. The closing prayer (vv. 27-30) anticipates Psalm 141:3 and is among the most personal passages in Sirach.",
+    "friction": "The harsh language about fools -- compared to dung and stones -- reflects an ancient pedagogy of shame that modern readers may find excessive. The gendered language about the 'lazy daughter' (v. 4-5) is particularly pointed and culturally specific.",
+    "connections": "Psalm 141:3 (set a guard over my mouth); Proverbs 27:3 (a fool's provocation is heavier than both); Ecclesiastes 7:2-4 (the house of mourning); James 3:2-10 (the untameable tongue)."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_latin": "In lapide luteo lapidatus est piger et omnes loquentur super aspernationem illius.",
+      "rendering": "The lazy person is pelted with a stone of dung, and everyone will speak of his disgrace.",
+      "translator_notes": ["A visceral opening image: the sluggard is not merely criticized but pelted with filth -- social contempt made physical."],
+      "key_terms": [{"latin": "lapide luteo", "rendered_as": "stone of dung", "note": "Literally a 'muddy stone' or dung-ball -- the lowest possible projectile, symbolizing utter contempt."}]
+    },
+    {
+      "verse": 2,
+      "text_latin": "De stercore boum lapidatus est piger et omnis qui tetigerit eum excutiet manus.",
+      "rendering": "The lazy person is pelted with ox dung, and everyone who touches him will shake off his hands.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 3,
+      "text_latin": "Confusio patris est de filio indisciplinato filia autem in deminoratione fiet.",
+      "rendering": "An undisciplined son is the shame of his father, and a foolish daughter will be born to his loss.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 4,
+      "text_latin": "Filia prudens hereditas viro suo nam quae confundit in contumeliam fit genitoris.",
+      "rendering": "A prudent daughter is a treasure to her husband, but she who brings shame becomes a disgrace to her father.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 5,
+      "text_latin": "Patrem et virum confundit audax et ab impiis non minorabitur ab utrisque autem inhonorabitur.",
+      "rendering": "A brazen woman puts both father and husband to shame; she will not be respected less than the ungodly, and by both she will be dishonored.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 6,
+      "text_latin": "Musica in luctu inportuna narratio flagella et doctrina in omni tempore sapientia.",
+      "rendering": "Music in a time of mourning is an ill-timed tale, but the rod and instruction are wisdom at all times.",
+      "translator_notes": ["Timing is everything: music at a funeral is as inappropriate as a lecture at a party. But discipline is always in season."],
+      "key_terms": []
+    },
+    {
+      "verse": 7,
+      "text_latin": "Qui docet fatuum quasi qui conglutinat testam et quasi qui excitat dormientem de gravi somno.",
+      "rendering": "Whoever teaches a fool is like one who glues a potsherd together, and like one who rouses a sleeper from deep slumber.",
+      "translator_notes": ["Two images of futility: the broken pot cannot be reassembled, and the deep sleeper resists waking."],
+      "key_terms": [{"latin": "testam", "rendered_as": "potsherd", "note": "A broken piece of pottery -- once shattered, it cannot be properly restored. Teaching a fool is attempting to repair the irreparable."}]
+    },
+    {
+      "verse": 8,
+      "text_latin": "Qui narrat verbum non audienti quasi qui excitat dormientem de gravi somno.",
+      "rendering": "Whoever tells a story to one who does not listen is like one who rouses a sleeper from deep sleep.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 9,
+      "text_latin": "Cum dormiente loquitur qui enarrat stulto sapientiam et in fine narrationis dicit quis est hic.",
+      "rendering": "Whoever recounts wisdom to a fool speaks to a sleeping man, and at the end of the account the fool says, 'What was that?'",
+      "translator_notes": ["Dark comedy: the fool listens to an entire discourse and reveals at the end that he has absorbed nothing."],
+      "key_terms": []
+    },
+    {
+      "verse": 10,
+      "text_latin": "Supra mortuum plora defecit enim lux eius et supra fatuum plora defecit enim sensus.",
+      "rendering": "Weep over the dead, for his light has failed; and weep over the fool, for his understanding has failed.",
+      "translator_notes": ["A parallel between death and folly: both involve the extinction of something essential -- light in one case, sense in the other."],
+      "key_terms": []
+    },
+    {
+      "verse": 11,
+      "text_latin": "Modicum plora supra mortuum quoniam requievit.",
+      "rendering": "Weep less over the dead, for he has found rest.",
+      "translator_notes": ["A remarkable reversal of expected grief: the dead deserve less mourning because death is rest, but the fool's living death has no such consolation."],
+      "key_terms": []
+    },
+    {
+      "verse": 12,
+      "text_latin": "Nequissimi enim nequissima vita super mortuum fatui quia defecit.",
+      "rendering": "For the worst of the worst is the life of the fool -- it is worse than death, for understanding has perished.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 13,
+      "text_latin": "Luctus mortui septem dies fatui autem et impii omnes dies vitae illorum.",
+      "rendering": "Mourning for the dead lasts seven days, but for a fool and an ungodly person, all the days of their life.",
+      "translator_notes": ["Grief for the dead is bounded by the seven-day mourning period (shiva); grief for a living fool is unending."],
+      "key_terms": []
+    },
+    {
+      "verse": 14,
+      "text_latin": "Cum stulto ne multum loquaris et cum insensato ne abieris serva te ab illo ut non molestiam habeas et non coinquinaberis in peccato illius.",
+      "rendering": "Do not speak much with a fool, and do not travel with a senseless person. Guard yourself from him so that you may not have trouble, and you will not be defiled by his sin.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 15,
+      "text_latin": "Deflecte ab illo et invenies requiem et non acediaberis in stultitia illius.",
+      "rendering": "Turn aside from him and you will find rest, and you will not be wearied by his foolishness.",
+      "translator_notes": [],
+      "key_terms": [{"latin": "acediaberis", "rendered_as": "wearied", "note": "Related to acedia -- spiritual weariness or disgust. Prolonged exposure to folly drains not just patience but the soul."}]
+    },
+    {
+      "verse": 16,
+      "text_latin": "Super plumbum quid gravabitur et quod illi aliud nomen quam fatuus.",
+      "rendering": "What is heavier than lead? And what is its name but 'fool'?",
+      "translator_notes": ["Lead, the heaviest common metal of the ancient world, becomes a metaphor for the dead weight of the fool's company."],
+      "key_terms": []
+    },
+    {
+      "verse": 17,
+      "text_latin": "Harenam et salem et massam ferri facilius est ferre quam hominem inprudentem et fatuum et impium.",
+      "rendering": "Sand and salt and a mass of iron are easier to bear than a person who is imprudent, foolish, and ungodly.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 18,
+      "text_latin": "Loramentum ligneum conligatum in fundamento aedificii non dissolvetur sic et cor confirmatum in cogitatione consilii.",
+      "rendering": "Wooden bracing bound into the foundation of a building will not come apart; so too a heart established in thoughtful counsel.",
+      "translator_notes": ["A construction metaphor: the reinforced foundation resists collapse, just as a mind grounded in wise counsel resists foolish impulse."],
+      "key_terms": []
+    },
+    {
+      "verse": 19,
+      "text_latin": "Cogitatus sensati in omni tempore metu non depravabitur.",
+      "rendering": "The thought of the sensible person will not be corrupted by fear at any time.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 20,
+      "text_latin": "Sicut pali in excelsis et caementa sine inpensa posita contra faciem venti non permanebunt sic et cor timidum in cogitatione stulti contra impetum timoris non resistet.",
+      "rendering": "As stakes on heights and unmortared stones set against the wind will not endure, so a timid heart with the thoughts of a fool will not resist the onslaught of fear.",
+      "translator_notes": [],
+      "key_terms": [{"latin": "caementa sine inpensa", "rendered_as": "unmortared stones", "note": "Stones laid without mortar have no binding force -- like the fool's knowledge, which lacks the adhesive of understanding."}]
+    },
+    {
+      "verse": 21,
+      "text_latin": "Sicut cor trepidum in cogitatione fatui omni tempore non metuet sic et qui in praeceptis Dei permanet semper.",
+      "rendering": "Just as a trembling heart in the thoughts of a fool will fear at all times, so one who abides always in the commandments of God will not fear.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 22,
+      "text_latin": "Pungens oculum educit lacrimas et qui pungit cor profert sensum.",
+      "rendering": "Whoever pricks the eye brings forth tears, and whoever pierces the heart brings forth feeling.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 23,
+      "text_latin": "Mittens lapidem in volatilia deiciet illa sic et qui conviciatur amico dissolvit amicitiam.",
+      "rendering": "Whoever throws a stone at birds will scatter them; so whoever insults a friend destroys the friendship.",
+      "translator_notes": ["A simple but effective analogy: birds flee from stones, friends flee from insults. Both are instinctive reactions to aggression."],
+      "key_terms": []
+    },
+    {
+      "verse": 24,
+      "text_latin": "Ad amicum etsi produxeris gladium non desperes est enim regressus ad amicum.",
+      "rendering": "Even if you have drawn a sword against a friend, do not despair, for there is still a way back to friendship.",
+      "translator_notes": ["Remarkably, even violent conflict does not necessarily end a friendship -- reconciliation remains possible."],
+      "key_terms": []
+    },
+    {
+      "verse": 25,
+      "text_latin": "Ad amicum si aperueris os triste non timeas est enim concordatio excepto convicio et inproperio et superbia et mysterii revelatione et plaga dolosa in his omnibus effugiet amicus.",
+      "rendering": "If you have spoken harsh words to a friend, do not fear -- for reconciliation is possible. But if there has been insult, contempt, pride, the betrayal of a secret, or a treacherous blow -- in all these cases, a friend will flee.",
+      "translator_notes": ["A precise taxonomy of friendship-destroying acts: insult, contempt, arrogance, betrayal of confidence, and malicious harm. These cross a threshold from which recovery is unlikely."],
+      "key_terms": [{"latin": "mysterii revelatione", "rendered_as": "betrayal of a secret", "note": "The disclosure of a confidence is listed alongside physical violence as a friendship-ending act -- a powerful statement about the sacred nature of trust."}]
+    },
+    {
+      "verse": 26,
+      "text_latin": "Fidem posside cum amico in paupertate illius ut et in bonis illius laeteris.",
+      "rendering": "Keep faith with a friend in his poverty, so that in his prosperity you may also rejoice.",
+      "translator_notes": ["Loyalty tested by a friend's misfortune is the only loyalty that deserves to share in his later success."],
+      "key_terms": []
+    },
+    {
+      "verse": 27,
+      "text_latin": "In tempore tribulationis illius permane illi fidelis ut et in hereditate illius coheres sis.",
+      "rendering": "In the time of his distress, remain faithful to him, so that in his inheritance you may also share.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 28,
+      "text_latin": "Ante ignem camini vapor et fumus ignis inaltatur sic et ante sanguinem maledicta et contumeliae et minae.",
+      "rendering": "Before the fire of a furnace come vapor and smoke; so before bloodshed come curses, contempt, and threats.",
+      "translator_notes": ["Violence is preceded by verbal aggression as reliably as fire is preceded by smoke -- a warning to take hostile speech seriously as a harbinger."],
+      "key_terms": []
+    },
+    {
+      "verse": 29,
+      "text_latin": "Amicum salutare non confundar a facie illius et si mala mihi evenerint per illum sustinebo.",
+      "rendering": "I will not be ashamed to greet a friend, and I will not hide from his face; and if evil comes to me through him, I will endure it.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 30,
+      "text_latin": "Omnis qui audiet cavebit se ab eo.",
+      "rendering": "Everyone who hears of it will beware of him.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 31,
+      "text_latin": "Quis dabit ori meo custodiam et super labia mea signaculum certum ut non cadam ab ipsis et lingua mea perdat me.",
+      "rendering": "Who will set a guard over my mouth, and a sure seal upon my lips, so that I may not fall because of them, and my tongue may not destroy me?",
+      "translator_notes": ["The chapter's closing prayer is deeply personal -- the speaker asks for divine help to control his own speech. This anticipates Psalm 141:3 and stands as the practical conclusion to three chapters on the power of words."],
+      "key_terms": [{"latin": "signaculum certum", "rendered_as": "a sure seal", "note": "The seal image suggests not mere restraint but authoritative closure -- only God can effectively seal the lips against harmful speech."}]
+    }
+  ]
+}

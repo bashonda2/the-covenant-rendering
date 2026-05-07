@@ -1,0 +1,225 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "2 Maccabees",
+    "chapter": 9,
+    "tradition": "vulgate",
+    "tradition_label": "Latin Vulgate (Deuterocanonical)",
+    "source_text": "Biblia Sacra Vulgata (Stuttgart critical edition)",
+    "translator": "Jerome",
+    "date": "c. 405 CE",
+    "canon": ["catholic", "orthodox", "ethiopian"],
+    "generated_at": "2026-04-20T00:00:00Z",
+    "prompt_version": "2.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Antiochus IV Epiphanes, humiliated in Persia, races toward Jerusalem with murderous intent. But God strikes him with an incurable and agonizing disease: his bowels rot, worms consume his living flesh, and the stench of his body becomes unbearable even to himself. In his torment, he acknowledges God's sovereignty, writes a conciliatory letter to the Jews, and promises to become a Jew himself — but it is too late. He dies in misery in the mountains, far from home.",
+    "remarkable": "This is one of the most detailed and theologically loaded death scenes in ancient literature. The progressive degradation — from arrogance to agony, from cosmic ambition to helpless worm-food — is constructed as an anti-theophany: where God's presence brings glory, Antiochus's presence brings only stench and revulsion. The chapter fulfills every prophetic threat made by the martyred brothers in chapter 7. The detail that the king who desecrated the Temple now cannot endure his own smell is grimly pointed: he has become his own abomination.",
+    "friction": "The medical descriptions are vivid but not easily mapped to modern diagnoses. We render the Latin terms directly without attempting retrospective diagnosis. Antiochus's deathbed 'conversion' (vv. 13-17) is presented with deep skepticism by the narrator — we preserve this ambiguity.",
+    "connections": "The worm-eaten death connects to Isaiah 14:11 (the king of Babylon eaten by worms in Sheol), to Isaiah 66:24 ('their worm shall not die'), and to Acts 12:23 (Herod Agrippa's similar death). The pattern of an arrogant king struck down by disease as divine judgment echoes Nebuchadnezzar's madness (Daniel 4). The seventh brother's prophecy (7:37) — 'you will confess that he alone is God' — is fulfilled in verse 12."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_latin": "Eodem tempore Antiochus inhoneste revertebatur de Perside.",
+      "rendering": "At that time Antiochus was returning in disgrace from Persia.",
+      "translator_notes": ["Antiochus's Persian campaign has failed — he returns 'inhoneste' (dishonorably), having been unable to plunder the temple at Persepolis."],
+      "key_terms": [{"latin": "inhoneste", "rendered_as": "in disgrace", "note": "The opposite of the glory and honor Antiochus sought — his Persian campaign ended in humiliation."}]
+    },
+    {
+      "verse": 2,
+      "text_latin": "Intraverat enim in eam quae dicitur Persepolis et temptavit expoliare templum et civitatem opprimere sed multitudine ad arma concurrente in fugam versi sunt et ita contigit ut Antiochus post fugam turpiter rediret.",
+      "rendering": "For he had entered the city called Persepolis and attempted to plunder the temple and seize the city. But the people rose up in arms, and he was put to flight. And so it happened that Antiochus returned in shame after his rout.",
+      "translator_notes": ["The Persepolis debacle mirrors the Heliodorus episode (chapter 3): a foreign power attempts to rob a temple and is repelled. The pattern of failed temple robbery is a theological motif in 2 Maccabees."],
+      "key_terms": []
+    },
+    {
+      "verse": 3,
+      "text_latin": "Et cum venisset circa Ecbatanam recognovit quae erga Nicanorem et Timotheum gesta sunt.",
+      "rendering": "When he arrived in the region of Ecbatana, he learned what had happened to Nicanor and Timothy.",
+      "translator_notes": ["News of the Maccabean victories (chapter 8) reaches Antiochus at Ecbatana — the Median capital, far from Jerusalem."],
+      "key_terms": []
+    },
+    {
+      "verse": 4,
+      "text_latin": "Elatus autem in ira arbitrabatur se iniuriam illorum qui se fugaverant posse in Iudaeos retorquere ideoque iussit agitari currum suum sine intermissione agens iter caelesti eum iudicio perurgente eo quod ita superbe locutus est se venturum Hierosolymam et congeriem sepulchri Iudaeorum eam facturum.",
+      "rendering": "Swelling with rage, he thought he could inflict upon the Jews the injury done to him by those who had put him to flight. So he ordered his chariot to be driven without stopping, pressing on with the journey, though the judgment of heaven was already urging him forward — for he had spoken so arrogantly, saying he would come to Jerusalem and make it a mass grave of Jews.",
+      "translator_notes": ["Antiochus's rage drives him toward Jerusalem, but the narrator interprets his urgency as divine judgment driving him to his doom. His threat to make Jerusalem a 'congeriem sepulchri' (a heap of graves/mass grave) is his last arrogant boast."],
+      "key_terms": [{"latin": "caelesti iudicio", "rendered_as": "the judgment of heaven", "note": "Divine judgment already in motion — Antiochus is rushing toward his own destruction."},
+        {"latin": "congeriem sepulchri", "rendered_as": "a mass grave", "note": "Antiochus's threat: to turn Jerusalem into a graveyard — the opposite of what will actually happen."}]
+    },
+    {
+      "verse": 5,
+      "text_latin": "Sed qui universa conspicit Dominus Deus Israhel percussit eum insanabili et invisibili plaga mox ut finivit hunc sermonem adprehendit eum dolor dirus viscerum et amara internorum tormenta.",
+      "rendering": "But the Lord God of Israel, who sees all things, struck him with an incurable and invisible plague. As soon as he had finished speaking these words, he was seized by an excruciating pain in his bowels and bitter torments in his entrails.",
+      "translator_notes": ["The divine strike is immediate: 'mox ut finivit hunc sermonem' (as soon as he finished the sentence). The arrogant speech becomes the trigger for divine punishment. The disease is 'insanabilis et invisibilis' (incurable and invisible) — no human remedy will work."],
+      "key_terms": [{"latin": "insanabili et invisibili plaga", "rendered_as": "an incurable and invisible plague", "note": "A divinely inflicted disease that defies both diagnosis and treatment."},
+        {"latin": "qui universa conspicit", "rendered_as": "who sees all things", "note": "God's omniscience — he heard the arrogant threat and responded immediately."}]
+    },
+    {
+      "verse": 6,
+      "text_latin": "Et quidem satis iuste quippe qui multis et novis cruciatibus aliorum torserat viscera licet ille nullo modo a sua malitia cessaret.",
+      "rendering": "And indeed most justly, since he had tormented the bowels of others with many novel tortures — though he by no means ceased from his wickedness.",
+      "translator_notes": ["The retributive justice is explicit: he who tortured others' bowels now suffers in his own. 'Novis cruciatibus' (novel tortures) — Antiochus invented new forms of cruelty; now he experiences a new form of divine punishment."],
+      "key_terms": []
+    },
+    {
+      "verse": 7,
+      "text_latin": "Super hoc autem superbia repletus ignem spirans animo in Iudaeos et praecipiens adcelerari negotium accidit ut de curru ferventis impetu caderet et gravi corporis conlisione membra vexarentur.",
+      "rendering": "Moreover, filled with arrogance and breathing fire in his soul against the Jews, and commanding that the journey be hastened, it happened that he fell from his speeding chariot, and in the violent collision, every limb of his body was racked with pain.",
+      "translator_notes": ["A chariot accident compounds the internal disease — Antiochus falls from his own speeding vehicle. The man who commanded armies cannot control his own chariot."],
+      "key_terms": []
+    },
+    {
+      "verse": 8,
+      "text_latin": "Isque qui sibi videbatur etiam fluctibus maris imperare supra humanum modum superbia repletus et montium altitudines in statera adpendere nunc humiliatus ad terram in gestatorio portabatur manifestam Dei virtutem in semetipso contestans.",
+      "rendering": "He who just before had thought he could command the waves of the sea — so filled with arrogance beyond human measure — and weigh the heights of mountains in a scale, now brought low to the ground, was carried on a litter, bearing witness in his own person to the manifest power of God.",
+      "translator_notes": ["The narrator's savage irony: the man who imagined cosmic power is now carried on a stretcher. His own body testifies to God's power more eloquently than any speech."],
+      "key_terms": [{"latin": "manifestam Dei virtutem", "rendered_as": "the manifest power of God", "note": "God's power made visible in the king's physical degradation — a negative theophany."}]
+    },
+    {
+      "verse": 9,
+      "text_latin": "Ita ut de corpore impii vermes scaturirent ac viventis in doloribus carnes eius effluerent odore etiam illius et fetore exercitus gravaretur.",
+      "rendering": "So that worms swarmed from the body of the impious man, and while he still lived in agony, his flesh fell away, and the stench and foulness of him weighed upon the entire army.",
+      "translator_notes": ["The most gruesome verse: worms breed in his living body, his flesh disintegrates, and the smell is so terrible that his own army is oppressed by it. He who made others unable to live now makes others unable to breathe."],
+      "key_terms": [{"latin": "vermes", "rendered_as": "worms", "note": "Worms consuming living flesh — the ultimate image of bodily degradation, connecting to Isaiah 14:11 and 66:24."}]
+    },
+    {
+      "verse": 10,
+      "text_latin": "Et eum qui paulo ante sidera caeli contingere se arbitrabatur eum nemo poterat propter intolerantiam fetoris portare.",
+      "rendering": "And the one who a little before had thought he could touch the stars of heaven — him no one could bear to carry because of the intolerable stench.",
+      "translator_notes": ["The contrast is maximized: from touching the stars to being untouchable. His own bearers cannot endure his proximity."],
+      "key_terms": []
+    },
+    {
+      "verse": 11,
+      "text_latin": "Hinc igitur coepit ex gravi superbia deductus ad agnitionem sui venire divina admonitus plaga per momenta singula doloribus suis incrementa capientibus.",
+      "rendering": "From this point, broken down from his overwhelming arrogance, he began to come to self-knowledge, admonished by the divine plague, as his pains increased moment by moment.",
+      "translator_notes": ["Suffering produces self-knowledge: 'ad agnitionem sui venire' (to come to knowledge of himself). The arrogant man finally sees himself as he truly is. The divine plague is called an 'admonition' — it has a pedagogical purpose."],
+      "key_terms": [{"latin": "agnitionem sui", "rendered_as": "self-knowledge", "note": "The self-awareness that comes through suffering — the beginning of repentance, though in Antiochus's case, too late."}]
+    },
+    {
+      "verse": 12,
+      "text_latin": "Et cum nec ipse iam fetorem suum ferre posset ita ait: Iustum est subditum esse Deo et mortalem non paria Deo sentire.",
+      "rendering": "And when he could no longer endure even his own stench, he said, 'It is right to be subject to God, and a mortal should not think himself equal to God.'",
+      "translator_notes": ["The confession: 'Iustum est subditum esse Deo' (it is right to be subject to God). The man who played God now acknowledges that mortals are not God's equals. This fulfills the seventh brother's prophecy (7:37). But the narrator will make clear that this confession comes too late."],
+      "key_terms": [{"latin": "subditum esse Deo", "rendered_as": "to be subject to God", "note": "The acknowledgment of divine sovereignty that every human ruler must eventually make — willingly or by force."},
+        {"latin": "mortalem non paria Deo sentire", "rendered_as": "a mortal should not think himself equal to God", "note": "The anti-hubris principle: no human is God's equal. The lesson Antiochus learned too late."}]
+    },
+    {
+      "verse": 13,
+      "text_latin": "Orabat autem hic scelestus Dominum a quo non esset misericordiam consecuturus.",
+      "rendering": "But this wicked man prayed to the Lord, from whom he would receive no mercy.",
+      "translator_notes": ["The narrator's devastating commentary: Antiochus prays, but his prayer will not be answered. The reason is stated flatly — 'a quo non esset misericordiam consecuturus' (from whom he would receive no mercy). His repentance is too late, too self-serving, too driven by pain rather than genuine contrition."],
+      "key_terms": []
+    },
+    {
+      "verse": 14,
+      "text_latin": "Et civitatem ad quam festinans veniebat ut eam ad solum deduceret ac sepulchrum congestorum faceret nunc liberam optat reddere.",
+      "rendering": "And the city toward which he had been hastening to raze to the ground and make a burial heap — he now wished to set free.",
+      "translator_notes": ["The reversal of intention: the city he planned to destroy he now wants to liberate. But the change comes from self-interest, not genuine conversion."],
+      "key_terms": []
+    },
+    {
+      "verse": 15,
+      "text_latin": "Et Iudaeos quos nec sepultura quidem se dignos habiturum sed avibus ac feris diripiendos traditurum et cum parvulis exterminaturum dixerat aequales nunc Atheniensibus facturum pollicetur.",
+      "rendering": "And the Jews, whom he had said he would not consider worthy even of burial but would hand over to the birds and wild beasts to be torn apart, along with their children, to be exterminated — he now promised to make them equal to the citizens of Athens.",
+      "translator_notes": ["From genocide to equality with Athens — the most dramatic reversal of stated policy imaginable. But it is driven by agony, not justice."],
+      "key_terms": []
+    },
+    {
+      "verse": 16,
+      "text_latin": "Templum etiam sanctum quod prius expoliaverat optimis donis se ornaturum et sancta vasa multiplicaturum et pertinentes ad sacrificia sumptus de reditibus suis praestaturum.",
+      "rendering": "The holy Temple, which he had previously plundered, he would adorn with the finest gifts, and would multiply the sacred vessels, and would provide from his own revenues the expenses pertaining to the sacrifices.",
+      "translator_notes": ["He promises to reverse the Temple robbery of chapter 5: restore the gifts, multiply the vessels, fund the sacrifices. Each promise addresses a specific crime."],
+      "key_terms": []
+    },
+    {
+      "verse": 17,
+      "text_latin": "Super haec et Iudaeum se futurum et omnem locum terrae perambulaturum et praedicaturum Dei potestatem.",
+      "rendering": "Beyond all this, he would even become a Jew himself, and would travel through every place on earth proclaiming the power of God.",
+      "translator_notes": ["The most extravagant promise: the arch-persecutor of Judaism will become a Jew and an evangelist for God's power. The narrator presents this without comment, letting the irony speak for itself."],
+      "key_terms": []
+    },
+    {
+      "verse": 18,
+      "text_latin": "Sed non cessantibus doloribus supervenerat enim illi iustum Dei iudicium desperans scripsit ad Iudaeos in modum deprecationis epistulam haec continentem.",
+      "rendering": "But when his pains did not cease — for the just judgment of God had come upon him — despairing, he wrote a letter to the Jews in the form of a supplication, containing the following:",
+      "translator_notes": ["The pains continue despite his promises — 'iustum Dei iudicium' (God's just judgment) is not negotiable. Antiochus turns to writing as his last resort."],
+      "key_terms": [{"latin": "iustum Dei iudicium", "rendered_as": "the just judgment of God", "note": "Divine justice that cannot be bought off with promises or reversed by last-minute repentance."}]
+    },
+    {
+      "verse": 19,
+      "text_latin": "Optimis civibus Iudaeis plurimam salutem et bene valere et esse felices rex et princeps Antiochus.",
+      "rendering": "To the worthy Jewish citizens, Antiochus, king and commander, sends warmest greetings and wishes for their health and prosperity.",
+      "translator_notes": ["The letter's salutation is painfully ironic: 'optimis civibus Iudaeis' (to the worthy Jewish citizens) — from the man who tried to exterminate them."],
+      "key_terms": []
+    },
+    {
+      "verse": 20,
+      "text_latin": "Si bene valetis et filii vestri et ex sententia vobis cuncta sunt maximas ago gratias.",
+      "rendering": "If you and your children are well, and everything is to your satisfaction, I give the greatest thanks.",
+      "translator_notes": ["Standard Hellenistic epistolary greeting — hollow in context, given that the recipient's children have been murdered by his orders."],
+      "key_terms": []
+    },
+    {
+      "verse": 21,
+      "text_latin": "Et ego in infirmitate constitutus vestri autem memor benigne spem habens reversionis de infirmitate.",
+      "rendering": "As for me, lying ill, I hold you in kind remembrance, and have good hope of recovering from my illness.",
+      "translator_notes": ["'Spem habens reversionis de infirmitate' (hoping to recover from illness) — Antiochus still hopes to survive. The narrator has already told us he will not."],
+      "key_terms": []
+    },
+    {
+      "verse": 22,
+      "text_latin": "Confido autem in Deo quia habebit meam commendationem et considerans quod pater meus quoque in superiora loca exercitum ducens successorem declaravit.",
+      "rendering": "I trust in God that he will regard my case favorably. And reflecting that my father, when he was leading his army into the eastern provinces, also declared a successor —",
+      "translator_notes": ["Antiochus invokes divine trust and dynastic precedent to introduce his succession arrangements."],
+      "key_terms": []
+    },
+    {
+      "verse": 23,
+      "text_latin": "Ut si quid contrarium accideret aut difficile nuntiaretur scientes hi qui in regionibus erant cui esset rerum summa derelicta non turbarentur.",
+      "rendering": "— so that if anything unexpected happened or any difficulty was reported, the people in the provinces would know to whom the government had been entrusted, and would not be disturbed.",
+      "translator_notes": ["Practical statecraft: Antiochus ensures orderly succession to prevent chaos in the event of his death."],
+      "key_terms": []
+    },
+    {
+      "verse": 24,
+      "text_latin": "Ad haec considerans de proximo potentes quosque et vicinos temporibus insidiantes et eventum expectantes designavi filium meum Antiochum regem quem saepe recurrans in superiora regna multis vestrum commendabam et scripsi ad eum quae subiecta sunt.",
+      "rendering": "Moreover, considering that the powerful men nearby and the neighbors are watching for opportunities and waiting for events, I have designated my son Antiochus as king, whom I have often commended to many of you when I was hurrying to the upper provinces. I have written to him what is appended below.",
+      "translator_notes": ["Antiochus V Eupator is designated as successor. The reference to 'powerful men watching for opportunities' reflects the volatile Seleucid succession politics."],
+      "key_terms": []
+    },
+    {
+      "verse": 25,
+      "text_latin": "Oro itaque vos et peto memores beneficiorum publice et privatim ut unusquisque conservet fidem ad me et ad filium meum.",
+      "rendering": "I therefore urge and ask you, remembering the benefits I have conferred both publicly and privately, that each of you maintain your loyalty to me and to my son.",
+      "translator_notes": ["'Memores beneficiorum' (remembering benefits) — Antiochus asks the Jews to remember his kindness. Given the preceding chapters, this is staggering in its disconnection from reality."],
+      "key_terms": []
+    },
+    {
+      "verse": 26,
+      "text_latin": "Confido enim eum modeste et humane acturum et sequentem meum propositum communem vobis fore.",
+      "rendering": "For I am confident that he will act with moderation and humanity, and following my own intentions, will be fair to you.",
+      "translator_notes": ["The promise that his son will be moderate and humane — a promise the narrator leaves the reader to evaluate against the actual record of Antiochus V's reign."],
+      "key_terms": []
+    },
+    {
+      "verse": 27,
+      "text_latin": "Igitur homicida et blasphemus pessime percussus et ut ipse alios tractaverat peregre in montibus miserabili obitu vita functus est.",
+      "rendering": "So the murderer and blasphemer, most grievously struck down, and suffering the same treatment he had inflicted on others, ended his life by a most pitiable death in the mountains, far from home.",
+      "translator_notes": ["The narrator's epitaph is merciless: 'homicida et blasphemus' (murderer and blasphemer), 'miserabili obitu' (a pitiable death), 'peregre in montibus' (far from home in the mountains). Every element of his death contradicts his ambitions: he who wanted to make Jerusalem a graveyard dies in unnamed mountains; he who blasphemed God is struck down by God."],
+      "key_terms": [{"latin": "homicida et blasphemus", "rendered_as": "the murderer and blasphemer", "note": "The narrator's final characterization of Antiochus — two words that summarize his legacy."},
+        {"latin": "peregre in montibus", "rendered_as": "in the mountains, far from home", "note": "Death in exile, in unnamed mountains — the opposite of the glorious royal death Antiochus would have desired."}]
+    },
+    {
+      "verse": 28,
+      "text_latin": "Transferebat autem corpus Philippus conlactaneus eius qui metuens filium Antiochi ad Ptolomaeum Filometorem in Aegyptum abiit.",
+      "rendering": "Philip, his companion from youth, transferred the body; but fearing the son of Antiochus, he went to Ptolemy Philometor in Egypt.",
+      "translator_notes": ["Philip, Antiochus's foster-brother and companion, takes the body but flees to Egypt rather than support the new king — a sign of the dynasty's disintegration."],
+      "key_terms": [{"latin": "conlactaneus", "rendered_as": "his companion from youth", "note": "Conlactaneus — literally 'nursed together,' a foster-brother. The most intimate bond of the Hellenistic court now breaks apart."}]
+    }
+  ]
+}

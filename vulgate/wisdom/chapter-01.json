@@ -1,0 +1,137 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Wisdom of Solomon",
+    "chapter": 1,
+    "tradition": "vulgate",
+    "tradition_label": "Latin Vulgate (Deuterocanonical)",
+    "source_text": "Biblia Sacra Vulgata (Stuttgart critical edition)",
+    "translator": "Jerome",
+    "date": "c. 405 CE",
+    "canon": ["catholic", "orthodox", "ethiopian"],
+    "generated_at": "2026-04-20T00:00:00Z",
+    "prompt_version": "2.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "The book opens with a royal exhortation to love justice and seek the Lord with sincerity of heart. Wisdom will not enter a deceitful soul, and the Holy Spirit flees from the dishonest. God is witness to every hidden thought. Death was not made by God; the wicked summon it by their own deeds and words.",
+    "remarkable": "The opening verse's address to 'those who judge the earth' positions the entire book as counsel for rulers, a Hellenistic wisdom convention transformed into Jewish theological instruction. The identification of Wisdom with the Spirit of the Lord (v. 7) anticipates the Trinitarian readings that patristic authors would later draw from this text.",
+    "friction": "The claim that 'God did not make death' (v. 13) stands in tension with Genesis 2-3, where mortality appears as divine decree. The author resolves this by distinguishing between physical death as natural limit and spiritual death as the consequence of wickedness -- a distinction not explicit in the Hebrew scriptures.",
+    "connections": "Proverbs 1:20-33 (Wisdom's public appeal); Jeremiah 17:10 (God searches the heart); Genesis 2:17 and Romans 5:12 (death through sin); James 1:13 (God does not tempt)."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_latin": "Diligite iustitiam qui iudicatis terram. Sentite de Domino in bonitate et in simplicitate cordis quaerite illum.",
+      "rendering": "Love justice, you who judge the earth. Think of the Lord with goodness, and seek him with sincerity of heart.",
+      "translator_notes": ["The address to 'those who judge the earth' adopts the literary fiction of Solomon speaking to fellow kings, a convention from Egyptian and Hellenistic wisdom literature."],
+      "key_terms": [{"latin": "iustitiam", "rendered_as": "justice", "note": "The Latin iustitia encompasses both legal justice and moral righteousness; the opening word sets the book's central theme."}, {"latin": "simplicitate cordis", "rendered_as": "sincerity of heart", "note": "Simplicitas here means undivided loyalty, not naivety; it echoes the Hebrew tam-lev (whole-heartedness)."}]
+    },
+    {
+      "verse": 2,
+      "text_latin": "Quoniam invenitur ab his qui non tentant illum, apparet autem eis qui fidem habent in illum.",
+      "rendering": "For he is found by those who do not test him, and he reveals himself to those who have faith in him.",
+      "translator_notes": ["The verb tentant carries the sense of putting God on trial, demanding proof before trusting."],
+      "key_terms": [{"latin": "tentant", "rendered_as": "test", "note": "From tentare, to test or tempt; echoes Israel's testing of God in the wilderness (Exodus 17:2)."}]
+    },
+    {
+      "verse": 3,
+      "text_latin": "Perversae enim cogitationes separant a Deo; probata autem virtus corripit insipientes.",
+      "rendering": "For crooked thoughts separate from God, but his power, when tested, rebukes the foolish.",
+      "translator_notes": ["The contrast between perverse thinking and proven virtue frames the book's epistemological claim: right knowledge of God requires moral alignment, not merely intellectual effort."],
+      "key_terms": [{"latin": "perversae cogitationes", "rendered_as": "crooked thoughts", "note": "Perversae implies twisted or distorted reasoning, not merely erroneous; the moral quality of thought determines access to God."}]
+    },
+    {
+      "verse": 4,
+      "text_latin": "Quoniam in malivolam animam non introibit sapientia, nec habitabit in corpore subdito peccatis.",
+      "rendering": "For wisdom will not enter a soul given to malice, nor dwell in a body enslaved to sin.",
+      "translator_notes": ["The soul-body parallelism reflects the book's integrated anthropology; wisdom requires the whole person, not merely the intellect."],
+      "key_terms": [{"latin": "sapientia", "rendered_as": "wisdom", "note": "The central concept of the book; sapientia translates the Greek sophia, itself standing for Hebrew hokmah, but here personified far beyond Proverbs."}, {"latin": "malivolam animam", "rendered_as": "a soul given to malice", "note": "Malivola means ill-willing or malicious; wisdom's exclusion is not arbitrary but a consequence of moral incompatibility."}]
+    },
+    {
+      "verse": 5,
+      "text_latin": "Spiritus enim sanctus disciplinae effugiet fictum et auferet se a cogitationibus quae sunt sine intellectu et corripietur a superveniente iniquitate.",
+      "rendering": "For the holy spirit of discipline will flee from deceit, and withdraw from thoughts devoid of understanding, and will be driven out when injustice arrives.",
+      "translator_notes": ["This is the earliest occurrence in the Vulgate wisdom literature of spiritus sanctus as a near-technical term. The patristic tradition read this as a reference to the Holy Spirit, though the original Greek context likely meant a divine quality infused into the wise person."],
+      "key_terms": [{"latin": "Spiritus sanctus disciplinae", "rendered_as": "the holy spirit of discipline", "note": "A pivotal phrase for Christian theology; disciplina here means moral instruction and self-correction, not punishment."}, {"latin": "fictum", "rendered_as": "deceit", "note": "From fictus, something fabricated or feigned; the spirit cannot coexist with pretense."}]
+    },
+    {
+      "verse": 6,
+      "text_latin": "Benignus est enim spiritus sapientiae et non liberabit maledicum a labiis suis, quoniam renum illius testis est Deus et cordis illius scrutator est verus et linguae eius auditor.",
+      "rendering": "For the spirit of wisdom is benevolent, yet will not acquit the blasphemer for what his lips have spoken, because God is witness to his inmost parts, a true searcher of his heart, and a hearer of his tongue.",
+      "translator_notes": ["The three-fold witness formula -- God as witness of the kidneys (renum, the seat of emotion), searcher of the heart, and hearer of the tongue -- establishes total divine surveillance of the inner life."],
+      "key_terms": [{"latin": "renum", "rendered_as": "inmost parts", "note": "Literally 'kidneys'; in Hebrew and Latin anthropology, the kidneys are the seat of deep emotion and secret motivation (cf. Psalm 7:10, Jeremiah 17:10)."}, {"latin": "scrutator", "rendered_as": "searcher", "note": "From scrutor, to search thoroughly; the same root as 'scrutiny.'"}]
+    },
+    {
+      "verse": 7,
+      "text_latin": "Quoniam spiritus Domini replevit orbem terrarum, et hoc quod continet omnia scientiam habet vocis.",
+      "rendering": "For the Spirit of the Lord has filled the world, and that which holds all things together has knowledge of every voice.",
+      "translator_notes": ["This verse became a key text for the theology of divine omnipresence. The phrase 'that which holds all things together' (quod continet omnia) anticipates Colossians 1:17 and was read christologically by the Fathers."],
+      "key_terms": [{"latin": "spiritus Domini", "rendered_as": "the Spirit of the Lord", "note": "Here the spirit is cosmic in scope, filling the entire created order; a bridge between Hebrew ruach and later pneumatology."}, {"latin": "continet omnia", "rendered_as": "holds all things together", "note": "The cosmological claim that the divine spirit is the sustaining principle of the universe."}]
+    },
+    {
+      "verse": 8,
+      "text_latin": "Propter hoc qui loquitur iniqua non potest latere, nec praeteriet illum corripiens iudicium.",
+      "rendering": "Therefore the one who speaks unjust things cannot escape notice, nor will correcting judgment pass him by.",
+      "translator_notes": [],
+      "key_terms": [{"latin": "corripiens iudicium", "rendered_as": "correcting judgment", "note": "Judgment here is not merely punitive but corrective; the divine purpose is restoration."}]
+    },
+    {
+      "verse": 9,
+      "text_latin": "In cogitationibus enim impii interrogatio erit; sermonum autem illius auditio ad Deum veniet ad correptionem iniquitatum illius.",
+      "rendering": "For into the thoughts of the ungodly there will be inquiry, and the report of his words will come before God for the correction of his transgressions.",
+      "translator_notes": [],
+      "key_terms": [{"latin": "interrogatio", "rendered_as": "inquiry", "note": "A judicial term; God conducts a formal investigation of the inner life."}]
+    },
+    {
+      "verse": 10,
+      "text_latin": "Quoniam auris zeli audit omnia, et tumultus murmurationum non abscondetur.",
+      "rendering": "For the ear of jealousy hears all things, and the noise of murmuring will not be hidden.",
+      "translator_notes": ["The 'ear of jealousy' is a striking anthropomorphism. The divine zeal (zelus) is not petty envy but the passionate claim of a covenant God who will not share loyalty."],
+      "key_terms": [{"latin": "auris zeli", "rendered_as": "the ear of jealousy", "note": "Zelus translates the Greek zelos, itself rendering Hebrew qin'ah -- God's fierce possessive love for his people."}, {"latin": "murmurationum", "rendered_as": "murmuring", "note": "Echoes Israel's murmuring in the wilderness (Exodus 16:7-8); complaint against God is never inaudible to him."}]
+    },
+    {
+      "verse": 11,
+      "text_latin": "Custodite ergo vos a murmuratione quae nihil prodest, et a detractione parcite linguae, quoniam sermo obscurus in vacuum non ibit; os autem quod mentitur occidit animam.",
+      "rendering": "Guard yourselves, therefore, from useless murmuring, and spare your tongue from slander, because no secret word will go for nothing, and a lying mouth destroys the soul.",
+      "translator_notes": ["The link between speech and spiritual death introduces a major theme: words have ontological consequences, not merely social ones."],
+      "key_terms": [{"latin": "detractione", "rendered_as": "slander", "note": "Detractio is speech that diminishes another; in the moral theology tradition it becomes a specific category of sin."}, {"latin": "occidit animam", "rendered_as": "destroys the soul", "note": "Not mere physical death but the annihilation of the person's spiritual reality."}]
+    },
+    {
+      "verse": 12,
+      "text_latin": "Nolite zelare mortem in errore vitae vestrae neque adquiratis perditionem in operibus manuum vestrarum.",
+      "rendering": "Do not court death through the error of your life, nor acquire destruction by the works of your hands.",
+      "translator_notes": ["The verb zelare (to be zealous for, to court) applied to death creates a deliberate irony: humans can be as passionate for their own destruction as God is for their salvation."],
+      "key_terms": [{"latin": "zelare mortem", "rendered_as": "court death", "note": "Zelare here means to pursue eagerly; death is not imposed but invited by persistent wrongdoing."}]
+    },
+    {
+      "verse": 13,
+      "text_latin": "Quoniam Deus mortem non fecit nec laetatur in perditione vivorum.",
+      "rendering": "For God did not make death, nor does he take delight in the destruction of the living.",
+      "translator_notes": ["This verse became foundational for Christian theodicy. It distinguishes between death as natural limit and death as spiritual alienation, attributing only the latter to human choice."],
+      "key_terms": [{"latin": "mortem non fecit", "rendered_as": "did not make death", "note": "A theological claim that death (understood as spiritual ruin) is not part of God's creative intention; cf. Genesis 1:31, 'God saw everything he had made, and it was very good.'"}]
+    },
+    {
+      "verse": 14,
+      "text_latin": "Creavit enim ut essent omnia, et sanabiles fecit nationes orbis terrarum, et non est in illis medicamentum exterminii nec inferorum regnum in terra.",
+      "rendering": "For he created all things that they might exist, and he made the nations of the world to be wholesome, and there is no poison of destruction in them, nor any dominion of Hades upon the earth.",
+      "translator_notes": ["The assertion that creation is fundamentally oriented toward life, not death, provides the metaphysical foundation for the entire book's argument about the righteous and the wicked."],
+      "key_terms": [{"latin": "sanabiles", "rendered_as": "wholesome", "note": "Literally 'healable' or 'health-giving'; creation is inherently oriented toward life and restoration."}, {"latin": "inferorum regnum", "rendered_as": "dominion of Hades", "note": "The realm of the dead has no rightful sovereignty over the earth; death is an intruder, not a ruler."}]
+    },
+    {
+      "verse": 15,
+      "text_latin": "Iustitia enim perpetua est et immortalis.",
+      "rendering": "For justice is perpetual and immortal.",
+      "translator_notes": ["This terse declaration links justice with immortality, a connection the book will develop at length: the righteous participate in God's own deathlessness through their moral alignment with him."],
+      "key_terms": [{"latin": "iustitia", "rendered_as": "justice", "note": "Here iustitia is not merely a virtue but an ontological reality -- it partakes of God's own eternal nature."}]
+    },
+    {
+      "verse": 16,
+      "text_latin": "Impii autem manibus et verbis accersierunt illam et aestimantes illam amicam defluxerunt et sponsiones posuerunt ad illam, quoniam digni sunt qui sint ex parte illius.",
+      "rendering": "But the ungodly summoned death by their hands and their words, and regarding it as a friend, they wasted away; they made a covenant with it, for they are worthy to belong to its company.",
+      "translator_notes": ["The 'covenant with death' echoes Isaiah 28:15. The wicked enter into a binding agreement with the very force that destroys them -- a devastating inversion of Israel's covenant with the God of life."],
+      "key_terms": [{"latin": "sponsiones", "rendered_as": "a covenant", "note": "Sponsio is a formal pledge or agreement; the wicked have made death their treaty partner."}, {"latin": "accersierunt", "rendered_as": "summoned", "note": "From accersere, to send for, to summon; death does not intrude but is invited."}]
+    }
+  ]
+}

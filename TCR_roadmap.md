@@ -294,7 +294,7 @@ This applies to ~67 verses in Ezra and ~200 verses in Daniel. The site template 
 | Temple Scroll | 67 | 11QT | Idealized temple and Torah rewriting |
 | Damascus Document | 20 | CD | Laws and history of the Damascus covenant community |
 
-**Note:** The Great Isaiah Scroll (1QIsaiah-a) is handled in Phase 4 as a stacked alternate edition on Isaiah, not as a standalone book — though it also exists as a standalone entry in the data model for browsing purposes.
+**Note:** The Great Isaiah Scroll (1QIsaᵃ) is handled in Phase 4 as a stacked alternate edition on Isaiah, not as a standalone book — though it also exists as a standalone entry in the data model for browsing purposes.
 
 ---
 
@@ -313,7 +313,7 @@ This applies to ~67 verses in Ezra and ~200 verses in Daniel. The site template 
      "variant_rendering": "...",
      "variant_notes": ["..."],
      "significance": "minor|moderate|major|theological",
-     "manuscript_reference": "1QIsaiah-a, col. XXXIII, line 3"
+     "manuscript_reference": "1QIsaᵃ, col. XXXIII, line 3"
    }
    ```
 2. **Stacking UI** — version tabs / comparison view on chapter pages
@@ -323,7 +323,7 @@ This applies to ~67 verses in Ezra and ~200 verses in Daniel. The site template 
 
 | Item | Detail |
 |---|---|
-| Source | 1QIsaiah-a (Great Isaiah Scroll), DJD editions, Leon Levy Digital Library |
+| Source | 1QIsaᵃ (Great Isaiah Scroll), DJD editions, Leon Levy Digital Library |
 | Scope | All 66 chapters — complete manuscript |
 | Date | 150–100 BCE |
 | Output | Variant annotations on all 66 Isaiah chapters |

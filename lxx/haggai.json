@@ -1,0 +1,49 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Haggai",
+    "tradition": "lxx",
+    "tradition_label": "Septuagint (LXX)",
+    "source_text": "Rahlfs-Hanhart, Septuaginta",
+    "base_text": "Westminster Leningrad Codex (WLC)",
+    "translators": "Alexandrian Jewish translators (2nd c. BCE)",
+    "date": "2nd century BCE",
+    "generated_at": "2026-04-22T00:00:00Z",
+    "prompt_version": "1.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "LXX Haggai is short and stable against MT. Its single direct NT citation is at Hebrews 12:26, which quotes Haggai 2:6 in its LXX form as a scriptural warrant for eschatological cosmic shaking. The Zerubbabel-as-signet-ring promise at 2:23 also feeds into NT Messianic genealogies and the Davidic restoration vocabulary.",
+    "notable_variants": "The 'yet one little while' (hapax eti) phrase of 2:6 that Hebrews 12:26 builds on; the 'desired of all nations' at 2:7 whose reading has shaped Christian Messianic exegesis (though the LXX and Vulgate read it differently); the 'signet ring' promise at 2:23.",
+    "theological_legacy": "Haggai 2:6 in its LXX-and-Hebrews form became a standard proof-text for the coming 'shaking' of heaven and earth at the Parousia. The Hebrews 12 argument from Sinai shaking to apocalyptic shaking depends on the LXX's specific time-adverb 'yet once more.'"
+  },
+  "renderings": [
+    {
+      "reference": "Haggai 2:6",
+      "mt_reading": "עוֹד אַחַת מְעַט הִיא וַאֲנִי מַרְעִישׁ אֶת־הַשָּׁמַיִם וְאֶת־הָאָרֶץ",
+      "lxx_reading": "ἔτι ἅπαξ ἐγὼ σείσω τὸν οὐρανὸν καὶ τὴν γῆν",
+      "mt_rendering": "In just a little while, I will shake the heavens and the earth",
+      "lxx_rendering": "Yet once more I will shake the heaven and the earth",
+      "significance": "theological",
+      "notes": [
+        "Hebrews 12:26 quotes this verse verbatim in its LXX form — eti hapax egō seisō — and builds a whole theology of covenantal stability on its implications: \"this phrase 'yet once more' indicates the removal of what is shaken — that is, created things — so that what cannot be shaken may remain.\"",
+        "The LXX's eti hapax ('yet once more') is a tighter, more dramatic formula than the Hebrew's 'in just a little while' (od achat me'at hi). Hebrews's eschatological argument depends on pressing eti hapax as a discrete finality-marker: one last shaking, then the unshakable kingdom.",
+        "The whole Hebrews 12 argument — Sinai's partial shaking foreshadowed the final cosmic shaking — cannot be constructed from the Hebrew text alone. It requires the LXX's phrasing."
+      ]
+    },
+    {
+      "reference": "Haggai 2:7",
+      "mt_reading": "וּבָאוּ חֶמְדַּת כָּל־הַגּוֹיִם",
+      "lxx_reading": "καὶ ἥξει τὰ ἐκλεκτὰ πάντων τῶν ἐθνῶν",
+      "mt_rendering": "the treasures desired by all nations will come in",
+      "lxx_rendering": "the choice things of all the nations shall come",
+      "significance": "moderate",
+      "notes": [
+        "The Hebrew chemdat kol-ha-goyim is famously ambiguous: 'desire of all nations' (a singular collective — the Messiah himself) or 'desirable things of all nations' (plural — tribute, wealth). The LXX resolves the ambiguity as plural: ta eklekta ('the choice things') — tribute and wealth.",
+        "The Vulgate goes the other way: veniet desideratus cunctis gentibus ('the desired of all nations shall come') — a Messianic personal reading that fed 1,500 years of Western Christian Messianic exegesis, including George Frideric Handel's aria 'and the desire of all nations shall come' in Messiah.",
+        "The LXX's plural and the Vulgate's singular each resolve the Hebrew in opposite directions. This is one of the clearest cases where the reception-history of a verse diverges depending on which ancient translation a tradition takes as authoritative."
+      ]
+    }
+  ]
+}

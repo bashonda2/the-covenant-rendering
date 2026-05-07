@@ -1,0 +1,158 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Leviticus",
+    "tradition": "vulgate",
+    "tradition_label": "Latin Vulgate",
+    "source_text": "Biblia Sacra Vulgata (Stuttgart critical edition)",
+    "base_text": "Westminster Leningrad Codex (WLC)",
+    "translator": "Jerome (Eusebius Sophronius Hieronymus)",
+    "date": "382-405 CE",
+    "generated_at": "2026-04-20T00:00:00Z",
+    "prompt_version": "2.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Jerome's Leviticus established the entire sacrificial vocabulary of Western theology — holocaustum, propitiatio, expiatio, hostia — terms that shaped how Latin Christianity understood Christ's atoning work. His rendering choices transformed Israelite ritual law into a theological lexicon for the Mass.",
+    "notable_renderings": "The sacrificial terminology (holocaustum for olah, hostia for zevach, propitiatio for kippur), the Day of Atonement vocabulary including caper emissarius (which became 'scapegoat'), the blood theology of 17:11 (anima carnis in sanguine est), and the love command of 19:18 (diliges proximum tuum).",
+    "theological_legacy": "Leviticus in the Vulgate provided Western Christianity with its sacrificial theology vocabulary. Every term used to describe the Mass — hostia, oblatio, sacrificium, propitiatio — traces to Jerome's rendering of Levitical ritual. The 'scapegoat' concept entered Western culture directly from his caper emissarius, and the holiness code vocabulary shaped moral theology for centuries."
+  },
+  "renderings": [
+    {
+      "reference": "Leviticus 1:3-4",
+      "source_text": "עֹלָה (olah)... וְנִרְצָה לוֹ לְכַפֵּר עָלָיו",
+      "vulgate_text": "holocaustum... et acceptabilis erit atque in expiationem eius proficiet",
+      "vulgate_rendering": "a holocaust/whole burnt offering... and it shall be acceptable and shall avail for his expiation",
+      "tcr_rendering": "a burnt offering... and it will be accepted on his behalf to make atonement for him",
+      "theological_legacy": "Holocaustum (from Greek holokauston, 'wholly burned') became the standard Western term for complete sacrificial offering. The word later acquired its horrific modern meaning, but for centuries it was the primary theological term for total self-offering to God, applied typologically to Christ's sacrifice.",
+      "notes": ["Hebrew olah (ascending offering) emphasizes the smoke rising to God. Jerome's holocaustum emphasizes total consumption by fire. The Latin expiatio (expiation, cleansing from guilt) for Hebrew kipper (to cover/atone) introduced a specific theological interpretation: atonement as removal of guilt rather than covering or cleansing."]
+    },
+    {
+      "reference": "Leviticus 2:1",
+      "source_text": "קָרְבַּן מִנְחָה (qorban minchah)",
+      "vulgate_text": "oblationem sacrificii",
+      "vulgate_rendering": "an oblation of sacrifice",
+      "tcr_rendering": "a grain offering",
+      "theological_legacy": "Oblatio became the standard Latin term for the Eucharistic offering in the Mass. The word's use for the grain offering — a bloodless sacrifice — particularly influenced the theology of the Mass as an unbloody re-presentation of Christ's sacrifice.",
+      "notes": ["Hebrew minchah originally meant gift/tribute and specifically denotes a grain offering. Jerome's oblatio (offering, presentation) is generic and lost the specific grain/meal reference. This abstraction allowed the term to be applied broadly to Christian worship, particularly the offertory of the Mass."]
+    },
+    {
+      "reference": "Leviticus 3:1",
+      "source_text": "זֶבַח שְׁלָמִים (zevach shelamim)",
+      "vulgate_text": "hostia pacificorum",
+      "vulgate_rendering": "a peace offering / victim of peace offerings",
+      "tcr_rendering": "a peace offering",
+      "theological_legacy": "Hostia (victim, sacrificial animal) became the primary Latin term for Christ as sacrificial victim and for the Eucharistic host. The English word 'host' for the consecrated communion bread derives directly from Jerome's hostia. Pacificorum (of peace-making) connected sacrifice to reconciliation.",
+      "notes": ["Hebrew shelamim derives from shalom (wholeness, peace, well-being) and the sacrifice involves a shared meal. Jerome's hostia emphasizes the death of the victim rather than the fellowship of the meal. This shift in emphasis — from communal celebration to sacrificial death — profoundly shaped Western Eucharistic theology's focus on Christ's sacrificial death over the fellowship meal aspect."]
+    },
+    {
+      "reference": "Leviticus 4:3",
+      "source_text": "חַטָּאת (chattat)",
+      "vulgate_text": "pro peccato",
+      "vulgate_rendering": "for sin / sin offering",
+      "tcr_rendering": "sin offering",
+      "theological_legacy": "Jerome's rendering pro peccato (for sin) rather than a single technical term meant that Western theology consistently read this offering through the lens of sin and guilt rather than purification. This reinforced the Western emphasis on sin as the central human problem requiring sacrificial remedy.",
+      "notes": ["Hebrew chattat derives from the root ch-t-' (to miss the mark, to sin) but the offering itself functions primarily as purification of sacred space. Jerome's pro peccato emphasizes the sin-bearing function over the purification function, aligning with the Western theological trajectory that sees sacrifice primarily as addressing guilt rather than impurity."]
+    },
+    {
+      "reference": "Leviticus 5:15",
+      "source_text": "אָשָׁם (asham)",
+      "vulgate_text": "pro delicto",
+      "vulgate_rendering": "for a trespass/offense",
+      "tcr_rendering": "guilt offering",
+      "theological_legacy": "Pro delicto (for an offense/trespass) established 'trespass' as a legal-theological category in Western thought. The Lord's Prayer's 'forgive us our trespasses' (debita/delicta in various Latin versions) connects to this same vocabulary field, linking daily sin to the Levitical guilt-offering system.",
+      "notes": ["Hebrew asham encompasses guilt, liability, and the reparation offering itself. Jerome's delictum (offense, fault, trespass) is more narrowly legal. This contributed to Western theology's tendency to frame sin in juridical rather than relational terms — sin as legal offense requiring legal remedy."]
+    },
+    {
+      "reference": "Leviticus 11:44",
+      "source_text": "וְהִתְקַדִּשְׁתֶּם וִהְיִיתֶם קְדֹשִׁים כִּי קָדוֹשׁ אָנִי",
+      "vulgate_text": "sancti estote quoniam ego sanctus sum",
+      "vulgate_rendering": "Be holy because I am holy",
+      "tcr_rendering": "Consecrate yourselves and be holy, for I am holy",
+      "theological_legacy": "Sancti estote quoniam ego sanctus sum became a cornerstone text for Western holiness theology and religious life. The imperative sancti estote (be holy) was cited as the foundational call to Christian perfection by Benedict, Francis, and virtually every founder of a religious order.",
+      "notes": ["Jerome compresses the Hebrew's two verbs (hitqaddishtem, 'consecrate yourselves' + vihyitem qedoshim, 'and be holy') into the single sancti estote. This compression loses the processual sense of self-consecration leading to holiness, presenting holiness as a direct command rather than a process. The phrase was quoted by 1 Peter 1:16 and became central to Western sanctification theology."]
+    },
+    {
+      "reference": "Leviticus 16:8-10",
+      "source_text": "לַעֲזָאזֵל (la-azazel)",
+      "vulgate_text": "capro emissario",
+      "vulgate_rendering": "for the emissary goat / scapegoat",
+      "tcr_rendering": "for Azazel",
+      "theological_legacy": "Caper emissarius (the sent-away goat) was rendered 'scapegoat' by Tyndale (1530), creating an English word that became a universal cultural concept. Jerome's interpretive translation — treating azazel as a description ('the goat that departs') rather than a proper name — determined how Western Christianity understood this ritual: as symbolic removal of sin rather than an offering to a desert demon.",
+      "notes": ["Hebrew azazel is debated: possibly a demon's name, possibly 'the goat of removal' (ez + azal). Jerome chose the interpretive route with emissarius (one who is sent away), treating it as a function rather than a name. This decision meant Western Christianity never developed theology around a desert demon receiving offerings, instead reading the ritual purely as sin-removal symbolism applied typologically to Christ."]
+    },
+    {
+      "reference": "Leviticus 16:30",
+      "source_text": "כִּי־בַיּוֹם הַזֶּה יְכַפֵּר עֲלֵיכֶם לְטַהֵר אֶתְכֶם",
+      "vulgate_text": "in hac die expiatio erit vestri atque mundatio",
+      "vulgate_rendering": "On this day shall be your expiation and cleansing",
+      "tcr_rendering": "For on this day atonement will be made for you to cleanse you",
+      "theological_legacy": "Expiatio (expiation) became the standard Western theological term for the removal of sin's guilt. The distinction between expiatio (directed at sin) and propitiatio (directed at God) generated centuries of atonement theology debate, including the modern controversy between 'expiation' and 'propitiation' in English Bible translation.",
+      "notes": ["Jerome pairs expiatio (removal of guilt) with mundatio (cleansing), capturing both dimensions of the Hebrew kipper + taher. The Latin terms entered systematized atonement theology: expiatio addresses the guilt of sin, while propitiatio (used elsewhere) addresses God's wrath. This distinction, rooted in Jerome's varied vocabulary for kipper, remains contested in modern theology."]
+    },
+    {
+      "reference": "Leviticus 17:11",
+      "source_text": "כִּי נֶפֶשׁ הַבָּשָׂר בַּדָּם הִוא... כִּי־הַדָּם הוּא בַּנֶּפֶשׁ יְכַפֵּר",
+      "vulgate_text": "anima carnis in sanguine est... et ego dedi illum vobis ut super altare in eo expietis pro animabus vestris et sanguis pro animae piaculo sit",
+      "vulgate_rendering": "The soul of the flesh is in the blood... and I have given it to you that upon the altar you may expiate for your souls, and the blood may be a propitiation for the soul",
+      "tcr_rendering": "For the life of the flesh is in the blood, and I have given it to you on the altar to make atonement for your lives; for it is the blood that makes atonement by means of the life",
+      "theological_legacy": "Anima carnis in sanguine est (the soul of the flesh is in the blood) became the foundational proof-text for Western blood-atonement theology. It grounded both the Catholic theology of the Eucharistic wine as Christ's blood/soul and the Protestant emphasis on blood atonement. The identification of anima (soul) with sanguis (blood) shaped Western anthropology and soteriology.",
+      "notes": ["Hebrew nephesh here means 'life' (not 'soul' in the Greek philosophical sense), and dam is blood. Jerome's anima carnis in sanguine est imports the soul-body dualism of Latin anthropology into a Hebrew text about life-force. This fusion of Hebrew vitalism with Latin soul-language produced the distinctive Western theology of blood as soul-bearer, foundational to Eucharistic and atonement doctrine."]
+    },
+    {
+      "reference": "Leviticus 19:2",
+      "source_text": "קְדֹשִׁים תִּהְיוּ כִּי קָדוֹשׁ אֲנִי יְהוָה אֱלֹהֵיכֶם",
+      "vulgate_text": "sancti estote quia ego sanctus sum Dominus Deus vester",
+      "vulgate_rendering": "Be holy because I the Lord your God am holy",
+      "tcr_rendering": "You shall be holy, for I, the LORD your God, am holy",
+      "theological_legacy": "This repetition of the holiness command (cf. 11:44) with the explicit identification Dominus Deus vester reinforced the Latin concept of holiness as divine attribute communicated by command. Western moral theology built its entire sanctification framework on this verse as mediated through Jerome's Latin.",
+      "notes": ["The repetition of this formula in Leviticus created what scholars call the 'Holiness Code' (chapters 17-26). Jerome's consistent rendering sanctus/sancti established Latin sanctitas as the primary Western category for moral-spiritual perfection, a term that eventually named the saints (sancti) and sanctification (sanctificatio)."]
+    },
+    {
+      "reference": "Leviticus 19:18",
+      "source_text": "וְאָהַבְתָּ לְרֵעֲךָ כָּמוֹךָ",
+      "vulgate_text": "diliges proximum tuum sicut teipsum",
+      "vulgate_rendering": "You shall love your neighbor as yourself",
+      "tcr_rendering": "You shall love your neighbor as yourself",
+      "theological_legacy": "Diliges proximum tuum sicut teipsum is among the most consequential sentences in Western civilization. Jesus cited it as the second greatest commandment (Matthew 22:39), and Jerome's Latin formulation became the basis of Western natural law ethics, Catholic social teaching, and the entire tradition of neighbor-love as moral foundation.",
+      "notes": ["Hebrew re'a (companion, fellow, neighbor) is rendered proximum (the one near, neighbor). Jerome's choice of diliges (from diligere, to esteem, love with choice) rather than amabis (from amare, to love with feeling) made neighbor-love a matter of deliberate will rather than spontaneous affection — a distinction that deeply influenced Western moral theology's treatment of love as duty rather than emotion."]
+    },
+    {
+      "reference": "Leviticus 23:27",
+      "source_text": "יוֹם הַכִּפֻּרִים (yom ha-kippurim)",
+      "vulgate_text": "dies expiationum",
+      "vulgate_rendering": "day of expiations",
+      "tcr_rendering": "the Day of Atonement",
+      "theological_legacy": "Dies expiationum (day of expiations, plural) established the concept that this day addressed multiple sins requiring multiple acts of cleansing. The plural influenced Western theology's understanding of atonement as addressing a multiplicity of offenses rather than a single condition of estrangement.",
+      "notes": ["Hebrew kippurim is plural (atonements/coverings). Jerome preserves this plurality with expiationum. The day's Latin name fed directly into Western Good Friday theology, where Christ's death was interpreted as the ultimate dies expiationis fulfilling and surpassing the Levitical original."]
+    },
+    {
+      "reference": "Leviticus 24:20",
+      "source_text": "כַּאֲשֶׁר יִתֵּן מוּם בָּאָדָם כֵּן יִנָּתֶן בּוֹ",
+      "vulgate_text": "qualem inflixerit maculam talem sustinere cogetur",
+      "vulgate_rendering": "Whatever blemish he inflicts, such he shall be compelled to endure",
+      "tcr_rendering": "As he has caused a disfigurement in a person, so it shall be done to him",
+      "theological_legacy": "Jerome's sustinere cogetur (shall be compelled to endure) adds explicit legal compulsion absent from the Hebrew. This strengthened the lex talionis as a principle of mandatory judicial enforcement rather than a limit on vengeance, influencing Western penal theory.",
+      "notes": ["The Hebrew simply states equivalence (as he gives, so it shall be given to him). Jerome's addition of cogetur (he shall be forced/compelled) imports state coercion into what the Hebrew presents as proportional principle. This rendering supported Western legal systems that treated talion as mandatory rather than as maximum penalty."]
+    },
+    {
+      "reference": "Leviticus 25:10",
+      "source_text": "וּקְרָאתֶם דְּרוֹר בָּאָרֶץ... יוֹבֵל הִוא (yovel hi)",
+      "vulgate_text": "vocabisque remissionem cunctis habitatoribus terrae tuae ipse est enim iubileus",
+      "vulgate_rendering": "And you shall proclaim release to all inhabitants of your land, for it is the jubilee",
+      "tcr_rendering": "and proclaim liberty throughout the land to all its inhabitants. It shall be a jubilee for you",
+      "theological_legacy": "Iubileus (jubilee) entered every Western language as a term for celebration, anniversary, and debt release. The word was inscribed on the American Liberty Bell (Leviticus 25:10) and became the basis of Catholic Jubilee Year celebrations beginning in 1300 CE. Remissio (release, remission) connected debt-release to the forgiveness of sins (remissio peccatorum in the Creed).",
+      "notes": ["Hebrew yovel likely means 'ram's horn' (the trumpet announcing the year). Jerome's iubileus may derive from Latin iubilare (to shout for joy) rather than from the Hebrew — a folk etymology that nevertheless produced an enormously influential word. The connection of remissio to both economic debt-release and spiritual forgiveness shaped Catholic jubilee theology and social teaching on debt."]
+    },
+    {
+      "reference": "Leviticus 26:12",
+      "source_text": "וְהִתְהַלַּכְתִּי בְּתוֹכְכֶם וְהָיִיתִי לָכֶם לֵאלֹהִים וְאַתֶּם תִּהְיוּ־לִי לְעָם",
+      "vulgate_text": "ambulabo inter vos et ero vester Deus vosque eritis mihi populus",
+      "vulgate_rendering": "I will walk among you and will be your God, and you shall be my people",
+      "tcr_rendering": "I will walk among you and will be your God, and you shall be My people",
+      "theological_legacy": "Ambulabo inter vos (I will walk among you) became a foundational covenant formula in Western ecclesiology. The mutual possession language (ero vester Deus / eritis mihi populus) was applied to the Church as the new covenant people, structuring Western covenant theology from Augustine through the Reformers.",
+      "notes": ["Jerome renders the hithpael of halak (to walk about, to go back and forth) with the simple ambulabo (I will walk), losing some of the intimacy of God strolling habitually among the people. Nevertheless, this verse in Latin became the definitive covenant formula cited in Western systematic theology to define the God-people relationship."]
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Ecclesiastes",
+    "tradition": "vulgate",
+    "tradition_label": "Latin Vulgate",
+    "source_text": "Biblia Sacra Vulgata (Stuttgart critical edition)",
+    "base_text": "Westminster Leningrad Codex (WLC)",
+    "translator": "Jerome (Eusebius Sophronius Hieronymus)",
+    "date": "382-405 CE",
+    "generated_at": "2026-04-20T00:00:00Z",
+    "prompt_version": "2.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Jerome translated Ecclesiastes from the Hebrew and also produced a commentary on it (c. 389), making this one of the books he engaged with most deeply. His rendering of Qohelet's skeptical, probing voice through Latin philosophical vocabulary created a text that resonated powerfully with late antique and medieval readers already immersed in Stoic and Epicurean thought. Jerome's vanitas vanitatum became perhaps the single most recognized Latin biblical phrase in Western culture.",
+    "notable_renderings": "The vanitas vanitatum rendering of hevel havalim (1:2) that spawned an entire genre of art; the tempus vocabulary of the time poem (3:1-8); nihil sub sole novum (nothing new under the sun, 1:9); and the conclusio sermonis (conclusion of the matter, 12:13) that framed the book as ultimately orthodox despite its radical content.",
+    "theological_legacy": "Ecclesiastes' Vulgate text created the vocabulary of Western pessimism, world-weariness, and contemptus mundi (contempt of the world). The vanitas tradition in painting, the memento mori tradition, and monastic world-renunciation all drew directly from Jerome's Latin Ecclesiastes. The book's apparent nihilism was domesticated by reading its conclusion (12:13-14) as the orthodox key to the whole."
+  },
+  "renderings": [
+    {
+      "reference": "Ecclesiastes 1:1",
+      "source_text": "דִּבְרֵי קֹהֶלֶת בֶּן־דָּוִד מֶלֶךְ בִּירוּשָׁלָ‍ִם (divrei Qohelet ben-David melekh biYerushalaim)",
+      "vulgate_text": "verba Ecclesiastae filii David regis Hierusalem",
+      "vulgate_rendering": "The words of Ecclesiastes, son of David, king of Jerusalem",
+      "tcr_rendering": "The words of Qohelet, son of David, king in Jerusalem",
+      "theological_legacy": "Jerome preserved the LXX's Greek title Ekklesiastes rather than translating the Hebrew Qohelet (one who assembles/convenes). The Greek-into-Latin title obscured the original meaning — a 'convener' or 'assembler' of wisdom — and associated the book with the ekklesia (assembly/church), subtly ecclesiasticizing a deeply secular wisdom text.",
+      "notes": ["Hebrew Qohelet comes from qahal (to assemble, to convene). It is a function-title, not a personal name: 'the one who convenes the assembly.' The LXX rendered it Ekklesiastes (one who addresses the ekklesia). Jerome kept the Hellenized form, which concealed the Hebrew root and gave the book a quasi-ecclesiastical identity in the Latin tradition."]
+    },
+    {
+      "reference": "Ecclesiastes 1:2",
+      "source_text": "הֲבֵל הֲבָלִים אָמַר קֹהֶלֶת הֲבֵל הֲבָלִים הַכֹּל הָבֶל (havel havalim amar Qohelet havel havalim hakkol havel)",
+      "vulgate_text": "vanitas vanitatum dixit Ecclesiastes vanitas vanitatum omnia vanitas",
+      "vulgate_rendering": "Vanity of vanities, said Ecclesiastes, vanity of vanities — all is vanity",
+      "tcr_rendering": "Breath of breaths, says Qohelet, breath of breaths — all is a breath",
+      "theological_legacy": "Vanitas vanitatum is arguably the most consequential single rendering in the entire Vulgate. Hebrew hevel means 'breath,' 'vapor,' 'mist' — something transient and insubstantial, not necessarily morally worthless. Jerome's vanitas (emptiness, worthlessness, futility) shifted the meaning from transience to moral worthlessness, spawning the entire Western vanitas tradition in art, the contemptus mundi theology, and a fundamentally pessimistic reading of the book.",
+      "notes": ["Hebrew hevel is a concrete image: the visible breath on a cold morning, gone in an instant. It connotes transience, ephemerality, and insubstantiality — not necessarily futility or moral emptiness. Latin vanitas carries connotations of emptiness, falsehood, worthlessness, and (in Christian usage) sinful pride. The shift from 'everything is transient' to 'everything is worthless' changed the book from existential meditation to moral condemnation of worldly pursuits. The vanitas genre in Dutch painting (skulls, wilting flowers, hourglasses) derives directly from this Latin rendering."]
+    },
+    {
+      "reference": "Ecclesiastes 1:9",
+      "source_text": "אֵין כָּל־חָדָשׁ תַּחַת הַשָּׁמֶשׁ (ein kol-chadash tachat hashemesh)",
+      "vulgate_text": "nihil sub sole novum",
+      "vulgate_rendering": "There is nothing new under the sun",
+      "tcr_rendering": "There is nothing new under the sun",
+      "theological_legacy": "Nihil sub sole novum became a universal proverb in Western culture, quoted far beyond religious contexts. Jerome's crisp Latin formulation gave the phrase its enduring proverbial force. It became a stock expression of world-weariness, conservatism, and cyclic philosophy of history.",
+      "notes": ["Jerome's rendering is semantically identical to the Hebrew. Its cultural power comes from the memorable brevity of the Latin formulation and its endless quotability. The phrase has been used by philosophers, satirists, and cynics for sixteen centuries."]
+    },
+    {
+      "reference": "Ecclesiastes 1:18",
+      "source_text": "כִּי בְּרֹב חָכְמָה רָב־כָּעַס וְיוֹסִיף דַּעַת יוֹסִיף מַכְאוֹב (ki berov chokhmah rav-ka'as veyosif da'at yosif makh'ov)",
+      "vulgate_text": "in multa sapientia multa est indignatio et qui addit scientiam addit et laborem",
+      "vulgate_rendering": "In much wisdom there is much indignation, and whoever increases knowledge increases labor",
+      "tcr_rendering": "For in much wisdom is much vexation, and whoever increases knowledge increases pain",
+      "theological_legacy": "Jerome rendered makh'ov (pain, sorrow, grief) as laborem (labor, toil), shifting from emotional suffering to productive effort. This aligned knowledge-pain with the Genesis curse of labor and with the monastic understanding that intellectual work is painful toil — sanctifying but burdensome.",
+      "notes": ["Hebrew makh'ov means pain, grief, sorrow — the ache that comes from knowing too much. Jerome's laborem (labor, toil, hardship) is broader and less emotionally specific, connecting knowledge to work rather than to heartbreak. The rendering supported the monastic ideal of study as ascetic discipline."]
+    },
+    {
+      "reference": "Ecclesiastes 3:1",
+      "source_text": "לַכֹּל זְמָן וְעֵת לְכָל־חֵפֶץ תַּחַת הַשָּׁמָיִם (lakkol zeman ve'et lekhol-chefetz tachat hashamayim)",
+      "vulgate_text": "omnia tempus habent et suis spatiis transeunt universa sub caelo",
+      "vulgate_rendering": "All things have their season, and in their times all things pass under heaven",
+      "tcr_rendering": "For everything there is an appointed time, and a time for every matter under the heavens",
+      "theological_legacy": "Jerome expanded the Hebrew's two time-words (zeman and et) into the more philosophical tempus and spatia (seasons and intervals), and added transeunt (they pass away), emphasizing transience not present in the Hebrew. This framed the famous time-poem as a meditation on passing away rather than on divine appointment.",
+      "notes": ["Hebrew zeman means appointed time and et means time/occasion. The Hebrew emphasizes divine ordering — there is an appointed time for everything. Jerome's transeunt (they pass through/away) adds a note of transience, making the poem more about the passing of all things than about God's providential timing. The difference is subtle but theologically significant."]
+    },
+    {
+      "reference": "Ecclesiastes 3:11",
+      "source_text": "גַּם אֶת־הָעֹלָם נָתַן בְּלִבָּם (gam et-ha'olam natan belibam)",
+      "vulgate_text": "et mundum tradidit disputationi eorum",
+      "vulgate_rendering": "And he has delivered the world to their disputing",
+      "tcr_rendering": "He has also set eternity in their hearts",
+      "theological_legacy": "This is a major divergence. Hebrew olam means 'eternity' or 'the distant past/future' — God has placed awareness of eternity in the human heart. Jerome's mundum (world) for olam and disputationi (disputing/examining) for the broader context radically reframed the verse: instead of humans possessing an innate sense of eternity, they are given the world to argue about. The famous 'eternity in the heart' reading was lost in the Latin tradition.",
+      "notes": ["Hebrew olam primarily means eternity, perpetuity, or the remote past/future. It can also mean 'world' (as in later Hebrew and Aramaic). Jerome took the secondary meaning. The Hebrew poetically states that God gave humans an awareness of the infinite that they can never fully grasp — a profound existential observation. Jerome's reading reduces this to intellectual restlessness about the material world."]
+    },
+    {
+      "reference": "Ecclesiastes 3:19-20",
+      "source_text": "כִּי מִקְרֶה בְנֵי־הָאָדָם וּמִקְרֶה הַבְּהֵמָה וּמִקְרֶה אֶחָד לָהֶם כְּמוֹת זֶה כֵּן מוֹת זֶה",
+      "vulgate_text": "idcirco unus interitus est hominis et iumentorum et aequa utriusque condicio sicut moritur homo sic et illa moriuntur",
+      "vulgate_rendering": "Therefore the death of man and of beasts is one, and the condition of both is equal; as man dies, so they also die",
+      "tcr_rendering": "For the fate of humans and the fate of animals is the same fate; as one dies, so dies the other",
+      "theological_legacy": "Jerome's aequa utriusque condicio (the condition of both is equal) became a shocking text in Western theology, seemingly denying human uniqueness. Medieval commentators labored to explain how Qohelet could equate human and animal death. The passage became important in debates about the soul's immortality and human dignity.",
+      "notes": ["Jerome rendered the Hebrew faithfully — the problem is the Hebrew itself, which states bluntly that humans and animals share the same fate. The passage was a headache for Western theologians committed to the immortal soul. Most resolved it by attributing the view to Qohelet's limited 'under the sun' perspective, not to divine revelation."]
+    },
+    {
+      "reference": "Ecclesiastes 7:2",
+      "source_text": "טוֹב לָלֶכֶת אֶל־בֵּית־אֵבֶל מִלֶּכֶת אֶל־בֵּית מִשְׁתֶּה (tov lalekhet el-beit-evel milekhet el-beit mishteh)",
+      "vulgate_text": "melius est ire ad domum luctus quam ad domum convivii",
+      "vulgate_rendering": "It is better to go to the house of mourning than to the house of feasting",
+      "tcr_rendering": "It is better to go to the house of mourning than to go to the house of feasting",
+      "theological_legacy": "Melius est ire ad domum luctus became a key text in Western ascetic theology and the contemptus mundi tradition. Monks, preachers, and spiritual writers cited it endlessly to justify sorrow over joy, gravity over levity, and funerals over celebrations.",
+      "notes": ["Jerome's rendering is close to the Hebrew. The verse's enormous cultural influence came from its use in monastic rules, penitential literature, and funeral sermons. It became the quintessential proof-text for the superiority of sober reflection over worldly celebration in Western Christian asceticism."]
+    },
+    {
+      "reference": "Ecclesiastes 9:10",
+      "source_text": "כֹּל אֲשֶׁר תִּמְצָא יָדְךָ לַעֲשׂוֹת בְּכֹחֲךָ עֲשֵׂה כִּי אֵין מַעֲשֶׂה וְחֶשְׁבּוֹן וְדַעַת וְחָכְמָה בִּשְׁאוֹל (kol asher timtza yadekha la'asot bekochakha aseh ki ein ma'aseh vecheshbon veda'at vechokhmah bish'ol)",
+      "vulgate_text": "quodcumque facere potest manus tua instanter operare quia nec opus nec ratio nec sapientia nec scientia erunt apud inferos",
+      "vulgate_rendering": "Whatever your hand is able to do, do it earnestly, because neither work, nor reason, nor wisdom, nor knowledge shall be in the grave",
+      "tcr_rendering": "Whatever your hand finds to do, do it with your strength, for there is no work or planning or knowledge or wisdom in Sheol",
+      "theological_legacy": "Jerome's apud inferos (in the underworld/hell) for Hebrew bish'ol (in Sheol) imported Greco-Roman underworld associations into the Hebrew concept. His instanter operare (work earnestly/urgently) became a monastic work ethic proof-text. The denial of activity in the afterlife posed problems for later theology of purgatory and the intermediate state.",
+      "notes": ["Hebrew Sheol is the shadowy underworld of the dead — not a place of punishment but of diminished existence. Jerome's inferos carries associations with the Roman underworld (infernus/inferi) and eventually with the Christian hell. The passage was cited in debates about the state of the dead, purgatory, and whether souls are conscious between death and resurrection."]
+    },
+    {
+      "reference": "Ecclesiastes 11:1",
+      "source_text": "שַׁלַּח לַחְמְךָ עַל־פְּנֵי הַמָּיִם כִּי בְּרֹב הַיָּמִים תִּמְצָאֶנּוּ (shallach lachmekha al-penei hamayim ki berov hayyamim timtza'ennu)",
+      "vulgate_text": "mitte panem tuum super transeuntes aquas quia post tempora multa invenies illum",
+      "vulgate_rendering": "Cast your bread upon the passing waters, for after many days you shall find it again",
+      "tcr_rendering": "Send your bread upon the face of the waters, for in many days you will find it",
+      "theological_legacy": "Mitte panem tuum super aquas became one of the best-known proverbs in Western culture, used to encourage generosity, risk-taking, and long-term investment. Jerome's transeuntes aquas (passing/flowing waters) adds a note of transience — the waters are moving, the bread disappears, but return comes in time.",
+      "notes": ["The original meaning likely relates to maritime trade — send your goods (bread/grain) across the sea and eventually you will see profit. Jerome's rendering preserved the proverbial opacity while adding transeuntes (passing), emphasizing water's movement. The verse was moralized as an encouragement to charity: give generously and God will return it to you."]
+    },
+    {
+      "reference": "Ecclesiastes 12:1",
+      "source_text": "וּזְכֹר אֶת־בּוֹרְאֶיךָ בִּימֵי בְּחוּרֹתֶיךָ (uzekhor et-bor'ekha bimei bechurotekha)",
+      "vulgate_text": "memento Creatoris tui in diebus iuventutis tuae",
+      "vulgate_rendering": "Remember your Creator in the days of your youth",
+      "tcr_rendering": "Remember your Creator in the days of your youth",
+      "theological_legacy": "Memento Creatoris tui became the standard text for youth education and catechesis in Western Christianity. Jerome's straightforward rendering established the imperative of early religious formation. The passage was quoted in virtually every Christian educational treatise.",
+      "notes": ["Some scholars have noted that the Hebrew consonantal text bor'ekha could theoretically be read as 'your well/cistern' (a euphemism for wife, as in Proverbs 5:15) or 'your grave/pit.' Jerome followed the Masoretic vocalization as bor'ekha (your Creator), which became the unchallenged Western reading. The chapter's allegory of aging that follows this verse became the most famous poetic description of old age in Western literature."]
+    },
+    {
+      "reference": "Ecclesiastes 12:8",
+      "source_text": "הֲבֵל הֲבָלִים אָמַר הַקּוֹהֶלֶת הַכֹּל הָבֶל (havel havalim amar haqqohelet hakkol havel)",
+      "vulgate_text": "vanitas vanitatum dixit Ecclesiastes et omnia vanitas",
+      "vulgate_rendering": "Vanity of vanities, said Ecclesiastes, and all things are vanity",
+      "tcr_rendering": "Breath of breaths, says the Qohelet — all is breath",
+      "theological_legacy": "The inclusio — vanitas vanitatum closing as it opened — established the rhetorical frame of the entire book. Jerome's consistent use of vanitas throughout ensured the Latin Ecclesiastes was read as a unified meditation on the worthlessness of worldly pursuits, rather than (as the Hebrew may suggest) the transient beauty of all things.",
+      "notes": ["The repetition of the opening motto creates a frame (inclusio) around the entire book. In the Hebrew, this reinforces the vapor/breath metaphor — everything is as fleeting as mist. In Jerome's Latin, it hammers home moral futility. The framing effect was crucial: Western readers encountered vanitas at start and finish, ensuring it dominated interpretation."]
+    },
+    {
+      "reference": "Ecclesiastes 12:12",
+      "source_text": "עֲשׂוֹת סְפָרִים הַרְבֵּה אֵין קֵץ וְלַהַג הַרְבֵּה יְגִעַת בָּשָׂר (asot sefarim harbeh ein qetz velahag harbeh yegi'at basar)",
+      "vulgate_text": "faciendi plures libros nullus est finis frequensque meditatio carnis adflictio est",
+      "vulgate_rendering": "Of making many books there is no end, and much study is an affliction of the flesh",
+      "tcr_rendering": "Of making many books there is no end, and much study wearies the body",
+      "theological_legacy": "Faciendi plures libros nullus est finis became the most quoted biblical verse about intellectual labor. Jerome's meditatio (study, meditation) for lahag (study, devotion) and carnis adflictio (affliction of the flesh) for yegi'at basar (weariness of flesh) gave the passage an ascetic edge — study is not merely tiring but mortifying the flesh.",
+      "notes": ["Hebrew lahag means study or devotion, and yegi'at basar means weariness or exhaustion of flesh/body. Jerome's carnis adflictio (affliction of the flesh) carries stronger ascetic connotations than simple tiredness. The verse became a favorite self-deprecating quotation among medieval scribes and scholars."]
+    },
+    {
+      "reference": "Ecclesiastes 12:13",
+      "source_text": "סוֹף דָּבָר הַכֹּל נִשְׁמָע אֶת־הָאֱלֹהִים יְרָא וְאֶת־מִצְוֺתָיו שְׁמוֹר (sof davar hakkol nishma et-ha'Elohim yera ve'et-mitzvotav shemor)",
+      "vulgate_text": "finem loquendi pariter omnes audiamus Deum time et mandata eius observa",
+      "vulgate_rendering": "Let us all hear together the conclusion of the discourse: fear God and keep his commandments",
+      "tcr_rendering": "The end of the matter — all has been heard: fear God and keep his commandments",
+      "theological_legacy": "Deum time et mandata eius observa (fear God and keep his commandments) became the orthodox key that unlocked the entire book for Western theology. Whatever Qohelet's skepticism explored, this conclusion — taken as the final editorial verdict — made the book safe for the canon. It aligned Ecclesiastes with the broader wisdom tradition's timor Domini.",
+      "notes": ["Jerome's pariter omnes audiamus (let us all hear together) adds a hortatory, communal note not in the Hebrew, which simply says 'all has been heard.' This made the conclusion feel like an appeal to the reader, a homiletic summons. The verse was essential for the book's canonical status — without this orthodox conclusion, Ecclesiastes' radical skepticism might have been judged heterodox."]
+    }
+  ]
+}

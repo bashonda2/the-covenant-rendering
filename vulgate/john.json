@@ -1,0 +1,287 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "John",
+    "tradition": "vulgate",
+    "tradition_label": "Latin Vulgate",
+    "source_text": "Biblia Sacra Vulgata (Stuttgart critical edition)",
+    "base_text": "SBL Greek New Testament (SBLGNT)",
+    "translator": "Jerome (Eusebius Sophronius Hieronymus)",
+    "date": "382-405 CE",
+    "generated_at": "2026-04-20T00:00:00Z",
+    "prompt_version": "2.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "John's Gospel in the Vulgate is the most theologically dense New Testament text for Western Christianity. Jerome's rendering of the Prologue — particularly Verbum (the Word), gratia et veritas (grace and truth), and unigenitus (only-begotten) — established the Christological vocabulary of the Latin West. The Johannine 'I AM' sayings, the farewell discourse, and the Passion narrative in Latin shaped Western theology, art, liturgy, and mysticism profoundly.",
+    "notable_renderings": "John 1:1 In principio erat Verbum (In the beginning was the Word); 1:14 Verbum caro factum est (the Word was made flesh); 3:5 nisi quis renatus fuerit ex aqua et Spiritu (born again of water and Spirit); 14:2 mansiones multae (many mansions); 14:6 ego sum via et veritas et vita (I am the way, truth, and life).",
+    "theological_legacy": "The Vulgate John gave Western theology its core Christological vocabulary (Verbum, unigenitus, lux, vita, veritas), its sacramental proof-texts (water and Spirit for baptism, bread of life for Eucharist), its Trinitarian language (Paraclete, procedit), and its mystical tradition (abide in me, I am the vine). Virtually every major Western theological controversy engaged the Latin John."
+  },
+  "renderings": [
+    {
+      "reference": "John 1:1",
+      "source_text": "Ἐν ἀρχῇ ἦν ὁ λόγος, καὶ ὁ λόγος ἦν πρὸς τὸν θεόν, καὶ θεὸς ἦν ὁ λόγος",
+      "vulgate_text": "in principio erat Verbum et Verbum erat apud Deum et Deus erat Verbum",
+      "vulgate_rendering": "In the beginning was the Word, and the Word was with God, and the Word was God",
+      "tcr_rendering": "In the beginning was the Word, and the Word was toward God, and God was the Word",
+      "theological_legacy": "In principio erat Verbum (In the beginning was the Word) — the rendering of Logos as Verbum is one of the most consequential translation choices in Western intellectual history. Logos carried the entire freight of Greek philosophy (Heraclitus, Stoics, Philo). Verbum (word, utterance) narrowed the semantic field to speech and revelation, shaping Western Christology toward Christ as God's self-expression rather than cosmic rational principle.",
+      "notes": [
+        "The Greek Logos encompasses reason, speech, cosmic order, rational principle, and divine self-expression. The Latin Verbum (word, verb) privileges the speech/utterance dimension. This choice shaped Western theology toward understanding Christ as God's spoken self-revelation rather than the immanent rational structure of the cosmos (which the Greek Stoic tradition emphasized). The Latin apud Deum (with/toward God) preserves the relational preposition pros, supporting Trinitarian theology of eternal relationship within the Godhead."
+      ]
+    },
+    {
+      "reference": "John 1:3",
+      "source_text": "πάντα δι᾽ αὐτοῦ ἐγένετο, καὶ χωρὶς αὐτοῦ ἐγένετο οὐδὲ ἕν ὃ γέγονεν",
+      "vulgate_text": "omnia per ipsum facta sunt et sine ipso factum est nihil quod factum est",
+      "vulgate_rendering": "All things were made through him, and without him was made nothing that was made",
+      "tcr_rendering": "All things came into being through him, and apart from him not one thing came into being that has come into being",
+      "theological_legacy": "Omnia per ipsum facta sunt (all things were made through him) — this verse became the primary proof-text against Arianism in the West. If all created things were made through the Word, then the Word himself cannot be a creature. The Latin per ipsum (through him) established the mediatorial role of Christ in creation, entering the doxology of the Mass (per ipsum et cum ipso et in ipso).",
+      "notes": [
+        "The Mass doxology 'per ipsum, et cum ipsum, et in ipso' (through him, with him, in him) draws directly on this Johannine-Vulgate language. The anti-Arian argument — nothing that was made was made without him, therefore he is unmade (uncreated) — was deployed by Hilary of Poitiers, Ambrose, and Augustine in the Latin West. The verse grounded Western theology of creation's absolute dependence on the divine Word."
+      ]
+    },
+    {
+      "reference": "John 1:14",
+      "source_text": "Καὶ ὁ λόγος σὰρξ ἐγένετο καὶ ἐσκήνωσεν ἐν ἡμῖν, καὶ ἐθεασάμεθα τὴν δόξαν αὐτοῦ... πλήρης χάριτος καὶ ἀληθείας",
+      "vulgate_text": "et Verbum caro factum est et habitavit in nobis et vidimus gloriam eius... plenum gratiae et veritatis",
+      "vulgate_rendering": "And the Word was made flesh and dwelt among us, and we saw his glory... full of grace and truth",
+      "tcr_rendering": "And the Word became flesh and tabernacled among us, and we gazed upon his glory... full of grace and truth",
+      "theological_legacy": "Verbum caro factum est (the Word was made flesh) — this five-word phrase is the foundational statement of the Incarnation in Western Christianity. It was recited daily in the Last Gospel of the Tridentine Mass, genuflected at in the Creed (et incarnatus est), and became the definitive anti-Docetist and anti-Gnostic formula. Habitavit in nobis (dwelt among us) loses the Greek tabernacle allusion (eskēnōsen, 'pitched his tent/tabernacle').",
+      "notes": [
+        "The Greek eskēnōsen (tabernacled) alludes to the Shekinah dwelling in the wilderness tabernacle (skēnē = tent/tabernacle). Jerome's habitavit (dwelt, inhabited) loses this allusion but gains universality — God dwells among all humanity, not only in a sacred tent. The phrase 'et incarnatus est' in the Nicene Creed is a direct theological expansion of Verbum caro factum est. The genuflection at these words in the Creed enacts the theology of divine condescension."
+      ]
+    },
+    {
+      "reference": "John 1:17",
+      "source_text": "ἡ χάρις καὶ ἡ ἀλήθεια διὰ Ἰησοῦ Χριστοῦ ἐγένετο",
+      "vulgate_text": "gratia et veritas per Iesum Christum facta est",
+      "vulgate_rendering": "Grace and truth came through Jesus Christ",
+      "tcr_rendering": "Grace and truth came through Yeshua the Anointed One",
+      "theological_legacy": "Gratia et veritas (grace and truth) — Jerome's rendering of charis kai alētheia established these as the defining characteristics of the Christian dispensation in contrast to the Mosaic law. The pairing gratia/veritas shaped the entire Western theology of grace and became a hendiadys (two words expressing one concept: 'the grace of truth' or 'true grace').",
+      "notes": [
+        "The Greek charis kai alētheia echoes the Hebrew chesed we'emet (covenant loyalty and faithfulness) from Exodus 34:6. Jerome's gratia et veritas partially preserves this connection but reframes it in Hellenistic categories. The law/grace antithesis that dominates Western soteriology (Augustine, Luther) takes its sharpest form from this verse's contrast between Moses (law) and Christ (grace and truth)."
+      ]
+    },
+    {
+      "reference": "John 1:18",
+      "source_text": "μονογενὴς θεός / μονογενὴς υἱός ὁ ὢν εἰς τὸν κόλπον τοῦ πατρός",
+      "vulgate_text": "unigenitus Filius qui est in sinu Patris",
+      "vulgate_rendering": "The only-begotten Son who is in the bosom of the Father",
+      "tcr_rendering": "The unique One, God, who is at the Father's side",
+      "theological_legacy": "Unigenitus Filius (only-begotten Son) — Jerome follows the 'Son' reading rather than the textually superior 'God' reading (monogenēs theos). Unigenitus became the defining Christological term in the Latin West, appearing in creeds, papal bulls (Unigenitus Dei Filius, 1713), and dogmatic definitions. In sinu Patris (in the bosom of the Father) shaped Western art depicting the Trinity with the Son in the Father's embrace.",
+      "notes": [
+        "The textual variant — monogenēs theos (unique God) vs. monogenēs huios (only-begotten Son) — is one of the most important in the NT. The earliest manuscripts favor 'God' but Jerome follows the 'Son' tradition. Unigenitus (only-begotten) became a technical Christological term distinguishing the Son's eternal generation from the creation of all other beings. The term gave its name to several important papal documents."
+      ]
+    },
+    {
+      "reference": "John 3:3-5",
+      "source_text": "ἐὰν μή τις γεννηθῇ ἄνωθεν... ἐὰν μή τις γεννηθῇ ἐξ ὕδατος καὶ πνεύματος",
+      "vulgate_text": "nisi quis natus fuerit denuo... nisi quis renatus fuerit ex aqua et Spiritu Sancto",
+      "vulgate_rendering": "Unless one is born again... unless one is born again of water and the Holy Spirit",
+      "tcr_rendering": "Unless someone is born from above... unless someone is born of water and Spirit",
+      "theological_legacy": "Renatus ex aqua et Spiritu (born again of water and Spirit) — this became the definitive proof-text for baptismal regeneration in Western theology. The Latin loses the Greek ambiguity of anōthen (from above / again), choosing denuo (again). The connection of water-and-Spirit birth to baptism was universally affirmed in the West and became the basis for infant baptism, baptismal necessity, and the limbo hypothesis for unbaptized infants.",
+      "notes": [
+        "The Greek anōthen means both 'from above' (spatial) and 'again' (temporal). Nicodemus misunderstands it as 'again'; Jesus means 'from above.' Jerome's denuo (again, anew) follows Nicodemus's misunderstanding rather than the spatial sense. The 'water and Spirit' verse (3:5) was universally read as referring to baptism in the Western tradition, grounding the doctrine of baptismal necessity (extra ecclesiam nulla salus via extra baptismum nulla salus)."
+      ]
+    },
+    {
+      "reference": "John 3:16",
+      "source_text": "οὕτως γὰρ ἠγάπησεν ὁ θεὸς τὸν κόσμον, ὥστε τὸν υἱὸν τὸν μονογενῆ ἔδωκεν",
+      "vulgate_text": "sic enim dilexit Deus mundum ut Filium suum unigenitum daret",
+      "vulgate_rendering": "For God so loved the world that he gave his only-begotten Son",
+      "tcr_rendering": "For God so loved the world that he gave his unique Son",
+      "theological_legacy": "Sic dilexit Deus mundum (God so loved the world) — Jerome uses dilexit (deliberate, chosen love) rather than amavit (passionate love), shaping the Western understanding of divine love as volitional rather than emotional. Unigenitum (only-begotten) reinforced the Nicene theology of eternal generation. This verse became the most quoted summary of the Gospel in Western Christianity.",
+      "notes": [
+        "The distinction between dilectio (deliberate love) and amor (passionate love) was theologically significant in the Latin West. Jerome's dilexit presents God's love as a sovereign, deliberate choice rather than an emotional response. Augustine developed this distinction extensively. The verse's summary of the Gospel — God's love, the gift of the Son, faith, eternal life — made it the most cited verse in Western evangelism and theology."
+      ]
+    },
+    {
+      "reference": "John 6:53-56",
+      "source_text": "ἐὰν μὴ φάγητε τὴν σάρκα τοῦ υἱοῦ τοῦ ἀνθρώπου καὶ πίητε αὐτοῦ τὸ αἷμα, οὐκ ἔχετε ζωὴν ἐν ἑαυτοῖς",
+      "vulgate_text": "nisi manducaveritis carnem Filii hominis et biberitis eius sanguinem non habetis vitam in vobis",
+      "vulgate_rendering": "Unless you eat the flesh of the Son of Man and drink his blood, you do not have life in yourselves",
+      "tcr_rendering": "Unless you eat the flesh of the Son of Man and drink his blood, you have no life in yourselves",
+      "theological_legacy": "Manducaveritis carnem... biberitis sanguinem (eat the flesh... drink the blood) — this passage became the primary biblical foundation for Catholic Eucharistic realism and the doctrine of transubstantiation. The graphic Latin manducare (to chew, munch) intensifies the realism of the Greek phagein (eat). It also grounded the argument for communion under both kinds (sub utraque specie).",
+      "notes": [
+        "The Latin manducare is more visceral than the standard edere (to eat) — it implies chewing, masticating. This intensified the realist reading of the Bread of Life discourse and supported the Fourth Lateran Council's (1215) definition of transubstantiation. The verse also became central to the Hussite and Reformation demand for the chalice for laity (communion under both kinds), since the text specifies both eating flesh AND drinking blood."
+      ]
+    },
+    {
+      "reference": "John 8:32",
+      "source_text": "γνώσεσθε τὴν ἀλήθειαν, καὶ ἡ ἀλήθεια ἐλευθερώσει ὑμᾶς",
+      "vulgate_text": "cognoscetis veritatem et veritas liberabit vos",
+      "vulgate_rendering": "You will know the truth, and the truth will make you free",
+      "tcr_rendering": "You will know the truth, and the truth will set you free",
+      "theological_legacy": "Veritas liberabit vos (the truth will free you) — this phrase transcended theology to become a motto of Western civilization. It is inscribed on university buildings, government institutions, and intelligence agencies worldwide. The Latin formulation shaped the Western concept of intellectual freedom as grounded in truth-seeking.",
+      "notes": [
+        "The phrase appears on the CIA headquarters, Johns Hopkins University, the University of Texas, and dozens of other institutions. In its original Johannine context, 'truth' means Christ himself (cf. 14:6). The Western appropriation universalized it into a principle of intellectual liberation through knowledge — a distinctly post-Enlightenment reading built on the Vulgate's crisp formulation."
+      ]
+    },
+    {
+      "reference": "John 10:16",
+      "source_text": "καὶ γενήσονται μία ποίμνη, εἷς ποιμήν",
+      "vulgate_text": "et fiet unum ovile et unus pastor",
+      "vulgate_rendering": "And there will be one sheepfold and one shepherd",
+      "tcr_rendering": "And they will become one flock, one shepherd",
+      "theological_legacy": "Unum ovile et unus pastor (one sheepfold and one shepherd) — Jerome renders poimnē (flock) as ovile (sheepfold/enclosure), subtly changing the metaphor from a group of sheep following one shepherd to a physical enclosure with one gate. This supported the ecclesiology of one visible institutional Church (the sheepfold) with one head (the pope as shepherd), rather than a dispersed flock unified only by following one shepherd.",
+      "notes": [
+        "The Greek distinguishes poimnē (flock, a group of sheep) from aulē (sheepfold, an enclosure). Jesus says mia poimnē (one flock) — one people following one shepherd. Jerome's ovile (sheepfold, pen) introduces an institutional, bounded concept — you must be inside the enclosure. This supported the Catholic reading of extra ecclesiam nulla salus (outside the Church no salvation) and papal claims to be the one shepherd over the one fold."
+      ]
+    },
+    {
+      "reference": "John 14:2",
+      "source_text": "ἐν τῇ οἰκίᾳ τοῦ πατρός μου μοναὶ πολλαί εἰσιν",
+      "vulgate_text": "in domo Patris mei mansiones multae sunt",
+      "vulgate_rendering": "In my Father's house there are many mansions",
+      "tcr_rendering": "In my Father's house there are many dwelling-places",
+      "theological_legacy": "Mansiones multae (many mansions) — this rendering shaped Western eschatology and popular imagination about heaven. The Greek monai (dwelling-places, resting-stops) becomes mansiones (permanent residences, large houses). This influenced the Western concept of heaven as a place of graded, permanent dwelling — different mansions for different degrees of glory — and entered English via Wycliffe and the KJV.",
+      "notes": [
+        "The Greek monē means a staying-place, a room, or a way-station on a journey. Jerome's mansio can mean either a traveler's stopping-place or a permanent mansion. The Western tradition overwhelmingly took it as permanent heavenly dwellings, creating the popular image of heaven as containing many magnificent houses. Aquinas used the 'many mansions' to support the doctrine of degrees of heavenly glory (corresponding to degrees of merit). The KJV 'many mansions' derives directly from this Vulgate tradition."
+      ]
+    },
+    {
+      "reference": "John 14:6",
+      "source_text": "ἐγώ εἰμι ἡ ὁδὸς καὶ ἡ ἀλήθεια καὶ ἡ ζωή· οὐδεὶς ἔρχεται πρὸς τὸν πατέρα εἰ μὴ δι᾽ ἐμοῦ",
+      "vulgate_text": "ego sum via et veritas et vita nemo venit ad Patrem nisi per me",
+      "vulgate_rendering": "I am the way and the truth and the life; no one comes to the Father except through me",
+      "tcr_rendering": "I am the way and the truth and the life; no one comes to the Father except through me",
+      "theological_legacy": "Ego sum via et veritas et vita (I am the way, truth, and life) — this triad became one of the most important Christological self-definitions in Western theology. Nemo venit ad Patrem nisi per me (no one comes to the Father except through me) became the foundational text for Christian exclusivism and the doctrine of the necessity of Christ for salvation.",
+      "notes": [
+        "The Latin formulation's clarity and memorability made it the primary proof-text for Christian exclusivism in the West. It was cited in every major Western statement on salvation and other religions, from Augustine through the medieval period to the 2000 Vatican declaration Dominus Iesus. The three terms — via (way), veritas (truth), vita (life) — became organizing principles for Christology, soteriology, and eschatology respectively."
+      ]
+    },
+    {
+      "reference": "John 14:16-17",
+      "source_text": "κἀγὼ ἐρωτήσω τὸν πατέρα καὶ ἄλλον παράκλητον δώσει ὑμῖν... τὸ πνεῦμα τῆς ἀληθείας",
+      "vulgate_text": "et ego rogabo Patrem et alium Paraclitum dabit vobis... Spiritum veritatis",
+      "vulgate_rendering": "And I will ask the Father and he will give you another Paraclete... the Spirit of truth",
+      "tcr_rendering": "And I will ask the Father, and he will give you another Advocate... the Spirit of truth",
+      "theological_legacy": "Paraclitum (Paraclete) — Jerome keeps the Greek paraklētos untranslated as a loanword rather than rendering it as advocatus (advocate) or consolator (comforter). This created a technical theological term in the West — the Paraclete — whose meaning encompasses advocate, comforter, helper, and intercessor without being reducible to any one English word.",
+      "notes": [
+        "The Greek paraklētos means 'one called alongside' — an advocate, helper, or intercessor. By not translating it, Jerome preserved its richness but created interpretive ambiguity. The Western tradition developed multiple readings: the Spirit as Comforter (consolation theology), Advocate (juridical theology), and Teacher (doctrinal development theology). The 'another Paraclete' (alium Paraclitum) implies Christ is the first Paraclete, shaping the Western understanding of the Spirit's relationship to Christ."
+      ]
+    },
+    {
+      "reference": "John 15:26",
+      "source_text": "τὸ πνεῦμα τῆς ἀληθείας ὃ παρὰ τοῦ πατρὸς ἐκπορεύεται",
+      "vulgate_text": "Spiritum veritatis qui a Patre procedit",
+      "vulgate_rendering": "The Spirit of truth who proceeds from the Father",
+      "tcr_rendering": "The Spirit of truth who goes forth from the Father",
+      "theological_legacy": "Qui a Patre procedit (who proceeds from the Father) — this verse is ground zero of the Filioque controversy that split Eastern and Western Christianity in 1054. The Vulgate faithfully renders the Greek (para tou patros ekporeuetai), but the Western church added 'and the Son' (Filioque) to the creed based on other Johannine texts (16:7, 20:22), using procedit as the technical term for the Spirit's eternal procession.",
+      "notes": [
+        "The Latin procedit renders Greek ekporeuetai (goes forth from, proceeds from). This became the key verb in Trinitarian theology. The East held that the Spirit proceeds from the Father alone (per this verse). The West added Filioque (and from the Son) to the Nicene Creed, arguing from John 16:7 and 20:22 that the Spirit is also sent by/proceeds from the Son. This interpolation was a primary cause of the 1054 East-West Schism and remains the chief theological obstacle to reunion."
+      ]
+    },
+    {
+      "reference": "John 16:13",
+      "source_text": "ὅταν δὲ ἔλθῃ ἐκεῖνος, τὸ πνεῦμα τῆς ἀληθείας, ὁδηγήσει ὑμᾶς ἐν τῇ ἀληθείᾳ πάσῃ",
+      "vulgate_text": "cum autem venerit ille Spiritus veritatis docebit vos omnem veritatem",
+      "vulgate_rendering": "But when he, the Spirit of truth, comes, he will teach you all truth",
+      "tcr_rendering": "But when he comes — the Spirit of truth — he will guide you into all the truth",
+      "theological_legacy": "Docebit vos omnem veritatem (he will teach you all truth) — Jerome renders hodēgēsei (guide, lead on a way) as docebit (will teach). This shift from 'guiding into truth' to 'teaching all truth' became a foundation for the Catholic doctrine of doctrinal development — the Spirit actively teaches the Church new truths over time, not merely guiding believers along a fixed path.",
+      "notes": [
+        "The Greek hodēgēsei (will guide/lead) implies accompaniment on a journey into truth. Jerome's docebit (will teach) implies authoritative instruction. This rendering supported the Western doctrine that the Church, under the Spirit's guidance, can define new dogmas (development of doctrine) — the Spirit 'teaches' truths not explicitly stated in Scripture. Newman's Development of Christian Doctrine (1845) draws on this concept."
+      ]
+    },
+    {
+      "reference": "John 19:26-27",
+      "source_text": "γύναι, ἴδε ὁ υἱός σου... ἴδε ἡ μήτηρ σου",
+      "vulgate_text": "mulier ecce filius tuus... ecce mater tua",
+      "vulgate_rendering": "Woman, behold your son... behold your mother",
+      "tcr_rendering": "Woman, look — your son!... Look — your mother!",
+      "theological_legacy": "Ecce mater tua (behold your mother) — the Western tradition interpreted this not merely as Jesus providing for Mary's physical care, but as establishing Mary as spiritual mother of all believers (represented by the Beloved Disciple). This became a foundation for Marian devotion and the title 'Mother of the Church' (Mater Ecclesiae).",
+      "notes": [
+        "The allegorical reading — Beloved Disciple represents all believers, therefore Mary is mother of all Christians — became standard in Western exegesis from Ambrose forward. This shaped the theology of Mary as Mater Ecclesiae (Mother of the Church, formally declared by Paul VI in 1964), universal intercessor, and spiritual mother. The scene also influenced Western Pietà art and the theology of Mary's co-suffering (compassio)."
+      ]
+    },
+    {
+      "reference": "John 19:30",
+      "source_text": "τετέλεσται",
+      "vulgate_text": "consummatum est",
+      "vulgate_rendering": "It is consummated/finished",
+      "tcr_rendering": "It is completed",
+      "theological_legacy": "Consummatum est (it is consummated) — Jerome's choice of consummare (to bring to completion, perfect, consummate) rather than a simpler finire (to finish) adds theological weight. The word implies perfection and fulfillment, not merely cessation. This shaped Western theology of the cross as the consummation of God's saving plan and influenced the theology of Christ's 'finished work' in both Catholic and Protestant traditions.",
+      "notes": [
+        "The Greek tetelestai (it is finished/completed/perfected) is from teleō (to bring to an end, complete, perfect). Jerome's consummatum captures the perfective sense — brought to its intended goal. The term influenced medieval theology of the Mass as the 're-presentation' of this consummated sacrifice and Protestant theology of Christ's 'finished work' requiring no supplementation by human merit."
+      ]
+    },
+    {
+      "reference": "John 20:22-23",
+      "source_text": "λάβετε πνεῦμα ἅγιον· ἄν τινων ἀφῆτε τὰς ἁμαρτίας ἀφέωνται αὐτοῖς",
+      "vulgate_text": "accipite Spiritum Sanctum quorum remiseritis peccata remittuntur eis",
+      "vulgate_rendering": "Receive the Holy Spirit; whose sins you forgive, they are forgiven them",
+      "tcr_rendering": "Receive the Holy Spirit. If you release the sins of any, they are released",
+      "theological_legacy": "Quorum remiseritis peccata remittuntur eis (whose sins you forgive, they are forgiven them) — this became the primary biblical proof-text for the sacrament of Confession/Reconciliation and the priestly power of absolution in Western Christianity. The authority to forgive sins, given by the risen Christ, was understood as transmitted through apostolic succession to ordained priests.",
+      "notes": [
+        "This verse grounded the entire Western sacrament of Penance/Reconciliation. The Council of Trent (Session 14, 1551) explicitly cited it as the institution of the sacrament of Penance by Christ. The Latin remittere (to send back, release, forgive) became the standard term for sacramental absolution. Protestant reformers argued the verse applies to the Church's proclamation of the Gospel, not to priestly absolution of individuals."
+      ]
+    },
+    {
+      "reference": "John 20:28",
+      "source_text": "ὁ κύριός μου καὶ ὁ θεός μου",
+      "vulgate_text": "Dominus meus et Deus meus",
+      "vulgate_rendering": "My Lord and my God",
+      "tcr_rendering": "My Lord and my God!",
+      "theological_legacy": "Dominus meus et Deus meus (my Lord and my God) — Thomas's confession became the climactic Christological declaration in John's Gospel and the highest christological statement in the NT. It entered Western devotion as a prayer at the elevation of the Host during Mass, connecting Thomas's recognition of the risen Christ with the Eucharistic presence.",
+      "notes": [
+        "The pairing of Dominus (Lord, kyrios) and Deus (God, theos) as titles for Jesus in Thomas's confession echoes the divine name formulations of the Latin Old Testament. In medieval Western liturgy, the priest or faithful would pray 'Dominus meus et Deus meus' at the elevation of the consecrated Host, identifying the Eucharistic Christ with the risen Lord whom Thomas touched. This devotional practice shaped Western Eucharistic piety."
+      ]
+    },
+    {
+      "reference": "John 21:15-17",
+      "source_text": "βόσκε τὰ ἀρνία μου... ποίμαινε τὰ πρόβατά μου... βόσκε τὰ πρόβατά μου",
+      "vulgate_text": "pasce agnos meos... pasce agnos meos... pasce oves meas",
+      "vulgate_rendering": "Feed my lambs... feed my lambs... feed my sheep",
+      "tcr_rendering": "Feed my lambs... Shepherd my sheep... Feed my sheep",
+      "theological_legacy": "Pasce oves meas (feed my sheep) — the threefold commission to Peter became the foundational text for papal authority in the Western church. The Latin pasce (feed, tend, pasture) was interpreted as conferring supreme pastoral jurisdiction. This passage, combined with Matthew 16:18, formed the scriptural basis for the papacy's claim to universal pastoral authority.",
+      "notes": [
+        "The Greek distinguishes between boske (feed) and poimaine (shepherd/tend), and between arnia (lambs) and probata (sheep). Jerome's Latin partially collapses these distinctions, using pasce for both verbs. The threefold commission was read as corresponding to the threefold denial — Peter's rehabilitation — and as conferring supreme pastoral authority. Vatican I cited this passage alongside Matthew 16:18 as the biblical foundation of papal primacy."
+      ]
+    },
+    {
+      "reference": "John 2:4",
+      "source_text": "τί ἐμοὶ καὶ σοί, γύναι; οὔπω ἥκει ἡ ὥρα μου",
+      "vulgate_text": "quid mihi et tibi est mulier nondum venit hora mea",
+      "vulgate_rendering": "What is it to me and to you, woman? My hour has not yet come",
+      "tcr_rendering": "What is that to me and to you, woman? My hour has not yet come",
+      "theological_legacy": "Quid mihi et tibi est mulier (what is it to me and you, woman) — this passage posed challenges for Western Mariology. Jesus's apparent rebuff of Mary was softened in Western interpretation: 'woman' was read as a title of honor (echoing the 'woman' of Genesis 3:15 and John 19:26), and the rebuff was interpreted as indicating only that Jesus acts on divine rather than human timing.",
+      "notes": [
+        "The address 'mulier' (woman) rather than 'mater' (mother) was interpreted typologically in the West: Mary is the 'new woman' (nova mulier) as Eve was the first woman. The apparent tension — Jesus seeming to refuse his mother — was resolved by Western interpreters through the theology of 'the hour' (hora): Jesus defers not to Mary's request but to the Father's timing. Notably, Mary's response assumes compliance ('do whatever he tells you'), which the tradition read as evidence of her superior faith."
+      ]
+    },
+    {
+      "reference": "John 6:44",
+      "source_text": "οὐδεὶς δύναται ἐλθεῖν πρός με ἐὰν μὴ ὁ πατὴρ ὁ πέμψας με ἑλκύσῃ αὐτόν",
+      "vulgate_text": "nemo potest venire ad me nisi Pater qui misit me traxerit eum",
+      "vulgate_rendering": "No one can come to me unless the Father who sent me draws him",
+      "tcr_rendering": "No one is able to come to me unless the Father who sent me draws him",
+      "theological_legacy": "Nisi Pater traxerit eum (unless the Father draws him) — traxerit (from trahere, to draw/drag) became central to the Western predestination debate. Augustine read the 'drawing' as irresistible grace; semi-Pelagians read it as persuasive invitation. The verb trahere (stronger than a gentle 'attract') supported the Augustinian and later Calvinist reading of efficacious, irresistible divine grace.",
+      "notes": [
+        "The Greek helkysē (draw, drag, attract) is rendered by the Latin traxerit (draw, pull, drag). The intensity of trahere — which can mean to drag forcibly — supported Augustine's doctrine of irresistible grace and predestination. The Jansenist controversy in 17th-century France and the Calvinist-Arminian debate both engaged this verse's Latin form. The question: does God 'draw' by gentle persuasion or irresistible compulsion?"
+      ]
+    },
+    {
+      "reference": "John 11:25-26",
+      "source_text": "ἐγώ εἰμι ἡ ἀνάστασις καὶ ἡ ζωή· ὁ πιστεύων εἰς ἐμὲ κἂν ἀποθάνῃ ζήσεται",
+      "vulgate_text": "ego sum resurrectio et vita qui credit in me etiam si mortuus fuerit vivet",
+      "vulgate_rendering": "I am the resurrection and the life; he who believes in me, even if he dies, will live",
+      "tcr_rendering": "I am the resurrection and the life. The one who trusts in me, even if he dies, will live",
+      "theological_legacy": "Ego sum resurrectio et vita (I am the resurrection and the life) — this declaration entered the Western funeral liturgy and shaped eschatological hope. The words are recited at the beginning of Catholic funeral rites and have been set to music in countless requiems. The identification of Christ himself with resurrection (not merely as agent of resurrection) shaped Western Christological metaphysics.",
+      "notes": [
+        "The verse's liturgical use in Western funeral rites — recited as the body enters the church — makes it one of the most frequently heard biblical texts in Western culture. The Latin formulation's clarity (ego sum resurrectio et vita) shaped the Western theology of personal eschatology: resurrection is not merely a future event but a present relationship with Christ. This influenced the Western comfort tradition in bereavement and the theology of the 'communion of saints.'"
+      ]
+    },
+    {
+      "reference": "John 19:22",
+      "source_text": "ὃ γέγραφα, γέγραφα",
+      "vulgate_text": "quod scripsi scripsi",
+      "vulgate_rendering": "What I have written, I have written",
+      "tcr_rendering": "What I have written, I have written",
+      "theological_legacy": "Quod scripsi scripsi — Pilate's terse refusal became proverbial in Latin as an expression of irrevocable decision. The phrase was also applied meta-textually to Scripture itself: what God has caused to be written stands forever.",
+      "notes": [
+        "Jerome's rendering is perfectly literal. The phrase's cultural afterlife — as a proverb for irreversibility — operates through the Latin. It was also used in debates about biblical inerrancy: what Scripture has written, it has written — it stands."
+      ]
+    }
+  ]
+}

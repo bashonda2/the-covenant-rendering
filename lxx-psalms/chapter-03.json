@@ -1,0 +1,32 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Psalms",
+    "chapter": 3,
+    "tradition": "lxx-psalms",
+    "tradition_label": "Septuagint (LXX) / Psalmoi",
+    "source_text": "Rahlfs-Hanhart, Septuaginta (Psalmoi)",
+    "base_text": "Westminster Leningrad Codex (WLC)",
+    "date": "2nd century BCE",
+    "generated_at": "2026-04-22T00:00:00Z",
+    "prompt_version": "1.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Psalm 3 is the first explicitly-Davidic psalm (superscription v. 1) and the first of thirteen psalms tied to specific David-narrative episodes — here David's flight from Absalom (2 Sam 15). The psalm is a morning lament and confidence-declaration. The 'salvation belongs to the LORD' conclusion (v. 9 MT / v. 8 English) becomes a standing biblical formula.",
+    "notable_variants": "The superscription-as-verse-1 Hebrew convention (so Hebrew 3:1 is the heading, 3:2 the first content verse, etc.); MT/LXX/English verse-number offset throughout Psalms that have superscriptions.",
+    "structural_notes": "LXX Psalm 3 has 9 verses matching Hebrew MT numbering. English versions typically drop the superscription from the verse count, so English 3:1 = Hebrew/LXX 3:2. TCR preserves MT numbering."
+  },
+  "verses": [
+    {"verse": 1, "has_variant": false, "variant_notes": ["The superscription 'Psalm of David when he fled from his son Absalom' tracks MT. In Hebrew and LXX this counts as verse 1; in most English translations it is treated as a heading outside the verse-count.", "The 2 Samuel 15–19 Absalom-rebellion narrative is the superscription's historical frame. The psalm reads Davidic-biographically."]},
+    {"verse": 2, "has_variant": false, "variant_notes": ["'Many are my enemies' opening lament tracks MT. The emphatic repetition of rabbim ('many') three times in vv. 2–3 dramatizes the overwhelming opposition."]},
+    {"verse": 3, "has_variant": false, "variant_notes": ["'No deliverance from God' enemy-speech tracks MT. The theological-taunt that God cannot save is the paradigmatic false-faith that Psalms repeatedly refute. Jesus' Matthew 27:43 ('he trusts in God; let God deliver him now, if he desires him') preserves this same enemy-psychology at the cross. 'Selah' — a liturgical-musical term of uncertain meaning — is preserved in LXX as diapsalma ('pause'/'interlude')."]},
+    {"verse": 4, "has_variant": false, "variant_notes": ["'Shield around me, glory, lifter of my head' tracks MT. The 'lifter of the head' (hypsōn tēn kephalēn mou) is the God-as-restorer-of-dignity image. The 'shield' (hyperaspistēs) language recurs in the NT-Pauline 'shield of faith' (Eph 6:16)."]},
+    {"verse": 5, "has_variant": false, "variant_notes": ["'He answers me from his holy mountain' tracks MT. The holy-mountain-as-prayer-answering-place is Zion-temple theology."]},
+    {"verse": 6, "has_variant": true, "significance": "moderate", "mt_reading": "אֲנִי שָׁכַבְתִּי וָאִישָׁנָה הֱקִיצוֹתִי כִּי יְהוָה יִסְמְכֵנִי", "lxx_reading": "ἐγὼ ἐκοιμήθην καὶ ὕπνωσα ἐξηγέρθην ὅτι κύριος ἀντιλήμψεταί μου", "mt_rendering": "I lay down and slept; I woke again, for the LORD sustains me", "variant_rendering": "I lay down and slept; I rose again, because the Lord will help me", "variant_notes": ["Patristic tradition read this verse Christologically as a prophecy of Christ's death-and-resurrection: 'I lay down and slept' (the crucifixion-and-burial); 'I rose again' (exēgerthēn — the same verb used for the resurrection). The vocabulary-accident is exegetically suggestive.", "Origen, Augustine, and later Christian liturgical tradition all deploy Psalm 3:6 as a proto-resurrection text. The 'I laid me down and slept; I awaked' became a standing Christian evening-and-morning prayer formula."]},
+    {"verse": 7, "has_variant": false, "variant_notes": ["'Tens of thousands' (myriades) enemy-confidence tracks MT."]},
+    {"verse": 8, "has_variant": false, "variant_notes": ["'Struck all my enemies on the jaw; shattered the teeth of the wicked' tracks MT. The enemy-disarming imagery becomes metaphorically-spiritualized in later tradition: the LORD silences the false-speech of the wicked."]},
+    {"verse": 9, "has_variant": true, "significance": "theological", "mt_reading": "לַיהוָה הַיְשׁוּעָה", "lxx_reading": "τοῦ κυρίου ἡ σωτηρία", "mt_rendering": "Salvation belongs to the LORD", "variant_rendering": "Salvation is the Lord's", "variant_notes": ["'Salvation belongs to the LORD' — one of the Hebrew Bible's programmatic theological statements. Jonah 2:9 (kyriou sōtēria) cites this exact phrase. Revelation 7:10 ('Salvation belongs to our God who sits on the throne, and to the Lamb,' hē sōtēria tō theō hēmōn) echoes the formula eschatologically.", "The 'sōtēria' vocabulary — the LXX's standard 'salvation' — is the NT's core soteriological category. The LXX-Psalms establish the vocabulary field."]}
+  ]
+}

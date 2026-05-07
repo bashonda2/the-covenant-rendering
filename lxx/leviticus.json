@@ -1,0 +1,212 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Leviticus",
+    "tradition": "lxx",
+    "tradition_label": "Septuagint (LXX)",
+    "source_text": "Rahlfs-Hanhart, Septuaginta (Stuttgart critical edition)",
+    "base_text": "Westminster Leningrad Codex (WLC)",
+    "translators": "Alexandrian Jewish translators (3rd c. BCE)",
+    "date": "3rd century BCE",
+    "generated_at": "2026-04-22T00:00:00Z",
+    "prompt_version": "1.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "LXX Leviticus is the source of the New Testament's sacrificial vocabulary. When the epistle to the Hebrews argues the priesthood of Christ, when Paul speaks of Christ as the hilastērion in Romans 3:25, when Luke has Jesus announce the year of the Lord's release from Leviticus 25, the Greek of Leviticus is the text being quoted. The translators chose vocabulary that Hellenistic Jews could recognize from pagan cult — thysia (sacrifice), holokautōma (whole-burnt offering), hilastērion (means of propitiation) — and thereby gave the early Christian movement a ready-made theological vocabulary that the Hebrew text alone could not have supplied.",
+    "notable_variants": "The rendering of kapporet as hilastērion (chs 16 and elsewhere) that Paul and Hebrews inherit; the depersonalization of Azazel to apopompaios (one sent away) at 16:8; the rendering of se'irim ('goat-demons') as ta mataia ('futile things/idols') at 17:7 that becomes a Pauline motif; the covenant-life formula of 18:5 quoted in Romans 10:5 and Galatians 3:12; the love command of 19:18 that Jesus names as the second greatest; and the arsenos koitē language of 20:13 that underlies the NT term arsenokoitēs.",
+    "theological_legacy": "LXX Leviticus is arguably the single most important OT book for New Testament cultic theology. Whole vocabulary-worlds of Christian soteriology — atonement, propitiation, sacrifice, priesthood, offering — are Greek-Leviticus words before they are Christian ones. Rabbinic Judaism read Leviticus in Hebrew and developed halakhic exegesis; Christian theology read it in Greek and developed sacrificial typology. The divergence between the two reading traditions begins, in part, with what the LXX translators did at the altar."
+  },
+  "renderings": [
+    {
+      "reference": "Leviticus 1:3",
+      "mt_reading": "עֹלָה",
+      "lxx_reading": "ὁλοκαύτωμα",
+      "mt_rendering": "a burnt offering",
+      "lxx_rendering": "a whole-burnt offering",
+      "significance": "moderate",
+      "notes": [
+        "Hebrew olah ('that which ascends') becomes Greek holokautōma ('whole-burnt thing') — the English 'holocaust' derives from the LXX term, not from the Hebrew. The LXX emphasizes the totality of the burning, not the ascent of the smoke.",
+        "Hebrews 10:6 quotes Psalm 40:7 using holokautōma and thysia as the Greek-Leviticus pair that Christ's self-offering transcends. The whole sacrificial vocabulary of Hebrews is LXX-Leviticus vocabulary."
+      ]
+    },
+    {
+      "reference": "Leviticus 4:20",
+      "mt_reading": "וְכִפֶּר עֲלֵהֶם הַכֹּהֵן",
+      "lxx_reading": "καὶ ἐξιλάσεται περὶ αὐτῶν ὁ ἱερεὺς",
+      "mt_rendering": "The priest shall make atonement for them",
+      "lxx_rendering": "And the priest shall make propitiation for them",
+      "significance": "theological",
+      "notes": [
+        "Hebrew kipper is consistently rendered by the Greek exilaskomai and its cognates throughout LXX Leviticus. The verb supplies the root for the NT nouns hilastērion (Rom 3:25, Heb 9:5) and hilasmos (1 John 2:2, 4:10).",
+        "The LXX's choice to render kipper with a Greek verb from the -hilask- family rather than with a cleansing verb (katharizō) or a covering verb (kalyptō) shaped all subsequent Christian atonement language. English 'propitiate' and 'expiate' both trace back to this LXX decision."
+      ]
+    },
+    {
+      "reference": "Leviticus 10:1",
+      "mt_reading": "אֵשׁ זָרָה",
+      "lxx_reading": "πῦρ ἀλλότριον",
+      "mt_rendering": "unauthorized fire",
+      "lxx_rendering": "foreign fire",
+      "significance": "minor",
+      "notes": [
+        "Hebrew esh zarah (lit. 'strange fire') is rendered as pyr allotrion ('foreign/alien fire'). The LXX preserves the literal sense; TCR renders interpretively ('unauthorized') to capture the legal-cultic judgment.",
+        "Allotrios in LXX and NT frequently marks what is not-one's-own, not-native, alien — a word with strong boundary-marking force that aligns the Nadab and Abihu narrative with the purity-boundary theology of the rest of Leviticus."
+      ]
+    },
+    {
+      "reference": "Leviticus 11:7",
+      "mt_reading": "וְאֶת־הַחֲזִיר",
+      "lxx_reading": "καὶ τὸν ὗν",
+      "mt_rendering": "The pig",
+      "lxx_rendering": "and the swine",
+      "significance": "minor",
+      "notes": [
+        "Hebrew chazir is rendered as hys (classical Greek for 'swine, pig'). The cognate choiros is the word used in the Gospels for pigs (Matt 7:6, Mark 5:11–13, Luke 15:15–16).",
+        "The LXX's clean/unclean vocabulary for animals (katharos / akathartos) is the vocabulary that Peter hears at Joppa in Acts 10:14, where he protests he has never eaten 'anything koinon or akatharton.' The whole scene presupposes Greek-Leviticus."
+      ]
+    },
+    {
+      "reference": "Leviticus 16:8",
+      "mt_reading": "לַעֲזָאזֵל",
+      "lxx_reading": "τῷ ἀποπομπαίῳ",
+      "mt_rendering": "for Azazel",
+      "lxx_rendering": "for the one sent away",
+      "significance": "theological",
+      "notes": [
+        "The LXX translators refused to treat Azazel as a proper name. They resolved the ambiguity by rendering apopompaios ('the one sent away,' 'the averter'), presenting the goat as a ritual function rather than a demonic figure.",
+        "This depersonalizing move hid the Azazel-demon reading — alive in Second Temple literature such as 1 Enoch and the Apocalypse of Abraham — from Greek-reading Jews and early Christians. The Vulgate followed the LXX's lead with caper emissarius, source of the English 'scapegoat.'",
+        "Hebrews 13:11–13 draws on the scapegoat typology for Christ suffering 'outside the camp.' It reads Leviticus 16 through the Greek apopompaios function, not through the Hebrew Azazel persona."
+      ]
+    },
+    {
+      "reference": "Leviticus 16:15 (kapporet throughout)",
+      "mt_reading": "הַכַּפֹּרֶת",
+      "lxx_reading": "τὸ ἱλαστήριον",
+      "mt_rendering": "the atonement cover",
+      "lxx_rendering": "the means of propitiation / the mercy seat",
+      "significance": "theological",
+      "notes": [
+        "Hebrew kapporet denotes the gold cover of the ark where atoning blood was sprinkled on Yom Kippur. The LXX renders it with a single word — hilastērion — that was not previously a standard Greek term and which the translators may have effectively coined in this cultic sense.",
+        "Romans 3:25 calls Christ a hilastērion 'through faith in his blood.' The typology is unmistakable in Greek: Christ is the place where blood makes atonement. Hebrews 9:5 names the kapporet explicitly as hilastērion. These foundational NT texts depend on the LXX rendering, not on the Hebrew.",
+        "English translations have wrestled with hilastērion as 'mercy seat' (Tyndale, following Luther's Gnadenstuhl), 'propitiation' (KJV in Romans 3), or 'sacrifice of atonement' (modern translations) — all reflecting the difficulty of carrying one Greek word into English."
+      ]
+    },
+    {
+      "reference": "Leviticus 17:7",
+      "mt_reading": "לַשְּׂעִירִם",
+      "lxx_reading": "τοῖς ματαίοις",
+      "mt_rendering": "to the goat-demons",
+      "lxx_rendering": "to the futile things",
+      "significance": "theological",
+      "notes": [
+        "Hebrew se'irim ('hairy ones') refers to goat-shaped wilderness demons worshipped as deities (see Isa 13:21, 34:14). The LXX refuses to concede their reality as demons and renders ta mataia — 'empty/futile/vain things' — the standard LXX polemical term for idols (compare 1 Kgs 16:13, 16:26; Jer 2:5).",
+        "The ta mataia language carries directly into the NT's Gentile-idolatry polemic. Acts 14:15 has Paul and Barnabas urging the Lystrans to turn 'from these vain things' (apo toutōn tōn mataiōn) to the living God — the exact LXX-Leviticus phrase.",
+        "Paul's argument in 1 Corinthians 10:19–20 — that behind the 'nothings' of idols stand real demons — is negotiating precisely this LXX choice. The LXX demythologized; Paul re-demonized, while keeping the LXX vocabulary of mataia for the idol-objects themselves."
+      ]
+    },
+    {
+      "reference": "Leviticus 17:11",
+      "mt_reading": "כִּי נֶפֶשׁ הַבָּשָׂר בַּדָּם הִוא",
+      "lxx_reading": "ἡ γὰρ ψυχὴ πάσης σαρκὸς αἷμα αὐτοῦ ἐστιν",
+      "mt_rendering": "For the life of the flesh is in the blood",
+      "lxx_rendering": "For the life of all flesh — its blood is it",
+      "significance": "theological",
+      "notes": [
+        "The LXX adds pasēs ('all') before 'flesh' — 'the life of all flesh' — and renders the predicate differently: the blood simply IS the life, rather than the life being IN the blood. A subtle but consequential shift toward blood-equivalence theology.",
+        "Hebrews 9:22 — 'without the shedding of blood there is no forgiveness' — builds its argument on the LXX framing. The book's entire hematology presupposes the Greek's stronger identification of life with blood.",
+        "LXX Leviticus 17:11 is one of the texts that reshaped Jewish and early Christian understandings of why blood — not ash, not water, not fire — atones."
+      ]
+    },
+    {
+      "reference": "Leviticus 18:5",
+      "mt_reading": "אֲשֶׁר יַעֲשֶׂה אֹתָם הָאָדָם וָחַי בָּהֶם",
+      "lxx_reading": "ἃ ποιήσας ἄνθρωπος ζήσεται ἐν αὐτοῖς",
+      "mt_rendering": "the person who does them shall live by them",
+      "lxx_rendering": "which the person who does them shall live by them",
+      "significance": "theological",
+      "notes": [
+        "The LXX preserves the core covenant-life formula nearly verbatim. Its exact wording — ho poiēsas auta anthrōpos zēsetai en autois — is what Paul quotes in Romans 10:5 and Galatians 3:12 when he contrasts 'the righteousness that is by law' with 'the righteousness that is by faith.'",
+        "Paul's polemical use of Leviticus 18:5 is only legible if you hear the LXX Greek behind him. He is quoting Greek Leviticus against Greek Leviticus readers who would recognize the verse as a covenant promise, and using it to argue that the law-keeping path to life is not in fact open.",
+        "The rabbinic tradition hears the same verse positively — 'he shall live by them, and not die by them' (b. Yoma 85b) — as warrant for overriding commandments when life is at stake. The same verse anchors opposite theological moves in the two traditions."
+      ]
+    },
+    {
+      "reference": "Leviticus 19:18",
+      "mt_reading": "וְאָהַבְתָּ לְרֵעֲךָ כָּמוֹךָ",
+      "lxx_reading": "καὶ ἀγαπήσεις τὸν πλησίον σου ὡς σεαυτόν",
+      "mt_rendering": "you shall love your neighbor as yourself",
+      "lxx_rendering": "and you shall love your neighbor as yourself",
+      "significance": "theological",
+      "notes": [
+        "The LXX's rendering of the second great commandment is quoted verbatim by Jesus (Matt 22:39, Mark 12:31, Luke 10:27), by Paul (Rom 13:9, Gal 5:14), and by James (Jas 2:8). Every New Testament citation uses this exact Greek wording.",
+        "The choice of plēsion ('near one, neighbor') rather than a word like philos ('friend') or adelphos ('brother') keeps the Hebrew rea's breadth. Luke 10:29 ('and who is my neighbor?') turns precisely on the scope of plēsion.",
+        "The first great commandment (Deut 6:5, cited in tandem in the Synoptics) likewise depends on LXX vocabulary. The two-command summary of the Torah that stands at the center of Jesus' ethical teaching is, in its citation form, Greek-Pentateuch language."
+      ]
+    },
+    {
+      "reference": "Leviticus 20:13",
+      "mt_reading": "וְאִישׁ אֲשֶׁר יִשְׁכַּב אֶת־זָכָר מִשְׁכְּבֵי אִשָּׁה",
+      "lxx_reading": "καὶ ὃς ἂν κοιμηθῇ μετὰ ἄρσενος κοίτην γυναικός",
+      "mt_rendering": "If a man lies with a male as one lies with a woman",
+      "lxx_rendering": "And whoever lies with a male in the bed of a woman",
+      "significance": "theological",
+      "notes": [
+        "The LXX pairs arsen ('male') and koitē ('bed, sexual intercourse') in close collocation. Paul's term arsenokoitēs (1 Cor 6:9, 1 Tim 1:10) appears to be coined from this LXX phrasing — the word is otherwise unattested in Greek before Paul and is almost certainly a Septuagintism.",
+        "Leviticus 18:22 produces the same collocation (arsenos koitēn gynaikos) and is the second likely source. The fact that Paul's neologism fuses exactly the two LXX roots that co-occur only in the Holiness Code prohibitions makes the Septuagint dependency clear.",
+        "Any modern scholarly argument about the meaning of arsenokoitēs that does not engage LXX Leviticus is missing the term's linguistic origin."
+      ]
+    },
+    {
+      "reference": "Leviticus 23:5",
+      "mt_reading": "פֶּסַח לַיהוָה",
+      "lxx_reading": "πασχα κυρίῳ",
+      "mt_rendering": "the LORD's Passover",
+      "lxx_rendering": "a Pascha to the Lord",
+      "significance": "moderate",
+      "notes": [
+        "Hebrew pesach is transliterated, not translated — giving Greek (and thence Latin, then most European languages) the word pascha. English 'paschal' and the Greek Orthodox 'Pascha' for Easter both derive from this LXX transliteration.",
+        "The LXX's decision to transliterate rather than interpret (as 'the Passing-over' or 'the Sparing') preserved pesach as a liturgical term with an irreducibly Jewish provenance even in Greek and Latin Christian usage. The NT's consistent pascha (1 Cor 5:7, John 6:4, etc.) inherits this choice."
+      ]
+    },
+    {
+      "reference": "Leviticus 25:10",
+      "mt_reading": "וּקְרָאתֶם דְּרוֹר בָּאָרֶץ",
+      "lxx_reading": "καὶ διαβοήσετε ἄφεσιν ἐπὶ τῆς γῆς",
+      "mt_rendering": "proclaim release throughout the land",
+      "lxx_rendering": "and you shall proclaim a release upon the land",
+      "significance": "theological",
+      "notes": [
+        "Hebrew deror ('release, liberty') is rendered as aphesis — the Greek noun for release, remission, forgiveness. Aphesis is the single LXX word that underlies the NT's theology of forgiveness (aphesis hamartiōn, 'release of sins').",
+        "Isaiah 61:1–2 uses the same LXX aphesis vocabulary — 'to proclaim release to the captives' — and it is that Isaiah text, in its LXX form, that Jesus reads in Luke 4:18–19 to inaugurate his ministry. The Jubilee-release-forgiveness semantic chain runs: LXX Leviticus 25 → LXX Isaiah 61 → Luke 4.",
+        "The Liberty Bell inscription — 'Proclaim liberty throughout all the land' — is from Leviticus 25:10 in KJV English, which at this point substantially follows the Vulgate's libertas, which follows the LXX's aphesis. The whole chain of transmission is Greek-dependent."
+      ]
+    },
+    {
+      "reference": "Leviticus 26:12",
+      "mt_reading": "וְהִתְהַלַּכְתִּי בְּתוֹכְכֶם",
+      "lxx_reading": "καὶ ἐμπεριπατήσω ἐν ὑμῖν",
+      "mt_rendering": "I will walk among you",
+      "lxx_rendering": "And I will walk about among you",
+      "significance": "major",
+      "notes": [
+        "2 Corinthians 6:16 quotes this verse verbatim in its LXX form — 'I will dwell among them and walk among them, and I will be their God, and they shall be my people' — as a proof-text for the church as the new temple.",
+        "Paul's composite quotation in 2 Corinthians 6:16–18 strings together four or five LXX texts (Lev 26:12, Isa 52:11, Ezek 20:34, 2 Sam 7:14, Isa 43:6). Every one is cited in LXX form; the argument collapses without that textual base."
+      ]
+    },
+    {
+      "reference": "Leviticus 26:41",
+      "mt_reading": "לְבָבָם הֶעָרֵל",
+      "lxx_reading": "ἡ καρδία αὐτῶν ἡ ἀπερίτμητος",
+      "mt_rendering": "their uncircumcised heart",
+      "lxx_rendering": "their uncircumcised heart",
+      "significance": "theological",
+      "notes": [
+        "The LXX coinage kardia aperitmētos ('uncircumcised heart') translates a distinctly Hebrew concept into Greek in a way that preserved the shock of the image. 'Uncircumcised ears and hearts' was not available vocabulary in classical Greek; the LXX made it so.",
+        "Stephen's climactic accusation in Acts 7:51 — 'you stiff-necked people, uncircumcised in heart and ears' (aperitmētoi kardiais kai tois ōsin) — directly echoes the LXX idiom. The phrase also appears in Jeremiah 9:25 LXX (the nations and Israel's uncircumcised hearts) and Romans 2:29 (true circumcision 'of the heart').",
+        "This is a case where the LXX faithfully carried a Hebrew metaphor into Greek and thereby made it available for the New Testament's ecclesiology of the 'true Jew' whose circumcision is inward."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,448 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "1 Maccabees",
+    "chapter": 3,
+    "tradition": "vulgate",
+    "tradition_label": "Latin Vulgate (Deuterocanonical)",
+    "source_text": "Biblia Sacra Vulgata (Stuttgart critical edition)",
+    "translator": "Jerome",
+    "date": "c. 405 CE",
+    "canon": ["catholic", "orthodox", "ethiopian"],
+    "generated_at": "2026-04-20T00:00:00Z",
+    "prompt_version": "2.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Chapter 3 introduces Judas Maccabeus as military commander with a hero's hymn (vv. 3-9), then narrates his first major victories against Apollonius and Seron. When Antiochus learns of these defeats, he dispatches a massive army under Lysias. The chapter climaxes with Judas rallying his outnumbered forces at Mizpah through prayer, fasting, and trust in God rather than numbers.",
+    "remarkable": "The poem praising Judas (vv. 3-9) is one of the finest hero hymns in biblical literature, deliberately evoking the Song of Deborah and David's laments. Judas takes Apollonius's sword and fights with it 'all the days of his life' (v. 12) — a detail recalling David and Goliath's sword.",
+    "friction": "The Seleucid army's plan to sell captured Jews as slaves (v. 41) with merchants already accompanying the army reveals the economic dimension of the persecution — this was not merely religious but deeply profitable for the empire.",
+    "connections": "The Mizpah assembly (vv. 46-60) deliberately echoes earlier Mizpah gatherings in Judges 20:1 and 1 Samuel 7:5-6. Judas's speech about God's ability to save by many or by few (v. 18-19) directly echoes Jonathan's words in 1 Samuel 14:6. The slave traders following the army parallels Joel 3:3."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_latin": "et surrexit Iudas qui vocabatur Macchabaeus filius eius pro eo",
+      "rendering": "Then Judas, who was called Maccabeus, his son, rose up in his place.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 2,
+      "text_latin": "et adiuvabant eum omnes fratres eius et universi qui se coniunxerant patri eius et proeliabantur proelium Israhel cum laetitia",
+      "rendering": "All his brothers supported him, along with all who had joined his father, and they fought the battle of Israel with gladness.",
+      "translator_notes": [],
+      "key_terms": [{"latin": "proelium Israhel", "rendered_as": "battle of Israel", "note": "Frames the guerrilla war as a national-religious cause, not a family vendetta"}]
+    },
+    {
+      "verse": 3,
+      "text_latin": "et dilatavit gloriam populo suo et induit se loricam sicut gigas et succinxit se arma bellica sua et proelia protegebat castra gladio suo",
+      "rendering": "He spread glory to his people. He put on his breastplate like a giant, girded on his weapons of war, and shielded his camp, waging battles with his sword.",
+      "translator_notes": ["This begins the hero hymn for Judas (vv. 3-9), one of the most elaborate praise poems in Maccabean literature."],
+      "key_terms": [{"latin": "loricam", "rendered_as": "breastplate", "note": "Lorica — body armor; the image of Judas as a giant warrior echoes the 'mighty men' traditions of 2 Samuel 23"}]
+    },
+    {
+      "verse": 4,
+      "text_latin": "similis factus est leoni in operibus suis et sicut catulus leonis rugiens in venatione",
+      "rendering": "He was like a lion in his deeds, like a young lion roaring over its prey.",
+      "translator_notes": ["The lion simile connects Judas to the tribe of Judah (Genesis 49:9) and to David's lion-killing valor (1 Samuel 17:34-36)."],
+      "key_terms": [{"latin": "leo", "rendered_as": "lion", "note": "Royal and tribal symbol; connects Judas to the Judahite lion of Genesis 49:9"}]
+    },
+    {
+      "verse": 5,
+      "text_latin": "et persecutus est iniquos perscrutans eos et qui conturbabant populum suum eos succendit flammis",
+      "rendering": "He pursued the lawless, hunting them down, and those who troubled his people he burned with fire.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 6,
+      "text_latin": "et repulsi sunt iniqui prae timore eius et omnes operarii iniquitatis conturbati sunt et prosperata est salus in manu eius",
+      "rendering": "The lawless shrank back in fear of him; all workers of iniquity were thrown into confusion, and deliverance prospered in his hand.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 7,
+      "text_latin": "et exacerbabat reges multos et laetificabat Iacob in operibus suis et in saeculum memoria eius in benedictione",
+      "rendering": "He embittered many kings but made Jacob glad by his deeds, and his memory is blessed forever.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 8,
+      "text_latin": "et perambulavit civitates Iuda et perdidit impios ex eis et avertit iram ab Israhel",
+      "rendering": "He went through the cities of Judah and destroyed the ungodly from them, and turned away wrath from Israel.",
+      "translator_notes": ["'Avertit iram' — turned away wrath — presents Judas's military action as having atoning significance, turning away divine anger as a priest turns away wrath through sacrifice."],
+      "key_terms": [{"latin": "avertit iram", "rendered_as": "turned away wrath", "note": "Priestly-atoning language applied to military action; echoes Phinehas in Numbers 25:11"}]
+    },
+    {
+      "verse": 9,
+      "text_latin": "et nominatus est usque ad novissimum terrae et congregavit pereuntes",
+      "rendering": "He was renowned to the ends of the earth, and he gathered those who were perishing.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 10,
+      "text_latin": "et congregavit Apollonius gentes et a Samaria virtutem multam et magnam ad bellandum contra Israhel",
+      "rendering": "Then Apollonius gathered the nations together with a large and powerful force from Samaria to wage war against Israel.",
+      "translator_notes": ["This Apollonius is likely the governor of Samaria, not the tax collector of 1:30."],
+      "key_terms": [{"latin": "Apollonius", "rendered_as": "Apollonius", "note": "Seleucid governor of Samaria; the first named military opponent Judas faces"}]
+    },
+    {
+      "verse": 11,
+      "text_latin": "et cognovit Iudas et exiit obviam illi et percussit et occidit illum et ceciderunt vulnerati multi et reliqui fugerunt",
+      "rendering": "Judas learned of it and marched out to meet him. He struck him down and killed him; many fell wounded, and the rest fled.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 12,
+      "text_latin": "et accepit spolia eorum et gladium Apollonii abstulit Iudas et erat pugnans in eo omnibus diebus",
+      "rendering": "They took their spoils, and Judas took the sword of Apollonius and fought with it all the rest of his days.",
+      "translator_notes": ["Taking and using the enemy commander's sword echoes David's use of Goliath's sword (1 Samuel 21:9) — a trophy weapon symbolizing divinely-aided victory over a superior foe."],
+      "key_terms": [{"latin": "gladium Apollonii", "rendered_as": "sword of Apollonius", "note": "Trophy weapon recalling David and Goliath; becomes Judas's signature weapon"}]
+    },
+    {
+      "verse": 13,
+      "text_latin": "et audivit Seron princeps exercitus Syriae quod congregavit Iudas congregationem fidelium et ecclesiam secum",
+      "rendering": "When Seron, commander of the Syrian army, heard that Judas had gathered a company of the faithful and an assembly around him,",
+      "translator_notes": [],
+      "key_terms": [{"latin": "Seron", "rendered_as": "Seron", "note": "Commander of the Seleucid forces in Coele-Syria; the second military opponent"}]
+    },
+    {
+      "verse": 14,
+      "text_latin": "ait faciam mihi nomen et glorificabor in regno et debellabo Iudam et eos qui cum illo sunt qui spernunt verbum regis",
+      "rendering": "he said: 'I will make a name for myself and win glory in the kingdom. I will fight Judas and those with him who despise the king's command.'",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 15,
+      "text_latin": "et praeparavit se et ascenderunt cum eo castra impiorum fortes auxiliarii ut faceret vindictam in filios Israhel",
+      "rendering": "He prepared himself, and a strong force of ungodly men went up with him as allies, to take vengeance on the sons of Israel.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 16,
+      "text_latin": "et adpropinquaverunt usque ad ascensum Bethoron et exivit Iudas obviam illi cum paucis",
+      "rendering": "They advanced as far as the ascent of Beth-horon, and Judas went out to meet him with only a few men.",
+      "translator_notes": ["Beth-horon controlled the main pass from the coastal plain up to Jerusalem. It was the site of Joshua's famous battle (Joshua 10:10) — another deliberate historical echo."],
+      "key_terms": [{"latin": "Bethoron", "rendered_as": "Beth-horon", "note": "Strategic pass northwest of Jerusalem; site of Joshua's victory (Joshua 10:10) — the geographical echo is deliberate"}]
+    },
+    {
+      "verse": 17,
+      "text_latin": "ut autem viderunt exercitum venientem sibi obviam dixerunt Iudae quomodo poterimus pauci pugnare contra multitudinem tantam et fortem et nos fatigati sumus ieiunio hodie",
+      "rendering": "But when they saw the army coming to meet them, they said to Judas: 'How can we, so few, fight against so great and strong a multitude? And we are faint from fasting today.'",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 18,
+      "text_latin": "et ait Iudas facile est concludi multos in manus paucorum et non est differentia in conspectu Dei caeli liberare in multis et in paucis",
+      "rendering": "But Judas said: 'It is easy for many to be hemmed in by few, and in the sight of the God of heaven there is no difference between saving by many or by few.'",
+      "translator_notes": ["This directly echoes Jonathan's words in 1 Samuel 14:6: 'Nothing can hinder the LORD from saving by many or by few.' Judas claims the same divine principle for his revolt."],
+      "key_terms": [{"latin": "Dei caeli", "rendered_as": "God of heaven", "note": "A title emphasizing God's universal sovereignty over all earthly powers — common in Second Temple literature"}]
+    },
+    {
+      "verse": 19,
+      "text_latin": "quoniam non in multitudine exercitus victoria belli sed de caelo fortitudo est",
+      "rendering": "For victory in battle does not depend on the size of the army, but strength comes from Heaven.",
+      "translator_notes": ["This theological principle — that divine aid, not military numbers, determines outcomes — is the core military theology of the book."],
+      "key_terms": [{"latin": "de caelo fortitudo", "rendered_as": "strength comes from Heaven", "note": "The foundational military theology of the Maccabean revolt — divine empowerment overcomes numerical disadvantage"}]
+    },
+    {
+      "verse": 20,
+      "text_latin": "ipsi veniunt ad nos in multitudine contumaci et superbia ut disperdant nos et uxores nostras et filios nostros et ut spolient nos",
+      "rendering": "They come against us with an insolent and arrogant multitude to destroy us and our wives and children, and to plunder us.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 21,
+      "text_latin": "nos vero pugnabimus pro animabus nostris et legibus nostris",
+      "rendering": "But we fight for our lives and our laws.",
+      "translator_notes": [],
+      "key_terms": [{"latin": "pro animabus nostris et legibus nostris", "rendered_as": "for our lives and our laws", "note": "The dual motivation — survival and Torah — characterizes the revolt as both defensive and covenantal"}]
+    },
+    {
+      "verse": 22,
+      "text_latin": "et ipse Dominus conteret eos ante faciem nostram vos autem ne timueritis eos",
+      "rendering": "The Lord himself will crush them before our face. As for you — do not fear them!",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 23,
+      "text_latin": "ut cessavit autem loqui insiluit in eos subito et contritus est Seron et exercitus eius in conspectu ipsius",
+      "rendering": "As soon as he finished speaking, he rushed upon them suddenly, and Seron and his army were crushed before him.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 24,
+      "text_latin": "et persecuti sunt eum in descensu Bethoron usque in campum et ceciderunt ex eis octingenti viri reliqui autem fugerunt in terram Philisthiim",
+      "rendering": "They pursued him down the descent of Beth-horon to the plain. Eight hundred of his men fell, and the rest fled into the land of the Philistines.",
+      "translator_notes": ["The flight 'into the land of the Philistines' (the coastal plain) means total rout — the survivors ran all the way to the lowlands."],
+      "key_terms": []
+    },
+    {
+      "verse": 25,
+      "text_latin": "et cecidit timor Iudae ac fratrum eius et formido super omnes gentes in circuitu eorum",
+      "rendering": "The dread of Judas and his brothers fell upon all the surrounding nations, and fear of them spread everywhere.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 26,
+      "text_latin": "et pervenit ad regem nomen eius et de proeliis Iudae narrabant omnes gentes",
+      "rendering": "His name reached the king, and all nations were talking about the battles of Judas.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 27,
+      "text_latin": "ut audivit autem rex Antiochus sermones istos iratus est animo et misit et congregavit exercitum universi regni sui castra fortia valde",
+      "rendering": "When King Antiochus heard these reports, he was enraged, and he sent and gathered the army of his entire kingdom — an exceedingly powerful force.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 28,
+      "text_latin": "et aperuit aerarium suum et dedit stipendia exercitui in annum et mandavit illis ut essent parati ad omnia",
+      "rendering": "He opened his treasury, gave his forces a year's pay, and ordered them to be ready for anything.",
+      "translator_notes": ["A year's advance pay was extraordinary and signals both the seriousness of the threat Judas posed and the strain on Seleucid finances."],
+      "key_terms": [{"latin": "aerarium", "rendered_as": "treasury", "note": "The royal treasury; Antiochus's financial problems become a recurring theme and eventually force him eastward"}]
+    },
+    {
+      "verse": 29,
+      "text_latin": "et vidit quod defecit pecunia de thesauris suis et tributa regionis modica propter dissensionem et plagam quam fecit in terra ut tolleret legitima quae erant a primis diebus",
+      "rendering": "But he saw that the money in his treasuries was running out, and that the revenues from the region were small because of the dissension and devastation he had caused in the land by abolishing the laws that had been in effect from the earliest days.",
+      "translator_notes": ["A remarkable admission: the persecution itself was economically self-defeating. By disrupting Judean society, Antiochus destroyed his own tax base."],
+      "key_terms": []
+    },
+    {
+      "verse": 30,
+      "text_latin": "et timuit ne non haberet ut semel et bis in sumptus et donaria quae dederat ante larga manu et abundaverat super reges qui ante eum fuerant",
+      "rendering": "He feared he would not have enough, as he had before, for expenses and the gifts he had distributed with a lavish hand — for he had been more extravagant than all the kings before him.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 31,
+      "text_latin": "et consternatus erat animo valde et cogitavit ire in Persidem et accipere tributa regionum et congregare argentum multum",
+      "rendering": "He was greatly distressed in his mind and resolved to go to Persia to collect the tributes of those regions and gather a large sum of silver.",
+      "translator_notes": ["Antiochus's eastward expedition to raise funds — which would prove fatal — is motivated by the financial crisis his own persecution created."],
+      "key_terms": []
+    },
+    {
+      "verse": 32,
+      "text_latin": "et reliquit Lysiam hominem nobilem de genere regali super negotia regis a flumine Eufraten usque ad flumen Aegypti",
+      "rendering": "He left Lysias, a nobleman of royal lineage, in charge of the king's affairs from the Euphrates River to the border of Egypt.",
+      "translator_notes": [],
+      "key_terms": [{"latin": "Lysiam", "rendered_as": "Lysias", "note": "The regent appointed over the western half of the empire; becomes a major figure in the narrative"}]
+    },
+    {
+      "verse": 33,
+      "text_latin": "et ut nutriret Antiochum filium suum donec rediret",
+      "rendering": "He also entrusted the upbringing of his son Antiochus until he returned.",
+      "translator_notes": ["This is the young Antiochus V Eupator, who would briefly succeed his father."],
+      "key_terms": []
+    },
+    {
+      "verse": 34,
+      "text_latin": "et tradidit ei dimidium exercitum et elephantos et mandavit ei de omnibus quae volebat et de inhabitantibus Iudaeam et Hierusalem",
+      "rendering": "He handed over to him half the army and the elephants, and gave him orders concerning everything he wanted done — and concerning the inhabitants of Judea and Jerusalem:",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 35,
+      "text_latin": "ut mitteret ad eos exercitum ad conterendam et extirpandam virtutem Israhel et reliquias Hierusalem et auferendam memoriam eorum de loco",
+      "rendering": "he was to send an army against them to crush and uproot the strength of Israel and the remnant of Jerusalem, and to wipe out their memory from the place.",
+      "translator_notes": ["'Auferendam memoriam' — wiping out their memory — is the language of total annihilation, echoing Deuteronomy 25:19 and Esther's threatened genocide."],
+      "key_terms": [{"latin": "extirpandam", "rendered_as": "uproot", "note": "Agricultural metaphor for total destruction — pulling up by the roots so nothing can regrow"}]
+    },
+    {
+      "verse": 36,
+      "text_latin": "et ut constitueret habitatores filios alienigenas in omnibus finibus eorum et sorte distribueret terram eorum",
+      "rendering": "He was to settle foreigners in all their territories and distribute their land by lot.",
+      "translator_notes": ["Settlement of foreign colonists and redistribution of land — ethnic cleansing through population replacement."],
+      "key_terms": []
+    },
+    {
+      "verse": 37,
+      "text_latin": "et rex adsumpsit dimidium exercitus residuum et profectus est ab Antiochia civitate regni sui anno centesimo et quadragesimo septimo et transfretavit Eufraten flumen et perambulabat superiores regiones",
+      "rendering": "The king took the remaining half of the army and set out from Antioch, his royal city, in the one hundred and forty-seventh year. He crossed the Euphrates River and marched through the upper provinces.",
+      "translator_notes": ["Year 147 of the Seleucid era = 165 BCE. Antioch (modern Antakya, Turkey) was the Seleucid capital."],
+      "key_terms": []
+    },
+    {
+      "verse": 38,
+      "text_latin": "et elegit Lysias Ptolomaeum filium Dorymini et Nicanorem et Gorgiam viros potentes ex amicis regis",
+      "rendering": "Lysias chose Ptolemy son of Dorymenes, Nicanor, and Gorgias — powerful men among the Friends of the King.",
+      "translator_notes": [],
+      "key_terms": [
+        {"latin": "Nicanorem", "rendered_as": "Nicanor", "note": "Seleucid general who will feature prominently in chapter 7; his death becomes a Jewish festival day"},
+        {"latin": "Gorgiam", "rendered_as": "Gorgias", "note": "Experienced Seleucid military commander; leads the flanking maneuver in chapter 4"}
+      ]
+    },
+    {
+      "verse": 39,
+      "text_latin": "et misit cum eis quadraginta milia virorum et septem milia equitum ut venirent in terram Iuda et disperderent eam secundum verbum regis",
+      "rendering": "He sent with them forty thousand infantry and seven thousand cavalry to invade the land of Judah and destroy it according to the king's command.",
+      "translator_notes": ["Forty-seven thousand troops against Judas's small guerrilla force — the disparity underscores the theological point about divine deliverance."],
+      "key_terms": []
+    },
+    {
+      "verse": 40,
+      "text_latin": "et processerunt cum universa virtute sua et venerunt et adplicuerunt Ammaum in terra campestri",
+      "rendering": "They set out with their entire force and came and encamped near Emmaus in the lowland.",
+      "translator_notes": [],
+      "key_terms": [{"latin": "Ammaum", "rendered_as": "Emmaus", "note": "Strategic location in the Judean foothills, controlling access to the highlands; site of the decisive battle in chapter 4"}]
+    },
+    {
+      "verse": 41,
+      "text_latin": "et audierunt mercatores regionum nomen eorum et acceperunt argentum et aurum multum valde et pueros et venerunt in castra ut acciperent filios Israhel in servos et additi sunt ad eos exercitus Syriae et terrae alienigenarum",
+      "rendering": "When the merchants of the region heard their fame, they took a great quantity of silver and gold, along with fetters, and came to the camp to buy the Israelites as slaves. Forces from Syria and the land of the foreigners also joined them.",
+      "translator_notes": ["The arrival of slave merchants with the army — carrying fetters and purchase money — reveals the economic machinery of conquest. They expected to buy Jewish prisoners at wholesale prices."],
+      "key_terms": [{"latin": "pueros", "rendered_as": "fetters", "note": "Some manuscripts read 'shackles/fetters' (pedes); the merchants came prepared to take slaves"}]
+    },
+    {
+      "verse": 42,
+      "text_latin": "et vidit Iudas et fratres eius quia multiplicata sunt mala et exercitus adplicabant ad fines eorum et cognoverunt verba regis quae mandavit facere populo in interitum et consummationem",
+      "rendering": "When Judas and his brothers saw that evils had multiplied and that the army was encamping on their borders, and when they learned the king's orders to bring utter destruction and annihilation upon the people,",
+      "translator_notes": [],
+      "key_terms": [{"latin": "interitum et consummationem", "rendered_as": "destruction and annihilation", "note": "Paired terms of total obliteration; the language of genocide"}]
+    },
+    {
+      "verse": 43,
+      "text_latin": "dixerunt unusquisque ad proximum suum erigamus deiectionem populi nostri et pugnemus pro populo nostro et sanctis nostris",
+      "rendering": "they said to one another: 'Let us raise up the ruin of our people! Let us fight for our people and our holy things!'",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 44,
+      "text_latin": "et congregatus est conventus ut essent parati in proelium et ut orarent et peterent misericordiam et miserationes",
+      "rendering": "The assembly gathered together to prepare for battle and to pray and ask for mercy and compassion.",
+      "translator_notes": ["The combination of military preparation and prayer characterizes the Maccabean approach — practical strategy undergirded by religious devotion."],
+      "key_terms": []
+    },
+    {
+      "verse": 45,
+      "text_latin": "et Hierusalem non habitabatur sed erat sicut desertum non erat qui ingrederetur et egrederetur de natis eius et sanctum conculcabatur et filii alienigenarum erant in arce ibi erat habitatio gentium et ablata est voluptas Iacob et defecit ibi tibia et cithara",
+      "rendering": "Jerusalem was uninhabited, like a wilderness. None of her children went in or out. The sanctuary was trampled underfoot, foreigners held the citadel — it was a dwelling place of Gentiles. Joy had been taken from Jacob, and the flute and the harp had fallen silent.",
+      "translator_notes": ["This lament over Jerusalem's desolation intensifies the emotional stakes before the battle. The silencing of music (tibia et cithara) signifies the death of joy and worship."],
+      "key_terms": [{"latin": "tibia et cithara", "rendered_as": "flute and harp", "note": "Instruments of worship and celebration; their silence means the death of both liturgical and civic joy"}]
+    },
+    {
+      "verse": 46,
+      "text_latin": "et congregati sunt et venerunt in Maspha contra Hierusalem quia locus orationis erat in Maspha ante in Israhel",
+      "rendering": "They assembled and went to Mizpah, opposite Jerusalem, for Mizpah had been a place of prayer for Israel in former times.",
+      "translator_notes": ["Mizpah was where Samuel gathered Israel for prayer before the Philistine battle (1 Samuel 7:5-6) and where Israel assembled during the Benjaminite crisis (Judges 20:1). Choosing this site claims continuity with earlier moments of national crisis and divine deliverance."],
+      "key_terms": [{"latin": "Maspha", "rendered_as": "Mizpah", "note": "Ancient assembly point; choosing it deliberately invokes the precedents of Samuel and the Judges"}]
+    },
+    {
+      "verse": 47,
+      "text_latin": "et ieiunaverunt illa die et induerunt se ciliciis et cinerem imposuerunt capiti suo et disciderunt vestimenta sua",
+      "rendering": "They fasted that day, put on sackcloth, cast ashes on their heads, and tore their garments.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 48,
+      "text_latin": "et expanderunt libros legis de quibus scrutabantur gentes similitudinem simulacrorum suorum",
+      "rendering": "They opened the books of the Law — those same books which the nations had searched through to paint upon them the images of their idols.",
+      "translator_notes": ["A shocking detail: the Seleucids had defaced Torah scrolls by painting pagan images on them. Opening these defaced scrolls for reading is an act of reclamation."],
+      "key_terms": [{"latin": "libros legis", "rendered_as": "books of the Law", "note": "Torah scrolls that had been desecrated with pagan images; reading them reclaims their sacred purpose"}]
+    },
+    {
+      "verse": 49,
+      "text_latin": "et adtulerunt ornamenta sacerdotalia et primitias et decimas et suscitaverunt Nazaraeos qui impleverant dies",
+      "rendering": "They brought the priestly garments, the firstfruits, and the tithes, and they presented the Nazirites who had completed their vows.",
+      "translator_notes": ["With the Temple defiled, these offerings could not be properly presented. Their gathering at Mizpah dramatizes the religious crisis — the faithful have offerings but no altar."],
+      "key_terms": [{"latin": "Nazaraeos", "rendered_as": "Nazirites", "note": "Those who had taken the Nazirite vow (Numbers 6) but could not complete it at the defiled Temple — living symbols of the interrupted cult"}]
+    },
+    {
+      "verse": 50,
+      "text_latin": "et clamaverunt voce magna in caelum dicentes quid faciemus istis et quo eos ducemus",
+      "rendering": "They cried out with a loud voice toward heaven: 'What shall we do with these? Where shall we take them?'",
+      "translator_notes": ["The Nazirites who cannot complete their vows and the offerings that cannot be presented — this is the practical crisis of a people with religious obligations and no functioning Temple."],
+      "key_terms": []
+    },
+    {
+      "verse": 51,
+      "text_latin": "et sancta tua conculcata sunt et contaminata sunt et sacerdotes tui facti sunt in luctum et in humilitatem",
+      "rendering": "Your holy things are trampled and profaned, and your priests are in mourning and humiliation.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 52,
+      "text_latin": "et ecce nationes convenerunt adversum nos ut nos disperdant tu scis quae cogitant in nos",
+      "rendering": "Behold, the nations have gathered against us to destroy us. You know what they plan against us.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 53,
+      "text_latin": "quomodo poterimus subsistere ante faciem eorum nisi tu adiuves nos",
+      "rendering": "How shall we stand before them unless You help us?",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 54,
+      "text_latin": "et tubis exclamaverunt voce magna",
+      "rendering": "Then they sounded the trumpets and cried out with a loud voice.",
+      "translator_notes": [],
+      "key_terms": [{"latin": "tubis", "rendered_as": "trumpets", "note": "Ritual trumpets (cf. Numbers 10:9) — blowing them in time of war was a summons for God's intervention"}]
+    },
+    {
+      "verse": 55,
+      "text_latin": "et post haec constituit Iudas duces populi tribunos et centuriones et pentacontarchos et decuriones",
+      "rendering": "After this, Judas appointed leaders of the people — commanders of thousands, of hundreds, of fifties, and of tens.",
+      "translator_notes": ["This military organization directly mirrors Moses's structure in Exodus 18:21 and Deuteronomy 1:15 — Judas organizes his army according to Torah precedent."],
+      "key_terms": [{"latin": "tribunos et centuriones et pentacontarchos et decuriones", "rendered_as": "commanders of thousands, of hundreds, of fifties, and of tens", "note": "The Mosaic military structure (Exodus 18:21); organizing by Torah precedent, not Greek military theory"}]
+    },
+    {
+      "verse": 56,
+      "text_latin": "et dixit his qui aedificabant domos et sponsabant uxores et plantabant vineas et formidolosis ut redirent unusquisque in domum suam secundum legem",
+      "rendering": "He told those who were building houses, or betrothing wives, or planting vineyards, or who were fearful, to return each to his own home, according to the Law.",
+      "translator_notes": ["These exemptions from military service come directly from Deuteronomy 20:5-8 — another example of Judas conducting the war according to Torah, not expediency."],
+      "key_terms": []
+    },
+    {
+      "verse": 57,
+      "text_latin": "et moverunt castra et collocaverunt ad austrum Ammaum",
+      "rendering": "Then they moved camp and pitched south of Emmaus.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 58,
+      "text_latin": "et ait Iudas accingimini et estote filii potentes et estote parati in mane ut pugnetis adversus nationes has quae convenerunt adversus nos disperdere nos et sancta nostra",
+      "rendering": "Judas said: 'Arm yourselves! Be valiant! Be ready at dawn to fight these nations that have assembled against us to destroy us and our holy things.'",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 59,
+      "text_latin": "quoniam melius est nos mori in bello quam videre mala gentis nostrae et sanctorum",
+      "rendering": "For it is better for us to die in battle than to look upon the evils befalling our nation and our sanctuary.",
+      "translator_notes": ["This mirrors Mattathias's earlier lament (2:7) but transforms passive grief into active resolve."],
+      "key_terms": []
+    },
+    {
+      "verse": 60,
+      "text_latin": "sicut autem fuerit voluntas in caelo sic fiat",
+      "rendering": "But whatever be the will of Heaven — so let it be done.",
+      "translator_notes": ["This final phrase subordinates all military planning to divine sovereignty — a remarkable statement of faith from a commander on the eve of battle. It echoes the spirit of Jesus's Gethsemane prayer (Matthew 26:42)."],
+      "key_terms": [{"latin": "voluntas in caelo", "rendered_as": "will of Heaven", "note": "Ultimate submission to divine sovereignty despite military preparation; 'Heaven' as reverential circumlocution for God"}]
+    }
+  ]
+}

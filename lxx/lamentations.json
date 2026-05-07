@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Lamentations",
+    "tradition": "lxx",
+    "tradition_label": "Septuagint (LXX)",
+    "source_text": "Rahlfs-Hanhart, Septuaginta (Thrēnoi)",
+    "base_text": "Westminster Leningrad Codex (WLC)",
+    "translators": "Alexandrian Jewish translators (2nd c. BCE)",
+    "date": "2nd century BCE",
+    "generated_at": "2026-04-22T00:00:00Z",
+    "prompt_version": "1.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "LXX Lamentations (Thrēnoi, 'Dirges') tracks MT closely. The Greek tradition prefaces the book with a narrative introduction placing the laments on Jeremiah's lips after the fall of Jerusalem — an editorial addition absent from the Hebrew that nevertheless solidified the traditional attribution of Lamentations to Jeremiah across both Jewish and Christian reception. The LXX preserves the Hebrew acrostic structure abstractly (each poem is noted as a threnos) but, of course, cannot reproduce the alphabetic pattern in Greek.",
+    "notable_variants": "The LXX's narrative superscription identifying Jeremiah as the weeping prophet over Jerusalem (not found in MT); the chesed-vocabulary at 3:22–23 rendered with eleos that shaped Christian readings of 'God's mercies are new every morning'; the 'breath of our nostrils, the anointed of the LORD' at 4:20 in its LXX form that early Christian writers read messianically.",
+    "theological_legacy": "LXX Lamentations became the liturgical text for the Eastern Christian observance of Good Friday and for Tenebrae services in the Latin West. The 3:22–23 passage ('his mercies are new every morning') is one of the most quoted biblical texts in Christian devotional tradition, always in forms descending from LXX's eleos-vocabulary."
+  },
+  "renderings": [
+    {
+      "reference": "Lamentations 1:1",
+      "mt_reading": "אֵיכָה יָשְׁבָה בָדָד הָעִיר רַבָּתִי עָם",
+      "lxx_reading": "πῶς ἐκάθισεν μόνη ἡ πόλις ἡ πεπληθυμμένη λαῶν",
+      "mt_rendering": "How she sits alone, the city once teeming with people",
+      "lxx_rendering": "How the city full of peoples has sat alone",
+      "significance": "moderate",
+      "notes": [
+        "Hebrew eikhah ('how!') is the opening exclamation that gives the book its Hebrew title. The LXX renders with pōs ('how!') — a close functional equivalent that preserves the question-as-lament form.",
+        "The LXX prefaces Lamentations with a narrative verse (absent from MT and TCR): 'And it came to pass after Israel was led captive and Jerusalem was laid waste, Jeremiah sat weeping and lamented this lamentation over Jerusalem and said …' This editorial superscription explicitly identifies the prophet-author and the setting."
+      ]
+    },
+    {
+      "reference": "Lamentations 1:12",
+      "mt_reading": "הַבִּיטוּ וּרְאוּ אִם־יֵשׁ מַכְאוֹב כְּמַכְאֹבִי",
+      "lxx_reading": "ἐπιβλέψατε καὶ ἴδετε εἰ ἔστιν ἄλγος κατὰ τὸ ἄλγος μου",
+      "mt_rendering": "Look and see — is there any pain like my pain",
+      "lxx_rendering": "Look and see if there is any sorrow like my sorrow",
+      "significance": "moderate",
+      "notes": [
+        "The LXX's algos ('sorrow, pain') renders makhov. The verse entered Christian devotional tradition — especially Passion-tide meditation and the Improperia of the Good Friday liturgy — as a voice that transfers from Jerusalem personified to Christ on the cross: 'O all you who pass by, look and see.'",
+        "The LXX form is the text medieval and baroque composers set musically (Palestrina, Victoria, Couperin, and many others). The Christian reception of Lamentations 1:12 as Christ's complaint from the cross is a wholly post-biblical typology, but it rests on the LXX's verbal shape."
+      ]
+    },
+    {
+      "reference": "Lamentations 3:22-23",
+      "mt_reading": "חַסְדֵי יְהוָה כִּי לֹא־תָמְנוּ … חֲדָשִׁים לַבְּקָרִים",
+      "lxx_reading": "τὰ ἐλέη κυρίου ὅτι οὐκ ἐξέλιπέν με … καιναὶ εἰς τὰς πρωίας",
+      "mt_rendering": "The faithful loves of the LORD never cease … They are new every morning",
+      "lxx_rendering": "The mercies of the Lord — that he has not failed me … new every morning",
+      "significance": "theological",
+      "notes": [
+        "Hebrew chasdei YHWH ('faithful loves of the LORD,' plural of chesed) is rendered ta eleē kyriou ('the mercies of the Lord'). The LXX plural preserves the sense that God's covenantal love manifests itself in a sequence of concrete acts of faithfulness.",
+        "Hebrew emunah ('faithfulness') at 3:23b, the ground of the hope, is rendered pistis in LXX. This is one of the texts — along with Habakkuk 2:4 — that feeds the NT's pistis-centered theology.",
+        "'His mercies are new every morning' in its LXX wording has become perhaps the most widely quoted verse from Lamentations in Christian devotional literature."
+      ]
+    },
+    {
+      "reference": "Lamentations 4:20",
+      "mt_reading": "רוּחַ אַפֵּינוּ מְשִׁיחַ יְהוָה",
+      "lxx_reading": "πνεῦμα προσώπου ἡμῶν χριστὸς κυρίου",
+      "mt_rendering": "The breath of our nostrils, the anointed of the LORD",
+      "lxx_rendering": "The breath of our face, the anointed of the Lord",
+      "significance": "theological",
+      "notes": [
+        "The Davidic king in exile — 'the breath of our nostrils, the anointed of the LORD' — is rendered in LXX with pneuma prosōpou hēmōn, christos kyriou. The Greek phrasing supplied patristic authors with language they found easily redirectable to Christ: 'the breath of our face' is the Spirit, 'the anointed of the Lord' is the christos.",
+        "Irenaeus, Origen, and Cyril of Alexandria all cite this verse Christologically. The wounded king of Lamentations 4 becomes, in LXX-based Christian reading, an image of the crucified Christ who in his suffering is nevertheless the breath of his people and the Lord's anointed."
+      ]
+    }
+  ]
+}

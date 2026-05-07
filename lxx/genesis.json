@@ -1,0 +1,275 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Genesis",
+    "tradition": "lxx",
+    "tradition_label": "Septuagint (LXX)",
+    "source_text": "Rahlfs-Hanhart, Septuaginta (Stuttgart critical edition)",
+    "base_text": "Westminster Leningrad Codex (WLC)",
+    "translators": "Alexandrian Jewish translators (the original 'Seventy')",
+    "date": "3rd century BCE",
+    "generated_at": "2026-04-21T00:00:00Z",
+    "prompt_version": "1.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Genesis was the first book rendered into Greek and the showcase text of the early Septuagint tradition. Its translators were careful and generally literal, but they made interpretive choices — in cosmology, chronology, and patriarchal narrative — that became the Bible of Hellenistic Judaism and the Bible quoted by the New Testament. Philo, the Apostle Paul, the author of Hebrews, and Luke all cite Genesis from the Greek, not the Hebrew. Where the LXX diverges from the MT, it frequently aligns with the Samaritan Pentateuch or with Qumran Hebrew witnesses, suggesting its Vorlage preserves readings older than the proto-Masoretic text.",
+    "notable_variants": "The creation vocabulary (aoratos kai akataskeuastos for tohu vavohu, which likely shaped the book of Wisdom); the sixth-day completion of creation in 2:2 (with SP and Jubilees against MT's seventh-day reading); the patriarchal chronologies of chapters 5 and 11 (adding roughly 1,500 years to world history and generating the Christian 5500-year dating of the incarnation); Cain's speech inserted at 4:8; the masculine 'he' of 3:15 that Jerome would famously feminize; the singular 'seed' of 22:18 that Paul argues in Galatians 3:16; and the 'top of his staff' at 47:31 that Hebrews 11:21 quotes verbatim against the MT's 'bed.'",
+    "theological_legacy": "LXX Genesis is the Genesis of the New Testament. Its chronology shaped Eusebius, Jerome's chronicle, and a millennium of Christian world-dating. Its wording of the creation, the fall, the patriarchal promises, and the Joseph cycle supplied the intertextual vocabulary that Paul, Stephen's speech in Acts, and the epistle to the Hebrews all assume. Many 'Messianic' readings that Christians find in Genesis derive their force from LXX renderings rather than from the Hebrew consonantal text."
+  },
+  "renderings": [
+    {
+      "reference": "Genesis 1:1",
+      "mt_reading": "בְּרֵאשִׁית בָּרָא אֱלֹהִים",
+      "lxx_reading": "ἐν ἀρχῇ ἐποίησεν ὁ θεὸς",
+      "mt_rendering": "At the very start, God created the heavens and the earth",
+      "lxx_rendering": "In the beginning God made the heaven and the earth",
+      "significance": "moderate",
+      "notes": [
+        "The LXX uses epoiēsen (made/did), not ektisen (created). John 1:1–3 echoes the LXX opening verbatim (en archē) and then uses egeneto (became, came into being) of the Word's creative agency, layering its own vocabulary over the Greek Genesis rather than the Hebrew.",
+        "The Hebrew bara is reserved for divine creation; the Greek poieō is ordinary 'make.' Later theological vocabulary of creatio ex nihilo had to be built on top of this, not from it — compare 2 Maccabees 7:28 (ouk ex ontōn epoiēsen auta ho theos), the first explicit LXX-canon statement of creation from nothing."
+      ]
+    },
+    {
+      "reference": "Genesis 1:2",
+      "mt_reading": "וְהָאָרֶץ הָיְתָה תֹהוּ וָבֹהוּ",
+      "lxx_reading": "ἡ δὲ γῆ ἦν ἀόρατος καὶ ἀκατασκεύαστος",
+      "mt_rendering": "Now the earth was formless and void",
+      "lxx_rendering": "But the earth was unseen and unformed",
+      "significance": "theological",
+      "notes": [
+        "Aoratos kai akataskeuastos — 'invisible and unfurnished' — is interpretive, not literal. The translators read tohu vavohu through a philosophical lens closer to Platonic pre-formed matter than to Hebrew chaos imagery.",
+        "Wisdom of Solomon 11:17 speaks of God creating the world ex amorphou hylēs ('from formless matter') — a near-direct echo of this LXX rendering that would later supply Christian and Jewish philosophers with scriptural warrant for discussing prime matter.",
+        "Jerome rejected aoratos and rendered inanis et vacua from the Hebrew, which pulled Latin theology back toward 'emptiness/privation' rather than 'invisible matter.'"
+      ]
+    },
+    {
+      "reference": "Genesis 2:2",
+      "mt_reading": "וַיְכַל אֱלֹהִים בַּיּוֹם הַשְּׁבִיעִי",
+      "lxx_reading": "καὶ συνετέλεσεν ὁ θεὸς ἐν τῇ ἡμέρᾳ τῇ ἕκτῃ",
+      "mt_rendering": "On the seventh day God finished his work that he had done",
+      "lxx_rendering": "On the sixth day God finished the works he had made",
+      "significance": "theological",
+      "notes": [
+        "The LXX (with the Samaritan Pentateuch and the book of Jubilees) reads 'sixth day,' removing the exegetical problem that the MT's 'seventh day' creates — namely, that God appears to finish his work on the very day he is said to rest.",
+        "The rabbis addressed the MT reading through Sabbath casuistry (God 'finished' the instant the seventh day began). Hellenistic Jewish translators simply read the easier text, which many text critics judge more likely original.",
+        "This is one of the clearest cases where LXX, SP, and Jubilees converge against MT on a theologically consequential reading."
+      ]
+    },
+    {
+      "reference": "Genesis 2:7",
+      "mt_reading": "עָפָר מִן־הָאֲדָמָה",
+      "lxx_reading": "χοῦν ἀπὸ τῆς γῆς",
+      "mt_rendering": "dust from the ground",
+      "lxx_rendering": "clay from the earth",
+      "significance": "moderate",
+      "notes": [
+        "Chous can mean loose earth, dust, or clay. The translator's choice tilts the image from dry dust toward wet, moldable clay — a potter-and-clay image that resonated with Hellenistic anthropogonies (compare Prometheus shaping humans from clay).",
+        "Jerome's limus terrae ('clay of the earth') follows the LXX tilt rather than the Hebrew afar, and the 'potter God' of Romans 9:20–21 works more naturally with the Greek/Latin image than the Hebrew one."
+      ]
+    },
+    {
+      "reference": "Genesis 3:15",
+      "mt_reading": "הוּא יְשׁוּפְךָ רֹאשׁ וְאַתָּה תְּשׁוּפֶנּוּ עָקֵב",
+      "lxx_reading": "αὐτός σου τηρήσει κεφαλήν καὶ σὺ τηρήσεις αὐτοῦ πτέρναν",
+      "mt_rendering": "He will strike your head, and you will strike his heel",
+      "lxx_rendering": "He will watch for your head, and you will watch for his heel",
+      "significance": "theological",
+      "notes": [
+        "The Hebrew verb shuf is rare and debated (strike, bruise, crush). The LXX chose tēreō — 'watch for, lie in wait for' — interpreting the verse as mutual ambush rather than decisive combat.",
+        "Crucially, the LXX pronoun is the masculine autos ('he'), following the Hebrew hu. The Vulgate's famous ipsa ('she') at Genesis 3:15 — the foundation of Marian 'woman crushing the serpent' iconography — has no support in the Greek.",
+        "The LXX's singular masculine 'he' is what the New Testament's Adam–Christ typology assumes. Romans 16:20 ('the God of peace will crush Satan under your feet') echoes the verse in Christological terms consonant with the Greek, not the Latin."
+      ]
+    },
+    {
+      "reference": "Genesis 4:8",
+      "mt_reading": "וַיֹּאמֶר קַיִן אֶל־הֶבֶל אָחִיו",
+      "lxx_reading": "καὶ εἶπεν Καιν πρὸς Αβελ τὸν ἀδελφὸν αὐτοῦ Διέλθωμεν εἰς τὸ πεδίον",
+      "mt_rendering": "And Cain spoke to Abel his brother (MT leaves the content of the speech unstated)",
+      "lxx_rendering": "And Cain said to Abel his brother, 'Let us go out into the plain.'",
+      "significance": "major",
+      "notes": [
+        "The MT appears to have a textual lacuna: 'and Cain said to Abel his brother … and it happened while they were in the field.' Something has dropped out. The LXX, Samaritan Pentateuch, and several of the Targumim all supply 'Let us go out into the field/plain.'",
+        "The Masoretes marked the gap with a rare section break within the verse. Virtually all modern critical editions judge the longer text original and the MT defective.",
+        "This is a case where the LXX preserves a reading that the MT lost through scribal accident, confirmed by the independent Samaritan witness."
+      ]
+    },
+    {
+      "reference": "Genesis 4:26",
+      "mt_reading": "אָז הוּחַל לִקְרֹא בְּשֵׁם יְהוָה",
+      "lxx_reading": "οὗτος ἤλπισεν ἐπικαλεῖσθαι τὸ ὄνομα κυρίου τοῦ θεοῦ",
+      "mt_rendering": "Then people began to call upon the name of the LORD",
+      "lxx_rendering": "This one [Enosh] hoped to call upon the name of the Lord God",
+      "significance": "moderate",
+      "notes": [
+        "The LXX reads huchal (was begun) as if from yachal (to hope), yielding ēlpisen ('hoped'). This ties Enosh personally to the beginning of prayer rather than marking a general human epoch.",
+        "The rabbis, moving in the opposite direction, read the verb as huchal from chalal ('to profane'), making Enosh's generation the inventors of idolatry. The Greek, the Aramaic Targumim, and the Hebrew of MT each preserve a different reading of the same consonantal verb — a small example of the interpretive distance between the traditions."
+      ]
+    },
+    {
+      "reference": "Genesis 5 (chronology)",
+      "mt_reading": "MT patriarchal ages (e.g., Adam begets Seth at 130, Methuselah dies at 969)",
+      "lxx_reading": "LXX patriarchal ages (e.g., Adam begets Seth at 230, Methuselah 969)",
+      "mt_rendering": "1,656 years from creation to the flood",
+      "lxx_rendering": "2,242 years from creation to the flood",
+      "significance": "major",
+      "notes": [
+        "The LXX systematically adds 100 years to the age at which most pre-flood patriarchs father their named son, without changing the total lifespans. The Samaritan Pentateuch offers a third distinct chronology.",
+        "The LXX chronology gives a flood date roughly 600 years later than the MT and pushes the age of the earth before Christ to about 5,500 years — the figure that shaped Eusebius, Jerome's Chronicle, the Byzantine world-era, and the traditional Christian dating of creation to roughly 5500 BCE.",
+        "The MT chronology is what underlies the 4004 BCE date of Archbishop Ussher and most Protestant 'young earth' reckoning. Which numbers are original is still scholarly disputed."
+      ]
+    },
+    {
+      "reference": "Genesis 6:2",
+      "mt_reading": "וַיִּרְאוּ בְנֵי־הָאֱלֹהִים",
+      "lxx_reading": "ἰδόντες δὲ οἱ υἱοὶ τοῦ θεοῦ (variant: οἱ ἄγγελοι τοῦ θεοῦ)",
+      "mt_rendering": "The sons of God saw",
+      "lxx_rendering": "The sons of God saw (some manuscripts: the angels of God saw)",
+      "significance": "theological",
+      "notes": [
+        "Alexandrinus and several major LXX witnesses read hoi angeloi tou theou ('the angels of God') rather than hoi huioi tou theou ('the sons of God'). This is the textual ground for the fallen-angels interpretation of Genesis 6 that dominated Second Temple Judaism and early Christianity.",
+        "The angel reading is assumed in 1 Enoch, Jubilees, Josephus, and Jude 6 / 2 Peter 2:4. The shift to a 'Sethite sons / Cainite daughters' reading is a later interpretive move, prominent in Augustine and the rabbis, partly to distance Scripture from Enochic angel-mythology."
+      ]
+    },
+    {
+      "reference": "Genesis 6:14",
+      "mt_reading": "עֲצֵי־גֹפֶר",
+      "lxx_reading": "ξύλων τετραγώνων",
+      "mt_rendering": "gopher wood",
+      "lxx_rendering": "squared timbers",
+      "significance": "moderate",
+      "notes": [
+        "Hebrew gopher is a hapax legomenon; its species is unknown. The LXX does not guess at a wood type and instead describes the shape: xylōn tetragōnōn, 'squared timbers,' perhaps reading gopher under the influence of an otherwise attested root or simply paraphrasing.",
+        "The Vulgate's lignis levigatis ('planed wood') follows the LXX's shape-based gloss rather than attempting to identify the tree."
+      ]
+    },
+    {
+      "reference": "Genesis 11:12-13",
+      "mt_reading": "וְאַרְפַּכְשַׁד חַי חָמֵשׁ וּשְׁלֹשִׁים שָׁנָה וַיּוֹלֶד אֶת־שָׁלַח",
+      "lxx_reading": "καὶ ἔζησεν Αρφαξαδ ἑκατὸν τριάκοντα πέντε ἔτη καὶ ἐγέννησεν τὸν Καιναν",
+      "mt_rendering": "Arpachshad lived 35 years and fathered Shelah",
+      "lxx_rendering": "Arpachshad lived 135 years and fathered Kainan (then Kainan fathered Shelah)",
+      "significance": "major",
+      "notes": [
+        "The LXX inserts a 'second Kainan' between Arpachshad and Shelah in the post-flood genealogy. This Kainan is absent from the MT, the Samaritan Pentateuch, and 1 Chronicles 1:18, 24 in most manuscripts.",
+        "Luke 3:36 includes Kainan in the genealogy of Jesus, following the LXX reading. This is the single clearest case of a New Testament genealogy depending on a LXX plus against the Hebrew.",
+        "Textual critics continue to debate whether the second Kainan is original to the post-flood genealogy or an early interpolation; either way, the NT genealogy follows the Greek tradition."
+      ]
+    },
+    {
+      "reference": "Genesis 12:3",
+      "mt_reading": "וְנִבְרְכוּ בְךָ כֹּל מִשְׁפְּחֹת הָאֲדָמָה",
+      "lxx_reading": "καὶ ἐνευλογηθήσονται ἐν σοὶ πᾶσαι αἱ φυλαὶ τῆς γῆς",
+      "mt_rendering": "in you all the families of the earth will be blessed",
+      "lxx_rendering": "in you all the tribes of the earth will be blessed",
+      "significance": "major",
+      "notes": [
+        "The LXX's passive eneulogēthēsontai ('shall be blessed') flattens the Hebrew reflexive/reciprocal nuance (nivrekhu, which can be read 'will find blessing' or 'will bless themselves').",
+        "The LXX wording is quoted nearly verbatim in Acts 3:25 and paraphrased in Galatians 3:8. Paul's whole gospel-to-the-Gentiles argument rests on the passive 'shall be blessed' reading. The Hebrew alone is ambiguous enough to leave the question of whether the Gentiles are the subjects or the objects of blessing open.",
+        "LXX phylai ('tribes') rather than 'families' universalizes the blessing more strongly in Greek than the Hebrew mishpechot necessarily did."
+      ]
+    },
+    {
+      "reference": "Genesis 14:18",
+      "mt_reading": "וּמַלְכִּי־צֶדֶק מֶלֶךְ שָׁלֵם הוֹצִיא לֶחֶם וָיָיִן וְהוּא כֹהֵן לְאֵל עֶלְיוֹן",
+      "lxx_reading": "καὶ Μελχισεδεκ βασιλεὺς Σαλημ ἐξήνεγκεν ἄρτους καὶ οἶνον ἦν δὲ ἱερεὺς τοῦ θεοῦ τοῦ ὑψίστου",
+      "mt_rendering": "Melchizedek king of Salem brought out bread and wine, and he was priest of God Most High",
+      "lxx_rendering": "Melchizedek king of Salem brought out bread and wine, and he was priest of the Most High God",
+      "significance": "theological",
+      "notes": [
+        "The LXX wording is what the Epistle to the Hebrews quotes and builds its whole Melchizedek-Christology on (Hebrews 5–7). The Greek phrase hierēus tou theou tou hypsistou is echoed verbatim in Hebrews 7:1.",
+        "El Elyon is rendered consistently through the LXX as ho theos ho hypsistos — 'the Most High God' — a title that traveled from Genesis 14 into Mark 5:7, Luke 8:28, Acts 16:17, and Hebrews 7:1 as the identifying name of Israel's God in Gentile contact zones."
+      ]
+    },
+    {
+      "reference": "Genesis 15:6",
+      "mt_reading": "וְהֶאֱמִן בַּיהוָה וַיַּחְשְׁבֶהָ לּוֹ צְדָקָה",
+      "lxx_reading": "καὶ ἐπίστευσεν Αβραμ τῷ θεῷ καὶ ἐλογίσθη αὐτῷ εἰς δικαιοσύνην",
+      "mt_rendering": "Abram put his trust in the LORD, and the LORD credited it to him as righteousness",
+      "lxx_rendering": "And Abram believed God, and it was credited to him as righteousness",
+      "significance": "theological",
+      "notes": [
+        "The LXX supplies Abram's name as the explicit subject of 'believed' and shifts the reckoning into a grammatical passive (elogisthē) — 'it was credited' — leaving the agent of the crediting implicit. The Hebrew is active with God as the unstated but clear subject; TCR renders the Hebrew's sense by naming 'the LORD' as the one who credits.",
+        "Romans 4:3, Galatians 3:6, and James 2:23 all quote the LXX wording verbatim. The entire Pauline doctrine of justification by faith is argued from LXX Genesis 15:6 — episteusen Abraam tō theō kai elogisthē autō eis dikaiosynēn.",
+        "The LXX's grammatical passive (elogisthē) became the scriptural touchstone for the Reformation doctrine of imputed righteousness — a doctrine the Hebrew equally supports but does not foreground grammatically."
+      ]
+    },
+    {
+      "reference": "Genesis 18:10",
+      "mt_reading": "שׁוֹב אָשׁוּב אֵלֶיךָ כָּעֵת חַיָּה",
+      "lxx_reading": "ἐπαναστρέφων ἥξω πρὸς σὲ κατὰ τὸν καιρὸν τοῦτον εἰς ὥρας",
+      "mt_rendering": "I will surely return to you at the appointed time",
+      "lxx_rendering": "Returning, I will come to you at this season next year",
+      "significance": "moderate",
+      "notes": [
+        "The Hebrew ka-et chayyah ('at the time of life') is idiomatic for 'next year at this season.' The LXX eis hōras ('in due season') is more prosaic but captures the sense.",
+        "Romans 9:9 quotes this verse in the LXX form — kata ton kairon touton eleusomai kai estai tē Sarra huios — as part of the 'children of promise' argument. Paul is quoting Greek Genesis, not translating the Hebrew."
+      ]
+    },
+    {
+      "reference": "Genesis 22:18",
+      "mt_reading": "וְהִתְבָּרֲכוּ בְזַרְעֲךָ כֹּל גּוֹיֵי הָאָרֶץ",
+      "lxx_reading": "καὶ ἐνευλογηθήσονται ἐν τῷ σπέρματί σου πάντα τὰ ἔθνη τῆς γῆς",
+      "mt_rendering": "and in your offspring all the nations of the earth shall be blessed",
+      "lxx_rendering": "and in your seed all the nations of the earth shall be blessed",
+      "significance": "theological",
+      "notes": [
+        "Hebrew zera and Greek sperma are both collective singulars that normally refer to descendants as a group. TCR renders zera as 'offspring' — a reading that preserves the collective sense in English. Paul's argument in Galatians 3:16 — 'he does not say \"and to seeds,\" as of many, but as of one, \"and to your seed,\" who is Christ' — presses the grammatical singular against its normal collective meaning.",
+        "The argument works because Greek sperma is formally singular (and zera is too), but it runs against the idiomatic meaning of the word in both languages. Paul is reading the LXX with a Greek translator's literalism.",
+        "Acts 3:25 likewise quotes the verse in its LXX form, making the Abrahamic promise the hinge of apostolic preaching to Gentiles. The passive 'shall be blessed,' present in the LXX and preserved in TCR, is the form that Paul and Luke cite."
+      ]
+    },
+    {
+      "reference": "Genesis 46:27",
+      "mt_reading": "כָּל־הַנֶּפֶשׁ לְבֵית־יַעֲקֹב הַבָּאָה מִצְרַיְמָה שִׁבְעִים",
+      "lxx_reading": "πᾶσαι ψυχαὶ οἴκου Ιακωβ αἱ εἰσελθοῦσαι μετὰ Ιακωβ εἰς Αἴγυπτον ἑβδομήκοντα πέντε",
+      "mt_rendering": "All the persons of the house of Jacob who came to Egypt were seventy",
+      "lxx_rendering": "All the persons of the house of Jacob who entered Egypt with Jacob were seventy-five",
+      "significance": "major",
+      "notes": [
+        "The LXX reads 'seventy-five,' counting additional descendants of Joseph (5 or 9 sons and grandsons named in Gen 46:20 in the LXX expansion) that the MT omits.",
+        "Stephen's speech in Acts 7:14 follows the LXX — 'Jacob and all his kindred, seventy-five souls.' This is one of the clearest instances in the New Testament of a speaker quoting the LXX against the Hebrew.",
+        "4QExod-a from Qumran supports the LXX's expanded list of Joseph's descendants, showing this was a genuine Hebrew textual variant, not a Greek innovation."
+      ]
+    },
+    {
+      "reference": "Genesis 47:31",
+      "mt_reading": "וַיִּשְׁתַּחוּ יִשְׂרָאֵל עַל־רֹאשׁ הַמִּטָּה",
+      "lxx_reading": "καὶ προσεκύνησεν Ισραηλ ἐπὶ τὸ ἄκρον τῆς ῥάβδου αὐτοῦ",
+      "mt_rendering": "Then Israel bowed in worship at the head of the bed",
+      "lxx_rendering": "And Israel worshipped upon the top of his staff",
+      "significance": "major",
+      "notes": [
+        "The Hebrew consonantal text can be vocalized either as mittah ('bed') or matteh ('staff') — the letters are identical (מטה). The Masoretes vocalized 'bed'; the LXX vocalized 'staff.'",
+        "Hebrews 11:21 quotes the LXX verbatim: 'By faith Jacob, when he was dying, blessed each of the sons of Joseph and worshipped upon the top of his staff.' The writer of Hebrews is reading Greek Genesis.",
+        "This became the most cited single example in patristic writing of 'the LXX and the Hebrew disagree and the apostles use the LXX.' Origen, Jerome, and Augustine all discuss this verse."
+      ]
+    },
+    {
+      "reference": "Genesis 49:10",
+      "mt_reading": "עַד כִּי־יָבֹא שִׁילֹה",
+      "lxx_reading": "ἕως ἂν ἔλθῃ τὰ ἀποκείμενα αὐτῷ",
+      "mt_rendering": "until Shiloh comes",
+      "lxx_rendering": "until there come the things stored up for him",
+      "significance": "theological",
+      "notes": [
+        "The MT's shiloh is notoriously difficult — it may be a place name, a corrupted form of shellō ('that which is his'), or (in late Jewish and Christian readings) a personal Messianic title.",
+        "The LXX reads shellō ('that which belongs to him') and paraphrases it as ta apokeimena autō — 'the things stored up for him.' Aquila, Symmachus, and the Vulgate all read shellō likewise (Vulgate: 'qui mittendus est').",
+        "The Targum of Onkelos reads 'until the Messiah comes, to whom the kingdom belongs,' making the Messianic reading explicit. The LXX paraphrase is interpretive but not personally Messianic; the personal reading is Targumic and patristic."
+      ]
+    },
+    {
+      "reference": "Genesis 49:18",
+      "mt_reading": "לִישׁוּעָתְךָ קִוִּיתִי יְהוָה",
+      "lxx_reading": "τὴν σωτηρίαν περιμένω κυρίου",
+      "mt_rendering": "For your salvation I wait, O LORD",
+      "lxx_rendering": "I await the salvation of the Lord",
+      "significance": "minor",
+      "notes": [
+        "A small but theologically resonant rendering. The LXX's tēn sōtērian periménō kyriou was a devotional formula in Hellenistic Judaism and early Christian liturgy.",
+        "The phrase sōtēria kyriou ('the salvation of the Lord') became a standing Septuagintal collocation that underlies much New Testament soteriological vocabulary."
+      ]
+    }
+  ]
+}

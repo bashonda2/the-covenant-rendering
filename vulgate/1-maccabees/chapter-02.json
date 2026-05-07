@@ -1,0 +1,520 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "1 Maccabees",
+    "chapter": 2,
+    "tradition": "vulgate",
+    "tradition_label": "Latin Vulgate (Deuterocanonical)",
+    "source_text": "Biblia Sacra Vulgata (Stuttgart critical edition)",
+    "translator": "Jerome",
+    "date": "c. 405 CE",
+    "canon": ["catholic", "orthodox", "ethiopian"],
+    "generated_at": "2026-04-20T00:00:00Z",
+    "prompt_version": "2.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Chapter 2 introduces Mattathias the priest and his five sons, including Judas called Maccabeus. When royal officers come to Modein to enforce pagan sacrifice, Mattathias kills both a collaborating Jew and the king's officer, igniting armed revolt. He rallies the faithful with the cry 'Everyone who is zealous for the Law, follow me!' Before his death, he delivers a testament recalling the heroes of faith and appoints Judas as military commander.",
+    "remarkable": "Mattathias's act of zealous violence in verses 23-26 consciously parallels Phinehas's zeal in Numbers 25:6-13, explicitly cited in verse 54. This establishes the theological framework for the entire revolt: armed resistance as priestly zeal for covenant faithfulness, not mere political rebellion.",
+    "friction": "The decision in verses 40-41 to fight on the Sabbath — after a thousand faithful Jews were slaughtered because they refused to defend themselves on the holy day — represents a pragmatic halakhic innovation that would have lasting implications for Jewish law regarding pikuach nefesh (the saving of life overriding other commandments).",
+    "connections": "Mattathias's deathbed speech (vv. 49-68) catalogs heroes of faith from Abraham to Daniel, creating a chain of fidelity that anticipates the 'faith hall of fame' in Hebrews 11. The Phinehas parallel (v. 54) connects to Numbers 25 and Psalm 106:30-31. The 'zealous for the Law' cry (v. 27) gives rise to the Zealot movement referenced in the New Testament."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_latin": "In diebus illis surrexit Matthathias filius Iohannis filii Simeonis sacerdos ex filiis Ioarib ab Hierusalem et consedit in monte Modin",
+      "rendering": "In those days, Mattathias arose — son of John, son of Simeon, a priest of the sons of Joarib — from Jerusalem, and he settled on the hill of Modein.",
+      "translator_notes": ["The sons of Joarib (1 Chronicles 24:7) were the first of the twenty-four priestly divisions. Modein (modern Modi'in) is about 17 miles northwest of Jerusalem."],
+      "key_terms": [
+        {"latin": "Matthathias", "rendered_as": "Mattathias", "note": "Hebrew Mattityahu, 'Gift of the LORD' — the patriarch of the Hasmonean dynasty"},
+        {"latin": "filiis Ioarib", "rendered_as": "sons of Joarib", "note": "The first priestly course (1 Chronicles 24:7); establishes the family's legitimate priestly credentials"}
+      ]
+    },
+    {
+      "verse": 2,
+      "text_latin": "et habebat filios quinque Iohannan qui cognominabatur Gaddis",
+      "rendering": "He had five sons: John, who was surnamed Gaddi;",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 3,
+      "text_latin": "et Simonem qui cognominabatur Thasi",
+      "rendering": "Simon, who was surnamed Thassi;",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 4,
+      "text_latin": "et Iudam qui vocabatur Macchabaeus",
+      "rendering": "Judas, who was called Maccabeus;",
+      "translator_notes": ["'Maccabeus' likely derives from Hebrew maqqabi, 'the Hammer' — a military nickname. Some scholars connect it to the Hebrew acronym for 'Who is like You among the gods, O LORD?' (Exodus 15:11)."],
+      "key_terms": [{"latin": "Macchabaeus", "rendered_as": "Maccabeus", "note": "Probably 'the Hammer'; the surname that gave its name to the entire revolt and the book"}]
+    },
+    {
+      "verse": 5,
+      "text_latin": "et Eleazarum qui cognominabatur Abaron et Ionathan qui cognominabatur Apphus",
+      "rendering": "Eleazar, who was surnamed Avaran; and Jonathan, who was surnamed Apphus.",
+      "translator_notes": ["These five brothers will each play significant roles: Judas as military commander, Jonathan as diplomat-leader, Simon as the one who achieves independence, Eleazar who dies heroically under an elephant (6:43-46), and John who is killed by hostile tribesmen (9:36-42)."],
+      "key_terms": []
+    },
+    {
+      "verse": 6,
+      "text_latin": "et vidit blasphemias quae fiebant in Iuda et in Hierusalem",
+      "rendering": "He saw the blasphemies being committed in Judah and in Jerusalem,",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 7,
+      "text_latin": "et dixit vae mihi ut quid natus sum videre contritionem populi mei et contritionem civitatis sanctae et sedere illic cum datur in manibus inimicorum",
+      "rendering": "and he said: 'Woe is me! Why was I born to see the ruin of my people and the ruin of the holy city, and to sit here while she is given into the hands of enemies?'",
+      "translator_notes": ["Mattathias's lament (vv. 7-13) follows the pattern of prophetic grief, recalling Jeremiah's laments over Jerusalem."],
+      "key_terms": [{"latin": "civitatis sanctae", "rendered_as": "holy city", "note": "Jerusalem — the designation emphasizes what is at stake: not merely a political capital but the city of God's dwelling"}]
+    },
+    {
+      "verse": 8,
+      "text_latin": "sancta in manu extraneorum facta sunt templum eius sicut homo ignobilis",
+      "rendering": "The holy things have fallen into the hands of strangers; her Temple has become like a man without honor.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 9,
+      "text_latin": "vasa gloriae eius captiva abducta sunt trucidati sunt iuvenes eius in plateis et adulescentes eius ceciderunt in gladio inimicorum",
+      "rendering": "Her glorious vessels have been carried off as captives; her young men have been slaughtered in the streets, and her youths have fallen by the sword of enemies.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 10,
+      "text_latin": "quae gens non hereditavit regna eius et non obtinuit spolia eius",
+      "rendering": "What nation has not seized a portion of her kingdom? What power has not taken her spoils?",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 11,
+      "text_latin": "omnis conpositio eius ablata est quae erat libera facta est ancilla",
+      "rendering": "All her adornment has been stripped away. She who was free has become a slave.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 12,
+      "text_latin": "et ecce sancta nostra et pulchritudo nostra et claritas nostra desolata est et coinquinaverunt ea gentes",
+      "rendering": "Behold, our holy things, our beauty, and our glory have been laid waste; the nations have defiled them.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 13,
+      "text_latin": "ut quid nobis adhuc vivere",
+      "rendering": "Why should we go on living?",
+      "translator_notes": ["This despairing question marks the nadir of the lament, from which the narrative will turn toward action."],
+      "key_terms": []
+    },
+    {
+      "verse": 14,
+      "text_latin": "et scidit vestimenta sua Matthathias et filii eius et operuerunt se ciliciis et planxerunt valde",
+      "rendering": "Mattathias and his sons tore their garments, put on sackcloth, and mourned bitterly.",
+      "translator_notes": [],
+      "key_terms": [{"latin": "ciliciis", "rendered_as": "sackcloth", "note": "Cilicium — coarse goat-hair cloth worn as a sign of mourning and penitence"}]
+    },
+    {
+      "verse": 15,
+      "text_latin": "et venerunt illuc qui missi erant a rege Antiocho ut cogerent eos qui confugerant in civitatem Modin immolare et accendere tura et a lege Dei discedere",
+      "rendering": "Then those sent by King Antiochus arrived there to compel the people who had taken refuge in the town of Modein to offer sacrifice, burn incense, and depart from the Law of God.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 16,
+      "text_latin": "et multi de populo Israhel consenserunt et accesserunt ad eos sed Matthathias et filii eius constanter steterunt",
+      "rendering": "Many of the people of Israel consented and went over to them, but Mattathias and his sons stood firm.",
+      "translator_notes": [],
+      "key_terms": [{"latin": "constanter steterunt", "rendered_as": "stood firm", "note": "The decisive contrast between compliance and resistance — the turning point of the narrative"}]
+    },
+    {
+      "verse": 17,
+      "text_latin": "et respondentes qui missi erant ab Antiocho dixerunt Matthathiae princeps et clarissimus et magnus es in hac civitate et ornatus filiis et fratribus",
+      "rendering": "Those sent by Antiochus spoke to Mattathias: 'You are a leader, famous and great in this city, and strengthened with sons and brothers.'",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 18,
+      "text_latin": "ergo accede prior et fac iussum regis sicut fecerunt omnes gentes et viri Iuda et qui remanserunt in Hierusalem et eris tu et filii tui inter amicos regis et amplificatus auro et argento et muneribus multis",
+      "rendering": "Come forward first and carry out the king's command, as all the nations have done, and the men of Judah, and those who remain in Jerusalem. Then you and your sons shall be counted among the Friends of the King, and you will be enriched with gold and silver and many gifts.",
+      "translator_notes": ["'Amicos regis' — 'Friends of the King' — was an official Seleucid court title carrying real political power and privilege, not merely a description of personal relationship."],
+      "key_terms": [{"latin": "amicos regis", "rendered_as": "Friends of the King", "note": "An official court rank in the Seleucid empire, conferring status and material rewards"}]
+    },
+    {
+      "verse": 19,
+      "text_latin": "et respondit Matthathias et dixit magna voce etsi omnes gentes regi Antiocho oboediunt ut discedat unusquisque a servitute legis patrum suorum et consentiant mandatis eius",
+      "rendering": "But Mattathias answered and said with a loud voice: 'Even if all the nations in the king's dominions obey him, so that each one forsakes the worship of his fathers and consents to his commands,",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 20,
+      "text_latin": "ego et filii mei et fratres mei oboediemus legi patrum nostrorum",
+      "rendering": "yet I and my sons and my brothers will obey the Law of our fathers.",
+      "translator_notes": ["This declaration is the foundational statement of the revolt — framed not as political rebellion but as covenant fidelity."],
+      "key_terms": [{"latin": "legi patrum nostrorum", "rendered_as": "Law of our fathers", "note": "The Torah, framed as ancestral heritage — combining religious authority with patriarchal tradition"}]
+    },
+    {
+      "verse": 21,
+      "text_latin": "propitius sit nobis Deus absit a nobis derelinquere legem et iustificationes Dei",
+      "rendering": "God forbid that we should forsake the Law and the ordinances of God!",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 22,
+      "text_latin": "verba regis Antiochi non audiemus nec sacrificabimus transgressi legis nostrae mandata ut eamus altera via",
+      "rendering": "We will not obey the words of King Antiochus, nor will we sacrifice by transgressing the commands of our Law, to go a different way.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 23,
+      "text_latin": "et ut cessavit loqui verba haec accessit quidam Iudaeus in omnium oculis sacrificare super aram in civitate Modin secundum iussum regis",
+      "rendering": "As soon as he finished speaking these words, a certain Jew came forward in the sight of all to sacrifice upon the altar in Modein, according to the king's command.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 24,
+      "text_latin": "et vidit Matthathias et doluit et contremuerunt renes eius",
+      "rendering": "Mattathias saw it and burned with zeal, and his inmost parts trembled.",
+      "translator_notes": ["'Contremuerunt renes eius' — literally 'his kidneys trembled' — the kidneys were considered the seat of deepest emotion in Semitic thought. This is visceral, uncontrollable moral outrage."],
+      "key_terms": [{"latin": "contremuerunt renes eius", "rendered_as": "his inmost parts trembled", "note": "Kidneys as seat of deep emotion; conveys visceral moral fury beyond rational calculation"}]
+    },
+    {
+      "verse": 25,
+      "text_latin": "et accendit ira eius secundum iudicium legis et insiliens trucidavit eum super aram",
+      "rendering": "His anger blazed according to the judgment of the Law, and he leaped forward and killed him upon the altar.",
+      "translator_notes": ["'Secundum iudicium legis' — 'according to the judgment of the Law' — frames the killing not as murder but as legitimate Torah enforcement, specifically echoing Phinehas's action in Numbers 25."],
+      "key_terms": [{"latin": "secundum iudicium legis", "rendered_as": "according to the judgment of the Law", "note": "Legal justification for zealous violence; invokes the Phinehas precedent"}]
+    },
+    {
+      "verse": 26,
+      "text_latin": "sed et virum quem rex Antiochus miserat qui cogebat immolari occidit in ipso tempore et aram destruxit",
+      "rendering": "He also killed the king's officer who was compelling them to sacrifice, at that very moment, and he tore down the altar.",
+      "translator_notes": ["Three decisive acts in rapid succession: kill the apostate, kill the enforcer, destroy the altar. This is the spark of the Maccabean revolt."],
+      "key_terms": []
+    },
+    {
+      "verse": 27,
+      "text_latin": "et zelatus est legem sicut fecit Finees Zamri filio Salomi",
+      "rendering": "He burned with zeal for the Law, just as Phinehas had done to Zimri son of Salu.",
+      "translator_notes": ["The explicit comparison to Phinehas (Numbers 25:6-15) provides the biblical precedent and theological legitimation for the entire revolt. Phinehas's zealous killing was rewarded with a covenant of perpetual priesthood."],
+      "key_terms": [{"latin": "zelatus est legem", "rendered_as": "burned with zeal for the Law", "note": "The defining characteristic of Mattathias and the theological basis for the revolt — priestly zeal"}]
+    },
+    {
+      "verse": 28,
+      "text_latin": "et exclamavit Matthathias voce magna in civitate dicens omnis qui zelum habet legis statuens testamentum exeat post me",
+      "rendering": "Then Mattathias cried out in the city with a loud voice: 'Let everyone who is zealous for the Law and who stands by the covenant come out and follow me!'",
+      "translator_notes": ["This is the battle cry of the Maccabean revolt — one of the most consequential rallying calls in Jewish history. It defines the resistance as covenant loyalty, not political ambition."],
+      "key_terms": [{"latin": "omnis qui zelum habet legis", "rendered_as": "everyone who is zealous for the Law", "note": "The rallying cry of the revolt; the word 'zelus' (zeal) connects to the Zealot movement of later centuries"}]
+    },
+    {
+      "verse": 29,
+      "text_latin": "et fugit ipse et filii eius in montes et reliquerunt quaecumque habebant in civitate",
+      "rendering": "He and his sons fled to the mountains, leaving behind everything they owned in the city.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 30,
+      "text_latin": "tunc descenderunt multi quaerentes iudicium et iustitiam in desertum",
+      "rendering": "Then many who sought justice and righteousness went down into the wilderness.",
+      "translator_notes": [],
+      "key_terms": [{"latin": "iudicium et iustitiam", "rendered_as": "justice and righteousness", "note": "A paired term for Torah faithfulness; going to the wilderness echoes Israel's foundational desert experience"}]
+    },
+    {
+      "verse": 31,
+      "text_latin": "ut sederent ibi ipsi et filii eorum et mulieres eorum et pecora eorum quoniam inundaverunt super eos mala",
+      "rendering": "They settled there — they, their sons, their wives, and their livestock — because evils had overwhelmed them.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 32,
+      "text_latin": "et renuntiatum est viris regis et exercitui qui erat in Hierusalem civitate David quoniam descenderunt viri quidam qui dissipaverunt mandatum regis in loca occulta in deserto et abierunt post illos multi",
+      "rendering": "It was reported to the king's men and to the army stationed in Jerusalem in the City of David that certain men who had defied the king's command had gone down to hiding places in the wilderness, and many had gone after them.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 33,
+      "text_latin": "et confestim perrexerunt ad eos et constituerunt adversus eos proelium in die sabbatorum",
+      "rendering": "They marched out against them at once and drew up battle lines against them on the Sabbath day.",
+      "translator_notes": ["The Seleucid forces deliberately chose the Sabbath, knowing that strict Torah observers would not fight on the holy day."],
+      "key_terms": [{"latin": "die sabbatorum", "rendered_as": "Sabbath day", "note": "The deliberate choice of the Sabbath for attack exploited Jewish religious observance as a military vulnerability"}]
+    },
+    {
+      "verse": 34,
+      "text_latin": "et dixerunt ad eos vel nunc exite et facite secundum verbum regis Antiochi et vivetis",
+      "rendering": "They called out to them: 'Even now, come out and do as the king commands, and you shall live.'",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 35,
+      "text_latin": "et dixerunt non exibimus nec faciemus verbum regis ut polluamus diem sabbatorum",
+      "rendering": "But they replied: 'We will not come out, nor will we obey the king's command to profane the Sabbath day.'",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 36,
+      "text_latin": "et concitaverunt adversus eos proelium",
+      "rendering": "Then they attacked them in battle.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 37,
+      "text_latin": "et non responderunt eis nec lapidem miserunt in eos nec oppilaverunt loca occulta",
+      "rendering": "But they did not fight back, nor did they throw a stone at them, nor did they barricade their hiding places.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 38,
+      "text_latin": "dicentes moriamur omnes in simplicitate nostra testes erunt super nos caelum et terra quod iniuste perditis nos",
+      "rendering": "They said: 'Let us all die in our innocence. Heaven and earth are witnesses against you that you destroy us unjustly.'",
+      "translator_notes": ["Calling heaven and earth as witnesses echoes the covenantal witness formula of Deuteronomy 30:19."],
+      "key_terms": [{"latin": "in simplicitate nostra", "rendered_as": "in our innocence", "note": "Simplicitas here means integrity/innocence — they die as righteous sufferers, not as combatants"}]
+    },
+    {
+      "verse": 39,
+      "text_latin": "et intulerunt illis bellum sabbatis et mortui sunt ipsi et uxores eorum et filii eorum et pecora eorum usque ad mille animas hominum",
+      "rendering": "So they attacked them on the Sabbath, and they died — they and their wives and their children and their livestock — up to a thousand souls.",
+      "translator_notes": ["The massacre of a thousand non-resisting Sabbath observers is the crisis that forces a practical halakhic decision in the following verses."],
+      "key_terms": []
+    },
+    {
+      "verse": 40,
+      "text_latin": "et cognovit Matthathias et amici eius et luxerunt super eos valde",
+      "rendering": "When Mattathias and his companions learned of it, they mourned deeply for them.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 41,
+      "text_latin": "et dixit vir proximo suo si omnes fecerimus sicut fratres nostri fecerunt et non pugnaverimus adversus gentes pro animabus nostris et iustificationibus nostris nunc citius disperdent nos a terra",
+      "rendering": "They said to one another: 'If we all do as our brothers did, and refuse to fight the nations for our lives and our ordinances, they will quickly destroy us from the earth.'",
+      "translator_notes": ["This pragmatic argument — that total pacifism on the Sabbath means extinction — leads to the landmark decision in the next verse."],
+      "key_terms": []
+    },
+    {
+      "verse": 42,
+      "text_latin": "et cogitaverunt in die illa dicentes omnis homo quicumque venerit ad nos in bello die sabbatorum pugnemus adversus eum et non moriemur omnes sicut mortui sunt fratres nostri in occultis",
+      "rendering": "They reached a decision that day: 'If anyone attacks us in battle on the Sabbath day, let us fight against him, and let us not all die as our brothers died in their hiding places.'",
+      "translator_notes": ["This ruling — that defensive warfare is permitted on the Sabbath — became a foundational principle in Jewish law. It represents one of the earliest recorded examples of halakhic reasoning adapting to extreme circumstances."],
+      "key_terms": []
+    },
+    {
+      "verse": 43,
+      "text_latin": "tunc congregata est ad eos synagoga Assidaeorum fortis viribus ex Israhel omnis voluntarius in lege",
+      "rendering": "Then the assembly of the Hasideans joined them — mighty warriors of Israel, every one of them devoted to the Law.",
+      "translator_notes": ["The Hasideans (Asidaioi/Chasidim, 'the pious ones') were a movement of strict Torah observance who joined the military revolt. They are considered forerunners of both the Pharisees and Essenes."],
+      "key_terms": [{"latin": "Assidaeorum", "rendered_as": "Hasideans", "note": "Chasidim — 'the pious'; a movement of devout Jews who became the revolt's ideological core; ancestors of Pharisees and possibly Essenes"}]
+    },
+    {
+      "verse": 44,
+      "text_latin": "et omnes qui fugiebant a malis additi sunt ad eos et facti sunt illis ad firmamentum",
+      "rendering": "All who were fleeing from the evils rallied to them and became a source of strength.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 45,
+      "text_latin": "et collegerunt exercitum et percusserunt peccatores in ira sua et viros iniquos in indignatione sua et ceteri fugerunt ad nationes ut evaderent",
+      "rendering": "They gathered an army and struck down sinners in their wrath and lawless men in their indignation. The survivors fled to the nations for safety.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 46,
+      "text_latin": "et circuivit Matthathias et amici eius et destruxerunt aras",
+      "rendering": "Mattathias and his companions went around and tore down the pagan altars.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 47,
+      "text_latin": "et circumciderunt pueros incircumcisos quotquot invenerunt in finibus Israhel et in fortitudine",
+      "rendering": "They circumcised by force every uncircumcised boy they found within the borders of Israel.",
+      "translator_notes": ["The forced circumcision campaign restores the visible sign of the Abrahamic covenant that Antiochus had banned."],
+      "key_terms": []
+    },
+    {
+      "verse": 48,
+      "text_latin": "et persecuti sunt filios superbiae et prosperatum est opus in manibus eorum",
+      "rendering": "They pursued the arrogant, and the work prospered in their hands.",
+      "translator_notes": [],
+      "key_terms": [{"latin": "filios superbiae", "rendered_as": "the arrogant", "note": "Literally 'sons of pride'; designates the Hellenizing faction and Seleucid collaborators"}]
+    },
+    {
+      "verse": 49,
+      "text_latin": "et obtinuerunt legem de manibus gentium et de manibus regum et non dederunt cornu peccatori",
+      "rendering": "They rescued the Law from the hands of the nations and from the hands of kings, and gave no ground to the sinner.",
+      "translator_notes": [],
+      "key_terms": [{"latin": "cornu peccatori", "rendered_as": "ground to the sinner", "note": "Literally 'horn to the sinner' — 'horn' is a biblical image of power and strength; they denied the wicked any advantage"}]
+    },
+    {
+      "verse": 50,
+      "text_latin": "et adpropinquaverunt dies Matthathiae moriendi et dixit filiis suis nunc confortata est superbia et castigatio et tempus eversionis et ira indignationis",
+      "rendering": "When the days drew near for Mattathias to die, he said to his sons: 'Now arrogance and punishment have grown strong; it is a time of upheaval and fierce wrath.'",
+      "translator_notes": ["Mattathias's deathbed speech (vv. 50-68) is a testament — a farewell discourse in the tradition of Jacob (Genesis 49), Moses (Deuteronomy 33), and Joshua (Joshua 23-24)."],
+      "key_terms": []
+    },
+    {
+      "verse": 51,
+      "text_latin": "nunc ergo filii aemulatores estote legis et date animas vestras pro testamento patrum vestrorum",
+      "rendering": "Now therefore, my sons, be zealous for the Law, and give your lives for the covenant of your fathers.",
+      "translator_notes": ["'Date animas vestras' — 'give your lives' — explicitly calls for willingness to die for the covenant. This is a foundational text for the concept of martyrdom."],
+      "key_terms": [{"latin": "aemulatores legis", "rendered_as": "zealous for the Law", "note": "The same zeal vocabulary as Phinehas and Elijah; the defining virtue of the Maccabean movement"},
+        {"latin": "testamento patrum", "rendered_as": "covenant of your fathers", "note": "The ancestral covenant — Torah faithfulness framed as family heritage and sacred obligation"}]
+    },
+    {
+      "verse": 52,
+      "text_latin": "et mementote operum patrum quae fecerunt in generationibus suis et accipietis gloriam magnam et nomen aeternum",
+      "rendering": "Remember the deeds of the fathers, what they did in their generations, and you will receive great glory and an everlasting name.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 53,
+      "text_latin": "Abraham nonne in temptatione inventus est fidelis et reputatum est ei ad iustitiam",
+      "rendering": "Was not Abraham found faithful in trial, and it was counted to him as righteousness?",
+      "translator_notes": ["This echoes Genesis 15:6, the verse Paul cites in Romans 4 and Galatians 3 for justification by faith. Here, however, the emphasis is on faithfulness under testing, not faith as trust."],
+      "key_terms": [{"latin": "reputatum est ei ad iustitiam", "rendered_as": "counted to him as righteousness", "note": "Genesis 15:6 — here applied to Abraham's faithfulness under trial rather than his believing God's promise"}]
+    },
+    {
+      "verse": 54,
+      "text_latin": "Ioseph in tempore angustiae suae custodivit mandatum et factus est dominus Aegypti",
+      "rendering": "Joseph, in the time of his distress, kept the commandment and became lord of Egypt.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 55,
+      "text_latin": "Finees pater noster zelando zelum Dei accepit testamentum sacerdotii aeterni",
+      "rendering": "Phinehas our father, by being zealous with the zeal of God, received the covenant of an everlasting priesthood.",
+      "translator_notes": ["The Phinehas reference is the theological center of the speech — the precedent that justifies the entire Maccabean enterprise as zealous priestly action rewarded with perpetual priesthood (Numbers 25:10-13)."],
+      "key_terms": [{"latin": "zelando zelum Dei", "rendered_as": "being zealous with the zeal of God", "note": "Cognate accusative construction emphasizing intensity; the very pattern Mattathias has just enacted"},
+        {"latin": "testamentum sacerdotii aeterni", "rendered_as": "covenant of an everlasting priesthood", "note": "Numbers 25:12-13; legitimates the Hasmonean claim to priestly (and eventually royal) authority"}]
+    },
+    {
+      "verse": 56,
+      "text_latin": "Iesus dum implevit verbum factus est dux in Israhel",
+      "rendering": "Joshua, by fulfilling the word, became a leader in Israel.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 57,
+      "text_latin": "Chaleb dum testificatur in ecclesia accepit hereditatem",
+      "rendering": "Caleb, by bearing witness in the assembly, received an inheritance.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 58,
+      "text_latin": "David in sua misericordia consecutus est sedem regni in saecula",
+      "rendering": "David, by his mercy, obtained the throne of an everlasting kingdom.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 59,
+      "text_latin": "Helias dum zelat zelum legis receptus est in caelum",
+      "rendering": "Elijah, because he burned with zeal for the Law, was taken up into heaven.",
+      "translator_notes": ["Elijah is the second 'zealot' exemplar after Phinehas, reinforcing that zeal for God's Law is the supreme priestly virtue."],
+      "key_terms": [{"latin": "zelat zelum legis", "rendered_as": "burned with zeal for the Law", "note": "Same zeal terminology as Phinehas; Elijah's confrontation with Baal worship parallels the Maccabean situation exactly"}]
+    },
+    {
+      "verse": 60,
+      "text_latin": "Ananias Azarias Misahel credendo liberati sunt de flamma",
+      "rendering": "Hananiah, Azariah, and Mishael, by believing, were delivered from the flame.",
+      "translator_notes": ["The three companions of Daniel (known by their Babylonian names Shadrach, Meshach, and Abednego) who refused to worship the golden image — a direct parallel to refusing pagan sacrifice."],
+      "key_terms": []
+    },
+    {
+      "verse": 61,
+      "text_latin": "Danihel in sua simplicitate liberatus est de ore leonum",
+      "rendering": "Daniel, in his innocence, was delivered from the mouth of the lions.",
+      "translator_notes": [],
+      "key_terms": [{"latin": "simplicitate", "rendered_as": "innocence", "note": "Same word used of the Sabbath martyrs in v. 38 — connecting their innocence with Daniel's"}]
+    },
+    {
+      "verse": 62,
+      "text_latin": "et ita cogitate per generationem et generationem quia omnes qui sperant in eum non infirmabuntur",
+      "rendering": "So consider, from generation to generation: none who put their hope in him will lack strength.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 63,
+      "text_latin": "et a verbis viri peccatoris ne timueritis quia gloria eius stercus et vermis est",
+      "rendering": "Do not fear the words of a sinful man, for his glory is but dung and worms.",
+      "translator_notes": ["The contemptuous comparison of Antiochus's glory to excrement and worms anticipates the graphic account of Antiochus's death in 2 Maccabees 9:9."],
+      "key_terms": [{"latin": "stercus et vermis", "rendered_as": "dung and worms", "note": "Deliberately degrading language for royal pretension; foreshadows Antiochus's worm-eaten death"}]
+    },
+    {
+      "verse": 64,
+      "text_latin": "hodie extollitur et cras non invenietur quia conversus est in terram suam et cogitatio eius peribit",
+      "rendering": "Today he is exalted, and tomorrow he will not be found, for he has returned to his dust, and his plans will perish.",
+      "translator_notes": ["Echoes Psalm 146:4 — 'His spirit departs, he returns to his earth; in that very day his plans perish.'"],
+      "key_terms": []
+    },
+    {
+      "verse": 65,
+      "text_latin": "vos ergo filii confortamini et viriliter agite in lege quia in ipsa gloriosi eritis",
+      "rendering": "Therefore, my sons, be strong and act with courage in the Law, for by it you will be glorified.",
+      "translator_notes": [],
+      "key_terms": [{"latin": "viriliter agite", "rendered_as": "act with courage", "note": "Literally 'act manfully'; a military exhortation applied to Torah observance — the fusion of warrior and pious virtues"}]
+    },
+    {
+      "verse": 66,
+      "text_latin": "et ecce Simon frater vester scio quod vir consilii est ipsum audite semper et ipse erit vobis pater",
+      "rendering": "Behold, I know that your brother Simon is a man of counsel. Listen to him always; he shall be a father to you.",
+      "translator_notes": ["Mattathias identifies Simon as the wise counselor — a role that will prove prophetic when Simon eventually becomes the leader who achieves full independence (chapters 13-16)."],
+      "key_terms": [{"latin": "vir consilii", "rendered_as": "man of counsel", "note": "Political and strategic wisdom; Simon's defining gift, contrasting with Judas's military prowess"}]
+    },
+    {
+      "verse": 67,
+      "text_latin": "et Iudas Macchabaeus fortis viribus a iuventute sua sit vobis princeps militiae et ipse aget bellum populi",
+      "rendering": "And Judas Maccabeus, mighty in strength from his youth — let him be your commander of the army, and he shall wage the people's war.",
+      "translator_notes": ["The dual appointment — Simon for counsel, Judas for war — establishes the leadership structure of the revolt."],
+      "key_terms": [{"latin": "princeps militiae", "rendered_as": "commander of the army", "note": "Military title; Judas is appointed war leader, not king or priest — a distinction the Hasmoneans would later blur"}]
+    },
+    {
+      "verse": 68,
+      "text_latin": "et adplicabitis ad vos omnes factores legis et vindicate vindictam populi vestri",
+      "rendering": "Rally to yourselves all who observe the Law, and avenge the wrongs of your people.",
+      "translator_notes": [],
+      "key_terms": [{"latin": "vindicate vindictam", "rendered_as": "avenge the wrongs", "note": "Cognate accusative for emphasis; vengeance framed as righteous duty, not personal vendetta"}]
+    },
+    {
+      "verse": 69,
+      "text_latin": "retribuite retributionem gentibus et adtendite in praeceptum legis",
+      "rendering": "Pay back the nations in full, and hold fast to the command of the Law.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 70,
+      "text_latin": "et benedixit eos et adpositus est ad patres suos",
+      "rendering": "He blessed them and was gathered to his fathers.",
+      "translator_notes": ["'Adpositus est ad patres suos' — 'was gathered to his fathers' — the standard biblical formula for a righteous death, affirming Mattathias's place among the patriarchs he had just cataloged."],
+      "key_terms": [{"latin": "adpositus est ad patres suos", "rendered_as": "gathered to his fathers", "note": "Standard biblical death formula implying honored reunion with ancestors; cf. Genesis 25:8, 35:29"}]
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "1 Kings",
+    "tradition": "lxx",
+    "tradition_label": "Septuagint (LXX) / 3 Kingdoms",
+    "source_text": "Rahlfs-Hanhart, Septuaginta (3 Kingdoms = 3 Basileiōn)",
+    "base_text": "Westminster Leningrad Codex (WLC)",
+    "translators": "Alexandrian Jewish translators (3rd–2nd c. BCE)",
+    "date": "3rd–2nd century BCE",
+    "generated_at": "2026-04-22T00:00:00Z",
+    "prompt_version": "1.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "LXX 1 Kings (3 Kingdoms) is one of the most textually divergent LXX books. It has major material not found in MT — the so-called 'Miscellanies' at 2:35a–o, 2:46a–l, and 12:24a–z — and rearranges the chapter order of 1 Kings 20 and 21 (LXX presents them in the reverse order of MT). These Miscellanies appear to preserve an older Hebrew Vorlage or a parallel Hebrew edition of the Solomon and Jeroboam narratives that was not incorporated into the proto-Masoretic text. Text critics judge them a significant window into the pre-MT transmission of the books.",
+    "notable_variants": "The LXX 'sound of fine breath' at 19:12 rendering what MT and TCR render 'thin silence' (qol demamah daqqah); the preserved-remnant count of seven thousand at 19:18 that Romans 11:4 cites verbatim; the Miscellany pluses at 2:35a–o and 12:24a–z that have no MT equivalent; the chapter-order swap at 20–21; and the temple-dedication vocabulary of chapter 8 that shapes Acts 7 and Hebrews 9.",
+    "theological_legacy": "LXX 1 Kings is cited directly at Romans 11:4 (Paul's argument for the preservation of the remnant). It also supplies the LXX word-field for the Jerusalem Temple as oikos tou theou that the NT deploys for the church as the new Temple (1 Cor 3:16–17, 1 Pet 2:5, Eph 2:19–22). The Elijah cycle in its LXX form stands behind the Transfiguration accounts and the question about Elijah's return that threads through all four Gospels."
+  },
+  "renderings": [
+    {
+      "reference": "1 Kings 2:3",
+      "mt_reading": "וְשָׁמַרְתָּ אֶת־מִשְׁמֶרֶת יְהוָה אֱלֹהֶיךָ",
+      "lxx_reading": "καὶ φυλάξεις τὴν φυλακὴν κυρίου τοῦ θεοῦ σου",
+      "mt_rendering": "Keep the charge of the LORD your God",
+      "lxx_rendering": "You shall keep the keeping of the Lord your God",
+      "significance": "moderate",
+      "notes": [
+        "David's charge to Solomon is preserved in LXX with the cognate construction phylaxeis tēn phylakēn ('keep the keeping'), mirroring Hebrew shamarta mishmeret.",
+        "The LXX 1 Kings 'Miscellanies' at 2:35a–o and 2:46a–l — nearly a full page of material with no MT equivalent — supply a parallel list of Solomon's administrative achievements, his marriage alliance with Pharaoh's daughter, and a strikingly different account of Jeroboam's rebellion. The Miscellanies appear to be translated from a Hebrew Vorlage, not composed freshly in Greek."
+      ]
+    },
+    {
+      "reference": "1 Kings 8:13",
+      "mt_reading": "בָּנֹה בָנִיתִי בֵּית זְבֻל לָךְ",
+      "lxx_reading": "οἰκοδομήσας ᾠκοδόμηκά σοι οἶκον κατοικητήριον",
+      "mt_rendering": "I have surely built you a lofty house — a fixed place for your dwelling forever",
+      "lxx_rendering": "In building I have built for you a house, a dwelling place",
+      "significance": "moderate",
+      "notes": [
+        "The LXX adds a striking ascription at 8:53a (not present in MT): 'The sun was set in the heavens by the Lord; he said that he would dwell in thick darkness. Build my house, a splendid house for yourself, to dwell in forever. Is this not written in the book of the Song?'",
+        "The LXX's reference to a 'book of the Song' (biblion tēs ōdēs) is widely thought to be a citation of the lost Sefer ha-Yashar or a closely related ancient poetic collection. This is one of the most striking LXX pluses in the whole tradition — a direct citation of a now-lost Hebrew source book."
+      ]
+    },
+    {
+      "reference": "1 Kings 8:27",
+      "mt_reading": "כִּי הַאֻמְנָם יֵשֵׁב אֱלֹהִים עַל־הָאָרֶץ הִנֵּה הַשָּׁמַיִם וּשְׁמֵי הַשָּׁמַיִם לֹא יְכַלְכְּלוּךָ",
+      "lxx_reading": "ὅτι εἰ ἀληθῶς κατοικήσει ὁ θεὸς μετὰ ἀνθρώπων ἐπὶ τῆς γῆς εἰ ὁ οὐρανὸς καὶ ὁ οὐρανὸς τοῦ οὐρανοῦ οὐκ ἀρκέσουσίν σοι",
+      "mt_rendering": "But will God truly dwell on the earth? Look — heaven itself, even the highest heaven, cannot contain you",
+      "lxx_rendering": "For if God will truly dwell with men upon the earth — if the heaven and the heaven of heaven will not suffice for you",
+      "significance": "theological",
+      "notes": [
+        "Stephen's speech at Acts 7:48–49 echoes this verse together with Isaiah 66:1–2: 'the Most High does not dwell in houses made with hands.' The vocabulary — katoikei, cheiropoiētos, ouranos kai gē — is LXX 1 Kings 8 and LXX Isaiah 66 fused.",
+        "Paul's speech at Areopagus (Acts 17:24) draws on the same LXX word-field: 'The God who made the world and everything in it does not dwell in shrines made by human hands.' The whole Jewish-Hellenistic critique of temple-as-dwelling is Greek-Kings vocabulary."
+      ]
+    },
+    {
+      "reference": "1 Kings 12:24",
+      "mt_reading": "(end of MT ch 12)",
+      "lxx_reading": "12:24a–z = major LXX plus, c. 550 words of parallel Jeroboam narrative",
+      "mt_rendering": "(no corresponding MT text)",
+      "lxx_rendering": "And the king said … (lengthy alternate Jeroboam narrative)",
+      "significance": "major",
+      "notes": [
+        "The LXX's 'Second Miscellany' at 1 Kings 12:24a–z is roughly twenty-six Greek verses of alternative narrative about Jeroboam — his rise, rebellion, encounter with Shemaiah the prophet, and the splitting of the kingdom. The material parallels but differs substantially from the MT chapters 11–12 narrative.",
+        "Some elements of the Miscellany appear to preserve older traditions; others look like secondary expansions. The current scholarly view is that LXX 1 Kings 12:24a–z is translated from a Hebrew Vorlage that existed alongside the proto-MT text.",
+        "The Miscellany's existence is one of the clearest signs that the 'Kings' book circulated in distinctly different Hebrew editions in the Second Temple period."
+      ]
+    },
+    {
+      "reference": "1 Kings 18:36",
+      "mt_reading": "יְהוָה אֱלֹהֵי אַבְרָהָם יִצְחָק וְיִשְׂרָאֵל",
+      "lxx_reading": "κύριε ὁ θεὸς Αβρααμ καὶ Ισαακ καὶ Ισραηλ",
+      "mt_rendering": "LORD, God of Abraham, Isaac, and Israel",
+      "lxx_rendering": "Lord, God of Abraham and Isaac and Israel",
+      "significance": "moderate",
+      "notes": [
+        "The 'God of Abraham and Isaac and Jacob/Israel' triad runs through the LXX (Exod 3:6, 3:15, 3:16; Deut 1:8, 6:10; 1 Kgs 18:36, etc.) and is quoted by Jesus at Matthew 22:32, Mark 12:26, Luke 20:37 (the sadducees-and-resurrection argument).",
+        "Stephen uses the same triad at Acts 7:32. The patriarchal triadic formula is a fixed LXX phrase that every NT writer engaging patriarchal theology deploys."
+      ]
+    },
+    {
+      "reference": "1 Kings 19:12",
+      "mt_reading": "קוֹל דְּמָמָה דַקָּה",
+      "lxx_reading": "φωνὴ αὔρας λεπτῆς",
+      "mt_rendering": "a sound of thin silence",
+      "lxx_rendering": "a sound of a fine breeze",
+      "significance": "theological",
+      "notes": [
+        "The LXX renders qol demamah daqqah as phōnē aurēs leptēs — 'a sound of a fine/gentle breeze.' Hebrew demamah means 'silence, stillness'; the LXX interprets it as 'breeze, breath of air' (aura).",
+        "The KJV's famous 'still small voice' reflects the LXX's interpretive move, not the Hebrew's paradoxical 'sound of silence.' TCR follows the Hebrew with 'a sound of thin silence.' Reading the two renderings side by side shows how the LXX tilted Western reception toward a sensory experience (gentle wind) where the Hebrew intended the paradox of a sensed silence.",
+        "The LXX's aura ('breath, breeze') shares a semantic root with pneuma. Some early Christian commentators read 1 Kings 19 typologically as a theophany of the Holy Spirit — a reading only available in the Greek."
+      ]
+    },
+    {
+      "reference": "1 Kings 19:18",
+      "mt_reading": "וְהִשְׁאַרְתִּי בְיִשְׂרָאֵל שִׁבְעַת אֲלָפִים",
+      "lxx_reading": "καὶ καταλείψεις ἐν Ισραηλ ἑπτὰ χιλιάδας ἀνδρῶν",
+      "mt_rendering": "Yet I will leave seven thousand in Israel",
+      "lxx_rendering": "And you shall leave in Israel seven thousand men",
+      "significance": "theological",
+      "notes": [
+        "Romans 11:4 quotes this verse in its LXX form — kataleloipa emautō heptakischilious andras ('I have kept for myself seven thousand men') — as the scriptural basis for the doctrine of the faithful remnant. Paul's wording adjusts the LXX's second-person future ('you shall leave') into a first-person perfect ('I have kept'), but the core phrase and theological function are LXX-derived.",
+        "The 'remnant' theology that runs through Isaiah, Jeremiah, and Paul has its concrete exemplar in the seven thousand Elijah-era faithful. The specific number and the LXX wording are what Romans 11 depends on."
+      ]
+    },
+    {
+      "reference": "1 Kings 21:19 (LXX 20:19)",
+      "mt_reading": "בִּמְקוֹם אֲשֶׁר לָקְקוּ הַכְּלָבִים אֶת־דַּם נָבוֹת",
+      "lxx_reading": "ἐν τῷ τόπῳ ᾧ ἔλειξαν αἱ ὕες καὶ οἱ κύνες τὸ αἷμα Ναβουθαι",
+      "mt_rendering": "In the place where dogs licked the blood of Naboth",
+      "lxx_rendering": "In the place where the swine and the dogs licked the blood of Naboth",
+      "significance": "moderate",
+      "notes": [
+        "LXX adds 'swine' (hyes) alongside 'dogs.' The addition intensifies the ritual-pollution of Naboth's judicial murder: both unclean animal categories participate in the blood-licking.",
+        "LXX 1 Kings also swaps the order of chapters 20 and 21 against MT: LXX 20 = MT 21 (Naboth's vineyard), LXX 21 = MT 20 (Ben-hadad wars). This is one of the clearest macro-level LXX/MT disagreements on chapter sequence in the historical books."
+      ]
+    }
+  ]
+}

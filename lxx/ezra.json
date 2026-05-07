@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Ezra",
+    "tradition": "lxx",
+    "tradition_label": "Septuagint (LXX) / Esdras B",
+    "source_text": "Rahlfs-Hanhart, Septuaginta (Esdras B = Esdras-Nehemiah)",
+    "base_text": "Westminster Leningrad Codex (WLC, Hebrew and Aramaic)",
+    "translators": "Alexandrian Jewish translators (2nd c. BCE)",
+    "date": "2nd century BCE",
+    "generated_at": "2026-04-22T00:00:00Z",
+    "prompt_version": "1.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "The Greek tradition preserves two distinct books covering the Ezra-Nehemiah material. Esdras A (1 Esdras in English) is a free-form Greek narrative paraphrasing and reshaping material from 2 Chronicles 35–36, Ezra, and Nehemiah 7–8 with a unique added narrative — the Story of the Three Youths at the court of Darius. Esdras B translates MT Ezra-Nehemiah more literally and is the source of modern English 'Ezra' and 'Nehemiah' as two separate books. This file documents the Esdras B tradition's rendering choices; the larger 1 Esdras question is a separate tradition-layer issue.",
+    "notable_variants": "The Cyrus decree at 1:1–2 whose Greek wording parallels 2 Chronicles 36:23 and sets up the Persian-period return; the 'skilled scribe' formula at 7:6 (grammateus tachys) that supplies NT scribe-vocabulary; the communal confession at 9:6–7 whose posture and language shape Hellenistic Jewish penitential liturgy; and the handling of the Aramaic sections of the Hebrew-Aramaic text (Ezra 4:8–6:18 and 7:12–26) where the LXX translates from Aramaic without marking the language shift.",
+    "theological_legacy": "The 1 Esdras / Esdras A tradition shaped Hellenistic and early Christian readings of the Persian-period return by adding the Story of the Three Youths, with its famous 'truth is the greatest' speech (1 Esdras 4:41) — a text cited in patristic literature as a Greek biblical source for reflection on truth. Esdras B preserved the more sober historiography that the MT and Western canon inherit."
+  },
+  "renderings": [
+    {
+      "reference": "Ezra 1:1",
+      "mt_reading": "הֵעִיר יְהוָה אֶת־רוּחַ כֹּרֶשׁ",
+      "lxx_reading": "ἐξήγειρεν κύριος τὸ πνεῦμα Κύρου",
+      "mt_rendering": "the LORD stirred the spirit of Cyrus king of Persia",
+      "lxx_rendering": "the Lord roused the spirit of Cyrus",
+      "significance": "moderate",
+      "notes": [
+        "The LXX's exēgeiren ('roused, awakened') is the verb used for resurrection in the NT (1 Cor 6:14, Rom 8:11). The divine-rousing-of-the-spirit vocabulary in LXX historical books (here, and at Haggai 1:14, Zech 4:1) carries a resonance that Greek Christian readers found naturally applicable to the resurrection and to the awakening of the believer's spirit.",
+        "Ezra 1:1 is quoted almost verbatim from the closing verse of 2 Chronicles — the same Cyrus decree. The Hebrew canon's order placed Chronicles last and Ezra separately; in either order, the repetition creates a strong narrative link between the end of the exile and the beginning of restoration."
+      ]
+    },
+    {
+      "reference": "Ezra 1:2",
+      "mt_reading": "יְהוָה אֱלֹהֵי הַשָּׁמַיִם נָתַן לִי הָאָרֶץ",
+      "lxx_reading": "κύριος ὁ θεὸς τοῦ οὐρανοῦ ἔδωκέν μοι πάσας τὰς βασιλείας τῆς γῆς",
+      "mt_rendering": "The LORD, the God of heaven, has given me all the kingdoms of the earth",
+      "lxx_rendering": "The Lord, the God of heaven, has given me all the kingdoms of the earth",
+      "significance": "moderate",
+      "notes": [
+        "The 'God of heaven' (theos tou ouranou) is a standard Persian-period divine title in the Aramaic documents of Ezra and Nehemiah, and the LXX preserves it. The title reappears in Revelation 11:13 ('they … gave glory to the God of heaven'), where the LXX-Ezra language frames a universal acknowledgment scene.",
+        "The imperial-authority-given-by-God framing of Cyrus's decree shaped Jewish understanding of legitimate gentile rulers (Isaiah's call of Cyrus at 45:1 as mashiach; Paul's Rom 13:1 submission to governing authorities)."
+      ]
+    },
+    {
+      "reference": "Ezra 7:6",
+      "mt_reading": "סֹפֵר מָהִיר בְּתוֹרַת מֹשֶׁה",
+      "lxx_reading": "γραμματεὺς ταχὺς ἐν νόμῳ Μωυσῆ",
+      "mt_rendering": "a scribe skilled in the Law of Moses",
+      "lxx_rendering": "a swift scribe in the Law of Moses",
+      "significance": "moderate",
+      "notes": [
+        "The Hebrew mahir ('skilled, quick') is rendered as tachys ('swift'). The title grammateus tachys became an honorific for the learned scribe in Hellenistic Jewish usage.",
+        "The NT's grammateis ('scribes') in the Gospels are the institutional descendants of this Ezra-type. Ezra's characterization as the archetypal scribe skilled in the Law shapes the Gospel's portrayal of the scribal class — sometimes with respect (the scribe of Mark 12:34, 'not far from the kingdom'), sometimes polemically (Matthew 23's woes)."
+      ]
+    },
+    {
+      "reference": "Ezra 9:6-7",
+      "mt_reading": "עֲוֺנֹתֵינוּ רָבוּ לְמַעְלָה רֹאשׁ וְאַשְׁמָתֵנוּ גָדְלָה עַד לַשָּׁמָיִם",
+      "lxx_reading": "αἱ ἀνομίαι ἡμῶν ἐπληθύνθησαν ὑπὲρ κεφαλῆς ἡμῶν καὶ αἱ πλημμέλειαι ἡμῶν ἐμεγαλύνθησαν ἕως εἰς οὐρανόν",
+      "mt_rendering": "our iniquities have risen over our heads and our guilt has grown up to the heavens",
+      "lxx_rendering": "our lawlessnesses have multiplied above our heads and our offenses have grown up to heaven",
+      "significance": "moderate",
+      "notes": [
+        "The LXX's anomiai ('lawlessnesses') renders Hebrew avonot — a key LXX equivalence that supplies NT vocabulary. 1 John 3:4 defines sin as anomia, 'lawlessness,' deploying the standard LXX term.",
+        "The 'guilt growing up to heaven' image reappears at Revelation 18:5 ('her sins have piled up to heaven'), where the Babylon-judgment scene explicitly echoes LXX Ezra's vocabulary of cumulative corporate guilt. Revelation 18 reads Babylon through LXX-Ezra eyes.",
+        "Ezra's communal confession posture (kneeling, hands spread, weeping) became the template for Hellenistic Jewish and early Christian public penitential prayer."
+      ]
+    }
+  ]
+}

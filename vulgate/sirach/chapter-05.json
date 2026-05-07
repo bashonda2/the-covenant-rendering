@@ -1,0 +1,151 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Sirach",
+    "chapter": 5,
+    "tradition": "vulgate",
+    "tradition_label": "Latin Vulgate (Deuterocanonical)",
+    "source_text": "Biblia Sacra Vulgata (Stuttgart critical edition)",
+    "translator": "Jerome",
+    "date": "c. 405 CE",
+    "canon": ["catholic", "orthodox", "ethiopian"],
+    "generated_at": "2026-04-20T00:00:00Z",
+    "prompt_version": "2.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Ben Sira warns against presuming on wealth, self-sufficiency, or God's patience. Do not say 'I will sin and God will forgive' -- divine mercy is not a license for recklessness. The second half is devoted to the ethics of speech: be swift to hear and slow to answer, do not spread slander, guard your tongue, and let your words be consistent and truthful.",
+    "remarkable": "The warning against presumptuous reliance on God's mercy (vv. 4-7) directly addresses the theological complacency that later Christian writers called 'cheap grace.' The speech-ethics section (vv. 11-18) is among the most developed in the wisdom tradition and anticipates James 3:1-12 in its concern with the destructive power of the tongue.",
+    "friction": "The assertion that God's wrath 'comes suddenly' (v. 7) creates tension with the patience theology of chapter 2. Ben Sira manages both truths -- God is patient AND God's judgment can arrive without warning -- without fully synthesizing them.",
+    "connections": "Romans 2:4-5 (presuming on God's kindness); James 3:1-12 (the tongue as fire); Proverbs 10:19 (in many words sin is not absent); Ecclesiastes 5:1-2 (be not rash with your mouth); Psalm 62:10 (do not trust in wealth)."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_latin": "Noli adtendere ad possessiones iniquas et ne dixeris est mihi sufficiens vitae multae enim divitiae sunt mihi.",
+      "rendering": "Do not set your heart on ill-gotten possessions, and do not say, 'I have enough for my life,' for great riches are mine.",
+      "translator_notes": ["The chapter opens by targeting the wealthy who feel self-sufficient. The danger is not wealth per se but the false security it breeds."],
+      "key_terms": [{"latin": "possessiones iniquas", "rendered_as": "ill-gotten possessions", "note": "Iniquus marks the wealth as unjustly acquired; the warning applies to both the means of acquisition and the attitude of possession."}]
+    },
+    {
+      "verse": 2,
+      "text_latin": "Ne sequaris concupiscentiam et fortitudinem tuam.",
+      "rendering": "Do not follow your desire and your strength.",
+      "translator_notes": ["Concupiscentia paired with fortitudo: the combination of wanting and having the power to get is particularly dangerous."],
+      "key_terms": [{"latin": "concupiscentiam", "rendered_as": "desire", "note": "Concupiscentia here is disordered appetite generally, not yet the narrow sexual sense it acquired in later Latin theology."}]
+    },
+    {
+      "verse": 3,
+      "text_latin": "Et ne dixeris quomodo potui aut quis me subiciet propter facta mea Deus enim vindicans vindicabit.",
+      "rendering": "And do not say, 'Who can overpower me?' or 'Who will hold me accountable for my deeds?' For God will surely take vengeance.",
+      "translator_notes": ["The arrogant question 'Who can overpower me?' echoes Pharaoh, Nebuchadnezzar, and other proud rulers who learned the answer too late."],
+      "key_terms": [{"latin": "vindicans vindicabit", "rendered_as": "will surely take vengeance", "note": "The doubled verb (Hebrew infinitive absolute construction preserved in Latin) intensifies certainty: God will without fail repay."}]
+    },
+    {
+      "verse": 4,
+      "text_latin": "Ne dixeris peccavi et quid mihi accidit triste Altissimus enim est patiens redditor.",
+      "rendering": "Do not say, 'I sinned, and what harm came to me?' For the Most High is a patient recompenser.",
+      "translator_notes": ["The most dangerous presumption: interpreting God's patience as indifference. Ben Sira warns that divine forbearance has a limit."],
+      "key_terms": [{"latin": "patiens redditor", "rendered_as": "a patient recompenser", "note": "God is patient (patiens) but also one who repays (redditor); patience does not cancel justice."}]
+    },
+    {
+      "verse": 5,
+      "text_latin": "De propitiato peccato noli esse sine metu neque adicias peccatum super peccatum.",
+      "rendering": "Concerning forgiven sin, do not be without fear, and do not heap sin upon sin.",
+      "translator_notes": ["Forgiveness received should produce grateful vigilance, not careless repetition."],
+      "key_terms": [{"latin": "propitiato", "rendered_as": "forgiven", "note": "From propitiare, to appease or make favorable; the sin has been covered but the inclination to repeat it remains."}]
+    },
+    {
+      "verse": 6,
+      "text_latin": "Et ne dixeris miseratio Domini magna est multitudinis peccatorum meorum miserebitur.",
+      "rendering": "And do not say, 'His mercy is great; he will forgive the multitude of my sins.'",
+      "translator_notes": ["This is the classic statement of presumption: using the doctrine of mercy as a pretext for continued sinning. It was a central proof-text in Catholic moral theology against the vice of praesumptio."],
+      "key_terms": [{"latin": "miseratio", "rendered_as": "mercy", "note": "Miseratio is the emotional dimension of mercy -- compassion, pity -- as distinct from misericordia, which adds the element of active response."}]
+    },
+    {
+      "verse": 7,
+      "text_latin": "Misericordia enim et ira ab illo cito proximant et in peccatores respicit ira illius.",
+      "rendering": "For mercy and wrath alike come swiftly from him, and his anger rests upon sinners.",
+      "translator_notes": ["The parallelism is deliberate: mercy and wrath are not opposites but twin aspects of God's engagement with humanity. Both can arrive 'swiftly' (cito)."],
+      "key_terms": [{"latin": "ira", "rendered_as": "wrath", "note": "Ira Dei (the wrath of God) is not capricious anger but the just response of holiness to persistent rebellion."}]
+    },
+    {
+      "verse": 8,
+      "text_latin": "Non tardes converti ad Dominum et ne differas de die in diem.",
+      "rendering": "Do not delay turning to the Lord, and do not put it off from day to day.",
+      "translator_notes": ["The urgency of repentance: delay is itself a form of presumption."],
+      "key_terms": [{"latin": "converti", "rendered_as": "turning", "note": "Conversio is the Latin rendering of Hebrew teshuvah (return/repentance); it implies a complete reorientation of life."}]
+    },
+    {
+      "verse": 9,
+      "text_latin": "Subito enim veniet ira illius et in tempore vindictae disperdet te.",
+      "rendering": "For his wrath will come suddenly, and in the time of vengeance he will destroy you.",
+      "translator_notes": ["'Subito' (suddenly) is the key word: the sinner who delays assumes time is available, but judgment may strike without warning."],
+      "key_terms": []
+    },
+    {
+      "verse": 10,
+      "text_latin": "Noli anxius esse in divitiis iniustis non enim proderunt tibi in die obductionis et vindictae.",
+      "rendering": "Do not be anxious about unjust riches, for they will profit you nothing in the day of adversity and vengeance.",
+      "translator_notes": ["Returns to the opening theme: unjust wealth is useless when divine judgment arrives."],
+      "key_terms": []
+    },
+    {
+      "verse": 11,
+      "text_latin": "Non ventiles te in omnem ventum et non eas in omnem viam sic enim omnis peccator probatur in duplici lingua.",
+      "rendering": "Do not winnow yourself in every wind, and do not walk in every path; for so is every sinner tested who speaks with a double tongue.",
+      "translator_notes": ["The winnowing image is agricultural: grain tossed in every breeze scatters uselessly. The 'double tongue' connects speech to moral instability."],
+      "key_terms": [{"latin": "duplici lingua", "rendered_as": "a double tongue", "note": "Parallels the 'double heart' of 1:37 and 2:15; in speech, duplicity means saying one thing and meaning another."}]
+    },
+    {
+      "verse": 12,
+      "text_latin": "Esto firmus in via Domini et in veritate sensus tui et scientia et prosequatur te verbum pacis et iustitiae.",
+      "rendering": "Be steadfast in the way of the Lord, and in the truth of your understanding and knowledge, and let the word of peace and justice attend you.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 13,
+      "text_latin": "Esto mansuetus ad audiendum verbum ut intellegas et cum sapientia proferas verum responsum.",
+      "rendering": "Be gentle in hearing a word, so that you may understand, and with wisdom give a true answer.",
+      "translator_notes": ["Listening precedes speaking; understanding precedes answering. This is the core discipline of wise speech."],
+      "key_terms": [{"latin": "mansuetus", "rendered_as": "gentle", "note": "The gentle listener is receptive and unhurried, the opposite of the impulsive speaker."}]
+    },
+    {
+      "verse": 14,
+      "text_latin": "Si est tibi intellectus responde proximo sin autem sit manus tua super os tuum ne capiaris in verbo indisciplinato et confundaris.",
+      "rendering": "If you have understanding, answer your neighbor; but if not, let your hand be over your mouth, lest you be caught in an undisciplined word and put to shame.",
+      "translator_notes": ["The image of the hand over the mouth is found also in Job 21:5 and 40:4; it represents the physical discipline of silence."],
+      "key_terms": []
+    },
+    {
+      "verse": 15,
+      "text_latin": "Honor et gloria in sermone sensati lingua vero imprudentis subversio est ipsius.",
+      "rendering": "Honor and glory are in the speech of the discerning, but the tongue of the fool is his own ruin.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 16,
+      "text_latin": "Non appelleris susurro et lingua tua ne capiaris et confundaris.",
+      "rendering": "Do not be called a whisperer, and do not be caught and put to shame by your tongue.",
+      "translator_notes": [],
+      "key_terms": [{"latin": "susurro", "rendered_as": "a whisperer", "note": "The susurro is a gossip or slanderer who speaks in undertones; the word itself sounds like whispering."}]
+    },
+    {
+      "verse": 17,
+      "text_latin": "Super furem enim est confusio et paenitentia et denotatio pessima super bilinguem susurroni autem odium et inimicitia et contumelia.",
+      "rendering": "For upon the thief fall shame and reproach, and the worst disgrace upon the double-tongued; but upon the whisperer fall hatred, enmity, and insult.",
+      "translator_notes": ["The hierarchy of social censure: the thief loses honor, the two-faced person loses reputation, the gossip loses relationships entirely."],
+      "key_terms": [{"latin": "bilinguem", "rendered_as": "the double-tongued", "note": "Bilinguis (two-tongued) is one who says different things to different people; a more specific form of duplici corde."}]
+    },
+    {
+      "verse": 18,
+      "text_latin": "Iustifica pusillum et magnum similiter.",
+      "rendering": "Treat the small and the great alike with justice.",
+      "translator_notes": ["The chapter closes with a lapidary command for impartial justice, forming an inclusio with the opening warning against unjust wealth."],
+      "key_terms": [{"latin": "iustifica", "rendered_as": "treat with justice", "note": "Iustificare here means to render a just verdict or fair treatment, not the theological sense of 'declare righteous.'"}]
+    }
+  ]
+}

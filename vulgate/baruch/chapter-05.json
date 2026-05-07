@@ -1,0 +1,88 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Baruch",
+    "chapter": 5,
+    "tradition": "vulgate",
+    "tradition_label": "Latin Vulgate (Deuterocanonical)",
+    "source_text": "Biblia Sacra Vulgata (Stuttgart critical edition)",
+    "translator": "Jerome",
+    "date": "c. 405 CE",
+    "canon": ["catholic", "orthodox", "ethiopian"],
+    "generated_at": "2026-04-20T00:00:00Z",
+    "prompt_version": "2.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "The prophetic consolation reaches its climax. Jerusalem is told to exchange her mourning garments for the splendor of God's glory. She is to stand on a height and look east, where her scattered children are being gathered by God himself. Mountains are leveled and valleys filled so that Israel may walk home safely. The chapter closes with the assurance that God will lead Israel home with mercy and righteousness as companions.",
+    "remarkable": "This chapter is virtually a poetic paraphrase of Isaiah 40-66 (the 'Book of Consolation'), compressed into nine verses. The imagery of flattened mountains and filled valleys (v. 7) directly echoes Isaiah 40:4. The renaming of Jerusalem as 'Peace of Righteousness' and 'Glory of the Fear of God' (v. 4) follows the Isaianic pattern of giving the restored city new names that embody her transformed character. The chapter serves as Baruch's theological crescendo: exile is not the final word.",
+    "friction": "The heavy dependence on Isaiah has led some scholars to view this chapter as a later addition or an independent psalm appended to the Baruch collection. The brevity (only 9 verses) is unusual for a chapter-length unit. The Psalms of Solomon 11 contains almost identical language, raising questions about which text is earlier.",
+    "connections": "Isaiah 40:3-5 (prepare the way, every valley lifted); Isaiah 52:1-2 (put on beautiful garments, O Jerusalem); Isaiah 60:1-3 (arise, shine, your light has come); Isaiah 61:3, 10 (garments of praise); Psalms of Solomon 11 (parallel consolation of Jerusalem)."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_latin": "Exue te Hierusalem stola luctus et vexationis tuae et indue te decore et honore eius quae a Deo tibi est sempiternae gloriae.",
+      "rendering": "Take off your garment of mourning and affliction, O Jerusalem, and clothe yourself with the beauty and honor of the everlasting glory that comes from God.",
+      "translator_notes": ["The command to change garments is the symbolic reversal of 4:20, where Jerusalem put on sackcloth. Now she is told to put on glory -- not her own, but God's."],
+      "key_terms": [{"latin": "stola luctus", "rendered_as": "garment of mourning", "note": "The sackcloth of 4:20 is now to be exchanged; stola (a long robe) indicates this is a full transformation of identity, not merely a change of mood."}]
+    },
+    {
+      "verse": 2,
+      "text_latin": "Circumdabit te Deus diploide iustitiae et inponet mitram capiti honoris aeterni.",
+      "rendering": "God will wrap you in the double cloak of righteousness, and will place upon your head the crown of everlasting honor.",
+      "translator_notes": [],
+      "key_terms": [{"latin": "diploide iustitiae", "rendered_as": "double cloak of righteousness", "note": "The diplois is a double-layered garment signifying richness and dignity; righteousness is not an abstract quality but a visible adornment that God bestows."}, {"latin": "mitram", "rendered_as": "crown", "note": "A priestly or royal headdress; Jerusalem is being invested with both priestly and royal dignity by God himself."}]
+    },
+    {
+      "verse": 3,
+      "text_latin": "Deus enim ostendet splendorem suum in te omni quae sub caelo est.",
+      "rendering": "For God will display his splendor in you to every nation under heaven.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 4,
+      "text_latin": "Nominabitur enim tibi nomen tuum a Deo in sempiternum pax iustitiae et decus pietatis.",
+      "rendering": "For God will give you this name forever: 'Peace of Righteousness' and 'Glory of Devotion.'",
+      "translator_notes": ["The renaming of Jerusalem follows the prophetic pattern of Isaiah 62:2-4, where the city receives new names reflecting its restored relationship with God. Names in the biblical world define identity and destiny."],
+      "key_terms": [{"latin": "pax iustitiae", "rendered_as": "Peace of Righteousness", "note": "A compound name indicating that Jerusalem's peace is not mere absence of conflict but the fruit of restored justice."}, {"latin": "decus pietatis", "rendered_as": "Glory of Devotion", "note": "Pietas here carries the Latin sense of dutiful devotion -- reverence toward God, loyalty to covenant obligations."}]
+    },
+    {
+      "verse": 5,
+      "text_latin": "Surge Hierusalem et sta in excelso et circumspice ad orientem et vide collectos filios tuos ab oriente sole usque ad occidentem in verbo Sancti gaudentes Dei memoria.",
+      "rendering": "Arise, O Jerusalem, and stand upon the height, and look toward the east. See your children gathered from the rising of the sun to its setting, by the word of the Holy One, rejoicing in the remembrance of God.",
+      "translator_notes": ["The command 'Arise ... stand ... look' creates a threefold call to active hope, paralleling Isaiah 60:1 ('Arise, shine, for your light has come')."],
+      "key_terms": []
+    },
+    {
+      "verse": 6,
+      "text_latin": "Exierunt enim abs te pedibus ducti ab inimicis adducet autem illos Dominus ad te portatos in honore sicut filios regni.",
+      "rendering": "For they went out from you on foot, driven by enemies; but the Lord will bring them back to you, carried in honor like royal children.",
+      "translator_notes": ["The contrast between departing on foot (as prisoners) and returning carried in honor (as royalty) captures the reversal theology at the heart of Baruch's consolation."],
+      "key_terms": [{"latin": "filios regni", "rendered_as": "royal children", "note": "Literally 'sons of the kingdom'; the exiles' return restores their royal dignity as God's covenant people."}]
+    },
+    {
+      "verse": 7,
+      "text_latin": "Constituit enim Deus humiliare omnem montem excelsum et rupes perennes et convalles replere in aequalitatem terrae ut ambulet Israhel diligenter in honorem Dei.",
+      "rendering": "For God has determined to level every high mountain and the everlasting cliffs, and to fill up the valleys to make level ground, so that Israel may walk safely in the glory of God.",
+      "translator_notes": ["This verse is a direct echo of Isaiah 40:4 ('Every valley shall be lifted up, every mountain made low'). The cosmic road-building imagery presents God as the engineer of his people's return."],
+      "key_terms": []
+    },
+    {
+      "verse": 8,
+      "text_latin": "Obumbraverunt autem et silvae et omne lignum suavitatis Israhel de mandato Dei.",
+      "rendering": "And the forests and every fragrant tree will give shade to Israel at God's command.",
+      "translator_notes": ["The shade-giving trees transform the harsh wilderness return journey into a garden pilgrimage, echoing Isaiah 41:19 and 55:12-13."],
+      "key_terms": []
+    },
+    {
+      "verse": 9,
+      "text_latin": "Adducet enim Deus Israhel cum iucunditate in lumine maiestatis suae cum misericordia et iustitia quae est ab ipso.",
+      "rendering": "For God will lead Israel with joy, in the light of his majesty, with the mercy and righteousness that come from him.",
+      "translator_notes": ["The book's final note on the return journey names God's two great attributes -- mercy and righteousness -- as the traveling companions of the returning exiles. This pairing echoes Psalm 85:10 ('Mercy and truth have met together; righteousness and peace have kissed')."],
+      "key_terms": [{"latin": "misericordia et iustitia", "rendered_as": "mercy and righteousness", "note": "The twin pillars of God's character: misericordia (covenant faithfulness, compassion) and iustitia (righteous order, justice). Together they define the nature of the restoration."}]
+    }
+  ]
+}

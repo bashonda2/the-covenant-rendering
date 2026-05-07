@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Jonah",
+    "tradition": "lxx",
+    "tradition_label": "Septuagint (LXX)",
+    "source_text": "Rahlfs-Hanhart, Septuaginta",
+    "base_text": "Westminster Leningrad Codex (WLC)",
+    "translators": "Alexandrian Jewish translators (2nd c. BCE)",
+    "date": "2nd century BCE",
+    "generated_at": "2026-04-22T00:00:00Z",
+    "prompt_version": "1.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "LXX Jonah tracks MT closely. Its key NT significance is the 'sign of Jonah' that Jesus invokes at Matthew 12:39–41 and Luke 11:29–32 — three days and three nights in the belly of the great fish as a type of Jesus' three days in the tomb. The LXX's specific vocabulary for the fish, for the 'three days and three nights,' and for the Ninevites' repentance all feed directly into the Gospel's Jonah-typology.",
+    "notable_variants": "The LXX's kētos ('sea-monster, whale') for Hebrew dag gadol ('great fish') that Matthew 12:40 inherits verbatim; the three-days-three-nights formula whose Greek wording Jesus quotes; the divine-attributes formula at 4:2 that echoes Exodus 34:6.",
+    "theological_legacy": "The sign of Jonah is the Gospels' most developed OT-prophet typology for Jesus' death and resurrection. Every element of the typology — the monster, the three days, the return to land, the preaching that produces repentance — runs on LXX vocabulary."
+  },
+  "renderings": [
+    {
+      "reference": "Jonah 1:17 (LXX/MT 2:1)",
+      "mt_reading": "וַיְמַן יְהוָה דָּג גָּדוֹל לִבְלֹעַ אֶת־יוֹנָה",
+      "lxx_reading": "καὶ προσέταξεν κύριος κήτει μεγάλῳ καταπιεῖν τὸν Ιωναν",
+      "mt_rendering": "The LORD appointed a great fish to swallow Jonah",
+      "lxx_rendering": "And the Lord commanded a great sea-monster to swallow Jonah",
+      "significance": "theological",
+      "notes": [
+        "Hebrew dag gadol ('great fish') is rendered kētos megas ('great sea-monster, whale'). Matthew 12:40 ('Jonah was in the belly of the kētos three days and three nights') uses the LXX's specific word — not 'fish' (ichthys) but 'sea-monster' (kētos).",
+        "The kētos vocabulary carries with it the mythological sea-monster of ancient near-eastern cosmology (Rahab, Leviathan). LXX Job 40–41, LXX Psalm 74 (73 LXX), and other passages use kētos for these cosmic-chaos creatures. Jonah's fish takes on, in Greek, an overtone of cosmic-chaos conquest.",
+        "The chapter numbering differs: LXX and most modern English editions place the 'fish' verse as 1:17 (end of chapter 1); Hebrew tradition and some English editions count it as 2:1 (beginning of chapter 2)."
+      ]
+    },
+    {
+      "reference": "Jonah 3:5",
+      "mt_reading": "וַיַּאֲמִינוּ אַנְשֵׁי נִינְוֵה בֵּאלֹהִים",
+      "lxx_reading": "καὶ ἐπίστευσαν οἱ ἄνδρες Νινευη τῷ θεῷ",
+      "mt_rendering": "The people of Nineveh believed God",
+      "lxx_rendering": "And the men of Nineveh believed in God",
+      "significance": "theological",
+      "notes": [
+        "The LXX's episteusan ('they believed') at Jonah 3:5 is the same verb in the same aorist form that describes Abram's faith at LXX Genesis 15:6 ('Abram believed God'). Hebrews 11's pistis-exemplars chapter does not name the Ninevites, but Jesus in Matthew 12:41 ('the men of Nineveh will rise at the judgment with this generation and condemn it, because they repented at the preaching of Jonah') draws on the same LXX episteusan framework.",
+        "The Ninevites in the LXX are thus the Gentile pistis-paradigm: they believed, they repented, they were spared. Jesus' contrast between their repentance and the unbelief of 'this generation' works on exactly this LXX template."
+      ]
+    },
+    {
+      "reference": "Jonah 4:2",
+      "mt_reading": "אֵל־חַנּוּן וְרַחוּם אֶרֶךְ אַפַּיִם וְרַב־חֶסֶד וְנִחָם עַל־הָרָעָה",
+      "lxx_reading": "ὅτι σὺ ἐλεήμων καὶ οἰκτίρμων μακρόθυμος καὶ πολυέλεος καὶ μετανοῶν ἐπὶ ταῖς κακίαις",
+      "mt_rendering": "you are a gracious and compassionate God, slow to anger and abounding in faithful love",
+      "lxx_rendering": "for you are merciful and compassionate, patient and full of mercy, and relenting over evils",
+      "significance": "theological",
+      "notes": [
+        "Jonah's complaint against God's mercy cites the Exodus 34:6 divine-attributes formula — the single most repeated self-description of God in the Hebrew Bible. The LXX renders with eleēmōn, oiktirmōn, makrothymos, polyeleos — the same cluster of Greek words that runs across LXX Exodus, Numbers, Psalms, Joel, Nahum, Nehemiah, 2 Chronicles.",
+        "James 5:11 ('the Lord is polysplanchnos and oiktirmōn') and NT ascriptions of divine patience (Rom 2:4, 2 Pet 3:9) draw on this standard LXX attribute-cluster. The Jonah 4 passage is one of the few that uses all four of the key adjectives in a single verse."
+      ]
+    }
+  ]
+}

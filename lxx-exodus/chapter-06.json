@@ -1,0 +1,225 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Exodus",
+    "chapter": 6,
+    "tradition": "lxx-exodus",
+    "tradition_label": "Septuagint (LXX)",
+    "source_text": "Rahlfs-Hanhart, Septuaginta",
+    "base_text": "Westminster Leningrad Codex (WLC)",
+    "date": "3rd century BCE",
+    "generated_at": "2026-04-22T00:00:00Z",
+    "prompt_version": "1.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Exodus 6 is the theological heart of the book's first half. The divine name is revealed again (6:2–3), the four verbs of redemption are declared (6:6–8: 'I will bring out / deliver / redeem / take'), and the Levitical genealogy centering on Moses, Aaron, and Phinehas is inserted (6:14–25). The LXX preserves these structural elements faithfully, but the rendering of El Shaddai at 6:3 is one of the chapter's most discussed translation choices. The chapter supplies the vocabulary — exagō, lytrosomai, laos mou — that will shape NT redemption theology.",
+    "notable_variants": "The rendering of El Shaddai at 6:3 (LXX theos ōn autōn — 'being their God'); the four-verb redemption formula at 6:6 in its LXX form that supplies NT redemption vocabulary; the 'I will take you as my people, and I will be your God' covenant formula at 6:7 quoted at 2 Corinthians 6:16 and Revelation 21:3; Moses' 'uncircumcised lips' at 6:12 and 6:30.",
+    "structural_notes": "LXX Exodus 6 preserves MT's 30-verse structure. The Levitical genealogy runs 14–25."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "has_variant": false,
+      "variant_notes": ["The divine response 'now you will see what I will do to Pharaoh … by a mighty hand' uses the en cheiri krataia formula that becomes a signature Exodus refrain (recurring at Deut 4:34, 5:15, 6:21, 7:8, 7:19, etc.) for the LXX's language of the Exodus deliverance."]
+    },
+    {
+      "verse": 2,
+      "has_variant": false,
+      "variant_notes": ["'I am the LORD' (egō eimi kyrios) is the LXX's standard rendering of the divine self-identification 'ani YHWH,' the signature formula that recurs dozens of times across Exodus and Leviticus 18–27."]
+    },
+    {
+      "verse": 3,
+      "has_variant": true,
+      "significance": "theological",
+      "mt_reading": "בְּאֵל שַׁדָּי וּשְׁמִי יְהוָה לֹא נוֹדַעְתִּי לָהֶם",
+      "lxx_reading": "θεὸς ὢν αὐτῶν καὶ τὸ ὄνομά μου κύριος οὐκ ἐδήλωσα αὐτοῖς",
+      "mt_rendering": "I appeared to Abraham, to Isaac, and to Jacob as God Almighty, but by My name the LORD I did not make Myself fully known to them",
+      "variant_rendering": "being their God, but my name — the Lord — I did not declare to them",
+      "variant_notes": [
+        "LXX renders El Shaddai simply as theos ōn autōn — 'being their God' — dropping the puzzling Shaddai epithet entirely. The translators apparently did not know (or refused to render) what Shaddai meant.",
+        "This is one of the most telling LXX moves with respect to divine names. Where Hebrew preserves a distinctive older title (El Shaddai — perhaps 'God of the mountain' or 'the Destroyer' etymologically), the LXX flattens it to a generic 'God.' The theology of divine name-progression (patriarchs knew El Shaddai; Moses learns YHWH) is obscured in Greek.",
+        "Hebrews 11 and Acts 7, when they speak of the patriarchs' knowledge of God, work with the LXX's more abstract theos rather than with the distinctive Shaddai tradition."
+      ]
+    },
+    {
+      "verse": 4,
+      "has_variant": false,
+      "variant_notes": ["The covenant with the patriarchs to give them Canaan is rendered directly in LXX."]
+    },
+    {
+      "verse": 5,
+      "has_variant": false,
+      "variant_notes": ["God's hearing the groaning (stenagmos) of Israel is rendered with the noun stenagmos that reappears at Romans 8:22–23 (the 'groaning' of creation and of the Spirit's intercession)."]
+    },
+    {
+      "verse": 6,
+      "has_variant": true,
+      "significance": "theological",
+      "mt_reading": "וְהוֹצֵאתִי … וְהִצַּלְתִּי … וְגָאַלְתִּי",
+      "lxx_reading": "ἐξάξω … ῥύσομαι … λυτρώσομαι",
+      "mt_rendering": "I will bring you out … I will deliver you … I will redeem you",
+      "variant_rendering": "I will bring you out … I will rescue you … I will redeem you",
+      "variant_notes": [
+        "The four verbs of divine deliverance — yatsa hiphil ('bring out'), natsal hiphil ('deliver'), ga'al ('redeem'), laqach ('take') — are LXX's exagō, rhyomai, lytroō, lambanō. The four-verb pattern became the liturgical template of the Passover Haggadah's 'four cups.'",
+        "The LXX's lytrōsomai ('I will redeem') is the key NT vocabulary for redemption. Luke 1:68 (Zechariah's Benedictus: epoiēsen lytrōsin tō laō autou, 'he has worked redemption for his people'), Titus 2:14 (lytrōsētai, 'that he might redeem us'), and 1 Peter 1:18 (elytrōthēte, 'you were redeemed') all draw the lytroō root directly from LXX Exodus's fourfold redemption formula.",
+        "The 'outstretched arm and great acts of judgment' — en brachioni hypsēlō kai krisei megalē — becomes a standing LXX phrase for the Exodus event (Deut 4:34; 5:15; 7:19; 9:29; 11:2; 26:8; Ps 136:12) and is echoed in the Magnificat's epoiēsen kratos en brachioni autou (Luke 1:51)."
+      ]
+    },
+    {
+      "verse": 7,
+      "has_variant": true,
+      "significance": "theological",
+      "mt_reading": "וְלָקַחְתִּי אֶתְכֶם לִי לְעָם וְהָיִיתִי לָכֶם לֵאלֹהִים",
+      "lxx_reading": "καὶ λήμψομαι ἐμαυτῷ ὑμᾶς λαὸν ἐμοὶ καὶ ἔσομαι ὑμῶν θεός",
+      "mt_rendering": "I will take you as My people, and I will be your God",
+      "variant_rendering": "I will take you to myself as my people, and I will be your God",
+      "variant_notes": [
+        "The 'I will be your God, and you shall be my people' covenant-formula is a signature biblical refrain running through Exodus 6, Leviticus 26:12, Jeremiah 7:23, 11:4, 24:7, 30:22, 31:33, 32:38, Ezekiel 11:20, 14:11, 36:28, 37:23, 37:27, Zechariah 8:8, and more.",
+        "2 Corinthians 6:16 ('I will be their God, and they shall be my people') and Revelation 21:3 ('they shall be his peoples, and God himself will be with them as their God') are the NT's climactic invocations of this LXX covenant-formula.",
+        "The formula's consistent LXX Greek form — laos mou / theos hymōn — is what the NT writers are citing."
+      ]
+    },
+    {
+      "verse": 8,
+      "has_variant": false,
+      "variant_notes": ["The promise to bring Israel into the covenant land is rendered directly. The 'possession' (kataschesis in LXX) vocabulary recurs in NT inheritance-theology (Acts 7:5, 'he gave him no inheritance in it, not a foot of ground to place his foot,' uses the kataschesis of which Israel's historical possession was pattern)."]
+    },
+    {
+      "verse": 9,
+      "has_variant": false,
+      "variant_notes": ["Israel's failure to listen because of 'crushed spirit' (oligopsychia) and 'harsh bondage' tracks MT. Oligopsychia ('faint-heartedness') recurs at 1 Thessalonians 5:14 (paramytheisthe tous oligopsychous, 'encourage the faint-hearted')."]
+    },
+    {
+      "verse": 10,
+      "has_variant": false,
+      "variant_notes": ["The divine speech formula ('the LORD spoke to Moses, saying') tracks MT in LXX."]
+    },
+    {
+      "verse": 11,
+      "has_variant": false,
+      "variant_notes": ["The command to tell Pharaoh to release Israel is rendered directly."]
+    },
+    {
+      "verse": 12,
+      "has_variant": true,
+      "significance": "moderate",
+      "mt_reading": "וַאֲנִי עֲרַל שְׂפָתָיִם",
+      "lxx_reading": "ἐγὼ δὲ ἄλογός εἰμι",
+      "mt_rendering": "I am unskilled in speech",
+      "variant_rendering": "I am without speech",
+      "variant_notes": [
+        "The Hebrew 'uncircumcised of lips' (aral sefatayim) is a vivid idiom that parallels Jeremiah 6:10's 'uncircumcised ears' and Leviticus 26:41's 'uncircumcised heart.' The LXX of Exodus 6:12 renders it abstractly as alogos ('without speech, irrational') rather than preserving the distinctive 'uncircumcised' metaphor.",
+        "TCR renders 'unskilled in speech,' a modernizing choice that captures the sense while losing the striking metaphor. The LXX's alogos is a philosophical term (contrasted with Logos) that gave the verse an unintended philosophical-anthropological resonance in Hellenistic Jewish reading."
+      ]
+    },
+    {
+      "verse": 13,
+      "has_variant": false,
+      "variant_notes": ["The joint charge to Moses and Aaron follows MT."]
+    },
+    {
+      "verse": 14,
+      "has_variant": false,
+      "variant_notes": ["The genealogical insertion begins with Reuben's four clans (Enōch, Phallou, Asrōn, Charmi in LXX). The list follows MT."]
+    },
+    {
+      "verse": 15,
+      "has_variant": false,
+      "variant_notes": ["Simeon's clans track MT, with the notice of Shaul's Canaanite mother preserved in LXX."]
+    },
+    {
+      "verse": 16,
+      "has_variant": false,
+      "variant_notes": ["The three sons of Levi — Gershon, Kohath, Merari — are rendered with standard LXX transliterations. Levi's 137-year lifespan is preserved."]
+    },
+    {
+      "verse": 17,
+      "has_variant": false,
+      "variant_notes": ["The two sons of Gershon (Libni and Shimei) tracks MT."]
+    },
+    {
+      "verse": 18,
+      "has_variant": false,
+      "variant_notes": ["The four sons of Kohath (Amram, Izhar, Hebron, Uzziel) and Kohath's 133-year lifespan preserve MT."]
+    },
+    {
+      "verse": 19,
+      "has_variant": false,
+      "variant_notes": ["The two sons of Merari (Mahli and Mushi) follow MT."]
+    },
+    {
+      "verse": 20,
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "וַיִּקַּח עַמְרָם אֶת־יוֹכֶבֶד דֹּדָתוֹ לוֹ לְאִשָּׁה",
+      "lxx_reading": "ἔλαβεν δὲ Αμβραμ τὴν Ιωχαβεδ θυγατέρα τοῦ ἀδελφοῦ τοῦ πατρὸς αὐτοῦ ἑαυτῷ εἰς γυναῖκα",
+      "mt_rendering": "Amram married Jochebed, his father's sister",
+      "variant_rendering": "Amram took Iōchabed, daughter of his father's brother, for himself as a wife",
+      "variant_notes": [
+        "MT has Jochebed as Amram's father's sister (his paternal aunt), a marriage later prohibited by Leviticus 18:12. The LXX quietly changes this to 'daughter of his father's brother' (first cousin) — avoiding the later-prohibited-incest problem.",
+        "The LXX's harmonization is similar to its move at Exodus 4:24 (softening YHWH to 'angel'). Where the literal Hebrew creates a theological-legal problem, the Greek smooths it over.",
+        "Samaritan Pentateuch preserves the 'father's brother' reading, suggesting the harmonization may be pre-LXX and present in the Hebrew Vorlage used by both traditions."
+      ]
+    },
+    {
+      "verse": 21,
+      "has_variant": false,
+      "variant_notes": ["The three sons of Izhar (Korah, Nepheg, Zichri) follow MT. Korah's name will become famous at Numbers 16."]
+    },
+    {
+      "verse": 22,
+      "has_variant": false,
+      "variant_notes": ["The three sons of Uzziel (Mishael, Elzaphan, Sithri) track MT."]
+    },
+    {
+      "verse": 23,
+      "has_variant": false,
+      "variant_notes": ["Aaron's marriage to Elisheba and the birth of Nadab, Abihu, Eleazar, and Ithamar is rendered closely. Elisheba becomes Elisabet in Greek — the same name as John the Baptist's mother at Luke 1:5, where the Elizabeth-as-wife-of-a-priest parallel is probably intentional."]
+    },
+    {
+      "verse": 24,
+      "has_variant": false,
+      "variant_notes": ["The three sons of Korah (Assir, Elkanah, Abiasaph) follow MT. The 'sons of Korah' will become superscriptions of twelve Psalms."]
+    },
+    {
+      "verse": 25,
+      "has_variant": false,
+      "variant_notes": ["Eleazar's marriage and Phinehas's birth track MT. Phinehas (Numbers 25) is the zealous grandson who defines priestly zeal in LXX tradition."]
+    },
+    {
+      "verse": 26,
+      "has_variant": false,
+      "variant_notes": ["The genealogy's climax — 'this Aaron and Moses' — tracks MT. The genealogy's pronominal emphasis (hoyos estin Aarōn kai Mōysēs) underscores these as the patriarchally-certified pair chosen for the commission."]
+    },
+    {
+      "verse": 27,
+      "has_variant": false,
+      "variant_notes": ["The reverse naming — 'this Moses and Aaron' — balances v. 26's 'this Aaron and Moses,' bracketing the genealogy."]
+    },
+    {
+      "verse": 28,
+      "has_variant": false,
+      "variant_notes": ["The narrative resumes — 'on the day when the LORD spoke to Moses' — in direct LXX rendering."]
+    },
+    {
+      "verse": 29,
+      "has_variant": false,
+      "variant_notes": ["The divine recommission — 'I am the LORD. Tell Pharaoh' — tracks MT."]
+    },
+    {
+      "verse": 30,
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "הֵן אֲנִי עֲרַל שְׂפָתַיִם",
+      "lxx_reading": "ἐγὼ ἰσχνόφωνός εἰμι",
+      "mt_rendering": "I am unskilled in speech",
+      "variant_rendering": "I am thin-voiced",
+      "variant_notes": [
+        "Moses' closing objection returns the 'uncircumcised lips' phrase of v. 12. LXX renders here with ischnophōnos ('thin-voiced') rather than alogos ('without speech'), using the same word as Exodus 4:10.",
+        "The LXX's lexical variation between v. 12 (alogos) and v. 30 (ischnophōnos) for the same Hebrew 'aral sefatayim' shows the translator making contextual choices rather than fixed lexical equivalences."
+      ]
+    }
+  ]
+}

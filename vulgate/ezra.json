@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Ezra",
+    "tradition": "vulgate",
+    "tradition_label": "Latin Vulgate",
+    "source_text": "Biblia Sacra Vulgata (Stuttgart critical edition)",
+    "base_text": "Westminster Leningrad Codex (WLC)",
+    "translator": "Jerome (Eusebius Sophronius Hieronymus)",
+    "date": "382-405 CE",
+    "generated_at": "2026-04-20T00:00:00Z",
+    "prompt_version": "2.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Jerome's Ezra renders the post-exilic restoration narrative — including its significant Aramaic sections — with Latin vocabulary that shaped Western theology of religious law, communal purity, ecclesiastical restoration, and the relationship between sacred and secular authority in rebuilding covenant community.",
+    "notable_renderings": "The handling of the Aramaic royal decrees, the lex Dei / lex regis distinction, the separation vocabulary (separare/segregare), and the Temple rebuilding terminology (aedificare domum Domini) all created enduring Latin theological categories for reform and restoration.",
+    "theological_legacy": "Ezra's Vulgate established the Western vocabulary for religious restoration under secular permission, the lex Dei concept as a distinct legal category alongside civil law, and the theology of communal purity through separation — concepts that influenced medieval canon law, monastic reform, and the relationship between Church and Empire."
+  },
+  "renderings": [
+    {
+      "reference": "Ezra 1:1",
+      "source_text": "הֵעִיר יְהוָה אֶת רוּחַ כֹּרֶשׁ מֶלֶךְ פָּרַס",
+      "vulgate_text": "suscitavit Dominus spiritum Cyri regis Persarum",
+      "vulgate_rendering": "The Lord stirred up the spirit of Cyrus king of the Persians",
+      "tcr_rendering": "the LORD stirred up the spirit of Cyrus king of Persia",
+      "theological_legacy": "Suscitavit spiritum (stirred up the spirit) established the Western concept of God working through pagan rulers by spiritual instigation. This shaped medieval political theology's understanding of divine providence operating through secular authorities — God suscitat (raises/stirs) even non-believing rulers to accomplish His purposes.",
+      "notes": ["Jerome's suscitavit (raised up, stirred) for he'ir (awakened, stirred) implies divine initiative acting on the human spirit of a pagan king. This passage became a key proof-text for Western theology of divine sovereignty over secular politics: God can use any ruler as His instrument without that ruler's conscious consent or conversion."]
+    },
+    {
+      "reference": "Ezra 1:2",
+      "source_text": "כֹּה אָמַר כֹּרֶשׁ מֶלֶךְ פָּרַס כֹּל מַמְלְכוֹת הָאָרֶץ נָתַן לִי יְהוָה אֱלֹהֵי הַשָּׁמָיִם",
+      "vulgate_text": "haec dicit Cyrus rex Persarum omnia regna terrae dedit mihi Dominus Deus caeli",
+      "vulgate_rendering": "Thus says Cyrus king of the Persians: The Lord God of heaven has given me all the kingdoms of the earth",
+      "tcr_rendering": "Thus says Cyrus king of Persia: The LORD, the God of heaven, has given me all the kingdoms of the earth",
+      "theological_legacy": "Dominus Deus caeli (the Lord God of heaven) became a standard post-exilic divine title in the Vulgate, emphasizing God's universal sovereignty over earthly powers. A pagan king attributing universal sovereignty to Israel's God shaped Western universalist theology — the God of Israel is acknowledged even by world empires.",
+      "notes": ["The title Deus caeli (God of heaven) appears frequently in the Aramaic sections of Ezra. Jerome preserves this distinctive post-exilic title which emphasized divine transcendence and universal sovereignty. The concept of a pagan emperor acknowledging Israel's God influenced Western theology of natural revelation and preparation for the Gospel among pagans."]
+    },
+    {
+      "reference": "Ezra 3:11",
+      "source_text": "כִּי טוֹב כִּי לְעוֹלָם חַסְדּוֹ עַל יִשְׂרָאֵל",
+      "vulgate_text": "quoniam bonus quoniam in aeternum misericordia eius super Israhel",
+      "vulgate_rendering": "For he is good, for his mercy upon Israel endures forever",
+      "tcr_rendering": "For He is good, for His covenant-faithfulness endures forever toward Israel",
+      "theological_legacy": "The chesed-as-misericordia formula applied specifically super Israhel (upon Israel) in the context of Temple restoration shaped Western theology of divine mercy as the ground for institutional restoration — God's mercy enables the rebuilding of what sin destroyed.",
+      "notes": ["The same liturgical refrain (ki le'olam chasdo) appears in the restoration context of Ezra 3, sung at the laying of the Second Temple foundation. Jerome's rendering connects the eternal mercy formula to institutional restoration, suggesting that divine misericordia is the theological basis for rebuilding sacred institutions after catastrophe."]
+    },
+    {
+      "reference": "Ezra 6:14",
+      "source_text": "וּמִן טַעַם אֱלָהּ יִשְׂרָאֵל וּמִטְּעֵם כּוֹרֶשׁ וְדָרְיָוֶשׁ",
+      "vulgate_text": "ex praecepto Dei Israhel et ex praecepto Cyri et Darii",
+      "vulgate_rendering": "By the decree of the God of Israel and by the decree of Cyrus and Darius",
+      "tcr_rendering": "by the decree of the God of Israel and by the decree of Cyrus and Darius",
+      "theological_legacy": "Ex praecepto Dei... et ex praecepto regis (by God's decree and the king's decree) placed divine and royal authority in parallel, establishing the two-swords or two-authorities model that shaped Western political theology. The Temple is built by dual authorization: divine command and imperial permission.",
+      "notes": ["The Aramaic text places God's decree and royal decrees on the same syntactic level. Jerome's rendering with parallel ex praecepto constructions reinforced the Western concept of dual authority (sacred and secular) cooperating in religious restoration — foundational for the medieval Two Swords doctrine of Pope Gelasius."]
+    },
+    {
+      "reference": "Ezra 7:6",
+      "source_text": "הוּא עֶזְרָא עָלָה מִבָּבֶל וְהוּא סֹפֵר מָהִיר בְּתוֹרַת מֹשֶׁה",
+      "vulgate_text": "ipse Ezras ascendit de Babylone et ipse scriba velox in lege Mosi",
+      "vulgate_rendering": "This Ezra came up from Babylon, and he was a ready scribe in the law of Moses",
+      "tcr_rendering": "This Ezra went up from Babylon. He was a skilled scribe in the Torah of Moses",
+      "theological_legacy": "Scriba velox in lege Mosi (a swift/ready scribe in the law of Moses) established the Latin concept of the professional scripture scholar. Scriba became the Western term for learned biblical expertise, and Ezra as the model scriba influenced the development of the Western scholarly-clerical ideal — the priest must be learned in the law.",
+      "notes": ["Jerome's scriba for sofer preserves the dual sense of writer and scholar. Velox (swift, ready) for mahir (skilled, expert) slightly emphasizes speed over expertise. The Ezra-as-scriba model influenced Western expectations that clergy be learned in scripture and law — the priest-scholar ideal that shaped medieval education."]
+    },
+    {
+      "reference": "Ezra 7:10",
+      "source_text": "כִּי עֶזְרָא הֵכִין לְבָבוֹ לִדְרוֹשׁ אֶת תּוֹרַת יְהוָה וְלַעֲשֹׂת וּלְלַמֵּד בְּיִשְׂרָאֵל חֹק וּמִשְׁפָּט",
+      "vulgate_text": "Ezras enim paravit cor suum ut investigaret legem Domini et faceret et doceret in Israhel praeceptum et iudicium",
+      "vulgate_rendering": "For Ezra had prepared his heart to investigate the law of the Lord and to do and teach in Israel precept and judgment",
+      "tcr_rendering": "For Ezra had set his heart to study the Torah of the LORD, and to do it, and to teach statute and ordinance in Israel",
+      "theological_legacy": "The triple formula investigaret... faceret... doceret (study... do... teach) became the paradigmatic Western model for scholarly ministry: first study, then practice, then teach. This sequential ideal shaped clerical formation theology and the structure of theological education in the Western Church.",
+      "notes": ["Jerome's investigaret (to investigate, search out) for lidrosh (to seek, study) adds a forensic/research dimension. The tripartite sequence (study-practice-teach) became foundational for Western pastoral theology: one must first know the law, then live it, then teach it. This influenced seminary curricula and expectations of clergy."]
+    },
+    {
+      "reference": "Ezra 7:26",
+      "source_text": "וְכָל דִּי לָא לֶהֱוֵא עָבֵד דָּתָא דִי אֱלָהָךְ וְדָתָא דִי מַלְכָּא",
+      "vulgate_text": "et omnis qui non fecerit legem Dei tui et legem regis",
+      "vulgate_rendering": "And everyone who does not observe the law of your God and the law of the king",
+      "tcr_rendering": "Whoever does not observe the law of your God and the law of the king",
+      "theological_legacy": "Legem Dei tui et legem regis (the law of your God and the law of the king) established the formal Latin distinction between divine law and royal/civil law that became foundational for Western jurisprudence. Lex Dei and lex regis as parallel but distinct legal categories shaped the entire Western tradition of natural law, canon law, and civil law as separate but complementary systems.",
+      "notes": ["The Aramaic dat elahakh ve-dat malka distinguishes religious and civil law as parallel authorities. Jerome's lex Dei / lex regis rendering created the terminological framework for Western legal pluralism: divine law (later natural law and canon law) and royal law (civil law) as distinct spheres, foundational for the development of Western constitutional thought."]
+    },
+    {
+      "reference": "Ezra 9:2",
+      "source_text": "כִּי נָשְׂאוּ מִבְּנֹתֵיהֶם לָהֶם וְלִבְנֵיהֶם וְהִתְעָרְבוּ זֶרַע הַקֹּדֶשׁ בְּעַמֵּי הָאֲרָצוֹת",
+      "vulgate_text": "tulerunt de filiabus eorum sibi et filiis suis et commiscuerunt semen sanctum cum populis terrarum",
+      "vulgate_rendering": "They have taken of their daughters for themselves and their sons, and have mixed the holy seed with the peoples of the lands",
+      "tcr_rendering": "They have taken some of their daughters for themselves and their sons, so that the holy seed has mixed itself with the peoples of the lands",
+      "theological_legacy": "Semen sanctum (holy seed) mixed with populis terrarum (peoples of the lands) established the Latin vocabulary for sacred-profane separation that shaped Western theology of holiness as maintained through strict separation. The concept of preserving the semen sanctum from contamination influenced medieval purity-of-faith legislation.",
+      "notes": ["Jerome's semen sanctum for zera ha-qodesh (the holy seed/offspring) and commiscuerunt (they have mixed together) created vocabulary that was applied in Western theology to the Church's separation from the world. The passage was unfortunately also misused to support racial and religious purity ideologies in medieval and early modern Europe."]
+    },
+    {
+      "reference": "Ezra 9:6",
+      "source_text": "אֱלֹהַי בֹּשְׁתִּי וְנִכְלַמְתִּי לְהָרִים אֱלֹהַי פָּנַי אֵלֶיךָ",
+      "vulgate_text": "Deus meus confundor et erubesco levare faciem meam ad te",
+      "vulgate_rendering": "My God, I am confounded and ashamed to lift my face to you",
+      "tcr_rendering": "O my God, I am ashamed and humiliated to lift my face to You, my God",
+      "theological_legacy": "Confundor et erubesco (I am confounded and I blush) for boshti ve-niklamti (I am ashamed and humiliated) introduced the vocabulary of holy shame into Western penitential theology. Ezra's vicarious shame on behalf of the people shaped the Western concept of corporate repentance and representative confession.",
+      "notes": ["Ezra's prayer of vicarious shame — confessing sin he did not personally commit — became the model for corporate confession in Western liturgy. The confundor (I am confounded/confused) and erubesco (I blush/am embarrassed) capture both intellectual shame and physical embodied shame, influencing Western penitential anthropology."]
+    },
+    {
+      "reference": "Ezra 10:3",
+      "source_text": "וְנִכְרָת בְּרִית לֵאלֹהֵינוּ לְהוֹצִיא כָל נָשִׁים",
+      "vulgate_text": "percutiamus foedus cum Domino Deo nostro ut proiciamus universas uxores",
+      "vulgate_rendering": "Let us make a covenant with our Lord God to put away all the wives",
+      "tcr_rendering": "Let us make a covenant with our God to send away all the wives",
+      "theological_legacy": "Percutiamus foedus (let us strike a covenant) preserves the Hebrew idiom of covenant-cutting. Proiciamus (let us cast out/reject) for hotsi (to bring out/send away) is harsher than the Hebrew, suggesting violent expulsion rather than formal dismissal. This shaped Western theology of radical separation from contamination as a covenantal obligation.",
+      "notes": ["Jerome's proicere (to throw out, reject) is more violent than Hebrew yatsa in the hifil (to cause to go out, send away). This influenced how the Western tradition understood the severity required in religious purification — not gentle separation but forceful rejection of what contaminates the covenant community."]
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Joshua",
+    "tradition": "lxx",
+    "tradition_label": "Septuagint (LXX)",
+    "source_text": "Rahlfs-Hanhart, Septuaginta (Stuttgart critical edition)",
+    "base_text": "Westminster Leningrad Codex (WLC)",
+    "translators": "Alexandrian Jewish translators (3rd–2nd c. BCE)",
+    "date": "3rd–2nd century BCE",
+    "generated_at": "2026-04-22T00:00:00Z",
+    "prompt_version": "1.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "LXX Joshua is substantially shorter than MT Joshua — by roughly 4–5% overall — with numerous small omissions, a handful of pluses, and occasional reorganizations. Qumran witnesses (4QJosh-a, 4QJosh-b) preserve yet a third textual form, sometimes agreeing with LXX against MT and sometimes preserving an older Hebrew text from which both MT and LXX appear to have diverged. LXX Joshua is therefore a key witness to the pre-Masoretic history of the book.",
+    "notable_variants": "The 'flint knives, a second time' reading at 5:2 (aligning with the theological framing of wilderness-generation re-circumcision); the archistratēgos ('commander-in-chief') title at 5:14 that would shape angelological and Christological reading of the theophany; the anathema vocabulary of 6:17 that becomes Paul's word for the church's ban; the LXX-plus verses at 21:36–37 (the cities of Reuben's pasturelands) that MT lost through homoioteleuton; and the rendering of Rahab as pornē at 2:1 — the Greek word that Hebrews 11:31 and James 2:25 both use in naming her among the faithful.",
+    "theological_legacy": "LXX Joshua's archistratēgos (commander-in-chief) at 5:14 became the standard patristic and Byzantine title for the angel Michael, and for Christ himself in early theophany-as-Christophany readings. The anathema vocabulary of chapter 6 supplied Paul with his Galatians 1:8–9 curse-formula and the technical term that excommunication law would inherit. Rahab as pornē transitions, in Christian tradition, from prostitute-ancestor-of-David to prototype of the Gentile believer welcomed into Israel — a reading already active in Hebrews and James."
+  },
+  "renderings": [
+    {
+      "reference": "Joshua 1:5",
+      "mt_reading": "לֹא אַרְפְּךָ וְלֹא אֶעֶזְבֶךָּ",
+      "lxx_reading": "οὐκ ἐγκαταλείψω σε οὐδὲ ὑπερόψομαί σε",
+      "mt_rendering": "I will not let you down, and I will not abandon you",
+      "lxx_rendering": "I will not forsake you nor will I overlook you",
+      "significance": "theological",
+      "notes": [
+        "Hebrews 13:5 quotes this verse in an LXX-based form — ou mē se anō oud' ou mē se enkatalipō ('I will never leave you nor forsake you') — as the warrant for Christian contentment: \"Keep your life free from love of money … for he has said, 'I will never leave you …'\" The exact wording the author cites is closer to LXX Deuteronomy 31:6/8 than to Joshua 1:5, but the promise-formula is the same Greek one.",
+        "Joshua's commissioning in the LXX is framed in the same promise-language used for Moses' commissioning in Deuteronomy 31. The LXX consistency across the two passages is what allows Hebrews to treat the assurance as portable into Christian experience."
+      ]
+    },
+    {
+      "reference": "Joshua 1:9",
+      "mt_reading": "חֲזַק וֶאֱמָץ",
+      "lxx_reading": "ἴσχυε καὶ ἀνδρίζου",
+      "mt_rendering": "Be strong and courageous",
+      "lxx_rendering": "Be strong and take courage",
+      "significance": "moderate",
+      "notes": [
+        "The LXX's andrizou (imperative of andrizomai, literally 'play the man, be manly, take courage') renders Hebrew ematz. The verb appears in Paul's exhortation at 1 Corinthians 16:13 — stēkete en tē pistei, andrizesthe, krataiousthe — 'stand firm in the faith, take courage, be strong.'",
+        "Paul's triad in 1 Corinthians 16:13 is a near-quotation of the LXX commissioning formula used for Joshua, David, and other leaders. Reading 1 Corinthians 16:13 against LXX Joshua 1 shows Paul investing the Corinthian church with the mantle of covenantal courage."
+      ]
+    },
+    {
+      "reference": "Joshua 2:1",
+      "mt_reading": "אִשָּׁה זוֹנָה",
+      "lxx_reading": "γυναικὸς πόρνης",
+      "mt_rendering": "a prostitute",
+      "lxx_rendering": "a prostitute woman",
+      "significance": "moderate",
+      "notes": [
+        "The LXX renders zonah directly as pornē, the standard Greek noun. Both Hebrews 11:31 ('by faith Rahab the pornē did not perish with those who were disobedient') and James 2:25 ('was not Rahab the pornē justified by works?') use this LXX vocabulary.",
+        "Some rabbinic and later Jewish traditions sought to soften zonah in Rahab's case by reading it as 'innkeeper' (via the root z-w-n, 'to feed'), but both the LXX and the NT preserve the plain prostitute-sense. Matthew 1:5 names Rahab as an ancestor of Jesus — part of Matthew's pattern of including gentile-and-outsider women in the Messianic genealogy."
+      ]
+    },
+    {
+      "reference": "Joshua 5:2",
+      "mt_reading": "שׁוּב מֹל אֶת־בְּנֵי־יִשְׂרָאֵל שֵׁנִית",
+      "lxx_reading": "καθίσας περίτεμε τοὺς υἱοὺς Ισραηλ ἐκ δευτέρου",
+      "mt_rendering": "circumcise the Israelites once more",
+      "lxx_rendering": "sit down and circumcise the sons of Israel a second time",
+      "significance": "moderate",
+      "notes": [
+        "Both MT and LXX preserve the puzzling 'a second time' for the circumcision at Gilgal. The LXX adds kathisas ('sit down') — an unusual expansion possibly reflecting ritual-posture detail not in the Hebrew.",
+        "The 'second time' generated early Jewish and Christian exegetical debate: physical second circumcision for those whose earlier rite was somehow incomplete? Or second-generation circumcision for those born in the wilderness? Origen and Augustine both read it typologically as a second, more inward cutting that prefigures baptism (Col 2:11–12)."
+      ]
+    },
+    {
+      "reference": "Joshua 5:14",
+      "mt_reading": "שַׂר־צְבָא־יְהוָה",
+      "lxx_reading": "ἀρχιστράτηγος δυνάμεως κυρίου",
+      "mt_rendering": "commander of the army of the LORD",
+      "lxx_rendering": "commander-in-chief of the host of the Lord",
+      "significance": "theological",
+      "notes": [
+        "The LXX's archistratēgos ('commander-in-chief, generalissimo') is a high military title in Hellenistic Greek — the word used for the ranking general of a Ptolemaic army. The translators read the Joshua 5 theophany as an angelophany of the highest-ranking divine commander.",
+        "Archistratēgos became the standing title for the archangel Michael in Byzantine and Eastern Christian tradition — 'Michael the Archistrategos of the Heavenly Host.' The title comes directly from LXX Joshua 5:14 (and Dan 8:11 for the prince of the host).",
+        "Patristic commentators (Origen, Justin, Irenaeus) read this figure variously as Michael, as a pre-incarnate Christ, or as an unnamed captain of the angelic host. The theological possibility of reading the scene Christologically rests on the Greek title, not the Hebrew phrase."
+      ]
+    },
+    {
+      "reference": "Joshua 6:17",
+      "mt_reading": "וְהָיְתָה הָעִיר חֵרֶם",
+      "lxx_reading": "καὶ ἔσται ἡ πόλις ἀνάθεμα",
+      "mt_rendering": "The city … are to be devoted to destruction — set apart for the LORD",
+      "lxx_rendering": "And the city shall be an anathema",
+      "significance": "theological",
+      "notes": [
+        "Hebrew cherem ('that which is devoted, banned, under irrevocable holy claim') is rendered anathema. The LXX uses this Greek noun consistently for the devoted-to-destruction category in conquest narratives.",
+        "Paul inherits anathema as a technical term and uses it five times: Galatians 1:8–9 ('if anyone preaches another gospel, let him be anathema'), 1 Corinthians 12:3 (no one speaking by the Spirit of God says 'Jesus is anathema'), 1 Corinthians 16:22 (anathema marana tha), Romans 9:3 (Paul willing to be anathema for Israel's sake).",
+        "The evolution of anathema from 'that which is destroyed in holy war' to 'that which is cut off from the church' runs through the LXX conquest narratives into Pauline ecclesiology, and from there into Christian excommunication law."
+      ]
+    },
+    {
+      "reference": "Joshua 10:13",
+      "mt_reading": "סֵפֶר הַיָּשָׁר",
+      "lxx_reading": "τοῦ βιβλίου τοῦ εὐθοῦς",
+      "mt_rendering": "the Book of Jashar",
+      "lxx_rendering": "the Book of the Upright",
+      "significance": "minor",
+      "notes": [
+        "Sefer ha-Yashar ('Book of the Upright') is rendered semantically as biblion tou euthous. The LXX translates rather than transliterates, so the proper-name character of the source collection is effaced in Greek.",
+        "The 'Book of the Upright' is also cited at 2 Samuel 1:18 (David's lament for Saul and Jonathan) — a now-lost collection of ancient Hebrew poetry that Joshua and Samuel both know. The LXX's decision to render the title as a descriptive phrase rather than preserve the proper name cost Greek readers the sense that a specific named source was being cited."
+      ]
+    },
+    {
+      "reference": "Joshua 14:7",
+      "mt_reading": "בֶּן־אַרְבָּעִים שָׁנָה אָנֹכִי",
+      "lxx_reading": "τεσσαράκοντα γὰρ ἐτῶν ἤμην",
+      "mt_rendering": "I was forty years old",
+      "lxx_rendering": "For I was forty years old",
+      "significance": "minor",
+      "notes": [
+        "The LXX preserves Caleb's age-at-commissioning in direct parallel to Moses (40 years old when he first tried to deliver his brothers, Acts 7:23) and to Joshua-typology of the commissioned leader.",
+        "The 40-40-40 pattern (40 years in wilderness, 40 years at commission, 40 years of testimony) becomes a structural echo in later biblical historiography and in the Stephen's speech in Acts 7:23–36, which uses the 40-year pattern to narrate Moses' life."
+      ]
+    },
+    {
+      "reference": "Joshua 21:36-37",
+      "mt_reading": "(absent from many MT manuscripts due to homoioteleuton)",
+      "lxx_reading": "καὶ ἐκ τῆς φυλῆς Ρουβην τὴν Βοσορ καὶ τὰ περισπόρια αὐτῆς … τέσσαρας πόλεις",
+      "mt_rendering": "From the tribe of Reuben: Bezer … and Mephaath — four cities",
+      "lxx_rendering": "And from the tribe of Reuben — Bosor and its surrounding lands … four cities",
+      "significance": "major",
+      "notes": [
+        "These verses listing the four Levitical cities from Reuben's tribal territory are absent from the majority of Masoretic manuscripts due to homoioteleuton — the scribe's eye jumped from one 'with its pasturelands' phrase to the identical phrase later on and skipped the intervening verses.",
+        "The LXX preserves the full list, as do the parallel in 1 Chronicles 6:63–64 and a few late MT witnesses. Nearly all critical modern translations include these verses on the basis of LXX and Chronicles against the majority Masoretic text.",
+        "This is one of the clearest cases where LXX preserves an original reading that MT lost by scribal accident."
+      ]
+    },
+    {
+      "reference": "Joshua 24:15",
+      "mt_reading": "בַּחֲרוּ לָכֶם הַיּוֹם אֶת־מִי תַעֲבֹדוּן",
+      "lxx_reading": "ἕλεσθε ὑμῖν αὐτοῖς σήμερον τίνι λατρεύσητε",
+      "mt_rendering": "choose for yourselves today whom you will serve",
+      "lxx_rendering": "choose for yourselves today whom you will worship/serve",
+      "significance": "moderate",
+      "notes": [
+        "The LXX's latreuō ('to worship, to render religious service') renders Hebrew abad. Latreuein is the standard LXX verb for worship of God and for the cultic service of idols alike.",
+        "Jesus' retort at the temptation — kyrion ton theon sou proskynēseis kai autō monō latreuseis (Matt 4:10, Luke 4:8) — combines Deuteronomy 6:13 with this LXX Joshua 24 vocabulary. The 'serve him only' absolutism is Joshua-language in its Greek form. Covenant-renewal-at-Shechem vocabulary shaped early Christian worship language: latreia, leitourgia, diakonia all descend from this LXX word-field."
+      ]
+    }
+  ]
+}

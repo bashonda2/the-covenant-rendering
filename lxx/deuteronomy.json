@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Deuteronomy",
+    "tradition": "lxx",
+    "tradition_label": "Septuagint (LXX)",
+    "source_text": "Rahlfs-Hanhart, Septuaginta (Stuttgart critical edition)",
+    "base_text": "Westminster Leningrad Codex (WLC)",
+    "translators": "Alexandrian Jewish translators (3rd c. BCE)",
+    "date": "3rd century BCE",
+    "generated_at": "2026-04-22T00:00:00Z",
+    "prompt_version": "1.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "LXX Deuteronomy is the Old Testament book most frequently quoted in the New Testament, and almost always in its Greek form. Jesus' temptation triptych in Matthew 4 and Luke 4 — 'a human being does not live by bread alone,' 'you shall not test the Lord your God,' 'him alone you shall serve' — cites three verses from LXX Deuteronomy 6 and 8 in immediate succession. Paul's argument in Romans 10 turns on LXX Deuteronomy 30:12–14. Galatians 3 is built on LXX Deuteronomy 21:23 and 27:26. Hebrews 1:6 depends on an LXX-specific plus at 32:43. The book's Greek text is not a translation pointing back to the Hebrew — for the earliest Christian writers, it IS the scriptural Deuteronomy.",
+    "notable_variants": "The divine name formula of the Shema at 6:4–5 and the triad of 6:13, 6:16, 8:3 that Jesus deploys against the tempter; the prophet-like-Moses prediction of 18:15 that Acts claims is Jesus; the 'cursed on a tree' formula of 21:23 that Paul uses for the cross; the 'word near you' passage of 30:12–14 that Paul identifies as the righteousness of faith; the astonishing MT/LXX/DSS divergence at 32:8 where LXX and 4QDeut read 'sons/angels of God' against MT's 'sons of Israel' as the number governing the boundaries of the nations; the LXX-only expansion at 32:43 that Hebrews 1:6 cites for the worship of the Son by angels.",
+    "theological_legacy": "Deuteronomy is where LXX dependence in the New Testament becomes most obvious and where the MT/LXX divergence matters most for Christian dogmatics. The Hebrews 1 argument for Christ's superiority over angels, the Pauline law-curse-and-faith argument in Galatians 3, the NT's 'prophet greater than Moses' Christology, and the monotheistic summary of Jesus' ethics in the Shema — all of these hang on specific features of the Greek text. TCR follows MT throughout for its base rendering; where the LXX offers a materially different reading, this tradition file documents it so that readers can see what the NT writers were reading."
+  },
+  "renderings": [
+    {
+      "reference": "Deuteronomy 4:24",
+      "mt_reading": "כִּי יְהוָה אֱלֹהֶיךָ אֵשׁ אֹכְלָה הוּא",
+      "lxx_reading": "ὅτι κύριος ὁ θεός σου πῦρ καταναλίσκον ἐστίν",
+      "mt_rendering": "For the LORD your God is a consuming fire",
+      "lxx_rendering": "For the Lord your God is a consuming fire",
+      "significance": "moderate",
+      "notes": [
+        "Hebrews 12:29 ends its covenant-mountain warning with a verbatim quotation of this LXX phrase: ho theos hēmōn pyr katanaliskon. The closing peroration of Hebrews is Greek Deuteronomy.",
+        "The LXX's participial construction pyr katanaliskon ('consuming fire,' active participle) is stronger than a simple adjective would be — it keeps the fire always-already-consuming, an unresting image of divine holiness."
+      ]
+    },
+    {
+      "reference": "Deuteronomy 6:4-5",
+      "mt_reading": "שְׁמַע יִשְׂרָאֵל יְהוָה אֱלֹהֵינוּ יְהוָה אֶחָד … וְאָהַבְתָּ אֵת יְהוָה אֱלֹהֶיךָ בְּכָל־לְבָבְךָ וּבְכָל־נַפְשְׁךָ וּבְכָל־מְאֹדֶךָ",
+      "lxx_reading": "ἄκουε Ισραηλ κύριος ὁ θεὸς ἡμῶν κύριος εἷς ἐστιν καὶ ἀγαπήσεις κύριον τὸν θεόν σου ἐξ ὅλης τῆς καρδίας σου καὶ ἐξ ὅλης τῆς ψυχῆς σου καὶ ἐξ ὅλης τῆς δυνάμεώς σου",
+      "mt_rendering": "Hear, O Israel: The LORD our God — the LORD is one. You shall love the LORD your God with all your heart, with all your being, and with all your strength.",
+      "lxx_rendering": "Hear, Israel: the Lord our God, the Lord is one. And you shall love the Lord your God with all your heart and with all your soul and with all your strength.",
+      "significance": "theological",
+      "notes": [
+        "The LXX's triad of kardia ('heart') / psychē ('soul') / dynamis ('strength') is what Mark 12:30 and Luke 10:27 inherit — except both evangelists expand the triad to a tetrad by adding dianoia ('mind'). Matthew 22:37 has the three-word form kardia / psychē / dianoia. The NT citations are LXX-based but not identical to any one LXX textual tradition.",
+        "The LXX's kyrios eis estin ('the Lord is one') is the standard Greek rendering of YHWH echad. The monotheistic force of the Shema in Greek preserves the Hebrew's ambiguity — is the Lord uniquely ours, or is the Lord simply one in nature? Both readings remain available in Greek as in Hebrew.",
+        "In the LXX Deuteronomy 6:4 has a fuller form in some manuscript traditions: 'the LORD is one' is preceded by 'and these are the ordinances…' The shorter form given here is what the NT cites."
+      ]
+    },
+    {
+      "reference": "Deuteronomy 6:13",
+      "mt_reading": "אֶת־יְהוָה אֱלֹהֶיךָ תִּירָא וְאֹתוֹ תַעֲבֹד",
+      "lxx_reading": "κύριον τὸν θεόν σου φοβηθήσῃ καὶ αὐτῷ λατρεύσεις",
+      "mt_rendering": "The LORD your God you shall revere, Him alone you shall serve",
+      "lxx_rendering": "The Lord your God you shall fear, and him alone you shall serve",
+      "significance": "major",
+      "notes": [
+        "Matthew 4:10 and Luke 4:8 cite this verse in Jesus' rejection of the devil's third temptation, but with a significant adaptation: where LXX reads phobēthēsē ('you shall fear'), the Gospels read proskynēseis ('you shall worship'). This substitution is not casual — the tempter offers proskynēsis to himself, and Jesus counters with proskynēsis to God alone.",
+        "The Gospel writers (or Jesus himself, as reported) are doing something interpretive with the LXX text: the fear/worship of God is the alternative to idolatrous worship of another. Several LXX manuscripts — B, A, and others — actually read proskynēseis here, suggesting the Matthew/Luke form was already available in some Greek Deuteronomy streams.",
+        "The Gospels' redaction is not a misquotation but a targumic adaptation within the Greek tradition. It is best read as LXX-plus-interpretive-move, not as citation error."
+      ]
+    },
+    {
+      "reference": "Deuteronomy 6:16",
+      "mt_reading": "לֹא תְנַסּוּ אֶת־יְהוָה אֱלֹהֵיכֶם",
+      "lxx_reading": "οὐκ ἐκπειράσεις κύριον τὸν θεόν σου",
+      "mt_rendering": "You must not test the LORD your God",
+      "lxx_rendering": "You shall not put the Lord your God to the test",
+      "significance": "major",
+      "notes": [
+        "Matthew 4:7 and Luke 4:12 cite this verse verbatim in its LXX form during the second temptation — the devil's quotation of Psalm 91 at the pinnacle of the temple. The LXX's intensive ekpeirazō ('put to the ultimate test') rather than plain peirazō sharpens the prohibition.",
+        "1 Corinthians 10:9 uses the same verb — 'let us not test Christ' — drawing directly on LXX Deuteronomy 6:16 to warn the Corinthians against the wilderness-generation pattern."
+      ]
+    },
+    {
+      "reference": "Deuteronomy 8:3",
+      "mt_reading": "כִּי לֹא עַל־הַלֶּחֶם לְבַדּוֹ יִחְיֶה הָאָדָם כִּי עַל־כָּל־מוֹצָא פִי־יְהוָה יִחְיֶה הָאָדָם",
+      "lxx_reading": "οὐκ ἐπ᾽ ἄρτῳ μόνῳ ζήσεται ὁ ἄνθρωπος ἀλλ᾽ ἐπὶ παντὶ ῥήματι τῷ ἐκπορευομένῳ διὰ στόματος θεοῦ",
+      "mt_rendering": "a human being does not survive on food alone but on everything that comes from the mouth of the LORD",
+      "lxx_rendering": "a person shall not live by bread alone, but by every word proceeding through the mouth of God",
+      "significance": "theological",
+      "notes": [
+        "Matthew 4:4 and Luke 4:4 quote this verse nearly verbatim in Jesus' reply to the first temptation. The LXX's rhēma ('spoken word, saying') rather than Hebrew motza ('that which proceeds') supplies the NT's foundational identification of Scripture with the word of God.",
+        "Matthew's citation is slightly fuller than Luke's: Matthew keeps the whole LXX clause, Luke condenses to 'a person shall not live by bread alone.' Both evangelists are working from Greek Deuteronomy.",
+        "The LXX's rhēma vocabulary — as opposed to logos — becomes one of the strands in the NT theology of the spoken and written word of God (compare Rom 10:17, Eph 6:17, Heb 6:5)."
+      ]
+    },
+    {
+      "reference": "Deuteronomy 18:15",
+      "mt_reading": "נָבִיא מִקִּרְבְּךָ מֵאַחֶיךָ כָּמֹנִי יָקִים לְךָ יְהוָה אֱלֹהֶיךָ אֵלָיו תִּשְׁמָעוּן",
+      "lxx_reading": "προφήτην ἐκ τῶν ἀδελφῶν σου ὡς ἐμὲ ἀναστήσει σοι κύριος ὁ θεός σου αὐτοῦ ἀκούσεσθε",
+      "mt_rendering": "The LORD your God will raise up for you a prophet from among you, from your own people, like me. You shall listen to him.",
+      "lxx_rendering": "The Lord your God will raise up for you a prophet from among your brothers like me; to him you shall listen",
+      "significance": "theological",
+      "notes": [
+        "Acts 3:22 (Peter's temple sermon) and Acts 7:37 (Stephen's speech) both cite this verse in its LXX form to identify Jesus as the prophet-like-Moses. The LXX's anastēsei ('will raise up') supplies the verbal overlap with the resurrection language of early Christian preaching — prophetēn … anastēsei is the exact phrase Peter quotes.",
+        "The Samaritan Pentateuch incorporates this verse (and the parallel 18:18) into the Decalogue as an eleventh commandment, underscoring its Messianic weight in the Samaritan tradition. The Qumran testimonia (4Q175) also string together this text with Numbers 24:17 and Deuteronomy 33:8–11 as a Messianic compendium.",
+        "John 1:21 ('Are you the Prophet?'), John 6:14, and John 7:40 all assume popular Jewish expectation of this 'Prophet' figure from Deuteronomy 18."
+      ]
+    },
+    {
+      "reference": "Deuteronomy 19:15",
+      "mt_reading": "עַל־פִּי שְׁנֵי עֵדִים אוֹ עַל־פִּי שְׁלֹשָׁה־עֵדִים יָקוּם דָּבָר",
+      "lxx_reading": "ἐπὶ στόματος δύο μαρτύρων καὶ ἐπὶ στόματος τριῶν μαρτύρων σταθήσεται πᾶν ῥῆμα",
+      "mt_rendering": "A matter may be established only on the testimony of two or three witnesses",
+      "lxx_rendering": "By the mouth of two witnesses and by the mouth of three witnesses every matter shall be established",
+      "significance": "moderate",
+      "notes": [
+        "The 'two or three witnesses' principle is cited extensively in the NT: Matthew 18:16 (church discipline), 2 Corinthians 13:1 (Paul's visits), 1 Timothy 5:19 (accusations against elders), and Hebrews 10:28 (covenant breakers). All four citations follow the LXX wording — epi stomatos duo martyrōn — rather than the Hebrew.",
+        "John 8:17 also invokes the principle in Jesus' defense of his own testimony: 'In your law it is written that the testimony of two witnesses is valid.' The LXX is the textual substrate for the whole NT use of this legal maxim."
+      ]
+    },
+    {
+      "reference": "Deuteronomy 21:23",
+      "mt_reading": "כִּי־קִלְלַת אֱלֹהִים תָּלוּי",
+      "lxx_reading": "ὅτι κεκατηραμένος ὑπὸ θεοῦ πᾶς κρεμάμενος ἐπὶ ξύλου",
+      "mt_rendering": "for a hanged person is under God's curse",
+      "lxx_rendering": "for everyone hanged on a tree is cursed by God",
+      "significance": "theological",
+      "notes": [
+        "Galatians 3:13 quotes this verse as part of Paul's most pointed Christological argument: \"Christ redeemed us from the curse of the Law, becoming a curse for us — for it is written, 'Cursed is everyone who hangs on a tree.'\" Paul uses the LXX's fuller formulation (pas kremamenos epi xylou) and strategically drops the 'by God,' leaving the curse suspended over the cross without making God its explicit agent.",
+        "The LXX adds pas ('every/everyone') and specifies xylon ('tree/wood') — both of which are absent in the Hebrew, which simply speaks of the one 'hanging.' Paul's argument depends on both LXX pluses: the universal scope (Christ bears the curse for all) and the tree-wood specification (identifying with the cross).",
+        "This is one of the clearest examples where the LXX's specific wording — beyond what Hebrew alone says — is the textual basis for NT theology."
+      ]
+    },
+    {
+      "reference": "Deuteronomy 25:4",
+      "mt_reading": "לֹא־תַחְסֹם שׁוֹר בְּדִישׁוֹ",
+      "lxx_reading": "οὐ φιμώσεις βοῦν ἀλοῶντα",
+      "mt_rendering": "You must not muzzle an ox while it is treading out grain",
+      "lxx_rendering": "You shall not muzzle an ox threshing",
+      "significance": "moderate",
+      "notes": [
+        "1 Corinthians 9:9 and 1 Timothy 5:18 both cite this verse in its LXX form (ou phimōseis boun aloōnta) to argue for the financial support of Christian ministers: 'the laborer deserves his wages.'",
+        "Paul's argument in 1 Corinthians 9:9–10 asks rhetorically, 'Is it for oxen that God is concerned?' and interprets the command allegorically. His reading is only possible because the LXX preserves the literal command clearly enough to be treated as a generalizable principle."
+      ]
+    },
+    {
+      "reference": "Deuteronomy 27:26",
+      "mt_reading": "אָרוּר אֲשֶׁר לֹא־יָקִים אֶת־דִּבְרֵי הַתּוֹרָה־הַזֹּאת לַעֲשׂוֹת אוֹתָם",
+      "lxx_reading": "ἐπικατάρατος πᾶς ἄνθρωπος ὃς οὐκ ἐμμενεῖ ἐν πᾶσιν τοῖς γεγραμμένοις ἐν τῷ βιβλίῳ τοῦ νόμου τοῦ ποιῆσαι αὐτά",
+      "mt_rendering": "Condemned is the one who does not uphold the words of this instruction by carrying them out",
+      "lxx_rendering": "Cursed is every person who does not remain in all the things written in the book of the law to do them",
+      "significance": "theological",
+      "notes": [
+        "Galatians 3:10 quotes this verse verbatim in its LXX form and makes it the hinge of the argument that 'all who rely on works of the law are under a curse.' The argument depends on two LXX pluses absent from the Hebrew: pas ('every') and en pasin ('in all things').",
+        "The Hebrew simply pronounces the curse on the one who does not uphold 'the words of this Torah' and carry them out. The LXX universalizes both the subject ('every person') and the scope ('all things written in the book of the law'). Paul's argument that the law's curse falls on anyone who fails to keep all of it depends on these LXX additions.",
+        "Whether the LXX pluses represent an older Hebrew Vorlage or a Greek intensification is scholarly debated. Either way, Paul is working from the Greek text that he and his readers share."
+      ]
+    },
+    {
+      "reference": "Deuteronomy 30:12-14",
+      "mt_reading": "לֹא בַשָּׁמַיִם הִוא … וְלֹא־מֵעֵבֶר לַיָּם הִוא … כִּי־קָרוֹב אֵלֶיךָ הַדָּבָר מְאֹד בְּפִיךָ וּבִלְבָבְךָ",
+      "lxx_reading": "οὐκ ἐν τῷ οὐρανῷ ἐστιν … οὐδὲ πέραν τῆς θαλάσσης ἐστίν … ἔστιν σου ἐγγὺς τὸ ῥῆμα σφόδρα ἐν τῷ στόματί σου καὶ ἐν τῇ καρδίᾳ σου",
+      "mt_rendering": "It is not in heaven … Nor is it beyond the sea … The word is very near to you — in your mouth and in your heart",
+      "lxx_rendering": "It is not in heaven … neither is it beyond the sea … the word is very near to you, in your mouth and in your heart",
+      "significance": "theological",
+      "notes": [
+        "Romans 10:6–8 quotes this passage but reframes each clause Christologically: \"Do not say in your heart, 'Who will ascend into heaven?' (that is, to bring Christ down), or 'Who will descend into the abyss?' (that is, to bring Christ up from the dead).\" Paul substitutes 'the abyss' for the LXX's 'beyond the sea' — a targumic-style move that locates Christ's descent in the Abyssos rather than in the sea.",
+        "Paul's conclusion — 'the word is near you, in your mouth and in your heart' — is the LXX verbatim. His whole pesher-style reading depends on the LXX Deuteronomy 30 text, which he identifies with 'the word of faith that we proclaim.'",
+        "Baruch 3:29–30 already used Deuteronomy 30:12–14 to speak of personified Wisdom's inaccessibility ('Who has gone up into heaven and taken her and brought her down from the clouds?'). Paul's adaptation draws on a pre-Christian Hellenistic Jewish reading tradition in which the 'word' of Deuteronomy 30 had become a quasi-personal figure."
+      ]
+    },
+    {
+      "reference": "Deuteronomy 32:8",
+      "mt_reading": "בְּהַנְחֵל עֶלְיוֹן גּוֹיִם … יַצֵּב גְּבֻלֹת עַמִּים לְמִסְפַּר בְּנֵי יִשְׂרָאֵל",
+      "lxx_reading": "ὅτε διεμέριζεν ὁ ὕψιστος ἔθνη … ἔστησεν ὅρια ἐθνῶν κατὰ ἀριθμὸν ἀγγέλων θεοῦ",
+      "mt_rendering": "He set the boundaries of the peoples according to the number of the children of Israel",
+      "lxx_rendering": "He set the boundaries of the nations according to the number of the angels of God",
+      "significance": "theological",
+      "notes": [
+        "One of the most significant MT/LXX divergences in the entire Pentateuch. LXX reads angelōn theou ('angels of God'), a majority of the early Greek witnesses read huiōn theou ('sons of God'), and 4QDeut from Qumran reads bene elohim ('sons of God / divine beings'). MT reads bene Yisrael ('sons of Israel'), which most textual critics now judge to be a later scribal alteration avoiding the polytheistic-sounding 'sons of God.'",
+        "The LXX/DSS reading envisions a cosmic polity at the tower of Babel moment: the Most High allots the nations to angelic/divine overseers and keeps Israel as his own portion. This picture underlies the 'principalities and powers' theology of Daniel 10 (the princes of Persia, Greece, Michael for Israel) and of Paul (Eph 6:12, Col 2:15, 1 Cor 2:8).",
+        "Reading the Deuteronomy 32:8 LXX/DSS text alongside the MT form illuminates why the apostle Paul can speak of gods-many and lords-many (1 Cor 8:5) while affirming only one God. TCR follows MT in its base rendering; this note documents what the older reading almost certainly was."
+      ]
+    },
+    {
+      "reference": "Deuteronomy 32:21",
+      "mt_reading": "הֵם קִנְאוּנִי בְלֹא־אֵל … וַאֲנִי אַקְנִיאֵם בְּלֹא־עָם",
+      "lxx_reading": "αὐτοὶ παρεζήλωσάν με ἐπ᾽ οὐ θεῷ … κἀγὼ παραζηλώσω αὐτοὺς ἐπ᾽ οὐκ ἔθνει",
+      "mt_rendering": "They made Me jealous with what is no god … So I will make them jealous with what is no people",
+      "lxx_rendering": "They made me jealous with that which is not-god … and I will make them jealous with that which is not-a-nation",
+      "significance": "theological",
+      "notes": [
+        "Romans 10:19 quotes this verse verbatim in its LXX form to argue that Israel's jealousy over Gentile inclusion was always in the script: \"First Moses says, 'I will make you jealous of that which is not a nation.'\"",
+        "Romans 11:11, 11:14 continue the theme: Paul's Gentile ministry aims to provoke Israel to jealousy, reading the Gentile mission as the fulfillment of Deuteronomy 32:21. The whole olive-tree argument of Romans 11 presupposes this Greek-Deuteronomy text."
+      ]
+    },
+    {
+      "reference": "Deuteronomy 32:35",
+      "mt_reading": "לִי נָקָם וְשִׁלֵּם לְעֵת תָּמוּט רַגְלָם",
+      "lxx_reading": "ἐν ἡμέρᾳ ἐκδικήσεως ἀνταποδώσω ἐν καιρῷ ὅταν σφαλῇ ὁ ποὺς αὐτῶν",
+      "mt_rendering": "Vengeance is Mine, and recompense, for the time when their foot will slip",
+      "lxx_rendering": "In the day of vengeance I will repay, in the time when their foot shall be tripped",
+      "significance": "moderate",
+      "notes": [
+        "Romans 12:19 and Hebrews 10:30 both quote this verse with emoi ekdikēsis egō antapodōsō ('vengeance is mine, I will repay') — a wording that matches neither the MT nor the standard Rahlfs LXX exactly. The apostolic form is closer to the MT's opening (li naqam) but with the LXX's future verb antapodōsō.",
+        "The identical wording in Romans and Hebrews (two independent authors) is best explained by a pre-Pauline Greek translation or testimony collection that differed slightly from the mainline LXX. This is one of the clearest cases where NT quotation points to a Septuagint textual form not preserved in our standard critical editions.",
+        "The underlying text-critical point: the NT's Old Testament was not identical with any single LXX manuscript tradition. It used Greek Old Testament texts of which we only have some of the witnesses."
+      ]
+    },
+    {
+      "reference": "Deuteronomy 32:43",
+      "mt_reading": "הַרְנִינוּ גוֹיִם עַמּוֹ כִּי דַם־עֲבָדָיו יִקּוֹם … וְכִפֶּר אַדְמָתוֹ עַמּוֹ",
+      "lxx_reading": "εὐφράνθητε οὐρανοί ἅμα αὐτῷ καὶ προσκυνησάτωσαν αὐτῷ πάντες υἱοὶ θεοῦ εὐφράνθητε ἔθνη μετὰ τοῦ λαοῦ αὐτοῦ … καὶ ἐκκαθαριεῖ κύριος τὴν γῆν τοῦ λαοῦ αὐτοῦ",
+      "mt_rendering": "Rejoice, O nations, with His people! For He will avenge the blood of His servants … and make atonement for His land and His people",
+      "lxx_rendering": "Rejoice, heavens, together with him, and let all the sons of God worship him; rejoice, nations, with his people … and the Lord shall cleanse the land of his people",
+      "significance": "theological",
+      "notes": [
+        "The LXX has a major expansion at the opening of this verse — 'Rejoice, heavens, together with him, and let all the sons of God worship him' — that is absent from the MT. 4QDeutᵍ from Qumran preserves a Hebrew text matching the LXX expansion, suggesting the LXX preserves an older Hebrew reading that later dropped out of the proto-Masoretic tradition.",
+        "Hebrews 1:6 cites this LXX plus to prove the angelic worship of the Son: 'And let all God's angels worship him.' The author of Hebrews substitutes angeloi theou for LXX's huioi theou — the two phrases are interchangeable in Hebrew Bible usage — and reads the verse Christologically as a proof-text for the Son's supra-angelic status.",
+        "Without the LXX-and-DSS expansion, Hebrews 1:6 would have no Old Testament basis for its claim. This is among the most consequential LXX-specific quotations in the NT. TCR follows MT for its base rendering; the LXX expansion is documented here as the text Hebrews read."
+      ]
+    }
+  ]
+}

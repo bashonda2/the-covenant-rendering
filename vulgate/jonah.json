@@ -1,0 +1,86 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Jonah",
+    "tradition": "vulgate",
+    "tradition_label": "Latin Vulgate",
+    "source_text": "Biblia Sacra Vulgata (Stuttgart critical edition)",
+    "base_text": "Westminster Leningrad Codex (WLC)",
+    "translator": "Jerome (Eusebius Sophronius Hieronymus)",
+    "date": "382-405 CE",
+    "generated_at": "2026-04-20T00:00:00Z",
+    "prompt_version": "2.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Jonah's narrative offered Jerome a relatively straightforward translation task, but several of his choices had outsized theological impact. The piscem grandem (great fish), the three days and nights in its belly, and the divine attribute formula of 4:2 all became central to Western christological typology and the theology of divine mercy.",
+    "notable_renderings": "The piscem grandem of 1:17 (great fish, read as a whale in later tradition), the de ventre inferi of 2:2 (from the belly of hell/Sheol), and the misericors et clemens of 4:2 shaped christological typology, descent theology, and the Western understanding of divine compassion.",
+    "theological_legacy": "Jonah in the Vulgate provided the primary Old Testament type for Christ's death and resurrection (three days in the fish = three days in the tomb, per Matthew 12:40). The narrative also established the theological principle that God's mercy extends beyond Israel to all nations — a key text for Christian universalism and mission theology."
+  },
+  "renderings": [
+    {
+      "reference": "Jonah 1:17 [Vulgate 2:1]",
+      "source_text": "וַיְמַן יְהוָה דָּג גָּדוֹל לִבְלֹעַ אֶת־יוֹנָה",
+      "vulgate_text": "et praeparavit Dominus piscem grandem ut deglutiret Ionam",
+      "vulgate_rendering": "And the Lord prepared a great fish to swallow Jonah",
+      "tcr_rendering": "Then the LORD appointed a great fish to swallow Jonah",
+      "theological_legacy": "Piscem grandem (great fish) was faithful to the Hebrew dag gadol, but later Latin tradition (influenced by Matthew 12:40's Greek ketos = sea monster) transformed this into a 'whale' (cetus/balaena) in popular imagination. The verb praeparavit (prepared, made ready) for Hebrew vayeman (appointed, assigned) adds providential intentionality — God specifically prepared this creature for this purpose.",
+      "notes": ["The Hebrew dag gadol is simply 'big fish' — not specifically a whale. Jerome's piscem grandem preserves this accurately. The 'whale' tradition comes from the Greek ketos (sea monster) in Matthew 12:40, not from the Vulgate's Jonah. Nevertheless, Western art universally depicted a whale because of the NT connection. The three days became the christological type par excellence for the period between crucifixion and resurrection."]
+    },
+    {
+      "reference": "Jonah 2:2 [Vulgate 2:3]",
+      "source_text": "קָרָאתִי מִצָּרָה לִי אֶל־יְהוָה... מִבֶּטֶן שְׁאוֹל שִׁוַּעְתִּי",
+      "vulgate_text": "clamavi de tribulatione mea ad Dominum... de ventre inferi clamavi",
+      "vulgate_rendering": "I cried out of my affliction to the Lord... from the belly of hell I cried",
+      "tcr_rendering": "I called out from my distress to the LORD... from the belly of Sheol I cried for help",
+      "theological_legacy": "De ventre inferi (from the belly of hell/the underworld) transformed Jonah's prayer into a descent-to-hell text. The fish's belly became identified with hell/Hades, making Jonah's emergence a resurrection from the dead. This reading directly shaped the Western doctrine of Christ's descent into hell (descendit ad inferos in the Apostles' Creed) — Christ, like Jonah, entered the belly of death and emerged victorious.",
+      "notes": ["Hebrew she'ol (the underworld, abode of the dead) becomes inferus/infernum (the lower world, hell). In biblical Hebrew, Sheol is the universal destination of the dead — not a place of punishment. Jerome's inferus carried increasing overtones of punishment and damnation in medieval Latin, which colored the reading of this verse. Jonah in the fish = Christ in hell became standard Western typology."]
+    },
+    {
+      "reference": "Jonah 2:6 [Vulgate 2:7]",
+      "source_text": "לְקִצְבֵי הָרִים יָרַדְתִּי הָאָרֶץ בְּרִחֶיהָ בַעֲדִי לְעוֹלָם",
+      "vulgate_text": "ad extrema montium descendi terrae vectes concluserunt me in aeternum",
+      "vulgate_rendering": "I went down to the foundations of the mountains; the bars of the earth shut me in forever",
+      "tcr_rendering": "I went down to the roots of the mountains; the earth with its bars closed behind me forever",
+      "theological_legacy": "Terrae vectes concluserunt me in aeternum (the bars of the earth shut me in forever) gave Western theology its image of death as imprisonment behind bars — the locked gates of the underworld. Christ's harrowing of hell was depicted as breaking these vectes (bars, bolts), liberating the imprisoned dead. Medieval art shows Christ breaking iron bars at the gates of hell, derived from this Jonah passage read typologically.",
+      "notes": ["Hebrew bericheyha (its bars, its bolts) becomes vectes (bars, crossbars). The image of the underworld as a barred prison occurs also in Isaiah 45:2 and Job 38:10. Jerome's in aeternum (forever) for Hebrew le'olam intensifies the hopelessness — only divine rescue can break these eternal bars. The verse shaped the Western doctrine of Christ's descent to liberate the pre-Christian righteous from limbo."]
+    },
+    {
+      "reference": "Jonah 3:4",
+      "source_text": "עוֹד אַרְבָּעִים יוֹם וְנִינְוֵה נֶהְפָּכֶת",
+      "vulgate_text": "adhuc quadraginta dies et Ninive subvertetur",
+      "vulgate_rendering": "Yet forty days and Nineveh shall be overthrown",
+      "tcr_rendering": "Forty more days and Nineveh will be overturned",
+      "theological_legacy": "Quadraginta dies (forty days) established the typological connection between Jonah's preaching and the forty days of Lent — both are periods of repentance before judgment. Subvertetur (shall be overturned/overthrown) for Hebrew nehpakhet preserves the ambiguity: the city can be 'overturned' in destruction OR 'overturned' in repentance (a moral overthrow). Patristic readers exploited this double meaning.",
+      "notes": ["The LXX reads 'three days' instead of forty — Jerome follows the Hebrew. The number forty carried enormous typological weight in Latin tradition (40 days of flood, 40 years in wilderness, 40 days of Moses on Sinai, 40 days of Jesus' temptation, 40 days of Lent). Jerome's choice to follow the Hebrew forty over the LXX three preserved this rich typological network. The ambiguity of subvertetur (Sodom was 'subverted' in destruction; Nineveh was 'subverted' in repentance) was noted by Augustine and Jerome himself."]
+    },
+    {
+      "reference": "Jonah 4:2",
+      "source_text": "כִּי אַתָּה אֵל חַנּוּן וְרַחוּם אֶרֶךְ אַפַּיִם וְרַב־חֶסֶד וְנִחָם עַל־הָרָעָה",
+      "vulgate_text": "quia tu Deus clemens et misericors patiens et multae miserationis et ignoscens super malitia",
+      "vulgate_rendering": "For you are a gracious and merciful God, patient and of great compassion, and forgiving concerning evil",
+      "tcr_rendering": "For you are a gracious and compassionate God, slow to anger and abounding in covenant-loyalty, who relents from calamity",
+      "theological_legacy": "The divine attribute formula here (clemens et misericors, patiens et multae miserationis) is Jonah's angry quotation of Exodus 34:6 — he knew God would be merciful and resents it. Jerome's ignoscens super malitia (forgiving concerning evil) for Hebrew nicham al-hara'ah (relenting from calamity) shifts from 'God changed his plan' to 'God forgives' — a theologically safer rendering that avoids suggesting divine changeability.",
+      "notes": ["This is the only place in Scripture where the Exodus 34:6 formula is quoted in complaint rather than praise. Jonah is angry that God's mercy extends to Gentile enemies. Jerome's rendering of this scene preserved its theological scandal: the prophet objects to God's own character. The verse became important in Western theology of universal grace — God's mercy is not limited to Israel, and this angers the exclusivist."]
+    },
+    {
+      "reference": "Jonah 4:6",
+      "source_text": "וַיְמַן יְהוָה־אֱלֹהִים קִיקָיוֹן וַיַּעַל מֵעַל לְיוֹנָה",
+      "vulgate_text": "et praeparavit Dominus Deus hederam et ascendit super caput Ionae",
+      "vulgate_rendering": "And the Lord God prepared an ivy plant, and it grew up over Jonah's head",
+      "tcr_rendering": "Then the LORD God appointed a plant and it grew up over Jonah",
+      "theological_legacy": "Hederam (ivy) for Hebrew qiqayon (likely the castor-oil plant, ricinus) provoked one of the most famous translation controversies in Christian history. Augustine objected that Jerome's hedera (ivy) diverged from the Old Latin's cucurbita (gourd), causing a riot in a North African church when the new reading was introduced. The dispute illustrates how translation choices could have immediate social impact.",
+      "notes": ["The qiqayon is almost certainly the ricinus communis (castor-oil plant), which grows rapidly in Near Eastern climates. The LXX rendered it kolokyntha (gourd); the Old Latin followed with cucurbita (gourd). Jerome chose hedera (ivy) based on his own botanical judgment. Augustine's famous letter (Ep. 71) records that a bishop in Oea nearly lost his congregation when he read hedera instead of the familiar cucurbita. This is one of the best-documented cases of translation causing social disruption in antiquity."]
+    },
+    {
+      "reference": "Jonah 4:11",
+      "source_text": "וַאֲנִי לֹא אָחוּס עַל־נִינְוֵה הָעִיר הַגְּדוֹלָה אֲשֶׁר יֶשׁ־בָּהּ הַרְבֵּה מִשְׁתֵּים עֶשְׂרֵה רִבּוֹ אָדָם",
+      "vulgate_text": "et ego non parcam Ninive civitati magnae in qua sunt plus quam centum viginti milia hominum",
+      "vulgate_rendering": "And shall I not spare Nineveh, that great city, in which there are more than a hundred and twenty thousand persons?",
+      "tcr_rendering": "And should I not have compassion on Nineveh, the great city, where there are more than 120,000 people?",
+      "theological_legacy": "Non parcam Ninive (shall I not spare Nineveh?) — the book's final rhetorical question — became the classic proof text for God's universal mercy extending beyond Israel. The verb parcam (spare, show clemency) carries legal overtones of a judge showing mercy. The 120,000 who 'cannot tell their right hand from their left' were read as children (or as morally ignorant pagans deserving compassion), establishing the principle of invincible ignorance in Western moral theology.",
+      "notes": ["The book ends with a question — God's mercy is asserted but Jonah never answers, never agrees. This open ending was theologically productive: it leaves the exclusivist challenged but unresolved. Jerome's parcam (spare, be lenient) for Hebrew achus (have compassion, pity) adds a judicial dimension — God as merciful judge rather than compassionate parent."]
+    }
+  ]
+}

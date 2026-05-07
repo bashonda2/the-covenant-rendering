@@ -28,7 +28,7 @@ Beyond the standard 66-book Bible, TCR surfaces how communities across 2,300 yea
 
 | Tradition | Type | Content | Directory |
 |-----------|------|---------|-----------|
-| Dead Sea Scrolls (1QIsaiah-a) | Manuscript comparison | 66 chapters, 590 variants vs MT | `dss-isaiah/` |
+| Dead Sea Scrolls (1QIsaᵃ) | Manuscript comparison | 66 chapters, 590 variants vs MT | `dss-isaiah/` |
 | 1 Enoch | Pre-Nicaea canon | 108 chapters, 1,054 verses | `1-enoch/` |
 | Jubilees | Pre-Nicaea canon | 50 chapters, 1,245 verses | `jubilees/` |
 | Septuagint Jeremiah | Manuscript comparison | 52 chapters (shorter, older text) | `lxx-jeremiah/` |

@@ -1,0 +1,279 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "2 Maccabees",
+    "chapter": 8,
+    "tradition": "vulgate",
+    "tradition_label": "Latin Vulgate (Deuterocanonical)",
+    "source_text": "Biblia Sacra Vulgata (Stuttgart critical edition)",
+    "translator": "Jerome",
+    "date": "c. 405 CE",
+    "canon": ["catholic", "orthodox", "ethiopian"],
+    "generated_at": "2026-04-20T00:00:00Z",
+    "prompt_version": "2.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Judas Maccabeus organizes a resistance force of six thousand men, calling on God to remember the blood of the innocent. The Seleucid general Nicanor, so confident of victory that he invites slave traders to purchase Jewish captives in advance, marches against Judas. But Judas, encouraging his troops with scripture and the memory of divine interventions, defeats Nicanor's forces decisively. The slave traders flee in shame, the Jewish forces share the spoil with widows, orphans, and the tortured, and Judas's reputation spreads throughout the region.",
+    "remarkable": "The chapter presents the Maccabean revolt as primarily theological, not military. Judas's pre-battle speech (vv. 16-20) is built entirely on divine precedent — past interventions by God, not past military victories. The detail of slave traders accompanying the army (v. 11) is both historically plausible and narratively devastating: the enemy had already counted the Jews as merchandise before the battle began. The distributive justice after the battle (vv. 28-30) shows the Maccabees practicing the Torah they fight to preserve.",
+    "friction": "The military numbers in this chapter follow ancient conventions and may be inflated. We render them as given. The Latin 'blasphemias' (v. 4) carries stronger theological weight than the English 'blasphemies' — it means active, willful insult against the divine, not merely irreverent speech.",
+    "connections": "Judas's appeal to divine memory (v. 3) echoes the foundational Hebrew concept of zikkaron — God remembering his covenant (Exodus 2:24). The slave-trader motif connects to Joel 3:3 (nations casting lots for God's people). The distribution of spoil to widows and orphans fulfills Deuteronomy 14:29. The defeated Nicanor will return in chapter 15 for the final confrontation."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_latin": "Iudas vero Macchabaeus et qui cum eo erant introibant latenter in castella et convocantes cognatos et eos qui permanserant in Iudaismo adsumentes eduxerunt ad se sex milia virorum.",
+      "rendering": "But Judas Maccabeus and those with him made their way secretly into the villages, and calling together their kinsmen and enlisting those who had remained faithful to Judaism, they gathered about six thousand men.",
+      "translator_notes": ["The resistance begins with covert recruitment from the villages. The phrase 'permanserant in Iudaismo' (had remained in Judaism) is significant — it defines the Maccabean cause as the preservation of Jewish identity itself."],
+      "key_terms": [{"latin": "in Iudaismo", "rendered_as": "faithful to Judaism", "note": "One of the earliest uses of 'Iudaismus' (Judaism) as a term for the Jewish way of life, in contrast to 'Hellenismus.'"}]
+    },
+    {
+      "verse": 2,
+      "text_latin": "Et invocabant Dominum ut respiceret in populum qui ab omnibus calcabatur et misereretur templo quod contaminabatur ab impiis.",
+      "rendering": "And they called upon the Lord to look upon the people who were being trampled by all, and to have mercy on the Temple that was being defiled by the impious.",
+      "translator_notes": ["The prayer has two objects: the people (trampled) and the Temple (defiled). Both need divine attention and mercy."],
+      "key_terms": [{"latin": "contaminabatur", "rendered_as": "defiled", "note": "The ongoing contamination of the Temple — a wound that demands divine healing."}]
+    },
+    {
+      "verse": 3,
+      "text_latin": "Misereretur etiam exterminio civitatis quae esset illico complananda et vocem sanguinis ad se clamantis audiret.",
+      "rendering": "That he would also have mercy on the destruction of the city, which was about to be leveled to the ground, and hear the voice of the blood crying out to him.",
+      "translator_notes": ["'Vocem sanguinis clamantis' (the voice of the blood crying out) echoes Genesis 4:10 — Abel's blood crying from the ground. The innocent dead cry out for justice."],
+      "key_terms": [{"latin": "vocem sanguinis clamantis", "rendered_as": "the voice of the blood crying out", "note": "Echoing Abel's blood (Genesis 4:10) — the blood of the martyred calls to God for vindication."}]
+    },
+    {
+      "verse": 4,
+      "text_latin": "Memoraretur quoque iniquissimas mortes parvulorum innocentum et blasphemias nomini suo inlatas et indignaretur super his.",
+      "rendering": "That he would also remember the most unjust deaths of innocent children, and the blasphemies committed against his name, and show his indignation against these things.",
+      "translator_notes": ["Three provocations to divine action: murdered children, blasphemy against God's name, and the accumulated injustice. 'Blasphemias nomini suo' (blasphemies against his name) — the persecution was not merely political but theologically offensive."],
+      "key_terms": [{"latin": "blasphemias nomini suo", "rendered_as": "blasphemies against his name", "note": "Direct insult to God's name — the theological dimension of the persecution."}]
+    },
+    {
+      "verse": 5,
+      "text_latin": "At Macchabaeus congregata multitudine intolerabilis gentibus efficiebatur ira enim Domini in misericordiam conversa est.",
+      "rendering": "Once Maccabeus had gathered his forces, he became unbearable to the Gentiles, for the wrath of the Lord had been turned to mercy.",
+      "translator_notes": ["The theological turning point: God's anger shifts to mercy, and immediately the military situation changes. The connection is causal — the shift in divine disposition enables the military success."],
+      "key_terms": [{"latin": "ira in misericordiam conversa", "rendered_as": "wrath turned to mercy", "note": "The pivotal transition: God's relationship to Israel changes from judgment to compassion, enabling the Maccabean victories."}]
+    },
+    {
+      "verse": 6,
+      "text_latin": "Et superveniens castellis et civitatibus improvise succendebat eas et oportuna loca occupans non paucas hostium strages dabat.",
+      "rendering": "Falling upon towns and cities unexpectedly, he set them on fire, and seizing strategic positions, he inflicted no small losses on the enemy.",
+      "translator_notes": ["Judas's guerrilla tactics: surprise attacks, arson, control of strategic terrain. This is classic insurgency warfare."],
+      "key_terms": []
+    },
+    {
+      "verse": 7,
+      "text_latin": "Maxime autem noctibus ad huiuscemodi excursus ferebatur et fama virtutis eius ubique diffundebatur.",
+      "rendering": "He favored the nights especially for such raids, and the fame of his valor spread everywhere.",
+      "translator_notes": ["Night raids — a guerrilla specialty. Judas's reputation grows through effective unconventional warfare."],
+      "key_terms": []
+    },
+    {
+      "verse": 8,
+      "text_latin": "Videns autem Philippus paulatim virum ad profectum venire ac frequentius res ei cedere prospere ad Ptolomaeum ducem Coelesyriae et Foenicis scripsit ut auxilium ferret regis negotiis.",
+      "rendering": "When Philip saw that the man was gaining ground little by little and that his enterprises were succeeding more and more frequently, he wrote to Ptolemy, the governor of Coele-Syria and Phoenicia, to send help for the king's affairs.",
+      "translator_notes": ["Philip, the military governor of Jerusalem (5:22), recognizes the growing threat and calls for reinforcements from the provincial level."],
+      "key_terms": []
+    },
+    {
+      "verse": 9,
+      "text_latin": "At ille velociter misit Nicanorem Patrocli filium de primoribus amicum adiungens ei de permixtas gentibus armatas non minus viginti milibus ut universum Iudaeorum genus deleret adiuncto ei et Gorgia viro militari et in bellicis rebus experientissimo.",
+      "rendering": "He quickly sent Nicanor son of Patroclus, one of the chief friends of the king, assigning to him a mixed force of no fewer than twenty thousand men from various nations, to exterminate the entire Jewish race. He also attached Gorgias, a military man of great experience in warfare.",
+      "translator_notes": ["The Seleucid response is massive: Nicanor with 20,000 troops and the experienced general Gorgias. The stated goal — 'universum Iudaeorum genus deleret' (to exterminate the entire Jewish race) — is genocidal."],
+      "key_terms": [{"latin": "universum Iudaeorum genus deleret", "rendered_as": "to exterminate the entire Jewish race", "note": "Genocidal intent — the goal is not merely military victory but ethnic extermination."}]
+    },
+    {
+      "verse": 10,
+      "text_latin": "Constituit autem Nicanor ut regi tributum quod Romanis erat dandum duo milia talentorum de captivitate Iudaeorum suppleret.",
+      "rendering": "Nicanor determined to make up the two thousand talents of tribute owed to the Romans from the proceeds of enslaving the Jews.",
+      "translator_notes": ["Nicanor plans to fund the Seleucid debt to Rome by selling Jews as slaves — the war is also an economic enterprise, with Jewish bodies as the currency."],
+      "key_terms": [{"latin": "tributum quod Romanis erat dandum", "rendered_as": "the tribute owed to the Romans", "note": "The Seleucid indemnity to Rome following the Battle of Magnesia (190 BCE) — a massive financial burden that drove the exploitation of subject peoples."}]
+    },
+    {
+      "verse": 11,
+      "text_latin": "Statimque ad maritimas civitates misit convocans ad coemptionem Iudaeorum mancipiorum promittens se nonaginta mancipia talento distracturum non respectans ad vindictam quae eum ab Omnipotente esset consecutura.",
+      "rendering": "He immediately sent word to the coastal cities, inviting them to buy Jewish slaves, promising to sell ninety slaves for a talent — not foreseeing the vengeance that was to come upon him from the Almighty.",
+      "translator_notes": ["The slave traders are invited in advance — ninety Jewish lives per talent. The price sets the value of a Jewish slave at roughly one-third of a shekel. 'Non respectans ad vindictam' — the narrator signals that divine retribution is certain."],
+      "key_terms": [{"latin": "mancipiorum", "rendered_as": "slaves", "note": "Mancipium — a slave, property. The commodification of human beings drives the narrative's moral outrage."}]
+    },
+    {
+      "verse": 12,
+      "text_latin": "Iudas autem ubi comperit convenire Nicanorem intimavit his qui secum erant Iudaeis Nicanori adventum.",
+      "rendering": "When Judas learned of Nicanor's approach, he informed the Jews who were with him of the advance of the army.",
+      "translator_notes": ["Intelligence and communication: Judas maintains awareness of enemy movements and keeps his forces informed."],
+      "key_terms": []
+    },
+    {
+      "verse": 13,
+      "text_latin": "Ex quibus qui formidabant et non credebant Dei iustitiae diffugiebant et alio se conferebant.",
+      "rendering": "Some of them, who were fearful and had no confidence in God's justice, deserted and fled elsewhere.",
+      "translator_notes": ["Not all of Judas's forces have faith — some desert. The narrator links desertion to lack of trust in divine justice, making it a theological failing rather than merely a military one."],
+      "key_terms": [{"latin": "Dei iustitiae", "rendered_as": "God's justice", "note": "Trust in divine justice as the prerequisite for courage — desertion is a failure of faith."}]
+    },
+    {
+      "verse": 14,
+      "text_latin": "Alii vero quae supererant sibi vendebant simul et Dominum deprecabantur ut eriperet eos ab impio Nicanore qui eos priusquam cominus veniret vendiderat.",
+      "rendering": "Others were selling off whatever they had left, and at the same time praying to the Lord to rescue them from the impious Nicanor, who had sold them before the battle even began.",
+      "translator_notes": ["Those who stay are simultaneously preparing practically (selling goods, presumably to fund the war effort) and praying. The ironic detail: Nicanor has 'sold' them before fighting them — but God will reverse the transaction."],
+      "key_terms": []
+    },
+    {
+      "verse": 15,
+      "text_latin": "Si non propter illos propter testamentum tamen quod erat ad patres eorum et propter invocationem sancti et magnifici nominis eius super ipsos.",
+      "rendering": "If not for their sake, then for the sake of the covenant made with their fathers, and because of the invocation of his holy and majestic name upon them.",
+      "translator_notes": ["The theological ground of the appeal: the Abrahamic covenant and the divine name that is over them. Even if the people are unworthy, the covenant and the name compel divine action."],
+      "key_terms": [{"latin": "testamentum ad patres", "rendered_as": "the covenant made with their fathers", "note": "The patriarchal covenant as the unchanging ground of divine faithfulness."}]
+    },
+    {
+      "verse": 16,
+      "text_latin": "Convocatis autem Macchabaeus septem milibus qui cum ipso erant rogabat ne hostibus reconciliarentur neque metuerent inique venientium adversum se hostium multitudinem sed fortiter contenderent.",
+      "rendering": "Maccabeus gathered together his seven thousand men and urged them not to make terms with the enemy, nor to fear the multitude of foes who were coming against them unjustly, but to fight bravely.",
+      "translator_notes": ["The force has grown from six thousand (v. 1) to seven thousand. Judas's pre-battle exhortation has three elements: no surrender, no fear, brave combat."],
+      "key_terms": []
+    },
+    {
+      "verse": 17,
+      "text_latin": "Ante oculos habentes contumeliam quae loco sancto ab his iniuste esset inlata itemque et ludibrio habitae civitatis iniuriam adhuc etiam veterum institutorum conversionem.",
+      "rendering": "He set before their eyes the outrage that had been unjustly inflicted upon the holy place, and also the mockery suffered by the humiliated city, and further, the overthrow of the ancestral way of life.",
+      "translator_notes": ["Judas's motivation speech: three outrages — the Temple desecrated, the city humiliated, the ancestral customs destroyed. These are fighting words drawn from lived experience."],
+      "key_terms": []
+    },
+    {
+      "verse": 18,
+      "text_latin": "Nam illi quidem armis confidunt ait simul et audacia nos autem in omnipotente Domino qui potest et venientes adversum nos et universum mundum uno nutu delere confidimus.",
+      "rendering": "'For they,' he said, 'trust in arms and boldness, but we trust in the almighty Lord, who is able to destroy both those who come against us and the whole world with a single nod.'",
+      "translator_notes": ["The theological core of Judas's speech: the enemy trusts in weapons; we trust in God. The phrase 'uno nutu' (with a single nod) expresses divine omnipotence with stunning economy — God need only nod to destroy the world."],
+      "key_terms": [{"latin": "in omnipotente Domino", "rendered_as": "in the almighty Lord", "note": "Trust in God rather than in military strength — the Maccabean war is a holy war."},
+        {"latin": "uno nutu", "rendered_as": "with a single nod", "note": "The ease of divine power — God's will requires only the slightest gesture to accomplish cosmic results."}]
+    },
+    {
+      "verse": 19,
+      "text_latin": "Commemoravit autem eis et auxilia Dei quae facta sunt erga parentes et quod sub Sennacherib centum octoginta quinque milia perierant.",
+      "rendering": "He reminded them also of the acts of divine aid that had been granted to their ancestors, and how under Sennacherib one hundred and eighty-five thousand had perished.",
+      "translator_notes": ["The first historical precedent: the destruction of Sennacherib's army (2 Kings 19:35; Isaiah 37:36). If God could destroy 185,000 Assyrians, he can handle 20,000 Seleucids."],
+      "key_terms": []
+    },
+    {
+      "verse": 20,
+      "text_latin": "Et de proelio quod adversum Galatas fuit in Babylonia ut omnes ubi ad rem ventum est Macedones sociis haesitantibus ipsi sex milibus soli peremerunt centum viginti milia propter auxilium illis datum de caelo et beneficia pro his plurima consecuti sunt.",
+      "rendering": "And he reminded them of the battle against the Galatians in Babylon, where all the Macedonians, when their allies hesitated, fought — just six thousand of them — and destroyed one hundred and twenty thousand because of the help given them from heaven, and received many benefits in return.",
+      "translator_notes": ["A second precedent: a battle where six thousand routed 120,000 with heavenly aid. The number six thousand matches Judas's own initial force (v. 1) — the parallel is deliberate."],
+      "key_terms": [{"latin": "auxilium datum de caelo", "rendered_as": "the help given them from heaven", "note": "Heavenly assistance in battle — the theological framework for understanding military outcomes."}]
+    },
+    {
+      "verse": 21,
+      "text_latin": "His verbis constantes effecti sunt et pro legibus et patria mori parati.",
+      "rendering": "By these words they were made resolute and ready to die for the laws and for their country.",
+      "translator_notes": ["The speech achieves its purpose: resolution and willingness to die. 'Pro legibus et patria' (for the laws and the fatherland) — the dual motivation of Torah and nation."],
+      "key_terms": [{"latin": "pro legibus et patria", "rendered_as": "for the laws and for their country", "note": "The twin loyalties that drive the Maccabean fighters: Torah faithfulness and national liberation."}]
+    },
+    {
+      "verse": 22,
+      "text_latin": "Constituit itaque fratres suos duces utrique ordini Simonem et Iosephum et Ionathan subiectis unicuique millennis et quingentenis.",
+      "rendering": "He appointed his brothers as commanders for each division: Simon, Joseph, and Jonathan, assigning fifteen hundred men to each.",
+      "translator_notes": ["The military organization: three divisions of 1,500 each under Judas's brothers, leaving Judas commanding the remaining forces."],
+      "key_terms": []
+    },
+    {
+      "verse": 23,
+      "text_latin": "Ad hoc etiam Esdram. Lecto sancto libro et dato signo adiutorii Dei in prima acie ipse dux commisit cum Nicanore.",
+      "rendering": "And besides, Eleazar. Then, after reading from the holy book and giving the watchword 'God's Help,' he himself took the lead of the first division and engaged Nicanor.",
+      "translator_notes": ["The battle preparation combines scripture reading, a battle cry ('God's Help'), and Judas personally leading the vanguard. The fusion of liturgy and warfare defines the Maccabean approach."],
+      "key_terms": [{"latin": "adiutorii Dei", "rendered_as": "God's Help", "note": "The battle watchword — a compressed theology in two words, declaring that victory depends on divine assistance."}]
+    },
+    {
+      "verse": 24,
+      "text_latin": "Et facto sibi adiutore Omnipotente interfecerunt super novem milia hominum maiorem autem partem exercitus Nicanori vulneribus debilem factam fugere compulerunt.",
+      "rendering": "With the Almighty as their ally, they killed more than nine thousand of the enemy, and wounded and disabled the greater part of Nicanor's army, and forced them all to flee.",
+      "translator_notes": ["The victory is decisive: 9,000+ killed, most of the rest wounded, total rout. 'Facto sibi adiutore Omnipotente' (with the Almighty as their ally) — the theological interpretation is inseparable from the military account."],
+      "key_terms": []
+    },
+    {
+      "verse": 25,
+      "text_latin": "Pecunias vero eorum qui ad emptionem ipsorum venerant tulerunt et eos usquequaque secuti sunt.",
+      "rendering": "They seized the money of those who had come to buy them as slaves, and pursued the enemy on every side.",
+      "translator_notes": ["The ironic reversal: the slave-buyers' money is seized by the people they came to purchase. The hunters become the hunted."],
+      "key_terms": []
+    },
+    {
+      "verse": 26,
+      "text_latin": "Sed revocati sunt hora conclusi nam erat ante sabbatum et ob hoc non perseveraverunt insequentes.",
+      "rendering": "But they were recalled because the hour was late, for it was the day before the Sabbath, and for this reason they did not continue the pursuit.",
+      "translator_notes": ["The pursuit is halted for Sabbath observance — even in the heat of military victory, Torah law governs. The Maccabees fight, but they keep the Sabbath."],
+      "key_terms": [{"latin": "ante sabbatum", "rendered_as": "before the Sabbath", "note": "Sabbath observance limits military operations — Torah governs even warfare."}]
+    },
+    {
+      "verse": 27,
+      "text_latin": "Arma autem ipsorum et spolia congregantes sabbatum agebant benedicentes Dominum qui liberavit eos in isto die misericordiae initium stillans in eos.",
+      "rendering": "They collected the arms and spoils of the enemy and kept the Sabbath, blessing the Lord who had delivered them on that day, pouring upon them the first drops of his mercy.",
+      "translator_notes": ["After gathering spoils, they observe the Sabbath with thanksgiving. 'Misericordiae initium stillans' (pouring the first drops of mercy) — the imagery is of rain beginning after drought. God's mercy is returning."],
+      "key_terms": [{"latin": "misericordiae initium", "rendered_as": "the first drops of his mercy", "note": "The beginning of divine mercy after the period of wrath — a turning point in the theological narrative."}]
+    },
+    {
+      "verse": 28,
+      "text_latin": "Post sabbatum vero debilibus et orfanis et viduis diviserunt spolia et residua ipsi cum suis habuere.",
+      "rendering": "After the Sabbath, they distributed the spoils among the disabled, the orphans, and the widows, and they kept the rest for themselves and their families.",
+      "translator_notes": ["The spoil distribution follows Torah priorities: the vulnerable first (disabled, orphans, widows), then the fighters and their families. This is Deuteronomic justice in action."],
+      "key_terms": []
+    },
+    {
+      "verse": 29,
+      "text_latin": "His itaque gestis et communiter ab omnibus facta obsecratione misericordem Dominum postulabant ut in finem servis suis reconciliaretur.",
+      "rendering": "When this was done, they all made a common supplication, beseeching the merciful Lord to be reconciled to his servants to the end.",
+      "translator_notes": ["After victory, communal prayer for continued divine reconciliation. The victory does not make them complacent; they continue to seek God's ongoing favor."],
+      "key_terms": []
+    },
+    {
+      "verse": 30,
+      "text_latin": "Et ex his qui cum Timotheo et Bacchide erant contra se contendentes super viginti milia interfecerunt et munitiones excelsas obtinuerunt et plures praedas diviserunt aequam portionem debilibus pupillis et viduis sed et senioribus facientes.",
+      "rendering": "In battles against the forces of Timothy and Bacchides, they killed more than twenty thousand of the enemy, gained control of strong fortifications, and divided the considerable spoil into equal shares for the disabled, the orphans, the widows, and also for the elderly.",
+      "translator_notes": ["Additional victories against Timothy and Bacchides extend the pattern: military success followed by just distribution of spoils."],
+      "key_terms": []
+    },
+    {
+      "verse": 31,
+      "text_latin": "Et cum arma eorum diligenter conlegissent omnia composuerunt in locis oportunis residua vero spolia Hierosolymam detulerunt.",
+      "rendering": "And when they had carefully collected the enemy's weapons, they stored them all in strategic locations, and the remaining spoils they brought to Jerusalem.",
+      "translator_notes": ["Weapons are stockpiled strategically for future use; surplus spoil goes to Jerusalem — sound military and economic management."],
+      "key_terms": []
+    },
+    {
+      "verse": 32,
+      "text_latin": "Et Philarchen qui cum Timotheo erat interfecerunt virum scelestum qui in multis Iudaeos adflixerat.",
+      "rendering": "They killed Philarches, who was with Timothy, a wicked man who had caused great suffering to the Jews.",
+      "translator_notes": ["Philarches — an enemy officer who had persecuted Jews — is killed. Individual accountability is noted."],
+      "key_terms": []
+    },
+    {
+      "verse": 33,
+      "text_latin": "Et cum epinicia agerent Hierosolymis eum qui sacras ianuas incenderat id est Callisthenen cum in quoddam domicilium refugisset incenderunt digna ei mercede pro impietatibus suis reddita.",
+      "rendering": "And while they celebrated their victory in Jerusalem, they burned alive Callisthenes, who had set fire to the sacred gates, when he had taken refuge in a small building — a fitting reward for his impieties.",
+      "translator_notes": ["Callisthenes, who had burned the Temple gates, is himself burned to death — the exact retributive justice that characterizes the book's theology."],
+      "key_terms": [{"latin": "epinicia", "rendered_as": "their victory", "note": "Epinicia — victory celebrations, a term from Greek athletic and military culture."}]
+    },
+    {
+      "verse": 34,
+      "text_latin": "Nicanor autem ter pessimus qui mille negotiantes ad Iudaeorum venditionem adduxerat.",
+      "rendering": "As for the thrice-wicked Nicanor, who had brought a thousand merchants to purchase the Jews,",
+      "translator_notes": ["'Ter pessimus' (thrice-wicked) — the superlative condemnation. The thousand merchants he brought are a thousand witnesses to his presumption."],
+      "key_terms": []
+    },
+    {
+      "verse": 35,
+      "text_latin": "Humiliatus auxilio Domini ab his quos nullos existimaverat deposita veste gloriae per mediterranea fugiens solus venit Antiochiam summam infelicitatem de interitu sui exercitus consecutus.",
+      "rendering": "Having been humbled by the help of the Lord at the hands of those he had counted as nothing, he laid aside his robe of glory and fled alone through the interior, arriving at Antioch with the utmost misfortune — the destruction of his army.",
+      "translator_notes": ["Nicanor's humiliation is total: he strips off his ceremonial robe and flees alone through back roads to Antioch. He who came to sell the Jews as slaves slinks home a ruined man."],
+      "key_terms": [{"latin": "veste gloriae", "rendered_as": "his robe of glory", "note": "The ceremonial garment of high office, discarded in flight — a visual symbol of his complete disgrace."}]
+    },
+    {
+      "verse": 36,
+      "text_latin": "Et qui promiserat Romanis se tributum restituere de captivitate Hierosolymorum praedicabat nunc protectorem Deum habere Iudaeos et ob ipsum invulnerabiles esse eo quod sequerentur leges ab ipso constitutas.",
+      "rendering": "And he who had promised to pay the Romans their tribute from the captivity of those in Jerusalem now proclaimed that the Jews had a protector God, and that for this reason they were invulnerable, because they followed the laws established by him.",
+      "translator_notes": ["The ultimate reversal: Nicanor, who came to sell Jews, now testifies that they have a divine protector and are invulnerable because of their Torah obedience. The enemy becomes a witness to God's faithfulness."],
+      "key_terms": [{"latin": "protectorem Deum", "rendered_as": "a protector God", "note": "A pagan general's testimony: the Jewish God is a protector who makes his people invulnerable."},
+        {"latin": "invulnerabiles", "rendered_as": "invulnerable", "note": "The theological claim: Torah obedience confers divine protection that no army can overcome."}]
+    }
+  ]
+}

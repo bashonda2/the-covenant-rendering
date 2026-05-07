@@ -1,0 +1,149 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Mark",
+    "tradition": "vulgate",
+    "tradition_label": "Latin Vulgate",
+    "source_text": "Biblia Sacra Vulgata (Stuttgart critical edition)",
+    "base_text": "SBL Greek New Testament (SBLGNT)",
+    "translator": "Jerome (Eusebius Sophronius Hieronymus)",
+    "date": "382-405 CE",
+    "generated_at": "2026-04-20T00:00:00Z",
+    "prompt_version": "2.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Mark's Gospel in the Vulgate is the shortest canonical Gospel, yet Jerome's Latin renderings established key terminology for Western understandings of repentance, discipleship, and the messianic secret. The Vulgate Mark also carries the significant textual issue of the longer ending (16:9-20), which Jerome included despite his own expressed doubts about its authenticity.",
+    "notable_renderings": "Mark 1:4 paenitentiae (of penance/repentance); 1:15 paenitentiam agite et credite evangelio (do penance and believe the gospel); 10:45 redemptionem (ransom/redemption); 14:36 Abba Pater; 16:15-16 the Great Commission variant with its baptismal theology.",
+    "theological_legacy": "Mark in the Vulgate contributed to Western penitential theology through its consistent rendering of metanoia as paenitentia. The inclusion of the longer ending (16:9-20) gave the Western church its theology of baptismal necessity and charismatic signs, while the ransom saying of 10:45 shaped medieval atonement theology."
+  },
+  "renderings": [
+    {
+      "reference": "Mark 1:4",
+      "source_text": "ἐγένετο Ἰωάννης βαπτίζων ἐν τῇ ἐρήμῳ καὶ κηρύσσων βάπτισμα μετανοίας εἰς ἄφεσιν ἁμαρτιῶν",
+      "vulgate_text": "fuit Iohannes in deserto baptizans et praedicans baptismum paenitentiae in remissionem peccatorum",
+      "vulgate_rendering": "John was in the desert baptizing and preaching the baptism of penance for the remission of sins",
+      "tcr_rendering": "John appeared, immersing in the wilderness and proclaiming an immersion of repentance for the release of sins",
+      "theological_legacy": "Baptismum paenitentiae in remissionem peccatorum (baptism of penance for the remission of sins) established the sacramental connection between penance, baptism, and forgiveness that would shape Western sacramental theology for centuries.",
+      "notes": ["Metanoia (a change of mind/heart) becomes paenitentia (penance, penitence). This Latin term shaped the entire medieval penitential system. In remissionem peccatorum became a creedal formula (Nicene Creed: 'one baptism for the remission of sins'). The Greek aphesis (release, letting go) becomes remissio, which carried more of the sense of debt-cancellation."]
+    },
+    {
+      "reference": "Mark 1:15",
+      "source_text": "πεπλήρωται ὁ καιρὸς καὶ ἤγγικεν ἡ βασιλεία τοῦ θεοῦ· μετανοεῖτε καὶ πιστεύετε ἐν τῷ εὐαγγελίῳ",
+      "vulgate_text": "impletum est tempus et adpropinquavit regnum Dei paenitentiam agite et credite evangelio",
+      "vulgate_rendering": "The time is fulfilled and the kingdom of God has drawn near; do penance and believe the gospel",
+      "tcr_rendering": "The time is fulfilled and the kingdom of God has drawn near; turn back and trust the good news",
+      "theological_legacy": "Paenitentiam agite (do penance) — this rendering of metanoeite was one of the most consequential translations in Western Christianity. It transformed an inner attitude (repentance, turning of mind) into an external action (doing penance), undergirding the entire medieval penitential system of confession, satisfaction, and indulgences. Luther's first of the 95 Theses (1517) directly challenged this rendering.",
+      "notes": ["Luther's Thesis 1 reads: 'When our Lord and Master Jesus Christ said paenitentiam agite, he willed that the whole life of believers should be repentance.' Luther argued that the Greek metanoeite means inner repentance, not external acts of penance. Erasmus had already made this argument in his 1516 Annotations. This single rendering choice arguably contributed to the split of Western Christendom."]
+    },
+    {
+      "reference": "Mark 1:41",
+      "source_text": "σπλαγχνισθεὶς ἐκτείνας τὴν χεῖρα αὐτοῦ ἥψατο",
+      "vulgate_text": "misertus eius extendit manum suam et tangens",
+      "vulgate_rendering": "Having mercy on him, he stretched out his hand and touching him",
+      "tcr_rendering": "Moved with compassion, he stretched out his hand and touched him",
+      "theological_legacy": "Misertus (having shown mercy) renders splanchnistheis (moved in the gut/bowels). The Latin misericordia tradition (mercy from the heart) shaped how Western Christians understood Christ's emotions — as acts of mercy rather than visceral, embodied compassion. Some manuscripts read orgistheis (angered), which Jerome did not follow.",
+      "notes": ["The textual variant here — splanchnistheis (compassion) vs. orgistheis (anger) in Codex Bezae — is a famous text-critical problem. Jerome's misertus follows the majority reading. The Greek splanchna (bowels, gut) carries a visceral, embodied sense that the more cerebral Latin misericordia partially loses. Western art depicts Christ's healing touch as merciful condescension rather than gut-level solidarity."]
+    },
+    {
+      "reference": "Mark 4:11",
+      "source_text": "ὑμῖν τὸ μυστήριον δέδοται τῆς βασιλείας τοῦ θεοῦ",
+      "vulgate_text": "vobis datum est mysterium regni Dei",
+      "vulgate_rendering": "To you has been given the mystery of the kingdom of God",
+      "tcr_rendering": "To you has been given the secret of the kingdom of God",
+      "theological_legacy": "Mysterium regni Dei (the mystery of the kingdom) — Jerome retains the Greek mystērion as mysterium rather than translating it as sacramentum (as he does in Ephesians 5:32). This preserved the sense of hidden divine knowledge, contributing to Western mystical theology and the theology of revelation as divine self-disclosure.",
+      "notes": ["Jerome uses both mysterium and sacramentum to render Greek mystērion in different contexts. Here the retention of mysterium preserves the apocalyptic sense of divine secrets revealed to the elect. The kingdom-as-mystery concept influenced medieval mysticism and the theology of hiddenness (Deus absconditus)."]
+    },
+    {
+      "reference": "Mark 8:34",
+      "source_text": "εἴ τις θέλει ὀπίσω μου ἐλθεῖν, ἀπαρνησάσθω ἑαυτὸν καὶ ἀράτω τὸν σταυρὸν αὐτοῦ καὶ ἀκολουθείτω μοι",
+      "vulgate_text": "si quis vult me sequi deneget se ipsum et tollat crucem suam et sequatur me",
+      "vulgate_rendering": "If anyone wishes to follow me, let him deny himself and take up his cross and follow me",
+      "tcr_rendering": "If anyone wants to come after me, let him deny himself and take up his cross and follow me",
+      "theological_legacy": "Deneget se ipsum et tollat crucem suam (deny himself and take up his cross) — this formulation became the foundation of Western ascetical theology. The Latin denegare (to deny utterly) carries a stronger sense of repudiation than the Greek, and became the basis for monastic vows of self-renunciation.",
+      "notes": ["The Latin tollat crucem (take up the cross) shaped the Western theology of suffering and the imitation of Christ (imitatio Christi). Thomas a Kempis's The Imitation of Christ draws heavily on this Vulgate formulation. The phrase also shaped the Stations of the Cross devotion in Western liturgy."]
+    },
+    {
+      "reference": "Mark 9:29",
+      "source_text": "τοῦτο τὸ γένος ἐν οὐδενὶ δύναται ἐξελθεῖν εἰ μὴ ἐν προσευχῇ",
+      "vulgate_text": "hoc genus in nullo potest exire nisi in oratione et ieiunio",
+      "vulgate_rendering": "This kind can come out by nothing except prayer and fasting",
+      "tcr_rendering": "This kind cannot come out by anything except prayer",
+      "theological_legacy": "Et ieiunio (and fasting) — the Vulgate includes the longer reading that adds fasting to prayer. This textual addition (absent from the earliest Greek manuscripts) became a major proof-text for the Western practice of fasting as spiritual warfare and was used to justify ecclesiastical fasting regulations.",
+      "notes": ["The words 'and fasting' (kai nēsteia / et ieiunio) are absent from Sinaiticus, Vaticanus, and other early witnesses. They appear to be a scribal addition reflecting early church ascetical practice. Jerome's inclusion gave this reading canonical authority in the West for over a millennium, shaping monastic rules and Lenten disciplines."]
+    },
+    {
+      "reference": "Mark 10:8",
+      "source_text": "καὶ ἔσονται οἱ δύο εἰς σάρκα μίαν",
+      "vulgate_text": "et erunt duo in carne una",
+      "vulgate_rendering": "And the two shall be in one flesh",
+      "tcr_rendering": "And the two will become one flesh",
+      "theological_legacy": "In carne una (in one flesh) — this formulation entered the Western marriage liturgy and canon law. It became the theological basis for the doctrine of marriage as an indissoluble bond and shaped the Catholic teaching on the 'marriage debt' (debitum coniugale) and the consummation requirement for valid marriage.",
+      "notes": ["The phrase una caro (one flesh) from Genesis 2:24, repeated here by Jesus, became a technical term in canon law. The indissolubility doctrine, the prohibition of divorce, and the theology of marital consummation all rest on this Vulgate formulation. It also shaped Western legal concepts of coverture in common law."]
+    },
+    {
+      "reference": "Mark 10:45",
+      "source_text": "καὶ γὰρ ὁ υἱὸς τοῦ ἀνθρώπου οὐκ ἦλθεν διακονηθῆναι ἀλλὰ διακονῆσαι καὶ δοῦναι τὴν ψυχὴν αὐτοῦ λύτρον ἀντὶ πολλῶν",
+      "vulgate_text": "nam et Filius hominis non venit ut ministraretur ei sed ut ministraret et daret animam suam redemptionem pro multis",
+      "vulgate_rendering": "For even the Son of Man did not come to be served but to serve and to give his life as a redemption for many",
+      "tcr_rendering": "For even the Son of Man did not come to be served but to serve and to give his life as a ransom in place of many",
+      "theological_legacy": "Redemptionem pro multis (a redemption for many) — this rendering shaped Western atonement theology profoundly. Redemptio (buying back, ransoming) established the commercial/legal metaphor for salvation. Pro multis (for many) became a liturgical formula in the words of institution at Mass and was the subject of a major 2006 Vatican directive requiring literal translation.",
+      "notes": ["The Greek lytron (ransom price) becomes redemptio (redemption/buying-back). This Latin term gave rise to the entire Western 'redemption' vocabulary. Pro multis (for many) rather than pro omnibus (for all) became a debated point — does 'many' exclude some? The 2006 Liturgiam Authenticam instruction required 'for many' rather than 'for all' in the English Mass, directly citing this Vulgate tradition."]
+    },
+    {
+      "reference": "Mark 14:22",
+      "source_text": "λάβετε, τοῦτό ἐστιν τὸ σῶμά μου",
+      "vulgate_text": "accipite hoc est corpus meum",
+      "vulgate_rendering": "Take; this is my body",
+      "tcr_rendering": "Take; this is my body",
+      "theological_legacy": "Hoc est corpus meum (this is my body) — these four Latin words are the most ritually repeated phrase in Western Christianity, spoken at every Mass as the words of consecration (verba consecrationis). The phrase gave rise to the term 'hocus pocus' (a corruption) and became the center of Eucharistic theology debates about real presence, transubstantiation, and sacramental efficacy.",
+      "notes": ["The Latin hoc est corpus meum is arguably the most theologically loaded four-word phrase in Western history. The est (is) was the battleground of the Reformation Eucharistic debates: does 'is' mean literal identity (Catholic transubstantiation), real presence in/with/under (Lutheran consubstantiation), or spiritual signification (Calvinist/Zwinglian)? The folk etymology connecting 'hocus pocus' to hoc est corpus reflects popular perception of the words as a formula of transformation."]
+    },
+    {
+      "reference": "Mark 14:36",
+      "source_text": "αββα ὁ πατήρ, πάντα δυνατά σοι· παρένεγκε τὸ ποτήριον τοῦτο ἀπ᾽ ἐμοῦ",
+      "vulgate_text": "Abba Pater omnia tibi possibilia sunt transfer calicem hunc a me",
+      "vulgate_rendering": "Abba, Father, all things are possible to you; remove this cup from me",
+      "tcr_rendering": "Abba — Father — all things are possible for you; take this cup away from me",
+      "theological_legacy": "Abba Pater — Jerome preserves the Aramaic Abba alongside its Latin translation Pater, maintaining the bilingual address. This doubled form entered Christian prayer tradition and shaped Western theology of divine fatherhood and filial intimacy with God. Transfer calicem (remove this cup) established the 'cup of suffering' as a Western theological metaphor.",
+      "notes": ["The retention of the untranslated Aramaic Abba alongside its Latin equivalent preserves the intimacy of Jesus's original prayer language. This influenced Western theology of prayer as intimate address to God as Father. The cup (calix) became a central metaphor in Western Passion theology and the liturgy — the chalice of the Mass deliberately echoes this Gethsemane cup."]
+    },
+    {
+      "reference": "Mark 16:9-20",
+      "source_text": "Ἀναστὰς δὲ πρωῒ πρώτῃ σαββάτου ἐφάνη πρῶτον Μαρίᾳ τῇ Μαγδαληνῇ... σημεῖα δὲ τοῖς πιστεύσασιν ταῦτα παρακολουθήσει",
+      "vulgate_text": "Surgens autem mane prima sabbati apparuit primo Mariae Magdalenae... signa autem eos qui crediderint haec sequentur",
+      "vulgate_rendering": "Rising early on the first day of the week, he appeared first to Mary Magdalene... And these signs will follow those who believe",
+      "tcr_rendering": "[Longer Ending] Rising early on the first of the week, he appeared first to Mary Magdalene... And these signs will accompany those who have believed",
+      "theological_legacy": "The inclusion of the Longer Ending (16:9-20) in the Vulgate gave it canonical status in the West despite Jerome's own awareness that many Greek manuscripts lacked it. The passage's signa...sequentur (signs will follow) became the biblical basis for charismatic gifts, snake-handling sects, and debates about the continuation or cessation of miraculous gifts.",
+      "notes": ["Jerome noted in his writings that most Greek manuscripts known to him did not contain these verses, yet he included them. The Longer Ending's promise of signs — speaking in tongues, handling serpents, drinking poison without harm, healing by laying on of hands — shaped Western Pentecostal and charismatic theology. Verse 16 ('He who believes and is baptized will be saved') became a proof-text for baptismal regeneration."]
+    },
+    {
+      "reference": "Mark 16:15-16",
+      "source_text": "κηρύξατε τὸ εὐαγγέλιον πάσῃ τῇ κτίσει. ὁ πιστεύσας καὶ βαπτισθεὶς σωθήσεται",
+      "vulgate_text": "praedicate evangelium omni creaturae qui crediderit et baptizatus fuerit salvus erit",
+      "vulgate_rendering": "Preach the gospel to every creature. He who believes and is baptized will be saved",
+      "tcr_rendering": "Proclaim the good news to all creation. The one who has trusted and been immersed will be delivered",
+      "theological_legacy": "Qui crediderit et baptizatus fuerit salvus erit (he who believes and is baptized will be saved) became a central proof-text for the necessity of baptism for salvation in Western theology. It shaped both Catholic baptismal theology and the urgency of missionary baptism.",
+      "notes": ["This verse, from the disputed Longer Ending, was treated as dominical command in the West due to its Vulgate inclusion. It influenced the development of the doctrine of baptismal necessity (necessitas baptismi), the practice of emergency baptism, and the theological category of baptism of desire (baptismus flaminis) for those who cannot receive water baptism."]
+    },
+    {
+      "reference": "Mark 3:29",
+      "source_text": "ὃς δ᾽ ἂν βλασφημήσῃ εἰς τὸ πνεῦμα τὸ ἅγιον, οὐκ ἔχει ἄφεσιν εἰς τὸν αἰῶνα, ἀλλὰ ἔνοχός ἐστιν αἰωνίου ἁμαρτήματος",
+      "vulgate_text": "qui autem blasphemaverit in Spiritum Sanctum non habet remissionem in aeternum sed reus erit aeterni delicti",
+      "vulgate_rendering": "But whoever blasphemes against the Holy Spirit has no forgiveness forever but is guilty of an eternal sin",
+      "tcr_rendering": "But whoever blasphemes against the Holy Spirit has no release forever but is liable for an age-enduring offense",
+      "theological_legacy": "Reus erit aeterni delicti (guilty of an eternal sin) — this formulation shaped the Western doctrine of the 'unforgivable sin' and generated centuries of pastoral anxiety. The Latin reus (guilty, liable in court) and aeterni delicti (eternal crime) made this sound like a permanent legal verdict, influencing the theology of final impenitence.",
+      "notes": ["The Greek aionios hamartēma could mean 'sin belonging to the age' or 'sin of eternal consequence.' Jerome's aeterni delicti firmly commits to eternal consequence. This rendering contributed to the Western theological tradition of scrupulosity — anxious Christians fearing they had committed this unforgivable sin. Aquinas and later theologians spent considerable effort defining exactly what constitutes this blasphemy."]
+    },
+    {
+      "reference": "Mark 7:11",
+      "source_text": "κορβᾶν, ὅ ἐστιν δῶρον",
+      "vulgate_text": "corban quod est donum",
+      "vulgate_rendering": "Corban, which is a gift",
+      "tcr_rendering": "Corban (that is, an offering)",
+      "theological_legacy": "Corban quod est donum — Jerome preserves the Hebrew/Aramaic technical term corban and glosses it with donum (gift). This passage shaped Western canon law on religious vows and obligations, establishing the principle that religious dedications to God cannot override natural-law obligations to parents.",
+      "notes": ["The corban passage became important in Western moral theology and canon law for adjudicating conflicts between religious vows and natural obligations. Jesus's critique of using religious dedication to avoid filial duties was cited in debates about monastic vows, clerical celibacy, and the limits of ecclesiastical authority over natural-law duties."]
+    }
+  ]
+}

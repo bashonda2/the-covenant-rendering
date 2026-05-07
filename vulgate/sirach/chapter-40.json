@@ -1,0 +1,252 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Sirach",
+    "chapter": 40,
+    "tradition": "vulgate",
+    "tradition_label": "Latin Vulgate (Deuterocanonical)",
+    "source_text": "Biblia Sacra Vulgata (Stuttgart critical edition)",
+    "translator": "Jerome",
+    "date": "c. 405 CE",
+    "canon": ["catholic", "orthodox", "ethiopian"],
+    "generated_at": "2026-04-20T00:00:00Z",
+    "prompt_version": "2.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "A meditation on the universal burden of human life: from the womb to the grave, anxiety, fear, and toil afflict all mortals -- sevenfold worse for the wicked. The chapter then catalogues life's goods in ascending order -- health, friends, wine, music, wealth -- culminating in the fear of the Lord as supreme above all. A closing section warns against the shame of begging.",
+    "remarkable": "The opening verses (1-11) constitute one of the most penetrating reflections on the human condition in all ancient wisdom literature, rivaling Job and Ecclesiastes in their unflinching assessment of mortal suffering. The 'better than' ladder (vv. 18-27) is a masterwork of rhetorical escalation, building toward the fear of the Lord as the ultimate good.",
+    "friction": "The claim that the wicked suffer sevenfold more than others (v. 8) stands in tension with Ecclesiastes' observation that the same fate befalls all. Ben Sira maintains the traditional doctrine of retribution even while acknowledging universal human suffering.",
+    "connections": "Job 5:7 (man is born to trouble); Ecclesiastes 1:2-3 (vanity and toil); Genesis 3:17-19 (the curse of labor); Psalm 90 (the brevity and burden of human life)."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_latin": "Occupatio magna creata est omnibus hominibus et iugum grave super filios Adam a die exitus de ventre matris eorum usque in diem sepulturae in matrem omnium.",
+      "rendering": "A heavy burden is laid upon all mankind, and a weighty yoke is on the children of Adam, from the day they come forth from their mother's womb until the day of burial in the mother of all.",
+      "translator_notes": ["'Mother of all' (matrem omnium) is the earth: born from one mother, buried in another. The inclusio of womb and tomb frames the entire human condition."],
+      "key_terms": [{"latin": "iugum grave", "rendered_as": "weighty yoke", "note": "The yoke as a metaphor for the burdens of mortal existence; not punishment for individual sin but the universal condition of humanity after Adam."},
+      {"latin": "matrem omnium", "rendered_as": "mother of all", "note": "The earth, from which Adam was formed (Genesis 2:7) and to which all return (Genesis 3:19)."}]
+    },
+    {
+      "verse": 2,
+      "text_latin": "Cogitationes eorum et timores cordis adinventio expectationis et dies finitionis.",
+      "rendering": "Their anxious thoughts, the fears of their hearts, the imagination of what they dread, and the day of their end --",
+      "translator_notes": ["A catalog of inner torments that afflict the mind even when external circumstances are favorable."],
+      "key_terms": []
+    },
+    {
+      "verse": 3,
+      "text_latin": "A residente super sedem gloriosam usque ad humiliatum in terra et cinere.",
+      "rendering": "from the one who sits on a glorious throne to the one cast down in dust and ashes --",
+      "translator_notes": ["The universal scope: from king to beggar, no human being escapes the burden described in vv. 1-2."],
+      "key_terms": []
+    },
+    {
+      "verse": 4,
+      "text_latin": "Ab eo qui utitur hyacintho et portat coronam usque ad eum qui operitur lino crudo furor zelus tumultus fluctuatio et timor mortis iracundia perseverans et contentio.",
+      "rendering": "from the one who wears purple and bears a crown to the one who is clothed in rough linen -- rage, jealousy, turmoil, anxiety, fear of death, lingering anger, and strife.",
+      "translator_notes": ["Purple (hyacinthus) was the color of royalty; rough linen (linum crudum) was the cheapest fabric. Between these extremes, all share the same afflictions."],
+      "key_terms": [{"latin": "hyacintho", "rendered_as": "purple", "note": "Hyacinthine dye, the mark of royal status; the costliest fabric of the ancient world."},
+      {"latin": "lino crudo", "rendered_as": "rough linen", "note": "Unbleached, unfinished linen -- the coarsest and cheapest available garment."}]
+    },
+    {
+      "verse": 5,
+      "text_latin": "Et in tempore refectionis in cubili somnus noctis immutat scientiam eius.",
+      "rendering": "And in the time of rest upon his bed, the sleep of night disturbs his understanding.",
+      "translator_notes": ["Even sleep, which should bring rest, becomes another source of torment through troubled dreams and night terrors."],
+      "key_terms": []
+    },
+    {
+      "verse": 6,
+      "text_latin": "Modicum tamquam nihil in requie et ab eo in somnis quasi in die respectus.",
+      "rendering": "For a little while, as if it were nothing, he rests, and then in his dreams, as on a day of watching, he is troubled.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 7,
+      "text_latin": "Conturbatus est in visu cordis sui tamquam qui evaserit in die belli in tempore salutis suae exsurrexit et admirans ad nullum timorem.",
+      "rendering": "He is disturbed by the visions of his heart, like one who has escaped on the day of battle; in the moment of his deliverance he rises up, astonished that there is nothing to fear.",
+      "translator_notes": ["A vivid psychological portrait: the combat veteran who wakes in terror from a dream of war, only to find himself safe. The relief itself is disorienting."],
+      "key_terms": []
+    },
+    {
+      "verse": 8,
+      "text_latin": "Cum omni carne ab homine usque ad pecus et super peccatores septuplum.",
+      "rendering": "This befalls all flesh, from man to beast, and upon sinners sevenfold.",
+      "translator_notes": ["The universality of suffering extends even to animals, but sinners bear a multiplied burden."],
+      "key_terms": [{"latin": "septuplum", "rendered_as": "sevenfold", "note": "The number of completeness applied to punishment: the wicked's suffering is total and intensified."}]
+    },
+    {
+      "verse": 9,
+      "text_latin": "Ad haec mors interitus sanguis contentio et romphaea oppressiones fames et contritio et flagella.",
+      "rendering": "In addition to these: death, bloodshed, strife, the sword, calamities, famine, ruin, and the scourge --",
+      "translator_notes": ["The catalog escalates from inner anxiety to external catastrophe."],
+      "key_terms": []
+    },
+    {
+      "verse": 10,
+      "text_latin": "Super iniquos creata sunt haec omnia et propter illos factus est cataclysmus.",
+      "rendering": "all these were created because of the wicked, and on their account the flood came.",
+      "translator_notes": ["The Noahic flood is presented as the paradigmatic consequence of collective wickedness."],
+      "key_terms": [{"latin": "cataclysmus", "rendered_as": "flood", "note": "The great deluge of Genesis 6-9; the supreme example of divinely ordained destruction of the wicked."}]
+    },
+    {
+      "verse": 11,
+      "text_latin": "Omnia quae de terra sunt in terram convertentur et omnes aquae in mare revertentur.",
+      "rendering": "Everything that comes from the earth returns to the earth, and all waters flow back to the sea.",
+      "translator_notes": ["An echo of Ecclesiastes 1:7 and Genesis 3:19. The cyclical return of all things to their origin underscores the transience of earthly life."],
+      "key_terms": []
+    },
+    {
+      "verse": 12,
+      "text_latin": "Omne munus et iniquitas delebitur et fides in saeculum stabit.",
+      "rendering": "Every bribe and every act of injustice will be wiped away, but faithfulness will stand forever.",
+      "translator_notes": ["A sudden pivot from the gloomy catalog to a note of hope: wickedness is temporary, but faithfulness endures."],
+      "key_terms": [{"latin": "fides", "rendered_as": "faithfulness", "note": "Steadfast reliability and trustworthiness; the one human quality that participates in eternity."}]
+    },
+    {
+      "verse": 13,
+      "text_latin": "Substantiae iniustorum sicut fluvius siccabuntur et sicut tonitruum magnum in pluvia personabunt.",
+      "rendering": "The wealth of the unjust will dry up like a river and crash like a great thunderclap in a storm.",
+      "translator_notes": ["Two contrasting images of destruction: the slow drying of a riverbed and the sudden explosion of thunder. Ill-gotten wealth vanishes either gradually or all at once."],
+      "key_terms": []
+    },
+    {
+      "verse": 14,
+      "text_latin": "In aperiendo manus suas laetabitur sic praevaricatores in consummatione tabescent.",
+      "rendering": "When he opens his hands generously he will rejoice, but transgressors will waste away to nothing.",
+      "translator_notes": [],
+      "key_terms": [{"latin": "praevaricatores", "rendered_as": "transgressors", "note": "Those who deliberately cross the line of law or covenant; their end is dissolution."}]
+    },
+    {
+      "verse": 15,
+      "text_latin": "Nepotes impiorum non multiplicabunt ramos et radices inmundae super cacumen petrae sonant.",
+      "rendering": "The descendants of the ungodly will not multiply branches, and unclean roots echo upon the rock's summit.",
+      "translator_notes": ["A botanical image of futility: the wicked are like plants rooted in poor soil, producing noise but no fruit."],
+      "key_terms": []
+    },
+    {
+      "verse": 16,
+      "text_latin": "Super omnem aquam viriditas et ad oram fluminis ante omne faenum evelletur.",
+      "rendering": "The reeds by every waterway and the grass at the river's edge -- they are pulled up before all other plants.",
+      "translator_notes": ["Quick-growing waterside plants are the first to be cleared: a metaphor for the apparent prosperity of the wicked, which is first to be removed."],
+      "key_terms": []
+    },
+    {
+      "verse": 17,
+      "text_latin": "Gratia sicut paradisus in benedictionibus et misericordia in saeculum permanet.",
+      "rendering": "Generosity is like a garden among blessings, and mercy endures forever.",
+      "translator_notes": ["The first step in the ascending ladder of goods: generosity creates a paradise, and mercy transcends time."],
+      "key_terms": [{"latin": "paradisus", "rendered_as": "garden", "note": "The Latin paradisus derives from the Persian garden enclosure; it evokes Eden and the ideal of cultivated abundance."}]
+    },
+    {
+      "verse": 18,
+      "text_latin": "Vita sibi sufficientis operarii condulcabitur et in ea invenies thesaurum.",
+      "rendering": "The life of a self-sufficient worker is sweet, and in it you will find treasure.",
+      "translator_notes": ["Self-sufficiency through honest labor is presented as a genuine good -- not the highest good, but a real one."],
+      "key_terms": []
+    },
+    {
+      "verse": 19,
+      "text_latin": "Filii et aedificatio civitatis confirmabit nomen et super haec mulier inmaculata conputabitur.",
+      "rendering": "Children and the building of a city establish a name, but above both a blameless wife is esteemed.",
+      "translator_notes": ["The 'better than' ladder begins its ascent: children and civic achievement are good, but a virtuous wife surpasses both."],
+      "key_terms": [{"latin": "mulier inmaculata", "rendered_as": "blameless wife", "note": "A woman of unblemished character; inmaculata here denotes moral integrity rather than ritual purity."}]
+    },
+    {
+      "verse": 20,
+      "text_latin": "Vinum et musica laetificant cor et super utraque dilectio sapientiae.",
+      "rendering": "Wine and music gladden the heart, but the love of wisdom surpasses them both.",
+      "translator_notes": ["Wine and music are legitimate pleasures, but the love of wisdom -- a deeper, more lasting joy -- exceeds them."],
+      "key_terms": [{"latin": "dilectio sapientiae", "rendered_as": "love of wisdom", "note": "Philosophia in its etymological sense: the passionate pursuit of wisdom as the highest human pleasure."}]
+    },
+    {
+      "verse": 21,
+      "text_latin": "Tibia et psalterium suavem faciunt melodiam et super utraque lingua suavis.",
+      "rendering": "The flute and the psaltery make sweet melody, but a pleasant tongue surpasses them both.",
+      "translator_notes": [],
+      "key_terms": [{"latin": "tibia", "rendered_as": "flute", "note": "A reed instrument; one of the standard instruments of both secular entertainment and Temple worship."},
+      {"latin": "psalterium", "rendered_as": "psaltery", "note": "A stringed instrument plucked with the fingers; the nevel of Hebrew tradition."}]
+    },
+    {
+      "verse": 22,
+      "text_latin": "Gratiam et speciem desiderabit oculus tuus et super haec virides sationes.",
+      "rendering": "Your eye desires grace and beauty, but more than these, the green of growing fields.",
+      "translator_notes": ["Even aesthetic beauty yields to the deeper pleasure of fertile land -- a distinctly agricultural hierarchy of goods."],
+      "key_terms": []
+    },
+    {
+      "verse": 23,
+      "text_latin": "Amicus et sodalis in tempore convenientes et super utrosque mulier cum viro.",
+      "rendering": "A friend and a companion meeting at the right time -- but above both, a wife with her husband.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 24,
+      "text_latin": "Fratres in adiutorium in tempore tribulationis et super eos misericordia liberabit.",
+      "rendering": "Brothers are a help in time of trouble, but mercy delivers more than they.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 25,
+      "text_latin": "Aurum et argentum est constitutio pedum et super utrumque consilium beneplacitum.",
+      "rendering": "Gold and silver make the feet stand firm, but good counsel is esteemed above both.",
+      "translator_notes": ["Wealth provides stability, but wisdom provides direction -- and direction is more valuable than stability alone."],
+      "key_terms": []
+    },
+    {
+      "verse": 26,
+      "text_latin": "Facultates et virtutes exaltant cor et super haec timor Domini.",
+      "rendering": "Riches and strength lift the heart, but the fear of the Lord surpasses them.",
+      "translator_notes": ["The penultimate step: even wealth combined with power is inferior to reverence before God."],
+      "key_terms": [{"latin": "timor Domini", "rendered_as": "fear of the Lord", "note": "The capstone of the ladder and the foundation of all wisdom in the Sirach tradition; reverential awe before God that shapes the entire life."}]
+    },
+    {
+      "verse": 27,
+      "text_latin": "Non est in timore Domini minoratio et non est in eo inquirere adiutorium.",
+      "rendering": "In the fear of the Lord there is no lack, and in it there is no need to seek further help.",
+      "translator_notes": ["The climax of the ladder: the fear of the Lord is self-sufficient. One who possesses it needs nothing else."],
+      "key_terms": []
+    },
+    {
+      "verse": 28,
+      "text_latin": "Timor Domini sicut paradisus benedictionis et super omnem gloriam operuerunt illum.",
+      "rendering": "The fear of the Lord is like a garden of blessing, and they have covered it with glory above all else.",
+      "translator_notes": ["The fear of the Lord returns to the garden image of v. 17, completing a ring: the ultimate good is an Eden of blessing."],
+      "key_terms": []
+    },
+    {
+      "verse": 29,
+      "text_latin": "Fili in tempore vitae tuae ne indigeas melius est enim mori quam indigere.",
+      "rendering": "My son, in your lifetime do not become destitute, for it is better to die than to beg.",
+      "translator_notes": ["A harsh but honest appraisal of the social reality of ancient poverty: destitution stripped a person of all dignity."],
+      "key_terms": []
+    },
+    {
+      "verse": 30,
+      "text_latin": "Vir respiciens in mensam alienam non est vita eius in cogitatione victus alit enim animam suam cibis alienis.",
+      "rendering": "A man who looks to another's table -- his life is not to be counted as a life; he feeds his soul with another's food.",
+      "translator_notes": ["Dependence on others for food degrades the self: one who cannot feed himself has, in Ben Sira's assessment, lost the substance of living."],
+      "key_terms": []
+    },
+    {
+      "verse": 31,
+      "text_latin": "Vir autem disciplinatus et eruditus custodiet se.",
+      "rendering": "But a disciplined and educated man will guard himself.",
+      "translator_notes": ["Education and self-discipline are the means of avoiding the degradation described in vv. 29-30."],
+      "key_terms": []
+    },
+    {
+      "verse": 32,
+      "text_latin": "In ore inprudentis condulcabitur inopia et in ventre eius ignis ardebit.",
+      "rendering": "In the mouth of the shameless, begging is sweet, but in his belly a fire burns.",
+      "translator_notes": ["The chapter ends with a disturbing image: the shameless beggar finds begging easy, but his inner torment (the fire in the belly) reveals the true cost of his degradation."],
+      "key_terms": []
+    }
+  ]
+}

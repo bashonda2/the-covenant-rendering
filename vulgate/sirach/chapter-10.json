@@ -1,0 +1,263 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Sirach",
+    "chapter": 10,
+    "tradition": "vulgate",
+    "tradition_label": "Latin Vulgate (Deuterocanonical)",
+    "source_text": "Biblia Sacra Vulgata (Stuttgart critical edition)",
+    "translator": "Jerome",
+    "date": "c. 405 CE",
+    "canon": ["catholic", "orthodox", "ethiopian"],
+    "generated_at": "2026-04-20T00:00:00Z",
+    "prompt_version": "2.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "The chapter examines governance, pride, and the reversal of human fortunes. A wise ruler disciplines his people; a foolish one destroys them. God has transferred kingdoms from one nation to another because of injustice. Pride is the beginning of all sin, and God uproots the proud and plants the humble in their place. True honor comes from the fear of the Lord, not from wealth or birth.",
+    "remarkable": "The theological claim that God transfers sovereignty between nations because of pride and injustice (vv. 8-14) is a remarkable philosophy of history. It explains the rise and fall of empires as moral events, not merely political ones. The definition of pride as 'the beginning of all sin' (v. 15) influenced Augustine's theology of original sin and the entire Western tradition of the capital vices.",
+    "friction": "The assertion that 'the beginning of human pride is to depart from God' (v. 14) creates a chicken-and-egg problem: does pride cause departure from God, or does departure cause pride? Ben Sira seems to treat them as simultaneous. The social conservatism (do not reproach a poor man who fears God) coexists with a willingness to overturn social hierarchies (God enthrones the humble).",
+    "connections": "Daniel 2:21 (God removes kings and sets up kings); 1 Samuel 2:7-8 (Hannah's song: God raises the poor); Luke 1:52 (the Magnificat: he has brought down the mighty); Proverbs 16:18 (pride goes before destruction); Genesis 11:1-9 (the tower of Babel as paradigm of pride)."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_latin": "Iudex sapiens iudicabit populum suum et principatus sensati stabilis erit.",
+      "rendering": "A wise judge will govern his people well, and the rule of a discerning man will be stable.",
+      "translator_notes": ["The chapter opens with the principle that a community's welfare depends on the quality of its ruler."],
+      "key_terms": [{"latin": "principatus", "rendered_as": "rule", "note": "Principatus means both the office of leadership and the act of governing; stable governance requires wisdom."}]
+    },
+    {
+      "verse": 2,
+      "text_latin": "Secundum iudicem populi sic et ministri eius et qualis rector est civitatis tales et inhabitantes in ea.",
+      "rendering": "As the judge of the people is, so are his ministers; and as the ruler of the city is, so are all its inhabitants.",
+      "translator_notes": ["The character of the ruler determines the character of the people -- a principle of moral contagion from the top down."],
+      "key_terms": []
+    },
+    {
+      "verse": 3,
+      "text_latin": "Rex insipiens perdet populum suum et civitates inhabitabuntur per sensum potentium.",
+      "rendering": "An unwise king will destroy his people, but a city will be built up through the understanding of its leaders.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 4,
+      "text_latin": "In manu Dei potestas terrae et utilem rectorem suscitabit in tempus super illam.",
+      "rendering": "In the hand of God is the authority over the earth, and in due time he will raise up the right ruler over it.",
+      "translator_notes": ["Divine sovereignty over political appointment: God himself determines who rules and when."],
+      "key_terms": [{"latin": "potestas terrae", "rendered_as": "the authority over the earth", "note": "All political power is derivative; it originates in and remains subject to God's hand."}]
+    },
+    {
+      "verse": 5,
+      "text_latin": "In manu Dei prosperitas hominis et super faciem scribae imponet honorem suum.",
+      "rendering": "In the hand of God is the prosperity of a man, and upon the face of the scribe he will set his honor.",
+      "translator_notes": ["The 'scribe' (scriba) here likely refers to the learned sage or Torah scholar -- Ben Sira's own class."],
+      "key_terms": [{"latin": "scribae", "rendered_as": "the scribe", "note": "The professional class of literate scholars and teachers; Ben Sira elevates their honor as God-given."}]
+    },
+    {
+      "verse": 6,
+      "text_latin": "Non irascaris proximo in omni iniuria et nihil agas in operibus iniuriae.",
+      "rendering": "Do not be angry with your neighbor for every wrong, and do nothing by way of unjust deeds.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 7,
+      "text_latin": "Odibilis coram Deo est et hominibus superbia et exsecrabilis omnis iniquitas gentium.",
+      "rendering": "Pride is hateful before God and before men, and all injustice of the nations is abominable.",
+      "translator_notes": ["Pride is uniquely condemned as hateful to both God and humanity -- it offends the divine and the human order simultaneously."],
+      "key_terms": [{"latin": "superbia", "rendered_as": "pride", "note": "Superbia is the fundamental vice in the Latin moral tradition: self-exaltation above one's proper station."}]
+    },
+    {
+      "verse": 8,
+      "text_latin": "Regnum a gente in gentem transfertur propter iniustitias et iniurias et contumelias et diversos dolos.",
+      "rendering": "Sovereignty is transferred from nation to nation because of injustice, violence, insults, and various deceits.",
+      "translator_notes": ["A compact theology of history: empires fall not through military weakness but through accumulated moral corruption."],
+      "key_terms": [{"latin": "transfertur", "rendered_as": "is transferred", "note": "The divine passive: God is the unnamed agent who moves sovereignty from one people to another."}]
+    },
+    {
+      "verse": 9,
+      "text_latin": "Avaro autem nihil est scelestius quid superbit terra et cinis.",
+      "rendering": "Nothing is more wicked than a miser. Why does earth and ash have pride?",
+      "translator_notes": ["The rhetorical question undercuts all human pride by invoking mortality: you are dust, and to dust you will return."],
+      "key_terms": []
+    },
+    {
+      "verse": 10,
+      "text_latin": "Nihil est iniquius quam amare pecuniam hic enim et animam suam venalem habet quoniam in vita sua proiecit intima sua.",
+      "rendering": "Nothing is more unjust than to love money, for such a person puts even his own soul up for sale, because in his lifetime he has cast away his inmost being.",
+      "translator_notes": ["The miser sells his soul (anima) for wealth -- a transaction Ben Sira considers the worst possible trade."],
+      "key_terms": []
+    },
+    {
+      "verse": 11,
+      "text_latin": "Omnis potentatus brevis vita languor prolixior gravat medicum.",
+      "rendering": "Every powerful reign is brief; a prolonged illness wears out the physician.",
+      "translator_notes": ["Two proverbs paired: political power is short-lived, and chronic disease exhausts even the healer. Both remind that human achievements have limits."],
+      "key_terms": []
+    },
+    {
+      "verse": 12,
+      "text_latin": "Brevem languorem praecidit medicus sic et rex hodie est et cras morietur.",
+      "rendering": "The physician cuts short a brief illness; likewise a king exists today and tomorrow dies.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 13,
+      "text_latin": "Cum enim morietur homo hereditabit serpentes et bestias et vermes.",
+      "rendering": "For when a man dies, he inherits serpents and beasts and worms.",
+      "translator_notes": ["A brutally direct memento mori: the inheritance of the dead is decomposition. The proud man's 'estate' is vermin."],
+      "key_terms": []
+    },
+    {
+      "verse": 14,
+      "text_latin": "Initium superbiae hominis apostatare a Deo.",
+      "rendering": "The beginning of human pride is to depart from God.",
+      "translator_notes": ["One of the most important theological statements in Sirach. Pride originates in apostasy -- turning away from God is the foundational act of self-exaltation."],
+      "key_terms": [{"latin": "apostatare", "rendered_as": "to depart", "note": "Apostatare means to rebel, to stand away from; the word carries overtones of deliberate defection."}]
+    },
+    {
+      "verse": 15,
+      "text_latin": "Quoniam ab eo qui fecit illum recessit cor eius quoniam initium omnis peccati est superbia qui tenuerit illam adimplebitur maledictis et subvertet eum in finem.",
+      "rendering": "Because his heart has withdrawn from the one who made him, for the beginning of all sin is pride; whoever clings to it will be filled with curses, and it will overthrow him in the end.",
+      "translator_notes": ["'Initium omnis peccati est superbia' (the beginning of all sin is pride) became one of the most quoted sentences in Western moral theology, foundational for Augustine and the medieval tradition of capital vices."],
+      "key_terms": [{"latin": "initium omnis peccati", "rendered_as": "the beginning of all sin", "note": "A universal claim: every sin has its root in the self-exaltation that refuses to acknowledge creatureliness."}]
+    },
+    {
+      "verse": 16,
+      "text_latin": "Propterea exhonoravit Dominus conventus malorum et destruxit eos usque in finem.",
+      "rendering": "Therefore the Lord has dishonored the assemblies of the wicked and destroyed them utterly.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 17,
+      "text_latin": "Sedes ducum superborum destruxit Deus et sedere fecit mites pro eis.",
+      "rendering": "God has overthrown the thrones of proud rulers and has seated the gentle in their place.",
+      "translator_notes": ["The divine reversal: thrones torn down, the humble elevated. This verse lies behind the Magnificat (Luke 1:52)."],
+      "key_terms": [{"latin": "mites", "rendered_as": "the gentle", "note": "Mites (meek, gentle) are those who do not grasp for power; God's preferred rulers."}]
+    },
+    {
+      "verse": 18,
+      "text_latin": "Radices gentium superbarum arefecit Deus et plantavit humiles ex ipsis gentibus.",
+      "rendering": "God has dried up the roots of proud nations and has planted the humble from among those same peoples.",
+      "translator_notes": ["The agricultural metaphor: nations are uprooted and replanted according to God's moral judgment."],
+      "key_terms": []
+    },
+    {
+      "verse": 19,
+      "text_latin": "Terras gentium evertit Dominus et perdidit eas usque ad fundamentum.",
+      "rendering": "The Lord has overturned the lands of the nations and destroyed them to their foundations.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 20,
+      "text_latin": "Arefecit ex ipsis et disperdidit eos et cessare fecit memoriam eorum a terra.",
+      "rendering": "He has dried them up and destroyed them, and has caused their memory to cease from the earth.",
+      "translator_notes": ["The erasure of memory is the ultimate punishment in an honor culture: to be forgotten is to be annihilated."],
+      "key_terms": []
+    },
+    {
+      "verse": 21,
+      "text_latin": "Memoriam superborum perdidit Deus et reliquit memoriam humilium sensu.",
+      "rendering": "God has destroyed the memory of the proud, and has preserved the memory of those humble in mind.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 22,
+      "text_latin": "Non est creata hominibus superbia neque iracundia nationi mulierum.",
+      "rendering": "Pride was not created for human beings, nor fierce anger for those born of woman.",
+      "translator_notes": ["Pride is unnatural -- it was not part of the created order. Human beings were made for humility."],
+      "key_terms": []
+    },
+    {
+      "verse": 23,
+      "text_latin": "Semen hominum honorabitur hoc quod timet Deum semen autem hoc exhonorabitur humanum quod praeterit mandata Domini.",
+      "rendering": "Those of human descent who fear God will be honored; but those of human descent who transgress the commandments of the Lord will be dishonored.",
+      "translator_notes": ["Birth counts for nothing; only the fear of God determines true honor."],
+      "key_terms": []
+    },
+    {
+      "verse": 24,
+      "text_latin": "In medio fratrum rector illorum in honore et qui timent Dominum erunt in oculis illius.",
+      "rendering": "In the midst of his brothers the ruler is held in honor, and those who fear the Lord are esteemed in his eyes.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 25,
+      "text_latin": "Timor Dei gloria divitum et honoratorum et pauperum.",
+      "rendering": "The fear of God is the glory of the rich, the honored, and the poor alike.",
+      "translator_notes": ["The great equalizer: fear of God is the one form of glory accessible to every social class."],
+      "key_terms": []
+    },
+    {
+      "verse": 26,
+      "text_latin": "Noli despicere hominem iustum pauperem et noli magnificare virum peccatorem divitem.",
+      "rendering": "Do not despise a just man who is poor, and do not exalt a sinful man who is rich.",
+      "translator_notes": ["A direct assault on the cultural tendency to equate wealth with worth and poverty with shame."],
+      "key_terms": []
+    },
+    {
+      "verse": 27,
+      "text_latin": "Magnus et iudex et potens est in honore et non est maior illo qui timet Deum.",
+      "rendering": "The great man, the judge, and the powerful are held in honor, but none of them is greater than the one who fears God.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 28,
+      "text_latin": "Servo sensato liberi servient et vir prudens et disciplinatus non murmurabit correptus et inscius non honorabitur.",
+      "rendering": "Free men will serve a wise servant, and the prudent and disciplined man will not grumble when corrected; but the ignorant will not be honored.",
+      "translator_notes": ["Social reversal within the household: a wise slave commands the respect that ignorant free men forfeit."],
+      "key_terms": []
+    },
+    {
+      "verse": 29,
+      "text_latin": "Noli extollere te in faciendo opere tuo et noli cunctari in tempore angustiae.",
+      "rendering": "Do not exalt yourself in doing your work, and do not hesitate in the time of distress.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 30,
+      "text_latin": "Melior est qui operatur et abundat in omnibus quam qui gloriatur et eget pane.",
+      "rendering": "Better is the one who works and has abundance in all things, than the one who boasts and lacks bread.",
+      "translator_notes": ["Productive humility outweighs empty boasting -- the recurring Sirach theme of substance over appearance."],
+      "key_terms": []
+    },
+    {
+      "verse": 31,
+      "text_latin": "Fili in mansuetudine serva animam tuam et da illi honorem secundum meritum suum.",
+      "rendering": "My son, in gentleness preserve your soul, and give it the honor it deserves.",
+      "translator_notes": ["Proper self-regard is not pride; the soul merits care and appropriate honor."],
+      "key_terms": []
+    },
+    {
+      "verse": 32,
+      "text_latin": "Peccantem in animam suam quis iustificabit et quis honorificabit exhonorantem animam suam.",
+      "rendering": "Who will justify one who sins against his own soul? And who will honor one who dishonors himself?",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 33,
+      "text_latin": "Pauper gloriatur per disciplinam et timorem suum et est homo qui honorificatur propter substantiam suam.",
+      "rendering": "The poor man is honored for his discipline and his fear of God, and there is a man who is honored for his wealth.",
+      "translator_notes": ["The chapter's closing comparison: both the disciplined poor and the wealthy rich receive honor, but the former's honor is more durable because it rests on character rather than circumstance."],
+      "key_terms": []
+    },
+    {
+      "verse": 34,
+      "text_latin": "Qui autem gloriatur in paupertate quanto magis in substantia et qui gloriatur in substantia paupertatem vereatur.",
+      "rendering": "If one is honored in poverty, how much more in wealth? And if one is honored in wealth, let him fear poverty.",
+      "translator_notes": ["The concluding paradox: honor in poverty is the greater achievement, and honor in wealth is the more precarious position."],
+      "key_terms": []
+    }
+  ]
+}

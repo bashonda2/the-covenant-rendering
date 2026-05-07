@@ -1,0 +1,310 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "2 Maccabees",
+    "chapter": 15,
+    "tradition": "vulgate",
+    "tradition_label": "Latin Vulgate (Deuterocanonical)",
+    "source_text": "Biblia Sacra Vulgata (Stuttgart critical edition)",
+    "translator": "Jerome",
+    "date": "c. 405 CE",
+    "canon": ["catholic", "orthodox", "ethiopian"],
+    "generated_at": "2026-04-20T00:00:00Z",
+    "prompt_version": "2.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "The final chapter of 2 Maccabees brings the Nicanor saga to its climax. Nicanor, confident in his military superiority, plans to attack on the Sabbath. Judas has a dream-vision in which the murdered high priest Onias III and the prophet Jeremiah appear — Jeremiah gives Judas a golden sword from God. Emboldened by this vision, Judas leads his forces into the decisive Battle of Adasa. Nicanor is killed, his head and right hand are cut off and displayed in Jerusalem, and the day is declared a permanent festival (Nicanor's Day, 13 Adar). The book concludes with the epitomist's modest epilogue.",
+    "remarkable": "The dream-vision of Onias and Jeremiah (vv. 12-16) is one of the most theologically significant passages in 2 Maccabees. It presents the righteous dead as active intercessors for the living — Onias prays for the Jewish people from beyond death, and Jeremiah hands Judas a golden sword as 'a gift from God.' This passage became a foundational text for the Catholic and Orthodox doctrine of the communion of saints and the intercession of the saints. The epilogue (vv. 38-40) is one of the most charming authorial conclusions in ancient literature: the writer compares his work to wine mixed with water — pleasant, useful, and made for the reader's enjoyment.",
+    "friction": "The 'golden sword' (gladium aureum) given by Jeremiah to Judas operates on multiple levels: literal (a weapon), symbolic (divine authorization), and prophetic (the prophet arming the warrior). We render it straightforwardly. The epilogue's wine-and-water metaphor has been over-interpreted; we let it stand as the simple, self-aware literary statement it is.",
+    "connections": "The Onias-Jeremiah vision connects to 2 Maccabees 4:33-38 (Onias's murder) and to Jeremiah 2:4-5 (Jeremiah hiding the Ark). Together they form a picture of the righteous dead as heavenly patrons of the living community. Nicanor's decapitation and display of his right hand echo 1 Samuel 17:51 (David displaying Goliath's head) and 1 Samuel 31:9-10 (the Philistines displaying Saul's armor). The establishment of Nicanor's Day on 13 Adar connects to the proximity with Purim (14 Adar) — two victory celebrations in adjacent days."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_latin": "Nicanor autem ut comperit Iudam esse in locis Samariae cogitavit cum omni impetu die sabbati committere bellum.",
+      "rendering": "When Nicanor learned that Judas was in the region of Samaria, he resolved to attack him with full force on the Sabbath day.",
+      "translator_notes": ["Nicanor deliberately chooses the Sabbath for his attack — exploiting Jewish religious observance, the same tactic used in 5:25-26."],
+      "key_terms": [{"latin": "die sabbati", "rendered_as": "the Sabbath day", "note": "The deliberate targeting of the Sabbath as a military vulnerability — a recurring theme in the Maccabean narrative."}]
+    },
+    {
+      "verse": 2,
+      "text_latin": "Iudaei vero qui illum per necessitatem sequebantur dicebant: Ne ita ferociter et barbare feceris sed honorem tribue diei sanctificationis et eum honorifica qui universa conspicit.",
+      "rendering": "The Jews who were compelled to follow him said, 'Do not act so savagely and barbarously, but show honor to the day that has been sanctified, and reverence him who sees all things.'",
+      "translator_notes": ["Jewish soldiers forcibly serving in Nicanor's army plead for Sabbath observance — an extraordinary scene of religious witness within the enemy camp."],
+      "key_terms": [{"latin": "diei sanctificationis", "rendered_as": "the day that has been sanctified", "note": "The Sabbath as a divinely sanctified day — its holiness is independent of human circumstances."}]
+    },
+    {
+      "verse": 3,
+      "text_latin": "At ille infelicissimus interrogavit si est potens in caelo qui imperavit agi diem sabbatorum.",
+      "rendering": "But that most unhappy man asked whether there was a ruler in heaven who had commanded the observance of the Sabbath day.",
+      "translator_notes": ["Nicanor's contemptuous question — 'is there a ruler in heaven?' — is both rhetorical blasphemy and, ironically, the correct theological question. The answer, which he will learn through defeat, is yes."],
+      "key_terms": []
+    },
+    {
+      "verse": 4,
+      "text_latin": "Et respondentibus illis: Est Dominus vivus ipse in caelo potens qui iussit agi septimam diem.",
+      "rendering": "When they replied, 'There is indeed a living Lord, the mighty one in heaven, who commanded the seventh day to be observed,'",
+      "translator_notes": ["The Jewish soldiers' confession: 'Est Dominus vivus' (There is a living Lord). Their testimony under duress is a miniature creed."],
+      "key_terms": [{"latin": "Dominus vivus", "rendered_as": "a living Lord", "note": "The confession that God is alive and powerful — the living God versus the dead assumptions of the pagan general."}]
+    },
+    {
+      "verse": 5,
+      "text_latin": "At ille ait: Et ego potens sum super terram qui impero sumi arma et negotia regis impleri. Tamen non obtinuit ut consilium perficeret.",
+      "rendering": "He replied, 'And I am a ruler on earth, and I command you to take up arms and carry out the king's business.' Nevertheless, he did not succeed in carrying out his plan.",
+      "translator_notes": ["Nicanor contrasts his earthly authority with the heavenly authority the soldiers invoked. The narrator immediately undercuts him: 'tamen non obtinuit' (nevertheless he did not succeed). Earthly power fails against heavenly command."],
+      "key_terms": []
+    },
+    {
+      "verse": 6,
+      "text_latin": "Et Nicanor quidem cum summa superbia erectus cogitaverat commune tropaeum statuere de Iuda.",
+      "rendering": "Nicanor, puffed up with the greatest arrogance, had thought to set up a public trophy from the defeat of Judas.",
+      "translator_notes": ["Nicanor's hubris: he has already planned his victory monument before the battle — the same presumption as the slave traders in chapter 8."],
+      "key_terms": [{"latin": "tropaeum", "rendered_as": "a trophy", "note": "A victory monument — the Greek custom of erecting a trophy on the battlefield, planned prematurely by Nicanor."}]
+    },
+    {
+      "verse": 7,
+      "text_latin": "Macchabaeus autem semper confidebat cum omni spe auxilium sibi a Deo adfuturum.",
+      "rendering": "Maccabeus, however, always trusted with full hope that help would come to him from God.",
+      "translator_notes": ["Judas's constant trust — 'semper confidebat' (always trusted) — is the contrast to Nicanor's arrogant presumption."],
+      "key_terms": []
+    },
+    {
+      "verse": 8,
+      "text_latin": "Et hortabatur suos ne formidarent ad adventum nationum sed in mente haberent adiutoria sibi facta de caelo et nunc sperarent ab Omnipotente sibi adfuturam victoriam.",
+      "rendering": "He encouraged his men not to be afraid of the advance of the nations, but to keep in mind the help that had come to them from heaven in the past, and to hope now for victory from the Almighty.",
+      "translator_notes": ["Judas's encouragement: remember the past, hope for the present. Historical experience of divine aid grounds present faith."],
+      "key_terms": []
+    },
+    {
+      "verse": 9,
+      "text_latin": "Et adlocutus eos de lege et prophetis admonens etiam certamina quae fecerant priora promptiores constituit.",
+      "rendering": "Speaking to them from the law and the prophets, and reminding them also of the battles they had already won, he made them even more eager.",
+      "translator_notes": ["Three sources of encouragement: Torah, prophets, and their own battle experience. Scripture and memory together build courage."],
+      "key_terms": []
+    },
+    {
+      "verse": 10,
+      "text_latin": "Et ita animis eorum erectis simul ostendebat gentium fallaciam et iuramentorum praevaricationem.",
+      "rendering": "Having raised their spirits, he also pointed out the faithlessness of the Gentiles and their violation of oaths.",
+      "translator_notes": ["Judas adds righteous anger to courage: the enemy has broken oaths and shown bad faith."],
+      "key_terms": []
+    },
+    {
+      "verse": 11,
+      "text_latin": "Singulos autem illorum armavit non clipei et hastae munitione sed sermonibus optimis et exhortationibus exposito digno fide somnio per quod universos laetificavit.",
+      "rendering": "He armed each of them not with the protection of shield and spear, but with the encouragement of good words and exhortation. He also told them a dream worthy of belief, by which he gladdened them all.",
+      "translator_notes": ["The pre-battle equipment: words and a dream, not weapons. Judas's dream-vision (detailed in the next verses) is his most powerful weapon."],
+      "key_terms": [{"latin": "digno fide somnio", "rendered_as": "a dream worthy of belief", "note": "A divinely given dream that carries theological authority — not an ordinary dream but a revelation."}]
+    },
+    {
+      "verse": 12,
+      "text_latin": "Erat autem huiuscemodi visus: Oniam qui fuerat summus sacerdos virum bonum et benignum verecundum visu modestum moribus et eloquio decorum et qui a puero in omnibus virtutibus exercitatus sit manus protendentem orare pro omni corpore Iudaeorum.",
+      "rendering": "The vision was as follows: Onias, who had been the high priest — a good and gracious man, modest in appearance, gentle in manner, and dignified in speech, who had been trained in every virtue from childhood — was stretching out his hands and praying for the whole body of the Jewish people.",
+      "translator_notes": ["THE vision of the interceding dead. Onias III — murdered in 4:34 — appears in Judas's dream, hands outstretched in prayer for the living. The portrait is elaborate: good, gracious, modest, gentle, dignified, virtuous from childhood. These are not qualities of the dead but of the eternally living. The righteous dead pray for the living."],
+      "key_terms": [{"latin": "manus protendentem orare pro omni corpore Iudaeorum", "rendered_as": "stretching out his hands and praying for the whole body of the Jewish people", "note": "The foundational text for the doctrine of the intercession of the saints: a righteous dead person actively praying for the living community."}]
+    },
+    {
+      "verse": 13,
+      "text_latin": "Post hoc apparuisse et alium virum aetate et gloria mirabilem et magni decoris habitudine circa illum.",
+      "rendering": "After this there appeared another man, remarkable for his age and his glory, and of great and majestic bearing.",
+      "translator_notes": ["A second figure appears — ancient, glorious, majestic. His identity will be revealed by Onias."],
+      "key_terms": []
+    },
+    {
+      "verse": 14,
+      "text_latin": "Respondentem vero Oniam dixisse: Hic est fratrum amator et populi Israhel hic est qui multum orat pro populo et universa sancta civitate Hieremias propheta Dei.",
+      "rendering": "Onias spoke in reply and said, 'This is the one who loves his brothers and the people of Israel; this is the one who prays much for the people and for all the holy city — Jeremiah, the prophet of God.'",
+      "translator_notes": ["Onias identifies the second figure: Jeremiah the prophet. Jeremiah, dead for centuries, is described in the present tense: he 'loves' and he 'prays' — the dead prophet is actively engaged in intercession for Israel. 'Fratrum amator et populi Israhel' (lover of his brothers and the people of Israel) is Jeremiah's heavenly title."],
+      "key_terms": [{"latin": "fratrum amator", "rendered_as": "the one who loves his brothers", "note": "Jeremiah's heavenly identity: a lover of his people, still actively caring for them after death."},
+        {"latin": "multum orat pro populo", "rendered_as": "prays much for the people", "note": "Jeremiah's ongoing intercession — the dead prophet continues to pray for the living nation."},
+        {"latin": "Hieremias propheta Dei", "rendered_as": "Jeremiah, the prophet of God", "note": "The identification of the majestic figure as Jeremiah — linking back to the Jeremiah traditions of chapter 2."}]
+    },
+    {
+      "verse": 15,
+      "text_latin": "Extendisse autem Hieremiam dextram et dedisse Iudae gladium aureum dicentem:",
+      "rendering": "Then Jeremiah stretched out his right hand and gave Judas a golden sword, saying:",
+      "translator_notes": ["The golden sword — given from Jeremiah's hand to Judas's. A weapon of supernatural origin, the color of heaven (gold), transmitted through prophetic agency."],
+      "key_terms": [{"latin": "gladium aureum", "rendered_as": "a golden sword", "note": "A divine weapon given through prophetic mediation — gold signifying its heavenly origin."}]
+    },
+    {
+      "verse": 16,
+      "text_latin": "Accipe sanctum gladium munus a Deo in quo deicies adversarios populi mei Israhel.",
+      "rendering": "'Take this holy sword, a gift from God, with which you will strike down the adversaries of my people Israel.'",
+      "translator_notes": ["Jeremiah's words: the sword is 'sanctum' (holy) and 'munus a Deo' (a gift from God). It is for the specific purpose of defeating Israel's enemies. The prophet commissions the warrior with divine armament. 'Populi mei' (my people) — Jeremiah still claims Israel as his own."],
+      "key_terms": [{"latin": "sanctum gladium munus a Deo", "rendered_as": "this holy sword, a gift from God", "note": "A divinely gifted weapon — the golden sword represents God's authorization and empowerment of Judas's military campaign."},
+        {"latin": "populi mei Israhel", "rendered_as": "my people Israel", "note": "Jeremiah's possessive language — even in the heavenly realm, Israel remains his people."}]
+    },
+    {
+      "verse": 17,
+      "text_latin": "Exhortati itaque Iudae sermonibus valde bonis de quibus extolli posset impetus et animi iuvenum confortari statuerunt dimicare et confligere fortiter ut virtus de negotiis iudicaret eo quod civitas sancta et templum periclitarentur.",
+      "rendering": "Encouraged by these most excellent words of Judas, which could raise the spirit and strengthen the courage of the young, they resolved to fight and engage bravely, so that valor might decide the issue — for the holy city and the Temple were in danger.",
+      "translator_notes": ["The vision produces its intended effect: courage, resolution, readiness to fight. The stakes are clear: the holy city and the Temple are at risk."],
+      "key_terms": []
+    },
+    {
+      "verse": 18,
+      "text_latin": "Erat enim pro uxoribus et filiis itemque pro fratribus et cognatis minor sollicitudo maximus vero et primus pro sanctitate timor erat templi.",
+      "rendering": "Their concern for wives and children, and likewise for brothers and relatives, was secondary; the greatest and primary fear was for the sanctity of the Temple.",
+      "translator_notes": ["The priority is theological, not domestic: the Temple's sanctity matters more than family safety. This is extraordinary — the hierarchy of values places the sacred above the personal."],
+      "key_terms": [{"latin": "pro sanctitate templi", "rendered_as": "for the sanctity of the Temple", "note": "The Temple's holiness as the supreme value — even above family safety."}]
+    },
+    {
+      "verse": 19,
+      "text_latin": "Sed et eos qui in civitate erant non minima sollicitudo habebat pro his qui congressuri erant.",
+      "rendering": "And those who remained in the city were in no little anxiety for those who were about to engage in battle.",
+      "translator_notes": ["Those in Jerusalem worry about the fighters — the anxiety is mutual and communal."],
+      "key_terms": []
+    },
+    {
+      "verse": 20,
+      "text_latin": "Et cum iam omnes expectarent futurum iudicium hostesque adessent atque exercitus esset ordinatus bestiae equitesque oportuno in loco compositi.",
+      "rendering": "When all were now awaiting the coming decision, and the enemy was already at hand, with the army drawn up, the beasts and the cavalry stationed in strategic positions,",
+      "translator_notes": ["The battle of Adasa: two armies face each other, the Seleucid force with elephants and cavalry in position."],
+      "key_terms": []
+    },
+    {
+      "verse": 21,
+      "text_latin": "Macchabaeus considerans adventum multitudinis et apparatum varium armorum et ferociam bestiarum extendens manus in caelum prodigia facientem Dominum invocavit qui non secundum armorum potentiam sed prout ipsi placet dat dignis victoriam.",
+      "rendering": "Maccabeus, observing the advance of the multitude and the varied equipment of their arms and the ferocity of the beasts, stretched out his hands toward heaven and called upon the Lord who works wonders — who grants victory not according to the power of arms but as he himself sees fit to those who are worthy.",
+      "translator_notes": ["Judas's final prayer before battle: God is the 'prodigia facientem' (wonder-worker) who gives victory 'prout ipsi placet' (as he himself pleases), not according to military strength. This is the theological thesis of the entire book stated one final time."],
+      "key_terms": [{"latin": "prodigia facientem Dominum", "rendered_as": "the Lord who works wonders", "note": "God as the active agent of miracles — the same God who sent horsemen and struck down Heliodorus now fights the final battle."},
+        {"latin": "non secundum armorum potentiam", "rendered_as": "not according to the power of arms", "note": "The Maccabean theological principle: victory comes from God, not from military superiority."}]
+    },
+    {
+      "verse": 22,
+      "text_latin": "Dixit autem hoc modo invocans: Tu Domine qui misisti angelum tuum sub Ezechia rege Iuda et interfecisti de castris Sennacherib centum octoginta quinque milia.",
+      "rendering": "He prayed as follows: 'You, Lord, who sent your angel in the time of King Hezekiah of Judah and killed one hundred and eighty-five thousand in the camp of Sennacherib,",
+      "translator_notes": ["The Sennacherib precedent again (cf. 8:19) — the same angel who destroyed 185,000 Assyrians is invoked for this battle."],
+      "key_terms": []
+    },
+    {
+      "verse": 23,
+      "text_latin": "Et nunc dominator caelorum mitte angelum tuum bonum ante nos in timore et tremore magnitudinis brachii tui.",
+      "rendering": "'And now, Sovereign of the heavens, send your good angel before us, with fear and trembling at the greatness of your arm.'",
+      "translator_notes": ["'Dominator caelorum' (Sovereign of the heavens) — the cosmic title for the final battle prayer. The request: send an angel who inspires terror through the display of God's power."],
+      "key_terms": [{"latin": "dominator caelorum", "rendered_as": "Sovereign of the heavens", "note": "God as the ruler of the heavenly realm — the ultimate source of authority over all earthly powers."},
+        {"latin": "angelum tuum bonum", "rendered_as": "your good angel", "note": "The angelic warrior requested for battle — connecting to the angel prayers of 11:6."}]
+    },
+    {
+      "verse": 24,
+      "text_latin": "Ut metuant qui cum blasphemia veniunt adversus sanctum populum tuum. Et hic quidem ita peroravit.",
+      "rendering": "'So that those who come with blasphemy against your holy people may be struck with terror.' And with these words he concluded his prayer.",
+      "translator_notes": ["The prayer concludes: may the blasphemers fear. 'Sanctum populum tuum' (your holy people) — Israel's identity as God's set-apart people is the ground of the prayer."],
+      "key_terms": []
+    },
+    {
+      "verse": 25,
+      "text_latin": "Nicanor autem et qui cum eo erant cum tubis et canticis admovebant.",
+      "rendering": "Nicanor and his forces advanced with trumpets and war songs.",
+      "translator_notes": ["The Seleucid advance: trumpets and military music. The contrast with Judas's prayer is deliberate — music versus prayer."],
+      "key_terms": []
+    },
+    {
+      "verse": 26,
+      "text_latin": "Iudas vero et qui cum eo erant invocato Deo per orationes congressi sunt.",
+      "rendering": "But Judas and his men, having called upon God through prayers, engaged the enemy.",
+      "translator_notes": ["The Jewish advance: prayer. Then battle. Liturgy precedes warfare one final time."],
+      "key_terms": []
+    },
+    {
+      "verse": 27,
+      "text_latin": "Et manu quidem pugnantes sed Dominum cordibus orantes prostraverunt non minus triginta quinque milia praesentia Dei magnifice delectati.",
+      "rendering": "Fighting with their hands but praying to the Lord in their hearts, they struck down no fewer than thirty-five thousand, greatly delighted by the manifest presence of God.",
+      "translator_notes": ["The simultaneous action: hands fight while hearts pray. The result: 35,000 enemy casualties. 'Praesentia Dei magnifice delectati' (greatly delighted by God's manifest presence) — they experienced divine presence in the battle itself."],
+      "key_terms": [{"latin": "manu pugnantes sed Dominum cordibus orantes", "rendered_as": "fighting with their hands but praying to the Lord in their hearts", "note": "The perfect fusion of action and prayer — the Maccabean ideal of the warrior-worshiper."}]
+    },
+    {
+      "verse": 28,
+      "text_latin": "Cum cessassent iam et cum gaudio redirent cognoverunt Nicanorem ruisse cum armis suis.",
+      "rendering": "When they had ceased fighting and were returning with joy, they learned that Nicanor had fallen in his armor.",
+      "translator_notes": ["The news reaches them after the battle: Nicanor is dead, fallen in his armor — the general who planned a trophy now lies as the defeated."],
+      "key_terms": []
+    },
+    {
+      "verse": 29,
+      "text_latin": "Et facto clamore et turbata voce patria lingua Dominum benedicebant.",
+      "rendering": "A great shout went up, and in the tumult they blessed the Lord in the ancestral language.",
+      "translator_notes": ["The victory cry is in Hebrew/Aramaic — 'patria lingua' — the language of resistance throughout the book becomes the language of victory celebration."],
+      "key_terms": []
+    },
+    {
+      "verse": 30,
+      "text_latin": "Et praecepit Iudas qui per omnia corpore et animo pro civibus mori paratus erat caput Nicanori et manum cum humero amputatam Hierosolymam perferri.",
+      "rendering": "And Judas, who was in all things prepared to die in body and soul for his fellow citizens, ordered that the head of Nicanor and his hand with the arm be cut off and brought to Jerusalem.",
+      "translator_notes": ["Nicanor's head and right hand are severed for display. The right hand that was stretched out against the Temple (14:33) is now cut off — precise retributive justice."],
+      "key_terms": []
+    },
+    {
+      "verse": 31,
+      "text_latin": "Quo cum pervenisset convocatis contribulibus et sacerdotibus ad altare accersivit et eos qui in arce erant.",
+      "rendering": "When he arrived there, he called together his countrymen and summoned the priests to the altar, and also sent for those who were in the citadel.",
+      "translator_notes": ["A public assembly at the altar: the entire community — fighters, priests, and citadel garrison — is gathered for the display."],
+      "key_terms": []
+    },
+    {
+      "verse": 32,
+      "text_latin": "Et ostenso capite Nicanori et manu nefaria quam extendens contra domum sanctam omnipotentis Dei magnifice gloriatus est.",
+      "rendering": "He displayed the head of Nicanor and the wicked hand that he had stretched out against the holy house of almighty God, boasting magnificently.",
+      "translator_notes": ["The display: Nicanor's head and the hand that threatened the Temple. The boasting is not Judas's personal triumph but God's: the hand that defied God's house has been severed."],
+      "key_terms": [{"latin": "manu nefaria", "rendered_as": "the wicked hand", "note": "The hand that Nicanor stretched against the Temple (14:33) — now displayed as evidence of divine retribution."}]
+    },
+    {
+      "verse": 33,
+      "text_latin": "Linguam etiam impii Nicanori praecisam iussit particulariter avibus dari. Manum autem dementis contra templum suspendi.",
+      "rendering": "He also ordered the tongue of the impious Nicanor to be cut out and given to the birds in pieces, and the hand of the madman to be hung up opposite the Temple.",
+      "translator_notes": ["Nicanor's tongue (which blasphemed) is fed to birds; his hand (which threatened the Temple) is hung facing the Temple. Each body part that sinned receives specific retribution."],
+      "key_terms": []
+    },
+    {
+      "verse": 34,
+      "text_latin": "Omnes igitur caeli benedicentes Dominum dixerunt: Benedictus qui locum suum incontaminatum servavit.",
+      "rendering": "All of them therefore blessed the Lord of heaven, saying, 'Blessed is he who has kept his own place undefiled.'",
+      "translator_notes": ["The communal doxology: God has kept the Temple undefiled. The entire narrative arc — from Heliodorus's failed robbery to Nicanor's failed threat — resolves in this praise."],
+      "key_terms": []
+    },
+    {
+      "verse": 35,
+      "text_latin": "Suspendit autem Nicanori caput in summa arce ut evidens esset et manifestum signum auxilii Dei.",
+      "rendering": "He hung Nicanor's head from the summit of the citadel as a clear and manifest sign of the help of God.",
+      "translator_notes": ["Nicanor's head on the citadel — the highest point in Jerusalem — becomes a visible testimony to divine aid. The sign is public and permanent."],
+      "key_terms": [{"latin": "signum auxilii Dei", "rendered_as": "a sign of the help of God", "note": "The severed head as a theological sign — not a barbaric trophy but evidence of divine intervention."}]
+    },
+    {
+      "verse": 36,
+      "text_latin": "Itaque omnes communi consilio decreverunt nullo modo diem istum absque celebritate praeterire.",
+      "rendering": "And so they all decreed by common resolution that this day should never pass without celebration.",
+      "translator_notes": ["The establishment of Nicanor's Day — a festival commemorating the victory, decreed by communal authority."],
+      "key_terms": []
+    },
+    {
+      "verse": 37,
+      "text_latin": "Habere autem celebritatem tertiadecima die mensis Adar quod dicitur voce Syriaca pridie Mardochaei diei.",
+      "rendering": "The celebration was to be held on the thirteenth day of the month of Adar, which is called in the Syrian language the day before Mordecai's Day.",
+      "translator_notes": ["13 Adar — the day before Purim (14 Adar, 'Mordecai's Day'). The placement creates a pair of victory celebrations: Nicanor's Day and Purim in consecutive days. The Syriac/Aramaic designation locates the date in living community practice."],
+      "key_terms": [{"latin": "pridie Mardochaei diei", "rendered_as": "the day before Mordecai's Day", "note": "The day before Purim — linking the Maccabean victory to the earlier deliverance commemorated in the book of Esther."}]
+    },
+    {
+      "verse": 38,
+      "text_latin": "Igitur his erga Nicanorem gestis et ex illis temporibus ab Hebraeis civitate possessa ego quoque in his faciam finem sermonis.",
+      "rendering": "So, with these events concerning Nicanor, and since from those times the city has been held by the Hebrews, I too will bring my account to an end here.",
+      "translator_notes": ["The epilogue begins. The epitomist draws a line: the narrative ends where Jewish control of Jerusalem is secure. 'Ego quoque' (I too) — the author steps forward in first person."],
+      "key_terms": []
+    },
+    {
+      "verse": 39,
+      "text_latin": "Et si quidem bene et ut historiae competat hoc et ipse velim si vero minus digne concedendum est mihi.",
+      "rendering": "If it has been written well and as a well-composed history, that is what I myself desired. If it is mediocre and of little merit, that was the best I could do.",
+      "translator_notes": ["The epitomist's modest self-assessment: he hopes his work is good, but if it is not, he did his best. The candor is disarming and endearing."],
+      "key_terms": []
+    },
+    {
+      "verse": 40,
+      "text_latin": "Sicut enim vinum semper bibere aut semper aquam contrarium est alternis autem uti delectabile ita legentibus si semper exactus sermo sit non erit gratus. Hic ergo erit consummatus.",
+      "rendering": "For just as it is tiresome to drink wine alone or water alone, while wine mixed with water is delightful and produces a pleasing effect, so also the arrangement of the narrative delights the ears of those who read the work. And here shall be the end.",
+      "translator_notes": ["The wine-and-water metaphor: pure wine (dense history) or pure water (bare facts) are each tiresome alone; the mixture is pleasant. The epitomist presents his condensed narrative as a well-mixed drink for the reader's pleasure. 'Hic ergo erit consummatus' (here, then, shall be the end) — the final word of 2 Maccabees. The book ends not with a theological declaration but with a writer's humble hope that his readers have been well served."],
+      "key_terms": [{"latin": "hic ergo erit consummatus", "rendered_as": "and here shall be the end", "note": "The final words of 2 Maccabees — a simple, modest closure to one of the most theologically influential books in the deuterocanonical corpus."}]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Ecclesiastes",
+    "tradition": "lxx",
+    "tradition_label": "Septuagint (LXX)",
+    "source_text": "Rahlfs-Hanhart, Septuaginta (Ekklēsiastēs)",
+    "base_text": "Westminster Leningrad Codex (WLC)",
+    "translators": "Likely Aquila or a kaige-recension translator (2nd c. CE revision); oldest Greek form is strikingly literal",
+    "date": "2nd century CE (the Greek Ecclesiastes we have is a late, highly literal revision)",
+    "generated_at": "2026-04-22T00:00:00Z",
+    "prompt_version": "1.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "LXX Ecclesiastes is unusual among Septuagint books: the Greek text we have is not the original Old Greek but almost certainly a later, highly literal revision — often attributed to Aquila (c. 130 CE) or to the kaige recension tradition. The Greek reads like Greek-calqued Hebrew, retaining Hebrew word order and idioms that normal Greek would not tolerate. The book's most famous single rendering — hevel as mataiotēs ('vanity, emptiness') — set the trajectory for the Vulgate's vanitas and the whole Western reading of Ecclesiastes as meditation on futility rather than on transience.",
+    "notable_variants": "The central lexical decision: hevel ('breath, vapor') rendered as mataiotēs ('vanity, worthlessness, emptiness'), a meaningful interpretive shift that TCR rejects in favor of 'vapor.' The time-poem of 3:1–8 preserved in its Greek form. The closing 'fear God and keep his commandments' at 12:13 in its LXX wording.",
+    "theological_legacy": "LXX Ecclesiastes' mataiotēs is the single most consequential semantic shift in the book's reception history. The Hebrew hevel denotes transience and insubstantiality (a breath visible in cold air, gone in a moment); Greek mataiotēs denotes worthlessness and moral futility. Jerome's vanitas inherits the LXX shift, and the whole Western contemptus mundi tradition — from Augustine through Aquinas to the vanitas paintings of the Dutch Golden Age — reads Ecclesiastes through LXX-Greek, not Hebrew, eyes."
+  },
+  "renderings": [
+    {
+      "reference": "Ecclesiastes 1:2",
+      "mt_reading": "הֲבֵל הֲבָלִים אָמַר קֹהֶלֶת … הַכֹּל הָבֶל",
+      "lxx_reading": "ματαιότης ματαιοτήτων εἶπεν ὁ Ἐκκλησιαστής … τὰ πάντα ματαιότης",
+      "mt_rendering": "Vapor of vapors, says Qohelet. Vapor of vapors — everything is vapor",
+      "lxx_rendering": "Vanity of vanities, says the Ecclesiast; all is vanity",
+      "significance": "theological",
+      "notes": [
+        "Hebrew hevel is a concrete physical image: breath visible in cold air, vapor, mist — something real but insubstantial, here one moment and gone the next. The LXX's mataiotēs ('vanity, worthlessness, futility, emptiness') is abstract and carries moral weight: a vain thing is a useless thing, a worthless pursuit.",
+        "The shift is significant. The Hebrew hevel meditates on the transience of everything under the sun; the Greek mataiotēs condemns the worthlessness of everything under the sun. Transience and worthlessness are not the same philosophical stance.",
+        "Romans 8:20 ('the creation was subjected to mataiotēs') uses this LXX vocabulary for the cursed condition of the world. The Pauline theology of creation-subjected-to-futility depends on reading LXX Ecclesiastes' word for the universal state of things.",
+        "TCR follows the Hebrew with 'vapor.' The LXX and Vulgate traditions settled for an abstract vice-term; the Hebrew stays with a concrete physical image of transience."
+      ]
+    },
+    {
+      "reference": "Ecclesiastes 3:1",
+      "mt_reading": "לַכֹּל זְמָן וְעֵת לְכָל־חֵפֶץ תַּחַת הַשָּׁמָיִם",
+      "lxx_reading": "τοῖς πᾶσιν χρόνος καὶ καιρὸς τῷ παντὶ πράγματι ὑπὸ τὸν οὐρανόν",
+      "mt_rendering": "For everything there is an appointed time, and a season for every matter under heaven",
+      "lxx_rendering": "For everything a time, and a season for every thing under heaven",
+      "significance": "moderate",
+      "notes": [
+        "The LXX preserves the Hebrew pairing of zeman ('appointed time') with et ('season') by rendering chronos and kairos — the same two Greek words the NT uses with deliberate theological distinction. Acts 1:7 ('it is not for you to know the chronoi or the kairoi') and 1 Thessalonians 5:1 ('concerning the chronoi and the kairoi') draw on exactly this LXX-Ecclesiastes pairing.",
+        "In LXX-shaped Greek Christian vocabulary, chronos is 'time' as measured duration; kairos is 'time' as opportune moment. The NT deploys both senses to speak about eschatological timing. Ecclesiastes 3:1 is the single text where both words appear together at the head of a catalog of moments."
+      ]
+    },
+    {
+      "reference": "Ecclesiastes 12:13",
+      "mt_reading": "אֶת־הָאֱלֹהִים יְרָא וְאֶת־מִצְוֺתָיו שְׁמוֹר כִּי־זֶה כָּל־הָאָדָם",
+      "lxx_reading": "τὸν θεὸν φοβοῦ καὶ τὰς ἐντολὰς αὐτοῦ φύλασσε ὅτι τοῦτο πᾶς ὁ ἄνθρωπος",
+      "mt_rendering": "Fear God and keep his commandments, for this is the whole duty of every person",
+      "lxx_rendering": "Fear God and keep his commandments, for this is every person",
+      "significance": "moderate",
+      "notes": [
+        "The Hebrew ki zeh kol-ha-adam ('for this is the whole of humanity' or 'this is every person's duty') is rendered by the LXX with the same concise obscurity. The Greek touto pas ho anthrōpos preserves the tight ambiguity — 'this is every person.'",
+        "Patristic and rabbinic readings both gravitated to paraphrastic expansions ('this is the whole duty of every person' — which most English translations still follow). The LXX's literalness left Greek readers with the same enigmatic brevity as the Hebrew.",
+        "The closing verse of Ecclesiastes in its LXX form became a standing proof-text for the Shema's yir'at YHWH (fear of the Lord) as the telos of human existence — a reading compatible with the Hebrew but crystallized by the LXX's terseness."
+      ]
+    }
+  ]
+}

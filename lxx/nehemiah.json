@@ -1,0 +1,74 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Nehemiah",
+    "tradition": "lxx",
+    "tradition_label": "Septuagint (LXX) / Esdras B (ch 11–23)",
+    "source_text": "Rahlfs-Hanhart, Septuaginta (the Nehemiah portion of Esdras B)",
+    "base_text": "Westminster Leningrad Codex (WLC)",
+    "translators": "Alexandrian Jewish translators (2nd c. BCE)",
+    "date": "2nd century BCE",
+    "generated_at": "2026-04-22T00:00:00Z",
+    "prompt_version": "1.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "In the Greek tradition, Nehemiah is not a separate book but part of Esdras B, numbered continuously with Ezra. The translation is close to the Hebrew throughout. The key translation choices concern the covenant-keeping formula at 1:5, the Torah-reading-with-interpretation passage at 8:8 that shaped later synagogue and church practice, and the great covenant-confession of chapter 9 that is one of the fullest recapitulations of salvation history in the Hebrew Bible.",
+    "notable_variants": "The ho theos tou ouranou formula at 1:5 that links Ezra-Nehemiah to Revelation's 'God of heaven'; the methodological note at 8:8 on reading Scripture meporash ('with clear interpretation') that becomes the rabbinic and patristic model of public Scripture-reading; the divine attributes catalog at 9:17 that echoes Exodus 34:6 and reappears across Hellenistic Jewish prayer; and the exclusion of Ammonites and Moabites at 13:1 that Ruth narratively contests.",
+    "theological_legacy": "Nehemiah 8:8 in its LXX form — reading with explanation (diesteilen) so the people understand — is one of the foundational texts for Jewish and Christian liturgical practice of public Scripture reading with homiletical exposition. The Acts 8 account of Philip and the Ethiopian eunuch ('do you understand what you are reading?') draws on this Nehemiah 8 model."
+  },
+  "renderings": [
+    {
+      "reference": "Nehemiah 1:5",
+      "mt_reading": "הָאֵל הַגָּדוֹל וְהַנּוֹרָא שֹׁמֵר הַבְּרִית וָחֶסֶד",
+      "lxx_reading": "ὁ θεὸς ὁ μέγας καὶ ὁ φοβερός φυλάσσων τὴν διαθήκην καὶ τὸ ἔλεος",
+      "mt_rendering": "the great and awe-inspiring God who keeps covenant and faithful love",
+      "lxx_rendering": "the God, the great and the fearful, who keeps the covenant and mercy",
+      "significance": "moderate",
+      "notes": [
+        "The LXX's diathēkē ('covenant') and eleos ('mercy') are the fixed equivalents for Hebrew berit and chesed in Hellenistic Jewish discourse. The pairing 'covenant and mercy/steadfast love' is a formulaic phrase that recurs at Deuteronomy 7:9, 1 Kings 8:23, Daniel 9:4, Nehemiah 1:5 and 9:32 — a signature of deuteronomistic covenant theology.",
+        "Luke 1:72 ('to show mercy to our ancestors, to remember his holy covenant') uses the same LXX diathēkē-plus-eleos word-pair when Zechariah's Benedictus recalls God's covenant faithfulness."
+      ]
+    },
+    {
+      "reference": "Nehemiah 8:8",
+      "mt_reading": "וַיִּקְרְאוּ בַסֵּפֶר בְּתוֹרַת הָאֱלֹהִים מְפֹרָשׁ וְשׂוֹם שֶׂכֶל וַיָּבִינוּ בַּמִּקְרָא",
+      "lxx_reading": "καὶ ἀνέγνωσαν ἐν βιβλίῳ νόμου τοῦ θεοῦ καὶ ἐδίδασκεν Εσδρας καὶ διέστελλεν ἐν ἐπιστήμῃ κυρίου καὶ συνῆκεν ὁ λαὸς ἐν τῇ ἀναγνώσει",
+      "mt_rendering": "They read from the scroll of the Law of God, translating and giving the meaning so that the people understood what was being read",
+      "lxx_rendering": "And they read in the book of the Law of God, and Ezra taught and gave distinction in the knowledge of the Lord, and the people understood in the reading",
+      "significance": "theological",
+      "notes": [
+        "The Hebrew meforash ('distinctly, with explanation') is debated: some read it as evidence of targumic translation (Aramaic rendering of the Hebrew text for the post-exilic community), others as homiletical exposition. The LXX's diestellen en epistēmē ('gave distinction in knowledge') captures the exposition sense — Ezra is teaching with interpretive skill.",
+        "Acts 8:30–35 (Philip and the Ethiopian) reads almost as a narrative dramatization of Nehemiah 8:8: a teacher reads aloud, a student does not understand, the interpreter 'opens up' (Acts 8:35 diēnoixen) the Scripture and the hearer understands. The structural template is LXX-Nehemiah-8.",
+        "Nehemiah 8:8 is one of the primary OT texts for the theology of Scripture-reading as an interpretive practice that requires a community of teachers and learners."
+      ]
+    },
+    {
+      "reference": "Nehemiah 9:17",
+      "mt_reading": "אֱלוֹהַּ סְלִיחוֹת חַנּוּן וְרַחוּם אֶרֶךְ־אַפַּיִם וְרַב־חֶסֶד",
+      "lxx_reading": "θεὸς ἐπιεικὴς καὶ ἐλεήμων μακρόθυμος καὶ πολυέλεος",
+      "mt_rendering": "a God of forgiveness — gracious, compassionate, slow to anger, and rich in faithful love",
+      "lxx_rendering": "a God forbearing and merciful, patient and full of mercy",
+      "significance": "theological",
+      "notes": [
+        "Nehemiah 9:17 echoes the Exodus 34:6 divine-attributes formula — 'merciful and gracious, slow to anger, abounding in steadfast love' — which is the most theologically consequential self-description of YHWH in the Hebrew Bible. The LXX renders the formula with epieikēs, eleēmōn, makrothymos, polyeleos.",
+        "James 5:11 ('the Lord is polysplanchnos and oiktirmōn') and NT descriptions of God's forbearance (Rom 2:4, 2 Pet 3:9) draw on this extended LXX word-cluster. The same divine-attributes formula recurs across LXX Numbers 14:18, Psalms 86/85:15 and 103/102:8, Jonah 4:2, Joel 2:13, Nahum 1:3 — a steady LXX refrain.",
+        "The formula's specific language is rabbinic ('the Thirteen Attributes of Mercy') and patristic ('the mercy-name of God'). Both traditions work from the Hebrew original and its LXX translation as a fixed liturgical text."
+      ]
+    },
+    {
+      "reference": "Nehemiah 13:1",
+      "mt_reading": "אֲשֶׁר לֹא־יָבוֹא עַמֹּנִי וּמֹאָבִי בִּקְהַל הָאֱלֹהִים",
+      "lxx_reading": "οὐκ εἰσελεύσονται Αμμανῖται καὶ Μωαβῖται εἰς ἐκκλησίαν θεοῦ",
+      "mt_rendering": "no Ammonite or Moabite should ever enter the assembly of God",
+      "lxx_rendering": "Ammonites and Moabites shall not enter into the assembly of God",
+      "significance": "moderate",
+      "notes": [
+        "The LXX's ekklēsia theou ('assembly of God') is the exact phrase Paul uses for the Christian church (1 Cor 1:2, 11:22; Gal 1:13; 1 Tim 3:5, 15). The Pauline ekklēsia tou theou is the same Greek phrase that LXX Nehemiah uses for the qahal Elohim — the gathered covenant community of Israel.",
+        "The inclusion-of-Gentiles question in early Christianity presses against the LXX-Nehemiah principle. Ruth (a Moabite) and Naaman (a Syrian) become the NT's favored counter-texts: God has always accepted the foreigner in faith. The tension between LXX Nehemiah 13 and LXX Ruth is internal to the Greek Bible itself.",
+        "Acts 10 (Peter and Cornelius) and Galatians 3:28 ('there is neither Jew nor Greek') can be read as the NT's programmatic resolution of this tension."
+      ]
+    }
+  ]
+}

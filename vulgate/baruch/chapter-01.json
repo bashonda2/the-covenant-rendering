@@ -1,0 +1,179 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Baruch",
+    "chapter": 1,
+    "tradition": "vulgate",
+    "tradition_label": "Latin Vulgate (Deuterocanonical)",
+    "source_text": "Biblia Sacra Vulgata (Stuttgart critical edition)",
+    "translator": "Jerome",
+    "date": "c. 405 CE",
+    "canon": ["catholic", "orthodox", "ethiopian"],
+    "generated_at": "2026-04-20T00:00:00Z",
+    "prompt_version": "2.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Baruch, scribe to the prophet Jeremiah, writes a scroll in Babylon and reads it aloud to King Jeconiah and the exiled community. Moved to tears, the exiles collect silver and send it to Jerusalem with instructions for the priests to offer sacrifices and pray for Nebuchadnezzar and his son Belshazzar. They confess that the calamity upon Israel is deserved and ask that the scroll be read publicly on feast days.",
+    "remarkable": "The chapter opens with an unusual act of literary self-awareness: a prophetic scribe composing and publicly reading his own book. The exiles' request to pray for Nebuchadnezzar's welfare echoes Jeremiah 29:7 and represents one of the earliest theological justifications for praying on behalf of a foreign ruler.",
+    "friction": "The historical framework is compressed and somewhat idealized. Belshazzar was not Nebuchadnezzar's son in the strict biological sense (he was grandson through Nabonidus's marriage). The collection of silver and the dispatch of temple vessels assume a level of organized community life in exile that some historians question.",
+    "connections": "Jeremiah 29:4-7 (seek the welfare of Babylon); 2 Kings 24:10-17 (deportation of Jeconiah); Daniel 9 (communal confession in exile); Ezra 1:7-11 (return of temple vessels)."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_latin": "Et haec verba libri quae scripsit Baruch filius Neriae filii Maasiae filii Sedeciae filii Sedei filii Helciae in Babylonia.",
+      "rendering": "These are the words of the scroll that Baruch son of Neriah, son of Mahseiah, son of Zedekiah, son of Hasadiah, son of Hilkiah, wrote in Babylon.",
+      "translator_notes": ["The five-generation genealogy establishes Baruch's priestly or noble credentials, paralleling the genealogical formulas common in prophetic literature."],
+      "key_terms": [{"latin": "verba libri", "rendered_as": "words of the scroll", "note": "Liber here refers to a written scroll rather than a bound book; 'scroll' better reflects the material reality of the text."}]
+    },
+    {
+      "verse": 2,
+      "text_latin": "In anno quinto in septimo die mensis in tempore quo ceperunt Chaldaei Hierusalem et succenderunt eam igni.",
+      "rendering": "In the fifth year, on the seventh day of the month, at the time when the Chaldeans captured Jerusalem and burned it with fire.",
+      "translator_notes": ["The 'fifth year' is reckoned from the deportation of Jeconiah (597 BCE), placing this around 592 BCE, though the burning of Jerusalem occurred in 587 BCE. The chronology is theologically rather than strictly historically sequenced."],
+      "key_terms": [{"latin": "Chaldaei", "rendered_as": "Chaldeans", "note": "The Neo-Babylonian ruling class; used as a synonym for Babylonians throughout the prophetic and deuterocanonical literature."}]
+    },
+    {
+      "verse": 3,
+      "text_latin": "Et legit Baruch verba libri huius ad aures Iechoniae filii Ioakim regis Iuda et ad aures universi populi venientis ad librum.",
+      "rendering": "And Baruch read the words of this scroll in the hearing of Jeconiah son of Jehoiakim, king of Judah, and in the hearing of all the people who came to hear the scroll.",
+      "translator_notes": [],
+      "key_terms": [{"latin": "Iechoniae", "rendered_as": "Jeconiah", "note": "Also known as Jehoiachin or Coniah; the exiled king of Judah who was deported to Babylon in 597 BCE."}]
+    },
+    {
+      "verse": 4,
+      "text_latin": "Et ad aures potentium et filiorum regum et ad aures presbyterorum et ad aures populi a minimo usque ad maximum eorum omni qui habitabant in Babylonia ad flumen Sod.",
+      "rendering": "And in the hearing of the nobles and the sons of kings, and in the hearing of the elders, and in the hearing of the people from the least to the greatest -- all who were living in Babylon by the river Sud.",
+      "translator_notes": ["The river Sud is otherwise unknown. It may be a canal near Babylon or a textual corruption."],
+      "key_terms": [{"latin": "presbyterorum", "rendered_as": "elders", "note": "Denotes community leaders rather than priests; the term carries both civic and religious authority in the exile community."}]
+    },
+    {
+      "verse": 5,
+      "text_latin": "Et flebant et ieiunabant et orabant in conspectu Domini.",
+      "rendering": "And they wept, and fasted, and prayed before the Lord.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 6,
+      "text_latin": "Et collegerunt pecuniam secundum quod potuit uniuscuiusque manus.",
+      "rendering": "And they collected money, each according to what they could afford.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 7,
+      "text_latin": "Et miserunt in Hierusalem ad Ioakim filium Helciae filii Salom sacerdotem et ad sacerdotes et ad omnem populum qui inventi sunt cum eo in Hierusalem.",
+      "rendering": "And they sent it to Jerusalem, to Jehoiakim son of Hilkiah, son of Shallum, the priest, and to the priests, and to all the people who were found with him in Jerusalem.",
+      "translator_notes": [],
+      "key_terms": [{"latin": "Ioakim", "rendered_as": "Jehoiakim", "note": "This is the high priest Jehoiakim in Jerusalem, not to be confused with King Jehoiakim of Judah."}]
+    },
+    {
+      "verse": 8,
+      "text_latin": "Cum acciperet vasa templi Domini quae ablata fuerant de templo ut referret ea in terram Iuda decima die mensis Sivan vasa argentea quae fecit Sedecias filius Iosiae rex Iuda.",
+      "rendering": "At the same time, he received the vessels of the Lord's temple that had been carried away from the temple, to return them to the land of Judah -- on the tenth day of the month of Sivan -- the silver vessels that Zedekiah son of Josiah, king of Judah, had made.",
+      "translator_notes": ["The claim that Zedekiah made new silver vessels to replace those taken by Nebuchadnezzar is unique to Baruch and has no parallel in Kings or Chronicles."],
+      "key_terms": [{"latin": "vasa templi Domini", "rendered_as": "vessels of the Lord's temple", "note": "Sacred liturgical objects; their removal and return is a recurring motif symbolizing the exile and restoration of God's presence."}]
+    },
+    {
+      "verse": 9,
+      "text_latin": "Postquam cepit Nabuchodonosor rex Babylonis Iechoniam et principes et omnes potentes et populum terrae ab Hierusalem et duxit eos vinctos in Babyloniam.",
+      "rendering": "After Nebuchadnezzar king of Babylon had captured Jeconiah, along with the princes, all the nobles, and the common people, from Jerusalem, and led them bound into Babylon.",
+      "translator_notes": [],
+      "key_terms": [{"latin": "Nabuchodonosor", "rendered_as": "Nebuchadnezzar", "note": "The Vulgate preserves the Septuagint spelling; standardized here to the conventional English form."}]
+    },
+    {
+      "verse": 10,
+      "text_latin": "Et dixerunt ecce misimus ad vos pecuniam de qua emite holocautomata et tus et facite manna et offerte pro peccato ad aram Domini Dei nostri.",
+      "rendering": "And they said: 'Here, we have sent you money. Use it to purchase burnt offerings, incense, and grain offerings, and make sin offerings at the altar of the Lord our God.'",
+      "translator_notes": ["The term manna here refers not to the miraculous wilderness bread but to the minchah grain offering, following the Vulgate's adaptation of the Hebrew sacrificial vocabulary."],
+      "key_terms": [{"latin": "holocautomata", "rendered_as": "burnt offerings", "note": "The whole-burnt offering (olah) in which the entire animal is consumed on the altar."}, {"latin": "pro peccato", "rendered_as": "sin offerings", "note": "The chattath offering for atonement of sins, here requested by the exiled community on their own behalf."}]
+    },
+    {
+      "verse": 11,
+      "text_latin": "Et orate pro vita Nabuchodonosor regis Babylonis et pro vita Balthassar filii eius ut sint dies eorum sicut dies caeli super terram.",
+      "rendering": "And pray for the life of Nebuchadnezzar king of Babylon, and for the life of his son Belshazzar, so that their days may be like the days of heaven upon the earth.",
+      "translator_notes": ["This directive echoes Jeremiah 29:7 but goes further in its almost liturgical formulation of loyalty prayer. The phrase 'days of heaven upon the earth' draws on Deuteronomy 11:21."],
+      "key_terms": [{"latin": "Balthassar", "rendered_as": "Belshazzar", "note": "Historically the last regent of Babylon under Nabonidus; called Nebuchadnezzar's 'son' here in a broad dynastic sense."}]
+    },
+    {
+      "verse": 12,
+      "text_latin": "Et dabit nobis Dominus virtutem et inluminet oculos nostros ut vivamus sub umbra Nabuchodonosor regis Babylonis et sub umbra Balthassar filii eius et serviamus eis multis diebus et inveniamus gratiam in conspectu eorum.",
+      "rendering": "And may the Lord give us strength and enlighten our eyes, so that we may live under the protection of Nebuchadnezzar king of Babylon and under the protection of his son Belshazzar, and may we serve them many days and find favor in their sight.",
+      "translator_notes": [],
+      "key_terms": [{"latin": "sub umbra", "rendered_as": "under the protection", "note": "Literally 'under the shadow'; a common ancient Near Eastern metaphor for royal patronage and safety."}]
+    },
+    {
+      "verse": 13,
+      "text_latin": "Et orate pro nobis ad Dominum Deum nostrum quia peccavimus Domino Deo nostro et non est aversus furor eius a nobis usque in hunc diem.",
+      "rendering": "And pray for us to the Lord our God, for we have sinned against the Lord our God, and his fury has not turned away from us to this day.",
+      "translator_notes": [],
+      "key_terms": [{"latin": "furor", "rendered_as": "fury", "note": "Divine anger understood as the just consequence of covenant violation, not arbitrary wrath."}]
+    },
+    {
+      "verse": 14,
+      "text_latin": "Et legetis librum istum quem misimus ad vos recitari in templo Domini in die sollemni et in die opportuno.",
+      "rendering": "And you shall read this scroll that we have sent you, to be recited in the temple of the Lord on the feast day and at the appointed time.",
+      "translator_notes": ["The instruction to read the scroll publicly in the temple on feast days establishes Baruch as a liturgical text, meant for ongoing communal use rather than one-time reading."],
+      "key_terms": []
+    },
+    {
+      "verse": 15,
+      "text_latin": "Et dicetis Domino Deo nostro iustitia ipsi nobis autem confusio faciei sicut est dies haec omni Iudae et habitantibus Hierusalem.",
+      "rendering": "And you shall say: 'Righteousness belongs to the Lord our God, but to us belongs the shame of our faces, as it is this day -- to all Judah and to the inhabitants of Jerusalem.'",
+      "translator_notes": ["This formula closely parallels Daniel 9:7 and may reflect a shared penitential liturgical tradition among the exile communities."],
+      "key_terms": [{"latin": "confusio faciei", "rendered_as": "shame of our faces", "note": "A Semitic idiom for public disgrace; the 'face' represents one's social standing and honor before God and community."}]
+    },
+    {
+      "verse": 16,
+      "text_latin": "Regibus nostris et principibus nostris et sacerdotibus nostris et prophetis nostris et patribus nostris.",
+      "rendering": "To our kings, and our princes, and our priests, and our prophets, and our ancestors.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 17,
+      "text_latin": "Peccavimus ante Dominum Deum nostrum et non credidimus diffidentes in eum.",
+      "rendering": "We have sinned before the Lord our God; we did not believe, and we were faithless toward him.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 18,
+      "text_latin": "Et non fuimus subibiles illi et non audivimus vocem Domini Dei nostri ut ambularemus in mandatis eius quae dedit nobis.",
+      "rendering": "We were not subject to him, and we did not listen to the voice of the Lord our God, to walk in his commandments that he set before us.",
+      "translator_notes": [],
+      "key_terms": [{"latin": "subibiles", "rendered_as": "subject", "note": "A rare Latin adjective indicating willing submission; the exile community acknowledges their stubborn refusal to accept divine authority."}]
+    },
+    {
+      "verse": 19,
+      "text_latin": "A die qua eduxit patres nostros de terra Aegypti usque ad diem hanc eramus incredibiles ad Dominum Deum nostrum et dissipati recessimus ne audiremus vocem ipsius.",
+      "rendering": "From the day he brought our ancestors out of the land of Egypt until this day, we have been disobedient to the Lord our God, and we have been negligent, turning away from hearing his voice.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 20,
+      "text_latin": "Et adhaeserunt nobis multa mala et maledictiones quae constituit Dominus Moysi puero suo in die qua eduxit patres nostros de terra Aegypti dare nobis terram fluentem lac et mel sicut hodierna die.",
+      "rendering": "And many evils and curses have clung to us -- the ones the Lord ordained through Moses his servant on the day he brought our ancestors out of the land of Egypt to give us a land flowing with milk and honey -- as is the case this day.",
+      "translator_notes": ["The 'curses' refer to the covenant curses of Deuteronomy 28:15-68, which were understood as the contractual penalties for covenant violation."],
+      "key_terms": [{"latin": "Moysi puero suo", "rendered_as": "Moses his servant", "note": "Puer here means 'servant' in the sense of a trusted agent of God, not 'boy' or 'child.'"}]
+    },
+    {
+      "verse": 21,
+      "text_latin": "Et non audivimus vocem Domini Dei nostri secundum omnia verba prophetarum quos misit ad nos.",
+      "rendering": "And we did not listen to the voice of the Lord our God, according to all the words of the prophets whom he sent to us.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 22,
+      "text_latin": "Et abivimus unusquisque in sensum cordis nostri maligni operari diis alienis facientes mala ante oculos Domini Dei nostri.",
+      "rendering": "And we each went after the inclination of our own wicked hearts, to serve other gods, doing what was evil in the sight of the Lord our God.",
+      "translator_notes": [],
+      "key_terms": [{"latin": "sensum cordis nostri maligni", "rendered_as": "inclination of our own wicked hearts", "note": "Echoes the Hebrew yetzer ha-ra, the evil inclination; the heart in biblical anthropology is the seat of will and decision, not merely emotion."}]
+    }
+  ]
+}

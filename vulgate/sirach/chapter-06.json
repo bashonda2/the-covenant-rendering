@@ -1,0 +1,284 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Sirach",
+    "chapter": 6,
+    "tradition": "vulgate",
+    "tradition_label": "Latin Vulgate (Deuterocanonical)",
+    "source_text": "Biblia Sacra Vulgata (Stuttgart critical edition)",
+    "translator": "Jerome",
+    "date": "c. 405 CE",
+    "canon": ["catholic", "orthodox", "ethiopian"],
+    "generated_at": "2026-04-20T00:00:00Z",
+    "prompt_version": "2.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "The chapter opens with warnings about the destructive power of evil passion and bad speech, then transitions to an extended treatise on friendship. Ben Sira distinguishes fair-weather friends from faithful ones, declaring that a loyal friend is a treasure beyond price. The chapter closes with a sustained appeal to pursue wisdom: submit to her yoke and her bonds, seek her like a hunter, and she will become your rest and joy.",
+    "remarkable": "The friendship passage (vv. 5-17) is the most developed treatment of friendship in the Hebrew Bible or deuterocanonical literature, predating Cicero's De Amicitia by a generation. The closing image of wisdom's yoke (v. 25) is echoed by Jesus in Matthew 11:29-30, suggesting direct literary influence.",
+    "friction": "The pragmatic advice to test friends before trusting them (vv. 7-12) has a calculating quality that sits in tension with the generous spirit commended in chapter 4. Ben Sira's realism about human nature leads him to counsel caution alongside love.",
+    "connections": "Proverbs 17:17 (a friend loves at all times); Proverbs 18:24 (a friend who sticks closer than a brother); Matthew 11:28-30 (take my yoke upon you); Cicero, De Amicitia (parallel Hellenistic friendship ethics); 1 Samuel 18-20 (David and Jonathan as paradigmatic friends)."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_latin": "Noli fieri pro amico inimicus proximo improperium enim et contumeliam malus hereditabit et omnis peccator invidus et bilinguis.",
+      "rendering": "Do not become an enemy to your neighbor instead of a friend, for a bad name inherits reproach and disgrace -- and so does every sinner who is envious and double-tongued.",
+      "translator_notes": ["The opening warns that careless behavior can turn friendship into enmity, and that the double-tongued bear permanent reputational damage."],
+      "key_terms": [{"latin": "bilinguis", "rendered_as": "double-tongued", "note": "Continuing the speech-ethics theme from chapter 5; saying different things to different people."}]
+    },
+    {
+      "verse": 2,
+      "text_latin": "Non te extollas in cogitatione animae tuae velut taurus ne forte elidatur virtus tua per stultitiam.",
+      "rendering": "Do not exalt yourself in the thoughts of your soul like a bull, lest your strength be broken through folly.",
+      "translator_notes": ["The bull image: raw strength without wisdom leads to self-destruction. The bull charges headlong into what will destroy it."],
+      "key_terms": []
+    },
+    {
+      "verse": 3,
+      "text_latin": "Et folia tua comedat et fructus tuos perdat et relinquaris velut lignum aridum in heremo.",
+      "rendering": "And it will devour your leaves and destroy your fruit, and leave you like a dry tree in the wilderness.",
+      "translator_notes": ["The sudden shift from animal to tree imagery: folly strips the person of vitality as drought strips a tree."],
+      "key_terms": []
+    },
+    {
+      "verse": 4,
+      "text_latin": "Anima enim nequam disperdet qui se habet et in gaudium inimicis dat illum et deducet in sortem impiorum.",
+      "rendering": "For a wicked soul destroys the one who possesses it, and makes him a joy to his enemies, and leads him to the lot of the ungodly.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 5,
+      "text_latin": "Verbum dulce multiplicat amicos et mitigat inimicos et lingua eucharis in bono homine abundat.",
+      "rendering": "A sweet word multiplies friends and softens enemies, and a gracious tongue abounds in a good person.",
+      "translator_notes": ["The transition to the friendship discourse begins with the positive power of speech -- the opposite of the double tongue condemned earlier."],
+      "key_terms": [{"latin": "eucharis", "rendered_as": "gracious", "note": "A Greek loanword (eucharis) meaning charming or graceful; one of the few Greek words Jerome retains untranslated."}]
+    },
+    {
+      "verse": 6,
+      "text_latin": "Multi pacifici sint tibi et consiliarius sit tibi unus de mille.",
+      "rendering": "Let those at peace with you be many, but let your counselor be one in a thousand.",
+      "translator_notes": ["A classic distinction between acquaintances (many) and true advisors (exceedingly rare)."],
+      "key_terms": [{"latin": "consiliarius", "rendered_as": "counselor", "note": "The consiliarius is not merely a friend but an advisor trusted with decisions; the rarity (one in a thousand) underscores how few merit such trust."}]
+    },
+    {
+      "verse": 7,
+      "text_latin": "Si possides amicum in temptatione posside eum et non facile credas illi.",
+      "rendering": "If you would acquire a friend, acquire him through testing, and do not trust him too quickly.",
+      "translator_notes": ["Friendship requires proving, just as wisdom tests her devotees (4:18-19). The counsel is cautious but not cynical."],
+      "key_terms": [{"latin": "temptatione", "rendered_as": "testing", "note": "The same word used for God's and wisdom's testing of the faithful; here applied to the proving of friendship."}]
+    },
+    {
+      "verse": 8,
+      "text_latin": "Est enim amicus secundum tempus suum et non permanebit in die tribulationis.",
+      "rendering": "For there is a friend who is one only for his own time, and will not remain in the day of trouble.",
+      "translator_notes": ["The fair-weather friend: available in prosperity, absent in adversity."],
+      "key_terms": []
+    },
+    {
+      "verse": 9,
+      "text_latin": "Et est amicus qui convertitur ad inimicitiam et est amicus qui odium et rixam et convicia denudabit.",
+      "rendering": "And there is a friend who turns to enmity, and there is a friend who will expose hatred and quarrels and insults.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 10,
+      "text_latin": "Est autem amicus socius mensae et non permanebit in die necessitatis.",
+      "rendering": "There is a friend who is a companion at the table, but will not remain in the day of need.",
+      "translator_notes": ["The table-companion enjoys hospitality but vanishes when the host falls on hard times."],
+      "key_terms": [{"latin": "socius mensae", "rendered_as": "companion at the table", "note": "Table fellowship in the ancient Near East implied loyalty and covenant; the false friend betrays this implied bond."}]
+    },
+    {
+      "verse": 11,
+      "text_latin": "Amicus si permanserit fixus erit tibi quasi coaequalis et in domesticis tuis fiducialiter aget.",
+      "rendering": "A friend, if he remains steadfast, will be to you as an equal, and will act freely among your household.",
+      "translator_notes": ["The tested friend is elevated to the status of family member, with unrestricted access to the household."],
+      "key_terms": [{"latin": "coaequalis", "rendered_as": "an equal", "note": "True friendship transcends social hierarchy; the friend is treated as a peer regardless of rank."}]
+    },
+    {
+      "verse": 12,
+      "text_latin": "Si humiliaverit se contra te et a facie tua abscondit se unanimem habe amicitiam bonam.",
+      "rendering": "If he humbles himself before you and hides from your face, you will have a harmonious and good friendship.",
+      "translator_notes": ["The verse is textually difficult; the sense appears to be that mutual humility -- even awkward vulnerability -- produces genuine friendship."],
+      "key_terms": []
+    },
+    {
+      "verse": 13,
+      "text_latin": "Ab inimicis tuis separare et ab amicis tuis adtende.",
+      "rendering": "Separate yourself from your enemies, and be on guard even with your friends.",
+      "translator_notes": ["Realism about human nature: even friends require watchfulness, though not suspicion."],
+      "key_terms": []
+    },
+    {
+      "verse": 14,
+      "text_latin": "Amicus fidelis protectio fortis qui autem invenit illum invenit thesaurum.",
+      "rendering": "A faithful friend is a strong protection; whoever finds one has found a treasure.",
+      "translator_notes": ["One of the most celebrated verses in Sirach. The equation of a faithful friend with treasure was endlessly quoted in patristic and medieval literature."],
+      "key_terms": [{"latin": "amicus fidelis", "rendered_as": "a faithful friend", "note": "Fidelis carries the full weight of covenant loyalty; this friend is reliable, trustworthy, and proven."}]
+    },
+    {
+      "verse": 15,
+      "text_latin": "Amico fideli nulla est conparatio et non est digna ponderatio auri et argenti contra bonitatem fidei illius.",
+      "rendering": "There is nothing that compares to a faithful friend, and no weight of gold or silver is worthy to be set against the goodness of his faithfulness.",
+      "translator_notes": ["The friend's value exceeds precious metals -- an inversion of the commercial valuation that dominates ancient economies."],
+      "key_terms": []
+    },
+    {
+      "verse": 16,
+      "text_latin": "Amicus fidelis medicamentum vitae et inmortalitatis et qui metuunt Dominum inveniunt illum.",
+      "rendering": "A faithful friend is a medicine of life and immortality, and those who fear the Lord will find him.",
+      "translator_notes": ["Friendship as 'medicine of life' (medicamentum vitae) is a remarkable claim: the faithful friend heals and sustains. The connection to fear of the Lord means that genuine friendship is ultimately rooted in piety."],
+      "key_terms": [{"latin": "medicamentum vitae", "rendered_as": "a medicine of life", "note": "Medicamentum means remedy or healing agent; friendship is therapeutic in the deepest sense."}]
+    },
+    {
+      "verse": 17,
+      "text_latin": "Qui timet Deum aeque habebit amicitiam bonam quoniam secundum illum erit amicus illius.",
+      "rendering": "Whoever fears God will likewise have good friendship, for his friend will be like himself.",
+      "translator_notes": ["The principle of like attracting like: God-fearers find God-fearing friends. Character produces its own community."],
+      "key_terms": []
+    },
+    {
+      "verse": 18,
+      "text_latin": "Fili a iuventute tua excipe doctrinam et usque ad canos invenies sapientiam.",
+      "rendering": "My son, from your youth receive instruction, and even to your gray hairs you will find wisdom.",
+      "translator_notes": ["The chapter pivots to the pursuit of wisdom as a lifelong endeavor, beginning in youth and continuing through old age."],
+      "key_terms": [{"latin": "canos", "rendered_as": "gray hairs", "note": "Canus (gray/white-haired) is a metonymy for old age; wisdom is not found in a day but over a lifetime."}]
+    },
+    {
+      "verse": 19,
+      "text_latin": "Quasi is qui arat et seminat accede ad eam et sustine bonos fructus illius.",
+      "rendering": "Come to her like one who plows and sows, and wait for her good fruits.",
+      "translator_notes": ["The agricultural metaphor: wisdom requires patient labor before yielding a harvest."],
+      "key_terms": []
+    },
+    {
+      "verse": 20,
+      "text_latin": "In opere enim illius exiguum laborabis et cito edes de generationibus illius.",
+      "rendering": "For in working with her you will labor a little, and soon you will eat of her produce.",
+      "translator_notes": ["A note of encouragement: the labor, though real, is slight compared to the harvest."],
+      "key_terms": []
+    },
+    {
+      "verse": 21,
+      "text_latin": "Quam aspera est nimium sapientia indoctis hominibus et non permanet in illa excors.",
+      "rendering": "How exceedingly harsh wisdom is to the undisciplined! The fool will not remain with her.",
+      "translator_notes": ["Wisdom feels like oppression to those who lack discipline; only the teachable can endure her demands."],
+      "key_terms": [{"latin": "excors", "rendered_as": "the fool", "note": "Literally 'without heart' (ex + cor); the heartless person lacks the interior organ of discernment."}]
+    },
+    {
+      "verse": 22,
+      "text_latin": "Quasi lapidis virtus probatio erit in illis et non demorabuntur proicere illam.",
+      "rendering": "She will be to them like a heavy testing stone, and they will not delay in casting her aside.",
+      "translator_notes": ["The testing stone was used to prove strength; for the undisciplined, wisdom is a burden they immediately reject."],
+      "key_terms": []
+    },
+    {
+      "verse": 23,
+      "text_latin": "Sapientia enim doctrinae secundum nomen est eius et non est multis manifesta quibus autem cognita est permanet usque ad conspectum Dei.",
+      "rendering": "For the wisdom of instruction is according to her name, and she is not manifest to many; but to those who know her she endures unto the sight of God.",
+      "translator_notes": ["The Hebrew word musar (discipline/instruction) sounds like musar (withdrawn/hidden); Ben Sira may be playing on this etymology."],
+      "key_terms": []
+    },
+    {
+      "verse": 24,
+      "text_latin": "Audi fili et accipe consilium intellectus et ne abicias consilium meum.",
+      "rendering": "Listen, my son, and accept the counsel of understanding, and do not reject my advice.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 25,
+      "text_latin": "Inice pedem tuum in conpedes illius et in torques illius collum tuum.",
+      "rendering": "Put your feet into her fetters and your neck into her collar.",
+      "translator_notes": ["The imagery of chains and fetters for wisdom's discipline is deliberately provocative: what appears to be bondage is actually liberation. Jesus echoes this in Matthew 11:29."],
+      "key_terms": [{"latin": "conpedes", "rendered_as": "fetters", "note": "Compedes are shackles for the feet; paired with torques (collar/chain for the neck), they represent total submission to wisdom's discipline."}]
+    },
+    {
+      "verse": 26,
+      "text_latin": "Subice umerum tuum et porta illam et ne acedieris vinculis eius.",
+      "rendering": "Bow your shoulder and carry her, and do not chafe at her bonds.",
+      "translator_notes": ["Acedia (spiritual weariness or disgust) appears here in embryonic form -- the danger of growing tired of wisdom's demands."],
+      "key_terms": [{"latin": "acedieris", "rendered_as": "chafe", "note": "From acedia, spiritual sloth or weariness; later developed into one of the seven deadly sins in monastic theology."}]
+    },
+    {
+      "verse": 27,
+      "text_latin": "In omni animo tuo accede ad illam et in omni virtute tua conserva vias eius.",
+      "rendering": "With all your soul draw near to her, and with all your strength keep her ways.",
+      "translator_notes": ["The language echoes the Shema (Deuteronomy 6:5): love the Lord with all your heart, soul, and strength. Wisdom claims the same total devotion."],
+      "key_terms": []
+    },
+    {
+      "verse": 28,
+      "text_latin": "Investiga illam et manifestabitur tibi et continens factus ne derelinquas eam.",
+      "rendering": "Search for her, and she will be revealed to you; and once you have taken hold of her, do not let her go.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 29,
+      "text_latin": "In novissimis enim invenies requiem in ea et convertetur tibi in oblectationem.",
+      "rendering": "For in the end you will find rest in her, and she will be turned for you into delight.",
+      "translator_notes": ["The fetters of verse 25 become rest; the collar becomes delight. The paradox of wisdom's discipline resolved."],
+      "key_terms": [{"latin": "requiem", "rendered_as": "rest", "note": "Requies is both cessation of labor and deep spiritual peace; cf. Jesus' promise of rest in Matthew 11:28."}]
+    },
+    {
+      "verse": 30,
+      "text_latin": "Et erunt tibi conpedes eius in protectionem fortitudinis et bases virtutis et torques illius in stolam gloriae.",
+      "rendering": "And her fetters will become for you a strong protection, and her foundations a support of strength, and her collar a robe of glory.",
+      "translator_notes": ["The great reversal: fetters become protection, chains become glory. What seemed like imprisonment is revealed as enthronement."],
+      "key_terms": [{"latin": "stolam gloriae", "rendered_as": "a robe of glory", "note": "The stola was a garment of honor and dignity; wisdom's collar transforms into a vestment of exaltation."}]
+    },
+    {
+      "verse": 31,
+      "text_latin": "Decor enim vitae est in illa et vincula illius alligatura salutaris.",
+      "rendering": "For the beauty of life is in her, and her bonds are a healing bandage.",
+      "translator_notes": ["Bonds as bandages: what binds also heals. The medical metaphor completes the transformation of imprisonment imagery."],
+      "key_terms": [{"latin": "alligatura salutaris", "rendered_as": "a healing bandage", "note": "Alligatura is a medical term for a binding or dressing; salutaris means health-giving. Wisdom's constraints heal."}]
+    },
+    {
+      "verse": 32,
+      "text_latin": "Stolam gloriae indues eam et coronam gratulationis superpones tibi.",
+      "rendering": "You will put on her robe of glory, and you will set upon yourself the crown of rejoicing.",
+      "translator_notes": ["The disciple who endured wisdom's testing is now clothed and crowned -- imagery of royal investiture."],
+      "key_terms": []
+    },
+    {
+      "verse": 33,
+      "text_latin": "Fili si adtenderis mihi disces et si accommodaveris animum tuum sapiens eris.",
+      "rendering": "My son, if you attend to me, you will learn; and if you apply your mind, you will become wise.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 34,
+      "text_latin": "Si inclinaveris aurem tuam excipies doctrinam et si dilexeris audire sapiens eris.",
+      "rendering": "If you incline your ear, you will receive instruction; and if you love to listen, you will become wise.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 35,
+      "text_latin": "In multitudine presbyterorum prudentium sta et sapientiae illorum ex corde coniungere ut omnem narrationem Dei possis audire et proverbia laudis non effugiant a te.",
+      "rendering": "Stand in the assembly of prudent elders, and bind yourself heartily to their wisdom, so that you may hear every discourse about God, and proverbs of praise may not escape you.",
+      "translator_notes": ["Community as a context for wisdom: learning happens in the company of the wise, not in isolation."],
+      "key_terms": [{"latin": "presbyterorum", "rendered_as": "elders", "note": "The elders are both aged and authoritative; their wisdom is the fruit of long experience and faithful living."}]
+    },
+    {
+      "verse": 36,
+      "text_latin": "Et si videris sensatum evigila ad eum et gradus ostiorum illius exterat pes tuus.",
+      "rendering": "And if you see a person of understanding, rise early to go to him, and let your foot wear out the steps of his door.",
+      "translator_notes": ["The eager student wears out the teacher's doorstep -- a vivid image of relentless pursuit of wisdom."],
+      "key_terms": [{"latin": "sensatum", "rendered_as": "a person of understanding", "note": "Sensatus is one who possesses sensus (discernment); a person of proven practical wisdom."}]
+    },
+    {
+      "verse": 37,
+      "text_latin": "Cogitatum tuum habe in praeceptis Dei et in mandatis illius maxime assiduus esto et ipse dabit tibi cor et concupiscentia sapientiae dabitur tibi.",
+      "rendering": "Let your thought be upon the precepts of God, and meditate constantly on his commandments, and he himself will give you a heart, and the desire for wisdom will be given to you.",
+      "translator_notes": ["The chapter closes with the assurance that even the desire for wisdom is a divine gift. Meditation on Torah produces the heart capable of receiving wisdom."],
+      "key_terms": [{"latin": "concupiscentia sapientiae", "rendered_as": "the desire for wisdom", "note": "Concupiscentia here is positive -- holy desire, longing for what is good. A reminder that the word is morally neutral until directed at its object."}]
+    }
+  ]
+}

@@ -1,0 +1,380 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "2 Maccabees",
+    "chapter": 4,
+    "tradition": "vulgate",
+    "tradition_label": "Latin Vulgate (Deuterocanonical)",
+    "source_text": "Biblia Sacra Vulgata (Stuttgart critical edition)",
+    "translator": "Jerome",
+    "date": "c. 405 CE",
+    "canon": ["catholic", "orthodox", "ethiopian"],
+    "generated_at": "2026-04-20T00:00:00Z",
+    "prompt_version": "2.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "The chapter chronicles the corruption of the Jerusalem high priesthood through three successive figures: Simon continues his slanders against Onias; Jason bribes Antiochus IV to obtain the high priesthood and transforms Jerusalem into a Greek city with a gymnasium; then Menelaus outbids Jason, steals Temple vessels, and arranges the murder of the exiled Onias III. The chapter ends with popular unrest and divine foreboding.",
+    "remarkable": "This chapter documents the Hellenistic crisis from within the priesthood itself — the enemy is not only the foreign king but corrupt Jewish leaders who sell the sacred office for political advantage. The murder of the righteous high priest Onias III (vv. 33-38) is one of the most poignant passages in the deuterocanonical literature: even the pagan king Antiochus weeps for him. The gymnasium in Jerusalem (v. 12) represents the cultural assault that the Maccabean revolt ultimately resisted.",
+    "friction": "Jerome's 'gymnasium' and 'ephebeum' transliterate Greek cultural institutions that have no Latin or Hebrew equivalent. We preserve them as technical terms. The financial transactions — talents of silver for purchasing the high priesthood — are rendered precisely to show the commodification of the sacred office.",
+    "connections": "The murdered Onias III appears again in 15:12-16 as a heavenly intercessor — his righteous death gives him ongoing spiritual authority. The selling of the priesthood echoes the corruption denounced in Malachi 1-2 and anticipates Jesus's cleansing of the Temple (Matthew 21:12-13). The gymnasium and its 'broad-brimmed hat' (petasus of Hermes, v. 12) represent the cultural syncretism that Deuteronomy 7 and Joshua 23 warned against."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_latin": "Simon autem praedictus pecuniarum et patriae delator male loquebatur de Onia tamquam ipse Heliodorum instigasset ad haec et ipse fuisset incentor malorum.",
+      "rendering": "The aforementioned Simon, the informer about the money and the betrayer of his country, spoke evil of Onias, as though Onias had instigated Heliodorus to these things and had been the instigator of the troubles.",
+      "translator_notes": ["Simon's slander reverses the truth: he accuses Onias of the very conspiracy Simon himself initiated. The narrator calls Simon 'patriae delator' — a traitor to his own nation."],
+      "key_terms": [{"latin": "patriae delator", "rendered_as": "the betrayer of his country", "note": "Delator — an informer, denouncer. Applied to Simon as a national traitor."}]
+    },
+    {
+      "verse": 2,
+      "text_latin": "Provisoremque civitatis ac defensorem gentis suae et aemulatorem legis Dei audebat insidiatorem regni dicere.",
+      "rendering": "He dared to call the protector of the city, the defender of his nation, and the zealot for the law of God, a conspirator against the kingdom.",
+      "translator_notes": ["Three noble titles for Onias — protector, defender, zealot for the law — are contrasted with the false charge of being a conspirator against the Seleucid state."],
+      "key_terms": [{"latin": "aemulatorem legis Dei", "rendered_as": "the zealot for the law of God", "note": "Aemulator — one who is zealous for, passionately devoted to. Onias as a model of Torah faithfulness."}]
+    },
+    {
+      "verse": 3,
+      "text_latin": "Sed cum inimicitiae in tantum procederent ut etiam per quosdam Simonis necessarios homicidia fierent.",
+      "rendering": "But when the hostility had advanced so far that murders were being committed by certain associates of Simon,",
+      "translator_notes": ["The political crisis escalates from slander to murder — Simon's faction has become violent."],
+      "key_terms": []
+    },
+    {
+      "verse": 4,
+      "text_latin": "Considerans Onias periculum contentionis et Apollonium insanire utpote ducem Coelesyriae et Foenicis ad augendam malitiam Simonis.",
+      "rendering": "Onias, recognizing the danger of the conflict, and that Apollonius was raging — since as governor of Coele-Syria and Phoenicia he was encouraging Simon's wickedness —",
+      "translator_notes": ["The provincial governor Apollonius is now actively supporting Simon against Onias. The righteous high priest faces a coalition of internal traitors and external power."],
+      "key_terms": []
+    },
+    {
+      "verse": 5,
+      "text_latin": "Ad regem se contulit non ut civium accusator sed communem utilitatem apud semetipsum universae multitudinis considerans.",
+      "rendering": "He went to the king, not as an accuser of his fellow citizens, but considering within himself the common good of the whole people.",
+      "translator_notes": ["The narrator defends Onias's motives: he goes to the Seleucid court not to betray his people (as Simon did) but to protect them. The contrast between the two men's appeals to foreign power is deliberate."],
+      "key_terms": [{"latin": "communem utilitatem", "rendered_as": "the common good", "note": "A political philosophy term — Onias acts for the welfare of the whole community, not personal advantage."}]
+    },
+    {
+      "verse": 6,
+      "text_latin": "Videbat enim sine regali providentia inpossibile esse pacem rebus dari nec Simonem posse cessare a stultitia sua.",
+      "rendering": "For he saw that without royal intervention it was impossible for peace to be restored, and that Simon would not cease from his folly.",
+      "translator_notes": ["Onias recognizes that only royal authority can restrain Simon — the internal mechanisms of Jewish governance have failed."],
+      "key_terms": []
+    },
+    {
+      "verse": 7,
+      "text_latin": "Sed post Seleuci vitae excessum cum suscepisset regnum Antiochus qui Nobilis appellabatur ambiebat Iason frater Oniae summum sacerdotium.",
+      "rendering": "But after the death of Seleucus, when Antiochus who was called the Noble had assumed the kingship, Jason the brother of Onias sought to obtain the high priesthood.",
+      "translator_notes": ["The succession of Antiochus IV Epiphanes (175 BCE) opens the door for Jason's bid. Jason is Onias's own brother — the betrayal comes from within the family."],
+      "key_terms": [{"latin": "summum sacerdotium", "rendered_as": "the high priesthood", "note": "The highest religious office in Judaism, now treated as a commodity to be purchased from a foreign king."}]
+    },
+    {
+      "verse": 8,
+      "text_latin": "Adito rege promittens ei argenti talenta trecenta sexaginta et ex reditibus aliis talenta octoginta.",
+      "rendering": "He went to the king and promised him three hundred and sixty talents of silver and eighty talents from other revenues.",
+      "translator_notes": ["The high priesthood is purchased for 440 talents — an enormous sum that reveals both Jason's wealth and his willingness to bankrupt the nation for personal advancement."],
+      "key_terms": [{"latin": "talenta trecenta sexaginta", "rendered_as": "three hundred and sixty talents", "note": "The price of the high priesthood — a figure that makes the sacred office explicitly a commercial transaction."}]
+    },
+    {
+      "verse": 9,
+      "text_latin": "Super haec promittebat et alia centum quinquaginta si potestati eius concederetur gymnasium et ephebiam sibi constituere et eos qui in Hierosolymis erant Antiochenos scribere.",
+      "rendering": "Beyond this, he promised another one hundred and fifty if he were granted authority to establish a gymnasium and a training center for youth, and to register the inhabitants of Jerusalem as citizens of Antioch.",
+      "translator_notes": ["The cultural transformation is the real price: Jason pays to turn Jerusalem into a Greek city. The gymnasium, the ephebeum (youth training center), and Antiochene citizenship are the instruments of Hellenization."],
+      "key_terms": [{"latin": "gymnasium", "rendered_as": "a gymnasium", "note": "The Greek athletic and educational institution, where young men trained naked — deeply offensive to Jewish sensibilities regarding modesty and circumcision."},
+        {"latin": "ephebiam", "rendered_as": "a training center for youth", "note": "The ephebeum — an institution for training young men in Greek culture, athletics, and philosophy."},
+        {"latin": "Antiochenos scribere", "rendered_as": "to register as citizens of Antioch", "note": "Granting Antiochene citizenship transformed Jerusalem's legal status from a Jewish temple-city to a Greek polis."}]
+    },
+    {
+      "verse": 10,
+      "text_latin": "Potestate autem regis accepta statim ad gentilem ritum contribules suos transferre coepit.",
+      "rendering": "When royal authority had been granted, he immediately began to transfer his fellow countrymen to the Greek way of life.",
+      "translator_notes": ["'Ad gentilem ritum' (to the Gentile custom/way of life) — the Hellenization program begins. Jason uses royal authority to impose cultural transformation on his own people."],
+      "key_terms": [{"latin": "gentilem ritum", "rendered_as": "the Greek way of life", "note": "Literally 'the Gentile custom' — the cultural practices of non-Jewish peoples, here specifically Greek institutions."}]
+    },
+    {
+      "verse": 11,
+      "text_latin": "Et amotis his quae humanitatis causa Iudaeis a regibus fuerant constituta per Iohannem patrem Eupolemi qui apud Romanos de amicitia et societate functus est legatione et legitimas destituens politias perversas leges sanciebat.",
+      "rendering": "He set aside the royal privileges that had been granted to the Jews through John, the father of Eupolemus — who had served as ambassador to the Romans concerning friendship and alliance — and abolishing the lawful institutions, he established unlawful practices.",
+      "translator_notes": ["Jason dismantles the legal protections that Jewish diplomacy had secured. Eupolemus would later serve as Judas Maccabeus's own ambassador to Rome (1 Maccabees 8:17)."],
+      "key_terms": [{"latin": "legitimas politias", "rendered_as": "the lawful institutions", "note": "The Jewish constitutional arrangements recognized by the Seleucid crown — now abolished by a Jewish high priest."}]
+    },
+    {
+      "verse": 12,
+      "text_latin": "Etenim ausus est sub ipsa arce gymnasium constituere et optimos quosque epheborum in lupanaribus ponere.",
+      "rendering": "For he dared to establish a gymnasium right beneath the citadel, and to place the finest of the young men in the training halls.",
+      "translator_notes": ["The gymnasium's location 'beneath the citadel' (sub ipsa arce) means it was immediately adjacent to the Temple mount — a deliberate provocation. 'Lupanaribus' literally means 'brothels' but here likely translates a term for the training quarters."],
+      "key_terms": [{"latin": "sub ipsa arce", "rendered_as": "right beneath the citadel", "note": "The gymnasium's proximity to the Temple mount made it a constant visible challenge to traditional worship."}]
+    },
+    {
+      "verse": 13,
+      "text_latin": "Erat autem hoc non initium sed incrementum quoddam et profectus allophaeli et alienigenae conversationis propter impii et non sacerdotis Iasonis nefarium et inauditum scelus.",
+      "rendering": "This was not a beginning but rather an advance and increase of Greek and foreign customs, because of the surpassing wickedness and unprecedented crime of the impious Jason, who was no true priest.",
+      "translator_notes": ["The narrator's judgment is severe: Jason is 'impius et non sacerdos' (impious and no priest). His actions are not merely wrong but constitute a fundamental betrayal of the priestly office."],
+      "key_terms": [{"latin": "non sacerdotis", "rendered_as": "who was no true priest", "note": "The narrator strips Jason of his priestly identity — his actions have forfeited his claim to the office."},
+        {"latin": "allophaeli et alienigenae conversationis", "rendered_as": "Greek and foreign customs", "note": "Double emphasis on the foreignness of the cultural program: allophylus (of another tribe) and alienigena (foreign-born)."}]
+    },
+    {
+      "verse": 14,
+      "text_latin": "Ita ut sacerdotes iam non circa altaris officia dediti essent sed contempto templo et sacrificiis neglectis festinarent participes fieri palaestrae et praebitionis eius iniustae et in exercitiis disci.",
+      "rendering": "So that the priests were no longer devoted to the services of the altar, but despising the Temple and neglecting the sacrifices, they hastened to participate in the wrestling arena and its unlawful provisions, and in the exercises of the discus.",
+      "translator_notes": ["The most damning charge: priests abandoning the altar for the gymnasium. The contrast between Temple service and athletic competition exposes the depth of the cultural betrayal."],
+      "key_terms": [{"latin": "palaestrae", "rendered_as": "the wrestling arena", "note": "The palaestra — the wrestling ground within the gymnasium, where athletes competed naked."}]
+    },
+    {
+      "verse": 15,
+      "text_latin": "Et patrias quidem glorias nihil habentes Graecas glorias optimas arbitrabantur.",
+      "rendering": "They counted the honors of their fathers as nothing, and regarded Greek distinctions as best of all.",
+      "translator_notes": ["The value reversal is complete: ancestral Jewish honors are worthless; Greek honors are supreme. This is the cultural apostasy that the Maccabean revolt will resist."],
+      "key_terms": [{"latin": "patrias glorias", "rendered_as": "the honors of their fathers", "note": "The traditions, values, and distinctions of Jewish ancestral heritage — now despised."}]
+    },
+    {
+      "verse": 16,
+      "text_latin": "Quam ob rem difficilis eos condicio circumvenit et quorum politeiam aemulabantur et quibus per omnia similes esse cupiebant hos hostes et peremptores habebant.",
+      "rendering": "For this reason a grievous situation overtook them: those whose way of life they emulated and whom they wished to resemble in all things became their enemies and executioners.",
+      "translator_notes": ["The bitter irony: the Greeks whose culture the Hellenizers adopted became the very people who persecuted them. Imitation of the oppressor did not purchase safety."],
+      "key_terms": []
+    },
+    {
+      "verse": 17,
+      "text_latin": "Impie enim contra divinas leges agere non impune cedit sed hoc tempus sequens declarat.",
+      "rendering": "For acting impiously against the divine laws does not go unpunished, as the following period will make clear.",
+      "translator_notes": ["The narrator's theological commentary: violation of divine law carries consequences. This statement frames everything that follows as divine retribution."],
+      "key_terms": [{"latin": "divinas leges", "rendered_as": "the divine laws", "note": "The Torah as divinely ordained legislation, violation of which triggers divine judgment."}]
+    },
+    {
+      "verse": 18,
+      "text_latin": "Cum autem quinquennalis agonum celebratio Tyri fieret et rex praesens esset.",
+      "rendering": "When the quinquennial games were being celebrated at Tyre and the king was present,",
+      "translator_notes": ["The games at Tyre were a major Hellenistic athletic festival, held every five years. Antiochus's presence makes this a royal occasion."],
+      "key_terms": [{"latin": "quinquennalis agonum celebratio", "rendered_as": "the quinquennial games", "note": "Athletic competitions held every five years in the Greek tradition — a core institution of Hellenistic culture."}]
+    },
+    {
+      "verse": 19,
+      "text_latin": "Misit Iason facinorosus ab Hierosolymis viros peccatores portantes didrachmas argenti trecentas in sacrificium Herculis quas postulaverunt hi qui asportaverant ne in sacrificiis erogarentur quia non oporteret sed in alios sumptus eas deputari.",
+      "rendering": "The criminal Jason sent men from Jerusalem, sinners bearing three hundred silver drachmas for the sacrifice of Hercules. But those who carried them requested that the money not be spent on the sacrifice, since that would not be fitting, but be allocated to other expenses.",
+      "translator_notes": ["Jason sends money for a pagan sacrifice — the ultimate apostasy for a Jewish high priest. Yet even his messengers balk at funding idol worship, redirecting the funds. The tension between Jason's Hellenism and his envoys' residual Jewish conscience is telling."],
+      "key_terms": [{"latin": "sacrificium Herculis", "rendered_as": "the sacrifice of Hercules", "note": "A Jewish high priest funding pagan sacrifice — the nadir of the Hellenizing corruption."}]
+    },
+    {
+      "verse": 20,
+      "text_latin": "Sed hae quidem ab eo qui miserat propter sacrificium Herculis datae sunt propter praesentes autem datae sunt in fabricam navium triremium.",
+      "rendering": "These funds were given by the one who sent them for the sacrifice of Hercules, but because of those who carried them, they were spent on the construction of warships.",
+      "translator_notes": ["The money is redirected from pagan sacrifice to shipbuilding — still supporting the Seleucid military, but the envoys preserved a minimal distinction."],
+      "key_terms": []
+    },
+    {
+      "verse": 21,
+      "text_latin": "Misso autem in Aegyptum Apollonio Mnesthei filio propter primates Ptolomaei Philometoris regis cum cognovisset Antiochus alienum se a negotiis regni effectum propriis utilitatibus consulens profectus inde venit Ioppen et inde Hierosolymam.",
+      "rendering": "When Apollonius son of Menestheus was sent to Egypt for the enthronement of King Ptolemy Philometor, Antiochus, learning that he had been excluded from the affairs of the kingdom, looked to his own interests. He departed from there and came to Joppa, and then to Jerusalem.",
+      "translator_notes": ["Antiochus IV visits Jerusalem after a political setback in Egypt. His frustration with Egyptian affairs will eventually drive his persecution of Judea."],
+      "key_terms": []
+    },
+    {
+      "verse": 22,
+      "text_latin": "Ubi magnifice ab Iasone et civitate susceptus cum facularum luminibus et laudibus ingressus est inde in Foenicen exercitum convertit.",
+      "rendering": "There he was magnificently received by Jason and the city with torchlight processions and acclamations. Then he turned his army toward Phoenicia.",
+      "translator_notes": ["Jason's lavish reception of Antiochus — torches and cheers — demonstrates his complete alignment with the foreign king. The city itself participates in welcoming the man who will become its destroyer."],
+      "key_terms": []
+    },
+    {
+      "verse": 23,
+      "text_latin": "Et post triennii tempus misit Iason Menelaum supradicti Simonis fratrem portantem pecunias regi et de negotiis necessariis responsa perlaturum.",
+      "rendering": "After a period of three years, Jason sent Menelaus, brother of the aforementioned Simon, carrying money to the king and bearing reports on necessary matters.",
+      "translator_notes": ["Jason sends his own agent Menelaus to the king — a fatal miscalculation. Menelaus is the brother of Simon, the original troublemaker from chapter 3."],
+      "key_terms": []
+    },
+    {
+      "verse": 24,
+      "text_latin": "At ille commendatus regi cum magnificasset faciem potestatis eius in semetipsum retorsit summum sacerdotium superponens Iasoni talenta argenti trecentis.",
+      "rendering": "But he, having been presented to the king and having exalted the appearance of his authority, diverted the high priesthood to himself, outbidding Jason by three hundred talents of silver.",
+      "translator_notes": ["Menelaus outbids Jason for the high priesthood — the sacred office is auctioned to the highest bidder. The escalating corruption is now beyond any pretense of legitimacy."],
+      "key_terms": []
+    },
+    {
+      "verse": 25,
+      "text_latin": "Acceptisque a rege mandatis veniebat nihil quidem habens dignum sacerdotio animos vero crudelis tyranni et ferae barbarae iram gerens.",
+      "rendering": "Having received the royal commission, he came back possessing nothing worthy of the priesthood, but bearing the fury of a cruel tyrant and the rage of a savage beast.",
+      "translator_notes": ["The narrator's portrait of Menelaus is devastating: he has no priestly qualification whatever, only tyrannical cruelty and bestial rage."],
+      "key_terms": [{"latin": "crudelis tyranni", "rendered_as": "a cruel tyrant", "note": "Menelaus characterized as a tyrant — ruling by violence rather than by law or divine appointment."}]
+    },
+    {
+      "verse": 26,
+      "text_latin": "Et Iason quidem qui proprium fratrem captivaverat ipse deceptus profugus in Ammanitim expulsus est regionem.",
+      "rendering": "And Jason, who had supplanted his own brother, was himself supplanted and driven as a fugitive into the land of the Ammonites.",
+      "translator_notes": ["Poetic justice: Jason, who displaced his brother Onias, is now displaced by Menelaus. The cycle of treachery turns on its perpetrators."],
+      "key_terms": []
+    },
+    {
+      "verse": 27,
+      "text_latin": "Menelaus autem principatum quidem obtinuit de pecuniis vero regi promissis nihil agebat cum exactionem faceret Sostratus qui arci erat praepositus.",
+      "rendering": "Menelaus obtained the leadership, but concerning the money he had promised to the king, he did nothing, though Sostratus, the commander of the citadel, kept pressing for payment.",
+      "translator_notes": ["Menelaus cannot pay what he promised — his bid for the priesthood was built on funds he did not have. The Seleucid garrison commander demands payment."],
+      "key_terms": []
+    },
+    {
+      "verse": 28,
+      "text_latin": "Nam ad hunc exactio vectigalium pertinebat quam ob causam utrique ad regem sunt evocati.",
+      "rendering": "For the collection of revenues was his responsibility. For this reason, both men were summoned before the king.",
+      "translator_notes": ["Both Menelaus and Sostratus are called to account before the king — the financial dispute has reached the royal court."],
+      "key_terms": []
+    },
+    {
+      "verse": 29,
+      "text_latin": "Et Menelaus amotus est a sacerdotio succedente Lysimacho fratre suo Sostratus autem praelatus est Cypraniis.",
+      "rendering": "Menelaus was removed from the priesthood, with his brother Lysimachus succeeding him, and Sostratus was placed in charge of the Cypriots.",
+      "translator_notes": ["The high priesthood passes yet again — now to Lysimachus, Menelaus's brother. Three illegitimate high priests in rapid succession: Jason, Menelaus, Lysimachus."],
+      "key_terms": []
+    },
+    {
+      "verse": 30,
+      "text_latin": "Cum haec agerentur contigit Tarsenses et Mallotas seditionem movere eo quod Antiochidi regis concubinae dono essent dati.",
+      "rendering": "While these things were happening, the people of Tarsus and Mallus staged a revolt because they had been given as a gift to Antiochis, the king's concubine.",
+      "translator_notes": ["Political context: cities in Cilicia revolt because the king handed their revenues to his concubine — a sign of Seleucid administrative dysfunction."],
+      "key_terms": []
+    },
+    {
+      "verse": 31,
+      "text_latin": "Festinanter itaque rex venit sedare illos relicto suffecto uno ex comitibus suis Andronico.",
+      "rendering": "The king therefore hurried off to settle matters, leaving Andronicus, one of his courtiers, as his deputy.",
+      "translator_notes": ["Andronicus is left in charge — a figure who will play a crucial role in the murder of Onias."],
+      "key_terms": []
+    },
+    {
+      "verse": 32,
+      "text_latin": "Ratus autem Menelaus accepisse se tempus oportunum aurea quaedam vasa de templo furatus donavit Andronico et alia vendiderat Tyri et per vicinas civitates.",
+      "rendering": "Menelaus, thinking he had found a favorable opportunity, stole certain golden vessels from the Temple and gave them to Andronicus; and he had sold others in Tyre and the surrounding cities.",
+      "translator_notes": ["Menelaus steals sacred Temple vessels — gold objects dedicated to God — and uses them as bribes and merchandise. This is sacrilege of the highest order."],
+      "key_terms": [{"latin": "aurea vasa de templo", "rendered_as": "golden vessels from the Temple", "note": "Sacred liturgical objects stolen and sold — a desecration that escalates the crisis toward the catastrophe of chapter 5."}]
+    },
+    {
+      "verse": 33,
+      "text_latin": "Quod cum certissime cognovisset Onias arguebat eum ipse in loco tuto se continens Antiochiae secus Dafnem.",
+      "rendering": "When Onias learned of this with certainty, he publicly accused Menelaus, while keeping himself in a place of safety at Antioch near Daphne.",
+      "translator_notes": ["The exiled Onias III, living in the sanctuary precinct at Daphne near Antioch, speaks out against the Temple theft. 'Daphne' was a famous asylum site — Onias relies on its protection."],
+      "key_terms": [{"latin": "Dafnem", "rendered_as": "Daphne", "note": "A sanctuary suburb of Antioch where a famous temple of Apollo offered asylum rights to those who sought refuge there."}]
+    },
+    {
+      "verse": 34,
+      "text_latin": "Unde Menelaus accedens ad Andronicum rogabat ut Oniam interficeret qui cum venisset ad Oniam datis dextris cum iureiurando quamvis esset ei suspectus suasit de asylo procedere statimque eum peremit non veritus iustitiam.",
+      "rendering": "Therefore Menelaus approached Andronicus and urged him to kill Onias. Andronicus came to Onias and gave him pledges with an oath, and though Onias was suspicious, Andronicus persuaded him to come out of the sanctuary. He immediately killed him, without any regard for justice.",
+      "translator_notes": ["The murder of Onias III: lured from asylum by a sworn oath, then killed immediately. The violation is triple: murder, oath-breaking, and desecration of sanctuary rights. 'Non veritus iustitiam' (without fearing justice) is the narrator's moral verdict."],
+      "key_terms": [{"latin": "de asylo", "rendered_as": "from the sanctuary", "note": "Asylum — the sacred right of refuge in a temple precinct, violated by Andronicus's treachery."},
+        {"latin": "iureiurando", "rendered_as": "with an oath", "note": "The sworn oath that was broken — adding perjury to murder."}]
+    },
+    {
+      "verse": 35,
+      "text_latin": "Quam ob rem non solum Iudaei sed aliae quoque nationes indignabantur et moleste ferebant de nece tanti viri iniusta.",
+      "rendering": "For this reason not only the Jews but also other nations were indignant and deeply troubled by the unjust murder of so great a man.",
+      "translator_notes": ["The reaction to Onias's murder is universal — even non-Jews recognize the injustice. This international outrage underscores Onias's stature and the severity of the crime."],
+      "key_terms": []
+    },
+    {
+      "verse": 36,
+      "text_latin": "Regresso autem rege de Ciliciae locis adierunt eum Iudaei apud Antiochiam simul et Graeci conquirentes de iniqua nece Oniae.",
+      "rendering": "When the king returned from the region of Cilicia, the Jews at Antioch, together with the Greeks, petitioned him about the unjust murder of Onias.",
+      "translator_notes": ["Jews and Greeks jointly petition the king — a remarkable coalition united in outrage over the murder."],
+      "key_terms": []
+    },
+    {
+      "verse": 37,
+      "text_latin": "Contristatus itaque animo Antiochus propter Oniam et flexus ad misericordiam lacrimas fudit recordatus defuncti sobrietatem et modestiam.",
+      "rendering": "Antiochus was deeply grieved in his soul over Onias, and moved to pity, he shed tears as he remembered the deceased man's self-discipline and modesty.",
+      "translator_notes": ["Even Antiochus IV — who will become the great persecutor — weeps for the murdered Onias. This humanizing detail makes the later persecution all the more tragic: the king who wept for a righteous priest will soon desecrate the righteous priest's Temple."],
+      "key_terms": [{"latin": "sobrietatem et modestiam", "rendered_as": "self-discipline and modesty", "note": "Roman virtue terms applied to the Jewish high priest — Onias is presented as universally admirable."}]
+    },
+    {
+      "verse": 38,
+      "text_latin": "Accensusque animo Andronicum purpura exutum per totam civitatem iubet circumduci et in eodem loco in quo in Oniam impietatem commiserat sacrilegum vita privari Domino illi condignam retribuente poenam.",
+      "rendering": "Inflamed with anger, he commanded that Andronicus be stripped of his purple, paraded through the whole city, and put to death at the very place where he had committed the impiety against Onias — the Lord rendering to him the punishment he deserved.",
+      "translator_notes": ["Andronicus's execution at the exact site of Onias's murder is presented as divine retribution — 'Domino condignam retribuente poenam.' The stripping of the purple (the mark of royal office) makes the punishment a public degradation."],
+      "key_terms": [{"latin": "purpura exutum", "rendered_as": "stripped of his purple", "note": "The purple garment symbolized royal authority — its removal signifies complete disgrace."},
+        {"latin": "condignam retribuente poenam", "rendered_as": "the punishment he deserved", "note": "Divine retribution — exact, proportional justice."}]
+    },
+    {
+      "verse": 39,
+      "text_latin": "Multis autem sacrilegiis in templo a Lysimacho commissis Menelai consilio et divulgata fama confluxit multitudo adversum Lysimachum multo iam auro exportato.",
+      "rendering": "When many acts of sacrilege had been committed in the Temple by Lysimachus, on the counsel of Menelaus, and the report had spread, the multitude gathered against Lysimachus, since much gold had already been carried off.",
+      "translator_notes": ["Lysimachus (acting on Menelaus's orders) continues the Temple robbery. When the public learns of it, they revolt — a rare instance of popular resistance preceding the Maccabean military campaign."],
+      "key_terms": [{"latin": "sacrilegiis", "rendered_as": "acts of sacrilege", "note": "Sacrilegium — the theft or violation of sacred things, the most serious religious crime."}]
+    },
+    {
+      "verse": 40,
+      "text_latin": "Turbis autem insurgentibus et animis ira repletis Lysimachus armatis fere tribus milibus iniquis manibus uti coepit duce quodam tyranno aetate pariter et dementia provecto.",
+      "rendering": "When the crowds rose up and their spirits were filled with anger, Lysimachus armed nearly three thousand men and began to use violence, under the leadership of a certain tyrant, advanced equally in age and madness.",
+      "translator_notes": ["Lysimachus responds to popular protest with military force — three thousand armed men against unarmed citizens. The unnamed leader is characterized with cutting wit: 'equally advanced in age and madness.'"],
+      "key_terms": []
+    },
+    {
+      "verse": 41,
+      "text_latin": "Ut autem intellexerunt conatum Lysimachi alii lapides alii fustes validos arripuerunt quidam vero cinerem in Lysimachum iecerunt.",
+      "rendering": "But when they understood Lysimachus's attack, some seized stones, others grabbed stout clubs, and some threw ashes at Lysimachus.",
+      "translator_notes": ["The people fight back with improvised weapons: stones, clubs, ashes. The ashes thrown at Lysimachus may be from the Temple altar — a grimly appropriate weapon against a Temple robber."],
+      "key_terms": []
+    },
+    {
+      "verse": 42,
+      "text_latin": "Et multi quidem vulnerati quidam autem et prostrati omnes vero in fugam conversi sunt ipsum etiam sacrilegum secus aerarium interfecerunt.",
+      "rendering": "Many were wounded, some were struck down, and all were put to flight. The sacrilegious man himself they killed beside the treasury.",
+      "translator_notes": ["Lysimachus is killed at the treasury he was robbing — another instance of the book's pattern of ironic justice, where the punishment fits the crime."],
+      "key_terms": [{"latin": "sacrilegum", "rendered_as": "the sacrilegious man", "note": "Lysimachus receives the label sacrilegus — a temple robber."}]
+    },
+    {
+      "verse": 43,
+      "text_latin": "De his ergo coepit iudicium adversus Menelaum agitari.",
+      "rendering": "Because of these things, a case began to be brought against Menelaus.",
+      "translator_notes": ["The legal proceeding against Menelaus — the mastermind behind the Temple robberies — begins."],
+      "key_terms": []
+    },
+    {
+      "verse": 44,
+      "text_latin": "Et cum venisset rex Tyrum ad ipsum negotium detulerunt missi tres viri a senioribus.",
+      "rendering": "When the king came to Tyre, three men sent by the elders brought the case before him.",
+      "translator_notes": ["Three envoys from the Jerusalem elders prosecute the case against Menelaus before the king at Tyre."],
+      "key_terms": []
+    },
+    {
+      "verse": 45,
+      "text_latin": "Et cum superaretur Menelaus promisit Ptolomaeo multas pecunias dare ad suadendum regi.",
+      "rendering": "When Menelaus was being defeated, he promised Ptolemy large sums of money to persuade the king.",
+      "translator_notes": ["Menelaus bribes his way out of justice — the same tactic he used to obtain the priesthood. Corruption at every level."],
+      "key_terms": []
+    },
+    {
+      "verse": 46,
+      "text_latin": "Itaque Ptolomaeus in quodam atrio positum quasi refrigerandi gratia regem adiit et deduxit a sententia.",
+      "rendering": "So Ptolemy approached the king, who was standing in a certain courtyard as if to cool himself, and changed his mind.",
+      "translator_notes": ["The bribery succeeds: Ptolemy catches the king in an informal moment and turns him from justice. The casual setting — 'as if to cool himself' — underscores how easily justice is perverted."],
+      "key_terms": []
+    },
+    {
+      "verse": 47,
+      "text_latin": "Et Menelaum quidem universae malitiae reum criminibus absolvit miseros autem qui etiam si apud Scythas causam dixissent innocentes fuissent iudicati hos morte damnavit.",
+      "rendering": "And Menelaus, who was guilty of all the wickedness, he acquitted of the charges; but the wretched men who, even if they had pleaded their case before Scythians, would have been judged innocent — these he condemned to death.",
+      "translator_notes": ["The injustice is absolute: the guilty man goes free; the innocent accusers are executed. The comparison to Scythians (proverbially the most barbarous people) is devastating: even barbarians would have delivered better justice than this supposedly civilized king."],
+      "key_terms": [{"latin": "apud Scythas", "rendered_as": "before Scythians", "note": "The Scythians were proverbially savage — to say that even they would have acquitted the accused is the most extreme possible condemnation of the king's injustice."}]
+    },
+    {
+      "verse": 48,
+      "text_latin": "Cito ergo iniustam poenam dederunt hi qui pro civitate et populo et sacris vasis causam prosecuti sunt.",
+      "rendering": "So those who had brought the case on behalf of the city, the people, and the sacred vessels quickly suffered the unjust penalty.",
+      "translator_notes": ["The three envoys die for their advocacy — martyrs before the formal martyrdoms of chapters 6-7. Their cause was righteous: defending the city, the people, and the Temple vessels."],
+      "key_terms": [{"latin": "sacris vasis", "rendered_as": "the sacred vessels", "note": "The stolen Temple vessels — the physical objects at the center of the legal case."}]
+    },
+    {
+      "verse": 49,
+      "text_latin": "Quam ob rem etiam Tyrii indignati erga sepulturam eorum liberalissimi extiterunt.",
+      "rendering": "For this reason even the Tyrians, outraged at the injustice, provided most generously for their burial.",
+      "translator_notes": ["Even the pagan Tyrians recognize the injustice and honor the dead envoys with generous burial — another instance of non-Jewish peoples serving as moral witnesses against corrupt power."],
+      "key_terms": []
+    },
+    {
+      "verse": 50,
+      "text_latin": "Menelaus autem propter eorum qui in potentia erant avaritiam permanebat in potestate crescens in malitia ad insidias civium.",
+      "rendering": "But Menelaus remained in power because of the greed of those in authority, growing in wickedness as a plotter against his own citizens.",
+      "translator_notes": ["The chapter ends with Menelaus still in power — sustained by the corruption of the system. His trajectory is still ascending in evil, setting up the catastrophe to come."],
+      "key_terms": [{"latin": "in malitia", "rendered_as": "in wickedness", "note": "Menelaus's malitia (wickedness) is presented as actively growing — an escalating threat."}]
+    }
+  ]
+}

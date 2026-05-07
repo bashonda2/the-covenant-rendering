@@ -1,0 +1,363 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Sirach",
+    "chapter": 51,
+    "tradition": "vulgate",
+    "tradition_label": "Latin Vulgate (Deuterocanonical)",
+    "source_text": "Biblia Sacra Vulgata (Stuttgart critical edition)",
+    "translator": "Jerome",
+    "date": "c. 405 CE",
+    "canon": [
+      "catholic",
+      "orthodox",
+      "ethiopian"
+    ],
+    "generated_at": "2026-04-20T00:00:00Z",
+    "prompt_version": "2.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Ben Sira's personal conclusion in two parts: a thanksgiving prayer for deliverance from mortal danger (vv. 1-12), and an alphabetic acrostic poem about seeking wisdom from youth (vv. 13-30). The book ends with an invitation to acquire wisdom freely.",
+    "remarkable": "The acrostic poem (vv. 13-30) was found in Hebrew at both Qumran (11QPsa) and Masada, confirming the book's original Hebrew composition. Verse 25 ('Acquire wisdom without money') anticipates Isaiah 55:1 and Jesus's 'freely you have received, freely give' (Matthew 10:8). This is Ben Sira's personal testimony — the only autobiographical passage from a named biblical author outside Paul.",
+    "friction": "The Vulgate's chapter 51 contains some material not found in the Greek or Hebrew — Jerome may have drawn on a longer Aramaic/Hebrew tradition. The acrostic structure is invisible in Latin translation.",
+    "connections": "Psalm 18/2 Samuel 22 (thanksgiving for deliverance), Isaiah 55:1 (come without money), Matthew 11:28-30 (take my yoke — Sirach's yoke of wisdom), 11QPsa (Qumran Psalms Scroll contains this acrostic)."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_latin": "Confitebor tibi Domine rex et conlaudabo te Deum salvatorem meum",
+      "rendering": "I will give thanks to you, Lord and King, and I will praise you, God my Savior.",
+      "translator_notes": [
+        "Opening formula matches psalmic thanksgiving — confitebor (I will confess/give thanks) signals a todah psalm."
+      ],
+      "key_terms": [
+        {
+          "latin": "Deum salvatorem meum",
+          "rendered_as": "God my Savior",
+          "note": "Echoes Habakkuk 3:18 and anticipates Luke 1:47 (Mary's Magnificat: 'God my Savior')"
+        }
+      ]
+    },
+    {
+      "verse": 2,
+      "text_latin": "Confitebor nomini tuo quoniam adiutor et protector factus es mihi",
+      "rendering": "I will give thanks to your name, for you have been my helper and protector,",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 3,
+      "text_latin": "et liberasti corpus meum a perditione a laqueo linguae iniquae et a labiis operantium mendacium et in conspectu adstantium factus es mihi adiutor",
+      "rendering": "and you have delivered my body from destruction, from the snare of a slanderous tongue, from lips that fashion lies — and in the presence of those who stood by, you became my helper.",
+      "translator_notes": [
+        "Laqueo linguae iniquae (snare of a wicked tongue) — Ben Sira's crisis involved false accusation, not physical attack."
+      ],
+      "key_terms": []
+    },
+    {
+      "verse": 4,
+      "text_latin": "Et liberasti me secundum multitudinem misericordiae nominis tui a rugientibus praeparatis ad escam",
+      "rendering": "You delivered me, according to the abundance of your name's mercy, from those who roared, prepared to devour —",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 5,
+      "text_latin": "De manu quaerentium animam meam et de portis tribulationum quae circumdederunt me",
+      "rendering": "from the hand of those who sought my life, and from the gates of afflictions that surrounded me,",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 6,
+      "text_latin": "A pressura flammae quae circumdedit me et in medio ignis non sum aestuatus",
+      "rendering": "from the choking flame that encircled me — and in the midst of fire I was not burned,",
+      "translator_notes": [
+        "Echoes Daniel 3 (the three in the furnace) — whether literal or metaphorical, the pattern of divine rescue is the same."
+      ],
+      "key_terms": []
+    },
+    {
+      "verse": 7,
+      "text_latin": "De altitudine ventris inferi et a lingua coinquinata et a verbo mendacii a rege iniquo et a lingua iniusta",
+      "rendering": "from the depth of the belly of Sheol, and from an unclean tongue, from lying speech, from an unjust king and a slanderous tongue.",
+      "translator_notes": [
+        "Ventris inferi (belly of Sheol) — echoes Jonah 2:3. Death itself could not hold him."
+      ],
+      "key_terms": [
+        {
+          "latin": "ventris inferi",
+          "rendered_as": "belly of Sheol",
+          "note": "Jonah's 'belly of the fish/Sheol' echoed — near-death experience as descent to the underworld"
+        }
+      ]
+    },
+    {
+      "verse": 8,
+      "text_latin": "Laudabit usque ad mortem anima mea Dominum",
+      "rendering": "My soul will praise the Lord even to death,",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 9,
+      "text_latin": "Et vita mea adpropinquans erat in inferno deorsum",
+      "rendering": "for my life was drawing near to Sheol below.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 10,
+      "text_latin": "Circumdederunt me undique et non erat qui adiuvaret respiciens eram ad adiutorium hominum et non erat",
+      "rendering": "They surrounded me on every side, and there was no one to help; I looked for human aid, and there was none.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 11,
+      "text_latin": "Memoratus sum misericordiae tuae Domine et operationis tuae quae a saeculo sunt",
+      "rendering": "Then I remembered your mercy, Lord, and your deeds from of old —",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 12,
+      "text_latin": "Quoniam eruis sustinentes te Domine et liberas eos de manibus gentium",
+      "rendering": "that you rescue those who wait for you, Lord, and deliver them from the hands of the nations.",
+      "translator_notes": [
+        "Transition verse — from personal crisis to the universal principle: God delivers the patient."
+      ],
+      "key_terms": []
+    },
+    {
+      "verse": 13,
+      "text_latin": "Exaltasti super terram habitationem meam et pro morte defluente deprecatus sum",
+      "rendering": "You exalted my dwelling on the earth, and I prayed for deliverance from death.",
+      "translator_notes": [
+        "Here begins the second section — the autobiographical wisdom poem (vv. 13-30 in the Hebrew acrostic)."
+      ],
+      "key_terms": []
+    },
+    {
+      "verse": 14,
+      "text_latin": "Invocavi Dominum patrem Domini mei ut non derelinquat me in die tribulationis meae et in tempore superborum sine adiutorio",
+      "rendering": "I called upon the Lord, the Father of my Lord, not to forsake me in the day of trouble, in the time of the arrogant, when there is no help.",
+      "translator_notes": [
+        "Patrem Domini mei — unusual formula. In Christian reading, 'Father of my Lord' anticipates Trinitarian language, though Ben Sira likely means 'Lord who is my master/father.'"
+      ],
+      "key_terms": []
+    },
+    {
+      "verse": 15,
+      "text_latin": "Laudabo nomen tuum adsidue et conlaudabo illud in confessione et exaudita est oratio mea",
+      "rendering": "I will praise your name continually and sing it with thanksgiving, and my prayer was heard.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 16,
+      "text_latin": "Et liberasti me de perditione et eripuisti me de tempore iniquo",
+      "rendering": "You delivered me from destruction and rescued me from the evil time.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 17,
+      "text_latin": "Propterea confitebor et laudem dicam tibi et benedicam nomini Domini",
+      "rendering": "Therefore I will give thanks and praise to you, and bless the name of the Lord.",
+      "translator_notes": [
+        "End of the thanksgiving; transition to the wisdom autobiography."
+      ],
+      "key_terms": []
+    },
+    {
+      "verse": 18,
+      "text_latin": "Cum adhuc iunior essem priusquam oberrarem quaesivi sapientiam palam in oratione mea",
+      "rendering": "While I was still young, before I went astray, I sought wisdom openly in my prayer.",
+      "translator_notes": [
+        "Beginning of the acrostic autobiography. 'Before I went astray' — unusual honesty; Ben Sira admits youthful error."
+      ],
+      "key_terms": []
+    },
+    {
+      "verse": 19,
+      "text_latin": "Ante templum postulabam pro illa et usque in novissimis inquiram eam et effloruit tamquam praecox uva",
+      "rendering": "Before the temple I asked for her, and I will search for her to the end. She flourished like a ripening grape.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 20,
+      "text_latin": "Laetatum est cor meum in ea ambulavit pes meus iter rectum a iuventute mea investigabam eam",
+      "rendering": "My heart rejoiced in her, my foot walked the straight path; from my youth I tracked her down.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 21,
+      "text_latin": "Inclinavi modice aurem meam et excepi illam",
+      "rendering": "I inclined my ear a little and received her,",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 22,
+      "text_latin": "Et multam inveni in me ipso sapientiam et multum profeci in ea",
+      "rendering": "and I found much wisdom within myself, and I made great progress through her.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 23,
+      "text_latin": "Danti mihi sapientiam dabo gloriam",
+      "rendering": "To the one who gives me wisdom I will give glory.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 24,
+      "text_latin": "Consiliatus sum enim ut facerem illam et zelatus sum bonum et non confundar",
+      "rendering": "For I resolved to practice her, and I was zealous for the good, and I shall never be put to shame.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 25,
+      "text_latin": "Conluctata est anima mea in illa et in faciendo eam confirmatus sum",
+      "rendering": "My soul wrestled with wisdom, and in practicing her I was strengthened.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 26,
+      "text_latin": "Manus meas extendi in altum et insipientiam eius luxi",
+      "rendering": "I stretched out my hands on high, and I lamented my ignorance of her.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 27,
+      "text_latin": "Animam meam direxi ad illam et in agnitione inveni eam",
+      "rendering": "I directed my soul toward her, and in understanding I found her.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 28,
+      "text_latin": "Possedi cor cum illa ab initio propter hoc non derelinquar",
+      "rendering": "I possessed my heart with her from the beginning; therefore I shall not be forsaken.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 29,
+      "text_latin": "Venter meus conturbatus est quaerendo illam propterea bonam possidebo possessionem",
+      "rendering": "My inmost self was stirred in seeking her; therefore I have gained a good possession.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 30,
+      "text_latin": "Dedit mihi Dominus linguam mercedem meam et in ipsa laudabo eum",
+      "rendering": "The Lord gave me a tongue as my reward, and with it I will praise him.",
+      "translator_notes": [
+        "Ben Sira's 'reward' is the gift of teaching — his tongue is his ministry. The book ends as it began: wisdom is for sharing."
+      ],
+      "key_terms": [
+        {
+          "latin": "linguam mercedem",
+          "rendered_as": "a tongue as my reward",
+          "note": "The teacher's reward is the ability to teach — wisdom received must be wisdom given. Anticipates 'freely you received, freely give' (Matt 10:8)"
+        }
+      ]
+    },
+    {
+      "verse": 31,
+      "text_latin": "Adpropiate ad me indocti et congregate vos in domum disciplinae",
+      "rendering": "Draw near to me, you untaught, and lodge in the house of instruction.",
+      "translator_notes": [
+        "The final invitation — wisdom's door is open. Domum disciplinae (house of instruction) is the bet midrash, the school."
+      ],
+      "key_terms": [
+        {
+          "latin": "domum disciplinae",
+          "rendered_as": "house of instruction",
+          "note": "Hebrew bet midrash — the synagogue school. Ben Sira's own academy where this book was taught."
+        }
+      ]
+    },
+    {
+      "verse": 32,
+      "text_latin": "Quid adhuc retardatis et quid dicitis in his animae vestrae sitim habentes vehementer",
+      "rendering": "Why do you still hold back? Why do you say anything about these things, when your souls thirst so greatly?",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 33,
+      "text_latin": "Aperui os meum et locutus sum conparate vobis sine argento sapientiam",
+      "rendering": "I opened my mouth and said: Acquire wisdom for yourselves without money.",
+      "translator_notes": [
+        "Sine argento (without money) — wisdom cannot be bought, only sought. Echoes Isaiah 55:1 'come without money' and anticipates Matthew 10:8."
+      ],
+      "key_terms": [
+        {
+          "latin": "sine argento",
+          "rendered_as": "without money",
+          "note": "The democratization of wisdom — available to all regardless of wealth. Counter-cultural in the ancient world where education required patronage."
+        }
+      ]
+    },
+    {
+      "verse": 34,
+      "text_latin": "Collum vestrum subicite iugo et suscipiat anima vestra disciplinam in proximo enim est invenire eam",
+      "rendering": "Submit your neck to the yoke, and let your soul receive instruction; she is near at hand to find.",
+      "translator_notes": [
+        "Iugo (yoke) — Jesus's 'my yoke is easy' (Matthew 11:29-30) directly echoes this invitation. Ben Sira's yoke of wisdom becomes Christ's yoke of discipleship."
+      ],
+      "key_terms": [
+        {
+          "latin": "iugo",
+          "rendered_as": "yoke",
+          "note": "The wisdom-yoke tradition: Sirach 6:24-25, 51:26, then Matthew 11:29. Torah as yoke → Wisdom as yoke → Christ as yoke."
+        }
+      ]
+    },
+    {
+      "verse": 35,
+      "text_latin": "Videte oculis vestris quia modicum laboravi et inveni mihi multam requiem",
+      "rendering": "See with your own eyes that I labored but a little and found for myself much rest.",
+      "translator_notes": [
+        "Requiem (rest) — the sage's reward is rest/peace. Connects to Matthew 11:28 'I will give you rest' and Hebrews 4 'sabbath rest.'"
+      ],
+      "key_terms": []
+    },
+    {
+      "verse": 36,
+      "text_latin": "Adsumite disciplinam in multo numero argenti et copiosum aurum possidete in ea",
+      "rendering": "Acquire instruction with a great sum of silver, and you will gain much gold through her.",
+      "translator_notes": [
+        "Paradox with v. 33 — wisdom is 'without money' yet worth any price. Not contradiction but emphasis: wisdom cannot be bought, but it is worth everything."
+      ],
+      "key_terms": []
+    },
+    {
+      "verse": 37,
+      "text_latin": "Laetetur anima vestra in misericordia eius et non confundemini in laude ipsius",
+      "rendering": "Let your soul rejoice in his mercy, and you will not be put to shame in praising him.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 38,
+      "text_latin": "Operamini opus vestrum ante tempus et dabit vobis mercedem vestram in tempore suo",
+      "rendering": "Do your work before the appointed time, and in his own time he will give you your reward.",
+      "translator_notes": [
+        "The final word of Sirach: faithful work now, divine reward in God's timing. A fitting conclusion to 51 chapters of practical wisdom."
+      ],
+      "key_terms": []
+    }
+  ]
+}

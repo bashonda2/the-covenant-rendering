@@ -100,7 +100,7 @@ This is a **standalone, self-contained** reference for any agent auditing The Co
 
 | Text | Directory | Files | Schema | Source Text | Key Audit Points |
 |---|---|---|---|---|---|
-| DSS Isaiah (1QIsaᵃ) | `dss-isaiah/` | 66 (`chapter-01.json`–`chapter-66.json`) | Variant (§2.3) | 1QIsaiah-a (Qumran Cave 1), c. 125 BCE | 1,292 verses, 590 variants. Every verse must have entry. Significance: none/minor/moderate/major/theological. Column refs required. |
+| DSS Isaiah (1QIsaᵃ) | `dss-isaiah/` | 66 (`chapter-01.json`–`chapter-66.json`) | Variant (§2.3) | 1QIsaᵃ (Qumran Cave 1), c. 125 BCE | 1,292 verses, 590 variants. Every verse must have entry. Significance: none/minor/moderate/major/theological. Column refs required. |
 | LXX Jeremiah | `lxx-jeremiah/` | 52 (`jeremiah_01_lxx.json`–`jeremiah_52_lxx.json`) | Variant (§2.3) | Rahlfs' Septuaginta | NOTE: Non-standard filenames (not `chapter-XX.json`). 187 variants. Uses `lxx_reading` not `dss_reading`. Ch 33:14-26 absent from LXX = theological. |
 | LXX Daniel | `lxx-daniel/` | 15 (12 variant + 3 standalone) | Mixed | Rahlfs' / Theodotion | `chapter-01.json`–`chapter-12.json` = variant schema. `chapter-13.json` (Susanna, 64v), `chapter-03-additions.json` (Prayer of Azariah, 68v), `chapter-14.json` (Bel and Dragon, 48v) = standalone rendering schema (§2.4). |
 | LXX Esther | `lxx-esther/` | 16 (10 variant + 6 standalone) | Mixed | Rahlfs' Septuaginta | `chapter-01.json`–`chapter-10.json` = variant schema. `addition-A.json` through `addition-F.json` = standalone rendering schema. 107 added verses total. |

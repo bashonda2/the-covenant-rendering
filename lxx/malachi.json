@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Malachi",
+    "tradition": "lxx",
+    "tradition_label": "Septuagint (LXX)",
+    "source_text": "Rahlfs-Hanhart, Septuaginta",
+    "base_text": "Westminster Leningrad Codex (WLC)",
+    "translators": "Alexandrian Jewish translators (2nd c. BCE)",
+    "date": "2nd century BCE",
+    "generated_at": "2026-04-22T00:00:00Z",
+    "prompt_version": "1.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "LXX Malachi is the closing book of the Minor Prophets and — in the canonical order of Christian Bibles — the closing book of the Old Testament. Two passages are pivotal for the NT: 1:2–3 ('Jacob I loved, but Esau I hated'), which Paul cites at Romans 9:13 in his election argument; and 3:1 and 4:5–6 (LXX 3:22–23), which every Gospel cites as the scriptural identification of John the Baptist as the Elijah-forerunner. The LXX preserves Malachi's chapter-ending rearrangement: MT 3:19–24 = LXX and English 4:1–6.",
+    "notable_variants": "The Jacob-loved / Esau-hated formula of 1:2–3 that Romans 9:13 cites in LXX form; the messenger-preparing-the-way of 3:1 cited by Mark 1:2, Matt 11:10, Luke 7:27; the Elijah-before-the-great-day promise of 4:5–6 cited by Matt 11:14 and 17:10–12.",
+    "theological_legacy": "LXX Malachi's closing verses — 'behold I send you Elijah the prophet before the great and terrible day of the Lord' — became the scriptural identification of John the Baptist throughout the Gospels. Every Synoptic evangelist deploys this LXX text to answer the question 'who is this baptizer?'"
+  },
+  "renderings": [
+    {
+      "reference": "Malachi 1:2-3",
+      "mt_reading": "וָאֹהַב אֶת־יַעֲקֹב וְאֶת־עֵשָׂו שָׂנֵאתִי",
+      "lxx_reading": "καὶ ἠγάπησα τὸν Ιακωβ τὸν δὲ Ησαυ ἐμίσησα",
+      "mt_rendering": "I loved Jacob, but Esau I have rejected",
+      "lxx_rendering": "and I loved Jacob, but Esau I hated",
+      "significance": "theological",
+      "notes": [
+        "Romans 9:13 cites this verse verbatim in its LXX form as the scriptural proof of divine sovereign election: 'Jacob I loved, but Esau I hated.' Paul uses the citation to distinguish God's calling from natural or meritorious grounds.",
+        "The LXX's emisēsa ('I hated') is a strong Greek verb that reflects the Hebrew sane'ti. Romans 9 embraces the harshness of the Greek rather than softening it — which is why Pauline election-theology has always had this flinty LXX-Malachi edge.",
+        "TCR renders 'rejected' rather than 'hated' — a reading that captures the Hebrew sense (covenantal non-preference) rather than an emotional antagonism. The LXX's literal emisēsa is what Paul quoted."
+      ]
+    },
+    {
+      "reference": "Malachi 3:1",
+      "mt_reading": "הִנְנִי שֹׁלֵחַ מַלְאָכִי וּפִנָּה־דֶרֶךְ לְפָנָי",
+      "lxx_reading": "ἰδοὺ ἐγὼ ἐξαποστέλλω τὸν ἄγγελόν μου καὶ ἐπιβλέψεται ὁδὸν πρὸ προσώπου μου",
+      "mt_rendering": "I am sending my messenger, and he will clear the way before me",
+      "lxx_rendering": "Behold, I am sending out my messenger, and he will survey the way before my face",
+      "significance": "theological",
+      "notes": [
+        "Mark 1:2 opens his Gospel with a composite citation: \"As it is written in Isaiah the prophet: 'Behold I send my messenger before your face, who will prepare your way'\" — the first half is LXX Malachi 3:1, the second half is Isaiah 40:3. Mark attributes the whole to Isaiah (the more prominent prophet), but the opening verse is pure LXX Malachi.",
+        "Matthew 11:10 and Luke 7:27 both cite this verse — again in its LXX form — as Jesus' identification of John the Baptist as 'more than a prophet.' All three Synoptic evangelists read LXX Malachi 3:1 as the scriptural description of the Baptist.",
+        "The Synoptic adjustment — 'before you' rather than 'before my face' — is a small interpretive move that lets Jesus be the subject of whose-way-is-being-prepared. The Messianic application is thus textually facilitated by a minor repointing of the LXX pronoun."
+      ]
+    },
+    {
+      "reference": "Malachi 4:5 (LXX 3:22)",
+      "mt_reading": "הִנֵּה אָנֹכִי שֹׁלֵחַ לָכֶם אֵת אֵלִיָּה הַנָּבִיא",
+      "lxx_reading": "καὶ ἰδοὺ ἐγὼ ἀποστέλλω ὑμῖν Ηλιαν τὸν Θεσβίτην",
+      "mt_rendering": "I am sending you Elijah the prophet",
+      "lxx_rendering": "And behold, I am sending to you Elijah the Tishbite",
+      "significance": "theological",
+      "notes": [
+        "The LXX specifies 'Elijah the Tishbite' (ton Thesbitēn) where the Hebrew has 'Elijah the prophet' (ha-navi). The specification aligns the eschatological figure directly with the historical Elijah of 1 Kings.",
+        "Matthew 11:14 ('if you are willing to accept it, he is Elijah, the one who was to come') and Matthew 17:10–13 ('Elijah has already come, and they did not know him') both identify John the Baptist with the Malachi Elijah-figure.",
+        "Mark 9:11–13 likewise applies the Malachi Elijah-return to John. The Transfiguration's literal appearance of Elijah (Mark 9:4, Matt 17:3, Luke 9:30) is set in deliberate tension with this typological identification: the historical Elijah appears alongside Moses, while John-as-Elijah has already come and been killed.",
+        "The LXX's Thesbitēn — making the historical Elijah of Gilead specifically the one being promised — is the textual link that allows the Gospels to identify John with an eschatological Elijah-figure."
+      ]
+    }
+  ]
+}

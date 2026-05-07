@@ -1,0 +1,195 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Exodus",
+    "chapter": 3,
+    "tradition": "lxx-exodus",
+    "tradition_label": "Septuagint (LXX)",
+    "source_text": "Rahlfs-Hanhart, Septuaginta",
+    "base_text": "Westminster Leningrad Codex (WLC)",
+    "date": "3rd century BCE",
+    "generated_at": "2026-04-22T00:00:00Z",
+    "prompt_version": "1.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Exodus 3 is the burning-bush theophany, the call of Moses, and the revelation of the divine name. The chapter contains what may be the single most consequential LXX rendering in the Pentateuch — egō eimi ho ōn at 3:14, 'I am the one who is' — which shaped Hellenistic Jewish, patristic, and scholastic theology of divine being. Four additional passages from this chapter (3:5 holy ground, 3:6 patriarchal triad, 3:12 ehyeh immak, 3:15 divine-name formula) are directly cited or evoked in the New Testament.",
+    "notable_variants": "The asyetos ('burning yet not consumed') language of 3:2–3; holy ground vocabulary at 3:5 cited in Acts 7:33; the patriarchal triad of 3:6 cited by Jesus at Matt 22:32 / Mark 12:26 / Luke 20:37 and by Stephen at Acts 7:32; the egō eimi ho ōn self-identification at 3:14 whose Greek ontological phrasing became the single most discussed LXX rendering in Western theology; the name-forever formula at 3:15 that LXX Malachi 4:5 also echoes.",
+    "structural_notes": "LXX Exodus 3 preserves MT's 22-verse structure with no verse-numbering divergence."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "חֹרֵבָה הַר הָאֱלֹהִים",
+      "lxx_reading": "εἰς τὸ ὄρος Χωρηβ",
+      "mt_rendering": "to Horeb, the mountain of God",
+      "variant_rendering": "to the mountain Chōrēb",
+      "variant_notes": [
+        "LXX omits the qualifying phrase 'the mountain of God' in some witnesses, simply reading 'to the mountain Chōrēb.' Other LXX manuscripts match the MT. Jethro (LXX Iothor) is the name used here for Moses' father-in-law, distinct from Reuel at 2:18."
+      ]
+    },
+    {
+      "verse": 2,
+      "has_variant": false,
+      "variant_notes": ["The angel of the LORD appearing in the flame is rendered angelos kyriou in LXX — the standard rendering of malakh YHWH that will supply NT angel-vocabulary. The burning-yet-not-consumed paradox is preserved."]
+    },
+    {
+      "verse": 3,
+      "has_variant": false,
+      "variant_notes": ["Moses' decision to turn aside and see the remarkable sight (mega horama — 'great vision') is rendered closely."]
+    },
+    {
+      "verse": 4,
+      "has_variant": false,
+      "variant_notes": ["God's call to Moses and Moses' 'Here I am' (idou egō) follows MT in LXX."]
+    },
+    {
+      "verse": 5,
+      "has_variant": true,
+      "significance": "theological",
+      "mt_reading": "כִּי הַמָּקוֹם אֲשֶׁר אַתָּה עוֹמֵד עָלָיו אַדְמַת־קֹדֶשׁ הוּא",
+      "lxx_reading": "ὁ γὰρ τόπος ἐν ᾧ σὺ ἕστηκας γῆ ἁγία ἐστίν",
+      "mt_rendering": "the place on which you are standing is holy ground",
+      "variant_rendering": "for the place on which you stand is holy ground",
+      "variant_notes": [
+        "Acts 7:33 (Stephen's speech) cites this verse verbatim in its LXX form: 'The place where you are standing is holy ground (gē hagia).'",
+        "The LXX's gē hagia ('holy ground/earth') became the standard NT and patristic designation for sacred space. The locution is distinctively Septuagintal — it gives the Christian tradition the category 'holy ground' that does not arise from Greek philosophical or Roman religious usage independently.",
+        "The instruction to remove the sandals (hypodēmata) at a theophany is later echoed at John 13's footwashing, where the inversion is deliberate: the Lord himself takes up the role of the sandal-handler."
+      ]
+    },
+    {
+      "verse": 6,
+      "has_variant": true,
+      "significance": "theological",
+      "mt_reading": "אָנֹכִי אֱלֹהֵי אָבִיךָ אֱלֹהֵי אַבְרָהָם אֱלֹהֵי יִצְחָק וֵאלֹהֵי יַעֲקֹב",
+      "lxx_reading": "ἐγώ εἰμι ὁ θεὸς τοῦ πατρός σου θεὸς Αβρααμ καὶ θεὸς Ισαακ καὶ θεὸς Ιακωβ",
+      "mt_rendering": "I am the God of your father — the God of Abraham, the God of Isaac, and the God of Jacob",
+      "variant_rendering": "I am the God of your father, the God of Abraham and the God of Isaac and the God of Jacob",
+      "variant_notes": [
+        "Jesus cites this verse in its LXX form at Matthew 22:32 / Mark 12:26 / Luke 20:37 as the decisive proof against the Sadducees' denial of resurrection: 'I am the God of Abraham, the God of Isaac, and the God of Jacob' — 'he is not God of the dead but of the living.'",
+        "Stephen quotes the verse at Acts 7:32 in his recounting of the burning bush.",
+        "The patriarchal triad 'God of Abraham and Isaac and Jacob' becomes a fixed LXX formula (Exod 3:6, 3:15, 3:16; Deut 1:8, 6:10; 1 Kgs 18:36; Jer 33:26; 1 Chr 29:18; 2 Chr 30:6) that every NT writer who invokes patriarchal theology deploys.",
+        "Matthew 22:32 also drops the 'your father' of Exod 3:6, preserving only the triad — a Jesus-adaptation that intensifies the argument."
+      ]
+    },
+    {
+      "verse": 7,
+      "has_variant": false,
+      "variant_notes": ["The LORD's 'I have surely seen' (idōn eidon) preserves the Hebrew emphatic infinitive absolute (ra'oh ra'iti). The afflicted-in-Egypt language tracks MT."]
+    },
+    {
+      "verse": 8,
+      "has_variant": false,
+      "variant_notes": ["The descent-to-deliver narrative and the 'land flowing with milk and honey' (gē rheousa gala kai meli) use the standard LXX formula that recurs across Exodus, Numbers, Deuteronomy, and the Prophets."]
+    },
+    {
+      "verse": 9,
+      "has_variant": false,
+      "variant_notes": ["Israel's cry and Egypt's oppression tracks MT in LXX."]
+    },
+    {
+      "verse": 10,
+      "has_variant": false,
+      "variant_notes": ["The commission to go to Pharaoh and bring out the sons of Israel is rendered directly in LXX."]
+    },
+    {
+      "verse": 11,
+      "has_variant": false,
+      "variant_notes": ["Moses' 'Who am I?' (tis eimi egō) preserves the Hebrew. The self-deprecation formula recurs at Exod 4:10, 6:12 and supplies vocabulary for NT prophetic call-reluctance (Luke 1:34, Luke 5:8)."]
+    },
+    {
+      "verse": 12,
+      "has_variant": true,
+      "significance": "moderate",
+      "mt_reading": "כִּי־אֶהְיֶה עִמָּךְ",
+      "lxx_reading": "ὅτι ἔσομαι μετὰ σοῦ",
+      "mt_rendering": "I will surely be with you",
+      "variant_rendering": "for I will be with you",
+      "variant_notes": [
+        "Hebrew ehyeh immakh ('I will be with you') anticipates the name revelation in v. 14 by using the same verb ehyeh. The LXX renders with esomai meta sou — a direct promise of presence, losing the anticipatory ehyeh-wordplay.",
+        "Matthew 1:23 (Immanuel, 'God with us') and Matthew 28:20 ('I am with you always') pick up the with-you promise-formula from Exod 3:12, Isa 7:14, and other LXX passages. The 'I will be with you' assurance is a Moses-inheritance in the NT."
+      ]
+    },
+    {
+      "verse": 13,
+      "has_variant": false,
+      "variant_notes": ["Moses' anticipated question from Israel about God's name ('what shall I say to them?') follows MT in LXX."]
+    },
+    {
+      "verse": 14,
+      "has_variant": true,
+      "significance": "theological",
+      "mt_reading": "אֶהְיֶה אֲשֶׁר אֶהְיֶה … אֶהְיֶה שְׁלָחַנִי אֲלֵיכֶם",
+      "lxx_reading": "ἐγώ εἰμι ὁ ὤν … ὁ ὢν ἀπέσταλκέν με πρὸς ὑμᾶς",
+      "mt_rendering": "I AM WHO I AM … I AM has sent me to you",
+      "variant_rendering": "I am the one who is (the Being) … the One Who Is has sent me to you",
+      "variant_notes": [
+        "The LXX renders Hebrew ehyeh asher ehyeh ('I will be what I will be,' or 'I am what I am') as egō eimi ho ōn — 'I am the One Who Is / I am the Being.' The participle ho ōn ('the One Who Is') converts the verbal ehyeh ('I am/I will be') into an ontological noun-phrase.",
+        "This single rendering is arguably the most consequential LXX decision in the entire Pentateuch. Hellenistic Jewish philosophy (Philo), patristic theology (Origen, Athanasius, the Cappadocians), and medieval scholasticism (Aquinas reading the verse as God's self-identification as Esse Ipsum, pure act of being) all build on the LXX's ontological gloss.",
+        "Revelation 1:4, 1:8, 4:8 ('the one who is, and who was, and who is to come' — ho ōn kai ho ēn kai ho erchomenos) uses ho ōn directly as a divine self-designation, drawing the LXX's Exodus 3:14 vocabulary into John's Christology.",
+        "The Hebrew's future-oriented 'I will be what I will be' (promising presence and action, not defining essence) and the LXX's present-participial 'I am the One Who Is' (declaring ontological existence) pull the divine name in different philosophical directions. The two directions have generated two different theological traditions: covenantal (Jewish, biblical) and ontological (Hellenistic, philosophical).",
+        "TCR renders the Hebrew: 'I AM WHO I AM' — a deliberately ambiguous English form that preserves the Hebrew's tense-openness without resolving it into Greek philosophical being."
+      ]
+    },
+    {
+      "verse": 15,
+      "has_variant": true,
+      "significance": "theological",
+      "mt_reading": "זֶה־שְּׁמִי לְעֹלָם",
+      "lxx_reading": "τοῦτό μού ἐστιν ὄνομα αἰώνιον",
+      "mt_rendering": "This is My name forever",
+      "variant_rendering": "This is an eternal name for me",
+      "variant_notes": [
+        "The LXX's onoma aiōnion ('eternal name') is the specific phrase Isaiah 63:12, 63:14 also use of God's name. The eternity-of-the-divine-name theology receives its LXX crystallization here.",
+        "Jesus' 'I have made your name known' (John 17:6, 26) and the Lord's Prayer's 'hallowed be your name' (Matt 6:9) work with this LXX onoma-theology. The divine name as an eternal reality, manifest at Sinai and perfected in Christ, runs through the whole NT on the basis of the LXX.",
+        "The patriarchal triad is repeated here, sealing the name-revelation to the covenantal history."
+      ]
+    },
+    {
+      "verse": 16,
+      "has_variant": false,
+      "variant_notes": ["The command to gather the elders and deliver the message about divine visitation follows MT closely in LXX."]
+    },
+    {
+      "verse": 17,
+      "has_variant": false,
+      "variant_notes": ["The list of Canaanite peoples is rendered in LXX's standard transliterations (Chanaanitōn, Chettaiōn, etc.)."]
+    },
+    {
+      "verse": 18,
+      "has_variant": false,
+      "variant_notes": ["The 'three-day journey into the wilderness' to sacrifice to the Hebrew God is rendered directly in LXX. The phrase 'the God of the Hebrews' (ho theos tōn Hebraiōn) recurs in Paul's missionary vocabulary as a designation for the Jewish-Christian God distinctive from Gentile divinities."]
+    },
+    {
+      "verse": 19,
+      "has_variant": false,
+      "variant_notes": ["The prediction of Pharaoh's refusal 'except by a mighty hand' (bi-yad chazaqah / en cheiri krataia) uses the 'mighty hand' formula that recurs throughout Exodus, Deuteronomy, and the Prophets."]
+    },
+    {
+      "verse": 20,
+      "has_variant": false,
+      "variant_notes": ["God's stretching out the hand and striking Egypt with wonders (thaumasia) is rendered closely."]
+    },
+    {
+      "verse": 21,
+      "has_variant": false,
+      "variant_notes": ["The promise that Israel will find favor in Egyptian eyes is rendered charis ('favor, grace') in LXX — the word that NT theology inherits for divine favor."]
+    },
+    {
+      "verse": 22,
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "וְנִצַּלְתֶּם אֶת־מִצְרָיִם",
+      "lxx_reading": "καὶ σκυλεύσετε τοὺς Αἰγυπτίους",
+      "mt_rendering": "So you shall plunder the Egyptians",
+      "variant_rendering": "and you shall strip / despoil the Egyptians",
+      "variant_notes": [
+        "Hebrew nitsaltem ('you shall despoil') is rendered skyleusete ('you shall strip/plunder as of a defeated enemy'). The LXX's military-despoliation vocabulary intensifies the image of the Exodus as a victorious campaign against Egypt.",
+        "The 'plundering the Egyptians' motif was ethically contested in later Jewish and Christian exegesis: Origen, Augustine, and the rabbis all debated whether the plundering was just compensation for slave labor or theologically problematic. The LXX's pointed vocabulary did not help ease the question."
+      ]
+    }
+  ]
+}

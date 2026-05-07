@@ -1,0 +1,86 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Jude",
+    "tradition": "vulgate",
+    "tradition_label": "Latin Vulgate",
+    "source_text": "Biblia Sacra Vulgata (Stuttgart critical edition)",
+    "base_text": "SBL Greek New Testament (SBLGNT)",
+    "translator": "Jerome (Eusebius Sophronius Hieronymus)",
+    "date": "382-405 CE",
+    "generated_at": "2026-04-20T00:00:00Z",
+    "prompt_version": "2.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Jude in the Vulgate shaped the Western theology of contending for the faith, angelic rebellion, and the use of non-canonical sources. Jerome's rendering of Jude's citations of 1 Enoch and the Assumption of Moses raised important questions about canon, pseudepigrapha, and the limits of scriptural authority. The letter's vivid imagery of false teachers and its magnificent doxology influenced Western heresiological and liturgical traditions.",
+    "notable_renderings": "Jude 3 semel traditae sanctis fidei (the faith once delivered to the saints); 6 angelos qui non servaverunt suum principatum (angels who did not keep their own domain); 9 cum diabolo disputans (disputing with the devil — the Michael-Moses body dispute); 14-15 the Enoch prophecy; 24-25 the great doxology.",
+    "theological_legacy": "The Vulgate Jude gave Western Christianity its theology of contending for received faith (the depositum fidei), its angelology/demonology of fallen angels, the Michael-devil dispute tradition, and one of its greatest doxologies. Jude's use of 1 Enoch challenged Western canonical boundaries and raised the question of how far Scripture's authority extends to non-canonical sources it cites."
+  },
+  "renderings": [
+    {
+      "reference": "Jude 3",
+      "source_text": "παρακαλῶν ἐπαγωνίζεσθαι τῇ ἅπαξ παραδοθείσῃ τοῖς ἁγίοις πίστει",
+      "vulgate_text": "deprecans supercertari semel traditae sanctis fidei",
+      "vulgate_rendering": "Exhorting you to contend earnestly for the faith once delivered to the saints",
+      "tcr_rendering": "Urging you to contend earnestly for the faith once for all entrusted to the holy ones",
+      "theological_legacy": "Semel traditae sanctis fidei (the faith once delivered to the saints) — this phrase became the Western theological concept of the depositum fidei (deposit of faith): a fixed body of doctrine delivered once (semel — once for all) to the apostolic generation. Every Western debate about doctrinal development engaged this concept: can the faith grow and develop, or was it delivered complete?",
+      "notes": ["The Latin semel (once, once for all) and tradita (delivered, handed over — the root of 'tradition') shaped the Western theology of revelation as complete in the apostolic age. The Council of Trent and Vatican I both affirmed the depositum fidei concept. The question became: does 'contending for the faith once delivered' mean preserving it unchanged (conservative reading) or developing its implications in new contexts (progressive reading)? Newman's Development of Christian Doctrine (1845) argued both are compatible: the faith is delivered once but understood progressively."]
+    },
+    {
+      "reference": "Jude 6",
+      "source_text": "ἀγγέλους τε τοὺς μὴ τηρήσαντας τὴν ἑαυτῶν ἀρχὴν ἀλλ᾽ ἀπολιπόντας τὸ ἴδιον οἰκητήριον εἰς κρίσιν μεγάλης ἡμέρας δεσμοῖς ἀϊδίοις ὑπὸ ζόφον τετήρηκεν",
+      "vulgate_text": "angelos vero qui non servaverunt suum principatum sed dereliquerunt suum domicilium in iudicium magni diei vinculis aeternis sub caligine reservavit",
+      "vulgate_rendering": "And the angels who did not keep their own domain but abandoned their dwelling, he has reserved in eternal chains under darkness for the judgment of the great day",
+      "tcr_rendering": "And the messengers who did not keep their own domain but abandoned their proper dwelling — he has kept in eternal chains under deep darkness for the judgment of the great day",
+      "theological_legacy": "Angelos qui non servaverunt suum principatum (angels who did not keep their domain) — this verse shaped the Western theology of the Fall of the Angels. The fallen angels are bound in vinculis aeternis sub caligine (in eternal chains under darkness) awaiting final judgment. This imagery influenced Western demonology, the theology of hell, and the Western artistic tradition of depicting fallen angels in chains of darkness.",
+      "notes": ["The verse draws on 1 Enoch 6-16 (the Watchers narrative — angels who descended to earth and corrupted humanity). Jerome's principatum (principality, domain of authority) suggests the angels had a legitimate domain of authority which they abandoned. This shaped the Western theology of Satan as a fallen prince — a being who held legitimate authority and forfeited it through rebellion. The image of fallen angels in chains (vincula aeterna) under darkness (sub caligine) influenced Dante's Inferno and Milton's Paradise Lost."]
+    },
+    {
+      "reference": "Jude 9",
+      "source_text": "ὁ δὲ Μιχαὴλ ὁ ἀρχάγγελος, ὅτε τῷ διαβόλῳ διακρινόμενος διελέγετο περὶ τοῦ Μωϋσέως σώματος",
+      "vulgate_text": "cum Michahel archangelus cum diabolo disputans altercaretur de Mosi corpore",
+      "vulgate_rendering": "When Michael the archangel, disputing with the devil, argued about the body of Moses",
+      "tcr_rendering": "When Michael the chief messenger, contending with the devil, disputed about the body of Moses",
+      "theological_legacy": "Michahel archangelus cum diabolo disputans de Mosi corpore (Michael the archangel disputing with the devil about Moses' body) — this mysterious verse, drawn from the lost Assumption of Moses, shaped Western angelology and the cult of St. Michael. The image of Michael as the champion who contests the devil became central to Western art, liturgy (the Prayer to St. Michael), and spiritual warfare theology.",
+      "notes": ["Jude's citation of the Assumption of Moses (a text now mostly lost) raised canonical questions in the West: if Jude cites a non-canonical text as authoritative, what does that say about canon? Jerome acknowledged the source but maintained Jude's divine inspiration. The Michael-devil dispute shaped the Western cult of St. Michael the Archangel: protector of the Church, guardian of the dying, and eschatological warrior. The Prayer to St. Michael (composed by Leo XIII in 1886) draws on this tradition of Michael as the Church's defender against demonic attack."]
+    },
+    {
+      "reference": "Jude 14-15",
+      "source_text": "ἰδοὺ ἦλθεν κύριος ἐν ἁγίαις μυριάσιν αὐτοῦ, ποιῆσαι κρίσιν κατὰ πάντων",
+      "vulgate_text": "ecce venit Dominus in sanctis milibus suis facere iudicium contra omnes",
+      "vulgate_rendering": "Behold, the Lord comes with his holy thousands to execute judgment against all",
+      "tcr_rendering": "Look — the Lord has come with his holy myriads to execute judgment against all",
+      "theological_legacy": "The Enoch prophecy — Jude explicitly attributes this prophecy to 'Enoch, the seventh from Adam' and quotes 1 Enoch 1:9 nearly verbatim. This is the only direct quotation of a pseudepigraphal text in the New Testament treated as genuine prophecy. Jerome's inclusion of this attribution challenged the Western canon: if Jude treats 1 Enoch as prophetic, why is 1 Enoch not in the Western canon?",
+      "notes": ["This passage created an enduring canonical anomaly in the West. Jude quotes 1 Enoch 1:9 and attributes the prophecy to Enoch himself ('the seventh from Adam'). Western theologians resolved the tension variously: (1) Jude quotes a genuine oral tradition from Enoch that was later corrupted in 1 Enoch; (2) Jude accommodates a known text without endorsing it entirely; (3) the Holy Spirit guided Jude to cite a true fragment within a larger non-canonical work. The verse kept the Enoch literature on the margins of Western awareness and influenced later movements that sought to recover 'lost' biblical books."]
+    },
+    {
+      "reference": "Jude 24-25",
+      "source_text": "τῷ δὲ δυναμένῳ φυλάξαι ὑμᾶς ἀπταίστους καὶ στῆσαι κατενώπιον τῆς δόξης αὐτοῦ ἀμώμους ἐν ἀγαλλιάσει, μόνῳ θεῷ σωτῆρι ἡμῶν",
+      "vulgate_text": "ei autem qui potens est vos conservare sine peccato et constituere ante conspectum gloriae suae inmaculatos in exultatione soli Deo salvatori nostro",
+      "vulgate_rendering": "Now to him who is able to preserve you without sin and to present you spotless before the presence of his glory with exultation, to the only God our Savior",
+      "tcr_rendering": "Now to him who is able to keep you from stumbling and to present you unblemished before his glorious presence with great joy — to the only God our Deliverer",
+      "theological_legacy": "Ei qui potens est vos conservare sine peccato (to him who is able to preserve you without sin) — this doxology became one of the most beloved benedictions in Western worship. The theology of divine preservation (conservare) — God's power to keep believers from falling — grounded the Western doctrines of perseverance (God will preserve his people) and impeccability (God can keep believers from sin). Inmaculatos (spotless, immaculate) connected to the broader Western theology of sanctification.",
+      "notes": ["The Jude doxology entered Western liturgical tradition as a closing benediction. The phrase conservare sine peccato (preserve without sin) was cited in Western debates about whether sinless perfection is possible in this life: God is 'able' (potens) to keep believers sinless, but does he always do so? The Wesleyan/holiness tradition cited this verse for entire sanctification. The Calvinist tradition cited it for the perseverance of the saints. The doxology's movement from preservation to presentation (constituere ante conspectum gloriae — setting before his glorious presence) shaped the Western eschatological hope of being presented spotless before God."]
+    },
+    {
+      "reference": "Jude 4",
+      "source_text": "ἀσελγείᾳ, καὶ τὸν μόνον δεσπότην καὶ κύριον ἡμῶν Ἰησοῦν Χριστὸν ἀρνούμενοι",
+      "vulgate_text": "in luxuriam et solum dominatorem et Dominum nostrum Iesum Christum negantes",
+      "vulgate_rendering": "Turning grace into wantonness and denying the only Master and our Lord Jesus Christ",
+      "tcr_rendering": "Turning the grace of our God into sensuality and denying our only Master and Lord — Yeshua the Anointed One",
+      "theological_legacy": "In luxuriam (into wantonness/luxury) — Jerome renders aselgeia (debauchery, sensuality, licentiousness) as luxuria (luxury, excess, wantonness). The Latin luxuria became one of the seven deadly sins (lust) and a major category in Western moral theology. The connection between doctrinal error (denying Christ) and moral excess (luxuria) shaped the Western assumption that heresy and immorality are linked.",
+      "notes": ["The Western tradition consistently connected heresy with moral corruption, partly based on verses like this. The assumption that false teaching leads to immoral behavior (and vice versa) shaped the heresiological tradition: heretics were routinely accused of sexual immorality alongside doctrinal error. The Latin luxuria, while literally meaning 'excess/luxury,' came to denote specifically sexual sin in Western moral theology — the deadly sin of lust (luxuria). This semantic narrowing shaped the Western moral tradition's intense concern with sexual morality."]
+    },
+    {
+      "reference": "Jude 12",
+      "source_text": "οὗτοί εἰσιν οἱ ἐν ταῖς ἀγάπαις ὑμῶν σπιλάδες συνευωχούμενοι ἀφόβως",
+      "vulgate_text": "hi sunt in epulis suis maculae convivantes sine timore",
+      "vulgate_rendering": "These are spots in your love-feasts, feasting together without fear",
+      "tcr_rendering": "These are hidden reefs at your love-feasts, feasting together fearlessly",
+      "theological_legacy": "In epulis suis maculae (spots/blemishes in their feasts) — the reference to communal meals (epulae/agapai) shaped the Western understanding of the early Christian love-feast (agape meal) and its relationship to the Eucharist. The Latin maculae (spots, stains) became a metaphor for moral corruption within the worshipping community, influencing the Western theology of church discipline and worthy participation in worship.",
+      "notes": ["The agape meal (love-feast) was an early Christian communal meal, distinct from but connected to the Eucharist. Jude's warning about false teachers corrupting these gatherings shaped the Western development of separating the agape meal from the Eucharist proper and the emphasis on moral purity within the worshipping community. The imagery of 'blemishes at your feasts' influenced the Western theology of worthy communion reception (cf. 1 Corinthians 11:27-29)."]
+    }
+  ]
+}

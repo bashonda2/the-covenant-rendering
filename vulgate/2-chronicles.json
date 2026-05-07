@@ -1,0 +1,131 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "2 Chronicles",
+    "tradition": "vulgate",
+    "tradition_label": "Latin Vulgate",
+    "source_text": "Biblia Sacra Vulgata (Stuttgart critical edition)",
+    "base_text": "Westminster Leningrad Codex (WLC)",
+    "translator": "Jerome (Eusebius Sophronius Hieronymus)",
+    "date": "382-405 CE",
+    "generated_at": "2026-04-20T00:00:00Z",
+    "prompt_version": "2.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Jerome's 2 Chronicles (titled 2 Paralipomenon) renders the Temple-centered theology of the Chronicler with Latin worship vocabulary that shaped Western liturgical practice, regnal evaluation formulas that influenced moral-political theology, and reform narratives that provided models for ecclesiastical renewal.",
+    "notable_renderings": "The Temple dedication vocabulary (gloria Domini, nubes), the regnal evaluation formulas (fecit rectum/malum in conspectu Domini), the worship-and-war theology (laudate Dominum before battle), and the key prayer of 2 Chronicles 7:14 all created enduring Latin theological categories.",
+    "theological_legacy": "2 Chronicles' Vulgate provided Western Christianity with its primary Temple-worship vocabulary applied to church buildings, the moral-evaluation framework for rulers that shaped medieval mirrors for princes, and the national-repentance theology (2 Chr 7:14) that influenced Western revival movements and political theology."
+  },
+  "renderings": [
+    {
+      "reference": "2 Chronicles 5:13-14",
+      "source_text": "כִּי טוֹב כִּי לְעוֹלָם חַסְדּוֹ וְהַבַּיִת מָלֵא עָנָן... כִּי מָלֵא כְבוֹד יְהוָה אֶת בֵּית הָאֱלֹהִים",
+      "vulgate_text": "quoniam bonus quoniam in aeternum misericordia eius impletaque est domus Dei nube... maiestas enim Domini impleverat domum Dei",
+      "vulgate_rendering": "For he is good, for his mercy endures forever; and the house of God was filled with a cloud... for the majesty of the Lord had filled the house of God",
+      "tcr_rendering": "for He is good, for His covenant-faithfulness endures forever — the house was filled with a cloud... for the glory of the LORD filled the house of God",
+      "theological_legacy": "Maiestas Domini (the majesty of the Lord) for kevod YHWH (glory of the LORD) introduces the concept of divine majesty rather than glory into the Temple-filling theophany. Maiestas carries connotations of imperial dignity and awesome sovereignty that shaped Western theology of the Real Presence — God's majestic presence filling sacred space.",
+      "notes": ["Jerome varies between gloria and maiestas for kevod (glory/weight/honor). Here maiestas emphasizes regal dignity over luminous radiance. The Temple-filling cloud combined with divine majestas influenced Western eucharistic theology: God's majestic presence fills the church as it once filled Solomon's Temple."]
+    },
+    {
+      "reference": "2 Chronicles 6:18",
+      "source_text": "הִנֵּה שָׁמַיִם וּשְׁמֵי הַשָּׁמַיִם לֹא יְכַלְכְּלוּךָ",
+      "vulgate_text": "si caelum et caeli caelorum non te capiunt",
+      "vulgate_rendering": "If heaven and the heavens of heavens cannot contain you",
+      "tcr_rendering": "Behold, heaven and the highest heaven cannot contain You",
+      "theological_legacy": "Caeli caelorum non te capiunt (the heavens of heavens cannot contain you) became the standard Western statement of divine immensity — God exceeds all spatial categories. This passage grounded scholastic theology of divine infinity and the theological paradox of sacramental presence: the infinite God truly present in finite elements.",
+      "notes": ["Jerome renders the Chronicler's version of Solomon's prayer (parallel to 1 Kings 8:27) with slight variation. The theological impact is identical: establishing the paradox of divine transcendence and immanence that undergirds Western sacramental theology — how can the God whom caeli caelorum cannot contain be truly present in bread and wine?"]
+    },
+    {
+      "reference": "2 Chronicles 7:14",
+      "source_text": "וְיִכָּנְעוּ עַמִּי אֲשֶׁר נִקְרָא שְׁמִי עֲלֵיהֶם וְיִתְפַּלְלוּ וִיבַקְשׁוּ פָנַי וְיָשֻׁבוּ מִדַּרְכֵיהֶם הָרָעִים... וְאֶסְלַח לְחַטָּאתָם וְאֶרְפָּא אֶת אַרְצָם",
+      "vulgate_text": "et conversus populus meus super quos invocatum est nomen meum deprecatus me fuerit et exquisierit faciem meam et egerit paenitentiam a viis suis pessimis... ego propitius ero peccatis eorum et sanabo terram eorum",
+      "vulgate_rendering": "And if my people, upon whom my name is called, shall pray and seek my face and do penance from their most wicked ways... I will be propitious to their sins and will heal their land",
+      "tcr_rendering": "and My people who are called by My name humble themselves and pray and seek My face and turn from their wicked ways... then I will forgive their sin and heal their land",
+      "theological_legacy": "Egerit paenitentiam (shall do penance) for yashuvu (shall turn/repent) transformed repentance from a turning/returning to a penitential act. Propitius ero (I will be propitious/favorable) for ve'eslach (I will forgive) introduced propitiation language. This verse became the most-cited national repentance text in Western political theology.",
+      "notes": ["Jerome's paenitentia for shuvah (turning/returning) shifts from the Hebrew concept of directional change (turning back to God) to the Latin concept of penitential action (doing penance). This influenced the entire Western theology of repentance as requiring active penitential works rather than simply reorienting toward God. The verse became foundational for national days of prayer and fasting in Western nations."]
+    },
+    {
+      "reference": "2 Chronicles 15:2",
+      "source_text": "יְהוָה עִמָּכֶם בִּהְיוֹתְכֶם עִמּוֹ... וְאִם תַּעַזְבֻהוּ יַעַזֹב אֶתְכֶם",
+      "vulgate_text": "Dominus vobiscum quia fuistis cum eo... si autem dereliqueritis eum derelinquet vos",
+      "vulgate_rendering": "The Lord is with you because you were with him... but if you forsake him, he will forsake you",
+      "tcr_rendering": "The LORD is with you when you are with Him... but if you forsake Him, He will forsake you",
+      "theological_legacy": "Dominus vobiscum (the Lord be with you) is the most common liturgical greeting in the Western Mass. While the liturgical formula predates Jerome, this verse provided its scriptural foundation — God's presence is conditional on faithfulness. Derelinquet vos (he will abandon you) established the terrifying corollary of covenant theology.",
+      "notes": ["The conditional theology — God's presence depends on human faithfulness — shaped Western covenant theology's emphasis on human responsibility within the divine-human relationship. The verse was cited in debates about whether God can abandon the Church or a nation that forsakes Him, influencing both Catholic and Calvinist theology of perseverance."]
+    },
+    {
+      "reference": "2 Chronicles 16:9",
+      "source_text": "כִּי יְהוָה עֵינָיו מְשֹׁטְטוֹת בְּכָל הָאָרֶץ לְהִתְחַזֵּק עִם לְבָבָם שָׁלֵם אֵלָיו",
+      "vulgate_text": "oculi enim Domini contemplantur universam terram et praebent fortitudinem his qui corde perfecto credunt in eum",
+      "vulgate_rendering": "For the eyes of the Lord contemplate the whole earth and give strength to those who believe in him with a perfect heart",
+      "tcr_rendering": "For the eyes of the LORD run to and fro throughout all the earth, to show Himself strong on behalf of those whose heart is fully devoted to Him",
+      "theological_legacy": "Corde perfecto credunt in eum (believe in him with a perfect heart) introduces belief/faith language (credunt) absent from the Hebrew, which speaks of hearts that are 'whole toward him.' This shaped the Western concept that divine strengthening requires not just loyalty but doctrinal faith — a significant theological addition.",
+      "notes": ["Hebrew levavam shalem elav means 'their heart is whole/complete toward him' — expressing undivided loyalty. Jerome's credunt in eum (believe in him) transforms covenant loyalty into cognitive faith, a move characteristic of the Vulgate's tendency to intellectualize Hebrew relational categories. This influenced Western soteriology's emphasis on belief over relational fidelity."]
+    },
+    {
+      "reference": "2 Chronicles 20:12",
+      "source_text": "כִּי אֵין בָּנוּ כֹּחַ לִפְנֵי הֶהָמוֹן הָרָב הַזֶּה... וְלֹא נֵדַע מַה נַּעֲשֶׂה כִּי עָלֶיךָ עֵינֵינוּ",
+      "vulgate_text": "cum ignoremus quid agere debeamus hoc solum habemus residui ut oculos nostros dirigamus ad te",
+      "vulgate_rendering": "Since we do not know what we should do, this alone remains to us: that we direct our eyes to you",
+      "tcr_rendering": "We do not know what to do, but our eyes are on You",
+      "theological_legacy": "Oculos nostros dirigamus ad te (let us direct our eyes toward you) became a classic Western prayer formula expressing complete dependence on God in crisis. The concept of 'directing eyes to God' as the sole recourse when human power and wisdom fail shaped Western spirituality of abandonment to divine providence.",
+      "notes": ["Jerome slightly expands the Hebrew for rhetorical force: hoc solum habemus residui (this alone we have remaining) adds emphasis on God as the last resort. The prayer became paradigmatic for Western spirituality of radical dependence — when all human resources fail, the only act remaining is to look toward God."]
+    },
+    {
+      "reference": "2 Chronicles 20:21",
+      "source_text": "וַיִּתְיָעַץ אֶל הָעָם וַיַּעֲמֵד מְשֹׁרְרִים לַיהוָה... הוֹדוּ לַיהוָה כִּי לְעוֹלָם חַסְדּוֹ",
+      "vulgate_text": "et constituit cantores Domini ut laudarent eum... confitemini Domino quoniam in aeternum misericordia eius",
+      "vulgate_rendering": "And he appointed singers of the Lord to praise him... Give thanks to the Lord, for his mercy endures forever",
+      "tcr_rendering": "He appointed those who would sing to the LORD... Give thanks to the LORD, for His covenant-faithfulness endures forever",
+      "theological_legacy": "Cantores Domini (singers of the Lord) established worship leaders as a formal office (cantores) in Western ecclesiastical vocabulary. The narrative of praise preceding military victory (they sang before the battle, and God defeated the enemy) shaped Western theology of praise as spiritual warfare — doxology as the weapon of faith.",
+      "notes": ["The concept of cantores as a formal liturgical office derives from passages like this. The narrative structure — Jehoshaphat sends singers ahead of the army and victory follows — became the primary biblical warrant for the Western theology of praise as spiritual combat, enormously influential in both medieval and modern charismatic worship theology."]
+    },
+    {
+      "reference": "2 Chronicles 29:5",
+      "source_text": "קַדְּשׁוּ עַתָּה וְקַדְּשׁוּ אֶת בֵּית יְהוָה",
+      "vulgate_text": "sanctificamini et mundate domum Domini",
+      "vulgate_rendering": "Sanctify yourselves and cleanse the house of the Lord",
+      "tcr_rendering": "Consecrate yourselves and consecrate the house of the LORD",
+      "theological_legacy": "Sanctificamini et mundate (sanctify yourselves and cleanse) established the double requirement of personal holiness and institutional purification. Hezekiah's reform command shaped the Western concept that ecclesiastical reform requires both personal sanctification of clergy and physical/ritual purification of sacred spaces.",
+      "notes": ["Jerome distinguishes between sanctificamini (make yourselves holy — personal) and mundate (cleanse — institutional), while Hebrew uses the same root qadash (consecrate/make holy) for both. This Latin distinction influenced Western reform theology's dual emphasis on personal conversion of clergy and institutional cleansing of the Church."]
+    },
+    {
+      "reference": "2 Chronicles 30:9",
+      "source_text": "כִּי חַנּוּן וְרַחוּם יְהוָה אֱלֹהֵיכֶם",
+      "vulgate_text": "clemens enim et misericors est Dominus Deus vester",
+      "vulgate_rendering": "For the Lord your God is clement and merciful",
+      "tcr_rendering": "for the LORD your God is gracious and compassionate",
+      "theological_legacy": "Clemens et misericors (clement and merciful) for channun ve-rachum (gracious and compassionate) introduced Roman legal clemency into the divine character. Clementia implies a sovereign choosing to reduce deserved punishment — a juridical concept different from the Hebrew channun (graciously disposed, showing favor). This juridical mercy shaped Western atonement theology.",
+      "notes": ["Hebrew channun (gracious, showing unmerited favor) and rachum (compassionate, womb-love) are relational-emotional terms. Jerome's clemens imports Roman legal vocabulary (clementia = sovereign merciful restraint of punishment), juridicalizing divine grace and influencing how Western theology understood forgiveness as sovereign pardon rather than relational restoration."]
+    },
+    {
+      "reference": "2 Chronicles 34:14",
+      "source_text": "מָצָא חִלְקִיָּהוּ הַכֹּהֵן אֶת סֵפֶר תּוֹרַת יְהוָה בְּיַד מֹשֶׁה",
+      "vulgate_text": "invenit Helcias sacerdos librum legis Domini per manum Mosi",
+      "vulgate_rendering": "Hilkiah the priest found the book of the law of the Lord given by the hand of Moses",
+      "tcr_rendering": "Hilkiah the priest found the Book of the Torah of the LORD given through Moses",
+      "theological_legacy": "Librum legis Domini per manum Mosi (the book of the law of the Lord by the hand of Moses) combined divine authorship (legis Domini = the Lord's law) with human mediation (per manum Mosi = through Moses' hand). This formula shaped the Western doctrine of scripture as simultaneously divine and humanly mediated — the double-authorship model.",
+      "notes": ["The Chronicler's version adds 'by the hand of Moses' to the Kings parallel, emphasizing Mosaic authorship. Jerome's per manum (through the hand) became the standard expression for instrumental human authorship under divine inspiration, foundational for Western inspiration theology's emphasis on dual authorship."]
+    },
+    {
+      "reference": "2 Chronicles 36:15-16",
+      "source_text": "וַיִּשְׁלַח עֲלֵיהֶם בְּיַד מַלְאָכָיו... וַיִּהְיוּ מַלְעִבִים בְּמַלְאֲכֵי הָאֱלֹהִים",
+      "vulgate_text": "mittebat ad illos per manum nuntiorum suorum... at illi subsannabant nuntios Dei",
+      "vulgate_rendering": "He sent to them by the hand of his messengers... but they mocked the messengers of God",
+      "tcr_rendering": "He sent word to them by His messengers... but they mocked the messengers of God",
+      "theological_legacy": "Subsannabant nuntios Dei (they mocked the messengers of God) with its pattern of escalating rejection of divine envoys became the Western template for understanding Israel's history as progressive rejection of prophets, culminating in Christ. This verse directly anticipates Matthew 23:37 and shaped Western supersessionist reading of Israelite history.",
+      "notes": ["The Chronicler's summary of Israel's decline through prophet-rejection provided the theological framework for the Western reading of redemptive history as a series of rejected divine messengers. Jerome's nuntii (messengers/envoys) for malakhim preserved the dual sense (angelic/human messengers) that fed into Western theology of prophetic sending."]
+    },
+    {
+      "reference": "2 Chronicles 36:22-23",
+      "source_text": "כֹּה אָמַר כּוֹרֶשׁ מֶלֶךְ פָּרַס... מִי בָכֶם מִכָּל עַמּוֹ יְהוָה אֱלֹהָיו עִמּוֹ וְיָעַל",
+      "vulgate_text": "haec dicit Cyrus rex Persarum... quis est in vobis de universo populo eius sit Dominus Deus suus cum eo et ascendat",
+      "vulgate_rendering": "Thus says Cyrus king of the Persians... Who is among you of all his people? May the Lord his God be with him, and let him go up",
+      "tcr_rendering": "Thus says Cyrus king of Persia... Whoever is among you of all His people, may the LORD his God be with him. Let him go up",
+      "theological_legacy": "The book's final word ascendat (let him go up) ending the entire Hebrew Bible (in the Jewish canonical order) with an imperative of ascent shaped Western reading of Old Testament history as oriented toward return, restoration, and ultimately heavenly ascent. The Vulgate preserved this forward-leaning conclusion.",
+      "notes": ["In Jewish canon, Chronicles closes the Bible with this upward call. Jerome preserves the open-ended imperative ascendat (let him ascend/go up), maintaining the canonical function of ending sacred history with an unresolved call to return and ascend. Western theology read this as the Old Testament pointing beyond itself toward ultimate restoration."]
+    }
+  ]
+}

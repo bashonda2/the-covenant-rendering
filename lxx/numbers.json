@@ -1,0 +1,175 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Numbers",
+    "tradition": "lxx",
+    "tradition_label": "Septuagint (LXX)",
+    "source_text": "Rahlfs-Hanhart, Septuaginta (Stuttgart critical edition)",
+    "base_text": "Westminster Leningrad Codex (WLC)",
+    "translators": "Alexandrian Jewish translators (3rd c. BCE)",
+    "date": "3rd century BCE",
+    "generated_at": "2026-04-22T00:00:00Z",
+    "prompt_version": "1.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "LXX Numbers is a generally literal translation, more conservative than LXX Exodus or Isaiah, but it contains two of the Septuagint's most theologically consequential divergences from the Hebrew: the Messianic expansions at Numbers 24:7 and 24:17, which read the Balaam oracles as personal prophecies of a coming king rather than as tribal-political promises. The LXX's handling of Moses — praus at 12:3, pistos at 12:7 — supplies the vocabulary that Jesus and the epistle to the Hebrews use to characterize their own figures. The priestly blessing of 6:24–26 circulated as a Greek liturgical text in Hellenistic Jewish communities and shaped early Christian benediction forms.",
+    "notable_variants": "Balaam's fourth oracle at 24:7 reads exeleusetai anthrōpos — 'there shall come forth a man' — and replaces MT Agag with Gōg, transforming the passage into an eschatological prophecy. 24:17 reads anastēsetai anthrōpos — 'a man shall rise up' — in place of MT's 'scepter.' The meekness vocabulary at 12:3 (praus) becomes the Beatitude vocabulary at Matthew 5:5. The pistos tou theou formula for Moses at 12:7 is quoted verbatim in Hebrews 3:2 and 3:5. The kraspedon of 15:38 is the 'fringe' Jesus' garment at Matthew 9:20. The bronze serpent of 21:8–9 is the explicit typology of John 3:14.",
+    "theological_legacy": "Numbers 24 in its LXX form is one of the most important single passages for the Messianic expectations of Hellenistic Judaism and early Christianity. The 'star and man from Jacob' of 24:17 is cited at Qumran (CD 7; 1QM 11), used as a throne-name for Bar Kokhba ('son of the star') in the second Jewish revolt, and shaped the patristic reading of Matthew's Magi. The meek-and-faithful-servant Moses of LXX Numbers 12 becomes, in the New Testament, the type against which Jesus is measured as a greater Moses."
+  },
+  "renderings": [
+    {
+      "reference": "Numbers 6:24-26",
+      "mt_reading": "יְבָרֶכְךָ יְהוָה וְיִשְׁמְרֶךָ … יָאֵר יְהוָה פָּנָיו אֵלֶיךָ וִיחֻנֶּךָּ … יִשָּׂא יְהוָה פָּנָיו אֵלֶיךָ וְיָשֵׂם לְךָ שָׁלוֹם",
+      "lxx_reading": "εὐλογήσαι σε κύριος καὶ φυλάξαι σε … ἐπιφάναι κύριος τὸ πρόσωπον αὐτοῦ ἐπὶ σὲ καὶ ἐλεήσαι σε … ἐπάραι κύριος τὸ πρόσωπον αὐτοῦ ἐπὶ σὲ καὶ δῴη σοι εἰρήνην",
+      "mt_rendering": "May the LORD bless you and guard you. May the LORD make His face shine upon you and show you grace. May the LORD lift up His face toward you and grant you peace.",
+      "lxx_rendering": "May the Lord bless you and keep you. May the Lord cause his face to shine upon you and have mercy on you. May the Lord lift up his face upon you and give you peace.",
+      "significance": "moderate",
+      "notes": [
+        "The LXX renders chen ('grace, favor') as eleos ('mercy') — a consistent LXX equivalence that subtly shifts the blessing's second line from gracious regard to compassionate mercy. The same LXX habit is what gave chesed its standard NT rendering (as eleos) and shaped all subsequent Christian usage of 'mercy' where Hebrew says 'grace.'",
+        "The verb epiphanai ('cause to shine forth, appear') is the root of epiphaneia (manifestation, epiphany) — 2 Timothy 1:10, Titus 2:11 use the same root for Christ's appearing. The Greek translators chose a word with theophanic resonance.",
+        "The Aaronic Blessing in this LXX form circulated as a standalone liturgical text in Hellenistic synagogues and was adapted into early Christian benedictions. The parallel Hebrew text was later recovered on two small silver amulets from Ketef Hinnom (c. 600 BCE), confirming the blessing's extreme antiquity."
+      ]
+    },
+    {
+      "reference": "Numbers 11:29",
+      "mt_reading": "וּמִי יִתֵּן כָּל־עַם יְהוָה נְבִיאִים",
+      "lxx_reading": "καὶ τίς δῴη πάντα τὸν λαὸν κυρίου προφήτας",
+      "mt_rendering": "If only all the LORD's people were prophets",
+      "lxx_rendering": "Who would grant that all the Lord's people be prophets",
+      "significance": "moderate",
+      "notes": [
+        "Moses' wish that all the Lord's people be prophets is the textual root of the Pentecost expectation. Joel 2:28–29 (quoted at Acts 2:17–18) universalizes prophecy across 'all flesh' — sons and daughters, old and young, male and female servants — and Peter's sermon reads that day as the fulfillment of Moses' wish.",
+        "The LXX's propheitas (the class noun in the plural) crystallizes the universalizing vision that Joel will radicalize and that Acts 2 will claim as realized."
+      ]
+    },
+    {
+      "reference": "Numbers 12:3",
+      "mt_reading": "וְהָאִישׁ מֹשֶׁה עָנָו מְאֹד",
+      "lxx_reading": "ὁ ἄνθρωπος Μωυσῆς πραῢς σφόδρα παρὰ πάντας τοὺς ἀνθρώπους τοὺς ὄντας ἐπὶ τῆς γῆς",
+      "mt_rendering": "Moses was an exceedingly humble man — more so than any person on the face of the earth",
+      "lxx_rendering": "The man Moses was exceedingly meek beyond all the people upon the earth",
+      "significance": "theological",
+      "notes": [
+        "Hebrew anav ('humble, afflicted, lowly') is rendered praus — a Greek word meaning 'mild, gentle, meek.' The LXX's praus is the single word that supplies the Beatitude vocabulary of Matthew 5:5 ('blessed are the praeis, for they shall inherit the earth'), echoing Psalm 37:11 LXX where praus again renders anav.",
+        "Matthew 11:29 — 'I am praus and lowly in heart' — aligns Jesus' self-description directly with LXX Moses. The typology is not accidental. The Gospel's portrait of Jesus as the true Moses is built in part on LXX Numbers 12:3.",
+        "The older English 'meek,' now archaic in ordinary usage, preserved the original praus connotation of power-under-control rather than weakness. TCR renders 'humble' to carry the Hebrew anav; the LXX-to-NT trajectory runs through 'meek.'"
+      ]
+    },
+    {
+      "reference": "Numbers 12:7",
+      "mt_reading": "לֹא־כֵן עַבְדִּי מֹשֶׁה בְּכָל־בֵּיתִי נֶאֱמָן הוּא",
+      "lxx_reading": "οὐχ οὕτως ὁ θεράπων μου Μωυσῆς ἐν ὅλῳ τῷ οἴκῳ μου πιστός ἐστιν",
+      "mt_rendering": "Not so with My servant Moses — he is entrusted with My entire household",
+      "lxx_rendering": "Not so with my servant Moses — in all my house he is faithful",
+      "significance": "theological",
+      "notes": [
+        "Hebrews 3:2 and 3:5 quote this verse verbatim in its LXX form — 'Moses was faithful in all God's house' (Mōysēs pistos en holō tō oikō autou) — and argue that Christ is greater than Moses because Christ is over God's house as a son, whereas Moses was in God's house as a servant.",
+        "The LXX's therapōn ('servant, attendant') preserves an honorific nuance that pais or doulos would lose. Therapōn is a dignified, trusted servant — the same word Homer uses for Patroklos with respect to Achilles. Hebrews 3:5 keeps therapōn precisely to preserve the honor of Moses while still subordinating him to the Son.",
+        "Numbers 12:7 is one of the clearest examples of LXX vocabulary supplying an entire NT argument. Hebrews' Moses-Christ typology is unintelligible without the Greek."
+      ]
+    },
+    {
+      "reference": "Numbers 14:22",
+      "mt_reading": "וַיְנַסּוּ אֹתִי זֶה עֶשֶׂר פְּעָמִים",
+      "lxx_reading": "ἐπείρασάν με τοῦτο δέκατον",
+      "mt_rendering": "who have tested Me these ten times",
+      "lxx_rendering": "they have tested me this tenth time",
+      "significance": "moderate",
+      "notes": [
+        "A subtle LXX shift: Hebrew 'ten times' (a round number for rebellion upon rebellion) becomes Greek 'this tenth (occasion)' — singular and specific, as if the tenth test had just occurred.",
+        "Hebrews 3:7–11 quotes Psalm 95 (94 LXX), which narrates this wilderness-rebellion motif, and warns the readers not to harden their hearts 'as in the rebellion, on the day of testing in the wilderness.' The whole Hebrews 3–4 rest theology depends on the LXX Psalm-and-Numbers framing of wilderness disobedience."
+      ]
+    },
+    {
+      "reference": "Numbers 15:38",
+      "mt_reading": "וְעָשׂוּ לָהֶם צִיצִת",
+      "lxx_reading": "ποιησάτωσαν ἑαυτοῖς κράσπεδα",
+      "mt_rendering": "make tassels on the corners of their garments",
+      "lxx_rendering": "let them make for themselves fringes",
+      "significance": "moderate",
+      "notes": [
+        "Hebrew tzitzit ('tassels') is rendered as kraspeda ('borders, edges, fringes'). The word kraspedon is the exact term the Gospels use for what the woman with the bleeding touches (Matt 9:20, Luke 8:44) and what the sick at Gennesaret beg to touch (Matt 14:36, Mark 6:56) on Jesus' garment.",
+        "The Gospels' kraspedon presupposes that Jesus wears a Torah-observant four-cornered garment with the tzitzit commanded at Numbers 15 and Deuteronomy 22. The healing episodes cannot be read as Gentile miracle stories — they assume a Jewish halakhic garment whose name is the LXX word for it.",
+        "Matthew 23:5 criticizes those who 'lengthen their kraspeda' for show — again using the LXX vocabulary of Numbers 15 for the visible Torah-devotion of Jesus' opponents."
+      ]
+    },
+    {
+      "reference": "Numbers 21:9",
+      "mt_reading": "וַיַּעַשׂ מֹשֶׁה נְחַשׁ נְחֹשֶׁת",
+      "lxx_reading": "καὶ ἐποίησεν Μωυσῆς ὄφιν χαλκοῦν",
+      "mt_rendering": "Moses made a bronze serpent",
+      "lxx_rendering": "And Moses made a bronze serpent",
+      "significance": "theological",
+      "notes": [
+        "The LXX's ophin chalkoun is the exact phrasing that John 3:14 draws on: 'As Moses lifted up the serpent in the wilderness, so must the Son of Man be lifted up.'",
+        "The Hebrew preserves a wordplay lost in Greek — nechash ('serpent') and nechoshet ('bronze') share consonants, making the bronze serpent a kind of concrete pun. The LXX translates the sense but cannot reproduce the wordplay.",
+        "2 Kings 18:4 narrates Hezekiah's destruction of Nehushtan, the bronze serpent turned idol. The LXX-to-NT trajectory runs forward from Numbers to John; the inner-biblical trajectory runs forward from Numbers to Hezekiah. Both readings are available; John chooses the typological."
+      ]
+    },
+    {
+      "reference": "Numbers 23:19",
+      "mt_reading": "לֹא אִישׁ אֵל וִיכַזֵּב וּבֶן־אָדָם וְיִתְנֶחָם",
+      "lxx_reading": "οὐχ ὡς ἄνθρωπος ὁ θεὸς διαρτηθῆναι οὐδὲ ὡς υἱὸς ἀνθρώπου ἀπειληθῆναι",
+      "mt_rendering": "God is not a human being, that He should lie, nor a mortal, that He should change His mind",
+      "lxx_rendering": "God is not as a man that he should be divided, nor as a son of man that he should be threatened",
+      "significance": "moderate",
+      "notes": [
+        "The LXX recasts the Hebrew parallel with Greek philosophical vocabulary: diartēthēnai ('to be divided, torn asunder') where Hebrew has 'to lie,' and apeilēthēnai ('to be threatened, intimidated') where Hebrew has 'to change his mind.' The translators moved from character (truth, steadfastness) to ontology (unity, unshakability).",
+        "This is a small window into the Hellenizing tendency of LXX Pentateuch in theological statements. The Hebrew's anthropopathic denial becomes a Greek statement of divine impassibility and indivisibility — language that the Greek philosophical tradition and the Greek Fathers would later develop at length."
+      ]
+    },
+    {
+      "reference": "Numbers 24:7",
+      "mt_reading": "יִזַּל־מַיִם מִדָּלְיָו … וְיָרֹם מֵאֲגַג מַלְכּוֹ",
+      "lxx_reading": "ἐξελεύσεται ἄνθρωπος ἐκ τοῦ σπέρματος αὐτοῦ καὶ κυριεύσει ἐθνῶν πολλῶν καὶ ὑψωθήσεται ἢ Γωγ βασιλεία αὐτοῦ",
+      "mt_rendering": "Water shall flow from his buckets … His king shall rise higher than Agag",
+      "lxx_rendering": "A man shall come forth from his seed, and he shall rule many nations, and his kingdom shall be exalted higher than Gōg",
+      "significance": "theological",
+      "notes": [
+        "A dramatic LXX rewrite. Where MT describes the king of Israel rising higher than the Amalekite Agag (Saul's enemy, 1 Samuel 15), the LXX speaks of 'a man from his seed' who will rule many nations and surpass Gōg — the eschatological northern adversary of Ezekiel 38–39.",
+        "The move from Agag (historical) to Gōg (eschatological) and from 'his king' to 'a man from his seed' turns the fourth Balaam oracle into an explicit Messianic prophecy. The LXX translators appear to have read 'Agag' through a Gog/Magog lens and understood the oracle as a promise about the final victorious king from Jacob's line.",
+        "This Greek form of Numbers 24:7 shaped Hellenistic Jewish messianic expectation and was available to NT writers as pre-formed Messianic language. Revelation 20:8 reintroduces Gōg and Magōg in the final battle — drawing a cosmology that LXX Numbers 24 had already framed."
+      ]
+    },
+    {
+      "reference": "Numbers 24:17",
+      "mt_reading": "דָּרַךְ כּוֹכָב מִיַּעֲקֹב וְקָם שֵׁבֶט מִיִּשְׂרָאֵל",
+      "lxx_reading": "ἀνατελεῖ ἄστρον ἐξ Ιακωβ καὶ ἀναστήσεται ἄνθρωπος ἐξ Ισραηλ",
+      "mt_rendering": "A star shall rise from Jacob, a scepter shall emerge from Israel",
+      "lxx_rendering": "A star shall rise from Jacob, and a man shall stand up from Israel",
+      "significance": "theological",
+      "notes": [
+        "The LXX renders Hebrew shevet ('scepter, tribe, ruler's staff') as anthrōpos ('man') — an interpretive leap that personalizes the oracle. Where Hebrew imagines a royal symbol, LXX imagines a royal person.",
+        "This reading was already current in Second Temple Judaism: the Dead Sea Scrolls (CD 7; 1QM 11:6–7; 4Q175) quote Numbers 24:17 as a Messianic text, and the Bar Kokhba revolt (132–135 CE) took its leader's throne-name — 'son of the star' — directly from this verse. Rabbi Akiva is reported to have identified Bar Kokhba as fulfilling it.",
+        "Matthew 2's star of Bethlehem narrative evokes Numbers 24:17 without quoting it. The Magi — astrologers from the East — know to look for the king of the Jews when they see 'his star at its rising.' The LXX's anatelei astron is the exact verb Matthew 2:2 uses.",
+        "Origen, Justin Martyr, and other early Christian apologists explicitly cited Numbers 24:17 LXX as the prophecy Balaam spoke of Christ. The personal 'man' reading of anthrōpos is essential to that apologetic."
+      ]
+    },
+    {
+      "reference": "Numbers 27:17",
+      "mt_reading": "וְלֹא תִהְיֶה עֲדַת יְהוָה כַּצֹּאן אֲשֶׁר אֵין־לָהֶם רֹעֶה",
+      "lxx_reading": "καὶ οὐκ ἔσται ἡ συναγωγὴ κυρίου ὡσεὶ πρόβατα οἷς οὐκ ἔστιν ποιμήν",
+      "mt_rendering": "so that the LORD's community will not be like sheep without a shepherd",
+      "lxx_rendering": "that the congregation of the Lord may not be as sheep for whom there is no shepherd",
+      "significance": "moderate",
+      "notes": [
+        "Matthew 9:36 ('he had compassion on them because they were harassed and helpless, like sheep without a shepherd') and Mark 6:34 both echo this LXX phrase. The image of Jesus as the shepherd of a leaderless Israel is framed by Moses' prayer at the commissioning of Joshua.",
+        "The LXX's synagōgē kyriou ('congregation of the Lord') is one of the standard renderings of Hebrew edah and qahal, supplying the vocabulary that ekklēsia will inherit in the NT as the name for God's assembled people."
+      ]
+    },
+    {
+      "reference": "Numbers 28:9",
+      "mt_reading": "וּבְיוֹם הַשַּׁבָּת שְׁנֵי־כְבָשִׂים בְּנֵי־שָׁנָה",
+      "lxx_reading": "καὶ τῇ ἡμέρᾳ τῶν σαββάτων προσάξετε δύο ἀμνοὺς ἐνιαυσίους",
+      "mt_rendering": "On the Sabbath day: two unblemished yearling lambs",
+      "lxx_rendering": "And on the day of the Sabbaths you shall offer two yearling lambs",
+      "significance": "moderate",
+      "notes": [
+        "Matthew 12:5 has Jesus invoke this text: 'Have you not read in the Law how on the Sabbath the priests in the temple break the Sabbath and are guiltless?' The LXX wording of Numbers 28:9 is the textual basis for that argument — the Torah itself commands Sabbath temple labor.",
+        "The LXX's plural tōn sabbatōn ('of the Sabbaths') reflects a Hebrew idiom that the Greek preserves. The phrase hē hēmera tōn sabbatōn carries into Gospel Greek as the standard Sabbath designation (Mark 1:21, Luke 4:16)."
+      ]
+    }
+  ]
+}

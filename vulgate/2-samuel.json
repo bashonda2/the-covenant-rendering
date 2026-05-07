@@ -1,0 +1,158 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "2 Samuel",
+    "tradition": "vulgate",
+    "tradition_label": "Latin Vulgate",
+    "source_text": "Biblia Sacra Vulgata (Stuttgart critical edition)",
+    "base_text": "Westminster Leningrad Codex (WLC)",
+    "translator": "Jerome (Eusebius Sophronius Hieronymus)",
+    "date": "382-405 CE",
+    "generated_at": "2026-04-20T00:00:00Z",
+    "prompt_version": "2.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Jerome's 2 Samuel (titled 2 Regum in the Vulgate) renders the Davidic covenant narrative and its royal theology with Latin vocabulary that became the foundation of Western messianic expectation, ecclesiology, and political theology — particularly the Nathan oracle of chapter 7 with its domus, semen, thronus, and regnum vocabulary.",
+    "notable_renderings": "The Davidic covenant terms (domus/dynasty, semen/seed, thronus/throne, regnum in sempiternum), David's penitential vocabulary in the Bathsheba aftermath, and the royal psalmic material in chapter 22 all established durable Latin theological categories.",
+    "theological_legacy": "2 Samuel's Vulgate provided the definitive Latin formulation of the Davidic covenant that shaped Christology (Christ as eternal Davidic king), ecclesiology (the Church as domus Dei), and political theology (the throne established in perpetuity). Nathan's oracle in chapter 7 became arguably the most important Old Testament text for Western messianism."
+  },
+  "renderings": [
+    {
+      "reference": "2 Samuel 6:2",
+      "source_text": "אֲשֶׁר־נִקְרָא שֵׁם שֵׁם יְהוָה צְבָאוֹת יֹשֵׁב הַכְּרֻבִים עָלָיו",
+      "vulgate_text": "super quo invocatum est nomen Domini exercituum sedentis in cherubin super illud",
+      "vulgate_rendering": "over which is invoked the name of the Lord of hosts who sits upon the cherubim",
+      "tcr_rendering": "which is called by the Name — the name of the LORD of Hosts, who is enthroned above the cherubim",
+      "theological_legacy": "Domini exercituum (Lord of hosts/armies) for YHWH Tsevaot became the standard Latin rendering of this divine title, appearing in the Sanctus of the Mass (Dominus Deus Sabaoth). Sedentis in cherubin (sitting upon the cherubim) shaped Western iconography of God enthroned above angelic beings.",
+      "notes": ["Jerome renders Tsevaot as exercituum (of armies) rather than transliterating as Sabaoth (which he uses elsewhere). The Latin exercituum emphasizes military command, while the liturgical tradition preserved Sabaoth in the Sanctus, creating a dual tradition in Western worship."]
+    },
+    {
+      "reference": "2 Samuel 7:5",
+      "source_text": "הַאַתָּה תִּבְנֶה־לִּי בַיִת לְשִׁבְתִּי",
+      "vulgate_text": "numquid tu aedificabis mihi domum ad habitandum",
+      "vulgate_rendering": "Will you build me a house to dwell in?",
+      "tcr_rendering": "Are you the one to build Me a house to dwell in?",
+      "theological_legacy": "Domum ad habitandum (a house for dwelling) introduces the double sense of domus that pervades the Nathan oracle: both physical temple and dynastic house. This deliberate ambiguity in Latin domus (as in Hebrew bayit) enabled the Christological reading where Christ is both the true temple and the eternal Davidic heir.",
+      "notes": ["Hebrew bayit carries the same deliberate ambiguity (building/dynasty) that Latin domus preserves. Jerome's faithful rendering allowed Western exegetes to exploit this wordplay: God refuses David's physical house but promises a dynastic house, which Christian theology reads as fulfilled in Christ who is both temple (John 2:19) and eternal king."]
+    },
+    {
+      "reference": "2 Samuel 7:12",
+      "source_text": "וַהֲקִימֹתִי אֶת־זַרְעֲךָ אַחֲרֶיךָ אֲשֶׁר יֵצֵא מִמֵּעֶיךָ וַהֲכִינֹתִי אֶת־מַמְלַכְתּוֹ",
+      "vulgate_text": "suscitabo semen tuum post te quod egredietur de utero tuo et firmabo regnum eius",
+      "vulgate_rendering": "I will raise up your seed after you, who shall come forth from your womb, and I will establish his kingdom",
+      "tcr_rendering": "I will raise up your offspring after you, who will come from your own body, and I will establish his kingdom",
+      "theological_legacy": "Semen tuum (your seed) became the standard Latin term for the Davidic messianic promise, directly paralleling Galatians 3:16 where Paul argues the singular 'seed' refers to Christ. Firmabo regnum eius (I will establish his kingdom) with its future tense shaped Western eschatological expectation of an eternal Davidic kingdom.",
+      "notes": ["Jerome's semen (seed) for zera preserves the singular/collective ambiguity that Paul exploits in Galatians 3:16. Firmabo (I will make firm/establish) for hakhinoti (I will establish) uses language of permanent foundation, reinforcing the eternal quality of the Davidic covenant promise."]
+    },
+    {
+      "reference": "2 Samuel 7:13",
+      "source_text": "הוּא יִבְנֶה־בַּיִת לִשְׁמִי וְכֹנַנְתִּי אֶת־כִּסֵּא מַמְלַכְתּוֹ עַד־עוֹלָם",
+      "vulgate_text": "ipse aedificabit domum nomini meo et stabiliam thronum regni eius usque in sempiternum",
+      "vulgate_rendering": "He shall build a house for my name, and I will establish the throne of his kingdom forever",
+      "tcr_rendering": "He will build a house for My name, and I will establish the throne of his kingdom forever",
+      "theological_legacy": "Thronum regni eius usque in sempiternum (the throne of his kingdom unto eternity) became the definitive Latin formulation of the eternal Davidic throne promise. This phrase was applied directly to Christ in Western Christology and cited in coronation liturgies to ground royal authority in the Davidic covenant.",
+      "notes": ["The combination of thronus (throne), regnum (kingdom), and in sempiternum (forever) created the triadic formula for eternal Davidic kingship that Western theology applied exclusively to Christ. Medieval political theology debated whether earthly kings could claim derivative participation in this eternal throne."]
+    },
+    {
+      "reference": "2 Samuel 7:14",
+      "source_text": "אֲנִי אֶהְיֶה־לּוֹ לְאָב וְהוּא יִהְיֶה־לִּי לְבֵן",
+      "vulgate_text": "ego ero ei in patrem et ipse erit mihi in filium",
+      "vulgate_rendering": "I will be to him a father, and he shall be to me a son",
+      "tcr_rendering": "I will be a father to him, and he will be a son to Me",
+      "theological_legacy": "Ego ero ei in patrem et ipse erit mihi in filium established the adoptionist formula for divine sonship in Latin. Cited in Hebrews 1:5, this became central to Christological debates about whether the Davidic king (and Christ) was Son by nature or adoption — a question that divided Western theology from Adoptionism through the Reformation.",
+      "notes": ["Jerome renders faithfully. The Vulgate formula was central to the Adoptionist controversy (8th century) and ongoing Christological debates. The preposition in (into/for) with its sense of becoming-into-a-role influenced how Western theologians understood the father-son relationship between God and the Davidic king/Christ."]
+    },
+    {
+      "reference": "2 Samuel 7:16",
+      "source_text": "וְנֶאְמַן בֵּיתְךָ וּמַמְלַכְתְּךָ עַד־עוֹלָם לְפָנֶיךָ כִּסְאֲךָ יִהְיֶה נָכוֹן עַד־עוֹלָם",
+      "vulgate_text": "et fidelis erit domus tua et regnum tuum usque in aeternum ante faciem tuam et thronus tuus erit firmus iugiter",
+      "vulgate_rendering": "And your house shall be faithful, and your kingdom forever before your face, and your throne shall be firm perpetually",
+      "tcr_rendering": "Your house and your kingdom shall be established forever before you; your throne shall be established forever",
+      "theological_legacy": "The triple formula — domus (house/dynasty), regnum (kingdom), thronus (throne) — each qualified by perpetuity (in aeternum, iugiter) became the structural backbone of Western messianic theology. Fidelis domus (faithful house) adds covenantal loyalty to what the Hebrew presents as stability (ne'eman = established/confirmed).",
+      "notes": ["Jerome renders ne'eman as fidelis (faithful) rather than firmus (established), adding a moral-covenantal quality to what is an ontological statement about permanence in Hebrew. The threefold eternal promise (house-kingdom-throne) in Latin became the schema through which Western theology organized its entire Davidic-messianic expectation."]
+    },
+    {
+      "reference": "2 Samuel 7:18",
+      "source_text": "מִי אָנֹכִי אֲדֹנָי יְהוִה וּמִי בֵיתִי כִּי הֲבִיאֹתַנִי עַד־הֲלֹם",
+      "vulgate_text": "quis ego sum Domine Deus et quae domus mea quia adduxisti me hucusque",
+      "vulgate_rendering": "Who am I, Lord God, and what is my house, that you have brought me thus far?",
+      "tcr_rendering": "Who am I, Lord GOD, and what is my house, that You have brought me this far?",
+      "theological_legacy": "David's prayer of humility (quis ego sum) became a model for royal piety in Western tradition. The formula of unworthiness before divine election shaped both monastic spirituality (the unworthy servant elevated by grace) and royal ideology (the humble king chosen by God despite low origins).",
+      "notes": ["Jerome faithfully renders David's self-abasement. Domine Deus for Adonai YHWH collapses the distinct Hebrew divine names into a single lordship-deity formula, losing the Hebrew's use of the personal covenant name alongside the sovereignty title."]
+    },
+    {
+      "reference": "2 Samuel 11:27",
+      "source_text": "וַיֵּרַע הַדָּבָר אֲשֶׁר־עָשָׂה דָוִד בְּעֵינֵי יְהוָה",
+      "vulgate_text": "displicuit autem Domino quod fecerat David",
+      "vulgate_rendering": "But what David had done displeased the Lord",
+      "tcr_rendering": "But the thing that David had done was evil in the eyes of the LORD",
+      "theological_legacy": "Displicuit Domino (it displeased the Lord) softens the Hebrew 'evil in the eyes of YHWH' to aesthetic displeasure rather than moral outrage. This subtle shift influenced how Western theology discussed divine response to sin — as displeasure rather than the Hebrew's stronger language of objective moral evil being perceived.",
+      "notes": ["Hebrew ra'a be'einei YHWH (was evil in the eyes of the LORD) is a strong moral judgment formula. Jerome's displicuit (displeased) reduces moral evil to divine displeasure, a significant softening that affected how Western readers understood God's response to David's sin with Bathsheba."]
+    },
+    {
+      "reference": "2 Samuel 12:7",
+      "source_text": "אַתָּה הָאִישׁ",
+      "vulgate_text": "tu es ille vir",
+      "vulgate_rendering": "You are that man",
+      "tcr_rendering": "You are the man!",
+      "theological_legacy": "Tu es ille vir became one of the most famous Vulgate phrases in Western moral theology and preaching. Nathan's accusation provided the template for prophetic confrontation of royal power and became the model for ecclesiastical correction of rulers — from Ambrose confronting Theodosius to papal rebukes of medieval kings.",
+      "notes": ["Jerome's rendering is faithful and memorably concise. The demonstrative ille (that one) adds rhetorical force. The phrase became proverbial in Latin for the moment of unmasking self-deception and was cited extensively in Western homiletical and moral-theological tradition."]
+    },
+    {
+      "reference": "2 Samuel 12:13",
+      "source_text": "חָטָאתִי לַיהוָה... גַּם יְהוָה הֶעֱבִיר חַטָּאתְךָ לֹא תָמוּת",
+      "vulgate_text": "peccavi Domino... Dominus quoque transtulit peccatum tuum non morieris",
+      "vulgate_rendering": "I have sinned against the Lord... The Lord also has transferred/removed your sin; you shall not die",
+      "tcr_rendering": "I have sinned against the LORD... The LORD also has put away your sin; you shall not die",
+      "theological_legacy": "Peccavi Domino (I have sinned against the Lord) became the model penitential confession in Western Christianity. Transtulit peccatum (transferred/removed sin) introduced the concept of sin being moved away or transferred, language that influenced substitutionary atonement theology and the sacrament of penance.",
+      "notes": ["David's peccavi became the paradigmatic confession in Western tradition, cited in penitential liturgy and moral theology as the model of royal repentance. Jerome's transtulit (transferred, carried across) for he'evir (caused to pass away, removed) subtly introduced transfer language that Anselm and later atonement theologians could exploit."]
+    },
+    {
+      "reference": "2 Samuel 22:2-3",
+      "source_text": "יְהוָה סַלְעִי וּמְצֻדָתִי וּמְפַלְטִי לִי אֱלֹהֵי צוּרִי אֶחֱסֶה־בּוֹ",
+      "vulgate_text": "Dominus petra mea et robur meum et salvator meus Deus fortis meus sperabo in eum",
+      "vulgate_rendering": "The Lord is my rock and my strength and my savior; my strong God, I will hope in him",
+      "tcr_rendering": "The LORD is my rock and my fortress and my deliverer; my God, my rock — I take refuge in Him",
+      "theological_legacy": "Salvator meus (my savior) for mfalti (my deliverer/one who lets me escape) introduced explicit salvation vocabulary into David's victory psalm. Sperabo (I will hope) for echse (I take refuge) shifted from the concrete Hebrew image of physical refuge to the interior virtue of hope — a significant move toward the spiritualization of Old Testament faith language.",
+      "notes": ["Jerome replaces multiple concrete fortress/refuge images with more abstract virtues: robur (strength) for metsudah (fortress/stronghold), sperabo (I will hope) for echse-bo (I take refuge in him). This pattern of spiritualizing concrete Hebrew metaphors profoundly shaped how Western Christianity read the psalmic material — as interior spiritual states rather than physical divine protection."]
+    },
+    {
+      "reference": "2 Samuel 22:51",
+      "source_text": "מַגְדִּיל יְשׁוּעוֹת מַלְכּוֹ וְעֹשֶׂה חֶסֶד לִמְשִׁיחוֹ לְדָוִד וּלְזַרְעוֹ עַד־עוֹלָם",
+      "vulgate_text": "magnificans salutes regis sui et faciens misericordiam christo suo David et semini eius usque in aeternum",
+      "vulgate_rendering": "Magnifying the salvations of his king and showing mercy to his anointed, to David and his seed forever",
+      "tcr_rendering": "a tower of salvation for His king, and showing covenant-faithfulness to His anointed, to David and his offspring forever",
+      "theological_legacy": "Christo suo David et semini eius usque in aeternum (to his Christ David and his seed forever) closes David's great psalm with the christus-semen-aeternum formula that links anointing, Davidic lineage, and eternity. This verse became a primary proof-text connecting the Davidic covenant to Christ's eternal kingship in Western theology.",
+      "notes": ["The combination of christo suo (his anointed/Christ), David, semini eius (his seed), and in aeternum (forever) in a single phrase created the most concise Vulgate statement of the eternal Davidic-messianic promise. Misericordiam for chesed again renders covenant-faithfulness as mercy."]
+    },
+    {
+      "reference": "2 Samuel 23:1",
+      "source_text": "נְאֻם דָּוִד בֶּן־יִשַׁי וּנְאֻם הַגֶּבֶר הֻקַם עָל",
+      "vulgate_text": "dixit David filius Isai dixit vir cui constitutum est de christo Dei Iacob",
+      "vulgate_rendering": "David son of Jesse spoke; the man spoke to whom it was established concerning the Christ of the God of Jacob",
+      "tcr_rendering": "The declaration of David son of Jesse, the declaration of the man raised up on high",
+      "theological_legacy": "De christo Dei Iacob (concerning the Christ/anointed of the God of Jacob) is a significant interpretive expansion. The Hebrew huqam al (raised up on high) refers to David himself being exalted; Jerome's rendering makes David speak prophetically about the coming Christ, transforming David's last words from self-description into messianic prophecy.",
+      "notes": ["This is one of Jerome's most interpretive renderings in 2 Samuel. The Hebrew says David was 'raised up on high' (describing his own exaltation); Jerome reads it as David speaking 'concerning the anointed of the God of Jacob' — making the passage a direct messianic prophecy rather than a royal self-attestation. This significantly shaped how Western Christianity read David's final oracle."]
+    },
+    {
+      "reference": "2 Samuel 23:3",
+      "source_text": "צוּר יִשְׂרָאֵל... מוֹשֵׁל בָּאָדָם צַדִּיק מוֹשֵׁל יִרְאַת אֱלֹהִים",
+      "vulgate_text": "Fortis Israhel... dominator hominum iustus dominator in timore Dei",
+      "vulgate_rendering": "The Strong One of Israel... ruler of men, the just one, ruler in the fear of God",
+      "tcr_rendering": "the Rock of Israel... the one who rules over mankind must be righteous, ruling in the fear of God",
+      "theological_legacy": "Fortis Israhel (Strong One of Israel) for Tsur Yisrael (Rock of Israel) again eliminates the rock metaphor. Dominator hominum iustus (just ruler of men) shaped Western ideals of righteous kingship, providing the vocabulary for the rex iustus (just king) tradition that ran from Augustine's City of God through medieval mirrors for princes.",
+      "notes": ["Jerome's dominator (absolute ruler) for moshel (one who rules) carries stronger authoritarian connotations. The concept of the dominator iustus (just absolute ruler) influenced Western political philosophy's attempt to reconcile strong sovereign power with the constraint of divine justice and fear of God."]
+    },
+    {
+      "reference": "2 Samuel 6:14",
+      "source_text": "וְדָוִד מְכַרְכֵּר בְּכָל־עֹז לִפְנֵי יְהוָה וְדָוִד חָגוּר אֵפוֹד בָּד",
+      "vulgate_text": "David autem saltabat totis viribus ante Dominum porro David erat accinctus ephod lineo",
+      "vulgate_rendering": "Now David was dancing with all his might before the Lord, and David was girded with a linen ephod",
+      "tcr_rendering": "And David was dancing before the LORD with all his might, and David was wearing a linen ephod",
+      "theological_legacy": "Saltabat totis viribus (was dancing with all his might) preserved the image of royal liturgical dancing that influenced Western theology of sacred dance and bodily worship. Ephod lineo (linen ephod) identified David with priestly vestiture, supporting the Western reading of David as priest-king typifying Christ.",
+      "notes": ["Jerome's saltabat (was leaping/dancing) for mekharkher (whirling/dancing) is faithful. The combination of royal dancing and priestly garment (ephod) supported patristic and medieval readings of David as exercising both royal and priestly functions — a key typological argument for Christ's dual office and for liturgical dance in worship."]
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Ruth",
+    "tradition": "lxx",
+    "tradition_label": "Septuagint (LXX)",
+    "source_text": "Rahlfs-Hanhart, Septuaginta (Stuttgart critical edition)",
+    "base_text": "Westminster Leningrad Codex (WLC)",
+    "translators": "Alexandrian Jewish translators (3rd–2nd c. BCE)",
+    "date": "3rd–2nd century BCE",
+    "generated_at": "2026-04-22T00:00:00Z",
+    "prompt_version": "1.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "LXX Ruth tracks the Hebrew text closely. The translators preserved the book's narrative rhythm and key institutional vocabulary (kinsman-redeemer, levirate, gleaning) with only minor Greek stylistic adjustments. The most interesting LXX choice in Ruth is the rendering of go'el as anchisteus — a technical term for 'the next of kin,' the one on whom inherited legal obligations fall. This choice had a long afterlife in Hellenistic Jewish legal thought and in early Christian uses of 'kinsman-redeemer' language for Christ.",
+    "notable_variants": "The anchisteus vocabulary for the kinsman-redeemer throughout chapters 3 and 4; the 'under whose wings you have come to take refuge' imagery at 2:12 that Jesus picks up at Matthew 23:37; the levirate legal procedures of 4:5–7; and the closing genealogy that Matthew 1:5 inherits to list Ruth in the Messianic line.",
+    "theological_legacy": "LXX Ruth's anchisteus vocabulary did not pass directly into NT Christology — the NT prefers lytrōtēs and agchistēs-less phrasing — but it shaped the Hellenistic Jewish legal concept of kinship-redemption that Paul's 'adoption' (huiothesia) language presupposes. Ruth's inclusion in Jesus' genealogy at Matthew 1:5 is the single most visible theological consequence of the book's reception: a Moabite woman, preserved by the kinsman-redeemer institution, becomes an ancestor of the Messiah."
+  },
+  "renderings": [
+    {
+      "reference": "Ruth 1:16",
+      "mt_reading": "עַמֵּךְ עַמִּי וֵאלֹהַיִךְ אֱלֹהָי",
+      "lxx_reading": "ὁ λαός σου λαός μου καὶ ὁ θεός σου θεός μου",
+      "mt_rendering": "Your people will be my people, and your God will be my God",
+      "lxx_rendering": "Your people shall be my people, and your God my God",
+      "significance": "moderate",
+      "notes": [
+        "Ruth's covenant-declaration to Naomi has the same structural form — 'X of yours shall be X of mine' — that appears in covenant-incorporation language across the LXX (compare Hosea 2:23 LXX, quoted in Rom 9:25 and 1 Pet 2:10: \"I will say to 'Not My People,' 'you are my people'\").",
+        "The LXX preserves the terse symmetry of the Hebrew ('your people my people, your God my God') without expansion. The phrase circulated in Hellenistic Jewish proselyte discourse as a model confession of a Gentile joining the covenant community."
+      ]
+    },
+    {
+      "reference": "Ruth 2:12",
+      "mt_reading": "תַּחַת־כְּנָפָיו אֲשֶׁר־בָּאת לַחֲסוֹת תַּחְתָּיו",
+      "lxx_reading": "ὑπὸ τὰς πτέρυγας αὐτοῦ ἐφ᾽ ὃν ἦλθες πεποιθέναι ὑπ᾽ αὐτόν",
+      "mt_rendering": "under whose wings you have come to take refuge",
+      "lxx_rendering": "under whose wings you have come to trust",
+      "significance": "theological",
+      "notes": [
+        "Boaz's blessing on Ruth — that she has come under YHWH's wings for refuge — uses the Greek pterygas autou ('his wings') that Jesus will echo at Matthew 23:37 and Luke 13:34: 'how often I would have gathered your children together as a hen gathers her chicks under her wings (hypo tas pterygas).'",
+        "The wings-of-refuge image threads through the Psalms (17:8, 36:7, 57:1, 61:4, 63:7, 91:4) in its LXX form, where it accumulates an eschatological and Messianic charge. Jesus' Jerusalem-lament reaches back through the whole LXX mother-bird-and-wings tradition to claim that role for himself.",
+        "The LXX's pepoithenai ('to trust, to be confident') renders the Hebrew l-chasot ('to take refuge') with faith-vocabulary that anticipates Pauline pistis language."
+      ]
+    },
+    {
+      "reference": "Ruth 3:9",
+      "mt_reading": "כִּי גֹאֵל אָתָּה",
+      "lxx_reading": "ὅτι ἀγχιστεὺς εἶ σύ",
+      "mt_rendering": "you are a kinsman-redeemer",
+      "lxx_rendering": "for you are a next-of-kin",
+      "significance": "theological",
+      "notes": [
+        "LXX Ruth renders go'el as anchisteus — 'the nearest of kin, the one next in line of inheritance.' The Greek word is legally technical: the anchisteus is the person on whom inherited obligations (land redemption, levirate marriage, blood vengeance) fall by kinship order.",
+        "The Pentateuch's go'el (Lev 25:25, 25:48–49; Num 35:12) is rendered with the same anchisteus word-field. LXX Ruth therefore keeps the legal vocabulary of the Pentateuch intact in Greek, which is why Ruth reads as a Torah case study in Greek as in Hebrew.",
+        "Christian theology of Christ as 'kinsman-redeemer' develops, in part, from the Latin propinquus and redemptor (Vulgate Ruth) rather than directly from the LXX anchisteus. But the LXX established that go'el denotes a kinship-based legal relationship rather than a pure commercial redemption."
+      ]
+    },
+    {
+      "reference": "Ruth 4:5",
+      "mt_reading": "וּמֵאֵת רוּת הַמּוֹאֲבִיָּה אֵשֶׁת־הַמֵּת קָנִיתָ לְהָקִים שֵׁם־הַמֵּת עַל־נַחֲלָתוֹ",
+      "lxx_reading": "καὶ παρὰ Ρουθ τῆς Μωαβίτιδος γυναικὸς τοῦ τεθνηκότος καὶ αὐτὴν κτήσασθαι δεῖ σε ὥστε ἀναστῆσαι τὸ ὄνομα τοῦ τεθνηκότος ἐπὶ τῆς κληρονομίας αὐτοῦ",
+      "mt_rendering": "you also acquire Ruth the Moabite, the wife of the deceased, in order to raise up the name of the dead man upon his inheritance",
+      "lxx_rendering": "from Ruth the Moabitess, the wife of the dead, you must also acquire her, so as to raise up the name of the dead upon his inheritance",
+      "significance": "moderate",
+      "notes": [
+        "The LXX's anastēsai to onoma ('raise up the name') uses the verb anistēmi — the same verb that becomes the standard NT word for resurrection. The levirate custom's 'raising the name of the dead' is, in Greek, literally a 'standing up' of the dead name over his inheritance.",
+        "This is not a direct theological typology for resurrection, but the verbal overlap shaped Hellenistic Jewish imagination about the relation between lineage-continuation, land-inheritance, and divine raising-up of the dead.",
+        "Matthew 22:24 has the Sadducees cite the levirate law (Deut 25) to Jesus in terms drawn from LXX Ruth and Deuteronomy — exanastēsei sperma tō adelphō autou ('shall raise up seed for his brother')."
+      ]
+    },
+    {
+      "reference": "Ruth 4:7",
+      "mt_reading": "שָׁלַף אִישׁ נַעֲלוֹ וְנָתַן לְרֵעֵהוּ",
+      "lxx_reading": "ὑπελύετο ὁ ἀνὴρ τὸ ὑπόδημα αὐτοῦ καὶ ἐδίδου τῷ πλησίον αὐτοῦ",
+      "mt_rendering": "a man would remove his sandal and give it to the other party",
+      "lxx_rendering": "a man would remove his sandal and give it to his neighbor",
+      "significance": "minor",
+      "notes": [
+        "The sandal-removal custom for confirming a legal transaction is preserved in Greek with the neighbor-vocabulary plēsion — the same word that carries the Leviticus 19:18 love-your-neighbor command into LXX form.",
+        "John the Baptist's disclaimer at John 1:27 ('the strap of whose sandal I am not worthy to untie') may evoke LXX Ruth's sandal-transfer indirectly: the Baptist refuses to stand in the kinsman-redeemer position vis-à-vis the Messiah."
+      ]
+    },
+    {
+      "reference": "Ruth 4:17",
+      "mt_reading": "וַתִּקְרֶאנָה לוֹ הַשְּׁכֵנוֹת שֵׁם … הוּא אֲבִי־יִשַׁי אֲבִי דָוִד",
+      "lxx_reading": "καὶ ἐκάλεσαν αὐτοῦ αἱ γείτονες ὄνομα … οὗτος πατὴρ Ιεσσαι πατρὸς Δαυιδ",
+      "mt_rendering": "The neighbor women gave him a name … He was the father of Jesse, the father of David",
+      "lxx_rendering": "And the neighbors named him … this is the father of Jesse, the father of David",
+      "significance": "moderate",
+      "notes": [
+        "The closing genealogy of LXX Ruth supplies the framework Matthew 1:5 inherits: 'Salmon fathered Boaz by Rahab, Boaz fathered Obed by Ruth, Obed fathered Jesse, Jesse fathered David.' Matthew preserves the Greek name-forms (Booz, Iobed, Iessai, Dauid) of the LXX.",
+        "Luke 3:32 gives the same genealogy in reverse (ascending). Both evangelists are reading LXX Ruth 4 as the authoritative record of David's non-Israelite ancestry. The inclusion of Ruth (and implicitly Rahab from Josh 2 / 6) among the Messianic ancestors is pointedly an inclusion of Gentile-outsider women in the line of the king."
+      ]
+    }
+  ]
+}

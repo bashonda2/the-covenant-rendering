@@ -1,0 +1,104 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "James",
+    "tradition": "vulgate",
+    "tradition_label": "Latin Vulgate",
+    "source_text": "Biblia Sacra Vulgata (Stuttgart critical edition)",
+    "base_text": "SBL Greek New Testament (SBLGNT)",
+    "translator": "Jerome (Eusebius Sophronius Hieronymus)",
+    "date": "382-405 CE",
+    "generated_at": "2026-04-20T00:00:00Z",
+    "prompt_version": "2.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "James in the Vulgate shaped the Western theology of faith and works, the anointing of the sick, and practical Christian ethics. Jerome's renderings of James's insistence that faith without works is dead created the primary counterweight to Pauline sola fide theology in the Western tradition. The letter's anointing passage (5:14-15) became the scriptural foundation for the Catholic sacrament of Extreme Unction (Anointing of the Sick).",
+    "notable_renderings": "James 2:17 fides sine operibus mortua est (faith without works is dead); 2:24 ex operibus iustificatur homo et non ex fide tantum (a man is justified by works and not by faith alone); 5:14-15 infirmatur... ungentes eum oleo (anointing the sick with oil — sacrament of Anointing); 1:17 omne datum optimum (every good gift from above).",
+    "theological_legacy": "The Vulgate James was the Western church's primary text for integrating works with faith, and its anointing passage created an entire sacrament. Luther famously called James 'an epistle of straw' because it seemed to contradict justification by faith alone — the most dramatic example of inner-biblical tension in Western theology."
+  },
+  "renderings": [
+    {
+      "reference": "James 1:17",
+      "source_text": "πᾶσα δόσις ἀγαθὴ καὶ πᾶν δώρημα τέλειον ἄνωθέν ἐστιν καταβαῖνον ἀπὸ τοῦ πατρὸς τῶν φώτων",
+      "vulgate_text": "omne datum optimum et omne donum perfectum desursum est descendens a Patre luminum",
+      "vulgate_rendering": "Every best gift and every perfect gift is from above, coming down from the Father of lights",
+      "tcr_rendering": "Every good act of giving and every complete gift is from above, coming down from the Father of lights",
+      "theological_legacy": "Omne datum optimum et omne donum perfectum desursum est (every best gift and perfect gift is from above) — this became one of the most quoted expressions of divine providence in Western theology. The phrase influenced the Western understanding of all good things as divine gifts (dona Dei) and shaped the theology of gratitude. Omne datum optimum became the title of a papal bull (1145) governing the Templars.",
+      "notes": ["The Latin's euphony (datum optimum, donum perfectum) made this verse memorable and quotable. The concept that every good thing descends from God shaped the Western theology of grace: even natural goods (health, intelligence, beauty) are divine gifts. This grounded the Western tradition of thanksgiving and the theological virtue of gratitude. The phrase a Patre luminum (from the Father of lights) influenced Western light-theology and the identification of God with light."]
+    },
+    {
+      "reference": "James 2:17",
+      "source_text": "οὕτως καὶ ἡ πίστις, ἐὰν μὴ ἔχῃ ἔργα, νεκρά ἐστιν καθ᾽ ἑαυτήν",
+      "vulgate_text": "sic et fides si non habeat opera mortua est in semet ipsa",
+      "vulgate_rendering": "So also faith, if it does not have works, is dead in itself",
+      "tcr_rendering": "So also faith, if it does not have works, is dead by itself",
+      "theological_legacy": "Fides si non habeat opera mortua est (faith without works is dead) — this verse became the Catholic counterbalance to Pauline justification by faith. The Latin mortua (dead) is stark: faith without works is not merely incomplete but dead — a corpse. This shaped the Catholic insistence that saving faith must be 'faith working through love' (fides caritate formata), not bare intellectual assent.",
+      "notes": ["The tension between James ('faith without works is dead') and Paul ('justified by faith without works of law') is the most famous theological tension in Western Christianity. Catholic theology resolved it by distinguishing 'dead faith' (mere belief without love) from 'living faith' (belief animated by love that produces works). Luther's resolution was to distinguish justification (by faith alone) from sanctification (which produces works). His low regard for James ('epistle of straw') reflected his struggle with this tension."]
+    },
+    {
+      "reference": "James 2:24",
+      "source_text": "ὁρᾶτε ὅτι ἐξ ἔργων δικαιοῦται ἄνθρωπος καὶ οὐκ ἐκ πίστεως μόνον",
+      "vulgate_text": "videtis quoniam ex operibus iustificatur homo et non ex fide tantum",
+      "vulgate_rendering": "You see that a man is justified by works and not by faith alone",
+      "tcr_rendering": "You see that a person is declared righteous by works and not by faith alone",
+      "theological_legacy": "Ex operibus iustificatur homo et non ex fide tantum (justified by works and not by faith alone) — this is the only verse in the Bible that contains the phrase 'faith alone' (fide tantum) — and it denies it! This verse was the Catholic response to Luther's sola fide. The Council of Trent (Session 6, Canon 9) cited it to condemn the proposition that justification is by faith alone.",
+      "notes": ["The irony of this verse in the faith-works debate is remarkable: the only biblical occurrence of 'faith alone' (ex fide tantum/sola fide) is a denial. Luther acknowledged the difficulty but argued James uses 'justify' differently from Paul: Paul means 'declared righteous before God' (forensic), while James means 'shown to be righteous before people' (demonstrative). The Catholic tradition maintained that both Paul and James teach the same thing: saving faith must include works of love. This single verse was perhaps the most contested in the entire Reformation debate."]
+    },
+    {
+      "reference": "James 5:14-15",
+      "source_text": "ἀσθενεῖ τις ἐν ὑμῖν; προσκαλεσάσθω τοὺς πρεσβυτέρους τῆς ἐκκλησίας καὶ προσευξάσθωσαν ἐπ᾽ αὐτὸν ἀλείψαντες αὐτὸν ἐλαίῳ... καὶ ἡ εὐχὴ τῆς πίστεως σώσει τὸν κάμνοντα",
+      "vulgate_text": "infirmatur quis in vobis inducat presbyteros ecclesiae et orent super eum unguentes eum oleo... et oratio fidei salvabit infirmum",
+      "vulgate_rendering": "Is anyone among you sick? Let him bring in the presbyters of the church, and let them pray over him, anointing him with oil... and the prayer of faith will save the sick person",
+      "tcr_rendering": "Is anyone among you sick? Let him call for the elders of the assembly, and let them pray over him, anointing him with oil... and the prayer of faith will deliver the one who is ill",
+      "theological_legacy": "Infirmatur... presbyteros... ungentes eum oleo (the sick... presbyters... anointing with oil) — this passage became the scriptural institution of the Catholic sacrament of Anointing of the Sick (formerly Extreme Unction). The Latin presbyteros (priests) rather than seniores (elders) ensured that anointing was reserved to ordained clergy. The connection of anointing, prayer, and healing shaped the Western sacramental theology of sickness and dying.",
+      "notes": ["The Council of Trent (Session 14, 1551) defined the Anointing of the Sick as a sacrament instituted by Christ and promulgated by James. The Vulgate's presbyteros (priests) was essential: this meant only ordained priests could administer the sacrament. The anointing with oil (ungentes oleo) became the sacramental matter. The prayer of faith (oratio fidei) became the sacramental form. For centuries, the sacrament was administered primarily to the dying (hence 'Extreme Unction' — last anointing). Vatican II restored the focus on healing and extended it to the seriously ill, not only the dying."]
+    },
+    {
+      "reference": "James 1:2-3",
+      "source_text": "πᾶσαν χαρὰν ἡγήσασθε, ἀδελφοί μου, ὅταν πειρασμοῖς περιπέσητε ποικίλοις, γινώσκοντες ὅτι τὸ δοκίμιον ὑμῶν τῆς πίστεως κατεργάζεται ὑπομονήν",
+      "vulgate_text": "omne gaudium existimate fratres mei cum in temptationibus variis incideritis scientes quod probatio fidei vestrae patientiam operatur",
+      "vulgate_rendering": "Count it all joy, my brothers, when you fall into various trials, knowing that the testing of your faith produces patience",
+      "tcr_rendering": "Consider it all joy, my brothers, whenever you encounter various trials, knowing that the testing of your faith produces endurance",
+      "theological_legacy": "Probatio fidei patientiam operatur (the testing of faith produces patience) — this verse shaped the Western theology of suffering as formative. The Latin patientia (patience, endurance, long-suffering) became a cardinal virtue in Western Christianity, especially in the monastic tradition. The concept that trials test (probatio) and refine faith influenced the Western spirituality of redemptive suffering.",
+      "notes": ["The Latin probatio (testing, proving, trial) carries a positive connotation — as testing metal proves its quality. This shaped the Western understanding of suffering as God's proving-ground: trials do not destroy faith but demonstrate and strengthen it. Patientia (patience) became one of the most valued virtues in Western Christianity, especially in monastic contexts where long, monotonous endurance was a daily requirement. The verse was cited by every Western spiritual writer from Cyprian to Teresa of Avila."]
+    },
+    {
+      "reference": "James 4:4",
+      "source_text": "ἡ φιλία τοῦ κόσμου ἔχθρα τοῦ θεοῦ ἐστιν",
+      "vulgate_text": "amicitia huius mundi inimica est Dei",
+      "vulgate_rendering": "Friendship with this world is enmity with God",
+      "tcr_rendering": "Friendship with the world is hostility toward God",
+      "theological_legacy": "Amicitia mundi inimica est Dei (friendship with the world is enmity with God) — this verse shaped the Western Christian tradition of world-rejection and separation. It grounded the monastic theology of contemptus mundi (contempt for the world), the ascetical tradition of renunciation, and the sectarian tradition of separation from 'worldliness.'",
+      "notes": ["The Latin amicitia mundi (friendship with the world) versus amicitia Dei (friendship with God) created a stark binary in Western spirituality. Augustine's distinction between the City of God and the City of Man draws partly on this Jamesian worldview. The verse influenced the Western monastic vow of 'conversion of life' (conversatio morum) — turning away from worldly attachments. It also shaped Puritan and evangelical critiques of 'worldliness' in dress, entertainment, and social engagement."]
+    },
+    {
+      "reference": "James 5:16",
+      "source_text": "ἐξομολογεῖσθε οὖν ἀλλήλοις τὰς ἁμαρτίας καὶ εὔχεσθε ὑπὲρ ἀλλήλων",
+      "vulgate_text": "confitemini ergo alterutrum peccata vestra et orate pro invicem",
+      "vulgate_rendering": "Therefore confess your sins to one another and pray for one another",
+      "tcr_rendering": "Therefore confess your sins to one another and pray for one another",
+      "theological_legacy": "Confitemini alterutrum peccata vestra (confess your sins to one another) — this verse was cited as a foundation for the Western sacrament of Confession/Reconciliation. The Latin confitemini (confess, acknowledge openly) became the standard verb for sacramental confession. The 'to one another' (alterutrum) was debated: does it mean mutual confession among all Christians, or confession to a designated elder/priest?",
+      "notes": ["The Western church interpreted 'to one another' as including (and eventually requiring) confession to a priest, citing the presbyters of James 5:14 as the proper recipients. The Fourth Lateran Council (1215) made annual confession to a priest obligatory for all Catholics. Protestant reformers argued 'to one another' means mutual confession among believers, not priestly auricular confession. The verse remains central to the Catholic-Protestant divide on the sacrament of Reconciliation."]
+    },
+    {
+      "reference": "James 2:19",
+      "source_text": "σὺ πιστεύεις ὅτι εἷς ἐστιν ὁ θεός, καλῶς ποιεῖς· καὶ τὰ δαιμόνια πιστεύουσιν καὶ φρίσσουσιν",
+      "vulgate_text": "tu credis quoniam unus est Deus bene facis et daemones credunt et contremescunt",
+      "vulgate_rendering": "You believe that God is one; you do well. The demons also believe — and tremble",
+      "tcr_rendering": "You believe that God is one; you do well. Even the demons believe — and shudder",
+      "theological_legacy": "Daemones credunt et contremescunt (the demons believe and tremble) — this verse shaped the Western distinction between intellectual belief and saving faith. Mere belief (credere — to believe intellectually) is not saving faith; even demons have that. Saving faith requires more — trust, obedience, love. This distinction influenced every Western theology of faith from Augustine through the Reformers.",
+      "notes": ["James's point — that demons possess orthodox theology (they believe God is one) yet it does not save them — was a powerful argument against reducing faith to intellectual assent. The Western theological tradition developed the distinction between fides informis (unformed faith — belief without love, which demons have) and fides formata (formed faith — belief animated by love, which saves). This distinction was central to the Catholic-Protestant debate about the nature of saving faith."]
+    },
+    {
+      "reference": "James 3:6",
+      "source_text": "καὶ ἡ γλῶσσα πῦρ, ὁ κόσμος τῆς ἀδικίας",
+      "vulgate_text": "et lingua ignis est universitas iniquitatis",
+      "vulgate_rendering": "And the tongue is a fire, a world of iniquity",
+      "tcr_rendering": "And the tongue is a fire — the world of unrighteousness among our members",
+      "theological_legacy": "Lingua ignis est, universitas iniquitatis (the tongue is a fire, a universe of iniquity) — James's extended meditation on the tongue's destructive power (3:1-12) shaped the Western moral theology of speech. The sins of the tongue (detractio, calumnia, murmuratio — detraction, slander, grumbling) became a major category in Western confession manuals and moral theology treatises.",
+      "notes": ["Jerome's universitas iniquitatis (universe/totality of iniquity) is even stronger than the Greek kosmos tēs adikias (world of unrighteousness). The tongue is not merely a source of evil but contains the entire universe of wickedness. This intensification shaped the Western moral tradition's concern with sins of speech: the tongue can set the whole course of life on fire. Monastic rules (especially Benedict's) make extensive provision for controlling speech, including the practice of holy silence (sacrum silentium)."]
+    }
+  ]
+}

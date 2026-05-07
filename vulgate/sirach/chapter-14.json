@@ -1,0 +1,214 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Sirach",
+    "chapter": 14,
+    "tradition": "vulgate",
+    "tradition_label": "Latin Vulgate (Deuterocanonical)",
+    "source_text": "Biblia Sacra Vulgata (Stuttgart critical edition)",
+    "translator": "Jerome",
+    "date": "c. 405 CE",
+    "canon": ["catholic", "orthodox", "ethiopian"],
+    "generated_at": "2026-04-20T00:00:00Z",
+    "prompt_version": "2.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "The chapter opens with beatitudes for the person whose mouth has not betrayed him and whose conscience does not condemn him. It then warns against miserliness: the miser harms himself, hoarding wealth he will never enjoy. Ben Sira counsels enjoying God's good gifts before death, since in Sheol there is no pleasure. The chapter concludes with a beautiful passage on the pursuit of wisdom: blessed is the one who camps near her house and pitches his tent beside her walls.",
+    "remarkable": "The carpe diem passage (vv. 11-19) is the most Epicurean-sounding text in the deuterocanonical literature. Ben Sira, who elsewhere warns against luxury, here urges enjoyment of God's gifts. This tension reflects the wisdom tradition's refusal to be systematized: neither asceticism nor indulgence, but appropriate enjoyment within divine boundaries. The closing wisdom-pursuit passage (vv. 20-27) is among the most lyrical in the book.",
+    "friction": "The view of death as final (vv. 16-17) -- with no hope of resurrection or afterlife pleasure -- represents a pre-resurrection theology. Sheol is simply the place of ending. This stands in tension with Daniel 12:2 and 2 Maccabees 7, which were developing resurrection theology in the same period.",
+    "connections": "Ecclesiastes 9:7-10 (eat, drink, and enjoy, for there is no work in Sheol); Psalm 1:1-3 (blessed is the one who meditates on Torah); Proverbs 8:34-35 (blessed is the one who watches at wisdom's gates); Isaiah 40:6-8 (all flesh is grass); Luke 12:19-20 (eat, drink, be merry -- but this night your soul is required)."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_latin": "Beatus vir qui non est lapsus verbo ex ore suo et non est stimulatus in tristitia delicti.",
+      "rendering": "Blessed is the man who has not slipped with a word from his mouth, and is not stung by the grief of sin.",
+      "translator_notes": ["A beatitude for moral integrity in speech and conscience. The word 'stimulatus' (stung) suggests the ongoing pain of a guilty conscience."],
+      "key_terms": [{"latin": "beatus", "rendered_as": "blessed", "note": "The classic biblical macarism; beatus declares a state of flourishing under God's favor."}]
+    },
+    {
+      "verse": 2,
+      "text_latin": "Felix qui non habuit animi sui tristitiam et non excidit a spe sua.",
+      "rendering": "Happy is the one whose spirit has no cause for sorrow, and who has not fallen from his hope.",
+      "translator_notes": ["Felix complements beatus: the person free of self-reproach and still sustained by hope."],
+      "key_terms": []
+    },
+    {
+      "verse": 3,
+      "text_latin": "Viro cupido et tenaci sine ratione est substantia et homini livido ad quid aurum.",
+      "rendering": "For a greedy and grasping man, wealth has no purpose; and for an envious person, what good is gold?",
+      "translator_notes": ["Wealth without generosity is meaningless; the miser possesses but cannot enjoy."],
+      "key_terms": [{"latin": "cupido et tenaci", "rendered_as": "greedy and grasping", "note": "A double characterization: cupidus (desiring) and tenax (clutching); the miser both craves and clings."}]
+    },
+    {
+      "verse": 4,
+      "text_latin": "Qui acervat ex animo suo iniuste aliis congregat et in bonis illius alius luxuriabitur.",
+      "rendering": "Whoever hoards unjustly from his own soul gathers for others, and another will revel in his goods.",
+      "translator_notes": ["The miser's irony: he deprives himself and enriches his heirs."],
+      "key_terms": []
+    },
+    {
+      "verse": 5,
+      "text_latin": "Qui sibi nequam est cui alii bonus erit et non iucundabitur in bonis suis.",
+      "rendering": "Whoever is evil to himself, to whom will he be good? He will take no pleasure in his own possessions.",
+      "translator_notes": ["A penetrating question: self-deprivation through miserliness is a form of self-harm."],
+      "key_terms": []
+    },
+    {
+      "verse": 6,
+      "text_latin": "Qui sibi invidet nihil est illo nequius et haec redditio est malitiae illius.",
+      "rendering": "There is no one more wretched than the one who begrudges himself, and this is the repayment for his wickedness.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 7,
+      "text_latin": "Et si bene fecerit ignoranter et non volens facit et in novissimo manifestat malitiam suam.",
+      "rendering": "And if he does good, he does it unknowingly and unwillingly, and in the end he reveals his true malice.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 8,
+      "text_latin": "Nequam est oculus lividi et avertens faciem suam et despiciens animam suam.",
+      "rendering": "Evil is the eye of the envious; he turns away his face and despises his own soul.",
+      "translator_notes": ["The 'evil eye' (oculus nequam) in the Semitic tradition represents stinginess and envy -- the refusal to look generously on others."],
+      "key_terms": [{"latin": "oculus lividi", "rendered_as": "the eye of the envious", "note": "The evil eye tradition: an envious gaze that wishes harm or withholds good."}]
+    },
+    {
+      "verse": 9,
+      "text_latin": "Insatiabilis oculus cupidi in parte iniquitatis non satiabitur donec consumat arefaciens animam suam.",
+      "rendering": "The eye of the greedy is not satisfied with his share of iniquity; he will not be sated until he has shriveled his own soul.",
+      "translator_notes": ["Greed is self-consuming: the soul withers (arefaciens) even as the possessions accumulate."],
+      "key_terms": []
+    },
+    {
+      "verse": 10,
+      "text_latin": "Oculus malus ad mala et non satiabitur pane sed indigens et in tristitia erit super mensam suam.",
+      "rendering": "An evil eye begrudges even bread; he is needy and sorrowful at his own table.",
+      "translator_notes": ["The miser sits at a table laden with food but experiences deprivation -- a psychological poverty amid material abundance."],
+      "key_terms": []
+    },
+    {
+      "verse": 11,
+      "text_latin": "Fili si habes benefac tecum et Deo dignas oblationes offer.",
+      "rendering": "My son, if you have means, treat yourself well, and offer worthy oblations to God.",
+      "translator_notes": ["The pivot to enjoyment: generosity toward self and toward God are both commanded. Neither miserliness nor impiety is acceptable."],
+      "key_terms": []
+    },
+    {
+      "verse": 12,
+      "text_latin": "Memor esto quoniam mors non tardat et testamentum inferorum quod demonstratum est tibi testamentum enim huius mundi morte morietur.",
+      "rendering": "Remember that death does not delay, and the decree of the grave has been shown to you; for the covenant of this world is death -- it will surely die.",
+      "translator_notes": ["The memento mori intensifies: death is not a distant possibility but an approaching certainty. The 'covenant of this world' is mortality itself."],
+      "key_terms": [{"latin": "testamentum inferorum", "rendered_as": "the decree of the grave", "note": "Testamentum here means an established ordinance or decree; death is the fixed decree governing all flesh."}]
+    },
+    {
+      "verse": 13,
+      "text_latin": "Ante mortem benefac amico tuo et secundum vires tuas exporrigens da pauperi.",
+      "rendering": "Before death, do good to your friend, and according to your ability reach out and give to the poor.",
+      "translator_notes": ["The urgency of generosity: once dead, you can neither give nor receive."],
+      "key_terms": []
+    },
+    {
+      "verse": 14,
+      "text_latin": "Non defrauderis a die bono et particula boni doni non te praetereat.",
+      "rendering": "Do not let a good day pass you by, and do not let your share of a good gift escape you.",
+      "translator_notes": ["Carpe diem theology: enjoy what God gives while you can."],
+      "key_terms": []
+    },
+    {
+      "verse": 15,
+      "text_latin": "Nonne aliis relinques dolores et labores tuos et in divisione sortis.",
+      "rendering": "Will you not leave your griefs and labors to others, and your toil to be divided by lot?",
+      "translator_notes": ["Everything accumulated will pass to heirs who may squander or divide it; the hoarder's labor benefits others, not himself."],
+      "key_terms": []
+    },
+    {
+      "verse": 16,
+      "text_latin": "Da et accipe et iustifica animam tuam.",
+      "rendering": "Give and receive, and treat your soul justly.",
+      "translator_notes": ["A concise summary of balanced living: generosity, enjoyment, and self-care."],
+      "key_terms": []
+    },
+    {
+      "verse": 17,
+      "text_latin": "Ante obitum tuum operare iustitiam quoniam non est apud inferos invenire cibum.",
+      "rendering": "Before your death, work righteousness, for in the realm of the dead there is no finding of food.",
+      "translator_notes": ["Sheol offers nothing; all opportunity for righteous action ends at death."],
+      "key_terms": [{"latin": "inferos", "rendered_as": "the realm of the dead", "note": "Inferi/Sheol is the shadowy underworld where the dead exist without activity or pleasure."}]
+    },
+    {
+      "verse": 18,
+      "text_latin": "Omnis caro sicut faenum veterascet et sicut folium fructificans in arbore viridi.",
+      "rendering": "All flesh ages like grass, and like a leaf that grows green on a flourishing tree.",
+      "translator_notes": ["The grass metaphor for mortality is shared with Isaiah 40:6-8 and Psalm 103:15-16."],
+      "key_terms": []
+    },
+    {
+      "verse": 19,
+      "text_latin": "Alia generantur et alia deiciuntur sic generatio carnis et sanguinis alia finitur et alia nascitur.",
+      "rendering": "Some leaves sprout and others fall; so it is with generations of flesh and blood -- one comes to an end, and another is born.",
+      "translator_notes": ["The cycle of generations mirrors the cycle of leaves: perpetual replacement, individual impermanence."],
+      "key_terms": []
+    },
+    {
+      "verse": 20,
+      "text_latin": "Omne opus corruptibile in fine deficiet et qui illud operatur ibit cum illo.",
+      "rendering": "Every corruptible work will fail in the end, and the one who made it will go with it.",
+      "translator_notes": ["Human works share human mortality; only what transcends corruption endures."],
+      "key_terms": []
+    },
+    {
+      "verse": 21,
+      "text_latin": "Et omne opus electum iustificabitur et qui operatur illud honorabitur in illo.",
+      "rendering": "But every excellent work will be vindicated, and the one who does it will be honored through it.",
+      "translator_notes": ["The contrast with verse 20: while corruptible works perish, excellent works endure and bring lasting honor."],
+      "key_terms": []
+    },
+    {
+      "verse": 22,
+      "text_latin": "Beatus vir qui in sapientia morabitur et qui in iustitia sua meditabitur et in sensu cogitabit circumspectionem Dei.",
+      "rendering": "Blessed is the man who dwells in wisdom, and who meditates on her righteousness, and in his mind considers the watchful providence of God.",
+      "translator_notes": ["The second beatitude of the chapter opens the closing wisdom-pursuit section. Dwelling in wisdom means making it one's permanent habitation."],
+      "key_terms": []
+    },
+    {
+      "verse": 23,
+      "text_latin": "Qui excogitat vias illius in corde suo et in absconditis suis intellegens vadens post illam quasi investigator et in viis illius consistens.",
+      "rendering": "The one who ponders her ways in his heart, and has understanding in her hidden things, who goes after her like a tracker, and stations himself on her paths.",
+      "translator_notes": ["The pursuit of wisdom as a hunt: tracking, following, stationing oneself. The investigator (investigator) is literally one who follows footprints."],
+      "key_terms": [{"latin": "investigator", "rendered_as": "a tracker", "note": "From investigare, to follow tracks; wisdom is quarry to be pursued with the skill and patience of a hunter."}]
+    },
+    {
+      "verse": 24,
+      "text_latin": "Qui respicit per fenestras illius et in ianuis illius audiens.",
+      "rendering": "The one who peers through her windows, and listens at her doors.",
+      "translator_notes": ["The wisdom-seeker becomes a devoted suitor, looking through windows and listening at doors -- images of longing and attentiveness."],
+      "key_terms": []
+    },
+    {
+      "verse": 25,
+      "text_latin": "Qui requiescit iuxta domum illius et in parietibus illius figens palum statuet casulam suam ad manus illius et requiescent in casula illius bona per aevum.",
+      "rendering": "The one who rests near her house, and drives a stake in her walls, and pitches his tent at her side -- good things will rest in his tent forever.",
+      "translator_notes": ["The culminating image: the wisdom-seeker camps permanently beside wisdom's house, driving stakes into her very walls. The intimacy is extraordinary -- not occasional visits but permanent encampment."],
+      "key_terms": [{"latin": "casulam", "rendered_as": "tent", "note": "Casula is a small dwelling or tent; the seeker builds his life in wisdom's shadow."}]
+    },
+    {
+      "verse": 26,
+      "text_latin": "Statuet filios suos sub tegmine illius et sub ramis eius morabitur.",
+      "rendering": "He will place his children under her shelter, and will dwell beneath her branches.",
+      "translator_notes": ["Wisdom as a tree providing shade: the seeker's entire family benefits from his choice to camp near her."],
+      "key_terms": []
+    },
+    {
+      "verse": 27,
+      "text_latin": "Protegetur sub tegmine illius a fervore et in gloria eius requiescet.",
+      "rendering": "He will be sheltered under her covering from the heat, and will rest in her glory.",
+      "translator_notes": ["The chapter ends in rest and glory -- the reward of the one who pursued wisdom with the passion of a hunter and the devotion of a lover."],
+      "key_terms": []
+    }
+  ]
+}

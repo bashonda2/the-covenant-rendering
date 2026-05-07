@@ -1,0 +1,277 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Sirach",
+    "chapter": 4,
+    "tradition": "vulgate",
+    "tradition_label": "Latin Vulgate (Deuterocanonical)",
+    "source_text": "Biblia Sacra Vulgata (Stuttgart critical edition)",
+    "translator": "Jerome",
+    "date": "c. 405 CE",
+    "canon": ["catholic", "orthodox", "ethiopian"],
+    "generated_at": "2026-04-20T00:00:00Z",
+    "prompt_version": "2.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "The chapter opens with passionate commands to care for the poor, the orphan, and the oppressed -- their cry reaches God. Wisdom then speaks as a mother who nurtures, tests, and disciplines her children. Those who embrace her inherit glory; those who abandon her are abandoned. The chapter concludes with exhortations on justice, speech, courage, and generosity.",
+    "remarkable": "Wisdom personified as a maternal figure (vv. 11-19) is one of Sirach's most developed portraits. She tests her followers with hardship before revealing her secrets -- a pedagogy of suffering that influenced monastic formation. The social justice material (vv. 1-10) is among the most forceful in the wisdom tradition, going beyond Proverbs in its directness about economic oppression.",
+    "friction": "The promise that wisdom will reveal her secrets to the faithful (v. 18) introduces an almost esoteric dimension that sits uneasily alongside the chapter's insistence on practical charity. The relationship between wisdom's testing and God's testing (ch. 2) is not explicitly resolved.",
+    "connections": "Proverbs 1:20-33 (wisdom crying in the streets); Proverbs 8 (wisdom as divine companion); Isaiah 1:17 (defend the orphan); James 1:27 (pure religion: care for orphans and widows); Matthew 25:35-40 (whatever you did for the least of these)."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_latin": "Fili eleemosynam pauperis ne defraudes et oculos tuos ne transvertas a paupere.",
+      "rendering": "My son, do not defraud the poor of alms, and do not turn your eyes away from the destitute.",
+      "translator_notes": ["The command is double: do not withhold what is owed, and do not avert your gaze. Both active injustice and passive indifference are condemned."],
+      "key_terms": [{"latin": "eleemosynam", "rendered_as": "alms", "note": "Here eleemosyna refers specifically to charitable provisions owed to the poor as a matter of justice, not mere generosity."}]
+    },
+    {
+      "verse": 2,
+      "text_latin": "Animam esurientem ne despexeris et non exasperes pauperem in inopia sua.",
+      "rendering": "Do not despise a hungry soul, and do not provoke a poor man in his need.",
+      "translator_notes": [],
+      "key_terms": [{"latin": "animam esurientem", "rendered_as": "a hungry soul", "note": "Anima here means the living person in their bodily need; hunger is both physical and existential."}]
+    },
+    {
+      "verse": 3,
+      "text_latin": "Cor inopis ne adflixeris et non protrahas datum angustianti.",
+      "rendering": "Do not afflict the heart of the helpless, and do not delay giving to one in distress.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 4,
+      "text_latin": "Rogationem contribulati ne abicias et non avertas faciem tuam ab egeno.",
+      "rendering": "Do not reject the petition of the afflicted, and do not turn your face from the needy.",
+      "translator_notes": ["Turning the face away is a gesture of contempt and refusal; it mirrors what the psalmist fears God might do (Psalm 27:9)."],
+      "key_terms": []
+    },
+    {
+      "verse": 5,
+      "text_latin": "Ab inope ne avertas oculos tuos propter iram et non relinquas quaerentibus tibi retro maledicere.",
+      "rendering": "Do not turn your eyes from the poor in anger, and do not give those who ask of you reason to curse you behind your back.",
+      "translator_notes": ["The practical warning: refusing the poor breeds resentment, and their curse carries weight before God."],
+      "key_terms": []
+    },
+    {
+      "verse": 6,
+      "text_latin": "Maledicentis enim tibi in amaritudine animae suae exaudietur deprecatio illius exaudiet autem eum qui fecit illum.",
+      "rendering": "For the prayer of the one who curses you in the bitterness of his soul will be heard; the one who made him will hear him.",
+      "translator_notes": ["A sobering theological claim: God hears the bitter cry of the oppressed against their oppressor. This echoes Exodus 22:22-24."],
+      "key_terms": []
+    },
+    {
+      "verse": 7,
+      "text_latin": "Congregationi pauperum affabilem te facito et presbytero humilia animam tuam et magnato humilia caput tuum.",
+      "rendering": "Make yourself approachable to the assembly of the poor, and humble your soul before the elder, and bow your head before the great.",
+      "translator_notes": [],
+      "key_terms": [{"latin": "affabilem", "rendered_as": "approachable", "note": "Affabilis means easy to speak to; the poor should not find you intimidating or dismissive."}]
+    },
+    {
+      "verse": 8,
+      "text_latin": "Declina pauperi sine tristitia aurem tuam et redde debitum tuum et responde illi pacifica in mansuetudine.",
+      "rendering": "Incline your ear to the poor without reluctance, and repay what you owe, and answer him peacefully with gentleness.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 9,
+      "text_latin": "Libera eum qui iniuriam patitur de manu superbi et non acide feras in anima tua.",
+      "rendering": "Deliver the one who suffers injustice from the hand of the proud, and do not be faint-hearted in your soul.",
+      "translator_notes": ["Justice requires not merely charity but active intervention on behalf of the oppressed."],
+      "key_terms": []
+    },
+    {
+      "verse": 10,
+      "text_latin": "In iudicando esto pupillis misericors ut pater et pro viro matri illorum.",
+      "rendering": "In giving judgment, be merciful to orphans as a father, and be as a husband to their mother.",
+      "translator_notes": ["The judge is called to adopt a parental and spousal role toward the vulnerable -- an extraordinary expansion of judicial duty."],
+      "key_terms": [{"latin": "pupillis", "rendered_as": "orphans", "note": "Pupillus is a legal term for a fatherless minor; in Roman and Israelite law, orphans required special protection."}]
+    },
+    {
+      "verse": 11,
+      "text_latin": "Et eris tu velut filius Altissimi obaudiens et miserebitur tui magis quam mater.",
+      "rendering": "And you will be like an obedient son of the Most High, and he will have more compassion on you than a mother.",
+      "translator_notes": ["God's compassion exceeds even maternal love -- one of the most tender theological statements in the book."],
+      "key_terms": [{"latin": "filius Altissimi", "rendered_as": "son of the Most High", "note": "A title of honor for the righteous; later applied uniquely to Jesus in Luke 1:32."}]
+    },
+    {
+      "verse": 12,
+      "text_latin": "Sapientia filiis suis vitam inspirat et suscipit inquirentes se et praeibit in via iustitiae.",
+      "rendering": "Wisdom breathes life into her children, and takes up those who seek her, and will go before them in the way of justice.",
+      "translator_notes": ["Wisdom is now personified as a mother. The verb 'inspirat' (breathes into) echoes Genesis 2:7, where God breathes life into Adam."],
+      "key_terms": [{"latin": "inspirat", "rendered_as": "breathes life into", "note": "A creation verb applied to wisdom's maternal action; she vivifies her children as God vivified the first human."}]
+    },
+    {
+      "verse": 13,
+      "text_latin": "Et qui illam diligit diligit vitam et qui vigilaverint ad illam complectentur placorem eius.",
+      "rendering": "And whoever loves her loves life, and those who watch for her will embrace her delight.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 14,
+      "text_latin": "Qui tenuerint illam vitam hereditabunt et quo introibit benedicet Deus.",
+      "rendering": "Those who hold fast to her will inherit life, and wherever she enters, God will bless.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 15,
+      "text_latin": "Qui serviunt ei obsequentes erunt sancto et eos qui diligunt illam diligit Deus.",
+      "rendering": "Those who serve her will minister to the Holy One, and God loves those who love her.",
+      "translator_notes": ["Service to wisdom is identified with service to God himself -- a remarkable equation."],
+      "key_terms": []
+    },
+    {
+      "verse": 16,
+      "text_latin": "Qui audit illam iudicat gentes et qui intuetur illam securus permanebit.",
+      "rendering": "Whoever listens to her will judge nations, and whoever gazes upon her will remain secure.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 17,
+      "text_latin": "Si crediderit ei hereditabit illam et erunt in confirmatione creaturae illius.",
+      "rendering": "If one trusts in her, he will possess her as an inheritance, and his descendants will remain established.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 18,
+      "text_latin": "Quoniam in temptatione ambulat cum eo et in primis eligit eum.",
+      "rendering": "For at first she walks with him through testing, and chooses him from the beginning.",
+      "translator_notes": ["Wisdom's testing of her devotees parallels God's testing in chapter 2. The trial is not punitive but formative."],
+      "key_terms": [{"latin": "temptatione", "rendered_as": "testing", "note": "As in 2:1, temptatio means a proving trial, not moral temptation."}]
+    },
+    {
+      "verse": 19,
+      "text_latin": "Timorem et metum et probationem inducet super illum et cruciabit illum in tribulatione doctrinae suae donec temptet illum in cogitationibus suis et credat animae illius.",
+      "rendering": "She will bring upon him fear and dread and trial, and will torment him with the tribulation of her discipline, until she has tested him in his thoughts and can trust his soul.",
+      "translator_notes": ["Wisdom's pedagogy is severe: fear, dread, torment, and testing precede trust. This became a foundational text for the monastic understanding of spiritual formation through suffering."],
+      "key_terms": [{"latin": "cruciabit", "rendered_as": "will torment", "note": "From cruciare, to torture or crucify; an intensely physical verb for an intellectual and spiritual process."}]
+    },
+    {
+      "verse": 20,
+      "text_latin": "Et firmabit illum et iter adducet directum ad illum et laetificabit illum.",
+      "rendering": "And she will strengthen him, and will lead him on a straight path, and will bring him joy.",
+      "translator_notes": ["After the severe testing of verse 19, wisdom now reverses course: strengthening, guiding, and gladdening her proven disciple."],
+      "key_terms": []
+    },
+    {
+      "verse": 21,
+      "text_latin": "Et denudabit absconsa sua illi et thesaurizabit super illum scientiam et intellectum iustitiae.",
+      "rendering": "And she will reveal her secrets to him, and will store up for him knowledge and the understanding of righteousness.",
+      "translator_notes": ["The revelation of secrets is the reward for enduring testing; wisdom's inner truths are reserved for the proved."],
+      "key_terms": [{"latin": "absconsa", "rendered_as": "secrets", "note": "Literally 'hidden things'; the esoteric dimension of wisdom, accessible only through discipline and faithfulness."}]
+    },
+    {
+      "verse": 22,
+      "text_latin": "Si autem oberraverit derelinquet eum et tradet illum in manus inimici sui.",
+      "rendering": "But if he goes astray, she will abandon him and hand him over to the power of his enemy.",
+      "translator_notes": ["Wisdom's abandonment is the counterpart of her embrace; faithfulness is not a one-time event but an ongoing requirement."],
+      "key_terms": []
+    },
+    {
+      "verse": 23,
+      "text_latin": "Fili conserva tempus et devita a malo.",
+      "rendering": "My son, watch for the right time, and avoid evil.",
+      "translator_notes": ["'Conserva tempus' means discern the opportune moment -- the ancient virtue of kairos-awareness."],
+      "key_terms": [{"latin": "tempus", "rendered_as": "the right time", "note": "Tempus here carries the sense of kairos (the opportune moment) rather than chronos (mere passage of time)."}]
+    },
+    {
+      "verse": 24,
+      "text_latin": "Pro anima tua ne confundaris dicere verum.",
+      "rendering": "For the sake of your soul, do not be ashamed to speak the truth.",
+      "translator_notes": ["Moral courage in speech is a recurring theme in Sirach; silence in the face of injustice is itself a form of shame."],
+      "key_terms": []
+    },
+    {
+      "verse": 25,
+      "text_latin": "Est enim confusio adducens peccatum et est confusio adducens gloriam et gratiam.",
+      "rendering": "For there is a shame that leads to sin, and there is a shame that leads to glory and favor.",
+      "translator_notes": ["Ben Sira distinguishes two kinds of shame: false shame (which causes moral cowardice) and proper shame (which restrains vice and leads to honor)."],
+      "key_terms": [{"latin": "confusio", "rendered_as": "shame", "note": "Confusio is morally neutral here; its value depends on its object and outcome."}]
+    },
+    {
+      "verse": 26,
+      "text_latin": "Ne accipias faciem adversus faciem tuam nec adversus animam tuam mendacium.",
+      "rendering": "Do not show partiality against your own integrity, nor lie against your own soul.",
+      "translator_notes": [],
+      "key_terms": [{"latin": "accipias faciem", "rendered_as": "show partiality", "note": "A Hebraism (nasa panim) meaning to lift the face, i.e., to show favoritism; here turned inward -- do not betray yourself."}]
+    },
+    {
+      "verse": 27,
+      "text_latin": "Non reverearis proximum tuum in casu suo.",
+      "rendering": "Do not stand in awe of your neighbor to your own downfall.",
+      "translator_notes": ["Warning against the cowardice that defers to human opinion at the expense of moral integrity."],
+      "key_terms": []
+    },
+    {
+      "verse": 28,
+      "text_latin": "Non retineas verbum in tempore salutis non abscondas sapientiam tuam in decore suo.",
+      "rendering": "Do not withhold a word in the time of deliverance; do not hide your wisdom for the sake of appearances.",
+      "translator_notes": ["When truth can save, silence is culpable."],
+      "key_terms": []
+    },
+    {
+      "verse": 29,
+      "text_latin": "In lingua enim sapientia dinoscitur et sensus et scientia et doctrina in verbo sensati et firmamentum in operibus iustitiae.",
+      "rendering": "For wisdom is recognized by speech, and understanding and knowledge and instruction by the words of the discerning, and steadfastness in works of righteousness.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 30,
+      "text_latin": "Non contradicas verbo veritatis ullo modo et de mendacio ineruditionis tuae confundere.",
+      "rendering": "Do not contradict a word of truth in any way, but be ashamed of the lie that comes from your own ignorance.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 31,
+      "text_latin": "Non confundaris confiteri peccata tua et ne subicias te omni homini pro peccato.",
+      "rendering": "Do not be ashamed to confess your sins, and do not submit yourself to anyone because of sin.",
+      "translator_notes": ["Confession is an act of courage, not weakness; but submission to every person's judgment is unnecessary."],
+      "key_terms": []
+    },
+    {
+      "verse": 32,
+      "text_latin": "Noli resistere contra faciem potentis nec coneris contra ictum fluminis.",
+      "rendering": "Do not resist the face of the powerful, and do not struggle against the current of a river.",
+      "translator_notes": ["A proverb of practical wisdom: know when to resist and when to yield. The river image concretizes the futility of opposing overwhelming force."],
+      "key_terms": []
+    },
+    {
+      "verse": 33,
+      "text_latin": "Pro iustitia agonizare pro anima tua et usque ad mortem certa pro iustitia et Deus expugnabit pro te inimicos tuos.",
+      "rendering": "Strive for justice for your soul, and contend for justice even unto death, and God will fight your enemies for you.",
+      "translator_notes": ["The chapter's climax: the call to fight for justice 'unto death' is one of the most radical ethical demands in the wisdom literature. God's military intervention on behalf of the just is the guaranteed reward."],
+      "key_terms": [{"latin": "agonizare", "rendered_as": "strive", "note": "From the Greek agonizesthai, to compete in the arena; moral life as athletic contest."}]
+    },
+    {
+      "verse": 34,
+      "text_latin": "Noli citatus esse in lingua tua et inutilis et remissus in operibus tuis.",
+      "rendering": "Do not be hasty with your tongue, nor useless and slack in your deeds.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 35,
+      "text_latin": "Noli esse sicut leo in domo tua evertens domesticos tuos et opprimens subiectos tibi.",
+      "rendering": "Do not be like a lion in your own house, overturning your household and oppressing those under you.",
+      "translator_notes": ["Domestic tyranny is condemned with vivid animal imagery; the lion who terrorizes his own den."],
+      "key_terms": []
+    },
+    {
+      "verse": 36,
+      "text_latin": "Non sit porrecta manus tua ad accipiendum et ad dandum collecta.",
+      "rendering": "Let not your hand be stretched out to receive and closed when it is time to give.",
+      "translator_notes": ["A memorable image of the miser: hand open to take, clenched to give. The chapter ends as it began, with the ethics of generosity."],
+      "key_terms": []
+    }
+  ]
+}

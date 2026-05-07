@@ -1,0 +1,214 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Wisdom of Solomon",
+    "chapter": 12,
+    "tradition": "vulgate",
+    "tradition_label": "Latin Vulgate (Deuterocanonical)",
+    "source_text": "Biblia Sacra Vulgata (Stuttgart critical edition)",
+    "translator": "Jerome",
+    "date": "c. 405 CE",
+    "canon": ["catholic", "orthodox", "ethiopian"],
+    "generated_at": "2026-04-20T00:00:00Z",
+    "prompt_version": "2.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "God's incorruptible spirit is in all things, and he corrects offenders gradually, giving them space to repent. The Canaanites, though their practices were abhorrent, were punished step by step because God's mercy extends even to them. God's sovereign power is the source of his justice, and he teaches his people that the righteous must be kind. Through gradual judgment, God gives every sinner the opportunity to turn back.",
+    "remarkable": "The chapter offers one of the most sophisticated theodicies in biblical literature, explaining why God did not destroy the Canaanites immediately. The answer is not divine weakness but divine pedagogy: God judges gradually to allow repentance. The claim that 'your incorruptible spirit is in all things' (v. 1) extends the theology of divine presence to all creation, including the wicked.",
+    "friction": "The passage walks a difficult line between affirming God's patience with the Canaanites and justifying their eventual dispossession. The author maintains that they deserved punishment (for child sacrifice, cannibalistic rites, etc.) while insisting that God still gave them time to repent. The tension between universal mercy and particular judgment is held rather than resolved.",
+    "connections": "Genesis 15:16 (the iniquity of the Amorites is not yet complete); Deuteronomy 7:1-5 (destruction of the Canaanites); Ezekiel 18:23 (God takes no pleasure in the death of the wicked); Romans 2:4 (God's kindness leads to repentance); 2 Peter 3:9 (not wishing any to perish)."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_latin": "O quam bonus et suavis est Domine spiritus tuus in omnibus!",
+      "rendering": "How good and gentle, O Lord, is your spirit in all things!",
+      "translator_notes": ["The exclamation connects directly to 11:27 ('lover of souls'). God's spirit permeates all creation with goodness and gentleness. This is one of the strongest statements of divine immanence in the wisdom literature."],
+      "key_terms": [{"latin": "spiritus tuus in omnibus", "rendered_as": "your spirit in all things", "note": "God's spirit is present in every created thing; a claim of radical divine immanence that does not collapse into pantheism because the spirit is 'yours' (God's possession, not identical with creation)."}]
+    },
+    {
+      "verse": 2,
+      "text_latin": "Ideoque eos qui exerrant partibus corripis et de quibus peccant admones et adloqueris ut relicta malitia credant in te Domine.",
+      "rendering": "Therefore you correct those who stray, little by little, and you admonish and warn them about the things in which they sin, so that being freed from wickedness they may trust in you, O Lord.",
+      "translator_notes": ["Divine correction is gradual (partibus, 'bit by bit'). The purpose is not destruction but conversion. God's speech to sinners (adloqueris) implies a personal, communicative relationship even with offenders."],
+      "key_terms": [{"latin": "partibus corripis", "rendered_as": "correct little by little", "note": "Graduated correction; God does not crush offenders at the first offense but escalates discipline incrementally."}]
+    },
+    {
+      "verse": 3,
+      "text_latin": "Illos enim antiquos inhabitatores terrae sanctae tuae quos exhorruisti.",
+      "rendering": "For those ancient inhabitants of your holy land, whom you abhorred.",
+      "translator_notes": ["The Canaanites are identified as the original occupants of the promised land. 'Your holy land' (terrae sanctae tuae) -- the land belongs to God, not to any human nation."],
+      "key_terms": [{"latin": "terrae sanctae tuae", "rendered_as": "your holy land", "note": "The land is holy because it is God's; the Canaanites are tenants who violated the terms of their occupancy."}]
+    },
+    {
+      "verse": 4,
+      "text_latin": "Quoniam odibilia opera tibi faciebant per medicamina et sacrificia iniusta.",
+      "rendering": "Because they practiced detestable works -- sorceries and unholy rites.",
+      "translator_notes": [],
+      "key_terms": [{"latin": "medicamina", "rendered_as": "sorceries", "note": "Medicamina can mean drugs, potions, or magical remedies; here it refers to occult practices."}, {"latin": "sacrificia iniusta", "rendered_as": "unholy rites", "note": "The specific nature of these rites is spelled out in the following verses."}]
+    },
+    {
+      "verse": 5,
+      "text_latin": "Et filiorum suorum necatores sine misericordia et comestores viscerum hominum et devoratores sanguinis.",
+      "rendering": "Merciless killers of their own children, devourers of human entrails, and feasters on blood.",
+      "translator_notes": ["The catalogue of Canaanite abominations reaches its climax with child sacrifice and ritual cannibalism. These accusations, while polemical, reflect genuine practices attested in ancient Near Eastern texts."],
+      "key_terms": [{"latin": "filiorum suorum necatores", "rendered_as": "killers of their own children", "note": "Child sacrifice, attributed to various Canaanite cults; cf. Leviticus 18:21, Deuteronomy 12:31."}]
+    },
+    {
+      "verse": 6,
+      "text_latin": "A medio sacramento tuo initiatores parentes animarum inauxiliatarum perdere voluisti per manus parentum nostrorum.",
+      "rendering": "From the midst of their idolatrous feasts, you willed to destroy these initiates, these parents who slew helpless souls, through the hands of our ancestors.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 7,
+      "text_latin": "Ut dignam perciperent peregrinationem puerorum Dei quae tibi omnium carior est terra.",
+      "rendering": "So that the land most dear to you of all might receive a worthy colony of the children of God.",
+      "translator_notes": ["Israel is figured as God's colony (peregrinatio, originally 'settlement of strangers') in the promised land. The land's worth comes from its divine owner, not from its natural resources."],
+      "key_terms": [{"latin": "puerorum Dei", "rendered_as": "the children of God", "note": "Israel as God's children, inheriting their father's land."}]
+    },
+    {
+      "verse": 8,
+      "text_latin": "Sed et his tamquam hominibus pepercisti et misisti antecessores exercitus tui vespas ut illos paulatim exterminarent.",
+      "rendering": "But even these you spared as human beings, and sent wasps as the advance guard of your army, to destroy them little by little.",
+      "translator_notes": ["The wasps (vespas) refer to Exodus 23:28 and Deuteronomy 7:20. God sent a pest, not an army -- a deliberately restrained instrument. Even the Canaanites received graduated judgment because they were 'human beings' (hominibus)."],
+      "key_terms": [{"latin": "tamquam hominibus", "rendered_as": "as human beings", "note": "Even enemies retain their dignity as human beings created by God; their humanity tempers the severity of judgment."}, {"latin": "paulatim", "rendered_as": "little by little", "note": "The gradual pace of judgment is a sign of mercy, not incompetence."}]
+    },
+    {
+      "verse": 9,
+      "text_latin": "Non quia impotens eras in bello subicere impios iustis aut bestiis saevis aut verbo duro simul exterminare.",
+      "rendering": "Not that you were unable to overwhelm the ungodly in battle, or to destroy them at once with savage beasts or a stern command.",
+      "translator_notes": ["God's restraint is again affirmed as choice, not inability. He could have ended the Canaanites instantly but chose the slower path of graduated judgment."],
+      "key_terms": []
+    },
+    {
+      "verse": 10,
+      "text_latin": "Sed partibus iudicans dabas locum paenitentiae non ignorans quoniam nequam est natio eorum et naturalis malitia ipsorum et quoniam non poterat mutari cogitatio illorum in perpetuum.",
+      "rendering": "But judging them by degrees you gave them room for repentance, though you were not unaware that their nature was evil and their wickedness inborn, and that their way of thinking would never change.",
+      "translator_notes": ["A deeply paradoxical verse: God gives the Canaanites space to repent while knowing they will not repent. The mercy is real even though the outcome is foreseen. The claim that their wickedness was 'inborn' (naturalis) is the chapter's most severe statement and must be read against the larger context of God's universal love (11:24-27)."],
+      "key_terms": [{"latin": "dabas locum paenitentiae", "rendered_as": "gave them room for repentance", "note": "The divine pedagogy provides opportunity even when the outcome is foreknown; God's patience is not naive."}, {"latin": "naturalis malitia", "rendered_as": "their wickedness inborn", "note": "A strong claim about the depth of Canaanite corruption; 'natural' here means deeply rooted, not genetically determined."}]
+    },
+    {
+      "verse": 11,
+      "text_latin": "Semen enim erat maledictum ab initio; nec timens aliquem veniam dabas peccatis illorum.",
+      "rendering": "For their race was cursed from the beginning; nor was it out of fear of anyone that you granted pardon for their sins.",
+      "translator_notes": ["The 'cursed race' likely alludes to the curse of Ham/Canaan in Genesis 9:25. God's pardon is not motivated by fear (he is sovereign) but by mercy."],
+      "key_terms": []
+    },
+    {
+      "verse": 12,
+      "text_latin": "Quis enim dicet: Quid fecisti? Aut quis stabit contra iudicium tuum? Aut quis in conspectu tuo veniet vindex iniquorum hominum? Aut quis tibi imputabit si perierint nationes quas tu fecisti?",
+      "rendering": "For who will say, 'What have you done?' Or who will resist your judgment? Who will accuse you for the destruction of nations that you made? Or who will come before you to plead as an advocate for the unrighteous?",
+      "translator_notes": ["A series of rhetorical questions establishing God's absolute sovereignty. No one can hold God accountable. Yet the very sovereignty that makes God unaccountable is what makes his restraint so remarkable: he is merciful because he chooses to be, not because anyone compels him."],
+      "key_terms": []
+    },
+    {
+      "verse": 13,
+      "text_latin": "Non enim est alius Deus quam tu cui cura est de omnibus ut ostendas quoniam non iniuste iudicas iudicium.",
+      "rendering": "For there is no God besides you, who cares for all people, to whom you would need to prove that you have not judged unjustly.",
+      "translator_notes": ["Monotheism and universal providence combined: there is one God, and he cares for everyone. His justice needs no external validation."],
+      "key_terms": [{"latin": "cui cura est de omnibus", "rendered_as": "who cares for all people", "note": "Repeated from 6:7; God's care is universal, extending to every human being without exception."}]
+    },
+    {
+      "verse": 14,
+      "text_latin": "Nec rex nec tyrannus in conspectu tuo inquirent de his quos perdidisti.",
+      "rendering": "Neither king nor tyrant will be able to confront you about those you have punished.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 15,
+      "text_latin": "Cum ergo sis iustus iuste omnia disponis; eum quoque qui non debet puniri condemnare exterum aestimas a tua virtute.",
+      "rendering": "Being righteous yourself, you govern all things righteously, and you consider it incompatible with your power to condemn anyone who does not deserve punishment.",
+      "translator_notes": ["God's power and justice are inseparable. Power without justice would be tyranny; justice without power would be impotence. God has both, and exercises both in harmony."],
+      "key_terms": [{"latin": "iustus iuste omnia disponis", "rendered_as": "being righteous yourself, you govern all things righteously", "note": "The correspondence between God's character and God's governance; his administration reflects his nature."}]
+    },
+    {
+      "verse": 16,
+      "text_latin": "Virtus enim tua iustitiae initium est et hoc quod omnium dominus es omnibus te parcere facit.",
+      "rendering": "For your strength is the source of justice, and your sovereignty over all makes you lenient to all.",
+      "translator_notes": ["A stunning inversion of expectations: sovereignty produces leniency, not harshness. The more power God has, the more merciful he is. This stands in sharp contrast to human experience, where power typically produces arrogance."],
+      "key_terms": [{"latin": "omnium dominus...omnibus parcere", "rendered_as": "sovereignty over all makes you lenient to all", "note": "The logic: because God owns everything, he can afford to be patient with everything. Power enables mercy."}]
+    },
+    {
+      "verse": 17,
+      "text_latin": "Virtutem enim ostendis tu qui non crederis esse in virtute consummatus, et horum qui te nesciunt audaciam traducis.",
+      "rendering": "For you show your strength when people doubt your sovereign power, and you rebuke any insolence among those who know it.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 18,
+      "text_latin": "Tu autem dominator virtutis cum tranquillitate iudicas et cum magna reverentia disponis nos, subest enim tibi cum volueris posse.",
+      "rendering": "But you, sovereign in strength, judge with mildness, and with great forbearance you govern us; for the power to act is always at your command.",
+      "translator_notes": ["God judges 'with mildness' (cum tranquillitate) and governs 'with great forbearance' (cum magna reverentia). The picture of divine government is serene, not anxious or heavy-handed."],
+      "key_terms": [{"latin": "cum tranquillitate iudicas", "rendered_as": "judge with mildness", "note": "Tranquillitas is calm, peacefulness; God's judgments are delivered without agitation or excess."}, {"latin": "subest tibi cum volueris posse", "rendered_as": "the power to act is always at your command", "note": "God's power is permanently available; he need never rush to act from fear of losing the opportunity."}]
+    },
+    {
+      "verse": 19,
+      "text_latin": "Docuisti autem populum tuum per talia opera quoniam oportet iustum esse et humanum et bonae spei fecisti filios tuos quoniam iudicans das locum in peccatis paenitentiae.",
+      "rendering": "Through such works you have taught your people that the righteous must be kind, and you have given your children good hope that you grant repentance for sins.",
+      "translator_notes": ["The moral lesson for Israel: God's treatment of the Canaanites teaches Israel how to exercise power. If God is merciful to the worst offenders, Israel must be kind. Divine pedagogy shapes national character."],
+      "key_terms": [{"latin": "iustum esse et humanum", "rendered_as": "the righteous must be kind", "note": "The conjunction of justice and kindness (humanitas) is the moral takeaway: justice without kindness is not true justice."}, {"latin": "bonae spei", "rendered_as": "good hope", "note": "The knowledge that God grants repentance grounds hope; if God gives second chances, no failure is final."}]
+    },
+    {
+      "verse": 20,
+      "text_latin": "Si enim inimicos servorum tuorum et debitos morti cum tanta cruciasti attentione dans tempus et locum per quae possent mutari a malitia.",
+      "rendering": "For if you punished with such careful attention the enemies of your servants, who deserved death, granting them time and opportunity to turn from their wickedness.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 21,
+      "text_latin": "Cum quanta diligentia iudicasti filios tuos quorum parentibus iuramenta et conventiones dedisti bonarum promissionum!",
+      "rendering": "With what great care, then, have you judged your own children, to whose ancestors you gave sworn covenants full of good promises!",
+      "translator_notes": ["The a fortiori argument: if God treats enemies with patience, how much more carefully does he treat his covenant people? The covenants with the patriarchs guarantee God's commitment."],
+      "key_terms": [{"latin": "iuramenta et conventiones", "rendered_as": "sworn covenants", "note": "The patriarchal covenants (with Abraham, Isaac, Jacob); the basis of Israel's special relationship with God."}]
+    },
+    {
+      "verse": 22,
+      "text_latin": "Cum ergo das nobis disciplinam inimicos nostros multipliciter flagellas ut bonitatem tuam cogitemus iudicantes et cum de nobis iudicatur speremus misericordiam tuam.",
+      "rendering": "So while you discipline us, you scourge our enemies ten thousandfold, so that when we judge, we may reflect on your goodness, and when we ourselves are judged, we may look for mercy.",
+      "translator_notes": ["The proportional principle applied: Israel's discipline is light compared to the punishment of the nations. This is not favoritism but pedagogy: Israel is to learn from both experiences."],
+      "key_terms": []
+    },
+    {
+      "verse": 23,
+      "text_latin": "Unde et illis qui in vita sua insensate et iniuste vixerunt per haec quae coluerunt dedisti summa tormenta.",
+      "rendering": "Therefore those who lived foolishly and wickedly during their lifetime, you tormented through the very things they worshipped.",
+      "translator_notes": ["The measure-for-measure principle returns: the idols that were worshipped become the instruments of punishment. The form of judgment matches the form of sin."],
+      "key_terms": []
+    },
+    {
+      "verse": 24,
+      "text_latin": "Etenim in erroris via diutius erraverunt deos aestimantes haec quae in animalibus sunt supervacua tamquam infantium insensatorum more viventes.",
+      "rendering": "For they wandered far on the paths of error, taking as gods the most worthless of animals, deceived like foolish infants.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 25,
+      "text_latin": "Propter hoc tamquam pueris insensatis iudicium in derisum dedisti.",
+      "rendering": "Therefore, as to senseless children, you sent your judgment to make fun of them.",
+      "translator_notes": ["God's initial judgment is playful, not lethal -- appropriate to children who don't know better. The 'mockery' is the plague of small animals (frogs, gnats), a humiliating rather than destructive punishment."],
+      "key_terms": []
+    },
+    {
+      "verse": 26,
+      "text_latin": "Qui autem ludibriis correptionum non sunt emendati dignum Dei iudicium experti sunt.",
+      "rendering": "But those who were not corrected by such mockery of discipline experienced a judgment worthy of God.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 27,
+      "text_latin": "In quibus enim patientes indignabantur per haec quos putabant deos in ipsis cum exterminarentur videntes quem olim negabant se nosse verum Deum agnoverunt; propter quod et finis condemnationis eorum venit super illos.",
+      "rendering": "For in the things at which they suffered and were indignant -- being punished through the very creatures they considered gods -- when they saw these destroyed, they recognized as the true God the one they had long refused to know; and therefore the final condemnation came upon them.",
+      "translator_notes": ["The chapter closes with the Egyptians' belated recognition of the true God. Their idol-animals, destroyed in the plagues, could not save them. The recognition came too late to save but not too late to convict: they knew the truth and still refused it."],
+      "key_terms": [{"latin": "verum Deum agnoverunt", "rendered_as": "they recognized as the true God", "note": "Even the Egyptians eventually acknowledged the God of Israel; their condemnation is deepened by this reluctant recognition."}]
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Sirach",
+    "chapter": 2,
+    "tradition": "vulgate",
+    "tradition_label": "Latin Vulgate (Deuterocanonical)",
+    "source_text": "Biblia Sacra Vulgata (Stuttgart critical edition)",
+    "translator": "Jerome",
+    "date": "c. 405 CE",
+    "canon": ["catholic", "orthodox", "ethiopian"],
+    "generated_at": "2026-04-20T00:00:00Z",
+    "prompt_version": "2.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Ben Sira addresses those who would serve God with a stark warning: prepare for testing. Trials are to be expected, not resented. The faithful must cling to God through suffering, trusting that divine mercy is certain. A series of 'woe' pronouncements targets the faint-hearted and double-minded. The chapter closes with a declaration of God's compassion and forgiveness.",
+    "remarkable": "Verse 1 ('If you come to serve the Lord, prepare your soul for testing') became one of the most quoted sentences in monastic and ascetical literature. The chapter's theology of testing anticipates James 1:2-4 almost verbatim. The closing affirmation that God's mercy exceeds his wrath shaped Catholic theology of divine attributes for centuries.",
+    "friction": "The promise that 'no one who trusted in the Lord was put to shame' (v. 10) creates tension with the book of Job and with Israel's own exile experience. Ben Sira addresses this partially by distinguishing temporal testing from ultimate abandonment, but the tension is not fully resolved.",
+    "connections": "James 1:2-4 (testing produces patience); Deuteronomy 8:2-5 (God tests Israel in the wilderness); Job 1-2 (the righteous sufferer); Psalm 37 (trust in the Lord and do good); Hebrews 12:5-11 (divine discipline)."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_latin": "Fili accedens ad servitutem Dei sta in iustitia et timore et praepara animam tuam ad temptationem.",
+      "rendering": "My son, if you come to serve God, stand firm in justice and in fear, and prepare your soul for testing.",
+      "translator_notes": ["One of the most famous verses in the deuterocanonical literature. 'Temptatio' here means trial or testing, not moral temptation in the later sense."],
+      "key_terms": [{"latin": "temptationem", "rendered_as": "testing", "note": "From temptare, to test or prove; the context is divine proving of character, not enticement to sin."}]
+    },
+    {
+      "verse": 2,
+      "text_latin": "Deprime cor tuum et sustine inclina aurem tuam et suscipe verba intellectus.",
+      "rendering": "Humble your heart and endure; incline your ear and receive words of understanding.",
+      "translator_notes": ["The paired commands (humble/endure, incline/receive) establish the twofold posture of patience and teachability."],
+      "key_terms": [{"latin": "deprime cor tuum", "rendered_as": "humble your heart", "note": "Literally 'press down your heart'; connotes active self-lowering rather than passive dejection."}]
+    },
+    {
+      "verse": 3,
+      "text_latin": "Et ne festinaveris in tempore obductionis.",
+      "rendering": "And do not be hasty in time of adversity.",
+      "translator_notes": ["Obductio here means the covering over or obscuring that accompanies hardship -- when God's purposes are hidden."],
+      "key_terms": [{"latin": "obductionis", "rendered_as": "adversity", "note": "Literally a 'covering over'; the metaphor suggests trials as a cloud that temporarily obscures God's face."}]
+    },
+    {
+      "verse": 4,
+      "text_latin": "Sustine sustentationes Dei coniungere Deo et sustine ut crescat in novissimo vita tua.",
+      "rendering": "Endure the sustaining discipline of God; cleave to God and endure, so that your life may grow in the end.",
+      "translator_notes": ["The repetition of 'sustine' (endure) three times in verses 2-4 creates a drumbeat of insistence on patience."],
+      "key_terms": [{"latin": "sustentationes Dei", "rendered_as": "the sustaining discipline of God", "note": "Sustentatio means both support and testing; God's discipline simultaneously upholds and proves."}]
+    },
+    {
+      "verse": 5,
+      "text_latin": "Omne quod tibi adplicitum fuerit accipe et in dolore sustine et in humilitate tua patientiam habe.",
+      "rendering": "Accept whatever is brought upon you, and endure in sorrow, and in your humiliation exercise patience.",
+      "translator_notes": ["The instruction to accept suffering without resistance anticipates the Stoic-influenced patience ethic that pervades early Christianity."],
+      "key_terms": [{"latin": "patientiam", "rendered_as": "patience", "note": "Patientia in the Latin tradition is an active virtue of endurance, not mere passive waiting."}]
+    },
+    {
+      "verse": 6,
+      "text_latin": "Quoniam in igne probatur aurum et argentum homines vero receptibiles in camino humiliationis.",
+      "rendering": "For gold and silver are tested in fire, but people found acceptable are tested in the furnace of humiliation.",
+      "translator_notes": ["The metallurgical metaphor -- testing precious metals by fire -- is common in wisdom and prophetic literature (cf. Proverbs 17:3, Malachi 3:3)."],
+      "key_terms": [{"latin": "camino humiliationis", "rendered_as": "the furnace of humiliation", "note": "The furnace (caminus) evokes both the refiner's fire and the fiery furnace of Daniel 3."}]
+    },
+    {
+      "verse": 7,
+      "text_latin": "Crede Deo et recuperabit te et dirige viam tuam et spera in illum serva timorem illius et in illo veterasce.",
+      "rendering": "Trust in God, and he will restore you; make your way straight and hope in him. Keep his fear and grow old in it.",
+      "translator_notes": ["'Veterasce' (grow old) is a striking command: persist in the fear of the Lord not briefly but for an entire lifetime."],
+      "key_terms": [{"latin": "crede Deo", "rendered_as": "trust in God", "note": "Credere here is fiducial trust (reliance) rather than mere intellectual assent."}]
+    },
+    {
+      "verse": 8,
+      "text_latin": "Metuentes Dominum sustinete misericordiam eius et non deflectatis ab illo ne cadatis.",
+      "rendering": "You who fear the Lord, wait for his mercy, and do not turn aside from him lest you fall.",
+      "translator_notes": [],
+      "key_terms": [{"latin": "misericordiam", "rendered_as": "mercy", "note": "The great Latin word for compassionate love; throughout Sirach it renders Greek eleos and Hebrew chesed."}]
+    },
+    {
+      "verse": 9,
+      "text_latin": "Qui timetis Dominum credite illi et non evacuabitur merces vestra.",
+      "rendering": "You who fear the Lord, trust in him, and your reward will not be lost.",
+      "translator_notes": [],
+      "key_terms": [{"latin": "merces", "rendered_as": "reward", "note": "Merces can mean wages or reward; the promise is that faithful endurance will not go uncompensated."}]
+    },
+    {
+      "verse": 10,
+      "text_latin": "Qui timetis Dominum sperate in illum et in oblectatione veniet vobis misericordia.",
+      "rendering": "You who fear the Lord, hope in him, and mercy will come to you for your delight.",
+      "translator_notes": ["Verses 8-10 form a triad: wait for mercy, trust in him, hope in him -- a threefold address to the God-fearers."],
+      "key_terms": []
+    },
+    {
+      "verse": 11,
+      "text_latin": "Qui timetis Dominum diligite illum et inluminabuntur corda vestra.",
+      "rendering": "You who fear the Lord, love him, and your hearts will be illuminated.",
+      "translator_notes": ["The progression from fear to trust to hope to love mirrors the theological trajectory that culminates in 1 John 4:18 ('perfect love casts out fear')."],
+      "key_terms": [{"latin": "inluminabuntur", "rendered_as": "will be illuminated", "note": "Heart-illumination is both intellectual (understanding) and spiritual (divine favor)."}]
+    },
+    {
+      "verse": 12,
+      "text_latin": "Respicite filii nationes hominum et scitote quia nullus speravit in Domino et confusus est.",
+      "rendering": "Look upon the generations of the past, my sons, and know this: no one who hoped in the Lord was ever put to shame.",
+      "translator_notes": ["An appeal to historical evidence: the entire record of Israel's generations testifies that God does not abandon those who trust him."],
+      "key_terms": [{"latin": "confusus est", "rendered_as": "was put to shame", "note": "Confusio in biblical Latin means public disgrace or disappointed hope, not mere embarrassment."}]
+    },
+    {
+      "verse": 13,
+      "text_latin": "Quis enim permansit in mandatis eius et derelictus est aut quis invocavit eum et despexit illum.",
+      "rendering": "For who remained steadfast in his commandments and was abandoned? Or who called upon him and was overlooked?",
+      "translator_notes": ["The rhetorical questions expect the answer 'no one,' building confidence in God's faithfulness."],
+      "key_terms": []
+    },
+    {
+      "verse": 14,
+      "text_latin": "Quoniam pius et misericors est Deus et remittit in die tribulationis peccata et protector est omnibus exquirentibus se in veritate.",
+      "rendering": "For God is compassionate and merciful; he forgives sins in the day of tribulation, and he is a protector of all who seek him in truth.",
+      "translator_notes": ["The divine attributes (pius, misericors) echo the self-revelation formula of Exodus 34:6 ('merciful and gracious')."],
+      "key_terms": [{"latin": "pius et misericors", "rendered_as": "compassionate and merciful", "note": "Pius adds the dimension of loyal devotion to misericors (tender mercy); together they render the Hebrew chesed-rachamim pair."}]
+    },
+    {
+      "verse": 15,
+      "text_latin": "Vae duplici corde et labiis scelestis et manibus malefacientibus et peccatori terram ingredienti duabus viis.",
+      "rendering": "Woe to the double heart, and to wicked lips, and to hands that do evil, and to the sinner who walks the earth on two paths.",
+      "translator_notes": ["The 'woe' series begins. The 'two paths' image connects to the Two Ways tradition found in Deuteronomy 30:15-20 and the Didache."],
+      "key_terms": [{"latin": "duplici corde", "rendered_as": "the double heart", "note": "Repeats the warning of 1:37; inner division is the root vice that produces all the others listed here."}]
+    },
+    {
+      "verse": 16,
+      "text_latin": "Vae dissolutis corde qui non credunt Deo ideo non protegentur ab eo.",
+      "rendering": "Woe to the faint of heart, who do not trust God; therefore they will not be protected by him.",
+      "translator_notes": [],
+      "key_terms": [{"latin": "dissolutis corde", "rendered_as": "the faint of heart", "note": "Literally 'those of loosened heart'; the image is of a heart that has lost its cohesion and firmness."}]
+    },
+    {
+      "verse": 17,
+      "text_latin": "Vae his qui perdiderunt sustinentiam et qui dereliquerunt vias rectas et diverterunt in vias pravas.",
+      "rendering": "Woe to those who have lost their endurance, and who have abandoned the straight paths and turned aside to crooked ways.",
+      "translator_notes": [],
+      "key_terms": [{"latin": "vias pravas", "rendered_as": "crooked ways", "note": "The moral geography of straight vs. crooked paths pervades wisdom literature; cf. Proverbs 2:15."}]
+    },
+    {
+      "verse": 18,
+      "text_latin": "Et quid facient cum inspicere coeperit Dominus.",
+      "rendering": "And what will they do when the Lord begins to examine them?",
+      "translator_notes": ["A terse, devastating rhetorical question: those who abandoned endurance have no defense when divine scrutiny comes."],
+      "key_terms": [{"latin": "inspicere", "rendered_as": "to examine", "note": "Inspicere carries overtones of close inspection and judgment; God looks into, not merely at."}]
+    },
+    {
+      "verse": 19,
+      "text_latin": "Qui timent Dominum non erunt incredibiles verbo illius et qui diligunt illum conservabunt viam illius.",
+      "rendering": "Those who fear the Lord will not disbelieve his word, and those who love him will keep his way.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 20,
+      "text_latin": "Qui timent Dominum inquirunt quae beneplacita sunt illi et qui diligunt eum replebuntur lege ipsius.",
+      "rendering": "Those who fear the Lord seek what is pleasing to him, and those who love him will be filled with his law.",
+      "translator_notes": ["Being 'filled with the law' means internalizing Torah so thoroughly that it becomes second nature -- anticipating Jeremiah 31:33."],
+      "key_terms": [{"latin": "lege", "rendered_as": "his law", "note": "Lex here encompasses Torah in its fullest sense: instruction, guidance, and covenantal obligation."}]
+    },
+    {
+      "verse": 21,
+      "text_latin": "Qui timent Dominum praeparabunt corda sua et in conspectu illius sanctificabunt animas suas.",
+      "rendering": "Those who fear the Lord will prepare their hearts, and in his presence will sanctify their souls.",
+      "translator_notes": [],
+      "key_terms": [{"latin": "sanctificabunt", "rendered_as": "will sanctify", "note": "Sanctificare means to set apart as holy; the initiative is human but the power is divine."}]
+    },
+    {
+      "verse": 22,
+      "text_latin": "Qui timent Dominum custodiunt mandata illius et patientiam habebunt usque ad inspectionem illius.",
+      "rendering": "Those who fear the Lord keep his commandments, and will have patience until his visitation.",
+      "translator_notes": ["'Inspectionem' (visitation) can be either judgment or deliverance; the faithful await whichever form God's coming takes."],
+      "key_terms": [{"latin": "inspectionem", "rendered_as": "visitation", "note": "A double-edged term: God's visitation brings salvation to the faithful and judgment to the wicked."}]
+    },
+    {
+      "verse": 23,
+      "text_latin": "Dicentes si paenitentiam non egerimus incidemus in manus Domini et non in manus hominum.",
+      "rendering": "Saying: 'If we do not repent, we will fall into the hands of the Lord, and not into the hands of men.'",
+      "translator_notes": ["This echoes David's choice in 2 Samuel 24:14: 'Let us fall into the hand of the Lord, for his mercy is great.' The preference for divine over human judgment reflects trust in God's ultimate compassion."],
+      "key_terms": [{"latin": "paenitentiam", "rendered_as": "repent", "note": "Paenitentia in the Vulgate means a change of heart and return to God, encompassing both sorrow and amendment of life."}]
+    },
+    {
+      "verse": 24,
+      "text_latin": "Secundum enim magnitudinem ipsius sic et misericordia illius cum ipso est.",
+      "rendering": "For as great as he is, so also is his mercy; it is with him.",
+      "translator_notes": ["The chapter's closing affirmation: God's mercy is proportional to his greatness. This became a cornerstone text in Catholic theology of divine mercy."],
+      "key_terms": [{"latin": "magnitudinem", "rendered_as": "as great as he is", "note": "Magnitudo encompasses not just size but majesty, power, and transcendence; God's mercy matches all of it."}]
+    }
+  ]
+}

@@ -1,0 +1,302 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Tobit",
+    "chapter": 3,
+    "tradition": "vulgate",
+    "tradition_label": "Latin Vulgate (Deuterocanonical)",
+    "source_text": "Biblia Sacra Vulgata (Stuttgart critical edition)",
+    "translator": "Jerome",
+    "date": "c. 405 CE",
+    "canon": ["catholic", "orthodox", "ethiopian"],
+    "generated_at": "2026-04-20T00:00:00Z",
+    "prompt_version": "2.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Two prayers rise to God simultaneously: Tobit, blind and mocked, prays for death in Nineveh; Sarah, tormented by the demon Asmodeus who has killed her seven husbands on their wedding nights, prays for death in Ecbatana. God hears both prayers at the same moment and sends the angel Raphael to heal them both.",
+    "remarkable": "This is one of the most sophisticated narrative structures in the deuterocanonical literature — a cinematic cross-cut between two sufferers who do not know each other, whose prayers converge before God. The chapter introduces Asmodeus (one of the few named demons in Scripture) and Raphael (whose name means 'God heals'). The simultaneous hearing of both prayers is the theological climax: God's providence operates across geography and circumstance.",
+    "friction": "Jerome's Vulgate version of Sarah's story is compressed compared to the Greek. The demon Asmodeus ('Asmodaeus' in Jerome) poses translation challenges — his nature and motivations are not fully explained. Sarah's contemplation of suicide and her decision against it require sensitive rendering.",
+    "connections": "Tobit's prayer echoes Job 3 and Jonah 4:3. Sarah's situation anticipates the Sadducees' question about the woman with seven husbands (Matt 22:23-28). Raphael's mission prefigures Christ as healer. The simultaneous prayers recall the incense altar imagery of Revelation 8:3-4."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_latin": "Tunc Tobias ingemuit et coepit orare cum lacrimis",
+      "rendering": "Then Tobit groaned and began to pray with tears,",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 2,
+      "text_latin": "dicens: Iustus es, Domine, et omnia iudicia tua iusta sunt, et omnes viae tuae misericordia et veritas et iudicium.",
+      "rendering": "saying: 'You are righteous, O Lord, and all your judgments are just, and all your ways are mercy and truth and justice.",
+      "translator_notes": ["Tobit begins not with complaint but with doxology — affirming God's justice even in the midst of suffering. This is the opposite of the accusing tone his neighbors and wife have taken."],
+      "key_terms": [
+        {
+          "latin": "misericordia et veritas",
+          "rendered_as": "mercy and truth",
+          "note": "This pairing (Hebrew: chesed ve'emet) is a covenant formula — God's faithful love and reliability — found throughout the Psalms (Ps 25:10, 85:10)."
+        }
+      ]
+    },
+    {
+      "verse": 3,
+      "text_latin": "Et nunc, Domine, memor esto mei et ne vindictam sumas de peccatis meis, neque reminiscaris delicta mea vel parentum meorum.",
+      "rendering": "And now, Lord, remember me and do not take vengeance for my sins, nor call to mind my offenses or those of my parents.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 4,
+      "text_latin": "Quoniam non oboedivimus praeceptis tuis, ideo traditi sumus in direptionem et captivitatem et mortem et in fabulam et in inproperium omnibus nationibus in quibus dispersisti nos.",
+      "rendering": "Because we did not obey your commands, we have been handed over to plunder and captivity and death, and have become a byword and a reproach among all the nations where you have scattered us.",
+      "translator_notes": ["Tobit interprets exile theologically — it is consequence, not accident. He accepts national guilt while still hoping for personal mercy."],
+      "key_terms": [
+        {
+          "latin": "in fabulam et in inproperium",
+          "rendered_as": "a byword and a reproach",
+          "note": "Echoes the curses of Deuteronomy 28:37 — Israel becoming a horror and a proverb among the nations is a sign of covenant judgment."
+        }
+      ]
+    },
+    {
+      "verse": 5,
+      "text_latin": "Et nunc, Domine, magna iudicia tua, quia non egimus secundum praecepta tua et non ambulavimus sinceriter coram te.",
+      "rendering": "And now, Lord, great are your judgments, because we have not acted according to your commands and have not walked sincerely before you.",
+      "translator_notes": [],
+      "key_terms": [
+        {
+          "latin": "sinceriter",
+          "rendered_as": "sincerely",
+          "note": "Jerome's 'sinceriter' implies unmixed, undivided devotion — wholehearted loyalty rather than mere outward compliance."
+        }
+      ]
+    },
+    {
+      "verse": 6,
+      "text_latin": "Et nunc, Domine, secundum voluntatem tuam fac mecum et praecipe in pace recipi spiritum meum; expedit enim mihi mori magis quam vivere.",
+      "rendering": "And now, Lord, deal with me according to your will, and command that my spirit be received in peace; for it is better for me to die than to live.'",
+      "translator_notes": ["'Expedit enim mihi mori magis quam vivere' — this death wish echoes Elijah (1 Kings 19:4) and Jonah (Jonah 4:3). Tobit does not contemplate suicide but surrenders the timing to God."],
+      "key_terms": [
+        {
+          "latin": "in pace recipi spiritum meum",
+          "rendered_as": "my spirit be received in peace",
+          "note": "A remarkably gentle image of death — not extinction but reception. The spirit is received by God, implying conscious afterlife."
+        }
+      ]
+    },
+    {
+      "verse": 7,
+      "text_latin": "Eadem itaque die contigit ut Sarra filia Raguelis in Rages civitate Medorum et ipsa audiret inproperium ab una ex ancillis patris sui,",
+      "rendering": "On that same day it happened that Sarah, the daughter of Raguel in Rages, a city of the Medes, also heard a reproach from one of her father's maidservants,",
+      "translator_notes": ["'Eadem itaque die' — on that same day. The narrative synchronization is deliberate and theologically significant: God is orchestrating events across hundreds of miles."],
+      "key_terms": []
+    },
+    {
+      "verse": 8,
+      "text_latin": "quoniam tradita fuerat septem viris et daemonium nomine Asmodaeus occiderat eos mox ut ingressi fuissent ad eam.",
+      "rendering": "because she had been given to seven husbands, and a demon named Asmodeus had killed them as soon as they went in to her.",
+      "translator_notes": [],
+      "key_terms": [
+        {
+          "latin": "daemonium nomine Asmodaeus",
+          "rendered_as": "a demon named Asmodeus",
+          "note": "One of the very few named demons in Scripture. The name likely derives from the Avestan 'aeshma daeva' (demon of wrath). In later Jewish and Christian demonology, Asmodeus becomes a major figure — the demon of lust or marital destruction."
+        }
+      ]
+    },
+    {
+      "verse": 9,
+      "text_latin": "Ergo cum pro hac causa corriperet puellam, respondit ei dicens: Amplius ex te non videamus filium aut filiam super terram, interfectrix virorum tuorum.",
+      "rendering": "So when she rebuked the girl for something, the maid answered her: 'May we never see a son or daughter from you on the earth, you killer of your husbands!",
+      "translator_notes": ["The maidservant's cruelty is specific — she attacks Sarah's childlessness and blames her for the deaths. In the ancient world, both barrenness and widowhood carried social stigma; Sarah bears both sevenfold."],
+      "key_terms": [
+        {
+          "latin": "interfectrix virorum",
+          "rendered_as": "killer of your husbands",
+          "note": "A vicious accusation — the maid implies Sarah herself is responsible for the deaths, not the demon."
+        }
+      ]
+    },
+    {
+      "verse": 10,
+      "text_latin": "Numquid et nos vis occidere, sicut iam septem viros occidisti? Ad hanc vocem perrexit in superius cubiculum domus suae,",
+      "rendering": "Do you want to kill us too, the way you already killed seven husbands?' At these words she went up to an upper room of her house,",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 11,
+      "text_latin": "et tribus diebus et tribus noctibus non manducavit neque bibit,",
+      "rendering": "and for three days and three nights she neither ate nor drank,",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 12,
+      "text_latin": "sed in oratione persistens cum lacrimis deprecabatur Deum ut ab isto inproperio liberaret eam.",
+      "rendering": "but persisting in prayer with tears, she begged God to free her from this reproach.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 13,
+      "text_latin": "Factum est autem die tertia dum conpleret orationem, benedicens Dominum",
+      "rendering": "On the third day, as she was completing her prayer and blessing the Lord,",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 14,
+      "text_latin": "dixit: Benedictum est nomen tuum, Deus patrum nostrorum, qui cum iratus fueris, misericordiam facies et in tempore tribulationis peccata dimittis his qui invocant te.",
+      "rendering": "she said: 'Blessed is your name, God of our fathers, who when you have been angered show mercy, and in the time of tribulation forgive the sins of those who call upon you.",
+      "translator_notes": ["Like Tobit, Sarah begins her prayer with praise rather than complaint — both sufferers affirm God's character before presenting their need."],
+      "key_terms": [
+        {
+          "latin": "misericordiam facies",
+          "rendered_as": "show mercy",
+          "note": "Mercy follows anger — this is the pattern of the covenant God throughout the prophets (Hosea 11:8-9, Micah 7:18)."
+        }
+      ]
+    },
+    {
+      "verse": 15,
+      "text_latin": "Ad te, Domine, faciem meam converto, ad te oculos meos dirigo.",
+      "rendering": "To you, Lord, I turn my face; to you I direct my eyes.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 16,
+      "text_latin": "Peto, Domine, ut de vinculo inproperii huius absolvas me aut certe desuper terram eripias me.",
+      "rendering": "I ask, Lord, that you release me from the bond of this reproach, or else take me from the earth.",
+      "translator_notes": ["Sarah's prayer mirrors Tobit's — both ask either for deliverance or for death. Neither demands; both submit to God's choice."],
+      "key_terms": [
+        {
+          "latin": "vinculo inproperii",
+          "rendered_as": "bond of this reproach",
+          "note": "Shame is experienced as bondage — Sarah is imprisoned by social stigma as surely as by the demon."
+        }
+      ]
+    },
+    {
+      "verse": 17,
+      "text_latin": "Tu scis, Domine, quia numquam concupivi virum et mundam servavi animam meam ab omni concupiscentia.",
+      "rendering": "You know, Lord, that I have never desired a man, and I have kept my soul clean from all lust.",
+      "translator_notes": ["Sarah's protestation of purity is important for the narrative — she has married out of duty, not desire. Her innocence is moral as well as legal."],
+      "key_terms": [
+        {
+          "latin": "concupiscentia",
+          "rendered_as": "lust",
+          "note": "Jerome uses the term that will become central to Augustine's theology of sin — here it simply means disordered sexual desire, from which Sarah declares herself free."
+        }
+      ]
+    },
+    {
+      "verse": 18,
+      "text_latin": "Numquam cum ludentibus miscui me neque cum his qui in levitate ambulant participem me praebui.",
+      "rendering": "I never mingled with those who play, nor did I keep company with those who walk in frivolity.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 19,
+      "text_latin": "Virum autem cum timore tuo, non cum libidine mea, consensi suscipere.",
+      "rendering": "I consented to take a husband out of reverence for you, not out of my own desire.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 20,
+      "text_latin": "Et aut ego indigna fui illis aut illi forsitan me non erant digni, quia forsitan viro alio conservasti me.",
+      "rendering": "And either I was unworthy of them, or perhaps they were not worthy of me, because perhaps you have kept me for another man.",
+      "translator_notes": ["This is a remarkable moment of theological intuition — Sarah senses that her suffering may have a purpose she cannot see. She is, in fact, being preserved for Tobias."],
+      "key_terms": []
+    },
+    {
+      "verse": 21,
+      "text_latin": "Non est enim in hominis potestate consilium tuum.",
+      "rendering": "For your plan is not within human power to understand.",
+      "translator_notes": [],
+      "key_terms": [
+        {
+          "latin": "consilium tuum",
+          "rendered_as": "your plan",
+          "note": "The 'consilium Dei' — the divine plan or counsel — is a concept that bridges Old Testament wisdom and New Testament soteriology (Eph 1:11)."
+        }
+      ]
+    },
+    {
+      "verse": 22,
+      "text_latin": "Hoc autem pro certo habet omnis qui te colit, quod vita eius si in probatione fuerit, coronabitur; si autem in tribulatione fuerit, liberabitur; et si in correptione fuerit, ad misericordiam tuam venire licebit.",
+      "rendering": "But everyone who worships you holds this for certain: that if their life is tested, they will be crowned; if they are in tribulation, they will be delivered; and if they are under correction, they will be permitted to come to your mercy.",
+      "translator_notes": ["This verse is theologically dense — it outlines three scenarios (testing, tribulation, correction) with three corresponding outcomes (crowning, deliverance, mercy). The 'crowning' language anticipates 2 Timothy 4:8 and James 1:12."],
+      "key_terms": [
+        {
+          "latin": "coronabitur",
+          "rendered_as": "crowned",
+          "note": "The crown as reward for endured testing — this image became central to Christian martyrology and is echoed in Revelation 2:10."
+        }
+      ]
+    },
+    {
+      "verse": 23,
+      "text_latin": "Non enim delectaris in perditionibus nostris, quia post tempestatem tranquillum facis et post lacrimationem et fletum exultationem infundis.",
+      "rendering": "For you do not delight in our destruction, because after the storm you bring calm, and after weeping and tears you pour out rejoicing.",
+      "translator_notes": [],
+      "key_terms": [
+        {
+          "latin": "post tempestatem tranquillum",
+          "rendered_as": "after the storm... calm",
+          "note": "This pattern — storm then calm, tears then joy — summarizes the entire book of Tobit in one phrase."
+        }
+      ]
+    },
+    {
+      "verse": 24,
+      "text_latin": "Sit nomen tuum, Deus Israhel, benedictum in saecula.",
+      "rendering": "May your name, O God of Israel, be blessed forever.'",
+      "translator_notes": [],
+      "key_terms": [
+        {
+          "latin": "in saecula",
+          "rendered_as": "forever",
+          "note": "Literally 'into the ages' — an eternity formula common in Jewish and Christian doxology."
+        }
+      ]
+    },
+    {
+      "verse": 25,
+      "text_latin": "In illo tempore exauditae sunt preces amborum in conspectu gloriae summi Dei,",
+      "rendering": "At that time the prayers of both were heard before the glory of the Most High God,",
+      "translator_notes": ["'In illo tempore' — at that very time. The narrator pulls back to a divine perspective: two prayers, hundreds of miles apart, arrive simultaneously before God's throne."],
+      "key_terms": [
+        {
+          "latin": "in conspectu gloriae summi Dei",
+          "rendered_as": "before the glory of the Most High God",
+          "note": "The prayers ascend to the heavenly court — a scene that echoes the angelic liturgy and the incense imagery of the temple."
+        }
+      ]
+    },
+    {
+      "verse": 26,
+      "text_latin": "et missus est angelus Domini sanctus Raphael, ut curaret eos ambos, quorum uno tempore sunt orationes in conspectu Domini recitatae.",
+      "rendering": "and the holy angel of the Lord, Raphael, was sent to heal them both, whose prayers had been recited before the Lord at the same time.",
+      "translator_notes": ["Raphael's name (Hebrew: rapha + El = 'God heals') perfectly matches his mission. He is sent not to one but to both — the narrative's two threads will converge through him."],
+      "key_terms": [
+        {
+          "latin": "Raphael",
+          "rendered_as": "Raphael",
+          "note": "One of the seven archangels (Tob 12:15). His name means 'God heals' — he is the instrument of divine healing for both Tobit's blindness and Sarah's demonic affliction."
+        },
+        {
+          "latin": "curaret",
+          "rendered_as": "heal",
+          "note": "The verb 'curare' encompasses both physical healing (Tobit's eyes) and spiritual liberation (Sarah from Asmodeus) — one angel, one mission, two cures."
+        }
+      ]
+    }
+  ]
+}

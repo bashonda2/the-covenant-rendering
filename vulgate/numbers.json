@@ -1,0 +1,149 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Numbers",
+    "tradition": "vulgate",
+    "tradition_label": "Latin Vulgate",
+    "source_text": "Biblia Sacra Vulgata (Stuttgart critical edition)",
+    "base_text": "Westminster Leningrad Codex (WLC)",
+    "translator": "Jerome (Eusebius Sophronius Hieronymus)",
+    "date": "382-405 CE",
+    "generated_at": "2026-04-20T00:00:00Z",
+    "prompt_version": "2.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Jerome's Numbers translation shaped Western liturgical blessing (the Aaronic benediction), Messianic prophecy (the star of Jacob), and the vocabulary of consecration, vows, and holy warfare. Though less doctrinally dense than Exodus or Leviticus, its key passages left permanent marks on Christian worship and Christology.",
+    "notable_renderings": "The Aaronic blessing formula (benedicat tibi Dominus), Balaam's star prophecy (orietur stella ex Iacob), the Nazirite consecration vocabulary, and the census/military terminology that shaped Western concepts of holy warfare and ecclesial order.",
+    "theological_legacy": "Numbers in the Vulgate contributed the most-used liturgical blessing in Western Christianity (the Aaronic benediction), a crucial Messianic proof-text (the star from Jacob), and vocabulary for religious vows and consecration that structured monastic and clerical life for a millennium."
+  },
+  "renderings": [
+    {
+      "reference": "Numbers 6:1-2",
+      "source_text": "נָזִיר... לְהַזִּיר לַיהוָה (nazir... lehazzir laYHWH)",
+      "vulgate_text": "cum... voverint et se Domino consecraverint",
+      "vulgate_rendering": "when they have vowed and consecrated themselves to the Lord",
+      "tcr_rendering": "to separate himself to the LORD as a Nazirite",
+      "theological_legacy": "Jerome translates nazir (separated one) as a verbal concept of self-consecration (se consecrare) rather than transliterating the title. This influenced Western monasticism's self-understanding: the religious life as voluntary self-consecration to God, modeled on the Nazirite vow but without the specific Hebrew ritual content.",
+      "notes": ["Hebrew nazir derives from nazar (to separate, dedicate). Jerome's consecrare (to make sacred) imports a sacramental dimension absent from the Hebrew separation concept. This rendering helped Western religious orders understand their vows through Nazirite typology — consecration rather than mere separation."]
+    },
+    {
+      "reference": "Numbers 6:24-26",
+      "source_text": "יְבָרֶכְךָ יְהוָה וְיִשְׁמְרֶךָ / יָאֵר יְהוָה פָּנָיו אֵלֶיךָ וִיחֻנֶּךָּ / יִשָּׂא יְהוָה פָּנָיו אֵלֶיךָ וְיָשֵׂם לְךָ שָׁלוֹם",
+      "vulgate_text": "benedicat tibi Dominus et custodiat te / ostendat Dominus faciem suam tibi et misereatur tui / convertat Dominus vultum suum ad te et det tibi pacem",
+      "vulgate_rendering": "May the Lord bless you and keep you / May the Lord show his face to you and have mercy on you / May the Lord turn his countenance to you and give you peace",
+      "tcr_rendering": "May the LORD bless you and guard you / May the LORD make His face shine upon you and be gracious to you / May the LORD lift up His face toward you and grant you peace",
+      "theological_legacy": "This became the most frequently used blessing in Western Christian liturgy, spoken at the conclusion of Mass, ordinations, and benedictions for over a millennium. Jerome's misereatur tui (have mercy on you) for Hebrew vichunneka (be gracious to you) imported the mercy-vocabulary that dominated Western prayer, and his det tibi pacem (give you peace) concludes countless liturgical services.",
+      "notes": ["Key divergences: Hebrew ya'er (cause to shine) becomes ostendat (show/reveal) — losing the luminous imagery. Vichunneka (be gracious) becomes misereatur (have mercy) — shifting from generosity to compassion for the wretched. Yissa (lift up) becomes convertat (turn toward) — changing the gesture from lifting to turning. Each shift subtly reframes the blessing from a Hebrew theology of divine radiant generosity to a Latin theology of divine mercy toward human wretchedness."]
+    },
+    {
+      "reference": "Numbers 10:35",
+      "source_text": "קוּמָה יְהוָה וְיָפֻצוּ אֹיְבֶיךָ וְיָנֻסוּ מְשַׂנְאֶיךָ מִפָּנֶיךָ",
+      "vulgate_text": "surge Domine et dissipentur inimici tui et fugiant qui oderunt te a facie tua",
+      "vulgate_rendering": "Arise, O Lord, and let your enemies be scattered, and let those who hate you flee from your face",
+      "tcr_rendering": "Rise up, O LORD, and let Your enemies be scattered, and let those who hate You flee before You",
+      "theological_legacy": "Surge Domine et dissipentur inimici tui became a standard Western prayer for divine military intervention, used in Crusade liturgy, military blessings, and the consecration of battle standards. The verse shaped Western holy war ideology by providing a biblical formula for invoking God as warrior.",
+      "notes": ["Jerome's rendering is fairly close to the Hebrew but its liturgical reception was enormous. The phrase was inscribed on Crusader banners, incorporated into military liturgies, and cited by popes calling for armed pilgrimage. It represents how faithful translation can still be weaponized by reception history."]
+    },
+    {
+      "reference": "Numbers 11:25",
+      "source_text": "וַיָּנַח עֲלֵיהֶם הָרוּחַ וַיִּתְנַבְּאוּ",
+      "vulgate_text": "cumque requievisset in eis spiritus prophetaverunt",
+      "vulgate_rendering": "And when the Spirit had rested upon them, they prophesied",
+      "tcr_rendering": "When the Spirit rested on them, they prophesied",
+      "theological_legacy": "Requievisset in eis spiritus (the Spirit rested upon them) established the Latin vocabulary for charismatic gifting and prophetic anointing. This text was cited in Western pneumatology to describe how the Spirit 'rests' on individuals for ministry, influencing ordination theology.",
+      "notes": ["Jerome's requiescere (to rest, settle) for Hebrew nuach (to rest, settle) is an accurate rendering. The significance lies in its theological reception: this verse became paradigmatic for how Western theology described the Spirit's relationship to prophets, bishops, and charismatics — the Spirit 'resting upon' rather than 'filling' (a different Hebrew/Latin vocabulary)."]
+    },
+    {
+      "reference": "Numbers 12:3",
+      "source_text": "וְהָאִישׁ מֹשֶׁה עָנָו מְאֹד מִכֹּל הָאָדָם",
+      "vulgate_text": "erat enim Moyses vir mitissimus super omnes homines",
+      "vulgate_rendering": "For Moses was the meekest man above all men",
+      "tcr_rendering": "Now the man Moses was very humble, more than any person on the face of the earth",
+      "theological_legacy": "Mitissimus (meekest, gentlest, most mild) for Hebrew anav (humble, afflicted, lowly) shaped the Western ideal of meekness as supreme virtue in leadership. This rendering influenced how Western Christianity valued mildness and gentleness in its leaders, with Moses as the model of powerful-yet-meek authority.",
+      "notes": ["Hebrew anav connotes social lowliness, affliction, and poverty of spirit rather than personality mildness. Jerome's mitissimus (superlative of mitis, gentle/mild) shifts the meaning from social humility to dispositional gentleness. This influenced the Western spiritual tradition's emphasis on personal mildness as a leadership virtue, somewhat different from the Hebrew concept of lowliness before God."]
+    },
+    {
+      "reference": "Numbers 14:18",
+      "source_text": "יְהוָה אֶרֶךְ אַפַּיִם וְרַב־חֶסֶד נֹשֵׂא עָוֺן וָפָשַׁע",
+      "vulgate_text": "Dominus patiens et multae misericordiae auferens iniquitatem et scelera",
+      "vulgate_rendering": "The Lord is patient and of great mercy, taking away iniquity and wickedness",
+      "tcr_rendering": "The LORD is slow to anger and abundant in loyal love, forgiving iniquity and transgression",
+      "theological_legacy": "Auferens iniquitatem (taking away iniquity) rather than Hebrew nose (bearing/carrying) significantly shaped Western atonement theology. The Latin suggests removal of sin rather than bearing it, influencing how Western theologians understood forgiveness as deletion rather than as God absorbing the weight of human sin.",
+      "notes": ["Hebrew nose avon means 'carrying/bearing iniquity' — God lifts and carries the sin. Jerome's auferens (taking away, removing) changes the image from burden-bearing to elimination. This subtle shift moved Western forgiveness theology toward complete removal/deletion of sin (as in absolution) rather than the Hebrew image of God carrying human transgression on His own shoulders."]
+    },
+    {
+      "reference": "Numbers 21:8-9",
+      "source_text": "עֲשֵׂה לְךָ שָׂרָף... נְחַשׁ נְחֹשֶׁת (nachash nechoshet)",
+      "vulgate_text": "fac serpentem aeneum... serpentem aeneum",
+      "vulgate_rendering": "Make a bronze serpent... a bronze serpent",
+      "tcr_rendering": "Make yourself a fiery serpent... a bronze serpent",
+      "theological_legacy": "Serpentem aeneum (bronze serpent) became one of Western Christianity's primary Christological types via John 3:14 ('as Moses lifted up the serpent'). The Latin image of a serpent lifted on a pole was depicted ubiquitously in medieval art as a type of the crucifixion, with the bronze material symbolizing Christ's sinless humanity.",
+      "notes": ["Hebrew distinguishes between saraph (fiery/burning one — the poisonous serpent) and nachash nechoshet (serpent of bronze — the curative image). Jerome uses serpens aeneus for both, collapsing the distinction. The typological reading of this passage (serpent = Christ lifted on cross) became standard in Western art and preaching, with elaborate symbolic systems explaining why Christ would be represented by a serpent."]
+    },
+    {
+      "reference": "Numbers 22:28",
+      "source_text": "וַיִּפְתַּח יְהוָה אֶת־פִּי הָאָתוֹן",
+      "vulgate_text": "aperuit Dominus os asinae",
+      "vulgate_rendering": "The Lord opened the mouth of the donkey",
+      "tcr_rendering": "Then the LORD opened the mouth of the donkey",
+      "theological_legacy": "Aperuit Dominus os asinae entered Western culture as a paradigmatic miracle story and cautionary tale about prophetic arrogance. The speaking donkey appeared in medieval mystery plays, bestiaries, and moral instruction as proof that God can use the lowliest creature to rebuke the proudest prophet.",
+      "notes": ["Jerome's straightforward rendering faithfully transmits the narrative. Its cultural impact came through widespread use in medieval homiletics and drama. Balaam's donkey became proverbial in Western culture for unexpected wisdom from lowly sources, and the episode was interpreted as demonstrating that prophetic gifts do not guarantee prophetic character."]
+    },
+    {
+      "reference": "Numbers 24:17",
+      "source_text": "דָּרַךְ כּוֹכָב מִיַּעֲקֹב וְקָם שֵׁבֶט מִיִּשְׂרָאֵל",
+      "vulgate_text": "orietur stella ex Iacob et consurget virga de Israhel",
+      "vulgate_rendering": "A star shall rise out of Jacob and a rod/scepter shall rise from Israel",
+      "tcr_rendering": "A star shall march forth from Jacob, and a scepter shall rise from Israel",
+      "theological_legacy": "Orietur stella ex Iacob became one of the most important Messianic proof-texts in Western Christianity, directly linked to the Star of Bethlehem narrative (Matthew 2). The Latin formulation appeared in Christmas liturgy, Epiphany hymns, and Christological treatises as prophecy of Christ's birth. Virga (rod/staff/scepter) was connected to virga Jesse (rod of Jesse, Isaiah 11:1) in typological reading.",
+      "notes": ["Hebrew darakh (to tread, march, bend a bow) becomes orietur (shall rise/arise) — Jerome chooses the astral imagery of rising rather than the martial imagery of marching/treading. This astronomical reading facilitated the connection to the Magi's star. The word virga (rod) rather than sceptrum (scepter) created a verbal link to Isaiah 11:1 (virga de radice Iesse) that enriched Messianic typology in Latin commentaries."]
+    },
+    {
+      "reference": "Numbers 27:17",
+      "source_text": "אֲשֶׁר־יֵצֵא לִפְנֵיהֶם וַאֲשֶׁר יָבֹא לִפְנֵיהֶם וַאֲשֶׁר יוֹצִיאֵם וַאֲשֶׁר יְבִיאֵם",
+      "vulgate_text": "qui possit exire ante eos et introire et educere eos vel introducere",
+      "vulgate_rendering": "who can go out before them and come in, and lead them out or lead them in",
+      "tcr_rendering": "who will go out before them and come in before them, who will lead them out and bring them in",
+      "theological_legacy": "This leadership formula shaped Western ecclesial language for pastoral oversight. The image of a leader who 'goes out and comes in' before the people influenced how Western Christianity conceptualized episcopal and papal authority — the shepherd who leads from the front.",
+      "notes": ["Jerome renders the fourfold Hebrew leadership formula (go out, come in, lead out, bring in) with language that became standard for describing pastoral leadership in Western canon law and ecclesiology. The phrase influenced the Western concept of the bishop as one who leads the flock by going before them."]
+    },
+    {
+      "reference": "Numbers 30:3",
+      "source_text": "אִישׁ כִּי־יִדֹּר נֶדֶר לַיהוָה אוֹ־הִשָּׁבַע שְׁבֻעָה",
+      "vulgate_text": "si quis virorum votum Domino voverit aut se constrinxerit iuramento",
+      "vulgate_rendering": "If any man vows a vow to the Lord or binds himself with an oath",
+      "tcr_rendering": "If a man makes a vow to the LORD, or swears an oath",
+      "theological_legacy": "Votum Domino voverit (vows a vow to the Lord) established votum as the standard Latin term for religious vows. The entire Western system of monastic vows (poverty, chastity, obedience), religious consecration, and vow theology traces its vocabulary to Jerome's rendering of Numbers 30. Canon law's treatment of vows derives from this Latin terminology.",
+      "notes": ["Hebrew neder (vow) becomes votum, which acquired enormous institutional weight in Western Christianity. The binding force of vows (se constrinxerit, 'binds himself') provided the legal and theological foundation for the irrevocability of religious vows in canon law, a doctrine that was central to medieval religious life and contested during the Reformation."]
+    },
+    {
+      "reference": "Numbers 31:3",
+      "source_text": "הֵחָלְצוּ מֵאִתְּכֶם אֲנָשִׁים לַצָּבָא",
+      "vulgate_text": "armate ex vobis viros ad pugnam",
+      "vulgate_rendering": "Arm men from among you for battle",
+      "tcr_rendering": "Equip men from among you for war",
+      "theological_legacy": "Jerome's military vocabulary throughout Numbers — armate (arm), pugna (battle), castra (camp), exercitus (army) — provided the Latin terminology that later justified Christian holy war. The concept of divinely commanded warfare, rendered in classical Roman military language, made biblical warfare recognizable and applicable to medieval Christian military campaigns.",
+      "notes": ["Hebrew chalats means to equip, make ready (not necessarily with weapons). Jerome's armate is specifically military preparation. Throughout Numbers, Jerome consistently uses Roman military terminology (castra for machaneh, exercitus for tsava) that would have resonated with Latin readers familiar with the Roman army, making Israel's holy wars feel continuous with Roman martial tradition."]
+    },
+    {
+      "reference": "Numbers 35:25",
+      "source_text": "עַד־מוֹת הַכֹּהֵן הַגָּדוֹל (ad-mot ha-kohen ha-gadol)",
+      "vulgate_text": "donec sacerdos magnus... moriatur",
+      "vulgate_rendering": "until the great/high priest dies",
+      "tcr_rendering": "until the death of the high priest",
+      "theological_legacy": "Sacerdos magnus (great priest) as Jerome's rendering of kohen ha-gadol established the Latin terminology for the high priesthood that was applied typologically to Christ (sacerdos magnus in Hebrews) and claimed by the Pope (Pontifex Maximus). The death of the high priest releasing manslayers from the city of refuge was read as a type of Christ's death releasing sinners from the bondage of sin.",
+      "notes": ["Hebrew kohen ha-gadol (the great/chief priest) becomes sacerdos magnus. This exact phrase appears in Hebrews 4:14 in the Vulgate applied to Christ. The typological reading — the high priest's death effects release from confinement, just as Christ's death effects release from sin — became standard in Western Christological exegesis."]
+    },
+    {
+      "reference": "Numbers 6:26b",
+      "source_text": "וְיָשֵׂם לְךָ שָׁלוֹם (veyasem lekha shalom)",
+      "vulgate_text": "et det tibi pacem",
+      "vulgate_rendering": "and give you peace",
+      "tcr_rendering": "and grant you peace",
+      "theological_legacy": "Det tibi pacem (give you peace) became the closing formula of Western liturgical blessings and the theological basis for the pax (kiss of peace) in the Mass. The Latin pax, derived from this blessing context, became the central concept of Western Christian social ethics — the 'peace of God' (pax Dei) movement, the Peace of Westphalia, and papal peace initiatives all draw on this vocabulary.",
+      "notes": ["Hebrew shalom encompasses wholeness, completeness, prosperity, and well-being — far more than absence of conflict. Jerome's pax, while primarily meaning 'peace' (absence of war), acquired in Christian usage a theological richness approaching the Hebrew. Nevertheless, the narrowing from shalom's fullness to pax's primary political sense influenced Western Christianity's tendency to spiritualize peace while separating it from material flourishing."]
+    }
+  ]
+}

@@ -1,0 +1,221 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Sirach",
+    "chapter": 43,
+    "tradition": "vulgate",
+    "tradition_label": "Latin Vulgate (Deuterocanonical)",
+    "source_text": "Biblia Sacra Vulgata (Stuttgart critical edition)",
+    "translator": "Jerome",
+    "date": "c. 405 CE",
+    "canon": ["catholic", "orthodox", "ethiopian"],
+    "generated_at": "2026-04-20T00:00:00Z",
+    "prompt_version": "2.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "A magnificent nature hymn celebrating the glory of God revealed in creation: the blazing sun, the luminous moon, the glittering stars, the rainbow, snow, hail, frost, ice, wind, rain, lightning, and the vast sea with its monsters. Each natural phenomenon testifies to God's power and wisdom. The chapter concludes with an acknowledgment that God is greater than all his works and beyond human comprehension.",
+    "remarkable": "This is one of the finest nature poems in all ancient literature, rivaling Job 38-41 and Psalm 104 in scope and literary power. The descriptions of weather phenomena -- frost like salt spread on the ground, ice forming like armor on the water -- demonstrate a keen observer's eye combined with theological interpretation. The sea monster (v. 25) may allude to Leviathan.",
+    "friction": "The pre-scientific cosmology is evident: stars are sentinels at their posts, the rainbow is a bow drawn by divine hands, and weather is directly orchestrated by God's word. These images function poetically rather than as natural philosophy, though they were understood more literally in Ben Sira's time.",
+    "connections": "Job 38-41 (God's speech from the whirlwind); Psalm 19:1-6 (the sun's circuit); Psalm 104 (creation hymn); Psalm 148 (all creation praises God); Genesis 9:13 (the rainbow as sign of covenant)."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_latin": "Species caeli gloria stellarum mundum inluminans in excelsis Dominus.",
+      "rendering": "The beauty of heaven, the glory of the stars -- a shining ornament in the heights of the Lord.",
+      "translator_notes": ["The hymn opens by looking upward: the sky itself is a decorative display mounted in God's heights."],
+      "key_terms": [{"latin": "species caeli", "rendered_as": "beauty of heaven", "note": "The visible splendor of the sky; species denotes the outward form that arrests the eye."}]
+    },
+    {
+      "verse": 2,
+      "text_latin": "In verbis Sancti stabunt ad iudicium et non deficient in vigiliis suis.",
+      "rendering": "At the word of the Holy One they stand in their appointed order, and they do not fail in their watches.",
+      "translator_notes": ["The stars as sentinels: stationed by God's command, they keep their posts without faltering. A military metaphor for cosmic order."],
+      "key_terms": [{"latin": "vigiliis", "rendered_as": "watches", "note": "Night watches as kept by sentries; the stars are God's faithful guards posted across the sky."}]
+    },
+    {
+      "verse": 3,
+      "text_latin": "Vide arcum et benedic eum qui fecit illum valde speciosus est in splendore suo.",
+      "rendering": "Behold the rainbow and bless the one who made it; it is exceedingly beautiful in its splendor.",
+      "translator_notes": ["The rainbow evokes the Noahic covenant (Genesis 9:13) while also being celebrated for its sheer aesthetic glory."],
+      "key_terms": [{"latin": "arcum", "rendered_as": "rainbow", "note": "The arcus in the sky; both a natural phenomenon and a covenantal sign of God's promise never again to destroy the earth by flood."}]
+    },
+    {
+      "verse": 4,
+      "text_latin": "Gyravit caelum in circuitu gloriae suae manus Excelsi aperuerunt illum.",
+      "rendering": "It encircles the heaven in a ring of glory; the hands of the Most High have stretched it out.",
+      "translator_notes": ["The rainbow as a full circle of glory spanning the sky -- God's hands are the bow-maker who bent this arc of light."],
+      "key_terms": []
+    },
+    {
+      "verse": 5,
+      "text_latin": "Imperio suo adceleravit nivem et adcelerat coruscationes emittere iudicii sui.",
+      "rendering": "By his command he hastens the snow, and speeds the lightning bolts of his judgment.",
+      "translator_notes": ["Snow and lightning -- gentle and violent expressions of the same divine power -- are both dispatched at God's word."],
+      "key_terms": []
+    },
+    {
+      "verse": 6,
+      "text_latin": "Propterea aperti sunt thesauri et evolaverunt nebulae sicut aves.",
+      "rendering": "Therefore the storehouses are opened, and the clouds fly out like birds.",
+      "translator_notes": ["God's 'storehouses' (thesauri) for weather phenomena echo Job 38:22. The simile of clouds as birds is uniquely vivid."],
+      "key_terms": [{"latin": "thesauri", "rendered_as": "storehouses", "note": "Divine treasuries where weather phenomena are kept until dispatched; an image shared with Job 38:22 (storehouses of snow and hail)."}]
+    },
+    {
+      "verse": 7,
+      "text_latin": "In magnitudine sua posuit nubes et confracti sunt lapides grandinis.",
+      "rendering": "In his greatness he thickens the clouds, and hailstones are broken forth.",
+      "translator_notes": [],
+      "key_terms": [{"latin": "lapides grandinis", "rendered_as": "hailstones", "note": "Literally 'stones of hail'; hail as weaponry from heaven, recalling the hailstorm against the Amorites (Joshua 10:11)."}]
+    },
+    {
+      "verse": 8,
+      "text_latin": "In conspectu eius commovebuntur montes et in voluntate eius aspirabit notus.",
+      "rendering": "At his appearing the mountains shake, and at his will the south wind blows.",
+      "translator_notes": ["Theophanic language: God's presence causes mountains to tremble, recalling Sinai (Exodus 19:18) and Psalm 18:7."],
+      "key_terms": [{"latin": "notus", "rendered_as": "south wind", "note": "The hot wind from the south (the Saharan sirocco in the Mediterranean context); one of the cardinal winds under God's direction."}]
+    },
+    {
+      "verse": 9,
+      "text_latin": "Vox tonitrui eius verberavit terram tempestas aquilonis et congregatio spiritus.",
+      "rendering": "The voice of his thunder lashes the earth; so does the northern storm and the whirlwind.",
+      "translator_notes": ["Thunder as God's voice is a standard biblical image (Psalm 29). The north wind brings the most violent storms in the Levantine climate."],
+      "key_terms": [{"latin": "aquilonis", "rendered_as": "northern", "note": "The north wind, associated with cold and storm; in biblical symbolism, the north often represents threat and divine judgment."}]
+    },
+    {
+      "verse": 10,
+      "text_latin": "Sicut aves deponentes ad sedendum aspergit nivem et sicut lucusta demergens descensus eius.",
+      "rendering": "Like birds settling to rest he scatters the snow, and like a descending locust swarm it comes down.",
+      "translator_notes": ["Two striking similes for snowfall: gentle as birds alighting, overwhelming as a locust plague. The contrast captures snow's paradoxical beauty and force."],
+      "key_terms": []
+    },
+    {
+      "verse": 11,
+      "text_latin": "Pulchritudinem candoris eius admirabitur oculus et super imbrem eius expavescet cor.",
+      "rendering": "The eye marvels at the beauty of its whiteness, and the heart trembles at its downpour.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 12,
+      "text_latin": "Gelu sicut salem effundet super terram et dum gelaverit fiet tamquam cacumina tribuli.",
+      "rendering": "He pours frost like salt upon the earth, and when it freezes it becomes like thorny spikes.",
+      "translator_notes": ["Two vivid comparisons: frost scattered like salt, and ice crystals sharp as thorn points. Both draw on everyday agricultural experience."],
+      "key_terms": [{"latin": "gelu", "rendered_as": "frost", "note": "Ground frost or hoarfrost; its crystalline spread across the landscape is compared to the scattering of salt."}]
+    },
+    {
+      "verse": 13,
+      "text_latin": "Frigidus ventus aquilo flavit et gelavit crystallus ab aqua super omnem collectionem aquarum requiescet et sicut loricam induet se aquis.",
+      "rendering": "The cold north wind blows, and ice forms from the water; it settles upon every pool, and the water puts on ice like a breastplate.",
+      "translator_notes": ["Ice as armor (lorica) is a brilliantly original metaphor: the water 'dresses' itself in frozen protection."],
+      "key_terms": [{"latin": "loricam", "rendered_as": "breastplate", "note": "Body armor; the ice covering water is imagined as protective armor that the water puts on, transforming a gentle element into something hard and defensive."}]
+    },
+    {
+      "verse": 14,
+      "text_latin": "Et devorabit montes et exuret desertum et extinguet viride sicut igni.",
+      "rendering": "It devours the mountains and scorches the wilderness, and extinguishes every green thing as with fire.",
+      "translator_notes": ["A paradox: extreme cold destroys vegetation as effectively as fire. The destructive capacity of frost rivals that of flame."],
+      "key_terms": []
+    },
+    {
+      "verse": 15,
+      "text_latin": "Medicina omnium in festinatione nebulae et ros obvians ab ardore venienti humilem efficiet eum.",
+      "rendering": "The remedy for all this is a swift mist, and the dew meeting the scorching heat will humble it.",
+      "translator_notes": ["After the violence of frost, the gentle corrective: mist and dew restore the balance. Nature's own healing mechanism."],
+      "key_terms": [{"latin": "ros", "rendered_as": "dew", "note": "In the arid Levant, dew was essential for agriculture and symbolized divine blessing (Hosea 14:5)."}]
+    },
+    {
+      "verse": 16,
+      "text_latin": "In sermone eius siluit ventus et cogitatione sua placavit abyssum et plantavit in illa Dominus insulas.",
+      "rendering": "At his word the wind falls silent, and by his thought he calms the deep; and the Lord planted islands in it.",
+      "translator_notes": ["God commands wind and sea with equal authority. The islands 'planted' in the deep suggest deliberate landscaping of the ocean floor."],
+      "key_terms": [{"latin": "abyssum", "rendered_as": "the deep", "note": "The tehom -- the primordial ocean, both creative matrix and force of chaos, held in check by divine word."}]
+    },
+    {
+      "verse": 17,
+      "text_latin": "Qui navigant mare enarrant pericula eius et audientes auribus nostris admirabimur.",
+      "rendering": "Those who sail the sea tell of its perils, and we marvel at what we hear with our ears.",
+      "translator_notes": ["A shift to secondhand testimony: the sage has not sailed himself but listens to mariners' tales with wonder."],
+      "key_terms": []
+    },
+    {
+      "verse": 18,
+      "text_latin": "Illic praeclara opera et mirabilia varia bestiarum genera et omnium pecorum et creatura beluarum.",
+      "rendering": "There are wonderful works and marvels: diverse kinds of beasts, all manner of creatures, and great sea monsters.",
+      "translator_notes": [],
+      "key_terms": [{"latin": "beluarum", "rendered_as": "sea monsters", "note": "Large, awe-inspiring marine creatures; the term evokes Leviathan and the great sea beasts of Job 41 and Psalm 104:26."}]
+    },
+    {
+      "verse": 19,
+      "text_latin": "Propter ipsum confirmatus est itineris finis et in sermone eius conposita sunt omnia.",
+      "rendering": "Because of him the end of every journey is sure, and by his word all things hold together.",
+      "translator_notes": ["A statement of cosmic coherence: God's word is the binding force of the universe. Paul echoes this in Colossians 1:17 ('in him all things hold together')."],
+      "key_terms": []
+    },
+    {
+      "verse": 20,
+      "text_latin": "Multa dicemus et deficiemus in verbis consummatio autem sermonum ipse est.",
+      "rendering": "We may say much and yet fall short in words; the sum of our words is: He is everything.",
+      "translator_notes": ["A confession of linguistic inadequacy: all human speech about God is incomplete. The closing phrase -- 'He is everything' -- is one of the most theologically dense in Sirach."],
+      "key_terms": [{"latin": "consummatio sermonum", "rendered_as": "sum of our words", "note": "The final total, the bottom line of all discourse about God: he himself is the conclusion of every sentence."}]
+    },
+    {
+      "verse": 21,
+      "text_latin": "Glorificantes ad quid valebimus ipse enim omnipotens super omnia opera sua.",
+      "rendering": "To what avail do we glorify him? For he is the Almighty, above all his works.",
+      "translator_notes": ["Another rhetorical question: human praise cannot add to God's already infinite glory. Yet the question does not discourage praise -- it humbles the praiser."],
+      "key_terms": [{"latin": "omnipotens", "rendered_as": "Almighty", "note": "The supreme title of divine power; God transcends everything he has made."}]
+    },
+    {
+      "verse": 22,
+      "text_latin": "Terribilis Dominus et magnus vehementer et mirabilis potentia ipsius.",
+      "rendering": "The Lord is terrible and exceedingly great, and his power is marvelous.",
+      "translator_notes": ["'Terrible' (terribilis) in the archaic sense: awe-inspiring, fear-inducing, overwhelming in majesty."],
+      "key_terms": [{"latin": "terribilis", "rendered_as": "terrible", "note": "Awe-inspiring and dread-inducing; the numinous quality of God's presence that provokes trembling rather than comfort."}]
+    },
+    {
+      "verse": 23,
+      "text_latin": "Glorificantes Dominum quantumcumque potueritis supervalebit enim adhuc et admirabilis magnificentia eius.",
+      "rendering": "Glorify the Lord as much as you can, for he will surpass even that; wondrous is his magnificence.",
+      "translator_notes": ["No matter how much praise is offered, God always exceeds it. Human worship is always playing catch-up with divine glory."],
+      "key_terms": []
+    },
+    {
+      "verse": 24,
+      "text_latin": "Benedicentes Dominum exaltate illum quantum potestis maior est enim omni laude.",
+      "rendering": "Bless the Lord and exalt him as much as you are able, for he is greater than all praise.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 25,
+      "text_latin": "Exaltantes eum replemini virtute ne laboretis non enim conprehendetis.",
+      "rendering": "As you exalt him, be filled with strength; do not grow weary, for you will never comprehend him.",
+      "translator_notes": ["The paradox of worship: it requires strength that God himself supplies, yet it will never achieve full comprehension of its object."],
+      "key_terms": []
+    },
+    {
+      "verse": 26,
+      "text_latin": "Quis vidit eum et enarrabit et quis magnificabit eum sicut est ab initio.",
+      "rendering": "Who has seen him and can describe him? And who can magnify him as he is from the beginning?",
+      "translator_notes": ["The final rhetorical questions: no one has seen God in his fullness, and no one can praise him adequately. The hymn ends in reverent silence before the incomprehensible."],
+      "key_terms": []
+    },
+    {
+      "verse": 27,
+      "text_latin": "Multa abscondita sunt maiora his pauca enim vidimus operum eius.",
+      "rendering": "Many things greater than these remain hidden, for we have seen only a few of his works.",
+      "translator_notes": ["The visible creation is only a fraction of God's total work. What is hidden far exceeds what is revealed -- a principle of theological humility."],
+      "key_terms": []
+    },
+    {
+      "verse": 28,
+      "text_latin": "Omnia enim fecit Dominus et pie agentibus dedit sapientiam.",
+      "rendering": "For the Lord has made all things, and to the godly he has given wisdom.",
+      "translator_notes": ["The chapter's final word: God made everything, and wisdom is his gift to those who revere him. This sentence bridges the nature hymn to the Praise of the Ancestors that follows, where wisdom is embodied in Israel's great men."],
+      "key_terms": [{"latin": "pie agentibus", "rendered_as": "the godly", "note": "Those who act with pietas -- loyal devotion to God; the recipients of wisdom as a divine gift."}]
+    }
+  ]
+}

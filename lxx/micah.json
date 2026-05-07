@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Micah",
+    "tradition": "lxx",
+    "tradition_label": "Septuagint (LXX)",
+    "source_text": "Rahlfs-Hanhart, Septuaginta",
+    "base_text": "Westminster Leningrad Codex (WLC)",
+    "translators": "Alexandrian Jewish translators (2nd c. BCE)",
+    "date": "2nd century BCE",
+    "generated_at": "2026-04-22T00:00:00Z",
+    "prompt_version": "1.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "LXX Micah is the source of the Bethlehem prophecy that Matthew 2:6 cites to identify Jesus' birthplace, one of the cornerstone passages for Christian Messianic exegesis of the prophets. Micah 7:6 is also quoted by Jesus at Matthew 10:35–36 and Luke 12:53 to describe the household-dividing effect of discipleship. Micah 6:8's ethical summary ('act justly, love mercy, walk humbly') entered Christian moral discourse in its LXX form.",
+    "notable_variants": "Matthew 2:6's citation of Micah 5:2 differs from both MT and standard LXX, representing a free composite citation or a Greek Vorlage no longer extant; Micah 6:8's threefold ethical summary in its LXX form as the paradigm of prophetic ethics; Micah 7:6's family-division oracle in its LXX form as the template for Jesus' sayings about discipleship's cost.",
+    "theological_legacy": "Matthew 2:6's Micah quotation — placed on the lips of the chief priests and scribes answering Herod — is one of the most consequential single citations in the Gospel of Matthew: it authorizes the claim that Jesus of Nazareth, actually born in Bethlehem, fulfills the Davidic-shepherd prophecy."
+  },
+  "renderings": [
+    {
+      "reference": "Micah 5:2 (LXX 5:1)",
+      "mt_reading": "וְאַתָּה בֵּית־לֶחֶם אֶפְרָתָה צָעִיר לִהְיוֹת בְּאַלְפֵי יְהוּדָה",
+      "lxx_reading": "καὶ σύ Βηθλεεμ οἶκος τοῦ Εφραθα ὀλιγοστὸς εἶ τοῦ εἶναι ἐν χιλιάσιν Ιουδα",
+      "mt_rendering": "But you, Bethlehem Ephrathah, though you are small among the clans of Judah",
+      "lxx_rendering": "And you, Bethlehem, house of Ephratha, are few in number to be among the thousands of Judah",
+      "significance": "theological",
+      "notes": [
+        "Matthew 2:6 cites this verse, but with a striking adjustment: where LXX reads oligostos ei ('you are little'), Matthew reads oudamōs elachistē ei ('by no means are you least'). Matthew inverts the prophecy — no longer 'you are little' but 'you are by no means least.'",
+        "The inversion is not a text-critical variant but a homiletic move: the evangelist (or a tradition he inherits) reads the prophecy in light of its fulfillment — Bethlehem's smallness has been exalted by the birth of the Messiah.",
+        "Matthew also replaces 'clans' (chiliasin, 'thousands') with hēgemosin ('rulers') and adds 'who will shepherd my people Israel' from 2 Samuel 5:2 — a combined citation typical of early Christian and rabbinic anthological method. The LXX Micah 5:2 supplies the textual starting point for this fused Messianic citation."
+      ]
+    },
+    {
+      "reference": "Micah 6:8",
+      "mt_reading": "עֲשׂוֹת מִשְׁפָּט וְאַהֲבַת חֶסֶד וְהַצְנֵעַ לֶכֶת עִם־אֱלֹהֶיךָ",
+      "lxx_reading": "ποιεῖν κρίμα καὶ ἀγαπᾶν ἔλεος καὶ ἕτοιμον εἶναι τοῦ πορεύεσθαι μετὰ κυρίου θεοῦ σου",
+      "mt_rendering": "Only to act justly, to love faithful love, and to walk humbly with your God",
+      "lxx_rendering": "To do justice and to love mercy, and to be ready to walk with the Lord your God",
+      "significance": "theological",
+      "notes": [
+        "The threefold ethical summary of Micah 6:8 is rendered in LXX with krima (justice), eleos (mercy), and poreuesthai meta kyriou (walking with the Lord).",
+        "The LXX renders hatsnea lekhet ('walk humbly') as hetoimon einai tou poreuesthai ('be ready to walk') — a softening of the Hebrew's 'humbly' into 'readiness.' Some interpreters see this as a Hellenistic Jewish piety-move; others note the Hebrew is itself debated.",
+        "Matthew 23:23 (weightier matters of the law: justice, mercy, and faithfulness) appears to allude to Micah 6:8's threefold summary using its LXX vocabulary of krisis (judgment/justice), eleos, and pistis (faithfulness/faith)."
+      ]
+    },
+    {
+      "reference": "Micah 7:6",
+      "mt_reading": "כִּי־בֵן מְנַבֵּל אָב",
+      "lxx_reading": "διότι υἱὸς ἀτιμάζει πατέρα",
+      "mt_rendering": "For a son dishonors his father … a person's enemies are the members of their own household",
+      "lxx_rendering": "For a son dishonors his father … a man's enemies are those of his own house",
+      "significance": "theological",
+      "notes": [
+        "Matthew 10:35–36 and Luke 12:53 both cite this verse as Jesus describes the household-rending effect of discipleship: 'I have come to set a man against his father … and a man's enemies will be those of his own household.'",
+        "The LXX's exact wording — echtroi tou anthrōpou hoi andres tou oikou autou ('a man's enemies are the men of his own house') — is what Matthew 10:36 quotes.",
+        "Jesus' selection of Micah 7:6 as a scriptural warrant for the disruptive character of messianic allegiance is typical of his rhetorical method: take a prophetic text lamenting social decay and press it as a prophecy being fulfilled in the Kingdom's arrival."
+      ]
+    }
+  ]
+}

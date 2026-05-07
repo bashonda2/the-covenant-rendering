@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "1 Samuel",
+    "chapter": 21,
+    "tradition": "lxx-1-samuel",
+    "tradition_label": "Septuagint (LXX) / 1 Kingdoms",
+    "source_text": "Rahlfs-Hanhart, Septuaginta (1 Basileiōn)",
+    "base_text": "Westminster Leningrad Codex (WLC)",
+    "date": "3rd–2nd century BCE",
+    "generated_at": "2026-04-22T00:00:00Z",
+    "prompt_version": "1.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "1 Samuel 21 narrates David's two refuge-seeking episodes: David at Nob receiving the sacred showbread from Ahimelech the priest (vv. 1–9) and David feigning madness at the court of Achish king of Gath (vv. 10–15). The Nob-and-showbread episode is directly cited by Jesus at Matthew 12:3–4 / Mark 2:25–26 / Luke 6:3–4 as a scriptural warrant for his disciples plucking grain on the Sabbath — one of the NT's clearest uses of 1 Samuel.",
+    "notable_variants": "Hebrew/MT vs. LXX versification offset — MT 21:1 = LXX 21:2 throughout this chapter; the showbread-to-David episode at 21:1–6 (LXX 21:2–7) cited by Jesus at Matt 12:3–4 and parallels; the sword-of-Goliath detail at 21:9.",
+    "structural_notes": "LXX 1 Samuel 21 has 16 verses matching MT. The MT-vs-LXX verse-numbering offset by one is due to MT placing Jonathan's departure (LXX 20:42) as 20:43, and LXX starting 21 at what MT calls 21:1 (David's arrival at Nob). TCR follows MT numbering."
+  },
+  "verses": [
+    {"verse": 1, "has_variant": false, "variant_notes": ["David's departure and Jonathan's return track MT. (LXX numbers this verse as 20:43 or 21:1 depending on manuscript tradition.)"]},
+    {"verse": 2, "has_variant": false, "variant_notes": ["Arrival at Nob; Ahimelech's trembling tracks MT. Nob was the major priestly city after Shiloh's destruction."]},
+    {"verse": 3, "has_variant": false, "variant_notes": ["David's deception — the 'secret royal mission' story — tracks MT. David lies to the priest, a morally complicated act that the NT rabbinic-style discussion does not directly evaluate."]},
+    {"verse": 4, "has_variant": false, "variant_notes": ["David's bread-request tracks MT."]},
+    {"verse": 5, "has_variant": false, "variant_notes": ["'Only consecrated bread' tracks MT. Priestly showbread was normally reserved for priests (Lev 24:5–9); the condition offered (ritual purity) shows Ahimelech's accommodation."]},
+    {"verse": 6, "has_variant": true, "significance": "theological", "mt_reading": "וַיִּתֶּן־לוֹ הַכֹּהֵן קֹדֶשׁ כִּי לֹא־הָיָה שָׁם לֶחֶם כִּי־אִם־לֶחֶם הַפָּנִים", "lxx_reading": "καὶ ἔδωκεν αὐτῷ Αβιμελεχ ὁ ἱερεὺς τοὺς ἄρτους τῆς προθέσεως", "mt_rendering": "So the priest gave him consecrated bread", "variant_rendering": "And Abimelech the priest gave him the bread of the presentation (showbread)", "variant_notes": ["THE BREAD OF THE PRESENCE GIVEN TO DAVID. Matthew 12:3–4 cites this: 'Have you not read what David did, when he was hungry, and those with him — how he entered the house of God and ate the bread of the presentation, which was not lawful for him to eat, nor for those with him, but only for the priests?'", "Mark 2:25–26 and Luke 6:3–4 parallel this citation. Jesus uses the Nob-showbread episode as a scriptural precedent for his disciples' Sabbath grain-plucking.", "The LXX's artoi tēs protheseōs ('bread of the presentation') is the exact technical phrase Jesus uses. Hebrew lechem ha-panim ('bread of the face/presence') and the LXX's protheseōs ('setting before') carry the same cultic concept.", "Jesus' argument: David-the-anointed ate the sacred bread in an emergency; the Son-of-Man's disciples' hunger is analogous. The NT application validates emergency over cultic formalism — a reprise of 15:22's 'obedience better than sacrifice.'", "Mark 2:26 specifies 'Abiathar the high priest' — which is historically incorrect (the priest here is Ahimelech, Abiathar's father). This is a famous NT historical-reference problem; possible explanations include scribal error or the Abiathar-era framing of the priestly-house narrative."]},
+    {"verse": 7, "has_variant": false, "variant_notes": ["The showbread-at-removal detail tracks MT. The 'bread removed from before the LORD' is the weekly-rotation showbread — freshly-made replaces it — and can be eaten by priests (Lev 24:9)."]},
+    {"verse": 8, "has_variant": false, "variant_notes": ["Doeg the Edomite at Nob tracks MT. His presence foreshadows the massacre of ch 22. 'Detained before the LORD' may mean Doeg was under some priestly-sanctuary retention — ritual-purity constraint."]},
+    {"verse": 9, "has_variant": false, "variant_notes": ["David's request for a weapon tracks MT."]},
+    {"verse": 10, "has_variant": false, "variant_notes": ["Goliath's sword behind the ephod tracks MT. The narrative-theological touch: the weapon of David's earlier victory returns to serve him again. The ephod-storage is consistent with ancient-Israelite trophy-cultic practice."]},
+    {"verse": 11, "has_variant": false, "variant_notes": ["David's flight to Achish king of Gath tracks MT. Gath is one of the five Philistine cities — bold refuge-choice for an Israelite warrior who killed their champion."]},
+    {"verse": 12, "has_variant": false, "variant_notes": ["The Philistine servants' recognition tracks MT. 'Is this not David, the king of the land?' — ironic-title; David is not yet king but is recognized as such by non-Israelites. The victory-song (18:7) is cited again as a fixed Philistine-memorable line."]},
+    {"verse": 13, "has_variant": false, "variant_notes": ["David's fear tracks MT."]},
+    {"verse": 14, "has_variant": false, "variant_notes": ["The feigned madness tracks MT — scratching on doors, drooling. Ancient Near-Eastern cultures considered insanity a divine-touched state; harming a madman could bring divine retribution. David's ruse works because of this cultural-religious taboo."]},
+    {"verse": 15, "has_variant": false, "variant_notes": ["Achish's dismissal tracks MT."]},
+    {"verse": 16, "has_variant": false, "variant_notes": ["'Am I so short of madmen?' closing sarcasm tracks MT. David is expelled — saved by the appearance of mental-illness."]}
+  ]
+}

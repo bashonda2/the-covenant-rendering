@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "2 Kings",
+    "tradition": "lxx",
+    "tradition_label": "Septuagint (LXX) / 4 Kingdoms",
+    "source_text": "Rahlfs-Hanhart, Septuaginta (4 Kingdoms = 4 Basileiōn)",
+    "base_text": "Westminster Leningrad Codex (WLC)",
+    "translators": "Alexandrian Jewish translators (3rd–2nd c. BCE)",
+    "date": "3rd–2nd century BCE",
+    "generated_at": "2026-04-22T00:00:00Z",
+    "prompt_version": "1.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "LXX 2 Kings (4 Kingdoms) is significantly more stable against MT than LXX 1 Kings: the translators stayed close to the Hebrew, and the major 'Miscellanies' phenomenon does not recur. A handful of interpretive choices remain consequential: the LXX's handling of Baal-zebub at 1:3, the ascension vocabulary for Elijah at 2:11 that supplies the NT's analēmpsis word-field, and the Naaman narrative of chapter 5 that became one of the most important scriptural texts for early Christian baptismal theology.",
+    "notable_variants": "The Baal-zebub / Beelzebul name-form question (LXX preserves zebub); the Elijah ascension vocabulary at 2:11 that shapes Acts 1:2 and 1:11; Naaman's sevenfold immersion as a baptismal proto-type; the explanation at 17:7 of why the Northern Kingdom fell; Hezekiah's Temple prayer vocabulary at 19:15; and the closing note at 25:30 that quietly signals exile hope preserved.",
+    "theological_legacy": "LXX 2 Kings is the source of Jesus' deployment of the Naaman story at Luke 4:27, part of his inaugural Nazareth sermon about God's outreach beyond Israel. The Elijah ascension vocabulary is the textual basis for both NT ascension accounts (Luke 24:51, Acts 1:9–11). The Samaritan polemic of 2 Kings 17 stands behind John 4's Samaritan-woman dialogue."
+  },
+  "renderings": [
+    {
+      "reference": "2 Kings 1:3",
+      "mt_reading": "בַּעַל זְבוּב אֱלֹהֵי עֶקְרוֹן",
+      "lxx_reading": "ἐν τῇ Βααλ μυῖαν θεὸν Ακκαρων",
+      "mt_rendering": "Baal-zebub, the god of Ekron",
+      "lxx_rendering": "Baal the Fly, the god of Akkaron",
+      "significance": "moderate",
+      "notes": [
+        "The LXX preserves 'Baal-zebub' (Baal the Fly) and even glosses it by translating zebub as 'fly' (myia). The NT's 'Beelzeboul' (Matt 10:25, 12:24, 12:27; Mark 3:22; Luke 11:15, 11:18–19) is a different form, usually taken to mean 'Baal the Prince' or 'Lord of the Dwelling.'",
+        "Whether 'Baal-zebub' in 2 Kings is original or a pejorative distortion of an original 'Baal-zebul' is scholarly disputed. The LXX preserves the pejorative form and underscores it by translating it.",
+        "The NT's 'Beelzeboul' as a name for the prince of demons draws on this broader Ekronite-Baal polemical tradition, though the specific form differs from the LXX 2 Kings name."
+      ]
+    },
+    {
+      "reference": "2 Kings 2:11",
+      "mt_reading": "וַיַּעַל אֵלִיָּהוּ בַּסְּעָרָה הַשָּׁמָיִם",
+      "lxx_reading": "καὶ ἀνελήμφθη Ηλιου ἐν συσσεισμῷ ὡς εἰς τὸν οὐρανόν",
+      "mt_rendering": "Elijah went up in a whirlwind to heaven",
+      "lxx_rendering": "And Elijah was taken up in a whirlwind as into heaven",
+      "significance": "theological",
+      "notes": [
+        "The LXX's anelēmphthē ('was taken up') is the passive form of analambanō — the verb that supplies the NT's ascension word-field. Acts 1:2 (hēs hēmeras … anelēmphthē, 'on the day he was taken up'), Acts 1:11 ('Jesus, who was taken up from you into heaven'), and Acts 1:22 (anelēmphthē) all use this LXX Elijah verb for Jesus' ascension.",
+        "1 Timothy 3:16 concludes its hymnic confession with anelēmphthē en doxē — 'taken up in glory' — using the same verb.",
+        "The Elijah-ascension-to-Jesus-ascension typology is unmistakable in Greek. The Gospels' and Acts' deliberate use of LXX 2 Kings 2 vocabulary makes the parallel explicit."
+      ]
+    },
+    {
+      "reference": "2 Kings 5:14",
+      "mt_reading": "וַיִּטְבֹּל בַּיַּרְדֵּן שֶׁבַע פְּעָמִים",
+      "lxx_reading": "καὶ ἐβαπτίσατο ἐν τῷ Ιορδάνῃ ἑπτάκι",
+      "mt_rendering": "he … immersed himself in the Jordan seven times",
+      "lxx_rendering": "and he baptized himself in the Jordan seven times",
+      "significance": "theological",
+      "notes": [
+        "The LXX uses ebaptisato ('baptized himself') for Hebrew tabal ('dipped, immersed'). This is one of the earliest LXX occurrences of the verb baptizō in a ritual-immersion sense and the single most important pre-NT baptism-word use.",
+        "Luke 4:27 has Jesus cite the Naaman story by name at his Nazareth sermon: 'there were many lepers in Israel in the time of the prophet Elisha, and none of them was cleansed, only Naaman the Syrian.' The baptism and the cleansing-of-a-Gentile themes converge in the LXX text Jesus is citing.",
+        "The Naaman narrative, read through its LXX baptisō vocabulary, became one of the most important patristic proof-texts for sevenfold Trinitarian immersion and for the catechumenal scrutinies."
+      ]
+    },
+    {
+      "reference": "2 Kings 17:7",
+      "mt_reading": "וַיִּירְאוּ אֱלֹהִים אֲחֵרִים",
+      "lxx_reading": "καὶ ἐφοβοῦντο θεοὺς ἑτέρους",
+      "mt_rendering": "They feared other gods",
+      "lxx_rendering": "And they feared other gods",
+      "significance": "moderate",
+      "notes": [
+        "The LXX's theous heterous ('other gods') is the standard Greek rendering of elohim acherim. The Deuteronomic-historical evaluation of the Northern Kingdom's fall — 'because they feared other gods' — is preserved precisely in Greek.",
+        "John 4's Samaritan-woman dialogue ('our fathers worshiped on this mountain') presupposes the LXX 2 Kings 17 historiography: the Samaritans are the heirs of a Northern Kingdom that fell because of syncretistic worship. The dialogue's theological sharpness in John depends on the reader knowing the Kings narrative."
+      ]
+    },
+    {
+      "reference": "2 Kings 19:15",
+      "mt_reading": "יֹשֵׁב הַכְּרֻבִים",
+      "lxx_reading": "ὁ καθήμενος ἐπὶ τῶν χερουβιν",
+      "mt_rendering": "enthroned above the cherubim",
+      "lxx_rendering": "the one seated upon the cherubim",
+      "significance": "moderate",
+      "notes": [
+        "Hezekiah's Temple prayer addresses YHWH as 'the one seated upon the cherubim' — a title used also at 1 Samuel 4:4, 2 Samuel 6:2, Psalm 80 (79:2 LXX), 99 (98:1 LXX), and Isaiah 37:16. The LXX standardizes the title as ho kathēmenos epi tōn cheroubin.",
+        "Revelation 4–5's throne-and-living-creatures vision draws extensively on LXX cherubim-throne vocabulary from 2 Kings 19, Isaiah 6, and Ezekiel 1. The title for God as the enthroned-among-the-cherubim carries into NT apocalyptic imagery as part of its standard Septuagintal theological vocabulary."
+      ]
+    },
+    {
+      "reference": "2 Kings 23:25",
+      "mt_reading": "בְּכָל־לְבָבוֹ וּבְכָל־נַפְשׁוֹ וּבְכָל־מְאֹדוֹ",
+      "lxx_reading": "ἐν ὅλῃ καρδίᾳ αὐτοῦ καὶ ἐν ὅλῃ ψυχῇ αὐτοῦ καὶ ἐν ὅλῃ ἰσχύι αὐτοῦ",
+      "mt_rendering": "with all his heart, all his soul, and all his strength",
+      "lxx_rendering": "with all his heart and with all his soul and with all his strength",
+      "significance": "moderate",
+      "notes": [
+        "The evaluation of Josiah uses the LXX form of the Shema triad (kardia / psychē / ischys). This is the exact vocabulary set that Mark 12:30 adds to the Deuteronomy 6:5 citation.",
+        "Some manuscript traditions of the Synoptic Gospels read ischys ('strength') while others read dynamis ('power') at Mark 12:30 — both reflect the same LXX textual field. The Josiah-as-embodiment-of-the-Shema narrative is one of the clearest LXX historical applications of the Deuteronomy 6 formula."
+      ]
+    },
+    {
+      "reference": "2 Kings 25:30",
+      "mt_reading": "וַאֲרֻחָתוֹ אֲרֻחַת תָּמִיד",
+      "lxx_reading": "καὶ ἡ ἑστιατορία αὐτοῦ ἑστιατορία διὰ παντὸς",
+      "mt_rendering": "His food allowance, a regular daily provision",
+      "lxx_rendering": "And his food allowance was a perpetual food allowance",
+      "significance": "moderate",
+      "notes": [
+        "The final verse of 2 Kings notes that Jehoiachin, the last named Davidic king, was given regular provisions from the Babylonian royal table until his death. The LXX preserves the same understated hopeful closure.",
+        "This closing note is what Matthew 1:11–12 picks up as the genealogical transition from pre-exile to post-exile generations: the line of David, though captive and silent, continues through Jehoiachin. The narrative thread that the LXX preserved at the very last verse of Kings is the thread the Matthean genealogy resumes."
+      ]
+    }
+  ]
+}

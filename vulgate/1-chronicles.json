@@ -1,0 +1,122 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "1 Chronicles",
+    "tradition": "vulgate",
+    "tradition_label": "Latin Vulgate",
+    "source_text": "Biblia Sacra Vulgata (Stuttgart critical edition)",
+    "base_text": "Westminster Leningrad Codex (WLC)",
+    "translator": "Jerome (Eusebius Sophronius Hieronymus)",
+    "date": "382-405 CE",
+    "generated_at": "2026-04-20T00:00:00Z",
+    "prompt_version": "2.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Jerome's 1 Chronicles (titled 1 Paralipomenon in the Vulgate, meaning 'things omitted') renders the Chronicler's liturgical and genealogical material with Latin vocabulary that shaped Western worship theology, Levitical ministry concepts, and the doxological tradition of the Church.",
+    "notable_renderings": "The Levitical ministry vocabulary (ministri, cantores, ianitores), David's prayer and praise terminology (benedictus, gloria, magnificentia), the Temple preparation language, and the genealogical formulas all established durable Latin liturgical and theological categories.",
+    "theological_legacy": "1 Chronicles' Vulgate established the Western vocabulary for liturgical ministry (ministers, singers, gatekeepers), provided the doxological formulas that entered Christian worship (benedictus Dominus Deus Israhel), and shaped the theological understanding of worship as organized, professional, Levitical service — a model that deeply influenced Western clerical and liturgical structures."
+  },
+  "renderings": [
+    {
+      "reference": "1 Chronicles 16:8-10",
+      "source_text": "הוֹדוּ לַיהוָה קִרְאוּ בִשְׁמוֹ הוֹדִיעוּ בָעַמִּים עֲלִילוֹתָיו... הִתְהַלְלוּ בְּשֵׁם קָדְשׁוֹ",
+      "vulgate_text": "confitemini Domino et invocate nomen eius notas facite in populis adinventiones eius... laudamini in nomine sancto eius",
+      "vulgate_rendering": "Give thanks to the Lord and call upon his name; make known among the peoples his inventions/deeds... glory in his holy name",
+      "tcr_rendering": "Give thanks to the LORD, call upon His name; make known His deeds among the peoples... Glory in His holy name",
+      "theological_legacy": "Confitemini Domino (give thanks/confess to the Lord) established the dual sense of confessio in Western theology: both praise/thanksgiving and confession of sin. This ambiguity profoundly shaped Western penitential theology where praise and confession became intertwined liturgical acts.",
+      "notes": ["Hebrew hodu means 'give thanks/praise.' Jerome's confitemini carries both thanksgiving and confession senses in Latin, creating a productive ambiguity that Augustine exploited extensively: true confession to God is simultaneously acknowledgment of sin and praise of divine mercy."]
+    },
+    {
+      "reference": "1 Chronicles 16:29",
+      "source_text": "הָבוּ לַיהוָה כְּבוֹד שְׁמוֹ שְׂאוּ מִנְחָה וּבֹאוּ לְפָנָיו הִשְׁתַּחֲווּ לַיהוָה בְּהַדְרַת קֹדֶשׁ",
+      "vulgate_text": "date Domino gloriam nomini eius levate sacrificium et venite in conspectu eius et adorate Dominum in decore sancto",
+      "vulgate_rendering": "Give to the Lord the glory of his name; bring a sacrifice and come into his presence; adore the Lord in holy beauty",
+      "tcr_rendering": "Ascribe to the LORD the glory of His name; bring an offering and come before Him; worship the LORD in the splendor of holiness",
+      "theological_legacy": "Adorate Dominum in decore sancto (adore the Lord in holy beauty/adornment) shaped the Western theology of worship aesthetics. Decor sanctus (holy beauty) became the theological justification for liturgical beauty, sacred art, and architectural splendor in worship — the principle that beauty in worship honors God.",
+      "notes": ["Hebrew hadrat qodesh means 'splendor/majesty of holiness' — possibly referring to holy garments or the general splendor of holiness itself. Jerome's decor sancto (holy beauty/adornment) was read as prescribing beautiful worship environments, becoming a foundational text for Western sacred aesthetics from Romanesque architecture through the Baroque."]
+    },
+    {
+      "reference": "1 Chronicles 16:34",
+      "source_text": "הוֹדוּ לַיהוָה כִּי טוֹב כִּי לְעוֹלָם חַסְדּוֹ",
+      "vulgate_text": "confitemini Domino quoniam bonus quoniam in aeternum misericordia eius",
+      "vulgate_rendering": "Give thanks to the Lord, for he is good, for his mercy endures forever",
+      "tcr_rendering": "Give thanks to the LORD, for He is good; for His covenant-faithfulness endures forever",
+      "theological_legacy": "In aeternum misericordia eius (his mercy is forever) for le'olam chasdo (his chesed is forever) is the Vulgate's most repeated liturgical formula. Misericordia for chesed throughout the Psalter and Chronicles reduced covenantal faithfulness to emotional mercy, shaping the entire Western understanding of God's primary disposition toward humanity.",
+      "notes": ["This refrain (repeated throughout Chronicles, Psalms, and Ezra) is the Vulgate's most consequential recurring rendering. Chesed means covenant-faithfulness, loyal love, binding commitment. Misericordia (mercy, compassion) shifts from bilateral covenant obligation to unilateral divine emotion. This single rendering arguably shaped Western theology more than any other Vulgate choice."]
+    },
+    {
+      "reference": "1 Chronicles 17:14",
+      "source_text": "וְהַעֲמַדְתִּיהוּ בְּבֵיתִי וּבְמַלְכוּתִי עַד־הָעוֹלָם",
+      "vulgate_text": "et statuam eum in domo mea et in regno meo usque in sempiternum",
+      "vulgate_rendering": "And I will establish him in my house and in my kingdom forever",
+      "tcr_rendering": "I will set him over My house and My kingdom forever",
+      "theological_legacy": "In domo mea et in regno meo (in my house and in my kingdom) — the Chronicler's version of the Davidic covenant specifies God's house and God's kingdom (unlike 2 Samuel 7 which speaks of David's house and kingdom). Jerome preserves this crucial distinction: the Davidic heir rules God's kingdom, not his own. This shaped Western theocratic theology.",
+      "notes": ["The Chronicler's theology diverges from 2 Samuel 7 by making the house and kingdom explicitly God's (beiti, malkhuti) rather than David's. Jerome faithfully preserves this with domo mea, regno meo, supporting the Western theocratic reading that earthly kings are stewards of God's kingdom, not autonomous sovereigns."]
+    },
+    {
+      "reference": "1 Chronicles 21:1",
+      "source_text": "וַיַּעֲמֹד שָׂטָן עַל יִשְׂרָאֵל וַיָּסֶת אֶת דָּוִיד לִמְנוֹת אֶת יִשְׂרָאֵל",
+      "vulgate_text": "consurrexit autem Satan contra Israhel et concitavit David ut numeraret Israhel",
+      "vulgate_rendering": "And Satan rose up against Israel and incited David to number Israel",
+      "tcr_rendering": "Then an adversary stood against Israel and incited David to count Israel",
+      "theological_legacy": "Satan (capitalized, treated as a proper name) rather than translating as 'adversary' established this as one of the few Old Testament passages where Western theology identified a personal devil figure. The contrast with 2 Samuel 24:1 (where God incites David) created a major Western theological problem about divine sovereignty versus satanic agency.",
+      "notes": ["Hebrew satan here may be a common noun ('an adversary') or a proper name. Jerome treats it as a proper name (Satan without article), establishing this passage alongside Job as evidence for a personal devil figure in the Old Testament. The contradiction with 2 Samuel 24:1 generated centuries of Western theodicy discussion about the relationship between divine permission and satanic instigation."]
+    },
+    {
+      "reference": "1 Chronicles 23:5",
+      "source_text": "וְאַרְבַּעַת אֲלָפִים מְהַלְלִים לַיהוָה בַּכֵּלִים אֲשֶׁר עָשִׂיתִי לְהַלֵּל",
+      "vulgate_text": "et quattuor milia laudantium Dominum in organis quae fecerat ad canendum",
+      "vulgate_rendering": "And four thousand praising the Lord with instruments which he had made for singing",
+      "tcr_rendering": "and four thousand praising the LORD with instruments that I made for praising",
+      "theological_legacy": "Organis (instruments/organs) for kelim (instruments/vessels) eventually gave English the word 'organ' for the church instrument. Laudantium (praising) established the Levitical praise ministry as a professional category. This passage provided biblical precedent for organized church music with manufactured instruments.",
+      "notes": ["Jerome's organis (from Greek organon, instrument/tool) for Hebrew kelim (implements, instruments) eventually narrowed in Western usage to refer specifically to the pipe organ. The passage became the primary biblical warrant for instrumental music in worship, cited in both medieval and Reformation debates about church music."]
+    },
+    {
+      "reference": "1 Chronicles 25:1",
+      "source_text": "וַיַּבְדֵּל דָּוִיד וְשָׂרֵי הַצָּבָא לַעֲבוֹדָה לִבְנֵי אָסָף... הַנִּבְּאִים בְּכִנֹּרוֹת",
+      "vulgate_text": "igitur David et magistratus exercitus segregaverunt in ministerium filios Asaph... qui prophetarent in citharis",
+      "vulgate_rendering": "Therefore David and the commanders of the army separated for the ministry the sons of Asaph... who would prophesy with harps",
+      "tcr_rendering": "David and the commanders of the army set apart for service the sons of Asaph... who prophesied with lyres",
+      "theological_legacy": "Prophetarent in citharis (prophesy with harps/lyres) established the Western concept of musical prophecy — that instrumental music can be a vehicle of prophetic inspiration. Ministerium (ministry) for avodah (service) gave liturgical music the status of formal ministry, shaping Western theology of church music as genuine spiritual ministry rather than mere accompaniment.",
+      "notes": ["The Hebrew nibbeim (prophesying) applied to musicians established that musical worship could be prophetic activity. Jerome's prophetarent preserved this connection, which became foundational for Western theology of inspired church music. Medieval and Reformed theologians debated whether musical prophecy continued in the Church or ceased with the Levitical order."]
+    },
+    {
+      "reference": "1 Chronicles 28:9",
+      "source_text": "דַּע אֶת אֱלֹהֵי אָבִיךָ וְעָבְדֵהוּ בְּלֵב שָׁלֵם וּבְנֶפֶשׁ חֲפֵצָה כִּי כָל־לְבָבוֹת דּוֹרֵשׁ יְהוָה",
+      "vulgate_text": "tu autem Salomon fili mi scito Deum patris tui et servito ei corde perfecto et animo voluntario universa enim corda scrutatur Dominus",
+      "vulgate_rendering": "And you, Solomon my son, know the God of your father and serve him with a perfect heart and a willing soul, for the Lord searches all hearts",
+      "tcr_rendering": "As for you, Solomon my son, know the God of your father and serve Him with a whole heart and a willing soul, for the LORD searches every heart",
+      "theological_legacy": "Corde perfecto (with a perfect heart) for lev shalem (whole/complete heart) introduced the concept of moral perfection into what the Hebrew presents as wholeness/integrity. Scrutatur (searches/examines) for doresh (seeks) intensified divine heart-knowledge into active investigation, shaping Western theology of divine omniscience as judicial examination.",
+      "notes": ["Jerome's perfectum for shalem shifts from wholeness/completeness to moral perfection — a significant theological move. This shaped Western holiness theology's emphasis on perfection (perfectionism) rather than the Hebrew concept of integrity/wholeness. The same word (perfectum) applied to Christian sanctification created standards of moral perfection that drove both asceticism and despair."]
+    },
+    {
+      "reference": "1 Chronicles 29:10-11",
+      "source_text": "בָּרוּךְ אַתָּה יְהוָה אֱלֹהֵי יִשְׂרָאֵל אָבִינוּ מֵעוֹלָם וְעַד עוֹלָם לְךָ יְהוָה הַגְּדֻלָּה וְהַגְּבוּרָה",
+      "vulgate_text": "benedictus es Domine Deus Israhel patris nostri ab aeterno in aeternum tua est Domine magnificentia et potentia",
+      "vulgate_rendering": "Blessed are you, Lord God of Israel our father, from eternity to eternity; yours, O Lord, is the magnificence and the power",
+      "tcr_rendering": "Blessed are You, O LORD God of Israel our father, from everlasting to everlasting. Yours, O LORD, is the greatness and the power",
+      "theological_legacy": "This doxology (tua est magnificentia et potentia et gloria et victoria et maiestas) became the basis for the Lord's Prayer doxology in Western liturgy. The fivefold attribution (magnificence, power, glory, victory, majesty) shaped Western doxological formulas and entered the eucharistic liturgy.",
+      "notes": ["David's prayer in 1 Chronicles 29:10-13 is the closest Old Testament parallel to the Lord's Prayer doxology ('for thine is the kingdom, the power, and the glory'). Jerome's rendering provided the vocabulary that the Western Church used in its doxological additions to the Pater Noster and eucharistic prayers."]
+    },
+    {
+      "reference": "1 Chronicles 29:14",
+      "source_text": "כִּי מִמְּךָ הַכֹּל וּמִיָּדְךָ נָתַנּוּ לָךְ",
+      "vulgate_text": "tua sunt enim omnia et quae de manu tua accepimus dedimus tibi",
+      "vulgate_rendering": "For all things are yours, and what we have received from your hand we have given to you",
+      "tcr_rendering": "For all things come from You, and from Your own hand we have given to You",
+      "theological_legacy": "Tua sunt omnia (all things are yours) and de manu tua accepimus (from your hand we received) became the foundational stewardship theology formula in Western Christianity. The concept that human giving to God is merely returning what was already His shaped Western offertory theology and entered the eucharistic liturgy.",
+      "notes": ["Jerome renders faithfully and memorably. This verse became the standard offertory prayer theology in the Western Mass: everything offered to God was first received from God. The Roman Rite offertory prayers echo this theology directly, and Western stewardship theology is built on this Chronicler's principle rendered in Jerome's Latin."]
+    },
+    {
+      "reference": "1 Chronicles 12:18",
+      "source_text": "וְרוּחַ לָבְשָׁה אֶת עֲמָשַׂי",
+      "vulgate_text": "spiritus autem induit Amasai",
+      "vulgate_rendering": "And the Spirit clothed Amasai",
+      "tcr_rendering": "Then the Spirit clothed Amasai",
+      "theological_legacy": "Spiritus induit (the Spirit clothed) again uses the clothing metaphor for Spirit-empowerment (as in Judges 6:34). The consistency of this rendering across books established the 'investiture' model of the Spirit's work in Western pneumatology — the Spirit wraps and covers the person like a garment.",
+      "notes": ["The same Hebrew idiom (ruach lavsha, the Spirit clothed) appears in Judges and Chronicles, and Jerome renders consistently with induit. This Spirit-as-garment metaphor influenced Western liturgical theology of vestment symbolism: priestly robes represent being clothed by the Spirit for ministry."]
+    }
+  ]
+}

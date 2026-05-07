@@ -1,0 +1,348 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "2 Maccabees",
+    "chapter": 14,
+    "tradition": "vulgate",
+    "tradition_label": "Latin Vulgate (Deuterocanonical)",
+    "source_text": "Biblia Sacra Vulgata (Stuttgart critical edition)",
+    "translator": "Jerome",
+    "date": "c. 405 CE",
+    "canon": ["catholic", "orthodox", "ethiopian"],
+    "generated_at": "2026-04-20T00:00:00Z",
+    "prompt_version": "2.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Three years later, Demetrius I seizes the Seleucid throne. The renegade priest Alcimus approaches the new king and persuades him that Judas Maccabeus is a threat to the empire. Demetrius sends Nicanor with a large army. Initially, Nicanor and Judas establish a cordial relationship — Nicanor even urges Judas to marry and settle down. But Alcimus poisons the relationship, and the king orders Nicanor to arrest Judas. When Nicanor threatens to destroy the Temple if Judas is not surrendered, the priests stretch out their hands in prayer. The chapter climaxes with the martyrdom of Razis, a city elder who kills himself rather than fall into enemy hands.",
+    "remarkable": "The chapter presents a rare portrait of a pagan general (Nicanor) who genuinely befriends a Jewish leader, only to be corrupted by political pressure. The martyrdom of Razis (vv. 37-46) is one of the most graphic suicide accounts in biblical literature: he falls on his sword, then tears out his own entrails and throws them at the crowd, calling upon God to restore them. His act was debated for centuries — Augustine condemned it as suicide; others honored it as martyrdom. The scene's visceral theology insists that the body torn apart in defiance will be restored whole in resurrection.",
+    "friction": "Razis's suicide raises the most difficult ethical question in the book: is self-killing to avoid capture an act of martyrdom or a sin? The text presents it favorably — Razis acts 'nobiliter' (nobly) and with resurrection hope. We render the text as it stands without resolving the ethical debate, which belongs to commentary rather than translation. The graphic physical details of his self-disembowelment require faithful rendering because the theological point depends on the body's destruction.",
+    "connections": "Nicanor's threat against the Temple (vv. 31-33) echoes Heliodorus's attempted robbery (chapter 3) but with greater menace — Nicanor threatens to raze the Temple entirely and build a temple to Dionysus in its place. The priests' prayer with outstretched hands (v. 34) echoes 3:15-20. Razis's death connects to the seven brothers (chapter 7) in its resurrection theology, but adds the element of voluntary death. Nicanor's story continues and concludes in chapter 15."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_latin": "Post triennii autem tempus cognovit Iudas et qui cum eo erant Demetrium Seleuci filium cum multitudine valida et navibus per portum Tripolis adscendisse ad loca oportuna.",
+      "rendering": "After a period of three years, Judas and those with him learned that Demetrius son of Seleucus had landed at the port of Tripolis with a strong force and a fleet, and had seized strategic positions.",
+      "translator_notes": ["Demetrius I Soter (162 BCE) seizes the throne by naval invasion at Tripolis — a new political era begins."],
+      "key_terms": []
+    },
+    {
+      "verse": 2,
+      "text_latin": "Et tenuisse regiones adversum Antiochum et ducem eius Lysiam.",
+      "rendering": "And he had taken control of the territory against Antiochus and his general Lysias.",
+      "translator_notes": ["Demetrius overthrows Antiochus V and Lysias — the Seleucid succession by violence continues."],
+      "key_terms": []
+    },
+    {
+      "verse": 3,
+      "text_latin": "Alcimus autem quidam qui summus sacerdos fuerat et voluntarie coinquinatus est temporibus commixtionis considerans nullo modo sibi esse salutem neque accessum ad altare.",
+      "rendering": "A certain Alcimus, who had formerly been high priest but had willingly defiled himself in the times of mixing, considered that there was no safety for him in any way and no access to the altar.",
+      "translator_notes": ["Alcimus — a former high priest who had compromised during the Hellenistic crisis ('temporibus commixtionis' — the times of mixing/contamination). He cannot serve at the altar because of his self-defilement."],
+      "key_terms": [{"latin": "temporibus commixtionis", "rendered_as": "in the times of mixing", "note": "The period of cultural and religious contamination under Hellenistic pressure — Alcimus participated willingly."}]
+    },
+    {
+      "verse": 4,
+      "text_latin": "Venit ad regem Demetrium centesimo et quinquagesimo anno offerens ei coronam auream et palmam super haec et thallos qui templi esse videbantur. Et ipso quidem die siluit.",
+      "rendering": "He came to King Demetrius in the year one hundred and fifty, presenting him with a golden crown and a palm, and besides these, olive branches that seemed to belong to the Temple. And on that day he kept silent.",
+      "translator_notes": ["Alcimus's approach to Demetrius is calculated: gifts including Temple olive branches (implying he has access), and a strategic silence on his first audience — waiting for the right moment."],
+      "key_terms": []
+    },
+    {
+      "verse": 5,
+      "text_latin": "Tempus autem oportunum dementiae suae nactus convocatus a Demetrio ad consilium et interrogatus quibus rebus et consiliis Iudaei niterentur respondit.",
+      "rendering": "But finding a favorable opportunity for his own madness, when he was summoned by Demetrius to a council meeting and asked on what basis and with what plans the Jews were proceeding, he answered:",
+      "translator_notes": ["The narrator calls Alcimus's scheme 'dementia' (madness) — his self-serving treachery is presented as a form of insanity."],
+      "key_terms": []
+    },
+    {
+      "verse": 6,
+      "text_latin": "Hi qui dicuntur Asidaei Iudaeorum quibus praeest Iudas Macchabaeus bella nutriunt et seditiones movent nec patiuntur regnum esse quietum.",
+      "rendering": "'Those who are called Hasideans among the Jews, led by Judas Maccabeus, are fomenting wars and stirring up sedition, and they do not allow the kingdom to be at peace.'",
+      "translator_notes": ["Alcimus frames the Maccabean resistance as mere sedition against the crown. The 'Hasideans' (Asidaei/Chasidim — the Pious) are the devout party who joined the Maccabean cause."],
+      "key_terms": [{"latin": "Asidaei", "rendered_as": "Hasideans", "note": "The Chasidim — the devoutly observant Jews who formed the core of the Maccabean resistance movement."}]
+    },
+    {
+      "verse": 7,
+      "text_latin": "Nam et ego defraudatus parentum gloria dico autem de summo sacerdotio huc veni.",
+      "rendering": "'For I also, having been deprived of the glory of my ancestors — I mean the high priesthood — have come here.'",
+      "translator_notes": ["Alcimus reveals his personal motive: he wants the high priesthood restored to him. His appeal to 'ancestral glory' masks naked ambition."],
+      "key_terms": []
+    },
+    {
+      "verse": 8,
+      "text_latin": "Primo quidem utilitatibus regis fidem servans secundo autem etiam civibus meis consulens nam illorum inprudentia universum genus nostrum non minime vexatur.",
+      "rendering": "'First, out of genuine loyalty to the king's interests; and second, out of concern also for my fellow citizens, for through their folly our entire nation suffers no small hardship.'",
+      "translator_notes": ["Alcimus claims dual loyalty — to the king and to his people. The narrator has already revealed his true motive: personal power."],
+      "key_terms": []
+    },
+    {
+      "verse": 9,
+      "text_latin": "Quibus singulis cognitis tu et regioni et generi pro tua humanitate quam universi praedicant consule.",
+      "rendering": "'Having learned all these things, your Majesty, provide for both the region and our nation according to your well-known humanity and generosity.'",
+      "translator_notes": ["Alcimus flatters the king and asks for intervention — couching his request as concern for public welfare."],
+      "key_terms": []
+    },
+    {
+      "verse": 10,
+      "text_latin": "Nam quamdiu superest Iudas impossibile est pacem esse negotiis.",
+      "rendering": "'For as long as Judas lives, it is impossible for peace to exist in public affairs.'",
+      "translator_notes": ["The core accusation: Judas is the obstacle to peace. This frames the Maccabean leader as a target for elimination."],
+      "key_terms": []
+    },
+    {
+      "verse": 11,
+      "text_latin": "Talibus autem ab hoc dictis et ceteri amici hostiliter se habentes adversum Iudam Demetrium inflammaverunt.",
+      "rendering": "After he had spoken such things, the rest of the king's friends, who were hostile to Judas, further inflamed Demetrius.",
+      "translator_notes": ["The court faction hostile to the Jews amplifies Alcimus's message — group pressure on the king."],
+      "key_terms": []
+    },
+    {
+      "verse": 12,
+      "text_latin": "Qui statim Nicanorem praepositum elefantorum ducem misit in Iudaeam.",
+      "rendering": "He immediately sent Nicanor, the commander of the elephant corps, as governor to Judea.",
+      "translator_notes": ["Nicanor returns — the same general defeated in chapter 8, now holding a higher rank as commander of the elephant corps."],
+      "key_terms": [{"latin": "praepositum elefantorum", "rendered_as": "the commander of the elephant corps", "note": "A high military rank in the Seleucid army — commanding the war elephants was a position of great prestige."}]
+    },
+    {
+      "verse": 13,
+      "text_latin": "Datis mandatis ut ipsum quidem Iudam caperet eos vero qui cum illo erant dispergeret constitueret autem Alcimum maximi templi summum sacerdotem.",
+      "rendering": "He was given orders to capture Judas, to scatter those who were with him, and to install Alcimus as high priest of the great Temple.",
+      "translator_notes": ["Three orders: capture Judas, disperse his forces, install Alcimus as high priest. The entire operation serves Alcimus's ambition."],
+      "key_terms": []
+    },
+    {
+      "verse": 14,
+      "text_latin": "At hi qui fugerant Iudam gentes ex Iudaea gregatim se Nicanori miscebant miserias et clades Iudaeorum prosperitates rerum suarum existimantes.",
+      "rendering": "The Gentiles who had fled from Judas throughout Judea flocked to join Nicanor in droves, regarding the miseries and calamities of the Jews as their own prosperity.",
+      "translator_notes": ["Those who had been displaced by the Maccabean victories now rally to Nicanor, seeing Jewish suffering as their gain."],
+      "key_terms": []
+    },
+    {
+      "verse": 15,
+      "text_latin": "Audito itaque Iudaei Nicanori adventu et accessu nationum consperssi terra deprecabantur eum qui populum suum constituit ut in aeternum custodiret quique suos manifesta signa faciens protegit.",
+      "rendering": "When the Jews heard of Nicanor's advance and the gathering of the nations, they sprinkled dust on themselves and prayed to him who established his people forever and always protects his own, manifesting clear signs.",
+      "translator_notes": ["The familiar pattern: dust and prayer before the confrontation. The theological grounding: God who established Israel forever."],
+      "key_terms": []
+    },
+    {
+      "verse": 16,
+      "text_latin": "Imperante autem duce protinus inde moventes commiserunt apud castellum Dessau.",
+      "rendering": "At the commander's order, they immediately set out and engaged the enemy at the town of Dessau.",
+      "translator_notes": ["The initial engagement at Dessau — a preliminary clash."],
+      "key_terms": []
+    },
+    {
+      "verse": 17,
+      "text_latin": "Simon autem frater Iudae commiserat cum Nicanore sed a propinquitate hostium reppedatus modice tardatus est.",
+      "rendering": "Simon, the brother of Judas, had engaged Nicanor, but was momentarily checked by the sudden appearance of the enemy.",
+      "translator_notes": ["Simon fights Nicanor to a temporary standstill — a minor setback."],
+      "key_terms": []
+    },
+    {
+      "verse": 18,
+      "text_latin": "Verumtamen audiens Nicanor quam virtutem haberent hi qui cum Iuda erant et animi magnitudinem quam pro patriae proeliis haberent sanguine iudicium facere metuebat.",
+      "rendering": "Nevertheless, when Nicanor heard of the valor of those who were with Judas, and the greatness of spirit they showed in fighting for their country, he was afraid to decide the matter by bloodshed.",
+      "translator_notes": ["Nicanor, unlike many of his predecessors, hesitates. He recognizes the quality of the Maccabean fighters and fears a bloody outcome."],
+      "key_terms": []
+    },
+    {
+      "verse": 19,
+      "text_latin": "Quam ob rem misit Posidonium et Theodotum et Mattathiam ut darent dextras atque acciperent.",
+      "rendering": "For this reason he sent Posidonius, Theodotus, and Mattathias to offer and receive pledges of peace.",
+      "translator_notes": ["Nicanor initiates peace talks through three envoys — a genuine diplomatic opening."],
+      "key_terms": []
+    },
+    {
+      "verse": 20,
+      "text_latin": "Cum ergo diutius de his consilium fieret et ipse dux ad multitudinem rettulisset omnium una fuit sententia amicitiis adnuere.",
+      "rendering": "When the matter had been deliberated at length and the commander himself had referred it to the multitude, the unanimous decision was to agree to the terms of friendship.",
+      "translator_notes": ["Both sides agree to peace — a rare moment of Seleucid-Jewish friendship, approved by unanimous assembly."],
+      "key_terms": []
+    },
+    {
+      "verse": 21,
+      "text_latin": "Itaque diem constituerunt qua secreto inter se agerent et singulis sellae prolatae sunt et positae.",
+      "rendering": "So they appointed a day on which they would meet privately. Chairs were brought forward for each and placed.",
+      "translator_notes": ["A diplomatic summit: two chairs, a private meeting, formal protocol. The detail of the chairs signals a meeting of equals."],
+      "key_terms": []
+    },
+    {
+      "verse": 22,
+      "text_latin": "Praecepit Iudas armatos esse locis oportunis ne forte ab hostibus repente malum oriretur et congruum sermonem fecerunt.",
+      "rendering": "Judas had ordered armed men to be stationed in strategic positions, in case the enemy should suddenly launch a treacherous attack. They conducted the discussions appropriately.",
+      "translator_notes": ["Judas takes security precautions — armed guards at strategic points — but the talks themselves proceed well."],
+      "key_terms": []
+    },
+    {
+      "verse": 23,
+      "text_latin": "Morabatur autem Nicanor Hierosolymis nihilque inique agebat et greges vulgi qui congregati fuerant dimisit.",
+      "rendering": "Nicanor stayed on in Jerusalem and behaved with complete propriety. He dismissed the crowds that had gathered around him.",
+      "translator_notes": ["An extraordinary detail: the Seleucid general resides in Jerusalem peacefully, acts with integrity, and de-escalates the situation by dismissing the troops."],
+      "key_terms": []
+    },
+    {
+      "verse": 24,
+      "text_latin": "Habebat autem Iudam semper carum ex animo et erat viro inclinatus.",
+      "rendering": "He held Judas always dear from the heart and was genuinely attached to the man.",
+      "translator_notes": ["The friendship between Nicanor and Judas is presented as genuine — 'ex animo' (from the heart). This makes the later betrayal all the more painful."],
+      "key_terms": []
+    },
+    {
+      "verse": 25,
+      "text_latin": "Rogavitque eum ducere uxorem filios procreare. Nuptias fecit quiete vivebat communiterque agebant.",
+      "rendering": "He urged him to marry and have children. Judas married, lived quietly, and they shared life together.",
+      "translator_notes": ["Nicanor urges Judas to settle down — marry, have children, live in peace. Judas does so. A brief idyllic period of friendship between the general and the guerrilla."],
+      "key_terms": []
+    },
+    {
+      "verse": 26,
+      "text_latin": "At Alcimus videns caritatem illorum ad invicem et conventiones adiit Demetrium et dicebat Nicanorem rebus alienis consentire Iudamque regni insidiatorem successorem sibi destinasse.",
+      "rendering": "But Alcimus, seeing their mutual affection and their agreements, went to Demetrius and told him that Nicanor was supporting foreign interests and had designated Judas, a conspirator against the kingdom, as his own successor.",
+      "translator_notes": ["Alcimus destroys the peace: he tells the king that Nicanor has gone native and is grooming Judas as his replacement. Both charges are false, but politically devastating."],
+      "key_terms": []
+    },
+    {
+      "verse": 27,
+      "text_latin": "Itaque rex efferatus et pessimis huius criminationibus irritatus scripsit Nicanori dicens graviter quidem se ferre de amicitiae pactione iubere tamen Macchabaeum vinctum Antiochiam celeriter mittere.",
+      "rendering": "The king, enraged and provoked by the most wicked accusations of this man, wrote to Nicanor saying that he was greatly displeased with the terms of friendship and ordering him to send Maccabeus in chains to Antioch without delay.",
+      "translator_notes": ["The royal order: arrest Judas and send him in chains to Antioch. The friendship is over, destroyed by Alcimus's lies."],
+      "key_terms": []
+    },
+    {
+      "verse": 28,
+      "text_latin": "Quibus cognitis Nicanor consternabatur et graviter ferebat si ea quae convenerant irrita faceret nullo viro laeso.",
+      "rendering": "When Nicanor received these orders, he was dismayed and deeply troubled at the thought of voiding the agreements when the man had done no wrong.",
+      "translator_notes": ["Nicanor's moral dilemma: he must betray a friend who has done nothing wrong. His genuine distress humanizes him — he is not a villain but a man trapped between duty and honor."],
+      "key_terms": []
+    },
+    {
+      "verse": 29,
+      "text_latin": "Et quia regi contra dicere non poterat tempus oportunum observabat quo hoc per industriam compleret.",
+      "rendering": "But since he could not oppose the king, he watched for an opportunity to accomplish this through stratagem.",
+      "translator_notes": ["Unable to refuse the king's order directly, Nicanor reluctantly shifts to covert action against his friend."],
+      "key_terms": []
+    },
+    {
+      "verse": 30,
+      "text_latin": "At Macchabaeus videns se durius agere secum Nicanorem et consuetum occursum ferocius exhibentem intellegens non ex bono esse hanc duritiam congregatis non paucis de suis abscondit se a Nicanore.",
+      "rendering": "But Maccabeus, noticing that Nicanor was treating him more harshly and that their customary meetings had become more hostile, understood that this severity did not come from good will. He gathered a considerable force and went into hiding from Nicanor.",
+      "translator_notes": ["Judas reads the change in Nicanor's behavior — the warmth is gone — and correctly interprets it as a threat. He disappears with his forces before the trap can close."],
+      "key_terms": []
+    },
+    {
+      "verse": 31,
+      "text_latin": "Quod ut cognovit ille digne a viro superatum se venit ad maximum et sanctissimum templum et sacerdotibus solitas hostias offerentibus iussit tradi sibi virum.",
+      "rendering": "When Nicanor realized he had been outmaneuvered by the man, he went to the great and holy Temple. While the priests were offering the customary sacrifices, he ordered them to hand over Judas.",
+      "translator_notes": ["Nicanor storms the Temple and demands the priests surrender Judas — violating the sanctuary's sanctity and the ongoing sacrifice."],
+      "key_terms": []
+    },
+    {
+      "verse": 32,
+      "text_latin": "Illis autem cum iuramento dicentibus nescire se ubi esset qui quaerebatur.",
+      "rendering": "When they swore that they did not know where the wanted man was,",
+      "translator_notes": ["The priests swear ignorance — an oath taken to protect Judas at the altar."],
+      "key_terms": []
+    },
+    {
+      "verse": 33,
+      "text_latin": "Extendens manum contra templum iuravit et ait: Nisi vinctum mihi Iudam tradideritis istud Dei fanum in planitiem deducam et altare effodiam et templum hoc Libero Patri consecrabo.",
+      "rendering": "Stretching out his hand against the Temple, he swore an oath: 'Unless you hand Judas over to me in chains, I will level this shrine of God to the ground, tear up the altar, and consecrate this Temple to Father Dionysus.'",
+      "translator_notes": ["Nicanor's threat is threefold: destroy the Temple building, demolish the altar, and rededicate the site to Dionysus. This is the most extreme threat against the Temple in the entire book — worse than Antiochus's desecration, because it promises complete physical destruction plus pagan rededication."],
+      "key_terms": [{"latin": "Libero Patri", "rendered_as": "Father Dionysus", "note": "Liber Pater — the Roman name for Dionysus/Bacchus. Nicanor threatens to replace YHWH's Temple with a temple to the god of wine."}]
+    },
+    {
+      "verse": 34,
+      "text_latin": "Et his dictis abiit. Sacerdotes autem protendentes manus in caelum invocabant eum qui semper propugnator esset gentis eorum haec dicentes:",
+      "rendering": "Having said this, he departed. The priests, stretching out their hands toward heaven, called upon him who has always been the champion of their nation, saying:",
+      "translator_notes": ["The priests' response: hands raised to heaven, calling on God as the 'propugnator gentis' (champion of the nation). The prayer posture echoes 3:20."],
+      "key_terms": [{"latin": "propugnator gentis", "rendered_as": "the champion of their nation", "note": "God as the active defender and fighter for his people — a military title applied to the divine."}]
+    },
+    {
+      "verse": 35,
+      "text_latin": "Tu Domine universorum qui nullius indiges voluisti templum habitationis tuae fieri in nobis.",
+      "rendering": "'You, Lord of all, who need nothing, were pleased to have the Temple of your dwelling among us.'",
+      "translator_notes": ["The prayer begins with God's self-sufficiency: he needs nothing, yet chose to dwell among them. The Temple is a gift of divine condescension, not divine necessity."],
+      "key_terms": [{"latin": "Domine universorum", "rendered_as": "Lord of all", "note": "God's universal sovereignty — he rules everything, yet chose to dwell specifically in Jerusalem."}]
+    },
+    {
+      "verse": 36,
+      "text_latin": "Et nunc Sancte sanctorum omnium custodi in aeternum impollutam domum istam quae nuper mundata est.",
+      "rendering": "'And now, Holy One, Lord of all sanctification, keep this house, which has been recently purified, undefiled forever.'",
+      "translator_notes": ["The prayer asks that the recently purified Temple (purified in chapter 10) be preserved from a new defilement. 'Sancte sanctorum' (Holy One of all holies) — God as the source of all sanctity."],
+      "key_terms": [{"latin": "Sancte sanctorum", "rendered_as": "Holy One, Lord of all sanctification", "note": "God as the Holy of Holies personified — the ultimate source of all sacredness."}]
+    },
+    {
+      "verse": 37,
+      "text_latin": "Razias autem quidam de senioribus ab Hierosolymis delatus est Nicanori vir amator civitatis et bene audiens qui pro adfectu pater Iudaeorum vocabatur.",
+      "rendering": "A certain Razis, one of the elders of Jerusalem, was denounced to Nicanor. He was a man devoted to his city, of excellent reputation, and because of his love for his people he was called 'Father of the Jews.'",
+      "translator_notes": ["Razis is introduced with high honor: an elder, a patriot, a man of reputation, called 'Father of the Jews' for his love of the people. The title establishes his stature before the martyrdom account."],
+      "key_terms": [{"latin": "pater Iudaeorum", "rendered_as": "Father of the Jews", "note": "An honorific title reflecting Razis's paternal care for his community."}]
+    },
+    {
+      "verse": 38,
+      "text_latin": "Hic enim multis temporibus continentiae propositum tenuit Iudaismi corpusque et animam tradere contentus pro perseverantia eius.",
+      "rendering": "For he had long maintained his commitment to the practice of Judaism, being ready to give both body and soul for his perseverance in it.",
+      "translator_notes": ["Razis's piety is established: lifelong commitment to Judaism, willingness to sacrifice body and soul. 'Continentiae propositum' (the purpose of self-discipline) describes his religious devotion."],
+      "key_terms": [{"latin": "Iudaismi", "rendered_as": "Judaism", "note": "The practice of the Jewish religion — Razis's defining commitment."}]
+    },
+    {
+      "verse": 39,
+      "text_latin": "Volens autem Nicanor manifestare quod odium habebat in Iudaeos misit milites quingentos qui eum conprehenderent.",
+      "rendering": "Nicanor, wishing to demonstrate the hatred he bore against the Jews, sent five hundred soldiers to arrest him.",
+      "translator_notes": ["Five hundred soldiers to arrest one elderly man — the disproportionate force reveals Nicanor's intent to make a public spectacle."],
+      "key_terms": []
+    },
+    {
+      "verse": 40,
+      "text_latin": "Putabat enim si illum cepisset cladis se Iudaeis inlaturum.",
+      "rendering": "For he thought that by capturing him, he would inflict a great blow on the Jews.",
+      "translator_notes": ["Razis's symbolic importance: his capture would demoralize the Jewish community. He is a symbolic target."],
+      "key_terms": []
+    },
+    {
+      "verse": 41,
+      "text_latin": "Turbis autem irruere in domum eius et ianuam succendere conantibus cum iam conprehenderetur gladio se petiit.",
+      "rendering": "When the troops were about to storm his house and were trying to break down the door, and he was on the point of being seized, he fell upon his sword.",
+      "translator_notes": ["Surrounded and about to be captured, Razis falls on his sword — choosing death over capture."],
+      "key_terms": []
+    },
+    {
+      "verse": 42,
+      "text_latin": "Praeoptans nobiliter mori quam subditus fieri peccatoribus et contra natales suos indignas iniurias pati.",
+      "rendering": "Preferring to die nobly rather than fall into the hands of sinners and suffer outrages unworthy of his noble birth.",
+      "translator_notes": ["The same 'noble death' theology as Eleazar (6:19) — death is preferable to subjection to sinners and the indignity that would follow."],
+      "key_terms": [{"latin": "nobiliter mori", "rendered_as": "to die nobly", "note": "The noble death ideal — death with honor rather than life with disgrace."}]
+    },
+    {
+      "verse": 43,
+      "text_latin": "Sed cum per festinationem non certo ictu plagam dedisset et turbae intra ostia irrumperent recurrit audacter ad murum et viriliter se deiecit in turbas.",
+      "rendering": "But since in his haste he had not struck a fatal blow, and the troops were rushing through the doors, he ran courageously to the wall and threw himself manfully down into the crowd.",
+      "translator_notes": ["The sword wound is not fatal; the soldiers are breaking in. Razis runs to the wall and throws himself from the height into the crowd below."],
+      "key_terms": []
+    },
+    {
+      "verse": 44,
+      "text_latin": "Quibus velociter locum dantibus casui eius venit per mediam cervicem.",
+      "rendering": "As they quickly drew back to make room for his fall, he landed on the middle of his neck.",
+      "translator_notes": ["He lands on his neck — a devastating impact, but still not immediately fatal."],
+      "key_terms": []
+    },
+    {
+      "verse": 45,
+      "text_latin": "Et cum adhuc spiraret accensus animo surrexit et cum sanguis eius magno fluxu deflueret et gravissimis vulneribus esset saucius cursu turbam pertransiit.",
+      "rendering": "And while he still breathed, his spirit ablaze, he rose up, and though his blood was gushing out in a great stream and his wounds were most severe, he ran through the crowd at full speed.",
+      "translator_notes": ["Mortally wounded but spiritually on fire, Razis rises and runs through the crowd — a display of supernatural determination."],
+      "key_terms": []
+    },
+    {
+      "verse": 46,
+      "text_latin": "Et stans super quandam petram praeruptam cum iam exsanguis esset conplexus intestina sua utrisque manibus proiecit super turbas invocans dominatorem vitae et spiritus ut haec illi iterum redderet et ita vita defunctus est.",
+      "rendering": "Standing upon a steep rock, now completely drained of blood, he grasped his entrails with both hands and threw them upon the crowd, calling upon the Lord of life and spirit to give them back to him again. And so he died.",
+      "translator_notes": ["The most graphic moment in the entire book: Razis tears out his own intestines and hurls them at the crowd, praying to the 'dominatorem vitae et spiritus' (the Lord of life and spirit) to restore them. The act is simultaneously horrifying and theological: the very organs he throws away, he expects God to return in the resurrection. The destruction of the body is an act of faith in its restoration."],
+      "key_terms": [{"latin": "dominatorem vitae et spiritus", "rendered_as": "the Lord of life and spirit", "note": "God as the sovereign over both physical life and spiritual existence — the one who can restore what is destroyed."},
+        {"latin": "ut haec illi iterum redderet", "rendered_as": "to give them back to him again", "note": "Resurrection hope expressed in the most visceral possible terms: 'give me back my entrails.' The destroyed body will be made whole."}]
+    }
+  ]
+}

@@ -1,0 +1,214 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Wisdom of Solomon",
+    "chapter": 11,
+    "tradition": "vulgate",
+    "tradition_label": "Latin Vulgate (Deuterocanonical)",
+    "source_text": "Biblia Sacra Vulgata (Stuttgart critical edition)",
+    "translator": "Jerome",
+    "date": "c. 405 CE",
+    "canon": ["catholic", "orthodox", "ethiopian"],
+    "generated_at": "2026-04-20T00:00:00Z",
+    "prompt_version": "2.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Wisdom prospered the works of the holy prophet's hands in the wilderness. Israel thirsted and called upon God, who gave them water from the rock -- the same element that had punished their enemies when the Nile turned to blood. God punishes and disciplines by the same means: the thing by which the Egyptians were tormented became the thing by which Israel was blessed. The chapter then explores divine mercy: God is lenient because he loves all that exists and hates nothing he has made.",
+    "remarkable": "Verses 21-27 contain one of the most exalted statements of divine love in all of Scripture: 'You love all things that exist and detest nothing that you have made... You spare all things, for they are yours, O Lord, lover of souls.' This passage profoundly influenced the theology of divine love in both Eastern and Western Christianity. The principle of measure-for-measure (the same element blesses Israel and punishes Egypt) structures the entire remainder of the book.",
+    "friction": "The contrast structure (Egypt punished / Israel blessed by the same means) requires significant creative interpretation of the Exodus narratives. The symmetry is more theological than historical. The tension between God's punitive judgment on Egypt and the claim that God 'loves all things that exist' is acknowledged but not fully resolved.",
+    "connections": "Exodus 7:14-25 (water to blood); Exodus 17:1-7 (water from the rock); Numbers 20:2-13 (water from the rock again); Romans 9:19-23 (vessels of wrath and mercy); Jonah 4:11 (God's care for Nineveh)."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_latin": "Direxit opera eorum in manibus prophetae sancti.",
+      "rendering": "She prospered their works through the hand of a holy prophet.",
+      "translator_notes": ["Moses is identified as 'a holy prophet' (prophetae sancti). The transition from Wisdom as subject (chapter 10) to God as subject is gradual; Wisdom remains the active agent behind the prophet's work."],
+      "key_terms": [{"latin": "prophetae sancti", "rendered_as": "a holy prophet", "note": "Moses, identified as prophet; cf. Deuteronomy 34:10, 'never since has there arisen a prophet in Israel like Moses.'"}]
+    },
+    {
+      "verse": 2,
+      "text_latin": "Iter fecerunt per deserta quae non habitabantur et in locis desertis fixerunt casas.",
+      "rendering": "They traveled through uninhabited deserts, and pitched their tents in trackless wastes.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 3,
+      "text_latin": "Steterunt contra hostes et de inimicis se vindicaverunt.",
+      "rendering": "They stood against their enemies and took vengeance on their foes.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 4,
+      "text_latin": "Sitierunt et invocaverunt te et data est illis aqua de petra altissima et requies sitis de lapide duro.",
+      "rendering": "They thirsted and called upon you, and water was given to them from the sheer rock, and relief from thirst from the hard stone.",
+      "translator_notes": ["The water from the rock (Exodus 17:1-7, Numbers 20:2-13) is the first term of the contrast that will structure the rest of the book: what punished Egypt blessed Israel."],
+      "key_terms": [{"latin": "petra altissima", "rendered_as": "the sheer rock", "note": "The rock at Horeb/Meribah; Paul identifies this rock with Christ (1 Corinthians 10:4)."}, {"latin": "requies sitis", "rendered_as": "relief from thirst", "note": "The water provided not merely survival but comfort -- a deliberate contrast with Egypt's undrinkable bloody Nile."}]
+    },
+    {
+      "verse": 5,
+      "text_latin": "Per quae enim poenas passi sunt inimici illorum a defectione potus sui, et in eis cum abundarent filii Israhel laetati sunt.",
+      "rendering": "For by the very things through which their enemies were punished, the children of Israel, when they were in abundance, were gladdened.",
+      "translator_notes": ["The key principle of the entire second half of the book is stated: the same element that punishes the wicked blesses the righteous. Water destroyed Egypt (the Nile plague) and saved Israel (water from the rock)."],
+      "key_terms": [{"latin": "per quae...poenas passi sunt", "rendered_as": "by the very things through which their enemies were punished", "note": "The measure-for-measure principle; God uses the same instrument for both judgment and salvation."}]
+    },
+    {
+      "verse": 6,
+      "text_latin": "Per quae poenas passi sunt inimici eorum.",
+      "rendering": "By these things their enemies suffered punishment.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 7,
+      "text_latin": "Pro fonte quidem sempiterni fluminis humano sanguine turbato.",
+      "rendering": "Instead of the fountain of an ever-flowing river, troubled with foul blood.",
+      "translator_notes": ["The Nile, Egypt's lifeline (the 'ever-flowing river'), was corrupted with blood (Exodus 7:20-21). Egypt's water source became a source of horror."],
+      "key_terms": [{"latin": "sempiterni fluminis", "rendered_as": "an ever-flowing river", "note": "The Nile, which Egyptians considered eternal and divine; its corruption struck at the heart of Egyptian theology."}]
+    },
+    {
+      "verse": 8,
+      "text_latin": "In redargutionem infanticidii decreti dedisti illis abundantem aquam insperatam.",
+      "rendering": "In rebuke for the decree to slay infants, you gave your people abundant water unexpectedly.",
+      "translator_notes": ["The bloody Nile is explicitly linked to Pharaoh's decree to drown Hebrew infants (Exodus 1:22). The Nile that received Hebrew babies' blood is now itself turned to blood. The correspondence is moral as well as material."],
+      "key_terms": [{"latin": "infanticidii decreti", "rendered_as": "the decree to slay infants", "note": "Pharaoh's order to throw Hebrew male children into the Nile; the river's contamination is poetic justice."}]
+    },
+    {
+      "verse": 9,
+      "text_latin": "Ostendens per sitim quae tunc fuit quemadmodum tuos exaltares et adversarios illorum necares.",
+      "rendering": "Showing through the thirst they then experienced how you exalted your own people and destroyed their adversaries.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 10,
+      "text_latin": "Cum enim temptati sunt et quidem cum misericordia disciplinam accipientes scierunt quemadmodum cum ira iudicati impii tormenta paterentur.",
+      "rendering": "For when they were tested, though it was with merciful discipline, they understood how the ungodly were tormented when judged in wrath.",
+      "translator_notes": ["Israel's suffering is 'discipline' (disciplina), the Egyptians' suffering is 'torment' (tormenta). The same experience is qualitatively different depending on God's purpose: correction versus punishment."],
+      "key_terms": [{"latin": "cum misericordia disciplinam", "rendered_as": "with merciful discipline", "note": "God's testing of Israel is wrapped in mercy; even divine correction is tempered with compassion."}, {"latin": "cum ira iudicati", "rendered_as": "judged in wrath", "note": "The contrast with Israel's merciful discipline; Egypt's judgment lacks the redemptive dimension."}]
+    },
+    {
+      "verse": 11,
+      "text_latin": "Hos quidem tamquam pater monens probasti, illos autem tamquam durus rex interrogans condemnasti.",
+      "rendering": "For you tested your own people as a father admonishes, but the others you examined and condemned as a stern king.",
+      "translator_notes": ["Two models of divine judgment: the father who disciplines his child (Israel) and the king who sentences a criminal (Egypt). The difference is relational, not procedural."],
+      "key_terms": [{"latin": "tamquam pater monens", "rendered_as": "as a father admonishes", "note": "The paternal metaphor for God's relationship to Israel; discipline within a family context."}, {"latin": "tamquam durus rex", "rendered_as": "as a stern king", "note": "The judicial metaphor for God's relationship to Egypt; judgment without the familial bond."}]
+    },
+    {
+      "verse": 12,
+      "text_latin": "Absentes enim et praesentes similiter torquebantur.",
+      "rendering": "For whether absent or present, they were equally tormented.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 13,
+      "text_latin": "Duplex enim illos acceperat taedium et gemitus cum memoria praeteritorum.",
+      "rendering": "For a double grief came upon them, and a groaning at the memory of things past.",
+      "translator_notes": ["The Egyptians suffered twice: once from the plagues themselves, and again from the realization that the same element was blessing Israel. Memory intensified present suffering."],
+      "key_terms": []
+    },
+    {
+      "verse": 14,
+      "text_latin": "Cum enim audirent per sua tormenta bene secum agi senserunt Dominum.",
+      "rendering": "For when they heard that through their own punishments the others were being blessed, they recognized the Lord.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 15,
+      "text_latin": "Quem enim in expositione prava proiectum deriserunt in finem eventus mirati sunt, non similiter iustis sitientes.",
+      "rendering": "For the one whom they had long ago cast out and rejected with scorn, they came to marvel at in the end, having thirsted in a way far different from the righteous.",
+      "translator_notes": ["Moses, exposed as an infant on the Nile (Exodus 2:3), is the one they first rejected and later marveled at. The Egyptians' thirst (bloody Nile) contrasts with Israel's thirst (satisfied by the rock)."],
+      "key_terms": []
+    },
+    {
+      "verse": 16,
+      "text_latin": "Pro cogitationibus autem insensatis iniquitatis illorum quod quidam errantes colebant mutos serpentes et bestias supervacuas inmisisti illis multitudinem mutorum animalium in vindictam.",
+      "rendering": "In return for the senseless and wicked thoughts of their unrighteousness, by which they were led astray to worship irrational serpents and worthless beasts, you sent upon them a multitude of irrational creatures as punishment.",
+      "translator_notes": ["The punishment-by-likeness principle deepens: those who worshipped animal images were punished by actual animals (the plagues of frogs, gnats, flies, locusts). The form of punishment mirrors the form of sin."],
+      "key_terms": [{"latin": "mutos serpentes et bestias supervacuas", "rendered_as": "irrational serpents and worthless beasts", "note": "Egyptian animal worship; the sacred animals of Egypt are dismissed as 'mute' (irrational) and 'worthless.'"}, {"latin": "multitudinem mutorum animalium", "rendered_as": "a multitude of irrational creatures", "note": "The animal plagues; the instruments of punishment correspond to the objects of worship."}]
+    },
+    {
+      "verse": 17,
+      "text_latin": "Ut scirent quia per quae peccat quis per haec et torquetur.",
+      "rendering": "So that they might learn that one is punished by the very things through which one sins.",
+      "translator_notes": ["The explicit statement of the principle that governs chapters 11-19: the instrument of sin becomes the instrument of punishment. This is not arbitrary retribution but educational justice."],
+      "key_terms": [{"latin": "per quae peccat quis per haec et torquetur", "rendered_as": "one is punished by the very things through which one sins", "note": "The measure-for-measure principle stated in its most compressed form; a foundational concept for the book's theology of justice."}]
+    },
+    {
+      "verse": 18,
+      "text_latin": "Non enim inpossibilis erat omnipotens manus tua quae creavit orbem terrarum ex materia invisa inmittere illis multitudinem ursorum aut audaces leones.",
+      "rendering": "For your all-powerful hand, which created the world out of formless matter, was not unable to send upon them a multitude of bears, or bold lions.",
+      "translator_notes": ["God's restraint is deliberate, not from inability. He could have sent bears and lions but chose lesser creatures (frogs, gnats) to give the Egyptians a chance to repent. The reference to creation 'out of formless matter' (ex materia invisa) is significant for the doctrine of creation."],
+      "key_terms": [{"latin": "omnipotens manus tua", "rendered_as": "your all-powerful hand", "note": "The anthropomorphism of God's hand combined with the attribute of omnipotence."}, {"latin": "ex materia invisa", "rendered_as": "out of formless matter", "note": "A philosophical description of creation; invisa means unseen or formless. This does not contradict creatio ex nihilo but describes the intermediate state of matter before God shaped it."}]
+    },
+    {
+      "verse": 19,
+      "text_latin": "Aut novo genere plenas ira bestias ignotas aut novum vaporem ignium spirantes aut fumi odorem proferentes aut horrendas ab oculis scintillas emittentes.",
+      "rendering": "Or newly created beasts, full of rage, unknown before, either breathing out fire, or belching smoke, or flashing terrible sparks from their eyes.",
+      "translator_notes": ["The hypothetical creatures God could have made are fantastical -- fire-breathing, smoke-belching, spark-shooting beasts. The author's imagination is vivid, and the point is theological: God's mercy is not weakness but chosen restraint."],
+      "key_terms": []
+    },
+    {
+      "verse": 20,
+      "text_latin": "Quarum non solum laesura poterat illos exterminare sed et aspectus per timorem occidere.",
+      "rendering": "Not only could the harm they dealt have destroyed the Egyptians, but the very sight of them could have killed with fright.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 21,
+      "text_latin": "Sed et sine his uno spiritu poterant occidi persecutionem passi ab ipsa iustitia et dispersi per spiritum virtutis tuae; sed omnia in mensura et numero et pondere disposuisti.",
+      "rendering": "Even without these things, they could have been slain by a single breath, pursued by justice itself and scattered by the breath of your power. But you have arranged all things by measure and number and weight.",
+      "translator_notes": ["The sentence 'you have arranged all things by measure and number and weight' (omnia in mensura et numero et pondere) became one of the most quoted verses in medieval theology and science. Augustine cited it repeatedly as evidence that God is a mathematician. It shaped the Western conviction that the universe is rationally ordered and therefore knowable."],
+      "key_terms": [{"latin": "omnia in mensura et numero et pondere", "rendered_as": "all things by measure and number and weight", "note": "One of the most influential phrases in the entire Vulgate; it grounded the medieval conviction that creation is mathematically ordered and provided philosophical warrant for scientific investigation."}]
+    },
+    {
+      "verse": 22,
+      "text_latin": "Multum enim valere tibi soli supererat semper et virtuti brachii tui quis resistet?",
+      "rendering": "For great strength is always at your hand, and who can withstand the power of your arm?",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 23,
+      "text_latin": "Quoniam tamquam momentum staterae sic est ante te orbis terrarum et tamquam gutta roris antelucani quae descendit in terram.",
+      "rendering": "For the whole world before you is like a speck that tips the scales, and like a drop of morning dew that falls upon the ground.",
+      "translator_notes": ["Two images of cosmic insignificance: a grain on a scale and a dewdrop. The entire created world is negligible compared to God's power. Yet the following verses will insist that God cares for this negligible world with infinite tenderness."],
+      "key_terms": [{"latin": "momentum staterae", "rendered_as": "a speck that tips the scales", "note": "The tiniest weight that shifts a balance; the whole world is barely more than nothing in God's scale."}, {"latin": "gutta roris antelucani", "rendered_as": "a drop of morning dew", "note": "Dew that evaporates at dawn; the world's existence is that fragile and transient from God's perspective."}]
+    },
+    {
+      "verse": 24,
+      "text_latin": "Sed misereris omnium quia omnia potes et dissimulas peccata hominum propter paenitentiam.",
+      "rendering": "But you have mercy on all, because you can do all things, and you overlook the sins of mortals so that they may repent.",
+      "translator_notes": ["The theological pivot: God's omnipotence is the ground of his mercy, not his wrath. Because God can do anything, he can afford to be patient. The purpose of divine forbearance is repentance (paenitentia), not indifference."],
+      "key_terms": [{"latin": "misereris omnium", "rendered_as": "you have mercy on all", "note": "The universality of divine mercy: 'all' (omnium) includes even the Egyptians and their gods."}, {"latin": "propter paenitentiam", "rendered_as": "so that they may repent", "note": "God's patience is purposeful; he waits for a change of heart. Cf. Romans 2:4, 'God's kindness is meant to lead you to repentance.'"}]
+    },
+    {
+      "verse": 25,
+      "text_latin": "Diligis enim omnia quae sunt et nihil odisti eorum quae fecisti; nec enim odiens aliquid constituisti aut fecisti.",
+      "rendering": "For you love all things that exist, and detest nothing that you have made; for you would not have made anything if you had hated it.",
+      "translator_notes": ["One of the most profound theological statements in Scripture. God's creation is an act of love, not necessity or accident. Every existing thing is loved into being; nothing is made only to be despised. The logic is impeccable: a God who hates would not create."],
+      "key_terms": [{"latin": "diligis omnia quae sunt", "rendered_as": "you love all things that exist", "note": "The foundation of the entire passage: existence itself is evidence of divine love. To be is to be loved by God."}, {"latin": "nihil odisti eorum quae fecisti", "rendered_as": "detest nothing that you have made", "note": "God's love for creation is without exception; everything that exists is the object of divine affection."}]
+    },
+    {
+      "verse": 26,
+      "text_latin": "Quomodo autem posset aliquid permanere nisi tu voluisses? Aut quod a te vocatum non esset conservaretur?",
+      "rendering": "How could anything endure if you had not willed it? Or how could anything be preserved that had not been called forth by you?",
+      "translator_notes": ["The argument deepens: not only creation but continued existence depends on God's will. Everything that persists does so because God actively sustains it. The doctrine of divine conservation (God continuously wills things into existence) is stated with remarkable clarity."],
+      "key_terms": [{"latin": "a te vocatum", "rendered_as": "called forth by you", "note": "Creation as calling; God speaks things into being and sustains them by continued address. Cf. Romans 4:17, 'God who calls into existence the things that do not exist.'"}]
+    },
+    {
+      "verse": 27,
+      "text_latin": "Parcis autem omnibus quoniam tua sunt Domine qui amas animas.",
+      "rendering": "But you spare all things, for they are yours, O Lord, lover of souls.",
+      "translator_notes": ["The climactic title: 'lover of souls' (qui amas animas). God's mercy flows from his possessive love: he spares what he owns, and he owns everything because he made everything. The phrase 'lover of souls' (in Greek, psychon phile -- philopsychos) is unique in biblical literature and became a central divine title in Eastern Orthodox theology."],
+      "key_terms": [{"latin": "qui amas animas", "rendered_as": "lover of souls", "note": "One of the most beautiful divine titles in Scripture; God's fundamental disposition toward his creatures is love, not judgment."}]
+    }
+  ]
+}

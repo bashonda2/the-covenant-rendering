@@ -1,0 +1,312 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Sirach",
+    "chapter": 1,
+    "tradition": "vulgate",
+    "tradition_label": "Latin Vulgate (Deuterocanonical)",
+    "source_text": "Biblia Sacra Vulgata (Stuttgart critical edition)",
+    "translator": "Jerome",
+    "date": "c. 405 CE",
+    "canon": ["catholic", "orthodox", "ethiopian"],
+    "generated_at": "2026-04-20T00:00:00Z",
+    "prompt_version": "2.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "The book opens with a prologue-like declaration that all wisdom originates with God and has been with him from eternity. The fear of the Lord is identified as the fullness, crown, and root of wisdom. Those who fear God receive joy, long life, and peace. Patience, self-control, and the rejection of duplicity are commended as fruits of wisdom.",
+    "remarkable": "Sirach's opening chapter functions as both a theological thesis statement and a hymn. The repeated refrain 'the fear of the Lord' appears more than a dozen times, establishing it as the structural backbone of the entire book. Unlike Proverbs, which personifies wisdom as a woman calling in the streets, Sirach grounds wisdom directly in creation and divine prerogative.",
+    "friction": "The Vulgate numbering of Sirach differs significantly from the Greek Septuagint and modern critical editions. Several verses in the Vulgate (notably 1:5, 1:7, and expansions in 1:20-21) are absent from the oldest Greek manuscripts and are considered later additions. The Stuttgart Vulgate retains them as part of the received Latin tradition.",
+    "connections": "Proverbs 1:7 (the fear of the Lord is the beginning of knowledge); Proverbs 8:22-31 (wisdom present at creation); Job 28:12-28 (wisdom's inaccessibility apart from God); Wisdom 7:25-26 (wisdom as emanation from God)."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_latin": "Omnis sapientia a Domino Deo est et cum illo fuit semper et est ante aevum.",
+      "rendering": "All wisdom comes from the Lord God, and has been with him always, and exists before all ages.",
+      "translator_notes": ["This verse functions as the theological thesis of the entire book. The phrase 'ante aevum' (before the age/world) places wisdom in the realm of eternity, not merely prior history."],
+      "key_terms": [{"latin": "sapientia", "rendered_as": "wisdom", "note": "The Latin sapientia translates Greek sophia; in Sirach it denotes both practical skill for living and divine attribute."}]
+    },
+    {
+      "verse": 2,
+      "text_latin": "Arenam maris et pluviae guttas et dies saeculi quis dinumeravit altitudinem caeli et latitudinem terrae et profundum abyssi quis dimensus est.",
+      "rendering": "The sand of the sea, and the drops of rain, and the days of eternity -- who has counted them? The height of heaven, and the breadth of the earth, and the depth of the abyss -- who has measured them?",
+      "translator_notes": ["The rhetorical questions echo Job 38 and establish that wisdom, like creation's vastness, exceeds human capacity to measure."],
+      "key_terms": [{"latin": "abyssi", "rendered_as": "the abyss", "note": "Abyssus renders the Greek abyssos, itself translating Hebrew tehom -- the primordial deep of Genesis 1:2."}]
+    },
+    {
+      "verse": 3,
+      "text_latin": "Sapientiam Dei praecedentem omnia quis investigavit.",
+      "rendering": "The wisdom of God, which precedes all things -- who has searched it out?",
+      "translator_notes": [],
+      "key_terms": [{"latin": "praecedentem", "rendered_as": "which precedes", "note": "Emphasizes wisdom's temporal and ontological priority over creation."}]
+    },
+    {
+      "verse": 4,
+      "text_latin": "Prior omnium creata est sapientia et intellectus prudentiae ab aevo.",
+      "rendering": "Wisdom was created before all things, and prudent understanding from eternity.",
+      "translator_notes": ["The word 'creata' (created) raised patristic debate: is wisdom a created thing or an eternal attribute of God? Most Latin commentators resolved this by distinguishing created wisdom (shared with creatures) from uncreated wisdom (the divine Word)."],
+      "key_terms": [{"latin": "intellectus prudentiae", "rendered_as": "prudent understanding", "note": "A hendiadys pairing intellectual grasp with practical discernment."}]
+    },
+    {
+      "verse": 5,
+      "text_latin": "Fons sapientiae verbum Dei in excelsis et ingressus illius mandata aeterna.",
+      "rendering": "The fountain of wisdom is the word of God in the highest, and her pathways are the eternal commandments.",
+      "translator_notes": ["This verse is absent from the oldest Greek manuscripts and may be a Christian-era addition to the Latin tradition, linking wisdom explicitly to the divine Word (Logos)."],
+      "key_terms": [{"latin": "fons sapientiae", "rendered_as": "the fountain of wisdom", "note": "Source imagery recurs throughout Sirach; wisdom flows from God as water from a spring."}]
+    },
+    {
+      "verse": 6,
+      "text_latin": "Radix sapientiae cui revelata est et astutias illius quis agnovit.",
+      "rendering": "The root of wisdom -- to whom has it been revealed? And her subtle designs -- who has known them?",
+      "translator_notes": [],
+      "key_terms": [{"latin": "radix sapientiae", "rendered_as": "the root of wisdom", "note": "Root imagery complements the fountain and tree metaphors applied to wisdom throughout the book."}]
+    },
+    {
+      "verse": 7,
+      "text_latin": "Disciplina sapientiae cui revelata est et manifestata et multiplicationem ingressus illius quis intellexit.",
+      "rendering": "The discipline of wisdom -- to whom has it been revealed and made manifest? And the abundance of her ways -- who has understood them?",
+      "translator_notes": ["Like verse 5, this verse is absent from major Greek witnesses and is considered a Vulgate expansion."],
+      "key_terms": [{"latin": "disciplina", "rendered_as": "discipline", "note": "Latin disciplina covers instruction, training, and corrective discipline; it translates Greek paideia."}]
+    },
+    {
+      "verse": 8,
+      "text_latin": "Unus est altissimus creator omnipotens et rex potens et metuendus nimis sedens super thronum illius et dominans Deus.",
+      "rendering": "There is one, the Most High, the all-powerful Creator, and mighty King, greatly to be feared, who sits upon his throne and rules -- God.",
+      "translator_notes": ["The accumulation of divine titles -- Most High, Creator, omnipotent, King -- is rhetorically designed to dwarf any human claim to wisdom."],
+      "key_terms": [{"latin": "altissimus", "rendered_as": "the Most High", "note": "Renders Greek hypsistos, itself a translation of Hebrew Elyon; a title emphasizing God's sovereign transcendence."}]
+    },
+    {
+      "verse": 9,
+      "text_latin": "Ipse creavit illam in Spiritu Sancto et vidit et dinumeravit et mensus est.",
+      "rendering": "He himself created her in the Holy Spirit, and saw her, and numbered her, and measured her.",
+      "translator_notes": ["The mention of the Holy Spirit is distinctive to the Latin tradition here and may reflect Christian theological reading back into the text."],
+      "key_terms": [{"latin": "Spiritu Sancto", "rendered_as": "the Holy Spirit", "note": "The Greek has 'in his spirit'; the Vulgate's capitalized rendering reflects trinitarian interpretation."}]
+    },
+    {
+      "verse": 10,
+      "text_latin": "Et effudit illam super omnia opera sua et super omnem carnem secundum datum suum et praebuit illam diligentibus se.",
+      "rendering": "And he poured her out upon all his works, and upon all flesh according to his gift, and he bestowed her upon those who love him.",
+      "translator_notes": ["The verb 'effudit' (poured out) evokes both creation (wisdom permeating all things) and Pentecost imagery in later Christian reading."],
+      "key_terms": [{"latin": "effudit", "rendered_as": "poured out", "note": "Liquid imagery for the distribution of wisdom; connects to the fountain metaphor of verse 5."}]
+    },
+    {
+      "verse": 11,
+      "text_latin": "Timor Domini gloria et gloriatio et laetitia et corona exultationis.",
+      "rendering": "The fear of the Lord is glory and exultation, and gladness, and a crown of rejoicing.",
+      "translator_notes": ["This begins the central section of the chapter, in which fear of the Lord is described through a cascade of metaphors."],
+      "key_terms": [{"latin": "timor Domini", "rendered_as": "the fear of the Lord", "note": "The governing concept of the entire book; not terror but reverent awe that shapes conduct and character."}]
+    },
+    {
+      "verse": 12,
+      "text_latin": "Timor Domini delectabit cor et dabit laetitiam et gaudium et longitudinem dierum.",
+      "rendering": "The fear of the Lord will delight the heart, and will give gladness and joy and length of days.",
+      "translator_notes": [],
+      "key_terms": [{"latin": "longitudinem dierum", "rendered_as": "length of days", "note": "A standard wisdom formula for longevity as divine reward; cf. Proverbs 3:16."}]
+    },
+    {
+      "verse": 13,
+      "text_latin": "Timenti Dominum bene erit in extremis et in die defunctionis suae benedicetur.",
+      "rendering": "For the one who fears the Lord, it will go well at the last, and on the day of his death he will be blessed.",
+      "translator_notes": ["The promise extends to the moment of death, a remarkable claim in a tradition where post-mortem hope was only beginning to develop."],
+      "key_terms": [{"latin": "in extremis", "rendered_as": "at the last", "note": "Literally 'in the final things'; encompasses both life's end and any ultimate reckoning."}]
+    },
+    {
+      "verse": 14,
+      "text_latin": "Dilectio Dei honorabilis sapientia.",
+      "rendering": "The love of God is wisdom worthy of honor.",
+      "translator_notes": ["A compact aphorism equating love of God with the highest form of wisdom."],
+      "key_terms": [{"latin": "dilectio Dei", "rendered_as": "the love of God", "note": "Dilectio denotes deliberate, chosen love rather than mere affection; it is the volitional counterpart to timor."}]
+    },
+    {
+      "verse": 15,
+      "text_latin": "Quibus autem apparuerit in visu diligunt eam in visione et in agnitione magnalium suorum.",
+      "rendering": "Those to whom she appears in vision love her upon seeing her and upon recognizing her great deeds.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 16,
+      "text_latin": "Initium sapientiae timor Domini et cum fidelibus in vulva concreatus est cum electis feminis graditur et cum iustis et fidelibus agnoscitur.",
+      "rendering": "The beginning of wisdom is the fear of the Lord, and it was created together with the faithful in the womb; it walks with chosen women, and is recognized among the just and faithful.",
+      "translator_notes": ["The image of wisdom 'created in the womb' with the faithful suggests that fear of the Lord is not merely acquired but is implanted from the earliest moment of life."],
+      "key_terms": [{"latin": "initium sapientiae", "rendered_as": "the beginning of wisdom", "note": "Echoes the famous formula of Proverbs 1:7 and 9:10; in Sirach it is the programmatic thesis."}]
+    },
+    {
+      "verse": 17,
+      "text_latin": "Timor Domini scientiae religiositas.",
+      "rendering": "The fear of the Lord is the devotion that belongs to knowledge.",
+      "translator_notes": ["The compressed Latin is difficult; religiositas here means pious devotion or faithful practice."],
+      "key_terms": [{"latin": "religiositas", "rendered_as": "devotion", "note": "Not 'religion' in the modern institutional sense but the interior disposition of reverent commitment."}]
+    },
+    {
+      "verse": 18,
+      "text_latin": "Religiositas custodiet et iustificabit cor iucunditatem atque gaudium dabit.",
+      "rendering": "Devotion will guard and justify the heart; it will give delight and joy.",
+      "translator_notes": [],
+      "key_terms": [{"latin": "iustificabit", "rendered_as": "justify", "note": "In the sapiential context this means 'set right' or 'make upright' rather than the later Pauline forensic sense."}]
+    },
+    {
+      "verse": 19,
+      "text_latin": "Timenti Dominum bene erit et in diebus consummationis illius benedicetur.",
+      "rendering": "For the one who fears the Lord, it will go well, and in the days of his end he will be blessed.",
+      "translator_notes": ["Nearly identical to verse 13, creating an inclusio (literary bracket) around the central section on the fear of the Lord."],
+      "key_terms": []
+    },
+    {
+      "verse": 20,
+      "text_latin": "Plenitudo sapientiae est timere Deum et plenitudo a fructibus illius.",
+      "rendering": "The fullness of wisdom is to fear God, and fullness comes from her fruits.",
+      "translator_notes": ["'Plenitudo' (fullness) elevates fear of God beyond mere beginning to encompass the totality of the wise life."],
+      "key_terms": [{"latin": "plenitudo", "rendered_as": "fullness", "note": "Contrasts with 'initium' in verse 16; wisdom begins and culminates in the same disposition."}]
+    },
+    {
+      "verse": 21,
+      "text_latin": "Omnem domum illius implebit a generationibus et receptacula a thesauris illius.",
+      "rendering": "She fills her whole house with her produce, and her storehouses with her treasures.",
+      "translator_notes": ["Wisdom is portrayed as a provident householder whose abundance overflows."],
+      "key_terms": []
+    },
+    {
+      "verse": 22,
+      "text_latin": "Corona sapientiae timor Domini replens pacem et salutis fructum.",
+      "rendering": "The crown of wisdom is the fear of the Lord, filling one with peace and the fruit of well-being.",
+      "translator_notes": [],
+      "key_terms": [{"latin": "corona sapientiae", "rendered_as": "the crown of wisdom", "note": "Crown imagery suggests both completion and honor; fear of the Lord is wisdom's culminating achievement."}]
+    },
+    {
+      "verse": 23,
+      "text_latin": "Et vidit et dinumeravit eam utraque autem sunt dona Dei.",
+      "rendering": "He saw and numbered her; both are gifts of God.",
+      "translator_notes": ["'Both' likely refers to wisdom and the fear of the Lord, affirming that neither is self-generated but divinely given."],
+      "key_terms": []
+    },
+    {
+      "verse": 24,
+      "text_latin": "Scientiam et intellectum prudentiae sapientia conpartietur et gloriam tenentium se exaltat.",
+      "rendering": "Wisdom distributes knowledge and prudent understanding, and she exalts the glory of those who hold fast to her.",
+      "translator_notes": [],
+      "key_terms": [{"latin": "conpartietur", "rendered_as": "distributes", "note": "From compartior, to share out or apportion; wisdom actively distributes her gifts rather than hoarding them."}]
+    },
+    {
+      "verse": 25,
+      "text_latin": "Radix sapientiae est timere Dominum rami enim illius longaevi.",
+      "rendering": "The root of wisdom is to fear the Lord, for her branches endure long.",
+      "translator_notes": ["The tree metaphor completes the botanical imagery: wisdom has a root (fear of God), branches (long life and virtue), and fruit (peace)."],
+      "key_terms": [{"latin": "radix", "rendered_as": "root", "note": "Repeats the root imagery from verse 6, now applied specifically to the fear of the Lord."}]
+    },
+    {
+      "verse": 26,
+      "text_latin": "In thesauris sapientiae intellectus et scientiae religiositas in exsecrationem autem peccatoribus sapientia.",
+      "rendering": "In the treasuries of wisdom are understanding and devoted knowledge, but wisdom is an abomination to sinners.",
+      "translator_notes": ["The sharp contrast between treasure and abomination underscores that wisdom is not morally neutral; it judges as well as blesses."],
+      "key_terms": []
+    },
+    {
+      "verse": 27,
+      "text_latin": "Timor Domini expellit peccatum.",
+      "rendering": "The fear of the Lord drives out sin.",
+      "translator_notes": ["A terse maxim: reverent awe and habitual sin cannot coexist."],
+      "key_terms": []
+    },
+    {
+      "verse": 28,
+      "text_latin": "Nam qui sine timore est non poterit iustificari.",
+      "rendering": "For whoever is without fear cannot be justified.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 29,
+      "text_latin": "Iracundia enim animositatis illius subversio illius est.",
+      "rendering": "For the wrath of his hot temper will be his undoing.",
+      "translator_notes": ["The sudden turn to anger warns that lack of fear produces unchecked passion, which in turn destroys."],
+      "key_terms": [{"latin": "animositatis", "rendered_as": "hot temper", "note": "Animositas in this context refers to spirited anger or passionate impulse, not courage."}]
+    },
+    {
+      "verse": 30,
+      "text_latin": "Usque in tempus sustinebit patiens et postea redditio iucunditatis.",
+      "rendering": "The patient one will endure until the appointed time, and afterward joy will be restored to him.",
+      "translator_notes": ["Patience (patientia) is presented as the temporal discipline that leads to eschatological or eventual vindication."],
+      "key_terms": [{"latin": "patiens", "rendered_as": "the patient one", "note": "From patior, to suffer or endure; patience here is not passivity but active, faithful endurance."}]
+    },
+    {
+      "verse": 31,
+      "text_latin": "Bonus sensus usque in tempus abscondet verba illius et labia multorum enarrabunt sensum illius.",
+      "rendering": "A good understanding will hide its words until the right time, and the lips of many will declare his insight.",
+      "translator_notes": ["The wise person practices restraint in speech, waiting for the opportune moment; this anticipates the extended treatment of speech ethics in later chapters."],
+      "key_terms": []
+    },
+    {
+      "verse": 32,
+      "text_latin": "In thesauris sapientiae significatio disciplinae.",
+      "rendering": "In the treasuries of wisdom is the meaning of discipline.",
+      "translator_notes": [],
+      "key_terms": [{"latin": "significatio disciplinae", "rendered_as": "the meaning of discipline", "note": "Significatio implies the deeper significance or symbolic import, not merely the definition."}]
+    },
+    {
+      "verse": 33,
+      "text_latin": "Exsecratio autem peccatori cultura Dei.",
+      "rendering": "But the worship of God is an abomination to the sinner.",
+      "translator_notes": ["A deliberately provocative reversal: what the righteous treasure, the wicked find repulsive."],
+      "key_terms": [{"latin": "cultura Dei", "rendered_as": "the worship of God", "note": "Cultura here means cultivation or tending, applied to the divine relationship -- worship as ongoing attentive service."}]
+    },
+    {
+      "verse": 34,
+      "text_latin": "Fili concupiscens sapientiam conserva iustitiam et Deus praebebit illam tibi.",
+      "rendering": "My son, if you desire wisdom, keep justice, and God will bestow her upon you.",
+      "translator_notes": ["The first use of the address 'fili' (my son), marking the transition to the instructional mode that dominates the book. Wisdom is a divine gift, but it requires the moral precondition of justice."],
+      "key_terms": [{"latin": "fili", "rendered_as": "my son", "note": "The classic wisdom-teacher address, establishing the book's pedagogical framework."}]
+    },
+    {
+      "verse": 35,
+      "text_latin": "Sapientia enim et disciplina timor Domini et quod beneplacitum est illi.",
+      "rendering": "For wisdom and discipline are the fear of the Lord, and what is pleasing to him.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 36,
+      "text_latin": "Fides et mansuetudo et non minorabit neque deficiet et non incredibilis illi.",
+      "rendering": "Faith and gentleness are his delight; he will not diminish them nor fail them, and he will not be untrue to them.",
+      "translator_notes": ["The Latin is compressed and somewhat awkward; the sense is that God faithfully sustains those who practice faith and gentleness."],
+      "key_terms": [{"latin": "mansuetudo", "rendered_as": "gentleness", "note": "Connotes meekness, docility, and tamed strength -- the opposite of the hot temper condemned in verse 29."}]
+    },
+    {
+      "verse": 37,
+      "text_latin": "Non accedas ad illam duplici corde.",
+      "rendering": "Do not approach her with a divided heart.",
+      "translator_notes": ["The 'double heart' (cor duplex) is the opposite of the biblical 'whole heart'; it denotes inner duplicity and half-hearted commitment."],
+      "key_terms": [{"latin": "duplici corde", "rendered_as": "a divided heart", "note": "Cf. James 1:8 (double-minded man); the Latin duplici maps to Greek dipsychos, a person torn between two loyalties."}]
+    },
+    {
+      "verse": 38,
+      "text_latin": "Ne fueris hypocrita in conspectu hominum et non scandalizeris in labiis tuis.",
+      "rendering": "Do not be a hypocrite before others, and do not let your lips cause stumbling.",
+      "translator_notes": ["Hypocrisy and careless speech are paired as complementary vices; both betray a divided allegiance."],
+      "key_terms": [{"latin": "hypocrita", "rendered_as": "hypocrite", "note": "A Greek theatrical term (one who wears a mask) adopted directly into Latin; one of the few loanwords retained without translation."}]
+    },
+    {
+      "verse": 39,
+      "text_latin": "Attende in illa ne forte cadas et adducas animae tuae inhonoramentum.",
+      "rendering": "Give heed to her, lest you fall and bring dishonor upon your soul.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 40,
+      "text_latin": "Et revelet Deus absconsa tua et in medio synagogae elidat te.",
+      "rendering": "And God will reveal your secrets, and will cast you down in the midst of the assembly.",
+      "translator_notes": ["The chapter ends with a warning of public exposure -- hidden duplicity will be unveiled before the community."],
+      "key_terms": [{"latin": "synagogae", "rendered_as": "the assembly", "note": "Here synagoga means the gathered community, not the later institution; it renders Greek synagoge in its basic sense of 'gathering.'"}]
+    },
+    {
+      "verse": 41,
+      "text_latin": "Quoniam accessisti maligne ad Dominum et cor tuum plenum est dolo et fallacia.",
+      "rendering": "Because you approached the Lord with malice, and your heart was full of deceit and treachery.",
+      "translator_notes": ["The final verse provides the reason for divine judgment: not ignorance but deliberate duplicity in approaching God."],
+      "key_terms": [{"latin": "dolo et fallacia", "rendered_as": "deceit and treachery", "note": "A doublet emphasizing both the cunning intent (dolus) and the outward deception (fallacia)."}]
+    }
+  ]
+}

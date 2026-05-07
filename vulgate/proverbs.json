@@ -1,0 +1,167 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Proverbs",
+    "tradition": "vulgate",
+    "tradition_label": "Latin Vulgate",
+    "source_text": "Biblia Sacra Vulgata (Stuttgart critical edition)",
+    "base_text": "Westminster Leningrad Codex (WLC)",
+    "translator": "Jerome (Eusebius Sophronius Hieronymus)",
+    "date": "382-405 CE",
+    "generated_at": "2026-04-20T00:00:00Z",
+    "prompt_version": "2.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Jerome translated Proverbs directly from the Hebrew, producing a text that shaped Western moral vocabulary, educational philosophy, and the personification of Wisdom that became central to Christological and Mariological theology. His Latin rendered the practical Hebrew wisdom tradition into the language of Roman moral philosophy, creating bridges between biblical and classical ethics.",
+    "notable_renderings": "The timor Domini (fear of the Lord) formulation; sapientia as the master-concept linking all wisdom literature; the Dominus possedit me (the Lord possessed/created me) crux in 8:22 that fueled the Arian controversy; and mulierem fortem (valiant woman) in 31:10 that shaped Western ideals of feminine virtue.",
+    "theological_legacy": "Proverbs' Vulgate text provided medieval education with its foundational moral vocabulary. The personification of Wisdom (Sapientia) in chapters 1-9 became a key Christological text — the question of whether Wisdom was 'created' or 'possessed' (8:22) was central to the Arian controversy. The mulier fortis of chapter 31 defined the Western ideal of the virtuous woman for over a millennium."
+  },
+  "renderings": [
+    {
+      "reference": "Proverbs 1:7",
+      "source_text": "יִרְאַת יְהוָה רֵאשִׁית דָּעַת (yir'at YHVH reshit da'at)",
+      "vulgate_text": "timor Domini principium sapientiae",
+      "vulgate_rendering": "The fear of the Lord is the beginning of wisdom",
+      "tcr_rendering": "The fear of YHVH is the beginning of knowledge",
+      "theological_legacy": "Jerome rendered da'at (knowledge) as sapientiae (wisdom), harmonizing this verse with Psalm 111:10 and Job 28:28. This created the impression of a single unified 'fear of the Lord' teaching across all wisdom literature. Timor Domini principium sapientiae became the motto of countless schools, universities, and religious orders.",
+      "notes": ["Hebrew distinguishes da'at (knowledge, experiential knowing) from chokhmah (wisdom, skilled living). Jerome's substitution of sapientia for da'at unified the wisdom motto but blurred the Hebrew's careful vocabulary. The phrase became arguably the single most quoted biblical proverb in Western educational history."]
+    },
+    {
+      "reference": "Proverbs 1:20",
+      "source_text": "חָכְמוֹת בַּחוּץ תָּרֹנָּה (chokhmot bachutz taronnah)",
+      "vulgate_text": "sapientia foris praedicat",
+      "vulgate_rendering": "Wisdom preaches abroad",
+      "tcr_rendering": "Wisdom cries out in the open",
+      "theological_legacy": "Jerome's praedicat (preaches) for Hebrew taronnah (cries out, sings loudly) gave Wisdom the specific activity of a preacher rather than a street-crier. This supported the identification of Wisdom with Christ as preacher and with the Church's preaching office.",
+      "notes": ["Hebrew chokhmot is a plural intensive form — 'Wisdom' at full voice. The verb ranan means to cry out or sing with joy. Jerome's praedicat imports the technical vocabulary of proclamation/preaching, linking Wisdom's public speech to ecclesiastical homiletics."]
+    },
+    {
+      "reference": "Proverbs 3:5",
+      "source_text": "בְּטַח אֶל־יְהוָה בְּכָל־לִבֶּךָ וְאֶל־בִּינָתְךָ אַל־תִּשָּׁעֵן (betach el-YHVH bekhol-libbkha ve'el-binatekha al-tisha'en)",
+      "vulgate_text": "habe fiduciam in Domino ex toto corde tuo et ne innitaris prudentiae tuae",
+      "vulgate_rendering": "Trust in the Lord with all your heart, and lean not on your own prudence",
+      "tcr_rendering": "Trust in YHVH with all your heart, and do not lean on your own understanding",
+      "theological_legacy": "Jerome rendered binah (understanding, discernment) as prudentiae (prudence), a key term in Roman and later Thomistic moral philosophy. This linked biblical wisdom to the classical virtue tradition, making the verse simultaneously a statement of faith and a philosophical claim about the limits of human prudentia.",
+      "notes": ["Prudentia was the premier intellectual virtue in Roman ethics (Cicero's phronesis equivalent). Jerome's word choice embedded Proverbs within the classical virtue framework. Aquinas would later carefully distinguish supernatural prudentia from natural prudence partly using this verse."]
+    },
+    {
+      "reference": "Proverbs 3:18",
+      "source_text": "עֵץ־חַיִּים הִיא לַמַּחֲזִיקִים בָּהּ (etz-chayyim hi lamachazikim bah)",
+      "vulgate_text": "lignum vitae est his qui apprehenderint eam",
+      "vulgate_rendering": "She is a tree of life to those who lay hold of her",
+      "tcr_rendering": "She is a tree of life to those who grasp her",
+      "theological_legacy": "Lignum vitae (tree/wood of life) connected Wisdom to both Eden's tree of life and, through the ambiguity of lignum (tree/wood), to the cross. This became a major typological connection in medieval theology — the cross as the true lignum vitae restoring what was lost in Eden.",
+      "notes": ["Latin lignum means both 'tree' and 'wood/timber,' creating a connection to the cross (lignum crucis) that the Hebrew etz (tree) does not carry as strongly. Medieval hymns like Pange Lingua ('crux fidelis, inter omnes arbor una nobilis') exploited this verbal connection between Wisdom's tree and Christ's cross."]
+    },
+    {
+      "reference": "Proverbs 8:22",
+      "source_text": "יְהוָה קָנָנִי רֵאשִׁית דַּרְכּוֹ קֶדֶם מִפְעָלָיו מֵאָז (YHVH qanani reshit darko qedem mif'alav me'az)",
+      "vulgate_text": "Dominus possedit me in initio viarum suarum antequam quidquam faceret a principio",
+      "vulgate_rendering": "The Lord possessed me in the beginning of his ways, before he made anything from the beginning",
+      "tcr_rendering": "YHVH acquired me at the beginning of his way, before his works of old",
+      "theological_legacy": "This verse was the battlefield of the Arian controversy. Hebrew qanani can mean 'created me,' 'acquired me,' or 'possessed me.' The LXX had ektisen (created), which Arius used to argue Christ-Wisdom was a creature. Jerome chose possedit (possessed), deliberately avoiding creavit (created), thereby supporting Nicene orthodoxy — Wisdom was eternally possessed by God, not created at a point in time.",
+      "notes": ["The Hebrew verb qanah has a semantic range including: to acquire, to buy, to possess, and possibly to create/beget. The LXX's ektisen me (created me) became Arius's proof-text that the Logos was a creature. Jerome's possedit me (possessed me) was a deliberate theological choice supporting the Nicene position. Athanasius and the pro-Nicene fathers argued qanah meant 'possessed' not 'created.' Jerome's rendering settled the question for the Latin West."]
+    },
+    {
+      "reference": "Proverbs 8:25",
+      "source_text": "בְּטֶרֶם הָרִים הָטְבָּעוּ לִפְנֵי גְבָעוֹת חוֹלָלְתִּי (beterem harim hotba'u lifnei geva'ot cholalti)",
+      "vulgate_text": "ante colles ego parturiebar",
+      "vulgate_rendering": "Before the hills, I was brought forth",
+      "tcr_rendering": "Before the hills, I was brought forth",
+      "theological_legacy": "Jerome's parturiebar (I was being born/brought forth in labor) for cholalti preserved the birth imagery. The Nicene Creed's genitum non factum (begotten not made) resonates with this birth language — Wisdom is born/begotten from God, not manufactured.",
+      "notes": ["Hebrew cholalti (from chul/chil, to writhe, to be in labor) implies being born through travail. Jerome's parturiebar (passive of parturire, to be in labor) maintained the birth metaphor precisely. This supported the orthodox claim that the Son was 'begotten' (generated) rather than 'made' (created)."]
+    },
+    {
+      "reference": "Proverbs 8:30",
+      "source_text": "וָאֶהְיֶה אֶצְלוֹ אָמוֹן (va'ehyeh etzlo amon)",
+      "vulgate_text": "cum eo eram cuncta conponens",
+      "vulgate_rendering": "I was with him, composing all things",
+      "tcr_rendering": "I was beside him as a master craftsman",
+      "theological_legacy": "Hebrew amon is deeply disputed — it may mean 'craftsman,' 'nursling,' 'faithful one,' or 'architect.' Jerome's cuncta conponens (composing/arranging all things) made Wisdom an active co-creator, ordering the cosmos. This supported the Logos theology of John 1 and Colossians 1 — the Word through whom all things were made.",
+      "notes": ["The meaning of amon is one of the great cruxes in Proverbs. Options include: amon as 'master craftsman' (from aman, to be firm/skilled), amon as 'nursling/child' (from aman, to nurse), or amon as 'constantly/faithfully' (adverbial). Jerome's cuncta conponens (arranging all things) takes the craftsman interpretation and amplifies it into cosmic ordering — Wisdom as divine architect of creation."]
+    },
+    {
+      "reference": "Proverbs 9:1",
+      "source_text": "חָכְמוֹת בָּנְתָה בֵיתָהּ חָצְבָה עַמּוּדֶיהָ שִׁבְעָה (chokhmot banetah veitah chatzevah ammudeiha shiv'ah)",
+      "vulgate_text": "sapientia aedificavit sibi domum excidit columnas septem",
+      "vulgate_rendering": "Wisdom has built herself a house; she has hewn out seven pillars",
+      "tcr_rendering": "Wisdom has built her house; she has carved out her seven pillars",
+      "theological_legacy": "Sapientia aedificavit sibi domum became a major ecclesiological and Mariological text. The seven pillars were identified with the seven sacraments, seven liberal arts, seven gifts of the Spirit, and Wisdom's house with the Church or with Mary as the dwelling of divine Wisdom.",
+      "notes": ["Jerome's rendering is close to the Hebrew. The theological elaboration came from patristic and medieval interpretation. The image of Wisdom building her house with seven pillars generated an enormous symbolic tradition in Western architecture (seven-pillared churches), education (the seven liberal arts as pillars), and sacramental theology."]
+    },
+    {
+      "reference": "Proverbs 11:22",
+      "source_text": "נֶזֶם זָהָב בְּאַף חֲזִיר אִשָּׁה יָפָה וְסָרַת טָעַם (nezem zahav be'af chazir ishah yafah vesarat ta'am)",
+      "vulgate_text": "circulus aureus in naribus suis mulier pulchra et fatua",
+      "vulgate_rendering": "A golden ring in a swine's snout — a beautiful and foolish woman",
+      "tcr_rendering": "A gold ring in a pig's snout — a beautiful woman who turns aside from discretion",
+      "theological_legacy": "Jerome rendered sarat ta'am (who turns aside from taste/discretion/sense) as fatua (foolish, silly). The Latin pairing pulchra et fatua (beautiful and foolish) became a stock moral type in Western literature and preaching — beauty without wisdom is absurd and wasted.",
+      "notes": ["Hebrew sarat ta'am means literally 'turns aside from taste/sense/judgment' — suggesting active departure from wisdom. Jerome's fatua (foolish, vapid) makes it a character trait rather than a chosen action. The verse became one of the most cited in medieval misogynistic sermons, though the Hebrew is less about gender than about the incongruity of beauty without sense."]
+    },
+    {
+      "reference": "Proverbs 16:4",
+      "source_text": "כֹּל פָּעַל יְהוָה לַמַּעֲנֵהוּ וְגַם־רָשָׁע לְיוֹם רָעָה (kol pa'al YHVH lama'anehu vegam-rasha leyom ra'ah)",
+      "vulgate_text": "universa propter semetipsum operatus est Dominus impium quoque ad diem malum",
+      "vulgate_rendering": "The Lord has made all things for himself, even the wicked for the evil day",
+      "tcr_rendering": "YHVH has made everything for its purpose, even the wicked for the day of trouble",
+      "theological_legacy": "Jerome's propter semetipsum (for himself) for Hebrew lama'anehu (for its/his purpose) became a proof-text for the doctrine that God created all things for his own glory — including predestining the wicked to judgment. Calvin and the Reformed tradition cited this verse extensively for double predestination.",
+      "notes": ["Hebrew lama'anehu is ambiguous: 'for his own sake/purpose' or 'for its own purpose/answer.' Jerome resolved the ambiguity toward divine self-reference (propter semetipsum — for his own sake). This became one of the key texts in Western predestination debates, from Augustine through Aquinas to Calvin."]
+    },
+    {
+      "reference": "Proverbs 16:18",
+      "source_text": "לִפְנֵי־שֶׁבֶר גָּאוֹן וְלִפְנֵי כִשָּׁלוֹן גֹּבַהּ רוּחַ (lifnei-shever ga'on velifnei khishalon govah ruach)",
+      "vulgate_text": "contritionem praecedit superbia et ante ruinam exaltatur spiritus",
+      "vulgate_rendering": "Pride goes before destruction, and the spirit is exalted before a fall",
+      "tcr_rendering": "Before breaking comes pride, and before stumbling, a haughty spirit",
+      "theological_legacy": "Contritionem praecedit superbia — 'pride goes before destruction' — became the single most quoted proverb in Western moral discourse. Jerome's superbia (pride/arrogance) established pride as the master-sin in Western theology (the sin of Satan, the root of all sin in Gregory the Great's scheme).",
+      "notes": ["Hebrew ga'on can mean pride, majesty, or exaltation (it is used positively of God). Jerome's consistent rendering as superbia (always negative in Latin moral vocabulary) ensured the Western reading was purely condemnatory. The verse became proverbial in virtually every European language."]
+    },
+    {
+      "reference": "Proverbs 22:6",
+      "source_text": "חֲנֹךְ לַנַּעַר עַל־פִּי דַרְכּוֹ גַּם כִּי־יַזְקִין לֹא־יָסוּר מִמֶּנָּה (chanokh lana'ar al-pi darkho gam ki-yazqin lo-yasur mimennah)",
+      "vulgate_text": "proverbium est adulescens iuxta viam suam etiam cum senuerit non recedet ab ea",
+      "vulgate_rendering": "It is a proverb: train up a youth according to his way; even when he is old he will not depart from it",
+      "tcr_rendering": "Train up a youth according to his way; even when he is old, he will not turn aside from it",
+      "theological_legacy": "This verse became the foundational text for Western Christian education theory. Jerome's rendering supported the idea that childhood formation is decisive and permanent. It was cited by every major writer on Christian pedagogy from Augustine to the Jesuits.",
+      "notes": ["The Hebrew al-pi darkho (according to his way) is ambiguous — does it mean 'according to the way appropriate to him' (individualized education) or 'according to his [natural] way' (following the child's inclination)? Jerome's iuxta viam suam preserves the ambiguity. The verse was understood as a promise (proper training guarantees results) rather than a proverb (this is generally true), which created pastoral problems when children departed from their upbringing."]
+    },
+    {
+      "reference": "Proverbs 25:21-22",
+      "source_text": "אִם־רָעֵב שֹׂנַאֲךָ הַאֲכִלֵהוּ לָחֶם... כִּי גֶחָלִים אַתָּה חֹתֶה עַל־רֹאשׁוֹ (im-ra'ev son'akha ha'akhilehu lachem... ki gechalim attah choteh al-rosho)",
+      "vulgate_text": "si esurierit inimicus tuus ciba illum... prunas enim congregabis super caput eius",
+      "vulgate_rendering": "If your enemy is hungry, feed him... for you will heap coals of fire upon his head",
+      "tcr_rendering": "If the one who hates you is hungry, give him bread to eat... for you are heaping burning coals on his head",
+      "theological_legacy": "Prunas congregabis super caput eius (you will heap coals upon his head) became a key ethical text through Paul's citation in Romans 12:20. The Latin shaped Western debate about whether the 'coals' represent burning shame leading to repentance, or accumulated judgment — kindness as either redemptive strategy or subtle revenge.",
+      "notes": ["Jerome followed the Hebrew closely. The verse's cultural influence came primarily through Paul's appropriation (Romans 12:20-21) and subsequent debate. Augustine interpreted the coals as the burning pain of shame that leads enemies to repentance. Others read it as storing up divine judgment. The debate continues."]
+    },
+    {
+      "reference": "Proverbs 29:18",
+      "source_text": "בְּאֵין חָזוֹן יִפָּרַע עָם (be'ein chazon yippara am)",
+      "vulgate_text": "cum prophetia defecerit dissipabitur populus",
+      "vulgate_rendering": "When prophecy fails, the people will be scattered",
+      "tcr_rendering": "Where there is no prophetic vision, the people cast off restraint",
+      "theological_legacy": "Jerome rendered chazon (prophetic vision) as prophetia (prophecy) and yippara (cast off restraint, become unruly) as dissipabitur (will be scattered/dispersed). The Latin reading emphasized the necessity of prophetic leadership for social cohesion — without prophecy, society disintegrates. This became a key text for the authority of the teaching Church.",
+      "notes": ["Hebrew yippara (from para') means to let loose, to cast off restraint, to become unruly — the people run wild. Jerome's dissipabitur (will be scattered) shifts from moral anarchy to social dissolution. The verse was widely used to justify prophetic and episcopal authority in medieval ecclesiology."]
+    },
+    {
+      "reference": "Proverbs 31:10",
+      "source_text": "אֵשֶׁת־חַיִל מִי יִמְצָא (eshet-chayil mi yimtza)",
+      "vulgate_text": "mulierem fortem quis inveniet",
+      "vulgate_rendering": "Who shall find a valiant woman?",
+      "tcr_rendering": "A woman of strength — who can find her?",
+      "theological_legacy": "Mulierem fortem (strong/valiant woman) for eshet chayil (woman of strength/valor/worth) established the Western ideal of feminine virtue as fortitudo — strength, courage, and capability rather than mere gentleness or beauty. The entire acrostic became the standard text for Christian womanhood, read at funerals of women and on Marian feasts.",
+      "notes": ["Hebrew chayil encompasses wealth, strength, valor, capability, and moral worth. Jerome's fortis (strong, brave, valiant) emphasizes martial and moral courage. The Mulier Fortis tradition influenced Western art, literature, and ideals of women. The passage was applied to Mary, to the Church, and to individual virtuous women throughout medieval tradition."]
+    },
+    {
+      "reference": "Proverbs 31:30",
+      "source_text": "שֶׁקֶר הַחֵן וְהֶבֶל הַיֹּפִי אִשָּׁה יִרְאַת־יְהוָה הִיא תִתְהַלָּל (sheqer hachen vehevel hayyofi ishah yir'at-YHVH hi tithallal)",
+      "vulgate_text": "fallax gratia et vana est pulchritudo mulier timens Dominum ipsa laudabitur",
+      "vulgate_rendering": "Charm is deceitful and beauty is vain; a woman who fears the Lord, she shall be praised",
+      "tcr_rendering": "Grace is deceptive and beauty is a breath; a woman who fears YHVH — she will be praised",
+      "theological_legacy": "Fallax gratia et vana est pulchritudo became the standard Western proof-text against valuing physical beauty over piety. The pairing of fallax (deceitful) and vana (vain/empty) with gratia (charm/grace) and pulchritudo (beauty) shaped centuries of Christian ascetic discourse about the body and appearance.",
+      "notes": ["Hebrew hevel (breath, vapor) is the same word as Ecclesiastes' famous 'vanity' term. Jerome renders it vana (vain, empty) — consistent with his treatment in Ecclesiastes. The verse became the capstone of medieval Christian teaching about women: true worth is timor Domini (fear of the Lord), not external beauty."]
+    }
+  ]
+}

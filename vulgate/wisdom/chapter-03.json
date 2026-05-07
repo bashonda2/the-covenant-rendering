@@ -1,0 +1,158 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Wisdom of Solomon",
+    "chapter": 3,
+    "tradition": "vulgate",
+    "tradition_label": "Latin Vulgate (Deuterocanonical)",
+    "source_text": "Biblia Sacra Vulgata (Stuttgart critical edition)",
+    "translator": "Jerome",
+    "date": "c. 405 CE",
+    "canon": ["catholic", "orthodox", "ethiopian"],
+    "generated_at": "2026-04-20T00:00:00Z",
+    "prompt_version": "2.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "The souls of the righteous are in the hand of God, and no torment shall touch them. Though they appeared to die, they are at peace. Their suffering was a divine test, like gold refined in fire. At the time of visitation they will shine and judge nations. By contrast, the ungodly and their offspring will be accursed, and the barren woman who is blameless will be blessed.",
+    "remarkable": "Verse 1 ('the souls of the righteous are in the hand of God') is among the most quoted verses in Christian funeral liturgy and has shaped Western eschatology for two millennia. The chapter represents a decisive break with the older Israelite understanding of Sheol as a place of shadowy non-existence, replacing it with a doctrine of blessed immortality for the just.",
+    "friction": "The sharp contrast between the blessed righteous and the cursed wicked, including the claim that the children of adulterers will perish (v. 16-19), raises questions about collective guilt and innocent suffering that the author does not fully address. The affirmation of the childless woman (v. 13) and the eunuch (v. 14) was revolutionary in a culture that equated barrenness with divine displeasure.",
+    "connections": "Psalm 31:5 (into your hands I commend my spirit); Daniel 12:2-3 (the wise shall shine); Malachi 3:2-3 (refiner's fire); 1 Peter 1:6-7 (tested by fire); Revelation 20:4 (the righteous judge nations)."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_latin": "Iustorum autem animae in manu Dei sunt et non tanget illos tormentum mortis.",
+      "rendering": "But the souls of the righteous are in the hand of God, and no torment of death shall touch them.",
+      "translator_notes": ["This verse is the theological cornerstone of the entire book. It answers the problem posed in chapters 1-2: the apparent defeat of the righteous is not real defeat, because God holds their souls beyond the reach of death."],
+      "key_terms": [{"latin": "animae", "rendered_as": "souls", "note": "Anima here refers to the enduring personal identity that survives physical death, a concept more developed than the Hebrew nephesh."}, {"latin": "in manu Dei", "rendered_as": "in the hand of God", "note": "The 'hand of God' signifies both protection and possession; the righteous belong to God and are therefore safe."}]
+    },
+    {
+      "verse": 2,
+      "text_latin": "Visi sunt oculis insipientium mori et aestimata est afflictio exitus illorum.",
+      "rendering": "In the eyes of the foolish they seemed to die, and their departure was accounted as affliction.",
+      "translator_notes": ["The key verb is visi sunt -- they 'seemed' or 'appeared' to die. The author distinguishes between appearance and reality: what looks like destruction is actually transition."],
+      "key_terms": [{"latin": "visi sunt", "rendered_as": "they seemed", "note": "The verb of appearance signals the epistemological gap between the foolish observer and the divine reality."}, {"latin": "exitus", "rendered_as": "departure", "note": "Exitus (going out, departure) is a gentler term than mors (death); it implies a journey rather than an ending."}]
+    },
+    {
+      "verse": 3,
+      "text_latin": "Et quod a nobis est iter exterminii, illi autem sunt in pace.",
+      "rendering": "And what seemed to us a journey to destruction -- they are in peace.",
+      "translator_notes": ["The terse conclusion 'they are in peace' (illi sunt in pace) became the source of the Christian requiem formula requiescat in pace."],
+      "key_terms": [{"latin": "in pace", "rendered_as": "in peace", "note": "Pax here is not merely the absence of suffering but the positive state of shalom -- wholeness, completion, rest in God."}]
+    },
+    {
+      "verse": 4,
+      "text_latin": "Et si coram hominibus tormenta passi sunt, spes illorum immortalitate plena est.",
+      "rendering": "And though in the sight of mortals they endured torments, their hope is full of immortality.",
+      "translator_notes": ["The juxtaposition of tormenta (torments) and immortalitate (immortality) is deliberate: present suffering and future glory are not merely sequential but causally linked."],
+      "key_terms": [{"latin": "immortalitate", "rendered_as": "immortality", "note": "One of the book's signature terms; immortality is not inherent to the soul but is God's gift to the righteous, grounded in relationship."}]
+    },
+    {
+      "verse": 5,
+      "text_latin": "In paucis vexati in multis bene disponentur, quoniam Deus temptavit illos et invenit illos dignos se.",
+      "rendering": "Having been disciplined a little, they will receive great blessings, because God tested them and found them worthy of himself.",
+      "translator_notes": ["The proportion is striking: 'a little' suffering yields 'great' reward. The testing metaphor frames suffering not as punishment but as qualification."],
+      "key_terms": [{"latin": "temptavit", "rendered_as": "tested", "note": "God's testing is probative, not punitive; it reveals character rather than inflicting harm."}, {"latin": "dignos se", "rendered_as": "worthy of himself", "note": "The standard of worthiness is God himself; the righteous are measured against the divine character, not a human code."}]
+    },
+    {
+      "verse": 6,
+      "text_latin": "Tamquam aurum in fornace probavit illos et quasi holocausti hostiam accepit illos.",
+      "rendering": "Like gold in a furnace he proved them, and like a whole burnt offering he accepted them.",
+      "translator_notes": ["The dual metaphor links metallurgy and sacrifice. The righteous are both refined by suffering and offered to God through it. The 'whole burnt offering' (holocaustum) implies total self-gift."],
+      "key_terms": [{"latin": "aurum in fornace", "rendered_as": "gold in a furnace", "note": "A widespread biblical image (Proverbs 17:3, Malachi 3:3, 1 Peter 1:7); fire purifies what is already precious."}, {"latin": "holocausti hostiam", "rendered_as": "a whole burnt offering", "note": "The holocaustum is the sacrifice entirely consumed by fire, symbolizing complete dedication to God."}]
+    },
+    {
+      "verse": 7,
+      "text_latin": "Et in tempore erit respectus illorum. Fulgebunt iusti et tamquam scintillae in harundineto discurrent.",
+      "rendering": "And at the time of their visitation they will shine. The righteous will blaze forth and run like sparks through stubble.",
+      "translator_notes": ["The image of the righteous shining draws on Daniel 12:3. The sparks-in-stubble metaphor suggests both radiance and unstoppable advance; the righteous are a wildfire that cannot be contained."],
+      "key_terms": [{"latin": "fulgebunt", "rendered_as": "will blaze forth", "note": "From fulgere, to flash or shine brilliantly; the same verb used of lightning. The righteous do not merely glow but radiate."}, {"latin": "scintillae in harundineto", "rendered_as": "sparks through stubble", "note": "The stubble represents the wicked and their works, easily consumed; the sparks are the righteous, small but irresistible."}]
+    },
+    {
+      "verse": 8,
+      "text_latin": "Iudicabunt nationes et dominabuntur populis, et regnabit Dominus illorum in perpetuum.",
+      "rendering": "They will judge nations and have dominion over peoples, and the Lord will reign over them forever.",
+      "translator_notes": ["The eschatological reversal is complete: those who were judged and condemned now sit as judges. Cf. 1 Corinthians 6:2, 'Do you not know that the saints will judge the world?'"],
+      "key_terms": [{"latin": "iudicabunt nationes", "rendered_as": "will judge nations", "note": "The righteous participate in God's final judgment; their faithfulness under testing qualifies them to exercise authority."}]
+    },
+    {
+      "verse": 9,
+      "text_latin": "Qui confidunt in illo intelligent veritatem, et fideles in dilectione adquiescent illi, quoniam donum et pax est electis eius.",
+      "rendering": "Those who trust in him will understand truth, and the faithful will abide with him in love, for grace and mercy are upon his chosen ones.",
+      "translator_notes": ["The triad of trust, truth, and love summarizes the righteous life. Understanding comes through trust, not apart from it; the epistemology is relational."],
+      "key_terms": [{"latin": "fideles in dilectione", "rendered_as": "the faithful will abide with him in love", "note": "Dilectio is deliberate, chosen love (as opposed to mere affection); the faithful's relationship with God is one of mutual, enduring commitment."}, {"latin": "electis", "rendered_as": "his chosen ones", "note": "The language of election; the righteous are not self-selected but chosen by God."}]
+    },
+    {
+      "verse": 10,
+      "text_latin": "Impii autem secundum quae cogitaverunt correptionem habebunt, qui neglexerunt iustum et a Domino recesserunt.",
+      "rendering": "But the ungodly will be punished as their reasoning deserves, they who disregarded the righteous and forsook the Lord.",
+      "translator_notes": ["The punishment fits the crime: those who reasoned badly (ch. 2) are judged according to that very reasoning."],
+      "key_terms": []
+    },
+    {
+      "verse": 11,
+      "text_latin": "Sapientiam enim et disciplinam qui abicit infelix est, et vacua est spes illorum et labores sine fructu et inutilia opera eorum.",
+      "rendering": "For whoever despises wisdom and instruction is wretched; their hope is empty, their labors fruitless, and their deeds worthless.",
+      "translator_notes": [],
+      "key_terms": [{"latin": "sapientiam et disciplinam", "rendered_as": "wisdom and instruction", "note": "The paired terms echo Proverbs 1:2; rejecting them means rejecting the entire framework that gives life meaning."}]
+    },
+    {
+      "verse": 12,
+      "text_latin": "Mulieres eorum insensatae et nequissimi filii eorum.",
+      "rendering": "Their wives are foolish and their children wicked.",
+      "translator_notes": ["The corruption of the ungodly is presented as contagious, spreading through the household. This is a dark counterpart to the Deuteronomic ideal of the faithful household."],
+      "key_terms": []
+    },
+    {
+      "verse": 13,
+      "text_latin": "Maledicta creatura eorum, quoniam felix est sterilis et incoinquinata quae nescivit torum in delicto; habebit fructum in respectione animarum sanctarum.",
+      "rendering": "Cursed is their offspring. For blessed is the barren woman who is undefiled, who has not known a sinful bed; she will have fruit at the visitation of souls.",
+      "translator_notes": ["A radical reversal of the conventional biblical equation of barrenness with curse (cf. Genesis 30:1, 1 Samuel 1:5-6). Moral purity outweighs biological fruitfulness."],
+      "key_terms": [{"latin": "sterilis et incoinquinata", "rendered_as": "the barren woman who is undefiled", "note": "The conjunction of sterility and purity overturns a deep cultural assumption; the woman's value is measured by character, not fertility."}, {"latin": "respectione animarum", "rendered_as": "the visitation of souls", "note": "The eschatological moment when God examines and rewards; the barren woman's 'fruit' is spiritual, not biological."}]
+    },
+    {
+      "verse": 14,
+      "text_latin": "Et spado qui non operatus est per manus suas iniquitatem nec cogitavit adversus Dominum nequissima; dabitur enim illi fidei donum electum et sors in templo Dei acceptissima.",
+      "rendering": "And blessed is the eunuch who has committed no lawless act with his hands, nor devised wicked things against the Lord; for he will be given a special gift of faithfulness, and a most welcome portion in the temple of the Lord.",
+      "translator_notes": ["This verse overturns Deuteronomy 23:1, which excluded eunuchs from the assembly of the Lord. Cf. Isaiah 56:3-5, which similarly promises eunuchs 'a name better than sons and daughters.' The passage was deeply significant for early Christian communities that included celibates and the sexually marginalized."],
+      "key_terms": [{"latin": "spado", "rendered_as": "the eunuch", "note": "Spado refers to a castrated man; in the ancient world eunuchs were simultaneously powerful (as court officials) and marginalized (as ritually impure)."}, {"latin": "sors in templo Dei", "rendered_as": "a portion in the temple of the Lord", "note": "Temple access was the ultimate sign of belonging to the covenant community; the eunuch receives what the law denied him."}]
+    },
+    {
+      "verse": 15,
+      "text_latin": "Bonorum enim laborum gloriosus est fructus, et quae non concidat radix sapientiae.",
+      "rendering": "For the fruit of good labors is glorious, and the root of wisdom never fails.",
+      "translator_notes": [],
+      "key_terms": [{"latin": "radix sapientiae", "rendered_as": "the root of wisdom", "note": "Wisdom is figured as a tree whose root system is indestructible; cf. Proverbs 3:18, 'she is a tree of life.'"}]
+    },
+    {
+      "verse": 16,
+      "text_latin": "Filii autem adulterorum in inconsummatione erunt et ab iniquo toro semen exterminabitur.",
+      "rendering": "But the children of adulterers will not reach maturity, and the offspring of an unlawful bed will perish.",
+      "translator_notes": ["The passage moves from the blessed barren to the cursed fertile; the contrast is between moral quality and biological quantity."],
+      "key_terms": [{"latin": "inconsummatione", "rendered_as": "will not reach maturity", "note": "Literally 'incompletion'; the children of the wicked never come to fruition."}]
+    },
+    {
+      "verse": 17,
+      "text_latin": "Et si quidem longae vitae erunt in nihilum computabuntur et sine honore erit novissima senectus illorum.",
+      "rendering": "And even if they live long, they will be counted as nothing, and their old age will be without honor at the last.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 18,
+      "text_latin": "Et si celerius defuncti fuerint non habebunt spem nec in die agnitionis allocutionem.",
+      "rendering": "And if they die young, they will have no hope, nor comfort on the day of judgment.",
+      "translator_notes": [],
+      "key_terms": [{"latin": "die agnitionis", "rendered_as": "the day of judgment", "note": "Literally 'day of recognition' or 'day of acknowledgment'; the moment when the truth about all persons is revealed."}]
+    },
+    {
+      "verse": 19,
+      "text_latin": "Nationis enim iniquae dirae sunt consummationes.",
+      "rendering": "For the end of an unrighteous generation is grievous.",
+      "translator_notes": ["The chapter closes with a terse summary: the wicked's story ends badly, however long or short it may be. The word consummationes (endings, completions) contrasts with the inconsummatio (incompletion) of verse 16."],
+      "key_terms": [{"latin": "consummationes", "rendered_as": "end", "note": "The completion or final outcome; the wicked's story reaches its conclusion in grief, whereas the righteous find peace (v. 3)."}]
+    }
+  ]
+}

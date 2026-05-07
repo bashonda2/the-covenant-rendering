@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Psalms",
+    "chapter": 30,
+    "tradition": "lxx-psalms",
+    "tradition_label": "Septuagint (LXX) / Psalmoi",
+    "source_text": "Rahlfs-Hanhart, Septuaginta (Psalmoi)",
+    "base_text": "Westminster Leningrad Codex (WLC)",
+    "date": "2nd century BCE",
+    "generated_at": "2026-04-23T00:00:00Z",
+    "prompt_version": "1.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Psalm 30 (MT) / Psalm 29 (LXX) is a Davidic thanksgiving psalm with the superscription 'a song at the dedication of the house' — used in Second Temple Judaism for Hanukkah (the re-dedication of the Temple after 164 BCE). The psalm's signature saying — 'weeping may tarry for the night, but joy comes with the morning' (v. 6) — captures its rescue-from-death-to-joy movement. The pre-resurrection Sheol theology at v. 10 ('what profit is there in my death … can the dust praise you?') frames a tension the NT's resurrection-hope resolves.",
+    "notable_variants": "30:5 'weeping may tarry for the night, but joy comes with the morning' as signature-saying; 30:10 Sheol-cannot-praise argument; the Davidic 'dedication of the house' superscription as Hanukkah-liturgical text.",
+    "structural_notes": "MT Ps 30 = LXX Ps 29. 13 verses (MT/LXX), 12 verses (English numbering, which omits the superscription)."
+  },
+  "verses": [
+    {"verse": 1, "has_variant": false, "variant_notes": ["Superscription 'a Psalm; a song at the dedication of the house; of David' tracks MT. The 'dedication' (hanukkah) makes this the standard Hanukkah-liturgy psalm in post-exilic Judaism — the 164 BCE Maccabean Temple re-consecration. John 10:22–23 notes Jesus was at the Temple during 'the Feast of Dedication,' directly invoking this psalm's liturgical context."]},
+    {"verse": 2, "has_variant": false, "variant_notes": ["'I will extol you, LORD, for you have drawn me up' tracks MT. The 'drawn up' (dalitani, echoing drawing water from a well) is salvation-as-rescue-from-depths."]},
+    {"verse": 3, "has_variant": false, "variant_notes": ["'You healed me' tracks MT."]},
+    {"verse": 4, "has_variant": false, "variant_notes": ["'You brought up my soul from Sheol' tracks MT. The 'from Sheol' deliverance-language — rescue from the realm of the dead — anticipates NT resurrection-vocabulary. Acts 2:27 (citing Ps 16:10) uses the same rescue-from-Hades pattern."]},
+    {"verse": 5, "has_variant": false, "variant_notes": ["'Sing to the LORD, O you his holy ones' tracks MT."]},
+    {"verse": 6, "has_variant": true, "significance": "theological", "mt_reading": "כִּי רֶגַע בְּאַפּוֹ חַיִּים בִּרְצוֹנוֹ בָּעֶרֶב יָלִין בֶּכִי וְלַבֹּקֶר רִנָּה", "lxx_reading": "ὅτι ὀργὴ ἐν τῷ θυμῷ αὐτοῦ καὶ ζωὴ ἐν τῷ θελήματι αὐτοῦ τὸ ἑσπέρας αὐλισθήσεται κλαυθμὸς καὶ εἰς τὸ πρωὶ ἀγαλλίασις", "mt_rendering": "For his anger is but for a moment, and his favor is for a lifetime; weeping may tarry for the night, but joy comes with the morning", "variant_rendering": "For anger is in his wrath, but life in his will; weeping will lodge at evening, but in the morning is exultation", "variant_notes": ["SIGNATURE SAYING. 'Weeping may tarry for the night, but joy comes with the morning' is one of the Psalter's most-recognized aphorisms on the brevity-of-grief vs. the permanence-of-divine-favor.", "The night-to-morning temporal frame anticipates the NT's resurrection-at-dawn pattern. Matthew 28:1 ('after the Sabbath, as it began to dawn'), Mark 16:2 ('very early on the first day of the week'), Luke 24:1, and John 20:1 all place the resurrection-discovery at the morning-after-weeping moment.", "The Pauline amplification: 2 Corinthians 4:17 ('our light momentary affliction is preparing for us an eternal weight of glory') extends the psalm's brief-trial / lasting-favor contrast into eschatological scope."]},
+    {"verse": 7, "has_variant": false, "variant_notes": ["'As for me, I said in my prosperity: I shall never be moved' tracks MT. The self-sufficiency-misjudgment — confidence-in-stable-fortune — is the Proverbs 27:1-style overconfidence-in-tomorrow, that James 4:13–15 also critiques."]},
+    {"verse": 8, "has_variant": false, "variant_notes": ["'By your favor, O LORD, you made my mountain stand strong' tracks MT."]},
+    {"verse": 9, "has_variant": false, "variant_notes": ["'You hid your face; I was dismayed' tracks MT. Divine-face-hiding as theological experience — a theme Isaiah 54:8, 59:2, and 64:7 develop."]},
+    {"verse": 10, "has_variant": true, "significance": "theological", "mt_reading": "מַה־בֶּצַע בְּדָמִי בְּרִדְתִּי אֶל־שָׁחַת הֲיוֹדְךָ עָפָר הֲיַגִּיד אֲמִתֶּךָ", "lxx_reading": "τίς ὠφέλεια ἐν τῷ αἵματί μου ἐν τῷ καταβαίνειν με εἰς διαφθοράν μὴ ἐξομολογήσεταί σοι χοῦς ἢ ἀναγγελεῖ τὴν ἀλήθειάν σου", "mt_rendering": "What profit is there in my death, in my going down to the pit? Will the dust praise you? Will it declare your faithfulness?", "variant_rendering": "What profit is there in my blood, when I go down into corruption? Will the dust give you thanks, or declare your truth?", "variant_notes": ["PRE-RESURRECTION SHEOL-ARGUMENT. The Davidic-psalmist argues with God: what advantage is there to your losing me in Sheol? The dust-cannot-praise logic is a characteristic pre-Christian Sheol-theology (cf. Ps 6:5, 88:10–12, 115:17, Isa 38:18).", "'INTO CORRUPTION' (eis diaphthoran). The LXX's diaphthora (corruption, decay, destruction of the body) is the critical term that Acts 2:27, 2:31, 13:35 and 13:37 deploy for Christ's incorrupt body — arguing from Ps 16:10 that the Messiah would not see diaphthora. Psalm 30:10's pre-resurrection despair over diaphthora is thus the Sheol-problem that Ps 16 (and the NT's use of it) answers."]},
+    {"verse": 11, "has_variant": false, "variant_notes": ["'Hear, O LORD, and be gracious to me' tracks MT."]},
+    {"verse": 12, "has_variant": false, "variant_notes": ["'You have turned my mourning into dancing' tracks MT. The mourning-to-dancing transformation anticipates John 16:20 ('your sorrow will turn into joy') and Revelation 21:4 ('he will wipe away every tear')."]},
+    {"verse": 13, "has_variant": false, "variant_notes": ["'So that my glory may sing your praise and not be silent' tracks MT. The closing 'I will give thanks to you forever' signals thanksgiving-without-end — the eternal-worship that the end-of-Sheol resurrection-hope enables."]}
+  ]
+}

@@ -1,0 +1,225 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "2 Maccabees",
+    "chapter": 5,
+    "tradition": "vulgate",
+    "tradition_label": "Latin Vulgate (Deuterocanonical)",
+    "source_text": "Biblia Sacra Vulgata (Stuttgart critical edition)",
+    "translator": "Jerome",
+    "date": "c. 405 CE",
+    "canon": ["catholic", "orthodox", "ethiopian"],
+    "generated_at": "2026-04-20T00:00:00Z",
+    "prompt_version": "2.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Heavenly portents appear over Jerusalem — horsemen in golden armor battling in the sky. Jason launches a violent but failed attempt to retake the city. Antiochus, misinterpreting events as a revolt, storms Jerusalem with savage fury: eighty thousand are killed, forty thousand enslaved. He enters the Temple's inner sanctuary with Menelaus as guide, plunders the sacred vessels, and departs in arrogance. The chapter closes with the theological explanation: God allowed this because of the people's sins, but the Temple will be restored.",
+    "remarkable": "The celestial cavalry vision (vv. 1-4) is one of the most dramatic atmospheric portents in ancient literature — golden-armored horsemen clashing in the clouds for forty days. The theological framework is equally striking: the author insists that God did not choose the people for the sake of the Temple, but the Temple for the sake of the people (v. 19). This reversal of conventional Temple theology is among the most sophisticated theological statements in the deuterocanonical literature.",
+    "friction": "The heavenly visions described in verses 1-4 use military language that blurs the line between literal celestial phenomena and symbolic interpretation. We render the Latin straightforwardly and let the reader decide. The massive casualty figures (80,000 killed, 40,000 enslaved, 40,000 sold) may be conventional exaggerations following ancient historiographical practice.",
+    "connections": "The celestial portents connect to Joel 2:30-31 (wonders in the heavens) and anticipate the heavenly warriors of chapters 10 and 11. Antiochus's entry into the Holy of Holies parallels the Heliodorus attempt of chapter 3, but this time God does not intervene — the theological explanation in verses 17-20 addresses this silence directly. The plundering of the Temple echoes Nebuchadnezzar's actions in 2 Kings 25:13-17."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_latin": "Eodem tempore Antiochus secundam profectionem paravit in Aegyptum.",
+      "rendering": "At that time Antiochus prepared his second expedition against Egypt.",
+      "translator_notes": ["Antiochus IV's second Egyptian campaign (168 BCE) provides the political context for the crisis in Jerusalem."],
+      "key_terms": []
+    },
+    {
+      "verse": 2,
+      "text_latin": "Contigit autem per universam Hierosolymorum civitatem videri diebus quadraginta per aera equites discurrentes auratas stolas habentes et hastis quasi cohortes armatos.",
+      "rendering": "It happened that throughout the whole city of Jerusalem, for forty days, horsemen were seen coursing through the air, wearing golden robes and armed with lances like cohorts of soldiers.",
+      "translator_notes": ["The celestial cavalry: golden-robed horsemen battling in the sky for forty days. The duration (forty days) echoes biblical patterns of trial and revelation (Moses on Sinai, Jesus's temptation)."],
+      "key_terms": [{"latin": "auratas stolas", "rendered_as": "golden robes", "note": "Gold signifies heavenly origin; the stola is a full-length garment — these are angelic warriors in formal array."},
+        {"latin": "diebus quadraginta", "rendered_as": "for forty days", "note": "The biblical number of testing and divine encounter — forty days of heavenly portent."}]
+    },
+    {
+      "verse": 3,
+      "text_latin": "Et cursus equorum per ordines digestos et congressiones fieri cominus et scutorum motus et galeatorum multitudinem gladiis districtis et telorum iactus et aureorum armorum splendorem omnisque generis loricarum.",
+      "rendering": "And charges of horses drawn up in ranks, and close combat, and the movement of shields, and a multitude of helmeted soldiers with drawn swords, and the hurling of javelins, and the gleam of golden armor, and breastplates of every kind.",
+      "translator_notes": ["The vision is rendered with military precision — ranks, close combat, shield movements, drawn swords, javelin throws. The golden armor gleaming in the sky creates an overwhelming visual image."],
+      "key_terms": []
+    },
+    {
+      "verse": 4,
+      "text_latin": "Quapropter omnes rogabant in bonum monstra converti.",
+      "rendering": "Therefore all prayed that these portents might turn out to be for good.",
+      "translator_notes": ["The people's response to the vision is prayer — hoping the omen is favorable. The word 'monstra' (portents/prodigies) carries both wonder and dread."],
+      "key_terms": [{"latin": "monstra", "rendered_as": "portents", "note": "Monstrum — a divine sign or portent, carrying both the sense of wonder and warning."}]
+    },
+    {
+      "verse": 5,
+      "text_latin": "Sed cum falsus rumor exisset tamquam vita excessisset Antiochus assumptis Iason non minus mille viris repente adgressus est civitatem.",
+      "rendering": "But when a false rumor spread that Antiochus had died, Jason took no fewer than a thousand men and made a sudden attack on the city.",
+      "translator_notes": ["Jason, the deposed high priest in exile, seizes on a false report of Antiochus's death to attempt a coup. His attack on his own city with a thousand men is both desperate and destructive."],
+      "key_terms": []
+    },
+    {
+      "verse": 6,
+      "text_latin": "Et civibus ad murum convolantibus ad ultimum apprehensa civitate Menelaus fugit in arcem.",
+      "rendering": "And when the citizens were driven back to the walls, the city was finally taken, and Menelaus fled to the citadel.",
+      "translator_notes": ["Jason captures Jerusalem briefly; Menelaus takes refuge in the Seleucid garrison's citadel (the Akra)."],
+      "key_terms": []
+    },
+    {
+      "verse": 7,
+      "text_latin": "Iason vero non parcebat in caede civibus suis nec cogitabat prosperitatem adversum cognatos malitiam esse existimans hostium et non civium se trophaea capturum.",
+      "rendering": "Jason did not spare his own citizens in the slaughter, nor did he consider that success against one's kinsmen is the greatest misfortune, imagining that he was winning trophies from enemies and not from his own people.",
+      "translator_notes": ["The narrator's moral judgment is cutting: Jason cannot see that killing his own people is not victory but catastrophe. The term 'trophaea' (trophies) is deliberately ironic — these are trophies of civil war."],
+      "key_terms": [{"latin": "trophaea", "rendered_as": "trophies", "note": "Military victory monuments — used ironically for fratricidal slaughter."}]
+    },
+    {
+      "verse": 8,
+      "text_latin": "Et principatum quidem non obtinuit finem vero insidiarum suarum confusionem accepit et profugus iterum in Ammanitim se contulit.",
+      "rendering": "He did not gain the leadership, but the end of his plotting was his own disgrace; and once again he fled as a fugitive to the Ammonites.",
+      "translator_notes": ["Jason's coup fails. His pattern — treachery, brief success, disgrace, exile — repeats itself."],
+      "key_terms": []
+    },
+    {
+      "verse": 9,
+      "text_latin": "Ad ultimum in exitium sui conclusus ab Areta Arabum tyranno fugiens de civitate in civitatem omnibus odiosus ut refuga legum et execrabilis ut patriae et civium hostis in Aegyptum extrusus est.",
+      "rendering": "In the end, brought to his own destruction, accused before Aretas the ruler of the Arabs, fleeing from city to city, hated by all as a deserter of the laws and detested as the enemy of his country and his countrymen, he was driven into Egypt.",
+      "translator_notes": ["Jason's final wandering — a man without a home, hated by all. 'Refuga legum' (deserter of the laws) and 'patriae hostis' (enemy of the fatherland) are the most severe civic condemnations."],
+      "key_terms": [{"latin": "refuga legum", "rendered_as": "a deserter of the laws", "note": "One who has abandoned the Torah — the ultimate charge against a former high priest."}]
+    },
+    {
+      "verse": 10,
+      "text_latin": "Et qui multos de patria sua expulerat peregrinus periit Lacedaemonas profectus quasi pro cognatione ibi refugium habiturus.",
+      "rendering": "And he who had driven many from their own country perished in a foreign land, having gone to Sparta in the hope of finding refuge there because of their kinship.",
+      "translator_notes": ["Jason dies in exile — the same fate he inflicted on others. The 'kinship' claim with Sparta reflects the legend (mentioned in 1 Maccabees 12:21) that Spartans and Jews were related through Abraham."],
+      "key_terms": []
+    },
+    {
+      "verse": 11,
+      "text_latin": "Et qui insepultos multos abiecerat ipse et inlamentatus et insepultus abicitur nec sepultura peregrina usus nec patrio sepulchro participans.",
+      "rendering": "He who had cast out many to lie unburied was himself cast out unlamented and unburied, having no use of a foreign grave nor any share in the tomb of his fathers.",
+      "translator_notes": ["The poetic justice reaches its climax: Jason denied burial to others; he himself receives none. In the ancient world, denial of burial was the ultimate disgrace (cf. Antigone, and the curse on Jezebel)."],
+      "key_terms": []
+    },
+    {
+      "verse": 12,
+      "text_latin": "His itaque gestis suspicatus est rex societatem deserturos Iudaeos et ob hoc profectus ex Aegypto efferatis animis civitatem quidem armis cepit.",
+      "rendering": "When these things happened, the king suspected that the Jews were deserting their alliance. He therefore set out from Egypt with a savage spirit and took the city by force of arms.",
+      "translator_notes": ["Antiochus interprets Jason's attempted coup as a Jewish revolt against Seleucid authority. His response — taking Jerusalem by military force — is disproportionate and devastating."],
+      "key_terms": [{"latin": "efferatis animis", "rendered_as": "with a savage spirit", "note": "Efferatus — made wild, savage, brutalized. The king's emotional state drives his military violence."}]
+    },
+    {
+      "verse": 13,
+      "text_latin": "Iussit autem militibus interficere nec parcere occursantibus et per domos ascendentes trucidare.",
+      "rendering": "He commanded his soldiers to kill without mercy all who came in their way, and to slaughter those who took refuge in their houses.",
+      "translator_notes": ["The massacre order: no quarter, house-to-house killing. The violence is indiscriminate — military and civilian alike."],
+      "key_terms": []
+    },
+    {
+      "verse": 14,
+      "text_latin": "Fiebant ergo caedes iuvenum ac seniorum et mulierum et natorum exterminia et virginum ac parvulorum neces.",
+      "rendering": "So there was slaughter of young and old, destruction of women and children, and killing of young women and infants.",
+      "translator_notes": ["The catalogue of victims — young, old, women, children, maidens, infants — emphasizes the total indiscriminate nature of the massacre."],
+      "key_terms": []
+    },
+    {
+      "verse": 15,
+      "text_latin": "Octoginta autem milibus triduo peremptis quadraginta milia vinctos non minus autem venundatos.",
+      "rendering": "In three days eighty thousand were killed, forty thousand were taken prisoner, and no fewer were sold into slavery.",
+      "translator_notes": ["The figures — 80,000 killed, 40,000 captured, 40,000 sold — follow ancient conventions for expressing catastrophic loss. The three-day timeframe intensifies the horror."],
+      "key_terms": []
+    },
+    {
+      "verse": 16,
+      "text_latin": "Sed nec ista sufficiebant ausus est etiam intrare templum universa terra sanctius Menelao ductore qui legum et patriae fuit proditor.",
+      "rendering": "But not even this was enough for him. He dared to enter the Temple — the holiest place on all the earth — with Menelaus as his guide, Menelaus who had been a traitor to the laws and to his country.",
+      "translator_notes": ["Antiochus enters the Temple with Menelaus as guide — the illegitimate high priest leads the pagan king into the sanctuary. The Temple is called 'universa terra sanctius' (holier than all the earth)."],
+      "key_terms": [{"latin": "universa terra sanctius", "rendered_as": "the holiest place on all the earth", "note": "A superlative claim for the Jerusalem Temple's unique sanctity among all sacred spaces."},
+        {"latin": "legum et patriae proditor", "rendered_as": "a traitor to the laws and to his country", "note": "Menelaus's double betrayal: Torah and nation."}]
+    },
+    {
+      "verse": 17,
+      "text_latin": "Et scelestis manibus sumens sancta vasa quae ab aliis regibus et civitatibus erant posita ad ornatum loci et gloriam contaminatis manibus contrectabat et conterebat.",
+      "rendering": "And taking the sacred vessels in his wicked hands — vessels that had been placed there by other kings and cities for the adornment and glory of the place — he handled and profaned them with his polluted hands.",
+      "translator_notes": ["The double mention of hands — 'scelestis manibus' (wicked hands) and 'contaminatis manibus' (polluted hands) — emphasizes the physical and spiritual contamination. The vessels were international gifts, making the desecration an offense against all the donor nations."],
+      "key_terms": [{"latin": "sancta vasa", "rendered_as": "the sacred vessels", "note": "The liturgical objects of the Temple, considered holy and untouchable by unconsecrated persons."}]
+    },
+    {
+      "verse": 18,
+      "text_latin": "Ita alienatus mente Antiochus non considerabat quod propter peccata habitantium civitatem modice Deus fuerat iratus propter quod et accidit circa locum despectio.",
+      "rendering": "So Antiochus, alienated in his mind, did not consider that because of the sins of the city's inhabitants God had been briefly angry, and that for this reason the contempt had fallen upon the place.",
+      "translator_notes": ["The theological explanation begins: Antiochus's success is not evidence of his power but of God's temporary anger at Israel's sins. The king is 'alienated in mind' — unable to read the theological situation correctly."],
+      "key_terms": [{"latin": "alienatus mente", "rendered_as": "alienated in his mind", "note": "Mentally estranged from reality — Antiochus cannot perceive the true meaning of events."},
+        {"latin": "propter peccata", "rendered_as": "because of the sins", "note": "The deuteronomistic theology: national suffering results from national sin."}]
+    },
+    {
+      "verse": 19,
+      "text_latin": "Alioquin nisi contigisset eos multis peccatis esse involutos sicut Heliodorus qui missus est a Seleuco rege ad expoliandum aerarium etiam hic statim adveniens flagellatus et repulsus utique fuisset ab audacia.",
+      "rendering": "Otherwise, had they not been entangled in many sins, this man too, just like Heliodorus who was sent by King Seleucus to plunder the treasury, would have been scourged and driven back from his audacity the moment he arrived.",
+      "translator_notes": ["The contrast with Heliodorus (chapter 3) is explicit: Heliodorus was stopped supernaturally; Antiochus was not. The difference is not God's power but the people's sin level. When the people were righteous, God defended the Temple; when they sinned, he withdrew protection temporarily."],
+      "key_terms": []
+    },
+    {
+      "verse": 20,
+      "text_latin": "Verum non propter locum gentem sed propter gentem locum Deus elegit.",
+      "rendering": "But God did not choose the people for the sake of the place; he chose the place for the sake of the people.",
+      "translator_notes": ["One of the most important theological statements in 2 Maccabees: the Temple exists for the people, not the people for the Temple. God's primary commitment is to the nation, not to the building. This prevents Temple theology from becoming idolatrous attachment to a structure."],
+      "key_terms": [{"latin": "non propter locum gentem sed propter gentem locum", "rendered_as": "not the people for the place but the place for the people", "note": "A revolutionary theological principle: the Temple serves the people, not the reverse. God's covenant is with persons, not with architecture."}]
+    },
+    {
+      "verse": 21,
+      "text_latin": "Ideoque et ipse locus particeps factus est populi malorum postea autem fiet socius bonorum et qui derelictus in ira Dei omnipotentis est iterum in magni Domini reconciliatione cum summa gloria exaltabitur.",
+      "rendering": "Therefore the place itself shared in the misfortunes of the people, but afterward it will share in their blessings. And the place that was abandoned during the wrath of almighty God will be exalted with the greatest glory when the great Lord is reconciled.",
+      "translator_notes": ["The Temple's fate follows the people's fate: it suffers when they suffer, and it will be glorified when they are restored. This is a theology of solidarity between sacred space and sacred community."],
+      "key_terms": [{"latin": "reconciliatione", "rendered_as": "reconciled", "note": "The restoration of right relationship between God and his people — the precondition for the Temple's restoration."}]
+    },
+    {
+      "verse": 22,
+      "text_latin": "Igitur Antiochus mille et octingentis ablatis de templo talentis velociter Antiochiam contendit existimans se prae superbia terram ad navigandum pelagus vero ad iter agendum deducturum propter mentis elationem.",
+      "rendering": "So Antiochus, having carried away eighteen hundred talents from the Temple, hurried back to Antioch, thinking in his arrogance that he could make the land navigable and the sea passable on foot — such was the exaltation of his mind.",
+      "translator_notes": ["The 1,800 talents represent an enormous fortune. Antiochus's delusions of grandeur — making land into sea and sea into land — echo the hubris of ancient tyrants. 'Mentis elationem' (exaltation of mind) is a clinical description of megalomaniacal pride."],
+      "key_terms": [{"latin": "mentis elationem", "rendered_as": "the exaltation of his mind", "note": "Hubris — the dangerous elevation of self that precedes divine judgment."}]
+    },
+    {
+      "verse": 23,
+      "text_latin": "Reliquit autem et praepositos ad adfligendam gentem in Hierosolymis quidem Philippum genere Phrygem moribus crudeliorem eo ipso a quo constitutus est.",
+      "rendering": "He also left behind governors to afflict the people: in Jerusalem, Philip, a Phrygian by birth, more cruel in character than the one who had appointed him;",
+      "translator_notes": ["Philip the Phrygian is left as military governor of Jerusalem — described as even crueler than Antiochus himself."],
+      "key_terms": []
+    },
+    {
+      "verse": 24,
+      "text_latin": "In Garizim autem Andronicum et Menelaum qui gravius quam ceteri imminebant civibus.",
+      "rendering": "And at Gerizim, Andronicus; and in addition, Menelaus, who lorded it over the citizens more oppressively than all the others.",
+      "translator_notes": ["Menelaus remains as the instrument of oppression — the corrupt high priest serving the occupier against his own people."],
+      "key_terms": [{"latin": "Garizim", "rendered_as": "Gerizim", "note": "Mount Gerizim, the Samaritan holy mountain, also under Seleucid military governance."}]
+    },
+    {
+      "verse": 25,
+      "text_latin": "Cumque appositus esset contra Iudaeos misit odiosum principem Apollonium cum exercitu viginti et duobus milibus praecipiens ei omnes perfectae aetatis interficere mulieres ac iuvenes vendere.",
+      "rendering": "And being set against the Jews, the king sent the detestable commander Apollonius with an army of twenty-two thousand, commanding him to kill all the men of military age and to sell the women and youths.",
+      "translator_notes": ["A second wave of violence: Apollonius arrives with 22,000 troops under orders to kill all adult men and enslave women and children."],
+      "key_terms": []
+    },
+    {
+      "verse": 26,
+      "text_latin": "Qui cum venisset Hierosolymam pacem simulans quievit usque ad diem sanctum sabbati et tunc feriatis Iudaeis arma capere suis praecepit.",
+      "rendering": "When he came to Jerusalem, he feigned peace and waited until the holy day of the Sabbath. Then, when the Jews were at rest, he commanded his men to take up arms.",
+      "translator_notes": ["Apollonius attacks on the Sabbath — exploiting Jewish religious observance as a military vulnerability. The treachery of feigning peace and then attacking during sacred rest is doubly condemned."],
+      "key_terms": [{"latin": "diem sanctum sabbati", "rendered_as": "the holy day of the Sabbath", "note": "The Sabbath as both a sacred institution and a military vulnerability — a tension that the Maccabees will eventually resolve by permitting defensive fighting on Shabbat."}]
+    },
+    {
+      "verse": 27,
+      "text_latin": "Omnesque qui ad spectaculum processerant trucidavit et civitatem cum armatis discurrens ingentem multitudinem peremit.",
+      "rendering": "He slaughtered all who had come out to watch, and running through the city with armed men, he killed a vast multitude.",
+      "translator_notes": ["The Sabbath massacre: unarmed people who came out to observe the spectacle (perhaps a deceptive parade) are cut down."],
+      "key_terms": []
+    },
+    {
+      "verse": 28,
+      "text_latin": "Iudas autem Macchabaeus qui decimus fuerat secesserat in desertum locum ibique inter feras vitam in montibus cum suis agebat et feni cibo vescentes demorabantur ne participes essent coinquinationis.",
+      "rendering": "But Judas Maccabeus, who was the tenth, had withdrawn to a desert place, and there among the wild animals he lived in the mountains with his companions, eating only grass for food, so that they would not share in the defilement.",
+      "translator_notes": ["Judas Maccabeus appears for the first time in the narrative — living as an ascetic wilderness fugitive. The detail of eating grass (feni cibo — hay/grass food) emphasizes his commitment to avoiding ritual contamination even at the cost of severe deprivation. The 'tenth' may refer to his being one of ten companions."],
+      "key_terms": [{"latin": "Macchabaeus", "rendered_as": "Maccabeus", "note": "The epithet meaning 'the Hammer' — the name that will define the entire resistance movement."},
+        {"latin": "coinquinationis", "rendered_as": "the defilement", "note": "The ritual contamination that pervaded Jerusalem under forced Hellenization — Judas refuses any participation."}]
+    }
+  ]
+}

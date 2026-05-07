@@ -1,0 +1,197 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Exodus",
+    "chapter": 1,
+    "tradition": "lxx-exodus",
+    "tradition_label": "Septuagint (LXX)",
+    "source_text": "Rahlfs-Hanhart, Septuaginta",
+    "base_text": "Westminster Leningrad Codex (WLC)",
+    "date": "3rd century BCE",
+    "generated_at": "2026-04-22T00:00:00Z",
+    "prompt_version": "1.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Exodus 1 in the LXX is close to the MT in narrative content but diverges at two points that connect directly to New Testament texts: the count of Jacob's descendants who entered Egypt (1:5, seventy-five vs. seventy) and the named store-cities Pharaoh builds (1:11, with a third city On/Heliopolis added in the Alexandrian tradition). The chapter's midwife narrative (1:15–22) and the Pharaoh's decree against the Hebrew male infants set up the Moses-birth narrative of chapter 2 and, by extension, the Matthew 2 infanticide-echo in the Herod narrative.",
+    "notable_variants": "The 'seventy-five souls' at 1:5 that Stephen quotes at Acts 7:14 against the MT's 'seventy'; the possible LXX plus of 'On' (Heliopolis) as a third store-city at 1:11; the slight LXX specification at 1:22 of 'every male born to the Hebrews' to be cast into the Nile (adding the ethnic qualifier missing in MT).",
+    "structural_notes": "LXX Exodus 1 preserves MT's 22-verse structure. The LXX's name transliterations (Roubēn, Symeōn, Leui, Ioudas, etc.) are the forms that the NT genealogies inherit."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "has_variant": false,
+      "variant_notes": ["The opening list of Jacob's sons follows MT's order and count; LXX differs only in Greek transliteration conventions."]
+    },
+    {
+      "verse": 2,
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "רְאוּבֵן שִׁמְעוֹן לֵוִי וִיהוּדָה",
+      "lxx_reading": "Ρουβην Συμεων Λευι Ιουδας",
+      "mt_rendering": "Reuben, Simeon, Levi, and Judah",
+      "variant_rendering": "Rouben, Symeon, Leui, Ioudas",
+      "variant_notes": [
+        "LXX preserves the standard Greek transliterations that carried into the NT (e.g., Matt 1:2 Iouda, Rev 7:5–7 Rouben, Symeon, Leui). Transliteration conventions only; no substantive variant."
+      ]
+    },
+    {
+      "verse": 3,
+      "has_variant": false,
+      "variant_notes": ["Name list continues with Issachar, Zebulun, Benjamin in LXX as in MT."]
+    },
+    {
+      "verse": 4,
+      "has_variant": false,
+      "variant_notes": ["Name list concludes (Dan, Naphtali, Gad, Asher) identically across MT and LXX."]
+    },
+    {
+      "verse": 5,
+      "has_variant": true,
+      "significance": "major",
+      "mt_reading": "וַיְהִי כָּל־נֶפֶשׁ יֹצְאֵי יֶרֶךְ־יַעֲקֹב שִׁבְעִים נָפֶשׁ",
+      "lxx_reading": "ἦσαν δὲ πᾶσαι ψυχαὶ ἐξ Ιακωβ πέντε καὶ ἑβδομήκοντα",
+      "mt_rendering": "All the persons who came from Jacob's own line were seventy in all",
+      "variant_rendering": "And all the souls from Jacob were seventy-five",
+      "variant_notes": [
+        "The LXX reads seventy-five, matching Genesis 46:27 LXX, which adds five additional descendants of Joseph. MT reads seventy in both Genesis 46:27 and Exodus 1:5.",
+        "Stephen's speech at Acts 7:14 cites the seventy-five figure: 'Jacob and all his kindred, seventy-five souls.' This is one of the clearest NT dependencies on an LXX numerical variant against the MT.",
+        "4QExod-a from Qumran appears to support the seventy-five reading in Hebrew, confirming that the LXX variant reflects an early Hebrew textual tradition rather than a Greek innovation."
+      ]
+    },
+    {
+      "verse": 6,
+      "has_variant": false,
+      "variant_notes": ["The death of Joseph and his generation is rendered identically in LXX and MT."]
+    },
+    {
+      "verse": 7,
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "פָּרוּ וַיִּשְׁרְצוּ וַיִּרְבּוּ וַיַּעַצְמוּ בִּמְאֹד מְאֹד",
+      "lxx_reading": "ηὐξήθησαν καὶ ἐπληθύνθησαν καὶ χυδαῖοι ἐγένοντο καὶ κατίσχυον σφόδρα σφόδρα",
+      "mt_rendering": "the sons of Israel were fruitful and swarmed and multiplied and became exceedingly strong",
+      "variant_rendering": "they increased and multiplied and became abundant and grew exceedingly strong",
+      "variant_notes": [
+        "LXX replaces Hebrew va-yishretzu ('they swarmed' — using the animal-fertility verb sharatz of the creation narrative) with the milder chydaioi egenonto ('they became abundant/common'). The Hebrew's deliberate creation-echo vocabulary is softened in Greek.",
+        "The Hebrew here deliberately evokes Genesis 1's creation blessing on the animals and humans — the Israelites in Egypt are a new creation. The LXX's paraphrase loses this intertextual force."
+      ]
+    },
+    {
+      "verse": 8,
+      "has_variant": false,
+      "variant_notes": ["LXX renders 'a new king arose over Egypt who did not know Joseph' in direct Greek equivalent."]
+    },
+    {
+      "verse": 9,
+      "has_variant": false,
+      "variant_notes": ["Pharaoh's speech to his people is rendered closely in LXX; no substantive variant."]
+    },
+    {
+      "verse": 10,
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "פֶּן־יִרְבֶּה וְהָיָה כִּי־תִקְרֶאנָה מִלְחָמָה",
+      "lxx_reading": "μήποτε πληθυνθῇ καὶ ἡνίκα ἂν συμβῇ ἡμῖν πόλεμος",
+      "mt_rendering": "lest they multiply, and if war breaks out",
+      "variant_rendering": "lest they multiply, and if war comes upon us",
+      "variant_notes": [
+        "LXX's hēmin ('upon us') makes explicit what the Hebrew leaves implicit — that the war in Pharaoh's fear is a war that would come against Egypt. Minor interpretive specification."
+      ]
+    },
+    {
+      "verse": 11,
+      "has_variant": true,
+      "significance": "moderate",
+      "mt_reading": "אֶת־פִּתֹם וְאֶת־רַעַמְסֵס",
+      "lxx_reading": "τήν τε Πιθωμ καὶ Ραμεσση καὶ Ων ἥ ἐστιν Ἡλίου πόλις (in some MSS)",
+      "mt_rendering": "Pithom and Raamses",
+      "variant_rendering": "Pithom and Raamses and On (which is the city of Helios) [in some LXX manuscripts]",
+      "variant_notes": [
+        "A textual tradition within the LXX adds a third city — On, glossed as Heliou polis ('Heliopolis, city of the sun') — to the list of store-cities. The addition is absent from the main LXX manuscripts but present in some Alexandrian witnesses.",
+        "The plus may reflect a local Alexandrian interest in Heliopolis (near Alexandria) as connected to the Israelite building projects, or it may derive from an older Hebrew Vorlage.",
+        "The Vulgate preserves the two-city MT list. TCR's two-city form follows MT."
+      ]
+    },
+    {
+      "verse": 12,
+      "has_variant": false,
+      "variant_notes": ["The paradox of affliction leading to multiplication is rendered closely in LXX."]
+    },
+    {
+      "verse": 13,
+      "has_variant": false,
+      "variant_notes": ["The Egyptians' harsh enslavement of Israel is rendered directly in LXX."]
+    },
+    {
+      "verse": 14,
+      "has_variant": false,
+      "variant_notes": ["The enumeration of labors (mortar, brick, field work) follows MT in LXX."]
+    },
+    {
+      "verse": 15,
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "שִׁפְרָה וְשֵׁם הַשֵּׁנִית פּוּעָה",
+      "lxx_reading": "Σεπφωρα καὶ τὸ ὄνομα τῆς δευτέρας Φουα",
+      "mt_rendering": "Shiphrah and the other named Puah",
+      "variant_rendering": "Sepphōra and the name of the second Phoua",
+      "variant_notes": [
+        "LXX transliterates Shiphrah as Sepphōra — suspiciously close to the name Zipporah (LXX Sepphōra for Moses' wife at Exod 2:21 etc.). The two names are kept distinct in Hebrew but nearly merge in Greek transliteration."
+      ]
+    },
+    {
+      "verse": 16,
+      "has_variant": false,
+      "variant_notes": ["Pharaoh's infanticide command to the midwives is preserved in LXX with no substantive variant. The verb 'see on the birthstool' (eidēte epi tōn avnayim) preserves the Hebrew obscurity of avnayim ('twin-stones, birthstool')."]
+    },
+    {
+      "verse": 17,
+      "has_variant": false,
+      "variant_notes": ["The midwives' fear of God and their defiance of Pharaoh's command is rendered closely in LXX."]
+    },
+    {
+      "verse": 18,
+      "has_variant": false,
+      "variant_notes": ["Pharaoh's interrogation of the midwives tracks MT in LXX."]
+    },
+    {
+      "verse": 19,
+      "has_variant": false,
+      "variant_notes": ["The midwives' explanation (the Hebrew women give birth quickly) is rendered directly in LXX."]
+    },
+    {
+      "verse": 20,
+      "has_variant": false,
+      "variant_notes": ["God's blessing on the midwives and on Israel tracks MT in LXX."]
+    },
+    {
+      "verse": 21,
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "וַיַּעַשׂ לָהֶם בָּתִּים",
+      "lxx_reading": "ἐποίησαν ἑαυταῖς οἰκίας",
+      "mt_rendering": "He made households for them",
+      "variant_rendering": "they made households for themselves",
+      "variant_notes": [
+        "The Hebrew is ambiguous about the subject of 'made' and the referent of 'for them.' MT vocalization supports God as subject making households for the midwives (a blessing). LXX reads the midwives as subject making households for themselves.",
+        "Both readings are grammatically possible; the theological texture differs. TCR follows the MT-traditional reading (God-as-subject, blessing the midwives)."
+      ]
+    },
+    {
+      "verse": 22,
+      "has_variant": true,
+      "significance": "moderate",
+      "mt_reading": "כָּל־הַבֵּן הַיִּלּוֹד הַיְאֹרָה תַּשְׁלִיכֻהוּ",
+      "lxx_reading": "πᾶν ἄρσεν ὃ ἐὰν τεχθῇ τοῖς Εβραίοις εἰς τὸν ποταμὸν ῥίψατε",
+      "mt_rendering": "Every son that is born you must throw into the Nile",
+      "variant_rendering": "Every male born to the Hebrews throw into the river",
+      "variant_notes": [
+        "LXX adds tois Ebraiois ('to the Hebrews') specifying the ethnic scope of Pharaoh's decree — the MT is ambiguous about whether it targets all newborn males (Hebrew and Egyptian alike) or Hebrew males specifically.",
+        "The LXX's specification aligns with the narrative logic (Pharaoh's goal is to suppress the Hebrews) and removes the MT's puzzling universal scope. Samaritan Pentateuch also reads 'to the Hebrews.'",
+        "The LXX reading is almost certainly closer to the original Hebrew; the MT appears to have lost the qualifier."
+      ]
+    }
+  ]
+}

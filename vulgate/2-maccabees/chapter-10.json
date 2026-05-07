@@ -1,0 +1,294 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "2 Maccabees",
+    "chapter": 10,
+    "tradition": "vulgate",
+    "tradition_label": "Latin Vulgate (Deuterocanonical)",
+    "source_text": "Biblia Sacra Vulgata (Stuttgart critical edition)",
+    "translator": "Jerome",
+    "date": "c. 405 CE",
+    "canon": ["catholic", "orthodox", "ethiopian"],
+    "generated_at": "2026-04-20T00:00:00Z",
+    "prompt_version": "2.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Judas Maccabeus recovers the Temple and the city, destroys the pagan altars, purifies the sanctuary, and relights the sacred fire. The rededication is celebrated for eight days modeled on the Feast of Booths — this is the institution of Hanukkah. The chapter then shifts to military campaigns under Antiochus V Eupator: battles against the Idumeans and against Timothy's forces, during which heavenly horsemen again appear to fight alongside Judas.",
+    "remarkable": "The Temple rededication (vv. 1-8) is the event that Hanukkah commemorates — the relighting of the sacred fire, the eight-day celebration, and the decree that all Jews should observe this feast annually. The appearance of five heavenly horsemen (vv. 29-30) who surround Judas and shield him with their armor is one of the most vivid angelophany scenes in biblical literature, directly paralleling the Heliodorus vision in chapter 3 but now fighting for Israel rather than against foreign robbers.",
+    "friction": "The Vulgate's 'scenopegia' (feast of booths) for the eight-day celebration (v. 6) is the same term used in 1:9, connecting Hanukkah explicitly to Sukkot. The relationship between the two festivals — whether Hanukkah was a deferred Sukkot or an independent institution modeled on it — remains debated. We render the connection transparently.",
+    "connections": "The Temple purification connects backward to the desecration in 5:15-21 and 6:2-5, completing the narrative arc. The eight-day celebration parallels Solomon's Temple dedication (2 Chronicles 7:9) and the letters' request in 1:9 and 1:18. The heavenly horsemen connect to 3:25-26 (Heliodorus episode) and to 2 Kings 6:17 (Elisha's fiery horses). The decree for annual observance (v. 8) establishes the feast that Jesus himself would celebrate in John 10:22-23."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_latin": "Macchabaeus autem et qui cum eo erant Domino se protegente templum quidem et civitatem recepit.",
+      "rendering": "Maccabeus and those with him, with the Lord protecting them, recovered the Temple and the city.",
+      "translator_notes": ["The recovery of the Temple is the climactic event toward which the entire narrative has been building. 'Domino se protegente' (with the Lord protecting) — divine agency is credited first."],
+      "key_terms": []
+    },
+    {
+      "verse": 2,
+      "text_latin": "Aras autem quas alienigenae per plateas extruxerant itemque delubra demolitus est.",
+      "rendering": "He tore down the altars that foreigners had erected in the public squares, and likewise demolished the shrines.",
+      "translator_notes": ["The pagan altars and shrines that dotted Jerusalem's public spaces are systematically destroyed — the physical reversal of the Hellenization program."],
+      "key_terms": [{"latin": "delubra", "rendered_as": "the shrines", "note": "Delubrum — a pagan shrine or temple, distinct from the Jewish Temple (templum)."}]
+    },
+    {
+      "verse": 3,
+      "text_latin": "Et purgato templo aliud altare fecerunt et de ignitis lapidibus igne concepto sacrificia obtulerunt post biennium et incensum et lucernas et panes propositionis posuerunt.",
+      "rendering": "Having purified the Temple, they made another altar. Striking fire from flint stones, they offered sacrifices after a lapse of two years, and set out the incense, the lamps, and the bread of the Presence.",
+      "translator_notes": ["The purification sequence: new altar, fresh fire (from flint, not from the old defiled fire), sacrifice after two years of cessation, and restoration of the three perpetual elements: incense, lampstand, showbread. The 'two years' dates the desecration period."],
+      "key_terms": [{"latin": "panes propositionis", "rendered_as": "the bread of the Presence", "note": "The showbread (lehem panim) — twelve loaves set before God in the Temple, now restored after two years of absence."},
+        {"latin": "de ignitis lapidibus", "rendered_as": "striking fire from flint stones", "note": "New fire from flint rather than the defiled fire — a fresh start for the Temple's sacred flame."}]
+    },
+    {
+      "verse": 4,
+      "text_latin": "Quae cum fecissent rogabant Dominum prostrati in terram ne amplius talibus malis inciderent sed et si quando peccassent ut ab ipso mitius corriperentur et non barbaris ac blasphemis hominibus traderentur.",
+      "rendering": "When they had done these things, they fell prostrate on the ground and begged the Lord that they might never again fall into such evils, but that if they should ever sin, they might be disciplined by him with gentleness and not be handed over to barbarian and blasphemous peoples.",
+      "translator_notes": ["The post-purification prayer is remarkably self-aware: they acknowledge the possibility of future sin and ask only for gentler divine discipline — not deliverance to pagans. This reflects the book's theology that suffering is divine pedagogy."],
+      "key_terms": [{"latin": "mitius corriperentur", "rendered_as": "disciplined with gentleness", "note": "A prayer for merciful correction rather than devastating punishment — the lessons of the persecution have been absorbed."}]
+    },
+    {
+      "verse": 5,
+      "text_latin": "Qua die autem templum ab alienigenis pollutum fuerat contigit eadem die purificationem fieri vicesima quinta mensis qui fuit Casleu.",
+      "rendering": "It happened that on the very same day on which the Temple had been defiled by foreigners, the purification took place — that is, on the twenty-fifth of the month of Kislev.",
+      "translator_notes": ["The date correspondence is emphasized: the rededication falls on the exact anniversary of the desecration — divine symmetry in the restoration. The 25th of Kislev is the date of Hanukkah."],
+      "key_terms": [{"latin": "vicesima quinta mensis Casleu", "rendered_as": "the twenty-fifth of Kislev", "note": "The date of Hanukkah — the 25th of Kislev, corresponding to late November or December."}]
+    },
+    {
+      "verse": 6,
+      "text_latin": "Et cum laetitia diebus octo egerunt in modum tabernaculorum recordantes quod ante modicum temporis sollemnem diem tabernaculorum in montibus et speluncis more bestiarum egerant.",
+      "rendering": "And they celebrated with gladness for eight days in the manner of the Feast of Booths, remembering that not long before, they had observed the solemn feast of Booths while living in the mountains and caves like wild animals.",
+      "translator_notes": ["The eight-day celebration explicitly models Sukkot (Feast of Booths). The bitter memory — they had tried to observe Sukkot while hiding in caves like animals — gives the Temple celebration its emotional depth. They are finally celebrating properly what they once celebrated in terror."],
+      "key_terms": [{"latin": "tabernaculorum", "rendered_as": "the Feast of Booths", "note": "Sukkot — the seven-day harvest festival that the Hanukkah celebration was modeled on."},
+        {"latin": "in montibus et speluncis", "rendered_as": "in the mountains and caves", "note": "The fugitive existence during the persecution — the contrast with the restored Temple celebration."}]
+    },
+    {
+      "verse": 7,
+      "text_latin": "Propter quod thyrsos et ramos virides et palmas praeferebant ei qui prosperatum est mundari locum suum.",
+      "rendering": "Therefore they carried ivy-wreathed wands and green branches and palms, offering them to him who had granted that his place be purified.",
+      "translator_notes": ["The processional elements — thyrsoi (wreathed wands), green branches, palms — are standard Sukkot symbols, now used in the Hanukkah celebration."],
+      "key_terms": [{"latin": "thyrsos", "rendered_as": "ivy-wreathed wands", "note": "The thyrsus — a wand wreathed with ivy, used in Hellenistic processions and here adopted for the Jewish festival celebration."}]
+    },
+    {
+      "verse": 8,
+      "text_latin": "Et decreverunt communi praecepto et decreto universae genti Iudaeorum omnibus annis agere dies istos.",
+      "rendering": "And they decreed by common resolution and vote that the whole Jewish nation should observe these days every year.",
+      "translator_notes": ["The formal institution of the annual Hanukkah celebration — a decree binding on all Jews in perpetuity. This is the legislative moment that created the festival still observed today."],
+      "key_terms": [{"latin": "communi praecepto et decreto", "rendered_as": "by common resolution and vote", "note": "A formal communal decree — Hanukkah is instituted by legitimate communal authority, not individual initiative."}]
+    },
+    {
+      "verse": 9,
+      "text_latin": "Et Antiochi quidem qui appellatus est Nobilis vitae excessus ita se habuit.",
+      "rendering": "Such, then, was the end of the life of Antiochus, who was called the Noble.",
+      "translator_notes": ["A summary closure on the Antiochus narrative, referring back to chapter 9. 'Nobilis' (the Noble/Illustrious) — his self-chosen title sits in ironic contrast to his ignominious death."],
+      "key_terms": []
+    },
+    {
+      "verse": 10,
+      "text_latin": "Nunc autem de Eupatore Antiochi impii filio quae gesta sunt narrabimus breviter colligentes quae de bellis mala provenerunt.",
+      "rendering": "Now we shall briefly narrate what happened under Eupator, the son of the impious Antiochus, summarizing the evils that arose from the wars.",
+      "translator_notes": ["Transition to the reign of Antiochus V Eupator. The epitomist's 'briefly' signals continued condensation."],
+      "key_terms": [{"latin": "Eupatore", "rendered_as": "Eupator", "note": "Antiochus V Eupator ('of a good father') — a bitterly ironic name given his father's record."}]
+    },
+    {
+      "verse": 11,
+      "text_latin": "Hic enim suscepto regno constituit super negotia regni Lysiam quendam Foenicis et Syriae militiae principem.",
+      "rendering": "For when he assumed the kingdom, he appointed a certain Lysias as chief commander of the forces of Phoenicia and Syria and placed him over the affairs of the kingdom.",
+      "translator_notes": ["Lysias becomes regent and military commander — the real power behind the young king."],
+      "key_terms": []
+    },
+    {
+      "verse": 12,
+      "text_latin": "Nam Ptolomaeus qui dicebatur Macron iusti tenax erga Iudaeos esse constituit propter iniustitiam quae facta erat in eos et pacifice agere cum eis temptabat.",
+      "rendering": "For Ptolemy called Macron had resolved to maintain justice toward the Jews because of the injustice that had been done to them, and he attempted to deal with them peacefully.",
+      "translator_notes": ["Ptolemy Macron, a moderate Seleucid official, tries to pursue a just policy toward the Jews — a rare sympathetic figure among the Seleucid administrators."],
+      "key_terms": []
+    },
+    {
+      "verse": 13,
+      "text_latin": "Unde accusatus ab amicis apud Eupatorem cum frequenter proditor audiret eo quod Cyprum creditam sibi a Philometore deseruisset et ad Antiochum Nobilem translatus ab eo quoque recessisset nec honesto quidem excessit vita nam veneno vitam finivit.",
+      "rendering": "For this he was accused by the king's friends before Eupator. He was frequently called a traitor because he had abandoned Cyprus, which had been entrusted to him by Philometor, and had gone over to Antiochus the Noble. Since he could not maintain the honor of his office, he took his own life by poison.",
+      "translator_notes": ["Ptolemy Macron's fate: called a traitor for his moderation, he commits suicide by poison. The man who tried to do right is destroyed by a system that rewards cruelty."],
+      "key_terms": []
+    },
+    {
+      "verse": 14,
+      "text_latin": "Gorgias autem cum esset dux locorum admissis advenis frequenter Iudaeos debellabat.",
+      "rendering": "Gorgias, when he was commander of the region, enlisted foreign mercenaries and waged frequent war against the Jews.",
+      "translator_notes": ["Gorgias (from 8:9) continues operations against the Jews using mercenary forces."],
+      "key_terms": []
+    },
+    {
+      "verse": 15,
+      "text_latin": "Iudaei vero qui tenebant oportune munitiones eos qui de Hierosolymis fuerant fugati suscipiebant et bellare temptabant.",
+      "rendering": "The Jews who held strategic fortifications took in those who had been driven out of Jerusalem and attempted to make war.",
+      "translator_notes": ["Jewish fortifications serve as refugee centers for those expelled from Jerusalem — military and humanitarian functions combined."],
+      "key_terms": []
+    },
+    {
+      "verse": 16,
+      "text_latin": "Hi vero qui erant cum Macchabaeo per obsecrationem Dominum rogantes ut esset sibi adiutor impetum fecerunt in Idumaeorum praesidia.",
+      "rendering": "Those who were with Maccabeus, praying to the Lord and beseeching him to be their helper, made an assault on the Idumean strongholds.",
+      "translator_notes": ["The campaign against Idumea begins with prayer — the Maccabean pattern of prayer before battle continues."],
+      "key_terms": []
+    },
+    {
+      "verse": 17,
+      "text_latin": "Multoque impetu instantes locis potiti sunt perimentes occurrentes in muro non minus quam viginti milia.",
+      "rendering": "Pressing forward with great vigor, they seized the positions, killing no fewer than twenty thousand of those who met them on the walls.",
+      "translator_notes": ["The Idumean campaign is successful — a significant military victory."],
+      "key_terms": []
+    },
+    {
+      "verse": 18,
+      "text_latin": "Quidam autem cum refugissent in duas turres valde munitas omnem apparatum ad repugnandum habentes.",
+      "rendering": "Some, however, fled into two strongly fortified towers, having every provision for resistance.",
+      "translator_notes": ["A pocket of resistance holds out in two fortified towers."],
+      "key_terms": []
+    },
+    {
+      "verse": 19,
+      "text_latin": "Macchabaeus relicto Simone et Iosepho itemque Zacchaeo hisque qui cum ipsis erant satis multis ad eos qui remanserant expugnandos ipse ad eas quae amplius perurgebant pugnas conversus est.",
+      "rendering": "Maccabeus left Simon and Joseph, and also Zacchaeus and his men — a sufficient force — to besiege those who remained, while he himself turned to the battles that pressed more urgently.",
+      "translator_notes": ["Judas delegates the siege and moves to more urgent fronts — sound strategic prioritization."],
+      "key_terms": []
+    },
+    {
+      "verse": 20,
+      "text_latin": "Hi vero qui cum Simone erant cupiditate ducti a quibusdam qui in turribus erant suasi sunt pecunia et septuaginta milibus didrachmas acceptis dimiserunt quosdam effugere.",
+      "rendering": "But those who were with Simon, driven by greed, were persuaded by certain men in the towers with money. They accepted seventy thousand drachmas and let some of the enemy escape.",
+      "translator_notes": ["Corruption within the Maccabean forces: Simon's men accept bribes to let enemies escape. Even the righteous cause is not immune to greed."],
+      "key_terms": []
+    },
+    {
+      "verse": 21,
+      "text_latin": "Cum autem Macchabaeo nuntiatum esset quod factum est congregatis principibus populi accusavit quod pecunia fratres vendidissent adversariis eorum dimissis.",
+      "rendering": "When Maccabeus was informed of what had happened, he assembled the leaders of the people and accused them of having sold their brothers for money by letting their adversaries go free.",
+      "translator_notes": ["Judas's accusation is sharp: they sold their brothers — the same language used for betrayal and slave-dealing. He holds his own forces accountable."],
+      "key_terms": []
+    },
+    {
+      "verse": 22,
+      "text_latin": "Hos igitur proditores factus interfecit et confestim duas turres occupavit.",
+      "rendering": "He therefore executed these men who had become traitors, and immediately captured the two towers.",
+      "translator_notes": ["Swift justice: the bribe-takers are executed, the towers are captured. Judas maintains discipline through decisive action."],
+      "key_terms": []
+    },
+    {
+      "verse": 23,
+      "text_latin": "Armis autem ac manibus omnia prospere gerens in duabus munitionibus plus quam viginti milia peremit.",
+      "rendering": "Succeeding in all things by arms and strategy, he killed more than twenty thousand in the two fortifications.",
+      "translator_notes": ["The siege that Simon's men bungled is completed successfully by Judas."],
+      "key_terms": []
+    },
+    {
+      "verse": 24,
+      "text_latin": "At Timotheus qui prius a Iudaeis fuerat superatus convocato exercitu peregrinae multitudinis et congregatis equitibus Asianis adveniebat quasi armis Iudaeam capturus.",
+      "rendering": "But Timothy, who had previously been defeated by the Jews, gathered an army of foreign troops and assembled Asian cavalry. He advanced as though he would take Judea by force of arms.",
+      "translator_notes": ["Timothy returns with reinforcements — foreign infantry and Asian cavalry — for another attempt against Judea."],
+      "key_terms": []
+    },
+    {
+      "verse": 25,
+      "text_latin": "Macchabaeus autem et qui cum ipso erant adpropinquante illo deprecabantur Dominum caput terra aspergentes lumbosque ciliciis praecincti.",
+      "rendering": "As Timothy approached, Maccabeus and those with him prayed to the Lord, sprinkling dust on their heads and girding their loins with sackcloth,",
+      "translator_notes": ["The pre-battle ritual: dust on heads and sackcloth on loins — traditional signs of mourning, penitence, and desperate prayer."],
+      "key_terms": [{"latin": "ciliciis praecincti", "rendered_as": "girding with sackcloth", "note": "Sackcloth as a sign of penitent prayer before battle — the warriors are first supplicants."}]
+    },
+    {
+      "verse": 26,
+      "text_latin": "Ad altaris crepidinem prostrati rogabant ut sibi propitius inimicis autem eorum esset inimicus et adversariis adversaretur sicut lex dicit.",
+      "rendering": "Prostrate at the base of the altar, they begged God to be gracious to them and to be the enemy of their enemies and the adversary of their adversaries, as the law says.",
+      "translator_notes": ["The prayer cites Exodus 23:22 — God's promise to be the enemy of Israel's enemies. They invoke Torah as military authorization."],
+      "key_terms": []
+    },
+    {
+      "verse": 27,
+      "text_latin": "Et ita post orationem sumptis armis longius de civitate procedentes et proximi hostibus effecti resederunt.",
+      "rendering": "After the prayer, they took up their arms and advanced a considerable distance from the city, and when they drew near to the enemy, they halted.",
+      "translator_notes": ["From prayer at the altar to military deployment — the transition from liturgy to battle is seamless."],
+      "key_terms": []
+    },
+    {
+      "verse": 28,
+      "text_latin": "Primo autem solis ortu utrique commiserunt isti quidem prosperitatis et victoriae sponsorem cum virtute Dominum habentes illi autem ducem belli animum habebant.",
+      "rendering": "At the first light of dawn, both sides engaged. The one side had the Lord as guarantor of their prosperity and victory along with their valor; the other had only their fighting spirit to lead them in battle.",
+      "translator_notes": ["The theological contrast at battle: one side has God plus courage; the other has only courage. The outcome is predetermined."],
+      "key_terms": []
+    },
+    {
+      "verse": 29,
+      "text_latin": "Sed cum vehemens pugna esset apparuerunt adversariis de caelo viri quinque in equis frenis aureis decori praebentes Iudaeis ducatum.",
+      "rendering": "But when the battle became fierce, five men on horses with golden bridles appeared to the enemy from heaven, leading the Jews.",
+      "translator_notes": ["FIVE heavenly horsemen appear — an escalation from the single horseman and two youths of chapter 3. They ride horses with golden bridles and lead the Jewish forces."],
+      "key_terms": [{"latin": "viri quinque in equis", "rendered_as": "five men on horses", "note": "Five heavenly riders — angelic warriors appearing as cavalry, leading the Jewish forces into battle."},
+        {"latin": "frenis aureis", "rendered_as": "with golden bridles", "note": "Golden appointments signifying heavenly origin — gold as the color of the divine realm."}]
+    },
+    {
+      "verse": 30,
+      "text_latin": "Ex quibus duo Macchabaeum medium habentes armis suis circumseptum incolumem conservabant in adversarios autem tela et fulmina iaciebant ex quo et caecitate confusi et repleti perturbatione prosternebantur.",
+      "rendering": "Two of them, keeping Maccabeus between them, shielded him with their own armor and kept him unharmed. Upon the enemy they hurled darts and thunderbolts, so that the foe, confused by blindness and filled with panic, were struck down.",
+      "translator_notes": ["Two of the five horsemen personally guard Judas — shielding him with their armor. The others attack the enemy with supernatural weapons: thunderbolts and blinding light. The heavenly bodyguard motif makes Judas a divinely protected commander."],
+      "key_terms": [{"latin": "tela et fulmina", "rendered_as": "darts and thunderbolts", "note": "Supernatural weapons — the heavenly horsemen use divine armaments beyond human military technology."}]
+    },
+    {
+      "verse": 31,
+      "text_latin": "Interfecti sunt autem viginti milia quingenti et equites sescenti.",
+      "rendering": "Twenty thousand five hundred infantry and six hundred cavalry were killed.",
+      "translator_notes": ["The battle results: over 21,000 enemy casualties, including cavalry — a decisive victory."],
+      "key_terms": []
+    },
+    {
+      "verse": 32,
+      "text_latin": "Timotheus vero confugit in Gazaram praesidium munitum cui praeerat Chaereas.",
+      "rendering": "Timothy himself fled to Gazara, a strongly fortified place, where Chaereas was in command.",
+      "translator_notes": ["Timothy escapes to the fortress of Gazara (Gezer), one of the strongest Seleucid positions in the region."],
+      "key_terms": []
+    },
+    {
+      "verse": 33,
+      "text_latin": "Macchabaeus vero et qui cum ipso erant laetantes obsederunt praesidium diebus quattuor.",
+      "rendering": "Maccabeus and those with him joyfully besieged the fortress for four days.",
+      "translator_notes": ["A four-day siege of Gazara follows the field victory."],
+      "key_terms": []
+    },
+    {
+      "verse": 34,
+      "text_latin": "At hi qui intus erant loci firmitate confisi sine modo maledicebant et sermones nefandos iaciebant.",
+      "rendering": "But those inside, trusting in the strength of the place, heaped endless curses and hurled abominable words.",
+      "translator_notes": ["The defenders respond with verbal abuse — cursing and blasphemy from behind their walls."],
+      "key_terms": []
+    },
+    {
+      "verse": 35,
+      "text_latin": "Cum autem dies quinta inlucesceret viginti iuvenes ex his qui cum Macchabaeo erant accensi animis propter blasphemias viriliter accesserunt ad murum et feroci animo incedentes ascendebant.",
+      "rendering": "But when the fifth day dawned, twenty young men from those who were with Maccabeus, inflamed with anger at the blasphemies, bravely approached the wall and advanced with fierce courage, scaling it.",
+      "translator_notes": ["The siege breaks on the fifth day when twenty young fighters, enraged by the blasphemy, storm the walls."],
+      "key_terms": []
+    },
+    {
+      "verse": 36,
+      "text_latin": "Alii quoque similiter ascendentes turres portasque succendere coeperunt et ipsos maledictos vivos incendere.",
+      "rendering": "Others likewise climbed up and began to set fire to the towers and gates, and to burn the blasphemers alive.",
+      "translator_notes": ["The fortress falls by escalade — towers and gates are burned, and the blasphemers receive the same fate they had threatened."],
+      "key_terms": []
+    },
+    {
+      "verse": 37,
+      "text_latin": "Per continuum autem biduum praesidio demoliti Timotheum in occultis latitantem reperiunt et eum occiderunt et Chaeream et Apollophanem fratrem eius.",
+      "rendering": "For a full two days they demolished the fortress, and they found Timothy hiding in a secret place and killed him, along with Chaereas and his brother Apollophanes.",
+      "translator_notes": ["Timothy's end: found hiding, executed along with the garrison commanders. The man who fled battle dies in a hiding place."],
+      "key_terms": []
+    },
+    {
+      "verse": 38,
+      "text_latin": "Quibus rebus gestis in hymnis et confessionibus benedicebant Dominum qui magna facit in Israhel et victoriam illis dedit.",
+      "rendering": "When this was accomplished, they blessed the Lord with hymns and thanksgiving, who had done great things for Israel and had given them the victory.",
+      "translator_notes": ["The chapter closes as it opened — with worship. The military account is bookended by liturgy, reinforcing the theological interpretation of events."],
+      "key_terms": [{"latin": "hymnis et confessionibus", "rendered_as": "with hymns and thanksgiving", "note": "The liturgical response to military victory — worship, not triumphalism."}]
+    }
+  ]
+}

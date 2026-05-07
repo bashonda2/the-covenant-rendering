@@ -1,0 +1,175 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Exodus",
+    "chapter": 20,
+    "tradition": "lxx-exodus",
+    "tradition_label": "Septuagint (LXX)",
+    "source_text": "Rahlfs-Hanhart, Septuaginta",
+    "base_text": "Westminster Leningrad Codex (WLC)",
+    "date": "3rd century BCE",
+    "generated_at": "2026-04-22T00:00:00Z",
+    "prompt_version": "1.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Exodus 20 is the Decalogue — the Ten Words — delivered from Sinai. Every one of the Ten is cited somewhere in the New Testament, and the citations consistently follow the LXX's Greek wording. The most significant LXX-specific feature of the chapter is the manuscript tradition's variation in the order of the middle commandments (murder, adultery, theft): Philo, Paul at Romans 13:9 (though not all witnesses), and some LXX manuscripts put adultery first, while the standard Rahlfs LXX and the MT have murder first. The LXX also harmonizes with Deuteronomy 5 in several places, creating a consistent Decalogue-text tradition.",
+    "notable_variants": "The ordering of commandments 6–8 (LXX Codex Vaticanus: adultery-theft-murder; standard: murder-adultery-theft); Ephesians 6:2–3's verbatim citation of the fifth commandment at 20:12; Romans 13:9's composite LXX citation of commandments 7, 6, 8, 10 with the 'and any other commandment' summary; the LXX's specific Sabbath-rationale at 20:11 vs Deuteronomy 5's slavery-rationale; the anthropomorphic shift at 20:5's 'jealous God' rendered with the same LXX vocabulary carried into NT jealousy-of-God theology (2 Cor 11:2, Jas 4:5).",
+    "structural_notes": "LXX Exodus 20 preserves MT's 23-verse structure. The Decalogue proper runs 20:1–17; the altar-law that follows (20:22–26 in some enumerations, 20:19–26 here) uses slightly different verse numbering across traditions."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "has_variant": false,
+      "variant_notes": ["The introductory formula 'God spoke all these words' tracks MT. The 'all' (pantas) signals the totality of the Decalogue as a single divine speech-act — not ten separate sayings."]
+    },
+    {
+      "verse": 2,
+      "has_variant": false,
+      "variant_notes": ["'I am the LORD your God, who brought you out of the land of Egypt, out of the house of slavery' (egō eimi kyrios ho theos sou) — the Decalogue's self-identification formula. The egō eimi formula of John's Gospel (John 8:24, 28, 58, 18:5–6) draws on this LXX self-identification."]
+    },
+    {
+      "verse": 3,
+      "has_variant": false,
+      "variant_notes": ["The first commandment 'you shall not have other gods besides me' (plēn emou) tracks MT. The 'beside/except me' (plēn emou) is the LXX's vocabulary preserved at 1 Corinthians 8:4 ('there is no God but one')."]
+    },
+    {
+      "verse": 4,
+      "has_variant": false,
+      "variant_notes": ["The prohibition of images and likenesses tracks MT. LXX's eidōlon ('idol, image') supplies the NT's standard anti-idolatry vocabulary (1 Cor 10:14, 1 John 5:21)."]
+    },
+    {
+      "verse": 5,
+      "has_variant": true,
+      "significance": "moderate",
+      "mt_reading": "אֵל קַנָּא פֹּקֵד עֲוֺן אָבֹת עַל־בָּנִים",
+      "lxx_reading": "θεὸς ζηλωτὴς ἀποδιδοὺς ἁμαρτίας πατέρων ἐπὶ τέκνα",
+      "mt_rendering": "a jealous God, visiting the iniquity of the fathers on the children",
+      "variant_rendering": "a jealous God, paying back sins of fathers upon children",
+      "variant_notes": [
+        "Hebrew qanna ('jealous') is rendered zēlōtēs ('zealous, jealous one') — the same root as zēlos ('zeal'). The 'zealous/jealous God' language carries into 2 Corinthians 11:2 ('I am jealous for you with a divine jealousy,' theou zēlō), James 4:5 ('the spirit he made to dwell in us yearns jealously'), and Acts 22:3 (Paul self-describes as zēlōtēs theou).",
+        "The 'visiting iniquity to the third and fourth generation' formulation is among the OT's most troubling divine-justice statements. Ezekiel 18 and Jeremiah 31:29–30 critically engage it. The LXX preserves the formulation intact."
+      ]
+    },
+    {
+      "verse": 6,
+      "has_variant": false,
+      "variant_notes": ["'Showing faithful love to thousands' (poiōn eleos eis chiliadas) tracks MT. The asymmetry between 3–4 generations of judgment and 1,000 generations of mercy is preserved — a theological datum that NT theology (Rom 5:20 'where sin increased, grace abounded all the more') develops further."]
+    },
+    {
+      "verse": 7,
+      "has_variant": false,
+      "variant_notes": ["The third commandment on divine-name use tracks MT. The LXX's epi mataiō ('in vain, for nothing') is the same word-field as the 'vanities of the gentiles' (Acts 14:15 apo toutōn tōn mataiōn) — the tie between misusing God's name and idolatry."]
+    },
+    {
+      "verse": 8,
+      "has_variant": false,
+      "variant_notes": ["The Sabbath commandment's 'remember' verb tracks MT. MT Exodus reads zakhor ('remember'); Deuteronomy 5:12 reads shamor ('keep'). Jewish tradition harmonizes: 'remember and keep were spoken in one utterance' (Mekhilta)."]
+    },
+    {
+      "verse": 9,
+      "has_variant": false,
+      "variant_notes": ["The six-days-of-labor frame tracks MT. This framing underlies the NT's week-structure assumptions (John 5:17 Jesus' Sabbath theology, Heb 4:9–11 Sabbath-rest typology)."]
+    },
+    {
+      "verse": 10,
+      "has_variant": false,
+      "variant_notes": ["The Sabbath's extension to children, servants, animals, and sojourners tracks MT. The inclusiveness of the Sabbath prohibition — reaching outside Israel to sojourners and animals — became the basis for Jewish humanitarian halakhah and for Christian reflection on universal rest (Matt 11:28–30)."]
+    },
+    {
+      "verse": 11,
+      "has_variant": false,
+      "variant_notes": ["The creation-rationale for Sabbath ('for in six days the LORD made the heavens and the earth') tracks MT. Deuteronomy 5:15 gives a different rationale (slavery-in-Egypt deliverance); both are preserved in LXX. Hebrews 4:4 cites LXX Genesis 2:2 ('God rested on the seventh day') — the backing of both Decalogue Sabbath and the NT Sabbath-rest theology."]
+    },
+    {
+      "verse": 12,
+      "has_variant": true,
+      "significance": "theological",
+      "mt_reading": "כַּבֵּד אֶת־אָבִיךָ וְאֶת־אִמֶּךָ לְמַעַן יַאֲרִכוּן יָמֶיךָ עַל הָאֲדָמָה",
+      "lxx_reading": "τίμα τὸν πατέρα σου καὶ τὴν μητέρα ἵνα εὖ σοι γένηται καὶ ἵνα μακροχρόνιος γένῃ ἐπὶ τῆς γῆς",
+      "mt_rendering": "Honor your father and your mother, so that your days may be long in the land",
+      "variant_rendering": "Honor your father and your mother, that it may be well with you and that you may be long-lived on the earth",
+      "variant_notes": [
+        "Ephesians 6:2–3 quotes this verse explicitly as 'the first commandment with a promise': 'Honor your father and mother (which is the first commandment with a promise), that it may go well with you and that you may live long on the earth.'",
+        "Paul's citation matches the LXX exactly — hina eu soi genētai kai hina makrochronios genē — not the MT, which lacks the 'that it may go well with you' clause. The LXX's expanded form (matching Deut 5:16 LXX) is what Paul cites.",
+        "This is a clear case where an NT quotation depends on a LXX plus absent from MT. Ephesians' whole household-code argument rests on LXX-Exodus 20:12."
+      ]
+    },
+    {
+      "verse": 13,
+      "has_variant": true,
+      "significance": "moderate",
+      "mt_reading": "לֹא תִּרְצָח׃ לֹא תִּנְאָף׃ לֹא תִּגְנֹב׃ לֹא־תַעֲנֶה בְרֵעֲךָ עֵד שָׁקֶר",
+      "lxx_reading": "οὐ φονεύσεις οὐ μοιχεύσεις οὐ κλέψεις οὐ ψευδομαρτυρήσεις κατὰ τοῦ πλησίον σου μαρτυρίαν ψευδῆ",
+      "mt_rendering": "You shall not murder. You shall not commit adultery. You shall not steal. You shall not bear false witness against your neighbor",
+      "variant_rendering": "You shall not murder. You shall not commit adultery. You shall not steal. You shall not bear false witness against your neighbor",
+      "variant_notes": [
+        "LXX manuscript tradition varies on the order of the middle commandments (6–8). Codex Vaticanus reads: adultery, theft, murder (ou moicheuseis, ou klepseis, ou phoneuseis). Codex Alexandrinus and most modern LXX editions: adultery, murder, theft. Rahlfs' critical edition: murder, adultery, theft (matching MT).",
+        "Romans 13:9 follows the Vaticanus order: 'You shall not commit adultery, you shall not murder, you shall not steal, you shall not covet.' Luke 18:20 and James 2:11 follow the adultery-first order. Matthew 19:18 follows the murder-first order.",
+        "The split NT citation-tradition reflects the live textual variation in 1st-century LXX manuscripts. Both Jesus and Paul cite 'the Decalogue' in forms that track specific LXX manuscript families.",
+        "Jesus' intensification of these commandments (Matt 5:21–22, 5:27–28) treats them as LXX-quoted texts: 'you have heard it was said … but I say to you.' The LXX is the textual substrate of the Sermon on the Mount."
+      ]
+    },
+    {
+      "verse": 14,
+      "has_variant": true,
+      "significance": "theological",
+      "mt_reading": "לֹא תַחְמֹד בֵּית רֵעֶךָ",
+      "lxx_reading": "οὐκ ἐπιθυμήσεις τὸν οἶκον τοῦ πλησίον σου",
+      "mt_rendering": "You shall not covet your neighbor's house",
+      "variant_rendering": "You shall not desire your neighbor's house",
+      "variant_notes": [
+        "Hebrew chamad ('covet, desire, delight in') is rendered epithymeō — the same verb used throughout the NT for sinful desire. Romans 7:7 (\"for I would not have known what coveting really is if the law had not said, 'do not covet'\") cites this LXX-Exodus formulation as Paul's hermeneutical pivot on sin and law.",
+        "1 Corinthians 10:6 ('these things occurred as examples for us, so that we might not desire evil things as they did,' mē einai hēmas epithymētas kakōn) also draws on this LXX Decalogue epithym- vocabulary.",
+        "Matthew 5:27–28 (Jesus: 'whoever looks at a woman to desire her has already committed adultery with her in his heart') uses the same epithym- root, intensifying the adultery commandment to coverage of desire.",
+        "Paul's whole flesh-vs-Spirit theology (Gal 5:16–17, Rom 8:5–8) depends on the epithym- vocabulary that LXX-Exodus 20:14 established."
+      ]
+    },
+    {
+      "verse": 15,
+      "has_variant": false,
+      "variant_notes": ["The people's response to the theophanic phenomena (thunder, lightning, trumpet, smoking mountain) tracks MT. Hebrews 12:18 cites the scene: 'a blazing fire, darkness, gloom, storm.'"]
+    },
+    {
+      "verse": 16,
+      "has_variant": false,
+      "variant_notes": ["The people's request for Moses as mediator — 'do not let God speak to us, or we will die' — tracks MT. Hebrews 12:21 cites this: \"so terrifying was the sight that Moses said, 'I am trembling with fear.'\" The mediator-of-the-old-covenant theme (Gal 3:19, 1 Tim 2:5, Heb 8:6) begins here."]
+    },
+    {
+      "verse": 17,
+      "has_variant": false,
+      "variant_notes": ["Moses' reassurance and the testing-fear theology tracks MT. 'That the fear of him may be before you, that you may not sin' establishes the canonical wisdom-formula: fear of the LORD preserves from sin (Prov 16:6)."]
+    },
+    {
+      "verse": 18,
+      "has_variant": false,
+      "variant_notes": ["Moses' approach to the 'thick darkness where God was' tracks MT. The gnophos ('thick darkness') is the standard LXX theophanic term that Hebrews 12:18 cites explicitly."]
+    },
+    {
+      "verse": 19,
+      "has_variant": false,
+      "variant_notes": ["'Spoken with you from heaven' (ek tou ouranou) tracks MT. Divine-speech-from-heaven becomes the NT's motif for Jesus' baptism voice, the Transfiguration voice, and the Damascus-road voice (Acts 9:4)."]
+    },
+    {
+      "verse": 20,
+      "has_variant": false,
+      "variant_notes": ["The renewal of the idol prohibition tracks MT. 'Gods of silver' and 'gods of gold' recurs in the golden-calf narrative of chapter 32 — the immediate violation of this fresh command."]
+    },
+    {
+      "verse": 21,
+      "has_variant": false,
+      "variant_notes": ["The altar-of-earth command tracks MT. 'In every place where I cause my name to be remembered, I will come to you and bless you' (en panti topō) anticipates the temple-transcendence language of John 4:21 and 1 Corinthians 10:25–26."]
+    },
+    {
+      "verse": 22,
+      "has_variant": false,
+      "variant_notes": ["The prohibition of cut-stone altars tracks MT. The 'uncut stones' requirement (no iron tool) preserves ancient altar-construction constraints that Joshua 8:30–31 narratively enacts."]
+    },
+    {
+      "verse": 23,
+      "has_variant": false,
+      "variant_notes": ["The prohibition of step-altars (for modesty) tracks MT. The cultic-modesty emphasis continues into Numbers' priestly regulations."]
+    }
+  ]
+}

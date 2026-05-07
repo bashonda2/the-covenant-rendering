@@ -1,0 +1,158 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Wisdom of Solomon",
+    "chapter": 13,
+    "tradition": "vulgate",
+    "tradition_label": "Latin Vulgate (Deuterocanonical)",
+    "source_text": "Biblia Sacra Vulgata (Stuttgart critical edition)",
+    "translator": "Jerome",
+    "date": "c. 405 CE",
+    "canon": ["catholic", "orthodox", "ethiopian"],
+    "generated_at": "2026-04-20T00:00:00Z",
+    "prompt_version": "2.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "All who do not know God are foolish by nature. From the beauty of created things they should have inferred the existence of the Creator, yet they worshipped fire, wind, stars, or water instead. These nature-worshippers are less culpable than idol-makers, for at least they were searching for God among beautiful things. But even they are not to be excused, for if they had the intelligence to investigate the cosmos, they should have found its Lord. Far worse are those who fashion idols of wood and stone -- the carpenter who makes a god from leftover timber.",
+    "remarkable": "Verses 1-9 constitute the most important natural theology passage in the entire Bible. The argument that God's existence can be inferred from the created order directly influenced Romans 1:19-20 ('ever since the creation of the world his eternal power and divine nature have been understood and seen through the things he has made'). Thomas Aquinas built his Five Ways in part on the logic of this chapter. The graduated scale of culpability (nature-worshippers less guilty than idol-makers) shows remarkable philosophical sophistication.",
+    "friction": "The claim that pagans are 'without excuse' (v. 8) is tempered by the admission that they at least 'search for God' (v. 6) and are 'led astray by the appearance of beauty' (v. 7). The author seems genuinely sympathetic to nature-religion while insisting on its ultimate inadequacy. The satirical portrait of the idol-maker (vv. 11-19) is effective rhetoric but may caricature actual pagan practice.",
+    "connections": "Psalm 19:1 (the heavens declare God's glory); Isaiah 44:9-20 (satire on idol-making); Romans 1:18-25 (knowledge of God through creation); Acts 17:22-31 (Paul at Athens); Aquinas, Summa Theologiae I.2.3 (the Five Ways)."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_latin": "Vani autem sunt omnes homines in quibus non subest scientia Dei et de his quae videntur bona non potuerunt intellegere eum qui est, neque operibus adtendentes agnoverunt quis esset artifex.",
+      "rendering": "For all people who are ignorant of God are foolish by nature; from the good things that are seen they were unable to know the one who is, nor from attending to the works did they recognize the artisan.",
+      "translator_notes": ["The opening verse establishes the epistemological principle: the created world provides sufficient evidence for the Creator's existence. Failure to draw the inference is a form of foolishness (vanitas). The divine title 'the one who is' (eum qui est) echoes Exodus 3:14 and was extensively used in Thomistic theology."],
+      "key_terms": [{"latin": "eum qui est", "rendered_as": "the one who is", "note": "A philosophical divine title meaning 'he who exists' or 'Being itself'; it echoes the divine name revealed at the burning bush (Exodus 3:14, 'I AM WHO I AM')."}, {"latin": "artifex", "rendered_as": "the artisan", "note": "God as craftsman; the creation implies a maker, just as a work of art implies an artist."}]
+    },
+    {
+      "verse": 2,
+      "text_latin": "Sed aut ignem aut spiritum aut citatum aerem aut gyrum stellarum aut nimiam aquam aut solem et lunam rectores orbis terrarum deos putaverunt.",
+      "rendering": "But they supposed that either fire, or wind, or swift air, or the circle of the stars, or turbulent water, or the sun and moon were the gods that rule the world.",
+      "translator_notes": ["A catalogue of elements and celestial bodies worshipped as divine. The list roughly corresponds to the cosmic religion of the ancient Near East and Hellenistic world. Each element is impressive but created."],
+      "key_terms": [{"latin": "gyrum stellarum", "rendered_as": "the circle of the stars", "note": "Astral religion, the worship of constellations and zodiacal figures; widespread in Babylonian and Hellenistic culture."}]
+    },
+    {
+      "verse": 3,
+      "text_latin": "Quorum si specie delectati deos putaverunt, sciant quanto his dominator eorum speciosior est; speciei enim generator haec omnia constituit.",
+      "rendering": "If, delighted by their beauty, they took them for gods, let them know how much more beautiful is the Lord over them; for the author of beauty created them all.",
+      "translator_notes": ["The argument from beauty: if the creatures are beautiful, the Creator must be more beautiful. This is the aesthetic version of the cosmological argument. The title 'author of beauty' (speciei generator) is unique and striking."],
+      "key_terms": [{"latin": "speciei generator", "rendered_as": "the author of beauty", "note": "God as the source and origin of all beauty; every beautiful thing in creation is a reflection of divine beauty."}, {"latin": "quanto his dominator speciosior", "rendered_as": "how much more beautiful is the Lord over them", "note": "The a fortiori argument: the Creator surpasses the creation in the very quality (beauty) that attracted worship."}]
+    },
+    {
+      "verse": 4,
+      "text_latin": "Aut si virtutem et opera eorum mirati sunt, intellegant ab illis quoniam qui haec fecit fortior est illis.",
+      "rendering": "Or if they were amazed at their power and workings, let them infer from these how much more powerful is the one who formed them.",
+      "translator_notes": ["The argument from power: if natural forces are mighty, their source must be mightier. Both the aesthetic argument (v. 3) and the power argument (v. 4) reason from effect to cause."],
+      "key_terms": []
+    },
+    {
+      "verse": 5,
+      "text_latin": "A magnitudine enim speciei et creaturae cognoscibiliter poterit creator horum videri.",
+      "rendering": "For from the greatness and beauty of created things comes a corresponding perception of their Creator.",
+      "translator_notes": ["The key verse for natural theology: creation provides analogical knowledge of the Creator. The word cognoscibiliter (knowably, perceptibly) insists that this knowledge is genuinely available. This verse stands behind Romans 1:20 and behind the entire tradition of natural theology."],
+      "key_terms": [{"latin": "cognoscibiliter", "rendered_as": "a corresponding perception", "note": "The adverb means 'in a knowable manner'; the Creator can be genuinely (if imperfectly) known through creation. This is the foundation of natural theology."}]
+    },
+    {
+      "verse": 6,
+      "text_latin": "Sed tamen adhuc in his minor est querela; et hi enim fortasse errant Deum quaerentes et volentes invenire.",
+      "rendering": "Yet these people deserve less blame, for perhaps they go astray while seeking God and desiring to find him.",
+      "translator_notes": ["A remarkable concession: nature-worshippers are less culpable because they are at least searching. Their error is one of direction, not of intention. The author distinguishes between honest seeking that falls short and willful refusal."],
+      "key_terms": [{"latin": "minor est querela", "rendered_as": "deserve less blame", "note": "A graduated scale of culpability; not all errors are equally blameworthy."}, {"latin": "Deum quaerentes", "rendered_as": "seeking God", "note": "The desire to find God mitigates the error of mistaking the creation for the Creator."}]
+    },
+    {
+      "verse": 7,
+      "text_latin": "Etenim cum in operibus illius conversentur inquirunt et persuasum habent quoniam bona sunt quae videntur.",
+      "rendering": "For they live among his works and search diligently, and they are persuaded by appearances, because the things that are seen are beautiful.",
+      "translator_notes": ["The nature-worshippers' error is sympathetically explained: they were overwhelmed by beauty. Their aesthetic sensibility was correct; their theological inference was wrong."],
+      "key_terms": []
+    },
+    {
+      "verse": 8,
+      "text_latin": "Iterum autem nec his debet ignosci.",
+      "rendering": "But even so, they are not to be excused.",
+      "translator_notes": ["Despite the sympathetic explanation, the final judgment is clear: they had enough intelligence to investigate the cosmos and should have reached the right conclusion. Sympathy does not become acquittal."],
+      "key_terms": []
+    },
+    {
+      "verse": 9,
+      "text_latin": "Si enim tantum potuerunt scire ut possent aestimare saeculum, quomodo huius dominum non facilius invenerunt?",
+      "rendering": "For if they had the capacity to know so much that they could investigate the world, how did they fail to find its Lord more quickly?",
+      "translator_notes": ["The final nail: the very intellectual capacity that enabled scientific investigation of the cosmos should have led, more easily, to the knowledge of God. Science without theology is a failure of inference."],
+      "key_terms": [{"latin": "aestimare saeculum", "rendered_as": "investigate the world", "note": "Aestimare means to evaluate, assess; the nature-worshippers had genuine scientific curiosity. The author's complaint is not that they investigated too much but that they stopped too soon."}]
+    },
+    {
+      "verse": 10,
+      "text_latin": "Infelices autem sunt et inter mortuos spes illorum est, qui appellaverunt deos opera manuum hominum, aurum et argentum artis inventionem et similitudines animalium aut lapidem inutilem opus manus antiquae.",
+      "rendering": "But miserable are they, with their hopes set on dead things, who call the works of human hands 'gods' -- gold and silver fashioned with skill, likenesses of animals, or a useless stone shaped by an ancient hand.",
+      "translator_notes": ["The critique shifts from nature-worship (sympathetic) to idol-worship (savage). The idolater's error is worse because the objects of worship are not even beautiful natural phenomena but manufactured artifacts."],
+      "key_terms": [{"latin": "inter mortuos spes illorum", "rendered_as": "with their hopes set on dead things", "note": "The idolaters trust in objects that are not merely non-divine but actually lifeless; their hope is placed in the dead."}]
+    },
+    {
+      "verse": 11,
+      "text_latin": "Aut si quis artifex faber de silva lignum rectum secuit et huius docte eradit omnem corticem et arte sua usus diligenter fabricat vas utile in conversationem vitae.",
+      "rendering": "Or suppose a woodworker saws down a suitable tree, skillfully strips off all its bark, and with careful craftsmanship makes a useful vessel for everyday life.",
+      "translator_notes": ["The satire begins. The idol-maker is first presented as a competent craftsman -- he can make useful things. The absurdity will emerge when the same craftsman turns leftover wood into a god."],
+      "key_terms": []
+    },
+    {
+      "verse": 12,
+      "text_latin": "Reliquiis autem eius operis ad praeparationem escae abutitur.",
+      "rendering": "And the scraps left over from his work he uses to prepare his food.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 13,
+      "text_latin": "Et reliquum horum quod ad nullos usus facit, lignum curvum et vorticibus plenum, sculpit diligenter per vacuitatem suam et per scientiam suae artis figuravit illud ad imaginem hominis.",
+      "rendering": "And a leftover piece among them, good for nothing -- a crooked stick, full of knots -- he carves with the care of his idleness, and by the skill of his craft shapes it into the likeness of a human being.",
+      "translator_notes": ["The devastating detail: the idol is made from wood that was too poor even for a useful object. The 'god' is fashioned from reject material. The craftsman's skill is real but grotesquely misapplied."],
+      "key_terms": [{"latin": "lignum curvum et vorticibus plenum", "rendered_as": "a crooked stick, full of knots", "note": "The raw material for the idol is the worst wood available -- crooked, knotty, useless for any practical purpose."}]
+    },
+    {
+      "verse": 14,
+      "text_latin": "Aut alicuius animalis similitudinem fecit aut perliniens rubrica, et rubicundum faciens fuco colorem illius, et omnem maculam quae in illo est perliniens.",
+      "rendering": "Or shapes it into the likeness of some animal, coating it with red paint, reddening its surface with cosmetics, and covering over every blemish in it.",
+      "translator_notes": ["The idol is painted to hide its defects. The cosmetic covering is a literal cover-up -- the god's beauty is fake, applied by the craftsman to conceal the poor quality of the wood beneath."],
+      "key_terms": [{"latin": "rubrica", "rendered_as": "red paint", "note": "Red ochre paint, commonly used in ancient idol-making; the coloring masks the wood's natural imperfections."}]
+    },
+    {
+      "verse": 15,
+      "text_latin": "Et cum fecisset illi dignam habitationem paravit illud et in pariete posuit et firmavit illud ferro.",
+      "rendering": "Then he makes a suitable niche for it, sets it against the wall, and fastens it with iron.",
+      "translator_notes": ["The idol must be physically secured because it cannot stand on its own. The iron fastening is both practical necessity and devastating metaphor: the 'god' would fall without human support."],
+      "key_terms": []
+    },
+    {
+      "verse": 16,
+      "text_latin": "Providit enim illi ne caderet sciens quoniam non potest sibi adiuvare; imago enim est et opus est illi adiutorium.",
+      "rendering": "He took care that it would not fall, knowing that it cannot help itself; for it is only an image, and it needs help.",
+      "translator_notes": ["The absurdity reaches its peak: the worshipper must protect his god from falling. A god that needs to be helped cannot help anyone. The irony is both logical and pastoral."],
+      "key_terms": [{"latin": "non potest sibi adiuvare", "rendered_as": "it cannot help itself", "note": "The ultimate indictment of the idol: self-helplessness. If the god cannot help itself, it certainly cannot help its worshippers."}]
+    },
+    {
+      "verse": 17,
+      "text_latin": "Et de substantia sua et de filiis suis et de nuptiis votum faciens inquirit. Non erubescit loqui cum illo qui sine anima est.",
+      "rendering": "Yet about his possessions, his children, and his marriage he makes his prayers to it. He is not ashamed to address a thing without a soul.",
+      "translator_notes": ["The worshipper brings his most intimate concerns -- property, family, marriage -- to a piece of painted wood. The phrase 'without a soul' (sine anima) is the definitive assessment: the idol is literally soulless."],
+      "key_terms": [{"latin": "sine anima", "rendered_as": "without a soul", "note": "The idol has no life principle; it is dead matter, incapable of hearing or responding."}]
+    },
+    {
+      "verse": 18,
+      "text_latin": "Et pro sanitate infirmum deprecatur et pro vita rogat mortuum et in adiutorium inutilem invocat.",
+      "rendering": "For health he appeals to a thing that is weak; for life he prays to a thing that is dead; for aid he supplicates a thing that is utterly helpless.",
+      "translator_notes": ["Three devastating paradoxes in a single verse: asking the weak for strength, the dead for life, the helpless for help. The rhetorical structure hammers the absurdity home."],
+      "key_terms": []
+    },
+    {
+      "verse": 19,
+      "text_latin": "Et pro itinere petit ab eo quod ambulare non potest et de adquirendo et de operando et de omnium rerum eventu petit ab eo qui in omnibus est inutilis.",
+      "rendering": "For a safe journey he petitions a thing that cannot walk; for success in business and craftsmanship, and for the outcome of all affairs, he asks a thing that is entirely useless in all things.",
+      "translator_notes": ["The catalogue of futile petitions concludes: the idol cannot walk but is asked about travel, cannot work but is asked about business. The mismatch between petition and petitioned is total."],
+      "key_terms": []
+    }
+  ]
+}

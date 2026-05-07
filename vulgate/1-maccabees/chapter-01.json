@@ -1,0 +1,511 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "1 Maccabees",
+    "chapter": 1,
+    "tradition": "vulgate",
+    "tradition_label": "Latin Vulgate (Deuterocanonical)",
+    "source_text": "Biblia Sacra Vulgata (Stuttgart critical edition)",
+    "translator": "Jerome",
+    "date": "c. 405 CE",
+    "canon": ["catholic", "orthodox", "ethiopian"],
+    "generated_at": "2026-04-20T00:00:00Z",
+    "prompt_version": "2.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Chapter 1 sets the historical stage: Alexander the Great's conquest and death, the division of his empire, and the rise of Antiochus IV Epiphanes. It narrates his desecration of the Jerusalem Temple, the forced Hellenization of Judea, the banning of Torah observance, and the martyrdom of those who resisted — establishing the crisis that will spark the Maccabean revolt.",
+    "remarkable": "The chapter's opening panorama moves from world empire to a single desecrated altar in just sixty-seven verses. The phrase 'abomination of desolation' (abominatio desolationis) placed upon the altar of burnt offering became one of the most theologically loaded phrases in both Jewish and Christian apocalyptic tradition, cited by Jesus in the Olivet Discourse.",
+    "friction": "Jerome translated 1 Maccabees from the Greek Septuagint (the original Hebrew being already lost by his time), making this a Latin translation of a Greek translation of a Hebrew original — each layer introducing subtle shifts in nuance, particularly in military and covenantal terminology.",
+    "connections": "The 'abomination of desolation' (v. 57) is referenced in Daniel 9:27, 11:31, 12:11 and by Jesus in Matthew 24:15 and Mark 13:14. The forced Hellenization program anticipates themes in Revelation about imperial cult. The martyrdom of Torah-faithful Jews prefigures the theology of witness developed in 2 Maccabees 6-7."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_latin": "Et factum est postquam percussit Alexander Philippi Macedo qui primus regnavit in Graecia egressus de terra Cethim Darium regem Persarum et Medorum",
+      "rendering": "And it happened that after Alexander, son of Philip, the Macedonian — who first reigned over Greece — marched out from the land of Kittim and struck down Darius, king of the Persians and Medes,",
+      "translator_notes": ["Cethim (Kittim) originally referred to Cyprus but became a general term for western Mediterranean lands; here it means Macedonia/Greece."],
+      "key_terms": [{"latin": "terra Cethim", "rendered_as": "land of Kittim", "note": "Biblical designation for western lands, from Genesis 10:4"}]
+    },
+    {
+      "verse": 2,
+      "text_latin": "constituit proelia multa et omnium obtinuit munitiones et interfecit reges terrae",
+      "rendering": "he fought many battles, captured the strongholds of all, and killed the kings of the earth.",
+      "translator_notes": [],
+      "key_terms": [{"latin": "munitiones", "rendered_as": "strongholds", "note": "Fortified positions; reflects Alexander's systematic siege warfare"}]
+    },
+    {
+      "verse": 3,
+      "text_latin": "et pertransiit usque ad fines terrae et accepit spolia multitudinis gentium et siluit terra in conspectu eius",
+      "rendering": "He passed through to the ends of the earth, took spoils from a multitude of nations, and the earth fell silent before him.",
+      "translator_notes": ["'Siluit terra' — 'the earth fell silent' — is a powerful image of total subjugation, echoing prophetic language about the earth being still before God (cf. Habakkuk 2:20)."],
+      "key_terms": [{"latin": "siluit terra", "rendered_as": "the earth fell silent", "note": "Suggests awed submission; typically used of silence before divine judgment"}]
+    },
+    {
+      "verse": 4,
+      "text_latin": "et congregavit virtutem et exercitum fortem nimis et exaltatum est et elevatum cor eius",
+      "rendering": "He assembled a mighty and exceedingly powerful army, and his heart was lifted up and exalted.",
+      "translator_notes": [],
+      "key_terms": [{"latin": "exaltatum est et elevatum cor eius", "rendered_as": "his heart was lifted up and exalted", "note": "Biblical idiom for pride/hubris, foreshadowing downfall"}]
+    },
+    {
+      "verse": 5,
+      "text_latin": "et obtinuit regiones gentium et tyrannos et facti sunt illi in tributum",
+      "rendering": "He conquered the territories of nations and their rulers, and they became his tributaries.",
+      "translator_notes": [],
+      "key_terms": [{"latin": "tyrannos", "rendered_as": "rulers", "note": "Latin tyrannus here means local ruler or strongman, not necessarily a tyrant in the modern pejorative sense"}]
+    },
+    {
+      "verse": 6,
+      "text_latin": "et post haec decidit in lectum et cognovit quia moreretur",
+      "rendering": "After these things he fell ill and knew that he was dying.",
+      "translator_notes": ["Alexander died in Babylon in 323 BCE at age 32, likely of fever. 'Decidit in lectum' — literally 'fell into his bed' — is a Latin idiom for falling gravely ill."],
+      "key_terms": []
+    },
+    {
+      "verse": 7,
+      "text_latin": "et vocavit pueros suos nobiles qui secum erant nutriti a iuventute et divisit illis regnum suum cum adhuc viveret",
+      "rendering": "He summoned his noble companions who had been raised with him from youth, and divided his kingdom among them while he was still alive.",
+      "translator_notes": ["Historically, Alexander may not have formally divided his kingdom; the Diadochi wars followed his death. The text presents a simplified narrative of succession."],
+      "key_terms": [{"latin": "pueros suos nobiles", "rendered_as": "noble companions", "note": "Literally 'his noble boys/servants'; refers to the Diadochi, Alexander's successor generals"}]
+    },
+    {
+      "verse": 8,
+      "text_latin": "et regnavit Alexander annis duodecim et mortuus est",
+      "rendering": "Alexander reigned for twelve years, and then he died.",
+      "translator_notes": ["Alexander reigned from 336 to 323 BCE — approximately thirteen years, though counting methods vary."],
+      "key_terms": []
+    },
+    {
+      "verse": 9,
+      "text_latin": "et obtinuerunt pueri eius regnum unusquisque in loco suo",
+      "rendering": "And his servants took control of the kingdom, each one in his own territory.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 10,
+      "text_latin": "et imposuerunt omnes sibi diademata post mortem eius et filii eorum post eos annis multis et multiplicata sunt mala in terra",
+      "rendering": "They all placed diadems upon their own heads after his death, as did their sons after them for many years, and evils multiplied upon the earth.",
+      "translator_notes": ["The 'diadems' signal the assumption of royal authority by non-royal successors — an act the author views as illegitimate and the source of cascading evil."],
+      "key_terms": [{"latin": "diademata", "rendered_as": "diadems", "note": "Royal headbands symbolizing claimed sovereignty; the Diadochi ('successors') took their name from this act"}]
+    },
+    {
+      "verse": 11,
+      "text_latin": "et exiit ex eis radix peccatrix Antiochus Illustris filius Antiochi regis qui fuerat Romae obses et regnavit in anno centesimo tricesimo septimo regni Graecorum",
+      "rendering": "From them sprouted a sinful root — Antiochus called Illustrious, son of King Antiochus — who had been a hostage in Rome. He began to reign in the one hundred and thirty-seventh year of the Greek kingdom.",
+      "translator_notes": ["'Radix peccatrix' (sinful root) is a powerful moral judgment embedded in the narrative. Antiochus IV Epiphanes ('the Illustrious/Manifest God') is the primary antagonist. The Seleucid era began in 312 BCE, so year 137 = 175 BCE."],
+      "key_terms": [
+        {"latin": "radix peccatrix", "rendered_as": "sinful root", "note": "Moral judgment on Antiochus; echoes Isaiah's 'root' imagery"},
+        {"latin": "Antiochus Illustris", "rendered_as": "Antiochus called Illustrious", "note": "Latin rendering of Greek Epiphanes ('God Manifest'); his enemies called him Epimanes ('the Madman')"},
+        {"latin": "regni Graecorum", "rendered_as": "Greek kingdom", "note": "The Seleucid era, counting from 312 BCE"}
+      ]
+    },
+    {
+      "verse": 12,
+      "text_latin": "In diebus illis exierunt ex Israhel filii iniqui et suaserunt multis dicentes eamus et disponamus testamentum cum gentibus quae circa nos sunt quia ex quo recessimus ab eis invenerunt nos multa mala",
+      "rendering": "In those days, lawless men went out from Israel and persuaded many, saying: 'Let us go and make a covenant with the nations around us, for ever since we separated ourselves from them, many evils have overtaken us.'",
+      "translator_notes": ["'Filii iniqui' — literally 'sons of iniquity' — identifies the Hellenizing party within Judea. Their argument for assimilation is presented as a direct quotation, giving it rhetorical vividness."],
+      "key_terms": [
+        {"latin": "filii iniqui", "rendered_as": "lawless men", "note": "Literally 'sons of iniquity'; refers to the pro-Hellenization faction in Jerusalem"},
+        {"latin": "testamentum", "rendered_as": "covenant", "note": "Jerome uses the same word for both divine covenants and political treaties — here it means a political alliance"}
+      ]
+    },
+    {
+      "verse": 13,
+      "text_latin": "et bonus visus est sermo in oculis eorum",
+      "rendering": "This proposal seemed good in their eyes.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 14,
+      "text_latin": "et destinaverunt aliqui de populo et abierunt ad regem et dedit illis potestatem ut facerent iustitiam gentium",
+      "rendering": "Some of the people took it upon themselves and went to the king, and he gave them authority to adopt the customs of the nations.",
+      "translator_notes": ["'Iustitiam gentium' — literally 'justice/law of the nations' — is used ironically: what the nations call justice, the author considers lawlessness."],
+      "key_terms": [{"latin": "iustitiam gentium", "rendered_as": "customs of the nations", "note": "Literally 'justice of the nations'; used with implicit disapproval of Gentile legal norms replacing Torah"}]
+    },
+    {
+      "verse": 15,
+      "text_latin": "et aedificaverunt gymnasium in Hierosolymis secundum leges nationum",
+      "rendering": "They built a gymnasium in Jerusalem according to the laws of the nations.",
+      "translator_notes": ["The gymnasium was the central institution of Greek civic life — a place of athletic training, education, and socialization. Building one in Jerusalem was the flagship act of Hellenization."],
+      "key_terms": [{"latin": "gymnasium", "rendered_as": "gymnasium", "note": "Greek athletic and educational center; athletes exercised nude, directly offending Jewish modesty norms"}]
+    },
+    {
+      "verse": 16,
+      "text_latin": "et fecerunt sibi praeputia et recesserunt a testamento sancto et iuncti sunt nationibus et venundati sunt ut facerent malum",
+      "rendering": "They made themselves foreskins, abandoned the holy covenant, joined themselves to the nations, and sold themselves to do evil.",
+      "translator_notes": ["'Fecerunt sibi praeputia' refers to epispasm — a painful surgical procedure to reverse circumcision so Jewish men could participate in Greek athletics without being identified as Jews. This was the ultimate act of covenant rejection."],
+      "key_terms": [
+        {"latin": "praeputia", "rendered_as": "foreskins", "note": "Refers to the surgical reversal of circumcision (epispasm), a radical rejection of the Abrahamic covenant sign"},
+        {"latin": "testamento sancto", "rendered_as": "holy covenant", "note": "The Mosaic/Abrahamic covenant — the same word used for both divine and political covenants"}
+      ]
+    },
+    {
+      "verse": 17,
+      "text_latin": "et paratum est regnum in conspectu Antiochi et coepit regnare in terra Aegypti ut regnaret super duo regna",
+      "rendering": "Now the kingdom was established before Antiochus, and he undertook to reign over the land of Egypt, that he might rule over two kingdoms.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 18,
+      "text_latin": "et intravit in Aegyptum in multitudine gravi in curribus et elephantis et equitibus et copiosa navium multitudine",
+      "rendering": "He entered Egypt with a massive force — with chariots and elephants and cavalry and a vast fleet of ships.",
+      "translator_notes": [],
+      "key_terms": [{"latin": "elephantis", "rendered_as": "elephants", "note": "War elephants were a signature weapon of Hellenistic armies, adopted from Indian warfare after Alexander's campaigns"}]
+    },
+    {
+      "verse": 19,
+      "text_latin": "et constituit bellum adversus Ptolomaeum regem Aegypti et veritus est Ptolomaeus a facie eius et fugit et ceciderunt vulnerati multi",
+      "rendering": "He waged war against Ptolemy, king of Egypt. Ptolemy was terrified before him and fled, and many fell wounded.",
+      "translator_notes": ["This refers to Antiochus IV's invasion of Egypt in 170/169 BCE, the Sixth Syrian War."],
+      "key_terms": [{"latin": "Ptolomaeum", "rendered_as": "Ptolemy", "note": "Ptolemy VI Philometor, the young Egyptian king"}]
+    },
+    {
+      "verse": 20,
+      "text_latin": "et ceperunt civitates munitas in terra Aegypti et accepit spolia terrae Aegypti",
+      "rendering": "They captured the fortified cities in the land of Egypt, and he took the spoils of the land of Egypt.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 21,
+      "text_latin": "et convertit Antiochus postquam percussit Aegyptum in centesimo et quadragesimo tertio anno et ascendit ad Israhel et ascendit Hierosolymam in multitudine gravi",
+      "rendering": "Antiochus turned back after striking Egypt, in the one hundred and forty-third year, and marched up against Israel. He went up to Jerusalem with a massive force.",
+      "translator_notes": ["Year 143 of the Seleucid era = 169 BCE. This is Antiochus's first assault on Jerusalem, after his Egyptian campaign."],
+      "key_terms": []
+    },
+    {
+      "verse": 22,
+      "text_latin": "et intravit in sanctificationem cum superbia et accepit altare aureum et candelabrum luminis et universa vasa eius",
+      "rendering": "He entered the sanctuary with arrogance and seized the golden altar, the lampstand of light, and all its vessels.",
+      "translator_notes": ["The 'sanctificationem' (sanctuary/holy place) is the Temple itself. The items listed are the most sacred furnishings of the Temple interior."],
+      "key_terms": [
+        {"latin": "sanctificationem", "rendered_as": "sanctuary", "note": "The Temple in Jerusalem"},
+        {"latin": "altare aureum", "rendered_as": "golden altar", "note": "The altar of incense in the Holy Place"},
+        {"latin": "candelabrum luminis", "rendered_as": "lampstand of light", "note": "The menorah — the seven-branched golden lampstand"}
+      ]
+    },
+    {
+      "verse": 23,
+      "text_latin": "et mensam propositionis et libatoria et fialas et mortariola aurea et velum et coronas et ornamentum aureum quod in facie templi erat et comminuit omnia",
+      "rendering": "He took the table of showbread and the drink-offering vessels, the bowls and the golden censers, the veil and the crowns, and the golden ornament that was on the face of the Temple. He stripped it all bare.",
+      "translator_notes": [],
+      "key_terms": [{"latin": "mensam propositionis", "rendered_as": "table of showbread", "note": "The table holding the twelve loaves of the Presence, renewed weekly"}]
+    },
+    {
+      "verse": 24,
+      "text_latin": "et accepit argentum et aurum et vasa concupiscibilia et accepit thesauros occultos quos invenit",
+      "rendering": "He seized the silver and gold and the precious vessels, and he took the hidden treasures that he found.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 25,
+      "text_latin": "et acceptis omnibus abiit in terram suam et fecit caedem hominum et locutus est in superbia magna",
+      "rendering": "Having taken everything, he departed to his own land. He had committed great slaughter and spoke with enormous arrogance.",
+      "translator_notes": [],
+      "key_terms": [{"latin": "superbia magna", "rendered_as": "enormous arrogance", "note": "Superbia — pride/arrogance — is the quintessential vice attributed to Antiochus throughout the book"}]
+    },
+    {
+      "verse": 26,
+      "text_latin": "et factus est planctus magnus in Israhel et in omni loco eorum",
+      "rendering": "Great mourning arose in Israel and in every place where they dwelt.",
+      "translator_notes": [],
+      "key_terms": [{"latin": "planctus magnus", "rendered_as": "great mourning", "note": "Formal lamentation; the following verses form a poetic lament"}]
+    },
+    {
+      "verse": 27,
+      "text_latin": "et ingemuerunt principes et seniores iuvenes et virgines infirmatae sunt et speciositas mulierum immutata est",
+      "rendering": "Princes and elders groaned; young men and young women grew faint, and the beauty of the women was changed.",
+      "translator_notes": ["This begins a short poetic lament (vv. 27-30) that follows the conventions of biblical dirge poetry."],
+      "key_terms": []
+    },
+    {
+      "verse": 28,
+      "text_latin": "omnis maritus sumpsit lamentum et quae sedebant in toro maritali lugebant",
+      "rendering": "Every bridegroom took up lamentation, and the brides sitting in their marriage chambers mourned.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 29,
+      "text_latin": "et commota est terra super habitantes in ea et universa domus Iacob induit confusionem",
+      "rendering": "The land was shaken on account of its inhabitants, and the whole house of Jacob was clothed in shame.",
+      "translator_notes": [],
+      "key_terms": [{"latin": "domus Iacob", "rendered_as": "house of Jacob", "note": "Archaic covenantal designation for all Israel, recalling the patriarchal promise"}]
+    },
+    {
+      "verse": 30,
+      "text_latin": "et post duos annos completos misit rex principem tributorum in civitates Iuda et venit Hierusalem cum turba magna",
+      "rendering": "After two full years, the king sent a chief tax collector to the cities of Judah, and he came to Jerusalem with a large force.",
+      "translator_notes": ["This is the mission of Apollonius in 167 BCE — the second, more devastating attack on Jerusalem."],
+      "key_terms": [{"latin": "principem tributorum", "rendered_as": "chief tax collector", "note": "Apollonius, the Mysarch — his tax-collecting mission was a cover for military action"}]
+    },
+    {
+      "verse": 31,
+      "text_latin": "et locutus est ad eos verba pacifica in dolo et crediderunt ei",
+      "rendering": "He spoke to them deceitful words of peace, and they trusted him.",
+      "translator_notes": [],
+      "key_terms": [{"latin": "verba pacifica in dolo", "rendered_as": "deceitful words of peace", "note": "The combination of peace rhetoric with treachery is a recurring theme of Seleucid diplomacy in the book"}]
+    },
+    {
+      "verse": 32,
+      "text_latin": "et irruit super civitatem repente et percussit eam plaga magna et perdidit populum multum ex Israhel",
+      "rendering": "Then he fell upon the city suddenly and struck it with a great blow, destroying many people of Israel.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 33,
+      "text_latin": "et cepit spolia civitatis et succendit eam igni et destruxit domos eius et muros eius in circuitu",
+      "rendering": "He took the spoils of the city, set it ablaze with fire, and tore down its houses and surrounding walls.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 34,
+      "text_latin": "et captivas duxerunt mulieres et natos et pecora possederunt",
+      "rendering": "They led away the women and children as captives and took possession of the livestock.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 35,
+      "text_latin": "et aedificaverunt civitatem David muro magno et firmo et turribus firmis et facta est illis in arcem",
+      "rendering": "Then they fortified the City of David with a great and strong wall and strong towers, and it became their citadel.",
+      "translator_notes": ["The 'City of David' — the oldest part of Jerusalem — was turned into the Akra, the Seleucid fortress that would dominate Jerusalem for over twenty years until Simon finally captured it (ch. 13)."],
+      "key_terms": [{"latin": "arcem", "rendered_as": "citadel", "note": "The Akra — the Seleucid military garrison overlooking the Temple Mount, a constant provocation to Jewish sovereignty"}]
+    },
+    {
+      "verse": 36,
+      "text_latin": "et posuerunt illic gentem peccatricem viros iniquos et convaluerunt in ea",
+      "rendering": "They stationed there a sinful people, lawless men, and they fortified themselves in it.",
+      "translator_notes": [],
+      "key_terms": [{"latin": "gentem peccatricem", "rendered_as": "sinful people", "note": "Garrison of foreign soldiers and renegade Jews"}]
+    },
+    {
+      "verse": 37,
+      "text_latin": "et posuerunt arma et escam et congregaverunt spolia Hierusalem et reposuerunt illic",
+      "rendering": "They stored weapons and provisions, and gathered up the spoils of Jerusalem and deposited them there.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 38,
+      "text_latin": "et facta est insidiis magna sanctificationi et in diabolum malum in Israhel",
+      "rendering": "It became a great threat to the sanctuary and a cruel adversary to Israel at all times —",
+      "translator_notes": [],
+      "key_terms": [{"latin": "diabolum malum", "rendered_as": "cruel adversary", "note": "Diabolus here means adversary/accuser in the classical sense, not the theological Devil"}]
+    },
+    {
+      "verse": 39,
+      "text_latin": "et effuderunt sanguinem innocentem per circuitum sanctificationis et contaminaverunt sanctificationem",
+      "rendering": "they shed innocent blood around the sanctuary and defiled the holy place.",
+      "translator_notes": [],
+      "key_terms": [{"latin": "sanguinem innocentem", "rendered_as": "innocent blood", "note": "A covenantal legal category — the shedding of innocent blood pollutes the land (cf. Numbers 35:33)"}]
+    },
+    {
+      "verse": 40,
+      "text_latin": "et fugerunt habitatores Hierusalem propter eos et facta est habitatio extraneorum et facta est extranea semini suo et nati eius reliquerunt eam",
+      "rendering": "The inhabitants of Jerusalem fled because of them. The city became a dwelling place of strangers — foreign to its own offspring — and her children abandoned her.",
+      "translator_notes": ["The personification of Jerusalem as a bereaved mother whose children have fled is a powerful literary device echoing Lamentations."],
+      "key_terms": []
+    },
+    {
+      "verse": 41,
+      "text_latin": "sanctificatio eius desolata est sicut solitudo dies festi eius conversi sunt in luctum sabbata eius in obprobrium honores eius in nihilum",
+      "rendering": "Her sanctuary was laid waste like a wilderness; her feast days turned to mourning, her sabbaths to reproach, her honors to nothing.",
+      "translator_notes": ["This verse continues the poetic lament structure, with parallel clauses showing the systematic reversal of everything sacred in Jewish life."],
+      "key_terms": []
+    },
+    {
+      "verse": 42,
+      "text_latin": "secundum gloriam eius multiplicata est ignominia eius et sublimitas eius conversa est in luctum",
+      "rendering": "In proportion to her former glory, her disgrace was multiplied, and her exaltation was turned to mourning.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 43,
+      "text_latin": "et scripsit rex Antiochus omni regno suo ut esset omnis populus unus et relinqueret unusquisque legem suam",
+      "rendering": "Then King Antiochus wrote to his whole kingdom that all should become one people, and that each should abandon his own law.",
+      "translator_notes": ["This is the decree of forced cultural uniformity — the trigger event for the Maccabean revolt. Historically, this religious persecution was unusual for Hellenistic rulers, who typically tolerated local cults."],
+      "key_terms": [{"latin": "ut esset omnis populus unus", "rendered_as": "that all should become one people", "note": "The totalitarian vision of cultural homogeneity — the ideological basis of the persecution"}]
+    },
+    {
+      "verse": 44,
+      "text_latin": "et consenserunt omnes gentes secundum verbum regis Antiochi",
+      "rendering": "All the nations consented according to the word of King Antiochus.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 45,
+      "text_latin": "et multi ex Israhel consenserunt servituti eius et sacrificaverunt idolis et coinquinaverunt sabbatum",
+      "rendering": "Many in Israel consented to his worship, sacrificed to idols, and profaned the Sabbath.",
+      "translator_notes": [],
+      "key_terms": [{"latin": "coinquinaverunt sabbatum", "rendered_as": "profaned the Sabbath", "note": "Sabbath observance was the most visible marker of Jewish identity and the primary target of persecution"}]
+    },
+    {
+      "verse": 46,
+      "text_latin": "et misit rex libros per manus nuntiorum in Hierusalem et in omnes civitates Iuda ut sequerentur leges gentium terrae",
+      "rendering": "The king sent letters by the hand of messengers to Jerusalem and to all the cities of Judah, ordering them to follow the laws of the nations of the land.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 47,
+      "text_latin": "et prohiberent holocausta et sacrificia et placationes fieri in templo Dei",
+      "rendering": "They were to prohibit burnt offerings, sacrifices, and atonement offerings in the Temple of God,",
+      "translator_notes": [],
+      "key_terms": [{"latin": "placationes", "rendered_as": "atonement offerings", "note": "Propitiatory sacrifices; the cessation of atonement rituals struck at the heart of Israel's relationship with God"}]
+    },
+    {
+      "verse": 48,
+      "text_latin": "et prohiberent celebrari sabbatum et dies sollemnes",
+      "rendering": "and to prohibit the observance of the Sabbath and the solemn feast days.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 49,
+      "text_latin": "et iussit coinquinari sancta et sanctum populum Israhel",
+      "rendering": "He commanded that the holy things and the holy people of Israel be defiled.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 50,
+      "text_latin": "et iussit aedificari aras et templa et idola et immolari carnes suillas et pecora communia",
+      "rendering": "He ordered altars and shrines and idols to be built, and swine's flesh and unclean animals to be sacrificed.",
+      "translator_notes": [],
+      "key_terms": [{"latin": "carnes suillas", "rendered_as": "swine's flesh", "note": "Pork sacrifice was deliberately chosen as the maximum offense to Jewish dietary law (Leviticus 11:7)"}]
+    },
+    {
+      "verse": 51,
+      "text_latin": "et relinquere filios suos incircumcisos et coinquinari animas eorum in omnibus inmundis et abominationibus ita ut obliviscerentur legem et immutarent omnes iustificationes Dei",
+      "rendering": "They were to leave their sons uncircumcised and defile themselves with every kind of uncleanness and abomination, so that they would forget the Law and change all the ordinances of God.",
+      "translator_notes": ["The decree systematically targets every marker of Jewish identity: circumcision, dietary laws, Sabbath, festivals, and Temple worship."],
+      "key_terms": [{"latin": "iustificationes Dei", "rendered_as": "ordinances of God", "note": "The divinely given legal statutes of the Torah; 'iustificationes' emphasizes their role in making Israel righteous"}]
+    },
+    {
+      "verse": 52,
+      "text_latin": "et quicumque non fecisset secundum verbum regis Antiochi moreretur",
+      "rendering": "And whoever did not act according to the word of King Antiochus would be put to death.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 53,
+      "text_latin": "secundum omnia verba haec scripsit omni regno suo et praeposuit principes populo qui haec fieri cogerent",
+      "rendering": "According to all these words he wrote to his whole kingdom, and he appointed overseers over the people to enforce these things.",
+      "translator_notes": [],
+      "key_terms": [{"latin": "principes", "rendered_as": "overseers", "note": "Military/administrative officials tasked with enforcing the religious persecution"}]
+    },
+    {
+      "verse": 54,
+      "text_latin": "et iusserunt civitatibus Iuda sacrificare",
+      "rendering": "They commanded the cities of Judah to offer pagan sacrifice.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 55,
+      "text_latin": "et congregati sunt multi de populo ad eos qui dereliquerant legem Domini et fecerunt mala super terram",
+      "rendering": "Many of the people gathered to them — those who had forsaken the Law of the Lord — and they committed evil upon the land.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 56,
+      "text_latin": "et effugaverunt populum Israhel in abditis et in absconditis fugitivorum locis",
+      "rendering": "They drove the people of Israel into hiding, into secret places and into refuges of fugitives.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 57,
+      "text_latin": "die quintadecima mensis casleu quinto et quadragesimo et centesimo anno aedificaverunt abominationem desolationis super altare et per universas civitates Iuda in circuitu aedificaverunt aras",
+      "rendering": "On the fifteenth day of the month of Kislev, in the one hundred and forty-fifth year, they erected the abomination of desolation upon the altar of burnt offering, and in the surrounding cities of Judah they built pagan altars.",
+      "translator_notes": ["The 'abominatio desolationis' — the abomination of desolation — is traditionally identified as an altar or idol to Zeus Olympios erected on top of the great altar of burnt offering. The date is December 167 BCE. This phrase echoes Daniel 9:27 and is quoted by Jesus in Matthew 24:15."],
+      "key_terms": [
+        {"latin": "abominationem desolationis", "rendered_as": "abomination of desolation", "note": "A pagan altar/idol erected on the Temple altar; one of the most consequential phrases in apocalyptic literature"},
+        {"latin": "mensis casleu", "rendered_as": "month of Kislev", "note": "The ninth month of the Hebrew calendar (November-December); the month of Hanukkah"}
+      ]
+    },
+    {
+      "verse": 58,
+      "text_latin": "et in ostiis domorum et in plateis incendebant tura",
+      "rendering": "At the doorways of houses and in the public squares they burned incense.",
+      "translator_notes": [],
+      "key_terms": [{"latin": "tura", "rendered_as": "incense", "note": "Pagan incense offerings; forcing Jews to burn incense publicly was a visible act of apostasy"}]
+    },
+    {
+      "verse": 59,
+      "text_latin": "et libros legis Dei conbusserunt igni scindentes eos",
+      "rendering": "They tore apart and burned with fire the books of the Law of God.",
+      "translator_notes": ["The burning of Torah scrolls was the most systematic attempt to destroy Jewish scripture before the modern era."],
+      "key_terms": [{"latin": "libros legis Dei", "rendered_as": "books of the Law of God", "note": "Torah scrolls — the physical embodiment of the covenant"}]
+    },
+    {
+      "verse": 60,
+      "text_latin": "et apud quemcumque inveniebantur libri testamenti Domini et quicumque observabat legem Domini secundum edictum regis trucidabant eum",
+      "rendering": "Wherever the books of the covenant of the Lord were found, and whoever was caught observing the Law of the Lord — by the king's decree, they were put to death.",
+      "translator_notes": [],
+      "key_terms": [{"latin": "libri testamenti Domini", "rendered_as": "books of the covenant of the Lord", "note": "Torah scrolls described with full covenantal weight"}]
+    },
+    {
+      "verse": 61,
+      "text_latin": "in virtute sua faciebant haec populo Israhel qui inveniebatur in omni mense et mense in civitatibus",
+      "rendering": "With brute force they did these things to the people of Israel who were found month after month in the cities.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 62,
+      "text_latin": "et quinta et vicesima die mensis sacrificabant super aram quae erat contra altare",
+      "rendering": "On the twenty-fifth day of the month they sacrificed on the pagan altar that stood over against the altar of burnt offering.",
+      "translator_notes": ["The twenty-fifth of Kislev becomes doubly significant: it is the date of the desecration and, exactly three years later, the date of the rededication that gives Hanukkah its timing (4:52)."],
+      "key_terms": []
+    },
+    {
+      "verse": 63,
+      "text_latin": "et mulieres quae circumcidebant filios suos trucidabantur secundum iussum regis Antiochi",
+      "rendering": "Women who had their sons circumcised were put to death according to the command of King Antiochus.",
+      "translator_notes": ["The specific targeting of mothers — not fathers — for the circumcision of sons is a detail of particular cruelty. These women became among the first martyrs in Jewish tradition."],
+      "key_terms": []
+    },
+    {
+      "verse": 64,
+      "text_latin": "et suspendebant pueros a cervicibus per universas domos eorum et eos qui circumciderant illos trucidabant",
+      "rendering": "They hanged the infants from their mothers' necks, and in their houses they killed those who had circumcised them.",
+      "translator_notes": ["This horrific detail — the murdered infants hung around their mothers' necks — became a defining image of religious persecution in Jewish memory and is referenced in later rabbinic literature."],
+      "key_terms": []
+    },
+    {
+      "verse": 65,
+      "text_latin": "et multi de populo Israhel definierunt apud se ut non manducarent inmunda et elegerunt magis mori quam cibis coinquinari inmundis",
+      "rendering": "Yet many in Israel stood firm and resolved in their hearts not to eat anything unclean. They chose to die rather than be defiled by unclean food.",
+      "translator_notes": ["This is the first explicit statement of the willingness to die rather than violate Torah — the foundation of Jewish martyrology and the concept of kiddush hashem (sanctification of the Name)."],
+      "key_terms": [{"latin": "elegerunt magis mori", "rendered_as": "chose to die", "note": "The voluntary acceptance of death for Torah observance — the root concept of religious martyrdom"}]
+    },
+    {
+      "verse": 66,
+      "text_latin": "et noluerunt infringere legem Dei sanctam et trucidati sunt",
+      "rendering": "They refused to break the holy Law of God, and they were slaughtered.",
+      "translator_notes": [],
+      "key_terms": [{"latin": "legem Dei sanctam", "rendered_as": "holy Law of God", "note": "The Torah described with maximum reverence at the moment of its defense by martyrdom"}]
+    },
+    {
+      "verse": 67,
+      "text_latin": "et facta est ira magna super populum valde",
+      "rendering": "And exceedingly great wrath came upon the people.",
+      "translator_notes": ["The chapter ends with 'ira magna' — great wrath — which is ambiguous: it could be the wrath of Antiochus upon Israel, or divine wrath permitted as discipline. This theological ambiguity sets up the response of chapter 2."],
+      "key_terms": [{"latin": "ira magna", "rendered_as": "great wrath", "note": "Deliberately ambiguous — both Seleucid fury and possible divine discipline; the resolution comes in the next chapter"}]
+    }
+  ]
+}

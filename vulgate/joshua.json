@@ -1,0 +1,131 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Joshua",
+    "tradition": "vulgate",
+    "tradition_label": "Latin Vulgate",
+    "source_text": "Biblia Sacra Vulgata (Stuttgart critical edition)",
+    "base_text": "Westminster Leningrad Codex (WLC)",
+    "translator": "Jerome (Eusebius Sophronius Hieronymus)",
+    "date": "382-405 CE",
+    "generated_at": "2026-04-20T00:00:00Z",
+    "prompt_version": "2.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Jerome's translation of Joshua renders the conquest narrative with vocabulary drawn from Roman military and sacral terminology, transforming Israelite holy war concepts into Latin categories that shaped Western just war theory and ecclesiastical language of spiritual conquest.",
+    "notable_renderings": "The rendering of cherem as anathema, the land-promise vocabulary (possessio, hereditas), the divine warrior language (princeps exercitus Domini), and the covenant-renewal terminology at Shechem all introduced durable Latin concepts into Western theology.",
+    "theological_legacy": "Joshua's Vulgate established anathema as the standard term for sacred destruction/excommunication, possessio/hereditas as inheritance language later applied to salvation, and provided the military-spiritual vocabulary that informed medieval crusade theology and Augustinian just war doctrine."
+  },
+  "renderings": [
+    {
+      "reference": "Joshua 1:8",
+      "source_text": "לֹא־יָמוּשׁ סֵפֶר הַתּוֹרָה הַזֶּה מִפִּיךָ",
+      "vulgate_text": "non recedat volumen legis huius ab ore tuo",
+      "vulgate_rendering": "Let not the volume of the law depart from your mouth",
+      "tcr_rendering": "This book of the Torah shall not depart from your mouth",
+      "theological_legacy": "Volumen legis (volume/scroll of the law) established the Latin terminology for Torah as written law-code, reinforcing the Western legal conception of Scripture. Lex for Torah narrowed the Hebrew concept of 'instruction' to 'law' throughout the Latin tradition.",
+      "notes": ["Hebrew torah means instruction or teaching broadly; Jerome's lex consistently narrows this to statutory law, shaping Western Christian understanding of the Old Testament as primarily legal code rather than covenantal instruction."]
+    },
+    {
+      "reference": "Joshua 2:12",
+      "source_text": "וַעֲשִׂיתֶם גַּם־אַתֶּם חֶסֶד",
+      "vulgate_text": "ut faciatis et vos misericordiam",
+      "vulgate_rendering": "that you also would show mercy",
+      "tcr_rendering": "that you will also show covenant-faithfulness",
+      "theological_legacy": "Misericordia for chesed reduced covenant loyalty to emotional compassion. This rendering in a narrative context reinforced the Western tendency to read chesed as divine pity rather than as binding covenantal obligation.",
+      "notes": ["Chesed in context is Rahab requesting reciprocal covenant loyalty for her act of protecting the spies. Jerome's misericordia shifts the register from treaty obligation to compassionate mercy, a pattern repeated throughout the Vulgate."]
+    },
+    {
+      "reference": "Joshua 3:11",
+      "source_text": "אֲרוֹן הַבְּרִית אֲדוֹן כָּל־הָאָרֶץ",
+      "vulgate_text": "arca foederis Domini omnis terrae",
+      "vulgate_rendering": "the ark of the covenant of the Lord of all the earth",
+      "tcr_rendering": "the ark of the covenant of the Master of all the earth",
+      "theological_legacy": "Arca foederis became the standard Western term for the Ark of the Covenant, with foedus (treaty/covenant) carrying strong Roman legal connotations. Dominus for adon reinforced the divine-lordship reading over the Hebrew sense of sovereign master.",
+      "notes": ["Jerome uses foedus (political treaty) rather than testamentum (testament/will) for berit here, giving the ark a treaty-chest connotation aligned with its actual function as covenant document container."]
+    },
+    {
+      "reference": "Joshua 5:14",
+      "source_text": "שַׂר־צְבָא יְהוָה",
+      "vulgate_text": "princeps exercitus Domini",
+      "vulgate_rendering": "prince/commander of the army of the Lord",
+      "tcr_rendering": "commander of the army of the LORD",
+      "theological_legacy": "Princeps exercitus Domini provided the vocabulary for angelology and celestial hierarchy in Western theology. Michael as princeps militiae caelestis in later tradition draws directly from this Joshuanic title, shaping medieval angel theology and military-order patronage.",
+      "notes": ["Hebrew sar-tseva means military commander. Jerome's princeps carries connotations of ruling authority beyond mere military command, feeding into hierarchical angelology. The passage was central to patristic debates about the pre-incarnate Christ versus angelic theophanies."]
+    },
+    {
+      "reference": "Joshua 6:17",
+      "source_text": "וְהָיְתָה הָעִיר חֵרֶם",
+      "vulgate_text": "sitque civitas haec anathema",
+      "vulgate_rendering": "and let this city be anathema",
+      "tcr_rendering": "And the city shall be devoted to destruction",
+      "theological_legacy": "Anathema for cherem is one of the Vulgate's most consequential renderings. It transformed a Hebrew concept of sacral destruction (devotion to God through total destruction) into the ecclesiastical term for excommunication and cursing, shaping canon law and conciliar language for centuries.",
+      "notes": ["Hebrew cherem means devoted/banned — set apart for God through destruction. Jerome's anathema (from Greek) shifted the concept from physical destruction to spiritual cursing/separation, providing the Catholic Church its primary excommunication vocabulary. Every conciliar 'anathema sit' echoes this rendering."]
+    },
+    {
+      "reference": "Joshua 6:18",
+      "source_text": "רַק אַתֶּם שִׁמְרוּ מִן־הַחֵרֶם",
+      "vulgate_text": "vos autem cavete ne de his quae praecepta sunt quippiam contingatis",
+      "vulgate_rendering": "But you, beware lest you touch anything of what has been devoted",
+      "tcr_rendering": "But you — keep yourselves from the devoted things",
+      "theological_legacy": "Jerome paraphrases cherem as praecepta (things commanded/set apart), showing his awareness that anathema alone could not carry the full sense. The warning against contamination by devoted things shaped Western concepts of contagious spiritual impurity.",
+      "notes": ["Jerome here renders more freely than in 6:17, showing the difficulty of consistently translating cherem. The Latin emphasizes prohibition and command rather than the sacral-destructive quality of the Hebrew."]
+    },
+    {
+      "reference": "Joshua 7:1",
+      "source_text": "וַיִּמְעֲלוּ בְנֵי־יִשְׂרָאֵל מַעַל בַּחֵרֶם",
+      "vulgate_text": "filii autem Israhel praevaricati sunt mandatum et usurpaverunt de anathemate",
+      "vulgate_rendering": "But the children of Israel transgressed the command and took from the devoted things",
+      "tcr_rendering": "But the sons of Israel broke faith concerning the devoted things",
+      "theological_legacy": "Praevaricati sunt (they transgressed) for ma'al (to act unfaithfully/treacherously) introduced legal transgression vocabulary. The concept of praevaricatio entered canon law partly through such passages, denoting deliberate betrayal of sacred trust.",
+      "notes": ["Hebrew ma'al implies breach of faith, sacrilege, or trespass against the sacred. Jerome's praevaricatio carries the Latin legal sense of collusion or deliberate dereliction, adding a juridical dimension absent from the Hebrew."]
+    },
+    {
+      "reference": "Joshua 13:1",
+      "source_text": "אַתָּה זָקַנְתָּ בָּאתָ בַיָּמִים וְהָאָרֶץ נִשְׁאֲרָה הַרְבֵּה מְאֹד לְרִשְׁתָּהּ",
+      "vulgate_text": "tu senuisti et longaevus es et terra latissima derelicta est quae necdum sorte divisa est",
+      "vulgate_rendering": "You have grown old and are advanced in age, and very much land remains that has not yet been divided by lot",
+      "tcr_rendering": "You are old, advanced in days, and very much land remains to be possessed",
+      "theological_legacy": "Sorte divisa (divided by lot) for Hebrew larishta (to possess/inherit) introduced the concept of divine lot-casting into land distribution, reinforcing the theological idea that God sovereignly assigns inheritances. Sors (lot) became foundational for understanding divine providence in land allocation.",
+      "notes": ["Hebrew yarash means to possess or inherit by dispossession of previous occupants. Jerome's rendering emphasizes the mechanism of lot-casting rather than the act of possession, reflecting the later narrative where lots are indeed cast but obscuring the conquest-possession sense of the Hebrew verb."]
+    },
+    {
+      "reference": "Joshua 14:9",
+      "source_text": "אִם־לֹא הָאָרֶץ אֲשֶׁר דָּרְכָה רַגְלְךָ בָּהּ לְךָ תִהְיֶה לְנַחֲלָה",
+      "vulgate_text": "terra quam calcavit pes tuus erit possessio tua",
+      "vulgate_rendering": "The land which your foot has trodden shall be your possession",
+      "tcr_rendering": "the land on which your foot has trodden shall be an inheritance for you",
+      "theological_legacy": "Possessio for nachalah (inheritance) reduces the Hebrew concept of permanent, inalienable tribal inheritance to Roman property possession. Nachalah implies God-given, irrevocable allotment; possessio implies acquired property right — a significant theological difference for land theology.",
+      "notes": ["Jerome alternates between possessio and hereditas for nachalah throughout Joshua, never fully capturing the Hebrew sense of divinely guaranteed, perpetual family inheritance that cannot be permanently alienated (as in Jubilee legislation)."]
+    },
+    {
+      "reference": "Joshua 20:2-3",
+      "source_text": "תְּנוּ לָכֶם אֶת־עָרֵי הַמִּקְלָט... לָנוּס שָׁמָּה רוֹצֵחַ",
+      "vulgate_text": "separate urbes fugitivorum... ut confugiat ad eas quicumque animam percusserit",
+      "vulgate_rendering": "Set apart cities of refuge... that whoever has struck a life may flee to them",
+      "tcr_rendering": "Set apart the cities of refuge... so that a manslayer may flee there",
+      "theological_legacy": "Urbes fugitivorum (cities of fugitives) for arei ha-miqlat (cities of refuge/shelter) shifts the emphasis from divine protection to fugitive status. This shaped Western legal concepts of sanctuary and asylum, where the church provided refuge for those fleeing justice.",
+      "notes": ["Hebrew miqlat means shelter or refuge (from qalat, to take in). Jerome's fugitivorum emphasizes the fleeing person rather than the sheltering place, though the institution of ecclesiastical sanctuary that developed in medieval Europe drew heavily on these Joshuaic cities as precedent."]
+    },
+    {
+      "reference": "Joshua 23:14",
+      "source_text": "לֹא־נָפַל דָּבָר אֶחָד מִכֹּל הַדְּבָרִים הַטּוֹבִים",
+      "vulgate_text": "ne uno quidem verbo quod pollicitus est implere non potuerit",
+      "vulgate_rendering": "Not even one word which he promised was he unable to fulfill",
+      "tcr_rendering": "Not one word has failed from all the good words",
+      "theological_legacy": "Jerome's paraphrase introduces pollicitus (promised) and implere (fulfill), making God's faithfulness explicitly about promise-fulfillment rather than the Hebrew idiom of words 'not falling.' This promise-fulfillment framework became central to Western covenant theology.",
+      "notes": ["The Hebrew idiom nafal davar (a word fell/failed) is concrete and spatial. Jerome abstracts it into promise-and-fulfillment language that aligned well with developing Christian hermeneutics of Old Testament promises fulfilled in Christ."]
+    },
+    {
+      "reference": "Joshua 24:15",
+      "source_text": "וְאָנֹכִי וּבֵיתִי נַעֲבֹד אֶת־יְהוָה",
+      "vulgate_text": "ego autem et domus mea serviemus Domino",
+      "vulgate_rendering": "But I and my house will serve the Lord",
+      "tcr_rendering": "But as for me and my household, we will serve the LORD",
+      "theological_legacy": "Ego et domus mea serviemus Domino became one of the most quoted Vulgate phrases in Western Christianity, inscribed on countless churches and homes. Serviemus Domino (we will serve the Lord) established the household-covenant piety vocabulary that shaped Western family devotion traditions.",
+      "notes": ["Jerome's rendering is notably faithful to the Hebrew here. The phrase's enormous cultural impact comes not from any divergence but from the Vulgate's role as the Bible of Western civilization for over a millennium."]
+    }
+  ]
+}

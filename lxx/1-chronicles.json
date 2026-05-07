@@ -1,0 +1,73 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "1 Chronicles",
+    "tradition": "lxx",
+    "tradition_label": "Septuagint (LXX) / 1 Paraleipomena",
+    "source_text": "Rahlfs-Hanhart, Septuaginta (1 Paraleipomenōn)",
+    "base_text": "Westminster Leningrad Codex (WLC)",
+    "translators": "Alexandrian Jewish translators (2nd c. BCE)",
+    "date": "2nd century BCE",
+    "generated_at": "2026-04-22T00:00:00Z",
+    "prompt_version": "1.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "LXX 1 Chronicles (1 Paraleipomena, 'the things left behind/supplementary') tracks the Hebrew text closely — significantly more closely than LXX 1 Kings. The book's Greek title reflects the Alexandrian view that Chronicles was a supplement filling in 'things left out' of Samuel-Kings. The book's critical LXX divergence, at 21:1, is the single most consequential name in the development of demonology across the Testaments.",
+    "notable_variants": "The Nathan-oracle parallel at 17:13 rendering 'I will be to him a father' with the LXX idiom that Hebrews 1:5 inherits (via 2 Samuel 7:14); the diabolos rendering at 21:1 that names the Chronicler's 'satan' figure definitively as 'the devil'; the covenant-to-Solomon repetition at 22:10; and the coronation-doxology at 29:11 whose Greek vocabulary shapes the doxology appended to the Lord's Prayer in Matthew 6:13.",
+    "theological_legacy": "1 Chronicles 21:1 in its LXX form is where the Greek Bible fixes 'the devil' (diabolos) as the standard equivalent of 'the satan' — a translational decision of permanent Christian consequence. The Chronicler's coronation-doxology at 29:11 supplied the vocabulary for the liturgical conclusion of the Lord's Prayer ('for yours is the kingdom, and the power, and the glory') that circulated in early Christian prayer books and is preserved in Matthew 6:13 in many manuscripts."
+  },
+  "renderings": [
+    {
+      "reference": "1 Chronicles 17:13",
+      "mt_reading": "אֲנִי אֶהְיֶה־לּוֹ לְאָב וְהוּא יִהְיֶה־לִּי לְבֵן וְחַסְדִּי לֹא־אָסִיר מֵעִמּוֹ",
+      "lxx_reading": "ἐγὼ ἔσομαι αὐτῷ εἰς πατέρα καὶ αὐτὸς ἔσται μοι εἰς υἱόν καὶ τὸ ἔλεός μου οὐκ ἀποστήσω ἀπ᾽ αὐτοῦ",
+      "mt_rendering": "I will be his father, and he will be my son. I will not withdraw my faithful love from him",
+      "lxx_rendering": "I will be to him a father, and he shall be to me a son; and my mercy I will not take away from him",
+      "significance": "theological",
+      "notes": [
+        "The Chronicler's parallel to 2 Samuel 7:14 is preserved verbatim in the LXX with the same father-son formula. Hebrews 1:5 quotes 'I will be to him a father, and he shall be to me a son' — the citation could draw from either Samuel or Chronicles (they are identical in Greek).",
+        "The Chronicler's addition — 'my mercy I will not take away from him' — softens the MT Samuel's 'I will discipline him with a human rod.' The LXX preserves both versions in their respective books, presenting two complementary aspects of the Davidic covenant (discipline in Samuel, unconditional mercy in Chronicles)."
+      ]
+    },
+    {
+      "reference": "1 Chronicles 21:1",
+      "mt_reading": "וַיַּעֲמֹד שָׂטָן עַל־יִשְׂרָאֵל",
+      "lxx_reading": "καὶ ἔστη διάβολος ἐν τῷ Ισραηλ",
+      "mt_rendering": "An adversary rose up against Israel",
+      "lxx_rendering": "And a devil stood in Israel",
+      "significance": "theological",
+      "notes": [
+        "The Hebrew here is ha-satan without the definite article — or satan with no article (manuscript tradition varies), so the figure may be 'a satan' (adversary) rather than 'the Satan' as a proper name. The LXX renders with diabolos, 'devil/accuser,' establishing the Greek equivalence that becomes the NT's standard name for the adversarial figure.",
+        "This is one of the clearest inner-biblical windows into the development from 2 Samuel 24:1 ('the LORD incited David') to 1 Chronicles 21:1 ('satan/adversary incited David'). The Chronicler's move — attributing the incitement to a non-divine agent — and the LXX's amplification of that agent as diabolos are the textual steppingstones by which 'the satan' became 'the Devil.'",
+        "The NT's diabolos (Matthew 4:1–11, Ephesians 6:11, Revelation 12:9) is the word that LXX 1 Chronicles 21:1 put into circulation. Reading the three texts — 2 Samuel 24, 1 Chronicles 21, LXX 1 Chronicles 21 — in sequence shows how the biblical devil became a person."
+      ]
+    },
+    {
+      "reference": "1 Chronicles 22:10",
+      "mt_reading": "אֲנִי־לוֹ לְאָב וְהוּא יִהְיֶה־לִּי לְבֵן",
+      "lxx_reading": "ἐγὼ ἔσομαι αὐτῷ εἰς πατέρα καὶ αὐτὸς ἔσται μοι εἰς υἱόν",
+      "mt_rendering": "He will be my son, and I will be his father",
+      "lxx_rendering": "I will be to him a father, and he shall be to me a son",
+      "significance": "moderate",
+      "notes": [
+        "David's quotation of the Davidic covenant promise to Solomon repeats the same LXX father-son formula. The formula's triple occurrence in 2 Samuel 7:14, 1 Chronicles 17:13, and 1 Chronicles 22:10 creates a consistent Septuagintal pattern that NT writers could cite as the voice of Scripture on the Father-Son relation.",
+        "The Chronicler's repetition underscores the programmatic importance of this promise for his theological vision of the Davidic dynasty."
+      ]
+    },
+    {
+      "reference": "1 Chronicles 29:11",
+      "mt_reading": "לְךָ יְהוָה הַגְּדֻלָּה וְהַגְּבוּרָה וְהַתִּפְאֶרֶת וְהַנֵּצַח וְהַהוֹד … לְךָ יְהוָה הַמַּמְלָכָה",
+      "lxx_reading": "σοί κύριε ἡ μεγαλωσύνη καὶ ἡ δύναμις καὶ τὸ καύχημα καὶ ἡ νίκη καὶ ἡ ἰσχύς … σοί κύριε ἡ βασιλεία",
+      "mt_rendering": "Yours, O LORD, is the greatness, the power, the glory, the victory, and the majesty … Yours, O LORD, is the kingdom",
+      "lxx_rendering": "Yours, Lord, is the greatness and the power and the boast and the victory and the strength … Yours, Lord, is the kingdom",
+      "significance": "theological",
+      "notes": [
+        "David's coronation-doxology uses three of the precise nouns that appear in the doxological conclusion of the Lord's Prayer as preserved in Matthew 6:13 (in most manuscripts) and the Didache 8.2: 'For yours is the kingdom (basileia), and the power (dynamis), and the glory (doxa) forever.'",
+        "The liturgical doxology appended to the Lord's Prayer is widely believed to be a Christian adaptation of LXX 1 Chronicles 29:11. Basileia and dynamis are verbatim from the LXX; doxa is a close semantic match for megalōsynē / kauchēma / isachys.",
+        "This is one of the clearest cases where early Christian prayer language is drawn directly from an LXX text — here a coronation-doxology of David prayed in the act of commissioning Solomon."
+      ]
+    }
+  ]
+}

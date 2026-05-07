@@ -1,0 +1,235 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Sirach",
+    "chapter": 17,
+    "tradition": "vulgate",
+    "tradition_label": "Latin Vulgate (Deuterocanonical)",
+    "source_text": "Biblia Sacra Vulgata (Stuttgart critical edition)",
+    "translator": "Jerome",
+    "date": "c. 405 CE",
+    "canon": ["catholic", "orthodox", "ethiopian"],
+    "generated_at": "2026-04-20T00:00:00Z",
+    "prompt_version": "2.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "The chapter narrates God's creation of humanity with extraordinary gifts: strength, dominion over animals, senses, knowledge, the ability to distinguish good from evil, and the gift of the law. God established a covenant with Israel and revealed his majesty at Sinai. He appointed a ruler over every nation but chose Israel as his own portion. The chapter closes with a sustained call to repentance, reminding the reader that in death there is no praise, but the living can return to God.",
+    "remarkable": "This is Ben Sira's most developed creation theology. The description of humanity's endowment (vv. 1-10) parallels Genesis 1-2 but adds elements not found there: the gift of the 'eye of the heart' (v. 8) and the ability to praise God (v. 10). The doctrine that God assigned each nation an angelic ruler but kept Israel for himself (v. 17) reflects the Deuteronomy 32:8-9 tradition and influenced early Christian angelology.",
+    "friction": "The statement that the dead cannot praise God (v. 27) represents the older Sheol theology that stands in tension with developing resurrection belief. The claim that God assigned nations to angelic rulers raises questions about divine justice toward non-Israelite peoples. Ben Sira does not resolve these tensions.",
+    "connections": "Genesis 1:26-28 (creation of humanity in God's image); Genesis 2:7 (formation from dust); Deuteronomy 32:8-9 (God assigned nations to the sons of God, but kept Israel); Psalm 115:17 (the dead do not praise the Lord); Psalm 8 (what is man that you are mindful of him?); Daniel 10:13 (angelic rulers over nations)."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_latin": "Deus creavit de terra hominem et secundum imaginem suam fecit illum.",
+      "rendering": "God created the human being from the earth, and made him according to his own image.",
+      "translator_notes": ["A direct allusion to Genesis 1:27 and 2:7 combined: creation from earth and in God's image. The two creation accounts are harmonized in a single verse."],
+      "key_terms": [{"latin": "imaginem suam", "rendered_as": "his own image", "note": "The imago Dei: the foundational claim of human dignity, grounding all ethical obligations toward fellow humans."}]
+    },
+    {
+      "verse": 2,
+      "text_latin": "Et iterum convertit illum in ipsam et secundum se vestivit illum virtute.",
+      "rendering": "And again he turns him back to the earth, and clothed him with strength according to his own nature.",
+      "translator_notes": ["The double destiny of humanity: formed from earth, returning to earth, but in between clothed with divine-like power."],
+      "key_terms": []
+    },
+    {
+      "verse": 3,
+      "text_latin": "Numerum dierum et tempus dedit illi et dedit illi potestatem eorum quae sunt super terram.",
+      "rendering": "He gave him a set number of days and a fixed time, and gave him authority over all things on the earth.",
+      "translator_notes": ["Both mortality (numbered days) and dominion (authority over earth) are divine gifts; the human is simultaneously limited and empowered."],
+      "key_terms": [{"latin": "potestatem", "rendered_as": "authority", "note": "Potestas is delegated power; human dominion is a stewardship, not absolute ownership."}]
+    },
+    {
+      "verse": 4,
+      "text_latin": "Posuit timorem illius super omnem carnem et dominatus est bestiarum et volatilium.",
+      "rendering": "He placed the fear of him upon all flesh, and he was given dominion over beasts and birds.",
+      "translator_notes": ["Echoes Genesis 9:2, where after the flood God places the fear of humanity upon all animals."],
+      "key_terms": []
+    },
+    {
+      "verse": 5,
+      "text_latin": "Creavit ex ipso adiutorium simile sibi consilium et linguam et oculos et aures et cor dedit illis excogitandi et disciplina intellectus replevit illos.",
+      "rendering": "He created from him a helper like himself. He gave them counsel and tongue, eyes and ears, and a heart for thinking; and he filled them with the discipline of understanding.",
+      "translator_notes": ["The creation of Eve ('a helper like himself') is followed by an enumeration of the intellectual gifts: counsel, speech, perception, thought, understanding."],
+      "key_terms": [{"latin": "adiutorium simile sibi", "rendered_as": "a helper like himself", "note": "Renders the Hebrew ezer kenegdo of Genesis 2:18; the companion who is both counterpart and equal."}]
+    },
+    {
+      "verse": 6,
+      "text_latin": "Spiritu sensus replevit corda eorum et mala et bona ostendit illis.",
+      "rendering": "He filled their hearts with the spirit of perception, and showed them good and evil.",
+      "translator_notes": ["The capacity to distinguish good from evil is a divine gift, not a human achievement. This complements the free will teaching of 15:14-17: God gave both the knowledge and the freedom to choose."],
+      "key_terms": [{"latin": "spiritu sensus", "rendered_as": "the spirit of perception", "note": "A compound gift: the spiritual capacity for moral discernment."}]
+    },
+    {
+      "verse": 7,
+      "text_latin": "Posuit oculum suum super corda illorum ostendere illis magnalia operum suorum.",
+      "rendering": "He set his eye upon their hearts, to show them the greatness of his works.",
+      "translator_notes": ["God's 'eye upon their hearts' is a double image: God observes the human heart, and through that observation reveals his own works to them."],
+      "key_terms": []
+    },
+    {
+      "verse": 8,
+      "text_latin": "Ut nomen sanctificationis conlaudent et gloriari in mirabilibus illius ut magnalia enarrent operum eius.",
+      "rendering": "So that they might praise the name of holiness, and glory in his wonders, and declare the great deeds of his works.",
+      "translator_notes": ["The purpose of human endowment is praise: all gifts -- perception, thought, speech -- exist to enable worship."],
+      "key_terms": []
+    },
+    {
+      "verse": 9,
+      "text_latin": "Addidit illis disciplinam et legem vitae hereditavit illos.",
+      "rendering": "He added to them discipline, and gave them the law of life as their inheritance.",
+      "translator_notes": ["The 'law of life' (lex vitae) encompasses Torah as the path to flourishing; it is an inheritance, not a burden."],
+      "key_terms": [{"latin": "legem vitae", "rendered_as": "the law of life", "note": "Torah as life-giving instruction; the law is not restrictive but vivifying."}]
+    },
+    {
+      "verse": 10,
+      "text_latin": "Testamentum aeternum constituit cum illis et iustitiam et iudicia sua ostendit illis.",
+      "rendering": "He established an eternal covenant with them, and showed them his justice and his judgments.",
+      "translator_notes": ["The Sinai covenant, described as eternal (aeternum). God's justice is not hidden but revealed to his people."],
+      "key_terms": [{"latin": "testamentum aeternum", "rendered_as": "an eternal covenant", "note": "The Sinai covenant presented as permanent and unbreakable from God's side."}]
+    },
+    {
+      "verse": 11,
+      "text_latin": "Et magnalia gloriae eius vidit oculus illorum et gloriam vocis eius audivit auris illorum.",
+      "rendering": "And their eyes saw the greatness of his glory, and their ears heard the glory of his voice.",
+      "translator_notes": ["The Sinai theophany: Israel both saw and heard God's glory. The dual sensory experience (sight and hearing) made the revelation comprehensive."],
+      "key_terms": []
+    },
+    {
+      "verse": 12,
+      "text_latin": "Et dixit illis adtendite ab omni iniquo et mandavit illis unicuique de proximo suo.",
+      "rendering": "And he said to them, 'Beware of all that is unjust,' and he gave them each a command concerning his neighbor.",
+      "translator_notes": ["The two dimensions of the covenant: vertical (beware of injustice before God) and horizontal (care for your neighbor)."],
+      "key_terms": []
+    },
+    {
+      "verse": 13,
+      "text_latin": "Viae illorum coram illo sunt semper non sunt absconsae ab oculis ipsius.",
+      "rendering": "Their ways are always before him; they are not hidden from his eyes.",
+      "translator_notes": ["Divine omniscience applied to human conduct: nothing is concealed. This refutes the skeptic of 16:16."],
+      "key_terms": []
+    },
+    {
+      "verse": 14,
+      "text_latin": "In unamquamque gentem praeposuit rectorem.",
+      "rendering": "Over every nation he appointed a ruler.",
+      "translator_notes": ["The tradition from Deuteronomy 32:8 (LXX): God assigned angelic patrons over the Gentile nations."],
+      "key_terms": [{"latin": "rectorem", "rendered_as": "a ruler", "note": "In the Deuteronomy 32 tradition, these rulers are angelic beings (sons of God) assigned stewardship over individual nations."}]
+    },
+    {
+      "verse": 15,
+      "text_latin": "Et pars Dei Israhel facta est manifeste.",
+      "rendering": "But Israel was made manifestly the portion of God.",
+      "translator_notes": ["While other nations received angelic rulers, Israel belongs directly to God. This is the theological basis of Israel's unique election."],
+      "key_terms": [{"latin": "pars Dei", "rendered_as": "the portion of God", "note": "Echoes Deuteronomy 32:9: 'The Lord's portion is his people, Jacob his allotted inheritance.'"}]
+    },
+    {
+      "verse": 16,
+      "text_latin": "Et omnia opera illorum velut sol in conspectu Dei et oculi eius sine intermissione inspicientes in viis eorum.",
+      "rendering": "And all their works are like the sun before God, and his eyes are constantly inspecting their ways.",
+      "translator_notes": ["Human deeds are as visible to God as objects in full sunlight; nothing is shadowed or concealed."],
+      "key_terms": []
+    },
+    {
+      "verse": 17,
+      "text_latin": "Non sunt absconsae iniustitiae illorum a Deo et omnia iniquitates eorum in conspectu Dei.",
+      "rendering": "Their injustices are not hidden from God, and all their iniquities are in the sight of God.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 18,
+      "text_latin": "Eleemosyna viri quasi signaculum cum ipso et gratiam hominis quasi pupillam conservabit.",
+      "rendering": "A person's almsgiving is like a signet ring with God, and he will preserve a person's kindness as the apple of his eye.",
+      "translator_notes": ["Two striking metaphors for how God treasures human charity: as a signet ring (personal seal of identity) and as the pupil of the eye (the most protected part of the body)."],
+      "key_terms": [{"latin": "signaculum", "rendered_as": "a signet ring", "note": "The signet ring was the most personal possession in the ancient world, used to seal documents and mark identity. God treats human charity with equal intimacy."}]
+    },
+    {
+      "verse": 19,
+      "text_latin": "Et postea resurget et retribuet illis retributionem unicuique in caput ipsorum et convertet in inferiores partes terrae.",
+      "rendering": "And afterward he will rise up and repay them, bringing their recompense upon their own heads; and he will turn them back to the lower parts of the earth.",
+      "translator_notes": ["God's retribution is certain though delayed; the wicked are returned to the dust from which they came."],
+      "key_terms": [{"latin": "inferiores partes terrae", "rendered_as": "the lower parts of the earth", "note": "Sheol, the underworld; the final destination of the unrepentant."}]
+    },
+    {
+      "verse": 20,
+      "text_latin": "Paenitentibus autem dedit viam iustitiae et confirmavit deficientes sustinere et destinavit illis sortem veritatis.",
+      "rendering": "But to the repentant he gave a way of return to righteousness, and he strengthened the fainthearted to endure, and appointed for them the lot of truth.",
+      "translator_notes": ["The pivot to hope: repentance opens a path back. The 'lot of truth' is the inheritance reserved for those who return to God."],
+      "key_terms": [{"latin": "viam iustitiae", "rendered_as": "a way of return to righteousness", "note": "Repentance is not merely remorse but a concrete path (via) that leads back to right standing."}]
+    },
+    {
+      "verse": 21,
+      "text_latin": "Convertere ad Dominum et relinque peccata tua.",
+      "rendering": "Return to the Lord and abandon your sins.",
+      "translator_notes": ["A direct imperative: the chapter shifts from theological exposition to pastoral exhortation."],
+      "key_terms": [{"latin": "convertere", "rendered_as": "return", "note": "The Latin convertere renders Hebrew shuv -- the classic call to repentance as a turning back to God."}]
+    },
+    {
+      "verse": 22,
+      "text_latin": "Precare ante faciem Domini et minue offendicula.",
+      "rendering": "Pray before the face of the Lord, and lessen your offenses.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 23,
+      "text_latin": "Revertere ad Dominum et avertere ab iniustitia tua et nimis odito execrationem.",
+      "rendering": "Turn back to the Lord, and turn away from your injustice, and utterly hate abomination.",
+      "translator_notes": ["Repentance has three dimensions: return to God, departure from injustice, hatred of evil."],
+      "key_terms": []
+    },
+    {
+      "verse": 24,
+      "text_latin": "Et cognosce iustitias et iudicia Dei et sta in sorte propositionis et orationis Altissimi.",
+      "rendering": "And know the righteous acts and judgments of God, and stand firm in the lot appointed by the Most High and in prayer to him.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 25,
+      "text_latin": "In partes vade saeculi sancti cum vivis et dantibus confessionem Deo.",
+      "rendering": "Go forth into the realm of the holy age, with the living who give praise to God.",
+      "translator_notes": ["An invitation to join the community of the living who praise God -- to choose the company of the faithful rather than the isolation of the sinner."],
+      "key_terms": []
+    },
+    {
+      "verse": 26,
+      "text_latin": "Non demoreris in errore impiorum ante mortem confitere vivus et sanus confiteberis et laudabis Deum et gloriaberis in miserationibus illius.",
+      "rendering": "Do not linger in the error of the ungodly; before death, make your confession. A living and healthy person will confess and praise God, and will glory in his mercies.",
+      "translator_notes": ["The urgency of confession: it can only happen while you are alive and capable. Death ends the opportunity."],
+      "key_terms": []
+    },
+    {
+      "verse": 27,
+      "text_latin": "Quam magna misericordia Domini et propitiatio illius convertentibus ad se.",
+      "rendering": "How great is the mercy of the Lord, and his forgiveness toward those who turn back to him!",
+      "translator_notes": ["An exclamation of wonder at divine mercy -- the chapter's emotional climax."],
+      "key_terms": [{"latin": "propitiatio", "rendered_as": "forgiveness", "note": "Propitiatio encompasses both the act of appeasing wrath and the resulting state of reconciliation."}]
+    },
+    {
+      "verse": 28,
+      "text_latin": "Nec enim omnia possunt esse in hominibus quoniam non est inmortalis filius hominis et in vanitate malitiae placuerunt.",
+      "rendering": "For all things cannot be in human beings, since the son of man is not immortal, and they have taken pleasure in the vanity of wickedness.",
+      "translator_notes": ["Human limitation is acknowledged: mortality and moral weakness go together. Yet this frailty is precisely what makes divine mercy necessary and glorious."],
+      "key_terms": []
+    },
+    {
+      "verse": 29,
+      "text_latin": "Quid lucidius sole et hic deficiet aut quid nequius quam quod excogitavit caro et sanguis et hoc arguetur.",
+      "rendering": "What is brighter than the sun? Yet even it fails. How much more will flesh and blood devise evil, and it will be judged.",
+      "translator_notes": ["If even the sun fades, how much more must mortal humanity accept its frailty and need for mercy."],
+      "key_terms": []
+    },
+    {
+      "verse": 30,
+      "text_latin": "Virtutem altitudinis caeli ipse conspicit et omnes homines terra et cinis.",
+      "rendering": "He surveys the host of the height of heaven, but all human beings are earth and ashes.",
+      "translator_notes": ["The chapter closes where it began: with the vast gulf between God who surveys the heavens and humanity who is dust. The framing is a call to humility and trust in divine mercy."],
+      "key_terms": [{"latin": "terra et cinis", "rendered_as": "earth and ashes", "note": "Abraham's self-description before God in Genesis 18:27: 'I who am but dust and ashes.' The ultimate statement of creatureliness."}]
+    }
+  ]
+}

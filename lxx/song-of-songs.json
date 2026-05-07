@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Song of Songs",
+    "tradition": "lxx",
+    "tradition_label": "Septuagint (LXX)",
+    "source_text": "Rahlfs-Hanhart, Septuaginta (Aisma Aismatōn)",
+    "base_text": "Westminster Leningrad Codex (WLC)",
+    "translators": "Alexandrian Jewish translators (2nd c. BCE) with later revisions",
+    "date": "2nd century BCE",
+    "generated_at": "2026-04-22T00:00:00Z",
+    "prompt_version": "1.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "LXX Song of Songs tracks MT closely. The book is not quoted in the NT. Its Greek reception-history, however, is extraordinary: Origen's three-book commentary and ten-book homilies on Song of Songs established the allegorical reading of the book as the love-song between Christ and the Church — a reading that would dominate Christian exegesis for over a thousand years. The LXX's specific vocabulary choices shaped this tradition at every point.",
+    "notable_variants": "The superlative title 'song of songs' rendered aisma aismatōn in LXX; the 'love is as strong as death' of 8:6 in its LXX form that circulated as the book's epigraph in Hellenistic Jewish poetic piety; the botanical vocabulary of 2:1 rendered interpretively that gave later Western tradition 'the rose of Sharon.'",
+    "theological_legacy": "The allegorical Christian reading of Song of Songs — Christ-and-church, soul-and-God — was constructed in Greek on the base of LXX vocabulary. Origen read the Song's phileō, agapaō, philēma, nymphē as the Greek words of a spiritual love-narrative. The LXX text made the allegory possible; the Hebrew original, for all its theological depth, does not carry the same Greek theological vocabulary."
+  },
+  "renderings": [
+    {
+      "reference": "Song of Songs 1:1",
+      "mt_reading": "שִׁיר הַשִּׁירִים אֲשֶׁר לִשְׁלֹמֹה",
+      "lxx_reading": "ᾆσμα ᾀσμάτων ὅ ἐστιν τῷ Σαλωμων",
+      "mt_rendering": "The finest song, which is Solomon's",
+      "lxx_rendering": "A song of songs, which is Solomon's",
+      "significance": "minor",
+      "notes": [
+        "The LXX preserves the Hebrew superlative construction shir ha-shirim ('the song of songs' = 'the finest song, the song par excellence') with the matching Greek aisma aismatōn.",
+        "TCR renders the superlative force as 'the finest song.' The LXX preserves the literal double-plural idiom, which the Vulgate inherits as canticum canticorum and the KJV as 'song of songs.' Either rendering captures the sense that this is the preeminent song."
+      ]
+    },
+    {
+      "reference": "Song of Songs 2:1",
+      "mt_reading": "אֲנִי חֲבַצֶּלֶת הַשָּׁרוֹן שׁוֹשַׁנַּת הָעֲמָקִים",
+      "lxx_reading": "ἐγὼ ἄνθος τοῦ πεδίου κρίνον τῶν κοιλάδων",
+      "mt_rendering": "I am a wildflower of the Sharon, a lily of the valleys",
+      "lxx_rendering": "I am a flower of the plain, a lily of the valleys",
+      "significance": "minor",
+      "notes": [
+        "Hebrew chavatselet (probably a crocus, meadow saffron, or specific local flower) is rendered generically anthos tou pediou ('flower of the plain'). The English 'rose of Sharon' is a much later tradition (post-Vulgate, possibly via English herbal vocabulary) and represents neither the Hebrew nor the LXX accurately.",
+        "Hebrew shoshannat ha-amaqim — 'lily of the valleys' — is rendered word-for-word in LXX and carried into Latin and European vernaculars as one of the book's famous phrases."
+      ]
+    },
+    {
+      "reference": "Song of Songs 8:6",
+      "mt_reading": "עַזָּה כַמָּוֶת אַהֲבָה קָשָׁה כִשְׁאוֹל קִנְאָה רְשָׁפֶיהָ רִשְׁפֵּי אֵשׁ שַׁלְהֶבֶתְיָה",
+      "lxx_reading": "κραταιὰ ὡς θάνατος ἀγάπη σκληρὸς ὡς ᾅδης ζῆλος περίπτερα αὐτῆς περίπτερα πυρὸς φλόγες αὐτῆς",
+      "mt_rendering": "love is as fierce as death, passion as relentless as the grave. Its flames are flames of fire, the very blaze of Yah",
+      "lxx_rendering": "love is strong as death, jealousy is hard as Hades; her flames are flames of fire, her fires",
+      "significance": "theological",
+      "notes": [
+        "The Hebrew ends the verse with shalhevetyah — a compound of shalhevet ('flame') and yah (the short form of YHWH) — 'the very flame of the LORD' or 'a flame of Yah.' This is one of only a few occurrences of the divine name in Song of Songs and the only one that most modern scholars accept as intended.",
+        "The LXX does not render yah as kyrios here but treats shalhevetyah as simply 'her flames' (phloges autēs). The divine-name reference is lost in the Greek.",
+        "The LXX's losing of yah may reflect a non-recognition of the compound, or a reluctance to use the divine name in what appeared to be a secular love poem. TCR preserves the divine-name recognition: 'the very blaze of Yah.'",
+        "This is one of the more poignant cases where the LXX's interpretive decision — whether accidental or deliberate — stripped a Hebrew text of its one moment of explicit divine reference."
+      ]
+    }
+  ]
+}

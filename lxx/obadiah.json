@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Obadiah",
+    "tradition": "lxx",
+    "tradition_label": "Septuagint (LXX)",
+    "source_text": "Rahlfs-Hanhart, Septuaginta",
+    "base_text": "Westminster Leningrad Codex (WLC)",
+    "translators": "Alexandrian Jewish translators (2nd c. BCE)",
+    "date": "2nd century BCE",
+    "generated_at": "2026-04-22T00:00:00Z",
+    "prompt_version": "1.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "The shortest book of the Hebrew Bible has a correspondingly short Greek translation tradition. LXX Obadiah tracks MT closely. The book is not directly quoted in the NT, but its closing 'kingdom shall be the LORD's' formula at v. 21 supplied one of the stock LXX phrases that shaped NT kingdom-language.",
+    "notable_variants": "The universal-judgment-day vocabulary at v. 15; the deliverance-from-Zion promise at v. 17 in its LXX form that recurs at Joel 2:32 LXX and Romans 11:26; the climactic 'and the kingdom shall be the LORD's' at v. 21 that anticipates Revelation 11:15.",
+    "theological_legacy": "Obadiah's closing theophany of the kingdom-belonging-to-the-Lord is one of the most concentrated pre-apocalyptic statements in the Minor Prophets. Revelation 11:15's 'the kingdom of the world has become the kingdom of our Lord and of his Christ' draws on this LXX vocabulary even without formally citing Obadiah."
+  },
+  "renderings": [
+    {
+      "reference": "Obadiah 1:17",
+      "mt_reading": "וּבְהַר צִיּוֹן תִּהְיֶה פְלֵיטָה וְהָיָה קֹדֶשׁ",
+      "lxx_reading": "ἐν δὲ τῷ ὄρει Σιων ἔσται ἡ σωτηρία καὶ ἔσται ἅγιον",
+      "mt_rendering": "on Mount Zion there will be deliverance, and it will be holy",
+      "lxx_rendering": "in Mount Zion there shall be salvation, and it shall be holy",
+      "significance": "moderate",
+      "notes": [
+        "The LXX's sōtēria ('salvation') for Hebrew peletah ('deliverance, escape') is a standard LXX equivalence that feeds NT soteriological vocabulary. The Mount Zion location becomes the focus of eschatological sōtēria across Isaiah, Joel, and Obadiah in their Greek forms.",
+        "Romans 11:26 ('the Deliverer will come from Zion') draws on this LXX Zion-salvation motif, combined with Isaiah 59:20 LXX. The source texts are a cluster of LXX Zion-rescue passages."
+      ]
+    },
+    {
+      "reference": "Obadiah 1:21",
+      "mt_reading": "וְהָיְתָה לַיהוָה הַמְּלוּכָה",
+      "lxx_reading": "καὶ ἔσται τῷ κυρίῳ ἡ βασιλεία",
+      "mt_rendering": "the kingdom will belong to the LORD",
+      "lxx_rendering": "and the kingdom shall be the Lord's",
+      "significance": "moderate",
+      "notes": [
+        "Revelation 11:15 ('the kingdom of the world has become the kingdom of our Lord and of his Christ, and he shall reign forever and ever') echoes this LXX Obadiah phrasing. The basileia tou kyriou formula runs across LXX prophetic endings (Obad 21, Zech 14:9, Dan 7:14) and lands in Revelation 11 as the consummation-formula.",
+        "The eschatological final-kingdom-acclamation of LXX Obadiah 21 sits in a word-family with the Lord's Prayer's 'thy kingdom come' (eltheto hē basileia sou) and with Paul's 1 Corinthians 15:24 'when he hands over the kingdom to God the Father.'"
+      ]
+    }
+  ]
+}

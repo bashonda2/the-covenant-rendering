@@ -1,0 +1,193 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Wisdom of Solomon",
+    "chapter": 2,
+    "tradition": "vulgate",
+    "tradition_label": "Latin Vulgate (Deuterocanonical)",
+    "source_text": "Biblia Sacra Vulgata (Stuttgart critical edition)",
+    "translator": "Jerome",
+    "date": "c. 405 CE",
+    "canon": ["catholic", "orthodox", "ethiopian"],
+    "generated_at": "2026-04-20T00:00:00Z",
+    "prompt_version": "2.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "The wicked reason among themselves that life is short and meaningless, so they resolve to indulge in pleasure and oppress the righteous man who reproaches their conduct. They plot to test him with insult and torture, and finally condemn him to a shameful death, reasoning that if he is truly God's son, God will deliver him.",
+    "remarkable": "This chapter became one of the most important messianic proof-texts in early Christianity. The portrait of the righteous sufferer who calls God his Father and claims to be God's son (vv. 13, 16, 18), who is tested with torture and condemned to a shameful death (vv. 19-20), was read as a prophecy of Christ's passion. The mockery scene closely parallels Matthew 27:41-43.",
+    "friction": "The wicked's philosophy in vv. 1-9 is a sophisticated blend of Epicurean materialism and existential nihilism that seems more Hellenistic than biblical. Some scholars argue this is a caricature rather than a fair representation of any actual philosophical school. The righteous man is simultaneously an individual figure and a type for all the faithful.",
+    "connections": "Isaiah 53 (the suffering servant); Psalm 22 (the righteous sufferer mocked); Matthew 27:41-43 (mockery at the cross); Hebrews 12:5-6 (divine testing)."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_latin": "Dixerunt enim cogitantes apud se non recte: Exiguum et cum taedio est tempus vitae nostrae, et non est refrigerium in fine hominis, et non est qui agnitus sit reversus ab inferis.",
+      "rendering": "For they reasoned unsoundly, saying among themselves: 'Short and sorrowful is our life, and there is no remedy when a person comes to their end, and no one has been known to return from Hades.'",
+      "translator_notes": ["The phrase 'reasoned unsoundly' (cogitantes non recte) frames the entire speech as a failure of reason, not merely of faith. The author insists that materialism is intellectually, not just morally, deficient."],
+      "key_terms": [{"latin": "non recte", "rendered_as": "unsoundly", "note": "Literally 'not rightly'; the error is in the reasoning process itself, not merely in the conclusion."}, {"latin": "inferis", "rendered_as": "Hades", "note": "The Latin inferus (the underworld) translates the Greek Hades, itself standing for Hebrew Sheol."}]
+    },
+    {
+      "verse": 2,
+      "text_latin": "Quoniam ex nihilo nati sumus et post hoc erimus tamquam non fuerimus, quoniam fumus flatus est in naribus nostris et sermo scintilla ad commovendum cor nostrum.",
+      "rendering": "For we were born from nothing, and hereafter we shall be as though we had never existed, because the breath in our nostrils is but smoke, and reason is a spark kindled by the beating of our heart.",
+      "translator_notes": ["The materialist anthropology reduces spirit (flatus) to vapor and reason (sermo) to a chemical byproduct. The author faithfully presents the position before demolishing it."],
+      "key_terms": [{"latin": "ex nihilo", "rendered_as": "from nothing", "note": "The phrase ex nihilo here describes the wicked's belief in purposeless origin, ironically using the same phrase that Christian theology would later use for God's purposeful creation."}, {"latin": "sermo", "rendered_as": "reason", "note": "Sermo here means rational speech or thought, the distinctly human capacity that the wicked reduce to a mere spark."}]
+    },
+    {
+      "verse": 3,
+      "text_latin": "Qua extincta cinis erit corpus nostrum et spiritus diffundetur tamquam mollis aer.",
+      "rendering": "When that spark is extinguished, the body will turn to ashes, and the spirit will dissolve like thin air.",
+      "translator_notes": [],
+      "key_terms": [{"latin": "spiritus", "rendered_as": "spirit", "note": "The wicked use spiritus to mean mere breath or wind, stripping it of any transcendent meaning."}]
+    },
+    {
+      "verse": 4,
+      "text_latin": "Et nomen nostrum oblivionem accipiet per tempus et nemo memoriam habebit operum nostrorum.",
+      "rendering": "And our name will be forgotten in time, and no one will remember our deeds.",
+      "translator_notes": ["The loss of name and memory is the ultimate extinction in ancient thought; if no one remembers you, you cease to exist entirely."],
+      "key_terms": []
+    },
+    {
+      "verse": 5,
+      "text_latin": "Umbrae enim transitus est tempus nostrum et non est reversio finis nostri, quoniam consignata est et nemo revertitur.",
+      "rendering": "For our time is the passing of a shadow, and there is no return from our end, because it is sealed, and no one comes back.",
+      "translator_notes": [],
+      "key_terms": [{"latin": "umbrae transitus", "rendered_as": "the passing of a shadow", "note": "A poetic image of impermanence found also in Job 14:2 and Psalm 144:4."}]
+    },
+    {
+      "verse": 6,
+      "text_latin": "Venite ergo et fruamur bonis quae sunt et utamur creatura tamquam in iuventute celeriter.",
+      "rendering": "Come, therefore, let us enjoy the good things that exist, and let us make use of creation eagerly, as in youth.",
+      "translator_notes": ["The carpe diem exhortation mirrors Ecclesiastes 9:7-9 but without Qoheleth's underlying reverence for God as giver. The wicked strip enjoyment of its theological frame."],
+      "key_terms": [{"latin": "creatura", "rendered_as": "creation", "note": "The wicked treat creation as mere raw material for consumption rather than as gift."}]
+    },
+    {
+      "verse": 7,
+      "text_latin": "Vino pretioso et unguentis nos impleamus, et non praetereat nos flos temporis.",
+      "rendering": "Let us fill ourselves with costly wine and perfumes, and let no flower of the season pass us by.",
+      "translator_notes": [],
+      "key_terms": [{"latin": "flos temporis", "rendered_as": "flower of the season", "note": "A conventional image of fleeting pleasure; cf. Isaiah 40:6-8, where the flower's fading illustrates human mortality."}]
+    },
+    {
+      "verse": 8,
+      "text_latin": "Coronemus nos rosis antequam marcescant; nullum pratum sit quod non pertranseat luxuria nostra.",
+      "rendering": "Let us crown ourselves with rosebuds before they wither; let no meadow be untouched by our revelry.",
+      "translator_notes": ["Rose crowns were associated with Dionysian feasting and Greco-Roman banquet culture. The imagery signals the wicked's thorough assimilation to pagan customs."],
+      "key_terms": [{"latin": "luxuria", "rendered_as": "revelry", "note": "Luxuria means extravagant indulgence; it later became a technical term for the deadly sin of lust."}]
+    },
+    {
+      "verse": 9,
+      "text_latin": "Nemo nostrum exsors sit luxuriae nostrae; ubique relinquamus signa laetitiae, quoniam haec est pars nostra et haec est sors.",
+      "rendering": "Let none of us miss out on our revelry; everywhere let us leave signs of our merrymaking, for this is our portion and this is our lot.",
+      "translator_notes": ["The phrase 'this is our portion' (haec est pars nostra) bitterly parodies the Levitical declaration that the Lord is Israel's portion (Psalm 16:5, 73:26)."],
+      "key_terms": [{"latin": "pars nostra", "rendered_as": "our portion", "note": "An ironic inversion of the biblical 'the Lord is my portion'; the wicked claim pleasure itself as their inheritance."}]
+    },
+    {
+      "verse": 10,
+      "text_latin": "Opprimamus pauperem iustum et non parcamus viduae nec veterani canis revereamur.",
+      "rendering": "Let us oppress the righteous poor, and let us not spare the widow, nor show reverence for the gray hairs of the aged.",
+      "translator_notes": ["The progression from self-indulgence to active oppression reveals the author's moral logic: hedonism unchecked inevitably becomes predatory."],
+      "key_terms": [{"latin": "pauperem iustum", "rendered_as": "the righteous poor", "note": "The conjunction of poverty and righteousness reflects the prophetic tradition where the poor are God's special concern (cf. Amos 2:6-7)."}]
+    },
+    {
+      "verse": 11,
+      "text_latin": "Sit autem fortitudo nostra lex iustitiae; quod enim infirmum est inutile invenitur.",
+      "rendering": "Let our strength be the law of justice, for what is weak is proved to be useless.",
+      "translator_notes": ["The naked assertion that might makes right. The wicked replace divine law with the law of the strong, anticipating Nietzsche's critique of slave morality by two millennia."],
+      "key_terms": [{"latin": "fortitudo nostra lex iustitiae", "rendered_as": "our strength be the law of justice", "note": "A chilling redefinition: justice is whatever the powerful decree."}]
+    },
+    {
+      "verse": 12,
+      "text_latin": "Circumveniamus ergo iustum, quoniam inutilis est nobis et contrarius est operibus nostris et improperat nobis peccata legis et diffamat in nos peccata disciplinae nostrae.",
+      "rendering": "Let us, therefore, lie in wait for the righteous man, because he is inconvenient to us and opposes our deeds, and reproaches us for sins against the law, and accuses us of sins against our training.",
+      "translator_notes": ["The righteous man becomes intolerable not because he harms the wicked but because his very existence is a standing reproach to their way of life."],
+      "key_terms": [{"latin": "iustum", "rendered_as": "the righteous man", "note": "This singular figure becomes the center of the chapter; the early Church identified him with Christ."}, {"latin": "peccata legis", "rendered_as": "sins against the law", "note": "The righteous man appeals to Torah; the wicked experience this as accusation."}]
+    },
+    {
+      "verse": 13,
+      "text_latin": "Promittit se scientiam Dei habere et filium Dei se nominat.",
+      "rendering": "He professes to have knowledge of God, and calls himself a son of God.",
+      "translator_notes": ["The phrase filium Dei ('son of God') was read christologically from the earliest patristic period. In the original context it likely refers to the righteous Israelite's claim to be in a filial relationship with the covenant God."],
+      "key_terms": [{"latin": "filium Dei", "rendered_as": "a son of God", "note": "One of the most consequential phrases in the book; cf. Matthew 27:43 where the mockers at the cross echo this very accusation."}]
+    },
+    {
+      "verse": 14,
+      "text_latin": "Factus est nobis in traductionem cogitationum nostrarum.",
+      "rendering": "He has become a living reproach to our way of thinking.",
+      "translator_notes": [],
+      "key_terms": [{"latin": "traductionem", "rendered_as": "reproach", "note": "Traductio means public exposure or disgrace; the righteous man's life exposes the wicked's reasoning as bankrupt."}]
+    },
+    {
+      "verse": 15,
+      "text_latin": "Gravis est nobis etiam ad videndum, quoniam dissimilis est aliis vita illius et immutatae sunt viae illius.",
+      "rendering": "He is grievous to us even to look upon, because his manner of life is unlike that of others, and his ways are strange.",
+      "translator_notes": ["The righteous man's mere visibility provokes hostility. His different way of living is experienced as an implicit judgment."],
+      "key_terms": [{"latin": "dissimilis", "rendered_as": "unlike", "note": "The righteous man's distinctiveness -- his refusal to assimilate -- is precisely what makes him a target."}]
+    },
+    {
+      "verse": 16,
+      "text_latin": "Tamquam nugaces aestimati sumus ab illo et abstinet se a viis nostris tamquam ab immunditiis et praefert novissima iustorum et gloriatur patrem Deum se habere.",
+      "rendering": "We are regarded by him as base coin, and he avoids our ways as unclean; he extols the final end of the righteous, and boasts that God is his father.",
+      "translator_notes": ["The claim 'God is his father' (patrem Deum se habere) deepens the christological reading. The righteous man's relationship with God is personal, not merely covenantal."],
+      "key_terms": [{"latin": "nugaces", "rendered_as": "base coin", "note": "Nugax means worthless, counterfeit; the righteous man's judgment assigns no value to the wicked's pretensions."}, {"latin": "patrem Deum", "rendered_as": "God is his father", "note": "The second explicit claim of divine sonship in this chapter; cf. John 5:18 where a similar claim provokes murderous hostility."}]
+    },
+    {
+      "verse": 17,
+      "text_latin": "Videamus ergo si sermones illius veri sint, et temptemus quae ventura sunt illi et sciemus quae erunt novissima illius.",
+      "rendering": "Let us see, then, whether his words are true, and let us test what will happen to him, and we shall know what his end will be.",
+      "translator_notes": ["The test is empirical: if the righteous man's claims about God are true, God should intervene. This demand for visible proof anticipates the challenge at the cross: 'Let God deliver him now' (Matthew 27:43)."],
+      "key_terms": [{"latin": "temptemus", "rendered_as": "let us test", "note": "The same verb used of Israel's testing of God; now the wicked test God's faithfulness to his servant."}]
+    },
+    {
+      "verse": 18,
+      "text_latin": "Si enim est verus filius Dei suscipiet illum et liberabit illum de manibus contrariorum.",
+      "rendering": "For if the righteous man is truly the son of God, God will uphold him and deliver him from the hands of his adversaries.",
+      "translator_notes": ["This verse is quoted almost verbatim in Matthew 27:43. The logic is identical: if divine sonship is real, it must manifest as visible rescue. The book's answer is that deliverance comes, but not in the form the wicked expect."],
+      "key_terms": [{"latin": "filius Dei", "rendered_as": "the son of God", "note": "The third occurrence; the cumulative effect makes the christological reading almost unavoidable for Christian readers."}]
+    },
+    {
+      "verse": 19,
+      "text_latin": "Contumelia et tormento interrogemus eum ut sciamus reverentiam eius et probemus patientiam illius.",
+      "rendering": "Let us test him with insult and torture, that we may learn his forbearance and prove his endurance.",
+      "translator_notes": ["The 'testing' has escalated from observation (v. 17) to verbal abuse to physical torture. The sequence mirrors the escalating abuse in the passion narratives."],
+      "key_terms": [{"latin": "contumelia", "rendered_as": "insult", "note": "Contumelia is public humiliation, an assault on dignity; paired with physical tormento, the righteous man suffers both shame and pain."}, {"latin": "patientiam", "rendered_as": "endurance", "note": "Patientia is not passive resignation but active steadfastness under suffering; a virtue the early Church would elevate to central importance."}]
+    },
+    {
+      "verse": 20,
+      "text_latin": "Morte turpissima condemnemus eum; erit enim ei respectus ex sermonibus illius.",
+      "rendering": "Let us condemn him to a shameful death, for according to his own words, God will take care of him.",
+      "translator_notes": ["Morte turpissima ('the most shameful death') was universally read by the Fathers as a reference to crucifixion, the most degrading form of Roman execution. The irony is complete: the wicked use the righteous man's own faith as the justification for killing him."],
+      "key_terms": [{"latin": "morte turpissima", "rendered_as": "a shameful death", "note": "The superlative turpissima intensifies the disgrace; for Roman readers, crucifixion was the obvious referent."}]
+    },
+    {
+      "verse": 21,
+      "text_latin": "Haec cogitaverunt et erraverunt; excaecavit enim illos malitia eorum.",
+      "rendering": "Thus they reasoned, but they were led astray, for their own malice blinded them.",
+      "translator_notes": ["The narrator's verdict is swift and devastating. The wicked's elaborate reasoning, presented at length over twenty verses, is dismissed in a single sentence as blindness caused by moral corruption."],
+      "key_terms": [{"latin": "excaecavit", "rendered_as": "blinded", "note": "From excaecare, to make blind; the metaphor links moral corruption to cognitive failure."}, {"latin": "malitia", "rendered_as": "malice", "note": "Malitia is not mere error but active ill-will; the blindness is self-inflicted."}]
+    },
+    {
+      "verse": 22,
+      "text_latin": "Et nescierunt sacramenta Dei neque mercedem speraverunt iustitiae nec iudicaverunt honorem animarum sanctarum.",
+      "rendering": "They did not know the mysteries of God, nor did they hope for the reward of holiness, nor did they discern the honor due to blameless souls.",
+      "translator_notes": ["The word sacramenta (mysteries/sacraments) here refers to God's hidden purposes, especially regarding the destiny of the righteous after death. This usage influenced the later theological development of 'sacrament' as a visible sign of invisible grace."],
+      "key_terms": [{"latin": "sacramenta Dei", "rendered_as": "the mysteries of God", "note": "Sacramentum translates the Greek mysterion; God's plan for the righteous is hidden from those whose malice blinds them."}, {"latin": "mercedem iustitiae", "rendered_as": "the reward of holiness", "note": "The reward is not external payment but participation in God's own life; the next chapter will elaborate."}]
+    },
+    {
+      "verse": 23,
+      "text_latin": "Quoniam Deus creavit hominem inexterminabilem et ad imaginem suae similitudinis fecit illum.",
+      "rendering": "For God created the human being for incorruption, and made him in the image of his own likeness.",
+      "translator_notes": ["This verse links the creation narrative of Genesis 1:26-27 with the theology of immortality. The imago Dei is not merely a structural feature of humanity but the basis for eternal life."],
+      "key_terms": [{"latin": "inexterminabilem", "rendered_as": "for incorruption", "note": "Literally 'indestructible'; humanity's original design was for deathlessness, a claim that shapes the entire book's argument about the afterlife."}, {"latin": "imaginem suae similitudinis", "rendered_as": "the image of his own likeness", "note": "A direct echo of Genesis 1:26 (LXX); the double expression (image and likeness) emphasizes the depth of the correspondence between Creator and creature."}]
+    },
+    {
+      "verse": 24,
+      "text_latin": "Invidia autem diaboli mors introivit in orbem terrarum; imitantur autem illum qui sunt ex parte illius.",
+      "rendering": "But through the devil's envy, death entered the world, and those who belong to his company experience it.",
+      "translator_notes": ["This is one of the earliest explicit identifications of the serpent of Genesis 3 with the devil (diabolus). The verse became foundational for the Christian doctrine of the Fall and for the theology of original sin as developed by Augustine."],
+      "key_terms": [{"latin": "invidia diaboli", "rendered_as": "the devil's envy", "note": "The motivation attributed to the devil is envy (invidia), not rebellion or pride; he envied humanity's special relationship with God."}, {"latin": "mors introivit in orbem terrarum", "rendered_as": "death entered the world", "note": "Cf. Romans 5:12; Paul's formulation may depend directly on this verse."}]
+    }
+  ]
+}

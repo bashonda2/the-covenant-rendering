@@ -1,0 +1,292 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "2 Maccabees",
+    "chapter": 11,
+    "tradition": "vulgate",
+    "tradition_label": "Latin Vulgate (Deuterocanonical)",
+    "source_text": "Biblia Sacra Vulgata (Stuttgart critical edition)",
+    "translator": "Jerome",
+    "date": "c. 405 CE",
+    "canon": ["catholic", "orthodox", "ethiopian"],
+    "generated_at": "2026-04-20T00:00:00Z",
+    "prompt_version": "2.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "The regent Lysias marches against Judea with eighty thousand troops and the entire cavalry, intending to make Jerusalem a Greek city. Judas and his men pray, and a heavenly horseman in white garments with golden armor appears before them. Emboldened, they defeat Lysias's forces, killing eleven thousand infantry and sixteen hundred cavalry. Lysias, recognizing that the Jews are invincible because God fights for them, negotiates peace. The chapter preserves four diplomatic letters documenting the peace settlement — a unique archive of Seleucid-Jewish correspondence.",
+    "remarkable": "The four letters (vv. 16-38) are among the most valuable documentary evidence for Seleucid-Jewish relations in the second century BCE. They preserve the actual diplomatic language of the peace settlement, including Roman involvement as guarantors. The heavenly horseman in white (v. 8) — a single rider this time — adds another variation to the book's pattern of supernatural cavalry, creating a crescendo: one horseman plus two youths (ch 3), five horsemen (ch 10), now one white-clad rider.",
+    "friction": "The four letters present chronological difficulties that scholars have long debated. We render them as they appear in the text without attempting to rearrange. The Latin 'iudex' for Lysias's role (v. 1) simplifies his complex political position as regent-guardian.",
+    "connections": "Lysias's recognition of divine power (v. 13) echoes Heliodorus's testimony (3:38) and Nicanor's (8:36) — the pattern of pagan generals confessing God's power continues. The Roman letter (vv. 34-38) connects to the broader diplomatic history of 1 Maccabees 8 (the Roman alliance). The peace settlement, though temporary, establishes a precedent for Jewish religious autonomy within the Seleucid empire."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_latin": "Lysias autem procurator regis et propinquus ac negotiorum praepositus graviter ferens de his quae acciderant.",
+      "rendering": "Lysias, the guardian of the king and his kinsman and the one set over the affairs of state, was deeply disturbed by what had happened.",
+      "translator_notes": ["Lysias's three titles — guardian, kinsman, chief of state affairs — establish his supreme authority in the kingdom during Antiochus V's minority."],
+      "key_terms": [{"latin": "procurator regis", "rendered_as": "the guardian of the king", "note": "Lysias as regent for the young Antiochus V Eupator."}]
+    },
+    {
+      "verse": 2,
+      "text_latin": "Congregatis octoginta milibus et universo equitatu veniebat adversus Iudaeos existimans se civitate capta gentibus habitaculum facturum.",
+      "rendering": "He gathered eighty thousand troops and the entire cavalry and marched against the Jews, thinking he would capture the city and make it a dwelling place for Gentiles.",
+      "translator_notes": ["The largest force yet: 80,000 infantry plus all available cavalry. Lysias's plan is to colonize Jerusalem with Greek settlers — ethnic replacement."],
+      "key_terms": []
+    },
+    {
+      "verse": 3,
+      "text_latin": "Templum vero in pecuniae quaestum et per singulos annos vectigal habiturum sacerdotium autem nundinarum more venale secuturum.",
+      "rendering": "He planned to turn the Temple into a source of revenue, taxing it annually, and to put the priesthood up for sale like any marketplace concession.",
+      "translator_notes": ["Lysias's vision: the Temple as a revenue center, the priesthood auctioned annually. This is the complete commodification of sacred institutions."],
+      "key_terms": [{"latin": "nundinarum more", "rendered_as": "like any marketplace concession", "note": "The priesthood treated as commercial property to be sold at market — the ultimate desecration of the sacred office."}]
+    },
+    {
+      "verse": 4,
+      "text_latin": "Nusquam recogitans Dei potestatem sed mente inflatus in multitudine peditum et in milibus equitum et in octoginta elefantis confidebat.",
+      "rendering": "He gave no thought to the power of God, but was puffed up in his mind, trusting in the multitude of his infantry and the thousands of his cavalry and the eighty elephants.",
+      "translator_notes": ["The theological diagnosis: Lysias trusts in numbers (infantry, cavalry, war elephants) rather than recognizing divine power. The eighty elephants add a terrifying dimension to the force."],
+      "key_terms": [{"latin": "elefantis", "rendered_as": "elephants", "note": "War elephants — the ancient equivalent of tanks, deployed by Seleucid armies as heavy shock weapons."}]
+    },
+    {
+      "verse": 5,
+      "text_latin": "Veniens autem in Iudaeam et adpropians Bethsurae quae erat in angusto loco ab Hierosolyma intervallis quinque stadiorum castra posuit.",
+      "rendering": "Coming into Judea and approaching Beth-zur, which was in a narrow place about five stadia from Jerusalem, he set up camp.",
+      "translator_notes": ["Beth-zur, a fortified town about five stadia (roughly 1 km) from Jerusalem, controls the southern approach to the city."],
+      "key_terms": [{"latin": "Bethsurae", "rendered_as": "Beth-zur", "note": "A strategic fortress town controlling the southern approach to Jerusalem, often the site of major confrontations."}]
+    },
+    {
+      "verse": 6,
+      "text_latin": "Ut autem Macchabaeus et qui cum eo erant cognoverunt expugnari praesidia cum fletu et lacrimis rogabant Dominum et omnis turba simul ut bonum angelum mitteret ad salutem Israhel.",
+      "rendering": "When Maccabeus and those with him learned that the strongholds were being besieged, they begged the Lord with weeping and tears, and the whole multitude together, to send a good angel for the salvation of Israel.",
+      "translator_notes": ["The prayer specifically requests an angel — 'bonum angelum' (a good angel). The people know from experience (chapters 3, 10) that God sends heavenly warriors; now they ask for one directly."],
+      "key_terms": [{"latin": "bonum angelum", "rendered_as": "a good angel", "note": "An explicit prayer for angelic intervention — the community has learned to expect and request heavenly aid."}]
+    },
+    {
+      "verse": 7,
+      "text_latin": "Et ipse quidem primus Macchabaeus sumptis armis ceteros adhortatus est simul cum eo periculum subire et ferre auxilium fratribus eorum.",
+      "rendering": "Maccabeus himself was the first to take up arms, and he exhorted the others to undergo danger together with him and bring aid to their brothers.",
+      "translator_notes": ["Judas leads by example — the first to arm, the first to advance. His leadership is personal, not remote."],
+      "key_terms": []
+    },
+    {
+      "verse": 8,
+      "text_latin": "Cumque pariter prompto animo procederent Hierosolymis apparuit praecedens eos eques in veste candida armis aureis hastam vibrans.",
+      "rendering": "As they advanced together with eager spirit from Jerusalem, there appeared before them a horseman in white garments, with golden armor, brandishing a spear.",
+      "translator_notes": ["The heavenly horseman appears again — this time a single rider in white with golden armor and a spear. White garments plus gold armor: purity and divine authority. He leads them out of Jerusalem, not defending the Temple (as in ch 3) but leading the charge."],
+      "key_terms": [{"latin": "eques in veste candida", "rendered_as": "a horseman in white garments", "note": "A single angelic horseman in white — white signifying purity, victory, and heavenly origin."},
+        {"latin": "armis aureis", "rendered_as": "with golden armor", "note": "Golden armor as the consistent marker of heavenly warriors throughout 2 Maccabees."}]
+    },
+    {
+      "verse": 9,
+      "text_latin": "Tunc omnes simul benedixerunt misericordem Dominum et convaluerunt animis non solum homines sed et bestias ferocissimas et muros ferreos parati penetrare.",
+      "rendering": "Then they all together blessed the merciful Lord and took courage in their hearts, ready to penetrate not only human lines but the fiercest beasts and walls of iron.",
+      "translator_notes": ["The heavenly apparition fills them with superhuman courage — they feel ready to face beasts (war elephants) and iron walls (fortifications)."],
+      "key_terms": []
+    },
+    {
+      "verse": 10,
+      "text_latin": "Ibant igitur parati Domino propitio habentes de caelo socium et misericordem.",
+      "rendering": "So they advanced in readiness, with the Lord as their merciful ally from heaven.",
+      "translator_notes": ["The theological summary: God is their 'socium de caelo' (ally from heaven) — the heavenly horseman is the visible sign of the invisible alliance."],
+      "key_terms": []
+    },
+    {
+      "verse": 11,
+      "text_latin": "Leonumque more impetum facientes in hostes prostraverunt ex eis undecim milia peditum et equites mille sescentos universos in fugam converterunt.",
+      "rendering": "Hurling themselves upon the enemy like lions, they struck down eleven thousand infantry and sixteen hundred cavalry, and put all the rest to flight.",
+      "translator_notes": ["The battle results: 11,000 infantry and 1,600 cavalry killed. 'Leonum more' (like lions) — the animal imagery emphasizes ferocity in battle."],
+      "key_terms": []
+    },
+    {
+      "verse": 12,
+      "text_latin": "Plurimi vero ex eis vulnerati nudi evaserunt in quibus et ipse Lysias turpiter fugiens evasit.",
+      "rendering": "Most of them escaped wounded and stripped. Lysias himself also survived, fleeing in disgrace.",
+      "translator_notes": ["Lysias escapes — another Seleucid general fleeing in disgrace, like Nicanor before him."],
+      "key_terms": []
+    },
+    {
+      "verse": 13,
+      "text_latin": "Et quia non insensatus erat secum ipse reputans factam erga se diminutionem et intellegens invictos esse Hebraeos omnipotentis Dei auxilio.",
+      "rendering": "And because he was not without sense, reflecting within himself on the defeat he had suffered and understanding that the Hebrews were invincible since they were aided by the almighty God,",
+      "translator_notes": ["Lysias — unlike Antiochus — draws the correct conclusion from his defeat: the Jews are invincible because God fights for them. 'Non insensatus' (not without sense) is the narrator's grudging compliment."],
+      "key_terms": [{"latin": "invictos esse Hebraeos", "rendered_as": "the Hebrews were invincible", "note": "Another pagan general testifying to Jewish invincibility through divine aid."}]
+    },
+    {
+      "verse": 14,
+      "text_latin": "Misit ad eos promittens se consensurum omnibus quae iusta sunt et regem compulsurum amicum fieri.",
+      "rendering": "He sent to them, promising to agree to everything that was just, and that he would compel the king to become their friend.",
+      "translator_notes": ["Lysias sues for peace — promising justice and royal friendship. A diplomatic reversal from extermination to alliance."],
+      "key_terms": []
+    },
+    {
+      "verse": 15,
+      "text_latin": "Annuit autem Macchabaeus precibus Lysiae in omnibus utilitati consulens et quaecumque Macchabaeus scripsit Lysiae de Iudaeis rex concessit.",
+      "rendering": "Maccabeus consented to all the requests of Lysias, looking to the public good in all things. And whatever Maccabeus wrote to Lysias concerning the Jews, the king granted.",
+      "translator_notes": ["Judas accepts the peace offer — pragmatic statesmanship alongside military prowess. The king ratifies whatever Judas requests."],
+      "key_terms": []
+    },
+    {
+      "verse": 16,
+      "text_latin": "Nam erant scriptae Iudaeis a Lysia quidem epistulae in hunc modum continentes: Lysias populo Iudaeorum salutem.",
+      "rendering": "For there were letters written to the Jews by Lysias, containing the following: 'Lysias, to the people of the Jews, greetings.'",
+      "translator_notes": ["The first of four letters begins — actual diplomatic correspondence preserved within the narrative."],
+      "key_terms": []
+    },
+    {
+      "verse": 17,
+      "text_latin": "Iohannes et Abesalom qui missi fuerant a vobis tradentes scripta postulabant ut ea quae per illos significabantur implerem.",
+      "rendering": "'John and Absalom, who were sent by you, delivered the documents and asked that the requests communicated through them be fulfilled.'",
+      "translator_notes": ["Jewish envoys named John and Absalom have been negotiating with Lysias — evidence of a functioning Jewish diplomatic apparatus."],
+      "key_terms": []
+    },
+    {
+      "verse": 18,
+      "text_latin": "Quaecumque igitur regi potuerunt perferri exposui et quae res permittebat concessit.",
+      "rendering": "'Whatever could be referred to the king, I presented to him, and whatever the situation permitted, he granted.'",
+      "translator_notes": ["Lysias reports his mediation: he presented the Jewish requests to the king and obtained whatever concessions were possible."],
+      "key_terms": []
+    },
+    {
+      "verse": 19,
+      "text_latin": "Si igitur in negotiis fidem conservaveritis et deinceps quoque bonorum vobis causa esse temptabo.",
+      "rendering": "'If therefore you maintain your good faith in these matters, I will endeavor to be a source of benefit to you in the future as well.'",
+      "translator_notes": ["Lysias conditions future cooperation on Jewish good faith — a standard diplomatic formula."],
+      "key_terms": []
+    },
+    {
+      "verse": 20,
+      "text_latin": "De ceteris autem per singula verbo mandavi et istis et his qui a me missi sunt ut conloquantur vobiscum.",
+      "rendering": "'Concerning the details, I have given instructions both to these men and to those sent by me to confer with you.'",
+      "translator_notes": ["Details are delegated to envoys — the letter provides the framework; the specifics are handled in person."],
+      "key_terms": []
+    },
+    {
+      "verse": 21,
+      "text_latin": "Bene valete anno centesimo quadragesimo octavo Dioscori mensis vicesima et quarta die.",
+      "rendering": "'Farewell. The year one hundred and forty-eight, the twenty-fourth day of the month of Dioscorus.'",
+      "translator_notes": ["The date: year 148 of the Seleucid era (= 164 BCE), 24th of Dioscorus (a Macedonian month name)."],
+      "key_terms": []
+    },
+    {
+      "verse": 22,
+      "text_latin": "Regis autem epistula ista continebat: Rex Antiochus Lysiae fratri salutem.",
+      "rendering": "The king's letter contained the following: 'King Antiochus to his brother Lysias, greetings.'",
+      "translator_notes": ["The second letter: from young King Antiochus V to Lysias, his regent. 'Fratri' (brother) is a court title of honor, not literal kinship."],
+      "key_terms": []
+    },
+    {
+      "verse": 23,
+      "text_latin": "Patre nostro inter deos translato nos volentes eos qui sunt in regno nostro sine tumultu agere et rebus suis adhibere diligentiam.",
+      "rendering": "'Since our father has passed to the gods, we wish that those in our kingdom be undisturbed and able to attend to their own affairs.'",
+      "translator_notes": ["'Inter deos translato' (translated among the gods) — the standard Hellenistic formula for a king's death, claiming divine apotheosis. The contrast with 2 Maccabees' account of Antiochus IV's worm-eaten death is grimly ironic."],
+      "key_terms": [{"latin": "inter deos translato", "rendered_as": "passed to the gods", "note": "The Hellenistic deification formula for deceased kings — claiming that Antiochus IV became a god. The narrator preserves this pagan formula without comment, letting readers recall chapter 9."}]
+    },
+    {
+      "verse": 24,
+      "text_latin": "Audivimus Iudaeos non consensisse patri meo ut transferrentur ad ritum Graecorum sed tenere velle suum institutum ac propterea postulare sibi concedi legitima sua.",
+      "rendering": "'We have heard that the Jews did not consent to our father's policy of transferring them to Greek customs, but prefer to maintain their own way of life, and they request that they be allowed to keep their own laws.'",
+      "translator_notes": ["The new king acknowledges what the Maccabean resistance was about: the Jews wanted to keep their own laws and customs, not adopt Greek ones. This is a formal diplomatic concession of the Maccabean cause."],
+      "key_terms": [{"latin": "legitima sua", "rendered_as": "their own laws", "note": "The formal recognition of Jewish legal autonomy — the core demand of the Maccabean revolt."}]
+    },
+    {
+      "verse": 25,
+      "text_latin": "Volentes igitur hanc quoque gentem quietam esse statuimus templum restitui eis et ut agant secundum suorum maiorum consuetudines.",
+      "rendering": "'Wishing therefore that this nation also be at peace, we have decreed that the Temple be restored to them and that they may conduct themselves according to the customs of their ancestors.'",
+      "translator_notes": ["The formal decree: Temple restored, ancestral customs permitted. This is the official end of the Antiochan persecution in diplomatic terms."],
+      "key_terms": []
+    },
+    {
+      "verse": 26,
+      "text_latin": "Bene igitur feceris si miseris ad eos et dextram dederis ut cognita nostra voluntate bono animo sint et utiliter suis commodis deserviant.",
+      "rendering": "'You will do well, therefore, to send to them and give them a pledge, so that having learned our will, they may be of good cheer and attend contentedly to their own interests.'",
+      "translator_notes": ["The king instructs Lysias to formalize the peace with guarantees — a diplomatic handshake to seal the deal."],
+      "key_terms": []
+    },
+    {
+      "verse": 27,
+      "text_latin": "Ad Iudaeos autem regis epistula talis erat: Rex Antiochus senatui Iudaeorum et ceteris Iudaeis salutem.",
+      "rendering": "The king's letter to the Jews was as follows: 'King Antiochus to the senate of the Jews and to the other Jews, greetings.'",
+      "translator_notes": ["The third letter: from the king directly to the Jewish senate and people — formal recognition of Jewish communal self-governance."],
+      "key_terms": [{"latin": "senatui Iudaeorum", "rendered_as": "the senate of the Jews", "note": "The gerousia — the Jewish governing council, formally recognized by the Seleucid crown as a legitimate governing body."}]
+    },
+    {
+      "verse": 28,
+      "text_latin": "Si valetis est ut volumus bene; sed et nos ipsi bene valemus.",
+      "rendering": "'If you are well, it is as we wish; we ourselves are also well.'",
+      "translator_notes": ["Standard epistolary greeting — the conventions of Hellenistic correspondence carefully preserved."],
+      "key_terms": []
+    },
+    {
+      "verse": 29,
+      "text_latin": "Adiit nos Menelaus dicens velle vos descendere ad vestros qui sunt apud nos.",
+      "rendering": "'Menelaus came to us and said that you wish to come down to your own people who are with us.'",
+      "translator_notes": ["Menelaus, still functioning as intermediary despite his crimes, conveys the request."],
+      "key_terms": []
+    },
+    {
+      "verse": 30,
+      "text_latin": "His ergo qui commeant damus dextras securitatis usque diem tricesimum mensis Xanthici.",
+      "rendering": "'To those who travel, we grant a pledge of safety until the thirtieth day of the month of Xanthicus.'",
+      "translator_notes": ["A safe-conduct guarantee until the 30th of Xanthicus (approximately April) — a formal amnesty period."],
+      "key_terms": []
+    },
+    {
+      "verse": 31,
+      "text_latin": "Iudaeos uti cibis et legibus suis sicut et prius et nemo eorum ullo modo molestiam patiatur de his quae per ignorantiam gesta sunt.",
+      "rendering": "'The Jews shall use their own foods and their own laws as before, and none of them shall be troubled in any way for things done through ignorance.'",
+      "translator_notes": ["The key concession: Jews may observe their dietary laws and Torah. Past violations are amnestied as 'done through ignorance' — a face-saving formula for the Seleucid administration."],
+      "key_terms": [{"latin": "cibis et legibus suis", "rendered_as": "their own foods and their own laws", "note": "Dietary laws and Torah observance — the specific practices that the persecution had targeted are now formally restored."}]
+    },
+    {
+      "verse": 32,
+      "text_latin": "Misi autem et Menelaum qui vos adloquatur.",
+      "rendering": "'I have also sent Menelaus to speak with you.'",
+      "translator_notes": ["Menelaus is sent as the king's envoy — still in position despite everything. His continued role is one of the unresolved injustices of the settlement."],
+      "key_terms": []
+    },
+    {
+      "verse": 33,
+      "text_latin": "Valete anno centesimo quadragesimo octavo Xanthici mensis quintadecima die.",
+      "rendering": "'Farewell. The year one hundred and forty-eight, the fifteenth day of the month of Xanthicus.'",
+      "translator_notes": ["Dated fifteen days before the safe-conduct deadline — a narrow window for implementation."],
+      "key_terms": []
+    },
+    {
+      "verse": 34,
+      "text_latin": "Miserunt autem etiam Romani epistulam ita se habentem: Quintus Memmius et Titus Manilius legati Romanorum populo Iudaeorum salutem.",
+      "rendering": "The Romans also sent a letter, which read as follows: 'Quintus Memmius and Titus Manius, Roman legates, to the people of the Jews, greetings.'",
+      "translator_notes": ["The fourth letter: from Roman legates to the Jews. Roman involvement as guarantors of the peace settlement reflects the growing Roman role in eastern Mediterranean affairs."],
+      "key_terms": [{"latin": "legati Romanorum", "rendered_as": "Roman legates", "note": "Official Roman diplomatic envoys — their involvement gives the settlement international standing."}]
+    },
+    {
+      "verse": 35,
+      "text_latin": "Quae Lysias cognatus regis concessit et vobis concedimus.",
+      "rendering": "'The things that Lysias, the king's kinsman, has granted to you, we also approve.'",
+      "translator_notes": ["The Romans ratify the Seleucid concessions — adding Roman diplomatic authority to the Jewish settlement."],
+      "key_terms": []
+    },
+    {
+      "verse": 36,
+      "text_latin": "Quae autem ad regem iudicavit perferenda de his mittite aliquem confestim perscribentes quid velitis ut nos quoque apte pro vobis interpretemur ad regem enim Antiochiam proficiscimur.",
+      "rendering": "'As for the matters he judged should be referred to the king, send someone immediately after you have reviewed them, writing out what you wish, so that we too may present them appropriately on your behalf — for we are proceeding to Antioch.'",
+      "translator_notes": ["The Romans offer to advocate for the Jews at the Seleucid court — a remarkable offer of diplomatic mediation by the emerging Mediterranean superpower."],
+      "key_terms": []
+    },
+    {
+      "verse": 37,
+      "text_latin": "Ideoque festinate et rescribite ut et nos sciamus cuius estis voluntatis.",
+      "rendering": "'Therefore hurry and write back so that we too may know your wishes.'",
+      "translator_notes": ["Urgency: the Roman legates are departing and need Jewish input before they reach Antioch."],
+      "key_terms": []
+    },
+    {
+      "verse": 38,
+      "text_latin": "Bene valete anno centesimo quadragesimo octavo quintadecima die mensis Xanthici.",
+      "rendering": "'Farewell. The year one hundred and forty-eight, the fifteenth day of the month of Xanthicus.'",
+      "translator_notes": ["The same date as the king's letter (v. 33) — the Roman and Seleucid letters were coordinated."],
+      "key_terms": []
+    }
+  ]
+}

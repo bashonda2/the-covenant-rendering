@@ -1,0 +1,263 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Sirach",
+    "chapter": 23,
+    "tradition": "vulgate",
+    "tradition_label": "Latin Vulgate (Deuterocanonical)",
+    "source_text": "Biblia Sacra Vulgata (Stuttgart critical edition)",
+    "translator": "Jerome",
+    "date": "c. 405 CE",
+    "canon": ["catholic", "orthodox", "ethiopian"],
+    "generated_at": "2026-04-20T00:00:00Z",
+    "prompt_version": "2.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Chapter 23 opens with one of the most celebrated prayers in the deuterocanonical tradition: 'O Lord, Father and Master of my life.' The speaker begs for deliverance from sins of the tongue, from arrogance of the eyes, and from disordered desire. The chapter then addresses oaths and profanity, warning against casual swearing. The final section is devoted to sexual sin, with a particularly detailed treatment of the adulteress and her inevitable exposure before the assembly.",
+    "remarkable": "The opening prayer (vv. 1-6) is theologically remarkable for its address to God as both 'Father' and 'Master of my life' -- a level of personal intimacy combined with recognition of divine authority that is rare in pre-Christian Jewish literature. The prayer's request not to be 'given over to a shameless mind' (v. 5) anticipates the Lord's Prayer petition 'lead us not into temptation.' The adulteress passage (vv. 22-31) is one of the most psychologically developed narrative vignettes in wisdom literature.",
+    "friction": "The treatment of the adulteress (vv. 22-31) applies exclusively to women, raising questions about the author's assumptions regarding male culpability. The punishment described -- public exposure before the congregation and dishonoring of her children -- reflects the patriarchal honor-shame culture of Second Temple Judaism. The passage on oaths may reflect specific debates about oath-taking in Ben Sira's milieu.",
+    "connections": "Matthew 6:9-13 (the Lord's Prayer, esp. 'lead us not into temptation'); Matthew 5:33-37 (Jesus on oaths); Numbers 30 (laws concerning vows); Proverbs 5-7 (the adulterous woman); John 8:1-11 (the woman caught in adultery)."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_latin": "Domine pater et dominator vitae meae ne derelinquas me in cogitatu illorum ne sinas me cadere in illis.",
+      "rendering": "O Lord, Father and Master of my life, do not abandon me to their designs; do not let me fall because of them.",
+      "translator_notes": ["The famous opening prayer. Addressing God as 'Father' expresses covenant intimacy; 'Master of my life' acknowledges total dependence."],
+      "key_terms": [{"latin": "pater et dominator vitae meae", "rendered_as": "Father and Master of my life", "note": "This double address is unique in the Hebrew Bible and deuterocanon -- combining familial tenderness (pater) with sovereign authority (dominator). It profoundly influenced later Christian prayer."}]
+    },
+    {
+      "verse": 2,
+      "text_latin": "Quis superponet in cogitatu meo flagella et in corde meo doctrinam sapientiae ut ignorationibus eorum non parcant mihi et non appareant delicta illorum.",
+      "rendering": "Who will set whips over my thoughts and the discipline of wisdom over my heart, so that they may not spare me from my errors, and their faults may not go unchecked?",
+      "translator_notes": ["The speaker asks for internal discipline -- not external punishment but an interior corrective that catches sinful thoughts before they become sinful actions."],
+      "key_terms": []
+    },
+    {
+      "verse": 3,
+      "text_latin": "Ne adcrescant ignorantiae meae et multiplicentur delicta mea et peccata mea abundent et incidam in conspectu adversariorum meorum et gaudeat inimicus meus.",
+      "rendering": "Lest my acts of ignorance increase and my faults multiply, and my sins abound, and I fall before my adversaries, and my enemy rejoice over me.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 4,
+      "text_latin": "Domine pater et Deus vitae meae aspectum superbiae ne dederis mihi.",
+      "rendering": "O Lord, Father and God of my life, do not give me haughty eyes.",
+      "translator_notes": ["The prayer moves from general protection to specific petition: guard my eyes from arrogance."],
+      "key_terms": [{"latin": "aspectum superbiae", "rendered_as": "haughty eyes", "note": "The 'look of pride' -- the arrogant gaze that assesses others as inferior. Eyes are the first instrument of sin in the biblical tradition (Genesis 3:6, 2 Samuel 11:2)."}]
+    },
+    {
+      "verse": 5,
+      "text_latin": "Et concupiscentiam averte a me.",
+      "rendering": "And turn desire away from me.",
+      "translator_notes": [],
+      "key_terms": [{"latin": "concupiscentiam", "rendered_as": "desire", "note": "Disordered desire, not desire itself -- the prayer is for freedom from craving that overrides judgment."}]
+    },
+    {
+      "verse": 6,
+      "text_latin": "Ventris et coitus desideria ne apprehendant me et animae inprudenti et inverecundae ne tradas me.",
+      "rendering": "Let not the desires of the belly and of sexual union seize me, and do not hand me over to a shameless and reckless soul.",
+      "translator_notes": ["Appetite and lust are named as the twin dangers; being 'handed over' to them implies that self-control is ultimately a gift of God, not merely a human achievement."],
+      "key_terms": []
+    },
+    {
+      "verse": 7,
+      "text_latin": "Doctrinam oris audite filii et qui custodierit illam non capietur labiis suis in operibus nequissimis conprehendetur peccator et superbus et maledicus scandalizabitur in illis.",
+      "rendering": "Hear the instruction of the mouth, my children, and whoever guards it will not be caught by his lips. The sinner will be trapped in his wicked works, and the proud and the slanderer will stumble because of them.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 8,
+      "text_latin": "Iurationi non adsuefacias os tuum multi enim casus in illa.",
+      "rendering": "Do not accustom your mouth to oaths, for there are many pitfalls in them.",
+      "translator_notes": ["The transition to oaths: habitual swearing cheapens the sacred and creates constant risk of perjury."],
+      "key_terms": [{"latin": "iurationi", "rendered_as": "oaths", "note": "The Latin iuratio covers both formal legal oaths and casual invocations of God's name -- Ben Sira warns against both."}]
+    },
+    {
+      "verse": 9,
+      "text_latin": "Nominatio vero Dei non sit adsidua in ore tuo et nominibus sanctorum non admiscearis quoniam non eris immunis ab eis.",
+      "rendering": "The naming of God must not be habitual in your mouth, and do not mix yourself up with the names of holy things, for you will not be held innocent of such things.",
+      "translator_notes": ["A practical extension of the third commandment: casual use of God's name, even without perjury, incurs guilt."],
+      "key_terms": []
+    },
+    {
+      "verse": 10,
+      "text_latin": "Sicut enim servus interrogatus adsidue a livore non minuetur sic omnis iurans et nominans in toto a peccato non purgabitur.",
+      "rendering": "For just as a slave who is constantly questioned will never be free from bruises, so whoever swears and names the Holy Name continually will not be cleansed from sin.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 11,
+      "text_latin": "Vir multum iurans implebitur iniquitate et non discedet a domo illius plaga.",
+      "rendering": "A man who swears much will be filled with iniquity, and the scourge will not depart from his house.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 12,
+      "text_latin": "Et si frustraverit delictum ipsius super ipsum erit et si dissimulaverit delinquet dupliciter.",
+      "rendering": "And if he swears falsely, his offense is upon him; and if he disregards it, he sins doubly.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 13,
+      "text_latin": "Et si in vacuum iuraverit non iustificabitur replebitur enim retributione domus illius.",
+      "rendering": "And if he swears in vain, he will not be justified, for his house will be filled with calamity.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 14,
+      "text_latin": "Est sermo obductus morti non inveniatur in hereditate Iacob etenim a misericordibus omnia haec auferentur et in delictis non volutabuntur.",
+      "rendering": "There is a manner of speech that is clothed with death; let it not be found in the inheritance of Jacob. For all these things will be far from the merciful, and they will not wallow in sins.",
+      "translator_notes": [],
+      "key_terms": [{"latin": "in hereditate Iacob", "rendered_as": "in the inheritance of Jacob", "note": "Israel as the covenant community is expected to maintain a higher standard of speech than the surrounding nations."}]
+    },
+    {
+      "verse": 15,
+      "text_latin": "Indisciplinatae loquellae non adsuescat os tuum est enim in illa verbum peccati.",
+      "rendering": "Do not accustom your mouth to undisciplined speech, for in it lies the word of sin.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 16,
+      "text_latin": "Memento patris et matris tuae in medio enim magnatorum consistis.",
+      "rendering": "Remember your father and your mother, for you stand in the midst of the great.",
+      "translator_notes": ["The honor of one's parents is at stake in one's public conduct -- careless behavior before the powerful brings shame on the whole family."],
+      "key_terms": []
+    },
+    {
+      "verse": 17,
+      "text_latin": "Ne forte obliviscatur te Deus in conspectu illorum et adsiduitate tua infatuatus inproperium patiaris et maluisses non nasci et diem nativitatis tuae maledicas.",
+      "rendering": "Lest God forget you in their sight, and maddened by your habits, you suffer reproach and wish you had not been born, and curse the day of your birth.",
+      "translator_notes": ["The extreme consequence: habitual sin leads to such disgrace that one curses one's own existence -- echoing Job 3:1."],
+      "key_terms": []
+    },
+    {
+      "verse": 18,
+      "text_latin": "Homo adsuetus in verbis inproperii in omnibus diebus suis non erudietur.",
+      "rendering": "A person accustomed to abusive speech will never be educated all the days of his life.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 19,
+      "text_latin": "Duo genera abundant in peccatis et tertium adducit iram et perditionem.",
+      "rendering": "Two kinds of people multiply sins, and a third brings wrath and destruction.",
+      "translator_notes": ["A numerical proverb (x, x+1) introducing three types of sexual sinners."],
+      "key_terms": []
+    },
+    {
+      "verse": 20,
+      "text_latin": "Anima calida quasi ignis ardens non extinguetur donec aliquid glutiat et homo nequam in carne corporis sui non desinet donec incendat ignem.",
+      "rendering": "A burning desire, like a blazing fire, will not be quenched until it devours something; and a person wicked in the flesh of his body will not cease until he kindles a fire.",
+      "translator_notes": [],
+      "key_terms": [{"latin": "anima calida", "rendered_as": "burning desire", "note": "Literally 'hot soul' -- uncontrolled sexual passion is compared to a fire that must consume fuel, an image of compulsive destruction."}]
+    },
+    {
+      "verse": 21,
+      "text_latin": "Homini fornicario omnis panis dulcis non fatigabitur transgrediens usque ad finem.",
+      "rendering": "To a man given to fornication, every bread is sweet; he will not grow tired of transgressing until his end.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 22,
+      "text_latin": "Omnis homo qui transgreditur lectum suum contemnens in animam suam et dicens quis me videt.",
+      "rendering": "Every man who transgresses against his marriage bed, despising his own soul, says, 'Who can see me?'",
+      "translator_notes": ["The adulterer's self-deception: he imagines privacy where God sees all."],
+      "key_terms": []
+    },
+    {
+      "verse": 23,
+      "text_latin": "Tenebrae circumdant me et parietes cooperiunt me et nemo circumspicit me quem vereor delicta mea non memorabitur Altissimus.",
+      "rendering": "'Darkness surrounds me and the walls cover me, and no one watches me. Whom should I fear? The Most High will not remember my sins.'",
+      "translator_notes": ["The inner monologue of the sinner, reconstructed with devastating precision: he counts on darkness, walls, and divine inattention."],
+      "key_terms": []
+    },
+    {
+      "verse": 24,
+      "text_latin": "Et non cognovit quoniam omnia videt oculus illius quoniam expellit a se timorem Dei huiusmodi hominis timor et oculi hominum timentes illum.",
+      "rendering": "And he does not understand that the eye of God sees all things; for such a man drives out the fear of God, fearing only the eyes of men.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 25,
+      "text_latin": "Et non cognovit quoniam oculi Domini multo plus lucidiores super solem circumspicientes omnes vias hominum et profundum abyssi et hominum corda intuentes in absconditas partes.",
+      "rendering": "And he does not know that the eyes of the Lord are far brighter than the sun, surveying all the ways of men and gazing into hidden places, even the depths of the abyss and the hearts of men.",
+      "translator_notes": ["God's vision surpasses all light -- the sun illuminates surfaces, but God's gaze penetrates into the abyss and the human heart."],
+      "key_terms": [{"latin": "multo plus lucidiores super solem", "rendered_as": "far brighter than the sun", "note": "A superlative image of divine omniscience: God's sight exceeds the brightest light in creation."}]
+    },
+    {
+      "verse": 26,
+      "text_latin": "Domino enim Deo antequam crearentur omnia sunt agnita sic et post perfectum respicit omnia.",
+      "rendering": "For all things were known to the Lord God before they were created; so also after their completion he surveys them all.",
+      "translator_notes": ["Divine omniscience extends in both temporal directions -- God knew all things before creation and continues to observe all things after."],
+      "key_terms": []
+    },
+    {
+      "verse": 27,
+      "text_latin": "Hic in plateis civitatis vindicabitur et quasi pullus equinus fugabitur et ubi non speravit adprehendetur.",
+      "rendering": "This man will be punished in the streets of the city; like a young horse he will be driven out, and where he does not expect it, he will be seized.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 28,
+      "text_latin": "Et erit dedecus omnibus eo quod non intellexerit timorem Domini.",
+      "rendering": "And he will be a disgrace to all, because he did not understand the fear of the Lord.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 29,
+      "text_latin": "Sic et mulier omnis relinquens virum suum et statuens hereditatem ex alieno matrimonio.",
+      "rendering": "So also every woman who leaves her husband and produces an heir from another marriage.",
+      "translator_notes": ["The adulteress is now treated as a parallel case to the adulterous man of vv. 22-28."],
+      "key_terms": []
+    },
+    {
+      "verse": 30,
+      "text_latin": "Primo enim in lege Altissimi incredibilis fuit et secundo in virum suum deliquit et tertio in fornicatione adulteravit et ex alio viro filios statuit.",
+      "rendering": "First, she has been unfaithful to the law of the Most High; second, she has sinned against her husband; and third, she has committed adultery through fornication and produced children by another man.",
+      "translator_notes": ["A three-fold indictment: against God's law, against covenant fidelity, and against the integrity of the family line."],
+      "key_terms": []
+    },
+    {
+      "verse": 31,
+      "text_latin": "Haec in ecclesiam adducetur et in filios eius respicietur.",
+      "rendering": "She will be brought before the assembly, and inquiry will be made into her children.",
+      "translator_notes": [],
+      "key_terms": [{"latin": "in ecclesiam", "rendered_as": "before the assembly", "note": "Public judicial proceeding -- the community as a whole adjudicates the breach of covenant fidelity."}]
+    },
+    {
+      "verse": 32,
+      "text_latin": "Non tradent filii eius radices et rami eius non dabunt fructum.",
+      "rendering": "Her children will not take root, and her branches will bear no fruit.",
+      "translator_notes": ["The botanical metaphor: the adulteress's line will be barren, cut off from the fruitful community."],
+      "key_terms": []
+    },
+    {
+      "verse": 33,
+      "text_latin": "Derelinquet in maledictum memoriam eius et dedecus illius non delebitur.",
+      "rendering": "She will leave her memory as a curse, and her disgrace will not be blotted out.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 34,
+      "text_latin": "Et cognoscent qui derelicti sunt quoniam nihil melius est quam timor Dei et nihil dulcius quam respicere in mandatis Domini.",
+      "rendering": "And those who are left will know that there is nothing better than the fear of God, and nothing sweeter than to attend to the commandments of the Lord.",
+      "translator_notes": ["The chapter's conclusion returns to the refrain of the entire book: the fear of God is both the highest good and the deepest pleasure."],
+      "key_terms": [{"latin": "timor Dei", "rendered_as": "fear of God", "note": "The chapter began with a prayer asking God for protection from sin; it ends by affirming that such protection is found in the fear of God -- the circle closes."}]
+    }
+  ]
+}

@@ -1,0 +1,312 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "2 Maccabees",
+    "chapter": 3,
+    "tradition": "vulgate",
+    "tradition_label": "Latin Vulgate (Deuterocanonical)",
+    "source_text": "Biblia Sacra Vulgata (Stuttgart critical edition)",
+    "translator": "Jerome",
+    "date": "c. 405 CE",
+    "canon": ["catholic", "orthodox", "ethiopian"],
+    "generated_at": "2026-04-20T00:00:00Z",
+    "prompt_version": "2.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "The narrative proper begins with a golden age under the high priest Onias III, when even foreign kings honored the Temple. This peace is shattered when Simon, an administrator of the Temple, quarrels with Onias and informs the Seleucid court of vast Temple treasures. King Seleucus sends his chancellor Heliodorus to seize the funds. When Heliodorus enters the treasury, a supernatural horseman in golden armor and two radiant young men appear and beat him nearly to death. Onias offers sacrifice for his recovery, and Heliodorus departs a changed man, testifying to God's power.",
+    "remarkable": "This is one of the most vivid supernatural intervention narratives in all biblical literature. The description of the angelic horseman — golden armor, terrifying horse, two young men of surpassing beauty — became a foundational template for Christian art and hagiography. The scene was painted by Raphael (in the Vatican Stanze), Delacroix, and dozens of others. Theologically, the chapter establishes that God actively defends his Temple against sacrilege — a theme that will be severely tested when the Temple falls to Antiochus in the very next chapters.",
+    "friction": "The Latin 'spiritus' for the breath/life leaving Heliodorus (v. 31) carries more theological weight than the Greek pneuma in this context. We render carefully to avoid importing later Christian pneumatology. The term 'ephebos' (young men) becomes 'iuvenes' in Latin, losing some of the specific Greek cultural connotation of athletic youth.",
+    "connections": "The angelic defenders of the Temple connect forward to 2 Maccabees 10:29-30 and 11:8 (heavenly horsemen in battle) and backward to 2 Kings 6:17 (Elisha's fiery chariots). The theme of God defending holy space against profanation echoes 1 Samuel 5 (the Ark among the Philistines) and Daniel 5 (the writing on the wall at Belshazzar's feast)."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_latin": "Igitur cum sancta civitas habitaretur in omni pace leges etiam adhuc optime custodirentur propter Oniae pontificis pietatem et animos odio habentes mala.",
+      "rendering": "When the holy city was inhabited in complete peace and the laws were still being observed most excellently, because of the piety of Onias the high priest and the people's hatred of evil,",
+      "translator_notes": ["The opening establishes an ideal state: peace, law-keeping, a pious high priest, and moral integrity. This golden age will be systematically dismantled in the chapters that follow."],
+      "key_terms": [{"latin": "pontificis", "rendered_as": "the high priest", "note": "Pontifex — literally 'bridge-maker'; the Roman religious title Jerome uses for the Jewish high priest (kohen gadol)."},
+        {"latin": "pietatem", "rendered_as": "piety", "note": "Pietas — devotion to duty, both toward God and toward one's people. A Roman virtue term applied to the Jewish high priest."}]
+    },
+    {
+      "verse": 2,
+      "text_latin": "Fiebat ut et ipsi reges et principes locum summo honore dignum ducerent et templum maximis muneribus inlustrarent.",
+      "rendering": "It came about that even the kings and princes themselves considered the place worthy of the highest honor and adorned the Temple with the most magnificent gifts.",
+      "translator_notes": ["Foreign kings honoring the Jerusalem Temple — a remarkable claim that underscores the Temple's international reputation during this brief period of peace."],
+      "key_terms": [{"latin": "maximis muneribus", "rendered_as": "the most magnificent gifts", "note": "Royal patronage of the Temple by Seleucid kings, reflecting the political practice of funding local shrines."}]
+    },
+    {
+      "verse": 3,
+      "text_latin": "Ita ut Seleucus Asiae rex de reditibus suis praestaret omnes sumptus ad ministerium sacrificiorum pertinentes.",
+      "rendering": "So that Seleucus, king of Asia, paid from his own revenues all the expenses pertaining to the ministry of the sacrifices.",
+      "translator_notes": ["Seleucus IV Philopator (187-175 BCE) funded the Temple sacrifices from royal revenue — a detail that makes the later attempted robbery all the more outrageous: the same dynasty that funded the Temple then tried to loot it."],
+      "key_terms": [{"latin": "ministerium sacrificiorum", "rendered_as": "the ministry of the sacrifices", "note": "The regular cycle of Temple sacrifices, maintained at royal expense."}]
+    },
+    {
+      "verse": 4,
+      "text_latin": "Simon autem de tribu Beniamin praepositus templi constitutus contendebat obsistente sibi pontifice iniquum aliquid in civitate moliri.",
+      "rendering": "But Simon, of the tribe of Benjamin, who had been appointed administrator of the Temple, had a dispute with the high priest about attempting some wrongdoing in the city.",
+      "translator_notes": ["Simon is the catalyst of all the trouble that follows. His tribe (Benjamin) and his role (praepositus templi — Temple administrator) are specified. His quarrel with Onias is the crack in the golden age."],
+      "key_terms": [{"latin": "praepositus templi", "rendered_as": "administrator of the Temple", "note": "A supervisory office over Temple affairs, distinct from the priestly hierarchy."}]
+    },
+    {
+      "verse": 5,
+      "text_latin": "Sed cum vincere Oniam non posset venit ad Apollonium Tharsaeae filium qui eo tempore erat dux Coelesyriae et Foenicis.",
+      "rendering": "But when he could not prevail against Onias, he went to Apollonius son of Tharseas, who at that time was governor of Coele-Syria and Phoenicia.",
+      "translator_notes": ["Unable to defeat Onias locally, Simon escalates to the Seleucid provincial governor — a fateful political maneuver that will bring foreign power crashing into the Temple."],
+      "key_terms": [{"latin": "Coelesyriae et Foenicis", "rendered_as": "Coele-Syria and Phoenicia", "note": "The Seleucid administrative province covering the region including Judea."}]
+    },
+    {
+      "verse": 6,
+      "text_latin": "Et nuntiavit ei pecuniis innumerabilibus plenum esse aerarium Hierosolymis et communes copias inmensas esse quae non pertinent ad rationem sacrificiorum esse autem possibile sub potestate regis cadere universa.",
+      "rendering": "And he reported to him that the treasury in Jerusalem was full of countless sums of money, and that the common funds were immense — funds that did not pertain to the account of the sacrifices — and that it was possible for all of it to fall under the king's authority.",
+      "translator_notes": ["Simon's report is both accurate (the Temple treasury was substantial) and tendentious (he implies the funds are available for royal seizure). The distinction between sacrificial funds and other deposits becomes crucial."],
+      "key_terms": [{"latin": "aerarium", "rendered_as": "the treasury", "note": "The Temple treasury, which functioned as a bank holding both sacred funds and private deposits."}]
+    },
+    {
+      "verse": 7,
+      "text_latin": "Cumque rettulisset ad regem Apollonius de pecuniis quae delatae erant ille accitum Heliodorum qui erat super negotia eius misit cum mandatis ut praedictam pecuniam transportaret.",
+      "rendering": "When Apollonius reported to the king about the money that had been described, the king summoned Heliodorus, who was in charge of his affairs, and sent him with orders to carry off the aforementioned money.",
+      "translator_notes": ["The chain of betrayal is complete: Simon to Apollonius to the king to Heliodorus. Each link adds institutional authority to what began as a personal grudge."],
+      "key_terms": [{"latin": "Heliodorum", "rendered_as": "Heliodorus", "note": "The royal chancellor (epi ton pragmaton), the second most powerful figure in the Seleucid empire. A historical figure attested in inscriptions."}]
+    },
+    {
+      "verse": 8,
+      "text_latin": "Statim autem Heliodorus iter est adgressus specie quidem quasi per Coelesyriam et Foenicen civitates esset peragraturus re vera autem regis propositum perfecturus.",
+      "rendering": "Heliodorus immediately set out on his journey, ostensibly to visit the cities of Coele-Syria and Phoenicia, but in reality to carry out the king's purpose.",
+      "translator_notes": ["The diplomatic cover story — a routine provincial tour — conceals the real mission: Temple robbery. The narrator exposes the deception immediately."],
+      "key_terms": []
+    },
+    {
+      "verse": 9,
+      "text_latin": "Sed cum venisset Hierosolymam et benigne a summo sacerdote in civitate esset exceptus narravit de dato indicio pecuniarum et cuius rei gratia adesset proposuit interrogavit autem si vere haec ita essent.",
+      "rendering": "But when he had come to Jerusalem and had been received kindly by the high priest in the city, he disclosed the information that had been given about the money and revealed the reason for his presence, and he asked whether these things were really so.",
+      "translator_notes": ["Heliodorus is received with hospitality — Onias has nothing to hide. The open disclosure and polite inquiry create a veneer of legality over what is essentially armed robbery."],
+      "key_terms": []
+    },
+    {
+      "verse": 10,
+      "text_latin": "Tunc summus sacerdos ostendit deposita esse haec et victualia viduarum et pupillorum.",
+      "rendering": "Then the high priest explained that these were deposits belonging to widows and orphans,",
+      "translator_notes": ["Onias reveals the true nature of the funds: they are entrusted deposits of the most vulnerable members of society — widows and orphans. To seize them would violate both divine law and basic human decency."],
+      "key_terms": [{"latin": "viduarum et pupillorum", "rendered_as": "widows and orphans", "note": "The classic biblical pair representing the vulnerable members of society under divine protection (Deuteronomy 10:18, Psalm 146:9)."}]
+    },
+    {
+      "verse": 11,
+      "text_latin": "Quaedam vero esse Hircani Tobiae viri valde eminentis in his quae detulerat impius Simon quae omnia argenti talenta essent quadringenta et auri ducenta.",
+      "rendering": "And that some of the money belonged to Hyrcanus son of Tobias, a very prominent man — contrary to what the impious Simon had reported — and that the total was four hundred talents of silver and two hundred of gold.",
+      "translator_notes": ["The sums are substantial but specific: 400 talents of silver and 200 of gold. These are private deposits, not Temple funds. Hyrcanus of the Tobiad family was a major political figure."],
+      "key_terms": [{"latin": "talenta", "rendered_as": "talents", "note": "A talent was approximately 26-36 kg of metal — the total represents an enormous fortune held in trust."}]
+    },
+    {
+      "verse": 12,
+      "text_latin": "Decipi vero eos qui credidissent loco et templo quod per universum mundum honoratur pro sui veneratione et sanctitate omnino inpossibile esse.",
+      "rendering": "But to defraud those who had entrusted their deposits to a place and a Temple that is honored throughout the whole world for its sanctity and reverence was utterly impossible.",
+      "translator_notes": ["Onias's argument is both moral and pragmatic: the Temple's function as an international trust depends on its reputation for inviolability. To rob it would destroy an institution that serves people worldwide."],
+      "key_terms": [{"latin": "per universum mundum", "rendered_as": "throughout the whole world", "note": "A claim for the Temple's universal reputation — not only Jews but people of many nations deposited funds there."}]
+    },
+    {
+      "verse": 13,
+      "text_latin": "At ille pro his quae habebat in mandatis a rege dicebat omni genere regi ea esse deferenda.",
+      "rendering": "But Heliodorus, because of the orders he had from the king, said that in any case these funds must be confiscated for the king.",
+      "translator_notes": ["Heliodorus has no room for negotiation — his orders are absolute. The conflict between royal authority and divine sanctuary is now irreconcilable."],
+      "key_terms": []
+    },
+    {
+      "verse": 14,
+      "text_latin": "Constituta autem die intrabat de his Heliodorus ordinaturus non modica vero per universam civitatem erat trepidatio.",
+      "rendering": "On the appointed day, Heliodorus entered to make an inventory of these funds. There was no small disturbance throughout the entire city.",
+      "translator_notes": ["The understatement 'non modica trepidatio' (no small disturbance) — litotes for civic panic. The entire city is in turmoil."],
+      "key_terms": []
+    },
+    {
+      "verse": 15,
+      "text_latin": "Sacerdotes autem ante altare cum stolis sacerdotalibus prostraverunt se et invocabant de caelo eum qui de depositis legem posuit ut his qui deposuerant ea salva custodiret.",
+      "rendering": "The priests, in their priestly vestments, prostrated themselves before the altar and called upon him in heaven who had established the law concerning deposits, that he would keep them safe for those who had deposited them.",
+      "translator_notes": ["The priests appeal to God as the ultimate guarantor of the deposit law. Their prostration in full vestments creates a powerful liturgical tableau of intercession."],
+      "key_terms": [{"latin": "stolis sacerdotalibus", "rendered_as": "their priestly vestments", "note": "The formal liturgical garments worn for solemn priestly functions."},
+        {"latin": "de depositis legem", "rendered_as": "the law concerning deposits", "note": "The legal tradition protecting entrusted property (cf. Exodus 22:7-13)."}]
+    },
+    {
+      "verse": 16,
+      "text_latin": "Iam vero qui aspiciebat summi sacerdotis vultum mente vulnerabatur facies enim et color inmutatus declarabat internum animi dolorem.",
+      "rendering": "Anyone who looked at the face of the high priest was wounded in spirit, for his countenance and his changed color revealed the inner anguish of his soul.",
+      "translator_notes": ["The narrator focuses on Onias's visible distress — a literary technique that makes the theological crisis visible in a human face. His anguish is both pastoral (for the depositors) and theological (for the Temple's sanctity)."],
+      "key_terms": [{"latin": "internum animi dolorem", "rendered_as": "the inner anguish of his soul", "note": "A psychological description rare in ancient literature — the inner state made visible through physical appearance."}]
+    },
+    {
+      "verse": 17,
+      "text_latin": "Circumfusa enim erat quaedam circa virum tristitia per quam manifestus aspicientibus corporis dolor fiebat.",
+      "rendering": "For a certain sadness was spread over the man, by which the pain of his body became evident to all who looked upon him.",
+      "translator_notes": ["The physical manifestation of spiritual grief — Onias is visibly suffering. This sympathetic portrait of the righteous high priest contrasts sharply with the corrupt priests who follow him."],
+      "key_terms": []
+    },
+    {
+      "verse": 18,
+      "text_latin": "Alii autem gregatim de domibus confluebant publica supplicatione obsecrantes pro eo quod in contemptum locus esset venturus.",
+      "rendering": "Others came streaming from their houses in crowds to make public supplication because the place was about to be brought into contempt.",
+      "translator_notes": ["The entire population joins in public prayer — men and women, a citywide liturgical response to sacrilege."],
+      "key_terms": [{"latin": "publica supplicatione", "rendered_as": "public supplication", "note": "A formal, communal prayer of entreaty — a recognized form of civic religious response to crisis."}]
+    },
+    {
+      "verse": 19,
+      "text_latin": "Sed et mulieres accintae ciliciis pectus per plateas confluebant sed et virgines quae conclusae erant procurrebant ad Oniam aliae autem ad muros quaedam vero per fenestras aspiciebant.",
+      "rendering": "Women, girded with sackcloth under their breasts, filled the streets. And the young women who were kept in seclusion ran to Onias; others ran to the walls, and some peered out through the windows.",
+      "translator_notes": ["The detail of secluded women breaking protocol to join the crisis prayer underscores the extraordinary nature of the threat. Even the strictest social conventions yield to the urgency of defending the Temple."],
+      "key_terms": [{"latin": "ciliciis", "rendered_as": "sackcloth", "note": "Cilicium — rough garment of goat hair worn as a sign of mourning and penitence."}]
+    },
+    {
+      "verse": 20,
+      "text_latin": "Universae autem protendentes manus in caelum deprecabantur.",
+      "rendering": "And all of them, stretching out their hands toward heaven, made their entreaty.",
+      "translator_notes": ["The posture of prayer — hands extended toward heaven — is the standard ancient gesture of supplication."],
+      "key_terms": []
+    },
+    {
+      "verse": 21,
+      "text_latin": "Erat enim misera commixtae multitudinis et magni sacerdotis in agone constituti expectatio.",
+      "rendering": "For the expectation was pitiable — both of the mixed multitude and of the high priest caught in his agony.",
+      "translator_notes": ["'In agone constituti' (set in agony/struggle) applies the athletic/combat term agon to Onias's spiritual battle. This same term will be applied to the martyrs later in the book."],
+      "key_terms": [{"latin": "agone", "rendered_as": "agony", "note": "From Greek agon — a contest, struggle, or trial. Used here for Onias's spiritual combat, foreshadowing the martyrdom accounts."}]
+    },
+    {
+      "verse": 22,
+      "text_latin": "Et hi quidem invocabant omnipotentem Deum ut credita sibi his qui crediderant cum omni integritate conservarentur.",
+      "rendering": "They called upon almighty God to keep the deposits safe with complete integrity for those who had entrusted them.",
+      "translator_notes": ["The prayer is specific: not for vengeance but for the protection of entrusted property. The emphasis on 'integritas' (integrity/wholeness) reflects the sacred trust at stake."],
+      "key_terms": [{"latin": "omnipotentem Deum", "rendered_as": "almighty God", "note": "The Vulgate's characteristic title for God, combining omnipotence with the personal name Deus."}]
+    },
+    {
+      "verse": 23,
+      "text_latin": "Heliodorus autem quod decreverat perficiebat iam praesens eodem cum satellitibus circa aerarium.",
+      "rendering": "But Heliodorus proceeded to carry out what had been decided, and was already present with his bodyguards at the treasury.",
+      "translator_notes": ["The tension peaks: Heliodorus is at the treasury door with armed guards. The human forces are positioned; the divine response is imminent."],
+      "key_terms": [{"latin": "satellitibus", "rendered_as": "his bodyguards", "note": "Satelles — an armed attendant or bodyguard; the royal chancellor travels with military escort."}]
+    },
+    {
+      "verse": 24,
+      "text_latin": "Sed spiritus omnipotentis Dei magnam fecit suae ostensionis evidentiam ita ut omnes qui ausi fuerant parere ei ruentes Dei virtute in dissolutionem et formidinem converterentur.",
+      "rendering": "But the Spirit of almighty God made a great manifestation of his power, so that all who had dared to obey Heliodorus were struck down by God's power and reduced to helplessness and terror.",
+      "translator_notes": ["The divine intervention begins. 'Spiritus omnipotentis Dei' (the Spirit of almighty God) is the agent of the theophany. The effect on the human agents is total collapse."],
+      "key_terms": [{"latin": "spiritus omnipotentis Dei", "rendered_as": "the Spirit of almighty God", "note": "The divine Spirit as the active agent of supernatural intervention — a pneumatological statement."},
+        {"latin": "ostensionis", "rendered_as": "manifestation", "note": "An epiphany — a visible demonstration of divine power."}]
+    },
+    {
+      "verse": 25,
+      "text_latin": "Apparuit enim illis quidam equus terribilem habens sessorem optimis operimentis adornatus isque cum impetu Heliodoro priores calces elisit qui autem ei sedebat videbatur arma habere aurea.",
+      "rendering": "For there appeared to them a horse with a terrifying rider, adorned with the finest trappings, and it charged furiously at Heliodorus and struck him with its front hooves. And the one who sat upon it appeared to have armor of gold.",
+      "translator_notes": ["The supernatural horseman: a terrifying rider on an adorned horse with golden armor. This image became one of the most painted scenes in Western art. The violence is physical — hooves striking Heliodorus — making the divine defense tangible."],
+      "key_terms": [{"latin": "arma aurea", "rendered_as": "armor of gold", "note": "Golden armor signifies heavenly origin — gold as the color of divine beings in apocalyptic literature."},
+        {"latin": "terribilem sessorem", "rendered_as": "a terrifying rider", "note": "The angelic warrior on horseback — a theophanic figure defending the Temple."}]
+    },
+    {
+      "verse": 26,
+      "text_latin": "Alii etiam apparuerunt duo iuvenes virtute decori optimi gloria speciosissimi atque amicti qui circumsteterunt eum et ex utraque parte flagellabant sine intermissione multis plagis verberantes.",
+      "rendering": "Two other young men also appeared, remarkable in their strength, excellent in their beauty, and splendid in their clothing. They stood on either side of him and flogged him without ceasing, beating him with many blows.",
+      "translator_notes": ["Two angelic youths complement the horseman — beautiful, strong, resplendent. Their systematic flogging of Heliodorus is described with clinical precision. The trio of supernatural defenders becomes a standard motif in later hagiography."],
+      "key_terms": [{"latin": "iuvenes", "rendered_as": "young men", "note": "Angelic beings appearing as beautiful young men — a common form of angelophany in Jewish and Christian literature."}]
+    },
+    {
+      "verse": 27,
+      "text_latin": "Subito autem Heliodorus concidit in terram eumque multa caligine circumfusum rapuerunt atque in sella gestatoria positum eiecerunt.",
+      "rendering": "Suddenly Heliodorus fell to the ground, and they seized him, enveloped in deep darkness, and placed him on a litter and carried him out.",
+      "translator_notes": ["Heliodorus collapses, engulfed in darkness — a reversal of the divine light that accompanies the angelic beings. The 'sella gestatoria' (carrying chair/litter) is a detail of helplessness: the powerful chancellor must be carried out like an invalid."],
+      "key_terms": [{"latin": "caligine", "rendered_as": "deep darkness", "note": "Caligo — thick darkness or gloom, the opposite of the divine light. A sign of divine judgment."}]
+    },
+    {
+      "verse": 28,
+      "text_latin": "Is qui cum multis cursoribus et satellitibus ingressus est praedictum aerarium portabatur nullo sibi auxilium ferente manifesta Dei cognita virtute.",
+      "rendering": "He who had entered the treasury with many attendants and bodyguards was carried out, with no one able to help him, the power of God having been clearly recognized.",
+      "translator_notes": ["The ironic reversal is emphasized: he entered with an armed escort; he is carried out helpless. The narrator explicitly names the cause: 'manifesta Dei virtute' (the manifest power of God)."],
+      "key_terms": [{"latin": "manifesta Dei virtute", "rendered_as": "the power of God having been clearly recognized", "note": "The theological interpretation is stated plainly: this was God's power, not coincidence or natural causes."}]
+    },
+    {
+      "verse": 29,
+      "text_latin": "Et ille quidem per divinam virtutem iacebat mutus atque omni spe et salute privatus.",
+      "rendering": "And he lay there speechless by divine power, deprived of all hope and salvation.",
+      "translator_notes": ["Heliodorus is reduced to a mute, hopeless state. The term 'salute' (salvation/health) works on both physical and theological levels — he has lost both."],
+      "key_terms": [{"latin": "divinam virtutem", "rendered_as": "divine power", "note": "Virtus Dei — the active power of God that both strikes down the sacrilegious and protects the sacred."}]
+    },
+    {
+      "verse": 30,
+      "text_latin": "Hi autem Dominum benedicebant quia magnificabat locum suum et templum quod paulo ante timore ac tumultu erat plenum apparente omnipotente Domino gaudio et laetitia impletum est.",
+      "rendering": "But they blessed the Lord because he was glorifying his place, and the Temple which a little before had been full of fear and tumult was now filled with joy and gladness, since the almighty Lord had appeared.",
+      "translator_notes": ["The emotional reversal mirrors the physical one: fear becomes joy. The Temple is 'his place' — God's personal dwelling, which he actively defends."],
+      "key_terms": [{"latin": "magnificabat locum suum", "rendered_as": "was glorifying his place", "note": "God's active defense of the Temple is an act of self-glorification — his honor is bound up with the Temple's sanctity."}]
+    },
+    {
+      "verse": 31,
+      "text_latin": "Quidam autem de amicis Heliodori rogabant continuo Oniam ut invocaret Altissimum ut vitam donaret ei qui in supremo spiritu erat constitutus.",
+      "rendering": "Some of the friends of Heliodorus immediately begged Onias to call upon the Most High to spare the life of the one who was at his very last breath.",
+      "translator_notes": ["The reversal deepens: Heliodorus's own friends beg the high priest they came to rob to intercede for their dying master. Onias is now the only one with access to the power that can save."],
+      "key_terms": [{"latin": "Altissimum", "rendered_as": "the Most High", "note": "Altissimus — the supreme God, a title used especially in contexts involving Gentile recognition of Israel's God."},
+        {"latin": "in supremo spiritu", "rendered_as": "at his very last breath", "note": "Literally 'at his final spirit/breath' — on the verge of death."}]
+    },
+    {
+      "verse": 32,
+      "text_latin": "Considerans autem summus sacerdos ne forte rex suspicaretur malitiam aliquam circa Heliodorum a Iudaeis esse perfectam obtulit pro salute viri hostiam salutarem.",
+      "rendering": "The high priest, considering that the king might suspect that some treachery had been carried out against Heliodorus by the Jews, offered a saving sacrifice for the man's recovery.",
+      "translator_notes": ["Onias's political wisdom complements his spiritual authority: he recognizes that if Heliodorus dies, the Seleucid court will interpret it as Jewish violence, not divine intervention. The sacrifice is both merciful and pragmatic."],
+      "key_terms": [{"latin": "hostiam salutarem", "rendered_as": "a saving sacrifice", "note": "A sacrifice offered for someone's healing/salvation — intercession through cultic action."}]
+    },
+    {
+      "verse": 33,
+      "text_latin": "Cumque summus sacerdos exoraret iuvenes eidem Heliodoro cum iisdem vestibus adstiterunt stantes dixeruntque Oniae sacerdoti gratias age quoniam propter eum Dominus tibi vitam donavit.",
+      "rendering": "While the high priest was making the atoning prayer, the same young men, clothed in the same garments, appeared again to Heliodorus and said, 'Give thanks to the priest Onias, for on his account the Lord has granted you life.'",
+      "translator_notes": ["The angelic youths return — this time not to beat but to deliver a message. Their words make explicit what the narrative implies: Onias's intercession is the cause of Heliodorus's survival. The angelic reversal from violence to mercy mirrors the book's theology of divine justice tempered by priestly intercession."],
+      "key_terms": []
+    },
+    {
+      "verse": 34,
+      "text_latin": "Tu autem a Deo flagellatus nuntia omnibus magnalia Dei et potestatem.",
+      "rendering": "And you, having been scourged by God, declare to all people the mighty deeds and power of God.",
+      "translator_notes": ["Heliodorus is commissioned as a witness: his punishment becomes his testimony. 'Magnalia Dei' (the mighty deeds of God) is a standard Vulgate formula for divine acts of power."],
+      "key_terms": [{"latin": "magnalia Dei", "rendered_as": "the mighty deeds of God", "note": "The great works of God — a phrase used throughout the Vulgate for acts of divine power."},
+        {"latin": "flagellatus", "rendered_as": "scourged", "note": "The angelic flogging is now called divine scourging — disciplinary punishment rather than destruction."}]
+    },
+    {
+      "verse": 35,
+      "text_latin": "Et his dictis non comparuerunt. Heliodorus autem hostia Deo oblata et votis magnis promissis ei qui vivere illi concessit et Oniae gratias agens recepto exercitu repedabat ad regem.",
+      "rendering": "Having said this, they vanished. And Heliodorus, having offered sacrifice to God and made great vows to the one who had granted him life, and having given thanks to Onias, led his army back to the king.",
+      "translator_notes": ["Heliodorus's conversion is expressed in cultic action: he offers sacrifice to Israel's God and makes vows. The man who came to rob the Temple now worships in it."],
+      "key_terms": [{"latin": "votis magnis", "rendered_as": "great vows", "note": "Solemn promises made to God in gratitude for deliverance — a recognized form of thanksgiving in ancient religion."}]
+    },
+    {
+      "verse": 36,
+      "text_latin": "Testificabatur autem omnibus ea quae sub oculis suis viderat opera magni Dei.",
+      "rendering": "He testified to all people about the works of the great God that he had seen with his own eyes.",
+      "translator_notes": ["Heliodorus becomes a pagan witness to the God of Israel — his testimony carries special weight precisely because he is not a Jew."],
+      "key_terms": [{"latin": "magni Dei", "rendered_as": "the great God", "note": "A title for Israel's God on the lips of a pagan — acknowledging divine supremacy."}]
+    },
+    {
+      "verse": 37,
+      "text_latin": "Cum autem rex interrogasset Heliodorum quis esset aptus adhuc semel Hierosolymam mitti respondit.",
+      "rendering": "When the king asked Heliodorus who would be suitable to be sent once more to Jerusalem, he replied,",
+      "translator_notes": ["The king's question reveals he is still thinking of the Temple treasury. Heliodorus's answer will be his final testimony."],
+      "key_terms": []
+    },
+    {
+      "verse": 38,
+      "text_latin": "Si quem habes hostem aut regni tui insidiatorem mitte illuc et flagellatum eum recipies si tamen evaserit eo quod in loco sit vere Dei quaedam virtus.",
+      "rendering": "If you have any enemy or conspirator against your kingdom, send him there, and you will receive him back scourged — if indeed he survives — for there is truly some power of God in that place.",
+      "translator_notes": ["Heliodorus's advice is both witty and profound: send your enemies to Jerusalem, because the God there will do your punishing for you. His qualification 'if indeed he survives' underscores the lethal danger he barely escaped."],
+      "key_terms": [{"latin": "Dei quaedam virtus", "rendered_as": "some power of God", "note": "Heliodorus's cautious phrasing — 'some power of God' — reflects a pagan's tentative acknowledgment of a deity outside his own tradition."}]
+    },
+    {
+      "verse": 39,
+      "text_latin": "Ipse enim qui habet in caelis habitationem visitator et adiutor est loci illius et venientes ad malefaciendum percutit ac perdit.",
+      "rendering": "For he who has his dwelling in heaven is the watcher and defender of that place, and he strikes down and destroys those who come to do evil.",
+      "translator_notes": ["Heliodorus's final theological statement: God dwells in heaven (not confined to the Temple) but actively watches over and defends the Temple. The terms 'visitator et adiutor' (watcher and helper) describe ongoing divine surveillance."],
+      "key_terms": [{"latin": "visitator et adiutor", "rendered_as": "the watcher and defender", "note": "Two divine roles: God observes (visitator) and intervenes (adiutor) to protect the sacred space."},
+        {"latin": "in caelis habitationem", "rendered_as": "his dwelling in heaven", "note": "The transcendence of God — he is not confined to the Temple but chooses to defend it from his heavenly dwelling."}]
+    },
+    {
+      "verse": 40,
+      "text_latin": "Igitur de Heliodoro et aerarii custodia ita res se habet.",
+      "rendering": "So concerning Heliodorus and the protection of the treasury, that is how the matter stands.",
+      "translator_notes": ["A simple closing formula that marks the end of the Heliodorus episode. The narrator draws a line under the account before moving to the next crisis."],
+      "key_terms": []
+    }
+  ]
+}

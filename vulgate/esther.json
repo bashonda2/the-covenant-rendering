@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Esther",
+    "tradition": "vulgate",
+    "tradition_label": "Latin Vulgate",
+    "source_text": "Biblia Sacra Vulgata (Stuttgart critical edition)",
+    "base_text": "Westminster Leningrad Codex (WLC)",
+    "translator": "Jerome (Eusebius Sophronius Hieronymus)",
+    "date": "382-405 CE",
+    "generated_at": "2026-04-20T00:00:00Z",
+    "prompt_version": "2.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Jerome's Esther renders the Persian court narrative and providential deliverance with Latin vocabulary that shaped Western theology of divine providence operating through human agency, court intrigue as vehicle of salvation, and the concept of vocation as divinely appointed timing — while notably adding deuterocanonical sections with explicit God-language absent from the Hebrew.",
+    "notable_renderings": "The providence vocabulary (particularly 4:14's aliunde auxilium), the court and royal terminology (rex, regina, convivium), the reversal-of-fortune language, and the Purim celebration vocabulary all created enduring Latin categories for understanding hidden divine action in secular history.",
+    "theological_legacy": "Esther's Vulgate provided Western Christianity with its primary vocabulary for anonymous providence (God working without being named), vocational theology of divine timing ('for such a time as this'), and the theology of fasting as spiritual weapon. Jerome's additions from the Greek also supplied the explicit prayer-and-providence theology that the Hebrew text leaves implicit."
+  },
+  "renderings": [
+    {
+      "reference": "Esther 2:17",
+      "source_text": "וַיֶּאֱהַב הַמֶּלֶךְ אֶת אֶסְתֵּר מִכָּל הַנָּשִׁים וַתִּשָּׂא חֵן וָחֶסֶד לְפָנָיו",
+      "vulgate_text": "et adamavit eam rex plus quam omnes mulieres habuitque gratiam et misericordiam coram eo",
+      "vulgate_rendering": "And the king loved her more than all the women, and she found grace and mercy before him",
+      "tcr_rendering": "The king loved Esther more than all the women, and she won favor and covenant-faithfulness before him",
+      "theological_legacy": "Gratiam et misericordiam (grace and mercy) for chen va-chesed (favor and steadfast love) in a secular court context introduced the concept of divine grace operating through romantic/political favor. Western typological reading saw Esther finding grace before the king as the soul finding grace before God — or the Church finding favor before Christ the King.",
+      "notes": ["Hebrew chen (favor, grace) and chesed (steadfast love) describe Esther's standing before a pagan king. Jerome's gratia (grace) carries theological weight in Latin that the Hebrew secular usage does not intend. Western allegorists exploited this to read Esther as the Church or the Virgin Mary finding grace before the divine King."]
+    },
+    {
+      "reference": "Esther 3:8",
+      "source_text": "יֶשְׁנוֹ עַם אֶחָד מְפֻזָּר וּמְפֹרָד בֵּין הָעַמִּים... וְדָתֵיהֶם שֹׁנוֹת מִכָּל עָם",
+      "vulgate_text": "est populus per omnes provincias regni tui dispersus et a se mutuo separatus novis utens legibus",
+      "vulgate_rendering": "There is a people dispersed through all the provinces of your kingdom and separated from one another, using new/strange laws",
+      "tcr_rendering": "There is a certain people scattered and dispersed among the peoples... and their laws are different from those of every people",
+      "theological_legacy": "Novis utens legibus (using new/strange laws) for dateihem shonot (their laws are different) subtly shifts from 'different laws' to 'novel laws,' implying innovation rather than ancient tradition. This shaped Western anti-Jewish rhetoric that portrayed Jewish law as dangerous novelty rather than venerable antiquity, influencing medieval persecution justifications.",
+      "notes": ["Hebrew shonot (different, varied) simply means distinct. Jerome's novis (new, novel) adds a pejorative dimension — implying these laws are recent innovations rather than legitimate ancient customs. This subtle shift fed into medieval Christian polemic that dismissed Jewish legal traditions as post-biblical innovations (Talmudic novitates) rather than ancient covenant practice."]
+    },
+    {
+      "reference": "Esther 4:11",
+      "source_text": "כָּל עֶבֶד הַמֶּלֶךְ... יוֹדְעִים אֲשֶׁר כָּל אִישׁ... אֲשֶׁר יָבוֹא אֶל הַמֶּלֶךְ... אֲשֶׁר לֹא יִקָּרֵא אַחַת דָּתוֹ לְהָמִית",
+      "vulgate_text": "omnes norunt... quod sive vir sive mulier non vocatus interius atrium regis intraverit absque ulla cunctatione statim interficiatur",
+      "vulgate_rendering": "All know that whoever, whether man or woman, enters the king's inner court without being called, without any hesitation is immediately killed",
+      "tcr_rendering": "All the king's servants know that for any man or woman who goes to the king in the inner court without being summoned — there is one law: to be put to death",
+      "theological_legacy": "Interius atrium regis (the inner court of the king) established Latin vocabulary for royal inaccessibility that was applied typologically to divine transcendence. The concept of needing to be 'called' (vocatus) to approach the sovereign shaped Western theology of vocation and the audacity of prayer as approaching the divine King uninvited.",
+      "notes": ["The dangerous approach to the king without summons was read typologically as approaching God in prayer: the audacity of prayer is entering the inner court uninvited. Jerome's vocabulary of atrium interius (inner court) influenced Western architectural theology of sanctuary approach and the concept of priestly access to the divine presence as inherently dangerous."]
+    },
+    {
+      "reference": "Esther 4:14",
+      "source_text": "כִּי אִם הַחֲרֵשׁ תַּחֲרִישִׁי בָּעֵת הַזֹּאת רֶוַח וְהַצָּלָה יַעֲמוֹד לַיְּהוּדִים מִמָּקוֹם אַחֵר... וּמִי יוֹדֵעַ אִם לְעֵת כָּזֹאת הִגַּעַתְּ לַמַּלְכוּת",
+      "vulgate_text": "si enim nunc silueris per aliam occasionem liberabuntur Iudaei... et quis novit utrum idcirco ad regnum veneris ut in tali tempore parareris",
+      "vulgate_rendering": "For if you remain silent now, the Jews will be freed through another occasion... and who knows whether you have come to the kingdom for this reason, that you might be prepared for such a time",
+      "tcr_rendering": "For if you remain completely silent at this time, relief and deliverance will arise for the Jews from another place... And who knows whether you have come to the kingdom for such a time as this?",
+      "theological_legacy": "Per aliam occasionem (through another occasion/opportunity) for mi-maqom acher (from another place) is a significant interpretive choice. The Hebrew's 'another place' was traditionally read as a veiled reference to God; Jerome's 'another occasion' shifts from divine agency to temporal opportunity. Yet in tali tempore parareris (that you might be prepared for such a time) became the classic Western vocational text — divine providence placing persons in positions for appointed moments.",
+      "notes": ["This is arguably Esther's most theologically significant verse. Hebrew maqom acher (another place) may be a circumlocution for God (maqom being a rabbinic divine name). Jerome's per aliam occasionem (through another opportunity) loses this possible divine reference, but his rendering of the vocational question became foundational for Western theology of divine appointment: God places people in positions of power for specific providential moments."]
+    },
+    {
+      "reference": "Esther 4:16",
+      "source_text": "וְצוּמוּ עָלַי וְאַל תֹּאכְלוּ וְאַל תִּשְׁתּוּ שְׁלֹשֶׁת יָמִים לַיְלָה וָיוֹם",
+      "vulgate_text": "ieiunate pro me et non comedatis et non bibatis tribus diebus et tribus noctibus",
+      "vulgate_rendering": "Fast for me, and do not eat and do not drink for three days and three nights",
+      "tcr_rendering": "Fast for me, and do not eat or drink for three days, night or day",
+      "theological_legacy": "Ieiunate pro me (fast for me/on my behalf) established the Western theology of vicarious fasting — fasting undertaken on behalf of another person facing danger or decision. Tribus diebus et tribus noctibus (three days and three nights) echoed Christ's burial duration (Matthew 12:40), encouraging typological reading of Esther's three-day fast as prefiguring Christ's death and resurrection.",
+      "notes": ["Jerome's pro me (for me, on my behalf) clearly establishes intercessory fasting — fasting as a spiritual act performed for another's benefit. This concept became central to Western ascetical theology and the practice of offering penances and fasts for the benefit of others, including the dead (connected to purgatory doctrine)."]
+    },
+    {
+      "reference": "Esther 5:2",
+      "source_text": "וַיּוֹשֶׁט הַמֶּלֶךְ לְאֶסְתֵּר אֶת שַׁרְבִיט הַזָּהָב אֲשֶׁר בְּיָדוֹ",
+      "vulgate_text": "extendit virgam auream quam tenebat manu",
+      "vulgate_rendering": "He extended the golden scepter which he held in his hand",
+      "tcr_rendering": "the king extended the golden scepter that was in his hand toward Esther",
+      "theological_legacy": "Virgam auream extendit (he extended the golden rod/scepter) provided the image of royal acceptance that was applied typologically to God accepting prayer. The golden scepter extended to the one who dared approach uninvited became a powerful Western image of divine grace: the king (God) could destroy but instead extends favor.",
+      "notes": ["The virga aurea (golden rod/scepter) extended in acceptance rather than condemnation became one of Western Christianity's most beloved typological images. Patristic and medieval commentators read it as Christ extending grace to the Church (Esther) who approaches boldly, or as God accepting the bold prayer of the faithful despite their unworthiness."]
+    },
+    {
+      "reference": "Esther 6:1",
+      "source_text": "בַּלַּיְלָה הַהוּא נָדְדָה שְׁנַת הַמֶּלֶךְ",
+      "vulgate_text": "noctem illam duxit rex insomnem",
+      "vulgate_rendering": "That night the king spent sleepless",
+      "tcr_rendering": "That night the king's sleep fled",
+      "theological_legacy": "Noctem illam duxit insomnem (that night he spent sleepless) in the pivot of the Esther narrative established the Western concept of divine providence working through seemingly trivial events — insomnia. The king's sleeplessness, leading to the reading of chronicles, leading to Mordecai's honor, became the paradigmatic example of hidden providence in Western theology.",
+      "notes": ["The Hebrew vividly personifies sleep as fleeing (naddah shenat ha-melekh). Jerome's more prosaic insomnem (sleepless) loses the vivid Hebrew imagery but the theological function is preserved: this 'accidental' insomnia is the hinge of the entire deliverance narrative. Western providence theology cited this as evidence that God works through natural events without needing to intervene supernaturally."]
+    },
+    {
+      "reference": "Esther 7:3",
+      "source_text": "תִּנָּתֶן לִי נַפְשִׁי בִּשְׁאֵלָתִי וְעַמִּי בְּבַקָּשָׁתִי",
+      "vulgate_text": "dona mihi animam meam pro qua rogo et populum meum pro quo obsecro",
+      "vulgate_rendering": "Grant me my life, for which I ask, and my people, for whom I plead",
+      "tcr_rendering": "Let my life be given me at my petition, and my people at my request",
+      "theological_legacy": "Dona mihi animam meam (grant me my soul/life) with Esther interceding for her people became a Christological and Marian type in Western exegesis: the queen interceding before the king for a condemned people. This shaped both Marian intercession theology and the concept of Christ pleading before the Father for humanity.",
+      "notes": ["Esther's petition — asking for her own life and her people's survival — was read typologically as the Church or Mary interceding before Christ/God for condemned humanity. Jerome's obsecro (I beseech, implore) adds emotional intensity to the intercession, shaping Western understanding of intercessory prayer as passionate pleading."]
+    },
+    {
+      "reference": "Esther 8:16",
+      "source_text": "לַיְּהוּדִים הָיְתָה אוֹרָה וְשִׂמְחָה וְשָׂשֹׂן וִיקָר",
+      "vulgate_text": "Iudaeis autem nova lux oriri visa est gaudium honor et tripudium",
+      "vulgate_rendering": "But for the Jews a new light seemed to rise: joy, honor, and dancing",
+      "tcr_rendering": "The Jews had light and gladness and joy and honor",
+      "theological_legacy": "Nova lux oriri visa est (a new light seemed to rise) is an interpretive expansion of Hebrew orah (light). Jerome's nova lux (new light) introduced resurrection/new-creation imagery absent from the Hebrew, which simply states they 'had light.' This shaped Western reading of the Esther reversal as a resurrection-type: from death-decree to new-light rising.",
+      "notes": ["Hebrew orah (light) is simply stated as something the Jews 'had.' Jerome's nova lux oriri visa est (a new light seemed to rise) dramatically expands this into a dawn/rising image that evokes resurrection and new creation. This interpretive expansion influenced Christian reading of Purim as a resurrection allegory — the people passing from death-sentence to new life."]
+    },
+    {
+      "reference": "Esther 9:22",
+      "source_text": "כַּיָּמִים אֲשֶׁר נָחוּ בָהֶם הַיְּהו��דִים מֵאוֹיְבֵיהֶם וְהַחֹדֶשׁ אֲשֶׁר נֶהְפַּךְ לָהֶם מִיָּגוֹן לְשִׂמְחָה",
+      "vulgate_text": "dies in quibus se ulti sunt Iudaei de inimicis suis et luctus atque tristitia in hilaritatem gaudiumque conversa sunt",
+      "vulgate_rendering": "The days in which the Jews avenged themselves on their enemies, and mourning and sadness were converted into joy and gladness",
+      "tcr_rendering": "the days on which the Jews got relief from their enemies, and the month that was turned for them from sorrow to joy",
+      "theological_legacy": "Luctus in hilaritatem conversa (mourning converted into joy) established the reversal-theology vocabulary in Western Latin. The concept of divine conversio (turning/converting) of sorrow into joy shaped Western theology of consolation, Easter joy, and the transformation of suffering — foundational for the theology of the paschal mystery.",
+      "notes": ["Jerome's conversa sunt (were converted/turned) for nehpakh (was turned) uses the same verb as religious conversion (conversio), creating a theological resonance: God 'converts' mourning into joy as He 'converts' sinners to salvation. This shared vocabulary reinforced Western theology of divine transformative power operating in both personal salvation and historical reversal."]
+    }
+  ]
+}

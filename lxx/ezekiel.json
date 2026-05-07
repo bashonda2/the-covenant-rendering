@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Ezekiel",
+    "tradition": "lxx",
+    "tradition_label": "Septuagint (LXX)",
+    "source_text": "Rahlfs-Hanhart, Septuaginta (Iezekiēl)",
+    "base_text": "Westminster Leningrad Codex (WLC)",
+    "translators": "Alexandrian Jewish translators (2nd c. BCE)",
+    "date": "2nd century BCE",
+    "generated_at": "2026-04-22T00:00:00Z",
+    "prompt_version": "1.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "LXX Ezekiel is notably shorter than MT Ezekiel (by roughly 4–5%), with the largest concentration of minuses in chapters 7, 12, 32, and 36. Papyrus 967 (3rd century CE, one of the earliest substantial Greek OT witnesses) lacks Ezekiel 36:23b–38 — the famous new-heart new-spirit passage — placing this material after chapter 38 in a different sequence. Whether MT or LXX preserves the earlier form of these sections is one of the most contested questions in text criticism of Ezekiel.",
+    "notable_variants": "Chapter 7's verse order differs significantly between MT and LXX; Papyrus 967's position of chapters 36–40 suggests an alternative edition; the merkavah vision's vocabulary at 1:10 and 1:26 supplies the four-living-creatures imagery of Revelation 4; the 'one shepherd, my servant David' at 34:23 underlies John 10; and the dry-bones vision of chapter 37 provides the Greek vocabulary for NT resurrection language.",
+    "theological_legacy": "Revelation 4–5's throne vision draws directly on LXX Ezekiel 1 — the four living creatures with the faces of human, lion, ox, eagle become the four symbolic beings that the early church identified with the four evangelists (a patristic exegetical move that canonized the Ezekiel-Revelation link). John 10's good-shepherd discourse presupposes LXX Ezekiel 34. The new-heart-and-new-spirit vocabulary of 11:19, 36:26 shapes NT regeneration theology."
+  },
+  "renderings": [
+    {
+      "reference": "Ezekiel 1:10",
+      "mt_reading": "פְּנֵי אָדָם … פְּנֵי אַרְיֵה … פְּנֵי־שׁוֹר … פְּנֵי־נָשֶׁר",
+      "lxx_reading": "πρόσωπον ἀνθρώπου … πρόσωπον λέοντος … πρόσωπον μόσχου … πρόσωπον ἀετοῦ",
+      "mt_rendering": "the face of a human … the face of a lion … the face of an ox … the face of an eagle",
+      "lxx_rendering": "the face of a man … the face of a lion … the face of a calf … the face of an eagle",
+      "significance": "theological",
+      "notes": [
+        "The LXX's moschos ('calf, young bull') for Hebrew shor ('ox') is a minor divergence that carried into Revelation 4:7 (zōon … to triton echōn to prosōpon hōs anthrōpou, 'the third had a face like a man'), where the order is rearranged but the four creatures are unmistakably Ezekiel's.",
+        "Patristic exegesis identified the four faces with the four evangelists: lion (Mark), ox/calf (Luke), man (Matthew), eagle (John). The assignment varies in the earliest witnesses (Irenaeus has different associations than Jerome) but all work from LXX Ezekiel's four creatures filtered through Revelation 4."
+      ]
+    },
+    {
+      "reference": "Ezekiel 1:26",
+      "mt_reading": "דְּמוּת כְּמַרְאֵה אָדָם",
+      "lxx_reading": "ὁμοίωμα ὡς εἶδος ἀνθρώπου",
+      "mt_rendering": "a likeness like the appearance of a human",
+      "lxx_rendering": "a likeness as the form of a man",
+      "significance": "theological",
+      "notes": [
+        "The throne-vision's anthropomorphic figure at 1:26 is preserved in LXX. The Greek's homoiōma ('likeness') is the same word Paul uses in Philippians 2:7 (en homoiōmati anthrōpōn genomenos, 'being made in the likeness of men').",
+        "The anthrōpos figure on the throne of Ezekiel 1:26 — read in conjunction with Daniel 7:13's 'one like a son of man' (hōs huios anthrōpou) — supplies Jewish apocalyptic and early Christian Christology with the image of a human-formed divine figure on the heavenly throne. Revelation 1:13–16 fuses the two into the glorified Christ."
+      ]
+    },
+    {
+      "reference": "Ezekiel 11:19",
+      "mt_reading": "לֵב אֶחָד … רוּחַ חֲדָשָׁה … לֵב בָּשָׂר",
+      "lxx_reading": "καρδίαν ἑτέραν … πνεῦμα καινόν … καρδίαν σαρκίνην",
+      "mt_rendering": "an undivided heart … a new spirit … a heart of flesh",
+      "lxx_rendering": "another heart … a new spirit … a heart of flesh",
+      "significance": "theological",
+      "notes": [
+        "2 Corinthians 3:3 ('written not with ink but with the Spirit of the living God, not on tablets of stone but on tablets of human hearts') combines this LXX Ezekiel 11:19 image with Jeremiah 31 (LXX 38) and Exodus 34. Paul's 'tablets of hearts of flesh' (plaxin kardias sarkinais) is a direct verbal echo of Ezekiel 11:19 LXX.",
+        "The new-heart and new-spirit vocabulary is central to NT regeneration theology, and every instance — John 3's 'born of the Spirit,' Titus 3:5's 'renewal by the Holy Spirit,' 2 Cor 5:17's 'new creation' — stands downstream of LXX Ezekiel 11 and 36."
+      ]
+    },
+    {
+      "reference": "Ezekiel 18:20",
+      "mt_reading": "הַנֶּפֶשׁ הַחֹטֵאת הִיא תָמוּת",
+      "lxx_reading": "ἡ ψυχὴ ἡ ἁμαρτάνουσα αὕτη ἀποθανεῖται",
+      "mt_rendering": "The person who sins — that one shall die",
+      "lxx_rendering": "The soul that sins, this one shall die",
+      "significance": "moderate",
+      "notes": [
+        "LXX Ezekiel 18:20 is the verse most cited in patristic and medieval discussions of individual versus corporate responsibility. The Hebrew nefesh is functionally 'person' or 'self'; LXX's psychē captures the same, but Greek philosophical overtones gradually shifted psychē toward 'soul' as a quasi-immaterial substance.",
+        "Romans 6:23 ('the wages of sin is death') draws on the general LXX-Ezekiel framework of sin leading to death rather than on this specific verse. James 1:15 ('sin, when full-grown, gives birth to death') is closer to the Ezekiel 18 formulation."
+      ]
+    },
+    {
+      "reference": "Ezekiel 28:13",
+      "mt_reading": "בְּעֵדֶן גַּן־אֱלֹהִים הָיִיתָ",
+      "lxx_reading": "ἐν τῇ τρυφῇ τοῦ παραδείσου τοῦ θεοῦ ἐγενήθης",
+      "mt_rendering": "You were in Eden, the garden of God",
+      "lxx_rendering": "You were in the delight of the paradise of God",
+      "significance": "theological",
+      "notes": [
+        "The LXX renders Eden as tryphē ('delight, luxury') — reading the Hebrew edenic name through its root sense. Paradise is paradeisos, the Persian-loanword for an enclosed royal garden that LXX standardized for the Eden-tradition.",
+        "Jesus' word to the thief on the cross — 'today you will be with me in paradise' (Luke 23:43) — uses the same paradeisos that LXX Genesis 2–3 and Ezekiel 28 use. The eschatological paradise of Revelation 2:7 ('the tree of life in the paradise of God') also draws on this LXX tradition.",
+        "The patristic reading of Ezekiel 28 as a veiled description of Satan's pre-fall glory (read alongside Isaiah 14:12–15) is a later exegetical development, but the lush Edenic vocabulary of LXX Ezekiel 28:13 supplies the imagery."
+      ]
+    },
+    {
+      "reference": "Ezekiel 34:23",
+      "mt_reading": "וַהֲקִמֹתִי עֲלֵיהֶם רֹעֶה אֶחָד … אֶת־דָּוִד",
+      "lxx_reading": "καὶ ἀναστήσω ἐπ᾽ αὐτοὺς ποιμένα ἕνα … τὸν δοῦλόν μου Δαυιδ",
+      "mt_rendering": "I will set up over them one shepherd … my servant David",
+      "lxx_rendering": "And I will raise up over them one shepherd … my servant David",
+      "significance": "theological",
+      "notes": [
+        "John 10:11, 10:14, 10:16 — 'I am the good shepherd; there shall be one flock, one shepherd' — draws the 'one shepherd' language directly from LXX Ezekiel 34:23.",
+        "Hebrews 13:20 ('the great shepherd of the sheep') and 1 Peter 2:25, 5:4 (archipoimēn, 'chief shepherd') all deploy the LXX Ezekiel-34 shepherd vocabulary.",
+        "The merger of Davidic Messianism (my servant David) with shepherd theology (one shepherd over one flock) is a specifically Ezekiel-34 synthesis that the NT inherits through the Greek text."
+      ]
+    },
+    {
+      "reference": "Ezekiel 36:26",
+      "mt_reading": "וְנָתַתִּי לָכֶם לֵב חָדָשׁ וְרוּחַ חֲדָשָׁה אֶתֵּן בְּקִרְבְּכֶם",
+      "lxx_reading": "καὶ δώσω ὑμῖν καρδίαν καινὴν καὶ πνεῦμα καινὸν δώσω ἐν ὑμῖν",
+      "mt_rendering": "I will give you a new heart and put a new spirit within you",
+      "lxx_rendering": "And I will give you a new heart, and I will put a new spirit in you",
+      "significance": "theological",
+      "notes": [
+        "Ezekiel 36:23b–38 — including this new-heart-new-spirit passage — is absent from Papyrus 967 (the earliest substantial Greek witness, c. 200 CE), which places what we know as 36:23a directly before chapter 38. This is one of the most important text-critical puzzles in Ezekiel: did the MT arrangement come later, or did 967 lose a page?",
+        "Whatever the textual answer, the theological content of 36:26 feeds directly into John 3 (new birth), Ezekiel 36–37 underlies the water-and-Spirit pairing (37:14 'I will put my spirit in you'), and Paul's 2 Corinthians 3 new-covenant ministry."
+      ]
+    },
+    {
+      "reference": "Ezekiel 37:5",
+      "mt_reading": "הִנֵּה אֲנִי מֵבִיא בָכֶם רוּחַ וִחְיִיתֶם",
+      "lxx_reading": "ἰδοὺ ἐγὼ φέρω εἰς ὑμᾶς πνεῦμα ζωῆς",
+      "mt_rendering": "I am about to bring breath into you, and you will live",
+      "lxx_rendering": "Behold, I am bringing upon you the breath of life",
+      "significance": "theological",
+      "notes": [
+        "The LXX adds zōēs ('of life') — 'the breath of life' — making the echo of Genesis 2:7 (pnoēn zōēs) explicit. The dry-bones vision becomes a second creation scene: the same divine breath that animated the first human animates the resurrected house of Israel.",
+        "Revelation 11:11 ('the breath of life from God entered them, and they stood upon their feet') quotes LXX Ezekiel 37:5 almost verbatim for the resurrection of the two witnesses. The direct citation is unmistakable.",
+        "Pauline resurrection theology (1 Cor 15:44–45) reasons from first Adam to last Adam via the same pneuma-and-life vocabulary that LXX Ezekiel 37 supplies."
+      ]
+    },
+    {
+      "reference": "Ezekiel 44:2",
+      "mt_reading": "הַשַּׁעַר הַזֶּה סָגוּר יִהְיֶה לֹא יִפָּתֵחַ",
+      "lxx_reading": "ἡ πύλη αὕτη κεκλεισμένη ἔσται οὐκ ἀνοιχθήσεται",
+      "mt_rendering": "This gate is to remain shut. It must not be opened",
+      "lxx_rendering": "This gate shall be shut. It shall not be opened",
+      "significance": "moderate",
+      "notes": [
+        "The 'closed gate' of the east side of the new Temple — through which YHWH has entered — became, in later Christian typology, a figure of Mary's perpetual virginity. The typology is patristic (Ambrose, Jerome) and reads the gate through which the Lord entered as a type of the womb through which the Lord came into the world.",
+        "The typology is a post-biblical reading with no NT warrant, but it rests on the LXX Ezekiel 44 text. Reading the Greek shows how the imagery supplied Latin and Greek Mariology with scriptural vocabulary."
+      ]
+    }
+  ]
+}

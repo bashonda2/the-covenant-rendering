@@ -1,0 +1,206 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Exodus",
+    "chapter": 2,
+    "tradition": "lxx-exodus",
+    "tradition_label": "Septuagint (LXX)",
+    "source_text": "Rahlfs-Hanhart, Septuaginta",
+    "base_text": "Westminster Leningrad Codex (WLC)",
+    "date": "3rd century BCE",
+    "generated_at": "2026-04-22T00:00:00Z",
+    "prompt_version": "1.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Exodus 2 tells Moses' birth, rescue from the Nile, adoption by Pharaoh's daughter, flight to Midian, marriage to Zipporah, and the death of the Pharaoh who had sought his life. The chapter's single most consequential LXX rendering is at 2:2 — asteios to paidion ('the child was refined/well-favored') — which supplies the exact vocabulary Hebrews 11:23 and Acts 7:20 use of the infant Moses. The LXX's asteios is NT-inherited Mosaic adjective.",
+    "notable_variants": "The asteios rendering at 2:2 that Hebrews 11:23 and Acts 7:20 quote; the LXX's identification of 'Midian' as 'Madiam' and 'Reuel' (also called Jethro) following Hebrew name-traditions; the concluding verse 25 where the LXX specifies that God 'was known to them' rather than the enigmatic MT 'God knew.'",
+    "structural_notes": "LXX Exodus 2 preserves MT's 25-verse structure. The narrative flow is identical."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "has_variant": false,
+      "variant_notes": ["The marriage of Moses' parents (both Levites) is rendered in LXX without substantive variation."]
+    },
+    {
+      "verse": 2,
+      "has_variant": true,
+      "significance": "theological",
+      "mt_reading": "וַתֵּרֶא אֹתוֹ כִּי־טוֹב הוּא",
+      "lxx_reading": "ἰδόντες δὲ αὐτὸ ἀστεῖον ἐσκέπασαν αὐτὸ",
+      "mt_rendering": "She saw that he was a fine child, and she hid him for three months",
+      "variant_rendering": "Seeing that he was refined, they hid him",
+      "variant_notes": [
+        "The LXX renders Hebrew ki-tov ('that he was good/fine') as asteion ('refined, urbane, well-favored') — an adjective that conveys physical beauty with overtones of cultural grace.",
+        "Acts 7:20 ('Moses was born and was asteios to God') and Hebrews 11:23 ('they saw that the child was asteion') both quote this LXX vocabulary verbatim. The NT reading of Moses as 'no ordinary child' is built on the LXX's specific word.",
+        "Philo of Alexandria (Life of Moses 1.9) also emphasizes Moses' asteios appearance as a sign of his destined greatness. LXX Exodus 2:2 is the textual basis for a strand of Hellenistic Jewish and early Christian piety that made Moses' physical beauty a divine omen."
+      ]
+    },
+    {
+      "verse": 3,
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "תֵּבַת גֹּמֶא",
+      "lxx_reading": "θῖβιν",
+      "mt_rendering": "a papyrus basket",
+      "variant_rendering": "a basket (thibin)",
+      "variant_notes": [
+        "Hebrew tevat gome ('basket of papyrus') is rendered with a single Greek word thibis — a loanword from Egyptian, possibly the same word Hebrew tevah is itself borrowed from.",
+        "The Hebrew tevah is used for only two objects in the entire Hebrew Bible: Noah's ark (Gen 6–9) and Moses' basket here. The deliberate lexical link between the two rescue-arks is a striking inner-biblical pattern. The LXX loses the link by rendering Noah's vessel as kibōtos and Moses' as thibis — two different Greek words."
+      ]
+    },
+    {
+      "verse": 4,
+      "has_variant": false,
+      "variant_notes": ["Miriam stationed at a distance watching is rendered closely in LXX."]
+    },
+    {
+      "verse": 5,
+      "has_variant": false,
+      "variant_notes": ["Pharaoh's daughter's descent to bathe follows MT in LXX; the basket is the same thibis from v. 3."]
+    },
+    {
+      "verse": 6,
+      "has_variant": false,
+      "variant_notes": ["Pharaoh's daughter's compassion (esplanchnisthē in LXX) on the Hebrew child uses the same splanchn- root that the Gospels use for Jesus' compassion."]
+    },
+    {
+      "verse": 7,
+      "has_variant": false,
+      "variant_notes": ["Miriam's offer to fetch a Hebrew nurse is rendered closely in LXX."]
+    },
+    {
+      "verse": 8,
+      "has_variant": false,
+      "variant_notes": ["The Hebrew girl fetching Moses' mother is rendered without substantive variant."]
+    },
+    {
+      "verse": 9,
+      "has_variant": false,
+      "variant_notes": ["Pharaoh's daughter's commission and payment offer is rendered directly in LXX."]
+    },
+    {
+      "verse": 10,
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "וַתִּקְרָא שְׁמוֹ מֹשֶׁה וַתֹּאמֶר כִּי מִן־הַמַּיִם מְשִׁיתִהוּ",
+      "lxx_reading": "ἐπωνόμασεν δὲ τὸ ὄνομα αὐτοῦ Μωυσῆν λέγουσα ἐκ τοῦ ὕδατος αὐτὸν ἀνειλόμην",
+      "mt_rendering": "She named him Moses, saying, 'Because I drew him out of the water'",
+      "variant_rendering": "She named him Moysēs, saying, 'from the water I took him up'",
+      "variant_notes": [
+        "The Hebrew name Moshe is etymologically 'the one who draws out' (from mashah, 'to draw out'), linked by wordplay to the participle meshitihu ('I drew him out').",
+        "LXX transliterates as Mōysēs and renders the etymological note with aneilomēn ('I took up'). The Hebrew wordplay is preserved semantically but loses its phonetic elegance.",
+        "Josephus (Antiquities 2.228) explains the name as Egyptian: mo ('water') + ysēs ('saved'). This etymology is historically more plausible but is not what the biblical text offers."
+      ]
+    },
+    {
+      "verse": 11,
+      "has_variant": false,
+      "variant_notes": ["Moses' visit to his brothers and the Egyptian beating a Hebrew is rendered closely in LXX."]
+    },
+    {
+      "verse": 12,
+      "has_variant": false,
+      "variant_notes": ["Moses' killing of the Egyptian and hiding in the sand is rendered directly in LXX."]
+    },
+    {
+      "verse": 13,
+      "has_variant": false,
+      "variant_notes": ["The two Hebrews fighting follows MT in LXX."]
+    },
+    {
+      "verse": 14,
+      "has_variant": true,
+      "significance": "moderate",
+      "mt_reading": "מִי שָׂמְךָ לְאִישׁ שַׂר וְשֹׁפֵט עָלֵינוּ",
+      "lxx_reading": "τίς σε κατέστησεν ἄρχοντα καὶ δικαστὴν ἐφ᾽ ἡμῶν",
+      "mt_rendering": "Who made you a ruler and judge over us?",
+      "variant_rendering": "Who appointed you ruler and judge over us?",
+      "variant_notes": [
+        "Acts 7:27, 7:35 cites this verse in Stephen's speech — 'Who appointed you a ruler and a judge over us?' (tis se katestēsen archonta kai dikastēn) — in its LXX wording.",
+        "Stephen's rhetorical turn is decisive: the Israelite who rejected Moses that day prefigures the nation that rejected Christ. Acts 7:35 references this Moses whom they rejected, saying, 'Who made you a ruler and a judge?' — the citation works only with the LXX vocabulary.",
+        "This is one of Acts 7's clearest demonstrations of LXX dependency in typological argument."
+      ]
+    },
+    {
+      "verse": 15,
+      "has_variant": false,
+      "variant_notes": ["Moses' flight to Midian and sitting by the well is rendered closely in LXX (Madiam for Midian)."]
+    },
+    {
+      "verse": 16,
+      "has_variant": false,
+      "variant_notes": ["The priest of Midian's seven daughters drawing water follows MT in LXX."]
+    },
+    {
+      "verse": 17,
+      "has_variant": false,
+      "variant_notes": ["The shepherd-conflict and Moses' defense of the women tracks MT."]
+    },
+    {
+      "verse": 18,
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "וַתָּבֹאנָה אֶל־רְעוּאֵל אֲבִיהֶן",
+      "lxx_reading": "παρεγένοντο δὲ πρὸς Ραγουηλ τὸν πατέρα αὐτῶν",
+      "mt_rendering": "When they returned to Reuel their father",
+      "variant_rendering": "They came to Ragouēl their father",
+      "variant_notes": [
+        "Reuel here is also called Jethro (Exod 3:1, 4:18) and Hobab (Judg 4:11, Num 10:29). The name-cluster for Moses' father-in-law has long puzzled commentators. LXX preserves all the names in distinct forms (Ragouēl, Iothor, Chōbab) without attempting to resolve the multiplicity."
+      ]
+    },
+    {
+      "verse": 19,
+      "has_variant": false,
+      "variant_notes": ["The daughters' account of Moses' rescue from shepherds is rendered closely in LXX."]
+    },
+    {
+      "verse": 20,
+      "has_variant": false,
+      "variant_notes": ["Reuel's invitation to dinner tracks MT."]
+    },
+    {
+      "verse": 21,
+      "has_variant": false,
+      "variant_notes": ["Moses' marriage to Zipporah (Sepphōra in LXX) follows MT in LXX."]
+    },
+    {
+      "verse": 22,
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "וַיִּקְרָא אֶת־שְׁמוֹ גֵּרְשֹׁם כִּי אָמַר גֵּר הָיִיתִי בְּאֶרֶץ נָכְרִיָּה",
+      "lxx_reading": "ἐπωνόμασεν δὲ Μωυσῆς τὸ ὄνομα αὐτοῦ Γηρσαμ λέγων ὅτι πάροικός εἰμι ἐν γῇ ἀλλοτρίᾳ",
+      "mt_rendering": "he called his name Gershom, for he said, 'I have been a sojourner in a foreign land'",
+      "variant_rendering": "Moses named him Gērsam, saying, 'I am a sojourner in a foreign land'",
+      "variant_notes": [
+        "LXX renders ger ('sojourner, resident alien') as paroikos — the same word that underlies NT usage of 'sojourners and exiles' (paroikoi kai parepidēmoi) at 1 Peter 2:11 and related passages. The identity-vocabulary of NT Christian self-understanding traces to this LXX-Exodus word.",
+        "Gershom's name etymology — ger-sham, 'a sojourner there' — is preserved in the LXX's explanation but the phonetic wordplay is lost in transliteration."
+      ]
+    },
+    {
+      "verse": 23,
+      "has_variant": false,
+      "variant_notes": ["The death of the Egyptian king and Israel's cry to God under slavery is rendered closely in LXX."]
+    },
+    {
+      "verse": 24,
+      "has_variant": false,
+      "variant_notes": ["God's remembering the covenant with the patriarchs follows MT's theological triad (Abraham, Isaac, Jacob) in LXX's standard form."]
+    },
+    {
+      "verse": 25,
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "וַיַּרְא אֱלֹהִים אֶת־בְּנֵי יִשְׂרָאֵל וַיֵּדַע אֱלֹהִים",
+      "lxx_reading": "καὶ ἐπεῖδεν ὁ θεὸς τοὺς υἱοὺς Ισραηλ καὶ ἐγνώσθη αὐτοῖς",
+      "mt_rendering": "God saw the sons of Israel, and God knew",
+      "variant_rendering": "God looked upon the sons of Israel, and was known to them",
+      "variant_notes": [
+        "The Hebrew ends with the enigmatic absolute 'God knew' — knew what? The LXX resolves the ambiguity by reading a passive 'was known to them' (egnōsthē autois) — God made himself known to Israel.",
+        "The Hebrew's deliberate open-endedness (with the reader supplying the implied object — knew their suffering, knew them, knew the time had come) is replaced in LXX with a theophanic claim that matches the upcoming burning bush narrative."
+      ]
+    }
+  ]
+}

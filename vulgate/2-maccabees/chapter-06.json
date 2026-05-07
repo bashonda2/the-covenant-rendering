@@ -1,0 +1,248 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "2 Maccabees",
+    "chapter": 6,
+    "tradition": "vulgate",
+    "tradition_label": "Latin Vulgate (Deuterocanonical)",
+    "source_text": "Biblia Sacra Vulgata (Stuttgart critical edition)",
+    "translator": "Jerome",
+    "date": "c. 405 CE",
+    "canon": ["catholic", "orthodox", "ethiopian"],
+    "generated_at": "2026-04-20T00:00:00Z",
+    "prompt_version": "2.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Antiochus sends Athenian agents to compel the Jews to abandon the law of God: the Temple is rededicated to Olympian Zeus, circumcision and Sabbath observance are punished by death, and Jews are forced to eat pork and participate in pagan festivals. The chapter then presents the martyrdom of Eleazar, a ninety-year-old scribe who refuses to eat pork even when friends offer him a secret substitution. He chooses death over deception, declaring that his example must not lead the young astray.",
+    "remarkable": "Eleazar's martyrdom is the first detailed account of a person choosing death rather than violate religious law in all biblical literature. His refusal of the escape plan (vv. 21-28) is the more remarkable element: he could have lived by merely pretending to eat pork. His reasoning — that even a secret compromise would corrupt the young and dishonor his old age — establishes the principle that integrity matters even when no one is watching. This became the foundational model for Christian martyrdom theology.",
+    "friction": "The Latin 'nobilem mortem' (a noble death) in verse 28 imports Greco-Roman virtue language into a Jewish martyrdom context. We preserve Jerome's term while noting that the underlying concept is distinctly Jewish: death for Torah observance, not for philosophical honor. The 'Athenian' agent sent to enforce paganism (v. 1) is an ironic detail — Athens, the city of philosophy, becomes the instrument of religious coercion.",
+    "connections": "Eleazar's martyrdom looks backward to Daniel 3 (the three youths in the furnace) and Daniel 6 (Daniel in the lions' den) — in each case, death is preferred to religious compromise. It looks forward to chapter 7 (the seven brothers), to Hebrews 11:35 ('others were tortured, not accepting deliverance'), and to the entire tradition of Christian martyrology. The abomination in the Temple (v. 2) is the historical referent for Daniel 11:31 and 12:11 ('the abomination of desolation')."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_latin": "Sed non post multum temporis misit rex senem quendam Antiochenum qui compelleret Iudaeos ut se transferrent a patriis et Dei legibus.",
+      "rendering": "Not long afterward, the king sent an elderly Athenian to compel the Jews to abandon their ancestral customs and the law of God.",
+      "translator_notes": ["The Vulgate reads 'Antiochenum' (Antiochene) but many manuscripts and the Greek tradition read 'Athenian.' We follow the reading that identifies him as Athenian, as it is the more widely attested tradition."],
+      "key_terms": [{"latin": "patriis et Dei legibus", "rendered_as": "their ancestral customs and the law of God", "note": "The pairing of ancestral custom (patria) and divine law (lex Dei) expresses the double identity under attack: cultural heritage and theological commitment."}]
+    },
+    {
+      "verse": 2,
+      "text_latin": "Contaminare etiam quod in Hierosolymis erat templum et cognominare Iovis Olympii et in Garizim prout erant hi qui locum inhabitabant Iovis Hospitalis.",
+      "rendering": "He was also to defile the Temple in Jerusalem and rename it after Olympian Zeus, and to rename the temple on Gerizim after Zeus the Hospitable, as the inhabitants of the place had requested.",
+      "translator_notes": ["The Temple is rededicated to Zeus Olympius — the 'abomination of desolation' of Daniel. The Samaritan temple on Gerizim is renamed for Zeus Xenios (the Hospitable). This double desecration affects both Jewish and Samaritan worship."],
+      "key_terms": [{"latin": "Iovis Olympii", "rendered_as": "Olympian Zeus", "note": "Jupiter/Zeus Olympius — the supreme deity of the Greek pantheon. His installation in the Temple is the defining sacrilege of the Antiochan persecution."},
+        {"latin": "Iovis Hospitalis", "rendered_as": "Zeus the Hospitable", "note": "Zeus Xenios — the god of hospitality and guest-friendship, assigned to the Samaritan temple."}]
+    },
+    {
+      "verse": 3,
+      "text_latin": "Pessima autem et omnibus gravis erat malorum incursio.",
+      "rendering": "The onset of this wickedness was most grievous and oppressive to all.",
+      "translator_notes": ["A summary statement of the horror that follows — the narrator acknowledges the extreme nature of the persecution."],
+      "key_terms": []
+    },
+    {
+      "verse": 4,
+      "text_latin": "Nam templum luxuria et comisationibus gentium erat plenum et scortantium cum meretricibus sacratasque aedes mulieres ultro ingrediebantur inconvenientia inferentes.",
+      "rendering": "For the Temple was filled with debauchery and revelry by the Gentiles, who caroused with prostitutes and had intercourse with women within the sacred courts, and also brought in things that were unlawful.",
+      "translator_notes": ["The desecration of the Temple is described in terms of sexual immorality and ritual pollution — the most extreme forms of profanation imaginable in a Jewish context."],
+      "key_terms": [{"latin": "luxuria et comisationibus", "rendered_as": "debauchery and revelry", "note": "The combination of sexual license and drunken feasting within the Temple precinct."}]
+    },
+    {
+      "verse": 5,
+      "text_latin": "Altare etiam plenum erat inlicitis quae legibus prohibebantur.",
+      "rendering": "The altar too was filled with unlawful offerings that were forbidden by the laws.",
+      "translator_notes": ["The altar of sacrifice receives prohibited offerings — likely including pig sacrifices, as described in 1 Maccabees 1:47."],
+      "key_terms": []
+    },
+    {
+      "verse": 6,
+      "text_latin": "Neque autem sabbata custodiebantur neque dies sollemnes patrii servabantur nec simpliciter se Iudaeum esse quisquam confitebatur.",
+      "rendering": "Neither were the Sabbaths kept, nor were the ancestral festivals observed, nor did anyone dare simply to confess to being a Jew.",
+      "translator_notes": ["The three markers of Jewish identity under attack: Sabbath, festivals, and public Jewish identity. Simply admitting to being Jewish became an act of courage."],
+      "key_terms": [{"latin": "Iudaeum esse", "rendered_as": "being a Jew", "note": "Jewish identity itself was criminalized — the most radical form of religious persecution."}]
+    },
+    {
+      "verse": 7,
+      "text_latin": "Ducebantur autem cum amara necessitate in die natalis regis ad sacrificia et cum Liberi sacra celebrarentur cogebantur hedera coronati Libero circumire.",
+      "rendering": "They were driven by bitter compulsion on the king's birthday to partake of the sacrifices, and when the festival of Dionysus was celebrated, they were forced to march in the procession for Dionysus, wearing wreaths of ivy.",
+      "translator_notes": ["Forced participation in pagan festivals: the king's birthday sacrifice (a Hellenistic ruler-cult practice) and the Dionysian procession with ivy wreaths. For observant Jews, this was forced apostasy."],
+      "key_terms": [{"latin": "Liberi sacra", "rendered_as": "the festival of Dionysus", "note": "Liber is the Roman name for Dionysus/Bacchus, the god of wine. The Dionysian festival with its ivy wreaths was the opposite of Torah observance."}]
+    },
+    {
+      "verse": 8,
+      "text_latin": "Decretum autem exiit in proximas gentilium civitates Ptolomaeis suadentibus ut pari modo et ipsi adversus Iudaeos agerent ut sacrificarent.",
+      "rendering": "A decree was also issued to the neighboring Greek cities, at the urging of the Ptolemeans, that they should act in the same way against the Jews and compel them to sacrifice.",
+      "translator_notes": ["The persecution extends beyond Judea to the Diaspora — Jewish communities in Greek cities face the same compulsion."],
+      "key_terms": []
+    },
+    {
+      "verse": 9,
+      "text_latin": "Eos autem qui nollent transire ad instituta gentium interficerent erat ergo videre miseriam.",
+      "rendering": "And those who refused to adopt the Greek customs were to be killed. So the misery was plain to see.",
+      "translator_notes": ["The death penalty for refusing Hellenization. 'Erat videre miseriam' — the suffering was visible and universal."],
+      "key_terms": []
+    },
+    {
+      "verse": 10,
+      "text_latin": "Duae enim mulieres delatae sunt natos suos circumcidisse quas infantibus ad ubera suspensis cum publice per civitatem circumduxissent per muros praecipitaverunt.",
+      "rendering": "For two women were reported for having circumcised their sons. They were paraded publicly through the city with the infants hanging at their breasts, and then thrown down from the city walls.",
+      "translator_notes": ["The martyrdom of the two mothers who circumcised their sons: public humiliation, the infants bound to their mothers' breasts, then death by being hurled from the walls. The specificity of the cruelty is preserved because it was remembered and honored."],
+      "key_terms": []
+    },
+    {
+      "verse": 11,
+      "text_latin": "Alii vero ad proximas coierant speluncas et latenter sabbati diem celebrantes cum indicati essent Philippo flammis succensi sunt eo quod verebantur propter religionem et observantiam manu sibimet auxilium ferre.",
+      "rendering": "Others who had gathered together in nearby caves to observe the Sabbath day in secret, when they were reported to Philip, were burned alive, because they refused on account of their religious reverence and observance to defend themselves with their own hands.",
+      "translator_notes": ["Sabbath observers burned alive in caves — they chose death over fighting on the Sabbath. This principle of not fighting on the Sabbath was later modified by Mattathias (1 Maccabees 2:41), who ruled that defensive fighting on the Sabbath was permissible."],
+      "key_terms": [{"latin": "propter religionem et observantiam", "rendered_as": "on account of their religious reverence and observance", "note": "The two grounds for refusing self-defense: religio (reverence for God) and observantia (commitment to Sabbath law)."}]
+    },
+    {
+      "verse": 12,
+      "text_latin": "Obsecro autem eos qui hunc librum lecturi sunt ne abhorrescant propter adversos casus sed reputent ea quae acciderunt non ad interitum sed ad correptionem esse generis nostri.",
+      "rendering": "Now I urge those who will read this book not to be disheartened by these calamities, but to consider that these sufferings were meant not for the destruction but for the correction of our people.",
+      "translator_notes": ["The narrator breaks in with a theological interpretation addressed directly to the reader: suffering is disciplinary, not destructive. This is the book's central theodicy — a theology of suffering as divine pedagogy."],
+      "key_terms": [{"latin": "non ad interitum sed ad correptionem", "rendered_as": "not for the destruction but for the correction", "note": "The key distinction: God's purpose in allowing suffering is corrective (correptio), not annihilating (interitus). This becomes foundational for Christian theology of suffering."}]
+    },
+    {
+      "verse": 13,
+      "text_latin": "Etenim multo tempore non sinere peccatoribus ex sententia agere sed statim ultiones adhibere magni beneficii est indicium.",
+      "rendering": "For indeed, not to leave sinners alone for a long time but to punish them promptly is a sign of great beneficence.",
+      "translator_notes": ["A paradoxical claim: swift punishment is actually a sign of God's favor. Nations God ignores are left to accumulate judgment; nations God loves are corrected quickly."],
+      "key_terms": [{"latin": "magni beneficii", "rendered_as": "great beneficence", "note": "God's discipline as a form of divine kindness — punishment as evidence of love."}]
+    },
+    {
+      "verse": 14,
+      "text_latin": "Non enim sicut in aliis nationibus Dominus patienter expectat ut eas cum iudicii dies advenerit in plenitudine peccatorum puniat.",
+      "rendering": "For the Lord does not wait patiently with us as he does with other nations, whom he punishes when the day of judgment arrives and their sins have reached their fullness.",
+      "translator_notes": ["A distinction between God's treatment of Israel and of the nations: Israel receives immediate correction; the nations are allowed to fill up their measure of sin before the final reckoning."],
+      "key_terms": [{"latin": "in plenitudine peccatorum", "rendered_as": "their sins have reached their fullness", "note": "The concept of a 'measure' of sin that must be filled before judgment falls — cf. Genesis 15:16 (the iniquity of the Amorites)."}]
+    },
+    {
+      "verse": 15,
+      "text_latin": "Ita et in nobis constituit ut peccatis nostris in finem devolutis ita demum in nos vindicet.",
+      "rendering": "So also with us he has determined not to wait until our sins have reached their limit, and only then to take vengeance.",
+      "translator_notes": ["God disciplines Israel early, before sin accumulates to the point of total destruction. This is mercy disguised as punishment."],
+      "key_terms": []
+    },
+    {
+      "verse": 16,
+      "text_latin": "Propter quod numquam quidem a nobis misericordiam suam amovet corripiens vero in adversis populum suum non derelinquit.",
+      "rendering": "Therefore he never withdraws his mercy from us; though he disciplines us with adversity, he does not forsake his own people.",
+      "translator_notes": ["The theological heart of the chapter: God never abandons Israel. Discipline is not abandonment but proof of continued relationship. 'Non derelinquit' (he does not forsake) echoes Deuteronomy 31:6."],
+      "key_terms": [{"latin": "misericordiam", "rendered_as": "his mercy", "note": "Misericordia — mercy, compassion, lovingkindness. The divine attribute that persists even through discipline."},
+        {"latin": "non derelinquit", "rendered_as": "does not forsake", "note": "The promise of unfailing divine presence — God corrects but never abandons."}]
+    },
+    {
+      "verse": 17,
+      "text_latin": "Sed haec nobis ad commonitionem legentium dicta sint paucis de ipsa autem narratione redeundum est.",
+      "rendering": "But let these things be said for the admonition of readers; we must now return to the narrative itself.",
+      "translator_notes": ["The narrator's transition back to the story — a self-aware literary move marking the end of the theological excursus."],
+      "key_terms": []
+    },
+    {
+      "verse": 18,
+      "text_latin": "Eleazarus unus de primoribus scribarum vir aetate provectus et vultu decorus aperto ore hians compellebatur carnem porcinam manducare.",
+      "rendering": "Eleazar, one of the foremost scribes, a man advanced in years and of noble appearance, was being forced to open his mouth and eat pork.",
+      "translator_notes": ["Eleazar is introduced with three identifying marks: his rank (foremost among scribes), his age (advanced in years), and his dignity (noble appearance). The forced eating of pork is the specific test of faithfulness."],
+      "key_terms": [{"latin": "primoribus scribarum", "rendered_as": "the foremost scribes", "note": "Eleazar holds a position of scholarly and religious authority — his example will be influential."},
+        {"latin": "carnem porcinam", "rendered_as": "pork", "note": "The consumption of pork, forbidden in Leviticus 11:7, was the symbolic flashpoint of the Hellenistic persecution."}]
+    },
+    {
+      "verse": 19,
+      "text_latin": "At ille gloriosissimam mortem magis quam odibilem vitam complectens voluntarie praeibat ad supplicium.",
+      "rendering": "But he, embracing a most glorious death rather than a hateful life, went forward voluntarily to the torment.",
+      "translator_notes": ["The fundamental martyrdom choice stated plainly: glorious death over hateful life. 'Voluntarie' (voluntarily) is crucial — Eleazar chooses; he is not merely overcome."],
+      "key_terms": [{"latin": "gloriosissimam mortem", "rendered_as": "a most glorious death", "note": "Death with honor — the Greco-Roman concept of noble death infused with Jewish content: death for Torah faithfulness."}]
+    },
+    {
+      "verse": 20,
+      "text_latin": "Intuens autem quemadmodum oporteret accedere sustinens destinavit non admittere inlicita propter vitae amorem.",
+      "rendering": "Looking at the manner in which he must proceed, he endured patiently, having resolved not to permit anything unlawful out of love for life.",
+      "translator_notes": ["Eleazar's resolution is both moral and intellectual: he 'looks at' the situation, 'endures,' and 'resolves.' This is not impulsive heroism but deliberate ethical reasoning."],
+      "key_terms": []
+    },
+    {
+      "verse": 21,
+      "text_latin": "Hi autem qui adstabant iniqua miseratione commoti propter antiquam viri amicitiam tollentes eum secreto rogabant adferri carnes quibus vesci ei liceret ut simularetur manducasse sicut rex imperaverat de sacrificii carnibus.",
+      "rendering": "Those who stood nearby, moved by misguided compassion and because of their longstanding friendship with the man, took him aside privately and urged him to have meat brought that he was permitted to eat, so that he could pretend to have eaten the sacrificial meat as the king had commanded.",
+      "translator_notes": ["The escape plan: friends offer Eleazar a secret substitution — eat kosher meat but pretend it is the forbidden sacrifice. This is the most sophisticated temptation: it preserves life, maintains external compliance, and involves no actual law-breaking. Eleazar's refusal of this option is what makes his martyrdom distinctive."],
+      "key_terms": [{"latin": "iniqua miseratione", "rendered_as": "misguided compassion", "note": "The friends' compassion is called 'iniqua' (unjust, misguided) because it would lead to spiritual compromise even while solving the physical danger."}]
+    },
+    {
+      "verse": 22,
+      "text_latin": "Ut hoc facto a morte liberaretur et propter veterem viri amicitiam hanc in eo facerent humanitatem.",
+      "rendering": "So that by this act he might be freed from death, and on account of their old friendship with the man, they might show him this kindness.",
+      "translator_notes": ["The friends' motives are genuine — they want to save his life out of real friendship. This makes Eleazar's refusal all the more costly: he rejects not cruelty but love."],
+      "key_terms": []
+    },
+    {
+      "verse": 23,
+      "text_latin": "At ille cogitare coepit aetatis ac senectutis suae eminentiam dignam et ingenitae nobilitatis canitiem atque a puero optimae conversationis actus et secundum sanctae et a Deo conditae legis constituta respondit cito dicens praemitti se velle in infernum.",
+      "rendering": "But he began to consider the dignity worthy of his age and his distinguished old age, and the gray hair of his inborn nobility, and his excellent conduct from childhood, and above all the holy and God-given law. He answered at once, saying that he wished to be sent ahead to the grave.",
+      "translator_notes": ["Eleazar's reasoning: his age demands consistency; his lifelong conduct demands completion; the divine law demands obedience. 'Praemitti in infernum' (to be sent ahead to the grave) is a strikingly blunt statement of his willingness to die."],
+      "key_terms": [{"latin": "sanctae et a Deo conditae legis", "rendered_as": "the holy and God-given law", "note": "The Torah as divinely established and holy — the ultimate ground of Eleazar's refusal."},
+        {"latin": "infernum", "rendered_as": "the grave", "note": "Infernum (the underworld) here means death/the grave, without the later Christian theological connotations of hell."}]
+    },
+    {
+      "verse": 24,
+      "text_latin": "Non enim aetati nostrae dignum est inquit fingere ut multi adulescentium arbitrantes Eleazarum nonaginta annorum transisse ad vitam alienigenarum.",
+      "rendering": "'For it is not fitting for our age,' he said, 'to pretend, so that many of the young would suppose that Eleazar, at ninety years of age, had gone over to the foreign way of life.'",
+      "translator_notes": ["The first argument: his example will mislead the young. If a ninety-year-old scribe appears to apostatize, younger Jews will conclude that compromise is acceptable. The responsibility of the elder's example outweighs personal survival."],
+      "key_terms": [{"latin": "vitam alienigenarum", "rendered_as": "the foreign way of life", "note": "The Hellenistic lifestyle that the persecution demanded Jews adopt — apostasy from Torah."}]
+    },
+    {
+      "verse": 25,
+      "text_latin": "Et ipsi propter meam simulationem et propter modicum corruptibilis vitae tempus decipiantur et per hoc maculam atque execrationem meae senectuti conquiram.",
+      "rendering": "'And they, because of my pretense, and for the sake of a brief moment of this corruptible life, would be led astray by me; and thus I would bring stain and curse upon my old age.'",
+      "translator_notes": ["The second argument: his old age would be cursed, not honored. A lifetime of faithfulness would end in deception — making his entire life a lie."],
+      "key_terms": [{"latin": "corruptibilis vitae", "rendered_as": "this corruptible life", "note": "Life as perishable and temporary — an early expression of the mortal/immortal contrast that pervades 2 Maccabees."}]
+    },
+    {
+      "verse": 26,
+      "text_latin": "Nam etsi in praesenti tempore suppliciis hominum eripiar sed manum Omnipotentis nec vivus nec defunctus effugiam.",
+      "rendering": "'For even if for the present I should escape the punishment of mortals, yet I shall not escape the hand of the Almighty, whether alive or dead.'",
+      "translator_notes": ["The third and decisive argument: human punishment is escapable; divine judgment is not. The alternative to human execution is divine punishment for unfaithfulness — and that is inescapable."],
+      "key_terms": [{"latin": "manum Omnipotentis", "rendered_as": "the hand of the Almighty", "note": "The omnipotent reach of God — no one escapes divine judgment, not even in death."}]
+    },
+    {
+      "verse": 27,
+      "text_latin": "Quam ob rem fortiter vita excedendo senectute quidem dignus apparebo.",
+      "rendering": "'Therefore, by departing this life bravely, I shall show myself worthy of my old age.'",
+      "translator_notes": ["Eleazar's resolution: a brave death completes a faithful life. 'Fortiter' (bravely, courageously) connects his dying to the virtue tradition."],
+      "key_terms": []
+    },
+    {
+      "verse": 28,
+      "text_latin": "Adulescentibus autem exemplum forte relinquam si prompto animo ac fortiter pro gravissimis ac sanctissimis legibus honesta morte perfungar. His dictis confestim ad supplicium trahebatur.",
+      "rendering": "'And I shall leave to the young a noble example, if with a ready spirit and courage I undergo an honorable death for the sake of the most solemn and holy laws.' Having said this, he was immediately dragged to the torment.",
+      "translator_notes": ["Eleazar explicitly states that his death is an exemplum (example) for the young. 'Honesta morte' (an honorable death) and 'sanctissimis legibus' (the most holy laws) frame martyrdom as the intersection of honor and holiness."],
+      "key_terms": [{"latin": "exemplum forte", "rendered_as": "a noble example", "note": "The exemplum — a model for imitation. Eleazar's death is pedagogical: it teaches how to die faithfully."},
+        {"latin": "honesta morte", "rendered_as": "an honorable death", "note": "Death with honor for the sake of divine law — the Jewish martyrdom ideal."}]
+    },
+    {
+      "verse": 29,
+      "text_latin": "Hi autem qui eum ducebant et paulo ante fuerant mitiores in iram conversi sunt propter sermones ab eo dictos quos illi per arrogantiam prolatos arbitrabantur.",
+      "rendering": "Those who were leading him, who a little before had been more mild, were turned to anger because of the words he had spoken, which they considered to have been uttered out of arrogance.",
+      "translator_notes": ["The executioners misinterpret Eleazar's principled speech as arrogance. What is moral courage from one perspective is perceived as defiance from another."],
+      "key_terms": []
+    },
+    {
+      "verse": 30,
+      "text_latin": "Sed cum plagis perimeretur ingemuit et dixit Domine qui habes sanctam scientiam manifeste tu scis quia cum a morte possem liberari duros corporis sustineo dolores secundum autem animam propter timorem tuum libenter haec patior.",
+      "rendering": "But when he was about to die under the blows, he groaned and said, 'Lord, you who have holy knowledge, you clearly know that though I could have been freed from death, I endure these cruel bodily pains; but in my soul, because of my reverence for you, I suffer these things willingly.'",
+      "translator_notes": ["Eleazar's death prayer addresses God as the one who possesses 'sanctam scientiam' (holy knowledge) — God knows the truth of his choice. The body-soul distinction is significant: the body suffers unwillingly; the soul suffers willingly. This is not masochism but freely chosen obedience."],
+      "key_terms": [{"latin": "sanctam scientiam", "rendered_as": "holy knowledge", "note": "God's perfect, holy knowledge — he knows Eleazar's true motives, even if humans misread them."},
+        {"latin": "propter timorem tuum", "rendered_as": "because of my reverence for you", "note": "Timor Dei — the fear/reverence of God, the motivating force behind the martyr's choice."}]
+    },
+    {
+      "verse": 31,
+      "text_latin": "Et iste quidem hoc modo vita decessit non solum iuvenibus sed et universae genti memoriam mortis suae ad exemplum virtutis et fortitudinis derelinquens.",
+      "rendering": "And so he departed this life, leaving his death as a memorial not only to the young but to the whole nation — an example of virtue and courage.",
+      "translator_notes": ["The narrator's final verdict: Eleazar's death is a 'memoriam' (memorial) and 'exemplum virtutis et fortitudinis' (example of virtue and courage). His death is not waste but legacy."],
+      "key_terms": [{"latin": "exemplum virtutis et fortitudinis", "rendered_as": "an example of virtue and courage", "note": "The twin qualities embodied in martyrdom: moral excellence (virtus) and brave endurance (fortitudo)."}]
+    }
+  ]
+}

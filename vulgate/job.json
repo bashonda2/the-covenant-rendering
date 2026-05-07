@@ -1,0 +1,230 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Job",
+    "tradition": "vulgate",
+    "tradition_label": "Latin Vulgate",
+    "source_text": "Biblia Sacra Vulgata (Stuttgart critical edition)",
+    "base_text": "Westminster Leningrad Codex (WLC)",
+    "translator": "Jerome (Eusebius Sophronius Hieronymus)",
+    "date": "382-405 CE",
+    "generated_at": "2026-04-20T00:00:00Z",
+    "prompt_version": "2.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Jerome translated Job directly from the Hebrew, noting in his preface that the book was extraordinarily difficult due to its rare vocabulary and obscure poetic forms. He described Job's text as slippery like an eel — the more one grasps it, the more quickly it escapes. Jerome's Latin rendering of Job shaped Western theodicy, funeral liturgy, and the concept of patient suffering for over a millennium.",
+    "notable_renderings": "The redeemer passage (19:25) became a cornerstone of resurrection theology; filii Dei (1:6) established the 'sons of God' tradition; the divine speeches' whirlwind vocabulary (de turbine) shaped Western theophany language; and Jerome's handling of Behemoth and Leviathan preserved their mythological resonance while anchoring them in natural history traditions.",
+    "theological_legacy": "Job's Vulgate text provided the Western church with its primary vocabulary for suffering, patience, divine justice, and resurrection hope. The Office of the Dead drew heavily from Job. Phrases like scio quod redemptor meus vivit entered funeral liturgy and became among the most recognized Latin biblical phrases in Western culture. Gregory the Great's Moralia in Iob, the most influential medieval commentary, worked entirely from Jerome's text."
+  },
+  "renderings": [
+    {
+      "reference": "Job 1:1",
+      "source_text": "אִישׁ הָיָה בְאֶרֶץ־עוּץ אִיּוֹב שְׁמוֹ וְהָיָה הָאִישׁ הַהוּא תָּם וְיָשָׁר (ish hayah ve'eretz-Utz Iyyov shemo vehayah ha'ish hahu tam veyashar)",
+      "vulgate_text": "vir erat in terra Hus nomine Iob et erat vir ille simplex et rectus",
+      "vulgate_rendering": "There was a man in the land of Hus named Job, and that man was simple and upright",
+      "tcr_rendering": "There was a man in the land of Uz — his name was Job — and that man was whole and upright",
+      "theological_legacy": "Simplex (simple) for Hebrew tam (whole, complete, blameless) introduced a nuance of guileless simplicity rather than moral completeness. This shaped the Western reading of Job as naive innocence tested, rather than as integrated wholeness challenged.",
+      "notes": ["Hebrew tam connotes completeness, integrity, wholeness (related to tamim, 'blameless'). Jerome's simplex suggests single-heartedness or lack of duplicity rather than the fuller sense of moral maturity. Gregory the Great built extensively on this word choice in his Moralia."]
+    },
+    {
+      "reference": "Job 1:6",
+      "source_text": "וַיָּבֹאוּ בְּנֵי הָאֱלֹהִים לְהִתְיַצֵּב עַל־יְהוָה וַיָּבוֹא גַם־הַשָּׂטָן בְּתוֹכָם (vayyavo'u benei ha-Elohim lehityatzev al-YHVH vayyavo gam-hassatan betokham)",
+      "vulgate_text": "quadam autem die cum venissent filii Dei ut assisterent coram Domino adfuit inter eos etiam Satan",
+      "vulgate_rendering": "Now on a certain day when the sons of God came to stand before the Lord, Satan also was present among them",
+      "tcr_rendering": "Now the day came when the sons of God came to present themselves before YHVH, and the Adversary also came among them",
+      "theological_legacy": "Jerome's filii Dei (sons of God) preserved the enigmatic Hebrew benei ha-Elohim without rationalizing it as 'angels.' His rendering of hassatan (the adversary, with the definite article) as the proper name Satan — dropping the article and function — transformed a legal-accuser role into a personal demonic identity, profoundly shaping Western demonology.",
+      "notes": ["Hebrew hassatan with the definite article functions as a title ('the adversary/accuser') rather than a proper name. The figure acts as a prosecuting attorney in the divine council. Jerome's omission of the article created 'Satan' as a proper noun in Western consciousness. This became the foundation for medieval and later Satan as a named cosmic villain."]
+    },
+    {
+      "reference": "Job 1:21",
+      "source_text": "יְהוָה נָתַן וַיהוָה לָקָח יְהִי שֵׁם יְהוָה מְבֹרָךְ (YHVH natan vaYHVH laqach yehi shem YHVH mevorakh)",
+      "vulgate_text": "Dominus dedit Dominus abstulit sit nomen Domini benedictum",
+      "vulgate_rendering": "The Lord gave, the Lord has taken away; blessed be the name of the Lord",
+      "tcr_rendering": "YHVH gave, and YHVH has taken away; let the name of YHVH be blessed",
+      "theological_legacy": "Dominus dedit Dominus abstulit became one of the most quoted funeral phrases in Western history. It entered the Office of the Dead and became the standard expression of Christian resignation to providence. The balanced Latin cadence made it easily memorable and endlessly quotable.",
+      "notes": ["Jerome's rendering is semantically faithful to the Hebrew. Its cultural power derives from liturgical repetition and the inherent rhetorical balance of the phrase. It became the epitome of pious acceptance of suffering in Western culture."]
+    },
+    {
+      "reference": "Job 2:9",
+      "source_text": "בָּרֵךְ אֱלֹהִים וָמֻת (barekh Elohim vamut)",
+      "vulgate_text": "benedic Deo et morere",
+      "vulgate_rendering": "Bless God and die",
+      "tcr_rendering": "Curse God and die",
+      "theological_legacy": "The Hebrew barekh is a euphemism — it literally says 'bless' but means 'curse' (a scribal avoidance of writing 'curse God'). Jerome preserved the surface euphemism with benedic (bless), creating an ironic reading in Latin tradition. Some Latin readers took it literally as sincere advice to praise God and accept death, completely inverting the Hebrew intent.",
+      "notes": ["This is one of the famous tiqqunei soferim (scribal corrections) or euphemistic uses where 'bless' replaces 'curse' to avoid blasphemous phrasing. Jerome's literal preservation of the euphemism created genuine interpretive confusion in the Latin tradition. Many Western commentators read Mrs. Job as piously advising her husband rather than bitterly urging blasphemy."]
+    },
+    {
+      "reference": "Job 3:8",
+      "source_text": "הָעֲתִידִים עֹרֵר לִוְיָתָן (ha'atidim orer Livyatan)",
+      "vulgate_text": "qui parati sunt suscitare Leviathan",
+      "vulgate_rendering": "Those who are ready to rouse Leviathan",
+      "tcr_rendering": "Those skilled at rousing Leviathan",
+      "theological_legacy": "Jerome's transliteration of Leviathan (rather than translating it as 'sea-serpent' or 'dragon') preserved the mythological name in Western consciousness. Leviathan became a major symbol in Western political philosophy (Hobbes), art, and demonology, partly because Jerome kept the Hebrew name rather than domesticating it.",
+      "notes": ["The context involves professional curse-speakers who could rouse primordial chaos. Jerome maintained Leviathan as a proper name throughout Job, establishing it as the standard Western designation for the chaos monster."]
+    },
+    {
+      "reference": "Job 5:7",
+      "source_text": "כִּי־אָדָם לְעָמָל יוּלָּד וּבְנֵי־רֶשֶׁף יַגְבִּיהוּ עוּף (ki-adam le'amal yullad uvenei-reshef yagbihu uf)",
+      "vulgate_text": "homo ad laborem nascitur et avis ad volatum",
+      "vulgate_rendering": "Man is born to labor, and the bird to flight",
+      "tcr_rendering": "Indeed, a human is born to trouble, as sparks fly upward",
+      "theological_legacy": "Jerome rendered amal (trouble, toil, misery) as laborem (labor, work), shifting the sense from existential suffering to productive toil. This aligned with the Benedictine motto ora et labora and supported the medieval theology of redemptive work. Benei reshef (sons of flame/sparks) became avis (bird), losing the fire imagery entirely.",
+      "notes": ["Hebrew amal encompasses suffering, trouble, and wearisome toil. Jerome's laborem narrowed this toward productive work. The 'sons of reshef' (sparks, or possibly flames) became simply 'bird' — Jerome may have read the upward flight imagery and simplified. The Latin version became a proof-text for the dignity of labor in monastic tradition."]
+    },
+    {
+      "reference": "Job 7:1",
+      "source_text": "הֲלֹא־צָבָא לֶאֱנוֹשׁ עֲלֵי־אָרֶץ (halo-tzava le'enosh alei-aretz)",
+      "vulgate_text": "militia est vita hominis super terram",
+      "vulgate_rendering": "The life of man upon earth is a warfare",
+      "tcr_rendering": "Is not a man's time on earth hard service?",
+      "theological_legacy": "Militia est vita hominis (life is a warfare) became one of the most quoted phrases in Western ascetic and military theology. It provided the conceptual basis for the Church Militant, spiritual warfare traditions, and the Jesuit self-understanding as soldiers of Christ.",
+      "notes": ["Hebrew tzava means forced labor, military service, or hard service. Jerome's militia (military service/warfare) selected the martial sense over the forced-labor sense. This profoundly shaped Western Christianity's embrace of military metaphors for the spiritual life. The phrase was quoted by virtually every major Western spiritual writer."]
+    },
+    {
+      "reference": "Job 13:15",
+      "source_text": "הֵן יִקְטְלֵנִי לֹא אֲיַחֵל (hen yiqteleni lo ayachel)",
+      "vulgate_text": "etiam si occiderit me in ipso sperabo",
+      "vulgate_rendering": "Even if he should kill me, I will hope in him",
+      "tcr_rendering": "Look — he will slay me; I have no hope",
+      "theological_legacy": "This is one of the most consequential divergences in the book. The Hebrew ketiv (written text) has lo (not) — 'I have no hope' or 'I will not wait.' The qere (read text) has lo (to him) — 'I will hope in him.' Jerome followed the qere/positive reading, creating the heroic faith statement that became the epitome of unconditional trust in God throughout Western theology.",
+      "notes": ["The ketiv/qere distinction here creates opposite meanings. Most modern scholars follow the ketiv (negative): Job defiantly says he has nothing left to lose. Jerome's positive reading (following qere and LXX) made this the ultimate expression of fides in Western tradition — trust in God even unto death. It was quoted in martyrologies and spiritual classics for centuries."]
+    },
+    {
+      "reference": "Job 14:1-2",
+      "source_text": "אָדָם יְלוּד אִשָּׁה קְצַר יָמִים וּשְׂבַע־רֹגֶז כְּצִיץ יָצָא וַיִּמָּל (adam yelud ishah qetzar yamim useva-rogez ketzitz yatza vayyimmal)",
+      "vulgate_text": "homo natus de muliere brevi vivens tempore repletur multis miseriis qui quasi flos egreditur et conteritur",
+      "vulgate_rendering": "Man born of woman, living for a short time, is filled with many miseries; who comes forth like a flower and is cut down",
+      "tcr_rendering": "A human born of woman is short of days and full of turmoil; like a blossom he comes forth and withers",
+      "theological_legacy": "Homo natus de muliere entered the Office of the Dead (Matins, first nocturn) and became the standard opening of Western funeral liturgy. The phrase shaped the Western ars moriendi tradition and medieval memento mori culture.",
+      "notes": ["Jerome's rendering is close to the Hebrew but his word choices — miseriis (miseries) for rogez (turmoil, agitation) and conteritur (is crushed) for yimmal (withers, is cut off) — slightly intensify the pathos. The liturgical use in the Office of the Dead ensured these words were heard at every medieval Christian funeral."]
+    },
+    {
+      "reference": "Job 14:14",
+      "source_text": "אִם־יָמוּת גֶּבֶר הֲיִחְיֶה (im-yamut gever hayichyeh)",
+      "vulgate_text": "putasne mortuus homo rursum vivat",
+      "vulgate_rendering": "If a man die, shall he live again?",
+      "tcr_rendering": "If a strong man dies, will he live again?",
+      "theological_legacy": "This question became the fundamental formulation of the resurrection question in Western theology. Jerome's mortuus homo (dead man) universalizes what Hebrew gever (strong man, warrior) particularizes. The rhetorical question format shaped centuries of apologetic and philosophical engagement with death.",
+      "notes": ["Hebrew gever specifically denotes a strong or mighty man, adding irony — even the strong die. Jerome's homo (man, human being) generalizes the question to all humanity. The passage was central to medieval debates about the resurrection of the body."]
+    },
+    {
+      "reference": "Job 19:20",
+      "source_text": "בְּעוֹרִי וּבִבְשָׂרִי וָאֶתְמַלְּטָה בְּעוֹר שִׁנָּי (be'ori uvvisari va'etmalletah be'or shinnai)",
+      "vulgate_text": "pelli meae consumptis carnibus adhaesit os meum et derelicta sunt tantummodo labia circa dentes meos",
+      "vulgate_rendering": "My bone has clung to my skin, the flesh being consumed, and only my lips are left around my teeth",
+      "tcr_rendering": "I have escaped with the skin of my teeth",
+      "theological_legacy": "The English idiom 'by the skin of my teeth' derives from this passage through the Vulgate and subsequent translations. Jerome expanded the terse Hebrew considerably, making the physical suffering more graphic and medically detailed than the original's compressed imagery.",
+      "notes": ["The Hebrew phrase be'or shinnai (skin of my teeth) is proverbially obscure — teeth have no skin. Jerome expanded the verse into a more anatomically explicit description of emaciation. The phrase nonetheless entered English idiom as meaning 'barely' or 'by the narrowest margin.'"]
+    },
+    {
+      "reference": "Job 19:25-26",
+      "source_text": "וַאֲנִי יָדַעְתִּי גֹּאֲלִי חָי וְאַחֲרוֹן עַל־עָפָר יָקוּם וְאַחַר עוֹרִי נִקְּפוּ־זֹאת וּמִבְּשָׂרִי אֶחֱזֶה אֱלוֹהַּ",
+      "vulgate_text": "scio enim quod redemptor meus vivit et in novissimo die de terra surrecturus sum et rursum circumdabor pelle mea et in carne mea videbo Deum meum",
+      "vulgate_rendering": "For I know that my Redeemer lives, and on the last day I shall rise from the earth, and again I shall be clothed with my skin, and in my flesh I shall see my God",
+      "tcr_rendering": "But I know that my Vindicator lives, and at the last he will stand upon the dust; and after my skin has been thus destroyed, yet from my flesh I shall see God",
+      "theological_legacy": "This is perhaps the most theologically consequential rendering in the entire book. Jerome's redemptor (Redeemer) for go'el (kinsman-vindicator) and his explicit in novissimo die (on the last day) and surrecturus sum (I shall rise) transformed a contested passage about legal vindication into an unambiguous prophecy of bodily resurrection. Handel set it in the Messiah. It is sung at virtually every Christian funeral in the Western tradition.",
+      "notes": ["Hebrew go'el is a legal term: the kinsman responsible for vindicating family rights, redeeming property, or avenging blood. The Hebrew text of vv. 25-26 is notoriously difficult and possibly corrupt. Jerome's rendering decisively resolves every ambiguity toward bodily resurrection: redemptor (Redeemer, not vindicator), in novissimo die (on the last day — not in the Hebrew), de terra surrecturus sum (I shall rise from the earth — interpretive expansion), in carne mea videbo Deum (in my flesh I shall see God). This became the most important Old Testament resurrection proof-text in Western theology."]
+    },
+    {
+      "reference": "Job 28:12",
+      "source_text": "וְהַחָכְמָה מֵאַיִן תִּמָּצֵא וְאֵי זֶה מְקוֹם בִּינָה (veha-chokhmah me'ayin timmatze ve'ei zeh meqom binah)",
+      "vulgate_text": "sapientia vero ubi invenitur et quis est locus intellegentiae",
+      "vulgate_rendering": "But where is wisdom found, and where is the place of understanding?",
+      "tcr_rendering": "But wisdom — where can it be found? And where is the place of understanding?",
+      "theological_legacy": "Jerome's sapientia (wisdom) for chokhmah established the Latin vocabulary that connected Job's wisdom poem to the broader sapiential tradition. This chapter became a key text in scholastic philosophy's quest to define the relationship between human knowledge and divine wisdom.",
+      "notes": ["The Wisdom Poem of Job 28 is one of the great philosophical passages of the Hebrew Bible. Jerome's straightforward rendering preserved its power. The Latin intellegentiae (understanding/intelligence) for binah carries a slightly more cognitive-rational nuance than the Hebrew's broader 'discernment.'"]
+    },
+    {
+      "reference": "Job 28:28",
+      "source_text": "הֵן יִרְאַת אֲדֹנָי הִיא חָכְמָה וְסוּר מֵרָע בִּינָה (hen yir'at Adonai hi chokhmah vesur mera binah)",
+      "vulgate_text": "ecce timor Domini ipsa est sapientia et recedere a malo intellegentia",
+      "vulgate_rendering": "Behold, the fear of the Lord, that is wisdom; and to depart from evil is understanding",
+      "tcr_rendering": "Look — the fear of the Lord, that is wisdom, and turning from evil is understanding",
+      "theological_legacy": "Timor Domini ipsa est sapientia linked Job's conclusion to Proverbs 1:7 and the broader wisdom tradition. This verse became a key text for defining sapientia in medieval theology — wisdom is not speculative knowledge but reverential relationship with God.",
+      "notes": ["This verse uses Adonai rather than YHVH, which is unusual in Job. Jerome's timor Domini (fear of the Lord) became the standard Latin formulation linking all the wisdom books together into a unified sapiential theology."]
+    },
+    {
+      "reference": "Job 38:1",
+      "source_text": "וַיַּעַן יְהוָה אֶת־אִיּוֹב מִן הַסְּעָרָה (vaiyya'an YHVH et-Iyyov min hasse'arah)",
+      "vulgate_text": "respondens autem Dominus Iob de turbine dixit",
+      "vulgate_rendering": "Then the Lord answered Job out of the whirlwind and said",
+      "tcr_rendering": "Then YHVH answered Job from the storm-wind",
+      "theological_legacy": "De turbine (out of the whirlwind) became the standard Western image of divine theophany in its terrifying aspect. The whirlwind as the locus of God's self-revelation shaped Western art, literature (Blake, Hopkins), and theology of divine transcendence.",
+      "notes": ["Hebrew se'arah means storm, tempest, or storm-wind. Jerome's turbo/turbine (whirlwind, tornado) emphasizes rotational violence. The image became iconic: God speaks not in gentle explanation but from overwhelming natural power. This influenced the entire Western sublime tradition."]
+    },
+    {
+      "reference": "Job 38:4",
+      "source_text": "אֵיפֹה הָיִיתָ בְּיָסְדִי־אָרֶץ (eifoh hayita beyosdi-aretz)",
+      "vulgate_text": "ubi eras quando ponebam fundamenta terrae",
+      "vulgate_rendering": "Where were you when I laid the foundations of the earth?",
+      "tcr_rendering": "Where were you when I founded the earth?",
+      "theological_legacy": "Quando ponebam fundamenta terrae (when I was laying the foundations of the earth) became a standard text for creation theology and divine sovereignty. The architectural metaphor of fundamenta (foundations) shaped Western cosmological imagination — the earth as a building with foundations laid by God.",
+      "notes": ["Jerome expanded the compressed Hebrew beyosdi-aretz (at my founding of earth) into the more vivid ponebam fundamenta terrae (I was laying the foundations of the earth). The architectural expansion became standard in Western creation theology."]
+    },
+    {
+      "reference": "Job 38:7",
+      "source_text": "בְּרָן־יַחַד כּוֹכְבֵי בֹקֶר וַיָּרִיעוּ כָּל־בְּנֵי אֱלֹהִים (beran-yachad kokhvei voqer vayyari'u kol-benei Elohim)",
+      "vulgate_text": "cum me laudarent simul astra matutina et iubilarent omnes filii Dei",
+      "vulgate_rendering": "When the morning stars praised me together and all the sons of God shouted for joy",
+      "tcr_rendering": "When the morning stars sang together and all the sons of God shouted for joy",
+      "theological_legacy": "Jerome's filii Dei (sons of God) here parallels his rendering in 1:6, maintaining consistency for the divine council concept. Astra matutina (morning stars) praising God became a key image in Christian angelology — the stars as sentient, worshipping beings.",
+      "notes": ["The parallelism of morning stars // sons of God suggests these are the same beings described differently. Jerome's rendering preserved this parallelism and its theological implications for the heavenly court. The image influenced Milton and the tradition of angelic creation-praise."]
+    },
+    {
+      "reference": "Job 40:15",
+      "source_text": "הִנֵּה־נָא בְהֵמוֹת אֲשֶׁר־עָשִׂיתִי עִמָּךְ (hinneh-na vehemot asher-asiti immakh)",
+      "vulgate_text": "ecce behemoth quem feci tecum",
+      "vulgate_rendering": "Behold Behemoth, which I made along with you",
+      "tcr_rendering": "Look now at Behemoth, which I made along with you",
+      "theological_legacy": "Jerome's transliteration of behemot (rather than translating as 'great beast' or 'hippopotamus') preserved the mythological grandeur of the creature. This established Behemoth as a proper name in Western demonology and monster lore, eventually becoming associated with demonic forces in medieval tradition.",
+      "notes": ["Hebrew behemot is an intensive plural of behemah (beast), likely meaning 'the great beast' or 'the beast par excellence.' By transliterating rather than translating, Jerome preserved the enigmatic quality. Medieval bestiaries and demonologies built elaborate traditions around the named creature. The description likely refers to the hippopotamus or a mythological amplification thereof."]
+    },
+    {
+      "reference": "Job 41:1 [Hebrew 40:25]",
+      "source_text": "תִּמְשֹׁךְ לִוְיָתָן בְּחַכָּה (timshokh Livyatan bechakkah)",
+      "vulgate_text": "an extrahere poteris Leviathan hamo",
+      "vulgate_rendering": "Can you draw out Leviathan with a hook?",
+      "tcr_rendering": "Can you draw out Leviathan with a fishhook?",
+      "theological_legacy": "Like Behemoth, Jerome's transliteration of Leviathan preserved the mythological name. The Leviathan became one of the most potent symbols in Western political philosophy (Hobbes), art (Blake), and theology (the mouth of hell in medieval iconography). The fishing-hook image was allegorized by Gregory the Great as Christ's cross hooking Satan.",
+      "notes": ["Jerome maintained the Hebrew name throughout the extended Leviathan passage (chapters 40-41). Gregory the Great's allegorical reading in the Moralia — where God hooks Leviathan/Satan on the cross like a fish — became one of the most influential atonement images in medieval theology."]
+    },
+    {
+      "reference": "Job 42:2",
+      "source_text": "יָדַעְתִּי כִּי־כֹל תּוּכָל וְלֹא־יִבָּצֵר מִמְּךָ מְזִמָּה (yada'ti ki-khol tukhal velo-yibatzer mimekha mezimmah)",
+      "vulgate_text": "scio quia omnia potes et nulla te latet cogitatio",
+      "vulgate_rendering": "I know that you can do all things, and no thought is hidden from you",
+      "tcr_rendering": "I know that you can do all things, and no purpose of yours can be thwarted",
+      "theological_legacy": "Jerome shifted mezimmah (purpose, plan) toward cogitatio (thought), and changed 'thwarted' to 'hidden from you,' transforming a statement about divine omnipotence (no plan can be thwarted) into one about divine omniscience (no thought is hidden). This supported scholastic theology's treatment of divine attributes.",
+      "notes": ["Hebrew yibatzer means 'to be cut off, restrained, thwarted.' Jerome's nulla te latet (nothing is hidden from you) introduces omniscience where the Hebrew emphasizes omnipotence. The distinction matters theologically: the Hebrew says God's purposes cannot be stopped; Jerome says God's knowledge cannot be limited."]
+    },
+    {
+      "reference": "Job 42:5-6",
+      "source_text": "לְשֵׁמַע־אֹזֶן שְׁמַעְתִּיךָ וְעַתָּה עֵינִי רָאָתְךָ עַל־כֵּן אֶמְאַס וְנִחַמְתִּי עַל־עָפָר וָאֵפֶר",
+      "vulgate_text": "auditu auris audivi te nunc autem oculus meus videt te idcirco ipse me reprehendo et ago paenitentiam in favilla et cinere",
+      "vulgate_rendering": "I had heard of you by the hearing of the ear, but now my eye sees you; therefore I reprehend myself and do penance in dust and ashes",
+      "tcr_rendering": "By hearing of the ear I had heard you, but now my eye has seen you; therefore I retract and am comforted concerning dust and ashes",
+      "theological_legacy": "Jerome's ago paenitentiam (I do penance) for Hebrew nichamti (I am comforted/I relent/I change my mind) is the book's climactic interpretive crux. The Hebrew nacham can mean comfort, relent, or repent — Jerome chose unambiguous repentance. This made Job's ending a model of penitential submission rather than (as many modern scholars read it) a moment of comfort, acceptance, or even protest.",
+      "notes": ["The verb nacham in the niphal has a wide semantic range: to be comforted, to relent, to feel sorrow, to change one's mind. The preposition al can mean 'concerning' or 'on/upon.' Modern readings include: 'I am comforted concerning dust and ashes,' 'I retract and relent, being but dust and ashes,' or even 'I reject [comfort] and mourn upon dust and ashes.' Jerome's decisive paenitentiam (penance/repentance) established the orthodox Western reading: Job repents of his complaints against God. This shaped the entire Western reception of the book as ultimately vindicating God's justice."]
+    },
+    {
+      "reference": "Job 42:6 (cont.)",
+      "source_text": "אֶמְאַס (em'as)",
+      "vulgate_text": "ipse me reprehendo",
+      "vulgate_rendering": "I reprehend myself",
+      "tcr_rendering": "I retract",
+      "theological_legacy": "Hebrew em'as (I reject/despise/retract) has no explicit object in the Hebrew text. Jerome supplied me (myself) as the object — 'I reprehend myself' — making Job's self-accusation explicit. This interpretive addition reinforced the penitential reading of the ending.",
+      "notes": ["The Hebrew verb ma'as means 'to reject, despise, refuse.' Without a stated object, it is genuinely ambiguous: Job might reject his previous words, reject himself, reject comfort, or reject his suffering. Jerome's reflexive me reprehendo (I rebuke myself) resolves the ambiguity toward self-condemnation, supporting the theology of humble submission before God."]
+    },
+    {
+      "reference": "Job 19:27",
+      "source_text": "אֲשֶׁר אֲנִי אֶחֱזֶה־לִּי וְעֵינַי רָאוּ וְלֹא־זָר (asher ani echezeh-li ve'einai ra'u velo-zar)",
+      "vulgate_text": "quem visurus sum ego ipse et oculi mei conspecturi sunt et non alius",
+      "vulgate_rendering": "Whom I myself shall see, and my eyes shall behold, and not another",
+      "tcr_rendering": "Whom I shall see for myself, and my eyes shall behold, and not a stranger",
+      "theological_legacy": "Et non alius (and not another) reinforced the personal, bodily nature of resurrection hope in Western theology. Jerome ensured that Job's vision of God would be understood as his own personal, embodied experience — not delegated to another or experienced through a substitute.",
+      "notes": ["Hebrew velo-zar (and not a stranger/foreigner) could mean Job's eyes (not a stranger's) will see God, or that God will not appear as a stranger. Jerome's et non alius (and not another) emphasizes personal identity continuity through death — I myself, not someone else, will see God. This supported Western theology of bodily resurrection with personal identity preserved."]
+    }
+  ]
+}

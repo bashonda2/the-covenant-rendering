@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Hosea",
+    "tradition": "lxx",
+    "tradition_label": "Septuagint (LXX)",
+    "source_text": "Rahlfs-Hanhart, Septuaginta",
+    "base_text": "Westminster Leningrad Codex (WLC)",
+    "translators": "Alexandrian Jewish translators (2nd c. BCE)",
+    "date": "2nd century BCE",
+    "generated_at": "2026-04-22T00:00:00Z",
+    "prompt_version": "1.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "LXX Hosea is among the most frequently quoted Minor Prophets in the NT. Four of Hosea's key sayings shape foundational New Testament theology in their LXX form: the covenant-inclusion formula at 2:23, the 'mercy not sacrifice' of 6:6, 'out of Egypt I called my son' at 11:1, and the death-taunt at 13:14. The LXX of Hosea is sometimes difficult in Hebrew and the translators struggled with obscure idioms, but the NT-quoted passages all render cleanly.",
+    "notable_variants": "The 2:23 'not my people / my people' formula quoted at Romans 9:25 and 1 Peter 2:10 as the ground for Gentile inclusion; the 6:6 mercy-not-sacrifice saying quoted twice by Jesus in Matthew (9:13, 12:7); the 11:1 'out of Egypt I called my son' that Matthew 2:15 applies to Jesus' return from Egypt; the death-taunt of 13:14 quoted triumphantly at 1 Corinthians 15:54–55.",
+    "theological_legacy": "These four LXX Hosea passages are among the densest knots of LXX-dependent NT theology anywhere in the Minor Prophets. Gentile inclusion, mercy over sacrifice, Christological exile-typology, and resurrection triumph — all are argued in the NT using LXX Hosea's specific Greek wording."
+  },
+  "renderings": [
+    {
+      "reference": "Hosea 2:23",
+      "mt_reading": "וְאָמַרְתִּי לְלֹא־עַמִּי עַמִּי־אַתָּה",
+      "lxx_reading": "καὶ ἐρῶ τῷ οὐ λαῷ μου λαός μου εἶ σύ",
+      "mt_rendering": "I will say to 'Not My People,' 'You are my people'",
+      "lxx_rendering": "I will say to 'Not My People,' 'You are my people'",
+      "significance": "theological",
+      "notes": [
+        "Romans 9:25 quotes this verse verbatim in its LXX form as proof that God has called 'not my people' to become his people: 'Those who were not my people I will call my people, and her who was not beloved I will call beloved.' Paul's argument for Gentile inclusion runs directly through LXX Hosea.",
+        "1 Peter 2:10 ('Once you were not a people, but now you are God's people; once you had not received mercy, but now you have received mercy') reworks the same Hosea passage into an explicitly Gentile-Christian ecclesiology.",
+        "Two independent NT books deploy LXX Hosea 2:23 for the same theological move — this is one of the clearest cases of shared early-Christian exegesis built on the Greek OT."
+      ]
+    },
+    {
+      "reference": "Hosea 6:6",
+      "mt_reading": "כִּי חֶסֶד חָפַצְתִּי וְלֹא־זָבַח",
+      "lxx_reading": "διότι ἔλεος θέλω καὶ οὐ θυσίαν",
+      "mt_rendering": "For I desire faithful love and not sacrifice",
+      "lxx_rendering": "For I desire mercy and not sacrifice",
+      "significance": "theological",
+      "notes": [
+        "Jesus quotes this verse twice in Matthew's Gospel: at 9:13 (defending his table-fellowship with tax collectors and sinners) and at 12:7 (defending his disciples' Sabbath grain-picking). Both citations use the LXX's wording — eleos thelō kai ou thysian — verbatim.",
+        "Hebrew chesed ('faithful love, covenant loyalty') is rendered eleos ('mercy'), the standard LXX equivalence. Jesus' weaponizing of this LXX verse against legal formalism is quintessentially Matthean: the Greek text serves as an authoritative Scriptural voice against ritual observance divorced from compassion.",
+        "This is one of only a handful of OT verses that Jesus is remembered as quoting twice, in both cases to settle a halakhic dispute in favor of mercy."
+      ]
+    },
+    {
+      "reference": "Hosea 11:1",
+      "mt_reading": "וּמִמִּצְרַיִם קָרָאתִי לִבְנִי",
+      "lxx_reading": "καὶ ἐξ Αἰγύπτου μετεκάλεσα τὰ τέκνα αὐτοῦ",
+      "mt_rendering": "out of Egypt I called my son",
+      "lxx_rendering": "and out of Egypt I recalled his children",
+      "significance": "theological",
+      "notes": [
+        "Matthew 2:15 cites Hosea 11:1 as fulfilled in Jesus' return from Egypt: 'Out of Egypt I called my son.' Matthew's Greek — ex Aigyptou ekalesa ton huion mou — does NOT follow the standard LXX (which has the plural 'children' and the verb metekalesa), but aligns more closely with the Hebrew and with Aquila's Greek revision.",
+        "This is one of the clearest cases where Matthew follows a Greek OT text that is not the standard Rahlfs LXX — evidence that Matthew's OT was not the Septuagint we have but a related, more literal Greek tradition (what scholars call 'kaige-Theodotion' or a proto-Aquila revision).",
+        "The passage underscores that 'the Septuagint' in the first century was a diverse family of Greek Bibles, not a single edition."
+      ]
+    },
+    {
+      "reference": "Hosea 13:14",
+      "mt_reading": "אֱהִי דְבָרֶיךָ מָוֶת אֱהִי קָטָבְךָ שְׁאוֹל",
+      "lxx_reading": "ποῦ ἡ δίκη σου θάνατε ποῦ τὸ κέντρον σου ᾅδη",
+      "mt_rendering": "Where are your plagues, O Death? Where is your destruction, O Sheol?",
+      "lxx_rendering": "Where is your penalty, O death? Where is your sting, O Hades?",
+      "significance": "theological",
+      "notes": [
+        "1 Corinthians 15:55 quotes this verse in resurrection-triumph mode: 'O death, where is your victory? O death, where is your sting?' Paul's wording — pou sou thanate to nikos, pou sou thanate to kentron — modifies the LXX's pou to kentron sou hadē to pou sou thanate to kentron (fusing Hades and Death into one addressee).",
+        "The LXX's kentron ('sting, goad') is the specific Greek word Paul uses. The whole 1 Corinthians 15:55 pericope is Paul's reworking of LXX Hosea 13:14 combined with LXX Isaiah 25:8 (katepien ho thanatos ischysas, 'death has been swallowed up in victory').",
+        "This conflated citation is one of the most elaborate pieces of LXX-dependent NT composition. The whole climactic crescendo of 1 Corinthians 15 hangs on the specific Greek verbs the LXX chose for Isaiah 25 and Hosea 13."
+      ]
+    }
+  ]
+}

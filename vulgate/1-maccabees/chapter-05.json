@@ -1,0 +1,501 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "1 Maccabees",
+    "chapter": 5,
+    "tradition": "vulgate",
+    "tradition_label": "Latin Vulgate (Deuterocanonical)",
+    "source_text": "Biblia Sacra Vulgata (Stuttgart critical edition)",
+    "translator": "Jerome",
+    "date": "c. 405 CE",
+    "canon": ["catholic", "orthodox", "ethiopian"],
+    "generated_at": "2026-04-20T00:00:00Z",
+    "prompt_version": "2.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Chapter 5 records the campaigns of Judas and his brothers to rescue Jewish communities under attack throughout the region. Hostile neighbors in Idumea, Ammon, Gilead, and Galilee threaten to annihilate Jewish populations. Judas leads a major expedition east of the Jordan to rescue the Jews of Gilead while Simon liberates Galilee. The chapter also records the failure of unauthorized commanders Joseph and Azariah, who disobey Judas's orders and suffer a humiliating defeat.",
+    "remarkable": "The chapter reveals that the Maccabean revolt was not just a Judean affair — Jewish communities across the entire region faced coordinated persecution. The rescue operations in Gilead and Galilee function as exodus-style liberations, with Judas leading his people through hostile territory back to Judea and Zion.",
+    "friction": "The harsh treatment of Ephron (vv. 50-51) — destroying a city that refused passage — and the wholesale burning of Carnaim's temple raise questions about proportionality. The author treats these as straightforward military necessities, but they complicate any simple reading of the Maccabees as purely defensive fighters.",
+    "connections": "The catalogue of hostile nations (Idumea, Ammon, Gilead) echoes the enemies Israel faced in the Judges period. The rescue of diaspora communities prefigures later Jewish concern for scattered populations. The failure of Joseph and Azariah (vv. 55-62) parallels the sin of Achan (Joshua 7) — unauthorized action bringing defeat."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_latin": "et factum est ut audierunt gentes in circuitu quia aedificatum est altare et sanctuarium sicut prius iratae sunt valde",
+      "rendering": "When the surrounding nations heard that the altar had been rebuilt and the sanctuary restored as before, they were furious.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 2,
+      "text_latin": "et cogitabant tollere genus Iacob qui erant inter eos et coeperunt occidere de populo et persequi",
+      "rendering": "They resolved to destroy the descendants of Jacob living among them, and they began to kill and persecute the people.",
+      "translator_notes": [],
+      "key_terms": [{"latin": "genus Iacob", "rendered_as": "descendants of Jacob", "note": "The covenantal name for all Israelites, emphasizing their identity as God's chosen people"}]
+    },
+    {
+      "verse": 3,
+      "text_latin": "et debellabat Iudas filios Esau in Idumaea et eos qui erant in Acrabathane quia circumsedebant Israhelitas et percussit eos plaga magna",
+      "rendering": "Judas made war on the sons of Esau in Idumea and those in Akrabattene, because they were besieging the Israelites. He struck them with a great blow.",
+      "translator_notes": [],
+      "key_terms": [{"latin": "filios Esau", "rendered_as": "sons of Esau", "note": "The Edomites/Idumeans — biblical adversaries of Israel since the patriarchal period"}]
+    },
+    {
+      "verse": 4,
+      "text_latin": "et recordatus est malitiam filiorum Bean qui erant populo in laqueum et in scandalum insidiantes ei in via",
+      "rendering": "He remembered the wickedness of the sons of Baean, who had been a snare and a stumbling block to the people, ambushing them on the roads.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 5,
+      "text_latin": "et conclusi sunt ab eo in turribus et adplicuit ad eos et anathematizavit eos et incendit turres eorum igni cum omnibus qui in eis erant",
+      "rendering": "He shut them up in their towers, laid siege, put them under the ban, and burned their towers with fire along with everyone in them.",
+      "translator_notes": [],
+      "key_terms": [{"latin": "anathematizavit", "rendered_as": "put them under the ban", "note": "The herem — total destruction consecrated to God; echoes Joshua's wars of conquest"}]
+    },
+    {
+      "verse": 6,
+      "text_latin": "et transiit ad filios Ammon et invenit manum fortem et populum copiosum et Timotheum ducem ipsorum",
+      "rendering": "He crossed over to the Ammonites, where he found a strong force and a large population, with Timothy as their commander.",
+      "translator_notes": [],
+      "key_terms": [{"latin": "Timotheum", "rendered_as": "Timothy", "note": "Local military commander in the Transjordan region; a recurring adversary in chapters 5-6"}]
+    },
+    {
+      "verse": 7,
+      "text_latin": "et constituit ad eos proelia multa et contriti sunt in conspectu eorum et percussit eos",
+      "rendering": "He fought many battles against them; they were crushed before him, and he struck them down.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 8,
+      "text_latin": "et cepit Gazer civitatem et filias eius et reversus est in Iudaeam",
+      "rendering": "He captured the city of Jazer and its surrounding villages, and then returned to Judea.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 9,
+      "text_latin": "et congregatae sunt gentes quae sunt in Galaad adversus Israhelitas qui erant in finibus eorum ut tollerent eos et fugerunt in Datheman munitionem",
+      "rendering": "The nations in Gilead gathered against the Israelites in their territory to destroy them, but the Israelites fled to the fortress of Dathema.",
+      "translator_notes": [],
+      "key_terms": [{"latin": "Galaad", "rendered_as": "Gilead", "note": "The Transjordan region east of the Jordan River; home to significant Jewish communities"}]
+    },
+    {
+      "verse": 10,
+      "text_latin": "et miserunt litteras ad Iudam et fratres eius dicentes congregatae sunt adversum nos gentes per circuitum ut nos auferant",
+      "rendering": "They sent a letter to Judas and his brothers saying: 'The nations around us have gathered against us to destroy us.'",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 11,
+      "text_latin": "et parant venire et occupare munitionem in quam confugimus et Timotheus est dux exercitus eorum",
+      "rendering": "'They are preparing to come and seize the fortress where we have taken refuge, and Timothy is the commander of their army.'",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 12,
+      "text_latin": "nunc ergo veni et eripe nos de manibus eorum quia cecidit multitudo de nobis",
+      "rendering": "'Now therefore, come and rescue us from their hands, for many of us have already fallen.'",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 13,
+      "text_latin": "et omnes fratres nostri qui erant in locis Tubin interfecti sunt et captivas duxerunt uxores eorum et natos et spolia et peremerunt illic fere mille viros",
+      "rendering": "'All our brothers in the region of Tob have been killed. Their wives and children have been taken captive, and their goods plundered. About a thousand men perished there.'",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 14,
+      "text_latin": "adhuc epistulae legebantur et ecce alii nuntii venerunt de Galilaea conscissis tunicis nuntiantes secundum verba haec",
+      "rendering": "While the letter was still being read, other messengers arrived from Galilee with their garments torn, bringing the same report.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 15,
+      "text_latin": "dicentes convenerunt adversum nos de Ptolomaide et Tyro et Sidone et omni Galilaea alienigenarum ut nos consumant",
+      "rendering": "They said: 'Those from Ptolemais, Tyre, Sidon, and all of Galilee of the Gentiles have gathered against us to destroy us.'",
+      "translator_notes": [],
+      "key_terms": [{"latin": "Galilaea alienigenarum", "rendered_as": "Galilee of the Gentiles", "note": "The same phrase used in Isaiah 9:1, quoted in Matthew 4:15 — Galilee's mixed population made its Jews especially vulnerable"}]
+    },
+    {
+      "verse": 16,
+      "text_latin": "ut audivit Iudas et populus sermones istos convenit ecclesia magna cogitare quid facerent fratribus suis qui in tribulatione erant et expugnabantur ab eis",
+      "rendering": "When Judas and the people heard these reports, a great assembly gathered to decide what they should do for their brothers who were in distress and under attack.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 17,
+      "text_latin": "dixitque Iudas Simoni fratri suo elige tibi viros et vade et libera fratres tuos in Galilaea ego autem et Ionathas frater meus ibimus in Galaaditim",
+      "rendering": "Judas said to his brother Simon: 'Choose your men and go rescue our brothers in Galilee. My brother Jonathan and I will go to Gilead.'",
+      "translator_notes": ["The two-front operation divides the Maccabean forces — Simon to the north (Galilee), Judas to the east (Gilead)."],
+      "key_terms": []
+    },
+    {
+      "verse": 18,
+      "text_latin": "et reliquit Iosephum filium Zachariae et Azariam duces populi cum residuo exercitu in Iudaea ad custodiam",
+      "rendering": "He left Joseph son of Zechariah and Azariah as leaders of the remaining army in Judea, to guard the homeland.",
+      "translator_notes": ["Joseph and Azariah are given a defensive mandate only — their failure to obey this limit will prove costly (vv. 55-62)."],
+      "key_terms": []
+    },
+    {
+      "verse": 19,
+      "text_latin": "et praecepit illis dicens praeestote populo huic et nolite bellum committere adversum gentes donec revertamur",
+      "rendering": "He commanded them: 'Take charge of this people, but do not engage in battle with the nations until we return.'",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 20,
+      "text_latin": "et partiti sunt Simoni viri tria milia ut iret in Galilaeam Iudae autem octo milia in Galaaditim",
+      "rendering": "Three thousand men were assigned to Simon for the march to Galilee, and eight thousand to Judas for Gilead.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 21,
+      "text_latin": "et abiit Simon in Galilaeam et commisit proelia multa cum gentibus et contritae sunt gentes a facie eius",
+      "rendering": "Simon went to Galilee and fought many battles against the nations, and the nations were crushed before him.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 22,
+      "text_latin": "et persecutus est eos usque ad portam Ptolomaidis et ceciderunt de gentibus fere tria milia virorum et accepit spolia eorum",
+      "rendering": "He pursued them as far as the gate of Ptolemais. About three thousand of the nations fell, and he took their spoils.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 23,
+      "text_latin": "et adsumpsit eos qui erant in Galilaea et in Arbatis cum uxoribus et natis et omnibus quae erant eis et adduxit in Iudaeam cum laetitia magna",
+      "rendering": "He took the Jews who were in Galilee and in Arbatta, with their wives and children and all their belongings, and brought them to Judea with great rejoicing.",
+      "translator_notes": ["Simon's mission is not conquest but rescue and evacuation — bringing the endangered Galilean Jews safely to Judea."],
+      "key_terms": []
+    },
+    {
+      "verse": 24,
+      "text_latin": "et Iudas Macchabaeus et Ionathas frater eius transierunt Iordanem et abierunt viam trium dierum per desertum",
+      "rendering": "Judas Maccabeus and his brother Jonathan crossed the Jordan and marched three days through the wilderness.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 25,
+      "text_latin": "et occurrerunt eis Nabuthei et susceperunt eos pacifice et narraverunt eis omnia quae acciderant fratribus eorum in Galaaditide",
+      "rendering": "The Nabateans met them and received them peacefully. They told them everything that had happened to their brothers in Gilead:",
+      "translator_notes": [],
+      "key_terms": [{"latin": "Nabuthei", "rendered_as": "Nabateans", "note": "The Arab trading people of Transjordan who maintained friendly relations with the Maccabees — a significant diplomatic relationship"}]
+    },
+    {
+      "verse": 26,
+      "text_latin": "et quia multi ex eis comprehensi sunt in Barasa et Bosor et in Alimis et Casbon Mageth et Carnaim hae omnes civitates munitae et magnae",
+      "rendering": "'Many of them are trapped in Bozrah, Bosor, Alema, Caspho, Maked, and Carnaim — all of these are large, fortified cities.'",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 27,
+      "text_latin": "sed et in ceteris civitatibus Galaaditidis tenentur comprehensi et in crastinum constituerunt admovere exercitum civitatibus his et comprehendere et tollere eos in una die",
+      "rendering": "'Others are being held in the remaining cities of Gilead, and the enemy has resolved to move their army against these cities tomorrow and capture and destroy them all in a single day.'",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 28,
+      "text_latin": "et convertit Iudas et exercitus eius viam in desertum Bosor repente et occupavit civitatem et occidit omnem masculum in ore gladii et accepit omnia spolia eorum et succendit eam igni",
+      "rendering": "Then Judas suddenly turned with his army toward Bozrah in the wilderness. He captured the city, killed every male by the edge of the sword, took all their spoils, and burned it with fire.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 29,
+      "text_latin": "et castra movit inde nocte et ibant usque ad munitionem",
+      "rendering": "He moved camp from there by night and marched toward the fortress.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 30,
+      "text_latin": "et factum est diluculo cum levassent oculos suos ecce populus multus cuius non erat numerus portantes scalas et machinas ut comprehenderent munitionem et expugnarent eos",
+      "rendering": "At dawn, when they raised their eyes — there was a vast, innumerable host carrying ladders and siege engines to capture the fortress and take it by storm.",
+      "translator_notes": [],
+      "key_terms": [{"latin": "scalas et machinas", "rendered_as": "ladders and siege engines", "note": "Professional siege equipment indicating a well-organized Hellenistic military force, not just raiding bands"}]
+    },
+    {
+      "verse": 31,
+      "text_latin": "et vidit Iudas quia coepit bellum et clamor belli ascendit ad caelum sicut tuba et clamor magnus de civitate",
+      "rendering": "Judas saw that the battle had begun — the noise of war rose to heaven like a trumpet blast, and a great cry went up from the city.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 32,
+      "text_latin": "et dixit exercitui suo pugnate hodie pro fratribus vestris",
+      "rendering": "He said to his army: 'Fight today for your brothers!'",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 33,
+      "text_latin": "et venit tribus ordinibus post eos et exclamaverunt tubis et clamaverunt in oratione",
+      "rendering": "He came up behind them in three columns. They sounded the trumpets and cried out in prayer.",
+      "translator_notes": ["The three-column attack — combining tactical formation with prayer — is characteristic of Judas's integration of faith and military strategy."],
+      "key_terms": []
+    },
+    {
+      "verse": 34,
+      "text_latin": "et cognoverunt castra Timothei quia Macchabaeus est et fugerunt a facie eius et percusserunt eos plaga magna et ceciderunt ex eis in die illa fere octo milia virorum",
+      "rendering": "Timothy's army recognized that it was Maccabeus, and they fled before him. He struck them with a great blow, and about eight thousand men fell that day.",
+      "translator_notes": ["Judas's reputation alone causes panic — the mere identification of 'Maccabeus' triggers flight."],
+      "key_terms": []
+    },
+    {
+      "verse": 35,
+      "text_latin": "et divertit in Maspha et expugnavit et cepit eam et occidit omnem masculum eius et sumpsit spolia eius et succendit eam igni",
+      "rendering": "He turned toward Alema, besieged and captured it, killed every male in it, took its spoils, and burned it with fire.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 36,
+      "text_latin": "inde castra movit et cepit Casbon Mageth et Bosor et reliquas civitates Galaaditidis",
+      "rendering": "From there he moved camp and captured Caspho, Maked, Bosor, and the remaining cities of Gilead.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 37,
+      "text_latin": "post haec autem verba congregavit Timotheus exercitum alium et castra posuit contra Raphon trans torrentem",
+      "rendering": "After these events, Timothy assembled another army and encamped opposite Raphon, on the other side of the stream.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 38,
+      "text_latin": "et misit Iudas speculari exercitum et renuntiaverunt ei dicentes quia convenientes sunt ad eum omnes gentes quae in circuitu nostro sunt exercitus multus nimis",
+      "rendering": "Judas sent men to scout the army, and they reported back: 'All the nations around us have rallied to him — it is an exceedingly large army.'",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 39,
+      "text_latin": "et Arabes conduxerunt in auxilium suum et castra posuerunt trans torrentem parati ad te venire in proelium et abiit Iudas obviam illis",
+      "rendering": "'They have also hired Arabs as allies and are encamped across the stream, ready to come against you in battle.' Then Judas went out to meet them.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 40,
+      "text_latin": "et ait Timotheus principibus exercitus sui cum adpropinquaverit Iudas et exercitus eius ad torrentem aquae si transierit ad nos prior non poterimus sustinere eum quia potens poterit adversum nos",
+      "rendering": "Timothy said to the officers of his army: 'When Judas and his army approach the stream — if he crosses to us first, we will not be able to withstand him, for he will surely overpower us.'",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 41,
+      "text_latin": "si vero timuerit transire et posuerit castra extra flumen transfretamus ad eos et poterimus adversus illum",
+      "rendering": "'But if he is afraid to cross and camps on the other side of the river, then we will cross over to him and overpower him.'",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 42,
+      "text_latin": "ut autem adpropinquavit Iudas ad torrentem aquae statuit scribas populi secus torrentem et mandavit eis dicens ne permiseritis omnem hominem remanere in castris sed veniant omnes in proelium",
+      "rendering": "When Judas approached the stream, he stationed officers of the people by the stream and commanded them: 'Allow no one to remain in camp — all must come to battle.'",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 43,
+      "text_latin": "et transfretavit ad illos prior et omnis populus post eum et contritae sunt omnes gentes a facie eorum et proiecerunt arma sua et fugerunt ad fanum quod erat in Carnaim",
+      "rendering": "He crossed over to them first, with all the people behind him. All the nations were crushed before them — they threw down their weapons and fled to the temple at Carnaim.",
+      "translator_notes": [],
+      "key_terms": [{"latin": "fanum quod erat in Carnaim", "rendered_as": "temple at Carnaim", "note": "A pagan temple used as a place of refuge; Carnaim means 'horns' — likely a sanctuary of Astarte/Atargatis"}]
+    },
+    {
+      "verse": 44,
+      "text_latin": "et occupaverunt ipsam civitatem et fanum succenderunt igni cum omnibus qui in eo erant et oppressa est Carnaim et non potuit sustinere contra faciem Iudae",
+      "rendering": "They captured the city and burned the temple with fire, along with all who were in it. So Carnaim was subdued and could not stand before Judas.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 45,
+      "text_latin": "et congregavit Iudas universos Israhelitas qui erant in Galaaditide a minimo usque ad maximum et uxores eorum et natos et exercitum magnum valde ut venirent in terram Iuda",
+      "rendering": "Judas gathered together all the Israelites in Gilead, from the least to the greatest, with their wives and children — a very great company — to come to the land of Judah.",
+      "translator_notes": ["This mass evacuation of the entire Jewish population of Gilead is an exodus-scale operation."],
+      "key_terms": []
+    },
+    {
+      "verse": 46,
+      "text_latin": "et venerunt usque Ephron et haec civitas magna in ingressu posita munita valde non erat declinare ab ea dextra vel sinistra sed per mediam eam iter erat",
+      "rendering": "They came as far as Ephron — a large, heavily fortified city blocking the route. There was no way to turn aside to the right or the left; they had to pass straight through it.",
+      "translator_notes": [],
+      "key_terms": [{"latin": "Ephron", "rendered_as": "Ephron", "note": "A fortified city blocking the main route from Gilead to Judea — passage was geographically unavoidable"}]
+    },
+    {
+      "verse": 47,
+      "text_latin": "et incluserunt se qui in civitate erant et obstruxerunt portas lapidibus",
+      "rendering": "The people of the city shut themselves in and blocked the gates with stones.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 48,
+      "text_latin": "et misit ad eos Iudas verbis pacificis dicens transeamus per terram vestram ut eamus in terram nostram et nemo vobis nocebit tantum pedibus transibimus et noluerunt ei aperire",
+      "rendering": "Judas sent them a peaceful message: 'Let us pass through your land to reach our own. No one will harm you; we will only pass through on foot.' But they refused to open to him.",
+      "translator_notes": ["The request for peaceful passage and its refusal echoes Israel's experience with Edom in Numbers 20:14-21 and with Sihon in Numbers 21:21-23."],
+      "key_terms": []
+    },
+    {
+      "verse": 49,
+      "text_latin": "et praecepit Iudas praedicare in castris ut adplicarent unusquisque in quo erat loco",
+      "rendering": "Then Judas ordered a proclamation throughout the camp that each man should take up his position where he stood.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 50,
+      "text_latin": "et adplicuerunt se viri virtutis et oppugnavit civitatem illam tota die et tota nocte et tradita est civitas in manu eius",
+      "rendering": "The fighting men took their positions and besieged the city all that day and all that night, and the city was delivered into his hand.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 51,
+      "text_latin": "et peremerunt omnem masculum in ore gladii et eradicavit eam et accepit spolia eius et transivit per totam civitatem super interfectos",
+      "rendering": "He put every male to the sword, razed the city to the ground, took its spoils, and passed through the entire city over the bodies of the slain.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 52,
+      "text_latin": "et transierunt Iordanem in campo magno contra faciem Bethsan",
+      "rendering": "They crossed the Jordan into the great plain opposite Beth-shan.",
+      "translator_notes": [],
+      "key_terms": [{"latin": "Bethsan", "rendered_as": "Beth-shan", "note": "Major city at the junction of the Jordan and Jezreel valleys; Saul's body was hung on its walls (1 Samuel 31:10)"}]
+    },
+    {
+      "verse": 53,
+      "text_latin": "et colligebat Iudas extremos et exhortabatur populum per totam viam donec venirent in terram Iuda",
+      "rendering": "Judas gathered the stragglers and encouraged the people the whole way, until they reached the land of Judah.",
+      "translator_notes": ["The image of Judas as rear guard and encourager of the weary echoes Moses and Joshua leading the people through the wilderness."],
+      "key_terms": []
+    },
+    {
+      "verse": 54,
+      "text_latin": "et ascenderunt in montem Sion cum laetitia et gaudio et obtulerunt holocausta quod nemo ex eis cecidisset donec reverterentur in pace",
+      "rendering": "They went up to Mount Zion with gladness and joy, and offered burnt offerings because not one of them had fallen before they returned in peace.",
+      "translator_notes": ["The zero-casualty return from such a massive operation is presented as miraculous — divine protection of the entire exodus-like journey."],
+      "key_terms": []
+    },
+    {
+      "verse": 55,
+      "text_latin": "et in diebus quibus erat Iudas et Ionathas in terra Galaad et Simon frater eius in Galilaea contra faciem Ptolomaidis",
+      "rendering": "During the days when Judas and Jonathan were in the land of Gilead and Simon his brother was in Galilee before Ptolemais,",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 56,
+      "text_latin": "audivit Iosephus Zachariae filius et Azarias principes exercitus res bene gestas et proelia quae facta sunt",
+      "rendering": "Joseph son of Zechariah and Azariah, the commanders of the army, heard about the great deeds and battles that had been accomplished.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 57,
+      "text_latin": "et dixit faciamus et ipsi nobis nomen et eamus pugnare adversus gentes quae in circuitu nostro sunt",
+      "rendering": "They said: 'Let us make a name for ourselves as well! Let us go and fight the nations around us.'",
+      "translator_notes": ["'Faciamus nobis nomen' — 'let us make a name for ourselves' — echoes the builders of Babel (Genesis 11:4). The author signals that this is vainglory, not faithful obedience."],
+      "key_terms": [{"latin": "faciamus nobis nomen", "rendered_as": "make a name for ourselves", "note": "The language of Babel (Genesis 11:4) — self-glorification rather than obedience; marks their mission as doomed"}]
+    },
+    {
+      "verse": 58,
+      "text_latin": "et praeceperunt his qui erant in exercitu suo et abierunt Iamniam",
+      "rendering": "They gave orders to the forces under their command and marched against Jamnia.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 59,
+      "text_latin": "et exiit Gorgias de civitate et viri eius obviam illis in pugnam",
+      "rendering": "But Gorgias and his men came out of the city to meet them in battle.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 60,
+      "text_latin": "et fugatus est Iosephus et Azarias et fugati sunt usque in fines Iudaeae et ceciderunt in die illa de populo Israhel ad duo milia viri",
+      "rendering": "Joseph and Azariah were routed and pursued to the borders of Judea. About two thousand men of Israel fell that day.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 61,
+      "text_latin": "et facta est fuga magna in populo quia non audierunt Iudam et fratres eius existimantes fortiter se facturos",
+      "rendering": "A great rout befell the people, because they had not listened to Judas and his brothers, imagining they would perform great deeds.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 62,
+      "text_latin": "ipsi autem non erant de semine virorum illorum per quorum manum salus data est Israheli",
+      "rendering": "But they were not of the family of those men through whose hand deliverance was given to Israel.",
+      "translator_notes": ["This verse establishes the theological basis for Hasmonean legitimacy: God works specifically through the family of Mattathias, not through self-appointed commanders."],
+      "key_terms": [{"latin": "de semine virorum illorum", "rendered_as": "of the family of those men", "note": "The Hasmonean dynastic claim — salvation comes through Mattathias's line specifically, not through any brave volunteer"}]
+    },
+    {
+      "verse": 63,
+      "text_latin": "et viri Iuda magnificati sunt valde in conspectu omnis Israhel et gentium omnium ubi audiebatur nomen eorum",
+      "rendering": "Meanwhile, Judas and his men were greatly honored in the sight of all Israel and of all the nations wherever their name was heard.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 64,
+      "text_latin": "et convenerunt ad eos fauste acclamantes",
+      "rendering": "People gathered around them, cheering them with glad acclaim.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 65,
+      "text_latin": "et exiit Iudas et fratres eius et expugnabant filios Esau in terra quae ad austrum est et percussit Chebron et filias eius et destruxit munitiones eius et turres eius incendit in circuitu",
+      "rendering": "Then Judas and his brothers went out and fought the sons of Esau in the land to the south. He struck Hebron and its surrounding villages, destroyed its fortifications, and burned its towers all around.",
+      "translator_notes": [],
+      "key_terms": [{"latin": "Chebron", "rendered_as": "Hebron", "note": "Ancient patriarchal city; the Maccabean campaign into Edomite-held Hebron reclaims territory sacred to Israelite memory"}]
+    },
+    {
+      "verse": 66,
+      "text_latin": "et movit castra ut iret in terram alienigenarum et perambulavit Samariam",
+      "rendering": "He moved camp to march into the land of the foreigners, and passed through Samaria.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 67,
+      "text_latin": "in die illa ceciderunt sacerdotes in bello dum volunt fortiter facere dum sine consilio exeunt in proelium",
+      "rendering": "On that day, certain priests fell in battle because they desired to perform deeds of valor and went out to fight without proper counsel.",
+      "translator_notes": ["A second cautionary tale — even priests can fall when they act on ambition rather than divine direction. The parallel with Joseph and Azariah reinforces the theme."],
+      "key_terms": []
+    },
+    {
+      "verse": 68,
+      "text_latin": "et declinavit Iudas in Azotum in terram alienigenarum et diruit aras eorum et sculptilia deorum ipsorum succendit igni et cepit spolia civitatum et reversus est in terram Iuda",
+      "rendering": "Then Judas turned toward Azotus in the land of the foreigners. He tore down their altars, burned the carved images of their gods with fire, took the spoils of the cities, and returned to the land of Judah.",
+      "translator_notes": [],
+      "key_terms": [{"latin": "Azotum", "rendered_as": "Azotus", "note": "Ancient Ashdod — one of the five Philistine cities; Judas extends operations deep into coastal territory"}]
+    }
+  ]
+}

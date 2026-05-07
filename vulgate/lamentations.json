@@ -1,0 +1,104 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Lamentations",
+    "tradition": "vulgate",
+    "tradition_label": "Latin Vulgate",
+    "source_text": "Biblia Sacra Vulgata (Stuttgart critical edition)",
+    "base_text": "Westminster Leningrad Codex (WLC)",
+    "translator": "Jerome (Eusebius Sophronius Hieronymus)",
+    "date": "382-405 CE",
+    "generated_at": "2026-04-20T00:00:00Z",
+    "prompt_version": "2.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Jerome translated Lamentations from the Hebrew, preserving its attribution to Jeremiah (following LXX tradition) and noting its acrostic structure. His Latin rendered the raw grief of Jerusalem's destruction into the formal cadences of Latin lamentation, creating a text that became central to Holy Week liturgy. The Tenebrae services of Maundy Thursday, Good Friday, and Holy Saturday drew their Lamentations readings directly from Jerome's text, making his rendering the soundtrack of Western Christian mourning.",
+    "notable_renderings": "Quomodo sedet sola (how lonely sits the city, 1:1) opening the Tenebrae liturgy; misericordiae Domini (mercies of the Lord, 3:22) providing hope within desolation; the O vos omnes (O all you who pass by, 1:12) that entered passion devotion; and the repeated Jerusalem convertere (Jerusalem, return) refrain added by liturgical tradition.",
+    "theological_legacy": "Lamentations' Vulgate text became the voice of the Western Church in mourning — for Christ's passion, for fallen cities, for departed souls. The Tenebrae services, sung in darkness as candles are extinguished one by one, used Jerome's Lamentations to create the most dramatic liturgical experience in the Western calendar. The text also provided vocabulary for secular mourning — laments for fallen cities and kingdoms echoed Jerome's Latin for centuries."
+  },
+  "renderings": [
+    {
+      "reference": "Lamentations 1:1",
+      "source_text": "אֵיכָה יָשְׁבָה בָדָד הָעִיר רַבָּתִי עָם הָיְתָה כְּאַלְמָנָה רַבָּתִי בַגּוֹיִם שָׂרָתִי בַּמְּדִינוֹת הָיְתָה לָמַס (eikhah yashvah vadad ha'ir rabbati am haytah ke'almanah rabbati vaggoyim sarati bammedinot haytah lamas)",
+      "vulgate_text": "quomodo sedet sola civitas plena populo facta est quasi vidua domina gentium princeps provinciarum facta est sub tributo",
+      "vulgate_rendering": "How lonely sits the city that was full of people! She has become like a widow, she who was great among the nations; the princess among the provinces has become a tributary",
+      "tcr_rendering": "How she sits alone — the city once great with people! She has become like a widow — she who was great among the nations! A princess among the provinces has become a forced laborer!",
+      "theological_legacy": "Quomodo sedet sola civitas became the opening of the Tenebrae liturgy for Holy Week — the most solemn and dramatic liturgical moment in the Western calendar. The word quomodo (how!) captured the exclamatory grief of Hebrew eikhah. Jerome's quasi vidua (like a widow) for ke'almanah preserved the simile that made Jerusalem a mourning woman, establishing the feminized city-as-widow image in Western literature.",
+      "notes": ["Hebrew eikhah (how!) is both the book's title and its opening cry — a funeral exclamation over the dead. Jerome's quomodo preserves the interrogative force. The acrostic structure (each verse beginning with successive Hebrew letters) cannot be reproduced in Latin, but Jerome maintained the verse divisions. The Tenebrae setting — readings chanted in increasingly dark churches — made this opening one of the most emotionally powerful moments in Western worship."]
+    },
+    {
+      "reference": "Lamentations 1:12",
+      "source_text": "לוֹא אֲלֵיכֶם כָּל־עֹבְרֵי דֶרֶךְ הַבִּיטוּ וּרְאוּ אִם־יֵשׁ מַכְאוֹב כְּמַכְאֹבִי (lo aleikhem kol-ovrei derekh habbitu ur'u im-yesh makh'ov kemakh'ovi)",
+      "vulgate_text": "o vos omnes qui transitis per viam adtendite et videte si est dolor sicut dolor meus",
+      "vulgate_rendering": "O all you who pass by the way, attend and see if there is any sorrow like my sorrow",
+      "tcr_rendering": "Is it nothing to you, all you who pass by? Look and see if there is any pain like my pain",
+      "theological_legacy": "O vos omnes qui transitis per viam became one of the most important passion texts in Western Christianity. Applied to Christ on the cross, it became the voice of the crucified Jesus addressing passersby. It was set to music by Victoria, Palestrina, Casals, and many others. The Reproaches (Improperia) of Good Friday echo this verse's direct address.",
+      "notes": ["The Hebrew opening is textually difficult — lo aleikhem may mean 'Is it nothing to you?' or 'May it not happen to you!' Jerome's O vos omnes (O all of you) creates a vocative address that became liturgically powerful as the voice of suffering Jerusalem/Christ calling out to indifferent humanity. The Christological application transformed a national lament into a personal passion cry."]
+    },
+    {
+      "reference": "Lamentations 1:18",
+      "source_text": "צַדִּיק הוּא יְהוָה כִּי פִיהוּ מָרִיתִי (tzaddiq hu YHVH ki fihu mariti)",
+      "vulgate_text": "iustus est Dominus quia os eius ad iracundiam provocavi",
+      "vulgate_rendering": "The Lord is just, for I have provoked his mouth to anger",
+      "tcr_rendering": "YHVH is righteous, for I have rebelled against his command",
+      "theological_legacy": "Jerome rendered mariti (I rebelled against) as ad iracundiam provocavi (I provoked to anger), shifting from rebellion to provocation. This emphasized God's emotional response (anger) rather than the people's act (rebellion), supporting the Western penitential tradition that focuses on having angered God rather than on the nature of the transgression itself.",
+      "notes": ["Hebrew marah means to rebel, to be contentious, to defy. Jerome's provocavi ad iracundiam (I provoked to wrath) personalizes God's response. The rendering also shifted pihu (his mouth/command) toward the idea of provoking God's mouth/speech to anger, rather than the Hebrew sense of rebelling against his spoken word/command."]
+    },
+    {
+      "reference": "Lamentations 3:22-23",
+      "source_text": "חַסְדֵי יְהוָה כִּי לֹא־תָמְנוּ כִּי לֹא־כָלוּ רַחֲמָיו חֲדָשִׁים לַבְּקָרִים רַבָּה אֱמוּנָתֶךָ (chasdei YHVH ki lo-tamnu ki lo-khalu rachamav chadashim labbeqarim rabbah emunatekha)",
+      "vulgate_text": "misericordiae Domini quia non sumus consumpti quia non defecerunt miserationes eius novi diluculo multa est fides tua",
+      "vulgate_rendering": "It is of the mercies of the Lord that we are not consumed, because his compassions have not failed; they are new every morning — great is your faithfulness",
+      "tcr_rendering": "The covenant-loyalties of YHVH — indeed, we have not come to an end, for his compassions have not been exhausted; they are new every morning — great is your faithfulness",
+      "theological_legacy": "Misericordiae Domini (mercies of the Lord) for Hebrew chasdei YHVH (covenant-loyalties of YHVH) is a characteristic Jerome rendering that shifted chesed from covenantal obligation to emotional mercy. The passage became the most famous expression of hope in the book — light breaking into the darkness of lament. Nova diluculo (new at dawn) entered devotional vocabulary as the image of daily renewed grace.",
+      "notes": ["Hebrew chesed (covenant-loyalty, steadfast love, faithful kindness) is consistently rendered by Jerome as misericordia (mercy, compassion, pity). This shifts the concept from covenantal faithfulness — God's committed loyalty to his treaty partner — to emotional compassion, which God may extend or withhold at will. The theological difference is significant: chesed is obligatory within the covenant relationship; misericordia is a free gift of divine feeling. The hymn 'Great Is Thy Faithfulness' derives from this passage."]
+    },
+    {
+      "reference": "Lamentations 3:27",
+      "source_text": "טוֹב לַגֶּבֶר כִּי־יִשָּׂא עֹל בִּנְעוּרָיו (tov laggever ki-yissa ol bin'urav)",
+      "vulgate_text": "bonum est viro cum portaverit iugum ab adulescentia sua",
+      "vulgate_rendering": "It is good for a man when he has borne the yoke from his youth",
+      "tcr_rendering": "It is good for a strong man that he bear the yoke in his youth",
+      "theological_legacy": "Bonum est viro cum portaverit iugum ab adulescentia became a foundational text for monastic formation and early religious vocation. The 'yoke' (iugum) was read as monastic discipline, religious obedience, or the yoke of Christ (Matt 11:29-30). It justified accepting children as oblates into monasteries and beginning rigorous formation young.",
+      "notes": ["Hebrew ol (yoke) in context means the yoke of suffering or discipline. Jerome's iugum connects to Christ's invitation 'take my yoke upon you' (Matt 11:29). The verse was cited by Benedict of Nursia and subsequent monastic legislators to support the value of early formation. The connection between youth (adulescentia) and yoke-bearing shaped Western educational philosophy."]
+    },
+    {
+      "reference": "Lamentations 3:38-39",
+      "source_text": "מִפִּי עֶלְיוֹן לֹא תֵצֵא הָרָעוֹת וְהַטּוֹב מַה־יִּתְאוֹנֵן אָדָם חָי גֶּבֶר עַל־חֲטָאָיו (mippi elyon lo tetze hara'ot vehatov mah-yit'onen adam chai gever al-chata'av)",
+      "vulgate_text": "ex ore Altissimi non egredientur nec mala nec bona quid murmuravit homo vivens vir pro peccatis suis",
+      "vulgate_rendering": "Out of the mouth of the Most High shall there not come both evil and good? Why does a living man complain, a man for his sins?",
+      "tcr_rendering": "From the mouth of the Most High, do not both calamities and good come forth? Why should a living man complain — a strong man about his sins?",
+      "theological_legacy": "Jerome's nec mala nec bona (neither evil nor good) appears to negate both — as if nothing comes from God's mouth — but the context requires both. The rendering of yit'onen (complain, murmur) as murmuravit connects to the Exodus murmuring tradition and to monastic prohibitions against grumbling (murmuratio was a grave fault in the Rule of Benedict).",
+      "notes": ["The Hebrew states that both bad and good come from God's mouth — a robust affirmation of divine sovereignty over all events. Jerome's Latin is grammatically awkward (the nec...nec could be read as denial), but in context it was understood as a rhetorical question expecting affirmation. The anti-murmuring application (quid murmuravit) became important in monastic discipline."]
+    },
+    {
+      "reference": "Lamentations 4:1",
+      "source_text": "אֵיכָה יוּעַם זָהָב יִשְׁנֶא הַכֶּתֶם הַטּוֹב (eikhah yu'am zahav yishne hakketem hattov)",
+      "vulgate_text": "quomodo obscuratum est aurum mutatus est color optimus",
+      "vulgate_rendering": "How the gold has become dim! The finest color is changed!",
+      "tcr_rendering": "How the gold has grown dim! How the fine gold is changed!",
+      "theological_legacy": "Quomodo obscuratum est aurum extended the quomodo (how!) exclamation from chapter 1, creating a structural echo of grief throughout the book. The gold/color imagery was allegorized as the Temple's glory, the priesthood's dignity, or the soul's original beauty now tarnished by sin. Mutatus est color optimus (the finest color is changed) entered medieval lament vocabulary for any fall from glory.",
+      "notes": ["Hebrew ketem (fine gold, pure gold) is a rare word for the highest quality gold. Jerome's color optimus (finest color) shifts from the material (gold) to its quality (color), perhaps reflecting the tarnishing process — gold doesn't change color, but its luster dims. The verse opens a chapter about the degradation of Jerusalem's finest people, once compared to gold and now to clay."]
+    },
+    {
+      "reference": "Lamentations 5:19-21",
+      "source_text": "אַתָּה יְהוָה לְעוֹלָם תֵּשֵׁב כִּסְאֲךָ לְדֹר וָדוֹר... הֲשִׁיבֵנוּ יְהוָה אֵלֶיךָ וְנָשׁוּבָה חַדֵּשׁ יָמֵינוּ כְּקֶדֶם (attah YHVH le'olam teshev kis'akha ledor vador... hashivenu YHVH elekha venashuvah chaddesh yamenu keqedem)",
+      "vulgate_text": "tu autem Domine in aeternum permanebis solium tuum in generationem et generationem... converte nos Domine ad te et convertemur innova dies nostros sicut a principio",
+      "vulgate_rendering": "But you, O Lord, remain forever; your throne from generation to generation... Restore us to yourself, O Lord, and we shall be restored; renew our days as of old",
+      "tcr_rendering": "But you, YHVH, sit enthroned forever; your throne endures from generation to generation... Return us to yourself, YHVH, and we will return; renew our days as of old",
+      "theological_legacy": "Converte nos Domine ad te et convertemur (turn us to you, Lord, and we shall be turned) became a foundational text for the theology of prevenient grace — God must first turn us before we can turn. The prayer entered the liturgy as a versicle and response. Innova dies nostros (renew our days) expressed eschatological hope for restoration. The entire closing prayer shaped Western penitential spirituality.",
+      "notes": ["Jerome's converte...convertemur preserves the Hebrew's theological logic: divine initiative precedes human response. God's 'turning' of the people enables their 'turning' back. This became important in Augustine's anti-Pelagian theology — grace precedes and enables conversion. The verse was used as a liturgical versicle at Compline and in penitential rites. The book's final verse (5:22, expressing fear of permanent rejection) was traditionally repeated in synagogue reading so as not to end on despair — a practice mirrored in Christian liturgical use."]
+    },
+    {
+      "reference": "Lamentations 3:28-30",
+      "source_text": "יֵשֵׁב בָּדָד וְיִדֹּם כִּי נָטַל עָלָיו יִתֵּן לְמַכֵּהוּ לֶחִי יִשְׂבַּע בְּחֶרְפָּה (yeshev badad veyiddom ki natal alav yitten lemakkehu lechi yisba becherpah)",
+      "vulgate_text": "sedebit solitarius et tacebit quia levavit super se dabit percutienti se maxillam saturabitur obprobriis",
+      "vulgate_rendering": "Let him sit alone and keep silence, because he has taken it upon himself; let him give his cheek to the one who strikes him; let him be filled with reproaches",
+      "tcr_rendering": "Let him sit alone and be silent when it is laid upon him; let him put his mouth in the dust — perhaps there is hope; let him give his cheek to the one who strikes him — let him be filled with insult",
+      "theological_legacy": "Dabit percutienti se maxillam (he will give his cheek to the one who strikes him) became a key Old Testament parallel to Christ's teaching in Matthew 5:39 ('turn the other cheek'). Jerome's rendering strengthened the connection between Lamentations' suffering servant imagery and Christ's passion, making this passage a prophecy of Christ's patient endurance of abuse.",
+      "notes": ["The Hebrew describes the sufferer's patient endurance of violence and shame. Jerome's vocabulary — percutienti (the one striking), maxillam (cheek/jaw), obprobriis (reproaches/insults) — precisely mirrors the passion narrative vocabulary. This was not accidental; Jerome read the passage christologically. The connection to Matthew 5:39 and the passion narratives made this a standard text for the theology of patient suffering."]
+    }
+  ]
+}

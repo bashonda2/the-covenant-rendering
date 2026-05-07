@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Amos",
+    "tradition": "lxx",
+    "tradition_label": "Septuagint (LXX)",
+    "source_text": "Rahlfs-Hanhart, Septuaginta",
+    "base_text": "Westminster Leningrad Codex (WLC)",
+    "translators": "Alexandrian Jewish translators (2nd c. BCE)",
+    "date": "2nd century BCE",
+    "generated_at": "2026-04-22T00:00:00Z",
+    "prompt_version": "1.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "LXX Amos supplies two of the most rhetorically consequential LXX citations in the NT: Stephen's speech at Acts 7:42–43 (Amos 5:25–27) and James's speech at the Jerusalem Council (Acts 15:16–17, citing Amos 9:11–12). Both citations use the LXX against the Hebrew in ways that matter decisively for the argument being made. The Amos 9 citation in particular depends on a specific LXX reading that differs from the MT in its central verb.",
+    "notable_variants": "At 5:25–27, LXX's 'Moloch' for MT's 'your king' (mlkkm) that Stephen reads as a cultic idol rather than a royal referent. At 9:11–12, the LXX reads 'the remnant of men may seek me' (the verb darash 'seek' where MT has yarash 'possess') — which is why James can cite Amos 9 as scriptural support for Gentile inclusion in the Jesus movement.",
+    "theological_legacy": "The LXX Amos 9:11–12 used at the Jerusalem Council is among the NT's most decisive pieces of LXX-dependent exegesis. The very foundation of Gentile admission to the church on non-Jewish terms — the Council's conclusion — rests on a Greek reading that differs materially from the Hebrew. Without this LXX text, James's argument collapses."
+  },
+  "renderings": [
+    {
+      "reference": "Amos 5:25-27",
+      "mt_reading": "וּנְשָׂאתֶם אֵת סִכּוּת מַלְכְּכֶם וְאֵת כִּיּוּן צַלְמֵיכֶם",
+      "lxx_reading": "καὶ ἀνελάβετε τὴν σκηνὴν τοῦ Μολοχ καὶ τὸ ἄστρον τοῦ θεοῦ ὑμῶν Ραιφαν",
+      "mt_rendering": "You will carry Sikkuth your king and Kiyyun your star-god",
+      "lxx_rendering": "You took up the tent of Moloch and the star of your god Raiphan",
+      "significance": "theological",
+      "notes": [
+        "Stephen's speech at Acts 7:42–43 quotes this passage in its LXX form with two striking Septuagintal readings: 'Moloch' for the Hebrew 'your king' (or for Sikkuth, depending on how the Hebrew is vocalized), and 'Raiphan' (or Rephan) for Kiyyun.",
+        "The LXX reads both Hebrew names as idol-names, turning Amos's oblique reference to foreign astral cults into an explicit denunciation of named idolatry. Stephen's rhetorical stakes — proving that Israel's idolatry is ancient and systemic — are underwritten by this LXX interpretive move.",
+        "The 'forty years in the wilderness' detail (LXX follows Hebrew here) fits Stephen's recounting of the forty-year wilderness period as a time of covenant unfaithfulness. The whole Acts 7 speech depends on LXX Amos's specific wording."
+      ]
+    },
+    {
+      "reference": "Amos 9:11-12",
+      "mt_reading": "לְמַעַן יִירְשׁוּ אֶת־שְׁאֵרִית אֱדוֹם",
+      "lxx_reading": "ὅπως ἐκζητήσωσιν οἱ κατάλοιποι τῶν ἀνθρώπων",
+      "mt_rendering": "so that they may possess the remnant of Edom and all the nations over whom my name is called",
+      "lxx_rendering": "so that the remnant of men may seek out the Lord, and all the nations on whom my name has been called",
+      "significance": "theological",
+      "notes": [
+        "James's speech at the Jerusalem Council (Acts 15:16–17) cites this verse in its LXX form, and the wording difference is decisive for his argument. The MT's 'that they may possess the remnant of Edom' (yirshu … et she'erit Edom) becomes in LXX 'that the remnant of men may seek' (ekzētēsōsin hoi kataloipoi tōn anthrōpōn).",
+        "The Hebrew edom ('Edom,' the nation) and adam ('humanity, men') differ by a single vowel — the translators read the consonantal text as adam. Similarly, the Hebrew yirshu ('possess') becomes LXX yidreshu ('seek'), a different vocalization of the same consonants (yod-resh-shin).",
+        "Both changes turn a territorial-conquest oracle ('Israel will possess Edom') into a universal-seeking oracle ('the remnant of humanity will seek the Lord'). James's argument — that God is now gathering Gentiles to himself — requires the LXX reading, not the Hebrew.",
+        "This is the single clearest case in the NT where a major theological argument — the admission of Gentiles without full Torah observance — rests on an LXX reading that differs materially from the MT."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Joel",
+    "tradition": "vulgate",
+    "tradition_label": "Latin Vulgate",
+    "source_text": "Biblia Sacra Vulgata (Stuttgart critical edition)",
+    "base_text": "Westminster Leningrad Codex (WLC)",
+    "translator": "Jerome (Eusebius Sophronius Hieronymus)",
+    "date": "382-405 CE",
+    "generated_at": "2026-04-20T00:00:00Z",
+    "prompt_version": "2.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Joel's compact prophecy moves from locust plague to cosmic judgment to Spirit outpouring. Jerome's Latin rendered the Day of the LORD vocabulary that would dominate Western eschatology and gave the Church its Pentecost proof text. The book's brevity belies its enormous theological influence through the Vulgate.",
+    "notable_renderings": "The effundam spiritum meum of 2:28 (Peter's Pentecost quotation), the dies Domini magnus of 2:11, and the multitudines in valle concisionis (multitudes in the valley of decision) of 3:14 are Joel's most consequential Vulgate renderings.",
+    "theological_legacy": "Joel in the Vulgate gave Western theology its primary Pentecost text (effundam spiritum meum super omnem carnem), its eschatological 'valley of decision' imagery, and the cosmic signs (sun to darkness, moon to blood) that became standard apocalyptic vocabulary in medieval preaching and art."
+  },
+  "renderings": [
+    {
+      "reference": "Joel 1:15",
+      "source_text": "אֲהָהּ לַיּוֹם כִּי קָרוֹב יוֹם יְהוָה וּכְשֹׁד מִשַּׁדַּי יָבוֹא",
+      "vulgate_text": "a a a diei quia prope est dies Domini et quasi vastitas a Potente veniet",
+      "vulgate_rendering": "Alas for the day! For the day of the Lord is near, and it shall come as destruction from the Almighty",
+      "tcr_rendering": "Alas for the day! For the Day of the LORD is near — it will come as devastation from the Almighty",
+      "theological_legacy": "Dies Domini (Day of the Lord) established the standard Latin eschatological term. The wordplay shod/Shaddai (destruction/Almighty) is rendered quasi vastitas a Potente (like destruction from the Powerful One), losing the Hebrew paronomasia but preserving the theological shock: the Almighty brings almighty destruction.",
+      "notes": ["Hebrew shod mishaddai (destruction from Shaddai) contains a terrifying pun — the divine name Shaddai (Almighty) sounds like the word for destruction (shod). Jerome cannot replicate this in Latin but renders Shaddai as Potente (the Powerful One) rather than his usual Omnipotens, perhaps to keep the verse terse and impactful."]
+    },
+    {
+      "reference": "Joel 2:11",
+      "source_text": "כִּי גָדוֹל יוֹם־יְהוָה וְנוֹרָא מְאֹד וּמִי יְכִילֶנּוּ",
+      "vulgate_text": "quia magnus dies Domini et terribilis valde et quis sustinebit eum",
+      "vulgate_rendering": "For the day of the Lord is great and very terrible, and who can endure it?",
+      "tcr_rendering": "For the Day of the LORD is great and deeply terrifying — who can endure it?",
+      "theological_legacy": "Dies Domini magnus et terribilis (the great and terrible day of the Lord) became a fixed formula in Western eschatological preaching. The rhetorical question quis sustinebit eum (who can endure it?) entered the Dies Irae tradition and medieval judgment theology. The verse was a standard Advent text warning of Christ's return as judge.",
+      "notes": ["Hebrew nora (awe-inspiring, terrible) becomes terribilis — a word that in medieval Latin carried pure dread rather than the ambivalent 'awesome/fearsome' of the Hebrew. This shifted Western reception toward pure terror at the Day of the Lord rather than the mixed awe/dread of the Hebrew."]
+    },
+    {
+      "reference": "Joel 2:13",
+      "source_text": "כִּי חַנּוּן וְרַחוּם הוּא אֶרֶךְ אַפַּיִם וְרַב־חֶסֶד וְנִחָם עַל־הָרָעָה",
+      "vulgate_text": "quia benignus et misericors est patiens et multae misericordiae et praestabilis super malitia",
+      "vulgate_rendering": "For he is gracious and merciful, patient and of great mercy, and relenting concerning evil",
+      "tcr_rendering": "For he is gracious and compassionate, slow to anger and abounding in covenant-loyalty, and he relents from calamity",
+      "theological_legacy": "The divine attribute formula (from Exodus 34:6-7) in its Vulgate form — benignus et misericors, patiens et multae misericordiae — became the standard Latin enumeration of God's character. Praestabilis super malitia (relenting concerning evil) was theologically important: it affirmed divine changeability in response to repentance, nuancing the doctrine of divine immutability.",
+      "notes": ["Hebrew rav-chesed (abounding in covenant-loyalty) becomes multae misericordiae (of much mercy). Jerome renders the entire Exodus 34:6 formula consistently wherever it appears (Joel 2:13, Jonah 4:2, Psalm 86:15, etc.), creating a recognizable theological formula in Latin. The word praestabilis (ready to change, relenting) for Hebrew nicham acknowledges divine responsiveness to human repentance."]
+    },
+    {
+      "reference": "Joel 2:28 [Vulgate 3:1]",
+      "source_text": "אֶשְׁפּוֹךְ אֶת־רוּחִי עַל־כָּל־בָּשָׂר וְנִבְּאוּ בְּנֵיכֶם וּבְנוֹתֵיכֶם",
+      "vulgate_text": "effundam spiritum meum super omnem carnem et prophetabunt filii vestri et filiae vestrae",
+      "vulgate_rendering": "I will pour out my spirit upon all flesh, and your sons and your daughters shall prophesy",
+      "tcr_rendering": "I will pour out my Spirit on all flesh; your sons and your daughters will prophesy",
+      "theological_legacy": "Effundam spiritum meum super omnem carnem is the Pentecost verse — quoted by Peter in Acts 2:17. It became the biblical foundation for the doctrine of the Holy Spirit's universal availability, the charismatic gifts, and (in the phrase filii vestri et filiae vestrae) the inclusion of women in prophetic ministry. The verse shaped Western pneumatology and was central to every Pentecostal and charismatic renewal movement.",
+      "notes": ["Hebrew eshpokh (I will pour out) becomes effundam — both convey liquid abundance. Super omnem carnem (upon all flesh) was the revolutionary element: the Spirit previously given to selected prophets and kings would now be universal. This verse broke the prophetic-elite model and became the theological basis for the 'priesthood of all believers' in Reformation thought."]
+    },
+    {
+      "reference": "Joel 2:30-31 [Vulgate 3:3-4]",
+      "source_text": "דָּם וָאֵשׁ וְתִימְרוֹת עָשָׁן הַשֶּׁמֶשׁ יֵהָפֵךְ לְחֹשֶׁךְ וְהַיָּרֵחַ לְדָם",
+      "vulgate_text": "sanguinem et ignem et vaporem fumi sol convertetur in tenebras et luna in sanguinem",
+      "vulgate_rendering": "Blood and fire and vapor of smoke; the sun shall be turned into darkness and the moon into blood",
+      "tcr_rendering": "Blood and fire and columns of smoke; the sun will be turned to darkness and the moon to blood",
+      "theological_legacy": "Sol convertetur in tenebras et luna in sanguinem (the sun turned to darkness, moon to blood) became the standard cosmic-sign vocabulary for the end times in Western theology. These images recur in Revelation 6:12 and shaped medieval apocalyptic art — the darkened sun and blood-red moon appear in countless Last Judgment paintings and manuscripts.",
+      "notes": ["Hebrew timarot ashan (columns/pillars of smoke) becomes vaporem fumi (vapor of smoke), losing the architectural 'pillar' image. The cosmic signs (darkened sun, blood moon) were read literally in medieval eschatology and became standard elements in depictions of the Last Judgment. Modern 'blood moon' prophecy movements derive from this tradition."]
+    },
+    {
+      "reference": "Joel 2:32 [Vulgate 3:5]",
+      "source_text": "כֹּל אֲשֶׁר־יִקְרָא בְּשֵׁם יְהוָה יִמָּלֵט",
+      "vulgate_text": "omnis qui invocaverit nomen Domini salvus erit",
+      "vulgate_rendering": "Everyone who calls upon the name of the Lord shall be saved",
+      "tcr_rendering": "Everyone who calls on the name of the LORD will escape",
+      "theological_legacy": "Omnis qui invocaverit nomen Domini salvus erit became a cornerstone of Christian soteriology when Paul quoted it in Romans 10:13. The shift from Hebrew yimmalet (will escape, be delivered — physical rescue) to salvus erit (will be saved — spiritual salvation) transformed an oracle about surviving the Day of the LORD into a universal salvation promise. This verse became central to Reformation debates about faith alone.",
+      "notes": ["Hebrew malat means to escape, slip away, be delivered from physical danger. Latin salvus erit (will be saved/safe) carries both physical and spiritual rescue but was overwhelmingly read in the spiritual-soteriological sense by the Latin tradition. Paul's application of this verse to calling on Christ (Romans 10:13) made it one of the most-quoted salvation texts in Western Christianity."]
+    },
+    {
+      "reference": "Joel 3:14 [Vulgate 4:14]",
+      "source_text": "הֲמוֹנִים הֲמוֹנִים בְּעֵמֶק הֶחָרוּץ",
+      "vulgate_text": "populi populi in valle concisionis",
+      "vulgate_rendering": "Multitudes, multitudes in the valley of decision (cutting)",
+      "tcr_rendering": "Multitudes, multitudes in the valley of verdict",
+      "theological_legacy": "Valle concisionis (valley of cutting/decision) became a powerful eschatological image — the place where God renders final judgment, 'cutting' between the righteous and wicked. The doubled populi populi (peoples, peoples) conveys the overwhelming masses facing judgment. This image influenced Western depictions of the Last Judgment as a great valley of separation.",
+      "notes": ["Hebrew charutz means 'sharp, decisive' (from charatz, to cut, decide). Jerome's concisionis (cutting, decision) preserves the ambiguity between 'decision' (God decides) and 'cutting' (God cuts/separates). The 'valley of decision' entered English proverbial language for any moment of ultimate choice. Some Western traditions identified this with the Kidron Valley/Valley of Jehoshaphat."]
+    }
+  ]
+}

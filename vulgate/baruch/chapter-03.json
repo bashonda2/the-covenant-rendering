@@ -1,0 +1,291 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Baruch",
+    "chapter": 3,
+    "tradition": "vulgate",
+    "tradition_label": "Latin Vulgate (Deuterocanonical)",
+    "source_text": "Biblia Sacra Vulgata (Stuttgart critical edition)",
+    "translator": "Jerome",
+    "date": "c. 405 CE",
+    "canon": ["catholic", "orthodox", "ethiopian"],
+    "generated_at": "2026-04-20T00:00:00Z",
+    "prompt_version": "2.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "The confession prayer concludes with a plea for deliverance from exile for the sake of God's own honor. Beginning at verse 9, the text transitions into one of the most celebrated wisdom poems in the deuterocanonical tradition. The poem asks where wisdom can be found, surveys the nations and rulers who failed to discover it, and culminates in the identification of wisdom with the Torah -- the book of God's commandments that endures forever.",
+    "remarkable": "The wisdom poem (3:9-4:4) stands as a self-contained literary masterpiece. Its identification of personified Wisdom with the Torah of Moses anticipates later rabbinic and Christian theological developments. The poem's survey of failed wisdom-seekers -- merchants of Teman, storytellers, giants of old -- creates a panoramic backdrop against which Israel's unique possession of divine wisdom becomes all the more striking. The line 'She is the book of the commandments of God' (3:36/4:1) is one of the clearest equations of Wisdom and Torah in all of Scripture.",
+    "friction": "The transition from penitential prayer (vv. 1-8) to wisdom poetry (vv. 9-38) is abrupt and has led many scholars to argue for composite authorship. The poem's rhetorical question 'Who has gone up into heaven and taken her?' (v. 29) would later become theologically contested in both Jewish and Christian interpretation. The historical references to 'sons of Hagar' and 'merchants of Merran and Teman' are geographically imprecise.",
+    "connections": "Job 28 (where can wisdom be found?); Proverbs 8 (personified Wisdom); Sirach 24 (Wisdom makes her dwelling in Israel); Deuteronomy 30:12-13 (the commandment is not in heaven); Romans 10:6-8 (Paul's reuse of the 'who will ascend?' formula)."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_latin": "Domine omnipotens Deus Israhel anima in angustiis et spiritus anxius clamat ad te.",
+      "rendering": "O Lord Almighty, God of Israel, a soul in anguish and a spirit full of anxiety cries out to you.",
+      "translator_notes": [],
+      "key_terms": [{"latin": "omnipotens", "rendered_as": "Almighty", "note": "Translates the Greek Pantokrator, itself a rendering of Hebrew Shaddai or Tzevaot; emphasizes God's absolute sovereign power."}]
+    },
+    {
+      "verse": 2,
+      "text_latin": "Audi Domine et miserere quia Deus es misericors et miserere nostri quia peccavimus ante te.",
+      "rendering": "Hear, O Lord, and have mercy, for you are a merciful God. Have mercy on us, for we have sinned before you.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 3,
+      "text_latin": "Quia tu sedes in sempiternum et nos peribimus in aevum.",
+      "rendering": "For you are enthroned forever, but we are perishing for all time.",
+      "translator_notes": ["The stark contrast between God's eternal stability and Israel's disintegration captures the existential crisis of exile: the permanent God and the vanishing people."],
+      "key_terms": []
+    },
+    {
+      "verse": 4,
+      "text_latin": "Domine omnipotens Deus Israhel audi nunc orationem mortuorum Israhel et filiorum ipsorum qui peccaverunt ante te et non audierunt vocem Domini Dei sui et adglutinata sunt nobis mala.",
+      "rendering": "O Lord Almighty, God of Israel, hear now the prayer of the dead of Israel, and of the children of those who sinned before you, who did not listen to the voice of the Lord their God -- and so evils have clung to us.",
+      "translator_notes": ["'Dead of Israel' may refer to the spiritually dead (those in exile, cut off from temple worship) rather than literally deceased persons."],
+      "key_terms": []
+    },
+    {
+      "verse": 5,
+      "text_latin": "Noli meminisse iniquitatum patrum nostrorum sed memento manus tuae et nominis tui in tempore isto.",
+      "rendering": "Do not remember the iniquities of our ancestors, but remember your own power and your name at this time.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 6,
+      "text_latin": "Quia tu es Dominus Deus noster et laudabimus te Domine.",
+      "rendering": "For you are the Lord our God, and we will praise you, O Lord.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 7,
+      "text_latin": "Quia propter hoc dedisti timorem tuum in cordibus nostris et ut invocemus nomen tuum et laudemus te in captivitate nostra quia convertimur ab iniquitate patrum nostrorum qui peccaverunt ante te.",
+      "rendering": "For this is why you have placed your fear in our hearts: so that we would call upon your name and praise you in our captivity, because we have turned away from the iniquity of our ancestors who sinned before you.",
+      "translator_notes": [],
+      "key_terms": [{"latin": "timorem tuum", "rendered_as": "your fear", "note": "The 'fear of God' here is not terror but reverent awe -- the foundational disposition that enables true worship even in exile."}]
+    },
+    {
+      "verse": 8,
+      "text_latin": "Et ecce nos hodie in captivitate nostra sumus qua nos dispersisti in inproperium et in maledictum et in peccatum secundum omnes iniquitates patrum nostrorum qui recesserunt a Domino Deo nostro.",
+      "rendering": "And here we are today in our captivity, where you have scattered us -- as an object of reproach and cursing and guilt, according to all the iniquities of our ancestors who departed from the Lord our God.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 9,
+      "text_latin": "Audi Israhel mandata vitae auribus percipe ut scias prudentiam.",
+      "rendering": "Hear, O Israel, the commandments of life; give ear, that you may learn wisdom.",
+      "translator_notes": ["This verse marks the transition to the wisdom poem. The direct address 'Hear, O Israel' deliberately echoes the Shema (Deuteronomy 6:4), reframing the call to monotheistic loyalty as a call to wisdom."],
+      "key_terms": [{"latin": "mandata vitae", "rendered_as": "commandments of life", "note": "The Torah is identified not merely as a legal code but as the source of life itself -- obedience leads to life, disobedience to death (cf. Deuteronomy 30:19)."}]
+    },
+    {
+      "verse": 10,
+      "text_latin": "Quid est Israhel quod in terra inimicorum es?",
+      "rendering": "What has happened, O Israel, that you are in the land of your enemies?",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 11,
+      "text_latin": "Inveterasti in terra aliena coinquinatus es cum mortuis deputatus es cum descendentibus in infernum.",
+      "rendering": "You have grown old in a foreign land; you are defiled among the dead, counted among those who go down to the grave.",
+      "translator_notes": [],
+      "key_terms": [{"latin": "infernum", "rendered_as": "grave", "note": "Sheol, the abode of the dead; exile is metaphorically equated with death -- to be cut off from the land is to be cut off from life."}]
+    },
+    {
+      "verse": 12,
+      "text_latin": "Dereliquisti fontem sapientiae.",
+      "rendering": "You have forsaken the fountain of wisdom.",
+      "translator_notes": ["The brevity of this verse -- just four words in Latin -- gives it epigrammatic force. Wisdom is not merely abandoned but characterized as a 'fountain,' a life-sustaining source."],
+      "key_terms": [{"latin": "fontem sapientiae", "rendered_as": "fountain of wisdom", "note": "Connects to the 'fountain of living water' imagery in Jeremiah 2:13, where God himself is the spring that Israel abandoned for broken cisterns."}]
+    },
+    {
+      "verse": 13,
+      "text_latin": "Nam si in via Dei ambulasses habitasses utique in pace sempiterna.",
+      "rendering": "For if you had walked in the way of God, you would surely have lived in everlasting peace.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 14,
+      "text_latin": "Disce ubi sit prudentia ubi sit virtus ubi sit intellectus ut scias simul ubi sit longiturnitas vitae et victus ubi sit lumen oculorum et pax.",
+      "rendering": "Learn where wisdom is, where strength is, where understanding is -- so that you may know at the same time where length of life and sustenance are, where the light of the eyes and peace are.",
+      "translator_notes": [],
+      "key_terms": [{"latin": "prudentia", "rendered_as": "wisdom", "note": "Latin prudentia here renders the Greek phronesis, practical wisdom or discernment, rather than mere caution."}]
+    },
+    {
+      "verse": 15,
+      "text_latin": "Quis invenit locum eius et quis intravit in thesauros eius?",
+      "rendering": "Who has found her dwelling place? And who has entered her treasure chambers?",
+      "translator_notes": ["The feminization of wisdom ('her dwelling place') follows the personification tradition of Proverbs 8 and Sirach 24."],
+      "key_terms": []
+    },
+    {
+      "verse": 16,
+      "text_latin": "Ubi sunt principes gentium et qui dominantur super bestias quae sunt super terram?",
+      "rendering": "Where are the rulers of the nations, those who lorded it over the beasts of the earth?",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 17,
+      "text_latin": "Qui in avibus caeli ludunt.",
+      "rendering": "Those who made sport of the birds of the sky.",
+      "translator_notes": ["The image of rulers who 'play with' birds may refer to falconry or more broadly to the exercise of dominion over creation -- power that could not secure wisdom."],
+      "key_terms": []
+    },
+    {
+      "verse": 18,
+      "text_latin": "Qui argentum thesaurizant et aurum in quo confidunt homines et non est finis adquisitionis eorum qui argentum fabricant et solliciti sunt nec est inventio operum illorum.",
+      "rendering": "Those who hoarded silver and gold, in which people place their trust, and whose accumulation has no end -- those who fashioned silver with anxious care, yet their works are beyond finding.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 19,
+      "text_latin": "Exterminati sunt et ad inferos descenderunt et alii loco eorum surrexerunt.",
+      "rendering": "They have been swept away and gone down to the underworld, and others have risen in their place.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 20,
+      "text_latin": "Iuvenes viderunt lumen et habitaverunt super terram viam autem disciplinae ignoraverunt.",
+      "rendering": "The young saw the light of day and dwelt upon the earth, but the way of knowledge they did not know.",
+      "translator_notes": [],
+      "key_terms": [{"latin": "disciplinae", "rendered_as": "knowledge", "note": "Disciplina in this context carries the sense of instructed wisdom -- knowledge gained through the discipline of study and obedience."}]
+    },
+    {
+      "verse": 21,
+      "text_latin": "Neque intellexerunt semitas eius neque filii eorum susceperunt eam a facie ipsorum longe facta est.",
+      "rendering": "They did not understand her paths, nor did their children embrace her. She was far removed from their sight.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 22,
+      "text_latin": "Non est audita in terra Chanaan neque visa est in Theman.",
+      "rendering": "She was not heard of in the land of Canaan, nor was she seen in Teman.",
+      "translator_notes": ["Teman, associated with Edomite wisdom (cf. Jeremiah 49:7, Obadiah 1:8-9), is singled out as a place renowned for human sagacity that nevertheless could not attain divine wisdom."],
+      "key_terms": []
+    },
+    {
+      "verse": 23,
+      "text_latin": "Filii quoque Agar qui exquirunt prudentiam quae de terra est negotiatores Merrae et Theman et fabulatores et exquisitores prudentiae et intellegentiae viam autem sapientiae nescierunt neque commemorati sunt semitas eius.",
+      "rendering": "Even the descendants of Hagar, who seek worldly wisdom -- the merchants of Merran and Teman, the storytellers and seekers of understanding -- they did not discover the way of wisdom, nor did they remember her paths.",
+      "translator_notes": ["The 'descendants of Hagar' are the Arabian peoples. The inclusion of 'storytellers' (fabulatores) as a category of wisdom-seekers is noteworthy -- narrative and myth were genuine vehicles of ancient wisdom, yet still inadequate."],
+      "key_terms": [{"latin": "filii Agar", "rendered_as": "descendants of Hagar", "note": "The Ishmaelites and Arabian peoples, descended from Abraham through Hagar; known for practical and commercial wisdom."}]
+    },
+    {
+      "verse": 24,
+      "text_latin": "O Israhel quam magna est domus Dei et ingens locus possessionis eius.",
+      "rendering": "O Israel, how vast is the house of God, and how immense is the territory of his possession!",
+      "translator_notes": ["The sudden shift to cosmic scale prepares for the argument that wisdom is as vast as creation itself -- and therefore inaccessible to human effort alone."],
+      "key_terms": []
+    },
+    {
+      "verse": 25,
+      "text_latin": "Magnus est et non habet finem excelsus et inmensus.",
+      "rendering": "It is great and has no boundary, lofty and immeasurable.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 26,
+      "text_latin": "Ibi fuerunt gigantes nominati illi qui ab initio fuerunt statura magna scientes bellum.",
+      "rendering": "There the giants once lived, those renowned ones from the beginning, great in stature, skilled in war.",
+      "translator_notes": [],
+      "key_terms": [{"latin": "gigantes", "rendered_as": "giants", "note": "The Nephilim of Genesis 6:4; their inclusion here argues that even supernatural physical power could not win wisdom."}]
+    },
+    {
+      "verse": 27,
+      "text_latin": "Non hos elegit Dominus neque viam disciplinae invenerunt propterea perierunt.",
+      "rendering": "God did not choose these, and they did not find the way of knowledge; therefore they perished.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 28,
+      "text_latin": "Et quoniam non habuerunt sapientiam interierunt propter suam insipientiam.",
+      "rendering": "And because they had no wisdom, they were destroyed through their own foolishness.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 29,
+      "text_latin": "Quis ascendit in caelum et accepit eam et eduxit eam de nubibus?",
+      "rendering": "Who has gone up into heaven and taken her, and brought her down from the clouds?",
+      "translator_notes": ["This rhetorical question parallels Deuteronomy 30:12 ('Who will ascend to heaven for us?') and was later reinterpreted by Paul in Romans 10:6-8. The implied answer is that only God can grant wisdom; it cannot be seized by human effort."],
+      "key_terms": []
+    },
+    {
+      "verse": 30,
+      "text_latin": "Quis transfretavit mare et invenit illam et adtulit illam super aurum electum?",
+      "rendering": "Who has crossed the sea and found her, and brought her back, more precious than finest gold?",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 31,
+      "text_latin": "Non est qui possit scire vias eius neque qui exquirat semitas eius.",
+      "rendering": "There is no one who can know her ways, nor anyone who can search out her paths.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 32,
+      "text_latin": "Sed qui scit universa novit eam et adinvenit eam prudentia sua qui praeparavit terram in aeterno tempore et replevit eam pecudibus et quadrupedibus.",
+      "rendering": "But the One who knows all things knows her; he discovered her by his understanding -- he who prepared the earth for all time and filled it with cattle and four-footed creatures.",
+      "translator_notes": ["The identification of the Creator with the Finder of Wisdom is the poem's theological climax: wisdom is not self-generated by creation but originates in the mind of the Creator."],
+      "key_terms": []
+    },
+    {
+      "verse": 33,
+      "text_latin": "Qui emittit lumen et vadit et vocavit illud et oboedivit illi in tremore.",
+      "rendering": "He sends out the light and it goes forth; he called it, and it obeyed him with trembling.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 34,
+      "text_latin": "Stellae autem dederunt lumen in custodiis suis et laetae sunt.",
+      "rendering": "The stars shone in their appointed stations and were glad.",
+      "translator_notes": ["The image of joyful stars at their 'watch posts' personifies creation as a disciplined army obedient to its commander, in contrast to disobedient Israel."],
+      "key_terms": [{"latin": "custodiis", "rendered_as": "appointed stations", "note": "Literally 'watches' or 'guard posts'; the stars are depicted as sentinels faithfully stationed by God."}]
+    },
+    {
+      "verse": 35,
+      "text_latin": "Vocatae sunt et dixerunt adsumus et luxerunt ei cum iucunditate qui fecit illas.",
+      "rendering": "They were called, and they said, 'Here we are!' And they shone with gladness for the One who made them.",
+      "translator_notes": ["The stars' eager response 'Here we are!' (adsumus) echoes the prophetic call responses of Abraham (Genesis 22:1), Moses (Exodus 3:4), and Isaiah (Isaiah 6:8), but here it is creation itself answering God."],
+      "key_terms": []
+    },
+    {
+      "verse": 36,
+      "text_latin": "Hic est Deus noster et non aestimabitur alius adversus eum.",
+      "rendering": "This is our God; no other can be compared to him.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 37,
+      "text_latin": "Hic adinvenit omnem viam disciplinae et tradidit illam Iacob puero suo et Israhel dilecto suo.",
+      "rendering": "He found out the whole way of knowledge and gave it to Jacob his servant and to Israel his beloved.",
+      "translator_notes": ["This is the hinge of the entire poem: the wisdom that no nation, no giant, no merchant could find was freely given by God to Israel. The act is one of unmerited grace."],
+      "key_terms": [{"latin": "Iacob puero suo et Israhel dilecto suo", "rendered_as": "Jacob his servant and Israel his beloved", "note": "The parallel naming of Jacob/Israel echoes the prophetic poetry of Isaiah 41:8 and underscores the twin identities of the covenant people: servant and beloved."}]
+    },
+    {
+      "verse": 38,
+      "text_latin": "Post haec in terris visus est et cum hominibus conversatus est.",
+      "rendering": "After this, she appeared on earth and lived among human beings.",
+      "translator_notes": ["This verse, which speaks of Wisdom appearing on earth and dwelling among people, became one of the most important christological proof texts in patristic theology. In its original context, it refers to the Torah being given to Israel at Sinai."],
+      "key_terms": [{"latin": "conversatus est", "rendered_as": "lived among", "note": "The verb conversari means to dwell or associate with; the incarnational overtones noted by later Christian readers were not the original sense, which refers to Wisdom/Torah being present among Israel."}]
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Ruth",
+    "tradition": "vulgate",
+    "tradition_label": "Latin Vulgate",
+    "source_text": "Biblia Sacra Vulgata (Stuttgart critical edition)",
+    "base_text": "Westminster Leningrad Codex (WLC)",
+    "translator": "Jerome (Eusebius Sophronius Hieronymus)",
+    "date": "382-405 CE",
+    "generated_at": "2026-04-20T00:00:00Z",
+    "prompt_version": "2.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Jerome's Ruth faithfully renders this compact narrative while introducing key Latin terms — propinquus and redemptor for go'el — that shaped Western kinsman-redeemer theology and its Christological typology for centuries.",
+    "notable_renderings": "The go'el vocabulary (propinquus, consanguineus, redemptor), Ruth's confession of covenant loyalty rendered as misericordia, and the levirate/redemption legal terminology all created the Latin framework for reading Ruth as a Christological and ecclesiological allegory.",
+    "theological_legacy": "Ruth's Vulgate provided Western Christianity with its primary typological vocabulary for Christ as kinsman-redeemer (propinquus/redemptor), the Church as faithful gentile bride (Ruth as ecclesia ex gentibus), and covenant loyalty as self-sacrificing mercy (misericordia)."
+  },
+  "renderings": [
+    {
+      "reference": "Ruth 1:16",
+      "source_text": "עַמֵּךְ עַמִּי וֵאלֹהַיִךְ אֱלֹהָי",
+      "vulgate_text": "populus tuus populus meus et Deus tuus Deus meus",
+      "vulgate_rendering": "Your people shall be my people, and your God my God",
+      "tcr_rendering": "Your people shall be my people, and your God my God",
+      "theological_legacy": "This verse became one of the most quoted Vulgate passages in Western liturgy, used in marriage rites, conversion ceremonies, and monastic profession. Populus tuus populus meus established the formula for covenant-adoption language in ecclesiastical Latin.",
+      "notes": ["Jerome renders faithfully here. The verse's enormous cultural impact stems from its use in Western marriage liturgy and as a model for religious profession vows, where the convert/novice pledges total allegiance to a new community and its God."]
+    },
+    {
+      "reference": "Ruth 1:20",
+      "source_text": "אַל־תִּקְרֶאנָה לִי נָעֳמִי קְרֶאןָ לִי מָרָא",
+      "vulgate_text": "ne vocetis me Noemi sed vocate me Mara",
+      "vulgate_rendering": "Do not call me Naomi, but call me Mara",
+      "tcr_rendering": "Do not call me Naomi; call me Mara",
+      "theological_legacy": "Jerome adds an explanatory gloss: id est amaram quia amaritudine valde replevit me Omnipotens (that is, Bitter, because the Almighty has filled me with great bitterness). Omnipotens for Shaddai became the standard Western rendering of this divine name, emphasizing sovereign power over the debated Hebrew sense of the mountain-one or sufficient-one.",
+      "notes": ["Shaddai rendered as Omnipotens (Almighty/All-powerful) throughout the Vulgate shaped Western theology's emphasis on divine omnipotence. The Hebrew meaning of Shaddai remains debated (possibly from shad = breast/mountain, or shadad = to overpower), but Jerome's consistent Omnipotens locked in the power-attribute reading."]
+    },
+    {
+      "reference": "Ruth 2:12",
+      "source_text": "תְּהִי מַשְׂכֻּרְתֵּךְ שְׁלֵמָה מֵעִם יְהוָה אֱלֹהֵי יִשְׂרָאֵל אֲשֶׁר־בָּאת לַחֲסוֹת תַּחַת־כְּנָפָיו",
+      "vulgate_text": "reddatque tibi Dominus pro opere tuo et plenam mercedem recipias a Domino Deo Israhel ad quem venisti et sub cuius confugisti alas",
+      "vulgate_rendering": "May the Lord repay you for your work, and may you receive full reward from the Lord God of Israel, under whose wings you have come to take refuge",
+      "tcr_rendering": "May the LORD repay your work, and may your wages be full from the LORD God of Israel, under whose wings you have come to shelter",
+      "theological_legacy": "Mercedem (reward/wages) and sub cuius alas (under whose wings) became key phrases in Western theology of divine recompense and protection. The wing imagery was extensively applied to Christ and the Church sheltering converts, feeding into ecclesiological language of maternal protection.",
+      "notes": ["Jerome renders kenafav (his wings) faithfully as alas (wings). The image of divine wings sheltering the faithful became central to medieval devotional imagery and was applied typologically to the Church as mother sheltering her children."]
+    },
+    {
+      "reference": "Ruth 2:20",
+      "source_text": "קָרוֹב לָנוּ הָאִישׁ מִגֹּאֲלֵנוּ הוּא",
+      "vulgate_text": "propinquus noster est homo",
+      "vulgate_rendering": "The man is our kinsman",
+      "tcr_rendering": "The man is one of our kinsman-redeemers",
+      "theological_legacy": "Propinquus (near one, kinsman) for go'el (kinsman-redeemer) strips the redemption concept from the term, reducing the covenant redeemer to mere family proximity. This forced Western theology to reconstruct the redemption theology from other passages rather than finding it embedded in the kinship term itself.",
+      "notes": ["Hebrew go'el means kinsman-redeemer — one obligated by family bond to redeem property, avenge blood, or marry a widow. Jerome's propinquus captures only the kinship proximity, not the redemptive function. This is a significant theological loss, as the go'el concept is central to understanding Israelite redemption theology."]
+    },
+    {
+      "reference": "Ruth 3:9",
+      "source_text": "וּפָרַשְׂתָּ כְנָפֶךָ עַל־אֲמָתְךָ כִּי גֹאֵל אָתָּה",
+      "vulgate_text": "expande pallium tuum super famulam tuam quia propinquus es",
+      "vulgate_rendering": "Spread your cloak over your handmaid, for you are a kinsman",
+      "tcr_rendering": "Spread your wing over your maidservant, for you are a redeemer",
+      "theological_legacy": "Pallium (cloak) for kanaf (wing/corner of garment) and propinquus for go'el together flatten the richly symbolic Hebrew. The Hebrew kanaf echoes 2:12 (divine wings), creating a theological arc where Boaz enacts God's sheltering; Jerome's pallium loses this intertextual connection.",
+      "notes": ["Hebrew kanaf means both wing and garment-corner, creating deliberate ambiguity linking Boaz's protective act to God's wing-shelter in 2:12. Jerome's pallium (cloak/mantle) captures the physical garment sense but loses the theological wing-imagery connection. Again propinquus for go'el omits the redemption concept."]
+    },
+    {
+      "reference": "Ruth 3:13",
+      "source_text": "אִם־יִגְאָלֵךְ טוֹב יִגְאָל וְאִם־לֹא יַחְפֹּץ לְגָאֳלֵךְ וּגְאַלְתִּיךְ אָנֹכִי",
+      "vulgate_text": "si te voluerit propinquitatis iure retinere bene res acta est sin autem ille noluerit ego te absque ulla dubitatione suscipiam",
+      "vulgate_rendering": "If he wishes to retain you by right of kinship, the matter is well done; but if he does not wish to, I will take you up without any doubt",
+      "tcr_rendering": "If he will redeem you, good — let him redeem. But if he is not willing to redeem you, then I will redeem you, as the LORD lives",
+      "theological_legacy": "Propinquitatis iure (by right of kinship) renders the go'el concept as Roman family law. Suscipiam (I will take you up/receive you) for ga'altikh (I will redeem you) replaces redemption language with reception language, obscuring the salvific dimension of the Hebrew for Western readers.",
+      "notes": ["Jerome replaces the fourfold repetition of ga'al (redeem) with varied Latin vocabulary (retinere, suscipiam), completely obscuring the Hebrew text's insistent emphasis on redemption. The legal precision of propinquitatis iure imports Roman family law concepts foreign to the Israelite levirate institution."]
+    },
+    {
+      "reference": "Ruth 4:14",
+      "source_text": "בָּרוּךְ יְהוָה אֲשֶׁר לֹא הִשְׁבִּית לָךְ גֹּאֵל הַיּוֹם",
+      "vulgate_text": "benedictus Dominus qui non est passus ut deficeret successor familiae tuae",
+      "vulgate_rendering": "Blessed be the Lord who has not allowed a successor to your family to fail",
+      "tcr_rendering": "Blessed is the LORD who has not left you without a redeemer today",
+      "theological_legacy": "Successor familiae (successor of your family) for go'el (redeemer) is Jerome's most dramatic departure in Ruth: the kinsman-redeemer becomes merely a family successor. This rendered invisible the redemption theology that makes Ruth a primary Old Testament type of Christ the Redeemer in its original Hebrew.",
+      "notes": ["This is arguably the most theologically significant Vulgate loss in Ruth. The Hebrew celebrates that God has provided a go'el (redeemer) — language the New Testament applies to Christ. Jerome's successor familiae reduces this to dynastic succession, requiring Western theologians to find their redeemer-typology from other textual evidence."]
+    },
+    {
+      "reference": "Ruth 4:17",
+      "source_text": "יֻלַּד־בֵּן לְנָעֳמִי... וַתִּקְרֶאנָה שְׁמוֹ עוֹבֵד הוּא אֲבִי־יִשַׁי אֲבִי דָוִד",
+      "vulgate_text": "natus est filius Noemi... vocaveruntque nomen eius Obed hic est pater Isai patris David",
+      "vulgate_rendering": "A son is born to Naomi... and they called his name Obed; he is the father of Jesse, the father of David",
+      "tcr_rendering": "A son has been born to Naomi... and they named him Obed. He was the father of Jesse, the father of David",
+      "theological_legacy": "Jerome renders the genealogical conclusion faithfully, and this verse's placement at Ruth's end made the book a key Davidic-messianic text in Western lectionaries. The Vulgate Ruth was read liturgically at Pentecost, linking harvest-redemption-Davidic lineage in the Western liturgical imagination.",
+      "notes": ["The faithful rendering of the David genealogy ensured Ruth's place in Western messianic theology. Medieval commentators read the entire book as allegory: Boaz = Christ, Ruth = the Church from the Gentiles, Obed = the Christian people born from this union, leading to David/Christ."]
+    }
+  ]
+}

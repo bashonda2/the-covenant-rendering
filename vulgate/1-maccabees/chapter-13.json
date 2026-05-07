@@ -1,0 +1,404 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "1 Maccabees",
+    "chapter": 13,
+    "tradition": "vulgate",
+    "tradition_label": "Latin Vulgate (Deuterocanonical)",
+    "source_text": "Biblia Sacra Vulgata (Stuttgart critical edition)",
+    "translator": "Jerome",
+    "date": "c. 405 CE",
+    "canon": ["catholic", "orthodox", "ethiopian"],
+    "generated_at": "2026-04-20T00:00:00Z",
+    "prompt_version": "2.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Chapter 13 marks Simon's rise as the last surviving brother. He rallies the demoralized people, completes Jerusalem's fortifications, and confronts Trypho, who murders Jonathan despite Simon's ransom payment. Simon buries Jonathan at Modein and builds a magnificent family tomb. He then captures Gezer and — in the crowning achievement of the revolt — finally takes the Seleucid citadel (Akra) in Jerusalem, entering it with praise and palm branches.",
+    "remarkable": "The capture of the Akra (vv. 49-52) is arguably the single most important military event in the entire book. This Seleucid fortress had dominated Jerusalem and the Temple Mount for over twenty-five years. Its fall marks the achievement of true Jewish sovereignty for the first time since the Babylonian exile, and Simon enters with palm branches — an image echoed in Jesus's triumphal entry.",
+    "friction": "Trypho's murder of Jonathan after accepting the ransom of one hundred talents and the two sons as hostages (vv. 17-23) is one of the most cynical acts in the book. Simon pays the ransom knowing it will likely fail — 'lest he bring upon himself great hatred' (v. 17) — choosing to be seen as having tried, even at enormous cost.",
+    "connections": "Simon's entry into the Akra with palm branches and hymns (v. 51) prefigures Jesus's triumphal entry (Matthew 21:8-9). The family tomb at Modein (vv. 25-30) with its seven pyramids for the seven family members recalls the architectural traditions of the ancient Near East. The capture of Gezer echoes Joshua's conquest."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_latin": "et audivit Simon quod Tryphon congregat exercitum copiosum ut veniat in terram Iuda et adterat eam",
+      "rendering": "Simon heard that Trypho was assembling a large army to invade the land of Judah and devastate it.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 2,
+      "text_latin": "videns quia in tremore populus est et in timore et ascendit Hierusalem et congregavit populum",
+      "rendering": "Seeing that the people were trembling with fear, he went up to Jerusalem and gathered the people together.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 3,
+      "text_latin": "et adhortans dixit ipsi scitis quanta ego et fratres mei et domus patris mei fecimus pro legibus et pro sanctis proelia et angustias quales vidimus",
+      "rendering": "He encouraged them, saying: 'You yourselves know how much I, my brothers, and my father's house have done for the laws and the sanctuary — the battles and the hardships we have endured.'",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 4,
+      "text_latin": "horum gratia perierunt fratres mei omnes propter Israhel et relictus sum ego solus",
+      "rendering": "'For this cause all my brothers have perished for Israel's sake, and I alone am left.'",
+      "translator_notes": ["Simon is now the last surviving son of Mattathias — four brothers dead (Judas in battle, Eleazar under the elephant, John murdered, Jonathan captured). The weight of the entire family legacy rests on him."],
+      "key_terms": []
+    },
+    {
+      "verse": 5,
+      "text_latin": "et nunc non mihi contingat parcere animae meae in omni tempore tribulationis non enim melior sum fratribus meis",
+      "rendering": "'Now far be it from me to spare my own life in any time of trouble, for I am no better than my brothers.'",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 6,
+      "text_latin": "vindicabo itaque gentem meam et sancta et natos nostros et uxores quia congregatae sunt universae gentes conterere nos inimicitiae gratia",
+      "rendering": "'I will avenge my nation and the sanctuary, and our children and wives, for all the nations have gathered to destroy us out of sheer hatred.'",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 7,
+      "text_latin": "et accensus est spiritus populi simul ut audivit sermones istos",
+      "rendering": "The spirit of the people was rekindled as they heard these words.",
+      "translator_notes": [],
+      "key_terms": [{"latin": "accensus est spiritus populi", "rendered_as": "the spirit of the people was rekindled", "note": "Simon's speech transforms despair into resolve — the leadership transition succeeds"}]
+    },
+    {
+      "verse": 8,
+      "text_latin": "et responderunt voce magna dicentes tu es dux noster loco Iudae et Ionathae fratris tui",
+      "rendering": "They answered with a loud voice: 'You are our leader in place of Judas and your brother Jonathan!'",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 9,
+      "text_latin": "pugna proelium nostrum et omnia quaecumque diceris nobis faciemus",
+      "rendering": "'Fight our battle, and whatever you command us, we will do!'",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 10,
+      "text_latin": "et congregavit omnes viros bellatores et adceleravit consummare muros Hierusalem et munivit eam in circuitu",
+      "rendering": "He assembled all the fighting men and hurried to complete the walls of Jerusalem, fortifying it on every side.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 11,
+      "text_latin": "et misit Ionathan filium Absalomi et cum eo exercitum novum in Ioppen et eiectis his qui erant in ea remansit illic ipse",
+      "rendering": "He sent Jonathan son of Absalom to Joppa with a fresh army. He expelled those who were in it and remained there himself.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 12,
+      "text_latin": "et movit Tryphon a Ptolemaida cum exercitu multo ut veniret in terram Iuda et Ionathas cum eo in custodia",
+      "rendering": "Trypho moved from Ptolemais with a large army to invade the land of Judah, bringing Jonathan with him as a prisoner.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 13,
+      "text_latin": "Simon autem adplicuit in Addus contra faciem campi",
+      "rendering": "Simon encamped at Adida, facing the plain.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 14,
+      "text_latin": "et ut cognovit Tryphon quia surrexit Simon loco Ionathae fratris sui et quia commissurus esset cum eo proelium misit ad eum legatos",
+      "rendering": "When Trypho learned that Simon had risen in place of his brother Jonathan and was about to join battle with him, he sent envoys to him,",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 15,
+      "text_latin": "dicens pro argento quod debebat Ionathas frater tuus in ratione regis propter negotia quae habuit detinemus eum",
+      "rendering": "saying: 'We are holding your brother Jonathan because of the money he owed the royal treasury in connection with the offices he held.'",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 16,
+      "text_latin": "et nunc mitte argenti talenta centum et duos filios eius obsides ut non dimissus fugiat a nobis et remittemus eum",
+      "rendering": "'Send a hundred talents of silver and his two sons as hostages, so that when released he will not revolt against us, and we will set him free.'",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 17,
+      "text_latin": "et cognovit Simon quia cum dolo loqueretur secum iussit tamen dari argentum et pueros ne inimicitiam magnam sumeret ad populum Israhel dicentem",
+      "rendering": "Simon knew that they were speaking deceitfully, but he sent the money and the boys anyway, lest he bring great hostility upon himself from the people of Israel, who would say:",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 18,
+      "text_latin": "quia non misit ei argentum et pueros periit",
+      "rendering": "'It was because he did not send the money and the boys that Jonathan perished.'",
+      "translator_notes": ["Simon's political calculus — paying a ransom he knows will be stolen, sacrificing money and his nephews to maintain public credibility — is a painful act of pragmatic leadership."],
+      "key_terms": []
+    },
+    {
+      "verse": 19,
+      "text_latin": "et misit pueros et centum talenta et mentitus est et non dimisit Ionathan",
+      "rendering": "He sent the boys and the hundred talents. But Trypho broke his word and did not release Jonathan.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 20,
+      "text_latin": "et post haec venit Tryphon ut intraret in regionem et adtereret eam et circuierunt per viam quae ducit in Ador et Simon et exercitus eius ambulabant in omnem locum quocumque ibant",
+      "rendering": "After this, Trypho came to invade and devastate the land. They went around by the road to Adora, while Simon and his army marched alongside them everywhere they went.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 21,
+      "text_latin": "hii autem qui in arce erant miserunt ad Tryphonem legatos ut festinaret venire per desertum et mitteret illis alimenta",
+      "rendering": "Those in the citadel sent messengers to Trypho urging him to come quickly through the wilderness and send them provisions.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 22,
+      "text_latin": "et paravit Tryphon omnem equitatum suum ut veniret nocte illa erat autem nix magna nimis et non venit in Galaaditim",
+      "rendering": "Trypho prepared all his cavalry to ride that night, but there was a very heavy snowfall, and he could not come because of the snow. He withdrew and went to Gilead.",
+      "translator_notes": ["A providential snowstorm prevents Trypho from reaching the citadel — the weather itself seems to fight for Israel."],
+      "key_terms": []
+    },
+    {
+      "verse": 23,
+      "text_latin": "et cum adpropinquasset Bascaman occidit Ionathan et filios eius illic",
+      "rendering": "When he approached Baskama, he killed Jonathan and his sons there.",
+      "translator_notes": ["Jonathan's murder — along with his sons — eliminates a rival line and represents Trypho's final act of treachery against the Maccabees."],
+      "key_terms": []
+    },
+    {
+      "verse": 24,
+      "text_latin": "et convertit Tryphon et abiit in terram suam",
+      "rendering": "Then Trypho turned and went back to his own land.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 25,
+      "text_latin": "et misit Simon et accepit ossa Ionathae fratris sui et sepelivit ea in Modin civitate patrum suorum",
+      "rendering": "Simon sent and recovered the bones of his brother Jonathan, and buried them in Modein, the city of his fathers.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 26,
+      "text_latin": "et planxerunt eum omnis Israhel planctu magno et luxerunt eum diebus multis",
+      "rendering": "All Israel mourned him with great lamentation and wept for him many days.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 27,
+      "text_latin": "et aedificavit Simon super sepulchrum patris sui et fratrum suorum aedificium altum visu lapide polito retro et ante",
+      "rendering": "Simon built over the tomb of his father and brothers a monument impressive to behold, of polished stone on front and back.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 28,
+      "text_latin": "et statuit septem pyramidas unam contra unam patri et matri et quattuor fratribus",
+      "rendering": "He erected seven pyramids, one facing another, for his father, his mother, and his four brothers.",
+      "translator_notes": ["Seven pyramids — for Mattathias, his wife, and the five brothers (John, Judas, Eleazar, Jonathan, and Simon himself anticipated). The monument commemorates the entire family's sacrifice."],
+      "key_terms": [{"latin": "septem pyramidas", "rendered_as": "seven pyramids", "note": "Monumental burial complex for the entire Hasmonean family — a visible claim to dynastic legacy"}]
+    },
+    {
+      "verse": 29,
+      "text_latin": "et his circumposuit columnas magnas et super columnas arma ad memoriam aeternam et iuxta arma naves caelatas quae viderentur ab omnibus navigantibus mare",
+      "rendering": "Around these he placed tall columns, and upon the columns he set suits of armor for an eternal memorial, and beside the armor carved ships, visible to all who sailed the sea.",
+      "translator_notes": ["The carved ships indicate the Hasmonean claim to maritime as well as land power — visible from the Mediterranean, broadcasting the family's glory to the wider world."],
+      "key_terms": []
+    },
+    {
+      "verse": 30,
+      "text_latin": "hoc est sepulchrum quod fecit in Modin usque in hunc diem",
+      "rendering": "This is the tomb he built in Modein, which stands to this day.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 31,
+      "text_latin": "Tryphon autem cum iter faceret cum Antiocho rege adulescente dolo occidit eum",
+      "rendering": "Trypho, while traveling with the young King Antiochus, treacherously killed him.",
+      "translator_notes": ["Trypho murders the boy-king he had used as a puppet — now claiming the throne for himself."],
+      "key_terms": []
+    },
+    {
+      "verse": 32,
+      "text_latin": "et regnavit loco eius et inposuit sibi diadema Asiae et fecit plagam magnam in terra",
+      "rendering": "He reigned in his place and put on the diadem of Asia, bringing great devastation upon the land.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 33,
+      "text_latin": "et aedificavit Simon praesidia Iudaeae muniens ea turribus excelsis et muris magnis et portis et seris et posuit escas in munitionibus",
+      "rendering": "Simon built up the strongholds of Judea, fortifying them with high towers, great walls, gates, and bars. He stored provisions in the fortresses.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 34,
+      "text_latin": "et elegit Simon viros et misit ad Demetrium regem ut faceret remissionem regioni quia omnes actus Tryphonis per direptionem fuerant",
+      "rendering": "Simon chose envoys and sent them to King Demetrius, asking for tax relief for the region, since all of Trypho's acts had been pure extortion.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 35,
+      "text_latin": "et Demetrius rex secundum haec verba respondit ei et scripsit epistulam talem",
+      "rendering": "King Demetrius responded favorably and wrote him the following letter:",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 36,
+      "text_latin": "rex Demetrius Simoni sacerdoti magno et amico regum et senioribus et genti Iudaeorum salutem",
+      "rendering": "'King Demetrius to Simon, great high priest and Friend of Kings, and to the elders and the nation of the Jews — greetings!'",
+      "translator_notes": [],
+      "key_terms": [{"latin": "sacerdoti magno et amico regum", "rendered_as": "great high priest and Friend of Kings", "note": "The highest combined religious and diplomatic titles — Simon has achieved maximum status"}]
+    },
+    {
+      "verse": 37,
+      "text_latin": "coronam auream et bain quam misistis suscepimus et parati sumus facere vobiscum pacem magnam et scribere praepositis regis remittere vobis quae indulsimus",
+      "rendering": "'We have received the golden crown and the palm branch you sent. We are prepared to make a lasting peace with you and to write to the royal officials to release you from what we have remitted.'",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 38,
+      "text_latin": "quaecumque enim constituimus vobis constant et munitiones quas aedificastis sint vobis",
+      "rendering": "'Whatever we have agreed upon for you stands firm, and the fortresses you have built shall be yours.'",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 39,
+      "text_latin": "remittimus quoque ignorantias et delicta usque in hodiernum diem et coronam quam debebatis et si quid aliud erat tributarium in Hierusalem iam non sit tributarium",
+      "rendering": "'We pardon all oversights and offenses to this day, and remit the crown tax you owed. Whatever other taxes were levied in Jerusalem shall no longer be levied.'",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 40,
+      "text_latin": "et si qui apti fuerint ex vobis conscribi inter nostros conscribantur et sit inter nos pax",
+      "rendering": "'If any of you are fit to be enrolled among our forces, let them be enrolled. Let there be peace between us.'",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 41,
+      "text_latin": "anno centesimo septuagesimo ablatum est iugum gentium ab Israhel",
+      "rendering": "In the one hundred and seventieth year, the yoke of the Gentiles was removed from Israel.",
+      "translator_notes": ["Year 170 of the Seleucid era = 142 BCE. This is the most momentous date in the book — the formal end of foreign rule over Israel for the first time since the Babylonian captivity of 586 BCE."],
+      "key_terms": [{"latin": "ablatum est iugum gentium ab Israhel", "rendered_as": "the yoke of the Gentiles was removed from Israel", "note": "The declaration of independence — 142 BCE; the first time since 586 BCE that Israel was free from foreign domination"}]
+    },
+    {
+      "verse": 42,
+      "text_latin": "et coepit populus Israhel scribere in tabulis et gestis publicis anno primo sub Simone sacerdote magno duce et principe Iudaeorum",
+      "rendering": "The people of Israel began to write in their documents and contracts: 'In the first year of Simon, great high priest, governor, and leader of the Jews.'",
+      "translator_notes": ["Dating documents by Simon's regnal years rather than Seleucid years — the most concrete expression of national sovereignty: Israel has its own calendar again."],
+      "key_terms": [{"latin": "sacerdote magno duce et principe Iudaeorum", "rendered_as": "great high priest, governor, and leader of the Jews", "note": "Simon's triple title — combining priestly, military, and civil authority in one person; the Hasmonean consolidation of power"}]
+    },
+    {
+      "verse": 43,
+      "text_latin": "in diebus illis adplicuit Simon ad Gazaram et circumdedit eam castris et fecit machinas et adplicuit ad civitatem et percussit turrem unam et conprehendit eam",
+      "rendering": "In those days, Simon encamped against Gezer and surrounded it with his forces. He built siege engines, brought them up to the city, breached one tower, and captured it.",
+      "translator_notes": [],
+      "key_terms": [{"latin": "Gazaram", "rendered_as": "Gezer", "note": "Strategic fortress city controlling the approach to Jerusalem from the coast; its capture secures Judea's western frontier"}]
+    },
+    {
+      "verse": 44,
+      "text_latin": "et exilierunt qui erant intra machinam in civitatem et factus est motus magnus in civitate",
+      "rendering": "Those in the siege tower leaped into the city, and a great commotion arose in the city.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 45,
+      "text_latin": "et ascenderunt qui erant in civitate cum uxoribus et filiis supra murum scissis tunicis suis et clamaverunt voce magna postulantes a Simone dextras sibi dari",
+      "rendering": "The people of the city, with their wives and children, climbed up on the walls with their garments torn and cried out with a loud voice, begging Simon for terms of peace.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 46,
+      "text_latin": "et dixerunt non nobis facias secundum malitias nostras sed secundum misericordiam tuam",
+      "rendering": "They said: 'Do not deal with us according to our wickedness, but according to your mercy!'",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 47,
+      "text_latin": "et flexus Simon non debellavit eos eiecit tamen eos de civitate et mundavit aedes in quibus erant simulacra et tunc intravit in eam cum hymnis benedicens Dominum",
+      "rendering": "Simon relented and did not destroy them. He expelled them from the city, purified the buildings where the idols had been, and then entered it with hymns, blessing the Lord.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 48,
+      "text_latin": "et eiecta ab ea omni inmunditia collocavit in ea viros qui legem facerent et munivit eam et fecit sibi habitationem",
+      "rendering": "After removing all uncleanness from it, he settled in it men who observed the Law. He fortified it and made it his residence.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 49,
+      "text_latin": "qui autem erant in arce Hierusalem prohibebantur egredi et ingredi regionem et emere et vendere et esurierunt valde et multi eorum fame perierunt",
+      "rendering": "Those in the citadel in Jerusalem were prevented from going out or coming into the countryside to buy and sell. They suffered severe hunger, and many of them perished from famine.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 50,
+      "text_latin": "et clamaverunt ad Simonem ut dextras acciperent et dedit illis et eiecit eos inde et mundavit arcem a contaminationibus",
+      "rendering": "They cried out to Simon for terms of peace, and he granted them. He expelled them from the citadel and cleansed it of its defilements.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 51,
+      "text_latin": "et intraverunt in eam tertia et vicesima die mensis secundi anno centesimo septuagesimo primo cum laude et ramis palmarum et cinyris et cymbalis et nablis et hymnis et canticis quia contritus est inimicus magnus ex Israhel",
+      "rendering": "They entered it on the twenty-third day of the second month, in the one hundred and seventy-first year, with praise and palm branches, with harps and cymbals and lyres, with hymns and songs — because a great enemy had been crushed and removed from Israel.",
+      "translator_notes": ["The entry into the Akra with palm branches is the triumphal climax of the book. The palm branch (lulav) was a symbol of victory and of the Feast of Tabernacles. This scene is echoed in Jesus's triumphal entry into Jerusalem (Matthew 21:8-9, John 12:13)."],
+      "key_terms": [{"latin": "ramis palmarum", "rendered_as": "palm branches", "note": "Symbol of victory and celebration; the same imagery used in Jesus's triumphal entry (John 12:13)"},
+        {"latin": "inimicus magnus", "rendered_as": "great enemy", "note": "The Akra itself — the physical embodiment of Seleucid oppression for over 25 years"}]
+    },
+    {
+      "verse": 52,
+      "text_latin": "et constituit ut omnibus annis ageretur dies haec cum laetitia",
+      "rendering": "He decreed that this day should be celebrated every year with rejoicing.",
+      "translator_notes": ["A third Maccabean festival, alongside Hanukkah and Nicanor's Day — the anniversary of the Akra's liberation."],
+      "key_terms": []
+    },
+    {
+      "verse": 53,
+      "text_latin": "et munivit montem templi qui erat secus arcem et habitavit illic ipse et qui cum eo erant",
+      "rendering": "He fortified the Temple mount beside the citadel, and he and his men took up residence there.",
+      "translator_notes": ["Simon's choice to live on the Temple mount — combining military headquarters with sacred space — symbolizes the Hasmonean fusion of political and religious authority."],
+      "key_terms": []
+    },
+    {
+      "verse": 54,
+      "text_latin": "et vidit Simon Iohannem filium suum quod fortis esset vir ad proeliandum et posuit eum ducem virtutum universarum et habitavit in Gazaris",
+      "rendering": "Simon saw that his son John was a brave warrior, and he appointed him commander of all the forces. John took up residence in Gezer.",
+      "translator_notes": ["John (Hyrcanus) — Simon's son — is now introduced as the next generation of Hasmonean leadership. He will become John Hyrcanus I, the most powerful of all the Hasmonean rulers."],
+      "key_terms": [{"latin": "Iohannem filium suum", "rendered_as": "his son John", "note": "The future John Hyrcanus I — the most powerful Hasmonean ruler, who would expand the kingdom to its greatest extent"}]
+    }
+  ]
+}

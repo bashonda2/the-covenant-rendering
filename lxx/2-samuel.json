@@ -1,0 +1,121 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "2 Samuel",
+    "tradition": "lxx",
+    "tradition_label": "Septuagint (LXX) / 2 Kingdoms",
+    "source_text": "Rahlfs-Hanhart, Septuaginta (2 Kingdoms = 2 Basileiōn)",
+    "base_text": "Westminster Leningrad Codex (WLC)",
+    "translators": "Alexandrian Jewish translators (3rd–2nd c. BCE)",
+    "date": "3rd–2nd century BCE",
+    "generated_at": "2026-04-22T00:00:00Z",
+    "prompt_version": "1.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "LXX 2 Samuel is preserved in Greek as 2 Basileiōn ('2 Kingdoms'), the second of the four-volume Kingdoms collection that Greek tradition makes of 1–2 Samuel and 1–2 Kings. The Greek text of Samuel is textually important: 4QSamᵃ from Qumran frequently agrees with the LXX against the MT, showing that the LXX reflects a genuinely older Hebrew Vorlage in many places. The book's Davidic oracles (chapter 7) are the textual source for the most elaborate messianic typology in the New Testament.",
+    "notable_variants": "The Nathan oracle at 7:14 quoted in Hebrews 1:5 for the Father-Son relation; the closing Davidic psalm of chapter 22 quoted in Romans 15:9 as the ground for Gentile inclusion; the numerical variant at 15:7 ('four years' LXX / 'forty years' MT, with LXX almost certainly original); the 'lame and the blind' conquest at 5:8 where 4QSamᵃ and LXX preserve a clearer text than MT; and the 24:1 inciting agent ('the LORD incited') that 1 Chronicles 21:1 and LXX later read as 'an adversary / the adversary.'",
+    "theological_legacy": "LXX 2 Samuel supplies the Davidic-covenant vocabulary on which all later NT Christology builds: huios tou Dauid, throne established forever, father-son relation between God and the anointed king. 4QSamᵃ's frequent agreement with LXX is one of the Dead Sea Scrolls' most important contributions to text criticism — showing that the Masoretic Samuel is one form among several that early Hebrew communities preserved."
+  },
+  "renderings": [
+    {
+      "reference": "2 Samuel 5:8",
+      "mt_reading": "(difficult Hebrew; meaning of tzinnor uncertain)",
+      "lxx_reading": "καὶ ἔλεγεν Δαυιδ ἐν τῇ ἡμέρᾳ ἐκείνῃ πᾶς τύπτων Ιεβουσαῖον ἁπτέσθω ἐν παραξιφίδι",
+      "mt_rendering": "Whoever strikes down the Jebusites — let him reach the water channel! — and the lame and the blind whom David despises",
+      "lxx_rendering": "And David said on that day: Everyone who strikes a Jebusite, let him attack with a dagger",
+      "significance": "major",
+      "notes": [
+        "The Hebrew of 2 Samuel 5:8 is notoriously difficult. The word tzinnor is a hapax that may mean 'water channel,' 'grappling hook,' 'throat,' or 'dagger.' The LXX reads paraxiphis ('dagger, short sword') — not water channel at all.",
+        "4QSamᵃ preserves a clearer Hebrew text here, supporting a reading closer to LXX than to MT. Many modern translations bracket the verse as textually uncertain; the LXX is one of the key witnesses for reconstructing what the original may have said.",
+        "The 'blind and the lame' clause is preserved in both but fits the narrative more loosely in MT than in the Greek and Qumran witnesses."
+      ]
+    },
+    {
+      "reference": "2 Samuel 7:14",
+      "mt_reading": "אֲנִי אֶהְיֶה־לּוֹ לְאָב וְהוּא יִהְיֶה־לִּי לְבֵן",
+      "lxx_reading": "ἐγὼ ἔσομαι αὐτῷ εἰς πατέρα καὶ αὐτὸς ἔσται μοι εἰς υἱόν",
+      "mt_rendering": "I myself will be a father to him, and he will be a son to me",
+      "lxx_rendering": "I will be to him a father, and he shall be to me a son",
+      "significance": "theological",
+      "notes": [
+        "Hebrews 1:5 quotes this verse verbatim in its LXX form as one of the two scriptural proofs of the Son's superiority over the angels: \"For to which of the angels did God ever say … 'I will be to him a father, and he shall be to me a son'?\"",
+        "2 Corinthians 6:18 also draws on this formula in the composite citation of covenant-inclusion texts: 'I will be a father to you, and you shall be sons and daughters to me.'",
+        "The Davidic covenant's promise of dynastic sonship becomes, in the NT's LXX-based reading, the scriptural basis for Christ's unique Sonship and, through Christ, for the church's adoption. Every NT use of the father-son covenant pattern runs through LXX 2 Samuel 7."
+      ]
+    },
+    {
+      "reference": "2 Samuel 7:22",
+      "mt_reading": "כִּי־אֵין כָּמוֹךָ וְאֵין אֱלֹהִים זוּלָתֶךָ",
+      "lxx_reading": "ὅτι οὐκ ἔστιν ὡς σὺ καὶ οὐκ ἔστιν θεὸς πλὴν σοῦ",
+      "mt_rendering": "there is no one like you, and there is no God besides you",
+      "lxx_rendering": "for there is none like you, and there is no God besides you",
+      "significance": "moderate",
+      "notes": [
+        "David's post-oracle doxology uses the same 'there is no other' formula (ouk estin theos plēn sou) that LXX Isaiah 45:5, 45:6, 45:14, 45:18, 45:21–22 make central to Israelite monotheism. The LXX-Samuel-to-LXX-Isaiah word-field of monotheistic acclamation is picked up at 1 Corinthians 8:4 ('there is no God but one') and 1 Timothy 2:5 ('there is one God').",
+        "The formulaic Greek of monotheistic confession in the NT runs directly through LXX Samuel and LXX Isaiah."
+      ]
+    },
+    {
+      "reference": "2 Samuel 12:13",
+      "mt_reading": "גַּם־יְהוָה הֶעֱבִיר חַטָּאתְךָ",
+      "lxx_reading": "καὶ κύριος παρεβίβασεν τὸ ἁμάρτημά σου",
+      "mt_rendering": "The LORD has also transferred your sin",
+      "lxx_rendering": "And the Lord has caused your sin to pass away",
+      "significance": "moderate",
+      "notes": [
+        "The LXX's parebibasen ('caused to pass across, transferred, removed') translates he'evir, keeping the image of sin being made to pass from the sinner. The same verbal image carries into NT atonement vocabulary: Romans 3:25 describes God in Christ 'passing over' (paresis) the former sins.",
+        "Psalm 51 (LXX 50) narrates David's response to this forgiveness and uses overlapping vocabulary (exaleipsai, katharizō, hilastērion-adjacent language). The whole Christian penitential tradition draws on the LXX-Samuel and LXX-Psalm 50 pairing."
+      ]
+    },
+    {
+      "reference": "2 Samuel 15:7",
+      "mt_reading": "מִקֵּץ אַרְבָּעִים שָׁנָה",
+      "lxx_reading": "ἀπὸ τέλους τεσσάρων ἐτῶν",
+      "mt_rendering": "At the end of four years",
+      "lxx_rendering": "After four years",
+      "significance": "major",
+      "notes": [
+        "TCR here follows LXX ('four years'), not MT ('forty years'). The MT's forty is almost certainly a scribal error: Absalom was not yet forty years old when he revolted, and the narrative chronology requires a shorter interval. Josephus, the Syriac, and a number of Greek manuscripts all read 'four years.'",
+        "This is a rare but visible example of TCR departing from MT for the LXX where the textual case for LXX is overwhelming. The decision follows nearly all modern critical translations (NRSV, ESV, NET)."
+      ]
+    },
+    {
+      "reference": "2 Samuel 22:50",
+      "mt_reading": "עַל־כֵּן אוֹדְךָ יְהוָה בַּגּוֹיִם וּלְשִׁמְךָ אֲזַמֵּר",
+      "lxx_reading": "διὰ τοῦτο ἐξομολογήσομαί σοι κύριε ἐν τοῖς ἔθνεσιν καὶ ἐν τῷ ὀνόματί σου ψαλῶ",
+      "mt_rendering": "I will praise You, LORD, among the nations, and I will sing to Your name",
+      "lxx_rendering": "Therefore I will confess to you, O Lord, among the nations, and to your name I will sing",
+      "significance": "theological",
+      "notes": [
+        "Romans 15:9 quotes this verse verbatim in its LXX form as the first of four scriptural proofs that the Gentiles were always meant to glorify God: 'For this reason I will praise you among the Gentiles, and sing to your name.'",
+        "The whole climactic argument of Romans 15:7–13 — that Christ became a servant to the circumcision 'in order that the Gentiles might glorify God for his mercy' — is built on a catena of four LXX citations (Ps 17/18:49 = 2 Sam 22:50, Deut 32:43, Ps 116/117:1, Isa 11:10). The argument is only legible in Greek."
+      ]
+    },
+    {
+      "reference": "2 Samuel 23:1",
+      "mt_reading": "מְשִׁיחַ אֱלֹהֵי יַעֲקֹב",
+      "lxx_reading": "χριστὸς θεοῦ Ιακωβ",
+      "mt_rendering": "the anointed of the God of Jacob",
+      "lxx_rendering": "the anointed of the God of Jacob",
+      "significance": "theological",
+      "notes": [
+        "David's 'last words' self-designation as christos theou Iakōb is the LXX's routine rendering of meshiach as christos. The title christos accumulates its royal-Davidic connotation precisely through passages like this one.",
+        "When the NT calls Jesus ho christos, it is using the LXX's standard equivalent for 'the anointed one' — a title primarily marking kingship in LXX usage and only secondarily high-priestly consecration. The Davidic resonance is what NT Christology chiefly inherits."
+      ]
+    },
+    {
+      "reference": "2 Samuel 24:1",
+      "mt_reading": "וַיֹּסֶף אַף־יְהוָה לַחֲרוֹת בְּיִשְׂרָאֵל וַיָּסֶת אֶת־דָּוִד בָּהֶם",
+      "lxx_reading": "καὶ προσέθετο ὀργὴ κυρίου ἐκκαῆναι ἐν Ισραηλ καὶ ἐπέσεισεν τὸν Δαυιδ ἐν αὐτοῖς",
+      "mt_rendering": "The anger of the LORD again burned against Israel, and he incited David against them",
+      "lxx_rendering": "And the wrath of the Lord again blazed in Israel, and he stirred up David against them",
+      "significance": "theological",
+      "notes": [
+        "The MT's agent of incitement is YHWH himself. The LXX retains the same subject. 1 Chronicles 21:1 — narrating the same census episode — reads 'Satan stood up against Israel and incited David' (Hebrew ha-satan). The LXX of 1 Chronicles reads diabolos for this.",
+        "The parallel between 2 Samuel 24:1 and 1 Chronicles 21:1 is the clearest biblical case of the Chronicler modifying a Samuel source to insert the figure who became 'the satan / the devil.' The inner-biblical development from divine-inciter to adversarial-inciter runs across exactly these two texts, and the LXX preserves both."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Matthew",
+    "tradition": "vulgate",
+    "tradition_label": "Latin Vulgate",
+    "source_text": "Biblia Sacra Vulgata (Stuttgart critical edition)",
+    "base_text": "SBL Greek New Testament (SBLGNT)",
+    "translator": "Jerome (Eusebius Sophronius Hieronymus)",
+    "date": "382-405 CE",
+    "generated_at": "2026-04-20T00:00:00Z",
+    "prompt_version": "2.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Jerome's Latin Matthew established foundational vocabulary for Western Christianity — from 'paenitentiam agite' (do penance) to 'tu es Petrus' (you are Peter) to 'ecce virgo concipiet' (behold a virgin shall conceive). As the first Gospel in canonical order, its Latin shaped catechesis, liturgy, and theology for over a millennium.",
+    "notable_renderings": "The Petrine commission (16:18-19), the Lord's Prayer vocabulary, the Great Commission (28:19), the Beatitudes, and the virgin birth prophecy (1:23) are among the most consequential Latin renderings in the entire Bible.",
+    "theological_legacy": "Matthew's Vulgate text is the most quoted Gospel in Western liturgy. Jerome's choices here determined how the Western church understood repentance (paenitentia vs metanoia), ecclesiology (ecclesia, Petrus/petra), and Christology (Emmanuel, Filius hominis)."
+  },
+  "renderings": [
+    {
+      "reference": "Matthew 1:21",
+      "source_text": "καλέσεις τὸ ὄνομα αὐτοῦ Ἰησοῦν· αὐτὸς γὰρ σώσει τὸν λαὸν αὐτοῦ",
+      "vulgate_text": "vocabis nomen eius Iesum ipse enim salvum faciet populum suum",
+      "vulgate_rendering": "You shall call his name Jesus, for he shall save his people",
+      "tcr_rendering": "You will call his name Yeshua, for he will save his people",
+      "theological_legacy": "Iesum...salvum faciet (Jesus...shall save) preserves the name-etymology connection: Iesus from Hebrew Yeshua (salvation). Salvum faciet (shall make safe/save) established the Latin salvation vocabulary. The name Jesus became the standard Western form of Yeshua through the Vulgate.",
+      "notes": [
+        "The Latinized form Iesus (from Greek Iēsous, from Hebrew Yeshua) became the universal Western name for Christ. Jerome's salvum faciet (shall make safe) renders the Greek sōsei (shall save). The etymological connection between the name and the saving mission was preserved in both Greek and Latin."
+      ]
+    },
+    {
+      "reference": "Matthew 3:2",
+      "source_text": "μετανοεῖτε· ἤγγικεν γὰρ ἡ βασιλεία τῶν οὐρανῶν",
+      "vulgate_text": "paenitentiam agite adpropinquavit enim regnum caelorum",
+      "vulgate_rendering": "Do penance, for the kingdom of heaven has drawn near",
+      "tcr_rendering": "Turn back, for the kingdom of heaven has drawn near",
+      "theological_legacy": "Paenitentiam agite (do penance) rather than 'repent' (change your mind) was one of the most contested Vulgate renderings in history. Luther's first of the 95 Theses (1517) attacked this translation, arguing that the Greek metanoeite means an inner change of mind, not an outward act of penance. This single rendering was a catalyst for the Reformation.",
+      "notes": [
+        "Greek metanoeite means 'change your mind, repent' — an inward transformation. Jerome's paenitentiam agite (do penance, perform penitence) externalizes the action, suggesting penitential works. This rendering supported the medieval sacrament of penance, including confession, satisfaction, and indulgences. Erasmus and Luther both argued it was a mistranslation that distorted the gospel."
+      ]
+    },
+    {
+      "reference": "Matthew 4:17",
+      "source_text": "μετανοεῖτε· ἤγγικεν γὰρ ἡ βασιλεία τῶν οὐρανῶν",
+      "vulgate_text": "paenitentiam agite adpropinquavit enim regnum caelorum",
+      "vulgate_rendering": "Do penance, for the kingdom of heaven has drawn near",
+      "tcr_rendering": "Turn back, for the kingdom of heaven has drawn near",
+      "theological_legacy": "The same rendering as Matt 3:2, now on the lips of Jesus himself. Luther's argument was sharpened by the fact that Jesus's first public word was rendered as 'do penance' rather than 'repent' — making the entire gospel message appear to begin with an external act rather than an inner transformation.",
+      "notes": [
+        "This is the same phrase as 3:2 but spoken by Jesus. The repetition in the Vulgate reinforced the penitential reading. Luther's first thesis reads: 'When our Lord and Master Jesus Christ said paenitentiam agite, he intended the entire life of the faithful to be repentance' — arguing against the sacramental penance interpretation."
+      ]
+    },
+    {
+      "reference": "Matthew 5:3",
+      "source_text": "μακάριοι οἱ πτωχοὶ τῷ πνεύματι",
+      "vulgate_text": "beati pauperes spiritu",
+      "vulgate_rendering": "Blessed are the poor in spirit",
+      "tcr_rendering": "How favored are the poor in spirit",
+      "theological_legacy": "Beati pauperes spiritu (blessed are the poor in spirit) established the Beatitudes vocabulary in Latin. Beati (blessed, happy) became the standard term for spiritual blessedness. Pauperes spiritu (poor in spirit) was interpreted as either spiritual poverty (humility) or voluntary material poverty (the Franciscan reading).",
+      "notes": [
+        "The Beatitudes in Latin (Beati...) gave the passage its English name (from Latin beatitudo, blessedness). Each beatitude generated extensive Latin theological commentary. The 'poor in spirit' was debated: does spiritu modify the poverty (spiritually poor = humble) or identify the sphere (poor in the spiritual realm)?"
+      ]
+    },
+    {
+      "reference": "Matthew 5:4",
+      "source_text": "μακάριοι οἱ πενθοῦντες, ὅτι αὐτοὶ παρακληθήσονται",
+      "vulgate_text": "beati qui lugent quoniam ipsi consolabuntur",
+      "vulgate_rendering": "Blessed are those who mourn, for they shall be consoled",
+      "tcr_rendering": "How favored are those who mourn, for they will be comforted",
+      "theological_legacy": "Consolabuntur (shall be consoled) from consolari established the Western theological vocabulary of consolation. The Paraclete (Holy Spirit) was connected to this promise through the Latin consolator (comforter/consoler), linking the Beatitudes to pneumatology.",
+      "notes": [
+        "Jerome's consolabuntur renders Greek paraklēthēsontai faithfully. The verbal connection to the Paraclete (paraklētos/consolator) was exploited by Latin commentators to connect mourning-consolation to the ministry of the Holy Spirit."
+      ]
+    },
+    {
+      "reference": "Matthew 6:9-13",
+      "source_text": "Πάτερ ἡμῶν ὁ ἐν τοῖς οὐρανοῖς...μὴ εἰσενέγκῃς ἡμᾶς εἰς πειρασμόν",
+      "vulgate_text": "Pater noster qui es in caelis...et ne nos inducas in temptationem sed libera nos a malo",
+      "vulgate_rendering": "Our Father who art in heaven...and lead us not into temptation but deliver us from evil",
+      "tcr_rendering": "Our Father who is in the heavens...and do not bring us into testing, but deliver us from the evil one",
+      "theological_legacy": "The Pater Noster is the most prayed text in Western Christianity, memorized in Latin by centuries of Christians. Ne nos inducas in temptationem (lead us not into temptation) was controversially revised by Pope Francis in 2019 for Italian and French liturgies to 'do not let us fall into temptation,' arguing the Vulgate implied God actively leads into temptation. Libera nos a malo (deliver us from evil) — the Latin malo is ambiguous: evil (abstract) or the evil one (personal).",
+      "notes": [
+        "Jerome's ne nos inducas in temptationem renders the Greek mē eisenenkēs hēmas eis peirasmon literally. The theological difficulty — does God 'lead into' temptation? — was debated from the patristic period through Pope Francis's 2019 revision. The Lord's Prayer in Latin shaped every aspect of Western prayer practice and was the first text taught to catechumens."
+      ]
+    },
+    {
+      "reference": "Matthew 16:18",
+      "source_text": "σὺ εἶ Πέτρος, καὶ ἐπὶ ταύτῃ τῇ πέτρᾳ οἰκοδομήσω μου τὴν ἐκκλησίαν",
+      "vulgate_text": "tu es Petrus et super hanc petram aedificabo ecclesiam meam",
+      "vulgate_rendering": "You are Peter, and upon this rock I will build my church",
+      "tcr_rendering": "You are Peter, and on this rock I will build my assembly",
+      "theological_legacy": "Tu es Petrus et super hanc petram is the foundational text for papal authority in Catholic theology. The Latin preserves the Greek wordplay (Petros/petra) perfectly (Petrus/petram), supporting the identification of Peter as the rock on which the Church is built. This verse is inscribed in gold letters around the dome of St. Peter's Basilica in Rome. Ecclesiam (church/assembly) from Greek ekklēsia became the standard Western term for the Church.",
+      "notes": [
+        "Unlike the Greek, where Petros (masculine, a stone) and petra (feminine, a rock/cliff) are different words, the Latin Petrus/petram maintains the wordplay with greater force. Protestant interpreters argued the 'rock' was Peter's confession rather than Peter himself, but the Latin text strongly supports the Petrine identification. This verse became the single most debated text in Western ecclesiology."
+      ]
+    },
+    {
+      "reference": "Matthew 26:26",
+      "source_text": "τοῦτό ἐστιν τὸ σῶμά μου",
+      "vulgate_text": "hoc est corpus meum",
+      "vulgate_rendering": "This is my body",
+      "tcr_rendering": "This is my body",
+      "theological_legacy": "Hoc est corpus meum became the central formula of Western Eucharistic theology. The words of institution, spoken by the priest in Latin at every Mass for over a millennium, were believed to effect the transubstantiation of bread into Christ's body. The phrase 'hocus pocus' is likely a corruption of these words, reflecting their quasi-magical status in popular perception.",
+      "notes": [
+        "Jerome's rendering is a straightforward translation of the Greek. The theological weight comes entirely from the liturgical and doctrinal use of the Latin formula. The verb est (is) became the crux of the real presence debate: does 'is' mean 'is literally' (Catholic/Lutheran) or 'represents' (Reformed)?"
+      ]
+    },
+    {
+      "reference": "Matthew 28:19-20",
+      "source_text": "πορευθέντες οὖν μαθητεύσατε πάντα τὰ ἔθνη, βαπτίζοντες αὐτοὺς εἰς τὸ ὄνομα τοῦ πατρὸς καὶ τοῦ υἱοῦ καὶ τοῦ ἁγίου πνεύματος",
+      "vulgate_text": "euntes ergo docete omnes gentes baptizantes eos in nomine Patris et Filii et Spiritus Sancti",
+      "vulgate_rendering": "Go therefore and teach all nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit",
+      "tcr_rendering": "Go therefore and make disciples of all the nations, immersing them in the name of the Father and of the Son and of the Holy Spirit",
+      "theological_legacy": "The Trinitarian baptismal formula in nomine Patris et Filii et Spiritus Sancti became the essential sacramental formula for valid baptism in Western Christianity. Docete (teach) for Greek mathēteusate (make disciples) slightly shifts the emphasis from discipleship to instruction, which influenced the Western catechetical tradition. Omnes gentes (all nations) grounded the Western missionary mandate.",
+      "notes": [
+        "Jerome's docete (teach) rather than 'make disciples' emphasizes instruction over the master-disciple relationship. The baptismal formula was fixed in this exact Latin form and became the test of valid baptism — any baptism not using this formula was considered invalid. The Great Commission text drove Western missionary expansion for centuries."
+      ]
+    },
+    {
+      "reference": "Matthew 1:23",
+      "source_text": "ἰδοὺ ἡ παρθένος ἐν γαστρὶ ἕξει...καὶ καλέσουσιν τὸ ὄνομα αὐτοῦ Ἐμμανουήλ, ὅ ἐστιν μεθερμηνευόμενον μεθ' ἡμῶν ὁ θεός",
+      "vulgate_text": "ecce virgo in utero habebit...et vocabunt nomen eius Emmanuhel quod est interpretatum nobiscum Deus",
+      "vulgate_rendering": "Behold, a virgin shall conceive...and they shall call his name Emmanuel, which is interpreted 'God with us'",
+      "tcr_rendering": "Look, the virgin will conceive...and they will call his name Immanuel, which means 'God with us'",
+      "theological_legacy": "Virgo in utero (virgin in the womb/conceiving) — Matthew quotes Isaiah 7:14 using the LXX parthenos, and Jerome renders it virgo, maintaining consistency with his OT translation. Nobiscum Deus (God with us) became a foundational incarnation formula. The verse bridges the OT prophecy and NT fulfillment in identical Latin vocabulary.",
+      "notes": [
+        "Jerome's consistent use of virgo in both Isaiah 7:14 and Matthew 1:23 created a seamless prophetic-fulfillment chain in the Latin Bible. The translation nobiscum Deus (God with us) for Emmanuel became a theological title for the incarnation itself."
+      ]
+    },
+    {
+      "reference": "Matthew 5:48",
+      "source_text": "ἔσεσθε οὖν ὑμεῖς τέλειοι ὡς ὁ πατὴρ ὑμῶν ὁ οὐράνιος τέλειός ἐστιν",
+      "vulgate_text": "estote ergo vos perfecti sicut et Pater vester caelestis perfectus est",
+      "vulgate_rendering": "Be therefore perfect, as your heavenly Father is perfect",
+      "tcr_rendering": "You then must be complete, as your heavenly Father is complete",
+      "theological_legacy": "Estote perfecti (be perfect) — the Latin perfectus (complete, finished, perfect) became the basis for the Western theology of Christian perfection, from monastic spirituality through Wesley's 'entire sanctification.' The command shaped the distinction between precepts (binding on all) and counsels of perfection (for the spiritually advanced).",
+      "notes": [
+        "Greek teleios means 'complete, mature, having reached its end/goal' rather than flawless moral perfection. Jerome's perfectus carries stronger connotations of flawlessness. This translation choice drove the Western pursuit of perfection in monasticism and the Catholic distinction between ordinary and 'perfect' Christian life."
+      ]
+    },
+    {
+      "reference": "Matthew 11:28-30",
+      "source_text": "δεῦτε πρός με πάντες οἱ κοπιῶντες καὶ πεφορτισμένοι, κἀγὼ ἀναπαύσω ὑμᾶς",
+      "vulgate_text": "venite ad me omnes qui laboratis et onerati estis et ego reficiam vos",
+      "vulgate_rendering": "Come to me, all you who labor and are burdened, and I will give you rest",
+      "tcr_rendering": "Come to me, all who labor and are heavy laden, and I will give you rest",
+      "theological_legacy": "Venite ad me omnes qui laboratis et onerati estis became one of the most quoted invitation texts in Western Christianity. Reficiam (I will restore/refresh) implies not just rest but restoration and renewal. The verse shaped Western spirituality's emphasis on Christ as the source of rest for the weary soul.",
+      "notes": [
+        "Jerome's reficiam (from reficere, to restore, remake, refresh) is richer than simple 'rest' — it suggests rebuilding and renewal. The verse became central to Western devotional literature and hymnody, and was carved on countless church doors as an invitation to enter."
+      ]
+    }
+  ]
+}

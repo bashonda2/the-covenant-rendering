@@ -1,0 +1,223 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Sirach",
+    "chapter": 44,
+    "tradition": "vulgate",
+    "tradition_label": "Latin Vulgate (Deuterocanonical)",
+    "source_text": "Biblia Sacra Vulgata (Stuttgart critical edition)",
+    "translator": "Jerome",
+    "date": "c. 405 CE",
+    "canon": ["catholic", "orthodox", "ethiopian"],
+    "generated_at": "2026-04-20T00:00:00Z",
+    "prompt_version": "2.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "The opening of the 'Praise of the Ancestors' -- the most celebrated passage in Sirach. Ben Sira begins with the famous invocation 'Let us now praise famous men' and establishes categories of greatness: rulers, counselors, prophets, musicians, poets, and the wealthy. He also remembers those whose names have perished and those whose piety endures. The chapter then begins the historical roll call with Enoch, Noah, Abraham, Isaac, and Jacob.",
+    "remarkable": "The phrase 'Laudemus viros gloriosos' (Let us praise famous men) became one of the most recognized lines in all of Western literature, inspiring James Agee's 'Let Us Now Praise Famous Men' and countless other works. The passage inaugurates a new genre: the retrospective catalog of national heroes, which influenced both the Epistle to the Hebrews (ch. 11) and later Christian hagiography.",
+    "friction": "The selection of heroes is entirely male, reflecting the patriarchal assumptions of Ben Sira's culture. Women (Sarah, Rebekah, Leah, Rachel) are conspicuously absent despite their centrality to the Genesis narratives. The emphasis on fame and remembrance also privileges public achievement over private virtue.",
+    "connections": "Hebrews 11 (the 'faith hall of fame'); Wisdom 10 (wisdom's role in the lives of the patriarchs); 1 Maccabees 2:51-60 (Mattathias' death speech recounting ancestors); Psalm 78 (recounting God's deeds through Israel's history)."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_latin": "Laudemus viros gloriosos et parentes nostros in generatione sua.",
+      "rendering": "Let us now praise famous men, and our fathers in their generations.",
+      "translator_notes": ["The most celebrated opening line in all deuterocanonical literature. 'Viros gloriosos' literally means 'men of glory' -- those whose lives reflected the kavod (glory) of God in human form."],
+      "key_terms": [{"latin": "viros gloriosos", "rendered_as": "famous men", "note": "Literally 'men of glory'; not mere celebrity but those whose lives carried the weight (kavod) of divine purpose and human excellence."}]
+    },
+    {
+      "verse": 2,
+      "text_latin": "Multam gloriam fecit Dominus magnificentia sua a saeculo.",
+      "rendering": "The Lord created great glory, his own magnificence, from the beginning of the age.",
+      "translator_notes": ["God is the source of all human glory: the ancestors' greatness is derived from and reflects divine magnificence."],
+      "key_terms": []
+    },
+    {
+      "verse": 3,
+      "text_latin": "Dominantes in potestatibus suis homines magni virtute et prudentia sua praediti nuntiantes in prophetis dignitatem prophetarum.",
+      "rendering": "Rulers in their domains, men great in power and endowed with prudence, heralds in the prophets and bearers of prophetic dignity.",
+      "translator_notes": ["The first category of greatness: political rulers and prophets, those who exercised authority in governance and divine communication."],
+      "key_terms": []
+    },
+    {
+      "verse": 4,
+      "text_latin": "Imperantes in praesenti populo et virtute prudentiae populis sanctissima verba.",
+      "rendering": "Commanding the people of their time, and offering the most holy words by the strength of their wisdom to the peoples.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 5,
+      "text_latin": "In peritia sua requirentes modos musicos et narrantes carmina scripturarum.",
+      "rendering": "Seeking out musical melodies by their skill, and composing the songs of Scripture.",
+      "translator_notes": ["The musicians and poets: David is the implied figure, but the category includes all who shaped Israel's liturgical tradition."],
+      "key_terms": [{"latin": "carmina scripturarum", "rendered_as": "songs of Scripture", "note": "The psalms and canticles that became part of the sacred text; the composers participated in the creation of Scripture itself."}]
+    },
+    {
+      "verse": 6,
+      "text_latin": "Homines divites in virtute pulchritudinis studium habentes pacificantes in domibus suis.",
+      "rendering": "Wealthy men endowed with strength and beauty, lovers of peace in their households.",
+      "translator_notes": ["The prosperous householder: wealth, strength, and beauty combined with domestic tranquility. Not all glory is public."],
+      "key_terms": []
+    },
+    {
+      "verse": 7,
+      "text_latin": "Omnes isti in generationibus gentis suae gloriam adepti sunt et in diebus suis habentur in laudibus.",
+      "rendering": "All these gained glory in their generation, and in their own day were held in praise.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 8,
+      "text_latin": "Qui de illis nati sunt reliquerunt nomen narrandi laudes eorum.",
+      "rendering": "Those born of them left behind a name, so that their praises might be told.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 9,
+      "text_latin": "Et sunt quorum non est memoria perierunt quasi qui non fuerint et nati sunt quasi non nati et filii ipsorum cum ipsis.",
+      "rendering": "And there are some of whom there is no memory; they perished as though they had never existed, and were born as though never born, and their children with them.",
+      "translator_notes": ["A haunting counterpoint to the fame of the ancestors: the vast majority of humanity vanishes without trace. This verse lends the praise that follows its urgency -- remembrance is a rescue from oblivion."],
+      "key_terms": []
+    },
+    {
+      "verse": 10,
+      "text_latin": "Sed illi viri misericordiae sunt quorum pietates non defuerunt.",
+      "rendering": "But these were men of mercy, whose righteous deeds have not been forgotten.",
+      "translator_notes": ["The pivotal 'but' (sed): against the background of universal oblivion, these particular men are remembered because of their hesed (covenant faithfulness)."],
+      "key_terms": [{"latin": "viri misericordiae", "rendered_as": "men of mercy", "note": "Men characterized by hesed -- steadfast, covenant-keeping love. Their defining trait is not power or fame but faithful mercy."}]
+    },
+    {
+      "verse": 11,
+      "text_latin": "Cum semine eorum permanent bona.",
+      "rendering": "Good things endure with their descendants.",
+      "translator_notes": ["The ancestors' virtue creates an inheritance of blessing that persists across generations."],
+      "key_terms": []
+    },
+    {
+      "verse": 12,
+      "text_latin": "Hereditas sancta nepotes eorum et in testamentis stetit semen eorum.",
+      "rendering": "Their offspring are a holy inheritance, and their seed has stood firm in the covenants.",
+      "translator_notes": ["'Stood firm in the covenants' -- the descendants maintain the covenant relationship that the ancestors established."],
+      "key_terms": [{"latin": "testamentis", "rendered_as": "covenants", "note": "Testamentum renders the Hebrew berit; the covenant commitments that bind God and Israel across generations."}]
+    },
+    {
+      "verse": 13,
+      "text_latin": "Et filii eorum propter illos usque in aeternum manent semen eorum et gloria eorum non derelinquetur.",
+      "rendering": "Their children remain forever because of them; their seed and their glory will not be abandoned.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 14,
+      "text_latin": "Corpora ipsorum in pace sepulta sunt et nomen eorum vivit in generationem et generationem.",
+      "rendering": "Their bodies were buried in peace, and their name lives from generation to generation.",
+      "translator_notes": ["Burial in peace (in pace) signifies a death that is not violent or shameful. Their physical rest contrasts with their living reputation."],
+      "key_terms": []
+    },
+    {
+      "verse": 15,
+      "text_latin": "Sapientiam ipsorum narrent populi et laudem eorum nuntiet ecclesia.",
+      "rendering": "Let the peoples tell of their wisdom, and let the assembly declare their praise.",
+      "translator_notes": ["A liturgical directive: the recitation of ancestral wisdom is a communal act of worship, not private study."],
+      "key_terms": []
+    },
+    {
+      "verse": 16,
+      "text_latin": "Enoch placuit Deo et translatus est in paradisum ut det gentibus paenitentiam.",
+      "rendering": "Enoch pleased God and was taken up into paradise, to give the nations an example of repentance.",
+      "translator_notes": ["The roll call begins with Enoch, who 'walked with God' (Genesis 5:24) and was taken without dying. His translation becomes a sign to all nations."],
+      "key_terms": [{"latin": "translatus est", "rendered_as": "was taken up", "note": "Enoch's bodily assumption into God's presence without experiencing death; one of only two such events in the Hebrew Bible (the other being Elijah)."},
+      {"latin": "paradisum", "rendered_as": "paradise", "note": "The heavenly garden of God's presence; Enoch's destination transcends the earthly Eden."}]
+    },
+    {
+      "verse": 17,
+      "text_latin": "Noe inventus est perfectus iustus et in tempore iracundiae factus est reconciliatio.",
+      "rendering": "Noah was found perfectly righteous, and in the time of wrath he became the means of reconciliation.",
+      "translator_notes": ["Noah's righteousness preserved the species; he is the instrument through which God reconciled with humanity after the judgment of the flood."],
+      "key_terms": [{"latin": "reconciliatio", "rendered_as": "means of reconciliation", "note": "Noah as mediator between divine wrath and human survival; his righteousness enabled the renewal of the covenant with all flesh."}]
+    },
+    {
+      "verse": 18,
+      "text_latin": "Ideo dimissum est reliquum terrae cum factum est diluvium.",
+      "rendering": "Therefore a remnant was left on earth when the flood came.",
+      "translator_notes": ["The remnant theology: God's judgment is never total. A faithful core survives to carry the promise forward."],
+      "key_terms": [{"latin": "reliquum", "rendered_as": "remnant", "note": "The she'erit -- the surviving remainder through whom God's purposes continue after judgment."}]
+    },
+    {
+      "verse": 19,
+      "text_latin": "Testamenta saeculi posita sunt ad illum ne deleri possit diluvio omnis caro.",
+      "rendering": "Everlasting covenants were established with him, so that no flood should ever again destroy all flesh.",
+      "translator_notes": ["The Noahic covenant (Genesis 9:8-17): the first universal covenant, guaranteeing the stability of the natural order."],
+      "key_terms": [{"latin": "testamenta saeculi", "rendered_as": "everlasting covenants", "note": "Berit olam -- the perpetual covenant that binds God to all living creatures, not just Israel."}]
+    },
+    {
+      "verse": 20,
+      "text_latin": "Abraham magnus pater multitudinis gentium et non est inventus similis illi in gloria.",
+      "rendering": "Abraham, the great father of a multitude of nations -- no one has been found equal to him in glory.",
+      "translator_notes": ["Abraham's glory is unique and unmatched. The title 'father of a multitude' recalls the name-change in Genesis 17:5."],
+      "key_terms": [{"latin": "pater multitudinis gentium", "rendered_as": "father of a multitude of nations", "note": "The meaning of Abraham's name as given by God in Genesis 17:5; his fatherhood extends beyond Israel to encompass all peoples."}]
+    },
+    {
+      "verse": 21,
+      "text_latin": "Qui conservavit legem Excelsi et fuit in testamento cum illo.",
+      "rendering": "He kept the law of the Most High and entered into a covenant with him.",
+      "translator_notes": ["Ben Sira attributes Torah observance to Abraham -- an anachronism that reflects the Second Temple view that the patriarchs anticipated the Mosaic Law."],
+      "key_terms": []
+    },
+    {
+      "verse": 22,
+      "text_latin": "In carne eius stare fecit testamentum et in temptatione inventus est fidelis.",
+      "rendering": "In his flesh he established the covenant, and in testing he was found faithful.",
+      "translator_notes": ["'In his flesh' refers to circumcision (Genesis 17:10-14). The 'testing' is the binding of Isaac (Genesis 22), the supreme trial of faith."],
+      "key_terms": [{"latin": "in carne eius", "rendered_as": "in his flesh", "note": "Circumcision as the physical inscription of the covenant on the body; the covenant literally cut into Abraham's flesh."},
+      {"latin": "in temptatione", "rendered_as": "in testing", "note": "The Aqedah -- the binding of Isaac -- the paradigmatic test of faith in Jewish tradition."}]
+    },
+    {
+      "verse": 23,
+      "text_latin": "Ideo iureiurando dedit illi gloriam in gente sua crescere illum quasi terrae cumulum.",
+      "rendering": "Therefore by an oath he gave him glory: to make his nation increase like the dust of the earth.",
+      "translator_notes": ["The Abrahamic promise (Genesis 22:16-17): because Abraham was faithful, God swore an irrevocable oath guaranteeing innumerable descendants."],
+      "key_terms": [{"latin": "iureiurando", "rendered_as": "by an oath", "note": "God's self-binding oath -- the strongest possible guarantee in the ancient world, since God swears by himself (Hebrews 6:13)."}]
+    },
+    {
+      "verse": 24,
+      "text_latin": "Et sicut stellas exaltare semen eius et hereditare illos a mari usque ad mare et a flumine usque ad terminos terrae.",
+      "rendering": "And to exalt his seed like the stars, and to give them an inheritance from sea to sea, and from the River to the ends of the earth.",
+      "translator_notes": ["The dual promise: descendants as numerous as stars, and a land stretching from the Mediterranean to the Euphrates (Genesis 15:18)."],
+      "key_terms": [{"latin": "a flumine", "rendered_as": "from the River", "note": "The Euphrates, the traditional eastern boundary of the promised land in its most expansive definition."}]
+    },
+    {
+      "verse": 25,
+      "text_latin": "Et in Isaac eodem modo fecit propter Abraham patrem eius.",
+      "rendering": "And to Isaac he did likewise, for the sake of Abraham his father.",
+      "translator_notes": ["Isaac's blessing is derivative: it flows from Abraham's faithfulness. Isaac is honored as a link in the chain rather than for independent achievement."],
+      "key_terms": []
+    },
+    {
+      "verse": 26,
+      "text_latin": "Benedictionem omnium gentium dedit illi Dominus et testamentum confirmavit super caput Iacob.",
+      "rendering": "The Lord gave him the blessing of all nations, and confirmed the covenant upon the head of Jacob.",
+      "translator_notes": ["The blessing passes through Isaac to Jacob: the covenant narrows from Abraham's universal scope to Jacob's particular lineage."],
+      "key_terms": []
+    },
+    {
+      "verse": 27,
+      "text_latin": "Agnovit eum in benedictionibus suis et dedit illi hereditatem et divisit illi partem in tribubus duodecim.",
+      "rendering": "He acknowledged him in his blessings and gave him an inheritance, and divided his portion among the twelve tribes.",
+      "translator_notes": ["Jacob's inheritance is divided into twelve tribal allotments -- the structural foundation of Israel as a nation."],
+      "key_terms": [{"latin": "tribubus duodecim", "rendered_as": "twelve tribes", "note": "The twelve sons of Jacob/Israel, who become the twelve tribes constituting the covenant people."}]
+    },
+    {
+      "verse": 28,
+      "text_latin": "Et conservavit illi homines misericordiae invenientes gratiam in oculis omnis carnis.",
+      "rendering": "And he preserved for him men of mercy who found favor in the eyes of all flesh.",
+      "translator_notes": ["The chapter concludes by returning to the theme of v. 10: 'men of mercy' (viri misericordiae) are the enduring legacy of the patriarchal line. The Praise will continue with Moses in chapter 45."],
+      "key_terms": []
+    }
+  ]
+}

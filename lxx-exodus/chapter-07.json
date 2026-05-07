@@ -1,0 +1,203 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Exodus",
+    "chapter": 7,
+    "tradition": "lxx-exodus",
+    "tradition_label": "Septuagint (LXX)",
+    "source_text": "Rahlfs-Hanhart, Septuaginta",
+    "base_text": "Westminster Leningrad Codex (WLC)",
+    "date": "3rd century BCE",
+    "generated_at": "2026-04-22T00:00:00Z",
+    "prompt_version": "1.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Exodus 7 begins the plague cycle. The staff-to-serpent sign before Pharaoh, the plague of blood, and the frog-plague announcement fill the chapter. LXX Exodus 7 tracks MT closely with one recurrent softening: divine commissioning language that makes Moses 'God' to Pharaoh (MT 7:1) is paraphrased in LXX as Moses representing God's things to Pharaoh. The 'finger of God' moment is reserved for chapter 8 (8:19); chapter 7's key LXX vocabulary is the pharmakoi / epaoidoi doublet for Pharaoh's magicians.",
+    "notable_variants": "The LXX's softening of 'I have made you God to Pharaoh' at 7:1; the LXX's pharmakoi ('sorcerers, pharmacists') and epaoidoi ('enchanters, chanters') vocabulary for the Egyptian magicians that supplies NT anti-sorcery polemic (Gal 5:20, Rev 9:21, 18:23, 21:8, 22:15); the 'mighty acts of judgment' (krisesin megalais) formula at 7:4; the Nile-to-blood plague rendered with the same LXX verb haimatizō that appears at Revelation 11:6.",
+    "structural_notes": "LXX Exodus 7 preserves MT's 29-verse structure. The Hebrew and English chapter divisions diverge at some later editions (Hebrew 7:26–29 = English 8:1–4), but the LXX follows Hebrew versification as TCR does."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "has_variant": true,
+      "significance": "moderate",
+      "mt_reading": "רְאֵה נְתַתִּיךָ אֱלֹהִים לְפַרְעֹה",
+      "lxx_reading": "ἰδοὺ δέδωκά σε θεὸν Φαραω",
+      "mt_rendering": "I have made you like God to Pharaoh",
+      "variant_rendering": "Behold, I have given you as God to Pharaoh",
+      "variant_notes": [
+        "Here the LXX does render MT's bold statement literally — 'I have given you as God (theon) to Pharaoh.' Unlike at 4:16 (where the LXX paraphrased 'you will be to him the things that pertain to God' to soften the claim), the LXX at 7:1 keeps theon as Moses' commissioned identity before Pharaoh.",
+        "The inconsistency between 4:16 (softened) and 7:1 (literal) may reflect different LXX translator hands, or a deliberate distinction: the intra-Israelite relationship of Moses and Aaron (4:16) is softened, while the confrontational commissioning against Pharaoh (7:1) is preserved in full.",
+        "Aaron becomes Moses' prophētēs — the LXX's standard word for prophet. This is the Pentateuch's single clearest statement that a prophet speaks the words of his commissioner."
+      ]
+    },
+    {
+      "verse": 2,
+      "has_variant": false,
+      "variant_notes": ["The division of labor (Moses speaks to Aaron; Aaron speaks to Pharaoh) tracks MT directly."]
+    },
+    {
+      "verse": 3,
+      "has_variant": true,
+      "significance": "theological",
+      "mt_reading": "וַאֲנִי אַקְשֶׁה אֶת־לֵב פַּרְעֹה",
+      "lxx_reading": "ἐγὼ δὲ σκληρυνῶ τὴν καρδίαν Φαραω",
+      "mt_rendering": "I will harden Pharaoh's heart",
+      "variant_rendering": "But I will harden Pharaoh's heart",
+      "variant_notes": [
+        "The Hebrew here uses qashah ('to make hard, to make stubborn') — a verb distinct from the chazaq of 4:21 and the kaved (9:7) also rendered. The LXX levels all three Hebrew hardening-verbs to sklēryn-, obscuring the Hebrew's variation.",
+        "The repetition of the hardening formula throughout chapters 4–14 (17 occurrences) makes the cumulative effect — divine agency in Pharaoh's resistance — unavoidable. Romans 9:17–18 works from this cumulative LXX picture.",
+        "'I will multiply my signs (sēmeia) and wonders (terata)' at the same verse supplies the 'signs and wonders' pair that recurs through the NT (Acts 2:22, 2:43, 4:30, 5:12; 2 Cor 12:12; Heb 2:4) as the standard LXX-shaped description of the deeds of Jesus and the apostles."
+      ]
+    },
+    {
+      "verse": 4,
+      "has_variant": false,
+      "variant_notes": ["The 'great acts of judgment' (en ekdikēsesi megalais) formula is a standing LXX description of the Exodus plagues that recurs at 6:6. The 'hosts' (dynameis) of Israel vocabulary will reappear at 12:41 ('all the hosts of the LORD went out')."]
+    },
+    {
+      "verse": 5,
+      "has_variant": false,
+      "variant_notes": ["The 'they shall know that I am the LORD' (gnōsontai hoti egō kyrios) is the refrain that runs through Exodus, Ezekiel, and into NT theology (John 17:3). The LXX's egō kyrios formula is the Greek self-identification of God that recurs hundreds of times."]
+    },
+    {
+      "verse": 6,
+      "has_variant": false,
+      "variant_notes": ["Moses and Aaron's obedience is rendered directly in LXX."]
+    },
+    {
+      "verse": 7,
+      "has_variant": false,
+      "variant_notes": ["The ages of Moses (80) and Aaron (83) tracks MT. Acts 7:23, 30 reflects Stephen's Mosaic age-schema: forty years in Pharaoh's court, forty in Midian, forty leading Israel — totaling 120 (cf. Deut 34:7)."]
+    },
+    {
+      "verse": 8,
+      "has_variant": false,
+      "variant_notes": ["The divine speech formula tracks MT."]
+    },
+    {
+      "verse": 9,
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "תַּנִּין",
+      "lxx_reading": "δράκων",
+      "mt_rendering": "a serpent",
+      "variant_rendering": "a dragon",
+      "variant_notes": [
+        "Hebrew tannin ('serpent, sea-monster, dragon') at 7:9 is rendered drakōn in LXX — a stronger Greek term than the ophis ('snake') used at 4:3 for Moses' private sign. The shift from ophis to drakōn for the same creature highlights the public, confrontational scale of this second sign.",
+        "Drakōn becomes the NT's word for the Satanic dragon of Revelation 12:9, 'the great drakōn, the ancient serpent (ho ophis ho archaios).' Revelation's drakōn/ophis pair echoes LXX Exodus's own distinction between the terms."
+      ]
+    },
+    {
+      "verse": 10,
+      "has_variant": false,
+      "variant_notes": ["Moses and Aaron's execution of the sign before Pharaoh is rendered directly, with the same drakōn vocabulary from v. 9."]
+    },
+    {
+      "verse": 11,
+      "has_variant": true,
+      "significance": "moderate",
+      "mt_reading": "חֲכָמִים וְלַמְכַשְּׁפִים",
+      "lxx_reading": "σοφιστὰς καὶ τοὺς φαρμακούς",
+      "mt_rendering": "the wise men and the sorcerers",
+      "variant_rendering": "the sophists and the pharmakoi",
+      "variant_notes": [
+        "The LXX's sophistas and pharmakous is striking vocabulary. Sophistēs is the Greek term for a teacher of rhetoric and wisdom — but by the 3rd c. BCE already associated with manipulative argumentation. Pharmakos denotes a poisoner, sorcerer, or practitioner of drug-magic.",
+        "Pharmakoi becomes the NT's standard word for sorcerers in vice-lists: Galatians 5:20 (pharmakeia as a work of the flesh), Revelation 9:21, 18:23, 21:8, 22:15. The LXX Exodus-plague magicians are the typological ancestors of the Revelation pharmakoi excluded from the New Jerusalem.",
+        "English 'pharmacy' derives from pharmakeia — an etymological reminder that drug-handling and magic were not cleanly separated in the ancient world."
+      ]
+    },
+    {
+      "verse": 12,
+      "has_variant": false,
+      "variant_notes": ["The magicians' serpents and Aaron's staff swallowing theirs (katepien) tracks MT. The verb katepiō recurs at 1 Corinthians 15:54 (katepothē ho thanatos, 'death is swallowed up in victory' — quoting Isa 25:8 LXX)."]
+    },
+    {
+      "verse": 13,
+      "has_variant": false,
+      "variant_notes": ["Pharaoh's hardening note tracks MT. LXX uses katischusen ('became strong') here — a different verb from the main sklēryn- family."]
+    },
+    {
+      "verse": 14,
+      "has_variant": false,
+      "variant_notes": ["Pharaoh's heart as 'stubborn' is rendered bebarēmenē ('weighed down') in LXX — the kaved branch of the hardening-verb family."]
+    },
+    {
+      "verse": 15,
+      "has_variant": false,
+      "variant_notes": ["The morning confrontation at the Nile is rendered directly. 'The staff that was turned into a serpent' refers to 4:3 — though the ophis/drakōn distinction is not maintained."]
+    },
+    {
+      "verse": 16,
+      "has_variant": false,
+      "variant_notes": ["'The LORD, the God of the Hebrews' (ho theos tōn Hebraiōn) recurs — the LXX's consistent designation in the Exodus confrontation narrative."]
+    },
+    {
+      "verse": 17,
+      "has_variant": false,
+      "variant_notes": ["The 'thus says the LORD' formula with the Nile-to-blood threat is rendered directly in LXX."]
+    },
+    {
+      "verse": 18,
+      "has_variant": false,
+      "variant_notes": ["The fish dying and Nile stinking is rendered closely. Revelation 8:9 ('a third of the creatures in the sea that had life died') echoes this Exodus-plague pattern in its final-judgment apocalyptic."]
+    },
+    {
+      "verse": 19,
+      "has_variant": false,
+      "variant_notes": ["The detailed list of Egyptian waters to be turned to blood tracks MT."]
+    },
+    {
+      "verse": 20,
+      "has_variant": false,
+      "variant_notes": ["Moses and Aaron's execution of the Nile-strike and its transformation to blood is rendered directly."]
+    },
+    {
+      "verse": 21,
+      "has_variant": false,
+      "variant_notes": ["The fish-death and Nile-stench consequences track MT."]
+    },
+    {
+      "verse": 22,
+      "has_variant": false,
+      "variant_notes": ["The magicians' duplication of the blood-plague 'by their secret arts' (pharmakeia) tracks MT; Pharaoh's hardening recurs."]
+    },
+    {
+      "verse": 23,
+      "has_variant": false,
+      "variant_notes": ["Pharaoh's turning aside and unconcern is rendered directly. The phrase 'did not take this to heart' (ouk epestēsen tēn dianoian autou) becomes a minor LXX idiom for indifference."]
+    },
+    {
+      "verse": 24,
+      "has_variant": false,
+      "variant_notes": ["The Egyptians digging for drinkable water tracks MT."]
+    },
+    {
+      "verse": 25,
+      "has_variant": false,
+      "variant_notes": ["The seven-day interval tracks MT. Seven-day cycles recur throughout Exodus as structural markers."]
+    },
+    {
+      "verse": 26,
+      "has_variant": false,
+      "variant_notes": ["The command to go back to Pharaoh with the 'let my people go' formula tracks MT. English editions number this 8:1; TCR and LXX follow Hebrew 7:26."]
+    },
+    {
+      "verse": 27,
+      "has_variant": false,
+      "variant_notes": ["The threat of frogs (Hebrew 7:27 = English 8:2) tracks MT."]
+    },
+    {
+      "verse": 28,
+      "has_variant": false,
+      "variant_notes": ["The enumeration of places the frogs will invade (Pharaoh's bedroom, bed, servants' houses, ovens, kneading bowls) tracks MT closely. The intrusion into royal bedroom and kitchen — spaces of Egyptian cultic purity — is the plague's particular offense against Pharaonic divine kingship."]
+    },
+    {
+      "verse": 29,
+      "has_variant": false,
+      "variant_notes": ["The closing 'frogs upon Pharaoh, his people, his servants' tracks MT. Hebrew 7:29 = English 8:4."]
+    }
+  ]
+}

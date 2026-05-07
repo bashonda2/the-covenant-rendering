@@ -1,0 +1,250 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Sirach",
+    "chapter": 47,
+    "tradition": "vulgate",
+    "tradition_label": "Latin Vulgate (Deuterocanonical)",
+    "source_text": "Biblia Sacra Vulgata (Stuttgart critical edition)",
+    "translator": "Jerome",
+    "date": "c. 405 CE",
+    "canon": ["catholic", "orthodox", "ethiopian"],
+    "generated_at": "2026-04-20T00:00:00Z",
+    "prompt_version": "2.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "The Praise of the Ancestors continues with Nathan the prophet, David the king, and Solomon. David receives extended praise as warrior, musician, and liturgical reformer who loved God with all his heart. Solomon's portrait is sharply divided: his early wisdom and Temple-building glory give way to devastating criticism of his descent into idolatry through foreign wives, which led to the division of the kingdom under Rehoboam and Jeroboam.",
+    "remarkable": "The David portrait (vv. 2-13) is the most comprehensive summary of David's career outside the books of Samuel and Chronicles, emphasizing equally his military prowess and his liturgical contributions. The Solomon critique (vv. 19-25) is notable for its severity: Ben Sira holds nothing back, calling Solomon's fall a stain that affected all subsequent generations. The contrast between Solomon's glory and his shame is among the most dramatic in the book.",
+    "friction": "The celebration of David's military violence (playing with lions and bears, slaying Goliath) sits in tension with the liturgical portrait. Ben Sira does not attempt to harmonize these aspects of David's character. The omission of David's adultery with Bathsheba is striking -- perhaps because his sin is personal rather than national.",
+    "connections": "1 Samuel 16-17 (David's youth and Goliath); 2 Samuel 6 (David's liturgical reforms); 1 Kings 3 (Solomon's wisdom); 1 Kings 11 (Solomon's apostasy); 1 Kings 12 (the division of the kingdom); 1 Chronicles 16:4-36 (David's organization of Temple worship)."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_latin": "Post haec surrexit Nathan propheta in diebus David.",
+      "rendering": "After him arose Nathan the prophet in the days of David.",
+      "translator_notes": ["Nathan receives only one verse but his placement at the head of the chapter signals his importance: he was the prophetic voice that both authorized and corrected the king."],
+      "key_terms": [{"latin": "Nathan propheta", "rendered_as": "Nathan the prophet", "note": "The court prophet who delivered the Davidic covenant promise (2 Samuel 7), confronted David over Bathsheba (2 Samuel 12), and ensured Solomon's succession (1 Kings 1)."}]
+    },
+    {
+      "verse": 2,
+      "text_latin": "Quasi adips separatus a carne sic David a filiis Israhel.",
+      "rendering": "As the fat is set apart from the peace offering, so was David set apart from the children of Israel.",
+      "translator_notes": ["A sacrificial metaphor: the fat (helev) was the portion consecrated to God (Leviticus 3:3-4). David is to Israel what the sacred portion is to the sacrifice -- the best, reserved for God."],
+      "key_terms": [{"latin": "adips", "rendered_as": "fat", "note": "The choicest sacrificial portion, always burned for God and never eaten (Leviticus 3:16-17); David is Israel's offering to God."}]
+    },
+    {
+      "verse": 3,
+      "text_latin": "Cum leonibus lusit quasi cum agnis et in ursis similiter fecit sicut in agnis ovium in iuventute sua.",
+      "rendering": "He played with lions as though they were lambs, and with bears as with lambs of the flock, in his youth.",
+      "translator_notes": ["David's youthful encounter with predators (1 Samuel 17:34-36) is recast as play -- the boy was so fearless that mortal danger was sport to him."],
+      "key_terms": []
+    },
+    {
+      "verse": 4,
+      "text_latin": "Numquid non occidit gigantem et abstulit obprobrium de gente.",
+      "rendering": "Did he not slay the giant and take away the reproach from his people?",
+      "translator_notes": ["The killing of Goliath (1 Samuel 17) -- removing the 'reproach' (opprobrium) of Israel's humiliation before the Philistine champion."],
+      "key_terms": [{"latin": "gigantem", "rendered_as": "giant", "note": "Goliath of Gath; gigas renders the Hebrew tradition of exceptional physical stature that characterized the Philistine warrior."}]
+    },
+    {
+      "verse": 5,
+      "text_latin": "In tollendo manum in saxo fundae deiecit exultationem Goliae.",
+      "rendering": "By raising his hand with the stone in the sling, he brought down the boasting of Goliath.",
+      "translator_notes": ["It was not just the giant's body but his 'boasting' (exultatio) that David felled -- the pride of the uncircumcised challenger."],
+      "key_terms": [{"latin": "fundae", "rendered_as": "sling", "note": "The shepherd's weapon that became an instrument of divine deliverance; the simplest of weapons defeating the most formidable warrior."}]
+    },
+    {
+      "verse": 6,
+      "text_latin": "Nam invocavit Dominum omnipotentem et dedit in dextera eius tollere hominem fortem in bello et exaltare cornu gentis suae.",
+      "rendering": "For he called upon the Lord Almighty, who gave power to his right hand to destroy a mighty man of war, and to exalt the horn of his nation.",
+      "translator_notes": ["'Horn' (cornu) is a standard biblical metaphor for strength and dignity. David's victory over Goliath lifted Israel's national honor."],
+      "key_terms": [{"latin": "cornu gentis", "rendered_as": "horn of his nation", "note": "The horn as a symbol of power, honor, and vitality; to exalt the horn is to raise a nation's standing among its neighbors."}]
+    },
+    {
+      "verse": 7,
+      "text_latin": "Sic glorificavit eum in decem milibus et laudavit eum in benedictionibus Domini in offerendo illi coronam gloriae.",
+      "rendering": "So they glorified him with ten thousands, and praised him with blessings from the Lord, offering him the crown of glory.",
+      "translator_notes": ["The women's song: 'Saul has slain his thousands, and David his ten thousands' (1 Samuel 18:7). The crown of glory anticipates his kingship."],
+      "key_terms": []
+    },
+    {
+      "verse": 8,
+      "text_latin": "Contrivit enim inimicos undique et exterminavit Philisthim contrarios usque in hodiernum diem contrivit cornu ipsorum usque in aeternum.",
+      "rendering": "For he crushed the enemies on every side and destroyed the Philistine adversaries; to this very day he has broken their horn forever.",
+      "translator_notes": ["'To this day' -- Ben Sira claims that the Philistine threat, once removed by David, has never returned. Their 'horn' (power) was permanently broken."],
+      "key_terms": []
+    },
+    {
+      "verse": 9,
+      "text_latin": "In omni opere suo dedit confessionem Sancto et Excelso in verbo gloriae.",
+      "rendering": "In every deed he gave praise to the Holy One and the Most High, with words of glory.",
+      "translator_notes": ["David's military career is inseparable from his worship: every victory was followed by praise. The 'words of glory' are the psalms."],
+      "key_terms": []
+    },
+    {
+      "verse": 10,
+      "text_latin": "De omni corde suo laudavit Dominum et dilexit Deum qui fecit illum et dedit illi contra inimicos potentiam.",
+      "rendering": "With all his heart he praised the Lord and loved God who made him, who gave him power against his enemies.",
+      "translator_notes": ["'With all his heart' echoes the Shema (Deuteronomy 6:5). David's love for God is the theological foundation of everything else."],
+      "key_terms": []
+    },
+    {
+      "verse": 11,
+      "text_latin": "Et stare fecit cantores contra altare et in sono eorum dulces fecit modos.",
+      "rendering": "He stationed singers before the altar, and made their melodies sweet with his compositions.",
+      "translator_notes": ["David's organization of Temple worship (1 Chronicles 16:4-36): establishing the Levitical choirs was among his most enduring contributions."],
+      "key_terms": [{"latin": "cantores", "rendered_as": "singers", "note": "The Levitical musicians stationed before the altar; David's establishment of this liturgical institution shaped all subsequent Jewish and Christian worship."}]
+    },
+    {
+      "verse": 12,
+      "text_latin": "Et dedit in celebrationibus decus et ornavit tempora usque ad consummationem ut laudarent nomen sanctum Domini et amplificarent mane Dei sanctitatem.",
+      "rendering": "He gave beauty to the festivals and adorned the appointed seasons to their fullness, so that they might praise the holy name of the Lord and magnify God's holiness from early morning.",
+      "translator_notes": ["David's liturgical legacy: the festivals were made beautiful through music, and morning worship was established as a daily pattern."],
+      "key_terms": [{"latin": "celebrationibus", "rendered_as": "festivals", "note": "The mo'adim -- the appointed feasts of the liturgical calendar, which David enhanced with musical worship."}]
+    },
+    {
+      "verse": 13,
+      "text_latin": "Dominus purgavit peccata ipsius et exaltavit in aeternum cornu eius et dedit illi testamentum regni et sedem gloriae in Israhel.",
+      "rendering": "The Lord purged his sins and exalted his horn forever, and gave him the covenant of kingship and a throne of glory in Israel.",
+      "translator_notes": ["Despite David's sins (implicitly acknowledged in 'purged his sins'), God maintained the covenant. The throne of glory is the Davidic dynasty established in 2 Samuel 7."],
+      "key_terms": [{"latin": "testamentum regni", "rendered_as": "covenant of kingship", "note": "The Davidic covenant: the divine promise of an everlasting royal dynasty (2 Samuel 7:12-16)."},
+      {"latin": "sedem gloriae", "rendered_as": "throne of glory", "note": "The Davidic throne in Jerusalem, which carries divine authorization and cosmic significance."}]
+    },
+    {
+      "verse": 14,
+      "text_latin": "Post ipsum surrexit filius sensatus et propter illum deiecit omnem potentiam hostium.",
+      "rendering": "After him arose a wise son, and because of David, God overthrew all the power of his enemies.",
+      "translator_notes": ["Solomon is introduced through David: his initial wisdom and his peaceful reign are attributed to his father's merit."],
+      "key_terms": [{"latin": "filius sensatus", "rendered_as": "wise son", "note": "Solomon, whose wisdom at the outset was his defining characteristic (1 Kings 3:12)."}]
+    },
+    {
+      "verse": 15,
+      "text_latin": "Salomon imperavit in diebus pacis et Deus requiem fecit illi undique ut conderet domum in nomine suo et pararet sanctitatem in sempiternum.",
+      "rendering": "Solomon reigned in days of peace, and God gave him rest on every side, so that he might build a house in his name and prepare a sanctuary for all time.",
+      "translator_notes": ["The Temple as Solomon's supreme achievement: the 'rest' (requies) God gave was specifically for the purpose of Temple construction."],
+      "key_terms": [{"latin": "domum in nomine suo", "rendered_as": "house in his name", "note": "The Temple in Jerusalem -- not merely a building but the place where God's name dwells (Deuteronomy 12:5)."}]
+    },
+    {
+      "verse": 16,
+      "text_latin": "Quam sapiens es natus in iuventute tua et impletus es quasi flumen intellegentia.",
+      "rendering": "How wise you were born in your youth, and filled with understanding like a river!",
+      "translator_notes": ["Direct address to Solomon: his wisdom was river-like in its abundance and flow. The shift to second person makes the praise (and later the rebuke) more personal."],
+      "key_terms": []
+    },
+    {
+      "verse": 17,
+      "text_latin": "Animam tuam operuit terra et implesti in comparationibus aenigmata.",
+      "rendering": "Your soul covered the earth, and you filled it with enigmatic parables.",
+      "translator_notes": ["Solomon's wisdom had global reach ('covered the earth') and was expressed in riddles and proverbs -- the genres of 1 Kings 4:32-34."],
+      "key_terms": [{"latin": "aenigmata", "rendered_as": "enigmatic parables", "note": "Riddles, dark sayings, and wisdom puzzles; the literary forms associated with Solomon's international reputation."}]
+    },
+    {
+      "verse": 18,
+      "text_latin": "Et pervulgatum est nomen tuum ad insulas longe et dilectus es in pace tua.",
+      "rendering": "Your name reached the distant islands, and you were loved for your peace.",
+      "translator_notes": ["Solomon's fame extended to the 'islands' -- the farthest reaches of the known world in Mediterranean geography."],
+      "key_terms": []
+    },
+    {
+      "verse": 19,
+      "text_latin": "In cantilenis et proverbiis et comparationibus et interpretationibus miratae sunt terrae.",
+      "rendering": "In songs, proverbs, parables, and interpretations, the lands marveled at you.",
+      "translator_notes": ["A catalog of Solomon's literary output: Song of Songs, Proverbs, Ecclesiastes (?), and his wisdom judgments."],
+      "key_terms": []
+    },
+    {
+      "verse": 20,
+      "text_latin": "In nomine Domini Dei cui est cognomen Deus Israhel.",
+      "rendering": "In the name of the Lord God, whose title is the God of Israel.",
+      "translator_notes": ["All Solomon's accomplishments were performed under the authority of Israel's God -- a setup for the devastating contrast that follows."],
+      "key_terms": []
+    },
+    {
+      "verse": 21,
+      "text_latin": "Congregasti quasi aurichalcum aurum et ut plumbum complesti argentum.",
+      "rendering": "You gathered gold like brass, and heaped up silver like lead.",
+      "translator_notes": ["The abundance was so great that precious metals lost their rarity: gold became as common as bronze, silver as common as lead."],
+      "key_terms": [{"latin": "aurichalcum", "rendered_as": "brass", "note": "A copper-gold alloy; the comparison reduces gold to the status of a common metal, emphasizing the extravagance of Solomon's wealth."}]
+    },
+    {
+      "verse": 22,
+      "text_latin": "Et inclinasti femora tua mulieribus potestatem habuisti in corpore tuo.",
+      "rendering": "But you bent your loins to women, and gave them power over your body.",
+      "translator_notes": ["The turn: from wisdom and wealth to sexual subjugation. Ben Sira is blunt -- Solomon's downfall was sexual, and it was a surrender of power."],
+      "key_terms": []
+    },
+    {
+      "verse": 23,
+      "text_latin": "Dedisti maculam in gloria tua et profanasti semen tuum inducere iracundiam ad liberos tuos et incitari stultitiam tuam.",
+      "rendering": "You brought a stain upon your glory and profaned your offspring, bringing wrath upon your children and provoking folly --",
+      "translator_notes": ["The 'stain' (macula) on Solomon's legacy is permanent: it corrupted not only his reputation but his descendants. The consequences were intergenerational."],
+      "key_terms": [{"latin": "maculam", "rendered_as": "stain", "note": "An indelible blemish on what should have been an unblemished glory; Solomon's sin permanently marked his house."}]
+    },
+    {
+      "verse": 24,
+      "text_latin": "Ut faceres imperium bipartitum et ex Ephraim imperare imperium durum.",
+      "rendering": "so that the kingdom was divided in two, and out of Ephraim arose a harsh dominion.",
+      "translator_notes": ["The schism of 1 Kings 12: Solomon's sins led directly to the division of the kingdom into Judah and Israel (Ephraim)."],
+      "key_terms": [{"latin": "imperium bipartitum", "rendered_as": "kingdom divided in two", "note": "The split between the northern kingdom (Israel/Ephraim) and the southern kingdom (Judah) after Solomon's death."}]
+    },
+    {
+      "verse": 25,
+      "text_latin": "Deus autem non derelinquet misericordiam suam et non corrumpet nec delebit opera sua nec perdet a stirpe nepotes electi sui et semen eius qui diligit Dominum non corrumpet.",
+      "rendering": "But God will not abandon his mercy, nor destroy or abolish his works; he will not cut off the descendants of his chosen one, nor ruin the seed of the one who loves the Lord.",
+      "translator_notes": ["Despite Solomon's catastrophic failure, the Davidic covenant endures. God's mercy outlasts human sin -- the covenant is maintained for David's sake, not Solomon's."],
+      "key_terms": []
+    },
+    {
+      "verse": 26,
+      "text_latin": "Dedit autem reliquum Iacob et David de ipsa stirpe radicem.",
+      "rendering": "So he gave a remnant to Jacob, and to David a root from his own stock.",
+      "translator_notes": ["The 'root' (radix) from David's stock points forward to messianic hope: the dynasty continues despite its near-destruction."],
+      "key_terms": [{"latin": "radicem", "rendered_as": "root", "note": "A botanical metaphor for dynastic continuity: even when the tree is cut down, a shoot springs from the root (cf. Isaiah 11:1)."}]
+    },
+    {
+      "verse": 27,
+      "text_latin": "Et requievit Salomon cum patribus suis.",
+      "rendering": "And Solomon rested with his fathers.",
+      "translator_notes": ["The standard death formula from Kings, delivered without further comment. Solomon exits the narrative under the shadow of his failure."],
+      "key_terms": []
+    },
+    {
+      "verse": 28,
+      "text_latin": "Et dereliquit post se de semine suo gentis stultitiam.",
+      "rendering": "And he left behind from his seed one who was the foolishness of the nation.",
+      "translator_notes": ["Rehoboam, whose arrogant folly (1 Kings 12:1-15) precipitated the division of the kingdom. Solomon's 'wise son' left behind a foolish heir."],
+      "key_terms": []
+    },
+    {
+      "verse": 29,
+      "text_latin": "Et imminutum a prudentia Roboam qui avertit gentem consilio suo.",
+      "rendering": "Even Rehoboam, deficient in wisdom, who turned the people away by his counsel.",
+      "translator_notes": ["Rehoboam rejected the elders' advice and listened to his young peers, losing ten tribes in the process (1 Kings 12:6-15)."],
+      "key_terms": [{"latin": "Roboam", "rendered_as": "Rehoboam", "note": "Solomon's son and successor, whose foolish rejection of wise counsel became proverbial for incompetent leadership."}]
+    },
+    {
+      "verse": 30,
+      "text_latin": "Et Hieroboam filium Nabath qui peccare fecit Israhel et dedit viam peccandi Ephraim et plurima redundaverunt peccata ipsorum.",
+      "rendering": "And Jeroboam son of Nebat, who caused Israel to sin and gave Ephraim the way of sin; and their sins multiplied greatly.",
+      "translator_notes": ["Jeroboam's establishment of the rival shrines at Dan and Bethel (1 Kings 12:26-33) became the archetypal sin against which all subsequent northern kings were measured."],
+      "key_terms": [{"latin": "Hieroboam filium Nabath", "rendered_as": "Jeroboam son of Nebat", "note": "The first king of the breakaway northern kingdom, whose establishment of alternative worship sites at Dan and Bethel is the paradigmatic sin in the books of Kings."}]
+    },
+    {
+      "verse": 31,
+      "text_latin": "Valde averterunt illos a terra sua.",
+      "rendering": "Their sins drove them far from their land.",
+      "translator_notes": ["The ultimate consequence: exile. The chain from Solomon's apostasy to Jeroboam's shrines to national exile is drawn as a single causal line."],
+      "key_terms": []
+    },
+    {
+      "verse": 32,
+      "text_latin": "Et quaesivit omnes nequitias usque dum perveniret ad illos defensio et ab omnibus peccatis liberavit eos.",
+      "rendering": "They pursued every wickedness, until retribution came upon them and delivered them from all their sins.",
+      "translator_notes": ["The chapter ends with an ambiguous note: the 'deliverance from all sins' may be the judgment of exile itself, which purged the nation through suffering."],
+      "key_terms": []
+    }
+  ]
+}

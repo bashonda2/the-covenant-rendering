@@ -1,0 +1,200 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Sirach",
+    "chapter": 9,
+    "tradition": "vulgate",
+    "tradition_label": "Latin Vulgate (Deuterocanonical)",
+    "source_text": "Biblia Sacra Vulgata (Stuttgart critical edition)",
+    "translator": "Jerome",
+    "date": "c. 405 CE",
+    "canon": ["catholic", "orthodox", "ethiopian"],
+    "generated_at": "2026-04-20T00:00:00Z",
+    "prompt_version": "2.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "The chapter addresses three distinct spheres of social caution: relations with women (vv. 1-9), choosing companions (vv. 10-16), and evaluating rulers and wise men (vv. 17-23). Ben Sira warns against jealousy of one's wife, infatuation with singers and prostitutes, and dining alone with another man's wife. He counsels loyalty to old friends over new, and discernment in identifying truly wise rulers.",
+    "remarkable": "The opening section on women is the most extended treatment of sexual temptation in the wisdom literature outside of Proverbs 5-7. The counsel to prefer old friends to new (vv. 10-14) produces the famous wine-aging simile: 'Old wine -- do not abandon an old friend, for the new one is not equal to him.' The political wisdom of vv. 17-23 is surprisingly sophisticated, anticipating Machiavellian realism.",
+    "friction": "The portrayal of women as sources of danger (vv. 3-9) reflects a thoroughly male perspective in which female beauty is treated primarily as a threat to male self-control. The responsibility is placed on the man to avoid temptation, but the framing reduces women to objects of danger rather than agents in their own right.",
+    "connections": "Proverbs 5:1-23 (warning against the adulteress); Proverbs 7:1-27 (the seduction scene); Proverbs 31:10-31 (the capable wife); 1 Kings 3:9-12 (Solomon's request for a discerning heart); Ecclesiastes 9:9 (enjoy life with the wife whom you love)."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_latin": "Non zeles mulierem sinus tui ne ostendat super te malitiam doctrinae nequam.",
+      "rendering": "Do not be jealous of the wife of your bosom, lest she learn from you a lesson of malice against yourself.",
+      "translator_notes": ["The irony: jealousy teaches the wife the very treachery the husband fears. Suspicion breeds the behavior it suspects."],
+      "key_terms": [{"latin": "mulierem sinus tui", "rendered_as": "the wife of your bosom", "note": "An intimate term of endearment (cf. Deuteronomy 28:54); the wife who lies closest to one's heart."}]
+    },
+    {
+      "verse": 2,
+      "text_latin": "Non des mulieri potestatem animae tuae ne ingrediatur in virtutem tuam et confundaris.",
+      "rendering": "Do not give a woman power over your soul, lest she trample your strength and you be put to shame.",
+      "translator_notes": ["The concern is not partnership but surrender of judgment; the warning is against emotional captivity, not female authority per se."],
+      "key_terms": []
+    },
+    {
+      "verse": 3,
+      "text_latin": "Ne respicias mulierem multivolam ne forte incidas in laqueos illius.",
+      "rendering": "Do not look upon a promiscuous woman, lest you fall into her snares.",
+      "translator_notes": [],
+      "key_terms": [{"latin": "multivolam", "rendered_as": "promiscuous", "note": "Literally 'many-willing' or 'desiring many'; a woman who pursues multiple partners."}]
+    },
+    {
+      "verse": 4,
+      "text_latin": "Cum saltatrice ne adsiduus sis nec audias illam ne forte pereas in efficacia illius.",
+      "rendering": "Do not keep company with a dancing girl, and do not listen to her, lest you perish through her allure.",
+      "translator_notes": ["The saltatrix (dancing girl) was an entertainer whose performances had erotic overtones in the Hellenistic world."],
+      "key_terms": [{"latin": "saltatrice", "rendered_as": "a dancing girl", "note": "Professional female dancers were associated with banquets and often with sexual availability in the Greco-Roman context."}]
+    },
+    {
+      "verse": 5,
+      "text_latin": "Virginem ne conspicias ne forte scandalizeris in decore illius.",
+      "rendering": "Do not gaze upon a virgin, lest you stumble because of her beauty.",
+      "translator_notes": ["The gaze is the entry point of temptation; visual discipline is the first line of defense."],
+      "key_terms": []
+    },
+    {
+      "verse": 6,
+      "text_latin": "Ne des fornicariis animam tuam in ullo ne perdas te et hereditatem tuam.",
+      "rendering": "Do not give your soul to prostitutes in any way, lest you destroy yourself and your inheritance.",
+      "translator_notes": ["The destruction is both personal (soul) and economic (inheritance); sexual vice has comprehensive consequences."],
+      "key_terms": []
+    },
+    {
+      "verse": 7,
+      "text_latin": "Noli circumspicere in vicis civitatis nec oberraveris in plateis illius.",
+      "rendering": "Do not look around in the alleys of the city, and do not wander in its streets.",
+      "translator_notes": ["The city streets at night were the territory of prostitution and temptation; cf. Proverbs 7:8-12."],
+      "key_terms": []
+    },
+    {
+      "verse": 8,
+      "text_latin": "Averte faciem tuam a muliere conpta et non circumspicias speciem alienam.",
+      "rendering": "Turn your face from a woman adorned for seduction, and do not gaze upon beauty that belongs to another.",
+      "translator_notes": ["The 'adorned woman' (mulier conpta) is dressed to attract; the visual temptation must be refused at the level of the gaze."],
+      "key_terms": [{"latin": "conpta", "rendered_as": "adorned for seduction", "note": "From comere, to arrange or adorn; the woman is deliberately presented to attract."}]
+    },
+    {
+      "verse": 9,
+      "text_latin": "Propter speciem mulieris multi perierunt et ex hoc concupiscentia quasi ignis exardescit.",
+      "rendering": "Because of a woman's beauty many have perished, and from it desire blazes like fire.",
+      "translator_notes": ["The fire metaphor for sexual desire is universal in ancient literature; Ben Sira's warning is not against beauty itself but against the uncontrolled desire it can ignite."],
+      "key_terms": []
+    },
+    {
+      "verse": 10,
+      "text_latin": "Omnis mulier quae est fornicaria quasi stercus in via conculcabitur.",
+      "rendering": "Every woman who is promiscuous will be trampled underfoot like dung in the road.",
+      "translator_notes": ["The harsh imagery reflects the social consequences that fell disproportionately on women in a patriarchal honor-shame culture. The verse describes social reality more than prescribes divine judgment."],
+      "key_terms": []
+    },
+    {
+      "verse": 11,
+      "text_latin": "Speciem mulieris alienae multi admirati reprobi facti sunt colloquium enim illius quasi ignis exardescit.",
+      "rendering": "Many have been led astray by admiring the beauty of another man's wife, for conversation with her blazes up like fire.",
+      "translator_notes": ["It is not only the gaze but the conversation that is dangerous; intimacy develops through words."],
+      "key_terms": []
+    },
+    {
+      "verse": 12,
+      "text_latin": "Cum aliena muliere non sedeas omnino nec accumbas cum ea super cubitum.",
+      "rendering": "Do not sit at all with another man's wife, and do not recline with her at table on the couch.",
+      "translator_notes": ["Reclining on couches at banquets placed diners in intimate physical proximity; the instruction is to avoid the occasion of sin."],
+      "key_terms": []
+    },
+    {
+      "verse": 13,
+      "text_latin": "Et non alterceris cum illa in vino ne forte declinet cor tuum in illam et sanguine tuo labaris in perditionem.",
+      "rendering": "And do not dispute with her over wine, lest your heart turn toward her and through your lifeblood you slide into destruction.",
+      "translator_notes": ["Wine, argument, and sexual attraction form a volatile combination; the 'blood' (sanguine) represents life-force or passion."],
+      "key_terms": []
+    },
+    {
+      "verse": 14,
+      "text_latin": "Ne derelinquas amicum antiquum novus enim non erit similis illi.",
+      "rendering": "Do not abandon an old friend, for a new one will not be his equal.",
+      "translator_notes": ["The chapter pivots sharply to friendship. The old friend has been tested by time; the new one is unproven."],
+      "key_terms": [{"latin": "amicum antiquum", "rendered_as": "an old friend", "note": "Antiquus means long-standing, tested by duration; time is the proof of friendship's quality."}]
+    },
+    {
+      "verse": 15,
+      "text_latin": "Vinum novum amicus novus veterascet et cum suavitate bibes illud.",
+      "rendering": "A new friend is like new wine: when it has aged, you will drink it with pleasure.",
+      "translator_notes": ["One of the most memorable similes in Sirach. New wine must age before it becomes palatable; so must new friendship mature before it can be truly enjoyed."],
+      "key_terms": []
+    },
+    {
+      "verse": 16,
+      "text_latin": "Non zeles gloriam et opes peccatoris non enim scis quae futura sit illius subversio.",
+      "rendering": "Do not envy the glory and riches of a sinner, for you do not know what his overthrow will be.",
+      "translator_notes": ["The prosperity of the wicked is temporary; their reversal may be sudden and total."],
+      "key_terms": []
+    },
+    {
+      "verse": 17,
+      "text_latin": "Non placeat tibi iniuria iniustorum sciens quoniam usque ad inferos non placebit impius.",
+      "rendering": "Do not take pleasure in the violence of the unjust, knowing that the ungodly will not be acquitted even unto the grave.",
+      "translator_notes": [],
+      "key_terms": [{"latin": "inferos", "rendered_as": "the grave", "note": "Inferi is the Latin equivalent of Sheol, the realm of the dead; here it means that death provides no escape from divine judgment."}]
+    },
+    {
+      "verse": 18,
+      "text_latin": "Longe abesto ab homine potestatem habente occidendi et non suspicaberis timorem mortis.",
+      "rendering": "Keep far from a man who has the power to kill, and you will not suspect the fear of death.",
+      "translator_notes": ["A pragmatic survival maxim: distance from violent power is the surest protection."],
+      "key_terms": []
+    },
+    {
+      "verse": 19,
+      "text_latin": "Et si accesseris ad illum noli aliquid committere ne forte auferat vitam tuam.",
+      "rendering": "And if you approach him, commit no offense, lest he take your life.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 20,
+      "text_latin": "Communionem mortis scito quoniam in medio laqueorum ingredieris et super dolentium arma ambulabis.",
+      "rendering": "Know that you are in the company of death, for you walk in the midst of snares and tread upon the weapons of the aggrieved.",
+      "translator_notes": ["The court of the powerful is a minefield: surrounded by traps and armed resentments."],
+      "key_terms": []
+    },
+    {
+      "verse": 21,
+      "text_latin": "Secundum virtutem tuam cave te a proximo tuo et cum sapientibus et prudentibus tracta.",
+      "rendering": "According to your ability, be on guard with your neighbor, and take counsel with the wise and prudent.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 22,
+      "text_latin": "Viri iusti sint tibi convivae et in timore Dei sit tibi gloriatio.",
+      "rendering": "Let righteous men be your companions at table, and let your boasting be in the fear of God.",
+      "translator_notes": ["Table fellowship defines community; choosing righteous companions shapes character."],
+      "key_terms": []
+    },
+    {
+      "verse": 23,
+      "text_latin": "Et in sensu sit tibi cogitatus Dei et omnis enarratio tua in praeceptis Altissimi.",
+      "rendering": "And let the thought of God be in your understanding, and let all your conversation be about the commandments of the Most High.",
+      "translator_notes": ["The chapter closes by redirecting attention from social strategy to divine meditation; all prudence is ultimately grounded in God."],
+      "key_terms": []
+    },
+    {
+      "verse": 24,
+      "text_latin": "In manu artificum opera laudabuntur et princeps populi in sapientia sermonis sui in sensu vero seniorum verbum.",
+      "rendering": "By the hands of craftsmen their works will be praised, and the ruler of the people by the wisdom of his speech; but the true word belongs to the understanding of the elders.",
+      "translator_notes": ["A final distinction: artisans are judged by their work, rulers by their words, but authentic wisdom resides with the experienced elders."],
+      "key_terms": []
+    },
+    {
+      "verse": 25,
+      "text_latin": "Terribilis est in civitate sua homo linguosus et temerarius in verbo suo odibilis erit.",
+      "rendering": "A man of unrestrained tongue is terrible in his city, and the one who is rash in his speech will be hated.",
+      "translator_notes": ["The final verse returns to the ethics of speech: the uncontrolled speaker is both dangerous and despised."],
+      "key_terms": [{"latin": "linguosus", "rendered_as": "of unrestrained tongue", "note": "Linguosus is a stronger form than linguatus; the tongue is not merely double but completely unbridled."}]
+    }
+  ]
+}

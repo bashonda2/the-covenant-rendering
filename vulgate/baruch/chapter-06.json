@@ -1,0 +1,536 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Baruch",
+    "chapter": 6,
+    "tradition": "vulgate",
+    "tradition_label": "Latin Vulgate (Deuterocanonical)",
+    "source_text": "Biblia Sacra Vulgata (Stuttgart critical edition)",
+    "translator": "Jerome",
+    "date": "c. 405 CE",
+    "canon": ["catholic", "orthodox", "ethiopian"],
+    "generated_at": "2026-04-20T00:00:00Z",
+    "prompt_version": "2.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Known as the 'Letter of Jeremiah,' this chapter is a sustained satirical polemic against idol worship, addressed to the exiles being led to Babylon. Through vivid, often darkly comic imagery, the author catalogs the absurdities of pagan idols: they cannot speak, see, move, save themselves from fire, rust, moths, dust, thieves, or birds. A recurring refrain -- 'From this it is evident that they are not gods; therefore do not fear them' -- punctuates the argument at regular intervals, creating a liturgical rhythm of mockery and reassurance.",
+    "remarkable": "This is the most sustained piece of anti-idol satire in the biblical corpus, exceeding even Isaiah 44:9-20 and Psalm 115:4-8 in detail and rhetorical force. The author observes specific cultic practices (temple prostitution in v. 43, food offerings to idols in vv. 27-28) with an ethnographer's eye. The humor is deliberate: idols whose faces are blackened by smoke, who cannot wipe it off; priests who steal sacrificial meat for their wives; wooden gods gnawed by termites. The refrain structure (appearing roughly every 5-10 verses) suggests this text was designed for antiphonal liturgical reading.",
+    "friction": "The attribution to Jeremiah is almost certainly pseudepigraphic -- the vocabulary, style, and theological concerns point to a later Hellenistic-era author. Some traditions (Orthodox, Ethiopian) count this as a separate book rather than Baruch chapter 6. The portrayal of Babylonian religion, while rhetorically effective, is a caricature; actual Mesopotamian theology was far more sophisticated than the idol-as-mere-wood argument allows.",
+    "connections": "Isaiah 44:9-20 (the idol-maker satire); Isaiah 46:1-7 (Bel and Nebo, idols carried by beasts); Psalm 115:4-8 (they have mouths but cannot speak); Psalm 135:15-18 (idols of silver and gold); Jeremiah 10:1-16 (do not learn the way of the nations); Wisdom 13-15 (extended critique of idolatry); Acts 19:23-41 (Artemis of the Ephesians)."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_latin": "Propter peccata quae peccastis ante Deum abducemini in Babyloniam captivi a Nabuchodonosor rege Babylonis.",
+      "rendering": "Because of the sins that you have committed before God, you will be led away as captives to Babylon by Nebuchadnezzar, king of Babylon.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 2,
+      "text_latin": "Ingressi itaque in Babyloniam eritis ibi annis plurimis et temporibus longis usque ad generationes septem post hoc autem educam vos inde cum pace.",
+      "rendering": "Once you have entered Babylon, you will remain there for many years and a long time -- up to seven generations. But after that, I will bring you out from there in peace.",
+      "translator_notes": ["Jeremiah 29:10 promises return after seventy years; the 'seven generations' here (roughly 280 years) may reflect a later author's expanded timeline or a symbolic number indicating completeness."],
+      "key_terms": []
+    },
+    {
+      "verse": 3,
+      "text_latin": "Nunc autem videbitis in Babylonia deos aureos et argenteos et lapideos et ligneos in umeris portari ostentantes metum gentibus.",
+      "rendering": "Now in Babylon you will see gods of gold, silver, stone, and wood, carried on shoulders, inspiring dread among the nations.",
+      "translator_notes": ["The image of gods being physically carried by their worshippers is the opening salvo of the satire: a true god carries his people, but these gods must be carried."],
+      "key_terms": [{"latin": "deos aureos et argenteos", "rendered_as": "gods of gold and silver", "note": "The material catalog (gold, silver, stone, wood) descends in value, implying that the gods are only as valuable as their raw materials."}]
+    },
+    {
+      "verse": 4,
+      "text_latin": "Videte ergo ne et vos similes efficiamini factis alienis et metuatis et metus vos capiat in ipsis.",
+      "rendering": "Take care, then, that you do not become like these foreigners, or let fear of these idols seize you.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 5,
+      "text_latin": "Visa itaque turba de retro et ab ante adorantes dicite in cordibus vestris te oportet adorari Domine.",
+      "rendering": "So when you see a crowd before and behind them bowing in worship, say in your hearts: 'It is you who must be worshipped, O Lord.'",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 6,
+      "text_latin": "Angelus enim meus vobiscum est ipse autem exquiram animas vestras.",
+      "rendering": "For my angel is with you, and I myself will watch over your lives.",
+      "translator_notes": ["God promises protective presence through his angel even in the heart of pagan Babylon, echoing the guardian angel tradition of Exodus 23:20."],
+      "key_terms": [{"latin": "angelus", "rendered_as": "angel", "note": "A divine messenger and protector; the concept of a guardian angel assigned to a community."}]
+    },
+    {
+      "verse": 7,
+      "text_latin": "Nam lingua ipsorum polita a fabro ipsa etiam inaurata et inargentata falsa sunt et non possunt loqui.",
+      "rendering": "For their tongues are smoothed by a craftsman; they are overlaid with gold and silver, yet they are false and cannot speak.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 8,
+      "text_latin": "Et sicut virgini amanti ornamenta ita accepto auro fabricati sunt.",
+      "rendering": "And like a girl who loves jewelry, so they are decked out with gold they have received.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 9,
+      "text_latin": "Coronas certe aureas habent super capita sua dii illorum unde subtrahunt sacerdotes ab eis aurum et argentum et erogant illud in semet ipsos.",
+      "rendering": "Their gods certainly have golden crowns upon their heads, but the priests steal the gold and silver from them and spend it on themselves.",
+      "translator_notes": ["The accusation of priestly theft is both social critique and theological argument: if the gods cannot protect their own crowns, they certainly cannot protect their worshippers."],
+      "key_terms": []
+    },
+    {
+      "verse": 10,
+      "text_latin": "Dant autem et ex ipso prostitutis et meretrices ornant et iterum cum receperint illud a meretricibus ornant deos suos.",
+      "rendering": "They even give some of it to prostitutes, and they adorn hired women with it. Then when they get it back from the women, they use it to adorn their gods.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 11,
+      "text_latin": "Hii autem non se liberant ab aerugine et tinea.",
+      "rendering": "Yet these gods cannot save themselves from rust or moths.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 12,
+      "text_latin": "Opertis autem illis veste purpurea extergunt faciem ipsorum propter pulverem domus qui est plurimus inter eos.",
+      "rendering": "Though they are draped in purple garments, their faces must be wiped clean because of the thick dust that settles on them in the temple.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 13,
+      "text_latin": "Sceptrum autem habet ut homo sicut iudex regionis qui in se peccantem non interficit.",
+      "rendering": "One holds a scepter like a human ruler, like a judge of the region -- yet it cannot put to death anyone who offends against it.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 14,
+      "text_latin": "Habet etiam in manu gladium et securim se autem de bello et a latronibus non liberat.",
+      "rendering": "Another holds a sword and an axe in its hand, yet it cannot defend itself from war or from robbers.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 15,
+      "text_latin": "Unde vobis notum sit quia non sunt dii non ergo timueritis eos.",
+      "rendering": "From this it is evident that they are not gods; therefore do not fear them.",
+      "translator_notes": ["First occurrence of the refrain that structures the entire chapter. It functions as a liturgical response, likely spoken or chanted by the congregation."],
+      "key_terms": []
+    },
+    {
+      "verse": 16,
+      "text_latin": "Sicut enim vas hominis quod confringitur inutile efficitur tales sunt et dii illorum.",
+      "rendering": "For just as a person's broken pot becomes useless, so are their gods.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 17,
+      "text_latin": "Constitutis illis in domo oculi eorum pleni sunt pulvere a pedibus introeuntium.",
+      "rendering": "When they are set up in the temple, their eyes fill with dust from the feet of those who enter.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 18,
+      "text_latin": "Et sicut alicui qui regem offendit circumsaeptae sunt ianuae aut sicut ad sepulchrum adductum mortuum ita tutantur sacerdotes ostia clausuris et seris ne a latronibus exspolientur.",
+      "rendering": "And just as the doors are barred around someone who has offended the king, or as a tomb is sealed over a corpse, so the priests secure the doors with bolts and bars, lest the idols be plundered by robbers.",
+      "translator_notes": ["The double simile -- prisoner and corpse -- is devastating: the idols are either confined criminals or dead bodies, locked away not for their protection but because they are powerless."],
+      "key_terms": []
+    },
+    {
+      "verse": 19,
+      "text_latin": "Lucernas accendunt illis et quidem multas ex quibus nullam videre possunt sicut autem trabes in domo.",
+      "rendering": "They light lamps for them -- many lamps -- yet the idols cannot see a single one. They are like beams in a house.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 20,
+      "text_latin": "Et corda eorum dicunt elingendo bestias quae de terra sunt cum comedunt illos et vestimentum ipsorum non sentiunt.",
+      "rendering": "Their hearts, they say, are gnawed by crawling creatures from the earth. When vermin devour them and their garments, they feel nothing.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 21,
+      "text_latin": "Nigrae fiunt facies eorum a fumo qui in domo fit.",
+      "rendering": "Their faces are blackened by the smoke that fills the temple.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 22,
+      "text_latin": "Supra corpus eorum et supra caput eorum volant noctuae et hirundines et aves etiam similiter et cattae.",
+      "rendering": "Owls, swallows, and other birds land on their bodies and on their heads -- and so do cats.",
+      "translator_notes": ["The inclusion of cats roosting on idol-heads is one of the chapter's most memorable comic details, reducing the 'gods' to perches for household animals."],
+      "key_terms": []
+    },
+    {
+      "verse": 23,
+      "text_latin": "Unde sciatis quia non sunt dii ne ergo timueritis eos.",
+      "rendering": "From this you may know that they are not gods; therefore do not fear them.",
+      "translator_notes": ["Second occurrence of the refrain."],
+      "key_terms": []
+    },
+    {
+      "verse": 24,
+      "text_latin": "Aurum etiam quod habent ad speciem est nisi aliquis exterserit aeruginem non fulgebunt neque enim dum conflarentur sentiebant.",
+      "rendering": "Even the gold with which they are covered is only for show. Unless someone polishes off the tarnish, they will not shine. For they did not even feel it when they were being cast in the furnace.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 25,
+      "text_latin": "Ex omni pretio empta sunt in quibus spiritus non est.",
+      "rendering": "They are bought at full price, yet there is no breath in them.",
+      "translator_notes": [],
+      "key_terms": [{"latin": "spiritus", "rendered_as": "breath", "note": "The Latin spiritus carries the double meaning of breath and spirit; the idols lack both biological life and divine presence."}]
+    },
+    {
+      "verse": 26,
+      "text_latin": "Sine pedibus in umeris portantur ostentantes ignobilitatem suam hominibus confundantur etiam qui colunt ea.",
+      "rendering": "Having no feet, they are carried on shoulders, displaying their own worthlessness to all. Let those who worship them be put to shame.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 27,
+      "text_latin": "Propterea si ceciderint in terram a semet ipsis non consurgunt neque si quis eum statuerit rectum per se stabit sed sicut mortuis munera eorum illis adponentur.",
+      "rendering": "Therefore, if they fall to the ground, they cannot get up by themselves. And if someone sets one upright, it cannot stand on its own. Offerings are set before them as before the dead.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 28,
+      "text_latin": "Hostias illorum vendunt sacerdotes ipsorum et abutuntur similiter et mulieres eorum de eo decerpentes neque infirmo neque mendicanti aliquid inpertiuntur.",
+      "rendering": "Their priests sell the sacrifices offered to them and pocket the proceeds. Likewise their wives salt and preserve portions from them, sharing nothing with the sick or the poor.",
+      "translator_notes": ["The critique extends from the idols to the priestly class: they exploit the sacrificial system for personal enrichment while neglecting the vulnerable. This is both a religious and social justice argument."],
+      "key_terms": []
+    },
+    {
+      "verse": 29,
+      "text_latin": "De sacrificiis eorum menstruata et pariens contingunt ex his sciatis quia non sunt dii ne timeatis eos.",
+      "rendering": "Women in their menstrual period and women who have just given birth handle their sacrifices. From this you may know that they are not gods; do not fear them.",
+      "translator_notes": ["The argument here rests on the contrast with Israelite purity laws (Leviticus 12, 15), which restricted access to sacred spaces. The author's point is that these 'gods' have no holiness that demands reverence or purity."],
+      "key_terms": []
+    },
+    {
+      "verse": 30,
+      "text_latin": "Quomodo enim vocari possunt dii quibus mulieres adponunt ab argenteis autem et aureis et ligneis.",
+      "rendering": "For how can they be called gods, when women make offerings to them -- to things of silver, gold, and wood?",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 31,
+      "text_latin": "Et in domibus eorum sacerdotes sedent habentes tunicas scissas et capita et barbam rasam quorum capita nuda sunt.",
+      "rendering": "In their temples the priests sit with torn garments, their heads and beards shaved, their heads uncovered.",
+      "translator_notes": ["The description of priests with shaved heads and torn garments echoes mourning rites (Leviticus 21:5), suggesting that these priests look more like mourners for the dead than servants of living gods."],
+      "key_terms": []
+    },
+    {
+      "verse": 32,
+      "text_latin": "Rugiunt autem clamantes contra deos suos sicut in cena mortui.",
+      "rendering": "They roar and shout before their gods, as at a funeral feast for the dead.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 33,
+      "text_latin": "Vestimenta eorum auferunt sacerdotes et vestiunt uxores suas et filios suos.",
+      "rendering": "The priests take the garments off the idols and use them to clothe their own wives and children.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 34,
+      "text_latin": "Neque si mali quid patiuntur ab aliquo neque si boni poterunt retribuere non possunt regem constituere neque auferre.",
+      "rendering": "Whether someone does them evil or good, they cannot repay it. They cannot set up a king, nor remove one.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 35,
+      "text_latin": "Similiter neque dare divitias possunt neque malum retribuere si quis illis votum voverit et non reddiderit non exquirunt.",
+      "rendering": "Likewise, they cannot give wealth, nor repay evil. If someone makes a vow to them and does not keep it, they do not demand it.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 36,
+      "text_latin": "Hominem a morte non liberant neque infirmum a validiore eripiunt.",
+      "rendering": "They cannot rescue a person from death, nor deliver the weak from the strong.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 37,
+      "text_latin": "Hominem caecum ad visum non restituunt de necessitate hominem non liberabunt.",
+      "rendering": "They cannot restore sight to the blind. They cannot deliver anyone from distress.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 38,
+      "text_latin": "Viduae non miserebuntur neque orphanis bene facient.",
+      "rendering": "They will show no pity to the widow, nor do any good to the orphan.",
+      "translator_notes": ["The widow and orphan test: in Israelite theology, care for the vulnerable is the measure of both divine and human justice. Idols fail this test absolutely."],
+      "key_terms": []
+    },
+    {
+      "verse": 39,
+      "text_latin": "Lapidibus de monte similes sunt dii illorum lignei et lapidei et aurei et argentei qui autem colunt ea confundentur.",
+      "rendering": "Their gods of wood, stone, gold, and silver are like stones from the mountain. Those who worship them will be put to shame.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 40,
+      "text_latin": "Quomodo ergo aestimandum est aut dicendum illos esse deos?",
+      "rendering": "How then can anyone consider or claim that they are gods?",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 41,
+      "text_latin": "Adhuc enim ipsis Chaldaeis non honorantibus ea qui cum audierint mutum non posse loqui offerunt illud Belo postulantes ut loquatur.",
+      "rendering": "Even the Chaldeans themselves dishonor them. For when they hear that a mute person cannot speak, they bring the afflicted one to Bel, expecting the idol to make him speak.",
+      "translator_notes": [],
+      "key_terms": [{"latin": "Belo", "rendered_as": "Bel", "note": "The chief Babylonian deity (Marduk); the name Bel means 'Lord.' His inability to heal a mute person is presented as self-evidently absurd."}]
+    },
+    {
+      "verse": 42,
+      "text_latin": "Quasi possint sentire qui non habent motum et ipsi cum intellexerint relinquent ea sensum enim non habent ipsi dii illorum.",
+      "rendering": "As if those that have no power to move could perceive anything! And when the people realize this, they will abandon them, for their gods have no understanding.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 43,
+      "text_latin": "Mulieres autem circumdatae funibus in viis sedent succendentes ossa olivarum.",
+      "rendering": "Women sit along the roadsides wrapped in cords, burning olive stones as incense.",
+      "translator_notes": ["This verse appears to describe a form of cultic prostitution associated with Babylonian religion. The 'cords' may indicate availability for ritual sexual encounters. Herodotus (Histories 1.199) describes a similar practice at the temple of Aphrodite in Babylon."],
+      "key_terms": []
+    },
+    {
+      "verse": 44,
+      "text_latin": "Cum autem aliqua ex ipsis attracta ab aliquo transeunte dormierit proximae suae exprobrat quod ea non sit digna habita sicut ipsa neque funis eius diruptus sit.",
+      "rendering": "When one of them is led away by a passerby and sleeps with him, she taunts the woman next to her, because that one was not found desirable enough, nor was her cord broken.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 45,
+      "text_latin": "Omnia autem quae illis fiunt falsa sunt quomodo aestimandum aut dicendum illos esse deos?",
+      "rendering": "Everything that is done for them is a sham. How then can anyone consider or claim that they are gods?",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 46,
+      "text_latin": "A fabris autem et ab aurificibus facta sunt nihil aliud erunt nisi id quod volunt esse sacerdotes.",
+      "rendering": "They are made by carpenters and goldsmiths; they can be nothing other than what the craftsmen want them to be.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 47,
+      "text_latin": "Ipsi autem qui fabricant ea non sunt multi temporis numquid ergo possunt ea quae fabricata sunt ab eis esse dii?",
+      "rendering": "And those who make them will not live long themselves. How then can the things they make be gods?",
+      "translator_notes": ["The argument from mortality: the craftsman who makes the god is mortal; the creation cannot exceed the creator."],
+      "key_terms": []
+    },
+    {
+      "verse": 48,
+      "text_latin": "Reliquerunt autem falsa et opprobrium postea futuris.",
+      "rendering": "They have left behind only falsehood and disgrace for future generations.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 49,
+      "text_latin": "Nam cum supervenerit illis proelium et mala cogitant apud se sacerdotes ubi se abscondant cum illis.",
+      "rendering": "For when war and disaster come upon them, the priests plot among themselves where they can hide along with their idols.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 50,
+      "text_latin": "Quomodo ergo sentiri non possunt quoniam non sunt dii qui nec de bello se liberant nec de malis se eripiunt?",
+      "rendering": "How then can it not be obvious that they are not gods, since they can neither save themselves from war nor rescue themselves from disaster?",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 51,
+      "text_latin": "Cum enim sint lignea et inaurata et inargentata scietur postea quia falsa sunt ab universis gentibus et regibus quae manifesta sunt quia non sunt dii sed opera manuum hominum et nullum Dei opus cum illis est.",
+      "rendering": "Since they are merely wooden things overlaid with gold and silver, it will afterward become clear to all nations and kings that they are false -- manifestly not gods, but the work of human hands, and there is no work of God in them.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 52,
+      "text_latin": "Unde ergo notum est quia non sunt dii sed opera manuum hominum et nullum Dei opus in ipsis est?",
+      "rendering": "From what evidence, then, is it not clear that they are not gods, but the work of human hands, and that there is no divine work in them?",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 53,
+      "text_latin": "Regem regioni non suscitant neque pluviam hominibus dabunt.",
+      "rendering": "They cannot raise up a king for a country, nor give rain to the people.",
+      "translator_notes": ["The inability to give rain is particularly damning in the ancient Near Eastern context, where weather was considered the primary domain of the gods. Baal was the storm-god; to demonstrate that idols cannot produce rain is to strike at the core claim of paganism."],
+      "key_terms": []
+    },
+    {
+      "verse": 54,
+      "text_latin": "Iudicium quoque non discernent neque regiones liberabunt ab iniuria quia nihil possunt sicut corniculae inter medium caeli et terrae.",
+      "rendering": "They cannot render judgment, nor deliver lands from injustice, for they are powerless -- like jackdaws between heaven and earth.",
+      "translator_notes": [],
+      "key_terms": [{"latin": "corniculae", "rendered_as": "jackdaws", "note": "Small crows; the comparison reduces the idols to creatures that flutter uselessly between heaven and earth, belonging fully to neither realm."}]
+    },
+    {
+      "verse": 55,
+      "text_latin": "Etenim cum inciderit ignis in domum deorum ligneorum aureorum et argenteorum sacerdotes quidem ipsorum fugient et liberabuntur ipsi vero sicut trabes in medio conburentur.",
+      "rendering": "And when fire breaks out in the temple of these wooden, golden, and silver gods, the priests flee and save themselves, but the gods are burned up like rafters in the blaze.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 56,
+      "text_latin": "Regi autem et bello non resistent quomodo ergo aestimandum est aut recipiendum quia dii sunt?",
+      "rendering": "They cannot resist a king or an army. How then can anyone accept or believe that they are gods?",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 57,
+      "text_latin": "Non a furibus neque a latronibus se liberabunt dii lignei et lapidei et inaurati et inargentati quibus hii qui fortiores sunt.",
+      "rendering": "These wooden, stone, gold-plated, and silver-plated gods cannot save themselves from thieves and robbers. Those stronger than they are",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 58,
+      "text_latin": "Aurum et argentum et vestimentum quo operti sunt auferent illis et abibunt nec sibi auxilium ferent.",
+      "rendering": "will strip the gold and silver and the garments that cover them, and carry them off. The idols cannot help themselves.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 59,
+      "text_latin": "Itaque melius est esse regem ostentantem virtutem suam aut vas in domo utile in quo gloriabitur qui possidet illud vel ostium in domo quod custodit quae in ipsa sunt quam falsi dii.",
+      "rendering": "So it is better to be a king who displays his power, or a useful vessel in a house that its owner can be proud of, or even a door in a house that protects what is inside, than to be these false gods.",
+      "translator_notes": ["The rhetorical diminishment is masterful: the idols are less useful than a door. A door at least does its job."],
+      "key_terms": []
+    },
+    {
+      "verse": 60,
+      "text_latin": "Sol quidem et luna ac sidera cum sint splendida et emissa ad utilitates obaudiunt.",
+      "rendering": "The sun, the moon, and the stars -- being radiant and sent forth for useful service -- are obedient to God.",
+      "translator_notes": ["The author contrasts the cosmic bodies, which faithfully perform their appointed function, with the idols that perform nothing. Even creation obeys God better than the supposed 'gods.'"],
+      "key_terms": []
+    },
+    {
+      "verse": 61,
+      "text_latin": "Similiter et fulgur cum apparuerit perspicuum est idipsum autem et spiritus in omni regione spirat.",
+      "rendering": "Likewise the lightning, when it flashes, is clearly visible. And the wind blows through every region.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 62,
+      "text_latin": "Et nubes quibus cum imperatum fuerit a Deo perambulare universum orbem perficiunt quod imperatum est.",
+      "rendering": "And the clouds, when God commands them to travel across the whole world, carry out what is commanded.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 63,
+      "text_latin": "Ignis etiam quod missus desuper ut consumat montes et silvas facit quod praeceptum est his autem nec speciebus nec virtutibus uni eorum similes sunt.",
+      "rendering": "And the fire, sent from above to consume mountains and forests, does what it is ordered to do. But these idols are not like any of these things, either in appearance or in power.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 64,
+      "text_latin": "Unde neque existimandum est neque dicendum illos esse deos quando non possunt neque iudicium iudicare neque quicquam facere hominibus.",
+      "rendering": "Therefore, one should neither suppose nor claim that they are gods, since they can neither execute judgment nor do anything for human beings.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 65,
+      "text_latin": "Scientes itaque quia non sunt dii ne ergo timeatis eos.",
+      "rendering": "Knowing, then, that they are not gods, do not fear them.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 66,
+      "text_latin": "Neque enim regibus maledicent neque benedicent.",
+      "rendering": "For they can neither curse kings nor bless them.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 67,
+      "text_latin": "Signa etiam in caelo gentibus non ostendunt neque ut sol lucebunt neque illuminabunt ut luna.",
+      "rendering": "They cannot display signs in the heavens for the nations, nor shine like the sun, nor give light like the moon.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 68,
+      "text_latin": "Bestiae meliores sunt illis quae possunt fugere sub tectum ac prodesse sibi.",
+      "rendering": "The wild animals are better off than they are, for beasts can flee to shelter and fend for themselves.",
+      "translator_notes": ["The ultimate diminishment: the idols rank below animals in capability. A wild beast at least has survival instincts; the idol has nothing."],
+      "key_terms": []
+    },
+    {
+      "verse": 69,
+      "text_latin": "Nullo itaque modo nobis est manifestum quia sunt dii propter quod ne timeatis eos.",
+      "rendering": "In no way whatsoever is it evident to us that they are gods; therefore do not fear them.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 70,
+      "text_latin": "Nam sicut in cucumerario formido nihil custodit ita sunt dii illorum lignei et argentei et inaurati.",
+      "rendering": "For like a scarecrow in a cucumber field that guards nothing, so are their gods of wood, silver, and gold.",
+      "translator_notes": ["The scarecrow image is one of the letter's most memorable: the idol is as terrifying as a scarecrow to the birds -- which is to say, not at all. The image may also allude to Jeremiah 10:5."],
+      "key_terms": [{"latin": "formido", "rendered_as": "scarecrow", "note": "Latin formido can mean both 'scarecrow' and 'fear'; the wordplay is deliberate -- the thing that is supposed to inspire fear is itself merely a frightening shape, hollow and powerless."}]
+    },
+    {
+      "verse": 71,
+      "text_latin": "Eodem modo et in horto spina alba supra quam omnis avis sedet similiter et mortuo proiecto in tenebris similes sunt dii illorum lignei et inaurati et inargentati.",
+      "rendering": "In the same way, they are like a white thornbush in a garden on which every bird perches. They are also like a corpse thrown out into the darkness. That is what their gods of wood, gold, and silver are like.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 72,
+      "text_latin": "A purpura quoque et murice quae supra illos tineant scietis itaque quia non sunt dii ipsi etiam postremo comeduntur et erunt obprobrium in regione.",
+      "rendering": "From the purple cloth and linen that rot upon them, you will know that they are not gods. They themselves will eventually be consumed, and will become an object of reproach in the land.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 73,
+      "text_latin": "Melius est ergo homo iustus qui non habet simulacra nam erit longe ab obprobriis.",
+      "rendering": "Better, then, is a righteous person who has no idols, for such a one will be far from reproach.",
+      "translator_notes": ["The letter closes with this quiet, understated conclusion. After 72 verses of satire, mockery, and evidence, the final word is simply: the person without idols is better off. The argument ends not with thunderous condemnation but with the calm assurance that righteousness without idols is sufficient."],
+      "key_terms": [{"latin": "homo iustus", "rendered_as": "righteous person", "note": "The iustus is not merely law-abiding but rightly ordered toward God -- the person whose life is oriented by covenant faithfulness rather than idol-fear."}]
+    }
+  ]
+}

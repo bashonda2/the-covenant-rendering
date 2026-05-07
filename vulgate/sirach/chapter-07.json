@@ -1,0 +1,305 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Sirach",
+    "chapter": 7,
+    "tradition": "vulgate",
+    "tradition_label": "Latin Vulgate (Deuterocanonical)",
+    "source_text": "Biblia Sacra Vulgata (Stuttgart critical edition)",
+    "translator": "Jerome",
+    "date": "c. 405 CE",
+    "canon": ["catholic", "orthodox", "ethiopian"],
+    "generated_at": "2026-04-20T00:00:00Z",
+    "prompt_version": "2.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "A collection of miscellaneous proverbs covering a wide range of ethical topics: avoid evil and it will avoid you; do not seek public office or judicial authority presumptuously; do not neglect prayer or almsgiving; do not mock or deceive; honor the priesthood and give the prescribed offerings; care for the sick and the dead; rejoice with the joyful and mourn with the mourning; treat daughters and wives wisely; honor slaves who serve faithfully.",
+    "remarkable": "The section on honoring the priesthood (vv. 29-33) is one of the most explicit endorsements of the Levitical system in the wisdom literature. The instruction to visit the sick, attend funerals, and remember death (vv. 33-40) became central to the Christian corporal works of mercy. The closing reflection on death ('Remember your last things') was foundational for the medieval ars moriendi tradition.",
+    "friction": "The advice on daughters (vv. 24-25) reflects patriarchal anxieties about female sexuality and the economic burden of dowry. The instruction to 'give her to a sensible man' treats the daughter as property to be disposed of. These verses require honest acknowledgment of their cultural context.",
+    "connections": "Leviticus 7:28-36 (priestly portions); Deuteronomy 18:1-5 (Levitical rights); Romans 12:15 (rejoice with those who rejoice, weep with those who weep); Matthew 25:36 (I was sick and you visited me); Ecclesiastes 7:2 (better to go to a house of mourning)."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_latin": "Noli facere mala et non te adprehendent.",
+      "rendering": "Do no evil, and evil will not overtake you.",
+      "translator_notes": ["A terse statement of the retribution principle: the deed shapes the consequence."],
+      "key_terms": []
+    },
+    {
+      "verse": 2,
+      "text_latin": "Discede ab iniquo et deficient mala abs te.",
+      "rendering": "Depart from injustice, and evils will depart from you.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 3,
+      "text_latin": "Fili non semines mala in sulcis iniustitiae et non metes ea in septuplum.",
+      "rendering": "My son, do not sow evils in the furrows of injustice, and you will not reap them sevenfold.",
+      "translator_notes": ["The agricultural metaphor: sin sown yields a harvest multiplied sevenfold -- the symbolic number of completeness."],
+      "key_terms": []
+    },
+    {
+      "verse": 4,
+      "text_latin": "Noli quaerere ab homine ducatum neque a rege cathedram honoris.",
+      "rendering": "Do not seek from anyone a position of leadership, nor from the king a seat of honor.",
+      "translator_notes": ["Ambition for public office is not condemned outright but the seeking of it is warned against; authority should be received, not grasped."],
+      "key_terms": [{"latin": "cathedram honoris", "rendered_as": "a seat of honor", "note": "The cathedra is a chair of authority; the phrase evokes both judicial and academic power."}]
+    },
+    {
+      "verse": 5,
+      "text_latin": "Non te iustifices ante Deum quoniam agnitor cordis ipse est et penes regem noli velle videri sapiens.",
+      "rendering": "Do not justify yourself before God, for he is the knower of hearts; and before the king do not seek to appear wise.",
+      "translator_notes": ["Self-justification before God is futile because he sees the heart; self-promotion before the king is dangerous because it invites scrutiny."],
+      "key_terms": [{"latin": "agnitor cordis", "rendered_as": "the knower of hearts", "note": "A title for God that emphasizes his omniscient penetration of human motives."}]
+    },
+    {
+      "verse": 6,
+      "text_latin": "Noli quaerere fieri iudex nisi valeas virtute inrumpere iniquitates ne forte extimescas faciem potentis et ponas scandalum in aequitate tua.",
+      "rendering": "Do not seek to become a judge unless you have the strength to break through injustice, lest you fear the face of the powerful and place a stumbling block in your own integrity.",
+      "translator_notes": ["Judicial office requires the courage to resist the powerful; without it, the judge becomes complicit in injustice."],
+      "key_terms": []
+    },
+    {
+      "verse": 7,
+      "text_latin": "Non pecces in multitudinem civitatis nec te inmittas in populum.",
+      "rendering": "Do not sin against the multitude of the city, and do not cast yourself into the crowd.",
+      "translator_notes": ["Warning against both offending the public and losing oneself in mob behavior."],
+      "key_terms": []
+    },
+    {
+      "verse": 8,
+      "text_latin": "Neque alliges bis peccatum in uno enim non eris inmunis.",
+      "rendering": "Do not bind sin to sin, for even in one you will not go unpunished.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 9,
+      "text_latin": "Noli esse pusillanimis in animo tuo.",
+      "rendering": "Do not be faint-hearted in your spirit.",
+      "translator_notes": [],
+      "key_terms": [{"latin": "pusillanimis", "rendered_as": "faint-hearted", "note": "Literally 'small-souled'; the opposite of magnanimous. A person without the courage to act on conviction."}]
+    },
+    {
+      "verse": 10,
+      "text_latin": "Non despicias orare et facere eleemosynam.",
+      "rendering": "Do not neglect to pray and to give alms.",
+      "translator_notes": ["Prayer and almsgiving are paired as the two essential spiritual practices -- a pairing that persists into Christianity and Islam."],
+      "key_terms": []
+    },
+    {
+      "verse": 11,
+      "text_latin": "Ne dicas in respectu Dei miserebitur et in multitudine munerum meorum respiciet.",
+      "rendering": "Do not say, 'God will look upon my many offerings and accept them.'",
+      "translator_notes": ["Quantity of offerings does not guarantee divine favor; the quality of the heart matters more."],
+      "key_terms": []
+    },
+    {
+      "verse": 12,
+      "text_latin": "Non inrideas hominem in amaritudine animae suae est enim qui humiliat et exaltat circumspector Deus.",
+      "rendering": "Do not mock a person in the bitterness of his soul, for there is one who humbles and exalts -- God who sees all.",
+      "translator_notes": ["Mocking another's suffering invites divine reversal: the mocker may be humbled, the mocked exalted."],
+      "key_terms": [{"latin": "circumspector", "rendered_as": "who sees all", "note": "God as the all-seeing observer who misses nothing; every act of cruelty is witnessed."}]
+    },
+    {
+      "verse": 13,
+      "text_latin": "Noli arare mendacium adversus fratrem tuum neque in amicum similiter facias.",
+      "rendering": "Do not plow a lie against your brother, and do not do the same to your friend.",
+      "translator_notes": ["'Plowing a lie' extends the agricultural imagery: falsehood is a crop deliberately cultivated."],
+      "key_terms": []
+    },
+    {
+      "verse": 14,
+      "text_latin": "Noli velle mentiri omne mendacium adsiduitas enim illius non est bona.",
+      "rendering": "Do not choose to tell any lie, for the habit of lying brings no good.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 15,
+      "text_latin": "Noli verbosus esse in multitudine presbyterorum et non iteres verbum in oratione tua.",
+      "rendering": "Do not be wordy in the assembly of elders, and do not repeat yourself in your prayer.",
+      "translator_notes": ["Brevity in both public speech and prayer is commended; cf. Jesus' warning against vain repetitions (Matthew 6:7)."],
+      "key_terms": []
+    },
+    {
+      "verse": 16,
+      "text_latin": "Non oderis laboriosa opera et rusticationem creatam ab Altissimo.",
+      "rendering": "Do not hate laborious work, nor farming, which was created by the Most High.",
+      "translator_notes": ["Agricultural labor is dignified as God's own creation; contempt for manual work is a form of ingratitude."],
+      "key_terms": [{"latin": "rusticationem", "rendered_as": "farming", "note": "Rusticatio encompasses all rural labor; Ben Sira, writing in an urban context, defends the dignity of agrarian life."}]
+    },
+    {
+      "verse": 17,
+      "text_latin": "Non te reputes in multitudine indisciplinatorum.",
+      "rendering": "Do not count yourself among the multitude of the undisciplined.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 18,
+      "text_latin": "Memento irae quoniam non tardabit.",
+      "rendering": "Remember wrath, for it will not delay.",
+      "translator_notes": ["A terse memento: divine judgment is not distant."],
+      "key_terms": []
+    },
+    {
+      "verse": 19,
+      "text_latin": "Humilia valde spiritum tuum quoniam vindicta carnis impii ignis et vermis.",
+      "rendering": "Humble your spirit deeply, for the punishment of the flesh of the ungodly is fire and worms.",
+      "translator_notes": ["Fire and worms as images of judgment derive from Isaiah 66:24 and influenced later depictions of Gehenna."],
+      "key_terms": [{"latin": "ignis et vermis", "rendered_as": "fire and worms", "note": "The dual punishment imagery: fire consumes and worms devour. Both signify complete destruction of the impenitent."}]
+    },
+    {
+      "verse": 20,
+      "text_latin": "Noli praevaricari in amicum pecuniam differentem nec fratrem carissimum auro spreveris.",
+      "rendering": "Do not betray a friend who defers payment, and do not despise your dearest brother for the sake of gold.",
+      "translator_notes": ["Friendship and kinship outweigh financial claims; to sacrifice relationship for money is a form of betrayal."],
+      "key_terms": []
+    },
+    {
+      "verse": 21,
+      "text_latin": "Noli discedere a muliere sensata et bona quam sortitus es in timore Domini gratia enim verecundiae illius super aurum.",
+      "rendering": "Do not abandon a sensible and good wife whom you have received in the fear of the Lord, for the grace of her modesty is worth more than gold.",
+      "translator_notes": ["The good wife is a divine gift received 'in the fear of the Lord'; her moral beauty exceeds material wealth."],
+      "key_terms": [{"latin": "verecundiae", "rendered_as": "modesty", "note": "Verecundia means a sense of shame, propriety, and restraint; in a wife it represents moral composure."}]
+    },
+    {
+      "verse": 22,
+      "text_latin": "Non laedas servum in veritate operantem neque mercennarium dantem animam suam.",
+      "rendering": "Do not mistreat a servant who works faithfully, nor a hired laborer who devotes his life to you.",
+      "translator_notes": ["Protection of laborers -- both slave and free -- is a matter of justice, not mere kindness."],
+      "key_terms": [{"latin": "mercennarium", "rendered_as": "hired laborer", "note": "The mercennarius works for wages; his vulnerability to exploitation is a recurring concern in Torah and prophetic literature."}]
+    },
+    {
+      "verse": 23,
+      "text_latin": "Servum sensatum diligat anima tua non defraudes illum libertate neque egenum derelinquas illum.",
+      "rendering": "Let your soul love a wise servant; do not defraud him of his freedom, and do not abandon him to destitution.",
+      "translator_notes": ["The instruction to love a wise servant and not withhold freedom reflects the Israelite tradition of manumission (Deuteronomy 15:12-18)."],
+      "key_terms": []
+    },
+    {
+      "verse": 24,
+      "text_latin": "Pecora tibi sunt adtende illis et si sunt utilia perseverent apud te.",
+      "rendering": "If you have cattle, attend to them; and if they are profitable, keep them.",
+      "translator_notes": ["Practical wisdom about livestock management, but the principle extends to all stewardship of resources."],
+      "key_terms": []
+    },
+    {
+      "verse": 25,
+      "text_latin": "Filii tibi sunt erudi illos et curva illos a pueritia illorum.",
+      "rendering": "If you have sons, instruct them, and bend them to discipline from their youth.",
+      "translator_notes": ["'Curva' (bend) suggests shaping character while it is still pliable; early formation is decisive."],
+      "key_terms": []
+    },
+    {
+      "verse": 26,
+      "text_latin": "Filiae tibi sunt serva corpus illarum et non ostendas hilarem faciem tuam ad illas.",
+      "rendering": "If you have daughters, guard their bodies, and do not show them an indulgent face.",
+      "translator_notes": ["The patriarchal anxiety is unmistakable: daughters require physical protection and firm authority. The concern, however controlling by modern standards, reflects the social vulnerability of unmarried women in the ancient world."],
+      "key_terms": []
+    },
+    {
+      "verse": 27,
+      "text_latin": "Trade filiam et grande opus feceris et homini sensato da illam.",
+      "rendering": "Give your daughter in marriage, and you will have accomplished a great task; give her to a sensible man.",
+      "translator_notes": ["The language of 'giving' a daughter reflects the marriage customs of the period; the emphasis on a 'sensible' (sensatus) husband shifts the priority from wealth to character."],
+      "key_terms": []
+    },
+    {
+      "verse": 28,
+      "text_latin": "Mulier si est tibi secundum animam tuam non proicias illam et odibili non credas te.",
+      "rendering": "If you have a wife after your own heart, do not cast her out; but do not entrust yourself to one who is hateful.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 29,
+      "text_latin": "In toto corde tuo honora patrem tuum et gemitus matris tuae ne obliviscaris.",
+      "rendering": "With all your heart honor your father, and do not forget the groans of your mother.",
+      "translator_notes": ["The 'groans' of the mother refer to the pain of childbirth and the labors of raising children; filial gratitude should be proportional to parental sacrifice."],
+      "key_terms": []
+    },
+    {
+      "verse": 30,
+      "text_latin": "Memento quoniam nisi per illos natus non fuisses et retribue illis quomodo et illi tibi.",
+      "rendering": "Remember that without them you would not have been born; and repay them as they have given to you.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 31,
+      "text_latin": "In tota anima tua time Deum et sacerdotes illius sanctifica.",
+      "rendering": "With all your soul fear God, and honor his priests as holy.",
+      "translator_notes": ["The transition to the priestly section; fear of God naturally extends to reverence for those who serve in his sanctuary."],
+      "key_terms": [{"latin": "sanctifica", "rendered_as": "honor as holy", "note": "Sanctificare here means to treat as sacred, to accord the holiness proper to their office."}]
+    },
+    {
+      "verse": 32,
+      "text_latin": "In tota virtute tua dilige eum qui te fecit et ministros eius ne derelinquas.",
+      "rendering": "With all your strength love the one who made you, and do not forsake his ministers.",
+      "translator_notes": ["The Shema's three-part formula (heart, soul, strength) is distributed across vv. 29-32, applied to parents, God, and priests."],
+      "key_terms": []
+    },
+    {
+      "verse": 33,
+      "text_latin": "Honora Deum ex tota anima tua et honorifica sacerdotes et propurga te cum brachiis.",
+      "rendering": "Honor God with all your soul, and show honor to the priests, and purify yourself with the offering of your arms.",
+      "translator_notes": ["'Arms' (brachia) here refers to the shoulder portions prescribed as priestly offerings in Levitical law."],
+      "key_terms": [{"latin": "brachiis", "rendered_as": "the offering of your arms", "note": "Refers to the shoulder/arm portions of sacrificial animals assigned to the priests (cf. Deuteronomy 18:3)."}]
+    },
+    {
+      "verse": 34,
+      "text_latin": "Da illis partem sicut mandatum est tibi primitiarum et purgationis et de neglegentia tua purga te cum paucis.",
+      "rendering": "Give them their portion as commanded to you: the firstfruits and the purification offering; and for your negligence purify yourself with a small offering.",
+      "translator_notes": ["The specific liturgical obligations -- firstfruits and purification -- locate Ben Sira firmly within a functioning temple economy."],
+      "key_terms": [{"latin": "primitiarum", "rendered_as": "firstfruits", "note": "The first and best portion of the harvest, owed to God and distributed to the priests."}]
+    },
+    {
+      "verse": 35,
+      "text_latin": "Datum brachiorum tuorum et sacrificium sanctificationis offeres Domino et initia sanctorum.",
+      "rendering": "The gift of your arms and the sacrifice of sanctification you will offer to the Lord, together with the holy firstfruits.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 36,
+      "text_latin": "Et pauperi porrige manum tuam ut perficiatur propitiatio et benedictio tua.",
+      "rendering": "And stretch out your hand to the poor, so that your atonement and your blessing may be complete.",
+      "translator_notes": ["Charity to the poor completes the liturgical cycle: offerings to God through the priests must be accompanied by care for the destitute."],
+      "key_terms": []
+    },
+    {
+      "verse": 37,
+      "text_latin": "Gratia dati in conspectu omnis viventis et mortuo non prohibeas gratiam.",
+      "rendering": "The grace of a gift is in the sight of every living person, and from the dead do not withhold kindness.",
+      "translator_notes": ["Care for the dead (proper burial, mourning rites) is a sacred duty; cf. Tobit's insistence on burying the dead at great personal risk."],
+      "key_terms": []
+    },
+    {
+      "verse": 38,
+      "text_latin": "Non desis plorantibus in consolatione et cum lugentibus ambula.",
+      "rendering": "Do not fail to comfort those who weep, and walk with those who mourn.",
+      "translator_notes": ["Ministry of presence: walking with mourners rather than merely speaking to them."],
+      "key_terms": []
+    },
+    {
+      "verse": 39,
+      "text_latin": "Non te pigeat visitare infirmum ex his enim in dilectione firmaberis.",
+      "rendering": "Do not be reluctant to visit the sick, for by such deeds you will be strengthened in love.",
+      "translator_notes": ["Visiting the sick strengthens the visitor's capacity for love -- a reciprocal benefit. This became one of the seven corporal works of mercy in Catholic tradition."],
+      "key_terms": []
+    },
+    {
+      "verse": 40,
+      "text_latin": "In omnibus operibus tuis memorare novissima tua et in aeternum non peccabis.",
+      "rendering": "In all your works, remember your last end, and you will never sin.",
+      "translator_notes": ["One of the most quoted verses in Christian ascetical literature. 'Memorare novissima' (remember the last things) became the foundation of the medieval meditation on death. The claim is bold: constant awareness of mortality is the ultimate safeguard against sin."],
+      "key_terms": [{"latin": "novissima", "rendered_as": "your last end", "note": "The novissima (last things) encompass death, judgment, and whatever lies beyond; the term later gave its name to eschatology (de novissimis)."}]
+    }
+  ]
+}

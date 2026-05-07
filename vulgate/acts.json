@@ -1,0 +1,158 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Acts",
+    "tradition": "vulgate",
+    "tradition_label": "Latin Vulgate",
+    "source_text": "Biblia Sacra Vulgata (Stuttgart critical edition)",
+    "base_text": "SBL Greek New Testament (SBLGNT)",
+    "translator": "Jerome (Eusebius Sophronius Hieronymus)",
+    "date": "382-405 CE",
+    "generated_at": "2026-04-20T00:00:00Z",
+    "prompt_version": "2.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Acts in the Vulgate shaped the Western understanding of Church origins, apostolic authority, sacramental practice, and the relationship between Christianity and civil government. Jerome's renderings of key terms — paenitentiam agite (do penance), episcopos (bishops), presbyteros (elders/priests), and the conversion narratives — established the institutional vocabulary of the Western church.",
+    "notable_renderings": "Acts 2:38 paenitentiam agite (do penance — shaped penitential theology); 2:42 doctrina apostolorum, communicatione fractionis panis (apostles' teaching, communion, breaking of bread); 15:28 visum est Spiritui Sancto et nobis (it seemed good to the Holy Spirit and to us — shaped conciliar authority); 20:28 episcopos...ecclesiam Dei (bishops...church of God).",
+    "theological_legacy": "The Vulgate Acts gave the Western church its institutional self-understanding: apostolic succession, episcopal governance, conciliar authority, sacramental practice (baptism, laying on of hands, breaking of bread), and the Church's relationship to the Roman state. Every Western ecclesiological debate — from the Investiture Controversy to the Reformation to Vatican II — engaged the Latin Acts."
+  },
+  "renderings": [
+    {
+      "reference": "Acts 1:8",
+      "source_text": "λήμψεσθε δύναμιν ἐπελθόντος τοῦ ἁγίου πνεύματος ἐφ᾽ ὑμᾶς καὶ ἔσεσθέ μου μάρτυρες",
+      "vulgate_text": "accipietis virtutem supervenientis Spiritus Sancti in vos et eritis mihi testes",
+      "vulgate_rendering": "You will receive the power of the Holy Spirit coming upon you and you will be my witnesses",
+      "tcr_rendering": "You will receive power when the Holy Spirit comes upon you, and you will be my witnesses",
+      "theological_legacy": "Virtutem (power/virtue) for Greek dynamis shaped the Western understanding of the Spirit's empowerment as moral virtue rather than raw power. Testes (witnesses) is the root of 'testimony' and 'testament,' and also of martyres (martyrs) — linking witness-bearing to potential death.",
+      "notes": ["The Latin virtus encompasses power, strength, and moral excellence — a broader field than the Greek dynamis (power, force). This shaped the Western theology of the Spirit's work as both empowerment and moral transformation. The Latin testes (witnesses) preserving the connection to martyrdom (martyres = witnesses who die) influenced the Western cult of martyrs and the theology of witness-unto-death."]
+    },
+    {
+      "reference": "Acts 2:38",
+      "source_text": "μετανοήσατε καὶ βαπτισθήτω ἕκαστος ὑμῶν ἐπὶ τῷ ὀνόματι Ἰησοῦ Χριστοῦ εἰς ἄφεσιν τῶν ἁμαρτιῶν ὑμῶν, καὶ λήμψεσθε τὴν δωρεὰν τοῦ ἁγίου πνεύματος",
+      "vulgate_text": "paenitentiam agite et baptizetur unusquisque vestrum in nomine Iesu Christi in remissionem peccatorum vestrorum et accipietis donum Spiritus Sancti",
+      "vulgate_rendering": "Do penance and let each of you be baptized in the name of Jesus Christ for the remission of your sins, and you will receive the gift of the Holy Spirit",
+      "tcr_rendering": "Turn back and let each one of you be immersed in the name of Yeshua the Anointed One for the release of your sins, and you will receive the gift of the Holy Spirit",
+      "theological_legacy": "Paenitentiam agite (do penance) — Peter's Pentecost sermon in the Vulgate established the sacramental sequence that would define Western Christianity: penance, baptism, forgiveness, and reception of the Spirit. This verse was cited at every major Western council discussing baptism, penance, and confirmation as distinct sacramental moments.",
+      "notes": ["This verse became the scriptural charter of the Western sacramental system. Paenitentiam agite (do penance) shaped the sacrament of Reconciliation; baptizetur (be baptized) grounded the sacrament of Baptism; in remissionem peccatorum entered the Creed; accipietis donum Spiritus Sancti (receive the gift of the Holy Spirit) was used to justify Confirmation as a separate sacrament from Baptism. The entire sequence — repentance, baptism, forgiveness, Spirit-reception — became the ordo salutis of Western sacramental theology."]
+    },
+    {
+      "reference": "Acts 2:42",
+      "source_text": "ἦσαν δὲ προσκαρτεροῦντες τῇ διδαχῇ τῶν ἀποστόλων καὶ τῇ κοινωνίᾳ, τῇ κλάσει τοῦ ἄρτου καὶ ταῖς προσευχαῖς",
+      "vulgate_text": "erant autem perseverantes in doctrina apostolorum et communicatione fractionis panis et orationibus",
+      "vulgate_rendering": "And they were persevering in the teaching of the apostles and in the communion of the breaking of bread and in prayers",
+      "tcr_rendering": "They were devoting themselves to the teaching of the emissaries and to the fellowship, to the breaking of bread and to the prayers",
+      "theological_legacy": "Doctrina apostolorum, communicatione, fractionis panis, orationibus — the four marks of the early church in the Vulgate became the template for Western ecclesiology. Doctrina apostolorum (apostolic teaching) grounded the concept of apostolic tradition; communicatio (communion/fellowship) shaped the theology of koinōnia; fractio panis (breaking of bread) became a Eucharistic title.",
+      "notes": ["This verse was read as the charter of church life in the West. The four elements — apostolic teaching, communion, Eucharist, prayer — became the definition of an authentic church. The term communicatio (from koinōnia) entered Western theology as both 'communion' (shared participation) and 'communication' (sharing of goods), influencing both Eucharistic theology and Catholic social teaching on the universal destination of goods."]
+    },
+    {
+      "reference": "Acts 4:12",
+      "source_text": "οὐδὲ γάρ ἐστιν ἄλλο ὄνομα ὑπὸ τὸν οὐρανὸν τὸ δεδομένον ἐν ἀνθρώποις ἐν ᾧ δεῖ σωθῆναι ἡμᾶς",
+      "vulgate_text": "nec enim aliud nomen est sub caelo datum hominibus in quo oporteat nos salvos fieri",
+      "vulgate_rendering": "For there is no other name under heaven given to men by which we must be saved",
+      "tcr_rendering": "For there is no other name under heaven that has been given among people by which we must be delivered",
+      "theological_legacy": "Non est aliud nomen (there is no other name) — this became the classical proof-text for Christian exclusivism and the necessity of explicit faith in Christ for salvation. The Latin formulation's absolute quality (nec...aliud nomen — not any other name) shaped Western theology of religions and mission theology from the patristic period to the present.",
+      "notes": ["This verse was cited alongside John 14:6 and Acts 16:31 as the scriptural basis for extra ecclesiam nulla salus (outside the Church no salvation). It was invoked in every major Western statement on salvation and non-Christian religions, including the Council of Florence (1442), the Council of Trent, and Vatican II's Nostra Aetate (which reinterpreted rather than abandoned the exclusivist tradition). The verse remains central to evangelical soteriology."]
+    },
+    {
+      "reference": "Acts 8:36-38",
+      "source_text": "ἰδοὺ ὕδωρ· τί κωλύει με βαπτισθῆναι;",
+      "vulgate_text": "ecce aqua quid prohibet me baptizari",
+      "vulgate_rendering": "Behold, water! What prevents me from being baptized?",
+      "tcr_rendering": "Look — water! What prevents me from being immersed?",
+      "theological_legacy": "Quid prohibet me baptizari (what prevents me from being baptized) — the Ethiopian eunuch's question became a formula in Western baptismal liturgy. The Vulgate also includes the longer reading of verse 37 (the confession of faith: 'I believe Jesus Christ is the Son of God'), which became the basis for the baptismal creed and the requirement of profession of faith before baptism.",
+      "notes": ["The longer reading of verse 37 — 'If you believe with all your heart, you may. And he answered: I believe that Jesus Christ is the Son of God' — is absent from the earliest manuscripts but was included in the Vulgate. This interpolation shaped the Western baptismal rite: the requirement of a profession of faith before baptism (the baptismal creed). The eunuch's question ('what prevents me?') became a liturgical formula used in examining baptismal candidates."]
+    },
+    {
+      "reference": "Acts 9:5",
+      "source_text": "ἐγώ εἰμι Ἰησοῦς ὃν σὺ διώκεις",
+      "vulgate_text": "ego sum Iesus quem tu persequeris durum est tibi contra stimulum calcitrare",
+      "vulgate_rendering": "I am Jesus whom you persecute; it is hard for you to kick against the goad",
+      "tcr_rendering": "I am Yeshua, whom you are persecuting",
+      "theological_legacy": "Durum est tibi contra stimulum calcitrare (it is hard for you to kick against the goad) — the Vulgate includes this classical proverb (from Euripides, Aeschylus) in Paul's Damascus Road account at 9:5, though the best Greek manuscripts place it only in 26:14. The addition shaped Western conversion theology, presenting resistance to God as futile self-harm.",
+      "notes": ["The 'kicking against the goads' phrase is a Greek literary topos found in classical tragedy. Its inclusion at Acts 9:5 in the Vulgate (from later manuscript traditions) made Paul's conversion more dramatic and literary. The phrase entered Western proverbial language and shaped the theology of conversion as divine irresistibility — God's call cannot ultimately be resisted without self-destruction."]
+    },
+    {
+      "reference": "Acts 13:2",
+      "source_text": "λειτουργούντων δὲ αὐτῶν τῷ κυρίῳ καὶ νηστευόντων εἶπεν τὸ πνεῦμα τὸ ἅγιον· ἀφορίσατε δή μοι τὸν Βαρναβᾶν καὶ Σαῦλον",
+      "vulgate_text": "ministrantibus autem illis Domino et ieiunantibus dixit Spiritus Sanctus segregate mihi Barnabam et Saulum",
+      "vulgate_rendering": "And as they were ministering to the Lord and fasting, the Holy Spirit said: Separate for me Barnabas and Saul",
+      "tcr_rendering": "While they were serving the Lord and fasting, the Holy Spirit said, 'Set apart for me Barnabas and Saul'",
+      "theological_legacy": "Ministrantibus Domino et ieiunantibus (ministering to the Lord and fasting) — the Latin ministrantibus (from ministrare, serving/ministering) was read as referring to liturgical service, making this a proof-text for the Spirit's activity within formal worship. Segregate mihi (separate for me) shaped the Western theology of ordination as divine separation for sacred service.",
+      "notes": ["The Greek leitourgountōn (performing liturgy/public service) becomes ministrantibus (ministering/serving). The connection between liturgical worship, fasting, and the Spirit's commission shaped Western ordination theology: ministers are called by the Spirit during the Church's worship. The phrase segregate mihi (set apart for me) became a key text for the theology of holy orders as divine calling confirmed by the community."]
+    },
+    {
+      "reference": "Acts 15:28",
+      "source_text": "ἔδοξεν γὰρ τῷ πνεύματι τῷ ἁγίῳ καὶ ἡμῖν",
+      "vulgate_text": "visum est enim Spiritui Sancto et nobis",
+      "vulgate_rendering": "For it seemed good to the Holy Spirit and to us",
+      "tcr_rendering": "For it seemed good to the Holy Spirit and to us",
+      "theological_legacy": "Visum est Spiritui Sancto et nobis (it seemed good to the Holy Spirit and to us) — this phrase from the Jerusalem Council became the foundational text for conciliar authority in the Western church. The formula claims divine-human collaboration in church governance: the Spirit and the apostles together reaching decisions. Every ecumenical council's decrees implicitly invoke this formula.",
+      "notes": ["This verse became the theological basis for the authority of church councils. The juxtaposition of Spiritui Sancto et nobis (the Holy Spirit and us) was read as establishing the principle that the Spirit guides conciliar deliberations, making their decisions divinely authoritative. This shaped the Western conciliar tradition from Nicaea (325) through Vatican II (1962-65). The Conciliarist movement of the 15th century and the Catholic theology of ecumenical councils both rest on this verse."]
+    },
+    {
+      "reference": "Acts 17:23",
+      "source_text": "ἀγνώστῳ θεῷ",
+      "vulgate_text": "ignoto Deo",
+      "vulgate_rendering": "To the unknown God",
+      "tcr_rendering": "To an Unknown God",
+      "theological_legacy": "Ignoto Deo (to the unknown God) — Paul's Areopagus speech and its engagement with Athenian religion became the foundational text for Christian natural theology and apologetics in the West. The Latin rendition shaped the Western tradition of finding 'seeds of the Word' (semina Verbi) in pagan philosophy and culture.",
+      "notes": ["This verse and Paul's Areopagus speech shaped the entire Western tradition of faith seeking understanding (fides quaerens intellectum). The willingness to engage pagan culture — quoting Greek poets, acknowledging an unknown God — became the model for Western Christianity's engagement with philosophy (Justin Martyr, Clement, Augustine, Aquinas). The concept of the ignoto Deo also influenced the Western mystical tradition of God as ultimately unknowable (apophatic theology)."]
+    },
+    {
+      "reference": "Acts 20:28",
+      "source_text": "προσέχετε ἑαυτοῖς καὶ παντὶ τῷ ποιμνίῳ, ἐν ᾧ ὑμᾶς τὸ πνεῦμα τὸ ἅγιον ἔθετο ἐπισκόπους ποιμαίνειν τὴν ἐκκλησίαν τοῦ θεοῦ",
+      "vulgate_text": "attendite vobis et universo gregi in quo vos Spiritus Sanctus posuit episcopos regere ecclesiam Dei",
+      "vulgate_rendering": "Take heed to yourselves and to the whole flock, in which the Holy Spirit has placed you as bishops to rule the church of God",
+      "tcr_rendering": "Watch over yourselves and all the flock, among which the Holy Spirit has placed you as overseers to shepherd the assembly of God",
+      "theological_legacy": "Episcopos regere ecclesiam Dei (bishops to rule the church of God) — the Latin episcopos (bishops) rather than a translation like 'overseers' cemented the identification of New Testament episkopoi with the later office of bishop. Regere (to rule, govern) is stronger than the Greek poimainein (to shepherd), shifting the emphasis from pastoral care to governance authority.",
+      "notes": ["The Greek episkopoi (overseers) and the Greek poimainein (to shepherd/tend) are rendered as episcopos (bishops) and regere (to rule). This double shift — from 'overseers' to 'bishops' and from 'shepherding' to 'ruling' — supported the Western development of monarchical episcopacy. The verse was cited in every Western defense of episcopal authority from Cyprian through the Reformation controversies to Vatican II's Lumen Gentium."]
+    },
+    {
+      "reference": "Acts 22:16",
+      "source_text": "ἀναστὰς βάπτισαι καὶ ἀπόλουσαι τὰς ἁμαρτίας σου ἐπικαλεσάμενος τὸ ὄνομα αὐτοῦ",
+      "vulgate_text": "exsurge et baptizare et ablue peccata tua invocato nomine ipsius",
+      "vulgate_rendering": "Rise and be baptized and wash away your sins, calling upon his name",
+      "tcr_rendering": "Get up, be immersed, and wash away your sins, calling on his name",
+      "theological_legacy": "Baptizare et ablue peccata tua (be baptized and wash away your sins) — this verse directly links baptism to sin-removal, supporting the Western doctrine of baptismal regeneration. The Latin ablue (wash away, cleanse) makes the connection between baptismal water and spiritual cleansing explicit.",
+      "notes": ["The juxtaposition of baptizare (be baptized) and ablue peccata (wash away sins) was read in the West as establishing baptism as the instrumental cause of forgiveness. This shaped the doctrine of baptismal regeneration — that baptism actually effects (not merely symbolizes) the removal of sin. The verse was cited alongside John 3:5 and Acts 2:38 as the biblical foundation for the sacramental efficacy of baptism."]
+    },
+    {
+      "reference": "Acts 5:29",
+      "source_text": "πειθαρχεῖν δεῖ θεῷ μᾶλλον ἢ ἀνθρώποις",
+      "vulgate_text": "oboedire oportet Deo magis quam hominibus",
+      "vulgate_rendering": "It is necessary to obey God rather than men",
+      "tcr_rendering": "It is necessary to obey God rather than people",
+      "theological_legacy": "Oboedire oportet Deo magis quam hominibus (we must obey God rather than men) — this became the foundational text for Western theories of justified disobedience to civil authority. It was cited by every Western tradition of resistance to unjust law, from medieval canonists to the Reformation to modern civil disobedience movements.",
+      "notes": ["This verse established the principle in Western political theology that divine law supersedes human law. It was invoked by Thomas Becket against Henry II, by Luther at the Diet of Worms ('Here I stand'), by the Confessing Church against the Nazis, and by Martin Luther King Jr. in the Letter from Birmingham Jail. The Latin oboedire (to listen toward, obey) makes clear that obedience to God is the primary obligation from which all other obedience derives."]
+    },
+    {
+      "reference": "Acts 3:21",
+      "source_text": "ὃν δεῖ οὐρανὸν μὲν δέξασθαι ἄχρι χρόνων ἀποκαταστάσεως πάντων",
+      "vulgate_text": "quem oportet caelum quidem suscipere usque in tempora restitutionis omnium",
+      "vulgate_rendering": "Whom heaven must indeed receive until the times of the restoration of all things",
+      "tcr_rendering": "Whom heaven must receive until the times of the restoration of all things",
+      "theological_legacy": "Restitutio omnium (restoration of all things) — this phrase entered Western eschatological debate as a potential proof-text for universal salvation (apokatastasis). The Latin restitutio (restoration to a former state) was debated: does 'all things' mean universal salvation, or restoration of the created order? The condemnation of Origen's apokatastasis at Constantinople II (553) shaped Western reading of this verse.",
+      "notes": ["The Greek apokatastasis pantōn (restoration of all things) becomes restitutio omnium. Origen used this concept to teach universal salvation — eventually all souls, even demons, would be restored. The Western church condemned this reading but the phrase remained in Scripture, creating ongoing tension. Universalist movements from the radical Reformation to modern liberal theology have returned to this verse as a proof-text."]
+    },
+    {
+      "reference": "Acts 6:6",
+      "source_text": "καὶ προσευξάμενοι ἐπέθηκαν αὐτοῖς τὰς χεῖρας",
+      "vulgate_text": "et orantes imposuerunt eis manus",
+      "vulgate_rendering": "And praying, they laid hands on them",
+      "tcr_rendering": "And after praying, they laid their hands on them",
+      "theological_legacy": "Imposuerunt eis manus (they laid hands on them) — the imposition of hands on the seven deacons became a proof-text for the sacrament of Holy Orders in Western theology. The Latin impositio manuum (laying on of hands) became the essential rite of ordination, and this passage was cited as the institution of the diaconate.",
+      "notes": ["The laying on of hands (impositio manuum) appears at several points in Acts (6:6, 8:17, 13:3, 19:6) with different meanings — ordination, Spirit-impartation, commissioning. The Western sacramental tradition unified these under the category of Holy Orders and Confirmation. Acts 6:6 specifically was read as the apostolic institution of the order of deacons, one of the three degrees of ordained ministry (bishop, priest, deacon) in Catholic and Anglican theology."]
+    },
+    {
+      "reference": "Acts 9:15",
+      "source_text": "σκεῦος ἐκλογῆς ἐστίν μοι οὗτος",
+      "vulgate_text": "vas electionis est mihi iste",
+      "vulgate_rendering": "This man is a vessel of election to me",
+      "tcr_rendering": "This man is a chosen instrument of mine",
+      "theological_legacy": "Vas electionis (vessel of election) — this title for Paul became a standard epithet in Western literature and theology. The combination of vas (vessel, instrument) and electio (election, choice) shaped the Western theology of divine calling: God chooses unlikely instruments and fills them with purpose. Augustine used this title extensively in his theology of predestination and grace.",
+      "notes": ["The phrase vas electionis became Paul's most common Latin epithet, used by Augustine, Aquinas, Dante ('lo vas d'elezione' in Inferno 2.28), and countless Western writers. The term electio (election/choice) reinforced the Augustinian theology of predestination — Paul was chosen by God, not self-selected. The 'vessel' metaphor (connecting to Romans 9:21-23, 'vessels of mercy/wrath') shaped the Western understanding of human beings as instruments of divine purpose."]
+    }
+  ]
+}

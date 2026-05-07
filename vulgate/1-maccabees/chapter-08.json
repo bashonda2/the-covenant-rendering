@@ -1,0 +1,251 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "1 Maccabees",
+    "chapter": 8,
+    "tradition": "vulgate",
+    "tradition_label": "Latin Vulgate (Deuterocanonical)",
+    "source_text": "Biblia Sacra Vulgata (Stuttgart critical edition)",
+    "translator": "Jerome",
+    "date": "c. 405 CE",
+    "canon": ["catholic", "orthodox", "ethiopian"],
+    "generated_at": "2026-04-20T00:00:00Z",
+    "prompt_version": "2.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Chapter 8 records Judas's diplomatic initiative to forge an alliance with Rome. It opens with an admiring description of Roman power, military achievements, and republican government, then narrates the sending of envoys to Rome and the treaty they secured. The Roman Senate's letter to Demetrius warning him against aggression toward the Jews is included.",
+    "remarkable": "The chapter presents the most extensive and favorable portrait of Rome in Jewish literature of this period. The author admires Roman military power, administrative efficiency, and especially their republican system — 'they entrust their government each year to one man' (v. 16). The idealized portrait reflects a moment before Rome itself became the oppressor of the Jews.",
+    "friction": "The description of Roman government contains several inaccuracies — conflating consuls with a single ruler, and overstating Rome's centralized efficiency. These errors suggest the author wrote from a distance, with imperfect knowledge of Roman institutions, but genuine admiration for what he understood of Roman republicanism as an alternative to Hellenistic monarchy.",
+    "connections": "This Roman alliance will be renewed by Jonathan (12:1-4) and Simon (14:16-24, 15:15-24). The positive view of Rome contrasts sharply with Daniel's vision of Rome as the fourth beast (Daniel 7:7) and with Revelation's portrayal of Rome as Babylon. The envoys' journey anticipates Paul's appeal to Caesar (Acts 25:11)."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_latin": "et audivit Iudas nomen Romanorum quia sunt potentes viribus et acquiescunt ad omnia quae postulantur ab eis et quicumque accesserunt ad eos statuerunt cum eis amicitias et quia sunt potentes viribus",
+      "rendering": "Now Judas heard of the fame of the Romans — that they are powerful in strength, and that they are favorably disposed to all who approach them. Whoever has sought their friendship, they have established friendship with them, for they are mighty in power.",
+      "translator_notes": ["The opening admiration for Rome reflects the Maccabean period when Rome was a distant but useful ally against the Seleucids, not yet the direct oppressor it would become."],
+      "key_terms": [{"latin": "Romanorum", "rendered_as": "Romans", "note": "The emerging western superpower; their alliance was the most significant diplomatic achievement of the Maccabean period"}]
+    },
+    {
+      "verse": 2,
+      "text_latin": "et audierunt proelia eorum et virtutes bonas quas fecerunt in Galatia quia obtinuerunt eos et duxerunt sub tributum",
+      "rendering": "He had heard of their battles and the brave deeds they performed in Galatia, how they had conquered it and made it tributary.",
+      "translator_notes": [],
+      "key_terms": [{"latin": "Galatia", "rendered_as": "Galatia", "note": "Celtic region in central Asia Minor; Rome's wars against the Galatians were well-known in the eastern Mediterranean"}]
+    },
+    {
+      "verse": 3,
+      "text_latin": "et quanta fecerunt in regione Hispaniae et quod in potestatem redegerunt metalla argenti et auri quae illic sunt",
+      "rendering": "He heard also what they had done in the region of Spain, and how they had gained control of the silver and gold mines there,",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 4,
+      "text_latin": "et possederunt omnem locum consilio suo et patientia et quia longe aberat locus ab eis valde et reges qui supervenerant eis ab extremis terrae contriverunt et percusserunt eos plaga magna et ceteri dant eis tributum omnibus annis",
+      "rendering": "and how by their counsel and patience they had conquered the entire region, though it was very far from them. They had crushed the kings who came against them from the ends of the earth and struck them with a mighty blow, while the rest paid them tribute every year.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 5,
+      "text_latin": "et Philippum et Persen Ceteorum regem et ceteros qui adversum eos arma tulerant contriverunt in bello et obtinuerunt",
+      "rendering": "They had crushed in battle Philip, and Perseus king of the Macedonians, and the others who had taken up arms against them, and subdued them.",
+      "translator_notes": ["Philip V and Perseus were the last Macedonian kings, defeated by Rome at Cynoscephalae (197 BCE) and Pydna (168 BCE) respectively."],
+      "key_terms": [{"latin": "Philippum et Persen", "rendered_as": "Philip and Perseus", "note": "Philip V (defeated 197 BCE) and Perseus (defeated 168 BCE) — the last independent kings of Macedon, broken by Roman power"}]
+    },
+    {
+      "verse": 6,
+      "text_latin": "et Antiochum magnum regem Asiae qui eis pugnam intulerat habens centum viginti elephantos et equitatum et currus et exercitum magnum valde et contritus est ab eis",
+      "rendering": "They had also defeated Antiochus the Great, king of Asia, who had gone to war against them with a hundred and twenty elephants, cavalry, chariots, and a very large army — and he was crushed by them.",
+      "translator_notes": ["Antiochus III 'the Great' was defeated at Magnesia in 190 BCE — the battle that established Roman supremacy over the Seleucid empire and led to Antiochus IV being sent to Rome as a hostage."],
+      "key_terms": [{"latin": "Antiochum magnum", "rendered_as": "Antiochus the Great", "note": "Antiochus III, grandfather of Epiphanes; his defeat at Magnesia (190 BCE) made the Seleucid empire a Roman client state"}]
+    },
+    {
+      "verse": 7,
+      "text_latin": "et quia ceperunt eum vivum et statuerunt ei ut daret ipse et qui regnarent post ipsum tributum grande et daret obsides et constitutum",
+      "rendering": "They captured him alive and decreed that he and his successors should pay a heavy tribute, give hostages, and cede territory —",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 8,
+      "text_latin": "et regionem Indorum et Medorum et Lydorum de optimis regionibus eorum et acceptas eas ab eo dederunt Eumeni regi",
+      "rendering": "including the regions of India, Media, and Lydia, some of their finest provinces. These they took from him and gave to King Eumenes.",
+      "translator_notes": [],
+      "key_terms": [{"latin": "Eumeni regi", "rendered_as": "King Eumenes", "note": "Eumenes II of Pergamum, a Roman ally who received Seleucid territories after the Peace of Apamea (188 BCE)"}]
+    },
+    {
+      "verse": 9,
+      "text_latin": "et quia qui erant apud Elladam voluerunt ire et tollere eos et innotuit sermo his",
+      "rendering": "When those in Greece planned to march against and destroy them, the matter became known to the Romans.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 10,
+      "text_latin": "et miserunt ad eos ducem unum et pugnaverunt contra illos et ceciderunt ex eis multi et captivas duxerunt uxores eorum et filios eorum et diripuerunt eos et terram eorum possederunt et destruxerunt muros eorum et in servitutem illos redegerunt usque in diem hunc",
+      "rendering": "They sent a single general against them and made war. Many of them fell, and their wives and children were taken captive. They plundered and conquered their land, pulled down their walls, and reduced them to servitude to this day.",
+      "translator_notes": ["This refers to Rome's conquest of Greece, completed with the destruction of Corinth in 146 BCE."],
+      "key_terms": []
+    },
+    {
+      "verse": 11,
+      "text_latin": "et residua regna et insulas quae aliquando restiterant illis exterminaverunt et in potestatem redegerunt",
+      "rendering": "The remaining kingdoms and islands that had ever resisted them — they destroyed and brought under their power.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 12,
+      "text_latin": "cum amicis autem suis et qui in ipsis requiem habebant conservaverunt amicitiam et obtinuerunt regna quae proxima et quae longe quia quicumque audiebant nomen eorum timebant eos",
+      "rendering": "But with their friends and those who relied on them, they kept faith. They had conquered kingdoms both near and far, and all who heard their name feared them.",
+      "translator_notes": ["The contrast between Rome's treatment of enemies versus friends is precisely what makes the alliance attractive to Judas."],
+      "key_terms": []
+    },
+    {
+      "verse": 13,
+      "text_latin": "quibus vero vellent auxiliari ut regnarent regnabant quos autem vellent deponebant et elevati sunt valde",
+      "rendering": "Those whom they wish to help to royal power, they raise up; those whom they wish to remove, they depose. They have been greatly exalted.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 14,
+      "text_latin": "et in omnibus istis nemo portabat diadema nec induebatur purpura ut magnificaretur in ea",
+      "rendering": "Yet among all of them, no one wears a diadem or puts on purple to glorify himself in it.",
+      "translator_notes": ["The absence of royal symbols — no diadem, no purple — is what most impresses the author. Rome's republican system, where leaders are elected, stands in stark contrast to the Hellenistic monarchy under which the Jews suffer."],
+      "key_terms": [{"latin": "nemo portabat diadema", "rendered_as": "no one wears a diadem", "note": "The author admires Roman republicanism — no king, no royal insignia — as an alternative to oppressive Hellenistic monarchy"}]
+    },
+    {
+      "verse": 15,
+      "text_latin": "et quia curiam fecerunt sibi et cotidie consulebant trecentos viginti consilium agentes semper de multitudine ut quae digna sunt gerant",
+      "rendering": "They have established a senate house, and every day three hundred and twenty senators deliberate, always consulting about the people's welfare to conduct affairs with dignity.",
+      "translator_notes": ["The Roman Senate actually had about 300 members at this time. The number 320 is close enough to suggest some genuine knowledge, if not perfect accuracy."],
+      "key_terms": [{"latin": "curiam", "rendered_as": "senate house", "note": "The Curia — the Senate's meeting place; the description of daily deliberation idealizes Roman governance"},
+        {"latin": "trecentos viginti", "rendered_as": "three hundred and twenty", "note": "Approximately correct — the Senate had about 300 members; the slight inaccuracy reveals second-hand knowledge"}]
+    },
+    {
+      "verse": 16,
+      "text_latin": "et committunt uni homini magistratum suum per singulos annos dominari universae terrae suae et omnes oboediunt uni et non est invidia neque zelus inter eos",
+      "rendering": "They entrust their government to one man each year to rule over their entire land, and all obey that one man. There is no envy or jealousy among them.",
+      "translator_notes": ["The 'one man each year' conflates or simplifies the two annual consuls. The absence of 'envy or jealousy' is highly idealized — Roman politics was famously contentious. But the principle of limited, rotational leadership is accurately identified."],
+      "key_terms": [{"latin": "uni homini magistratum suum per singulos annos", "rendered_as": "one man each year", "note": "A simplified description of the consular system — Rome actually had two consuls annually; the author captures the principle of term-limited power"}]
+    },
+    {
+      "verse": 17,
+      "text_latin": "et elegit Iudas Eupolemum filium Iohannis filii Iacob et Iasonem filium Eleazari et misit eos Romam constituere cum illis amicitiam et societatem",
+      "rendering": "Judas chose Eupolemus son of John, son of Accos, and Jason son of Eleazar, and sent them to Rome to establish friendship and alliance with them.",
+      "translator_notes": ["Eupolemus may be the same Eupolemus the historian who wrote about biblical history in Greek — a man of both Jewish learning and Hellenistic education, ideal for diplomacy."],
+      "key_terms": [{"latin": "Eupolemum", "rendered_as": "Eupolemus", "note": "Possibly the Jewish-Hellenistic historian; his bilingual competence made him suitable for the embassy"},
+        {"latin": "amicitiam et societatem", "rendered_as": "friendship and alliance", "note": "The formal diplomatic categories: amicitia (friendship) and societas (alliance) were Roman treaty terms with specific legal weight"}]
+    },
+    {
+      "verse": 18,
+      "text_latin": "et ut auferrent ab eis iugum quia viderunt quod in servitutem premerent regnum Israhel",
+      "rendering": "They sought to remove the yoke from them, for they saw that the Seleucid kingdom was pressing Israel into slavery.",
+      "translator_notes": [],
+      "key_terms": [{"latin": "iugum", "rendered_as": "yoke", "note": "A biblical image for foreign oppression (cf. 1 Kings 12:4); the Seleucid rule is framed as bondage from which Rome can liberate"}]
+    },
+    {
+      "verse": 19,
+      "text_latin": "et abierunt Romam viam multam valde et introierunt curiam et responderunt et dixerunt",
+      "rendering": "They journeyed to Rome — a very long road — and entered the senate house. They spoke and said:",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 20,
+      "text_latin": "Iudas Macchabaeus et fratres eius et populus Iudaeorum miserunt nos ad vos statuere vobiscum societatem et pacem et conscribere nos socios et amicos vestros",
+      "rendering": "'Judas Maccabeus and his brothers and the people of the Jews have sent us to you, to establish alliance and peace with you, and to be enrolled among your allies and friends.'",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 21,
+      "text_latin": "et placuit sermo in conspectu eorum",
+      "rendering": "The proposal pleased them.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 22,
+      "text_latin": "et hoc rescriptum quod rescripserunt in tabulis aereis et miserunt in Hierusalem ut esset apud eos ibi memoriale pacis et societatis",
+      "rendering": "And this is a copy of the letter they inscribed on bronze tablets and sent to Jerusalem, to remain there as a memorial of the peace and alliance:",
+      "translator_notes": ["Bronze tablets were the standard Roman medium for official documents and treaties — giving the alliance legal permanence."],
+      "key_terms": [{"latin": "tabulis aereis", "rendered_as": "bronze tablets", "note": "The official Roman medium for treaties and decrees — permanent, prestigious, and legally binding"}]
+    },
+    {
+      "verse": 23,
+      "text_latin": "bene sit Romanis et genti Iudaeorum in mari et in terra in aeternum gladiusque et hostis procul sit ab eis",
+      "rendering": "'May it go well for the Romans and the nation of the Jews, by sea and by land, forever. May sword and enemy be far from them.'",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 24,
+      "text_latin": "quod si institerit bellum Romanis prius aut omnibus sociis eorum in omni dominatione eorum",
+      "rendering": "'If war comes first upon Rome or upon any of their allies in any of their dominions,",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 25,
+      "text_latin": "auxilium feret gens Iudaeorum prout tempus dictaverit corde pleno",
+      "rendering": "the nation of the Jews shall act as their allies wholeheartedly, as the occasion may demand.'",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 26,
+      "text_latin": "et bellantibus non dabunt neque subministrabunt triticum arma argentum naves sicut placuit Romanis et custodient mandata eorum nihil ab eis accipientes",
+      "rendering": "'To the enemy they shall not give or supply grain, arms, silver, or ships, as Rome has agreed. They shall keep their obligations without receiving anything in return.'",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 27,
+      "text_latin": "similiter autem et si genti Iudaeorum prius accidet bellum adiuvabunt Romani ex animo prout tempus eis permiserit",
+      "rendering": "'In the same way, if war comes first upon the nation of the Jews, the Romans shall come to their aid wholeheartedly, as the occasion permits.'",
+      "translator_notes": ["The reciprocal structure — each party pledging to help if the other is attacked first — is a standard mutual defense treaty format."],
+      "key_terms": []
+    },
+    {
+      "verse": 28,
+      "text_latin": "et adiuvantibus non dabitur triticum arma argentum naves sicut placuit Romanis et custodient mandata haec et non in dolo",
+      "rendering": "'To the allies they shall not give grain, arms, silver, or ships, as Rome has agreed. They shall observe these commitments without deceit.'",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 29,
+      "text_latin": "secundum haec verba constituerunt Romani populo Iudaeorum",
+      "rendering": "On these terms the Romans have made a treaty with the people of the Jews.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 30,
+      "text_latin": "quod si post haec verba hi aut illi addere aut demere ad haec aliquid voluerint facient ex proposito suo et quodcumque addiderint vel dempserint rata erunt",
+      "rendering": "'If after these terms either party wishes to add or remove anything, they may do so at their discretion, and whatever they add or remove shall be binding.'",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 31,
+      "text_latin": "et de malis quae rex Demetrius facit in eos scripsimus ei dicentes quare gravasti iugum tuum super amicos nostros socios Iudaeos",
+      "rendering": "'And concerning the wrongs that King Demetrius is doing to them, we have written to him saying: Why have you made your yoke heavy upon our friends and allies the Jews?'",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 32,
+      "text_latin": "si ergo iterum adierint nos adversum te faciemus illis iudicium et pugnabimus tecum mari et terra",
+      "rendering": "'If therefore they appeal to us against you again, we will defend their rights and fight you by sea and by land.'",
+      "translator_notes": ["The Roman letter to Demetrius is a formal warning — a diplomatic shield that the Maccabees hoped would deter Seleucid aggression without requiring actual Roman military intervention."],
+      "key_terms": []
+    }
+  ]
+}

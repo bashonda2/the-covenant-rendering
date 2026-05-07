@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Philemon",
+    "tradition": "vulgate",
+    "tradition_label": "Latin Vulgate",
+    "source_text": "Biblia Sacra Vulgata (Stuttgart critical edition)",
+    "base_text": "SBL Greek New Testament (SBLGNT)",
+    "translator": "Jerome (Eusebius Sophronius Hieronymus)",
+    "date": "382-405 CE",
+    "generated_at": "2026-04-20T00:00:00Z",
+    "prompt_version": "2.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Philemon in the Vulgate is the shortest Pauline letter but shaped Western theology of slavery, freedom, brotherhood, and reconciliation. Jerome's rendering of Paul's appeal on behalf of the runaway slave Onesimus established the vocabulary of Christian brotherhood that would be cited in every Western debate about slavery from antiquity to abolition.",
+    "notable_renderings": "Philemon 10 quem genui in vinculis Onesimum (whom I have begotten in chains, Onesimus); 16 non iam ut servum sed... fratrem carissimum (no longer as a slave but as a beloved brother); 18 si autem aliquid nocuit tibi aut debet hoc mihi inputa (if he has wronged you, charge that to my account).",
+    "theological_legacy": "The Vulgate Philemon shaped the Western Christian response to slavery — both its toleration (Paul does not directly command manumission) and its subversion (calling a slave 'beloved brother'). The letter's reconciliation theology influenced Western concepts of intercession, imputation, and the transformation of social relationships through Christ."
+  },
+  "renderings": [
+    {
+      "reference": "Philemon 15-16",
+      "source_text": "τάχα γὰρ διὰ τοῦτο ἐχωρίσθη πρὸς ὥραν, ἵνα αἰώνιον αὐτὸν ἀπέχῃς, οὐκέτι ὡς δοῦλον ἀλλ᾽ ὑπὲρ δοῦλον, ἀδελφὸν ἀγαπητόν",
+      "vulgate_text": "forsitan enim ideo discessit ad horam ut aeternum illum reciperes iam non ut servum sed pro servo fratrem carissimum",
+      "vulgate_rendering": "For perhaps he departed for a time so that you might receive him forever — no longer as a slave, but more than a slave, a most beloved brother",
+      "tcr_rendering": "For perhaps this is why he was separated from you for a time — so that you might have him back forever, no longer as a slave but more than a slave — a beloved brother",
+      "theological_legacy": "Non ut servum sed fratrem carissimum (no longer as a slave but as a most beloved brother) — this verse became the central text in every Western Christian debate about slavery. Both abolitionists and defenders of slavery cited it: abolitionists argued it subverts slavery by elevating the slave to brotherhood; defenders argued Paul sends the slave back rather than freeing him.",
+      "notes": ["The Western reception of this verse is a case study in the politics of biblical interpretation. The verse does not command manumission — Paul sends Onesimus back. But it transforms the relationship: Onesimus is now frater carissimus (most beloved brother). Pro-slavery interpreters (from Augustine through the antebellum American South) emphasized Paul's apparent acceptance of the institution. Abolitionists (Quakers, Wilberforce, Garrison) emphasized that calling a slave 'beloved brother' makes slavery morally impossible. The verse's ambiguity — accepting the institution while subverting its logic — mirrors the Western church's long, conflicted history with slavery."]
+    },
+    {
+      "reference": "Philemon 18-19",
+      "source_text": "εἰ δέ τι ἠδίκησέν σε ἢ ὀφείλει, τοῦτο ἐμοὶ ἐλλόγα. ἐγὼ Παῦλος ἔγραψα τῇ ἐμῇ χειρί, ἐγὼ ἀποτίσω",
+      "vulgate_text": "si autem aliquid nocuit tibi aut debet hoc mihi inputa ego Paulus scripsi mea manu ego reddam",
+      "vulgate_rendering": "If he has wronged you or owes anything, charge that to my account. I, Paul, write with my own hand: I will repay",
+      "tcr_rendering": "And if he has wronged you or owes you anything, charge that to my account. I, Paul, write this with my own hand: I will repay it",
+      "theological_legacy": "Hoc mihi inputa — ego reddam (charge it to me — I will repay) — this was read as a typological illustration of Christ's atonement: Christ takes the sinner's debt upon himself and says to the Father, 'charge it to my account.' The Latin inputare (to impute, charge to one's account) is the same term used in the Western theology of imputed righteousness.",
+      "notes": ["The Latin inputare (to impute, reckon to someone's account) is cognate with the reputare used in Romans 4:3 (Abraham's faith 'imputed' as righteousness). Western interpreters from Chrysostom through Luther read Paul's offer as a living illustration of justification by imputation: just as Paul takes Onesimus's debt, Christ takes the sinner's debt. The commercial language (debet, inputa, reddam — owes, charge, I will repay) reinforced the Western commercial/legal model of atonement."]
+    },
+    {
+      "reference": "Philemon 10",
+      "source_text": "παρακαλῶ σε περὶ τοῦ ἐμοῦ τέκνου, ὃν ἐγέννησα ἐν τοῖς δεσμοῖς, Ὀνήσιμον",
+      "vulgate_text": "obsecro te pro meo filio quem genui in vinculis Onesimum",
+      "vulgate_rendering": "I beseech you for my son, whom I have begotten in chains, Onesimus",
+      "tcr_rendering": "I appeal to you for my child, whom I fathered while in chains — Onesimus",
+      "theological_legacy": "Quem genui in vinculis (whom I have begotten in chains) — the language of spiritual fatherhood (genui — I begot/fathered) shaped the Western theology of spiritual parentage. The minister who leads someone to faith becomes their spiritual father. This concept grounded the Western practice of calling priests 'Father' and the theology of spiritual generation through evangelism.",
+      "notes": ["The image of Paul as spiritual father to Onesimus — begetting him through the gospel while in prison — shaped the Western theology of pastoral care as spiritual parentage. The imprisoned apostle generating new spiritual life became a powerful symbol of the gospel's power transcending physical constraints. The name Onesimus (meaning 'useful/profitable') created a wordplay that Paul exploits in verse 11 ('once useless, now useful'), which the Vulgate preserves with inutilis/utilis."]
+    },
+    {
+      "reference": "Philemon 6",
+      "source_text": "ὅπως ἡ κοινωνία τῆς πίστεώς σου ἐνεργὴς γένηται ἐν ἐπιγνώσει παντὸς ἀγαθοῦ τοῦ ἐν ἡμῖν εἰς Χριστόν",
+      "vulgate_text": "ut communicatio fidei tuae evidens fiat in agnitione omnis operis boni quod est in vobis in Christo Iesu",
+      "vulgate_rendering": "That the sharing of your faith may become evident in the knowledge of every good work which is in you in Christ Jesus",
+      "tcr_rendering": "That the fellowship of your faith may become effective through the knowledge of every good thing that is in us for the Anointed One",
+      "theological_legacy": "Communicatio fidei (the sharing/communion of faith) — this phrase shaped the Western theology of faith as inherently communal and communicative. Faith is not merely private belief but something shared, communicated, and made effective through community. The Latin communicatio carries both 'communion' and 'communication,' shaping the Western understanding of evangelism as sharing faith.",
+      "notes": ["The Greek koinōnia tēs pisteōs (fellowship/sharing of faith) becomes communicatio fidei. The Latin term encompasses sharing, participating, and communicating — faith is something both held in common (communion) and actively transmitted (communication). This double sense influenced the Western theology of evangelism and mission: to have faith is to share it."]
+    }
+  ]
+}

@@ -1,0 +1,207 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Wisdom of Solomon",
+    "chapter": 6,
+    "tradition": "vulgate",
+    "tradition_label": "Latin Vulgate (Deuterocanonical)",
+    "source_text": "Biblia Sacra Vulgata (Stuttgart critical edition)",
+    "translator": "Jerome",
+    "date": "c. 405 CE",
+    "canon": ["catholic", "orthodox", "ethiopian"],
+    "generated_at": "2026-04-20T00:00:00Z",
+    "prompt_version": "2.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Solomon addresses kings and rulers, warning them that their authority comes from God and that they will be judged more strictly than common people. He urges them to seek wisdom, which is radiant, unfading, and readily found by those who look for her. Wisdom goes about seeking those worthy of her. The famous 'sorites' (chain argument) closes the chapter: desire for wisdom leads to keeping her laws, which leads to incorruption, which brings one near to God, which is a kingdom.",
+    "remarkable": "The sorites or chain syllogism in vv. 17-20 is one of the most sophisticated logical arguments in biblical literature, rivaling anything in Greek philosophical writing. The claim that Wisdom actively seeks those worthy of her (v. 16) inverts the expected direction: the student does not merely search for Wisdom; she searches for them.",
+    "friction": "The strict accountability of rulers (vv. 5-8) sits alongside the universal invitation to seek Wisdom (vv. 12-16). The tension between special judgment for the powerful and equal access to Wisdom is not fully resolved but reflects the author's dual audience: Hellenistic Jewish rulers and the wider community.",
+    "connections": "Proverbs 8:1-11 (Wisdom's public appeal); 1 Kings 3:5-14 (Solomon asks for wisdom); Romans 13:1-7 (rulers as God's servants); James 3:17 (wisdom from above)."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_latin": "Melior est sapientia quam vires, et vir prudens quam fortis.",
+      "rendering": "Wisdom is better than strength, and a prudent person is better than a mighty one.",
+      "translator_notes": ["The chapter opens with a contrast between two types of power. In a world that honored physical and military might, the author insists on the superiority of intellectual and moral excellence."],
+      "key_terms": [{"latin": "sapientia", "rendered_as": "wisdom", "note": "Sapientia here is practical political wisdom as well as cosmic principle; the author addresses rulers who need both."}, {"latin": "prudens", "rendered_as": "prudent", "note": "Prudentia is practical wisdom, the ability to discern the right course of action in particular circumstances."}]
+    },
+    {
+      "verse": 2,
+      "text_latin": "Audite ergo reges et intellegite; discite iudices finium terrae.",
+      "rendering": "Hear, therefore, O kings, and understand; learn, O judges of the ends of the earth.",
+      "translator_notes": ["The address to 'judges of the ends of the earth' echoes the opening verse of the book (1:1), creating a literary inclusio that frames the first major section."],
+      "key_terms": [{"latin": "reges", "rendered_as": "kings", "note": "The royal address maintains the Solomonic fiction while speaking to any person in authority."}, {"latin": "iudices finium terrae", "rendered_as": "judges of the ends of the earth", "note": "The scope is universal; all who exercise power anywhere are addressed."}]
+    },
+    {
+      "verse": 3,
+      "text_latin": "Praebete aures vos qui continetis multitudines et placetis vobis in turbis nationum.",
+      "rendering": "Give ear, you who rule over multitudes, and take pride in the throngs of your nations.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 4,
+      "text_latin": "Quoniam data est a Domino potestas vobis et virtus ab Altissimo, qui interrogabit opera vestra et cogitationes scrutabitur.",
+      "rendering": "For your authority was given to you by the Lord, and your sovereignty by the Most High, who will examine your works and search out your plans.",
+      "translator_notes": ["The theological claim is direct: all political authority derives from God and is accountable to God. This verse stands behind Romans 13:1 and centuries of political theology."],
+      "key_terms": [{"latin": "potestas", "rendered_as": "authority", "note": "Potestas is delegated power, power-with-permission; it is always derivative, never ultimate."}, {"latin": "Altissimo", "rendered_as": "the Most High", "note": "The title emphasizes God's position above all earthly rulers; they are subordinate authorities."}]
+    },
+    {
+      "verse": 5,
+      "text_latin": "Quoniam cum essetis ministri regni illius non recte iudicastis nec custodistis legem iustitiae neque secundum voluntatem Dei ambulastis.",
+      "rendering": "Because as servants of his kingdom you did not judge rightly, nor keep the law of justice, nor walk according to the will of God.",
+      "translator_notes": ["Rulers are identified as 'servants' (ministri) of God's kingdom, not independent sovereigns. Their failure to judge rightly is a betrayal of their commission."],
+      "key_terms": [{"latin": "ministri regni illius", "rendered_as": "servants of his kingdom", "note": "The political title is radically relativized: even kings are merely ministers in God's administration."}]
+    },
+    {
+      "verse": 6,
+      "text_latin": "Horrende et cito apparebit vobis, quoniam iudicium durissimum his qui praesunt fiet.",
+      "rendering": "Terribly and swiftly he will come upon you, for severe judgment falls on those in high places.",
+      "translator_notes": ["The principle of proportional accountability: greater authority means stricter judgment. Cf. Luke 12:48, 'From everyone to whom much has been given, much will be required.'"],
+      "key_terms": [{"latin": "iudicium durissimum", "rendered_as": "severe judgment", "note": "The superlative durissimum (harshest, most severe) emphasizes that rulers face the strictest divine scrutiny."}]
+    },
+    {
+      "verse": 7,
+      "text_latin": "Exiguo enim conceditur misericordia; potentes autem potenter tormenta patientur.",
+      "rendering": "For the lowly may be pardoned in mercy, but the mighty will be tested mightily.",
+      "translator_notes": ["The wordplay on potentes/potenter (the powerful/powerfully) underscores the proportional principle: power amplifies both privilege and accountability."],
+      "key_terms": [{"latin": "potentes potenter", "rendered_as": "the mighty will be tested mightily", "note": "The adverb mirrors the adjective; the measure of testing matches the measure of authority."}]
+    },
+    {
+      "verse": 8,
+      "text_latin": "Non enim subtrahet personam cuiusquam Dominus nec reverebitur magnitudinem cuiusquam, quoniam pusillum et magnum ipse fecit et aequaliter cura est illi de omnibus.",
+      "rendering": "For the Lord of all will show no partiality, nor stand in awe of anyone's greatness, because he himself made both small and great, and he cares for all alike.",
+      "translator_notes": ["Divine impartiality is the foundation of just judgment. The claim that God 'cares for all alike' (aequaliter cura est illi de omnibus) is one of the book's strongest universalist statements."],
+      "key_terms": [{"latin": "non subtrahet personam", "rendered_as": "will show no partiality", "note": "Literally 'will not lift anyone's face'; a Semitic idiom for impartial judgment (cf. Deuteronomy 10:17)."}, {"latin": "aequaliter cura", "rendered_as": "cares for all alike", "note": "God's providential care is universal and impartial; this challenges any theology of divine favoritism."}]
+    },
+    {
+      "verse": 9,
+      "text_latin": "Fortioribus autem fortior instat cruciatio.",
+      "rendering": "But a more relentless inquisition awaits the mighty.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 10,
+      "text_latin": "Ad vos ergo reges sunt hi sermones mei ut discatis sapientiam et non excidatis.",
+      "rendering": "To you, then, O rulers, my words are directed, that you may learn wisdom and not stumble.",
+      "translator_notes": ["The warning modulates into invitation. The purpose of the severity is pedagogical, not punitive; the author wants rulers to succeed, not merely to threaten them."],
+      "key_terms": []
+    },
+    {
+      "verse": 11,
+      "text_latin": "Qui enim custodierint iusta iuste iusti invenientur et qui didicerint illa invenient quid respondeant.",
+      "rendering": "For those who keep holy things in holiness will be found holy, and those who have been taught them will find a defense.",
+      "translator_notes": [],
+      "key_terms": []
+    },
+    {
+      "verse": 12,
+      "text_latin": "Concupiscite ergo sermones meos, diligite illos et habebitis disciplinam.",
+      "rendering": "Desire, therefore, my words; long for them, and you will be instructed.",
+      "translator_notes": ["The verb concupiscite (desire intensely) applied to wisdom inverts the negative use of the same verb for disordered desire elsewhere; the right use of passion is desire for wisdom."],
+      "key_terms": [{"latin": "concupiscite", "rendered_as": "desire", "note": "The intense desire (concupiscentia) that ruins when misdirected (4:12) now becomes a virtue when directed at wisdom."}]
+    },
+    {
+      "verse": 13,
+      "text_latin": "Clara est et quae numquam marcescit sapientia et facile videtur ab his qui diligunt eam et invenitur ab his qui quaerunt illam.",
+      "rendering": "Wisdom is radiant and unfading, and she is easily seen by those who love her, and found by those who seek her.",
+      "translator_notes": ["The personification of Wisdom intensifies. She is clara (bright, luminous) and unfading -- permanent in a way that the wicked's pleasures (chapter 2) were not."],
+      "key_terms": [{"latin": "clara", "rendered_as": "radiant", "note": "Wisdom's brightness is her accessibility; she is not hidden but self-revealing to those with the right disposition."}, {"latin": "numquam marcescit", "rendered_as": "unfading", "note": "Unlike the roses and flowers of the wicked's feast (2:8), wisdom never withers."}]
+    },
+    {
+      "verse": 14,
+      "text_latin": "Praeoccupat qui se concupiscunt ut illis se prior ostendat.",
+      "rendering": "She hastens to make herself known to those who desire her.",
+      "translator_notes": ["The astonishing claim: Wisdom does not wait to be found but actively seeks out those who desire her. She arrives before they do. The initiative is hers."],
+      "key_terms": [{"latin": "praeoccupat", "rendered_as": "hastens to make herself known", "note": "Literally 'anticipates' or 'gets there first'; Wisdom's eagerness exceeds the seeker's."}]
+    },
+    {
+      "verse": 15,
+      "text_latin": "Qui de luce vigilaverit ad illam non laborabit; adsidentem enim illam foribus suis inveniet.",
+      "rendering": "Whoever rises early to seek her will have no difficulty, for she will be found sitting at the gates.",
+      "translator_notes": ["The image of Wisdom sitting at the gates echoes Proverbs 8:34, 'Blessed is the one who listens to me, watching daily at my gates, waiting beside my doors.'"],
+      "key_terms": [{"latin": "foribus suis", "rendered_as": "at the gates", "note": "The gates are the place of public business and legal proceedings; Wisdom is available in the marketplace, not locked in a library."}]
+    },
+    {
+      "verse": 16,
+      "text_latin": "Cogitare enim de illa sensus est consummatus, et qui vigilaverit propter illam cito securus erit.",
+      "rendering": "For to think upon her is the perfection of understanding, and whoever keeps watch for her will soon be free from care.",
+      "translator_notes": [],
+      "key_terms": [{"latin": "sensus consummatus", "rendered_as": "the perfection of understanding", "note": "Even the act of thinking about wisdom constitutes mature understanding; the process and the goal converge."}]
+    },
+    {
+      "verse": 17,
+      "text_latin": "Quoniam dignos se ipsa circuit quaerens et in viis ostendit se illis hilariter et in omni providentia occurrit illis.",
+      "rendering": "Because she goes about seeking those who are worthy of her, and she graciously appears to them in their paths, and meets them in every thought.",
+      "translator_notes": ["Wisdom as active seeker is one of the most distinctive ideas in this book. She does not merely respond to seekers but initiates contact, appearing in their daily routines."],
+      "key_terms": [{"latin": "circuit quaerens", "rendered_as": "goes about seeking", "note": "Wisdom patrols the world looking for receptive souls; cf. 2 Chronicles 16:9, 'the eyes of the Lord range throughout the entire earth.'"}]
+    },
+    {
+      "verse": 18,
+      "text_latin": "Initium enim illius verissima est disciplinae concupiscentia.",
+      "rendering": "For the truest beginning of wisdom is the desire for instruction.",
+      "translator_notes": ["This verse begins the famous sorites (chain argument) that runs through verse 20. Each step follows logically from the previous one, creating an unbroken chain from desire to kingdom."],
+      "key_terms": [{"latin": "disciplinae concupiscentia", "rendered_as": "the desire for instruction", "note": "The sorites begins with desire -- the same term used negatively in 4:12 is here the foundation of the wise life."}]
+    },
+    {
+      "verse": 19,
+      "text_latin": "Cura ergo disciplinae dilectio est, et dilectio custodia legum illius est, custodia autem legum consummatio incorruptelae est.",
+      "rendering": "And care for instruction is love of her, and love of her is the keeping of her laws, and keeping her laws is the assurance of incorruption.",
+      "translator_notes": ["The chain: care leads to love, love leads to obedience, obedience leads to incorruption. Each link is both consequence and cause; the logic is cumulative."],
+      "key_terms": [{"latin": "incorruptelae", "rendered_as": "incorruption", "note": "Incorruptela is the state of being beyond decay and death; the sorites reaches its penultimate goal."}]
+    },
+    {
+      "verse": 20,
+      "text_latin": "Incorruptela autem facit esse proximum Deo.",
+      "rendering": "And incorruption brings one near to God.",
+      "translator_notes": ["The chain reaches its climax: nearness to God. The entire progression -- from desire through instruction, love, obedience, and incorruption -- arrives at divine intimacy."],
+      "key_terms": [{"latin": "proximum Deo", "rendered_as": "near to God", "note": "Proximity to God is the ultimate good in the book's value system; all other goods are stations on the way to this one."}]
+    },
+    {
+      "verse": 21,
+      "text_latin": "Concupiscentia itaque sapientiae deducet ad regnum perpetuum.",
+      "rendering": "Therefore the desire for wisdom leads to an everlasting kingdom.",
+      "translator_notes": ["The sorites concludes with kingship: the very rulers addressed at the beginning of the chapter are told that true sovereignty comes not from armies or wealth but from the pursuit of wisdom. The argument has come full circle."],
+      "key_terms": [{"latin": "regnum perpetuum", "rendered_as": "an everlasting kingdom", "note": "The promise to rulers: the only kingdom that endures is the one built on wisdom. All others are temporary."}]
+    },
+    {
+      "verse": 22,
+      "text_latin": "Si ergo delectamini sedibus et sceptris, o reges populi, diligite sapientiam ut in perpetuum regnetis.",
+      "rendering": "If, therefore, you delight in thrones and scepters, O rulers of the peoples, honor wisdom, that you may reign forever.",
+      "translator_notes": ["The practical application of the sorites: if rulers want to keep their power, they must seek wisdom. Self-interest and wisdom coincide."],
+      "key_terms": [{"latin": "sedibus et sceptris", "rendered_as": "thrones and scepters", "note": "The symbols of royal authority; the author appeals to the rulers' own ambitions."}]
+    },
+    {
+      "verse": 23,
+      "text_latin": "Diligite lumen sapientiae omnes qui praeestis populis.",
+      "rendering": "Love the light of wisdom, all you who lead peoples.",
+      "translator_notes": [],
+      "key_terms": [{"latin": "lumen sapientiae", "rendered_as": "the light of wisdom", "note": "Wisdom is figured as illumination; leadership without it is governance in the dark."}]
+    },
+    {
+      "verse": 24,
+      "text_latin": "Quid est autem sapientia et quemadmodum facta sit referam, et non abscondam a vobis sacramenta Dei, sed ab initio nativitatis investigabo et ponam in lucem scientiam illius et non praeteribo veritatem.",
+      "rendering": "What wisdom is, and how she came to be, I will declare; I will not hide the mysteries of God from you, but will trace her from the beginning of her origin, and bring knowledge of her into the light, and I will not pass by the truth.",
+      "translator_notes": ["The verse signals a transition: having warned and invited, the author now promises to reveal Wisdom's nature and origin. This promise is fulfilled in chapters 7-9."],
+      "key_terms": [{"latin": "sacramenta Dei", "rendered_as": "the mysteries of God", "note": "Sacramentum again translates mysterion; the secrets of wisdom are about to be disclosed."}]
+    },
+    {
+      "verse": 25,
+      "text_latin": "Neque cum invidia tabescenti iter habebo, quoniam talis homo non erit particeps sapientiae.",
+      "rendering": "Nor will I travel with consuming envy, for such a person will have no share in wisdom.",
+      "translator_notes": ["Envy (invidia) is incompatible with wisdom; the same word was used of the devil's envy in 2:24. The author distances himself from the disposition that brought death into the world."],
+      "key_terms": [{"latin": "invidia tabescenti", "rendered_as": "consuming envy", "note": "Invidia that 'wastes away' (tabescens) -- envy is self-consuming, destroying the envious before it reaches the envied."}]
+    },
+    {
+      "verse": 26,
+      "text_latin": "Multitudo autem sapientium sanitas est orbis terrarum et rex sapiens stabilimentum populi est.",
+      "rendering": "A multitude of the wise is the health of the world, and a prudent king is the stability of his people.",
+      "translator_notes": ["The chapter closes with a political maxim: wisdom is not merely a personal virtue but a public good. The health of nations depends on the wisdom of their leaders and citizens alike."],
+      "key_terms": [{"latin": "sanitas orbis terrarum", "rendered_as": "the health of the world", "note": "Wisdom as public health; its absence is a social disease."}, {"latin": "stabilimentum populi", "rendered_as": "the stability of his people", "note": "Political stability is the fruit of royal wisdom, not of military power or economic wealth."}]
+    }
+  ]
+}
