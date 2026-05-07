@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "2 Samuel",
+    "tradition": "dss-2-samuel",
+    "tradition_label": "Dead Sea Scrolls (4QSamᵃ)",
+    "base_text": "Westminster Leningrad Codex (WLC)",
+    "date": "c. 250 BCE",
+    "manuscript_location": "Israel Antiquities Authority, Jerusalem",
+    "generated_at": "2026-05-04T00:00:00Z",
+    "prompt_version": "1.0",
+    "license": "CC-BY-4.0",
+    "chapter": 8,
+    "source_text": "4QSamᵃ (4Q51)"
+  },
+  "preamble": {
+    "summary": "2 Samuel 8 summarizes David's military victories, including the gold shields taken from Hadadezer (v. 7). 4QSamᵃ preserves a SIGNIFICANT addition at v. 7, agreeing with LXX, that the MT lacks: a notice that these gold shields were later taken away by Pharaoh Shishak when he attacked Jerusalem in the days of Rehoboam (cf. 1 Kgs 14:25-26). The addition is a cross-reference inserted into the Samuel narrative, almost certainly original and lost from MT.",
+    "notable_variants": "MAJOR ADDITION at v. 7. 4QSamᵃ and LXX add a notice: 'and Shishak king of Egypt took them away when he came up to Jerusalem in the days of Rehoboam son of Solomon.' The addition cross-references 1 Kgs 14:25-26 and is most plausibly explained as original, lost from MT through homoioteleuton or scribal abbreviation.",
+    "scroll_condition": "Fragmentary; the v. 7 addition is well preserved.",
+    "manuscripts": "4QSamᵃ (4Q51)"
+  },
+  "verses": [
+    {
+      "verse": 7,
+      "has_variant": true,
+      "significance": "major",
+      "mt_reading": "וַיִּקַּח דָּוִד אֵת שִׁלְטֵי הַזָּהָב אֲשֶׁר הָיוּ אֶל עַבְדֵי הֲדַדְעָזֶר וַיְבִיאֵם יְרוּשָׁלִָם",
+      "dss_reading": "[+ ויקחם שישק מלך מצרים בעלותו ירושלם בימי רחבעם בן שלמה]",
+      "mt_rendering": "And David took the gold shields that the servants of Hadadezer had carried, and brought them to Jerusalem",
+      "variant_rendering": "[adds:] and Shishak king of Egypt took them away when he came up to Jerusalem in the days of Rehoboam son of Solomon",
+      "manuscript_reference": "4QSamᵃ frag.",
+      "variant_notes": [
+        "MAJOR DSS+LXX addition not preserved in MT. The addition cross-references 1 Kgs 14:25-26 — Shishak's invasion of Jerusalem in Rehoboam's fifth year, when he plundered the temple treasures. Most likely original to Samuel, lost from MT through scribal abbreviation. The addition demonstrates the longer Hebrew text-form of Samuel circulating in the late Second Temple period."
+      ]
+    }
+  ]
+}

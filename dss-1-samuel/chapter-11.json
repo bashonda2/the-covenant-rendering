@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "1 Samuel",
+    "chapter": 11,
+    "tradition": "dss-1-samuel",
+    "tradition_label": "Dead Sea Scrolls (4QSamᵃ)",
+    "source_text": "4QSamᵃ (4Q51), late 3rd c. BCE",
+    "base_text": "Westminster Leningrad Codex (WLC)",
+    "date": "c. 250 BCE",
+    "manuscript_location": "Israel Antiquities Authority, Jerusalem",
+    "generated_at": "2026-05-04T00:00:00Z",
+    "prompt_version": "1.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "1 Samuel 11 narrates Saul's deliverance of Jabesh-Gilead from Nahash the Ammonite — the military victory that confirms his kingship. 4QSamᵃ preserves the most celebrated DSS-against-MT addition in any biblical book: a full paragraph at the boundary between chapters 10 and 11 that explains who Nahash was and why the men of Jabesh-Gilead were already terrified of him. The MT and LXX both lack this paragraph; Josephus (Antiquities 6.68–71) shows knowledge of it; the NRSV (1989) was the first major modern English translation to restore it as 1 Samuel 10:27b. The DSS preserves the paragraph in continuous text, settling the case as ancient — almost certainly original, lost in proto-Masoretic and proto-LXX traditions through parablepsis.",
+    "notable_variants": "MARQUEE VARIANT — the 'Nahash paragraph.' 4QSamᵃ preserves between MT 1 Sam 10:27 and 11:1 a four-sentence paragraph: 'Now Nahash, king of the Ammonites, had been grievously oppressing the Gadites and the Reubenites. He would gouge out the right eye of each of them and would not grant Israel a deliverer. No one was left of the Israelites across the Jordan whose right eye Nahash, king of the Ammonites, had not gouged out — except seven thousand men who had escaped from the Ammonites and entered Jabesh-gilead. Then about a month later, Nahash the Ammonite came up …' This material explains Nahash's terms in 11:2 (he wants to gouge out the right eye of every Jabesh man) by establishing that this had been his standing policy. Without the paragraph, Nahash's terms come out of nowhere; with it, the narrative is coherent. Restored at NRSV (1989), NABRE, and others. Major article: Frank Moore Cross (BASOR 1983).",
+    "scroll_condition": "4QSamᵃ preserves the Nahash paragraph in continuous text immediately before 11:1. The reading is well legible.",
+    "manuscripts": "4QSamᵃ (4Q51) — the unique Qumran witness to the Nahash paragraph. No other DSS manuscript preserves this material."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "has_variant": true,
+      "significance": "theological",
+      "mt_reading": "וַיַּעַל נָחָשׁ הָעַמּוֹנִי וַיִּחַן עַל־יָבֵשׁ גִּלְעָד",
+      "dss_reading": "[paragraph at end of ch 10 / before 11:1:] ונחש מלך בני עמון הוא לחץ את בני גד ואת בני ראובן בחזקה ונקר להמה כל עין ימין ונתן אין מ[ושיע ל]ישראל ולוא נשאר איש בבני ישראל אש[ר ב]עבר הירדן אש[ר לוא נ]קר לו נח[ש מלך] בני עמון כל עין ימין רק שבעת אלפים איש [נסו מפ]ני בני עמון ויבאו אל יבש גלעד ויהי כמו חדש [ויעל נחש] העמוני",
+      "mt_rendering": "Then Nahash the Ammonite went up and besieged Jabesh-gilead",
+      "variant_rendering": "Now Nahash, king of the Ammonites, had been grievously oppressing the Gadites and the Reubenites. He would gouge out the right eye of each of them and would not grant Israel a deliverer. No one was left of the Israelites across the Jordan whose right eye Nahash, king of the Ammonites, had not gouged out — except seven thousand men who had escaped from the Ammonites and entered Jabesh-gilead. Then about a month later, Nahash the Ammonite went up and besieged Jabesh-gilead",
+      "manuscript_reference": "4QSamᵃ col. X, lines 1–6",
+      "variant_notes": [
+        "MARQUEE TEXT-CRITICAL VARIANT — perhaps the single most-discussed DSS-against-MT-and-LXX reading in the Hebrew Bible.",
+        "The 'Nahash paragraph' explains why the men of Jabesh-Gilead in v. 2 do not flinch when Nahash demands to gouge out their right eyes — this had been his standard policy across the Transjordan, and the Jabesh men had reason to expect it. Without the paragraph, the narrative leaps from Saul's election (chapter 10) to Nahash's demand (11:2) with no setup.",
+        "Josephus (Antiquities 6.68–71) shows clear knowledge of this material, paraphrasing it before recounting the Jabesh siege. The Antiquities text is not a Josephan invention; he is summarizing a Hebrew or Greek text that contained the paragraph.",
+        "The most likely scenario: the paragraph was original, lost from the proto-Masoretic and proto-LXX traditions through parablepsis (a scribal error of skipping from one similar phrase to another). It survived in the textual stream represented by 4QSamᵃ and Josephus' Vorlage.",
+        "Frank Moore Cross's 1983 BASOR article ('The Ammonite Oppression of the Tribes of Gad and Reuben: Missing Verses from 1 Samuel 11 Found in 4QSamᵃ') is the definitive scholarly analysis. The NRSV (1989) was the first major modern English translation to restore the paragraph in the main text as 1 Samuel 10:27b. The NABRE, NET, and CEB also restore it; ESV and NIV note it in footnotes; the NJPS retains MT.",
+        "Implication: the Hebrew text of Samuel circulating in the Second Temple period was demonstrably longer than what survived into the medieval Masoretic tradition. The narrative-coherence argument plus Josephus' independent witness make this case stronger than almost any other DSS variant against the MT."
+      ]
+    },
+    {
+      "verse": 2,
+      "has_variant": false,
+      "manuscript_reference": "4QSamᵃ col. X",
+      "variant_notes": [
+        "Nahash's demand ('on this condition I will treaty with you, that I gouge out everyone's right eye, and thus bring shame on all Israel') tracks MT. With the Nahash-paragraph context restored, the demand is no longer arbitrary — it is Nahash's standing policy."
+      ]
+    },
+    {
+      "verse": 11,
+      "has_variant": false,
+      "manuscript_reference": "fragmentary",
+      "variant_notes": ["Saul's three-pronged attack at dawn that delivers Jabesh tracks MT. The deliverance confirms Saul's charismatic kingship in the manner of the judges (cf. Judges 6–8 on Gideon)."]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "2 Samuel",
+    "tradition": "dss-2-samuel",
+    "tradition_label": "Dead Sea Scrolls (4QSamᵃ)",
+    "base_text": "Westminster Leningrad Codex (WLC)",
+    "date": "c. 250 BCE",
+    "manuscript_location": "Israel Antiquities Authority, Jerusalem",
+    "generated_at": "2026-05-04T00:00:00Z",
+    "prompt_version": "1.0",
+    "license": "CC-BY-4.0",
+    "chapter": 24,
+    "source_text": "4QSamᵃ (4Q51), 4QSamᶜ (4Q53)"
+  },
+  "preamble": {
+    "summary": "2 Samuel 24 — the final chapter — narrates David's census, the plague that follows, and the purchase of the threshing floor that becomes the temple site. The chapter has a parallel at 1 Chronicles 21 with a striking theological difference: 2 Sam 24:1 says 'the anger of the LORD was kindled against Israel, and he incited David against them,' while 1 Chr 21:1 says 'Satan stood up against Israel and incited David.' 4QSamᵃ preserves the Samuel form with minor variants. The DSS does not resolve the YHWH-vs-Satan question — both forms predate Qumran.",
+    "notable_variants": "MAJOR THEOLOGICAL TENSION between Samuel and Chronicles at v. 1 ('the LORD' vs 'Satan' as the inciter). The DSS preserves the Samuel form (YHWH as inciter) without softening, suggesting the proto-Masoretic Samuel tradition was already stable on this point. The 1 Chronicles 'Satan' reading represents a later theological development.",
+    "scroll_condition": "4QSamᵃ preserves portions of the chapter; 4QSamᶜ also attests fragments.",
+    "manuscripts": "4QSamᵃ (4Q51), 4QSamᶜ (4Q53)"
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "has_variant": false,
+      "manuscript_reference": "fragmentary",
+      "variant_notes": [
+        "The MT 'the LORD … incited David' is preserved at Qumran. The 1 Chr 21:1 'Satan' rewriting represents a later theological move (post-exilic) to absolve YHWH of inciting sin. The DSS confirms the older form was the YHWH-inciter version."
+      ]
+    },
+    {
+      "verse": 16,
+      "has_variant": false,
+      "manuscript_reference": "fragmentary",
+      "variant_notes": [
+        "The destroying angel and the threshing floor of Araunah/Ornan tracks MT. The site becomes Solomon's temple (1 Chr 22:1 makes the connection explicit)."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "2 Samuel",
+    "tradition": "dss-2-samuel",
+    "tradition_label": "Dead Sea Scrolls (4QSamᵃ)",
+    "base_text": "Westminster Leningrad Codex (WLC)",
+    "date": "c. 250 BCE",
+    "manuscript_location": "Israel Antiquities Authority, Jerusalem",
+    "generated_at": "2026-05-04T00:00:00Z",
+    "prompt_version": "1.0",
+    "license": "CC-BY-4.0",
+    "chapter": 7,
+    "source_text": "4QSamᵃ (4Q51)"
+  },
+  "preamble": {
+    "summary": "2 Samuel 7 contains the Davidic covenant — the unconditional promise to David's house — and David's prayer of response (vv. 18–29). The chapter is one of the OT's foundational royal-Messianic texts. 4QSamᵃ preserves substantial portions with one celebrated text-critical question: in v. 23, MT reads 'whom God went to redeem' (singular verb 'went' followed by plural 'gods/God'), while 4QSamᵃ and the LXX 1 Paralipomena parallel preserve a plural verb form. The question of whether 'gods' (elohim) here is a true plural divine-council reference or simply the standard plural-of-majesty for YHWH has been debated for millennia.",
+    "notable_variants": "MAJOR TEXT-CRITICAL QUESTION at v. 23. The MT reads halku elohim ('God-pl. went-pl.') — a grammatically jarring construction often regarded as a relic of an older divine-council reading. 1 Chronicles 17:21 (the parallel) reads halak ha-elohim (singular verb). 4QSamᵃ supports MT's plural. The question: is the older text 'whom gods went to redeem' (plural divine council) or 'whom God went to redeem' (singular YHWH)? The DSS evidence supports the plural form as ancient.",
+    "scroll_condition": "4QSamᵃ provides moderate coverage of the chapter, including parts of David's prayer.",
+    "manuscripts": "4QSamᵃ (4Q51)"
+  },
+  "verses": [
+    {
+      "verse": 11,
+      "has_variant": false,
+      "manuscript_reference": "fragmentary",
+      "variant_notes": [
+        "'The LORD will make you a house' — the central Davidic-covenant promise — tracks MT. Foundational for Royal-Messianic theology and cited throughout the NT (Acts 13:23, Heb 1:5)."
+      ]
+    },
+    {
+      "verse": 14,
+      "has_variant": false,
+      "manuscript_reference": "fragmentary",
+      "variant_notes": [
+        "'I will be his father, and he shall be my son' tracks MT. Cited at Heb 1:5 in the Christological catena, applied to the Son."
+      ]
+    },
+    {
+      "verse": 16,
+      "has_variant": false,
+      "manuscript_reference": "fragmentary",
+      "variant_notes": [
+        "'Your house and your kingdom shall be made sure forever before me; your throne shall be established forever' tracks MT — the unconditional Davidic promise."
+      ]
+    },
+    {
+      "verse": 23,
+      "has_variant": true,
+      "significance": "moderate",
+      "mt_reading": "אֲשֶׁר־הָלְכוּ אֱלֹהִים לִפְדּוֹת לוֹ לְעָם",
+      "dss_reading": "[supports MT plural verb הלכו]",
+      "mt_rendering": "whom God went [plural verb] to redeem for himself as a people",
+      "variant_rendering": "whom gods went to redeem (or: whom God went to redeem — preserving the plural verb form)",
+      "manuscript_reference": "4QSamᵃ frag.",
+      "variant_notes": [
+        "The MT plural verb halku ('they went') with elohim has long been a textual crux — possibly an ancient divine-council relic, possibly a grammatical anomaly. 4QSamᵃ supports the plural verb form against the 1 Chronicles 17:21 parallel which has the singular halak. The DSS evidence reinforces the plural as ancient and authentic to Samuel."
+      ]
+    }
+  ]
+}

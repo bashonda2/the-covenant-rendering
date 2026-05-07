@@ -1,0 +1,69 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "1 Samuel",
+    "chapter": 1,
+    "tradition": "dss-1-samuel",
+    "tradition_label": "Dead Sea Scrolls (4QSamᵃ)",
+    "source_text": "4QSamᵃ (4Q51), late 3rd c. BCE; ancillary 4QSamᵇ (4Q52)",
+    "base_text": "Westminster Leningrad Codex (WLC)",
+    "date": "c. 250 BCE",
+    "manuscript_location": "Israel Antiquities Authority, Jerusalem",
+    "generated_at": "2026-05-04T00:00:00Z",
+    "prompt_version": "1.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "1 Samuel 1 narrates the birth of Samuel — Hannah's barrenness, her vow at Shiloh, and the conception, birth, and dedication of Samuel. 4QSamᵃ preserves this chapter with several variants of the first importance, frequently agreeing with the Septuagint against the MT and supplying material that may have been lost from the proto-Masoretic tradition by haplography. Hannah's vow (v. 11) and Samuel's weaning narrative (vv. 22–23) are the most-discussed cases.",
+    "notable_variants": "MAJOR VARIANTS. (1) Hannah's vow at v. 11: 4QSamᵃ and LXX include a Nazirite stipulation ('and a razor shall not come upon his head') that is absent from MT — possibly original, lost in MT by parablepsis. (2) Hannah's weaning speech (vv. 22–23): 4QSamᵃ matches LXX's longer text ('I will offer him as a Nazirite forever, all the days of his life'), again likely original. (3) v. 24: the offering brought to Shiloh — DSS reads 'a three-year-old bull' (par meshulash) where MT reads 'three bulls' (parim sheloshah), a haplography-vs-original question. The DSS readings here have prompted critical translations (NRSV, NABRE) to depart from the MT.",
+    "scroll_condition": "4QSamᵃ preserves continuous text through most of chapter 1, with the Hannah-vow material clearly legible.",
+    "manuscripts": "4QSamᵃ (4Q51); 4QSamᵇ (4Q52) preserves only minor fragments here"
+  },
+  "verses": [
+    {
+      "verse": 11,
+      "has_variant": true,
+      "significance": "theological",
+      "mt_reading": "וְלֹא־יַעֲלֶה מוֹרָה עַל־רֹאשׁוֹ [absent in MT — present in DSS+LXX]",
+      "dss_reading": "ומורה לוא יעלה על ראשו ונזיר אהיה כל ימי חייו",
+      "mt_rendering": "[MT lacks the Nazirite clause]",
+      "variant_rendering": "and no razor shall come upon his head, and he shall be a Nazirite all the days of his life",
+      "manuscript_reference": "4QSamᵃ frag. 1, col. I",
+      "variant_notes": [
+        "MAJOR VARIANT. 4QSamᵃ and LXX preserve a Nazirite stipulation in Hannah's vow ('and a razor shall not come upon his head, and he shall be a Nazirite all the days of his life') that is absent from the MT.",
+        "The DSS+LXX reading is generally accepted as preserving the older text. The MT loss is most plausibly explained as parablepsis — a scribe's eye skipping from one similar word to another.",
+        "Implication: Samuel is being explicitly devoted as a Nazirite from the womb, paralleling Samson (Judges 13:5) and anticipating John the Baptist (Luke 1:15). The MT text leaves Samuel's Nazirite status implicit; the DSS+LXX text makes it explicit and binds the narrative to the Nazirite tradition stream of the OT.",
+        "Critical translations including NRSV restore this clause; NABRE places it in the main text. The Mishnah (m. Nazir 9:5) preserves debate over whether Samuel was a Nazirite, suggesting awareness of both text-forms in rabbinic times."
+      ]
+    },
+    {
+      "verse": 22,
+      "has_variant": true,
+      "significance": "moderate",
+      "mt_reading": "עַד יִגָּמֵל הַנַּעַר וַהֲבִאֹתִיו וְנִרְאָה אֶת־פְּנֵי יְהוָה וְיָשַׁב שָׁם עַד־עוֹלָם",
+      "dss_reading": "[+ ונתתיהו נזיר עד עולם כל ימי חייו]",
+      "mt_rendering": "until the child is weaned; then I will bring him, that he may appear in the presence of the LORD and dwell there forever",
+      "variant_rendering": "[adds:] and I will give him as a Nazirite forever, all the days of his life",
+      "manuscript_reference": "4QSamᵃ frag. 2",
+      "variant_notes": [
+        "4QSamᵃ and LXX add a Nazirite-dedication clause that the MT lacks. This is the second instance in chapter 1 where the DSS+LXX text reinforces Samuel's Nazirite identity (cf. v. 11).",
+        "The pattern of DSS+LXX agreement against MT throughout this chapter strongly suggests these clauses were original and the MT has suffered losses, likely through parablepsis."
+      ]
+    },
+    {
+      "verse": 24,
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "בְּפָרִים שְׁלֹשָׁה",
+      "dss_reading": "בפר משלש",
+      "mt_rendering": "with three bulls",
+      "variant_rendering": "with a three-year-old bull",
+      "manuscript_reference": "4QSamᵃ frag. 2",
+      "variant_notes": [
+        "MT 'three bulls' (parim sheloshah) vs. 4QSamᵃ/LXX 'a three-year-old bull' (par meshulash). The consonantal difference is small — likely a misdivision of letters in one tradition or the other.",
+        "The DSS/LXX reading is preferred by most critical scholars: a single three-year-old bull matches the offering described in v. 25 ('they slaughtered the bull') better than three bulls would. The MT plural may have arisen from a scribal misdivision."
+      ]
+    }
+  ]
+}

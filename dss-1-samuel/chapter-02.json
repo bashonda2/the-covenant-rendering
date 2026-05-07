@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "1 Samuel",
+    "chapter": 2,
+    "tradition": "dss-1-samuel",
+    "tradition_label": "Dead Sea Scrolls (4QSamᵃ)",
+    "source_text": "4QSamᵃ (4Q51), 4QSamᵇ (4Q52)",
+    "base_text": "Westminster Leningrad Codex (WLC)",
+    "date": "c. 250 BCE",
+    "manuscript_location": "Israel Antiquities Authority, Jerusalem",
+    "generated_at": "2026-05-04T00:00:00Z",
+    "prompt_version": "1.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "1 Samuel 2 contains the Song of Hannah (vv. 1–10) — the Magnificat's structural and thematic ancestor — followed by the priestly malpractice of Eli's sons and the prophecy against Eli's house. 4QSamᵃ preserves substantial material with several agreements with LXX against MT, especially in vv. 8–9 (additional cosmological lines), vv. 13–17 (priestly behavior at the cult), and v. 24 (the rebuke of Eli's sons).",
+    "notable_variants": "VARIANT CLUSTERS. (1) vv. 8–9: 4QSamᵃ/LXX include additional cosmological material ('he gives to the petitioner his prayer, and blesses the years of the righteous') likely lost from MT. (2) vv. 13–17: minor reorderings and wording differences in the description of how Eli's sons abused the cult. (3) v. 24: 4QSamᵃ may preserve the original verb form for Eli's rebuke ('I hear evil reports about you' — preserved differently across witnesses).",
+    "scroll_condition": "4QSamᵃ preserves vv. 8–10, 13–17, 22–25, 27–36 with varying clarity.",
+    "manuscripts": "4QSamᵃ (4Q51); 4QSamᵇ (4Q52) supplies fragmentary witness"
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "has_variant": false,
+      "manuscript_reference": "fragmentary",
+      "variant_notes": ["The opening of Hannah's Song ('My heart exults in the LORD; my horn is exalted in the LORD') tracks MT. The Song is the structural and thematic ancestor of the Magnificat (Luke 1:46–55)."]
+    },
+    {
+      "verse": 8,
+      "has_variant": true,
+      "significance": "moderate",
+      "mt_reading": "כִּי לַיהוָה מְצֻקֵי אֶרֶץ וַיָּשֶׁת עֲלֵיהֶם תֵּבֵל",
+      "dss_reading": "[+ נתן משאלה לשואל ויברך שני צדיק]",
+      "mt_rendering": "for the pillars of the earth are the LORD's, and on them he has set the world",
+      "variant_rendering": "[adds:] he gives to the petitioner his prayer, and blesses the years of the righteous",
+      "manuscript_reference": "4QSamᵃ frag. 3",
+      "variant_notes": [
+        "4QSamᵃ and LXX preserve an additional bicolon at the end of v. 8 (or beginning of v. 9, depending on chapter division) that the MT lacks: 'he gives to the petitioner his prayer, and blesses the years of the righteous.'",
+        "This addition fits the wisdom-style petition theology of Hannah's Song and is most likely original, lost in MT through homoioteleuton."
+      ]
+    },
+    {
+      "verse": 10,
+      "has_variant": false,
+      "manuscript_reference": "4QSamᵃ frag.",
+      "variant_notes": ["The Song's climactic verse ('the LORD will judge the ends of the earth; he will give strength to his king and exalt the horn of his anointed') tracks MT. The reference to the king/anointed is striking in the pre-monarchical narrative — read messianically by both Jewish and Christian traditions."]
+    },
+    {
+      "verse": 16,
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "[wording of priestly insistence]",
+      "dss_reading": "[slight reordering of verbs and direct speech]",
+      "mt_rendering": "If he says, 'They shall burn the fat first, and then take what your appetite desires'",
+      "variant_rendering": "[similar substance with minor wording differences]",
+      "manuscript_reference": "4QSamᵃ frag. 3",
+      "variant_notes": [
+        "4QSamᵃ and LXX show minor wording differences in the description of how Eli's sons forced worshipers to surrender raw meat before the fat was burned. The substance is the same; the wording differs at the clausal level."
+      ]
+    },
+    {
+      "verse": 22,
+      "has_variant": true,
+      "significance": "moderate",
+      "mt_reading": "וְאֵת אֲשֶׁר־יִשְׁכְּבוּן אֶת־הַנָּשִׁים הַצֹּבְאוֹת פֶּתַח אֹהֶל מוֹעֵד",
+      "dss_reading": "[clause about lying with women may be absent]",
+      "mt_rendering": "and how they lay with the women who served at the entrance to the tent of meeting",
+      "variant_rendering": "[clause absent in some textual witnesses]",
+      "manuscript_reference": "4QSamᵃ frag. 3",
+      "variant_notes": [
+        "The clause about Eli's sons sleeping with women at the tent of meeting is present in MT but absent from 4QSamᵃ and the major LXX witnesses (B, A). Many scholars regard the clause as a later expansion in the proto-Masoretic tradition.",
+        "If the clause is secondary, the original charge against Eli's sons concerns only their cultic abuses (taking raw meat before the fat is burned, vv. 13–17), not sexual misconduct. This affects how we read Eli's response in v. 23 and the prophecy against his house in vv. 27–36."
+      ]
+    }
+  ]
+}
