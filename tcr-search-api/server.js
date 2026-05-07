@@ -101,12 +101,25 @@ function loadBookIndex(slug) {
 
       const keyTermsList = [];
       const expandedRenderings = [];
+      // Variant notes from tradition data (DSS / LXX / etc.). These contain the
+      // scholarly content (marquee variant labels, NT cross-refs, manuscript designations)
+      // that queries actually target.
+      const variantNotesIndex = [];
       for (const v of (raw.verses || [])) {
         for (const kt of (v.key_terms || [])) {
           keyTermsList.push(kt.transliteration + ' -> ' + kt.rendered_as);
         }
         if (v.expanded_rendering) {
           expandedRenderings.push(`v${v.verse}: ${v.expanded_rendering}`);
+        }
+        // Tradition-data files use variant_notes arrays. Index them, capped per-verse to
+        // keep the in-memory blob bounded.
+        if (Array.isArray(v.variant_notes)) {
+          for (const note of v.variant_notes.slice(0, 3)) {
+            if (typeof note === 'string' && note.length > 30) {
+              variantNotesIndex.push(`v${v.verse}: ${note.slice(0, 400)}`);
+            }
+          }
         }
       }
 
@@ -118,8 +131,10 @@ function loadBookIndex(slug) {
         connections: raw.preamble?.connections || '',
         notableVariants: raw.preamble?.notable_variants || '',
         structuralNotes: raw.preamble?.structural_notes || '',
+        manuscripts: raw.preamble?.manuscripts || '',
         keyTerms: [...new Set(keyTermsList)].slice(0, 30),
         expandedRenderings: expandedRenderings.slice(0, 10),
+        variantNotes: variantNotesIndex.slice(0, 20),
         verseCount: raw.verses?.length || 0,
       });
     } catch (e) {
@@ -134,6 +149,65 @@ function loadBookIndex(slug) {
     chapters,
   };
 }
+
+// Per-book tradition data (renderings/variants/footnotes/passages arrays) for traditions
+// that aren't per-chapter files: targum-onkelos, targum-jonathan, vulgate, samaritan-pentateuch,
+// jst, dss-fragments. Each entry becomes a search-indexable record keyed by reference.
+const traditionEntries = [];  // { slug, reference, title, body, url }
+
+function loadPerBookTradition(traditionSlug, fileGlob, dataKey) {
+  const dir = join(DATA_ROOT, traditionSlug);
+  if (!existsSync(dir)) return 0;
+  const files = readdirSync(dir).filter(f => f.endsWith('.json'));
+  let count = 0;
+  for (const file of files) {
+    try {
+      const raw = JSON.parse(readFileSync(join(dir, file), 'utf-8'));
+      const entries = raw[dataKey] || raw.variants || raw.renderings || raw.footnotes || raw.passages || [];
+      const bookSlug = file.replace('.json', '');
+      for (const e of entries) {
+        const ref = e.reference || '';
+        // Build a compact searchable body: rendering + notes (truncated)
+        const parts = [];
+        if (e.targum_rendering) parts.push(e.targum_rendering);
+        if (e.vulgate_rendering) parts.push(e.vulgate_rendering);
+        if (e.sp_rendering) parts.push(e.sp_rendering);
+        if (e.dss_rendering) parts.push(e.dss_rendering);
+        if (e.change_summary) parts.push(e.change_summary);
+        if (e.theological_legacy) parts.push(e.theological_legacy);
+        if (Array.isArray(e.notes)) parts.push(e.notes.slice(0, 2).join(' '));
+        const body = parts.join(' ').slice(0, 600);
+        if (!body) continue;
+        traditionEntries.push({
+          slug: traditionSlug,
+          bookSlug,
+          reference: ref,
+          body: body.toLowerCase(),
+          // Display title used when surfacing in context
+          title: `${slugToName(traditionSlug)} :: ${ref}`,
+          // Best-effort URL: tradition-page anchor
+          url: traditionSlug === 'dss-fragments'
+              ? `/dss-fragments#book-${bookSlug}`
+              : `/${traditionSlug}/${bookSlug}`,
+          significance: e.significance || null,
+          category: e.category || null,
+        });
+        count++;
+      }
+    } catch (e) { /* skip */ }
+  }
+  return count;
+}
+
+// Load per-book tradition data for non-per-chapter traditions.
+const traditionLoadCount =
+  loadPerBookTradition('targum-onkelos', null, 'renderings') +
+  loadPerBookTradition('targum-jonathan', null, 'renderings') +
+  loadPerBookTradition('vulgate', null, 'renderings') +
+  loadPerBookTradition('samaritan-pentateuch', null, 'variants') +
+  loadPerBookTradition('jst', null, 'footnotes') +
+  loadPerBookTradition('dss-fragments', null, 'variants');
+console.log(`  Tradition entries indexed: ${traditionLoadCount}`);
 
 for (const slug of ALL_BOOKS) {
   const idx = loadBookIndex(slug);
@@ -209,8 +283,10 @@ function scoreChapterRelevance(query, bookSlug, chapterInfo, bookNameMatch) {
     chapterInfo.connections,
     chapterInfo.notableVariants,
     chapterInfo.structuralNotes,
+    chapterInfo.manuscripts,
     ...chapterInfo.keyTerms,
     ...chapterInfo.expandedRenderings,
+    ...(chapterInfo.variantNotes || []),
   ].join(' ').toLowerCase();
 
   for (const w of words) {
@@ -218,6 +294,68 @@ function scoreChapterRelevance(query, bookSlug, chapterInfo, bookNameMatch) {
   }
 
   return score;
+}
+
+// Tradition-name aliases. A query mentioning these terms boosts the corresponding tradition slugs.
+const TRADITION_ALIASES = {
+  // Each alias-word maps to a list of slug prefixes that should be boosted
+  'septuagint':       ['lxx-'],
+  'lxx':              ['lxx-'],
+  'targum':           ['targum-'],
+  'targumic':         ['targum-'],
+  'onkelos':          ['targum-onkelos'],
+  'jonathan':         ['targum-jonathan'],
+  'aramaic':          ['targum-'],
+  'memra':            ['targum-onkelos'],
+  'shekinah':         ['targum-'],
+  'vulgate':          ['vulgate'],
+  'jerome':           ['vulgate'],
+  'dead sea':         ['dss-'],
+  'qumran':           ['dss-'],
+  'scroll':           ['dss-'],
+  'samaritan':        ['samaritan-pentateuch'],
+  'jst':              ['jst'],
+  'joseph smith':     ['jst'],
+  'hebrew bible':     [],  // generic — no boost
+};
+
+function detectTraditionPrefixes(query) {
+  const q = query.toLowerCase();
+  const matched = new Set();
+  for (const [alias, prefixes] of Object.entries(TRADITION_ALIASES)) {
+    if (q.includes(alias)) {
+      for (const p of prefixes) matched.add(p);
+    }
+  }
+  return matched;
+}
+
+function findRelevantTraditionEntries(query, maxEntries = 20) {
+  const q = query.toLowerCase();
+  const words = q.split(/\s+/).filter(w => w.length > 2);
+  const tradPrefixes = detectTraditionPrefixes(query);
+  const scored = [];
+  for (const entry of traditionEntries) {
+    let score = 0;
+    // Boost for tradition-name match
+    for (const p of tradPrefixes) {
+      if (entry.slug.startsWith(p)) { score += 8; break; }
+    }
+    // Boost for reference match
+    const refLower = (entry.reference || '').toLowerCase();
+    if (refLower && q.includes(refLower)) score += 25;
+    // Per-word body matches
+    for (const w of words) {
+      if (entry.body.includes(w)) score += 2;
+    }
+    // Significance / category boost
+    if (entry.significance === 'theological') score += 1;
+    if (score >= 6) {
+      scored.push({ ...entry, score });
+    }
+  }
+  scored.sort((a, b) => b.score - a.score);
+  return scored.slice(0, maxEntries);
 }
 
 // Detect which books a query is likely about
@@ -242,11 +380,18 @@ function detectMatchedBooks(query) {
 
 function findRelevantChapters(query, maxChapters = 15) {
   const matchedBooks = detectMatchedBooks(query);
+  const tradPrefixes = detectTraditionPrefixes(query);
   const scored = [];
   for (const [slug, book] of Object.entries(bookIndex)) {
     const bookMatch = matchedBooks.has(slug);
+    // Boost: tradition-name in query boosts matching per-chapter tradition corpora
+    // (e.g., "Septuagint Isaiah" → boost lxx-isaiah's chapters).
+    let traditionBoost = 0;
+    for (const p of tradPrefixes) {
+      if (slug.startsWith(p)) { traditionBoost = 15; break; }
+    }
     for (const ch of book.chapters) {
-      const score = scoreChapterRelevance(query, slug, ch, bookMatch);
+      const score = scoreChapterRelevance(query, slug, ch, bookMatch) + traditionBoost;
       if (score > 0) {
         scored.push({ slug, chapter: ch.chapter, score });
       }
@@ -462,6 +607,25 @@ function buildContext(query) {
       parts.push(`${slugToName(ref.from_book)} ${ref.from_chapter}:${ref.from_verse} -> ${slugToName(ref.to_book)} ${ref.to_chapter}:${ref.to_verse} (${ref.type}) — ${ref.note || ''}`);
     }
     parts.push('');
+  }
+
+  // ── SECTION 4b: Tradition entries (Targumim, Vulgate, Samaritan, JST, DSS-fragments) ──
+  // These are per-book renderings/variants that aren't surfaced via the per-chapter index.
+  // They're the scholarly content most users searching for "what does the Targum say about X"
+  // are actually targeting.
+
+  const tradEntries = findRelevantTraditionEntries(query, 20);
+  if (tradEntries.length > 0) {
+    parts.push('=== TRADITION-ENTRY MATCHES ===\n');
+    parts.push('(Renderings/variants from Targumim, Vulgate, Samaritan Pentateuch, JST,');
+    parts.push(' and DSS-fragment summaries that match the query. Cite these directly when relevant.)');
+    parts.push('');
+    for (const e of tradEntries) {
+      parts.push(`[${e.title}]${e.significance ? ' ('+e.significance+')' : ''}`);
+      parts.push(`  ${e.body.slice(0, 350)}`);
+      parts.push(`  Page: ${e.url}`);
+      parts.push('');
+    }
   }
 
   // ── SECTION 5: Fallback overview ──
