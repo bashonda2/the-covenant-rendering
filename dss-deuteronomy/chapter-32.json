@@ -1,0 +1,115 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Deuteronomy",
+    "chapter": 32,
+    "tradition": "dss-deuteronomy",
+    "tradition_label": "Dead Sea Scrolls (4QDeut family)",
+    "source_text": "4QDeutʲ (4Q37), 4QDeutᵏ¹ (4Q38), 4QDeutᵍ (4Q44), 4QDeutᵇ (4Q29)",
+    "base_text": "Westminster Leningrad Codex (WLC)",
+    "date": "c. 250 BCE – 50 CE",
+    "manuscript_location": "Israel Antiquities Authority, Jerusalem",
+    "generated_at": "2026-05-04T00:00:00Z",
+    "prompt_version": "1.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Deuteronomy 32 — the Song of Moses (Ha'azinu) — is the most theologically and textually significant chapter in Deuteronomy at Qumran. Three Cave 4 manuscripts preserve substantial portions: 4QDeutʲ (vv. 1–3 + 32:7-9), 4QDeutᵏ¹ (vv. 17–18, 22–23, 25–27), and 4QDeutᵍ (vv. 9–10, 37–43). Two of the most famous variants in the entire Hebrew Bible appear here: (1) v. 8's 'sons of God' (b'nei elohim) reading, preserved in 4QDeutʲ and corroborated by the LXX, where MT reads 'sons of Israel'; and (2) v. 43's longer text in 4QDeutᵍ, again matching the LXX, with the call for 'all the sons of God' or 'all the angels of God' to worship — the Hebrew Vorlage cited at Hebrews 1:6.",
+    "notable_variants": "MAJOR THEOLOGICAL VARIANTS. Verse 8: 4QDeutʲ reads בני אלוהים ('sons of God' / divine beings) where MT reads בני ישראל ('sons of Israel'). LXX agrees with the Qumran reading (υἱῶν ἀγγέλων θεοῦ / υἱῶν θεοῦ). The reading 'sons of God' fits the cosmic-allotment context (Most High dividing the nations 'according to the number of the sons of God,' i.e., the divine council members) and is now widely accepted by critical editions (BHS apparatus, BHQ, NRSV, ESV margin) as the older reading. The MT 'sons of Israel' represents an anti-polytheistic correction. Verse 43: 4QDeutᵍ preserves a longer text agreeing with LXX, calling on 'sons of God' or 'angels of God' to worship YHWH — the Hebrew Vorlage of Hebrews 1:6's quotation of Deut 32:43.",
+    "scroll_condition": "4QDeutʲ frag. 12 preserves the v. 8 reading clearly, though the second mem of אלהים is partly damaged. 4QDeutᵍ preserves vv. 37–43 in two columns; the longer ending is well legible.",
+    "manuscripts": "4QDeutʲ (4Q37) — vv. 7-9 with the 'sons of God' reading; 4QDeutᵏ¹ (4Q38) — vv. 17-27 (Song); 4QDeutᵍ (4Q44) — vv. 9-10, 37-43 with the longer ending; 4QDeutᵇ (4Q29) — vv. 1-3 (opening of the Song)"
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "has_variant": false,
+      "manuscript_reference": "4QDeutᵇ frag. 1; 4QDeutʲ frag.",
+      "variant_notes": ["'Give ear, O heavens, and I will speak' opens the Song; tracks MT in both Qumran witnesses."]
+    },
+    {
+      "verse": 4,
+      "has_variant": false,
+      "manuscript_reference": "fragmentary",
+      "variant_notes": ["'The Rock' (ha-tsur) divine epithet tracks MT — the central theological metaphor of the Song."]
+    },
+    {
+      "verse": 8,
+      "has_variant": true,
+      "significance": "theological",
+      "mt_reading": "בְּהַנְחֵל עֶלְיוֹן גּוֹיִם בְּהַפְרִידוֹ בְּנֵי אָדָם יַצֵּב גְּבֻלֹת עַמִּים לְמִסְפַּר בְּנֵי יִשְׂרָאֵל",
+      "dss_reading": "בהנחל עליון גוים בהפרידו בני אדם יצב גבלות עמים למספר בני אלוהים",
+      "mt_rendering": "When the Most High gave to the nations their inheritance, when he divided mankind, he fixed the borders of the peoples according to the number of the sons of Israel",
+      "variant_rendering": "When the Most High gave to the nations their inheritance, when he divided mankind, he fixed the borders of the peoples according to the number of the sons of God",
+      "manuscript_reference": "4QDeutʲ frag. 12, line 4",
+      "variant_notes": [
+        "MAJOR THEOLOGICAL VARIANT — one of the most discussed text-critical readings in the entire Hebrew Bible. 4QDeutʲ reads בני אלוהים ('sons of God' / divine beings); MT reads בני ישראל ('sons of Israel'). LXX confirms the Qumran reading: υἱῶν ἀγγέλων θεοῦ in some manuscripts, υἱῶν θεοῦ in others.",
+        "The DSS/LXX reading fits the cosmic-allotment context: the Most High divides the nations among the members of the divine council, while reserving Israel for himself (v. 9). This aligns with the divine-council cosmology elsewhere in the OT (Ps 82:1, 6; 1 Kgs 22:19-23; Job 1-2). The MT 'sons of Israel' makes little sense numerically — Genesis 10's table-of-nations list does not match the seventy souls of Jacob's family (Gen 46:27).",
+        "BHS apparatus, BHQ, NRSV, ESV margin, and most critical editions now accept the DSS/LXX reading as older. The MT 'sons of Israel' is widely regarded as an anti-polytheistic / anti-divine-council theological correction.",
+        "Implication: the older Hebrew text preserves a divine-council cosmology in which YHWH is one of multiple divine beings to whom nations are allotted, but is also Most High over them. Later Jewish redactors (the proto-Masoretic scribes) softened this by replacing 'sons of God' with 'sons of Israel.' The Qumran reading vindicates the LXX and recovers the older cosmology.",
+        "NT echo: this passage informs Paul's theology of the gentile nations being 'given over' to false gods (Rom 1) and may stand behind 1 Cor 10:20's identification of pagan offerings as 'to demons.'"
+      ]
+    },
+    {
+      "verse": 9,
+      "has_variant": false,
+      "manuscript_reference": "4QDeutʲ frag. 12; 4QDeutᵍ frag.",
+      "variant_notes": [
+        "'But the LORD's portion is his people, Jacob his allotted heritage' tracks MT.",
+        "Read together with the v. 8 'sons of God' reading: while the other nations were apportioned to the divine-council members, YHWH himself takes Israel as his own portion. This is the structural logic of the Song's opening cosmology."
+      ]
+    },
+    {
+      "verse": 17,
+      "has_variant": false,
+      "manuscript_reference": "4QDeutᵏ¹ frag. 1",
+      "variant_notes": [
+        "'They sacrificed to demons that were no gods, to gods they had never known' tracks MT. The שדים (shedim, 'demons') are the divine-council 'gods' rebelling against YHWH. Cited at 1 Cor 10:20 ('what pagans sacrifice they offer to demons')."
+      ]
+    },
+    {
+      "verse": 18,
+      "has_variant": false,
+      "manuscript_reference": "4QDeutᵏ¹ frag. 1",
+      "variant_notes": ["'You forgot the God who gave you birth' (חֹלְלֶךָ) — striking maternal imagery for the divine. Tracks MT."]
+    },
+    {
+      "verse": 22,
+      "has_variant": false,
+      "manuscript_reference": "4QDeutᵏ¹ frag. 1",
+      "variant_notes": ["'For a fire is kindled by my anger, and it burns to the depths of Sheol' tracks MT. Echoed at Heb 12:29 ('our God is a consuming fire')."]
+    },
+    {
+      "verse": 35,
+      "has_variant": false,
+      "manuscript_reference": "fragmentary",
+      "variant_notes": ["'Vengeance is mine, and recompense' tracks MT. Cited at Rom 12:19 / Heb 10:30 — the Pauline restraint-of-vengeance argument relies on this Hebrew text."]
+    },
+    {
+      "verse": 39,
+      "has_variant": false,
+      "manuscript_reference": "fragmentary",
+      "variant_notes": [
+        "'See now that I, even I, am he, and there is no god beside me; I kill and I make alive; I wound and I heal; and there is none who can deliver out of my hand' tracks MT.",
+        "Together with the v. 8 'sons of God' reading, this verse forms the Song's theological climax: the divine council members are real, but YHWH alone is supreme; ultimately he reveals himself as the only true God ('I, even I, am he')."
+      ]
+    },
+    {
+      "verse": 43,
+      "has_variant": true,
+      "significance": "theological",
+      "mt_reading": "הַרְנִינוּ גוֹיִם עַמּוֹ כִּי דַם־עֲבָדָיו יִקּוֹם וְנָקָם יָשִׁיב לְצָרָיו וְכִפֶּר אַדְמָתוֹ עַמּוֹ",
+      "dss_reading": "הרנינו שמים עמו והשתחוו לו כל אלוהים כי דם בניו יקום ונקם ישיב לצריו ולמשנאיו ישלם וכפר אדמת עמו",
+      "mt_rendering": "Rejoice, O nations, with his people; for he avenges the blood of his servants and takes vengeance on his adversaries and atones for his land, his people",
+      "variant_rendering": "Rejoice, O heavens, with his people, and let all gods (elohim) bow down to him; for he avenges the blood of his sons and takes vengeance on his adversaries, and repays those who hate him, and atones for the land of his people",
+      "manuscript_reference": "4QDeutᵍ frag. 5",
+      "variant_notes": [
+        "MAJOR THEOLOGICAL VARIANT — the longer ending of the Song of Moses, preserved at Qumran and in the LXX, with material absent from the MT.",
+        "Three differences: (1) The MT's 'rejoice, O nations' becomes the DSS's 'rejoice, O heavens' (or LXX 'rejoice, O heavens, with him'). (2) The DSS / LXX adds an entire bicolon: 'and let all gods (elohim) / angels of God bow down to him' — the divine-council members worshiping YHWH. (3) The MT's 'blood of his servants' is the DSS's 'blood of his sons.' (4) The DSS / LXX adds another bicolon: 'and repays those who hate him.'",
+        "HEBREWS 1:6 CITATION. The author of Hebrews quotes 'let all God's angels worship him' (καὶ προσκυνησάτωσαν αὐτῷ πάντες ἄγγελοι θεοῦ), applying it Christologically to the Son. This citation is closer to the LXX of Deut 32:43 (which corresponds to the longer DSS reading) than to either the MT of Deut 32:43 or the LXX of Ps 97:7 (which has a similar phrase but different vocabulary). The DSS recovery of the longer Hebrew Vorlage strongly supports the conclusion that Hebrews is citing a now-rare Hebrew text-form of Deut 32:43.",
+        "This is one of the clearest cases where the DSS confirms a New Testament citation against the MT — the Hebrew text behind Hebrews 1:6 was preserved at Qumran but not in the proto-Masoretic tradition.",
+        "BHS apparatus, BHQ, NRSV, ESV margin all note the longer reading. The Qumran finding has effectively settled the case in favor of the longer ending as older."
+      ]
+    }
+  ]
+}

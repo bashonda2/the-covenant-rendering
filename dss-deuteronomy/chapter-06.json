@@ -1,0 +1,73 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Deuteronomy",
+    "tradition": "dss-deuteronomy",
+    "tradition_label": "Dead Sea Scrolls (4QDeut family)",
+    "base_text": "Westminster Leningrad Codex (WLC)",
+    "date": "c. 250 BCE – 50 CE",
+    "manuscript_location": "Israel Antiquities Authority, Jerusalem (4Q); various",
+    "generated_at": "2026-05-04T00:00:00Z",
+    "prompt_version": "1.0",
+    "license": "CC-BY-4.0",
+    "chapter": 6,
+    "source_text": "4QDeutʲ (4Q37), 4QDeutⁿ (4Q41), 8QPhylactery (8Q3), 1QPhylactery (1Q13), various 4QPhylacteries"
+  },
+  "preamble": {
+    "summary": "Deuteronomy 6 contains the Shema (vv. 4–9), the central confession of Israel's monotheism, recited daily in Jewish liturgy. The chapter is heavily attested at Qumran through dedicated phylactery and mezuzah manuscripts as well as continuous-text Deuteronomy scrolls. 4QDeutⁿ couples the Decalogue (Deut 5) with the Shema. The DSS readings of the Shema track the MT consonantal text closely and confirm its antiquity.",
+    "notable_variants": "No significant content variants in the Shema itself. The DSS confirm the MT reading 'YHWH eḥad' ('the LORD is one'). Some phylactery manuscripts arrange the Shema material in different sequences (with Deut 11:13–21 and Exod 13 paragraphs) reflecting devotional rather than scriptural copying. The continuous-text manuscripts (4QDeutʲ, 4QDeutⁿ for Deut 6) show only orthographic variation.",
+    "scroll_condition": "4QDeutⁿ provides good text for vv. 4–9; phylactery fragments are smaller but cumulatively attest most of the chapter.",
+    "manuscripts": "4QDeutʲ (4Q37), 4QDeutⁿ (4Q41), 8QPhylactery (8Q3), 1QPhylactery (1Q13), 4QPhylacteries (4Q128–148)"
+  },
+  "verses": [
+    {
+      "verse": 4,
+      "has_variant": false,
+      "manuscript_reference": "4QDeutⁿ frag. 1; 8QPhyl",
+      "variant_notes": [
+        "The Shema proper ('Hear, O Israel: the LORD our God, the LORD is one') is preserved verbatim across multiple Qumran witnesses. Tracks MT. The DSS confirm that this confession had its present form well before 100 BCE."
+      ]
+    },
+    {
+      "verse": 5,
+      "has_variant": false,
+      "manuscript_reference": "4QDeutⁿ frag. 1",
+      "variant_notes": [
+        "The love-command ('You shall love the LORD your God with all your heart, with all your soul, and with all your might') is preserved; tracks MT. Cited at Mark 12:30 / Matt 22:37 / Luke 10:27."
+      ]
+    },
+    {
+      "verse": 6,
+      "has_variant": false,
+      "manuscript_reference": "4QDeutⁿ frag. 1",
+      "variant_notes": [
+        "Tracks MT. The internalization of the words 'on your heart' is preserved verbatim."
+      ]
+    },
+    {
+      "verse": 7,
+      "has_variant": false,
+      "manuscript_reference": "4QDeutⁿ frag. 1",
+      "variant_notes": [
+        "The teaching command ('You shall teach them diligently to your children') tracks MT."
+      ]
+    },
+    {
+      "verse": 8,
+      "has_variant": false,
+      "manuscript_reference": "4QPhyl group",
+      "variant_notes": [
+        "Tracks MT. The phylactery command itself is preserved within phylactery manuscripts—one of the more striking textual loops at Qumran."
+      ]
+    },
+    {
+      "verse": 9,
+      "has_variant": false,
+      "manuscript_reference": "4QPhyl group",
+      "variant_notes": [
+        "Tracks MT. The mezuzah command is similarly preserved within mezuzah-type texts."
+      ]
+    }
+  ]
+}

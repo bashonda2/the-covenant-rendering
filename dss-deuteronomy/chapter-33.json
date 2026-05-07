@@ -1,0 +1,49 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Deuteronomy",
+    "tradition": "dss-deuteronomy",
+    "tradition_label": "Dead Sea Scrolls (4QDeut family)",
+    "base_text": "Westminster Leningrad Codex (WLC)",
+    "date": "c. 250 BCE – 50 CE",
+    "manuscript_location": "Israel Antiquities Authority, Jerusalem (4Q); various",
+    "generated_at": "2026-05-04T00:00:00Z",
+    "prompt_version": "1.0",
+    "license": "CC-BY-4.0",
+    "chapter": 33,
+    "source_text": "4QDeutʰ (4Q35), 4QTestimonia (4Q175 cites Deut 33:8-11)"
+  },
+  "preamble": {
+    "summary": "Deuteronomy 33 contains the Blessing of Moses on the twelve tribes. 4QDeutʰ preserves portions of this material. 4QTestimonia (4Q175), the messianic catena, quotes the blessing of Levi (vv. 8-11) and reads it messianically — pairing it with Num 24:15-17, Deut 18:18-19, and Deut 5:28-29 as proof-texts for an eschatological priest-prophet-king triad.",
+    "notable_variants": "MAJOR RECEPTION-HISTORY DATUM: 4QTestimonia reads the blessing of Levi (vv. 8-11) as a messianic-priestly proof-text. The Qumran community's expectation of a 'Messiah of Aaron and Israel' (1QS 9:11) reflects this two-Messiah typology, with the Levi blessing supporting the priestly Messiah. The MT consonantal text is preserved without significant variation in the surviving fragments.",
+    "scroll_condition": "Fragmentary; 4Q175's citation of vv. 8-11 is the principal Qumran datum.",
+    "manuscripts": "4QDeutʰ (4Q35), 4QTestimonia (4Q175)"
+  },
+  "verses": [
+    {
+      "verse": 2,
+      "has_variant": false,
+      "manuscript_reference": "fragmentary",
+      "variant_notes": [
+        "'The LORD came from Sinai and dawned from Seir upon them; he shone forth from Mount Paran' tracks MT. The Sinai-Seir-Paran theophany is echoed at Hab 3:3."
+      ]
+    },
+    {
+      "verse": 8,
+      "has_variant": false,
+      "manuscript_reference": "4Q175 col. I, lines 14-20",
+      "variant_notes": [
+        "'Give to Levi your Thummim, and your Urim to your godly one, whom you tested at Massah, with whom you quarreled at the waters of Meribah' is preserved verbatim in the messianic catena. 4Q175 reads this blessing of Levi as a proof-text for an eschatological priestly figure ('Messiah of Aaron')."
+      ]
+    },
+    {
+      "verse": 11,
+      "has_variant": false,
+      "manuscript_reference": "4Q175 col. I",
+      "variant_notes": [
+        "'Bless, O LORD, his substance, and accept the work of his hands' — the blessing on the tribe of Levi closes the priestly proof-text. Tracks MT."
+      ]
+    }
+  ]
+}

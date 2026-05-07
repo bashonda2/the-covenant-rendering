@@ -1,0 +1,49 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Deuteronomy",
+    "tradition": "dss-deuteronomy",
+    "tradition_label": "Dead Sea Scrolls (4QDeut family)",
+    "base_text": "Westminster Leningrad Codex (WLC)",
+    "date": "c. 250 BCE – 50 CE",
+    "manuscript_location": "Israel Antiquities Authority, Jerusalem (4Q); various",
+    "generated_at": "2026-05-04T00:00:00Z",
+    "prompt_version": "1.0",
+    "license": "CC-BY-4.0",
+    "chapter": 3,
+    "source_text": "4QDeutᵈ (4Q31), 4QDeutᶜ (4Q30), 4QDeutᵐ (4Q40), 11QDeut (11Q3)"
+  },
+  "preamble": {
+    "summary": "Deuteronomy 3 recounts the defeat of Og of Bashan and the allotment of Transjordan. 4QDeutᵈ preserves vv. 1–14 in continuous text, making this the best-attested portion of Deut 3 at Qumran. 4QDeutᵐ supplies fragments of vv. 18–22.",
+    "notable_variants": "No significant content variants. The text agrees with the MT; differences are orthographic (plene/defective spelling). The Og bedstead tradition (v. 11) is preserved verbatim.",
+    "scroll_condition": "4QDeutᵈ provides continuous text through v. 14; later verses survive only in scattered fragments.",
+    "manuscripts": "4QDeutᵈ (4Q31), 4QDeutᶜ (4Q30), 4QDeutᵐ (4Q40), 11QDeut (11Q3)"
+  },
+  "verses": [
+    {
+      "verse": 11,
+      "has_variant": false,
+      "manuscript_reference": "4QDeutᵈ col. I",
+      "variant_notes": [
+        "The Og bedstead description (\"nine cubits its length, four cubits its breadth, by the cubit of a man\") is preserved verbatim. Tracks MT."
+      ]
+    },
+    {
+      "verse": 14,
+      "has_variant": false,
+      "manuscript_reference": "4QDeutᵈ col. I; 11QDeut frag. 1",
+      "variant_notes": [
+        "The Jair allotment notice is attested in two separate scrolls; both track MT."
+      ]
+    },
+    {
+      "verse": 18,
+      "has_variant": false,
+      "manuscript_reference": "4QDeutᵐ frag. 1",
+      "variant_notes": [
+        "The mobilization order to the Reubenites and Gadites is preserved; tracks MT."
+      ]
+    }
+  ]
+}

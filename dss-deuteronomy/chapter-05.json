@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Deuteronomy",
+    "tradition": "dss-deuteronomy",
+    "tradition_label": "Dead Sea Scrolls (4QDeut family)",
+    "base_text": "Westminster Leningrad Codex (WLC)",
+    "date": "c. 250 BCE – 50 CE",
+    "manuscript_location": "Israel Antiquities Authority, Jerusalem (4Q); various",
+    "generated_at": "2026-05-04T00:00:00Z",
+    "prompt_version": "1.0",
+    "license": "CC-BY-4.0",
+    "chapter": 5,
+    "source_text": "4QDeutⁿ (4Q41, the All-Souls Deuteronomy harmonization), 4QDeutʲ (4Q37), 4QDeutᵏ¹ (4Q38), 4QDeutᵒ (4Q42)"
+  },
+  "preamble": {
+    "summary": "Deuteronomy 5 contains the Decalogue. 4QDeutⁿ ('All Souls Deut'), a phylactery- or mezuzah-like manuscript copied c. 50 BCE, presents an extraordinary harmonized text combining Deuteronomy 5 with Exodus 20 and other passages. 4QDeutʲ also harmonizes the Sabbath commandment, blending the Deuteronomic socio-historical rationale (Egypt deliverance) with the Exodus creation rationale (six days). The harmonization is one of the most theologically significant DSS-vs-MT divergences in the Pentateuch.",
+    "notable_variants": "MAJOR VARIANT: 4QDeutⁿ harmonizes the Sabbath commandment by combining Deuteronomy's exodus-deliverance rationale (Deut 5:14–15) with Exodus 20:11's creation-week rationale, producing a longer text not found in MT or in the LXX of Deuteronomy. 4QDeutⁿ also presents a different ordering of certain passages (placing Deut 5 before Deut 6:4–9, then transitioning into other Decalogue-adjacent material). This testifies to scribal harmonization activity in late Second Temple Judaism but is generally regarded as a liturgical/devotional anthology rather than a manuscript witness to an alternative Hebrew Vorlage.",
+    "scroll_condition": "4QDeutⁿ is well preserved as a small papyrus-like sheet. Multiple readings have been published in DJD XIV.",
+    "manuscripts": "4QDeutⁿ (4Q41, 'All Souls Deut'), 4QDeutʲ (4Q37), 4QDeutᵏ¹ (4Q38), 4QDeutᵒ (4Q42), 8QPhylactery (8Q3), various phylactery texts"
+  },
+  "verses": [
+    {
+      "verse": 6,
+      "has_variant": false,
+      "manuscript_reference": "4QDeutⁿ; 4QDeutʲ",
+      "variant_notes": [
+        "The opening identification ('I am the LORD your God who brought you out of the land of Egypt') is preserved in multiple manuscripts; tracks MT."
+      ]
+    },
+    {
+      "verse": 12,
+      "has_variant": true,
+      "significance": "moderate",
+      "mt_reading": "שָׁמוֹר אֶת־יוֹם הַשַּׁבָּת לְקַדְּשׁוֹ כַּאֲשֶׁר צִוְּךָ יְהוָה אֱלֹהֶיךָ",
+      "dss_reading": "שמור [וזכור] את יום השבת לקדשו",
+      "mt_rendering": "Observe the Sabbath day, to keep it holy, as the LORD your God commanded you",
+      "variant_rendering": "Observe [and remember] the Sabbath day, to keep it holy",
+      "manuscript_reference": "4QDeutⁿ frag. 1; 4QDeutʲ",
+      "variant_notes": [
+        "Some Qumran witnesses harmonize Deuteronomy's שָׁמוֹר ('observe') with Exodus 20:8's זָכוֹר ('remember') by attesting both verbs. This harmonization later appears in rabbinic tradition (b. Shevu'ot 20b: 'Remember and observe were spoken in a single utterance'). The MT preserves the Deuteronomic form alone."
+      ]
+    },
+    {
+      "verse": 15,
+      "has_variant": true,
+      "significance": "theological",
+      "mt_reading": "וְזָכַרְתָּ כִּי־עֶבֶד הָיִיתָ בְּאֶרֶץ מִצְרַיִם וַיֹּצִאֲךָ יְהוָה אֱלֹהֶיךָ מִשָּׁם בְּיָד חֲזָקָה וּבִזְרֹעַ נְטוּיָה עַל־כֵּן צִוְּךָ יְהוָה אֱלֹהֶיךָ לַעֲשׂוֹת אֶת־יוֹם הַשַּׁבָּת",
+      "dss_reading": "[+ כי ששת ימים עשה יהוה את השמים ואת הארץ ...] על כן ברך יהוה את יום השבת ויקדשהו",
+      "mt_rendering": "Remember that you were a slave in the land of Egypt … therefore the LORD your God commanded you to keep the Sabbath day",
+      "variant_rendering": "[harmonized to add the Exodus 20:11 creation rationale]: …for in six days the LORD made heaven and earth … therefore the LORD blessed the Sabbath day and made it holy",
+      "manuscript_reference": "4QDeutⁿ frag. 1",
+      "variant_notes": [
+        "MAJOR HARMONIZATION. 4QDeutⁿ supplements Deuteronomy's exodus-deliverance Sabbath rationale with Exodus 20:11's creation rationale, producing a hybrid text not preserved in any other tradition (MT or LXX of Deuteronomy). This reflects late-Second-Temple scribal harmonization activity, likely for liturgical/devotional use, and is the most theologically significant DSS variant in Deuteronomy 5. The combined rationale anticipates rabbinic tradition that both motifs were spoken simultaneously (Mekhilta de-Rabbi Ishmael; b. Shevu'ot 20b)."
+      ]
+    },
+    {
+      "verse": 21,
+      "has_variant": false,
+      "manuscript_reference": "4QDeutⁿ; 4QDeutʲ",
+      "variant_notes": [
+        "The tenth commandment ('You shall not covet your neighbor's wife') is preserved verbatim; tracks MT."
+      ]
+    },
+    {
+      "verse": 28,
+      "has_variant": false,
+      "manuscript_reference": "4QDeutʲ frag.",
+      "variant_notes": [
+        "The people's plea ('Go near and hear all that the LORD our God will say') is preserved; tracks MT."
+      ]
+    }
+  ]
+}
