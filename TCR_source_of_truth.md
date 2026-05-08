@@ -62,7 +62,7 @@
 - **Documentation:** SOT v5.18.
 - **Repos:** Both current.
 - **Active work:** Full Tradition Expansion — comprehensive verse-level stacking of all traditions across every Bible chapter. See `TCR_tradition_expansion_roadmap.md` for 10-phase plan.
-- **Next:** Phase 3 (LXX expansion to full OT), Phase 4 (DSS beyond Isaiah), Phase 5 (Targumim comprehensive), then website generalization and AI search updates.
+- **Next:** Phase 6 (Samaritan gap check — DONE), Phase 7+ (Vulgate expansion, additional tradition densification), website generalization and AI search updates. *(Phase 3 LXX, Phase 4 DSS, and Phase 5 Targumim — all DONE.)*
 
 ---
 
@@ -239,7 +239,7 @@ Full strategy: [`prompts/extended-library-direction.md`](prompts/extended-librar
 | Primary | "From the Hebrew" | TCR (WLC) — always present, always default | N/A |
 | Manuscript Traditions | "Other manuscript traditions" | Dead Sea Scrolls, Septuagint (LXX), Samaritan Pentateuch | Yes (all pre-325 CE) |
 | Pre-Nicaea Canon | "Books read before the councils" | 1 Enoch, Jubilees | Yes |
-| Interpretive Traditions | "How traditions read this passage" | Targumim, Joseph Smith Translation (JST), Latin Vulgate | Partial |
+| Interpretive Traditions | "How traditions read this passage" | Targumim, Joseph Smith Translation (JST), Latin Vulgate | Yes (Targumim & Vulgate pre/early post-Nicaea) |
 
 **Implementation priority:**
 
@@ -252,7 +252,7 @@ Full strategy: [`prompts/extended-library-direction.md`](prompts/extended-librar
 | 5 | Samaritan Pentateuch | **DONE** | 5 books, 160 variants (Phase 6 gap check passed; +4 entries closing plague-harmonization and sa'ir gaps). All marquee SP-MT divergences documented: Decalogue 11th commandment (Exod 20:17, Deut 5:21 Gerizim altar), Mt Gerizim vs MT Mt Ebal (Deut 27:4), 'has chosen' vs 'will choose' (Deut 12:5+ ~20 occurrences), Gen 5 chronological system, Exod 12:40 sojourn-includes-Canaan, plague harmonizations (Exod 7-11 cross-referenced to 4QpaleoExodᵐ). Deployed at `/samaritan-pentateuch/`. |
 | — | Targumim | **PHASE 5 MILESTONE — DONE** | **1,001 renderings** total (Onkelos 393 + Jonathan 608). Was 329 pre-Phase-5; **+672 entries across 50 batches** covering: Pre-Nicene Tier S (Memra-mediator, Angel-of-YHWH theophany, Two-Powers loci, Wisdom personification, Shekinah-as-distinct-presence — passages predating Nicaea that document the Jewish theological substrate from which John 1's Logos Christology grew); Tier A NT-citation second tier; Tier B distinctive re-readings; Tier C bulk densification with chapter-by-chapter coverage. Per-book: Onkelos (Gen 112, Exod 88, Lev 51, Num 63, Deut 79); Jonathan (Isa 144, Jer 98, Ezek 82, Former Prophets 182, Minor Prophets 102). Comprehensive 1,000-entry target reached and exceeded. |
 | 6 | Jubilees | **DONE** | 50 ch, 1,245 v, deployed at `/jubilees/` |
-| 7 | Targumim | **DONE** | Onkelos 176 + Jonathan 153 renderings, deployed at `/targum/` |
+| 7 | Targumim | **DONE (Phase 5 milestone — see row above)** | Onkelos 393 + Jonathan 608 = **1,001 renderings**, deployed at `/targum/` |
 | 8 | Latin Vulgate | **DONE** | 9 books, 184 renderings (Jerome's key choices), deployed at `/vulgate/` |
 
 ### Remaining Extended Library UI
