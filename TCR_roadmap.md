@@ -802,17 +802,128 @@ This is a 12-18 month program. Working session-by-session, expected pace:
 
 ---
 
-## 16. Open Strategic Questions
+## 16. Strategic Decisions (Locked 2026-05-11)
 
-These need user input before execution proceeds:
+All eight architectural questions resolved by user directive on 2026-05-11.
 
-1. **Routing model for new books.** Each pre-Nicene text as its own book (e.g., `/justin-dialogue`, `/1-clement`, `/philo-cher`)? Or grouped under tradition pages (`/ante-nicene-fathers/justin-dialogue`)?
-2. **Canon-filter implications.** Should the canon-filter at `/books` add new categories? "Pre-Nicene Christian corpus," "Jewish Hellenistic," "Apocryphal NT," etc.
-3. **Doctrinal section URL prefix.** `/doctrine/` or `/doctrines/`?
-4. **PDF generation extension.** Current 69 PDFs cover the canonical 66 + OT/NT/full Bible. Extend to pre-Nicene corpus? At what milestone?
-5. **AI search scope.** Does AI search include the new corpora as full-text searchable? (Recommended: yes; budget impact is minor since context is on-demand.)
-6. **Public versioning.** Should TCR adopt semantic versioning (1.0, 1.1, 2.0)? Tag the milestones?
-7. **Citation export.** Should TCR offer BibTeX / Zotero / CSL export per verse and per doctrine entry? (Recommended: yes, post-Pillar-II.)
+1. **Routing model for new books — DECISION: Each text as its own book.** Slugs like `/justin-dialogue`, `/1-clement`, `/didache`, `/philo-conf` (Confusion of Tongues), `/philo-migr` (Migration of Abraham), `/4-ezra`, `/2-baruch`, etc. Each gets its own BookInfo entry in the registry, its own canon-filter inclusion, its own `/books` listing, its own PDF, its own AI-search inclusion. Makes scholarly citations cleaner.
+2. **Canon-filter implications — DECISION: Yes, add new categories.** The `/books` canon filter expands to include: Protestant, Catholic, Orthodox, Ethiopian, **Pre-Nicene Christian corpus** (new), **Jewish Hellenistic** (new), **Pseudepigrapha** (new), **NT Apocrypha & Nag Hammadi** (new), **Rabbinic foundations** (new), **Syriac corpus** (new), **Patristic biblical commentaries** (new), **All**.
+3. **Doctrinal section URL prefix — DECISION: `/doctrines/` (plural).**
+4. **PDF generation — DECISION: Yes, extend to pre-Nicene corpus.** Each new book gets a PDF generated at the same point its data ships. Per-phase milestone PDFs (e.g., "Phase A milestone — Pre-Nicene Tier S corroboration corpus, single PDF") also generated. PDF generation runs as part of the standard deploy pipeline.
+5. **AI search scope — DECISION: Yes, include all new corpora.** Each new book added to `CANONICAL_BOOKS` or `EXTENDED_BOOKS` in `tcr-search-api/server.js`, plus tradition aliases for searchable keywords ("Philo," "Justin," "1 Clement," "Trypho," "Logos doctrine," etc.). Search index will grow to ~10,000-15,000 tradition entries by completion of Phases A-H.
+6. **Public semantic versioning — DECISION: Yes, adopt 3-part SemVer.** Current state versioned as **TCR v1.0.0** (released 2026-05-11). Phase A completion = v1.1.0. Each subsequent phase = minor bump. Major bumps reserved for architectural reorganizations (e.g., Pillar II verse-page rework = v2.0.0). Each version tagged in git for stable citation. SoT versioning (v5.x) continues as internal documentation versioning, separate from the public TCR semantic version.
+7. **Citation export — DECISION: BibTeX + RIS + Chicago plain text.** Every verse page (`/[book]/[chapter]/[verse]`) and every doctrine page (`/doctrines/{slug}`) gets a "Cite this" button that emits three formats: BibTeX (academic LaTeX standard), RIS (Zotero/EndNote/Mendeley/JSTOR cross-tool standard), and Chicago plain text (default humanities and theology citation style). Each citation includes URL + access date. Implementation as a small Astro component using page metadata. Targeted for shipping alongside Pillar II verse-page rework.
+8. **Sequencing — DECISION: Pillar I Phase A start + Pillar III scaffolding in parallel; Pillar II after Phase A.** Concretely: begin Philo Logos selections + 1 Clement + Didache + Ignatius authoring immediately; in parallel, scaffold the `/doctrines/` section with the schema and first 5-10 pilot entries (Trinity, Christology, Original Sin, Justification, Eucharist). Pillar II verse-page deep-dive ships after Phase A so it has the new corpus to surface.
+
+---
+
+## 17. Phase A Kickoff — Architectural Prerequisites
+
+Before authoring begins, the following architectural changes are needed to support "each text as its own book" routing.
+
+### 17.1 BookInfo schema extension
+
+Current schema has `testament: 'old' | 'new'`. Pre-Nicene Jewish + Christian texts don't fit. Extension needed:
+
+```ts
+type Testament = 'old' | 'new' | 'extra-canonical';
+
+type Section =
+  // existing
+  | 'pentateuch' | 'historical' | 'wisdom' | 'major-prophets' | 'minor-prophets'
+  | 'gospels' | 'pauline' | 'general-epistles' | 'apocalypse'
+  | 'deuterocanonical' | 'orthodox-additions' | 'pre-nicaea-canon'
+  | 'dead-sea-scrolls'
+  // NEW for Phase A onward
+  | 'jewish-hellenistic'        // Philo, Josephus, Aristeas, Pseudo-Philo
+  | 'pseudepigrapha'             // 2-3 Enoch, Testaments, Apocalypses, 4 Ezra, 2 Baruch
+  | 'apostolic-fathers'          // 1 Clement, 2 Clement, Ignatius, Polycarp, Hermas, Didache, Barnabas, Diognetus
+  | 'apologists'                 // Justin, Tatian, Athenagoras, Theophilus, Aristides, Melito
+  | 'ante-nicene-fathers'        // Irenaeus, Tertullian, Clement Alex., Origen, Hippolytus, Cyprian, Novatian, etc.
+  | 'nt-apocrypha'               // Gospel of Thomas, Acts of Paul, Apocalypses, etc.
+  | 'nag-hammadi'                // The Coptic Gnostic library
+  | 'targumim'                   // Pseudo-Jonathan, Neofiti, fragmentary, Writings
+  | 'rabbinic'                   // Mishnah, Tosefta, Mekhilta, Sifra, Sifre, Midrash Rabbah
+  | 'syriac-corpus'              // Peshitta, Diatessaron, Aphrahat, Ephrem
+  | 'patristic-commentaries';    // Augustine, Chrysostom, Jerome, Ambrose, Athanasius, Basil, Gregories, Cyrils
+```
+
+### 17.2 Canon array expansion
+
+Current canons: `'protestant' | 'catholic' | 'orthodox' | 'ethiopian'`. Add filterable categories:
+
+```ts
+type Canon =
+  | 'protestant' | 'catholic' | 'orthodox' | 'ethiopian'  // existing — actual canons
+  | 'pre-nicene-christian'                                 // filter category
+  | 'jewish-hellenistic'                                   // filter category
+  | 'pseudepigrapha'                                       // filter category
+  | 'nt-apocrypha'                                         // filter category
+  | 'nag-hammadi'                                          // filter category
+  | 'rabbinic'                                             // filter category
+  | 'syriac'                                               // filter category
+  | 'patristic-commentaries';                              // filter category
+```
+
+The `/books` page canon filter UI adds buttons for each new category.
+
+### 17.3 Slug conventions
+
+Each book gets a unique slug. Conventions:
+
+- **Philo treatises** — `philo-{abbrev}` (e.g., `philo-conf` = On the Confusion of Tongues, `philo-migr` = On the Migration of Abraham). Use the standard Loeb/Goodenough abbreviations.
+- **Justin Martyr** — `justin-dialogue`, `justin-first-apology`, `justin-second-apology`.
+- **Apostolic Fathers** — `1-clement`, `2-clement`, `didache`, `barnabas`, `diognetus`, `shepherd-of-hermas`, `martyrdom-of-polycarp`, `polycarp-philippians`.
+- **Ignatius's 7 letters** — `ignatius-ephesians`, `ignatius-magnesians`, `ignatius-trallians`, `ignatius-romans`, `ignatius-philadelphians`, `ignatius-smyrnaeans`, `ignatius-polycarp`.
+- **Pseudepigrapha** — `4-ezra`, `2-baruch`, `3-baruch`, `2-enoch`, `3-enoch`, `testaments-of-twelve-patriarchs`, `testament-of-moses`, `apocalypse-of-abraham`, `joseph-and-aseneth`, `sibylline-oracles`, `pseudo-philo-lab`.
+- **NT Apocrypha** — `gospel-of-thomas`, `gospel-of-peter`, `gospel-of-mary`, `protoevangelium-of-james`, `acts-of-paul`, `apocalypse-of-peter`, `ascension-of-isaiah`.
+- **Nag Hammadi** — `apocryphon-of-john`, `gospel-of-truth`, `tripartite-tractate`, `sophia-of-jesus-christ`, etc.
+
+### 17.4 PDF generation pipeline extension
+
+The existing PDF pipeline (`scripts/generate-pdf.*`) generates per-book PDFs from chapter JSON. Extension for pre-Nicene corpus:
+
+- Each new book gets a PDF at the same time its data ships.
+- Per-phase compendium PDFs (e.g., "Phase A — Pre-Nicene Tier S corroboration corpus, 12 texts").
+- The `/download` page is updated to list PDFs by canon-filter category.
+
+### 17.5 Citation-export component
+
+A single reusable component `CitationExport.astro` that takes page metadata (book name, chapter, verse if present, doctrine slug if present, source-edition, access date) and emits three citations as a copy-clipboardable button group.
+
+### 17.6 Semantic versioning system
+
+Adopt **TCR v1.0.0** as the release tag of today's deployed state (2026-05-11). Each phase completion gets a minor bump. Each git tag annotated with the milestone. Version visible in footer.
+
+---
+
+## 18. Pillar III Pilot — First 10 Doctrines
+
+The first 10 doctrine entries serve as the **schema validation** for the doctrinal-index methodology. They cover the most foundational and most-contested doctrines across the major denominational divides:
+
+| # | Doctrine | Domain | Why first |
+|---|---|---|---|
+| 1 | **The Trinity** | trinitarian | The defining post-Nicene formulation. |
+| 2 | **Deity of Christ (homoousios)** | christology | The Nicene Creed's hinge. |
+| 3 | **Original sin** | hamartiology | Augustinian-Pelagian + Eastern-Western divide. |
+| 4 | **Justification** | soteriology | Reformation hinge — sola fide vs Trent. |
+| 5 | **The Eucharist** | sacramentology | Transubstantiation vs consubstantiation vs memorialism vs Calvinist real-presence vs Eastern mystery. |
+| 6 | **Predestination** | soteriology | Catholic vs Reformed vs Arminian. |
+| 7 | **Scripture (canon + authority)** | bibliology | Sola scriptura vs Scripture-and-tradition; canon disputes. |
+| 8 | **Baptism** | sacramentology | Mode + subjects + efficacy. |
+| 9 | **The Church (one/holy/catholic/apostolic)** | ecclesiology | Polity + apostolic succession + papal primacy. |
+| 10 | **Resurrection of the dead + the intermediate state** | eschatology | Heaven/hell/purgatory/limbo + millennial views. |
+
+These 10 entries lock the schema. Subsequent ~190 entries follow the same pattern.
+
+---
+
+## 19. Open log
+
+| Date | Item |
+|---|---|
+| 2026-05-11 | Vision established (user directive). Three-pillar plan documented. Eight architectural decisions locked. Phase A authoring + Pillar III scaffolding sequenced in parallel. |
+
 
 ---
 
@@ -835,3 +946,4 @@ This document codifies the path. Phases A-H plus three coordinated pillars. **18
 | Date | Version | Changes |
 |---|---|---|
 | 2026-05-11 | v1.0 | Initial roadmap document. Establishes three-pillar plan (Pre-Nicene Corpus, Verse-as-Center Architecture, Doctrinal Index). Defines Phases A-H, doctrinal taxonomy, source-citation policy, and 18-24 month milestone framework. Supersedes archived March-2026 roadmap. |
+| 2026-05-11 | v1.1 | Eight architectural decisions locked by user directive. Routing: each text as its own book with dedicated slug. Canon filter expands to 12 categories. Doctrines path: `/doctrines/`. PDF generation extends to all new corpora. AI search indexes all new content. Public semantic versioning adopted (today = **TCR v1.0.0**). Citation export = BibTeX + RIS + Chicago plain text. Sequencing: Phase A authoring + Pillar III scaffolding in parallel; Pillar II after Phase A. Phase A Kickoff section (Section 17) added with BookInfo schema extension, canon-array expansion, slug conventions, PDF pipeline extension, citation-export component spec, semantic-versioning system. Section 18 added: Pillar III Pilot — first 10 doctrines list (Trinity, Deity of Christ, Original Sin, Justification, Eucharist, Predestination, Scripture, Baptism, The Church, Resurrection). |
