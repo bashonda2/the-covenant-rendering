@@ -37,29 +37,38 @@ setInterval(() => {
 // ── Book metadata ─────────────────────────────────────────────────────────
 
 const CANONICAL_BOOKS = [
+  // OT
   'genesis', 'exodus', 'leviticus', 'numbers', 'deuteronomy',
   'joshua', 'judges', 'ruth', '1-samuel', '2-samuel',
   '1-kings', '2-kings', '1-chronicles', '2-chronicles',
   'ezra', 'nehemiah', 'esther', 'job', 'psalms', 'proverbs',
-  'ecclesiastes', 'song-of-songs', 'isaiah', 'jeremiah',
+  'ecclesiastes', 'song-of-solomon', 'isaiah', 'jeremiah',
   'lamentations', 'ezekiel', 'daniel', 'hosea', 'joel', 'amos',
   'obadiah', 'jonah', 'micah', 'nahum', 'habakkuk', 'zephaniah',
   'haggai', 'zechariah', 'malachi',
+  // NT
   'matthew', 'mark', 'luke', 'john', 'acts',
   'romans', '1-corinthians', '2-corinthians', 'galatians',
   'ephesians', 'philippians', 'colossians',
   '1-thessalonians', '2-thessalonians',
   '1-timothy', '2-timothy', 'titus', 'philemon',
   'hebrews', 'james', '1-peter', '2-peter',
-  '1-john', '2-john', '3-john', 'jude', 'revelation'
+  '1-john', '2-john', '3-john', 'jude', 'revelation',
+  // Deuterocanonical (Vulgate Latin + English rendering, 137 chapters)
+  'tobit', 'judith', 'wisdom-of-solomon', 'sirach',
+  'baruch', '1-maccabees', '2-maccabees',
 ];
 
 const EXTENDED_BOOKS = [
-  'dss-isaiah',
+  // DSS — per-chapter dedicated sites
+  'dss-isaiah', 'dss-deuteronomy', 'dss-1-samuel', 'dss-2-samuel', 'dss-psalms',
+  // LXX — per-chapter dedicated sites
   'lxx-daniel', 'lxx-esther', 'lxx-jeremiah',
   'lxx-isaiah', 'lxx-psalms', 'lxx-proverbs', 'lxx-job',
-  'targum-onkelos', 'targum-jonathan', 'jst', 'samaritan-pentateuch',
-  'vulgate', '1-enoch', 'jubilees'
+  // Interpretive traditions
+  'targum-onkelos', 'targum-jonathan', 'jst', 'samaritan-pentateuch', 'vulgate',
+  // Pre-Nicaea canon
+  '1-enoch', 'jubilees',
 ];
 
 const ALL_BOOKS = [...CANONICAL_BOOKS, ...EXTENDED_BOOKS];
@@ -317,6 +326,22 @@ const TRADITION_ALIASES = {
   'jst':              ['jst'],
   'joseph smith':     ['jst'],
   'hebrew bible':     [],  // generic — no boost
+  // Deuterocanonical / apocrypha — these are now full Bible books on the site
+  // (slug each), so we boost the book slug directly rather than a prefix.
+  'apocrypha':        ['tobit', 'judith', 'wisdom-of-solomon', 'sirach', 'baruch', '1-maccabees', '2-maccabees'],
+  'apocryphal':       ['tobit', 'judith', 'wisdom-of-solomon', 'sirach', 'baruch', '1-maccabees', '2-maccabees'],
+  'deuterocanonical': ['tobit', 'judith', 'wisdom-of-solomon', 'sirach', 'baruch', '1-maccabees', '2-maccabees'],
+  'deuterocanon':     ['tobit', 'judith', 'wisdom-of-solomon', 'sirach', 'baruch', '1-maccabees', '2-maccabees'],
+  'tobit':            ['tobit'],
+  'judith':           ['judith'],
+  'wisdom of solomon':['wisdom-of-solomon'],
+  'ben sira':         ['sirach'],
+  'ecclesiasticus':   ['sirach'],
+  'sirach':           ['sirach'],
+  'baruch':           ['baruch'],
+  'maccabees':        ['1-maccabees', '2-maccabees'],
+  'maccabean':        ['1-maccabees', '2-maccabees'],
+  'hanukkah':         ['1-maccabees', '2-maccabees'],
 };
 
 function detectTraditionPrefixes(query) {
@@ -650,15 +675,26 @@ function buildContext(query) {
   parts.push('=== URL FORMAT GUIDE ===');
   parts.push('Canonical books: /[slug]/[chapter] e.g. /genesis/1');
   parts.push('Verse anchors: /[slug]/[chapter]#v[verse] e.g. /genesis/1#v1');
+  parts.push('Deuterocanonical books (full Bible books — Vulgate Latin + English):');
+  parts.push('  /tobit/[ch] (14 ch), /judith/[ch] (16 ch), /wisdom-of-solomon/[ch] (19 ch)');
+  parts.push('  /sirach/[ch] (51 ch), /baruch/[ch] (6 ch)');
+  parts.push('  /1-maccabees/[ch] (16 ch), /2-maccabees/[ch] (15 ch)');
   parts.push('Per-chapter manuscript-tradition pages (use for direct comparisons):');
-  parts.push('  /dss-isaiah/[ch]   — Dead Sea Scrolls Isaiah (1QIsaᵃ); 66 chapters');
-  parts.push('  /lxx-isaiah/[ch]   — Septuagint Isaiah; 66 chapters');
-  parts.push('  /lxx-psalms/[ch]   — Septuagint Psalter; 150 chapters');
-  parts.push('  /lxx-proverbs/[ch] — Septuagint Proverbs; 31 chapters');
-  parts.push('  /lxx-job/[ch]      — Septuagint Job; 42 chapters');
-  parts.push('  /lxx-jeremiah/[ch] — Septuagint Jeremiah (shorter text); 52 chapters');
-  parts.push('  /lxx-daniel/[ch]   — Septuagint/Theodotion Daniel');
-  parts.push('  /lxx-esther/[ch]   — Greek Esther with additions');
+  parts.push('  /dss-isaiah/[ch]      — Dead Sea Scrolls Isaiah (1QIsaᵃ); 66 chapters');
+  parts.push('  /dss-deuteronomy/[ch] — DSS Deuteronomy (incl. 32:8 sons of God, 32:43 → Heb 1:6)');
+  parts.push('  /dss-1-samuel/[ch]    — DSS 1 Samuel (incl. Nahash paragraph at 11:1)');
+  parts.push('  /dss-2-samuel/[ch]    — DSS 2 Samuel (incl. Solomon\'s gold shields at 8:7)');
+  parts.push('  /dss-psalms/[ch]      — DSS Psalter (11QPsᵃ; incl. Ps 22:16, Ps 145 nun-line, Pss 151A/151B)');
+  parts.push('  /dss-fragments        — 22 books with smaller DSS attestation (anchored sections)');
+  parts.push('  /lxx-isaiah/[ch]      — Septuagint Isaiah; 66 chapters');
+  parts.push('  /lxx-psalms/[ch]      — Septuagint Psalter; 150 chapters');
+  parts.push('  /lxx-proverbs/[ch]    — Septuagint Proverbs; 31 chapters');
+  parts.push('  /lxx-job/[ch]         — Septuagint Job; 42 chapters');
+  parts.push('  /lxx-jeremiah/[ch]    — Septuagint Jeremiah (shorter text); 52 chapters');
+  parts.push('  /lxx-daniel/[ch]      — Septuagint/Theodotion Daniel');
+  parts.push('  /lxx-esther/[ch]      — Greek Esther with additions');
+  parts.push('Per-book interpretive tradition pages: /vulgate/[book] (all 66 books, 808 renderings),');
+  parts.push('  /targum/[book] (Onkelos + Jonathan, 1,001 renderings), /samaritan-pentateuch/[book], /jst');
   parts.push('Free-standing tradition books: /1-enoch/[ch], /jubilees/[ch]');
   parts.push('Tradition landing pages: /jst, /vulgate, /targum, /samaritan-pentateuch');
   parts.push('Tradition-page verse anchors: /lxx-isaiah/53#v11 and similar.');
@@ -672,13 +708,14 @@ function buildContext(query) {
 
 const anthropic = new Anthropic();
 
-const SYSTEM_PROMPT = `You are the search assistant for The Covenant Rendering (TCR), a scholarly open-source Bible translation. The TCR translates all 66 canonical books from the Westminster Leningrad Codex (Old Testament) and SBL Greek New Testament (New Testament), plus Extended Library traditions including Dead Sea Scrolls (DSS), Septuagint (LXX), Targumim, Joseph Smith Translation (JST), Samaritan Pentateuch, Vulgate, 1 Enoch, and Jubilees.
+const SYSTEM_PROMPT = `You are the search assistant for The Covenant Rendering (TCR), a scholarly open-source Bible translation. The TCR translates all 66 canonical books from the Westminster Leningrad Codex (Old Testament) and SBL Greek New Testament (New Testament), and serves the 7 deuterocanonical books (Tobit, Judith, Wisdom of Solomon, Sirach, Baruch, 1 Maccabees, 2 Maccabees) in Jerome's Vulgate Latin with English rendering. The Extended Library also includes manuscript and interpretive traditions: Dead Sea Scrolls (DSS), Septuagint (LXX), Targumim (1,001 entries from Onkelos & Jonathan), Latin Vulgate (808 entries across all 66 books), Joseph Smith Translation (JST), Samaritan Pentateuch, 1 Enoch, and Jubilees.
 
 Rules:
 - Answer questions using ONLY the TCR data provided in the context. Do not use outside knowledge about Bible content.
 - Be THOROUGH. This is an academic project — cite every relevant reference in the data, not just a selection. If the data contains 20 relevant passages, cite all 20.
 - Every claim must cite a specific verse or tradition. Format citations as markdown links: [Genesis 1:1](/genesis/1#v1), [DSS Isaiah 53:4](/dss-isaiah/53#v4), [Psalm 23:1](/psalms/23#v1).
 - For book slugs with numbers, use the format: [1 Samuel 3:10](/1-samuel/3#v10).
+- For deuterocanonical books, link directly like [Tobit 3:11](/tobit/3#v11), [Sirach 24:8](/sirach/24#v8), [1 Maccabees 4:36](/1-maccabees/4#v36), [Wisdom of Solomon 7:26](/wisdom-of-solomon/7#v26). These books are now full Bible books on the site.
 - When a question concerns a manuscript tradition (Septuagint, Dead Sea Scrolls, Vulgate, Targumim, Samaritan, JST), and a per-chapter tradition page exists for that book (see URL FORMAT GUIDE), include a direct link to that page so the reader can browse the variant comparison alongside the base text. E.g., for an Isaiah 53 LXX question: link both [Isaiah 53:11](/isaiah/53#v11) AND [Septuagint Isaiah 53](/lxx-isaiah/53).
 - Be scholarly in tone. Organize responses logically — by book, by theme, or by tradition as appropriate.
 - When discussing translation decisions, reference the translator notes and key terms from the data.
