@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Allegorical Interpretation",
+    "abbreviation": "Leg.",
+    "author": "Philo of Alexandria",
+    "chapter": 3,
+    "source_text": "Cohn-Wendland critical edition (Berlin, 1896-1915), vol. I, as printed in Loeb Classical Library vol. I (Colson and Whitaker, 1929)",
+    "reference_text": "Colson/Whitaker English translation (Loeb I)",
+    "source_edition_apparatus": "Cohn-Wendland I (Berlin, 1896); Sources Chrétiennes 2-3 (Mosès, 1962)",
+    "numbering_note": "Verse field = source §section number per Loeb / Cohn-Wendland sectionalization (Quality Contract §7-8). Chapter 3 = Book III of the Allegorical Interpretation (Leg. III). Books I and II of the treatise have their own chapter files when authored. Only §96 of Book III is present in this Phase A proof-of-concept; Phase C will fill in the remaining sections (§§1-95, 97-253) of Book III.",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Book III of Philo's Allegorical Interpretation. The treatise as a whole is Philo's allegorical reading of Genesis 2:1-3:19 — the Sabbath, the garden, the creation of Eve, the serpent and the fall. Book III runs from Genesis 3:8 ('they hid themselves from the face of the LORD') through Genesis 3:19 ('dust thou art and to dust shalt thou return'). The Logos appears throughout as the rational principle that orients the soul, the instrument through which God acts, and the divine pattern after which Bezaleel — and by extension every wise craftsman — works.",
+    "remarkable": "§96 is one of the most-cited Logos passages in Philo. Reading the name 'Bezaleel' (Hebrew be-tsel-El, 'in the shadow of God') as a coded reference to the Logos, Philo identifies the divine Logos as σκιὰ θεοῦ — the shadow of God — and as the ὄργανον (instrument) by which God created the world. Hebrews 1:3 picks up the same conceptual register when it calls the Son the 'reflection of God's glory and the exact imprint of God's very being.' Origen quotes this Philo passage by name in Commentary on John I.19.",
+    "friction": "Modern readers may stumble at 'shadow' as a description of the Logos — it can sound diminishing, as though the Logos were merely a derivative or insubstantial trace. Philo intends the opposite. The shadow is the projection by which an invisible cause becomes perceptible: where you see the shadow, you know the body is real, and you know its shape. The Logos is what makes God's character visible in the world without compromising God's transcendence.",
+    "connections": "Exodus 31:1-5 LXX (Bezaleel called by name and filled with wisdom to be the architect of the tabernacle — the verse Philo is exegeting); Genesis 1:26-27 (the divine image); Wisdom of Solomon 7:25-26 (Wisdom as 'a breath of the power of God' and 'a spotless mirror of the working of God'); Hebrews 1:3 (the Son as ἀπαύγασμα of God's glory); Colossians 1:15 (the image of the invisible God); Origen, Comm. Jo. I.19 (cites this Philo passage explicitly when developing the Logos's creative role); Justin Martyr, Dial. 61 (the Logos as God's begotten power)."
+  },
+  "verses": [
+    {
+      "verse": 96,
+      "text_greek": "Βεσελεὴλ μὲν δὴ ἑρμηνεύεται ἐν σκιᾷ θεοῦ· σκιὰ δὲ θεοῦ ὁ λόγος αὐτοῦ ἐστιν, ᾧ καθάπερ ὀργάνῳ προσχρησάμενος ἐκοσμοποίει. αὕτη δὲ ἡ σκιὰ καὶ τὸ ὡσανεὶ ἀπεικόνισμα ἑτέρων ἐστὶν ἀρχέτυπον· ὡς γὰρ ὁ θεὸς παράδειγμα τῆς εἰκόνος, ἣν σκιὰν νυνὶ κέκληκεν, οὕτως ἡ εἰκὼν ἄλλων γίνεται παράδειγμα.",
+      "text_reference": "Now Bezaleel, being interpreted, means 'in the shadow of God'; and the shadow of God is His word, which he used like an instrument when he was making the world. But this shadow, and what we may describe as the representation, is the archetype of further things. For just as God is the pattern of the image, to which the title of shadow has just been given, so the image becomes the pattern of other things. (Colson, Loeb I, pp. 364-365)",
+      "rendering": "Bezaleel, translated, means 'in the shadow of God.' God's shadow is his Logos, which he used as an instrument when he was making the world. And this shadow — call it the representation, the cast image — is itself the archetype of further things. For just as God is the pattern of the image (the image Philo has just called a shadow), so that image becomes in turn the pattern of everything else.",
+      "translator_notes": [
+        "Cohn-Wendland I, p. 134; Loeb I, pp. 364-365 (Colson, 1929). The passage exegetes Exodus 31:1-5 LXX, where God appoints Bezaleel to be the master craftsman of the tabernacle. The name בְּצַלְאֵל (be-tsal'el) is read as a compound: be- ('in'), tsel ('shadow'), El ('God') — 'in the shadow of God.' Philo's allegorical move is to identify that 'shadow of God' with the Logos.",
+        "Three Logos titles cluster in this single sentence: (1) σκιὰ θεοῦ — 'shadow of God,' the visible projection of the invisible source; (2) ὄργανον — 'instrument,' the means by which God acts on the world (ἐκοσμοποίει, 'he was making the cosmos'); (3) ἀρχέτυπον — 'archetype,' the model after which all derivative reality is patterned. The Logos is simultaneously God's manifestation, God's instrument, and the pattern of created things.",
+        "Origen, in Commentary on John I.19, cites this exact Philonic move when he wants to ground the Son's creative role in pre-Christian Jewish vocabulary. Hebrews 1:3 (ἀπαύγασμα τῆς δόξης, 'reflection of his glory') is structurally identical: the Son is what makes the invisible Father visible without being a separate divinity. The conceptual machinery is Philo's; Hebrews supplies the personal subject.",
+        "On the chain-of-images logic: God → Logos (as image of God) → cosmos (as image of the Logos). This three-tier ontology — Original, Image-of-the-Original, Image-of-the-Image — runs from Plato's Timaeus through Philo into Plotinus and into the Christian Fathers (Athanasius, De Inc. 3; Augustine, De Trin. VII). The Logos is not a third thing alongside God and creation; it is the one through whom the original makes itself visible.",
+        "Editorial note: the brief for this verse characterized Leg. III.96 as 'Logos as charioteer of the soul.' Verification against the actual Cohn-Wendland §96 shows the section's content is the Bezaleel exegesis (Logos as shadow / instrument / archetype). The 'charioteer of the soul' image appears elsewhere in Philo (Fug. §101; Migr. §67) and may be picked up in a later phase. The §96 content is in fact a stronger Logos-doctrine passage than charioteer for the pre-Nicene reception argument, since both Hebrews 1:3 and the Origenist tradition trade on it directly."
+      ],
+      "key_terms": [
+        {
+          "greek": "σκιά",
+          "transliteration": "skia",
+          "rendered_as": "shadow",
+          "semantic_range": "shadow, shade, outline; in technical philosophical use, the visible projection of an invisible cause",
+          "note": "Not 'shadow' in the sense of 'a faint trace.' Philo uses σκιά in the technical sense familiar from Plato's Republic VII (the cave) and from Hellenistic geometry: a shadow is what makes an invisible body's contour visible without being the body itself. Hebrews 10:1 uses the same word in the negative direction (the Law as σκιά of the good things to come); here Philo uses it positively (the Logos as σκιά of God)."
+        },
+        {
+          "greek": "ὄργανον",
+          "transliteration": "organon",
+          "rendered_as": "instrument",
+          "semantic_range": "tool, implement, instrument; in philosophy, the means through which a cause operates",
+          "note": "The Logos as ὄργανον of creation is the conceptual ancestor of the prepositional pattern δι' οὗ τὰ πάντα ('through whom all things') in 1 Corinthians 8:6 and John 1:3. The instrumental Logos is the one through whom God acts on what God himself does not directly touch."
+        },
+        {
+          "greek": "ἀρχέτυπον",
+          "transliteration": "archetypon",
+          "rendered_as": "archetype",
+          "semantic_range": "original pattern, primary model, the first stamp from which copies are made",
+          "note": "Philo's three-tier cascade — God as archetype of the Logos, Logos as archetype of the cosmos — is the structure Athanasius will later use to argue that the Son must share the Father's substance to truly mediate his image (De Inc. 3; Contra Arianos I.20)."
+        },
+        {
+          "greek": "ἀπεικόνισμα",
+          "transliteration": "apeikonisma",
+          "rendered_as": "representation / cast image",
+          "semantic_range": "likeness, image, copy struck from an original",
+          "note": "The verb ἀπεικονίζω carries the sense of imprinting or stamping a likeness; ἀπεικόνισμα is the result of that stamping. Compare χαρακτήρ ('exact imprint') in Hebrews 1:3, which performs the same conceptual work for the Son."
+        }
+      ],
+      "reading_level": "11th-12th grade"
+    }
+  ]
+}

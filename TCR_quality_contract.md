@@ -37,7 +37,7 @@ These rules were established during the Exodus generation process after QA ident
 - JSON parses without errors
 - Verse count matches expected chapter length
 - All required fields present on every verse
-- Verse numbering is sequential (1, 2, 3...)
+- Verse numbering is sequential (1, 2, 3...) — **exception:** extra-canonical books whose source texts are conventionally cited by §section number (Philo, Josephus, etc.) carry the source §section number directly in the `verse` field; numbers may be non-sequential and the chapter may contain only the §sections so far authored. See §7 standing decision.
 - `rendering` does not match `text_kjv` verbatim
 - `translator_notes` does not contain known boilerplate strings
 - `expanded_rendering` is present on all targeted register-term verses
@@ -119,7 +119,30 @@ All other scaffold chapters in book order.
 | `key_terms` only where theologically significant | Not every verse needs key_terms. Over-annotation dilutes the value of entries that appear. |
 | Reading level targets 8th-10th grade | Comparable to ESV. Accessible but not simplified. |
 | Qere/Ketiv notation: Ketiv `[...]` then Qere `(...)` | Follows WLC/BHS convention (verified against BibleHub WLC, tanach.us, BHS digital editions). Ketiv (written manuscript text) in square brackets appears first; Qere (traditional reading) in parentheses appears second. Example: `[ישגלנה] (יִשְׁכָּבֶ֔נָּה)` in Deut 28:30. |
+| Verse field = source §section for §-numbered extra-canonical texts | For texts whose received scholarly citation form is §section (Philo treatises, Josephus, certain pseudepigrapha and patristic works), the `verse` field carries the source §section number directly. Loeb / critical-edition citations land at URLs that match the citation — e.g., Conf. 146 → `/philo-conf/1/146`. The sequential-numbering validation check (§2) is waived for these books. Every chapter file declares the convention in `meta` and in the first verse's `translator_notes`. For multi-book treatises (e.g., Allegorical Interpretation = *Leg.* I–III; Special Laws = *Spec.* I–IV), `chapter` carries the Roman book number; `verse` carries the §section within that book. |
+| Source-edition citation required on each verse for extra-canonical material | Every verse in an extra-canonical book cites the critical edition it works from (Loeb volume + page, Cohn-Wendland, Niese, Charlesworth, etc.) in `translator_notes`. Raises the bar from "AI-generated rendering" to scholarly resource per `TCR_roadmap.md` §13. |
+| Reading-level target for patristic / scholarly material: 11th–12th grade | Raised from the canonical-Bible 8th–10th-grade target per `TCR_roadmap.md` §14. Applies to Philo, Josephus, pseudepigrapha, apostolic fathers, apologists, ante-Nicene fathers, patristic commentaries. |
 
 ---
 
-*Version 2.0 — 2026-03-28*
+## 8. Extra-Canonical §-Numbered Source Texts — Authoring Convention
+
+Established 2026-05-11 with the first 10 Philo Logos selections.
+
+**Problem.** Philo, Josephus, and a number of patristic and pseudepigraphal texts are not divided into chapters and verses in their original transmission. The scholarly convention since the 19th century is to cite them by §section number — a continuous Loeb / Cohn-Wendland / Niese / Sources Chrétiennes numbering that runs from the start of each treatise (or each Roman book within a multi-book treatise). A scholar citing "Conf. 146" expects to land at Philo, *De confusione linguarum* §146, not at a synthetic chapter-and-verse coordinate.
+
+**Convention.**
+1. The `verse` field carries the source §section number directly. Numbers may be non-sequential within a chapter file when only some §sections have been authored.
+2. For single-book treatises (e.g., *Conf.*, *Migr.*, *Cher.*, *Heres.*, *Opif.*): `chapter: 1`, with all §sections residing in `chapter-01.json`.
+3. For multi-book treatises (e.g., *Leg.* I–III, *Somn.* I–II, *Spec.* I–IV): `chapter` = Roman book number (Leg. III.96 → `chapter: 3, verse: 96`). The `chapter-NN.json` filename uses the Roman book number padded to two digits.
+4. The chapter `meta` block declares the convention in a `numbering_note` field.
+5. The first authored verse of each treatise carries a `translator_note` that explicitly states the convention so future authors and readers see the mapping immediately.
+6. Source-edition citation (Loeb volume + page, plus Cohn-Wendland / Niese / Sources Chrétiennes critical-text reference) is required on every verse — placed in `translator_notes`.
+7. Verse-object field schema for Greek-source extra-canonical books: `text_greek` (Greek from the critical edition) + `text_reference` (received English translation — Loeb's Colson/Whitaker for Philo, Thackeray/Marcus for Josephus, Charlesworth/Sparks for pseudepigrapha). Hebrew bible's `text_hebrew` + `text_kjv` schema is bible-canonical only.
+8. Where the chapter is sparse (only one or a few §sections authored as proof-of-concept), the chapter `preamble` block notes which §sections are present and which remain for later phases.
+
+This convention preserves citation integrity from day one: URLs match scholarly citations, and Phase C's eventual full-corpus expansion adds §sections in place without URL migration.
+
+---
+
+*Version 2.1 — 2026-05-11*

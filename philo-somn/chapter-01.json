@@ -1,0 +1,69 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "On Dreams",
+    "abbreviation": "Somn.",
+    "author": "Philo of Alexandria",
+    "chapter": 1,
+    "source_text": "Cohn-Wendland critical edition (Berlin, 1896-1915), vol. III, as printed in Loeb Classical Library vol. V (Colson and Whitaker, 1934)",
+    "reference_text": "Colson/Whitaker English translation (Loeb V)",
+    "source_edition_apparatus": "Cohn-Wendland III (Berlin, 1898); Sources Chrétiennes 19 (Savinel, 1962)",
+    "numbering_note": "Verse field = source §section number per Loeb / Cohn-Wendland sectionalization (Quality Contract §7-8). Chapter 1 = Book I of De somniis (Somn. I). Book II is its own chapter file when authored. Only §230 of Book I is present in the Phase A proof-of-concept; Phase C will fill in §§1-229 and 231-256.",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Book I of Philo's On Dreams. The treatise as a whole reads the great Pentateuchal dream-narratives — Jacob's ladder (Genesis 28:10-22), Jacob's speckled-flock vision (Genesis 31:10-13), Joseph's dreams (Genesis 37:5-11), and the dreams of Pharaoh's officials (Genesis 40-41) — as records of how God communicates with the human soul in sleep. The theological climax of Book I is §§229-230, where Philo exegetes Genesis 31:13 LXX ('I am the God who appeared to thee in the place of God') and notes the precise grammar: the speaker calls himself θεός (no article, a god) and calls the higher reference 'in the place of θεοῦ' (with article, of the God). The grammatical distinction yields Philo's most explicit binitarian formulation: the Logos is a 'second God,' called god (θεός) without the article that marks the supreme God (ὁ θεός).",
+    "remarkable": "The 'second God' (deuteros theos) reading at Somn. I.§230 is the single most famous Philonic Logos passage in pre-Nicene Christian usage. Origen cites it directly at Commentary on John II.2 when defending the distinction between ὁ θεός and θεός in John 1:1b–c ('the Logos was with the God [ὁ θεός], and the Logos was God [θεός, no article]'). The Arian controversy of the fourth century inherits this distinction: the Arians argued the Logos was 'god' in Philo's anarthrous sense, a creature of the highest rank but not co-equal with the Father; the Nicene party closed the gap by deciding that the anarthrous θεός is in fact ὁ θεός, of one substance with the Father. Pre-Nicene Christology runs on Philonic grammar; Nicaea resolves it.",
+    "friction": "Philo's 'second god' has been read in three opposite ways. (1) As subordinationism: there are two divinities, one higher and one lower. (2) As polite metaphor: there is one God; the Logos is called 'god' loosely. (3) As proto-binitarian theology: God's essence is one, but the operative-revelatory aspect (Logos) is distinguishable enough to be named. The text supports all three readings, which is exactly why Philo became serviceable to so many theological tendencies. Modern scholarship (Goodenough, Wolfson, Hurtado, Bauckham, Boyarin) treats §230 as a key witness to the diversity of pre-Christian Jewish God-talk and to the unfinished business that Christianity will later finish in one direction (Nicene homoousios) and rabbinic Judaism in another (the 'Two Powers in Heaven' interdiction at b. Sanhedrin 38b).",
+    "connections": "Genesis 31:10-13 LXX (the speckled-flock vision; the angel-Logos saying 'I am the God who appeared to thee in the place of God'); Genesis 28:10-22 (Jacob's ladder, the Book I opening); John 1:1 ('the Logos was with God [ὁ θεός], and the Logos was God [θεός]' — the anarthrous/articular distinction is exactly Philonic); John 1:18 ('the only-begotten God [theos, anarthrous] who is in the bosom of the Father'); Origen, Comm. Jo. II.2 (cites Somn. I.§230 explicitly when arguing the grammar of John 1:1c); Justin Martyr, Dial. 56 ('another god and lord under the Maker of all'); Eusebius, Praep. Ev. VII.13 (preserves the binitarian Philo as theologically respectable)."
+  },
+  "verses": [
+    {
+      "verse": 230,
+      "text_greek": "καλεῖ δὲ θεὸν τὸν πρεσβύτατον αὐτοῦ νυνὶ λόγον, οὐ δεισιδαιμονῶν περὶ τὴν θέσιν τῶν ὀνομάτων, ἀλλ' ἓν τέλος προτεθειμένος, πραγματολογῆσαι· ἐν ἑτέροις γὰρ σκοπῶν εἰ ὀνομάζεταί τινι κυρίῳ ὀνόματι τὸ ὂν φησιν 'οὐ τοὐμὸν ὄνομά ἐστι κύριον', ἵνα τὸ μὲν ὂν εἰδῇ τὸ γένος, ὁ δὲ δεύτερος θεὸς ἐν δευτέρᾳ τάξει κατονομάζηται.",
+      "text_reference": "He here gives the title of 'God' to his chief Word, not from any superstitious nicety in his use of names, but with one single aim before him, to describe the fact. In another place, considering whether the Existent has any proper name, he tells us plainly that He has no proper name, and that whatever name anyone may use of Him will be used by license of language — so that the Existent may remain in its own class, and only the second God may be named in second rank. (Colson, Loeb V, pp. 420-421)",
+      "rendering": "Here Moses gives the title 'God' to God's most ancient Logos — not out of superstitious caution about how words attach to things, but because he has one purpose: to describe the fact. Elsewhere, when Moses considers whether the One Who Is can be addressed by any proper name, he says plainly: 'My name is not a name proper to me.' The One Who Is keeps its own class; the second god is named in second rank.",
+      "expanded_rendering": "Philo is reading the precise grammar of Genesis 31:13 in the Greek. The speaker — the angel of God in Jacob's dream — says of himself 'I am θεός' (with no definite article), and of the higher reference 'in the place of θεοῦ' (which Philo reads as implying the articular ὁ θεός). The distinction is not Moses's verbal slip. The supreme God, the One Who Is (τὸ ὄν / ὁ ὤν), is in its own class beyond any proper name; the Logos, when called 'god,' takes the anarthrous form on purpose, because it is the second-rank named divinity — a god but not the God. This single sentence becomes the most-quoted Philo passage in the Origenist-Arian-Nicene Logos debate.",
+      "translator_notes": [
+        "Cohn-Wendland III, p. 254; Loeb V, pp. 420-421 (Colson, 1934). The §-section is the climax of Philo's exegesis of Genesis 31:11-13, where Jacob recounts his dream of the angel who said 'I am the God of Bethel.' Philo treats the angel as the Logos and reads the Greek of Genesis 31:13 LXX with grammatical precision: ἐγώ εἰμι ὁ θεός ὁ ὀφθείς σοι ἐν τόπῳ θεοῦ. The first 'God' (ὁ θεός) is articular and self-referential by the speaker; the second (θεοῦ) governs the prepositional phrase 'in the place of.' But Philo's interpretive move applies the contrast in the opposite direction: the speaker takes the anarthrous form on himself, and the articular form belongs to the One the speaker stands in for.",
+        "Editorial note on §section substitution: the original brief named Somn. I.§215 (characterized as 'Logos as God's Name'). On review, §230 — the explicit 'second god' (δεύτερος θεός) sentence — is the load-bearing Somn. I passage for the pre-Nicene Tier S corroboration argument and is what Origen cites by name in Commentary on John II.2 when defending the anarthrous-θεός reading of John 1:1c. The 'Logos as Name of God' theme is already carried at Conf. §146's title-catalog. The selection was upgraded; the substitution is documented here and in the SoT change log. Phase C may add §215 if a separate Name-theology entry is desired.",
+        "On the anarthrous θεός question: Origen's Commentary on John II.2 is the locus classicus. Origen argues that John 1:1c (καὶ θεὸς ἦν ὁ λόγος, 'and the Logos was god') uses the anarthrous form on purpose, by way of Philonic precedent: the Logos is θεός but not ὁ θεός. This is the verbal seed of the entire Origenist subordinationist tradition and of the Arian controversy that the Council of Nicaea (325) and the Council of Constantinople (381) eventually close. Modern Johannine commentaries (Brown, Schnackenburg, Keener) regularly note the parallel to Philo Somn. I.230 in their treatment of John 1:1.",
+        "On δεισιδαιμονῶν περὶ τὴν θέσιν τῶν ὀνομάτων — 'superstitious about the placement of names' — Philo is signaling that he is not naively committed to verbal exactness for its own sake, only for the sake of the conceptual fact being described. The disclaimer matters because it tells later readers (and tells Origen specifically) that the distinction θεός / ὁ θεός is doctrinal, not merely orthographic.",
+        "On τὸ ὄν (or ὁ ὤν, 'the Existing One' / 'the One Who Is') as Philo's preferred designation of the supreme God: this language goes back to Exodus 3:14 LXX, where God says to Moses ἐγώ εἰμι ὁ ὤν ('I am the One Who Is'). Philo and the Septuagintal Jewish tradition treat ὁ ὤν as God's most exact philosophical designation. The Logos, by contrast, is named — has a 'proper name' (κύριον ὄνομα) — exactly because it stands in the realm where naming is possible. Naming is what the Logos does; the One Who Is is what naming cannot reach."
+      ],
+      "key_terms": [
+        {
+          "greek": "δεύτερος θεός",
+          "transliteration": "deuteros theos",
+          "rendered_as": "second god",
+          "semantic_range": "second-rank god; the divinity that is one ordinal step below the supreme",
+          "note": "Lowercase 'god' in the rendering to mark the anarthrous-θεός sense Philo carefully distinguishes from ὁ θεός. This is THE phrase that Origen, Justin, Eusebius, and the Arian controversialists will all be working with. It is also the phrase rabbinic Judaism will eventually treat as heretical (b. Sanhedrin 38b's 'Two Powers in Heaven')."
+        },
+        {
+          "greek": "τὸ ὄν / ὁ ὤν",
+          "transliteration": "to on / ho ōn",
+          "rendered_as": "the One Who Is / the Existent",
+          "semantic_range": "the truly existing reality; that which simply is; the philosophical equivalent of the biblical 'I AM'",
+          "note": "Philo's most rigorous designation of the supreme God, derived from Exodus 3:14 LXX (ἐγώ εἰμι ὁ ὤν). The point: God's most proper designation is not a 'name' at all but a present participle ('the One Who Is'), because naming presupposes class-membership and God transcends every class. This is the conceptual ancestor of the medieval Christian doctrine of divine simplicity (Aquinas, Summa Theol. I.13.11 — 'He Who Is' as the most proper divine name)."
+        },
+        {
+          "greek": "πρεσβύτατος λόγος",
+          "transliteration": "presbytatos logos",
+          "rendered_as": "most ancient Logos",
+          "semantic_range": "the eldest Logos; the most senior produced reality; the Logos under its filial / pre-cosmic aspect",
+          "note": "Same superlative Philo applies to the Logos at Conf. §63 (πρεσβύτατος υἱός, 'eldest son'), Conf. §146 (πρεσβύτατος ἄγγελος, 'eldest of his angels'), and Migr. §6 (πρεσβύτατος τῶν ὅσα γέγονε, 'the most ancient of things that have come into being'). The convergence of the title across treatises is one of the strongest pieces of evidence that Philo's Logos doctrine is consistent and load-bearing, not occasional."
+        },
+        {
+          "greek": "κύριον ὄνομα",
+          "transliteration": "kyrion onoma",
+          "rendered_as": "proper name",
+          "semantic_range": "name in the strict, classifying sense; the name that belongs to a being by its nature, as opposed to a borrowed or honorific title",
+          "note": "Philo's technical distinction between κύριον ὄνομα (proper name, a name that classifies) and ὄνομα ἐν καταχρήσει (a borrowed name, used by license). The supreme God transcends κύριον ὄνομα; the Logos has one. This distinction will be picked up by Christian apophatic theology — Pseudo-Dionysius, Divine Names — and by the entire medieval Christian doctrine of analogy."
+        }
+      ],
+      "reading_level": "11th-12th grade"
+    }
+  ]
+}

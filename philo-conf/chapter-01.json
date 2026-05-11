@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "On the Confusion of Tongues",
+    "abbreviation": "Conf.",
+    "author": "Philo of Alexandria",
+    "chapter": 1,
+    "source_text": "Cohn-Wendland critical edition (Berlin, 1896-1915), vol. II, as printed in Loeb Classical Library vol. IV (Colson and Whitaker, 1932)",
+    "reference_text": "Colson/Whitaker English translation (Loeb IV)",
+    "source_edition_apparatus": "Cohn-Wendland II (Berlin, 1897); Sources Chrétiennes 13 (Mosès, 1963)",
+    "numbering_note": "Verse field = source §section number per Loeb / Cohn-Wendland sectionalization (Quality Contract §7-8). Only §§63 and 146 are present in the Phase A proof-of-concept; Phase C will fill in the remaining sections (§§1-62, 64-145, 147-198) of this treatise.",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Philo's exegesis of Genesis 11:1-9 — the Tower of Babel and the confusion of tongues. The literal narrative becomes the occasion for Philo's most sustained treatment of the Logos doctrine, because the question of language (one vs. many) opens onto the question of mediation (One God vs. the plurality of his operations). Two §sections from this treatise carry decisive weight in pre-Nicene Christian reception: §63, where Zechariah 6:12 LXX is applied to the Logos as eldest son / firstborn; and §146, where Philo catalogs five titles of the Logos in a single sentence.",
+    "remarkable": "Conf. §146 is the single most-quoted §section of Philo in pre-Nicene Christian writers — Justin Martyr (Dial. 56-63), Clement of Alexandria (Strom. V.6, V.14), Origen (Comm. Jo. I.19, I.39; Cels. V.39), and Eusebius (Praep. Ev. VII.13) all cite or paraphrase it. The five titles — ἀρχή (beginning / authority), ὄνομα θεοῦ (Name of God), λόγος (Word), ὁ κατ' εἰκόνα ἄνθρωπος (Man after the Image), ὁρῶν Ἰσραήλ (the One Who Sees, Israel) — supply the vocabulary that John 1, Colossians 1, Hebrews 1, and Revelation 19 will all deploy when describing Christ. §63's identification of the Logos with the Zech 6:12 'Branch / Rising' (Hebrew tsemach, Greek ἀνατολή) is the same Jewish-messianic exegesis that Luke 1:78 will quote ('the rising from on high has visited us') and that the Septuagint of Jeremiah 23:5 and Zechariah 3:8 already trades on.",
+    "friction": "Philo's Logos is plural-titled to the point that some interpreters have read him as proto-Trinitarian. He calls the Logos 'a second God' (deuteros theos) in Quaestiones in Genesim II.62, and in Conf. §146 he describes the Logos as the heavenly Man / Image of God — language that hovers near hypostatization without quite arriving. The friction: is Philo personifying a divine attribute, or describing a real distinct hypostasis within God? Pre-Nicene Christianity took the latter reading; rabbinic Judaism rejected it (b. Sanhedrin 38b). Both heirs are working with Philo's vocabulary.",
+    "connections": "Genesis 11:1-9 (the surface narrative of the Tower); Zechariah 6:12 LXX (the 'man whose name is Branch / Rising' — Philo's prooftext at §63); Jeremiah 23:5 LXX, 33:15 LXX (the Davidic 'righteous Branch'); Luke 1:78 ('the rising from on high'); John 1:1-18 (the Logos hymn); Colossians 1:15 (the image of the invisible God, the firstborn); Hebrews 1:3 (the reflection of God's glory); Revelation 19:13 (his name is called the Logos of God); Justin Martyr, Dial. 56-62 (the 'second God' argument applies Zech 6:12 + Genesis theophanies to Christ); Origen, Comm. Jo. I.19, I.39 (cites Conf. §146 by name when developing the Logos's eternal generation); Eusebius, Praep. Ev. VII.13 (preserves the Philonic Two Powers + Logos framework as theologically respectable)."
+  },
+  "verses": [
+    {
+      "verse": 63,
+      "text_greek": "τοιοῦτον ἤκουσα καί τινος τῶν Μωυσέως ἑταίρων ἀναφθεγξαμένου λόγιον· 'ἰδοὺ ἄνθρωπος ᾧ ὄνομα ἀνατολή.' καινοτάτη γε πρόσρησις, ἐάν γε τὸν ἐκ σώματος καὶ ψυχῆς συνεστῶτα οἴηταί τις λέγεσθαι· εἰ δὲ τὸν ἀσώματον ἐκεῖνον, θείας ἀδιαφοροῦντα ἰδέας, ὁμολογήσει τὸ ὄνομα εὐθυβολώτατα κεῖσθαι τῷ πρεσβυτάτῳ υἱῷ, ὃν ὁ τῶν ὅλων ἀνέτειλε πατήρ, ὃν ἑτέρωθι πρωτόγονον ὠνόμασε.",
+      "text_reference": "I have heard one of the companions of Moses utter such an oracle: 'Behold, a man whose name is the East!' A strange title indeed, if you suppose what is described to be composed of body and soul; but if you take it to be that incorporeal being who is in no way distinct from the divine Image, you will recognize that the name has been most accurately given to the eldest son, whom the Father of all caused to rise up, and whom elsewhere he calls his firstborn. (Colson, Loeb IV, pp. 44-45)",
+      "rendering": "I have also heard one of the companions of Moses deliver this oracle: 'Behold, a man whose name is Rising.' A startling title, if you take it to mean someone made of body and soul. But if you take it to refer to that incorporeal one who is in no way separate from the divine Image, you will see that the name fits with perfect accuracy: it belongs to the eldest son, the one the Father of all caused to rise up — the one he elsewhere calls his firstborn.",
+      "translator_notes": [
+        "Cohn-Wendland II, p. 240; Loeb IV, pp. 44-45 (Colson, 1932). The 'oracle' Philo quotes is Zechariah 6:12 LXX: ἰδοὺ ἀνὴρ Ἀνατολὴ ὄνομα αὐτῷ — 'Behold a man whose name is Rising / Branch / East.' The Hebrew underlying ἀνατολή is צֶמַח (tsemach, 'sprout / branch'), a messianic title also at Jeremiah 23:5, 33:15 and Zechariah 3:8. The Septuagint translators rendered it ἀνατολή, which carries the sense of both botanical sprouting and astronomical rising — and it is the latter sense Luke 1:78 picks up when Zechariah's father blesses 'the rising from on high.'",
+        "Philo's exegetical move: the Zechariah oracle cannot be talking about a human body-and-soul figure, because the title is too elevated. Therefore it must refer to the incorporeal Logos — 'in no way separate from the divine Image' — whom God 'caused to rise up' as πρεσβύτατος υἱός (eldest son) and elsewhere calls πρωτόγονος (firstborn). The same chain of identifications (Branch / Rising → eldest son → firstborn → image) is what Colossians 1:15 (πρωτότοκος πάσης κτίσεως, 'firstborn of all creation') and Hebrews 1:6 ('the firstborn into the world') will deploy in their Christology.",
+        "Justin Martyr, Dialogue with Trypho §§56-62, makes the identical argument: the 'man' of certain Old Testament theophanies (Gen 18-19 at Mamre, Joshua 5:13-15, Daniel 7) is not a created angel and not the high God, but the divine Logos — 'another God and Lord' under the Father. Justin's argument is structurally identical to Philo's here. The conceptual continuity is one of the strongest pieces of evidence that pre-Nicene Christology was a development of pre-Christian Hellenistic Jewish theology, not a Hellenistic innovation imposed on a Semitic-only original.",
+        "On ἀνατολή as both 'rising' and 'east' — Philo's pun is preserved in Greek but breaks in English. The Logos 'rises' (verb ἀνατέλλω, hence the participle ἀνέτειλε just used: 'the Father caused him to rise up') the way the sun rises in the east, the way a sprout rises from the ground. The rendering keeps 'Rising' to preserve at least the verbal echo with ἀνέτειλε."
+      ],
+      "key_terms": [
+        {
+          "greek": "ἀνατολή",
+          "transliteration": "anatolē",
+          "rendered_as": "Rising",
+          "semantic_range": "rising (of sun, star, plant), east, branch, sprout",
+          "note": "Septuagintal rendering of Hebrew tsemach ('branch / sprout') in the messianic prophecies of Jeremiah 23:5, 33:15, Zechariah 3:8, and Zechariah 6:12. The Greek term carries both botanical and astronomical senses — a plant springing up and the sun rising — and Philo trades on both."
+        },
+        {
+          "greek": "πρεσβύτατος υἱός",
+          "transliteration": "presbytatos huios",
+          "rendered_as": "eldest son",
+          "semantic_range": "the most senior son; the firstborn; the elder",
+          "note": "Philo's preferred filial title for the Logos. πρεσβύτατος is a superlative ('eldest, most senior') rather than the relative πρότερος. The Logos is not merely older than other heavenly beings but the most senior in absolute terms. This title sits behind 'firstborn of all creation' in Colossians 1:15."
+        },
+        {
+          "greek": "πρωτόγονος",
+          "transliteration": "prōtogonos",
+          "rendered_as": "firstborn",
+          "semantic_range": "firstborn, first-begotten; in Hellenistic Jewish usage, the unique offspring",
+          "note": "Philo's other principal filial title for the Logos (Conf. §63, §146; Agr. §51; Somn. I.215). Conceptually equivalent to πρωτότοκος, which is what Colossians 1:15 uses ('firstborn of all creation'). The variation is a matter of lexical preference; Philo's πρωτόγονος is the older Greek word."
+        }
+      ],
+      "reading_level": "11th-12th grade"
+    },
+    {
+      "verse": 146,
+      "text_greek": "ἐὰν δὲ μηδέπω τυγχάνῃ τις ἀξιόχρεως ὢν υἱὸς θεοῦ προσαγορεύεσθαι, σπευδέτω κοσμεῖσθαι κατὰ τὸν πρωτόγονον αὐτοῦ λόγον, τὸν ἄγγελον πρεσβύτατον, ὡς ἂν ἀρχάγγελον πολυώνυμον ὑπάρχοντα· καὶ γὰρ ἀρχὴ καὶ ὄνομα θεοῦ καὶ λόγος καὶ ὁ κατ' εἰκόνα ἄνθρωπος καὶ ὁρῶν Ἰσραὴλ προσαγορεύεται.",
+      "text_reference": "But if there be any as yet unfit to be called a son of God, let him press to take his place under God's firstborn Word, the eldest of his angels — the great archangel of many names. For he is called the Beginning, and the Name of God, and his Word, and the Man-after-his-image, and the Seer, even Israel. (Colson, Loeb IV, pp. 88-91)",
+      "rendering": "If anyone is not yet worthy to be called a son of God, let him strive to take his place beneath God's firstborn Logos — the eldest of God's angels, the archangel of many names. For the Logos is called: the Beginning, and the Name of God, and the Word, and the Man-after-the-Image, and the One-Who-Sees, who is Israel.",
+      "expanded_rendering": "Philo gathers in a single sentence five separate titles the Logos has been given across his other treatises. The Logos is the Beginning (ἀρχή) by which everything else begins. The Logos is the Name of God (ὄνομα θεοῦ) — the way God's hidden essence becomes spoken and known. The Logos is the Word (λόγος) itself, the rational utterance God speaks. The Logos is the Man-after-the-Image (ὁ κατ' εἰκόνα ἄνθρωπος) — the archetypal heavenly Adam after whom the earthly human was patterned in Genesis 1:26-27. And the Logos is Israel — ὁρῶν, 'the one who sees,' since Philo etymologizes Israel as ish-ra'ah-El, 'the man who sees God.' Five names; one mediator.",
+      "translator_notes": [
+        "Cohn-Wendland II, p. 257; Loeb IV, pp. 88-91 (Colson, 1932). This is the single most-cited Philo passage in pre-Nicene Christian Logos-theology. Justin Martyr quotes it (Dial. 61). Clement of Alexandria deploys it (Strom. V.6). Origen cites it directly in Commentary on John I.19 and I.39 when developing the doctrine of the eternal generation of the Son. Eusebius preserves the surrounding passages in Praeparatio Evangelica VII.13.",
+        "The five titles in their Greek order — ἀρχή, ὄνομα θεοῦ, λόγος, ὁ κατ' εἰκόνα ἄνθρωπος, ὁρῶν Ἰσραήλ — supply the vocabulary that the New Testament Christology will inherit. ἀρχή appears at Colossians 1:18 ('he is the beginning'), Revelation 3:14 ('the Beginning of God's creation'), Revelation 21:6 / 22:13 ('the Beginning and the End'). ὄνομα θεοῦ stands behind John 17:6, 11, 26 ('I have manifested your name'). ὁ λόγος is what John 1:1-14 will say became flesh. ὁ κατ' εἰκόνα ἄνθρωπος runs into 1 Corinthians 15:45-49 (the second Adam / heavenly man) and into Colossians 3:10 / Ephesians 4:24 (the new humanity 'after the image of the one who created'). ὁρῶν Ἰσραήλ is the etymological figure of the patriarch as model contemplative — the one whose eyes see God.",
+        "ἀρχάγγελος πολυώνυμος — 'archangel of many names' — is Philo's resolution of how a single mediator can carry so many titles. The Logos is not five different beings; it is one being to which language must approach by way of many partial titles. The same logic is at work in the Christian theological grammar of divine names (Pseudo-Dionysius, Divine Names) and at work, in concentrated form, in the multi-titled Christ of John's Revelation.",
+        "On the rendering of ὁρῶν Ἰσραήλ as 'the One-Who-Sees, who is Israel': Philo etymologizes the name Israel (יִשְׂרָאֵל) as ish ra'ah El — 'man / one who sees God' — across his corpus (Cher. §31, Praem. §44, Mut. §81, etc.). The etymology is allegorical, not philological, but it is consistent throughout Philo and constitutive of his presentation of Israel as the contemplative people. The Logos as 'the One-Who-Sees' is therefore the head and archetype of the contemplative life — the seer of seers.",
+        "Note Philo's logic structure: those not yet fit to be called sons of God should take refuge under the firstborn. The Logos is the umbrella under which lesser beings find their place. Galatians 4:1-7 (sons by adoption through the Spirit of his Son) and Romans 8:14-17 (those led by the Spirit are sons of God) ride on a structurally identical move."
+      ],
+      "key_terms": [
+        {
+          "greek": "ἀρχή",
+          "transliteration": "archē",
+          "rendered_as": "Beginning",
+          "semantic_range": "beginning, origin, first principle, rule, authority, dominion; the start that governs what follows",
+          "note": "Capitalized to mark its hypostatic use here. ἀρχή carries both temporal sense (first in time) and ontological sense (first in causal order). Colossians 1:18 calls Christ ἡ ἀρχή; Revelation 3:14, 21:6, 22:13 develop the title; John 1:1 (Ἐν ἀρχῇ) trades on the Genesis 1:1 LXX use of the same word."
+        },
+        {
+          "greek": "ὄνομα θεοῦ",
+          "transliteration": "onoma theou",
+          "rendered_as": "Name of God",
+          "semantic_range": "the divine Name; the spoken form by which the hidden essence becomes addressable",
+          "note": "In ancient Jewish theology, the Name of God is the operative presence of God in the world — what becomes known when the essence is unspeakable. Philo's identification of the Logos with the Name (also at Somn. I.§215) is a major pre-Christian witness to Name-theology, which runs into rabbinic Shem ha-Mephorash speculation, into the gospel of John's 'I have manifested your name' (John 17:6), and into the Apocalypse's 'name written that no one knows but himself' (Revelation 19:12-13)."
+        },
+        {
+          "greek": "ὁ κατ' εἰκόνα ἄνθρωπος",
+          "transliteration": "ho kat' eikona anthrōpos",
+          "rendered_as": "the Man-after-the-Image",
+          "semantic_range": "the heavenly archetypal human; the man patterned after the divine image of Genesis 1:26-27",
+          "note": "Philo distinguishes the heavenly Man (Genesis 1:26-27, made after the image) from the earthly Adam (Genesis 2:7, formed from dust) — a two-Adam reading that 1 Corinthians 15:45-49 inherits and Christologizes. The Logos as ὁ κατ' εἰκόνα ἄνθρωπος is the heavenly humanity in whose image the earthly was made and into whose image the earthly is restored."
+        },
+        {
+          "greek": "ὁρῶν Ἰσραήλ",
+          "transliteration": "horōn Israēl",
+          "rendered_as": "the One-Who-Sees, who is Israel",
+          "semantic_range": "the seer Israel; the contemplative one; the etymologized patriarchal title",
+          "note": "Philo's standard etymological gloss of Israel — 'one who sees God' — applied to the Logos as the archetypal seer. Theological consequence: the Logos is the head of the contemplative race, the one through whom God becomes visible to the human spirit. Pre-figures the Johannine 'no one has seen God; the only-begotten God, who is in the bosom of the Father, has made him known' (John 1:18)."
+        },
+        {
+          "greek": "ἀρχάγγελος πολυώνυμος",
+          "transliteration": "archangelos polyōnymos",
+          "rendered_as": "archangel of many names",
+          "semantic_range": "chief messenger of many titles; the highest mediator under multiple appellations",
+          "note": "Not an angel in the New Testament sense of a created messenger. Philo's ἀρχάγγελος here is the chief mediator — equivalent to the Logos under its messenger / interpreter aspect. 'Of many names' (πολυώνυμος) is Philo's signal that the multiplicity of titles points to a single referent."
+        }
+      ],
+      "reading_level": "11th-12th grade"
+    }
+  ]
+}

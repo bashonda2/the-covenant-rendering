@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Who Is the Heir of Divine Things",
+    "abbreviation": "Heres.",
+    "author": "Philo of Alexandria",
+    "chapter": 1,
+    "source_text": "Cohn-Wendland critical edition (Berlin, 1896-1915), vol. III, as printed in Loeb Classical Library vol. IV (Colson and Whitaker, 1932)",
+    "reference_text": "Colson/Whitaker English translation (Loeb IV)",
+    "source_edition_apparatus": "Cohn-Wendland III (Berlin, 1898); Sources Chrétiennes 15 (Harl, 1966)",
+    "numbering_note": "Verse field = source §section number per Loeb / Cohn-Wendland sectionalization (Quality Contract §7-8). Only §205 is present in the Phase A proof-of-concept; Phase C will fill in the remaining sections (§§1-204, 206-316) of this treatise. §206 in particular — containing the 'neither uncreated nor created' formula with Deuteronomy 5:5 quoted — is a natural early-Phase-C addition since it completes the §§205-206 unit.",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Philo's treatise on Genesis 15:2-18 — Abraham's complaint that he is childless and God's covenantal answer. The exegetical centerpiece is Genesis 15:10 (Abraham 'divided' the sacrificial animals 'in the midst'), which Philo reads as a parable of cosmic division: the Logos is the divider of all things, the one who stands at every boundary keeping each thing in its place. §205 names the Logos's office in this dividing role: he is the appointed border between God and creation.",
+    "remarkable": "Heres. §205 (with §206 immediately following) is the single most-cited Philo passage in modern scholarship on Christology and the Two-Natures problem. The image is precise: the Logos is appointed by the Father to stand on the border (μεθόριος) and to keep creature distinct from Creator. §206 elaborates with Deuteronomy 5:5 (Moses says, 'I stood between the Lord and you') and adds the famous formula — the Logos is 'neither uncreated like God nor created like you, but in the middle of the extremes, as a hostage to both parties' — that the Arian controversy will later turn on. Pre-Nicene Christianity inherits Philo's middle-Logos and reaches the Nicene homoousios by deciding the question Philo leaves open: is the mediator on the God side of the border or the creature side?",
+    "friction": "The 'in the middle' language can be read in two opposite directions. Read up: the Logos is a created intermediary, ontologically lower than God. Read down: the Logos is a divine emanation, ontologically higher than creation. Philo himself does not resolve this — he calls the Logos 'God' (theos without article) in Somn. I.229-230 and 'second God' (deuteros theos) in QG II.62, but he also describes the Logos as 'created' in Sacr. §8 and elsewhere. The unresolved tension is what made Philo serviceable for both Origenist subordinationism and (eventually) for the Nicene party that rejected it.",
+    "connections": "Genesis 15:2-18 (the surface text of the treatise); Genesis 15:10 (Abraham dividing the sacrificial animals — the exegetical hinge); Deuteronomy 5:5 (Moses 'I stood between the LORD and you' — quoted in §206); 1 Timothy 2:5 ('one mediator between God and humanity, the man Christ Jesus' — the same μεσιτ- structural concept); Hebrews 8:6, 9:15, 12:24 (Christ as mediator of a better / new covenant); Hebrews 7:25 ('he always lives to make intercession' — the suppliant office of §205); Justin Martyr, Dial. 56 ('another God and Lord under the Maker of all'); Origen, De Princ. I.2 (the Logos as eternal mediator); Athanasius, Contra Arianos II.31 (cites the Philonic borderland argument against Arianism); Eusebius, Praep. Ev. VII.13 (preserves the boundary-Logos doctrine)."
+  },
+  "verses": [
+    {
+      "verse": 205,
+      "text_greek": "τῷ δὲ ἀρχαγγέλῳ καὶ πρεσβυτάτῳ λόγῳ δωρεὰν ἐξαίρετον ἔδωκεν ὁ τὰ ὅλα γεννήσας πατήρ, ἵνα μεθόριος στὰς τὸ γενόμενον διακρίνῃ τοῦ πεποιηκότος. ὁ δ' αὐτὸς ἱκέτης μέν ἐστι τοῦ θνητοῦ κηραίνοντος ἀεὶ πρὸς τὸ ἄφθαρτον, πρεσβευτὴς δὲ τοῦ ἡγεμόνος πρὸς τὸ ὑπήκοον.",
+      "text_reference": "To his Word, his chief messenger, highest in age and honour, the Father of all has given the special prerogative, to stand on the border and separate the creature from the Creator. This same Word both pleads with the immortal as suppliant for afflicted mortality and acts as ambassador of the ruler to the subject. (Colson, Loeb IV, p. 385)",
+      "rendering": "The Father who begot all things gave a special privilege to his archangelic and most ancient Logos: that he should stand on the border and keep what has come into being distinct from the one who made it. The same Logos is the suppliant of grieving mortality before the imperishable God, and the ambassador of the Sovereign to those who are governed.",
+      "translator_notes": [
+        "Cohn-Wendland III, p. 47; Loeb IV, pp. 384-385 (Colson, 1932). The §-section sits inside Philo's exegesis of Genesis 15:10, where Abraham 'divided' the sacrificial animals 'in the midst.' Philo reads the act as a cosmic parable: every well-ordered reality has a mediator who keeps its parts in their proper places. The §section names the supreme such mediator: the Logos, who is the appointed border between Creator and creature.",
+        "Three offices in a single sentence: (1) μεθόριος — boundary, the one who marks the divide between God and creation; (2) ἱκέτης — suppliant, the one who pleads with God on behalf of mortals; (3) πρεσβευτής — ambassador, the one who carries the Sovereign's word to the governed. Hebrews 7:25 picks up #2 directly ('he always lives to make intercession for them'). 1 Timothy 2:5 ('one mediator between God and humanity') is a compressed restatement of all three.",
+        "ἀρχάγγελος and πρεσβύτατος together — 'archangelic and most ancient' — recapitulate the titles Philo has been gathering across his treatises (Conf. §63, §146; Migr. §6). The Logos is the chief among messengers and the oldest among created realities. The pre-Nicene Christian tradition takes both titles directly: Justin Martyr's 'angel-Logos' Christology (Dial. 56-62) and Origen's 'firstborn of all creation' Christology (Comm. Jo. I.39) inhabit the same vocabulary.",
+        "The pre-Nicene reception is decisive. Eusebius preserves this passage in Praeparatio Evangelica VII.13 as a Jewish witness to the binitarian configuration he is defending. Athanasius (Contra Arianos II.31) cites the borderland-Logos against the Arians: their mistake, he argues, is to put the Logos on the creature side of the border rather than recognizing that the Logos is what defines the border from the divine side. The Nicene homoousios is in one sense the answer to the question this §section deliberately leaves open."
+      ],
+      "key_terms": [
+        {
+          "greek": "μεθόριος",
+          "transliteration": "methorios",
+          "rendered_as": "border / boundary",
+          "semantic_range": "borderland, frontier, the line that separates two regions; one who stands on that line",
+          "note": "The Logos as μεθόριος is Philo's most precise image for divine mediation. The boundary is what separates, but it is also what relates. The Logos belongs to neither side exclusively because the boundary is not on one side: it is the line itself. This image — the mediator as boundary — was foundational to Origen's subordinationism and became the focus of the Arian-Nicene controversy."
+        },
+        {
+          "greek": "ἱκέτης",
+          "transliteration": "hiketēs",
+          "rendered_as": "suppliant",
+          "semantic_range": "one who pleads, supplicates, comes as a refugee; in religious context, the intercessor",
+          "note": "The intercessory office of the Logos. Picked up in Hebrews 7:25 ('he always lives to make intercession') and Romans 8:34 ('Christ Jesus is at the right hand of God interceding for us'). Philo's Logos is the suppliant from before the incarnation; the Christian Logos is the suppliant who became flesh in order to bear up the very mortality on whose behalf he supplicates."
+        },
+        {
+          "greek": "πρεσβευτής",
+          "transliteration": "presbeutēs",
+          "rendered_as": "ambassador",
+          "semantic_range": "ambassador, envoy, one sent on behalf of a sovereign",
+          "note": "Same root as πρεσβύτατος ('most ancient'). The Logos carries the Sovereign's word into the governed region — the function 2 Corinthians 5:20 transfers to apostles ('we are ambassadors for Christ') by way of the Christ who is himself the Father's ambassador in the Philonic sense."
+        },
+        {
+          "greek": "ἀρχάγγελος",
+          "transliteration": "archangelos",
+          "rendered_as": "archangelic / chief messenger",
+          "semantic_range": "ruler-messenger, chief envoy, the highest among angels",
+          "note": "Not 'archangel' in the later Christian sense of one of seven named angels (Michael, Gabriel, etc.). Philo's ἀρχάγγελος is a title for the Logos in its messenger-aspect — the supreme bearer of divine communication. The same use is at Conf. §146 (ἀρχάγγελος πολυώνυμος). Early Jewish-Christian texts (Shepherd of Hermas, Ascension of Isaiah) preserve a residual 'angel-Christology' that trades on this Philonic vocabulary."
+        }
+      ],
+      "reading_level": "11th-12th grade"
+    }
+  ]
+}

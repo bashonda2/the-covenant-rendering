@@ -1,0 +1,96 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "On the Creation",
+    "abbreviation": "Opif.",
+    "author": "Philo of Alexandria",
+    "chapter": 1,
+    "source_text": "Cohn-Wendland critical edition (Berlin, 1896-1915), vol. I, as printed in Loeb Classical Library vol. I (Colson and Whitaker, 1929)",
+    "reference_text": "Colson/Whitaker English translation (Loeb I)",
+    "source_edition_apparatus": "Cohn-Wendland I (Berlin, 1896); Sources Chrétiennes 1 (Arnaldez, 1961)",
+    "numbering_note": "Verse field = source §section number per Loeb / Cohn-Wendland sectionalization (Quality Contract §7-8). Numbers are non-sequential within this file: only the §sections authored in the Phase A proof-of-concept are present. Phase C will fill in the remaining sections (§§1-19, 21-24, 26-172) of this treatise.",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Philo's foundational treatise on Genesis 1, written as the first work in his Exposition of the Law. Reading Moses through Platonic lenses, Philo argues that the six-day creation describes two distinct creative acts: God first conceives the intelligible cosmos (the world of Forms) as a complete blueprint within his Logos, and then fashions the sensible cosmos in accord with that pattern. The Logos is the divine architect's pre-formed plan made active in creation.",
+    "remarkable": "Opif. §25 — 'the intelligible world is nothing else than the Logos of God already engaged in creating the world' — is one of the most-cited single sentences in Philo. It places the Logos at the center of cosmogony and supplies the conceptual ground for John 1:3 ('all things came into being through him') and Colossians 1:15-17 (the Image, the firstborn, in whom all things were created). Pre-Nicene Christian writers — Justin Martyr (1 Apol. 60, 2 Apol. 6), Clement of Alexandria (Strom. V), and Origen (Comm. Jo. I.19) — pick up this language directly.",
+    "friction": "Philo is not a Christian, and his Logos is not yet 'the Word made flesh.' He uses Logos to bridge the gap between a transcendent God (who cannot directly touch matter) and the material world. Read forward, the language seems proto-Christological. Read in its own moment, it is a Hellenistic Jewish solution to the problem of how a wholly transcendent God relates to a contingent world — Plato's demiurge plus the biblical Creator.",
+    "connections": "Genesis 1:1-31 (the creation narrative Philo is expounding); Genesis 1:26-27 (the divine Image — see Opif. §25, §69); Proverbs 8:22-31 (Wisdom present at creation, the Jewish-canonical antecedent to the divine Logos at creation); John 1:1-3, 14 (the Logos through whom all things came to be); Colossians 1:15-17 (the firstborn of all creation in whom all things were created); Hebrews 1:2-3 (the Son through whom God made the worlds); Justin Martyr, 2 Apol. 6 (Logos as creative principle); Origen, Comm. Jo. I.19 (the Logos as the kosmos noētos)."
+  },
+  "verses": [
+    {
+      "verse": 20,
+      "text_greek": "ὥσπερ οὖν ἡ ἐν τῷ ἀρχιτεκτονικῷ προδιατυπωθεῖσα πόλις χώραν ἐκτὸς οὐκ εἶχεν, ἀλλ' ἐνεσφράγιστο τῇ τοῦ τεχνίτου ψυχῇ, τὸν αὐτὸν τρόπον οὐδ' ὁ ἐκ τῶν ἰδεῶν κόσμος ἄλλον ἂν ἔχοι τόπον ἢ τὸν θεῖον λόγον τὸν ταῦτα διακοσμήσαντα.",
+      "text_reference": "Just as the city, when it was planned beforehand within the mind of the artificer, had no place outside it, but had been engraved in the artist's soul as by a seal, even so the universe consisting of ideas would have no other location than the Divine Reason which made them all in order. (Colson, Loeb I, p. 17)",
+      "rendering": "Just as the city pre-designed within the architect's mind had no location in the outside world but was sealed inside the craftsman's soul, in the same way the world built from the Forms has no place to dwell except the divine Logos who arranged them into order.",
+      "translator_notes": [
+        "Cohn-Wendland I, p. 6; Loeb I, pp. 16-17 (Colson, 1929). This is the first authored verse in the philo-opif treatise. Numbering convention for all Philo treatises in TCR (per Quality Contract §7-8): the `verse` field carries the source §section number directly, not a sequential 1-N counter. So this entry is Opif. §20 and lives at /philo-opif/1/20, mirroring the citation 'Opif. 20.' For multi-book treatises (Leg., Somn., Spec.), `chapter` carries the Roman book number.",
+        "The architect-of-the-city simile is Philo's most extended account of how an immaterial Logos can house the entire intelligible cosmos. The conceit: just as a city is fully present 'inside' the architect before it exists in the world, so the Forms are fully present 'inside' the divine Logos before the sensible cosmos is built. The Logos is therefore the place (τόπος) of the Ideas — a Platonic concept Philo absorbs and re-anchors in the biblical God.",
+        "Philo's verb διακοσμήσαντα (diakosmēsanta, 'set in order, arranged') is the verbal root of κόσμος itself: the Logos is the cosmos-maker because the Logos is the one who imposes order. Compare John 1:3 ('all things came into being through him, and apart from him not one thing came into being'), where the same cosmogonic-instrument function is carried by the divine Logos."
+      ],
+      "key_terms": [
+        {
+          "greek": "λόγος",
+          "transliteration": "logos",
+          "rendered_as": "Logos",
+          "semantic_range": "word, speech, reason, account, ratio, principle, plan; in Philo, the divine intermediary through which God relates to the world",
+          "note": "TCR convention for the Philo corpus: leave Logos transliterated and capitalized rather than rendering as 'Word' or 'Reason.' Both English glosses are correct on their own but each loses the other (Logos = both spoken Word and rational Plan, simultaneously). Capitalizing signals the personified divine agent rather than common-noun reason."
+        },
+        {
+          "greek": "ἰδέα",
+          "transliteration": "idea",
+          "rendered_as": "Form",
+          "semantic_range": "Platonic Form / Idea; archetypal pattern in the intelligible world",
+          "note": "Capitalized 'Form' (rather than 'idea' or 'pattern') signals the Platonic technical sense — the eternal archetype of which sensible things are imitations. Philo's ἰδέαι are the archetypes housed within the divine Logos."
+        },
+        {
+          "greek": "ἀρχιτέκτων",
+          "transliteration": "architektōn",
+          "rendered_as": "architect",
+          "semantic_range": "master-builder, chief artisan, designer",
+          "note": "Philo's choice of architect — rather than craftsman or demiurge — locates the creative action in the prior mental act of designing, not in the physical act of building. The Logos is the designer's plan made into the very stuff of which the world is built."
+        }
+      ],
+      "reading_level": "11th-12th grade"
+    },
+    {
+      "verse": 25,
+      "text_greek": "εἰ δέ τις ἐθελήσειε γυμνοτέροις χρήσασθαι τοῖς ὀνόμασιν, οὐδὲν ἂν ἕτερον εἴποι τὸν νοητὸν κόσμον εἶναι ἢ θεοῦ λόγον ἤδη κοσμοποιοῦντος·",
+      "text_reference": "And if anyone were willing to use plainer terms, he would not say that the intelligible world was anything else than the Word of God when He was already engaged in the act of creation. (Colson, Loeb I, p. 21)",
+      "rendering": "If one were willing to use plainer terms, the intelligible cosmos is nothing else than the Logos of God already engaged in shaping the world.",
+      "expanded_rendering": "Strip the technical Platonic language away, Philo says, and the intelligible cosmos — the whole world of Forms — turns out to be the Logos of God in the very act of creating. The blueprint and the architect at work are one and the same: God's rational utterance, which is simultaneously his plan and his creative power.",
+      "translator_notes": [
+        "Cohn-Wendland I, p. 7; Loeb I, pp. 20-21 (Colson, 1929). This is the single most-quoted Philo sentence in pre-Nicene Christian theology. Justin Martyr cites the underlying conception in 2 Apol. 6; Clement of Alexandria deploys it in Stromata V; Origen builds his Logos-creation doctrine on it in Comm. Jo. I.19 and De Princ. I.2. The patristic line from this verse runs straight into the Nicene 'through whom all things were made.'",
+        "Note Philo's qualifier γυμνοτέροις (gymnoterois, 'more nakedly' = 'more plainly'). Philo is saying: drop the Platonic technicalities and what you have left is simply the Logos creating. This is not a metaphysical equation between the Forms and the Logos so much as it is an identification of the kosmos noētos with the divine activity of creation.",
+        "ἤδη κοσμοποιοῦντος (ēdē kosmopoiountos, 'already engaged in creation/world-making') keeps the Logos in the present-participle: not a finished plan sitting outside time, but an active, ongoing creative work. This dynamic sense was important to Origen, who used it to defend the eternal generation of the Son — the Logos was never not creating, just as the Father was never not begetting.",
+        "Compare John 1:3 (πάντα δι' αὐτοῦ ἐγένετο, 'all things came to be through him') and Colossians 1:16 (ἐν αὐτῷ ἐκτίσθη τὰ πάντα, 'in him all things were created'). The grammatical role of the Logos as instrument-of-creation is identical; what changes in the New Testament is the identification of that Logos with a particular human person."
+      ],
+      "key_terms": [
+        {
+          "greek": "νοητὸς κόσμος",
+          "transliteration": "noētos kosmos",
+          "rendered_as": "intelligible cosmos",
+          "semantic_range": "the world of mind / Forms / archetypes, opposed to the αἰσθητὸς κόσμος (sensible cosmos) of material things",
+          "note": "The Platonic distinction between the intelligible world (Forms, accessible only to the mind) and the sensible world (material objects, accessible to the senses). Philo's innovation is to place the intelligible cosmos inside the Logos rather than treating it as an independent metaphysical region."
+        },
+        {
+          "greek": "κοσμοποιέω",
+          "transliteration": "kosmopoieō",
+          "rendered_as": "shape the world / engage in world-making",
+          "semantic_range": "to make the cosmos, to engage in creation; literally 'cosmos-make'",
+          "note": "The present participle κοσμοποιοῦντος (kosmopoiountos) keeps the Logos's creative work in active, ongoing aspect. Not 'the Logos who once created' but 'the Logos in the act of creating.'"
+        },
+        {
+          "greek": "γυμνός",
+          "transliteration": "gymnos",
+          "rendered_as": "plain / unadorned",
+          "semantic_range": "naked, bare, stripped, unadorned",
+          "note": "Philo's comparative γυμνοτέροις means 'more naked' — in context, 'in more straightforward terms.' The metaphor: Platonic technical vocabulary is a kind of clothing that, once removed, reveals the simpler fact underneath."
+        }
+      ],
+      "reading_level": "11th-12th grade"
+    }
+  ]
+}

@@ -107,6 +107,8 @@ TCR/
 
 ## 3. JSON Schema — Verse Object
 
+### 3.1 Canonical Bible (OT — Hebrew source)
+
 ```json
 {
   "verse": 1,
@@ -128,9 +130,40 @@ TCR/
 }
 ```
 
+### 3.2 Extra-canonical Greek source (Philo, Josephus, NT Apocrypha, etc.)
+
+```json
+{
+  "verse": 146,
+  "text_greek": "Greek text from the critical edition (Cohn-Wendland for Philo, Niese for Josephus, SBLGNT for NT, etc.) — polytonic, with breathing marks and accents",
+  "text_reference": "Received English translation (Colson/Whitaker Loeb for Philo, Thackeray/Marcus Loeb for Josephus, etc.) — for reader comparison only",
+  "rendering": "Modern English rendering translated independently from the Greek sense",
+  "expanded_rendering": "(Optional) Plain English bridge for register-term-heavy verses; 5–20% density per chapter",
+  "translator_notes": [
+    "First note on the first authored verse of a treatise declares the §-numbering convention.",
+    "Every note cites the source edition: 'Conf. §146; Loeb IV, pp. 88–90 (Colson); Cohn-Wendland II, p. 257.'",
+    "Per-verse notes document register-term decisions, scriptural cross-references (Zech 6:12 LXX, John 1:1, etc.), and pre-Nicene reception (Justin, Clement, Origen) where relevant."
+  ],
+  "key_terms": [
+    {
+      "greek": "Greek word in Greek script",
+      "transliteration": "Romanized form",
+      "rendered_as": "English rendering chosen",
+      "semantic_range": "Full range of meanings the word can carry",
+      "note": "Why this rendering was chosen and what nuance is present"
+    }
+  ],
+  "reading_level": "11th-12th grade (raised from 8th-10th for patristic / scholarly material per Roadmap §14)"
+}
+```
+
+The `verse` field carries the source §section number directly per Quality Contract §7–8 (extra-canonical §-numbered authoring convention). For multi-book treatises, `chapter` carries the Roman book number.
+
 ---
 
 ## 4. JSON Schema — Chapter Object
+
+### 4.1 Canonical Bible
 
 ```json
 {
@@ -141,10 +174,36 @@ TCR/
     "chapter": 1,
     "source_text": "Westminster Leningrad Codex (WLC)",
     "reference_text": "KJV",
-    "model": "claude-opus-4-6",
-    "generated_at": "2026-03-04T00:00:00Z",
     "prompt_version": "1.3",
     "license": "CC-BY-4.0"
+  },
+  "verses": []
+}
+```
+
+### 4.2 Extra-canonical (Greek source)
+
+```json
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "On the Confusion of Tongues",
+    "abbreviation": "Conf.",
+    "author": "Philo of Alexandria",
+    "chapter": 1,
+    "source_text": "Cohn-Wendland critical edition (Berlin 1896–1915), as printed in Loeb Classical Library vol. IV (Colson, 1932)",
+    "reference_text": "Colson/Whitaker English translation (Loeb IV)",
+    "source_edition_apparatus": "Cohn-Wendland (Berlin); Sources Chrétiennes 13 (Arnaldez-Pouilloux-Mondésert)",
+    "numbering_note": "Verse field = source §section number per Loeb / Cohn-Wendland sectionalization. Numbers may be non-sequential within this file: only the §sections authored in the current phase are present. Phase C will fill in the remaining sections of this treatise.",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "...",
+    "remarkable": "...",
+    "friction": "...",
+    "connections": "..."
   },
   "verses": []
 }
