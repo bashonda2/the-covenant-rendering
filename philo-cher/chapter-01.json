@@ -9,17 +9,60 @@
     "source_text": "Cohn-Wendland critical edition (Berlin, 1896-1915), vol. I, as printed in Loeb Classical Library vol. II (Colson and Whitaker, 1929)",
     "reference_text": "Colson/Whitaker English translation (Loeb II)",
     "source_edition_apparatus": "Cohn-Wendland I (Berlin, 1896); Sources Chrétiennes 3 (Gorez, 1963)",
-    "numbering_note": "Verse field = source §section number per Loeb / Cohn-Wendland sectionalization (Quality Contract §7-8). Only §28 of this treatise is present in the Phase A proof-of-concept; Phase C will fill in the remaining sections (§§1-27, 29-130).",
+    "numbering_note": "Verse field = source §section number per Loeb / Cohn-Wendland sectionalization (Quality Contract §7-8). §§27-28 are present from Phase A authoring (the Two Powers + Logos passage). Phase C will fill in the remaining sections (§§1-26, 29-130).",
     "prompt_version": "1.3",
     "license": "CC-BY-4.0"
   },
   "preamble": {
-    "summary": "Philo's treatise on the cherubim that guard the way to the tree of life (Genesis 3:24). The treatise allegorizes Eden's exit narrative, but its theological centerpiece is §§27-28, where Philo presents the Two Powers doctrine: alongside God's essence there are two principal powers, the creative (poiētikē) and the kingly (basilikē). The cherubim flanking the way back to the garden are symbols of those two Powers; the flaming sword turning between them is the divine Logos.",
-    "remarkable": "The Two Powers framework is the Jewish theological structure that Christian Logos-Christology will later inhabit. In rabbinic literature this same Two Powers configuration becomes condemned as heresy (b. Sanhedrin 38b — 'Two Powers in Heaven'). Philo presents it openly as Jewish doctrine. The implication: pre-Christian Hellenistic Judaism already held a binitarian theology of God-plus-mediator, and the rabbinic prohibition is a later development sharpened in reaction to Christianity. The §28 identification of the Logos with the flaming sword between the cherubim is foundational evidence for this argument.",
-    "friction": "The flaming sword (ῥομφαία φλογίνη, Gen 3:24 LXX) is, in the surface text, an angelic weapon barring access to the tree of life. Philo's allegorical move turns the barrier into a mediator: the Logos is what stands between God's two Powers and what stands between humanity and the divine essence. The image is liminal — the Logos as both boundary and connector — and is consistent with Philo's repeated emphasis (Heres. §205-206, Somn. I.§215) that the Logos is precisely the in-between.",
+    "summary": "Philo's treatise on the cherubim that guard the way to the tree of life (Genesis 3:24). The treatise allegorizes Eden's exit narrative, but its theological centerpiece is §§27-28, where Philo presents the Two Powers doctrine: alongside God's essence there are two principal powers, the creative (poiētikē) and the kingly (basilikē). §27 introduces the framework as a personally received revelation; §28 then maps the two Powers onto the cherubim of Eden and identifies the flaming sword turning between them with the divine Logos.",
+    "remarkable": "The Two Powers framework is the Jewish theological structure that Christian Logos-Christology will later inhabit. In rabbinic literature this same Two Powers configuration becomes condemned as heresy (b. Sanhedrin 38b — 'Two Powers in Heaven'). Philo presents it openly as Jewish doctrine. The implication: pre-Christian Hellenistic Judaism already held a binitarian theology of God-plus-mediator, and the rabbinic prohibition is a later development sharpened in reaction to Christianity. The §§27-28 pair is foundational evidence for this argument.",
+    "friction": "The flaming sword (ῥομφαία φλογίνη, Gen 3:24 LXX) is, in the surface text, an angelic weapon barring access to the tree of life. Philo's allegorical move turns the barrier into a mediator: the Logos is what stands between God's two Powers and what stands between humanity and the divine essence. The image is liminal — the Logos as both boundary and connector — and is consistent with Philo's repeated emphasis (Heres. §§205-206, Somn. I.§215, §230) that the Logos is precisely the in-between.",
     "connections": "Genesis 3:24 (the cherubim and the flaming sword Philo is exegeting); Exodus 25:18-22 (the cherubim over the mercy seat — the Tabernacle parallel that Philo treats more fully in Mos. II.97-100); Hebrews 9:5 ('cherubim of glory overshadowing the mercy seat'); John 1:14, 18 (the Logos in the bosom of the Father, made flesh, dwelling/tabernacling among us); b. Sanhedrin 38b (the Two Powers polemic — a Jewish rejection of exactly Philo's framework); Justin Martyr, Dial. 56-62 (the 'second God' argument, drawing on the same exegetical tradition); Eusebius, Praep. Ev. VII.13 (preserves Philo's Two Powers doctrine and treats it as theologically respectable)."
   },
   "verses": [
+    {
+      "verse": 27,
+      "text_greek": "ἤκουσα δέ ποτε καὶ σπουδαιοτέρου λόγου παρὰ ψυχῆς ἐμῆς εἰωθυίας τὰ πολλὰ θεοληπτεῖσθαι καὶ περὶ ὧν οὐκ οἶδε μαντεύεσθαι, ὃν, ἐὰν δύνωμαι, ἀπομνημονεύσω. ἔφασκε δέ μοι, ὅτι παρὰ τῷ ζῶντι καὶ ὄντι θεῷ δυνάμεις δύο εἰσὶν ἀνωτάτω καὶ πρῶται, ἀγαθότης καὶ ἐξουσία· καὶ ἀγαθότητι μὲν τὸ πᾶν ἐγέννησεν, ἐξουσίᾳ δὲ τοῦ γεννηθέντος ἄρχει.",
+      "text_reference": "I have heard, at one time, a more serious utterance from my own soul, which had often before been God-possessed and prophesied concerning things of which it had no knowledge; which utterance, if I am able, I will record. It told me that in the one living and true God there were two supreme and primary powers — goodness and authority; and that by his goodness he had created every thing, and by his authority he governed all that he had created. (Colson, Loeb II, pp. 22-25)",
+      "rendering": "I once heard a more solemn utterance from my own soul — a soul accustomed to being God-possessed and prophesying about matters it does not on its own know. I will record it if I am able. It told me: alongside the living and existing God there are two supreme and primary Powers — goodness and authority. By his goodness God begot the universe; by his authority he rules what he has begotten.",
+      "translator_notes": [
+        "Cohn-Wendland I, p. 178; Loeb II, pp. 22-25 (Colson, 1929). §27 introduces the Two Powers framework that §28 then maps onto the cherubim. The framework is presented not as Philo's own theory but as a revelation received in a moment of θεοληψία — divine possession — from his own soul. The rhetorical move locates the doctrine in the prophetic-mystical register rather than the merely philosophical, which Philo will exploit when defending it against potential Jewish-monotheist objections.",
+        "Note the precise theological vocabulary: παρὰ τῷ ζῶντι καὶ ὄντι θεῷ ('alongside the living and existing God'). The two Powers are not God's essence; they are the way God's essence operates in relation to the world. ζῶν καὶ ὤν together echo two Septuagintal divine epithets — ζῶν from passages like Deuteronomy 5:26 (ἐλάλησε θεὸς ζῶν, 'the living God spoke') and ὤν from Exodus 3:14 LXX (ἐγώ εἰμι ὁ ὤν, 'I am the One Who Is'). Philo's framework keeps the supreme God transcendent while accounting for divine action in the world through the Powers.",
+        "The two attributes named here — ἀγαθότης (goodness) and ἐξουσία (authority) — are Philo's most common variant pair for the Two Powers. In other treatises (QE II.62, Mos. II.99) he calls them ποιητική (creative) and βασιλική (kingly). The conceptual content is identical: one Power that brings beings into existence, one Power that rules them. The mapping in §28 to the cherubim follows directly: the creative Power (associated with θεός / God) and the kingly Power (associated with κύριος / Lord) are the two figures, and the Logos is between them.",
+        "θεοληψία (god-possession) is Philo's technical term for prophetic inspiration. He uses it for himself only sparingly. The reader is meant to take the §§27-30 disclosure as authoritative in a way ordinary Philonic argumentation is not. Origen will later make a structurally identical move when grounding his Logos-Christology in revelation that exceeds philosophical demonstration (De Princ. praef. 8)."
+      ],
+      "key_terms": [
+        {
+          "greek": "δυνάμεις",
+          "transliteration": "dynameis",
+          "rendered_as": "Powers",
+          "semantic_range": "power, capacity, force; in Philo's theology, the personified divine operations through which the transcendent God interacts with the cosmos",
+          "note": "Capitalized 'Powers' signals Philo's quasi-hypostatic use. The two Powers are not separate divinities, but neither are they merely abstract attributes — they are God's operative modes."
+        },
+        {
+          "greek": "ἀγαθότης",
+          "transliteration": "agathotēs",
+          "rendered_as": "goodness",
+          "semantic_range": "goodness, beneficence; the divine attribute that creates and sustains",
+          "note": "Philo's variant name for the creative Power (ποιητική). The reason the Power that creates is called 'goodness' is that for Philo, as for Plato (Timaeus 29e), the creator creates because the creator is good and wants existence to be shared. God's creating is an act of goodness."
+        },
+        {
+          "greek": "ἐξουσία",
+          "transliteration": "exousia",
+          "rendered_as": "authority",
+          "semantic_range": "authority, ruling power, sovereignty; the right and capacity to rule",
+          "note": "Philo's variant name for the kingly Power (βασιλική). The same root appears in the New Testament for the authority of Christ (Matt 28:18 — ἐδόθη μοι πᾶσα ἐξουσία) and for the powers and authorities Christ subdued (Col 2:15 — τὰς ἀρχὰς καὶ τὰς ἐξουσίας)."
+        },
+        {
+          "greek": "θεοληψία",
+          "transliteration": "theolēpsia",
+          "rendered_as": "divine possession",
+          "semantic_range": "being seized by God; the state of prophetic inspiration in which the prophet's own faculties are subordinated to the divine word",
+          "note": "Philo's technical term for prophetic inspiration. The participle θεοληπτεῖσθαι used here describes the soul's state when receiving the Two Powers doctrine. Philo's most extended discussion of θεοληψία is at Mos. I.273-274 and Heres. §§264-265."
+        }
+      ],
+      "reading_level": "11th-12th grade"
+    },
     {
       "verse": 28,
       "text_greek": "τῶν δὲ δυνάμεων τῆς τε βασιλικῆς καὶ τῆς ποιητικῆς δύο ἦν σύμβολα τὰ Χερουβίμ, τοῦ δὲ διὰ μέσου λόγου ἡ φλογίνη ῥομφαία· λόγος γὰρ ὀξυκινητότατός ἐστιν, ὁ τοῦ ὄντος, καὶ προπάντων αὐτὸς προπηδῶν φθάνει, διά τε ἡνωμένος καὶ ταῖς δυνάμεσι συνεστηκώς.",
@@ -58,7 +101,7 @@
           "transliteration": "dia mesou logos",
           "rendered_as": "the Logos that stands between / the mediating Logos",
           "semantic_range": "the Logos in the middle, the in-between Logos, the mediator",
-          "note": "Philo's habitual placement of the Logos between God and creation, between two divine aspects, between transcendence and immanence. The same διὰ μέσου placement reappears at Heres. §205-206 (the Logos as μεθόριον — boundary). Hebrews 8:6 ('mediator of a better covenant') and 1 Timothy 2:5 ('one mediator between God and humanity') pick up the same μεσιτ- root."
+          "note": "Philo's habitual placement of the Logos between God and creation, between two divine aspects, between transcendence and immanence. The same διὰ μέσου placement reappears at Heres. §§205-206 (the Logos as μεθόριον — boundary). Hebrews 8:6 ('mediator of a better covenant') and 1 Timothy 2:5 ('one mediator between God and humanity') pick up the same μεσιτ- root."
         },
         {
           "greek": "ῥομφαία φλογίνη",

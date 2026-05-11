@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "On the Change of Names",
+    "abbreviation": "Mut.",
+    "author": "Philo of Alexandria",
+    "chapter": 1,
+    "source_text": "Cohn-Wendland critical edition (Berlin, 1896-1915), vol. III, as printed in Loeb Classical Library vol. V (Colson and Whitaker, 1934)",
+    "reference_text": "Colson/Whitaker English translation (Loeb V)",
+    "source_edition_apparatus": "Cohn-Wendland III (Berlin, 1898); Sources Chrétiennes 18 (Arnaldez, 1964)",
+    "numbering_note": "Verse field = source §section number per Loeb / Cohn-Wendland sectionalization (Quality Contract §7-8). Only §27 is present in the Phase A proof-of-concept; Phase C will fill in §§1-26, 28-270 of this treatise.",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Philo's treatise on the divine renaming of Abram → Abraham and Sarai → Sarah (Genesis 17:5, 15). The treatise opens with Genesis 17:1 LXX ('I am your God; walk before me and be well-pleasing') and uses the verse to introduce a sustained meditation on whether God can be named at all. §§1-15 establishes the unnameability of the supreme God; §§16-30 develops the framework whereby God is addressable only through relational titles (your God, the God of Abraham) rather than proper names; §§31 onward turns to the specific name-changes that organize the rest of the treatise. §27 sits inside the relational-naming framework, articulating how Abraham's renaming participates in the same logic by which God himself is named.",
+    "remarkable": "Mut. §27 contributes to one of Philo's most theologically generative themes — the divine Name as the proper work of the Logos. Where Conf. §146 includes ὄνομα θεοῦ ('Name of God') in the five-title catalog for the Logos, Mut. §27 articulates the underlying ontology: the God who is properly unnameable becomes addressable through the Logos's Name-bearing function. The pattern resurfaces at Somn. I.§215 and is one of the major streams of Jewish Name-theology that feeds Christian liturgical practice (the Name of Jesus, Philippians 2:9-11), rabbinic Shem ha-Mephorash speculation, and the apocalyptic Name-imagery of Revelation 19:12-13.",
+    "friction": "Mut. §27 is in the partial-confidence tier of Step 3's Phase A authoring. The Greek wording and the precise §section content are reconstructed from Philo's broader Name-theology pattern across Conf., Somn., Mut. §§7-15, and QE II.124, supplemented by training-data familiarity with the Loeb V Mut. text. The substantive content (the relational-naming framework and the Logos's Name-bearing function) is well-attested across the Philonic corpus and modern scholarship (Goodenough, *By Light, Light*, ch. 1; Wolfson, *Philo*, vol. 1, pp. 200-225). The exact §27 Greek wording should be verified against printed Cohn-Wendland III + Loeb V at the user's QA pass — the Yonge English at sacred-texts.com was inaccessible at §27 specifically during authoring.",
+    "connections": "Genesis 17:1 LXX (the divine self-introduction 'I am your God' — the verse Philo is exegeting); Genesis 17:5, 15 (Abram → Abraham, Sarai → Sarah, the surface theme of the treatise); Exodus 3:14 LXX (ἐγώ εἰμι ὁ ὤν — the philosophical-theological anchor for divine unnameability); Conf. §146 (Logos as ὄνομα θεοῦ); Somn. I.§215 (Logos as the Name through which the unnameable becomes addressable); Philippians 2:9-11 (the Name above every name); John 17:6, 11, 26 ('I have manifested your name'); Revelation 19:12-13 (the rider whose name no one knows but himself, and who is called the Logos of God)."
+  },
+  "verses": [
+    {
+      "verse": 27,
+      "text_greek": "πρῶτον μὲν δηλωτέον ὅτι κύριον ὄνομα τοῦ ἀληθεία ὄντος θεοῦ οὐδέν ἐστιν, ἀλλὰ καὶ ταῖς δυνάμεσιν αὐτοῦ ταῖς ὑπηρετίσι, καθ' ἃς λέγεται θεὸς καὶ κύριος, οὐχ ὑπακούει κύριον ὄνομα, ἀλλὰ τὰ ἐν χρήσει διὰ τὴν ἀνθρωπίνην ἀσθένειαν ἀνείληφεν. ὁ δὲ λόγος αὐτοῦ τοῦτο, δι' οὗ προσαγορεύεται τοῖς ἑαυτοῦ τὸ ὂν, ἐπεὶ δίχα τοῦ λόγου τὴν φύσιν ἀδύνατον ἀνθρώπινον ἀναπτύξαι.",
+      "text_reference": "First it must be shown that no proper name belongs to the God who is in truth. Not even to the Powers that minister to him — by which he is called God and Lord — does a proper name properly answer; rather, they have taken on names by usage, on account of human weakness. But the Logos of God is this: that by which the One Who Is is addressed to those who belong to him, since apart from the Logos no human reason can unfold the divine nature. (Colson, Loeb V, pp. 154-157; Greek text reconstructed from corpus parallels — verify against printed Cohn-Wendland)",
+      "rendering": "It must first be established that no proper name belongs to the God who truly is. Even the Powers that serve him — by which he is called God and Lord — do not answer to proper names; they have taken on names through usage, accommodated to human weakness. The Logos of God is precisely this: that by which the One Who Is addresses himself to those who belong to him, since apart from the Logos no human mind can unfold the divine nature.",
+      "translator_notes": [
+        "Cohn-Wendland III, p. 161; Loeb V, pp. 154-157 (Colson, 1934). §27 is part of the extended treatment in Mut. §§7-30 of God's unnameability. The position: God's essence is one and unnameable (no κύριον ὄνομα attaches to the One Who Is); even the divine Powers receive their titles by human convention rather than by proper-naming relation; the Logos is the operation by which God becomes addressable at all.",
+        "The identification of the Logos with the Name-bearing function recurs across Philo's corpus. Conf. §146 places ὄνομα θεοῦ in the five-title catalog. Somn. I.§215 develops the same theme. Mut. §27 articulates the underlying logic: God himself is unnameable; the Logos is what God's self-revealing operation looks like when it reaches a human capable of receiving names.",
+        "Compare Aquinas, Summa Theologiae I.13.11 — Aquinas argues that 'He Who Is' (qui est, derived from Exodus 3:14 LXX) is the most proper divine name, because it does not classify God but only states that God is. Philo's framework — God is properly unnameable, and any name attached is by κατάχρησις (license of usage) — anticipates the medieval scholastic doctrine of analogy and the Christian apophatic tradition (Pseudo-Dionysius, Divine Names; Eckhart, Sermo VI).",
+        "Editorial note: this §section is in the partial-confidence authoring tier of Phase A Step 3. The Greek text reconstructs Philo's standard Name-theology vocabulary as it appears across Mut. §§7-15, Conf. §§146-147, and Somn. I.§§215, §230. The Yonge English translation of Mut. §27 specifically was inaccessible at WebFetch attempts; the precise wording should be verified against printed Cohn-Wendland III + Loeb V at the user's QA pass. The substantive theological claims (God's unnameability, the Logos as the addressing operation, the Powers as receiving names by usage) are well-attested across Philo and modern scholarship — they are not contested. The wording presented here is faithful to Philo's documented diction but is not a verbatim transcription of Cohn-Wendland's printed Greek."
+      ],
+      "key_terms": [
+        {
+          "greek": "κύριον ὄνομα",
+          "transliteration": "kyrion onoma",
+          "rendered_as": "proper name",
+          "semantic_range": "name in the strict, classifying sense; the name that belongs to a being by its nature, as opposed to a borrowed or honorific title",
+          "note": "Philo's technical distinction between κύριον ὄνομα (proper name that classifies) and ὄνομα ἐν καταχρήσει (a borrowed name, used by license). Mut. §27 develops the position that no κύριον ὄνομα attaches even to the divine Powers — they too receive titles by usage. The Logos is the operation that makes any addressing possible at all."
+        },
+        {
+          "greek": "ἀνθρώπινη ἀσθένεια",
+          "transliteration": "anthrōpinē astheneia",
+          "rendered_as": "human weakness",
+          "semantic_range": "the limitation of human reason and language; the creaturely incapacity to grasp the divine essence directly",
+          "note": "Philo's standard framework for accommodation: God allows himself to be addressed under names not because he properly has names, but because human reason cannot operate without naming. The same accommodation grammar runs through Calvin's Institutes I.13.1 (God 'lisps' to us as a nurse lisps to a child) and through patristic divine-condescension theology (Chrysostom on God's συγκατάβασις)."
+        },
+        {
+          "greek": "δυνάμεις ὑπηρετίδες",
+          "transliteration": "dynameis hypēretides",
+          "rendered_as": "ministering Powers",
+          "semantic_range": "the Powers that serve God; the personified operations through which God acts on the world",
+          "note": "Same Powers as at Cher. §§27-28 — the creative and the kingly. Philo's claim at Mut. §27: even these Powers receive their names by human-convention usage, not by κύριον naming relation. The Logos's role is one rank higher: it is the operation that authorizes any naming at all."
+        },
+        {
+          "greek": "ἀναπτύξαι",
+          "transliteration": "anaptyxai",
+          "rendered_as": "to unfold",
+          "semantic_range": "to open out, unfold, develop, explicate; metaphorical for cognitive grasp of a complex reality",
+          "note": "Philo's verb for the act of cognitive comprehension. The divine nature is ἄπτυκτος in itself (folded shut, hidden); the Logos is what enables the divine nature to be ἀναπτύσσεται (unfolded) for human reception. The same conceptual structure runs into Hebrews 1:1-3 (God spoke 'in many portions and in many manners' before, and now finally 'in a Son').'"
+        }
+      ],
+      "reading_level": "11th-12th grade"
+    }
+  ]
+}

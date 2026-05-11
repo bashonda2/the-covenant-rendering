@@ -9,17 +9,52 @@
     "source_text": "Cohn-Wendland critical edition (Berlin, 1896-1915), vol. I, as printed in Loeb Classical Library vol. I (Colson and Whitaker, 1929)",
     "reference_text": "Colson/Whitaker English translation (Loeb I)",
     "source_edition_apparatus": "Cohn-Wendland I (Berlin, 1896); Sources Chrétiennes 1 (Arnaldez, 1961)",
-    "numbering_note": "Verse field = source §section number per Loeb / Cohn-Wendland sectionalization (Quality Contract §7-8). Numbers are non-sequential within this file: only the §sections authored in the Phase A proof-of-concept are present. Phase C will fill in the remaining sections (§§1-19, 21-24, 26-172) of this treatise.",
+    "numbering_note": "Verse field = source §section number per Loeb / Cohn-Wendland sectionalization (Quality Contract §7-8). Numbers are non-sequential within this file: §§16, 20, 24, 25, 134 are present from Phase A authoring. Phase C will fill in the remaining sections of this treatise (~172 §sections total).",
     "prompt_version": "1.3",
     "license": "CC-BY-4.0"
   },
   "preamble": {
-    "summary": "Philo's foundational treatise on Genesis 1, written as the first work in his Exposition of the Law. Reading Moses through Platonic lenses, Philo argues that the six-day creation describes two distinct creative acts: God first conceives the intelligible cosmos (the world of Forms) as a complete blueprint within his Logos, and then fashions the sensible cosmos in accord with that pattern. The Logos is the divine architect's pre-formed plan made active in creation.",
-    "remarkable": "Opif. §25 — 'the intelligible world is nothing else than the Logos of God already engaged in creating the world' — is one of the most-cited single sentences in Philo. It places the Logos at the center of cosmogony and supplies the conceptual ground for John 1:3 ('all things came into being through him') and Colossians 1:15-17 (the Image, the firstborn, in whom all things were created). Pre-Nicene Christian writers — Justin Martyr (1 Apol. 60, 2 Apol. 6), Clement of Alexandria (Strom. V), and Origen (Comm. Jo. I.19) — pick up this language directly.",
-    "friction": "Philo is not a Christian, and his Logos is not yet 'the Word made flesh.' He uses Logos to bridge the gap between a transcendent God (who cannot directly touch matter) and the material world. Read forward, the language seems proto-Christological. Read in its own moment, it is a Hellenistic Jewish solution to the problem of how a wholly transcendent God relates to a contingent world — Plato's demiurge plus the biblical Creator.",
-    "connections": "Genesis 1:1-31 (the creation narrative Philo is expounding); Genesis 1:26-27 (the divine Image — see Opif. §25, §69); Proverbs 8:22-31 (Wisdom present at creation, the Jewish-canonical antecedent to the divine Logos at creation); John 1:1-3, 14 (the Logos through whom all things came to be); Colossians 1:15-17 (the firstborn of all creation in whom all things were created); Hebrews 1:2-3 (the Son through whom God made the worlds); Justin Martyr, 2 Apol. 6 (Logos as creative principle); Origen, Comm. Jo. I.19 (the Logos as the kosmos noētos)."
+    "summary": "Philo's foundational treatise on Genesis 1, written as the first work in his Exposition of the Law. Reading Moses through Platonic lenses, Philo argues that the six-day creation describes two distinct creative acts: God first conceives the intelligible cosmos (the world of Forms) as a complete blueprint within his Logos, and then fashions the sensible cosmos in accord with that pattern. The Logos is the divine architect's pre-formed plan made active in creation. §§16-25 develops the architect-of-the-city simile that grounds the entire Philonic Logos doctrine; §§134-135 extends the same framework to anthropology — there are two humans in Genesis, the heavenly archetype (Gen 1:26-27) and the earthly imitation (Gen 2:7).",
+    "remarkable": "Opif. §25 — 'the intelligible world is nothing else than the Logos of God already engaged in creating the world' — is one of the most-cited single sentences in Philo. §134's two-Adam reading — distinguishing the heavenly, image-bearing Adam of Gen 1:26-27 from the earthly, dust-formed Adam of Gen 2:7 — is the conceptual ancestor of Paul's two-Adam Christology at 1 Corinthians 15:45-49 ('the first man Adam became a living being; the last Adam became a life-giving spirit'). Together, §§16-25 + §134 supply both halves of the New Testament Christological vocabulary: the cosmogonic Logos (John 1:3, Col 1:15-16, Heb 1:2-3) and the heavenly humanity (Phil 2:6-7, 1 Cor 15:47-49, Col 3:10).",
+    "friction": "Philo is not a Christian, and his Logos is not yet 'the Word made flesh.' He uses Logos to bridge the gap between a transcendent God (who cannot directly touch matter) and the material world. The two-Adam reading (§134) is similarly pre-Christian: Philo's heavenly Adam is the archetypal Form of humanity, not a specific historical second human. Read forward, the language seems proto-Christological; read in its own moment, it is a Hellenistic Jewish solution to how a wholly transcendent God relates to a contingent world.",
+    "connections": "Genesis 1:1-31 (the creation narrative Philo is expounding); Genesis 1:26-27 (the divine Image — the heavenly Adam of §134); Genesis 2:7 (the earthly Adam formed from dust); Proverbs 8:22-31 (Wisdom present at creation, the Jewish-canonical antecedent); 1 Corinthians 15:45-49 (Paul's two-Adam reading); Philippians 2:6-7 (Christ in the form of God); John 1:1-3, 14 (the Logos through whom all things came to be); Colossians 1:15-17 (the firstborn of all creation); Hebrews 1:2-3 (the Son through whom God made the worlds); Justin Martyr, 2 Apol. 6 (Logos as creative principle); Origen, Comm. Jo. I.19 (the Logos as the kosmos noētos)."
   },
   "verses": [
+    {
+      "verse": 16,
+      "text_greek": "ἀρξάμενος οὖν ποιεῖν οὐ τὸν αἰσθητόν, ἀλλὰ τὸν νοητὸν πρῶτον ἐδημιούργει κόσμον, ἵνα παραδείγματι θεωειδεστάτῳ καὶ ἀσωμάτῳ χρώμενος τὸν σωματικὸν ἀπεικονίσῃ, εἰκόνα πρεσβυτέρας νεωτέραν, ἕξοντα ἐν αὑτῷ τοσαῦτα γένη αἰσθητά, ὅσα ἐν ἐκείνῳ νοητά.",
+      "text_reference": "Beginning, then, to create, He made not the sensible world but first the intelligible, in order that, using a wholly God-like and incorporeal pattern, He might fashion the corporeal — a copy younger than that older one, containing in itself as many kinds of perceptible things as the other contained kinds intelligible. (Colson, Loeb I, p. 14)",
+      "rendering": "When God began to create, he made the intelligible cosmos first, not the sensible one. The intelligible cosmos served as his pattern — a wholly God-like, incorporeal model — by which he then fashioned the bodily world. The corporeal cosmos is a younger image of that older one, holding as many kinds of perceptible things as the intelligible model held kinds of Forms.",
+      "translator_notes": [
+        "Cohn-Wendland I, p. 5; Loeb I, pp. 12-15 (Colson, 1929). The §-section opens Philo's architect simile (which runs through §§16-25) and establishes the two-cosmos framework: the kosmos noētos (intelligible cosmos) is made first as the divine pattern; the kosmos aisthētos (sensible cosmos) is fashioned afterward as the bodily realization. The Logos is the location of the first, the agent of the second.",
+        "παράδειγμα θεωειδέστατον (paradeigma theoeidestaton, 'wholly God-like pattern') is the technical Philonic term for the Logos's role as model. The superlative θεωειδέστατον ('most God-like') signals that the pattern is not a separate divinity alongside God but is the way God himself is at work in the act of conception. Compare with Plato's Timaeus 28a, where the demiurge looks 'always to the eternal pattern' (παράδειγμα ἀΐδιον) — Philo absorbs this and roots it in the biblical Creator.",
+        "The temporal sequence — intelligible first, then sensible — is for Philo not a chronological order (the intelligible cosmos has no temporal location) but a logical priority: the pattern is prior in the order of explanation even though both cosmoses are co-eternal in the divine purpose. Origen takes the same step at De Princ. I.2.10 when distinguishing the eternal generation of the Son from any temporal beginning."
+      ],
+      "key_terms": [
+        {
+          "greek": "παράδειγμα",
+          "transliteration": "paradeigma",
+          "rendered_as": "pattern / model",
+          "semantic_range": "example, model, pattern; in Platonic technical usage, the eternal archetype to which the demiurge looks in fashioning the sensible cosmos",
+          "note": "Philo's preferred term for the Logos's role as creative blueprint. The Logos is the παράδειγμα God consults in making the sensible world — but unlike Plato's Timaeus, where the παράδειγμα is metaphysically prior to the demiurge, Philo's Logos is God's own activity in conceiving the pattern. The pattern and the patterner are not two."
+        },
+        {
+          "greek": "ἀσώματος",
+          "transliteration": "asōmatos",
+          "rendered_as": "incorporeal",
+          "semantic_range": "bodiless, immaterial, without physical substance",
+          "note": "Philo's standard descriptor for the intelligible cosmos and for the Logos. ἀσώματος carries the philosophical sense of 'belonging to the realm of mind / Forms' rather than the popular sense of 'ghostly.' The Logos as ἀσώματος is what makes it the proper instrument of a transcendent God who cannot directly touch matter."
+        },
+        {
+          "greek": "πρεσβύτερος / νεώτερος",
+          "transliteration": "presbyteros / neōteros",
+          "rendered_as": "older / younger",
+          "semantic_range": "the comparative pair: senior / junior, prior / subsequent",
+          "note": "Philo's age-pair captures the ontological priority of the intelligible over the sensible cosmos. The Logos is πρεσβύτερος in the same sense in which God's plan is prior to the constructed building. Same comparative root as πρεσβύτατος ('most senior') which Philo applies to the Logos throughout his corpus."
+        }
+      ],
+      "reading_level": "11th-12th grade"
+    },
     {
       "verse": 20,
       "text_greek": "ὥσπερ οὖν ἡ ἐν τῷ ἀρχιτεκτονικῷ προδιατυπωθεῖσα πόλις χώραν ἐκτὸς οὐκ εἶχεν, ἀλλ' ἐνεσφράγιστο τῇ τοῦ τεχνίτου ψυχῇ, τὸν αὐτὸν τρόπον οὐδ' ὁ ἐκ τῶν ἰδεῶν κόσμος ἄλλον ἂν ἔχοι τόπον ἢ τὸν θεῖον λόγον τὸν ταῦτα διακοσμήσαντα.",
@@ -51,6 +86,34 @@
           "rendered_as": "architect",
           "semantic_range": "master-builder, chief artisan, designer",
           "note": "Philo's choice of architect — rather than craftsman or demiurge — locates the creative action in the prior mental act of designing, not in the physical act of building. The Logos is the designer's plan made into the very stuff of which the world is built."
+        }
+      ],
+      "reading_level": "11th-12th grade"
+    },
+    {
+      "verse": 24,
+      "text_greek": "εἰ δέ τις ἐθέλοι σαφεστέρῳ χρήσασθαι λόγῳ, οὐδὲν ἂν ἕτερον εἴποι τὸν νοητὸν κόσμον εἶναι ἢ θεοῦ λόγον ἤδη κοσμοποιοῦντος ὕπαρξιν λαβόντα· οὐδὲ γὰρ ἡ νοητὴ πόλις ἕτερόν τί ἐστιν ἢ ὁ τοῦ ἀρχιτέκτονος λογισμὸς ἤδη τὴν πόλιν κτίζειν διανοουμένου.",
+      "text_reference": "If one were to wish to use a more naked statement, he would not call the intelligible world anything other than the Word of God already engaged in creation; for the intelligible city is nothing other than the architect's reasoning already designing the city to be founded. (Colson, Loeb I, pp. 20-21)",
+      "rendering": "If one wishes to put it more plainly: the intelligible cosmos is nothing other than the Logos of God already engaged in world-making, having taken on its being there. For the intelligible city, too, is nothing other than the architect's reasoning at the moment of designing the city he intends to found.",
+      "translator_notes": [
+        "Cohn-Wendland I, p. 7; Loeb I, pp. 20-21 (Colson, 1929). §24 is the architect-simile applied directly to the cosmogonic Logos. The §section sits in the §§16-25 stretch that develops Philo's most sustained Logos-cosmology and culminates in §25's famous identification 'the intelligible cosmos is the Logos of God in the act of creating.' §24 is the bridge: the intelligible cosmos has its being in the Logos in the same way the intelligible city has its being in the architect's reasoning.",
+        "ἤδη κοσμοποιοῦντος ὕπαρξιν λαβόντα (ēdē kosmopoiountos hyparxin labonta, 'having taken on its being [in] the Logos already engaged in creation') is grammatically dense but conceptually crisp: the intelligible cosmos exists insofar as the Logos is creating it. There is no intelligible cosmos sitting outside God's creative activity, available to be consulted. Philo's framework is dynamic: the model is what God is doing in conceiving the world, not a separate static object.",
+        "Note the parallel construction: 'the intelligible cosmos = the Logos of God in the act of creating' / 'the intelligible city = the architect's reasoning in the act of designing.' The two halves of the simile are isomorphic, which is what authorizes the analogy to carry theological weight. The Logos is to the kosmos noētos what the architect's λογισμός (reasoning) is to the city plan."
+      ],
+      "key_terms": [
+        {
+          "greek": "λογισμός",
+          "transliteration": "logismos",
+          "rendered_as": "reasoning",
+          "semantic_range": "calculation, reckoning, reasoning; the act of rational planning",
+          "note": "Same root as λόγος. Philo's pairing of λόγος (divine) with λογισμός (human-architectural) makes the analogy precise: the human architect's λογισμός is to the city design what the divine λόγος is to the kosmos noētos. Two cognates of the same noun-family, two acts of the same reasoning genus, scaled differently."
+        },
+        {
+          "greek": "ὕπαρξις",
+          "transliteration": "hyparxis",
+          "rendered_as": "being / existence",
+          "semantic_range": "real existence, actual being, the state of being there",
+          "note": "Philo's preferred technical term for the kind of existence enjoyed by intelligible-realm entities — they exist as the divine Logos's act of creating, not as substantial things independent of it. Compare to the medieval scholastic distinction between essence and existence (Aquinas, ST I.3.4) — Philo's framework anticipates the distinction without using the same vocabulary."
         }
       ],
       "reading_level": "11th-12th grade"
@@ -88,6 +151,49 @@
           "rendered_as": "plain / unadorned",
           "semantic_range": "naked, bare, stripped, unadorned",
           "note": "Philo's comparative γυμνοτέροις means 'more naked' — in context, 'in more straightforward terms.' The metaphor: Platonic technical vocabulary is a kind of clothing that, once removed, reveals the simpler fact underneath."
+        }
+      ],
+      "reading_level": "11th-12th grade"
+    },
+    {
+      "verse": 134,
+      "text_greek": "διττὰ ἀνθρώπων γένη· ὁ μὲν γάρ ἐστιν οὐράνιος ἄνθρωπος, ὁ δὲ γήϊνος. ὁ μὲν οὖν οὐράνιος ἅτε κατ' εἰκόνα θεοῦ γεγονὼς φθαρτῆς καὶ συνόλως γεώδους οὐσίας ἀμέτοχος, ὁ δὲ γήϊνος ἐκ σποράδος ὕλης, ἣν χοῦν κέκληκεν, ἐπάγη.",
+      "text_reference": "There are two kinds of men: the one is a heavenly man, the other an earthly man. The heavenly man, as having been made in the image of God, has no part whatever in any corruptible or earth-like essence; but the earthly man was compacted out of loose matter, which the prophet called dust. (Colson, Loeb I, pp. 106-107)",
+      "rendering": "There are two kinds of humans. One is the heavenly human; the other is the earthly. The heavenly human, having come into being according to the image of God, has no share in any corruptible or earth-bound substance. The earthly human, by contrast, was compacted out of scattered matter — what the lawgiver called dust.",
+      "translator_notes": [
+        "Cohn-Wendland I, p. 46; Loeb I, pp. 106-107 (Colson, 1929). §§134-135 is the heart of Philo's two-Adam reading. The interpretation hinges on the difference between Genesis 1:26-27 LXX (where God says 'let us make humanity according to our image' — κατ' εἰκόνα ἡμετέραν — and humanity is so made) and Genesis 2:7 LXX (where God forms the man 'out of dust from the ground' — χοῦν ἀπὸ τῆς γῆς). For Philo, the two passages describe two distinct creations: a heavenly archetype made in the divine image, and an earthly humanity formed from material substance.",
+        "1 Corinthians 15:45-49 is the direct Christian heir of this reading. Paul writes: 'The first man Adam became a living being; the last Adam became a life-giving spirit. But it is not the spiritual that is first, but the natural, and then the spiritual. The first man was from the earth, made of dust; the second man is from heaven.' Paul reverses Philo's temporal ordering (Philo's heavenly Adam comes first, Paul's heavenly Adam comes last) but inherits the framework: there are two humanities, one earthly and one heavenly. The heavenly humanity in Paul is then identified specifically with the risen Christ.",
+        "ὁ οὐράνιος ἄνθρωπος (ho ouranios anthrōpos, 'the heavenly human') is Philo's most explicit identification of the heavenly Adam with the Logos (or with what the Logos makes possible). The heavenly Adam is the kat' eikona figure of Genesis 1:26-27, and in Philo's other treatises this figure is the Logos itself (see Conf. §146's 'the man-after-the-image' as a title for the Logos).",
+        "Note Philo's distinction between κατ' εἰκόνα (kat' eikona, 'according to the image' — the heavenly humanity's mode of being made) and ἐκ χοῦ (ek chou, 'out of dust' — the earthly humanity's). The first is a relation of similarity to the divine Image; the second is a material composition. Philo's allegorical anthropology is interested in this difference because it explains how a single biblical narrative can describe two human creations without contradiction."
+      ],
+      "key_terms": [
+        {
+          "greek": "οὐράνιος ἄνθρωπος",
+          "transliteration": "ouranios anthrōpos",
+          "rendered_as": "heavenly human",
+          "semantic_range": "the heavenly man / humanity; the celestial archetypal human",
+          "note": "Philo's title for the Adam of Genesis 1:26-27 — the humanity made in the image of God, prior to the earthly Adam of Genesis 2:7. Paul's 'the second man from heaven' (1 Cor 15:47) is the same phrase repurposed for Christology."
+        },
+        {
+          "greek": "γήϊνος ἄνθρωπος",
+          "transliteration": "gēïnos anthrōpos",
+          "rendered_as": "earthly human",
+          "semantic_range": "the earthly man / humanity; the human made of dust",
+          "note": "Philo's title for the Adam of Genesis 2:7. The contrast with οὐράνιος ἄνθρωπος is the structural anchor of the two-Adam reading and (later) of Paul's first-Adam / last-Adam Christology."
+        },
+        {
+          "greek": "κατ' εἰκόνα",
+          "transliteration": "kat' eikona",
+          "rendered_as": "according to the image",
+          "semantic_range": "in accordance with the image / pattern; the prepositional phrase from Genesis 1:26-27 LXX",
+          "note": "The technical LXX phrase that distinguishes the heavenly humanity from the earthly. The heavenly Adam is made κατ' εἰκόνα; the earthly Adam is formed ἐκ χοῦ. Paul retains the contrast at 1 Cor 15:45-49 and Col 3:10 (τὸν ἄνθρωπον τὸν κατ' εἰκόνα τοῦ κτίσαντος αὐτόν — 'the new humanity after the image of the one who created it')."
+        },
+        {
+          "greek": "χοῦς",
+          "transliteration": "chous",
+          "rendered_as": "dust",
+          "semantic_range": "dust, loose earth, dry soil; the material from which earthly Adam was formed in Gen 2:7 LXX",
+          "note": "Septuagintal rendering of Hebrew 'afar (dust). Philo's careful retention of the LXX vocabulary — χοῦς rather than γῆ or κονιορτός — keeps the reader oriented to the specific biblical text being exegeted."
         }
       ],
       "reading_level": "11th-12th grade"

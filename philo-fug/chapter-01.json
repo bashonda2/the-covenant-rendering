@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "On Flight and Finding",
+    "abbreviation": "Fug.",
+    "author": "Philo of Alexandria",
+    "chapter": 1,
+    "source_text": "Cohn-Wendland critical edition (Berlin, 1896-1915), vol. III, as printed in Loeb Classical Library vol. V (Colson and Whitaker, 1934)",
+    "reference_text": "Colson/Whitaker English translation (Loeb V)",
+    "source_edition_apparatus": "Cohn-Wendland III (Berlin, 1898); Sources Chrétiennes 17 (Starobinski-Safran, 1970)",
+    "numbering_note": "Verse field = source §section number per Loeb / Cohn-Wendland sectionalization (Quality Contract §7-8). Only §101 is present in the Phase A proof-of-concept; Phase C will fill in §§1-100, 102-213 of this treatise.",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Philo's treatise on Hagar's flight from Sarah (Genesis 16:6-14) — read allegorically as the soul's journey of flight from the lower passions and finding of divine guidance. The Logos appears throughout the treatise as the guide of the fleeing soul and as the chief charioteer of the divine Powers. §101 is the centerpiece passage for Logos governance: the Logos drives the Powers as a charioteer drives a chariot, and God himself is the rider seated above.",
+    "remarkable": "Fug. §101 supplies the charioteer image that pre-Nicene Christian writers will use repeatedly when describing the Son's governing role over the cosmic powers. The image is precise: the Logos is not God directly handling the world, but God's instrument for handling the divine Powers themselves — a chariot-driver one rank above the chariot-team. This is the conceptual structure Hebrews 1:3 will preserve when it puts the Son 'upholding all things' (φέρων τὰ πάντα) by his word of power. The image also runs into 2 Maccabees 3:24-26 (the supernatural rider in the temple precinct) and into the iconographic tradition of Christ-as-charioteer found in early Christian sarcophagi and the imagery of Revelation 19:11-16.",
+    "friction": "The charioteer-and-rider image presents the Logos and God as ontologically distinct: the rider (God) is one being, the charioteer (Logos) is another, and the powers driven by the charioteer are a third order. Read against later Trinitarian theology, this configuration is closer to subordinationism than to consubstantial Trinity. Origen's De Principiis I.2 picks up the image in service of his eternal-generation doctrine; the Arian party will lean on it for their hierarchical Christology. Philo himself does not resolve the question.",
+    "connections": "Genesis 16:6-14 (Hagar's flight, the surface text of the treatise); Plato, Phaedrus 246a-b (the charioteer of the soul); Hebrews 1:3 ('upholding all things by his powerful word'); 2 Maccabees 3:24-26 (the supernatural rider in the temple); Revelation 19:11-16 (the rider on the white horse called the Word of God); Origen, De Princ. I.2 (the Logos as eternal governor); Clement of Alexandria, Strom. IV.25 (cites the Philonic charioteer image); Athanasius, De Inc. 17 (the Logos as the one in whose hands the cosmos hangs)."
+  },
+  "verses": [
+    {
+      "verse": 101,
+      "text_greek": "λόγος δὲ ὁ ὑπεράνω τούτων ἁπάντων ἀσώματος, εἰκὼν τοῦ θεοῦ, ὁ πρεσβύτατος καὶ γενικώτατος τῶν ὅσα γέγονεν, ἐγγυτάτω τοῦ μόνου ἀψευδῶς ὄντος ἀδιαστάτως ἐστηκώς. ἔστι γὰρ ὁ λόγος ὥσπερ ἡνίοχος δυνάμεων, ὁ δὲ προσδιακυβερνῶν ὁ ἐφ' ὑψηλοῦ καθεζόμενος.",
+      "text_reference": "The Word, which is above all these and bodiless, is the image of God, the most ancient and most generic of created things, standing closest to the only One who truly exists, separated by no division. For the Logos is, as it were, the charioteer of the Powers, and he who utters it is the rider, directing the charioteer from above. (Colson, Loeb V, pp. 64-67)",
+      "rendering": "The Logos, which is above all these and incorporeal, is the image of God — the most ancient and most generic of the things that have come to be — standing nearest to the only One who truly exists, without any separating distance. For the Logos is, as it were, charioteer of the Powers; the one who utters the Logos is the rider, directing the charioteer from above.",
+      "translator_notes": [
+        "Cohn-Wendland III, p. 130; Loeb V, pp. 64-67 (Colson, 1934). §101 articulates Philo's governance-by-instrument hierarchy in maximum compression: God is the rider, the Logos is the charioteer, the Powers are the chariot-team, the cosmos is the chariot being driven. Each rank acts only through the rank below it. God himself never touches the world directly; the Logos handles the Powers; the Powers handle the cosmos.",
+        "The charioteer image (ἡνίοχος) was the metaphor the original Step 2 brief mistakenly placed at Leg. III.96 — the actual Leg. III.96 content is the shadow / instrument exegesis of Bezaleel. The genuine charioteer passage is here at Fug. §101 (with a parallel at Migr. §67). Step 3 corrects the placement by authoring §101 in its proper location.",
+        "εἰκὼν τοῦ θεοῦ ('image of God') and πρεσβύτατος τῶν ὅσα γέγονεν ('most ancient of the things that have come to be') in the same breath: §101 packs together the two Christological predicates of Spec. I.§81 (image-of-God Logos) and Migr. §6 (most-ancient produced reality). The cross-reference pattern across these three §sections is one of the strongest pieces of evidence that Philo's Logos doctrine is a single coherent structure expressed in many local idioms.",
+        "ἐγγυτάτω τοῦ μόνου ἀψευδῶς ὄντος — 'standing nearest to the only One who truly exists' — is the maximally close formulation Philo allows. The Logos is as near to God as anything can be without being God. This is the formula Origen reads in De Princ. I.2.10 (the Son's perfect proximity to the Father) and that the Nicene Creed will eventually replace with ὁμοούσιος ('of one substance').",
+        "Plato's Phaedrus 246a-b uses the charioteer image for the rational part of the soul controlling the two horses of spirit and appetite. Philo redeploys the Platonic image at the cosmic scale: the Logos as charioteer is not driving an individual soul but driving the divine Powers themselves. The transposition from psychological to cosmological is Philo's distinctive contribution."
+      ],
+      "key_terms": [
+        {
+          "greek": "ἡνίοχος",
+          "transliteration": "hēniochos",
+          "rendered_as": "charioteer",
+          "semantic_range": "the one who holds the reins; chariot-driver; by extension, governor of a team or system",
+          "note": "Plato's term for the rational soul in Phaedrus 246a-b. Philo transposes the image from soul-governance to cosmic governance: the Logos as charioteer drives the Powers as Plato's charioteer drove the two horses. The image is a Greek philosophical commonplace pressed into Hellenistic Jewish theological service."
+        },
+        {
+          "greek": "δυνάμεις",
+          "transliteration": "dynameis",
+          "rendered_as": "Powers",
+          "semantic_range": "in Philo's theology, the personified divine operations through which God acts on the cosmos",
+          "note": "Capitalized 'Powers' signals Philo's quasi-hypostatic use — same as at Cher. §§27-28. The two principal Powers are the creative and the kingly, but Philo allows for more in different contexts. Here the Powers are the team the Logos-charioteer drives."
+        },
+        {
+          "greek": "γενικώτατος",
+          "transliteration": "genikōtatos",
+          "rendered_as": "most generic / most universal",
+          "semantic_range": "highest in genus; most universal in scope; that which contains all subordinate kinds",
+          "note": "Technical Philonic term. The Logos is γενικώτατος because all other created realities are species of which it is the genus. The conceptual move anticipates Plotinus's One-Nous-Soul ontology and the medieval doctrine of universals."
+        },
+        {
+          "greek": "ἀδιαστάτως",
+          "transliteration": "adiastatōs",
+          "rendered_as": "without separating distance / without interval",
+          "semantic_range": "without space between; uninterruptedly; immediately adjoining",
+          "note": "Philo's term for the Logos's proximity to God: no διάστημα (interval) separates the Logos from the One Who Is. The same word will appear in Athanasius's anti-Arian arguments to deny any ontological gap between the Father and the Son."
+        }
+      ],
+      "reading_level": "11th-12th grade"
+    }
+  ]
+}

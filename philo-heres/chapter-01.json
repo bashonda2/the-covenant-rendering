@@ -9,13 +9,13 @@
     "source_text": "Cohn-Wendland critical edition (Berlin, 1896-1915), vol. III, as printed in Loeb Classical Library vol. IV (Colson and Whitaker, 1932)",
     "reference_text": "Colson/Whitaker English translation (Loeb IV)",
     "source_edition_apparatus": "Cohn-Wendland III (Berlin, 1898); Sources Chrétiennes 15 (Harl, 1966)",
-    "numbering_note": "Verse field = source §section number per Loeb / Cohn-Wendland sectionalization (Quality Contract §7-8). Only §205 is present in the Phase A proof-of-concept; Phase C will fill in the remaining sections (§§1-204, 206-316) of this treatise. §206 in particular — containing the 'neither uncreated nor created' formula with Deuteronomy 5:5 quoted — is a natural early-Phase-C addition since it completes the §§205-206 unit.",
+    "numbering_note": "Verse field = source §section number per Loeb / Cohn-Wendland sectionalization (Quality Contract §7-8). §§205-206 present from Phase A authoring (the Logos-as-mediator unit). Phase C will fill in the remaining sections (§§1-204, 207-316) of this treatise.",
     "prompt_version": "1.3",
     "license": "CC-BY-4.0"
   },
   "preamble": {
-    "summary": "Philo's treatise on Genesis 15:2-18 — Abraham's complaint that he is childless and God's covenantal answer. The exegetical centerpiece is Genesis 15:10 (Abraham 'divided' the sacrificial animals 'in the midst'), which Philo reads as a parable of cosmic division: the Logos is the divider of all things, the one who stands at every boundary keeping each thing in its place. §205 names the Logos's office in this dividing role: he is the appointed border between God and creation.",
-    "remarkable": "Heres. §205 (with §206 immediately following) is the single most-cited Philo passage in modern scholarship on Christology and the Two-Natures problem. The image is precise: the Logos is appointed by the Father to stand on the border (μεθόριος) and to keep creature distinct from Creator. §206 elaborates with Deuteronomy 5:5 (Moses says, 'I stood between the Lord and you') and adds the famous formula — the Logos is 'neither uncreated like God nor created like you, but in the middle of the extremes, as a hostage to both parties' — that the Arian controversy will later turn on. Pre-Nicene Christianity inherits Philo's middle-Logos and reaches the Nicene homoousios by deciding the question Philo leaves open: is the mediator on the God side of the border or the creature side?",
+    "summary": "Philo's treatise on Genesis 15:2-18 — Abraham's complaint that he is childless and God's covenantal answer. The exegetical centerpiece is Genesis 15:10 (Abraham 'divided' the sacrificial animals 'in the midst'), which Philo reads as a parable of cosmic division: the Logos is the divider of all things, the one who stands at every boundary keeping each thing in its place. §§205-206 names the Logos's office in this dividing role: he is the appointed border between God and creation, neither uncreated like the Father nor created like the rest, but the in-between hostage to both.",
+    "remarkable": "Heres. §§205-206 is the single most-cited Philo passage in modern scholarship on Christology and the Two-Natures problem. The image is precise: the Logos is appointed by the Father to stand on the border (μεθόριος) and to keep creature distinct from Creator. §206 then elaborates with Deuteronomy 5:5 (Moses says, 'I stood between the Lord and you') and adds the famous formula — the Logos is 'neither uncreated like God nor created like you, but in the middle of the extremes, as a hostage to both parties' — that the Arian controversy will later turn on. Pre-Nicene Christianity inherits Philo's middle-Logos and reaches the Nicene homoousios by deciding the question Philo leaves open.",
     "friction": "The 'in the middle' language can be read in two opposite directions. Read up: the Logos is a created intermediary, ontologically lower than God. Read down: the Logos is a divine emanation, ontologically higher than creation. Philo himself does not resolve this — he calls the Logos 'God' (theos without article) in Somn. I.229-230 and 'second God' (deuteros theos) in QG II.62, but he also describes the Logos as 'created' in Sacr. §8 and elsewhere. The unresolved tension is what made Philo serviceable for both Origenist subordinationism and (eventually) for the Nicene party that rejected it.",
     "connections": "Genesis 15:2-18 (the surface text of the treatise); Genesis 15:10 (Abraham dividing the sacrificial animals — the exegetical hinge); Deuteronomy 5:5 (Moses 'I stood between the LORD and you' — quoted in §206); 1 Timothy 2:5 ('one mediator between God and humanity, the man Christ Jesus' — the same μεσιτ- structural concept); Hebrews 8:6, 9:15, 12:24 (Christ as mediator of a better / new covenant); Hebrews 7:25 ('he always lives to make intercession' — the suppliant office of §205); Justin Martyr, Dial. 56 ('another God and Lord under the Maker of all'); Origen, De Princ. I.2 (the Logos as eternal mediator); Athanasius, Contra Arianos II.31 (cites the Philonic borderland argument against Arianism); Eusebius, Praep. Ev. VII.13 (preserves the boundary-Logos doctrine)."
   },
@@ -59,6 +59,51 @@
           "rendered_as": "archangelic / chief messenger",
           "semantic_range": "ruler-messenger, chief envoy, the highest among angels",
           "note": "Not 'archangel' in the later Christian sense of one of seven named angels (Michael, Gabriel, etc.). Philo's ἀρχάγγελος is a title for the Logos in its messenger-aspect — the supreme bearer of divine communication. The same use is at Conf. §146 (ἀρχάγγελος πολυώνυμος). Early Jewish-Christian texts (Shepherd of Hermas, Ascension of Isaiah) preserve a residual 'angel-Christology' that trades on this Philonic vocabulary."
+        }
+      ],
+      "reading_level": "11th-12th grade"
+    },
+    {
+      "verse": 206,
+      "text_greek": "ἀγάλλεται δὲ ἐπὶ τῇ δωρεᾷ καὶ σεμνυνόμενος αὐτὴν ἐκδιηγεῖται φάσκων· 'κἀγὼ εἱστήκειν ἀνὰ μέσον κυρίου καὶ ὑμῶν,' οὔτε ἀγέννητος ὡς ὁ θεὸς ὢν οὔτε γεννητὸς ὡς ὑμεῖς, ἀλλὰ μέσος τῶν ἄκρων, ἀμφοτέροις ὁμηρεύων· παρὰ μὲν τῷ φυτεύσαντι πρὸς πίστιν τοῦ μὴ σύμπαν τὸ γένος ἀνατραπὲν ἀποστατῆσαι, παρὰ δὲ τῷ γενομένῳ πρὸς εὐελπιστίαν τοῦ μήποτε τὸν ἵλεω θεὸν περιιδεῖν τὸ ἴδιον ἔργον.",
+      "text_reference": "And he rejoices in the gift and proudly recounts it, saying: 'And I stood between the Lord and you' — neither being uncreated as God, nor created as you, but in the middle of the extremes, a hostage to both: to the one who planted, as a pledge that the whole race would not be wholly destroyed and lapse into apostasy; to the one who has come to be, as a ground of fair hope that the merciful God will never overlook his own work. (Colson, Loeb IV, pp. 384-387)",
+      "rendering": "And the Logos rejoices in this gift and proudly tells of it, saying: 'And I stood between the Lord and you' — neither uncreated as God is, nor created as you are, but in the middle of the two extremes, a pledge to both: to the Planter, as guarantee that the whole human race will not lapse altogether into apostasy; to the creature, as confident hope that the merciful God will never abandon his own work.",
+      "expanded_rendering": "Three predicates pack into this single sentence and shape the entire later Christological tradition. (1) The Logos is οὔτε ἀγέννητος ὡς ὁ θεός — 'not uncreated like God.' (2) The Logos is οὔτε γεννητὸς ὡς ὑμεῖς — 'not created like you.' (3) The Logos is μέσος τῶν ἄκρων — 'in the middle of the two extremes.' Pre-Nicene Christianity inherits this exact tripartite frame. The Arian controversy resolves it by closing one side: the Logos turns out, the Nicenes argue, to be on the God side after all (homoousios — of one substance with the Father). The Arians answered the same question in the opposite direction. Both sides are working with Philo's vocabulary; Nicaea is the council that decides which side of the border the Logos is on.",
+      "translator_notes": [
+        "Cohn-Wendland III, p. 47; Loeb IV, pp. 384-387 (Colson, 1932). §206 completes the §205-206 mediator unit. The biblical text quoted (κἀγὼ εἱστήκειν ἀνὰ μέσον κυρίου καὶ ὑμῶν, 'and I stood between the Lord and you') is Deuteronomy 5:5 LXX, where Moses describes his mediatorial role at Sinai. Philo's exegetical move is to read Moses's words as the Logos's words — the Logos is the standing-between figure whom Moses (as prophetic mouthpiece) was speaking on behalf of.",
+        "The triple formula οὔτε ἀγέννητος ὡς ὁ θεός / οὔτε γεννητὸς ὡς ὑμεῖς / μέσος τῶν ἄκρων is the single most theologically loaded sentence in Philo. It states the question that the Nicene controversy will spend three centuries answering: into which class — uncreated or created — does the Logos / Son fall? Philo's answer (neither) is unstable, and the Arian-Nicene conflict is precisely the working-out of the ambiguity.",
+        "Note that γεννητός and ἀγέννητος are technical terms here: γεννητός means 'begotten / created' (the same word range — there is no early-Greek lexical distinction between begetting and making), and ἀγέννητος means 'unbegotten / uncreated.' The Nicene Creed will eventually distinguish γεννητός (begotten) from ποιητός (made) and insist the Son is γεννητόν οὐ ποιηθέν — 'begotten, not made.' That distinction is a fourth-century Christian terminological move; Philo does not have it.",
+        "ὁμηρεύων ('hostage / pledge') is a notable image: the Logos is given by God to humanity as a hostage (in the ancient sense — a person sent as a guarantee of fidelity) and is given by humanity to God in the same role. The mediator is held by both sides. The image runs into the Hebrews 7:22 ('Jesus has become the surety / ἔγγυος of a better covenant') Christology.",
+        "Athanasius cites this §section by name in Contra Arianos II.31, arguing that Philo's 'neither uncreated nor created' line shows the Arians have misclassified the Son: where Philo left the question open, Christ's divine sonship resolves it. Origen, by contrast, uses the same line to defend the Logos's subordinate-but-divine status (De Princ. I.2.5). The verse is genuinely productive in both directions — which is what makes it the load-bearing pre-Nicene witness."
+      ],
+      "key_terms": [
+        {
+          "greek": "ἀγέννητος",
+          "transliteration": "agennētos",
+          "rendered_as": "uncreated / unbegotten",
+          "semantic_range": "not generated, not brought into being; in early Greek, indistinct between 'unborn' and 'uncreated'",
+          "note": "Philo's term for God's mode of being. The supreme God is ἀγέννητος because he is not produced by anything else. The Logos is not ἀγέννητος, by Philo's account in §206 — but Philo also calls God the πατήρ ('Father') of the Logos, which implies generation. The unresolved tension between 'the Logos is not uncreated' and 'the Logos is begotten of the Father' is one of the things Nicaea is resolving."
+        },
+        {
+          "greek": "γεννητός",
+          "transliteration": "gennētos",
+          "rendered_as": "created / begotten",
+          "semantic_range": "generated, brought into being; in early Greek, covers both 'begotten' and 'created / made'",
+          "note": "The Greek term does not distinguish biological begetting from artisanal making at this stage. The Nicene Creed will famously insist γεννηθέντα, οὐ ποιηθέν ('begotten, not made'), splitting what Philo (and the early Greek language) had not split. Philo's 'the Logos is not γεννητός as you are' is the seed of the distinction."
+        },
+        {
+          "greek": "μέσος τῶν ἄκρων",
+          "transliteration": "mesos tōn akrōn",
+          "rendered_as": "in the middle of the extremes",
+          "semantic_range": "between the two extremes; the mean between two poles",
+          "note": "Philo's most explicit articulation of the Logos's between-ness. The two extremes are the uncreated God and the created cosmos. The Logos occupies neither but mediates both. This image — the mediator as middle term — runs through Origen, Eusebius, Athanasius, the Cappadocians, and the post-Chalcedonian Christological tradition."
+        },
+        {
+          "greek": "ὁμηρεύων",
+          "transliteration": "homēreuōn",
+          "rendered_as": "as hostage / as pledge",
+          "semantic_range": "to serve as a hostage; to be given as a pledge of fidelity",
+          "note": "The image of the mediator as a hostage held by both parties as a guarantee of fidelity. Compare Hebrews 7:22 (ἔγγυος, 'surety / guarantor') applied to Christ. Philo's image is more vivid than the Hebrews legal term but performs the same conceptual work."
         }
       ],
       "reading_level": "11th-12th grade"
