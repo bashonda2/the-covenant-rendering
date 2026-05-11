@@ -65,6 +65,7 @@ const EXTENDED_BOOKS = [
   // LXX — per-chapter dedicated sites
   'lxx-daniel', 'lxx-esther', 'lxx-jeremiah',
   'lxx-isaiah', 'lxx-psalms', 'lxx-proverbs', 'lxx-job',
+  'lxx-exodus', 'lxx-1-samuel',
   // Interpretive traditions
   'targum-onkelos', 'targum-jonathan', 'jst', 'samaritan-pentateuch', 'vulgate',
   // Pre-Nicaea canon
@@ -180,6 +181,9 @@ function loadPerBookTradition(traditionSlug, fileGlob, dataKey) {
         const parts = [];
         if (e.targum_rendering) parts.push(e.targum_rendering);
         if (e.vulgate_rendering) parts.push(e.vulgate_rendering);
+        if (e.lxx_rendering) parts.push(e.lxx_rendering);
+        if (e.lxx_reading) parts.push(e.lxx_reading);
+        if (e.mt_rendering) parts.push(e.mt_rendering);
         if (e.sp_rendering) parts.push(e.sp_rendering);
         if (e.dss_rendering) parts.push(e.dss_rendering);
         if (e.change_summary) parts.push(e.change_summary);
@@ -213,6 +217,7 @@ const traditionLoadCount =
   loadPerBookTradition('targum-onkelos', null, 'renderings') +
   loadPerBookTradition('targum-jonathan', null, 'renderings') +
   loadPerBookTradition('vulgate', null, 'renderings') +
+  loadPerBookTradition('lxx', null, 'renderings') +
   loadPerBookTradition('samaritan-pentateuch', null, 'variants') +
   loadPerBookTradition('jst', null, 'footnotes') +
   loadPerBookTradition('dss-fragments', null, 'variants');
