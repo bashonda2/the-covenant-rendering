@@ -1,0 +1,82 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Dialogue with Trypho",
+    "abbreviation": "Dial.",
+    "author": "Justin Martyr",
+    "chapter": 64,
+    "source_text": "Goodspeed Greek (Die ältesten Apologeten, Göttingen 1914)",
+    "reference_text": "Roberts/Donaldson English translation in Schaff, Ante-Nicene Fathers vol. I (Edinburgh, 1885)",
+    "source_edition_apparatus": "Goodspeed (1914); Marcovich (PTS 47, 1997)",
+    "numbering_note": "Goodspeed chapter divisions; verse numbering is TCR-internal sentence numbering against Schaff ANF I (newadvent.org/fathers/01285.htm).",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Justin presses the pre-existence argument with two additional psalmic prooftexts. Psalm 72 (LXX Ps 71) is read as a prophecy of Christ existing 'before the sun' — refuting any temporal-creation account of the Logos and refuting the conventional rabbinic attribution of the psalm to Solomon. Psalm 19:4-6 (LXX Ps 18) is read as a prophecy of Christ's 'going forth from the highest heaven' and 'return to heaven' — proving simultaneous divinity (heavenly origin) and humanity (entry into the world). The chapter is also a defense of the salvation of pre-Christian Jews: they were saved by the Christ who pre-existed, not by mere legal observance.",
+    "remarkable": "Dial. 64 deploys Psalm 72:5 LXX ('His name endures before the sun, before the moon for all generations') as a Christological pre-existence prooftext. This is the earliest extant Christian use of Psalm 72 in that direction — most rabbinic readings of Psalm 72 see it as a Solomonic royal psalm, and most early Christian readings emphasize its messianic-kingdom themes (Justice, dominion, all nations served). Justin's specific use of v5's 'before the sun' as a pre-existence prooftext is theologically distinctive and presupposes the begotten-before-all-creatures Logos-doctrine he laid out at Dial. 61.",
+    "friction": "The argument that pre-Christian Jews were saved by the not-yet-incarnate Christ raises the question of whether Mosaic Law has any salvific function at all. Justin's answer in this chapter is implicit but pointed: the Law's function is testimonial — it points toward the Christ who is the actual ground of salvation — but observance alone is insufficient without recognition of the Christ-figure who is the Law's referent. This anticipates Paul's argument in Romans 4 (Abraham was justified by faith before the Law) and Galatians 3 (the Law as παιδαγωγός / pedagogue leading to Christ), but applies the framework to the question of Jewish salvation rather than to Gentile inclusion.",
+    "connections": "Psalm 72 LXX (Ps 71 LXX) — esp. v5 'His name endures before the sun' and v17 'before the sun his name shall endure'; Psalm 19:4-6 LXX (Ps 18) — esp. v6 'from the highest heaven is his going forth'; Philo, On the Creation §25 (Logos engaged in creation — TCR /philo-opif/1/25); Philo, On the Migration of Abraham §6 (Logos as God's instrument from before creation — TCR /philo-migr/1/6); Justin, Dial. 61 (the begotten-before-all-creatures framework Step 4 shipped — /justin-dialogue/61); Romans 4:1-25 (Abraham justified by faith before the Law); Galatians 3:24 (the Law as pedagogue to Christ); Hebrews 11 (the faith of pre-Christian Jews oriented toward the not-yet-come Messiah)."
+  },
+  "verses": [
+    {
+      "verse": 2,
+      "text_greek": "ὅτι δὲ καὶ πρὸ τοῦ ἡλίου ἐστὶν αὐτοῦ τὸ ὄνομα, ἀκούσατε τοῦ Δαυίδ· ἀνατελεῖ ἐν ταῖς ἡμέραις αὐτοῦ δικαιοσύνη καὶ πλῆθος εἰρήνης ἕως ἀνταναιρεθῇ ἡ σελήνη. καὶ κατακυριεύσει ἀπὸ θαλάσσης ἕως θαλάσσης... πρὸ τοῦ ἡλίου διαμενεῖ τὸ ὄνομα αὐτοῦ.",
+      "text_reference": "And that His name exists also before the sun, hear what David said: 'In his days righteousness shall arise, and abundance of peace till the moon is taken away; and he shall have dominion from sea to sea... before the sun shall his name endure.' (Schaff, ANF I, p. 231 — quoting Psalm 72:7, 8, 17 LXX)",
+      "rendering": "And that his name exists even before the sun — hear what David said: 'In his days righteousness shall rise up, and abundance of peace till the moon is taken away; and he shall have dominion from sea to sea... before the sun his name shall endure.'",
+      "translator_notes": [
+        "Goodspeed, p. 166 (Dial. 64.2); Schaff, ANF I, p. 231. Psalm 72:7, 8, 17 LXX (Ps 71 LXX in the Greek versification). The decisive line for Justin's argument is the final clause: πρὸ τοῦ ἡλίου διαμενεῖ τὸ ὄνομα αὐτοῦ — 'before the sun his name shall endure.' The phrase πρὸ τοῦ ἡλίου ('before the sun') Justin reads as a temporal-priority statement: the Christ's name pre-exists the sun, which means it pre-exists creation (since the sun is among the first-created luminaries of Gen 1:14-19).",
+        "The pre-existence argument here is parallel to Dial. 61's 'God begot before all creatures a Beginning' (TCR /justin-dialogue/61, v1) but uses Psalmic prooftext rather than Wisdom-personification (Prov 8). Both passages assert the same proposition — the Christ-figure pre-exists creation — from different scriptural angles. Justin's compounding-prooftexts method.",
+        "Note Justin's framing 'hear what David said' (ἀκούσατε τοῦ Δαυίδ). The Davidic authorial attribution of Psalm 72 is contested in modern scholarship: the psalm's superscript 'For Solomon' (εἰς Σαλωμων at LXX Ps 71:1) suggests a Solomonic royal-coronation context. Justin treats David as the prophetic mouthpiece regardless of the immediate Solomonic occasion — the same hermeneutical move he deploys throughout the Davidic-prooftexts chapter, treating David as both psalmist and Spirit-inspired prophet.",
+        "Cross-reference Philo, On the Creation §25 (TCR /philo-opif/1/25): Philo's Logos is engaged in creation as a present participle (κοσμοποιοῦντος — 'making the cosmos'). The Logos's pre-existence-as-creation-agent is exactly the Philonic framework Justin's 'before the sun' argument inhabits. Justin reads the Psalm as Davidic ratification of what Philo had already articulated as cosmogonic ontology."
+      ],
+      "key_terms": [
+        {
+          "greek": "πρὸ τοῦ ἡλίου",
+          "transliteration": "pro tou hēliou",
+          "rendered_as": "before the sun",
+          "semantic_range": "the temporal-priority idiom; 'before the sun (was created)' = before the cosmos",
+          "note": "Justin's exegetical hinge. The Septuagintal Psalm 72 phrase carries (for Justin) the same theological weight as Colossians 1:17 (πρὸ πάντων — 'before all things') and Justin's own Dial. 61 πρὸ πάντων τῶν κτισμάτων ('before all creatures'). The Logos's pre-cosmic existence is the doctrinal anchor."
+        },
+        {
+          "greek": "διαμένω",
+          "transliteration": "diamenō",
+          "rendered_as": "to endure / to remain",
+          "semantic_range": "to continue, to persist, to remain in a state across time",
+          "note": "Septuagintal verb of persisting existence. The Christ's name 'endures' both before the sun and through all generations — a continuous-existence claim that bridges pre-cosmic and historical time. The same διαμένω verb appears at Hebrews 7:24 ('he holds his priesthood permanently') in the Christological context of Christ's enduring eternal role."
+        }
+      ],
+      "reading_level": "11th-12th grade"
+    },
+    {
+      "verse": 4,
+      "text_greek": "καὶ ἐν ἑτέρῳ δὲ ψαλμῷ· ἀπ' ἄκρου τοῦ οὐρανοῦ ἡ ἔξοδος αὐτοῦ, καὶ τὸ κατάντημα αὐτοῦ ἕως ἄκρου τοῦ οὐρανοῦ, καὶ οὐκ ἔστιν ὃς ἀποκρυβήσεται τῆς θέρμης αὐτοῦ.",
+      "text_reference": "And in another psalm: 'From the highest heaven is his going forth, and his returning is unto the highest heaven; and there is nothing hidden from his heat.' (Schaff, ANF I, p. 231 — quoting Psalm 19:6 LXX = Ps 18 LXX)",
+      "rendering": "And in another psalm: 'From the highest heaven is his going forth, and his return goes back to the highest heaven; nothing is hidden from his heat.'",
+      "translator_notes": [
+        "Goodspeed, p. 166 (Dial. 64.4); Schaff, ANF I, p. 231. Psalm 19:6 LXX (Ps 18 LXX in Greek versification). The literal Hebrew/LXX context is the sun's daily journey from horizon to horizon — solar imagery in praise of God's heavenly creation. Justin reads the imagery Christologically: the going-forth from the highest heaven and the return to the highest heaven are the incarnation and the ascension. The 'heat' that nothing is hidden from is the Logos's universal judging presence.",
+        "The two-direction movement (heaven → earth → heaven) is the Christological grammar Philippians 2:6-11 will articulate as descent + exaltation. Justin's Psalm 19 reading anticipates the Philippians configuration but stays grounded in Septuagintal-Davidic vocabulary rather than the Pauline μορφή ('form') / κένωσις ('emptying') language.",
+        "ἀπ' ἄκρου τοῦ οὐρανοῦ ἡ ἔξοδος αὐτοῦ ('from the highest heaven is his going forth') is the line Justin reads as proof of the Christ's heavenly origin. The going-forth (ἔξοδος) is the same noun the Septuagint uses for Israel's departure from Egypt — Justin transfers the term to the Logos's departure from heaven into the world. The same transfer is implicit in Luke 9:31 (the ἔξοδος Jesus is to accomplish in Jerusalem).",
+        "Cross-reference Philo, On the Migration of Abraham §6 (TCR /philo-migr/1/6): Philo's Logos is 'the most ancient of all things that have come to be' and the rudder God uses to steer the universe. The heavenly-origin claim Justin reads from Psalm 19 is the same proposition Philo articulates as cosmogonic-instrumental priority."
+      ],
+      "key_terms": [
+        {
+          "greek": "ἔξοδος",
+          "transliteration": "exodos",
+          "rendered_as": "going forth / departure",
+          "semantic_range": "departure, exit, going-out; in Septuagintal usage, the technical noun for Israel's exit from Egypt; in Lukan usage, the technical noun for Jesus's death-and-departure",
+          "note": "The same noun the Septuagint uses for Israel's foundational departure event. Justin's transfer of the term to the Logos's heavenly going-forth is theologically dense: the Logos's heavenly departure prefigures Israel's redemption departure, which both prefigure and are completed by the Christ's earthly mission. Luke 9:31 (Moses and Elijah speaking with the transfigured Jesus 'of his ἔξοδος which he was about to accomplish at Jerusalem') brings the chain together."
+        },
+        {
+          "greek": "ἀπ' ἄκρου τοῦ οὐρανοῦ",
+          "transliteration": "ap' akrou tou ouranou",
+          "rendered_as": "from the highest heaven",
+          "semantic_range": "from the extremity/end of heaven; from the heavenly horizon; from the highest reach of the heavens",
+          "note": "Septuagintal idiom for the highest heavens (third heaven). The phrase Justin reads here as origin-of-the-Logos is the same heavenly-realm Paul references at 2 Corinthians 12:2 ('I know a man caught up to the third heaven')."
+        }
+      ],
+      "reading_level": "11th-12th grade"
+    }
+  ]
+}
