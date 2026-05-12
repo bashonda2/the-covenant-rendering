@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Dialogue with Trypho",
+    "abbreviation": "Dial.",
+    "author": "Justin Martyr",
+    "chapter": 59,
+    "source_text": "Goodspeed Greek (Die ältesten Apologeten, Göttingen 1914)",
+    "reference_text": "Roberts/Donaldson English translation in Schaff, Ante-Nicene Fathers vol. I (Edinburgh, 1885)",
+    "source_edition_apparatus": "Goodspeed (1914); Marcovich (PTS 47, 1997)",
+    "numbering_note": "Goodspeed chapter divisions; verse numbering is TCR-internal sentence numbering against Schaff ANF I (newadvent.org/fathers/01285.htm).",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Justin extends the Logos-proof from the Genesis theophanies into the Exodus burning-bush narrative. The Angel of the Lord who appeared to Moses in the flame of fire — and who is then called 'the Lord' / 'God' speaking from the bush — is the same Logos-figure who appeared to Abraham and Jacob. Same configuration: a figure named both 'Angel' and 'God,' distinct in number from the Maker of all things, who bears the Father's commission and speaks the Father's word.",
+    "remarkable": "Dial. 59 transposes the Mamre/Bethel/Peniel theophany pattern into the founding Exodus theophany. Justin's reading commits: every divine appearance in the Pentateuchal narrative is an appearance of the same Logos-figure, never of the Maker himself. The framework had been articulated by Philo for the same passages (the Exodus burning bush exegesis runs through Philo's De vita Mosis I.65-70, with the Logos identified as the speaker); Justin makes the Christological identification explicit.",
+    "friction": "The argument cuts hard against later monotheist instincts. Justin is asserting that the God who gave the Torah at Sinai was not the supreme God-the-Maker but a subordinate divine figure — what later Trinitarian theology will read as the pre-incarnate Son, but what reads on first hearing as a hierarchical pantheon. Trypho's eventual response in the chapter that follows will press exactly this tension.",
+    "connections": "Exodus 3:2-6 LXX (the Angel of the Lord appears, then God speaks); Exodus 3:14 LXX (the divine self-naming ἐγώ εἰμι ὁ ὤν); Philo, On the Migration of Abraham §6 (Logos as God's instrument); Philo, On Dreams §230 (same Genesis 31:13 pattern of the Angel-Logos speaking as God); Philo, On the Cherubim §28 (the Logos between divine Powers — relevant to the bush theophany's bidirectional revelation); Acts 7:30-35 (Stephen's speech identifies the bush figure as 'the angel'); Hebrews 1:1-2 (God speaking in the prophets and now in the Son)."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_greek": "Μωυσῇ γὰρ τῷ μακαρίῳ καὶ πιστῷ θεράποντι αὐτοῦ ἔφη ὁ θεός. καί ἀκούσωμεν τοῦ νόμου τοῖς ἑαυτοῦ λόγοις λέγοντος καὶ ὑμᾶς πείθοντος ὅτι ὁ ἐν τῇ βάτῳ Μωυσεῖ ὀφθεὶς θεὸς οὐχ ὁ ποιητὴς τῶν ὅλων ἐστίν, ἀλλὰ ὁ ὀφθεὶς τῷ Ἀβραὰμ καὶ τῷ Ἰσαὰκ καὶ τῷ Ἰακώβ.",
+      "text_reference": "For God spoke to Moses, the blessed and faithful servant of his. Let us hear, then, the Law in its own words, persuading you that the God who appeared to Moses in the bush is not the Maker of all things, but the one who appeared to Abraham, to Isaac, and to Jacob. (Schaff, ANF I, p. 226, paraphrased)",
+      "rendering": "God spoke to Moses, his blessed and faithful servant. Let the Law speak for itself and persuade you: the God who appeared to Moses in the burning bush is not the Maker of all things. He is the same one who appeared to Abraham, to Isaac, and to Jacob.",
+      "translator_notes": [
+        "Goodspeed, p. 160 (Dial. 59.1); Schaff, ANF I, p. 226. Justin's opening move in Dial. 59 transposes the §56 Mamre-theophany argument and the §58 Jacob-theophany argument onto the Exodus burning bush. The exegetical claim: every visible divine appearance in the Pentateuch — Genesis 18 (Mamre), Genesis 28 / 31 / 32 (Bethel, the speckled-flock vision, Peniel), Exodus 3 (the bush) — is the same Angel-Logos figure, never the Maker himself. The Maker remains transcendent and unseen.",
+        "Cross-reference Philo, De Vita Mosis I.65-70 (not yet authored in TCR), where Philo gives a parallel reading of the burning bush: the bush represents Israel-as-suffering, the unconsumed fire represents the divine Logos sustaining the people without destroying them. Philo and Justin are reading the same passage with the same framework; only the Christological identification differs.",
+        "Acts 7:30-35 (Stephen's speech) explicitly names 'the angel' as the speaker at the bush — 'an angel appeared to him in the wilderness of Mount Sinai in a flame of fire in a bush.' The angel-Christology of pre-Nicene Christianity (Justin Dial. 56-62; Shepherd of Hermas; Ascension of Isaiah) is reading Acts 7 + Genesis-Exodus theophanies through a Philonic lens.",
+        "The cross-link Philo, Confusion of Tongues §146 (TCR /philo-conf/1/146) carries the title-catalog framework Justin's argument inherits. Philo's ἀρχάγγελος πολυώνυμος ('archangel of many names') is the conceptual ancestor of Justin's same-figure-many-titles methodology across Dial. 56-62."
+      ],
+      "key_terms": [
+        {
+          "greek": "θεράπων",
+          "transliteration": "therapōn",
+          "rendered_as": "servant",
+          "semantic_range": "attendant, servant, follower; in Septuagintal usage, a term of honor for the chosen of God",
+          "note": "Septuagintal title for Moses (e.g., Num 12:7 — οὐχ οὕτως ὁ θεράπων μου Μωυσῆς, 'not so my servant Moses'), inherited at Hebrews 3:2-6 where Moses is contrasted with Christ as 'servant in God's house' vs. 'Son over God's house.' Justin's deployment of the title for Moses subtly sets up the eventual Christological contrast."
+        },
+        {
+          "greek": "βάτος",
+          "transliteration": "batos",
+          "rendered_as": "bush",
+          "semantic_range": "the thorny bush of Exodus 3:2-6 LXX",
+          "note": "Septuagintal vocabulary for the burning bush of Sinai. The Greek βάτος is also the technical New Testament noun for the same site (Mark 12:26, Acts 7:30, 7:35) — direct evidence that the LXX vocabulary structures the Christian theological-historical reading."
+        }
+      ],
+      "reading_level": "11th-12th grade"
+    }
+  ]
+}
