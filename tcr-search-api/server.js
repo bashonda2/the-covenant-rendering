@@ -70,6 +70,13 @@ const EXTENDED_BOOKS = [
   'targum-onkelos', 'targum-jonathan', 'jst', 'samaritan-pentateuch', 'vulgate',
   // Pre-Nicaea canon
   '1-enoch', 'jubilees',
+  // Phase A Jewish Hellenistic — Philo of Alexandria (10 treatises)
+  'philo-opif', 'philo-leg', 'philo-cher', 'philo-conf', 'philo-migr',
+  'philo-heres', 'philo-somn', 'philo-spec', 'philo-fug', 'philo-mut',
+  // Phase A Apologists — Justin Martyr
+  'justin-dialogue',
+  // Phase A Apostolic Fathers — Ignatius of Antioch (3 of 7 letters; remaining 4 in Step 6b)
+  'ignatius-ephesians', 'ignatius-magnesians', 'ignatius-trallians',
 ];
 
 const ALL_BOOKS = [...CANONICAL_BOOKS, ...EXTENDED_BOOKS];
@@ -347,6 +354,45 @@ const TRADITION_ALIASES = {
   'maccabees':        ['1-maccabees', '2-maccabees'],
   'maccabean':        ['1-maccabees', '2-maccabees'],
   'hanukkah':         ['1-maccabees', '2-maccabees'],
+  // Phase A Pre-Nicene Tier S corroboration corpus
+  'philo':            ['philo-'],
+  'philo of alexandria': ['philo-'],
+  'logos':            ['philo-', 'justin-dialogue', 'ignatius-'],
+  'logos doctrine':   ['philo-', 'justin-dialogue', 'ignatius-'],
+  'jewish hellenistic': ['philo-'],
+  'second god':       ['philo-somn', 'justin-dialogue'],
+  'deuteros theos':   ['philo-somn'],
+  'two powers':       ['philo-cher', 'philo-conf'],
+  'opif':             ['philo-opif'],
+  'on the creation':  ['philo-opif'],
+  'allegorical interpretation': ['philo-leg'],
+  'on the cherubim':  ['philo-cher'],
+  'confusion of tongues': ['philo-conf'],
+  'migration of abraham': ['philo-migr'],
+  'who is the heir':  ['philo-heres'],
+  'on dreams':        ['philo-somn'],
+  'special laws':     ['philo-spec'],
+  'on flight and finding': ['philo-fug'],
+  'change of names':  ['philo-mut'],
+  // Phase A Apologists
+  'justin':           ['justin-dialogue'],
+  'justin martyr':    ['justin-dialogue'],
+  'dialogue with trypho': ['justin-dialogue'],
+  'trypho':           ['justin-dialogue'],
+  'apologist':        ['justin-dialogue'],
+  'parthenos':        ['justin-dialogue', 'lxx-isaiah'],
+  // Phase A Apostolic Fathers — Ignatius
+  'ignatius':         ['ignatius-'],
+  'ignatius of antioch': ['ignatius-'],
+  'apostolic father': ['ignatius-'],
+  'apostolic fathers':['ignatius-'],
+  'martyr':           ['ignatius-', 'justin-dialogue'],
+  'martyrdom':        ['ignatius-', 'justin-dialogue'],
+  'docetic':          ['ignatius-trallians', 'ignatius-ephesians'],
+  'docetism':         ['ignatius-trallians', 'ignatius-ephesians'],
+  'eucharist':        ['ignatius-ephesians'],
+  'medicine of immortality': ['ignatius-ephesians'],
+  'theotokos':        ['ignatius-ephesians'],
 };
 
 function detectTraditionPrefixes(query) {
